@@ -1,0 +1,50 @@
+{
+  "brand": "KoreaTripHub",
+  "nav": {
+    "plan": "Plan Trip",
+    "planner": "AI Planner",
+    "destinations": "Destinations",
+    "food": "Food",
+    "reviews": "Reviews",
+    "kculture": "K-Culture",
+    "map": "Map",
+    "help": "Help"
+  },
+  "plan": {
+    "eyebrow": "Plan your trip — start here",
+    "sub": "The 6 essentials to sort before you land in Korea.",
+    "tiles": {
+      "visa": { "title": "Visa & K-ETA", "sub": "Entry permit & visa rules" },
+      "transit": { "title": "Getting Around", "sub": "T-money · subway · KTX · taxi" },
+      "airport": { "title": "Airport → City", "sub": "Incheon · AREX express" },
+      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Stay connected on arrival" },
+      "money": { "title": "Money & Payment", "sub": "Exchange · cards · cash" },
+      "weather": { "title": "Best Time / Weather", "sub": "When to visit & what to pack" }
+    }
+  },
+  "hero": {
+    "badge": "AI Trip Planner — the heart of Korea Trip Hub",
+    "title_1": "Pin your hotel. Pick a city.",
+    "title_2": "Get the whole trip planned.",
+    "lede": "Tell us where you're staying and where you want to go — say, Busan. We map the fastest way there (KTX, bus, flight) and build a day-by-day route through the city's must-see spots, starting from your door.",
+    "f_hotel": "Your hotel / starting point",
+    "f_dest": "Where do you want to go?",
+    "f_days": "Days",
+    "f_travelers": "Travelers",
+    "f_style": "Trip style",
+    "build": "Build my trip"
+  },
+  "help": {
+    "eyebrow": "Peace of mind",
+    "title": "Help & Safety",
+    "sub": "Verified essentials to save before you land — every number checked against an official source.",
+    "verified_on": "Verified",
+    "check_official": "Always confirm at the official source",
+    "embassy": { "title": "Your embassy", "sub": "Address, phone & map by country." },
+    "unavailable": "Being verified"
+  },
+  "footer": {
+    "tagline": "The all-in-one hub for visiting Korea — plan, explore, eat and experience, in 20 languages.",
+    "disclaimer": "Travel facts are checked against official sources with a verification date. Prices, schedules and visa rules change — always confirm at the linked official source before you travel."
+  }
+}

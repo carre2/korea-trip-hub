@@ -1,0 +1,17 @@
+{
+  "name": "korea-trip-hub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "All-in-one multilingual travel hub for foreign visitors to Korea — AI trip planner, verified essentials, food & experiences, reviews, K-culture.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
