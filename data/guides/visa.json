@@ -1,0 +1,135 @@
+{
+  "_README": "Rich guide content for the Visa & K-ETA plan page (English base). Numbers that are precise (fee, validity, windows) are also grounded in facts.json and shown in Verified-facts boxes. Section headings can be localized via messages.guide; body is English-first and falls back to English for other locales until translated.",
+  "slug": "visa",
+  "kicker": "Entry & Documents",
+  "readingTime": "6 min read",
+  "hero": {
+    "img": "/img/visa/incheon-arrivals.jpg",
+    "alt": "Departures hall at Incheon International Airport",
+    "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+  },
+  "tldr": [
+    "Most tourists need NO visa for a short stay — but you almost always need the free e-Arrival Card.",
+    "K-ETA is temporarily waived for 22 countries through 31 Dec 2026; it returns 1 Jan 2027.",
+    "If you DO need K-ETA: apply only at k-eta.go.kr, ₩10,000, valid 3 years, at least 72h before you fly."
+  ],
+  "documents": {
+    "title": "The 3 documents, in plain English",
+    "intro": "Entering Korea can involve up to three separate things. Most short-term tourists only deal with one or two of them. Here is what each one actually is:",
+    "cards": [
+      { "icon": "🛂", "name": "Tourist Visa", "who": "Only nationalities NOT on the visa-free list", "what": "A visa sticker/label you get from a Korean embassy before you travel.", "cost": "Varies by consulate", "tone": "neutral" },
+      { "icon": "✅", "name": "K-ETA", "who": "Visa-free nationals (currently waived for 22 countries)", "what": "An electronic travel authorization linked to your passport. Not a visa — it's permission to board.", "cost": "₩10,000 · valid 3 years", "tone": "blue" },
+      { "icon": "📝", "name": "e-Arrival Card", "who": "Almost every short-term visitor", "what": "A digital entry/customs declaration that replaced the old paper card you used to fill on the plane.", "cost": "Free · online", "tone": "green" }
+    ]
+  },
+  "decision": {
+    "title": "Which do YOU need? (30-second check)",
+    "intro": "Find the row that matches you. Rules depend on nationality, so always confirm your own case at the official site.",
+    "branches": [
+      { "case": "You're from one of the 22 K-ETA-exempt countries (US, UK, Japan, Canada, EU, Australia…)", "visa": "no", "keta": "waived", "earrival": "yes", "summary": "Just do the free e-Arrival Card. That's it." },
+      { "case": "You're visa-free but NOT on the exempt list", "visa": "no", "keta": "yes", "earrival": "yes*", "summary": "Get K-ETA (holding it exempts you from the e-Arrival Card)." },
+      { "case": "Your nationality is not visa-free", "visa": "yes", "keta": "n/a", "earrival": "yes", "summary": "Apply for a tourist visa at a Korean embassy first." }
+    ],
+    "legend": "* Holding a valid K-ETA exempts you from the e-Arrival Card."
+  },
+  "compare": {
+    "title": "Visa vs K-ETA vs e-Arrival Card",
+    "cols": ["", "Tourist Visa", "K-ETA", "e-Arrival Card"],
+    "rows": [
+      { "label": "What it is", "vals": ["Entry visa from an embassy", "Electronic travel authorization", "Digital arrival/customs form"] },
+      { "label": "Who needs it", "vals": ["Non-visa-free nationals", "Visa-free nationals (see waiver)", "Almost all short-term visitors"] },
+      { "label": "Where to get it", "vals": ["Korean embassy/consulate", "k-eta.go.kr only", "e-arrivalcard.go.kr"] },
+      { "label": "Cost", "vals": ["Varies", "₩10,000 (~US$8)", "Free"] },
+      { "label": "Valid for", "vals": ["Per visa", "3 years, multiple entries", "Single trip (expires 72h after filing)"] },
+      { "label": "When to do it", "vals": ["Weeks ahead", "≥72h before boarding", "≤72h before arrival"] }
+    ]
+  },
+  "ketaSteps": {
+    "title": "How to apply for K-ETA — step by step",
+    "note": "Only if your nationality is not currently exempt. The official process on k-eta.go.kr has 7 steps and usually takes 10–15 minutes.",
+    "steps": [
+      { "n": 1, "title": "Agree to the terms", "detail": "Open k-eta.go.kr (or the official K-ETA app) and start a single or group application. Read and accept the terms." },
+      { "n": 2, "title": "Verify your email", "detail": "Register or verify with an email address. Your approval and receipt are sent here — use an address you can access while travelling." },
+      { "n": 3, "title": "Enter passport info", "detail": "Type your passport details (or scan the photo page). If you're exempt, a pop-up appears here telling you K-ETA isn't required." },
+      { "n": 4, "title": "Fill the application", "detail": "Add your trip details, address in Korea, and upload a passport-style face photo (plain background, no glasses/hat)." },
+      { "n": 5, "title": "Review everything", "detail": "Double-check name spelling and passport number against your actual passport — mismatches are the #1 cause of problems at the gate." },
+      { "n": 6, "title": "Pay the fee", "detail": "Pay ₩10,000 by card. This fee is non-refundable, even if the application is later declined." },
+      { "n": 7, "title": "Get approval", "detail": "Most approvals arrive within minutes, but it can take up to 72 hours. Save the PDF/screenshot; airlines may check it before boarding." }
+    ]
+  },
+  "prepare": {
+    "title": "Have these ready before you start",
+    "items": [
+      { "icon": "📕", "t": "Passport", "d": "Valid for your whole stay. You'll enter the number exactly as printed." },
+      { "icon": "📸", "t": "Face photo", "d": "Passport-style: plain light background, face clearly visible, no glasses or headwear." },
+      { "icon": "📧", "t": "Email you can check abroad", "d": "Approval and receipt are emailed here." },
+      { "icon": "💳", "t": "Payment card", "d": "For the ₩10,000 fee (K-ETA) — the e-Arrival Card is free." },
+      { "icon": "🏨", "t": "Korea address", "d": "Your first hotel/stay address and phone are asked on both forms." }
+    ]
+  },
+  "earrival": {
+    "title": "The e-Arrival Card (free) — don't skip this",
+    "intro": "Since 2025, Korea replaced the paper arrival card with a digital e-Arrival Card. Almost every short-term visitor files it — the big exception is people who hold a valid K-ETA (and registered residents).",
+    "steps": [
+      { "n": 1, "title": "Open the official site", "detail": "Go to e-arrivalcard.go.kr — it's free. Beware paid look-alike sites." },
+      { "n": 2, "title": "File within 72 hours of arrival", "detail": "You can only submit within 3 days of landing (Korea time). Filing too early means it expires before you arrive." },
+      { "n": 3, "title": "Enter passport, flight & address", "detail": "Passport info, flight number, and where you'll stay in Korea." },
+      { "n": 4, "title": "Save the confirmation", "detail": "Show the QR/confirmation at immigration to skip the paper queue." }
+    ]
+  },
+  "exempt": {
+    "title": "K-ETA-exempt countries (through 31 Dec 2026)",
+    "intro": "Citizens of these 22 countries/regions can currently enter without K-ETA. The waiver is scheduled to end and K-ETA returns on 1 Jan 2027 — reconfirm before you travel.",
+    "countries": [
+      { "flag": "🇦🇺", "n": "Australia" }, { "flag": "🇦🇹", "n": "Austria" }, { "flag": "🇧🇪", "n": "Belgium" }, { "flag": "🇨🇦", "n": "Canada" },
+      { "flag": "🇩🇰", "n": "Denmark" }, { "flag": "🇫🇮", "n": "Finland" }, { "flag": "🇫🇷", "n": "France" }, { "flag": "🇩🇪", "n": "Germany" },
+      { "flag": "🇭🇰", "n": "Hong Kong" }, { "flag": "🇮🇹", "n": "Italy" }, { "flag": "🇯🇵", "n": "Japan" }, { "flag": "🇲🇴", "n": "Macao" },
+      { "flag": "🇳🇱", "n": "Netherlands" }, { "flag": "🇳🇿", "n": "New Zealand" }, { "flag": "🇳🇴", "n": "Norway" }, { "flag": "🇵🇱", "n": "Poland" },
+      { "flag": "🇸🇬", "n": "Singapore" }, { "flag": "🇪🇸", "n": "Spain" }, { "flag": "🇸🇪", "n": "Sweden" }, { "flag": "🇹🇼", "n": "Taiwan" },
+      { "flag": "🇬🇧", "n": "United Kingdom" }, { "flag": "🇺🇸", "n": "United States (incl. Guam)" }
+    ]
+  },
+  "pitfalls": {
+    "title": "5 mistakes that trip people up",
+    "items": [
+      { "icon": "🕸️", "t": "Paying a scam 'agency' site", "d": "Third-party sites buy top search ads and charge US$40–50 for a free/₩10,000 government service. The only official sites are k-eta.go.kr and e-arrivalcard.go.kr." },
+      { "icon": "⏰", "t": "Filing the e-Arrival Card too early", "d": "It expires 72 hours after you submit it. File it within 3 days of your flight, not weeks ahead." },
+      { "icon": "🔤", "t": "Name / passport typos", "d": "Your name must match your passport exactly. A single wrong character can stop you at check-in." },
+      { "icon": "📸", "t": "Rejected photo", "d": "Blurry photos, glasses, hats or busy backgrounds get bounced. Use a plain, well-lit passport-style shot." },
+      { "icon": "🗓️", "t": "Assuming you're exempt", "d": "The waiver is temporary (ends 2026-12-31) and the country list changes. Reconfirm your status close to travel." }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      { "q": "I'm from the US / UK / Japan / EU. Do I need K-ETA?", "a": "Not right now — those are on the 22-country waiver through 31 Dec 2026, so you skip K-ETA and just file the free e-Arrival Card. This is scheduled to change on 1 Jan 2027." },
+      { "q": "Is K-ETA the same as a visa?", "a": "No. K-ETA is a travel authorization that lets you board and enter visa-free; it is not a visa. If your nationality isn't visa-free, you still need an actual visa from a Korean embassy." },
+      { "q": "How long is K-ETA valid?", "a": "Three years from approval, with multiple entries — so one approval usually covers repeat trips until it expires or your passport does." },
+      { "q": "How much does it cost and is it refundable?", "a": "₩10,000 (about US$8). The fee is non-refundable, even if your application is declined." },
+      { "q": "How early should I apply?", "a": "At least 72 hours before boarding. Many approvals come within minutes, but leave a buffer in case yours is reviewed." },
+      { "q": "Do children and seniors need K-ETA?", "a": "Historically travelers 17 and under or 65 and over have been exempt from K-ETA. Confirm the current age rule at k-eta.go.kr before you rely on it." },
+      { "q": "What's the e-Arrival Card and do I really need it?", "a": "It's the digital version of the paper arrival card, filed free at e-arrivalcard.go.kr up to 72 hours before you land. Most short-term visitors need it; valid K-ETA holders and registered residents are exempt." },
+      { "q": "Which sites are official?", "a": "Only k-eta.go.kr (K-ETA) and e-arrivalcard.go.kr (arrival card). Anything charging a big 'service fee' is a third-party reseller, not the government." }
+    ]
+  },
+  "resources": {
+    "title": "Real walkthroughs & official notices",
+    "intro": "We researched current step-by-step guides and official notices so you can double-check anything here:",
+    "items": [
+      { "label": "VisitKorea — official K-ETA exemption notice", "src": "Korea Tourism Organization", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=251923" },
+      { "label": "e-Arrival Card — 72-hour step-by-step", "src": "Korvia", "url": "https://www.korvia.com/korea-e-arrival-card-guide-how-to-complete-it-before-your-flight" },
+      { "label": "Korea arrival card + K-ETA rules explained", "src": "KKday Blog", "url": "https://www.kkday.com/en/blog/92353/korea-arrival-card-guide" },
+      { "label": "K-ETA electronic travel authorization overview", "src": "The Points Guy", "url": "https://thepointsguy.com/news/south-korea-electronic-travel-authorization/" },
+      { "label": "22-country K-ETA waiver — legal briefing", "src": "Fragomen", "url": "https://www.fragomen.com/insights/south-korea-visit-korea-year-temporarily-exempts-22-countries-from-k-eta.html" },
+      { "label": "Full visa-free country list & stay lengths", "src": "Wego", "url": "https://blog.wego.com/south-korea-visa-free-entry/" }
+    ]
+  },
+  "officialCards": [
+    { "icon": "✅", "name": "K-ETA", "url": "https://www.k-eta.go.kr", "what": "Apply for K-ETA (the ONLY official site)" },
+    { "icon": "📝", "name": "e-Arrival Card", "url": "https://www.e-arrivalcard.go.kr", "what": "File the free digital arrival card" },
+    { "icon": "🏛️", "name": "HiKorea", "url": "https://www.hikorea.go.kr", "what": "Immigration & visa info, extensions (MOJ)" },
+    { "icon": "🌏", "name": "VisitKorea", "url": "https://english.visitkorea.or.kr", "what": "Official tourism info & updates" },
+    { "icon": "☎️", "name": "1345 Immigration Center", "url": "https://www.hikorea.go.kr", "what": "Foreigner immigration hotline (multilingual)" }
+  ]
+}

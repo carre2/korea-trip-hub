@@ -1,5 +1,7 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { fact } from "../../../../lib/facts";
+import GuideVisual from "../../../../components/GuideVisual";
+import guideVisa from "../../../../data/guides/visa.json";
 import plan from "../../../../data/plan.json";
 import planJa from "../../../../data/plan.ja.json";
 import planZh from "../../../../data/plan.zh.json";
@@ -23,6 +25,9 @@ import planBn from "../../../../data/plan.bn.json";
 
 // Per-locale content overrides (tagline/intro/tips). Values/facts stay language-neutral.
 const planI18n = { ja: planJa, zh: planZh, "zh-TW": planZhTW, es: planEs, fr: planFr, de: planDe, pt: planPt, it: planIt, ru: planRu, ko: planKo, vi: planVi, th: planTh, id: planId, tr: planTr, fil: planFil, ms: planMs, hi: planHi, ar: planAr, bn: planBn };
+
+// Rich visual guides (English base). Keyed by slug; only slugs with a guide render the deep-dive layout.
+const guides = { visa: guideVisa };
 
 // One static page per (locale × plan slug).
 export function generateStaticParams() {
@@ -93,6 +98,7 @@ export default function PlanArticle({ params }) {
 
   const hasFacts = item.facts.some((id) => fact(id));
   const ui = m.factsUI || {};
+  const guide = guides[slug];
 
   return (
     <article className="article">
@@ -102,11 +108,39 @@ export default function PlanArticle({ params }) {
         <span className="aic" style={{ background: item.color }}>{item.icon}</span>
         <h1>{title}</h1>
       </div>
+      {guide && (
+        <div className="art-meta">
+          {guide.kicker && <span className="art-kicker">{guide.kicker}</span>}
+          {guide.readingTime && <span className="art-read">⏱ {guide.readingTime}</span>}
+        </div>
+      )}
       <p className="art-tagline">{item.tagline}</p>
+
+      {/* Hero image (real photo, credited) */}
+      {guide?.hero?.img && (
+        <figure className="art-hero">
+          <img src={guide.hero.img} alt={guide.hero.alt} loading="eager" />
+          {guide.hero.credit && (
+            <figcaption>
+              <a href={guide.hero.creditUrl} target="_blank" rel="noopener noreferrer">{guide.hero.credit}</a>
+            </figcaption>
+          )}
+        </figure>
+      )}
 
       {item.intro.map((p, i) => (
         <p key={i} className={i === 0 ? "" : "lead"}>{p}</p>
       ))}
+
+      {/* TL;DR summary strip */}
+      {guide?.tldr && (
+        <div className="art-tldr">
+          <span className="art-tldr-lbl">TL;DR</span>
+          <ul>
+            {guide.tldr.map((t, i) => <li key={i}>{t}</li>)}
+          </ul>
+        </div>
+      )}
 
       {hasFacts && (
         <>
@@ -117,7 +151,11 @@ export default function PlanArticle({ params }) {
         </>
       )}
 
-      {item.tips?.length > 0 && (
+      {/* Rich visual deep-dive (guide slugs only) */}
+      {guide && <GuideVisual guide={guide} />}
+
+      {/* Generic tips/official links (non-guide slugs) */}
+      {!guide && item.tips?.length > 0 && (
         <>
           <h2>{ui.good_to_know || "Good to know"}</h2>
           <ul className="tips">
@@ -128,7 +166,7 @@ export default function PlanArticle({ params }) {
         </>
       )}
 
-      {item.official?.length > 0 && (
+      {!guide && item.official?.length > 0 && (
         <>
           <h2>{ui.official_sources || "Official sources"}</h2>
           <div className="official-links">

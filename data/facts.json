@@ -15,6 +15,46 @@
       "notes": "Sources differ on the number of exempt countries (22 vs 67). Confirm the current country list at the official site; check your own case with a consulate."
     },
     {
+      "id": "keta-fee-validity",
+      "tier": "VOLATILE",
+      "claim": "K-ETA costs KRW 10,000 (about US$8), is valid for 3 years, and allows multiple entries. Apply only at the official site, k-eta.go.kr.",
+      "value": { "fee": "₩10,000 (~US$8)", "valid_for": "3 years", "entries": "multiple", "apply_at": "k-eta.go.kr only", "refundable": false },
+      "source": "https://www.k-eta.go.kr",
+      "source_name": "K-ETA (Korea Immigration Service, MOJ)",
+      "verified": "2026-08-03", "recheck_after": "2026-12-01", "status": "VERIFIED",
+      "notes": "The fee is non-refundable. Beware third-party sites that charge US$40–50 extra — the only official site is k-eta.go.kr."
+    },
+    {
+      "id": "keta-apply-window",
+      "tier": "STABLE",
+      "claim": "Apply for K-ETA at least 72 hours before boarding. Approval is often much faster, but allow time in case your application is reviewed.",
+      "value": { "apply": "≥ 72h before boarding", "typical_result": "minutes to 72h" },
+      "source": "https://www.k-eta.go.kr",
+      "source_name": "K-ETA official",
+      "verified": "2026-08-03", "recheck_after": "2027-01-01", "status": "VERIFIED",
+      "notes": "The Korea Immigration Service recommends applying at least 72 hours before departure."
+    },
+    {
+      "id": "keta-exempt-countries",
+      "tier": "VOLATILE",
+      "claim": "22 countries/regions are temporarily exempt from K-ETA through 2026-12-31; the requirement is scheduled to return on 2027-01-01.",
+      "value": { "exempt_countries": 22, "exempt_until": "2026-12-31", "requirement_resumes": "2027-01-01" },
+      "source": "https://www.fragomen.com/insights/south-korea-visit-korea-year-temporarily-exempts-22-countries-from-k-eta.html",
+      "source_name": "Fragomen / Korea MOJ notice",
+      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "notes": "Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Hong Kong, Italy, Japan, Macao, Netherlands, New Zealand, Norway, Poland, Singapore, Spain, Sweden, Taiwan, United Kingdom, United States (incl. Guam). Always confirm the current list at k-eta.go.kr."
+    },
+    {
+      "id": "earrival-card-how",
+      "tier": "VOLATILE",
+      "claim": "The e-Arrival Card is free and submitted online at e-arrivalcard.go.kr, up to 72 hours before arrival. It replaced the paper arrival card in 2025.",
+      "value": { "cost": "free", "apply_at": "e-arrivalcard.go.kr", "window": "within 72h before arrival", "replaced": "paper card (2025)" },
+      "source": "https://www.e-arrivalcard.go.kr",
+      "source_name": "Korea Immigration Service (e-Arrival Card)",
+      "verified": "2026-08-03", "recheck_after": "2026-12-01", "status": "VERIFIED",
+      "notes": "K-ETA holders and registered foreign residents are exempt. Your submission expires 72 hours after you file it, so time it close to your flight."
+    },
+    {
       "id": "emergency-police",
       "tier": "STABLE",
       "claim": "Korea's emergency police number is 112.",
