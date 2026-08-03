@@ -1,6 +1,10 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { fact } from "../../../../lib/facts";
 import plan from "../../../../data/plan.json";
+import planJa from "../../../../data/plan.ja.json";
+
+// Per-locale content overrides (tagline/intro/tips). Values/facts stay language-neutral.
+const planI18n = { ja: planJa };
 
 // One static page per (locale × plan slug).
 export function generateStaticParams() {
@@ -62,7 +66,9 @@ function FactBlock({ id, m }) {
 export default function PlanArticle({ params }) {
   const locale = params?.locale || defaultLocale;
   const slug = params.slug;
-  const item = plan.items[slug];
+  const base = plan.items[slug];
+  const ov = planI18n[locale]?.items?.[slug] || {};
+  const item = { ...base, ...ov }; // localized tagline/intro/tips override English base
   const m = getMessages(locale);
   const tile = m.plan.tiles[slug] || {};
   const title = tile.title || slug;

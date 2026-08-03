@@ -1,0 +1,139 @@
+{
+  "brand": "KoreaTripHub",
+  "nav": {
+    "plan": "旅行準備",
+    "planner": "AIプランナー",
+    "destinations": "行き先",
+    "food": "グルメ",
+    "reviews": "口コミ",
+    "kculture": "K-カルチャー",
+    "map": "地図",
+    "help": "ヘルプ"
+  },
+  "plan": {
+    "eyebrow": "旅行の計画はここから",
+    "sub": "韓国に着く前にそろえておきたい6つの基本。",
+    "tiles": {
+      "visa": { "title": "ビザ・K-ETA", "sub": "入国許可とビザのルール" },
+      "transit": { "title": "移動・交通", "sub": "T-money・地下鉄・KTX・タクシー" },
+      "airport": { "title": "空港→市内", "sub": "仁川・AREX直通" },
+      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "到着後すぐネット接続" },
+      "money": { "title": "お金・支払い", "sub": "両替・カード・現金" },
+      "weather": { "title": "ベストシーズン・天気", "sub": "いつ行く?何を持つ?" }
+    }
+  },
+  "hero": {
+    "badge": "AIトリッププランナー — Korea Trip Hubの主役",
+    "title_1": "ホテルを指定。都市を選ぶ。",
+    "title_2": "あとは全部おまかせ。",
+    "lede": "どこに泊まって、どこへ行きたいか教えてください（例：釜山）。最速ルート（KTX・バス・飛行機）を割り出し、宿を起点に1日ごとの観光ルートを組み立てます。",
+    "f_hotel": "宿泊先・出発地",
+    "f_dest": "どこへ行きたい?",
+    "f_days": "日数",
+    "f_travelers": "人数",
+    "f_style": "旅のスタイル",
+    "build": "プランを作成"
+  },
+  "help": {
+    "eyebrow": "安心のために",
+    "title": "ヘルプ・安全",
+    "sub": "着く前に保存しておきたい、公式ソースで確認済みの情報。",
+    "verified_on": "確認日",
+    "check_official": "必ず公式で最新を確認",
+    "embassy": { "title": "自国の大使館", "sub": "国別の住所・電話・地図。" },
+    "unavailable": "確認中"
+  },
+  "footer": {
+    "tagline": "韓国旅行のすべてをひとつに — 計画・観光・グルメ・体験を20言語で。",
+    "disclaimer": "旅行情報は公式ソースと照合し、確認日を記載しています。料金・時刻・ビザ規則は変わります。旅行前に必ずリンク先の公式で確認してください。"
+  },
+  "factsUI": {
+    "verified_facts": "確認済みの情報",
+    "good_to_know": "知っておくと便利",
+    "official_sources": "公式ソース",
+    "source": "出典",
+    "confirm": "⚠ 料金・規則は変わります — 公式で確認を"
+  },
+  "factLabels": {
+    "exempt_until": "免除期限",
+    "earrival_card": "e-Arrival Card",
+    "age_exempt": "年齢による免除",
+    "number": "番号",
+    "hours": "受付時間",
+    "languages": "対応言語",
+    "fare_krw_each_way": "片道運賃",
+    "minutes": "所要時間（分）",
+    "type": "種別",
+    "frequency": "運行間隔",
+    "fare_krw": "運賃（KRW）",
+    "pay": "支払い方法",
+    "stores": "購入場所",
+    "basic_krw": "基本カード（KRW）",
+    "design_krw": "デザイン版（KRW）",
+    "card_refundable": "カード代の返金",
+    "fare_krw_standard": "普通室運賃（KRW）",
+    "duration": "所要時間",
+    "booking": "予約",
+    "best": "ベストシーズン",
+    "summer": "夏",
+    "winter": "冬",
+    "currency": "通貨",
+    "code": "コード",
+    "symbol": "記号",
+    "tipping": "チップ"
+  },
+  "facts": {
+    "keta-exemption": {
+      "claim": "ビザ免除対象国の国民は2026-12-31までK-ETAなしで入国できます。e-Arrival Cardは引き続き必須です。17歳以下・65歳以上はK-ETAが免除されます。",
+      "notes": "免除対象国の数は出典により異なります（22か国／67か国）。最新の対象国は公式サイトで確認を。自分のケースは領事館で確認してください。"
+    },
+    "emergency-police": {
+      "claim": "韓国の警察通報番号は112です。",
+      "notes": "広く定着した番号です。"
+    },
+    "emergency-fire-medical": {
+      "claim": "韓国の火災・救急（救急医療）の番号は119です。",
+      "notes": "広く定着した番号です。"
+    },
+    "tourist-hotline-1330": {
+      "claim": "韓国観光公社の観光案内・通訳・苦情相談の電話は1330です（24時間・多言語）。",
+      "notes": "観光公社の公式案内電話です。"
+    },
+    "arex-express": {
+      "claim": "AREX直通列車：仁川空港とソウル駅をノンストップで結びます。片道運賃と所要時間は下記のとおり。",
+      "notes": "ソウル市公式ガイドではKRW 9,500。ただし2026年の一部の第三者情報はKRW 11,000〜13,000としており、相違があります。必ずarex.or.krで現在の運賃を確認してください。"
+    },
+    "arex-allstop": {
+      "claim": "AREX一般列車：ソウル駅まで約60分未満。片道運賃は下記のとおり。",
+      "notes": "T-moneyで乗車できます。最新の運賃はarex.or.krで確認を。"
+    },
+    "airport-bus": {
+      "claim": "仁川空港のリムジンバス：ソウルまで約60〜80分。運賃の目安は下記のとおり。",
+      "notes": "路線・目的地により異なり、所要時間は交通状況次第です。"
+    },
+    "tmoney-where-to-buy": {
+      "claim": "T-moneyカードは全国のコンビニ（CU・GS25・7-Eleven・Emart24）や地下鉄駅の券売機で購入・チャージできます。",
+      "notes": "地下鉄・バス・タクシー・コンビニで利用できます。"
+    },
+    "tmoney-card-price": {
+      "claim": "T-money基本カードの価格と返金について。",
+      "notes": "店舗・デザインにより異なります。カード代自体は返金不可（残額のみ返金可）。公式のt-money.co.krで確認してください。"
+    },
+    "ktx-seoul-busan": {
+      "claim": "KTXソウル→釜山 普通室の片道運賃とおおよその所要時間。",
+      "notes": "第三者情報に基づく数値です。列車・座席等級により異なります。実際の運賃はletskorail.comで確認してください。"
+    },
+    "best-time-seasons": {
+      "claim": "ベストシーズンは春（3〜5月）と秋（9〜11月）。夏（6〜8月）は蒸し暑く梅雨があり、冬は寒く乾燥します（ソウルの平均は約-2℃）。",
+      "notes": "一般的な季節の特徴です。桜や紅葉の時期は毎年変わります。"
+    },
+    "tipping-not-customary": {
+      "claim": "韓国にはチップの習慣がなく、レストランやタクシーでチップは不要です。",
+      "notes": "一部の高級ホテルではサービス料が加わることがありますが、通常チップは期待されません。"
+    },
+    "currency-krw": {
+      "claim": "韓国の通貨はウォン（KRW, ₩）です。",
+      "notes": "カードが広く使え、屋台や伝統市場では現金が便利です。"
+    }
+  }
+}

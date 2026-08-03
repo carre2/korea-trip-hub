@@ -73,7 +73,11 @@ function protectedTokens(s) {
   if (typeof s !== "string") return [];
   const t = new Set();
   (s.match(/\d{4}-\d{2}-\d{2}/g) || []).forEach((x) => t.add(x));
-  (s.match(/\d[\d,]*(?:\.\d+)?/g) || []).forEach((x) => t.add(x));
+  // numbers, with any trailing separator punctuation stripped (e.g. "25," -> "25")
+  (s.match(/\d[\d,]*(?:\.\d+)?/g) || []).forEach((x) => {
+    const n = x.replace(/[.,]+$/, "");
+    if (n) t.add(n);
+  });
   (s.match(/[a-z0-9-]+\.(?:go\.kr|or\.kr|co\.kr|com|net|kr)\b/gi) || []).forEach((x) => t.add(x.toLowerCase()));
   return [...t];
 }
