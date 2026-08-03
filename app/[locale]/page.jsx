@@ -4,6 +4,7 @@ import MapExplorer from "../../components/MapExplorer";
 import SpotifyKpop from "../../components/SpotifyKpop";
 import TripPlanner from "../../components/TripPlanner";
 import destData from "../../data/destinations.json";
+import foodData from "../../data/food.json";
 
 const PLAN_TILES = [
   { key: "visa", icon: "🛂", bg: "#BFC9FA", bd: "#9FAEF3", chip: "#3B4CE0" },
@@ -133,37 +134,28 @@ export default function Home({ params }) {
           <div className="sec-head">
             <div>
               <span className="eyebrow">Eat & make</span>
-              <h2>Food — taste it, then make it</h2>
-              <p>Find where to eat, and book a hands-on class to cook it yourself. Prices shown only when verified.</p>
+              <h2>{m.food.title}</h2>
+              <p>{m.food.sub}</p>
             </div>
+            <a className="btn ghost" href={`/${locale}/food/`}>{m.food.browseAll} →</a>
           </div>
-          <h4 style={{ fontFamily: "var(--mono)", color: "var(--faint)", textTransform: "uppercase", letterSpacing: ".04em", margin: "0 0 12px" }}>🍜 Where to eat</h4>
+          <h4 style={{ fontFamily: "var(--mono)", color: "var(--faint)", textTransform: "uppercase", letterSpacing: ".04em", margin: "0 0 12px" }}>🍜 {m.food.eat}</h4>
           <div className="grid g4">
-            {[
-              { t: "Korean BBQ", d: "Samgyeopsal & galbi — grill at your table.", g: "linear-gradient(135deg,#d1495b,#f07167)", ic: "🥩" },
-              { t: "Myeongdong Night Market", d: "Tteokbokki, hotteok, egg bread.", g: "linear-gradient(135deg,#e8973a,#f4c04e)", ic: "🌭" },
-              { t: "Halal & Vegetarian", d: "Certified spots near Itaewon & Gangnam.", g: "linear-gradient(135deg,#0FA08C,#54c9a8)", ic: "🥗" },
-              { t: "Seongsu Cafes", d: "Seoul's coolest coffee & dessert street.", g: "linear-gradient(135deg,#8367c7,#b18fe0)", ic: "☕" },
-            ].map((c) => (
-              <article className="card" key={c.t}>
-                <div className="thumb" style={{ background: c.g }}>{c.ic}</div>
-                <div className="cbody"><h3>{c.t}</h3><p>{c.d}</p></div>
+            {foodData.eat.slice(0, 4).map((c) => (
+              <article className="card" key={c.n}>
+                <div className="thumb" style={{ background: c.grad }}>{c.icon}</div>
+                <div className="cbody"><h3>{c.n}</h3><p>{c.d}</p></div>
               </article>
             ))}
           </div>
-          <h4 style={{ fontFamily: "var(--mono)", color: "var(--faint)", textTransform: "uppercase", letterSpacing: ".04em", margin: "26px 0 12px" }}>🥢 Making experiences</h4>
+          <h4 style={{ fontFamily: "var(--mono)", color: "var(--faint)", textTransform: "uppercase", letterSpacing: ".04em", margin: "26px 0 12px" }}>🥢 {m.food.make}</h4>
           <div className="grid g4">
-            {[
-              { t: "Kimchi Making", d: "Make & pack your own — take it home.", g: "linear-gradient(135deg,#d1495b,#ef767a)", ic: "🥬" },
-              { t: "Bibimbap & Bulgogi", d: "Cook a full Korean meal with a chef.", g: "linear-gradient(135deg,#e8973a,#f2b950)", ic: "🍲" },
-              { t: "Tteok Rice Cake", d: "Shape colorful rice cakes, tea included.", g: "linear-gradient(135deg,#0FA08C,#5ccbb2)", ic: "🍡" },
-              { t: "Makgeolli Brewing", d: "Brew & taste Korean rice wine.", g: "linear-gradient(135deg,#8367c7,#a98fe0)", ic: "🍶" },
-            ].map((c) => (
-              <article className="card" key={c.t}>
-                <div className="thumb" style={{ background: c.g }}>{c.ic}
-                  <span className="pill" style={{ position: "absolute", bottom: 12, left: 12, background: "var(--amber-soft)", color: "var(--amber)" }}>Hands-on class</span>
+            {foodData.make.slice(0, 4).map((c) => (
+              <article className="card" key={c.n}>
+                <div className="thumb" style={{ background: c.grad }}>{c.icon}
+                  <span className="pill" style={{ position: "absolute", bottom: 12, left: 12, background: "var(--amber-soft)", color: "var(--amber)" }}>{c.tag}</span>
                 </div>
-                <div className="cbody"><h3>{c.t}</h3><p>{c.d}</p></div>
+                <div className="cbody"><h3>{c.n}</h3><p>{c.d}</p></div>
               </article>
             ))}
           </div>

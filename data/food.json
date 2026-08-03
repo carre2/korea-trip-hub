@@ -1,0 +1,38 @@
+{
+  "_README": "Food content. Dish/experience names & descriptions are editorial (real). No invented prices or class durations — those vary by operator and are shown as 'check when you book'.",
+  "eat": [
+    { "n": "Korean BBQ", "icon": "🥩", "grad": "linear-gradient(135deg,#d1495b,#f07167)", "tag": "Grill",
+      "d": "Samgyeopsal (pork belly) and galbi grilled at your table, wrapped in lettuce with ssamjang and garlic." },
+    { "n": "Tteokbokki & street food", "icon": "🌭", "grad": "linear-gradient(135deg,#e8973a,#f4c04e)", "tag": "Street",
+      "d": "Chewy rice cakes in sweet-spicy sauce, plus hotteok, gimbap and fish cakes from market stalls." },
+    { "n": "Bibimbap", "icon": "🥗", "grad": "linear-gradient(135deg,#2f9e44,#69c97a)", "tag": "Classic",
+      "d": "Rice bowl topped with vegetables, egg and gochujang — mix it all together before eating." },
+    { "n": "Korean fried chicken (chimaek)", "icon": "🍗", "grad": "linear-gradient(135deg,#C97A16,#F0A83C)", "tag": "Icon",
+      "d": "Extra-crispy fried chicken with beer — 'chimaek' is a national pastime." },
+    { "n": "Naengmyeon (cold noodles)", "icon": "🍜", "grad": "linear-gradient(135deg,#1CA5C9,#59D0E6)", "tag": "Summer",
+      "d": "Chewy buckwheat noodles in icy broth — a refreshing summer favorite." },
+    { "n": "Halal & vegetarian", "icon": "🥙", "grad": "linear-gradient(135deg,#0FA08C,#54c9a8)", "tag": "Diet",
+      "d": "Certified halal spots cluster around Itaewon; temple-food and veggie options are growing citywide." },
+    { "n": "Seongsu cafes & desserts", "icon": "☕", "grad": "linear-gradient(135deg,#8367c7,#b18fe0)", "tag": "Cafe",
+      "d": "Specialty coffee and creative desserts in Seoul's trendiest cafe district." },
+    { "n": "Jjigae & bunsik (comfort food)", "icon": "🍲", "grad": "linear-gradient(135deg,#d1495b,#ef767a)", "tag": "Comfort",
+      "d": "Bubbling stews like kimchi-jjigae and budae-jjigae — hearty and cheap." }
+  ],
+  "make": [
+    { "n": "Kimchi making class", "icon": "🥬", "grad": "linear-gradient(135deg,#d1495b,#ef767a)", "tag": "Hands-on",
+      "d": "Make and pack your own kimchi to take home; classes typically run with an English guide." },
+    { "n": "Bibimbap & bulgogi cooking", "icon": "🍳", "grad": "linear-gradient(135deg,#e8973a,#f2b950)", "tag": "Cooking",
+      "d": "Cook a full Korean meal from scratch with a chef, then eat what you made." },
+    { "n": "Tteok (rice cake) making", "icon": "🍡", "grad": "linear-gradient(135deg,#0FA08C,#5ccbb2)", "tag": "Traditional",
+      "d": "Shape colorful traditional rice cakes — family-friendly and hands-on." },
+    { "n": "Makgeolli brewing & tasting", "icon": "🍶", "grad": "linear-gradient(135deg,#8367c7,#a98fe0)", "tag": "19+",
+      "d": "Learn to brew and taste Korean rice wine, usually with pairing snacks." }
+  ],
+  "tips": [
+    "A restaurant full of locals is usually a good sign.",
+    "Many places have picture menus or English menus; convenience stores are great for cheap late-night eats.",
+    "Side dishes (banchan) are free and often refillable.",
+    "For halal food, the Itaewon area has the most certified options.",
+    "Class prices and durations vary by operator — check the details when you book."
+  ]
+}
