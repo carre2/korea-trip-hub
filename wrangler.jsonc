@@ -1,0 +1,11 @@
+{
+  // Cloudflare Workers static-assets deployment for the Next.js static export.
+  // Build (`npm run build`) produces ./out; wrangler uploads it as static assets.
+  "name": "korea-trip-hub",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./out",
+    // Serve /404.html for unmatched paths (multi-page static site).
+    "not_found_handling": "404-page"
+  }
+}
