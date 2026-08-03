@@ -1,5 +1,6 @@
 import { getMessages, defaultLocale } from "../../lib/i18n";
 import { fact, factsUpdated } from "../../lib/facts";
+import MapExplorer from "../../components/MapExplorer";
 
 const PLAN_TILES = [
   { key: "visa", icon: "🛂", bg: "#BFC9FA", bd: "#9FAEF3", chip: "#3B4CE0" },
@@ -257,13 +258,10 @@ export default function Home({ params }) {
             <div>
               <span className="eyebrow">Find your way</span>
               <h2>Search on your map of choice</h2>
-              <p>Naver or Kakao map search, embedded in-site. (Wiring needs API keys — step 3.)</p>
-            </div>
-            <div className="maptoggle">
-              <button className="naver" aria-selected="true">🟢 Naver Map</button>
-              <button className="kakao" aria-selected="false">🟡 KakaoMap</button>
+              <p>Search any address or place on Naver or Kakao maps, right here.</p>
             </div>
           </div>
+          <MapExplorer labels={m.map} />
         </div>
       </section>
 
