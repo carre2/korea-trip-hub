@@ -1,6 +1,7 @@
 import { getMessages, defaultLocale } from "../../lib/i18n";
 import { fact, factsUpdated } from "../../lib/facts";
 import MapExplorer from "../../components/MapExplorer";
+import SpotifyKpop from "../../components/SpotifyKpop";
 
 const PLAN_TILES = [
   { key: "visa", icon: "🛂", bg: "#BFC9FA", bd: "#9FAEF3", chip: "#3B4CE0" },
@@ -243,11 +244,12 @@ export default function Home({ params }) {
           <div className="sec-head">
             <div>
               <span className="eyebrow">Hallyu</span>
-              <h2>K-Culture — concerts & music</h2>
-              <p>Concert dates come from <b>kpophub.kr</b> (no invented schedules). Music via Spotify embeds.</p>
+              <h2>{m.spotify.title}</h2>
+              <p>{m.spotify.sub}</p>
             </div>
-            <a className="btn ghost" href="https://kpophub.kr" target="_blank" rel="noopener noreferrer">See concerts on kpophub.kr →</a>
+            <a className="btn ghost" href="https://kpophub.kr" target="_blank" rel="noopener noreferrer">🎫 Concerts on kpophub.kr →</a>
           </div>
+          <SpotifyKpop labels={m.spotify} />
         </div>
       </section>
 
