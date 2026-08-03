@@ -1,0 +1,139 @@
+{
+  "brand": "KoreaTripHub",
+  "nav": {
+    "plan": "Preparativos",
+    "planner": "Planejador IA",
+    "destinations": "Destinos",
+    "food": "Comida",
+    "reviews": "Avaliações",
+    "kculture": "K-Culture",
+    "map": "Mapa",
+    "help": "Ajuda"
+  },
+  "plan": {
+    "eyebrow": "Planeje sua viagem — comece aqui",
+    "sub": "Os 6 itens essenciais para resolver antes de chegar à Coreia.",
+    "tiles": {
+      "visa": { "title": "Visto & K-ETA", "sub": "Autorização de entrada e regras de visto" },
+      "transit": { "title": "Como se locomover", "sub": "T-money · metrô · KTX · táxi" },
+      "airport": { "title": "Aeroporto → cidade", "sub": "Incheon · AREX expresso" },
+      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Conectado ao chegar" },
+      "money": { "title": "Dinheiro & pagamento", "sub": "Câmbio · cartão · dinheiro" },
+      "weather": { "title": "Melhor época & clima", "sub": "Quando ir? O que levar?" }
+    }
+  },
+  "hero": {
+    "badge": "Planejador IA — o coração do Korea Trip Hub",
+    "title_1": "Marque seu hotel. Escolha uma cidade.",
+    "title_2": "E a viagem inteira, pronta.",
+    "lede": "Diga onde você se hospeda e para onde quer ir — Busan, por exemplo. Encontramos a rota mais rápida (KTX, ônibus, avião) e montamos um roteiro dia a dia partindo do seu hotel.",
+    "f_hotel": "Seu hotel / ponto de partida",
+    "f_dest": "Para onde quer ir?",
+    "f_days": "Dias",
+    "f_travelers": "Viajantes",
+    "f_style": "Estilo de viagem",
+    "build": "Criar minha viagem"
+  },
+  "help": {
+    "eyebrow": "Tranquilidade",
+    "title": "Ajuda & segurança",
+    "sub": "Informações essenciais verificadas com fontes oficiais, para salvar antes de chegar.",
+    "verified_on": "Verificado",
+    "check_official": "Confirme sempre na fonte oficial",
+    "embassy": { "title": "Sua embaixada", "sub": "Endereço, telefone e mapa por país." },
+    "unavailable": "Em verificação"
+  },
+  "footer": {
+    "tagline": "O hub tudo-em-um para visitar a Coreia — planejar, explorar, comer e viver experiências, em 20 idiomas.",
+    "disclaimer": "As informações de viagem são conferidas com fontes oficiais e trazem data de verificação. Preços, horários e regras de visto mudam — confirme sempre na fonte oficial vinculada antes de viajar."
+  },
+  "map": {
+    "search": "Buscar",
+    "placeholder": "Busque um endereço ou local…",
+    "kakaoPending": "A chave do KakaoMap chega em breve.",
+    "noResult": "Sem resultados — tente um endereço completo.",
+    "authFail": "O Naver Maps não conseguiu autorizar — verifique o Client ID e o domínio registrado.",
+    "loadFail": "Não foi possível carregar o mapa."
+  },
+  "spotify": {
+    "title": "Ouça — K-Pop no Spotify",
+    "sub": "Grupos em alta e artistas amados por fãs do mundo todo. Escolha um para ouvir os principais hits.",
+    "artists": "Artistas & grupos",
+    "playlists": "Playlists selecionadas",
+    "note": "Prévias grátis; faixas completas com login no Spotify."
+  },
+  "planner": {
+    "day": "Day",
+    "gettingThere": "Como chegar",
+    "morning": "Manhã",
+    "afternoon": "Tarde",
+    "evening": "Noite",
+    "share": "Compartilhar viagem",
+    "transportNote": "Horários e tarifas mudam — confirme com o operador."
+  },
+  "dest": {
+    "title": "Destinos",
+    "sub": "Lugares reais, agrupados por cidade. Os números de popularidade têm fonte, não são inventados.",
+    "browseAll": "Todos os destinos",
+    "whyGo": "Por que ir",
+    "goodToKnow": "Bom saber",
+    "nearby": "Por perto",
+    "official": "Info oficial"
+  },
+  "food": {
+    "title": "Comida — prove e depois faça",
+    "sub": "Onde comer e aulas para cozinhar você mesmo. Os preços variam — não os inventamos.",
+    "eat": "Onde comer",
+    "make": "Experiências de fazer",
+    "tips": "Bom saber",
+    "browseAll": "Toda a comida & experiências"
+  },
+  "reviews": {
+    "title": "Avaliações — por categoria e idioma",
+    "sub": "Avaliações reais de viajantes — filtre por tema e veja no seu idioma primeiro. Moderadas, nunca inventadas.",
+    "all": "Todas",
+    "catDest": "🏛️ Destinos",
+    "catFood": "🥢 Comida & experiências",
+    "catKculture": "🎤 K-Culture",
+    "catTransport": "🚄 Transporte",
+    "empty": "Ainda sem avaliações — seja o primeiro a compartilhar sua viagem à Coreia.",
+    "cta": "Escrever avaliação",
+    "ctaSoon": "O envio de avaliações abre em breve"
+  },
+  "factsUI": {
+    "verified_facts": "Info verificada",
+    "good_to_know": "Bom saber",
+    "official_sources": "Fontes oficiais",
+    "source": "Fonte",
+    "confirm": "⚠ Preços/regras mudam — confirme na fonte oficial"
+  },
+  "factLabels": {
+    "exempt_until": "Isento até",
+    "earrival_card": "e-Arrival Card",
+    "age_exempt": "Isenção por idade",
+    "number": "Número",
+    "hours": "Horário",
+    "languages": "Idiomas",
+    "fare_krw_each_way": "Passagem só ida",
+    "minutes": "Tempo (min)",
+    "type": "Tipo",
+    "frequency": "Frequência",
+    "fare_krw": "Tarifa (KRW)",
+    "pay": "Pagamento",
+    "stores": "Onde comprar",
+    "basic_krw": "Cartão básico (KRW)",
+    "design_krw": "Edição de design (KRW)",
+    "card_refundable": "Reembolso do cartão",
+    "fare_krw_standard": "Tarifa classe padrão (KRW)",
+    "duration": "Duração",
+    "booking": "Reserva",
+    "best": "Melhores estações",
+    "summer": "Verão",
+    "winter": "Inverno",
+    "currency": "Moeda",
+    "code": "Código",
+    "symbol": "Símbolo",
+    "tipping": "Gorjeta"
+  },
+  "facts": {}
+}

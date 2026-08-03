@@ -1,0 +1,139 @@
+{
+  "brand": "KoreaTripHub",
+  "nav": {
+    "plan": "Vorbereitung",
+    "planner": "KI-Planer",
+    "destinations": "Reiseziele",
+    "food": "Essen",
+    "reviews": "Bewertungen",
+    "kculture": "K-Culture",
+    "map": "Karte",
+    "help": "Hilfe"
+  },
+  "plan": {
+    "eyebrow": "Reise planen — hier starten",
+    "sub": "Die 6 Grundlagen, die du vor der Ankunft in Korea klären solltest.",
+    "tiles": {
+      "visa": { "title": "Visum & K-ETA", "sub": "Einreiseerlaubnis & Visaregeln" },
+      "transit": { "title": "Fortbewegung", "sub": "T-money · U-Bahn · KTX · Taxi" },
+      "airport": { "title": "Flughafen → Stadt", "sub": "Incheon · AREX-Express" },
+      "sim": { "title": "SIM / eSIM / WLAN", "sub": "Sofort online bei Ankunft" },
+      "money": { "title": "Geld & Zahlung", "sub": "Wechseln · Karte · Bargeld" },
+      "weather": { "title": "Beste Zeit & Wetter", "sub": "Wann hin? Was mitnehmen?" }
+    }
+  },
+  "hero": {
+    "badge": "KI-Reiseplaner — das Herz von Korea Trip Hub",
+    "title_1": "Hotel markieren. Stadt wählen.",
+    "title_2": "Und die ganze Reise steht.",
+    "lede": "Sag uns, wo du übernachtest und wohin du willst — z. B. Busan. Wir finden die schnellste Route (KTX, Bus, Flug) und bauen eine Tagesroute ab deinem Hotel.",
+    "f_hotel": "Dein Hotel / Startpunkt",
+    "f_dest": "Wohin möchtest du?",
+    "f_days": "Tage",
+    "f_travelers": "Reisende",
+    "f_style": "Reisestil",
+    "build": "Reise erstellen"
+  },
+  "help": {
+    "eyebrow": "Sicherheit",
+    "title": "Hilfe & Sicherheit",
+    "sub": "Wichtige, mit offiziellen Quellen geprüfte Infos zum Speichern vor der Ankunft.",
+    "verified_on": "Geprüft",
+    "check_official": "Immer bei der offiziellen Quelle prüfen",
+    "embassy": { "title": "Deine Botschaft", "sub": "Adresse, Telefon & Karte nach Land." },
+    "unavailable": "Wird geprüft"
+  },
+  "footer": {
+    "tagline": "Der All-in-One-Hub für die Korea-Reise — planen, entdecken, essen und erleben, in 20 Sprachen.",
+    "disclaimer": "Reiseinfos werden mit offiziellen Quellen abgeglichen und mit Prüfdatum versehen. Preise, Fahrpläne und Visaregeln ändern sich — bestätige vor der Reise immer bei der verlinkten offiziellen Quelle."
+  },
+  "map": {
+    "search": "Suchen",
+    "placeholder": "Adresse oder Ort suchen…",
+    "kakaoPending": "KakaoMap-Schlüssel folgt bald.",
+    "noResult": "Kein Ergebnis — versuch eine vollständige Adresse.",
+    "authFail": "Naver Maps konnte nicht autorisieren — prüfe Client ID und registrierte Domain.",
+    "loadFail": "Karte konnte nicht geladen werden."
+  },
+  "spotify": {
+    "title": "Hören — K-Pop auf Spotify",
+    "sub": "Angesagte Gruppen und weltweit geliebte Acts. Wähle einen, um die Top-Songs zu hören.",
+    "artists": "Künstler & Gruppen",
+    "playlists": "Kuratierte Playlists",
+    "note": "Kostenlose Vorschauen; ganze Songs mit Spotify-Login."
+  },
+  "planner": {
+    "day": "Day",
+    "gettingThere": "Anreise",
+    "morning": "Vormittag",
+    "afternoon": "Nachmittag",
+    "evening": "Abend",
+    "share": "Reise teilen",
+    "transportNote": "Zeiten und Preise ändern sich — beim Betreiber bestätigen."
+  },
+  "dest": {
+    "title": "Reiseziele",
+    "sub": "Echte Orte, nach Stadt gruppiert. Beliebtheitszahlen sind belegt, nicht erfunden.",
+    "browseAll": "Alle Reiseziele",
+    "whyGo": "Warum hin",
+    "goodToKnow": "Gut zu wissen",
+    "nearby": "In der Nähe",
+    "official": "Offizielle Infos"
+  },
+  "food": {
+    "title": "Essen — probieren, dann selbst machen",
+    "sub": "Wo essen, und Kurse zum Selbstkochen. Preise variieren — wir erfinden sie nicht.",
+    "eat": "Wo essen",
+    "make": "Mach-Erlebnisse",
+    "tips": "Gut zu wissen",
+    "browseAll": "Alle Speisen & Erlebnisse"
+  },
+  "reviews": {
+    "title": "Bewertungen — nach Kategorie & Sprache",
+    "sub": "Echte Reise-Bewertungen — nach Thema filtern, zuerst in deiner Sprache. Moderiert, nie erfunden.",
+    "all": "Alle",
+    "catDest": "🏛️ Reiseziele",
+    "catFood": "🥢 Essen & Erlebnisse",
+    "catKculture": "🎤 K-Culture",
+    "catTransport": "🚄 Verkehr",
+    "empty": "Noch keine Bewertungen — teile als Erste(r) deine Korea-Reise.",
+    "cta": "Bewertung schreiben",
+    "ctaSoon": "Bewertungsabgabe öffnet bald"
+  },
+  "factsUI": {
+    "verified_facts": "Geprüfte Infos",
+    "good_to_know": "Gut zu wissen",
+    "official_sources": "Offizielle Quellen",
+    "source": "Quelle",
+    "confirm": "⚠ Preise/Regeln ändern sich — bei der offiziellen Quelle bestätigen"
+  },
+  "factLabels": {
+    "exempt_until": "Befreit bis",
+    "earrival_card": "e-Arrival Card",
+    "age_exempt": "Altersbefreiung",
+    "number": "Nummer",
+    "hours": "Servicezeiten",
+    "languages": "Sprachen",
+    "fare_krw_each_way": "Einfache Fahrt",
+    "minutes": "Dauer (Min.)",
+    "type": "Art",
+    "frequency": "Takt",
+    "fare_krw": "Preis (KRW)",
+    "pay": "Zahlung",
+    "stores": "Wo kaufen",
+    "basic_krw": "Basiskarte (KRW)",
+    "design_krw": "Design-Edition (KRW)",
+    "card_refundable": "Kartenerstattung",
+    "fare_krw_standard": "Standardklasse-Preis (KRW)",
+    "duration": "Dauer",
+    "booking": "Buchung",
+    "best": "Beste Jahreszeiten",
+    "summer": "Sommer",
+    "winter": "Winter",
+    "currency": "Währung",
+    "code": "Code",
+    "symbol": "Symbol",
+    "tipping": "Trinkgeld"
+  },
+  "facts": {}
+}

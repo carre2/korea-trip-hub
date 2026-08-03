@@ -1,0 +1,139 @@
+{
+  "brand": "KoreaTripHub",
+  "nav": {
+    "plan": "여행준비",
+    "planner": "AI 플래너",
+    "destinations": "여행지",
+    "food": "먹거리",
+    "reviews": "후기",
+    "kculture": "K-컬처",
+    "map": "지도",
+    "help": "도움말"
+  },
+  "plan": {
+    "eyebrow": "여행 계획 — 여기서 시작",
+    "sub": "한국 도착 전 챙겨야 할 6가지 기본.",
+    "tiles": {
+      "visa": { "title": "비자 & K-ETA", "sub": "입국 허가 & 비자 규정" },
+      "transit": { "title": "교통", "sub": "T-money · 지하철 · KTX · 택시" },
+      "airport": { "title": "공항 → 시내", "sub": "인천 · AREX 직통" },
+      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "도착 즉시 인터넷" },
+      "money": { "title": "환전 & 결제", "sub": "환전 · 카드 · 현금" },
+      "weather": { "title": "베스트 시즌 & 날씨", "sub": "언제 갈까? 뭘 챙길까?" }
+    }
+  },
+  "hero": {
+    "badge": "AI 트립 플래너 — Korea Trip Hub의 핵심",
+    "title_1": "호텔을 찍고, 도시를 고르면",
+    "title_2": "여행 전체가 완성.",
+    "lede": "어디에 묵고 어디로 가고 싶은지 알려주세요 — 예를 들어 부산. 가장 빠른 경로(KTX·버스·비행기)를 찾고, 호텔에서 출발하는 하루하루 동선을 짜드립니다.",
+    "f_hotel": "숙소 / 출발지",
+    "f_dest": "어디로 갈까요?",
+    "f_days": "일수",
+    "f_travelers": "인원",
+    "f_style": "여행 스타일",
+    "build": "일정 만들기"
+  },
+  "help": {
+    "eyebrow": "안심",
+    "title": "도움말 & 안전",
+    "sub": "도착 전 저장해두면 좋은, 공식 출처로 확인된 필수 정보.",
+    "verified_on": "확인일",
+    "check_official": "항상 공식 출처에서 최신 확인",
+    "embassy": { "title": "자국 대사관", "sub": "국가별 주소·전화·지도." },
+    "unavailable": "확인 중"
+  },
+  "footer": {
+    "tagline": "한국 여행을 위한 올인원 허브 — 계획·탐방·먹거리·체험을 20개 언어로.",
+    "disclaimer": "여행 정보는 공식 출처와 대조하고 확인일을 표기합니다. 요금·시간표·비자 규정은 바뀝니다 — 여행 전 반드시 링크된 공식 출처에서 확인하세요."
+  },
+  "map": {
+    "search": "검색",
+    "placeholder": "주소나 장소 검색…",
+    "kakaoPending": "KakaoMap 키 곧 지원.",
+    "noResult": "결과 없음 — 전체 주소로 시도하세요.",
+    "authFail": "Naver 지도 인증 실패 — Client ID와 등록 도메인을 확인하세요.",
+    "loadFail": "지도를 불러오지 못했습니다."
+  },
+  "spotify": {
+    "title": "듣기 — Spotify의 K-Pop",
+    "sub": "지금 뜨는 그룹과 전 세계 팬이 사랑하는 아티스트. 선택하면 대표곡이 재생됩니다.",
+    "artists": "아티스트 & 그룹",
+    "playlists": "추천 플레이리스트",
+    "note": "무료 미리듣기; 전곡은 Spotify 로그인 시."
+  },
+  "planner": {
+    "day": "Day",
+    "gettingThere": "이동",
+    "morning": "오전",
+    "afternoon": "오후",
+    "evening": "저녁",
+    "share": "일정 공유",
+    "transportNote": "시간·요금은 변동됩니다 — 운영사에서 확인하세요."
+  },
+  "dest": {
+    "title": "여행지",
+    "sub": "도시별 실제 장소. 인기 수치는 출처가 있으며 지어내지 않습니다.",
+    "browseAll": "모든 여행지",
+    "whyGo": "가는 이유",
+    "goodToKnow": "알아두면 좋은 것",
+    "nearby": "주변",
+    "official": "공식 정보"
+  },
+  "food": {
+    "title": "먹거리 — 맛보고, 직접 만들기",
+    "sub": "어디서 먹을지, 그리고 직접 만드는 클래스. 가격은 다양 — 지어내지 않습니다.",
+    "eat": "어디서 먹을까",
+    "make": "만들기 체험",
+    "tips": "알아두면 좋은 것",
+    "browseAll": "모든 먹거리 & 체험"
+  },
+  "reviews": {
+    "title": "후기 — 카테고리 & 언어별",
+    "sub": "실제 여행자 후기 — 주제별로 필터, 내 언어를 먼저 표시. 검수하며 절대 지어내지 않습니다.",
+    "all": "전체",
+    "catDest": "🏛️ 여행지",
+    "catFood": "🥢 먹거리 & 체험",
+    "catKculture": "🎤 K-컬처",
+    "catTransport": "🚄 교통",
+    "empty": "아직 후기가 없어요 — 당신의 한국 여행을 처음으로 공유해보세요.",
+    "cta": "후기 쓰기",
+    "ctaSoon": "후기 제출 곧 오픈"
+  },
+  "factsUI": {
+    "verified_facts": "확인된 정보",
+    "good_to_know": "알아두면 좋은 것",
+    "official_sources": "공식 출처",
+    "source": "출처",
+    "confirm": "⚠ 요금·규정은 변동 — 공식에서 확인"
+  },
+  "factLabels": {
+    "exempt_until": "면제 기한",
+    "earrival_card": "e-Arrival Card",
+    "age_exempt": "연령 면제",
+    "number": "번호",
+    "hours": "운영 시간",
+    "languages": "지원 언어",
+    "fare_krw_each_way": "편도 요금",
+    "minutes": "소요(분)",
+    "type": "종류",
+    "frequency": "운행 간격",
+    "fare_krw": "요금(KRW)",
+    "pay": "결제",
+    "stores": "구입처",
+    "basic_krw": "기본 카드(KRW)",
+    "design_krw": "디자인 에디션(KRW)",
+    "card_refundable": "카드값 환불",
+    "fare_krw_standard": "일반실 요금(KRW)",
+    "duration": "소요시간",
+    "booking": "예매",
+    "best": "베스트 시즌",
+    "summer": "여름",
+    "winter": "겨울",
+    "currency": "통화",
+    "code": "코드",
+    "symbol": "기호",
+    "tipping": "팁"
+  },
+  "facts": {}
+}
