@@ -3,8 +3,9 @@ import { fact } from "../../../lib/facts";
 import dest from "../../../data/destinations.json";
 import destJa from "../../../data/destinations.ja.json";
 import destZh from "../../../data/destinations.zh.json";
+import destEs from "../../../data/destinations.es.json";
 
-const destI18n = { ja: destJa, zh: destZh };
+const destI18n = { ja: destJa, zh: destZh, es: destEs };
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

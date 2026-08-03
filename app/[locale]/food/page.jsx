@@ -2,8 +2,9 @@ import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
 import food from "../../../data/food.json";
 import foodJa from "../../../data/food.ja.json";
 import foodZh from "../../../data/food.zh.json";
+import foodEs from "../../../data/food.es.json";
 
-const foodI18n = { ja: foodJa, zh: foodZh };
+const foodI18n = { ja: foodJa, zh: foodZh, es: foodEs };
 const merge = (base, ov) => base.map((it, i) => ({ ...it, ...((ov && ov[i]) || {}) }));
 
 export function generateStaticParams() {

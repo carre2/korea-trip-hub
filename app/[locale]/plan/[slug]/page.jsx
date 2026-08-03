@@ -3,9 +3,10 @@ import { fact } from "../../../../lib/facts";
 import plan from "../../../../data/plan.json";
 import planJa from "../../../../data/plan.ja.json";
 import planZh from "../../../../data/plan.zh.json";
+import planEs from "../../../../data/plan.es.json";
 
 // Per-locale content overrides (tagline/intro/tips). Values/facts stay language-neutral.
-const planI18n = { ja: planJa, zh: planZh };
+const planI18n = { ja: planJa, zh: planZh, es: planEs };
 
 // One static page per (locale × plan slug).
 export function generateStaticParams() {
