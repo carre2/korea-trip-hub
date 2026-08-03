@@ -1,0 +1,194 @@
+// Per-nationality visa deep-dive renderer (server component, no client JS).
+// Renders data/visa/<country>.json: verdict, jurisdiction selector, step flow,
+// document table with "where/how to get each", funds guidance, pitfalls, FAQ,
+// resources and official cards. Fee/processing numbers come from facts.json.
+import { fact } from "../lib/facts";
+
+const REQ = {
+  required: { t: "Required", c: "gvr-req" },
+  conditional: { t: "If it applies", c: "gvr-cond" },
+  recommended: { t: "Recommended", c: "gvr-rec" },
+};
+
+export default function VisaCountryGuide({ guide }) {
+  if (!guide) return null;
+  const g = guide;
+  const f = g.factId ? fact(g.factId) : null;
+
+  return (
+    <div className="gv">
+      {/* Verdict banner */}
+      {g.verdict && (
+        <div className={`vcg-verdict ${g.verdict.need ? "vcg-need" : "vcg-free"}`}>
+          <div className="vcg-verdict-flag">{g.flag}</div>
+          <div>
+            <h2>{g.verdict.headline}</h2>
+            <p>{g.verdict.sub}</p>
+            <div className="vcg-verdict-meta">
+              {g.verdict.type && <span><b>Visa</b>{g.verdict.type}</span>}
+              {g.verdict.stay && <span><b>Stay</b>{g.verdict.stay}</span>}
+              {g.verdict.entry && <span><b>Entry</b>{g.verdict.entry}</span>}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Verified fee/processing box (harness: numbers from facts.json) */}
+      {f && (
+        <div className="factbox vcg-fact">
+          <div className="factbox-h">
+            <b>{f.claim}</b>
+            <span className="pill verified">✓ {f.verified}</span>
+          </div>
+          {f.value && (
+            <ul className="factvals">
+              {Object.entries(f.value).map(([k, v]) => (
+                <li key={k}><span>{k.replace(/_/g, " ")}</span><b>{String(v)}</b></li>
+              ))}
+            </ul>
+          )}
+          <div className="factsrc">
+            <span className="pill vol">⚠ Fees/rules change — confirm at source</span>
+            <span>Source: <a href={f.source} target="_blank" rel="noopener noreferrer">{f.source_name}</a></span>
+            {f.notes && <p className="factnote">ⓘ {f.notes}</p>}
+          </div>
+        </div>
+      )}
+
+      {/* Jurisdiction selector */}
+      {g.jurisdiction && (
+        <section className="gv-sec">
+          <h2>{g.jurisdiction.title}</h2>
+          <p className="gv-lead">{g.jurisdiction.intro}</p>
+          <div className="vcg-zones">
+            {g.jurisdiction.zones.map((z) => (
+              <a key={z.name} className="vcg-zone" href={z.url} target="_blank" rel="noopener noreferrer">
+                <h3>{z.name}</h3>
+                <p className="vcg-zone-covers"><b>Covers:</b> {z.covers}</p>
+                <p className="vcg-zone-centers">🏢 {z.centers}</p>
+                <span className="vcg-zone-site">{z.site} ↗</span>
+              </a>
+            ))}
+          </div>
+          {g.jurisdiction.note && <p className="gv-legend">ⓘ {g.jurisdiction.note}</p>}
+        </section>
+      )}
+
+      {/* Steps */}
+      {g.steps && (
+        <section className="gv-sec">
+          <h2>{g.steps.title}</h2>
+          <ol className="gv-steps">
+            {g.steps.items.map((s) => (
+              <li key={s.n} className="gv-step">
+                <span className="gv-step-n">{s.n}</span>
+                <div className="gv-step-body">
+                  <h4>{s.title}</h4>
+                  <p>{s.detail}{s.link && <> — <a href={s.link} target="_blank" rel="noopener noreferrer">{s.linkLabel || s.link}</a></>}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {/* Document table */}
+      {g.documents && (
+        <section className="gv-sec">
+          <h2>{g.documents.title}</h2>
+          <p className="gv-lead">{g.documents.intro}</p>
+          <div className="vcg-docs">
+            {g.documents.rows.map((r) => {
+              const rq = REQ[r.req] || REQ.required;
+              return (
+                <div key={r.doc} className="vcg-doc">
+                  <div className="vcg-doc-top">
+                    <b className="vcg-doc-name">{r.doc}</b>
+                    <span className={`gvr ${rq.c}`}>{rq.t}</span>
+                  </div>
+                  <div className="vcg-doc-where">
+                    <span className="vcg-doc-lbl">Where</span>
+                    {r.link ? <a href={r.link} target="_blank" rel="noopener noreferrer">{r.where} ↗</a> : <span>{r.where}</span>}
+                  </div>
+                  <p className="vcg-doc-how">{r.how}</p>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* Funds */}
+      {g.funds && (
+        <section className="gv-sec vcg-funds">
+          <h2>{g.funds.title}</h2>
+          <p className="gv-lead">{g.funds.body}</p>
+          <ul className="tips">
+            {g.funds.tips.map((t, i) => <li key={i}>{t}</li>)}
+          </ul>
+        </section>
+      )}
+
+      {/* Pitfalls */}
+      {g.pitfalls && (
+        <section className="gv-sec">
+          <h2>{g.pitfalls.title}</h2>
+          <div className="gv-pit-grid">
+            {g.pitfalls.items.map((it) => (
+              <div key={it.t} className="gv-pit">
+                <span className="gv-pit-ic">{it.icon}</span>
+                <div><b>{it.t}</b><p>{it.d}</p></div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* FAQ */}
+      {g.faq && (
+        <section className="gv-sec">
+          <h2>{g.faq.title}</h2>
+          <div className="gv-faq">
+            {g.faq.items.map((it, i) => (
+              <details key={i} className="gv-faq-item">
+                <summary>{it.q}</summary>
+                <p>{it.a}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Resources */}
+      {g.resources && (
+        <section className="gv-sec">
+          <h2>{g.resources.title}</h2>
+          {g.resources.intro && <p className="gv-lead">{g.resources.intro}</p>}
+          <div className="gv-res-grid">
+            {g.resources.items.map((it) => (
+              <a key={it.url} className="gv-res" href={it.url} target="_blank" rel="noopener noreferrer">
+                <span className="gv-res-label">{it.label}</span>
+                <span className="gv-res-src">{it.src} ↗</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Official cards */}
+      {g.official && (
+        <section className="gv-sec">
+          <h2>Official sources</h2>
+          <div className="gv-off-grid">
+            {g.official.map((o) => (
+              <a key={o.name + o.what} className="gv-off" href={o.url} target="_blank" rel="noopener noreferrer">
+                <span className="gv-off-ic">{o.icon}</span>
+                <span className="gv-off-txt"><b>{o.name}</b><em>{o.what}</em></span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
+  );
+}

@@ -142,6 +142,27 @@ export default function PlanArticle({ params }) {
         </div>
       )}
 
+      {/* Per-nationality visa guide hub */}
+      {guide?.countryGuides && (
+        <section className="gv-sec vcg-hub">
+          <h2>{guide.countryGuides.title}</h2>
+          <p className="gv-lead">{guide.countryGuides.intro}</p>
+          <div className="vcg-hub-grid">
+            {guide.countryGuides.items.map((c) => (
+              <a key={c.code} className="vcg-hub-card" href={`/${locale}/visa/${c.code}/`}>
+                <span className="vcg-hub-flag">{c.flag}</span>
+                <span className="vcg-hub-txt">
+                  <b>{c.name} → Korea</b>
+                  <em>{c.note}</em>
+                </span>
+                <span className="vcg-hub-arrow">→</span>
+              </a>
+            ))}
+          </div>
+          {guide.countryGuides.more && <p className="gv-legend">{guide.countryGuides.more}</p>}
+        </section>
+      )}
+
       {hasFacts && (
         <>
           <h2>✓ {ui.verified_facts || "Verified facts"}</h2>

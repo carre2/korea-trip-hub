@@ -206,6 +206,16 @@
       "verified": "2026-08-03", "recheck_after": "2027-02-01", "status": "VERIFIED",
       "notes": "Foreign hiker counts by Seoul mountain; Bukhansan highest."
     },
-    { "id": "visa-free-90days-general", "tier": "VOLATILE", "claim": "Many nationalities can enter visa-free for tourism (length varies by country: 30/60/90 days).", "value": null, "source": "https://www.hikorea.go.kr", "source_name": "HiKorea (MOJ) / Visa policy of South Korea", "verified": null, "status": "TODO", "notes": "Varies by country — do not generalize. Provide a per-country confirmation link in the UI." }
+    { "id": "visa-free-90days-general", "tier": "VOLATILE", "claim": "Many nationalities can enter visa-free for tourism (length varies by country: 30/60/90 days).", "value": null, "source": "https://www.hikorea.go.kr", "source_name": "HiKorea (MOJ) / Visa policy of South Korea", "verified": null, "status": "TODO", "notes": "Varies by country — do not generalize. Provide a per-country confirmation link in the UI." },
+    {
+      "id": "visa-india-c39",
+      "tier": "VOLATILE",
+      "claim": "Indian passport holders need a C-3-9 short-term tourist visa to visit Korea (up to 90 days). Apply in person at a Korea Visa Application Center (VFS Global) — no appointment needed.",
+      "value": { "visa_type": "C-3-9 short-term tourist", "max_stay": "90 days", "visa_fee": "≈ INR 3,400 (single entry)", "service_fee": "≈ INR 1,100–1,400", "processing": "≈ 5–10 working days", "appointment": "not required" },
+      "source": "https://www.visaforkorea-id.com/apply-visa.html",
+      "source_name": "KVAC India (VFS Global) / Korea Visa Portal",
+      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "notes": "Fees and processing vary by center and season — confirm at your KVAC. The form and any e-application are only at visa.go.kr (the only official portal). India is split into two jurisdictions: Embassy/New Delhi (visaforkorea-id.com) and Chennai Consulate (visaforkorea-ce.com)."
+    }
   ]
 }
