@@ -11,8 +11,9 @@ import destIt from "../../../../data/destinations.it.json";
 import destRu from "../../../../data/destinations.ru.json";
 import destKo from "../../../../data/destinations.ko.json";
 import destZhTW from "../../../../data/destinations.zh-TW.json";
+import destVi from "../../../../data/destinations.vi.json";
 
-const destI18n = { ja: destJa, zh: destZh, "zh-TW": destZhTW, es: destEs, fr: destFr, de: destDe, pt: destPt, it: destIt, ru: destRu, ko: destKo };
+const destI18n = { ja: destJa, zh: destZh, "zh-TW": destZhTW, es: destEs, fr: destFr, de: destDe, pt: destPt, it: destIt, ru: destRu, ko: destKo, vi: destVi };
 
 export function generateStaticParams() {
   const slugs = Object.keys(dest.items);

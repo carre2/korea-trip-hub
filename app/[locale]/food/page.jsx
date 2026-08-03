@@ -10,8 +10,9 @@ import foodIt from "../../../data/food.it.json";
 import foodRu from "../../../data/food.ru.json";
 import foodKo from "../../../data/food.ko.json";
 import foodZhTW from "../../../data/food.zh-TW.json";
+import foodVi from "../../../data/food.vi.json";
 
-const foodI18n = { ja: foodJa, zh: foodZh, "zh-TW": foodZhTW, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt, it: foodIt, ru: foodRu, ko: foodKo };
+const foodI18n = { ja: foodJa, zh: foodZh, "zh-TW": foodZhTW, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt, it: foodIt, ru: foodRu, ko: foodKo, vi: foodVi };
 const merge = (base, ov) => base.map((it, i) => ({ ...it, ...((ov && ov[i]) || {}) }));
 
 export function generateStaticParams() {

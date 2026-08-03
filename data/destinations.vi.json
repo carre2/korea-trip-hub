@@ -1,0 +1,174 @@
+{
+  "_README": "Bản ghi đè tiếng Việt của destinations.json. Số liệu lấy từ facts. Bản dịch máy — nên nhờ người bản xứ rà soát.",
+  "items": {
+    "myeongdong": {
+      "name": "Myeongdong", "rank": "Được ghé thăm nhiều nhất", "blurb": "Mua sắm, ẩm thực đường phố và làm đẹp — điểm dừng đầu tiên kinh điển.",
+      "intro": [
+        "Myeongdong là khu mua sắm nhộn nhịp nhất Seoul và là nơi du khách nước ngoài ghé thăm nhiều nhất. Nơi đây đầy cửa hàng mỹ phẩm, thời trang và một khu ẩm thực đường phố sôi động vào buổi tối.",
+        "Vị trí trung tâm, dễ đi lại, lý tưởng làm điểm xuất phát hoặc chặng đầu của ngày thứ nhất."
+      ],
+      "tips": [
+        "Buổi tối hãy đến khi bụng đói — các quầy ăn đường phố là điểm nhấn.",
+        "Cửa hàng mỹ phẩm thường tặng mẫu thử; hãy so sánh vài nơi trước khi mua.",
+        "Ga Myeongdong (tuyến 4), lối ra 5–8, đưa bạn vào ngay trung tâm."
+      ],
+      "nearby": ["Tháp N Seoul", "Chợ Namdaemun", "Gyeongbokgung"]
+    },
+    "gyeongbokgung": {
+      "name": "Cung Gyeongbokgung", "rank": "Không thể bỏ lỡ", "blurb": "Cung điện hoàng gia lớn — mặc hanbok vào cửa miễn phí.",
+      "intro": [
+        "Gyeongbokgung là cung điện hoàng gia lớn nhất thời Joseon ở Seoul, với cổng lớn, sân rộng và một lầu bên hồ.",
+        "Thuê hanbok (trang phục truyền thống) gần đó giúp vào cửa miễn phí và có những bức ảnh đáng nhớ."
+      ],
+      "tips": [
+        "Mặc hanbok để vào cung miễn phí.",
+        "Đừng bỏ lỡ lễ đổi gác ở cổng chính.",
+        "Làng hanok Bukchon ở ngay gần — kết hợp trong một buổi sáng."
+      ],
+      "nearby": ["Làng Hanok Bukchon", "Gwanghwamun", "Insadong"]
+    },
+    "n-seoul-tower": {
+      "name": "Tháp N Seoul", "rank": "Ghé thăm nhiều thứ 2", "blurb": "Cáp treo Namsan và tầm nhìn đẹp nhất thành phố.",
+      "intro": [
+        "Nằm trên đỉnh núi Namsan, Tháp N Seoul cho tầm nhìn toàn cảnh đẹp nhất thành phố, nhất là lúc hoàng hôn và về đêm.",
+        "Đi cáp treo Namsan lên đỉnh cũng là một phần thú vị."
+      ],
+      "tips": [
+        "Hãy đến gần hoàng hôn để thấy cả cảnh ngày lẫn đêm.",
+        "Lên bằng cáp treo; có thể đi bộ xuống qua công viên Namsan.",
+        "Cuối tuần và ngày lễ rất đông — hãy đến sớm hoặc muộn."
+      ],
+      "nearby": ["Myeongdong", "Công viên Namsan", "Itaewon"]
+    },
+    "bukchon": {
+      "name": "Làng Hanok Bukchon", "rank": "Được người châu Âu yêu thích", "blurb": "Những con hẻm truyền thống và góc chụp ảnh đẹp.",
+      "intro": [
+        "Bukchon là khu phố trên sườn đồi với các hanok (nhà truyền thống) được gìn giữ giữa hai cung điện, với hẻm yên tĩnh và tầm nhìn qua những mái nhà.",
+        "Đây là khu dân cư, hợp nhất với một buổi dạo bộ nhẹ nhàng và tôn trọng."
+      ],
+      "tips": [
+        "Hãy nói nhỏ — có người sinh sống ở đây.",
+        "Buổi sáng là lúc yên tĩnh nhất để chụp ảnh.",
+        "Kết hợp với Gyeongbokgung và Insadong ở gần."
+      ],
+      "nearby": ["Gyeongbokgung", "Insadong", "Changdeokgung"]
+    },
+    "hongdae": {
+      "name": "Hongdae", "rank": "Về đêm & giới trẻ", "blurb": "Biểu diễn đường phố, cửa hàng indie và cuộc sống về đêm.",
+      "intro": [
+        "Hongdae quanh Đại học Hongik là khu nghệ thuật và âm nhạc trẻ trung của Seoul — nghệ sĩ đường phố, cửa hàng indie, club và đồ ăn khuya.",
+        "Nơi để cảm nhận năng lượng của thành phố khi màn đêm buông xuống."
+      ],
+      "tips": [
+        "Tối đến, các nghệ sĩ đường phố xuất hiện.",
+        "Khám phá các con hẻm để tìm quán cà phê và cửa hàng vintage.",
+        "Kết nối tốt bằng tuyến 2 và tuyến sân bay AREX."
+      ],
+      "nearby": ["Yeonnam-dong", "Sinchon", "Hapjeong"]
+    },
+    "seongsu": {
+      "name": "Seongsu", "rank": "Được người Mỹ yêu thích", "blurb": "Con phố cà phê và tráng miệng hợp mốt nhất Seoul.",
+      "intro": [
+        "Từng là khu công nghiệp, nay Seongsu là khu cà phê và thiết kế 'chất' nhất Seoul — nhà kho cải tạo, xưởng rang và cửa hàng pop-up.",
+        "Đặc biệt thu hút du khách từ châu Mỹ."
+      ],
+      "tips": [
+        "Hãy làm một tour cà phê; nhiều xưởng rang chỉ cách nhau vài dãy nhà.",
+        "Ngày thường yên tĩnh hơn cuối tuần.",
+        "Kết hợp với công viên Seoul Forest ngay bên cạnh."
+      ],
+      "nearby": ["Seoul Forest", "Ttukseom", "ĐH Konkuk"]
+    },
+    "bukhansan": {
+      "name": "Bukhansan (K-leo núi)", "rank": "Xu hướng đang lên", "blurb": "Đỉnh granit ở rìa thành phố — trào lưu tăng nhanh nhất Hàn Quốc.",
+      "intro": [
+        "Vườn quốc gia Bukhansan vươn lên ngay ở rìa Seoul, với các đỉnh granit và lối mòn qua đền chùa — dẫn đầu trào lưu 'K-leo núi' đang lên trong giới du khách nước ngoài.",
+        "Các lối mòn từ dạo bộ dễ đến leo dốc, hãy chọn theo thể lực."
+      ],
+      "tips": [
+        "Khởi hành sớm buổi sáng, nhất là mùa hè.",
+        "Mang giày phù hợp; phần trên nhiều đá.",
+        "Xem thời tiết và mang theo nước."
+      ],
+      "nearby": ["Bukaksan", "Gwanaksan", "Achasan"]
+    },
+    "dmz": {
+      "name": "Tour DMZ", "rank": "Chuyến đi trong mơ", "blurb": "Vùng biên giới — tham quan bằng tour có tổ chức.",
+      "intro": [
+        "Khu phi quân sự giữa hai miền Triều Tiên là chuyến đi trong ngày đầy ấn tượng từ Seoul, thường qua tour có tổ chức lo phần tiếp cận và quy định.",
+        "Các điểm dừng có thể gồm đài quan sát và đường hầm."
+      ],
+      "tips": [
+        "Phải đi theo tour được cấp phép — không thể tự đi.",
+        "Mang hộ chiếu; có kiểm tra giấy tờ.",
+        "Đặt trước, nhất là mùa cao điểm."
+      ],
+      "nearby": ["Imjingak", "Paju"]
+    },
+    "haeundae": {
+      "name": "Bãi biển Haeundae", "rank": "Bãi biển số 1 Busan", "blurb": "Bãi biển và khu ven biển nổi tiếng nhất Busan.",
+      "intro": [
+        "Haeundae là bãi biển biểu tượng của Busan — một dải cát dài với khách sạn, quán cà phê và Blueline Park ven biển cùng những khoang cáp treo đầy màu sắc.",
+        "Là điểm dừng thuận tiện nhất cho chuyến Busan đầu tiên."
+      ],
+      "tips": [
+        "Sky capsule ở Blueline Park rất được ưa chuộng — đặt trước vào mùa cao điểm.",
+        "Bãi Gwangalli gần đó tuyệt đẹp về đêm với ánh đèn cầu Diamond.",
+        "Các quán hải sản nằm trong những con phố phía sau."
+      ],
+      "nearby": ["Bãi biển Gwangalli", "Blueline Park", "Dongbaekseom"]
+    },
+    "gamcheon": {
+      "name": "Làng Văn hóa Gamcheon", "rank": "Top 3 Busan", "blurb": "Ngôi làng sườn đồi với những ngôi nhà sặc sỡ.",
+      "intro": [
+        "Gamcheon là khu phố sườn đồi rất lên ảnh, với nhà màu pastel, tranh tường và tác phẩm nghệ thuật; được gọi là 'Santorini của Busan'.",
+        "Những con hẻm bậc thang hẹp mời gọi dạo bước thong thả."
+      ],
+      "tips": [
+        "Mang giày thoải mái — nhiều dốc và bậc thang.",
+        "Theo lộ trình đóng dấu trên bản đồ nghệ thuật để không bỏ lỡ điểm hay.",
+        "Đây là khu dân cư, hãy giữ yên lặng."
+      ],
+      "nearby": ["Chợ Jagalchi", "Bãi biển Songdo", "Quảng trường BIFF"]
+    },
+    "jagalchi": {
+      "name": "Chợ cá Jagalchi", "rank": "Biểu tượng hải sản", "blurb": "Chợ hải sản lớn nhất Hàn Quốc.",
+      "intro": [
+        "Jagalchi là chợ hải sản lớn nhất Hàn Quốc — bạn chọn cá ở tầng dưới và được chế biến ở tầng trên.",
+        "Là lát cắt chân thực và sống động về đời sống cảng biển Busan."
+      ],
+      "tips": [
+        "Hãy đến giờ trưa, khi tươi nhất và nhộn nhịp nhất.",
+        "Giá thường có thể mặc cả — thống nhất trước khi gọi món.",
+        "Kết hợp với chợ Gukje và quảng trường BIFF ngay bên cạnh."
+      ],
+      "nearby": ["Chợ Gukje", "Quảng trường BIFF", "Gamcheon"]
+    },
+    "seongsan": {
+      "name": "Seongsan Ilchulbong", "rank": "Phải xem ở Jeju", "blurb": "Đỉnh bình minh, Di sản UNESCO, ở phía đông Jeju.",
+      "intro": [
+        "Seongsan Ilchulbong ('Đỉnh Bình Minh') là một nón núi lửa ngoạn mục nhô lên từ biển, Di sản Thế giới UNESCO và là nơi ngắm bình minh biểu tượng của Jeju.",
+        "Đường lên vành miệng núi ngắn nhưng dốc."
+      ],
+      "tips": [
+        "Bình minh là kinh điển, nhưng ngày quang mây nào cũng tuyệt đẹp.",
+        "Đây là một cuộc leo thật sự — hãy mang giày tốt.",
+        "Kết hợp với Seopjikoji và Manjanggul cho một ngày ở đông Jeju."
+      ],
+      "nearby": ["Seopjikoji", "Hang Manjanggul", "Đảo Udo"]
+    },
+    "hallasan": {
+      "name": "Hallasan", "rank": "Đỉnh cao nhất Hàn Quốc", "blurb": "Núi lửa của Jeju — lối mòn cho mọi trình độ.",
+      "intro": [
+        "Hallasan là núi lửa hình khiên ở trung tâm Jeju và là ngọn núi cao nhất Hàn Quốc, với các lối mòn xuyên rừng thay đổi và cảnh quan núi cao.",
+        "Một số lối lên đỉnh cần khởi hành sớm và đặt chỗ."
+      ],
+      "tips": [
+        "Kiểm tra lối nào lên tới đỉnh và có cần đặt chỗ không.",
+        "Thời tiết thay đổi nhanh — mang theo áo nhiều lớp.",
+        "Khởi hành sớm để xuống núi trong giờ mở cửa của công viên."
+      ],
+      "nearby": ["Thành phố Jeju", "Eorimok", "Seongpanak"]
+    }
+  }
+}
