@@ -92,5 +92,470 @@
         { "q": "Tôi có vẫn cần e-Arrival Card không?", "a": "Các quy định giấy tờ nhập cảnh như e-Arrival Card vẫn có thể áp dụng khi đến. Hãy kiểm tra quy định hiện hành gần ngày đi." }
       ]
     }
+  },
+  "ja": {
+    "kicker": "ビザガイド · ベトナム → 韓国",
+    "readingTime": "9分で読了",
+    "h1": "ベトナム国民のための韓国ビザ",
+    "metaTitle": "ベトナムから韓国ビザ：ステップ・バイ・ステップガイド（2026）— Korea Trip Hub",
+    "metaDesc": "ベトナムから韓国観光ビザを取得する方法：申請場所、必要書類（各書類の入手先も）、手数料、審査期間、公式リンク。C-3-9短期観光ビザ。",
+    "ui": { "visa": "ビザの種類", "stay": "滞在期間", "entry": "入国回数", "where": "入手先", "official": "公式情報源", "required": "必須", "conditional": "該当する場合", "recommended": "推奨", "confirm": "手数料・規定は変わる可能性があります — 公式情報源でご確認ください", "source": "出典", "updated": "更新", "tldr": "要点" },
+    "verdict": {
+      "headline": "はい — ベトナムのパスポート保持者はビザが必要です。",
+      "sub": "ハノイまたはホーチミンの韓国ビザ申請センター（KVAC）で、C-3-9短期観光ビザを本人が直接申請します。朗報：書類が簡素化され、長期有効ビザが拡大しています。",
+      "type": "C-3-9 短期観光",
+      "stay": "最長90日",
+      "entry": "シングルエントリー（複数年の数次ビザも可能 — 下記参照）"
+    },
+    "highlights": [
+      { "icon": "🗓️", "tone": "green", "title": "最長10年の数次ビザが拡大中", "body": "韓国は観光促進のため、ベトナム人旅行者向けの複数年・数次ビザを拡大しています。適用条件があります — 対象かどうかKVAC／大使館に確認してください。" },
+      { "icon": "📁", "tone": "blue", "title": "書類の簡素化", "body": "財政証明の要件が緩和され、通常は1〜2種類の提出で済みます。企業が主催する団体ツアーは主催者の保証で申請でき、学生は在学証明書＋保護者の財政証明を使えます。" }
+    ],
+    "tldr": [
+      "visa.go.kr（唯一の公式ポータル）で申請書を記入し、印刷して署名します。",
+      "お住まいの地域を管轄するKVACに本人が直接提出します — ハノイ（北部）またはホーチミン（南部）。",
+      "パスポート、写真、財政証明（今は1〜2種類のみ）、就労／事業／就学の証明を持参します。",
+      "手数料は相互主義で定められ返金不可 — 現在の金額はKVACで確認してください。"
+    ],
+    "jurisdiction": {
+      "title": "ステップ0 — ハノイ？それともホーチミン？",
+      "intro": "ベトナムには韓国ビザ申請センターが2か所あります。居住地域を管轄するセンターで申請してください。両方とも月曜〜金曜（おおむね08:00〜16:30）に開き、週末と祝日は休みです。",
+      "zones": [
+        { "name": "KVACハノイ（大使館管轄）", "covers": "ベトナム北部・中部", "centers": "ハノイ", "site": "visaforkorea-vt.com", "url": "https://www.visaforkorea-vt.com/?lang=en" },
+        { "name": "KVACホーチミン（総領事館管轄）", "covers": "ベトナム南部", "centers": "ホーチミン", "site": "visaforkorea-hc.com", "url": "https://visaforkorea-hc.com/?lang=en" }
+      ],
+      "note": "どのセンターか分からない場合は、各センターの管轄地域リストで自分の省がどこに含まれるか確認してください。"
+    },
+    "steps": {
+      "title": "申請の手順",
+      "items": [
+        { "n": 1, "title": "ビザの種類を確認", "detail": "観光目的なら、C-3-9短期訪問（観光）ビザを申請します。" },
+        { "n": 2, "title": "visa.go.krで申請書を記入", "detail": "韓国ビザポータル（唯一の公式サイト）で申請書に記入し、印刷して署名します。", "link": "https://www.visa.go.kr", "linkLabel": "韓国ビザポータル" },
+        { "n": 3, "title": "（簡素化された）書類をそろえる", "detail": "下記のチェックリストを集めます。財政証明は今や1〜2種類のみなので、手持ちで最も強力な証拠を選んでください。" },
+        { "n": 4, "title": "管轄のKVACで提出", "detail": "営業時間内にハノイまたはホーチミンのKVACへすべてを持参します。" },
+        { "n": 5, "title": "手数料を支払う", "detail": "ビザ手数料に加えてセンターのサービス料を支払います。ビザが却下されても手数料は返金されません。" },
+        { "n": 6, "title": "申請状況を追跡", "detail": "センターの追跡チャネルで状況を確認します。承認前に返金不可の航空券を買わないでください。" },
+        { "n": 7, "title": "パスポートを受け取る", "detail": "本人受取または宅配で受け取り、受領したらすぐにビザの内容を確認します。" }
+      ]
+    },
+    "documents": {
+      "title": "必要書類チェックリスト — 各書類の入手先と方法つき",
+      "intro": "各項目について、入手先と記載されるべき内容を示します。書類同士の一貫性は、書類そのものと同じくらい重要です。",
+      "cols": ["書類", "入手先", "記載されるべき内容"],
+      "rows": [
+        { "doc": "パスポート", "req": "required", "where": "本人が所持", "how": "残存有効期間6か月以上、空白ページ2ページ以上。過去の渡航歴がある古いパスポートも持参してください。" },
+        { "doc": "ビザ申請書", "req": "required", "where": "visa.go.kr", "how": "韓国ビザポータルで記入し、印刷して署名します。", "link": "https://www.visa.go.kr" },
+        { "doc": "写真 — 3.5 × 4.5 cm", "req": "required", "where": "任意の写真店", "how": "白背景、6か月以内に撮影、正面、眼鏡なし。" },
+        { "doc": "財政証明（1〜2種類）", "req": "required", "where": "銀行／勤務先", "how": "最も強力なものを選択：安定した残高の銀行取引明細（銀行の証印つき）、預金通帳／定期預金証書、または給与証明。安定した履歴は突然の入金より説得力があります。" },
+        { "doc": "就労／事業／就学の証明", "req": "required", "where": "勤務先／事業／学校", "how": "被雇用者：労働契約書＋休暇承認。自営業：事業登録証。学生：在学証明書（＋保護者の財政証明）。" },
+        { "doc": "往復航空券とホテルの予約", "req": "required", "where": "航空会社／予約サイト", "how": "予約・旅程だけで十分です — 承認前に航空券を購入しないでください。" },
+        { "doc": "招へい状（親族・友人訪問の場合）", "req": "conditional", "where": "韓国の招へい者", "how": "招へい状に加え、招へい者の身分証／外国人登録証の写し、彼らが保証する場合はその財政証明。" },
+        { "doc": "カバーレター＋旅程", "req": "recommended", "where": "ご自身で作成", "how": "目的を簡潔に述べた手紙と日ごとの計画は、観光の申請書類を強化します。" }
+      ],
+      "legend": { "required": "必須", "conditional": "該当する場合", "recommended": "推奨" }
+    },
+    "funds": {
+      "title": "「いくら資金を見せればいい？」",
+      "body": "公表された最低額はありません。目的は、旅行費用をまかなえること、そしてベトナムに戻る強い理由（仕事、事業、家族、就学）があることを証明することです。財政証明は今や1〜2種類に限られるため、最も説得力のある証拠を選んでください。",
+      "tips": [
+        "3〜6か月の安定した残高は、直前の多額の入金より説得力があります。",
+        "資金は結びつきの証明とセットに：労働契約、事業登録、または在学証明。",
+        "（会社や家族などに）スポンサーされていますか？スポンサーの保証書／財政証明を添えてください。"
+      ]
+    },
+    "pitfalls": {
+      "title": "却下・遅延を招く間違い",
+      "items": [
+        { "icon": "📍", "t": "センターの間違い", "d": "居住地がホーチミン管轄なのにハノイで申請する（またはその逆）。" },
+        { "icon": "💸", "t": "突然の入金", "d": "申請直前の多額の一括入金。安定して説明できる資金を示しましょう。" },
+        { "icon": "🔗", "t": "ベトナムとの結びつきが弱い", "d": "帰国する証明がない。労働契約、事業書類、または在学証明を加えましょう。" },
+        { "icon": "🎫", "t": "航空券の早すぎる購入", "d": "承認前に返金不可の航空券を買う — 予約だけで十分です。" },
+        { "icon": "🖼️", "t": "写真の不備", "d": "サイズや背景が違う。新しい3.5×4.5 cmの白背景写真を使いましょう。" }
+      ]
+    },
+    "faq": {
+      "title": "ベトナム → 韓国ビザ FAQ",
+      "items": [
+        { "q": "ベトナム国民は韓国にビザが必要ですか？", "a": "はい、韓国本土へは事前にC-3-9観光ビザを申請します。（一般パスポートは韓国のビザ免除対象ではありません。）" },
+        { "q": "5年または10年のビザは取れますか？", "a": "韓国はベトナム人旅行者向けの複数年・数次ビザを拡大しています。対象になるかはあなたのプロフィールと渡航歴によります — KVAC／大使館に確認してください。" },
+        { "q": "どこで申請しますか？", "a": "お住まいに応じて、ハノイまたはホーチミンの韓国ビザ申請センター、あるいは韓国大使館／領事館で申請します。" },
+        { "q": "資金はいくら証明が必要ですか？", "a": "固定の最低額はありません。安定した残高とベトナムとの強い結びつきを示しましょう。財政証明は今や1〜2種類に簡素化されています。" },
+        { "q": "手数料はいくらですか？", "a": "手数料は相互主義で定められ変動します。却下されても返金されません。現在の金額はKVACで確認してください。" },
+        { "q": "会社のインセンティブ旅行で行きます — 簡単になりますか？", "a": "はい。会社が主催する団体ツアーでは、主催会社の保証が個人の財政書類の代わりになります。" },
+        { "q": "e-Arrival Cardはまだ必要ですか？", "a": "e-Arrival Cardのような入国書類の規定は到着時に依然適用される場合があります。渡航日の近くで最新の規定を確認してください。" }
+      ]
+    }
+  },
+  "ko": {
+    "kicker": "비자 가이드 · 베트남 → 한국",
+    "readingTime": "9분 분량",
+    "h1": "베트남 국민을 위한 한국 비자",
+    "metaTitle": "베트남에서 한국 비자: 단계별 가이드 (2026) — Korea Trip Hub",
+    "metaDesc": "베트남에서 한국 관광 비자를 받는 방법: 어디에 신청하는지, 필요 서류(각 서류를 어디서 발급받는지 포함), 수수료, 처리 기간, 공식 링크. C-3-9 단기 관광 비자.",
+    "ui": { "visa": "비자 종류", "stay": "체류 기간", "entry": "입국 횟수", "where": "발급처", "official": "공식 출처", "required": "필수", "conditional": "해당 시", "recommended": "권장", "confirm": "수수료·규정은 변경될 수 있습니다 — 공식 출처에서 확인하세요", "source": "출처", "updated": "업데이트", "tldr": "요약" },
+    "verdict": {
+      "headline": "네 — 베트남 여권 소지자는 비자가 필요합니다.",
+      "sub": "하노이 또는 호치민의 한국 비자 신청 센터(KVAC)에서 C-3-9 단기 관광 비자를 본인이 직접 신청합니다. 좋은 소식: 서류가 간소화되었고 장기 유효 비자가 확대되고 있습니다.",
+      "type": "C-3-9 단기 관광",
+      "stay": "최대 90일",
+      "entry": "단수 입국 (복수년 복수 입국 비자도 가능 — 아래 참조)"
+    },
+    "highlights": [
+      { "icon": "🗓️", "tone": "green", "title": "최대 10년 복수 입국 비자 확대 중", "body": "한국은 관광 활성화를 위해 베트남 여행객 대상 복수년·복수 입국 비자를 확대해 왔습니다. 자격 조건이 적용됩니다 — 본인이 해당되는지 KVAC/대사관에 문의하세요." },
+      { "icon": "📁", "tone": "blue", "title": "간소화된 서류", "body": "재정 증명 요건이 완화되어 보통 1~2종만 제출하면 됩니다. 회사가 주최하는 단체 관광은 주최자의 보증서로 신청할 수 있고, 학생은 재학증명서 + 부모의 재정 증명을 사용할 수 있습니다." }
+    ],
+    "tldr": [
+      "visa.go.kr(유일한 공식 포털)에서 신청서를 작성하고 인쇄해 서명하세요.",
+      "본인 거주 지역 관할 KVAC에 직접 제출하세요 — 하노이(북부) 또는 호치민(남부).",
+      "여권, 사진, 재정 증명(이제 1~2종만), 그리고 직업/사업/학업 증명을 지참하세요.",
+      "수수료는 상호주의에 따라 정해지며 환불되지 않습니다 — 현재 금액은 KVAC에서 확인하세요."
+    ],
+    "jurisdiction": {
+      "title": "0단계 — 하노이 vs 호치민?",
+      "intro": "베트남에는 한국 비자 신청 센터가 두 곳 있습니다. 본인 거주 지역을 관할하는 곳에 신청하세요. 두 곳 모두 월요일~금요일(대략 08:00~16:30)에 문을 열며, 주말과 공휴일은 휴무입니다.",
+      "zones": [
+        { "name": "KVAC 하노이 (대사관 관할)", "covers": "베트남 북부 및 중부", "centers": "하노이", "site": "visaforkorea-vt.com", "url": "https://www.visaforkorea-vt.com/?lang=en" },
+        { "name": "KVAC 호치민 (총영사관 관할)", "covers": "베트남 남부", "centers": "호치민", "site": "visaforkorea-hc.com", "url": "https://visaforkorea-hc.com/?lang=en" }
+      ],
+      "note": "어느 센터인지 확실하지 않다면, 각 센터의 관할 지역 목록에서 본인의 성(省)이 어디에 속하는지 확인하세요."
+    },
+    "steps": {
+      "title": "신청 절차, 단계별",
+      "items": [
+        { "n": 1, "title": "비자 종류 확인", "detail": "관광이라면 C-3-9 단기 방문(관광) 비자를 신청하세요." },
+        { "n": 2, "title": "visa.go.kr에서 신청서 작성", "detail": "한국 비자 포털(유일한 공식 사이트)에서 신청서를 작성한 뒤 인쇄해 서명하세요.", "link": "https://www.visa.go.kr", "linkLabel": "한국 비자 포털" },
+        { "n": 3, "title": "(간소화된) 서류 준비", "detail": "아래 체크리스트를 모으세요. 재정 증명은 이제 1~2종뿐이니 가진 것 중 가장 강력한 증거를 고르세요." },
+        { "n": 4, "title": "관할 KVAC에 제출", "detail": "영업시간에 하노이 또는 호치민 KVAC로 모든 서류를 지참하세요." },
+        { "n": 5, "title": "수수료 납부", "detail": "비자 수수료와 센터 서비스 수수료를 납부합니다. 비자가 거절되어도 수수료는 환불되지 않습니다." },
+        { "n": 6, "title": "신청 상태 추적", "detail": "센터의 조회 채널로 상태를 확인하세요. 승인 전에는 환불 불가 항공권을 사지 마세요." },
+        { "n": 7, "title": "여권 수령", "detail": "본인 수령 또는 택배로 받고, 받는 즉시 비자 정보를 확인하세요." }
+      ]
+    },
+    "documents": {
+      "title": "서류 체크리스트 — 각 서류의 발급처와 방법 포함",
+      "intro": "각 항목에 대해 어디서 발급받고 무엇이 표시되어야 하는지 안내합니다. 서류 간의 일관성은 서류 자체만큼 중요합니다.",
+      "cols": ["서류", "발급처", "표시되어야 할 내용"],
+      "rows": [
+        { "doc": "여권", "req": "required", "where": "본인 소지", "how": "유효기간 6개월 이상, 빈 페이지 2장 이상. 과거 여행 기록이 있는 구여권도 함께 지참하세요." },
+        { "doc": "비자 신청서", "req": "required", "where": "visa.go.kr", "how": "한국 비자 포털에서 작성하고 인쇄해 서명하세요.", "link": "https://www.visa.go.kr" },
+        { "doc": "사진 — 3.5 × 4.5 cm", "req": "required", "where": "아무 사진관", "how": "흰색 배경, 6개월 이내 촬영, 정면, 안경 미착용." },
+        { "doc": "재정 증명(1~2종)", "req": "required", "where": "은행 / 근무처", "how": "가장 강력한 것을 선택: 잔액이 안정적인 은행 거래내역서(은행 직인), 예금통장/정기예금 증서, 또는 급여 확인서. 안정적인 이력이 갑작스러운 입금보다 낫습니다." },
+        { "doc": "재직 / 사업 / 학업 증명", "req": "required", "where": "근무처 / 사업체 / 학교", "how": "재직자: 근로계약서 + 휴가 승인. 자영업자: 사업자등록증. 학생: 재학증명서(+ 부모 재정 증명)." },
+        { "doc": "왕복 항공권 및 호텔 예약", "req": "required", "where": "항공사 / 예약 사이트", "how": "예약/일정만으로 충분합니다 — 승인 전에 항공권을 결제하지 마세요." },
+        { "doc": "초청장(가족/친구 방문 시)", "req": "conditional", "where": "한국의 초청인", "how": "초청장과 함께 초청인의 신분증/외국인등록증 사본, 그리고 이들이 보증한다면 그 재정 증명." },
+        { "doc": "커버레터 + 일정표", "req": "recommended", "where": "직접 작성", "how": "목적을 간단히 밝힌 편지와 일별 계획은 관광 서류를 강화합니다." }
+      ],
+      "legend": { "required": "필수", "conditional": "해당하는 경우", "recommended": "권장" }
+    },
+    "funds": {
+      "title": "\"돈은 얼마나 보여줘야 하나요?\"",
+      "body": "공표된 최소 금액은 없습니다. 목표는 여행 비용을 감당할 수 있고 베트남으로 돌아올 강력한 이유(직업, 사업, 가족, 학업)가 있음을 증명하는 것입니다. 재정 증명이 이제 1~2종으로 제한되므로 가장 설득력 있는 증거를 고르세요.",
+      "tips": [
+        "3~6개월 안정적인 잔액이 막판의 큰 입금보다 설득력 있습니다.",
+        "자금은 유대 증명과 함께: 근로계약서, 사업자등록, 또는 재학 증명.",
+        "(회사나 가족 등이) 후원하나요? 후원자의 보증서/재정 증명을 첨부하세요."
+      ]
+    },
+    "pitfalls": {
+      "title": "거절·지연을 부르는 실수",
+      "items": [
+        { "icon": "📍", "t": "잘못된 센터", "d": "거주지가 호치민 관할인데 하노이에서 신청하는 경우(또는 그 반대)." },
+        { "icon": "💸", "t": "갑작스러운 입금", "d": "신청 직전의 큰 일시금. 안정적이고 설명 가능한 자금을 보여주세요." },
+        { "icon": "🔗", "t": "베트남과의 약한 유대", "d": "돌아온다는 증명이 없음. 근로계약서, 사업 서류, 또는 재학 증명을 추가하세요." },
+        { "icon": "🎫", "t": "항공권 조기 구매", "d": "승인 전 환불 불가 항공권 구매 — 예약만으로 충분합니다." },
+        { "icon": "🖼️", "t": "부적합한 사진", "d": "크기나 배경이 틀림. 새로 찍은 3.5×4.5 cm 흰색 배경 사진을 사용하세요." }
+      ]
+    },
+    "faq": {
+      "title": "베트남 → 한국 비자 FAQ",
+      "items": [
+        { "q": "베트남 국민은 한국 비자가 필요한가요?", "a": "네, 한국 본토는 사전에 C-3-9 관광 비자를 신청해야 합니다. (일반 여권은 한국 무비자 대상이 아닙니다.)" },
+        { "q": "5년 또는 10년 비자를 받을 수 있나요?", "a": "한국은 베트남 여행객 대상 복수년·복수 입국 비자를 확대해 왔습니다. 자격은 본인의 프로필과 여행 이력에 따라 다릅니다 — KVAC/대사관에 문의하세요." },
+        { "q": "어디에 신청하나요?", "a": "거주지에 따라 하노이 또는 호치민의 한국 비자 신청 센터, 또는 한국 대사관/영사관에 신청합니다." },
+        { "q": "돈은 얼마나 증명해야 하나요?", "a": "고정된 최소 금액은 없습니다. 안정적인 잔액과 베트남과의 강한 유대를 보여주세요. 재정 증명은 이제 1~2종으로 간소화되었습니다." },
+        { "q": "수수료는 얼마인가요?", "a": "수수료는 상호주의에 따라 정해지며 달라집니다. 거절되어도 환불되지 않습니다. 현재 금액은 KVAC에서 확인하세요." },
+        { "q": "회사 인센티브 여행으로 갑니다 — 더 간단한가요?", "a": "네. 회사가 주최하는 단체 관광은 주최 회사의 보증서가 개인 재정 서류를 대신할 수 있습니다." },
+        { "q": "e-Arrival Card가 여전히 필요한가요?", "a": "e-Arrival Card 같은 입국 서류 규정은 도착 시 여전히 적용될 수 있습니다. 여행일이 가까워지면 최신 규정을 확인하세요." }
+      ]
+    }
+  },
+  "es": {
+    "kicker": "Guía de visado · Vietnam → Corea",
+    "readingTime": "9 min de lectura",
+    "h1": "Visado de Corea para ciudadanos vietnamitas",
+    "metaTitle": "Visado de Corea desde Vietnam: guía paso a paso (2026) — Korea Trip Hub",
+    "metaDesc": "Cómo obtener el visado de turista de Corea desde Vietnam: dónde solicitarlo, documentos (y dónde conseguir cada uno), tasas, plazos de tramitación y enlaces oficiales. Visado de turista de corta estancia C-3-9.",
+    "ui": { "visa": "Tipo de visado", "stay": "Duración de la estancia", "entry": "Número de entradas", "where": "Dónde obtenerlo", "official": "Fuente oficial", "required": "Obligatorio", "conditional": "Si corresponde", "recommended": "Recomendado", "confirm": "Las tasas/normas pueden cambiar — confírmalo en la fuente", "source": "Fuente", "updated": "Actualizado", "tldr": "RESUMEN" },
+    "verdict": {
+      "headline": "Sí — los titulares de pasaporte vietnamita necesitan visado.",
+      "sub": "Solicitarás el visado de turista de corta estancia C-3-9 en persona en un Centro de Solicitud de Visados de Corea (KVAC) en Hanói o Ciudad Ho Chi Minh. La buena noticia: se simplificó el papeleo y se están ampliando los visados de larga validez.",
+      "type": "Turista de corta estancia C-3-9",
+      "stay": "Hasta 90 días",
+      "entry": "Entrada única (es posible el visado de entradas múltiples de varios años — ver más abajo)"
+    },
+    "highlights": [
+      { "icon": "🗓️", "tone": "green", "title": "Se amplían los visados de entradas múltiples de hasta 10 años", "body": "Corea ha ido ampliando los visados de entradas múltiples de varios años para viajeros vietnamitas a fin de impulsar el turismo. Aplican condiciones de elegibilidad — pregunta en el KVAC/embajada si cumples los requisitos." },
+      { "icon": "📁", "tone": "blue", "title": "Papeleo simplificado", "body": "Se redujo el requisito de prueba de fondos: normalmente solo presentas 1 o 2 tipos de prueba. Los tours grupales patrocinados por una empresa pueden solicitarlo con la garantía del organizador, y los estudiantes pueden usar un certificado de matrícula + los ingresos de sus padres." }
+    ],
+    "tldr": [
+      "Rellena el formulario en visa.go.kr (el único portal oficial), imprímelo y fírmalo.",
+      "Preséntalo en persona en el KVAC de tu región — Hanói (norte) o Ciudad Ho Chi Minh (sur).",
+      "Lleva pasaporte, foto, prueba de fondos (ahora solo 1 o 2 tipos) y prueba de tu empleo/negocio/estudios.",
+      "Las tasas se fijan por reciprocidad y no son reembolsables — confirma el importe actual en el KVAC."
+    ],
+    "jurisdiction": {
+      "title": "Paso 0 — ¿Hanói o Ciudad Ho Chi Minh?",
+      "intro": "Vietnam tiene dos Centros de Solicitud de Visados de Corea. Solicita en el que corresponde a tu zona de residencia. Ambos abren de lunes a viernes (aproximadamente de 08:00 a 16:30); cerrados fines de semana y festivos.",
+      "zones": [
+        { "name": "KVAC Hanói (jurisdicción de la Embajada)", "covers": "Norte y centro de Vietnam", "centers": "Hanói", "site": "visaforkorea-vt.com", "url": "https://www.visaforkorea-vt.com/?lang=en" },
+        { "name": "KVAC Ciudad Ho Chi Minh (jurisdicción del Consulado)", "covers": "Sur de Vietnam", "centers": "Ciudad Ho Chi Minh", "site": "visaforkorea-hc.com", "url": "https://visaforkorea-hc.com/?lang=en" }
+      ],
+      "note": "Si no estás seguro de qué centro te corresponde, consulta la lista de jurisdicciones de cada centro para ver a qué provincia pertenece la tuya."
+    },
+    "steps": {
+      "title": "La solicitud, paso a paso",
+      "items": [
+        { "n": 1, "title": "Confirma el tipo de visado", "detail": "Para turismo, solicita el visado de visita de corta estancia (turista) C-3-9." },
+        { "n": 2, "title": "Rellena el formulario en visa.go.kr", "detail": "Completa el formulario en el Portal de Visados de Corea — el único sitio oficial — luego imprímelo y fírmalo.", "link": "https://www.visa.go.kr", "linkLabel": "Portal de Visados de Corea" },
+        { "n": 3, "title": "Reúne los documentos (simplificados)", "detail": "Reúne la lista de abajo. La prueba de fondos ahora es solo 1 o 2 tipos, así que elige la evidencia más sólida que tengas." },
+        { "n": 4, "title": "Preséntalo en tu KVAC", "detail": "Lleva todo al KVAC de Hanói o Ciudad Ho Chi Minh en horario laboral." },
+        { "n": 5, "title": "Paga la tasa", "detail": "Paga la tasa del visado más la tasa de servicio del centro. Las tasas no son reembolsables aunque se deniegue el visado." },
+        { "n": 6, "title": "Haz seguimiento de tu solicitud", "detail": "Sigue el estado por el canal de seguimiento del centro. No compres vuelos no reembolsables antes de la aprobación." },
+        { "n": 7, "title": "Recoge tu pasaporte", "detail": "Recógelo en persona o por mensajería, y revisa los datos del visado en cuanto lo recibas." }
+      ]
+    },
+    "documents": {
+      "title": "Lista de documentos — con dónde y cómo obtener cada uno",
+      "intro": "Para cada elemento, aquí tienes dónde obtenerlo y qué debe mostrar. La coherencia entre documentos importa tanto como los documentos mismos.",
+      "cols": ["Documento", "Dónde obtenerlo", "Qué debe mostrar"],
+      "rows": [
+        { "doc": "Pasaporte", "req": "required", "where": "Ya lo tienes", "how": "Válido 6+ meses, al menos 2 páginas en blanco. Lleva también pasaportes antiguos con viajes previos." },
+        { "doc": "Formulario de solicitud de visado", "req": "required", "where": "visa.go.kr", "how": "Complétalo en el Portal de Visados de Corea, imprímelo y fírmalo.", "link": "https://www.visa.go.kr" },
+        { "doc": "Foto — 3,5 × 4,5 cm", "req": "required", "where": "Cualquier estudio fotográfico", "how": "Fondo blanco, tomada en los últimos 6 meses, rostro completo, sin gafas." },
+        { "doc": "Prueba de fondos (1 o 2 tipos)", "req": "required", "where": "Tu banco / empleador", "how": "Elige la más sólida: un extracto bancario con saldo estable (sellado por el banco), una libreta de ahorros/certificado de depósito a plazo, o una confirmación de salario. Un historial estable vence a un depósito repentino." },
+        { "doc": "Prueba de empleo / negocio / estudios", "req": "required", "where": "Empleador / negocio / centro de estudios", "how": "Empleado: contrato laboral + aprobación de vacaciones. Autónomo: registro mercantil. Estudiante: certificado de matrícula (+ ingresos de los padres)." },
+        { "doc": "Reserva de vuelo de ida y vuelta y hotel", "req": "required", "where": "Aerolínea / sitios de reservas", "how": "Basta con reservas/itinerario — no pagues el billete antes de la aprobación." },
+        { "doc": "Carta de invitación (si visitas a familia/amigos)", "req": "conditional", "where": "Tu anfitrión en Corea", "how": "Una invitación más copia del DNI/tarjeta de residencia del anfitrión y, si te patrocina, su prueba de fondos." },
+        { "doc": "Carta de presentación + itinerario", "req": "recommended", "where": "Redáctala tú mismo", "how": "Una breve carta de motivos y un plan día a día refuerzan un expediente de turista." }
+      ],
+      "legend": { "required": "Obligatorio", "conditional": "Si te corresponde", "recommended": "Recomendado" }
+    },
+    "funds": {
+      "title": "\"¿Cuánto dinero debo demostrar?\"",
+      "body": "No hay un mínimo publicado único. El objetivo es demostrar que puedes costear el viaje y que tienes motivos sólidos para volver a Vietnam (empleo, negocio, familia, estudios). Como la prueba de fondos ahora se limita a 1 o 2 tipos, elige la evidencia más convincente.",
+      "tips": [
+        "Un saldo estable de 3 a 6 meses convence más que un gran depósito de última hora.",
+        "Combina los fondos con prueba de vínculos: un contrato laboral, registro mercantil o matrícula escolar.",
+        "¿Te patrocinan (p. ej., una empresa o la familia)? Incluye la garantía/prueba de fondos del patrocinador."
+      ]
+    },
+    "pitfalls": {
+      "title": "Errores que causan denegaciones y retrasos",
+      "items": [
+        { "icon": "📍", "t": "Centro equivocado", "d": "Solicitar en Hanói cuando tu residencia corresponde a la jurisdicción de Ciudad Ho Chi Minh (o viceversa)." },
+        { "icon": "💸", "t": "Depósito repentino", "d": "Una gran suma justo antes de solicitar. Muestra fondos estables y explicables." },
+        { "icon": "🔗", "t": "Vínculos débiles con Vietnam", "d": "Sin prueba de que volverás. Añade un contrato laboral, papeles del negocio o matrícula escolar." },
+        { "icon": "🎫", "t": "Pagar los vuelos antes de tiempo", "d": "Comprar billetes no reembolsables antes de la aprobación — basta con una reserva." },
+        { "icon": "🖼️", "t": "Foto inadecuada", "d": "Tamaño o fondo incorrectos. Usa una foto reciente de 3,5×4,5 cm con fondo blanco." }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes: Vietnam → Corea",
+      "items": [
+        { "q": "¿Los ciudadanos vietnamitas necesitan visado para Corea?", "a": "Sí, para Corea continental se solicita por adelantado el visado de turista C-3-9. (Los pasaportes ordinarios no están exentos de visado para Corea.)" },
+        { "q": "¿Puedo conseguir un visado de 5 o 10 años?", "a": "Corea ha ido ampliando los visados de entradas múltiples de varios años para viajeros vietnamitas. La elegibilidad depende de tu perfil y tu historial de viajes — pregunta en el KVAC/embajada si cumples los requisitos." },
+        { "q": "¿Dónde solicito?", "a": "En el Centro de Solicitud de Visados de Corea en Hanói o Ciudad Ho Chi Minh, según dónde vivas, o en la embajada/consulado de Corea." },
+        { "q": "¿Cuánto dinero necesito demostrar?", "a": "No hay un mínimo fijo. Muestra un saldo estable y vínculos sólidos con Vietnam. La prueba de fondos ahora se simplifica a 1 o 2 tipos." },
+        { "q": "¿Cuánto cuesta la tasa?", "a": "Las tasas se fijan por reciprocidad y varían; no son reembolsables aunque se deniegue. Confirma el importe actual en tu KVAC." },
+        { "q": "Voy en un viaje de incentivos de la empresa — ¿es más sencillo?", "a": "Sí. Para los tours grupales organizados por la empresa, la garantía de la empresa organizadora puede sustituir los documentos financieros individuales." },
+        { "q": "¿Sigo necesitando la e-Arrival Card?", "a": "Las normas de documentos de entrada como la e-Arrival Card aún pueden aplicarse a la llegada. Consulta las normas vigentes cerca de la fecha de tu viaje." }
+      ]
+    }
+  },
+  "ru": {
+    "kicker": "Визовый гид · Вьетнам → Корея",
+    "readingTime": "чтение 9 мин",
+    "h1": "Виза в Корею для граждан Вьетнама",
+    "metaTitle": "Виза в Корею из Вьетнама: пошаговое руководство (2026) — Korea Trip Hub",
+    "metaDesc": "Как получить туристическую визу в Корею из Вьетнама: где подавать, документы (и где получить каждый), сборы, сроки оформления и официальные ссылки. Краткосрочная туристическая виза C-3-9.",
+    "ui": { "visa": "Тип визы", "stay": "Срок пребывания", "entry": "Количество въездов", "where": "Где получить", "official": "Официальный источник", "required": "Обязательно", "conditional": "Если применимо", "recommended": "Рекомендуется", "confirm": "Сборы/правила могут меняться — уточняйте в источнике", "source": "Источник", "updated": "Обновлено", "tldr": "КРАТКО" },
+    "verdict": {
+      "headline": "Да — владельцам вьетнамского паспорта нужна виза.",
+      "sub": "Вы подаёте документы на краткосрочную туристическую визу C-3-9 лично в Центре приёма визовых заявлений Кореи (KVAC) в Ханое или Хошимине. Хорошая новость: документы упростили, а долгосрочные визы расширяют.",
+      "type": "Краткосрочная туристическая C-3-9",
+      "stay": "До 90 дней",
+      "entry": "Однократный въезд (возможна многолетняя многократная виза — см. ниже)"
+    },
+    "highlights": [
+      { "icon": "🗓️", "tone": "green", "title": "Расширяются многократные визы на срок до 10 лет", "body": "Корея расширяет многолетние многократные визы для вьетнамских путешественников, чтобы стимулировать туризм. Действуют условия — уточните в KVAC/посольстве, подходите ли вы." },
+      { "icon": "📁", "tone": "blue", "title": "Упрощённые документы", "body": "Требование к подтверждению финансов снизили — обычно вы подаёте лишь 1–2 вида. Групповые туры, организованные компанией, могут подавать по гарантии организатора, а студенты — по справке о зачислении + финансам родителей." }
+    ],
+    "tldr": [
+      "Заполните форму на visa.go.kr (единственный официальный портал), распечатайте и подпишите.",
+      "Подайте лично в KVAC вашего региона — Ханой (север) или Хошимин (юг).",
+      "Возьмите паспорт, фото, подтверждение финансов (теперь всего 1–2 вида) и подтверждение работы/бизнеса/учёбы.",
+      "Сборы устанавливаются на основе взаимности и не возвращаются — уточните актуальную сумму в KVAC."
+    ],
+    "jurisdiction": {
+      "title": "Шаг 0 — Ханой или Хошимин?",
+      "intro": "Во Вьетнаме два Центра приёма визовых заявлений Кореи. Подавайте в тот, что обслуживает ваш район проживания. Оба открыты с понедельника по пятницу (примерно с 08:00 до 16:30); выходные и праздники — закрыто.",
+      "zones": [
+        { "name": "KVAC Ханой (юрисдикция посольства)", "covers": "Север и центр Вьетнама", "centers": "Ханой", "site": "visaforkorea-vt.com", "url": "https://www.visaforkorea-vt.com/?lang=en" },
+        { "name": "KVAC Хошимин (юрисдикция консульства)", "covers": "Юг Вьетнама", "centers": "Хошимин", "site": "visaforkorea-hc.com", "url": "https://visaforkorea-hc.com/?lang=en" }
+      ],
+      "note": "Не уверены, какой центр? Проверьте список юрисдикций каждого центра, чтобы понять, к какому относится ваша провинция."
+    },
+    "steps": {
+      "title": "Подача заявления, шаг за шагом",
+      "items": [
+        { "n": 1, "title": "Определите тип визы", "detail": "Для туризма подавайте на краткосрочную визу для посещения (туристическую) C-3-9." },
+        { "n": 2, "title": "Заполните форму на visa.go.kr", "detail": "Заполните форму на Визовом портале Кореи — единственном официальном сайте — затем распечатайте и подпишите.", "link": "https://www.visa.go.kr", "linkLabel": "Визовый портал Кореи" },
+        { "n": 3, "title": "Соберите (упрощённые) документы", "detail": "Соберите список ниже. Подтверждение финансов теперь всего 1–2 вида, поэтому выберите самое веское доказательство." },
+        { "n": 4, "title": "Подайте в ваш KVAC", "detail": "Принесите всё в KVAC в Ханое или Хошимине в рабочее время." },
+        { "n": 5, "title": "Оплатите сбор", "detail": "Оплатите визовый сбор плюс сервисный сбор центра. Сборы не возвращаются, даже если в визе откажут." },
+        { "n": 6, "title": "Отслеживайте заявление", "detail": "Следите за статусом через канал отслеживания центра. Не покупайте невозвратные билеты до одобрения." },
+        { "n": 7, "title": "Заберите паспорт", "detail": "Получите лично или курьером и сразу проверьте данные визы." }
+      ]
+    },
+    "documents": {
+      "title": "Список документов — с указанием, где и как получить каждый",
+      "intro": "Для каждого пункта указано, где его получить и что он должен показывать. Согласованность между документами так же важна, как сами документы.",
+      "cols": ["Документ", "Где получить", "Что должен показывать"],
+      "rows": [
+        { "doc": "Паспорт", "req": "required", "where": "У вас уже есть", "how": "Действителен ещё 6+ месяцев, не менее 2 пустых страниц. Возьмите и старые паспорта с прошлыми поездками." },
+        { "doc": "Визовая анкета", "req": "required", "where": "visa.go.kr", "how": "Заполните на Визовом портале Кореи, распечатайте и подпишите.", "link": "https://www.visa.go.kr" },
+        { "doc": "Фото — 3,5 × 4,5 см", "req": "required", "where": "Любое фотоателье", "how": "Белый фон, сделано за последние 6 месяцев, лицо полностью, без очков." },
+        { "doc": "Подтверждение финансов (1–2 вида)", "req": "required", "where": "Ваш банк / работодатель", "how": "Выберите самое веское: выписка с банковского счёта со стабильным остатком (с печатью банка), сберкнижка/сертификат срочного вклада или справка о зарплате. Стабильная история убедительнее внезапного пополнения." },
+        { "doc": "Подтверждение работы / бизнеса / учёбы", "req": "required", "where": "Работодатель / бизнес / учебное заведение", "how": "Работающим: трудовой договор + разрешение на отпуск. Самозанятым: регистрация бизнеса. Студентам: справка о зачислении (+ финансы родителей)." },
+        { "doc": "Бронь билетов туда-обратно и отеля", "req": "required", "where": "Авиакомпания / сайты бронирования", "how": "Достаточно броней/маршрута — не оплачивайте билет до одобрения." },
+        { "doc": "Пригласительное письмо (если едете к семье/друзьям)", "req": "conditional", "where": "Ваш принимающий в Корее", "how": "Приглашение плюс копия удостоверения личности/карты резидента принимающего и, если он спонсирует, его подтверждение финансов." },
+        { "doc": "Сопроводительное письмо + маршрут", "req": "recommended", "where": "Составьте сами", "how": "Короткое письмо о цели и план по дням усиливают туристическое досье." }
+      ],
+      "legend": { "required": "Обязательно", "conditional": "Если применимо к вам", "recommended": "Рекомендуется" }
+    },
+    "funds": {
+      "title": "«Сколько денег нужно показать?»",
+      "body": "Единого опубликованного минимума нет. Цель — доказать, что вы можете оплатить поездку и у вас есть веские причины вернуться во Вьетнам (работа, бизнес, семья, учёба). Поскольку подтверждение финансов теперь ограничено 1–2 видами, выбирайте самое убедительное доказательство.",
+      "tips": [
+        "Стабильный остаток за 3–6 месяцев убедительнее крупного пополнения в последний момент.",
+        "Сочетайте финансы с доказательством связей: трудовой договор, регистрация бизнеса или зачисление в учебное заведение.",
+        "Вас спонсируют (например, компания или семья)? Приложите гарантию/финансы спонсора."
+      ]
+    },
+    "pitfalls": {
+      "title": "Ошибки, ведущие к отказам и задержкам",
+      "items": [
+        { "icon": "📍", "t": "Не тот центр", "d": "Подача в Ханое, когда ваше место жительства относится к юрисдикции Хошимина (или наоборот)." },
+        { "icon": "💸", "t": "Внезапное пополнение", "d": "Крупная сумма прямо перед подачей. Показывайте стабильные, объяснимые средства." },
+        { "icon": "🔗", "t": "Слабые связи с Вьетнамом", "d": "Нет доказательств, что вы вернётесь. Добавьте трудовой договор, документы бизнеса или зачисление в учебное заведение." },
+        { "icon": "🎫", "t": "Ранняя покупка билетов", "d": "Покупка невозвратных билетов до одобрения — брони достаточно." },
+        { "icon": "🖼️", "t": "Неподходящее фото", "d": "Неверный размер или фон. Используйте свежее фото 3,5×4,5 см на белом фоне." }
+      ]
+    },
+    "faq": {
+      "title": "Виза Вьетнам → Корея: часто задаваемые вопросы",
+      "items": [
+        { "q": "Нужна ли гражданам Вьетнама виза в Корею?", "a": "Да, для материковой Кореи вы заранее подаёте на туристическую визу C-3-9. (Обычные паспорта не имеют безвизового въезда в Корею.)" },
+        { "q": "Могу ли я получить визу на 5 или 10 лет?", "a": "Корея расширяет многолетние многократные визы для вьетнамских путешественников. Право зависит от вашего профиля и истории поездок — уточните в KVAC/посольстве, подходите ли вы." },
+        { "q": "Где подавать?", "a": "В Центре приёма визовых заявлений Кореи в Ханое или Хошимине, в зависимости от места жительства, либо в посольстве/консульстве Кореи." },
+        { "q": "Сколько денег нужно подтвердить?", "a": "Фиксированного минимума нет. Покажите стабильный остаток и прочные связи с Вьетнамом. Подтверждение финансов теперь упрощено до 1–2 видов." },
+        { "q": "Сколько стоит сбор?", "a": "Сборы устанавливаются на основе взаимности и различаются; не возвращаются даже при отказе. Уточните актуальную сумму в вашем KVAC." },
+        { "q": "Я еду в корпоративный поощрительный тур — это проще?", "a": "Да. Для групповых туров, организованных компанией, гарантия компании-организатора может заменить индивидуальные финансовые документы." },
+        { "q": "Нужна ли мне ещё e-Arrival Card?", "a": "Правила о въездных документах, такие как e-Arrival Card, по-прежнему могут применяться по прибытии. Проверьте актуальные правила ближе к дате поездки." }
+      ]
+    }
+  },
+  "ar": {
+    "kicker": "دليل التأشيرة · فيتنام ← كوريا",
+    "readingTime": "قراءة 9 دقائق",
+    "h1": "تأشيرة كوريا لمواطني فيتنام",
+    "metaTitle": "تأشيرة كوريا من فيتنام: دليل خطوة بخطوة (2026) — Korea Trip Hub",
+    "metaDesc": "كيفية الحصول على تأشيرة كوريا السياحية من فيتنام: أين تتقدّم، المستندات (وأين تحصل على كل منها)، الرسوم، مدة المعالجة والروابط الرسمية. تأشيرة سياحية قصيرة الأمد C-3-9.",
+    "ui": { "visa": "نوع التأشيرة", "stay": "مدة الإقامة", "entry": "عدد مرات الدخول", "where": "أين تحصل عليها", "official": "المصدر الرسمي", "required": "إلزامي", "conditional": "إذا انطبق", "recommended": "موصى به", "confirm": "قد تتغيّر الرسوم/القواعد — تأكّد من المصدر", "source": "المصدر", "updated": "تاريخ التحديث", "tldr": "الخلاصة" },
+    "verdict": {
+      "headline": "نعم — يحتاج حاملو جواز السفر الفيتنامي إلى تأشيرة.",
+      "sub": "ستتقدّم بطلب تأشيرة سياحية قصيرة الأمد C-3-9 شخصيًا في مركز طلبات تأشيرات كوريا (KVAC) في هانوي أو هو تشي منه. الخبر الجيد: جرى تبسيط الأوراق ويجري توسيع التأشيرات طويلة الصلاحية.",
+      "type": "سياحية قصيرة الأمد C-3-9",
+      "stay": "حتى 90 يومًا",
+      "entry": "دخول لمرة واحدة (يمكن الحصول على تأشيرة متعددة الدخول لعدة سنوات — انظر أدناه)"
+    },
+    "highlights": [
+      { "icon": "🗓️", "tone": "green", "title": "توسّع التأشيرات متعددة الدخول حتى 10 سنوات", "body": "توسّع كوريا التأشيرات متعددة الدخول لعدة سنوات للمسافرين الفيتناميين لتعزيز السياحة. تنطبق شروط الأهلية — اسأل في KVAC/السفارة عمّا إذا كنت مؤهلًا." },
+      { "icon": "📁", "tone": "blue", "title": "أوراق مبسّطة", "body": "جرى تخفيض شرط إثبات القدرة المالية — عادةً تقدّم نوعًا أو نوعين فقط. يمكن للجولات الجماعية التي ترعاها شركة التقدّم بضمان المنظّم، ويمكن للطلاب استخدام شهادة القيد + الوضع المالي للوالدين." }
+    ],
+    "tldr": [
+      "املأ النموذج على visa.go.kr (البوابة الرسمية الوحيدة)، ثم اطبعه ووقّعه.",
+      "قدّمه شخصيًا في KVAC الخاص بمنطقتك — هانوي (الشمال) أو هو تشي منه (الجنوب).",
+      "أحضر جواز السفر والصورة وإثبات القدرة المالية (الآن نوع أو نوعان فقط) وإثبات عملك/نشاطك التجاري/دراستك.",
+      "تُحدَّد الرسوم بمبدأ المعاملة بالمثل وغير قابلة للاسترداد — تأكّد من المبلغ الحالي في KVAC."
+    ],
+    "jurisdiction": {
+      "title": "الخطوة 0 — هانوي أم هو تشي منه؟",
+      "intro": "لدى فيتنام مركزان لطلبات تأشيرات كوريا. تقدّم في المركز الذي يخدم منطقة إقامتك. كلاهما يفتح من الاثنين إلى الجمعة (تقريبًا من 08:00 إلى 16:30)؛ ومغلق في عطلات نهاية الأسبوع والأعياد.",
+      "zones": [
+        { "name": "KVAC هانوي (نطاق السفارة)", "covers": "شمال ووسط فيتنام", "centers": "هانوي", "site": "visaforkorea-vt.com", "url": "https://www.visaforkorea-vt.com/?lang=en" },
+        { "name": "KVAC هو تشي منه (نطاق القنصلية)", "covers": "جنوب فيتنام", "centers": "هو تشي منه", "site": "visaforkorea-hc.com", "url": "https://visaforkorea-hc.com/?lang=en" }
+      ],
+      "note": "إن لم تكن متأكدًا من المركز المناسب، راجع قائمة النطاقات لكل مركز لمعرفة المقاطعة التي يغطيها."
+    },
+    "steps": {
+      "title": "الطلب، خطوة بخطوة",
+      "items": [
+        { "n": 1, "title": "حدّد نوع التأشيرة", "detail": "للسياحة، تقدّم بطلب تأشيرة الزيارة قصيرة الأمد (السياحية) C-3-9." },
+        { "n": 2, "title": "املأ النموذج على visa.go.kr", "detail": "أكمل نموذج الطلب على بوابة تأشيرات كوريا — الموقع الرسمي الوحيد — ثم اطبعه ووقّعه.", "link": "https://www.visa.go.kr", "linkLabel": "بوابة تأشيرات كوريا" },
+        { "n": 3, "title": "اجمع المستندات (المبسّطة)", "detail": "اجمع القائمة أدناه. إثبات القدرة المالية الآن نوع أو نوعان فقط، فاختر أقوى دليل لديك." },
+        { "n": 4, "title": "قدّم في KVAC الخاص بك", "detail": "أحضر كل شيء إلى KVAC في هانوي أو هو تشي منه خلال ساعات العمل." },
+        { "n": 5, "title": "ادفع الرسوم", "detail": "ادفع رسوم التأشيرة إضافةً إلى رسوم خدمة المركز. الرسوم غير قابلة للاسترداد حتى لو رُفضت التأشيرة." },
+        { "n": 6, "title": "تابع طلبك", "detail": "تابع الحالة عبر قناة التتبع الخاصة بالمركز. لا تشترِ تذاكر غير قابلة للاسترداد قبل الموافقة." },
+        { "n": 7, "title": "استلم جواز سفرك", "detail": "استلمه شخصيًا أو عبر البريد السريع، وتحقق من بيانات التأشيرة فور استلامها." }
+      ]
+    },
+    "documents": {
+      "title": "قائمة المستندات — مع مكان وكيفية الحصول على كل منها",
+      "intro": "لكل بند، إليك أين تحصل عليه وما يجب أن يُظهره. الاتساق بين المستندات لا يقل أهمية عن المستندات نفسها.",
+      "cols": ["المستند", "أين تحصل عليه", "ما يجب أن يُظهره"],
+      "rows": [
+        { "doc": "جواز السفر", "req": "required", "where": "بحوزتك", "how": "صالح لأكثر من 6 أشهر، وبه صفحتان فارغتان على الأقل. أحضر جوازات السفر القديمة التي تحمل رحلات سابقة أيضًا." },
+        { "doc": "نموذج طلب التأشيرة", "req": "required", "where": "visa.go.kr", "how": "أكمله على بوابة تأشيرات كوريا واطبعه ووقّعه.", "link": "https://www.visa.go.kr" },
+        { "doc": "صورة — 3.5 × 4.5 سم", "req": "required", "where": "أي استوديو تصوير", "how": "خلفية بيضاء، ملتقطة خلال 6 أشهر، الوجه كامل، دون نظارة." },
+        { "doc": "إثبات القدرة المالية (نوع أو نوعان)", "req": "required", "where": "بنكك / صاحب العمل", "how": "اختر الأقوى: كشف حساب بنكي برصيد مستقر (مختوم من البنك)، أو دفتر توفير/شهادة وديعة لأجل، أو تأكيد راتب. السجل المستقر أقوى من إيداع مفاجئ." },
+        { "doc": "إثبات العمل / النشاط التجاري / الدراسة", "req": "required", "where": "صاحب العمل / النشاط التجاري / المدرسة", "how": "الموظف: عقد عمل + موافقة إجازة. صاحب العمل الحر: سجل تجاري. الطالب: شهادة قيد (+ الوضع المالي للوالدين)." },
+        { "doc": "حجز طيران ذهابًا وإيابًا وفندق", "req": "required", "where": "شركة الطيران / مواقع الحجز", "how": "الحجوزات/خط السير كافية — لا تدفع ثمن التذكرة قبل الموافقة." },
+        { "doc": "خطاب دعوة (عند زيارة عائلة/أصدقاء)", "req": "conditional", "where": "مضيفك في كوريا", "how": "دعوة مع نسخة من هوية المضيف/بطاقة إقامته، وإن كان يرعاك فإثبات قدرته المالية." },
+        { "doc": "خطاب تعريفي + خط سير", "req": "recommended", "where": "اكتبه بنفسك", "how": "خطاب قصير عن الغرض وخطة يومية يعزّزان ملف السياحة." }
+      ],
+      "legend": { "required": "إلزامي", "conditional": "إذا انطبق عليك", "recommended": "موصى به" }
+    },
+    "funds": {
+      "title": "«كم من المال ينبغي أن أُظهر؟»",
+      "body": "لا يوجد حد أدنى منشور واحد. الهدف هو إثبات قدرتك على تمويل الرحلة ووجود أسباب قوية للعودة إلى فيتنام (عمل، نشاط تجاري، عائلة، دراسة). وبما أن إثبات القدرة المالية بات محصورًا في نوع أو نوعين، اختر أكثر الأدلة إقناعًا.",
+      "tips": [
+        "الرصيد المستقر على مدى 3–6 أشهر أكثر إقناعًا من إيداع كبير في اللحظة الأخيرة.",
+        "اقرن المال بإثبات الروابط: عقد عمل، أو سجل تجاري، أو قيد دراسي.",
+        "هل ترعاك جهة (مثل شركة أو عائلة)؟ أرفق ضمان/إثبات مالي للراعي."
+      ]
+    },
+    "pitfalls": {
+      "title": "أخطاء تسبّب الرفض والتأخير",
+      "items": [
+        { "icon": "📍", "t": "المركز الخطأ", "d": "التقدّم في هانوي بينما تقع إقامتك ضمن نطاق هو تشي منه (أو العكس)." },
+        { "icon": "💸", "t": "إيداع مفاجئ", "d": "مبلغ كبير قبيل التقديم مباشرةً. أظهِر أموالًا مستقرة قابلة للتفسير." },
+        { "icon": "🔗", "t": "روابط ضعيفة بفيتنام", "d": "لا دليل على عودتك. أضف عقد عمل، أو أوراق نشاط تجاري، أو قيدًا دراسيًا." },
+        { "icon": "🎫", "t": "شراء التذاكر مبكرًا", "d": "شراء تذاكر غير قابلة للاسترداد قبل الموافقة — الحجز يكفي." },
+        { "icon": "🖼️", "t": "صورة غير مطابقة", "d": "مقاس أو خلفية خاطئة. استخدم صورة حديثة 3.5×4.5 سم بخلفية بيضاء." }
+      ]
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة: فيتنام ← كوريا",
+      "items": [
+        { "q": "هل يحتاج المواطنون الفيتناميون إلى تأشيرة لكوريا؟", "a": "نعم، بالنسبة إلى كوريا القارية تتقدّم مسبقًا بطلب تأشيرة سياحية C-3-9. (جوازات السفر العادية ليست معفاة من التأشيرة إلى كوريا.)" },
+        { "q": "هل يمكنني الحصول على تأشيرة 5 أو 10 سنوات؟", "a": "توسّع كوريا التأشيرات متعددة الدخول لعدة سنوات للمسافرين الفيتناميين. تعتمد الأهلية على ملفك وسجل سفرك — اسأل في KVAC/السفارة عمّا إذا كنت مؤهلًا." },
+        { "q": "أين أتقدّم؟", "a": "في مركز طلبات تأشيرات كوريا في هانوي أو هو تشي منه، حسب مكان إقامتك، أو في سفارة/قنصلية كوريا." },
+        { "q": "كم من المال عليّ إثباته؟", "a": "لا يوجد حد أدنى ثابت. أظهِر رصيدًا مستقرًا وروابط قوية بفيتنام. إثبات القدرة المالية بات مبسّطًا إلى نوع أو نوعين." },
+        { "q": "كم تبلغ الرسوم؟", "a": "تُحدَّد الرسوم بمبدأ المعاملة بالمثل وتتفاوت؛ وهي غير قابلة للاسترداد حتى عند الرفض. تأكّد من المبلغ الحالي في KVAC الخاص بك." },
+        { "q": "سأذهب في رحلة تحفيزية من الشركة — هل الأمر أبسط؟", "a": "نعم. بالنسبة إلى الجولات الجماعية التي تنظّمها الشركة، يمكن أن يحلّ ضمان الشركة المنظّمة محل المستندات المالية الفردية." },
+        { "q": "هل ما زلت بحاجة إلى e-Arrival Card؟", "a": "قد تظل قواعد مستندات الدخول مثل e-Arrival Card سارية عند الوصول. تحقّق من القواعد الحالية قرب موعد سفرك." }
+      ]
+    }
   }
 }
