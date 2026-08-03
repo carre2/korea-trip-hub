@@ -1,0 +1,114 @@
+{
+  "_README": "Per-nationality visa deep-dive: Vietnam → Korea. Grounded in official channels (Embassy of Korea in Vietnam, KVAC Hanoi/HCMC, Korea Visa Portal visa.go.kr). Fee/processing are VOLATILE (factId visa-vietnam-c39). No invented figures.",
+  "country": "Vietnam", "flag": "🇻🇳", "code": "vietnam", "factId": "visa-vietnam-c39",
+  "kicker": "Visa guide · Vietnam → Korea", "readingTime": "9 min read", "updated": "2026-08-03",
+  "hero": {
+    "img": "/img/visa/incheon-arrivals.jpg",
+    "alt": "Arrivals at Incheon International Airport",
+    "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+  },
+  "verdict": {
+    "need": true,
+    "headline": "Yes — Vietnamese passport holders need a visa.",
+    "sub": "You'll apply for the C-3-9 short-term tourist visa in person at a Korea Visa Application Center (KVAC) in Hanoi or Ho Chi Minh City. The good news: the paperwork was simplified and long-validity visas are expanding.",
+    "type": "C-3-9 Short-Term Tourist",
+    "stay": "Up to 90 days",
+    "entry": "Single entry (multi-year multiple-entry possible — see below)"
+  },
+  "highlights": [
+    { "icon": "🗓️", "tone": "green", "title": "Up to 10-year multiple-entry visas expanding", "body": "Korea has been widening multi-year, multiple-entry visas for Vietnamese travelers to boost tourism. Eligibility conditions apply — ask at the KVAC/embassy whether you qualify." },
+    { "icon": "📁", "tone": "blue", "title": "Simplified paperwork", "body": "The financial-proof requirement was reduced — you typically submit only 1–2 types of proof. Company-sponsored group tours can apply on the organizer's guarantee, and students can use an enrollment certificate + parents' financials." }
+  ],
+  "tldr": [
+    "Fill the form at visa.go.kr (the only official portal), print and sign it.",
+    "Submit in person at the KVAC for your region — Hanoi (north) or Ho Chi Minh City (south).",
+    "Bring passport, photo, proof of funds (now just 1–2 types), and proof of your job/business/study.",
+    "Fees are set by reciprocity and non-refundable — confirm the current amount at the KVAC."
+  ],
+  "jurisdiction": {
+    "title": "Step 0 — Hanoi or Ho Chi Minh City?",
+    "intro": "Vietnam has two Korea Visa Application Centers. Apply at the one for your area of residence. Both open Monday–Friday (roughly 08:00–16:30); closed weekends and holidays.",
+    "zones": [
+      { "name": "KVAC Hanoi (Embassy jurisdiction)", "covers": "Northern & central Vietnam", "centers": "Hanoi", "site": "visaforkorea-vt.com", "url": "https://www.visaforkorea-vt.com/?lang=en" },
+      { "name": "KVAC Ho Chi Minh City (Consulate jurisdiction)", "covers": "Southern Vietnam", "centers": "Ho Chi Minh City", "site": "visaforkorea-hc.com", "url": "https://visaforkorea-hc.com/?lang=en" }
+    ],
+    "note": "Check each center's jurisdiction list if you're unsure which province it covers."
+  },
+  "steps": {
+    "title": "The application, step by step",
+    "items": [
+      { "n": 1, "title": "Confirm the visa type", "detail": "For tourism, apply for the C-3-9 short-term visit (tourist) visa." },
+      { "n": 2, "title": "Fill the form at visa.go.kr", "detail": "Complete the application form on the Korea Visa Portal — the only official site — then print and sign it.", "link": "https://www.visa.go.kr", "linkLabel": "Korea Visa Portal" },
+      { "n": 3, "title": "Gather the (simplified) documents", "detail": "Collect the checklist below. Financial proof is now just 1–2 types, so choose the strongest evidence you have." },
+      { "n": 4, "title": "Submit at your KVAC", "detail": "Bring everything to the KVAC in Hanoi or Ho Chi Minh City during working hours." },
+      { "n": 5, "title": "Pay the fee", "detail": "Pay the visa fee plus the center service fee. Fees are non-refundable even if the visa is refused." },
+      { "n": 6, "title": "Track your application", "detail": "Follow the status by the center's tracking channel. Don't buy non-refundable flights before approval." },
+      { "n": 7, "title": "Collect your passport", "detail": "Pick up in person or by courier, and check the visa details as soon as you receive it." }
+    ]
+  },
+  "documents": {
+    "title": "Document checklist — with where & how to get each",
+    "intro": "For each item, here is where you obtain it and what it must show. Consistency across documents matters as much as the documents themselves.",
+    "cols": ["Document", "Where to get it", "What it must show"],
+    "rows": [
+      { "doc": "Passport", "req": "required", "where": "You have it", "how": "Valid 6+ months, at least 2 blank pages. Bring old passports with past travel too." },
+      { "doc": "Visa application form", "req": "required", "where": "visa.go.kr", "how": "Complete on the Korea Visa Portal, print, and sign.", "link": "https://www.visa.go.kr" },
+      { "doc": "Photo — 3.5 × 4.5 cm", "req": "required", "where": "Any photo studio", "how": "White background, taken within 6 months, full face, no glasses." },
+      { "doc": "Proof of funds (1–2 types)", "req": "required", "where": "Your bank / employer", "how": "Choose the strongest: a bank statement with a stable balance (bank-stamped), a savings-book/term-deposit certificate, or a salary confirmation. A steady history beats a sudden deposit." },
+      { "doc": "Employment / business / study proof", "req": "required", "where": "Employer / business / school", "how": "Employed: labor contract + leave approval. Self-employed: business registration. Student: enrollment certificate (+ parents' financials)." },
+      { "doc": "Round-trip flight & hotel reservation", "req": "required", "where": "Airline / booking sites", "how": "Reservations/itinerary are enough — don't pay for a ticket before approval." },
+      { "doc": "Invitation letter (if visiting family/friends)", "req": "conditional", "where": "Your host in Korea", "how": "An invitation plus the host's ID/ARC copy and, if they sponsor you, their financial proof." },
+      { "doc": "Cover letter + itinerary", "req": "recommended", "where": "Write it yourself", "how": "A short letter of purpose and a day-by-day plan strengthens a tourist file." }
+    ],
+    "legend": { "required": "Required", "conditional": "If it applies to you", "recommended": "Recommended" }
+  },
+  "funds": {
+    "title": "\"How much money should I show?\"",
+    "body": "There is no single published minimum. The goal is to prove you can fund the trip and have strong reasons to return to Vietnam (job, business, family, study). Because financial proof is now limited to 1–2 types, pick your most convincing evidence.",
+    "tips": [
+      "A stable 3–6 month balance is more convincing than a large last-minute deposit.",
+      "Pair funds with proof of ties: a labor contract, business registration, or school enrollment.",
+      "Being sponsored (e.g., by a company or family)? Include the sponsor's guarantee/financials."
+    ]
+  },
+  "pitfalls": {
+    "title": "Mistakes that cause refusals & delays",
+    "items": [
+      { "icon": "📍", "t": "Wrong center", "d": "Applying in Hanoi when your residence is under the HCMC jurisdiction (or vice-versa)." },
+      { "icon": "💸", "t": "Sudden deposit", "d": "A big lump sum right before applying. Show steady, explainable funds." },
+      { "icon": "🔗", "t": "Weak ties to Vietnam", "d": "No proof you'll return. Add a labor contract, business papers, or school enrollment." },
+      { "icon": "🎫", "t": "Paying flights early", "d": "Buying non-refundable tickets before approval — a reservation is enough." },
+      { "icon": "🖼️", "t": "Bad photo", "d": "Wrong size or background. Use a fresh 3.5×4.5 cm white-background photo." }
+    ]
+  },
+  "faq": {
+    "title": "Vietnam → Korea visa FAQ",
+    "items": [
+      { "q": "Do Vietnamese citizens need a visa for Korea?", "a": "Yes, for mainland Korea you apply in advance for the C-3-9 tourist visa. (Ordinary passports are not visa-free for Korea.)" },
+      { "q": "Can I get a 5- or 10-year visa?", "a": "Korea has been expanding multi-year, multiple-entry visas for Vietnamese travelers. Eligibility depends on your profile and travel history — ask the KVAC/embassy whether you qualify." },
+      { "q": "Where do I apply?", "a": "At the Korea Visa Application Center in Hanoi or Ho Chi Minh City, depending on where you live, or the Korean embassy/consulate." },
+      { "q": "How much money do I need to prove?", "a": "There's no fixed minimum. Show a stable balance and strong ties to Vietnam. Financial proof is now simplified to 1–2 types." },
+      { "q": "How much is the fee?", "a": "Fees are set by reciprocity and vary; they are non-refundable even if refused. Confirm the current amount at your KVAC." },
+      { "q": "I'm going on a company incentive trip — simpler?", "a": "Yes. For company-organized group tours, the organizing company's guarantee can replace individual financial documents." },
+      { "q": "Do I still need the e-Arrival Card?", "a": "Entry-document rules like the e-Arrival Card can still apply on arrival. Check the current rules close to your travel date." }
+    ]
+  },
+  "resources": {
+    "title": "Official channels & researched guides",
+    "intro": "Confirm fees, forms and jurisdictions at the official sources — they do change:",
+    "items": [
+      { "label": "Korea Visa Portal — fill the form", "src": "visa.go.kr (official)", "url": "https://www.visa.go.kr" },
+      { "label": "Embassy of Korea in Vietnam — document lists", "src": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/vn-ko/brd/m_2198/list.do" },
+      { "label": "KVAC Hanoi", "src": "visaforkorea-vt.com", "url": "https://www.visaforkorea-vt.com/?lang=en" },
+      { "label": "KVAC Ho Chi Minh City", "src": "visaforkorea-hc.com", "url": "https://visaforkorea-hc.com/?lang=en" },
+      { "label": "Vietnam → Korea C-3 visa guide (2026)", "src": "MyTravelReady", "url": "https://www.mytravelready.ai/blog/vietnam-south-korea-visa-guide-2026" }
+    ]
+  },
+  "official": [
+    { "icon": "📄", "name": "Korea Visa Portal", "url": "https://www.visa.go.kr", "what": "Fill the form (ONLY official portal)" },
+    { "icon": "🏛️", "name": "Embassy of Korea in Vietnam", "url": "https://overseas.mofa.go.kr/vn-ko/index.do", "what": "Official document lists & notices" },
+    { "icon": "🏢", "name": "KVAC Hanoi", "url": "https://www.visaforkorea-vt.com/?lang=en", "what": "Submit — northern/central Vietnam" },
+    { "icon": "🏢", "name": "KVAC Ho Chi Minh City", "url": "https://visaforkorea-hc.com/?lang=en", "what": "Submit — southern Vietnam" }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "_README": "Per-nationality visa deep-dive: China → Korea. Grounded in official channels (Korean embassy/consulates in China, KVAC/VFS, Korea Visa Portal). Fee/processing VOLATILE (factId visa-china-c3). The 2025–2026 group visa-free trial is flagged as time-limited. No invented figures.",
+  "country": "China", "flag": "🇨🇳", "code": "china", "factId": "visa-china-c3",
+  "kicker": "Visa guide · China → Korea", "readingTime": "8 min read", "updated": "2026-08-03",
+  "hero": {
+    "img": "/img/visa/incheon-arrivals.jpg",
+    "alt": "Arrivals at Incheon International Airport",
+    "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+  },
+  "verdict": {
+    "need": true,
+    "headline": "Yes — Chinese passport holders need a visa for mainland Korea.",
+    "sub": "Individual tourists apply for the C-3 tourist visa at a Korean consulate or Korea Visa Application Center. Two big exceptions can let you skip it: Jeju Island, and (at times) approved group tours.",
+    "type": "C-3 Tourist",
+    "stay": "Up to 90 days",
+    "entry": "Single or multiple entry (varies)"
+  },
+  "highlights": [
+    { "icon": "🏝️", "tone": "green", "title": "Jeju Island — visa-free up to 30 days", "body": "Chinese citizens can visit Jeju without a visa for up to 30 days, on the condition of direct flights to/from Jeju and no transit through mainland Korea." },
+    { "icon": "👥", "tone": "amber", "title": "Group visa-free (time-limited)", "body": "A trial let approved tour groups of 3+ enter visa-free for up to 15 days, running Sep 2025–Jun 2026, with the group-visa processing fee waived over the same period. Check whether it has been extended before relying on it." }
+  ],
+  "tldr": [
+    "For mainland travel, individual tourists need a C-3 tourist visa — apply at a Korean consulate/KVAC for your area.",
+    "Fill the form at visa.go.kr (the only official portal), print and sign it.",
+    "Bring passport, 3.5×4.5 photo, household registration, 3–6 month bank statement and job proof.",
+    "Going only to Jeju? You can enter visa-free for up to 30 days with direct flights."
+  ],
+  "jurisdiction": {
+    "title": "Step 0 — Apply in your consular district",
+    "intro": "China is divided among the Korean Embassy (Beijing) and several consulates-general, each with its own Korea Visa Application Center. Apply at the KVAC for the district where your household registration (hukou) is held.",
+    "zones": [
+      { "name": "Embassy & major consulates", "covers": "Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an districts", "centers": "KVAC in each district (VFS Global)", "site": "vfsglobal.com (China)", "url": "https://www.vfsglobal.com/" },
+      { "name": "Hong Kong / Macao", "covers": "SAR residents (separate rules)", "centers": "Consulate-General in Hong Kong", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
+    ],
+    "note": "Not sure which district covers you? Check by the province on your hukou; the KVAC site lists each district's coverage."
+  },
+  "steps": {
+    "title": "The application, step by step (individual C-3)",
+    "items": [
+      { "n": 1, "title": "Confirm the visa type", "detail": "Individual tourists apply for the C-3 short-term tourist visa." },
+      { "n": 2, "title": "Fill the form at visa.go.kr", "detail": "Complete the application form on the Korea Visa Portal — the only official site — then print and sign it.", "link": "https://www.visa.go.kr", "linkLabel": "Korea Visa Portal" },
+      { "n": 3, "title": "Gather your documents", "detail": "Collect the checklist below, including your household registration and financial proof." },
+      { "n": 4, "title": "Submit at your KVAC/consulate", "detail": "Apply at the Korea Visa Application Center or consulate for your district." },
+      { "n": 5, "title": "Pay the fee", "detail": "Pay the visa fee and service fee. Fees are non-refundable even if refused." },
+      { "n": 6, "title": "Track your application", "detail": "Follow the status via the center's channel. Don't buy non-refundable flights before approval." },
+      { "n": 7, "title": "Collect your passport", "detail": "Pick up in person or by courier and check the visa details immediately." }
+    ]
+  },
+  "documents": {
+    "title": "Document checklist — with where & how to get each",
+    "intro": "For each item, here is where to obtain it and what it must show.",
+    "cols": ["Document", "Where to get it", "What it must show"],
+    "rows": [
+      { "doc": "Passport", "req": "required", "where": "You have it", "how": "Valid 6+ months with at least 2 blank visa pages." },
+      { "doc": "Visa application form", "req": "required", "where": "visa.go.kr", "how": "Complete on the Korea Visa Portal, print, sign.", "link": "https://www.visa.go.kr" },
+      { "doc": "Photo — 3.5 × 4.5 cm", "req": "required", "where": "Any photo studio", "how": "White background, taken within 6 months, full face." },
+      { "doc": "Household registration (hukou)", "req": "required", "where": "You have it", "how": "Copy of your hukou booklet; it helps establish your residence/district." },
+      { "doc": "Bank statement — last 3–6 months", "req": "required", "where": "Your bank", "how": "Stamped statement showing a stable balance sufficient for the trip." },
+      { "doc": "Employment / business proof", "req": "required", "where": "Employer / business", "how": "Employed: employment certificate + leave approval. Self-employed: business licence." },
+      { "doc": "Round-trip flight & hotel reservation", "req": "required", "where": "Airline / booking sites", "how": "Reservations/itinerary are enough — don't pay for a ticket before approval." },
+      { "doc": "Proof of assets (optional)", "req": "recommended", "where": "You / relevant authority", "how": "Property, vehicle or deposit certificates can strengthen a first-time file." }
+    ],
+    "legend": { "required": "Required", "conditional": "If it applies to you", "recommended": "Recommended" }
+  },
+  "funds": {
+    "title": "\"How much money should I show?\"",
+    "body": "There is no single published minimum. Case officers look for a stable balance and clear ties to China (job, business, family, property). A steady history is more persuasive than a sudden deposit.",
+    "tips": [
+      "Show a stable 3–6 month balance, not a last-minute lump sum.",
+      "Add proof of ties: employment, business licence, or property.",
+      "First-time traveler? A stronger financial + asset file helps."
+    ]
+  },
+  "pitfalls": {
+    "title": "Mistakes that cause refusals & delays",
+    "items": [
+      { "icon": "📍", "t": "Wrong district", "d": "Applying outside the consular district of your hukou. Apply where your household registration is held." },
+      { "icon": "🏝️", "t": "Assuming Jeju rules apply everywhere", "d": "Jeju visa-free is Jeju-only with direct flights — it does not allow mainland travel." },
+      { "icon": "💸", "t": "Sudden deposit", "d": "A big lump sum right before applying. Show steady, explainable funds." },
+      { "icon": "🎫", "t": "Paying flights early", "d": "Buying non-refundable tickets before approval — a reservation is enough." },
+      { "icon": "🗓️", "t": "Relying on an expired waiver", "d": "The group visa-free trial was time-limited (through Jun 2026). Reconfirm before you count on it." }
+    ]
+  },
+  "faq": {
+    "title": "China → Korea visa FAQ",
+    "items": [
+      { "q": "Do Chinese citizens need a visa for Korea?", "a": "For mainland Korea, yes — individual tourists apply for a C-3 tourist visa. Jeju Island allows visa-free entry up to 30 days, and approved group tours have had time-limited visa-free windows." },
+      { "q": "How does Jeju visa-free work?", "a": "You can enter Jeju without a visa for up to 30 days, but only on direct flights to and from Jeju — you cannot transit through mainland Korea." },
+      { "q": "Can tour groups still enter visa-free?", "a": "A trial for approved groups of 3+ ran Sep 2025–Jun 2026. Because such schemes are time-limited, confirm the current status with your travel agency or the embassy." },
+      { "q": "Where do I apply?", "a": "At the Korea Visa Application Center or Korean consulate for the district where your hukou is registered." },
+      { "q": "How much money do I need to show?", "a": "No fixed minimum — show a stable 3–6 month balance plus ties to China. Fees are non-refundable." },
+      { "q": "Do I still need the e-Arrival Card?", "a": "Entry-document rules such as the e-Arrival Card can still apply. Check the current rules near your travel date." }
+    ]
+  },
+  "resources": {
+    "title": "Official channels & researched guides",
+    "intro": "Confirm at the official sources — rules and time-limited schemes change:",
+    "items": [
+      { "label": "Korea Visa Portal — fill the form", "src": "visa.go.kr (official)", "url": "https://www.visa.go.kr" },
+      { "label": "Korea Visa Application Center (VFS, China)", "src": "vfsglobal.com", "url": "https://www.vfsglobal.com/" },
+      { "label": "Do Chinese citizens need a visa? (2026)", "src": "MileAsia", "url": "https://mileasia.com/korea/chinese-visa-korea/" },
+      { "label": "Group visa-free notice (2025–2026)", "src": "MOFA (embassy notice)", "url": "https://www.mofa.go.kr/sg-en/brd/m_2435/view.do?seq=761557" }
+    ]
+  },
+  "official": [
+    { "icon": "📄", "name": "Korea Visa Portal", "url": "https://www.visa.go.kr", "what": "Fill the form (ONLY official portal)" },
+    { "icon": "🏢", "name": "KVAC China (VFS Global)", "url": "https://www.vfsglobal.com/", "what": "Submit at your district center" },
+    { "icon": "🏝️", "name": "Jeju visa-free info", "url": "https://english.visitkorea.or.kr", "what": "Jeju-only visa-free (30 days) details" }
+  ]
+}

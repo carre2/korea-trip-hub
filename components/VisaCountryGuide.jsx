@@ -33,6 +33,18 @@ export default function VisaCountryGuide({ guide }) {
         </div>
       )}
 
+      {/* Highlight callouts (Jeju visa-free, group waivers, multi-year visas...) */}
+      {g.highlights && g.highlights.length > 0 && (
+        <div className="vcg-highlights">
+          {g.highlights.map((h, i) => (
+            <div key={i} className={`vcg-hl vcg-hl-${h.tone || "blue"}`}>
+              <span className="vcg-hl-ic">{h.icon}</span>
+              <div><b>{h.title}</b><p>{h.body}</p></div>
+            </div>
+          ))}
+        </div>
+      )}
+
       {/* Verified fee/processing box (harness: numbers from facts.json) */}
       {f && (
         <div className="factbox vcg-fact">

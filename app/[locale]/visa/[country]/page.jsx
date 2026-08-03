@@ -1,9 +1,13 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import VisaCountryGuide from "../../../../components/VisaCountryGuide";
 import india from "../../../../data/visa/india.json";
+import vietnam from "../../../../data/visa/vietnam.json";
+import china from "../../../../data/visa/china.json";
+import philippines from "../../../../data/visa/philippines.json";
+import indonesia from "../../../../data/visa/indonesia.json";
 
 // Per-nationality visa guides. Add a country here + a data/visa/<code>.json file.
-const countries = { india };
+const countries = { india, vietnam, china, philippines, indonesia };
 
 export function generateStaticParams() {
   const codes = Object.keys(countries);

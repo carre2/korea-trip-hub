@@ -533,3 +533,13 @@
   .vcg-funds>h2{margin-top:0}
   .vcg-hub{background:linear-gradient(135deg,var(--primary-soft),transparent);border:1px solid var(--border-strong);border-radius:16px;padding:20px 22px;margin-top:8px}
   .vcg-hub>h2{margin-top:0}
+
+  /* Highlight callouts (Jeju / group / multi-year visa) */
+  .vcg-highlights{display:flex;flex-direction:column;gap:10px;margin:0 0 18px}
+  .vcg-hl{display:flex;gap:13px;align-items:flex-start;padding:14px 16px;border-radius:13px;border:1px solid var(--border)}
+  .vcg-hl-green{background:var(--jade-soft);border-color:transparent}
+  .vcg-hl-amber{background:var(--amber-soft);border-color:transparent}
+  .vcg-hl-blue{background:var(--primary-soft);border-color:transparent}
+  .vcg-hl-ic{font-size:22px;flex:none;line-height:1.2}
+  .vcg-hl b{font-size:14.5px;display:block;margin-bottom:2px}
+  .vcg-hl p{font-size:13px;color:var(--muted);margin:0;line-height:1.55}

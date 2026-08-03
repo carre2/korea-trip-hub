@@ -216,6 +216,46 @@
       "source_name": "KVAC India (VFS Global) / Korea Visa Portal",
       "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
       "notes": "Fees and processing vary by center and season — confirm at your KVAC. The form and any e-application are only at visa.go.kr (the only official portal). India is split into two jurisdictions: Embassy/New Delhi (visaforkorea-id.com) and Chennai Consulate (visaforkorea-ce.com)."
+    },
+    {
+      "id": "visa-vietnam-c39",
+      "tier": "VOLATILE",
+      "claim": "Vietnamese passport holders need a C-3-9 short-term tourist visa for Korea. Since 2025 the tourist-visa paperwork was simplified, and multi-year (up to 10-year) multiple-entry visas have been expanded for Vietnamese travelers.",
+      "value": { "visa_type": "C-3-9 short-term tourist", "max_stay": "90 days", "financial_docs": "simplified: 1–2 types", "multi_year": "up to 10-year multiple-entry (eligibility applies)", "apply_at": "KVAC Hanoi / Ho Chi Minh City" },
+      "source": "https://overseas.mofa.go.kr/vn-ko/brd/m_2198/list.do",
+      "source_name": "Embassy of Korea in Vietnam / KVAC",
+      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "notes": "Visa fees are set by reciprocity and are non-refundable — confirm the current amount at the KVAC. Jurisdiction splits into Hanoi (visaforkorea-vt.com) and Ho Chi Minh City (visaforkorea-hc.com). Form: visa.go.kr."
+    },
+    {
+      "id": "visa-china-c3",
+      "tier": "VOLATILE",
+      "claim": "Chinese passport holders need a C-3 tourist visa for mainland Korea. Jeju Island allows visa-free entry up to 30 days (Jeju-only, direct flights).",
+      "value": { "visa_type": "C-3 tourist", "max_stay": "90 days", "jeju_visa_free": "up to 30 days (Jeju only)", "apply_at": "Korean embassy/consulate or KVAC (VFS)" },
+      "source": "https://mileasia.com/korea/chinese-visa-korea/",
+      "source_name": "Travel guides (2026) — confirm at Korean embassy in China",
+      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "notes": "A visa-free scheme for approved Chinese tour groups (3+) ran Sep 2025–Jun 2026; check whether it has been extended before relying on it. Jeju-only visa-free requires direct flights without mainland transit."
+    },
+    {
+      "id": "visa-philippines-c3",
+      "tier": "VOLATILE",
+      "claim": "Filipino passport holders need a C-3 tourist visa for mainland Korea, but there is NO visa fee. From 2026-02-20, 3-month bank statements are no longer required.",
+      "value": { "visa_type": "C-3 tourist", "visa_fee": "free (no fee)", "processing": "≈ 3–5 business days", "bank_statement": "no longer required (from 2026-02-20)", "apply_at": "Korean embassy / accredited agencies" },
+      "source": "https://myoona.ph/blog/travel/south-korea-visa-requirements/",
+      "source_name": "Travel guides (2026) — confirm at Korean embassy in the Philippines",
+      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "notes": "Employees still submit ITR + Certificate of Employment; business owners submit DTI/SEC registration + business permit. Jeju Island has separate visa-free entry. Confirm current rules with the embassy."
+    },
+    {
+      "id": "visa-indonesia-c3",
+      "tier": "VOLATILE",
+      "claim": "Individual Indonesian tourists need a C-3 tourist visa for mainland Korea. Since 2026-05-28, Indonesian tour groups of 3+ can enter visa-free for short stays (groups only; individuals not eligible).",
+      "value": { "visa_type": "C-3 tourist (individuals)", "max_stay": "90 days", "group_visa_free": "3+ group, from 2026-05-28 (trial)", "jeju_visa_free": "yes (Jeju only)", "apply_at": "Korean embassy/consulate or KVAC Jakarta" },
+      "source": "https://www.lmiconsultancy.com/south-korea-introduces-conditional-visa-free-entry-for-indonesian-nationals/",
+      "source_name": "Immigration briefings (2026) — confirm at Korean embassy in Indonesia",
+      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "notes": "Individual travelers still need a visa: passport, photo, 3-month bank statement, employment letter + salary slips, sponsor letter if funded by another. Jeju has separate visa-free entry."
     }
   ]
 }

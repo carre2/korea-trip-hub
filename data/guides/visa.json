@@ -18,9 +18,13 @@
     "title": "Applying for a visa? Start with your country",
     "intro": "If your nationality isn't visa-free, we build a full A-to-Z walkthrough — which center to visit, every document and where to get it, fees, and official links. Pick yours:",
     "items": [
-      { "code": "india", "flag": "🇮🇳", "name": "India", "note": "C-3-9 tourist visa · KVAC (VFS)" }
+      { "code": "india", "flag": "🇮🇳", "name": "India", "note": "C-3-9 tourist visa · KVAC (VFS)" },
+      { "code": "vietnam", "flag": "🇻🇳", "name": "Vietnam", "note": "C-3-9 · simplified docs · up to 10-yr visa" },
+      { "code": "china", "flag": "🇨🇳", "name": "China", "note": "C-3 · Jeju visa-free 30 days" },
+      { "code": "philippines", "flag": "🇵🇭", "name": "Philippines", "note": "C-3 · FREE visa · no bank statement" },
+      { "code": "indonesia", "flag": "🇮🇩", "name": "Indonesia", "note": "C-3 · group visa-free from May 2026" }
     ],
-    "more": "More countries (Vietnam, and others that need a visa) are being added next."
+    "more": "Don't see your country? Visa-free nationals just need the e-Arrival Card (see above). More country guides are being added."
   },
   "documents": {
     "title": "The 3 documents, in plain English",

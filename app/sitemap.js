@@ -2,11 +2,15 @@ import { locales } from "../lib/i18n";
 import dest from "../data/destinations.json";
 import plan from "../data/plan.json";
 import india from "../data/visa/india.json";
+import vietnam from "../data/visa/vietnam.json";
+import china from "../data/visa/china.json";
+import philippines from "../data/visa/philippines.json";
+import indonesia from "../data/visa/indonesia.json";
 
 const SITE = "https://ktriphub.com";
 
 // Per-nationality visa guide country codes.
-const visaCountries = [india.code];
+const visaCountries = [india.code, vietnam.code, china.code, philippines.code, indonesia.code];
 
 // Static sitemap for all locale pages (helps Google discover the 20-language site).
 export const dynamic = "force-static";
