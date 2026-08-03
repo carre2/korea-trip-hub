@@ -16,11 +16,17 @@ import vietnamI18n from "../../../../data/visa/vietnam.i18n.json";
 import chinaI18n from "../../../../data/visa/china.i18n.json";
 import philippinesI18n from "../../../../data/visa/philippines.i18n.json";
 import indonesiaI18n from "../../../../data/visa/indonesia.i18n.json";
+import usaI18n from "../../../../data/visa/usa.i18n.json";
+import japanI18n from "../../../../data/visa/japan.i18n.json";
+import ukI18n from "../../../../data/visa/uk.i18n.json";
+import canadaI18n from "../../../../data/visa/canada.i18n.json";
+import australiaI18n from "../../../../data/visa/australia.i18n.json";
+import taiwanI18n from "../../../../data/visa/taiwan.i18n.json";
 
 // Per-nationality visa guides. Add a country here + a data/visa/<code>.json file.
 const countries = { india, vietnam, china, philippines, indonesia, usa, japan, uk, canada, australia, taiwan };
 // Per-locale translation overrides, one file per country: { <locale>: { ...overrides } }.
-const i18nMaps = { india: indiaI18n, vietnam: vietnamI18n, china: chinaI18n, philippines: philippinesI18n, indonesia: indonesiaI18n };
+const i18nMaps = { india: indiaI18n, vietnam: vietnamI18n, china: chinaI18n, philippines: philippinesI18n, indonesia: indonesiaI18n, usa: usaI18n, japan: japanI18n, uk: ukI18n, canada: canadaI18n, australia: australiaI18n, taiwan: taiwanI18n };
 
 // Deep-merge a locale override onto the English base.
 // Arrays in the override REPLACE the base array (a locale provides the full translated array);

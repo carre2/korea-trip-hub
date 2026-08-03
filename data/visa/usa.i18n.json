@@ -1,0 +1,343 @@
+{
+  "_README": "Per-locale translation overrides for usa.json. Machine-translated — native review recommended.",
+  "ja": {
+    "kicker": "入国ガイド · アメリカ → 韓国",
+    "readingTime": "読了5分",
+    "h1": "アメリカから韓国への入国ガイド",
+    "metaTitle": "アメリカから韓国へ：ビザの要否と入国ガイド（2026年）— Korea Trip Hub",
+    "metaDesc": "アメリカからの旅行者は韓国にビザが必要？いいえ、ビザ不要で、K-ETAも2026年まで免除されています。無料のe-Arrival Cardを申請し、入国手順に従いましょう。滞在：最大90日。",
+    "verdict": {
+      "headline": "観光ビザは不要 — アメリカのパスポートはビザ免除です。",
+      "sub": "短期観光ではビザの申請は一切不要です。現在はK-ETAも免除されているため、着陸前に無料のe-Arrival Cardを申請することが主なやるべきことです。",
+      "type": "ビザ免除（現在K-ETA免除中）",
+      "stay": "最大90日",
+      "entry": "短期観光"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "ビザ不要、K-ETAも2026年まで免除", "body": "アメリカは2026年12月31日までK-ETAが免除される22か国のひとつで、短期観光ではビザもK-ETAも申請しません。この免除は終了予定で、K-ETAは2027年1月1日に復活します — 渡航前に再確認してください。" },
+      { "icon": "📝", "tone": "blue", "title": "それでもe-Arrival Cardは必要です", "body": "ほぼすべての訪問者が、到着前72時間以内にe-arrivalcard.go.krで無料のe-Arrival Cardを申請します。（有効なK-ETA保有者は免除されますが、K-ETAが免除されている今はe-Arrival Cardを申請してください。）" }
+    ],
+    "tldr": [
+      "今は観光ビザもK-ETAも不要 — アメリカは2026年までビザ免除かつK-ETA免除です。",
+      "到着72時間以内にe-arrivalcard.go.krで無料のe-Arrival Cardを必ず申請しましょう。",
+      "滞在期間中有効なパスポートと、出国・帰国便の証明を用意してください。",
+      "最大90日まで滞在できます。"
+    ],
+    "steps": {
+      "title": "入国の手順",
+      "items": [
+        { "n": 1, "title": "ビザ免除であることを確認", "detail": "アメリカのパスポートは短期観光で韓国にビザなしで入国でき、K-ETAも2026年まで免除されています — 申請するものは何もありません。" },
+        { "n": 2, "title": "e-Arrival Cardを申請", "detail": "到着前72時間以内に、e-arrivalcard.go.krで無料で記入し、QR/確認情報を保存してください。", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "パスポートと出国便を確認", "detail": "パスポートが滞在期間中有効であることを確認し、帰国・出国便のチケットと最初の宿泊先の住所を用意してください。" },
+        { "n": 4, "title": "入国審査で", "detail": "パスポートとe-Arrivalの確認情報を提示します。指紋と写真の採取が行われる場合があります。目的は観光に限りましょう — ビザ免除入国では有給の就労はできません。" }
+      ]
+    },
+    "documents": {
+      "title": "準備しておくもの",
+      "intro": "ビザ申請は不要ですが、スムーズな入国のためにこれらを用意しておきましょう。",
+      "cols": ["項目", "入手先", "備考"],
+      "rows": [
+        { "doc": "パスポート", "req": "required", "where": "お手元にあるもの", "how": "滞在期間中有効なもの。" },
+        { "doc": "e-Arrival Cardの確認", "req": "required", "where": "e-arrivalcard.go.kr", "how": "無料。到着前72時間以内に申請し、QRを保存してください。", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "帰国・出国チケット", "req": "required", "where": "航空会社／旅行代理店", "how": "許可された滞在期間内に出国することの証明。" },
+        { "doc": "宿泊先の住所", "req": "required", "where": "予約サイト", "how": "最初のホテル／宿泊先の住所（e-Arrival Cardで尋ねられます）。" },
+        { "doc": "旅行資金", "req": "recommended", "where": "本人", "how": "カードは広く使えますが、市場や小規模店舗用に現金も少し持参しましょう。" }
+      ],
+      "legend": { "required": "必須", "conditional": "該当する場合", "recommended": "推奨" }
+    },
+    "pitfalls": {
+      "title": "よくある入国時の間違い",
+      "items": [
+        { "icon": "🕸️", "t": "不要な「ビザ／K-ETA手数料」を支払う", "d": "今はビザもK-ETAも不要です。詐欺サイトは今も料金を請求してきます — 無視しましょう。" },
+        { "icon": "📝", "t": "e-Arrival Cardを飛ばす", "d": "ほとんどの訪問者は申請が必要です（無料）。到着72時間以内に行いましょう。" },
+        { "icon": "⏰", "t": "e-Arrival Cardを早く申請しすぎる", "d": "提出から72時間で失効します — 数週間前ではなく、搭乗直前に申請しましょう。" },
+        { "icon": "🗓️", "t": "滞在許可期間を超過する", "d": "最大90日を超えて滞在すると、罰金や今後の入国禁止のリスクがあります。" },
+        { "icon": "💼", "t": "観光入国で就労する", "d": "ビザ免除入国は観光・訪問のみが対象です — 有給の就労には適切なビザが必要です。" }
+      ]
+    },
+    "faq": {
+      "title": "アメリカ → 韓国 入国FAQ",
+      "items": [
+        { "q": "アメリカからの旅行者は韓国にビザが必要ですか？", "a": "いいえ — 短期観光ではアメリカのパスポート保有者はビザなしで韓国に入国できます。観光ビザの申請は一切不要です。" },
+        { "q": "K-ETAは必要ですか？", "a": "今は不要です。アメリカは2026年12月31日までK-ETAが免除される22か国に含まれます。この要件は延長されない限り2027年1月1日に復活する予定です。" },
+        { "q": "それでもe-Arrival Cardは必要ですか？", "a": "はい — ほとんどの訪問者は、到着前72時間以内にe-arrivalcard.go.krで無料のe-Arrival Cardを申請します。" },
+        { "q": "どのくらい滞在できますか？", "a": "観光目的で最大90日です。" },
+        { "q": "この入国で就労や就学はできますか？", "a": "いいえ。ビザ免除入国は観光と短期訪問のみが対象です。就労や就学には適切なビザが必要です。" },
+        { "q": "K-ETAはいつ復活しますか？", "a": "免除は2026年12月31日に終了予定で、延長されない限りK-ETAは2027年1月1日に再開します — 渡航日近くに再確認してください。" }
+      ]
+    },
+    "ui": { "visa": "ビザ", "stay": "滞在", "entry": "入国目的", "where": "入手先", "official": "公式ソース", "required": "必須", "conditional": "該当する場合", "recommended": "推奨", "confirm": "料金・規則は変わります — 公式ソースで確認してください", "source": "出典", "updated": "更新", "tldr": "要点" }
+  },
+  "ko": {
+    "kicker": "입국 가이드 · 미국 → 한국",
+    "readingTime": "5분 분량",
+    "h1": "미국에서 한국으로 가는 입국 가이드",
+    "metaTitle": "미국에서 한국으로: 비자 요건과 입국 가이드 (2026) — Korea Trip Hub",
+    "metaDesc": "미국에서 오는 여행자는 한국 비자가 필요할까요? 아니요 — 무비자이며, K-ETA도 2026년까지 면제됩니다. 무료 e-Arrival Card를 신청하고 입국 절차를 따르세요. 체류: 최대 90일.",
+    "verdict": {
+      "headline": "관광 비자 불필요 — 미국 여권은 무비자입니다.",
+      "sub": "단기 관광이라면 어떤 비자도 신청하지 않습니다. 현재는 K-ETA도 면제되어 있어, 착륙 전에 무료 e-Arrival Card를 신청하는 것이 주요 할 일입니다.",
+      "type": "무비자 (현재 K-ETA 면제)",
+      "stay": "최대 90일",
+      "entry": "단기 관광"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "비자 불필요, K-ETA도 2026년까지 면제", "body": "미국은 2026년 12월 31일까지 K-ETA가 면제되는 22개국 중 하나로, 단기 관광에는 비자도 K-ETA도 신청하지 않습니다. 이 면제는 종료될 예정이며 K-ETA는 2027년 1월 1일에 다시 시행됩니다 — 여행 전에 재확인하세요." },
+      { "icon": "📝", "tone": "blue", "title": "그래도 e-Arrival Card는 필요합니다", "body": "거의 모든 방문객이 도착 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 신청합니다. (유효한 K-ETA 소지자는 면제되지만, K-ETA가 면제된 지금은 e-Arrival Card를 신청해야 합니다.)" }
+    ],
+    "tldr": [
+      "지금은 관광 비자도 K-ETA도 필요 없습니다 — 미국은 2026년까지 무비자이며 K-ETA 면제 대상입니다.",
+      "도착 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 꼭 신청하세요.",
+      "체류 기간 동안 유효한 여권과 출국/귀국 여정 증빙을 준비하세요.",
+      "최대 90일까지 체류할 수 있습니다."
+    ],
+    "steps": {
+      "title": "입국 절차",
+      "items": [
+        { "n": 1, "title": "무비자인지 확인", "detail": "미국 여권은 단기 관광으로 한국에 무비자로 입국하며, K-ETA도 2026년까지 면제됩니다 — 신청할 것이 없습니다." },
+        { "n": 2, "title": "e-Arrival Card 신청", "detail": "도착 72시간 이내에 e-arrivalcard.go.kr에서 무료로 작성하고 QR/확인서를 저장하세요.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "여권과 출국 항공권 확인", "detail": "여권이 체류 기간 동안 유효한지 확인하고, 귀국/출국 항공권과 첫 숙소 주소를 준비하세요." },
+        { "n": 4, "title": "입국 심사에서", "detail": "여권과 e-Arrival 확인서를 제시하세요. 지문과 사진을 채취할 수 있습니다. 목적은 관광으로 유지하세요 — 무비자 입국에서는 유급 노동을 할 수 없습니다." }
+      ]
+    },
+    "documents": {
+      "title": "준비할 것",
+      "intro": "비자 신청서는 제출하지 않지만, 원활한 입국을 위해 이것들을 준비해 두세요.",
+      "cols": ["항목", "구하는 곳", "비고"],
+      "rows": [
+        { "doc": "여권", "req": "required", "where": "이미 소지", "how": "체류 기간 동안 유효할 것." },
+        { "doc": "e-Arrival Card 확인서", "req": "required", "where": "e-arrivalcard.go.kr", "how": "무료. 도착 72시간 이내에 신청하고 QR을 저장하세요.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "귀국 / 출국 항공권", "req": "required", "where": "항공사 / 여행사", "how": "허용된 체류 기간 내에 출국한다는 증빙." },
+        { "doc": "숙소 주소", "req": "required", "where": "예약 사이트", "how": "첫 호텔/숙소 주소 (e-Arrival Card에서 물어봅니다)." },
+        { "doc": "여행 경비", "req": "recommended", "where": "본인", "how": "카드는 널리 쓰이지만, 시장이나 소규모 상점을 위해 현금도 조금 지참하세요." }
+      ],
+      "legend": { "required": "필수", "conditional": "해당 시", "recommended": "권장" }
+    },
+    "pitfalls": {
+      "title": "흔한 입국 실수",
+      "items": [
+        { "icon": "🕸️", "t": "내지 않아도 될 '비자/K-ETA 수수료'를 내는 것", "d": "지금은 비자도 K-ETA도 필요 없습니다. 사기 사이트는 여전히 요금을 청구하니 — 무시하세요." },
+        { "icon": "📝", "t": "e-Arrival Card를 건너뛰는 것", "d": "대부분의 방문객은 신청해야 합니다 (무료). 도착 72시간 이내에 하세요." },
+        { "icon": "⏰", "t": "e-Arrival Card를 너무 일찍 신청하는 것", "d": "제출 후 72시간이 지나면 만료됩니다 — 몇 주 전이 아니라 항공편에 가깝게 신청하세요." },
+        { "icon": "🗓️", "t": "허용 기간을 초과 체류하는 것", "d": "최대 90일을 넘겨 체류하면 벌금과 향후 입국 금지 위험이 있습니다." },
+        { "icon": "💼", "t": "관광 입국으로 일하는 것", "d": "무비자 입국은 관광/방문만을 위한 것입니다 — 유급 노동에는 적절한 비자가 필요합니다." }
+      ]
+    },
+    "faq": {
+      "title": "미국 → 한국 입국 FAQ",
+      "items": [
+        { "q": "미국에서 오는 여행자는 한국 비자가 필요한가요?", "a": "아니요 — 단기 관광이라면 미국 여권 소지자는 한국에 무비자로 입국합니다. 어떤 관광 비자도 신청하지 않습니다." },
+        { "q": "K-ETA가 필요한가요?", "a": "지금은 아닙니다. 미국은 2026년 12월 31일까지 K-ETA가 면제되는 22개국에 포함됩니다. 이 요건은 연장되지 않는 한 2027년 1월 1일에 다시 시행될 예정입니다." },
+        { "q": "그래도 e-Arrival Card는 필요한가요?", "a": "네 — 대부분의 방문객은 도착 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 신청합니다." },
+        { "q": "얼마나 체류할 수 있나요?", "a": "관광 목적으로 최대 90일입니다." },
+        { "q": "이 입국으로 일하거나 공부할 수 있나요?", "a": "아니요. 무비자 입국은 관광과 단기 방문만을 위한 것입니다. 일하거나 공부하려면 적절한 비자가 필요합니다." },
+        { "q": "K-ETA는 언제 다시 시작되나요?", "a": "면제는 2026년 12월 31일에 종료될 예정이며, 연장되지 않는 한 K-ETA는 2027년 1월 1일에 재개됩니다 — 여행 날짜에 가깝게 재확인하세요." }
+      ]
+    },
+    "ui": { "visa": "비자", "stay": "체류", "entry": "입국 목적", "where": "구하는 곳", "official": "공식 출처", "required": "필수", "conditional": "해당 시", "recommended": "권장", "confirm": "요금·규정은 변경됩니다 — 공식 출처에서 확인하세요", "source": "출처", "updated": "업데이트", "tldr": "요약" }
+  },
+  "zh": {
+    "kicker": "入境指南 · 美国 → 韩国",
+    "readingTime": "阅读约5分钟",
+    "h1": "从美国前往韩国的入境指南",
+    "metaTitle": "美国到韩国：签证要求与入境指南（2026）— Korea Trip Hub",
+    "metaDesc": "从美国出发的旅客去韩国需要签证吗？不需要 — 免签，且K-ETA在2026年前也予以豁免。申请免费的e-Arrival Card并按入境步骤办理。停留：最多90天。",
+    "verdict": {
+      "headline": "无需旅游签证 — 美国护照免签。",
+      "sub": "短期旅游无需申请任何签证。目前K-ETA也已豁免，因此主要要做的就是在落地前申请免费的e-Arrival Card。",
+      "type": "免签（目前K-ETA豁免）",
+      "stay": "最多90天",
+      "entry": "短期旅游"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "无需签证，K-ETA也在2026年前豁免", "body": "美国是2026年12月31日前豁免K-ETA的22个国家之一，因此短期旅游既不需要申请签证，也不需要申请K-ETA。该豁免计划到期，K-ETA将于2027年1月1日恢复 — 出行前请再次确认。" },
+      { "icon": "📝", "tone": "blue", "title": "但你仍需要e-Arrival Card", "body": "几乎所有访客都会在抵达前72小时内在e-arrivalcard.go.kr申请免费的e-Arrival Card。（持有有效K-ETA者可豁免，但在K-ETA豁免期间你应当申请e-Arrival Card。）" }
+    ],
+    "tldr": [
+      "现在既不需要旅游签证也不需要K-ETA — 美国在2026年前免签且豁免K-ETA。",
+      "请务必在抵达前72小时内在e-arrivalcard.go.kr申请免费的e-Arrival Card。",
+      "携带在停留期间有效的护照，以及续程/返程的行程证明。",
+      "你最多可停留90天。"
+    ],
+    "steps": {
+      "title": "你的入境步骤",
+      "items": [
+        { "n": 1, "title": "确认你免签", "detail": "美国护照可短期旅游免签入境韩国，K-ETA也在2026年前豁免 — 无需申请任何东西。" },
+        { "n": 2, "title": "申请e-Arrival Card", "detail": "在抵达前72小时内，在e-arrivalcard.go.kr免费填写，并保存二维码/确认信息。", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "检查护照与续程机票", "detail": "确保护照在停留期间有效，并备好返程/续程机票以及第一晚的住宿地址。" },
+        { "n": 4, "title": "在入境检查时", "detail": "出示护照和e-Arrival确认信息；可能会采集指纹和照片。请仅限旅游 — 免签入境不得从事有偿工作。" }
+      ]
+    },
+    "documents": {
+      "title": "需要备好的东西",
+      "intro": "你无需提交签证申请 — 但请备好这些，以便顺利入境。",
+      "cols": ["项目", "获取途径", "备注"],
+      "rows": [
+        { "doc": "护照", "req": "required", "where": "你已持有", "how": "在停留期间有效。" },
+        { "doc": "e-Arrival Card确认", "req": "required", "where": "e-arrivalcard.go.kr", "how": "免费；在抵达前72小时内申请并保存二维码。", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "返程 / 续程机票", "req": "required", "where": "航空公司 / 旅行社", "how": "证明你会在允许的停留期内离境。" },
+        { "doc": "住宿地址", "req": "required", "where": "预订网站", "how": "你的第一家酒店/住宿地址（e-Arrival Card会询问）。" },
+        { "doc": "旅行资金", "req": "recommended", "where": "本人", "how": "刷卡广泛受理；在市场和小商户可备些现金。" }
+      ],
+      "legend": { "required": "必需", "conditional": "如适用", "recommended": "建议" }
+    },
+    "pitfalls": {
+      "title": "常见入境错误",
+      "items": [
+        { "icon": "🕸️", "t": "支付你并不欠的'签证/K-ETA费用'", "d": "现在你既不需要签证也不需要K-ETA。诈骗网站仍会收费 — 请忽略它们。" },
+        { "icon": "📝", "t": "跳过e-Arrival Card", "d": "大多数访客都必须申请（免费）。请在抵达72小时内办理。" },
+        { "icon": "⏰", "t": "太早申请e-Arrival Card", "d": "提交后72小时失效 — 请在临近航班时申请，而非提前数周。" },
+        { "icon": "🗓️", "t": "超出允许期限逗留", "d": "停留超过90天可能面临罚款和未来入境禁令。" },
+        { "icon": "💼", "t": "以旅游身份入境却工作", "d": "免签入境仅限旅游/探访 — 有偿工作需要相应的签证。" }
+      ]
+    },
+    "faq": {
+      "title": "美国 → 韩国 入境常见问题",
+      "items": [
+        { "q": "从美国出发的旅客去韩国需要签证吗？", "a": "不需要 — 短期旅游时，美国护照持有者可免签入境韩国。你无需申请任何旅游签证。" },
+        { "q": "我需要K-ETA吗？", "a": "现在不需要。美国属于2026年12月31日前豁免K-ETA的22个国家之一。除非延长，该要求预计于2027年1月1日恢复。" },
+        { "q": "我仍需要e-Arrival Card吗？", "a": "需要 — 大多数访客会在抵达前72小时内在e-arrivalcard.go.kr申请免费的e-Arrival Card。" },
+        { "q": "我可以停留多久？", "a": "以旅游为目的，最多90天。" },
+        { "q": "我可以凭此入境工作或学习吗？", "a": "不可以。免签入境仅限旅游和短期探访；工作或学习需要相应的签证。" },
+        { "q": "K-ETA什么时候恢复？", "a": "豁免预计于2026年12月31日结束，除非延长，K-ETA将于2027年1月1日恢复 — 请在临近出行日期时再次确认。" }
+      ]
+    },
+    "ui": { "visa": "签证", "stay": "停留", "entry": "入境目的", "where": "获取途径", "official": "官方来源", "required": "必需", "conditional": "如适用", "recommended": "建议", "confirm": "费用和规则会变动 — 请在官方来源确认", "source": "来源", "updated": "更新", "tldr": "摘要" }
+  },
+  "zh-TW": {
+    "kicker": "入境指南 · 美國 → 韓國",
+    "readingTime": "閱讀約5分鐘",
+    "h1": "從美國前往韓國的入境指南",
+    "metaTitle": "美國到韓國：簽證要求與入境指南（2026）— Korea Trip Hub",
+    "metaDesc": "從美國出發的旅客去韓國需要簽證嗎？不需要 — 免簽，且K-ETA在2026年前也予以豁免。申請免費的e-Arrival Card並依入境步驟辦理。停留：最多90天。",
+    "verdict": {
+      "headline": "無需觀光簽證 — 美國護照免簽。",
+      "sub": "短期觀光無需申請任何簽證。目前K-ETA也已豁免，因此主要要做的就是在降落前申請免費的e-Arrival Card。",
+      "type": "免簽（目前K-ETA豁免）",
+      "stay": "最多90天",
+      "entry": "短期觀光"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "無需簽證，K-ETA也在2026年前豁免", "body": "美國是2026年12月31日前豁免K-ETA的22個國家之一，因此短期觀光既不需要申請簽證，也不需要申請K-ETA。該豁免預計到期，K-ETA將於2027年1月1日恢復 — 出發前請再次確認。" },
+      { "icon": "📝", "tone": "blue", "title": "但你仍需要e-Arrival Card", "body": "幾乎所有旅客都會在抵達前72小時內於e-arrivalcard.go.kr申請免費的e-Arrival Card。（持有有效K-ETA者可豁免，但在K-ETA豁免期間你應當申請e-Arrival Card。）" }
+    ],
+    "tldr": [
+      "現在既不需要觀光簽證也不需要K-ETA — 美國在2026年前免簽且豁免K-ETA。",
+      "請務必在抵達前72小時內於e-arrivalcard.go.kr申請免費的e-Arrival Card。",
+      "攜帶在停留期間有效的護照，以及續程/回程的行程證明。",
+      "你最多可停留90天。"
+    ],
+    "steps": {
+      "title": "你的入境步驟",
+      "items": [
+        { "n": 1, "title": "確認你免簽", "detail": "美國護照可短期觀光免簽入境韓國，K-ETA也在2026年前豁免 — 無需申請任何東西。" },
+        { "n": 2, "title": "申請e-Arrival Card", "detail": "在抵達前72小時內，於e-arrivalcard.go.kr免費填寫，並儲存QR碼/確認資訊。", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "檢查護照與續程機票", "detail": "確保護照在停留期間有效，並備妥回程/續程機票以及第一晚的住宿地址。" },
+        { "n": 4, "title": "在入境查驗時", "detail": "出示護照和e-Arrival確認資訊；可能會採集指紋和照片。請僅限觀光 — 免簽入境不得從事有償工作。" }
+      ]
+    },
+    "documents": {
+      "title": "需要備妥的東西",
+      "intro": "你無需提交簽證申請 — 但請備妥這些，以便順利入境。",
+      "cols": ["項目", "取得管道", "備註"],
+      "rows": [
+        { "doc": "護照", "req": "required", "where": "你已持有", "how": "在停留期間有效。" },
+        { "doc": "e-Arrival Card確認", "req": "required", "where": "e-arrivalcard.go.kr", "how": "免費；在抵達前72小時內申請並儲存QR碼。", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "回程 / 續程機票", "req": "required", "where": "航空公司 / 旅行社", "how": "證明你會在允許的停留期內離境。" },
+        { "doc": "住宿地址", "req": "required", "where": "訂房網站", "how": "你的第一家飯店/住宿地址（e-Arrival Card會詢問）。" },
+        { "doc": "旅行資金", "req": "recommended", "where": "本人", "how": "刷卡廣泛受理；在市場和小商家可備些現金。" }
+      ],
+      "legend": { "required": "必備", "conditional": "如適用", "recommended": "建議" }
+    },
+    "pitfalls": {
+      "title": "常見入境錯誤",
+      "items": [
+        { "icon": "🕸️", "t": "支付你並不需付的「簽證/K-ETA費用」", "d": "現在你既不需要簽證也不需要K-ETA。詐騙網站仍會收費 — 請忽略它們。" },
+        { "icon": "📝", "t": "略過e-Arrival Card", "d": "大多數旅客都必須申請（免費）。請在抵達72小時內辦理。" },
+        { "icon": "⏰", "t": "太早申請e-Arrival Card", "d": "提交後72小時失效 — 請在臨近航班時申請，而非提前數週。" },
+        { "icon": "🗓️", "t": "超出允許期限逗留", "d": "停留超過90天可能面臨罰款和未來入境禁令。" },
+        { "icon": "💼", "t": "以觀光身分入境卻工作", "d": "免簽入境僅限觀光/探訪 — 有償工作需要相應的簽證。" }
+      ]
+    },
+    "faq": {
+      "title": "美國 → 韓國 入境常見問題",
+      "items": [
+        { "q": "從美國出發的旅客去韓國需要簽證嗎？", "a": "不需要 — 短期觀光時，美國護照持有者可免簽入境韓國。你無需申請任何觀光簽證。" },
+        { "q": "我需要K-ETA嗎？", "a": "現在不需要。美國屬於2026年12月31日前豁免K-ETA的22個國家之一。除非延長，該要求預計於2027年1月1日恢復。" },
+        { "q": "我仍需要e-Arrival Card嗎？", "a": "需要 — 大多數旅客會在抵達前72小時內於e-arrivalcard.go.kr申請免費的e-Arrival Card。" },
+        { "q": "我可以停留多久？", "a": "以觀光為目的，最多90天。" },
+        { "q": "我可以憑此入境工作或就學嗎？", "a": "不可以。免簽入境僅限觀光和短期探訪；工作或就學需要相應的簽證。" },
+        { "q": "K-ETA什麼時候恢復？", "a": "豁免預計於2026年12月31日結束，除非延長，K-ETA將於2027年1月1日恢復 — 請在臨近出發日期時再次確認。" }
+      ]
+    },
+    "ui": { "visa": "簽證", "stay": "停留", "entry": "入境目的", "where": "取得管道", "official": "官方來源", "required": "必備", "conditional": "如適用", "recommended": "建議", "confirm": "費用和規則會變動 — 請在官方來源確認", "source": "來源", "updated": "更新", "tldr": "摘要" }
+  },
+  "es": {
+    "kicker": "Guía de entrada · Estados Unidos → Corea",
+    "readingTime": "5 min de lectura",
+    "h1": "Guía de entrada a Corea desde Estados Unidos",
+    "metaTitle": "De Estados Unidos a Corea: requisitos de visado y guía de entrada (2026) — Korea Trip Hub",
+    "metaDesc": "¿Los viajeros de Estados Unidos necesitan visado para Corea del Sur? No — sin visado, con la K-ETA exenta hasta 2026. Presenta la e-Arrival Card gratuita y sigue los pasos de entrada. Estancia: hasta 90 días.",
+    "verdict": {
+      "headline": "No se necesita visado de turista — los pasaportes de Estados Unidos están exentos de visado.",
+      "sub": "Para el turismo de corta duración no solicitas ningún visado. Ahora mismo la K-ETA también está exenta, así que lo principal es presentar la e-Arrival Card gratuita antes de aterrizar.",
+      "type": "Sin visado (K-ETA actualmente exenta)",
+      "stay": "Hasta 90 días",
+      "entry": "Turismo de corta duración"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "Sin visado, y K-ETA exenta hasta 2026", "body": "Estados Unidos es uno de los 22 países exentos de la K-ETA hasta el 31 de diciembre de 2026, por lo que no solicitas ni visado ni K-ETA para el turismo de corta duración. Está previsto que la exención finalice y la K-ETA vuelva el 1 de enero de 2027 — vuelve a confirmarlo antes de viajar." },
+      { "icon": "📝", "tone": "blue", "title": "Aun así necesitas la e-Arrival Card", "body": "Casi todos los visitantes presentan la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas anteriores a la llegada. (Los titulares de una K-ETA válida están exentos, pero como la K-ETA está exenta, deberías presentar la e-Arrival Card.)" }
+    ],
+    "tldr": [
+      "Ahora mismo no se necesita ni visado de turista ni K-ETA — Estados Unidos está sin visado y exento de K-ETA hasta 2026.",
+      "Sí presenta la e-Arrival Card gratuita en e-arrivalcard.go.kr dentro de las 72 horas previas a la llegada.",
+      "Lleva un pasaporte válido para toda tu estancia y prueba de un viaje de salida/regreso.",
+      "Puedes quedarte hasta 90 días."
+    ],
+    "steps": {
+      "title": "Tus pasos de entrada",
+      "items": [
+        { "n": 1, "title": "Confirma que no necesitas visado", "detail": "Los pasaportes de Estados Unidos entran en Corea sin visado para el turismo de corta duración, y la K-ETA está exenta hasta 2026 — no hay nada que solicitar." },
+        { "n": 2, "title": "Presenta la e-Arrival Card", "detail": "Dentro de las 72 horas previas a la llegada, complétala gratis en e-arrivalcard.go.kr y guarda el QR/la confirmación.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "Revisa el pasaporte y el billete de salida", "detail": "Asegúrate de que tu pasaporte sea válido para toda tu estancia, y ten un billete de regreso/salida y la dirección de tu primer alojamiento." },
+        { "n": 4, "title": "En el control de inmigración", "detail": "Muestra tu pasaporte y la confirmación de la e-Arrival; pueden tomarte las huellas y una foto. Limítalo al turismo — sin trabajo remunerado en la entrada sin visado." }
+      ]
+    },
+    "documents": {
+      "title": "Qué tener preparado",
+      "intro": "No presentas una solicitud de visado — pero ten esto preparado para una entrada sin problemas.",
+      "cols": ["Elemento", "Dónde conseguirlo", "Notas"],
+      "rows": [
+        { "doc": "Pasaporte", "req": "required", "where": "Ya lo tienes", "how": "Válido durante toda tu estancia." },
+        { "doc": "Confirmación de la e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Gratis; preséntala dentro de las 72 horas previas a la llegada y guarda el QR.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "Billete de regreso / salida", "req": "required", "where": "Aerolínea / agencia de viajes", "how": "Prueba de que saldrás dentro de tu estancia permitida." },
+        { "doc": "Dirección de alojamiento", "req": "required", "where": "Sitios de reservas", "how": "La dirección de tu primer hotel/alojamiento (se pide en la e-Arrival Card)." },
+        { "doc": "Fondos para tu viaje", "req": "recommended", "where": "Tú", "how": "Las tarjetas se aceptan ampliamente; lleva algo de efectivo para mercados y pequeños comercios." }
+      ],
+      "legend": { "required": "Obligatorio", "conditional": "Si corresponde", "recommended": "Recomendado" }
+    },
+    "pitfalls": {
+      "title": "Errores de entrada habituales",
+      "items": [
+        { "icon": "🕸️", "t": "Pagar una «tasa de visado/K-ETA» que no debes", "d": "Ahora mismo no necesitas ni visado ni K-ETA. Los sitios fraudulentos siguen cobrando por ellos — ignóralos." },
+        { "icon": "📝", "t": "Saltarte la e-Arrival Card", "d": "La mayoría de los visitantes deben presentarla (gratis). Hazlo dentro de las 72 horas previas a la llegada." },
+        { "icon": "⏰", "t": "Presentar la e-Arrival Card demasiado pronto", "d": "Caduca 72 horas después de enviarla — preséntala cerca de tu vuelo, no con semanas de antelación." },
+        { "icon": "🗓️", "t": "Exceder tu estancia permitida", "d": "Quedarte más de 90 días conlleva riesgo de multas y prohibiciones de entrada futuras." },
+        { "icon": "💼", "t": "Trabajar con una entrada de turista", "d": "La entrada sin visado es solo para turismo/visitas — el trabajo remunerado necesita el visado adecuado." }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes de entrada Estados Unidos → Corea",
+      "items": [
+        { "q": "¿Los viajeros de Estados Unidos necesitan visado para Corea?", "a": "No — para el turismo de corta duración, los titulares de pasaporte de Estados Unidos entran en Corea sin visado. No solicitas ningún visado de turista." },
+        { "q": "¿Necesito la K-ETA?", "a": "Ahora mismo no. Estados Unidos está entre los 22 países exentos de la K-ETA hasta el 31 de diciembre de 2026. Está previsto que el requisito vuelva el 1 de enero de 2027, salvo que se prorrogue." },
+        { "q": "¿Sigo necesitando la e-Arrival Card?", "a": "Sí — la mayoría de los visitantes presentan la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas previas a la llegada." },
+        { "q": "¿Cuánto tiempo puedo quedarme?", "a": "Hasta 90 días, con fines turísticos." },
+        { "q": "¿Puedo trabajar o estudiar con esta entrada?", "a": "No. La entrada sin visado es solo para turismo y visitas cortas; trabajar o estudiar requiere el visado correspondiente." },
+        { "q": "¿Cuándo vuelve la K-ETA?", "a": "Está previsto que la exención termine el 31 de diciembre de 2026, y que la K-ETA se reanude el 1 de enero de 2027 salvo que se prorrogue — vuelve a confirmarlo cerca de tu fecha de viaje." }
+      ]
+    },
+    "ui": { "visa": "Visado", "stay": "Estancia", "entry": "Entrada", "where": "Dónde", "official": "Fuentes oficiales", "required": "Obligatorio", "conditional": "Si corresponde", "recommended": "Recomendado", "confirm": "Las tasas y normas cambian — confírmalo en la fuente", "source": "Fuente", "updated": "Actualizado", "tldr": "Resumen" }
+  }
+}

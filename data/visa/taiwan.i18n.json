@@ -1,0 +1,343 @@
+{
+  "_README": "Per-locale translation overrides for taiwan.json. Machine-translated — native review recommended.",
+  "ja": {
+    "kicker": "入国ガイド · 台湾 → 韓国",
+    "readingTime": "読了目安5分",
+    "h1": "台湾から韓国への入国ガイド",
+    "metaTitle": "台湾から韓国へ：ビザ要件と入国ガイド（2026年）— Korea Trip Hub",
+    "metaDesc": "台湾から韓国への旅行にビザは必要？いいえ、ビザ不要で、K-ETAも2026年まで免除されています。無料のe-Arrival Cardを申請し、入国手順に従いましょう。滞在：最長90日。",
+    "verdict": {
+      "headline": "観光ビザは不要 — 台湾のパスポートはビザ免除です。",
+      "sub": "短期観光ならビザの申請は一切不要です。現在はK-ETAも免除されているため、着陸前に無料のe-Arrival Cardを申請することが主なポイントです。",
+      "type": "ビザ免除（K-ETAは現在免除中）",
+      "stay": "最長90日",
+      "entry": "短期観光"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "ビザ不要、K-ETAも2026年まで免除", "body": "台湾はK-ETAが免除される22か国の一つで、2026年12月31日まで対象です。そのため短期観光ではビザもK-ETAも申請不要です。この免除は終了予定で、K-ETAは2027年1月1日に再開されます — 渡航前に再確認してください。" },
+      { "icon": "📝", "tone": "blue", "title": "e-Arrival Cardは必要です", "body": "ほぼすべての訪問者が、到着前72時間以内にe-arrivalcard.go.krで無料のe-Arrival Cardを申請します。（有効なK-ETA保持者は免除されますが、K-ETAが免除されている今はe-Arrival Cardを申請してください。）" }
+    ],
+    "tldr": [
+      "現在は観光ビザもK-ETAも不要 — 台湾はビザ免除で、2026年までK-ETAも免除されています。",
+      "到着前72時間以内に、e-arrivalcard.go.krで無料のe-Arrival Cardを必ず申請しましょう。",
+      "滞在期間中有効なパスポートと、出国・帰国便の証明を用意しましょう。",
+      "滞在は最長90日までです。"
+    ],
+    "steps": {
+      "title": "入国の手順",
+      "items": [
+        { "n": 1, "title": "ビザ免除であることを確認", "detail": "台湾のパスポートは短期観光なら韓国にビザなしで入国でき、K-ETAも2026年まで免除されています — 申請するものは何もありません。" },
+        { "n": 2, "title": "e-Arrival Cardを申請", "detail": "到着前72時間以内に、e-arrivalcard.go.krで無料で入力を済ませ、QRコード／確認画面を保存しておきましょう。", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "パスポートと出国便を確認", "detail": "パスポートが滞在期間中有効であることを確認し、帰国・出国便のチケットと最初の宿泊先の住所を用意しましょう。" },
+        { "n": 4, "title": "入国審査で", "detail": "パスポートとe-Arrivalの確認画面を提示します。指紋と写真の採取が行われる場合があります。目的は観光に限ってください — ビザ免除での入国では就労はできません。" }
+      ]
+    },
+    "documents": {
+      "title": "準備しておくもの",
+      "intro": "ビザの申請は不要ですが、スムーズな入国のために以下を用意しておきましょう。",
+      "cols": ["項目", "入手先", "備考"],
+      "rows": [
+        { "doc": "パスポート", "req": "required", "where": "お手元にあるもの", "how": "滞在期間中有効であること。" },
+        { "doc": "e-Arrival Cardの確認", "req": "required", "where": "e-arrivalcard.go.kr", "how": "無料。到着前72時間以内に申請し、QRコードを保存しましょう。", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "帰国・出国便のチケット", "req": "required", "where": "航空会社／旅行代理店", "how": "許可された滞在期間内に出国することの証明。" },
+        { "doc": "宿泊先の住所", "req": "required", "where": "予約サイト", "how": "最初のホテル／宿泊先の住所（e-Arrival Cardで尋ねられます）。" },
+        { "doc": "旅行の資金", "req": "recommended", "where": "ご自身", "how": "カードは広く使えますが、市場や小規模の店舗のために現金も少し持っておきましょう。" }
+      ],
+      "legend": { "required": "必須", "conditional": "該当する場合", "recommended": "推奨" }
+    },
+    "pitfalls": {
+      "title": "よくある入国時の間違い",
+      "items": [
+        { "icon": "🕸️", "t": "不要な「ビザ／K-ETA手数料」を支払う", "d": "現在はビザもK-ETAも不要です。詐欺サイトは今も料金を請求してきます — 無視しましょう。" },
+        { "icon": "📝", "t": "e-Arrival Cardを申請し忘れる", "d": "ほとんどの訪問者は申請が必要です（無料）。到着前72時間以内に済ませましょう。" },
+        { "icon": "⏰", "t": "e-Arrival Cardを早く申請しすぎる", "d": "提出から72時間で失効します — 何週間も前ではなく、フライト直前に申請しましょう。" },
+        { "icon": "🗓️", "t": "許可された滞在期間を超過する", "d": "最長90日を超えて滞在すると、罰金や今後の入国禁止のリスクがあります。" },
+        { "icon": "💼", "t": "観光目的の入国で就労する", "d": "ビザ免除での入国は観光・訪問のみが対象です — 就労には適切なビザが必要です。" }
+      ]
+    },
+    "faq": {
+      "title": "台湾 → 韓国 入国FAQ",
+      "items": [
+        { "q": "台湾からの旅行者は韓国にビザが必要ですか？", "a": "いいえ — 短期観光なら台湾のパスポート保持者はビザなしで韓国に入国できます。観光ビザの申請は一切不要です。" },
+        { "q": "K-ETAは必要ですか？", "a": "現在は不要です。台湾は2026年12月31日までK-ETAが免除される22か国に含まれます。この要件は延長されない限り、2027年1月1日に再開される予定です。" },
+        { "q": "それでもe-Arrival Cardは必要ですか？", "a": "はい — ほとんどの訪問者は、到着前72時間以内にe-arrivalcard.go.krで無料のe-Arrival Cardを申請します。" },
+        { "q": "どのくらい滞在できますか？", "a": "観光目的で最長90日までです。" },
+        { "q": "この入国資格で就労や就学はできますか？", "a": "いいえ。ビザ免除での入国は観光と短期訪問のみが対象です。就労や就学には適切なビザが必要です。" },
+        { "q": "K-ETAはいつ再開されますか？", "a": "免除は2026年12月31日に終了予定で、延長されない限りK-ETAは2027年1月1日に再開されます — 渡航日が近づいたら再確認してください。" }
+      ]
+    },
+    "ui": { "visa": "ビザ", "stay": "滞在", "entry": "入国", "where": "入手先", "official": "公式情報源", "required": "必須", "conditional": "該当する場合", "recommended": "推奨", "confirm": "料金・規則は変わります — 公式情報源で確認を", "source": "出典", "updated": "更新日", "tldr": "要点" }
+  },
+  "ko": {
+    "kicker": "입국 가이드 · 대만 → 한국",
+    "readingTime": "5분 읽기",
+    "h1": "대만에서 한국 입국 가이드",
+    "metaTitle": "대만에서 한국으로: 비자 요건과 입국 가이드 (2026) — Korea Trip Hub",
+    "metaDesc": "대만에서 한국 여행에 비자가 필요할까요? 아니요 — 무비자이며, K-ETA도 2026년까지 면제됩니다. 무료 e-Arrival Card를 신청하고 입국 절차를 따르세요. 체류: 최대 90일.",
+    "verdict": {
+      "headline": "관광 비자 불필요 — 대만 여권은 무비자입니다.",
+      "sub": "단기 관광이라면 어떤 비자도 신청하지 않습니다. 현재는 K-ETA도 면제되어, 착륙 전에 무료 e-Arrival Card를 신청하는 것이 핵심입니다.",
+      "type": "무비자 (현재 K-ETA 면제)",
+      "stay": "최대 90일",
+      "entry": "단기 관광"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "비자 불필요, K-ETA도 2026년까지 면제", "body": "대만은 2026년 12월 31일까지 K-ETA가 면제되는 22개국 중 하나로, 단기 관광에는 비자도 K-ETA도 신청하지 않습니다. 이 면제는 종료될 예정이며 K-ETA는 2027년 1월 1일에 다시 시행됩니다 — 여행 전 다시 확인하세요." },
+      { "icon": "📝", "tone": "blue", "title": "그래도 e-Arrival Card는 필요합니다", "body": "거의 모든 방문객이 도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 신청합니다. (유효한 K-ETA 소지자는 면제되지만, K-ETA가 면제된 지금은 e-Arrival Card를 신청해야 합니다.)" }
+    ],
+    "tldr": [
+      "지금은 관광 비자도 K-ETA도 필요 없습니다 — 대만은 무비자이며 2026년까지 K-ETA도 면제됩니다.",
+      "도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 꼭 신청하세요.",
+      "체류 기간 동안 유효한 여권과 출국/귀국 항공편 증빙을 준비하세요.",
+      "최대 90일까지 체류할 수 있습니다."
+    ],
+    "steps": {
+      "title": "입국 절차",
+      "items": [
+        { "n": 1, "title": "무비자 여부 확인", "detail": "대만 여권은 단기 관광 시 한국에 무비자로 입국하며, K-ETA도 2026년까지 면제됩니다 — 신청할 것이 없습니다." },
+        { "n": 2, "title": "e-Arrival Card 신청", "detail": "도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료로 작성하고 QR/확인서를 저장하세요.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "여권과 출국 항공권 확인", "detail": "여권이 체류 기간 동안 유효한지 확인하고, 귀국/출국 항공권과 첫 숙소 주소를 준비하세요." },
+        { "n": 4, "title": "입국 심사에서", "detail": "여권과 e-Arrival 확인서를 제시하며, 지문과 사진을 채취할 수 있습니다. 목적은 관광에 한정하세요 — 무비자 입국으로는 유급 노동을 할 수 없습니다." }
+      ]
+    },
+    "documents": {
+      "title": "미리 준비할 것",
+      "intro": "비자 신청서는 제출하지 않지만, 원활한 입국을 위해 다음을 준비해 두세요.",
+      "cols": ["항목", "발급처", "비고"],
+      "rows": [
+        { "doc": "여권", "req": "required", "where": "이미 소지", "how": "체류 기간 동안 유효할 것." },
+        { "doc": "e-Arrival Card 확인서", "req": "required", "where": "e-arrivalcard.go.kr", "how": "무료. 도착 전 72시간 이내에 신청하고 QR을 저장하세요.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "귀국/출국 항공권", "req": "required", "where": "항공사 / 여행사", "how": "허용된 체류 기간 내에 출국한다는 증빙." },
+        { "doc": "숙소 주소", "req": "required", "where": "예약 사이트", "how": "첫 호텔/숙소 주소 (e-Arrival Card에서 묻습니다)." },
+        { "doc": "여행 경비", "req": "recommended", "where": "본인", "how": "카드는 널리 사용되지만, 시장이나 소규모 상점을 위해 현금도 조금 지참하세요." }
+      ],
+      "legend": { "required": "필수", "conditional": "해당하는 경우", "recommended": "권장" }
+    },
+    "pitfalls": {
+      "title": "흔한 입국 실수",
+      "items": [
+        { "icon": "🕸️", "t": "내지 않아도 되는 '비자/K-ETA 수수료' 결제", "d": "현재는 비자도 K-ETA도 필요 없습니다. 사기 사이트는 여전히 이에 대해 요금을 청구합니다 — 무시하세요." },
+        { "icon": "📝", "t": "e-Arrival Card 신청 누락", "d": "대부분의 방문객은 신청해야 합니다 (무료). 도착 전 72시간 이내에 하세요." },
+        { "icon": "⏰", "t": "e-Arrival Card를 너무 일찍 신청", "d": "제출 후 72시간이 지나면 만료됩니다 — 몇 주 전이 아니라 항공편에 가깝게 신청하세요." },
+        { "icon": "🗓️", "t": "허용 기간 초과 체류", "d": "최대 90일을 넘겨 체류하면 벌금과 향후 입국 금지의 위험이 있습니다." },
+        { "icon": "💼", "t": "관광 입국으로 취업", "d": "무비자 입국은 관광/방문 목적에 한합니다 — 유급 근로에는 적절한 비자가 필요합니다." }
+      ]
+    },
+    "faq": {
+      "title": "대만 → 한국 입국 FAQ",
+      "items": [
+        { "q": "대만에서 오는 여행자는 한국 비자가 필요한가요?", "a": "아니요 — 단기 관광이라면 대만 여권 소지자는 무비자로 한국에 입국합니다. 어떤 관광 비자도 신청하지 않습니다." },
+        { "q": "K-ETA가 필요한가요?", "a": "지금은 아닙니다. 대만은 2026년 12월 31일까지 K-ETA가 면제되는 22개국에 포함됩니다. 이 요건은 연장되지 않는 한 2027년 1월 1일에 다시 시행될 예정입니다." },
+        { "q": "그래도 e-Arrival Card가 필요한가요?", "a": "네 — 대부분의 방문객은 도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 신청합니다." },
+        { "q": "얼마나 체류할 수 있나요?", "a": "관광 목적으로 최대 90일까지입니다." },
+        { "q": "이 입국으로 일하거나 공부할 수 있나요?", "a": "아니요. 무비자 입국은 관광과 단기 방문 목적에 한합니다. 취업이나 학업에는 적절한 비자가 필요합니다." },
+        { "q": "K-ETA는 언제 다시 시행되나요?", "a": "면제는 2026년 12월 31일에 종료될 예정이며, 연장되지 않는 한 K-ETA는 2027년 1월 1일에 다시 시행됩니다 — 여행 날짜가 가까워지면 다시 확인하세요." }
+      ]
+    },
+    "ui": { "visa": "비자", "stay": "체류", "entry": "입국", "where": "발급처", "official": "공식 정보원", "required": "필수", "conditional": "해당하는 경우", "recommended": "권장", "confirm": "요금·규정은 변경됩니다 — 공식 출처에서 확인하세요", "source": "출처", "updated": "업데이트", "tldr": "핵심 요약" }
+  },
+  "zh": {
+    "kicker": "入境指南 · 台湾 → 韩国",
+    "readingTime": "阅读时间 5 分钟",
+    "h1": "从台湾入境韩国指南",
+    "metaTitle": "从台湾到韩国：签证要求与入境指南（2026）— Korea Trip Hub",
+    "metaDesc": "从台湾前往韩国旅行需要签证吗？不需要 — 免签，且 K-ETA 在 2026 年前也予以豁免。填写免费的 e-Arrival Card 并按入境步骤办理。停留：最多 90 天。",
+    "verdict": {
+      "headline": "无需旅游签证 — 台湾护照免签。",
+      "sub": "短期旅游无需申请任何签证。目前 K-ETA 也已豁免，因此主要事项是在落地前填写免费的 e-Arrival Card。",
+      "type": "免签（K-ETA 目前豁免）",
+      "stay": "最多 90 天",
+      "entry": "短期旅游"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "无需签证，K-ETA 也豁免至 2026 年", "body": "台湾是 K-ETA 豁免的 22 个国家和地区之一，豁免期至 2026 年 12 月 31 日，因此短期旅游既无需签证也无需 K-ETA。该豁免预定到期，K-ETA 将于 2027 年 1 月 1 日恢复 — 出行前请再次确认。" },
+      { "icon": "📝", "tone": "blue", "title": "你仍需填写 e-Arrival Card", "body": "几乎所有访客都会在抵达前 72 小时内于 e-arrivalcard.go.kr 填写免费的 e-Arrival Card。（持有效 K-ETA 者可豁免，但目前 K-ETA 已豁免，因此你应填写 e-Arrival Card。）" }
+    ],
+    "tldr": [
+      "现在既无需旅游签证也无需 K-ETA — 台湾免签，且 K-ETA 豁免至 2026 年。",
+      "务必在抵达前 72 小时内于 e-arrivalcard.go.kr 填写免费的 e-Arrival Card。",
+      "携带在停留期间有效的护照，以及续程/返程行程证明。",
+      "你最多可停留 90 天。"
+    ],
+    "steps": {
+      "title": "你的入境步骤",
+      "items": [
+        { "n": 1, "title": "确认你免签", "detail": "台湾护照短期旅游可免签入境韩国，且 K-ETA 豁免至 2026 年 — 无需申请任何东西。" },
+        { "n": 2, "title": "填写 e-Arrival Card", "detail": "在抵达前 72 小时内，于 e-arrivalcard.go.kr 免费完成填写，并保存二维码/确认页。", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "检查护照与续程机票", "detail": "确保护照在停留期间有效，并备好返程/续程机票以及首个住宿地址。" },
+        { "n": 4, "title": "在入境检查时", "detail": "出示护照和 e-Arrival 确认页；可能会采集指纹和照片。请以旅游为目的 — 免签入境不得从事有偿工作。" }
+      ]
+    },
+    "documents": {
+      "title": "需要准备的材料",
+      "intro": "你无需提交签证申请 — 但请备好以下材料以便顺利入境。",
+      "cols": ["项目", "获取方式", "备注"],
+      "rows": [
+        { "doc": "护照", "req": "required", "where": "你已持有", "how": "在停留期间内有效。" },
+        { "doc": "e-Arrival Card 确认页", "req": "required", "where": "e-arrivalcard.go.kr", "how": "免费；在抵达前 72 小时内填写并保存二维码。", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "返程/续程机票", "req": "required", "where": "航空公司/旅行社", "how": "证明你会在允许停留期内离境。" },
+        { "doc": "住宿地址", "req": "required", "where": "预订网站", "how": "你的首个酒店/住宿地址（e-Arrival Card 会询问）。" },
+        { "doc": "旅行资金", "req": "recommended", "where": "本人", "how": "银行卡广泛受理；建议携带少量现金用于市场和小商贩。" }
+      ],
+      "legend": { "required": "必需", "conditional": "如适用", "recommended": "建议" }
+    },
+    "pitfalls": {
+      "title": "常见入境错误",
+      "items": [
+        { "icon": "🕸️", "t": "支付你无需缴纳的『签证/K-ETA 费用』", "d": "目前你既不需要签证也不需要 K-ETA。诈骗网站仍会收取此类费用 — 请忽略。" },
+        { "icon": "📝", "t": "漏填 e-Arrival Card", "d": "大多数访客必须填写（免费）。请在抵达前 72 小时内完成。" },
+        { "icon": "⏰", "t": "过早填写 e-Arrival Card", "d": "提交后 72 小时失效 — 请临近航班时填写，不要提前数周。" },
+        { "icon": "🗓️", "t": "超过允许停留期", "d": "停留超过最多 90 天可能面临罚款和未来入境禁令。" },
+        { "icon": "💼", "t": "以旅游身份入境却工作", "d": "免签入境仅限旅游/探访 — 有偿工作需要相应签证。" }
+      ]
+    },
+    "faq": {
+      "title": "台湾 → 韩国入境常见问题",
+      "items": [
+        { "q": "从台湾出发的旅客前往韩国需要签证吗？", "a": "不需要 — 短期旅游时台湾护照持有者可免签入境韩国。你无需申请任何旅游签证。" },
+        { "q": "我需要 K-ETA 吗？", "a": "目前不需要。台湾属于 K-ETA 豁免的 22 个国家和地区之一，豁免期至 2026 年 12 月 31 日。除非延长，该要求预定于 2027 年 1 月 1 日恢复。" },
+        { "q": "我仍需要 e-Arrival Card 吗？", "a": "需要 — 大多数访客会在抵达前 72 小时内于 e-arrivalcard.go.kr 填写免费的 e-Arrival Card。" },
+        { "q": "我可以停留多久？", "a": "旅游目的最多 90 天。" },
+        { "q": "我可以凭此入境工作或学习吗？", "a": "不可以。免签入境仅限旅游和短期探访；工作或学习需要相应的签证。" },
+        { "q": "K-ETA 何时恢复？", "a": "豁免预定于 2026 年 12 月 31 日结束，除非延长，K-ETA 将于 2027 年 1 月 1 日恢复 — 请在临近出行日期时再次确认。" }
+      ]
+    },
+    "ui": { "visa": "签证", "stay": "停留", "entry": "入境", "where": "获取方式", "official": "官方来源", "required": "必需", "conditional": "如适用", "recommended": "建议", "confirm": "费用/规则会变动 — 请以官方来源为准", "source": "来源", "updated": "更新", "tldr": "摘要" }
+  },
+  "zh-TW": {
+    "kicker": "入境指南 · 台灣 → 韓國",
+    "readingTime": "閱讀時間 5 分鐘",
+    "h1": "從台灣入境韓國指南",
+    "metaTitle": "從台灣到韓國：簽證規定與入境指南（2026）— Korea Trip Hub",
+    "metaDesc": "從台灣前往韓國旅遊需要簽證嗎？不需要 — 免簽，而且 K-ETA 在 2026 年底前也獲豁免。填寫免費的 e-Arrival Card 並依入境步驟辦理即可。停留：最多 90 天。",
+    "verdict": {
+      "headline": "免辦觀光簽證 — 台灣護照可免簽。",
+      "sub": "短期觀光不需要申請任何簽證。目前 K-ETA 也在豁免中，所以主要要做的就是在抵達前填寫免費的 e-Arrival Card。",
+      "type": "免簽（K-ETA 目前豁免）",
+      "stay": "最多 90 天",
+      "entry": "短期觀光"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "免簽證，K-ETA 也豁免至 2026 年", "body": "台灣是 K-ETA 豁免的 22 個國家和地區之一，豁免期至 2026 年 12 月 31 日，因此短期觀光既不用辦簽證，也不用申請 K-ETA。這項豁免預計會結束，K-ETA 將於 2027 年 1 月 1 日恢復 — 出發前請再次確認。" },
+      { "icon": "📝", "tone": "blue", "title": "你仍然需要填寫 e-Arrival Card", "body": "幾乎所有旅客都會在抵達前 72 小時內，於 e-arrivalcard.go.kr 填寫免費的 e-Arrival Card。（持有效 K-ETA 者可免填，但目前 K-ETA 已豁免，因此你應該填寫 e-Arrival Card。）" }
+    ],
+    "tldr": [
+      "現在觀光簽證和 K-ETA 都不需要 — 台灣免簽，且 K-ETA 豁免至 2026 年。",
+      "請務必在抵達前 72 小時內，於 e-arrivalcard.go.kr 填寫免費的 e-Arrival Card。",
+      "請攜帶在停留期間內有效的護照，以及回程/續程的行程證明。",
+      "你最多可以停留 90 天。"
+    ],
+    "steps": {
+      "title": "你的入境步驟",
+      "items": [
+        { "n": 1, "title": "確認你可以免簽", "detail": "台灣護照短期觀光可免簽入境韓國，而且 K-ETA 豁免至 2026 年 — 沒有任何東西需要申請。" },
+        { "n": 2, "title": "填寫 e-Arrival Card", "detail": "在抵達前 72 小時內，於 e-arrivalcard.go.kr 免費填寫完成，並保存 QR Code/確認頁面。", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "檢查護照與續程機票", "detail": "確認護照在停留期間內有效，並備妥回程/續程機票以及第一晚的住宿地址。" },
+        { "n": 4, "title": "在證照查驗時", "detail": "出示護照和 e-Arrival 確認頁面；可能會採集指紋和拍照。請以觀光為目的 — 免簽入境不得從事有薪工作。" }
+      ]
+    },
+    "documents": {
+      "title": "需要事先準備的東西",
+      "intro": "你不需要遞交簽證申請 — 但請備妥以下項目，以便順利入境。",
+      "cols": ["項目", "取得方式", "備註"],
+      "rows": [
+        { "doc": "護照", "req": "required", "where": "你已持有", "how": "在停留期間內有效。" },
+        { "doc": "e-Arrival Card 確認頁", "req": "required", "where": "e-arrivalcard.go.kr", "how": "免費；請在抵達前 72 小時內填寫並保存 QR Code。", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "回程/續程機票", "req": "required", "where": "航空公司/旅行社", "how": "證明你會在允許的停留期間內離境。" },
+        { "doc": "住宿地址", "req": "required", "where": "訂房網站", "how": "你第一晚的飯店/住宿地址（e-Arrival Card 會詢問）。" },
+        { "doc": "旅費", "req": "recommended", "where": "本人", "how": "刷卡相當普遍；建議帶些現金，以便在市場和小攤商消費。" }
+      ],
+      "legend": { "required": "必備", "conditional": "視情況而定", "recommended": "建議" }
+    },
+    "pitfalls": {
+      "title": "常見的入境錯誤",
+      "items": [
+        { "icon": "🕸️", "t": "支付你其實不用繳的『簽證/K-ETA 費用』", "d": "目前你既不需要簽證，也不需要 K-ETA。詐騙網站仍會收取這類費用 — 請別理會。" },
+        { "icon": "📝", "t": "漏填 e-Arrival Card", "d": "大多數旅客都必須填寫（免費）。請在抵達前 72 小時內完成。" },
+        { "icon": "⏰", "t": "太早填寫 e-Arrival Card", "d": "送出後 72 小時就會失效 — 請在接近航班時再填，不要提前好幾週。" },
+        { "icon": "🗓️", "t": "超過可停留天數", "d": "停留超過最多 90 天，可能面臨罰款以及日後入境的禁令。" },
+        { "icon": "💼", "t": "持觀光入境卻工作", "d": "免簽入境僅限觀光/探訪 — 有薪工作需要相應的簽證。" }
+      ]
+    },
+    "faq": {
+      "title": "台灣 → 韓國入境常見問題",
+      "items": [
+        { "q": "從台灣出發的旅客前往韓國需要簽證嗎？", "a": "不需要 — 短期觀光時，台灣護照持有人可免簽入境韓國。你不需要申請任何觀光簽證。" },
+        { "q": "我需要 K-ETA 嗎？", "a": "目前不需要。台灣屬於 K-ETA 豁免的 22 個國家和地區之一，豁免期至 2026 年 12 月 31 日。除非延長，這項規定預計於 2027 年 1 月 1 日恢復。" },
+        { "q": "我還是需要 e-Arrival Card 嗎？", "a": "需要 — 大多數旅客都會在抵達前 72 小時內，於 e-arrivalcard.go.kr 填寫免費的 e-Arrival Card。" },
+        { "q": "我可以停留多久？", "a": "以觀光目的最多 90 天。" },
+        { "q": "我可以憑這次入境工作或就學嗎？", "a": "不行。免簽入境僅限觀光和短期探訪；工作或就學需要相應的簽證。" },
+        { "q": "K-ETA 什麼時候恢復？", "a": "豁免預計於 2026 年 12 月 31 日結束，除非延長，K-ETA 將於 2027 年 1 月 1 日恢復 — 請在接近出發日期時再次確認。" }
+      ]
+    },
+    "ui": { "visa": "簽證", "stay": "停留", "entry": "入境", "where": "取得方式", "official": "官方資訊來源", "required": "必備", "conditional": "視情況而定", "recommended": "建議", "confirm": "費用/規定可能變動 — 請以官方來源為準", "source": "來源", "updated": "更新", "tldr": "重點摘要" }
+  },
+  "es": {
+    "kicker": "Guía de entrada · Taiwán → Corea",
+    "readingTime": "5 min de lectura",
+    "h1": "Guía de entrada a Corea desde Taiwán",
+    "metaTitle": "De Taiwán a Corea: requisitos de visado y guía de entrada (2026) — Korea Trip Hub",
+    "metaDesc": "¿Los viajeros de Taiwán necesitan visado para Corea del Sur? No — sin visado, con la K-ETA exenta hasta 2026. Rellena la e-Arrival Card gratuita y sigue los pasos de entrada. Estancia: hasta 90 días.",
+    "verdict": {
+      "headline": "No se necesita visado de turista — los pasaportes de Taiwán entran sin visado.",
+      "sub": "Para el turismo de corta duración no solicitas ningún visado. Ahora mismo la K-ETA también está exenta, así que lo principal es rellenar la e-Arrival Card gratuita antes de aterrizar.",
+      "type": "Sin visado (K-ETA exenta actualmente)",
+      "stay": "Hasta 90 días",
+      "entry": "Turismo de corta duración"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "Sin visado, y K-ETA exenta hasta 2026", "body": "Taiwán es uno de los 22 países exentos de la K-ETA hasta el 31 de diciembre de 2026, por lo que para el turismo de corta duración no solicitas ni visado ni K-ETA. Está previsto que la exención finalice y la K-ETA vuelva el 1 de enero de 2027 — vuelve a confirmarlo antes de viajar." },
+      { "icon": "📝", "tone": "blue", "title": "Aún necesitas la e-Arrival Card", "body": "Casi todos los visitantes rellenan la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas previas a la llegada. (Quienes tengan una K-ETA válida están exentos, pero al estar la K-ETA exenta conviene rellenar la e-Arrival Card.)" }
+    ],
+    "tldr": [
+      "Ahora mismo no se necesita ni visado de turista ni K-ETA — Taiwán entra sin visado y está exento de la K-ETA hasta 2026.",
+      "Rellena la e-Arrival Card gratuita en e-arrivalcard.go.kr dentro de las 72 horas previas a la llegada.",
+      "Lleva un pasaporte válido para toda tu estancia y una prueba de viaje de salida/regreso.",
+      "Puedes quedarte hasta 90 días."
+    ],
+    "steps": {
+      "title": "Tus pasos de entrada",
+      "items": [
+        { "n": 1, "title": "Confirma que no necesitas visado", "detail": "Los pasaportes de Taiwán entran en Corea sin visado para el turismo de corta duración, y la K-ETA está exenta hasta 2026 — no hay nada que solicitar." },
+        { "n": 2, "title": "Rellena la e-Arrival Card", "detail": "Dentro de las 72 horas previas a la llegada, complétala gratis en e-arrivalcard.go.kr y guarda el QR/confirmación.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "Revisa el pasaporte y el billete de salida", "detail": "Asegúrate de que tu pasaporte sea válido durante toda tu estancia y ten un billete de regreso/salida más la dirección de tu primer alojamiento." },
+        { "n": 4, "title": "En el control de inmigración", "detail": "Muestra tu pasaporte y la confirmación de la e-Arrival; pueden tomarte las huellas y una foto. Limítate al turismo — no se permite trabajo remunerado con la entrada sin visado." }
+      ]
+    },
+    "documents": {
+      "title": "Qué tener preparado",
+      "intro": "No presentas una solicitud de visado, pero ten esto listo para una entrada sin contratiempos.",
+      "cols": ["Elemento", "Dónde conseguirlo", "Notas"],
+      "rows": [
+        { "doc": "Pasaporte", "req": "required", "where": "Ya lo tienes", "how": "Válido durante toda tu estancia." },
+        { "doc": "Confirmación de la e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Gratis; rellénala dentro de las 72 horas previas a la llegada y guarda el QR.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "Billete de regreso/salida", "req": "required", "where": "Aerolínea / agencia de viajes", "how": "Prueba de que saldrás dentro de tu estancia permitida." },
+        { "doc": "Dirección de alojamiento", "req": "required", "where": "Sitios de reservas", "how": "La dirección de tu primer hotel/alojamiento (se pide en la e-Arrival Card)." },
+        { "doc": "Fondos para tu viaje", "req": "recommended", "where": "Tú", "how": "Las tarjetas se aceptan ampliamente; lleva algo de efectivo para mercados y pequeños comercios." }
+      ],
+      "legend": { "required": "Obligatorio", "conditional": "Si corresponde", "recommended": "Recomendado" }
+    },
+    "pitfalls": {
+      "title": "Errores comunes de entrada",
+      "items": [
+        { "icon": "🕸️", "t": "Pagar una 'tasa de visado/K-ETA' que no debes", "d": "Ahora mismo no necesitas ni visado ni K-ETA. Aun así, sitios fraudulentos cobran por ellos — ignóralos." },
+        { "icon": "📝", "t": "Saltarte la e-Arrival Card", "d": "La mayoría de los visitantes deben rellenarla (gratis). Hazlo dentro de las 72 horas previas a la llegada." },
+        { "icon": "⏰", "t": "Rellenar la e-Arrival Card demasiado pronto", "d": "Caduca 72 horas después de enviarla — rellénala cerca de tu vuelo, no semanas antes." },
+        { "icon": "🗓️", "t": "Superar tu estancia permitida", "d": "Quedarte más de hasta 90 días conlleva multas y posibles prohibiciones de entrada futuras." },
+        { "icon": "💼", "t": "Trabajar con una entrada de turista", "d": "La entrada sin visado es solo para turismo/visitas — el trabajo remunerado requiere un visado adecuado." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ de entrada Taiwán → Corea",
+      "items": [
+        { "q": "¿Los viajeros de Taiwán necesitan visado para Corea?", "a": "No — para el turismo de corta duración, los titulares de pasaporte de Taiwán entran en Corea sin visado. No solicitas ningún visado de turista." },
+        { "q": "¿Necesito la K-ETA?", "a": "Ahora mismo no. Taiwán está entre los 22 países exentos de la K-ETA hasta el 31 de diciembre de 2026. Está previsto que el requisito vuelva el 1 de enero de 2027, salvo que se prorrogue." },
+        { "q": "¿Aún necesito la e-Arrival Card?", "a": "Sí — la mayoría de los visitantes rellenan la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas previas a la llegada." },
+        { "q": "¿Cuánto tiempo puedo quedarme?", "a": "Hasta 90 días, por turismo." },
+        { "q": "¿Puedo trabajar o estudiar con esta entrada?", "a": "No. La entrada sin visado es solo para turismo y visitas cortas; trabajar o estudiar requiere el visado correspondiente." },
+        { "q": "¿Cuándo vuelve la K-ETA?", "a": "Está previsto que la exención finalice el 31 de diciembre de 2026 y que la K-ETA se reanude el 1 de enero de 2027, salvo prórroga — vuelve a confirmarlo cerca de tu fecha de viaje." }
+      ]
+    },
+    "ui": { "visa": "Visado", "stay": "Estancia", "entry": "Entrada", "where": "Dónde", "official": "Fuentes oficiales", "required": "Obligatorio", "conditional": "Si corresponde", "recommended": "Recomendado", "confirm": "Las tasas/normas cambian — confírmalo en la fuente", "source": "Fuente", "updated": "Actualizado", "tldr": "En resumen" }
+  }
+}

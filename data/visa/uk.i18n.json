@@ -1,0 +1,343 @@
+{
+  "_README": "Per-locale translation overrides for uk.json. Machine-translated — native review recommended.",
+  "ja": {
+    "kicker": "入国ガイド · イギリス → 韓国",
+    "readingTime": "5分で読めます",
+    "h1": "イギリスからの韓国入国ガイド",
+    "metaTitle": "イギリスから韓国へ：ビザ要件と入国ガイド（2026）— Korea Trip Hub",
+    "metaDesc": "イギリスからの旅行者は韓国のビザが必要ですか？いいえ — ビザ不要で、2026年までK-ETAも免除されています。無料のe-Arrival Cardを提出し、入国手順に従ってください。滞在：最大90日。",
+    "verdict": {
+      "headline": "観光ビザは不要 — イギリスのパスポートはビザ免除です。",
+      "sub": "短期観光ではいかなるビザも申請しません。現在はK-ETAも免除されているため、着陸前に無料のe-Arrival Cardを提出することが主なポイントです。",
+      "type": "ビザ免除（現在K-ETA免除中）",
+      "stay": "最大90日",
+      "entry": "短期観光"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "ビザ不要、さらに2026年までK-ETA免除", "body": "イギリスは31 Dec 2026までK-ETAが免除される22か国の一つで、短期観光ではビザもK-ETAも申請しません。免除は終了予定で、K-ETAは1 Jan 2027に復活します — 渡航前に再確認してください。" },
+      { "icon": "📝", "tone": "blue", "title": "それでもe-Arrival Cardは必要です", "body": "ほぼすべての訪問者は、到着の72時間前以内にe-arrivalcard.go.krで無料のe-Arrival Cardを提出します。（有効なK-ETA保持者は免除されますが、K-ETAが免除されている今はe-Arrival Cardを提出してください。）" }
+    ],
+    "tldr": [
+      "今は観光ビザもK-ETAも不要です — イギリスは2026年までビザ免除かつK-ETA免除対象です。",
+      "到着の72時間以内に、e-arrivalcard.go.krで無料のe-Arrival Cardを必ず提出してください。",
+      "滞在期間中有効なパスポートと、出国/往復の旅程を証明できるものを持参してください。",
+      "最大90日滞在できます。"
+    ],
+    "steps": {
+      "title": "入国の手順",
+      "items": [
+        { "n": 1, "title": "ビザ免除を確認", "detail": "イギリスのパスポートは短期観光で韓国にビザ免除で入国でき、K-ETAは2026年まで免除されています — 申請するものはありません。" },
+        { "n": 2, "title": "e-Arrival Cardを提出", "detail": "到着の72時間前以内に、e-arrivalcard.go.krで無料で記入し、QR/確認書を保存してください。", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "パスポートと出国チケットを確認", "detail": "パスポートが滞在期間中有効であることを確認し、往復/出国チケットと最初の宿泊先の住所を用意してください。" },
+        { "n": 4, "title": "入国審査で", "detail": "パスポートとe-Arrivalの確認書を提示してください。指紋と写真が撮られる場合があります。観光目的を守ってください — ビザ免除入国では有給労働は不可。" }
+      ]
+    },
+    "documents": {
+      "title": "準備しておくもの",
+      "intro": "ビザ申請は提出しませんが、スムーズな入国のために以下を用意してください。",
+      "cols": ["項目", "入手先", "備考"],
+      "rows": [
+        { "doc": "パスポート", "req": "required", "where": "お手持ちのもの", "how": "滞在期間中有効であること。" },
+        { "doc": "e-Arrival Cardの確認書", "req": "required", "where": "e-arrivalcard.go.kr", "how": "無料；到着の72時間前以内に提出し、QRを保存してください。", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "往復/出国チケット", "req": "required", "where": "航空会社/旅行代理店", "how": "許可された滞在期間内に出国することの証明。" },
+        { "doc": "宿泊先の住所", "req": "required", "where": "予約サイト", "how": "最初のホテル/宿泊先の住所（e-Arrival Cardで尋ねられます）。" },
+        { "doc": "旅行の資金", "req": "recommended", "where": "ご本人", "how": "カードは広く使えますが、市場や小規模店舗のために現金も少し持参してください。" }
+      ],
+      "legend": { "required": "必須", "conditional": "該当する場合", "recommended": "推奨" }
+    },
+    "pitfalls": {
+      "title": "よくある入国の間違い",
+      "items": [
+        { "icon": "🕸️", "t": "支払う必要のない『ビザ/K-ETA手数料』を支払う", "d": "今はビザもK-ETAも必要ありません。詐欺サイトは今でもこれらを請求します — 無視してください。" },
+        { "icon": "📝", "t": "e-Arrival Cardを省略する", "d": "ほとんどの訪問者は提出が必要です（無料）。到着の72時間以内に行ってください。" },
+        { "icon": "⏰", "t": "e-Arrival Cardを早く提出しすぎる", "d": "提出後72時間で失効します — 何週間も前ではなく、フライトに近いタイミングで提出してください。" },
+        { "icon": "🗓️", "t": "許可期間を超えて滞在する", "d": "最大90日を超えて滞在すると、罰金や今後の入国禁止のリスクがあります。" },
+        { "icon": "💼", "t": "観光入国で働く", "d": "ビザ免除入国は観光/訪問目的のみです — 有給労働には適切なビザが必要です。" }
+      ]
+    },
+    "faq": {
+      "title": "イギリス → 韓国 入国FAQ",
+      "items": [
+        { "q": "イギリスからの旅行者は韓国のビザが必要ですか？", "a": "いいえ — 短期観光の場合、イギリスのパスポート保持者はビザ免除で韓国に入国します。観光ビザは一切申請しません。" },
+        { "q": "K-ETAは必要ですか？", "a": "今は不要です。イギリスは31 Dec 2026までK-ETAが免除される22か国に含まれます。この要件は延長されない限り1 Jan 2027に復活する予定です。" },
+        { "q": "それでもe-Arrival Cardは必要ですか？", "a": "はい — ほとんどの訪問者は到着の72時間前以内にe-arrivalcard.go.krで無料のe-Arrival Cardを提出します。" },
+        { "q": "どのくらい滞在できますか？", "a": "観光目的で最大90日です。" },
+        { "q": "この入国で働いたり勉強したりできますか？", "a": "いいえ。ビザ免除入国は観光と短期訪問のみです。就労や就学には適切なビザが必要です。" },
+        { "q": "K-ETAはいつ復活しますか？", "a": "免除は31 Dec 2026に終了予定で、延長されない限りK-ETAは1 Jan 2027に再開されます — 渡航日が近づいたら再確認してください。" }
+      ]
+    },
+    "ui": { "visa": "ビザ", "stay": "滞在", "entry": "入国", "where": "入手先", "official": "公式情報源", "required": "必須", "conditional": "該当する場合", "recommended": "推奨", "confirm": "料金・規則は変わります — 公式情報源で確認してください", "source": "出典", "updated": "更新日", "tldr": "要点" }
+  },
+  "ko": {
+    "kicker": "입국 가이드 · 영국 → 한국",
+    "readingTime": "5분 분량",
+    "h1": "영국에서 한국 입국 가이드",
+    "metaTitle": "영국에서 한국으로: 비자 요건 및 입국 가이드 (2026) — Korea Trip Hub",
+    "metaDesc": "영국 여행자는 한국에 비자가 필요할까요? 아니요 — 무비자이며, 2026년까지 K-ETA도 면제됩니다. 무료 e-Arrival Card를 제출하고 입국 절차를 따르세요. 체류: 최대 90일.",
+    "verdict": {
+      "headline": "관광 비자 불필요 — 영국 여권은 무비자입니다.",
+      "sub": "단기 관광은 어떤 비자도 신청하지 않습니다. 현재 K-ETA도 면제되므로, 착륙 전에 무료 e-Arrival Card를 제출하는 것이 핵심입니다.",
+      "type": "무비자 (현재 K-ETA 면제)",
+      "stay": "최대 90일",
+      "entry": "단기 관광"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "무비자, 그리고 2026년까지 K-ETA 면제", "body": "영국은 31 Dec 2026까지 K-ETA가 면제되는 22개국 중 하나로, 단기 관광에는 비자도 K-ETA도 신청하지 않습니다. 면제는 종료 예정이며 K-ETA는 1 Jan 2027에 다시 시행됩니다 — 여행 전에 재확인하세요." },
+      { "icon": "📝", "tone": "blue", "title": "그래도 e-Arrival Card는 필요합니다", "body": "거의 모든 방문객은 도착 72시간 전 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 제출합니다. (유효한 K-ETA 소지자는 면제되지만, K-ETA가 면제된 지금은 e-Arrival Card를 제출해야 합니다.)" }
+    ],
+    "tldr": [
+      "지금은 관광 비자도 K-ETA도 필요 없습니다 — 영국은 2026년까지 무비자이며 K-ETA 면제 대상입니다.",
+      "도착 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 꼭 제출하세요.",
+      "체류 기간 동안 유효한 여권과 출국/왕복 항공권 증빙을 지참하세요.",
+      "최대 90일 체류할 수 있습니다."
+    ],
+    "steps": {
+      "title": "입국 절차",
+      "items": [
+        { "n": 1, "title": "무비자 여부 확인", "detail": "영국 여권은 단기 관광으로 무비자 입국하며, K-ETA는 2026년까지 면제됩니다 — 신청할 것이 없습니다." },
+        { "n": 2, "title": "e-Arrival Card 제출", "detail": "도착 72시간 전 이내에 e-arrivalcard.go.kr에서 무료로 작성하고 QR/확인서를 저장하세요.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "여권 및 출국 항공권 확인", "detail": "여권이 체류 기간 동안 유효한지 확인하고, 왕복/출국 항공권과 첫 숙소 주소를 준비하세요." },
+        { "n": 4, "title": "입국 심사에서", "detail": "여권과 e-Arrival 확인서를 제시하세요; 지문과 사진을 채취할 수 있습니다. 관광 목적을 유지하세요 — 무비자 입국으로는 유급 근로 금지." }
+      ]
+    },
+    "documents": {
+      "title": "준비할 서류",
+      "intro": "비자 신청서를 제출하지는 않지만, 원활한 입국을 위해 다음을 준비하세요.",
+      "cols": ["항목", "발급처", "비고"],
+      "rows": [
+        { "doc": "여권", "req": "required", "where": "이미 소지", "how": "체류 기간 동안 유효할 것." },
+        { "doc": "e-Arrival Card 확인서", "req": "required", "where": "e-arrivalcard.go.kr", "how": "무료; 도착 72시간 전 이내에 제출하고 QR을 저장하세요.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "왕복/출국 항공권", "req": "required", "where": "항공사/여행사", "how": "허용된 체류 기간 내에 출국한다는 증빙." },
+        { "doc": "숙소 주소", "req": "required", "where": "예약 사이트", "how": "첫 호텔/숙소 주소 (e-Arrival Card에서 요청됨)." },
+        { "doc": "여행 경비", "req": "recommended", "where": "본인", "how": "카드는 널리 사용되며, 시장과 소상공인을 위해 약간의 현금을 지참하세요." }
+      ],
+      "legend": { "required": "필수", "conditional": "해당 시", "recommended": "권장" }
+    },
+    "pitfalls": {
+      "title": "흔한 입국 실수",
+      "items": [
+        { "icon": "🕸️", "t": "내지 않아도 되는 '비자/K-ETA 수수료' 지불", "d": "지금은 비자도 K-ETA도 필요 없습니다. 사기 사이트는 여전히 이를 청구합니다 — 무시하세요." },
+        { "icon": "📝", "t": "e-Arrival Card 건너뛰기", "d": "대부분의 방문객은 이를 제출해야 합니다 (무료). 도착 72시간 이내에 하세요." },
+        { "icon": "⏰", "t": "e-Arrival Card 너무 일찍 제출", "d": "제출 후 72시간이 지나면 만료됩니다 — 몇 주 전이 아니라 항공편에 가깝게 제출하세요." },
+        { "icon": "🗓️", "t": "허용 기간 초과 체류", "d": "최대 90일을 넘겨 체류하면 벌금과 향후 입국 금지 위험이 있습니다." },
+        { "icon": "💼", "t": "관광 입국으로 근로", "d": "무비자 입국은 관광/방문 목적만 해당됩니다 — 유급 근로에는 적절한 비자가 필요합니다." }
+      ]
+    },
+    "faq": {
+      "title": "영국 → 한국 입국 FAQ",
+      "items": [
+        { "q": "영국 여행자는 한국에 비자가 필요한가요?", "a": "아니요 — 단기 관광의 경우 영국 여권 소지자는 무비자로 한국에 입국합니다. 어떤 관광 비자도 신청하지 않습니다." },
+        { "q": "K-ETA가 필요한가요?", "a": "지금은 아닙니다. 영국은 31 Dec 2026까지 K-ETA가 면제되는 22개국에 포함됩니다. 이 요건은 연장되지 않는 한 1 Jan 2027에 다시 시행될 예정입니다." },
+        { "q": "그래도 e-Arrival Card가 필요한가요?", "a": "네 — 대부분의 방문객은 도착 72시간 전 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 제출합니다." },
+        { "q": "얼마나 오래 머물 수 있나요?", "a": "관광 목적으로 최대 90일." },
+        { "q": "이 입국으로 일하거나 공부할 수 있나요?", "a": "아니요. 무비자 입국은 관광과 단기 방문만 해당됩니다; 근로나 학업에는 적절한 비자가 필요합니다." },
+        { "q": "K-ETA는 언제 다시 시행되나요?", "a": "면제는 31 Dec 2026에 종료 예정이며, 연장되지 않는 한 K-ETA가 1 Jan 2027에 재개됩니다 — 여행 날짜에 가깝게 재확인하세요." }
+      ]
+    },
+    "ui": { "visa": "비자", "stay": "체류", "entry": "입국", "where": "발급처", "official": "공식 출처", "required": "필수", "conditional": "해당 시", "recommended": "권장", "confirm": "수수료·규정은 변경됩니다 — 공식 출처에서 확인하세요", "source": "출처", "updated": "업데이트", "tldr": "핵심 요약" }
+  },
+  "zh": {
+    "kicker": "入境指南 · 英国 → 韩国",
+    "readingTime": "阅读时间 5 分钟",
+    "h1": "从英国入境韩国指南",
+    "metaTitle": "从英国到韩国：签证要求与入境指南（2026）— Korea Trip Hub",
+    "metaDesc": "英国旅客前往韩国需要签证吗？不需要 — 免签，且 K-ETA 在 2026 年前也予以豁免。请提交免费的 e-Arrival Card 并遵循入境步骤。停留：最多 90 天。",
+    "verdict": {
+      "headline": "无需旅游签证 — 英国护照免签。",
+      "sub": "短期旅游无需申请任何签证。目前 K-ETA 也已豁免，因此主要任务是在着陆前提交免费的 e-Arrival Card。",
+      "type": "免签（目前 K-ETA 豁免）",
+      "stay": "最多 90 天",
+      "entry": "短期旅游"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "无需签证，且 K-ETA 豁免至 2026 年", "body": "英国是在 31 Dec 2026 前免除 K-ETA 的 22 个国家之一，因此短期旅游既不申请签证也不申请 K-ETA。该豁免预定结束，K-ETA 将于 1 Jan 2027 恢复 — 出行前请再次确认。" },
+      { "icon": "📝", "tone": "blue", "title": "您仍需 e-Arrival Card", "body": "几乎每位访客都会在到达前 72 小时内在 e-arrivalcard.go.kr 提交免费的 e-Arrival Card。（持有有效 K-ETA 者可豁免，但在 K-ETA 豁免期间您应提交 e-Arrival Card。）" }
+    ],
+    "tldr": [
+      "目前无需旅游签证也无需 K-ETA — 英国在 2026 年前免签且免除 K-ETA。",
+      "请务必在到达前 72 小时内在 e-arrivalcard.go.kr 提交免费的 e-Arrival Card。",
+      "携带在停留期间有效的护照以及后续/回程行程证明。",
+      "您最多可停留 90 天。"
+    ],
+    "steps": {
+      "title": "您的入境步骤",
+      "items": [
+        { "n": 1, "title": "确认您可免签", "detail": "英国护照可免签入境韩国进行短期旅游，且 K-ETA 豁免至 2026 年 — 无需申请任何东西。" },
+        { "n": 2, "title": "提交 e-Arrival Card", "detail": "在到达前 72 小时内，在 e-arrivalcard.go.kr 免费填写并保存二维码/确认信息。", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "检查护照与后续机票", "detail": "确保护照在停留期间有效，并备好回程/后续机票以及首个住宿地址。" },
+        { "n": 4, "title": "在入境处", "detail": "出示护照和 e-Arrival 确认信息；可能会采集指纹和照片。请保持旅游目的 — 免签入境不得从事有偿工作。" }
+      ]
+    },
+    "documents": {
+      "title": "需准备的材料",
+      "intro": "您无需提交签证申请 — 但请备好以下材料以顺利入境。",
+      "cols": ["项目", "获取方式", "备注"],
+      "rows": [
+        { "doc": "护照", "req": "required", "where": "您已持有", "how": "在整个停留期间有效。" },
+        { "doc": "e-Arrival Card 确认信息", "req": "required", "where": "e-arrivalcard.go.kr", "how": "免费；在到达前 72 小时内提交并保存二维码。", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "回程/后续机票", "req": "required", "where": "航空公司/旅行社", "how": "证明您将在允许的停留期内离境。" },
+        { "doc": "住宿地址", "req": "required", "where": "预订网站", "how": "您首个酒店/住宿地址（e-Arrival Card 中会询问）。" },
+        { "doc": "旅行资金", "req": "recommended", "where": "您本人", "how": "刷卡广泛通用；请携带一些现金用于市场和小商贩。" }
+      ],
+      "legend": { "required": "必需", "conditional": "如适用", "recommended": "推荐" }
+    },
+    "pitfalls": {
+      "title": "常见入境错误",
+      "items": [
+        { "icon": "🕸️", "t": "支付您本不欠的『签证/K-ETA 费用』", "d": "目前您既不需要签证也不需要 K-ETA。诈骗网站仍会收取这些费用 — 请忽略它们。" },
+        { "icon": "📝", "t": "跳过 e-Arrival Card", "d": "大多数访客必须提交（免费）。请在到达前 72 小时内完成。" },
+        { "icon": "⏰", "t": "过早提交 e-Arrival Card", "d": "提交后 72 小时失效 — 请在临近航班时提交，而非提前数周。" },
+        { "icon": "🗓️", "t": "超期停留", "d": "停留超过 90 天可能面临罚款和未来入境禁令。" },
+        { "icon": "💼", "t": "以旅游身份入境工作", "d": "免签入境仅供旅游/探访 — 有偿工作需要相应签证。" }
+      ]
+    },
+    "faq": {
+      "title": "英国 → 韩国 入境常见问题",
+      "items": [
+        { "q": "英国旅客前往韩国需要签证吗？", "a": "不需要 — 短期旅游时，英国护照持有者可免签入境韩国。您无需申请任何旅游签证。" },
+        { "q": "我需要 K-ETA 吗？", "a": "目前不需要。英国属于在 31 Dec 2026 前免除 K-ETA 的 22 个国家之一。除非延长，否则该要求预定于 1 Jan 2027 恢复。" },
+        { "q": "我仍需要 e-Arrival Card 吗？", "a": "需要 — 大多数访客会在到达前 72 小时内在 e-arrivalcard.go.kr 提交免费的 e-Arrival Card。" },
+        { "q": "我可以停留多久？", "a": "旅游目的最多 90 天。" },
+        { "q": "我可以凭此入境工作或学习吗？", "a": "不可以。免签入境仅供旅游和短期探访；工作或学习需要相应的签证。" },
+        { "q": "K-ETA 何时恢复？", "a": "豁免预定于 31 Dec 2026 结束，除非延长，否则 K-ETA 将于 1 Jan 2027 恢复 — 请在临近出行日期时再次确认。" }
+      ]
+    },
+    "ui": { "visa": "签证", "stay": "停留", "entry": "入境", "where": "获取方式", "official": "官方来源", "required": "必需", "conditional": "如适用", "recommended": "推荐", "confirm": "费用/规则会变动 — 请在官方来源确认", "source": "来源", "updated": "更新时间", "tldr": "要点" }
+  },
+  "zh-TW": {
+    "kicker": "入境指南 · 英國 → 韓國",
+    "readingTime": "閱讀時間 5 分鐘",
+    "h1": "從英國入境韓國指南",
+    "metaTitle": "從英國到韓國：簽證要求與入境指南（2026）— Korea Trip Hub",
+    "metaDesc": "英國旅客前往韓國需要簽證嗎？不需要 — 免簽，且 K-ETA 在 2026 年前也予以豁免。請提交免費的 e-Arrival Card 並遵循入境步驟。停留：最多 90 天。",
+    "verdict": {
+      "headline": "無需旅遊簽證 — 英國護照免簽。",
+      "sub": "短期旅遊無需申請任何簽證。目前 K-ETA 也已豁免，因此主要任務是在降落前提交免費的 e-Arrival Card。",
+      "type": "免簽（目前 K-ETA 豁免）",
+      "stay": "最多 90 天",
+      "entry": "短期旅遊"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "無需簽證，且 K-ETA 豁免至 2026 年", "body": "英國是在 31 Dec 2026 前免除 K-ETA 的 22 個國家之一，因此短期旅遊既不申請簽證也不申請 K-ETA。該豁免預定結束，K-ETA 將於 1 Jan 2027 恢復 — 出行前請再次確認。" },
+      { "icon": "📝", "tone": "blue", "title": "您仍需 e-Arrival Card", "body": "幾乎每位訪客都會在抵達前 72 小時內於 e-arrivalcard.go.kr 提交免費的 e-Arrival Card。（持有有效 K-ETA 者可豁免，但在 K-ETA 豁免期間您應提交 e-Arrival Card。）" }
+    ],
+    "tldr": [
+      "目前無需旅遊簽證也無需 K-ETA — 英國在 2026 年前免簽且免除 K-ETA。",
+      "請務必在抵達前 72 小時內於 e-arrivalcard.go.kr 提交免費的 e-Arrival Card。",
+      "攜帶在停留期間有效的護照以及後續/回程行程證明。",
+      "您最多可停留 90 天。"
+    ],
+    "steps": {
+      "title": "您的入境步驟",
+      "items": [
+        { "n": 1, "title": "確認您可免簽", "detail": "英國護照可免簽入境韓國進行短期旅遊，且 K-ETA 豁免至 2026 年 — 無需申請任何東西。" },
+        { "n": 2, "title": "提交 e-Arrival Card", "detail": "在抵達前 72 小時內，於 e-arrivalcard.go.kr 免費填寫並儲存 QR code/確認資訊。", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "檢查護照與後續機票", "detail": "確保護照在停留期間有效，並備妥回程/後續機票以及首個住宿地址。" },
+        { "n": 4, "title": "在入境處", "detail": "出示護照和 e-Arrival 確認資訊；可能會採集指紋和照片。請保持旅遊目的 — 免簽入境不得從事有償工作。" }
+      ]
+    },
+    "documents": {
+      "title": "需準備的資料",
+      "intro": "您無需提交簽證申請 — 但請備妥以下資料以順利入境。",
+      "cols": ["項目", "取得方式", "備註"],
+      "rows": [
+        { "doc": "護照", "req": "required", "where": "您已持有", "how": "在整個停留期間有效。" },
+        { "doc": "e-Arrival Card 確認資訊", "req": "required", "where": "e-arrivalcard.go.kr", "how": "免費；在抵達前 72 小時內提交並儲存 QR code。", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "回程/後續機票", "req": "required", "where": "航空公司/旅行社", "how": "證明您將在允許的停留期內離境。" },
+        { "doc": "住宿地址", "req": "required", "where": "訂房網站", "how": "您首個飯店/住宿地址（e-Arrival Card 中會詢問）。" },
+        { "doc": "旅行資金", "req": "recommended", "where": "您本人", "how": "刷卡廣泛通用；請攜帶一些現金用於市場和小商販。" }
+      ],
+      "legend": { "required": "必需", "conditional": "如適用", "recommended": "建議" }
+    },
+    "pitfalls": {
+      "title": "常見入境錯誤",
+      "items": [
+        { "icon": "🕸️", "t": "支付您本不需支付的『簽證/K-ETA 費用』", "d": "目前您既不需要簽證也不需要 K-ETA。詐騙網站仍會收取這些費用 — 請忽略它們。" },
+        { "icon": "📝", "t": "略過 e-Arrival Card", "d": "大多數訪客必須提交（免費）。請在抵達前 72 小時內完成。" },
+        { "icon": "⏰", "t": "太早提交 e-Arrival Card", "d": "提交後 72 小時失效 — 請在臨近航班時提交，而非提前數週。" },
+        { "icon": "🗓️", "t": "逾期停留", "d": "停留超過 90 天可能面臨罰款和未來入境禁令。" },
+        { "icon": "💼", "t": "以旅遊身分入境工作", "d": "免簽入境僅供旅遊/探訪 — 有償工作需要相應簽證。" }
+      ]
+    },
+    "faq": {
+      "title": "英國 → 韓國 入境常見問題",
+      "items": [
+        { "q": "英國旅客前往韓國需要簽證嗎？", "a": "不需要 — 短期旅遊時，英國護照持有者可免簽入境韓國。您無需申請任何旅遊簽證。" },
+        { "q": "我需要 K-ETA 嗎？", "a": "目前不需要。英國屬於在 31 Dec 2026 前免除 K-ETA 的 22 個國家之一。除非延長，否則該要求預定於 1 Jan 2027 恢復。" },
+        { "q": "我仍需要 e-Arrival Card 嗎？", "a": "需要 — 大多數訪客會在抵達前 72 小時內於 e-arrivalcard.go.kr 提交免費的 e-Arrival Card。" },
+        { "q": "我可以停留多久？", "a": "旅遊目的最多 90 天。" },
+        { "q": "我可以憑此入境工作或就學嗎？", "a": "不可以。免簽入境僅供旅遊和短期探訪；工作或就學需要相應的簽證。" },
+        { "q": "K-ETA 何時恢復？", "a": "豁免預定於 31 Dec 2026 結束，除非延長，否則 K-ETA 將於 1 Jan 2027 恢復 — 請在臨近出行日期時再次確認。" }
+      ]
+    },
+    "ui": { "visa": "簽證", "stay": "停留", "entry": "入境", "where": "取得方式", "official": "官方來源", "required": "必需", "conditional": "如適用", "recommended": "建議", "confirm": "費用/規則會變動 — 請在官方來源確認", "source": "來源", "updated": "更新時間", "tldr": "重點摘要" }
+  },
+  "es": {
+    "kicker": "Guía de entrada · el Reino Unido → Corea",
+    "readingTime": "5 min de lectura",
+    "h1": "Guía de entrada a Corea desde el Reino Unido",
+    "metaTitle": "Del Reino Unido a Corea: requisitos de visado y guía de entrada (2026) — Korea Trip Hub",
+    "metaDesc": "¿Los viajeros del Reino Unido necesitan visado para Corea del Sur? No — sin visado, con la K-ETA exenta hasta 2026. Presenta la e-Arrival Card gratuita y sigue los pasos de entrada. Estancia: hasta 90 días.",
+    "verdict": {
+      "headline": "No necesitas visado de turista — los pasaportes del Reino Unido no requieren visado.",
+      "sub": "Para el turismo de corta estancia no solicitas ningún visado. Ahora mismo la K-ETA también está exenta, así que lo principal es presentar la e-Arrival Card gratuita antes de aterrizar.",
+      "type": "Sin visado (K-ETA actualmente exenta)",
+      "stay": "Hasta 90 días",
+      "entry": "Turismo de corta estancia"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "Sin visado, y K-ETA exenta hasta 2026", "body": "el Reino Unido es uno de los 22 países exentos de la K-ETA hasta el 31 Dec 2026, así que no solicitas ni visado ni K-ETA para el turismo de corta estancia. La exención tiene previsto finalizar y la K-ETA vuelve el 1 Jan 2027 — vuelve a confirmarlo antes de viajar." },
+      { "icon": "📝", "tone": "blue", "title": "Aún necesitas la e-Arrival Card", "body": "Casi todos los visitantes presentan la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas previas a la llegada. (Los titulares de una K-ETA válida están exentos, pero con la K-ETA exenta deberías presentar la e-Arrival Card.)" }
+    ],
+    "tldr": [
+      "Ahora mismo no necesitas visado de turista ni K-ETA — el Reino Unido no requiere visado y está exento de la K-ETA hasta 2026.",
+      "Sí debes presentar la e-Arrival Card gratuita en e-arrivalcard.go.kr dentro de las 72 horas previas a la llegada.",
+      "Lleva un pasaporte válido para tu estancia y un comprobante de viaje de salida/regreso.",
+      "Puedes quedarte hasta 90 días."
+    ],
+    "steps": {
+      "title": "Tus pasos de entrada",
+      "items": [
+        { "n": 1, "title": "Confirma que no necesitas visado", "detail": "Los pasaportes del Reino Unido entran en Corea sin visado para turismo de corta estancia, y la K-ETA está exenta hasta 2026 — no hay nada que solicitar." },
+        { "n": 2, "title": "Presenta la e-Arrival Card", "detail": "Dentro de las 72 horas previas a la llegada, complétala gratis en e-arrivalcard.go.kr y guarda el QR/confirmación.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "Revisa el pasaporte y el billete de salida", "detail": "Asegúrate de que tu pasaporte sea válido durante tu estancia y ten un billete de regreso/salida más la dirección de tu primer alojamiento." },
+        { "n": 4, "title": "En inmigración", "detail": "Muestra tu pasaporte y la confirmación de la e-Arrival; pueden tomarte las huellas y una foto. Mantén el propósito turístico — no se permite trabajo remunerado en la entrada sin visado." }
+      ]
+    },
+    "documents": {
+      "title": "Qué tener listo",
+      "intro": "No presentas una solicitud de visado, pero ten esto listo para una entrada sin contratiempos.",
+      "cols": ["Elemento", "Dónde conseguirlo", "Notas"],
+      "rows": [
+        { "doc": "Pasaporte", "req": "required", "where": "Ya lo tienes", "how": "Válido durante toda tu estancia." },
+        { "doc": "Confirmación de la e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Gratis; preséntala dentro de las 72 horas previas a la llegada y guarda el QR.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "Billete de regreso/salida", "req": "required", "where": "Aerolínea/agencia de viajes", "how": "Prueba de que saldrás dentro de tu estancia permitida." },
+        { "doc": "Dirección de alojamiento", "req": "required", "where": "Sitios de reserva", "how": "La dirección de tu primer hotel/alojamiento (se pide en la e-Arrival Card)." },
+        { "doc": "Fondos para tu viaje", "req": "recommended", "where": "Tú", "how": "Las tarjetas se aceptan ampliamente; lleva algo de efectivo para mercados y pequeños comercios." }
+      ],
+      "legend": { "required": "Obligatorio", "conditional": "Si aplica", "recommended": "Recomendado" }
+    },
+    "pitfalls": {
+      "title": "Errores comunes de entrada",
+      "items": [
+        { "icon": "🕸️", "t": "Pagar una 'tasa de visado/K-ETA' que no debes", "d": "Ahora mismo no necesitas ni visado ni K-ETA. Las webs fraudulentas siguen cobrándolos — ignóralas." },
+        { "icon": "📝", "t": "Saltarte la e-Arrival Card", "d": "La mayoría de los visitantes deben presentarla (gratis). Hazlo dentro de las 72 horas previas a la llegada." },
+        { "icon": "⏰", "t": "Presentar la e-Arrival Card demasiado pronto", "d": "Caduca 72 horas después de enviarla — preséntala cerca de tu vuelo, no semanas antes." },
+        { "icon": "🗓️", "t": "Exceder tu estancia permitida", "d": "Quedarte más de 90 días arriesga multas y prohibiciones de entrada futuras." },
+        { "icon": "💼", "t": "Trabajar con una entrada de turista", "d": "La entrada sin visado es solo para turismo/visitas — el trabajo remunerado requiere un visado adecuado." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ de entrada el Reino Unido → Corea",
+      "items": [
+        { "q": "¿Los viajeros del Reino Unido necesitan visado para Corea?", "a": "No — para turismo de corta estancia, los titulares de pasaporte del Reino Unido entran en Corea sin visado. No solicitas ningún visado de turista." },
+        { "q": "¿Necesito la K-ETA?", "a": "Ahora mismo no. el Reino Unido está entre los 22 países exentos de la K-ETA hasta el 31 Dec 2026. El requisito tiene previsto volver el 1 Jan 2027 salvo que se prorrogue." },
+        { "q": "¿Aún necesito la e-Arrival Card?", "a": "Sí — la mayoría de los visitantes presentan la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas previas a la llegada." },
+        { "q": "¿Cuánto tiempo puedo quedarme?", "a": "Hasta 90 días, para turismo." },
+        { "q": "¿Puedo trabajar o estudiar con esta entrada?", "a": "No. La entrada sin visado es solo para turismo y visitas cortas; trabajar o estudiar requiere el visado correspondiente." },
+        { "q": "¿Cuándo vuelve la K-ETA?", "a": "La exención tiene previsto finalizar el 31 Dec 2026, y la K-ETA se reanuda el 1 Jan 2027 salvo que se prorrogue — vuelve a confirmarlo cerca de tu fecha de viaje." }
+      ]
+    },
+    "ui": { "visa": "Visado", "stay": "Estancia", "entry": "Entrada", "where": "Dónde", "official": "Fuentes oficiales", "required": "Obligatorio", "conditional": "Si aplica", "recommended": "Recomendado", "confirm": "Las tasas/normas cambian — confírmalo en la fuente", "source": "Fuente", "updated": "Actualizado", "tldr": "En resumen" }
+  }
+}
