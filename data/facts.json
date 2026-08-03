@@ -146,6 +146,46 @@
       "notes": "Third-party figure. Varies by train and seat class. Confirm the real fare at letskorail.com."
     },
     {
+      "id": "transit-subway-seoul",
+      "tier": "VOLATILE",
+      "claim": "Seoul subway base fare is ₩1,550 with a T-money card (₩1,650 cash single ticket), for up to 10 km; longer trips add ₩100 per extra 5 km.",
+      "value": { "base_tmoney": "₩1,550", "base_cash": "₩1,650", "base_distance": "up to 10 km", "extra": "+₩100 / 5 km" },
+      "source": "https://english.visitseoul.net/",
+      "source_name": "VisitSeoul / Seoul transit guides (2026)",
+      "verified": "2026-08-04", "recheck_after": "2026-12-01", "status": "VERIFIED",
+      "notes": "Raised from ₩1,400 in the June 2025 fare increase. Confirm current fares in Naver Map / KakaoMap or the Seoul TOPIS site."
+    },
+    {
+      "id": "transit-bus-seoul",
+      "tier": "VOLATILE",
+      "claim": "Seoul city bus fares (T-money): blue & green ₩1,500, yellow ₩1,400, red (wide-area express) ₩3,000+, night (N-bus) ₩2,500.",
+      "value": { "blue_green": "₩1,500", "yellow": "₩1,400", "red_express": "₩3,000+", "night": "₩2,500" },
+      "source": "https://topis.seoul.go.kr/openEngBus.do",
+      "source_name": "Seoul TOPIS (Seoul city) / 2026 guides",
+      "verified": "2026-08-04", "recheck_after": "2026-12-01", "status": "VERIFIED",
+      "notes": "Tap in AND out to get free transfers. Confirm current fares at Seoul TOPIS."
+    },
+    {
+      "id": "transit-taxi-seoul",
+      "tier": "VOLATILE",
+      "claim": "Seoul medium taxi base fare is ₩4,800 (first 1.6 km), then ₩100 per 132 m. A late-night surcharge of up to 40% applies (about 23:00–02:00). Deluxe taxis start at ₩7,000 (first 3 km) with no night surcharge.",
+      "value": { "medium_base": "₩4,800", "medium_then": "₩100 / 132 m", "night_surcharge": "up to 40% (≈23:00–02:00)", "deluxe_base": "₩7,000", "international_base": "₩8,000" },
+      "source": "https://english.visitseoul.net/essential-Info-article/Taxi_/16758",
+      "source_name": "VisitSeoul (Seoul city official)",
+      "verified": "2026-08-04", "recheck_after": "2026-12-01", "status": "VERIFIED",
+      "notes": "Use Kakao T for an upfront fare estimate. Deluxe (mobeom) and international taxis cost more but avoid late-night surcharges / offer English."
+    },
+    {
+      "id": "transit-free-transfer",
+      "tier": "STABLE",
+      "claim": "Transfers between subway and bus (or bus and bus) are free within 30 minutes when you pay with a T-money card and tap both in and out.",
+      "value": { "window": "within 30 min", "condition": "T-money, tap in and out" },
+      "source": "https://english.visitseoul.net/",
+      "source_name": "VisitSeoul / Seoul transit guides",
+      "verified": "2026-08-04", "recheck_after": "2027-08-01", "status": "VERIFIED",
+      "notes": "You must tap out on the bus too, or you lose the transfer discount and may be charged again."
+    },
+    {
       "id": "best-time-seasons",
       "tier": "STABLE",
       "claim": "The best times to visit are spring (Mar–May) and autumn (Sep–Nov). Summer (Jun–Aug) is hot and humid with a monsoon; winter is cold and dry (Seoul averages about -2°C).",

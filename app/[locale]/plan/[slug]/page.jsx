@@ -1,7 +1,9 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { fact } from "../../../../lib/facts";
 import GuideVisual from "../../../../components/GuideVisual";
+import TransitGuide from "../../../../components/TransitGuide";
 import guideVisa from "../../../../data/guides/visa.json";
+import guideTransit from "../../../../data/guides/transit.json";
 import plan from "../../../../data/plan.json";
 import planJa from "../../../../data/plan.ja.json";
 import planZh from "../../../../data/plan.zh.json";
@@ -27,7 +29,9 @@ import planBn from "../../../../data/plan.bn.json";
 const planI18n = { ja: planJa, zh: planZh, "zh-TW": planZhTW, es: planEs, fr: planFr, de: planDe, pt: planPt, it: planIt, ru: planRu, ko: planKo, vi: planVi, th: planTh, id: planId, tr: planTr, fil: planFil, ms: planMs, hi: planHi, ar: planAr, bn: planBn };
 
 // Rich visual guides (English base). Keyed by slug; only slugs with a guide render the deep-dive layout.
-const guides = { visa: guideVisa };
+const guides = { visa: guideVisa, transit: guideTransit };
+// Which rich component renders each slug's guide body.
+const GuideBody = { visa: GuideVisual, transit: TransitGuide };
 
 // One static page per (locale × plan slug).
 export function generateStaticParams() {
@@ -193,7 +197,7 @@ export default function PlanArticle({ params }) {
       )}
 
       {/* Rich visual deep-dive (guide slugs only) */}
-      {guide && <GuideVisual guide={guide} />}
+      {guide && (() => { const Body = GuideBody[slug]; return Body ? <Body guide={guide} /> : null; })()}
 
       {/* Generic tips/official links (non-guide slugs) */}
       {!guide && item.tips?.length > 0 && (
