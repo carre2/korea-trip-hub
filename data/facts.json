@@ -1,141 +1,141 @@
 {
-  "_README": "사실 대장(SSOT). HARNESS.md의 규칙을 따른다. status가 VERIFIED가 아닌 fact는 렌더링 금지. 수치·연락처·규정은 반드시 여기 근거를 둔다. 임의 추정 금지. VOLATILE은 공식출처+검증일+확인링크 노출.",
+  "_README": "Facts SSOT. Follows HARNESS.md. Only status:VERIFIED facts render. All numbers/contacts/rules must be grounded here. No invented estimates. VOLATILE facts must show source + verified date + confirm link. claim/notes are the ENGLISH (base-language) display text; translations for other locales live in messages/<locale>.json under `facts`.",
   "_updated": "2026-08-03",
   "facts": [
     {
       "id": "keta-exemption",
       "tier": "VOLATILE",
-      "claim": "비자면제 대상국 국민은 2026-12-31까지 K-ETA 없이 입국 가능. e-Arrival Card는 필수. 17세 이하·65세 이상은 K-ETA 면제.",
+      "claim": "Visa-free nationals can enter Korea without K-ETA until 2026-12-31. The e-Arrival Card is still required. Travelers aged 17 and under or 65 and over are exempt from K-ETA.",
       "value": { "exempt_until": "2026-12-31", "earrival_card": "required", "age_exempt": "<=17 or >=65" },
       "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=251923",
-      "source_name": "VisitKorea (KTO 공식)",
+      "source_name": "VisitKorea (KTO official)",
       "verified": "2026-08-02",
       "recheck_after": "2026-11-01",
       "status": "VERIFIED",
-      "notes": "출처별 면제 국가 수 상이(22/67). 국가 목록·최신 여부는 공식에서 확인. 자국 상황은 영사관 확인 필요."
+      "notes": "Sources differ on the number of exempt countries (22 vs 67). Confirm the current country list at the official site; check your own case with a consulate."
     },
     {
       "id": "emergency-police",
       "tier": "STABLE",
-      "claim": "대한민국 경찰 신고번호는 112.",
+      "claim": "Korea's emergency police number is 112.",
       "value": { "number": "112" },
       "source": "https://english.visitkorea.or.kr/",
       "source_name": "VisitKorea",
       "verified": "2026-08-02", "recheck_after": "2027-08-01", "status": "VERIFIED",
-      "notes": "널리 확립된 번호."
+      "notes": "Well-established number."
     },
     {
       "id": "emergency-fire-medical",
       "tier": "STABLE",
-      "claim": "대한민국 화재·구급(응급의료) 신고번호는 119.",
+      "claim": "Korea's fire and emergency medical (ambulance) number is 119.",
       "value": { "number": "119" },
       "source": "https://english.visitkorea.or.kr/",
       "source_name": "VisitKorea",
       "verified": "2026-08-02", "recheck_after": "2027-08-01", "status": "VERIFIED",
-      "notes": "널리 확립된 번호."
+      "notes": "Well-established number."
     },
     {
       "id": "tourist-hotline-1330",
       "tier": "STABLE",
-      "claim": "한국관광공사 관광안내·통역·불편신고 전화는 1330 (24시간, 다국어).",
+      "claim": "The Korea Tourism Organization's travel help, interpretation and complaint line is 1330 (24/7, multilingual).",
       "value": { "number": "1330", "hours": "24h", "languages": "multi" },
       "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do",
       "source_name": "Korea Tourism Organization",
       "verified": "2026-08-02", "recheck_after": "2027-08-01", "status": "VERIFIED",
-      "notes": "KTO 공식 관광안내전화."
+      "notes": "Official KTO tourist information line."
     },
 
     {
       "id": "arex-express",
       "tier": "VOLATILE",
-      "claim": "AREX 직통열차: 인천공항 ↔ 서울역 무정차, 편도 요금 및 소요시간.",
+      "claim": "AREX Express train: non-stop between Incheon Airport and Seoul Station. One-way fare and travel time below.",
       "value": { "fare_krw_each_way": 9500, "minutes": 40, "type": "non-stop", "frequency": "every 20–40 min" },
       "source": "https://english.visitseoul.net/getting-to-seoul",
-      "source_name": "VisitSeoul (서울시 공식)",
+      "source_name": "VisitSeoul (Seoul city official)",
       "verified": "2026-08-03", "recheck_after": "2026-10-01", "status": "VERIFIED",
-      "notes": "서울시 공식 가이드 기준 ₩9,500. 단, 2026년 일부 제3자 출처는 ₩11,000–13,000으로 표기 → 상충. 반드시 arex.or.kr에서 현재 요금 최종 확인."
+      "notes": "Official Seoul guide states KRW 9,500. Some 2026 third-party sources cite KRW 11,000–13,000 — a conflict. Always confirm the current fare at arex.or.kr."
     },
     {
       "id": "arex-allstop",
       "tier": "VOLATILE",
-      "claim": "AREX 일반열차: 서울역까지 약 60분 미만, 편도 요금.",
+      "claim": "AREX all-stop train: reaches Seoul Station in under 60 minutes. One-way fare below.",
       "value": { "fare_krw": "4,150–4,750", "minutes": "<60", "frequency": "every 5–10 min" },
       "source": "https://english.visitseoul.net/getting-to-seoul",
-      "source_name": "VisitSeoul (서울시 공식)",
+      "source_name": "VisitSeoul (Seoul city official)",
       "verified": "2026-08-03", "recheck_after": "2026-10-01", "status": "VERIFIED",
-      "notes": "T-money로 탑승 가능. 최신 요금은 arex.or.kr 확인."
+      "notes": "T-money accepted. Confirm the latest fare at arex.or.kr."
     },
     {
       "id": "airport-bus",
       "tier": "VOLATILE",
-      "claim": "인천공항 공항버스(리무진): 서울까지 약 60–80분, 요금대.",
+      "claim": "Incheon Airport limousine bus: about 60–80 minutes to Seoul. Fare range below.",
       "value": { "fare_krw": "5,000–15,000", "minutes": "60–80", "pay": "cash / T-money / card" },
       "source": "https://english.visitseoul.net/getting-to-seoul",
-      "source_name": "VisitSeoul (서울시 공식)",
+      "source_name": "VisitSeoul (Seoul city official)",
       "verified": "2026-08-03", "recheck_after": "2026-10-01", "status": "VERIFIED",
-      "notes": "노선·목적지별 상이. 교통상황에 따라 시간 변동."
+      "notes": "Varies by route and destination; time depends on traffic."
     },
     {
       "id": "tmoney-where-to-buy",
       "tier": "STABLE",
-      "claim": "T-money 카드는 전국 편의점(CU·GS25·7-Eleven·Emart24)과 지하철역 판매기에서 구입·충전 가능.",
+      "claim": "T-money cards are sold and recharged at convenience stores nationwide (CU, GS25, 7-Eleven, Emart24) and at subway station machines.",
       "value": { "stores": "CU, GS25, 7-Eleven, Emart24, subway station machines" },
       "source": "https://english.visitkorea.or.kr/",
-      "source_name": "VisitKorea / 다수 가이드(2026)",
+      "source_name": "VisitKorea / multiple guides (2026)",
       "verified": "2026-08-03", "recheck_after": "2027-08-01", "status": "VERIFIED",
-      "notes": "지하철·버스·택시·편의점 결제 가능."
+      "notes": "Works on subway, bus, taxi and at convenience stores."
     },
     {
       "id": "tmoney-card-price",
       "tier": "VOLATILE",
-      "claim": "T-money 기본 카드 가격(공카드) 및 환불 정책.",
+      "claim": "T-money basic card price and refund policy.",
       "value": { "basic_krw": "2,500–4,000", "design_krw": "5,000–10,000", "card_refundable": false },
       "source": "https://blog.trazy.com/korea-subway-t-money-card-guide/",
-      "source_name": "여행가이드(2026) — 공식 t-money.co.kr 확인 권장",
+      "source_name": "Travel guides (2026) — confirm at t-money.co.kr",
       "verified": "2026-08-03", "recheck_after": "2026-12-01", "status": "VERIFIED",
-      "notes": "매장·디자인별 상이. 카드값 자체는 환불 불가(잔액만 환불). 공식 t-money.co.kr에서 확인."
+      "notes": "Varies by store and design. The card fee itself is non-refundable (only the remaining balance is refundable). Confirm at the official t-money.co.kr."
     },
     {
       "id": "ktx-seoul-busan",
       "tier": "VOLATILE",
-      "claim": "KTX 서울→부산 일반실 편도 요금 및 소요시간(대략).",
-      "value": { "fare_krw_standard": "약 59,800", "duration": "2h15–2h40", "booking": "letskorail.com / KORAIL 앱, 1개월 전 예매" },
+      "claim": "KTX Seoul → Busan standard-seat one-way fare and approximate travel time.",
+      "value": { "fare_krw_standard": "~59,800", "duration": "2h15–2h40", "booking": "letskorail.com / KORAIL app, up to 1 month ahead" },
       "source": "https://www.koreatodo.com/how-to-get-to-busan-from-seoul",
-      "source_name": "여행가이드(2026) — KORAIL 공식 확인 권장",
+      "source_name": "Travel guides (2026) — confirm at KORAIL",
       "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
-      "notes": "제3자 출처 기준값. 열차편·좌석등급별 상이. letskorail.com에서 실요금 최종 확인."
+      "notes": "Third-party figure. Varies by train and seat class. Confirm the real fare at letskorail.com."
     },
     {
       "id": "best-time-seasons",
       "tier": "STABLE",
-      "claim": "방문 최적기는 봄(3–5월)·가을(9–11월). 여름(6–8월)은 덥고 습하며 장마, 겨울은 춥고 건조(서울 평균 약 -2°C).",
+      "claim": "The best times to visit are spring (Mar–May) and autumn (Sep–Nov). Summer (Jun–Aug) is hot and humid with a monsoon; winter is cold and dry (Seoul averages about -2°C).",
       "value": { "best": "spring (Mar–May), autumn (Sep–Nov)", "summer": "hot/humid, monsoon", "winter": "cold, Seoul avg ~ -2°C" },
       "source": "https://english.visitkorea.or.kr/",
-      "source_name": "일반 기후정보 / 다수 관광가이드",
+      "source_name": "General climate info / multiple travel guides",
       "verified": "2026-08-03", "recheck_after": "2027-08-01", "status": "VERIFIED",
-      "notes": "일반 계절 특성. 벚꽃·단풍 시기는 해마다 변동."
+      "notes": "General seasonal characteristics. Cherry-blossom and fall-foliage dates shift each year."
     },
     {
       "id": "tipping-not-customary",
       "tier": "STABLE",
-      "claim": "한국은 팁 문화가 없어 식당·택시에서 팁을 주지 않아도 된다.",
+      "claim": "Tipping is not customary in Korea; you don't need to tip at restaurants or in taxis.",
       "value": { "tipping": "not customary" },
       "source": "https://english.visitkorea.or.kr/",
       "source_name": "VisitKorea",
       "verified": "2026-08-03", "recheck_after": "2027-08-01", "status": "VERIFIED",
-      "notes": "고급 호텔 등 일부 예외 가능하나 일반적으로 팁 불필요."
+      "notes": "Some luxury hotels may add a service charge, but generally no tip is expected."
     },
     {
       "id": "currency-krw",
       "tier": "STABLE",
-      "claim": "대한민국 통화는 원(KRW, ₩).",
+      "claim": "Korea's currency is the won (KRW, ₩).",
       "value": { "currency": "South Korean won", "code": "KRW", "symbol": "₩" },
       "source": "https://english.visitkorea.or.kr/",
       "source_name": "VisitKorea",
       "verified": "2026-08-03", "recheck_after": "2028-08-01", "status": "VERIFIED",
-      "notes": "카드 결제 광범위, 소액·재래시장은 현금 유용."
+      "notes": "Cards are widely accepted; cash is handy for small vendors and traditional markets."
     },
 
-    { "id": "visa-free-90days-general", "tier": "VOLATILE", "claim": "다수 국가는 관광 목적 무비자 체류 가능(기간 국가별 상이 30/60/90일)", "value": null, "source": "https://www.hikorea.go.kr", "source_name": "법무부 하이코리아 / Visa policy of South Korea", "verified": null, "status": "TODO", "notes": "국가별 상이 → 일반화 금지. 국가 선택 UI에서 개별 확인 링크 제공 예정." }
+    { "id": "visa-free-90days-general", "tier": "VOLATILE", "claim": "Many nationalities can enter visa-free for tourism (length varies by country: 30/60/90 days).", "value": null, "source": "https://www.hikorea.go.kr", "source_name": "HiKorea (MOJ) / Visa policy of South Korea", "verified": null, "status": "TODO", "notes": "Varies by country — do not generalize. Provide a per-country confirmation link in the UI." }
   ]
 }

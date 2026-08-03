@@ -21,32 +21,39 @@ function humanize(k) {
   return k.replace(/_/g, " ");
 }
 
-/** Renders a verified fact only (HARNESS: never render TODO/STALE). */
-function FactBlock({ id }) {
+/** Renders a verified fact only (HARNESS: never render TODO/STALE).
+ *  Display text (claim/notes/labels/UI) comes from the active locale's messages
+ *  when available, falling back to the English base in facts.json. */
+function FactBlock({ id, m }) {
   const f = fact(id);
   if (!f) return null;
+  const ui = m.factsUI || {};
+  const labels = m.factLabels || {};
+  const tr = (m.facts && m.facts[id]) || {};
+  const claim = tr.claim || f.claim;
+  const notes = tr.notes || f.notes;
   return (
     <div className="factbox">
       <div className="factbox-h">
-        <b>{f.claim}</b>
+        <b>{claim}</b>
         <span className="pill verified">✓ {f.verified}</span>
       </div>
       {f.value && (
         <ul className="factvals">
           {Object.entries(f.value).map(([k, v]) => (
             <li key={k}>
-              <span>{humanize(k)}</span>
+              <span>{labels[k] || humanize(k)}</span>
               <b>{typeof v === "boolean" ? (v ? "yes" : "no") : String(v)}</b>
             </li>
           ))}
         </ul>
       )}
       <div className="factsrc">
-        {f.tier === "VOLATILE" && <span className="pill vol">⚠ Prices/rules change — confirm at source</span>}
-        <span>Source:{" "}
+        {f.tier === "VOLATILE" && <span className="pill vol">{ui.confirm || "⚠ Confirm at source"}</span>}
+        <span>{ui.source || "Source"}:{" "}
           <a href={f.source} target="_blank" rel="noopener noreferrer">{f.source_name}</a>
         </span>
-        {f.notes && <p className="factnote">ⓘ {f.notes}</p>}
+        {notes && <p className="factnote">ⓘ {notes}</p>}
       </div>
     </div>
   );
@@ -61,6 +68,7 @@ export default function PlanArticle({ params }) {
   const title = tile.title || slug;
 
   const hasFacts = item.facts.some((id) => fact(id));
+  const ui = m.factsUI || {};
 
   return (
     <article className="article">
@@ -78,16 +86,16 @@ export default function PlanArticle({ params }) {
 
       {hasFacts && (
         <>
-          <h2>✓ Verified facts</h2>
+          <h2>✓ {ui.verified_facts || "Verified facts"}</h2>
           {item.facts.map((id) => (
-            <FactBlock key={id} id={id} />
+            <FactBlock key={id} id={id} m={m} />
           ))}
         </>
       )}
 
       {item.tips?.length > 0 && (
         <>
-          <h2>Good to know</h2>
+          <h2>{ui.good_to_know || "Good to know"}</h2>
           <ul className="tips">
             {item.tips.map((tip, i) => (
               <li key={i}>{tip}</li>
@@ -98,7 +106,7 @@ export default function PlanArticle({ params }) {
 
       {item.official?.length > 0 && (
         <>
-          <h2>Official sources</h2>
+          <h2>{ui.official_sources || "Official sources"}</h2>
           <div className="official-links">
             {item.official.map((o) => (
               <a key={o.url} href={o.url} target="_blank" rel="noopener noreferrer">🔗 {o.name}</a>
