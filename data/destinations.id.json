@@ -1,0 +1,174 @@
+{
+  "_README": "Penggantian bahasa Indonesia untuk destinations.json. Angka berasal dari facts. Terjemahan mesin — sebaiknya ditinjau penutur asli.",
+  "items": {
+    "myeongdong": {
+      "name": "Myeongdong", "rank": "Paling banyak dikunjungi", "blurb": "Belanja, jajanan kaki lima, dan kecantikan — perhentian pertama yang klasik.",
+      "intro": [
+        "Myeongdong adalah jalan belanja tersibuk di Seoul dan area yang paling banyak dikunjungi wisatawan asing. Penuh toko kosmetik, fesyen, dan suasana jajanan kaki lima yang meriah di malam hari.",
+        "Letaknya sentral dan mudah dijangkau, cocok jadi markas atau perhentian pertama di hari pertama."
+      ],
+      "tips": [
+        "Datanglah malam hari dengan perut kosong — kios jajanan adalah sorotannya.",
+        "Toko kosmetik sering memberi sampel; bandingkan beberapa tempat sebelum membeli.",
+        "Stasiun Myeongdong (Jalur 4), pintu keluar 5–8, membawamu tepat ke pusatnya."
+      ],
+      "nearby": ["Menara N Seoul", "Pasar Namdaemun", "Gyeongbokgung"]
+    },
+    "gyeongbokgung": {
+      "name": "Istana Gyeongbokgung", "rank": "Wajib dikunjungi", "blurb": "Istana kerajaan megah — pakai hanbok masuk gratis.",
+      "intro": [
+        "Gyeongbokgung adalah istana kerajaan era Joseon terbesar di Seoul, dengan gerbang besar, halaman luas, dan paviliun di tepi kolam.",
+        "Menyewa hanbok (busana tradisional) di dekatnya memberi masuk gratis dan foto yang berkesan."
+      ],
+      "tips": [
+        "Kenakan hanbok untuk masuk istana gratis.",
+        "Jangan lewatkan upacara pergantian penjaga di gerbang utama.",
+        "Desa Hanok Bukchon ada di dekatnya — gabungkan dalam satu pagi."
+      ],
+      "nearby": ["Desa Hanok Bukchon", "Gwanghwamun", "Insadong"]
+    },
+    "n-seoul-tower": {
+      "name": "Menara N Seoul", "rank": "Terpopuler ke-2", "blurb": "Kereta gantung Namsan dan pemandangan kota terbaik.",
+      "intro": [
+        "Berada di puncak Gunung Namsan, Menara N Seoul menyuguhkan panorama kota terbaik, terutama saat matahari terbenam dan malam hari.",
+        "Naik kereta gantung Namsan ke atas juga bagian dari keseruannya."
+      ],
+      "tips": [
+        "Datanglah menjelang senja untuk melihat pemandangan siang dan malam.",
+        "Naik dengan kereta gantung; kamu bisa turun berjalan lewat Taman Namsan.",
+        "Akhir pekan dan hari libur ramai — datang lebih awal atau larut."
+      ],
+      "nearby": ["Myeongdong", "Taman Namsan", "Itaewon"]
+    },
+    "bukchon": {
+      "name": "Desa Hanok Bukchon", "rank": "Disukai orang Eropa", "blurb": "Gang-gang tradisional dan titik foto yang cantik.",
+      "intro": [
+        "Bukchon adalah kawasan berbukit dengan hanok (rumah tradisional) yang terjaga di antara dua istana, dengan gang tenang dan pemandangan atap-atap rumah.",
+        "Ini area permukiman, paling nikmat dengan jalan santai yang tenang dan sopan."
+      ],
+      "tips": [
+        "Pelankan suara — ada penduduk yang tinggal di sini.",
+        "Pagi hari paling sepi untuk berfoto.",
+        "Gabungkan dengan Gyeongbokgung dan Insadong di dekatnya."
+      ],
+      "nearby": ["Gyeongbokgung", "Insadong", "Changdeokgung"]
+    },
+    "hongdae": {
+      "name": "Hongdae", "rank": "Kehidupan malam & anak muda", "blurb": "Pertunjukan jalanan, toko indie, dan kehidupan malam.",
+      "intro": [
+        "Hongdae di sekitar Universitas Hongik adalah kawasan seni dan musik anak muda Seoul — musisi jalanan, toko indie, klub, dan makanan larut malam.",
+        "Tempat untuk merasakan energi kota saat malam tiba."
+      ],
+      "tips": [
+        "Malam hari para seniman jalanan bermunculan.",
+        "Jelajahi gang-gang untuk kafe dan toko vintage.",
+        "Terhubung baik lewat Jalur 2 dan jalur bandara AREX."
+      ],
+      "nearby": ["Yeonnam-dong", "Sinchon", "Hapjeong"]
+    },
+    "seongsu": {
+      "name": "Seongsu", "rank": "Disukai orang Amerika", "blurb": "Jalan kafe dan dessert paling hits di Seoul.",
+      "intro": [
+        "Dulu kawasan industri, kini Seongsu adalah kawasan kafe dan desain paling keren di Seoul — gudang yang diubah, roastery, dan toko pop-up.",
+        "Sangat menarik bagi wisatawan dari Benua Amerika."
+      ],
+      "tips": [
+        "Buat tur kafe; ada beberapa roastery dalam jarak beberapa blok.",
+        "Hari kerja lebih tenang daripada akhir pekan.",
+        "Gabungkan dengan Taman Seoul Forest di sebelahnya."
+      ],
+      "nearby": ["Seoul Forest", "Ttukseom", "Univ. Konkuk"]
+    },
+    "bukhansan": {
+      "name": "Bukhansan (K-hiking)", "rank": "Tren yang naik", "blurb": "Puncak granit di tepi kota — tren tercepat yang tumbuh di Korea.",
+      "intro": [
+        "Taman Nasional Bukhansan menjulang tepat di tepi Seoul, dengan puncak granit dan jalur kuil — dan memimpin tren 'K-hiking' yang berkembang di kalangan wisatawan asing.",
+        "Jalurnya dari jalan santai hingga tanjakan curam, pilih sesuai kebugaranmu."
+      ],
+      "tips": [
+        "Mulai pagi-pagi, terutama saat musim panas.",
+        "Kenakan sepatu yang sesuai; bagian atas berbatu.",
+        "Cek cuaca dan bawa air."
+      ],
+      "nearby": ["Bukaksan", "Gwanaksan", "Achasan"]
+    },
+    "dmz": {
+      "name": "Tur DMZ", "rank": "Wisata impian sehari", "blurb": "Kawasan perbatasan — dikunjungi dengan tur terorganisir.",
+      "intro": [
+        "Zona Demiliterisasi antara dua Korea adalah wisata sehari yang berkesan dari Seoul, biasanya lewat tur terorganisir yang mengurus akses dan aturan.",
+        "Perhentian bisa meliputi observatorium dan terowongan."
+      ],
+      "tips": [
+        "Harus ikut tur resmi — tidak bisa pergi sendiri.",
+        "Ada pemeriksaan identitas; bawa paspor.",
+        "Pesan lebih awal, terutama saat musim ramai."
+      ],
+      "nearby": ["Imjingak", "Paju"]
+    },
+    "haeundae": {
+      "name": "Pantai Haeundae", "rank": "Pantai No. 1 Busan", "blurb": "Pantai dan kawasan tepi laut paling terkenal di Busan.",
+      "intro": [
+        "Haeundae adalah pantai ikonik Busan — hamparan pasir panjang dengan hotel, kafe, dan Blueline Park tepi laut beserta kapsul warna-warninya.",
+        "Markas paling praktis untuk perjalanan pertama ke Busan."
+      ],
+      "tips": [
+        "Sky capsule Blueline Park populer — pesan lebih awal saat musim ramai.",
+        "Pantai Gwangalli di dekatnya indah di malam hari dengan lampu Jembatan Diamond.",
+        "Restoran seafood ada di gang-gang belakang."
+      ],
+      "nearby": ["Pantai Gwangalli", "Blueline Park", "Dongbaekseom"]
+    },
+    "gamcheon": {
+      "name": "Desa Budaya Gamcheon", "rank": "3 Besar Busan", "blurb": "Desa di lereng bukit dengan rumah-rumah warna-warni.",
+      "intro": [
+        "Gamcheon adalah kawasan lereng bukit yang fotogenik, dengan rumah pastel, mural, dan instalasi seni; dijuluki 'Santorini-nya Busan'.",
+        "Gang-gang bertangga yang sempit mengajak berjalan santai."
+      ],
+      "tips": [
+        "Pakai sepatu nyaman — berbukit dan banyak tangga.",
+        "Ikuti rute stempel di peta seni agar tak melewatkan yang terbaik.",
+        "Ini area permukiman, jaga ketenangan."
+      ],
+      "nearby": ["Pasar Jagalchi", "Pantai Songdo", "Alun-alun BIFF"]
+    },
+    "jagalchi": {
+      "name": "Pasar Ikan Jagalchi", "rank": "Ikon makanan laut", "blurb": "Pasar makanan laut terbesar di Korea.",
+      "intro": [
+        "Jagalchi adalah pasar makanan laut terbesar di Korea — pilih ikanmu di lantai bawah lalu dimasakkan di lantai atas.",
+        "Potret otentik dan hidup dari kehidupan pelabuhan Busan."
+      ],
+      "tips": [
+        "Datang saat makan siang, ketika paling segar dan ramai.",
+        "Harga sering bisa ditawar — sepakati sebelum memesan.",
+        "Gabungkan dengan Pasar Gukje dan Alun-alun BIFF di sebelahnya."
+      ],
+      "nearby": ["Pasar Gukje", "Alun-alun BIFF", "Gamcheon"]
+    },
+    "seongsan": {
+      "name": "Seongsan Ilchulbong", "rank": "Wajib di Jeju", "blurb": "Puncak matahari terbit, Warisan Dunia UNESCO, di timur Jeju.",
+      "intro": [
+        "Seongsan Ilchulbong ('Puncak Matahari Terbit') adalah kerucut vulkanik dramatis yang muncul dari laut, Situs Warisan Dunia UNESCO dan tempat menyaksikan matahari terbit ikonik di Jeju.",
+        "Pendakian ke bibir kawah pendek tapi curam."
+      ],
+      "tips": [
+        "Matahari terbit adalah klasiknya, tapi hari cerah mana pun memukau.",
+        "Ini pendakian sungguhan — kenakan sepatu yang bagus.",
+        "Gabungkan dengan Seopjikoji dan Manjanggul untuk sehari di timur Jeju."
+      ],
+      "nearby": ["Seopjikoji", "Gua Manjanggul", "Pulau Udo"]
+    },
+    "hallasan": {
+      "name": "Hallasan", "rank": "Puncak tertinggi Korea", "blurb": "Gunung berapi Jeju — jalur untuk semua tingkat.",
+      "intro": [
+        "Hallasan adalah gunung berapi perisai di tengah Jeju dan gunung tertinggi di Korea Selatan, dengan jalur menembus hutan yang berubah dan lanskap pegunungan.",
+        "Beberapa jalur ke puncak menuntut berangkat pagi dan reservasi."
+      ],
+      "tips": [
+        "Cek jalur mana yang sampai puncak dan apakah perlu reservasi.",
+        "Cuaca cepat berubah — bawa pakaian berlapis.",
+        "Berangkat pagi agar turun dalam jam operasional taman."
+      ],
+      "nearby": ["Kota Jeju", "Eorimok", "Seongpanak"]
+    }
+  }
+}

@@ -12,8 +12,10 @@ import destRu from "../../../data/destinations.ru.json";
 import destKo from "../../../data/destinations.ko.json";
 import destZhTW from "../../../data/destinations.zh-TW.json";
 import destVi from "../../../data/destinations.vi.json";
+import destTh from "../../../data/destinations.th.json";
+import destId from "../../../data/destinations.id.json";
 
-const destI18n = { ja: destJa, zh: destZh, "zh-TW": destZhTW, es: destEs, fr: destFr, de: destDe, pt: destPt, it: destIt, ru: destRu, ko: destKo, vi: destVi };
+const destI18n = { ja: destJa, zh: destZh, "zh-TW": destZhTW, es: destEs, fr: destFr, de: destDe, pt: destPt, it: destIt, ru: destRu, ko: destKo, vi: destVi, th: destTh, id: destId };
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

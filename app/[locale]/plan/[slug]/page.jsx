@@ -12,9 +12,11 @@ import planRu from "../../../../data/plan.ru.json";
 import planKo from "../../../../data/plan.ko.json";
 import planZhTW from "../../../../data/plan.zh-TW.json";
 import planVi from "../../../../data/plan.vi.json";
+import planTh from "../../../../data/plan.th.json";
+import planId from "../../../../data/plan.id.json";
 
 // Per-locale content overrides (tagline/intro/tips). Values/facts stay language-neutral.
-const planI18n = { ja: planJa, zh: planZh, "zh-TW": planZhTW, es: planEs, fr: planFr, de: planDe, pt: planPt, it: planIt, ru: planRu, ko: planKo, vi: planVi };
+const planI18n = { ja: planJa, zh: planZh, "zh-TW": planZhTW, es: planEs, fr: planFr, de: planDe, pt: planPt, it: planIt, ru: planRu, ko: planKo, vi: planVi, th: planTh, id: planId };
 
 // One static page per (locale × plan slug).
 export function generateStaticParams() {
