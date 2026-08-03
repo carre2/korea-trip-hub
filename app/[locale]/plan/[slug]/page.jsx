@@ -2,9 +2,10 @@ import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { fact } from "../../../../lib/facts";
 import plan from "../../../../data/plan.json";
 import planJa from "../../../../data/plan.ja.json";
+import planZh from "../../../../data/plan.zh.json";
 
 // Per-locale content overrides (tagline/intro/tips). Values/facts stay language-neutral.
-const planI18n = { ja: planJa };
+const planI18n = { ja: planJa, zh: planZh };
 
 // One static page per (locale × plan slug).
 export function generateStaticParams() {

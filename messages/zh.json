@@ -1,0 +1,139 @@
+{
+  "brand": "KoreaTripHub",
+  "nav": {
+    "plan": "行前准备",
+    "planner": "AI行程规划",
+    "destinations": "目的地",
+    "food": "美食",
+    "reviews": "评价",
+    "kculture": "K-文化",
+    "map": "地图",
+    "help": "帮助"
+  },
+  "plan": {
+    "eyebrow": "行程规划，从这里开始",
+    "sub": "抵达韩国前要先搞定的6个基本事项。",
+    "tiles": {
+      "visa": { "title": "签证与K-ETA", "sub": "入境许可与签证规定" },
+      "transit": { "title": "交通出行", "sub": "T-money·地铁·KTX·出租车" },
+      "airport": { "title": "机场→市区", "sub": "仁川·AREX直达" },
+      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "落地即可上网" },
+      "money": { "title": "货币与支付", "sub": "换汇·刷卡·现金" },
+      "weather": { "title": "最佳季节与天气", "sub": "何时去?带什么?" }
+    }
+  },
+  "hero": {
+    "badge": "AI行程规划 — Korea Trip Hub 的核心",
+    "title_1": "标记你的酒店，选择城市。",
+    "title_2": "行程全部搞定。",
+    "lede": "告诉我们你住哪、想去哪（比如釜山）。我们会规划最快的路线（KTX、巴士、飞机），并以你的住处为起点，安排每天的游览路线。",
+    "f_hotel": "你的酒店 / 出发地",
+    "f_dest": "想去哪里?",
+    "f_days": "天数",
+    "f_travelers": "人数",
+    "f_style": "旅行风格",
+    "build": "生成行程"
+  },
+  "help": {
+    "eyebrow": "让你安心",
+    "title": "帮助与安全",
+    "sub": "落地前值得收藏、且经官方来源核实的信息。",
+    "verified_on": "核实日期",
+    "check_official": "请务必在官方来源确认最新信息",
+    "embassy": { "title": "你的大使馆", "sub": "各国的地址、电话与地图。" },
+    "unavailable": "核实中"
+  },
+  "footer": {
+    "tagline": "韩国旅行一站式平台 — 规划、观光、美食与体验，20 种语言。",
+    "disclaimer": "旅行信息均对照官方来源核实并标注核实日期。价格、时刻与签证规定会变动，出行前请务必在所附官方来源确认。"
+  },
+  "factsUI": {
+    "verified_facts": "已核实信息",
+    "good_to_know": "实用提示",
+    "official_sources": "官方来源",
+    "source": "来源",
+    "confirm": "⚠ 价格/规定会变动 — 请在官方确认"
+  },
+  "factLabels": {
+    "exempt_until": "免除截止",
+    "earrival_card": "e-Arrival Card",
+    "age_exempt": "年龄豁免",
+    "number": "号码",
+    "hours": "服务时间",
+    "languages": "支持语言",
+    "fare_krw_each_way": "单程票价",
+    "minutes": "用时（分钟）",
+    "type": "类型",
+    "frequency": "发车间隔",
+    "fare_krw": "票价（KRW）",
+    "pay": "支付方式",
+    "stores": "购买地点",
+    "basic_krw": "基础卡（KRW）",
+    "design_krw": "设计款（KRW）",
+    "card_refundable": "卡费可退",
+    "fare_krw_standard": "普通座票价（KRW）",
+    "duration": "用时",
+    "booking": "预订",
+    "best": "最佳季节",
+    "summer": "夏季",
+    "winter": "冬季",
+    "currency": "货币",
+    "code": "代码",
+    "symbol": "符号",
+    "tipping": "小费"
+  },
+  "facts": {
+    "keta-exemption": {
+      "claim": "免签国公民可在 2026-12-31 前免 K-ETA 入境。e-Arrival Card 仍为必填。17 岁以下及 65 岁以上免 K-ETA。",
+      "notes": "各来源对免签国数量说法不一（22 国 / 67 国）。请在官方网站确认最新的适用国家名单；自己的情况请向领事馆核实。"
+    },
+    "emergency-police": {
+      "claim": "韩国报警电话为 112。",
+      "notes": "广为通用的号码。"
+    },
+    "emergency-fire-medical": {
+      "claim": "韩国火警与急救（医疗）电话为 119。",
+      "notes": "广为通用的号码。"
+    },
+    "tourist-hotline-1330": {
+      "claim": "韩国旅游发展局的旅游咨询、翻译与投诉电话为 1330（24 小时·多语言）。",
+      "notes": "旅游发展局官方咨询电话。"
+    },
+    "arex-express": {
+      "claim": "AREX 直达列车：仁川机场与首尔站之间直达不停站。单程票价与用时见下方。",
+      "notes": "首尔市官方指南显示为 KRW 9,500。但 2026 年部分第三方信息为 KRW 11,000〜13,000，存在出入。请务必在 arex.or.kr 确认当前票价。"
+    },
+    "arex-allstop": {
+      "claim": "AREX 普通列车：约 60 分钟内抵达首尔站。单程票价见下方。",
+      "notes": "可用 T-money 乘车。最新票价请见 arex.or.kr。"
+    },
+    "airport-bus": {
+      "claim": "仁川机场大巴（豪华巴士）：到首尔约 60〜80 分钟。票价区间见下方。",
+      "notes": "因线路与目的地而异，用时取决于路况。"
+    },
+    "tmoney-where-to-buy": {
+      "claim": "T-money 卡可在全国便利店（CU·GS25·7-Eleven·Emart24）及地铁站售卡机购买与充值。",
+      "notes": "可用于地铁、巴士、出租车与便利店。"
+    },
+    "tmoney-card-price": {
+      "claim": "T-money 基础卡的价格与退款说明。",
+      "notes": "因门店与款式而异。卡费本身不可退（仅退余额）。请在官方 t-money.co.kr 确认。"
+    },
+    "ktx-seoul-busan": {
+      "claim": "KTX 首尔→釜山 普通座单程票价与大致用时。",
+      "notes": "为第三方信息数值。因车次与座位等级而异。实际票价请在 letskorail.com 确认。"
+    },
+    "best-time-seasons": {
+      "claim": "最佳季节为春季（3〜5 月）与秋季（9〜11 月）。夏季（6〜8 月）闷热并有梅雨，冬季寒冷干燥（首尔平均约 -2℃）。",
+      "notes": "为一般季节特征。樱花与红叶时期每年不同。"
+    },
+    "tipping-not-customary": {
+      "claim": "韩国没有小费文化，在餐厅或出租车无需给小费。",
+      "notes": "部分高档酒店可能加收服务费，但通常不需给小费。"
+    },
+    "currency-krw": {
+      "claim": "韩国的货币为韩元（KRW, ₩）。",
+      "notes": "刷卡非常普遍，路边摊与传统市场用现金更方便。"
+    }
+  }
+}
