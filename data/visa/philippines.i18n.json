@@ -509,5 +509,600 @@
         { "q": "هل ما زلت بحاجة إلى e-Arrival Card؟", "a": "قد تظل قواعد مستندات الدخول مثل e-Arrival Card سارية عند الوصول. تحقق من القواعد الحالية قرب تاريخ سفرك." }
       ]
     }
+  },
+  "th": {
+    "kicker": "คู่มือวีซ่า · ฟิลิปปินส์ → เกาหลี",
+    "readingTime": "อ่าน 8 นาที",
+    "h1": "วีซ่าเกาหลีสำหรับชาวฟิลิปปินส์",
+    "metaTitle": "วีซ่าเกาหลีจากฟิลิปปินส์: คู่มือทีละขั้นตอน (2026) — Korea Trip Hub",
+    "metaDesc": "วิธียื่นขอวีซ่าท่องเที่ยวเกาหลีจากฟิลิปปินส์: ยื่นที่ไหน เอกสาร (และรับแต่ละอย่างได้ที่ไหน) ค่าธรรมเนียม ระยะเวลาดำเนินการ และลิงก์ทางการ วีซ่าท่องเที่ยวระยะสั้น C-3 ฟรี",
+    "ui": { "visa": "ประเภทวีซ่า", "stay": "ระยะเวลาพำนัก", "entry": "ประเภทการเข้าเมือง", "where": "รับได้ที่ไหน", "official": "แหล่งข้อมูลทางการ", "required": "จำเป็น", "conditional": "หากเข้าเงื่อนไข", "recommended": "แนะนำ", "confirm": "ค่าธรรมเนียม/กฎเกณฑ์อาจเปลี่ยนแปลง — ตรวจสอบที่แหล่งข้อมูล", "source": "แหล่งข้อมูล", "updated": "อัปเดต", "tldr": "สรุป" },
+    "verdict": {
+      "headline": "ใช่ — ผู้ถือหนังสือเดินทางฟิลิปปินส์ต้องมีวีซ่า แต่ฟรี",
+      "sub": "คุณยื่นขอวีซ่าท่องเที่ยว C-3 ก่อนเดินทางไปยังเกาหลีแผ่นดินใหญ่ ข้อดี: ไม่มีค่าธรรมเนียมวีซ่า ดำเนินการรวดเร็ว และตั้งแต่เดือนกุมภาพันธ์ 2026 คุณไม่ต้องยื่นรายการเดินบัญชีธนาคารย้อนหลัง 3 เดือนอีกต่อไป",
+      "type": "C-3 ท่องเที่ยว",
+      "stay": "สูงสุด 90 วัน",
+      "entry": "เข้าครั้งเดียว (เข้าหลายครั้งได้สำหรับผู้เดินทางที่มีคุณสมบัติ)"
+    },
+    "highlights": [
+      { "icon": "🆓", "tone": "green", "title": "ไม่มีค่าธรรมเนียมวีซ่า", "body": "วีซ่าท่องเที่ยว C-3 ฟรีสำหรับผู้ถือหนังสือเดินทางฟิลิปปินส์ ระวังตัวแทนที่เพิ่มค่าบริการของตนเอง" },
+      { "icon": "📉", "tone": "blue", "title": "ง่ายขึ้นตั้งแต่ 20 ก.พ. 2026", "body": "ผู้ยื่นในฟิลิปปินส์ไม่ต้องยื่นรายการเดินบัญชีธนาคารย้อนหลัง 3 เดือนอีกต่อไป พนักงานแสดง ITR + Certificate of Employment แทน" },
+      { "icon": "🏝️", "tone": "amber", "title": "เกาะเชจู (Jeju) — การเข้าเมืองแบบไม่ต้องมีวีซ่าแยกต่างหาก", "body": "มีตัวเลือกการเข้าเมืองแบบไม่ต้องมีวีซ่าอย่างจำกัด (เริ่มจากเกาะเชจู) ซึ่งแยกจากวีซ่าท่องเที่ยวแผ่นดินใหญ่" }
+    ],
+    "tldr": [
+      "ต้องมีวีซ่าท่องเที่ยว C-3 สำหรับเกาหลีแผ่นดินใหญ่ — แต่ฟรี",
+      "กรอกแบบฟอร์มที่ visa.go.kr แล้วยื่นผ่านสถานทูตเกาหลีหรือตัวแทนท่องเที่ยวที่ได้รับการรับรอง",
+      "พนักงาน: นำ ITR + Certificate of Employment มาด้วย เจ้าของธุรกิจ: DTI/SEC + ใบอนุญาตประกอบธุรกิจ",
+      "ตั้งแต่เดือนกุมภาพันธ์ 2026 คุณไม่ต้องใช้รายการเดินบัญชีธนาคาร 3 เดือนอีกต่อไป การดำเนินการใช้เวลาประมาณ 3–5 วันทำการ"
+    ],
+    "steps": {
+      "title": "การยื่นคำขอ ทีละขั้นตอน",
+      "items": [
+        { "n": 1, "title": "ยืนยันประเภทวีซ่า", "detail": "สำหรับการท่องเที่ยว ให้ยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3" },
+        { "n": 2, "title": "กรอกแบบฟอร์มที่ visa.go.kr", "detail": "กรอกแบบฟอร์มคำขอที่ Korea Visa Portal — เว็บไซต์ทางการเพียงแห่งเดียว — จากนั้นพิมพ์และลงนาม", "link": "https://www.visa.go.kr", "linkLabel": "Korea Visa Portal" },
+        { "n": 3, "title": "เตรียมเอกสารของคุณ", "detail": "รวบรวมรายการตรวจสอบด้านล่าง พนักงานเน้นที่ ITR + Certificate of Employment เจ้าของธุรกิจเน้นที่การจดทะเบียน + ใบอนุญาต" },
+        { "n": 4, "title": "ยื่นที่สถานทูต / ตัวแทนที่ได้รับการรับรอง", "detail": "ยื่นคำขอของคุณที่ Embassy of Korea in the Philippines หรือตัวแทนท่องเที่ยวที่สถานทูตรับรอง" },
+        { "n": 5, "title": "ไม่มีค่าธรรมเนียมวีซ่าที่ต้องจ่าย", "detail": "ตัววีซ่าเองฟรี หากคุณใช้ตัวแทนท่องเที่ยว พวกเขาอาจเรียกเก็บค่าดำเนินการของตนเอง — ค่าธรรมเนียมของสถานทูตเป็นศูนย์" },
+        { "n": 6, "title": "รอประมาณ 3–5 วันทำการ", "detail": "การดำเนินการรวดเร็ว แต่ควรเผื่อเวลามากขึ้นในช่วงวันหยุดของเกาหลี (Chuseok, Seollal)" },
+        { "n": 7, "title": "รับหนังสือเดินทางของคุณ", "detail": "รับหนังสือเดินทางและตรวจสอบรายละเอียดวีซ่าทันที" }
+      ]
+    },
+    "documents": {
+      "title": "รายการตรวจสอบเอกสาร — พร้อมที่ที่รับและวิธีรับแต่ละอย่าง",
+      "intro": "สำหรับแต่ละรายการ นี่คือที่ที่คุณจะรับได้และสิ่งที่ต้องแสดง ข้อกำหนดแตกต่างกันสำหรับพนักงาน เจ้าของธุรกิจ และนักเรียน",
+      "cols": ["เอกสาร", "รับได้ที่ไหน", "ต้องแสดงอะไร"],
+      "rows": [
+        { "doc": "หนังสือเดินทาง", "req": "required", "where": "คุณมีอยู่แล้ว", "how": "มีอายุใช้งานเหลือ 6 เดือนขึ้นไป และมีหน้าว่าง" },
+        { "doc": "แบบฟอร์มคำขอวีซ่า", "req": "required", "where": "visa.go.kr", "how": "กรอกที่ Korea Visa Portal พิมพ์ ลงนาม", "link": "https://www.visa.go.kr" },
+        { "doc": "รูปถ่าย", "req": "required", "where": "ร้านถ่ายรูปใดก็ได้", "how": "รูปถ่ายแบบหนังสือเดินทางล่าสุด พื้นหลังสีขาว" },
+        { "doc": "หนังสือรับรองธนาคาร", "req": "required", "where": "ธนาคารของคุณ", "how": "หนังสือรับรองธนาคารของบัญชีคุณ หมายเหตุ: ตั้งแต่ 20 ก.พ. 2026 ไม่ต้องใช้รายการเดินบัญชีธนาคาร 3 เดือนอีกต่อไป" },
+        { "doc": "ITR (พนักงาน)", "req": "conditional", "where": "BIR / นายจ้าง (Form 2316)", "how": "แบบแสดงรายการภาษีเงินได้ (Income Tax Return) ที่พิสูจน์รายได้จากการทำงานของคุณ", "link": "https://www.bir.gov.ph" },
+        { "doc": "Certificate of Employment (COE)", "req": "conditional", "where": "นายจ้าง / ฝ่ายบุคคลของคุณ", "how": "บนหัวจดหมายของบริษัท: ตำแหน่ง เงินเดือน และวันลาที่ได้รับอนุมัติ" },
+        { "doc": "การจดทะเบียนธุรกิจ (ผู้ประกอบอาชีพอิสระ)", "req": "conditional", "where": "DTI หรือ SEC + LGU", "how": "การจดทะเบียน DTI (เจ้าของคนเดียว) หรือ SEC (บริษัท) พร้อมใบอนุญาตประกอบธุรกิจ/ใบอนุญาตของนายกเทศมนตรี (mayor's permit)", "link": "https://www.dti.gov.ph" },
+        { "doc": "การจองเที่ยวบินไป-กลับและโรงแรม", "req": "required", "where": "สายการบิน / เว็บไซต์จอง", "how": "การจอง/กำหนดการเดินทางก็เพียงพอ — อย่าจ่ายค่าตั๋วก่อนได้รับอนุมัติ" }
+      ],
+      "legend": { "required": "จำเป็น", "conditional": "ขึ้นอยู่กับงานของคุณ", "recommended": "แนะนำ" }
+    },
+    "funds": {
+      "title": "\"ฉันจะพิสูจน์ได้อย่างไรว่าฉันมีเงินพอสำหรับการเดินทาง?\"",
+      "body": "ตั้งแต่เดือนกุมภาพันธ์ 2026 คุณไม่ต้องยื่นรายการเดินบัญชีธนาคาร 3 เดือนอีกต่อไป — หนังสือรับรองธนาคารพร้อมกับ ITR/หลักฐานการจ้างงาน (หรือธุรกิจ) เป็นตัวบอกเล่าสถานะทางการเงิน เป้าหมายคือแสดงรายได้ที่มั่นคงและความผูกพันที่แน่นแฟ้นกับฟิลิปปินส์",
+      "tips": [
+        "พนักงาน: ITR + Certificate of Employment คือหัวใจของแฟ้มเอกสารของคุณ",
+        "เจ้าของธุรกิจ: การจดทะเบียน + ใบอนุญาตประกอบธุรกิจ + หนังสือรับรองธนาคาร",
+        "มีผู้สนับสนุนใช่ไหม? เพิ่มเอกสารของผู้สนับสนุนและหลักฐานความสัมพันธ์"
+      ]
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดที่ทำให้ถูกปฏิเสธและล่าช้า",
+      "items": [
+        { "icon": "💳", "t": "การจ่าย 'ค่าธรรมเนียมวีซ่า'", "d": "วีซ่าที่สถานทูตฟรี มีเพียงค่าดำเนินการของตัวแทนเท่านั้นที่เป็นค่าใช้จ่ายเพิ่มเติมที่ถูกต้อง" },
+        { "icon": "🧾", "t": "หลักฐานการจ้างงานอ่อนแอ", "d": "ขาด ITR หรือ COE ตอนนี้สิ่งเหล่านี้คือหัวใจของแฟ้มเอกสารของผู้ยื่นชาวฟิลิปปินส์" },
+        { "icon": "🎫", "t": "จ่ายค่าเที่ยวบินเร็วเกินไป", "d": "ซื้อตั๋วที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ — การจองก็เพียงพอ" },
+        { "icon": "🏝️", "t": "สับสนระหว่าง Jeju กับแผ่นดินใหญ่", "d": "ตัวเลือกไม่ต้องมีวีซ่าของ Jeju ไม่ครอบคลุมการเดินทางในเกาหลีแผ่นดินใหญ่" },
+        { "icon": "🗓️", "t": "ยื่นในช่วงวันหยุดสูงสุด", "d": "การดำเนินการช้าลงในช่วง Chuseok/Seollal — ยื่นให้เร็วขึ้น" }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเกี่ยวกับวีซ่า ฟิลิปปินส์ → เกาหลี",
+      "items": [
+        { "q": "ชาวฟิลิปปินส์ต้องมีวีซ่าไปเกาหลีหรือไม่?", "a": "ต้องมีสำหรับเกาหลีแผ่นดินใหญ่ — คุณยื่นขอวีซ่าท่องเที่ยว C-3 ก่อนเดินทาง ซึ่งฟรี เกาะเชจู (Jeju) มีการเข้าเมืองแบบไม่ต้องมีวีซ่าแยกต่างหาก" },
+        { "q": "ค่าธรรมเนียมวีซ่าเท่าไหร่?", "a": "ไม่มีค่าธรรมเนียมวีซ่าสำหรับวีซ่าท่องเที่ยว C-3 สำหรับผู้ถือหนังสือเดินทางฟิลิปปินส์ ตัวแทนท่องเที่ยวอาจเรียกเก็บค่าบริการของตนเอง แต่ค่าธรรมเนียมของสถานทูตเป็นศูนย์" },
+        { "q": "ฉันต้องใช้รายการเดินบัญชีธนาคารหรือไม่?", "a": "ตั้งแต่ 20 ก.พ. 2026 ไม่ต้องใช้รายการเดินบัญชีธนาคาร 3 เดือนอีกต่อไป พนักงานแสดง ITR + Certificate of Employment เจ้าของธุรกิจแสดงการจดทะเบียน + ใบอนุญาต" },
+        { "q": "ใช้เวลานานเท่าไหร่?", "a": "ประมาณ 3–5 วันทำการ นานกว่านั้นในช่วงวันหยุดของเกาหลีเช่น Chuseok และ Seollal" },
+        { "q": "ฉันยื่นได้ที่ไหน?", "a": "ที่ Embassy of Korea in the Philippines หรือผ่านตัวแทนท่องเที่ยวที่สถานทูตรับรอง" },
+        { "q": "ฉันขอวีซ่าเข้าหลายครั้งได้หรือไม่?", "a": "วีซ่าเข้าหลายครั้งเป็นไปได้สำหรับผู้เดินทางที่มีคุณสมบัติ (เช่น มีประวัติการเดินทางที่ดี) สอบถามสถานทูตเกี่ยวกับคุณสมบัติปัจจุบัน" },
+        { "q": "ฉันยังต้องใช้ e-Arrival Card หรือไม่?", "a": "กฎเกี่ยวกับเอกสารเข้าเมืองเช่น e-Arrival Card อาจยังคงมีผลเมื่อเดินทางถึง ตรวจสอบกฎปัจจุบันใกล้วันเดินทางของคุณ" }
+      ]
+    }
+  },
+  "pt": {
+    "kicker": "Guia de visto · Filipinas → Coreia",
+    "readingTime": "8 min de leitura",
+    "h1": "Visto da Coreia para filipinos",
+    "metaTitle": "Visto da Coreia a partir das Filipinas: Guia passo a passo (2026) — Korea Trip Hub",
+    "metaDesc": "Como solicitar um visto de turista da Coreia a partir das Filipinas: onde apresentar, documentos (e onde obter cada um), taxa, prazo de processamento e links oficiais. O visto de turista de curta duração C-3 é GRÁTIS.",
+    "ui": { "visa": "Tipo de visto", "stay": "Duração da estadia", "entry": "Tipo de entrada", "where": "Onde obter", "official": "Fonte oficial", "required": "Obrigatório", "conditional": "Se aplicável", "recommended": "Recomendado", "confirm": "A taxa/as regras podem mudar — confirme na fonte", "source": "Fonte", "updated": "Atualizado", "tldr": "RESUMO" },
+    "verdict": {
+      "headline": "Sim — os titulares de passaporte filipino precisam de visto, mas é GRÁTIS.",
+      "sub": "Você solicita o visto de turista C-3 antes de viajar para a Coreia continental. A vantagem: não há taxa de visto, o processamento é rápido e, desde fevereiro de 2026, você não apresenta mais extratos bancários de 3 meses.",
+      "type": "C-3 Turista",
+      "stay": "Até 90 dias",
+      "entry": "Entrada única (entrada múltipla possível para viajantes qualificados)"
+    },
+    "highlights": [
+      { "icon": "🆓", "tone": "green", "title": "Sem taxa de visto", "body": "O visto de turista C-3 é gratuito para titulares de passaporte filipino. Cuidado com agências que adicionam suas próprias taxas de serviço." },
+      { "icon": "📉", "tone": "blue", "title": "Simplificado desde 20 de fevereiro de 2026", "body": "Os requerentes nas Filipinas não precisam mais apresentar os extratos bancários dos últimos 3 meses. Os funcionários mostram, em vez disso, o ITR + Certificate of Employment." },
+      { "icon": "🏝️", "tone": "amber", "title": "Ilha de Jeju — entrada sem visto separada", "body": "Existem opções limitadas de entrada sem visto (começando pela Ilha de Jeju). São separadas do visto de turista continental." }
+    ],
+    "tldr": [
+      "O visto de turista C-3 é obrigatório para a Coreia continental — mas é GRÁTIS.",
+      "Preencha o formulário em visa.go.kr e depois apresente-o através da Embaixada da Coreia ou de uma agência de viagens credenciada.",
+      "Funcionários: levem ITR + Certificate of Employment. Donos de negócio: DTI/SEC + licença comercial.",
+      "Desde fevereiro de 2026 você não precisa mais de extratos bancários de 3 meses. O processamento leva cerca de 3–5 dias úteis."
+    ],
+    "steps": {
+      "title": "A solicitação, passo a passo",
+      "items": [
+        { "n": 1, "title": "Confirme o tipo de visto", "detail": "Para turismo, solicite o visto de turista de curta duração C-3." },
+        { "n": 2, "title": "Preencha o formulário em visa.go.kr", "detail": "Preencha o formulário de solicitação no Korea Visa Portal — o único site oficial — depois imprima e assine.", "link": "https://www.visa.go.kr", "linkLabel": "Korea Visa Portal" },
+        { "n": 3, "title": "Prepare seus documentos", "detail": "Reúna a lista abaixo. Os funcionários se concentram no ITR + Certificate of Employment; os donos de negócio no registro + licença." },
+        { "n": 4, "title": "Apresente na Embaixada / agência credenciada", "detail": "Entregue sua solicitação na Embassy of Korea in the Philippines ou em uma agência de viagens credenciada pela embaixada." },
+        { "n": 5, "title": "Nenhuma taxa de visto a pagar", "detail": "O visto em si é gratuito. Se você usar uma agência de viagens, ela pode cobrar sua própria taxa de serviço — a taxa da embaixada é zero." },
+        { "n": 6, "title": "Espere ~3–5 dias úteis", "detail": "O processamento é rápido, mas reserve mais tempo perto dos feriados coreanos (Chuseok, Seollal)." },
+        { "n": 7, "title": "Retire seu passaporte", "detail": "Retire seu passaporte e verifique os detalhes do visto imediatamente." }
+      ]
+    },
+    "documents": {
+      "title": "Lista de documentos — com onde e como obter cada um",
+      "intro": "Para cada item, aqui está onde obtê-lo e o que ele deve mostrar. Os requisitos diferem para funcionários, donos de negócio e estudantes.",
+      "cols": ["Documento", "Onde obter", "O que deve mostrar"],
+      "rows": [
+        { "doc": "Passaporte", "req": "required", "where": "Você já tem", "how": "Válido por mais de 6 meses, com páginas em branco." },
+        { "doc": "Formulário de solicitação de visto", "req": "required", "where": "visa.go.kr", "how": "Preencha no Korea Visa Portal, imprima, assine.", "link": "https://www.visa.go.kr" },
+        { "doc": "Foto", "req": "required", "where": "Qualquer estúdio fotográfico", "how": "Foto recente estilo passaporte, fundo branco." },
+        { "doc": "Certificado bancário", "req": "required", "where": "Seu banco", "how": "Um certificado bancário da sua conta. Nota: desde 20 de fevereiro de 2026, os extratos bancários de 3 meses não são mais exigidos." },
+        { "doc": "ITR (funcionários)", "req": "conditional", "where": "BIR / empregador (Form 2316)", "how": "Declaração de imposto de renda (Income Tax Return) que comprove sua renda de trabalho.", "link": "https://www.bir.gov.ph" },
+        { "doc": "Certificate of Employment (COE)", "req": "conditional", "where": "Seu empregador / RH", "how": "Em papel timbrado da empresa: cargo, salário e datas de licença aprovadas." },
+        { "doc": "Registro comercial (autônomos)", "req": "conditional", "where": "DTI ou SEC + LGU", "how": "Registro no DTI (empresário individual) ou SEC (sociedade), além da sua licença comercial/licença do prefeito (mayor's permit).", "link": "https://www.dti.gov.ph" },
+        { "doc": "Reserva de voo de ida e volta e hotel", "req": "required", "where": "Companhia aérea / sites de reservas", "how": "Reservas/itinerário são suficientes — não pague uma passagem antes da aprovação." }
+      ],
+      "legend": { "required": "Obrigatório", "conditional": "Depende do seu trabalho", "recommended": "Recomendado" }
+    },
+    "funds": {
+      "title": "\"Como provo que posso pagar a viagem?\"",
+      "body": "Desde fevereiro de 2026, você não apresenta mais extratos bancários de 3 meses — um certificado bancário junto com seu ITR/comprovante de emprego (ou de negócio) conta a história financeira. O objetivo é demonstrar renda estável e fortes vínculos com as Filipinas.",
+      "tips": [
+        "Funcionários: o ITR + Certificate of Employment são o núcleo do seu processo.",
+        "Donos de negócio: registro + licença comercial + um certificado bancário.",
+        "Tem um patrocinador? Adicione os documentos do patrocinador e a prova do parentesco."
+      ]
+    },
+    "pitfalls": {
+      "title": "Erros que causam recusas e atrasos",
+      "items": [
+        { "icon": "💳", "t": "Pagar uma 'taxa de visto'", "d": "O visto da embaixada é GRÁTIS. Apenas as taxas de serviço da agência são extras legítimos." },
+        { "icon": "🧾", "t": "Comprovação de emprego fraca", "d": "Falta o ITR ou o COE. Agora são o coração do processo de um requerente filipino." },
+        { "icon": "🎫", "t": "Pagar os voos cedo demais", "d": "Comprar passagens não reembolsáveis antes da aprovação — uma reserva é suficiente." },
+        { "icon": "🏝️", "t": "Confundir Jeju com o continente", "d": "As opções sem visto de Jeju não cobrem viagens à Coreia continental." },
+        { "icon": "🗓️", "t": "Solicitar em pico de feriados", "d": "O processamento fica mais lento perto do Chuseok/Seollal — solicite antes." }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes sobre o visto Filipinas → Coreia",
+      "items": [
+        { "q": "Os filipinos precisam de visto para a Coreia?", "a": "Sim, para a Coreia continental — você solicita um visto de turista C-3 antes de viajar. É gratuito. A Ilha de Jeju tem uma entrada sem visto separada." },
+        { "q": "Quanto custa a taxa de visto?", "a": "Não há taxa de visto para o visto de turista C-3 para titulares de passaporte filipino. Uma agência de viagens pode cobrar sua própria taxa de serviço, mas a taxa da embaixada é zero." },
+        { "q": "Preciso de extratos bancários?", "a": "Desde 20 de fevereiro de 2026, os extratos bancários de 3 meses não são mais exigidos. Os funcionários mostram ITR + Certificate of Employment; os donos de negócio mostram registro + licença." },
+        { "q": "Quanto tempo leva?", "a": "Cerca de 3–5 dias úteis, mais perto de feriados coreanos como Chuseok e Seollal." },
+        { "q": "Onde eu solicito?", "a": "Na Embassy of Korea in the Philippines ou através de uma agência de viagens credenciada pela embaixada." },
+        { "q": "Posso obter um visto de entrada múltipla?", "a": "Vistos de entrada múltipla são possíveis para viajantes qualificados (por exemplo, com um bom histórico de viagens). Consulte a embaixada sobre a elegibilidade atual." },
+        { "q": "Ainda preciso do e-Arrival Card?", "a": "Regras de documentos de entrada como o e-Arrival Card ainda podem se aplicar na chegada. Verifique as regras vigentes perto da data da sua viagem." }
+      ]
+    }
+  },
+  "fr": {
+    "kicker": "Guide des visas · Philippines → Corée",
+    "readingTime": "Lecture de 8 min",
+    "h1": "Visa pour la Corée pour les Philippins",
+    "metaTitle": "Visa pour la Corée depuis les Philippines : guide étape par étape (2026) — Korea Trip Hub",
+    "metaDesc": "Comment demander un visa de tourisme pour la Corée depuis les Philippines : où déposer, documents (et où obtenir chacun), frais, délai de traitement et liens officiels. Le visa de tourisme de court séjour C-3 est GRATUIT.",
+    "ui": { "visa": "Type de visa", "stay": "Durée du séjour", "entry": "Type d'entrée", "where": "Où l'obtenir", "official": "Source officielle", "required": "Obligatoire", "conditional": "Le cas échéant", "recommended": "Recommandé", "confirm": "Les frais/règles peuvent changer — vérifiez à la source", "source": "Source", "updated": "Mis à jour", "tldr": "EN BREF" },
+    "verdict": {
+      "headline": "Oui — les titulaires d'un passeport philippin ont besoin d'un visa, mais il est GRATUIT.",
+      "sub": "Vous demandez le visa de tourisme C-3 avant de voyager vers la Corée continentale. L'avantage : pas de frais de visa, un traitement rapide, et depuis février 2026 vous ne fournissez plus de relevés bancaires de 3 mois.",
+      "type": "C-3 Tourisme",
+      "stay": "Jusqu'à 90 jours",
+      "entry": "Entrée unique (entrée multiple possible pour les voyageurs éligibles)"
+    },
+    "highlights": [
+      { "icon": "🆓", "tone": "green", "title": "Aucun frais de visa", "body": "Le visa de tourisme C-3 est gratuit pour les titulaires d'un passeport philippin. Méfiez-vous des agences qui ajoutent leurs propres frais de service." },
+      { "icon": "📉", "tone": "blue", "title": "Simplifié depuis le 20 février 2026", "body": "Les demandeurs aux Philippines ne sont plus tenus de fournir les relevés bancaires des 3 derniers mois. Les salariés présentent à la place l'ITR + Certificate of Employment." },
+      { "icon": "🏝️", "tone": "amber", "title": "Île de Jeju — entrée sans visa distincte", "body": "Il existe des options limitées d'entrée sans visa (à commencer par l'île de Jeju). Elles sont distinctes du visa de tourisme pour le continent." }
+    ],
+    "tldr": [
+      "Le visa de tourisme C-3 est obligatoire pour la Corée continentale — mais il est GRATUIT.",
+      "Remplissez le formulaire sur visa.go.kr, puis déposez-le via l'ambassade de Corée ou une agence de voyages agréée.",
+      "Salariés : apportez l'ITR + Certificate of Employment. Chefs d'entreprise : DTI/SEC + permis d'exploitation.",
+      "Depuis février 2026, vous n'avez plus besoin de relevés bancaires de 3 mois. Le traitement prend environ 3–5 jours ouvrables."
+    ],
+    "steps": {
+      "title": "La demande, étape par étape",
+      "items": [
+        { "n": 1, "title": "Confirmez le type de visa", "detail": "Pour le tourisme, demandez le visa de tourisme de court séjour C-3." },
+        { "n": 2, "title": "Remplissez le formulaire sur visa.go.kr", "detail": "Complétez le formulaire de demande sur le Korea Visa Portal — le seul site officiel — puis imprimez-le et signez-le.", "link": "https://www.visa.go.kr", "linkLabel": "Korea Visa Portal" },
+        { "n": 3, "title": "Préparez vos documents", "detail": "Rassemblez la liste ci-dessous. Les salariés se concentrent sur l'ITR + Certificate of Employment ; les chefs d'entreprise sur l'enregistrement + le permis." },
+        { "n": 4, "title": "Déposez à l'ambassade / agence agréée", "detail": "Déposez votre demande à l'Embassy of Korea in the Philippines ou auprès d'une agence de voyages agréée par l'ambassade." },
+        { "n": 5, "title": "Aucun frais de visa à payer", "detail": "Le visa lui-même est gratuit. Si vous utilisez une agence de voyages, elle peut facturer ses propres frais de gestion — les frais de l'ambassade sont nuls." },
+        { "n": 6, "title": "Attendez environ 3–5 jours ouvrables", "detail": "Le traitement est rapide, mais prévoyez plus de temps autour des jours fériés coréens (Chuseok, Seollal)." },
+        { "n": 7, "title": "Récupérez votre passeport", "detail": "Récupérez votre passeport et vérifiez immédiatement les détails du visa." }
+      ]
+    },
+    "documents": {
+      "title": "Liste des documents — avec où et comment obtenir chacun",
+      "intro": "Pour chaque élément, voici où l'obtenir et ce qu'il doit montrer. Les exigences diffèrent pour les salariés, les chefs d'entreprise et les étudiants.",
+      "cols": ["Document", "Où l'obtenir", "Ce qu'il doit montrer"],
+      "rows": [
+        { "doc": "Passeport", "req": "required", "where": "Vous l'avez déjà", "how": "Valide 6+ mois avec des pages vierges." },
+        { "doc": "Formulaire de demande de visa", "req": "required", "where": "visa.go.kr", "how": "Remplissez-le sur le Korea Visa Portal, imprimez, signez.", "link": "https://www.visa.go.kr" },
+        { "doc": "Photo", "req": "required", "where": "N'importe quel studio photo", "how": "Photo récente format passeport, fond blanc." },
+        { "doc": "Attestation bancaire", "req": "required", "where": "Votre banque", "how": "Une attestation bancaire de votre compte. Remarque : depuis le 20 février 2026, les relevés bancaires de 3 mois ne sont plus exigés." },
+        { "doc": "ITR (salariés)", "req": "conditional", "where": "BIR / employeur (Form 2316)", "how": "Déclaration de revenus (Income Tax Return) prouvant vos revenus d'emploi.", "link": "https://www.bir.gov.ph" },
+        { "doc": "Certificate of Employment (COE)", "req": "conditional", "where": "Votre employeur / RH", "how": "Sur papier à en-tête de l'entreprise : poste, salaire et dates de congé approuvées." },
+        { "doc": "Enregistrement d'entreprise (indépendants)", "req": "conditional", "where": "DTI ou SEC + LGU", "how": "Enregistrement DTI (entrepreneur individuel) ou SEC (société), plus votre permis d'exploitation/permis du maire (mayor's permit).", "link": "https://www.dti.gov.ph" },
+        { "doc": "Réservation de vol aller-retour et d'hôtel", "req": "required", "where": "Compagnie aérienne / sites de réservation", "how": "Les réservations/l'itinéraire suffisent — ne payez pas de billet avant l'approbation." }
+      ],
+      "legend": { "required": "Obligatoire", "conditional": "Selon votre emploi", "recommended": "Recommandé" }
+    },
+    "funds": {
+      "title": "« Comment prouver que je peux financer le voyage ? »",
+      "body": "Depuis février 2026, vous ne fournissez plus de relevés bancaires de 3 mois — une attestation bancaire accompagnée de votre ITR/justificatif d'emploi (ou d'entreprise) porte le volet financier. L'objectif est de démontrer des revenus stables et des liens solides avec les Philippines.",
+      "tips": [
+        "Salariés : l'ITR + Certificate of Employment sont le cœur de votre dossier.",
+        "Chefs d'entreprise : enregistrement + permis d'exploitation + une attestation bancaire.",
+        "Vous êtes parrainé ? Ajoutez les documents du parrain et une preuve du lien de parenté."
+      ]
+    },
+    "pitfalls": {
+      "title": "Erreurs qui entraînent des refus et des retards",
+      "items": [
+        { "icon": "💳", "t": "Payer des « frais de visa »", "d": "Le visa de l'ambassade est GRATUIT. Seuls les frais de gestion de l'agence sont des suppléments légitimes." },
+        { "icon": "🧾", "t": "Justificatif d'emploi insuffisant", "d": "ITR ou COE manquant. Ils sont désormais au cœur du dossier d'un demandeur philippin." },
+        { "icon": "🎫", "t": "Payer les vols trop tôt", "d": "Acheter des billets non remboursables avant l'approbation — une réservation suffit." },
+        { "icon": "🏝️", "t": "Confondre Jeju et le continent", "d": "Les options sans visa de Jeju ne couvrent pas les voyages en Corée continentale." },
+        { "icon": "🗓️", "t": "Faire la demande en pleine période de fêtes", "d": "Le traitement ralentit autour de Chuseok/Seollal — faites votre demande plus tôt." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ sur le visa Philippines → Corée",
+      "items": [
+        { "q": "Les Philippins ont-ils besoin d'un visa pour la Corée ?", "a": "Oui pour la Corée continentale — vous demandez un visa de tourisme C-3 avant de voyager. Il est gratuit. L'île de Jeju dispose d'une entrée sans visa distincte." },
+        { "q": "Combien coûtent les frais de visa ?", "a": "Il n'y a pas de frais de visa pour le visa de tourisme C-3 pour les titulaires d'un passeport philippin. Une agence de voyages peut facturer ses propres frais de service, mais les frais de l'ambassade sont nuls." },
+        { "q": "Ai-je besoin de relevés bancaires ?", "a": "Depuis le 20 février 2026, les relevés bancaires de 3 mois ne sont plus exigés. Les salariés présentent l'ITR + Certificate of Employment ; les chefs d'entreprise présentent l'enregistrement + le permis." },
+        { "q": "Combien de temps cela prend-il ?", "a": "Environ 3–5 jours ouvrables, plus longtemps autour des jours fériés coréens comme Chuseok et Seollal." },
+        { "q": "Où dois-je déposer ma demande ?", "a": "À l'Embassy of Korea in the Philippines ou via une agence de voyages agréée par l'ambassade." },
+        { "q": "Puis-je obtenir un visa à entrées multiples ?", "a": "Les visas à entrées multiples sont possibles pour les voyageurs éligibles (par exemple, un solide historique de voyages). Renseignez-vous auprès de l'ambassade sur les conditions actuelles." },
+        { "q": "Ai-je toujours besoin de l'e-Arrival Card ?", "a": "Les règles relatives aux documents d'entrée comme l'e-Arrival Card peuvent encore s'appliquer à l'arrivée. Vérifiez les règles en vigueur à l'approche de la date de votre voyage." }
+      ]
+    }
+  },
+  "de": {
+    "kicker": "Visa-Leitfaden · Philippinen → Korea",
+    "readingTime": "8 Min. Lesezeit",
+    "h1": "Korea-Visum für Filipinos",
+    "metaTitle": "Korea-Visum von den Philippinen: Schritt-für-Schritt-Anleitung (2026) — Korea Trip Hub",
+    "metaDesc": "So beantragen Sie ein Korea-Touristenvisum von den Philippinen: wo Sie es einreichen, Dokumente (und wo Sie jedes bekommen), Gebühr, Bearbeitungszeit und offizielle Links. Das C-3-Kurzzeit-Touristenvisum ist KOSTENLOS.",
+    "ui": { "visa": "Visumart", "stay": "Aufenthaltsdauer", "entry": "Einreiseart", "where": "Wo erhältlich", "official": "Offizielle Quelle", "required": "Erforderlich", "conditional": "Falls zutreffend", "recommended": "Empfohlen", "confirm": "Gebühr/Regeln können sich ändern — bei der Quelle prüfen", "source": "Quelle", "updated": "Aktualisiert", "tldr": "KURZ" },
+    "verdict": {
+      "headline": "Ja — Inhaber eines philippinischen Passes benötigen ein Visum, aber es ist KOSTENLOS.",
+      "sub": "Sie beantragen das C-3-Touristenvisum, bevor Sie auf das koreanische Festland reisen. Der Vorteil: keine Visumgebühr, schnelle Bearbeitung, und seit Februar 2026 reichen Sie keine Kontoauszüge über 3 Monate mehr ein.",
+      "type": "C-3 Tourist",
+      "stay": "Bis zu 90 Tage",
+      "entry": "Einmalige Einreise (mehrfache Einreise für qualifizierte Reisende möglich)"
+    },
+    "highlights": [
+      { "icon": "🆓", "tone": "green", "title": "Keine Visumgebühr", "body": "Das C-3-Touristenvisum ist für Inhaber eines philippinischen Passes kostenlos. Vorsicht bei Agenturen, die eigene Servicegebühren hinzufügen." },
+      { "icon": "📉", "tone": "blue", "title": "Vereinfacht seit dem 20. Februar 2026", "body": "Antragsteller auf den Philippinen müssen die Kontoauszüge der letzten 3 Monate nicht mehr einreichen. Angestellte legen stattdessen ITR + Certificate of Employment vor." },
+      { "icon": "🏝️", "tone": "amber", "title": "Insel Jeju — separate visumfreie Einreise", "body": "Es gibt begrenzte Möglichkeiten zur visumfreien Einreise (beginnend mit der Insel Jeju). Diese sind vom Touristenvisum für das Festland getrennt." }
+    ],
+    "tldr": [
+      "Für das koreanische Festland ist das C-3-Touristenvisum erforderlich — aber es ist KOSTENLOS.",
+      "Füllen Sie das Formular auf visa.go.kr aus und reichen Sie es dann über die koreanische Botschaft oder ein akkreditiertes Reisebüro ein.",
+      "Angestellte: bringen Sie ITR + Certificate of Employment mit. Geschäftsinhaber: DTI/SEC + Gewerbeerlaubnis.",
+      "Seit Februar 2026 benötigen Sie keine Kontoauszüge über 3 Monate mehr. Die Bearbeitung dauert etwa 3–5 Werktage."
+    ],
+    "steps": {
+      "title": "Der Antrag, Schritt für Schritt",
+      "items": [
+        { "n": 1, "title": "Bestätigen Sie die Visumart", "detail": "Für Tourismus beantragen Sie das C-3-Kurzzeit-Touristenvisum." },
+        { "n": 2, "title": "Füllen Sie das Formular auf visa.go.kr aus", "detail": "Füllen Sie das Antragsformular im Korea Visa Portal aus — der einzigen offiziellen Website — drucken Sie es dann aus und unterschreiben Sie es.", "link": "https://www.visa.go.kr", "linkLabel": "Korea Visa Portal" },
+        { "n": 3, "title": "Bereiten Sie Ihre Dokumente vor", "detail": "Stellen Sie die Checkliste unten zusammen. Bei Angestellten stehen ITR + Certificate of Employment im Mittelpunkt; bei Geschäftsinhabern die Registrierung + Erlaubnis." },
+        { "n": 4, "title": "Reichen Sie bei der Botschaft / akkreditierten Agentur ein", "detail": "Reichen Sie Ihren Antrag bei der Embassy of Korea in the Philippines oder einem von der Botschaft akkreditierten Reisebüro ein." },
+        { "n": 5, "title": "Keine Visumgebühr zu zahlen", "detail": "Das Visum selbst ist kostenlos. Wenn Sie ein Reisebüro nutzen, kann es eine eigene Bearbeitungsgebühr erheben — die Botschaftsgebühr beträgt null." },
+        { "n": 6, "title": "Warten Sie ~3–5 Werktage", "detail": "Die Bearbeitung ist schnell, planen Sie aber rund um koreanische Feiertage (Chuseok, Seollal) mehr Zeit ein." },
+        { "n": 7, "title": "Holen Sie Ihren Pass ab", "detail": "Holen Sie Ihren Pass ab und prüfen Sie die Visumdaten sofort." }
+      ]
+    },
+    "documents": {
+      "title": "Dokumenten-Checkliste — mit wo und wie Sie jedes erhalten",
+      "intro": "Für jeden Punkt finden Sie hier, wo Sie ihn erhalten und was er nachweisen muss. Die Anforderungen unterscheiden sich für Angestellte, Geschäftsinhaber und Studierende.",
+      "cols": ["Dokument", "Wo erhältlich", "Was es nachweisen muss"],
+      "rows": [
+        { "doc": "Reisepass", "req": "required", "where": "Haben Sie bereits", "how": "Noch 6+ Monate gültig, mit leeren Seiten." },
+        { "doc": "Visumantragsformular", "req": "required", "where": "visa.go.kr", "how": "Im Korea Visa Portal ausfüllen, drucken, unterschreiben.", "link": "https://www.visa.go.kr" },
+        { "doc": "Foto", "req": "required", "where": "Beliebiges Fotostudio", "how": "Aktuelles Passfoto, weißer Hintergrund." },
+        { "doc": "Bankbescheinigung", "req": "required", "where": "Ihre Bank", "how": "Eine Bankbescheinigung Ihres Kontos. Hinweis: Seit dem 20. Februar 2026 sind Kontoauszüge über 3 Monate nicht mehr erforderlich." },
+        { "doc": "ITR (Angestellte)", "req": "conditional", "where": "BIR / Arbeitgeber (Form 2316)", "how": "Einkommensteuererklärung (Income Tax Return), die Ihr Arbeitseinkommen nachweist.", "link": "https://www.bir.gov.ph" },
+        { "doc": "Certificate of Employment (COE)", "req": "conditional", "where": "Ihr Arbeitgeber / Personalabteilung", "how": "Auf dem Firmenbriefkopf: Position, Gehalt und genehmigte Urlaubstage." },
+        { "doc": "Gewerbeanmeldung (Selbstständige)", "req": "conditional", "where": "DTI oder SEC + LGU", "how": "DTI-Registrierung (Einzelunternehmer) oder SEC-Registrierung (Kapitalgesellschaft), plus Ihre Gewerbeerlaubnis/Bürgermeistererlaubnis (mayor's permit).", "link": "https://www.dti.gov.ph" },
+        { "doc": "Hin- und Rückflug- sowie Hotelreservierung", "req": "required", "where": "Fluggesellschaft / Buchungsseiten", "how": "Reservierungen/Reiseplan genügen — zahlen Sie kein Ticket vor der Genehmigung." }
+      ],
+      "legend": { "required": "Erforderlich", "conditional": "Hängt von Ihrem Beruf ab", "recommended": "Empfohlen" }
+    },
+    "funds": {
+      "title": "„Wie weise ich nach, dass ich mir die Reise leisten kann?“",
+      "body": "Seit Februar 2026 reichen Sie keine Kontoauszüge über 3 Monate mehr ein — eine Bankbescheinigung zusammen mit Ihrem ITR/Arbeits- (oder Geschäfts-)nachweis trägt die finanzielle Darstellung. Ziel ist es, ein stabiles Einkommen und starke Bindungen an die Philippinen nachzuweisen.",
+      "tips": [
+        "Angestellte: ITR + Certificate of Employment sind der Kern Ihrer Unterlagen.",
+        "Geschäftsinhaber: Registrierung + Gewerbeerlaubnis + eine Bankbescheinigung.",
+        "Werden Sie gesponsert? Fügen Sie die Dokumente des Sponsors und einen Nachweis des Verwandtschaftsverhältnisses hinzu."
+      ]
+    },
+    "pitfalls": {
+      "title": "Fehler, die zu Ablehnungen und Verzögerungen führen",
+      "items": [
+        { "icon": "💳", "t": "Eine ‚Visumgebühr‘ zahlen", "d": "Das Visum der Botschaft ist KOSTENLOS. Nur die Bearbeitungsgebühren der Agentur sind legitime Zusatzkosten." },
+        { "icon": "🧾", "t": "Schwacher Arbeitsnachweis", "d": "Fehlendes ITR oder COE. Diese sind jetzt das Herzstück der Unterlagen eines philippinischen Antragstellers." },
+        { "icon": "🎫", "t": "Flüge zu früh bezahlen", "d": "Nicht erstattbare Tickets vor der Genehmigung kaufen — eine Reservierung genügt." },
+        { "icon": "🏝️", "t": "Jeju mit dem Festland verwechseln", "d": "Die visumfreien Optionen von Jeju gelten nicht für Reisen auf das koreanische Festland." },
+        { "icon": "🗓️", "t": "In der Feiertags-Hochsaison beantragen", "d": "Die Bearbeitung verlangsamt sich rund um Chuseok/Seollal — beantragen Sie früher." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ zum Visum Philippinen → Korea",
+      "items": [
+        { "q": "Brauchen Filipinos ein Visum für Korea?", "a": "Ja für das koreanische Festland — Sie beantragen vor der Reise ein C-3-Touristenvisum. Es ist kostenlos. Die Insel Jeju hat eine separate visumfreie Einreise." },
+        { "q": "Wie hoch ist die Visumgebühr?", "a": "Für das C-3-Touristenvisum für Inhaber eines philippinischen Passes gibt es keine Visumgebühr. Ein Reisebüro kann eine eigene Servicegebühr erheben, aber die Botschaftsgebühr beträgt null." },
+        { "q": "Brauche ich Kontoauszüge?", "a": "Seit dem 20. Februar 2026 sind Kontoauszüge über 3 Monate nicht mehr erforderlich. Angestellte legen ITR + Certificate of Employment vor; Geschäftsinhaber legen Registrierung + Erlaubnis vor." },
+        { "q": "Wie lange dauert es?", "a": "Etwa 3–5 Werktage, länger rund um koreanische Feiertage wie Chuseok und Seollal." },
+        { "q": "Wo beantrage ich es?", "a": "Bei der Embassy of Korea in the Philippines oder über ein von der Botschaft akkreditiertes Reisebüro." },
+        { "q": "Kann ich ein Visum für mehrfache Einreise erhalten?", "a": "Visa für mehrfache Einreise sind für qualifizierte Reisende möglich (z. B. mit umfangreicher Reisehistorie). Erkundigen Sie sich bei der Botschaft nach den aktuellen Voraussetzungen." },
+        { "q": "Brauche ich weiterhin die e-Arrival Card?", "a": "Regeln zu Einreisedokumenten wie der e-Arrival Card können bei der Ankunft weiterhin gelten. Prüfen Sie die aktuellen Regeln kurz vor Ihrem Reisedatum." }
+      ]
+    }
+  },
+  "it": {
+    "kicker": "Guida al visto · Filippine → Corea",
+    "readingTime": "8 min di lettura",
+    "h1": "Visto per la Corea per i filippini",
+    "metaTitle": "Visto per la Corea dalle Filippine: guida passo passo (2026) — Korea Trip Hub",
+    "metaDesc": "Come richiedere un visto turistico per la Corea dalle Filippine: dove presentarlo, documenti (e dove ottenere ciascuno), tariffa, tempi di elaborazione e link ufficiali. Il visto turistico di breve durata C-3 è GRATUITO.",
+    "ui": { "visa": "Tipo di visto", "stay": "Durata del soggiorno", "entry": "Tipo di ingresso", "where": "Dove ottenerlo", "official": "Fonte ufficiale", "required": "Obbligatorio", "conditional": "Se applicabile", "recommended": "Consigliato", "confirm": "Tariffa/regole possono cambiare — verifica alla fonte", "source": "Fonte", "updated": "Aggiornato", "tldr": "IN BREVE" },
+    "verdict": {
+      "headline": "Sì — i titolari di passaporto filippino hanno bisogno di un visto, ma è GRATUITO.",
+      "sub": "Richiedi il visto turistico C-3 prima di viaggiare verso la Corea continentale. Il vantaggio: nessuna tariffa per il visto, elaborazione rapida e, da febbraio 2026, non presenti più gli estratti conto bancari di 3 mesi.",
+      "type": "C-3 Turista",
+      "stay": "Fino a 90 giorni",
+      "entry": "Ingresso singolo (ingresso multiplo possibile per i viaggiatori idonei)"
+    },
+    "highlights": [
+      { "icon": "🆓", "tone": "green", "title": "Nessuna tariffa per il visto", "body": "Il visto turistico C-3 è gratuito per i titolari di passaporto filippino. Attenzione alle agenzie che aggiungono le proprie spese di servizio." },
+      { "icon": "📉", "tone": "blue", "title": "Semplificato dal 20 febbraio 2026", "body": "I richiedenti nelle Filippine non devono più presentare gli estratti conto bancari degli ultimi 3 mesi. I dipendenti mostrano invece l'ITR + Certificate of Employment." },
+      { "icon": "🏝️", "tone": "amber", "title": "Isola di Jeju — ingresso senza visto separato", "body": "Esistono opzioni limitate di ingresso senza visto (a partire dall'isola di Jeju). Sono separate dal visto turistico per la terraferma." }
+    ],
+    "tldr": [
+      "Il visto turistico C-3 è obbligatorio per la Corea continentale — ma è GRATUITO.",
+      "Compila il modulo su visa.go.kr, poi presentalo tramite l'Ambasciata della Corea o un'agenzia di viaggi accreditata.",
+      "Dipendenti: portate l'ITR + Certificate of Employment. Titolari d'impresa: DTI/SEC + licenza commerciale.",
+      "Da febbraio 2026 non servono più estratti conto bancari di 3 mesi. L'elaborazione richiede circa 3–5 giorni lavorativi."
+    ],
+    "steps": {
+      "title": "La domanda, passo dopo passo",
+      "items": [
+        { "n": 1, "title": "Conferma il tipo di visto", "detail": "Per il turismo, richiedi il visto turistico di breve durata C-3." },
+        { "n": 2, "title": "Compila il modulo su visa.go.kr", "detail": "Completa il modulo di domanda sul Korea Visa Portal — l'unico sito ufficiale — poi stampalo e firmalo.", "link": "https://www.visa.go.kr", "linkLabel": "Korea Visa Portal" },
+        { "n": 3, "title": "Prepara i tuoi documenti", "detail": "Raccogli la lista qui sotto. I dipendenti si concentrano sull'ITR + Certificate of Employment; i titolari d'impresa sulla registrazione + licenza." },
+        { "n": 4, "title": "Presenta all'Ambasciata / agenzia accreditata", "detail": "Presenta la tua domanda alla Embassy of Korea in the Philippines o a un'agenzia di viaggi accreditata dall'ambasciata." },
+        { "n": 5, "title": "Nessuna tariffa per il visto da pagare", "detail": "Il visto in sé è gratuito. Se usi un'agenzia di viaggi, può addebitare la propria commissione di gestione — la tariffa dell'ambasciata è zero." },
+        { "n": 6, "title": "Attendi ~3–5 giorni lavorativi", "detail": "L'elaborazione è rapida, ma prevedi più tempo in prossimità delle festività coreane (Chuseok, Seollal)." },
+        { "n": 7, "title": "Ritira il passaporto", "detail": "Ritira il passaporto e controlla subito i dettagli del visto." }
+      ]
+    },
+    "documents": {
+      "title": "Lista dei documenti — con dove e come ottenere ciascuno",
+      "intro": "Per ogni voce, ecco dove ottenerla e cosa deve mostrare. I requisiti differiscono per dipendenti, titolari d'impresa e studenti.",
+      "cols": ["Documento", "Dove ottenerlo", "Cosa deve mostrare"],
+      "rows": [
+        { "doc": "Passaporto", "req": "required", "where": "Ce l'hai già", "how": "Valido 6+ mesi con pagine bianche." },
+        { "doc": "Modulo di domanda del visto", "req": "required", "where": "visa.go.kr", "how": "Compila sul Korea Visa Portal, stampa, firma.", "link": "https://www.visa.go.kr" },
+        { "doc": "Foto", "req": "required", "where": "Qualsiasi studio fotografico", "how": "Foto recente formato tessera, sfondo bianco." },
+        { "doc": "Certificato bancario", "req": "required", "where": "La tua banca", "how": "Un certificato bancario del tuo conto. Nota: dal 20 febbraio 2026, gli estratti conto bancari di 3 mesi non sono più richiesti." },
+        { "doc": "ITR (dipendenti)", "req": "conditional", "where": "BIR / datore di lavoro (Form 2316)", "how": "Dichiarazione dei redditi (Income Tax Return) che attesti il tuo reddito da lavoro.", "link": "https://www.bir.gov.ph" },
+        { "doc": "Certificate of Employment (COE)", "req": "conditional", "where": "Il tuo datore di lavoro / HR", "how": "Su carta intestata dell'azienda: posizione, stipendio e date di ferie approvate." },
+        { "doc": "Registrazione dell'attività (lavoratori autonomi)", "req": "conditional", "where": "DTI o SEC + LGU", "how": "Registrazione DTI (ditta individuale) o SEC (società), più la tua licenza commerciale/licenza del sindaco (mayor's permit).", "link": "https://www.dti.gov.ph" },
+        { "doc": "Prenotazione volo andata e ritorno e hotel", "req": "required", "where": "Compagnia aerea / siti di prenotazione", "how": "Prenotazioni/itinerario sono sufficienti — non pagare un biglietto prima dell'approvazione." }
+      ],
+      "legend": { "required": "Obbligatorio", "conditional": "Dipende dal tuo lavoro", "recommended": "Consigliato" }
+    },
+    "funds": {
+      "title": "«Come dimostro di potermi permettere il viaggio?»",
+      "body": "Da febbraio 2026, non presenti più estratti conto bancari di 3 mesi — un certificato bancario insieme al tuo ITR/prova di impiego (o d'impresa) racconta la situazione finanziaria. L'obiettivo è dimostrare un reddito stabile e forti legami con le Filippine.",
+      "tips": [
+        "Dipendenti: l'ITR + Certificate of Employment sono il cuore del tuo fascicolo.",
+        "Titolari d'impresa: registrazione + licenza commerciale + un certificato bancario.",
+        "Hai uno sponsor? Aggiungi i documenti dello sponsor e la prova del rapporto di parentela."
+      ]
+    },
+    "pitfalls": {
+      "title": "Errori che causano rifiuti e ritardi",
+      "items": [
+        { "icon": "💳", "t": "Pagare una 'tariffa per il visto'", "d": "Il visto dell'ambasciata è GRATUITO. Solo le commissioni di gestione dell'agenzia sono extra legittimi." },
+        { "icon": "🧾", "t": "Prova d'impiego debole", "d": "ITR o COE mancante. Ora sono il cuore del fascicolo di un richiedente filippino." },
+        { "icon": "🎫", "t": "Pagare i voli troppo presto", "d": "Acquistare biglietti non rimborsabili prima dell'approvazione — una prenotazione è sufficiente." },
+        { "icon": "🏝️", "t": "Confondere Jeju con la terraferma", "d": "Le opzioni senza visto di Jeju non coprono i viaggi nella Corea continentale." },
+        { "icon": "🗓️", "t": "Presentare domanda nei picchi festivi", "d": "L'elaborazione rallenta in prossimità di Chuseok/Seollal — presenta domanda in anticipo." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ sul visto Filippine → Corea",
+      "items": [
+        { "q": "I filippini hanno bisogno di un visto per la Corea?", "a": "Sì per la Corea continentale — richiedi un visto turistico C-3 prima di viaggiare. È gratuito. L'isola di Jeju ha un ingresso senza visto separato." },
+        { "q": "Quanto costa la tariffa del visto?", "a": "Non c'è alcuna tariffa per il visto turistico C-3 per i titolari di passaporto filippino. Un'agenzia di viaggi può addebitare la propria commissione di servizio, ma la tariffa dell'ambasciata è zero." },
+        { "q": "Servono estratti conto bancari?", "a": "Dal 20 febbraio 2026, gli estratti conto bancari di 3 mesi non sono più richiesti. I dipendenti mostrano l'ITR + Certificate of Employment; i titolari d'impresa mostrano registrazione + licenza." },
+        { "q": "Quanto tempo ci vuole?", "a": "Circa 3–5 giorni lavorativi, di più in prossimità di festività coreane come Chuseok e Seollal." },
+        { "q": "Dove presento la domanda?", "a": "Alla Embassy of Korea in the Philippines o tramite un'agenzia di viaggi accreditata dall'ambasciata." },
+        { "q": "Posso ottenere un visto a ingressi multipli?", "a": "I visti a ingressi multipli sono possibili per i viaggiatori idonei (ad es. con una solida storia di viaggi). Chiedi all'ambasciata i requisiti attuali." },
+        { "q": "Ho ancora bisogno dell'e-Arrival Card?", "a": "Le regole sui documenti d'ingresso come l'e-Arrival Card possono ancora applicarsi all'arrivo. Controlla le regole vigenti in prossimità della data del viaggio." }
+      ]
+    }
+  },
+  "tr": {
+    "kicker": "Vize rehberi · Filipinler → Kore",
+    "readingTime": "8 dk okuma",
+    "h1": "Filipinliler için Kore vizesi",
+    "metaTitle": "Filipinler'den Kore Vizesi: Adım Adım Rehber (2026) — Korea Trip Hub",
+    "metaDesc": "Filipinler'den Kore turist vizesine nasıl başvurulur: nereye sunulur, belgeler (ve her biri nereden alınır), ücret, işlem süresi ve resmi bağlantılar. C-3 kısa süreli turist vizesi ÜCRETSİZDİR.",
+    "ui": { "visa": "Vize türü", "stay": "Kalış süresi", "entry": "Giriş türü", "where": "Nereden alınır", "official": "Resmi kaynak", "required": "Gerekli", "conditional": "Uygunsa", "recommended": "Önerilir", "confirm": "Ücret/kurallar değişebilir — kaynaktan teyit edin", "source": "Kaynak", "updated": "Güncellendi", "tldr": "ÖZET" },
+    "verdict": {
+      "headline": "Evet — Filipin pasaportu sahiplerinin vizeye ihtiyacı var, ancak ÜCRETSİZ.",
+      "sub": "Kore anakarasına seyahat etmeden önce C-3 turist vizesine başvurursunuz. Avantajı: vize ücreti yok, işlem hızlı ve Şubat 2026'dan bu yana artık 3 aylık banka hesap dökümü sunmuyorsunuz.",
+      "type": "C-3 Turist",
+      "stay": "En fazla 90 gün",
+      "entry": "Tek giriş (uygun yolcular için çoklu giriş mümkün)"
+    },
+    "highlights": [
+      { "icon": "🆓", "tone": "green", "title": "Vize ücreti yok", "body": "C-3 turist vizesi Filipin pasaportu sahipleri için ücretsizdir. Kendi hizmet bedelini ekleyen acentelere dikkat edin." },
+      { "icon": "📉", "tone": "blue", "title": "20 Şubat 2026'dan bu yana basitleştirildi", "body": "Filipinler'deki başvuru sahiplerinin artık son 3 ayın banka hesap dökümünü sunması gerekmiyor. Çalışanlar bunun yerine ITR + Certificate of Employment gösterir." },
+      { "icon": "🏝️", "tone": "amber", "title": "Jeju Adası — ayrı vizesiz giriş", "body": "Sınırlı vizesiz giriş seçenekleri vardır (Jeju Adası'ndan başlayarak). Bunlar anakara turist vizesinden ayrıdır." }
+    ],
+    "tldr": [
+      "Kore anakarası için C-3 turist vizesi gereklidir — ancak ÜCRETSİZDİR.",
+      "visa.go.kr adresinde formu doldurun, ardından Kore Büyükelçiliği veya akredite bir seyahat acentesi aracılığıyla sunun.",
+      "Çalışanlar: ITR + Certificate of Employment getirin. İşletme sahipleri: DTI/SEC + işletme ruhsatı.",
+      "Şubat 2026'dan bu yana 3 aylık banka hesap dökümüne ihtiyacınız yok. İşlem yaklaşık 3–5 iş günü sürer."
+    ],
+    "steps": {
+      "title": "Başvuru, adım adım",
+      "items": [
+        { "n": 1, "title": "Vize türünü onaylayın", "detail": "Turizm için C-3 kısa süreli turist vizesine başvurun." },
+        { "n": 2, "title": "visa.go.kr adresinde formu doldurun", "detail": "Başvuru formunu tek resmi site olan Korea Visa Portal'da doldurun, ardından yazdırıp imzalayın.", "link": "https://www.visa.go.kr", "linkLabel": "Korea Visa Portal" },
+        { "n": 3, "title": "Belgelerinizi hazırlayın", "detail": "Aşağıdaki kontrol listesini toplayın. Çalışanlar ITR + Certificate of Employment üzerine odaklanır; işletme sahipleri kayıt + ruhsat üzerine." },
+        { "n": 4, "title": "Büyükelçiliğe / akredite acenteye sunun", "detail": "Başvurunuzu Embassy of Korea in the Philippines'e veya büyükelçilikçe akredite bir seyahat acentesine iletin." },
+        { "n": 5, "title": "Ödenecek vize ücreti yok", "detail": "Vizenin kendisi ücretsizdir. Bir seyahat acentesi kullanırsanız kendi işlem ücretini alabilir — büyükelçilik ücreti sıfırdır." },
+        { "n": 6, "title": "Yaklaşık 3–5 iş günü bekleyin", "detail": "İşlem hızlıdır, ancak Kore tatilleri (Chuseok, Seollal) dolayında daha fazla süre tanıyın." },
+        { "n": 7, "title": "Pasaportunuzu alın", "detail": "Pasaportunuzu alın ve vize bilgilerini hemen kontrol edin." }
+      ]
+    },
+    "documents": {
+      "title": "Belge kontrol listesi — her birini nereden ve nasıl alacağınızla birlikte",
+      "intro": "Her madde için, onu nereden alacağınız ve neyi göstermesi gerektiği burada. Gereksinimler çalışanlar, işletme sahipleri ve öğrenciler için farklıdır.",
+      "cols": ["Belge", "Nereden alınır", "Neyi göstermeli"],
+      "rows": [
+        { "doc": "Pasaport", "req": "required", "where": "Zaten sizde", "how": "6+ ay geçerli, boş sayfaları olan." },
+        { "doc": "Vize başvuru formu", "req": "required", "where": "visa.go.kr", "how": "Korea Visa Portal'da doldurun, yazdırın, imzalayın.", "link": "https://www.visa.go.kr" },
+        { "doc": "Fotoğraf", "req": "required", "where": "Herhangi bir fotoğraf stüdyosu", "how": "Yakın tarihli pasaport tipi fotoğraf, beyaz arka plan." },
+        { "doc": "Banka belgesi", "req": "required", "where": "Bankanız", "how": "Hesabınıza ait bir banka belgesi. Not: 20 Şubat 2026'dan bu yana 3 aylık banka hesap dökümü artık gerekmiyor." },
+        { "doc": "ITR (çalışanlar)", "req": "conditional", "where": "BIR / işveren (Form 2316)", "how": "Çalışma gelirinizi kanıtlayan gelir vergisi beyannamesi (Income Tax Return).", "link": "https://www.bir.gov.ph" },
+        { "doc": "Certificate of Employment (COE)", "req": "conditional", "where": "İşvereniniz / İK", "how": "Şirket antetli kağıdında: pozisyon, maaş ve onaylanmış izin tarihleri." },
+        { "doc": "İşletme kaydı (serbest çalışanlar)", "req": "conditional", "where": "DTI veya SEC + LGU", "how": "DTI (şahıs şirketi) veya SEC (kurumsal) kaydı, ayrıca işletme ruhsatınız/belediye başkanı ruhsatı (mayor's permit).", "link": "https://www.dti.gov.ph" },
+        { "doc": "Gidiş-dönüş uçuş ve otel rezervasyonu", "req": "required", "where": "Havayolu / rezervasyon siteleri", "how": "Rezervasyonlar/seyahat planı yeterlidir — onaydan önce bir bilet için ödeme yapmayın." }
+      ],
+      "legend": { "required": "Gerekli", "conditional": "İşinize bağlı", "recommended": "Önerilir" }
+    },
+    "funds": {
+      "title": "\"Seyahatin masrafını karşılayabileceğimi nasıl kanıtlarım?\"",
+      "body": "Şubat 2026'dan bu yana artık 3 aylık banka hesap dökümü sunmuyorsunuz — bir banka belgesi ile birlikte ITR/istihdam (veya işletme) kanıtınız mali tabloyu ortaya koyar. Amaç, istikrarlı gelir ve Filipinler'e güçlü bağlar göstermektir.",
+      "tips": [
+        "Çalışanlar: ITR + Certificate of Employment dosyanızın kalbidir.",
+        "İşletme sahipleri: kayıt + işletme ruhsatı + bir banka belgesi.",
+        "Sponsorunuz mu var? Sponsorun belgelerini ve yakınlık kanıtını ekleyin."
+      ]
+    },
+    "pitfalls": {
+      "title": "Ret ve gecikmelere yol açan hatalar",
+      "items": [
+        { "icon": "💳", "t": "Bir 'vize ücreti' ödemek", "d": "Büyükelçilik vizesi ÜCRETSİZDİR. Yalnızca acentenin işlem ücretleri meşru ek masraflardır." },
+        { "icon": "🧾", "t": "Zayıf istihdam kanıtı", "d": "Eksik ITR veya COE. Bunlar artık bir Filipinli başvuru sahibinin dosyasının kalbidir." },
+        { "icon": "🎫", "t": "Uçuşları erken ödemek", "d": "Onaydan önce iadesiz bilet almak — bir rezervasyon yeterlidir." },
+        { "icon": "🏝️", "t": "Jeju'yu anakarayla karıştırmak", "d": "Jeju'nun vizesiz seçenekleri Kore anakarası seyahatini kapsamaz." },
+        { "icon": "🗓️", "t": "Tatil yoğunluğunda başvurmak", "d": "İşlem Chuseok/Seollal dolayında yavaşlar — daha erken başvurun." }
+      ]
+    },
+    "faq": {
+      "title": "Filipinler → Kore vize SSS",
+      "items": [
+        { "q": "Filipinlilerin Kore için vizeye ihtiyacı var mı?", "a": "Kore anakarası için evet — seyahatten önce C-3 turist vizesine başvurursunuz. Ücretsizdir. Jeju Adası'nın ayrı bir vizesiz girişi vardır." },
+        { "q": "Vize ücreti ne kadar?", "a": "Filipin pasaportu sahipleri için C-3 turist vizesinde vize ücreti yoktur. Bir seyahat acentesi kendi hizmet ücretini alabilir, ancak büyükelçilik ücreti sıfırdır." },
+        { "q": "Banka hesap dökümüne ihtiyacım var mı?", "a": "20 Şubat 2026'dan bu yana 3 aylık banka hesap dökümü artık gerekmiyor. Çalışanlar ITR + Certificate of Employment gösterir; işletme sahipleri kayıt + ruhsat gösterir." },
+        { "q": "Ne kadar sürer?", "a": "Yaklaşık 3–5 iş günü, Chuseok ve Seollal gibi Kore tatilleri dolayında daha uzun." },
+        { "q": "Nereye başvururum?", "a": "Embassy of Korea in the Philippines'e veya büyükelçilikçe akredite bir seyahat acentesi aracılığıyla." },
+        { "q": "Çoklu giriş vizesi alabilir miyim?", "a": "Çoklu giriş vizeleri uygun yolcular için mümkündür (örneğin güçlü bir seyahat geçmişi). Mevcut uygunluk için büyükelçiliğe sorun." },
+        { "q": "Hâlâ e-Arrival Card'a ihtiyacım var mı?", "a": "e-Arrival Card gibi giriş belgesi kuralları varışta hâlâ geçerli olabilir. Seyahat tarihinize yakın güncel kuralları kontrol edin." }
+      ]
+    }
+  },
+  "ms": {
+    "kicker": "Panduan visa · Filipina → Korea",
+    "readingTime": "Bacaan 8 min",
+    "h1": "Visa Korea untuk rakyat Filipina",
+    "metaTitle": "Visa Korea dari Filipina: Panduan Langkah demi Langkah (2026) — Korea Trip Hub",
+    "metaDesc": "Cara memohon visa pelancong Korea dari Filipina: di mana untuk menghantar, dokumen (dan di mana mendapatkan setiap satu), yuran, masa pemprosesan dan pautan rasmi. Visa pelancong jangka pendek C-3 adalah PERCUMA.",
+    "ui": { "visa": "Jenis visa", "stay": "Tempoh tinggal", "entry": "Jenis kemasukan", "where": "Di mana untuk mendapatkannya", "official": "Sumber rasmi", "required": "Diperlukan", "conditional": "Jika berkenaan", "recommended": "Disyorkan", "confirm": "Yuran/peraturan boleh berubah — sahkan di sumber", "source": "Sumber", "updated": "Dikemas kini", "tldr": "RINGKASAN" },
+    "verdict": {
+      "headline": "Ya — pemegang pasport Filipina memerlukan visa, tetapi ia PERCUMA.",
+      "sub": "Anda memohon visa pelancong C-3 sebelum melancong ke tanah besar Korea. Kelebihannya: tiada yuran visa, pemprosesan pantas, dan sejak Februari 2026 anda tidak lagi menghantar penyata bank 3 bulan.",
+      "type": "C-3 Pelancong",
+      "stay": "Sehingga 90 hari",
+      "entry": "Kemasukan tunggal (kemasukan berbilang mungkin untuk pelancong yang layak)"
+    },
+    "highlights": [
+      { "icon": "🆓", "tone": "green", "title": "Tiada yuran visa", "body": "Visa pelancong C-3 adalah percuma untuk pemegang pasport Filipina. Berhati-hati dengan agensi yang menambah caj perkhidmatan mereka sendiri." },
+      { "icon": "📉", "tone": "blue", "title": "Dipermudah sejak 20 Feb 2026", "body": "Pemohon di Filipina tidak lagi dikehendaki menghantar penyata bank untuk 3 bulan terakhir. Pekerja menunjukkan ITR + Certificate of Employment sebaliknya." },
+      { "icon": "🏝️", "tone": "amber", "title": "Pulau Jeju — kemasukan tanpa visa yang berasingan", "body": "Terdapat pilihan kemasukan tanpa visa yang terhad (bermula dengan Pulau Jeju). Ia berasingan daripada visa pelancong tanah besar." }
+    ],
+    "tldr": [
+      "Visa pelancong C-3 diperlukan untuk tanah besar Korea — tetapi ia PERCUMA.",
+      "Isi borang di visa.go.kr, kemudian hantar melalui Kedutaan Korea atau agensi pelancongan yang diiktiraf.",
+      "Pekerja: bawa ITR + Certificate of Employment. Pemilik perniagaan: DTI/SEC + permit perniagaan.",
+      "Sejak Februari 2026 anda tidak lagi memerlukan penyata bank 3 bulan. Pemprosesan mengambil masa kira-kira 3–5 hari bekerja."
+    ],
+    "steps": {
+      "title": "Permohonan, langkah demi langkah",
+      "items": [
+        { "n": 1, "title": "Sahkan jenis visa", "detail": "Untuk pelancongan, mohon visa pelancong jangka pendek C-3." },
+        { "n": 2, "title": "Isi borang di visa.go.kr", "detail": "Lengkapkan borang permohonan di Korea Visa Portal — satu-satunya laman rasmi — kemudian cetak dan tandatangani.", "link": "https://www.visa.go.kr", "linkLabel": "Korea Visa Portal" },
+        { "n": 3, "title": "Sediakan dokumen anda", "detail": "Kumpulkan senarai semak di bawah. Pekerja tertumpu pada ITR + Certificate of Employment; pemilik perniagaan pada pendaftaran + permit." },
+        { "n": 4, "title": "Hantar ke Kedutaan / agensi yang diiktiraf", "detail": "Kemukakan permohonan anda ke Embassy of Korea in the Philippines atau agensi pelancongan yang diiktiraf oleh kedutaan." },
+        { "n": 5, "title": "Tiada yuran visa untuk dibayar", "detail": "Visa itu sendiri percuma. Jika anda menggunakan agensi pelancongan, mereka mungkin mengenakan yuran pengendalian sendiri — yuran kedutaan adalah sifar." },
+        { "n": 6, "title": "Tunggu ~3–5 hari bekerja", "detail": "Pemprosesan pantas, tetapi peruntukkan lebih banyak masa sekitar cuti Korea (Chuseok, Seollal)." },
+        { "n": 7, "title": "Ambil pasport anda", "detail": "Ambil pasport anda dan semak butiran visa dengan segera." }
+      ]
+    },
+    "documents": {
+      "title": "Senarai semak dokumen — dengan di mana & bagaimana mendapatkan setiap satu",
+      "intro": "Untuk setiap item, di sini di mana untuk mendapatkannya dan apa yang mesti ditunjukkan. Keperluan berbeza untuk pekerja, pemilik perniagaan dan pelajar.",
+      "cols": ["Dokumen", "Di mana untuk mendapatkannya", "Apa yang mesti ditunjukkan"],
+      "rows": [
+        { "doc": "Pasport", "req": "required", "where": "Anda sudah memilikinya", "how": "Sah 6+ bulan dengan muka surat kosong." },
+        { "doc": "Borang permohonan visa", "req": "required", "where": "visa.go.kr", "how": "Lengkapkan di Korea Visa Portal, cetak, tandatangani.", "link": "https://www.visa.go.kr" },
+        { "doc": "Foto", "req": "required", "where": "Mana-mana studio foto", "how": "Foto gaya pasport terkini, latar belakang putih." },
+        { "doc": "Sijil bank", "req": "required", "where": "Bank anda", "how": "Sijil bank akaun anda. Nota: sejak 20 Feb 2026, penyata bank 3 bulan tidak lagi diperlukan." },
+        { "doc": "ITR (pekerja)", "req": "conditional", "where": "BIR / majikan (Form 2316)", "how": "Penyata Cukai Pendapatan (Income Tax Return) yang membuktikan pendapatan pekerjaan anda.", "link": "https://www.bir.gov.ph" },
+        { "doc": "Certificate of Employment (COE)", "req": "conditional", "where": "Majikan anda / HR", "how": "Pada kepala surat syarikat: jawatan, gaji dan tarikh cuti yang diluluskan." },
+        { "doc": "Pendaftaran perniagaan (bekerja sendiri)", "req": "conditional", "where": "DTI atau SEC + LGU", "how": "Pendaftaran DTI (pemilik tunggal) atau SEC (syarikat), serta permit perniagaan/permit datuk bandar anda (mayor's permit).", "link": "https://www.dti.gov.ph" },
+        { "doc": "Tempahan penerbangan pergi-balik & hotel", "req": "required", "where": "Syarikat penerbangan / laman tempahan", "how": "Tempahan/jadual perjalanan sudah memadai — jangan bayar tiket sebelum kelulusan." }
+      ],
+      "legend": { "required": "Diperlukan", "conditional": "Bergantung pada pekerjaan anda", "recommended": "Disyorkan" }
+    },
+    "funds": {
+      "title": "\"Bagaimana saya membuktikan saya mampu menampung perjalanan ini?\"",
+      "body": "Sejak Februari 2026, anda tidak lagi menghantar penyata bank 3 bulan — sijil bank bersama ITR/bukti pekerjaan (atau perniagaan) anda membawa gambaran kewangan. Matlamatnya adalah untuk menunjukkan pendapatan yang stabil dan ikatan yang kukuh dengan Filipina.",
+      "tips": [
+        "Pekerja: ITR + Certificate of Employment adalah teras fail anda.",
+        "Pemilik perniagaan: pendaftaran + permit perniagaan + sijil bank.",
+        "Ditaja? Tambahkan dokumen penaja dan bukti hubungan."
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesilapan yang menyebabkan penolakan & kelewatan",
+      "items": [
+        { "icon": "💳", "t": "Membayar 'yuran visa'", "d": "Visa kedutaan adalah PERCUMA. Hanya yuran pengendalian agensi sahaja tambahan yang sah." },
+        { "icon": "🧾", "t": "Bukti pekerjaan yang lemah", "d": "ITR atau COE yang tiada. Ini kini menjadi teras fail pemohon Filipina." },
+        { "icon": "🎫", "t": "Membayar penerbangan terlalu awal", "d": "Membeli tiket tidak boleh dikembalikan sebelum kelulusan — tempahan sudah memadai." },
+        { "icon": "🏝️", "t": "Mengelirukan Jeju dengan tanah besar", "d": "Pilihan tanpa visa Jeju tidak meliputi perjalanan ke tanah besar Korea." },
+        { "icon": "🗓️", "t": "Memohon semasa puncak cuti", "d": "Pemprosesan menjadi perlahan sekitar Chuseok/Seollal — mohon lebih awal." }
+      ]
+    },
+    "faq": {
+      "title": "Soalan Lazim visa Filipina → Korea",
+      "items": [
+        { "q": "Adakah rakyat Filipina memerlukan visa untuk Korea?", "a": "Ya untuk tanah besar Korea — anda memohon visa pelancong C-3 sebelum melancong. Ia percuma. Pulau Jeju mempunyai kemasukan tanpa visa yang berasingan." },
+        { "q": "Berapakah yuran visa?", "a": "Tiada yuran visa untuk visa pelancong C-3 bagi pemegang pasport Filipina. Agensi pelancongan mungkin mengenakan yuran perkhidmatan sendiri, tetapi yuran kedutaan adalah sifar." },
+        { "q": "Adakah saya memerlukan penyata bank?", "a": "Sejak 20 Feb 2026, penyata bank 3 bulan tidak lagi diperlukan. Pekerja menunjukkan ITR + Certificate of Employment; pemilik perniagaan menunjukkan pendaftaran + permit." },
+        { "q": "Berapa lama masa yang diambil?", "a": "Kira-kira 3–5 hari bekerja, lebih lama sekitar cuti Korea seperti Chuseok dan Seollal." },
+        { "q": "Di mana saya memohon?", "a": "Di Embassy of Korea in the Philippines atau melalui agensi pelancongan yang diiktiraf oleh kedutaan." },
+        { "q": "Bolehkah saya mendapatkan visa kemasukan berbilang?", "a": "Visa kemasukan berbilang mungkin untuk pelancong yang layak (cth., sejarah perjalanan yang kukuh). Tanya kedutaan tentang kelayakan semasa." },
+        { "q": "Adakah saya masih memerlukan e-Arrival Card?", "a": "Peraturan dokumen kemasukan seperti e-Arrival Card mungkin masih terpakai semasa ketibaan. Semak peraturan semasa hampir dengan tarikh perjalanan anda." }
+      ]
+    }
   }
 }
