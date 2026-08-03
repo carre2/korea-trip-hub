@@ -13,6 +13,8 @@ import destDe from "../../data/destinations.de.json";
 import destPt from "../../data/destinations.pt.json";
 import destIt from "../../data/destinations.it.json";
 import destRu from "../../data/destinations.ru.json";
+import destKo from "../../data/destinations.ko.json";
+import destZhTW from "../../data/destinations.zh-TW.json";
 import foodData from "../../data/food.json";
 import foodJa from "../../data/food.ja.json";
 import foodZh from "../../data/food.zh.json";
@@ -22,9 +24,11 @@ import foodDe from "../../data/food.de.json";
 import foodPt from "../../data/food.pt.json";
 import foodIt from "../../data/food.it.json";
 import foodRu from "../../data/food.ru.json";
+import foodKo from "../../data/food.ko.json";
+import foodZhTW from "../../data/food.zh-TW.json";
 
-const destI18n = { ja: destJa, zh: destZh, es: destEs, fr: destFr, de: destDe, pt: destPt, it: destIt, ru: destRu };
-const foodI18n = { ja: foodJa, zh: foodZh, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt, it: foodIt, ru: foodRu };
+const destI18n = { ja: destJa, zh: destZh, "zh-TW": destZhTW, es: destEs, fr: destFr, de: destDe, pt: destPt, it: destIt, ru: destRu, ko: destKo };
+const foodI18n = { ja: foodJa, zh: foodZh, "zh-TW": foodZhTW, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt, it: foodIt, ru: foodRu, ko: foodKo };
 
 const PLAN_TILES = [
   { key: "visa", icon: "🛂", bg: "#BFC9FA", bd: "#9FAEF3", chip: "#3B4CE0" },

@@ -8,8 +8,10 @@ import foodDe from "../../../data/food.de.json";
 import foodPt from "../../../data/food.pt.json";
 import foodIt from "../../../data/food.it.json";
 import foodRu from "../../../data/food.ru.json";
+import foodKo from "../../../data/food.ko.json";
+import foodZhTW from "../../../data/food.zh-TW.json";
 
-const foodI18n = { ja: foodJa, zh: foodZh, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt, it: foodIt, ru: foodRu };
+const foodI18n = { ja: foodJa, zh: foodZh, "zh-TW": foodZhTW, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt, it: foodIt, ru: foodRu, ko: foodKo };
 const merge = (base, ov) => base.map((it, i) => ({ ...it, ...((ov && ov[i]) || {}) }));
 
 export function generateStaticParams() {
