@@ -9,14 +9,16 @@ import destJa from "../../data/destinations.ja.json";
 import destZh from "../../data/destinations.zh.json";
 import destEs from "../../data/destinations.es.json";
 import destFr from "../../data/destinations.fr.json";
+import destDe from "../../data/destinations.de.json";
 import foodData from "../../data/food.json";
 import foodJa from "../../data/food.ja.json";
 import foodZh from "../../data/food.zh.json";
 import foodEs from "../../data/food.es.json";
 import foodFr from "../../data/food.fr.json";
+import foodDe from "../../data/food.de.json";
 
-const destI18n = { ja: destJa, zh: destZh, es: destEs, fr: destFr };
-const foodI18n = { ja: foodJa, zh: foodZh, es: foodEs, fr: foodFr };
+const destI18n = { ja: destJa, zh: destZh, es: destEs, fr: destFr, de: destDe };
+const foodI18n = { ja: foodJa, zh: foodZh, es: foodEs, fr: foodFr, de: foodDe };
 
 const PLAN_TILES = [
   { key: "visa", icon: "🛂", bg: "#BFC9FA", bd: "#9FAEF3", chip: "#3B4CE0" },

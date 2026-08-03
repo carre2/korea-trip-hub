@@ -5,8 +5,9 @@ import destJa from "../../../../data/destinations.ja.json";
 import destZh from "../../../../data/destinations.zh.json";
 import destEs from "../../../../data/destinations.es.json";
 import destFr from "../../../../data/destinations.fr.json";
+import destDe from "../../../../data/destinations.de.json";
 
-const destI18n = { ja: destJa, zh: destZh, es: destEs, fr: destFr };
+const destI18n = { ja: destJa, zh: destZh, es: destEs, fr: destFr, de: destDe };
 
 export function generateStaticParams() {
   const slugs = Object.keys(dest.items);
