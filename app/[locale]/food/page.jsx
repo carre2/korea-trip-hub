@@ -1,5 +1,10 @@
 import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
 import food from "../../../data/food.json";
+import foodJa from "../../../data/food.ja.json";
+import foodZh from "../../../data/food.zh.json";
+
+const foodI18n = { ja: foodJa, zh: foodZh };
+const merge = (base, ov) => base.map((it, i) => ({ ...it, ...((ov && ov[i]) || {}) }));
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -28,6 +33,10 @@ export default function Food({ params }) {
   const locale = params?.locale || defaultLocale;
   const m = getMessages(locale);
   const t = m.food;
+  const ov = foodI18n[locale] || {};
+  const eat = merge(food.eat, ov.eat);
+  const make = merge(food.make, ov.make);
+  const tips = (ov.tips && ov.tips.length) ? ov.tips : food.tips;
 
   return (
     <section>
@@ -43,20 +52,20 @@ export default function Food({ params }) {
 
         <h3 style={{ fontSize: 18, fontWeight: 800, margin: "8px 0 14px" }}>🍜 {t.eat}</h3>
         <div className="grid g4">
-          {food.eat.map((i) => (
+          {eat.map((i) => (
             <Card key={i.n} item={i} tagBg="var(--primary-soft)" tagColor="var(--primary)" />
           ))}
         </div>
 
         <h3 style={{ fontSize: 18, fontWeight: 800, margin: "30px 0 14px" }}>🥢 {t.make}</h3>
         <div className="grid g4">
-          {food.make.map((i) => (
+          {make.map((i) => (
             <Card key={i.n} item={i} tagBg="var(--amber-soft)" tagColor="var(--amber)" />
           ))}
         </div>
 
         <h2 style={{ fontSize: 20, fontWeight: 800, margin: "32px 0 12px" }}>{t.tips}</h2>
-        <ul className="tips">{food.tips.map((tip, i) => <li key={i}>{tip}</li>)}</ul>
+        <ul className="tips">{tips.map((tip, i) => <li key={i}>{tip}</li>)}</ul>
       </div>
     </section>
   );

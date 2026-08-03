@@ -1,6 +1,10 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { fact } from "../../../../lib/facts";
 import dest from "../../../../data/destinations.json";
+import destJa from "../../../../data/destinations.ja.json";
+import destZh from "../../../../data/destinations.zh.json";
+
+const destI18n = { ja: destJa, zh: destZh };
 
 export function generateStaticParams() {
   const slugs = Object.keys(dest.items);
@@ -14,7 +18,7 @@ export function generateMetadata({ params }) {
 
 export default function DestinationDetail({ params }) {
   const locale = params?.locale || defaultLocale;
-  const d = dest.items[params.slug];
+  const d = { ...dest.items[params.slug], ...(destI18n[locale]?.items?.[params.slug] || {}) };
   const m = getMessages(locale);
   const t = m.dest;
   const ui = m.factsUI || {};

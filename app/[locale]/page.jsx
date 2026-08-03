@@ -4,7 +4,14 @@ import MapExplorer from "../../components/MapExplorer";
 import SpotifyKpop from "../../components/SpotifyKpop";
 import TripPlanner from "../../components/TripPlanner";
 import destData from "../../data/destinations.json";
+import destJa from "../../data/destinations.ja.json";
+import destZh from "../../data/destinations.zh.json";
 import foodData from "../../data/food.json";
+import foodJa from "../../data/food.ja.json";
+import foodZh from "../../data/food.zh.json";
+
+const destI18n = { ja: destJa, zh: destZh };
+const foodI18n = { ja: foodJa, zh: foodZh };
 
 const PLAN_TILES = [
   { key: "visa", icon: "🛂", bg: "#BFC9FA", bd: "#9FAEF3", chip: "#3B4CE0" },
@@ -109,7 +116,7 @@ export default function Home({ params }) {
           </div>
           <div className="grid g4">
             {["myeongdong", "n-seoul-tower", "gyeongbokgung", "bukhansan"].map((slug) => {
-              const d = destData.items[slug];
+              const d = { ...destData.items[slug], ...(destI18n[locale]?.items?.[slug] || {}) };
               const f = d.factId ? fact(d.factId) : null;
               const stat = f && f.value ? Object.values(f.value)[0] : null;
               return (
@@ -141,7 +148,7 @@ export default function Home({ params }) {
           </div>
           <h4 style={{ fontFamily: "var(--mono)", color: "var(--faint)", textTransform: "uppercase", letterSpacing: ".04em", margin: "0 0 12px" }}>🍜 {m.food.eat}</h4>
           <div className="grid g4">
-            {foodData.eat.slice(0, 4).map((c) => (
+            {foodData.eat.map((it, i) => ({ ...it, ...((foodI18n[locale]?.eat || [])[i] || {}) })).slice(0, 4).map((c) => (
               <article className="card" key={c.n}>
                 <div className="thumb" style={{ background: c.grad }}>{c.icon}</div>
                 <div className="cbody"><h3>{c.n}</h3><p>{c.d}</p></div>
@@ -150,7 +157,7 @@ export default function Home({ params }) {
           </div>
           <h4 style={{ fontFamily: "var(--mono)", color: "var(--faint)", textTransform: "uppercase", letterSpacing: ".04em", margin: "26px 0 12px" }}>🥢 {m.food.make}</h4>
           <div className="grid g4">
-            {foodData.make.slice(0, 4).map((c) => (
+            {foodData.make.map((it, i) => ({ ...it, ...((foodI18n[locale]?.make || [])[i] || {}) })).slice(0, 4).map((c) => (
               <article className="card" key={c.n}>
                 <div className="thumb" style={{ background: c.grad }}>{c.icon}
                   <span className="pill" style={{ position: "absolute", bottom: 12, left: 12, background: "var(--amber-soft)", color: "var(--amber)" }}>{c.tag}</span>
