@@ -56,7 +56,7 @@ export default function Home({ params }) {
               <a
                 key={tile.key}
                 className="ptile"
-                href="#"
+                href={`/${locale}/plan/${tile.key}/`}
                 style={{ background: tile.bg, borderColor: tile.bd }}
               >
                 <span className="pic" style={{ background: tile.chip }}>{tile.icon}</span>

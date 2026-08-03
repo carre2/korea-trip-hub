@@ -1,0 +1,128 @@
+{
+  "_README": "PLAN YOUR TRIP 6종 콘텐츠. 수치는 여기 쓰지 않고 facts[]의 factId로 렌더링(HARNESS). intro/tips는 EDITORIAL(임의 수치 금지).",
+  "order": ["visa", "transit", "airport", "sim", "money", "weather"],
+  "items": {
+    "visa": {
+      "icon": "🛂",
+      "color": "#3B4CE0",
+      "tagline": "Do you need a visa or K-ETA to enter Korea? Here's how entry works for most short-term visitors.",
+      "intro": [
+        "Most tourists come to Korea for a short stay and do not apply for a visa in advance — but the exact rules depend on your nationality, so always confirm your own case with an official source before you fly.",
+        "As of 2026, Korea has temporarily waived the K-ETA (electronic travel authorization) for eligible visa-free nationals. Even when K-ETA is waived, every arriving traveler must complete the e-Arrival Card."
+      ],
+      "facts": ["keta-exemption", "visa-free-90days-general"],
+      "tips": [
+        "Check your specific nationality — visa-free stay length differs by country (often 30, 60 or 90 days).",
+        "Your passport should be valid for the duration of your stay.",
+        "Complete the e-Arrival Card online before or on arrival to skip the paper form.",
+        "If you are unsure, contact the nearest Korean embassy or consulate."
+      ],
+      "official": [
+        { "name": "HiKorea (Immigration, MOJ)", "url": "https://www.hikorea.go.kr" },
+        { "name": "K-ETA official", "url": "https://www.k-eta.go.kr" },
+        { "name": "VisitKorea", "url": "https://english.visitkorea.or.kr" }
+      ]
+    },
+    "transit": {
+      "icon": "🚇",
+      "color": "#0E9280",
+      "tagline": "One rechargeable card gets you on almost everything — subway, bus, taxi. Plus intercity trains for day trips.",
+      "intro": [
+        "A T-money card is the simplest way to pay for public transport in Korea. Tap in and out on the subway and buses, and you can even pay many taxis and convenience-store purchases with it.",
+        "Seoul's subway is extensive, signposted in English, and easy to navigate with a map app. For longer trips between cities, the KTX high-speed train is fast and frequent."
+      ],
+      "facts": ["tmoney-where-to-buy", "tmoney-card-price", "ktx-seoul-busan"],
+      "tips": [
+        "Buy and top up a T-money card at any convenience store — just say 'T-money, please'.",
+        "Use Naver Map or KakaoMap for directions; Google Maps transit is limited in Korea.",
+        "For KTX and intercity trains, book on the KORAIL app or letskorail.com, especially on weekends and holidays.",
+        "Taxis are metered; many accept T-money or card. Keep the address in Korean handy."
+      ],
+      "official": [
+        { "name": "KORAIL (letskorail.com)", "url": "https://www.letskorail.com" },
+        { "name": "Seoul Metro", "url": "http://www.seoulmetro.co.kr/en/" },
+        { "name": "T-money", "url": "https://www.t-money.co.kr" }
+      ]
+    },
+    "airport": {
+      "icon": "✈️",
+      "color": "#1C7FBE",
+      "tagline": "Landed at Incheon? Here are the three main ways into central Seoul — train, all-stop train, or bus.",
+      "intro": [
+        "Most international flights land at Incheon International Airport (ICN). The fastest way into the city is the AREX Express train direct to Seoul Station; the cheaper all-stop train and airport buses are good alternatives depending on where you're staying.",
+        "All fares below are from the official Seoul city travel guide — but fares can change, so confirm the current price with the operator before you buy."
+      ],
+      "facts": ["arex-express", "arex-allstop", "airport-bus"],
+      "tips": [
+        "Choose the Express train if you want the fastest, non-stop ride to Seoul Station.",
+        "Take the all-stop train if your accommodation is near an AREX station and you want to save.",
+        "Airport buses (limousine) drop you closer to many hotels — check the route for your destination.",
+        "You can pay buses with cash, T-money, or card at the airport."
+      ],
+      "official": [
+        { "name": "AREX (airport railroad)", "url": "https://www.arex.or.kr" },
+        { "name": "Incheon Airport", "url": "https://www.airport.kr/ap/en/index.do" },
+        { "name": "VisitSeoul — Getting to Seoul", "url": "https://english.visitseoul.net/getting-to-seoul" }
+      ]
+    },
+    "sim": {
+      "icon": "📶",
+      "color": "#6D45C4",
+      "tagline": "Stay connected from the moment you land — SIM, eSIM, or a portable Wi-Fi router.",
+      "intro": [
+        "You have three common options: a physical SIM card, an eSIM (if your phone supports it), or a pocket Wi-Fi router you can share with a group. Counters for all three are available in the Incheon Airport arrivals area.",
+        "Prices and plans change often and vary by provider and data amount, so we don't quote a single price here — compare the current offers at the airport counters or provider apps before choosing."
+      ],
+      "facts": [],
+      "tips": [
+        "eSIM is the most convenient if your phone supports it — you can often activate before arrival.",
+        "A pocket Wi-Fi router can be cheaper per person for families or groups sharing one device.",
+        "Check whether you need calls/SMS or just data — data-only plans are usually cheaper.",
+        "Compare plans by data amount and number of days rather than headline price alone."
+      ],
+      "official": [
+        { "name": "Incheon Airport — services", "url": "https://www.airport.kr/ap/en/index.do" },
+        { "name": "VisitKorea", "url": "https://english.visitkorea.or.kr" }
+      ]
+    },
+    "money": {
+      "icon": "💳",
+      "color": "#B96A0B",
+      "tagline": "Cards work almost everywhere, cash helps at markets, and you don't need to tip.",
+      "intro": [
+        "Korea is highly card-friendly — credit and debit cards are accepted at most shops, restaurants, and cafés. Still, it's useful to carry some cash for traditional markets, street food, and small vendors.",
+        "One thing that surprises many visitors: tipping is not part of the culture here, so you don't need to add a tip at restaurants or taxis."
+      ],
+      "facts": ["currency-krw", "tipping-not-customary"],
+      "tips": [
+        "Carry a little cash for markets, street food, and small local shops.",
+        "ATMs marked 'Global' accept foreign cards; airport and bank exchange counters handle currency.",
+        "No tipping needed — the price you see is the price you pay.",
+        "A T-money card can also pay at many convenience stores."
+      ],
+      "official": [
+        { "name": "VisitKorea", "url": "https://english.visitkorea.or.kr" }
+      ]
+    },
+    "weather": {
+      "icon": "🌤️",
+      "color": "#DC3560",
+      "tagline": "When to come, and what to pack — Korea has four distinct seasons.",
+      "intro": [
+        "Korea has four clear seasons. Spring and autumn are the most popular times to visit thanks to mild, comfortable weather — spring brings cherry blossoms, autumn brings colorful foliage.",
+        "Summer is hot and humid with a rainy monsoon stretch, and winter is cold and dry. Pack for the season you're visiting."
+      ],
+      "facts": ["best-time-seasons"],
+      "tips": [
+        "Spring (Mar–May) and autumn (Sep–Nov): light layers; these are peak seasons, so book early.",
+        "Summer (Jun–Aug): breathable clothes, a compact umbrella for monsoon showers.",
+        "Winter (Dec–Feb): a warm coat and layers; indoor heating is strong.",
+        "Cherry blossom and fall foliage dates shift each year — check the current-year forecast."
+      ],
+      "official": [
+        { "name": "Korea Meteorological Administration", "url": "https://web.kma.go.kr/eng/" },
+        { "name": "VisitKorea", "url": "https://english.visitkorea.or.kr" }
+      ]
+    }
+  }
+}
