@@ -1,0 +1,90 @@
+{
+  "_README": "Template trip-planner data. Attraction NAMES are real (editorial). No invented hours/prices/distances — any hard number must come from data/facts.json. Areas group nearby spots so a day stays in one cluster (proximity).",
+  "order": ["seoul", "busan", "jeju", "gyeongju"],
+  "cities": {
+    "seoul": {
+      "name": "Seoul",
+      "transportFromSeoul": null,
+      "areas": [
+        { "area": "Palaces & Myeongdong", "spots": [
+          { "n": "Gyeongbokgung Palace", "c": "sights", "d": "Grand royal palace — wear a hanbok for free entry." },
+          { "n": "Bukchon Hanok Village", "c": "sights", "d": "Traditional hanok lanes and viewpoints." },
+          { "n": "Myeongdong street food & shopping", "c": "food", "d": "Beauty shops, tteokbokki and night-market snacks." }
+        ]},
+        { "area": "Namsan & Central", "spots": [
+          { "n": "N Seoul Tower (Namsan)", "c": "sights", "d": "Cable car up for the best city skyline." },
+          { "n": "Gwangjang Market", "c": "food", "d": "Classic market for bindaetteok and mayak gimbap." }
+        ]},
+        { "area": "Hongdae & West", "spots": [
+          { "n": "Hongdae street & buskers", "c": "kpop", "d": "Youth district, live performances and shops." },
+          { "n": "Hongik-area cafes", "c": "food", "d": "Dessert cafes and indie boutiques." }
+        ]},
+        { "area": "Gangnam & Seongsu", "spots": [
+          { "n": "Starfield Library, COEX", "c": "sights", "d": "Giant open library and mall." },
+          { "n": "K-Star Road (Apgujeong)", "c": "kpop", "d": "K-pop agency neighborhood and GangnamDol figures." },
+          { "n": "Seongsu cafe street", "c": "food", "d": "Seoul's trendiest coffee and dessert street." }
+        ]},
+        { "area": "Nature & Hiking", "spots": [
+          { "n": "Bukhansan National Park", "c": "hiking", "d": "City-edge granite peaks — Korea's top K-hiking trend." },
+          { "n": "Han River park", "c": "sights", "d": "Riverside picnic and bike paths." }
+        ]}
+      ]
+    },
+    "busan": {
+      "name": "Busan",
+      "transportFromSeoul": { "mode": "KTX from Seoul Station", "factId": "ktx-seoul-busan" },
+      "areas": [
+        { "area": "Haeundae & Coast", "spots": [
+          { "n": "Haeundae Beach", "c": "sights", "d": "Busan's most famous beach." },
+          { "n": "Blueline Park sky capsule", "c": "sights", "d": "Colorful capsules along the old coastal rail." },
+          { "n": "Gwangalli Beach & Diamond Bridge", "c": "sights", "d": "Best at night when the bridge lights up." }
+        ]},
+        { "area": "Culture & Market", "spots": [
+          { "n": "Gamcheon Culture Village", "c": "sights", "d": "Hillside village of painted houses." },
+          { "n": "Jagalchi Fish Market", "c": "food", "d": "Korea's largest seafood market." },
+          { "n": "Gukje Market & BIFF Square", "c": "food", "d": "Street food and shopping downtown." }
+        ]},
+        { "area": "Temples & Views", "spots": [
+          { "n": "Haedong Yonggungsa Temple", "c": "sights", "d": "Rare seaside temple." },
+          { "n": "Songdo Beach cable car", "c": "sights", "d": "Ride over the sea." }
+        ]}
+      ]
+    },
+    "jeju": {
+      "name": "Jeju",
+      "transportFromSeoul": { "mode": "Flight from Seoul (Gimpo GMP → Jeju CJU)", "note": "about 1 hour — book via an airline." },
+      "areas": [
+        { "area": "East Jeju", "spots": [
+          { "n": "Seongsan Ilchulbong (Sunrise Peak)", "c": "sights", "d": "UNESCO tuff cone, great at sunrise." },
+          { "n": "Seopjikoji", "c": "sights", "d": "Coastal cliffs and drama filming spots." },
+          { "n": "Manjanggul Lava Tube", "c": "sights", "d": "Walkable volcanic cave." }
+        ]},
+        { "area": "West & City", "spots": [
+          { "n": "Hyeopjae Beach", "c": "sights", "d": "Turquoise water and white sand." },
+          { "n": "Hallim Park", "c": "sights", "d": "Gardens and caves in one park." },
+          { "n": "Jeju Dongmun Market", "c": "food", "d": "Local seafood, tangerines and street food." }
+        ]},
+        { "area": "Nature", "spots": [
+          { "n": "Hallasan National Park", "c": "hiking", "d": "Korea's highest peak — pick a trail by fitness." },
+          { "n": "Cheonjiyeon Waterfall", "c": "sights", "d": "Easy walk to a lit waterfall." }
+        ]}
+      ]
+    },
+    "gyeongju": {
+      "name": "Gyeongju",
+      "transportFromSeoul": { "mode": "KTX to Singyeongju Station, then local bus/taxi", "note": "confirm times at letskorail.com." },
+      "areas": [
+        { "area": "Historic Core", "spots": [
+          { "n": "Bulguksa Temple", "c": "sights", "d": "UNESCO Silla-era temple." },
+          { "n": "Seokguram Grotto", "c": "sights", "d": "Stone Buddha above Bulguksa." },
+          { "n": "Daereungwon Tomb Complex", "c": "sights", "d": "Grassy royal burial mounds." }
+        ]},
+        { "area": "Downtown", "spots": [
+          { "n": "Cheomseongdae Observatory", "c": "sights", "d": "Ancient astronomical tower." },
+          { "n": "Donggung Palace & Wolji Pond", "c": "sights", "d": "Beautiful after dark, reflected in the pond." },
+          { "n": "Hwangnidan-gil street", "c": "food", "d": "Trendy cafes and eats in hanok buildings." }
+        ]}
+      ]
+    }
+  }
+}

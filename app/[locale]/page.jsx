@@ -2,6 +2,7 @@ import { getMessages, defaultLocale } from "../../lib/i18n";
 import { fact, factsUpdated } from "../../lib/facts";
 import MapExplorer from "../../components/MapExplorer";
 import SpotifyKpop from "../../components/SpotifyKpop";
+import TripPlanner from "../../components/TripPlanner";
 
 const PLAN_TILES = [
   { key: "visa", icon: "🛂", bg: "#BFC9FA", bd: "#9FAEF3", chip: "#3B4CE0" },
@@ -11,8 +12,6 @@ const PLAN_TILES = [
   { key: "money", icon: "💳", bg: "#F2D794", bd: "#E5C066", chip: "#B96A0B" },
   { key: "weather", icon: "🌤️", bg: "#F8BAC9", bd: "#F291A8", chip: "#DC3560" },
 ];
-
-const STYLE_CHIPS = ["🍜 Food", "🎤 K-pop", "🏛️ Sights", "🥾 Hiking", "🛍️ Shopping"];
 
 /** Small verified-fact card for the Help section (only renders VERIFIED facts). */
 function FactCard({ id, icon, iconBg, iconColor, title, sub, big, t }) {
@@ -84,48 +83,7 @@ export default function Home({ params }) {
           </h1>
           <p className="lede reveal">{m.hero.lede}</p>
 
-          <div className="planner reveal">
-            <div className="planner-top">
-              <span className="tag">● Plan a trip</span>
-              <span style={{ color: "var(--muted)", fontSize: 13 }}>Free · No sign-up to preview</span>
-            </div>
-            <div className="route">
-              <div className="field">
-                <label><span className="dot" style={{ background: "var(--primary)" }} /> {m.hero.f_hotel}</label>
-                <div className="inp"><span className="i">🏨</span>
-                  <input defaultValue="Lotte Hotel, Myeongdong (Seoul)" aria-label="Starting hotel" />
-                </div>
-              </div>
-              <button className="swap" title="Swap" aria-label="Swap">⇄</button>
-              <div className="field">
-                <label><span className="dot" style={{ background: "var(--accent)" }} /> {m.hero.f_dest}</label>
-                <div className="inp"><span className="i">📍</span>
-                  <input defaultValue="Busan" aria-label="Destination" />
-                </div>
-              </div>
-            </div>
-            <div className="planner-row2">
-              <div className="field">
-                <label>{m.hero.f_days}</label>
-                <div className="inp"><span className="i">🗓️</span>
-                  <select aria-label="Days"><option>2 days</option><option>3 days</option><option>4 days</option><option>5 days</option></select>
-                </div>
-              </div>
-              <div className="field">
-                <label>{m.hero.f_travelers}</label>
-                <div className="inp"><span className="i">👥</span>
-                  <select aria-label="Travelers"><option>Solo</option><option>2 people</option><option>Family</option><option>Group</option></select>
-                </div>
-              </div>
-              <div className="field">
-                <label>{m.hero.f_style}</label>
-                <div className="chips">
-                  {STYLE_CHIPS.map((c) => (<span key={c} className="chip">{c}</span>))}
-                </div>
-              </div>
-              <button className="btn go">✨ {m.hero.build}</button>
-            </div>
-          </div>
+          <TripPlanner hero={m.hero} t={m.planner} />
 
           <div className="trustbar reveal">
             <span>🚄 <b>Transport included</b> — KTX, bus &amp; flight options</span>
