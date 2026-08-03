@@ -1,0 +1,83 @@
+{
+  "_README": "Override in italiano di plan.json (tagline/intro/tips). I numeri vengono da facts.",
+  "items": {
+    "visa": {
+      "tagline": "Serve un visto o il K-ETA per entrare in Corea? Ecco come funziona l'ingresso per la maggior parte dei turisti in soggiorno breve.",
+      "intro": [
+        "La maggior parte dei turisti viene per un soggiorno breve e non richiede il visto in anticipo, ma le regole esatte dipendono dalla tua nazionalità: verifica sempre il tuo caso su una fonte ufficiale prima di partire.",
+        "Nel 2026 la Corea ha sospeso temporaneamente il K-ETA per i cittadini esenti da visto. Anche senza K-ETA, ogni viaggiatore deve compilare la e-Arrival Card."
+      ],
+      "tips": [
+        "Verifica la tua nazionalità — la durata del soggiorno senza visto varia per paese (spesso 30, 60 o 90 giorni).",
+        "Il passaporto deve essere valido per tutta la durata del soggiorno.",
+        "Compila la e-Arrival Card online prima o all'arrivo per evitare il modulo cartaceo.",
+        "In caso di dubbi, contatta l'ambasciata o il consolato coreano più vicino."
+      ]
+    },
+    "transit": {
+      "tagline": "Una carta ricaricabile per quasi tutto — metro, bus, taxi. E treni tra città per le gite.",
+      "intro": [
+        "La carta T-money è il modo più semplice per pagare i trasporti pubblici in Corea. Passala all'entrata e all'uscita in metro e sui bus, e paga anche molti taxi e acquisti nei minimarket.",
+        "La metro di Seul è estesa, segnalata in inglese e facile con un'app di mappe. Per i tragitti lunghi tra città, il treno ad alta velocità KTX è rapido e frequente."
+      ],
+      "tips": [
+        "Compra e ricarica una T-money in qualsiasi minimarket — di' semplicemente 'T-money, please'.",
+        "Usa Naver Map o KakaoMap; in Corea il trasporto su Google Maps è limitato.",
+        "Prenota KTX e treni tra città sull'app KORAIL o su letskorail.com, soprattutto nei weekend e festivi.",
+        "I taxi sono a tassametro; molti accettano T-money o carta. Tieni l'indirizzo in coreano a portata."
+      ]
+    },
+    "airport": {
+      "tagline": "Atterrato a Incheon? Tre modi principali per il centro di Seul — treno diretto, treno con fermate o bus.",
+      "intro": [
+        "La maggior parte dei voli internazionali atterra all'aeroporto internazionale di Incheon (ICN). Il più veloce per il centro è l'AREX Express diretto alla Stazione di Seul; il treno con fermate, più economico, e i bus sono buone alternative in base all'alloggio.",
+        "Le tariffe qui sotto vengono dalla guida turistica ufficiale di Seul, ma possono cambiare; verifica il prezzo attuale con l'operatore prima di acquistare."
+      ],
+      "tips": [
+        "Scegli il treno diretto per il tragitto più rapido e senza fermate alla Stazione di Seul.",
+        "Prendi il treno con fermate se l'alloggio è vicino a una stazione AREX e vuoi risparmiare.",
+        "I bus (limousine) ti lasciano più vicino a molti hotel — controlla la linea per la tua destinazione.",
+        "In aeroporto puoi pagare il bus in contanti, con T-money o carta."
+      ]
+    },
+    "sim": {
+      "tagline": "Connesso dall'atterraggio — SIM, eSIM o router Wi-Fi tascabile.",
+      "intro": [
+        "Tre opzioni comuni: una SIM fisica, una eSIM (se il telefono la supporta) o un router Wi-Fi tascabile da condividere in gruppo. Nell'area arrivi dell'aeroporto di Incheon ci sono banchi per tutte e tre.",
+        "Prezzi e piani cambiano spesso e variano per operatore e giga, quindi non indichiamo un prezzo fisso; confronta le offerte del momento ai banchi o nelle app."
+      ],
+      "tips": [
+        "La eSIM è la più comoda se il telefono la supporta — a volte attivabile prima dell'arrivo.",
+        "Un router Wi-Fi tascabile può costare meno a persona per famiglie o gruppi.",
+        "Valuta se ti servono chiamate/SMS o solo dati — i piani solo dati costano di solito meno.",
+        "Confronta i piani per giga e giorni, non solo per il prezzo di listino."
+      ]
+    },
+    "money": {
+      "tagline": "La carta funziona quasi ovunque, i contanti aiutano ai mercati e non serve lasciare la mancia.",
+      "intro": [
+        "La Corea è molto card-friendly — credito e debito accettati in gran parte di negozi, ristoranti e caffè. Conviene comunque avere un po' di contanti per mercati tradizionali, street food e piccoli negozi.",
+        "Una cosa che sorprende molti: qui non c'è la cultura della mancia, quindi non serve lasciarla al ristorante o in taxi."
+      ],
+      "tips": [
+        "Tieni un po' di contanti per mercati, street food e piccoli negozi locali.",
+        "I bancomat con la scritta 'Global' accettano carte estere; aeroporto e banche cambiano valuta.",
+        "Niente mancia — il prezzo che vedi è quello che paghi.",
+        "La T-money serve anche a pagare in molti minimarket."
+      ]
+    },
+    "weather": {
+      "tagline": "Quando andare e cosa mettere in valigia? — La Corea ha quattro stagioni ben distinte.",
+      "intro": [
+        "La Corea ha quattro stagioni nette. Primavera e autunno sono i periodi più amati per il clima piacevole — in primavera i ciliegi in fiore, in autunno il fogliame colorato.",
+        "L'estate è calda e umida con la stagione delle piogge, l'inverno è freddo e secco. Prepara la valigia in base alla stagione."
+      ],
+      "tips": [
+        "Primavera (mar–mag) e autunno (set–nov): strati leggeri; alta stagione, prenota presto.",
+        "Estate (giu–ago): abiti traspiranti e un ombrello pieghevole per le piogge.",
+        "Inverno (dic–feb): cappotto caldo e strati; il riscaldamento interno è forte.",
+        "Le date dei ciliegi e del fogliame cambiano ogni anno — controlla le previsioni dell'anno."
+      ]
+    }
+  }
+}

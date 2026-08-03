@@ -1,0 +1,26 @@
+{
+  "_README": "Override in italiano di food.json. eat/make nello stesso ordine {n, tag, d}. Nessun prezzo inventato.",
+  "eat": [
+    { "n": "Barbecue coreano", "tag": "Griglia", "d": "Pancetta di maiale (samgyeopsal) e galbi grigliati al tavolo, in foglia di lattuga con ssamjang e aglio." },
+    { "n": "Tteokbokki e street food", "tag": "Strada", "d": "Gnocchi di riso in salsa dolce-piccante, più hotteok, gimbap e polpette di pesce alle bancarelle." },
+    { "n": "Bibimbap", "tag": "Classico", "d": "Ciotola di riso con verdure, uovo e gochujang — mescola tutto prima di mangiare." },
+    { "n": "Pollo fritto coreano (chimaek)", "tag": "Icona", "d": "Pollo fritto extra croccante con birra — il 'chimaek' è un passatempo nazionale." },
+    { "n": "Naengmyeon (noodle freddi)", "tag": "Estate", "d": "Noodle di grano saraceno in brodo ghiacciato — un fresco preferito dell'estate." },
+    { "n": "Halal e vegetariano", "tag": "Dieta", "d": "Locali halal certificati vicino a Itaewon; cucina dei templi e opzioni vegetariane in crescita in città." },
+    { "n": "Caffè e dolci di Seongsu", "tag": "Caffè", "d": "Caffè specialty e dolci creativi nel quartiere dei caffè più di tendenza di Seul." },
+    { "n": "Jjigae e bunsik (comfort food)", "tag": "Casereccio", "d": "Zuppe fumanti come il kimchi-jjigae e il budae-jjigae — sostanziose ed economiche." }
+  ],
+  "make": [
+    { "n": "Corso di kimchi", "tag": "Pratico", "d": "Prepara e porta a casa il tuo kimchi; di solito con guida in inglese." },
+    { "n": "Cucina di bibimbap e bulgogi", "tag": "Cucina", "d": "Cucina un pasto coreano completo con uno chef e poi gustalo." },
+    { "n": "Preparazione di tteok (dolci di riso)", "tag": "Tradizionale", "d": "Modella colorati dolci di riso tradizionali — divertente e adatto alle famiglie." },
+    { "n": "Produzione e degustazione di makgeolli", "tag": "19+", "d": "Impara a produrre e degustare il vino di riso coreano, di solito con stuzzichini." }
+  ],
+  "tips": [
+    "Un ristorante pieno di gente del posto è di solito buon segno.",
+    "Molti locali hanno menù con foto o in inglese; i minimarket sono ottimi per mangiare tardi e spendere poco.",
+    "I contorni (banchan) sono gratis e spesso rifornibili.",
+    "Per il cibo halal, la zona di Itaewon ha più opzioni certificate.",
+    "Prezzi e durata dei corsi variano per organizzatore — verifica al momento della prenotazione."
+  ]
+}

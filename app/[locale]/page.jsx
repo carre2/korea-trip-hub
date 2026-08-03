@@ -11,6 +11,8 @@ import destEs from "../../data/destinations.es.json";
 import destFr from "../../data/destinations.fr.json";
 import destDe from "../../data/destinations.de.json";
 import destPt from "../../data/destinations.pt.json";
+import destIt from "../../data/destinations.it.json";
+import destRu from "../../data/destinations.ru.json";
 import foodData from "../../data/food.json";
 import foodJa from "../../data/food.ja.json";
 import foodZh from "../../data/food.zh.json";
@@ -18,9 +20,11 @@ import foodEs from "../../data/food.es.json";
 import foodFr from "../../data/food.fr.json";
 import foodDe from "../../data/food.de.json";
 import foodPt from "../../data/food.pt.json";
+import foodIt from "../../data/food.it.json";
+import foodRu from "../../data/food.ru.json";
 
-const destI18n = { ja: destJa, zh: destZh, es: destEs, fr: destFr, de: destDe, pt: destPt };
-const foodI18n = { ja: foodJa, zh: foodZh, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt };
+const destI18n = { ja: destJa, zh: destZh, es: destEs, fr: destFr, de: destDe, pt: destPt, it: destIt, ru: destRu };
+const foodI18n = { ja: foodJa, zh: foodZh, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt, it: foodIt, ru: foodRu };
 
 const PLAN_TILES = [
   { key: "visa", icon: "🛂", bg: "#BFC9FA", bd: "#9FAEF3", chip: "#3B4CE0" },
