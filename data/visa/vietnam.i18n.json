@@ -1,0 +1,96 @@
+{
+  "_README": "Per-locale translation overrides for vietnam.json. Keys are locales; each maps to a partial override deep-merged onto the English base (arrays replace, numbers/URLs preserved). Machine-translated — native review recommended.",
+  "vi": {
+    "kicker": "Hướng dẫn visa · Việt Nam → Hàn Quốc",
+    "readingTime": "đọc 9 phút",
+    "h1": "Visa Hàn Quốc cho người Việt Nam",
+    "metaTitle": "Visa Hàn Quốc từ Việt Nam: Hướng dẫn từng bước (2026) — Korea Trip Hub",
+    "metaDesc": "Cách xin visa du lịch Hàn Quốc từ Việt Nam: nộp ở đâu, giấy tờ (và lấy từng loại ở đâu), lệ phí, thời gian xử lý và các đường link chính thức. Visa du lịch ngắn hạn C-3-9.",
+    "ui": { "visa": "Loại visa", "stay": "Thời gian lưu trú", "entry": "Số lần nhập cảnh", "where": "Lấy ở đâu", "official": "Nguồn chính thức", "required": "Bắt buộc", "conditional": "Nếu áp dụng", "recommended": "Nên có", "confirm": "Lệ phí/quy định có thể thay đổi — hãy xác nhận tại nguồn", "source": "Nguồn", "updated": "Cập nhật", "tldr": "TÓM TẮT" },
+    "verdict": {
+      "headline": "Có — công dân Việt Nam cần xin visa.",
+      "sub": "Bạn sẽ nộp hồ sơ xin visa du lịch ngắn hạn C-3-9 trực tiếp tại Trung tâm Tiếp nhận Hồ sơ Visa Hàn Quốc (KVAC) ở Hà Nội hoặc TP. Hồ Chí Minh. Tin vui: thủ tục đã được đơn giản hóa và visa dài hạn đang được mở rộng.",
+      "type": "Du lịch ngắn hạn C-3-9",
+      "stay": "Tối đa 90 ngày",
+      "entry": "Nhập cảnh một lần (có thể được cấp visa nhiều lần nhiều năm — xem bên dưới)"
+    },
+    "highlights": [
+      { "icon": "🗓️", "tone": "green", "title": "Mở rộng visa nhiều lần lên tới 10 năm", "body": "Hàn Quốc đang mở rộng visa nhập cảnh nhiều lần, nhiều năm cho du khách Việt Nam để thúc đẩy du lịch. Có điều kiện áp dụng — hãy hỏi KVAC/đại sứ quán xem bạn có đủ điều kiện không." },
+      { "icon": "📁", "tone": "blue", "title": "Giấy tờ được đơn giản hóa", "body": "Yêu cầu chứng minh tài chính đã giảm — bạn thường chỉ cần nộp 1–2 loại. Đoàn du lịch do công ty tổ chức có thể xin bằng giấy bảo lãnh của công ty, và học sinh/sinh viên có thể dùng giấy xác nhận đang học + tài chính của cha mẹ." }
+    ],
+    "tldr": [
+      "Điền mẫu đơn tại visa.go.kr (cổng chính thức duy nhất), in ra và ký tên.",
+      "Nộp trực tiếp tại KVAC theo khu vực của bạn — Hà Nội (miền Bắc) hoặc TP. Hồ Chí Minh (miền Nam).",
+      "Mang theo hộ chiếu, ảnh, chứng minh tài chính (nay chỉ 1–2 loại), và chứng minh công việc/kinh doanh/học tập.",
+      "Lệ phí do nguyên tắc có đi có lại quyết định và không hoàn lại — hãy xác nhận mức hiện tại tại KVAC."
+    ],
+    "jurisdiction": {
+      "title": "Bước 0 — Hà Nội hay TP. Hồ Chí Minh?",
+      "intro": "Việt Nam có hai Trung tâm Tiếp nhận Hồ sơ Visa Hàn Quốc. Hãy nộp tại nơi phụ trách khu vực cư trú của bạn. Cả hai mở cửa Thứ Hai–Thứ Sáu (khoảng 08:00–16:30); nghỉ cuối tuần và ngày lễ.",
+      "zones": [
+        { "name": "KVAC Hà Nội (khu vực Đại sứ quán)", "covers": "Miền Bắc và miền Trung Việt Nam", "centers": "Hà Nội", "site": "visaforkorea-vt.com", "url": "https://www.visaforkorea-vt.com/?lang=en" },
+        { "name": "KVAC TP. Hồ Chí Minh (khu vực Tổng lãnh sự)", "covers": "Miền Nam Việt Nam", "centers": "TP. Hồ Chí Minh", "site": "visaforkorea-hc.com", "url": "https://visaforkorea-hc.com/?lang=en" }
+      ],
+      "note": "Không chắc trung tâm nào? Hãy kiểm tra danh sách khu vực phụ trách của mỗi trung tâm nếu bạn không rõ tỉnh mình thuộc nơi nào."
+    },
+    "steps": {
+      "title": "Quy trình nộp hồ sơ, từng bước",
+      "items": [
+        { "n": 1, "title": "Xác định loại visa", "detail": "Để du lịch, hãy xin visa du lịch ngắn hạn C-3-9." },
+        { "n": 2, "title": "Điền mẫu đơn tại visa.go.kr", "detail": "Điền mẫu đơn trên Cổng Visa Hàn Quốc — trang chính thức duy nhất — rồi in ra và ký tên.", "link": "https://www.visa.go.kr", "linkLabel": "Cổng Visa Hàn Quốc" },
+        { "n": 3, "title": "Chuẩn bị giấy tờ (đã đơn giản hóa)", "detail": "Thu thập danh mục bên dưới. Chứng minh tài chính nay chỉ 1–2 loại, nên hãy chọn bằng chứng thuyết phục nhất." },
+        { "n": 4, "title": "Nộp tại KVAC của bạn", "detail": "Mang tất cả đến KVAC ở Hà Nội hoặc TP. Hồ Chí Minh trong giờ làm việc." },
+        { "n": 5, "title": "Đóng lệ phí", "detail": "Đóng lệ phí visa cộng phí dịch vụ của trung tâm. Lệ phí không hoàn lại kể cả khi bị từ chối." },
+        { "n": 6, "title": "Theo dõi hồ sơ", "detail": "Theo dõi tình trạng qua kênh của trung tâm. Đừng mua vé máy bay không hoàn lại trước khi được duyệt." },
+        { "n": 7, "title": "Nhận lại hộ chiếu", "detail": "Nhận trực tiếp hoặc qua chuyển phát, và kiểm tra thông tin visa ngay khi nhận." }
+      ]
+    },
+    "documents": {
+      "title": "Danh mục giấy tờ — kèm nơi & cách lấy từng loại",
+      "intro": "Với mỗi loại, đây là nơi lấy và những gì nó phải thể hiện. Sự nhất quán giữa các giấy tờ cũng quan trọng như bản thân giấy tờ.",
+      "cols": ["Giấy tờ", "Lấy ở đâu", "Phải thể hiện gì"],
+      "rows": [
+        { "doc": "Hộ chiếu", "req": "required", "where": "Bạn đã có", "how": "Còn hạn trên 6 tháng, ít nhất 2 trang trống. Mang theo cả hộ chiếu cũ có lịch sử đi lại." },
+        { "doc": "Mẫu đơn xin visa", "req": "required", "where": "visa.go.kr", "how": "Điền trên Cổng Visa Hàn Quốc, in ra và ký.", "link": "https://www.visa.go.kr" },
+        { "doc": "Ảnh — 3,5 × 4,5 cm", "req": "required", "where": "Tiệm chụp ảnh bất kỳ", "how": "Nền trắng, chụp trong vòng 6 tháng, rõ mặt, không đeo kính." },
+        { "doc": "Chứng minh tài chính (1–2 loại)", "req": "required", "where": "Ngân hàng / nơi làm việc", "how": "Chọn loại mạnh nhất: sao kê ngân hàng có số dư ổn định (đóng dấu ngân hàng), sổ tiết kiệm/giấy gửi có kỳ hạn, hoặc xác nhận lương. Lịch sử ổn định hơn một khoản nạp đột ngột." },
+        { "doc": "Chứng minh công việc / kinh doanh / học tập", "req": "required", "where": "Nơi làm việc / doanh nghiệp / trường", "how": "Đi làm: hợp đồng lao động + đơn xin nghỉ phép được duyệt. Tự kinh doanh: giấy phép kinh doanh. Học sinh/sinh viên: giấy xác nhận đang học (+ tài chính của cha mẹ)." },
+        { "doc": "Đặt vé khứ hồi & khách sạn", "req": "required", "where": "Hãng bay / trang đặt phòng", "how": "Chỉ cần đặt chỗ/lịch trình — đừng thanh toán vé trước khi được duyệt." },
+        { "doc": "Thư mời (nếu thăm người thân/bạn bè)", "req": "conditional", "where": "Người mời tại Hàn Quốc", "how": "Thư mời cùng bản sao giấy tờ tùy thân/thẻ cư trú của người mời, và nếu họ bảo lãnh thì kèm chứng minh tài chính của họ." },
+        { "doc": "Thư trình bày + lịch trình", "req": "recommended", "where": "Tự viết", "how": "Một lá thư ngắn nêu mục đích và lịch trình theo ngày sẽ củng cố hồ sơ du lịch." }
+      ],
+      "legend": { "required": "Bắt buộc", "conditional": "Nếu áp dụng với bạn", "recommended": "Nên có" }
+    },
+    "funds": {
+      "title": "\"Cần chứng minh bao nhiêu tiền?\"",
+      "body": "Không có mức tối thiểu công bố. Mục tiêu là chứng minh bạn đủ khả năng chi trả chuyến đi và có lý do vững chắc để quay về Việt Nam (công việc, kinh doanh, gia đình, học tập). Vì chứng minh tài chính nay chỉ giới hạn 1–2 loại, hãy chọn bằng chứng thuyết phục nhất.",
+      "tips": [
+        "Số dư ổn định 3–6 tháng thuyết phục hơn một khoản nạp lớn phút chót.",
+        "Kết hợp tài chính với chứng minh ràng buộc: hợp đồng lao động, giấy phép kinh doanh, hoặc xác nhận đang học.",
+        "Được bảo lãnh (ví dụ bởi công ty hay gia đình)? Hãy kèm giấy bảo lãnh/tài chính của người bảo lãnh."
+      ]
+    },
+    "pitfalls": {
+      "title": "Những lỗi khiến bị từ chối & chậm trễ",
+      "items": [
+        { "icon": "📍", "t": "Sai trung tâm", "d": "Nộp ở Hà Nội trong khi nơi cư trú thuộc khu vực TP.HCM (hoặc ngược lại)." },
+        { "icon": "💸", "t": "Nạp tiền đột ngột", "d": "Một khoản lớn ngay trước khi nộp. Hãy thể hiện tài chính ổn định, giải thích được." },
+        { "icon": "🔗", "t": "Ràng buộc yếu với Việt Nam", "d": "Không chứng minh được sẽ quay về. Hãy bổ sung hợp đồng lao động, giấy tờ kinh doanh, hoặc xác nhận đang học." },
+        { "icon": "🎫", "t": "Mua vé quá sớm", "d": "Mua vé không hoàn lại trước khi được duyệt — chỉ cần đặt chỗ là đủ." },
+        { "icon": "🖼️", "t": "Ảnh không đạt", "d": "Sai kích thước hoặc nền. Hãy dùng ảnh mới 3,5×4,5 cm nền trắng." }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp: Việt Nam → Hàn Quốc",
+      "items": [
+        { "q": "Người Việt có cần visa vào Hàn Quốc không?", "a": "Có, với Hàn Quốc đại lục bạn phải xin trước visa du lịch C-3-9. (Hộ chiếu phổ thông không được miễn visa vào Hàn Quốc.)" },
+        { "q": "Tôi có thể xin visa 5 hoặc 10 năm không?", "a": "Hàn Quốc đang mở rộng visa nhiều lần, nhiều năm cho du khách Việt Nam. Điều kiện tùy hồ sơ và lịch sử đi lại của bạn — hãy hỏi KVAC/đại sứ quán xem có đủ điều kiện không." },
+        { "q": "Tôi nộp ở đâu?", "a": "Tại Trung tâm Tiếp nhận Hồ sơ Visa Hàn Quốc ở Hà Nội hoặc TP. Hồ Chí Minh, tùy nơi bạn cư trú, hoặc tại đại sứ quán/tổng lãnh sự." },
+        { "q": "Cần chứng minh bao nhiêu tiền?", "a": "Không có mức cố định. Hãy thể hiện số dư ổn định và ràng buộc chặt với Việt Nam. Chứng minh tài chính nay đơn giản còn 1–2 loại." },
+        { "q": "Lệ phí bao nhiêu?", "a": "Lệ phí theo nguyên tắc có đi có lại và khác nhau; không hoàn lại kể cả khi bị từ chối. Hãy xác nhận mức hiện tại tại KVAC." },
+        { "q": "Đi tour khen thưởng của công ty — có đơn giản hơn?", "a": "Có. Với đoàn do công ty tổ chức, giấy bảo lãnh của công ty tổ chức có thể thay cho giấy tờ tài chính cá nhân." },
+        { "q": "Tôi có vẫn cần e-Arrival Card không?", "a": "Các quy định giấy tờ nhập cảnh như e-Arrival Card vẫn có thể áp dụng khi đến. Hãy kiểm tra quy định hiện hành gần ngày đi." }
+      ]
+    }
+  }
+}

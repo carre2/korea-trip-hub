@@ -1,0 +1,88 @@
+{
+  "_README": "Per-locale translation overrides for philippines.json. Machine-translated — native review recommended.",
+  "fil": {
+    "kicker": "Gabay sa visa · Pilipinas → Korea",
+    "readingTime": "8 minutong pagbasa",
+    "h1": "Korea visa para sa mga Pilipino",
+    "metaTitle": "Korea Visa mula Pilipinas: Hakbang-hakbang na Gabay (2026) — Korea Trip Hub",
+    "metaDesc": "Paano mag-apply ng Korea tourist visa mula Pilipinas: saan isusumite, mga dokumento (at kung saan kukunin ang bawat isa), bayad, oras ng pagproseso, at mga opisyal na link. LIBRE ang C-3 short-term tourist visa.",
+    "ui": { "visa": "Uri ng visa", "stay": "Tagal ng pananatili", "entry": "Uri ng pagpasok", "where": "Saan kukunin", "official": "Opisyal na pinagmulan", "required": "Kailangan", "conditional": "Kung naaangkop", "recommended": "Inirerekomenda", "confirm": "Maaaring magbago ang bayad/mga tuntunin — kumpirmahin sa pinagmulan", "source": "Pinagmulan", "updated": "Na-update", "tldr": "BUOD" },
+    "verdict": {
+      "headline": "Oo — kailangan ng visa ng mga may hawak ng pasaporteng Pilipino, pero LIBRE ito.",
+      "sub": "Mag-a-apply ka ng C-3 tourist visa bago maglakbay papuntang mainland Korea. Ang magandang balita: walang bayad sa visa, mabilis ang pagproseso, at simula Peb 2026 hindi mo na kailangang magsumite ng 3-buwang bank statement.",
+      "type": "C-3 Tourist",
+      "stay": "Hanggang 90 araw",
+      "entry": "Single entry (posibleng multiple-entry para sa mga kwalipikadong manlalakbay)"
+    },
+    "highlights": [
+      { "icon": "🆓", "tone": "green", "title": "Walang bayad sa visa", "body": "Libre ang C-3 tourist visa para sa mga may hawak ng pasaporteng Pilipino. Mag-ingat sa mga ahensyang nagdadagdag ng sarili nilang service charge." },
+      { "icon": "📉", "tone": "blue", "title": "Mas pinadali simula 20 Peb 2026", "body": "Hindi na kailangan ng mga aplikante sa Pilipinas na magsumite ng bank statement para sa huling 3 buwan. Sa halip, nagpapakita ang mga empleyado ng ITR + Certificate of Employment." },
+      { "icon": "🏝️", "tone": "amber", "title": "Jeju Island — hiwalay na visa-free entry", "body": "May limitadong mga opsyon ng visa-free entry (simula sa Jeju Island). Hiwalay ang mga ito sa mainland tourist visa." }
+    ],
+    "tldr": [
+      "Kailangan ang C-3 tourist visa para sa mainland Korea — pero LIBRE ito.",
+      "Punan ang form sa visa.go.kr, pagkatapos ay isumite sa Korean Embassy o sa isang akreditadong travel agency.",
+      "Mga empleyado: magdala ng ITR + Certificate of Employment. May-ari ng negosyo: DTI/SEC + business permit.",
+      "Simula Peb 2026 hindi mo na kailangan ang 3-buwang bank statement. Umaabot ng mga 3–5 araw ng negosyo ang pagproseso."
+    ],
+    "steps": {
+      "title": "Ang aplikasyon, hakbang-hakbang",
+      "items": [
+        { "n": 1, "title": "Kumpirmahin ang uri ng visa", "detail": "Para sa turismo, mag-apply ng C-3 short-term tourist visa." },
+        { "n": 2, "title": "Punan ang form sa visa.go.kr", "detail": "Kumpletuhin ang application form sa Korea Visa Portal — ang tanging opisyal na site — pagkatapos ay i-print at pirmahan ito.", "link": "https://www.visa.go.kr", "linkLabel": "Korea Visa Portal" },
+        { "n": 3, "title": "Ihanda ang iyong mga dokumento", "detail": "Tipunin ang checklist sa ibaba. Ang mga empleyado ay nakasentro sa ITR + Certificate of Employment; ang mga may-ari ng negosyo sa registration + permit." },
+        { "n": 4, "title": "Isumite sa Embahada / akreditadong ahensya", "detail": "Ihain ang iyong aplikasyon sa Embassy of Korea in the Philippines o sa isang embassy-accredited na travel agency." },
+        { "n": 5, "title": "Walang babayarang visa fee", "detail": "Libre ang visa mismo. Kung gagamit ka ng travel agency, maaari silang maningil ng sarili nilang handling fee — sero ang bayad sa embahada." },
+        { "n": 6, "title": "Maghintay ng ~3–5 araw ng negosyo", "detail": "Mabilis ang pagproseso, pero maglaan ng mas mahabang panahon kapag malapit sa mga Korean holiday (Chuseok, Seollal)." },
+        { "n": 7, "title": "Kunin ang iyong pasaporte", "detail": "Kunin ang iyong pasaporte at agad na suriin ang mga detalye ng visa." }
+      ]
+    },
+    "documents": {
+      "title": "Checklist ng dokumento — kasama kung saan & paano kukunin ang bawat isa",
+      "intro": "Para sa bawat item, narito kung saan ito makukuha at kung ano ang dapat nitong ipakita. Iba-iba ang mga kinakailangan para sa mga empleyado, may-ari ng negosyo, at estudyante.",
+      "cols": ["Dokumento", "Saan kukunin", "Ano ang dapat ipakita"],
+      "rows": [
+        { "doc": "Pasaporte", "req": "required", "where": "Nasa iyo na", "how": "May bisa nang 6+ buwan na may mga blangkong pahina." },
+        { "doc": "Visa application form", "req": "required", "where": "visa.go.kr", "how": "Kumpletuhin sa Korea Visa Portal, i-print, pirmahan.", "link": "https://www.visa.go.kr" },
+        { "doc": "Litrato", "req": "required", "where": "Anumang photo studio", "how": "Kamakailang passport-style na litrato, puting background." },
+        { "doc": "Bank certificate", "req": "required", "where": "Ang iyong bangko", "how": "Isang bank certificate ng iyong account. Tandaan: simula 20 Peb 2026, hindi na kailangan ang 3-buwang bank statement." },
+        { "doc": "ITR (mga empleyado)", "req": "conditional", "where": "BIR / employer (Form 2316)", "how": "Income Tax Return na nagpapatunay ng iyong kita sa trabaho.", "link": "https://www.bir.gov.ph" },
+        { "doc": "Certificate of Employment (COE)", "req": "conditional", "where": "Ang iyong employer / HR", "how": "Sa company letterhead: posisyon, sahod, at mga aprubadong petsa ng leave." },
+        { "doc": "Business registration (self-employed)", "req": "conditional", "where": "DTI o SEC + LGU", "how": "DTI (sole proprietor) o SEC (corporation) na registration, kasama ang iyong business/mayor's permit.", "link": "https://www.dti.gov.ph" },
+        { "doc": "Round-trip flight & hotel reservation", "req": "required", "where": "Airline / booking sites", "how": "Sapat na ang mga reservation/itinerary — huwag magbayad ng ticket bago maaprubahan." }
+      ],
+      "legend": { "required": "Kailangan", "conditional": "Depende sa iyong trabaho", "recommended": "Inirerekomenda" }
+    },
+    "funds": {
+      "title": "\"Paano ko papatunayan na kaya kong bayaran ang biyahe?\"",
+      "body": "Simula Peb 2026, hindi mo na isusumite ang 3-buwang bank statement — ang bank certificate kasama ang iyong ITR/patunay ng trabaho (o negosyo) ang magdadala ng kuwento ng iyong pananalapi. Ang layunin ay ipakita ang matatag na kita at malalim na ugnayan sa Pilipinas.",
+      "tips": [
+        "Mga empleyado: ang ITR + Certificate of Employment ang puso ng iyong file.",
+        "May-ari ng negosyo: registration + business permit + isang bank certificate.",
+        "Sinusuportahan ng isang sponsor? Idagdag ang mga dokumento ng sponsor at patunay ng relasyon."
+      ]
+    },
+    "pitfalls": {
+      "title": "Mga pagkakamaling nagdudulot ng pagtanggi & pagkaantala",
+      "items": [
+        { "icon": "💳", "t": "Pagbabayad ng 'visa fee'", "d": "LIBRE ang visa sa embahada. Ang handling fee lang ng ahensya ang lehitimong dagdag." },
+        { "icon": "🧾", "t": "Mahinang patunay ng trabaho", "d": "Kulang ang ITR o COE. Ito na ngayon ang puso ng file ng isang aplikanteng Pilipino." },
+        { "icon": "🎫", "t": "Maagang pagbabayad ng flight", "d": "Pagbili ng non-refundable na ticket bago maaprubahan — sapat na ang isang reservation." },
+        { "icon": "🏝️", "t": "Pagkalito sa Jeju at mainland", "d": "Hindi saklaw ng visa-free na opsyon ng Jeju ang paglalakbay sa mainland Korea." },
+        { "icon": "🗓️", "t": "Pag-apply tuwing peak ng holiday", "d": "Bumabagal ang pagproseso kapag malapit sa Chuseok/Seollal — mag-apply nang mas maaga." }
+      ]
+    },
+    "faq": {
+      "title": "Pilipinas → Korea visa FAQ",
+      "items": [
+        { "q": "Kailangan ba ng mga Pilipino ng visa para sa Korea?", "a": "Oo para sa mainland Korea — mag-a-apply ka ng C-3 tourist visa bago maglakbay. Libre ito. May hiwalay na visa-free entry ang Jeju Island." },
+        { "q": "Magkano ang bayad sa visa?", "a": "Walang bayad sa visa para sa C-3 tourist visa para sa mga may hawak ng pasaporteng Pilipino. Maaaring maningil ang isang travel agency ng sarili nitong service fee, pero sero ang bayad sa embahada." },
+        { "q": "Kailangan ko ba ng bank statement?", "a": "Simula 20 Peb 2026, hindi na kailangan ang 3-buwang bank statement. Nagpapakita ang mga empleyado ng ITR + Certificate of Employment; nagpapakita ang mga may-ari ng negosyo ng registration + permit." },
+        { "q": "Gaano ito katagal?", "a": "Mga 3–5 araw ng negosyo, mas matagal kapag malapit sa mga Korean holiday tulad ng Chuseok at Seollal." },
+        { "q": "Saan ako mag-a-apply?", "a": "Sa Embassy of Korea in the Philippines o sa pamamagitan ng isang embassy-accredited na travel agency." },
+        { "q": "Puwede ba akong kumuha ng multiple-entry visa?", "a": "Posible ang multiple-entry visa para sa mga kwalipikadong manlalakbay (hal., malakas na travel history). Itanong sa embahada ang kasalukuyang eligibility." },
+        { "q": "Kailangan ko pa ba ang e-Arrival Card?", "a": "Maaari pa ring mag-apply ang mga tuntunin ng entry-document tulad ng e-Arrival Card pagdating. Suriin ang kasalukuyang mga tuntunin malapit sa petsa ng iyong paglalakbay." }
+      ]
+    }
+  }
+}

@@ -4,16 +4,16 @@
 // resources and official cards. Fee/processing numbers come from facts.json.
 import { fact } from "../lib/facts";
 
-const REQ = {
-  required: { t: "Required", c: "gvr-req" },
-  conditional: { t: "If it applies", c: "gvr-cond" },
-  recommended: { t: "Recommended", c: "gvr-rec" },
-};
-
 export default function VisaCountryGuide({ guide }) {
   if (!guide) return null;
   const g = guide;
+  const ui = g.ui || {};
   const f = g.factId ? fact(g.factId) : null;
+  const REQ = {
+    required: { t: ui.required || "Required", c: "gvr-req" },
+    conditional: { t: ui.conditional || "If it applies", c: "gvr-cond" },
+    recommended: { t: ui.recommended || "Recommended", c: "gvr-rec" },
+  };
 
   return (
     <div className="gv">
@@ -25,9 +25,9 @@ export default function VisaCountryGuide({ guide }) {
             <h2>{g.verdict.headline}</h2>
             <p>{g.verdict.sub}</p>
             <div className="vcg-verdict-meta">
-              {g.verdict.type && <span><b>Visa</b>{g.verdict.type}</span>}
-              {g.verdict.stay && <span><b>Stay</b>{g.verdict.stay}</span>}
-              {g.verdict.entry && <span><b>Entry</b>{g.verdict.entry}</span>}
+              {g.verdict.type && <span><b>{ui.visa || "Visa"}</b>{g.verdict.type}</span>}
+              {g.verdict.stay && <span><b>{ui.stay || "Stay"}</b>{g.verdict.stay}</span>}
+              {g.verdict.entry && <span><b>{ui.entry || "Entry"}</b>{g.verdict.entry}</span>}
             </div>
           </div>
         </div>
@@ -60,8 +60,8 @@ export default function VisaCountryGuide({ guide }) {
             </ul>
           )}
           <div className="factsrc">
-            <span className="pill vol">⚠ Fees/rules change — confirm at source</span>
-            <span>Source: <a href={f.source} target="_blank" rel="noopener noreferrer">{f.source_name}</a></span>
+            <span className="pill vol">⚠ {ui.confirm || "Fees/rules change — confirm at source"}</span>
+            <span>{ui.source || "Source"}: <a href={f.source} target="_blank" rel="noopener noreferrer">{f.source_name}</a></span>
             {f.notes && <p className="factnote">ⓘ {f.notes}</p>}
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function VisaCountryGuide({ guide }) {
                     <span className={`gvr ${rq.c}`}>{rq.t}</span>
                   </div>
                   <div className="vcg-doc-where">
-                    <span className="vcg-doc-lbl">Where</span>
+                    <span className="vcg-doc-lbl">{ui.where || "Where"}</span>
                     {r.link ? <a href={r.link} target="_blank" rel="noopener noreferrer">{r.where} ↗</a> : <span>{r.where}</span>}
                   </div>
                   <p className="vcg-doc-how">{r.how}</p>
@@ -190,7 +190,7 @@ export default function VisaCountryGuide({ guide }) {
       {/* Official cards */}
       {g.official && (
         <section className="gv-sec">
-          <h2>Official sources</h2>
+          <h2>{ui.official || "Official sources"}</h2>
           <div className="gv-off-grid">
             {g.official.map((o) => (
               <a key={o.name + o.what} className="gv-off" href={o.url} target="_blank" rel="noopener noreferrer">

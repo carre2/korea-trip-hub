@@ -1,0 +1,86 @@
+{
+  "_README": "Per-locale translation overrides for indonesia.json. Machine-translated — native review recommended.",
+  "id": {
+    "kicker": "Panduan visa · Indonesia → Korea",
+    "readingTime": "baca 8 menit",
+    "h1": "Visa Korea untuk warga Indonesia",
+    "metaTitle": "Visa Korea dari Indonesia: Panduan langkah demi langkah (2026) — Korea Trip Hub",
+    "metaDesc": "Cara mengajukan visa turis Korea dari Indonesia: di mana mengajukan, dokumen (dan di mana mendapatkan tiap dokumen), biaya, dan tautan resmi. Wisatawan individu perlu visa turis C-3; rombongan mungkin bebas visa.",
+    "ui": { "visa": "Jenis visa", "stay": "Lama tinggal", "entry": "Jumlah masuk", "where": "Di mana mendapatkannya", "official": "Sumber resmi", "required": "Wajib", "conditional": "Jika berlaku", "recommended": "Disarankan", "confirm": "Biaya/aturan dapat berubah — harap konfirmasi di sumber resmi", "source": "Sumber", "updated": "Diperbarui", "tldr": "RINGKASAN" },
+    "verdict": {
+      "headline": "Wisatawan individu Indonesia memerlukan visa — tetapi rombongan mungkin tidak.",
+      "sub": "Untuk perjalanan mandiri ke Korea daratan, Anda mengajukan visa turis C-3. Sejak 28 Mei 2026, rombongan wisata beranggotakan 3 orang atau lebih dapat masuk tanpa visa untuk kunjungan singkat melalui skema uji coba — perorangan belum memenuhi syarat.",
+      "type": "Turis C-3 (perorangan)",
+      "stay": "Hingga 90 hari",
+      "entry": "Sekali masuk (perorangan) / bebas visa untuk rombongan yang memenuhi syarat"
+    },
+    "highlights": [
+      { "icon": "👥", "tone": "green", "title": "Bebas visa untuk rombongan mulai 28 Mei 2026", "body": "Rombongan wisata Indonesia yang terdiri dari minimal 3 orang dapat masuk tanpa visa untuk kunjungan singkat melalui skema uji coba. Hanya berlaku untuk rombongan — wisatawan perorangan tetap memerlukan visa." },
+      { "icon": "🏝️", "tone": "amber", "title": "Pulau Jeju — bebas visa tersendiri", "body": "Warga negara Indonesia dapat masuk Jeju tanpa visa (khusus Jeju, penerbangan langsung, tanpa transit ke daratan). Ini terpisah dari visa turis daratan." }
+    ],
+    "tldr": [
+      "Wisatawan mandiri memerlukan visa turis C-3 untuk Korea daratan.",
+      "Isi formulir di visa.go.kr, lalu ajukan di Kedutaan Besar Korea / KVAC Jakarta.",
+      "Bawa paspor, foto, rekening koran 3 bulan, surat keterangan kerja + slip gaji.",
+      "Bepergian dalam rombongan 3 orang atau lebih? Anda mungkin memenuhi syarat untuk masuk tanpa visa (uji coba mulai Mei 2026)."
+    ],
+    "steps": {
+      "title": "Proses pengajuan, langkah demi langkah (C-3 perorangan)",
+      "items": [
+        { "n": 1, "title": "Pastikan jenis visa", "detail": "Wisatawan mandiri mengajukan visa turis jangka pendek C-3. (Rombongan 3 orang atau lebih sebaiknya menanyakan skema uji coba bebas visa kepada agen perjalanan mereka.)" },
+        { "n": 2, "title": "Isi formulir di visa.go.kr", "detail": "Lengkapi formulir permohonan di Korea Visa Portal — satu-satunya situs resmi — lalu cetak dan tanda tangani.", "link": "https://www.visa.go.kr", "linkLabel": "Portal Visa Korea" },
+        { "n": 3, "title": "Siapkan dokumen Anda", "detail": "Kumpulkan daftar di bawah ini: paspor, foto, rekening koran 3 bulan, dan bukti pekerjaan." },
+        { "n": 4, "title": "Ajukan di Kedutaan / KVAC Jakarta", "detail": "Serahkan permohonan Anda ke Kedutaan Besar Korea atau Korea Visa Application Center di Jakarta." },
+        { "n": 5, "title": "Bayar biaya", "detail": "Bayar biaya visa dan biaya layanan. Biaya tidak dapat dikembalikan meskipun ditolak — konfirmasikan jumlahnya di pusat layanan." },
+        { "n": 6, "title": "Pantau & tunggu", "detail": "Ikuti status melalui kanal pusat layanan. Jangan membeli tiket pesawat yang tidak dapat dikembalikan sebelum disetujui." },
+        { "n": 7, "title": "Ambil paspor Anda", "detail": "Ambil paspor Anda dan segera periksa detail visanya." }
+      ]
+    },
+    "documents": {
+      "title": "Daftar dokumen — beserta di mana & cara mendapatkan tiap dokumen",
+      "intro": "Untuk setiap dokumen, berikut tempat memperolehnya dan apa yang harus ditunjukkannya.",
+      "cols": ["Dokumen", "Di mana mendapatkannya", "Apa yang harus ditunjukkan"],
+      "rows": [
+        { "doc": "Paspor", "req": "required", "where": "Anda sudah memilikinya", "how": "Berlaku minimal 6 bulan dengan halaman kosong." },
+        { "doc": "Formulir permohonan visa", "req": "required", "where": "visa.go.kr", "how": "Lengkapi di Korea Visa Portal, cetak, tanda tangani.", "link": "https://www.visa.go.kr" },
+        { "doc": "Foto", "req": "required", "where": "Studio foto mana pun", "how": "Foto terbaru gaya paspor, latar belakang putih." },
+        { "doc": "Rekening koran — 3 bulan terakhir", "req": "required", "where": "Bank Anda", "how": "Rekening koran yang menunjukkan saldo dan riwayat transaksi; saldo yang stabil paling baik." },
+        { "doc": "Surat keterangan kerja", "req": "required", "where": "Perusahaan / HRD Anda", "how": "Di kop surat perusahaan: jabatan, gaji, dan cuti yang disetujui." },
+        { "doc": "Slip gaji", "req": "required", "where": "Perusahaan Anda", "how": "Slip gaji terbaru yang mendukung penghasilan Anda." },
+        { "doc": "Reservasi tiket pulang-pergi & hotel", "req": "required", "where": "Maskapai / situs pemesanan", "how": "Reservasi/rencana perjalanan sudah cukup — jangan membayar tiket sebelum disetujui." },
+        { "doc": "Surat sponsor (jika dibiayai orang lain)", "req": "conditional", "where": "Sponsor Anda", "how": "Surat sponsor + rekening koran sponsor + bukti hubungan." }
+      ],
+      "legend": { "required": "Wajib", "conditional": "Jika berlaku bagi Anda", "recommended": "Disarankan" }
+    },
+    "funds": {
+      "title": "\"Berapa banyak uang yang harus saya tunjukkan?\"",
+      "body": "Tidak ada batas minimum tunggal yang dipublikasikan. Tunjukkan saldo yang stabil selama 3 bulan dan ikatan yang jelas dengan Indonesia (pekerjaan, keluarga). Jika perjalanan Anda dibiayai orang lain, dokumentasikan sponsor secara lengkap.",
+      "tips": [
+        "Saldo yang stabil selama 3 bulan lebih baik daripada setoran mendadak sebelum mengajukan.",
+        "Padukan rekening koran dengan surat keterangan kerja dan slip gaji Anda.",
+        "Disponsori? Tambahkan rekening koran, surat, dan bukti hubungan dari sponsor."
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesalahan yang menyebabkan penolakan & keterlambatan",
+      "items": [
+        { "icon": "🧍", "t": "Mengira sendirian = bebas visa", "d": "Uji coba bebas visa hanya untuk rombongan (3 orang atau lebih). Wisatawan perorangan tetap memerlukan visa C-3." },
+        { "icon": "💸", "t": "Setoran mendadak", "d": "Sejumlah besar uang tepat sebelum mengajukan. Tunjukkan dana yang stabil dan dapat dijelaskan." },
+        { "icon": "🧾", "t": "Bukti pekerjaan lemah", "d": "Tidak ada surat keterangan kerja atau slip gaji. Dokumen ini menjadi penopang berkas pemohon perorangan." },
+        { "icon": "🎫", "t": "Membayar tiket terlalu dini", "d": "Membeli tiket yang tidak dapat dikembalikan sebelum disetujui — reservasi sudah cukup." },
+        { "icon": "🏝️", "t": "Mengira Jeju sama dengan daratan", "d": "Bebas visa Jeju tidak mencakup perjalanan ke Korea daratan." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ visa Indonesia → Korea",
+      "items": [
+        { "q": "Apakah warga Indonesia memerlukan visa untuk Korea?", "a": "Wisatawan perorangan memerlukan visa turis C-3 untuk Korea daratan. Sejak 28 Mei 2026, rombongan wisata 3 orang atau lebih dapat masuk tanpa visa melalui uji coba; Pulau Jeju memiliki jalur bebas visa tersendiri." },
+        { "q": "Saya bepergian sendirian — bisakah saya tanpa visa?", "a": "Tidak. Uji coba bebas visa hanya berlaku untuk rombongan minimal 3 orang. Wisatawan mandiri harus mengajukan visa C-3." },
+        { "q": "Bukti finansial apa yang saya perlukan?", "a": "Rekening koran 3 bulan ditambah surat keterangan kerja dan slip gaji. Jika disponsori, sertakan dokumen sponsor." },
+        { "q": "Di mana saya mengajukan?", "a": "Di Kedutaan Besar Korea atau Korea Visa Application Center di Jakarta." },
+        { "q": "Berapa biayanya?", "a": "Biaya bervariasi dan tidak dapat dikembalikan meskipun ditolak. Konfirmasikan jumlah terkini di pusat layanan." },
+        { "q": "Apakah saya masih memerlukan e-Arrival Card?", "a": "Aturan dokumen masuk seperti e-Arrival Card tetap dapat berlaku saat kedatangan. Periksa aturan yang berlaku menjelang tanggal keberangkatan Anda." }
+      ]
+    }
+  }
+}
