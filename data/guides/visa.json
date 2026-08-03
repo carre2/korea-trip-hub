@@ -15,8 +15,9 @@
     "If you DO need K-ETA: apply only at k-eta.go.kr, ₩10,000, valid 3 years, at least 72h before you fly."
   ],
   "countryGuides": {
-    "title": "Applying for a visa? Start with your country",
-    "intro": "If your nationality isn't visa-free, we build a full A-to-Z walkthrough — which center to visit, every document and where to get it, fees, and official links. Pick yours:",
+    "title": "Find your country",
+    "intro": "Every nationality has its own path. Pick yours for a tailored guide — a full A-to-Z visa walkthrough if you need a visa, or a quick entry checklist if you're visa-free.",
+    "needTitle": "🛂 You need a visa — full A-to-Z walkthrough",
     "items": [
       { "code": "india", "flag": "🇮🇳", "name": "India", "note": "C-3-9 tourist visa · KVAC (VFS)" },
       { "code": "vietnam", "flag": "🇻🇳", "name": "Vietnam", "note": "C-3-9 · simplified docs · up to 10-yr visa" },
@@ -24,7 +25,16 @@
       { "code": "philippines", "flag": "🇵🇭", "name": "Philippines", "note": "C-3 · FREE visa · no bank statement" },
       { "code": "indonesia", "flag": "🇮🇩", "name": "Indonesia", "note": "C-3 · group visa-free from May 2026" }
     ],
-    "more": "Don't see your country? Visa-free nationals just need the e-Arrival Card (see above). More country guides are being added."
+    "freeTitle": "✅ Visa-free — quick entry guide",
+    "visaFree": [
+      { "code": "usa", "flag": "🇺🇸", "name": "USA", "note": "Visa-free 90 days · K-ETA waived" },
+      { "code": "japan", "flag": "🇯🇵", "name": "Japan", "note": "Visa-free 90 days · K-ETA waived" },
+      { "code": "uk", "flag": "🇬🇧", "name": "UK", "note": "Visa-free 90 days · K-ETA waived" },
+      { "code": "canada", "flag": "🇨🇦", "name": "Canada", "note": "Visa-free up to 6 months" },
+      { "code": "australia", "flag": "🇦🇺", "name": "Australia", "note": "Visa-free 90 days · K-ETA waived" },
+      { "code": "taiwan", "flag": "🇹🇼", "name": "Taiwan", "note": "Visa-free 90 days · K-ETA waived" }
+    ],
+    "more": "Don't see your country? Most other visa-free nationals just need the e-Arrival Card (see above). More country guides are being added."
   },
   "documents": {
     "title": "The 3 documents, in plain English",

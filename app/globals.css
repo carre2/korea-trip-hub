@@ -484,6 +484,10 @@
   .vcg-hub-txt b{font-size:14.5px}
   .vcg-hub-txt em{font-size:12px;color:var(--muted);font-style:normal}
   .vcg-hub-arrow{color:var(--primary);font-weight:800;font-size:18px}
+  .vcg-hub-sub{font-size:14px;font-weight:800;margin:16px 0 10px;color:var(--text)}
+  .vcg-hub-sub:first-of-type{margin-top:4px}
+  .vcg-hub-free{border-color:var(--border)}
+  .vcg-hub-free .vcg-hub-arrow{color:var(--jade)}
 
   /* Verdict banner */
   .vcg-verdict{display:flex;gap:16px;align-items:flex-start;padding:20px 22px;border-radius:16px;margin:8px 0 18px;border:1px solid var(--border-strong)}

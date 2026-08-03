@@ -5,6 +5,12 @@ import vietnam from "../../../../data/visa/vietnam.json";
 import china from "../../../../data/visa/china.json";
 import philippines from "../../../../data/visa/philippines.json";
 import indonesia from "../../../../data/visa/indonesia.json";
+import usa from "../../../../data/visa/usa.json";
+import japan from "../../../../data/visa/japan.json";
+import uk from "../../../../data/visa/uk.json";
+import canada from "../../../../data/visa/canada.json";
+import australia from "../../../../data/visa/australia.json";
+import taiwan from "../../../../data/visa/taiwan.json";
 import indiaI18n from "../../../../data/visa/india.i18n.json";
 import vietnamI18n from "../../../../data/visa/vietnam.i18n.json";
 import chinaI18n from "../../../../data/visa/china.i18n.json";
@@ -12,7 +18,7 @@ import philippinesI18n from "../../../../data/visa/philippines.i18n.json";
 import indonesiaI18n from "../../../../data/visa/indonesia.i18n.json";
 
 // Per-nationality visa guides. Add a country here + a data/visa/<code>.json file.
-const countries = { india, vietnam, china, philippines, indonesia };
+const countries = { india, vietnam, china, philippines, indonesia, usa, japan, uk, canada, australia, taiwan };
 // Per-locale translation overrides, one file per country: { <locale>: { ...overrides } }.
 const i18nMaps = { india: indiaI18n, vietnam: vietnamI18n, china: chinaI18n, philippines: philippinesI18n, indonesia: indonesiaI18n };
 
