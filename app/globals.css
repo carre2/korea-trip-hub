@@ -334,3 +334,7 @@
   .spo-label{font-size:13px;font-weight:700;color:var(--muted);margin-bottom:10px;font-family:var(--mono);letter-spacing:.02em}
   .spo-picker .chip[aria-pressed="true"]{background:#1DB954;border-color:#1DB954;color:#04220f}
   .spo-note{font-size:11.5px;color:var(--faint);margin-top:10px;text-align:center}
+
+  /* ---------- REVIEWS EMPTY STATE ---------- */
+  .rev-empty{text-align:center;padding:44px 20px;background:var(--surface);border:1px dashed var(--border-strong);border-radius:var(--r)}
+  .rev-empty p{color:var(--muted);margin-bottom:16px;font-size:15px}

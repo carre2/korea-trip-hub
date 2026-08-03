@@ -3,6 +3,7 @@ import { fact, factsUpdated } from "../../lib/facts";
 import MapExplorer from "../../components/MapExplorer";
 import SpotifyKpop from "../../components/SpotifyKpop";
 import TripPlanner from "../../components/TripPlanner";
+import ReviewsSection from "../../components/ReviewsSection";
 import destData from "../../data/destinations.json";
 import destJa from "../../data/destinations.ja.json";
 import destZh from "../../data/destinations.zh.json";
@@ -169,34 +170,17 @@ export default function Home({ params }) {
         </div>
       </section>
 
-      {/* ===== REVIEWS (by category & language) ===== */}
+      {/* ===== REVIEWS (real, by category & language) ===== */}
       <section className="reviews" id="reviews">
         <div className="wrap">
           <div className="sec-head">
             <div>
               <span className="eyebrow">From travelers like you</span>
-              <h2>Reviews, sorted by category & language</h2>
-              <p>Real experiences shown in your own language first. (Sample entries — real reviews come from the review pipeline.)</p>
+              <h2>{m.reviews.title}</h2>
+              <p>{m.reviews.sub}</p>
             </div>
           </div>
-          <div className="grid g3">
-            {[
-              { n: "Aiko T.", loc: "Tokyo, Japan · 3-day trip", av: "#3B4CE0", flag: "🇯🇵 日本語", cat: "🥢 Food experience", catBg: "var(--amber-soft)", catC: "var(--amber)", body: "キムチ作り体験、最高でした！英語のガイドも丁寧で、作ったキムチを持ち帰れます。" },
-              { n: "Marco B.", loc: "Milan, Italy · solo", av: "#0FA08C", flag: "🇮🇹 Italiano", cat: "🥾 Destination", catBg: "var(--jade-soft)", catC: "var(--jade)", body: "Bukhansan è stata la sorpresa del viaggio. Sentiero ben segnalato, vista su tutta Seoul." },
-              { n: "Somchai P.", loc: "Bangkok, Thailand", av: "#FF3E6C", flag: "🇹🇭 ไทย", cat: "🎤 K-Culture", catBg: "var(--accent-soft)", catC: "var(--accent)", body: "ตามรอยซีรีส์และไปคอนเสิร์ต K-pop ผ่านลิงก์ kpophub จองง่ายมาก แนะนำเลยค่ะ" },
-            ].map((r) => (
-              <article className="rev-card" key={r.n}>
-                <div className="rev-top">
-                  <span className="avatar" style={{ background: r.av }}>{r.n[0]}</span>
-                  <div className="who"><b>{r.n}</b><div className="sub">{r.loc}</div></div>
-                  <span className="langflag">{r.flag}</span>
-                </div>
-                <span className="rev-cat" style={{ background: r.catBg, color: r.catC }}>{r.cat}</span>
-                <div className="stars">★★★★★</div>
-                <p>{r.body}</p>
-              </article>
-            ))}
-          </div>
+          <ReviewsSection t={m.reviews} locale={locale} />
         </div>
       </section>
 
