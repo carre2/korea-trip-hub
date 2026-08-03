@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "verify:i18n": "node scripts/verify-i18n.mjs",
+    "review:export": "node scripts/export-review.mjs",
     "prebuild": "node scripts/verify-i18n.mjs"
   },
   "dependencies": {

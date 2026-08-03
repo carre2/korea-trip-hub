@@ -1,0 +1,26 @@
+{
+  "_README": "Surcharge française de food.json. eat/make dans le même ordre {n, tag, d}. Aucun prix inventé.",
+  "eat": [
+    { "n": "Barbecue coréen", "tag": "Grillades", "d": "Poitrine de porc (samgyeopsal) et galbi grillés à table, dans une feuille de laitue avec ssamjang et ail." },
+    { "n": "Tteokbokki et street food", "tag": "Rue", "d": "Gâteaux de riz en sauce douce-piquante, plus hotteok, gimbap et gâteaux de poisson aux stands." },
+    { "n": "Bibimbap", "tag": "Classique", "d": "Bol de riz garni de légumes, œuf et gochujang — mélange le tout avant de manger." },
+    { "n": "Poulet frit coréen (chimaek)", "tag": "Icône", "d": "Poulet frit ultra croustillant avec bière — le « chimaek » est un passe-temps national." },
+    { "n": "Naengmyeon (nouilles froides)", "tag": "Été", "d": "Nouilles de sarrasin dans un bouillon glacé — un favori rafraîchissant de l'été." },
+    { "n": "Halal et végétarien", "tag": "Régime", "d": "Adresses halal certifiées près d'Itaewon ; la cuisine de temple et végétarienne se développe partout." },
+    { "n": "Cafés et desserts de Seongsu", "tag": "Café", "d": "Café de spécialité et desserts créatifs dans le quartier café le plus branché de Séoul." },
+    { "n": "Jjigae et bunsik (cuisine réconfortante)", "tag": "Réconfort", "d": "Ragoûts bouillonnants comme le kimchi-jjigae et le budae-jjigae — copieux et bon marché." }
+  ],
+  "make": [
+    { "n": "Cours de kimchi", "tag": "Pratique", "d": "Prépare et emporte ton propre kimchi ; souvent avec un guide en anglais." },
+    { "n": "Cuisine bibimbap et bulgogi", "tag": "Cuisine", "d": "Cuisine un repas coréen complet avec un chef, puis déguste-le." },
+    { "n": "Fabrication de tteok (gâteaux de riz)", "tag": "Traditionnel", "d": "Façonne de jolis gâteaux de riz traditionnels — ludique et familial." },
+    { "n": "Brassage et dégustation de makgeolli", "tag": "19+", "d": "Apprends à brasser et déguster le vin de riz coréen, souvent avec des amuse-bouches." }
+  ],
+  "tips": [
+    "Un restaurant plein de locaux est en général bon signe.",
+    "Beaucoup d'endroits ont un menu illustré ou en anglais ; les supérettes sont parfaites pour manger tard et pas cher.",
+    "Les accompagnements (banchan) sont gratuits et souvent resservis.",
+    "Pour le halal, le quartier d'Itaewon offre le plus de choix certifiés.",
+    "Les prix et la durée des cours varient selon l'organisateur — vérifie au moment de réserver."
+  ]
+}

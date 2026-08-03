@@ -4,8 +4,9 @@ import dest from "../../../data/destinations.json";
 import destJa from "../../../data/destinations.ja.json";
 import destZh from "../../../data/destinations.zh.json";
 import destEs from "../../../data/destinations.es.json";
+import destFr from "../../../data/destinations.fr.json";
 
-const destI18n = { ja: destJa, zh: destZh, es: destEs };
+const destI18n = { ja: destJa, zh: destZh, es: destEs, fr: destFr };
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
