@@ -1,0 +1,26 @@
+{
+  "_README": "food.json Türkçe geçersiz kılma. eat/make aynı sırayla {n, tag, d}. Uydurma fiyat yok. Makine çevirisi — gözden geçirilmeli.",
+  "eat": [
+    { "n": "Kore barbeküsü", "tag": "Izgara", "d": "Domuz göbeği (samgyeopsal) ve galbi masada ızgarada, marul yaprağında ssamjang ve sarımsakla." },
+    { "n": "Tteokbokki ve sokak yemekleri", "tag": "Sokak", "d": "Tatlı-acı soslu pirinç keki, ayrıca tezgâhlarda hotteok, gimbap ve balık keki." },
+    { "n": "Bibimbap", "tag": "Klasik", "d": "Sebze, yumurta ve gochujang ile pirinç kâsesi — yemeden önce hepsini karıştır." },
+    { "n": "Kore usulü kızarmış tavuk (chimaek)", "tag": "İkon", "d": "Bira ile ekstra çıtır kızarmış tavuk — 'chimaek' ulusal bir keyif." },
+    { "n": "Naengmyeon (soğuk erişte)", "tag": "Yaz", "d": "Buz gibi et suyunda diri karabuğday erişte — yazın ferahlatan gözde." },
+    { "n": "Helal ve vejetaryen", "tag": "Beslenme", "d": "Sertifikalı helal mekânlar Itaewon çevresinde yoğun; tapınak mutfağı ve vejetaryen seçenekler şehir genelinde artıyor." },
+    { "n": "Seongsu kafeleri ve tatlıları", "tag": "Kafe", "d": "Seul'ün en gözde kafe mahallesinde özel kahve ve yaratıcı tatlılar." },
+    { "n": "Jjigae ve bunsik (gönül rahatlatan)", "tag": "Ev yemeği", "d": "Kimchi-jjigae ve budae-jjigae gibi fokur fokur yahniler — doyurucu ve ucuz." }
+  ],
+  "make": [
+    { "n": "Kimchi yapım dersi", "tag": "Uygulamalı", "d": "Kendi kimchini yap ve paketleyip götür; genelde İngilizce rehberli." },
+    { "n": "Bibimbap ve bulgogi pişirme", "tag": "Yemek", "d": "Bir şefle tam bir Kore öğünü pişir ve sonra ye." },
+    { "n": "Tteok (pirinç keki) yapımı", "tag": "Geleneksel", "d": "Rengârenk geleneksel pirinç kekleri şekillendir — eğlenceli ve aileye uygun." },
+    { "n": "Makgeolli demleme ve tadımı", "tag": "19+", "d": "Kore pirinç şarabını demlemeyi ve tatmayı öğren, genelde mezelerle." }
+  ],
+  "tips": [
+    "Yerlilerle dolu bir restoran genelde iyi işarettir.",
+    "Birçok yerde resimli veya İngilizce menü var; marketler ucuz gece atıştırması için harika.",
+    "Yan yemekler (banchan) ücretsiz ve çoğu zaman tazelenir.",
+    "Helal yemek için en çok sertifikalı seçenek Itaewon çevresinde.",
+    "Ders fiyatları ve süreleri düzenleyene göre değişir — rezervasyonda teyit et."
+  ]
+}

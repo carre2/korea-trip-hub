@@ -1,0 +1,174 @@
+{
+  "_README": "destinations.json Türkçe geçersiz kılma. Sayılar facts'ten gelir. Makine çevirisi — anadili konuşuru gözden geçirmeli.",
+  "items": {
+    "myeongdong": {
+      "name": "Myeongdong", "rank": "En çok ziyaret edilen", "blurb": "Alışveriş, sokak yemekleri ve güzellik — klasik ilk durak.",
+      "intro": [
+        "Myeongdong, Seul'ün en hareketli alışveriş caddesi ve yabancı gezginlerin en çok uğradığı bölge. Kozmetik dükkânları, moda ve akşamları canlı bir sokak yemeği sahnesiyle dolu.",
+        "Merkezi ve ulaşımı kolay; üs olarak ya da ilk günün ilk durağı için ideal."
+      ],
+      "tips": [
+        "Akşam aç karnına gel — sokak yemeği tezgâhları başrolde.",
+        "Kozmetik dükkânları sık sık numune verir; almadan önce birkaçını karşılaştır.",
+        "Myeongdong İstasyonu (4. hat), 5–8 çıkışları seni tam merkeze bırakır."
+      ],
+      "nearby": ["N Seul Kulesi", "Namdaemun Pazarı", "Gyeongbokgung"]
+    },
+    "gyeongbokgung": {
+      "name": "Gyeongbokgung Sarayı", "rank": "Kaçırılmaz", "blurb": "Büyük kraliyet sarayı — hanbokla giriş ücretsiz.",
+      "intro": [
+        "Gyeongbokgung, Seul'deki Joseon dönemi kraliyet saraylarının en büyüğü; büyük kapıları, avluları ve bir gölet kenarındaki köşküyle dikkat çeker.",
+        "Yakında bir hanbok (geleneksel kıyafet) kiralamak ücretsiz giriş ve unutulmaz fotoğraflar sağlar."
+      ],
+      "tips": [
+        "Saraya ücretsiz girmek için hanbok giy.",
+        "Ana kapıdaki nöbet değişimi törenini kaçırma.",
+        "Bukchon hanok köyü çok yakın — bir sabahta birleştir."
+      ],
+      "nearby": ["Bukchon Hanok Köyü", "Gwanghwamun", "Insadong"]
+    },
+    "n-seoul-tower": {
+      "name": "N Seul Kulesi", "rank": "2. en çok ziyaret edilen", "blurb": "Namsan teleferiği ve şehrin en iyi manzarası.",
+      "intro": [
+        "Namsan Dağı'nın tepesindeki N Seul Kulesi, özellikle gün batımında ve gece şehrin en iyi panoramik manzarasını sunar.",
+        "Yukarı çıkan Namsan teleferiği de keyfin bir parçası."
+      ],
+      "tips": [
+        "Hem gündüz hem gece manzarası için gün batımına yakın git.",
+        "Yukarı teleferikle çık; aşağı Namsan Parkı'ndan yürüyerek inebilirsin.",
+        "Hafta sonu ve tatiller kalabalık — erken ya da geç git."
+      ],
+      "nearby": ["Myeongdong", "Namsan Parkı", "Itaewon"]
+    },
+    "bukchon": {
+      "name": "Bukchon Hanok Köyü", "rank": "Avrupalıların gözdesi", "blurb": "Geleneksel sokaklar ve fotojenik manzaralar.",
+      "intro": [
+        "Bukchon, iki saray arasında korunmuş hanoklarıyla (geleneksel evler) bir yamaç mahallesi; sakin sokakları ve çatı manzaralarıyla büyüler.",
+        "Yaşayan bir yerleşim; sakin ve saygılı bir yürüyüşle tadı çıkar."
+      ],
+      "tips": [
+        "Sesini alçalt — burada insanlar yaşıyor.",
+        "Fotoğraf için en sakin zaman sabahlar.",
+        "Hemen yakındaki Gyeongbokgung ve Insadong ile birleştir."
+      ],
+      "nearby": ["Gyeongbokgung", "Insadong", "Changdeokgung"]
+    },
+    "hongdae": {
+      "name": "Hongdae", "rank": "Gece hayatı ve gençlik", "blurb": "Sokak gösterileri, bağımsız dükkânlar ve gece hayatı.",
+      "intro": [
+        "Hongik Üniversitesi çevresindeki Hongdae, Seul'ün genç sanat ve müzik mahallesi — sokak müzisyenleri, bağımsız dükkânlar, kulüpler ve gece geç saatte yemek.",
+        "Hava kararınca şehrin enerjisini hissetmek için doğru yer."
+      ],
+      "tips": [
+        "Akşam sokak sanatçıları ortaya çıkar.",
+        "Kafeler ve vintage dükkânlar için ara sokakları keşfet.",
+        "2. hat ve AREX havaalanı hattıyla ulaşımı kolay."
+      ],
+      "nearby": ["Yeonnam-dong", "Sinchon", "Hapjeong"]
+    },
+    "seongsu": {
+      "name": "Seongsu", "rank": "Amerikalıların gözdesi", "blurb": "Seul'ün en gözde kafe ve tatlı caddesi.",
+      "intro": [
+        "Eski bir sanayi bölgesi olan Seongsu, bugün Seul'ün en havalı kafe ve tasarım mahallesi — dönüştürülmüş depolar, kavurma atölyeleri ve pop-up mağazalar.",
+        "Özellikle Amerika kıtasından gezginleri çekiyor."
+      ],
+      "tips": [
+        "Bir kafe turu yap; birkaç sokakta birden fazla kavurma atölyesi var.",
+        "Hafta içi hafta sonuna göre daha sakin.",
+        "Hemen yanındaki Seoul Forest parkıyla birleştir."
+      ],
+      "nearby": ["Seoul Forest", "Ttukseom", "Konkuk Ünv."]
+    },
+    "bukhansan": {
+      "name": "Bukhansan (K-yürüyüş)", "rank": "Yükselen trend", "blurb": "Şehrin kıyısında granit zirveler — Kore'nin en hızlı büyüyen trendi.",
+      "intro": [
+        "Bukhansan Ulusal Parkı Seul'ün tam kıyısında yükselir; granit zirveleri ve tapınak patikalarıyla, yabancılar arasında büyüyen 'K-yürüyüş' trendine öncülük eder.",
+        "Patikalar kolay yürüyüşlerden dik tırmanışlara kadar — formuna göre seç."
+      ],
+      "tips": [
+        "Özellikle yazın sabah erken başla.",
+        "Uygun ayakkabı giy; üst kesim kayalık.",
+        "Havayı kontrol et ve su al."
+      ],
+      "nearby": ["Bukaksan", "Gwanaksan", "Achasan"]
+    },
+    "dmz": {
+      "name": "DMZ Turu", "rank": "Hayali kurulan günübirlik", "blurb": "Sınır bölgesi — düzenli turla gezilir.",
+      "intro": [
+        "İki Kore arasındaki Askersizleştirilmiş Bölge, Seul'den etkileyici bir günübirlik; genellikle erişimi ve kuralları üstlenen düzenli bir turla gezilir.",
+        "Duraklar gözlem noktalarını ve tünelleri içerebilir."
+      ],
+      "tips": [
+        "Yetkili bir tura katılmalısın — tek başına gidilemez.",
+        "Kimlik kontrolü var; pasaportunu al.",
+        "Özellikle yoğun sezonda önceden rezervasyon yap."
+      ],
+      "nearby": ["Imjingak", "Paju"]
+    },
+    "haeundae": {
+      "name": "Haeundae Plajı", "rank": "Busan'ın 1 numaralı plajı", "blurb": "Busan'ın en ünlü plajı ve sahil bölgesi.",
+      "intro": [
+        "Haeundae, Busan'ın simge plajı — oteller, kafeler ve renkli kapsülleriyle sahil Blueline Park'ın gerisinde uzanan geniş bir kumsal.",
+        "İlk Busan gezisi için en pratik üs."
+      ],
+      "tips": [
+        "Blueline Park sky capsule popüler — sezonda önceden rezervasyon yap.",
+        "Yakındaki Gwangalli Plajı, Diamond Köprüsü ışıklarıyla gece muhteşem.",
+        "Deniz ürünleri restoranları arka sokaklarda."
+      ],
+      "nearby": ["Gwangalli Plajı", "Blueline Park", "Dongbaekseom"]
+    },
+    "gamcheon": {
+      "name": "Gamcheon Kültür Köyü", "rank": "Busan ilk 3", "blurb": "Rengârenk evleriyle bir yamaç köyü.",
+      "intro": [
+        "Gamcheon, pastel evleri, duvar resimleri ve sanat düzenlemeleriyle fotojenik bir yamaç mahallesi; 'Busan'ın Santorini'si' denir.",
+        "Dar merdivenli sokaklar acele etmeden dolaşmaya davet eder."
+      ],
+      "tips": [
+        "Rahat ayakkabı giy — yokuşlu ve çok merdivenli.",
+        "En iyi rotalar için sanat haritasının damga güzergâhını izle.",
+        "Yerleşim bölgesi; sessiz ol."
+      ],
+      "nearby": ["Jagalchi Pazarı", "Songdo Plajı", "BIFF Meydanı"]
+    },
+    "jagalchi": {
+      "name": "Jagalchi Balık Pazarı", "rank": "Deniz ürünleri simgesi", "blurb": "Kore'nin en büyük deniz ürünleri pazarı.",
+      "intro": [
+        "Jagalchi, Kore'nin en büyük deniz ürünleri pazarı — alt katta balığını seç, üst katta pişirsinler.",
+        "Busan'ın liman yaşamından otantik ve canlı bir kesit."
+      ],
+      "tips": [
+        "En taze ve hareketli olduğu öğle saatinde git.",
+        "Fiyatlar çoğu zaman pazarlığa açık — sipariş vermeden anlaş.",
+        "Hemen yanındaki Gukje Pazarı ve BIFF Meydanı ile birleştir."
+      ],
+      "nearby": ["Gukje Pazarı", "BIFF Meydanı", "Gamcheon"]
+    },
+    "seongsan": {
+      "name": "Seongsan Ilchulbong", "rank": "Jeju'da görülmeli", "blurb": "Jeju'nun doğusunda UNESCO gün doğumu zirvesi.",
+      "intro": [
+        "Seongsan Ilchulbong ('Gün Doğumu Zirvesi'), denizden yükselen çarpıcı bir volkanik koni; UNESCO Dünya Mirası ve Jeju'nun simge gün doğumu noktası.",
+        "Krater kenarına tırmanış kısa ama dik."
+      ],
+      "tips": [
+        "Gün doğumu klasiktir ama açık her gün nefes kesici.",
+        "Gerçek bir tırmanış — iyi ayakkabı giy.",
+        "Doğu Jeju günü için Seopjikoji ve Manjanggul ile birleştir."
+      ],
+      "nearby": ["Seopjikoji", "Manjanggul Mağarası", "Udo Adası"]
+    },
+    "hallasan": {
+      "name": "Hallasan", "rank": "Kore'nin en yüksek zirvesi", "blurb": "Jeju'nun volkanı — her seviyeye patika.",
+      "intro": [
+        "Hallasan, Jeju'nun merkezinde bir kalkan volkan ve Güney Kore'nin en yüksek dağı; değişen ormanlar ve alpin manzaralar arasından patikalar geçer.",
+        "Bazı zirve patikaları erken çıkış ve rezervasyon ister."
+      ],
+      "tips": [
+        "Hangi patikaların zirveye çıktığını ve rezervasyon gerekip gerekmediğini kontrol et.",
+        "Hava hızla değişir — katmanlı giyin.",
+        "Park saatleri içinde inebilmek için erken başla."
+      ],
+      "nearby": ["Jeju Şehri", "Eorimok", "Seongpanak"]
+    }
+  }
+}

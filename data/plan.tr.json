@@ -1,0 +1,83 @@
+{
+  "_README": "plan.json Türkçe geçersiz kılma (tagline/intro/tips). Sayılar facts'ten gelir. Makine çevirisi — gözden geçirilmeli.",
+  "items": {
+    "visa": {
+      "tagline": "Kore'ye girmek için vize veya K-ETA gerekir mi? Çoğu kısa süreli turist için giriş böyle işler.",
+      "intro": [
+        "Çoğu turist kısa süreli kalır ve önceden vize almaz, ancak kesin kurallar uyruğuna bağlıdır — uçmadan önce durumunu her zaman resmi bir kaynaktan doğrula.",
+        "2026'da Kore, vizeden muaf uyruklular için K-ETA'yı geçici olarak kaldırdı. K-ETA muaf olsa da her yolcu e-Arrival Card doldurmalı."
+      ],
+      "tips": [
+        "Uyruğunu kontrol et — vizesiz kalış süresi ülkeye göre değişir (genelde 30, 60 veya 90 gün).",
+        "Pasaportun kalış süresi boyunca geçerli olmalı.",
+        "Kâğıt formu atlamak için e-Arrival Card'ı çevrimiçi önceden ya da varışta doldur.",
+        "Emin değilsen en yakın Kore büyükelçiliği veya konsolosluğuyla iletişime geç."
+      ]
+    },
+    "transit": {
+      "tagline": "Neredeyse her şey için tek dolum kartı — metro, otobüs, taksi. Ayrıca günübirlik için şehirlerarası trenler.",
+      "intro": [
+        "T-money kartı, Kore'de toplu taşımaya ödeme yapmanın en kolay yolu. Metro ve otobüslerde inip binerken okut; birçok taksi ve markette de ödeyebilirsin.",
+        "Seul metrosu geniş, İngilizce tabelalı ve harita uygulamasıyla kolay. Şehirlerarası uzun mesafede yüksek hızlı KTX hızlı ve sık."
+      ],
+      "tips": [
+        "T-money'yi herhangi bir markette al ve doldur — sadece 'T-money, please' de.",
+        "Naver Map veya KakaoMap kullan; Kore'de Google Haritalar'ın toplu taşıma yönlendirmesi kısıtlı.",
+        "KTX ve şehirlerarası trenleri KORAIL uygulamasından veya letskorail.com'dan, özellikle hafta sonu ve tatillerde rezerve et.",
+        "Taksiler taksimetreli; çoğu T-money veya kart kabul eder. Adresi Korece hazır bulundur."
+      ]
+    },
+    "airport": {
+      "tagline": "Incheon'a mı indin? Seul merkezine üç ana yol — ekspres tren, duraklı tren veya otobüs.",
+      "intro": [
+        "Çoğu uluslararası uçuş Incheon Uluslararası Havalimanı'na (ICN) iner. Merkeze en hızlısı Seul İstasyonu'na direkt AREX Express; daha ucuz duraklı tren ve otobüsler konaklamana göre iyi seçenekler.",
+        "Aşağıdaki ücretler Seul şehrinin resmi tur rehberinden, ancak değişebilir; almadan önce güncel fiyatı işletmeciyle teyit et."
+      ],
+      "tips": [
+        "Seul İstasyonu'na en hızlı, duraksız yolculuk için ekspres treni seç.",
+        "Konaklaman bir AREX istasyonuna yakınsa ve tasarruf istiyorsan duraklı treni al.",
+        "Otobüsler (limuzin) seni birçok otele daha yakın bırakır — hedefine giden hattı kontrol et.",
+        "Havalimanında otobüsü nakit, T-money veya kartla ödeyebilirsin."
+      ]
+    },
+    "sim": {
+      "tagline": "İnişten itibaren çevrimiçi — SIM, eSIM veya cep Wi-Fi cihazı.",
+      "intro": [
+        "Üç yaygın seçenek: fiziksel SIM, eSIM (telefonun destekliyorsa) veya grupla paylaşılan bir cep Wi-Fi cihazı. Incheon Havalimanı geliş alanında üçü için de gişe var.",
+        "Fiyatlar ve paketler sık değişir ve operatöre ile veriye göre farklıdır, bu yüzden sabit fiyat vermiyoruz; güncel teklifleri gişelerde ya da uygulamalarda karşılaştır."
+      ],
+      "tips": [
+        "Telefonun destekliyorsa eSIM en pratiği — bazen varıştan önce etkinleştirilir.",
+        "Cep Wi-Fi cihazı aileler veya gruplar için kişi başı daha ucuz olabilir.",
+        "Arama/SMS mi yoksa sadece veri mi gerektiğine bak — yalnızca veri paketleri genelde daha ucuz.",
+        "Paketleri veri miktarı ve gün sayısına göre karşılaştır, sadece vitrin fiyatına göre değil."
+      ]
+    },
+    "money": {
+      "tagline": "Kart neredeyse her yerde geçer, nakit pazarlarda işe yarar ve bahşiş vermene gerek yok.",
+      "intro": [
+        "Kore karta çok dostane — çoğu mağaza, restoran ve kafede kredi ve banka kartı kabul edilir. Yine de geleneksel pazarlar, sokak yemeği ve küçük dükkânlar için biraz nakit taşımak iyi olur.",
+        "Çoğu ziyaretçiyi şaşırtan şey: burada bahşiş kültürü yok, bu yüzden restoranda ya da takside bırakmana gerek yok."
+      ],
+      "tips": [
+        "Pazarlar, sokak yemeği ve küçük yerel dükkânlar için biraz nakit taşı.",
+        "'Global' işaretli ATM'ler yabancı kart kabul eder; havalimanı ve bankalar döviz bozar.",
+        "Bahşiş yok — gördüğün fiyat ödeyeceğin fiyat.",
+        "T-money kartı birçok markette de ödeme için kullanılır."
+      ]
+    },
+    "weather": {
+      "tagline": "Ne zaman gidilir, ne alınır? — Kore'nin dört belirgin mevsimi var.",
+      "intro": [
+        "Kore'nin dört net mevsimi var. İlkbahar ve sonbahar, hoş havası nedeniyle en popüler — ilkbaharda kiraz çiçekleri, sonbaharda renkli yapraklar.",
+        "Yaz sıcak ve nemli, muson yağmurlu; kış soğuk ve kuru. Bavulunu mevsime göre hazırla."
+      ],
+      "tips": [
+        "İlkbahar (Mar–May) ve sonbahar (Eyl–Kas): ince katmanlar; yoğun sezon, erken rezerve et.",
+        "Yaz (Haz–Ağu): nefes alan kıyafetler ve yağmur için katlanır şemsiye.",
+        "Kış (Ara–Şub): sıcak mont ve katmanlar; iç mekân ısıtması güçlü.",
+        "Kiraz çiçeği ve yaprak tarihleri her yıl değişir — o yılın tahminine bak."
+      ]
+    }
+  }
+}
