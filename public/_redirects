@@ -1,0 +1,7 @@
+# Cloudflare Pages redirects. This file is copied to the deploy root (out/_redirects).
+# Root → default locale (edge redirect, no JS needed).
+/            /en/    302
+
+# (Later) if ktrip.kr is added as a second custom domain pointing here,
+# keep everything on the canonical .com — handled via Cloudflare Redirect Rules,
+# not this file. See DEPLOY.md §4.
