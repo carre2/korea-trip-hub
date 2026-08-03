@@ -1,0 +1,174 @@
+{
+  "_README": "Substituição em português de destinations.json. Os números vêm de facts.",
+  "items": {
+    "myeongdong": {
+      "name": "Myeongdong", "rank": "O mais visitado", "blurb": "Compras, comida de rua e beleza — a primeira parada clássica.",
+      "intro": [
+        "Myeongdong é a rua comercial mais movimentada de Seul e a área mais visitada por viajantes estrangeiros. É repleta de lojas de cosméticos, moda e uma animada cena de comida de rua à noite.",
+        "É central e fácil de chegar, ótima como base ou primeira parada do primeiro dia."
+      ],
+      "tips": [
+        "Vá com fome à noite — as barracas de comida são o ponto alto.",
+        "As lojas de beleza costumam dar amostras; compare antes de comprar.",
+        "A estação Myeongdong (Linha 4), saídas 5–8, deixa você no centro."
+      ],
+      "nearby": ["Torre N de Seul", "Mercado Namdaemun", "Gyeongbokgung"]
+    },
+    "gyeongbokgung": {
+      "name": "Palácio Gyeongbokgung", "rank": "Imperdível", "blurb": "Grande palácio real — de hanbok, a entrada é grátis.",
+      "intro": [
+        "Gyeongbokgung é o maior dos palácios reais da dinastia Joseon em Seul, com grandes portões, pátios e um pavilhão à beira de um lago.",
+        "Alugar um hanbok (traje tradicional) por perto dá entrada gratuita e rende ótimas fotos."
+      ],
+      "tips": [
+        "Vista um hanbok para entrar de graça no palácio.",
+        "Não perca a troca da guarda no portão principal.",
+        "A vila hanok de Bukchon fica pertinho — combine as duas numa manhã."
+      ],
+      "nearby": ["Vila Hanok de Bukchon", "Gwanghwamun", "Insadong"]
+    },
+    "n-seoul-tower": {
+      "name": "Torre N de Seul", "rank": "2ª mais visitada", "blurb": "Teleférico de Namsan e a melhor vista da cidade.",
+      "intro": [
+        "No alto do monte Namsan, a Torre N de Seul oferece a melhor vista panorâmica da cidade, principalmente no pôr do sol e à noite.",
+        "O teleférico de Namsan para subir já faz parte da diversão."
+      ],
+      "tips": [
+        "Vá perto do pôr do sol para ver a vista de dia e de noite.",
+        "Suba de teleférico; dá para descer a pé pelo parque Namsan.",
+        "Fins de semana e feriados enchem — chegue cedo ou tarde."
+      ],
+      "nearby": ["Myeongdong", "Parque Namsan", "Itaewon"]
+    },
+    "bukchon": {
+      "name": "Vila Hanok de Bukchon", "rank": "Favorita dos europeus", "blurb": "Vielas tradicionais e mirantes fotogênicos.",
+      "intro": [
+        "Bukchon é um bairro em encosta com hanok (casas tradicionais) preservados entre dois palácios, com vielas tranquilas e vista sobre os telhados.",
+        "É uma área residencial, melhor aproveitada com uma caminhada calma e respeitosa."
+      ],
+      "tips": [
+        "Fale baixo — moram pessoas aqui.",
+        "As manhãs são as mais tranquilas para fotos.",
+        "Combine com Gyeongbokgung e Insadong, bem perto."
+      ],
+      "nearby": ["Gyeongbokgung", "Insadong", "Changdeokgung"]
+    },
+    "hongdae": {
+      "name": "Hongdae", "rank": "Vida noturna e juventude", "blurb": "Apresentações de rua, lojas indie e vida noturna.",
+      "intro": [
+        "Hongdae, perto da Universidade Hongik, é o bairro jovem de arte e música de Seul — músicos de rua, lojas indie, baladas e comida de madrugada.",
+        "É o lugar para sentir a energia da cidade quando a noite cai."
+      ],
+      "tips": [
+        "À noite, os artistas de rua aparecem.",
+        "Explore as vielas atrás de cafés e brechós.",
+        "Bem servida pela Linha 2 e pela linha do aeroporto AREX."
+      ],
+      "nearby": ["Yeonnam-dong", "Sinchon", "Hapjeong"]
+    },
+    "seongsu": {
+      "name": "Seongsu", "rank": "Favorita dos americanos", "blurb": "A rua de cafés e sobremesas mais descolada de Seul.",
+      "intro": [
+        "Antes uma zona industrial, hoje Seongsu é o bairro de cafés e design mais cool de Seul — galpões reformados, torrefações e lojas pop-up.",
+        "Atrai especialmente viajantes das Américas."
+      ],
+      "tips": [
+        "Faça uma rota de cafés; há várias torrefações em poucos quarteirões.",
+        "Nos dias de semana é mais tranquilo que no fim de semana.",
+        "Combine com o parque Seoul Forest, ao lado."
+      ],
+      "nearby": ["Seoul Forest", "Ttukseom", "Univ. Konkuk"]
+    },
+    "bukhansan": {
+      "name": "Bukhansan (K-trilha)", "rank": "Tendência em alta", "blurb": "Picos de granito na borda da cidade — a moda que mais cresce na Coreia.",
+      "intro": [
+        "O Parque Nacional Bukhansan se ergue bem na borda de Seul, com picos de granito e trilhas de templos — e lidera a crescente moda do 'K-trekking' entre estrangeiros.",
+        "As trilhas vão de caminhadas fáceis a subidas íngremes, escolha conforme seu preparo."
+      ],
+      "tips": [
+        "Comece cedo de manhã, principalmente no verão.",
+        "Use calçado adequado; a parte alta é rochosa.",
+        "Confira o tempo e leve água."
+      ],
+      "nearby": ["Bukaksan", "Gwanaksan", "Achasan"]
+    },
+    "dmz": {
+      "name": "Tour pela DMZ", "rank": "Passeio da lista de desejos", "blurb": "A zona de fronteira — visitada com tour organizado.",
+      "intro": [
+        "A Zona Desmilitarizada entre as duas Coreias é um bate-volta marcante a partir de Seul, normalmente em tour organizado que cuida do acesso e das regras.",
+        "As paradas podem incluir observatórios e túneis de infiltração."
+      ],
+      "tips": [
+        "É preciso ir em tour autorizado — não dá para ir por conta própria.",
+        "Leve o passaporte; há checagem de identidade.",
+        "Reserve com antecedência, sobretudo na alta temporada."
+      ],
+      "nearby": ["Imjingak", "Paju"]
+    },
+    "haeundae": {
+      "name": "Praia de Haeundae", "rank": "Praia nº 1 de Busan", "blurb": "A praia e a orla mais famosas de Busan.",
+      "intro": [
+        "Haeundae é a praia símbolo de Busan — uma longa faixa de areia com hotéis, cafés e o Blueline Park litorâneo com suas cápsulas coloridas.",
+        "É a base mais prática para uma primeira viagem a Busan."
+      ],
+      "tips": [
+        "A cápsula do Blueline Park é popular — reserve na temporada.",
+        "A vizinha praia de Gwangalli é linda à noite com as luzes da ponte Diamond.",
+        "Os restaurantes de frutos do mar ficam nas ruas de trás."
+      ],
+      "nearby": ["Praia de Gwangalli", "Blueline Park", "Dongbaekseom"]
+    },
+    "gamcheon": {
+      "name": "Vila Cultural de Gamcheon", "rank": "Top 3 de Busan", "blurb": "Uma vila na encosta com casas coloridas.",
+      "intro": [
+        "Gamcheon é um bairro fotogênico na encosta, com casas em tons pastel, murais e instalações de arte; chamam de 'Santorini' de Busan.",
+        "As vielas em escada convidam a passear sem pressa."
+      ],
+      "tips": [
+        "Use calçado confortável — tem ladeira e degraus.",
+        "Siga a rota de carimbos do mapa de arte para não perder o melhor.",
+        "É área residencial, então mantenha o silêncio."
+      ],
+      "nearby": ["Mercado Jagalchi", "Praia de Songdo", "Praça BIFF"]
+    },
+    "jagalchi": {
+      "name": "Mercado de Peixe de Jagalchi", "rank": "Ícone de frutos do mar", "blurb": "O maior mercado de frutos do mar da Coreia.",
+      "intro": [
+        "Jagalchi é o maior mercado de frutos do mar da Coreia — você escolhe o peixe embaixo e preparam para você em cima.",
+        "É um retrato autêntico e animado da vida portuária de Busan."
+      ],
+      "tips": [
+        "Vá na hora do almoço, quando está mais fresco e movimentado.",
+        "Os preços costumam ser negociáveis — combine antes de pedir.",
+        "Combine com o Mercado Gukje e a Praça BIFF, ao lado."
+      ],
+      "nearby": ["Mercado Gukje", "Praça BIFF", "Gamcheon"]
+    },
+    "seongsan": {
+      "name": "Seongsan Ilchulbong", "rank": "Imperdível em Jeju", "blurb": "Pico do nascer do sol, Patrimônio Mundial, no leste de Jeju.",
+      "intro": [
+        "Seongsan Ilchulbong ('Pico do Nascer do Sol') é um cone vulcânico espetacular que emerge do mar, Patrimônio Mundial e o lugar clássico para ver o nascer do sol em Jeju.",
+        "A subida até a borda da cratera é curta, mas íngreme."
+      ],
+      "tips": [
+        "O nascer do sol é o clássico, mas qualquer dia claro é deslumbrante.",
+        "É uma subida de verdade — use bom calçado.",
+        "Combine com Seopjikoji e Manjanggul num dia pelo leste de Jeju."
+      ],
+      "nearby": ["Seopjikoji", "Caverna Manjanggul", "Ilha Udo"]
+    },
+    "hallasan": {
+      "name": "Hallasan", "rank": "O pico mais alto da Coreia", "blurb": "O vulcão de Jeju — trilhas para todos os níveis.",
+      "intro": [
+        "O Hallasan é um vulcão-escudo no centro de Jeju e a montanha mais alta da Coreia do Sul, com trilhas por florestas que mudam e paisagem alpina.",
+        "Algumas trilhas até o cume exigem sair cedo e reservar."
+      ],
+      "tips": [
+        "Verifique quais trilhas chegam ao cume e se é preciso reservar.",
+        "O tempo muda rápido — leve camadas de roupa.",
+        "Saia cedo para descer dentro do horário do parque."
+      ],
+      "nearby": ["Cidade de Jeju", "Eorimok", "Seongpanak"]
+    }
+  }
+}

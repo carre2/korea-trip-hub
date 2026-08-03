@@ -5,8 +5,9 @@ import foodZh from "../../../data/food.zh.json";
 import foodEs from "../../../data/food.es.json";
 import foodFr from "../../../data/food.fr.json";
 import foodDe from "../../../data/food.de.json";
+import foodPt from "../../../data/food.pt.json";
 
-const foodI18n = { ja: foodJa, zh: foodZh, es: foodEs, fr: foodFr, de: foodDe };
+const foodI18n = { ja: foodJa, zh: foodZh, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt };
 const merge = (base, ov) => base.map((it, i) => ({ ...it, ...((ov && ov[i]) || {}) }));
 
 export function generateStaticParams() {
