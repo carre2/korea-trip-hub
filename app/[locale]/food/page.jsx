@@ -16,8 +16,11 @@ import foodId from "../../../data/food.id.json";
 import foodTr from "../../../data/food.tr.json";
 import foodFil from "../../../data/food.fil.json";
 import foodMs from "../../../data/food.ms.json";
+import foodHi from "../../../data/food.hi.json";
+import foodAr from "../../../data/food.ar.json";
+import foodBn from "../../../data/food.bn.json";
 
-const foodI18n = { ja: foodJa, zh: foodZh, "zh-TW": foodZhTW, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt, it: foodIt, ru: foodRu, ko: foodKo, vi: foodVi, th: foodTh, id: foodId, tr: foodTr, fil: foodFil, ms: foodMs };
+const foodI18n = { ja: foodJa, zh: foodZh, "zh-TW": foodZhTW, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt, it: foodIt, ru: foodRu, ko: foodKo, vi: foodVi, th: foodTh, id: foodId, tr: foodTr, fil: foodFil, ms: foodMs, hi: foodHi, ar: foodAr, bn: foodBn };
 const merge = (base, ov) => base.map((it, i) => ({ ...it, ...((ov && ov[i]) || {}) }));
 
 export function generateStaticParams() {
