@@ -136,6 +136,36 @@
       "notes": "Cards are widely accepted; cash is handy for small vendors and traditional markets."
     },
 
+    {
+      "id": "dest-stat-myeongdong",
+      "tier": "STABLE",
+      "claim": "Myeongdong drew the highest average daily number of foreign visitors in Seoul (about 100,910), the city's most-visited area.",
+      "value": { "avg_daily_foreign_visitors": "100,910", "rank": 1 },
+      "source": "https://english.seoul.go.kr/from-k-culture-to-k-hiking-foreign-tourists-venture-beyond-seouls-top-attractions/",
+      "source_name": "Seoul Metropolitan Government",
+      "verified": "2026-08-03", "recheck_after": "2027-02-01", "status": "VERIFIED",
+      "notes": "Average daily foreign visitors, per Seoul city reporting."
+    },
+    {
+      "id": "dest-stat-nseoultower",
+      "tier": "STABLE",
+      "claim": "N Seoul Tower was Seoul's 2nd most-visited spot by foreign visitors (about 57,370 average daily).",
+      "value": { "avg_daily_foreign_visitors": "57,370", "rank": 2 },
+      "source": "https://english.seoul.go.kr/from-k-culture-to-k-hiking-foreign-tourists-venture-beyond-seouls-top-attractions/",
+      "source_name": "Seoul Metropolitan Government",
+      "verified": "2026-08-03", "recheck_after": "2027-02-01", "status": "VERIFIED",
+      "notes": "Average daily foreign visitors, per Seoul city reporting."
+    },
+    {
+      "id": "dest-stat-bukhansan",
+      "tier": "STABLE",
+      "claim": "Bukhansan had the most foreign hikers of Seoul's mountains (about 4,015), leading the growing 'K-hiking' trend.",
+      "value": { "foreign_hikers": "4,015", "note": "top K-hiking peak" },
+      "source": "https://korea.stripes.com/travel/foreign-tourists-seoul-k-hiking.html",
+      "source_name": "Stripes Korea / Seoul reporting",
+      "verified": "2026-08-03", "recheck_after": "2027-02-01", "status": "VERIFIED",
+      "notes": "Foreign hiker counts by Seoul mountain; Bukhansan highest."
+    },
     { "id": "visa-free-90days-general", "tier": "VOLATILE", "claim": "Many nationalities can enter visa-free for tourism (length varies by country: 30/60/90 days).", "value": null, "source": "https://www.hikorea.go.kr", "source_name": "HiKorea (MOJ) / Visa policy of South Korea", "verified": null, "status": "TODO", "notes": "Varies by country — do not generalize. Provide a per-country confirmation link in the UI." }
   ]
 }

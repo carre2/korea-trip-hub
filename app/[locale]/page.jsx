@@ -3,6 +3,7 @@ import { fact, factsUpdated } from "../../lib/facts";
 import MapExplorer from "../../components/MapExplorer";
 import SpotifyKpop from "../../components/SpotifyKpop";
 import TripPlanner from "../../components/TripPlanner";
+import destData from "../../data/destinations.json";
 
 const PLAN_TILES = [
   { key: "visa", icon: "🛂", bg: "#BFC9FA", bd: "#9FAEF3", chip: "#3B4CE0" },
@@ -100,24 +101,28 @@ export default function Home({ params }) {
           <div className="sec-head">
             <div>
               <span className="eyebrow">Where to go</span>
-              <h2>Destinations, ranked by real searches</h2>
-              <p>Popularity signals shown transparently. Figures are sourced, not invented — see Help for how we verify.</p>
+              <h2>{m.dest.title}</h2>
+              <p>{m.dest.sub}</p>
             </div>
+            <a className="btn ghost" href={`/${locale}/destinations/`}>{m.dest.browseAll} →</a>
           </div>
           <div className="grid g4">
-            {[
-              { t: "Myeongdong, Seoul", d: "Shopping, street food & beauty — the classic first stop.", g: "linear-gradient(135deg,#3B4CE0,#7A5CFF)", ic: "🛍️", rank: "#1" },
-              { t: "N Seoul Tower", d: "Namsan cable car & the city's best skyline.", g: "linear-gradient(135deg,#0FA08C,#4FD1B0)", ic: "🗼", rank: "#2" },
-              { t: "Gyeongbokgung", d: "Royal palace + hanbok rental for free entry.", g: "linear-gradient(135deg,#C97A16,#F0A83C)", ic: "🏛️", rank: "#3" },
-              { t: "Bukhansan · K-Hiking", d: "Korea's fastest-growing trend — trails above the city.", g: "linear-gradient(135deg,#2f9e44,#69c97a)", ic: "🥾", rank: "Rising" },
-            ].map((c) => (
-              <article className="card" key={c.t}>
-                <div className="thumb" style={{ background: c.g }}>{c.ic}
-                  <span className="rank">🔎 Searched <span className="num">{c.rank}</span></span>
-                </div>
-                <div className="cbody"><h3>{c.t}</h3><p>{c.d}</p></div>
-              </article>
-            ))}
+            {["myeongdong", "n-seoul-tower", "gyeongbokgung", "bukhansan"].map((slug) => {
+              const d = destData.items[slug];
+              const f = d.factId ? fact(d.factId) : null;
+              const stat = f && f.value ? Object.values(f.value)[0] : null;
+              return (
+                <a className="card" key={slug} href={`/${locale}/destinations/${slug}/`}>
+                  <div className="thumb" style={{ background: d.grad }}>{d.icon}
+                    <span className="rank">🔎 {d.rank}</span>
+                  </div>
+                  <div className="cbody">
+                    <h3>{d.name}</h3><p>{d.blurb}</p>
+                    {stat && <div className="kw">›_ {stat}{f.value.rank ? " daily visitors" : ""}</div>}
+                  </div>
+                </a>
+              );
+            })}
           </div>
         </div>
       </section>

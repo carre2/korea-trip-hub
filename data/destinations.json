@@ -1,0 +1,218 @@
+{
+  "_README": "Destinations content. Place names & facts are real; descriptions are editorial. Any hard number (visitor stats) comes from data/facts.json via factId. No invented hours/prices/distances.",
+  "cities": [
+    { "key": "seoul", "name": "Seoul" },
+    { "key": "busan", "name": "Busan" },
+    { "key": "jeju", "name": "Jeju" }
+  ],
+  "items": {
+    "myeongdong": {
+      "city": "seoul", "cat": "shopping", "icon": "🛍️", "grad": "linear-gradient(135deg,#3B4CE0,#7A5CFF)",
+      "name": "Myeongdong", "rank": "#1 most-visited", "factId": "dest-stat-myeongdong",
+      "blurb": "Shopping, street food and beauty — the classic first stop.",
+      "intro": [
+        "Myeongdong is Seoul's busiest shopping street and the most-visited area for foreign travelers. It's packed with cosmetics shops, fashion, and a lively evening street-food scene.",
+        "It's central and easy to reach, which makes it a natural base or first stop on day one."
+      ],
+      "tips": [
+        "Come hungry in the evening — the street-food carts are the highlight.",
+        "Beauty shops often give free samples; compare a few before buying.",
+        "Line 4 Myeongdong Station, exits 5–8, drop you in the middle of it."
+      ],
+      "nearby": ["N Seoul Tower", "Namdaemun Market", "Gyeongbokgung"],
+      "official": [{ "name": "VisitSeoul", "url": "https://english.visitseoul.net" }]
+    },
+    "gyeongbokgung": {
+      "city": "seoul", "cat": "sights", "icon": "🏛️", "grad": "linear-gradient(135deg,#C97A16,#F0A83C)",
+      "name": "Gyeongbokgung Palace", "rank": "Top sight",
+      "blurb": "Grand royal palace — wear a hanbok for free entry.",
+      "intro": [
+        "Gyeongbokgung is the largest of Seoul's Joseon-era royal palaces, with grand gates, courtyards and a scenic pavilion over a pond.",
+        "Renting a hanbok (traditional dress) nearby lets you enter free and makes for memorable photos."
+      ],
+      "tips": [
+        "Wear a hanbok for free palace entry.",
+        "Try to catch the changing-of-the-guard ceremony at the main gate.",
+        "Bukchon Hanok Village is a short walk away — pair them in one morning."
+      ],
+      "nearby": ["Bukchon Hanok Village", "Gwanghwamun", "Insadong"],
+      "official": [{ "name": "Royal Palaces (KHS)", "url": "https://www.royalpalace.go.kr" }]
+    },
+    "n-seoul-tower": {
+      "city": "seoul", "cat": "sights", "icon": "🗼", "grad": "linear-gradient(135deg,#0FA08C,#4FD1B0)",
+      "name": "N Seoul Tower", "rank": "#2 most-visited", "factId": "dest-stat-nseoultower",
+      "blurb": "Namsan cable car and the city's best skyline.",
+      "intro": [
+        "Perched atop Namsan mountain, N Seoul Tower gives the best panoramic view over the city, especially at sunset and after dark.",
+        "The Namsan cable car up the hill is part of the fun."
+      ],
+      "tips": [
+        "Go near sunset to catch both day and night views.",
+        "Take the cable car up; you can walk down through Namsan Park.",
+        "Weekends and holidays get busy — arrive early or late."
+      ],
+      "nearby": ["Myeongdong", "Namsan Park", "Itaewon"],
+      "official": [{ "name": "VisitSeoul", "url": "https://english.visitseoul.net" }]
+    },
+    "bukchon": {
+      "city": "seoul", "cat": "sights", "icon": "🏘️", "grad": "linear-gradient(135deg,#B8763C,#E0A45C)",
+      "name": "Bukchon Hanok Village", "rank": "Loved by Europeans",
+      "blurb": "Traditional hanok lanes and photogenic viewpoints.",
+      "intro": [
+        "Bukchon is a hillside neighborhood of preserved hanok (traditional houses) between two palaces, with quiet lanes and rooftop views.",
+        "It's a living residential area, so it rewards a calm, respectful stroll."
+      ],
+      "tips": [
+        "Keep your voice down — people live here.",
+        "Mornings are quietest for photos.",
+        "Combine with Gyeongbokgung and Insadong nearby."
+      ],
+      "nearby": ["Gyeongbokgung", "Insadong", "Changdeokgung"],
+      "official": [{ "name": "VisitSeoul", "url": "https://english.visitseoul.net" }]
+    },
+    "hongdae": {
+      "city": "seoul", "cat": "kpop", "icon": "🎤", "grad": "linear-gradient(135deg,#FF3E6C,#FF7AA0)",
+      "name": "Hongdae", "rank": "Nightlife & youth",
+      "blurb": "Street performances, indie shops and nightlife.",
+      "intro": [
+        "Hongdae, around Hongik University, is Seoul's youthful arts-and-music district — buskers, indie boutiques, clubs and late-night eats.",
+        "It's the place to feel the city's energy after dark."
+      ],
+      "tips": [
+        "Evenings bring out the street performers.",
+        "Explore the side streets for cafes and vintage shops.",
+        "Well connected by Line 2 and the AREX airport line."
+      ],
+      "nearby": ["Yeonnam-dong", "Sinchon", "Hapjeong"],
+      "official": [{ "name": "VisitSeoul", "url": "https://english.visitseoul.net" }]
+    },
+    "seongsu": {
+      "city": "seoul", "cat": "food", "icon": "☕", "grad": "linear-gradient(135deg,#8367c7,#b18fe0)",
+      "name": "Seongsu", "rank": "Loved by Americans",
+      "blurb": "Seoul's trendiest coffee and dessert street.",
+      "intro": [
+        "Once an industrial area, Seongsu is now Seoul's coolest café and design district — converted warehouses, roasteries and pop-up stores.",
+        "Travelers from the Americas especially gravitate here."
+      ],
+      "tips": [
+        "Cafe-hop; many roasters are within a few blocks.",
+        "Weekdays are calmer than weekends.",
+        "Pair with Seoul Forest park next door."
+      ],
+      "nearby": ["Seoul Forest", "Ttukseom", "Konkuk Univ."],
+      "official": [{ "name": "VisitSeoul", "url": "https://english.visitseoul.net" }]
+    },
+    "bukhansan": {
+      "city": "seoul", "cat": "hiking", "icon": "🥾", "grad": "linear-gradient(135deg,#2f9e44,#69c97a)",
+      "name": "Bukhansan (K-Hiking)", "rank": "Rising trend", "factId": "dest-stat-bukhansan",
+      "blurb": "Granite peaks on the city's edge — Korea's fastest-growing trend.",
+      "intro": [
+        "Bukhansan National Park rises right at Seoul's edge, with granite peaks and temple trails — and it leads the surging 'K-hiking' trend among foreign visitors.",
+        "Trails range from easy walks to steep scrambles, so pick one to match your fitness."
+      ],
+      "tips": [
+        "Start early in the morning, especially in summer.",
+        "Wear proper shoes; upper sections are rocky.",
+        "Check the weather and carry water."
+      ],
+      "nearby": ["Bukaksan", "Gwanaksan", "Achasan"],
+      "official": [{ "name": "Korea National Park", "url": "https://english.knps.or.kr" }]
+    },
+    "dmz": {
+      "city": "seoul", "cat": "sights", "icon": "🪖", "grad": "linear-gradient(135deg,#5a6473,#8a95a6)",
+      "name": "DMZ Tour", "rank": "Bucket-list day trip",
+      "blurb": "The border zone — visited on an organized tour.",
+      "intro": [
+        "The Demilitarized Zone between South and North Korea is a striking day trip from Seoul, usually done via an organized tour that handles access and rules.",
+        "Stops can include observatories and infiltration tunnels."
+      ],
+      "tips": [
+        "You must join an authorized tour — you can't go independently.",
+        "Bring your passport; there are ID checks.",
+        "Book ahead, especially in peak season."
+      ],
+      "nearby": ["Imjingak", "Paju"],
+      "official": [{ "name": "VisitKorea — DMZ", "url": "https://english.visitkorea.or.kr" }]
+    },
+    "haeundae": {
+      "city": "busan", "cat": "sights", "icon": "🏖️", "grad": "linear-gradient(135deg,#1CA5C9,#59D0E6)",
+      "name": "Haeundae Beach", "rank": "Busan's #1 beach",
+      "blurb": "Busan's most famous beach and seaside district.",
+      "intro": [
+        "Haeundae is Busan's signature beach — a long sandy stretch backed by hotels, cafés and the Blueline Park coastal rail with its colorful sky capsules.",
+        "It's the easiest base for a first Busan trip."
+      ],
+      "tips": [
+        "The Blueline Park sky capsule is popular — book ahead in season.",
+        "Nearby Gwangalli Beach is best at night for the Diamond Bridge lights.",
+        "Seafood restaurants line the back streets."
+      ],
+      "nearby": ["Gwangalli Beach", "Blueline Park", "Dongbaekseom"],
+      "official": [{ "name": "VisitBusan", "url": "https://www.visitbusan.net/en" }]
+    },
+    "gamcheon": {
+      "city": "busan", "cat": "sights", "icon": "🎨", "grad": "linear-gradient(135deg,#E86AA0,#F6A6C6)",
+      "name": "Gamcheon Culture Village", "rank": "Busan top-3",
+      "blurb": "Hillside village of brightly painted houses.",
+      "intro": [
+        "Gamcheon is a photogenic hillside neighborhood of pastel houses, murals and art installations, often called Busan's 'Santorini'.",
+        "Narrow stepped lanes reward slow wandering."
+      ],
+      "tips": [
+        "Wear comfortable shoes — it's hilly with lots of steps.",
+        "Follow the art-map stamp trail for the best routes.",
+        "It's a residential area, so keep noise down."
+      ],
+      "nearby": ["Jagalchi Market", "Songdo Beach", "BIFF Square"],
+      "official": [{ "name": "VisitBusan", "url": "https://www.visitbusan.net/en" }]
+    },
+    "jagalchi": {
+      "city": "busan", "cat": "food", "icon": "🐟", "grad": "linear-gradient(135deg,#1B98A6,#4FC3CE)",
+      "name": "Jagalchi Fish Market", "rank": "Seafood icon",
+      "blurb": "Korea's largest seafood market.",
+      "intro": [
+        "Jagalchi is Korea's largest seafood market — pick your catch downstairs and have it prepared upstairs.",
+        "It's a lively, authentic slice of Busan's port life."
+      ],
+      "tips": [
+        "Go for lunch when it's freshest and busiest.",
+        "Prices are often negotiable — agree before you order.",
+        "Combine with Gukje Market and BIFF Square next door."
+      ],
+      "nearby": ["Gukje Market", "BIFF Square", "Gamcheon"],
+      "official": [{ "name": "VisitBusan", "url": "https://www.visitbusan.net/en" }]
+    },
+    "seongsan": {
+      "city": "jeju", "cat": "sights", "icon": "🌅", "grad": "linear-gradient(135deg,#E8973A,#F4C04E)",
+      "name": "Seongsan Ilchulbong", "rank": "Jeju must-see",
+      "blurb": "UNESCO sunrise peak on Jeju's east coast.",
+      "intro": [
+        "Seongsan Ilchulbong ('Sunrise Peak') is a dramatic volcanic tuff cone rising from the sea, a UNESCO World Heritage site and Jeju's signature sunrise spot.",
+        "The climb to the crater rim is short but steep."
+      ],
+      "tips": [
+        "Sunrise is the classic time, but any clear day is stunning.",
+        "It's a real climb — wear good shoes.",
+        "Pair with Seopjikoji and Manjanggul on an east-Jeju day."
+      ],
+      "nearby": ["Seopjikoji", "Manjanggul Cave", "Udo Island"],
+      "official": [{ "name": "VisitJeju", "url": "https://www.visitjeju.net/en" }]
+    },
+    "hallasan": {
+      "city": "jeju", "cat": "hiking", "icon": "⛰️", "grad": "linear-gradient(135deg,#2f9e44,#6dbf7a)",
+      "name": "Hallasan", "rank": "Korea's highest peak",
+      "blurb": "Jeju's volcano — trails for every level.",
+      "intro": [
+        "Hallasan is a shield volcano at the center of Jeju and the highest mountain in South Korea, ringed by trails through changing forest and alpine scenery.",
+        "Some summit trails require an early start and reservations."
+      ],
+      "tips": [
+        "Check which trails reach the summit and whether reservations are needed.",
+        "Weather changes fast — bring layers.",
+        "Start early to finish within park hours."
+      ],
+      "nearby": ["Jeju City", "Eorimok", "Seongpanak"],
+      "official": [{ "name": "Korea National Park", "url": "https://english.knps.or.kr" }]
+    }
+  }
+}
