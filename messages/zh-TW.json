@@ -1,0 +1,139 @@
+{
+  "brand": "KoreaTripHub",
+  "nav": {
+    "plan": "行前準備",
+    "planner": "AI 行程規劃",
+    "destinations": "目的地",
+    "food": "美食",
+    "reviews": "評價",
+    "kculture": "K-文化",
+    "map": "地圖",
+    "help": "幫助"
+  },
+  "plan": {
+    "eyebrow": "行程規劃，從這裡開始",
+    "sub": "抵達韓國前要先搞定的6個基本事項。",
+    "tiles": {
+      "visa": { "title": "簽證與 K-ETA", "sub": "入境許可與簽證規定" },
+      "transit": { "title": "交通出行", "sub": "T-money · 地鐵 · KTX · 計程車" },
+      "airport": { "title": "機場→市區", "sub": "仁川 · AREX 直達" },
+      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "落地即可上網" },
+      "money": { "title": "貨幣與支付", "sub": "換匯 · 刷卡 · 現金" },
+      "weather": { "title": "最佳季節與天氣", "sub": "何時去?帶什麼?" }
+    }
+  },
+  "hero": {
+    "badge": "AI 行程規劃 — Korea Trip Hub 的核心",
+    "title_1": "標記你的飯店，選擇城市。",
+    "title_2": "行程全部搞定。",
+    "lede": "告訴我們你住哪、想去哪（比如釜山）。我們會規劃最快的路線（KTX、巴士、飛機），並以你的住處為起點，安排每天的遊覽路線。",
+    "f_hotel": "你的飯店 / 出發地",
+    "f_dest": "想去哪裡?",
+    "f_days": "天數",
+    "f_travelers": "人數",
+    "f_style": "旅行風格",
+    "build": "產生行程"
+  },
+  "help": {
+    "eyebrow": "讓你安心",
+    "title": "幫助與安全",
+    "sub": "落地前值得收藏、且經官方來源核實的資訊。",
+    "verified_on": "核實日期",
+    "check_official": "請務必在官方來源確認最新資訊",
+    "embassy": { "title": "你的大使館", "sub": "各國的地址、電話與地圖。" },
+    "unavailable": "核實中"
+  },
+  "footer": {
+    "tagline": "韓國旅行一站式平台 — 規劃、觀光、美食與體驗，20 種語言。",
+    "disclaimer": "旅行資訊均對照官方來源核實並標註核實日期。價格、時刻與簽證規定會變動，出行前請務必在所附官方來源確認。"
+  },
+  "map": {
+    "search": "搜尋",
+    "placeholder": "搜尋地址或地點…",
+    "kakaoPending": "KakaoMap 金鑰即將支援。",
+    "noResult": "無結果 — 請嘗試完整地址。",
+    "authFail": "Naver 地圖授權失敗 — 請檢查 Client ID 與已註冊的網域。",
+    "loadFail": "地圖載入失敗。"
+  },
+  "spotify": {
+    "title": "暢聽 — Spotify 上的 K-Pop",
+    "sub": "當紅團體與全球歌迷喜愛的藝人。選擇即可試聽代表曲目。",
+    "artists": "藝人與團體",
+    "playlists": "精選歌單",
+    "note": "免費試聽，登入 Spotify 可完整播放。"
+  },
+  "planner": {
+    "day": "Day",
+    "gettingThere": "前往",
+    "morning": "上午",
+    "afternoon": "下午",
+    "evening": "晚上",
+    "share": "分享此行程",
+    "transportNote": "時刻與票價會變動 — 請向營運方確認。"
+  },
+  "dest": {
+    "title": "目的地",
+    "sub": "按城市分類的真實景點。人氣數據均有出處，絕不杜撰。",
+    "browseAll": "全部目的地",
+    "whyGo": "看點",
+    "goodToKnow": "實用提示",
+    "nearby": "周邊",
+    "official": "官方資訊"
+  },
+  "food": {
+    "title": "美食 — 品嚐，再動手做",
+    "sub": "去哪裡吃，以及親手烹飪的體驗課程。價格會變動，我們絕不杜撰。",
+    "eat": "去哪裡吃",
+    "make": "動手體驗",
+    "tips": "實用提示",
+    "browseAll": "全部美食與體驗"
+  },
+  "reviews": {
+    "title": "評價 — 按類別與語言",
+    "sub": "真實旅行者評價 — 按主題篩選，並優先顯示你的語言。經審核，絕不杜撰。",
+    "all": "全部",
+    "catDest": "🏛️ 目的地",
+    "catFood": "🥢 美食與體驗",
+    "catKculture": "🎤 K-文化",
+    "catTransport": "🚄 交通",
+    "empty": "還沒有評價 — 來做第一個分享韓國之旅的人吧。",
+    "cta": "撰寫評價",
+    "ctaSoon": "評價提交即將開放"
+  },
+  "factsUI": {
+    "verified_facts": "已核實資訊",
+    "good_to_know": "實用提示",
+    "official_sources": "官方來源",
+    "source": "來源",
+    "confirm": "⚠ 價格/規定會變動 — 請在官方確認"
+  },
+  "factLabels": {
+    "exempt_until": "免除截止",
+    "earrival_card": "e-Arrival Card",
+    "age_exempt": "年齡豁免",
+    "number": "號碼",
+    "hours": "服務時間",
+    "languages": "支援語言",
+    "fare_krw_each_way": "單程票價",
+    "minutes": "時間（分鐘）",
+    "type": "類型",
+    "frequency": "發車間隔",
+    "fare_krw": "票價（KRW）",
+    "pay": "支付方式",
+    "stores": "購買地點",
+    "basic_krw": "基本卡（KRW）",
+    "design_krw": "設計款（KRW）",
+    "card_refundable": "卡費可退",
+    "fare_krw_standard": "普通座票價（KRW）",
+    "duration": "時間",
+    "booking": "預訂",
+    "best": "最佳季節",
+    "summer": "夏季",
+    "winter": "冬季",
+    "currency": "貨幣",
+    "code": "代碼",
+    "symbol": "符號",
+    "tipping": "小費"
+  },
+  "facts": {}
+}

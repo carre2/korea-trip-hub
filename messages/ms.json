@@ -1,0 +1,139 @@
+{
+  "brand": "KoreaTripHub",
+  "nav": {
+    "plan": "Persediaan",
+    "planner": "Perancang AI",
+    "destinations": "Destinasi",
+    "food": "Makanan",
+    "reviews": "Ulasan",
+    "kculture": "K-Culture",
+    "map": "Peta",
+    "help": "Bantuan"
+  },
+  "plan": {
+    "eyebrow": "Rancang perjalanan — mula di sini",
+    "sub": "6 perkara asas untuk diselesaikan sebelum tiba di Korea.",
+    "tiles": {
+      "visa": { "title": "Visa & K-ETA", "sub": "Kebenaran masuk & peraturan visa" },
+      "transit": { "title": "Pengangkutan", "sub": "T-money · subway · KTX · teksi" },
+      "airport": { "title": "Lapangan terbang → bandar", "sub": "Incheon · AREX ekspres" },
+      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Terus dalam talian ketika tiba" },
+      "money": { "title": "Wang & bayaran", "sub": "Tukaran · kad · tunai" },
+      "weather": { "title": "Masa terbaik & cuaca", "sub": "Bila pergi? Bawa apa?" }
+    }
+  },
+  "hero": {
+    "badge": "Perancang Perjalanan AI — nadi Korea Trip Hub",
+    "title_1": "Tanda hotel anda. Pilih bandar.",
+    "title_2": "Dan seluruh perjalanan siap.",
+    "lede": "Beritahu kami di mana anda menginap dan ke mana anda mahu pergi — contohnya Busan. Kami cari laluan terpantas (KTX, bas, penerbangan) dan bina laluan harian bermula dari hotel anda.",
+    "f_hotel": "Hotel anda / titik permulaan",
+    "f_dest": "Ke mana anda mahu pergi?",
+    "f_days": "Hari",
+    "f_travelers": "Pengembara",
+    "f_style": "Gaya perjalanan",
+    "build": "Cipta perjalanan"
+  },
+  "help": {
+    "eyebrow": "Tenang",
+    "title": "Bantuan & keselamatan",
+    "sub": "Maklumat penting yang disahkan dengan sumber rasmi, simpan sebelum tiba.",
+    "verified_on": "Disahkan",
+    "check_official": "Sentiasa sahkan di sumber rasmi",
+    "embassy": { "title": "Kedutaan anda", "sub": "Alamat, telefon & peta mengikut negara." },
+    "unavailable": "Sedang disahkan"
+  },
+  "footer": {
+    "tagline": "Hab serba lengkap untuk melawat Korea — rancang, terokai, makan dan alami, dalam 20 bahasa.",
+    "disclaimer": "Maklumat perjalanan disemak dengan sumber rasmi berserta tarikh pengesahan. Harga, jadual dan peraturan visa berubah — sentiasa sahkan di sumber rasmi yang dipautkan sebelum melancong."
+  },
+  "map": {
+    "search": "Cari",
+    "placeholder": "Cari alamat atau tempat…",
+    "kakaoPending": "Kunci KakaoMap akan datang.",
+    "noResult": "Tiada hasil — cuba alamat penuh.",
+    "authFail": "Naver Maps gagal mengesahkan — semak Client ID dan domain berdaftar.",
+    "loadFail": "Gagal memuatkan peta."
+  },
+  "spotify": {
+    "title": "Dengar — K-Pop di Spotify",
+    "sub": "Kumpulan sedang popular dan artis kegemaran peminat seluruh dunia. Pilih untuk mendengar lagu terbaik.",
+    "artists": "Artis & kumpulan",
+    "playlists": "Senarai main pilihan",
+    "note": "Pratonton percuma; lagu penuh dengan log masuk Spotify."
+  },
+  "planner": {
+    "day": "Day",
+    "gettingThere": "Cara ke sana",
+    "morning": "Pagi",
+    "afternoon": "Tengah hari",
+    "evening": "Malam",
+    "share": "Kongsi perjalanan",
+    "transportNote": "Masa dan tambang berubah — sahkan dengan pengendali."
+  },
+  "dest": {
+    "title": "Destinasi",
+    "sub": "Tempat sebenar, dikumpulkan mengikut bandar. Angka populariti bersumber, bukan rekaan.",
+    "browseAll": "Semua destinasi",
+    "whyGo": "Kenapa pergi",
+    "goodToKnow": "Baik untuk tahu",
+    "nearby": "Berdekatan",
+    "official": "Maklumat rasmi"
+  },
+  "food": {
+    "title": "Makanan — rasa, kemudian buat sendiri",
+    "sub": "Di mana makan, dan kelas untuk masak sendiri. Harga berbeza — kami tidak mereka-reka.",
+    "eat": "Di mana makan",
+    "make": "Pengalaman membuat",
+    "tips": "Baik untuk tahu",
+    "browseAll": "Semua makanan & pengalaman"
+  },
+  "reviews": {
+    "title": "Ulasan — mengikut kategori & bahasa",
+    "sub": "Ulasan sebenar pengembara — tapis mengikut topik, dipaparkan dalam bahasa anda dahulu. Dikawal selia, tidak pernah direka.",
+    "all": "Semua",
+    "catDest": "🏛️ Destinasi",
+    "catFood": "🥢 Makanan & pengalaman",
+    "catKculture": "🎤 K-Culture",
+    "catTransport": "🚄 Pengangkutan",
+    "empty": "Belum ada ulasan — jadilah yang pertama berkongsi perjalanan Korea anda.",
+    "cta": "Tulis ulasan",
+    "ctaSoon": "Penghantaran ulasan akan dibuka"
+  },
+  "factsUI": {
+    "verified_facts": "Maklumat disahkan",
+    "good_to_know": "Baik untuk tahu",
+    "official_sources": "Sumber rasmi",
+    "source": "Sumber",
+    "confirm": "⚠ Harga/peraturan berubah — sahkan di sumber rasmi"
+  },
+  "factLabels": {
+    "exempt_until": "Dikecualikan hingga",
+    "earrival_card": "e-Arrival Card",
+    "age_exempt": "Pengecualian umur",
+    "number": "Nombor",
+    "hours": "Waktu perkhidmatan",
+    "languages": "Bahasa",
+    "fare_krw_each_way": "Sehala",
+    "minutes": "Masa (min)",
+    "type": "Jenis",
+    "frequency": "Kekerapan",
+    "fare_krw": "Tambang (KRW)",
+    "pay": "Bayaran",
+    "stores": "Beli di mana",
+    "basic_krw": "Kad asas (KRW)",
+    "design_krw": "Edisi reka bentuk (KRW)",
+    "card_refundable": "Bayaran balik kad",
+    "fare_krw_standard": "Tambang kelas standard (KRW)",
+    "duration": "Tempoh",
+    "booking": "Tempahan",
+    "best": "Musim terbaik",
+    "summer": "Musim panas",
+    "winter": "Musim sejuk",
+    "currency": "Mata wang",
+    "code": "Kod",
+    "symbol": "Simbol",
+    "tipping": "Tip"
+  },
+  "facts": {}
+}

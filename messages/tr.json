@@ -1,0 +1,139 @@
+{
+  "brand": "KoreaTripHub",
+  "nav": {
+    "plan": "Hazırlık",
+    "planner": "AI Planlayıcı",
+    "destinations": "Rotalar",
+    "food": "Yemek",
+    "reviews": "Yorumlar",
+    "kculture": "K-Culture",
+    "map": "Harita",
+    "help": "Yardım"
+  },
+  "plan": {
+    "eyebrow": "Gezini planla — buradan başla",
+    "sub": "Kore'ye varmadan önce halletmen gereken 6 temel şey.",
+    "tiles": {
+      "visa": { "title": "Vize & K-ETA", "sub": "Giriş izni ve vize kuralları" },
+      "transit": { "title": "Ulaşım", "sub": "T-money · metro · KTX · taksi" },
+      "airport": { "title": "Havalimanı → şehir", "sub": "Incheon · AREX ekspres" },
+      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Varışta anında bağlan" },
+      "money": { "title": "Para & ödeme", "sub": "Döviz · kart · nakit" },
+      "weather": { "title": "En iyi zaman & hava", "sub": "Ne zaman gitmeli? Ne almalı?" }
+    }
+  },
+  "hero": {
+    "badge": "AI Gezi Planlayıcı — Korea Trip Hub'ın kalbi",
+    "title_1": "Otelini işaretle. Bir şehir seç.",
+    "title_2": "Ve tüm gezi hazır.",
+    "lede": "Nerede kaldığını ve nereye gitmek istediğini söyle — örneğin Busan. En hızlı rotayı (KTX, otobüs, uçak) buluruz ve otelinden başlayarak gün gün bir güzergâh kurarız.",
+    "f_hotel": "Otelin / başlangıç noktan",
+    "f_dest": "Nereye gitmek istersin?",
+    "f_days": "Gün",
+    "f_travelers": "Yolcu",
+    "f_style": "Gezi tarzı",
+    "build": "Gezimi oluştur"
+  },
+  "help": {
+    "eyebrow": "İçin rahat olsun",
+    "title": "Yardım & güvenlik",
+    "sub": "Varmadan önce kaydetmelik, resmi kaynaklardan doğrulanmış temel bilgiler.",
+    "verified_on": "Doğrulandı",
+    "check_official": "Her zaman resmi kaynaktan teyit et",
+    "embassy": { "title": "Ülkenin büyükelçiliği", "sub": "Ülkeye göre adres, telefon ve harita." },
+    "unavailable": "Doğrulanıyor"
+  },
+  "footer": {
+    "tagline": "Kore'yi ziyaret için hepsi bir arada merkez — planla, keşfet, ye ve deneyimle, 20 dilde.",
+    "disclaimer": "Gezi bilgileri resmi kaynaklarla doğrulanır ve doğrulama tarihi verilir. Fiyatlar, tarifeler ve vize kuralları değişir — seyahatten önce her zaman bağlantılı resmi kaynaktan teyit et."
+  },
+  "map": {
+    "search": "Ara",
+    "placeholder": "Adres veya yer ara…",
+    "kakaoPending": "KakaoMap anahtarı yakında.",
+    "noResult": "Sonuç yok — tam adres dene.",
+    "authFail": "Naver Maps yetkilendirilemedi — Client ID ve kayıtlı alan adını kontrol et.",
+    "loadFail": "Harita yüklenemedi."
+  },
+  "spotify": {
+    "title": "Dinle — Spotify'da K-Pop",
+    "sub": "Yükselen gruplar ve dünyada hayranların sevdiği sanatçılar. En iyi şarkıları dinlemek için birini seç.",
+    "artists": "Sanatçılar & gruplar",
+    "playlists": "Seçme çalma listeleri",
+    "note": "Ücretsiz önizleme; tam şarkılar Spotify girişiyle."
+  },
+  "planner": {
+    "day": "Day",
+    "gettingThere": "Nasıl gidilir",
+    "morning": "Sabah",
+    "afternoon": "Öğleden sonra",
+    "evening": "Akşam",
+    "share": "Geziyi paylaş",
+    "transportNote": "Saatler ve ücretler değişir — işletmeciyle teyit et."
+  },
+  "dest": {
+    "title": "Rotalar",
+    "sub": "Gerçek yerler, şehre göre gruplanmış. Popülerlik rakamları kaynaklıdır, uydurma değil.",
+    "browseAll": "Tüm rotalar",
+    "whyGo": "Neden gitmeli",
+    "goodToKnow": "Bilmekte fayda var",
+    "nearby": "Yakında",
+    "official": "Resmi bilgi"
+  },
+  "food": {
+    "title": "Yemek — tat, sonra kendin yap",
+    "sub": "Nerede yenir ve kendin pişireceğin dersler. Fiyatlar değişir — uydurmuyoruz.",
+    "eat": "Nerede yenir",
+    "make": "Yapma deneyimleri",
+    "tips": "Bilmekte fayda var",
+    "browseAll": "Tüm yemek & deneyimler"
+  },
+  "reviews": {
+    "title": "Yorumlar — kategori ve dile göre",
+    "sub": "Gerçek gezgin yorumları — konuya göre süz, önce kendi dilinde göster. Denetlenir, asla uydurulmaz.",
+    "all": "Tümü",
+    "catDest": "🏛️ Rotalar",
+    "catFood": "🥢 Yemek & deneyimler",
+    "catKculture": "🎤 K-Culture",
+    "catTransport": "🚄 Ulaşım",
+    "empty": "Henüz yorum yok — Kore gezini ilk paylaşan sen ol.",
+    "cta": "Yorum yaz",
+    "ctaSoon": "Yorum gönderimi yakında açılıyor"
+  },
+  "factsUI": {
+    "verified_facts": "Doğrulanmış bilgi",
+    "good_to_know": "Bilmekte fayda var",
+    "official_sources": "Resmi kaynaklar",
+    "source": "Kaynak",
+    "confirm": "⚠ Fiyat/kurallar değişir — resmi kaynaktan teyit et"
+  },
+  "factLabels": {
+    "exempt_until": "Muafiyet bitişi",
+    "earrival_card": "e-Arrival Card",
+    "age_exempt": "Yaş muafiyeti",
+    "number": "Numara",
+    "hours": "Hizmet saatleri",
+    "languages": "Diller",
+    "fare_krw_each_way": "Tek yön ücreti",
+    "minutes": "Süre (dk)",
+    "type": "Tür",
+    "frequency": "Sıklık",
+    "fare_krw": "Ücret (KRW)",
+    "pay": "Ödeme",
+    "stores": "Nereden alınır",
+    "basic_krw": "Temel kart (KRW)",
+    "design_krw": "Tasarım sürümü (KRW)",
+    "card_refundable": "Kart iadesi",
+    "fare_krw_standard": "Standart sınıf ücreti (KRW)",
+    "duration": "Süre",
+    "booking": "Rezervasyon",
+    "best": "En iyi mevsimler",
+    "summer": "Yaz",
+    "winter": "Kış",
+    "currency": "Para birimi",
+    "code": "Kod",
+    "symbol": "Sembol",
+    "tipping": "Bahşiş"
+  },
+  "facts": {}
+}

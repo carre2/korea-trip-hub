@@ -1,0 +1,139 @@
+{
+  "brand": "KoreaTripHub",
+  "nav": {
+    "plan": "Paghahanda",
+    "planner": "AI Planner",
+    "destinations": "Mga destinasyon",
+    "food": "Pagkain",
+    "reviews": "Mga review",
+    "kculture": "K-Culture",
+    "map": "Mapa",
+    "help": "Tulong"
+  },
+  "plan": {
+    "eyebrow": "Planuhin ang biyahe — magsimula rito",
+    "sub": "Ang 6 na pangunahing dapat ayusin bago dumating sa Korea.",
+    "tiles": {
+      "visa": { "title": "Visa & K-ETA", "sub": "Pahintulot sa pagpasok at mga patakaran sa visa" },
+      "transit": { "title": "Paglilibot", "sub": "T-money · subway · KTX · taxi" },
+      "airport": { "title": "Airport → lungsod", "sub": "Incheon · AREX express" },
+      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Konektado pagdating" },
+      "money": { "title": "Pera at bayad", "sub": "Palit · card · cash" },
+      "weather": { "title": "Pinakamagandang panahon", "sub": "Kailan pumunta? Ano dala?" }
+    }
+  },
+  "hero": {
+    "badge": "AI Trip Planner — ang puso ng Korea Trip Hub",
+    "title_1": "I-pin ang hotel mo. Pumili ng lungsod.",
+    "title_2": "At handa na ang buong biyahe.",
+    "lede": "Sabihin kung saan ka nakatira at saan gusto mong pumunta — halimbawa, Busan. Hahanapin namin ang pinakamabilis na ruta (KTX, bus, eroplano) at gagawa ng araw-araw na ruta mula sa hotel mo.",
+    "f_hotel": "Iyong hotel / panimulang punto",
+    "f_dest": "Saan mo gustong pumunta?",
+    "f_days": "Araw",
+    "f_travelers": "Manlalakbay",
+    "f_style": "Istilo ng biyahe",
+    "build": "Gumawa ng biyahe"
+  },
+  "help": {
+    "eyebrow": "Panatag ang loob",
+    "title": "Tulong at kaligtasan",
+    "sub": "Mahahalagang impormasyong na-verify sa opisyal na pinagmulan, i-save bago dumating.",
+    "verified_on": "Na-verify",
+    "check_official": "Palaging tingnan sa opisyal na pinagmulan",
+    "embassy": { "title": "Iyong embahada", "sub": "Address, telepono at mapa ayon sa bansa." },
+    "unavailable": "Nive-verify"
+  },
+  "footer": {
+    "tagline": "All-in-one hub para bisitahin ang Korea — magplano, mag-explore, kumain at maranasan, sa 20 wika.",
+    "disclaimer": "Ang impormasyon sa biyahe ay ina-check sa opisyal na pinagmulan na may petsa ng verification. Nagbabago ang presyo, iskedyul at patakaran sa visa — palaging kumpirmahin sa naka-link na opisyal na pinagmulan bago maglakbay."
+  },
+  "map": {
+    "search": "Hanapin",
+    "placeholder": "Maghanap ng address o lugar…",
+    "kakaoPending": "Malapit nang dumating ang KakaoMap key.",
+    "noResult": "Walang resulta — subukan ang buong address.",
+    "authFail": "Hindi na-authorize ang Naver Maps — tingnan ang Client ID at nakarehistrong domain.",
+    "loadFail": "Hindi ma-load ang mapa."
+  },
+  "spotify": {
+    "title": "Makinig — K-Pop sa Spotify",
+    "sub": "Mga sikat na grupo at artist na mahal ng mga fan sa buong mundo. Pumili para marinig ang mga top kanta.",
+    "artists": "Mga artist at grupo",
+    "playlists": "Piling playlist",
+    "note": "Libreng preview; buong kanta kapag naka-login sa Spotify."
+  },
+  "planner": {
+    "day": "Day",
+    "gettingThere": "Paano makakarating",
+    "morning": "Umaga",
+    "afternoon": "Hapon",
+    "evening": "Gabi",
+    "share": "Ibahagi ang biyahe",
+    "transportNote": "Nagbabago ang oras at pamasahe — kumpirmahin sa operator."
+  },
+  "dest": {
+    "title": "Mga destinasyon",
+    "sub": "Totoong lugar, nakagrupo ayon sa lungsod. May pinagmulan ang mga bilang ng popularidad, hindi gawa-gawa.",
+    "browseAll": "Lahat ng destinasyon",
+    "whyGo": "Bakit pumunta",
+    "goodToKnow": "Mabuting malaman",
+    "nearby": "Malapit",
+    "official": "Opisyal na impormasyon"
+  },
+  "food": {
+    "title": "Pagkain — tikman, tapos gawin",
+    "sub": "Saan kakain, at mga klase para ikaw mismo magluto. Iba-iba ang presyo — hindi namin ginagawa-gawa.",
+    "eat": "Saan kakain",
+    "make": "Mga karanasan sa paggawa",
+    "tips": "Mabuting malaman",
+    "browseAll": "Lahat ng pagkain at karanasan"
+  },
+  "reviews": {
+    "title": "Mga review — ayon sa kategorya at wika",
+    "sub": "Totoong review ng manlalakbay — i-filter ayon sa paksa, ipinapakita muna sa iyong wika. Nirerepaso, hindi kailanman gawa-gawa.",
+    "all": "Lahat",
+    "catDest": "🏛️ Mga destinasyon",
+    "catFood": "🥢 Pagkain at karanasan",
+    "catKculture": "🎤 K-Culture",
+    "catTransport": "🚄 Transportasyon",
+    "empty": "Wala pang review — maging una na magbahagi ng biyahe mo sa Korea.",
+    "cta": "Magsulat ng review",
+    "ctaSoon": "Malapit nang magbukas ang pag-submit ng review"
+  },
+  "factsUI": {
+    "verified_facts": "Na-verify na impormasyon",
+    "good_to_know": "Mabuting malaman",
+    "official_sources": "Opisyal na pinagmulan",
+    "source": "Pinagmulan",
+    "confirm": "⚠ Nagbabago ang presyo/patakaran — kumpirmahin sa opisyal na pinagmulan"
+  },
+  "factLabels": {
+    "exempt_until": "Exempt hanggang",
+    "earrival_card": "e-Arrival Card",
+    "age_exempt": "Exemption ayon sa edad",
+    "number": "Numero",
+    "hours": "Oras ng serbisyo",
+    "languages": "Mga wika",
+    "fare_krw_each_way": "Isang biyahe",
+    "minutes": "Tagal (min)",
+    "type": "Uri",
+    "frequency": "Dalas",
+    "fare_krw": "Pamasahe (KRW)",
+    "pay": "Bayad",
+    "stores": "Saan bibili",
+    "basic_krw": "Basic card (KRW)",
+    "design_krw": "Design edition (KRW)",
+    "card_refundable": "Refund ng card",
+    "fare_krw_standard": "Standard class fare (KRW)",
+    "duration": "Tagal",
+    "booking": "Booking",
+    "best": "Pinakamagandang panahon",
+    "summer": "Tag-init",
+    "winter": "Taglamig",
+    "currency": "Pera",
+    "code": "Code",
+    "symbol": "Simbolo",
+    "tipping": "Tip"
+  },
+  "facts": {}
+}
