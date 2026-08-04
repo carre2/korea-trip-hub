@@ -1,5 +1,9 @@
 {
   "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — Planuhin ang biyahe mo sa Korea sa sarili mong wika",
+    "homeDesc": "All-in-one hub para sa biyahe sa Korea: AI trip planner, beripikadong mahahalagang impormasyon (visa, transportasyon), pagkain at hands-on na karanasan, mga review, at K-culture."
+  },
   "nav": {
     "plan": "Paghahanda",
     "planner": "AI Planner",
@@ -14,12 +18,30 @@
     "eyebrow": "Planuhin ang biyahe — magsimula rito",
     "sub": "Ang 6 na pangunahing dapat ayusin bago dumating sa Korea.",
     "tiles": {
-      "visa": { "title": "Visa & K-ETA", "sub": "Pahintulot sa pagpasok at mga patakaran sa visa" },
-      "transit": { "title": "Paglilibot", "sub": "T-money · subway · KTX · taxi" },
-      "airport": { "title": "Airport → lungsod", "sub": "Incheon · AREX express" },
-      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Konektado pagdating" },
-      "money": { "title": "Pera at bayad", "sub": "Palit · card · cash" },
-      "weather": { "title": "Pinakamagandang panahon", "sub": "Kailan pumunta? Ano dala?" }
+      "visa": {
+        "title": "Visa & K-ETA",
+        "sub": "Pahintulot sa pagpasok at mga patakaran sa visa"
+      },
+      "transit": {
+        "title": "Paglilibot",
+        "sub": "T-money · subway · KTX · taxi"
+      },
+      "airport": {
+        "title": "Airport → lungsod",
+        "sub": "Incheon · AREX express"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "Konektado pagdating"
+      },
+      "money": {
+        "title": "Pera at bayad",
+        "sub": "Palit · card · cash"
+      },
+      "weather": {
+        "title": "Pinakamagandang panahon",
+        "sub": "Kailan pumunta? Ano dala?"
+      }
     }
   },
   "hero": {
@@ -40,7 +62,10 @@
     "sub": "Mahahalagang impormasyong na-verify sa opisyal na pinagmulan, i-save bago dumating.",
     "verified_on": "Na-verify",
     "check_official": "Palaging tingnan sa opisyal na pinagmulan",
-    "embassy": { "title": "Iyong embahada", "sub": "Address, telepono at mapa ayon sa bansa." },
+    "embassy": {
+      "title": "Iyong embahada",
+      "sub": "Address, telepono at mapa ayon sa bansa."
+    },
     "unavailable": "Nive-verify"
   },
   "footer": {

@@ -1,5 +1,9 @@
 {
   "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — Rencanakan perjalanan ke Korea dalam bahasamu",
+    "homeDesc": "Pusat perjalanan Korea serba ada: perencana rute dengan AI, info penting terverifikasi (visa, transportasi), kuliner dan pengalaman langsung, ulasan, dan K-culture."
+  },
   "nav": {
     "plan": "Persiapan",
     "planner": "Rencana AI",
@@ -14,12 +18,30 @@
     "eyebrow": "Rencanakan perjalanan — mulai di sini",
     "sub": "6 hal dasar yang perlu disiapkan sebelum tiba di Korea.",
     "tiles": {
-      "visa": { "title": "Visa & K-ETA", "sub": "Izin masuk & aturan visa" },
-      "transit": { "title": "Transportasi", "sub": "T-money · subway · KTX · taksi" },
-      "airport": { "title": "Bandara → kota", "sub": "Incheon · AREX ekspres" },
-      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Langsung terhubung saat tiba" },
-      "money": { "title": "Uang & pembayaran", "sub": "Tukar uang · kartu · tunai" },
-      "weather": { "title": "Waktu terbaik & cuaca", "sub": "Kapan pergi? Bawa apa?" }
+      "visa": {
+        "title": "Visa & K-ETA",
+        "sub": "Izin masuk & aturan visa"
+      },
+      "transit": {
+        "title": "Transportasi",
+        "sub": "T-money · subway · KTX · taksi"
+      },
+      "airport": {
+        "title": "Bandara → kota",
+        "sub": "Incheon · AREX ekspres"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "Langsung terhubung saat tiba"
+      },
+      "money": {
+        "title": "Uang & pembayaran",
+        "sub": "Tukar uang · kartu · tunai"
+      },
+      "weather": {
+        "title": "Waktu terbaik & cuaca",
+        "sub": "Kapan pergi? Bawa apa?"
+      }
     }
   },
   "hero": {
@@ -40,7 +62,10 @@
     "sub": "Info penting yang sudah dicek dengan sumber resmi, simpan sebelum tiba.",
     "verified_on": "Diverifikasi",
     "check_official": "Selalu cek terbaru di sumber resmi",
-    "embassy": { "title": "Kedutaan negaramu", "sub": "Alamat, telepon & peta per negara." },
+    "embassy": {
+      "title": "Kedutaan negaramu",
+      "sub": "Alamat, telepon & peta per negara."
+    },
     "unavailable": "Sedang diverifikasi"
   },
   "footer": {

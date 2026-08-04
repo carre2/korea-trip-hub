@@ -1,5 +1,9 @@
 {
   "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — 用你的语言规划韩国之旅",
+    "homeDesc": "一站式韩国旅行中心：AI 行程规划、经核实的出行必备信息（签证、交通）、美食与体验、真实评价和 K-culture。"
+  },
   "nav": {
     "plan": "行前准备",
     "planner": "AI行程规划",
@@ -14,12 +18,30 @@
     "eyebrow": "行程规划，从这里开始",
     "sub": "抵达韩国前要先搞定的6个基本事项。",
     "tiles": {
-      "visa": { "title": "签证与K-ETA", "sub": "入境许可与签证规定" },
-      "transit": { "title": "交通出行", "sub": "T-money·地铁·KTX·出租车" },
-      "airport": { "title": "机场→市区", "sub": "仁川·AREX直达" },
-      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "落地即可上网" },
-      "money": { "title": "货币与支付", "sub": "换汇·刷卡·现金" },
-      "weather": { "title": "最佳季节与天气", "sub": "何时去?带什么?" }
+      "visa": {
+        "title": "签证与K-ETA",
+        "sub": "入境许可与签证规定"
+      },
+      "transit": {
+        "title": "交通出行",
+        "sub": "T-money·地铁·KTX·出租车"
+      },
+      "airport": {
+        "title": "机场→市区",
+        "sub": "仁川·AREX直达"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "落地即可上网"
+      },
+      "money": {
+        "title": "货币与支付",
+        "sub": "换汇·刷卡·现金"
+      },
+      "weather": {
+        "title": "最佳季节与天气",
+        "sub": "何时去?带什么?"
+      }
     }
   },
   "hero": {
@@ -40,7 +62,10 @@
     "sub": "落地前值得收藏、且经官方来源核实的信息。",
     "verified_on": "核实日期",
     "check_official": "请务必在官方来源确认最新信息",
-    "embassy": { "title": "你的大使馆", "sub": "各国的地址、电话与地图。" },
+    "embassy": {
+      "title": "你的大使馆",
+      "sub": "各国的地址、电话与地图。"
+    },
     "unavailable": "核实中"
   },
   "footer": {

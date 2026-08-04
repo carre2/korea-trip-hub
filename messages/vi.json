@@ -1,5 +1,9 @@
 {
   "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — Lên kế hoạch du lịch Hàn Quốc bằng ngôn ngữ của bạn",
+    "homeDesc": "Trung tâm du lịch Hàn Quốc tất cả trong một: trình lập lịch trình bằng AI, thông tin thiết yếu đã kiểm chứng (visa, di chuyển), ẩm thực và trải nghiệm, đánh giá và K-culture."
+  },
   "nav": {
     "plan": "Chuẩn bị",
     "planner": "Lịch trình AI",
@@ -14,12 +18,30 @@
     "eyebrow": "Lên kế hoạch — bắt đầu tại đây",
     "sub": "6 điều cơ bản cần chuẩn bị trước khi đến Hàn Quốc.",
     "tiles": {
-      "visa": { "title": "Visa & K-ETA", "sub": "Giấy phép nhập cảnh & quy định visa" },
-      "transit": { "title": "Đi lại", "sub": "T-money · tàu điện · KTX · taxi" },
-      "airport": { "title": "Sân bay → thành phố", "sub": "Incheon · AREX tốc hành" },
-      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Kết nối ngay khi đến" },
-      "money": { "title": "Tiền & thanh toán", "sub": "Đổi tiền · thẻ · tiền mặt" },
-      "weather": { "title": "Thời điểm & thời tiết", "sub": "Khi nào đi? Mang gì?" }
+      "visa": {
+        "title": "Visa & K-ETA",
+        "sub": "Giấy phép nhập cảnh & quy định visa"
+      },
+      "transit": {
+        "title": "Đi lại",
+        "sub": "T-money · tàu điện · KTX · taxi"
+      },
+      "airport": {
+        "title": "Sân bay → thành phố",
+        "sub": "Incheon · AREX tốc hành"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "Kết nối ngay khi đến"
+      },
+      "money": {
+        "title": "Tiền & thanh toán",
+        "sub": "Đổi tiền · thẻ · tiền mặt"
+      },
+      "weather": {
+        "title": "Thời điểm & thời tiết",
+        "sub": "Khi nào đi? Mang gì?"
+      }
     }
   },
   "hero": {
@@ -40,7 +62,10 @@
     "sub": "Thông tin thiết yếu đã đối chiếu nguồn chính thức, nên lưu lại trước khi đến.",
     "verified_on": "Đã xác minh",
     "check_official": "Luôn kiểm tra lại tại nguồn chính thức",
-    "embassy": { "title": "Đại sứ quán của bạn", "sub": "Địa chỉ, điện thoại & bản đồ theo quốc gia." },
+    "embassy": {
+      "title": "Đại sứ quán của bạn",
+      "sub": "Địa chỉ, điện thoại & bản đồ theo quốc gia."
+    },
     "unavailable": "Đang xác minh"
   },
   "footer": {

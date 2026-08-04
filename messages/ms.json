@@ -1,5 +1,9 @@
 {
   "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — Rancang perjalanan ke Korea dalam bahasa anda",
+    "homeDesc": "Hab perjalanan Korea serba lengkap: perancang itinerari AI, maklumat penting yang disahkan (visa, pengangkutan), makanan dan pengalaman, ulasan dan K-culture."
+  },
   "nav": {
     "plan": "Persediaan",
     "planner": "Perancang AI",
@@ -14,12 +18,30 @@
     "eyebrow": "Rancang perjalanan — mula di sini",
     "sub": "6 perkara asas untuk diselesaikan sebelum tiba di Korea.",
     "tiles": {
-      "visa": { "title": "Visa & K-ETA", "sub": "Kebenaran masuk & peraturan visa" },
-      "transit": { "title": "Pengangkutan", "sub": "T-money · subway · KTX · teksi" },
-      "airport": { "title": "Lapangan terbang → bandar", "sub": "Incheon · AREX ekspres" },
-      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Terus dalam talian ketika tiba" },
-      "money": { "title": "Wang & bayaran", "sub": "Tukaran · kad · tunai" },
-      "weather": { "title": "Masa terbaik & cuaca", "sub": "Bila pergi? Bawa apa?" }
+      "visa": {
+        "title": "Visa & K-ETA",
+        "sub": "Kebenaran masuk & peraturan visa"
+      },
+      "transit": {
+        "title": "Pengangkutan",
+        "sub": "T-money · subway · KTX · teksi"
+      },
+      "airport": {
+        "title": "Lapangan terbang → bandar",
+        "sub": "Incheon · AREX ekspres"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "Terus dalam talian ketika tiba"
+      },
+      "money": {
+        "title": "Wang & bayaran",
+        "sub": "Tukaran · kad · tunai"
+      },
+      "weather": {
+        "title": "Masa terbaik & cuaca",
+        "sub": "Bila pergi? Bawa apa?"
+      }
     }
   },
   "hero": {
@@ -40,7 +62,10 @@
     "sub": "Maklumat penting yang disahkan dengan sumber rasmi, simpan sebelum tiba.",
     "verified_on": "Disahkan",
     "check_official": "Sentiasa sahkan di sumber rasmi",
-    "embassy": { "title": "Kedutaan anda", "sub": "Alamat, telefon & peta mengikut negara." },
+    "embassy": {
+      "title": "Kedutaan anda",
+      "sub": "Alamat, telefon & peta mengikut negara."
+    },
     "unavailable": "Sedang disahkan"
   },
   "footer": {

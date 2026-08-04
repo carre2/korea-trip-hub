@@ -1,5 +1,9 @@
 {
   "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — 내 언어로 계획하는 한국 여행",
+    "homeDesc": "한국 여행을 위한 올인원 허브. AI 일정 플래너, 출처로 검증한 필수 정보(비자·교통), 음식과 체험, 후기, K-컬처."
+  },
   "nav": {
     "plan": "여행준비",
     "planner": "AI 플래너",
@@ -14,12 +18,30 @@
     "eyebrow": "여행 계획 — 여기서 시작",
     "sub": "한국 도착 전 챙겨야 할 6가지 기본.",
     "tiles": {
-      "visa": { "title": "비자 & K-ETA", "sub": "입국 허가 & 비자 규정" },
-      "transit": { "title": "교통", "sub": "T-money · 지하철 · KTX · 택시" },
-      "airport": { "title": "공항 → 시내", "sub": "인천 · AREX 직통" },
-      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "도착 즉시 인터넷" },
-      "money": { "title": "환전 & 결제", "sub": "환전 · 카드 · 현금" },
-      "weather": { "title": "베스트 시즌 & 날씨", "sub": "언제 갈까? 뭘 챙길까?" }
+      "visa": {
+        "title": "비자 & K-ETA",
+        "sub": "입국 허가 & 비자 규정"
+      },
+      "transit": {
+        "title": "교통",
+        "sub": "T-money · 지하철 · KTX · 택시"
+      },
+      "airport": {
+        "title": "공항 → 시내",
+        "sub": "인천 · AREX 직통"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "도착 즉시 인터넷"
+      },
+      "money": {
+        "title": "환전 & 결제",
+        "sub": "환전 · 카드 · 현금"
+      },
+      "weather": {
+        "title": "베스트 시즌 & 날씨",
+        "sub": "언제 갈까? 뭘 챙길까?"
+      }
     }
   },
   "hero": {
@@ -40,7 +62,10 @@
     "sub": "도착 전 저장해두면 좋은, 공식 출처로 확인된 필수 정보.",
     "verified_on": "확인일",
     "check_official": "항상 공식 출처에서 최신 확인",
-    "embassy": { "title": "자국 대사관", "sub": "국가별 주소·전화·지도." },
+    "embassy": {
+      "title": "자국 대사관",
+      "sub": "국가별 주소·전화·지도."
+    },
     "unavailable": "확인 중"
   },
   "footer": {

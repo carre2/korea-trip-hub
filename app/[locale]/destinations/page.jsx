@@ -1,5 +1,5 @@
 import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
-import { pageMeta } from "../../../lib/seo";
+import { pageMeta, SITE_NAME } from "../../../lib/seo";
 import { fact } from "../../../lib/facts";
 import dest from "../../../data/destinations.json";
 import destJa from "../../../data/destinations.ja.json";
@@ -30,10 +30,12 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }) {
   const locale = params?.locale || defaultLocale;
+  const m = getMessages(locale);
   return pageMeta({
     locale,
     path: "destinations",
-    title: "Destinations — Korea Trip Hub",
+    title: `${m.dest.title} — ${SITE_NAME}`,
+    description: m.dest.sub,
   });
 }
 

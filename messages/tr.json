@@ -1,5 +1,9 @@
 {
   "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — Kore seyahatini kendi dilinde planla",
+    "homeDesc": "Kore seyahati için hepsi bir arada merkez: yapay zekâ destekli rota planlayıcı, resmi kaynaklardan doğrulanmış temel bilgiler (vize, ulaşım), yemek ve atölyeler, yorumlar ve K-culture."
+  },
   "nav": {
     "plan": "Hazırlık",
     "planner": "AI Planlayıcı",
@@ -14,12 +18,30 @@
     "eyebrow": "Gezini planla — buradan başla",
     "sub": "Kore'ye varmadan önce halletmen gereken 6 temel şey.",
     "tiles": {
-      "visa": { "title": "Vize & K-ETA", "sub": "Giriş izni ve vize kuralları" },
-      "transit": { "title": "Ulaşım", "sub": "T-money · metro · KTX · taksi" },
-      "airport": { "title": "Havalimanı → şehir", "sub": "Incheon · AREX ekspres" },
-      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Varışta anında bağlan" },
-      "money": { "title": "Para & ödeme", "sub": "Döviz · kart · nakit" },
-      "weather": { "title": "En iyi zaman & hava", "sub": "Ne zaman gitmeli? Ne almalı?" }
+      "visa": {
+        "title": "Vize & K-ETA",
+        "sub": "Giriş izni ve vize kuralları"
+      },
+      "transit": {
+        "title": "Ulaşım",
+        "sub": "T-money · metro · KTX · taksi"
+      },
+      "airport": {
+        "title": "Havalimanı → şehir",
+        "sub": "Incheon · AREX ekspres"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "Varışta anında bağlan"
+      },
+      "money": {
+        "title": "Para & ödeme",
+        "sub": "Döviz · kart · nakit"
+      },
+      "weather": {
+        "title": "En iyi zaman & hava",
+        "sub": "Ne zaman gitmeli? Ne almalı?"
+      }
     }
   },
   "hero": {
@@ -40,7 +62,10 @@
     "sub": "Varmadan önce kaydetmelik, resmi kaynaklardan doğrulanmış temel bilgiler.",
     "verified_on": "Doğrulandı",
     "check_official": "Her zaman resmi kaynaktan teyit et",
-    "embassy": { "title": "Ülkenin büyükelçiliği", "sub": "Ülkeye göre adres, telefon ve harita." },
+    "embassy": {
+      "title": "Ülkenin büyükelçiliği",
+      "sub": "Ülkeye göre adres, telefon ve harita."
+    },
     "unavailable": "Doğrulanıyor"
   },
   "footer": {

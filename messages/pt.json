@@ -1,5 +1,9 @@
 {
   "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — Planeje sua viagem à Coreia no seu idioma",
+    "homeDesc": "O hub completo para viajar à Coreia: planejador de roteiros com IA, informações essenciais verificadas (visto, transporte), comida e experiências práticas, avaliações e K-culture."
+  },
   "nav": {
     "plan": "Preparativos",
     "planner": "Planejador IA",
@@ -14,12 +18,30 @@
     "eyebrow": "Planeje sua viagem — comece aqui",
     "sub": "Os 6 itens essenciais para resolver antes de chegar à Coreia.",
     "tiles": {
-      "visa": { "title": "Visto & K-ETA", "sub": "Autorização de entrada e regras de visto" },
-      "transit": { "title": "Como se locomover", "sub": "T-money · metrô · KTX · táxi" },
-      "airport": { "title": "Aeroporto → cidade", "sub": "Incheon · AREX expresso" },
-      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Conectado ao chegar" },
-      "money": { "title": "Dinheiro & pagamento", "sub": "Câmbio · cartão · dinheiro" },
-      "weather": { "title": "Melhor época & clima", "sub": "Quando ir? O que levar?" }
+      "visa": {
+        "title": "Visto & K-ETA",
+        "sub": "Autorização de entrada e regras de visto"
+      },
+      "transit": {
+        "title": "Como se locomover",
+        "sub": "T-money · metrô · KTX · táxi"
+      },
+      "airport": {
+        "title": "Aeroporto → cidade",
+        "sub": "Incheon · AREX expresso"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "Conectado ao chegar"
+      },
+      "money": {
+        "title": "Dinheiro & pagamento",
+        "sub": "Câmbio · cartão · dinheiro"
+      },
+      "weather": {
+        "title": "Melhor época & clima",
+        "sub": "Quando ir? O que levar?"
+      }
     }
   },
   "hero": {
@@ -40,7 +62,10 @@
     "sub": "Informações essenciais verificadas com fontes oficiais, para salvar antes de chegar.",
     "verified_on": "Verificado",
     "check_official": "Confirme sempre na fonte oficial",
-    "embassy": { "title": "Sua embaixada", "sub": "Endereço, telefone e mapa por país." },
+    "embassy": {
+      "title": "Sua embaixada",
+      "sub": "Endereço, telefone e mapa por país."
+    },
     "unavailable": "Em verificação"
   },
   "footer": {

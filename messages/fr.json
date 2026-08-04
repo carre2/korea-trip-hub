@@ -1,5 +1,9 @@
 {
   "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — Préparez votre voyage en Corée dans votre langue",
+    "homeDesc": "Le hub complet du voyage en Corée : planificateur d'itinéraire par IA, informations essentielles vérifiées (visa, transports), cuisine et ateliers, avis et K-culture."
+  },
   "nav": {
     "plan": "Préparatifs",
     "planner": "Planificateur IA",
@@ -14,12 +18,30 @@
     "eyebrow": "Préparez votre voyage — commencez ici",
     "sub": "Les 6 essentiels à régler avant d'arriver en Corée.",
     "tiles": {
-      "visa": { "title": "Visa & K-ETA", "sub": "Autorisation d'entrée et règles de visa" },
-      "transit": { "title": "Se déplacer", "sub": "T-money · métro · KTX · taxi" },
-      "airport": { "title": "Aéroport → ville", "sub": "Incheon · AREX express" },
-      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Connecté dès l'arrivée" },
-      "money": { "title": "Argent & paiement", "sub": "Change · carte · espèces" },
-      "weather": { "title": "Meilleure saison & météo", "sub": "Quand partir ? Quoi emporter ?" }
+      "visa": {
+        "title": "Visa & K-ETA",
+        "sub": "Autorisation d'entrée et règles de visa"
+      },
+      "transit": {
+        "title": "Se déplacer",
+        "sub": "T-money · métro · KTX · taxi"
+      },
+      "airport": {
+        "title": "Aéroport → ville",
+        "sub": "Incheon · AREX express"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "Connecté dès l'arrivée"
+      },
+      "money": {
+        "title": "Argent & paiement",
+        "sub": "Change · carte · espèces"
+      },
+      "weather": {
+        "title": "Meilleure saison & météo",
+        "sub": "Quand partir ? Quoi emporter ?"
+      }
     }
   },
   "hero": {
@@ -40,7 +62,10 @@
     "sub": "Infos essentielles vérifiées auprès de sources officielles, à garder avant d'arriver.",
     "verified_on": "Vérifié",
     "check_official": "Vérifiez toujours à la source officielle",
-    "embassy": { "title": "Votre ambassade", "sub": "Adresse, téléphone et carte par pays." },
+    "embassy": {
+      "title": "Votre ambassade",
+      "sub": "Adresse, téléphone et carte par pays."
+    },
     "unavailable": "En cours de vérification"
   },
   "footer": {

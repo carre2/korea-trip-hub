@@ -1,5 +1,9 @@
 {
   "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — 韓国旅行を、あなたの言語で",
+    "homeDesc": "韓国旅行のすべてを一つに。AI旅程プランナー、出典で確認した基本情報（ビザ・交通）、グルメと体験、口コミ、K-カルチャー。"
+  },
   "nav": {
     "plan": "旅行準備",
     "planner": "AIプランナー",
@@ -14,12 +18,30 @@
     "eyebrow": "旅行の計画はここから",
     "sub": "韓国に着く前にそろえておきたい6つの基本。",
     "tiles": {
-      "visa": { "title": "ビザ・K-ETA", "sub": "入国許可とビザのルール" },
-      "transit": { "title": "移動・交通", "sub": "T-money・地下鉄・KTX・タクシー" },
-      "airport": { "title": "空港→市内", "sub": "仁川・AREX直通" },
-      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "到着後すぐネット接続" },
-      "money": { "title": "お金・支払い", "sub": "両替・カード・現金" },
-      "weather": { "title": "ベストシーズン・天気", "sub": "いつ行く?何を持つ?" }
+      "visa": {
+        "title": "ビザ・K-ETA",
+        "sub": "入国許可とビザのルール"
+      },
+      "transit": {
+        "title": "移動・交通",
+        "sub": "T-money・地下鉄・KTX・タクシー"
+      },
+      "airport": {
+        "title": "空港→市内",
+        "sub": "仁川・AREX直通"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "到着後すぐネット接続"
+      },
+      "money": {
+        "title": "お金・支払い",
+        "sub": "両替・カード・現金"
+      },
+      "weather": {
+        "title": "ベストシーズン・天気",
+        "sub": "いつ行く?何を持つ?"
+      }
     }
   },
   "hero": {
@@ -40,7 +62,10 @@
     "sub": "着く前に保存しておきたい、公式ソースで確認済みの情報。",
     "verified_on": "確認日",
     "check_official": "必ず公式で最新を確認",
-    "embassy": { "title": "自国の大使館", "sub": "国別の住所・電話・地図。" },
+    "embassy": {
+      "title": "自国の大使館",
+      "sub": "国別の住所・電話・地図。"
+    },
     "unavailable": "確認中"
   },
   "footer": {

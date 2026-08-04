@@ -1,5 +1,5 @@
 import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
-import { pageMeta } from "../../../lib/seo";
+import { pageMeta, SITE_NAME } from "../../../lib/seo";
 import food from "../../../data/food.json";
 import foodJa from "../../../data/food.ja.json";
 import foodZh from "../../../data/food.zh.json";
@@ -30,10 +30,12 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }) {
   const locale = params?.locale || defaultLocale;
+  const m = getMessages(locale);
   return pageMeta({
     locale,
     path: "food",
-    title: "Food & Experiences — Korea Trip Hub",
+    title: `${m.food.title} — ${SITE_NAME}`,
+    description: m.food.sub,
   });
 }
 

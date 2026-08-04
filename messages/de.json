@@ -1,5 +1,9 @@
 {
   "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — Plane deine Korea-Reise in deiner Sprache",
+    "homeDesc": "Der Rundum-Hub für die Korea-Reise: KI-Reiseplaner, geprüfte Basisinfos (Visum, Verkehr), Essen und Mitmach-Erlebnisse, Bewertungen und K-Culture."
+  },
   "nav": {
     "plan": "Vorbereitung",
     "planner": "KI-Planer",
@@ -14,12 +18,30 @@
     "eyebrow": "Reise planen — hier starten",
     "sub": "Die 6 Grundlagen, die du vor der Ankunft in Korea klären solltest.",
     "tiles": {
-      "visa": { "title": "Visum & K-ETA", "sub": "Einreiseerlaubnis & Visaregeln" },
-      "transit": { "title": "Fortbewegung", "sub": "T-money · U-Bahn · KTX · Taxi" },
-      "airport": { "title": "Flughafen → Stadt", "sub": "Incheon · AREX-Express" },
-      "sim": { "title": "SIM / eSIM / WLAN", "sub": "Sofort online bei Ankunft" },
-      "money": { "title": "Geld & Zahlung", "sub": "Wechseln · Karte · Bargeld" },
-      "weather": { "title": "Beste Zeit & Wetter", "sub": "Wann hin? Was mitnehmen?" }
+      "visa": {
+        "title": "Visum & K-ETA",
+        "sub": "Einreiseerlaubnis & Visaregeln"
+      },
+      "transit": {
+        "title": "Fortbewegung",
+        "sub": "T-money · U-Bahn · KTX · Taxi"
+      },
+      "airport": {
+        "title": "Flughafen → Stadt",
+        "sub": "Incheon · AREX-Express"
+      },
+      "sim": {
+        "title": "SIM / eSIM / WLAN",
+        "sub": "Sofort online bei Ankunft"
+      },
+      "money": {
+        "title": "Geld & Zahlung",
+        "sub": "Wechseln · Karte · Bargeld"
+      },
+      "weather": {
+        "title": "Beste Zeit & Wetter",
+        "sub": "Wann hin? Was mitnehmen?"
+      }
     }
   },
   "hero": {
@@ -40,7 +62,10 @@
     "sub": "Wichtige, mit offiziellen Quellen geprüfte Infos zum Speichern vor der Ankunft.",
     "verified_on": "Geprüft",
     "check_official": "Immer bei der offiziellen Quelle prüfen",
-    "embassy": { "title": "Deine Botschaft", "sub": "Adresse, Telefon & Karte nach Land." },
+    "embassy": {
+      "title": "Deine Botschaft",
+      "sub": "Adresse, Telefon & Karte nach Land."
+    },
     "unavailable": "Wird geprüft"
   },
   "footer": {

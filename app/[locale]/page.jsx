@@ -85,12 +85,12 @@ function FactCard({ id, icon, iconBg, iconColor, title, sub, big, t }) {
 
 export function generateMetadata({ params }) {
   const locale = params?.locale || defaultLocale;
+  const m = getMessages(locale);
   return pageMeta({
     locale,
     path: "",
-    title: "Korea Trip Hub — Plan your Korea trip in your language",
-    description:
-      "All-in-one multilingual travel hub for visiting Korea: AI trip planner, verified essentials (visa, transport), food & hands-on experiences, reviews, and K-culture.",
+    title: m.meta.homeTitle,
+    description: m.meta.homeDesc,
   });
 }
 

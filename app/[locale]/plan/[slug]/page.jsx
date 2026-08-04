@@ -1,5 +1,5 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
-import { pageMeta } from "../../../../lib/seo";
+import { pageMeta, SITE_NAME } from "../../../../lib/seo";
 import { fact } from "../../../../lib/facts";
 import GuideVisual from "../../../../components/GuideVisual";
 import TransitGuide from "../../../../components/TransitGuide";
@@ -42,13 +42,15 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }) {
   const locale = params?.locale || defaultLocale;
-  const item = plan.items[params.slug];
-  const title = params.slug.charAt(0).toUpperCase() + params.slug.slice(1);
+  const m = getMessages(locale);
+  // Tile titles are already translated in messages/*.json; taglines in data/plan.<locale>.json.
+  const title = m.plan.tiles[params.slug]?.title || params.slug;
+  const item = { ...plan.items[params.slug], ...(planI18n[locale]?.items?.[params.slug] || {}) };
   return pageMeta({
     locale,
     path: `plan/${params.slug}`,
-    title: `${title} — Korea Trip Hub`,
-    description: item?.tagline || "Verified travel essentials for visiting Korea.",
+    title: `${title} — ${SITE_NAME}`,
+    description: item.tagline,
     type: "article",
   });
 }

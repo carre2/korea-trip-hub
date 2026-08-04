@@ -1,5 +1,5 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
-import { pageMeta } from "../../../../lib/seo";
+import { pageMeta, SITE_NAME } from "../../../../lib/seo";
 import { fact } from "../../../../lib/facts";
 import dest from "../../../../data/destinations.json";
 import destJa from "../../../../data/destinations.ja.json";
@@ -31,12 +31,14 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }) {
   const locale = params?.locale || defaultLocale;
-  const d = dest.items[params.slug];
+  // Same English-base + locale-override merge the page body uses, so the tab title and the
+  // search snippet are in the reader's language, not English.
+  const d = { ...dest.items[params.slug], ...(destI18n[locale]?.items?.[params.slug] || {}) };
   return pageMeta({
     locale,
     path: `destinations/${params.slug}`,
-    title: `${d ? d.name : "Destination"} — Korea Trip Hub`,
-    description: d?.blurb,
+    title: `${d.name || "Destination"} — ${SITE_NAME}`,
+    description: d.blurb,
     type: "article",
   });
 }

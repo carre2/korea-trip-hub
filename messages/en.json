@@ -1,5 +1,9 @@
 {
   "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — Plan your Korea trip in your language",
+    "homeDesc": "All-in-one multilingual travel hub for visiting Korea: AI trip planner, verified essentials (visa, transport), food & hands-on experiences, reviews, and K-culture."
+  },
   "nav": {
     "plan": "Plan Trip",
     "planner": "AI Planner",
@@ -14,12 +18,30 @@
     "eyebrow": "Plan your trip — start here",
     "sub": "The 6 essentials to sort before you land in Korea.",
     "tiles": {
-      "visa": { "title": "Visa & K-ETA", "sub": "Entry permit & visa rules" },
-      "transit": { "title": "Getting Around", "sub": "T-money · subway · KTX · taxi" },
-      "airport": { "title": "Airport → City", "sub": "Incheon · AREX express" },
-      "sim": { "title": "SIM / eSIM / Wi-Fi", "sub": "Stay connected on arrival" },
-      "money": { "title": "Money & Payment", "sub": "Exchange · cards · cash" },
-      "weather": { "title": "Best Time / Weather", "sub": "When to visit & what to pack" }
+      "visa": {
+        "title": "Visa & K-ETA",
+        "sub": "Entry permit & visa rules"
+      },
+      "transit": {
+        "title": "Getting Around",
+        "sub": "T-money · subway · KTX · taxi"
+      },
+      "airport": {
+        "title": "Airport → City",
+        "sub": "Incheon · AREX express"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "Stay connected on arrival"
+      },
+      "money": {
+        "title": "Money & Payment",
+        "sub": "Exchange · cards · cash"
+      },
+      "weather": {
+        "title": "Best Time / Weather",
+        "sub": "When to visit & what to pack"
+      }
     }
   },
   "hero": {
@@ -40,7 +62,10 @@
     "sub": "Verified essentials to save before you land — every number checked against an official source.",
     "verified_on": "Verified",
     "check_official": "Always confirm at the official source",
-    "embassy": { "title": "Your embassy", "sub": "Address, phone & map by country." },
+    "embassy": {
+      "title": "Your embassy",
+      "sub": "Address, phone & map by country."
+    },
     "unavailable": "Being verified"
   },
   "footer": {
