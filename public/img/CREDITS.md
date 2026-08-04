@@ -65,3 +65,4 @@ All photographic images are sourced from free/openly-licensed collections and at
 | wx/summer.jpg | S Shamima Nasrin · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Boseong_Green_Tea_Field_in_summer_2017.jpg) |
 | wx/autumn.jpg | Ludovic Peron · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Landscape_in_Seoraksan_National_Park_1.jpg) |
 | wx/winter.jpg | Korea.net / KOCIS · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Palace_covered_with_snow_%284270309099%29.jpg) |
+| plan/money.jpg | Smiley.toerist · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Namdaemun_market_in_Seoul_I.jpg) |
