@@ -56,3 +56,12 @@ All photographic images are sourced from free/openly-licensed collections and at
 | make-bulgogi | Photo: Debbie Tingzon / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bulgogi_3.jpg) |
 | make-tteok | Photo: Startandstar / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean_rice_cake_Korean_tteok.jpg) |
 | make-makgeolli | Photo: jinho kim / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Makgeolli_4.jpg) |
+
+### Plan deep-dive heroes & weather seasons
+| File | Credit | Source |
+|---|---|---|
+| plan/sim.jpg | Chaheel Riens · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Asda_SIM_from_Vodaphone_2022.jpg) |
+| wx/spring.jpg | Alexey Komarov · CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cherry_Blossom_in_Yeouido_Park_-_panoramio.jpg) |
+| wx/summer.jpg | S Shamima Nasrin · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Boseong_Green_Tea_Field_in_summer_2017.jpg) |
+| wx/autumn.jpg | Ludovic Peron · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Landscape_in_Seoraksan_National_Park_1.jpg) |
+| wx/winter.jpg | Korea.net / KOCIS · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Palace_covered_with_snow_%284270309099%29.jpg) |

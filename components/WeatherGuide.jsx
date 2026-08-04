@@ -32,16 +32,27 @@ export default function WeatherGuide({ guide }) {
           <div className="gv-doc-grid wx-seasons">
             {g.seasons.cards.map((c) => (
               <div key={c.name} className={`gv-doc gv-tone-${c.tone}`}>
+                {c.img && <img className="wx-season-img" src={c.img} alt={c.name} loading="lazy" />}
                 <div className="wx-season-top">
                   <span className="gv-doc-ic">{c.icon}</span>
                   <span className="wx-season-months">{c.months}</span>
                 </div>
                 <h3>{c.name}</h3>
                 <p className="wx-season-vibe">{c.vibe}</p>
-                <p className="gv-doc-what"><b>Pack:</b> {c.pack}</p>
+                <p className="gv-doc-what"><b>{g.seasons.packLabel || "Pack:"}</b> {c.pack}</p>
               </div>
             ))}
           </div>
+          {g.seasons.cards.some((c) => c.credit) && (
+            <details className="photo-credits">
+              <summary>📷 {g.seasons.creditsLabel || "Photo credits"}</summary>
+              <ul>
+                {g.seasons.cards.filter((c) => c.credit).map((c) => (
+                  <li key={c.name}>{c.name} — <a href={c.creditUrl} target="_blank" rel="noopener noreferrer">{c.credit}</a></li>
+                ))}
+              </ul>
+            </details>
+          )}
         </section>
       )}
 

@@ -26,6 +26,8 @@ import destMs from "../../data/destinations.ms.json";
 import destHi from "../../data/destinations.hi.json";
 import destAr from "../../data/destinations.ar.json";
 import destBn from "../../data/destinations.bn.json";
+import destImages from "../../data/dest-images.json";
+import foodImages from "../../data/food-images.json";
 import foodData from "../../data/food.json";
 import foodJa from "../../data/food.ja.json";
 import foodZh from "../../data/food.zh.json";
@@ -169,9 +171,11 @@ export default function Home({ params }) {
               const d = { ...destData.items[slug], ...(destI18n[locale]?.items?.[slug] || {}) };
               const f = d.factId ? fact(d.factId) : null;
               const stat = f && f.value ? Object.values(f.value)[0] : null;
+              const im = destImages[slug];
               return (
                 <a className="card" key={slug} href={`/${locale}/destinations/${slug}/`}>
-                  <div className="thumb" style={{ background: d.grad }}>{d.icon}
+                  <div className={`thumb${im ? " thumb-img" : ""}`} style={im ? undefined : { background: d.grad }}>
+                    {im ? <img src={im.img} alt={d.name} loading="lazy" /> : d.icon}
                     <span className="rank">🔎 {d.rank}</span>
                   </div>
                   <div className="cbody">
@@ -200,7 +204,9 @@ export default function Home({ params }) {
           <div className="grid g4">
             {foodData.eat.map((it, i) => ({ ...it, ...((foodI18n[locale]?.eat || [])[i] || {}) })).slice(0, 4).map((c) => (
               <article className="card" key={c.n}>
-                <div className="thumb" style={{ background: c.grad }}>{c.icon}</div>
+                <div className={`thumb${foodImages[c.key] ? " thumb-img" : ""}`} style={foodImages[c.key] ? undefined : { background: c.grad }}>
+                  {foodImages[c.key] ? <img src={foodImages[c.key].img} alt={c.n} loading="lazy" /> : c.icon}
+                </div>
                 <div className="cbody"><h3>{c.n}</h3><p>{c.d}</p></div>
               </article>
             ))}
@@ -209,7 +215,8 @@ export default function Home({ params }) {
           <div className="grid g4">
             {foodData.make.map((it, i) => ({ ...it, ...((foodI18n[locale]?.make || [])[i] || {}) })).slice(0, 4).map((c) => (
               <article className="card" key={c.n}>
-                <div className="thumb" style={{ background: c.grad }}>{c.icon}
+                <div className={`thumb${foodImages[c.key] ? " thumb-img" : ""}`} style={foodImages[c.key] ? undefined : { background: c.grad }}>
+                  {foodImages[c.key] ? <img src={foodImages[c.key].img} alt={c.n} loading="lazy" /> : c.icon}
                   <span className="pill" style={{ position: "absolute", bottom: 12, left: 12, background: "var(--amber-soft)", color: "var(--amber)" }}>{c.tag}</span>
                 </div>
                 <div className="cbody"><h3>{c.n}</h3><p>{c.d}</p></div>
