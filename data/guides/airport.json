@@ -1,0 +1,91 @@
+{
+  "_README": "Rich guide content for the Airport (Incheon arrival & transfers) plan page (English base). Fares are grounded in facts.json (arex-express, arex-allstop, airport-bus, airport-taxi) and shown in Verified-facts boxes. Rendered by components/AirportGuide.jsx.",
+  "slug": "airport",
+  "kicker": "Arrival & airport transfers",
+  "readingTime": "8 min read",
+  "hero": {
+    "img": "/img/airport/arex.jpg",
+    "alt": "AREX Express train concourse at Incheon Airport Terminal 1 station",
+    "credit": "Photo: MNXANL / Wikimedia Commons · CC BY-SA 4.0",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:202403_AREX_Express_Train_Concourse_at_Incheon_International_Airport_Terminal_1_Station.jpg"
+  },
+  "tldr": [
+    "Fastest to Seoul: AREX Express, non-stop to Seoul Station in ~43 min.",
+    "Before leaving arrivals, do it in this order: cash → SIM/eSIM → T-money (stores take won only).",
+    "No Korean needed for taxis — Kakao T, Uber, and the official International Taxi all support foreigners.",
+    "Incheon has Terminal 1 & 2 (different airlines), linked by a free shuttle; Gimpo is closer to the city."
+  ],
+  "highlights": [
+    { "icon": "🚄", "tone": "blue", "title": "AREX Express is the fastest to Seoul Station", "body": "Non-stop from either Incheon terminal to Seoul Station in about 43 minutes (51 from Terminal 2). The all-stop train is cheaper; airport buses drop closer to many hotels." },
+    { "icon": "🔢", "tone": "green", "title": "Do three things before you leave arrivals — in order", "body": "1) Get some cash (exchange booth or ATM). 2) Buy a SIM/eSIM. 3) Buy a T-money card. This order matters because airport convenience stores sell T-money for cash (won) only." },
+    { "icon": "🚕", "tone": "amber", "title": "Foreigner-friendly taxis exist", "body": "Kakao T (English/Japanese, foreign-card option), Uber, and the official International Taxi (fixed fares, certified English/Japanese/Chinese drivers) all work for visitors — see the taxi-apps section below." }
+  ],
+  "arrival": {
+    "title": "Your arrival at Incheon, step by step",
+    "intro": "From wheels-down to on your way into the city — the exact order that saves time.",
+    "img": "/img/airport/incheon-arrival.jpg",
+    "imgAlt": "Arrivals hall at Incheon International Airport Terminal 1",
+    "credit": "Photo: Wikimedia Commons contributor · CC BY 4.0",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_Terminal_1_Arrival_2.jpg",
+    "steps": [
+      { "n": 1, "title": "Connect to free Wi-Fi", "detail": "Join 'Incheon Airport WiFi' (no password) so you can use maps and messaging right away." },
+      { "n": 2, "title": "Immigration", "detail": "Have your passport ready plus your e-Arrival Card (or K-ETA if it applies to you). Fingerprints and a photo may be taken." },
+      { "n": 3, "title": "Baggage & customs", "detail": "Collect your bags, then take the green lane (nothing to declare) or the red lane if you carry alcohol, tobacco, or goods worth over about US$800." },
+      { "n": 4, "title": "Get some cash", "detail": "Currency-exchange booths and ATMs sit between baggage claim and the exit. Grab around ₩100,000 to start — you'll need won for T-money." },
+      { "n": 5, "title": "SIM or eSIM", "detail": "Telecom counters (e.g. LG U+) are in the arrivals hall; setup takes ~10–15 min and your phone must be unlocked. An eSIM can be activated before you even land." },
+      { "n": 6, "title": "T-money card", "detail": "Buy and charge it at GS25/CU or the Transportation Center machines (B1). Stores take won only — that's why cash comes first. Load ₩20,000–30,000." },
+      { "n": 7, "title": "Head into the city", "detail": "Follow 'AREX / Train' signs to B1 for the train, the 'Bus' signs for airport buses, or the marked taxi stand outside." }
+    ]
+  },
+  "transport": {
+    "title": "Incheon → Seoul: compare your options",
+    "intro": "Pick by speed, price, and where you're staying. Exact fares are in the Verified-facts boxes above.",
+    "cols": ["Option", "Fare", "Time", "Best for"],
+    "rows": [
+      { "label": "AREX Express", "vals": ["≈ ₩11,000–13,000", "~43 min", "Fastest; heading to Seoul Station"] },
+      { "label": "AREX All-stop", "vals": ["up to ≈ ₩5,350", "59–66 min", "Cheapest; staying near an AREX station"] },
+      { "label": "Limousine / airport bus", "vals": ["≈ ₩10,000–18,000", "60–90 min", "Drops near many hotels; lots of luggage"] },
+      { "label": "Taxi (metered)", "vals": ["≈ ₩65,000–85,000", "60–70 min", "Groups, late arrivals, door-to-door"] },
+      { "label": "International Taxi", "vals": ["Fixed fare", "60–70 min", "English/JP/ZH driver, no haggling"] }
+    ],
+    "note": "Fares are volatile — confirm at arex.or.kr or with the operator. AREX runs about 05:20–23:32; plan a bus or taxi for late arrivals."
+  },
+  "taxiApps": {
+    "title": "Taxi apps & services for foreigners",
+    "intro": "You don't need to speak Korean to take a taxi. These are built for — or work well for — foreign visitors:",
+    "items": [
+      { "name": "Kakao T", "langs": "KO · EN · JA", "pay": "Pay driver or in-app (foreign-card option)", "tone": "amber", "d": "Korea's dominant taxi app (90%+ share), so matching is fast. Book a regular taxi, see the route, and pay the driver by card/cash — or add a non-Korean card under My Info › Payment.", "url": "" },
+      { "name": "Uber (UT)", "langs": "EN native", "pay": "In-app, foreign card", "tone": "blue", "d": "Dispatches licensed Korean taxis with seamless in-app payment on your foreign card. Smaller fleet, so waits can be longer off-peak or outside big cities.", "url": "" },
+      { "name": "TADA / i.M", "langs": "EN", "pay": "In-app", "tone": "neutral", "d": "Premium van rides (Kia Carnival) with trained drivers — comfortable for groups and luggage, roughly 20–30% above standard fare, mainly in the Seoul area.", "url": "" },
+      { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "Fixed fare", "tone": "green", "d": "Official service certified by the Seoul government; drivers pass a language test. Flat, transparent fares and 24/7 booking via its own app/site, with desks in the Incheon arrivals halls.", "url": "https://www.intltaxi.co.kr" }
+    ],
+    "tip": "For the airport run, International Taxi's fixed fare removes any meter/traffic surprise. For everyday city trips, Kakao T matches fastest. Whatever you use, ignore anyone touting rides inside the arrivals hall."
+  },
+  "pitfalls": {
+    "title": "Airport mistakes to avoid",
+    "items": [
+      { "icon": "💵", "t": "Buying T-money before getting cash", "d": "Airport convenience stores sell T-money for won only — no foreign cards. Exchange or hit an ATM first." },
+      { "icon": "🚕", "t": "Unofficial taxi touts", "d": "Ignore anyone approaching you inside arrivals offering a ride. Use the official taxi stand, Kakao T, or the International Taxi desk." },
+      { "icon": "🛃", "t": "Wrong customs lane", "d": "Take the red lane for alcohol, tobacco, or goods over ~US$800; otherwise the green lane." },
+      { "icon": "🏢", "t": "Wrong terminal on the way back", "d": "Terminal 1 and Terminal 2 serve different airlines. Check yours before departure — the free shuttle between them takes ~15–20 min." },
+      { "icon": "⏰", "t": "Missing the last AREX", "d": "AREX runs until about 23:32. Late arrivals should plan a bus or taxi instead." }
+    ]
+  },
+  "faq": {
+    "title": "Airport FAQ",
+    "items": [
+      { "q": "What's the fastest way into Seoul?", "a": "The AREX Express — non-stop to Seoul Station in about 43 minutes — then a short taxi or subway hop to your accommodation." },
+      { "q": "What's the cheapest way?", "a": "The AREX all-stop train (up to about ₩5,350) if you're near an AREX station, or a standard airport bus." },
+      { "q": "Can I take a taxi without speaking Korean?", "a": "Yes. Kakao T supports English and Japanese, Uber is in English, and the official International Taxi has certified English/Japanese/Chinese drivers with fixed fares." },
+      { "q": "Terminal 1 or Terminal 2?", "a": "Different airlines use each terminal; a free shuttle connects them in about 15–20 minutes. Check your airline before you fly." },
+      { "q": "Where do I get a SIM and a T-money card?", "a": "Telecom counters and convenience stores in the arrivals hall. T-money needs cash (won), so exchange money first — or set up an eSIM before you land." },
+      { "q": "What about Gimpo Airport (GMP)?", "a": "Gimpo handles domestic and some short-haul international flights and sits closer to central Seoul, reachable by subway (Line 5/9, AREX) and bus." }
+    ]
+  },
+  "official": [
+    { "icon": "🛫", "name": "Incheon Airport", "url": "https://www.airport.kr/ap/en/index.do", "what": "Terminals, arrivals, services" },
+    { "icon": "🚄", "name": "AREX", "url": "https://www.arex.or.kr", "what": "Airport railroad fares & times" },
+    { "icon": "🚕", "name": "International Taxi", "url": "https://www.intltaxi.co.kr", "what": "Official foreigner taxi (fixed fare)" },
+    { "icon": "🗺️", "name": "VisitSeoul — Getting to Seoul", "url": "https://english.visitseoul.net/getting-to-seoul", "what": "Official transfer guide" }
+  ]
+}

@@ -88,32 +88,42 @@
     {
       "id": "arex-express",
       "tier": "VOLATILE",
-      "claim": "AREX Express train: non-stop between Incheon Airport and Seoul Station. One-way fare and travel time below.",
-      "value": { "fare_krw_each_way": 9500, "minutes": 40, "type": "non-stop", "frequency": "every 20–40 min" },
-      "source": "https://english.visitseoul.net/getting-to-seoul",
-      "source_name": "VisitSeoul (Seoul city official)",
-      "verified": "2026-08-03", "recheck_after": "2026-10-01", "status": "VERIFIED",
-      "notes": "Official Seoul guide states KRW 9,500. Some 2026 third-party sources cite KRW 11,000–13,000 — a conflict. Always confirm the current fare at arex.or.kr."
+      "claim": "AREX Express train: non-stop between Incheon Airport and Seoul Station. About 43 min from Terminal 1 (51 min from Terminal 2).",
+      "value": { "fare": "≈ ₩11,000–13,000", "minutes": "43 (T1) / 51 (T2)", "type": "non-stop", "hours": "≈ 05:20–23:32" },
+      "source": "https://www.arex.or.kr",
+      "source_name": "AREX (2026 guides) — confirm at arex.or.kr",
+      "verified": "2026-08-04", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "notes": "The Express fare rose from the older ₩9,500; 2026 sources cite about ₩13,000 flat with online discounts near ₩11,500. Always confirm the current fare at arex.or.kr."
     },
     {
       "id": "arex-allstop",
       "tier": "VOLATILE",
-      "claim": "AREX all-stop train: reaches Seoul Station in under 60 minutes. One-way fare below.",
-      "value": { "fare_krw": "4,150–4,750", "minutes": "<60", "frequency": "every 5–10 min" },
-      "source": "https://english.visitseoul.net/getting-to-seoul",
-      "source_name": "VisitSeoul (Seoul city official)",
-      "verified": "2026-08-03", "recheck_after": "2026-10-01", "status": "VERIFIED",
-      "notes": "T-money accepted. Confirm the latest fare at arex.or.kr."
+      "claim": "AREX all-stop train: reaches Seoul Station in about 59–66 minutes. Fare depends on your destination station.",
+      "value": { "fare": "up to ≈ ₩5,350", "minutes": "59–66", "frequency": "every 5–10 min", "pay": "T-money OK" },
+      "source": "https://www.arex.or.kr",
+      "source_name": "AREX (2026 guides) — confirm at arex.or.kr",
+      "verified": "2026-08-04", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "notes": "Cheapest airport rail option; pay with T-money. Confirm the exact fare for your station at arex.or.kr."
     },
     {
       "id": "airport-bus",
       "tier": "VOLATILE",
-      "claim": "Incheon Airport limousine bus: about 60–80 minutes to Seoul. Fare range below.",
-      "value": { "fare_krw": "5,000–15,000", "minutes": "60–80", "pay": "cash / T-money / card" },
-      "source": "https://english.visitseoul.net/getting-to-seoul",
-      "source_name": "VisitSeoul (Seoul city official)",
-      "verified": "2026-08-03", "recheck_after": "2026-10-01", "status": "VERIFIED",
-      "notes": "Varies by route and destination; time depends on traffic."
+      "claim": "Incheon Airport limousine / airport bus: about 60–90 minutes to Seoul, depending on route and traffic. Fare varies by bus type.",
+      "value": { "fare": "≈ ₩10,000–18,000", "minutes": "60–90", "pay": "cash / T-money / card" },
+      "source": "https://www.airport.kr/ap/en/index.do",
+      "source_name": "Incheon Airport / 2026 guides",
+      "verified": "2026-08-04", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "notes": "Premium KAL limousine buses cost more (~₩18,000); standard airport buses are cheaper. Buses stop near many hotels — check the route for your destination."
+    },
+    {
+      "id": "airport-taxi",
+      "tier": "VOLATILE",
+      "claim": "A regular metered taxi from Incheon Airport to central Seoul runs about ₩65,000–85,000 and takes 60–70 minutes. The official International Taxi offers fixed fares with certified English/Japanese/Chinese-speaking drivers.",
+      "value": { "metered": "≈ ₩65,000–85,000", "minutes": "60–70", "intl_taxi": "fixed fare, EN/JA/ZH drivers", "tolls": "expressway tolls added" },
+      "source": "https://www.intltaxi.co.kr",
+      "source_name": "Incheon Airport International Taxi / 2026 guides",
+      "verified": "2026-08-04", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "notes": "Metered fares vary with traffic and destination and include expressway tolls; a late-night surcharge can apply. International Taxi desks are in the T1 and T2 arrivals halls (intltaxi.co.kr, +82-1644-2255)."
     },
     {
       "id": "tmoney-where-to-buy",

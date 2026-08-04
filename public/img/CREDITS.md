@@ -10,6 +10,8 @@ All photographic images are sourced from free/openly-licensed collections and at
 | transit/seoul-bus.jpg | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Seoul_City_Bus_362.jpg) | STA3816 | CC BY-SA 3.0 | Plan → Getting Around |
 | transit/seoul-taxi.jpg | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Seoul_taxis_01.jpg) | Ilya Plekhanov | CC BY-SA 4.0 | Plan → Getting Around |
 | transit/ktx.jpg | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:KTX-Cheongryong_Waiting_at_Seoul_Station.jpg) | Wikimedia contributor | CC BY-SA 4.0 | Plan → Getting Around |
+| airport/arex.jpg | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:202403_AREX_Express_Train_Concourse_at_Incheon_International_Airport_Terminal_1_Station.jpg) | MNXANL | CC BY-SA 4.0 | Plan → Airport |
+| airport/incheon-arrival.jpg | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_Terminal_1_Arrival_2.jpg) | Wikimedia contributor | CC BY 4.0 | Plan → Airport |
 | og/ktriphub-og.jpg | 자체 제작 (AI 생성, 1200×630) | Korea Trip Hub | 프로젝트 자산 | 전 페이지 og:image / twitter:image |
 
 ## Rules

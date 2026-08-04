@@ -4,9 +4,11 @@ import JsonLd from "../../../../components/JsonLd";
 import { fact } from "../../../../lib/facts";
 import GuideVisual from "../../../../components/GuideVisual";
 import TransitGuide from "../../../../components/TransitGuide";
+import AirportGuide from "../../../../components/AirportGuide";
 import guideVisa from "../../../../data/guides/visa.json";
 import guideTransit from "../../../../data/guides/transit.json";
 import guideTransitI18n from "../../../../data/guides/transit.i18n.json";
+import guideAirport from "../../../../data/guides/airport.json";
 import plan from "../../../../data/plan.json";
 import planJa from "../../../../data/plan.ja.json";
 import planZh from "../../../../data/plan.zh.json";
@@ -32,11 +34,11 @@ import planBn from "../../../../data/plan.bn.json";
 const planI18n = { ja: planJa, zh: planZh, "zh-TW": planZhTW, es: planEs, fr: planFr, de: planDe, pt: planPt, it: planIt, ru: planRu, ko: planKo, vi: planVi, th: planTh, id: planId, tr: planTr, fil: planFil, ms: planMs, hi: planHi, ar: planAr, bn: planBn };
 
 // Rich visual guides (English base). Keyed by slug; only slugs with a guide render the deep-dive layout.
-const guides = { visa: guideVisa, transit: guideTransit };
+const guides = { visa: guideVisa, transit: guideTransit, airport: guideAirport };
 // Per-locale translation overrides for rich guides: { <locale>: { ...overrides } }.
 const guideI18n = { transit: guideTransitI18n };
 // Which rich component renders each slug's guide body.
-const GuideBody = { visa: GuideVisual, transit: TransitGuide };
+const GuideBody = { visa: GuideVisual, transit: TransitGuide, airport: AirportGuide };
 
 // Deep-merge a locale override onto the English base guide (arrays replace; objects merge; scalars override).
 function mergeGuide(base, ov) {

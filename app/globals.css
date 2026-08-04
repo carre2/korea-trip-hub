@@ -524,6 +524,21 @@
   .tg-app-tag{font-size:10.5px;font-weight:700;font-family:var(--mono);text-transform:uppercase;letter-spacing:.03em;color:var(--primary);background:var(--primary-soft);border-radius:999px;padding:2px 8px}
   .tg-app p{font-size:12.5px;color:var(--muted);margin:0;line-height:1.5}
 
+  /* ---------- AIRPORT: foreigner taxi-app cards ---------- */
+  .ag-app-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media (max-width:640px){.ag-app-grid{grid-template-columns:1fr}}
+  .ag-app{display:block;padding:15px 17px;border:1px solid var(--border);border-top:4px solid var(--border-strong);border-radius:13px;background:var(--surface);box-shadow:var(--shadow);transition:box-shadow .15s}
+  a.ag-app:hover{box-shadow:var(--shadow-lg)}
+  .ag-tone-blue{border-top-color:var(--primary)}
+  .ag-tone-green{border-top-color:var(--jade)}
+  .ag-tone-amber{border-top-color:var(--amber)}
+  .ag-tone-neutral{border-top-color:var(--faint)}
+  .ag-app-h{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px;margin-bottom:6px}
+  .ag-app-h b{font-size:15px}
+  .ag-app-langs{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--muted);background:var(--surface-2);border-radius:999px;padding:2px 9px}
+  .ag-app-d{font-size:12.5px;color:var(--muted);margin:0 0 9px;line-height:1.55}
+  .ag-app-pay{display:inline-block;font-size:11.5px;font-weight:600;color:var(--text);background:var(--surface-2);border-radius:8px;padding:4px 9px}
+
   /* Verdict banner */
   .vcg-verdict{display:flex;gap:16px;align-items:flex-start;padding:20px 22px;border-radius:16px;margin:8px 0 18px;border:1px solid var(--border-strong)}
   .vcg-need{background:linear-gradient(135deg,var(--amber-soft),transparent)}
