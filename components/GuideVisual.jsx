@@ -5,21 +5,14 @@
 // <details>), curated resources, and official-link cards.
 // Facts/numbers shown here mirror the Verified-facts boxes (grounded in facts.json).
 
-function YesNo({ v }) {
-  const map = {
-    yes: { t: "Required", c: "gv-need" },
-    "yes*": { t: "Required*", c: "gv-need" },
-    no: { t: "Not needed", c: "gv-no" },
-    waived: { t: "Waived '26", c: "gv-waived" },
-    "n/a": { t: "—", c: "gv-na" },
-  };
-  const it = map[v] || { t: v, c: "gv-na" };
-  return <span className={`gv-pill ${it.c}`}>{it.t}</span>;
-}
-
 export default function GuideVisual({ guide }) {
   if (!guide) return null;
   const g = guide;
+  const ui = g.ui || {};
+  const dhead = ui.dhead || { situation: "Your situation", visa: "Visa", keta: "K-ETA", earrival: "e-Arrival" };
+  const PILL = ui.pills || { yes: "Required", "yes*": "Required*", no: "Not needed", waived: "Waived '26", "n/a": "—" };
+  const CLS = { yes: "gv-need", "yes*": "gv-need", no: "gv-no", waived: "gv-waived", "n/a": "gv-na" };
+  const YesNo = ({ v }) => <span className={`gv-pill ${CLS[v] || "gv-na"}`}>{PILL[v] || v}</span>;
 
   return (
     <div className="gv">
@@ -34,7 +27,7 @@ export default function GuideVisual({ guide }) {
                 <div className="gv-doc-ic">{c.icon}</div>
                 <h3>{c.name}</h3>
                 <div className="gv-doc-cost">{c.cost}</div>
-                <p className="gv-doc-who"><b>Who:</b> {c.who}</p>
+                <p className="gv-doc-who"><b>{ui.who || "Who:"}</b> {c.who}</p>
                 <p className="gv-doc-what">{c.what}</p>
               </div>
             ))}
@@ -49,10 +42,10 @@ export default function GuideVisual({ guide }) {
           <p className="gv-lead">{g.decision.intro}</p>
           <div className="gv-decision">
             <div className="gv-dhead">
-              <span>Your situation</span>
-              <span>Visa</span>
-              <span>K-ETA</span>
-              <span>e-Arrival</span>
+              <span>{dhead.situation}</span>
+              <span>{dhead.visa}</span>
+              <span>{dhead.keta}</span>
+              <span>{dhead.earrival}</span>
             </div>
             {g.decision.branches.map((b, i) => (
               <div className="gv-drow" key={i}>
@@ -213,7 +206,7 @@ export default function GuideVisual({ guide }) {
       {/* Official link cards */}
       {g.officialCards && (
         <section className="gv-sec">
-          <h2>Official sources</h2>
+          <h2>{ui.official || "Official sources"}</h2>
           <div className="gv-off-grid">
             {g.officialCards.map((o) => (
               <a key={o.name + o.what} className="gv-off" href={o.url} target="_blank" rel="noopener noreferrer">

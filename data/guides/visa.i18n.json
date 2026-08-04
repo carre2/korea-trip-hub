@@ -1,0 +1,1227 @@
+{
+  "_README": "Per-locale translation overrides for visa.json (guides). Machine-translated — native review recommended.",
+  "zh": {
+    "kicker": "入境与证件",
+    "readingTime": "阅读时间 6 分钟",
+    "tldr": [
+      "大多数游客短期停留无需签证——但你几乎总是需要免费的 e-Arrival Card。",
+      "K-ETA 对 22 个国家临时豁免，至 31 Dec 2026 为止；1 Jan 2027 起恢复。",
+      "如果你确实需要 K-ETA：只在 k-eta.go.kr 申请，₩10,000，有效期 3 years，至少在起飞前 72 小时办理。"
+    ],
+    "documents": {
+      "title": "三种证件，用大白话讲清楚",
+      "intro": "入境韩国最多可能涉及三件独立的事。大多数短期游客只需处理其中一两件。下面说明每一件到底是什么：",
+      "cards": [
+        { "icon": "🛂", "name": "旅游签证", "who": "仅限不在免签名单上的国籍", "what": "在出发前由韩国大使馆颁发的签证贴纸／标签。", "cost": "因领事馆而异", "tone": "neutral" },
+        { "icon": "✅", "name": "K-ETA", "who": "免签国民（目前对 22 个国家豁免）", "what": "与你护照绑定的电子旅行许可。它不是签证——而是登机的许可。", "cost": "₩10,000 · 有效期 3 years", "tone": "blue" },
+        { "icon": "📝", "name": "e-Arrival Card", "who": "几乎每一位短期访客", "what": "取代过去在飞机上填写的纸质卡片的电子入境／海关申报。", "cost": "免费 · 在线", "tone": "green" }
+      ]
+    },
+    "decision": {
+      "title": "你到底需要哪一个？（30 秒自测）",
+      "intro": "找到符合你情况的那一行。规则取决于国籍，因此请务必在官方网站确认你自己的情况。",
+      "branches": [
+        { "case": "你来自 22 个 K-ETA 豁免国家之一（美国、英国、日本、加拿大、欧盟、澳大利亚……）", "visa": "no", "keta": "waived", "earrival": "yes", "summary": "只需办理免费的 e-Arrival Card。就这么简单。" },
+        { "case": "你免签，但不在豁免名单上", "visa": "no", "keta": "yes", "earrival": "yes*", "summary": "办理 K-ETA（持有它即可免除 e-Arrival Card）。" },
+        { "case": "你的国籍不免签", "visa": "yes", "keta": "n/a", "earrival": "yes", "summary": "先到韩国大使馆申请旅游签证。" }
+      ],
+      "legend": "* 持有有效的 K-ETA 即可免除 e-Arrival Card。"
+    },
+    "compare": {
+      "title": "旅游签证 vs K-ETA vs e-Arrival Card",
+      "cols": ["", "旅游签证", "K-ETA", "e-Arrival Card"],
+      "rows": [
+        { "label": "它是什么", "vals": ["大使馆签发的入境签证", "电子旅行许可", "电子入境／海关表格"] },
+        { "label": "谁需要", "vals": ["非免签国民", "免签国民（见豁免说明）", "几乎所有短期访客"] },
+        { "label": "在哪里办", "vals": ["韩国大使馆／领事馆", "仅限 k-eta.go.kr", "e-arrivalcard.go.kr"] },
+        { "label": "费用", "vals": ["因情况而异", "₩10,000（约 US$8）", "免费"] },
+        { "label": "有效期", "vals": ["视签证而定", "3 years，多次入境", "单次行程（提交后 72h 失效）"] },
+        { "label": "何时办理", "vals": ["提前数周", "登机前 ≥72h", "抵达前 ≤72h"] }
+      ]
+    },
+    "ketaSteps": {
+      "title": "如何申请 K-ETA——分步指南",
+      "note": "仅在你的国籍目前不被豁免时才需要。k-eta.go.kr 上的官方流程共 7 步，通常需要 10–15 分钟。",
+      "steps": [
+        { "n": 1, "title": "同意条款", "detail": "打开 k-eta.go.kr（或官方 K-ETA 应用）并开始单人或团体申请。阅读并接受条款。" },
+        { "n": 2, "title": "验证邮箱", "detail": "用一个邮箱注册或验证。批准和收据会发到这里——请使用你在旅途中也能查看的邮箱。" },
+        { "n": 3, "title": "输入护照信息", "detail": "输入你的护照信息（或扫描资料页）。如果你被豁免，这里会弹出提示，告诉你无需 K-ETA。" },
+        { "n": 4, "title": "填写申请表", "detail": "填入行程信息、在韩地址，并上传一张护照式面部照片（纯色背景，不戴眼镜／帽子）。" },
+        { "n": 5, "title": "逐项核对", "detail": "对照你的真实护照，仔细核对姓名拼写和护照号码——不一致是登机口出问题的头号原因。" },
+        { "n": 6, "title": "支付费用", "detail": "用银行卡支付 ₩10,000。此费用不予退还，即使申请之后被拒。" },
+        { "n": 7, "title": "获得批准", "detail": "大多数批准几分钟内到达，但也可能需要长达 72 小时。保存 PDF／截图；航空公司在登机前可能会查验。" }
+      ]
+    },
+    "prepare": {
+      "title": "开始前请先备好这些",
+      "items": [
+        { "icon": "📕", "t": "护照", "d": "在你整个停留期间有效。你要一字不差地输入护照号码。" },
+        { "icon": "📸", "t": "面部照片", "d": "护照式：纯色浅背景，面部清晰可见，不戴眼镜或头饰。" },
+        { "icon": "📧", "t": "出国也能查看的邮箱", "d": "批准和收据会发到这里。" },
+        { "icon": "💳", "t": "支付卡", "d": "用于支付 ₩10,000 费用（K-ETA）——e-Arrival Card 是免费的。" },
+        { "icon": "🏨", "t": "在韩地址", "d": "两张表格都会问到你第一晚的酒店／住宿地址和电话。" }
+      ]
+    },
+    "earrival": {
+      "title": "e-Arrival Card（免费）——别跳过它",
+      "intro": "自 2025 年起，韩国用电子 e-Arrival Card 取代了纸质入境卡。几乎每位短期访客都要填写——主要的例外是持有有效 K-ETA 的人（以及登记在册的居民）。",
+      "steps": [
+        { "n": 1, "title": "打开官方网站", "detail": "前往 e-arrivalcard.go.kr——它是免费的。当心收费的仿冒网站。" },
+        { "n": 2, "title": "在抵达前 72 小时内填写", "detail": "你只能在落地前 3 天内提交（韩国时间）。填得太早会导致它在你抵达前失效。" },
+        { "n": 3, "title": "输入护照、航班和地址", "detail": "护照信息、航班号，以及你在韩国的住宿地点。" },
+        { "n": 4, "title": "保存确认信息", "detail": "在入境处出示二维码／确认信息，即可省去排纸质队。" }
+      ]
+    },
+    "exempt": {
+      "title": "K-ETA 豁免国家（至 31 Dec 2026）",
+      "intro": "这 22 个国家／地区的公民目前可无需 K-ETA 入境。该豁免预定结束，K-ETA 将于 1 Jan 2027 恢复——出行前请再次确认。",
+      "countries": [
+        { "flag": "🇦🇺", "n": "澳大利亚" }, { "flag": "🇦🇹", "n": "奥地利" }, { "flag": "🇧🇪", "n": "比利时" }, { "flag": "🇨🇦", "n": "加拿大" },
+        { "flag": "🇩🇰", "n": "丹麦" }, { "flag": "🇫🇮", "n": "芬兰" }, { "flag": "🇫🇷", "n": "法国" }, { "flag": "🇩🇪", "n": "德国" },
+        { "flag": "🇭🇰", "n": "香港" }, { "flag": "🇮🇹", "n": "意大利" }, { "flag": "🇯🇵", "n": "日本" }, { "flag": "🇲🇴", "n": "澳门" },
+        { "flag": "🇳🇱", "n": "荷兰" }, { "flag": "🇳🇿", "n": "新西兰" }, { "flag": "🇳🇴", "n": "挪威" }, { "flag": "🇵🇱", "n": "波兰" },
+        { "flag": "🇸🇬", "n": "新加坡" }, { "flag": "🇪🇸", "n": "西班牙" }, { "flag": "🇸🇪", "n": "瑞典" }, { "flag": "🇹🇼", "n": "台湾" },
+        { "flag": "🇬🇧", "n": "英国" }, { "flag": "🇺🇸", "n": "美国（含关岛）" }
+      ]
+    },
+    "pitfalls": {
+      "title": "让人栽跟头的 5 个错误",
+      "items": [
+        { "icon": "🕸️", "t": "付费给诈骗‘代办’网站", "d": "第三方网站买下搜索置顶广告，为一项免费／₩10,000 的政府服务收取 US$40–50。唯一的官方网站是 k-eta.go.kr 和 e-arrivalcard.go.kr。" },
+        { "icon": "⏰", "t": "过早填写 e-Arrival Card", "d": "它在你提交后 72 小时失效。请在航班前 3 天内填写，而不是提前数周。" },
+        { "icon": "🔤", "t": "姓名／护照拼写错误", "d": "你的姓名必须与护照完全一致。一个字符出错就可能让你在值机时被拦下。" },
+        { "icon": "📸", "t": "照片被拒", "d": "模糊照片、眼镜、帽子或杂乱背景都会被退回。请用纯色、光线充足的护照式照片。" },
+        { "icon": "🗓️", "t": "想当然地以为自己被豁免", "d": "豁免是临时的（在 2026-12-31 结束），国家名单也会变。临近出行时请再次确认你的状态。" }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "items": [
+        { "q": "我来自美国／英国／日本／欧盟。需要 K-ETA 吗？", "a": "目前不需要——这些国家在至 31 Dec 2026 的 22 国豁免名单上，所以你无需 K-ETA，只需填写免费的 e-Arrival Card。此安排预定在 1 Jan 2027 改变。" },
+        { "q": "K-ETA 和签证是一回事吗？", "a": "不是。K-ETA 是一种旅行许可，让你得以免签登机并入境；它不是签证。如果你的国籍不免签，你仍需向韩国大使馆申请真正的签证。" },
+        { "q": "K-ETA 有效期多长？", "a": "自批准起 3 年，可多次入境——所以一次批准通常足以覆盖多次往返，直到它或你的护照到期为止。" },
+        { "q": "费用多少，可以退吗？", "a": "₩10,000（约 US$8）。此费用不予退还，即使你的申请被拒。" },
+        { "q": "我应该提前多久申请？", "a": "至少在登机前 72 小时。许多批准在几分钟内就到，但请留出缓冲，以防你的申请被人工审核。" },
+        { "q": "儿童和老人需要 K-ETA 吗？", "a": "过去 17 岁及以下或 65 岁及以上的旅客一直可豁免 K-ETA。在你依赖此规则前，请到 k-eta.go.kr 确认现行的年龄规定。" },
+        { "q": "e-Arrival Card 是什么，我真的需要它吗？", "a": "它是纸质入境卡的电子版，在 e-arrivalcard.go.kr 免费填写，最早可在落地前 72 小时办理。大多数短期访客都需要它；持有效 K-ETA 者和登记居民可豁免。" },
+        { "q": "哪些网站是官方的？", "a": "只有 k-eta.go.kr（K-ETA）和 e-arrivalcard.go.kr（入境卡）。任何收取高额‘服务费’的都是第三方转卖者，而非政府。" }
+      ]
+    },
+    "countryGuides": {
+      "title": "找到你的国家",
+      "intro": "每种国籍都有自己的路径。选择你的国籍，获取量身定制的指南——如果你需要签证，则提供完整的 A 到 Z 签证步骤；如果你免签，则提供快速入境清单。",
+      "needTitle": "🛂 你需要签证——完整 A 到 Z 步骤",
+      "items": [
+        { "code": "india", "flag": "🇮🇳", "name": "印度", "note": "C-3-9 旅游签证 · KVAC（VFS）" },
+        { "code": "vietnam", "flag": "🇻🇳", "name": "越南", "note": "C-3-9 · 简化材料 · 最长可达 10 年签证" },
+        { "code": "china", "flag": "🇨🇳", "name": "中国", "note": "C-3 · 济州岛免签 30 天" },
+        { "code": "philippines", "flag": "🇵🇭", "name": "菲律宾", "note": "C-3 · 免费签证 · 无需银行流水" },
+        { "code": "indonesia", "flag": "🇮🇩", "name": "印度尼西亚", "note": "C-3 · 自 2026 年 5 月起团体免签" }
+      ],
+      "freeTitle": "✅ 免签——快速入境指南",
+      "visaFree": [
+        { "code": "usa", "flag": "🇺🇸", "name": "美国", "note": "免签 90 天 · K-ETA 豁免" },
+        { "code": "japan", "flag": "🇯🇵", "name": "日本", "note": "免签 90 天 · K-ETA 豁免" },
+        { "code": "uk", "flag": "🇬🇧", "name": "英国", "note": "免签 90 天 · K-ETA 豁免" },
+        { "code": "canada", "flag": "🇨🇦", "name": "加拿大", "note": "免签最长 6 个月" },
+        { "code": "australia", "flag": "🇦🇺", "name": "澳大利亚", "note": "免签 90 天 · K-ETA 豁免" },
+        { "code": "taiwan", "flag": "🇹🇼", "name": "台湾", "note": "免签 90 天 · K-ETA 豁免" }
+      ],
+      "more": "没看到你的国家？大多数其他免签国民只需办理 e-Arrival Card（见上文）。更多国家指南正在陆续添加中。"
+    },
+    "ui": {
+      "who": "对象：",
+      "official": "官方来源",
+      "dhead": { "situation": "你的情况", "visa": "签证", "keta": "K-ETA", "earrival": "e-Arrival" },
+      "pills": { "yes": "需要", "yes*": "需要*", "no": "不需要", "waived": "免除（'26）", "n/a": "—" }
+    }
+  },
+  "zh-TW": {
+    "kicker": "入境與證件",
+    "readingTime": "閱讀時間 6 分鐘",
+    "tldr": [
+      "大多數遊客短期停留無需簽證——但你幾乎總是需要免費的 e-Arrival Card。",
+      "K-ETA 對 22 個國家臨時豁免，至 31 Dec 2026 為止；1 Jan 2027 起恢復。",
+      "如果你確實需要 K-ETA：只在 k-eta.go.kr 申請，₩10,000，有效期 3 years，至少在起飛前 72 小時辦理。"
+    ],
+    "documents": {
+      "title": "三種證件，用大白話講清楚",
+      "intro": "入境韓國最多可能涉及三件獨立的事。大多數短期遊客只需處理其中一兩件。以下說明每一件到底是什麼：",
+      "cards": [
+        { "icon": "🛂", "name": "旅遊簽證", "who": "僅限不在免簽名單上的國籍", "what": "在出發前由韓國大使館核發的簽證貼紙／標籤。", "cost": "因領事館而異", "tone": "neutral" },
+        { "icon": "✅", "name": "K-ETA", "who": "免簽國民（目前對 22 個國家豁免）", "what": "與你護照綁定的電子旅行許可。它不是簽證——而是登機的許可。", "cost": "₩10,000 · 有效期 3 years", "tone": "blue" },
+        { "icon": "📝", "name": "e-Arrival Card", "who": "幾乎每一位短期旅客", "what": "取代過去在飛機上填寫的紙本卡片的電子入境／海關申報。", "cost": "免費 · 線上", "tone": "green" }
+      ]
+    },
+    "decision": {
+      "title": "你到底需要哪一個？（30 秒自測）",
+      "intro": "找到符合你情況的那一列。規則取決於國籍，因此請務必在官方網站確認你自己的情況。",
+      "branches": [
+        { "case": "你來自 22 個 K-ETA 豁免國家之一（美國、英國、日本、加拿大、歐盟、澳洲……）", "visa": "no", "keta": "waived", "earrival": "yes", "summary": "只需辦理免費的 e-Arrival Card。就這麼簡單。" },
+        { "case": "你免簽，但不在豁免名單上", "visa": "no", "keta": "yes", "earrival": "yes*", "summary": "辦理 K-ETA（持有它即可免除 e-Arrival Card）。" },
+        { "case": "你的國籍不免簽", "visa": "yes", "keta": "n/a", "earrival": "yes", "summary": "先到韓國大使館申請旅遊簽證。" }
+      ],
+      "legend": "* 持有有效的 K-ETA 即可免除 e-Arrival Card。"
+    },
+    "compare": {
+      "title": "旅遊簽證 vs K-ETA vs e-Arrival Card",
+      "cols": ["", "旅遊簽證", "K-ETA", "e-Arrival Card"],
+      "rows": [
+        { "label": "它是什麼", "vals": ["大使館核發的入境簽證", "電子旅行許可", "電子入境／海關表格"] },
+        { "label": "誰需要", "vals": ["非免簽國民", "免簽國民（見豁免說明）", "幾乎所有短期旅客"] },
+        { "label": "在哪裡辦", "vals": ["韓國大使館／領事館", "僅限 k-eta.go.kr", "e-arrivalcard.go.kr"] },
+        { "label": "費用", "vals": ["因情況而異", "₩10,000（約 US$8）", "免費"] },
+        { "label": "有效期", "vals": ["視簽證而定", "3 years，多次入境", "單次行程（提交後 72h 失效）"] },
+        { "label": "何時辦理", "vals": ["提前數週", "登機前 ≥72h", "抵達前 ≤72h"] }
+      ]
+    },
+    "ketaSteps": {
+      "title": "如何申請 K-ETA——逐步指南",
+      "note": "僅在你的國籍目前不被豁免時才需要。k-eta.go.kr 上的官方流程共 7 步，通常需要 10–15 分鐘。",
+      "steps": [
+        { "n": 1, "title": "同意條款", "detail": "打開 k-eta.go.kr（或官方 K-ETA App）並開始單人或團體申請。閱讀並接受條款。" },
+        { "n": 2, "title": "驗證電子郵件", "detail": "用一個電子郵件註冊或驗證。核准和收據會寄到這裡——請使用你在旅途中也能查看的信箱。" },
+        { "n": 3, "title": "輸入護照資訊", "detail": "輸入你的護照資訊（或掃描資料頁）。如果你被豁免，這裡會跳出提示，告訴你無需 K-ETA。" },
+        { "n": 4, "title": "填寫申請表", "detail": "填入行程資訊、在韓地址，並上傳一張護照式臉部照片（純色背景，不戴眼鏡／帽子）。" },
+        { "n": 5, "title": "逐項核對", "detail": "對照你的真實護照，仔細核對姓名拼寫和護照號碼——不一致是登機口出問題的頭號原因。" },
+        { "n": 6, "title": "支付費用", "detail": "用信用卡支付 ₩10,000。此費用不予退還，即使申請之後被拒。" },
+        { "n": 7, "title": "取得核准", "detail": "大多數核准幾分鐘內到達，但也可能需要長達 72 小時。保存 PDF／截圖；航空公司在登機前可能會查驗。" }
+      ]
+    },
+    "prepare": {
+      "title": "開始前請先備好這些",
+      "items": [
+        { "icon": "📕", "t": "護照", "d": "在你整個停留期間有效。你要一字不差地輸入護照號碼。" },
+        { "icon": "📸", "t": "臉部照片", "d": "護照式：純色淺背景，臉部清晰可見，不戴眼鏡或頭飾。" },
+        { "icon": "📧", "t": "出國也能查看的信箱", "d": "核准和收據會寄到這裡。" },
+        { "icon": "💳", "t": "付款卡", "d": "用於支付 ₩10,000 費用（K-ETA）——e-Arrival Card 是免費的。" },
+        { "icon": "🏨", "t": "在韓地址", "d": "兩張表格都會問到你第一晚的飯店／住宿地址和電話。" }
+      ]
+    },
+    "earrival": {
+      "title": "e-Arrival Card（免費）——別跳過它",
+      "intro": "自 2025 年起，韓國以電子 e-Arrival Card 取代了紙本入境卡。幾乎每位短期旅客都要填寫——主要的例外是持有有效 K-ETA 的人（以及登記在冊的居民）。",
+      "steps": [
+        { "n": 1, "title": "打開官方網站", "detail": "前往 e-arrivalcard.go.kr——它是免費的。當心收費的仿冒網站。" },
+        { "n": 2, "title": "在抵達前 72 小時內填寫", "detail": "你只能在落地前 3 天內提交（韓國時間）。填得太早會導致它在你抵達前失效。" },
+        { "n": 3, "title": "輸入護照、航班和地址", "detail": "護照資訊、航班編號，以及你在韓國的住宿地點。" },
+        { "n": 4, "title": "保存確認資訊", "detail": "在入境處出示 QR Code／確認資訊，即可省去排紙本隊伍。" }
+      ]
+    },
+    "exempt": {
+      "title": "K-ETA 豁免國家（至 31 Dec 2026）",
+      "intro": "這 22 個國家／地區的公民目前可無需 K-ETA 入境。該豁免預定結束，K-ETA 將於 1 Jan 2027 恢復——出行前請再次確認。",
+      "countries": [
+        { "flag": "🇦🇺", "n": "澳洲" }, { "flag": "🇦🇹", "n": "奧地利" }, { "flag": "🇧🇪", "n": "比利時" }, { "flag": "🇨🇦", "n": "加拿大" },
+        { "flag": "🇩🇰", "n": "丹麥" }, { "flag": "🇫🇮", "n": "芬蘭" }, { "flag": "🇫🇷", "n": "法國" }, { "flag": "🇩🇪", "n": "德國" },
+        { "flag": "🇭🇰", "n": "香港" }, { "flag": "🇮🇹", "n": "義大利" }, { "flag": "🇯🇵", "n": "日本" }, { "flag": "🇲🇴", "n": "澳門" },
+        { "flag": "🇳🇱", "n": "荷蘭" }, { "flag": "🇳🇿", "n": "紐西蘭" }, { "flag": "🇳🇴", "n": "挪威" }, { "flag": "🇵🇱", "n": "波蘭" },
+        { "flag": "🇸🇬", "n": "新加坡" }, { "flag": "🇪🇸", "n": "西班牙" }, { "flag": "🇸🇪", "n": "瑞典" }, { "flag": "🇹🇼", "n": "台灣" },
+        { "flag": "🇬🇧", "n": "英國" }, { "flag": "🇺🇸", "n": "美國（含關島）" }
+      ]
+    },
+    "pitfalls": {
+      "title": "讓人栽跟頭的 5 個錯誤",
+      "items": [
+        { "icon": "🕸️", "t": "付費給詐騙‘代辦’網站", "d": "第三方網站買下搜尋置頂廣告，為一項免費／₩10,000 的政府服務收取 US$40–50。唯一的官方網站是 k-eta.go.kr 和 e-arrivalcard.go.kr。" },
+        { "icon": "⏰", "t": "過早填寫 e-Arrival Card", "d": "它在你提交後 72 小時失效。請在航班前 3 天內填寫，而不是提前數週。" },
+        { "icon": "🔤", "t": "姓名／護照拼寫錯誤", "d": "你的姓名必須與護照完全一致。一個字元出錯就可能讓你在報到時被攔下。" },
+        { "icon": "📸", "t": "照片被拒", "d": "模糊照片、眼鏡、帽子或雜亂背景都會被退回。請用純色、光線充足的護照式照片。" },
+        { "icon": "🗓️", "t": "想當然地以為自己被豁免", "d": "豁免是臨時的（在 2026-12-31 結束），國家名單也會變。臨近出行時請再次確認你的狀態。" }
+      ]
+    },
+    "faq": {
+      "title": "常見問題",
+      "items": [
+        { "q": "我來自美國／英國／日本／歐盟。需要 K-ETA 嗎？", "a": "目前不需要——這些國家在至 31 Dec 2026 的 22 國豁免名單上，所以你無需 K-ETA，只需填寫免費的 e-Arrival Card。此安排預定在 1 Jan 2027 改變。" },
+        { "q": "K-ETA 和簽證是同一回事嗎？", "a": "不是。K-ETA 是一種旅行許可，讓你得以免簽登機並入境；它不是簽證。如果你的國籍不免簽，你仍需向韓國大使館申請真正的簽證。" },
+        { "q": "K-ETA 有效期多長？", "a": "自核准起 3 年，可多次入境——所以一次核准通常足以涵蓋多次往返，直到它或你的護照到期為止。" },
+        { "q": "費用多少，可以退嗎？", "a": "₩10,000（約 US$8）。此費用不予退還，即使你的申請被拒。" },
+        { "q": "我應該提前多久申請？", "a": "至少在登機前 72 小時。許多核准在幾分鐘內就到，但請留出緩衝，以防你的申請被人工審核。" },
+        { "q": "兒童和長者需要 K-ETA 嗎？", "a": "過去 17 歲及以下或 65 歲及以上的旅客一直可豁免 K-ETA。在你依賴此規則前，請到 k-eta.go.kr 確認現行的年齡規定。" },
+        { "q": "e-Arrival Card 是什麼，我真的需要它嗎？", "a": "它是紙本入境卡的電子版，在 e-arrivalcard.go.kr 免費填寫，最早可在落地前 72 小時辦理。大多數短期旅客都需要它；持有效 K-ETA 者和登記居民可豁免。" },
+        { "q": "哪些網站是官方的？", "a": "只有 k-eta.go.kr（K-ETA）和 e-arrivalcard.go.kr（入境卡）。任何收取高額‘服務費’的都是第三方轉賣者，而非政府。" }
+      ]
+    },
+    "countryGuides": {
+      "title": "找到你的國家",
+      "intro": "每種國籍都有自己的路徑。選擇你的國籍，取得量身打造的指南——如果你需要簽證，則提供完整的 A 到 Z 簽證步驟；如果你免簽，則提供快速入境清單。",
+      "needTitle": "🛂 你需要簽證——完整 A 到 Z 步驟",
+      "items": [
+        { "code": "india", "flag": "🇮🇳", "name": "印度", "note": "C-3-9 旅遊簽證 · KVAC（VFS）" },
+        { "code": "vietnam", "flag": "🇻🇳", "name": "越南", "note": "C-3-9 · 簡化文件 · 最長可達 10 年簽證" },
+        { "code": "china", "flag": "🇨🇳", "name": "中國", "note": "C-3 · 濟州島免簽 30 天" },
+        { "code": "philippines", "flag": "🇵🇭", "name": "菲律賓", "note": "C-3 · 免費簽證 · 無需銀行對帳單" },
+        { "code": "indonesia", "flag": "🇮🇩", "name": "印尼", "note": "C-3 · 自 2026 年 5 月起團體免簽" }
+      ],
+      "freeTitle": "✅ 免簽——快速入境指南",
+      "visaFree": [
+        { "code": "usa", "flag": "🇺🇸", "name": "美國", "note": "免簽 90 天 · K-ETA 豁免" },
+        { "code": "japan", "flag": "🇯🇵", "name": "日本", "note": "免簽 90 天 · K-ETA 豁免" },
+        { "code": "uk", "flag": "🇬🇧", "name": "英國", "note": "免簽 90 天 · K-ETA 豁免" },
+        { "code": "canada", "flag": "🇨🇦", "name": "加拿大", "note": "免簽最長 6 個月" },
+        { "code": "australia", "flag": "🇦🇺", "name": "澳洲", "note": "免簽 90 天 · K-ETA 豁免" },
+        { "code": "taiwan", "flag": "🇹🇼", "name": "台灣", "note": "免簽 90 天 · K-ETA 豁免" }
+      ],
+      "more": "沒看到你的國家？大多數其他免簽國民只需辦理 e-Arrival Card（見上文）。更多國家指南正在陸續新增中。"
+    },
+    "ui": {
+      "who": "對象：",
+      "official": "官方來源",
+      "dhead": { "situation": "你的情況", "visa": "簽證", "keta": "K-ETA", "earrival": "e-Arrival" },
+      "pills": { "yes": "需要", "yes*": "需要*", "no": "不需要", "waived": "免除（'26）", "n/a": "—" }
+    }
+  },
+  "ja": {
+    "kicker": "入国・書類",
+    "readingTime": "読了6分",
+    "tldr": [
+      "ほとんどの観光客は短期滞在ならビザ不要——ただし無料の e-Arrival Card はほぼ必ず必要です。",
+      "K-ETA は 22 か国について 31 Dec 2026 まで一時免除中。1 Jan 2027 に復活します。",
+      "K-ETA が必要な場合は、k-eta.go.kr でのみ申請、₩10,000、有効期間 3 years、搭乗の少なくとも 72 時間前に。"
+    ],
+    "documents": {
+      "title": "3つの書類を、わかりやすく",
+      "intro": "韓国への入国は最大で3つの別々の手続きが関わることがあります。多くの短期観光客はそのうち1つか2つだけ。それぞれが実際に何なのかを説明します。",
+      "cards": [
+        { "icon": "🛂", "name": "観光ビザ", "who": "ビザ免除リストに載っていない国籍のみ", "what": "渡航前に韓国大使館で取得するビザのシール／ラベル。", "cost": "領事館によって異なる", "tone": "neutral" },
+        { "icon": "✅", "name": "K-ETA", "who": "ビザ免除国民（現在 22 か国は免除中）", "what": "パスポートに紐づく電子渡航認証。ビザではなく——搭乗の許可です。", "cost": "₩10,000 · 有効期間 3 years", "tone": "blue" },
+        { "icon": "📝", "name": "e-Arrival Card", "who": "ほぼすべての短期訪問者", "what": "以前は機内で記入していた紙のカードに代わる、電子の入国／税関申告。", "cost": "無料 · オンライン", "tone": "green" }
+      ]
+    },
+    "decision": {
+      "title": "あなたに必要なのはどれ？（30秒チェック）",
+      "intro": "自分に当てはまる行を見つけてください。ルールは国籍によって異なるので、必ず公式サイトで自分のケースを確認しましょう。",
+      "branches": [
+        { "case": "22 の K-ETA 免除国のいずれか（米国、英国、日本、カナダ、EU、オーストラリア…）の出身", "visa": "no", "keta": "waived", "earrival": "yes", "summary": "無料の e-Arrival Card だけでOK。それだけです。" },
+        { "case": "ビザ免除だが、免除リストには載っていない", "visa": "no", "keta": "yes", "earrival": "yes*", "summary": "K-ETA を取得（保有すれば e-Arrival Card は免除）。" },
+        { "case": "あなたの国籍はビザ免除ではない", "visa": "yes", "keta": "n/a", "earrival": "yes", "summary": "まず韓国大使館で観光ビザを申請しましょう。" }
+      ],
+      "legend": "* 有効な K-ETA を保有していれば e-Arrival Card は免除されます。"
+    },
+    "compare": {
+      "title": "観光ビザ vs K-ETA vs e-Arrival Card",
+      "cols": ["", "観光ビザ", "K-ETA", "e-Arrival Card"],
+      "rows": [
+        { "label": "何であるか", "vals": ["大使館が発給する入国ビザ", "電子渡航認証", "電子の入国／税関フォーム"] },
+        { "label": "誰に必要か", "vals": ["ビザ免除でない国民", "ビザ免除国民（免除措置を参照）", "ほぼすべての短期訪問者"] },
+        { "label": "どこで取得するか", "vals": ["韓国大使館／領事館", "k-eta.go.kr のみ", "e-arrivalcard.go.kr"] },
+        { "label": "費用", "vals": ["場合による", "₩10,000（約 US$8）", "無料"] },
+        { "label": "有効期間", "vals": ["ビザによる", "3 years、複数回入国", "1回の旅行（申請後 72h で失効）"] },
+        { "label": "いつ行うか", "vals": ["数週間前", "搭乗の ≥72h 前", "到着の ≤72h 前"] }
+      ]
+    },
+    "ketaSteps": {
+      "title": "K-ETA の申請方法——ステップごとに",
+      "note": "あなたの国籍が現在免除されていない場合のみ。k-eta.go.kr の公式手続きは 7 ステップで、通常 10–15 分ほどです。",
+      "steps": [
+        { "n": 1, "title": "規約に同意する", "detail": "k-eta.go.kr（または公式 K-ETA アプリ）を開き、個人または団体の申請を始めます。規約を読んで承諾します。" },
+        { "n": 2, "title": "メールを認証する", "detail": "メールアドレスで登録または認証します。承認と受領書はここに届きます——旅行中もアクセスできるアドレスを使いましょう。" },
+        { "n": 3, "title": "パスポート情報を入力", "detail": "パスポート情報を入力（または写真ページをスキャン）します。免除対象なら、ここで K-ETA は不要というポップアップが表示されます。" },
+        { "n": 4, "title": "申請書を記入", "detail": "旅程、韓国での住所を追加し、パスポート用の顔写真（無地の背景、眼鏡／帽子なし）をアップロードします。" },
+        { "n": 5, "title": "すべて確認する", "detail": "実際のパスポートと照らして、氏名のつづりとパスポート番号を再確認——不一致はゲートでのトラブルの第1位の原因です。" },
+        { "n": 6, "title": "手数料を支払う", "detail": "カードで ₩10,000 を支払います。この手数料は、後で申請が却下されても返金されません。" },
+        { "n": 7, "title": "承認を受け取る", "detail": "多くは数分で承認されますが、最大 72 時間かかることもあります。PDF／スクリーンショットを保存しましょう。航空会社が搭乗前に確認する場合があります。" }
+      ]
+    },
+    "prepare": {
+      "title": "始める前にこれらを用意",
+      "items": [
+        { "icon": "📕", "t": "パスポート", "d": "滞在全期間にわたって有効なもの。番号は印字どおりに正確に入力します。" },
+        { "icon": "📸", "t": "顔写真", "d": "パスポート用：無地の明るい背景、顔がはっきり見える、眼鏡や帽子なし。" },
+        { "icon": "📧", "t": "海外でも確認できるメール", "d": "承認と受領書はここに届きます。" },
+        { "icon": "💳", "t": "支払い用カード", "d": "₩10,000 の手数料（K-ETA）用——e-Arrival Card は無料です。" },
+        { "icon": "🏨", "t": "韓国の住所", "d": "最初の宿泊先の住所と電話番号は、どちらのフォームでも尋ねられます。" }
+      ]
+    },
+    "earrival": {
+      "title": "e-Arrival Card（無料）——これは飛ばさないで",
+      "intro": "2025 年以降、韓国は紙の入国カードを電子の e-Arrival Card に切り替えました。ほぼすべての短期訪問者が提出します——大きな例外は有効な K-ETA を保有する人（および登録済み居住者）です。",
+      "steps": [
+        { "n": 1, "title": "公式サイトを開く", "detail": "e-arrivalcard.go.kr にアクセス——無料です。有料のそっくりサイトに注意。" },
+        { "n": 2, "title": "到着の 72 時間以内に提出", "detail": "着陸の 3 日前以内（韓国時間）にのみ提出できます。早すぎると到着前に失効します。" },
+        { "n": 3, "title": "パスポート・便名・住所を入力", "detail": "パスポート情報、便名、韓国での滞在先。" },
+        { "n": 4, "title": "確認画面を保存", "detail": "入国審査で QR／確認を提示すれば、紙の列に並ばずに済みます。" }
+      ]
+    },
+    "exempt": {
+      "title": "K-ETA 免除国（31 Dec 2026 まで）",
+      "intro": "これら 22 の国／地域の国民は現在 K-ETA なしで入国できます。この免除は終了予定で、K-ETA は 1 Jan 2027 に復活します——渡航前に再確認を。",
+      "countries": [
+        { "flag": "🇦🇺", "n": "オーストラリア" }, { "flag": "🇦🇹", "n": "オーストリア" }, { "flag": "🇧🇪", "n": "ベルギー" }, { "flag": "🇨🇦", "n": "カナダ" },
+        { "flag": "🇩🇰", "n": "デンマーク" }, { "flag": "🇫🇮", "n": "フィンランド" }, { "flag": "🇫🇷", "n": "フランス" }, { "flag": "🇩🇪", "n": "ドイツ" },
+        { "flag": "🇭🇰", "n": "香港" }, { "flag": "🇮🇹", "n": "イタリア" }, { "flag": "🇯🇵", "n": "日本" }, { "flag": "🇲🇴", "n": "マカオ" },
+        { "flag": "🇳🇱", "n": "オランダ" }, { "flag": "🇳🇿", "n": "ニュージーランド" }, { "flag": "🇳🇴", "n": "ノルウェー" }, { "flag": "🇵🇱", "n": "ポーランド" },
+        { "flag": "🇸🇬", "n": "シンガポール" }, { "flag": "🇪🇸", "n": "スペイン" }, { "flag": "🇸🇪", "n": "スウェーデン" }, { "flag": "🇹🇼", "n": "台湾" },
+        { "flag": "🇬🇧", "n": "イギリス" }, { "flag": "🇺🇸", "n": "アメリカ合衆国（グアム含む）" }
+      ]
+    },
+    "pitfalls": {
+      "title": "つまずきやすい5つのミス",
+      "items": [
+        { "icon": "🕸️", "t": "詐欺的な『代行』サイトに支払う", "d": "第三者サイトは検索の上位広告を買い、無料／₩10,000 の政府サービスに US$40–50 を請求します。唯一の公式サイトは k-eta.go.kr と e-arrivalcard.go.kr です。" },
+        { "icon": "⏰", "t": "e-Arrival Card を早く出しすぎる", "d": "提出後 72 時間で失効します。数週間前ではなく、フライトの 3 日前以内に提出しましょう。" },
+        { "icon": "🔤", "t": "氏名／パスポートの入力ミス", "d": "氏名はパスポートと完全に一致している必要があります。1 文字の誤りでもチェックインで止められることがあります。" },
+        { "icon": "📸", "t": "写真が却下される", "d": "ぼやけた写真、眼鏡、帽子、雑然とした背景ははじかれます。無地で明るいパスポート用の写真を使いましょう。" },
+        { "icon": "🗓️", "t": "自分は免除だと思い込む", "d": "免除は一時的（2026-12-31 に終了）で、対象国リストも変わります。渡航直前に自分の状況を再確認しましょう。" }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問",
+      "items": [
+        { "q": "私は米国／英国／日本／EU 出身です。K-ETA は必要？", "a": "今は不要です——これらは 31 Dec 2026 までの 22 か国免除の対象なので、K-ETA を飛ばして無料の e-Arrival Card だけを提出します。これは 1 Jan 2027 に変わる予定です。" },
+        { "q": "K-ETA はビザと同じ？", "a": "いいえ。K-ETA はビザなしで搭乗・入国できるようにする渡航認証で、ビザではありません。国籍がビザ免除でない場合は、韓国大使館で実際のビザが依然必要です。" },
+        { "q": "K-ETA の有効期間は？", "a": "承認から 3 年で複数回入国可能——なので1回の承認で、失効するかパスポートが切れるまで、通常は繰り返しの渡航をカバーできます。" },
+        { "q": "費用はいくらで、返金されますか？", "a": "₩10,000（約 US$8）。この手数料は、申請が却下されても返金されません。" },
+        { "q": "どのくらい早く申請すべき？", "a": "搭乗の少なくとも 72 時間前に。多くは数分で承認されますが、審査に回る場合に備えて余裕を持ちましょう。" },
+        { "q": "子どもや高齢者に K-ETA は必要？", "a": "これまで 17 歳以下または 65 歳以上の旅行者は K-ETA を免除されてきました。頼りにする前に、現行の年齢ルールを k-eta.go.kr で確認しましょう。" },
+        { "q": "e-Arrival Card とは何で、本当に必要？", "a": "紙の入国カードの電子版で、e-arrivalcard.go.kr で無料で、着陸の最大 72 時間前から提出します。多くの短期訪問者に必要です。有効な K-ETA 保有者と登録済み居住者は免除されます。" },
+        { "q": "どのサイトが公式？", "a": "k-eta.go.kr（K-ETA）と e-arrivalcard.go.kr（入国カード）だけです。高額な『手数料』を請求するものは政府ではなく第三者の転売業者です。" }
+      ]
+    },
+    "countryGuides": {
+      "title": "あなたの国を見つける",
+      "intro": "国籍ごとに進み方は異なります。自分の国を選んで、あなたに合わせたガイドを——ビザが必要なら A から Z までのビザ手順、ビザ免除なら簡単な入国チェックリスト。",
+      "needTitle": "🛂 ビザが必要——A から Z までの手順",
+      "items": [
+        { "code": "india", "flag": "🇮🇳", "name": "インド", "note": "C-3-9 観光ビザ · KVAC（VFS）" },
+        { "code": "vietnam", "flag": "🇻🇳", "name": "ベトナム", "note": "C-3-9 · 簡素化書類 · 最長 10 年ビザ" },
+        { "code": "china", "flag": "🇨🇳", "name": "中国", "note": "C-3 · 済州はビザ免除 30 日" },
+        { "code": "philippines", "flag": "🇵🇭", "name": "フィリピン", "note": "C-3 · 無料ビザ · 残高証明不要" },
+        { "code": "indonesia", "flag": "🇮🇩", "name": "インドネシア", "note": "C-3 · 2026 年 5 月から団体ビザ免除" }
+      ],
+      "freeTitle": "✅ ビザ免除——簡単入国ガイド",
+      "visaFree": [
+        { "code": "usa", "flag": "🇺🇸", "name": "アメリカ", "note": "ビザ免除 90 日 · K-ETA 免除" },
+        { "code": "japan", "flag": "🇯🇵", "name": "日本", "note": "ビザ免除 90 日 · K-ETA 免除" },
+        { "code": "uk", "flag": "🇬🇧", "name": "イギリス", "note": "ビザ免除 90 日 · K-ETA 免除" },
+        { "code": "canada", "flag": "🇨🇦", "name": "カナダ", "note": "ビザ免除 最長 6 か月" },
+        { "code": "australia", "flag": "🇦🇺", "name": "オーストラリア", "note": "ビザ免除 90 日 · K-ETA 免除" },
+        { "code": "taiwan", "flag": "🇹🇼", "name": "台湾", "note": "ビザ免除 90 日 · K-ETA 免除" }
+      ],
+      "more": "あなたの国が見当たりませんか？他の多くのビザ免除国民は e-Arrival Card だけで大丈夫です（上記参照）。国別ガイドは順次追加中です。"
+    },
+    "ui": {
+      "who": "対象：",
+      "official": "公式ソース",
+      "dhead": { "situation": "あなたの状況", "visa": "ビザ", "keta": "K-ETA", "earrival": "e-Arrival" },
+      "pills": { "yes": "必要", "yes*": "必要*", "no": "不要", "waived": "免除（'26）", "n/a": "—" }
+    }
+  },
+  "vi": {
+    "kicker": "Nhập cảnh & Giấy tờ",
+    "readingTime": "Đọc trong 6 phút",
+    "tldr": [
+      "Hầu hết du khách KHÔNG cần thị thực cho chuyến đi ngắn ngày — nhưng gần như luôn cần e-Arrival Card miễn phí.",
+      "K-ETA được tạm miễn cho 22 quốc gia đến hết 31 Dec 2026; nó quay lại vào 1 Jan 2027.",
+      "Nếu bạn CÓ cần K-ETA: chỉ nộp tại k-eta.go.kr, ₩10,000, có hiệu lực 3 years, ít nhất 72 giờ trước khi bay."
+    ],
+    "documents": {
+      "title": "Ba loại giấy tờ, nói cho dễ hiểu",
+      "intro": "Nhập cảnh Hàn Quốc có thể liên quan tới tối đa ba thứ riêng biệt. Hầu hết du khách ngắn ngày chỉ phải làm một hoặc hai trong số đó. Đây là bản chất thực sự của từng thứ:",
+      "cards": [
+        { "icon": "🛂", "name": "Thị thực du lịch", "who": "Chỉ những quốc tịch KHÔNG nằm trong danh sách miễn thị thực", "what": "Một nhãn/tem thị thực bạn nhận từ đại sứ quán Hàn Quốc trước khi đi.", "cost": "Tùy lãnh sự quán", "tone": "neutral" },
+        { "icon": "✅", "name": "K-ETA", "who": "Công dân miễn thị thực (hiện được miễn cho 22 quốc gia)", "what": "Một giấy phép du lịch điện tử gắn với hộ chiếu của bạn. Không phải thị thực — mà là phép được lên máy bay.", "cost": "₩10,000 · có hiệu lực 3 years", "tone": "blue" },
+        { "icon": "📝", "name": "e-Arrival Card", "who": "Gần như mọi du khách ngắn ngày", "what": "Một tờ khai nhập cảnh/hải quan điện tử thay cho tấm thẻ giấy cũ mà bạn từng điền trên máy bay.", "cost": "Miễn phí · trực tuyến", "tone": "green" }
+      ]
+    },
+    "decision": {
+      "title": "BẠN cần loại nào? (Kiểm tra 30 giây)",
+      "intro": "Tìm hàng phù hợp với bạn. Quy định phụ thuộc vào quốc tịch, nên hãy luôn xác nhận trường hợp của chính bạn trên trang chính thức.",
+      "branches": [
+        { "case": "Bạn đến từ một trong 22 quốc gia được miễn K-ETA (Mỹ, Anh, Nhật, Canada, EU, Úc…)", "visa": "no", "keta": "waived", "earrival": "yes", "summary": "Chỉ cần làm e-Arrival Card miễn phí. Vậy là xong." },
+        { "case": "Bạn được miễn thị thực nhưng KHÔNG nằm trong danh sách miễn", "visa": "no", "keta": "yes", "earrival": "yes*", "summary": "Xin K-ETA (giữ nó thì được miễn e-Arrival Card)." },
+        { "case": "Quốc tịch của bạn không được miễn thị thực", "visa": "yes", "keta": "n/a", "earrival": "yes", "summary": "Hãy xin thị thực du lịch tại đại sứ quán Hàn Quốc trước." }
+      ],
+      "legend": "* Giữ một K-ETA còn hiệu lực thì bạn được miễn e-Arrival Card."
+    },
+    "compare": {
+      "title": "Thị thực du lịch vs K-ETA vs e-Arrival Card",
+      "cols": ["", "Thị thực du lịch", "K-ETA", "e-Arrival Card"],
+      "rows": [
+        { "label": "Nó là gì", "vals": ["Thị thực nhập cảnh từ đại sứ quán", "Giấy phép du lịch điện tử", "Tờ khai nhập cảnh/hải quan điện tử"] },
+        { "label": "Ai cần nó", "vals": ["Công dân không được miễn thị thực", "Công dân miễn thị thực (xem điều khoản miễn)", "Gần như mọi du khách ngắn ngày"] },
+        { "label": "Lấy ở đâu", "vals": ["Đại sứ quán/lãnh sự quán Hàn Quốc", "Chỉ tại k-eta.go.kr", "e-arrivalcard.go.kr"] },
+        { "label": "Chi phí", "vals": ["Tùy trường hợp", "₩10,000 (~US$8)", "Miễn phí"] },
+        { "label": "Có hiệu lực", "vals": ["Tùy thị thực", "3 years, nhiều lần nhập cảnh", "Một chuyến đi (hết hạn 72h sau khi nộp)"] },
+        { "label": "Khi nào làm", "vals": ["Trước vài tuần", "≥72h trước khi lên máy bay", "≤72h trước khi đến"] }
+      ]
+    },
+    "ketaSteps": {
+      "title": "Cách xin K-ETA — từng bước",
+      "note": "Chỉ khi quốc tịch của bạn hiện không được miễn. Quy trình chính thức trên k-eta.go.kr có 7 bước và thường mất 10–15 phút.",
+      "steps": [
+        { "n": 1, "title": "Đồng ý điều khoản", "detail": "Mở k-eta.go.kr (hoặc ứng dụng K-ETA chính thức) và bắt đầu đơn cá nhân hoặc đơn theo nhóm. Đọc và chấp nhận điều khoản." },
+        { "n": 2, "title": "Xác minh email", "detail": "Đăng ký hoặc xác minh bằng một địa chỉ email. Phê duyệt và biên nhận được gửi tới đây — dùng địa chỉ bạn có thể truy cập khi đang đi." },
+        { "n": 3, "title": "Nhập thông tin hộ chiếu", "detail": "Nhập thông tin hộ chiếu (hoặc quét trang ảnh). Nếu bạn được miễn, một cửa sổ bật lên ở đây báo rằng không cần K-ETA." },
+        { "n": 4, "title": "Điền đơn", "detail": "Thêm thông tin chuyến đi, địa chỉ tại Hàn Quốc, và tải lên ảnh chân dung kiểu hộ chiếu (nền trơn, không kính/mũ)." },
+        { "n": 5, "title": "Rà soát mọi thứ", "detail": "Kiểm tra kỹ chính tả tên và số hộ chiếu so với hộ chiếu thật của bạn — sai lệch là nguyên nhân số 1 gây rắc rối tại cửa lên máy bay." },
+        { "n": 6, "title": "Thanh toán phí", "detail": "Trả ₩10,000 bằng thẻ. Phí này không hoàn lại, ngay cả khi đơn sau đó bị từ chối." },
+        { "n": 7, "title": "Nhận phê duyệt", "detail": "Phần lớn được duyệt trong vài phút, nhưng có thể mất tới 72 giờ. Lưu bản PDF/ảnh chụp; hãng bay có thể kiểm tra trước khi lên máy bay." }
+      ]
+    },
+    "prepare": {
+      "title": "Chuẩn bị sẵn những thứ này trước khi bắt đầu",
+      "items": [
+        { "icon": "📕", "t": "Hộ chiếu", "d": "Còn hiệu lực suốt thời gian bạn lưu trú. Bạn sẽ nhập số đúng như in trên hộ chiếu." },
+        { "icon": "📸", "t": "Ảnh chân dung", "d": "Kiểu hộ chiếu: nền sáng trơn, thấy rõ khuôn mặt, không kính hay mũ nón." },
+        { "icon": "📧", "t": "Email kiểm tra được khi ở nước ngoài", "d": "Phê duyệt và biên nhận được gửi qua email tới đây." },
+        { "icon": "💳", "t": "Thẻ thanh toán", "d": "Để trả phí ₩10,000 (K-ETA) — e-Arrival Card thì miễn phí." },
+        { "icon": "🏨", "t": "Địa chỉ ở Hàn Quốc", "d": "Cả hai mẫu đơn đều hỏi địa chỉ và số điện thoại nơi bạn ở đầu tiên." }
+      ]
+    },
+    "earrival": {
+      "title": "e-Arrival Card (miễn phí) — đừng bỏ qua",
+      "intro": "Từ năm 2025, Hàn Quốc thay tấm thẻ nhập cảnh giấy bằng e-Arrival Card điện tử. Gần như mọi du khách ngắn ngày đều nộp — ngoại lệ lớn là người giữ K-ETA còn hiệu lực (và cư dân đã đăng ký).",
+      "steps": [
+        { "n": 1, "title": "Mở trang chính thức", "detail": "Vào e-arrivalcard.go.kr — nó miễn phí. Cẩn thận với các trang nhái thu phí." },
+        { "n": 2, "title": "Nộp trong vòng 72 giờ trước khi đến", "detail": "Bạn chỉ nộp được trong 3 ngày trước khi hạ cánh (giờ Hàn Quốc). Nộp quá sớm thì nó hết hạn trước khi bạn đến." },
+        { "n": 3, "title": "Nhập hộ chiếu, chuyến bay & địa chỉ", "detail": "Thông tin hộ chiếu, số hiệu chuyến bay, và nơi bạn sẽ ở tại Hàn Quốc." },
+        { "n": 4, "title": "Lưu xác nhận", "detail": "Trình mã QR/xác nhận tại cửa nhập cảnh để bỏ qua hàng chờ làm giấy." }
+      ]
+    },
+    "exempt": {
+      "title": "Các quốc gia được miễn K-ETA (đến hết 31 Dec 2026)",
+      "intro": "Công dân của 22 quốc gia/vùng lãnh thổ này hiện có thể nhập cảnh mà không cần K-ETA. Việc miễn dự kiến kết thúc và K-ETA quay lại vào 1 Jan 2027 — hãy xác nhận lại trước khi đi.",
+      "countries": [
+        { "flag": "🇦🇺", "n": "Úc" }, { "flag": "🇦🇹", "n": "Áo" }, { "flag": "🇧🇪", "n": "Bỉ" }, { "flag": "🇨🇦", "n": "Canada" },
+        { "flag": "🇩🇰", "n": "Đan Mạch" }, { "flag": "🇫🇮", "n": "Phần Lan" }, { "flag": "🇫🇷", "n": "Pháp" }, { "flag": "🇩🇪", "n": "Đức" },
+        { "flag": "🇭🇰", "n": "Hồng Kông" }, { "flag": "🇮🇹", "n": "Ý" }, { "flag": "🇯🇵", "n": "Nhật Bản" }, { "flag": "🇲🇴", "n": "Ma Cao" },
+        { "flag": "🇳🇱", "n": "Hà Lan" }, { "flag": "🇳🇿", "n": "New Zealand" }, { "flag": "🇳🇴", "n": "Na Uy" }, { "flag": "🇵🇱", "n": "Ba Lan" },
+        { "flag": "🇸🇬", "n": "Singapore" }, { "flag": "🇪🇸", "n": "Tây Ban Nha" }, { "flag": "🇸🇪", "n": "Thụy Điển" }, { "flag": "🇹🇼", "n": "Đài Loan" },
+        { "flag": "🇬🇧", "n": "Vương quốc Anh" }, { "flag": "🇺🇸", "n": "Hoa Kỳ (gồm cả Guam)" }
+      ]
+    },
+    "pitfalls": {
+      "title": "5 sai lầm khiến người ta vấp phải",
+      "items": [
+        { "icon": "🕸️", "t": "Trả tiền cho trang 'dịch vụ' lừa đảo", "d": "Các trang bên thứ ba mua quảng cáo tìm kiếm ở vị trí đầu và tính US$40–50 cho một dịch vụ chính phủ miễn phí/₩10,000. Trang chính thức duy nhất là k-eta.go.kr và e-arrivalcard.go.kr." },
+        { "icon": "⏰", "t": "Nộp e-Arrival Card quá sớm", "d": "Nó hết hạn 72 giờ sau khi bạn nộp. Hãy nộp trong 3 ngày trước chuyến bay, đừng nộp trước cả tuần." },
+        { "icon": "🔤", "t": "Gõ sai tên / hộ chiếu", "d": "Tên của bạn phải khớp hộ chiếu chính xác. Chỉ một ký tự sai cũng có thể chặn bạn tại quầy làm thủ tục." },
+        { "icon": "📸", "t": "Ảnh bị từ chối", "d": "Ảnh mờ, đeo kính, đội mũ hay nền lộn xộn đều bị loại. Hãy dùng ảnh kiểu hộ chiếu, nền trơn và đủ sáng." },
+        { "icon": "🗓️", "t": "Cho rằng mình được miễn", "d": "Việc miễn là tạm thời (kết thúc 2026-12-31) và danh sách quốc gia có thay đổi. Hãy xác nhận lại tình trạng của bạn sát ngày đi." }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "items": [
+        { "q": "Tôi đến từ Mỹ / Anh / Nhật / EU. Tôi có cần K-ETA không?", "a": "Hiện thì không — những nước này nằm trong diện miễn 22 quốc gia đến hết 31 Dec 2026, nên bạn bỏ qua K-ETA và chỉ nộp e-Arrival Card miễn phí. Điều này dự kiến thay đổi vào 1 Jan 2027." },
+        { "q": "K-ETA có phải là thị thực không?", "a": "Không. K-ETA là giấy phép du lịch cho bạn lên máy bay và nhập cảnh diện miễn thị thực; nó không phải thị thực. Nếu quốc tịch của bạn không được miễn thị thực, bạn vẫn cần một thị thực thật từ đại sứ quán Hàn Quốc." },
+        { "q": "K-ETA có hiệu lực bao lâu?", "a": "Ba năm kể từ khi được duyệt, nhiều lần nhập cảnh — nên một lần duyệt thường bao trọn các chuyến lặp lại cho tới khi nó hoặc hộ chiếu của bạn hết hạn." },
+        { "q": "Chi phí bao nhiêu và có hoàn lại không?", "a": "₩10,000 (khoảng US$8). Phí này không hoàn lại, ngay cả khi đơn của bạn bị từ chối." },
+        { "q": "Tôi nên nộp sớm cỡ nào?", "a": "Ít nhất 72 giờ trước khi lên máy bay. Nhiều đơn được duyệt trong vài phút, nhưng hãy chừa thời gian đệm phòng khi đơn của bạn bị đưa vào xét duyệt." },
+        { "q": "Trẻ em và người cao tuổi có cần K-ETA không?", "a": "Trước nay, người từ 17 tuổi trở xuống hoặc 65 tuổi trở lên được miễn K-ETA. Hãy xác nhận quy định độ tuổi hiện hành tại k-eta.go.kr trước khi dựa vào nó." },
+        { "q": "e-Arrival Card là gì và tôi có thực sự cần nó?", "a": "Đó là phiên bản điện tử của tấm thẻ nhập cảnh giấy, nộp miễn phí tại e-arrivalcard.go.kr, sớm nhất là 72 giờ trước khi bạn hạ cánh. Hầu hết du khách ngắn ngày cần nó; người giữ K-ETA còn hiệu lực và cư dân đã đăng ký được miễn." },
+        { "q": "Những trang nào là chính thức?", "a": "Chỉ k-eta.go.kr (K-ETA) và e-arrivalcard.go.kr (thẻ nhập cảnh). Bất kỳ nơi nào tính 'phí dịch vụ' lớn đều là bên thứ ba bán lại, không phải chính phủ." }
+      ]
+    },
+    "countryGuides": {
+      "title": "Tìm quốc gia của bạn",
+      "intro": "Mỗi quốc tịch có lối đi riêng. Chọn quốc tịch của bạn để có hướng dẫn phù hợp — một quy trình thị thực đầy đủ từ A đến Z nếu bạn cần thị thực, hoặc một danh sách kiểm tra nhập cảnh nhanh nếu bạn được miễn thị thực.",
+      "needTitle": "🛂 Bạn cần thị thực — hướng dẫn đầy đủ từ A đến Z",
+      "items": [
+        { "code": "india", "flag": "🇮🇳", "name": "Ấn Độ", "note": "Thị thực du lịch C-3-9 · KVAC (VFS)" },
+        { "code": "vietnam", "flag": "🇻🇳", "name": "Việt Nam", "note": "C-3-9 · giấy tờ đơn giản hóa · thị thực tới 10 năm" },
+        { "code": "china", "flag": "🇨🇳", "name": "Trung Quốc", "note": "C-3 · Jeju miễn thị thực 30 ngày" },
+        { "code": "philippines", "flag": "🇵🇭", "name": "Philippines", "note": "C-3 · thị thực MIỄN PHÍ · không cần sao kê ngân hàng" },
+        { "code": "indonesia", "flag": "🇮🇩", "name": "Indonesia", "note": "C-3 · miễn thị thực theo nhóm từ tháng 5 năm 2026" }
+      ],
+      "freeTitle": "✅ Miễn thị thực — hướng dẫn nhập cảnh nhanh",
+      "visaFree": [
+        { "code": "usa", "flag": "🇺🇸", "name": "Hoa Kỳ", "note": "Miễn thị thực 90 ngày · miễn K-ETA" },
+        { "code": "japan", "flag": "🇯🇵", "name": "Nhật Bản", "note": "Miễn thị thực 90 ngày · miễn K-ETA" },
+        { "code": "uk", "flag": "🇬🇧", "name": "Anh", "note": "Miễn thị thực 90 ngày · miễn K-ETA" },
+        { "code": "canada", "flag": "🇨🇦", "name": "Canada", "note": "Miễn thị thực tới 6 tháng" },
+        { "code": "australia", "flag": "🇦🇺", "name": "Úc", "note": "Miễn thị thực 90 ngày · miễn K-ETA" },
+        { "code": "taiwan", "flag": "🇹🇼", "name": "Đài Loan", "note": "Miễn thị thực 90 ngày · miễn K-ETA" }
+      ],
+      "more": "Không thấy quốc gia của bạn? Hầu hết công dân miễn thị thực khác chỉ cần e-Arrival Card (xem ở trên). Nhiều hướng dẫn quốc gia đang được bổ sung."
+    },
+    "ui": {
+      "who": "Ai:",
+      "official": "Nguồn chính thức",
+      "dhead": { "situation": "Trường hợp của bạn", "visa": "Thị thực", "keta": "K-ETA", "earrival": "e-Arrival" },
+      "pills": { "yes": "Bắt buộc", "yes*": "Bắt buộc*", "no": "Không cần", "waived": "Miễn '26", "n/a": "—" }
+    }
+  },
+  "th": {
+    "kicker": "การเข้าเมืองและเอกสาร",
+    "readingTime": "อ่าน 6 นาที",
+    "tldr": [
+      "นักท่องเที่ยวส่วนใหญ่ไม่ต้องใช้วีซ่าสำหรับการพำนักระยะสั้น — แต่คุณเกือบจะต้องมี e-Arrival Card ฟรีเสมอ",
+      "K-ETA ได้รับการยกเว้นชั่วคราวสำหรับ 22 ประเทศ จนถึง 31 Dec 2026 และจะกลับมาใช้อีกครั้งในวันที่ 1 Jan 2027",
+      "ถ้าคุณจำเป็นต้องมี K-ETA จริง ๆ: สมัครที่ k-eta.go.kr เท่านั้น, ₩10,000, ใช้ได้ 3 years, อย่างน้อย 72 ชั่วโมงก่อนบิน"
+    ],
+    "documents": {
+      "title": "เอกสาร 3 อย่าง อธิบายแบบเข้าใจง่าย",
+      "intro": "การเข้าเกาหลีอาจเกี่ยวข้องกับเรื่องแยกกันได้ถึงสามอย่าง นักท่องเที่ยวระยะสั้นส่วนใหญ่จัดการเพียงหนึ่งหรือสองอย่างเท่านั้น นี่คือคำอธิบายว่าแต่ละอย่างคืออะไรจริง ๆ:",
+      "cards": [
+        { "icon": "🛂", "name": "วีซ่าท่องเที่ยว", "who": "เฉพาะสัญชาติที่ไม่อยู่ในรายชื่อยกเว้นวีซ่า", "what": "สติกเกอร์/ฉลากวีซ่าที่คุณได้จากสถานทูตเกาหลีก่อนเดินทาง", "cost": "แตกต่างกันตามสถานกงสุล", "tone": "neutral" },
+        { "icon": "✅", "name": "K-ETA", "who": "ผู้ที่ได้รับยกเว้นวีซ่า (ปัจจุบันยกเว้นสำหรับ 22 ประเทศ)", "what": "การอนุญาตเดินทางอิเล็กทรอนิกส์ที่ผูกกับหนังสือเดินทางของคุณ ไม่ใช่วีซ่า — แต่เป็นการอนุญาตให้ขึ้นเครื่อง", "cost": "₩10,000 · ใช้ได้ 3 years", "tone": "blue" },
+        { "icon": "📝", "name": "e-Arrival Card", "who": "ผู้มาเยือนระยะสั้นแทบทุกคน", "what": "ใบแจ้งเข้าเมือง/ศุลกากรแบบดิจิทัลที่มาแทนบัตรกระดาษเดิมที่คุณเคยกรอกบนเครื่องบิน", "cost": "ฟรี · ออนไลน์", "tone": "green" }
+      ]
+    },
+    "decision": {
+      "title": "คุณต้องใช้อันไหน? (เช็กภายใน 30 วินาที)",
+      "intro": "หาบรรทัดที่ตรงกับคุณ กฎขึ้นอยู่กับสัญชาติ ดังนั้นควรยืนยันกรณีของคุณเองที่เว็บไซต์ทางการเสมอ",
+      "branches": [
+        { "case": "คุณมาจากหนึ่งใน 22 ประเทศที่ยกเว้น K-ETA (สหรัฐฯ, สหราชอาณาจักร, ญี่ปุ่น, แคนาดา, สหภาพยุโรป, ออสเตรเลีย…)", "visa": "no", "keta": "waived", "earrival": "yes", "summary": "แค่ทำ e-Arrival Card ฟรี เท่านั้นเอง" },
+        { "case": "คุณได้รับยกเว้นวีซ่าแต่ไม่อยู่ในรายชื่อยกเว้น", "visa": "no", "keta": "yes", "earrival": "yes*", "summary": "ขอ K-ETA (การถือครองไว้ทำให้คุณได้รับยกเว้น e-Arrival Card)" },
+        { "case": "สัญชาติของคุณไม่ได้รับยกเว้นวีซ่า", "visa": "yes", "keta": "n/a", "earrival": "yes", "summary": "ยื่นขอวีซ่าท่องเที่ยวที่สถานทูตเกาหลีก่อน" }
+      ],
+      "legend": "* การถือ K-ETA ที่ยังใช้ได้ทำให้คุณได้รับยกเว้น e-Arrival Card"
+    },
+    "compare": {
+      "title": "วีซ่าท่องเที่ยว vs K-ETA vs e-Arrival Card",
+      "cols": ["", "วีซ่าท่องเที่ยว", "K-ETA", "e-Arrival Card"],
+      "rows": [
+        { "label": "มันคืออะไร", "vals": ["วีซ่าเข้าเมืองจากสถานทูต", "การอนุญาตเดินทางอิเล็กทรอนิกส์", "แบบฟอร์มเข้าเมือง/ศุลกากรดิจิทัล"] },
+        { "label": "ใครต้องใช้", "vals": ["ผู้ที่ไม่ได้รับยกเว้นวีซ่า", "ผู้ที่ได้รับยกเว้นวีซ่า (ดูการยกเว้น)", "ผู้มาเยือนระยะสั้นแทบทุกคน"] },
+        { "label": "ขอได้ที่ไหน", "vals": ["สถานทูต/สถานกงสุลเกาหลี", "k-eta.go.kr เท่านั้น", "e-arrivalcard.go.kr"] },
+        { "label": "ค่าใช้จ่าย", "vals": ["แตกต่างกันไป", "₩10,000 (~US$8)", "ฟรี"] },
+        { "label": "ใช้ได้นานแค่ไหน", "vals": ["ตามวีซ่า", "3 years, เข้าออกได้หลายครั้ง", "หนึ่งทริป (หมดอายุ 72h หลังยื่น)"] },
+        { "label": "ควรทำเมื่อไหร่", "vals": ["ล่วงหน้าหลายสัปดาห์", "≥72h ก่อนขึ้นเครื่อง", "≤72h ก่อนถึง"] }
+      ]
+    },
+    "ketaSteps": {
+      "title": "วิธีสมัคร K-ETA — ทีละขั้นตอน",
+      "note": "เฉพาะกรณีที่สัญชาติของคุณไม่ได้รับยกเว้นในปัจจุบัน ขั้นตอนทางการบน k-eta.go.kr มี 7 ขั้นตอน และมักใช้เวลา 10–15 นาที",
+      "steps": [
+        { "n": 1, "title": "ยอมรับข้อกำหนด", "detail": "เปิด k-eta.go.kr (หรือแอป K-ETA ทางการ) แล้วเริ่มการสมัครแบบเดี่ยวหรือแบบกลุ่ม อ่านและยอมรับข้อกำหนด" },
+        { "n": 2, "title": "ยืนยันอีเมล", "detail": "ลงทะเบียนหรือยืนยันด้วยอีเมล การอนุมัติและใบเสร็จจะถูกส่งมาที่นี่ — ใช้อีเมลที่คุณเข้าถึงได้ระหว่างเดินทาง" },
+        { "n": 3, "title": "กรอกข้อมูลหนังสือเดินทาง", "detail": "พิมพ์รายละเอียดหนังสือเดินทาง (หรือสแกนหน้าที่มีรูป) หากคุณได้รับยกเว้น จะมีป๊อปอัปขึ้นที่นี่แจ้งว่าไม่ต้องใช้ K-ETA" },
+        { "n": 4, "title": "กรอกใบสมัคร", "detail": "เพิ่มรายละเอียดการเดินทาง ที่อยู่ในเกาหลี และอัปโหลดรูปหน้าแบบหนังสือเดินทาง (พื้นหลังเรียบ ไม่ใส่แว่น/หมวก)" },
+        { "n": 5, "title": "ตรวจทานทั้งหมด", "detail": "ตรวจการสะกดชื่อและหมายเลขหนังสือเดินทางเทียบกับหนังสือเดินทางจริงของคุณอีกครั้ง — ข้อมูลไม่ตรงเป็นสาเหตุอันดับ 1 ของปัญหาที่ประตูขึ้นเครื่อง" },
+        { "n": 6, "title": "ชำระค่าธรรมเนียม", "detail": "จ่าย ₩10,000 ด้วยบัตร ค่าธรรมเนียมนี้ไม่คืนเงิน แม้ใบสมัครจะถูกปฏิเสธในภายหลัง" },
+        { "n": 7, "title": "รับการอนุมัติ", "detail": "ส่วนใหญ่อนุมัติภายในไม่กี่นาที แต่อาจใช้เวลาถึง 72 ชั่วโมง บันทึกไฟล์ PDF/ภาพหน้าจอไว้ สายการบินอาจตรวจก่อนขึ้นเครื่อง" }
+      ]
+    },
+    "prepare": {
+      "title": "เตรียมสิ่งเหล่านี้ให้พร้อมก่อนเริ่ม",
+      "items": [
+        { "icon": "📕", "t": "หนังสือเดินทาง", "d": "ต้องใช้ได้ตลอดการพำนักของคุณ คุณจะต้องกรอกหมายเลขให้ตรงกับที่พิมพ์ไว้ทุกตัวอักษร" },
+        { "icon": "📸", "t": "รูปใบหน้า", "d": "แบบหนังสือเดินทาง: พื้นหลังสว่างเรียบ เห็นหน้าชัดเจน ไม่ใส่แว่นหรือเครื่องประดับศีรษะ" },
+        { "icon": "📧", "t": "อีเมลที่เช็กได้จากต่างประเทศ", "d": "การอนุมัติและใบเสร็จจะถูกส่งมาที่นี่" },
+        { "icon": "💳", "t": "บัตรชำระเงิน", "d": "สำหรับค่าธรรมเนียม ₩10,000 (K-ETA) — ส่วน e-Arrival Card นั้นฟรี" },
+        { "icon": "🏨", "t": "ที่อยู่ในเกาหลี", "d": "ทั้งสองแบบฟอร์มจะถามที่อยู่และเบอร์โทรของโรงแรม/ที่พักแห่งแรกของคุณ" }
+      ]
+    },
+    "earrival": {
+      "title": "e-Arrival Card (ฟรี) — อย่าข้ามอันนี้",
+      "intro": "ตั้งแต่ปี 2025 เกาหลีได้เปลี่ยนบัตรขาเข้าแบบกระดาษเป็น e-Arrival Card แบบดิจิทัล ผู้มาเยือนระยะสั้นแทบทุกคนต้องยื่น — ข้อยกเว้นหลักคือผู้ที่ถือ K-ETA ที่ยังใช้ได้ (และผู้พำนักที่ลงทะเบียนแล้ว)",
+      "steps": [
+        { "n": 1, "title": "เปิดเว็บไซต์ทางการ", "detail": "ไปที่ e-arrivalcard.go.kr — ฟรี ระวังเว็บเลียนแบบที่เก็บเงิน" },
+        { "n": 2, "title": "ยื่นภายใน 72 ชั่วโมงก่อนถึง", "detail": "คุณยื่นได้เฉพาะภายใน 3 วันก่อนลงจอด (เวลาเกาหลี) ยื่นเร็วเกินไปจะทำให้มันหมดอายุก่อนคุณมาถึง" },
+        { "n": 3, "title": "กรอกหนังสือเดินทาง เที่ยวบิน และที่อยู่", "detail": "ข้อมูลหนังสือเดินทาง หมายเลขเที่ยวบิน และที่ที่คุณจะพักในเกาหลี" },
+        { "n": 4, "title": "บันทึกใบยืนยัน", "detail": "แสดง QR/ใบยืนยันที่ด่านตรวจคนเข้าเมืองเพื่อข้ามคิวกระดาษ" }
+      ]
+    },
+    "exempt": {
+      "title": "ประเทศที่ได้รับยกเว้น K-ETA (จนถึง 31 Dec 2026)",
+      "intro": "พลเมืองของ 22 ประเทศ/เขตแดนเหล่านี้ปัจจุบันสามารถเข้าเมืองได้โดยไม่ต้องใช้ K-ETA การยกเว้นมีกำหนดสิ้นสุดและ K-ETA จะกลับมาในวันที่ 1 Jan 2027 — โปรดยืนยันอีกครั้งก่อนเดินทาง",
+      "countries": [
+        { "flag": "🇦🇺", "n": "ออสเตรเลีย" }, { "flag": "🇦🇹", "n": "ออสเตรีย" }, { "flag": "🇧🇪", "n": "เบลเยียม" }, { "flag": "🇨🇦", "n": "แคนาดา" },
+        { "flag": "🇩🇰", "n": "เดนมาร์ก" }, { "flag": "🇫🇮", "n": "ฟินแลนด์" }, { "flag": "🇫🇷", "n": "ฝรั่งเศส" }, { "flag": "🇩🇪", "n": "เยอรมนี" },
+        { "flag": "🇭🇰", "n": "ฮ่องกง" }, { "flag": "🇮🇹", "n": "อิตาลี" }, { "flag": "🇯🇵", "n": "ญี่ปุ่น" }, { "flag": "🇲🇴", "n": "มาเก๊า" },
+        { "flag": "🇳🇱", "n": "เนเธอร์แลนด์" }, { "flag": "🇳🇿", "n": "นิวซีแลนด์" }, { "flag": "🇳🇴", "n": "นอร์เวย์" }, { "flag": "🇵🇱", "n": "โปแลนด์" },
+        { "flag": "🇸🇬", "n": "สิงคโปร์" }, { "flag": "🇪🇸", "n": "สเปน" }, { "flag": "🇸🇪", "n": "สวีเดน" }, { "flag": "🇹🇼", "n": "ไต้หวัน" },
+        { "flag": "🇬🇧", "n": "สหราชอาณาจักร" }, { "flag": "🇺🇸", "n": "สหรัฐอเมริกา (รวมกวม)" }
+      ]
+    },
+    "pitfalls": {
+      "title": "5 ข้อผิดพลาดที่ทำให้คนสะดุด",
+      "items": [
+        { "icon": "🕸️", "t": "จ่ายเงินให้เว็บ 'เอเจนซี' หลอกลวง", "d": "เว็บของบุคคลที่สามซื้อโฆษณาอันดับต้น ๆ ในการค้นหา และเก็บ US$40–50 สำหรับบริการรัฐที่ฟรี/₩10,000 เว็บทางการมีเพียง k-eta.go.kr และ e-arrivalcard.go.kr เท่านั้น" },
+        { "icon": "⏰", "t": "ยื่น e-Arrival Card เร็วเกินไป", "d": "มันหมดอายุ 72 ชั่วโมงหลังคุณยื่น ให้ยื่นภายใน 3 วันก่อนเที่ยวบิน ไม่ใช่ล่วงหน้าหลายสัปดาห์" },
+        { "icon": "🔤", "t": "พิมพ์ชื่อ / หนังสือเดินทางผิด", "d": "ชื่อของคุณต้องตรงกับหนังสือเดินทางทุกประการ ตัวอักษรผิดเพียงตัวเดียวก็อาจหยุดคุณที่เคาน์เตอร์เช็กอินได้" },
+        { "icon": "📸", "t": "รูปถูกปฏิเสธ", "d": "รูปเบลอ ใส่แว่น สวมหมวก หรือพื้นหลังรก จะถูกตีกลับ ใช้รูปแบบหนังสือเดินทางที่พื้นเรียบและแสงดี" },
+        { "icon": "🗓️", "t": "คิดเอาเองว่าได้รับยกเว้น", "d": "การยกเว้นเป็นการชั่วคราว (สิ้นสุด 2026-12-31) และรายชื่อประเทศเปลี่ยนแปลงได้ ยืนยันสถานะของคุณอีกครั้งใกล้วันเดินทาง" }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อย",
+      "items": [
+        { "q": "ฉันมาจากสหรัฐฯ / สหราชอาณาจักร / ญี่ปุ่น / สหภาพยุโรป ต้องใช้ K-ETA ไหม?", "a": "ตอนนี้ไม่ต้อง — ประเทศเหล่านั้นอยู่ในการยกเว้น 22 ประเทศจนถึง 31 Dec 2026 ดังนั้นคุณข้าม K-ETA และแค่ยื่น e-Arrival Card ฟรี ทั้งนี้มีกำหนดเปลี่ยนแปลงในวันที่ 1 Jan 2027" },
+        { "q": "K-ETA เหมือนกับวีซ่าหรือไม่?", "a": "ไม่ K-ETA เป็นการอนุญาตเดินทางที่ให้คุณขึ้นเครื่องและเข้าเมืองแบบยกเว้นวีซ่า มันไม่ใช่วีซ่า หากสัญชาติของคุณไม่ได้รับยกเว้นวีซ่า คุณยังต้องมีวีซ่าจริงจากสถานทูตเกาหลี" },
+        { "q": "K-ETA ใช้ได้นานแค่ไหน?", "a": "สามปีนับจากการอนุมัติ เข้าออกได้หลายครั้ง — ดังนั้นการอนุมัติครั้งเดียวมักครอบคลุมการเดินทางซ้ำ ๆ จนกว่ามันจะหมดอายุหรือหนังสือเดินทางของคุณหมดอายุ" },
+        { "q": "ค่าใช้จ่ายเท่าไหร่ และคืนเงินได้ไหม?", "a": "₩10,000 (ประมาณ US$8) ค่าธรรมเนียมนี้ไม่คืนเงิน แม้ใบสมัครของคุณจะถูกปฏิเสธ" },
+        { "q": "ควรสมัครล่วงหน้าแค่ไหน?", "a": "อย่างน้อย 72 ชั่วโมงก่อนขึ้นเครื่อง หลายรายอนุมัติภายในไม่กี่นาที แต่เผื่อเวลาไว้เผื่อกรณีของคุณถูกนำไปพิจารณา" },
+        { "q": "เด็กและผู้สูงอายุต้องใช้ K-ETA ไหม?", "a": "ที่ผ่านมา ผู้เดินทางอายุ 17 ปีลงมาหรือ 65 ปีขึ้นไปได้รับยกเว้น K-ETA ยืนยันกฎอายุปัจจุบันที่ k-eta.go.kr ก่อนจะยึดตามนั้น" },
+        { "q": "e-Arrival Card คืออะไร และฉันจำเป็นต้องใช้จริงไหม?", "a": "มันคือรุ่นดิจิทัลของบัตรขาเข้าแบบกระดาษ ยื่นฟรีที่ e-arrivalcard.go.kr ได้ล่วงหน้าสูงสุด 72 ชั่วโมงก่อนคุณลงจอด ผู้มาเยือนระยะสั้นส่วนใหญ่ต้องใช้ ผู้ถือ K-ETA ที่ยังใช้ได้และผู้พำนักที่ลงทะเบียนแล้วได้รับยกเว้น" },
+        { "q": "เว็บไหนเป็นเว็บทางการ?", "a": "มีเพียง k-eta.go.kr (K-ETA) และ e-arrivalcard.go.kr (บัตรขาเข้า) อะไรก็ตามที่เก็บ 'ค่าบริการ' ก้อนโตคือผู้ขายต่อบุคคลที่สาม ไม่ใช่รัฐบาล" }
+      ]
+    },
+    "countryGuides": {
+      "title": "ค้นหาประเทศของคุณ",
+      "intro": "แต่ละสัญชาติมีเส้นทางของตัวเอง เลือกสัญชาติของคุณเพื่อรับคู่มือที่ปรับให้เหมาะ — คู่มือวีซ่าครบตั้งแต่ A ถึง Z หากคุณต้องใช้วีซ่า หรือเช็กลิสต์เข้าเมืองอย่างรวดเร็วหากคุณได้รับยกเว้นวีซ่า",
+      "needTitle": "🛂 คุณต้องใช้วีซ่า — คู่มือครบตั้งแต่ A ถึง Z",
+      "items": [
+        { "code": "india", "flag": "🇮🇳", "name": "อินเดีย", "note": "วีซ่าท่องเที่ยว C-3-9 · KVAC (VFS)" },
+        { "code": "vietnam", "flag": "🇻🇳", "name": "เวียดนาม", "note": "C-3-9 · เอกสารแบบง่าย · วีซ่าสูงสุด 10 ปี" },
+        { "code": "china", "flag": "🇨🇳", "name": "จีน", "note": "C-3 · เชจูยกเว้นวีซ่า 30 วัน" },
+        { "code": "philippines", "flag": "🇵🇭", "name": "ฟิลิปปินส์", "note": "C-3 · วีซ่าฟรี · ไม่ต้องมีสเตทเมนต์ธนาคาร" },
+        { "code": "indonesia", "flag": "🇮🇩", "name": "อินโดนีเซีย", "note": "C-3 · ยกเว้นวีซ่าแบบกลุ่มตั้งแต่พฤษภาคม 2026" }
+      ],
+      "freeTitle": "✅ ยกเว้นวีซ่า — คู่มือเข้าเมืองอย่างรวดเร็ว",
+      "visaFree": [
+        { "code": "usa", "flag": "🇺🇸", "name": "สหรัฐอเมริกา", "note": "ยกเว้นวีซ่า 90 วัน · ยกเว้น K-ETA" },
+        { "code": "japan", "flag": "🇯🇵", "name": "ญี่ปุ่น", "note": "ยกเว้นวีซ่า 90 วัน · ยกเว้น K-ETA" },
+        { "code": "uk", "flag": "🇬🇧", "name": "สหราชอาณาจักร", "note": "ยกเว้นวีซ่า 90 วัน · ยกเว้น K-ETA" },
+        { "code": "canada", "flag": "🇨🇦", "name": "แคนาดา", "note": "ยกเว้นวีซ่าสูงสุด 6 เดือน" },
+        { "code": "australia", "flag": "🇦🇺", "name": "ออสเตรเลีย", "note": "ยกเว้นวีซ่า 90 วัน · ยกเว้น K-ETA" },
+        { "code": "taiwan", "flag": "🇹🇼", "name": "ไต้หวัน", "note": "ยกเว้นวีซ่า 90 วัน · ยกเว้น K-ETA" }
+      ],
+      "more": "ไม่เห็นประเทศของคุณ? ผู้ได้รับยกเว้นวีซ่าส่วนใหญ่ที่เหลือแค่ต้องใช้ e-Arrival Card (ดูด้านบน) คู่มือประเทศเพิ่มเติมกำลังทยอยเพิ่มเข้ามา"
+    },
+    "ui": {
+      "who": "ใคร:",
+      "official": "แหล่งข้อมูลทางการ",
+      "dhead": { "situation": "สถานการณ์ของคุณ", "visa": "วีซ่า", "keta": "K-ETA", "earrival": "e-Arrival" },
+      "pills": { "yes": "ต้องมี", "yes*": "ต้องมี*", "no": "ไม่ต้อง", "waived": "ยกเว้น '26", "n/a": "—" }
+    }
+  },
+  "id": {
+    "kicker": "Masuk & Dokumen",
+    "readingTime": "Baca 6 menit",
+    "tldr": [
+      "Sebagian besar wisatawan TIDAK perlu visa untuk kunjungan singkat — tetapi Anda hampir selalu perlu e-Arrival Card gratis.",
+      "K-ETA sementara dibebaskan untuk 22 negara hingga 31 Dec 2026; berlaku lagi pada 1 Jan 2027.",
+      "Jika Anda MEMANG perlu K-ETA: ajukan hanya di k-eta.go.kr, ₩10,000, berlaku 3 years, minimal 72 jam sebelum terbang."
+    ],
+    "documents": {
+      "title": "Tiga dokumen, dijelaskan dengan sederhana",
+      "intro": "Masuk ke Korea bisa melibatkan hingga tiga hal terpisah. Sebagian besar wisatawan singkat hanya mengurus satu atau dua di antaranya. Inilah maksud sebenarnya dari masing-masing:",
+      "cards": [
+        { "icon": "🛂", "name": "Visa Turis", "who": "Hanya kewarganegaraan yang TIDAK ada di daftar bebas visa", "what": "Stiker/label visa yang Anda peroleh dari kedutaan Korea sebelum bepergian.", "cost": "Berbeda per konsulat", "tone": "neutral" },
+        { "icon": "✅", "name": "K-ETA", "who": "Warga bebas visa (saat ini dibebaskan untuk 22 negara)", "what": "Otorisasi perjalanan elektronik yang terhubung ke paspor Anda. Bukan visa — melainkan izin untuk naik pesawat.", "cost": "₩10,000 · berlaku 3 years", "tone": "blue" },
+        { "icon": "📝", "name": "e-Arrival Card", "who": "Hampir setiap pengunjung singkat", "what": "Deklarasi masuk/bea cukai digital yang menggantikan kartu kertas lama yang dulu Anda isi di pesawat.", "cost": "Gratis · daring", "tone": "green" }
+      ]
+    },
+    "decision": {
+      "title": "Mana yang ANDA perlukan? (Cek 30 detik)",
+      "intro": "Temukan baris yang cocok dengan Anda. Aturan bergantung pada kewarganegaraan, jadi selalu konfirmasikan kasus Anda sendiri di situs resmi.",
+      "branches": [
+        { "case": "Anda dari salah satu 22 negara yang dibebaskan K-ETA (AS, Inggris, Jepang, Kanada, UE, Australia…)", "visa": "no", "keta": "waived", "earrival": "yes", "summary": "Cukup buat e-Arrival Card gratis. Selesai." },
+        { "case": "Anda bebas visa tetapi TIDAK ada di daftar pembebasan", "visa": "no", "keta": "yes", "earrival": "yes*", "summary": "Ajukan K-ETA (memilikinya membebaskan Anda dari e-Arrival Card)." },
+        { "case": "Kewarganegaraan Anda tidak bebas visa", "visa": "yes", "keta": "n/a", "earrival": "yes", "summary": "Ajukan visa turis di kedutaan Korea terlebih dahulu." }
+      ],
+      "legend": "* Memiliki K-ETA yang masih berlaku membebaskan Anda dari e-Arrival Card."
+    },
+    "compare": {
+      "title": "Visa Turis vs K-ETA vs e-Arrival Card",
+      "cols": ["", "Visa Turis", "K-ETA", "e-Arrival Card"],
+      "rows": [
+        { "label": "Apa itu", "vals": ["Visa masuk dari kedutaan", "Otorisasi perjalanan elektronik", "Formulir kedatangan/bea cukai digital"] },
+        { "label": "Siapa yang perlu", "vals": ["Warga tidak bebas visa", "Warga bebas visa (lihat pembebasan)", "Hampir semua pengunjung singkat"] },
+        { "label": "Di mana mendapatkannya", "vals": ["Kedutaan/konsulat Korea", "Hanya k-eta.go.kr", "e-arrivalcard.go.kr"] },
+        { "label": "Biaya", "vals": ["Bervariasi", "₩10,000 (~US$8)", "Gratis"] },
+        { "label": "Berlaku untuk", "vals": ["Sesuai visa", "3 years, banyak kali masuk", "Satu perjalanan (kedaluwarsa 72h setelah pengajuan)"] },
+        { "label": "Kapan mengurusnya", "vals": ["Beberapa minggu sebelumnya", "≥72h sebelum naik pesawat", "≤72h sebelum tiba"] }
+      ]
+    },
+    "ketaSteps": {
+      "title": "Cara mengajukan K-ETA — langkah demi langkah",
+      "note": "Hanya jika kewarganegaraan Anda saat ini tidak dibebaskan. Proses resmi di k-eta.go.kr memiliki 7 langkah dan biasanya memakan 10–15 menit.",
+      "steps": [
+        { "n": 1, "title": "Setujui ketentuan", "detail": "Buka k-eta.go.kr (atau aplikasi K-ETA resmi) dan mulai pengajuan tunggal atau grup. Baca dan terima ketentuannya." },
+        { "n": 2, "title": "Verifikasi email Anda", "detail": "Daftar atau verifikasi dengan alamat email. Persetujuan dan tanda terima dikirim ke sini — gunakan alamat yang bisa Anda akses saat bepergian." },
+        { "n": 3, "title": "Masukkan info paspor", "detail": "Ketik detail paspor Anda (atau pindai halaman foto). Jika Anda dibebaskan, pop-up muncul di sini memberi tahu bahwa K-ETA tidak diperlukan." },
+        { "n": 4, "title": "Isi formulir pengajuan", "detail": "Tambahkan detail perjalanan, alamat di Korea, dan unggah foto wajah gaya paspor (latar polos, tanpa kacamata/topi)." },
+        { "n": 5, "title": "Periksa semuanya", "detail": "Periksa ulang ejaan nama dan nomor paspor terhadap paspor asli Anda — ketidakcocokan adalah penyebab masalah nomor 1 di gerbang." },
+        { "n": 6, "title": "Bayar biayanya", "detail": "Bayar ₩10,000 dengan kartu. Biaya ini tidak dapat dikembalikan, bahkan jika pengajuan kemudian ditolak." },
+        { "n": 7, "title": "Dapatkan persetujuan", "detail": "Sebagian besar persetujuan tiba dalam beberapa menit, tetapi bisa memakan hingga 72 jam. Simpan PDF/tangkapan layar; maskapai mungkin memeriksanya sebelum naik pesawat." }
+      ]
+    },
+    "prepare": {
+      "title": "Siapkan ini sebelum Anda mulai",
+      "items": [
+        { "icon": "📕", "t": "Paspor", "d": "Berlaku selama seluruh masa tinggal Anda. Anda akan memasukkan nomornya persis seperti tercetak." },
+        { "icon": "📸", "t": "Foto wajah", "d": "Gaya paspor: latar terang polos, wajah terlihat jelas, tanpa kacamata atau penutup kepala." },
+        { "icon": "📧", "t": "Email yang bisa dicek di luar negeri", "d": "Persetujuan dan tanda terima dikirim melalui email ke sini." },
+        { "icon": "💳", "t": "Kartu pembayaran", "d": "Untuk biaya ₩10,000 (K-ETA) — e-Arrival Card gratis." },
+        { "icon": "🏨", "t": "Alamat di Korea", "d": "Alamat dan telepon hotel/tempat menginap pertama Anda ditanyakan di kedua formulir." }
+      ]
+    },
+    "earrival": {
+      "title": "e-Arrival Card (gratis) — jangan lewatkan ini",
+      "intro": "Sejak 2025, Korea mengganti kartu kedatangan kertas dengan e-Arrival Card digital. Hampir setiap pengunjung singkat mengisinya — pengecualian besar adalah pemegang K-ETA yang masih berlaku (dan penduduk terdaftar).",
+      "steps": [
+        { "n": 1, "title": "Buka situs resmi", "detail": "Kunjungi e-arrivalcard.go.kr — gratis. Waspadai situs tiruan berbayar." },
+        { "n": 2, "title": "Isi dalam 72 jam sebelum tiba", "detail": "Anda hanya bisa mengirim dalam 3 hari sebelum mendarat (waktu Korea). Mengisi terlalu awal berarti kedaluwarsa sebelum Anda tiba." },
+        { "n": 3, "title": "Masukkan paspor, penerbangan & alamat", "detail": "Info paspor, nomor penerbangan, dan tempat Anda akan menginap di Korea." },
+        { "n": 4, "title": "Simpan konfirmasi", "detail": "Tunjukkan QR/konfirmasi di imigrasi untuk melewati antrean kertas." }
+      ]
+    },
+    "exempt": {
+      "title": "Negara yang dibebaskan K-ETA (hingga 31 Dec 2026)",
+      "intro": "Warga dari 22 negara/wilayah ini saat ini dapat masuk tanpa K-ETA. Pembebasan dijadwalkan berakhir dan K-ETA berlaku lagi pada 1 Jan 2027 — konfirmasikan kembali sebelum Anda bepergian.",
+      "countries": [
+        { "flag": "🇦🇺", "n": "Australia" }, { "flag": "🇦🇹", "n": "Austria" }, { "flag": "🇧🇪", "n": "Belgia" }, { "flag": "🇨🇦", "n": "Kanada" },
+        { "flag": "🇩🇰", "n": "Denmark" }, { "flag": "🇫🇮", "n": "Finlandia" }, { "flag": "🇫🇷", "n": "Prancis" }, { "flag": "🇩🇪", "n": "Jerman" },
+        { "flag": "🇭🇰", "n": "Hong Kong" }, { "flag": "🇮🇹", "n": "Italia" }, { "flag": "🇯🇵", "n": "Jepang" }, { "flag": "🇲🇴", "n": "Makau" },
+        { "flag": "🇳🇱", "n": "Belanda" }, { "flag": "🇳🇿", "n": "Selandia Baru" }, { "flag": "🇳🇴", "n": "Norwegia" }, { "flag": "🇵🇱", "n": "Polandia" },
+        { "flag": "🇸🇬", "n": "Singapura" }, { "flag": "🇪🇸", "n": "Spanyol" }, { "flag": "🇸🇪", "n": "Swedia" }, { "flag": "🇹🇼", "n": "Taiwan" },
+        { "flag": "🇬🇧", "n": "Inggris Raya" }, { "flag": "🇺🇸", "n": "Amerika Serikat (termasuk Guam)" }
+      ]
+    },
+    "pitfalls": {
+      "title": "5 kesalahan yang bikin orang tersandung",
+      "items": [
+        { "icon": "🕸️", "t": "Membayar situs 'agen' penipu", "d": "Situs pihak ketiga membeli iklan pencarian teratas dan menagih US$40–50 untuk layanan pemerintah yang gratis/₩10,000. Satu-satunya situs resmi adalah k-eta.go.kr dan e-arrivalcard.go.kr." },
+        { "icon": "⏰", "t": "Mengisi e-Arrival Card terlalu awal", "d": "Kartu ini kedaluwarsa 72 jam setelah Anda mengirimnya. Isi dalam 3 hari sebelum penerbangan Anda, bukan berminggu-minggu sebelumnya." },
+        { "icon": "🔤", "t": "Salah ketik nama / paspor", "d": "Nama Anda harus persis cocok dengan paspor. Satu karakter yang salah saja bisa menghentikan Anda saat check-in." },
+        { "icon": "📸", "t": "Foto ditolak", "d": "Foto buram, kacamata, topi, atau latar ramai akan dipantulkan. Gunakan foto gaya paspor yang polos dan cukup terang." },
+        { "icon": "🗓️", "t": "Mengira Anda dibebaskan", "d": "Pembebasan bersifat sementara (berakhir 2026-12-31) dan daftar negaranya berubah. Konfirmasikan kembali status Anda menjelang perjalanan." }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan",
+      "items": [
+        { "q": "Saya dari AS / Inggris / Jepang / UE. Apakah saya perlu K-ETA?", "a": "Saat ini tidak — negara-negara itu ada di pembebasan 22 negara hingga 31 Dec 2026, jadi Anda melewati K-ETA dan cukup mengisi e-Arrival Card gratis. Ini dijadwalkan berubah pada 1 Jan 2027." },
+        { "q": "Apakah K-ETA sama dengan visa?", "a": "Tidak. K-ETA adalah otorisasi perjalanan yang memungkinkan Anda naik pesawat dan masuk secara bebas visa; itu bukan visa. Jika kewarganegaraan Anda tidak bebas visa, Anda tetap perlu visa asli dari kedutaan Korea." },
+        { "q": "Berapa lama K-ETA berlaku?", "a": "Tiga tahun sejak persetujuan, dengan banyak kali masuk — jadi satu persetujuan biasanya mencakup perjalanan berulang hingga kedaluwarsa atau paspor Anda kedaluwarsa." },
+        { "q": "Berapa biayanya dan apakah bisa dikembalikan?", "a": "₩10,000 (sekitar US$8). Biaya ini tidak dapat dikembalikan, bahkan jika pengajuan Anda ditolak." },
+        { "q": "Sedini apa saya harus mengajukan?", "a": "Setidaknya 72 jam sebelum naik pesawat. Banyak persetujuan datang dalam beberapa menit, tetapi sediakan jeda kalau-kalau pengajuan Anda ditinjau." },
+        { "q": "Apakah anak-anak dan lansia perlu K-ETA?", "a": "Selama ini pelancong berusia 17 tahun ke bawah atau 65 tahun ke atas dibebaskan dari K-ETA. Konfirmasikan aturan usia yang berlaku di k-eta.go.kr sebelum mengandalkannya." },
+        { "q": "Apa itu e-Arrival Card dan apakah saya benar-benar memerlukannya?", "a": "Ini adalah versi digital dari kartu kedatangan kertas, diisi gratis di e-arrivalcard.go.kr paling awal 72 jam sebelum Anda mendarat. Sebagian besar pengunjung singkat memerlukannya; pemegang K-ETA yang berlaku dan penduduk terdaftar dibebaskan." },
+        { "q": "Situs mana yang resmi?", "a": "Hanya k-eta.go.kr (K-ETA) dan e-arrivalcard.go.kr (kartu kedatangan). Apa pun yang menagih 'biaya layanan' besar adalah penjual ulang pihak ketiga, bukan pemerintah." }
+      ]
+    },
+    "countryGuides": {
+      "title": "Temukan negara Anda",
+      "intro": "Setiap kewarganegaraan punya jalurnya sendiri. Pilih milik Anda untuk panduan yang disesuaikan — panduan visa lengkap dari A sampai Z jika Anda perlu visa, atau daftar periksa masuk singkat jika Anda bebas visa.",
+      "needTitle": "🛂 Anda perlu visa — panduan lengkap dari A sampai Z",
+      "items": [
+        { "code": "india", "flag": "🇮🇳", "name": "India", "note": "Visa turis C-3-9 · KVAC (VFS)" },
+        { "code": "vietnam", "flag": "🇻🇳", "name": "Vietnam", "note": "C-3-9 · dokumen disederhanakan · visa hingga 10 tahun" },
+        { "code": "china", "flag": "🇨🇳", "name": "Tiongkok", "note": "C-3 · Jeju bebas visa 30 hari" },
+        { "code": "philippines", "flag": "🇵🇭", "name": "Filipina", "note": "C-3 · visa GRATIS · tanpa rekening koran" },
+        { "code": "indonesia", "flag": "🇮🇩", "name": "Indonesia", "note": "C-3 · bebas visa grup mulai Mei 2026" }
+      ],
+      "freeTitle": "✅ Bebas visa — panduan masuk singkat",
+      "visaFree": [
+        { "code": "usa", "flag": "🇺🇸", "name": "Amerika Serikat", "note": "Bebas visa 90 hari · K-ETA dibebaskan" },
+        { "code": "japan", "flag": "🇯🇵", "name": "Jepang", "note": "Bebas visa 90 hari · K-ETA dibebaskan" },
+        { "code": "uk", "flag": "🇬🇧", "name": "Inggris", "note": "Bebas visa 90 hari · K-ETA dibebaskan" },
+        { "code": "canada", "flag": "🇨🇦", "name": "Kanada", "note": "Bebas visa hingga 6 bulan" },
+        { "code": "australia", "flag": "🇦🇺", "name": "Australia", "note": "Bebas visa 90 hari · K-ETA dibebaskan" },
+        { "code": "taiwan", "flag": "🇹🇼", "name": "Taiwan", "note": "Bebas visa 90 hari · K-ETA dibebaskan" }
+      ],
+      "more": "Tidak melihat negara Anda? Sebagian besar warga bebas visa lain hanya perlu e-Arrival Card (lihat di atas). Panduan negara lain sedang ditambahkan."
+    },
+    "ui": {
+      "who": "Siapa:",
+      "official": "Sumber resmi",
+      "dhead": { "situation": "Situasi Anda", "visa": "Visa", "keta": "K-ETA", "earrival": "e-Arrival" },
+      "pills": { "yes": "Wajib", "yes*": "Wajib*", "no": "Tidak perlu", "waived": "Dibebaskan '26", "n/a": "—" }
+    }
+  },
+  "es": {
+    "kicker": "Entrada y documentos",
+    "readingTime": "6 min de lectura",
+    "tldr": [
+      "La mayoría de los turistas NO necesita visado para una estancia corta, pero casi siempre necesitas la e-Arrival Card gratuita.",
+      "La K-ETA está temporalmente exenta para 22 países hasta el 31 Dec 2026; vuelve el 1 Jan 2027.",
+      "Si SÍ necesitas la K-ETA: solicítala únicamente en k-eta.go.kr, ₩10,000, válida 3 years, al menos 72 h antes de volar."
+    ],
+    "documents": {
+      "title": "Los 3 documentos, explicados con claridad",
+      "intro": "Entrar en Corea puede implicar hasta tres cosas distintas. La mayoría de los turistas de corta estancia solo se ocupan de una o dos. Esto es lo que en realidad es cada una:",
+      "cards": [
+        { "icon": "🛂", "name": "Visado de turista", "who": "Solo nacionalidades que NO están en la lista de exención de visado", "what": "Una etiqueta/adhesivo de visado que obtienes en una embajada coreana antes de viajar.", "cost": "Varía según el consulado", "tone": "neutral" },
+        { "icon": "✅", "name": "K-ETA", "who": "Nacionalidades exentas de visado (actualmente exentas para 22 países)", "what": "Una autorización de viaje electrónica vinculada a tu pasaporte. No es un visado, sino el permiso para embarcar.", "cost": "₩10,000 · válida 3 years", "tone": "blue" },
+        { "icon": "📝", "name": "e-Arrival Card", "who": "Casi todos los visitantes de corta estancia", "what": "Una declaración digital de entrada/aduana que sustituyó a la antigua tarjeta de papel que rellenabas en el avión.", "cost": "Gratis · en línea", "tone": "green" }
+      ]
+    },
+    "decision": {
+      "title": "¿Cuál necesitas TÚ? (Comprobación de 30 segundos)",
+      "intro": "Encuentra la fila que coincide contigo. Las normas dependen de la nacionalidad, así que confirma siempre tu propio caso en el sitio oficial.",
+      "branches": [
+        { "case": "Eres de uno de los 22 países exentos de K-ETA (EE. UU., Reino Unido, Japón, Canadá, UE, Australia…)", "visa": "no", "keta": "waived", "earrival": "yes", "summary": "Solo haz la e-Arrival Card gratuita. Eso es todo." },
+        { "case": "Estás exento de visado pero NO en la lista de exención", "visa": "no", "keta": "yes", "earrival": "yes*", "summary": "Obtén la K-ETA (tenerla te exime de la e-Arrival Card)." },
+        { "case": "Tu nacionalidad no está exenta de visado", "visa": "yes", "keta": "n/a", "earrival": "yes", "summary": "Solicita primero un visado de turista en una embajada coreana." }
+      ],
+      "legend": "* Tener una K-ETA válida te exime de la e-Arrival Card."
+    },
+    "compare": {
+      "title": "Visado de turista vs K-ETA vs e-Arrival Card",
+      "cols": ["", "Visado de turista", "K-ETA", "e-Arrival Card"],
+      "rows": [
+        { "label": "Qué es", "vals": ["Visado de entrada de una embajada", "Autorización de viaje electrónica", "Formulario digital de llegada/aduana"] },
+        { "label": "Quién lo necesita", "vals": ["Nacionalidades no exentas de visado", "Nacionalidades exentas de visado (ver exención)", "Casi todos los visitantes de corta estancia"] },
+        { "label": "Dónde obtenerla", "vals": ["Embajada/consulado coreano", "Solo k-eta.go.kr", "e-arrivalcard.go.kr"] },
+        { "label": "Coste", "vals": ["Varía", "₩10,000 (~US$8)", "Gratis"] },
+        { "label": "Validez", "vals": ["Según el visado", "3 years, múltiples entradas", "Un solo viaje (caduca 72h tras la presentación)"] },
+        { "label": "Cuándo hacerla", "vals": ["Con semanas de antelación", "≥72h antes de embarcar", "≤72h antes de llegar"] }
+      ]
+    },
+    "ketaSteps": {
+      "title": "Cómo solicitar la K-ETA — paso a paso",
+      "note": "Solo si tu nacionalidad no está exenta actualmente. El proceso oficial en k-eta.go.kr tiene 7 pasos y suele tardar 10–15 minutos.",
+      "steps": [
+        { "n": 1, "title": "Acepta los términos", "detail": "Abre k-eta.go.kr (o la app oficial de K-ETA) e inicia una solicitud individual o de grupo. Lee y acepta los términos." },
+        { "n": 2, "title": "Verifica tu correo", "detail": "Regístrate o verifícate con una dirección de correo. La aprobación y el recibo se envían aquí; usa una dirección a la que puedas acceder mientras viajas." },
+        { "n": 3, "title": "Introduce los datos del pasaporte", "detail": "Escribe los datos de tu pasaporte (o escanea la página de la foto). Si estás exento, aquí aparece una ventana emergente que te indica que la K-ETA no es necesaria." },
+        { "n": 4, "title": "Rellena la solicitud", "detail": "Añade los detalles del viaje, tu dirección en Corea y sube una foto de la cara tipo pasaporte (fondo liso, sin gafas ni sombrero)." },
+        { "n": 5, "title": "Revisa todo", "detail": "Vuelve a comprobar la ortografía del nombre y el número de pasaporte con tu pasaporte real: las discrepancias son la causa n.º 1 de problemas en la puerta de embarque." },
+        { "n": 6, "title": "Paga la tasa", "detail": "Paga ₩10,000 con tarjeta. Esta tasa no es reembolsable, aunque después se rechace la solicitud." },
+        { "n": 7, "title": "Recibe la aprobación", "detail": "La mayoría de las aprobaciones llegan en minutos, pero pueden tardar hasta 72 horas. Guarda el PDF/la captura; las aerolíneas pueden comprobarla antes de embarcar." }
+      ]
+    },
+    "prepare": {
+      "title": "Ten esto listo antes de empezar",
+      "items": [
+        { "icon": "📕", "t": "Pasaporte", "d": "Válido durante toda tu estancia. Introducirás el número exactamente como está impreso." },
+        { "icon": "📸", "t": "Foto de la cara", "d": "Tipo pasaporte: fondo claro y liso, cara claramente visible, sin gafas ni prendas en la cabeza." },
+        { "icon": "📧", "t": "Correo que puedas revisar en el extranjero", "d": "La aprobación y el recibo se envían aquí por correo." },
+        { "icon": "💳", "t": "Tarjeta de pago", "d": "Para la tasa de ₩10,000 (K-ETA); la e-Arrival Card es gratuita." },
+        { "icon": "🏨", "t": "Dirección en Corea", "d": "La dirección y el teléfono de tu primer hotel/alojamiento se piden en ambos formularios." }
+      ]
+    },
+    "earrival": {
+      "title": "La e-Arrival Card (gratis) — no te la saltes",
+      "intro": "Desde 2025, Corea sustituyó la tarjeta de llegada en papel por la e-Arrival Card digital. Casi todos los visitantes de corta estancia la presentan; la gran excepción son quienes tienen una K-ETA válida (y los residentes registrados).",
+      "steps": [
+        { "n": 1, "title": "Abre el sitio oficial", "detail": "Entra en e-arrivalcard.go.kr; es gratis. Cuidado con los sitios de imitación de pago." },
+        { "n": 2, "title": "Preséntala dentro de las 72 horas previas a la llegada", "detail": "Solo puedes enviarla dentro de los 3 días previos al aterrizaje (hora de Corea). Hacerlo demasiado pronto hace que caduque antes de que llegues." },
+        { "n": 3, "title": "Introduce pasaporte, vuelo y dirección", "detail": "Datos del pasaporte, número de vuelo y dónde te alojarás en Corea." },
+        { "n": 4, "title": "Guarda la confirmación", "detail": "Muestra el QR/la confirmación en inmigración para saltarte la cola del papel." }
+      ]
+    },
+    "exempt": {
+      "title": "Países exentos de K-ETA (hasta el 31 Dec 2026)",
+      "intro": "Los ciudadanos de estos 22 países/regiones pueden entrar actualmente sin K-ETA. La exención está previsto que termine y la K-ETA vuelve el 1 Jan 2027; vuelve a confirmarlo antes de viajar.",
+      "countries": [
+        { "flag": "🇦🇺", "n": "Australia" }, { "flag": "🇦🇹", "n": "Austria" }, { "flag": "🇧🇪", "n": "Bélgica" }, { "flag": "🇨🇦", "n": "Canadá" },
+        { "flag": "🇩🇰", "n": "Dinamarca" }, { "flag": "🇫🇮", "n": "Finlandia" }, { "flag": "🇫🇷", "n": "Francia" }, { "flag": "🇩🇪", "n": "Alemania" },
+        { "flag": "🇭🇰", "n": "Hong Kong" }, { "flag": "🇮🇹", "n": "Italia" }, { "flag": "🇯🇵", "n": "Japón" }, { "flag": "🇲🇴", "n": "Macao" },
+        { "flag": "🇳🇱", "n": "Países Bajos" }, { "flag": "🇳🇿", "n": "Nueva Zelanda" }, { "flag": "🇳🇴", "n": "Noruega" }, { "flag": "🇵🇱", "n": "Polonia" },
+        { "flag": "🇸🇬", "n": "Singapur" }, { "flag": "🇪🇸", "n": "España" }, { "flag": "🇸🇪", "n": "Suecia" }, { "flag": "🇹🇼", "n": "Taiwán" },
+        { "flag": "🇬🇧", "n": "Reino Unido" }, { "flag": "🇺🇸", "n": "Estados Unidos (incl. Guam)" }
+      ]
+    },
+    "pitfalls": {
+      "title": "5 errores que hacen tropezar a la gente",
+      "items": [
+        { "icon": "🕸️", "t": "Pagar a una web 'agencia' fraudulenta", "d": "Sitios de terceros compran los anuncios superiores de búsqueda y cobran US$40–50 por un servicio gubernamental gratuito/de ₩10,000. Los únicos sitios oficiales son k-eta.go.kr y e-arrivalcard.go.kr." },
+        { "icon": "⏰", "t": "Presentar la e-Arrival Card demasiado pronto", "d": "Caduca 72 horas después de enviarla. Preséntala dentro de los 3 días previos a tu vuelo, no con semanas de antelación." },
+        { "icon": "🔤", "t": "Errores en nombre / pasaporte", "d": "Tu nombre debe coincidir exactamente con el pasaporte. Un solo carácter equivocado puede detenerte en el check-in." },
+        { "icon": "📸", "t": "Foto rechazada", "d": "Las fotos borrosas, con gafas, sombreros o fondos recargados se rechazan. Usa una foto tipo pasaporte, lisa y bien iluminada." },
+        { "icon": "🗓️", "t": "Dar por hecho que estás exento", "d": "La exención es temporal (termina el 2026-12-31) y la lista de países cambia. Vuelve a confirmar tu situación cerca del viaje." }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        { "q": "Soy de EE. UU. / Reino Unido / Japón / UE. ¿Necesito la K-ETA?", "a": "Ahora mismo no: esos están en la exención de 22 países hasta el 31 Dec 2026, así que te saltas la K-ETA y solo presentas la e-Arrival Card gratuita. Está previsto que esto cambie el 1 Jan 2027." },
+        { "q": "¿Es la K-ETA lo mismo que un visado?", "a": "No. La K-ETA es una autorización de viaje que te permite embarcar y entrar sin visado; no es un visado. Si tu nacionalidad no está exenta de visado, aún necesitas un visado real de una embajada coreana." },
+        { "q": "¿Cuánto tiempo es válida la K-ETA?", "a": "Tres años desde la aprobación, con múltiples entradas, así que una sola aprobación suele cubrir viajes repetidos hasta que caduque ella o tu pasaporte." },
+        { "q": "¿Cuánto cuesta y es reembolsable?", "a": "₩10,000 (unos US$8). La tasa no es reembolsable, aunque se rechace tu solicitud." },
+        { "q": "¿Con cuánta antelación debo solicitarla?", "a": "Al menos 72 horas antes de embarcar. Muchas aprobaciones llegan en minutos, pero deja un margen por si la tuya se revisa." },
+        { "q": "¿Necesitan la K-ETA los niños y los mayores?", "a": "Históricamente, los viajeros de 17 años o menos o de 65 años o más han estado exentos de la K-ETA. Confirma la norma de edad vigente en k-eta.go.kr antes de fiarte de ello." },
+        { "q": "¿Qué es la e-Arrival Card y realmente la necesito?", "a": "Es la versión digital de la tarjeta de llegada en papel, presentada gratis en e-arrivalcard.go.kr hasta 72 horas antes de aterrizar. La mayoría de los visitantes de corta estancia la necesitan; los titulares de una K-ETA válida y los residentes registrados están exentos." },
+        { "q": "¿Qué sitios son oficiales?", "a": "Solo k-eta.go.kr (K-ETA) y e-arrivalcard.go.kr (tarjeta de llegada). Cualquier cosa que cobre una gran 'tasa de servicio' es un revendedor externo, no el gobierno." }
+      ]
+    },
+    "countryGuides": {
+      "title": "Encuentra tu país",
+      "intro": "Cada nacionalidad tiene su propio camino. Elige el tuyo para una guía a medida: un recorrido de visado completo de la A a la Z si necesitas visado, o una lista de comprobación de entrada rápida si estás exento de visado.",
+      "needTitle": "🛂 Necesitas visado — recorrido completo de la A a la Z",
+      "items": [
+        { "code": "india", "flag": "🇮🇳", "name": "India", "note": "Visado de turista C-3-9 · KVAC (VFS)" },
+        { "code": "vietnam", "flag": "🇻🇳", "name": "Vietnam", "note": "C-3-9 · documentos simplificados · visado de hasta 10 años" },
+        { "code": "china", "flag": "🇨🇳", "name": "China", "note": "C-3 · Jeju sin visado 30 días" },
+        { "code": "philippines", "flag": "🇵🇭", "name": "Filipinas", "note": "C-3 · visado GRATUITO · sin extracto bancario" },
+        { "code": "indonesia", "flag": "🇮🇩", "name": "Indonesia", "note": "C-3 · exención de visado en grupo desde mayo de 2026" }
+      ],
+      "freeTitle": "✅ Exento de visado — guía de entrada rápida",
+      "visaFree": [
+        { "code": "usa", "flag": "🇺🇸", "name": "EE. UU.", "note": "Sin visado 90 días · K-ETA exenta" },
+        { "code": "japan", "flag": "🇯🇵", "name": "Japón", "note": "Sin visado 90 días · K-ETA exenta" },
+        { "code": "uk", "flag": "🇬🇧", "name": "Reino Unido", "note": "Sin visado 90 días · K-ETA exenta" },
+        { "code": "canada", "flag": "🇨🇦", "name": "Canadá", "note": "Sin visado hasta 6 meses" },
+        { "code": "australia", "flag": "🇦🇺", "name": "Australia", "note": "Sin visado 90 días · K-ETA exenta" },
+        { "code": "taiwan", "flag": "🇹🇼", "name": "Taiwán", "note": "Sin visado 90 días · K-ETA exenta" }
+      ],
+      "more": "¿No ves tu país? La mayoría de las demás nacionalidades exentas de visado solo necesitan la e-Arrival Card (ver arriba). Se están añadiendo más guías por país."
+    },
+    "ui": {
+      "who": "Quién:",
+      "official": "Fuentes oficiales",
+      "dhead": { "situation": "Tu situación", "visa": "Visado", "keta": "K-ETA", "earrival": "e-Arrival" },
+      "pills": { "yes": "Obligatorio", "yes*": "Obligatorio*", "no": "No necesario", "waived": "Exento '26", "n/a": "—" }
+    }
+  },
+  "ms": {
+    "kicker": "Kemasukan & Dokumen",
+    "readingTime": "Bacaan 6 minit",
+    "tldr": [
+      "Kebanyakan pelancong TIDAK perlu visa untuk lawatan singkat — tetapi anda hampir selalu perlukan e-Arrival Card percuma.",
+      "K-ETA dikecualikan buat sementara untuk 22 negara sehingga 31 Dec 2026; ia kembali pada 1 Jan 2027.",
+      "Jika anda MEMANG perlukan K-ETA: mohon hanya di k-eta.go.kr, ₩10,000, sah 3 years, sekurang-kurangnya 72 jam sebelum terbang."
+    ],
+    "documents": {
+      "title": "Tiga dokumen, diterangkan dengan mudah",
+      "intro": "Masuk ke Korea boleh melibatkan sehingga tiga perkara berasingan. Kebanyakan pelancong jangka pendek hanya mengurus satu atau dua daripadanya. Inilah maksud sebenar setiap satu:",
+      "cards": [
+        { "icon": "🛂", "name": "Visa Pelancong", "who": "Hanya warganegara yang TIDAK ada dalam senarai bebas visa", "what": "Pelekat/label visa yang anda peroleh daripada kedutaan Korea sebelum bergerak.", "cost": "Berbeza mengikut konsulat", "tone": "neutral" },
+        { "icon": "✅", "name": "K-ETA", "who": "Warganegara bebas visa (kini dikecualikan untuk 22 negara)", "what": "Kebenaran perjalanan elektronik yang dipautkan kepada pasport anda. Bukan visa — ia kebenaran untuk menaiki pesawat.", "cost": "₩10,000 · sah 3 years", "tone": "blue" },
+        { "icon": "📝", "name": "e-Arrival Card", "who": "Hampir setiap pelawat jangka pendek", "what": "Perisytiharan masuk/kastam digital yang menggantikan kad kertas lama yang dahulu anda isi dalam pesawat.", "cost": "Percuma · dalam talian", "tone": "green" }
+      ]
+    },
+    "decision": {
+      "title": "Yang mana ANDA perlukan? (Semakan 30 saat)",
+      "intro": "Cari baris yang sepadan dengan anda. Peraturan bergantung pada warganegara, jadi sentiasa sahkan kes anda sendiri di laman rasmi.",
+      "branches": [
+        { "case": "Anda dari salah satu 22 negara yang dikecualikan K-ETA (AS, UK, Jepun, Kanada, EU, Australia…)", "visa": "no", "keta": "waived", "earrival": "yes", "summary": "Cukup buat e-Arrival Card percuma. Itu sahaja." },
+        { "case": "Anda bebas visa tetapi TIDAK dalam senarai pengecualian", "visa": "no", "keta": "yes", "earrival": "yes*", "summary": "Dapatkan K-ETA (memilikinya mengecualikan anda daripada e-Arrival Card)." },
+        { "case": "Warganegara anda tidak bebas visa", "visa": "yes", "keta": "n/a", "earrival": "yes", "summary": "Mohon visa pelancong di kedutaan Korea terlebih dahulu." }
+      ],
+      "legend": "* Memiliki K-ETA yang sah mengecualikan anda daripada e-Arrival Card."
+    },
+    "compare": {
+      "title": "Visa Pelancong vs K-ETA vs e-Arrival Card",
+      "cols": ["", "Visa Pelancong", "K-ETA", "e-Arrival Card"],
+      "rows": [
+        { "label": "Apa itu", "vals": ["Visa masuk dari kedutaan", "Kebenaran perjalanan elektronik", "Borang ketibaan/kastam digital"] },
+        { "label": "Siapa yang perlu", "vals": ["Warganegara tidak bebas visa", "Warganegara bebas visa (lihat pengecualian)", "Hampir semua pelawat jangka pendek"] },
+        { "label": "Di mana mendapatkannya", "vals": ["Kedutaan/konsulat Korea", "k-eta.go.kr sahaja", "e-arrivalcard.go.kr"] },
+        { "label": "Kos", "vals": ["Berbeza-beza", "₩10,000 (~US$8)", "Percuma"] },
+        { "label": "Sah untuk", "vals": ["Ikut visa", "3 years, pelbagai kemasukan", "Satu perjalanan (luput 72h selepas dihantar)"] },
+        { "label": "Bila hendak buat", "vals": ["Beberapa minggu lebih awal", "≥72h sebelum menaiki pesawat", "≤72h sebelum tiba"] }
+      ]
+    },
+    "ketaSteps": {
+      "title": "Cara memohon K-ETA — langkah demi langkah",
+      "note": "Hanya jika warganegara anda kini tidak dikecualikan. Proses rasmi di k-eta.go.kr mempunyai 7 langkah dan biasanya mengambil masa 10–15 minit.",
+      "steps": [
+        { "n": 1, "title": "Setuju dengan terma", "detail": "Buka k-eta.go.kr (atau aplikasi K-ETA rasmi) dan mulakan permohonan tunggal atau berkumpulan. Baca dan terima terma." },
+        { "n": 2, "title": "Sahkan e-mel anda", "detail": "Daftar atau sahkan dengan alamat e-mel. Kelulusan dan resit dihantar ke sini — gunakan alamat yang boleh anda akses semasa bergerak." },
+        { "n": 3, "title": "Masukkan maklumat pasport", "detail": "Taip butiran pasport anda (atau imbas halaman foto). Jika anda dikecualikan, tetingkap timbul muncul di sini memberitahu K-ETA tidak diperlukan." },
+        { "n": 4, "title": "Isi borang permohonan", "detail": "Tambah butiran perjalanan, alamat di Korea, dan muat naik foto wajah gaya pasport (latar polos, tanpa cermin mata/topi)." },
+        { "n": 5, "title": "Semak semuanya", "detail": "Semak semula ejaan nama dan nombor pasport berbanding pasport sebenar anda — ketidakpadanan ialah punca nombor 1 masalah di pintu masuk pesawat." },
+        { "n": 6, "title": "Bayar yuran", "detail": "Bayar ₩10,000 dengan kad. Yuran ini tidak boleh dikembalikan, walaupun permohonan kemudian ditolak." },
+        { "n": 7, "title": "Dapatkan kelulusan", "detail": "Kebanyakan kelulusan tiba dalam beberapa minit, tetapi boleh mengambil masa sehingga 72 jam. Simpan PDF/tangkapan skrin; syarikat penerbangan mungkin menyemaknya sebelum menaiki pesawat." }
+      ]
+    },
+    "prepare": {
+      "title": "Sediakan perkara ini sebelum anda mula",
+      "items": [
+        { "icon": "📕", "t": "Pasport", "d": "Sah sepanjang tempoh anda tinggal. Anda akan memasukkan nombornya tepat seperti tercetak." },
+        { "icon": "📸", "t": "Foto wajah", "d": "Gaya pasport: latar cerah polos, wajah kelihatan jelas, tanpa cermin mata atau penutup kepala." },
+        { "icon": "📧", "t": "E-mel yang boleh disemak di luar negara", "d": "Kelulusan dan resit dihantar melalui e-mel ke sini." },
+        { "icon": "💳", "t": "Kad pembayaran", "d": "Untuk yuran ₩10,000 (K-ETA) — e-Arrival Card adalah percuma." },
+        { "icon": "🏨", "t": "Alamat di Korea", "d": "Alamat dan telefon hotel/penginapan pertama anda ditanya pada kedua-dua borang." }
+      ]
+    },
+    "earrival": {
+      "title": "e-Arrival Card (percuma) — jangan lewatkan ini",
+      "intro": "Sejak 2025, Korea menggantikan kad ketibaan kertas dengan e-Arrival Card digital. Hampir setiap pelawat jangka pendek mengisinya — pengecualian besar ialah mereka yang memegang K-ETA sah (dan penduduk berdaftar).",
+      "steps": [
+        { "n": 1, "title": "Buka laman rasmi", "detail": "Pergi ke e-arrivalcard.go.kr — ia percuma. Berhati-hati dengan laman tiruan berbayar." },
+        { "n": 2, "title": "Isi dalam tempoh 72 jam sebelum tiba", "detail": "Anda hanya boleh hantar dalam tempoh 3 hari sebelum mendarat (waktu Korea). Mengisi terlalu awal bermakna ia luput sebelum anda tiba." },
+        { "n": 3, "title": "Masukkan pasport, penerbangan & alamat", "detail": "Maklumat pasport, nombor penerbangan, dan tempat anda akan menginap di Korea." },
+        { "n": 4, "title": "Simpan pengesahan", "detail": "Tunjukkan QR/pengesahan di imigresen untuk melangkau barisan kertas." }
+      ]
+    },
+    "exempt": {
+      "title": "Negara yang dikecualikan K-ETA (sehingga 31 Dec 2026)",
+      "intro": "Warganegara 22 negara/wilayah ini kini boleh masuk tanpa K-ETA. Pengecualian dijadualkan tamat dan K-ETA kembali pada 1 Jan 2027 — sahkan semula sebelum anda bergerak.",
+      "countries": [
+        { "flag": "🇦🇺", "n": "Australia" }, { "flag": "🇦🇹", "n": "Austria" }, { "flag": "🇧🇪", "n": "Belgium" }, { "flag": "🇨🇦", "n": "Kanada" },
+        { "flag": "🇩🇰", "n": "Denmark" }, { "flag": "🇫🇮", "n": "Finland" }, { "flag": "🇫🇷", "n": "Perancis" }, { "flag": "🇩🇪", "n": "Jerman" },
+        { "flag": "🇭🇰", "n": "Hong Kong" }, { "flag": "🇮🇹", "n": "Itali" }, { "flag": "🇯🇵", "n": "Jepun" }, { "flag": "🇲🇴", "n": "Macau" },
+        { "flag": "🇳🇱", "n": "Belanda" }, { "flag": "🇳🇿", "n": "New Zealand" }, { "flag": "🇳🇴", "n": "Norway" }, { "flag": "🇵🇱", "n": "Poland" },
+        { "flag": "🇸🇬", "n": "Singapura" }, { "flag": "🇪🇸", "n": "Sepanyol" }, { "flag": "🇸🇪", "n": "Sweden" }, { "flag": "🇹🇼", "n": "Taiwan" },
+        { "flag": "🇬🇧", "n": "United Kingdom" }, { "flag": "🇺🇸", "n": "Amerika Syarikat (termasuk Guam)" }
+      ]
+    },
+    "pitfalls": {
+      "title": "5 kesilapan yang membuatkan orang tersandung",
+      "items": [
+        { "icon": "🕸️", "t": "Membayar laman 'agensi' penipuan", "d": "Laman pihak ketiga membeli iklan carian teratas dan mengenakan US$40–50 untuk perkhidmatan kerajaan yang percuma/₩10,000. Satu-satunya laman rasmi ialah k-eta.go.kr dan e-arrivalcard.go.kr." },
+        { "icon": "⏰", "t": "Mengisi e-Arrival Card terlalu awal", "d": "Ia luput 72 jam selepas anda menghantarnya. Isi dalam tempoh 3 hari sebelum penerbangan anda, bukan berminggu-minggu lebih awal." },
+        { "icon": "🔤", "t": "Salah taip nama / pasport", "d": "Nama anda mesti sepadan dengan pasport dengan tepat. Satu aksara yang salah pun boleh menghentikan anda semasa daftar masuk." },
+        { "icon": "📸", "t": "Foto ditolak", "d": "Foto kabur, cermin mata, topi atau latar yang sibuk akan ditolak. Gunakan foto gaya pasport yang polos dan cukup cahaya." },
+        { "icon": "🗓️", "t": "Menganggap anda dikecualikan", "d": "Pengecualian bersifat sementara (tamat 2026-12-31) dan senarai negara berubah. Sahkan semula status anda hampir dengan tarikh perjalanan." }
+      ]
+    },
+    "faq": {
+      "title": "Soalan lazim",
+      "items": [
+        { "q": "Saya dari AS / UK / Jepun / EU. Adakah saya perlukan K-ETA?", "a": "Buat masa ini tidak — negara-negara itu berada dalam pengecualian 22 negara sehingga 31 Dec 2026, jadi anda langkau K-ETA dan hanya isi e-Arrival Card percuma. Ini dijadualkan berubah pada 1 Jan 2027." },
+        { "q": "Adakah K-ETA sama seperti visa?", "a": "Tidak. K-ETA ialah kebenaran perjalanan yang membolehkan anda menaiki pesawat dan masuk secara bebas visa; ia bukan visa. Jika warganegara anda tidak bebas visa, anda masih perlukan visa sebenar daripada kedutaan Korea." },
+        { "q": "Berapa lama K-ETA sah?", "a": "Tiga tahun dari kelulusan, dengan pelbagai kemasukan — jadi satu kelulusan biasanya meliputi perjalanan berulang sehingga ia atau pasport anda luput." },
+        { "q": "Berapa kosnya dan bolehkah dikembalikan?", "a": "₩10,000 (kira-kira US$8). Yuran ini tidak boleh dikembalikan, walaupun permohonan anda ditolak." },
+        { "q": "Seawal mana saya patut memohon?", "a": "Sekurang-kurangnya 72 jam sebelum menaiki pesawat. Banyak kelulusan datang dalam beberapa minit, tetapi sediakan jeda sekiranya permohonan anda disemak." },
+        { "q": "Adakah kanak-kanak dan warga emas perlukan K-ETA?", "a": "Selama ini pengembara berumur 17 tahun ke bawah atau 65 tahun ke atas dikecualikan daripada K-ETA. Sahkan peraturan umur semasa di k-eta.go.kr sebelum bergantung padanya." },
+        { "q": "Apakah e-Arrival Card dan adakah saya benar-benar memerlukannya?", "a": "Ia versi digital kad ketibaan kertas, diisi percuma di e-arrivalcard.go.kr seawal 72 jam sebelum anda mendarat. Kebanyakan pelawat jangka pendek memerlukannya; pemegang K-ETA sah dan penduduk berdaftar dikecualikan." },
+        { "q": "Laman mana yang rasmi?", "a": "Hanya k-eta.go.kr (K-ETA) dan e-arrivalcard.go.kr (kad ketibaan). Apa-apa yang mengenakan 'yuran perkhidmatan' yang besar ialah penjual semula pihak ketiga, bukan kerajaan." }
+      ]
+    },
+    "countryGuides": {
+      "title": "Cari negara anda",
+      "intro": "Setiap warganegara mempunyai laluannya sendiri. Pilih milik anda untuk panduan yang disesuaikan — panduan visa lengkap dari A hingga Z jika anda perlukan visa, atau senarai semak kemasukan pantas jika anda bebas visa.",
+      "needTitle": "🛂 Anda perlukan visa — panduan lengkap dari A hingga Z",
+      "items": [
+        { "code": "india", "flag": "🇮🇳", "name": "India", "note": "Visa pelancong C-3-9 · KVAC (VFS)" },
+        { "code": "vietnam", "flag": "🇻🇳", "name": "Vietnam", "note": "C-3-9 · dokumen dipermudah · visa sehingga 10 tahun" },
+        { "code": "china", "flag": "🇨🇳", "name": "China", "note": "C-3 · Jeju bebas visa 30 hari" },
+        { "code": "philippines", "flag": "🇵🇭", "name": "Filipina", "note": "C-3 · visa PERCUMA · tiada penyata bank" },
+        { "code": "indonesia", "flag": "🇮🇩", "name": "Indonesia", "note": "C-3 · bebas visa berkumpulan mulai Mei 2026" }
+      ],
+      "freeTitle": "✅ Bebas visa — panduan kemasukan pantas",
+      "visaFree": [
+        { "code": "usa", "flag": "🇺🇸", "name": "Amerika Syarikat", "note": "Bebas visa 90 hari · K-ETA dikecualikan" },
+        { "code": "japan", "flag": "🇯🇵", "name": "Jepun", "note": "Bebas visa 90 hari · K-ETA dikecualikan" },
+        { "code": "uk", "flag": "🇬🇧", "name": "UK", "note": "Bebas visa 90 hari · K-ETA dikecualikan" },
+        { "code": "canada", "flag": "🇨🇦", "name": "Kanada", "note": "Bebas visa sehingga 6 bulan" },
+        { "code": "australia", "flag": "🇦🇺", "name": "Australia", "note": "Bebas visa 90 hari · K-ETA dikecualikan" },
+        { "code": "taiwan", "flag": "🇹🇼", "name": "Taiwan", "note": "Bebas visa 90 hari · K-ETA dikecualikan" }
+      ],
+      "more": "Tidak nampak negara anda? Kebanyakan warganegara bebas visa lain hanya perlukan e-Arrival Card (lihat di atas). Lebih banyak panduan negara sedang ditambah."
+    },
+    "ui": {
+      "who": "Siapa:",
+      "official": "Sumber rasmi",
+      "dhead": { "situation": "Situasi anda", "visa": "Visa", "keta": "K-ETA", "earrival": "e-Arrival" },
+      "pills": { "yes": "Diperlukan", "yes*": "Diperlukan*", "no": "Tidak perlu", "waived": "Dikecualikan '26", "n/a": "—" }
+    }
+  },
+  "ko": {
+    "kicker": "입국 & 서류",
+    "readingTime": "6분 분량",
+    "tldr": [
+      "대부분의 관광객은 단기 체류 시 비자가 필요 없습니다 — 하지만 무료 e-Arrival Card는 거의 항상 필요합니다.",
+      "K-ETA는 22개국에 대해 31 Dec 2026까지 한시적으로 면제되며, 1 Jan 2027에 다시 시행됩니다.",
+      "K-ETA가 정말 필요하다면: k-eta.go.kr에서만 신청, ₩10,000, 유효기간 3 years, 탑승 최소 72시간 전에 신청하세요."
+    ],
+    "documents": {
+      "title": "세 가지 서류, 쉬운 말로 정리",
+      "intro": "한국 입국은 최대 세 가지 별개의 절차와 관련될 수 있습니다. 대부분의 단기 관광객은 그중 한두 가지만 처리하면 됩니다. 각각이 실제로 무엇인지 정리했습니다:",
+      "cards": [
+        { "icon": "🛂", "name": "관광 비자", "who": "무비자 명단에 없는 국적만", "what": "여행 전 한국 대사관에서 받는 비자 스티커／라벨.", "cost": "영사관마다 다름", "tone": "neutral" },
+        { "icon": "✅", "name": "K-ETA", "who": "무비자 국민 (현재 22개국은 면제)", "what": "여권과 연동된 전자여행허가. 비자가 아니라 — 탑승 허가입니다.", "cost": "₩10,000 · 유효기간 3 years", "tone": "blue" },
+        { "icon": "📝", "name": "e-Arrival Card", "who": "거의 모든 단기 방문객", "what": "예전에 기내에서 작성하던 종이 카드를 대체한 디지털 입국／세관 신고서.", "cost": "무료 · 온라인", "tone": "green" }
+      ]
+    },
+    "decision": {
+      "title": "당신에게 필요한 건 무엇? (30초 확인)",
+      "intro": "본인에게 맞는 행을 찾으세요. 규정은 국적에 따라 다르므로, 항상 공식 사이트에서 본인의 경우를 확인하세요.",
+      "branches": [
+        { "case": "22개 K-ETA 면제국 중 하나 출신 (미국, 영국, 일본, 캐나다, EU, 호주…)", "visa": "no", "keta": "waived", "earrival": "yes", "summary": "무료 e-Arrival Card만 작성하면 됩니다. 그게 전부입니다." },
+        { "case": "무비자이지만 면제 명단에는 없음", "visa": "no", "keta": "yes", "earrival": "yes*", "summary": "K-ETA를 받으세요 (보유 시 e-Arrival Card는 면제됩니다)." },
+        { "case": "당신의 국적은 무비자가 아님", "visa": "yes", "keta": "n/a", "earrival": "yes", "summary": "먼저 한국 대사관에서 관광 비자를 신청하세요." }
+      ],
+      "legend": "* 유효한 K-ETA를 보유하면 e-Arrival Card는 면제됩니다."
+    },
+    "compare": {
+      "title": "관광 비자 vs K-ETA vs e-Arrival Card",
+      "cols": ["", "관광 비자", "K-ETA", "e-Arrival Card"],
+      "rows": [
+        { "label": "무엇인가", "vals": ["대사관에서 받는 입국 비자", "전자여행허가", "디지털 입국／세관 양식"] },
+        { "label": "누가 필요한가", "vals": ["무비자가 아닌 국민", "무비자 국민 (면제 조치 참고)", "거의 모든 단기 방문객"] },
+        { "label": "어디서 받나", "vals": ["한국 대사관／영사관", "k-eta.go.kr에서만", "e-arrivalcard.go.kr"] },
+        { "label": "비용", "vals": ["경우에 따라 다름", "₩10,000 (약 US$8)", "무료"] },
+        { "label": "유효기간", "vals": ["비자에 따름", "3 years, 복수 입국", "1회 여행 (제출 후 72h 만료)"] },
+        { "label": "언제 하나", "vals": ["몇 주 전", "탑승 ≥72h 전", "도착 ≤72h 전"] }
+      ]
+    },
+    "ketaSteps": {
+      "title": "K-ETA 신청 방법 — 단계별 안내",
+      "note": "현재 당신의 국적이 면제되지 않은 경우에만 해당됩니다. k-eta.go.kr의 공식 절차는 7단계이며 보통 10–15분 걸립니다.",
+      "steps": [
+        { "n": 1, "title": "약관에 동의", "detail": "k-eta.go.kr(또는 공식 K-ETA 앱)를 열고 개인 또는 단체 신청을 시작합니다. 약관을 읽고 동의하세요." },
+        { "n": 2, "title": "이메일 인증", "detail": "이메일 주소로 등록 또는 인증합니다. 승인과 영수증이 이곳으로 전송되니, 여행 중에도 확인 가능한 주소를 사용하세요." },
+        { "n": 3, "title": "여권 정보 입력", "detail": "여권 정보를 입력(또는 사진 페이지 스캔)합니다. 면제 대상이면 여기서 K-ETA가 필요 없다는 팝업이 나타납니다." },
+        { "n": 4, "title": "신청서 작성", "detail": "여행 정보, 한국 내 주소를 추가하고, 여권용 얼굴 사진(단색 배경, 안경／모자 없음)을 업로드합니다." },
+        { "n": 5, "title": "전체 검토", "detail": "실제 여권과 대조해 이름 철자와 여권 번호를 다시 확인하세요 — 불일치는 탑승구에서 문제를 일으키는 1순위 원인입니다." },
+        { "n": 6, "title": "수수료 결제", "detail": "카드로 ₩10,000을 결제합니다. 이 수수료는 이후 신청이 거절되어도 환불되지 않습니다." },
+        { "n": 7, "title": "승인 받기", "detail": "대부분 몇 분 안에 승인되지만 최대 72시간까지 걸릴 수 있습니다. PDF／스크린샷을 저장하세요; 항공사가 탑승 전 확인할 수 있습니다." }
+      ]
+    },
+    "prepare": {
+      "title": "시작하기 전에 이것들을 준비하세요",
+      "items": [
+        { "icon": "📕", "t": "여권", "d": "전체 체류 기간 동안 유효해야 합니다. 번호는 인쇄된 그대로 정확히 입력합니다." },
+        { "icon": "📸", "t": "얼굴 사진", "d": "여권 스타일: 단색 밝은 배경, 얼굴이 뚜렷하게 보이고, 안경이나 모자 없이." },
+        { "icon": "📧", "t": "해외에서도 확인 가능한 이메일", "d": "승인과 영수증이 이곳으로 이메일 발송됩니다." },
+        { "icon": "💳", "t": "결제 카드", "d": "₩10,000 수수료(K-ETA)용 — e-Arrival Card는 무료입니다." },
+        { "icon": "🏨", "t": "한국 주소", "d": "첫 호텔／숙소 주소와 전화번호를 두 양식 모두에서 묻습니다." }
+      ]
+    },
+    "earrival": {
+      "title": "e-Arrival Card (무료) — 건너뛰지 마세요",
+      "intro": "2025년부터 한국은 종이 입국카드를 디지털 e-Arrival Card로 대체했습니다. 거의 모든 단기 방문객이 작성하며 — 큰 예외는 유효한 K-ETA 보유자(및 등록 거주자)입니다.",
+      "steps": [
+        { "n": 1, "title": "공식 사이트 열기", "detail": "e-arrivalcard.go.kr로 이동하세요 — 무료입니다. 유료 유사 사이트를 조심하세요." },
+        { "n": 2, "title": "도착 72시간 이내에 작성", "detail": "착륙 3일 이내(한국 시간)에만 제출할 수 있습니다. 너무 일찍 작성하면 도착 전에 만료됩니다." },
+        { "n": 3, "title": "여권, 항공편 & 주소 입력", "detail": "여권 정보, 항공편 번호, 그리고 한국에서 머물 곳." },
+        { "n": 4, "title": "확인서 저장", "detail": "입국심사에서 QR／확인서를 제시하면 종이 줄을 건너뛸 수 있습니다." }
+      ]
+    },
+    "exempt": {
+      "title": "K-ETA 면제국 (31 Dec 2026까지)",
+      "intro": "이 22개 국가／지역 시민은 현재 K-ETA 없이 입국할 수 있습니다. 면제는 종료될 예정이며 K-ETA는 1 Jan 2027에 다시 시행됩니다 — 여행 전 다시 확인하세요.",
+      "countries": [
+        { "flag": "🇦🇺", "n": "호주" }, { "flag": "🇦🇹", "n": "오스트리아" }, { "flag": "🇧🇪", "n": "벨기에" }, { "flag": "🇨🇦", "n": "캐나다" },
+        { "flag": "🇩🇰", "n": "덴마크" }, { "flag": "🇫🇮", "n": "핀란드" }, { "flag": "🇫🇷", "n": "프랑스" }, { "flag": "🇩🇪", "n": "독일" },
+        { "flag": "🇭🇰", "n": "홍콩" }, { "flag": "🇮🇹", "n": "이탈리아" }, { "flag": "🇯🇵", "n": "일본" }, { "flag": "🇲🇴", "n": "마카오" },
+        { "flag": "🇳🇱", "n": "네덜란드" }, { "flag": "🇳🇿", "n": "뉴질랜드" }, { "flag": "🇳🇴", "n": "노르웨이" }, { "flag": "🇵🇱", "n": "폴란드" },
+        { "flag": "🇸🇬", "n": "싱가포르" }, { "flag": "🇪🇸", "n": "스페인" }, { "flag": "🇸🇪", "n": "스웨덴" }, { "flag": "🇹🇼", "n": "대만" },
+        { "flag": "🇬🇧", "n": "영국" }, { "flag": "🇺🇸", "n": "미국 (괌 포함)" }
+      ]
+    },
+    "pitfalls": {
+      "title": "사람들이 걸려 넘어지는 5가지 실수",
+      "items": [
+        { "icon": "🕸️", "t": "사기성 '대행' 사이트에 결제", "d": "제3자 사이트는 검색 상단 광고를 사서, 무료／₩10,000짜리 정부 서비스에 US$40–50을 청구합니다. 유일한 공식 사이트는 k-eta.go.kr과 e-arrivalcard.go.kr뿐입니다." },
+        { "icon": "⏰", "t": "e-Arrival Card를 너무 일찍 작성", "d": "제출 후 72시간이 지나면 만료됩니다. 몇 주 전이 아니라 항공편 3일 이내에 작성하세요." },
+        { "icon": "🔤", "t": "이름 / 여권 오타", "d": "이름은 여권과 정확히 일치해야 합니다. 글자 하나만 틀려도 체크인에서 막힐 수 있습니다." },
+        { "icon": "📸", "t": "사진 반려", "d": "흐릿한 사진, 안경, 모자, 산만한 배경은 반려됩니다. 단색의 밝은 여권용 사진을 사용하세요." },
+        { "icon": "🗓️", "t": "면제라고 넘겨짚기", "d": "면제는 한시적(2026-12-31 종료)이며 대상국 명단도 바뀝니다. 여행이 가까워지면 본인 상태를 다시 확인하세요." }
+      ]
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "items": [
+        { "q": "저는 미국 / 영국 / 일본 / EU 출신입니다. K-ETA가 필요한가요?", "a": "지금은 필요 없습니다 — 해당 국가들은 31 Dec 2026까지의 22개국 면제 대상이므로, K-ETA를 건너뛰고 무료 e-Arrival Card만 작성하면 됩니다. 이는 1 Jan 2027에 바뀔 예정입니다." },
+        { "q": "K-ETA는 비자와 같은 건가요?", "a": "아닙니다. K-ETA는 무비자로 탑승하고 입국하게 해주는 여행허가이며, 비자가 아닙니다. 국적이 무비자가 아니라면 여전히 한국 대사관에서 실제 비자를 받아야 합니다." },
+        { "q": "K-ETA의 유효기간은 얼마나 되나요?", "a": "승인일로부터 3년, 복수 입국 가능 — 따라서 한 번의 승인으로 대개 만료되거나 여권이 만료될 때까지 반복 여행을 커버합니다." },
+        { "q": "비용은 얼마이고 환불되나요?", "a": "₩10,000 (약 US$8). 이 수수료는 신청이 거절되어도 환불되지 않습니다." },
+        { "q": "얼마나 일찍 신청해야 하나요?", "a": "탑승 최소 72시간 전에. 많은 경우 몇 분 안에 승인되지만, 심사에 회부될 경우를 대비해 여유를 두세요." },
+        { "q": "어린이와 노년층도 K-ETA가 필요한가요?", "a": "그동안 만 17세 이하 또는 만 65세 이상 여행자는 K-ETA가 면제되어 왔습니다. 이에 의존하기 전에 k-eta.go.kr에서 현행 연령 규정을 확인하세요." },
+        { "q": "e-Arrival Card는 무엇이고 정말 필요한가요?", "a": "종이 입국카드의 디지털 버전으로, e-arrivalcard.go.kr에서 무료로, 착륙 최대 72시간 전부터 작성합니다. 대부분의 단기 방문객에게 필요하며, 유효한 K-ETA 보유자와 등록 거주자는 면제됩니다." },
+        { "q": "어떤 사이트가 공식인가요?", "a": "k-eta.go.kr(K-ETA)과 e-arrivalcard.go.kr(입국카드)뿐입니다. 큰 '서비스 수수료'를 청구하는 것은 정부가 아니라 제3자 재판매업체입니다." }
+      ]
+    },
+    "countryGuides": {
+      "title": "당신의 국가를 찾으세요",
+      "intro": "국적마다 경로가 다릅니다. 본인의 국적을 선택해 맞춤형 안내를 받으세요 — 비자가 필요하면 A부터 Z까지 전체 비자 절차를, 무비자라면 빠른 입국 체크리스트를 제공합니다.",
+      "needTitle": "🛂 비자가 필요합니다 — A부터 Z까지 전체 절차",
+      "items": [
+        { "code": "india", "flag": "🇮🇳", "name": "인도", "note": "C-3-9 관광 비자 · KVAC (VFS)" },
+        { "code": "vietnam", "flag": "🇻🇳", "name": "베트남", "note": "C-3-9 · 간소화 서류 · 최대 10년 비자" },
+        { "code": "china", "flag": "🇨🇳", "name": "중국", "note": "C-3 · 제주 무비자 30일" },
+        { "code": "philippines", "flag": "🇵🇭", "name": "필리핀", "note": "C-3 · 무료 비자 · 은행 잔고증명 불필요" },
+        { "code": "indonesia", "flag": "🇮🇩", "name": "인도네시아", "note": "C-3 · 2026년 5월부터 단체 무비자" }
+      ],
+      "freeTitle": "✅ 무비자 — 빠른 입국 안내",
+      "visaFree": [
+        { "code": "usa", "flag": "🇺🇸", "name": "미국", "note": "무비자 90일 · K-ETA 면제" },
+        { "code": "japan", "flag": "🇯🇵", "name": "일본", "note": "무비자 90일 · K-ETA 면제" },
+        { "code": "uk", "flag": "🇬🇧", "name": "영국", "note": "무비자 90일 · K-ETA 면제" },
+        { "code": "canada", "flag": "🇨🇦", "name": "캐나다", "note": "무비자 최대 6개월" },
+        { "code": "australia", "flag": "🇦🇺", "name": "호주", "note": "무비자 90일 · K-ETA 면제" },
+        { "code": "taiwan", "flag": "🇹🇼", "name": "대만", "note": "무비자 90일 · K-ETA 면제" }
+      ],
+      "more": "본인 국가가 보이지 않나요? 다른 대부분의 무비자 국민은 e-Arrival Card만 있으면 됩니다(위 참고). 더 많은 국가별 안내가 추가되고 있습니다."
+    },
+    "ui": {
+      "who": "대상:",
+      "official": "공식 출처",
+      "dhead": { "situation": "내 상황", "visa": "비자", "keta": "K-ETA", "earrival": "e-Arrival" },
+      "pills": { "yes": "필요", "yes*": "필요*", "no": "불필요", "waived": "면제('26)", "n/a": "—" }
+    }
+  }
+}
