@@ -9,8 +9,10 @@
     "start": "next start",
     "lint": "next lint",
     "verify:i18n": "node scripts/verify-i18n.mjs",
+    "verify:seo": "node scripts/verify-seo.mjs",
     "review:export": "node scripts/export-review.mjs",
-    "prebuild": "node scripts/verify-i18n.mjs"
+    "prebuild": "node scripts/verify-i18n.mjs",
+    "postbuild": "node scripts/verify-seo.mjs"
   },
   "dependencies": {
     "next": "^14.2.35",

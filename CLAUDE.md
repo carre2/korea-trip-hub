@@ -11,6 +11,7 @@
 1. `HARNESS.md` — ★사실검증 하네스 (할루시네이션 방지). 작업 방식의 최상위 규칙.
 2. `data/facts.json` — ★사실 대장(SSOT). 모든 수치·연락처·규정의 단일 기준점.
 3. 작업할 카테고리의 `data/*.json`.
+4. 페이지·메타데이터·라우트를 건드리면 `SEO.md`, 번역이면 `TRANSLATION.md`.
 
 ## 절대 규칙 (요약 — 상세는 HARNESS.md)
 - **facts가 왕이다.** `data/facts.json`에 VERIFIED로 없는 사실 수치(가격·전화·주소·시간·규정·통계)는 본문에 쓰지 않는다.
@@ -19,11 +20,15 @@
 - 모든 fact에는 `source`(공식 우선)와 `verified`(검증일)가 있어야 한다.
 - **VOLATILE 정보(비자·요금·환율·운영시간·공연일정)** 는 공식 출처 링크 + "as of DATE"를 함께 노출한다.
 - facts와 본문이 다르면 임의로 고치지 말고 **멈춰서 사람에게 확인**한다.
+- **새 페이지는 `pageMeta()`(lib/seo.js) + `lib/routes.js` 등록이 필수.** 레이아웃에 canonical을 두지 않는다. (SEO.md §1)
 
 ## 콘텐츠 루프 (요약 — 상세는 HARNESS.md §3)
 로드 → 초안(수치 자리는 {{FACT:id}}) → 각 fact 웹 검증 → facts.json 갱신 → §4 체크리스트 → 커밋
 
 ## 작업 후 반드시
+- **`npm run build`를 돌려 두 검증기를 통과시킨다.**
+  prebuild=`verify-i18n`(번역 누락·숫자 변조), postbuild=`verify-seo`(canonical·hreflang·sitemap·메타).
+  둘 중 하나라도 FAIL이면 배포가 막히므로, 실패한 채로 커밋하지 않는다.
 - HARNESS.md §4 체크리스트를 스스로 통과시킨다.
 - 새 fact가 생겼으면 `data/facts.json`에 source+verified와 함께 추가한다. (없으면 "facts 갱신 없음"이라고 명시)
 - 중간중간 GitHub에 push 한다. (컨테이너/로컬 소실 대비)

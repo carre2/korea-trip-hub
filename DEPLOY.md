@@ -73,6 +73,9 @@ npx wrangler pages deploy out --project-name korea-trip-hub
 
 ## 체크
 - [ ] `npm run build` 로컬 성공 (out/ 생성)
+      → prebuild `verify-i18n`(번역)과 postbuild `verify-seo`(canonical·hreflang·sitemap)가
+        함께 돌기 때문에, 둘 중 하나라도 FAIL이면 **Cloudflare 빌드도 같은 지점에서 멈춘다.**
+        즉 SEO가 깨진 채로는 배포되지 않는다. (SEO.md §3)
 - [ ] GitHub push 완료
 - [ ] Pages 임시주소에서 사이트 확인
 - [ ] ktriphub.com 네임서버 이전 → Custom domain 연결
