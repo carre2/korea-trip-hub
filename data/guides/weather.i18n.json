@@ -1,0 +1,570 @@
+{
+  "_README": "Per-locale translation overrides for weather.json (guides). Machine-translated — native review recommended.",
+  "zh": {
+    "kicker": "何时去 & 带什么",
+    "readingTime": "阅读时间 6 分钟",
+    "wx": {
+      "title": "当前天气",
+      "loading": "正在加载实时天气…",
+      "error": "无法加载实时天气 — 请用天气预报应用查看当前状况。",
+      "note": "实时状况仅供参考。",
+      "source": "来源",
+      "cities": { "seoul": "首尔", "busan": "釜山", "jeju": "济州" }
+    },
+    "tldr": [
+      "最佳时节：春季（4–5 月）和秋季（9–11 月）——温和又舒适。",
+      "夏季（6–8 月）炎热潮湿，还有梅雨季；轻装出行，别忘带伞。",
+      "冬季（12–2 月）寒冷干燥；带上保暖大衣并多层穿搭。",
+      "樱花与红叶的时间每年都会变——查看当年的预报。"
+    ],
+    "highlights": [
+      { "icon": "🌸", "tone": "green", "title": "春秋是最佳时机", "body": "气温温和、湿度较低、景色壮丽：春天赏樱、秋天赏火红枫叶。这也是旅游旺季，请尽早预订住宿。" },
+      { "icon": "🌧️", "tone": "amber", "title": "夏天 = 炎热 + 梅雨", "body": "6 至 8 月炎热潮湿，有一段梅雨期（通常在 6 月底至 7 月），偶有夏末台风。透气衣物和一把便携伞必不可少。" },
+      { "icon": "🧥", "tone": "blue", "title": "冬天寒冷却明朗", "body": "12 月至 2 月寒冷干燥，Seoul 常常低于冰点并有些降雪。室内暖气很足，请采用可随时脱下的多层穿搭。" }
+    ],
+    "seasons": {
+      "title": "四季，以及各自该带什么",
+      "packLabel": "携带：",
+      "creditsLabel": "图片来源",
+      "cards": [
+        { "icon": "🌸", "name": "春季", "months": "Mar – May", "tone": "green", "vibe": "温和、樱花盛开、偶有雾霾。", "pack": "轻薄多层衣物、一件薄外套，雾霾重的日子备个口罩。", "img": "/img/wx/spring.jpg", "credit": "Alexey Komarov · CC BY 3.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Cherry_Blossom_in_Yeouido_Park_-_panoramio.jpg" },
+        { "icon": "🌊", "name": "夏季", "months": "Jun – Aug", "tone": "amber", "vibe": "炎热、潮湿、梅雨，偶有台风。", "pack": "透气衣物、便携伞、防晒霜，以及一件应对强冷气的外搭。", "img": "/img/wx/summer.jpg", "credit": "S Shamima Nasrin · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Boseong_Green_Tea_Field_in_summer_2017.jpg" },
+        { "icon": "🍁", "name": "秋季", "months": "Sep – Nov", "tone": "neutral", "vibe": "凉爽、晴朗又干燥——登山赏叶的最佳时节。", "pack": "轻薄多层衣物，晚秋再加一件更保暖的外套。", "img": "/img/wx/autumn.jpg", "credit": "Ludovic Peron · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Landscape_in_Seoraksan_National_Park_1.jpg" },
+        { "icon": "❄️", "name": "冬季", "months": "Dec – Feb", "tone": "blue", "vibe": "寒冷干燥，Seoul 低于冰点，偶有降雪。", "pack": "保暖大衣、帽子/手套，以及应对强室内暖气的多层穿搭。", "img": "/img/wx/winter.jpg", "credit": "Korea.net / KOCIS · CC BY-SA 2.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Palace_covered_with_snow_%284270309099%29.jpg" }
+      ]
+    },
+    "periods": {
+      "title": "值得提前规划的时段",
+      "items": [
+        { "icon": "🌸", "t": "樱花", "d": "大约 3 月下旬到 4 月中旬，偏暖的南部（Jeju/Busan）比 Seoul 更早。确切日期每年都会变——请关注当年的樱花预报。" },
+        { "icon": "🍁", "t": "秋季红叶", "d": "通常在 10 月中旬到 11 月初，从山区和北部开始，逐渐南移。请查看当年的红叶预报。" },
+        { "icon": "🌧️", "t": "梅雨季（jangma）", "d": "一段多雨的时期，一般在 6 月底进入 7 月。旅行照样没问题——只要安排些室内选项并带上雨具。" },
+        { "icon": "😷", "t": "雾霾季", "d": "空气质量在春季（有时冬季）可能下降。请查看空气质量应用，糟糕的日子戴上口罩。" }
+      ]
+    },
+    "pitfalls": {
+      "title": "要避免的天气误区",
+      "items": [
+        { "icon": "📅", "t": "死磕确切的花期", "d": "樱花和红叶的高峰每年都会前后移动一周甚至更多。别把不可退改的行程锁定在固定日期——随时跟踪预报。" },
+        { "icon": "🌧️", "t": "低估梅雨", "d": "6 月底至 7 月可能有大雨。带上真正管用的伞/雨衣，并备好室内备选方案。" },
+        { "icon": "🥵", "t": "忽视夏季湿度", "d": "不只是热——还很潮。多补水、午间安排室内休息，并为强劲的室内冷气做好准备。" },
+        { "icon": "🧊", "t": "冬季穿得太少", "d": "Seoul 的冬天很扎人。一件像样的大衣，再加一件应对极暖室内暖气的内搭，胜过一件厚毛衣。" },
+        { "icon": "😷", "t": "跳过空气质量检查", "d": "在雾霾严重的日子，一个口罩加上减少剧烈的户外安排，会带来实实在在的差别。" }
+      ]
+    },
+    "faq": {
+      "title": "天气常见问题",
+      "items": [
+        { "q": "什么时候是游览韩国的最佳时间？", "a": "春季（4–5 月）和秋季（9–11 月）最为舒适——温和、较干燥且风景优美。它们也是最繁忙的时段，所以请尽早预订。" },
+        { "q": "樱花什么时候开？", "a": "大约 3 月下旬到 4 月中旬，南部更早。确切的盛开高峰每年都会变，所以请关注当年的樱花预报，而不是固定日期。" },
+        { "q": "夏天去是不是不好？", "a": "夏天炎热、潮湿，还有梅雨（6 月底至 7 月），但远谈不上不值得——只要轻装、带伞，并安排一些室内时间。" },
+        { "q": "冬天有多冷？", "a": "12 月至 2 月 Seoul 常常低于冰点，并有些降雪。天气寒冷干燥；一件保暖大衣加多层穿搭就能应付，而且室内暖气很足。" },
+        { "q": "什么是‘雾霾’？", "a": "雾霾（미세먼지）是空气中的颗粒物污染，春季（有时冬季）可能升高。请查看空气质量应用，糟糕的日子戴上口罩。" }
+      ]
+    }
+  },
+  "zh-TW": {
+    "kicker": "何時去 & 帶什麼",
+    "readingTime": "閱讀時間 6 分鐘",
+    "wx": {
+      "title": "目前天氣",
+      "loading": "正在載入即時天氣…",
+      "error": "無法載入即時天氣 — 請用天氣預報 App 查看目前狀況。",
+      "note": "即時狀況僅供參考。",
+      "source": "來源",
+      "cities": { "seoul": "首爾", "busan": "釜山", "jeju": "濟州" }
+    },
+    "tldr": [
+      "最佳時節：春季（4–5 月）和秋季（9–11 月）——溫和又舒適。",
+      "夏季（6–8 月）炎熱潮濕，還有梅雨季；輕裝出行，別忘了帶傘。",
+      "冬季（12–2 月）寒冷乾燥；帶上保暖大衣並多層穿搭。",
+      "櫻花與紅葉的時間每年都會變——查看當年的預報。"
+    ],
+    "highlights": [
+      { "icon": "🌸", "tone": "green", "title": "春秋是最佳時機", "body": "氣溫溫和、濕度較低、景色壯麗：春天賞櫻、秋天賞火紅楓葉。這也是旅遊旺季，請盡早預訂住宿。" },
+      { "icon": "🌧️", "tone": "amber", "title": "夏天 = 炎熱 + 梅雨", "body": "6 至 8 月炎熱潮濕，有一段梅雨期（通常在 6 月底至 7 月），偶有夏末颱風。透氣衣物和一把折疊傘不可或缺。" },
+      { "icon": "🧥", "tone": "blue", "title": "冬天寒冷卻明朗", "body": "12 月至 2 月寒冷乾燥，Seoul 常常低於冰點並有些降雪。室內暖氣很足，請採用可隨時脫下的多層穿搭。" }
+    ],
+    "seasons": {
+      "title": "四季，以及各自該帶什麼",
+      "packLabel": "攜帶：",
+      "creditsLabel": "圖片來源",
+      "cards": [
+        { "icon": "🌸", "name": "春季", "months": "Mar – May", "tone": "green", "vibe": "溫和、櫻花盛開、偶有霧霾。", "pack": "輕薄多層衣物、一件薄外套，霧霾嚴重的日子備個口罩。", "img": "/img/wx/spring.jpg", "credit": "Alexey Komarov · CC BY 3.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Cherry_Blossom_in_Yeouido_Park_-_panoramio.jpg" },
+        { "icon": "🌊", "name": "夏季", "months": "Jun – Aug", "tone": "amber", "vibe": "炎熱、潮濕、梅雨，偶有颱風。", "pack": "透氣衣物、折疊傘、防曬乳，以及一件因應強冷氣的外搭。", "img": "/img/wx/summer.jpg", "credit": "S Shamima Nasrin · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Boseong_Green_Tea_Field_in_summer_2017.jpg" },
+        { "icon": "🍁", "name": "秋季", "months": "Sep – Nov", "tone": "neutral", "vibe": "涼爽、晴朗又乾燥——登山賞葉的最佳時節。", "pack": "輕薄多層衣物，晚秋再加一件更保暖的外套。", "img": "/img/wx/autumn.jpg", "credit": "Ludovic Peron · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Landscape_in_Seoraksan_National_Park_1.jpg" },
+        { "icon": "❄️", "name": "冬季", "months": "Dec – Feb", "tone": "blue", "vibe": "寒冷乾燥，Seoul 低於冰點，偶有降雪。", "pack": "保暖大衣、帽子/手套，以及因應強室內暖氣的多層穿搭。", "img": "/img/wx/winter.jpg", "credit": "Korea.net / KOCIS · CC BY-SA 2.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Palace_covered_with_snow_%284270309099%29.jpg" }
+      ]
+    },
+    "periods": {
+      "title": "值得提前規劃的時段",
+      "items": [
+        { "icon": "🌸", "t": "櫻花", "d": "大約 3 月下旬到 4 月中旬，偏暖的南部（Jeju/Busan）比 Seoul 更早。確切日期每年都會變——請留意當年的櫻花預報。" },
+        { "icon": "🍁", "t": "秋季紅葉", "d": "通常在 10 月中旬到 11 月初，從山區和北部開始，逐漸南移。請查看當年的紅葉預報。" },
+        { "icon": "🌧️", "t": "梅雨季（jangma）", "d": "一段多雨的時期，一般在 6 月底進入 7 月。旅行照樣沒問題——只要安排些室內選項並帶上雨具。" },
+        { "icon": "😷", "t": "霧霾季", "d": "空氣品質在春季（有時冬季）可能下降。請查看空氣品質 App，糟糕的日子戴上口罩。" }
+      ]
+    },
+    "pitfalls": {
+      "title": "要避免的天氣誤區",
+      "items": [
+        { "icon": "📅", "t": "死守確切的花期", "d": "櫻花和紅葉的高峰每年都會前後移動一週甚至更多。別把不可退改的行程鎖定在固定日期——隨時追蹤預報。" },
+        { "icon": "🌧️", "t": "低估梅雨", "d": "6 月底至 7 月可能有大雨。帶上真正管用的傘/雨衣，並備好室內備案。" },
+        { "icon": "🥵", "t": "忽視夏季濕度", "d": "不只是熱——還很潮。多補水、午間安排室內休息，並為強勁的室內冷氣做好準備。" },
+        { "icon": "🧊", "t": "冬季穿得太少", "d": "Seoul 的冬天很刺骨。一件像樣的大衣，再加一件因應極暖室內暖氣的內搭，勝過一件厚毛衣。" },
+        { "icon": "😷", "t": "略過空氣品質檢查", "d": "在霧霾嚴重的日子，一個口罩加上減少劇烈的戶外安排，會帶來實實在在的差別。" }
+      ]
+    },
+    "faq": {
+      "title": "天氣常見問題",
+      "items": [
+        { "q": "什麼時候是遊覽韓國的最佳時間？", "a": "春季（4–5 月）和秋季（9–11 月）最為舒適——溫和、較乾燥且風景優美。它們也是最繁忙的時段，所以請盡早預訂。" },
+        { "q": "櫻花什麼時候開？", "a": "大約 3 月下旬到 4 月中旬，南部更早。確切的盛開高峰每年都會變，所以請留意當年的櫻花預報，而不是固定日期。" },
+        { "q": "夏天去是不是不好？", "a": "夏天炎熱、潮濕，還有梅雨（6 月底至 7 月），但遠談不上不值得——只要輕裝、帶傘，並安排一些室內時間。" },
+        { "q": "冬天有多冷？", "a": "12 月至 2 月 Seoul 常常低於冰點，並有些降雪。天氣寒冷乾燥；一件保暖大衣加多層穿搭就能應付，而且室內暖氣很足。" },
+        { "q": "什麼是‘霧霾’？", "a": "霧霾（미세먼지）是空氣中的顆粒物污染，春季（有時冬季）可能升高。請查看空氣品質 App，糟糕的日子戴上口罩。" }
+      ]
+    }
+  },
+  "ja": {
+    "kicker": "いつ行く・何を持っていく",
+    "readingTime": "読了6分",
+    "wx": {
+      "title": "今の天気",
+      "loading": "現在の天気を読み込み中…",
+      "error": "現在の天気を読み込めませんでした — 今の状況は天気予報アプリで確認してください。",
+      "note": "現在の状況は参考用です。",
+      "source": "出典",
+      "cities": { "seoul": "ソウル", "busan": "釜山", "jeju": "済州" }
+    },
+    "tldr": [
+      "総合的にベスト：春（4〜5月）と秋（9〜11月）——穏やかで快適です。",
+      "夏（6〜8月）は蒸し暑く梅雨があります。軽装で、傘を忘れずに。",
+      "冬（12〜2月）は寒く乾燥。暖かいコートと重ね着を用意しましょう。",
+      "桜と紅葉の時期は毎年ずれます——その年の予報を確認しましょう。"
+    ],
+    "highlights": [
+      { "icon": "🌸", "tone": "green", "title": "春と秋がベストシーズン", "body": "穏やかな気温、低めの湿度、そして雄大な景色——春は桜、秋は燃えるような紅葉。旅行のピークシーズンなので、宿は早めに予約を。" },
+      { "icon": "🌧️", "tone": "amber", "title": "夏＝暑さ＋梅雨", "body": "6〜8月は蒸し暑く、梅雨の時期（たいてい6月下旬〜7月）があり、晩夏には台風も。通気性のよい服とコンパクトな傘が欠かせません。" },
+      { "icon": "🧥", "tone": "blue", "title": "冬は寒いが晴れやか", "body": "12〜2月は寒く乾燥し、Seoul はしばしば氷点下で雪も。室内の暖房が強いので、脱ぎ着しやすい重ね着で。" }
+    ],
+    "seasons": {
+      "title": "四季と、それぞれの持ち物",
+      "packLabel": "持ち物：",
+      "creditsLabel": "写真クレジット",
+      "cards": [
+        { "icon": "🌸", "name": "春", "months": "Mar – May", "tone": "green", "vibe": "穏やか、桜、ときどきPM2.5（微小粒子）。", "pack": "薄手の重ね着、軽いジャケット、PM2.5の多い日はマスクを。", "img": "/img/wx/spring.jpg", "credit": "Alexey Komarov · CC BY 3.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Cherry_Blossom_in_Yeouido_Park_-_panoramio.jpg" },
+        { "icon": "🌊", "name": "夏", "months": "Jun – Aug", "tone": "amber", "vibe": "蒸し暑く、梅雨、ときどき台風。", "pack": "通気性のよい服、コンパクトな傘、日焼け止め、強い冷房対策の一枚を。", "img": "/img/wx/summer.jpg", "credit": "S Shamima Nasrin · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Boseong_Green_Tea_Field_in_summer_2017.jpg" },
+        { "icon": "🍁", "name": "秋", "months": "Sep – Nov", "tone": "neutral", "vibe": "さわやかで澄み、乾燥——登山と紅葉に最適。", "pack": "薄手の重ね着と、晩秋には暖かめのジャケットを。", "img": "/img/wx/autumn.jpg", "credit": "Ludovic Peron · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Landscape_in_Seoraksan_National_Park_1.jpg" },
+        { "icon": "❄️", "name": "冬", "months": "Dec – Feb", "tone": "blue", "vibe": "寒く乾燥、Seoul は氷点下、雪も。", "pack": "暖かいコート、帽子・手袋、そして強い室内暖房に備える重ね着を。", "img": "/img/wx/winter.jpg", "credit": "Korea.net / KOCIS · CC BY-SA 2.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Palace_covered_with_snow_%284270309099%29.jpg" }
+      ]
+    },
+    "periods": {
+      "title": "計画で押さえておきたい時期",
+      "items": [
+        { "icon": "🌸", "t": "桜", "d": "おおむね3月下旬〜4月中旬。暖かい南部（Jeju/Busan）は Seoul より早めです。正確な日付は毎年動くので——その年の開花予報を追いましょう。" },
+        { "icon": "🍁", "t": "紅葉", "d": "たいてい10月中旬〜11月初め。山地や北部から始まり、南へ移ります。その年の紅葉予報を確認しましょう。" },
+        { "icon": "🌧️", "t": "梅雨（jangma）", "d": "雨の続く時期で、おおむね6月下旬から7月にかけて。旅行は問題ありません——室内の選択肢を用意し、雨具を持ちましょう。" },
+        { "icon": "😷", "t": "PM2.5（微小粒子）の季節", "d": "空気の質は春（時に冬）に落ちることがあります。大気質アプリを確認し、悪い日はマスクを。" }
+      ]
+    },
+    "pitfalls": {
+      "title": "避けたい天気の失敗",
+      "items": [
+        { "icon": "📅", "t": "正確な開花日を追いすぎる", "d": "桜や紅葉の見頃は毎年1週間以上ずれます。返金不可の予定を固定日に縛らないで——予報を追いかけましょう。" },
+        { "icon": "🌧️", "t": "梅雨を甘く見る", "d": "6月下旬〜7月は大雨になることも。しっかりした傘やレインジャケットを用意し、室内の代替案も持っておきましょう。" },
+        { "icon": "🥵", "t": "夏の湿気を無視する", "d": "暑いだけでなく、湿度も高いのです。水分をとり、日中は室内で休憩を挟み、強い冷房に備えた服装を。" },
+        { "icon": "🧊", "t": "冬の装備が足りない", "d": "Seoul の冬は厳しい。厚手のセーター一枚より、きちんとしたコートに、とても暖かい室内暖房用の一枚を足すほうが快適です。" },
+        { "icon": "😷", "t": "大気質チェックを飛ばす", "d": "微小粒子の多い日は、マスクと、激しい屋外予定を控えることが大きな違いを生みます。" }
+      ]
+    },
+    "faq": {
+      "title": "天気のよくある質問",
+      "items": [
+        { "q": "韓国を訪れるベストな時期は？", "a": "春（4〜5月）と秋（9〜11月）が最も快適です——穏やかで乾燥気味、景色もきれい。ただし最も混む時期なので、早めの予約を。" },
+        { "q": "桜はいつ咲く？", "a": "おおむね3月下旬〜4月中旬、南部はより早めです。正確な見頃は毎年ずれるので、固定の日付ではなくその年の開花予報を追いましょう。" },
+        { "q": "夏は行くのに向かない？", "a": "蒸し暑く梅雨（6月下旬〜7月）もありますが、決して諦める必要はありません——軽装で、傘を持ち、室内の時間も組み込みましょう。" },
+        { "q": "冬はどれくらい寒い？", "a": "12〜2月の Seoul はしばしば氷点下で、雪も降ります。寒く乾燥していますが、暖かいコートと重ね着で対応でき、室内暖房も強めです。" },
+        { "q": "「微小粒子（PM2.5）」とは？", "a": "微小粒子（미세먼지）は大気中の粒子状汚染で、春（時に冬）に増えることがあります。大気質アプリを確認し、悪い日はマスクを着けましょう。" }
+      ]
+    }
+  },
+  "vi": {
+    "kicker": "Đi khi nào & mang theo gì",
+    "readingTime": "Đọc trong 6 phút",
+    "wx": {
+      "title": "Thời tiết ngay bây giờ",
+      "loading": "Đang tải thời tiết trực tiếp…",
+      "error": "Không tải được thời tiết trực tiếp — hãy xem ứng dụng dự báo để biết tình hình hiện tại.",
+      "note": "Điều kiện trực tiếp chỉ để tham khảo.",
+      "source": "Nguồn",
+      "cities": { "seoul": "Seoul", "busan": "Busan", "jeju": "Jeju" }
+    },
+    "tldr": [
+      "Tổng thể tốt nhất: mùa xuân (tháng 4–5) và mùa thu (tháng 9–11) — dịu mát và dễ chịu.",
+      "Mùa hè (tháng 6–8) nóng ẩm kèm mùa mưa gió mùa; mặc nhẹ + mang ô.",
+      "Mùa đông (tháng 12–2) lạnh và khô; mang áo khoác ấm và mặc nhiều lớp.",
+      "Thời điểm hoa anh đào và lá thu đổi mỗi năm — hãy xem dự báo của năm đó."
+    ],
+    "highlights": [
+      { "icon": "🌸", "tone": "green", "title": "Xuân và thu là thời điểm lý tưởng", "body": "Nhiệt độ dịu, độ ẩm thấp hơn và cảnh sắc tuyệt đẹp: hoa anh đào vào xuân, lá đỏ rực vào thu. Đây là mùa cao điểm du lịch, nên hãy đặt chỗ ở sớm." },
+      { "icon": "🌧️", "tone": "amber", "title": "Hè = nóng + gió mùa", "body": "Tháng 6–8 nóng ẩm, có đợt mưa gió mùa (thường cuối tháng 6–tháng 7) và thỉnh thoảng bão cuối hè. Quần áo thoáng và một chiếc ô gọn là thiết yếu." },
+      { "icon": "🧥", "tone": "blue", "title": "Đông lạnh nhưng trong trẻo", "body": "Tháng 12–2 lạnh và khô, Seoul thường dưới mức đóng băng và có chút tuyết. Sưởi trong nhà rất mạnh, nên mặc nhiều lớp để dễ cởi bớt." }
+    ],
+    "seasons": {
+      "title": "Bốn mùa, và mang gì cho mỗi mùa",
+      "packLabel": "Mang theo:",
+      "creditsLabel": "Nguồn ảnh",
+      "cards": [
+        { "icon": "🌸", "name": "Mùa xuân", "months": "Mar – May", "tone": "green", "vibe": "Dịu mát, hoa anh đào, đôi khi có bụi mịn.", "pack": "Đồ mặc nhiều lớp mỏng, một áo khoác nhẹ, và khẩu trang vào ngày bụi mịn cao.", "img": "/img/wx/spring.jpg", "credit": "Alexey Komarov · CC BY 3.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Cherry_Blossom_in_Yeouido_Park_-_panoramio.jpg" },
+        { "icon": "🌊", "name": "Mùa hè", "months": "Jun – Aug", "tone": "amber", "vibe": "Nóng, ẩm, mưa gió mùa, đôi khi có bão.", "pack": "Quần áo thoáng, một chiếc ô gọn, kem chống nắng, và một lớp áo cho máy lạnh mạnh.", "img": "/img/wx/summer.jpg", "credit": "S Shamima Nasrin · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Boseong_Green_Tea_Field_in_summer_2017.jpg" },
+        { "icon": "🍁", "name": "Mùa thu", "months": "Sep – Nov", "tone": "neutral", "vibe": "Se lạnh, quang đãng và khô — mùa lý tưởng để leo núi và ngắm lá.", "pack": "Đồ mặc nhiều lớp mỏng và một áo khoác ấm hơn cho cuối thu.", "img": "/img/wx/autumn.jpg", "credit": "Ludovic Peron · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Landscape_in_Seoraksan_National_Park_1.jpg" },
+        { "icon": "❄️", "name": "Mùa đông", "months": "Dec – Feb", "tone": "blue", "vibe": "Lạnh và khô, Seoul dưới mức đóng băng, có chút tuyết.", "pack": "Một áo khoác ấm, mũ/găng tay, và các lớp áo cho hệ sưởi trong nhà rất mạnh.", "img": "/img/wx/winter.jpg", "credit": "Korea.net / KOCIS · CC BY-SA 2.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Palace_covered_with_snow_%284270309099%29.jpg" }
+      ]
+    },
+    "periods": {
+      "title": "Những thời điểm đáng lưu ý khi lên kế hoạch",
+      "items": [
+        { "icon": "🌸", "t": "Hoa anh đào", "d": "Khoảng cuối tháng 3 đến giữa tháng 4, ở miền nam ấm hơn (Jeju/Busan) sớm hơn Seoul. Ngày chính xác đổi mỗi năm — hãy theo dõi dự báo hoa nở của năm đó." },
+        { "icon": "🍁", "t": "Lá thu", "d": "Thường từ giữa tháng 10 đến đầu tháng 11, bắt đầu ở vùng núi và phía bắc rồi lan xuống nam. Hãy xem dự báo lá thu của năm hiện tại." },
+        { "icon": "🌧️", "t": "Mùa mưa (jangma)", "d": "Một đợt mưa kéo dài, thường từ cuối tháng 6 sang tháng 7. Chuyến đi vẫn ổn — chỉ cần chuẩn bị phương án trong nhà và mang đồ đi mưa." },
+        { "icon": "😷", "t": "Mùa bụi mịn", "d": "Chất lượng không khí có thể giảm vào mùa xuân (và đôi khi mùa đông). Hãy xem ứng dụng chất lượng không khí; đeo khẩu trang vào ngày xấu." }
+      ]
+    },
+    "pitfalls": {
+      "title": "Những sai lầm về thời tiết cần tránh",
+      "items": [
+        { "icon": "📅", "t": "Bám theo ngày hoa nở chính xác", "d": "Đỉnh hoa anh đào và lá thu xê dịch một tuần hoặc hơn mỗi năm. Đừng khóa kế hoạch không hoàn tiền vào một ngày cố định — hãy theo dõi dự báo." },
+        { "icon": "🌧️", "t": "Xem nhẹ mùa mưa gió mùa", "d": "Cuối tháng 6–tháng 7 có thể mưa lớn. Mang theo ô/áo mưa thực sự tốt và có phương án trong nhà." },
+        { "icon": "🥵", "t": "Bỏ qua độ ẩm mùa hè", "d": "Không chỉ nóng — mà còn ẩm. Uống đủ nước, sắp xếp nghỉ trong nhà giữa trưa, và ăn mặc phù hợp với máy lạnh trong nhà rất mạnh." },
+        { "icon": "🧊", "t": "Mang thiếu đồ cho mùa đông", "d": "Mùa đông Seoul rất buốt. Một áo khoác đàng hoàng, cộng thêm một lớp cho hệ sưởi trong nhà rất ấm, hơn hẳn một chiếc áo len dày." },
+        { "icon": "😷", "t": "Bỏ qua việc kiểm tra chất lượng không khí", "d": "Vào ngày bụi mịn cao, một chiếc khẩu trang và bớt các hoạt động ngoài trời gắng sức tạo ra khác biệt thực sự." }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về thời tiết",
+      "items": [
+        { "q": "Thời điểm nào tốt nhất để đến Hàn Quốc?", "a": "Mùa xuân (tháng 4–5) và mùa thu (tháng 9–11) là dễ chịu nhất — dịu mát, khô ráo hơn và cảnh đẹp. Đó cũng là lúc đông khách nhất, nên hãy đặt sớm." },
+        { "q": "Hoa anh đào nở khi nào?", "a": "Khoảng cuối tháng 3 đến giữa tháng 4, sớm hơn ở miền nam. Đỉnh nở chính xác đổi mỗi năm, nên hãy theo dõi dự báo hoa nở của năm đó thay vì một ngày cố định." },
+        { "q": "Mùa hè có phải thời điểm tệ để đi không?", "a": "Trời nóng, ẩm và có mùa mưa gió mùa (cuối tháng 6–tháng 7), nhưng không hề đáng bỏ qua — chỉ cần mặc nhẹ, mang ô và sắp xếp thời gian trong nhà." },
+        { "q": "Mùa đông lạnh đến mức nào?", "a": "Seoul thường dưới mức đóng băng vào tháng 12–2, kèm chút tuyết. Trời lạnh và khô; một áo khoác ấm và mặc nhiều lớp là xử lý được, và hệ sưởi trong nhà rất mạnh." },
+        { "q": "‘Bụi mịn’ là gì?", "a": "Bụi mịn (미세먼지) là ô nhiễm hạt lơ lửng trong không khí, có thể tăng vào mùa xuân và đôi khi mùa đông. Hãy xem ứng dụng chất lượng không khí và đeo khẩu trang vào ngày xấu." }
+      ]
+    }
+  },
+  "th": {
+    "kicker": "ไปเมื่อไหร่ & เตรียมอะไร",
+    "readingTime": "อ่าน 6 นาที",
+    "wx": {
+      "title": "สภาพอากาศตอนนี้",
+      "loading": "กำลังโหลดสภาพอากาศสด…",
+      "error": "โหลดสภาพอากาศสดไม่ได้ — โปรดดูสภาพปัจจุบันจากแอปพยากรณ์อากาศ",
+      "note": "สภาพอากาศสดเพื่อการอ้างอิง",
+      "source": "แหล่งที่มา",
+      "cities": { "seoul": "โซล", "busan": "ปูซาน", "jeju": "เชจู" }
+    },
+    "tldr": [
+      "โดยรวมดีที่สุด: ฤดูใบไม้ผลิ (เม.ย.–พ.ค.) และฤดูใบไม้ร่วง (ก.ย.–พ.ย.) — อากาศอ่อนโยนและสบาย",
+      "ฤดูร้อน (มิ.ย.–ส.ค.) ร้อนชื้นและมีฤดูฝนมรสุม; แต่งตัวเบา ๆ + พกร่ม",
+      "ฤดูหนาว (ธ.ค.–ก.พ.) หนาวและแห้ง; เตรียมเสื้อโค้ทอุ่น ๆ และใส่หลายชั้น",
+      "ช่วงเวลาซากุระและใบไม้เปลี่ยนสีเลื่อนทุกปี — เช็กพยากรณ์ของปีนั้น"
+    ],
+    "highlights": [
+      { "icon": "🌸", "tone": "green", "title": "ใบไม้ผลิและใบไม้ร่วงคือช่วงที่ดีที่สุด", "body": "อุณหภูมิอ่อนโยน ความชื้นต่ำกว่า และวิวยิ่งใหญ่: ซากุระในฤดูใบไม้ผลิ ใบไม้แดงฉานในฤดูใบไม้ร่วง ช่วงนี้เป็นไฮซีซั่นท่องเที่ยว จึงควรจองที่พักแต่เนิ่น ๆ" },
+      { "icon": "🌧️", "tone": "amber", "title": "ฤดูร้อน = ร้อน + มรสุม", "body": "มิถุนายน–สิงหาคม ร้อนชื้น มีช่วงฝนมรสุม (มักปลายมิถุนายน–กรกฎาคม) และบางครั้งมีไต้ฝุ่นปลายฤดูร้อน เสื้อผ้าระบายอากาศและร่มพับเป็นสิ่งจำเป็น" },
+      { "icon": "🧥", "tone": "blue", "title": "ฤดูหนาวหนาวแต่สดใส", "body": "ธันวาคม–กุมภาพันธ์ หนาวและแห้ง Seoul มักต่ำกว่าจุดเยือกแข็งและมีหิมะบ้าง เครื่องทำความร้อนในอาคารแรงมาก จึงควรแต่งตัวหลายชั้นที่ถอดออกได้" }
+    ],
+    "seasons": {
+      "title": "สี่ฤดู และควรเตรียมอะไรบ้าง",
+      "packLabel": "ของที่ต้องเตรียม:",
+      "creditsLabel": "เครดิตภาพ",
+      "cards": [
+        { "icon": "🌸", "name": "ฤดูใบไม้ผลิ", "months": "Mar – May", "tone": "green", "vibe": "อ่อนโยน ซากุระ บางครั้งมีฝุ่นละออง", "pack": "เสื้อผ้าบางหลายชั้น แจ็กเก็ตบาง ๆ และหน้ากากในวันที่ฝุ่นละอองสูง", "img": "/img/wx/spring.jpg", "credit": "Alexey Komarov · CC BY 3.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Cherry_Blossom_in_Yeouido_Park_-_panoramio.jpg" },
+        { "icon": "🌊", "name": "ฤดูร้อน", "months": "Jun – Aug", "tone": "amber", "vibe": "ร้อน ชื้น ฝนมรสุม มีไต้ฝุ่นบ้าง", "pack": "เสื้อผ้าระบายอากาศ ร่มพับ ครีมกันแดด และเสื้อสักตัวไว้รับมือแอร์เย็นจัด", "img": "/img/wx/summer.jpg", "credit": "S Shamima Nasrin · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Boseong_Green_Tea_Field_in_summer_2017.jpg" },
+        { "icon": "🍁", "name": "ฤดูใบไม้ร่วง", "months": "Sep – Nov", "tone": "neutral", "vibe": "อากาศสดชื่น แจ่มใสและแห้ง — เหมาะที่สุดสำหรับเดินป่าและชมใบไม้", "pack": "เสื้อผ้าบางหลายชั้น และแจ็กเก็ตอุ่นขึ้นสำหรับปลายฤดู", "img": "/img/wx/autumn.jpg", "credit": "Ludovic Peron · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Landscape_in_Seoraksan_National_Park_1.jpg" },
+        { "icon": "❄️", "name": "ฤดูหนาว", "months": "Dec – Feb", "tone": "blue", "vibe": "หนาวและแห้ง Seoul ต่ำกว่าจุดเยือกแข็ง มีหิมะบ้าง", "pack": "เสื้อโค้ทอุ่น หมวก/ถุงมือ และเสื้อหลายชั้นสำหรับเครื่องทำความร้อนในอาคารที่แรง", "img": "/img/wx/winter.jpg", "credit": "Korea.net / KOCIS · CC BY-SA 2.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Palace_covered_with_snow_%284270309099%29.jpg" }
+      ]
+    },
+    "periods": {
+      "title": "ช่วงเวลาน่าจดจำที่ควรวางแผนล่วงหน้า",
+      "items": [
+        { "icon": "🌸", "t": "ซากุระ", "d": "ราวปลายมีนาคมถึงกลางเมษายน ทางใต้ที่อุ่นกว่า (Jeju/Busan) จะเร็วกว่า Seoul วันที่แน่นอนขยับทุกปี — ติดตามพยากรณ์การบานของปีนั้น" },
+        { "icon": "🍁", "t": "ใบไม้เปลี่ยนสี", "d": "มักกลางตุลาคมถึงต้นพฤศจิกายน เริ่มจากภูเขาและทางเหนือแล้วไล่ลงใต้ เช็กพยากรณ์ใบไม้เปลี่ยนสีของปีปัจจุบัน" },
+        { "icon": "🌧️", "t": "มรสุม (jangma)", "d": "ช่วงฝนต่อเนื่อง โดยทั่วไปปลายมิถุนายนเข้าสู่กรกฎาคม เที่ยวได้ตามปกติ — แค่วางแผนกิจกรรมในร่มและพกอุปกรณ์กันฝน" },
+        { "icon": "😷", "t": "ฤดูฝุ่นละออง", "d": "คุณภาพอากาศอาจแย่ลงในฤดูใบไม้ผลิ (และบางครั้งฤดูหนาว) เช็กแอปคุณภาพอากาศ สวมหน้ากากในวันที่แย่" }
+      ]
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดเรื่องอากาศที่ควรเลี่ยง",
+      "items": [
+        { "icon": "📅", "t": "ไล่ตามวันบานที่แน่นอน", "d": "จุดพีคของซากุระและใบไม้เปลี่ยนสีขยับหนึ่งสัปดาห์หรือมากกว่าในแต่ละปี อย่าล็อกแผนที่คืนเงินไม่ได้กับวันตายตัว — ติดตามพยากรณ์" },
+        { "icon": "🌧️", "t": "ประเมินมรสุมต่ำเกินไป", "d": "ปลายมิถุนายน–กรกฎาคมอาจมีฝนหนัก พกร่ม/เสื้อกันฝนที่ใช้ได้จริง และมีแผนสำรองในร่ม" },
+        { "icon": "🥵", "t": "มองข้ามความชื้นฤดูร้อน", "d": "ไม่ใช่แค่ร้อน — แต่ชื้นด้วย ดื่มน้ำให้พอ วางแผนพักในร่มช่วงกลางวัน และแต่งตัวรับแอร์ในอาคารที่เย็นจัด" },
+        { "icon": "🧊", "t": "เตรียมของหน้าหนาวไม่พอ", "d": "ฤดูหนาว Seoul หนาวกัดเนื้อ เสื้อโค้ทดี ๆ สักตัว บวกเสื้อสักชั้นสำหรับเครื่องทำความร้อนในอาคารที่อุ่นมาก ดีกว่าสเวตเตอร์หนาตัวเดียว" },
+        { "icon": "😷", "t": "ข้ามการเช็กคุณภาพอากาศ", "d": "ในวันที่ฝุ่นละอองสูง หน้ากากหนึ่งชิ้นและการลดกิจกรรมกลางแจ้งที่หนักหน่วงสร้างความต่างได้จริง" }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเรื่องอากาศ",
+      "items": [
+        { "q": "ช่วงไหนดีที่สุดในการมาเที่ยวเกาหลี?", "a": "ฤดูใบไม้ผลิ (เมษายน–พฤษภาคม) และฤดูใบไม้ร่วง (กันยายน–พฤศจิกายน) สบายที่สุด — อ่อนโยน แห้งกว่า และวิวสวย และยังเป็นช่วงที่คนเยอะที่สุดด้วย จึงควรจองแต่เนิ่น ๆ" },
+        { "q": "ซากุระบานเมื่อไหร่?", "a": "ราวปลายมีนาคมถึงกลางเมษายน ทางใต้เร็วกว่า จุดพีคที่แน่นอนขยับทุกปี จึงควรติดตามพยากรณ์การบานของปีนั้นแทนวันตายตัว" },
+        { "q": "ฤดูร้อนเป็นช่วงที่ไม่ควรไปหรือเปล่า?", "a": "อากาศร้อน ชื้น และมีฝนมรสุม (ปลายมิถุนายน–กรกฎาคม) แต่ไม่ถึงกับควรตัดทิ้ง — แค่แต่งตัวเบา พกร่ม และเผื่อเวลาในร่มไว้บ้าง" },
+        { "q": "ฤดูหนาวหนาวแค่ไหน?", "a": "Seoul มักต่ำกว่าจุดเยือกแข็งในเดือนธันวาคม–กุมภาพันธ์ และมีหิมะบ้าง อากาศหนาวและแห้ง เสื้อโค้ทอุ่นและการใส่หลายชั้นรับมือได้ อีกทั้งเครื่องทำความร้อนในอาคารก็แรง" },
+        { "q": "‘ฝุ่นละออง’ คืออะไร?", "a": "ฝุ่นละออง (미세먼지) คือมลพิษอนุภาคในอากาศที่อาจเพิ่มขึ้นในฤดูใบไม้ผลิและบางครั้งฤดูหนาว เช็กแอปคุณภาพอากาศและสวมหน้ากากในวันที่แย่" }
+      ]
+    }
+  },
+  "id": {
+    "kicker": "Kapan pergi & apa yang dibawa",
+    "readingTime": "Baca 6 menit",
+    "wx": {
+      "title": "Cuaca saat ini",
+      "loading": "Memuat cuaca langsung…",
+      "error": "Tak bisa memuat cuaca langsung — cek aplikasi prakiraan untuk kondisi terkini.",
+      "note": "Kondisi langsung sebagai referensi.",
+      "source": "Sumber",
+      "cities": { "seoul": "Seoul", "busan": "Busan", "jeju": "Jeju" }
+    },
+    "tldr": [
+      "Terbaik secara keseluruhan: musim semi (Apr–Mei) dan musim gugur (Sep–Nov) — sejuk dan nyaman.",
+      "Musim panas (Jun–Agu) panas dan lembap dengan musim hujan monsun; bawa barang ringan + payung.",
+      "Musim dingin (Des–Feb) dingin dan kering; bawa mantel hangat dan pakaian berlapis.",
+      "Waktu bunga sakura dan daun musim gugur bergeser tiap tahun — cek prakiraan tahun tersebut."
+    ],
+    "highlights": [
+      { "icon": "🌸", "tone": "green", "title": "Musim semi & gugur adalah waktu terbaik", "body": "Suhu sejuk, kelembapan lebih rendah, dan pemandangan megah: bunga sakura di musim semi, dedaunan merah menyala di musim gugur. Ini musim puncak wisata, jadi pesan penginapan lebih awal." },
+      { "icon": "🌧️", "tone": "amber", "title": "Musim panas = panas + monsun", "body": "Juni–Agustus panas dan lembap, dengan rentang hujan monsun (biasanya akhir Juni–Juli) dan sesekali topan akhir musim panas. Pakaian yang breathable dan payung ringkas itu wajib." },
+      { "icon": "🧥", "tone": "blue", "title": "Musim dingin dingin tapi cerah", "body": "Desember–Februari dingin dan kering, Seoul sering di bawah titik beku dan ada salju. Penghangat ruangan sangat kuat, jadi kenakan pakaian berlapis yang mudah dilepas." }
+    ],
+    "seasons": {
+      "title": "Empat musim, dan apa yang harus dibawa",
+      "packLabel": "Bawa:",
+      "creditsLabel": "Kredit foto",
+      "cards": [
+        { "icon": "🌸", "name": "Musim semi", "months": "Mar – May", "tone": "green", "vibe": "Sejuk, bunga sakura, kadang ada polusi debu halus.", "pack": "Pakaian berlapis tipis, jaket ringan, dan masker saat hari debu halus tinggi.", "img": "/img/wx/spring.jpg", "credit": "Alexey Komarov · CC BY 3.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Cherry_Blossom_in_Yeouido_Park_-_panoramio.jpg" },
+        { "icon": "🌊", "name": "Musim panas", "months": "Jun – Aug", "tone": "amber", "vibe": "Panas, lembap, hujan monsun, kadang topan.", "pack": "Pakaian breathable, payung ringkas, tabir surya, dan satu lapis untuk AC yang kencang.", "img": "/img/wx/summer.jpg", "credit": "S Shamima Nasrin · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Boseong_Green_Tea_Field_in_summer_2017.jpg" },
+        { "icon": "🍁", "name": "Musim gugur", "months": "Sep – Nov", "tone": "neutral", "vibe": "Segar, cerah, dan kering — waktu terbaik mendaki dan menikmati dedaunan.", "pack": "Pakaian berlapis tipis dan jaket lebih hangat untuk akhir musim gugur.", "img": "/img/wx/autumn.jpg", "credit": "Ludovic Peron · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Landscape_in_Seoraksan_National_Park_1.jpg" },
+        { "icon": "❄️", "name": "Musim dingin", "months": "Dec – Feb", "tone": "blue", "vibe": "Dingin dan kering, Seoul di bawah titik beku, ada salju.", "pack": "Mantel hangat, topi/sarung tangan, dan pakaian berlapis untuk penghangat ruangan yang kuat.", "img": "/img/wx/winter.jpg", "credit": "Korea.net / KOCIS · CC BY-SA 2.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Palace_covered_with_snow_%284270309099%29.jpg" }
+      ]
+    },
+    "periods": {
+      "title": "Waktu penting untuk direncanakan",
+      "items": [
+        { "icon": "🌸", "t": "Bunga sakura", "d": "Kira-kira akhir Maret hingga pertengahan April, lebih awal di selatan yang lebih hangat (Jeju/Busan) daripada di Seoul. Tanggal pastinya bergeser tiap tahun — ikuti prakiraan mekar tahun itu." },
+        { "icon": "🍁", "t": "Dedaunan musim gugur", "d": "Biasanya pertengahan Oktober hingga awal November, dimulai dari pegunungan dan utara lalu bergerak ke selatan. Cek prakiraan dedaunan tahun berjalan." },
+        { "icon": "🌧️", "t": "Musim hujan (jangma)", "d": "Rentang hujan, umumnya akhir Juni sampai Juli. Perjalanan tetap oke — cukup siapkan opsi dalam ruangan dan bawa perlengkapan hujan." },
+        { "icon": "😷", "t": "Musim debu halus", "d": "Kualitas udara bisa menurun di musim semi (dan kadang musim dingin). Cek aplikasi kualitas udara; pakai masker di hari yang buruk." }
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesalahan cuaca yang harus dihindari",
+      "items": [
+        { "icon": "📅", "t": "Mengejar tanggal mekar yang pasti", "d": "Puncak bunga sakura dan dedaunan bergeser seminggu atau lebih tiap tahun. Jangan kunci rencana yang tak bisa direfund pada tanggal tetap — pantau prakiraannya." },
+        { "icon": "🌧️", "t": "Meremehkan musim monsun", "d": "Akhir Juni–Juli bisa membawa hujan lebat. Bawa payung/jas hujan yang benar-benar andal dan siapkan rencana cadangan dalam ruangan." },
+        { "icon": "🥵", "t": "Mengabaikan kelembapan musim panas", "d": "Bukan cuma panas — tapi juga lembap. Cukupi cairan, sisipkan istirahat dalam ruangan di tengah hari, dan berpakaian untuk AC dalam ruangan yang kencang." },
+        { "icon": "🧊", "t": "Kurang membawa perlengkapan musim dingin", "d": "Musim dingin Seoul menggigit. Sebuah mantel yang layak, plus satu lapis untuk penghangat ruangan yang sangat hangat, lebih baik daripada satu sweter tebal." },
+        { "icon": "😷", "t": "Melewatkan cek kualitas udara", "d": "Di hari debu halus tinggi, sebuah masker dan mengurangi aktivitas luar ruangan yang berat benar-benar membuat perbedaan." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ cuaca",
+      "items": [
+        { "q": "Kapan waktu terbaik mengunjungi Korea?", "a": "Musim semi (April–Mei) dan musim gugur (September–November) paling nyaman — sejuk, lebih kering, dan indah. Keduanya juga paling ramai, jadi pesan lebih awal." },
+        { "q": "Kapan bunga sakura mekar?", "a": "Kira-kira akhir Maret hingga pertengahan April, lebih awal di selatan. Puncak pastinya bergeser tiap tahun, jadi ikuti prakiraan mekar tahun itu, bukan tanggal tetap." },
+        { "q": "Apakah musim panas waktu yang buruk untuk pergi?", "a": "Panas, lembap, dan ada musim hujan monsun (akhir Juni–Juli), tapi jauh dari kata sia-sia — cukup bawa barang ringan, bawa payung, dan sisipkan waktu dalam ruangan." },
+        { "q": "Seberapa dingin musim dingin?", "a": "Seoul sering di bawah titik beku pada Desember–Februari, dengan sedikit salju. Dingin dan kering; mantel hangat dan pakaian berlapis mengatasinya, dan penghangat ruangan pun kuat." },
+        { "q": "Apa itu ‘debu halus’?", "a": "Debu halus (미세먼지) adalah polusi partikel di udara yang bisa meningkat di musim semi dan kadang musim dingin. Cek aplikasi kualitas udara dan pakai masker di hari yang buruk." }
+      ]
+    }
+  },
+  "es": {
+    "kicker": "Cuándo ir y qué llevar",
+    "readingTime": "6 min de lectura",
+    "wx": {
+      "title": "El tiempo ahora mismo",
+      "loading": "Cargando el tiempo en directo…",
+      "error": "No se pudo cargar el tiempo en directo: consulta una app de pronóstico para ver las condiciones actuales.",
+      "note": "Condiciones en directo a título orientativo.",
+      "source": "Fuente",
+      "cities": { "seoul": "Seúl", "busan": "Busan", "jeju": "Jeju" }
+    },
+    "tldr": [
+      "Lo mejor en general: primavera (abr–may) y otoño (sep–nov): suave y agradable.",
+      "El verano (jun–ago) es caluroso y húmedo, con un monzón lluvioso; viaja ligero + un paraguas.",
+      "El invierno (dic–feb) es frío y seco; lleva un abrigo cálido y varias capas.",
+      "Las fechas de los cerezos en flor y del follaje otoñal cambian cada año: consulta el pronóstico de ese año."
+    ],
+    "highlights": [
+      { "icon": "🌸", "tone": "green", "title": "La primavera y el otoño son la mejor época", "body": "Temperaturas suaves, menos humedad y grandes paisajes: cerezos en flor en primavera, follaje encendido en otoño. Son temporadas altas de viaje, así que reserva alojamiento pronto." },
+      { "icon": "🌧️", "tone": "amber", "title": "Verano = calor + monzón", "body": "De junio a agosto hace calor y humedad, con una etapa de monzón lluvioso (normalmente de finales de junio a julio) y algún tifón a finales del verano. La ropa transpirable y un paraguas compacto son imprescindibles." },
+      { "icon": "🧥", "tone": "blue", "title": "El invierno es frío pero luminoso", "body": "De diciembre a febrero es frío y seco, con Seoul a menudo bajo cero y algo de nieve. La calefacción interior es fuerte, así que vístete por capas que puedas quitarte." }
+    ],
+    "seasons": {
+      "title": "Las cuatro estaciones y qué llevar",
+      "packLabel": "Lleva:",
+      "creditsLabel": "Créditos de las fotos",
+      "cards": [
+        { "icon": "🌸", "name": "Primavera", "months": "Mar – May", "tone": "green", "vibe": "Suave, cerezos en flor, algo de polvo fino ocasional.", "pack": "Ropa ligera por capas, una chaqueta fina y una mascarilla los días de mucho polvo fino.", "img": "/img/wx/spring.jpg", "credit": "Alexey Komarov · CC BY 3.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Cherry_Blossom_in_Yeouido_Park_-_panoramio.jpg" },
+        { "icon": "🌊", "name": "Verano", "months": "Jun – Aug", "tone": "amber", "vibe": "Caluroso, húmedo, lluvias de monzón, algún tifón.", "pack": "Ropa transpirable, un paraguas compacto, protector solar y una capa para el aire acondicionado fuerte.", "img": "/img/wx/summer.jpg", "credit": "S Shamima Nasrin · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Boseong_Green_Tea_Field_in_summer_2017.jpg" },
+        { "icon": "🍁", "name": "Otoño", "months": "Sep – Nov", "tone": "neutral", "vibe": "Fresco, despejado y seco: ideal para el senderismo y el follaje.", "pack": "Ropa ligera por capas y una chaqueta más abrigada para el final del otoño.", "img": "/img/wx/autumn.jpg", "credit": "Ludovic Peron · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Landscape_in_Seoraksan_National_Park_1.jpg" },
+        { "icon": "❄️", "name": "Invierno", "months": "Dec – Feb", "tone": "blue", "vibe": "Frío y seco, Seoul bajo cero, algo de nieve.", "pack": "Un abrigo cálido, gorro/guantes y capas para la fuerte calefacción interior.", "img": "/img/wx/winter.jpg", "credit": "Korea.net / KOCIS · CC BY-SA 2.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Palace_covered_with_snow_%284270309099%29.jpg" }
+      ]
+    },
+    "periods": {
+      "title": "Momentos señalados para planificar",
+      "items": [
+        { "icon": "🌸", "t": "Cerezos en flor", "d": "Aproximadamente de finales de marzo a mediados de abril, antes en el sur más cálido (Jeju/Busan) que en Seoul. Las fechas exactas se mueven cada año: sigue el pronóstico de floración de ese año." },
+        { "icon": "🍁", "t": "Follaje otoñal", "d": "Normalmente de mediados de octubre a principios de noviembre, empezando por las montañas y el norte y bajando hacia el sur. Consulta el pronóstico de follaje del año en curso." },
+        { "icon": "🌧️", "t": "Monzón (jangma)", "d": "Una etapa lluviosa, por lo general de finales de junio a julio. Los viajes siguen mereciendo la pena: solo planifica opciones bajo techo y lleva ropa para la lluvia." },
+        { "icon": "😷", "t": "Temporada de polvo fino", "d": "La calidad del aire puede bajar en primavera (y a veces en invierno). Consulta una app de calidad del aire; usa mascarilla los días malos." }
+      ]
+    },
+    "pitfalls": {
+      "title": "Errores de clima que conviene evitar",
+      "items": [
+        { "icon": "📅", "t": "Perseguir fechas exactas de floración", "d": "Los picos de cerezos y follaje se desplazan una semana o más cada año. No ates planes no reembolsables a una fecha fija: sigue el pronóstico." },
+        { "icon": "🌧️", "t": "Subestimar el monzón", "d": "De finales de junio a julio puede llover con fuerza. Lleva un paraguas o chubasquero de verdad y ten alternativas bajo techo." },
+        { "icon": "🥵", "t": "Ignorar la humedad del verano", "d": "No solo hace calor: hay humedad. Hidrátate, planifica descansos bajo techo al mediodía y vístete para el fuerte aire acondicionado interior." },
+        { "icon": "🧊", "t": "Llevar poca ropa para el invierno", "d": "Los inviernos de Seoul son duros. Un buen abrigo, más una capa para la cálida calefacción interior, es mejor que un único jersey grueso." },
+        { "icon": "😷", "t": "Saltarte la comprobación de la calidad del aire", "d": "Los días de mucho polvo fino, una mascarilla y menos planes exigentes al aire libre marcan una diferencia real." }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre el clima",
+      "items": [
+        { "q": "¿Cuál es la mejor época para visitar Corea?", "a": "La primavera (abril–mayo) y el otoño (septiembre–noviembre) son las más agradables: suaves, más secas y con buenos paisajes. También son las más concurridas, así que reserva pronto." },
+        { "q": "¿Cuándo florecen los cerezos?", "a": "Aproximadamente de finales de marzo a mediados de abril, antes en el sur. El pico exacto cambia cada año, así que sigue el pronóstico de floración de ese año en lugar de una fecha fija." },
+        { "q": "¿Es mala época el verano?", "a": "Hace calor, humedad y hay un monzón lluvioso (finales de junio–julio), pero está lejos de ser descartable: solo viaja ligero, lleva un paraguas y planifica algo de tiempo bajo techo." },
+        { "q": "¿Cuánto frío hace en invierno?", "a": "Seoul suele estar bajo cero de diciembre a febrero, con algo de nieve. Es frío y seco; un abrigo cálido y varias capas lo resuelven, y la calefacción interior es fuerte." },
+        { "q": "¿Qué es el ‘polvo fino’?", "a": "El polvo fino (미세먼지) es contaminación por partículas en suspensión que puede aumentar en primavera y a veces en invierno. Consulta una app de calidad del aire y usa mascarilla los días malos." }
+      ]
+    }
+  },
+  "ms": {
+    "kicker": "Bila pergi & apa yang dibawa",
+    "readingTime": "Bacaan 6 minit",
+    "wx": {
+      "title": "Cuaca sekarang",
+      "loading": "Memuatkan cuaca langsung…",
+      "error": "Tidak dapat memuatkan cuaca langsung — semak aplikasi ramalan untuk keadaan semasa.",
+      "note": "Keadaan langsung sebagai rujukan.",
+      "source": "Sumber",
+      "cities": { "seoul": "Seoul", "busan": "Busan", "jeju": "Jeju" }
+    },
+    "tldr": [
+      "Terbaik secara keseluruhan: musim bunga (Apr–Mei) dan musim luruh (Sep–Nov) — sejuk nyaman.",
+      "Musim panas (Jun–Ogos) panas dan lembap dengan musim hujan monsun; bawa barang ringan + payung.",
+      "Musim sejuk (Dis–Feb) sejuk dan kering; bawa kot panas dan pakaian berlapis.",
+      "Waktu bunga sakura dan daun musim luruh beralih setiap tahun — semak ramalan tahun berkenaan."
+    ],
+    "highlights": [
+      { "icon": "🌸", "tone": "green", "title": "Musim bunga & luruh ialah waktu terbaik", "body": "Suhu sejuk nyaman, kelembapan lebih rendah, dan pemandangan hebat: bunga sakura pada musim bunga, dedaunan merah menyala pada musim luruh. Ini musim kemuncak pelancongan, jadi tempah penginapan lebih awal." },
+      { "icon": "🌧️", "tone": "amber", "title": "Musim panas = panas + monsun", "body": "Jun–Ogos panas dan lembap, dengan tempoh hujan monsun (biasanya hujung Jun–Julai) dan sekali-sekala taufan hujung musim panas. Pakaian yang bernafas dan payung padat amat penting." },
+      { "icon": "🧥", "tone": "blue", "title": "Musim sejuk sejuk tetapi cerah", "body": "Disember–Februari sejuk dan kering, Seoul kerap di bawah takat beku dan ada salji. Pemanas dalaman sangat kuat, jadi pakai secara berlapis yang mudah ditanggalkan." }
+    ],
+    "seasons": {
+      "title": "Empat musim, dan apa yang perlu dibawa",
+      "packLabel": "Bawa:",
+      "creditsLabel": "Kredit foto",
+      "cards": [
+        { "icon": "🌸", "name": "Musim bunga", "months": "Mar – May", "tone": "green", "vibe": "Sejuk nyaman, bunga sakura, kadangkala habuk halus.", "pack": "Pakaian nipis berlapis, jaket ringan, dan pelitup pada hari habuk halus tinggi.", "img": "/img/wx/spring.jpg", "credit": "Alexey Komarov · CC BY 3.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Cherry_Blossom_in_Yeouido_Park_-_panoramio.jpg" },
+        { "icon": "🌊", "name": "Musim panas", "months": "Jun – Aug", "tone": "amber", "vibe": "Panas, lembap, hujan monsun, ada taufan.", "pack": "Pakaian yang bernafas, payung padat, pelindung matahari, dan satu lapisan untuk penghawa dingin yang kuat.", "img": "/img/wx/summer.jpg", "credit": "S Shamima Nasrin · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Boseong_Green_Tea_Field_in_summer_2017.jpg" },
+        { "icon": "🍁", "name": "Musim luruh", "months": "Sep – Nov", "tone": "neutral", "vibe": "Nyaman, cerah dan kering — waktu terbaik mendaki dan menikmati dedaunan.", "pack": "Pakaian nipis berlapis dan jaket lebih panas untuk hujung musim luruh.", "img": "/img/wx/autumn.jpg", "credit": "Ludovic Peron · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Landscape_in_Seoraksan_National_Park_1.jpg" },
+        { "icon": "❄️", "name": "Musim sejuk", "months": "Dec – Feb", "tone": "blue", "vibe": "Sejuk dan kering, Seoul di bawah takat beku, ada salji.", "pack": "Kot panas, topi/sarung tangan, dan pakaian berlapis untuk pemanas dalaman yang kuat.", "img": "/img/wx/winter.jpg", "credit": "Korea.net / KOCIS · CC BY-SA 2.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Palace_covered_with_snow_%284270309099%29.jpg" }
+      ]
+    },
+    "periods": {
+      "title": "Waktu penting untuk dirancang lebih awal",
+      "items": [
+        { "icon": "🌸", "t": "Bunga sakura", "d": "Lebih kurang hujung Mac hingga pertengahan April, lebih awal di selatan yang lebih panas (Jeju/Busan) berbanding Seoul. Tarikh tepat beralih setiap tahun — ikuti ramalan mekar tahun berkenaan." },
+        { "icon": "🍁", "t": "Dedaunan musim luruh", "d": "Biasanya pertengahan Oktober hingga awal November, bermula di pergunungan dan utara lalu bergerak ke selatan. Semak ramalan dedaunan tahun semasa." },
+        { "icon": "🌧️", "t": "Musim hujan (jangma)", "d": "Tempoh hujan, umumnya hujung Jun hingga Julai. Perjalanan tetap elok — cuma rancang pilihan dalaman dan bawa kelengkapan hujan." },
+        { "icon": "😷", "t": "Musim habuk halus", "d": "Kualiti udara boleh menurun pada musim bunga (dan kadangkala musim sejuk). Semak aplikasi kualiti udara; pakai pelitup pada hari yang teruk." }
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesilapan cuaca yang perlu dielakkan",
+      "items": [
+        { "icon": "📅", "t": "Mengejar tarikh mekar yang tepat", "d": "Kemuncak bunga sakura dan dedaunan beralih seminggu atau lebih setiap tahun. Jangan kunci rancangan tak boleh dikembalikan pada tarikh tetap — pantau ramalan." },
+        { "icon": "🌧️", "t": "Memandang ringan monsun", "d": "Hujung Jun–Julai boleh membawa hujan lebat. Bawa payung/jaket hujan yang benar-benar berguna dan sediakan pilihan dalaman." },
+        { "icon": "🥵", "t": "Mengabaikan kelembapan musim panas", "d": "Bukan sekadar panas — malah lembap. Minum secukupnya, rancang rehat dalaman pada waktu tengah hari, dan berpakaian untuk penghawa dingin dalaman yang kuat." },
+        { "icon": "🧊", "t": "Kurang membawa pakaian musim sejuk", "d": "Musim sejuk Seoul menggigit. Sehelai kot yang elok, ditambah satu lapisan untuk pemanas dalaman yang sangat panas, lebih baik daripada sehelai baju sejuk tebal." },
+        { "icon": "😷", "t": "Melangkau semakan kualiti udara", "d": "Pada hari habuk halus tinggi, sehelai pelitup dan mengurangkan aktiviti luar yang lasak membawa perbezaan yang nyata." }
+      ]
+    },
+    "faq": {
+      "title": "Soalan lazim cuaca",
+      "items": [
+        { "q": "Bilakah waktu terbaik melawat Korea?", "a": "Musim bunga (April–Mei) dan musim luruh (September–November) paling selesa — sejuk nyaman, lebih kering dan indah. Ia juga paling sibuk, jadi tempah awal." },
+        { "q": "Bilakah bunga sakura mekar?", "a": "Lebih kurang hujung Mac hingga pertengahan April, lebih awal di selatan. Kemuncak tepat beralih setiap tahun, jadi ikuti ramalan mekar tahun berkenaan dan bukan tarikh tetap." },
+        { "q": "Adakah musim panas waktu yang buruk untuk pergi?", "a": "Ia panas, lembap dan ada musim hujan monsun (hujung Jun–Julai), tetapi jauh daripada tidak berbaloi — cuma bawa barang ringan, bawa payung dan rancang sedikit masa dalaman." },
+        { "q": "Sejuk manakah musim sejuk?", "a": "Seoul kerap di bawah takat beku pada Disember–Februari, dengan sedikit salji. Ia sejuk dan kering; kot panas dan pakaian berlapis mampu menanganinya, dan pemanas dalaman pula kuat." },
+        { "q": "Apakah ‘habuk halus’?", "a": "Habuk halus (미세먼지) ialah pencemaran zarah terampai di udara yang boleh meningkat pada musim bunga dan kadangkala musim sejuk. Semak aplikasi kualiti udara dan pakai pelitup pada hari yang teruk." }
+      ]
+    }
+  },
+  "ko": {
+    "kicker": "언제 갈지 & 무엇을 챙길지",
+    "readingTime": "읽는 데 6분",
+    "wx": {
+      "title": "지금 날씨",
+      "loading": "실시간 날씨 불러오는 중…",
+      "error": "실시간 날씨를 불러오지 못했습니다 — 현재 상황은 날씨 예보 앱에서 확인하세요.",
+      "note": "실시간 상황은 참고용입니다.",
+      "source": "출처",
+      "cities": { "seoul": "서울", "busan": "부산", "jeju": "제주" }
+    },
+    "tldr": [
+      "전반적으로 가장 좋은 시기: 봄(4–5월)과 가을(9–11월) — 온화하고 쾌적합니다.",
+      "여름(6–8월)은 덥고 습하며 장마가 있어요; 가볍게 입고 우산을 챙기세요.",
+      "겨울(12–2월)은 춥고 건조합니다; 따뜻한 코트와 겹겹이 입을 옷을 준비하세요.",
+      "벚꽃과 단풍 시기는 매년 달라집니다 — 그해 예보를 확인하세요."
+    ],
+    "highlights": [
+      { "icon": "🌸", "tone": "green", "title": "봄과 가을이 최적기", "body": "온화한 기온, 낮은 습도, 그리고 멋진 풍경: 봄에는 벚꽃, 가을에는 불타는 단풍. 여행 성수기이니 숙소를 일찍 예약하세요." },
+      { "icon": "🌧️", "tone": "amber", "title": "여름 = 더위 + 장마", "body": "6~8월은 덥고 습하며, 장마철(보통 6월 말~7월)이 있고 늦여름에는 이따금 태풍도 옵니다. 통기성 좋은 옷과 접이식 우산은 필수예요." },
+      { "icon": "🧥", "tone": "blue", "title": "겨울은 춥지만 맑아요", "body": "12~2월은 춥고 건조하며, Seoul은 종종 영하로 떨어지고 눈도 옵니다. 실내 난방이 강하니 벗기 편한 겹겹이 입기로 대비하세요." }
+    ],
+    "seasons": {
+      "title": "사계절, 그리고 무엇을 챙길지",
+      "packLabel": "준비물:",
+      "creditsLabel": "사진 출처",
+      "cards": [
+        { "icon": "🌸", "name": "봄", "months": "Mar – May", "tone": "green", "vibe": "온화하고 벚꽃이 피며, 이따금 미세먼지.", "pack": "얇게 겹쳐 입을 옷, 가벼운 재킷, 미세먼지가 심한 날엔 마스크.", "img": "/img/wx/spring.jpg", "credit": "Alexey Komarov · CC BY 3.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Cherry_Blossom_in_Yeouido_Park_-_panoramio.jpg" },
+        { "icon": "🌊", "name": "여름", "months": "Jun – Aug", "tone": "amber", "vibe": "덥고 습하며 장맛비, 이따금 태풍.", "pack": "통기성 좋은 옷, 접이식 우산, 자외선 차단제, 강한 냉방에 대비할 겉옷 한 장.", "img": "/img/wx/summer.jpg", "credit": "S Shamima Nasrin · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Boseong_Green_Tea_Field_in_summer_2017.jpg" },
+        { "icon": "🍁", "name": "가을", "months": "Sep – Nov", "tone": "neutral", "vibe": "선선하고 맑고 건조 — 등산과 단풍에 최적.", "pack": "얇게 겹쳐 입을 옷과, 늦가을엔 더 따뜻한 재킷.", "img": "/img/wx/autumn.jpg", "credit": "Ludovic Peron · CC BY-SA 4.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Landscape_in_Seoraksan_National_Park_1.jpg" },
+        { "icon": "❄️", "name": "겨울", "months": "Dec – Feb", "tone": "blue", "vibe": "춥고 건조하며 Seoul은 영하, 눈도 옵니다.", "pack": "따뜻한 코트, 모자/장갑, 그리고 강한 실내 난방에 대비할 겹옷.", "img": "/img/wx/winter.jpg", "credit": "Korea.net / KOCIS · CC BY-SA 2.0", "creditUrl": "https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Palace_covered_with_snow_%284270309099%29.jpg" }
+      ]
+    },
+    "periods": {
+      "title": "미리 계획해 둘 만한 시기",
+      "items": [
+        { "icon": "🌸", "t": "벚꽃", "d": "대략 3월 말에서 4월 중순, Seoul보다 더 따뜻한 남부(Jeju/Busan)가 더 이릅니다. 정확한 날짜는 매년 바뀌니 — 그해 개화 예보를 따라가세요." },
+        { "icon": "🍁", "t": "가을 단풍", "d": "보통 10월 중순에서 11월 초, 산악과 북부에서 시작해 남쪽으로 내려갑니다. 그해 단풍 예보를 확인하세요." },
+        { "icon": "🌧️", "t": "장마(jangma)", "d": "비가 이어지는 시기로, 대체로 6월 말부터 7월까지입니다. 여행은 여전히 괜찮아요 — 실내 대안을 마련하고 우비를 챙기세요." },
+        { "icon": "😷", "t": "미세먼지 철", "d": "공기질은 봄(때로는 겨울)에 나빠질 수 있어요. 대기질 앱을 확인하고, 나쁜 날엔 마스크를 쓰세요." }
+      ]
+    },
+    "pitfalls": {
+      "title": "피해야 할 날씨 실수",
+      "items": [
+        { "icon": "📅", "t": "정확한 개화 날짜에 집착하기", "d": "벚꽃과 단풍의 절정은 매년 일주일 이상 옮겨집니다. 환불 불가한 일정을 특정 날짜에 못 박지 말고 — 예보를 계속 확인하세요." },
+        { "icon": "🌧️", "t": "장마를 얕보기", "d": "6월 말~7월에는 폭우가 올 수 있어요. 제대로 된 우산/우비를 챙기고 실내 대안도 마련하세요." },
+        { "icon": "🥵", "t": "여름 습도를 무시하기", "d": "덥기만 한 게 아니라 — 습합니다. 수분을 충분히 섭취하고, 한낮엔 실내 휴식을 계획하며, 강한 실내 냉방에 맞춰 입으세요." },
+        { "icon": "🧊", "t": "겨울 준비를 소홀히 하기", "d": "Seoul의 겨울은 매섭습니다. 두꺼운 스웨터 한 벌보다, 제대로 된 코트에 매우 따뜻한 실내 난방용 겉옷 한 장을 더하는 편이 낫습니다." },
+        { "icon": "😷", "t": "공기질 확인을 건너뛰기", "d": "미세먼지가 심한 날엔 마스크 하나와 격한 야외 일정을 줄이는 것이 실질적인 차이를 만듭니다." }
+      ]
+    },
+    "faq": {
+      "title": "날씨 자주 묻는 질문",
+      "items": [
+        { "q": "한국을 방문하기 가장 좋은 때는 언제인가요?", "a": "봄(4–5월)과 가을(9–11월)이 가장 쾌적합니다 — 온화하고 더 건조하며 경치가 좋아요. 가장 붐비는 시기이기도 하니 일찍 예약하세요." },
+        { "q": "벚꽃은 언제 피나요?", "a": "대략 3월 말에서 4월 중순, 남부가 더 이릅니다. 정확한 절정은 매년 바뀌니, 고정된 날짜보다 그해 개화 예보를 따라가세요." },
+        { "q": "여름은 가기 나쁜 때인가요?", "a": "덥고 습하며 장마(6월 말~7월)도 있지만, 결코 포기할 정도는 아니에요 — 가볍게 입고, 우산을 챙기고, 실내 시간을 좀 계획하세요." },
+        { "q": "겨울은 얼마나 추운가요?", "a": "Seoul은 12~2월에 종종 영하로 떨어지고 눈도 옵니다. 춥고 건조하지만, 따뜻한 코트와 겹겹이 입기로 감당할 수 있고 실내 난방도 강합니다." },
+        { "q": "‘미세먼지’가 뭔가요?", "a": "미세먼지는 공기 중에 떠다니는 입자상 오염 물질로, 봄과 때로는 겨울에 늘어날 수 있어요. 대기질 앱을 확인하고 나쁜 날엔 마스크를 쓰세요." }
+      ]
+    }
+  }
+}
