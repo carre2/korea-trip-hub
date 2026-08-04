@@ -9,6 +9,7 @@ import guideVisa from "../../../../data/guides/visa.json";
 import guideTransit from "../../../../data/guides/transit.json";
 import guideTransitI18n from "../../../../data/guides/transit.i18n.json";
 import guideAirport from "../../../../data/guides/airport.json";
+import guideAirportI18n from "../../../../data/guides/airport.i18n.json";
 import plan from "../../../../data/plan.json";
 import planJa from "../../../../data/plan.ja.json";
 import planZh from "../../../../data/plan.zh.json";
@@ -36,7 +37,7 @@ const planI18n = { ja: planJa, zh: planZh, "zh-TW": planZhTW, es: planEs, fr: pl
 // Rich visual guides (English base). Keyed by slug; only slugs with a guide render the deep-dive layout.
 const guides = { visa: guideVisa, transit: guideTransit, airport: guideAirport };
 // Per-locale translation overrides for rich guides: { <locale>: { ...overrides } }.
-const guideI18n = { transit: guideTransitI18n };
+const guideI18n = { transit: guideTransitI18n, airport: guideAirportI18n };
 // Which rich component renders each slug's guide body.
 const GuideBody = { visa: GuideVisual, transit: TransitGuide, airport: AirportGuide };
 
