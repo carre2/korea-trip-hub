@@ -1,0 +1,498 @@
+{
+  "_README": "Per-locale translation overrides for sim.json (guides). Machine-translated — native review recommended.",
+  "zh": {
+    "kicker": "保持联网",
+    "readingTime": "阅读时间 6 分钟",
+    "tldr": [
+      "独自旅行、最省事：用 eSIM——出发前装好，落地即可上网。",
+      "手机不支持 eSIM？在机场柜台买一张实体 SIM（手机必须已解锁）。",
+      "多人或家庭出行：租一台随身 Wi-Fi 分摊往往最划算——回国前记得归还。",
+      "别只看单一报价——按流量大小和天数来比较。"
+    ],
+    "highlights": [
+      { "icon": "📲", "tone": "green", "title": "对大多数旅客，eSIM 最省事", "body": "如果你的手机支持 eSIM，出发前在 App（如 Airalo、Klook）买一张，落地瞬间即可用数据——不用跑柜台，也不用换卡。大多数韩国 eSIM 运行在 KT 或 SK Telecom 网络上。" },
+      { "icon": "👥", "tone": "amber", "title": "多人出行随身 Wi-Fi 更划算", "body": "租用的随身 Wi-Fi 路由器可让几部手机共用一条连接，家庭和团体能分摊每日费用。在机场柜机领取——别忘了回国航班前归还。" },
+      { "icon": "🔓", "tone": "blue", "title": "实体 SIM 需要已解锁的手机", "body": "机场运营商柜台（SKT、KT、LG U+）的 nano-SIM 只能在已解锁的手机上使用。带上护照；设置大约需要 10–15 分钟。" }
+    ],
+    "compare": {
+      "title": "eSIM vs 实体 SIM vs 随身 Wi-Fi",
+      "cols": ["", "eSIM", "实体 SIM", "随身 Wi-Fi"],
+      "rows": [
+        { "label": "最适合", "vals": ["独自出行、图方便", "不支持 eSIM 的手机、独自出行", "团体与家庭"] },
+        { "label": "何时可用", "vals": ["落地即用", "柜台办理后", "机场领取后"] },
+        { "label": "从哪获取", "vals": ["出发前用 App", "机场柜台／在线", "在线预订，到柜机领取"] },
+        { "label": "要求", "vals": ["支持 eSIM 的手机", "已解锁的手机", "随身携带并给路由器充电"] },
+        { "label": "需要归还吗？", "vals": ["否", "否", "是——回国前归还"] }
+      ]
+    },
+    "options": {
+      "title": "设置你的选择",
+      "intro": "选一个符合你手机和行程的方案，然后按快速设置步骤操作。",
+      "cards": [
+        { "icon": "📲", "name": "eSIM", "tone": "green", "best": "独自出行·最快", "setup": ["确认你的手机支持 eSIM。", "出发前在 App（Airalo、Klook 或运营商）里买一张韩国 eSIM。", "按 App 的二维码／步骤安装 eSIM。", "落地后为该号码开启数据漫游——你就上线了。"] },
+        { "icon": "📶", "name": "实体 SIM", "tone": "blue", "best": "已解锁的手机", "setup": ["确保你的手机已解锁。", "前往入境大厅的 SKT / KT / LG U+ 柜台（带上护照）。", "按流量 + 天数选择套餐。", "工作人员插卡并激活（约 10–15 分钟）。"] },
+        { "icon": "📡", "name": "随身 Wi-Fi", "tone": "amber", "best": "团体·共享", "setup": ["出发前在线预订（更便宜）。", "在机场领取柜机取走路由器。", "让大家的手机通过 Wi-Fi 连接。", "回国前在机场归还。"] }
+      ]
+    },
+    "pitfalls": {
+      "title": "要避免的错误",
+      "items": [
+        { "icon": "🔒", "t": "手机被锁", "d": "实体 SIM 无法在被运营商锁定的手机上使用。出行前先解锁，或改用 eSIM／随身 Wi-Fi。" },
+        { "icon": "📵", "t": "想当然以为支持 eSIM", "d": "并非每部手机都支持 eSIM。先查一下你的机型——否则请准备实体 SIM 或随身 Wi-Fi。" },
+        { "icon": "↩️", "t": "忘记归还路由器", "d": "随身 Wi-Fi 是租借的——出发前在机场归还，否则会被收费。" },
+        { "icon": "📊", "t": "买了太多（或太少）流量", "d": "按你的实际用量和行程长度来匹配套餐。酒店和咖啡馆有免费 Wi-Fi，所以你需要的可能比想象的少。" },
+        { "icon": "🏞️", "t": "乡村信号弱", "d": "如果有很多国家公园或海岸线的一日游，KT 和 SKT 的覆盖通常最广。" }
+      ]
+    },
+    "faq": {
+      "title": "联网常见问题",
+      "items": [
+        { "q": "eSIM 还是实体 SIM——我该选哪个？", "a": "如果你的手机支持 eSIM，就选 eSIM：出发前装好，落地即用。若不支持（或你更喜欢实体卡），在机场柜台买一张 SIM——手机必须已解锁。" },
+        { "q": "家庭或团体用什么最好？", "a": "几个人共用一台路由器时，租用的随身 Wi-Fi 通常最便宜。只要记得回国前在机场归还即可。" },
+        { "q": "在机场哪里买？", "a": "三家运营商（SKT、KT、LG U+）在 Incheon（Terminal 1 & 2）、Gimpo 和 Gimhae 的入境大厅都设有柜台。你也可以在线预订。" },
+        { "q": "费用是多少？", "a": "套餐因流量大小和天数差异很大，所以我们不给单一报价——在 eSIM App 或柜台比较当前的优惠。请查看流量和有效期，别只看标价。" },
+        { "q": "我真的需要吗——不是有免费 Wi-Fi 吗？", "a": "确实有很多免费 Wi-Fi（机场、酒店、咖啡馆、部分公交／地铁），但自己的数据能让地图、打车和消息在移动中更可靠。大多数游客都会办 eSIM 或 SIM。" }
+      ]
+    }
+  },
+  "zh-TW": {
+    "kicker": "保持連線",
+    "readingTime": "閱讀時間 6 分鐘",
+    "tldr": [
+      "獨自旅行、最省事：用 eSIM——出發前裝好，落地即可上網。",
+      "手機不支援 eSIM？在機場櫃台買一張實體 SIM（手機必須已解鎖）。",
+      "多人或家庭出行：租一台隨身 Wi-Fi 分攤通常最划算——回國前記得歸還。",
+      "別只看單一報價——依流量大小和天數來比較。"
+    ],
+    "highlights": [
+      { "icon": "📲", "tone": "green", "title": "對多數旅客，eSIM 最省事", "body": "如果你的手機支援 eSIM，出發前在 App（如 Airalo、Klook）買一張，落地瞬間即可用數據——不用跑櫃台，也不用換卡。多數韓國 eSIM 運行在 KT 或 SK Telecom 網路上。" },
+      { "icon": "👥", "tone": "amber", "title": "多人出行隨身 Wi-Fi 更划算", "body": "租用的隨身 Wi-Fi 路由器可讓好幾支手機共用一條連線，家庭和團體能分攤每日費用。在機場櫃機領取——別忘了回國航班前歸還。" },
+      { "icon": "🔓", "tone": "blue", "title": "實體 SIM 需要已解鎖的手機", "body": "機場電信商櫃台（SKT、KT、LG U+）的 nano-SIM 只能在已解鎖的手機上使用。帶上護照；設定大約需要 10–15 分鐘。" }
+    ],
+    "compare": {
+      "title": "eSIM vs 實體 SIM vs 隨身 Wi-Fi",
+      "cols": ["", "eSIM", "實體 SIM", "隨身 Wi-Fi"],
+      "rows": [
+        { "label": "最適合", "vals": ["獨自出行、圖方便", "不支援 eSIM 的手機、獨自出行", "團體與家庭"] },
+        { "label": "何時可用", "vals": ["落地即用", "櫃台辦理後", "機場領取後"] },
+        { "label": "從哪取得", "vals": ["出發前用 App", "機場櫃台／線上", "線上預訂，到櫃機領取"] },
+        { "label": "需求", "vals": ["支援 eSIM 的手機", "已解鎖的手機", "隨身攜帶並為路由器充電"] },
+        { "label": "需要歸還嗎？", "vals": ["否", "否", "是——回國前歸還"] }
+      ]
+    },
+    "options": {
+      "title": "設定你的選擇",
+      "intro": "選一個符合你手機和行程的方案，然後照著快速設定步驟操作。",
+      "cards": [
+        { "icon": "📲", "name": "eSIM", "tone": "green", "best": "獨自出行·最快", "setup": ["確認你的手機支援 eSIM。", "出發前在 App（Airalo、Klook 或電信商）裡買一張韓國 eSIM。", "依 App 的 QR Code／步驟安裝 eSIM。", "落地後為該門號開啟數據漫遊——你就上線了。"] },
+        { "icon": "📶", "name": "實體 SIM", "tone": "blue", "best": "已解鎖的手機", "setup": ["確認你的手機已解鎖。", "前往入境大廳的 SKT / KT / LG U+ 櫃台（帶上護照）。", "依流量 + 天數選擇方案。", "工作人員插卡並啟用（約 10–15 分鐘）。"] },
+        { "icon": "📡", "name": "隨身 Wi-Fi", "tone": "amber", "best": "團體·共享", "setup": ["出發前線上預訂（更便宜）。", "在機場領取櫃機取走路由器。", "讓大家的手機透過 Wi-Fi 連線。", "回國前在機場歸還。"] }
+      ]
+    },
+    "pitfalls": {
+      "title": "要避免的錯誤",
+      "items": [
+        { "icon": "🔒", "t": "手機被鎖", "d": "實體 SIM 無法在被電信商鎖定的手機上使用。出行前先解鎖，或改用 eSIM／隨身 Wi-Fi。" },
+        { "icon": "📵", "t": "想當然以為支援 eSIM", "d": "並非每支手機都支援 eSIM。先查一下你的機型——否則請準備實體 SIM 或隨身 Wi-Fi。" },
+        { "icon": "↩️", "t": "忘記歸還路由器", "d": "隨身 Wi-Fi 是租借的——出發前在機場歸還，否則會被收費。" },
+        { "icon": "📊", "t": "買了太多（或太少）流量", "d": "依你的實際用量和行程長度來搭配方案。飯店和咖啡廳有免費 Wi-Fi，所以你需要的可能比想像中少。" },
+        { "icon": "🏞️", "t": "鄉間收訊弱", "d": "如果有很多國家公園或海岸線的一日遊，KT 和 SKT 的覆蓋通常最廣。" }
+      ]
+    },
+    "faq": {
+      "title": "連線常見問題",
+      "items": [
+        { "q": "eSIM 還是實體 SIM——我該選哪個？", "a": "如果你的手機支援 eSIM，就選 eSIM：出發前裝好，落地即用。若不支援（或你偏好實體卡），在機場櫃台買一張 SIM——手機必須已解鎖。" },
+        { "q": "家庭或團體用什麼最好？", "a": "幾個人共用一台路由器時，租用的隨身 Wi-Fi 通常最便宜。只要記得回國前在機場歸還即可。" },
+        { "q": "在機場哪裡買？", "a": "三家電信商（SKT、KT、LG U+）在 Incheon（Terminal 1 & 2）、Gimpo 和 Gimhae 的入境大廳都設有櫃台。你也可以線上預訂。" },
+        { "q": "費用是多少？", "a": "方案因流量大小和天數差異很大，所以我們不給單一報價——在 eSIM App 或櫃台比較目前的優惠。請查看流量和效期，別只看標價。" },
+        { "q": "我真的需要嗎——不是有免費 Wi-Fi 嗎？", "a": "確實有很多免費 Wi-Fi（機場、飯店、咖啡廳、部分公車／地鐵），但自己的數據能讓地圖、叫車和訊息在移動中更可靠。多數遊客都會辦 eSIM 或 SIM。" }
+      ]
+    }
+  },
+  "ja": {
+    "kicker": "ネット接続",
+    "readingTime": "読了6分",
+    "tldr": [
+      "一人旅で最も手軽：eSIM——出発前に入れておけば、着いた瞬間から使えます。",
+      "eSIM 非対応のスマホなら？空港カウンターで物理 SIM を（スマホは SIMロック解除が必要）。",
+      "グループや家族：レンタルのポケット Wi-Fi はみんなで分けると割安なことが多い——帰国前の返却をお忘れなく。",
+      "単一の値段で語らないこと——データ量と日数で比べましょう。"
+    ],
+    "highlights": [
+      { "icon": "📲", "tone": "green", "title": "多くの旅行者には eSIM が最も手軽", "body": "スマホが eSIM に対応していれば、出発前にアプリ（例：Airalo、Klook）で購入しておくと、着いた瞬間からデータが使えます——カウンターも SIM の差し替えも不要。韓国の eSIM はほとんどが KT または SK Telecom のネットワークで動きます。" },
+      { "icon": "👥", "tone": "amber", "title": "グループにはポケット Wi-Fi が有利", "body": "レンタルのポケット Wi-Fi ルーターは1つの回線を複数のスマホで共有できるので、家族やグループなら1日あたりの費用を分け合えます。空港のカウンターで受け取り——帰国便の前に返却するのをお忘れなく。" },
+      { "icon": "🔓", "tone": "blue", "title": "物理 SIM には SIMロック解除済みのスマホが必要", "body": "空港の通信キャリアカウンター（SKT、KT、LG U+）の nano-SIM は、ロック解除済みのスマホでしか使えません。パスポートを持参。設定には10〜15分ほどかかります。" }
+    ],
+    "compare": {
+      "title": "eSIM vs 物理 SIM vs ポケット Wi-Fi",
+      "cols": ["", "eSIM", "物理 SIM", "ポケット Wi-Fi"],
+      "rows": [
+        { "label": "こんな人に", "vals": ["一人旅・手軽さ重視", "eSIM 非対応スマホ・一人旅", "グループ＆家族"] },
+        { "label": "使えるタイミング", "vals": ["着いた瞬間", "カウンターに寄ってから", "空港受け取り後"] },
+        { "label": "入手方法", "vals": ["出発前にアプリで", "空港カウンター／オンライン", "オンライン予約、カウンターで受け取り"] },
+        { "label": "必要なもの", "vals": ["eSIM 対応スマホ", "ロック解除済みスマホ", "ルーターの携帯と充電"] },
+        { "label": "返却は必要？", "vals": ["不要", "不要", "必要——帰国前に"] }
+      ]
+    },
+    "options": {
+      "title": "選んだ方法をセットアップ",
+      "intro": "自分のスマホと旅程に合うものを選び、かんたんセットアップに沿って進めましょう。",
+      "cards": [
+        { "icon": "📲", "name": "eSIM", "tone": "green", "best": "一人旅・最速", "setup": ["スマホが eSIM に対応しているか確認。", "出発前にアプリ（Airalo、Klook、または通信キャリア）で韓国の eSIM を購入。", "アプリの QR／手順に従って eSIM をインストール。", "着いたらその回線のデータローミングをオン——これでオンラインです。"] },
+        { "icon": "📶", "name": "物理 SIM", "tone": "blue", "best": "ロック解除済みスマホ", "setup": ["スマホの SIMロックが解除されているか確認。", "到着ロビーの SKT / KT / LG U+ カウンターへ（パスポート持参）。", "データ量＋日数でプランを選ぶ。", "スタッフが挿入・開通してくれます（約10〜15分）。"] },
+        { "icon": "📡", "name": "ポケット Wi-Fi", "tone": "amber", "best": "グループ・シェア", "setup": ["出発前にオンライン予約（そのほうが安い）。", "空港の受け取りカウンターでルーターを受け取る。", "みんなのスマホを Wi-Fi でつなぐ。", "帰国前に空港で返却する。"] }
+      ]
+    },
+    "pitfalls": {
+      "title": "避けたい失敗",
+      "items": [
+        { "icon": "🔒", "t": "ロックされたスマホ", "d": "物理 SIM はキャリアロックのかかったスマホでは使えません。旅行前に解除するか、代わりに eSIM／ポケット Wi-Fi を使いましょう。" },
+        { "icon": "📵", "t": "eSIM 対応だと思い込む", "d": "すべてのスマホが eSIM に対応しているわけではありません。まず機種を確認を——対応していなければ物理 SIM かポケット Wi-Fi を用意しましょう。" },
+        { "icon": "↩️", "t": "ルーターの返却忘れ", "d": "ポケット Wi-Fi はレンタルです——出発前に空港で返却しないと料金がかかります。" },
+        { "icon": "📊", "t": "データの買いすぎ（または不足）", "d": "実際の使い方と旅の長さに合わせてプランを。ホテルやカフェには無料 Wi-Fi があるので、思ったより少なくて済むかもしれません。" },
+        { "icon": "🏞️", "t": "地方では電波が弱い", "d": "国立公園や海沿いの日帰り旅行が多いなら、KT と SKT がいちばん広くカバーする傾向があります。" }
+      ]
+    },
+    "faq": {
+      "title": "通信のよくある質問",
+      "items": [
+        { "q": "eSIM と物理 SIM——どちらを選ぶ？", "a": "スマホが eSIM に対応しているなら eSIM を：出発前に入れておけば着いた瞬間から使えます。対応していない（または物理カードが好み）なら、空港カウンターで SIM を購入——スマホは SIMロック解除が必要です。" },
+        { "q": "家族やグループには何がいい？", "a": "何人かで1台のルーターを共有するなら、レンタルのポケット Wi-Fi がたいてい最安です。帰国前に空港で返却するのをお忘れなく。" },
+        { "q": "空港のどこで買える？", "a": "3社（SKT、KT、LG U+）とも、Incheon（Terminal 1 & 2）、Gimpo、Gimhae の到着ロビーにカウンターがあります。オンラインでの事前予約も可能です。" },
+        { "q": "料金はいくら？", "a": "プランはデータ量と日数で大きく変わるため、単一の値段は示しません——eSIM アプリやカウンターで最新のプランを比べましょう。表示価格だけでなく、データ量と有効期間も必ず確認を。" },
+        { "q": "そもそも必要？無料 Wi-Fi があるのでは？", "a": "無料 Wi-Fi はたくさんあります（空港、ホテル、カフェ、一部のバス／地下鉄）が、自分のデータがあれば移動中も地図・タクシー・メッセージが安定します。ほとんどの旅行者は eSIM か SIM を用意します。" }
+      ]
+    }
+  },
+  "vi": {
+    "kicker": "Kết nối mạng",
+    "readingTime": "Đọc trong 6 phút",
+    "tldr": [
+      "Đi một mình & dễ nhất: một chiếc eSIM — cài trước khi bay và nó hoạt động ngay khi bạn hạ cánh.",
+      "Điện thoại không hỗ trợ eSIM? Mua SIM vật lý tại quầy ở sân bay (điện thoại phải được mở khóa).",
+      "Nhóm hoặc gia đình: thuê một cục Wi-Fi bỏ túi thường rẻ nhất khi dùng chung — chỉ cần trả lại trước khi bay về.",
+      "Đừng chỉ nhìn một mức giá — hãy so sánh theo dung lượng data và số ngày."
+    ],
+    "highlights": [
+      { "icon": "📲", "tone": "green", "title": "eSIM là lựa chọn dễ nhất cho hầu hết du khách", "body": "Nếu điện thoại của bạn hỗ trợ eSIM, hãy mua một chiếc từ ứng dụng (ví dụ Airalo, Klook) trước khi bay, và data sẵn sàng ngay khoảnh khắc bạn hạ cánh — không cần ra quầy, không cần đổi SIM. Hầu hết eSIM ở Hàn Quốc chạy trên mạng KT hoặc SK Telecom." },
+      { "icon": "👥", "tone": "amber", "title": "Wi-Fi bỏ túi thắng thế cho nhóm", "body": "Một cục phát Wi-Fi bỏ túi cho thuê chia sẻ một kết nối cho nhiều điện thoại, nên gia đình và nhóm có thể chia đều chi phí mỗi ngày. Nhận nó tại quầy ở sân bay — và nhớ trả lại trước chuyến bay về nhà." },
+      { "icon": "🔓", "tone": "blue", "title": "SIM vật lý cần điện thoại đã mở khóa", "body": "Nano-SIM từ các quầy nhà mạng ở sân bay (SKT, KT, LG U+) chỉ hoạt động trên điện thoại đã mở khóa. Mang theo hộ chiếu; thiết lập mất khoảng 10–15 phút." }
+    ],
+    "compare": {
+      "title": "eSIM vs SIM vật lý vs Wi-Fi bỏ túi",
+      "cols": ["", "eSIM", "SIM vật lý", "Wi-Fi bỏ túi"],
+      "rows": [
+        { "label": "Tốt nhất cho", "vals": ["Đi một mình, tiện lợi", "Điện thoại không có eSIM, đi một mình", "Nhóm & gia đình"] },
+        { "label": "Sẵn sàng khi", "vals": ["Ngay khi bạn hạ cánh", "Sau khi ghé quầy", "Sau khi nhận ở sân bay"] },
+        { "label": "Lấy nó ở đâu", "vals": ["Ứng dụng trước khi bay", "Quầy sân bay / trực tuyến", "Đặt trực tuyến, nhận tại quầy"] },
+        { "label": "Yêu cầu", "vals": ["Điện thoại hỗ trợ eSIM", "Điện thoại đã mở khóa", "Mang theo & sạc cục phát"] },
+        { "label": "Cần trả lại không?", "vals": ["Không", "Không", "Có — trước khi bay về"] }
+      ]
+    },
+    "options": {
+      "title": "Thiết lập lựa chọn của bạn",
+      "intro": "Chọn cái phù hợp với điện thoại và chuyến đi của bạn, rồi làm theo hướng dẫn thiết lập nhanh.",
+      "cards": [
+        { "icon": "📲", "name": "eSIM", "tone": "green", "best": "Đi một mình · nhanh nhất", "setup": ["Kiểm tra điện thoại của bạn có hỗ trợ eSIM.", "Mua một chiếc eSIM Hàn Quốc trong ứng dụng (Airalo, Klook, hoặc một nhà mạng) trước khi bay.", "Cài đặt eSIM theo mã QR/các bước của ứng dụng.", "Bật chuyển vùng data cho eSIM đó khi bạn hạ cánh — bạn đã online."] },
+        { "icon": "📶", "name": "SIM vật lý", "tone": "blue", "best": "Điện thoại đã mở khóa", "setup": ["Đảm bảo điện thoại của bạn đã được mở khóa.", "Đến quầy SKT / KT / LG U+ ở sảnh đến (mang theo hộ chiếu).", "Chọn gói theo dung lượng data + số ngày.", "Nhân viên lắp và kích hoạt (~10–15 phút)."] },
+        { "icon": "📡", "name": "Wi-Fi bỏ túi", "tone": "amber", "best": "Nhóm · chia sẻ", "setup": ["Đặt trực tuyến trước chuyến đi (rẻ hơn).", "Nhận cục phát tại quầy nhận ở sân bay.", "Kết nối điện thoại của mọi người qua Wi-Fi.", "Trả lại tại sân bay trước khi bay về nhà."] }
+      ]
+    },
+    "pitfalls": {
+      "title": "Những sai lầm cần tránh",
+      "items": [
+        { "icon": "🔒", "t": "Điện thoại bị khóa", "d": "SIM vật lý sẽ không hoạt động trên điện thoại bị nhà mạng khóa. Hãy mở khóa trước khi đi, hoặc dùng eSIM / Wi-Fi bỏ túi thay thế." },
+        { "icon": "📵", "t": "Mặc định là có hỗ trợ eSIM", "d": "Không phải điện thoại nào cũng hỗ trợ eSIM. Kiểm tra mẫu máy của bạn trước — nếu không, hãy tính đến SIM vật lý hoặc Wi-Fi bỏ túi." },
+        { "icon": "↩️", "t": "Quên trả cục phát", "d": "Wi-Fi bỏ túi là đồ thuê — trả lại tại sân bay trước khi khởi hành, nếu không bạn sẽ bị tính phí." },
+        { "icon": "📊", "t": "Mua quá nhiều (hoặc quá ít) data", "d": "Chọn gói khớp với nhu cầu thực và độ dài chuyến đi. Khách sạn và quán cà phê có Wi-Fi miễn phí, nên bạn có thể cần ít hơn bạn nghĩ." },
+        { "icon": "🏞️", "t": "Sóng yếu ở vùng nông thôn", "d": "Nếu đi nhiều chuyến trong ngày tới công viên quốc gia hay vùng ven biển, KT và SKT thường có vùng phủ rộng nhất." }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về kết nối",
+      "items": [
+        { "q": "eSIM hay SIM vật lý — tôi nên chọn cái nào?", "a": "Nếu điện thoại hỗ trợ eSIM, hãy chọn eSIM: cài trước khi bay và nó hoạt động ngay khi hạ cánh. Nếu không (hoặc bạn thích thẻ vật lý), hãy mua SIM tại quầy ở sân bay — điện thoại của bạn phải được mở khóa." },
+        { "q": "Gì là tốt nhất cho gia đình hoặc nhóm?", "a": "Wi-Fi bỏ túi cho thuê thường rẻ nhất khi vài người dùng chung một cục phát. Chỉ cần nhớ trả lại tại sân bay trước khi bay về nhà." },
+        { "q": "Tôi mua ở đâu tại sân bay?", "a": "Cả ba nhà mạng (SKT, KT, LG U+) đều có quầy tại sảnh đến ở Incheon (Terminal 1 & 2), Gimpo và Gimhae. Bạn cũng có thể đặt trước trực tuyến." },
+        { "q": "Chi phí bao nhiêu?", "a": "Các gói khác nhau rất nhiều theo dung lượng data và số ngày, nên chúng tôi không đưa một mức giá duy nhất — hãy so sánh các ưu đãi hiện tại trong ứng dụng eSIM hoặc tại quầy. Nhớ kiểm tra dung lượng data và thời hạn, không chỉ nhìn giá niêm yết." },
+        { "q": "Tôi có thực sự cần không — chẳng phải có Wi-Fi miễn phí sao?", "a": "Có rất nhiều Wi-Fi miễn phí (sân bay, khách sạn, quán cà phê, một số xe buýt/tàu điện ngầm), nhưng data của riêng bạn giúp bản đồ, taxi và nhắn tin đáng tin cậy khi di chuyển. Hầu hết du khách đều dùng eSIM hoặc SIM." }
+      ]
+    }
+  },
+  "th": {
+    "kicker": "การเชื่อมต่ออินเทอร์เน็ต",
+    "readingTime": "อ่าน 6 นาที",
+    "tldr": [
+      "เที่ยวคนเดียว & ง่ายที่สุด: eSIM — ติดตั้งก่อนบินและใช้งานได้ทันทีที่ลงเครื่อง",
+      "มือถือไม่รองรับ eSIM? ซื้อ SIM แบบกายภาพที่เคาน์เตอร์ในสนามบิน (มือถือต้องปลดล็อกแล้ว)",
+      "กลุ่มหรือครอบครัว: เช่า Pocket Wi-Fi แล้วแชร์กันมักคุ้มที่สุด — แค่คืนก่อนบินกลับ",
+      "อย่ายึดราคาเดียว — เปรียบเทียบตามปริมาณดาต้าและจำนวนวัน"
+    ],
+    "highlights": [
+      { "icon": "📲", "tone": "green", "title": "eSIM ง่ายที่สุดสำหรับนักท่องเที่ยวส่วนใหญ่", "body": "ถ้ามือถือของคุณรองรับ eSIM ให้ซื้อจากแอป (เช่น Airalo, Klook) ก่อนบิน แล้วดาต้าพร้อมใช้ทันทีที่ลงเครื่อง — ไม่ต้องไปเคาน์เตอร์ ไม่ต้องสลับ SIM eSIM ของเกาหลีส่วนใหญ่ทำงานบนเครือข่าย KT หรือ SK Telecom" },
+      { "icon": "👥", "tone": "amber", "title": "Pocket Wi-Fi คุ้มกว่าสำหรับกลุ่ม", "body": "เราเตอร์ Pocket Wi-Fi แบบเช่าแชร์การเชื่อมต่อเดียวให้มือถือหลายเครื่อง ครอบครัวและกลุ่มจึงหารค่าใช้จ่ายต่อวันกันได้ รับที่ตู้ในสนามบิน — และอย่าลืมคืนก่อนเที่ยวบินกลับบ้าน" },
+      { "icon": "🔓", "tone": "blue", "title": "SIM แบบกายภาพต้องใช้มือถือที่ปลดล็อกแล้ว", "body": "nano-SIM จากเคาน์เตอร์ผู้ให้บริการในสนามบิน (SKT, KT, LG U+) ใช้ได้เฉพาะมือถือที่ปลดล็อกแล้ว พกพาสปอร์ตไปด้วย การตั้งค่าใช้เวลาราว 10–15 นาที" }
+    ],
+    "compare": {
+      "title": "eSIM vs SIM แบบกายภาพ vs Pocket Wi-Fi",
+      "cols": ["", "eSIM", "SIM แบบกายภาพ", "Pocket Wi-Fi"],
+      "rows": [
+        { "label": "เหมาะกับ", "vals": ["เที่ยวคนเดียว, สะดวก", "มือถือที่ไม่มี eSIM, เที่ยวคนเดียว", "กลุ่มและครอบครัว"] },
+        { "label": "พร้อมใช้เมื่อ", "vals": ["ทันทีที่ลงเครื่อง", "หลังแวะเคาน์เตอร์", "หลังรับที่สนามบิน"] },
+        { "label": "หาได้จาก", "vals": ["แอปก่อนบิน", "เคาน์เตอร์สนามบิน / ออนไลน์", "จองออนไลน์ รับที่ตู้"] },
+        { "label": "ข้อกำหนด", "vals": ["มือถือที่รองรับ eSIM", "มือถือที่ปลดล็อกแล้ว", "พกและชาร์จเราเตอร์"] },
+        { "label": "ต้องคืนไหม?", "vals": ["ไม่", "ไม่", "ต้อง — ก่อนบินกลับบ้าน"] }
+      ]
+    },
+    "options": {
+      "title": "ตั้งค่าตัวเลือกของคุณ",
+      "intro": "เลือกแบบที่เข้ากับมือถือและทริปของคุณ แล้วทำตามขั้นตอนตั้งค่าอย่างรวดเร็ว",
+      "cards": [
+        { "icon": "📲", "name": "eSIM", "tone": "green", "best": "คนเดียว · เร็วที่สุด", "setup": ["ตรวจสอบว่ามือถือของคุณรองรับ eSIM", "ซื้อ eSIM เกาหลีในแอป (Airalo, Klook หรือผู้ให้บริการ) ก่อนบิน", "ติดตั้ง eSIM ตาม QR/ขั้นตอนของแอป", "เปิดดาต้าโรมมิ่งสำหรับซิมนั้นเมื่อลงเครื่อง — คุณออนไลน์แล้ว"] },
+        { "icon": "📶", "name": "SIM แบบกายภาพ", "tone": "blue", "best": "มือถือที่ปลดล็อกแล้ว", "setup": ["ตรวจสอบให้แน่ใจว่ามือถือของคุณปลดล็อกแล้ว", "ไปที่เคาน์เตอร์ SKT / KT / LG U+ ในโถงผู้โดยสารขาเข้า (พกพาสปอร์ต)", "เลือกแพ็กเกจตามดาต้า + จำนวนวัน", "พนักงานใส่ซิมและเปิดใช้งานให้ (~10–15 นาที)"] },
+        { "icon": "📡", "name": "Pocket Wi-Fi", "tone": "amber", "best": "กลุ่ม · แชร์กัน", "setup": ["จองออนไลน์ก่อนทริป (ถูกกว่า)", "รับเราเตอร์ที่ตู้รับของในสนามบิน", "เชื่อมต่อมือถือของทุกคนผ่าน Wi-Fi", "คืนที่สนามบินก่อนบินกลับบ้าน"] }
+      ]
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดที่ควรเลี่ยง",
+      "items": [
+        { "icon": "🔒", "t": "มือถือที่ถูกล็อก", "d": "SIM แบบกายภาพใช้ไม่ได้กับมือถือที่ถูกผู้ให้บริการล็อก ปลดล็อกก่อนเดินทาง หรือใช้ eSIM / Pocket Wi-Fi แทน" },
+        { "icon": "📵", "t": "เหมาว่ารองรับ eSIM", "d": "ไม่ใช่ทุกมือถือที่รองรับ eSIM ตรวจสอบรุ่นของคุณก่อน — ไม่งั้นให้วางแผนใช้ SIM แบบกายภาพหรือ Pocket Wi-Fi" },
+        { "icon": "↩️", "t": "ลืมคืนเราเตอร์", "d": "Pocket Wi-Fi เป็นของเช่า — คืนที่สนามบินก่อนออกเดินทาง ไม่งั้นจะถูกเรียกเก็บเงิน" },
+        { "icon": "📊", "t": "ซื้อดาต้ามาก (หรือน้อย) เกินไป", "d": "เลือกแพ็กเกจให้เข้ากับการใช้งานจริงและความยาวของทริป โรงแรมและคาเฟ่มี Wi-Fi ฟรี คุณจึงอาจต้องใช้น้อยกว่าที่คิด" },
+        { "icon": "🏞️", "t": "สัญญาณในชนบทอ่อน", "d": "หากมีทริปไปเที่ยวอุทยานแห่งชาติหรือชายทะเลแบบวันเดียวหลายครั้ง KT และ SKT มักครอบคลุมกว้างที่สุด" }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเรื่องการเชื่อมต่อ",
+      "items": [
+        { "q": "eSIM หรือ SIM แบบกายภาพ — ควรเลือกอันไหน?", "a": "ถ้ามือถือรองรับ eSIM ให้เลือก eSIM: ติดตั้งก่อนบินและใช้งานได้ทันทีที่ลงเครื่อง ถ้าไม่รองรับ (หรือชอบการ์ดจริงมากกว่า) ให้ซื้อ SIM ที่เคาน์เตอร์ในสนามบิน — มือถือของคุณต้องปลดล็อกแล้ว" },
+        { "q": "อะไรดีที่สุดสำหรับครอบครัวหรือกลุ่ม?", "a": "Pocket Wi-Fi แบบเช่ามักถูกที่สุดเมื่อหลายคนใช้เราเตอร์เครื่องเดียวร่วมกัน แค่จำไว้ว่าต้องคืนที่สนามบินก่อนบินกลับบ้าน" },
+        { "q": "ซื้อที่ไหนในสนามบิน?", "a": "ผู้ให้บริการทั้งสามราย (SKT, KT, LG U+) มีเคาน์เตอร์ในโถงผู้โดยสารขาเข้าที่ Incheon (Terminal 1 & 2), Gimpo และ Gimhae คุณยังสั่งจองล่วงหน้าออนไลน์ได้ด้วย" },
+        { "q": "ราคาเท่าไหร่?", "a": "แพ็กเกจแตกต่างกันมากตามปริมาณดาต้าและจำนวนวัน เราจึงไม่ระบุราคาเดียว — เปรียบเทียบข้อเสนอปัจจุบันในแอป eSIM หรือที่เคาน์เตอร์ อย่าลืมดูปริมาณดาต้าและอายุการใช้งาน ไม่ใช่แค่ราคาที่โฆษณา" },
+        { "q": "จำเป็นด้วยเหรอ — ในเมื่อมี Wi-Fi ฟรีอยู่แล้ว?", "a": "มี Wi-Fi ฟรีเยอะ (สนามบิน โรงแรม คาเฟ่ รถเมล์/รถไฟใต้ดินบางสาย) แต่ดาต้าของคุณเองทำให้แผนที่ เรียกแท็กซี่ และแชตใช้ได้อย่างมั่นใจระหว่างเดินทาง นักท่องเที่ยวส่วนใหญ่เลือกใช้ eSIM หรือ SIM" }
+      ]
+    }
+  },
+  "id": {
+    "kicker": "Tetap Terhubung",
+    "readingTime": "Baca 6 menit",
+    "tldr": [
+      "Sendirian & paling mudah: eSIM — pasang sebelum terbang dan langsung aktif begitu Anda mendarat.",
+      "Ponsel tanpa eSIM? SIM fisik dari konter di bandara (ponsel harus sudah di-unlock).",
+      "Rombongan atau keluarga: menyewa pocket Wi-Fi sering paling murah bila dibagi bersama — cukup kembalikan sebelum terbang pulang.",
+      "Jangan berpatokan pada satu harga — bandingkan berdasarkan jumlah data dan jumlah hari."
+    ],
+    "highlights": [
+      { "icon": "📲", "tone": "green", "title": "eSIM paling mudah untuk kebanyakan wisatawan", "body": "Jika ponsel Anda mendukung eSIM, beli satu dari aplikasi (mis. Airalo, Klook) sebelum terbang, dan data Anda siap begitu mendarat — tanpa konter, tanpa tukar SIM. Sebagian besar eSIM Korea berjalan di jaringan KT atau SK Telecom." },
+      { "icon": "👥", "tone": "amber", "title": "Pocket Wi-Fi unggul untuk rombongan", "body": "Router pocket Wi-Fi sewaan berbagi satu koneksi untuk beberapa ponsel, sehingga keluarga dan rombongan bisa membagi biaya harian. Ambil di kios bandara — dan ingat kembalikan sebelum penerbangan pulang." },
+      { "icon": "🔓", "tone": "blue", "title": "SIM fisik butuh ponsel yang sudah di-unlock", "body": "Nano-SIM dari konter operator di bandara (SKT, KT, LG U+) hanya berfungsi di ponsel yang sudah di-unlock. Bawa paspor Anda; penyiapan memakan waktu sekitar 10–15 menit." }
+    ],
+    "compare": {
+      "title": "eSIM vs SIM fisik vs pocket Wi-Fi",
+      "cols": ["", "eSIM", "SIM fisik", "pocket Wi-Fi"],
+      "rows": [
+        { "label": "Cocok untuk", "vals": ["Sendirian, praktis", "Ponsel tanpa eSIM, sendirian", "Rombongan & keluarga"] },
+        { "label": "Siap saat", "vals": ["Begitu Anda mendarat", "Setelah mampir ke konter", "Setelah diambil di bandara"] },
+        { "label": "Dapatkan lewat", "vals": ["Aplikasi sebelum terbang", "Konter bandara / online", "Pesan online, ambil di kios"] },
+        { "label": "Persyaratan", "vals": ["Ponsel yang mendukung eSIM", "Ponsel yang sudah di-unlock", "Bawa & isi daya router"] },
+        { "label": "Perlu dikembalikan?", "vals": ["Tidak", "Tidak", "Ya — sebelum terbang pulang"] }
+      ]
+    },
+    "options": {
+      "title": "Siapkan pilihan Anda",
+      "intro": "Pilih yang cocok dengan ponsel dan perjalanan Anda, lalu ikuti penyiapan singkatnya.",
+      "cards": [
+        { "icon": "📲", "name": "eSIM", "tone": "green", "best": "Sendirian · tercepat", "setup": ["Pastikan ponsel Anda mendukung eSIM.", "Beli eSIM Korea di aplikasi (Airalo, Klook, atau operator) sebelum terbang.", "Pasang eSIM mengikuti QR/langkah dari aplikasi.", "Aktifkan roaming data untuk nomor itu saat mendarat — Anda sudah online."] },
+        { "icon": "📶", "name": "SIM fisik", "tone": "blue", "best": "Ponsel yang sudah di-unlock", "setup": ["Pastikan ponsel Anda sudah di-unlock.", "Datangi konter SKT / KT / LG U+ di aula kedatangan (bawa paspor).", "Pilih paket berdasarkan data + jumlah hari.", "Petugas memasang dan mengaktifkannya (~10–15 menit)."] },
+        { "icon": "📡", "name": "pocket Wi-Fi", "tone": "amber", "best": "Rombongan · berbagi", "setup": ["Pesan online sebelum perjalanan (lebih murah).", "Ambil router di kios pengambilan bandara.", "Hubungkan ponsel semua orang lewat Wi-Fi.", "Kembalikan di bandara sebelum terbang pulang."] }
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesalahan yang harus dihindari",
+      "items": [
+        { "icon": "🔒", "t": "Ponsel yang terkunci", "d": "SIM fisik tak akan berfungsi di ponsel yang dikunci operator. Buka kuncinya sebelum bepergian, atau gunakan eSIM / pocket Wi-Fi sebagai gantinya." },
+        { "icon": "📵", "t": "Mengira mendukung eSIM", "d": "Tidak setiap ponsel mendukung eSIM. Periksa dulu model Anda — jika tidak, siapkan SIM fisik atau pocket Wi-Fi." },
+        { "icon": "↩️", "t": "Lupa mengembalikan router", "d": "Pocket Wi-Fi adalah barang sewaan — kembalikan di bandara sebelum keberangkatan atau Anda akan dikenai biaya." },
+        { "icon": "📊", "t": "Membeli data terlalu banyak (atau terlalu sedikit)", "d": "Sesuaikan paket dengan pemakaian nyata dan lama perjalanan. Hotel dan kafe punya Wi-Fi gratis, jadi Anda mungkin butuh lebih sedikit dari yang dikira." },
+        { "icon": "🏞️", "t": "Sinyal pedesaan lemah", "d": "Untuk banyak wisata sehari ke taman nasional atau pesisir, KT dan SKT cenderung punya jangkauan terluas." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ konektivitas",
+      "items": [
+        { "q": "eSIM atau SIM fisik — mana yang harus saya ambil?", "a": "Jika ponsel Anda mendukung eSIM, ambil eSIM: pasang sebelum terbang dan langsung berfungsi begitu mendarat. Jika tidak (atau Anda lebih suka kartu fisik), beli SIM di konter bandara — ponsel Anda harus sudah di-unlock." },
+        { "q": "Apa yang terbaik untuk keluarga atau rombongan?", "a": "Pocket Wi-Fi sewaan biasanya paling murah saat beberapa orang berbagi satu router. Ingat saja untuk mengembalikannya di bandara sebelum terbang pulang." },
+        { "q": "Di mana saya membeli di bandara?", "a": "Ketiga operator (SKT, KT, LG U+) punya konter di aula kedatangan Incheon (Terminal 1 & 2), Gimpo, dan Gimhae. Anda juga bisa memesan lebih dulu secara online." },
+        { "q": "Berapa biayanya?", "a": "Paket sangat bervariasi menurut jumlah data dan jumlah hari, jadi kami tidak menyebut satu harga — bandingkan penawaran terkini di aplikasi eSIM atau di konter. Periksa data dan masa berlakunya, bukan hanya harga di depan." },
+        { "q": "Apa saya benar-benar butuh — bukankah ada Wi-Fi gratis?", "a": "Ada banyak Wi-Fi gratis (bandara, hotel, kafe, sebagian bus/kereta bawah tanah), tetapi data sendiri membuat peta, taksi, dan pesan tetap andal saat bergerak. Sebagian besar pengunjung mengambil eSIM atau SIM." }
+      ]
+    }
+  },
+  "es": {
+    "kicker": "Mantente conectado",
+    "readingTime": "6 min de lectura",
+    "tldr": [
+      "Solo y lo más fácil: una eSIM: instálala antes de volar y estará activa en cuanto aterrices.",
+      "¿Móvil sin eSIM? Una SIM física en un mostrador del aeropuerto (tu móvil debe estar liberado).",
+      "Grupo o familia: alquilar un pocket Wi-Fi suele salir más barato si se comparte; solo devuélvelo antes de volar a casa.",
+      "No te fíes de un único precio: compara por cantidad de datos y número de días."
+    ],
+    "highlights": [
+      { "icon": "📲", "tone": "green", "title": "La eSIM es lo más fácil para la mayoría", "body": "Si tu móvil admite eSIM, compra una en una app (p. ej. Airalo, Klook) antes de volar, y tendrás datos en cuanto aterrices: sin mostrador ni cambio de SIM. La mayoría de las eSIM de Corea funcionan en la red de KT o SK Telecom." },
+      { "icon": "👥", "tone": "amber", "title": "El pocket Wi-Fi gana para grupos", "body": "Un router pocket Wi-Fi de alquiler comparte una conexión entre varios móviles, así familias y grupos pueden repartir el coste diario. Recógelo en un mostrador del aeropuerto y acuérdate de devolverlo antes de tu vuelo de vuelta." },
+      { "icon": "🔓", "tone": "blue", "title": "Una SIM física necesita un móvil liberado", "body": "Las nano-SIM de los mostradores de las operadoras del aeropuerto (SKT, KT, LG U+) solo funcionan en un móvil liberado. Lleva tu pasaporte; la configuración tarda unos 10–15 minutos." }
+    ],
+    "compare": {
+      "title": "eSIM vs SIM física vs pocket Wi-Fi",
+      "cols": ["", "eSIM", "SIM física", "pocket Wi-Fi"],
+      "rows": [
+        { "label": "Ideal para", "vals": ["Solo, comodidad", "Móviles sin eSIM, solo", "Grupos y familias"] },
+        { "label": "Lista cuando", "vals": ["En cuanto aterrizas", "Tras pasar por un mostrador", "Tras recogerlo en el aeropuerto"] },
+        { "label": "Cómo conseguirla", "vals": ["App antes de volar", "Mostrador del aeropuerto / online", "Reserva online, recoge en el mostrador"] },
+        { "label": "Requisitos", "vals": ["Móvil compatible con eSIM", "Móvil liberado", "Llevar y cargar el router"] },
+        { "label": "¿Hay que devolverlo?", "vals": ["No", "No", "Sí, antes de volar a casa"] }
+      ]
+    },
+    "options": {
+      "title": "Configura tu elección",
+      "intro": "Elige la que encaje con tu móvil y tu viaje, y sigue la configuración rápida.",
+      "cards": [
+        { "icon": "📲", "name": "eSIM", "tone": "green", "best": "Solo · lo más rápido", "setup": ["Comprueba que tu móvil admite eSIM.", "Compra una eSIM de Corea en una app (Airalo, Klook o una operadora) antes de volar.", "Instala la eSIM siguiendo el QR/los pasos de la app.", "Activa la itinerancia de datos para esa línea al aterrizar y ya estás en línea."] },
+        { "icon": "📶", "name": "SIM física", "tone": "blue", "best": "Móviles liberados", "setup": ["Asegúrate de que tu móvil está liberado.", "Ve a un mostrador de SKT / KT / LG U+ en la zona de llegadas (lleva el pasaporte).", "Elige un plan por datos + número de días.", "El personal la inserta y la activa (~10–15 min)."] },
+        { "icon": "📡", "name": "pocket Wi-Fi", "tone": "amber", "best": "Grupos · compartir", "setup": ["Reserva online antes del viaje (más barato).", "Recoge el router en el mostrador de recogida del aeropuerto.", "Conecta los móviles de todos por Wi-Fi.", "Devuélvelo en el aeropuerto antes de volar a casa."] }
+      ]
+    },
+    "pitfalls": {
+      "title": "Errores que evitar",
+      "items": [
+        { "icon": "🔒", "t": "Un móvil bloqueado", "d": "Una SIM física no funcionará en un móvil bloqueado por la operadora. Libéralo antes de viajar, o usa una eSIM / pocket Wi-Fi en su lugar." },
+        { "icon": "📵", "t": "Dar por hecho que admite eSIM", "d": "No todos los móviles admiten eSIM. Comprueba primero tu modelo; si no, prevé una SIM física o un pocket Wi-Fi." },
+        { "icon": "↩️", "t": "Olvidar devolver el router", "d": "El pocket Wi-Fi es de alquiler: devuélvelo en el aeropuerto antes de salir o te cobrarán." },
+        { "icon": "📊", "t": "Comprar demasiados (o muy pocos) datos", "d": "Ajusta el plan a tu uso real y a la duración del viaje. Los hoteles y cafeterías tienen Wi-Fi gratis, así que quizá necesites menos de lo que crees." },
+        { "icon": "🏞️", "t": "Cobertura rural débil", "d": "Para muchas excursiones de un día a parques nacionales o a la costa, KT y SKT suelen tener la cobertura más amplia." }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre conectividad",
+      "items": [
+        { "q": "eSIM o SIM física, ¿cuál debería elegir?", "a": "Si tu móvil admite eSIM, elige una eSIM: instálala antes de volar y funciona en cuanto aterrizas. Si no (o prefieres una tarjeta física), compra una SIM en un mostrador del aeropuerto; tu móvil debe estar liberado." },
+        { "q": "¿Qué es lo mejor para una familia o un grupo?", "a": "Un pocket Wi-Fi de alquiler suele ser lo más barato cuando varias personas comparten un router. Solo acuérdate de devolverlo en el aeropuerto antes de volar a casa." },
+        { "q": "¿Dónde compro en el aeropuerto?", "a": "Las tres operadoras (SKT, KT, LG U+) tienen mostradores en las zonas de llegadas de Incheon (Terminal 1 & 2), Gimpo y Gimhae. También puedes reservar por adelantado online." },
+        { "q": "¿Cuánto cuesta?", "a": "Los planes varían mucho según la cantidad de datos y el número de días, así que no damos un precio único: compara las ofertas actuales en una app de eSIM o en los mostradores. Revisa los datos y la validez, no solo el precio de portada." },
+        { "q": "¿De verdad necesito una? ¿No hay Wi-Fi gratis?", "a": "Hay mucho Wi-Fi gratis (aeropuerto, hoteles, cafeterías, algunos autobuses/metro), pero tus propios datos hacen que los mapas, los taxis y la mensajería sean fiables sobre la marcha. La mayoría de los visitantes se hacen con una eSIM o SIM." }
+      ]
+    }
+  },
+  "ms": {
+    "kicker": "Kekal Berhubung",
+    "readingTime": "Bacaan 6 minit",
+    "tldr": [
+      "Seorang diri & paling mudah: eSIM — pasang sebelum terbang dan ia aktif sebaik sahaja anda mendarat.",
+      "Telefon tanpa eSIM? SIM fizikal dari kaunter di lapangan terbang (telefon anda mesti sudah dibuka kunci).",
+      "Kumpulan atau keluarga: menyewa pocket Wi-Fi selalunya paling murah apabila dikongsi — cuma pulangkan sebelum terbang pulang.",
+      "Jangan berpaut pada satu harga — bandingkan mengikut jumlah data dan bilangan hari."
+    ],
+    "highlights": [
+      { "icon": "📲", "tone": "green", "title": "eSIM paling mudah untuk kebanyakan pengembara", "body": "Jika telefon anda menyokong eSIM, beli satu dari aplikasi (cth. Airalo, Klook) sebelum terbang, dan data anda sedia sebaik sahaja mendarat — tanpa kaunter, tanpa tukar SIM. Kebanyakan eSIM Korea berjalan pada rangkaian KT atau SK Telecom." },
+      { "icon": "👥", "tone": "amber", "title": "Pocket Wi-Fi menang untuk kumpulan", "body": "Penghala pocket Wi-Fi sewaan berkongsi satu sambungan untuk beberapa telefon, jadi keluarga dan kumpulan boleh berkongsi kos harian. Ambil di kiosk lapangan terbang — dan ingat pulangkannya sebelum penerbangan pulang." },
+      { "icon": "🔓", "tone": "blue", "title": "SIM fizikal perlukan telefon yang sudah dibuka kunci", "body": "Nano-SIM dari kaunter pembawa di lapangan terbang (SKT, KT, LG U+) hanya berfungsi pada telefon yang sudah dibuka kunci. Bawa pasport anda; persediaan mengambil masa kira-kira 10–15 minit." }
+    ],
+    "compare": {
+      "title": "eSIM vs SIM fizikal vs pocket Wi-Fi",
+      "cols": ["", "eSIM", "SIM fizikal", "pocket Wi-Fi"],
+      "rows": [
+        { "label": "Sesuai untuk", "vals": ["Seorang diri, mudah", "Telefon tanpa eSIM, seorang diri", "Kumpulan & keluarga"] },
+        { "label": "Sedia bila", "vals": ["Sebaik sahaja anda mendarat", "Selepas singgah kaunter", "Selepas ambil di lapangan terbang"] },
+        { "label": "Dapatkan melalui", "vals": ["Aplikasi sebelum terbang", "Kaunter lapangan terbang / dalam talian", "Tempah dalam talian, ambil di kiosk"] },
+        { "label": "Keperluan", "vals": ["Telefon yang menyokong eSIM", "Telefon yang sudah dibuka kunci", "Bawa & cas penghala"] },
+        { "label": "Perlu dipulangkan?", "vals": ["Tidak", "Tidak", "Ya — sebelum terbang pulang"] }
+      ]
+    },
+    "options": {
+      "title": "Sediakan pilihan anda",
+      "intro": "Pilih yang sepadan dengan telefon dan perjalanan anda, kemudian ikut persediaan pantas.",
+      "cards": [
+        { "icon": "📲", "name": "eSIM", "tone": "green", "best": "Seorang diri · terpantas", "setup": ["Semak telefon anda menyokong eSIM.", "Beli eSIM Korea dalam aplikasi (Airalo, Klook, atau pembawa) sebelum terbang.", "Pasang eSIM mengikut QR/langkah aplikasi.", "Hidupkan perayauan data untuk talian itu apabila mendarat — anda sudah dalam talian."] },
+        { "icon": "📶", "name": "SIM fizikal", "tone": "blue", "best": "Telefon yang sudah dibuka kunci", "setup": ["Pastikan telefon anda sudah dibuka kunci.", "Pergi ke kaunter SKT / KT / LG U+ di dewan ketibaan (bawa pasport).", "Pilih pelan mengikut data + bilangan hari.", "Kakitangan memasukkan dan mengaktifkannya (~10–15 minit)."] },
+        { "icon": "📡", "name": "pocket Wi-Fi", "tone": "amber", "best": "Kumpulan · berkongsi", "setup": ["Tempah dalam talian sebelum perjalanan anda (lebih murah).", "Ambil penghala di kiosk pengambilan lapangan terbang.", "Sambungkan telefon semua orang melalui Wi-Fi.", "Pulangkan di lapangan terbang sebelum terbang pulang."] }
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesilapan yang perlu dielakkan",
+      "items": [
+        { "icon": "🔒", "t": "Telefon yang terkunci", "d": "SIM fizikal tidak akan berfungsi pada telefon yang dikunci pembawa. Buka kuncinya sebelum mengembara, atau guna eSIM / pocket Wi-Fi sebaliknya." },
+        { "icon": "📵", "t": "Menganggap ada sokongan eSIM", "d": "Bukan setiap telefon menyokong eSIM. Semak model anda dahulu — jika tidak, rancang untuk SIM fizikal atau pocket Wi-Fi." },
+        { "icon": "↩️", "t": "Terlupa memulangkan penghala", "d": "Pocket Wi-Fi ialah sewaan — pulangkan di lapangan terbang sebelum berlepas atau anda akan dikenakan caj." },
+        { "icon": "📊", "t": "Membeli data terlalu banyak (atau terlalu sedikit)", "d": "Padankan pelan dengan penggunaan sebenar dan tempoh perjalanan anda. Hotel dan kafe ada Wi-Fi percuma, jadi anda mungkin perlukan kurang daripada yang anda sangka." },
+        { "icon": "🏞️", "t": "Liputan luar bandar lemah", "d": "Untuk banyak lawatan sehari ke taman negara atau pesisir pantai, KT dan SKT cenderung mempunyai liputan paling luas." }
+      ]
+    },
+    "faq": {
+      "title": "Soalan lazim ketersambungan",
+      "items": [
+        { "q": "eSIM atau SIM fizikal — yang mana patut saya ambil?", "a": "Jika telefon anda menyokong eSIM, ambil eSIM: pasang sebelum terbang dan ia berfungsi sebaik sahaja mendarat. Jika tidak (atau anda lebih suka kad fizikal), beli SIM di kaunter lapangan terbang — telefon anda mesti sudah dibuka kunci." },
+        { "q": "Apa yang terbaik untuk keluarga atau kumpulan?", "a": "Pocket Wi-Fi sewaan biasanya paling murah apabila beberapa orang berkongsi satu penghala. Ingat sahaja untuk memulangkannya di lapangan terbang sebelum terbang pulang." },
+        { "q": "Di mana saya beli di lapangan terbang?", "a": "Ketiga-tiga pembawa (SKT, KT, LG U+) mempunyai kaunter di dewan ketibaan Incheon (Terminal 1 & 2), Gimpo dan Gimhae. Anda juga boleh menempah lebih awal dalam talian." },
+        { "q": "Berapa kosnya?", "a": "Pelan berbeza-beza mengikut jumlah data dan bilangan hari, jadi kami tidak menyebut satu harga — bandingkan tawaran semasa dalam aplikasi eSIM atau di kaunter. Semak data dan tempoh sahnya, bukan hanya harga di depan." },
+        { "q": "Adakah saya benar-benar perlukan satu — bukankah ada Wi-Fi percuma?", "a": "Ada banyak Wi-Fi percuma (lapangan terbang, hotel, kafe, sesetengah bas/kereta bawah tanah), tetapi data anda sendiri menjadikan peta, teksi dan pemesejan boleh diharap semasa bergerak. Kebanyakan pelawat mengambil eSIM atau SIM." }
+      ]
+    }
+  },
+  "ko": {
+    "kicker": "연결 유지",
+    "readingTime": "읽는 데 6분",
+    "tldr": [
+      "혼자 여행 & 가장 간편: eSIM — 출발 전에 설치하면 도착하는 순간 바로 사용됩니다.",
+      "eSIM 미지원 폰이라면? 공항 카운터에서 실물 SIM을(휴대폰이 잠금 해제 상태여야 합니다).",
+      "단체나 가족: 대여 포켓 Wi-Fi를 나눠 쓰면 대개 가장 저렴합니다 — 귀국 전에 반납만 하세요.",
+      "단일 가격으로 말하지 마세요 — 데이터 용량과 일수로 비교하세요."
+    ],
+    "highlights": [
+      { "icon": "📲", "tone": "green", "title": "대부분의 여행자에게 eSIM이 가장 간편", "body": "휴대폰이 eSIM을 지원한다면 출발 전에 앱(예: Airalo, Klook)에서 하나 구입하세요. 그러면 도착하는 순간 데이터가 준비됩니다 — 카운터도, SIM 교체도 필요 없어요. 한국 eSIM은 대부분 KT 또는 SK Telecom 망에서 작동합니다." },
+      { "icon": "👥", "tone": "amber", "title": "단체에는 포켓 Wi-Fi가 유리", "body": "대여 포켓 Wi-Fi 라우터는 하나의 연결을 여러 휴대폰이 공유하므로, 가족과 단체는 하루 비용을 나눌 수 있어요. 공항 키오스크에서 수령하고 — 귀국 항공편 전에 반납하는 것을 잊지 마세요." },
+      { "icon": "🔓", "tone": "blue", "title": "실물 SIM에는 잠금 해제된 휴대폰이 필요", "body": "공항 통신사 카운터(SKT, KT, LG U+)의 nano-SIM은 잠금 해제된 휴대폰에서만 작동합니다. 여권을 지참하세요. 설정에는 약 10–15분이 걸립니다." }
+    ],
+    "compare": {
+      "title": "eSIM vs 실물 SIM vs 포켓 Wi-Fi",
+      "cols": ["", "eSIM", "실물 SIM", "포켓 Wi-Fi"],
+      "rows": [
+        { "label": "가장 적합", "vals": ["혼자, 편의성", "eSIM 미지원 폰, 혼자", "단체와 가족"] },
+        { "label": "언제 사용 가능", "vals": ["도착하는 순간", "카운터 방문 후", "공항 수령 후"] },
+        { "label": "구하는 법", "vals": ["출발 전 앱에서", "공항 카운터 / 온라인", "온라인 예약, 키오스크에서 수령"] },
+        { "label": "필요 조건", "vals": ["eSIM 지원 휴대폰", "잠금 해제된 휴대폰", "라우터 휴대 및 충전"] },
+        { "label": "반납 필요?", "vals": ["아니요", "아니요", "네 — 귀국 전에"] }
+      ]
+    },
+    "options": {
+      "title": "선택한 방법 설정하기",
+      "intro": "당신의 휴대폰과 여행에 맞는 것을 고르고, 간단 설정을 따라 하세요.",
+      "cards": [
+        { "icon": "📲", "name": "eSIM", "tone": "green", "best": "혼자 · 가장 빠름", "setup": ["휴대폰이 eSIM을 지원하는지 확인하세요.", "출발 전에 앱(Airalo, Klook 또는 통신사)에서 한국 eSIM을 구입하세요.", "앱의 QR/단계에 따라 eSIM을 설치하세요.", "도착하면 해당 회선의 데이터 로밍을 켜세요 — 이제 온라인입니다."] },
+        { "icon": "📶", "name": "실물 SIM", "tone": "blue", "best": "잠금 해제된 휴대폰", "setup": ["휴대폰이 잠금 해제되어 있는지 확인하세요.", "입국장의 SKT / KT / LG U+ 카운터로 가세요(여권 지참).", "데이터 + 일수로 요금제를 고르세요.", "직원이 카드를 넣고 개통해 줍니다(약 10–15분)."] },
+        { "icon": "📡", "name": "포켓 Wi-Fi", "tone": "amber", "best": "단체 · 공유", "setup": ["여행 전에 온라인으로 예약하세요(더 저렴).", "공항 수령 키오스크에서 라우터를 받으세요.", "모두의 휴대폰을 Wi-Fi로 연결하세요.", "귀국 전에 공항에서 반납하세요."] }
+      ]
+    },
+    "pitfalls": {
+      "title": "피해야 할 실수",
+      "items": [
+        { "icon": "🔒", "t": "잠긴 휴대폰", "d": "실물 SIM은 통신사에 잠긴 휴대폰에서는 작동하지 않습니다. 여행 전에 잠금을 풀거나, 대신 eSIM / 포켓 Wi-Fi를 사용하세요." },
+        { "icon": "📵", "t": "eSIM 지원을 넘겨짚기", "d": "모든 휴대폰이 eSIM을 지원하는 것은 아닙니다. 먼저 기종을 확인하세요 — 아니라면 실물 SIM이나 포켓 Wi-Fi를 준비하세요." },
+        { "icon": "↩️", "t": "라우터 반납 잊기", "d": "포켓 Wi-Fi는 대여품입니다 — 출발 전에 공항에서 반납하지 않으면 요금이 부과됩니다." },
+        { "icon": "📊", "t": "데이터를 너무 많이(또는 너무 적게) 사기", "d": "실제 사용량과 여행 기간에 맞춰 요금제를 고르세요. 호텔과 카페에 무료 Wi-Fi가 있으니 생각보다 적게 필요할 수 있어요." },
+        { "icon": "🏞️", "t": "시골의 약한 커버리지", "d": "국립공원이나 해안 당일치기가 많다면, KT와 SKT의 커버리지가 대체로 가장 넓습니다." }
+      ]
+    },
+    "faq": {
+      "title": "연결 관련 자주 묻는 질문",
+      "items": [
+        { "q": "eSIM과 실물 SIM — 어느 것을 골라야 하나요?", "a": "휴대폰이 eSIM을 지원한다면 eSIM을 고르세요: 출발 전에 설치하면 도착하는 순간 작동합니다. 지원하지 않는다면(또는 실물 카드를 선호한다면) 공항 카운터에서 SIM을 구입하세요 — 휴대폰이 잠금 해제되어 있어야 합니다." },
+        { "q": "가족이나 단체에는 무엇이 가장 좋나요?", "a": "여러 사람이 라우터 하나를 공유할 때는 대여 포켓 Wi-Fi가 보통 가장 저렴합니다. 귀국 전에 공항에서 반납하는 것만 기억하세요." },
+        { "q": "공항 어디에서 사나요?", "a": "세 통신사(SKT, KT, LG U+) 모두 Incheon(Terminal 1 & 2), Gimpo, Gimhae의 입국장에 카운터가 있습니다. 온라인으로 미리 주문할 수도 있어요." },
+        { "q": "비용은 얼마인가요?", "a": "요금제는 데이터 용량과 일수에 따라 크게 달라져서 단일 가격을 제시하지 않습니다 — eSIM 앱이나 카운터에서 현재 상품을 비교하세요. 표시 가격만 보지 말고 데이터 용량과 유효 기간을 꼭 확인하세요." },
+        { "q": "꼭 필요한가요 — 무료 Wi-Fi가 있지 않나요?", "a": "무료 Wi-Fi는 많습니다(공항, 호텔, 카페, 일부 버스/지하철). 하지만 자기 데이터가 있으면 이동 중에도 지도, 택시, 메시지를 안정적으로 쓸 수 있어요. 대부분의 방문객은 eSIM이나 SIM을 마련합니다." }
+      ]
+    }
+  }
+}
