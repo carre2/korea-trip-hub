@@ -6,7 +6,20 @@
     "h1": "Visa Korea untuk warga Indonesia",
     "metaTitle": "Visa Korea dari Indonesia: Panduan langkah demi langkah (2026) — Korea Trip Hub",
     "metaDesc": "Cara mengajukan visa turis Korea dari Indonesia: di mana mengajukan, dokumen (dan di mana mendapatkan tiap dokumen), biaya, dan tautan resmi. Wisatawan individu perlu visa turis C-3; rombongan mungkin bebas visa.",
-    "ui": { "visa": "Jenis visa", "stay": "Lama tinggal", "entry": "Jumlah masuk", "where": "Di mana mendapatkannya", "official": "Sumber resmi", "required": "Wajib", "conditional": "Jika berlaku", "recommended": "Disarankan", "confirm": "Biaya/aturan dapat berubah — harap konfirmasi di sumber resmi", "source": "Sumber", "updated": "Diperbarui", "tldr": "RINGKASAN" },
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Lama tinggal",
+      "entry": "Jumlah masuk",
+      "where": "Di mana mendapatkannya",
+      "official": "Sumber resmi",
+      "required": "Wajib",
+      "conditional": "Jika berlaku",
+      "recommended": "Disarankan",
+      "confirm": "Biaya/aturan dapat berubah — harap konfirmasi di sumber resmi",
+      "source": "Sumber",
+      "updated": "Diperbarui",
+      "tldr": "RINGKASAN"
+    },
     "verdict": {
       "headline": "Wisatawan individu Indonesia memerlukan visa — tetapi rombongan mungkin tidak.",
       "sub": "Untuk perjalanan mandiri ke Korea daratan, Anda mengajukan visa turis C-3. Sejak 28 Mei 2026, rombongan wisata beranggotakan 3 orang atau lebih dapat masuk tanpa visa untuk kunjungan singkat melalui skema uji coba — perorangan belum memenuhi syarat.",
@@ -15,8 +28,18 @@
       "entry": "Sekali masuk (perorangan) / bebas visa untuk rombongan yang memenuhi syarat"
     },
     "highlights": [
-      { "icon": "👥", "tone": "green", "title": "Bebas visa untuk rombongan mulai 28 Mei 2026", "body": "Rombongan wisata Indonesia yang terdiri dari minimal 3 orang dapat masuk tanpa visa untuk kunjungan singkat melalui skema uji coba. Hanya berlaku untuk rombongan — wisatawan perorangan tetap memerlukan visa." },
-      { "icon": "🏝️", "tone": "amber", "title": "Pulau Jeju — bebas visa tersendiri", "body": "Warga negara Indonesia dapat masuk Jeju tanpa visa (khusus Jeju, penerbangan langsung, tanpa transit ke daratan). Ini terpisah dari visa turis daratan." }
+      {
+        "icon": "👥",
+        "tone": "green",
+        "title": "Bebas visa untuk rombongan mulai 28 Mei 2026",
+        "body": "Rombongan wisata Indonesia yang terdiri dari minimal 3 orang dapat masuk tanpa visa untuk kunjungan singkat melalui skema uji coba. Hanya berlaku untuk rombongan — wisatawan perorangan tetap memerlukan visa."
+      },
+      {
+        "icon": "🏝️",
+        "tone": "amber",
+        "title": "Pulau Jeju — bebas visa tersendiri",
+        "body": "Warga negara Indonesia dapat masuk Jeju tanpa visa (khusus Jeju, penerbangan langsung, tanpa transit ke daratan). Ini terpisah dari visa turis daratan."
+      }
     ],
     "tldr": [
       "Wisatawan mandiri memerlukan visa turis C-3 untuk Korea daratan.",
@@ -27,30 +50,109 @@
     "steps": {
       "title": "Proses pengajuan, langkah demi langkah (C-3 perorangan)",
       "items": [
-        { "n": 1, "title": "Pastikan jenis visa", "detail": "Wisatawan mandiri mengajukan visa turis jangka pendek C-3. (Rombongan 3 orang atau lebih sebaiknya menanyakan skema uji coba bebas visa kepada agen perjalanan mereka.)" },
-        { "n": 2, "title": "Isi formulir di visa.go.kr", "detail": "Lengkapi formulir permohonan di Korea Visa Portal — satu-satunya situs resmi — lalu cetak dan tanda tangani.", "link": "https://www.visa.go.kr", "linkLabel": "Portal Visa Korea" },
-        { "n": 3, "title": "Siapkan dokumen Anda", "detail": "Kumpulkan daftar di bawah ini: paspor, foto, rekening koran 3 bulan, dan bukti pekerjaan." },
-        { "n": 4, "title": "Ajukan di Kedutaan / KVAC Jakarta", "detail": "Serahkan permohonan Anda ke Kedutaan Besar Korea atau Korea Visa Application Center di Jakarta." },
-        { "n": 5, "title": "Bayar biaya", "detail": "Bayar biaya visa dan biaya layanan. Biaya tidak dapat dikembalikan meskipun ditolak — konfirmasikan jumlahnya di pusat layanan." },
-        { "n": 6, "title": "Pantau & tunggu", "detail": "Ikuti status melalui kanal pusat layanan. Jangan membeli tiket pesawat yang tidak dapat dikembalikan sebelum disetujui." },
-        { "n": 7, "title": "Ambil paspor Anda", "detail": "Ambil paspor Anda dan segera periksa detail visanya." }
+        {
+          "n": 1,
+          "title": "Pastikan jenis visa",
+          "detail": "Wisatawan mandiri mengajukan visa turis jangka pendek C-3. (Rombongan 3 orang atau lebih sebaiknya menanyakan skema uji coba bebas visa kepada agen perjalanan mereka.)"
+        },
+        {
+          "n": 2,
+          "title": "Isi formulir di visa.go.kr",
+          "detail": "Lengkapi formulir permohonan di Korea Visa Portal — satu-satunya situs resmi — lalu cetak dan tanda tangani.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Portal Visa Korea"
+        },
+        {
+          "n": 3,
+          "title": "Siapkan dokumen Anda",
+          "detail": "Kumpulkan daftar di bawah ini: paspor, foto, rekening koran 3 bulan, dan bukti pekerjaan."
+        },
+        {
+          "n": 4,
+          "title": "Ajukan di Kedutaan / KVAC Jakarta",
+          "detail": "Serahkan permohonan Anda ke Kedutaan Besar Korea atau Korea Visa Application Center di Jakarta."
+        },
+        {
+          "n": 5,
+          "title": "Bayar biaya",
+          "detail": "Bayar biaya visa dan biaya layanan. Biaya tidak dapat dikembalikan meskipun ditolak — konfirmasikan jumlahnya di pusat layanan."
+        },
+        {
+          "n": 6,
+          "title": "Pantau & tunggu",
+          "detail": "Ikuti status melalui kanal pusat layanan. Jangan membeli tiket pesawat yang tidak dapat dikembalikan sebelum disetujui."
+        },
+        {
+          "n": 7,
+          "title": "Ambil paspor Anda",
+          "detail": "Ambil paspor Anda dan segera periksa detail visanya."
+        }
       ]
     },
     "documents": {
       "title": "Daftar dokumen — beserta di mana & cara mendapatkan tiap dokumen",
       "intro": "Untuk setiap dokumen, berikut tempat memperolehnya dan apa yang harus ditunjukkannya.",
-      "cols": ["Dokumen", "Di mana mendapatkannya", "Apa yang harus ditunjukkan"],
-      "rows": [
-        { "doc": "Paspor", "req": "required", "where": "Anda sudah memilikinya", "how": "Berlaku minimal 6 bulan dengan halaman kosong." },
-        { "doc": "Formulir permohonan visa", "req": "required", "where": "visa.go.kr", "how": "Lengkapi di Korea Visa Portal, cetak, tanda tangani.", "link": "https://www.visa.go.kr" },
-        { "doc": "Foto", "req": "required", "where": "Studio foto mana pun", "how": "Foto terbaru gaya paspor, latar belakang putih." },
-        { "doc": "Rekening koran — 3 bulan terakhir", "req": "required", "where": "Bank Anda", "how": "Rekening koran yang menunjukkan saldo dan riwayat transaksi; saldo yang stabil paling baik." },
-        { "doc": "Surat keterangan kerja", "req": "required", "where": "Perusahaan / HRD Anda", "how": "Di kop surat perusahaan: jabatan, gaji, dan cuti yang disetujui." },
-        { "doc": "Slip gaji", "req": "required", "where": "Perusahaan Anda", "how": "Slip gaji terbaru yang mendukung penghasilan Anda." },
-        { "doc": "Reservasi tiket pulang-pergi & hotel", "req": "required", "where": "Maskapai / situs pemesanan", "how": "Reservasi/rencana perjalanan sudah cukup — jangan membayar tiket sebelum disetujui." },
-        { "doc": "Surat sponsor (jika dibiayai orang lain)", "req": "conditional", "where": "Sponsor Anda", "how": "Surat sponsor + rekening koran sponsor + bukti hubungan." }
+      "cols": [
+        "Dokumen",
+        "Di mana mendapatkannya",
+        "Apa yang harus ditunjukkan"
       ],
-      "legend": { "required": "Wajib", "conditional": "Jika berlaku bagi Anda", "recommended": "Disarankan" }
+      "rows": [
+        {
+          "doc": "Paspor",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Berlaku minimal 6 bulan dengan halaman kosong."
+        },
+        {
+          "doc": "Formulir permohonan visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapi di Korea Visa Portal, cetak, tanda tangani.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto",
+          "req": "required",
+          "where": "Studio foto mana pun",
+          "how": "Foto terbaru gaya paspor, latar belakang putih."
+        },
+        {
+          "doc": "Rekening koran — 3 bulan terakhir",
+          "req": "required",
+          "where": "Bank Anda",
+          "how": "Rekening koran yang menunjukkan saldo dan riwayat transaksi; saldo yang stabil paling baik."
+        },
+        {
+          "doc": "Surat keterangan kerja",
+          "req": "required",
+          "where": "Perusahaan / HRD Anda",
+          "how": "Di kop surat perusahaan: jabatan, gaji, dan cuti yang disetujui."
+        },
+        {
+          "doc": "Slip gaji",
+          "req": "required",
+          "where": "Perusahaan Anda",
+          "how": "Slip gaji terbaru yang mendukung penghasilan Anda."
+        },
+        {
+          "doc": "Reservasi tiket pulang-pergi & hotel",
+          "req": "required",
+          "where": "Maskapai / situs pemesanan",
+          "how": "Reservasi/rencana perjalanan sudah cukup — jangan membayar tiket sebelum disetujui."
+        },
+        {
+          "doc": "Surat sponsor (jika dibiayai orang lain)",
+          "req": "conditional",
+          "where": "Sponsor Anda",
+          "how": "Surat sponsor + rekening koran sponsor + bukti hubungan."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berlaku bagi Anda",
+        "recommended": "Disarankan"
+      }
     },
     "funds": {
       "title": "\"Berapa banyak uang yang harus saya tunjukkan?\"",
@@ -64,22 +166,60 @@
     "pitfalls": {
       "title": "Kesalahan yang menyebabkan penolakan & keterlambatan",
       "items": [
-        { "icon": "🧍", "t": "Mengira sendirian = bebas visa", "d": "Uji coba bebas visa hanya untuk rombongan (3 orang atau lebih). Wisatawan perorangan tetap memerlukan visa C-3." },
-        { "icon": "💸", "t": "Setoran mendadak", "d": "Sejumlah besar uang tepat sebelum mengajukan. Tunjukkan dana yang stabil dan dapat dijelaskan." },
-        { "icon": "🧾", "t": "Bukti pekerjaan lemah", "d": "Tidak ada surat keterangan kerja atau slip gaji. Dokumen ini menjadi penopang berkas pemohon perorangan." },
-        { "icon": "🎫", "t": "Membayar tiket terlalu dini", "d": "Membeli tiket yang tidak dapat dikembalikan sebelum disetujui — reservasi sudah cukup." },
-        { "icon": "🏝️", "t": "Mengira Jeju sama dengan daratan", "d": "Bebas visa Jeju tidak mencakup perjalanan ke Korea daratan." }
+        {
+          "icon": "🧍",
+          "t": "Mengira sendirian = bebas visa",
+          "d": "Uji coba bebas visa hanya untuk rombongan (3 orang atau lebih). Wisatawan perorangan tetap memerlukan visa C-3."
+        },
+        {
+          "icon": "💸",
+          "t": "Setoran mendadak",
+          "d": "Sejumlah besar uang tepat sebelum mengajukan. Tunjukkan dana yang stabil dan dapat dijelaskan."
+        },
+        {
+          "icon": "🧾",
+          "t": "Bukti pekerjaan lemah",
+          "d": "Tidak ada surat keterangan kerja atau slip gaji. Dokumen ini menjadi penopang berkas pemohon perorangan."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membayar tiket terlalu dini",
+          "d": "Membeli tiket yang tidak dapat dikembalikan sebelum disetujui — reservasi sudah cukup."
+        },
+        {
+          "icon": "🏝️",
+          "t": "Mengira Jeju sama dengan daratan",
+          "d": "Bebas visa Jeju tidak mencakup perjalanan ke Korea daratan."
+        }
       ]
     },
     "faq": {
       "title": "FAQ visa Indonesia → Korea",
       "items": [
-        { "q": "Apakah warga Indonesia memerlukan visa untuk Korea?", "a": "Wisatawan perorangan memerlukan visa turis C-3 untuk Korea daratan. Sejak 28 Mei 2026, rombongan wisata 3 orang atau lebih dapat masuk tanpa visa melalui uji coba; Pulau Jeju memiliki jalur bebas visa tersendiri." },
-        { "q": "Saya bepergian sendirian — bisakah saya tanpa visa?", "a": "Tidak. Uji coba bebas visa hanya berlaku untuk rombongan minimal 3 orang. Wisatawan mandiri harus mengajukan visa C-3." },
-        { "q": "Bukti finansial apa yang saya perlukan?", "a": "Rekening koran 3 bulan ditambah surat keterangan kerja dan slip gaji. Jika disponsori, sertakan dokumen sponsor." },
-        { "q": "Di mana saya mengajukan?", "a": "Di Kedutaan Besar Korea atau Korea Visa Application Center di Jakarta." },
-        { "q": "Berapa biayanya?", "a": "Biaya bervariasi dan tidak dapat dikembalikan meskipun ditolak. Konfirmasikan jumlah terkini di pusat layanan." },
-        { "q": "Apakah saya masih memerlukan e-Arrival Card?", "a": "Aturan dokumen masuk seperti e-Arrival Card tetap dapat berlaku saat kedatangan. Periksa aturan yang berlaku menjelang tanggal keberangkatan Anda." }
+        {
+          "q": "Apakah warga Indonesia memerlukan visa untuk Korea?",
+          "a": "Wisatawan perorangan memerlukan visa turis C-3 untuk Korea daratan. Sejak 28 Mei 2026, rombongan wisata 3 orang atau lebih dapat masuk tanpa visa melalui uji coba; Pulau Jeju memiliki jalur bebas visa tersendiri."
+        },
+        {
+          "q": "Saya bepergian sendirian — bisakah saya tanpa visa?",
+          "a": "Tidak. Uji coba bebas visa hanya berlaku untuk rombongan minimal 3 orang. Wisatawan mandiri harus mengajukan visa C-3."
+        },
+        {
+          "q": "Bukti finansial apa yang saya perlukan?",
+          "a": "Rekening koran 3 bulan ditambah surat keterangan kerja dan slip gaji. Jika disponsori, sertakan dokumen sponsor."
+        },
+        {
+          "q": "Di mana saya mengajukan?",
+          "a": "Di Kedutaan Besar Korea atau Korea Visa Application Center di Jakarta."
+        },
+        {
+          "q": "Berapa biayanya?",
+          "a": "Biaya bervariasi dan tidak dapat dikembalikan meskipun ditolak. Konfirmasikan jumlah terkini di pusat layanan."
+        },
+        {
+          "q": "Apakah saya masih memerlukan e-Arrival Card?",
+          "a": "Aturan dokumen masuk seperti e-Arrival Card tetap dapat berlaku saat kedatangan. Periksa aturan yang berlaku menjelang tanggal keberangkatan Anda."
+        }
       ]
     }
   },
@@ -89,7 +229,20 @@
     "h1": "インドネシア国民のための韓国ビザ",
     "metaTitle": "インドネシアから韓国のビザ：ステップ・バイ・ステップガイド（2026年）— Korea Trip Hub",
     "metaDesc": "インドネシアから韓国の観光ビザを申請する方法：申請場所、必要書類（各書類の入手先も）、費用、公式リンク。個人旅行者はC-3観光ビザが必要です。団体はビザ免除の場合があります。",
-    "ui": { "visa": "ビザの種類", "stay": "滞在期間", "entry": "入国回数", "where": "入手場所", "official": "公式ソース", "required": "必須", "conditional": "該当する場合", "recommended": "推奨", "confirm": "費用・規則は変更される場合があります — 公式ソースでご確認ください", "source": "出典", "updated": "更新日", "tldr": "要点" },
+    "ui": {
+      "visa": "ビザの種類",
+      "stay": "滞在期間",
+      "entry": "入国回数",
+      "where": "入手場所",
+      "official": "公式ソース",
+      "required": "必須",
+      "conditional": "該当する場合",
+      "recommended": "推奨",
+      "confirm": "費用・規則は変更される場合があります — 公式ソースでご確認ください",
+      "source": "出典",
+      "updated": "更新日",
+      "tldr": "要点"
+    },
     "verdict": {
       "headline": "インドネシアの個人旅行者はビザが必要です — ただし団体は不要な場合があります。",
       "sub": "韓国本土への個人・自由旅行では、C-3観光ビザを申請します。2026年5月28日以降、3名以上の団体旅行は試験制度により短期滞在でビザ免除で入国できますが、個人はまだ対象外です。",
@@ -98,8 +251,18 @@
       "entry": "シングル入国（個人）／条件を満たす団体はビザ免除"
     },
     "highlights": [
-      { "icon": "👥", "tone": "green", "title": "2026年5月28日から団体ビザ免除", "body": "3名以上のインドネシア人団体旅行は、試験制度により短期滞在でビザ免除で入国できます。団体のみが対象で、個人旅行者は引き続きビザが必要です。" },
-      { "icon": "🏝️", "tone": "amber", "title": "Jeju島 — 別枠のビザ免除入国", "body": "インドネシア国民はJejuにビザ免除で入国できます（Jejuのみ、直行便、本土への乗り継ぎ不可）。これは本土の観光ビザとは別枠です。" }
+      {
+        "icon": "👥",
+        "tone": "green",
+        "title": "2026年5月28日から団体ビザ免除",
+        "body": "3名以上のインドネシア人団体旅行は、試験制度により短期滞在でビザ免除で入国できます。団体のみが対象で、個人旅行者は引き続きビザが必要です。"
+      },
+      {
+        "icon": "🏝️",
+        "tone": "amber",
+        "title": "Jeju島 — 別枠のビザ免除入国",
+        "body": "インドネシア国民はJejuにビザ免除で入国できます（Jejuのみ、直行便、本土への乗り継ぎ不可）。これは本土の観光ビザとは別枠です。"
+      }
     ],
     "tldr": [
       "個人旅行者は韓国本土のためにC-3観光ビザが必要です。",
@@ -110,30 +273,109 @@
     "steps": {
       "title": "申請手順（個人C-3）",
       "items": [
-        { "n": 1, "title": "ビザの種類を確認", "detail": "個人旅行者は短期観光ビザC-3を申請します。（3名以上の団体は、旅行代理店にビザ免除の試験制度について確認してください。）" },
-        { "n": 2, "title": "visa.go.krでフォームに記入", "detail": "Korea Visa Portal（唯一の公式サイト）で申請書を作成し、印刷して署名します。", "link": "https://www.visa.go.kr", "linkLabel": "韓国ビザポータル" },
-        { "n": 3, "title": "書類を準備", "detail": "下記のチェックリストを揃えます：パスポート、写真、3か月分の銀行取引明細、在職証明。" },
-        { "n": 4, "title": "大使館／KVAC Jakartaで提出", "detail": "駐インドネシア韓国大使館またはJakartaのKorea Visa Application Centerに申請書を提出します。" },
-        { "n": 5, "title": "費用を支払う", "detail": "ビザ費用とサービス料を支払います。却下されても返金されません — センターで金額を確認してください。" },
-        { "n": 6, "title": "追跡して待つ", "detail": "センターのチャネルでステータスを確認します。承認前に払い戻し不可の航空券を購入しないでください。" },
-        { "n": 7, "title": "パスポートを受け取る", "detail": "パスポートを受け取り、ビザの詳細をすぐに確認します。" }
+        {
+          "n": 1,
+          "title": "ビザの種類を確認",
+          "detail": "個人旅行者は短期観光ビザC-3を申請します。（3名以上の団体は、旅行代理店にビザ免除の試験制度について確認してください。）"
+        },
+        {
+          "n": 2,
+          "title": "visa.go.krでフォームに記入",
+          "detail": "Korea Visa Portal（唯一の公式サイト）で申請書を作成し、印刷して署名します。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "韓国ビザポータル"
+        },
+        {
+          "n": 3,
+          "title": "書類を準備",
+          "detail": "下記のチェックリストを揃えます：パスポート、写真、3か月分の銀行取引明細、在職証明。"
+        },
+        {
+          "n": 4,
+          "title": "大使館／KVAC Jakartaで提出",
+          "detail": "駐インドネシア韓国大使館またはJakartaのKorea Visa Application Centerに申請書を提出します。"
+        },
+        {
+          "n": 5,
+          "title": "費用を支払う",
+          "detail": "ビザ費用とサービス料を支払います。却下されても返金されません — センターで金額を確認してください。"
+        },
+        {
+          "n": 6,
+          "title": "追跡して待つ",
+          "detail": "センターのチャネルでステータスを確認します。承認前に払い戻し不可の航空券を購入しないでください。"
+        },
+        {
+          "n": 7,
+          "title": "パスポートを受け取る",
+          "detail": "パスポートを受け取り、ビザの詳細をすぐに確認します。"
+        }
       ]
     },
     "documents": {
       "title": "必要書類チェックリスト — 各書類の入手先と方法",
       "intro": "各項目について、入手先と記載すべき内容を示します。",
-      "cols": ["書類", "入手場所", "記載内容"],
-      "rows": [
-        { "doc": "パスポート", "req": "required", "where": "すでにお持ちです", "how": "残存6か月以上、空白ページあり。" },
-        { "doc": "ビザ申請書", "req": "required", "where": "visa.go.kr", "how": "Korea Visa Portalで作成、印刷、署名。", "link": "https://www.visa.go.kr" },
-        { "doc": "写真", "req": "required", "where": "写真スタジオ", "how": "最近のパスポート用写真、白背景。" },
-        { "doc": "銀行取引明細 — 直近3か月", "req": "required", "where": "取引銀行", "how": "残高と取引履歴を示す明細。安定した残高が望ましい。" },
-        { "doc": "在職証明書", "req": "required", "where": "勤務先／人事部", "how": "会社のレターヘッドに：役職、給与、承認済み休暇。" },
-        { "doc": "給与明細", "req": "required", "where": "勤務先", "how": "収入を裏付ける最近の給与明細。" },
-        { "doc": "往復航空券・ホテルの予約", "req": "required", "where": "航空会社／予約サイト", "how": "予約・旅程で十分です — 承認前に航空券を購入しないでください。" },
-        { "doc": "スポンサー状（他者が費用を負担する場合）", "req": "conditional", "where": "スポンサー", "how": "スポンサー状＋スポンサーの銀行取引明細＋関係の証明。" }
+      "cols": [
+        "書類",
+        "入手場所",
+        "記載内容"
       ],
-      "legend": { "required": "必須", "conditional": "該当する場合", "recommended": "推奨" }
+      "rows": [
+        {
+          "doc": "パスポート",
+          "req": "required",
+          "where": "すでにお持ちです",
+          "how": "残存6か月以上、空白ページあり。"
+        },
+        {
+          "doc": "ビザ申請書",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Korea Visa Portalで作成、印刷、署名。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "写真",
+          "req": "required",
+          "where": "写真スタジオ",
+          "how": "最近のパスポート用写真、白背景。"
+        },
+        {
+          "doc": "銀行取引明細 — 直近3か月",
+          "req": "required",
+          "where": "取引銀行",
+          "how": "残高と取引履歴を示す明細。安定した残高が望ましい。"
+        },
+        {
+          "doc": "在職証明書",
+          "req": "required",
+          "where": "勤務先／人事部",
+          "how": "会社のレターヘッドに：役職、給与、承認済み休暇。"
+        },
+        {
+          "doc": "給与明細",
+          "req": "required",
+          "where": "勤務先",
+          "how": "収入を裏付ける最近の給与明細。"
+        },
+        {
+          "doc": "往復航空券・ホテルの予約",
+          "req": "required",
+          "where": "航空会社／予約サイト",
+          "how": "予約・旅程で十分です — 承認前に航空券を購入しないでください。"
+        },
+        {
+          "doc": "スポンサー状（他者が費用を負担する場合）",
+          "req": "conditional",
+          "where": "スポンサー",
+          "how": "スポンサー状＋スポンサーの銀行取引明細＋関係の証明。"
+        }
+      ],
+      "legend": {
+        "required": "必須",
+        "conditional": "該当する場合",
+        "recommended": "推奨"
+      }
     },
     "funds": {
       "title": "「いくら残高を示せばいいですか？」",
@@ -147,22 +389,60 @@
     "pitfalls": {
       "title": "却下・遅延を招くミス",
       "items": [
-        { "icon": "🧍", "t": "個人＝ビザ免除と思い込む", "d": "ビザ免除の試験制度は団体（3名以上）のみです。個人旅行者は引き続きC-3ビザが必要です。" },
-        { "icon": "💸", "t": "突然の入金", "d": "申請直前の多額の一括入金。安定して説明できる資金を示してください。" },
-        { "icon": "🧾", "t": "弱い在職証明", "d": "在職証明書や給与明細の不備。これらは個人申請者の書類の柱となります。" },
-        { "icon": "🎫", "t": "航空券を早く購入", "d": "承認前に払い戻し不可の航空券を購入する — 予約で十分です。" },
-        { "icon": "🏝️", "t": "Jejuと本土を混同", "d": "Jejuのビザ免除は本土の韓国旅行には適用されません。" }
+        {
+          "icon": "🧍",
+          "t": "個人＝ビザ免除と思い込む",
+          "d": "ビザ免除の試験制度は団体（3名以上）のみです。個人旅行者は引き続きC-3ビザが必要です。"
+        },
+        {
+          "icon": "💸",
+          "t": "突然の入金",
+          "d": "申請直前の多額の一括入金。安定して説明できる資金を示してください。"
+        },
+        {
+          "icon": "🧾",
+          "t": "弱い在職証明",
+          "d": "在職証明書や給与明細の不備。これらは個人申請者の書類の柱となります。"
+        },
+        {
+          "icon": "🎫",
+          "t": "航空券を早く購入",
+          "d": "承認前に払い戻し不可の航空券を購入する — 予約で十分です。"
+        },
+        {
+          "icon": "🏝️",
+          "t": "Jejuと本土を混同",
+          "d": "Jejuのビザ免除は本土の韓国旅行には適用されません。"
+        }
       ]
     },
     "faq": {
       "title": "インドネシア → 韓国 ビザFAQ",
       "items": [
-        { "q": "インドネシア人は韓国にビザが必要ですか？", "a": "個人旅行者は韓国本土のためにC-3観光ビザが必要です。2026年5月28日以降、3名以上の団体旅行は試験制度によりビザ免除で入国できます。Jejuには別枠のビザ免除入国があります。" },
-        { "q": "一人で旅行します — ビザは省略できますか？", "a": "いいえ。ビザ免除の試験制度は3名以上の団体のみに適用されます。個人旅行者はC-3ビザを申請する必要があります。" },
-        { "q": "どのような財政証明が必要ですか？", "a": "3か月分の銀行取引明細に加え、在職証明書と給与明細が必要です。スポンサーがいる場合はスポンサーの書類も含めてください。" },
-        { "q": "どこで申請しますか？", "a": "駐インドネシア韓国大使館またはJakartaのKorea Visa Application Centerです。" },
-        { "q": "費用はいくらですか？", "a": "費用は異なり、却下されても返金されません。最新の金額はセンターで確認してください。" },
-        { "q": "e-Arrival Cardはまだ必要ですか？", "a": "e-Arrival Cardなどの入国書類の規則は、到着時に依然として適用される場合があります。渡航日近くに最新の規則を確認してください。" }
+        {
+          "q": "インドネシア人は韓国にビザが必要ですか？",
+          "a": "個人旅行者は韓国本土のためにC-3観光ビザが必要です。2026年5月28日以降、3名以上の団体旅行は試験制度によりビザ免除で入国できます。Jejuには別枠のビザ免除入国があります。"
+        },
+        {
+          "q": "一人で旅行します — ビザは省略できますか？",
+          "a": "いいえ。ビザ免除の試験制度は3名以上の団体のみに適用されます。個人旅行者はC-3ビザを申請する必要があります。"
+        },
+        {
+          "q": "どのような財政証明が必要ですか？",
+          "a": "3か月分の銀行取引明細に加え、在職証明書と給与明細が必要です。スポンサーがいる場合はスポンサーの書類も含めてください。"
+        },
+        {
+          "q": "どこで申請しますか？",
+          "a": "駐インドネシア韓国大使館またはJakartaのKorea Visa Application Centerです。"
+        },
+        {
+          "q": "費用はいくらですか？",
+          "a": "費用は異なり、却下されても返金されません。最新の金額はセンターで確認してください。"
+        },
+        {
+          "q": "e-Arrival Cardはまだ必要ですか？",
+          "a": "e-Arrival Cardなどの入国書類の規則は、到着時に依然として適用される場合があります。渡航日近くに最新の規則を確認してください。"
+        }
       ]
     }
   },
@@ -172,7 +452,20 @@
     "h1": "인도네시아 국민을 위한 한국 비자",
     "metaTitle": "인도네시아에서 한국 비자: 단계별 안내 (2026) — Korea Trip Hub",
     "metaDesc": "인도네시아에서 한국 관광 비자를 신청하는 방법: 신청 장소, 서류(각 서류를 어디서 발급받는지 포함), 비용, 공식 링크. 개인 여행자는 C-3 관광 비자가 필요하며, 단체는 무비자일 수 있습니다.",
-    "ui": { "visa": "비자 종류", "stay": "체류 기간", "entry": "입국 횟수", "where": "발급받는 곳", "official": "공식 출처", "required": "필수", "conditional": "해당 시", "recommended": "권장", "confirm": "비용/규정은 변경될 수 있습니다 — 공식 출처에서 확인하세요", "source": "출처", "updated": "업데이트됨", "tldr": "요약" },
+    "ui": {
+      "visa": "비자 종류",
+      "stay": "체류 기간",
+      "entry": "입국 횟수",
+      "where": "발급받는 곳",
+      "official": "공식 출처",
+      "required": "필수",
+      "conditional": "해당 시",
+      "recommended": "권장",
+      "confirm": "비용/규정은 변경될 수 있습니다 — 공식 출처에서 확인하세요",
+      "source": "출처",
+      "updated": "업데이트됨",
+      "tldr": "요약"
+    },
     "verdict": {
       "headline": "인도네시아 개인 여행자는 비자가 필요합니다 — 단, 단체는 필요 없을 수 있습니다.",
       "sub": "한국 본토로의 개인·자유 여행은 C-3 관광 비자를 신청합니다. 2026년 5월 28일부터 3인 이상 단체 여행은 시범 제도에 따라 단기 체류 무비자 입국이 가능하지만, 개인은 아직 대상이 아닙니다.",
@@ -181,8 +474,18 @@
       "entry": "단수 입국 (개인) / 자격을 갖춘 단체는 무비자"
     },
     "highlights": [
-      { "icon": "👥", "tone": "green", "title": "2026년 5월 28일부터 단체 무비자", "body": "3인 이상 인도네시아 단체 여행은 시범 제도에 따라 단기 체류 무비자 입국이 가능합니다. 단체만 해당되며, 개인 여행자는 여전히 비자가 필요합니다." },
-      { "icon": "🏝️", "tone": "amber", "title": "Jeju섬 — 별도의 무비자 입국", "body": "인도네시아 국민은 Jeju에 무비자로 입국할 수 있습니다(Jeju 한정, 직항편, 본토 경유 불가). 이는 본토 관광 비자와는 별개입니다." }
+      {
+        "icon": "👥",
+        "tone": "green",
+        "title": "2026년 5월 28일부터 단체 무비자",
+        "body": "3인 이상 인도네시아 단체 여행은 시범 제도에 따라 단기 체류 무비자 입국이 가능합니다. 단체만 해당되며, 개인 여행자는 여전히 비자가 필요합니다."
+      },
+      {
+        "icon": "🏝️",
+        "tone": "amber",
+        "title": "Jeju섬 — 별도의 무비자 입국",
+        "body": "인도네시아 국민은 Jeju에 무비자로 입국할 수 있습니다(Jeju 한정, 직항편, 본토 경유 불가). 이는 본토 관광 비자와는 별개입니다."
+      }
     ],
     "tldr": [
       "개인 여행자는 한국 본토를 위해 C-3 관광 비자가 필요합니다.",
@@ -193,30 +496,109 @@
     "steps": {
       "title": "신청 절차, 단계별 (개인 C-3)",
       "items": [
-        { "n": 1, "title": "비자 종류 확인", "detail": "개인 여행자는 단기 관광 비자 C-3를 신청합니다. (3인 이상 단체는 여행사에 무비자 시범 제도를 문의하세요.)" },
-        { "n": 2, "title": "visa.go.kr에서 양식 작성", "detail": "Korea Visa Portal(유일한 공식 사이트)에서 신청서를 작성한 뒤 인쇄하여 서명하세요.", "link": "https://www.visa.go.kr", "linkLabel": "한국 비자 포털" },
-        { "n": 3, "title": "서류 준비", "detail": "아래 체크리스트를 준비하세요: 여권, 사진, 3개월 은행 거래내역서, 재직 증빙." },
-        { "n": 4, "title": "대사관 / KVAC Jakarta에 제출", "detail": "주인도네시아 한국 대사관 또는 Jakarta의 Korea Visa Application Center에 신청서를 제출하세요." },
-        { "n": 5, "title": "비용 납부", "detail": "비자 비용과 서비스 수수료를 납부하세요. 거부되어도 환불되지 않으니 센터에서 금액을 확인하세요." },
-        { "n": 6, "title": "추적 및 대기", "detail": "센터 채널을 통해 상태를 확인하세요. 승인 전에는 환불 불가 항공권을 구매하지 마세요." },
-        { "n": 7, "title": "여권 수령", "detail": "여권을 수령하고 비자 정보를 즉시 확인하세요." }
+        {
+          "n": 1,
+          "title": "비자 종류 확인",
+          "detail": "개인 여행자는 단기 관광 비자 C-3를 신청합니다. (3인 이상 단체는 여행사에 무비자 시범 제도를 문의하세요.)"
+        },
+        {
+          "n": 2,
+          "title": "visa.go.kr에서 양식 작성",
+          "detail": "Korea Visa Portal(유일한 공식 사이트)에서 신청서를 작성한 뒤 인쇄하여 서명하세요.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "한국 비자 포털"
+        },
+        {
+          "n": 3,
+          "title": "서류 준비",
+          "detail": "아래 체크리스트를 준비하세요: 여권, 사진, 3개월 은행 거래내역서, 재직 증빙."
+        },
+        {
+          "n": 4,
+          "title": "대사관 / KVAC Jakarta에 제출",
+          "detail": "주인도네시아 한국 대사관 또는 Jakarta의 Korea Visa Application Center에 신청서를 제출하세요."
+        },
+        {
+          "n": 5,
+          "title": "비용 납부",
+          "detail": "비자 비용과 서비스 수수료를 납부하세요. 거부되어도 환불되지 않으니 센터에서 금액을 확인하세요."
+        },
+        {
+          "n": 6,
+          "title": "추적 및 대기",
+          "detail": "센터 채널을 통해 상태를 확인하세요. 승인 전에는 환불 불가 항공권을 구매하지 마세요."
+        },
+        {
+          "n": 7,
+          "title": "여권 수령",
+          "detail": "여권을 수령하고 비자 정보를 즉시 확인하세요."
+        }
       ]
     },
     "documents": {
       "title": "서류 체크리스트 — 각 서류의 발급처와 방법",
       "intro": "각 항목별로 발급받는 곳과 무엇이 나타나야 하는지 안내합니다.",
-      "cols": ["서류", "발급받는 곳", "표시되어야 할 내용"],
-      "rows": [
-        { "doc": "여권", "req": "required", "where": "이미 보유", "how": "잔여 유효기간 6개월 이상, 빈 페이지 있음." },
-        { "doc": "비자 신청서", "req": "required", "where": "visa.go.kr", "how": "Korea Visa Portal에서 작성, 인쇄, 서명.", "link": "https://www.visa.go.kr" },
-        { "doc": "사진", "req": "required", "where": "사진관", "how": "최근 여권용 사진, 흰색 배경." },
-        { "doc": "은행 거래내역서 — 최근 3개월", "req": "required", "where": "거래 은행", "how": "잔액과 거래 내역을 보여주는 내역서. 안정적인 잔액이 가장 좋습니다." },
-        { "doc": "재직증명서", "req": "required", "where": "회사 / 인사팀", "how": "회사 레터헤드에: 직위, 급여, 승인된 휴가." },
-        { "doc": "급여명세서", "req": "required", "where": "회사", "how": "소득을 뒷받침하는 최근 급여명세서." },
-        { "doc": "왕복 항공권 및 호텔 예약", "req": "required", "where": "항공사 / 예약 사이트", "how": "예약/일정만으로 충분합니다 — 승인 전에 항공권을 결제하지 마세요." },
-        { "doc": "스폰서 레터(타인이 비용 부담 시)", "req": "conditional", "where": "스폰서", "how": "스폰서 레터 + 스폰서의 은행 거래내역서 + 관계 증빙." }
+      "cols": [
+        "서류",
+        "발급받는 곳",
+        "표시되어야 할 내용"
       ],
-      "legend": { "required": "필수", "conditional": "본인에게 해당 시", "recommended": "권장" }
+      "rows": [
+        {
+          "doc": "여권",
+          "req": "required",
+          "where": "이미 보유",
+          "how": "잔여 유효기간 6개월 이상, 빈 페이지 있음."
+        },
+        {
+          "doc": "비자 신청서",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Korea Visa Portal에서 작성, 인쇄, 서명.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "사진",
+          "req": "required",
+          "where": "사진관",
+          "how": "최근 여권용 사진, 흰색 배경."
+        },
+        {
+          "doc": "은행 거래내역서 — 최근 3개월",
+          "req": "required",
+          "where": "거래 은행",
+          "how": "잔액과 거래 내역을 보여주는 내역서. 안정적인 잔액이 가장 좋습니다."
+        },
+        {
+          "doc": "재직증명서",
+          "req": "required",
+          "where": "회사 / 인사팀",
+          "how": "회사 레터헤드에: 직위, 급여, 승인된 휴가."
+        },
+        {
+          "doc": "급여명세서",
+          "req": "required",
+          "where": "회사",
+          "how": "소득을 뒷받침하는 최근 급여명세서."
+        },
+        {
+          "doc": "왕복 항공권 및 호텔 예약",
+          "req": "required",
+          "where": "항공사 / 예약 사이트",
+          "how": "예약/일정만으로 충분합니다 — 승인 전에 항공권을 결제하지 마세요."
+        },
+        {
+          "doc": "스폰서 레터(타인이 비용 부담 시)",
+          "req": "conditional",
+          "where": "스폰서",
+          "how": "스폰서 레터 + 스폰서의 은행 거래내역서 + 관계 증빙."
+        }
+      ],
+      "legend": {
+        "required": "필수",
+        "conditional": "본인에게 해당 시",
+        "recommended": "권장"
+      }
     },
     "funds": {
       "title": "“자금을 얼마나 보여줘야 하나요?”",
@@ -230,22 +612,60 @@
     "pitfalls": {
       "title": "거부와 지연을 부르는 실수",
       "items": [
-        { "icon": "🧍", "t": "개인 = 무비자로 오해", "d": "무비자 시범 제도는 단체(3인 이상)만 해당됩니다. 개인 여행자는 여전히 C-3 비자가 필요합니다." },
-        { "icon": "💸", "t": "갑작스러운 입금", "d": "신청 직전의 거액 일시 입금. 안정적이고 설명 가능한 자금을 보여주세요." },
-        { "icon": "🧾", "t": "부실한 재직 증빙", "d": "재직증명서나 급여명세서 누락. 이 서류들이 개인 신청자 서류의 핵심입니다." },
-        { "icon": "🎫", "t": "항공권 조기 구매", "d": "승인 전 환불 불가 항공권 구매 — 예약만으로 충분합니다." },
-        { "icon": "🏝️", "t": "Jeju와 본토 혼동", "d": "Jeju 무비자는 한국 본토 여행에는 적용되지 않습니다." }
+        {
+          "icon": "🧍",
+          "t": "개인 = 무비자로 오해",
+          "d": "무비자 시범 제도는 단체(3인 이상)만 해당됩니다. 개인 여행자는 여전히 C-3 비자가 필요합니다."
+        },
+        {
+          "icon": "💸",
+          "t": "갑작스러운 입금",
+          "d": "신청 직전의 거액 일시 입금. 안정적이고 설명 가능한 자금을 보여주세요."
+        },
+        {
+          "icon": "🧾",
+          "t": "부실한 재직 증빙",
+          "d": "재직증명서나 급여명세서 누락. 이 서류들이 개인 신청자 서류의 핵심입니다."
+        },
+        {
+          "icon": "🎫",
+          "t": "항공권 조기 구매",
+          "d": "승인 전 환불 불가 항공권 구매 — 예약만으로 충분합니다."
+        },
+        {
+          "icon": "🏝️",
+          "t": "Jeju와 본토 혼동",
+          "d": "Jeju 무비자는 한국 본토 여행에는 적용되지 않습니다."
+        }
       ]
     },
     "faq": {
       "title": "인도네시아 → 한국 비자 FAQ",
       "items": [
-        { "q": "인도네시아인은 한국 비자가 필요한가요?", "a": "개인 여행자는 한국 본토를 위해 C-3 관광 비자가 필요합니다. 2026년 5월 28일부터 3인 이상 단체 여행은 시범 제도에 따라 무비자로 입국할 수 있으며, Jeju에는 별도의 무비자 입국이 있습니다." },
-        { "q": "혼자 여행합니다 — 비자를 생략할 수 있나요?", "a": "아니요. 무비자 시범 제도는 3인 이상 단체에만 적용됩니다. 개인 여행자는 C-3 비자를 신청해야 합니다." },
-        { "q": "어떤 재정 증빙이 필요한가요?", "a": "3개월 은행 거래내역서와 재직증명서, 급여명세서가 필요합니다. 지원받는 경우 스폰서 서류를 포함하세요." },
-        { "q": "어디서 신청하나요?", "a": "주인도네시아 한국 대사관 또는 Jakarta의 Korea Visa Application Center입니다." },
-        { "q": "비용은 얼마인가요?", "a": "비용은 다양하며 거부되어도 환불되지 않습니다. 최신 금액은 센터에서 확인하세요." },
-        { "q": "e-Arrival Card가 여전히 필요한가요?", "a": "e-Arrival Card 등 입국 서류 규정이 도착 시 여전히 적용될 수 있습니다. 여행일 가까이에 최신 규정을 확인하세요." }
+        {
+          "q": "인도네시아인은 한국 비자가 필요한가요?",
+          "a": "개인 여행자는 한국 본토를 위해 C-3 관광 비자가 필요합니다. 2026년 5월 28일부터 3인 이상 단체 여행은 시범 제도에 따라 무비자로 입국할 수 있으며, Jeju에는 별도의 무비자 입국이 있습니다."
+        },
+        {
+          "q": "혼자 여행합니다 — 비자를 생략할 수 있나요?",
+          "a": "아니요. 무비자 시범 제도는 3인 이상 단체에만 적용됩니다. 개인 여행자는 C-3 비자를 신청해야 합니다."
+        },
+        {
+          "q": "어떤 재정 증빙이 필요한가요?",
+          "a": "3개월 은행 거래내역서와 재직증명서, 급여명세서가 필요합니다. 지원받는 경우 스폰서 서류를 포함하세요."
+        },
+        {
+          "q": "어디서 신청하나요?",
+          "a": "주인도네시아 한국 대사관 또는 Jakarta의 Korea Visa Application Center입니다."
+        },
+        {
+          "q": "비용은 얼마인가요?",
+          "a": "비용은 다양하며 거부되어도 환불되지 않습니다. 최신 금액은 센터에서 확인하세요."
+        },
+        {
+          "q": "e-Arrival Card가 여전히 필요한가요?",
+          "a": "e-Arrival Card 등 입국 서류 규정이 도착 시 여전히 적용될 수 있습니다. 여행일 가까이에 최신 규정을 확인하세요."
+        }
       ]
     }
   },
@@ -255,7 +675,20 @@
     "h1": "Visado de Corea para ciudadanos indonesios",
     "metaTitle": "Visado de Corea desde Indonesia: guía paso a paso (2026) — Korea Trip Hub",
     "metaDesc": "Cómo solicitar el visado de turista de Corea desde Indonesia: dónde presentarlo, documentos (y dónde obtener cada uno), tasas y enlaces oficiales. Los viajeros individuales necesitan el visado de turista C-3; los grupos pueden estar exentos.",
-    "ui": { "visa": "Tipo de visado", "stay": "Duración de la estancia", "entry": "Número de entradas", "where": "Dónde obtenerlo", "official": "Fuente oficial", "required": "Obligatorio", "conditional": "Si corresponde", "recommended": "Recomendado", "confirm": "Las tasas y normas pueden cambiar — confirme en las fuentes oficiales", "source": "Fuente", "updated": "Actualizado", "tldr": "RESUMEN" },
+    "ui": {
+      "visa": "Tipo de visado",
+      "stay": "Duración de la estancia",
+      "entry": "Número de entradas",
+      "where": "Dónde obtenerlo",
+      "official": "Fuente oficial",
+      "required": "Obligatorio",
+      "conditional": "Si corresponde",
+      "recommended": "Recomendado",
+      "confirm": "Las tasas y normas pueden cambiar — confirme en las fuentes oficiales",
+      "source": "Fuente",
+      "updated": "Actualizado",
+      "tldr": "RESUMEN"
+    },
     "verdict": {
       "headline": "Los viajeros individuales indonesios necesitan visado, pero los grupos quizá no.",
       "sub": "Para viajes por cuenta propia a la Corea continental, se solicita el visado de turista C-3. Desde el 28 de mayo de 2026, los grupos turísticos de 3 o más personas pueden entrar sin visado para estancias cortas mediante un programa piloto; los particulares aún no reúnen los requisitos.",
@@ -264,8 +697,18 @@
       "entry": "Entrada única (individual) / exención de visado para grupos que reúnan los requisitos"
     },
     "highlights": [
-      { "icon": "👥", "tone": "green", "title": "Exención de visado para grupos desde el 28 de mayo de 2026", "body": "Los grupos turísticos indonesios de al menos 3 personas pueden entrar sin visado para estancias cortas mediante un programa piloto. Solo aplica a grupos; los viajeros individuales siguen necesitando visado." },
-      { "icon": "🏝️", "tone": "amber", "title": "Isla de Jeju — exención de visado aparte", "body": "Los ciudadanos indonesios pueden entrar en Jeju sin visado (solo Jeju, vuelos directos, sin tránsito al continente). Esto es independiente del visado de turista para el continente." }
+      {
+        "icon": "👥",
+        "tone": "green",
+        "title": "Exención de visado para grupos desde el 28 de mayo de 2026",
+        "body": "Los grupos turísticos indonesios de al menos 3 personas pueden entrar sin visado para estancias cortas mediante un programa piloto. Solo aplica a grupos; los viajeros individuales siguen necesitando visado."
+      },
+      {
+        "icon": "🏝️",
+        "tone": "amber",
+        "title": "Isla de Jeju — exención de visado aparte",
+        "body": "Los ciudadanos indonesios pueden entrar en Jeju sin visado (solo Jeju, vuelos directos, sin tránsito al continente). Esto es independiente del visado de turista para el continente."
+      }
     ],
     "tldr": [
       "Los viajeros independientes necesitan un visado de turista C-3 para la Corea continental.",
@@ -276,30 +719,109 @@
     "steps": {
       "title": "El proceso de solicitud, paso a paso (C-3 individual)",
       "items": [
-        { "n": 1, "title": "Confirme el tipo de visado", "detail": "Los turistas independientes solicitan el visado de turista de corta duración C-3. (Los grupos de 3 o más deben preguntar a su agencia por el programa piloto sin visado.)" },
-        { "n": 2, "title": "Rellene el formulario en visa.go.kr", "detail": "Complete el formulario de solicitud en el Korea Visa Portal —el único sitio oficial—, luego imprímalo y fírmelo.", "link": "https://www.visa.go.kr", "linkLabel": "Portal de Visados de Corea" },
-        { "n": 3, "title": "Prepare sus documentos", "detail": "Reúna la lista de abajo: pasaporte, foto, extracto bancario de 3 meses y prueba de empleo." },
-        { "n": 4, "title": "Presente en la Embajada / KVAC Jakarta", "detail": "Presente su solicitud en la Embajada de Corea o en el Korea Visa Application Center de Jakarta." },
-        { "n": 5, "title": "Pague la tasa", "detail": "Pague la tasa del visado y cualquier tasa de servicio. Las tasas no se reembolsan aunque se deniegue — confirme el importe en el centro." },
-        { "n": 6, "title": "Haga seguimiento y espere", "detail": "Siga el estado por el canal del centro. No compre vuelos no reembolsables antes de la aprobación." },
-        { "n": 7, "title": "Recoja su pasaporte", "detail": "Recoja su pasaporte y compruebe de inmediato los datos del visado." }
+        {
+          "n": 1,
+          "title": "Confirme el tipo de visado",
+          "detail": "Los turistas independientes solicitan el visado de turista de corta duración C-3. (Los grupos de 3 o más deben preguntar a su agencia por el programa piloto sin visado.)"
+        },
+        {
+          "n": 2,
+          "title": "Rellene el formulario en visa.go.kr",
+          "detail": "Complete el formulario de solicitud en el Korea Visa Portal —el único sitio oficial—, luego imprímalo y fírmelo.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Portal de Visados de Corea"
+        },
+        {
+          "n": 3,
+          "title": "Prepare sus documentos",
+          "detail": "Reúna la lista de abajo: pasaporte, foto, extracto bancario de 3 meses y prueba de empleo."
+        },
+        {
+          "n": 4,
+          "title": "Presente en la Embajada / KVAC Jakarta",
+          "detail": "Presente su solicitud en la Embajada de Corea o en el Korea Visa Application Center de Jakarta."
+        },
+        {
+          "n": 5,
+          "title": "Pague la tasa",
+          "detail": "Pague la tasa del visado y cualquier tasa de servicio. Las tasas no se reembolsan aunque se deniegue — confirme el importe en el centro."
+        },
+        {
+          "n": 6,
+          "title": "Haga seguimiento y espere",
+          "detail": "Siga el estado por el canal del centro. No compre vuelos no reembolsables antes de la aprobación."
+        },
+        {
+          "n": 7,
+          "title": "Recoja su pasaporte",
+          "detail": "Recoja su pasaporte y compruebe de inmediato los datos del visado."
+        }
       ]
     },
     "documents": {
       "title": "Lista de documentos — con dónde y cómo obtener cada uno",
       "intro": "Para cada documento, aquí tiene dónde obtenerlo y qué debe mostrar.",
-      "cols": ["Documento", "Dónde obtenerlo", "Qué debe mostrar"],
-      "rows": [
-        { "doc": "Pasaporte", "req": "required", "where": "Ya lo tiene", "how": "Válido 6 meses o más, con páginas en blanco." },
-        { "doc": "Formulario de solicitud de visado", "req": "required", "where": "visa.go.kr", "how": "Complételo en el Korea Visa Portal, imprímalo y fírmelo.", "link": "https://www.visa.go.kr" },
-        { "doc": "Foto", "req": "required", "where": "Cualquier estudio fotográfico", "how": "Foto reciente tipo pasaporte, fondo blanco." },
-        { "doc": "Extracto bancario — últimos 3 meses", "req": "required", "where": "Su banco", "how": "Extracto que muestre saldo e historial de movimientos; lo mejor es un saldo estable." },
-        { "doc": "Carta de empleo", "req": "required", "where": "Su empresa / RR. HH.", "how": "En papel con membrete de la empresa: puesto, salario y permiso aprobado." },
-        { "doc": "Nóminas", "req": "required", "where": "Su empresa", "how": "Nóminas recientes que respalden sus ingresos." },
-        { "doc": "Reserva de vuelo ida y vuelta y hotel", "req": "required", "where": "Aerolínea / sitios de reservas", "how": "Las reservas o el itinerario bastan — no pague el billete antes de la aprobación." },
-        { "doc": "Carta de patrocinio (si le financia otra persona)", "req": "conditional", "where": "Su patrocinador", "how": "Carta de patrocinio + extracto bancario del patrocinador + prueba de parentesco." }
+      "cols": [
+        "Documento",
+        "Dónde obtenerlo",
+        "Qué debe mostrar"
       ],
-      "legend": { "required": "Obligatorio", "conditional": "Si le corresponde", "recommended": "Recomendado" }
+      "rows": [
+        {
+          "doc": "Pasaporte",
+          "req": "required",
+          "where": "Ya lo tiene",
+          "how": "Válido 6 meses o más, con páginas en blanco."
+        },
+        {
+          "doc": "Formulario de solicitud de visado",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Complételo en el Korea Visa Portal, imprímalo y fírmelo.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto",
+          "req": "required",
+          "where": "Cualquier estudio fotográfico",
+          "how": "Foto reciente tipo pasaporte, fondo blanco."
+        },
+        {
+          "doc": "Extracto bancario — últimos 3 meses",
+          "req": "required",
+          "where": "Su banco",
+          "how": "Extracto que muestre saldo e historial de movimientos; lo mejor es un saldo estable."
+        },
+        {
+          "doc": "Carta de empleo",
+          "req": "required",
+          "where": "Su empresa / RR. HH.",
+          "how": "En papel con membrete de la empresa: puesto, salario y permiso aprobado."
+        },
+        {
+          "doc": "Nóminas",
+          "req": "required",
+          "where": "Su empresa",
+          "how": "Nóminas recientes que respalden sus ingresos."
+        },
+        {
+          "doc": "Reserva de vuelo ida y vuelta y hotel",
+          "req": "required",
+          "where": "Aerolínea / sitios de reservas",
+          "how": "Las reservas o el itinerario bastan — no pague el billete antes de la aprobación."
+        },
+        {
+          "doc": "Carta de patrocinio (si le financia otra persona)",
+          "req": "conditional",
+          "where": "Su patrocinador",
+          "how": "Carta de patrocinio + extracto bancario del patrocinador + prueba de parentesco."
+        }
+      ],
+      "legend": {
+        "required": "Obligatorio",
+        "conditional": "Si le corresponde",
+        "recommended": "Recomendado"
+      }
     },
     "funds": {
       "title": "«¿Cuánto dinero debo mostrar?»",
@@ -313,188 +835,60 @@
     "pitfalls": {
       "title": "Errores que provocan denegaciones y retrasos",
       "items": [
-        { "icon": "🧍", "t": "Suponer que solo = sin visado", "d": "El piloto sin visado es solo para grupos (3 o más). Los viajeros individuales siguen necesitando el visado C-3." },
-        { "icon": "💸", "t": "Depósito repentino", "d": "Una gran suma justo antes de solicitar. Muestre fondos estables y explicables." },
-        { "icon": "🧾", "t": "Prueba de empleo débil", "d": "Falta la carta de empleo o las nóminas. Estas sostienen el expediente de un solicitante individual." },
-        { "icon": "🎫", "t": "Pagar los vuelos demasiado pronto", "d": "Comprar billetes no reembolsables antes de la aprobación — basta con una reserva." },
-        { "icon": "🏝️", "t": "Confundir Jeju con el continente", "d": "La exención de visado de Jeju no cubre los viajes por la Corea continental." }
+        {
+          "icon": "🧍",
+          "t": "Suponer que solo = sin visado",
+          "d": "El piloto sin visado es solo para grupos (3 o más). Los viajeros individuales siguen necesitando el visado C-3."
+        },
+        {
+          "icon": "💸",
+          "t": "Depósito repentino",
+          "d": "Una gran suma justo antes de solicitar. Muestre fondos estables y explicables."
+        },
+        {
+          "icon": "🧾",
+          "t": "Prueba de empleo débil",
+          "d": "Falta la carta de empleo o las nóminas. Estas sostienen el expediente de un solicitante individual."
+        },
+        {
+          "icon": "🎫",
+          "t": "Pagar los vuelos demasiado pronto",
+          "d": "Comprar billetes no reembolsables antes de la aprobación — basta con una reserva."
+        },
+        {
+          "icon": "🏝️",
+          "t": "Confundir Jeju con el continente",
+          "d": "La exención de visado de Jeju no cubre los viajes por la Corea continental."
+        }
       ]
     },
     "faq": {
       "title": "Preguntas frecuentes sobre el visado Indonesia → Corea",
       "items": [
-        { "q": "¿Los indonesios necesitan visado para Corea?", "a": "Los viajeros individuales necesitan un visado de turista C-3 para la Corea continental. Desde el 28 de mayo de 2026, los grupos turísticos de 3 o más pueden entrar sin visado mediante un piloto; la isla de Jeju tiene una entrada sin visado aparte." },
-        { "q": "Viajo solo — ¿puedo saltarme el visado?", "a": "No. El piloto sin visado se aplica solo a grupos de al menos 3 personas. Los viajeros independientes deben solicitar el visado C-3." },
-        { "q": "¿Qué prueba financiera necesito?", "a": "Un extracto bancario de 3 meses más una carta de empleo y nóminas. Si le patrocinan, incluya los documentos del patrocinador." },
-        { "q": "¿Dónde solicito?", "a": "En la Embajada de Corea o en el Korea Visa Application Center de Jakarta." },
-        { "q": "¿Cuánto cuesta la tasa?", "a": "Las tasas varían y no se reembolsan aunque se deniegue. Confirme el importe actual en el centro." },
-        { "q": "¿Sigo necesitando la e-Arrival Card?", "a": "Las normas de documentos de entrada como la e-Arrival Card pueden seguir aplicándose a la llegada. Consulte las normas vigentes cerca de la fecha de su viaje." }
-      ]
-    }
-  },
-  "ru": {
-    "kicker": "Гид по визе · Индонезия → Корея",
-    "readingTime": "чтение 8 мин",
-    "h1": "Виза в Корею для граждан Индонезии",
-    "metaTitle": "Виза в Корею из Индонезии: пошаговое руководство (2026) — Korea Trip Hub",
-    "metaDesc": "Как оформить туристическую визу в Корею из Индонезии: где подавать, документы (и где получить каждый), сборы и официальные ссылки. Индивидуальным путешественникам нужна туристическая виза C-3; группы могут въезжать без визы.",
-    "ui": { "visa": "Тип визы", "stay": "Срок пребывания", "entry": "Число въездов", "where": "Где получить", "official": "Официальный источник", "required": "Обязательно", "conditional": "Если применимо", "recommended": "Рекомендуется", "confirm": "Сборы и правила могут измениться — уточняйте в официальных источниках", "source": "Источник", "updated": "Обновлено", "tldr": "КРАТКО" },
-    "verdict": {
-      "headline": "Индивидуальным индонезийским туристам нужна виза, но группам, возможно, нет.",
-      "sub": "Для самостоятельных поездок в материковую Корею оформляется туристическая виза C-3. С 28 мая 2026 года туристические группы от 3 человек могут въезжать без визы для краткосрочного пребывания в рамках пилотной программы; индивидуальные путешественники пока не имеют такого права.",
-      "type": "Туристическая C-3 (индивидуально)",
-      "stay": "До 90 дней",
-      "entry": "Однократный въезд (индивидуально) / без визы для групп, отвечающих требованиям"
-    },
-    "highlights": [
-      { "icon": "👥", "tone": "green", "title": "Безвизовый въезд для групп с 28 мая 2026 года", "body": "Индонезийские туристические группы не менее 3 человек могут въезжать без визы для краткосрочного пребывания в рамках пилотной программы. Это только для групп — индивидуальным путешественникам по-прежнему нужна виза." },
-      { "icon": "🏝️", "tone": "amber", "title": "Остров Jeju — отдельный безвизовый въезд", "body": "Граждане Индонезии могут въезжать на Jeju без визы (только Jeju, прямые рейсы, без транзита на материк). Это отдельно от туристической визы для материка." }
-    ],
-    "tldr": [
-      "Самостоятельным путешественникам нужна туристическая виза C-3 для материковой Кореи.",
-      "Заполните форму на visa.go.kr, затем подайте её в посольстве Кореи / KVAC в Jakarta.",
-      "Возьмите паспорт, фото, выписку из банка за 3 месяца, справку с работы и расчётные листки.",
-      "Путешествуете группой от 3 человек? Возможно, вы имеете право на безвизовый въезд (пилот с мая 2026 года)."
-    ],
-    "steps": {
-      "title": "Процесс подачи, шаг за шагом (индивидуальная C-3)",
-      "items": [
-        { "n": 1, "title": "Определите тип визы", "detail": "Самостоятельные туристы оформляют краткосрочную туристическую визу C-3. (Группам от 3 человек стоит уточнить у своего турагентства о пилотной безвизовой программе.)" },
-        { "n": 2, "title": "Заполните форму на visa.go.kr", "detail": "Заполните заявление на Korea Visa Portal — единственном официальном сайте, — затем распечатайте и подпишите его.", "link": "https://www.visa.go.kr", "linkLabel": "Портал виз Кореи" },
-        { "n": 3, "title": "Подготовьте документы", "detail": "Соберите документы по списку ниже: паспорт, фото, выписку из банка за 3 месяца и подтверждение работы." },
-        { "n": 4, "title": "Подайте в посольстве / KVAC в Jakarta", "detail": "Подайте заявление в посольство Кореи или Korea Visa Application Center в Jakarta." },
-        { "n": 5, "title": "Оплатите сбор", "detail": "Оплатите визовый сбор и сервисный сбор. Сборы не возвращаются даже при отказе — уточните сумму в центре." },
-        { "n": 6, "title": "Отслеживайте и ждите", "detail": "Следите за статусом через канал центра. Не покупайте невозвратные авиабилеты до одобрения." },
-        { "n": 7, "title": "Заберите паспорт", "detail": "Заберите паспорт и сразу проверьте данные визы." }
-      ]
-    },
-    "documents": {
-      "title": "Список документов — где и как получить каждый",
-      "intro": "Для каждого документа указано, где его получить и что он должен подтверждать.",
-      "cols": ["Документ", "Где получить", "Что должно быть указано"],
-      "rows": [
-        { "doc": "Паспорт", "req": "required", "where": "У вас уже есть", "how": "Действителен не менее 6 месяцев, с пустыми страницами." },
-        { "doc": "Визовое заявление", "req": "required", "where": "visa.go.kr", "how": "Заполните на Korea Visa Portal, распечатайте, подпишите.", "link": "https://www.visa.go.kr" },
-        { "doc": "Фото", "req": "required", "where": "Любая фотостудия", "how": "Свежее фото паспортного формата на белом фоне." },
-        { "doc": "Выписка из банка — за последние 3 месяца", "req": "required", "where": "Ваш банк", "how": "Выписка с балансом и историей операций; предпочтителен стабильный баланс." },
-        { "doc": "Справка с работы", "req": "required", "where": "Ваш работодатель / отдел кадров", "how": "На фирменном бланке: должность, зарплата и одобренный отпуск." },
-        { "doc": "Расчётные листки", "req": "required", "where": "Ваш работодатель", "how": "Свежие расчётные листки, подтверждающие доход." },
-        { "doc": "Бронь авиабилетов туда-обратно и отеля", "req": "required", "where": "Авиакомпания / сайты бронирования", "how": "Достаточно брони или маршрута — не оплачивайте билет до одобрения." },
-        { "doc": "Спонсорское письмо (если поездку оплачивает другой)", "req": "conditional", "where": "Ваш спонсор", "how": "Спонсорское письмо + выписка из банка спонсора + подтверждение родства." }
-      ],
-      "legend": { "required": "Обязательно", "conditional": "Если это применимо к вам", "recommended": "Рекомендуется" }
-    },
-    "funds": {
-      "title": "«Сколько денег нужно показать?»",
-      "body": "Единого опубликованного минимума нет. Покажите стабильный баланс за 3 месяца и явные связи с Индонезией (работа, семья). Если поездку оплачивает другой человек, полностью задокументируйте спонсорство.",
-      "tips": [
-        "Стабильный баланс за 3 месяца лучше, чем внезапный вклад перед подачей.",
-        "Дополните банковскую выписку справкой с работы и расчётными листками.",
-        "Есть спонсор? Добавьте выписку из банка спонсора, письмо и подтверждение родства."
-      ]
-    },
-    "pitfalls": {
-      "title": "Ошибки, ведущие к отказам и задержкам",
-      "items": [
-        { "icon": "🧍", "t": "Считать, что в одиночку = без визы", "d": "Безвизовый пилот только для групп (от 3 человек). Индивидуальным путешественникам по-прежнему нужна виза C-3." },
-        { "icon": "💸", "t": "Внезапный вклад", "d": "Крупная сумма прямо перед подачей. Показывайте стабильные и объяснимые средства." },
-        { "icon": "🧾", "t": "Слабое подтверждение работы", "d": "Отсутствие справки с работы или расчётных листков. Они — основа дела индивидуального заявителя." },
-        { "icon": "🎫", "t": "Ранняя оплата билетов", "d": "Покупка невозвратных билетов до одобрения — брони достаточно." },
-        { "icon": "🏝️", "t": "Путать Jeju с материком", "d": "Безвизовый режим Jeju не распространяется на поездки по материковой Корее." }
-      ]
-    },
-    "faq": {
-      "title": "Виза Индонезия → Корея: FAQ",
-      "items": [
-        { "q": "Нужна ли индонезийцам виза в Корею?", "a": "Индивидуальным путешественникам нужна туристическая виза C-3 для материковой Кореи. С 28 мая 2026 года туристические группы от 3 человек могут въезжать без визы в рамках пилота; на острове Jeju действует отдельный безвизовый въезд." },
-        { "q": "Я путешествую один — могу ли обойтись без визы?", "a": "Нет. Безвизовый пилот распространяется только на группы не менее 3 человек. Самостоятельные путешественники должны оформить визу C-3." },
-        { "q": "Какое финансовое подтверждение нужно?", "a": "Выписка из банка за 3 месяца, а также справка с работы и расчётные листки. При наличии спонсора приложите его документы." },
-        { "q": "Где подавать?", "a": "В посольстве Кореи или в Korea Visa Application Center в Jakarta." },
-        { "q": "Сколько стоит сбор?", "a": "Сборы различаются и не возвращаются даже при отказе. Уточните актуальную сумму в центре." },
-        { "q": "Нужна ли всё ещё e-Arrival Card?", "a": "Правила въездных документов, такие как e-Arrival Card, могут действовать по прибытии. Проверьте актуальные правила ближе к дате поездки." }
-      ]
-    }
-  },
-  "ar": {
-    "kicker": "دليل التأشيرة · إندونيسيا → كوريا",
-    "readingTime": "قراءة 8 دقائق",
-    "h1": "تأشيرة كوريا للمواطنين الإندونيسيين",
-    "metaTitle": "تأشيرة كوريا من إندونيسيا: دليل خطوة بخطوة (2026) — Korea Trip Hub",
-    "metaDesc": "كيفية التقدم بطلب تأشيرة سياحية إلى كوريا من إندونيسيا: أين تُقدَّم، والمستندات (وأين تحصل على كل منها)، والرسوم، والروابط الرسمية. يحتاج المسافرون الأفراد إلى تأشيرة سياحية C-3؛ وقد تُعفى المجموعات من التأشيرة.",
-    "ui": { "visa": "نوع التأشيرة", "stay": "مدة الإقامة", "entry": "عدد مرات الدخول", "where": "أين تحصل عليها", "official": "المصدر الرسمي", "required": "إلزامي", "conditional": "إن ينطبق", "recommended": "موصى به", "confirm": "قد تتغير الرسوم والقواعد — يُرجى التأكد من المصادر الرسمية", "source": "المصدر", "updated": "آخر تحديث", "tldr": "باختصار" },
-    "verdict": {
-      "headline": "يحتاج المسافرون الأفراد الإندونيسيون إلى تأشيرة — لكن المجموعات قد لا تحتاج.",
-      "sub": "للسفر المستقل إلى كوريا القارية تتقدم بطلب تأشيرة سياحية C-3. اعتباراً من 28 مايو 2026، يمكن للمجموعات السياحية المكوّنة من 3 أشخاص أو أكثر الدخول بدون تأشيرة للإقامات القصيرة ضمن برنامج تجريبي؛ أما الأفراد فليسوا مؤهلين بعد.",
-      "type": "سياحية C-3 (أفراد)",
-      "stay": "حتى 90 يوماً",
-      "entry": "دخول لمرة واحدة (أفراد) / إعفاء من التأشيرة للمجموعات المؤهلة"
-    },
-    "highlights": [
-      { "icon": "👥", "tone": "green", "title": "إعفاء المجموعات من التأشيرة اعتباراً من 28 مايو 2026", "body": "يمكن للمجموعات السياحية الإندونيسية المكوّنة من 3 أشخاص على الأقل الدخول بدون تأشيرة للإقامات القصيرة ضمن برنامج تجريبي. وهو للمجموعات فقط — أما المسافرون الأفراد فما زالوا بحاجة إلى تأشيرة." },
-      { "icon": "🏝️", "tone": "amber", "title": "جزيرة Jeju — إعفاء منفصل من التأشيرة", "body": "يمكن للمواطنين الإندونيسيين دخول Jeju بدون تأشيرة (Jeju فقط، رحلات مباشرة، دون عبور إلى البر الرئيسي). وهذا منفصل عن التأشيرة السياحية للبر الرئيسي." }
-    ],
-    "tldr": [
-      "يحتاج المسافرون المستقلون إلى تأشيرة سياحية C-3 لكوريا القارية.",
-      "املأ النموذج على visa.go.kr، ثم قدّمه في سفارة كوريا / KVAC في Jakarta.",
-      "أحضر جواز السفر وصورة وكشف حساب بنكي لمدة 3 أشهر وخطاب عمل مع قسائم الراتب.",
-      "تسافر ضمن مجموعة من 3 أشخاص أو أكثر؟ قد تكون مؤهلاً للدخول بدون تأشيرة (برنامج تجريبي اعتباراً من مايو 2026)."
-    ],
-    "steps": {
-      "title": "خطوات التقديم، خطوة بخطوة (C-3 للأفراد)",
-      "items": [
-        { "n": 1, "title": "تأكد من نوع التأشيرة", "detail": "يتقدم المسافرون المستقلون بطلب تأشيرة سياحية قصيرة الأمد C-3. (على المجموعات المكوّنة من 3 أشخاص أو أكثر سؤال وكالة السفر عن البرنامج التجريبي للإعفاء من التأشيرة.)" },
-        { "n": 2, "title": "املأ النموذج على visa.go.kr", "detail": "أكمل نموذج الطلب على Korea Visa Portal — الموقع الرسمي الوحيد — ثم اطبعه ووقّعه.", "link": "https://www.visa.go.kr", "linkLabel": "بوابة تأشيرات كوريا" },
-        { "n": 3, "title": "جهّز مستنداتك", "detail": "اجمع القائمة أدناه: جواز السفر وصورة وكشف حساب بنكي لمدة 3 أشهر وإثبات العمل." },
-        { "n": 4, "title": "قدّم في السفارة / KVAC في Jakarta", "detail": "قدّم طلبك إلى سفارة كوريا أو Korea Visa Application Center في Jakarta." },
-        { "n": 5, "title": "ادفع الرسوم", "detail": "ادفع رسوم التأشيرة ورسوم الخدمة. الرسوم غير قابلة للاسترداد حتى عند الرفض — تأكد من المبلغ في المركز." },
-        { "n": 6, "title": "تابع وانتظر", "detail": "تابع الحالة عبر قناة المركز. لا تشترِ تذاكر طيران غير قابلة للاسترداد قبل الموافقة." },
-        { "n": 7, "title": "استلم جواز سفرك", "detail": "استلم جواز سفرك وتحقق من تفاصيل التأشيرة فوراً." }
-      ]
-    },
-    "documents": {
-      "title": "قائمة المستندات — مع مكان وكيفية الحصول على كل منها",
-      "intro": "لكل عنصر، إليك مكان الحصول عليه وما يجب أن يُظهره.",
-      "cols": ["المستند", "أين تحصل عليه", "ما يجب أن يُظهره"],
-      "rows": [
-        { "doc": "جواز السفر", "req": "required", "where": "بحوزتك بالفعل", "how": "صالح لمدة 6 أشهر على الأقل مع صفحات فارغة." },
-        { "doc": "نموذج طلب التأشيرة", "req": "required", "where": "visa.go.kr", "how": "أكمله على Korea Visa Portal، اطبعه، ووقّعه.", "link": "https://www.visa.go.kr" },
-        { "doc": "صورة", "req": "required", "where": "أي استوديو تصوير", "how": "صورة حديثة بنمط جواز السفر بخلفية بيضاء." },
-        { "doc": "كشف حساب بنكي — آخر 3 أشهر", "req": "required", "where": "بنكك", "how": "كشف يُظهر الرصيد وسجل المعاملات؛ الرصيد المستقر هو الأفضل." },
-        { "doc": "خطاب عمل", "req": "required", "where": "صاحب العمل / الموارد البشرية", "how": "على ترويسة الشركة: المنصب والراتب والإجازة المعتمدة." },
-        { "doc": "قسائم الراتب", "req": "required", "where": "صاحب العمل", "how": "قسائم راتب حديثة تدعم دخلك." },
-        { "doc": "حجز طيران ذهاباً وإياباً وفندق", "req": "required", "where": "شركة الطيران / مواقع الحجز", "how": "الحجوزات/خط سير الرحلة كافية — لا تدفع ثمن التذكرة قبل الموافقة." },
-        { "doc": "خطاب راعٍ (إذا موّلك شخص آخر)", "req": "conditional", "where": "الراعي", "how": "خطاب رعاية + كشف حساب الراعي البنكي + إثبات صلة القرابة." }
-      ],
-      "legend": { "required": "إلزامي", "conditional": "إذا كان ينطبق عليك", "recommended": "موصى به" }
-    },
-    "funds": {
-      "title": "«كم من المال ينبغي أن أُظهر؟»",
-      "body": "لا يوجد حد أدنى منشور واحد. أظهر رصيداً مستقراً على مدى 3 أشهر وروابط واضحة مع إندونيسيا (عمل، عائلة). إذا موّل شخص آخر رحلتك، فوثّق الرعاية بالكامل.",
-      "tips": [
-        "الرصيد المستقر على مدى 3 أشهر أفضل من إيداع مفاجئ قبل التقديم.",
-        "اقرن كشف الحساب البنكي بخطاب العمل وقسائم الراتب.",
-        "هل لديك راعٍ؟ أضف كشف حساب الراعي البنكي وخطابه وإثبات صلة القرابة."
-      ]
-    },
-    "pitfalls": {
-      "title": "أخطاء تسبب الرفض والتأخير",
-      "items": [
-        { "icon": "🧍", "t": "افتراض أن السفر الفردي = بدون تأشيرة", "d": "البرنامج التجريبي للإعفاء من التأشيرة للمجموعات فقط (3 أشخاص أو أكثر). لا يزال المسافرون الأفراد بحاجة إلى تأشيرة C-3." },
-        { "icon": "💸", "t": "إيداع مفاجئ", "d": "مبلغ كبير دفعة واحدة قبل التقديم مباشرة. أظهر أموالاً مستقرة وقابلة للتفسير." },
-        { "icon": "🧾", "t": "إثبات عمل ضعيف", "d": "غياب خطاب العمل أو قسائم الراتب. هذه تشكّل عماد ملف المتقدم الفرد." },
-        { "icon": "🎫", "t": "دفع ثمن التذاكر مبكراً", "d": "شراء تذاكر غير قابلة للاسترداد قبل الموافقة — الحجز يكفي." },
-        { "icon": "🏝️", "t": "الخلط بين Jeju والبر الرئيسي", "d": "الإعفاء من التأشيرة في Jeju لا يشمل السفر إلى كوريا القارية." }
-      ]
-    },
-    "faq": {
-      "title": "الأسئلة الشائعة عن تأشيرة إندونيسيا → كوريا",
-      "items": [
-        { "q": "هل يحتاج الإندونيسيون إلى تأشيرة لكوريا؟", "a": "يحتاج المسافرون الأفراد إلى تأشيرة سياحية C-3 لكوريا القارية. اعتباراً من 28 مايو 2026، يمكن للمجموعات السياحية المكوّنة من 3 أشخاص أو أكثر الدخول بدون تأشيرة ضمن برنامج تجريبي؛ ولجزيرة Jeju إعفاء منفصل من التأشيرة." },
-        { "q": "أسافر بمفردي — هل يمكنني الاستغناء عن التأشيرة؟", "a": "لا. ينطبق البرنامج التجريبي للإعفاء من التأشيرة على المجموعات المكوّنة من 3 أشخاص على الأقل فقط. على المسافرين المستقلين التقدم بطلب تأشيرة C-3." },
-        { "q": "ما الإثبات المالي الذي أحتاجه؟", "a": "كشف حساب بنكي لمدة 3 أشهر إضافة إلى خطاب عمل وقسائم راتب. إذا كان لديك راعٍ، فأرفق مستنداته." },
-        { "q": "أين أتقدم بالطلب؟", "a": "في سفارة كوريا أو Korea Visa Application Center في Jakarta." },
-        { "q": "كم تبلغ الرسوم؟", "a": "تتفاوت الرسوم وهي غير قابلة للاسترداد حتى عند الرفض. تأكد من المبلغ الحالي في المركز." },
-        { "q": "هل ما زلت بحاجة إلى e-Arrival Card؟", "a": "قد تظل قواعد مستندات الدخول مثل e-Arrival Card سارية عند الوصول. تحقق من القواعد الحالية قرب موعد سفرك." }
+        {
+          "q": "¿Los indonesios necesitan visado para Corea?",
+          "a": "Los viajeros individuales necesitan un visado de turista C-3 para la Corea continental. Desde el 28 de mayo de 2026, los grupos turísticos de 3 o más pueden entrar sin visado mediante un piloto; la isla de Jeju tiene una entrada sin visado aparte."
+        },
+        {
+          "q": "Viajo solo — ¿puedo saltarme el visado?",
+          "a": "No. El piloto sin visado se aplica solo a grupos de al menos 3 personas. Los viajeros independientes deben solicitar el visado C-3."
+        },
+        {
+          "q": "¿Qué prueba financiera necesito?",
+          "a": "Un extracto bancario de 3 meses más una carta de empleo y nóminas. Si le patrocinan, incluya los documentos del patrocinador."
+        },
+        {
+          "q": "¿Dónde solicito?",
+          "a": "En la Embajada de Corea o en el Korea Visa Application Center de Jakarta."
+        },
+        {
+          "q": "¿Cuánto cuesta la tasa?",
+          "a": "Las tasas varían y no se reembolsan aunque se deniegue. Confirme el importe actual en el centro."
+        },
+        {
+          "q": "¿Sigo necesitando la e-Arrival Card?",
+          "a": "Las normas de documentos de entrada como la e-Arrival Card pueden seguir aplicándose a la llegada. Consulte las normas vigentes cerca de la fecha de su viaje."
+        }
       ]
     }
   },
@@ -504,7 +898,20 @@
     "h1": "วีซ่าเกาหลีสำหรับพลเมืองอินโดนีเซีย",
     "metaTitle": "วีซ่าเกาหลีจากอินโดนีเซีย: คู่มือทีละขั้นตอน (2026) — Korea Trip Hub",
     "metaDesc": "วิธียื่นขอวีซ่าท่องเที่ยวเกาหลีจากอินโดนีเซีย: ยื่นที่ไหน เอกสาร (และรับแต่ละอย่างได้ที่ไหน) ค่าธรรมเนียม และลิงก์ทางการ นักท่องเที่ยวรายบุคคลต้องใช้วีซ่าท่องเที่ยว C-3 ส่วนคณะทัวร์อาจได้รับการยกเว้นวีซ่า",
-    "ui": { "visa": "ประเภทวีซ่า", "stay": "ระยะเวลาพำนัก", "entry": "จำนวนครั้งเข้าประเทศ", "where": "รับได้ที่ไหน", "official": "แหล่งข้อมูลทางการ", "required": "จำเป็น", "conditional": "หากเข้าข่าย", "recommended": "แนะนำ", "confirm": "ค่าธรรมเนียม/กฎอาจเปลี่ยนแปลง — โปรดยืนยันจากแหล่งข้อมูลทางการ", "source": "แหล่งที่มา", "updated": "อัปเดตเมื่อ", "tldr": "สรุป" },
+    "ui": {
+      "visa": "ประเภทวีซ่า",
+      "stay": "ระยะเวลาพำนัก",
+      "entry": "จำนวนครั้งเข้าประเทศ",
+      "where": "รับได้ที่ไหน",
+      "official": "แหล่งข้อมูลทางการ",
+      "required": "จำเป็น",
+      "conditional": "หากเข้าข่าย",
+      "recommended": "แนะนำ",
+      "confirm": "ค่าธรรมเนียม/กฎอาจเปลี่ยนแปลง — โปรดยืนยันจากแหล่งข้อมูลทางการ",
+      "source": "แหล่งที่มา",
+      "updated": "อัปเดตเมื่อ",
+      "tldr": "สรุป"
+    },
     "verdict": {
       "headline": "นักท่องเที่ยวรายบุคคลชาวอินโดนีเซียต้องใช้วีซ่า — แต่คณะทัวร์อาจไม่ต้อง",
       "sub": "สำหรับการเดินทางด้วยตนเองไปยังเกาหลีแผ่นดินใหญ่ คุณต้องยื่นขอวีซ่าท่องเที่ยว C-3 ตั้งแต่วันที่ 28 พฤษภาคม 2026 คณะทัวร์ตั้งแต่ 3 คนขึ้นไปสามารถเข้าประเทศได้โดยไม่ต้องมีวีซ่าสำหรับการพำนักระยะสั้นภายใต้โครงการนำร่อง ส่วนบุคคลทั่วไปยังไม่มีสิทธิ์",
@@ -513,8 +920,18 @@
       "entry": "เข้าประเทศครั้งเดียว (รายบุคคล) / ยกเว้นวีซ่าสำหรับคณะที่มีคุณสมบัติ"
     },
     "highlights": [
-      { "icon": "👥", "tone": "green", "title": "ยกเว้นวีซ่าสำหรับคณะทัวร์ตั้งแต่ 28 พฤษภาคม 2026", "body": "คณะทัวร์อินโดนีเซียที่มีอย่างน้อย 3 คนสามารถเข้าประเทศได้โดยไม่ต้องมีวีซ่าสำหรับการพำนักระยะสั้นภายใต้โครงการนำร่อง ใช้ได้เฉพาะแบบคณะเท่านั้น — นักท่องเที่ยวรายบุคคลยังคงต้องใช้วีซ่า" },
-      { "icon": "🏝️", "tone": "amber", "title": "เกาะ Jeju — การยกเว้นวีซ่าแยกต่างหาก", "body": "พลเมืองอินโดนีเซียสามารถเข้า Jeju ได้โดยไม่ต้องมีวีซ่า (เฉพาะ Jeju เที่ยวบินตรง ไม่ต่อเครื่องเข้าแผ่นดินใหญ่) ซึ่งแยกจากวีซ่าท่องเที่ยวแผ่นดินใหญ่" }
+      {
+        "icon": "👥",
+        "tone": "green",
+        "title": "ยกเว้นวีซ่าสำหรับคณะทัวร์ตั้งแต่ 28 พฤษภาคม 2026",
+        "body": "คณะทัวร์อินโดนีเซียที่มีอย่างน้อย 3 คนสามารถเข้าประเทศได้โดยไม่ต้องมีวีซ่าสำหรับการพำนักระยะสั้นภายใต้โครงการนำร่อง ใช้ได้เฉพาะแบบคณะเท่านั้น — นักท่องเที่ยวรายบุคคลยังคงต้องใช้วีซ่า"
+      },
+      {
+        "icon": "🏝️",
+        "tone": "amber",
+        "title": "เกาะ Jeju — การยกเว้นวีซ่าแยกต่างหาก",
+        "body": "พลเมืองอินโดนีเซียสามารถเข้า Jeju ได้โดยไม่ต้องมีวีซ่า (เฉพาะ Jeju เที่ยวบินตรง ไม่ต่อเครื่องเข้าแผ่นดินใหญ่) ซึ่งแยกจากวีซ่าท่องเที่ยวแผ่นดินใหญ่"
+      }
     ],
     "tldr": [
       "นักท่องเที่ยวที่เดินทางด้วยตนเองต้องใช้วีซ่าท่องเที่ยว C-3 สำหรับเกาหลีแผ่นดินใหญ่",
@@ -525,30 +942,109 @@
     "steps": {
       "title": "ขั้นตอนการยื่นขอทีละขั้น (C-3 รายบุคคล)",
       "items": [
-        { "n": 1, "title": "ยืนยันประเภทวีซ่า", "detail": "นักท่องเที่ยวที่เดินทางด้วยตนเองยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3 (คณะตั้งแต่ 3 คนขึ้นไปควรสอบถามบริษัททัวร์เกี่ยวกับโครงการนำร่องยกเว้นวีซ่า)" },
-        { "n": 2, "title": "กรอกแบบฟอร์มที่ visa.go.kr", "detail": "กรอกแบบฟอร์มคำร้องบน Korea Visa Portal — เว็บไซต์ทางการเพียงแห่งเดียว — แล้วพิมพ์และลงลายมือชื่อ", "link": "https://www.visa.go.kr", "linkLabel": "พอร์ทัลวีซ่าเกาหลี" },
-        { "n": 3, "title": "เตรียมเอกสารของคุณ", "detail": "รวบรวมรายการด้านล่าง: หนังสือเดินทาง รูปถ่าย รายการเดินบัญชีธนาคาร 3 เดือน และหลักฐานการทำงาน" },
-        { "n": 4, "title": "ยื่นที่สถานทูต / KVAC Jakarta", "detail": "ยื่นคำร้องของคุณที่สถานทูตเกาหลีหรือ Korea Visa Application Center ใน Jakarta" },
-        { "n": 5, "title": "ชำระค่าธรรมเนียม", "detail": "ชำระค่าธรรมเนียมวีซ่าและค่าบริการ ค่าธรรมเนียมไม่สามารถขอคืนได้แม้ถูกปฏิเสธ — ยืนยันจำนวนเงินที่ศูนย์" },
-        { "n": 6, "title": "ติดตามและรอ", "detail": "ติดตามสถานะผ่านช่องทางของศูนย์ อย่าซื้อตั๋วเครื่องบินที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ" },
-        { "n": 7, "title": "รับหนังสือเดินทางของคุณ", "detail": "รับหนังสือเดินทางและตรวจสอบรายละเอียดวีซ่าทันที" }
+        {
+          "n": 1,
+          "title": "ยืนยันประเภทวีซ่า",
+          "detail": "นักท่องเที่ยวที่เดินทางด้วยตนเองยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3 (คณะตั้งแต่ 3 คนขึ้นไปควรสอบถามบริษัททัวร์เกี่ยวกับโครงการนำร่องยกเว้นวีซ่า)"
+        },
+        {
+          "n": 2,
+          "title": "กรอกแบบฟอร์มที่ visa.go.kr",
+          "detail": "กรอกแบบฟอร์มคำร้องบน Korea Visa Portal — เว็บไซต์ทางการเพียงแห่งเดียว — แล้วพิมพ์และลงลายมือชื่อ",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "พอร์ทัลวีซ่าเกาหลี"
+        },
+        {
+          "n": 3,
+          "title": "เตรียมเอกสารของคุณ",
+          "detail": "รวบรวมรายการด้านล่าง: หนังสือเดินทาง รูปถ่าย รายการเดินบัญชีธนาคาร 3 เดือน และหลักฐานการทำงาน"
+        },
+        {
+          "n": 4,
+          "title": "ยื่นที่สถานทูต / KVAC Jakarta",
+          "detail": "ยื่นคำร้องของคุณที่สถานทูตเกาหลีหรือ Korea Visa Application Center ใน Jakarta"
+        },
+        {
+          "n": 5,
+          "title": "ชำระค่าธรรมเนียม",
+          "detail": "ชำระค่าธรรมเนียมวีซ่าและค่าบริการ ค่าธรรมเนียมไม่สามารถขอคืนได้แม้ถูกปฏิเสธ — ยืนยันจำนวนเงินที่ศูนย์"
+        },
+        {
+          "n": 6,
+          "title": "ติดตามและรอ",
+          "detail": "ติดตามสถานะผ่านช่องทางของศูนย์ อย่าซื้อตั๋วเครื่องบินที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ"
+        },
+        {
+          "n": 7,
+          "title": "รับหนังสือเดินทางของคุณ",
+          "detail": "รับหนังสือเดินทางและตรวจสอบรายละเอียดวีซ่าทันที"
+        }
       ]
     },
     "documents": {
       "title": "รายการตรวจสอบเอกสาร — พร้อมสถานที่และวิธีรับแต่ละอย่าง",
       "intro": "สำหรับแต่ละรายการ นี่คือสถานที่รับและสิ่งที่ต้องแสดง",
-      "cols": ["เอกสาร", "รับได้ที่ไหน", "ต้องแสดงอะไร"],
-      "rows": [
-        { "doc": "หนังสือเดินทาง", "req": "required", "where": "คุณมีอยู่แล้ว", "how": "มีอายุเหลืออย่างน้อย 6 เดือนและมีหน้าว่าง" },
-        { "doc": "แบบฟอร์มคำร้องขอวีซ่า", "req": "required", "where": "visa.go.kr", "how": "กรอกบน Korea Visa Portal พิมพ์ ลงลายมือชื่อ", "link": "https://www.visa.go.kr" },
-        { "doc": "รูปถ่าย", "req": "required", "where": "ร้านถ่ายรูปใดก็ได้", "how": "รูปถ่ายแบบหนังสือเดินทางล่าสุด พื้นหลังสีขาว" },
-        { "doc": "รายการเดินบัญชีธนาคาร — 3 เดือนล่าสุด", "req": "required", "where": "ธนาคารของคุณ", "how": "รายการเดินบัญชีที่แสดงยอดคงเหลือและประวัติการทำธุรกรรม ยอดคงเหลือที่มั่นคงดีที่สุด" },
-        { "doc": "หนังสือรับรองการทำงาน", "req": "required", "where": "นายจ้าง / ฝ่ายบุคคลของคุณ", "how": "บนหัวจดหมายบริษัท: ตำแหน่ง เงินเดือน และการอนุมัติวันลา" },
-        { "doc": "สลิปเงินเดือน", "req": "required", "where": "นายจ้างของคุณ", "how": "สลิปเงินเดือนล่าสุดที่สนับสนุนรายได้ของคุณ" },
-        { "doc": "การจองตั๋วเครื่องบินไป-กลับและโรงแรม", "req": "required", "where": "สายการบิน / เว็บไซต์จอง", "how": "การจอง/กำหนดการเดินทางก็เพียงพอ — อย่าชำระค่าตั๋วก่อนได้รับอนุมัติ" },
-        { "doc": "หนังสือรับรองผู้สนับสนุน (หากมีผู้อื่นออกค่าใช้จ่าย)", "req": "conditional", "where": "ผู้สนับสนุนของคุณ", "how": "หนังสือรับรองการสนับสนุน + รายการเดินบัญชีธนาคารของผู้สนับสนุน + หลักฐานความสัมพันธ์" }
+      "cols": [
+        "เอกสาร",
+        "รับได้ที่ไหน",
+        "ต้องแสดงอะไร"
       ],
-      "legend": { "required": "จำเป็น", "conditional": "หากเข้าข่ายกับคุณ", "recommended": "แนะนำ" }
+      "rows": [
+        {
+          "doc": "หนังสือเดินทาง",
+          "req": "required",
+          "where": "คุณมีอยู่แล้ว",
+          "how": "มีอายุเหลืออย่างน้อย 6 เดือนและมีหน้าว่าง"
+        },
+        {
+          "doc": "แบบฟอร์มคำร้องขอวีซ่า",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "กรอกบน Korea Visa Portal พิมพ์ ลงลายมือชื่อ",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "รูปถ่าย",
+          "req": "required",
+          "where": "ร้านถ่ายรูปใดก็ได้",
+          "how": "รูปถ่ายแบบหนังสือเดินทางล่าสุด พื้นหลังสีขาว"
+        },
+        {
+          "doc": "รายการเดินบัญชีธนาคาร — 3 เดือนล่าสุด",
+          "req": "required",
+          "where": "ธนาคารของคุณ",
+          "how": "รายการเดินบัญชีที่แสดงยอดคงเหลือและประวัติการทำธุรกรรม ยอดคงเหลือที่มั่นคงดีที่สุด"
+        },
+        {
+          "doc": "หนังสือรับรองการทำงาน",
+          "req": "required",
+          "where": "นายจ้าง / ฝ่ายบุคคลของคุณ",
+          "how": "บนหัวจดหมายบริษัท: ตำแหน่ง เงินเดือน และการอนุมัติวันลา"
+        },
+        {
+          "doc": "สลิปเงินเดือน",
+          "req": "required",
+          "where": "นายจ้างของคุณ",
+          "how": "สลิปเงินเดือนล่าสุดที่สนับสนุนรายได้ของคุณ"
+        },
+        {
+          "doc": "การจองตั๋วเครื่องบินไป-กลับและโรงแรม",
+          "req": "required",
+          "where": "สายการบิน / เว็บไซต์จอง",
+          "how": "การจอง/กำหนดการเดินทางก็เพียงพอ — อย่าชำระค่าตั๋วก่อนได้รับอนุมัติ"
+        },
+        {
+          "doc": "หนังสือรับรองผู้สนับสนุน (หากมีผู้อื่นออกค่าใช้จ่าย)",
+          "req": "conditional",
+          "where": "ผู้สนับสนุนของคุณ",
+          "how": "หนังสือรับรองการสนับสนุน + รายการเดินบัญชีธนาคารของผู้สนับสนุน + หลักฐานความสัมพันธ์"
+        }
+      ],
+      "legend": {
+        "required": "จำเป็น",
+        "conditional": "หากเข้าข่ายกับคุณ",
+        "recommended": "แนะนำ"
+      }
     },
     "funds": {
       "title": "\"ควรแสดงเงินเท่าไหร่?\"",
@@ -562,437 +1058,60 @@
     "pitfalls": {
       "title": "ข้อผิดพลาดที่ทำให้ถูกปฏิเสธและล่าช้า",
       "items": [
-        { "icon": "🧍", "t": "คิดว่าเดินทางคนเดียว = ไม่ต้องมีวีซ่า", "d": "โครงการนำร่องยกเว้นวีซ่าใช้เฉพาะแบบคณะ (3 คนขึ้นไป) นักท่องเที่ยวรายบุคคลยังคงต้องใช้วีซ่า C-3" },
-        { "icon": "💸", "t": "ฝากเงินกะทันหัน", "d": "เงินก้อนใหญ่ก่อนยื่นคำร้อง แสดงเงินทุนที่มั่นคงและอธิบายได้" },
-        { "icon": "🧾", "t": "หลักฐานการทำงานอ่อน", "d": "ขาดหนังสือรับรองการทำงานหรือสลิปเงินเดือน เอกสารเหล่านี้เป็นหลักของแฟ้มผู้ยื่นรายบุคคล" },
-        { "icon": "🎫", "t": "ชำระค่าตั๋วเครื่องบินเร็วเกินไป", "d": "ซื้อตั๋วที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ — การจองก็เพียงพอ" },
-        { "icon": "🏝️", "t": "สับสน Jeju กับแผ่นดินใหญ่", "d": "การยกเว้นวีซ่าของ Jeju ไม่ครอบคลุมการเดินทางในเกาหลีแผ่นดินใหญ่" }
+        {
+          "icon": "🧍",
+          "t": "คิดว่าเดินทางคนเดียว = ไม่ต้องมีวีซ่า",
+          "d": "โครงการนำร่องยกเว้นวีซ่าใช้เฉพาะแบบคณะ (3 คนขึ้นไป) นักท่องเที่ยวรายบุคคลยังคงต้องใช้วีซ่า C-3"
+        },
+        {
+          "icon": "💸",
+          "t": "ฝากเงินกะทันหัน",
+          "d": "เงินก้อนใหญ่ก่อนยื่นคำร้อง แสดงเงินทุนที่มั่นคงและอธิบายได้"
+        },
+        {
+          "icon": "🧾",
+          "t": "หลักฐานการทำงานอ่อน",
+          "d": "ขาดหนังสือรับรองการทำงานหรือสลิปเงินเดือน เอกสารเหล่านี้เป็นหลักของแฟ้มผู้ยื่นรายบุคคล"
+        },
+        {
+          "icon": "🎫",
+          "t": "ชำระค่าตั๋วเครื่องบินเร็วเกินไป",
+          "d": "ซื้อตั๋วที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ — การจองก็เพียงพอ"
+        },
+        {
+          "icon": "🏝️",
+          "t": "สับสน Jeju กับแผ่นดินใหญ่",
+          "d": "การยกเว้นวีซ่าของ Jeju ไม่ครอบคลุมการเดินทางในเกาหลีแผ่นดินใหญ่"
+        }
       ]
     },
     "faq": {
       "title": "คำถามที่พบบ่อยเกี่ยวกับวีซ่าอินโดนีเซีย → เกาหลี",
       "items": [
-        { "q": "ชาวอินโดนีเซียต้องใช้วีซ่าไปเกาหลีหรือไม่?", "a": "นักท่องเที่ยวรายบุคคลต้องใช้วีซ่าท่องเที่ยว C-3 สำหรับเกาหลีแผ่นดินใหญ่ ตั้งแต่วันที่ 28 พฤษภาคม 2026 คณะทัวร์ตั้งแต่ 3 คนขึ้นไปสามารถเข้าประเทศได้โดยไม่ต้องมีวีซ่าภายใต้โครงการนำร่อง ส่วนเกาะ Jeju มีการยกเว้นวีซ่าแยกต่างหาก" },
-        { "q": "ฉันเดินทางคนเดียว — ข้ามการขอวีซ่าได้ไหม?", "a": "ไม่ได้ โครงการนำร่องยกเว้นวีซ่าใช้เฉพาะคณะที่มีอย่างน้อย 3 คน นักท่องเที่ยวที่เดินทางด้วยตนเองต้องยื่นขอวีซ่า C-3" },
-        { "q": "ต้องใช้หลักฐานทางการเงินอะไรบ้าง?", "a": "รายการเดินบัญชีธนาคาร 3 เดือน พร้อมหนังสือรับรองการทำงานและสลิปเงินเดือน หากมีผู้สนับสนุน ให้แนบเอกสารของผู้สนับสนุนด้วย" },
-        { "q": "ยื่นขอที่ไหน?", "a": "ที่สถานทูตเกาหลีหรือ Korea Visa Application Center ใน Jakarta" },
-        { "q": "ค่าธรรมเนียมเท่าไหร่?", "a": "ค่าธรรมเนียมแตกต่างกันไปและไม่สามารถขอคืนได้แม้ถูกปฏิเสธ ยืนยันจำนวนเงินปัจจุบันที่ศูนย์" },
-        { "q": "ยังต้องใช้ e-Arrival Card อยู่หรือไม่?", "a": "กฎเกี่ยวกับเอกสารเข้าประเทศเช่น e-Arrival Card อาจยังมีผลบังคับใช้เมื่อเดินทางถึง ตรวจสอบกฎปัจจุบันใกล้วันเดินทางของคุณ" }
-      ]
-    }
-  },
-  "pt": {
-    "kicker": "Guia de visto · Indonésia → Coreia",
-    "readingTime": "8 min de leitura",
-    "h1": "Visto da Coreia para cidadãos indonésios",
-    "metaTitle": "Visto da Coreia a partir da Indonésia: guia passo a passo (2026) — Korea Trip Hub",
-    "metaDesc": "Como solicitar o visto de turista da Coreia a partir da Indonésia: onde apresentar, documentos (e onde obter cada um), taxas e links oficiais. Viajantes individuais precisam do visto de turista C-3; grupos podem estar isentos.",
-    "ui": { "visa": "Tipo de visto", "stay": "Duração da estadia", "entry": "Número de entradas", "where": "Onde obter", "official": "Fonte oficial", "required": "Obrigatório", "conditional": "Se aplicável", "recommended": "Recomendado", "confirm": "As taxas e regras podem mudar — confirme nas fontes oficiais", "source": "Fonte", "updated": "Atualizado", "tldr": "RESUMO" },
-    "verdict": {
-      "headline": "Os viajantes individuais indonésios precisam de visto, mas os grupos talvez não.",
-      "sub": "Para viagens por conta própria à Coreia continental, solicita-se o visto de turista C-3. Desde 28 de maio de 2026, grupos turísticos de 3 ou mais pessoas podem entrar sem visto para estadias curtas por meio de um programa piloto; os indivíduos ainda não são elegíveis.",
-      "type": "Turista C-3 (individual)",
-      "stay": "Até 90 dias",
-      "entry": "Entrada única (individual) / isenção de visto para grupos elegíveis"
-    },
-    "highlights": [
-      { "icon": "👥", "tone": "green", "title": "Isenção de visto para grupos a partir de 28 de maio de 2026", "body": "Grupos turísticos indonésios de pelo menos 3 pessoas podem entrar sem visto para estadias curtas por meio de um programa piloto. Aplica-se apenas a grupos — viajantes individuais ainda precisam de visto." },
-      { "icon": "🏝️", "tone": "amber", "title": "Ilha de Jeju — isenção de visto à parte", "body": "Os cidadãos indonésios podem entrar em Jeju sem visto (apenas Jeju, voos diretos, sem trânsito para o continente). Isso é separado do visto de turista para o continente." }
-    ],
-    "tldr": [
-      "Viajantes independentes precisam de um visto de turista C-3 para a Coreia continental.",
-      "Preencha o formulário em visa.go.kr e depois apresente na Embaixada da Coreia / KVAC Jakarta.",
-      "Leve passaporte, foto, extrato bancário de 3 meses, carta de emprego e holerites.",
-      "Viaja em grupo de 3 ou mais? Você pode ter direito à entrada sem visto (piloto a partir de maio de 2026)."
-    ],
-    "steps": {
-      "title": "O processo de solicitação, passo a passo (C-3 individual)",
-      "items": [
-        { "n": 1, "title": "Confirme o tipo de visto", "detail": "Turistas independentes solicitam o visto de turista de curta duração C-3. (Grupos de 3 ou mais devem perguntar à sua agência sobre o programa piloto sem visto.)" },
-        { "n": 2, "title": "Preencha o formulário em visa.go.kr", "detail": "Preencha o formulário de solicitação no Korea Visa Portal — o único site oficial — depois imprima e assine.", "link": "https://www.visa.go.kr", "linkLabel": "Portal de Vistos da Coreia" },
-        { "n": 3, "title": "Prepare seus documentos", "detail": "Reúna a lista abaixo: passaporte, foto, extrato bancário de 3 meses e comprovante de emprego." },
-        { "n": 4, "title": "Apresente na Embaixada / KVAC Jakarta", "detail": "Entregue sua solicitação na Embaixada da Coreia ou no Korea Visa Application Center em Jakarta." },
-        { "n": 5, "title": "Pague a taxa", "detail": "Pague a taxa do visto e qualquer taxa de serviço. As taxas não são reembolsáveis mesmo em caso de recusa — confirme o valor no centro." },
-        { "n": 6, "title": "Acompanhe e aguarde", "detail": "Acompanhe o status pelo canal do centro. Não compre voos não reembolsáveis antes da aprovação." },
-        { "n": 7, "title": "Retire seu passaporte", "detail": "Retire seu passaporte e verifique os dados do visto imediatamente." }
-      ]
-    },
-    "documents": {
-      "title": "Lista de documentos — com onde e como obter cada um",
-      "intro": "Para cada documento, aqui está onde obtê-lo e o que ele deve mostrar.",
-      "cols": ["Documento", "Onde obter", "O que deve mostrar"],
-      "rows": [
-        { "doc": "Passaporte", "req": "required", "where": "Você já tem", "how": "Válido por 6 meses ou mais, com páginas em branco." },
-        { "doc": "Formulário de solicitação de visto", "req": "required", "where": "visa.go.kr", "how": "Preencha no Korea Visa Portal, imprima, assine.", "link": "https://www.visa.go.kr" },
-        { "doc": "Foto", "req": "required", "where": "Qualquer estúdio fotográfico", "how": "Foto recente estilo passaporte, fundo branco." },
-        { "doc": "Extrato bancário — últimos 3 meses", "req": "required", "where": "Seu banco", "how": "Extrato mostrando saldo e histórico de transações; um saldo estável é o ideal." },
-        { "doc": "Carta de emprego", "req": "required", "where": "Seu empregador / RH", "how": "Em papel timbrado da empresa: cargo, salário e licença aprovada." },
-        { "doc": "Holerites", "req": "required", "where": "Seu empregador", "how": "Holerites recentes que comprovem sua renda." },
-        { "doc": "Reserva de voo de ida e volta e hotel", "req": "required", "where": "Companhia aérea / sites de reserva", "how": "As reservas/itinerário são suficientes — não pague a passagem antes da aprovação." },
-        { "doc": "Carta de patrocínio (se financiado por outra pessoa)", "req": "conditional", "where": "Seu patrocinador", "how": "Carta de patrocínio + extrato bancário do patrocinador + comprovante de parentesco." }
-      ],
-      "legend": { "required": "Obrigatório", "conditional": "Se aplicável a você", "recommended": "Recomendado" }
-    },
-    "funds": {
-      "title": "\"Quanto dinheiro devo mostrar?\"",
-      "body": "Não há um mínimo único publicado. Mostre um saldo estável por 3 meses e vínculos claros com a Indonésia (emprego, família). Se outra pessoa financiar sua viagem, documente o patrocínio por completo.",
-      "tips": [
-        "Um saldo estável por 3 meses é melhor do que um depósito repentino antes de solicitar.",
-        "Combine o extrato bancário com sua carta de emprego e seus holerites.",
-        "Patrocinado? Adicione o extrato bancário do patrocinador, a carta e o comprovante de parentesco."
-      ]
-    },
-    "pitfalls": {
-      "title": "Erros que causam recusas e atrasos",
-      "items": [
-        { "icon": "🧍", "t": "Supor que sozinho = sem visto", "d": "O piloto sem visto é apenas para grupos (3 ou mais). Viajantes individuais ainda precisam do visto C-3." },
-        { "icon": "💸", "t": "Depósito repentino", "d": "Uma grande quantia logo antes de solicitar. Mostre fundos estáveis e explicáveis." },
-        { "icon": "🧾", "t": "Comprovante de emprego fraco", "d": "Falta da carta de emprego ou dos holerites. Eles sustentam o processo de um solicitante individual." },
-        { "icon": "🎫", "t": "Pagar os voos cedo demais", "d": "Comprar passagens não reembolsáveis antes da aprovação — uma reserva é suficiente." },
-        { "icon": "🏝️", "t": "Confundir Jeju com o continente", "d": "A isenção de visto de Jeju não cobre viagens pela Coreia continental." }
-      ]
-    },
-    "faq": {
-      "title": "Perguntas frequentes sobre o visto Indonésia → Coreia",
-      "items": [
-        { "q": "Os indonésios precisam de visto para a Coreia?", "a": "Viajantes individuais precisam de um visto de turista C-3 para a Coreia continental. Desde 28 de maio de 2026, grupos turísticos de 3 ou mais podem entrar sem visto por meio de um piloto; a ilha de Jeju tem uma entrada sem visto à parte." },
-        { "q": "Viajo sozinho — posso dispensar o visto?", "a": "Não. O piloto sem visto aplica-se apenas a grupos de pelo menos 3 pessoas. Viajantes independentes devem solicitar o visto C-3." },
-        { "q": "Que comprovante financeiro eu preciso?", "a": "Um extrato bancário de 3 meses mais uma carta de emprego e holerites. Se patrocinado, inclua os documentos do patrocinador." },
-        { "q": "Onde eu solicito?", "a": "Na Embaixada da Coreia ou no Korea Visa Application Center em Jakarta." },
-        { "q": "Quanto custa a taxa?", "a": "As taxas variam e não são reembolsáveis mesmo em caso de recusa. Confirme o valor atual no centro." },
-        { "q": "Ainda preciso do e-Arrival Card?", "a": "Regras de documentos de entrada como o e-Arrival Card ainda podem se aplicar na chegada. Verifique as regras vigentes perto da data da sua viagem." }
-      ]
-    }
-  },
-  "fr": {
-    "kicker": "Guide des visas · Indonésie → Corée",
-    "readingTime": "8 min de lecture",
-    "h1": "Visa pour la Corée pour les citoyens indonésiens",
-    "metaTitle": "Visa pour la Corée depuis l'Indonésie : guide étape par étape (2026) — Korea Trip Hub",
-    "metaDesc": "Comment demander le visa touristique pour la Corée depuis l'Indonésie : où déposer, documents (et où obtenir chacun), frais et liens officiels. Les voyageurs individuels ont besoin du visa touristique C-3 ; les groupes peuvent en être exemptés.",
-    "ui": { "visa": "Type de visa", "stay": "Durée du séjour", "entry": "Nombre d'entrées", "where": "Où l'obtenir", "official": "Source officielle", "required": "Obligatoire", "conditional": "Le cas échéant", "recommended": "Recommandé", "confirm": "Les frais et règles peuvent changer — confirmez auprès des sources officielles", "source": "Source", "updated": "Mis à jour", "tldr": "EN BREF" },
-    "verdict": {
-      "headline": "Les voyageurs individuels indonésiens ont besoin d'un visa, mais les groupes peut-être pas.",
-      "sub": "Pour un voyage indépendant vers la Corée continentale, vous demandez le visa touristique C-3. Depuis le 28 mai 2026, les groupes touristiques de 3 personnes ou plus peuvent entrer sans visa pour de courts séjours dans le cadre d'un programme pilote ; les particuliers ne sont pas encore éligibles.",
-      "type": "Touriste C-3 (individuel)",
-      "stay": "Jusqu'à 90 jours",
-      "entry": "Entrée unique (individuel) / exemption de visa pour les groupes éligibles"
-    },
-    "highlights": [
-      { "icon": "👥", "tone": "green", "title": "Exemption de visa pour les groupes à partir du 28 mai 2026", "body": "Les groupes touristiques indonésiens d'au moins 3 personnes peuvent entrer sans visa pour de courts séjours dans le cadre d'un programme pilote. Réservé aux groupes — les voyageurs individuels ont toujours besoin d'un visa." },
-      { "icon": "🏝️", "tone": "amber", "title": "Île de Jeju — exemption de visa distincte", "body": "Les citoyens indonésiens peuvent entrer à Jeju sans visa (Jeju uniquement, vols directs, sans transit vers le continent). C'est distinct du visa touristique pour le continent." }
-    ],
-    "tldr": [
-      "Les voyageurs indépendants ont besoin d'un visa touristique C-3 pour la Corée continentale.",
-      "Remplissez le formulaire sur visa.go.kr, puis déposez-le à l'ambassade de Corée / au KVAC de Jakarta.",
-      "Apportez passeport, photo, relevé bancaire de 3 mois, attestation d'emploi et bulletins de salaire.",
-      "Vous voyagez en groupe de 3 personnes ou plus ? Vous pourriez avoir droit à l'entrée sans visa (pilote à partir de mai 2026)."
-    ],
-    "steps": {
-      "title": "La procédure de demande, étape par étape (C-3 individuel)",
-      "items": [
-        { "n": 1, "title": "Confirmez le type de visa", "detail": "Les touristes indépendants demandent le visa touristique de courte durée C-3. (Les groupes de 3 personnes ou plus doivent interroger leur agence sur le programme pilote sans visa.)" },
-        { "n": 2, "title": "Remplissez le formulaire sur visa.go.kr", "detail": "Remplissez le formulaire de demande sur le Korea Visa Portal — le seul site officiel — puis imprimez-le et signez-le.", "link": "https://www.visa.go.kr", "linkLabel": "Portail des visas de Corée" },
-        { "n": 3, "title": "Préparez vos documents", "detail": "Rassemblez la liste ci-dessous : passeport, photo, relevé bancaire de 3 mois et justificatif d'emploi." },
-        { "n": 4, "title": "Déposez à l'ambassade / au KVAC de Jakarta", "detail": "Déposez votre demande à l'ambassade de Corée ou au Korea Visa Application Center à Jakarta." },
-        { "n": 5, "title": "Payez les frais", "detail": "Payez les frais de visa et les éventuels frais de service. Les frais ne sont pas remboursables même en cas de refus — confirmez le montant au centre." },
-        { "n": 6, "title": "Suivez et attendez", "detail": "Suivez le statut via le canal du centre. N'achetez pas de vols non remboursables avant l'approbation." },
-        { "n": 7, "title": "Récupérez votre passeport", "detail": "Récupérez votre passeport et vérifiez immédiatement les détails du visa." }
-      ]
-    },
-    "documents": {
-      "title": "Liste des documents — avec où et comment obtenir chacun",
-      "intro": "Pour chaque document, voici où l'obtenir et ce qu'il doit indiquer.",
-      "cols": ["Document", "Où l'obtenir", "Ce qu'il doit indiquer"],
-      "rows": [
-        { "doc": "Passeport", "req": "required", "where": "Vous l'avez déjà", "how": "Valide au moins 6 mois, avec des pages vierges." },
-        { "doc": "Formulaire de demande de visa", "req": "required", "where": "visa.go.kr", "how": "Remplissez-le sur le Korea Visa Portal, imprimez, signez.", "link": "https://www.visa.go.kr" },
-        { "doc": "Photo", "req": "required", "where": "N'importe quel studio photo", "how": "Photo récente de type passeport, fond blanc." },
-        { "doc": "Relevé bancaire — 3 derniers mois", "req": "required", "where": "Votre banque", "how": "Relevé indiquant le solde et l'historique des opérations ; un solde stable est préférable." },
-        { "doc": "Attestation d'emploi", "req": "required", "where": "Votre employeur / RH", "how": "Sur papier à en-tête de l'entreprise : poste, salaire et congé approuvé." },
-        { "doc": "Bulletins de salaire", "req": "required", "where": "Votre employeur", "how": "Bulletins de salaire récents appuyant vos revenus." },
-        { "doc": "Réservation de vol aller-retour et d'hôtel", "req": "required", "where": "Compagnie aérienne / sites de réservation", "how": "Les réservations/l'itinéraire suffisent — ne payez pas le billet avant l'approbation." },
-        { "doc": "Lettre de prise en charge (si financé par une autre personne)", "req": "conditional", "where": "Votre garant", "how": "Lettre de prise en charge + relevé bancaire du garant + preuve du lien de parenté." }
-      ],
-      "legend": { "required": "Obligatoire", "conditional": "Si cela vous concerne", "recommended": "Recommandé" }
-    },
-    "funds": {
-      "title": "« Combien d'argent dois-je montrer ? »",
-      "body": "Il n'existe pas de minimum unique publié. Montrez un solde stable sur 3 mois et des liens clairs avec l'Indonésie (emploi, famille). Si une autre personne finance votre voyage, documentez entièrement la prise en charge.",
-      "tips": [
-        "Un solde stable sur 3 mois vaut mieux qu'un dépôt soudain avant la demande.",
-        "Associez le relevé bancaire à votre attestation d'emploi et à vos bulletins de salaire.",
-        "Pris en charge ? Ajoutez le relevé bancaire du garant, sa lettre et la preuve du lien de parenté."
-      ]
-    },
-    "pitfalls": {
-      "title": "Erreurs qui entraînent des refus et des retards",
-      "items": [
-        { "icon": "🧍", "t": "Croire que seul = sans visa", "d": "Le pilote sans visa est réservé aux groupes (3 personnes ou plus). Les voyageurs individuels ont toujours besoin du visa C-3." },
-        { "icon": "💸", "t": "Dépôt soudain", "d": "Une grosse somme juste avant la demande. Montrez des fonds stables et justifiables." },
-        { "icon": "🧾", "t": "Justificatif d'emploi faible", "d": "Absence d'attestation d'emploi ou de bulletins de salaire. Ils constituent le socle du dossier d'un demandeur individuel." },
-        { "icon": "🎫", "t": "Payer les vols trop tôt", "d": "Acheter des billets non remboursables avant l'approbation — une réservation suffit." },
-        { "icon": "🏝️", "t": "Confondre Jeju et le continent", "d": "L'exemption de visa de Jeju ne couvre pas les voyages en Corée continentale." }
-      ]
-    },
-    "faq": {
-      "title": "FAQ sur le visa Indonésie → Corée",
-      "items": [
-        { "q": "Les Indonésiens ont-ils besoin d'un visa pour la Corée ?", "a": "Les voyageurs individuels ont besoin d'un visa touristique C-3 pour la Corée continentale. Depuis le 28 mai 2026, les groupes touristiques de 3 personnes ou plus peuvent entrer sans visa dans le cadre d'un pilote ; l'île de Jeju dispose d'une entrée sans visa distincte." },
-        { "q": "Je voyage seul — puis-je me passer du visa ?", "a": "Non. Le pilote sans visa s'applique uniquement aux groupes d'au moins 3 personnes. Les voyageurs indépendants doivent demander le visa C-3." },
-        { "q": "Quel justificatif financier me faut-il ?", "a": "Un relevé bancaire de 3 mois ainsi qu'une attestation d'emploi et des bulletins de salaire. Si vous êtes pris en charge, joignez les documents du garant." },
-        { "q": "Où dois-je déposer ma demande ?", "a": "À l'ambassade de Corée ou au Korea Visa Application Center à Jakarta." },
-        { "q": "Quel est le montant des frais ?", "a": "Les frais varient et ne sont pas remboursables même en cas de refus. Confirmez le montant actuel au centre." },
-        { "q": "Ai-je encore besoin de l'e-Arrival Card ?", "a": "Les règles relatives aux documents d'entrée comme l'e-Arrival Card peuvent toujours s'appliquer à l'arrivée. Vérifiez les règles en vigueur à l'approche de la date de votre voyage." }
-      ]
-    }
-  },
-  "de": {
-    "kicker": "Visa-Ratgeber · Indonesien → Korea",
-    "readingTime": "8 Min. Lesezeit",
-    "h1": "Korea-Visum für indonesische Staatsbürger",
-    "metaTitle": "Korea-Visum aus Indonesien: Schritt-für-Schritt-Anleitung (2026) — Korea Trip Hub",
-    "metaDesc": "So beantragen Sie das Korea-Touristenvisum aus Indonesien: wo Sie es einreichen, Dokumente (und wo Sie jedes erhalten), Gebühren und offizielle Links. Einzelreisende benötigen das C-3-Touristenvisum; Gruppen können davon befreit sein.",
-    "ui": { "visa": "Visumart", "stay": "Aufenthaltsdauer", "entry": "Anzahl der Einreisen", "where": "Wo erhältlich", "official": "Offizielle Quelle", "required": "Erforderlich", "conditional": "Falls zutreffend", "recommended": "Empfohlen", "confirm": "Gebühren/Regeln können sich ändern — bitte bei den offiziellen Quellen bestätigen", "source": "Quelle", "updated": "Aktualisiert", "tldr": "KURZFASSUNG" },
-    "verdict": {
-      "headline": "Indonesische Einzelreisende benötigen ein Visum — Gruppen möglicherweise nicht.",
-      "sub": "Für eine individuelle Reise ins koreanische Festland beantragen Sie das C-3-Touristenvisum. Seit dem 28. Mai 2026 können Reisegruppen ab 3 Personen im Rahmen eines Pilotprogramms für Kurzaufenthalte visumfrei einreisen; Einzelpersonen sind noch nicht berechtigt.",
-      "type": "Tourist C-3 (Einzelperson)",
-      "stay": "Bis zu 90 Tage",
-      "entry": "Einmalige Einreise (Einzelperson) / Visumbefreiung für berechtigte Gruppen"
-    },
-    "highlights": [
-      { "icon": "👥", "tone": "green", "title": "Visumbefreiung für Gruppen ab dem 28. Mai 2026", "body": "Indonesische Reisegruppen von mindestens 3 Personen können im Rahmen eines Pilotprogramms für Kurzaufenthalte visumfrei einreisen. Nur für Gruppen — Einzelreisende benötigen weiterhin ein Visum." },
-      { "icon": "🏝️", "tone": "amber", "title": "Insel Jeju — separate Visumbefreiung", "body": "Indonesische Staatsbürger können ohne Visum nach Jeju einreisen (nur Jeju, Direktflüge, kein Transit zum Festland). Das ist unabhängig vom Touristenvisum für das Festland." }
-    ],
-    "tldr": [
-      "Individualreisende benötigen ein C-3-Touristenvisum für das koreanische Festland.",
-      "Füllen Sie das Formular auf visa.go.kr aus und reichen Sie es dann bei der koreanischen Botschaft / beim KVAC Jakarta ein.",
-      "Bringen Sie Reisepass, Foto, 3-Monats-Kontoauszug, Arbeitgeberbescheinigung und Gehaltsabrechnungen mit.",
-      "Reisen Sie in einer Gruppe ab 3 Personen? Sie könnten Anspruch auf visumfreie Einreise haben (Pilot ab Mai 2026)."
-    ],
-    "steps": {
-      "title": "Der Antrag, Schritt für Schritt (C-3 Einzelperson)",
-      "items": [
-        { "n": 1, "title": "Visumart bestätigen", "detail": "Individualreisende beantragen das kurzfristige Touristenvisum C-3. (Gruppen ab 3 Personen sollten ihre Agentur nach dem visumfreien Pilotprogramm fragen.)" },
-        { "n": 2, "title": "Formular auf visa.go.kr ausfüllen", "detail": "Füllen Sie das Antragsformular im Korea Visa Portal aus — der einzigen offiziellen Website — und drucken und unterschreiben Sie es anschließend.", "link": "https://www.visa.go.kr", "linkLabel": "Korea-Visumportal" },
-        { "n": 3, "title": "Ihre Dokumente vorbereiten", "detail": "Stellen Sie die untenstehende Liste zusammen: Reisepass, Foto, 3-Monats-Kontoauszug und Arbeitsnachweis." },
-        { "n": 4, "title": "Bei der Botschaft / beim KVAC Jakarta einreichen", "detail": "Reichen Sie Ihren Antrag bei der koreanischen Botschaft oder beim Korea Visa Application Center in Jakarta ein." },
-        { "n": 5, "title": "Gebühr bezahlen", "detail": "Zahlen Sie die Visumgebühr und etwaige Servicegebühren. Die Gebühren sind auch bei Ablehnung nicht erstattungsfähig — bestätigen Sie den Betrag im Zentrum." },
-        { "n": 6, "title": "Verfolgen und warten", "detail": "Verfolgen Sie den Status über den Kanal des Zentrums. Kaufen Sie vor der Genehmigung keine nicht erstattungsfähigen Flüge." },
-        { "n": 7, "title": "Reisepass abholen", "detail": "Holen Sie Ihren Reisepass ab und prüfen Sie sofort die Visumdaten." }
-      ]
-    },
-    "documents": {
-      "title": "Dokumenten-Checkliste — mit dem Wo und Wie zu jedem Dokument",
-      "intro": "Für jedes Dokument finden Sie hier, wo Sie es erhalten und was es ausweisen muss.",
-      "cols": ["Dokument", "Wo erhältlich", "Was es ausweisen muss"],
-      "rows": [
-        { "doc": "Reisepass", "req": "required", "where": "Haben Sie bereits", "how": "Mindestens 6 Monate gültig, mit leeren Seiten." },
-        { "doc": "Visumantragsformular", "req": "required", "where": "visa.go.kr", "how": "Im Korea Visa Portal ausfüllen, drucken, unterschreiben.", "link": "https://www.visa.go.kr" },
-        { "doc": "Foto", "req": "required", "where": "Beliebiges Fotostudio", "how": "Aktuelles Passfoto, weißer Hintergrund." },
-        { "doc": "Kontoauszug — letzte 3 Monate", "req": "required", "where": "Ihre Bank", "how": "Auszug mit Saldo und Transaktionsverlauf; ein stabiler Saldo ist am besten." },
-        { "doc": "Arbeitgeberbescheinigung", "req": "required", "where": "Ihr Arbeitgeber / Personalabteilung", "how": "Auf Firmenbriefkopf: Position, Gehalt und genehmigter Urlaub." },
-        { "doc": "Gehaltsabrechnungen", "req": "required", "where": "Ihr Arbeitgeber", "how": "Aktuelle Gehaltsabrechnungen zum Nachweis Ihres Einkommens." },
-        { "doc": "Hin- und Rückflug- sowie Hotelreservierung", "req": "required", "where": "Fluggesellschaft / Buchungsseiten", "how": "Reservierungen/Reiseplan genügen — bezahlen Sie kein Ticket vor der Genehmigung." },
-        { "doc": "Verpflichtungserklärung (falls von einer anderen Person finanziert)", "req": "conditional", "where": "Ihr Bürge", "how": "Verpflichtungserklärung + Kontoauszug des Bürgen + Nachweis des Verwandtschaftsverhältnisses." }
-      ],
-      "legend": { "required": "Erforderlich", "conditional": "Falls es auf Sie zutrifft", "recommended": "Empfohlen" }
-    },
-    "funds": {
-      "title": "„Wie viel Geld sollte ich nachweisen?“",
-      "body": "Es gibt keinen einzelnen veröffentlichten Mindestbetrag. Weisen Sie einen stabilen Saldo über 3 Monate und klare Bindungen an Indonesien (Arbeit, Familie) nach. Wenn eine andere Person Ihre Reise finanziert, dokumentieren Sie die Kostenübernahme vollständig.",
-      "tips": [
-        "Ein stabiler Saldo über 3 Monate ist besser als eine plötzliche Einzahlung vor der Antragstellung.",
-        "Kombinieren Sie den Kontoauszug mit Ihrer Arbeitgeberbescheinigung und Ihren Gehaltsabrechnungen.",
-        "Gesponsert? Fügen Sie den Kontoauszug des Bürgen, sein Schreiben und den Verwandtschaftsnachweis hinzu."
-      ]
-    },
-    "pitfalls": {
-      "title": "Fehler, die zu Ablehnungen und Verzögerungen führen",
-      "items": [
-        { "icon": "🧍", "t": "Annehmen, allein = visumfrei", "d": "Das visumfreie Pilotprogramm gilt nur für Gruppen (ab 3 Personen). Einzelreisende benötigen weiterhin das C-3-Visum." },
-        { "icon": "💸", "t": "Plötzliche Einzahlung", "d": "Ein großer Betrag kurz vor der Antragstellung. Weisen Sie stabile und erklärbare Mittel nach." },
-        { "icon": "🧾", "t": "Schwacher Arbeitsnachweis", "d": "Fehlende Arbeitgeberbescheinigung oder Gehaltsabrechnungen. Sie bilden das Fundament der Unterlagen eines Einzelantragstellers." },
-        { "icon": "🎫", "t": "Flüge zu früh bezahlen", "d": "Kauf nicht erstattungsfähiger Tickets vor der Genehmigung — eine Reservierung genügt." },
-        { "icon": "🏝️", "t": "Jeju mit dem Festland verwechseln", "d": "Die Visumbefreiung für Jeju gilt nicht für Reisen auf dem koreanischen Festland." }
-      ]
-    },
-    "faq": {
-      "title": "FAQ zum Visum Indonesien → Korea",
-      "items": [
-        { "q": "Benötigen Indonesier ein Visum für Korea?", "a": "Einzelreisende benötigen ein C-3-Touristenvisum für das koreanische Festland. Seit dem 28. Mai 2026 können Reisegruppen ab 3 Personen im Rahmen eines Pilotprogramms visumfrei einreisen; die Insel Jeju hat eine separate visumfreie Einreise." },
-        { "q": "Ich reise allein — kann ich auf das Visum verzichten?", "a": "Nein. Das visumfreie Pilotprogramm gilt nur für Gruppen von mindestens 3 Personen. Individualreisende müssen das C-3-Visum beantragen." },
-        { "q": "Welchen Finanznachweis benötige ich?", "a": "Einen 3-Monats-Kontoauszug sowie eine Arbeitgeberbescheinigung und Gehaltsabrechnungen. Bei Kostenübernahme fügen Sie die Unterlagen des Bürgen bei." },
-        { "q": "Wo beantrage ich das Visum?", "a": "Bei der koreanischen Botschaft oder beim Korea Visa Application Center in Jakarta." },
-        { "q": "Wie hoch ist die Gebühr?", "a": "Die Gebühren variieren und sind auch bei Ablehnung nicht erstattungsfähig. Bestätigen Sie den aktuellen Betrag im Zentrum." },
-        { "q": "Benötige ich weiterhin die e-Arrival Card?", "a": "Regeln für Einreisedokumente wie die e-Arrival Card können bei der Ankunft weiterhin gelten. Prüfen Sie die aktuellen Regeln kurz vor Ihrem Reisetermin." }
-      ]
-    }
-  },
-  "it": {
-    "kicker": "Guida al visto · Indonesia → Corea",
-    "readingTime": "8 min di lettura",
-    "h1": "Visto per la Corea per i cittadini indonesiani",
-    "metaTitle": "Visto per la Corea dall'Indonesia: guida passo passo (2026) — Korea Trip Hub",
-    "metaDesc": "Come richiedere il visto turistico per la Corea dall'Indonesia: dove presentarlo, documenti (e dove ottenere ciascuno), tasse e link ufficiali. I viaggiatori individuali necessitano del visto turistico C-3; i gruppi possono esserne esentati.",
-    "ui": { "visa": "Tipo di visto", "stay": "Durata del soggiorno", "entry": "Numero di ingressi", "where": "Dove ottenerlo", "official": "Fonte ufficiale", "required": "Obbligatorio", "conditional": "Se applicabile", "recommended": "Consigliato", "confirm": "Tasse e regole possono cambiare — verifica sulle fonti ufficiali", "source": "Fonte", "updated": "Aggiornato", "tldr": "IN BREVE" },
-    "verdict": {
-      "headline": "I viaggiatori individuali indonesiani necessitano di un visto, ma i gruppi forse no.",
-      "sub": "Per un viaggio in autonomia verso la Corea continentale si richiede il visto turistico C-3. Dal 28 maggio 2026, i gruppi turistici di 3 o più persone possono entrare senza visto per soggiorni brevi nell'ambito di un programma pilota; i singoli non sono ancora idonei.",
-      "type": "Turista C-3 (individuale)",
-      "stay": "Fino a 90 giorni",
-      "entry": "Ingresso singolo (individuale) / esenzione dal visto per i gruppi idonei"
-    },
-    "highlights": [
-      { "icon": "👥", "tone": "green", "title": "Esenzione dal visto per i gruppi dal 28 maggio 2026", "body": "I gruppi turistici indonesiani di almeno 3 persone possono entrare senza visto per soggiorni brevi nell'ambito di un programma pilota. Vale solo per i gruppi — i viaggiatori individuali necessitano ancora del visto." },
-      { "icon": "🏝️", "tone": "amber", "title": "Isola di Jeju — esenzione dal visto a parte", "body": "I cittadini indonesiani possono entrare a Jeju senza visto (solo Jeju, voli diretti, senza transito verso il continente). Ciò è separato dal visto turistico per il continente." }
-    ],
-    "tldr": [
-      "I viaggiatori indipendenti necessitano di un visto turistico C-3 per la Corea continentale.",
-      "Compila il modulo su visa.go.kr, poi presentalo all'Ambasciata della Corea / al KVAC di Jakarta.",
-      "Porta passaporto, foto, estratto conto bancario di 3 mesi, lettera di lavoro e buste paga.",
-      "Viaggi in gruppo di 3 o più persone? Potresti avere diritto all'ingresso senza visto (pilota da maggio 2026)."
-    ],
-    "steps": {
-      "title": "La procedura di richiesta, passo passo (C-3 individuale)",
-      "items": [
-        { "n": 1, "title": "Conferma il tipo di visto", "detail": "I turisti indipendenti richiedono il visto turistico di breve durata C-3. (I gruppi di 3 o più persone dovrebbero chiedere alla propria agenzia informazioni sul programma pilota senza visto.)" },
-        { "n": 2, "title": "Compila il modulo su visa.go.kr", "detail": "Compila il modulo di domanda sul Korea Visa Portal — l'unico sito ufficiale — poi stampalo e firmalo.", "link": "https://www.visa.go.kr", "linkLabel": "Portale dei visti della Corea" },
-        { "n": 3, "title": "Prepara i tuoi documenti", "detail": "Raccogli la lista qui sotto: passaporto, foto, estratto conto bancario di 3 mesi e prova di lavoro." },
-        { "n": 4, "title": "Presenta all'Ambasciata / al KVAC di Jakarta", "detail": "Presenta la tua domanda all'Ambasciata della Corea o al Korea Visa Application Center di Jakarta." },
-        { "n": 5, "title": "Paga la tassa", "detail": "Paga la tassa del visto ed eventuali tasse di servizio. Le tasse non sono rimborsabili anche in caso di rifiuto — verifica l'importo al centro." },
-        { "n": 6, "title": "Monitora e attendi", "detail": "Segui lo stato tramite il canale del centro. Non acquistare voli non rimborsabili prima dell'approvazione." },
-        { "n": 7, "title": "Ritira il passaporto", "detail": "Ritira il passaporto e controlla subito i dettagli del visto." }
-      ]
-    },
-    "documents": {
-      "title": "Lista dei documenti — con dove e come ottenere ciascuno",
-      "intro": "Per ogni documento, ecco dove ottenerlo e cosa deve mostrare.",
-      "cols": ["Documento", "Dove ottenerlo", "Cosa deve mostrare"],
-      "rows": [
-        { "doc": "Passaporto", "req": "required", "where": "Ce l'hai già", "how": "Valido almeno 6 mesi, con pagine bianche." },
-        { "doc": "Modulo di domanda del visto", "req": "required", "where": "visa.go.kr", "how": "Compila sul Korea Visa Portal, stampa, firma.", "link": "https://www.visa.go.kr" },
-        { "doc": "Foto", "req": "required", "where": "Qualsiasi studio fotografico", "how": "Foto recente formato tessera, sfondo bianco." },
-        { "doc": "Estratto conto bancario — ultimi 3 mesi", "req": "required", "where": "La tua banca", "how": "Estratto che mostri saldo e cronologia delle transazioni; un saldo stabile è preferibile." },
-        { "doc": "Lettera di lavoro", "req": "required", "where": "Il tuo datore di lavoro / HR", "how": "Su carta intestata dell'azienda: posizione, stipendio e congedo approvato." },
-        { "doc": "Buste paga", "req": "required", "where": "Il tuo datore di lavoro", "how": "Buste paga recenti a sostegno del tuo reddito." },
-        { "doc": "Prenotazione volo andata e ritorno e hotel", "req": "required", "where": "Compagnia aerea / siti di prenotazione", "how": "Le prenotazioni/l'itinerario bastano — non pagare il biglietto prima dell'approvazione." },
-        { "doc": "Lettera di sponsorizzazione (se finanziato da un'altra persona)", "req": "conditional", "where": "Il tuo garante", "how": "Lettera di sponsorizzazione + estratto conto del garante + prova del rapporto di parentela." }
-      ],
-      "legend": { "required": "Obbligatorio", "conditional": "Se ti riguarda", "recommended": "Consigliato" }
-    },
-    "funds": {
-      "title": "«Quanto denaro devo mostrare?»",
-      "body": "Non esiste un minimo unico pubblicato. Mostra un saldo stabile per 3 mesi e legami chiari con l'Indonesia (lavoro, famiglia). Se un'altra persona finanzia il tuo viaggio, documenta pienamente la sponsorizzazione.",
-      "tips": [
-        "Un saldo stabile per 3 mesi è meglio di un deposito improvviso prima della domanda.",
-        "Abbina l'estratto conto bancario alla lettera di lavoro e alle buste paga.",
-        "Sponsorizzato? Aggiungi l'estratto conto del garante, la sua lettera e la prova del rapporto di parentela."
-      ]
-    },
-    "pitfalls": {
-      "title": "Errori che causano rifiuti e ritardi",
-      "items": [
-        { "icon": "🧍", "t": "Presumere che da soli = senza visto", "d": "Il pilota senza visto è solo per i gruppi (3 o più). I viaggiatori individuali necessitano ancora del visto C-3." },
-        { "icon": "💸", "t": "Deposito improvviso", "d": "Una grossa somma poco prima della domanda. Mostra fondi stabili e spiegabili." },
-        { "icon": "🧾", "t": "Prova di lavoro debole", "d": "Mancanza della lettera di lavoro o delle buste paga. Sono il fondamento del fascicolo di un richiedente individuale." },
-        { "icon": "🎫", "t": "Pagare i voli troppo presto", "d": "Acquistare biglietti non rimborsabili prima dell'approvazione — una prenotazione basta." },
-        { "icon": "🏝️", "t": "Confondere Jeju con il continente", "d": "L'esenzione dal visto di Jeju non copre i viaggi nella Corea continentale." }
-      ]
-    },
-    "faq": {
-      "title": "Domande frequenti sul visto Indonesia → Corea",
-      "items": [
-        { "q": "Gli indonesiani hanno bisogno di un visto per la Corea?", "a": "I viaggiatori individuali necessitano di un visto turistico C-3 per la Corea continentale. Dal 28 maggio 2026, i gruppi turistici di 3 o più persone possono entrare senza visto nell'ambito di un pilota; l'isola di Jeju ha un ingresso senza visto a parte." },
-        { "q": "Viaggio da solo — posso evitare il visto?", "a": "No. Il pilota senza visto si applica solo ai gruppi di almeno 3 persone. I viaggiatori indipendenti devono richiedere il visto C-3." },
-        { "q": "Quale prova finanziaria mi serve?", "a": "Un estratto conto bancario di 3 mesi più una lettera di lavoro e buste paga. Se sei sponsorizzato, includi i documenti del garante." },
-        { "q": "Dove presento la domanda?", "a": "All'Ambasciata della Corea o al Korea Visa Application Center di Jakarta." },
-        { "q": "Quanto costa la tassa?", "a": "Le tasse variano e non sono rimborsabili anche in caso di rifiuto. Verifica l'importo attuale al centro." },
-        { "q": "Ho ancora bisogno dell'e-Arrival Card?", "a": "Le regole sui documenti d'ingresso come l'e-Arrival Card possono ancora applicarsi all'arrivo. Controlla le regole vigenti in prossimità della data del viaggio." }
-      ]
-    }
-  },
-  "tr": {
-    "kicker": "Vize rehberi · Endonezya → Kore",
-    "readingTime": "8 dakikalık okuma",
-    "h1": "Endonezya vatandaşları için Kore vizesi",
-    "metaTitle": "Endonezya'dan Kore vizesi: adım adım rehber (2026) — Korea Trip Hub",
-    "metaDesc": "Endonezya'dan Kore turist vizesine nasıl başvurulur: nereye başvurulur, belgeler (ve her birinin nereden alınacağı), ücretler ve resmi bağlantılar. Bireysel gezginler C-3 turist vizesine ihtiyaç duyar; gruplar muaf olabilir.",
-    "ui": { "visa": "Vize türü", "stay": "Kalış süresi", "entry": "Giriş sayısı", "where": "Nereden alınır", "official": "Resmi kaynak", "required": "Zorunlu", "conditional": "Uygunsa", "recommended": "Önerilir", "confirm": "Ücretler/kurallar değişebilir — resmi kaynaklardan teyit edin", "source": "Kaynak", "updated": "Güncellendi", "tldr": "ÖZET" },
-    "verdict": {
-      "headline": "Bireysel Endonezyalı gezginler vizeye ihtiyaç duyar — ancak gruplar duymayabilir.",
-      "sub": "Kore anakarasına bağımsız seyahat için C-3 turist vizesine başvurursunuz. 28 Mayıs 2026'dan itibaren 3 veya daha fazla kişilik tur grupları, bir pilot program kapsamında kısa süreli kalışlar için vizesiz giriş yapabilir; bireyler henüz uygun değildir.",
-      "type": "Turist C-3 (bireysel)",
-      "stay": "90 güne kadar",
-      "entry": "Tek giriş (bireysel) / uygun gruplar için vize muafiyeti"
-    },
-    "highlights": [
-      { "icon": "👥", "tone": "green", "title": "28 Mayıs 2026'dan itibaren gruplar için vize muafiyeti", "body": "En az 3 kişilik Endonezya tur grupları, bir pilot program kapsamında kısa süreli kalışlar için vizesiz giriş yapabilir. Yalnızca gruplara özeldir — bireysel gezginler hâlâ vizeye ihtiyaç duyar." },
-      { "icon": "🏝️", "tone": "amber", "title": "Jeju Adası — ayrı vize muafiyeti", "body": "Endonezya vatandaşları Jeju'ya vizesiz girebilir (yalnızca Jeju, direkt uçuşlar, anakaraya aktarmasız). Bu, anakara turist vizesinden ayrıdır." }
-    ],
-    "tldr": [
-      "Bağımsız gezginler Kore anakarası için C-3 turist vizesine ihtiyaç duyar.",
-      "Formu visa.go.kr'de doldurun, ardından Kore Büyükelçiliği / KVAC Jakarta'ya teslim edin.",
-      "Pasaport, fotoğraf, 3 aylık banka hesap özeti, çalışma belgesi ve maaş bordrolarını getirin.",
-      "3 veya daha fazla kişilik grupla mı seyahat ediyorsunuz? Vizesiz girişe hak kazanabilirsiniz (Mayıs 2026'dan itibaren pilot)."
-    ],
-    "steps": {
-      "title": "Başvuru süreci, adım adım (bireysel C-3)",
-      "items": [
-        { "n": 1, "title": "Vize türünü doğrulayın", "detail": "Bağımsız turistler kısa süreli turist vizesi C-3'e başvurur. (3 veya daha fazla kişilik gruplar, vizesiz pilot programı hakkında acentelerine sormalıdır.)" },
-        { "n": 2, "title": "Formu visa.go.kr'de doldurun", "detail": "Başvuru formunu tek resmi site olan Korea Visa Portal'da doldurun, ardından yazdırıp imzalayın.", "link": "https://www.visa.go.kr", "linkLabel": "Kore Vize Portalı" },
-        { "n": 3, "title": "Belgelerinizi hazırlayın", "detail": "Aşağıdaki listeyi toplayın: pasaport, fotoğraf, 3 aylık banka hesap özeti ve iş kanıtı." },
-        { "n": 4, "title": "Büyükelçilik / KVAC Jakarta'ya teslim edin", "detail": "Başvurunuzu Kore Büyükelçiliği'ne veya Jakarta'daki Korea Visa Application Center'a teslim edin." },
-        { "n": 5, "title": "Ücreti ödeyin", "detail": "Vize ücretini ve varsa hizmet ücretini ödeyin. Ücretler reddedilseniz bile iade edilmez — tutarı merkezde teyit edin." },
-        { "n": 6, "title": "Takip edin ve bekleyin", "detail": "Durumu merkezin kanalı üzerinden takip edin. Onaydan önce iadesi olmayan uçak bileti almayın." },
-        { "n": 7, "title": "Pasaportunuzu alın", "detail": "Pasaportunuzu alın ve vize bilgilerini hemen kontrol edin." }
-      ]
-    },
-    "documents": {
-      "title": "Belge kontrol listesi — her birinin nereden ve nasıl alınacağıyla",
-      "intro": "Her belge için, nereden alınacağı ve neyi göstermesi gerektiği burada.",
-      "cols": ["Belge", "Nereden alınır", "Neyi göstermeli"],
-      "rows": [
-        { "doc": "Pasaport", "req": "required", "where": "Zaten sizde var", "how": "En az 6 ay geçerli, boş sayfaları olan." },
-        { "doc": "Vize başvuru formu", "req": "required", "where": "visa.go.kr", "how": "Korea Visa Portal'da doldurun, yazdırın, imzalayın.", "link": "https://www.visa.go.kr" },
-        { "doc": "Fotoğraf", "req": "required", "where": "Herhangi bir fotoğraf stüdyosu", "how": "Güncel pasaport tarzı fotoğraf, beyaz arka plan." },
-        { "doc": "Banka hesap özeti — son 3 ay", "req": "required", "where": "Bankanız", "how": "Bakiyeyi ve işlem geçmişini gösteren özet; istikrarlı bir bakiye en iyisidir." },
-        { "doc": "Çalışma belgesi", "req": "required", "where": "İşvereniniz / İK", "how": "Şirket antetli kağıdında: pozisyon, maaş ve onaylanmış izin." },
-        { "doc": "Maaş bordroları", "req": "required", "where": "İşvereniniz", "how": "Gelirinizi destekleyen güncel maaş bordroları." },
-        { "doc": "Gidiş-dönüş uçuş ve otel rezervasyonu", "req": "required", "where": "Havayolu / rezervasyon siteleri", "how": "Rezervasyonlar/seyahat planı yeterlidir — onaydan önce bilet ödemesi yapmayın." },
-        { "doc": "Sponsor mektubu (başka biri finanse ediyorsa)", "req": "conditional", "where": "Sponsorunuz", "how": "Sponsorluk mektubu + sponsorun banka hesap özeti + akrabalık kanıtı." }
-      ],
-      "legend": { "required": "Zorunlu", "conditional": "Sizin için geçerliyse", "recommended": "Önerilir" }
-    },
-    "funds": {
-      "title": "\"Ne kadar para göstermeliyim?\"",
-      "body": "Yayımlanmış tek bir asgari tutar yoktur. 3 ay boyunca istikrarlı bir bakiye ve Endonezya ile net bağlar (iş, aile) gösterin. Seyahatinizi başka biri finanse ediyorsa, sponsorluğu eksiksiz belgeleyin.",
-      "tips": [
-        "3 ay boyunca istikrarlı bir bakiye, başvurudan hemen önce ani bir yatırımdan daha iyidir.",
-        "Banka hesap özetini çalışma belgeniz ve maaş bordrolarınızla birlikte sunun.",
-        "Sponsorlu mu? Sponsorun banka hesap özetini, mektubunu ve akrabalık kanıtını ekleyin."
-      ]
-    },
-    "pitfalls": {
-      "title": "Ret ve gecikmelere yol açan hatalar",
-      "items": [
-        { "icon": "🧍", "t": "Tek başına = vizesiz sanmak", "d": "Vizesiz pilot yalnızca gruplar içindir (3 veya daha fazla). Bireysel gezginler hâlâ C-3 vizesine ihtiyaç duyar." },
-        { "icon": "💸", "t": "Ani yatırım", "d": "Başvurudan hemen önce büyük bir meblağ. İstikrarlı ve açıklanabilir fonlar gösterin." },
-        { "icon": "🧾", "t": "Zayıf iş kanıtı", "d": "Çalışma belgesi veya maaş bordrolarının eksikliği. Bunlar bireysel başvuranın dosyasının temelidir." },
-        { "icon": "🎫", "t": "Uçuşları çok erken ödemek", "d": "Onaydan önce iadesi olmayan bilet almak — bir rezervasyon yeterlidir." },
-        { "icon": "🏝️", "t": "Jeju'yu anakarayla karıştırmak", "d": "Jeju vize muafiyeti Kore anakarası seyahatini kapsamaz." }
-      ]
-    },
-    "faq": {
-      "title": "Endonezya → Kore vize SSS",
-      "items": [
-        { "q": "Endonezyalıların Kore için vizeye ihtiyacı var mı?", "a": "Bireysel gezginler Kore anakarası için C-3 turist vizesine ihtiyaç duyar. 28 Mayıs 2026'dan itibaren 3 veya daha fazla kişilik tur grupları bir pilot kapsamında vizesiz girebilir; Jeju Adası'nın ayrı bir vizesiz girişi vardır." },
-        { "q": "Yalnız seyahat ediyorum — vizeyi atlayabilir miyim?", "a": "Hayır. Vizesiz pilot yalnızca en az 3 kişilik gruplara uygulanır. Bağımsız gezginler C-3 vizesine başvurmalıdır." },
-        { "q": "Hangi mali kanıta ihtiyacım var?", "a": "3 aylık banka hesap özeti ile birlikte bir çalışma belgesi ve maaş bordroları. Sponsorluysanız, sponsorun belgelerini ekleyin." },
-        { "q": "Nereye başvururum?", "a": "Kore Büyükelçiliği'ne veya Jakarta'daki Korea Visa Application Center'a." },
-        { "q": "Ücret ne kadar?", "a": "Ücretler değişir ve reddedilseniz bile iade edilmez. Güncel tutarı merkezde teyit edin." },
-        { "q": "Hâlâ e-Arrival Card'a ihtiyacım var mı?", "a": "e-Arrival Card gibi giriş belgesi kuralları varışta hâlâ geçerli olabilir. Seyahat tarihinize yakın güncel kuralları kontrol edin." }
+        {
+          "q": "ชาวอินโดนีเซียต้องใช้วีซ่าไปเกาหลีหรือไม่?",
+          "a": "นักท่องเที่ยวรายบุคคลต้องใช้วีซ่าท่องเที่ยว C-3 สำหรับเกาหลีแผ่นดินใหญ่ ตั้งแต่วันที่ 28 พฤษภาคม 2026 คณะทัวร์ตั้งแต่ 3 คนขึ้นไปสามารถเข้าประเทศได้โดยไม่ต้องมีวีซ่าภายใต้โครงการนำร่อง ส่วนเกาะ Jeju มีการยกเว้นวีซ่าแยกต่างหาก"
+        },
+        {
+          "q": "ฉันเดินทางคนเดียว — ข้ามการขอวีซ่าได้ไหม?",
+          "a": "ไม่ได้ โครงการนำร่องยกเว้นวีซ่าใช้เฉพาะคณะที่มีอย่างน้อย 3 คน นักท่องเที่ยวที่เดินทางด้วยตนเองต้องยื่นขอวีซ่า C-3"
+        },
+        {
+          "q": "ต้องใช้หลักฐานทางการเงินอะไรบ้าง?",
+          "a": "รายการเดินบัญชีธนาคาร 3 เดือน พร้อมหนังสือรับรองการทำงานและสลิปเงินเดือน หากมีผู้สนับสนุน ให้แนบเอกสารของผู้สนับสนุนด้วย"
+        },
+        {
+          "q": "ยื่นขอที่ไหน?",
+          "a": "ที่สถานทูตเกาหลีหรือ Korea Visa Application Center ใน Jakarta"
+        },
+        {
+          "q": "ค่าธรรมเนียมเท่าไหร่?",
+          "a": "ค่าธรรมเนียมแตกต่างกันไปและไม่สามารถขอคืนได้แม้ถูกปฏิเสธ ยืนยันจำนวนเงินปัจจุบันที่ศูนย์"
+        },
+        {
+          "q": "ยังต้องใช้ e-Arrival Card อยู่หรือไม่?",
+          "a": "กฎเกี่ยวกับเอกสารเข้าประเทศเช่น e-Arrival Card อาจยังมีผลบังคับใช้เมื่อเดินทางถึง ตรวจสอบกฎปัจจุบันใกล้วันเดินทางของคุณ"
+        }
       ]
     }
   },
@@ -1002,7 +1121,20 @@
     "h1": "Visa Korea untuk warganegara Indonesia",
     "metaTitle": "Visa Korea dari Indonesia: panduan langkah demi langkah (2026) — Korea Trip Hub",
     "metaDesc": "Cara memohon visa pelancong Korea dari Indonesia: di mana hendak memohon, dokumen (dan di mana mendapatkan setiap satu), yuran dan pautan rasmi. Pengembara individu memerlukan visa pelancong C-3; kumpulan mungkin dikecualikan.",
-    "ui": { "visa": "Jenis visa", "stay": "Tempoh tinggal", "entry": "Bilangan masuk", "where": "Di mana mendapatkannya", "official": "Sumber rasmi", "required": "Wajib", "conditional": "Jika berkenaan", "recommended": "Disyorkan", "confirm": "Yuran/peraturan boleh berubah — sila sahkan di sumber rasmi", "source": "Sumber", "updated": "Dikemas kini", "tldr": "RINGKASAN" },
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Tempoh tinggal",
+      "entry": "Bilangan masuk",
+      "where": "Di mana mendapatkannya",
+      "official": "Sumber rasmi",
+      "required": "Wajib",
+      "conditional": "Jika berkenaan",
+      "recommended": "Disyorkan",
+      "confirm": "Yuran/peraturan boleh berubah — sila sahkan di sumber rasmi",
+      "source": "Sumber",
+      "updated": "Dikemas kini",
+      "tldr": "RINGKASAN"
+    },
     "verdict": {
       "headline": "Pengembara individu Indonesia memerlukan visa — tetapi kumpulan mungkin tidak.",
       "sub": "Untuk perjalanan sendiri ke tanah besar Korea, anda memohon visa pelancong C-3. Sejak 28 Mei 2026, kumpulan pelancong seramai 3 orang atau lebih boleh masuk tanpa visa untuk tinggal singkat melalui skim perintis; individu belum layak lagi.",
@@ -1011,8 +1143,18 @@
       "entry": "Sekali masuk (individu) / pengecualian visa untuk kumpulan yang layak"
     },
     "highlights": [
-      { "icon": "👥", "tone": "green", "title": "Pengecualian visa untuk kumpulan mulai 28 Mei 2026", "body": "Kumpulan pelancong Indonesia yang terdiri daripada sekurang-kurangnya 3 orang boleh masuk tanpa visa untuk tinggal singkat melalui skim perintis. Ia hanya untuk kumpulan — pengembara individu masih memerlukan visa." },
-      { "icon": "🏝️", "tone": "amber", "title": "Pulau Jeju — pengecualian visa berasingan", "body": "Warganegara Indonesia boleh masuk Jeju tanpa visa (Jeju sahaja, penerbangan terus, tiada transit ke tanah besar). Ini berasingan daripada visa pelancong tanah besar." }
+      {
+        "icon": "👥",
+        "tone": "green",
+        "title": "Pengecualian visa untuk kumpulan mulai 28 Mei 2026",
+        "body": "Kumpulan pelancong Indonesia yang terdiri daripada sekurang-kurangnya 3 orang boleh masuk tanpa visa untuk tinggal singkat melalui skim perintis. Ia hanya untuk kumpulan — pengembara individu masih memerlukan visa."
+      },
+      {
+        "icon": "🏝️",
+        "tone": "amber",
+        "title": "Pulau Jeju — pengecualian visa berasingan",
+        "body": "Warganegara Indonesia boleh masuk Jeju tanpa visa (Jeju sahaja, penerbangan terus, tiada transit ke tanah besar). Ini berasingan daripada visa pelancong tanah besar."
+      }
     ],
     "tldr": [
       "Pengembara bebas memerlukan visa pelancong C-3 untuk tanah besar Korea.",
@@ -1023,30 +1165,109 @@
     "steps": {
       "title": "Proses permohonan, langkah demi langkah (C-3 individu)",
       "items": [
-        { "n": 1, "title": "Sahkan jenis visa", "detail": "Pelancong bebas memohon visa pelancong jangka pendek C-3. (Kumpulan 3 orang atau lebih patut bertanya kepada agensi mereka tentang skim perintis tanpa visa.)" },
-        { "n": 2, "title": "Isi borang di visa.go.kr", "detail": "Lengkapkan borang permohonan di Korea Visa Portal — satu-satunya laman rasmi — kemudian cetak dan tandatangani.", "link": "https://www.visa.go.kr", "linkLabel": "Portal Visa Korea" },
-        { "n": 3, "title": "Sediakan dokumen anda", "detail": "Kumpulkan senarai di bawah: pasport, gambar, penyata bank 3 bulan dan bukti pekerjaan." },
-        { "n": 4, "title": "Kemukakan di Kedutaan / KVAC Jakarta", "detail": "Kemukakan permohonan anda di Kedutaan Korea atau Korea Visa Application Center di Jakarta." },
-        { "n": 5, "title": "Bayar yuran", "detail": "Bayar yuran visa dan sebarang yuran perkhidmatan. Yuran tidak dikembalikan walaupun ditolak — sahkan jumlahnya di pusat tersebut." },
-        { "n": 6, "title": "Jejak dan tunggu", "detail": "Ikuti status melalui saluran pusat tersebut. Jangan beli penerbangan yang tidak boleh dikembalikan sebelum diluluskan." },
-        { "n": 7, "title": "Ambil pasport anda", "detail": "Ambil pasport anda dan semak butiran visa dengan segera." }
+        {
+          "n": 1,
+          "title": "Sahkan jenis visa",
+          "detail": "Pelancong bebas memohon visa pelancong jangka pendek C-3. (Kumpulan 3 orang atau lebih patut bertanya kepada agensi mereka tentang skim perintis tanpa visa.)"
+        },
+        {
+          "n": 2,
+          "title": "Isi borang di visa.go.kr",
+          "detail": "Lengkapkan borang permohonan di Korea Visa Portal — satu-satunya laman rasmi — kemudian cetak dan tandatangani.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Portal Visa Korea"
+        },
+        {
+          "n": 3,
+          "title": "Sediakan dokumen anda",
+          "detail": "Kumpulkan senarai di bawah: pasport, gambar, penyata bank 3 bulan dan bukti pekerjaan."
+        },
+        {
+          "n": 4,
+          "title": "Kemukakan di Kedutaan / KVAC Jakarta",
+          "detail": "Kemukakan permohonan anda di Kedutaan Korea atau Korea Visa Application Center di Jakarta."
+        },
+        {
+          "n": 5,
+          "title": "Bayar yuran",
+          "detail": "Bayar yuran visa dan sebarang yuran perkhidmatan. Yuran tidak dikembalikan walaupun ditolak — sahkan jumlahnya di pusat tersebut."
+        },
+        {
+          "n": 6,
+          "title": "Jejak dan tunggu",
+          "detail": "Ikuti status melalui saluran pusat tersebut. Jangan beli penerbangan yang tidak boleh dikembalikan sebelum diluluskan."
+        },
+        {
+          "n": 7,
+          "title": "Ambil pasport anda",
+          "detail": "Ambil pasport anda dan semak butiran visa dengan segera."
+        }
       ]
     },
     "documents": {
       "title": "Senarai semak dokumen — dengan di mana & cara mendapatkan setiap satu",
       "intro": "Bagi setiap dokumen, berikut ialah tempat mendapatkannya dan apa yang perlu ditunjukkannya.",
-      "cols": ["Dokumen", "Di mana mendapatkannya", "Apa yang perlu ditunjukkan"],
-      "rows": [
-        { "doc": "Pasport", "req": "required", "where": "Anda sudah memilikinya", "how": "Sah sekurang-kurangnya 6 bulan dengan halaman kosong." },
-        { "doc": "Borang permohonan visa", "req": "required", "where": "visa.go.kr", "how": "Lengkapkan di Korea Visa Portal, cetak, tandatangani.", "link": "https://www.visa.go.kr" },
-        { "doc": "Gambar", "req": "required", "where": "Mana-mana studio gambar", "how": "Gambar terkini gaya pasport, latar belakang putih." },
-        { "doc": "Penyata bank — 3 bulan terakhir", "req": "required", "where": "Bank anda", "how": "Penyata yang menunjukkan baki dan sejarah transaksi; baki yang stabil adalah terbaik." },
-        { "doc": "Surat pekerjaan", "req": "required", "where": "Majikan / HR anda", "how": "Pada kepala surat syarikat: jawatan, gaji dan cuti yang diluluskan." },
-        { "doc": "Slip gaji", "req": "required", "where": "Majikan anda", "how": "Slip gaji terkini yang menyokong pendapatan anda." },
-        { "doc": "Tempahan penerbangan pergi-balik & hotel", "req": "required", "where": "Syarikat penerbangan / laman tempahan", "how": "Tempahan/itinerari sudah memadai — jangan bayar tiket sebelum diluluskan." },
-        { "doc": "Surat penaja (jika dibiayai oleh orang lain)", "req": "conditional", "where": "Penaja anda", "how": "Surat penajaan + penyata bank penaja + bukti hubungan." }
+      "cols": [
+        "Dokumen",
+        "Di mana mendapatkannya",
+        "Apa yang perlu ditunjukkan"
       ],
-      "legend": { "required": "Wajib", "conditional": "Jika berkenaan dengan anda", "recommended": "Disyorkan" }
+      "rows": [
+        {
+          "doc": "Pasport",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Sah sekurang-kurangnya 6 bulan dengan halaman kosong."
+        },
+        {
+          "doc": "Borang permohonan visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapkan di Korea Visa Portal, cetak, tandatangani.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Gambar",
+          "req": "required",
+          "where": "Mana-mana studio gambar",
+          "how": "Gambar terkini gaya pasport, latar belakang putih."
+        },
+        {
+          "doc": "Penyata bank — 3 bulan terakhir",
+          "req": "required",
+          "where": "Bank anda",
+          "how": "Penyata yang menunjukkan baki dan sejarah transaksi; baki yang stabil adalah terbaik."
+        },
+        {
+          "doc": "Surat pekerjaan",
+          "req": "required",
+          "where": "Majikan / HR anda",
+          "how": "Pada kepala surat syarikat: jawatan, gaji dan cuti yang diluluskan."
+        },
+        {
+          "doc": "Slip gaji",
+          "req": "required",
+          "where": "Majikan anda",
+          "how": "Slip gaji terkini yang menyokong pendapatan anda."
+        },
+        {
+          "doc": "Tempahan penerbangan pergi-balik & hotel",
+          "req": "required",
+          "where": "Syarikat penerbangan / laman tempahan",
+          "how": "Tempahan/itinerari sudah memadai — jangan bayar tiket sebelum diluluskan."
+        },
+        {
+          "doc": "Surat penaja (jika dibiayai oleh orang lain)",
+          "req": "conditional",
+          "where": "Penaja anda",
+          "how": "Surat penajaan + penyata bank penaja + bukti hubungan."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berkenaan dengan anda",
+        "recommended": "Disyorkan"
+      }
     },
     "funds": {
       "title": "\"Berapa banyak wang yang perlu saya tunjukkan?\"",
@@ -1060,22 +1281,60 @@
     "pitfalls": {
       "title": "Kesilapan yang menyebabkan penolakan & kelewatan",
       "items": [
-        { "icon": "🧍", "t": "Menganggap bersendirian = tanpa visa", "d": "Perintis tanpa visa hanya untuk kumpulan (3 orang atau lebih). Pengembara individu masih memerlukan visa C-3." },
-        { "icon": "💸", "t": "Deposit mengejut", "d": "Jumlah besar sejurus sebelum memohon. Tunjukkan dana yang stabil dan boleh dijelaskan." },
-        { "icon": "🧾", "t": "Bukti pekerjaan lemah", "d": "Ketiadaan surat pekerjaan atau slip gaji. Ini menjadi tunjang fail pemohon individu." },
-        { "icon": "🎫", "t": "Membayar penerbangan terlalu awal", "d": "Membeli tiket yang tidak boleh dikembalikan sebelum diluluskan — tempahan sudah memadai." },
-        { "icon": "🏝️", "t": "Mengelirukan Jeju dengan tanah besar", "d": "Pengecualian visa Jeju tidak meliputi perjalanan ke tanah besar Korea." }
+        {
+          "icon": "🧍",
+          "t": "Menganggap bersendirian = tanpa visa",
+          "d": "Perintis tanpa visa hanya untuk kumpulan (3 orang atau lebih). Pengembara individu masih memerlukan visa C-3."
+        },
+        {
+          "icon": "💸",
+          "t": "Deposit mengejut",
+          "d": "Jumlah besar sejurus sebelum memohon. Tunjukkan dana yang stabil dan boleh dijelaskan."
+        },
+        {
+          "icon": "🧾",
+          "t": "Bukti pekerjaan lemah",
+          "d": "Ketiadaan surat pekerjaan atau slip gaji. Ini menjadi tunjang fail pemohon individu."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membayar penerbangan terlalu awal",
+          "d": "Membeli tiket yang tidak boleh dikembalikan sebelum diluluskan — tempahan sudah memadai."
+        },
+        {
+          "icon": "🏝️",
+          "t": "Mengelirukan Jeju dengan tanah besar",
+          "d": "Pengecualian visa Jeju tidak meliputi perjalanan ke tanah besar Korea."
+        }
       ]
     },
     "faq": {
       "title": "Soalan lazim visa Indonesia → Korea",
       "items": [
-        { "q": "Adakah rakyat Indonesia memerlukan visa untuk Korea?", "a": "Pengembara individu memerlukan visa pelancong C-3 untuk tanah besar Korea. Sejak 28 Mei 2026, kumpulan pelancong 3 orang atau lebih boleh masuk tanpa visa melalui skim perintis; Pulau Jeju mempunyai kemasukan tanpa visa yang berasingan." },
-        { "q": "Saya mengembara bersendirian — bolehkah saya melangkau visa?", "a": "Tidak. Perintis tanpa visa hanya terpakai untuk kumpulan sekurang-kurangnya 3 orang. Pengembara bebas mesti memohon visa C-3." },
-        { "q": "Bukti kewangan apa yang saya perlukan?", "a": "Penyata bank 3 bulan serta surat pekerjaan dan slip gaji. Jika ditaja, sertakan dokumen penaja." },
-        { "q": "Di mana saya memohon?", "a": "Di Kedutaan Korea atau Korea Visa Application Center di Jakarta." },
-        { "q": "Berapakah yurannya?", "a": "Yuran berbeza-beza dan tidak dikembalikan walaupun ditolak. Sahkan jumlah semasa di pusat tersebut." },
-        { "q": "Adakah saya masih memerlukan e-Arrival Card?", "a": "Peraturan dokumen kemasukan seperti e-Arrival Card mungkin masih terpakai semasa ketibaan. Semak peraturan semasa hampir dengan tarikh perjalanan anda." }
+        {
+          "q": "Adakah rakyat Indonesia memerlukan visa untuk Korea?",
+          "a": "Pengembara individu memerlukan visa pelancong C-3 untuk tanah besar Korea. Sejak 28 Mei 2026, kumpulan pelancong 3 orang atau lebih boleh masuk tanpa visa melalui skim perintis; Pulau Jeju mempunyai kemasukan tanpa visa yang berasingan."
+        },
+        {
+          "q": "Saya mengembara bersendirian — bolehkah saya melangkau visa?",
+          "a": "Tidak. Perintis tanpa visa hanya terpakai untuk kumpulan sekurang-kurangnya 3 orang. Pengembara bebas mesti memohon visa C-3."
+        },
+        {
+          "q": "Bukti kewangan apa yang saya perlukan?",
+          "a": "Penyata bank 3 bulan serta surat pekerjaan dan slip gaji. Jika ditaja, sertakan dokumen penaja."
+        },
+        {
+          "q": "Di mana saya memohon?",
+          "a": "Di Kedutaan Korea atau Korea Visa Application Center di Jakarta."
+        },
+        {
+          "q": "Berapakah yurannya?",
+          "a": "Yuran berbeza-beza dan tidak dikembalikan walaupun ditolak. Sahkan jumlah semasa di pusat tersebut."
+        },
+        {
+          "q": "Adakah saya masih memerlukan e-Arrival Card?",
+          "a": "Peraturan dokumen kemasukan seperti e-Arrival Card mungkin masih terpakai semasa ketibaan. Semak peraturan semasa hampir dengan tarikh perjalanan anda."
+        }
       ]
     }
   },
@@ -1085,7 +1344,20 @@
     "h1": "印度尼西亚公民的韩国签证",
     "metaTitle": "从印度尼西亚办理韩国签证：分步指南（2026）— Korea Trip Hub",
     "metaDesc": "如何从印度尼西亚申请韩国旅游签证：在哪里申请、所需文件（以及每份文件的获取地点）、费用和官方链接。个人旅行者需要 C-3 旅游签证；团体可能免签。",
-    "ui": { "visa": "签证类型", "stay": "停留时间", "entry": "入境次数", "where": "在哪里获取", "official": "官方来源", "required": "必需", "conditional": "如适用", "recommended": "建议", "confirm": "费用/规定可能变动 — 请以官方来源为准", "source": "来源", "updated": "更新于", "tldr": "摘要" },
+    "ui": {
+      "visa": "签证类型",
+      "stay": "停留时间",
+      "entry": "入境次数",
+      "where": "在哪里获取",
+      "official": "官方来源",
+      "required": "必需",
+      "conditional": "如适用",
+      "recommended": "建议",
+      "confirm": "费用/规定可能变动 — 请以官方来源为准",
+      "source": "来源",
+      "updated": "更新于",
+      "tldr": "摘要"
+    },
     "verdict": {
       "headline": "印度尼西亚个人旅行者需要签证 — 但团体可能不需要。",
       "sub": "前往韩国本土的自由行需申请 C-3 旅游签证。自 2026 年 5 月 28 日起，3 人及以上的旅游团可通过试点计划免签短期入境；个人旅行者尚不符合资格。",
@@ -1094,8 +1366,18 @@
       "entry": "单次入境（个人）／符合条件的团体免签"
     },
     "highlights": [
-      { "icon": "👥", "tone": "green", "title": "自 2026 年 5 月 28 日起团体免签", "body": "至少 3 人的印度尼西亚旅游团可通过试点计划免签短期入境。仅限团体 — 个人旅行者仍需签证。" },
-      { "icon": "🏝️", "tone": "amber", "title": "Jeju岛 — 单独的免签入境", "body": "印度尼西亚公民可免签进入 Jeju（仅限 Jeju，直飞航班，不可中转至本土）。这与本土旅游签证是分开的。" }
+      {
+        "icon": "👥",
+        "tone": "green",
+        "title": "自 2026 年 5 月 28 日起团体免签",
+        "body": "至少 3 人的印度尼西亚旅游团可通过试点计划免签短期入境。仅限团体 — 个人旅行者仍需签证。"
+      },
+      {
+        "icon": "🏝️",
+        "tone": "amber",
+        "title": "Jeju岛 — 单独的免签入境",
+        "body": "印度尼西亚公民可免签进入 Jeju（仅限 Jeju，直飞航班，不可中转至本土）。这与本土旅游签证是分开的。"
+      }
     ],
     "tldr": [
       "自由行旅客前往韩国本土需要 C-3 旅游签证。",
@@ -1106,30 +1388,109 @@
     "steps": {
       "title": "申请流程，分步说明（个人 C-3）",
       "items": [
-        { "n": 1, "title": "确认签证类型", "detail": "自由行旅客申请短期旅游签证 C-3。（3 人及以上团体应向旅行社咨询免签试点计划。）" },
-        { "n": 2, "title": "在 visa.go.kr 填写表格", "detail": "在 Korea Visa Portal（唯一官方网站）填写申请表，然后打印并签名。", "link": "https://www.visa.go.kr", "linkLabel": "韩国签证门户" },
-        { "n": 3, "title": "准备您的文件", "detail": "备齐以下清单：护照、照片、3 个月银行对账单和工作证明。" },
-        { "n": 4, "title": "在大使馆／KVAC Jakarta 提交", "detail": "向韩国大使馆或 Jakarta 的 Korea Visa Application Center 递交申请。" },
-        { "n": 5, "title": "缴纳费用", "detail": "缴纳签证费和任何服务费。即使被拒也不退款 — 请在中心确认金额。" },
-        { "n": 6, "title": "跟踪并等待", "detail": "通过中心的渠道跟踪状态。获批前请勿购买不可退款的机票。" },
-        { "n": 7, "title": "领取护照", "detail": "领取护照并立即核对签证信息。" }
+        {
+          "n": 1,
+          "title": "确认签证类型",
+          "detail": "自由行旅客申请短期旅游签证 C-3。（3 人及以上团体应向旅行社咨询免签试点计划。）"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填写表格",
+          "detail": "在 Korea Visa Portal（唯一官方网站）填写申请表，然后打印并签名。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "韩国签证门户"
+        },
+        {
+          "n": 3,
+          "title": "准备您的文件",
+          "detail": "备齐以下清单：护照、照片、3 个月银行对账单和工作证明。"
+        },
+        {
+          "n": 4,
+          "title": "在大使馆／KVAC Jakarta 提交",
+          "detail": "向韩国大使馆或 Jakarta 的 Korea Visa Application Center 递交申请。"
+        },
+        {
+          "n": 5,
+          "title": "缴纳费用",
+          "detail": "缴纳签证费和任何服务费。即使被拒也不退款 — 请在中心确认金额。"
+        },
+        {
+          "n": 6,
+          "title": "跟踪并等待",
+          "detail": "通过中心的渠道跟踪状态。获批前请勿购买不可退款的机票。"
+        },
+        {
+          "n": 7,
+          "title": "领取护照",
+          "detail": "领取护照并立即核对签证信息。"
+        }
       ]
     },
     "documents": {
       "title": "文件清单 — 附每份文件的获取地点与方式",
       "intro": "对于每一项，这里说明在哪里获取以及必须显示的内容。",
-      "cols": ["文件", "在哪里获取", "必须显示的内容"],
-      "rows": [
-        { "doc": "护照", "req": "required", "where": "您已持有", "how": "有效期 6 个月以上，含空白页。" },
-        { "doc": "签证申请表", "req": "required", "where": "visa.go.kr", "how": "在 Korea Visa Portal 填写、打印、签名。", "link": "https://www.visa.go.kr" },
-        { "doc": "照片", "req": "required", "where": "任何照相馆", "how": "近期护照式照片，白色背景。" },
-        { "doc": "银行对账单 — 最近 3 个月", "req": "required", "where": "您的银行", "how": "显示余额和交易记录的对账单；余额稳定为佳。" },
-        { "doc": "在职证明", "req": "required", "where": "您的雇主／人力资源部", "how": "公司信头上：职位、薪资和已批准的休假。" },
-        { "doc": "工资单", "req": "required", "where": "您的雇主", "how": "支持您收入的近期工资单。" },
-        { "doc": "往返机票和酒店预订", "req": "required", "where": "航空公司／预订网站", "how": "预订／行程即可 — 获批前请勿付款购票。" },
-        { "doc": "担保信（若由他人资助）", "req": "conditional", "where": "您的担保人", "how": "担保信 + 担保人的银行对账单 + 关系证明。" }
+      "cols": [
+        "文件",
+        "在哪里获取",
+        "必须显示的内容"
       ],
-      "legend": { "required": "必需", "conditional": "如适用于您", "recommended": "建议" }
+      "rows": [
+        {
+          "doc": "护照",
+          "req": "required",
+          "where": "您已持有",
+          "how": "有效期 6 个月以上，含空白页。"
+        },
+        {
+          "doc": "签证申请表",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在 Korea Visa Portal 填写、打印、签名。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片",
+          "req": "required",
+          "where": "任何照相馆",
+          "how": "近期护照式照片，白色背景。"
+        },
+        {
+          "doc": "银行对账单 — 最近 3 个月",
+          "req": "required",
+          "where": "您的银行",
+          "how": "显示余额和交易记录的对账单；余额稳定为佳。"
+        },
+        {
+          "doc": "在职证明",
+          "req": "required",
+          "where": "您的雇主／人力资源部",
+          "how": "公司信头上：职位、薪资和已批准的休假。"
+        },
+        {
+          "doc": "工资单",
+          "req": "required",
+          "where": "您的雇主",
+          "how": "支持您收入的近期工资单。"
+        },
+        {
+          "doc": "往返机票和酒店预订",
+          "req": "required",
+          "where": "航空公司／预订网站",
+          "how": "预订／行程即可 — 获批前请勿付款购票。"
+        },
+        {
+          "doc": "担保信（若由他人资助）",
+          "req": "conditional",
+          "where": "您的担保人",
+          "how": "担保信 + 担保人的银行对账单 + 关系证明。"
+        }
+      ],
+      "legend": {
+        "required": "必需",
+        "conditional": "如适用于您",
+        "recommended": "建议"
+      }
     },
     "funds": {
       "title": "「我应该出示多少资金？」",
@@ -1143,22 +1504,60 @@
     "pitfalls": {
       "title": "导致拒签和延误的错误",
       "items": [
-        { "icon": "🧍", "t": "以为单独出行 = 免签", "d": "免签试点仅限团体（3 人及以上）。个人旅行者仍需 C-3 签证。" },
-        { "icon": "💸", "t": "突然存款", "d": "申请前突然存入大笔款项。请出示稳定且可解释的资金。" },
-        { "icon": "🧾", "t": "工作证明薄弱", "d": "缺少在职证明或工资单。这些是个人申请者材料的支柱。" },
-        { "icon": "🎫", "t": "过早付款购票", "d": "获批前购买不可退款的机票 — 预订即可。" },
-        { "icon": "🏝️", "t": "混淆 Jeju 与本土", "d": "Jeju 免签不涵盖韩国本土的旅行。" }
+        {
+          "icon": "🧍",
+          "t": "以为单独出行 = 免签",
+          "d": "免签试点仅限团体（3 人及以上）。个人旅行者仍需 C-3 签证。"
+        },
+        {
+          "icon": "💸",
+          "t": "突然存款",
+          "d": "申请前突然存入大笔款项。请出示稳定且可解释的资金。"
+        },
+        {
+          "icon": "🧾",
+          "t": "工作证明薄弱",
+          "d": "缺少在职证明或工资单。这些是个人申请者材料的支柱。"
+        },
+        {
+          "icon": "🎫",
+          "t": "过早付款购票",
+          "d": "获批前购买不可退款的机票 — 预订即可。"
+        },
+        {
+          "icon": "🏝️",
+          "t": "混淆 Jeju 与本土",
+          "d": "Jeju 免签不涵盖韩国本土的旅行。"
+        }
       ]
     },
     "faq": {
       "title": "印度尼西亚 → 韩国签证常见问题",
       "items": [
-        { "q": "印度尼西亚人去韩国需要签证吗？", "a": "个人旅行者前往韩国本土需要 C-3 旅游签证。自 2026 年 5 月 28 日起，3 人及以上的旅游团可通过试点计划免签入境；Jeju 岛有单独的免签入境。" },
-        { "q": "我独自旅行 — 可以免办签证吗？", "a": "不可以。免签试点仅适用于至少 3 人的团体。自由行旅客必须申请 C-3 签证。" },
-        { "q": "我需要什么财力证明？", "a": "3 个月银行对账单，外加在职证明和工资单。如有担保，请附上担保人的文件。" },
-        { "q": "我在哪里申请？", "a": "在韩国大使馆或 Jakarta 的 Korea Visa Application Center。" },
-        { "q": "费用是多少？", "a": "费用各异，即使被拒也不退款。请在中心确认当前金额。" },
-        { "q": "我还需要 e-Arrival Card 吗？", "a": "e-Arrival Card 等入境文件规定在抵达时仍可能适用。请在出行日期临近时查看现行规定。" }
+        {
+          "q": "印度尼西亚人去韩国需要签证吗？",
+          "a": "个人旅行者前往韩国本土需要 C-3 旅游签证。自 2026 年 5 月 28 日起，3 人及以上的旅游团可通过试点计划免签入境；Jeju 岛有单独的免签入境。"
+        },
+        {
+          "q": "我独自旅行 — 可以免办签证吗？",
+          "a": "不可以。免签试点仅适用于至少 3 人的团体。自由行旅客必须申请 C-3 签证。"
+        },
+        {
+          "q": "我需要什么财力证明？",
+          "a": "3 个月银行对账单，外加在职证明和工资单。如有担保，请附上担保人的文件。"
+        },
+        {
+          "q": "我在哪里申请？",
+          "a": "在韩国大使馆或 Jakarta 的 Korea Visa Application Center。"
+        },
+        {
+          "q": "费用是多少？",
+          "a": "费用各异，即使被拒也不退款。请在中心确认当前金额。"
+        },
+        {
+          "q": "我还需要 e-Arrival Card 吗？",
+          "a": "e-Arrival Card 等入境文件规定在抵达时仍可能适用。请在出行日期临近时查看现行规定。"
+        }
       ]
     }
   },
@@ -1168,7 +1567,20 @@
     "h1": "印尼公民的韓國簽證",
     "metaTitle": "從印尼辦理韓國簽證：分步指南（2026）— Korea Trip Hub",
     "metaDesc": "如何從印尼申請韓國旅遊簽證：在哪裡申請、所需文件（以及每份文件的取得地點）、費用和官方連結。個人旅客需要 C-3 旅遊簽證；團體可能免簽。",
-    "ui": { "visa": "簽證類型", "stay": "停留時間", "entry": "入境次數", "where": "在哪裡取得", "official": "官方來源", "required": "必需", "conditional": "如適用", "recommended": "建議", "confirm": "費用/規定可能變動 — 請以官方來源為準", "source": "來源", "updated": "更新於", "tldr": "摘要" },
+    "ui": {
+      "visa": "簽證類型",
+      "stay": "停留時間",
+      "entry": "入境次數",
+      "where": "在哪裡取得",
+      "official": "官方來源",
+      "required": "必需",
+      "conditional": "如適用",
+      "recommended": "建議",
+      "confirm": "費用/規定可能變動 — 請以官方來源為準",
+      "source": "來源",
+      "updated": "更新於",
+      "tldr": "摘要"
+    },
     "verdict": {
       "headline": "印尼個人旅客需要簽證 — 但團體可能不需要。",
       "sub": "前往韓國本土的自由行需申請 C-3 旅遊簽證。自 2026 年 5 月 28 日起，3 人及以上的旅遊團可透過試辦計畫免簽短期入境；個人旅客尚不符合資格。",
@@ -1177,8 +1589,18 @@
       "entry": "單次入境（個人）／符合條件的團體免簽"
     },
     "highlights": [
-      { "icon": "👥", "tone": "green", "title": "自 2026 年 5 月 28 日起團體免簽", "body": "至少 3 人的印尼旅遊團可透過試辦計畫免簽短期入境。僅限團體 — 個人旅客仍需簽證。" },
-      { "icon": "🏝️", "tone": "amber", "title": "Jeju島 — 單獨的免簽入境", "body": "印尼公民可免簽進入 Jeju（僅限 Jeju，直飛航班，不可轉機至本土）。這與本土旅遊簽證是分開的。" }
+      {
+        "icon": "👥",
+        "tone": "green",
+        "title": "自 2026 年 5 月 28 日起團體免簽",
+        "body": "至少 3 人的印尼旅遊團可透過試辦計畫免簽短期入境。僅限團體 — 個人旅客仍需簽證。"
+      },
+      {
+        "icon": "🏝️",
+        "tone": "amber",
+        "title": "Jeju島 — 單獨的免簽入境",
+        "body": "印尼公民可免簽進入 Jeju（僅限 Jeju，直飛航班，不可轉機至本土）。這與本土旅遊簽證是分開的。"
+      }
     ],
     "tldr": [
       "自由行旅客前往韓國本土需要 C-3 旅遊簽證。",
@@ -1189,30 +1611,109 @@
     "steps": {
       "title": "申請流程，分步說明（個人 C-3）",
       "items": [
-        { "n": 1, "title": "確認簽證類型", "detail": "自由行旅客申請短期旅遊簽證 C-3。（3 人及以上團體應向旅行社洽詢免簽試辦計畫。）" },
-        { "n": 2, "title": "在 visa.go.kr 填寫表格", "detail": "在 Korea Visa Portal（唯一官方網站）填寫申請表，然後列印並簽名。", "link": "https://www.visa.go.kr", "linkLabel": "韓國簽證入口網" },
-        { "n": 3, "title": "準備您的文件", "detail": "備齊以下清單：護照、照片、3 個月銀行對帳單和工作證明。" },
-        { "n": 4, "title": "在大使館／KVAC Jakarta 遞交", "detail": "向韓國大使館或 Jakarta 的 Korea Visa Application Center 遞交申請。" },
-        { "n": 5, "title": "繳納費用", "detail": "繳納簽證費和任何服務費。即使遭拒也不退款 — 請在中心確認金額。" },
-        { "n": 6, "title": "追蹤並等待", "detail": "透過中心的管道追蹤狀態。獲准前請勿購買不可退款的機票。" },
-        { "n": 7, "title": "領取護照", "detail": "領取護照並立即核對簽證資訊。" }
+        {
+          "n": 1,
+          "title": "確認簽證類型",
+          "detail": "自由行旅客申請短期旅遊簽證 C-3。（3 人及以上團體應向旅行社洽詢免簽試辦計畫。）"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填寫表格",
+          "detail": "在 Korea Visa Portal（唯一官方網站）填寫申請表，然後列印並簽名。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "韓國簽證入口網"
+        },
+        {
+          "n": 3,
+          "title": "準備您的文件",
+          "detail": "備齊以下清單：護照、照片、3 個月銀行對帳單和工作證明。"
+        },
+        {
+          "n": 4,
+          "title": "在大使館／KVAC Jakarta 遞交",
+          "detail": "向韓國大使館或 Jakarta 的 Korea Visa Application Center 遞交申請。"
+        },
+        {
+          "n": 5,
+          "title": "繳納費用",
+          "detail": "繳納簽證費和任何服務費。即使遭拒也不退款 — 請在中心確認金額。"
+        },
+        {
+          "n": 6,
+          "title": "追蹤並等待",
+          "detail": "透過中心的管道追蹤狀態。獲准前請勿購買不可退款的機票。"
+        },
+        {
+          "n": 7,
+          "title": "領取護照",
+          "detail": "領取護照並立即核對簽證資訊。"
+        }
       ]
     },
     "documents": {
       "title": "文件清單 — 附每份文件的取得地點與方式",
       "intro": "對於每一項，這裡說明在哪裡取得以及必須顯示的內容。",
-      "cols": ["文件", "在哪裡取得", "必須顯示的內容"],
-      "rows": [
-        { "doc": "護照", "req": "required", "where": "您已持有", "how": "有效期 6 個月以上，含空白頁。" },
-        { "doc": "簽證申請表", "req": "required", "where": "visa.go.kr", "how": "在 Korea Visa Portal 填寫、列印、簽名。", "link": "https://www.visa.go.kr" },
-        { "doc": "照片", "req": "required", "where": "任何照相館", "how": "近期護照式照片，白色背景。" },
-        { "doc": "銀行對帳單 — 最近 3 個月", "req": "required", "where": "您的銀行", "how": "顯示餘額和交易紀錄的對帳單；餘額穩定為佳。" },
-        { "doc": "在職證明", "req": "required", "where": "您的雇主／人力資源部", "how": "公司信頭上：職位、薪資和已核准的休假。" },
-        { "doc": "薪資單", "req": "required", "where": "您的雇主", "how": "佐證您收入的近期薪資單。" },
-        { "doc": "來回機票和飯店預訂", "req": "required", "where": "航空公司／預訂網站", "how": "預訂／行程即可 — 獲准前請勿付款購票。" },
-        { "doc": "擔保信（若由他人資助）", "req": "conditional", "where": "您的擔保人", "how": "擔保信 + 擔保人的銀行對帳單 + 關係證明。" }
+      "cols": [
+        "文件",
+        "在哪裡取得",
+        "必須顯示的內容"
       ],
-      "legend": { "required": "必需", "conditional": "如適用於您", "recommended": "建議" }
+      "rows": [
+        {
+          "doc": "護照",
+          "req": "required",
+          "where": "您已持有",
+          "how": "有效期 6 個月以上，含空白頁。"
+        },
+        {
+          "doc": "簽證申請表",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在 Korea Visa Portal 填寫、列印、簽名。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片",
+          "req": "required",
+          "where": "任何照相館",
+          "how": "近期護照式照片，白色背景。"
+        },
+        {
+          "doc": "銀行對帳單 — 最近 3 個月",
+          "req": "required",
+          "where": "您的銀行",
+          "how": "顯示餘額和交易紀錄的對帳單；餘額穩定為佳。"
+        },
+        {
+          "doc": "在職證明",
+          "req": "required",
+          "where": "您的雇主／人力資源部",
+          "how": "公司信頭上：職位、薪資和已核准的休假。"
+        },
+        {
+          "doc": "薪資單",
+          "req": "required",
+          "where": "您的雇主",
+          "how": "佐證您收入的近期薪資單。"
+        },
+        {
+          "doc": "來回機票和飯店預訂",
+          "req": "required",
+          "where": "航空公司／預訂網站",
+          "how": "預訂／行程即可 — 獲准前請勿付款購票。"
+        },
+        {
+          "doc": "擔保信（若由他人資助）",
+          "req": "conditional",
+          "where": "您的擔保人",
+          "how": "擔保信 + 擔保人的銀行對帳單 + 關係證明。"
+        }
+      ],
+      "legend": {
+        "required": "必需",
+        "conditional": "如適用於您",
+        "recommended": "建議"
+      }
     },
     "funds": {
       "title": "「我應該出示多少資金？」",
@@ -1226,22 +1727,60 @@
     "pitfalls": {
       "title": "導致拒簽和延誤的錯誤",
       "items": [
-        { "icon": "🧍", "t": "以為單獨出行 = 免簽", "d": "免簽試辦僅限團體（3 人及以上）。個人旅客仍需 C-3 簽證。" },
-        { "icon": "💸", "t": "突然存款", "d": "申請前突然存入大筆款項。請出示穩定且可解釋的資金。" },
-        { "icon": "🧾", "t": "工作證明薄弱", "d": "缺少在職證明或薪資單。這些是個人申請者資料的支柱。" },
-        { "icon": "🎫", "t": "過早付款購票", "d": "獲准前購買不可退款的機票 — 預訂即可。" },
-        { "icon": "🏝️", "t": "混淆 Jeju 與本土", "d": "Jeju 免簽不涵蓋韓國本土的旅行。" }
+        {
+          "icon": "🧍",
+          "t": "以為單獨出行 = 免簽",
+          "d": "免簽試辦僅限團體（3 人及以上）。個人旅客仍需 C-3 簽證。"
+        },
+        {
+          "icon": "💸",
+          "t": "突然存款",
+          "d": "申請前突然存入大筆款項。請出示穩定且可解釋的資金。"
+        },
+        {
+          "icon": "🧾",
+          "t": "工作證明薄弱",
+          "d": "缺少在職證明或薪資單。這些是個人申請者資料的支柱。"
+        },
+        {
+          "icon": "🎫",
+          "t": "過早付款購票",
+          "d": "獲准前購買不可退款的機票 — 預訂即可。"
+        },
+        {
+          "icon": "🏝️",
+          "t": "混淆 Jeju 與本土",
+          "d": "Jeju 免簽不涵蓋韓國本土的旅行。"
+        }
       ]
     },
     "faq": {
       "title": "印尼 → 韓國簽證常見問題",
       "items": [
-        { "q": "印尼人去韓國需要簽證嗎？", "a": "個人旅客前往韓國本土需要 C-3 旅遊簽證。自 2026 年 5 月 28 日起，3 人及以上的旅遊團可透過試辦計畫免簽入境；Jeju 島有單獨的免簽入境。" },
-        { "q": "我獨自旅行 — 可以免辦簽證嗎？", "a": "不可以。免簽試辦僅適用於至少 3 人的團體。自由行旅客必須申請 C-3 簽證。" },
-        { "q": "我需要什麼財力證明？", "a": "3 個月銀行對帳單，外加在職證明和薪資單。如有擔保，請附上擔保人的文件。" },
-        { "q": "我在哪裡申請？", "a": "在韓國大使館或 Jakarta 的 Korea Visa Application Center。" },
-        { "q": "費用是多少？", "a": "費用各異，即使遭拒也不退款。請在中心確認目前金額。" },
-        { "q": "我還需要 e-Arrival Card 嗎？", "a": "e-Arrival Card 等入境文件規定在抵達時仍可能適用。請在出行日期臨近時查看現行規定。" }
+        {
+          "q": "印尼人去韓國需要簽證嗎？",
+          "a": "個人旅客前往韓國本土需要 C-3 旅遊簽證。自 2026 年 5 月 28 日起，3 人及以上的旅遊團可透過試辦計畫免簽入境；Jeju 島有單獨的免簽入境。"
+        },
+        {
+          "q": "我獨自旅行 — 可以免辦簽證嗎？",
+          "a": "不可以。免簽試辦僅適用於至少 3 人的團體。自由行旅客必須申請 C-3 簽證。"
+        },
+        {
+          "q": "我需要什麼財力證明？",
+          "a": "3 個月銀行對帳單，外加在職證明和薪資單。如有擔保，請附上擔保人的文件。"
+        },
+        {
+          "q": "我在哪裡申請？",
+          "a": "在韓國大使館或 Jakarta 的 Korea Visa Application Center。"
+        },
+        {
+          "q": "費用是多少？",
+          "a": "費用各異，即使遭拒也不退款。請在中心確認目前金額。"
+        },
+        {
+          "q": "我還需要 e-Arrival Card 嗎？",
+          "a": "e-Arrival Card 等入境文件規定在抵達時仍可能適用。請在出行日期臨近時查看現行規定。"
+        }
       ]
     }
   },
@@ -1251,7 +1790,20 @@
     "h1": "Thị thực Hàn Quốc cho công dân Indonesia",
     "metaTitle": "Thị thực Hàn Quốc từ Indonesia: hướng dẫn từng bước (2026) — Korea Trip Hub",
     "metaDesc": "Cách xin thị thực du lịch Hàn Quốc từ Indonesia: nộp ở đâu, giấy tờ (và nơi lấy từng loại), lệ phí và liên kết chính thức. Khách du lịch cá nhân cần thị thực du lịch C-3; các đoàn có thể được miễn thị thực.",
-    "ui": { "visa": "Loại thị thực", "stay": "Thời gian lưu trú", "entry": "Số lần nhập cảnh", "where": "Lấy ở đâu", "official": "Nguồn chính thức", "required": "Bắt buộc", "conditional": "Nếu áp dụng", "recommended": "Khuyến nghị", "confirm": "Lệ phí/quy định có thể thay đổi — vui lòng xác nhận tại nguồn chính thức", "source": "Nguồn", "updated": "Cập nhật", "tldr": "TÓM TẮT" },
+    "ui": {
+      "visa": "Loại thị thực",
+      "stay": "Thời gian lưu trú",
+      "entry": "Số lần nhập cảnh",
+      "where": "Lấy ở đâu",
+      "official": "Nguồn chính thức",
+      "required": "Bắt buộc",
+      "conditional": "Nếu áp dụng",
+      "recommended": "Khuyến nghị",
+      "confirm": "Lệ phí/quy định có thể thay đổi — vui lòng xác nhận tại nguồn chính thức",
+      "source": "Nguồn",
+      "updated": "Cập nhật",
+      "tldr": "TÓM TẮT"
+    },
     "verdict": {
       "headline": "Khách du lịch cá nhân Indonesia cần thị thực — nhưng các đoàn thì có thể không.",
       "sub": "Đối với chuyến đi tự túc tới Hàn Quốc đại lục, bạn xin thị thực du lịch C-3. Kể từ ngày 28 tháng 5 năm 2026, các đoàn du lịch từ 3 người trở lên có thể nhập cảnh miễn thị thực cho các kỳ lưu trú ngắn theo một chương trình thí điểm; cá nhân chưa đủ điều kiện.",
@@ -1260,8 +1812,18 @@
       "entry": "Nhập cảnh một lần (cá nhân) / miễn thị thực cho các đoàn đủ điều kiện"
     },
     "highlights": [
-      { "icon": "👥", "tone": "green", "title": "Miễn thị thực cho đoàn từ ngày 28 tháng 5 năm 2026", "body": "Các đoàn du lịch Indonesia gồm ít nhất 3 người có thể nhập cảnh miễn thị thực cho các kỳ lưu trú ngắn theo một chương trình thí điểm. Chỉ áp dụng cho đoàn — khách du lịch cá nhân vẫn cần thị thực." },
-      { "icon": "🏝️", "tone": "amber", "title": "Đảo Jeju — miễn thị thực riêng", "body": "Công dân Indonesia có thể nhập cảnh Jeju miễn thị thực (chỉ Jeju, chuyến bay thẳng, không quá cảnh vào đại lục). Điều này tách biệt với thị thực du lịch đại lục." }
+      {
+        "icon": "👥",
+        "tone": "green",
+        "title": "Miễn thị thực cho đoàn từ ngày 28 tháng 5 năm 2026",
+        "body": "Các đoàn du lịch Indonesia gồm ít nhất 3 người có thể nhập cảnh miễn thị thực cho các kỳ lưu trú ngắn theo một chương trình thí điểm. Chỉ áp dụng cho đoàn — khách du lịch cá nhân vẫn cần thị thực."
+      },
+      {
+        "icon": "🏝️",
+        "tone": "amber",
+        "title": "Đảo Jeju — miễn thị thực riêng",
+        "body": "Công dân Indonesia có thể nhập cảnh Jeju miễn thị thực (chỉ Jeju, chuyến bay thẳng, không quá cảnh vào đại lục). Điều này tách biệt với thị thực du lịch đại lục."
+      }
     ],
     "tldr": [
       "Khách du lịch tự túc cần thị thực du lịch C-3 cho Hàn Quốc đại lục.",
@@ -1272,30 +1834,109 @@
     "steps": {
       "title": "Quy trình nộp hồ sơ, từng bước (C-3 cá nhân)",
       "items": [
-        { "n": 1, "title": "Xác nhận loại thị thực", "detail": "Khách du lịch tự túc xin thị thực du lịch ngắn hạn C-3. (Các đoàn từ 3 người trở lên nên hỏi công ty lữ hành về chương trình thí điểm miễn thị thực.)" },
-        { "n": 2, "title": "Điền biểu mẫu tại visa.go.kr", "detail": "Hoàn thành đơn xin thị thực trên Korea Visa Portal — trang chính thức duy nhất — rồi in ra và ký tên.", "link": "https://www.visa.go.kr", "linkLabel": "Cổng thị thực Hàn Quốc" },
-        { "n": 3, "title": "Chuẩn bị giấy tờ của bạn", "detail": "Thu thập danh sách bên dưới: hộ chiếu, ảnh, sao kê ngân hàng 3 tháng và bằng chứng việc làm." },
-        { "n": 4, "title": "Nộp tại Đại sứ quán / KVAC Jakarta", "detail": "Nộp hồ sơ của bạn tại Đại sứ quán Hàn Quốc hoặc Korea Visa Application Center ở Jakarta." },
-        { "n": 5, "title": "Thanh toán lệ phí", "detail": "Thanh toán lệ phí thị thực và mọi khoản phí dịch vụ. Lệ phí không được hoàn lại ngay cả khi bị từ chối — hãy xác nhận số tiền tại trung tâm." },
-        { "n": 6, "title": "Theo dõi và chờ đợi", "detail": "Theo dõi trạng thái qua kênh của trung tâm. Đừng mua vé máy bay không hoàn tiền trước khi được chấp thuận." },
-        { "n": 7, "title": "Nhận hộ chiếu của bạn", "detail": "Nhận hộ chiếu và kiểm tra ngay thông tin thị thực." }
+        {
+          "n": 1,
+          "title": "Xác nhận loại thị thực",
+          "detail": "Khách du lịch tự túc xin thị thực du lịch ngắn hạn C-3. (Các đoàn từ 3 người trở lên nên hỏi công ty lữ hành về chương trình thí điểm miễn thị thực.)"
+        },
+        {
+          "n": 2,
+          "title": "Điền biểu mẫu tại visa.go.kr",
+          "detail": "Hoàn thành đơn xin thị thực trên Korea Visa Portal — trang chính thức duy nhất — rồi in ra và ký tên.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Cổng thị thực Hàn Quốc"
+        },
+        {
+          "n": 3,
+          "title": "Chuẩn bị giấy tờ của bạn",
+          "detail": "Thu thập danh sách bên dưới: hộ chiếu, ảnh, sao kê ngân hàng 3 tháng và bằng chứng việc làm."
+        },
+        {
+          "n": 4,
+          "title": "Nộp tại Đại sứ quán / KVAC Jakarta",
+          "detail": "Nộp hồ sơ của bạn tại Đại sứ quán Hàn Quốc hoặc Korea Visa Application Center ở Jakarta."
+        },
+        {
+          "n": 5,
+          "title": "Thanh toán lệ phí",
+          "detail": "Thanh toán lệ phí thị thực và mọi khoản phí dịch vụ. Lệ phí không được hoàn lại ngay cả khi bị từ chối — hãy xác nhận số tiền tại trung tâm."
+        },
+        {
+          "n": 6,
+          "title": "Theo dõi và chờ đợi",
+          "detail": "Theo dõi trạng thái qua kênh của trung tâm. Đừng mua vé máy bay không hoàn tiền trước khi được chấp thuận."
+        },
+        {
+          "n": 7,
+          "title": "Nhận hộ chiếu của bạn",
+          "detail": "Nhận hộ chiếu và kiểm tra ngay thông tin thị thực."
+        }
       ]
     },
     "documents": {
       "title": "Danh sách giấy tờ — kèm nơi và cách lấy từng loại",
       "intro": "Với mỗi mục, đây là nơi lấy và những gì nó phải thể hiện.",
-      "cols": ["Giấy tờ", "Lấy ở đâu", "Phải thể hiện điều gì"],
-      "rows": [
-        { "doc": "Hộ chiếu", "req": "required", "where": "Bạn đã có", "how": "Còn hạn từ 6 tháng trở lên, có trang trống." },
-        { "doc": "Đơn xin thị thực", "req": "required", "where": "visa.go.kr", "how": "Hoàn thành trên Korea Visa Portal, in ra, ký tên.", "link": "https://www.visa.go.kr" },
-        { "doc": "Ảnh", "req": "required", "where": "Bất kỳ tiệm chụp ảnh nào", "how": "Ảnh kiểu hộ chiếu gần đây, nền trắng." },
-        { "doc": "Sao kê ngân hàng — 3 tháng gần nhất", "req": "required", "where": "Ngân hàng của bạn", "how": "Sao kê thể hiện số dư và lịch sử giao dịch; số dư ổn định là tốt nhất." },
-        { "doc": "Thư xác nhận việc làm", "req": "required", "where": "Chủ lao động / phòng nhân sự của bạn", "how": "Trên giấy tiêu đề công ty: chức vụ, mức lương và ngày nghỉ phép đã được duyệt." },
-        { "doc": "Phiếu lương", "req": "required", "where": "Chủ lao động của bạn", "how": "Phiếu lương gần đây chứng minh thu nhập của bạn." },
-        { "doc": "Đặt vé máy bay khứ hồi và khách sạn", "req": "required", "where": "Hãng hàng không / trang đặt chỗ", "how": "Đặt chỗ/lịch trình là đủ — đừng trả tiền vé trước khi được chấp thuận." },
-        { "doc": "Thư bảo lãnh (nếu do người khác tài trợ)", "req": "conditional", "where": "Người bảo lãnh của bạn", "how": "Thư bảo lãnh + sao kê ngân hàng của người bảo lãnh + bằng chứng quan hệ." }
+      "cols": [
+        "Giấy tờ",
+        "Lấy ở đâu",
+        "Phải thể hiện điều gì"
       ],
-      "legend": { "required": "Bắt buộc", "conditional": "Nếu áp dụng với bạn", "recommended": "Khuyến nghị" }
+      "rows": [
+        {
+          "doc": "Hộ chiếu",
+          "req": "required",
+          "where": "Bạn đã có",
+          "how": "Còn hạn từ 6 tháng trở lên, có trang trống."
+        },
+        {
+          "doc": "Đơn xin thị thực",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Hoàn thành trên Korea Visa Portal, in ra, ký tên.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Ảnh",
+          "req": "required",
+          "where": "Bất kỳ tiệm chụp ảnh nào",
+          "how": "Ảnh kiểu hộ chiếu gần đây, nền trắng."
+        },
+        {
+          "doc": "Sao kê ngân hàng — 3 tháng gần nhất",
+          "req": "required",
+          "where": "Ngân hàng của bạn",
+          "how": "Sao kê thể hiện số dư và lịch sử giao dịch; số dư ổn định là tốt nhất."
+        },
+        {
+          "doc": "Thư xác nhận việc làm",
+          "req": "required",
+          "where": "Chủ lao động / phòng nhân sự của bạn",
+          "how": "Trên giấy tiêu đề công ty: chức vụ, mức lương và ngày nghỉ phép đã được duyệt."
+        },
+        {
+          "doc": "Phiếu lương",
+          "req": "required",
+          "where": "Chủ lao động của bạn",
+          "how": "Phiếu lương gần đây chứng minh thu nhập của bạn."
+        },
+        {
+          "doc": "Đặt vé máy bay khứ hồi và khách sạn",
+          "req": "required",
+          "where": "Hãng hàng không / trang đặt chỗ",
+          "how": "Đặt chỗ/lịch trình là đủ — đừng trả tiền vé trước khi được chấp thuận."
+        },
+        {
+          "doc": "Thư bảo lãnh (nếu do người khác tài trợ)",
+          "req": "conditional",
+          "where": "Người bảo lãnh của bạn",
+          "how": "Thư bảo lãnh + sao kê ngân hàng của người bảo lãnh + bằng chứng quan hệ."
+        }
+      ],
+      "legend": {
+        "required": "Bắt buộc",
+        "conditional": "Nếu áp dụng với bạn",
+        "recommended": "Khuyến nghị"
+      }
     },
     "funds": {
       "title": "\"Tôi cần chứng minh bao nhiêu tiền?\"",
@@ -1309,271 +1950,60 @@
     "pitfalls": {
       "title": "Những sai lầm dẫn đến từ chối và chậm trễ",
       "items": [
-        { "icon": "🧍", "t": "Cho rằng đi một mình = miễn thị thực", "d": "Chương trình thí điểm miễn thị thực chỉ dành cho đoàn (3 người trở lên). Khách du lịch cá nhân vẫn cần thị thực C-3." },
-        { "icon": "💸", "t": "Gửi tiền đột ngột", "d": "Một khoản lớn ngay trước khi nộp hồ sơ. Hãy thể hiện nguồn tiền ổn định và có thể giải thích." },
-        { "icon": "🧾", "t": "Bằng chứng việc làm yếu", "d": "Thiếu thư xác nhận việc làm hoặc phiếu lương. Chúng là trụ cột của hồ sơ người nộp cá nhân." },
-        { "icon": "🎫", "t": "Trả tiền vé quá sớm", "d": "Mua vé không hoàn tiền trước khi được chấp thuận — một đặt chỗ là đủ." },
-        { "icon": "🏝️", "t": "Nhầm Jeju với đại lục", "d": "Miễn thị thực Jeju không bao gồm việc đi lại ở Hàn Quốc đại lục." }
+        {
+          "icon": "🧍",
+          "t": "Cho rằng đi một mình = miễn thị thực",
+          "d": "Chương trình thí điểm miễn thị thực chỉ dành cho đoàn (3 người trở lên). Khách du lịch cá nhân vẫn cần thị thực C-3."
+        },
+        {
+          "icon": "💸",
+          "t": "Gửi tiền đột ngột",
+          "d": "Một khoản lớn ngay trước khi nộp hồ sơ. Hãy thể hiện nguồn tiền ổn định và có thể giải thích."
+        },
+        {
+          "icon": "🧾",
+          "t": "Bằng chứng việc làm yếu",
+          "d": "Thiếu thư xác nhận việc làm hoặc phiếu lương. Chúng là trụ cột của hồ sơ người nộp cá nhân."
+        },
+        {
+          "icon": "🎫",
+          "t": "Trả tiền vé quá sớm",
+          "d": "Mua vé không hoàn tiền trước khi được chấp thuận — một đặt chỗ là đủ."
+        },
+        {
+          "icon": "🏝️",
+          "t": "Nhầm Jeju với đại lục",
+          "d": "Miễn thị thực Jeju không bao gồm việc đi lại ở Hàn Quốc đại lục."
+        }
       ]
     },
     "faq": {
       "title": "Câu hỏi thường gặp về thị thực Indonesia → Hàn Quốc",
       "items": [
-        { "q": "Người Indonesia có cần thị thực đến Hàn Quốc không?", "a": "Khách du lịch cá nhân cần thị thực du lịch C-3 cho Hàn Quốc đại lục. Kể từ ngày 28 tháng 5 năm 2026, các đoàn du lịch từ 3 người trở lên có thể nhập cảnh miễn thị thực theo một chương trình thí điểm; đảo Jeju có lối nhập cảnh miễn thị thực riêng." },
-        { "q": "Tôi đi du lịch một mình — tôi có thể bỏ qua thị thực không?", "a": "Không. Chương trình thí điểm miễn thị thực chỉ áp dụng cho các đoàn ít nhất 3 người. Khách du lịch tự túc phải xin thị thực C-3." },
-        { "q": "Tôi cần chứng minh tài chính gì?", "a": "Sao kê ngân hàng 3 tháng cùng với thư xác nhận việc làm và phiếu lương. Nếu được bảo lãnh, hãy kèm theo giấy tờ của người bảo lãnh." },
-        { "q": "Tôi nộp hồ sơ ở đâu?", "a": "Tại Đại sứ quán Hàn Quốc hoặc Korea Visa Application Center ở Jakarta." },
-        { "q": "Lệ phí là bao nhiêu?", "a": "Lệ phí khác nhau và không được hoàn lại ngay cả khi bị từ chối. Hãy xác nhận số tiền hiện tại tại trung tâm." },
-        { "q": "Tôi có còn cần e-Arrival Card không?", "a": "Các quy định về giấy tờ nhập cảnh như e-Arrival Card vẫn có thể áp dụng khi đến nơi. Hãy kiểm tra quy định hiện hành gần ngày đi của bạn." }
-      ]
-    }
-  },
-  "hi": {
-    "kicker": "वीज़ा गाइड · इंडोनेशिया → कोरिया",
-    "readingTime": "8 मिनट पढ़ाई",
-    "h1": "इंडोनेशियाई नागरिकों के लिए कोरिया वीज़ा",
-    "metaTitle": "इंडोनेशिया से कोरिया वीज़ा: चरण-दर-चरण गाइड (2026) — Korea Trip Hub",
-    "metaDesc": "इंडोनेशिया से कोरिया पर्यटक वीज़ा के लिए आवेदन कैसे करें: कहाँ जमा करें, दस्तावेज़ (और हर एक कहाँ से प्राप्त करें), शुल्क और आधिकारिक लिंक। व्यक्तिगत यात्रियों को C-3 पर्यटक वीज़ा चाहिए; समूह छूट के पात्र हो सकते हैं।",
-    "ui": { "visa": "वीज़ा का प्रकार", "stay": "ठहरने की अवधि", "entry": "प्रवेश की संख्या", "where": "कहाँ से प्राप्त करें", "official": "आधिकारिक स्रोत", "required": "अनिवार्य", "conditional": "यदि लागू हो", "recommended": "अनुशंसित", "confirm": "शुल्क/नियम बदल सकते हैं — कृपया आधिकारिक स्रोतों पर पुष्टि करें", "source": "स्रोत", "updated": "अपडेट किया गया", "tldr": "सारांश" },
-    "verdict": {
-      "headline": "इंडोनेशियाई व्यक्तिगत यात्रियों को वीज़ा चाहिए — लेकिन समूहों को शायद नहीं।",
-      "sub": "कोरिया की मुख्य भूमि की स्वतंत्र यात्रा के लिए आप C-3 पर्यटक वीज़ा के लिए आवेदन करते हैं। 28 मई 2026 से, 3 या अधिक लोगों के पर्यटक समूह एक परीक्षण योजना के तहत छोटे प्रवास के लिए वीज़ा-मुक्त प्रवेश कर सकते हैं; व्यक्ति अभी पात्र नहीं हैं।",
-      "type": "पर्यटक C-3 (व्यक्तिगत)",
-      "stay": "90 दिनों तक",
-      "entry": "एकल प्रवेश (व्यक्तिगत) / पात्र समूहों के लिए वीज़ा-मुक्त"
-    },
-    "highlights": [
-      { "icon": "👥", "tone": "green", "title": "28 मई 2026 से समूहों के लिए वीज़ा-मुक्त", "body": "कम से कम 3 लोगों के इंडोनेशियाई पर्यटक समूह एक परीक्षण योजना के तहत छोटे प्रवास के लिए वीज़ा-मुक्त प्रवेश कर सकते हैं। यह केवल समूहों के लिए है — व्यक्तिगत यात्रियों को अभी भी वीज़ा चाहिए।" },
-      { "icon": "🏝️", "tone": "amber", "title": "Jeju द्वीप — अलग वीज़ा-मुक्त प्रवेश", "body": "इंडोनेशियाई नागरिक Jeju में वीज़ा-मुक्त प्रवेश कर सकते हैं (केवल Jeju, सीधी उड़ानें, मुख्य भूमि के लिए ट्रांज़िट नहीं)। यह मुख्य भूमि के पर्यटक वीज़ा से अलग है।" }
-    ],
-    "tldr": [
-      "स्वतंत्र यात्रियों को कोरिया की मुख्य भूमि के लिए C-3 पर्यटक वीज़ा चाहिए।",
-      "visa.go.kr पर फ़ॉर्म भरें, फिर कोरियाई दूतावास / KVAC Jakarta में जमा करें।",
-      "पासपोर्ट, फ़ोटो, 3-महीने का बैंक स्टेटमेंट, रोज़गार पत्र और वेतन पर्चियाँ लाएँ।",
-      "3 या अधिक लोगों के समूह में यात्रा कर रहे हैं? आप वीज़ा-मुक्त प्रवेश के पात्र हो सकते हैं (मई 2026 से परीक्षण)।"
-    ],
-    "steps": {
-      "title": "आवेदन प्रक्रिया, चरण-दर-चरण (व्यक्तिगत C-3)",
-      "items": [
-        { "n": 1, "title": "वीज़ा का प्रकार पुष्टि करें", "detail": "स्वतंत्र पर्यटक अल्पकालिक पर्यटक वीज़ा C-3 के लिए आवेदन करते हैं। (3 या अधिक लोगों के समूहों को अपनी एजेंसी से वीज़ा-मुक्त परीक्षण योजना के बारे में पूछना चाहिए।)" },
-        { "n": 2, "title": "visa.go.kr पर फ़ॉर्म भरें", "detail": "Korea Visa Portal — एकमात्र आधिकारिक साइट — पर आवेदन फ़ॉर्म पूरा करें, फिर उसे प्रिंट करें और हस्ताक्षर करें।", "link": "https://www.visa.go.kr", "linkLabel": "कोरिया वीज़ा पोर्टल" },
-        { "n": 3, "title": "अपने दस्तावेज़ तैयार करें", "detail": "नीचे दी गई सूची इकट्ठा करें: पासपोर्ट, फ़ोटो, 3-महीने का बैंक स्टेटमेंट और रोज़गार प्रमाण।" },
-        { "n": 4, "title": "दूतावास / KVAC Jakarta में जमा करें", "detail": "अपना आवेदन कोरियाई दूतावास या Jakarta में Korea Visa Application Center में जमा करें।" },
-        { "n": 5, "title": "शुल्क का भुगतान करें", "detail": "वीज़ा शुल्क और कोई भी सेवा शुल्क चुकाएँ। अस्वीकृति पर भी शुल्क वापस नहीं होता — केंद्र पर राशि की पुष्टि करें।" },
-        { "n": 6, "title": "ट्रैक करें और प्रतीक्षा करें", "detail": "केंद्र के चैनल के माध्यम से स्थिति देखें। अनुमोदन से पहले वापस न होने वाले टिकट न खरीदें।" },
-        { "n": 7, "title": "अपना पासपोर्ट प्राप्त करें", "detail": "अपना पासपोर्ट लें और तुरंत वीज़ा विवरण जाँचें।" }
-      ]
-    },
-    "documents": {
-      "title": "दस्तावेज़ चेकलिस्ट — प्रत्येक को कहाँ और कैसे प्राप्त करें",
-      "intro": "प्रत्येक मद के लिए, यहाँ बताया गया है कि इसे कहाँ से प्राप्त करें और इसमें क्या दिखना चाहिए।",
-      "cols": ["दस्तावेज़", "कहाँ से प्राप्त करें", "इसमें क्या दिखना चाहिए"],
-      "rows": [
-        { "doc": "पासपोर्ट", "req": "required", "where": "आपके पास पहले से है", "how": "कम से कम 6 महीने वैध, खाली पृष्ठों के साथ।" },
-        { "doc": "वीज़ा आवेदन फ़ॉर्म", "req": "required", "where": "visa.go.kr", "how": "Korea Visa Portal पर भरें, प्रिंट करें, हस्ताक्षर करें।", "link": "https://www.visa.go.kr" },
-        { "doc": "फ़ोटो", "req": "required", "where": "कोई भी फ़ोटो स्टूडियो", "how": "हाल की पासपोर्ट-शैली की फ़ोटो, सफ़ेद पृष्ठभूमि।" },
-        { "doc": "बैंक स्टेटमेंट — पिछले 3 महीने", "req": "required", "where": "आपका बैंक", "how": "शेष राशि और लेन-देन इतिहास दर्शाने वाला स्टेटमेंट; स्थिर शेष सर्वोत्तम है।" },
-        { "doc": "रोज़गार पत्र", "req": "required", "where": "आपका नियोक्ता / एचआर", "how": "कंपनी के लेटरहेड पर: पद, वेतन और स्वीकृत अवकाश।" },
-        { "doc": "वेतन पर्चियाँ", "req": "required", "where": "आपका नियोक्ता", "how": "आपकी आय का समर्थन करने वाली हाल की वेतन पर्चियाँ।" },
-        { "doc": "राउंड-ट्रिप उड़ान और होटल आरक्षण", "req": "required", "where": "एयरलाइन / बुकिंग साइट", "how": "आरक्षण/यात्रा-कार्यक्रम पर्याप्त हैं — अनुमोदन से पहले टिकट का भुगतान न करें।" },
-        { "doc": "प्रायोजक पत्र (यदि किसी और द्वारा वित्तपोषित)", "req": "conditional", "where": "आपका प्रायोजक", "how": "प्रायोजन पत्र + प्रायोजक का बैंक स्टेटमेंट + संबंध का प्रमाण।" }
-      ],
-      "legend": { "required": "अनिवार्य", "conditional": "यदि आप पर लागू हो", "recommended": "अनुशंसित" }
-    },
-    "funds": {
-      "title": "\"मुझे कितना पैसा दिखाना चाहिए?\"",
-      "body": "कोई एकल प्रकाशित न्यूनतम राशि नहीं है। 3 महीने का स्थिर शेष और इंडोनेशिया के साथ स्पष्ट संबंध (नौकरी, परिवार) दिखाएँ। यदि कोई और आपकी यात्रा का वित्तपोषण करता है, तो प्रायोजन को पूरी तरह से प्रलेखित करें।",
-      "tips": [
-        "आवेदन से ठीक पहले अचानक जमा की तुलना में 3 महीने का स्थिर शेष बेहतर है।",
-        "बैंक स्टेटमेंट को अपने रोज़गार पत्र और वेतन पर्चियों के साथ जोड़ें।",
-        "प्रायोजित हैं? प्रायोजक का बैंक स्टेटमेंट, पत्र और संबंध का प्रमाण जोड़ें।"
-      ]
-    },
-    "pitfalls": {
-      "title": "अस्वीकृति और देरी का कारण बनने वाली गलतियाँ",
-      "items": [
-        { "icon": "🧍", "t": "अकेले = वीज़ा-मुक्त मान लेना", "d": "वीज़ा-मुक्त परीक्षण केवल समूहों (3 या अधिक) के लिए है। व्यक्तिगत यात्रियों को अभी भी C-3 वीज़ा चाहिए।" },
-        { "icon": "💸", "t": "अचानक जमा", "d": "आवेदन से ठीक पहले बड़ी राशि। स्थिर और समझाने योग्य धनराशि दिखाएँ।" },
-        { "icon": "🧾", "t": "कमज़ोर रोज़गार प्रमाण", "d": "रोज़गार पत्र या वेतन पर्चियों की कमी। ये व्यक्तिगत आवेदक की फ़ाइल का आधार हैं।" },
-        { "icon": "🎫", "t": "टिकट बहुत जल्दी भुगतान करना", "d": "अनुमोदन से पहले वापस न होने वाले टिकट खरीदना — एक आरक्षण पर्याप्त है।" },
-        { "icon": "🏝️", "t": "Jeju को मुख्य भूमि से भ्रमित करना", "d": "Jeju की वीज़ा-मुक्ति कोरिया की मुख्य भूमि की यात्रा को कवर नहीं करती।" }
-      ]
-    },
-    "faq": {
-      "title": "इंडोनेशिया → कोरिया वीज़ा सामान्य प्रश्न",
-      "items": [
-        { "q": "क्या इंडोनेशियाई लोगों को कोरिया के लिए वीज़ा चाहिए?", "a": "व्यक्तिगत यात्रियों को कोरिया की मुख्य भूमि के लिए C-3 पर्यटक वीज़ा चाहिए। 28 मई 2026 से, 3 या अधिक लोगों के पर्यटक समूह एक परीक्षण के तहत वीज़ा-मुक्त प्रवेश कर सकते हैं; Jeju द्वीप का अलग वीज़ा-मुक्त प्रवेश है।" },
-        { "q": "मैं अकेले यात्रा कर रहा हूँ — क्या मैं वीज़ा छोड़ सकता हूँ?", "a": "नहीं। वीज़ा-मुक्त परीक्षण केवल कम से कम 3 लोगों के समूहों पर लागू होता है। स्वतंत्र यात्रियों को C-3 वीज़ा के लिए आवेदन करना होगा।" },
-        { "q": "मुझे किस वित्तीय प्रमाण की आवश्यकता है?", "a": "3 महीने का बैंक स्टेटमेंट और साथ में रोज़गार पत्र तथा वेतन पर्चियाँ। यदि प्रायोजित हैं, तो प्रायोजक के दस्तावेज़ शामिल करें।" },
-        { "q": "मैं कहाँ आवेदन करूँ?", "a": "कोरियाई दूतावास या Jakarta में Korea Visa Application Center में।" },
-        { "q": "शुल्क कितना है?", "a": "शुल्क अलग-अलग होते हैं और अस्वीकृति पर भी वापस नहीं होते। केंद्र पर वर्तमान राशि की पुष्टि करें।" },
-        { "q": "क्या मुझे अभी भी e-Arrival Card की आवश्यकता है?", "a": "e-Arrival Card जैसे प्रवेश-दस्तावेज़ नियम आगमन पर अभी भी लागू हो सकते हैं। अपनी यात्रा तिथि के निकट वर्तमान नियम जाँचें।" }
-      ]
-    }
-  },
-  "bn": {
-    "kicker": "ভিসা গাইড · ইন্দোনেশিয়া → কোরিয়া",
-    "readingTime": "8 মিনিট পড়া",
-    "h1": "ইন্দোনেশীয় নাগরিকদের জন্য কোরিয়া ভিসা",
-    "metaTitle": "ইন্দোনেশিয়া থেকে কোরিয়া ভিসা: ধাপে ধাপে গাইড (2026) — Korea Trip Hub",
-    "metaDesc": "ইন্দোনেশিয়া থেকে কোরিয়া পর্যটক ভিসার জন্য কীভাবে আবেদন করবেন: কোথায় জমা দেবেন, নথিপত্র (এবং প্রতিটি কোথায় পাবেন), ফি এবং সরকারি লিঙ্ক। একক ভ্রমণকারীদের C-3 পর্যটক ভিসা প্রয়োজন; দলগুলি অব্যাহতি পেতে পারে।",
-    "ui": { "visa": "ভিসার ধরন", "stay": "অবস্থানের সময়কাল", "entry": "প্রবেশের সংখ্যা", "where": "কোথায় পাবেন", "official": "সরকারি উৎস", "required": "আবশ্যক", "conditional": "প্রযোজ্য হলে", "recommended": "সুপারিশকৃত", "confirm": "ফি/নিয়ম পরিবর্তিত হতে পারে — অনুগ্রহ করে সরকারি উৎসে নিশ্চিত করুন", "source": "উৎস", "updated": "হালনাগাদ", "tldr": "সারসংক্ষেপ" },
-    "verdict": {
-      "headline": "ইন্দোনেশীয় একক ভ্রমণকারীদের ভিসা প্রয়োজন — তবে দলগুলির হয়তো প্রয়োজন নেই।",
-      "sub": "কোরিয়ার মূল ভূখণ্ডে স্বাধীন ভ্রমণের জন্য আপনি C-3 পর্যটক ভিসার জন্য আবেদন করেন। 28 মে 2026 থেকে, 3 বা তার বেশি সদস্যের পর্যটক দল একটি পরীক্ষামূলক প্রকল্পের আওতায় স্বল্প অবস্থানের জন্য ভিসা ছাড়াই প্রবেশ করতে পারে; একক ব্যক্তিরা এখনও যোগ্য নন।",
-      "type": "পর্যটক C-3 (একক)",
-      "stay": "90 দিন পর্যন্ত",
-      "entry": "একক প্রবেশ (একক) / যোগ্য দলের জন্য ভিসা অব্যাহতি"
-    },
-    "highlights": [
-      { "icon": "👥", "tone": "green", "title": "28 মে 2026 থেকে দলের জন্য ভিসা অব্যাহতি", "body": "কমপক্ষে 3 জনের ইন্দোনেশীয় পর্যটক দল একটি পরীক্ষামূলক প্রকল্পের আওতায় স্বল্প অবস্থানের জন্য ভিসা ছাড়াই প্রবেশ করতে পারে। এটি শুধু দলের জন্য — একক ভ্রমণকারীদের এখনও ভিসা প্রয়োজন।" },
-      { "icon": "🏝️", "tone": "amber", "title": "Jeju দ্বীপ — পৃথক ভিসা অব্যাহতি", "body": "ইন্দোনেশীয় নাগরিকরা Jeju-তে ভিসা ছাড়াই প্রবেশ করতে পারেন (শুধু Jeju, সরাসরি ফ্লাইট, মূল ভূখণ্ডে ট্রানজিট নয়)। এটি মূল ভূখণ্ডের পর্যটক ভিসা থেকে পৃথক।" }
-    ],
-    "tldr": [
-      "স্বাধীন ভ্রমণকারীদের কোরিয়ার মূল ভূখণ্ডের জন্য C-3 পর্যটক ভিসা প্রয়োজন।",
-      "visa.go.kr-এ ফর্ম পূরণ করুন, তারপর কোরিয়ার দূতাবাস / KVAC Jakarta-তে জমা দিন।",
-      "পাসপোর্ট, ছবি, 3 মাসের ব্যাংক স্টেটমেন্ট, কর্মসংস্থান পত্র ও বেতন স্লিপ আনুন।",
-      "3 বা তার বেশি জনের দলে ভ্রমণ করছেন? আপনি ভিসা ছাড়াই প্রবেশের যোগ্য হতে পারেন (2026 সালের মে থেকে পরীক্ষামূলক)।"
-    ],
-    "steps": {
-      "title": "আবেদন প্রক্রিয়া, ধাপে ধাপে (একক C-3)",
-      "items": [
-        { "n": 1, "title": "ভিসার ধরন নিশ্চিত করুন", "detail": "স্বাধীন পর্যটকরা স্বল্পমেয়াদি পর্যটক ভিসা C-3-এর জন্য আবেদন করেন। (3 বা তার বেশি জনের দলের নিজেদের এজেন্সির কাছে ভিসা ছাড়ের পরীক্ষামূলক প্রকল্প সম্পর্কে জিজ্ঞাসা করা উচিত।)" },
-        { "n": 2, "title": "visa.go.kr-এ ফর্ম পূরণ করুন", "detail": "Korea Visa Portal-এ — একমাত্র সরকারি সাইট — আবেদন ফর্ম সম্পূর্ণ করুন, তারপর প্রিন্ট করে স্বাক্ষর করুন।", "link": "https://www.visa.go.kr", "linkLabel": "কোরিয়া ভিসা পোর্টাল" },
-        { "n": 3, "title": "আপনার নথিপত্র প্রস্তুত করুন", "detail": "নিচের তালিকা সংগ্রহ করুন: পাসপোর্ট, ছবি, 3 মাসের ব্যাংক স্টেটমেন্ট এবং কর্মসংস্থানের প্রমাণ।" },
-        { "n": 4, "title": "দূতাবাস / KVAC Jakarta-তে জমা দিন", "detail": "আপনার আবেদন কোরিয়ার দূতাবাস বা Jakarta-র Korea Visa Application Center-এ জমা দিন।" },
-        { "n": 5, "title": "ফি পরিশোধ করুন", "detail": "ভিসা ফি এবং যেকোনো সেবা ফি পরিশোধ করুন। প্রত্যাখ্যাত হলেও ফি ফেরতযোগ্য নয় — কেন্দ্রে পরিমাণ নিশ্চিত করুন।" },
-        { "n": 6, "title": "অনুসরণ করুন ও অপেক্ষা করুন", "detail": "কেন্দ্রের চ্যানেলের মাধ্যমে অবস্থা অনুসরণ করুন। অনুমোদনের আগে ফেরতযোগ্য নয় এমন ফ্লাইট কিনবেন না।" },
-        { "n": 7, "title": "আপনার পাসপোর্ট সংগ্রহ করুন", "detail": "আপনার পাসপোর্ট সংগ্রহ করুন এবং সঙ্গে সঙ্গে ভিসার বিবরণ যাচাই করুন।" }
-      ]
-    },
-    "documents": {
-      "title": "নথির চেকলিস্ট — প্রতিটি কোথায় ও কীভাবে পাবেন সহ",
-      "intro": "প্রতিটি আইটেমের জন্য, এখানে কোথায় পাবেন এবং এতে কী দেখাতে হবে তা দেওয়া আছে।",
-      "cols": ["নথি", "কোথায় পাবেন", "কী দেখাতে হবে"],
-      "rows": [
-        { "doc": "পাসপোর্ট", "req": "required", "where": "আপনার কাছে ইতিমধ্যে আছে", "how": "কমপক্ষে 6 মাস বৈধ, খালি পাতা সহ।" },
-        { "doc": "ভিসা আবেদন ফর্ম", "req": "required", "where": "visa.go.kr", "how": "Korea Visa Portal-এ পূরণ করুন, প্রিন্ট করুন, স্বাক্ষর করুন।", "link": "https://www.visa.go.kr" },
-        { "doc": "ছবি", "req": "required", "where": "যেকোনো ফটো স্টুডিও", "how": "সাম্প্রতিক পাসপোর্ট-স্টাইল ছবি, সাদা পটভূমি।" },
-        { "doc": "ব্যাংক স্টেটমেন্ট — সর্বশেষ 3 মাস", "req": "required", "where": "আপনার ব্যাংক", "how": "ব্যালেন্স ও লেনদেনের ইতিহাস দেখানো স্টেটমেন্ট; স্থিতিশীল ব্যালেন্স সবচেয়ে ভালো।" },
-        { "doc": "কর্মসংস্থান পত্র", "req": "required", "where": "আপনার নিয়োগকর্তা / এইচআর", "how": "কোম্পানির লেটারহেডে: পদ, বেতন এবং অনুমোদিত ছুটি।" },
-        { "doc": "বেতন স্লিপ", "req": "required", "where": "আপনার নিয়োগকর্তা", "how": "আপনার আয় সমর্থনকারী সাম্প্রতিক বেতন স্লিপ।" },
-        { "doc": "রাউন্ড-ট্রিপ ফ্লাইট ও হোটেল রিজার্ভেশন", "req": "required", "where": "এয়ারলাইন / বুকিং সাইট", "how": "রিজার্ভেশন/ভ্রমণসূচি যথেষ্ট — অনুমোদনের আগে টিকিটের জন্য অর্থ দেবেন না।" },
-        { "doc": "স্পনসর পত্র (অন্য কেউ অর্থায়ন করলে)", "req": "conditional", "where": "আপনার স্পনসর", "how": "স্পনসরশিপ পত্র + স্পনসরের ব্যাংক স্টেটমেন্ট + সম্পর্কের প্রমাণ।" }
-      ],
-      "legend": { "required": "আবশ্যক", "conditional": "আপনার ক্ষেত্রে প্রযোজ্য হলে", "recommended": "সুপারিশকৃত" }
-    },
-    "funds": {
-      "title": "\"আমাকে কত টাকা দেখাতে হবে?\"",
-      "body": "কোনো একক প্রকাশিত ন্যূনতম পরিমাণ নেই। 3 মাসের স্থিতিশীল ব্যালেন্স এবং ইন্দোনেশিয়ার সঙ্গে স্পষ্ট বন্ধন (চাকরি, পরিবার) দেখান। অন্য কেউ আপনার ভ্রমণে অর্থায়ন করলে, স্পনসরশিপ সম্পূর্ণরূপে নথিভুক্ত করুন।",
-      "tips": [
-        "আবেদনের ঠিক আগে হঠাৎ জমার চেয়ে 3 মাসের স্থিতিশীল ব্যালেন্স ভালো।",
-        "ব্যাংক স্টেটমেন্টকে আপনার কর্মসংস্থান পত্র ও বেতন স্লিপের সঙ্গে যুক্ত করুন।",
-        "স্পনসরকৃত? স্পনসরের ব্যাংক স্টেটমেন্ট, পত্র এবং সম্পর্কের প্রমাণ যোগ করুন।"
-      ]
-    },
-    "pitfalls": {
-      "title": "প্রত্যাখ্যান ও বিলম্ব ঘটায় এমন ভুল",
-      "items": [
-        { "icon": "🧍", "t": "একা = ভিসা ছাড়া ধরে নেওয়া", "d": "ভিসা ছাড়ের পরীক্ষামূলক প্রকল্প শুধু দলের জন্য (3 বা তার বেশি)। একক ভ্রমণকারীদের এখনও C-3 ভিসা প্রয়োজন।" },
-        { "icon": "💸", "t": "হঠাৎ জমা", "d": "আবেদনের ঠিক আগে বড় অঙ্ক। স্থিতিশীল ও ব্যাখ্যাযোগ্য তহবিল দেখান।" },
-        { "icon": "🧾", "t": "দুর্বল কর্মসংস্থানের প্রমাণ", "d": "কর্মসংস্থান পত্র বা বেতন স্লিপের অভাব। এগুলি একক আবেদনকারীর ফাইলের ভিত্তি।" },
-        { "icon": "🎫", "t": "খুব তাড়াতাড়ি ফ্লাইটের অর্থ পরিশোধ", "d": "অনুমোদনের আগে ফেরতযোগ্য নয় এমন টিকিট কেনা — একটি রিজার্ভেশনই যথেষ্ট।" },
-        { "icon": "🏝️", "t": "Jeju-কে মূল ভূখণ্ডের সঙ্গে গুলিয়ে ফেলা", "d": "Jeju-র ভিসা অব্যাহতি কোরিয়ার মূল ভূখণ্ডে ভ্রমণ অন্তর্ভুক্ত করে না।" }
-      ]
-    },
-    "faq": {
-      "title": "ইন্দোনেশিয়া → কোরিয়া ভিসা সচরাচর জিজ্ঞাসা",
-      "items": [
-        { "q": "ইন্দোনেশীয়দের কি কোরিয়ার জন্য ভিসা প্রয়োজন?", "a": "একক ভ্রমণকারীদের কোরিয়ার মূল ভূখণ্ডের জন্য C-3 পর্যটক ভিসা প্রয়োজন। 28 মে 2026 থেকে, 3 বা তার বেশি জনের পর্যটক দল একটি পরীক্ষামূলক প্রকল্পের আওতায় ভিসা ছাড়াই প্রবেশ করতে পারে; Jeju দ্বীপের পৃথক ভিসা-মুক্ত প্রবেশ রয়েছে।" },
-        { "q": "আমি একা ভ্রমণ করছি — আমি কি ভিসা এড়াতে পারি?", "a": "না। ভিসা ছাড়ের পরীক্ষামূলক প্রকল্প শুধু কমপক্ষে 3 জনের দলে প্রযোজ্য। স্বাধীন ভ্রমণকারীদের C-3 ভিসার জন্য আবেদন করতে হবে।" },
-        { "q": "আমার কী আর্থিক প্রমাণ প্রয়োজন?", "a": "3 মাসের ব্যাংক স্টেটমেন্টের সঙ্গে একটি কর্মসংস্থান পত্র ও বেতন স্লিপ। স্পনসরকৃত হলে, স্পনসরের নথি অন্তর্ভুক্ত করুন।" },
-        { "q": "আমি কোথায় আবেদন করব?", "a": "কোরিয়ার দূতাবাসে বা Jakarta-র Korea Visa Application Center-এ।" },
-        { "q": "ফি কত?", "a": "ফি বিভিন্ন এবং প্রত্যাখ্যাত হলেও ফেরতযোগ্য নয়। কেন্দ্রে বর্তমান পরিমাণ নিশ্চিত করুন।" },
-        { "q": "আমার কি এখনও e-Arrival Card প্রয়োজন?", "a": "e-Arrival Card-এর মতো প্রবেশ-নথির নিয়ম আগমনের সময় এখনও প্রযোজ্য হতে পারে। আপনার ভ্রমণের তারিখের কাছাকাছি বর্তমান নিয়ম যাচাই করুন।" }
-      ]
-    }
-  },
-  "fil": {
-    "kicker": "Gabay sa visa · Indonesia → Korea",
-    "readingTime": "8 min na pagbasa",
-    "h1": "Visa sa Korea para sa mga mamamayang Indonesian",
-    "metaTitle": "Visa sa Korea mula sa Indonesia: gabay hakbang-hakbang (2026) — Korea Trip Hub",
-    "metaDesc": "Paano mag-apply ng tourist visa sa Korea mula sa Indonesia: kung saan magsusumite, mga dokumento (at kung saan makukuha ang bawat isa), mga bayarin at opisyal na link. Kailangan ng mga indibidwal na manlalakbay ng C-3 tourist visa; maaaring exempted ang mga grupo.",
-    "ui": { "visa": "Uri ng visa", "stay": "Tagal ng pananatili", "entry": "Bilang ng pagpasok", "where": "Saan makukuha", "official": "Opisyal na pinagmulan", "required": "Kinakailangan", "conditional": "Kung naaangkop", "recommended": "Inirerekomenda", "confirm": "Maaaring magbago ang mga bayarin/panuntunan — mangyaring kumpirmahin sa mga opisyal na pinagmulan", "source": "Pinagmulan", "updated": "Na-update", "tldr": "BUOD" },
-    "verdict": {
-      "headline": "Kailangan ng mga indibidwal na Indonesian na manlalakbay ng visa — ngunit maaaring hindi ang mga grupo.",
-      "sub": "Para sa sariling paglalakbay patungo sa mainland Korea, mag-a-apply ka ng C-3 tourist visa. Simula 28 Mayo 2026, ang mga tour group na 3 o higit pang tao ay maaaring pumasok nang walang visa para sa maikling pananatili sa ilalim ng isang trial scheme; hindi pa kwalipikado ang mga indibidwal.",
-      "type": "Tourist C-3 (indibidwal)",
-      "stay": "Hanggang 90 araw",
-      "entry": "Isang beses na pagpasok (indibidwal) / walang visa para sa mga kwalipikadong grupo"
-    },
-    "highlights": [
-      { "icon": "👥", "tone": "green", "title": "Walang visa para sa mga grupo simula 28 Mayo 2026", "body": "Ang mga Indonesian na tour group na may hindi bababa sa 3 tao ay maaaring pumasok nang walang visa para sa maikling pananatili sa ilalim ng isang trial scheme. Para lang sa mga grupo — kailangan pa rin ng visa ng mga indibidwal na manlalakbay." },
-      { "icon": "🏝️", "tone": "amber", "title": "Isla ng Jeju — hiwalay na exemption sa visa", "body": "Ang mga mamamayang Indonesian ay maaaring pumasok sa Jeju nang walang visa (Jeju lamang, direktang flight, walang transit papuntang mainland). Hiwalay ito sa tourist visa para sa mainland." }
-    ],
-    "tldr": [
-      "Kailangan ng mga malayang manlalakbay ng C-3 tourist visa para sa mainland Korea.",
-      "Punan ang form sa visa.go.kr, pagkatapos ay isumite sa Embahada ng Korea / KVAC Jakarta.",
-      "Magdala ng pasaporte, litrato, 3 buwang bank statement, employment letter at mga payslip.",
-      "Naglalakbay nang grupo na 3 o higit pa? Maaari kang maging kwalipikado sa pagpasok nang walang visa (trial mula Mayo 2026)."
-    ],
-    "steps": {
-      "title": "Ang proseso ng aplikasyon, hakbang-hakbang (indibidwal na C-3)",
-      "items": [
-        { "n": 1, "title": "Kumpirmahin ang uri ng visa", "detail": "Ang mga malayang turista ay nag-a-apply ng panandaliang tourist visa C-3. (Dapat magtanong ang mga grupong 3 o higit pa sa kanilang ahensiya tungkol sa trial scheme na walang visa.)" },
-        { "n": 2, "title": "Punan ang form sa visa.go.kr", "detail": "Kumpletuhin ang application form sa Korea Visa Portal — ang tanging opisyal na site — pagkatapos ay i-print at pirmahan ito.", "link": "https://www.visa.go.kr", "linkLabel": "Portal ng Visa ng Korea" },
-        { "n": 3, "title": "Ihanda ang iyong mga dokumento", "detail": "Tipunin ang listahan sa ibaba: pasaporte, litrato, 3 buwang bank statement at patunay ng trabaho." },
-        { "n": 4, "title": "Isumite sa Embahada / KVAC Jakarta", "detail": "Iharap ang iyong aplikasyon sa Embahada ng Korea o sa Korea Visa Application Center sa Jakarta." },
-        { "n": 5, "title": "Bayaran ang bayarin", "detail": "Bayaran ang visa fee at anumang service fee. Hindi ibinabalik ang mga bayarin kahit tanggihan — kumpirmahin ang halaga sa sentro." },
-        { "n": 6, "title": "Subaybayan at maghintay", "detail": "Sundan ang status sa pamamagitan ng channel ng sentro. Huwag bumili ng non-refundable na flight bago maaprubahan." },
-        { "n": 7, "title": "Kunin ang iyong pasaporte", "detail": "Kunin ang iyong pasaporte at agad na suriin ang mga detalye ng visa." }
-      ]
-    },
-    "documents": {
-      "title": "Checklist ng dokumento — kasama kung saan at paano makukuha ang bawat isa",
-      "intro": "Para sa bawat item, narito kung saan ito makukuha at kung ano ang dapat nitong ipakita.",
-      "cols": ["Dokumento", "Saan makukuha", "Ano ang dapat ipakita"],
-      "rows": [
-        { "doc": "Pasaporte", "req": "required", "where": "Nasa iyo na", "how": "Balido nang 6+ buwan na may blangkong pahina." },
-        { "doc": "Visa application form", "req": "required", "where": "visa.go.kr", "how": "Kumpletuhin sa Korea Visa Portal, i-print, pirmahan.", "link": "https://www.visa.go.kr" },
-        { "doc": "Litrato", "req": "required", "where": "Anumang photo studio", "how": "Kamakailang litratong tulad ng sa pasaporte, puting background." },
-        { "doc": "Bank statement — huling 3 buwan", "req": "required", "where": "Iyong bangko", "how": "Statement na nagpapakita ng balanse at kasaysayan ng transaksyon; pinakamainam ang matatag na balanse." },
-        { "doc": "Employment letter", "req": "required", "where": "Iyong employer / HR", "how": "Sa letterhead ng kumpanya: posisyon, sahod at aprubadong leave." },
-        { "doc": "Mga payslip", "req": "required", "where": "Iyong employer", "how": "Kamakailang mga payslip na sumusuporta sa iyong kita." },
-        { "doc": "Round-trip flight at reserbasyon sa hotel", "req": "required", "where": "Airline / mga booking site", "how": "Sapat na ang mga reserbasyon/itinerary — huwag bayaran ang tiket bago maaprubahan." },
-        { "doc": "Sponsor letter (kung pinondohan ng iba)", "req": "conditional", "where": "Iyong sponsor", "how": "Sponsorship letter + bank statement ng sponsor + patunay ng relasyon." }
-      ],
-      "legend": { "required": "Kinakailangan", "conditional": "Kung naaangkop sa iyo", "recommended": "Inirerekomenda" }
-    },
-    "funds": {
-      "title": "\"Magkano ang perang dapat kong ipakita?\"",
-      "body": "Walang iisang nailathalang minimum. Magpakita ng matatag na balanse sa loob ng 3 buwan at malinaw na ugnayan sa Indonesia (trabaho, pamilya). Kung may ibang pumopondo sa iyong paglalakbay, idokumento nang buo ang sponsorship.",
-      "tips": [
-        "Mas mainam ang matatag na balanse sa loob ng 3 buwan kaysa biglaang deposito bago mag-apply.",
-        "Ipares ang bank statement sa iyong employment letter at mga payslip.",
-        "May sponsor? Idagdag ang bank statement ng sponsor, ang liham at patunay ng relasyon."
-      ]
-    },
-    "pitfalls": {
-      "title": "Mga pagkakamaling nagdudulot ng pagtanggi at pagkaantala",
-      "items": [
-        { "icon": "🧍", "t": "Ipagpalagay na mag-isa = walang visa", "d": "Ang trial na walang visa ay para lang sa mga grupo (3 o higit pa). Kailangan pa rin ng mga indibidwal na manlalakbay ng C-3 visa." },
-        { "icon": "💸", "t": "Biglaang deposito", "d": "Malaking halaga bago mismo mag-apply. Magpakita ng matatag at maipaliwanag na pondo." },
-        { "icon": "🧾", "t": "Mahinang patunay ng trabaho", "d": "Kulang na employment letter o mga payslip. Ito ang pundasyon ng file ng isang indibidwal na aplikante." },
-        { "icon": "🎫", "t": "Maagang pagbabayad ng flight", "d": "Pagbili ng non-refundable na tiket bago maaprubahan — sapat na ang isang reserbasyon." },
-        { "icon": "🏝️", "t": "Paglito sa Jeju at mainland", "d": "Hindi saklaw ng exemption sa visa ng Jeju ang paglalakbay sa mainland Korea." }
-      ]
-    },
-    "faq": {
-      "title": "Mga FAQ sa visa Indonesia → Korea",
-      "items": [
-        { "q": "Kailangan ba ng mga Indonesian ng visa para sa Korea?", "a": "Kailangan ng mga indibidwal na manlalakbay ng C-3 tourist visa para sa mainland Korea. Simula 28 Mayo 2026, ang mga tour group na 3 o higit pa ay maaaring pumasok nang walang visa sa ilalim ng isang trial; may hiwalay na pagpasok nang walang visa ang Isla ng Jeju." },
-        { "q": "Mag-isa akong naglalakbay — maaari ko bang laktawan ang visa?", "a": "Hindi. Ang trial na walang visa ay para lang sa mga grupong may hindi bababa sa 3 tao. Dapat mag-apply ng C-3 visa ang mga malayang manlalakbay." },
-        { "q": "Anong patunay pinansyal ang kailangan ko?", "a": "Isang 3 buwang bank statement kasama ang employment letter at mga payslip. Kung may sponsor, isama ang mga dokumento ng sponsor." },
-        { "q": "Saan ako mag-a-apply?", "a": "Sa Embahada ng Korea o sa Korea Visa Application Center sa Jakarta." },
-        { "q": "Magkano ang bayarin?", "a": "Nag-iiba-iba ang mga bayarin at hindi ibinabalik kahit tanggihan. Kumpirmahin ang kasalukuyang halaga sa sentro." },
-        { "q": "Kailangan ko pa ba ng e-Arrival Card?", "a": "Maaaring mananatiling naaangkop pagdating ang mga panuntunan sa entry-document tulad ng e-Arrival Card. Tingnan ang kasalukuyang mga panuntunan malapit sa petsa ng iyong paglalakbay." }
+        {
+          "q": "Người Indonesia có cần thị thực đến Hàn Quốc không?",
+          "a": "Khách du lịch cá nhân cần thị thực du lịch C-3 cho Hàn Quốc đại lục. Kể từ ngày 28 tháng 5 năm 2026, các đoàn du lịch từ 3 người trở lên có thể nhập cảnh miễn thị thực theo một chương trình thí điểm; đảo Jeju có lối nhập cảnh miễn thị thực riêng."
+        },
+        {
+          "q": "Tôi đi du lịch một mình — tôi có thể bỏ qua thị thực không?",
+          "a": "Không. Chương trình thí điểm miễn thị thực chỉ áp dụng cho các đoàn ít nhất 3 người. Khách du lịch tự túc phải xin thị thực C-3."
+        },
+        {
+          "q": "Tôi cần chứng minh tài chính gì?",
+          "a": "Sao kê ngân hàng 3 tháng cùng với thư xác nhận việc làm và phiếu lương. Nếu được bảo lãnh, hãy kèm theo giấy tờ của người bảo lãnh."
+        },
+        {
+          "q": "Tôi nộp hồ sơ ở đâu?",
+          "a": "Tại Đại sứ quán Hàn Quốc hoặc Korea Visa Application Center ở Jakarta."
+        },
+        {
+          "q": "Lệ phí là bao nhiêu?",
+          "a": "Lệ phí khác nhau và không được hoàn lại ngay cả khi bị từ chối. Hãy xác nhận số tiền hiện tại tại trung tâm."
+        },
+        {
+          "q": "Tôi có còn cần e-Arrival Card không?",
+          "a": "Các quy định về giấy tờ nhập cảnh như e-Arrival Card vẫn có thể áp dụng khi đến nơi. Hãy kiểm tra quy định hiện hành gần ngày đi của bạn."
+        }
       ]
     }
   }

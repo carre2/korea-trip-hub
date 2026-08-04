@@ -6,7 +6,20 @@
     "h1": "中国公民的韩国签证",
     "metaTitle": "中国申请韩国签证：分步指南（2026）— Korea Trip Hub",
     "metaDesc": "如何从中国申请韩国旅游签证：去哪里办、需要哪些材料（及每份在哪获取）、费用、办理时间和官方链接。个人 C-3 旅游签证，济州岛免签30天。",
-    "ui": { "visa": "签证类型", "stay": "停留期", "entry": "入境次数", "where": "在哪获取", "official": "官方来源", "required": "必需", "conditional": "视情况", "recommended": "建议", "confirm": "费用/规定可能变动 — 请以官方为准", "source": "来源", "updated": "更新", "tldr": "要点速览" },
+    "ui": {
+      "visa": "签证类型",
+      "stay": "停留期",
+      "entry": "入境次数",
+      "where": "在哪获取",
+      "official": "官方来源",
+      "required": "必需",
+      "conditional": "视情况",
+      "recommended": "建议",
+      "confirm": "费用/规定可能变动 — 请以官方为准",
+      "source": "来源",
+      "updated": "更新",
+      "tldr": "要点速览"
+    },
     "verdict": {
       "headline": "是的 — 中国公民前往韩国本土需要签证。",
       "sub": "个人游客需在韩国领事馆或韩国签证申请中心申请 C-3 旅游签证。两大例外可让你免签：济州岛，以及（在特定时段）经批准的旅行团。",
@@ -15,8 +28,18 @@
       "entry": "单次或多次（视情况）"
     },
     "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "济州岛 — 免签最多 30 天", "body": "中国公民可免签赴济州岛最多 30 天，条件是直飞往返济州、且不经韩国本土中转。" },
-      { "icon": "👥", "tone": "amber", "title": "团体免签（有时限）", "body": "一项试点允许经批准的 3 人以上旅行团免签入境最多 15 天，实施期为 2025 年 9 月至 2026 年 6 月，同期免收团体签证的办理费。在依赖此政策前，请确认是否已延期。" }
+      {
+        "icon": "🏝️",
+        "tone": "green",
+        "title": "济州岛 — 免签最多 30 天",
+        "body": "中国公民可免签赴济州岛最多 30 天，条件是直飞往返济州、且不经韩国本土中转。"
+      },
+      {
+        "icon": "👥",
+        "tone": "amber",
+        "title": "团体免签（有时限）",
+        "body": "一项试点允许经批准的 3 人以上旅行团免签入境最多 15 天，实施期为 2025 年 9 月至 2026 年 6 月，同期免收团体签证的办理费。在依赖此政策前，请确认是否已延期。"
+      }
     ],
     "tldr": [
       "前往本土旅行，个人游客需办 C-3 旅游签证 — 在所在领区的韩国领事馆/KVAC 申请。",
@@ -28,38 +51,129 @@
       "title": "第 0 步 — 在你的领区申请",
       "intro": "中国由韩国驻华大使馆（北京）及若干总领事馆分领区管辖，各设有韩国签证申请中心。请在你户口所在领区的 KVAC 申请。",
       "zones": [
-        { "name": "大使馆及主要总领馆", "covers": "北京、上海、广州、沈阳、成都、武汉、青岛、西安等领区", "centers": "各领区的 KVAC（VFS Global）", "site": "vfsglobal.com（中国）", "url": "https://www.vfsglobal.com/" },
-        { "name": "香港 / 澳门", "covers": "特区居民（规定另行）", "centers": "驻香港总领事馆", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
+        {
+          "name": "大使馆及主要总领馆",
+          "covers": "北京、上海、广州、沈阳、成都、武汉、青岛、西安等领区",
+          "centers": "各领区的 KVAC（VFS Global）",
+          "site": "vfsglobal.com（中国）",
+          "url": "https://www.vfsglobal.com/"
+        },
+        {
+          "name": "香港 / 澳门",
+          "covers": "特区居民（规定另行）",
+          "centers": "驻香港总领事馆",
+          "site": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/hk-en/index.do"
+        }
       ],
       "note": "不确定属于哪个领区？按户口上的省份判断；KVAC 网站会列出各领区的覆盖范围。"
     },
     "steps": {
       "title": "申请步骤（个人 C-3）",
       "items": [
-        { "n": 1, "title": "确认签证类型", "detail": "个人游客申请 C-3 短期旅游签证。" },
-        { "n": 2, "title": "在 visa.go.kr 填表", "detail": "在韩国签证门户（唯一官方网站）填写申请表，然后打印并签名。", "link": "https://www.visa.go.kr", "linkLabel": "韩国签证门户" },
-        { "n": 3, "title": "准备材料", "detail": "备齐下方清单，包括户口簿和财力证明。" },
-        { "n": 4, "title": "在 KVAC/领事馆提交", "detail": "在你所属领区的韩国签证申请中心或领事馆提交。" },
-        { "n": 5, "title": "缴费", "detail": "缴纳签证费和服务费。即使被拒也不退费。" },
-        { "n": 6, "title": "查询进度", "detail": "通过中心渠道查询状态。获批前不要购买不可退的机票。" },
-        { "n": 7, "title": "取回护照", "detail": "现场领取或快递，收到后立即核对签证信息。" }
+        {
+          "n": 1,
+          "title": "确认签证类型",
+          "detail": "个人游客申请 C-3 短期旅游签证。"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填表",
+          "detail": "在韩国签证门户（唯一官方网站）填写申请表，然后打印并签名。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "韩国签证门户"
+        },
+        {
+          "n": 3,
+          "title": "准备材料",
+          "detail": "备齐下方清单，包括户口簿和财力证明。"
+        },
+        {
+          "n": 4,
+          "title": "在 KVAC/领事馆提交",
+          "detail": "在你所属领区的韩国签证申请中心或领事馆提交。"
+        },
+        {
+          "n": 5,
+          "title": "缴费",
+          "detail": "缴纳签证费和服务费。即使被拒也不退费。"
+        },
+        {
+          "n": 6,
+          "title": "查询进度",
+          "detail": "通过中心渠道查询状态。获批前不要购买不可退的机票。"
+        },
+        {
+          "n": 7,
+          "title": "取回护照",
+          "detail": "现场领取或快递，收到后立即核对签证信息。"
+        }
       ]
     },
     "documents": {
       "title": "材料清单 — 附每份的获取地点与要求",
       "intro": "对每份材料，这里说明在哪获取以及需体现什么。",
-      "cols": ["材料", "在哪获取", "需体现什么"],
-      "rows": [
-        { "doc": "护照", "req": "required", "where": "你已持有", "how": "有效期 6 个月以上，至少 2 页空白签证页。" },
-        { "doc": "签证申请表", "req": "required", "where": "visa.go.kr", "how": "在韩国签证门户填写、打印、签名。", "link": "https://www.visa.go.kr" },
-        { "doc": "照片 — 3.5 × 4.5 cm", "req": "required", "where": "任意照相馆", "how": "白底，6 个月内拍摄，正面清晰。" },
-        { "doc": "户口簿", "req": "required", "where": "你已持有", "how": "户口簿复印件；有助于确认居住地/领区。" },
-        { "doc": "银行流水 — 近 3–6 个月", "req": "required", "where": "你的开户银行", "how": "加盖印章的流水，显示足够本次旅行的稳定余额。" },
-        { "doc": "在职/营业证明", "req": "required", "where": "单位 / 企业", "how": "在职：在职证明 + 准假证明。自营：营业执照。" },
-        { "doc": "往返机票与酒店预订", "req": "required", "where": "航空公司 / 预订平台", "how": "预订单/行程即可 — 获批前不要付费买票。" },
-        { "doc": "资产证明（可选）", "req": "recommended", "where": "本人 / 相关部门", "how": "房产、车辆或存款证明可增强首次申请的说服力。" }
+      "cols": [
+        "材料",
+        "在哪获取",
+        "需体现什么"
       ],
-      "legend": { "required": "必需", "conditional": "视情况", "recommended": "建议" }
+      "rows": [
+        {
+          "doc": "护照",
+          "req": "required",
+          "where": "你已持有",
+          "how": "有效期 6 个月以上，至少 2 页空白签证页。"
+        },
+        {
+          "doc": "签证申请表",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在韩国签证门户填写、打印、签名。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片 — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "任意照相馆",
+          "how": "白底，6 个月内拍摄，正面清晰。"
+        },
+        {
+          "doc": "户口簿",
+          "req": "required",
+          "where": "你已持有",
+          "how": "户口簿复印件；有助于确认居住地/领区。"
+        },
+        {
+          "doc": "银行流水 — 近 3–6 个月",
+          "req": "required",
+          "where": "你的开户银行",
+          "how": "加盖印章的流水，显示足够本次旅行的稳定余额。"
+        },
+        {
+          "doc": "在职/营业证明",
+          "req": "required",
+          "where": "单位 / 企业",
+          "how": "在职：在职证明 + 准假证明。自营：营业执照。"
+        },
+        {
+          "doc": "往返机票与酒店预订",
+          "req": "required",
+          "where": "航空公司 / 预订平台",
+          "how": "预订单/行程即可 — 获批前不要付费买票。"
+        },
+        {
+          "doc": "资产证明（可选）",
+          "req": "recommended",
+          "where": "本人 / 相关部门",
+          "how": "房产、车辆或存款证明可增强首次申请的说服力。"
+        }
+      ],
+      "legend": {
+        "required": "必需",
+        "conditional": "视情况",
+        "recommended": "建议"
+      }
     },
     "funds": {
       "title": "\"需要展示多少存款？\"",
@@ -73,22 +187,60 @@
     "pitfalls": {
       "title": "导致拒签与延误的常见错误",
       "items": [
-        { "icon": "📍", "t": "领区错误", "d": "在户口所在领区之外申请。请在户口所在领区办理。" },
-        { "icon": "🏝️", "t": "误以为济州规则通用", "d": "济州免签仅限济州且需直飞 — 不允许前往本土。" },
-        { "icon": "💸", "t": "临时大额存入", "d": "申请前突击存入大额。请展示稳定、可解释的资金。" },
-        { "icon": "🎫", "t": "过早买票", "d": "获批前购买不可退机票 — 预订单即可。" },
-        { "icon": "🗓️", "t": "依赖已过期政策", "d": "团体免签为限时试点（至 2026 年 6 月）。依赖前请再确认。" }
+        {
+          "icon": "📍",
+          "t": "领区错误",
+          "d": "在户口所在领区之外申请。请在户口所在领区办理。"
+        },
+        {
+          "icon": "🏝️",
+          "t": "误以为济州规则通用",
+          "d": "济州免签仅限济州且需直飞 — 不允许前往本土。"
+        },
+        {
+          "icon": "💸",
+          "t": "临时大额存入",
+          "d": "申请前突击存入大额。请展示稳定、可解释的资金。"
+        },
+        {
+          "icon": "🎫",
+          "t": "过早买票",
+          "d": "获批前购买不可退机票 — 预订单即可。"
+        },
+        {
+          "icon": "🗓️",
+          "t": "依赖已过期政策",
+          "d": "团体免签为限时试点（至 2026 年 6 月）。依赖前请再确认。"
+        }
       ]
     },
     "faq": {
       "title": "中国 → 韩国签证常见问题",
       "items": [
-        { "q": "中国公民去韩国需要签证吗？", "a": "前往本土需要 — 个人游客申请 C-3 旅游签证。济州岛可免签最多 30 天，经批准的旅行团也曾有限时免签窗口。" },
-        { "q": "济州免签怎么用？", "a": "可免签赴济州最多 30 天，但只能直飞往返济州，不能经韩国本土中转。" },
-        { "q": "旅行团现在还能免签吗？", "a": "针对 3 人以上经批准团体的试点实施于 2025 年 9 月至 2026 年 6 月。此类政策有时限，请向旅行社或使领馆确认现状。" },
-        { "q": "我在哪申请？", "a": "在你户口登记所在领区的韩国签证申请中心或韩国领事馆申请。" },
-        { "q": "需要展示多少钱？", "a": "没有固定最低额 — 展示稳定的 3–6 个月余额及与中国的联系。费用不退。" },
-        { "q": "我还需要 e-Arrival Card 吗？", "a": "e-Arrival Card 等入境材料规定仍可能适用。请在出行前确认现行规定。" }
+        {
+          "q": "中国公民去韩国需要签证吗？",
+          "a": "前往本土需要 — 个人游客申请 C-3 旅游签证。济州岛可免签最多 30 天，经批准的旅行团也曾有限时免签窗口。"
+        },
+        {
+          "q": "济州免签怎么用？",
+          "a": "可免签赴济州最多 30 天，但只能直飞往返济州，不能经韩国本土中转。"
+        },
+        {
+          "q": "旅行团现在还能免签吗？",
+          "a": "针对 3 人以上经批准团体的试点实施于 2025 年 9 月至 2026 年 6 月。此类政策有时限，请向旅行社或使领馆确认现状。"
+        },
+        {
+          "q": "我在哪申请？",
+          "a": "在你户口登记所在领区的韩国签证申请中心或韩国领事馆申请。"
+        },
+        {
+          "q": "需要展示多少钱？",
+          "a": "没有固定最低额 — 展示稳定的 3–6 个月余额及与中国的联系。费用不退。"
+        },
+        {
+          "q": "我还需要 e-Arrival Card 吗？",
+          "a": "e-Arrival Card 等入境材料规定仍可能适用。请在出行前确认现行规定。"
+        }
       ]
     }
   },
@@ -98,7 +250,20 @@
     "h1": "中国国民のための韓国ビザ",
     "metaTitle": "中国から韓国ビザを申請：ステップ別ガイド（2026）— Korea Trip Hub",
     "metaDesc": "中国から韓国の観光ビザを申請する方法：申請先、必要書類（と各書類の入手先）、費用、処理期間、公式リンク。個人 C-3 観光ビザ、Jeju は30日間ビザ免除。",
-    "ui": { "visa": "ビザの種類", "stay": "滞在期間", "entry": "入国回数", "where": "入手先", "official": "公式ソース", "required": "必須", "conditional": "該当する場合", "recommended": "推奨", "confirm": "費用・規定は変更される場合があります — 公式情報でご確認ください", "source": "出典", "updated": "更新", "tldr": "要点まとめ" },
+    "ui": {
+      "visa": "ビザの種類",
+      "stay": "滞在期間",
+      "entry": "入国回数",
+      "where": "入手先",
+      "official": "公式ソース",
+      "required": "必須",
+      "conditional": "該当する場合",
+      "recommended": "推奨",
+      "confirm": "費用・規定は変更される場合があります — 公式情報でご確認ください",
+      "source": "出典",
+      "updated": "更新",
+      "tldr": "要点まとめ"
+    },
     "verdict": {
       "headline": "はい — 中国のパスポート保持者は韓国本土への渡航にビザが必要です。",
       "sub": "個人旅行者は韓国領事館または韓国ビザ申請センターで C-3 観光ビザを申請します。これを省ける大きな例外が2つあります：Jeju 島、そして（時期により）承認された団体ツアーです。",
@@ -107,8 +272,18 @@
       "entry": "シングルまたはマルチプル（場合による）"
     },
     "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "Jeju 島 — 最長30日間ビザ免除", "body": "中国国民は Jeju への直行便で往復し、韓国本土を経由しないことを条件に、ビザなしで最長30日間 Jeju を訪問できます。" },
-      { "icon": "👥", "tone": "amber", "title": "団体ビザ免除（期間限定）", "body": "承認された3名以上のツアー団体が最長15日間ビザなしで入国できる試験制度で、実施期間は 2025年9月〜2026年6月、同期間は団体ビザの処理手数料も免除されました。頼りにする前に延長されているか確認してください。" }
+      {
+        "icon": "🏝️",
+        "tone": "green",
+        "title": "Jeju 島 — 最長30日間ビザ免除",
+        "body": "中国国民は Jeju への直行便で往復し、韓国本土を経由しないことを条件に、ビザなしで最長30日間 Jeju を訪問できます。"
+      },
+      {
+        "icon": "👥",
+        "tone": "amber",
+        "title": "団体ビザ免除（期間限定）",
+        "body": "承認された3名以上のツアー団体が最長15日間ビザなしで入国できる試験制度で、実施期間は 2025年9月〜2026年6月、同期間は団体ビザの処理手数料も免除されました。頼りにする前に延長されているか確認してください。"
+      }
     ],
     "tldr": [
       "本土への渡航では、個人旅行者は C-3 観光ビザが必要です — お住まいの地域を管轄する韓国領事館／KVAC で申請します。",
@@ -120,38 +295,129 @@
       "title": "ステップ0 — 管轄の領事区で申請する",
       "intro": "中国は韓国大使館（Beijing）と複数の総領事館に分かれて管轄され、それぞれに韓国ビザ申請センターがあります。あなたの戸籍（hukou）がある地区を管轄する KVAC で申請してください。",
       "zones": [
-        { "name": "大使館と主要総領事館", "covers": "Beijing、Shanghai、Guangzhou、Shenyang、Chengdu、Wuhan、Qingdao、Xi'an の各区", "centers": "各区の KVAC（VFS Global）", "site": "vfsglobal.com（中国）", "url": "https://www.vfsglobal.com/" },
-        { "name": "Hong Kong / Macao", "covers": "特別行政区の住民（規定は別途）", "centers": "在 Hong Kong 総領事館", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
+        {
+          "name": "大使館と主要総領事館",
+          "covers": "Beijing、Shanghai、Guangzhou、Shenyang、Chengdu、Wuhan、Qingdao、Xi'an の各区",
+          "centers": "各区の KVAC（VFS Global）",
+          "site": "vfsglobal.com（中国）",
+          "url": "https://www.vfsglobal.com/"
+        },
+        {
+          "name": "Hong Kong / Macao",
+          "covers": "特別行政区の住民（規定は別途）",
+          "centers": "在 Hong Kong 総領事館",
+          "site": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/hk-en/index.do"
+        }
       ],
       "note": "どの地区が管轄か分かりませんか？hukou 上の省で判断してください。KVAC のサイトに各地区の管轄範囲が記載されています。"
     },
     "steps": {
       "title": "申請の手順（個人 C-3）",
       "items": [
-        { "n": 1, "title": "ビザの種類を確認する", "detail": "個人旅行者は C-3 短期観光ビザを申請します。" },
-        { "n": 2, "title": "visa.go.kr で申請書に記入する", "detail": "韓国ビザポータル（唯一の公式サイト）で申請書を作成し、印刷して署名します。", "link": "https://www.visa.go.kr", "linkLabel": "韓国ビザポータル" },
-        { "n": 3, "title": "書類を揃える", "detail": "下のチェックリストを揃えます。戸籍と財政証明を含みます。" },
-        { "n": 4, "title": "KVAC／領事館で提出する", "detail": "あなたの管轄区の韓国ビザ申請センターまたは領事館で申請します。" },
-        { "n": 5, "title": "手数料を支払う", "detail": "ビザ料金とサービス料を支払います。却下されても返金されません。" },
-        { "n": 6, "title": "申請を追跡する", "detail": "センターの窓口で状況を確認します。承認前に払い戻し不可の航空券を購入しないでください。" },
-        { "n": 7, "title": "パスポートを受け取る", "detail": "本人受取または宅配で受け取り、ビザの内容をすぐに確認します。" }
+        {
+          "n": 1,
+          "title": "ビザの種類を確認する",
+          "detail": "個人旅行者は C-3 短期観光ビザを申請します。"
+        },
+        {
+          "n": 2,
+          "title": "visa.go.kr で申請書に記入する",
+          "detail": "韓国ビザポータル（唯一の公式サイト）で申請書を作成し、印刷して署名します。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "韓国ビザポータル"
+        },
+        {
+          "n": 3,
+          "title": "書類を揃える",
+          "detail": "下のチェックリストを揃えます。戸籍と財政証明を含みます。"
+        },
+        {
+          "n": 4,
+          "title": "KVAC／領事館で提出する",
+          "detail": "あなたの管轄区の韓国ビザ申請センターまたは領事館で申請します。"
+        },
+        {
+          "n": 5,
+          "title": "手数料を支払う",
+          "detail": "ビザ料金とサービス料を支払います。却下されても返金されません。"
+        },
+        {
+          "n": 6,
+          "title": "申請を追跡する",
+          "detail": "センターの窓口で状況を確認します。承認前に払い戻し不可の航空券を購入しないでください。"
+        },
+        {
+          "n": 7,
+          "title": "パスポートを受け取る",
+          "detail": "本人受取または宅配で受け取り、ビザの内容をすぐに確認します。"
+        }
       ]
     },
     "documents": {
       "title": "書類チェックリスト — 各書類の入手先と方法つき",
       "intro": "各項目について、入手先と記載すべき内容を示します。",
-      "cols": ["書類", "入手先", "記載すべき内容"],
-      "rows": [
-        { "doc": "パスポート", "req": "required", "where": "所持済み", "how": "有効期間6か月以上、査証用空白ページが少なくとも2ページ。" },
-        { "doc": "ビザ申請書", "req": "required", "where": "visa.go.kr", "how": "韓国ビザポータルで作成、印刷、署名。", "link": "https://www.visa.go.kr" },
-        { "doc": "写真 — 3.5 × 4.5 cm", "req": "required", "where": "任意の写真スタジオ", "how": "白背景、6か月以内に撮影、正面全顔。" },
-        { "doc": "戸籍（hukou）", "req": "required", "where": "所持済み", "how": "hukou（戸籍簿）のコピー。居住地／管轄区の確認に役立ちます。" },
-        { "doc": "銀行残高証明 — 直近3〜6か月", "req": "required", "where": "取引銀行", "how": "旅行に十分な安定した残高を示す、押印済みの明細。" },
-        { "doc": "在職／事業証明", "req": "required", "where": "勤務先／事業", "how": "被雇用者：在職証明＋休暇承認。自営業：営業許可証。" },
-        { "doc": "往復航空券とホテルの予約", "req": "required", "where": "航空会社／予約サイト", "how": "予約・旅程で十分です — 承認前に航空券を購入しないでください。" },
-        { "doc": "資産証明（任意）", "req": "recommended", "where": "本人／関係機関", "how": "不動産、車両、預金の証明は初回申請を強化できます。" }
+      "cols": [
+        "書類",
+        "入手先",
+        "記載すべき内容"
       ],
-      "legend": { "required": "必須", "conditional": "該当する場合", "recommended": "推奨" }
+      "rows": [
+        {
+          "doc": "パスポート",
+          "req": "required",
+          "where": "所持済み",
+          "how": "有効期間6か月以上、査証用空白ページが少なくとも2ページ。"
+        },
+        {
+          "doc": "ビザ申請書",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "韓国ビザポータルで作成、印刷、署名。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "写真 — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "任意の写真スタジオ",
+          "how": "白背景、6か月以内に撮影、正面全顔。"
+        },
+        {
+          "doc": "戸籍（hukou）",
+          "req": "required",
+          "where": "所持済み",
+          "how": "hukou（戸籍簿）のコピー。居住地／管轄区の確認に役立ちます。"
+        },
+        {
+          "doc": "銀行残高証明 — 直近3〜6か月",
+          "req": "required",
+          "where": "取引銀行",
+          "how": "旅行に十分な安定した残高を示す、押印済みの明細。"
+        },
+        {
+          "doc": "在職／事業証明",
+          "req": "required",
+          "where": "勤務先／事業",
+          "how": "被雇用者：在職証明＋休暇承認。自営業：営業許可証。"
+        },
+        {
+          "doc": "往復航空券とホテルの予約",
+          "req": "required",
+          "where": "航空会社／予約サイト",
+          "how": "予約・旅程で十分です — 承認前に航空券を購入しないでください。"
+        },
+        {
+          "doc": "資産証明（任意）",
+          "req": "recommended",
+          "where": "本人／関係機関",
+          "how": "不動産、車両、預金の証明は初回申請を強化できます。"
+        }
+      ],
+      "legend": {
+        "required": "必須",
+        "conditional": "該当する場合",
+        "recommended": "推奨"
+      }
     },
     "funds": {
       "title": "「いくら残高を示すべき？」",
@@ -165,22 +431,60 @@
     "pitfalls": {
       "title": "却下や遅延を招くミス",
       "items": [
-        { "icon": "📍", "t": "管轄区の誤り", "d": "hukou の領事区以外で申請すること。戸籍がある場所で申請してください。" },
-        { "icon": "🏝️", "t": "Jeju の規則がどこでも通用すると思い込む", "d": "Jeju のビザ免除は直行便での Jeju 限定 — 本土への渡航はできません。" },
-        { "icon": "💸", "t": "突然の入金", "d": "申請直前の多額の一括入金。安定して説明できる資金を示しましょう。" },
-        { "icon": "🎫", "t": "航空券の早すぎる購入", "d": "承認前に払い戻し不可の航空券を購入すること — 予約で十分です。" },
-        { "icon": "🗓️", "t": "失効した免除に頼る", "d": "団体ビザ免除は期間限定でした（2026年6月まで）。頼る前に再確認してください。" }
+        {
+          "icon": "📍",
+          "t": "管轄区の誤り",
+          "d": "hukou の領事区以外で申請すること。戸籍がある場所で申請してください。"
+        },
+        {
+          "icon": "🏝️",
+          "t": "Jeju の規則がどこでも通用すると思い込む",
+          "d": "Jeju のビザ免除は直行便での Jeju 限定 — 本土への渡航はできません。"
+        },
+        {
+          "icon": "💸",
+          "t": "突然の入金",
+          "d": "申請直前の多額の一括入金。安定して説明できる資金を示しましょう。"
+        },
+        {
+          "icon": "🎫",
+          "t": "航空券の早すぎる購入",
+          "d": "承認前に払い戻し不可の航空券を購入すること — 予約で十分です。"
+        },
+        {
+          "icon": "🗓️",
+          "t": "失効した免除に頼る",
+          "d": "団体ビザ免除は期間限定でした（2026年6月まで）。頼る前に再確認してください。"
+        }
       ]
     },
     "faq": {
       "title": "中国 → 韓国 ビザ FAQ",
       "items": [
-        { "q": "中国国民は韓国にビザが必要ですか？", "a": "韓国本土についてははい — 個人旅行者は C-3 観光ビザを申請します。Jeju 島は最長30日間のビザ免除入国が可能で、承認された団体ツアーには期間限定のビザ免除枠がありました。" },
-        { "q": "Jeju のビザ免除はどう使いますか？", "a": "ビザなしで最長30日間 Jeju に入国できますが、Jeju への直行便での往復に限られ、韓国本土を経由することはできません。" },
-        { "q": "団体ツアーは今もビザ免除で入れますか？", "a": "3名以上の承認団体向けの試験制度が 2025年9月〜2026年6月に実施されました。こうした制度は期間限定のため、旅行代理店または大使館で現状を確認してください。" },
-        { "q": "どこで申請しますか？", "a": "あなたの hukou が登録されている地区の韓国ビザ申請センターまたは韓国領事館で申請します。" },
-        { "q": "いくら残高が必要ですか？", "a": "固定の最低額はありません — 安定した3〜6か月の残高と中国とのつながりを示します。手数料は返金されません。" },
-        { "q": "まだ e-Arrival Card が必要ですか？", "a": "e-Arrival Card などの入国書類の規定は依然として適用される場合があります。渡航日近くに現行の規定を確認してください。" }
+        {
+          "q": "中国国民は韓国にビザが必要ですか？",
+          "a": "韓国本土についてははい — 個人旅行者は C-3 観光ビザを申請します。Jeju 島は最長30日間のビザ免除入国が可能で、承認された団体ツアーには期間限定のビザ免除枠がありました。"
+        },
+        {
+          "q": "Jeju のビザ免除はどう使いますか？",
+          "a": "ビザなしで最長30日間 Jeju に入国できますが、Jeju への直行便での往復に限られ、韓国本土を経由することはできません。"
+        },
+        {
+          "q": "団体ツアーは今もビザ免除で入れますか？",
+          "a": "3名以上の承認団体向けの試験制度が 2025年9月〜2026年6月に実施されました。こうした制度は期間限定のため、旅行代理店または大使館で現状を確認してください。"
+        },
+        {
+          "q": "どこで申請しますか？",
+          "a": "あなたの hukou が登録されている地区の韓国ビザ申請センターまたは韓国領事館で申請します。"
+        },
+        {
+          "q": "いくら残高が必要ですか？",
+          "a": "固定の最低額はありません — 安定した3〜6か月の残高と中国とのつながりを示します。手数料は返金されません。"
+        },
+        {
+          "q": "まだ e-Arrival Card が必要ですか？",
+          "a": "e-Arrival Card などの入国書類の規定は依然として適用される場合があります。渡航日近くに現行の規定を確認してください。"
+        }
       ]
     }
   },
@@ -190,7 +494,20 @@
     "h1": "중국 국민을 위한 한국 비자",
     "metaTitle": "중국에서 한국 비자 신청: 단계별 가이드(2026) — Korea Trip Hub",
     "metaDesc": "중국에서 한국 관광 비자를 신청하는 방법: 어디서 신청하는지, 어떤 서류가 필요한지(각 서류를 어디서 발급받는지), 비용, 처리 기간, 공식 링크. 개인 C-3 관광 비자, Jeju는 30일 무비자.",
-    "ui": { "visa": "비자 종류", "stay": "체류 기간", "entry": "입국 횟수", "where": "발급처", "official": "공식 출처", "required": "필수", "conditional": "해당 시", "recommended": "권장", "confirm": "비용/규정은 변경될 수 있습니다 — 공식 출처로 확인하세요", "source": "출처", "updated": "업데이트", "tldr": "핵심 요약" },
+    "ui": {
+      "visa": "비자 종류",
+      "stay": "체류 기간",
+      "entry": "입국 횟수",
+      "where": "발급처",
+      "official": "공식 출처",
+      "required": "필수",
+      "conditional": "해당 시",
+      "recommended": "권장",
+      "confirm": "비용/규정은 변경될 수 있습니다 — 공식 출처로 확인하세요",
+      "source": "출처",
+      "updated": "업데이트",
+      "tldr": "핵심 요약"
+    },
     "verdict": {
       "headline": "네 — 중국 여권 소지자는 한국 본토 방문에 비자가 필요합니다.",
       "sub": "개인 여행자는 한국 영사관이나 한국비자신청센터에서 C-3 관광 비자를 신청합니다. 이를 건너뛸 수 있는 큰 예외가 두 가지 있습니다: Jeju 섬, 그리고 (시기에 따라) 승인된 단체 관광입니다.",
@@ -199,8 +516,18 @@
       "entry": "단수 또는 복수(경우에 따라)"
     },
     "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "Jeju 섬 — 최대 30일 무비자", "body": "중국 국민은 Jeju를 오가는 직항편을 이용하고 한국 본토를 경유하지 않는 조건으로, 비자 없이 최대 30일간 Jeju를 방문할 수 있습니다." },
-      { "icon": "👥", "tone": "amber", "title": "단체 무비자(기간 한정)", "body": "승인된 3인 이상 단체가 최대 15일간 무비자로 입국할 수 있는 시범 제도로, 시행 기간은 2025년 9월~2026년 6월이며 같은 기간 단체 비자 수수료도 면제되었습니다. 의존하기 전에 연장되었는지 확인하세요." }
+      {
+        "icon": "🏝️",
+        "tone": "green",
+        "title": "Jeju 섬 — 최대 30일 무비자",
+        "body": "중국 국민은 Jeju를 오가는 직항편을 이용하고 한국 본토를 경유하지 않는 조건으로, 비자 없이 최대 30일간 Jeju를 방문할 수 있습니다."
+      },
+      {
+        "icon": "👥",
+        "tone": "amber",
+        "title": "단체 무비자(기간 한정)",
+        "body": "승인된 3인 이상 단체가 최대 15일간 무비자로 입국할 수 있는 시범 제도로, 시행 기간은 2025년 9월~2026년 6월이며 같은 기간 단체 비자 수수료도 면제되었습니다. 의존하기 전에 연장되었는지 확인하세요."
+      }
     ],
     "tldr": [
       "본토 여행에는 개인 여행자에게 C-3 관광 비자가 필요합니다 — 거주 지역을 관할하는 한국 영사관/KVAC에서 신청하세요.",
@@ -212,38 +539,129 @@
       "title": "0단계 — 관할 영사구역에서 신청",
       "intro": "중국은 주중 한국대사관(Beijing)과 여러 총영사관으로 관할이 나뉘며, 각각 한국비자신청센터를 두고 있습니다. 귀하의 호적(hukou)이 있는 구역의 KVAC에서 신청하세요.",
       "zones": [
-        { "name": "대사관 및 주요 총영사관", "covers": "Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an 구역", "centers": "각 구역의 KVAC(VFS Global)", "site": "vfsglobal.com(중국)", "url": "https://www.vfsglobal.com/" },
-        { "name": "Hong Kong / Macao", "covers": "특별행정구 주민(규정 별도)", "centers": "주 Hong Kong 총영사관", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
+        {
+          "name": "대사관 및 주요 총영사관",
+          "covers": "Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an 구역",
+          "centers": "각 구역의 KVAC(VFS Global)",
+          "site": "vfsglobal.com(중국)",
+          "url": "https://www.vfsglobal.com/"
+        },
+        {
+          "name": "Hong Kong / Macao",
+          "covers": "특별행정구 주민(규정 별도)",
+          "centers": "주 Hong Kong 총영사관",
+          "site": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/hk-en/index.do"
+        }
       ],
       "note": "어느 구역에 속하는지 모르시나요? hukou에 적힌 성(省)으로 확인하세요. KVAC 사이트에 각 구역의 관할 범위가 나와 있습니다."
     },
     "steps": {
       "title": "신청 절차(개인 C-3)",
       "items": [
-        { "n": 1, "title": "비자 종류 확인", "detail": "개인 여행자는 C-3 단기 관광 비자를 신청합니다." },
-        { "n": 2, "title": "visa.go.kr에서 양식 작성", "detail": "한국 비자 포털(유일한 공식 사이트)에서 신청서를 작성한 뒤 인쇄해 서명합니다.", "link": "https://www.visa.go.kr", "linkLabel": "한국 비자 포털" },
-        { "n": 3, "title": "서류 준비", "detail": "아래 체크리스트를 준비하세요. 호적과 재정 증명이 포함됩니다." },
-        { "n": 4, "title": "KVAC/영사관에 제출", "detail": "귀하의 관할 구역 한국비자신청센터 또는 영사관에서 신청합니다." },
-        { "n": 5, "title": "수수료 납부", "detail": "비자 수수료와 서비스 수수료를 납부합니다. 거절되어도 환불되지 않습니다." },
-        { "n": 6, "title": "신청 조회", "detail": "센터 채널을 통해 상태를 확인합니다. 승인 전에 환불 불가 항공권을 구매하지 마세요." },
-        { "n": 7, "title": "여권 수령", "detail": "직접 또는 택배로 수령하고 비자 정보를 즉시 확인합니다." }
+        {
+          "n": 1,
+          "title": "비자 종류 확인",
+          "detail": "개인 여행자는 C-3 단기 관광 비자를 신청합니다."
+        },
+        {
+          "n": 2,
+          "title": "visa.go.kr에서 양식 작성",
+          "detail": "한국 비자 포털(유일한 공식 사이트)에서 신청서를 작성한 뒤 인쇄해 서명합니다.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "한국 비자 포털"
+        },
+        {
+          "n": 3,
+          "title": "서류 준비",
+          "detail": "아래 체크리스트를 준비하세요. 호적과 재정 증명이 포함됩니다."
+        },
+        {
+          "n": 4,
+          "title": "KVAC/영사관에 제출",
+          "detail": "귀하의 관할 구역 한국비자신청센터 또는 영사관에서 신청합니다."
+        },
+        {
+          "n": 5,
+          "title": "수수료 납부",
+          "detail": "비자 수수료와 서비스 수수료를 납부합니다. 거절되어도 환불되지 않습니다."
+        },
+        {
+          "n": 6,
+          "title": "신청 조회",
+          "detail": "센터 채널을 통해 상태를 확인합니다. 승인 전에 환불 불가 항공권을 구매하지 마세요."
+        },
+        {
+          "n": 7,
+          "title": "여권 수령",
+          "detail": "직접 또는 택배로 수령하고 비자 정보를 즉시 확인합니다."
+        }
       ]
     },
     "documents": {
       "title": "서류 체크리스트 — 각 서류의 발급처와 방법 포함",
       "intro": "각 항목에 대해 어디서 발급받고 무엇을 보여야 하는지 안내합니다.",
-      "cols": ["서류", "발급처", "표시되어야 할 내용"],
-      "rows": [
-        { "doc": "여권", "req": "required", "where": "이미 보유", "how": "유효기간 6개월 이상, 사증용 빈 페이지 최소 2장." },
-        { "doc": "비자 신청서", "req": "required", "where": "visa.go.kr", "how": "한국 비자 포털에서 작성, 인쇄, 서명.", "link": "https://www.visa.go.kr" },
-        { "doc": "사진 — 3.5 × 4.5 cm", "req": "required", "where": "사진관", "how": "흰 배경, 6개월 이내 촬영, 정면 전체 얼굴." },
-        { "doc": "호적(hukou)", "req": "required", "where": "이미 보유", "how": "hukou(호적부) 사본. 거주지/관할 구역 확인에 도움이 됩니다." },
-        { "doc": "은행 잔고 증명 — 최근 3~6개월", "req": "required", "where": "거래 은행", "how": "여행에 충분한 안정적 잔고를 보여주는, 날인된 명세서." },
-        { "doc": "재직/사업 증명", "req": "required", "where": "직장/사업체", "how": "직장인: 재직증명서 + 휴가 승인. 자영업자: 사업자등록증." },
-        { "doc": "왕복 항공권 및 호텔 예약", "req": "required", "where": "항공사/예약 사이트", "how": "예약/일정이면 충분합니다 — 승인 전에 항공권을 결제하지 마세요." },
-        { "doc": "자산 증명(선택)", "req": "recommended", "where": "본인/관련 기관", "how": "부동산, 차량, 예금 증명은 첫 신청을 강화할 수 있습니다." }
+      "cols": [
+        "서류",
+        "발급처",
+        "표시되어야 할 내용"
       ],
-      "legend": { "required": "필수", "conditional": "해당 시", "recommended": "권장" }
+      "rows": [
+        {
+          "doc": "여권",
+          "req": "required",
+          "where": "이미 보유",
+          "how": "유효기간 6개월 이상, 사증용 빈 페이지 최소 2장."
+        },
+        {
+          "doc": "비자 신청서",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "한국 비자 포털에서 작성, 인쇄, 서명.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "사진 — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "사진관",
+          "how": "흰 배경, 6개월 이내 촬영, 정면 전체 얼굴."
+        },
+        {
+          "doc": "호적(hukou)",
+          "req": "required",
+          "where": "이미 보유",
+          "how": "hukou(호적부) 사본. 거주지/관할 구역 확인에 도움이 됩니다."
+        },
+        {
+          "doc": "은행 잔고 증명 — 최근 3~6개월",
+          "req": "required",
+          "where": "거래 은행",
+          "how": "여행에 충분한 안정적 잔고를 보여주는, 날인된 명세서."
+        },
+        {
+          "doc": "재직/사업 증명",
+          "req": "required",
+          "where": "직장/사업체",
+          "how": "직장인: 재직증명서 + 휴가 승인. 자영업자: 사업자등록증."
+        },
+        {
+          "doc": "왕복 항공권 및 호텔 예약",
+          "req": "required",
+          "where": "항공사/예약 사이트",
+          "how": "예약/일정이면 충분합니다 — 승인 전에 항공권을 결제하지 마세요."
+        },
+        {
+          "doc": "자산 증명(선택)",
+          "req": "recommended",
+          "where": "본인/관련 기관",
+          "how": "부동산, 차량, 예금 증명은 첫 신청을 강화할 수 있습니다."
+        }
+      ],
+      "legend": {
+        "required": "필수",
+        "conditional": "해당 시",
+        "recommended": "권장"
+      }
     },
     "funds": {
       "title": "\"잔고를 얼마나 보여야 하나요?\"",
@@ -257,22 +675,60 @@
     "pitfalls": {
       "title": "거절과 지연을 부르는 실수",
       "items": [
-        { "icon": "📍", "t": "관할 구역 오류", "d": "hukou의 영사구역 밖에서 신청하는 것. 호적이 있는 곳에서 신청하세요." },
-        { "icon": "🏝️", "t": "Jeju 규정이 어디서나 적용된다는 착각", "d": "Jeju 무비자는 직항편의 Jeju 한정 — 본토 여행은 허용되지 않습니다." },
-        { "icon": "💸", "t": "갑작스러운 입금", "d": "신청 직전의 거액 일시금. 안정적이고 설명 가능한 자금을 보여주세요." },
-        { "icon": "🎫", "t": "항공권 조기 구매", "d": "승인 전 환불 불가 항공권 구매 — 예약이면 충분합니다." },
-        { "icon": "🗓️", "t": "만료된 면제에 의존", "d": "단체 무비자 시범은 기간 한정이었습니다(2026년 6월까지). 의존하기 전에 재확인하세요." }
+        {
+          "icon": "📍",
+          "t": "관할 구역 오류",
+          "d": "hukou의 영사구역 밖에서 신청하는 것. 호적이 있는 곳에서 신청하세요."
+        },
+        {
+          "icon": "🏝️",
+          "t": "Jeju 규정이 어디서나 적용된다는 착각",
+          "d": "Jeju 무비자는 직항편의 Jeju 한정 — 본토 여행은 허용되지 않습니다."
+        },
+        {
+          "icon": "💸",
+          "t": "갑작스러운 입금",
+          "d": "신청 직전의 거액 일시금. 안정적이고 설명 가능한 자금을 보여주세요."
+        },
+        {
+          "icon": "🎫",
+          "t": "항공권 조기 구매",
+          "d": "승인 전 환불 불가 항공권 구매 — 예약이면 충분합니다."
+        },
+        {
+          "icon": "🗓️",
+          "t": "만료된 면제에 의존",
+          "d": "단체 무비자 시범은 기간 한정이었습니다(2026년 6월까지). 의존하기 전에 재확인하세요."
+        }
       ]
     },
     "faq": {
       "title": "중국 → 한국 비자 FAQ",
       "items": [
-        { "q": "중국 국민은 한국에 비자가 필요한가요?", "a": "한국 본토는 네 — 개인 여행자는 C-3 관광 비자를 신청합니다. Jeju 섬은 최대 30일 무비자 입국이 가능하며, 승인된 단체 관광에는 기간 한정 무비자 창구가 있었습니다." },
-        { "q": "Jeju 무비자는 어떻게 이용하나요?", "a": "비자 없이 최대 30일간 Jeju에 입국할 수 있지만, Jeju를 오가는 직항편에 한하며 한국 본토를 경유할 수 없습니다." },
-        { "q": "단체 관광은 지금도 무비자로 입국할 수 있나요?", "a": "3인 이상 승인 단체를 위한 시범 제도가 2025년 9월~2026년 6월에 시행되었습니다. 이런 제도는 기간 한정이므로 여행사나 대사관에 현재 상태를 확인하세요." },
-        { "q": "어디서 신청하나요?", "a": "귀하의 hukou가 등록된 구역의 한국비자신청센터 또는 한국 영사관에서 신청합니다." },
-        { "q": "돈을 얼마나 보여야 하나요?", "a": "고정 최저액은 없습니다 — 안정적인 3~6개월 잔고와 중국과의 연고를 보여주세요. 수수료는 환불되지 않습니다." },
-        { "q": "여전히 e-Arrival Card가 필요한가요?", "a": "e-Arrival Card 같은 입국 서류 규정이 여전히 적용될 수 있습니다. 여행일에 가까워 현행 규정을 확인하세요." }
+        {
+          "q": "중국 국민은 한국에 비자가 필요한가요?",
+          "a": "한국 본토는 네 — 개인 여행자는 C-3 관광 비자를 신청합니다. Jeju 섬은 최대 30일 무비자 입국이 가능하며, 승인된 단체 관광에는 기간 한정 무비자 창구가 있었습니다."
+        },
+        {
+          "q": "Jeju 무비자는 어떻게 이용하나요?",
+          "a": "비자 없이 최대 30일간 Jeju에 입국할 수 있지만, Jeju를 오가는 직항편에 한하며 한국 본토를 경유할 수 없습니다."
+        },
+        {
+          "q": "단체 관광은 지금도 무비자로 입국할 수 있나요?",
+          "a": "3인 이상 승인 단체를 위한 시범 제도가 2025년 9월~2026년 6월에 시행되었습니다. 이런 제도는 기간 한정이므로 여행사나 대사관에 현재 상태를 확인하세요."
+        },
+        {
+          "q": "어디서 신청하나요?",
+          "a": "귀하의 hukou가 등록된 구역의 한국비자신청센터 또는 한국 영사관에서 신청합니다."
+        },
+        {
+          "q": "돈을 얼마나 보여야 하나요?",
+          "a": "고정 최저액은 없습니다 — 안정적인 3~6개월 잔고와 중국과의 연고를 보여주세요. 수수료는 환불되지 않습니다."
+        },
+        {
+          "q": "여전히 e-Arrival Card가 필요한가요?",
+          "a": "e-Arrival Card 같은 입국 서류 규정이 여전히 적용될 수 있습니다. 여행일에 가까워 현행 규정을 확인하세요."
+        }
       ]
     }
   },
@@ -282,7 +738,20 @@
     "h1": "Visado para Corea para ciudadanos chinos",
     "metaTitle": "Solicitar el visado para Corea desde China: guía paso a paso (2026) — Korea Trip Hub",
     "metaDesc": "Cómo solicitar el visado de turista para Corea desde China: dónde tramitarlo, qué documentos necesitas (y dónde obtener cada uno), tasas, plazos y enlaces oficiales. Visado de turista C-3 individual; Jeju sin visado 30 días.",
-    "ui": { "visa": "Tipo de visado", "stay": "Estancia", "entry": "Entradas", "where": "Dónde obtenerlo", "official": "Fuente oficial", "required": "Obligatorio", "conditional": "Si aplica", "recommended": "Recomendado", "confirm": "Las tasas/normas pueden cambiar — confirma en fuentes oficiales", "source": "Fuente", "updated": "Actualizado", "tldr": "Puntos clave" },
+    "ui": {
+      "visa": "Tipo de visado",
+      "stay": "Estancia",
+      "entry": "Entradas",
+      "where": "Dónde obtenerlo",
+      "official": "Fuente oficial",
+      "required": "Obligatorio",
+      "conditional": "Si aplica",
+      "recommended": "Recomendado",
+      "confirm": "Las tasas/normas pueden cambiar — confirma en fuentes oficiales",
+      "source": "Fuente",
+      "updated": "Actualizado",
+      "tldr": "Puntos clave"
+    },
     "verdict": {
       "headline": "Sí — los titulares de pasaporte chino necesitan visado para la Corea continental.",
       "sub": "Los turistas individuales solicitan el visado de turista C-3 en un consulado coreano o en un Centro de Solicitud de Visado de Corea. Dos grandes excepciones te permiten evitarlo: la isla de Jeju y (en ciertos periodos) los viajes en grupo aprobados.",
@@ -291,8 +760,18 @@
       "entry": "Entrada única o múltiple (varía)"
     },
     "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "Isla de Jeju — sin visado hasta 30 días", "body": "Los ciudadanos chinos pueden visitar Jeju sin visado hasta 30 días, con la condición de vuelos directos hacia/desde Jeju y sin tránsito por la Corea continental." },
-      { "icon": "👥", "tone": "amber", "title": "Grupo sin visado (por tiempo limitado)", "body": "Un programa piloto permitió a grupos turísticos aprobados de 3 o más entrar sin visado hasta 15 días, vigente de sep 2025 a jun 2026, con la tasa de tramitación del visado de grupo exenta durante el mismo periodo. Comprueba si se ha prorrogado antes de contar con ello." }
+      {
+        "icon": "🏝️",
+        "tone": "green",
+        "title": "Isla de Jeju — sin visado hasta 30 días",
+        "body": "Los ciudadanos chinos pueden visitar Jeju sin visado hasta 30 días, con la condición de vuelos directos hacia/desde Jeju y sin tránsito por la Corea continental."
+      },
+      {
+        "icon": "👥",
+        "tone": "amber",
+        "title": "Grupo sin visado (por tiempo limitado)",
+        "body": "Un programa piloto permitió a grupos turísticos aprobados de 3 o más entrar sin visado hasta 15 días, vigente de sep 2025 a jun 2026, con la tasa de tramitación del visado de grupo exenta durante el mismo periodo. Comprueba si se ha prorrogado antes de contar con ello."
+      }
     ],
     "tldr": [
       "Para viajar a la parte continental, los turistas individuales necesitan un visado de turista C-3 — solicítalo en el consulado coreano/KVAC de tu zona.",
@@ -304,38 +783,129 @@
       "title": "Paso 0 — Solicita en tu distrito consular",
       "intro": "China está repartida entre la Embajada de Corea (Beijing) y varios consulados generales, cada uno con su propio Centro de Solicitud de Visado de Corea. Solicita en el KVAC del distrito donde esté tu registro de hogar (hukou).",
       "zones": [
-        { "name": "Embajada y principales consulados", "covers": "Distritos de Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an", "centers": "KVAC en cada distrito (VFS Global)", "site": "vfsglobal.com (China)", "url": "https://www.vfsglobal.com/" },
-        { "name": "Hong Kong / Macao", "covers": "Residentes de las RAE (normas aparte)", "centers": "Consulado General en Hong Kong", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
+        {
+          "name": "Embajada y principales consulados",
+          "covers": "Distritos de Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an",
+          "centers": "KVAC en cada distrito (VFS Global)",
+          "site": "vfsglobal.com (China)",
+          "url": "https://www.vfsglobal.com/"
+        },
+        {
+          "name": "Hong Kong / Macao",
+          "covers": "Residentes de las RAE (normas aparte)",
+          "centers": "Consulado General en Hong Kong",
+          "site": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/hk-en/index.do"
+        }
       ],
       "note": "¿No sabes qué distrito te corresponde? Compruébalo por la provincia de tu hukou; el sitio de KVAC indica la cobertura de cada distrito."
     },
     "steps": {
       "title": "La solicitud, paso a paso (C-3 individual)",
       "items": [
-        { "n": 1, "title": "Confirma el tipo de visado", "detail": "Los turistas individuales solicitan el visado de turista de corta estancia C-3." },
-        { "n": 2, "title": "Rellena el formulario en visa.go.kr", "detail": "Completa el formulario en el Portal de Visados de Corea — el único sitio oficial — y luego imprímelo y fírmalo.", "link": "https://www.visa.go.kr", "linkLabel": "Portal de Visados de Corea" },
-        { "n": 3, "title": "Reúne tus documentos", "detail": "Reúne la lista de abajo, incluidos tu registro de hogar y la prueba financiera." },
-        { "n": 4, "title": "Preséntalo en tu KVAC/consulado", "detail": "Solicita en el Centro de Solicitud de Visado de Corea o consulado de tu distrito." },
-        { "n": 5, "title": "Paga la tasa", "detail": "Paga la tasa del visado y la tasa de servicio. Las tasas no son reembolsables aunque te lo denieguen." },
-        { "n": 6, "title": "Sigue tu solicitud", "detail": "Consulta el estado por el canal del centro. No compres vuelos no reembolsables antes de la aprobación." },
-        { "n": 7, "title": "Recoge tu pasaporte", "detail": "Recógelo en persona o por mensajería y comprueba de inmediato los datos del visado." }
+        {
+          "n": 1,
+          "title": "Confirma el tipo de visado",
+          "detail": "Los turistas individuales solicitan el visado de turista de corta estancia C-3."
+        },
+        {
+          "n": 2,
+          "title": "Rellena el formulario en visa.go.kr",
+          "detail": "Completa el formulario en el Portal de Visados de Corea — el único sitio oficial — y luego imprímelo y fírmalo.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Portal de Visados de Corea"
+        },
+        {
+          "n": 3,
+          "title": "Reúne tus documentos",
+          "detail": "Reúne la lista de abajo, incluidos tu registro de hogar y la prueba financiera."
+        },
+        {
+          "n": 4,
+          "title": "Preséntalo en tu KVAC/consulado",
+          "detail": "Solicita en el Centro de Solicitud de Visado de Corea o consulado de tu distrito."
+        },
+        {
+          "n": 5,
+          "title": "Paga la tasa",
+          "detail": "Paga la tasa del visado y la tasa de servicio. Las tasas no son reembolsables aunque te lo denieguen."
+        },
+        {
+          "n": 6,
+          "title": "Sigue tu solicitud",
+          "detail": "Consulta el estado por el canal del centro. No compres vuelos no reembolsables antes de la aprobación."
+        },
+        {
+          "n": 7,
+          "title": "Recoge tu pasaporte",
+          "detail": "Recógelo en persona o por mensajería y comprueba de inmediato los datos del visado."
+        }
       ]
     },
     "documents": {
       "title": "Lista de documentos — con dónde y cómo obtener cada uno",
       "intro": "Para cada elemento, aquí tienes dónde obtenerlo y qué debe mostrar.",
-      "cols": ["Documento", "Dónde obtenerlo", "Qué debe mostrar"],
-      "rows": [
-        { "doc": "Pasaporte", "req": "required", "where": "Ya lo tienes", "how": "Válido 6+ meses con al menos 2 páginas de visado en blanco." },
-        { "doc": "Formulario de solicitud de visado", "req": "required", "where": "visa.go.kr", "how": "Complétalo en el Portal de Visados de Corea, imprímelo, fírmalo.", "link": "https://www.visa.go.kr" },
-        { "doc": "Foto — 3.5 × 4.5 cm", "req": "required", "where": "Cualquier estudio fotográfico", "how": "Fondo blanco, tomada en los últimos 6 meses, rostro completo." },
-        { "doc": "Registro de hogar (hukou)", "req": "required", "where": "Ya lo tienes", "how": "Copia de tu libro de hukou; ayuda a establecer tu residencia/distrito." },
-        { "doc": "Extracto bancario — últimos 3–6 meses", "req": "required", "where": "Tu banco", "how": "Extracto sellado que muestre un saldo estable suficiente para el viaje." },
-        { "doc": "Prueba de empleo / negocio", "req": "required", "where": "Empleador / negocio", "how": "Empleado: certificado de empleo + aprobación de permiso. Autónomo: licencia de actividad." },
-        { "doc": "Reserva de vuelo de ida y vuelta y hotel", "req": "required", "where": "Aerolínea / webs de reserva", "how": "Las reservas/el itinerario bastan — no pagues un billete antes de la aprobación." },
-        { "doc": "Prueba de bienes (opcional)", "req": "recommended", "where": "Tú / autoridad competente", "how": "Certificados de propiedad, vehículo o depósito pueden reforzar una primera solicitud." }
+      "cols": [
+        "Documento",
+        "Dónde obtenerlo",
+        "Qué debe mostrar"
       ],
-      "legend": { "required": "Obligatorio", "conditional": "Si te aplica", "recommended": "Recomendado" }
+      "rows": [
+        {
+          "doc": "Pasaporte",
+          "req": "required",
+          "where": "Ya lo tienes",
+          "how": "Válido 6+ meses con al menos 2 páginas de visado en blanco."
+        },
+        {
+          "doc": "Formulario de solicitud de visado",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Complétalo en el Portal de Visados de Corea, imprímelo, fírmalo.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "Cualquier estudio fotográfico",
+          "how": "Fondo blanco, tomada en los últimos 6 meses, rostro completo."
+        },
+        {
+          "doc": "Registro de hogar (hukou)",
+          "req": "required",
+          "where": "Ya lo tienes",
+          "how": "Copia de tu libro de hukou; ayuda a establecer tu residencia/distrito."
+        },
+        {
+          "doc": "Extracto bancario — últimos 3–6 meses",
+          "req": "required",
+          "where": "Tu banco",
+          "how": "Extracto sellado que muestre un saldo estable suficiente para el viaje."
+        },
+        {
+          "doc": "Prueba de empleo / negocio",
+          "req": "required",
+          "where": "Empleador / negocio",
+          "how": "Empleado: certificado de empleo + aprobación de permiso. Autónomo: licencia de actividad."
+        },
+        {
+          "doc": "Reserva de vuelo de ida y vuelta y hotel",
+          "req": "required",
+          "where": "Aerolínea / webs de reserva",
+          "how": "Las reservas/el itinerario bastan — no pagues un billete antes de la aprobación."
+        },
+        {
+          "doc": "Prueba de bienes (opcional)",
+          "req": "recommended",
+          "where": "Tú / autoridad competente",
+          "how": "Certificados de propiedad, vehículo o depósito pueden reforzar una primera solicitud."
+        }
+      ],
+      "legend": {
+        "required": "Obligatorio",
+        "conditional": "Si te aplica",
+        "recommended": "Recomendado"
+      }
     },
     "funds": {
       "title": "«¿Cuánto dinero debo mostrar?»",
@@ -349,206 +919,60 @@
     "pitfalls": {
       "title": "Errores que causan denegaciones y retrasos",
       "items": [
-        { "icon": "📍", "t": "Distrito equivocado", "d": "Solicitar fuera del distrito consular de tu hukou. Solicita donde esté tu registro de hogar." },
-        { "icon": "🏝️", "t": "Suponer que las normas de Jeju valen en todas partes", "d": "El régimen sin visado de Jeju es solo para Jeju con vuelos directos — no permite viajar a la parte continental." },
-        { "icon": "💸", "t": "Depósito repentino", "d": "Una gran suma justo antes de solicitar. Muestra fondos estables y explicables." },
-        { "icon": "🎫", "t": "Pagar vuelos pronto", "d": "Comprar billetes no reembolsables antes de la aprobación — basta una reserva." },
-        { "icon": "🗓️", "t": "Depender de una exención caducada", "d": "El piloto de grupo sin visado era por tiempo limitado (hasta jun 2026). Reconfírmalo antes de contar con ello." }
+        {
+          "icon": "📍",
+          "t": "Distrito equivocado",
+          "d": "Solicitar fuera del distrito consular de tu hukou. Solicita donde esté tu registro de hogar."
+        },
+        {
+          "icon": "🏝️",
+          "t": "Suponer que las normas de Jeju valen en todas partes",
+          "d": "El régimen sin visado de Jeju es solo para Jeju con vuelos directos — no permite viajar a la parte continental."
+        },
+        {
+          "icon": "💸",
+          "t": "Depósito repentino",
+          "d": "Una gran suma justo antes de solicitar. Muestra fondos estables y explicables."
+        },
+        {
+          "icon": "🎫",
+          "t": "Pagar vuelos pronto",
+          "d": "Comprar billetes no reembolsables antes de la aprobación — basta una reserva."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Depender de una exención caducada",
+          "d": "El piloto de grupo sin visado era por tiempo limitado (hasta jun 2026). Reconfírmalo antes de contar con ello."
+        }
       ]
     },
     "faq": {
       "title": "Preguntas frecuentes del visado China → Corea",
       "items": [
-        { "q": "¿Los ciudadanos chinos necesitan visado para Corea?", "a": "Para la Corea continental, sí — los turistas individuales solicitan un visado de turista C-3. La isla de Jeju permite la entrada sin visado hasta 30 días, y los viajes en grupo aprobados han tenido ventanas sin visado por tiempo limitado." },
-        { "q": "¿Cómo funciona el régimen sin visado de Jeju?", "a": "Puedes entrar en Jeju sin visado hasta 30 días, pero solo en vuelos directos hacia y desde Jeju — no puedes hacer tránsito por la Corea continental." },
-        { "q": "¿Los grupos turísticos aún pueden entrar sin visado?", "a": "Un piloto para grupos aprobados de 3 o más estuvo vigente de sep 2025 a jun 2026. Como estos programas son por tiempo limitado, confirma el estado actual con tu agencia de viajes o la embajada." },
-        { "q": "¿Dónde solicito?", "a": "En el Centro de Solicitud de Visado de Corea o el consulado coreano del distrito donde esté registrado tu hukou." },
-        { "q": "¿Cuánto dinero necesito mostrar?", "a": "No hay mínimo fijo — muestra un saldo estable de 3–6 meses y vínculos con China. Las tasas no son reembolsables." },
-        { "q": "¿Sigo necesitando la e-Arrival Card?", "a": "Las normas de documentos de entrada como la e-Arrival Card pueden seguir aplicándose. Comprueba las normas vigentes cerca de la fecha de tu viaje." }
-      ]
-    }
-  },
-  "ru": {
-    "kicker": "Визовый гид · Китай → Корея",
-    "readingTime": "Чтение ~8 мин",
-    "h1": "Виза в Корею для граждан Китая",
-    "metaTitle": "Оформление визы в Корею из Китая: пошаговое руководство (2026) — Korea Trip Hub",
-    "metaDesc": "Как оформить туристическую визу в Корею из Китая: где подавать, какие документы нужны (и где получить каждый), сборы, сроки и официальные ссылки. Индивидуальная туристическая виза C-3; Jeju — без визы 30 дней.",
-    "ui": { "visa": "Тип визы", "stay": "Срок пребывания", "entry": "Число въездов", "where": "Где получить", "official": "Официальный источник", "required": "Обязательно", "conditional": "Если применимо", "recommended": "Рекомендуется", "confirm": "Сборы/правила могут меняться — уточняйте в официальных источниках", "source": "Источник", "updated": "Обновлено", "tldr": "Кратко" },
-    "verdict": {
-      "headline": "Да — владельцам китайских паспортов нужна виза для материковой Кореи.",
-      "sub": "Индивидуальные туристы оформляют туристическую визу C-3 в корейском консульстве или в Корейском визовом центре. Есть два больших исключения, позволяющих обойтись без неё: остров Jeju и (в отдельные периоды) одобренные групповые туры.",
-      "type": "Туристическая C-3",
-      "stay": "До 90 дней",
-      "entry": "Однократный или многократный въезд (зависит от случая)"
-    },
-    "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "Остров Jeju — без визы до 30 дней", "body": "Граждане Китая могут посещать Jeju без визы до 30 дней при условии прямых рейсов на/с Jeju и без транзита через материковую Корею." },
-      { "icon": "👥", "tone": "amber", "title": "Групповой безвизовый режим (ограничен по времени)", "body": "Пилотная программа позволяла одобренным тургруппам от 3 человек въезжать без визы до 15 дней, действуя с сентября 2025 по июнь 2026, при этом сбор за оформление групповой визы отменялся в тот же период. Прежде чем полагаться на неё, проверьте, продлена ли она." }
-    ],
-    "tldr": [
-      "Для поездок на материк индивидуальным туристам нужна туристическая виза C-3 — подавайте в корейском консульстве/KVAC вашего района.",
-      "Заполните форму на visa.go.kr (единственный официальный портал), распечатайте и подпишите.",
-      "Возьмите паспорт, фото 3.5×4.5, регистрацию домохозяйства, банковскую выписку за 3–6 месяцев и подтверждение работы.",
-      "Едете только на Jeju? Можно въехать без визы до 30 дней прямыми рейсами."
-    ],
-    "jurisdiction": {
-      "title": "Шаг 0 — Подавайте в своём консульском округе",
-      "intro": "Китай поделён между посольством Кореи (Beijing) и несколькими генеральными консульствами, у каждого свой Корейский визовый центр. Подавайте в KVAC того округа, где оформлена ваша регистрация домохозяйства (hukou).",
-      "zones": [
-        { "name": "Посольство и основные консульства", "covers": "Округа Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an", "centers": "KVAC в каждом округе (VFS Global)", "site": "vfsglobal.com (Китай)", "url": "https://www.vfsglobal.com/" },
-        { "name": "Hong Kong / Macao", "covers": "Жители САР (правила отдельные)", "centers": "Генеральное консульство в Hong Kong", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
-      ],
-      "note": "Не уверены, какой округ ваш? Определите по провинции в вашем hukou; на сайте KVAC указан охват каждого округа."
-    },
-    "steps": {
-      "title": "Подача заявления, шаг за шагом (индивидуальная C-3)",
-      "items": [
-        { "n": 1, "title": "Определите тип визы", "detail": "Индивидуальные туристы оформляют краткосрочную туристическую визу C-3." },
-        { "n": 2, "title": "Заполните форму на visa.go.kr", "detail": "Заполните анкету на Корейском визовом портале — единственном официальном сайте — затем распечатайте и подпишите.", "link": "https://www.visa.go.kr", "linkLabel": "Корейский визовый портал" },
-        { "n": 3, "title": "Соберите документы", "detail": "Соберите список ниже, включая регистрацию домохозяйства и подтверждение финансов." },
-        { "n": 4, "title": "Подайте в KVAC/консульстве", "detail": "Подавайте в Корейском визовом центре или консульстве вашего округа." },
-        { "n": 5, "title": "Оплатите сбор", "detail": "Оплатите визовый сбор и сервисный сбор. Сборы не возвращаются даже при отказе." },
-        { "n": 6, "title": "Отслеживайте заявление", "detail": "Следите за статусом через канал центра. Не покупайте невозвратные билеты до одобрения." },
-        { "n": 7, "title": "Заберите паспорт", "detail": "Получите лично или курьером и сразу проверьте данные визы." }
-      ]
-    },
-    "documents": {
-      "title": "Список документов — с указанием, где и как получить каждый",
-      "intro": "Для каждого пункта указано, где его получить и что он должен подтверждать.",
-      "cols": ["Документ", "Где получить", "Что должен подтверждать"],
-      "rows": [
-        { "doc": "Паспорт", "req": "required", "where": "У вас есть", "how": "Действителен 6+ месяцев, не менее 2 чистых страниц для виз." },
-        { "doc": "Визовая анкета", "req": "required", "where": "visa.go.kr", "how": "Заполните на Корейском визовом портале, распечатайте, подпишите.", "link": "https://www.visa.go.kr" },
-        { "doc": "Фото — 3.5 × 4.5 cm", "req": "required", "where": "Любое фотоателье", "how": "Белый фон, снято за последние 6 месяцев, анфас." },
-        { "doc": "Регистрация домохозяйства (hukou)", "req": "required", "where": "У вас есть", "how": "Копия книжки hukou; помогает подтвердить место жительства/округ." },
-        { "doc": "Банковская выписка — за последние 3–6 месяцев", "req": "required", "where": "Ваш банк", "how": "Заверенная печатью выписка со стабильным балансом, достаточным для поездки." },
-        { "doc": "Подтверждение работы / бизнеса", "req": "required", "where": "Работодатель / бизнес", "how": "Работающим: справка с работы + одобрение отпуска. ИП: лицензия на бизнес." },
-        { "doc": "Бронь авиабилетов туда-обратно и отеля", "req": "required", "where": "Авиакомпания / сайты бронирования", "how": "Достаточно броней/маршрута — не оплачивайте билет до одобрения." },
-        { "doc": "Подтверждение имущества (по желанию)", "req": "recommended", "where": "Вы / соответствующий орган", "how": "Свидетельства о недвижимости, автомобиле или вкладе усилят первое заявление." }
-      ],
-      "legend": { "required": "Обязательно", "conditional": "Если применимо к вам", "recommended": "Рекомендуется" }
-    },
-    "funds": {
-      "title": "«Сколько денег нужно показать?»",
-      "body": "Единого опубликованного минимума нет. Сотрудники смотрят на стабильный баланс и явные связи с Китаем (работа, бизнес, семья, недвижимость). Стабильная история убедительнее внезапного вклада.",
-      "tips": [
-        "Показывайте стабильный баланс за 3–6 месяцев, а не сумму в последний момент.",
-        "Добавьте подтверждение связей: работа, лицензия на бизнес или недвижимость.",
-        "Первая поездка? Более крепкий пакет по финансам + имуществу поможет."
-      ]
-    },
-    "pitfalls": {
-      "title": "Ошибки, ведущие к отказам и задержкам",
-      "items": [
-        { "icon": "📍", "t": "Неверный округ", "d": "Подача вне консульского округа вашего hukou. Подавайте там, где оформлена регистрация домохозяйства." },
-        { "icon": "🏝️", "t": "Считать, что правила Jeju действуют везде", "d": "Безвизовый режим Jeju — только для Jeju и прямыми рейсами — он не разрешает поездки на материк." },
-        { "icon": "💸", "t": "Внезапный вклад", "d": "Крупная сумма прямо перед подачей. Показывайте стабильные, объяснимые средства." },
-        { "icon": "🎫", "t": "Ранняя оплата билетов", "d": "Покупка невозвратных билетов до одобрения — достаточно брони." },
-        { "icon": "🗓️", "t": "Расчёт на истёкшую льготу", "d": "Групповой безвизовый пилот был ограничен по времени (до июня 2026). Перепроверьте, прежде чем на него рассчитывать." }
-      ]
-    },
-    "faq": {
-      "title": "Виза Китай → Корея: частые вопросы",
-      "items": [
-        { "q": "Нужна ли гражданам Китая виза в Корею?", "a": "Для материковой Кореи — да, индивидуальные туристы оформляют туристическую визу C-3. Остров Jeju допускает безвизовый въезд до 30 дней, а у одобренных тургрупп были ограниченные по времени безвизовые окна." },
-        { "q": "Как работает безвизовый режим Jeju?", "a": "Вы можете въехать на Jeju без визы до 30 дней, но только прямыми рейсами на и с Jeju — транзит через материковую Корею невозможен." },
-        { "q": "Могут ли тургруппы всё ещё въезжать без визы?", "a": "Пилот для одобренных групп от 3 человек действовал с сентября 2025 по июнь 2026. Поскольку такие схемы ограничены по времени, уточните текущий статус в турагентстве или посольстве." },
-        { "q": "Где подавать?", "a": "В Корейском визовом центре или корейском консульстве округа, где зарегистрирован ваш hukou." },
-        { "q": "Сколько денег нужно показать?", "a": "Фиксированного минимума нет — покажите стабильный баланс за 3–6 месяцев и связи с Китаем. Сборы не возвращаются." },
-        { "q": "Нужна ли мне ещё e-Arrival Card?", "a": "Правила о въездных документах, такие как e-Arrival Card, могут по-прежнему действовать. Проверьте актуальные правила ближе к дате поездки." }
-      ]
-    }
-  },
-  "ar": {
-    "kicker": "دليل التأشيرة · الصين → كوريا",
-    "readingTime": "قراءة ~8 دقائق",
-    "h1": "تأشيرة كوريا لمواطني الصين",
-    "metaTitle": "التقديم على تأشيرة كوريا من الصين: دليل خطوة بخطوة (2026) — Korea Trip Hub",
-    "metaDesc": "كيفية التقديم على تأشيرة كوريا السياحية من الصين: أين تقدّم، وما المستندات المطلوبة (وأين تحصل على كل منها)، والرسوم والمدة والروابط الرسمية. تأشيرة سياحية فردية C-3؛ Jeju بدون تأشيرة 30 يومًا.",
-    "ui": { "visa": "نوع التأشيرة", "stay": "مدة الإقامة", "entry": "عدد مرات الدخول", "where": "أين تحصل عليه", "official": "المصدر الرسمي", "required": "مطلوب", "conditional": "إن ينطبق", "recommended": "موصى به", "confirm": "قد تتغيّر الرسوم/القواعد — تحقّق من المصادر الرسمية", "source": "المصدر", "updated": "آخر تحديث", "tldr": "أهم النقاط" },
-    "verdict": {
-      "headline": "نعم — يحتاج حاملو الجواز الصيني إلى تأشيرة لدخول كوريا القارية.",
-      "sub": "يتقدّم السياح الأفراد بطلب تأشيرة سياحية C-3 في قنصلية كورية أو في مركز تقديم طلبات تأشيرة كوريا. هناك استثناءان كبيران يتيحان لك تجاوزها: جزيرة Jeju، و(في بعض الأوقات) الجولات الجماعية المعتمدة.",
-      "type": "سياحية C-3",
-      "stay": "حتى 90 يومًا",
-      "entry": "دخول مفرد أو متعدد (يختلف)"
-    },
-    "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "جزيرة Jeju — بدون تأشيرة حتى 30 يومًا", "body": "يمكن للمواطنين الصينيين زيارة Jeju بدون تأشيرة حتى 30 يومًا، بشرط رحلات مباشرة من/إلى Jeju ودون العبور عبر كوريا القارية." },
-      { "icon": "👥", "tone": "amber", "title": "إعفاء جماعي من التأشيرة (لمدة محدودة)", "body": "أتاح برنامج تجريبي للمجموعات السياحية المعتمدة المكوّنة من 3 أفراد فأكثر الدخول بدون تأشيرة حتى 15 يومًا، ساريًا من سبتمبر 2025 إلى يونيو 2026، مع إعفاء رسوم معالجة التأشيرة الجماعية خلال الفترة نفسها. تحقّق مما إذا كان قد جرى تمديده قبل الاعتماد عليه." }
-    ],
-    "tldr": [
-      "للسفر إلى البر الرئيسي، يحتاج السياح الأفراد إلى تأشيرة سياحية C-3 — قدّم في القنصلية الكورية/KVAC لمنطقتك.",
-      "املأ النموذج على visa.go.kr (البوابة الرسمية الوحيدة)، ثم اطبعه ووقّعه.",
-      "أحضر جواز السفر، وصورة 3.5×4.5، وسجل الأسرة، وكشف حساب بنكي لمدة 3–6 أشهر، وإثبات العمل.",
-      "ذاهب إلى Jeju فقط؟ يمكنك الدخول بدون تأشيرة حتى 30 يومًا برحلات مباشرة."
-    ],
-    "jurisdiction": {
-      "title": "الخطوة 0 — قدّم في دائرتك القنصلية",
-      "intro": "تنقسم الصين بين سفارة كوريا (Beijing) وعدة قنصليات عامة، لكل منها مركز تقديم طلبات تأشيرة كوريا الخاص به. قدّم في KVAC للدائرة التي يُحفظ فيها سجل أسرتك (hukou).",
-      "zones": [
-        { "name": "السفارة والقنصليات الرئيسية", "covers": "دوائر Beijing وShanghai وGuangzhou وShenyang وChengdu وWuhan وQingdao وXi'an", "centers": "KVAC في كل دائرة (VFS Global)", "site": "vfsglobal.com (الصين)", "url": "https://www.vfsglobal.com/" },
-        { "name": "Hong Kong / Macao", "covers": "سكان المناطق الإدارية الخاصة (قواعد منفصلة)", "centers": "القنصلية العامة في Hong Kong", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
-      ],
-      "note": "لست متأكدًا أي دائرة تخصّك؟ تحقّق حسب المقاطعة المدوّنة في hukou؛ يذكر موقع KVAC نطاق تغطية كل دائرة."
-    },
-    "steps": {
-      "title": "الطلب خطوة بخطوة (C-3 فردية)",
-      "items": [
-        { "n": 1, "title": "أكّد نوع التأشيرة", "detail": "يتقدّم السياح الأفراد بطلب تأشيرة سياحية قصيرة الأمد C-3." },
-        { "n": 2, "title": "املأ النموذج على visa.go.kr", "detail": "أكمل نموذج الطلب على بوابة تأشيرة كوريا — الموقع الرسمي الوحيد — ثم اطبعه ووقّعه.", "link": "https://www.visa.go.kr", "linkLabel": "بوابة تأشيرة كوريا" },
-        { "n": 3, "title": "اجمع مستنداتك", "detail": "اجمع القائمة أدناه، بما في ذلك سجل الأسرة وإثبات القدرة المالية." },
-        { "n": 4, "title": "قدّم في KVAC/القنصلية", "detail": "قدّم في مركز تقديم طلبات تأشيرة كوريا أو القنصلية الخاصة بدائرتك." },
-        { "n": 5, "title": "ادفع الرسوم", "detail": "ادفع رسوم التأشيرة ورسوم الخدمة. الرسوم غير مستردة حتى في حال الرفض." },
-        { "n": 6, "title": "تابع طلبك", "detail": "تابع الحالة عبر قناة المركز. لا تشترِ تذاكر غير قابلة للاسترداد قبل الموافقة." },
-        { "n": 7, "title": "استلم جواز سفرك", "detail": "استلمه شخصيًا أو بالبريد السريع وتحقّق من بيانات التأشيرة فورًا." }
-      ]
-    },
-    "documents": {
-      "title": "قائمة المستندات — مع أين وكيف تحصل على كل منها",
-      "intro": "لكل عنصر، إليك أين تحصل عليه وما الذي يجب أن يُظهره.",
-      "cols": ["المستند", "أين تحصل عليه", "ما الذي يجب أن يُظهره"],
-      "rows": [
-        { "doc": "جواز السفر", "req": "required", "where": "بحوزتك", "how": "صالح لمدة 6 أشهر فأكثر مع صفحتين فارغتين للتأشيرة على الأقل." },
-        { "doc": "نموذج طلب التأشيرة", "req": "required", "where": "visa.go.kr", "how": "أكمله على بوابة تأشيرة كوريا واطبعه ووقّعه.", "link": "https://www.visa.go.kr" },
-        { "doc": "صورة — 3.5 × 4.5 cm", "req": "required", "where": "أي استوديو تصوير", "how": "خلفية بيضاء، ملتقطة خلال 6 أشهر، الوجه كاملًا." },
-        { "doc": "سجل الأسرة (hukou)", "req": "required", "where": "بحوزتك", "how": "نسخة من دفتر hukou؛ يساعد على إثبات محل إقامتك/دائرتك." },
-        { "doc": "كشف حساب بنكي — آخر 3–6 أشهر", "req": "required", "where": "بنكك", "how": "كشف مختوم يُظهر رصيدًا مستقرًا كافيًا للرحلة." },
-        { "doc": "إثبات العمل / النشاط التجاري", "req": "required", "where": "جهة العمل / النشاط", "how": "الموظف: شهادة عمل + موافقة إجازة. صاحب العمل الحر: رخصة تجارية." },
-        { "doc": "حجز طيران ذهاب وعودة وفندق", "req": "required", "where": "شركة الطيران / مواقع الحجز", "how": "الحجوزات/خط السير كافية — لا تدفع ثمن تذكرة قبل الموافقة." },
-        { "doc": "إثبات الأصول (اختياري)", "req": "recommended", "where": "أنت / الجهة المختصة", "how": "شهادات العقار أو المركبة أو الوديعة قد تقوّي ملف التقديم الأول." }
-      ],
-      "legend": { "required": "مطلوب", "conditional": "إن كان ينطبق عليك", "recommended": "موصى به" }
-    },
-    "funds": {
-      "title": "«كم مبلغًا يجب أن أُظهر؟»",
-      "body": "لا يوجد حد أدنى منشور موحّد. ينظر الموظفون إلى رصيد مستقر وروابط واضحة بالصين (عمل، نشاط تجاري، عائلة، عقار). التاريخ الثابت أكثر إقناعًا من إيداع مفاجئ.",
-      "tips": [
-        "أظهر رصيدًا مستقرًا لمدة 3–6 أشهر، لا مبلغًا مقطوعًا في اللحظة الأخيرة.",
-        "أضف إثبات الروابط: عمل أو رخصة تجارية أو عقار.",
-        "أول رحلة لك؟ ملف مالي + أصول أقوى يساعد."
-      ]
-    },
-    "pitfalls": {
-      "title": "أخطاء تسبّب الرفض والتأخير",
-      "items": [
-        { "icon": "📍", "t": "دائرة خاطئة", "d": "التقديم خارج الدائرة القنصلية لـ hukou الخاص بك. قدّم حيث يُحفظ سجل أسرتك." },
-        { "icon": "🏝️", "t": "افتراض أن قواعد Jeju تنطبق في كل مكان", "d": "إعفاء Jeju من التأشيرة خاص بـ Jeju وحدها وبرحلات مباشرة — ولا يسمح بالسفر إلى البر الرئيسي." },
-        { "icon": "💸", "t": "إيداع مفاجئ", "d": "مبلغ كبير قبيل التقديم مباشرة. أظهر أموالًا ثابتة وقابلة للتفسير." },
-        { "icon": "🎫", "t": "دفع ثمن الطيران مبكرًا", "d": "شراء تذاكر غير قابلة للاسترداد قبل الموافقة — الحجز يكفي." },
-        { "icon": "🗓️", "t": "الاعتماد على إعفاء منتهٍ", "d": "كان الإعفاء الجماعي التجريبي محدود المدة (حتى يونيو 2026). أعد التأكد قبل الاعتماد عليه." }
-      ]
-    },
-    "faq": {
-      "title": "الأسئلة الشائعة لتأشيرة الصين → كوريا",
-      "items": [
-        { "q": "هل يحتاج المواطنون الصينيون إلى تأشيرة لكوريا؟", "a": "بالنسبة لكوريا القارية، نعم — يتقدّم السياح الأفراد بطلب تأشيرة سياحية C-3. تتيح جزيرة Jeju الدخول بدون تأشيرة حتى 30 يومًا، وكانت للجولات الجماعية المعتمدة نوافذ إعفاء محدودة المدة." },
-        { "q": "كيف يعمل إعفاء Jeju من التأشيرة؟", "a": "يمكنك دخول Jeju بدون تأشيرة حتى 30 يومًا، لكن فقط برحلات مباشرة من وإلى Jeju — ولا يمكنك العبور عبر كوريا القارية." },
-        { "q": "هل ما زال بإمكان المجموعات السياحية الدخول بدون تأشيرة؟", "a": "استمر برنامج تجريبي للمجموعات المعتمدة من 3 أفراد فأكثر من سبتمبر 2025 إلى يونيو 2026. ولأن هذه البرامج محدودة المدة، تأكّد من الوضع الحالي مع وكالة سفرك أو السفارة." },
-        { "q": "أين أقدّم؟", "a": "في مركز تقديم طلبات تأشيرة كوريا أو القنصلية الكورية للدائرة التي يُسجّل فيها hukou الخاص بك." },
-        { "q": "كم من المال أحتاج أن أُظهر؟", "a": "لا حد أدنى ثابت — أظهر رصيدًا مستقرًا لمدة 3–6 أشهر مع روابط بالصين. الرسوم غير مستردة." },
-        { "q": "هل ما زلت بحاجة إلى e-Arrival Card؟", "a": "قد تظل قواعد مستندات الدخول مثل e-Arrival Card سارية. تحقّق من القواعد الحالية قرب موعد سفرك." }
+        {
+          "q": "¿Los ciudadanos chinos necesitan visado para Corea?",
+          "a": "Para la Corea continental, sí — los turistas individuales solicitan un visado de turista C-3. La isla de Jeju permite la entrada sin visado hasta 30 días, y los viajes en grupo aprobados han tenido ventanas sin visado por tiempo limitado."
+        },
+        {
+          "q": "¿Cómo funciona el régimen sin visado de Jeju?",
+          "a": "Puedes entrar en Jeju sin visado hasta 30 días, pero solo en vuelos directos hacia y desde Jeju — no puedes hacer tránsito por la Corea continental."
+        },
+        {
+          "q": "¿Los grupos turísticos aún pueden entrar sin visado?",
+          "a": "Un piloto para grupos aprobados de 3 o más estuvo vigente de sep 2025 a jun 2026. Como estos programas son por tiempo limitado, confirma el estado actual con tu agencia de viajes o la embajada."
+        },
+        {
+          "q": "¿Dónde solicito?",
+          "a": "En el Centro de Solicitud de Visado de Corea o el consulado coreano del distrito donde esté registrado tu hukou."
+        },
+        {
+          "q": "¿Cuánto dinero necesito mostrar?",
+          "a": "No hay mínimo fijo — muestra un saldo estable de 3–6 meses y vínculos con China. Las tasas no son reembolsables."
+        },
+        {
+          "q": "¿Sigo necesitando la e-Arrival Card?",
+          "a": "Las normas de documentos de entrada como la e-Arrival Card pueden seguir aplicándose. Comprueba las normas vigentes cerca de la fecha de tu viaje."
+        }
       ]
     }
   },
@@ -558,7 +982,20 @@
     "h1": "วีซ่าเกาหลีสำหรับพลเมืองจีน",
     "metaTitle": "ยื่นขอวีซ่าเกาหลีจากจีน: คู่มือทีละขั้นตอน (2026) — Korea Trip Hub",
     "metaDesc": "วิธียื่นขอวีซ่าท่องเที่ยวเกาหลีจากจีน: ยื่นที่ไหน ต้องใช้เอกสารอะไร (และขอแต่ละอย่างได้ที่ไหน) ค่าธรรมเนียม ระยะเวลา และลิงก์ทางการ วีซ่าท่องเที่ยว C-3 แบบบุคคล; Jeju ยกเว้นวีซ่า 30 วัน",
-    "ui": { "visa": "ประเภทวีซ่า", "stay": "ระยะเวลาพำนัก", "entry": "จำนวนครั้งเข้าประเทศ", "where": "ขอได้ที่ไหน", "official": "แหล่งข้อมูลทางการ", "required": "จำเป็น", "conditional": "ถ้าเข้าเกณฑ์", "recommended": "แนะนำ", "confirm": "ค่าธรรมเนียม/กฎอาจเปลี่ยนแปลง — โปรดตรวจสอบจากแหล่งทางการ", "source": "แหล่งที่มา", "updated": "อัปเดต", "tldr": "สรุปสั้น ๆ" },
+    "ui": {
+      "visa": "ประเภทวีซ่า",
+      "stay": "ระยะเวลาพำนัก",
+      "entry": "จำนวนครั้งเข้าประเทศ",
+      "where": "ขอได้ที่ไหน",
+      "official": "แหล่งข้อมูลทางการ",
+      "required": "จำเป็น",
+      "conditional": "ถ้าเข้าเกณฑ์",
+      "recommended": "แนะนำ",
+      "confirm": "ค่าธรรมเนียม/กฎอาจเปลี่ยนแปลง — โปรดตรวจสอบจากแหล่งทางการ",
+      "source": "แหล่งที่มา",
+      "updated": "อัปเดต",
+      "tldr": "สรุปสั้น ๆ"
+    },
     "verdict": {
       "headline": "ใช่ — ผู้ถือหนังสือเดินทางจีนต้องมีวีซ่าเพื่อเข้าเกาหลีแผ่นดินใหญ่",
       "sub": "นักท่องเที่ยวรายบุคคลยื่นขอวีซ่าท่องเที่ยว C-3 ที่สถานกงสุลเกาหลีหรือศูนย์รับคำร้องขอวีซ่าเกาหลี มีข้อยกเว้นใหญ่สองข้อที่ทำให้ข้ามได้: เกาะ Jeju และ (ในบางช่วง) ทัวร์กลุ่มที่ได้รับอนุมัติ",
@@ -567,8 +1004,18 @@
       "entry": "เข้าครั้งเดียวหรือหลายครั้ง (แล้วแต่กรณี)"
     },
     "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "เกาะ Jeju — ยกเว้นวีซ่าสูงสุด 30 วัน", "body": "พลเมืองจีนสามารถเที่ยว Jeju ได้โดยไม่ต้องมีวีซ่าสูงสุด 30 วัน โดยมีเงื่อนไขว่าต้องบินตรงไป/กลับ Jeju และไม่ผ่านเกาหลีแผ่นดินใหญ่" },
-      { "icon": "👥", "tone": "amber", "title": "ยกเว้นวีซ่าแบบกลุ่ม (จำกัดเวลา)", "body": "โครงการนำร่องอนุญาตให้กลุ่มทัวร์ที่ได้รับอนุมัติตั้งแต่ 3 คนขึ้นไปเข้าประเทศโดยไม่ต้องมีวีซ่าได้สูงสุด 15 วัน มีผลตั้งแต่กันยายน 2025 ถึงมิถุนายน 2026 พร้อมยกเว้นค่าธรรมเนียมดำเนินการวีซ่ากลุ่มในช่วงเดียวกัน โปรดตรวจสอบว่ามีการขยายเวลาหรือไม่ก่อนพึ่งพา" }
+      {
+        "icon": "🏝️",
+        "tone": "green",
+        "title": "เกาะ Jeju — ยกเว้นวีซ่าสูงสุด 30 วัน",
+        "body": "พลเมืองจีนสามารถเที่ยว Jeju ได้โดยไม่ต้องมีวีซ่าสูงสุด 30 วัน โดยมีเงื่อนไขว่าต้องบินตรงไป/กลับ Jeju และไม่ผ่านเกาหลีแผ่นดินใหญ่"
+      },
+      {
+        "icon": "👥",
+        "tone": "amber",
+        "title": "ยกเว้นวีซ่าแบบกลุ่ม (จำกัดเวลา)",
+        "body": "โครงการนำร่องอนุญาตให้กลุ่มทัวร์ที่ได้รับอนุมัติตั้งแต่ 3 คนขึ้นไปเข้าประเทศโดยไม่ต้องมีวีซ่าได้สูงสุด 15 วัน มีผลตั้งแต่กันยายน 2025 ถึงมิถุนายน 2026 พร้อมยกเว้นค่าธรรมเนียมดำเนินการวีซ่ากลุ่มในช่วงเดียวกัน โปรดตรวจสอบว่ามีการขยายเวลาหรือไม่ก่อนพึ่งพา"
+      }
     ],
     "tldr": [
       "สำหรับการเดินทางสู่แผ่นดินใหญ่ นักท่องเที่ยวรายบุคคลต้องมีวีซ่าท่องเที่ยว C-3 — ยื่นที่สถานกงสุลเกาหลี/KVAC ในเขตของคุณ",
@@ -580,38 +1027,129 @@
       "title": "ขั้นที่ 0 — ยื่นในเขตกงสุลของคุณ",
       "intro": "จีนแบ่งการดูแลระหว่างสถานเอกอัครราชทูตเกาหลี (Beijing) และสถานกงสุลใหญ่หลายแห่ง แต่ละแห่งมีศูนย์รับคำร้องขอวีซ่าเกาหลีของตนเอง ยื่นที่ KVAC ของเขตที่ทะเบียนบ้าน (hukou) ของคุณอยู่",
       "zones": [
-        { "name": "สถานทูตและสถานกงสุลหลัก", "covers": "เขต Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an", "centers": "KVAC ในแต่ละเขต (VFS Global)", "site": "vfsglobal.com (จีน)", "url": "https://www.vfsglobal.com/" },
-        { "name": "Hong Kong / Macao", "covers": "ผู้พำนักในเขตบริหารพิเศษ (กฎแยกต่างหาก)", "centers": "สถานกงสุลใหญ่ใน Hong Kong", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
+        {
+          "name": "สถานทูตและสถานกงสุลหลัก",
+          "covers": "เขต Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an",
+          "centers": "KVAC ในแต่ละเขต (VFS Global)",
+          "site": "vfsglobal.com (จีน)",
+          "url": "https://www.vfsglobal.com/"
+        },
+        {
+          "name": "Hong Kong / Macao",
+          "covers": "ผู้พำนักในเขตบริหารพิเศษ (กฎแยกต่างหาก)",
+          "centers": "สถานกงสุลใหญ่ใน Hong Kong",
+          "site": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/hk-en/index.do"
+        }
       ],
       "note": "ไม่แน่ใจว่าเขตไหนดูแลคุณ? ตรวจสอบตามมณฑลที่ระบุใน hukou; เว็บไซต์ KVAC ระบุพื้นที่ครอบคลุมของแต่ละเขต"
     },
     "steps": {
       "title": "ขั้นตอนการยื่น (C-3 รายบุคคล)",
       "items": [
-        { "n": 1, "title": "ยืนยันประเภทวีซ่า", "detail": "นักท่องเที่ยวรายบุคคลยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3" },
-        { "n": 2, "title": "กรอกแบบฟอร์มที่ visa.go.kr", "detail": "กรอกแบบฟอร์มคำร้องที่พอร์ทัลวีซ่าเกาหลี — เว็บไซต์ทางการเพียงแห่งเดียว — แล้วพิมพ์และลงนาม", "link": "https://www.visa.go.kr", "linkLabel": "พอร์ทัลวีซ่าเกาหลี" },
-        { "n": 3, "title": "รวบรวมเอกสาร", "detail": "รวบรวมรายการด้านล่าง รวมถึงทะเบียนบ้านและหลักฐานทางการเงินของคุณ" },
-        { "n": 4, "title": "ยื่นที่ KVAC/สถานกงสุล", "detail": "ยื่นที่ศูนย์รับคำร้องขอวีซ่าเกาหลีหรือสถานกงสุลในเขตของคุณ" },
-        { "n": 5, "title": "ชำระค่าธรรมเนียม", "detail": "ชำระค่าธรรมเนียมวีซ่าและค่าบริการ ค่าธรรมเนียมไม่คืนแม้ถูกปฏิเสธ" },
-        { "n": 6, "title": "ติดตามคำร้อง", "detail": "ติดตามสถานะผ่านช่องทางของศูนย์ อย่าซื้อตั๋วเครื่องบินที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ" },
-        { "n": 7, "title": "รับหนังสือเดินทาง", "detail": "รับด้วยตนเองหรือทางไปรษณีย์ด่วน และตรวจสอบข้อมูลวีซ่าทันที" }
+        {
+          "n": 1,
+          "title": "ยืนยันประเภทวีซ่า",
+          "detail": "นักท่องเที่ยวรายบุคคลยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3"
+        },
+        {
+          "n": 2,
+          "title": "กรอกแบบฟอร์มที่ visa.go.kr",
+          "detail": "กรอกแบบฟอร์มคำร้องที่พอร์ทัลวีซ่าเกาหลี — เว็บไซต์ทางการเพียงแห่งเดียว — แล้วพิมพ์และลงนาม",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "พอร์ทัลวีซ่าเกาหลี"
+        },
+        {
+          "n": 3,
+          "title": "รวบรวมเอกสาร",
+          "detail": "รวบรวมรายการด้านล่าง รวมถึงทะเบียนบ้านและหลักฐานทางการเงินของคุณ"
+        },
+        {
+          "n": 4,
+          "title": "ยื่นที่ KVAC/สถานกงสุล",
+          "detail": "ยื่นที่ศูนย์รับคำร้องขอวีซ่าเกาหลีหรือสถานกงสุลในเขตของคุณ"
+        },
+        {
+          "n": 5,
+          "title": "ชำระค่าธรรมเนียม",
+          "detail": "ชำระค่าธรรมเนียมวีซ่าและค่าบริการ ค่าธรรมเนียมไม่คืนแม้ถูกปฏิเสธ"
+        },
+        {
+          "n": 6,
+          "title": "ติดตามคำร้อง",
+          "detail": "ติดตามสถานะผ่านช่องทางของศูนย์ อย่าซื้อตั๋วเครื่องบินที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ"
+        },
+        {
+          "n": 7,
+          "title": "รับหนังสือเดินทาง",
+          "detail": "รับด้วยตนเองหรือทางไปรษณีย์ด่วน และตรวจสอบข้อมูลวีซ่าทันที"
+        }
       ]
     },
     "documents": {
       "title": "รายการเอกสาร — พร้อมที่ขอและวิธีขอแต่ละอย่าง",
       "intro": "สำหรับแต่ละรายการ นี่คือที่ขอและสิ่งที่ต้องแสดง",
-      "cols": ["เอกสาร", "ขอได้ที่ไหน", "ต้องแสดงอะไร"],
-      "rows": [
-        { "doc": "หนังสือเดินทาง", "req": "required", "where": "คุณมีอยู่แล้ว", "how": "มีอายุใช้งาน 6 เดือนขึ้นไป และมีหน้าว่างสำหรับวีซ่าอย่างน้อย 2 หน้า" },
-        { "doc": "แบบฟอร์มคำร้องขอวีซ่า", "req": "required", "where": "visa.go.kr", "how": "กรอกที่พอร์ทัลวีซ่าเกาหลี พิมพ์ ลงนาม", "link": "https://www.visa.go.kr" },
-        { "doc": "รูปถ่าย — 3.5 × 4.5 cm", "req": "required", "where": "ร้านถ่ายรูปใดก็ได้", "how": "พื้นหลังสีขาว ถ่ายภายใน 6 เดือน เห็นใบหน้าเต็ม" },
-        { "doc": "ทะเบียนบ้าน (hukou)", "req": "required", "where": "คุณมีอยู่แล้ว", "how": "สำเนาสมุดทะเบียนบ้าน hukou ช่วยยืนยันถิ่นที่อยู่/เขตของคุณ" },
-        { "doc": "รายการเดินบัญชีธนาคาร — ย้อนหลัง 3–6 เดือน", "req": "required", "where": "ธนาคารของคุณ", "how": "รายการที่ประทับตรา แสดงยอดคงเหลือคงที่เพียงพอสำหรับการเดินทาง" },
-        { "doc": "หลักฐานการทำงาน / ธุรกิจ", "req": "required", "where": "นายจ้าง / ธุรกิจ", "how": "ลูกจ้าง: หนังสือรับรองการทำงาน + อนุมัติการลา ผู้ประกอบอาชีพอิสระ: ใบอนุญาตประกอบธุรกิจ" },
-        { "doc": "การจองตั๋วเครื่องบินไป-กลับและโรงแรม", "req": "required", "where": "สายการบิน / เว็บไซต์จอง", "how": "การจอง/กำหนดการเพียงพอ — อย่าจ่ายค่าตั๋วก่อนได้รับอนุมัติ" },
-        { "doc": "หลักฐานทรัพย์สิน (ไม่บังคับ)", "req": "recommended", "where": "คุณ / หน่วยงานที่เกี่ยวข้อง", "how": "หนังสือรับรองอสังหาริมทรัพย์ ยานพาหนะ หรือเงินฝากช่วยเสริมคำร้องครั้งแรกได้" }
+      "cols": [
+        "เอกสาร",
+        "ขอได้ที่ไหน",
+        "ต้องแสดงอะไร"
       ],
-      "legend": { "required": "จำเป็น", "conditional": "ถ้าเข้าเกณฑ์", "recommended": "แนะนำ" }
+      "rows": [
+        {
+          "doc": "หนังสือเดินทาง",
+          "req": "required",
+          "where": "คุณมีอยู่แล้ว",
+          "how": "มีอายุใช้งาน 6 เดือนขึ้นไป และมีหน้าว่างสำหรับวีซ่าอย่างน้อย 2 หน้า"
+        },
+        {
+          "doc": "แบบฟอร์มคำร้องขอวีซ่า",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "กรอกที่พอร์ทัลวีซ่าเกาหลี พิมพ์ ลงนาม",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "รูปถ่าย — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "ร้านถ่ายรูปใดก็ได้",
+          "how": "พื้นหลังสีขาว ถ่ายภายใน 6 เดือน เห็นใบหน้าเต็ม"
+        },
+        {
+          "doc": "ทะเบียนบ้าน (hukou)",
+          "req": "required",
+          "where": "คุณมีอยู่แล้ว",
+          "how": "สำเนาสมุดทะเบียนบ้าน hukou ช่วยยืนยันถิ่นที่อยู่/เขตของคุณ"
+        },
+        {
+          "doc": "รายการเดินบัญชีธนาคาร — ย้อนหลัง 3–6 เดือน",
+          "req": "required",
+          "where": "ธนาคารของคุณ",
+          "how": "รายการที่ประทับตรา แสดงยอดคงเหลือคงที่เพียงพอสำหรับการเดินทาง"
+        },
+        {
+          "doc": "หลักฐานการทำงาน / ธุรกิจ",
+          "req": "required",
+          "where": "นายจ้าง / ธุรกิจ",
+          "how": "ลูกจ้าง: หนังสือรับรองการทำงาน + อนุมัติการลา ผู้ประกอบอาชีพอิสระ: ใบอนุญาตประกอบธุรกิจ"
+        },
+        {
+          "doc": "การจองตั๋วเครื่องบินไป-กลับและโรงแรม",
+          "req": "required",
+          "where": "สายการบิน / เว็บไซต์จอง",
+          "how": "การจอง/กำหนดการเพียงพอ — อย่าจ่ายค่าตั๋วก่อนได้รับอนุมัติ"
+        },
+        {
+          "doc": "หลักฐานทรัพย์สิน (ไม่บังคับ)",
+          "req": "recommended",
+          "where": "คุณ / หน่วยงานที่เกี่ยวข้อง",
+          "how": "หนังสือรับรองอสังหาริมทรัพย์ ยานพาหนะ หรือเงินฝากช่วยเสริมคำร้องครั้งแรกได้"
+        }
+      ],
+      "legend": {
+        "required": "จำเป็น",
+        "conditional": "ถ้าเข้าเกณฑ์",
+        "recommended": "แนะนำ"
+      }
     },
     "funds": {
       "title": "\"ต้องแสดงเงินเท่าไร?\"",
@@ -625,482 +1163,60 @@
     "pitfalls": {
       "title": "ข้อผิดพลาดที่ทำให้ถูกปฏิเสธและล่าช้า",
       "items": [
-        { "icon": "📍", "t": "เขตผิด", "d": "ยื่นนอกเขตกงสุลของ hukou ของคุณ ยื่นในที่ที่ทะเบียนบ้านของคุณอยู่" },
-        { "icon": "🏝️", "t": "คิดว่ากฎ Jeju ใช้ได้ทุกที่", "d": "การยกเว้นวีซ่า Jeju เฉพาะ Jeju และต้องบินตรง — ไม่อนุญาตให้เดินทางสู่แผ่นดินใหญ่" },
-        { "icon": "💸", "t": "ฝากเงินกะทันหัน", "d": "เงินก้อนใหญ่ก่อนยื่นทันที แสดงเงินที่คงที่และอธิบายได้" },
-        { "icon": "🎫", "t": "จ่ายค่าตั๋วเร็วเกินไป", "d": "ซื้อตั๋วที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ — การจองก็เพียงพอ" },
-        { "icon": "🗓️", "t": "พึ่งพาการยกเว้นที่หมดอายุ", "d": "โครงการนำร่องยกเว้นวีซ่าแบบกลุ่มจำกัดเวลา (ถึงมิถุนายน 2026) ตรวจสอบอีกครั้งก่อนพึ่งพา" }
+        {
+          "icon": "📍",
+          "t": "เขตผิด",
+          "d": "ยื่นนอกเขตกงสุลของ hukou ของคุณ ยื่นในที่ที่ทะเบียนบ้านของคุณอยู่"
+        },
+        {
+          "icon": "🏝️",
+          "t": "คิดว่ากฎ Jeju ใช้ได้ทุกที่",
+          "d": "การยกเว้นวีซ่า Jeju เฉพาะ Jeju และต้องบินตรง — ไม่อนุญาตให้เดินทางสู่แผ่นดินใหญ่"
+        },
+        {
+          "icon": "💸",
+          "t": "ฝากเงินกะทันหัน",
+          "d": "เงินก้อนใหญ่ก่อนยื่นทันที แสดงเงินที่คงที่และอธิบายได้"
+        },
+        {
+          "icon": "🎫",
+          "t": "จ่ายค่าตั๋วเร็วเกินไป",
+          "d": "ซื้อตั๋วที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ — การจองก็เพียงพอ"
+        },
+        {
+          "icon": "🗓️",
+          "t": "พึ่งพาการยกเว้นที่หมดอายุ",
+          "d": "โครงการนำร่องยกเว้นวีซ่าแบบกลุ่มจำกัดเวลา (ถึงมิถุนายน 2026) ตรวจสอบอีกครั้งก่อนพึ่งพา"
+        }
       ]
     },
     "faq": {
       "title": "คำถามที่พบบ่อยเกี่ยวกับวีซ่าจีน → เกาหลี",
       "items": [
-        { "q": "พลเมืองจีนต้องมีวีซ่าเข้าเกาหลีไหม?", "a": "สำหรับเกาหลีแผ่นดินใหญ่ ใช่ — นักท่องเที่ยวรายบุคคลยื่นขอวีซ่าท่องเที่ยว C-3 เกาะ Jeju อนุญาตให้เข้าโดยไม่ต้องมีวีซ่าสูงสุด 30 วัน และทัวร์กลุ่มที่ได้รับอนุมัติเคยมีช่วงยกเว้นวีซ่าแบบจำกัดเวลา" },
-        { "q": "การยกเว้นวีซ่า Jeju ทำงานอย่างไร?", "a": "คุณเข้า Jeju ได้โดยไม่ต้องมีวีซ่าสูงสุด 30 วัน แต่เฉพาะเที่ยวบินตรงไปและกลับ Jeju เท่านั้น — ไม่สามารถผ่านเกาหลีแผ่นดินใหญ่ได้" },
-        { "q": "ทัวร์กลุ่มยังเข้าโดยไม่ต้องมีวีซ่าได้ไหม?", "a": "โครงการนำร่องสำหรับกลุ่มที่ได้รับอนุมัติตั้งแต่ 3 คนขึ้นไปมีผลตั้งแต่กันยายน 2025 ถึงมิถุนายน 2026 เนื่องจากโครงการเหล่านี้จำกัดเวลา โปรดยืนยันสถานะปัจจุบันกับบริษัททัวร์หรือสถานทูต" },
-        { "q": "ยื่นที่ไหน?", "a": "ที่ศูนย์รับคำร้องขอวีซ่าเกาหลีหรือสถานกงสุลเกาหลีของเขตที่ hukou ของคุณจดทะเบียน" },
-        { "q": "ต้องแสดงเงินเท่าไร?", "a": "ไม่มีขั้นต่ำตายตัว — แสดงยอดคงเหลือที่คงที่ 3–6 เดือนพร้อมความผูกพันกับจีน ค่าธรรมเนียมไม่คืน" },
-        { "q": "ยังต้องใช้ e-Arrival Card ไหม?", "a": "กฎเกี่ยวกับเอกสารเข้าประเทศ เช่น e-Arrival Card อาจยังมีผล ตรวจสอบกฎปัจจุบันใกล้วันเดินทาง" }
-      ]
-    }
-  },
-  "pt": {
-    "kicker": "Guia de visto · China → Coreia",
-    "readingTime": "8 min de leitura",
-    "h1": "Visto para a Coreia para cidadãos chineses",
-    "metaTitle": "Solicitar o visto para a Coreia a partir da China: guia passo a passo (2026) — Korea Trip Hub",
-    "metaDesc": "Como solicitar o visto de turista para a Coreia a partir da China: onde tratar, quais documentos são necessários (e onde obter cada um), taxas, prazos e links oficiais. Visto de turista C-3 individual; Jeju sem visto por 30 dias.",
-    "ui": { "visa": "Tipo de visto", "stay": "Permanência", "entry": "Entradas", "where": "Onde obter", "official": "Fonte oficial", "required": "Obrigatório", "conditional": "Se aplicável", "recommended": "Recomendado", "confirm": "As taxas/regras podem mudar — confirme em fontes oficiais", "source": "Fonte", "updated": "Atualizado", "tldr": "Pontos-chave" },
-    "verdict": {
-      "headline": "Sim — os titulares de passaporte chinês precisam de visto para a Coreia continental.",
-      "sub": "Os turistas individuais solicitam o visto de turista C-3 num consulado coreano ou num Centro de Solicitação de Visto da Coreia. Duas grandes exceções permitem dispensá-lo: a ilha de Jeju e (em certos períodos) as viagens em grupo aprovadas.",
-      "type": "Turista C-3",
-      "stay": "Até 90 dias",
-      "entry": "Entrada única ou múltipla (varia)"
-    },
-    "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "Ilha de Jeju — sem visto até 30 dias", "body": "Os cidadãos chineses podem visitar Jeju sem visto por até 30 dias, com a condição de voos diretos de/para Jeju e sem trânsito pela Coreia continental." },
-      { "icon": "👥", "tone": "amber", "title": "Grupo sem visto (por tempo limitado)", "body": "Um programa-piloto permitiu que grupos turísticos aprovados de 3 ou mais entrassem sem visto por até 15 dias, vigente de set 2025 a jun 2026, com a taxa de processamento do visto de grupo isenta no mesmo período. Verifique se foi prorrogado antes de contar com isso." }
-    ],
-    "tldr": [
-      "Para viajar para a parte continental, os turistas individuais precisam de um visto de turista C-3 — solicite no consulado coreano/KVAC da sua zona.",
-      "Preencha o formulário em visa.go.kr (o único portal oficial), imprima e assine.",
-      "Leve o passaporte, foto de 3.5×4.5, registo do agregado familiar, extrato bancário de 3–6 meses e comprovativo de emprego.",
-      "Vai só a Jeju? Pode entrar sem visto por até 30 dias com voos diretos."
-    ],
-    "jurisdiction": {
-      "title": "Passo 0 — Solicite no seu distrito consular",
-      "intro": "A China está repartida entre a Embaixada da Coreia (Beijing) e vários consulados-gerais, cada um com o seu próprio Centro de Solicitação de Visto da Coreia. Solicite no KVAC do distrito onde está o seu registo do agregado familiar (hukou).",
-      "zones": [
-        { "name": "Embaixada e principais consulados", "covers": "Distritos de Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an", "centers": "KVAC em cada distrito (VFS Global)", "site": "vfsglobal.com (China)", "url": "https://www.vfsglobal.com/" },
-        { "name": "Hong Kong / Macao", "covers": "Residentes das RAE (regras à parte)", "centers": "Consulado-Geral em Hong Kong", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
-      ],
-      "note": "Não sabe qual distrito lhe corresponde? Verifique pela província do seu hukou; o site do KVAC indica a cobertura de cada distrito."
-    },
-    "steps": {
-      "title": "A solicitação, passo a passo (C-3 individual)",
-      "items": [
-        { "n": 1, "title": "Confirme o tipo de visto", "detail": "Os turistas individuais solicitam o visto de turista de curta duração C-3." },
-        { "n": 2, "title": "Preencha o formulário em visa.go.kr", "detail": "Complete o formulário no Portal de Vistos da Coreia — o único site oficial — depois imprima e assine.", "link": "https://www.visa.go.kr", "linkLabel": "Portal de Vistos da Coreia" },
-        { "n": 3, "title": "Reúna os seus documentos", "detail": "Reúna a lista abaixo, incluindo o seu registo do agregado familiar e o comprovativo financeiro." },
-        { "n": 4, "title": "Entregue no seu KVAC/consulado", "detail": "Solicite no Centro de Solicitação de Visto da Coreia ou consulado do seu distrito." },
-        { "n": 5, "title": "Pague a taxa", "detail": "Pague a taxa do visto e a taxa de serviço. As taxas não são reembolsáveis mesmo em caso de recusa." },
-        { "n": 6, "title": "Acompanhe a sua solicitação", "detail": "Acompanhe o estado pelo canal do centro. Não compre voos não reembolsáveis antes da aprovação." },
-        { "n": 7, "title": "Levante o seu passaporte", "detail": "Levante-o pessoalmente ou por correio e verifique de imediato os dados do visto." }
-      ]
-    },
-    "documents": {
-      "title": "Lista de documentos — com onde e como obter cada um",
-      "intro": "Para cada item, aqui está onde obtê-lo e o que deve mostrar.",
-      "cols": ["Documento", "Onde obter", "O que deve mostrar"],
-      "rows": [
-        { "doc": "Passaporte", "req": "required", "where": "Já o tem", "how": "Válido por 6+ meses com pelo menos 2 páginas de visto em branco." },
-        { "doc": "Formulário de solicitação de visto", "req": "required", "where": "visa.go.kr", "how": "Complete-o no Portal de Vistos da Coreia, imprima, assine.", "link": "https://www.visa.go.kr" },
-        { "doc": "Foto — 3.5 × 4.5 cm", "req": "required", "where": "Qualquer estúdio fotográfico", "how": "Fundo branco, tirada nos últimos 6 meses, rosto completo." },
-        { "doc": "Registo do agregado familiar (hukou)", "req": "required", "where": "Já o tem", "how": "Cópia do seu livro de hukou; ajuda a estabelecer a sua residência/distrito." },
-        { "doc": "Extrato bancário — últimos 3–6 meses", "req": "required", "where": "O seu banco", "how": "Extrato carimbado que mostre um saldo estável suficiente para a viagem." },
-        { "doc": "Comprovativo de emprego / negócio", "req": "required", "where": "Empregador / negócio", "how": "Empregado: certificado de trabalho + aprovação de licença. Autónomo: licença de atividade." },
-        { "doc": "Reserva de voo de ida e volta e hotel", "req": "required", "where": "Companhia aérea / sites de reserva", "how": "As reservas/o itinerário bastam — não pague um bilhete antes da aprovação." },
-        { "doc": "Comprovativo de bens (opcional)", "req": "recommended", "where": "Você / autoridade competente", "how": "Certificados de propriedade, veículo ou depósito podem reforçar uma primeira solicitação." }
-      ],
-      "legend": { "required": "Obrigatório", "conditional": "Se lhe aplicar", "recommended": "Recomendado" }
-    },
-    "funds": {
-      "title": "«Quanto dinheiro devo mostrar?»",
-      "body": "Não há um mínimo único publicado. Os funcionários procuram um saldo estável e vínculos claros com a China (emprego, negócio, família, propriedade). Um histórico constante convence mais do que um depósito repentino.",
-      "tips": [
-        "Mostre um saldo estável de 3–6 meses, não uma quantia de última hora.",
-        "Adicione comprovativo de vínculos: emprego, licença de atividade ou propriedade.",
-        "Primeira viagem? Um processo financeiro + de bens mais sólido ajuda."
-      ]
-    },
-    "pitfalls": {
-      "title": "Erros que causam recusas e atrasos",
-      "items": [
-        { "icon": "📍", "t": "Distrito errado", "d": "Solicitar fora do distrito consular do seu hukou. Solicite onde está o seu registo do agregado familiar." },
-        { "icon": "🏝️", "t": "Presumir que as regras de Jeju valem em todo o lado", "d": "O regime sem visto de Jeju é só para Jeju com voos diretos — não permite viajar para a parte continental." },
-        { "icon": "💸", "t": "Depósito repentino", "d": "Uma grande quantia mesmo antes de solicitar. Mostre fundos estáveis e explicáveis." },
-        { "icon": "🎫", "t": "Pagar voos cedo demais", "d": "Comprar bilhetes não reembolsáveis antes da aprovação — basta uma reserva." },
-        { "icon": "🗓️", "t": "Depender de uma isenção caducada", "d": "O piloto de grupo sem visto era por tempo limitado (até jun 2026). Reconfirme antes de contar com ele." }
-      ]
-    },
-    "faq": {
-      "title": "Perguntas frequentes do visto China → Coreia",
-      "items": [
-        { "q": "Os cidadãos chineses precisam de visto para a Coreia?", "a": "Para a Coreia continental, sim — os turistas individuais solicitam um visto de turista C-3. A ilha de Jeju permite a entrada sem visto por até 30 dias, e as viagens em grupo aprovadas tiveram janelas sem visto por tempo limitado." },
-        { "q": "Como funciona o regime sem visto de Jeju?", "a": "Pode entrar em Jeju sem visto por até 30 dias, mas apenas em voos diretos de e para Jeju — não pode fazer trânsito pela Coreia continental." },
-        { "q": "Os grupos turísticos ainda podem entrar sem visto?", "a": "Um piloto para grupos aprovados de 3 ou mais esteve vigente de set 2025 a jun 2026. Como estes programas são por tempo limitado, confirme o estado atual com a sua agência de viagens ou a embaixada." },
-        { "q": "Onde solicito?", "a": "No Centro de Solicitação de Visto da Coreia ou no consulado coreano do distrito onde está registado o seu hukou." },
-        { "q": "Quanto dinheiro preciso de mostrar?", "a": "Não há mínimo fixo — mostre um saldo estável de 3–6 meses e vínculos com a China. As taxas não são reembolsáveis." },
-        { "q": "Ainda preciso do e-Arrival Card?", "a": "As regras de documentos de entrada como o e-Arrival Card podem continuar a aplicar-se. Verifique as regras em vigor perto da data da sua viagem." }
-      ]
-    }
-  },
-  "fr": {
-    "kicker": "Guide des visas · Chine → Corée",
-    "readingTime": "8 min de lecture",
-    "h1": "Visa pour la Corée pour les citoyens chinois",
-    "metaTitle": "Demander le visa pour la Corée depuis la Chine : guide étape par étape (2026) — Korea Trip Hub",
-    "metaDesc": "Comment demander le visa touristique pour la Corée depuis la Chine : où déposer, quels documents sont nécessaires (et où obtenir chacun), frais, délais et liens officiels. Visa touristique C-3 individuel ; Jeju sans visa 30 jours.",
-    "ui": { "visa": "Type de visa", "stay": "Séjour", "entry": "Entrées", "where": "Où l'obtenir", "official": "Source officielle", "required": "Obligatoire", "conditional": "Le cas échéant", "recommended": "Recommandé", "confirm": "Les frais/règles peuvent changer — vérifiez auprès des sources officielles", "source": "Source", "updated": "Mis à jour", "tldr": "Points clés" },
-    "verdict": {
-      "headline": "Oui — les titulaires d'un passeport chinois ont besoin d'un visa pour la Corée continentale.",
-      "sub": "Les touristes individuels demandent le visa touristique C-3 dans un consulat coréen ou dans un Centre de demande de visa pour la Corée. Deux grandes exceptions permettent de s'en passer : l'île de Jeju et (à certaines périodes) les voyages de groupe approuvés.",
-      "type": "Touristique C-3",
-      "stay": "Jusqu'à 90 jours",
-      "entry": "Entrée unique ou multiple (variable)"
-    },
-    "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "Île de Jeju — sans visa jusqu'à 30 jours", "body": "Les citoyens chinois peuvent visiter Jeju sans visa jusqu'à 30 jours, à condition de vols directs à destination/en provenance de Jeju et sans transit par la Corée continentale." },
-      { "icon": "👥", "tone": "amber", "title": "Groupe sans visa (durée limitée)", "body": "Un dispositif pilote a permis à des groupes touristiques approuvés de 3 personnes ou plus d'entrer sans visa jusqu'à 15 jours, en vigueur de sept. 2025 à juin 2026, les frais de traitement du visa de groupe étant exonérés sur la même période. Vérifiez s'il a été prolongé avant de compter dessus." }
-    ],
-    "tldr": [
-      "Pour voyager en Corée continentale, les touristes individuels ont besoin d'un visa touristique C-3 — déposez au consulat coréen/KVAC de votre zone.",
-      "Remplissez le formulaire sur visa.go.kr (le seul portail officiel), imprimez-le et signez-le.",
-      "Apportez le passeport, une photo 3.5×4.5, le livret de ménage, un relevé bancaire de 3–6 mois et un justificatif d'emploi.",
-      "Vous n'allez qu'à Jeju ? Vous pouvez entrer sans visa jusqu'à 30 jours avec des vols directs."
-    ],
-    "jurisdiction": {
-      "title": "Étape 0 — Déposez dans votre circonscription consulaire",
-      "intro": "La Chine est répartie entre l'ambassade de Corée (Beijing) et plusieurs consulats généraux, chacun ayant son propre Centre de demande de visa pour la Corée. Déposez au KVAC de la circonscription où est établi votre livret de ménage (hukou).",
-      "zones": [
-        { "name": "Ambassade et principaux consulats", "covers": "Circonscriptions de Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an", "centers": "KVAC dans chaque circonscription (VFS Global)", "site": "vfsglobal.com (Chine)", "url": "https://www.vfsglobal.com/" },
-        { "name": "Hong Kong / Macao", "covers": "Résidents des RAS (règles distinctes)", "centers": "Consulat général à Hong Kong", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
-      ],
-      "note": "Vous ne savez pas quelle circonscription vous concerne ? Vérifiez selon la province indiquée sur votre hukou ; le site du KVAC précise la couverture de chaque circonscription."
-    },
-    "steps": {
-      "title": "La demande, étape par étape (C-3 individuel)",
-      "items": [
-        { "n": 1, "title": "Confirmez le type de visa", "detail": "Les touristes individuels demandent le visa touristique de court séjour C-3." },
-        { "n": 2, "title": "Remplissez le formulaire sur visa.go.kr", "detail": "Complétez le formulaire sur le Portail des visas de Corée — le seul site officiel — puis imprimez-le et signez-le.", "link": "https://www.visa.go.kr", "linkLabel": "Portail des visas de Corée" },
-        { "n": 3, "title": "Rassemblez vos documents", "detail": "Rassemblez la liste ci-dessous, y compris votre livret de ménage et votre justificatif financier." },
-        { "n": 4, "title": "Déposez à votre KVAC/consulat", "detail": "Déposez au Centre de demande de visa pour la Corée ou au consulat de votre circonscription." },
-        { "n": 5, "title": "Payez les frais", "detail": "Payez les frais de visa et les frais de service. Les frais ne sont pas remboursables même en cas de refus." },
-        { "n": 6, "title": "Suivez votre demande", "detail": "Suivez l'état via le canal du centre. N'achetez pas de vols non remboursables avant l'approbation." },
-        { "n": 7, "title": "Récupérez votre passeport", "detail": "Récupérez-le en personne ou par courrier et vérifiez immédiatement les données du visa." }
-      ]
-    },
-    "documents": {
-      "title": "Liste des documents — avec où et comment obtenir chacun",
-      "intro": "Pour chaque élément, voici où l'obtenir et ce qu'il doit montrer.",
-      "cols": ["Document", "Où l'obtenir", "Ce qu'il doit montrer"],
-      "rows": [
-        { "doc": "Passeport", "req": "required", "where": "Vous l'avez", "how": "Valide 6+ mois avec au moins 2 pages de visa vierges." },
-        { "doc": "Formulaire de demande de visa", "req": "required", "where": "visa.go.kr", "how": "Complétez-le sur le Portail des visas de Corée, imprimez, signez.", "link": "https://www.visa.go.kr" },
-        { "doc": "Photo — 3.5 × 4.5 cm", "req": "required", "where": "N'importe quel studio photo", "how": "Fond blanc, prise dans les 6 derniers mois, visage entier." },
-        { "doc": "Livret de ménage (hukou)", "req": "required", "where": "Vous l'avez", "how": "Copie de votre livret de hukou ; il aide à établir votre résidence/circonscription." },
-        { "doc": "Relevé bancaire — 3–6 derniers mois", "req": "required", "where": "Votre banque", "how": "Relevé tamponné montrant un solde stable suffisant pour le voyage." },
-        { "doc": "Justificatif d'emploi / d'activité", "req": "required", "where": "Employeur / entreprise", "how": "Salarié : certificat de travail + autorisation de congé. Indépendant : licence commerciale." },
-        { "doc": "Réservation de vol aller-retour et d'hôtel", "req": "required", "where": "Compagnie aérienne / sites de réservation", "how": "Les réservations/l'itinéraire suffisent — ne payez pas de billet avant l'approbation." },
-        { "doc": "Justificatif de biens (facultatif)", "req": "recommended", "where": "Vous / l'autorité compétente", "how": "Des certificats de propriété, de véhicule ou de dépôt peuvent renforcer un premier dossier." }
-      ],
-      "legend": { "required": "Obligatoire", "conditional": "Si cela vous concerne", "recommended": "Recommandé" }
-    },
-    "funds": {
-      "title": "« Combien d'argent dois-je montrer ? »",
-      "body": "Il n'existe pas de minimum unique publié. Les agents recherchent un solde stable et des liens clairs avec la Chine (emploi, entreprise, famille, propriété). Un historique régulier est plus convaincant qu'un dépôt soudain.",
-      "tips": [
-        "Montrez un solde stable de 3–6 mois, pas une somme de dernière minute.",
-        "Ajoutez un justificatif de liens : emploi, licence commerciale ou propriété.",
-        "Premier voyage ? Un dossier financier + patrimonial plus solide aide."
-      ]
-    },
-    "pitfalls": {
-      "title": "Erreurs qui entraînent refus et retards",
-      "items": [
-        { "icon": "📍", "t": "Mauvaise circonscription", "d": "Déposer hors de la circonscription consulaire de votre hukou. Déposez là où est établi votre livret de ménage." },
-        { "icon": "🏝️", "t": "Supposer que les règles de Jeju s'appliquent partout", "d": "L'exemption de visa de Jeju ne concerne que Jeju avec des vols directs — elle ne permet pas de voyager en Corée continentale." },
-        { "icon": "💸", "t": "Dépôt soudain", "d": "Une grosse somme juste avant de déposer. Montrez des fonds stables et explicables." },
-        { "icon": "🎫", "t": "Payer les vols trop tôt", "d": "Acheter des billets non remboursables avant l'approbation — une réservation suffit." },
-        { "icon": "🗓️", "t": "Compter sur une exemption expirée", "d": "Le pilote de groupe sans visa était à durée limitée (jusqu'en juin 2026). Reconfirmez avant de compter dessus." }
-      ]
-    },
-    "faq": {
-      "title": "FAQ visa Chine → Corée",
-      "items": [
-        { "q": "Les citoyens chinois ont-ils besoin d'un visa pour la Corée ?", "a": "Pour la Corée continentale, oui — les touristes individuels demandent un visa touristique C-3. L'île de Jeju permet l'entrée sans visa jusqu'à 30 jours, et les voyages de groupe approuvés ont bénéficié de fenêtres sans visa à durée limitée." },
-        { "q": "Comment fonctionne l'exemption de visa de Jeju ?", "a": "Vous pouvez entrer à Jeju sans visa jusqu'à 30 jours, mais uniquement sur des vols directs vers et depuis Jeju — vous ne pouvez pas transiter par la Corée continentale." },
-        { "q": "Les groupes touristiques peuvent-ils encore entrer sans visa ?", "a": "Un pilote pour les groupes approuvés de 3 personnes ou plus a été en vigueur de sept. 2025 à juin 2026. Comme ces dispositifs sont à durée limitée, confirmez l'état actuel auprès de votre agence de voyages ou de l'ambassade." },
-        { "q": "Où dois-je déposer ?", "a": "Au Centre de demande de visa pour la Corée ou au consulat coréen de la circonscription où est enregistré votre hukou." },
-        { "q": "Combien d'argent dois-je montrer ?", "a": "Pas de minimum fixe — montrez un solde stable de 3–6 mois et des liens avec la Chine. Les frais ne sont pas remboursables." },
-        { "q": "Ai-je encore besoin de l'e-Arrival Card ?", "a": "Les règles relatives aux documents d'entrée comme l'e-Arrival Card peuvent toujours s'appliquer. Vérifiez les règles en vigueur à l'approche de la date de votre voyage." }
-      ]
-    }
-  },
-  "de": {
-    "kicker": "Visa-Ratgeber · China → Korea",
-    "readingTime": "8 Min. Lesezeit",
-    "h1": "Korea-Visum für chinesische Staatsbürger",
-    "metaTitle": "Korea-Visum aus China beantragen: Schritt-für-Schritt-Anleitung (2026) — Korea Trip Hub",
-    "metaDesc": "Wie man aus China ein Korea-Touristenvisum beantragt: wo man es einreicht, welche Dokumente nötig sind (und wo man jedes erhält), Gebühren, Bearbeitungszeit und offizielle Links. Individuelles C-3-Touristenvisum; Jeju 30 Tage visumfrei.",
-    "ui": { "visa": "Visumart", "stay": "Aufenthalt", "entry": "Einreisen", "where": "Wo erhältlich", "official": "Offizielle Quelle", "required": "Erforderlich", "conditional": "Falls zutreffend", "recommended": "Empfohlen", "confirm": "Gebühren/Regeln können sich ändern — bei offiziellen Quellen prüfen", "source": "Quelle", "updated": "Aktualisiert", "tldr": "Das Wichtigste" },
-    "verdict": {
-      "headline": "Ja — Inhaber eines chinesischen Passes benötigen ein Visum für das koreanische Festland.",
-      "sub": "Einzelreisende beantragen das C-3-Touristenvisum bei einem koreanischen Konsulat oder in einem koreanischen Visumantragszentrum. Zwei große Ausnahmen erlauben es, darauf zu verzichten: die Insel Jeju und (zeitweise) genehmigte Gruppenreisen.",
-      "type": "C-3 Tourist",
-      "stay": "Bis zu 90 Tage",
-      "entry": "Einmalige oder mehrfache Einreise (variiert)"
-    },
-    "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "Insel Jeju — bis zu 30 Tage visumfrei", "body": "Chinesische Staatsbürger können Jeju bis zu 30 Tage ohne Visum besuchen, unter der Bedingung von Direktflügen von/nach Jeju und ohne Transit über das koreanische Festland." },
-      { "icon": "👥", "tone": "amber", "title": "Gruppe visumfrei (zeitlich begrenzt)", "body": "Ein Pilotprogramm erlaubte genehmigten Reisegruppen ab 3 Personen die visumfreie Einreise für bis zu 15 Tage, gültig von Sep. 2025 bis Juni 2026, wobei die Bearbeitungsgebühr für das Gruppenvisum im selben Zeitraum entfiel. Prüfen Sie, ob es verlängert wurde, bevor Sie sich darauf verlassen." }
-    ],
-    "tldr": [
-      "Für Reisen aufs Festland benötigen Einzelreisende ein C-3-Touristenvisum — beantragen Sie es beim koreanischen Konsulat/KVAC Ihrer Region.",
-      "Füllen Sie das Formular auf visa.go.kr (dem einzigen offiziellen Portal) aus, drucken Sie es und unterschreiben Sie.",
-      "Bringen Sie Reisepass, ein 3.5×4.5-Foto, das Haushaltsregister, einen Kontoauszug über 3–6 Monate und einen Beschäftigungsnachweis mit.",
-      "Nur nach Jeju? Mit Direktflügen können Sie bis zu 30 Tage visumfrei einreisen."
-    ],
-    "jurisdiction": {
-      "title": "Schritt 0 — Beantragen Sie in Ihrem Konsularbezirk",
-      "intro": "China ist zwischen der koreanischen Botschaft (Beijing) und mehreren Generalkonsulaten aufgeteilt, jedes mit seinem eigenen koreanischen Visumantragszentrum. Beantragen Sie beim KVAC des Bezirks, in dem Ihr Haushaltsregister (hukou) geführt wird.",
-      "zones": [
-        { "name": "Botschaft und wichtige Konsulate", "covers": "Bezirke Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an", "centers": "KVAC in jedem Bezirk (VFS Global)", "site": "vfsglobal.com (China)", "url": "https://www.vfsglobal.com/" },
-        { "name": "Hong Kong / Macao", "covers": "Bewohner der Sonderverwaltungsregionen (gesonderte Regeln)", "centers": "Generalkonsulat in Hong Kong", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
-      ],
-      "note": "Nicht sicher, welcher Bezirk für Sie zuständig ist? Prüfen Sie anhand der Provinz in Ihrem hukou; die KVAC-Website nennt die Zuständigkeit jedes Bezirks."
-    },
-    "steps": {
-      "title": "Der Antrag, Schritt für Schritt (individuelles C-3)",
-      "items": [
-        { "n": 1, "title": "Bestätigen Sie die Visumart", "detail": "Einzelreisende beantragen das kurzfristige C-3-Touristenvisum." },
-        { "n": 2, "title": "Füllen Sie das Formular auf visa.go.kr aus", "detail": "Füllen Sie das Antragsformular im koreanischen Visumportal aus — der einzigen offiziellen Website — und drucken und unterschreiben Sie es dann.", "link": "https://www.visa.go.kr", "linkLabel": "Koreanisches Visumportal" },
-        { "n": 3, "title": "Sammeln Sie Ihre Dokumente", "detail": "Stellen Sie die untenstehende Liste zusammen, einschließlich Ihres Haushaltsregisters und Finanznachweises." },
-        { "n": 4, "title": "Reichen Sie bei Ihrem KVAC/Konsulat ein", "detail": "Beantragen Sie im koreanischen Visumantragszentrum oder Konsulat Ihres Bezirks." },
-        { "n": 5, "title": "Zahlen Sie die Gebühr", "detail": "Zahlen Sie die Visumgebühr und die Servicegebühr. Die Gebühren werden auch bei Ablehnung nicht erstattet." },
-        { "n": 6, "title": "Verfolgen Sie Ihren Antrag", "detail": "Verfolgen Sie den Status über den Kanal des Zentrums. Kaufen Sie keine nicht erstattbaren Flüge vor der Genehmigung." },
-        { "n": 7, "title": "Holen Sie Ihren Reisepass ab", "detail": "Holen Sie ihn persönlich oder per Kurier ab und prüfen Sie sofort die Visumdaten." }
-      ]
-    },
-    "documents": {
-      "title": "Dokumenten-Checkliste — mit Bezugsquelle und -weg für jedes",
-      "intro": "Für jeden Punkt finden Sie hier, wo Sie ihn erhalten und was er zeigen muss.",
-      "cols": ["Dokument", "Wo erhältlich", "Was es zeigen muss"],
-      "rows": [
-        { "doc": "Reisepass", "req": "required", "where": "Haben Sie bereits", "how": "Mindestens 6 Monate gültig, mit mindestens 2 leeren Visumseiten." },
-        { "doc": "Visumantragsformular", "req": "required", "where": "visa.go.kr", "how": "Im koreanischen Visumportal ausfüllen, drucken, unterschreiben.", "link": "https://www.visa.go.kr" },
-        { "doc": "Foto — 3.5 × 4.5 cm", "req": "required", "where": "Beliebiges Fotostudio", "how": "Weißer Hintergrund, innerhalb der letzten 6 Monate aufgenommen, ganzes Gesicht." },
-        { "doc": "Haushaltsregister (hukou)", "req": "required", "where": "Haben Sie bereits", "how": "Kopie Ihres hukou-Hefts; hilft, Ihren Wohnsitz/Bezirk nachzuweisen." },
-        { "doc": "Kontoauszug — letzte 3–6 Monate", "req": "required", "where": "Ihre Bank", "how": "Gestempelter Auszug mit stabilem, für die Reise ausreichendem Saldo." },
-        { "doc": "Beschäftigungs-/Gewerbenachweis", "req": "required", "where": "Arbeitgeber / Unternehmen", "how": "Angestellte: Arbeitsbescheinigung + Urlaubsgenehmigung. Selbstständige: Gewerbeerlaubnis." },
-        { "doc": "Hin- und Rückflug- sowie Hotelreservierung", "req": "required", "where": "Fluggesellschaft / Buchungsseiten", "how": "Reservierungen/Reiseplan genügen — kaufen Sie kein Ticket vor der Genehmigung." },
-        { "doc": "Vermögensnachweis (optional)", "req": "recommended", "where": "Sie / zuständige Behörde", "how": "Nachweise über Immobilien, Fahrzeuge oder Einlagen können einen Erstantrag stärken." }
-      ],
-      "legend": { "required": "Erforderlich", "conditional": "Falls auf Sie zutreffend", "recommended": "Empfohlen" }
-    },
-    "funds": {
-      "title": "„Wie viel Geld muss ich nachweisen?“",
-      "body": "Es gibt keinen einzelnen veröffentlichten Mindestbetrag. Die Sachbearbeiter achten auf einen stabilen Saldo und klare Bindungen zu China (Arbeit, Geschäft, Familie, Eigentum). Eine stetige Historie ist überzeugender als eine plötzliche Einzahlung.",
-      "tips": [
-        "Weisen Sie einen stabilen Saldo über 3–6 Monate nach, nicht einen Betrag in letzter Minute.",
-        "Fügen Sie Nachweise für Bindungen hinzu: Beschäftigung, Gewerbeerlaubnis oder Eigentum.",
-        "Erste Reise? Eine stärkere Finanz- + Vermögensakte hilft."
-      ]
-    },
-    "pitfalls": {
-      "title": "Fehler, die zu Ablehnungen und Verzögerungen führen",
-      "items": [
-        { "icon": "📍", "t": "Falscher Bezirk", "d": "Antrag außerhalb des Konsularbezirks Ihres hukou. Beantragen Sie dort, wo Ihr Haushaltsregister geführt wird." },
-        { "icon": "🏝️", "t": "Annehmen, dass die Jeju-Regeln überall gelten", "d": "Die Visumfreiheit für Jeju gilt nur für Jeju mit Direktflügen — sie erlaubt keine Reise aufs Festland." },
-        { "icon": "💸", "t": "Plötzliche Einzahlung", "d": "Eine große Summe kurz vor dem Antrag. Weisen Sie stabile, erklärbare Mittel nach." },
-        { "icon": "🎫", "t": "Flüge zu früh bezahlen", "d": "Nicht erstattbare Tickets vor der Genehmigung kaufen — eine Reservierung genügt." },
-        { "icon": "🗓️", "t": "Sich auf eine abgelaufene Befreiung verlassen", "d": "Das Gruppen-Visumfrei-Pilotprogramm war zeitlich begrenzt (bis Juni 2026). Vergewissern Sie sich erneut, bevor Sie sich darauf verlassen." }
-      ]
-    },
-    "faq": {
-      "title": "FAQ Visum China → Korea",
-      "items": [
-        { "q": "Benötigen chinesische Staatsbürger ein Visum für Korea?", "a": "Für das koreanische Festland ja — Einzelreisende beantragen ein C-3-Touristenvisum. Die Insel Jeju erlaubt die visumfreie Einreise für bis zu 30 Tage, und genehmigte Gruppenreisen hatten zeitlich begrenzte visumfreie Fenster." },
-        { "q": "Wie funktioniert die Visumfreiheit für Jeju?", "a": "Sie können ohne Visum für bis zu 30 Tage nach Jeju einreisen, aber nur mit Direktflügen von und nach Jeju — ein Transit über das koreanische Festland ist nicht möglich." },
-        { "q": "Können Reisegruppen weiterhin visumfrei einreisen?", "a": "Ein Pilotprogramm für genehmigte Gruppen ab 3 Personen lief von Sep. 2025 bis Juni 2026. Da solche Programme zeitlich begrenzt sind, bestätigen Sie den aktuellen Status bei Ihrem Reisebüro oder der Botschaft." },
-        { "q": "Wo beantrage ich?", "a": "Im koreanischen Visumantragszentrum oder koreanischen Konsulat des Bezirks, in dem Ihr hukou registriert ist." },
-        { "q": "Wie viel Geld muss ich nachweisen?", "a": "Kein fester Mindestbetrag — weisen Sie einen stabilen Saldo über 3–6 Monate und Bindungen zu China nach. Die Gebühren werden nicht erstattet." },
-        { "q": "Benötige ich noch die e-Arrival Card?", "a": "Regeln für Einreisedokumente wie die e-Arrival Card können weiterhin gelten. Prüfen Sie die aktuellen Regeln kurz vor Ihrem Reisedatum." }
-      ]
-    }
-  },
-  "it": {
-    "kicker": "Guida al visto · Cina → Corea",
-    "readingTime": "8 min di lettura",
-    "h1": "Visto per la Corea per i cittadini cinesi",
-    "metaTitle": "Richiedere il visto per la Corea dalla Cina: guida passo passo (2026) — Korea Trip Hub",
-    "metaDesc": "Come richiedere il visto turistico per la Corea dalla Cina: dove presentarlo, quali documenti servono (e dove ottenere ciascuno), costi, tempi e link ufficiali. Visto turistico C-3 individuale; Jeju senza visto per 30 giorni.",
-    "ui": { "visa": "Tipo di visto", "stay": "Soggiorno", "entry": "Ingressi", "where": "Dove ottenerlo", "official": "Fonte ufficiale", "required": "Obbligatorio", "conditional": "Se applicabile", "recommended": "Consigliato", "confirm": "Costi/regole possono cambiare — verifica sulle fonti ufficiali", "source": "Fonte", "updated": "Aggiornato", "tldr": "In breve" },
-    "verdict": {
-      "headline": "Sì — i titolari di passaporto cinese hanno bisogno del visto per la Corea continentale.",
-      "sub": "I turisti individuali richiedono il visto turistico C-3 presso un consolato coreano o un Centro richieste visti per la Corea. Due grandi eccezioni permettono di evitarlo: l'isola di Jeju e (in certi periodi) i viaggi di gruppo approvati.",
-      "type": "Turista C-3",
-      "stay": "Fino a 90 giorni",
-      "entry": "Ingresso singolo o multiplo (varia)"
-    },
-    "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "Isola di Jeju — senza visto fino a 30 giorni", "body": "I cittadini cinesi possono visitare Jeju senza visto fino a 30 giorni, a condizione di voli diretti da/per Jeju e senza transito attraverso la Corea continentale." },
-      { "icon": "👥", "tone": "amber", "title": "Gruppo senza visto (a tempo limitato)", "body": "Un programma pilota ha consentito a gruppi turistici approvati di 3 o più persone di entrare senza visto fino a 15 giorni, in vigore da set 2025 a giu 2026, con l'esenzione della commissione di elaborazione del visto di gruppo nello stesso periodo. Verifica se è stato prorogato prima di farci affidamento." }
-    ],
-    "tldr": [
-      "Per viaggiare nella parte continentale, i turisti individuali hanno bisogno di un visto turistico C-3 — presenta la domanda al consolato coreano/KVAC della tua zona.",
-      "Compila il modulo su visa.go.kr (l'unico portale ufficiale), stampalo e firmalo.",
-      "Porta il passaporto, una foto 3.5×4.5, il registro di famiglia, un estratto conto bancario di 3–6 mesi e la prova di impiego.",
-      "Vai solo a Jeju? Puoi entrare senza visto fino a 30 giorni con voli diretti."
-    ],
-    "jurisdiction": {
-      "title": "Passo 0 — Presenta la domanda nel tuo distretto consolare",
-      "intro": "La Cina è ripartita tra l'Ambasciata della Corea (Beijing) e diversi consolati generali, ciascuno con il proprio Centro richieste visti per la Corea. Presenta la domanda al KVAC del distretto in cui è tenuto il tuo registro di famiglia (hukou).",
-      "zones": [
-        { "name": "Ambasciata e principali consolati", "covers": "Distretti di Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an", "centers": "KVAC in ogni distretto (VFS Global)", "site": "vfsglobal.com (Cina)", "url": "https://www.vfsglobal.com/" },
-        { "name": "Hong Kong / Macao", "covers": "Residenti delle RAS (regole a parte)", "centers": "Consolato Generale a Hong Kong", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
-      ],
-      "note": "Non sai quale distretto ti compete? Verifica in base alla provincia indicata sul tuo hukou; il sito del KVAC indica la copertura di ciascun distretto."
-    },
-    "steps": {
-      "title": "La domanda, passo passo (C-3 individuale)",
-      "items": [
-        { "n": 1, "title": "Conferma il tipo di visto", "detail": "I turisti individuali richiedono il visto turistico di breve durata C-3." },
-        { "n": 2, "title": "Compila il modulo su visa.go.kr", "detail": "Completa il modulo sul Portale visti della Corea — l'unico sito ufficiale — poi stampalo e firmalo.", "link": "https://www.visa.go.kr", "linkLabel": "Portale visti della Corea" },
-        { "n": 3, "title": "Raccogli i documenti", "detail": "Raccogli l'elenco qui sotto, incluso il tuo registro di famiglia e la prova finanziaria." },
-        { "n": 4, "title": "Presenta al tuo KVAC/consolato", "detail": "Presenta la domanda al Centro richieste visti per la Corea o al consolato del tuo distretto." },
-        { "n": 5, "title": "Paga la commissione", "detail": "Paga la commissione del visto e la commissione di servizio. Le commissioni non sono rimborsabili anche in caso di rifiuto." },
-        { "n": 6, "title": "Segui la tua domanda", "detail": "Segui lo stato tramite il canale del centro. Non acquistare voli non rimborsabili prima dell'approvazione." },
-        { "n": 7, "title": "Ritira il passaporto", "detail": "Ritiralo di persona o tramite corriere e controlla subito i dati del visto." }
-      ]
-    },
-    "documents": {
-      "title": "Elenco dei documenti — con dove e come ottenere ciascuno",
-      "intro": "Per ogni voce, ecco dove ottenerla e cosa deve mostrare.",
-      "cols": ["Documento", "Dove ottenerlo", "Cosa deve mostrare"],
-      "rows": [
-        { "doc": "Passaporto", "req": "required", "where": "Lo hai già", "how": "Valido 6+ mesi con almeno 2 pagine per visti in bianco." },
-        { "doc": "Modulo di domanda di visto", "req": "required", "where": "visa.go.kr", "how": "Compilalo sul Portale visti della Corea, stampa, firma.", "link": "https://www.visa.go.kr" },
-        { "doc": "Foto — 3.5 × 4.5 cm", "req": "required", "where": "Qualsiasi studio fotografico", "how": "Sfondo bianco, scattata negli ultimi 6 mesi, volto intero." },
-        { "doc": "Registro di famiglia (hukou)", "req": "required", "where": "Lo hai già", "how": "Copia del tuo libretto hukou; aiuta a stabilire la tua residenza/distretto." },
-        { "doc": "Estratto conto bancario — ultimi 3–6 mesi", "req": "required", "where": "La tua banca", "how": "Estratto timbrato che mostri un saldo stabile sufficiente per il viaggio." },
-        { "doc": "Prova di impiego / attività", "req": "required", "where": "Datore di lavoro / attività", "how": "Dipendente: certificato di lavoro + approvazione delle ferie. Autonomo: licenza commerciale." },
-        { "doc": "Prenotazione volo andata e ritorno e hotel", "req": "required", "where": "Compagnia aerea / siti di prenotazione", "how": "Le prenotazioni/l'itinerario bastano — non pagare un biglietto prima dell'approvazione." },
-        { "doc": "Prova di beni (facoltativa)", "req": "recommended", "where": "Tu / autorità competente", "how": "Certificati di proprietà, veicolo o deposito possono rafforzare una prima domanda." }
-      ],
-      "legend": { "required": "Obbligatorio", "conditional": "Se ti riguarda", "recommended": "Consigliato" }
-    },
-    "funds": {
-      "title": "«Quanti soldi devo mostrare?»",
-      "body": "Non esiste un unico minimo pubblicato. I funzionari cercano un saldo stabile e legami chiari con la Cina (lavoro, attività, famiglia, proprietà). Uno storico costante è più convincente di un deposito improvviso.",
-      "tips": [
-        "Mostra un saldo stabile di 3–6 mesi, non una somma dell'ultimo minuto.",
-        "Aggiungi prova dei legami: lavoro, licenza commerciale o proprietà.",
-        "Primo viaggio? Un fascicolo finanziario + patrimoniale più solido aiuta."
-      ]
-    },
-    "pitfalls": {
-      "title": "Errori che causano rifiuti e ritardi",
-      "items": [
-        { "icon": "📍", "t": "Distretto sbagliato", "d": "Presentare la domanda fuori dal distretto consolare del tuo hukou. Presenta dove è tenuto il tuo registro di famiglia." },
-        { "icon": "🏝️", "t": "Presumere che le regole di Jeju valgano ovunque", "d": "L'esenzione dal visto di Jeju vale solo per Jeju con voli diretti — non consente di viaggiare nella parte continentale." },
-        { "icon": "💸", "t": "Deposito improvviso", "d": "Una grossa somma poco prima di presentare la domanda. Mostra fondi stabili e spiegabili." },
-        { "icon": "🎫", "t": "Pagare i voli troppo presto", "d": "Acquistare biglietti non rimborsabili prima dell'approvazione — basta una prenotazione." },
-        { "icon": "🗓️", "t": "Fare affidamento su un'esenzione scaduta", "d": "Il pilota di gruppo senza visto era a tempo limitato (fino a giu 2026). Riconferma prima di farci affidamento." }
-      ]
-    },
-    "faq": {
-      "title": "FAQ visto Cina → Corea",
-      "items": [
-        { "q": "I cittadini cinesi hanno bisogno del visto per la Corea?", "a": "Per la Corea continentale sì — i turisti individuali richiedono un visto turistico C-3. L'isola di Jeju consente l'ingresso senza visto fino a 30 giorni, e i viaggi di gruppo approvati hanno avuto finestre senza visto a tempo limitato." },
-        { "q": "Come funziona l'esenzione dal visto di Jeju?", "a": "Puoi entrare a Jeju senza visto fino a 30 giorni, ma solo con voli diretti da e per Jeju — non puoi transitare attraverso la Corea continentale." },
-        { "q": "I gruppi turistici possono ancora entrare senza visto?", "a": "Un pilota per gruppi approvati di 3 o più persone è stato in vigore da set 2025 a giu 2026. Poiché questi programmi sono a tempo limitato, verifica lo stato attuale con la tua agenzia di viaggi o l'ambasciata." },
-        { "q": "Dove presento la domanda?", "a": "Al Centro richieste visti per la Corea o al consolato coreano del distretto in cui è registrato il tuo hukou." },
-        { "q": "Quanti soldi devo mostrare?", "a": "Nessun minimo fisso — mostra un saldo stabile di 3–6 mesi e legami con la Cina. Le commissioni non sono rimborsabili." },
-        { "q": "Mi serve ancora la e-Arrival Card?", "a": "Le regole sui documenti d'ingresso come la e-Arrival Card possono ancora applicarsi. Verifica le regole vigenti in prossimità della data del tuo viaggio." }
-      ]
-    }
-  },
-  "tr": {
-    "kicker": "Vize rehberi · Çin → Kore",
-    "readingTime": "8 dk okuma",
-    "h1": "Çin vatandaşları için Kore vizesi",
-    "metaTitle": "Çin'den Kore vizesi başvurusu: adım adım rehber (2026) — Korea Trip Hub",
-    "metaDesc": "Çin'den Kore turist vizesine nasıl başvurulur: nereye başvurulur, hangi belgeler gerekir (ve her biri nereden alınır), ücretler, süreler ve resmi bağlantılar. Bireysel C-3 turist vizesi; Jeju 30 gün vizesiz.",
-    "ui": { "visa": "Vize türü", "stay": "Kalış süresi", "entry": "Giriş sayısı", "where": "Nereden alınır", "official": "Resmi kaynak", "required": "Zorunlu", "conditional": "Uygunsa", "recommended": "Önerilir", "confirm": "Ücretler/kurallar değişebilir — resmi kaynaklardan doğrulayın", "source": "Kaynak", "updated": "Güncellendi", "tldr": "Özet" },
-    "verdict": {
-      "headline": "Evet — Çin pasaportu sahiplerinin Kore anakarası için vizeye ihtiyacı vardır.",
-      "sub": "Bireysel turistler C-3 turist vizesine bir Kore konsolosluğunda veya Kore Vize Başvuru Merkezinde başvurur. Bunu atlamanızı sağlayan iki büyük istisna var: Jeju Adası ve (zaman zaman) onaylı grup turları.",
-      "type": "C-3 Turist",
-      "stay": "En fazla 90 gün",
-      "entry": "Tek veya çok girişli (değişir)"
-    },
-    "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "Jeju Adası — 30 güne kadar vizesiz", "body": "Çin vatandaşları, Jeju'ya/dan doğrudan uçuşlar olması ve Kore anakarasından transit geçmemek koşuluyla Jeju'yu vizesiz olarak 30 güne kadar ziyaret edebilir." },
-      { "icon": "👥", "tone": "amber", "title": "Grup vizesiz (süreli)", "body": "Bir pilot uygulama, onaylı 3 veya daha fazla kişilik tur gruplarının 15 güne kadar vizesiz giriş yapmasına izin verdi; Eyl 2025–Haz 2026 arasında geçerliydi ve aynı dönemde grup vizesi işlem ücreti de alınmadı. Buna güvenmeden önce uzatılıp uzatılmadığını kontrol edin." }
-    ],
-    "tldr": [
-      "Anakaraya seyahat için bireysel turistlerin C-3 turist vizesine ihtiyacı vardır — bölgenizdeki Kore konsolosluğuna/KVAC'a başvurun.",
-      "Formu visa.go.kr'de (tek resmi portal) doldurun, yazdırıp imzalayın.",
-      "Pasaport, 3.5×4.5 fotoğraf, hane kaydı, 3–6 aylık banka hesap dökümü ve iş kanıtı getirin.",
-      "Sadece Jeju'ya mı gidiyorsunuz? Doğrudan uçuşlarla 30 güne kadar vizesiz girebilirsiniz."
-    ],
-    "jurisdiction": {
-      "title": "Adım 0 — Konsolosluk bölgenizde başvurun",
-      "intro": "Çin, Kore Büyükelçiliği (Beijing) ve her biri kendi Kore Vize Başvuru Merkezine sahip birkaç başkonsolosluk arasında paylaştırılmıştır. Hane kaydınızın (hukou) tutulduğu bölgenin KVAC'ına başvurun.",
-      "zones": [
-        { "name": "Büyükelçilik ve başlıca konsolosluklar", "covers": "Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an bölgeleri", "centers": "Her bölgede KVAC (VFS Global)", "site": "vfsglobal.com (Çin)", "url": "https://www.vfsglobal.com/" },
-        { "name": "Hong Kong / Macao", "covers": "ÖİB sakinleri (kurallar ayrı)", "centers": "Hong Kong Başkonsolosluğu", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
-      ],
-      "note": "Hangi bölgeye bağlı olduğunuzdan emin değil misiniz? hukou'nuzdaki eyalete göre kontrol edin; KVAC sitesi her bölgenin kapsamını listeler."
-    },
-    "steps": {
-      "title": "Başvuru, adım adım (bireysel C-3)",
-      "items": [
-        { "n": 1, "title": "Vize türünü onaylayın", "detail": "Bireysel turistler C-3 kısa süreli turist vizesine başvurur." },
-        { "n": 2, "title": "Formu visa.go.kr'de doldurun", "detail": "Başvuru formunu Kore Vize Portalı'nda — tek resmi sitede — doldurun, ardından yazdırıp imzalayın.", "link": "https://www.visa.go.kr", "linkLabel": "Kore Vize Portalı" },
-        { "n": 3, "title": "Belgelerinizi toplayın", "detail": "Hane kaydınız ve mali kanıt dahil aşağıdaki listeyi hazırlayın." },
-        { "n": 4, "title": "KVAC/konsolosluğunuza teslim edin", "detail": "Bölgenizdeki Kore Vize Başvuru Merkezi'ne veya konsolosluğa başvurun." },
-        { "n": 5, "title": "Ücreti ödeyin", "detail": "Vize ücretini ve hizmet ücretini ödeyin. Reddedilse bile ücretler iade edilmez." },
-        { "n": 6, "title": "Başvurunuzu takip edin", "detail": "Durumu merkezin kanalı üzerinden takip edin. Onaydan önce iadesi olmayan uçak bileti almayın." },
-        { "n": 7, "title": "Pasaportunuzu alın", "detail": "Şahsen veya kurye ile alın ve vize bilgilerini hemen kontrol edin." }
-      ]
-    },
-    "documents": {
-      "title": "Belge kontrol listesi — her birinin nereden ve nasıl alınacağıyla",
-      "intro": "Her öğe için, nereden alınacağı ve neyi göstermesi gerektiği burada.",
-      "cols": ["Belge", "Nereden alınır", "Neyi göstermeli"],
-      "rows": [
-        { "doc": "Pasaport", "req": "required", "where": "Zaten sizde", "how": "6+ ay geçerli, en az 2 boş vize sayfası olmalı." },
-        { "doc": "Vize başvuru formu", "req": "required", "where": "visa.go.kr", "how": "Kore Vize Portalı'nda doldurun, yazdırın, imzalayın.", "link": "https://www.visa.go.kr" },
-        { "doc": "Fotoğraf — 3.5 × 4.5 cm", "req": "required", "where": "Herhangi bir fotoğraf stüdyosu", "how": "Beyaz arka plan, son 6 ay içinde çekilmiş, tam yüz." },
-        { "doc": "Hane kaydı (hukou)", "req": "required", "where": "Zaten sizde", "how": "hukou defterinizin kopyası; ikametinizi/bölgenizi belirlemeye yardımcı olur." },
-        { "doc": "Banka hesap dökümü — son 3–6 ay", "req": "required", "where": "Bankanız", "how": "Seyahat için yeterli, istikrarlı bakiyeyi gösteren mühürlü döküm." },
-        { "doc": "İş / işletme kanıtı", "req": "required", "where": "İşveren / işletme", "how": "Çalışan: çalışma belgesi + izin onayı. Serbest çalışan: işletme ruhsatı." },
-        { "doc": "Gidiş-dönüş uçuş ve otel rezervasyonu", "req": "required", "where": "Havayolu / rezervasyon siteleri", "how": "Rezervasyonlar/güzergah yeterlidir — onaydan önce bilet parası ödemeyin." },
-        { "doc": "Varlık kanıtı (isteğe bağlı)", "req": "recommended", "where": "Siz / ilgili makam", "how": "Mülk, araç veya mevduat belgeleri ilk başvuruyu güçlendirebilir." }
-      ],
-      "legend": { "required": "Zorunlu", "conditional": "Size uygunsa", "recommended": "Önerilir" }
-    },
-    "funds": {
-      "title": "\"Ne kadar para göstermeliyim?\"",
-      "body": "Yayımlanmış tek bir asgari tutar yoktur. Görevliler istikrarlı bir bakiye ve Çin ile net bağları (iş, işletme, aile, mülk) arar. İstikrarlı bir geçmiş, ani bir yatırımdan daha ikna edicidir.",
-      "tips": [
-        "Son dakika toplu para değil, istikrarlı bir 3–6 aylık bakiye gösterin.",
-        "Bağ kanıtı ekleyin: iş, işletme ruhsatı veya mülk.",
-        "İlk seyahatiniz mi? Daha güçlü bir mali + varlık dosyası yardımcı olur."
-      ]
-    },
-    "pitfalls": {
-      "title": "Ret ve gecikmelere yol açan hatalar",
-      "items": [
-        { "icon": "📍", "t": "Yanlış bölge", "d": "hukou'nuzun konsolosluk bölgesi dışında başvurmak. Hane kaydınızın tutulduğu yerde başvurun." },
-        { "icon": "🏝️", "t": "Jeju kurallarının her yerde geçerli olduğunu sanmak", "d": "Jeju vizesizliği yalnızca doğrudan uçuşlarla Jeju içindir — anakaraya seyahate izin vermez." },
-        { "icon": "💸", "t": "Ani para yatırma", "d": "Başvurudan hemen önce büyük bir meblağ. İstikrarlı, açıklanabilir fonlar gösterin." },
-        { "icon": "🎫", "t": "Uçuşları erken ödemek", "d": "Onaydan önce iadesi olmayan bilet almak — rezervasyon yeterlidir." },
-        { "icon": "🗓️", "t": "Süresi dolmuş bir muafiyete güvenmek", "d": "Grup vizesizlik pilotu süreliydi (Haz 2026'ya kadar). Güvenmeden önce yeniden doğrulayın." }
-      ]
-    },
-    "faq": {
-      "title": "Çin → Kore vize SSS",
-      "items": [
-        { "q": "Çin vatandaşlarının Kore için vizeye ihtiyacı var mı?", "a": "Kore anakarası için evet — bireysel turistler C-3 turist vizesine başvurur. Jeju Adası 30 güne kadar vizesiz girişe izin verir ve onaylı grup turlarının süreli vizesiz pencereleri olmuştur." },
-        { "q": "Jeju vizesizliği nasıl işler?", "a": "Jeju'ya vizesiz olarak 30 güne kadar girebilirsiniz, ancak yalnızca Jeju'ya gidiş ve dönüş doğrudan uçuşlarla — Kore anakarasından transit geçemezsiniz." },
-        { "q": "Tur grupları hâlâ vizesiz girebilir mi?", "a": "Onaylı 3 veya daha fazla kişilik gruplar için bir pilot Eyl 2025–Haz 2026 arasında geçerliydi. Bu tür düzenlemeler süreli olduğundan, güncel durumu seyahat acentenizle veya büyükelçilikle doğrulayın." },
-        { "q": "Nereye başvururum?", "a": "hukou'nuzun kayıtlı olduğu bölgenin Kore Vize Başvuru Merkezi'ne veya Kore konsolosluğuna." },
-        { "q": "Ne kadar para göstermem gerekiyor?", "a": "Sabit bir asgari yok — istikrarlı bir 3–6 aylık bakiye ve Çin ile bağlar gösterin. Ücretler iade edilmez." },
-        { "q": "Hâlâ e-Arrival Card gerekiyor mu?", "a": "e-Arrival Card gibi giriş belgesi kuralları hâlâ geçerli olabilir. Seyahat tarihinize yakın güncel kuralları kontrol edin." }
+        {
+          "q": "พลเมืองจีนต้องมีวีซ่าเข้าเกาหลีไหม?",
+          "a": "สำหรับเกาหลีแผ่นดินใหญ่ ใช่ — นักท่องเที่ยวรายบุคคลยื่นขอวีซ่าท่องเที่ยว C-3 เกาะ Jeju อนุญาตให้เข้าโดยไม่ต้องมีวีซ่าสูงสุด 30 วัน และทัวร์กลุ่มที่ได้รับอนุมัติเคยมีช่วงยกเว้นวีซ่าแบบจำกัดเวลา"
+        },
+        {
+          "q": "การยกเว้นวีซ่า Jeju ทำงานอย่างไร?",
+          "a": "คุณเข้า Jeju ได้โดยไม่ต้องมีวีซ่าสูงสุด 30 วัน แต่เฉพาะเที่ยวบินตรงไปและกลับ Jeju เท่านั้น — ไม่สามารถผ่านเกาหลีแผ่นดินใหญ่ได้"
+        },
+        {
+          "q": "ทัวร์กลุ่มยังเข้าโดยไม่ต้องมีวีซ่าได้ไหม?",
+          "a": "โครงการนำร่องสำหรับกลุ่มที่ได้รับอนุมัติตั้งแต่ 3 คนขึ้นไปมีผลตั้งแต่กันยายน 2025 ถึงมิถุนายน 2026 เนื่องจากโครงการเหล่านี้จำกัดเวลา โปรดยืนยันสถานะปัจจุบันกับบริษัททัวร์หรือสถานทูต"
+        },
+        {
+          "q": "ยื่นที่ไหน?",
+          "a": "ที่ศูนย์รับคำร้องขอวีซ่าเกาหลีหรือสถานกงสุลเกาหลีของเขตที่ hukou ของคุณจดทะเบียน"
+        },
+        {
+          "q": "ต้องแสดงเงินเท่าไร?",
+          "a": "ไม่มีขั้นต่ำตายตัว — แสดงยอดคงเหลือที่คงที่ 3–6 เดือนพร้อมความผูกพันกับจีน ค่าธรรมเนียมไม่คืน"
+        },
+        {
+          "q": "ยังต้องใช้ e-Arrival Card ไหม?",
+          "a": "กฎเกี่ยวกับเอกสารเข้าประเทศ เช่น e-Arrival Card อาจยังมีผล ตรวจสอบกฎปัจจุบันใกล้วันเดินทาง"
+        }
       ]
     }
   },
@@ -1110,7 +1226,20 @@
     "h1": "Visa Korea untuk warganegara China",
     "metaTitle": "Memohon visa Korea dari China: panduan langkah demi langkah (2026) — Korea Trip Hub",
     "metaDesc": "Cara memohon visa pelancong Korea dari China: di mana memohon, dokumen yang diperlukan (dan di mana mendapatkan setiap satu), yuran, tempoh dan pautan rasmi. Visa pelancong C-3 individu; Jeju tanpa visa 30 hari.",
-    "ui": { "visa": "Jenis visa", "stay": "Tempoh tinggal", "entry": "Kemasukan", "where": "Di mana mendapatkannya", "official": "Sumber rasmi", "required": "Wajib", "conditional": "Jika berkenaan", "recommended": "Disyorkan", "confirm": "Yuran/peraturan boleh berubah — sahkan di sumber rasmi", "source": "Sumber", "updated": "Dikemas kini", "tldr": "Ringkasan" },
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Tempoh tinggal",
+      "entry": "Kemasukan",
+      "where": "Di mana mendapatkannya",
+      "official": "Sumber rasmi",
+      "required": "Wajib",
+      "conditional": "Jika berkenaan",
+      "recommended": "Disyorkan",
+      "confirm": "Yuran/peraturan boleh berubah — sahkan di sumber rasmi",
+      "source": "Sumber",
+      "updated": "Dikemas kini",
+      "tldr": "Ringkasan"
+    },
     "verdict": {
       "headline": "Ya — pemegang pasport China memerlukan visa untuk Korea tanah besar.",
       "sub": "Pelancong individu memohon visa pelancong C-3 di konsulat Korea atau Pusat Permohonan Visa Korea. Dua pengecualian besar membolehkan anda melangkaunya: Pulau Jeju, dan (pada waktu tertentu) lawatan berkumpulan yang diluluskan.",
@@ -1119,8 +1248,18 @@
       "entry": "Kemasukan tunggal atau berbilang (berbeza-beza)"
     },
     "highlights": [
-      { "icon": "🏝️", "tone": "green", "title": "Pulau Jeju — tanpa visa sehingga 30 hari", "body": "Warganegara China boleh melawat Jeju tanpa visa sehingga 30 hari, dengan syarat penerbangan terus ke/dari Jeju dan tanpa transit melalui Korea tanah besar." },
-      { "icon": "👥", "tone": "amber", "title": "Berkumpulan tanpa visa (terhad masa)", "body": "Satu program perintis membenarkan kumpulan pelancong diluluskan seramai 3 orang atau lebih masuk tanpa visa sehingga 15 hari, berkuat kuasa Sep 2025–Jun 2026, dengan yuran pemprosesan visa berkumpulan dikecualikan dalam tempoh yang sama. Semak sama ada ia telah dilanjutkan sebelum bergantung padanya." }
+      {
+        "icon": "🏝️",
+        "tone": "green",
+        "title": "Pulau Jeju — tanpa visa sehingga 30 hari",
+        "body": "Warganegara China boleh melawat Jeju tanpa visa sehingga 30 hari, dengan syarat penerbangan terus ke/dari Jeju dan tanpa transit melalui Korea tanah besar."
+      },
+      {
+        "icon": "👥",
+        "tone": "amber",
+        "title": "Berkumpulan tanpa visa (terhad masa)",
+        "body": "Satu program perintis membenarkan kumpulan pelancong diluluskan seramai 3 orang atau lebih masuk tanpa visa sehingga 15 hari, berkuat kuasa Sep 2025–Jun 2026, dengan yuran pemprosesan visa berkumpulan dikecualikan dalam tempoh yang sama. Semak sama ada ia telah dilanjutkan sebelum bergantung padanya."
+      }
     ],
     "tldr": [
       "Untuk perjalanan ke tanah besar, pelancong individu memerlukan visa pelancong C-3 — mohon di konsulat Korea/KVAC kawasan anda.",
@@ -1132,38 +1271,129 @@
       "title": "Langkah 0 — Mohon di daerah konsular anda",
       "intro": "China dibahagikan antara Kedutaan Korea (Beijing) dan beberapa konsulat besar, masing-masing dengan Pusat Permohonan Visa Korea sendiri. Mohon di KVAC daerah tempat pendaftaran isi rumah (hukou) anda disimpan.",
       "zones": [
-        { "name": "Kedutaan dan konsulat utama", "covers": "Daerah Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an", "centers": "KVAC di setiap daerah (VFS Global)", "site": "vfsglobal.com (China)", "url": "https://www.vfsglobal.com/" },
-        { "name": "Hong Kong / Macao", "covers": "Penduduk SAR (peraturan berasingan)", "centers": "Konsulat Besar di Hong Kong", "site": "overseas.mofa.go.kr", "url": "https://overseas.mofa.go.kr/hk-en/index.do" }
+        {
+          "name": "Kedutaan dan konsulat utama",
+          "covers": "Daerah Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an",
+          "centers": "KVAC di setiap daerah (VFS Global)",
+          "site": "vfsglobal.com (China)",
+          "url": "https://www.vfsglobal.com/"
+        },
+        {
+          "name": "Hong Kong / Macao",
+          "covers": "Penduduk SAR (peraturan berasingan)",
+          "centers": "Konsulat Besar di Hong Kong",
+          "site": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/hk-en/index.do"
+        }
       ],
       "note": "Tidak pasti daerah mana meliputi anda? Semak mengikut wilayah pada hukou anda; laman KVAC menyenaraikan liputan setiap daerah."
     },
     "steps": {
       "title": "Permohonan, langkah demi langkah (C-3 individu)",
       "items": [
-        { "n": 1, "title": "Sahkan jenis visa", "detail": "Pelancong individu memohon visa pelancong jangka pendek C-3." },
-        { "n": 2, "title": "Isi borang di visa.go.kr", "detail": "Lengkapkan borang permohonan di Portal Visa Korea — satu-satunya laman rasmi — kemudian cetak dan tandatangani.", "link": "https://www.visa.go.kr", "linkLabel": "Portal Visa Korea" },
-        { "n": 3, "title": "Kumpulkan dokumen anda", "detail": "Kumpulkan senarai semak di bawah, termasuk pendaftaran isi rumah dan bukti kewangan anda." },
-        { "n": 4, "title": "Serah di KVAC/konsulat anda", "detail": "Mohon di Pusat Permohonan Visa Korea atau konsulat bagi daerah anda." },
-        { "n": 5, "title": "Bayar yuran", "detail": "Bayar yuran visa dan yuran perkhidmatan. Yuran tidak dikembalikan walaupun ditolak." },
-        { "n": 6, "title": "Jejaki permohonan anda", "detail": "Ikuti status melalui saluran pusat. Jangan beli tiket penerbangan tidak boleh dikembalikan sebelum kelulusan." },
-        { "n": 7, "title": "Ambil pasport anda", "detail": "Ambil sendiri atau melalui kurier dan semak butiran visa dengan segera." }
+        {
+          "n": 1,
+          "title": "Sahkan jenis visa",
+          "detail": "Pelancong individu memohon visa pelancong jangka pendek C-3."
+        },
+        {
+          "n": 2,
+          "title": "Isi borang di visa.go.kr",
+          "detail": "Lengkapkan borang permohonan di Portal Visa Korea — satu-satunya laman rasmi — kemudian cetak dan tandatangani.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Portal Visa Korea"
+        },
+        {
+          "n": 3,
+          "title": "Kumpulkan dokumen anda",
+          "detail": "Kumpulkan senarai semak di bawah, termasuk pendaftaran isi rumah dan bukti kewangan anda."
+        },
+        {
+          "n": 4,
+          "title": "Serah di KVAC/konsulat anda",
+          "detail": "Mohon di Pusat Permohonan Visa Korea atau konsulat bagi daerah anda."
+        },
+        {
+          "n": 5,
+          "title": "Bayar yuran",
+          "detail": "Bayar yuran visa dan yuran perkhidmatan. Yuran tidak dikembalikan walaupun ditolak."
+        },
+        {
+          "n": 6,
+          "title": "Jejaki permohonan anda",
+          "detail": "Ikuti status melalui saluran pusat. Jangan beli tiket penerbangan tidak boleh dikembalikan sebelum kelulusan."
+        },
+        {
+          "n": 7,
+          "title": "Ambil pasport anda",
+          "detail": "Ambil sendiri atau melalui kurier dan semak butiran visa dengan segera."
+        }
       ]
     },
     "documents": {
       "title": "Senarai semak dokumen — dengan di mana & bagaimana mendapatkan setiap satu",
       "intro": "Bagi setiap item, di sini di mana mendapatkannya dan apa yang perlu ditunjukkannya.",
-      "cols": ["Dokumen", "Di mana mendapatkannya", "Apa yang perlu ditunjukkan"],
-      "rows": [
-        { "doc": "Pasport", "req": "required", "where": "Anda sudah memilikinya", "how": "Sah 6+ bulan dengan sekurang-kurangnya 2 halaman visa kosong." },
-        { "doc": "Borang permohonan visa", "req": "required", "where": "visa.go.kr", "how": "Lengkapkan di Portal Visa Korea, cetak, tandatangani.", "link": "https://www.visa.go.kr" },
-        { "doc": "Foto — 3.5 × 4.5 cm", "req": "required", "where": "Mana-mana studio foto", "how": "Latar belakang putih, diambil dalam 6 bulan, wajah penuh." },
-        { "doc": "Pendaftaran isi rumah (hukou)", "req": "required", "where": "Anda sudah memilikinya", "how": "Salinan buku hukou anda; membantu mengesahkan kediaman/daerah anda." },
-        { "doc": "Penyata bank — 3–6 bulan terakhir", "req": "required", "where": "Bank anda", "how": "Penyata bercop menunjukkan baki stabil yang mencukupi untuk perjalanan." },
-        { "doc": "Bukti pekerjaan / perniagaan", "req": "required", "where": "Majikan / perniagaan", "how": "Bekerja: sijil pekerjaan + kelulusan cuti. Bekerja sendiri: lesen perniagaan." },
-        { "doc": "Tempahan penerbangan pergi-balik dan hotel", "req": "required", "where": "Syarikat penerbangan / laman tempahan", "how": "Tempahan/jadual perjalanan sudah memadai — jangan bayar tiket sebelum kelulusan." },
-        { "doc": "Bukti aset (pilihan)", "req": "recommended", "where": "Anda / pihak berkuasa berkaitan", "how": "Sijil hartanah, kenderaan atau deposit boleh mengukuhkan permohonan kali pertama." }
+      "cols": [
+        "Dokumen",
+        "Di mana mendapatkannya",
+        "Apa yang perlu ditunjukkan"
       ],
-      "legend": { "required": "Wajib", "conditional": "Jika berkenaan dengan anda", "recommended": "Disyorkan" }
+      "rows": [
+        {
+          "doc": "Pasport",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Sah 6+ bulan dengan sekurang-kurangnya 2 halaman visa kosong."
+        },
+        {
+          "doc": "Borang permohonan visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapkan di Portal Visa Korea, cetak, tandatangani.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "Mana-mana studio foto",
+          "how": "Latar belakang putih, diambil dalam 6 bulan, wajah penuh."
+        },
+        {
+          "doc": "Pendaftaran isi rumah (hukou)",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Salinan buku hukou anda; membantu mengesahkan kediaman/daerah anda."
+        },
+        {
+          "doc": "Penyata bank — 3–6 bulan terakhir",
+          "req": "required",
+          "where": "Bank anda",
+          "how": "Penyata bercop menunjukkan baki stabil yang mencukupi untuk perjalanan."
+        },
+        {
+          "doc": "Bukti pekerjaan / perniagaan",
+          "req": "required",
+          "where": "Majikan / perniagaan",
+          "how": "Bekerja: sijil pekerjaan + kelulusan cuti. Bekerja sendiri: lesen perniagaan."
+        },
+        {
+          "doc": "Tempahan penerbangan pergi-balik dan hotel",
+          "req": "required",
+          "where": "Syarikat penerbangan / laman tempahan",
+          "how": "Tempahan/jadual perjalanan sudah memadai — jangan bayar tiket sebelum kelulusan."
+        },
+        {
+          "doc": "Bukti aset (pilihan)",
+          "req": "recommended",
+          "where": "Anda / pihak berkuasa berkaitan",
+          "how": "Sijil hartanah, kenderaan atau deposit boleh mengukuhkan permohonan kali pertama."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berkenaan dengan anda",
+        "recommended": "Disyorkan"
+      }
     },
     "funds": {
       "title": "\"Berapa banyak wang perlu saya tunjukkan?\"",
@@ -1177,22 +1407,60 @@
     "pitfalls": {
       "title": "Kesilapan yang menyebabkan penolakan & kelewatan",
       "items": [
-        { "icon": "📍", "t": "Daerah salah", "d": "Memohon di luar daerah konsular hukou anda. Mohon di tempat pendaftaran isi rumah anda disimpan." },
-        { "icon": "🏝️", "t": "Menganggap peraturan Jeju terpakai di mana-mana", "d": "Tanpa visa Jeju hanya untuk Jeju dengan penerbangan terus — ia tidak membenarkan perjalanan ke tanah besar." },
-        { "icon": "💸", "t": "Deposit mengejut", "d": "Jumlah besar tepat sebelum memohon. Tunjukkan dana yang stabil dan boleh dijelaskan." },
-        { "icon": "🎫", "t": "Membayar penerbangan terlalu awal", "d": "Membeli tiket tidak boleh dikembalikan sebelum kelulusan — tempahan sudah memadai." },
-        { "icon": "🗓️", "t": "Bergantung pada pengecualian yang telah tamat", "d": "Perintis tanpa visa berkumpulan adalah terhad masa (hingga Jun 2026). Sahkan semula sebelum bergantung padanya." }
+        {
+          "icon": "📍",
+          "t": "Daerah salah",
+          "d": "Memohon di luar daerah konsular hukou anda. Mohon di tempat pendaftaran isi rumah anda disimpan."
+        },
+        {
+          "icon": "🏝️",
+          "t": "Menganggap peraturan Jeju terpakai di mana-mana",
+          "d": "Tanpa visa Jeju hanya untuk Jeju dengan penerbangan terus — ia tidak membenarkan perjalanan ke tanah besar."
+        },
+        {
+          "icon": "💸",
+          "t": "Deposit mengejut",
+          "d": "Jumlah besar tepat sebelum memohon. Tunjukkan dana yang stabil dan boleh dijelaskan."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membayar penerbangan terlalu awal",
+          "d": "Membeli tiket tidak boleh dikembalikan sebelum kelulusan — tempahan sudah memadai."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Bergantung pada pengecualian yang telah tamat",
+          "d": "Perintis tanpa visa berkumpulan adalah terhad masa (hingga Jun 2026). Sahkan semula sebelum bergantung padanya."
+        }
       ]
     },
     "faq": {
       "title": "Soalan lazim visa China → Korea",
       "items": [
-        { "q": "Adakah warganegara China memerlukan visa untuk Korea?", "a": "Untuk Korea tanah besar, ya — pelancong individu memohon visa pelancong C-3. Pulau Jeju membenarkan kemasukan tanpa visa sehingga 30 hari, dan lawatan berkumpulan yang diluluskan pernah mempunyai tempoh tanpa visa yang terhad masa." },
-        { "q": "Bagaimana tanpa visa Jeju berfungsi?", "a": "Anda boleh masuk ke Jeju tanpa visa sehingga 30 hari, tetapi hanya dengan penerbangan terus ke dan dari Jeju — anda tidak boleh transit melalui Korea tanah besar." },
-        { "q": "Bolehkah kumpulan pelancong masih masuk tanpa visa?", "a": "Satu perintis untuk kumpulan diluluskan seramai 3 orang atau lebih berkuat kuasa Sep 2025–Jun 2026. Kerana skim sebegini terhad masa, sahkan status semasa dengan agensi pelancongan atau kedutaan anda." },
-        { "q": "Di mana saya memohon?", "a": "Di Pusat Permohonan Visa Korea atau konsulat Korea bagi daerah tempat hukou anda didaftarkan." },
-        { "q": "Berapa banyak wang perlu saya tunjukkan?", "a": "Tiada minimum tetap — tunjukkan baki stabil 3–6 bulan serta hubungan dengan China. Yuran tidak dikembalikan." },
-        { "q": "Adakah saya masih memerlukan e-Arrival Card?", "a": "Peraturan dokumen kemasukan seperti e-Arrival Card mungkin masih terpakai. Semak peraturan semasa hampir dengan tarikh perjalanan anda." }
+        {
+          "q": "Adakah warganegara China memerlukan visa untuk Korea?",
+          "a": "Untuk Korea tanah besar, ya — pelancong individu memohon visa pelancong C-3. Pulau Jeju membenarkan kemasukan tanpa visa sehingga 30 hari, dan lawatan berkumpulan yang diluluskan pernah mempunyai tempoh tanpa visa yang terhad masa."
+        },
+        {
+          "q": "Bagaimana tanpa visa Jeju berfungsi?",
+          "a": "Anda boleh masuk ke Jeju tanpa visa sehingga 30 hari, tetapi hanya dengan penerbangan terus ke dan dari Jeju — anda tidak boleh transit melalui Korea tanah besar."
+        },
+        {
+          "q": "Bolehkah kumpulan pelancong masih masuk tanpa visa?",
+          "a": "Satu perintis untuk kumpulan diluluskan seramai 3 orang atau lebih berkuat kuasa Sep 2025–Jun 2026. Kerana skim sebegini terhad masa, sahkan status semasa dengan agensi pelancongan atau kedutaan anda."
+        },
+        {
+          "q": "Di mana saya memohon?",
+          "a": "Di Pusat Permohonan Visa Korea atau konsulat Korea bagi daerah tempat hukou anda didaftarkan."
+        },
+        {
+          "q": "Berapa banyak wang perlu saya tunjukkan?",
+          "a": "Tiada minimum tetap — tunjukkan baki stabil 3–6 bulan serta hubungan dengan China. Yuran tidak dikembalikan."
+        },
+        {
+          "q": "Adakah saya masih memerlukan e-Arrival Card?",
+          "a": "Peraturan dokumen kemasukan seperti e-Arrival Card mungkin masih terpakai. Semak peraturan semasa hampir dengan tarikh perjalanan anda."
+        }
       ]
     }
   },
@@ -1924,738 +2192,6 @@
         {
           "q": "Apakah saya masih memerlukan e-Arrival Card?",
           "a": "Aturan dokumen masuk seperti e-Arrival Card mungkin masih berlaku. Periksa aturan terkini menjelang tanggal perjalanan Anda."
-        }
-      ]
-    }
-  },
-  "hi": {
-    "kicker": "वीज़ा गाइड · चीन → कोरिया",
-    "readingTime": "8 मिनट का पठन",
-    "h1": "चीनी नागरिकों के लिए कोरिया वीज़ा",
-    "metaTitle": "चीन से कोरिया वीज़ा के लिए आवेदन: चरण-दर-चरण गाइड (2026) — Korea Trip Hub",
-    "metaDesc": "चीन से कोरिया का पर्यटक वीज़ा कैसे लें: कहाँ आवेदन करें, कौन-से दस्तावेज़ चाहिए (और हर एक कहाँ से मिलेगा), शुल्क, प्रोसेसिंग समय और आधिकारिक लिंक। व्यक्तिगत C-3 पर्यटक वीज़ा; Jeju 30 दिन वीज़ा-मुक्त।",
-    "ui": {
-      "visa": "वीज़ा का प्रकार",
-      "stay": "ठहराव",
-      "entry": "प्रवेश की संख्या",
-      "where": "कहाँ से लें",
-      "official": "आधिकारिक स्रोत",
-      "required": "अनिवार्य",
-      "conditional": "यदि लागू हो",
-      "recommended": "अनुशंसित",
-      "confirm": "शुल्क/नियम बदल सकते हैं — आधिकारिक स्रोतों से पुष्टि करें",
-      "source": "स्रोत",
-      "updated": "अपडेट",
-      "tldr": "मुख्य बातें"
-    },
-    "verdict": {
-      "headline": "हाँ — चीनी पासपोर्ट धारकों को मुख्य भूमि कोरिया के लिए वीज़ा चाहिए।",
-      "sub": "व्यक्तिगत पर्यटक कोरियाई वाणिज्य दूतावास या कोरिया वीज़ा आवेदन केंद्र में C-3 पर्यटक वीज़ा के लिए आवेदन करते हैं। दो बड़े अपवाद इसे छोड़ने देते हैं: Jeju द्वीप, और (कुछ समय में) स्वीकृत समूह टूर।",
-      "type": "C-3 पर्यटक",
-      "stay": "90 दिनों तक",
-      "entry": "एकल या बहु प्रवेश (भिन्न होता है)"
-    },
-    "highlights": [
-      {
-        "icon": "🏝️",
-        "tone": "green",
-        "title": "Jeju द्वीप — 30 दिनों तक वीज़ा-मुक्त",
-        "body": "चीनी नागरिक Jeju को बिना वीज़ा 30 दिनों तक घूम सकते हैं, बशर्ते Jeju के लिए/से सीधी उड़ानें हों और मुख्य भूमि कोरिया से होकर ट्रांज़िट न हो।"
-      },
-      {
-        "icon": "👥",
-        "tone": "amber",
-        "title": "समूह वीज़ा-मुक्त (समय-सीमित)",
-        "body": "एक पायलट योजना ने 3 या अधिक लोगों के स्वीकृत टूर समूहों को 15 दिनों तक बिना वीज़ा प्रवेश की अनुमति दी, जो सितंबर 2025–जून 2026 तक लागू रही, और उसी अवधि में समूह वीज़ा का प्रोसेसिंग शुल्क माफ रहा। इस पर निर्भर होने से पहले जाँच लें कि इसे बढ़ाया गया है या नहीं।"
-      }
-    ],
-    "tldr": [
-      "मुख्य भूमि की यात्रा के लिए, व्यक्तिगत पर्यटकों को C-3 पर्यटक वीज़ा चाहिए — अपने क्षेत्र के कोरियाई वाणिज्य दूतावास/KVAC में आवेदन करें।",
-      "visa.go.kr (एकमात्र आधिकारिक पोर्टल) पर फ़ॉर्म भरें, प्रिंट करें और हस्ताक्षर करें।",
-      "पासपोर्ट, 3.5×4.5 फ़ोटो, हाउसहोल्ड रजिस्ट्रेशन (hukou), 3–6 महीने का बैंक स्टेटमेंट और नौकरी का प्रमाण साथ लाएँ।",
-      "सिर्फ़ Jeju जा रहे हैं? सीधी उड़ानों के साथ बिना वीज़ा 30 दिनों तक प्रवेश कर सकते हैं।"
-    ],
-    "jurisdiction": {
-      "title": "चरण 0 — अपने वाणिज्य दूतावास क्षेत्र में आवेदन करें",
-      "intro": "चीन कोरियाई दूतावास (Beijing) और कई महावाणिज्य दूतावासों के बीच बँटा है, प्रत्येक का अपना कोरिया वीज़ा आवेदन केंद्र है। उस क्षेत्र के KVAC में आवेदन करें जहाँ आपका हाउसहोल्ड रजिस्ट्रेशन (hukou) दर्ज है।",
-      "zones": [
-        {
-          "name": "दूतावास और प्रमुख वाणिज्य दूतावास",
-          "covers": "Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an क्षेत्र",
-          "centers": "प्रत्येक क्षेत्र में KVAC (VFS Global)",
-          "site": "vfsglobal.com (चीन)",
-          "url": "https://www.vfsglobal.com/"
-        },
-        {
-          "name": "Hong Kong / Macao",
-          "covers": "SAR निवासी (नियम अलग)",
-          "centers": "Hong Kong में महावाणिज्य दूतावास",
-          "site": "overseas.mofa.go.kr",
-          "url": "https://overseas.mofa.go.kr/hk-en/index.do"
-        }
-      ],
-      "note": "पक्का नहीं कि कौन-सा क्षेत्र आपको कवर करता है? अपने hukou पर दर्ज प्रांत से जाँचें; KVAC साइट हर क्षेत्र का कवरेज सूचीबद्ध करती है।"
-    },
-    "steps": {
-      "title": "आवेदन, चरण दर चरण (व्यक्तिगत C-3)",
-      "items": [
-        {
-          "n": 1,
-          "title": "वीज़ा प्रकार की पुष्टि करें",
-          "detail": "व्यक्तिगत पर्यटक C-3 अल्पकालिक पर्यटक वीज़ा के लिए आवेदन करते हैं।"
-        },
-        {
-          "n": 2,
-          "title": "visa.go.kr पर फ़ॉर्म भरें",
-          "detail": "कोरिया वीज़ा पोर्टल — एकमात्र आधिकारिक साइट — पर आवेदन फ़ॉर्म भरें, फिर प्रिंट कर हस्ताक्षर करें।",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "कोरिया वीज़ा पोर्टल"
-        },
-        {
-          "n": 3,
-          "title": "अपने दस्तावेज़ जुटाएँ",
-          "detail": "नीचे दी गई सूची जुटाएँ, जिसमें आपका हाउसहोल्ड रजिस्ट्रेशन और वित्तीय प्रमाण शामिल है।"
-        },
-        {
-          "n": 4,
-          "title": "अपने KVAC/वाणिज्य दूतावास में जमा करें",
-          "detail": "अपने क्षेत्र के कोरिया वीज़ा आवेदन केंद्र या वाणिज्य दूतावास में आवेदन करें।"
-        },
-        {
-          "n": 5,
-          "title": "शुल्क भुगतान करें",
-          "detail": "वीज़ा शुल्क और सेवा शुल्क भरें। अस्वीकृति पर भी शुल्क वापस नहीं होता।"
-        },
-        {
-          "n": 6,
-          "title": "अपने आवेदन को ट्रैक करें",
-          "detail": "केंद्र के चैनल से स्थिति देखें। स्वीकृति से पहले नॉन-रिफंडेबल उड़ानें न खरीदें।"
-        },
-        {
-          "n": 7,
-          "title": "अपना पासपोर्ट लें",
-          "detail": "स्वयं या कूरियर से लें और वीज़ा विवरण तुरंत जाँचें।"
-        }
-      ]
-    },
-    "documents": {
-      "title": "दस्तावेज़ सूची — प्रत्येक कहाँ और कैसे मिलेगा सहित",
-      "intro": "हर मद के लिए, यहाँ बताया गया है कि इसे कहाँ से पाएँ और इसमें क्या दिखना चाहिए।",
-      "cols": [
-        "दस्तावेज़",
-        "कहाँ से लें",
-        "क्या दिखना चाहिए"
-      ],
-      "rows": [
-        {
-          "doc": "पासपोर्ट",
-          "req": "required",
-          "where": "आपके पास है",
-          "how": "6+ महीने वैध, कम से कम 2 खाली वीज़ा पृष्ठ।"
-        },
-        {
-          "doc": "वीज़ा आवेदन फ़ॉर्म",
-          "req": "required",
-          "where": "visa.go.kr",
-          "how": "कोरिया वीज़ा पोर्टल पर भरें, प्रिंट करें, हस्ताक्षर करें।",
-          "link": "https://www.visa.go.kr"
-        },
-        {
-          "doc": "फ़ोटो — 3.5 × 4.5 cm",
-          "req": "required",
-          "where": "कोई भी फ़ोटो स्टूडियो",
-          "how": "सफ़ेद पृष्ठभूमि, पिछले 6 महीनों में ली गई, पूरा चेहरा।"
-        },
-        {
-          "doc": "हाउसहोल्ड रजिस्ट्रेशन (hukou)",
-          "req": "required",
-          "where": "आपके पास है",
-          "how": "अपनी hukou बुकलेट की कॉपी; यह आपके निवास/क्षेत्र को स्थापित करने में मदद करती है।"
-        },
-        {
-          "doc": "बैंक स्टेटमेंट — पिछले 3–6 महीने",
-          "req": "required",
-          "where": "आपका बैंक",
-          "how": "मुहरबंद स्टेटमेंट जो यात्रा के लिए पर्याप्त स्थिर शेष दिखाए।"
-        },
-        {
-          "doc": "रोज़गार / व्यवसाय प्रमाण",
-          "req": "required",
-          "where": "नियोक्ता / व्यवसाय",
-          "how": "नौकरीपेशा: रोज़गार प्रमाणपत्र + छुट्टी की स्वीकृति। स्वरोज़गार: व्यवसाय लाइसेंस।"
-        },
-        {
-          "doc": "राउंड-ट्रिप उड़ान और होटल आरक्षण",
-          "req": "required",
-          "where": "एयरलाइन / बुकिंग साइट",
-          "how": "आरक्षण/यात्रा-कार्यक्रम पर्याप्त है — स्वीकृति से पहले टिकट का भुगतान न करें।"
-        },
-        {
-          "doc": "संपत्ति का प्रमाण (वैकल्पिक)",
-          "req": "recommended",
-          "where": "आप / संबंधित प्राधिकरण",
-          "how": "संपत्ति, वाहन या जमा प्रमाणपत्र पहली बार के आवेदन को मज़बूत कर सकते हैं।"
-        }
-      ],
-      "legend": {
-        "required": "अनिवार्य",
-        "conditional": "यदि आप पर लागू हो",
-        "recommended": "अनुशंसित"
-      }
-    },
-    "funds": {
-      "title": "\"मुझे कितना पैसा दिखाना चाहिए?\"",
-      "body": "कोई एकल प्रकाशित न्यूनतम राशि नहीं है। अधिकारी स्थिर शेष और चीन से स्पष्ट जुड़ाव (नौकरी, व्यवसाय, परिवार, संपत्ति) देखते हैं। एक स्थिर इतिहास अचानक जमा से अधिक भरोसेमंद होता है।",
-      "tips": [
-        "अंतिम समय की एकमुश्त राशि नहीं, बल्कि 3–6 महीने का स्थिर शेष दिखाएँ।",
-        "जुड़ाव का प्रमाण जोड़ें: रोज़गार, व्यवसाय लाइसेंस या संपत्ति।",
-        "पहली यात्रा? एक मज़बूत वित्तीय + संपत्ति फ़ाइल मदद करती है।"
-      ]
-    },
-    "pitfalls": {
-      "title": "अस्वीकृति और देरी का कारण बनने वाली गलतियाँ",
-      "items": [
-        {
-          "icon": "📍",
-          "t": "गलत क्षेत्र",
-          "d": "अपने hukou के वाणिज्य दूतावास क्षेत्र से बाहर आवेदन करना। जहाँ आपका हाउसहोल्ड रजिस्ट्रेशन है वहीं आवेदन करें।"
-        },
-        {
-          "icon": "🏝️",
-          "t": "यह मान लेना कि Jeju के नियम हर जगह लागू हैं",
-          "d": "Jeju वीज़ा-मुक्ति केवल सीधी उड़ानों के साथ Jeju के लिए है — यह मुख्य भूमि की यात्रा की अनुमति नहीं देती।"
-        },
-        {
-          "icon": "💸",
-          "t": "अचानक जमा",
-          "d": "आवेदन से ठीक पहले बड़ी राशि। स्थिर, समझाई जा सकने वाली धनराशि दिखाएँ।"
-        },
-        {
-          "icon": "🎫",
-          "t": "उड़ानों का जल्दी भुगतान",
-          "d": "स्वीकृति से पहले नॉन-रिफंडेबल टिकट खरीदना — एक आरक्षण पर्याप्त है।"
-        },
-        {
-          "icon": "🗓️",
-          "t": "समाप्त छूट पर निर्भरता",
-          "d": "समूह वीज़ा-मुक्त पायलट समय-सीमित था (जून 2026 तक)। निर्भर होने से पहले फिर से पुष्टि करें।"
-        }
-      ]
-    },
-    "faq": {
-      "title": "चीन → कोरिया वीज़ा FAQ",
-      "items": [
-        {
-          "q": "क्या चीनी नागरिकों को कोरिया के लिए वीज़ा चाहिए?",
-          "a": "मुख्य भूमि कोरिया के लिए, हाँ — व्यक्तिगत पर्यटक C-3 पर्यटक वीज़ा के लिए आवेदन करते हैं। Jeju द्वीप 30 दिनों तक वीज़ा-मुक्त प्रवेश देता है, और स्वीकृत समूह टूर के लिए समय-सीमित वीज़ा-मुक्त अवधि रही है।"
-        },
-        {
-          "q": "Jeju वीज़ा-मुक्ति कैसे काम करती है?",
-          "a": "आप बिना वीज़ा 30 दिनों तक Jeju में प्रवेश कर सकते हैं, लेकिन केवल Jeju के लिए और से सीधी उड़ानों पर — आप मुख्य भूमि कोरिया से होकर ट्रांज़िट नहीं कर सकते।"
-        },
-        {
-          "q": "क्या टूर समूह अब भी वीज़ा-मुक्त प्रवेश कर सकते हैं?",
-          "a": "3 या अधिक के स्वीकृत समूहों के लिए एक पायलट सितंबर 2025–जून 2026 तक चला। चूँकि ऐसी योजनाएँ समय-सीमित होती हैं, अपनी ट्रैवल एजेंसी या दूतावास से वर्तमान स्थिति की पुष्टि करें।"
-        },
-        {
-          "q": "मैं कहाँ आवेदन करूँ?",
-          "a": "उस क्षेत्र के कोरिया वीज़ा आवेदन केंद्र या कोरियाई वाणिज्य दूतावास में जहाँ आपका hukou पंजीकृत है।"
-        },
-        {
-          "q": "मुझे कितना पैसा दिखाना होगा?",
-          "a": "कोई निश्चित न्यूनतम नहीं — 3–6 महीने का स्थिर शेष और चीन से जुड़ाव दिखाएँ। शुल्क वापस नहीं होता।"
-        },
-        {
-          "q": "क्या मुझे अब भी e-Arrival Card चाहिए?",
-          "a": "e-Arrival Card जैसे प्रवेश-दस्तावेज़ नियम अब भी लागू हो सकते हैं। अपनी यात्रा की तारीख के करीब वर्तमान नियम जाँचें।"
-        }
-      ]
-    }
-  },
-  "bn": {
-    "kicker": "ভিসা গাইড · চীন → কোরিয়া",
-    "readingTime": "8 মিনিট পড়া",
-    "h1": "চীনা নাগরিকদের জন্য কোরিয়া ভিসা",
-    "metaTitle": "চীন থেকে কোরিয়া ভিসার আবেদন: ধাপে ধাপে গাইড (2026) — Korea Trip Hub",
-    "metaDesc": "চীন থেকে কোরিয়ার পর্যটক ভিসার আবেদন কীভাবে করবেন: কোথায় আবেদন করবেন, কী কী নথি লাগবে (এবং প্রতিটি কোথায় পাবেন), ফি, প্রক্রিয়াকরণের সময় ও অফিসিয়াল লিঙ্ক। ব্যক্তিগত C-3 পর্যটক ভিসা; Jeju 30 দিন ভিসা-মুক্ত।",
-    "ui": {
-      "visa": "ভিসার ধরন",
-      "stay": "অবস্থানকাল",
-      "entry": "প্রবেশের সংখ্যা",
-      "where": "কোথায় পাবেন",
-      "official": "অফিসিয়াল সূত্র",
-      "required": "আবশ্যক",
-      "conditional": "প্রযোজ্য হলে",
-      "recommended": "প্রস্তাবিত",
-      "confirm": "ফি/নিয়ম বদলাতে পারে — অফিসিয়াল সূত্রে যাচাই করুন",
-      "source": "সূত্র",
-      "updated": "হালনাগাদ",
-      "tldr": "সংক্ষেপে"
-    },
-    "verdict": {
-      "headline": "হ্যাঁ — চীনা পাসপোর্টধারীদের মূল ভূখণ্ডের কোরিয়ার জন্য ভিসা প্রয়োজন।",
-      "sub": "ব্যক্তিগত পর্যটকরা কোরীয় কনস্যুলেট বা কোরিয়া ভিসা আবেদন কেন্দ্রে C-3 পর্যটক ভিসার জন্য আবেদন করেন। দুটি বড় ব্যতিক্রম এটি এড়াতে দেয়: Jeju দ্বীপ, এবং (কিছু সময়) অনুমোদিত গ্রুপ ট্যুর।",
-      "type": "C-3 পর্যটক",
-      "stay": "90 দিন পর্যন্ত",
-      "entry": "একক বা একাধিক প্রবেশ (ভিন্ন হয়)"
-    },
-    "highlights": [
-      {
-        "icon": "🏝️",
-        "tone": "green",
-        "title": "Jeju দ্বীপ — 30 দিন পর্যন্ত ভিসা-মুক্ত",
-        "body": "চীনা নাগরিকরা Jeju-তে/থেকে সরাসরি ফ্লাইট এবং মূল ভূখণ্ডের কোরিয়া হয়ে ট্রানজিট না করার শর্তে বিনা ভিসায় 30 দিন পর্যন্ত Jeju ভ্রমণ করতে পারেন।"
-      },
-      {
-        "icon": "👥",
-        "tone": "amber",
-        "title": "গ্রুপ ভিসা-মুক্ত (সময়-সীমিত)",
-        "body": "একটি পাইলট প্রকল্প অনুমোদিত 3 বা তার বেশি সদস্যের ট্যুর গ্রুপকে বিনা ভিসায় 15 দিন পর্যন্ত প্রবেশের অনুমতি দিয়েছিল, যা সেপ্টেম্বর 2025–জুন 2026 পর্যন্ত কার্যকর ছিল, এবং একই সময়ে গ্রুপ ভিসার প্রক্রিয়াকরণ ফি মওকুফ ছিল। এর উপর নির্ভর করার আগে দেখে নিন এটি বাড়ানো হয়েছে কিনা।"
-      }
-    ],
-    "tldr": [
-      "মূল ভূখণ্ডে ভ্রমণের জন্য ব্যক্তিগত পর্যটকদের C-3 পর্যটক ভিসা প্রয়োজন — আপনার অঞ্চলের কোরীয় কনস্যুলেট/KVAC-এ আবেদন করুন।",
-      "visa.go.kr-এ (একমাত্র অফিসিয়াল পোর্টাল) ফর্ম পূরণ করুন, প্রিন্ট করে স্বাক্ষর করুন।",
-      "পাসপোর্ট, 3.5×4.5 ছবি, পরিবার নিবন্ধন (hukou), 3–6 মাসের ব্যাংক স্টেটমেন্ট ও চাকরির প্রমাণ সঙ্গে আনুন।",
-      "শুধু Jeju যাচ্ছেন? সরাসরি ফ্লাইটে বিনা ভিসায় 30 দিন পর্যন্ত প্রবেশ করতে পারেন।"
-    ],
-    "jurisdiction": {
-      "title": "ধাপ 0 — আপনার কনস্যুলার অঞ্চলে আবেদন করুন",
-      "intro": "চীন কোরীয় দূতাবাস (Beijing) এবং কয়েকটি কনসাল-জেনারেলের মধ্যে বিভক্ত, প্রতিটির নিজস্ব কোরিয়া ভিসা আবেদন কেন্দ্র রয়েছে। যে অঞ্চলে আপনার পরিবার নিবন্ধন (hukou) রাখা আছে সেই অঞ্চলের KVAC-এ আবেদন করুন।",
-      "zones": [
-        {
-          "name": "দূতাবাস ও প্রধান কনস্যুলেট",
-          "covers": "Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an অঞ্চল",
-          "centers": "প্রতিটি অঞ্চলে KVAC (VFS Global)",
-          "site": "vfsglobal.com (চীন)",
-          "url": "https://www.vfsglobal.com/"
-        },
-        {
-          "name": "Hong Kong / Macao",
-          "covers": "SAR বাসিন্দা (আলাদা নিয়ম)",
-          "centers": "Hong Kong-এ কনসাল-জেনারেল",
-          "site": "overseas.mofa.go.kr",
-          "url": "https://overseas.mofa.go.kr/hk-en/index.do"
-        }
-      ],
-      "note": "কোন অঞ্চল আপনাকে অন্তর্ভুক্ত করে নিশ্চিত নন? আপনার hukou-তে থাকা প্রদেশ অনুযায়ী যাচাই করুন; KVAC সাইট প্রতিটি অঞ্চলের আওতা তালিকাভুক্ত করে।"
-    },
-    "steps": {
-      "title": "আবেদন, ধাপে ধাপে (ব্যক্তিগত C-3)",
-      "items": [
-        {
-          "n": 1,
-          "title": "ভিসার ধরন নিশ্চিত করুন",
-          "detail": "ব্যক্তিগত পর্যটকরা C-3 স্বল্পমেয়াদি পর্যটক ভিসার জন্য আবেদন করেন।"
-        },
-        {
-          "n": 2,
-          "title": "visa.go.kr-এ ফর্ম পূরণ করুন",
-          "detail": "কোরিয়া ভিসা পোর্টালে — একমাত্র অফিসিয়াল সাইট — আবেদন ফর্ম পূরণ করুন, তারপর প্রিন্ট করে স্বাক্ষর করুন।",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "কোরিয়া ভিসা পোর্টাল"
-        },
-        {
-          "n": 3,
-          "title": "আপনার নথি সংগ্রহ করুন",
-          "detail": "নিচের তালিকা সংগ্রহ করুন, যার মধ্যে আপনার পরিবার নিবন্ধন ও আর্থিক প্রমাণ রয়েছে।"
-        },
-        {
-          "n": 4,
-          "title": "আপনার KVAC/কনস্যুলেটে জমা দিন",
-          "detail": "আপনার অঞ্চলের কোরিয়া ভিসা আবেদন কেন্দ্র বা কনস্যুলেটে আবেদন করুন।"
-        },
-        {
-          "n": 5,
-          "title": "ফি পরিশোধ করুন",
-          "detail": "ভিসা ফি ও সেবা ফি পরিশোধ করুন। প্রত্যাখ্যাত হলেও ফি ফেরতযোগ্য নয়।"
-        },
-        {
-          "n": 6,
-          "title": "আপনার আবেদন ট্র্যাক করুন",
-          "detail": "কেন্দ্রের চ্যানেলে অবস্থা দেখুন। অনুমোদনের আগে ফেরত-অযোগ্য ফ্লাইট কিনবেন না।"
-        },
-        {
-          "n": 7,
-          "title": "আপনার পাসপোর্ট সংগ্রহ করুন",
-          "detail": "সরাসরি বা কুরিয়ারে নিন এবং ভিসার বিবরণ সঙ্গে সঙ্গে যাচাই করুন।"
-        }
-      ]
-    },
-    "documents": {
-      "title": "নথির তালিকা — প্রতিটি কোথায় ও কীভাবে পাবেন সহ",
-      "intro": "প্রতিটি আইটেমের জন্য, এখানে কোথায় পাবেন এবং এতে কী দেখাতে হবে।",
-      "cols": [
-        "নথি",
-        "কোথায় পাবেন",
-        "কী দেখাতে হবে"
-      ],
-      "rows": [
-        {
-          "doc": "পাসপোর্ট",
-          "req": "required",
-          "where": "আপনার কাছে আছে",
-          "how": "6+ মাস মেয়াদ, অন্তত 2টি ফাঁকা ভিসা পৃষ্ঠা সহ।"
-        },
-        {
-          "doc": "ভিসা আবেদন ফর্ম",
-          "req": "required",
-          "where": "visa.go.kr",
-          "how": "কোরিয়া ভিসা পোর্টালে পূরণ করুন, প্রিন্ট করুন, স্বাক্ষর করুন।",
-          "link": "https://www.visa.go.kr"
-        },
-        {
-          "doc": "ছবি — 3.5 × 4.5 cm",
-          "req": "required",
-          "where": "যেকোনো ফটো স্টুডিও",
-          "how": "সাদা পটভূমি, গত 6 মাসে তোলা, পূর্ণ মুখ।"
-        },
-        {
-          "doc": "পরিবার নিবন্ধন (hukou)",
-          "req": "required",
-          "where": "আপনার কাছে আছে",
-          "how": "আপনার hukou বইয়ের কপি; এটি আপনার বসবাস/অঞ্চল নির্ধারণে সাহায্য করে।"
-        },
-        {
-          "doc": "ব্যাংক স্টেটমেন্ট — গত 3–6 মাস",
-          "req": "required",
-          "where": "আপনার ব্যাংক",
-          "how": "সিলমোহরযুক্ত স্টেটমেন্ট যা ভ্রমণের জন্য যথেষ্ট স্থিতিশীল ব্যালেন্স দেখায়।"
-        },
-        {
-          "doc": "চাকরি / ব্যবসার প্রমাণ",
-          "req": "required",
-          "where": "নিয়োগকর্তা / ব্যবসা",
-          "how": "চাকরিজীবী: চাকরির সনদ + ছুটির অনুমোদন। স্বনিযুক্ত: ব্যবসার লাইসেন্স।"
-        },
-        {
-          "doc": "রাউন্ড-ট্রিপ ফ্লাইট ও হোটেল রিজার্ভেশন",
-          "req": "required",
-          "where": "এয়ারলাইন / বুকিং সাইট",
-          "how": "রিজার্ভেশন/ভ্রমণসূচি যথেষ্ট — অনুমোদনের আগে টিকিটের টাকা দেবেন না।"
-        },
-        {
-          "doc": "সম্পদের প্রমাণ (ঐচ্ছিক)",
-          "req": "recommended",
-          "where": "আপনি / সংশ্লিষ্ট কর্তৃপক্ষ",
-          "how": "সম্পত্তি, যানবাহন বা আমানতের সনদ প্রথমবারের আবেদনকে শক্তিশালী করতে পারে।"
-        }
-      ],
-      "legend": {
-        "required": "আবশ্যক",
-        "conditional": "আপনার ক্ষেত্রে প্রযোজ্য হলে",
-        "recommended": "প্রস্তাবিত"
-      }
-    },
-    "funds": {
-      "title": "\"আমাকে কত টাকা দেখাতে হবে?\"",
-      "body": "একক প্রকাশিত কোনো ন্যূনতম নেই। কর্মকর্তারা স্থিতিশীল ব্যালেন্স এবং চীনের সাথে স্পষ্ট সম্পর্ক (চাকরি, ব্যবসা, পরিবার, সম্পত্তি) দেখেন। একটি স্থিতিশীল ইতিহাস আকস্মিক জমার চেয়ে বেশি বিশ্বাসযোগ্য।",
-      "tips": [
-        "শেষ মুহূর্তের একগাদা টাকা নয়, 3–6 মাসের স্থিতিশীল ব্যালেন্স দেখান।",
-        "সম্পর্কের প্রমাণ যোগ করুন: চাকরি, ব্যবসার লাইসেন্স বা সম্পত্তি।",
-        "প্রথমবার ভ্রমণ? একটি শক্তিশালী আর্থিক + সম্পদ ফাইল সাহায্য করে।"
-      ]
-    },
-    "pitfalls": {
-      "title": "প্রত্যাখ্যান ও বিলম্বের কারণ হওয়া ভুল",
-      "items": [
-        {
-          "icon": "📍",
-          "t": "ভুল অঞ্চল",
-          "d": "আপনার hukou-এর কনস্যুলার অঞ্চলের বাইরে আবেদন করা। যেখানে আপনার পরিবার নিবন্ধন রাখা আছে সেখানে আবেদন করুন।"
-        },
-        {
-          "icon": "🏝️",
-          "t": "Jeju-এর নিয়ম সর্বত্র প্রযোজ্য ধরে নেওয়া",
-          "d": "Jeju ভিসা-মুক্তি কেবল সরাসরি ফ্লাইটে Jeju-এর জন্য — এটি মূল ভূখণ্ডে ভ্রমণের অনুমতি দেয় না।"
-        },
-        {
-          "icon": "💸",
-          "t": "আকস্মিক জমা",
-          "d": "আবেদনের ঠিক আগে বড় অঙ্ক। স্থিতিশীল, ব্যাখ্যাযোগ্য অর্থ দেখান।"
-        },
-        {
-          "icon": "🎫",
-          "t": "ফ্লাইট আগেভাগে কেনা",
-          "d": "অনুমোদনের আগে ফেরত-অযোগ্য টিকিট কেনা — একটি রিজার্ভেশনই যথেষ্ট।"
-        },
-        {
-          "icon": "🗓️",
-          "t": "মেয়াদোত্তীর্ণ ছাড়ের উপর নির্ভরতা",
-          "d": "গ্রুপ ভিসা-মুক্ত পাইলট সময়-সীমিত ছিল (জুন 2026 পর্যন্ত)। নির্ভর করার আগে আবার নিশ্চিত করুন।"
-        }
-      ]
-    },
-    "faq": {
-      "title": "চীন → কোরিয়া ভিসা FAQ",
-      "items": [
-        {
-          "q": "চীনা নাগরিকদের কি কোরিয়ার জন্য ভিসা লাগে?",
-          "a": "মূল ভূখণ্ডের কোরিয়ার জন্য হ্যাঁ — ব্যক্তিগত পর্যটকরা C-3 পর্যটক ভিসার জন্য আবেদন করেন। Jeju দ্বীপ 30 দিন পর্যন্ত বিনা ভিসায় প্রবেশের সুযোগ দেয়, এবং অনুমোদিত গ্রুপ ট্যুরের সময়-সীমিত ভিসা-মুক্ত সময় ছিল।"
-        },
-        {
-          "q": "Jeju ভিসা-মুক্তি কীভাবে কাজ করে?",
-          "a": "আপনি বিনা ভিসায় 30 দিন পর্যন্ত Jeju-তে প্রবেশ করতে পারেন, তবে কেবল Jeju-তে ও থেকে সরাসরি ফ্লাইটে — আপনি মূল ভূখণ্ডের কোরিয়া হয়ে ট্রানজিট করতে পারবেন না।"
-        },
-        {
-          "q": "ট্যুর গ্রুপ কি এখনও বিনা ভিসায় প্রবেশ করতে পারে?",
-          "a": "3 বা তার বেশি সদস্যের অনুমোদিত গ্রুপের জন্য একটি পাইলট সেপ্টেম্বর 2025–জুন 2026 পর্যন্ত চলেছিল। যেহেতু এমন স্কিম সময়-সীমিত, আপনার ট্রাভেল এজেন্সি বা দূতাবাসের কাছে বর্তমান অবস্থা নিশ্চিত করুন।"
-        },
-        {
-          "q": "আমি কোথায় আবেদন করব?",
-          "a": "যে অঞ্চলে আপনার hukou নিবন্ধিত সেই অঞ্চলের কোরিয়া ভিসা আবেদন কেন্দ্র বা কোরীয় কনস্যুলেটে।"
-        },
-        {
-          "q": "আমাকে কত টাকা দেখাতে হবে?",
-          "a": "কোনো নির্দিষ্ট ন্যূনতম নেই — 3–6 মাসের স্থিতিশীল ব্যালেন্স এবং চীনের সাথে সম্পর্ক দেখান। ফি ফেরতযোগ্য নয়।"
-        },
-        {
-          "q": "আমার কি এখনও e-Arrival Card লাগবে?",
-          "a": "e-Arrival Card-এর মতো প্রবেশ-নথির নিয়ম এখনও প্রযোজ্য হতে পারে। আপনার ভ্রমণের তারিখের কাছাকাছি বর্তমান নিয়ম যাচাই করুন।"
-        }
-      ]
-    }
-  },
-  "fil": {
-    "kicker": "Gabay sa visa · Tsina → Korea",
-    "readingTime": "8 min na pagbasa",
-    "h1": "Visa sa Korea para sa mga mamamayang Tsino",
-    "metaTitle": "Pag-apply ng visa sa Korea mula sa Tsina: gabay hakbang-hakbang (2026) — Korea Trip Hub",
-    "metaDesc": "Paano mag-apply ng tourist visa sa Korea mula sa Tsina: saan mag-apply, anong mga dokumento ang kailangan (at saan makukuha ang bawat isa), bayad, tagal ng proseso, at opisyal na mga link. Indibidwal na C-3 tourist visa; Jeju walang visa 30 araw.",
-    "ui": {
-      "visa": "Uri ng visa",
-      "stay": "Tagal ng pananatili",
-      "entry": "Bilang ng pagpasok",
-      "where": "Saan makukuha",
-      "official": "Opisyal na pinagmulan",
-      "required": "Kailangan",
-      "conditional": "Kung naaangkop",
-      "recommended": "Inirerekomenda",
-      "confirm": "Maaaring magbago ang bayad/mga patakaran — tiyakin sa opisyal na pinagmulan",
-      "source": "Pinagmulan",
-      "updated": "Na-update",
-      "tldr": "Buod"
-    },
-    "verdict": {
-      "headline": "Oo — kailangan ng mga may hawak ng pasaporteng Tsino ng visa para sa mainland Korea.",
-      "sub": "Nag-a-apply ang mga indibidwal na turista ng C-3 tourist visa sa konsulado ng Korea o sa Korea Visa Application Center. May dalawang malaking eksepsiyon na nagbibigay-daan para laktawan ito: ang Isla ng Jeju, at (paminsan-minsan) ang mga aprubadong group tour.",
-      "type": "C-3 Tourist",
-      "stay": "Hanggang 90 araw",
-      "entry": "Isahan o maramihang pagpasok (nag-iiba)"
-    },
-    "highlights": [
-      {
-        "icon": "🏝️",
-        "tone": "green",
-        "title": "Isla ng Jeju — walang visa hanggang 30 araw",
-        "body": "Maaaring bisitahin ng mga mamamayang Tsino ang Jeju nang walang visa hanggang 30 araw, sa kondisyong may tuwirang flight papunta/mula Jeju at walang transit sa mainland Korea."
-      },
-      {
-        "icon": "👥",
-        "tone": "amber",
-        "title": "Group na walang visa (limitado ang panahon)",
-        "body": "May pilot program na nagpapahintulot sa mga aprubadong tour group na 3 pataas na pumasok nang walang visa hanggang 15 araw, ipinatupad mula Setyembre 2025 hanggang Hunyo 2026, at nakaltasan ang bayad sa pagproseso ng group visa sa parehong panahon. Tiyakin kung na-extend ito bago umasa rito."
-      }
-    ],
-    "tldr": [
-      "Para sa paglalakbay sa mainland, kailangan ng mga indibidwal na turista ng C-3 tourist visa — mag-apply sa konsulado ng Korea/KVAC sa inyong lugar.",
-      "Punan ang form sa visa.go.kr (ang tanging opisyal na portal), i-print at pirmahan.",
-      "Magdala ng pasaporte, larawang 3.5×4.5, household registration (hukou), bank statement ng 3–6 buwan, at patunay ng trabaho.",
-      "Pupunta lang sa Jeju? Puwede kayong pumasok nang walang visa hanggang 30 araw sa tuwirang flight."
-    ],
-    "jurisdiction": {
-      "title": "Hakbang 0 — Mag-apply sa inyong consular district",
-      "intro": "Nahahati ang Tsina sa pagitan ng Embahada ng Korea (Beijing) at ilang consulate-general, bawat isa ay may sariling Korea Visa Application Center. Mag-apply sa KVAC ng distritong kinaroroonan ng inyong household registration (hukou).",
-      "zones": [
-        {
-          "name": "Embahada at pangunahing mga konsulado",
-          "covers": "Mga distrito ng Beijing, Shanghai, Guangzhou, Shenyang, Chengdu, Wuhan, Qingdao, Xi'an",
-          "centers": "KVAC sa bawat distrito (VFS Global)",
-          "site": "vfsglobal.com (Tsina)",
-          "url": "https://www.vfsglobal.com/"
-        },
-        {
-          "name": "Hong Kong / Macao",
-          "covers": "Mga residente ng SAR (hiwalay na mga patakaran)",
-          "centers": "Consulate-General sa Hong Kong",
-          "site": "overseas.mofa.go.kr",
-          "url": "https://overseas.mofa.go.kr/hk-en/index.do"
-        }
-      ],
-      "note": "Hindi sigurado kung aling distrito ang sumasaklaw sa inyo? Tingnan ayon sa probinsyang nakasaad sa inyong hukou; nililista ng site ng KVAC ang saklaw ng bawat distrito."
-    },
-    "steps": {
-      "title": "Ang aplikasyon, hakbang-hakbang (indibidwal na C-3)",
-      "items": [
-        {
-          "n": 1,
-          "title": "Kumpirmahin ang uri ng visa",
-          "detail": "Nag-a-apply ang mga indibidwal na turista ng C-3 short-term tourist visa."
-        },
-        {
-          "n": 2,
-          "title": "Punan ang form sa visa.go.kr",
-          "detail": "Kumpletuhin ang form sa Korea Visa Portal — ang tanging opisyal na site — pagkatapos ay i-print at pirmahan.",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "Korea Visa Portal"
-        },
-        {
-          "n": 3,
-          "title": "Tipunin ang inyong mga dokumento",
-          "detail": "Tipunin ang checklist sa ibaba, kasama ang inyong household registration at patunay ng pananalapi."
-        },
-        {
-          "n": 4,
-          "title": "Isumite sa inyong KVAC/konsulado",
-          "detail": "Mag-apply sa Korea Visa Application Center o konsulado para sa inyong distrito."
-        },
-        {
-          "n": 5,
-          "title": "Bayaran ang bayad",
-          "detail": "Bayaran ang visa fee at service fee. Hindi maibabalik ang bayad kahit tanggihan."
-        },
-        {
-          "n": 6,
-          "title": "Subaybayan ang inyong aplikasyon",
-          "detail": "Sundan ang status sa channel ng center. Huwag bumili ng non-refundable na flight bago maaprubahan."
-        },
-        {
-          "n": 7,
-          "title": "Kunin ang inyong pasaporte",
-          "detail": "Kunin nang personal o sa pamamagitan ng courier at agad na tingnan ang mga detalye ng visa."
-        }
-      ]
-    },
-    "documents": {
-      "title": "Checklist ng dokumento — kasama kung saan at paano makuha ang bawat isa",
-      "intro": "Para sa bawat aytem, narito kung saan ito makukuha at kung ano ang dapat itong ipakita.",
-      "cols": [
-        "Dokumento",
-        "Saan makukuha",
-        "Ano ang dapat ipakita"
-      ],
-      "rows": [
-        {
-          "doc": "Pasaporte",
-          "req": "required",
-          "where": "Nasa inyo na",
-          "how": "Balido nang 6+ buwan na may hindi bababa sa 2 blangkong pahina ng visa."
-        },
-        {
-          "doc": "Form ng aplikasyon ng visa",
-          "req": "required",
-          "where": "visa.go.kr",
-          "how": "Kumpletuhin sa Korea Visa Portal, i-print, pirmahan.",
-          "link": "https://www.visa.go.kr"
-        },
-        {
-          "doc": "Larawan — 3.5 × 4.5 cm",
-          "req": "required",
-          "where": "Kahit anong photo studio",
-          "how": "Puting background, kuha sa loob ng 6 na buwan, buong mukha."
-        },
-        {
-          "doc": "Household registration (hukou)",
-          "req": "required",
-          "where": "Nasa inyo na",
-          "how": "Kopya ng inyong hukou booklet; tumutulong itong patunayan ang inyong tirahan/distrito."
-        },
-        {
-          "doc": "Bank statement — nakaraang 3–6 buwan",
-          "req": "required",
-          "where": "Inyong bangko",
-          "how": "Naka-selyong statement na nagpapakita ng matatag na balanse na sapat para sa biyahe."
-        },
-        {
-          "doc": "Patunay ng trabaho / negosyo",
-          "req": "required",
-          "where": "Employer / negosyo",
-          "how": "Empleyado: sertipiko ng trabaho + pag-apruba ng leave. Self-employed: business license."
-        },
-        {
-          "doc": "Round-trip flight at hotel reservation",
-          "req": "required",
-          "where": "Airline / mga booking site",
-          "how": "Sapat na ang mga reserbasyon/itinerary — huwag magbayad ng tiket bago maaprubahan."
-        },
-        {
-          "doc": "Patunay ng ari-arian (opsiyonal)",
-          "req": "recommended",
-          "where": "Kayo / kaugnay na awtoridad",
-          "how": "Maaaring palakasin ng mga sertipiko ng ari-arian, sasakyan, o deposito ang unang aplikasyon."
-        }
-      ],
-      "legend": {
-        "required": "Kailangan",
-        "conditional": "Kung naaangkop sa inyo",
-        "recommended": "Inirerekomenda"
-      }
-    },
-    "funds": {
-      "title": "\"Magkano ang perang dapat kong ipakita?\"",
-      "body": "Walang iisang inilathalang minimum. Tinitingnan ng mga opisyal ang matatag na balanse at malinaw na ugnayan sa Tsina (trabaho, negosyo, pamilya, ari-arian). Mas nakakakumbinsi ang matatag na kasaysayan kaysa sa biglaang deposito.",
-      "tips": [
-        "Magpakita ng matatag na balanse sa loob ng 3–6 buwan, hindi biglaang halaga sa huling sandali.",
-        "Magdagdag ng patunay ng ugnayan: trabaho, business license, o ari-arian.",
-        "Unang biyahe? Nakakatulong ang mas matibay na file ng pananalapi + ari-arian."
-      ]
-    },
-    "pitfalls": {
-      "title": "Mga pagkakamaling nagdudulot ng pagtanggi at pagkaantala",
-      "items": [
-        {
-          "icon": "📍",
-          "t": "Maling distrito",
-          "d": "Pag-apply sa labas ng consular district ng inyong hukou. Mag-apply kung saan nakatala ang inyong household registration."
-        },
-        {
-          "icon": "🏝️",
-          "t": "Pag-aakalang saklaw ng patakaran ng Jeju ang lahat ng lugar",
-          "d": "Ang walang-visa sa Jeju ay para lang sa Jeju na may tuwirang flight — hindi nito pinapayagan ang paglalakbay sa mainland."
-        },
-        {
-          "icon": "💸",
-          "t": "Biglaang deposito",
-          "d": "Malaking halaga bago mismo mag-apply. Magpakita ng matatag at maipaliwanag na pondo."
-        },
-        {
-          "icon": "🎫",
-          "t": "Maagang pagbabayad ng flight",
-          "d": "Pagbili ng non-refundable na tiket bago maaprubahan — sapat na ang reserbasyon."
-        },
-        {
-          "icon": "🗓️",
-          "t": "Pag-asa sa nag-expire na exemption",
-          "d": "Limitado sa panahon ang group na walang-visa na pilot (hanggang Hunyo 2026). Kumpirmahin muli bago umasa rito."
-        }
-      ]
-    },
-    "faq": {
-      "title": "FAQ ng visa Tsina → Korea",
-      "items": [
-        {
-          "q": "Kailangan ba ng mga mamamayang Tsino ng visa para sa Korea?",
-          "a": "Para sa mainland Korea, oo — nag-a-apply ang mga indibidwal na turista ng C-3 tourist visa. Pinapayagan ng Isla ng Jeju ang pagpasok nang walang visa hanggang 30 araw, at ang mga aprubadong group tour ay nagkaroon ng limitadong-panahong walang-visa na mga window."
-        },
-        {
-          "q": "Paano gumagana ang walang-visa sa Jeju?",
-          "a": "Maaari kayong pumasok sa Jeju nang walang visa hanggang 30 araw, ngunit tuwirang flight lang papunta at mula Jeju — hindi kayo puwedeng mag-transit sa mainland Korea."
-        },
-        {
-          "q": "Puwede pa bang pumasok nang walang visa ang mga tour group?",
-          "a": "May pilot para sa mga aprubadong grupong 3 pataas na ipinatupad mula Setyembre 2025 hanggang Hunyo 2026. Dahil limitado sa panahon ang gayong mga scheme, kumpirmahin ang kasalukuyang status sa inyong travel agency o embahada."
-        },
-        {
-          "q": "Saan ako mag-a-apply?",
-          "a": "Sa Korea Visa Application Center o konsulado ng Korea para sa distritong kung saan nakarehistro ang inyong hukou."
-        },
-        {
-          "q": "Magkano ang perang kailangan kong ipakita?",
-          "a": "Walang nakapirming minimum — magpakita ng matatag na balanse sa loob ng 3–6 buwan kasama ang ugnayan sa Tsina. Hindi maibabalik ang bayad."
-        },
-        {
-          "q": "Kailangan ko pa ba ang e-Arrival Card?",
-          "a": "Maaaring patuloy na mailapat ang mga patakaran sa dokumento ng pagpasok gaya ng e-Arrival Card. Tingnan ang kasalukuyang mga patakaran malapit sa petsa ng inyong biyahe."
         }
       ]
     }
