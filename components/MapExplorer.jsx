@@ -5,6 +5,7 @@ import { NAVER_MAP_CLIENT_ID, KAKAO_JS_KEY } from "../lib/config";
 
 // Seoul city hall — default map center.
 const SEOUL = { lat: 37.5665, lng: 126.978 };
+const DEFAULT_QUERY = "Myeongdong, Seoul";
 
 function loadScript(src, id) {
   return new Promise((resolve, reject) => {
@@ -24,18 +25,18 @@ export default function MapExplorer({ labels }) {
   const boxRef = useRef(null);
   const mapRef = useRef(null);
   const markerRef = useRef(null);
-  const [provider, setProvider] = useState("naver");
-  const [query, setQuery] = useState("명동");
+  // Default to Google Maps — it labels places in English, which is what most visitors want.
+  const [provider, setProvider] = useState("google");
+  const [query, setQuery] = useState(DEFAULT_QUERY);
+  const [committed, setCommitted] = useState(DEFAULT_QUERY); // drives the Google iframe
   const [note, setNote] = useState("");
 
-  // Initialize / switch the active map provider.
+  // Initialize / switch the Naver/Kakao map SDK (Google uses a keyless iframe below).
   useEffect(() => {
     let cancelled = false;
     setNote("");
-
     if (provider === "naver") {
       if (!NAVER_MAP_CLIENT_ID) { setNote(t.naverMissing || "Naver map key not set."); return; }
-      // Surface auth/domain errors from Naver.
       window.navermap_authFailure = () =>
         setNote(t.authFail || "Naver Maps auth failed — check the Client ID and that this domain is registered.");
       const url = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=${NAVER_MAP_CLIENT_ID}&submodules=geocoder`;
@@ -69,6 +70,10 @@ export default function MapExplorer({ labels }) {
 
   function search() {
     if (!query.trim()) return;
+    if (provider === "google") {
+      setCommitted(query.trim());
+      return;
+    }
     if (provider === "naver" && window.naver?.maps?.Service) {
       window.naver.maps.Service.geocode({ query }, (status, res) => {
         const ok = window.naver.maps.Service.Status.OK;
@@ -96,20 +101,17 @@ export default function MapExplorer({ labels }) {
     }
   }
 
+  const btn = (id, label) => (
+    <button className={id} aria-selected={provider === id} onClick={() => setProvider(id)}>{label}</button>
+  );
+
   return (
     <div className="mapbox">
       <div className="mapsearch">
         <div className="maptoggle" role="tablist" style={{ marginRight: 6 }}>
-          <button
-            className="naver"
-            aria-selected={provider === "naver"}
-            onClick={() => setProvider("naver")}
-          >🟢 Naver</button>
-          <button
-            className="kakao"
-            aria-selected={provider === "kakao"}
-            onClick={() => setProvider("kakao")}
-          >🟡 Kakao</button>
+          {btn("google", "🌐 Google")}
+          {btn("naver", "🟢 Naver")}
+          {btn("kakao", "🟡 Kakao")}
         </div>
         <div className="inp" style={{ flex: 1 }}>
           <span className="i">🔍</span>
@@ -117,13 +119,30 @@ export default function MapExplorer({ labels }) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && search()}
-            placeholder={t.placeholder || "Search an address or place…"}
+            placeholder={t.placeholder || "Search a place or address…"}
             aria-label="Search map"
           />
         </div>
         <button className="btn" onClick={search}>{t.search || "Search"}</button>
       </div>
-      <div ref={boxRef} style={{ height: 360, width: "100%", background: "var(--surface-2)" }} />
+
+      {provider === "google" ? (
+        <iframe
+          title="Google Map"
+          src={`https://www.google.com/maps?q=${encodeURIComponent(committed || "Seoul")}&hl=en&z=14&output=embed`}
+          style={{ height: 360, width: "100%", border: 0, display: "block" }}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      ) : (
+        <div ref={boxRef} style={{ height: 360, width: "100%", background: "var(--surface-2)" }} />
+      )}
+
+      <div className="mapnote">
+        {provider === "google"
+          ? (t.mapNoteGoogle || "Google Maps shows place names in English. For in-Korea navigation (directions), Naver or KakaoMap work best.")
+          : (t.mapNoteKorean || "Naver / KakaoMap give the best in-Korea detail and directions, but label places in Korean. Switch to Google for English labels.")}
+      </div>
       {note && (
         <div style={{ padding: "10px 14px", fontSize: 13, color: "var(--muted)", borderTop: "1px solid var(--border)" }}>
           {note}
