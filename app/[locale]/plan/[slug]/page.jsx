@@ -1,5 +1,6 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
-import { pageMeta, SITE_NAME } from "../../../../lib/seo";
+import { pageMeta, breadcrumbLd, articleLd, faqLd, SITE_NAME } from "../../../../lib/seo";
+import JsonLd from "../../../../components/JsonLd";
 import { fact } from "../../../../lib/facts";
 import GuideVisual from "../../../../components/GuideVisual";
 import TransitGuide from "../../../../components/TransitGuide";
@@ -113,6 +114,24 @@ export default function PlanArticle({ params }) {
 
   return (
     <article className="article">
+      <JsonLd
+        data={[
+          breadcrumbLd(locale, [
+            { name: m.brand, path: "" },
+            { name: title, path: `plan/${slug}` },
+          ]),
+          // Article/FAQ only for the slugs that actually have a deep-dive guide.
+          guide &&
+            articleLd({
+              locale,
+              path: `plan/${slug}`,
+              headline: title,
+              description: item.tagline,
+              image: guide.hero?.img,
+            }),
+          guide && faqLd(guide.faq?.items, locale),
+        ]}
+      />
       <a className="crumb" href={`/${locale}/#plan`}>← {m.nav.plan}</a>
 
       <div className="art-head">

@@ -1,5 +1,6 @@
 import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
-import { pageMeta, SITE_NAME } from "../../../lib/seo";
+import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../lib/seo";
+import JsonLd from "../../../components/JsonLd";
 import food from "../../../data/food.json";
 import foodJa from "../../../data/food.ja.json";
 import foodZh from "../../../data/food.zh.json";
@@ -65,6 +66,12 @@ export default function Food({ params }) {
 
   return (
     <section>
+      <JsonLd
+        data={breadcrumbLd(locale, [
+          { name: m.brand, path: "" },
+          { name: t.title, path: "food" },
+        ])}
+      />
       <div className="wrap">
         <div className="sec-head">
           <div>

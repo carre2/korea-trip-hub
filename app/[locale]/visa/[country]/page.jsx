@@ -1,5 +1,6 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
-import { pageMeta } from "../../../../lib/seo";
+import { pageMeta, breadcrumbLd, articleLd, faqLd } from "../../../../lib/seo";
+import JsonLd from "../../../../components/JsonLd";
 import VisaCountryGuide from "../../../../components/VisaCountryGuide";
 import { localized, visaCountryCodes } from "../../../../lib/visa";
 
@@ -26,6 +27,24 @@ export default function VisaCountryPage({ params }) {
 
   return (
     <article className="article">
+      <JsonLd
+        data={[
+          breadcrumbLd(locale, [
+            { name: m.brand, path: "" },
+            { name: m.plan?.tiles?.visa?.title || "Visa & K-ETA", path: "plan/visa" },
+            { name: g.country, path: `visa/${params.country}` },
+          ]),
+          articleLd({
+            locale,
+            path: `visa/${params.country}`,
+            headline: g.h1 || `Korea Visa from ${g.country}`,
+            description: g.metaDesc,
+            image: g.hero?.img,
+            dateModified: g.updated,
+          }),
+          faqLd(g.faq?.items, locale),
+        ]}
+      />
       <a className="crumb" href={`/${locale}/plan/visa/`}>← {m.nav?.plan || "Plan Trip"} · Visa</a>
 
       <div className="art-head">

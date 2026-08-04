@@ -1,5 +1,6 @@
 import { getMessages, defaultLocale } from "../../lib/i18n";
-import { pageMeta } from "../../lib/seo";
+import { pageMeta, webSiteLd } from "../../lib/seo";
+import JsonLd from "../../components/JsonLd";
 import { fact, factsUpdated } from "../../lib/facts";
 import MapExplorer from "../../components/MapExplorer";
 import SpotifyKpop from "../../components/SpotifyKpop";
@@ -101,6 +102,8 @@ export default function Home({ params }) {
 
   return (
     <>
+      <JsonLd data={webSiteLd(locale, m.meta.homeTitle, m.meta.homeDesc)} />
+
       {/* ===== PLAN YOUR TRIP (TOP) ===== */}
       <div className="plan-band flagbg" id="plan">
         <div className="wrap">

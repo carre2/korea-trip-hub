@@ -1,5 +1,6 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
-import { pageMeta, SITE_NAME } from "../../../../lib/seo";
+import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../../lib/seo";
+import JsonLd from "../../../../components/JsonLd";
 import { fact } from "../../../../lib/facts";
 import dest from "../../../../data/destinations.json";
 import destJa from "../../../../data/destinations.ja.json";
@@ -54,6 +55,13 @@ export default function DestinationDetail({ params }) {
 
   return (
     <article className="article">
+      <JsonLd
+        data={breadcrumbLd(locale, [
+          { name: m.brand, path: "" },
+          { name: t.title, path: "destinations" },
+          { name: d.name, path: `destinations/${params.slug}` },
+        ])}
+      />
       <a className="crumb" href={`/${locale}/destinations/`}>← {t.browseAll}</a>
 
       <div className="art-head">

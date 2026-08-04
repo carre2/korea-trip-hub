@@ -1,5 +1,6 @@
 import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
-import { pageMeta, SITE_NAME } from "../../../lib/seo";
+import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../lib/seo";
+import JsonLd from "../../../components/JsonLd";
 import { fact } from "../../../lib/facts";
 import dest from "../../../data/destinations.json";
 import destJa from "../../../data/destinations.ja.json";
@@ -48,6 +49,12 @@ export default function Destinations({ params }) {
 
   return (
     <section>
+      <JsonLd
+        data={breadcrumbLd(locale, [
+          { name: m.brand, path: "" },
+          { name: t.title, path: "destinations" },
+        ])}
+      />
       <div className="wrap">
         <div className="sec-head">
           <div>
