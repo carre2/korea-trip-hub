@@ -6,6 +6,7 @@ import GuideVisual from "../../../../components/GuideVisual";
 import TransitGuide from "../../../../components/TransitGuide";
 import guideVisa from "../../../../data/guides/visa.json";
 import guideTransit from "../../../../data/guides/transit.json";
+import guideTransitI18n from "../../../../data/guides/transit.i18n.json";
 import plan from "../../../../data/plan.json";
 import planJa from "../../../../data/plan.ja.json";
 import planZh from "../../../../data/plan.zh.json";
@@ -32,8 +33,23 @@ const planI18n = { ja: planJa, zh: planZh, "zh-TW": planZhTW, es: planEs, fr: pl
 
 // Rich visual guides (English base). Keyed by slug; only slugs with a guide render the deep-dive layout.
 const guides = { visa: guideVisa, transit: guideTransit };
+// Per-locale translation overrides for rich guides: { <locale>: { ...overrides } }.
+const guideI18n = { transit: guideTransitI18n };
 // Which rich component renders each slug's guide body.
 const GuideBody = { visa: GuideVisual, transit: TransitGuide };
+
+// Deep-merge a locale override onto the English base guide (arrays replace; objects merge; scalars override).
+function mergeGuide(base, ov) {
+  if (!ov) return base;
+  const out = Array.isArray(base) ? [...base] : { ...base };
+  for (const k of Object.keys(ov)) {
+    const bv = base?.[k], ovv = ov[k];
+    if (Array.isArray(ovv)) out[k] = ovv;
+    else if (ovv && typeof ovv === "object" && bv && typeof bv === "object" && !Array.isArray(bv)) out[k] = mergeGuide(bv, ovv);
+    else out[k] = ovv;
+  }
+  return out;
+}
 
 // One static page per (locale × plan slug).
 export function generateStaticParams() {
@@ -110,7 +126,7 @@ export default function PlanArticle({ params }) {
 
   const hasFacts = item.facts.some((id) => fact(id));
   const ui = m.factsUI || {};
-  const guide = guides[slug];
+  const guide = mergeGuide(guides[slug], guideI18n[slug]?.[locale]);
 
   return (
     <article className="article">

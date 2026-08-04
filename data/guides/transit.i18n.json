@@ -1,0 +1,894 @@
+{
+  "_README": "Per-locale translation overrides for transit.json (guides). Machine-translated — native review recommended.",
+  "zh": {
+    "kicker": "出行交通",
+    "readingTime": "阅读时间 8 分钟",
+    "tldr": [
+      "办一张 T-money 卡就够了——地铁、公交、大多数出租车和便利店都能用。",
+      "上车和下车都要刷卡（公交也一样），30 分钟内可享免费换乘。",
+      "用 Naver Map 或 KakaoMap 导航——谷歌地图在韩国几乎无法用于交通导航。",
+      "打车用 Kakao T（预先显示车费）；城际出行用 KTX/SRT 高速铁路。"
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "一张卡搞定一切", "body": "一张可充值的 T-money 卡即可刷地铁、公交和大多数出租车——还能在便利店买零食。在任意 CU/GS25/7-Eleven 或车站售卡机都能买到。" },
+      { "icon": "🗺️", "tone": "blue", "title": "用韩国地图应用，别用谷歌", "body": "谷歌地图无法在韩国提供驾车/公共交通路线。请安装 Naver Map 或 KakaoMap——两者都有英文界面和实时交通路线规划。" },
+      { "icon": "🔁", "tone": "amber", "title": "换乘免费——前提是你刷了下车卡", "body": "用 T-money，地铁↔公交、公交↔公交换乘在 30 分钟内免费。关键在于：公交也必须刷下车卡，否则会失去优惠。" }
+    ],
+    "modes": {
+      "title": "选择你的出行方式",
+      "intro": "四种出行方式，以及各自最合适的场景。精确票价见上方的已核实事实框。",
+      "cards": [
+        { "icon": "🚇", "name": "地铁", "tone": "blue", "best": "城市出行的首选", "fare": "₩1,550 起", "d": "快速、便宜、全程有英文标识，且不受堵车影响。Seoul 和 Busan 都有庞大的线路网。几乎任何城市出行都可以从这里开始。" },
+        { "icon": "🚌", "name": "市内公交", "tone": "green", "best": "地铁到不了的地方", "fare": "₩1,500 起", "d": "按颜色分类的线路可填补地铁站之间的空白。上下车都要刷卡。适合短途以及沿江或山间的风景线路。" },
+        { "icon": "🚕", "name": "出租车", "tone": "amber", "best": "门到门与深夜出行", "fare": "₩4,800 起", "d": "以全球标准衡量都很便宜，而且到处都是。用 Kakao T 叫车，预先显示车费，也免去沟通的麻烦。" },
+        { "icon": "🚄", "name": "KTX / SRT", "tone": "blue", "best": "城际之间", "fare": "Seoul–Busan 约 ₩59,800", "d": "高速铁路约 2 小时 40 分到达 Busan，还可到 Gyeongju、Daejeon、Gwangju 等地。周末请提前订座。" }
+      ]
+    },
+    "tmoney": {
+      "title": "唯一的一张卡：T-money 分步指南",
+      "intro": "T-money 是一种预付刷卡。这里是它的完整流程——购买、充值、刷卡，以及退还余额。",
+      "steps": [
+        { "n": 1, "title": "购买卡片", "detail": "在任意便利店（CU、GS25、7-Eleven、Emart24）或地铁站售卡机购买。只需说一句“T-money, please”。卡片本身要几千韩元，且不可退。" },
+        { "n": 2, "title": "用现金充值", "detail": "在同样的便利店或车站充值机充值（可用现金）。先充够一两天的用量；随时可以再加。" },
+        { "n": 3, "title": "上车刷卡、下车也刷卡", "detail": "进站和出站时都要触碰读卡器——地铁闸机和公交车（前后门都是）。刷下车卡才能解锁免费换乘和正确票价。" },
+        { "n": 4, "title": "退还余额", "detail": "回国前可在便利店退还剩余余额（小额）。卡费本身不退——只退剩余的充值金额。" }
+      ],
+      "alt": "不想管理实体卡？许多外国游客改用 WOWPASS（预付卡 + T-money 二合一）或支持非接触式交通支付的已注册信用卡——但 T-money 是最简单、接受度最广的选择。"
+    },
+    "busColors": {
+      "title": "读懂公交颜色",
+      "intro": "Seoul 的公交按功能用颜色区分——颜色一眼就能告诉你线路类型。",
+      "items": [
+        { "hex": "#3B6FE0", "name": "蓝色——干线", "d": "连接全市各大城区的长途线路。" },
+        { "hex": "#2E9E5B", "name": "绿色——支线", "d": "把你接驳到最近地铁站的短途社区线路。" },
+        { "hex": "#E0B23B", "name": "黄色——环线", "d": "环绕市中心和旅游区（例如 Namsan 周边）。" },
+        { "hex": "#D6453B", "name": "红色——广域快线", "d": "开往卫星城市（Bundang、Ilsan）的快速公交。票价较高。" }
+      ]
+    },
+    "taxi": {
+      "title": "出租车与 Kakao T",
+      "intro": "出租车价格实惠、数量众多。唯一要装的是 Kakao T——超过 90% 的 Seoul 出租车都用它，它会在你确认前显示预估车费，还能消除任何语言或绕路的担忧。",
+      "types": [
+        { "name": "普通（中型）", "fare": "₩4,800 起", "d": "标准的橙色/银色出租车。打表计费；深夜加价最高 40%（约 23:00–02:00）。" },
+        { "name": "模范出租车（mobeom）", "fare": "₩7,000 起", "d": "带金色条纹的黑色车。价格更高、更宽敞，且没有深夜加价——适合深夜出行。" },
+        { "name": "国际出租车", "fare": "₩8,000 起", "d": "黑色或橙色，标有“International”。司机会说英语/中文/日语；可预约。" }
+      ],
+      "tip": "大多数出租车可用 T-money 或刷卡支付。把目的地准备成韩文（地图应用会显示），上下车都更顺畅。"
+    },
+    "intercity": {
+      "title": "城际出行：KTX 与 SRT",
+      "intro": "两家高速铁路运营商覆盖全国。乘坐体验相似——区别在于出发车站和一些规则。",
+      "cols": ["", "KTX", "SRT"],
+      "rows": [
+        { "label": "运营商", "vals": ["Korail（2004 年起）", "SR Corp（2016 年起）"] },
+        { "label": "Seoul 出发站", "vals": ["Seoul Station（市中心）", "Suseo Station（东南部）"] },
+        { "label": "线路网", "vals": ["最广——Busan、Gyeongju、Gwangju、Gangneung、Yeosu……", "Busan、Mokpo 线"] },
+        { "label": "价格", "vals": ["标准", "约便宜 10%"] },
+        { "label": "订票方式", "vals": ["Korail Talk 应用 / letskorail.com", "SRT 网站（外国卡使用不便）"] }
+      ],
+      "note": "务必确认你从哪个车站出发——为搭乘 SRT（从 Suseo 发车）却跑到 Seoul Station，是典型的、会毁掉行程的错误。周末和节假日请提前订票。"
+    },
+    "apps": {
+      "title": "出发前先装好这些应用",
+      "items": [
+        { "icon": "🗺️", "name": "Naver Map", "d": "韩国最完整的地图 + 交通 + 步行导航。有英文。", "note": "主力地图" },
+        { "icon": "🗺️", "name": "KakaoMap", "d": "出色的备选地图，交通路线清晰，还有公交到站时间。", "note": "备用地图" },
+        { "icon": "🚕", "name": "Kakao T", "d": "叫出租车并预先显示车费估算；也提供单车等服务。", "note": "出租车" },
+        { "icon": "🚄", "name": "Korail Talk", "d": "官方 KTX 订票应用——预订座位并出示手机车票。", "note": "火车" }
+      ]
+    },
+    "pitfalls": {
+      "title": "浪费你时间或金钱的错误",
+      "items": [
+        { "icon": "🗺️", "t": "依赖谷歌地图", "d": "它在韩国无法规划公共交通或驾车路线。请改用 Naver Map 或 KakaoMap。" },
+        { "icon": "🚌", "t": "公交下车不刷卡", "d": "省掉下车刷卡，你会失去免费换乘，还可能被多收费。务必上下车都刷。" },
+        { "icon": "🚉", "t": "KTX 与 SRT 车站搞混", "d": "KTX 从 Seoul Station 发车；SRT 从 Suseo 发车。出发前确认你的发车站。" },
+        { "icon": "⏰", "t": "高峰时段拥挤", "d": "Seoul 地铁在约 08:00–09:30 和约 18:00–19:30 非常拥挤。这些时段避免带大件行李。" },
+        { "icon": "💵", "t": "以为到处都能用现金", "d": "公交找零不便，有些还不收现金。一张充好值的 T-money 卡就能避免这一切。" }
+      ]
+    },
+    "faq": {
+      "title": "出行常见问题",
+      "items": [
+        { "q": "我真的需要 T-money 卡吗？", "a": "这是目前最省事的选择——地铁、公交和大多数出租车一刷即可，还能免费换乘。在任意便利店都能购买和充值。" },
+        { "q": "我该用哪个地图应用？", "a": "Naver Map 或 KakaoMap。由于数据出境规定，谷歌地图无法在韩国提供公共交通或驾车路线。" },
+        { "q": "换乘怎么算？", "a": "使用 T-money，地铁与公交（或公交与公交）之间的换乘在 30 分钟内免费——只要你每次都刷上下车卡。" },
+        { "q": "不会说韩语怎么打车？", "a": "用 Kakao T：在应用里设置目的地，看到车费估算，司机也会拿到路线。用刷卡或 T-money 支付。" },
+        { "q": "去 Busan 该坐 KTX 还是 SRT？", "a": "两者都快（约 2 小时 40 分）。KTX 从市中心的 Seoul Station 发车，最容易订票（Korail Talk 应用）；SRT 稍便宜，但从 Suseo Station 发车，用外国卡较难订票。" },
+        { "q": "深夜坐地铁安全吗？", "a": "安全，韩国的公共交通非常安全。注意地铁大约在午夜停运——之后请用出租车（Kakao T）或夜间（N）公交。" }
+      ]
+    }
+  },
+  "zh-TW": {
+    "kicker": "交通出行",
+    "readingTime": "閱讀時間 8 分鐘",
+    "tldr": [
+      "辦一張 T-money 卡就夠了——地鐵、公車、大多數計程車和便利商店都能用。",
+      "上車和下車都要刷卡（公車也一樣），30 分鐘內可享免費轉乘。",
+      "用 Naver Map 或 KakaoMap 導航——Google 地圖在韓國幾乎無法用於交通導航。",
+      "叫計程車用 Kakao T（會先顯示車資）；跨城市出行用 KTX/SRT 高速鐵路。"
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "一張卡搞定一切", "body": "一張可儲值的 T-money 卡就能刷地鐵、公車和大多數計程車——還能在便利商店買零食。在任何 CU/GS25/7-Eleven 或車站售票機都能買到。" },
+      { "icon": "🗺️", "tone": "blue", "title": "用韓國地圖 App，別用 Google", "body": "Google 地圖無法在韓國提供開車/大眾運輸路線。請安裝 Naver Map 或 KakaoMap——兩者都有英文介面和即時交通路線規劃。" },
+      { "icon": "🔁", "tone": "amber", "title": "轉乘免費——前提是你刷了下車卡", "body": "用 T-money，地鐵↔公車、公車↔公車轉乘在 30 分鐘內免費。關鍵在於：公車也必須刷下車卡，否則會失去優惠。" }
+    ],
+    "modes": {
+      "title": "選擇你的出行方式",
+      "intro": "四種移動方式，以及各自最適合的情境。精確票價請見上方的已核實事實框。",
+      "cards": [
+        { "icon": "🚇", "name": "地鐵", "tone": "blue", "best": "城市出行的首選", "fare": "₩1,550 起", "d": "快速、便宜、全程有英文標示，且不受塞車影響。Seoul 和 Busan 都有龐大的路網。幾乎任何城市行程都可以從這裡開始。" },
+        { "icon": "🚌", "name": "市區公車", "tone": "green", "best": "地鐵到不了的地方", "fare": "₩1,500 起", "d": "依顏色分類的路線可補足地鐵站之間的空白。上下車都要刷卡。適合短程以及沿江或山間的景觀路線。" },
+        { "icon": "🚕", "name": "計程車", "tone": "amber", "best": "門到門與深夜出行", "fare": "₩4,800 起", "d": "以全球標準來看都很便宜，而且到處都有。用 Kakao T 叫車，會先顯示車資，也省去溝通的麻煩。" },
+        { "icon": "🚄", "name": "KTX / SRT", "tone": "blue", "best": "城市之間", "fare": "Seoul–Busan 約 ₩59,800", "d": "高速鐵路約 2 小時 40 分抵達 Busan，還可到 Gyeongju、Daejeon、Gwangju 等地。週末請提前訂位。" }
+      ]
+    },
+    "tmoney": {
+      "title": "唯一的一張卡：T-money 逐步教學",
+      "intro": "T-money 是一種預付刷卡。這裡是完整流程——購買、儲值、刷卡，以及退還餘額。",
+      "steps": [
+        { "n": 1, "title": "購買卡片", "detail": "在任何便利商店（CU、GS25、7-Eleven、Emart24）或地鐵站售票機購買。只要說一句「T-money, please」。卡片本身要幾千韓元，且不可退。" },
+        { "n": 2, "title": "用現金儲值", "detail": "在同樣的便利商店或車站儲值機儲值（可用現金）。先儲夠一兩天的用量；隨時都能再加。" },
+        { "n": 3, "title": "上車刷卡、下車也刷卡", "detail": "進站和出站時都要感應讀卡機——地鐵閘門和公車（前後門都要）。刷下車卡才能解鎖免費轉乘和正確票價。" },
+        { "n": 4, "title": "退還餘額", "detail": "回國前可在便利商店退還剩餘餘額（小額）。卡費本身不退——只退剩餘的儲值金額。" }
+      ],
+      "alt": "不想管理實體卡？許多外國旅客改用 WOWPASS（預付卡 + T-money 二合一）或支援感應式交通支付的已註冊信用卡——但 T-money 是最簡單、接受度最廣的選擇。"
+    },
+    "busColors": {
+      "title": "看懂公車顏色",
+      "intro": "Seoul 的公車依功能以顏色區分——顏色一眼就能告訴你路線類型。",
+      "items": [
+        { "hex": "#3B6FE0", "name": "藍色——幹線", "d": "連接全市各大城區的長途路線。" },
+        { "hex": "#2E9E5B", "name": "綠色——支線", "d": "把你接駁到最近地鐵站的短程社區路線。" },
+        { "hex": "#E0B23B", "name": "黃色——環狀", "d": "環繞市中心和旅遊區（例如 Namsan 周邊）。" },
+        { "hex": "#D6453B", "name": "紅色——廣域快線", "d": "開往衛星城市（Bundang、Ilsan）的快速公車。票價較高。" }
+      ]
+    },
+    "taxi": {
+      "title": "計程車與 Kakao T",
+      "intro": "計程車價格實惠、數量眾多。唯一要裝的是 Kakao T——超過 90% 的 Seoul 計程車都用它，會在你確認前顯示預估車資，還能消除任何語言或繞路的擔憂。",
+      "types": [
+        { "name": "一般（中型）", "fare": "₩4,800 起", "d": "標準的橘色/銀色計程車。跳表計費；深夜加成最高 40%（約 23:00–02:00）。" },
+        { "name": "模範計程車（mobeom）", "fare": "₩7,000 起", "d": "帶金色條紋的黑色車。較貴、較寬敞，且沒有深夜加成——適合深夜行程。" },
+        { "name": "國際計程車", "fare": "₩8,000 起", "d": "黑色或橘色，標示「International」。司機會說英語/中文/日語；可事先預約。" }
+      ],
+      "tip": "大多數計程車可用 T-money 或刷卡支付。把目的地備好韓文（地圖 App 會顯示），上下車都更順暢。"
+    },
+    "intercity": {
+      "title": "城市之間：KTX vs SRT",
+      "intro": "兩家高速鐵路業者涵蓋全國。乘坐體驗相似——差別在於出發車站和幾項規則。",
+      "cols": ["", "KTX", "SRT"],
+      "rows": [
+        { "label": "營運商", "vals": ["Korail（2004 年起）", "SR Corp（2016 年起）"] },
+        { "label": "Seoul 出發站", "vals": ["Seoul Station（市中心）", "Suseo Station（東南部）"] },
+        { "label": "路網", "vals": ["最廣——Busan、Gyeongju、Gwangju、Gangneung、Yeosu……", "Busan、Mokpo 線"] },
+        { "label": "價格", "vals": ["標準", "約便宜 10%"] },
+        { "label": "訂票方式", "vals": ["Korail Talk App / letskorail.com", "SRT 網站（外國卡使用不便）"] }
+      ],
+      "note": "務必確認你從哪個車站出發——要搭 SRT（從 Suseo 發車）卻跑到 Seoul Station，是典型會毀掉行程的錯誤。週末和連假請提前訂票。"
+    },
+    "apps": {
+      "title": "出發前先裝好這些 App",
+      "items": [
+        { "icon": "🗺️", "name": "Naver Map", "d": "韓國最完整的地圖 + 大眾運輸 + 步行導航。有英文。", "note": "主力地圖" },
+        { "icon": "🗺️", "name": "KakaoMap", "d": "出色的備選地圖，交通路線清晰，還有公車到站時間。", "note": "備用地圖" },
+        { "icon": "🚕", "name": "Kakao T", "d": "叫計程車並先顯示車資估算；也有單車等服務。", "note": "計程車" },
+        { "icon": "🚄", "name": "Korail Talk", "d": "官方 KTX 訂票 App——預訂座位並出示手機車票。", "note": "火車" }
+      ]
+    },
+    "pitfalls": {
+      "title": "浪費你時間或金錢的錯誤",
+      "items": [
+        { "icon": "🗺️", "t": "依賴 Google 地圖", "d": "它在韓國無法規劃大眾運輸或開車路線。請改用 Naver Map 或 KakaoMap。" },
+        { "icon": "🚌", "t": "公車下車不刷卡", "d": "省掉下車刷卡，你會失去免費轉乘，還可能被多收費。務必上下車都刷。" },
+        { "icon": "🚉", "t": "KTX 與 SRT 車站搞混", "d": "KTX 從 Seoul Station 發車；SRT 從 Suseo 發車。出發前確認你的發車站。" },
+        { "icon": "⏰", "t": "尖峰時段擁擠", "d": "Seoul 地鐵在約 08:00–09:30 和約 18:00–19:30 非常擁擠。這些時段避免帶大件行李。" },
+        { "icon": "💵", "t": "以為到處都能用現金", "d": "公車找零不便，有些還不收現金。一張儲值好的 T-money 卡就能避免這一切。" }
+      ]
+    },
+    "faq": {
+      "title": "交通出行常見問題",
+      "items": [
+        { "q": "我真的需要 T-money 卡嗎？", "a": "這是目前最省事的選擇——地鐵、公車和大多數計程車一刷即可，還能免費轉乘。在任何便利商店都能購買和儲值。" },
+        { "q": "我該用哪個地圖 App？", "a": "Naver Map 或 KakaoMap。由於資料出境規定，Google 地圖無法在韓國提供大眾運輸或開車路線。" },
+        { "q": "轉乘怎麼算？", "a": "使用 T-money，地鐵與公車（或公車與公車）之間的轉乘在 30 分鐘內免費——只要你每次都刷上下車卡。" },
+        { "q": "不會說韓語怎麼搭計程車？", "a": "用 Kakao T：在 App 裡設定目的地，看到車資估算，司機也會拿到路線。用刷卡或 T-money 支付。" },
+        { "q": "去 Busan 該搭 KTX 還是 SRT？", "a": "兩者都快（約 2 小時 40 分）。KTX 從市中心的 Seoul Station 發車，最容易訂票（Korail Talk App）；SRT 稍便宜，但從 Suseo Station 發車，用外國卡較難訂票。" },
+        { "q": "深夜搭地鐵安全嗎？", "a": "安全，韓國的大眾運輸非常安全。注意地鐵大約在午夜停駛——之後請搭計程車（Kakao T）或夜間（N）公車。" }
+      ]
+    }
+  },
+  "ja": {
+    "kicker": "移動・交通",
+    "readingTime": "読了8分",
+    "tldr": [
+      "T-money カードを1枚作れば十分——地下鉄、バス、ほとんどのタクシー、コンビニで使えます。",
+      "乗るときも降りるときもタッチ（バスでも）。30分以内なら乗り換えが無料になります。",
+      "ナビは Naver Map か KakaoMap で——韓国では Google マップの経路案内はほぼ使えません。",
+      "タクシーは Kakao T（事前に料金表示）、都市間は KTX/SRT の高速鉄道を使いましょう。"
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "1枚で何でもこなせる", "body": "チャージ式の T-money カード1枚で地下鉄、バス、ほとんどのタクシーにタッチ乗車でき、コンビニでおやつも買えます。CU/GS25/7-Eleven や駅の券売機で購入できます。" },
+      { "icon": "🗺️", "tone": "blue", "title": "Google ではなく韓国の地図アプリを", "body": "Google マップは韓国内で車・公共交通の経路を出せません。Naver Map か KakaoMap を入れましょう——どちらも英語対応でリアルタイムの経路検索ができます。" },
+      { "icon": "🔁", "tone": "amber", "title": "乗り換えは無料——降車タッチをすれば", "body": "T-money なら地下鉄↔バス、バス↔バスの乗り換えが30分以内で無料。注意点は、バスでも降りるときにタッチしないと割引が消えることです。" }
+    ],
+    "modes": {
+      "title": "移動手段を選ぶ",
+      "intro": "4つの移動手段と、それぞれが活きる場面。正確な運賃は上の「確認済みの事実」ボックスにあります。",
+      "cards": [
+        { "icon": "🚇", "name": "地下鉄", "tone": "blue", "best": "都市移動の基本", "fare": "₩1,550〜", "d": "速く、安く、案内はすべて英語表記で、渋滞の影響も受けません。Seoul も Busan も路線網が充実。ほとんどの都市移動はまずここから。" },
+        { "icon": "🚌", "name": "市内バス", "tone": "green", "best": "地下鉄が届かない場所へ", "fare": "₩1,500〜", "d": "色分けされた路線が駅の間の隙間を埋めます。乗車時も降車時もタッチ。短距離の移動や川沿い・山あいの景色のよい路線に最適。" },
+        { "icon": "🚕", "name": "タクシー", "tone": "amber", "best": "ドアツードア＆深夜", "fare": "₩4,800〜", "d": "世界基準では安く、どこにでもあります。Kakao T で呼べば料金が事前にわかり、言葉のやり取りの心配もありません。" },
+        { "icon": "🚄", "name": "KTX / SRT", "tone": "blue", "best": "都市間の移動", "fare": "Seoul–Busan 約₩59,800", "d": "高速鉄道で Busan まで約2時間40分、Gyeongju、Daejeon、Gwangju などにも。週末は座席を事前予約しておきましょう。" }
+      ]
+    },
+    "tmoney": {
+      "title": "この1枚：T-money を手順で",
+      "intro": "T-money はプリペイド式のタッチカード。購入・チャージ・タッチ・払い戻しまで、一連の流れを紹介します。",
+      "steps": [
+        { "n": 1, "title": "カードを買う", "detail": "コンビニ（CU、GS25、7-Eleven、Emart24）か地下鉄駅の券売機で。「T-money, please」と言うだけ。カード自体は数千ウォンで、返金はできません。" },
+        { "n": 2, "title": "現金でチャージ", "detail": "同じコンビニや駅のチャージ機でチャージ（現金対応）。1〜2日分を入れておけば十分で、いつでも追加できます。" },
+        { "n": 3, "title": "乗るとき・降りるときにタッチ", "detail": "入るときも出るときもカードリーダーにタッチ——地下鉄の改札でもバス（前後どちらのドアでも）でも。降車タッチをして初めて無料乗り換えと正しい運賃が適用されます。" },
+        { "n": 4, "title": "残額を払い戻す", "detail": "帰国前にコンビニで残額（少額）を払い戻せます。カード代金そのものは戻らず、残ったチャージ分だけが返金されます。" }
+      ],
+      "alt": "カードの管理が面倒？多くの外国人旅行者は代わりに WOWPASS（プリペイドカード＋T-money 一体型）や、非接触の交通決済に対応した登録済みクレジットカードを使います——ただし T-money が最もシンプルで、最も広く使える選択肢です。"
+    },
+    "busColors": {
+      "title": "バスの色を読み解く",
+      "intro": "Seoul のバスは役割ごとに色分けされており、色を見れば路線の種類がひと目でわかります。",
+      "items": [
+        { "hex": "#3B6FE0", "name": "青——幹線", "d": "市内の主要地区を結ぶ長距離路線。" },
+        { "hex": "#2E9E5B", "name": "緑——支線", "d": "最寄りの地下鉄駅までつなぐ短距離の地域路線。" },
+        { "hex": "#E0B23B", "name": "黄——循環", "d": "都心や観光エリアを巡回（例：Namsan 周辺）。" },
+        { "hex": "#D6453B", "name": "赤——広域急行", "d": "衛星都市（Bundang、Ilsan）へ向かう速いバス。運賃は高め。" }
+      ]
+    },
+    "taxi": {
+      "title": "タクシーと Kakao T",
+      "intro": "タクシーは手頃で数も豊富。入れておくべきは Kakao T——Seoul のタクシーの90%以上が対応し、確定前に予想料金が表示され、言葉や遠回りの不安がなくなります。",
+      "types": [
+        { "name": "一般（中型）", "fare": "₩4,800〜", "d": "標準的なオレンジ／シルバーのタクシー。メーター制。深夜は最大40%の割増（約23:00〜02:00）。" },
+        { "name": "模範（モボム）", "fare": "₩7,000〜", "d": "金のラインが入った黒い車。割高で広く、深夜割増なし——深夜の移動に便利。" },
+        { "name": "インターナショナルタクシー", "fare": "₩8,000〜", "d": "黒またはオレンジで「International」と表示。運転手は英語／中国語／日本語対応。事前予約も可能。" }
+      ],
+      "tip": "ほとんどのタクシーで T-money かカード払いが可能。目的地を韓国語で用意しておく（地図アプリに表示されます）と、乗車・降車がスムーズです。"
+    },
+    "intercity": {
+      "title": "都市から都市へ：KTX と SRT",
+      "intro": "2つの高速鉄道事業者が全国をカバー。乗り心地は似ていて、違いは出発駅といくつかのルールです。",
+      "cols": ["", "KTX", "SRT"],
+      "rows": [
+        { "label": "運営事業者", "vals": ["Korail（2004年〜）", "SR Corp（2016年〜）"] },
+        { "label": "Seoul の出発駅", "vals": ["Seoul Station（中心部）", "Suseo Station（南東部）"] },
+        { "label": "路線網", "vals": ["最も広い——Busan、Gyeongju、Gwangju、Gangneung、Yeosu…", "Busan、Mokpo 方面"] },
+        { "label": "料金", "vals": ["標準", "約10%安い"] },
+        { "label": "予約方法", "vals": ["Korail Talk アプリ / letskorail.com", "SRT サイト（外国カードでは使いにくい）"] }
+      ],
+      "note": "どの駅から出発するか必ず確認を——SRT（Suseo 発）に乗るのに Seoul Station に行ってしまうのは、旅行を台無しにする典型的なミスです。週末・祝日は早めに予約を。"
+    },
+    "apps": {
+      "title": "出発前に入れておくアプリ",
+      "items": [
+        { "icon": "🗺️", "name": "Naver Map", "d": "韓国で最も充実した地図＋交通＋徒歩ナビ。英語対応。", "note": "メインの地図" },
+        { "icon": "🗺️", "name": "KakaoMap", "d": "交通経路が見やすく、バスの到着時刻もわかる優れた代替地図。", "note": "予備の地図" },
+        { "icon": "🚕", "name": "Kakao T", "d": "料金の事前見積もり付きでタクシーを呼べる。自転車なども。", "note": "タクシー" },
+        { "icon": "🚄", "name": "Korail Talk", "d": "公式の KTX 予約アプリ——座席予約とモバイルチケットの表示。", "note": "鉄道" }
+      ]
+    },
+    "pitfalls": {
+      "title": "時間やお金を無駄にするミス",
+      "items": [
+        { "icon": "🗺️", "t": "Google マップに頼る", "d": "韓国では交通・車の経路を出せません。Naver Map か KakaoMap を使いましょう。" },
+        { "icon": "🚌", "t": "バスで降車タッチをしない", "d": "降車タッチを忘れると無料乗り換えを失い、割高になることも。必ず両方タッチを。" },
+        { "icon": "🚉", "t": "KTX と SRT の駅の取り違え", "d": "KTX は Seoul Station 発、SRT は Suseo 発。出発前に発車駅を確認しましょう。" },
+        { "icon": "⏰", "t": "ラッシュ時の混雑", "d": "Seoul の地下鉄は約08:00〜09:30と約18:00〜19:30に混み合います。その時間帯は大きな荷物を避けて。" },
+        { "icon": "💵", "t": "どこでも現金が使えると思い込む", "d": "バスはお釣りが出しにくく、現金非対応の車も。チャージ済みの T-money カードならすべて回避できます。" }
+      ]
+    },
+    "faq": {
+      "title": "移動・交通のよくある質問",
+      "items": [
+        { "q": "T-money カードは本当に必要？", "a": "断然いちばん楽な選択肢です——地下鉄・バス・ほとんどのタクシーがワンタッチで、乗り換えも無料。どのコンビニでも購入・チャージできます。" },
+        { "q": "どの地図アプリを使うべき？", "a": "Naver Map か KakaoMap です。データ持ち出し規制のため、Google マップは韓国内で交通・車の経路を出せません。" },
+        { "q": "乗り換えはどう機能する？", "a": "T-money なら、地下鉄とバス（またはバスとバス）の乗り換えが30分以内で無料——毎回、乗車・降車でタッチする限り。" },
+        { "q": "韓国語を話せなくてもタクシーに乗れる？", "a": "Kakao T を使いましょう。アプリで目的地を設定すると料金見積もりが表示され、運転手に経路が伝わります。カードか T-money で支払い。" },
+        { "q": "Busan へは KTX と SRT どちら？", "a": "どちらも速い（約2時間40分）。KTX は中心部の Seoul Station 発で予約が最も簡単（Korail Talk アプリ）。SRT は少し安いが Suseo Station 発で、外国カードでは予約しにくいです。" },
+        { "q": "深夜の地下鉄は安全？", "a": "はい、韓国の交通はとても安全です。ただし地下鉄は深夜0時ごろに終電——その後はタクシー（Kakao T）か深夜（N）バスを使いましょう。" }
+      ]
+    }
+  },
+  "vi": {
+    "kicker": "Di chuyển",
+    "readingTime": "Đọc trong 8 phút",
+    "tldr": [
+      "Chỉ cần MỘT thẻ T-money — dùng được cho tàu điện ngầm, xe buýt, hầu hết taxi và cửa hàng tiện lợi.",
+      "Quẹt thẻ khi lên VÀ khi xuống (kể cả trên xe buýt) để được chuyển tuyến miễn phí trong vòng 30 phút.",
+      "Dẫn đường bằng Naver Map hoặc KakaoMap — Google Maps gần như không dùng được cho giao thông ở Hàn Quốc.",
+      "Đi taxi thì dùng Kakao T (báo giá trước); đi liên thành phố thì dùng tàu cao tốc KTX/SRT."
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "Một thẻ làm được mọi thứ", "body": "Một thẻ T-money nạp tiền được giúp bạn quẹt lên tàu điện ngầm, xe buýt và hầu hết taxi — thậm chí mua đồ ăn vặt ở cửa hàng tiện lợi. Mua tại bất kỳ CU/GS25/7-Eleven nào hoặc máy bán ở nhà ga." },
+      { "icon": "🗺️", "tone": "blue", "title": "Dùng app bản đồ Hàn Quốc, đừng dùng Google", "body": "Google Maps không thể chỉ đường lái xe/giao thông công cộng bên trong Hàn Quốc. Hãy cài Naver Map hoặc KakaoMap — cả hai đều có tiếng Anh và tìm đường giao thông theo thời gian thực." },
+      { "icon": "🔁", "tone": "amber", "title": "Chuyển tuyến miễn phí — nếu bạn quẹt khi xuống", "body": "Với T-money, chuyển tàu điện ngầm↔xe buýt và xe buýt↔xe buýt được miễn phí trong vòng 30 phút. Điều cần nhớ: bạn phải quẹt thẻ khi xuống xe buýt nữa, nếu không sẽ mất ưu đãi." }
+    ],
+    "modes": {
+      "title": "Chọn phương tiện của bạn",
+      "intro": "Bốn cách di chuyển, và khi nào mỗi cách là tốt nhất. Giá vé chính xác nằm trong các ô Sự thật đã xác minh phía trên.",
+      "cards": [
+        { "icon": "🚇", "name": "Tàu điện ngầm", "tone": "blue", "best": "Lựa chọn mặc định trong thành phố", "fare": "từ ₩1,550", "d": "Nhanh, rẻ, biển chỉ dẫn đầy đủ bằng tiếng Anh và không lo kẹt xe. Cả Seoul và Busan đều có mạng lưới rộng khắp. Hầu như mọi chuyến đi trong thành phố hãy bắt đầu từ đây." },
+        { "icon": "🚌", "name": "Xe buýt thành phố", "tone": "green", "best": "Nơi tàu điện ngầm không tới", "fare": "từ ₩1,500", "d": "Các tuyến được mã hóa theo màu lấp đầy khoảng trống giữa các ga. Quẹt khi lên VÀ khi xuống. Rất hợp cho quãng ngắn và các tuyến ven sông hay lên núi ngắm cảnh." },
+        { "icon": "🚕", "name": "Taxi", "tone": "amber", "best": "Tận cửa & đêm khuya", "fare": "từ ₩4,800", "d": "Rẻ theo tiêu chuẩn toàn cầu và có ở khắp nơi. Gọi bằng Kakao T để biết giá trước và không lo rào cản giao tiếp." },
+        { "icon": "🚄", "name": "KTX / SRT", "tone": "blue", "best": "Giữa các thành phố", "fare": "Seoul–Busan ~₩59,800", "d": "Tàu cao tốc tới Busan trong khoảng 2 giờ 40 phút, cùng Gyeongju, Daejeon, Gwangju và nhiều nơi khác. Đặt chỗ trước vào cuối tuần." }
+      ]
+    },
+    "tmoney": {
+      "title": "Chiếc thẻ duy nhất: T-money, từng bước",
+      "intro": "T-money là thẻ quẹt trả trước. Đây là toàn bộ vòng đời — mua, nạp tiền, quẹt và lấy lại số dư.",
+      "steps": [
+        { "n": 1, "title": "Mua thẻ", "detail": "Tại bất kỳ cửa hàng tiện lợi nào (CU, GS25, 7-Eleven, Emart24) hoặc máy ở ga tàu điện ngầm. Chỉ cần nói 'T-money, please'. Bản thân thẻ tốn vài nghìn won và không hoàn lại được." },
+        { "n": 2, "title": "Nạp bằng tiền mặt", "detail": "Nạp tại chính các cửa hàng tiện lợi đó hoặc máy nạp tiền ở ga (nhận tiền mặt). Nạp đủ dùng cho một hai ngày; lúc nào cũng có thể nạp thêm." },
+        { "n": 3, "title": "Quẹt khi lên và khi xuống", "detail": "Chạm vào đầu đọc thẻ khi vào VÀ khi ra — ở cổng tàu điện ngầm và trên xe buýt (cả hai cửa). Quẹt khi xuống mới mở khóa chuyển tuyến miễn phí và tính đúng giá vé." },
+        { "n": 4, "title": "Hoàn lại số dư", "detail": "Lấy lại số dư còn lại tại cửa hàng tiện lợi (số nhỏ) trước khi bay về. Phí thẻ thì không được hoàn — chỉ hoàn phần tiền nạp còn lại." }
+      ],
+      "alt": "Không muốn quản lý một chiếc thẻ? Nhiều du khách nước ngoài thay vào đó dùng WOWPASS (thẻ trả trước + T-money trong một) hoặc thẻ tín dụng đã đăng ký hỗ trợ thanh toán giao thông không tiếp xúc — nhưng T-money là lựa chọn đơn giản nhất và được chấp nhận rộng rãi nhất."
+    },
+    "busColors": {
+      "title": "Giải mã màu xe buýt",
+      "intro": "Xe buýt ở Seoul được mã hóa theo màu tùy vào chức năng — màu sắc cho bạn biết loại tuyến chỉ trong nháy mắt.",
+      "items": [
+        { "hex": "#3B6FE0", "name": "Xanh dương — Trục chính", "d": "Các tuyến dài nối những quận lớn khắp thành phố." },
+        { "hex": "#2E9E5B", "name": "Xanh lá — Gom tuyến", "d": "Các tuyến ngắn trong khu dân cư đưa bạn tới ga tàu điện ngầm gần nhất." },
+        { "hex": "#E0B23B", "name": "Vàng — Vòng", "d": "Chạy vòng quanh trung tâm thành phố và khu du lịch (ví dụ quanh Namsan)." },
+        { "hex": "#D6453B", "name": "Đỏ — Tốc hành liên vùng", "d": "Xe buýt nhanh tới các thành phố vệ tinh (Bundang, Ilsan). Giá vé cao hơn." }
+      ]
+    },
+    "taxi": {
+      "title": "Taxi & Kakao T",
+      "intro": "Taxi có giá phải chăng và rất nhiều. Thứ duy nhất cần cài là Kakao T — hơn 90% taxi ở Seoul chạy trên app này, nó hiển thị giá ước tính trước khi bạn xác nhận, và loại bỏ mọi lo lắng về ngôn ngữ hay đi vòng.",
+      "types": [
+        { "name": "Thường (cỡ trung)", "fare": "từ ₩4,800", "d": "Taxi cam/bạc tiêu chuẩn. Tính theo đồng hồ; phụ phí đêm khuya tới 40% (~23:00–02:00)." },
+        { "name": "Cao cấp (mobeom)", "fare": "từ ₩7,000", "d": "Màu đen với sọc vàng. Đắt hơn, rộng rãi hơn và KHÔNG phụ phí đêm khuya — hợp cho chuyến đi muộn." },
+        { "name": "Taxi quốc tế", "fare": "từ ₩8,000", "d": "Đen hoặc cam, ghi 'International'. Tài xế nói tiếng Anh/Trung/Nhật; có thể đặt trước." }
+      ],
+      "tip": "Phần lớn taxi trả bằng T-money hoặc thẻ. Hãy chuẩn bị điểm đến bằng tiếng Hàn (app bản đồ hiển thị nó) để việc đón và trả khách suôn sẻ."
+    },
+    "intercity": {
+      "title": "Từ thành phố này sang thành phố khác: KTX vs SRT",
+      "intro": "Hai hãng tàu cao tốc phủ khắp cả nước. Trải nghiệm đi tương tự nhau — khác biệt nằm ở ga khởi hành và một vài quy định.",
+      "cols": ["", "KTX", "SRT"],
+      "rows": [
+        { "label": "Đơn vị vận hành", "vals": ["Korail (từ 2004)", "SR Corp (từ 2016)"] },
+        { "label": "Khởi hành ở Seoul từ", "vals": ["Seoul Station (trung tâm)", "Suseo Station (đông nam)"] },
+        { "label": "Mạng lưới", "vals": ["Rộng nhất — Busan, Gyeongju, Gwangju, Gangneung, Yeosu…", "Tuyến Busan, Mokpo"] },
+        { "label": "Giá", "vals": ["Tiêu chuẩn", "rẻ hơn ~10%"] },
+        { "label": "Đặt vé với", "vals": ["App Korail Talk / letskorail.com", "Trang SRT (khó thao tác với thẻ nước ngoài)"] }
+      ],
+      "note": "Hãy kiểm tra kỹ bạn khởi hành từ ga NÀO — tới Seoul Station để bắt chuyến SRT (vốn khởi hành từ Suseo) là lỗi kinh điển làm hỏng cả chuyến đi. Đặt trước cho cuối tuần và ngày lễ."
+    },
+    "apps": {
+      "title": "Cài những app này trước khi đi",
+      "items": [
+        { "icon": "🗺️", "name": "Naver Map", "d": "Bản đồ + giao thông + chỉ đường đi bộ đầy đủ nhất ở Hàn Quốc. Có tiếng Anh.", "note": "Bản đồ chính" },
+        { "icon": "🗺️", "name": "KakaoMap", "d": "Bản đồ thay thế tuyệt vời với chỉ đường giao thông rõ ràng và giờ xe buýt tới.", "note": "Bản đồ dự phòng" },
+        { "icon": "🚕", "name": "Kakao T", "d": "Gọi taxi với giá ước tính báo trước; còn có xe đạp và nhiều thứ khác.", "note": "Taxi" },
+        { "icon": "🚄", "name": "Korail Talk", "d": "App đặt vé KTX chính thức — giữ chỗ và xuất vé trên điện thoại.", "note": "Tàu hỏa" }
+      ]
+    },
+    "pitfalls": {
+      "title": "Những sai lầm khiến bạn tốn thời gian hoặc tiền bạc",
+      "items": [
+        { "icon": "🗺️", "t": "Trông cậy vào Google Maps", "d": "Nó không chỉ đường giao thông hay lái xe ở Hàn Quốc. Hãy dùng Naver Map hoặc KakaoMap." },
+        { "icon": "🚌", "t": "Không quẹt khi xuống xe buýt", "d": "Bỏ qua lần quẹt khi xuống thì bạn mất chuyến chuyển tuyến miễn phí và có thể bị tính phí cao. Luôn quẹt cả hai chiều." },
+        { "icon": "🚉", "t": "Nhầm lẫn ga KTX và SRT", "d": "KTX rời Seoul Station; SRT rời Suseo. Xác nhận ga khởi hành trước khi đi." },
+        { "icon": "⏰", "t": "Chen chúc giờ cao điểm", "d": "Tàu điện ngầm Seoul đông nghịt khoảng 08:00–09:30 và 18:00–19:30. Tránh mang hành lý lớn vào những giờ đó." },
+        { "icon": "💵", "t": "Cho rằng đâu cũng nhận tiền mặt", "d": "Xe buýt khó thối tiền và một số không nhận tiền mặt. Một thẻ T-money đã nạp giúp tránh tất cả." }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về di chuyển",
+      "items": [
+        { "q": "Tôi có thực sự cần thẻ T-money không?", "a": "Đây là lựa chọn dễ dàng nhất — một lần quẹt cho tàu điện ngầm, xe buýt và hầu hết taxi, cộng thêm chuyển tuyến miễn phí. Mua và nạp tại bất kỳ cửa hàng tiện lợi nào." },
+        { "q": "Tôi nên dùng app bản đồ nào?", "a": "Naver Map hoặc KakaoMap. Google Maps không thể cung cấp chỉ đường giao thông hay lái xe bên trong Hàn Quốc do quy định xuất dữ liệu." },
+        { "q": "Chuyển tuyến hoạt động thế nào?", "a": "Với T-money, chuyển giữa tàu điện ngầm và xe buýt (hoặc xe buýt và xe buýt) miễn phí trong vòng 30 phút — miễn là bạn quẹt khi lên và khi xuống mỗi lần." },
+        { "q": "Làm sao đi taxi khi không nói được tiếng Hàn?", "a": "Dùng Kakao T: đặt điểm đến trong app, xem giá ước tính, và tài xế nhận được lộ trình. Trả bằng thẻ hoặc T-money." },
+        { "q": "Đi Busan nên KTX hay SRT?", "a": "Cả hai đều nhanh (~2 giờ 40 phút). KTX rời Seoul Station ở trung tâm và dễ đặt nhất (app Korail Talk); SRT rẻ hơn một chút nhưng rời Suseo Station và khó đặt hơn với thẻ nước ngoài." },
+        { "q": "Tàu điện ngầm có an toàn vào đêm khuya không?", "a": "Có, giao thông ở Hàn Quốc rất an toàn. Lưu ý tàu điện ngầm ngừng chạy khoảng nửa đêm — sau đó hãy dùng taxi (Kakao T) hoặc xe buýt đêm (N)." }
+      ]
+    }
+  },
+  "th": {
+    "kicker": "การเดินทาง",
+    "readingTime": "อ่าน 8 นาที",
+    "tldr": [
+      "มีบัตร T-money ใบเดียวก็พอ — ใช้ได้ทั้งรถไฟใต้ดิน รถเมล์ แท็กซี่ส่วนใหญ่ และร้านสะดวกซื้อ",
+      "แตะบัตรทั้งตอนขึ้นและตอนลง (แม้แต่บนรถเมล์) เพื่อรับสิทธิ์เปลี่ยนสายฟรีภายใน 30 นาที",
+      "นำทางด้วย Naver Map หรือ KakaoMap — Google Maps แทบใช้นำทางระบบขนส่งในเกาหลีไม่ได้",
+      "เรียกแท็กซี่ใช้ Kakao T (บอกค่าโดยสารล่วงหน้า) เดินทางข้ามเมืองใช้รถไฟความเร็วสูง KTX/SRT"
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "บัตรใบเดียวทำได้ทุกอย่าง", "body": "บัตร T-money แบบเติมเงินใบเดียวแตะขึ้นรถไฟใต้ดิน รถเมล์ และแท็กซี่ส่วนใหญ่ได้ — แถมซื้อขนมที่ร้านสะดวกซื้อได้ด้วย ซื้อได้ที่ CU/GS25/7-Eleven ทุกสาขา หรือเครื่องขายบัตรในสถานี" },
+      { "icon": "🗺️", "tone": "blue", "title": "ใช้แอปแผนที่เกาหลี ไม่ใช่ Google", "body": "Google Maps ไม่สามารถบอกเส้นทางขับรถ/ขนส่งสาธารณะภายในเกาหลีได้ ให้ติดตั้ง Naver Map หรือ KakaoMap — ทั้งคู่มีภาษาอังกฤษและค้นหาเส้นทางขนส่งแบบเรียลไทม์" },
+      { "icon": "🔁", "tone": "amber", "title": "เปลี่ยนสายฟรี — ถ้าคุณแตะบัตรตอนลง", "body": "ด้วย T-money การเปลี่ยนระหว่างรถไฟใต้ดิน↔รถเมล์ และรถเมล์↔รถเมล์ ฟรีภายใน 30 นาที ข้อควรระวัง: บนรถเมล์ก็ต้องแตะบัตรตอนลงด้วย ไม่งั้นจะเสียสิทธิ์ส่วนลด" }
+    ],
+    "modes": {
+      "title": "เลือกรูปแบบการเดินทางของคุณ",
+      "intro": "สี่วิธีเดินทาง และแต่ละวิธีเหมาะเมื่อไหร่ ค่าโดยสารที่แม่นยำอยู่ในกล่องข้อมูลที่ตรวจสอบแล้วด้านบน",
+      "cards": [
+        { "icon": "🚇", "name": "รถไฟใต้ดิน", "tone": "blue", "best": "ตัวเลือกหลักในเมือง", "fare": "เริ่มต้น ₩1,550", "d": "เร็ว ถูก มีป้ายบอกทางภาษาอังกฤษครบ และไม่ต้องกลัวรถติด ทั้ง Seoul และ Busan มีเครือข่ายครอบคลุมกว้างขวาง การเดินทางในเมืองแทบทุกครั้งเริ่มจากตรงนี้ได้เลย" },
+        { "icon": "🚌", "name": "รถเมล์ในเมือง", "tone": "green", "best": "ที่ที่รถไฟใต้ดินไปไม่ถึง", "fare": "เริ่มต้น ₩1,500", "d": "เส้นทางที่แยกสีเติมเต็มช่องว่างระหว่างสถานี แตะบัตรทั้งขึ้นและลง เหมาะกับระยะสั้นและเส้นทางเลียบแม่น้ำหรือขึ้นเขาที่วิวสวย" },
+        { "icon": "🚕", "name": "แท็กซี่", "tone": "amber", "best": "ถึงหน้าประตู & ดึกดื่น", "fare": "เริ่มต้น ₩4,800", "d": "ถูกเมื่อเทียบกับมาตรฐานโลกและมีอยู่ทุกที่ เรียกด้วย Kakao T เพื่อรู้ค่าโดยสารล่วงหน้าและไม่ต้องกังวลเรื่องการสื่อสาร" },
+        { "icon": "🚄", "name": "KTX / SRT", "tone": "blue", "best": "ระหว่างเมือง", "fare": "Seoul–Busan ~₩59,800", "d": "รถไฟความเร็วสูงถึง Busan ในราว 2 ชั่วโมง 40 นาที และไป Gyeongju, Daejeon, Gwangju และอีกมาก ช่วงสุดสัปดาห์ควรจองที่นั่งล่วงหน้า" }
+      ]
+    },
+    "tmoney": {
+      "title": "บัตรใบเดียว: T-money ทีละขั้นตอน",
+      "intro": "T-money เป็นบัตรแตะแบบเติมเงินล่วงหน้า นี่คือขั้นตอนทั้งหมด — ซื้อ เติมเงิน แตะ และขอเงินคงเหลือคืน",
+      "steps": [
+        { "n": 1, "title": "ซื้อบัตร", "detail": "ที่ร้านสะดวกซื้อทุกแห่ง (CU, GS25, 7-Eleven, Emart24) หรือเครื่องในสถานีรถไฟใต้ดิน แค่พูดว่า 'T-money, please' ตัวบัตรราคาไม่กี่พันวอนและคืนเงินไม่ได้" },
+        { "n": 2, "title": "เติมเงินด้วยเงินสด", "detail": "เติมที่ร้านสะดวกซื้อเดิมหรือเครื่องเติมเงินในสถานี (รับเงินสด) เติมเท่าที่จะใช้ในหนึ่งถึงสองวัน เติมเพิ่มได้ตลอด" },
+        { "n": 3, "title": "แตะขึ้นและแตะลง", "detail": "แตะเครื่องอ่านบัตรทั้งตอนเข้าและออก — ที่ประตูรถไฟใต้ดินและบนรถเมล์ (ทั้งสองประตู) การแตะตอนลงคือสิ่งที่ปลดล็อกการเปลี่ยนสายฟรีและค่าโดยสารที่ถูกต้อง" },
+        { "n": 4, "title": "ขอเงินคงเหลือคืน", "detail": "ขอเงินคงเหลือคืนได้ที่ร้านสะดวกซื้อ (ยอดน้อย ๆ) ก่อนบินกลับ ค่าบัตรเองไม่คืน — คืนเฉพาะยอดเติมที่เหลือ" }
+      ],
+      "alt": "ไม่อยากดูแลบัตรใช่ไหม? นักท่องเที่ยวต่างชาติหลายคนใช้ WOWPASS แทน (บัตรเติมเงิน + T-money ในใบเดียว) หรือบัตรเครดิตที่ลงทะเบียนแล้วซึ่งรองรับการจ่ายค่าขนส่งแบบไร้สัมผัส — แต่ T-money เป็นตัวเลือกที่ง่ายที่สุดและได้รับการยอมรับกว้างขวางที่สุด"
+    },
+    "busColors": {
+      "title": "ถอดรหัสสีรถเมล์",
+      "intro": "รถเมล์ใน Seoul แยกสีตามหน้าที่ — สีบอกประเภทเส้นทางได้ในพริบตา",
+      "items": [
+        { "hex": "#3B6FE0", "name": "น้ำเงิน — สายหลัก", "d": "เส้นทางระยะยาวเชื่อมย่านสำคัญทั่วเมือง" },
+        { "hex": "#2E9E5B", "name": "เขียว — สายป้อน", "d": "เส้นทางระยะสั้นในย่านที่พาคุณไปยังสถานีรถไฟใต้ดินที่ใกล้ที่สุด" },
+        { "hex": "#E0B23B", "name": "เหลือง — สายวงกลม", "d": "วนรอบใจกลางเมืองและแหล่งท่องเที่ยว (เช่น รอบ Namsan)" },
+        { "hex": "#D6453B", "name": "แดง — ด่วนข้ามเขต", "d": "รถเมล์ด่วนไปเมืองบริวาร (Bundang, Ilsan) ค่าโดยสารสูงกว่า" }
+      ]
+    },
+    "taxi": {
+      "title": "แท็กซี่ & Kakao T",
+      "intro": "แท็กซี่ราคาย่อมเยาและมีเยอะ สิ่งเดียวที่ต้องติดตั้งคือ Kakao T — แท็กซี่ใน Seoul กว่า 90% ใช้แอปนี้ มันแสดงค่าโดยสารประเมินก่อนที่คุณจะยืนยัน และตัดความกังวลเรื่องภาษาหรือการอ้อมทางออกไป",
+      "types": [
+        { "name": "ทั่วไป (ขนาดกลาง)", "fare": "เริ่มต้น ₩4,800", "d": "แท็กซี่สีส้ม/เงินมาตรฐาน คิดตามมิเตอร์ ค่าธรรมเนียมช่วงดึกสูงถึง 40% (~23:00–02:00)" },
+        { "name": "ดีลักซ์ (mobeom)", "fare": "เริ่มต้น ₩7,000", "d": "สีดำมีแถบทอง แพงกว่า กว้างกว่า และไม่มีค่าธรรมเนียมช่วงดึก — ดีสำหรับเดินทางดึก" },
+        { "name": "แท็กซี่นานาชาติ", "fare": "เริ่มต้น ₩8,000", "d": "สีดำหรือส้ม มีป้าย 'International' คนขับพูดอังกฤษ/จีน/ญี่ปุ่น จองล่วงหน้าได้" }
+      ],
+      "tip": "แท็กซี่ส่วนใหญ่จ่ายด้วย T-money หรือบัตรได้ เตรียมจุดหมายเป็นภาษาเกาหลี (แอปแผนที่แสดงให้) เพื่อให้รับส่งราบรื่น"
+    },
+    "intercity": {
+      "title": "เมืองสู่เมือง: KTX กับ SRT",
+      "intro": "ผู้ให้บริการรถไฟความเร็วสูงสองรายครอบคลุมทั่วประเทศ การนั่งคล้ายกัน — ต่างกันที่สถานีต้นทางและกฎบางข้อ",
+      "cols": ["", "KTX", "SRT"],
+      "rows": [
+        { "label": "ผู้ให้บริการ", "vals": ["Korail (ตั้งแต่ 2004)", "SR Corp (ตั้งแต่ 2016)"] },
+        { "label": "ออกจาก Seoul ที่", "vals": ["Seoul Station (ใจกลางเมือง)", "Suseo Station (ตะวันออกเฉียงใต้)"] },
+        { "label": "เครือข่าย", "vals": ["กว้างที่สุด — Busan, Gyeongju, Gwangju, Gangneung, Yeosu…", "สาย Busan, Mokpo"] },
+        { "label": "ราคา", "vals": ["มาตรฐาน", "ถูกกว่า ~10%"] },
+        { "label": "จองด้วย", "vals": ["แอป Korail Talk / letskorail.com", "เว็บ SRT (ใช้กับบัตรต่างชาติยุ่งยาก)"] }
+      ],
+      "note": "ตรวจสอบให้ดีว่าคุณออกจากสถานีไหน — ไปที่ Seoul Station เพื่อขึ้นรถไฟ SRT (ที่ออกจาก Suseo) เป็นความผิดพลาดคลาสสิกที่ทำลายทริปได้เลย จองล่วงหน้าสำหรับสุดสัปดาห์และวันหยุด"
+    },
+    "apps": {
+      "title": "ติดตั้งแอปเหล่านี้ก่อนไป",
+      "items": [
+        { "icon": "🗺️", "name": "Naver Map", "d": "แผนที่ + ขนส่ง + นำทางเดินเท้าที่สมบูรณ์ที่สุดในเกาหลี มีภาษาอังกฤษ", "note": "แผนที่หลัก" },
+        { "icon": "🗺️", "name": "KakaoMap", "d": "แผนที่ทางเลือกที่ยอดเยี่ยม เส้นทางขนส่งชัดเจนและมีเวลารถเมล์มาถึง", "note": "แผนที่สำรอง" },
+        { "icon": "🚕", "name": "Kakao T", "d": "เรียกแท็กซี่พร้อมประเมินค่าโดยสารล่วงหน้า มีจักรยานและอื่น ๆ ด้วย", "note": "แท็กซี่" },
+        { "icon": "🚄", "name": "Korail Talk", "d": "แอปจอง KTX อย่างเป็นทางการ — จองที่นั่งและแสดงตั๋วบนมือถือ", "note": "รถไฟ" }
+      ]
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดที่ทำให้เสียเวลาหรือเสียเงิน",
+      "items": [
+        { "icon": "🗺️", "t": "พึ่ง Google Maps", "d": "มันบอกเส้นทางขนส่งหรือขับรถในเกาหลีไม่ได้ ใช้ Naver Map หรือ KakaoMap แทน" },
+        { "icon": "🚌", "t": "ไม่แตะบัตรตอนลงรถเมล์", "d": "ข้ามการแตะตอนลงแล้วคุณจะเสียสิทธิ์เปลี่ยนสายฟรีและอาจถูกคิดเงินเกิน แตะทั้งสองครั้งเสมอ" },
+        { "icon": "🚉", "t": "สับสนสถานี KTX กับ SRT", "d": "KTX ออกจาก Seoul Station; SRT ออกจาก Suseo ยืนยันสถานีต้นทางก่อนไป" },
+        { "icon": "⏰", "t": "เบียดเสียดชั่วโมงเร่งด่วน", "d": "รถไฟใต้ดิน Seoul แน่นราว 08:00–09:30 และ 18:00–19:30 เลี่ยงสัมภาระใหญ่ในช่วงเวลานั้น" },
+        { "icon": "💵", "t": "คิดว่าใช้เงินสดได้ทุกที่", "d": "รถเมล์ทอนเงินไม่สะดวกและบางคันไม่รับเงินสด บัตร T-money ที่เติมเงินไว้ช่วยเลี่ยงทั้งหมด" }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเรื่องการเดินทาง",
+      "items": [
+        { "q": "จำเป็นต้องมีบัตร T-money จริงไหม?", "a": "เป็นตัวเลือกที่ง่ายที่สุด — แตะครั้งเดียวใช้ได้ทั้งรถไฟใต้ดิน รถเมล์ และแท็กซี่ส่วนใหญ่ แถมเปลี่ยนสายฟรี ซื้อและเติมเงินได้ที่ร้านสะดวกซื้อทุกแห่ง" },
+        { "q": "ควรใช้แอปแผนที่ไหน?", "a": "Naver Map หรือ KakaoMap Google Maps ไม่สามารถให้เส้นทางขนส่งหรือขับรถภายในเกาหลีได้เนื่องจากกฎการส่งออกข้อมูล" },
+        { "q": "การเปลี่ยนสายทำงานอย่างไร?", "a": "ด้วย T-money การเปลี่ยนระหว่างรถไฟใต้ดินกับรถเมล์ (หรือรถเมล์กับรถเมล์) ฟรีภายใน 30 นาที — ตราบใดที่คุณแตะขึ้นและลงทุกครั้ง" },
+        { "q": "จะนั่งแท็กซี่อย่างไรถ้าพูดเกาหลีไม่ได้?", "a": "ใช้ Kakao T: ตั้งจุดหมายในแอป ดูค่าโดยสารประเมิน แล้วคนขับจะได้เส้นทาง จ่ายด้วยบัตรหรือ T-money" },
+        { "q": "ไป Busan ควร KTX หรือ SRT?", "a": "ทั้งคู่เร็ว (~2 ชั่วโมง 40 นาที) KTX ออกจาก Seoul Station ใจกลางเมืองและจองง่ายที่สุด (แอป Korail Talk) ส่วน SRT ถูกกว่านิดหน่อยแต่ออกจาก Suseo Station และจองด้วยบัตรต่างชาติยากกว่า" },
+        { "q": "รถไฟใต้ดินปลอดภัยไหมตอนดึก?", "a": "ปลอดภัย ระบบขนส่งของเกาหลีปลอดภัยมาก แต่โปรดทราบว่ารถไฟใต้ดินหยุดวิ่งราวเที่ยงคืน — หลังจากนั้นให้ใช้แท็กซี่ (Kakao T) หรือรถเมล์กลางคืน (N)" }
+      ]
+    }
+  },
+  "id": {
+    "kicker": "Transportasi",
+    "readingTime": "Baca 8 menit",
+    "tldr": [
+      "Cukup SATU kartu T-money — bisa untuk kereta bawah tanah, bus, sebagian besar taksi, dan minimarket.",
+      "Tap saat naik DAN turun (termasuk di bus) untuk transfer gratis dalam 30 menit.",
+      "Navigasi dengan Naver Map atau KakaoMap — Google Maps hampir tak berfungsi untuk transportasi di Korea.",
+      "Untuk taksi pakai Kakao T (tarif ditampilkan di awal); untuk antarkota pakai kereta cepat KTX/SRT."
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "Satu kartu untuk semuanya", "body": "Satu kartu T-money isi ulang membuat Anda bisa tap ke kereta bawah tanah, bus, dan sebagian besar taksi — bahkan beli camilan di minimarket. Beli di CU/GS25/7-Eleven mana pun atau mesin di stasiun." },
+      { "icon": "🗺️", "tone": "blue", "title": "Pakai aplikasi peta Korea, bukan Google", "body": "Google Maps tak bisa memberi rute berkendara/transportasi di dalam Korea. Pasang Naver Map atau KakaoMap — keduanya berbahasa Inggris dan punya rute transportasi waktu nyata." },
+      { "icon": "🔁", "tone": "amber", "title": "Transfer gratis — asal Anda tap keluar", "body": "Dengan T-money, transfer kereta bawah tanah↔bus dan bus↔bus gratis dalam 30 menit. Syaratnya: Anda juga harus tap keluar di bus, kalau tidak diskonnya hilang." }
+    ],
+    "modes": {
+      "title": "Pilih moda Anda",
+      "intro": "Empat cara bergerak, dan kapan masing-masing paling unggul. Tarif tepat ada di kotak Fakta terverifikasi di atas.",
+      "cards": [
+        { "icon": "🚇", "name": "Kereta bawah tanah", "tone": "blue", "best": "Pilihan utama di kota", "fare": "mulai ₩1,550", "d": "Cepat, murah, papan petunjuk lengkap berbahasa Inggris, dan bebas macet. Seoul dan Busan sama-sama punya jaringan luas. Untuk hampir semua perjalanan dalam kota, mulai dari sini." },
+        { "icon": "🚌", "name": "Bus kota", "tone": "green", "best": "Tempat yang tak dijangkau kereta", "fare": "mulai ₩1,500", "d": "Rute berkode warna mengisi celah antar-stasiun. Tap saat naik DAN turun. Bagus untuk jarak dekat dan rute tepi sungai atau pegunungan yang indah." },
+        { "icon": "🚕", "name": "Taksi", "tone": "amber", "best": "Sampai depan pintu & larut malam", "fare": "mulai ₩4,800", "d": "Murah menurut standar global dan ada di mana-mana. Panggil dengan Kakao T untuk tarif di awal dan tanpa repot komunikasi." },
+        { "icon": "🚄", "name": "KTX / SRT", "tone": "blue", "best": "Antarkota", "fare": "Seoul–Busan ~₩59,800", "d": "Kereta cepat mencapai Busan sekitar 2 jam 40 menit, juga Gyeongju, Daejeon, Gwangju, dan lainnya. Pesan kursi lebih dulu saat akhir pekan." }
+      ]
+    },
+    "tmoney": {
+      "title": "Kartu andalan: T-money, langkah demi langkah",
+      "intro": "T-money adalah kartu tap prabayar. Ini seluruh siklusnya — beli, isi ulang, tap, dan tarik kembali saldo.",
+      "steps": [
+        { "n": 1, "title": "Beli kartunya", "detail": "Di minimarket mana pun (CU, GS25, 7-Eleven, Emart24) atau mesin di stasiun kereta bawah tanah. Cukup bilang 'T-money, please'. Kartunya sendiri berharga beberapa ribu won dan tidak bisa direfund." },
+        { "n": 2, "title": "Isi dengan uang tunai", "detail": "Isi ulang di minimarket yang sama atau mesin isi ulang di stasiun (menerima tunai). Isi sesuai kebutuhan satu-dua hari; selalu bisa menambah lagi." },
+        { "n": 3, "title": "Tap masuk dan keluar", "detail": "Sentuhkan ke pembaca kartu saat masuk DAN keluar — di gerbang kereta bawah tanah dan di bus (kedua pintu). Tap keluar itulah yang membuka transfer gratis dan tarif yang benar." },
+        { "n": 4, "title": "Tarik kembali saldo", "detail": "Ambil sisa saldo di minimarket (jumlah kecil) sebelum terbang pulang. Biaya kartunya sendiri tidak direfund — hanya sisa isi ulang." }
+      ],
+      "alt": "Tak ingin repot mengurus kartu? Banyak wisatawan asing memilih WOWPASS (kartu prabayar + T-money jadi satu) atau kartu kredit terdaftar yang mendukung pembayaran transportasi nirsentuh — tetapi T-money adalah pilihan paling sederhana dan paling luas diterima."
+    },
+    "busColors": {
+      "title": "Membaca warna bus",
+      "intro": "Bus di Seoul diberi kode warna sesuai fungsinya — warnanya langsung memberi tahu jenis rutenya.",
+      "items": [
+        { "hex": "#3B6FE0", "name": "Biru — Utama", "d": "Rute panjang yang menghubungkan distrik-distrik besar di seluruh kota." },
+        { "hex": "#2E9E5B", "name": "Hijau — Pengumpan", "d": "Rute pendek lingkungan yang menghubungkan Anda ke stasiun kereta bawah tanah terdekat." },
+        { "hex": "#E0B23B", "name": "Kuning — Melingkar", "d": "Berputar mengelilingi pusat kota dan area wisata (mis. sekitar Namsan)." },
+        { "hex": "#D6453B", "name": "Merah — Ekspres antar-wilayah", "d": "Bus cepat ke kota satelit (Bundang, Ilsan). Tarif lebih tinggi." }
+      ]
+    },
+    "taxi": {
+      "title": "Taksi & Kakao T",
+      "intro": "Taksi terjangkau dan melimpah. Satu hal yang wajib dipasang adalah Kakao T — lebih dari 90% taksi Seoul memakainya, menampilkan perkiraan tarif sebelum Anda konfirmasi, dan menghapus kekhawatiran soal bahasa atau rute diputar-putar.",
+      "types": [
+        { "name": "Reguler (menengah)", "fare": "mulai ₩4,800", "d": "Taksi oranye/perak standar. Berargometer; biaya tambahan larut malam hingga 40% (~23:00–02:00)." },
+        { "name": "Deluxe (mobeom)", "fare": "mulai ₩7,000", "d": "Hitam dengan garis emas. Lebih mahal, lebih lega, dan TANPA biaya tambahan larut malam — cocok untuk perjalanan malam." },
+        { "name": "Taksi internasional", "fare": "mulai ₩8,000", "d": "Hitam atau oranye, bertanda 'International'. Sopir berbahasa Inggris/Mandarin/Jepang; bisa dipesan lebih dulu." }
+      ],
+      "tip": "Bayar dengan T-money atau kartu di sebagian besar taksi. Siapkan tujuan dalam huruf Korea (ditampilkan aplikasi peta) agar penjemputan dan pengantaran lancar."
+    },
+    "intercity": {
+      "title": "Antarkota: KTX vs SRT",
+      "intro": "Dua operator kereta cepat mencakup seluruh negeri. Pengalaman naiknya mirip — bedanya di stasiun keberangkatan dan beberapa aturan.",
+      "cols": ["", "KTX", "SRT"],
+      "rows": [
+        { "label": "Operator", "vals": ["Korail (sejak 2004)", "SR Corp (sejak 2016)"] },
+        { "label": "Berangkat dari Seoul lewat", "vals": ["Seoul Station (pusat)", "Suseo Station (tenggara)"] },
+        { "label": "Jaringan", "vals": ["Terluas — Busan, Gyeongju, Gwangju, Gangneung, Yeosu…", "Jalur Busan, Mokpo"] },
+        { "label": "Harga", "vals": ["Standar", "~10% lebih murah"] },
+        { "label": "Pesan lewat", "vals": ["Aplikasi Korail Talk / letskorail.com", "Situs SRT (ribet untuk kartu asing)"] }
+      ],
+      "note": "Pastikan betul dari stasiun MANA Anda berangkat — tiba di Seoul Station untuk kereta SRT (yang berangkat dari Suseo) adalah kesalahan klasik yang merusak perjalanan. Pesan jauh hari untuk akhir pekan dan hari libur."
+    },
+    "apps": {
+      "title": "Pasang aplikasi ini sebelum berangkat",
+      "items": [
+        { "icon": "🗺️", "name": "Naver Map", "d": "Peta + transportasi + rute jalan kaki terlengkap di Korea. Tersedia bahasa Inggris.", "note": "Peta utama" },
+        { "icon": "🗺️", "name": "KakaoMap", "d": "Peta alternatif yang sangat baik dengan rute transportasi jelas dan waktu kedatangan bus.", "note": "Peta cadangan" },
+        { "icon": "🚕", "name": "Kakao T", "d": "Panggil taksi dengan perkiraan tarif di awal; juga sepeda, dan lainnya.", "note": "Taksi" },
+        { "icon": "🚄", "name": "Korail Talk", "d": "Aplikasi resmi pemesanan KTX — pesan kursi dan tampilkan tiket di ponsel.", "note": "Kereta" }
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesalahan yang menguras waktu atau uang",
+      "items": [
+        { "icon": "🗺️", "t": "Mengandalkan Google Maps", "d": "Tak bisa memberi rute transportasi atau berkendara di Korea. Pakai Naver Map atau KakaoMap." },
+        { "icon": "🚌", "t": "Tidak tap keluar di bus", "d": "Melewatkan tap keluar berarti kehilangan transfer gratis dan bisa kena tarif berlebih. Selalu tap dua arah." },
+        { "icon": "🚉", "t": "Salah stasiun KTX vs SRT", "d": "KTX berangkat dari Seoul Station; SRT dari Suseo. Pastikan stasiun keberangkatan sebelum pergi." },
+        { "icon": "⏰", "t": "Berdesakan jam sibuk", "d": "Kereta bawah tanah Seoul penuh sekitar 08:00–09:30 dan 18:00–19:30. Hindari bawa koper besar di jam itu." },
+        { "icon": "💵", "t": "Mengira tunai diterima di mana saja", "d": "Bus sulit memberi kembalian dan sebagian tak menerima tunai. Kartu T-money yang terisi menghindarkan semua itu." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ transportasi",
+      "items": [
+        { "q": "Apakah saya benar-benar butuh kartu T-money?", "a": "Ini opsi termudah — sekali tap untuk kereta bawah tanah, bus, dan sebagian besar taksi, plus transfer gratis. Beli dan isi di minimarket mana pun." },
+        { "q": "Aplikasi peta mana yang sebaiknya dipakai?", "a": "Naver Map atau KakaoMap. Google Maps tak bisa memberi rute transportasi atau berkendara di dalam Korea karena aturan ekspor data." },
+        { "q": "Bagaimana transfer bekerja?", "a": "Dengan T-money, transfer antara kereta bawah tanah dan bus (atau bus dan bus) gratis dalam 30 menit — selama Anda tap masuk dan keluar setiap kali." },
+        { "q": "Bagaimana naik taksi tanpa bisa bahasa Korea?", "a": "Pakai Kakao T: atur tujuan di aplikasi, lihat perkiraan tarif, dan sopir mendapat rutenya. Bayar dengan kartu atau T-money." },
+        { "q": "Ke Busan naik KTX atau SRT?", "a": "Keduanya cepat (~2 jam 40 menit). KTX berangkat dari Seoul Station di pusat kota dan paling mudah dipesan (aplikasi Korail Talk); SRT sedikit lebih murah tetapi berangkat dari Suseo Station dan lebih sulit dipesan dengan kartu asing." },
+        { "q": "Apakah kereta bawah tanah aman larut malam?", "a": "Ya, transportasi Korea sangat aman. Perhatikan kereta bawah tanah berhenti beroperasi sekitar tengah malam — setelah itu pakai taksi (Kakao T) atau bus malam (N)." }
+      ]
+    }
+  },
+  "es": {
+    "kicker": "Cómo moverse",
+    "readingTime": "8 min de lectura",
+    "tldr": [
+      "Consigue UNA tarjeta T-money: sirve para el metro, el autobús, la mayoría de los taxis y las tiendas de conveniencia.",
+      "Pasa la tarjeta al entrar Y al salir (también en el autobús) para obtener transbordos gratis en 30 minutos.",
+      "Navega con Naver Map o KakaoMap: Google Maps apenas funciona para el transporte en Corea.",
+      "Para taxis usa Kakao T (tarifa por adelantado); entre ciudades usa el tren de alta velocidad KTX/SRT."
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "Una tarjeta lo hace todo", "body": "Una sola tarjeta recargable T-money te permite pasar al metro, a los autobuses y a la mayoría de los taxis, e incluso comprar snacks en las tiendas de conveniencia. Cómprala en cualquier CU/GS25/7-Eleven o en una máquina de la estación." },
+      { "icon": "🗺️", "tone": "blue", "title": "Usa apps de mapas coreanas, no Google", "body": "Google Maps no puede dar indicaciones de conducción ni de transporte dentro de Corea. Instala Naver Map o KakaoMap: ambas tienen inglés y rutas de transporte en tiempo real." },
+      { "icon": "🔁", "tone": "amber", "title": "Los transbordos son gratis, si marcas la salida", "body": "Con T-money, los transbordos metro↔autobús y autobús↔autobús son gratis en 30 minutos. El truco: en el autobús también debes marcar la salida, o pierdes el descuento." }
+    ],
+    "modes": {
+      "title": "Elige tu medio",
+      "intro": "Cuatro formas de moverse y cuándo gana cada una. Las tarifas exactas están en los recuadros de Datos verificados de arriba.",
+      "cards": [
+        { "icon": "🚇", "name": "Metro", "tone": "blue", "best": "La opción por defecto en las ciudades", "fare": "desde ₩1,550", "d": "Rápido, barato, totalmente señalizado en inglés y a prueba de atascos. Seoul y Busan tienen redes extensas. Empieza aquí para casi cualquier viaje urbano." },
+        { "icon": "🚌", "name": "Autobús urbano", "tone": "green", "best": "Donde no llega el metro", "fare": "desde ₩1,500", "d": "Las rutas con código de color cubren los huecos entre estaciones. Marca al entrar Y al salir. Ideal para trayectos cortos y rutas panorámicas junto al río o la montaña." },
+        { "icon": "🚕", "name": "Taxi", "tone": "amber", "best": "Puerta a puerta y de noche", "fare": "desde ₩4,800", "d": "Barato para los estándares mundiales y presente en todas partes. Pide uno con Kakao T para saber la tarifa por adelantado y sin líos de comunicación." },
+        { "icon": "🚄", "name": "KTX / SRT", "tone": "blue", "best": "Entre ciudades", "fare": "Seoul–Busan ~₩59,800", "d": "El tren de alta velocidad llega a Busan en unas 2 h 40 y a Gyeongju, Daejeon, Gwangju y más. Reserva asiento con antelación los fines de semana." }
+      ]
+    },
+    "tmoney": {
+      "title": "La tarjeta única: T-money, paso a paso",
+      "intro": "T-money es una tarjeta de prepago sin contacto. Aquí tienes todo el ciclo: comprar, recargar, pasar y recuperar el saldo.",
+      "steps": [
+        { "n": 1, "title": "Compra la tarjeta", "detail": "En cualquier tienda de conveniencia (CU, GS25, 7-Eleven, Emart24) o en una máquina de la estación de metro. Solo di 'T-money, please'. La tarjeta cuesta unos pocos miles de wones y no es reembolsable." },
+        { "n": 2, "title": "Recárgala con efectivo", "detail": "Recarga en esas mismas tiendas o en las máquinas de recarga de la estación (aceptan efectivo). Carga lo que gastes en un día o dos; siempre puedes añadir más." },
+        { "n": 3, "title": "Marca la entrada y la salida", "detail": "Toca el lector al entrar Y al salir: en los tornos del metro y en el autobús (por ambas puertas). Marcar la salida es lo que activa los transbordos gratis y la tarifa correcta." },
+        { "n": 4, "title": "Recupera el saldo", "detail": "Recupera el saldo restante en las tiendas de conveniencia (importes pequeños) antes de volar a casa. El coste de la tarjeta no se reembolsa: solo la recarga restante." }
+      ],
+      "alt": "¿Prefieres no gestionar una tarjeta? Muchos viajeros extranjeros usan en su lugar WOWPASS (tarjeta de prepago + T-money en una) o una tarjeta de crédito registrada que admita el pago de transporte sin contacto, pero T-money es la opción más sencilla y más aceptada."
+    },
+    "busColors": {
+      "title": "Descifra los colores de los autobuses",
+      "intro": "Los autobuses de Seoul tienen un código de color según su función: el color te dice el tipo de ruta de un vistazo.",
+      "items": [
+        { "hex": "#3B6FE0", "name": "Azul — Troncal", "d": "Rutas largas que enlazan los grandes distritos de la ciudad." },
+        { "hex": "#2E9E5B", "name": "Verde — Alimentador", "d": "Rutas cortas de barrio que te conectan con la estación de metro más cercana." },
+        { "hex": "#E0B23B", "name": "Amarillo — Circular", "d": "Da vueltas por el centro y las zonas turísticas (p. ej. alrededor de Namsan)." },
+        { "hex": "#D6453B", "name": "Rojo — Exprés interurbano", "d": "Autobuses rápidos a ciudades satélite (Bundang, Ilsan). Tarifa más alta." }
+      ]
+    },
+    "taxi": {
+      "title": "Taxis y Kakao T",
+      "intro": "Los taxis son asequibles y abundantes. Lo único que hay que instalar es Kakao T: más del 90% de los taxis de Seoul lo usan, muestra una tarifa estimada antes de confirmar y elimina cualquier preocupación por el idioma o los rodeos.",
+      "types": [
+        { "name": "Normal (mediano)", "fare": "desde ₩4,800", "d": "El taxi estándar naranja/plateado. Con taxímetro; recargo nocturno de hasta el 40% (~23:00–02:00)." },
+        { "name": "De lujo (mobeom)", "fare": "desde ₩7,000", "d": "Negro con una franja dorada. Más caro, más amplio y SIN recargo nocturno: bueno para viajes tarde." },
+        { "name": "Taxi internacional", "fare": "desde ₩8,000", "d": "Negro o naranja, con la marca 'International'. Los conductores hablan inglés/chino/japonés; se puede reservar." }
+      ],
+      "tip": "Paga con T-money o tarjeta en la mayoría de los taxis. Ten el destino en coreano (la app de mapas lo muestra) para que la recogida y la bajada sean fluidas."
+    },
+    "intercity": {
+      "title": "De ciudad a ciudad: KTX vs SRT",
+      "intro": "Dos operadores de alta velocidad cubren el país. El viaje es parecido; la diferencia está en la estación de salida y algunas normas.",
+      "cols": ["", "KTX", "SRT"],
+      "rows": [
+        { "label": "Operador", "vals": ["Korail (desde 2004)", "SR Corp (desde 2016)"] },
+        { "label": "Sale de Seoul desde", "vals": ["Seoul Station (centro)", "Suseo Station (sureste)"] },
+        { "label": "Red", "vals": ["La más amplia: Busan, Gyeongju, Gwangju, Gangneung, Yeosu…", "Líneas de Busan y Mokpo"] },
+        { "label": "Precio", "vals": ["Estándar", "~10% más barato"] },
+        { "label": "Reserva con", "vals": ["App Korail Talk / letskorail.com", "Web de SRT (torpe con tarjetas extranjeras)"] }
+      ],
+      "note": "Comprueba bien DESDE QUÉ estación sales: llegar a Seoul Station para un tren SRT (que sale de Suseo) es un error clásico que arruina el viaje. Reserva con antelación los fines de semana y festivos."
+    },
+    "apps": {
+      "title": "Instala estas apps antes de ir",
+      "items": [
+        { "icon": "🗺️", "name": "Naver Map", "d": "El mapa + transporte + indicaciones a pie más completo de Corea. Disponible en inglés.", "note": "Mapa principal" },
+        { "icon": "🗺️", "name": "KakaoMap", "d": "Excelente mapa alternativo con rutas de transporte claras y horarios de llegada de autobuses.", "note": "Mapa de respaldo" },
+        { "icon": "🚕", "name": "Kakao T", "d": "Pide taxis con una estimación de tarifa por adelantado; también bicis y más.", "note": "Taxis" },
+        { "icon": "🚄", "name": "Korail Talk", "d": "App oficial de reservas de KTX: reserva asientos y muestra billetes en el móvil.", "note": "Trenes" }
+      ]
+    },
+    "pitfalls": {
+      "title": "Errores que te cuestan tiempo o dinero",
+      "items": [
+        { "icon": "🗺️", "t": "Fiarte de Google Maps", "d": "No traza rutas de transporte ni de conducción en Corea. Usa Naver Map o KakaoMap." },
+        { "icon": "🚌", "t": "No marcar la salida en el autobús", "d": "Si te saltas el marcaje de salida, pierdes el transbordo gratis y te pueden cobrar de más. Marca siempre en ambos sentidos." },
+        { "icon": "🚉", "t": "Confundir las estaciones de KTX y SRT", "d": "El KTX sale de Seoul Station; el SRT, de Suseo. Confirma tu estación de salida antes de ir." },
+        { "icon": "⏰", "t": "El agobio de la hora punta", "d": "El metro de Seoul va lleno hacia las 08:00–09:30 y 18:00–19:30. Evita el equipaje grande a esas horas." },
+        { "icon": "💵", "t": "Dar por hecho que aceptan efectivo en todas partes", "d": "Los autobuses dan mal el cambio y algunos no aceptan efectivo. Una tarjeta T-money cargada te evita todo eso." }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre cómo moverse",
+      "items": [
+        { "q": "¿De verdad necesito una tarjeta T-money?", "a": "Es la opción más fácil con diferencia: un toque para metro, autobús y la mayoría de los taxis, además de transbordos gratis. Cómprala y recárgala en cualquier tienda de conveniencia." },
+        { "q": "¿Qué app de mapas debo usar?", "a": "Naver Map o KakaoMap. Google Maps no puede ofrecer indicaciones de transporte ni de conducción dentro de Corea por las normas de exportación de datos." },
+        { "q": "¿Cómo funcionan los transbordos?", "a": "Con T-money, los transbordos entre metro y autobús (o autobús y autobús) son gratis en 30 minutos, siempre que marques la entrada y la salida cada vez." },
+        { "q": "¿Cómo tomo un taxi sin hablar coreano?", "a": "Usa Kakao T: fija tu destino en la app, mira la tarifa estimada y el conductor recibe la ruta. Paga con tarjeta o T-money." },
+        { "q": "¿KTX o SRT para ir a Busan?", "a": "Ambos son rápidos (~2 h 40). El KTX sale de la céntrica Seoul Station y es el más fácil de reservar (app Korail Talk); el SRT es algo más barato, pero sale de Suseo Station y es más difícil de reservar con una tarjeta extranjera." },
+        { "q": "¿Es seguro el metro de noche?", "a": "Sí, el transporte de Corea es muy seguro. Ten en cuenta que el metro deja de circular hacia medianoche; después, usa un taxi (Kakao T) o un autobús nocturno (N)." }
+      ]
+    }
+  },
+  "ms": {
+    "kicker": "Cara Bergerak",
+    "readingTime": "Bacaan 8 minit",
+    "tldr": [
+      "Dapatkan SATU kad T-money — ia membayar untuk kereta bawah tanah, bas, kebanyakan teksi dan kedai serbaneka.",
+      "Tap semasa masuk DAN keluar (termasuk atas bas) untuk pemindahan percuma dalam 30 minit.",
+      "Navigasi dengan Naver Map atau KakaoMap — Google Maps hampir tidak berfungsi untuk pengangkutan di Korea.",
+      "Untuk teksi guna Kakao T (tambang ditunjukkan dahulu); untuk antara bandar guna kereta api laju KTX/SRT."
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "Satu kad buat semuanya", "body": "Satu kad T-money boleh tambah nilai membolehkan anda tap ke kereta bawah tanah, bas dan kebanyakan teksi — malah beli snek di kedai serbaneka. Beli di mana-mana CU/GS25/7-Eleven atau mesin di stesen." },
+      { "icon": "🗺️", "tone": "blue", "title": "Guna aplikasi peta Korea, bukan Google", "body": "Google Maps tidak boleh memberi arah pemanduan/pengangkutan di dalam Korea. Pasang Naver Map atau KakaoMap — kedua-duanya ada bahasa Inggeris dan penghalaan pengangkutan masa nyata." },
+      { "icon": "🔁", "tone": "amber", "title": "Pemindahan percuma — jika anda tap keluar", "body": "Dengan T-money, pemindahan kereta bawah tanah↔bas dan bas↔bas percuma dalam 30 minit. Perangkapnya: anda mesti tap keluar di bas juga, atau anda hilang diskaun." }
+    ],
+    "modes": {
+      "title": "Pilih mod anda",
+      "intro": "Empat cara bergerak, dan bila setiap satu paling sesuai. Tambang tepat ada dalam kotak Fakta disahkan di atas.",
+      "cards": [
+        { "icon": "🚇", "name": "Kereta bawah tanah", "tone": "blue", "best": "Pilihan utama di bandar", "fare": "dari ₩1,550", "d": "Laju, murah, papan tanda penuh dalam bahasa Inggeris, dan bebas kesesakan. Seoul dan Busan kedua-duanya mempunyai rangkaian luas. Mulakan di sini untuk hampir semua perjalanan bandar." },
+        { "icon": "🚌", "name": "Bas bandar", "tone": "green", "best": "Tempat yang tidak dicapai kereta bawah tanah", "fare": "dari ₩1,500", "d": "Laluan berkod warna mengisi ruang antara stesen. Tap semasa masuk DAN keluar. Bagus untuk jarak dekat dan laluan tepi sungai atau pergunungan yang indah." },
+        { "icon": "🚕", "name": "Teksi", "tone": "amber", "best": "Terus ke pintu & lewat malam", "fare": "dari ₩4,800", "d": "Murah mengikut piawaian global dan ada di mana-mana. Panggil satu dengan Kakao T untuk tambang di awal dan tanpa kerumitan komunikasi." },
+        { "icon": "🚄", "name": "KTX / SRT", "tone": "blue", "best": "Antara bandar", "fare": "Seoul–Busan ~₩59,800", "d": "Kereta api laju sampai Busan dalam kira-kira 2 jam 40 minit dan ke Gyeongju, Daejeon, Gwangju dan banyak lagi. Tempah tempat duduk lebih awal pada hujung minggu." }
+      ]
+    },
+    "tmoney": {
+      "title": "Kad tunggal: T-money, langkah demi langkah",
+      "intro": "T-money ialah kad tap prabayar. Inilah keseluruhan kitarannya — beli, tambah nilai, tap, dan dapatkan semula baki.",
+      "steps": [
+        { "n": 1, "title": "Beli kad", "detail": "Di mana-mana kedai serbaneka (CU, GS25, 7-Eleven, Emart24) atau mesin di stesen kereta bawah tanah. Cuma sebut 'T-money, please'. Kad itu sendiri berharga beberapa ribu won dan tidak boleh dikembalikan." },
+        { "n": 2, "title": "Tambah nilai dengan tunai", "detail": "Tambah nilai di kedai serbaneka yang sama atau mesin tambah nilai di stesen (menerima tunai). Isi mengikut keperluan sehari dua; anda sentiasa boleh tambah lagi." },
+        { "n": 3, "title": "Tap masuk dan keluar", "detail": "Sentuh pembaca kad semasa masuk DAN keluar — di pintu kawalan kereta bawah tanah dan di bas (kedua-dua pintu). Tap keluar itulah yang membuka pemindahan percuma dan tambang yang betul." },
+        { "n": 4, "title": "Dapatkan semula baki", "detail": "Dapatkan semula baki yang tinggal di kedai serbaneka (jumlah kecil) sebelum pulang. Bayaran kad itu sendiri tidak dikembalikan — hanya baki tambah nilai." }
+      ],
+      "alt": "Tidak mahu menguruskan kad? Ramai pelancong asing menggunakan WOWPASS sebaliknya (kad prabayar + T-money dalam satu) atau kad kredit berdaftar yang menyokong pembayaran pengangkutan tanpa sentuh — tetapi T-money ialah pilihan paling mudah dan paling luas diterima."
+    },
+    "busColors": {
+      "title": "Fahami warna bas",
+      "intro": "Bas di Seoul dikodkan warna mengikut fungsinya — warna memberitahu anda jenis laluan sekali pandang.",
+      "items": [
+        { "hex": "#3B6FE0", "name": "Biru — Utama", "d": "Laluan panjang yang menghubungkan daerah-daerah besar di seluruh bandar." },
+        { "hex": "#2E9E5B", "name": "Hijau — Penyuap", "d": "Laluan pendek kejiranan yang menghubungkan anda ke stesen kereta bawah tanah terdekat." },
+        { "hex": "#E0B23B", "name": "Kuning — Bulatan", "d": "Berpusing mengelilingi pusat bandar dan kawasan pelancongan (cth. sekitar Namsan)." },
+        { "hex": "#D6453B", "name": "Merah — Ekspres kawasan luas", "d": "Bas laju ke bandar satelit (Bundang, Ilsan). Tambang lebih tinggi." }
+      ]
+    },
+    "taxi": {
+      "title": "Teksi & Kakao T",
+      "intro": "Teksi berpatutan dan banyak. Satu perkara yang perlu dipasang ialah Kakao T — lebih 90% teksi Seoul menggunakannya, ia menunjukkan anggaran tambang sebelum anda sahkan, dan menghilangkan sebarang kerisauan bahasa atau pusing-pusing.",
+      "types": [
+        { "name": "Biasa (sederhana)", "fare": "dari ₩4,800", "d": "Teksi jingga/perak standard. Bermeter; caj tambahan lewat malam sehingga 40% (~23:00–02:00)." },
+        { "name": "Mewah (mobeom)", "fare": "dari ₩7,000", "d": "Hitam dengan jalur emas. Lebih mahal, lebih luas, dan TIADA caj tambahan lewat malam — sesuai untuk perjalanan lewat." },
+        { "name": "Teksi antarabangsa", "fare": "dari ₩8,000", "d": "Hitam atau jingga, bertanda 'International'. Pemandu bertutur bahasa Inggeris/Cina/Jepun; boleh ditempah awal." }
+      ],
+      "tip": "Bayar dengan T-money atau kad di kebanyakan teksi. Sediakan destinasi dalam bahasa Korea (aplikasi peta memaparkannya) supaya pengambilan dan penurunan lancar."
+    },
+    "intercity": {
+      "title": "Bandar ke bandar: KTX lwn SRT",
+      "intro": "Dua pengendali kereta api laju meliputi seluruh negara. Pengalaman menaikinya serupa — bezanya pada stesen berlepas dan beberapa peraturan.",
+      "cols": ["", "KTX", "SRT"],
+      "rows": [
+        { "label": "Pengendali", "vals": ["Korail (sejak 2004)", "SR Corp (sejak 2016)"] },
+        { "label": "Berlepas dari Seoul di", "vals": ["Seoul Station (tengah)", "Suseo Station (tenggara)"] },
+        { "label": "Rangkaian", "vals": ["Terluas — Busan, Gyeongju, Gwangju, Gangneung, Yeosu…", "Laluan Busan, Mokpo"] },
+        { "label": "Harga", "vals": ["Standard", "~10% lebih murah"] },
+        { "label": "Tempah dengan", "vals": ["Aplikasi Korail Talk / letskorail.com", "Laman SRT (janggal untuk kad asing)"] }
+      ],
+      "note": "Semak betul-betul dari stesen MANA anda berlepas — tiba di Seoul Station untuk kereta api SRT (yang berlepas dari Suseo) ialah kesilapan klasik yang merosakkan perjalanan. Tempah awal untuk hujung minggu dan cuti umum."
+    },
+    "apps": {
+      "title": "Pasang aplikasi ini sebelum pergi",
+      "items": [
+        { "icon": "🗺️", "name": "Naver Map", "d": "Peta + pengangkutan + arah berjalan kaki paling lengkap di Korea. Ada bahasa Inggeris.", "note": "Peta utama" },
+        { "icon": "🗺️", "name": "KakaoMap", "d": "Peta alternatif yang bagus dengan penghalaan pengangkutan jelas dan waktu ketibaan bas.", "note": "Peta sokongan" },
+        { "icon": "🚕", "name": "Kakao T", "d": "Panggil teksi dengan anggaran tambang di awal; juga basikal, dan banyak lagi.", "note": "Teksi" },
+        { "icon": "🚄", "name": "Korail Talk", "d": "Aplikasi tempahan KTX rasmi — tempah tempat duduk dan tunjukkan tiket mudah alih.", "note": "Kereta api" }
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesilapan yang membazir masa atau wang anda",
+      "items": [
+        { "icon": "🗺️", "t": "Bergantung pada Google Maps", "d": "Ia tidak akan menghala pengangkutan atau pemanduan di Korea. Guna Naver Map atau KakaoMap sebaliknya." },
+        { "icon": "🚌", "t": "Tidak tap keluar di bas", "d": "Langkau tap keluar dan anda hilang pemindahan percuma serta mungkin dikenakan caj berlebihan. Sentiasa tap kedua-dua arah." },
+        { "icon": "🚉", "t": "Silap stesen KTX lwn SRT", "d": "KTX berlepas dari Seoul Station; SRT dari Suseo. Sahkan stesen berlepas anda sebelum pergi." },
+        { "icon": "⏰", "t": "Kesesakan waktu puncak", "d": "Kereta bawah tanah Seoul sesak sekitar 08:00–09:30 dan 18:00–19:30. Elakkan bagasi besar pada waktu itu." },
+        { "icon": "💵", "t": "Menganggap tunai diterima di mana-mana", "d": "Bas sukar memberi baki dan sesetengahnya tidak menerima tunai. Kad T-money yang bertambah nilai mengelakkan semuanya." }
+      ]
+    },
+    "faq": {
+      "title": "Soalan lazim cara bergerak",
+      "items": [
+        { "q": "Adakah saya benar-benar perlukan kad T-money?", "a": "Ia pilihan paling mudah — satu tap untuk kereta bawah tanah, bas dan kebanyakan teksi, serta pemindahan percuma. Beli dan tambah nilai di mana-mana kedai serbaneka." },
+        { "q": "Aplikasi peta mana patut saya guna?", "a": "Naver Map atau KakaoMap. Google Maps tidak boleh memberi arah pengangkutan atau pemanduan di dalam Korea kerana peraturan eksport data." },
+        { "q": "Bagaimana pemindahan berfungsi?", "a": "Dengan T-money, pemindahan antara kereta bawah tanah dan bas (atau bas dan bas) percuma dalam 30 minit — asalkan anda tap masuk dan keluar setiap kali." },
+        { "q": "Bagaimana menaiki teksi tanpa bertutur bahasa Korea?", "a": "Guna Kakao T: tetapkan destinasi dalam aplikasi, lihat anggaran tambang, dan pemandu mendapat laluannya. Bayar dengan kad atau T-money." },
+        { "q": "KTX atau SRT ke Busan?", "a": "Kedua-duanya laju (~2 jam 40 minit). KTX berlepas dari Seoul Station di tengah bandar dan paling mudah ditempah (aplikasi Korail Talk); SRT sedikit lebih murah tetapi berlepas dari Suseo Station dan lebih sukar ditempah dengan kad asing." },
+        { "q": "Adakah kereta bawah tanah selamat lewat malam?", "a": "Ya, pengangkutan Korea sangat selamat. Ambil perhatian kereta bawah tanah berhenti beroperasi sekitar tengah malam — selepas itu, guna teksi (Kakao T) atau bas malam (N)." }
+      ]
+    }
+  },
+  "ko": {
+    "kicker": "교통·이동",
+    "readingTime": "읽는 데 8분",
+    "tldr": [
+      "T-money 카드 한 장만 있으면 됩니다 — 지하철, 버스, 대부분의 택시, 편의점에서 모두 사용할 수 있어요.",
+      "탈 때와 내릴 때 모두 태그하세요(버스에서도). 그러면 30분 이내 환승이 무료입니다.",
+      "길찾기는 Naver Map이나 KakaoMap으로 — 한국에서는 구글 지도의 대중교통 길찾기가 거의 작동하지 않습니다.",
+      "택시는 Kakao T(요금 선표시), 도시 간 이동은 KTX/SRT 고속철도를 이용하세요."
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "카드 한 장으로 모든 것", "body": "충전식 T-money 카드 한 장이면 지하철, 버스, 대부분의 택시를 태그로 이용할 수 있고, 편의점에서 간식도 살 수 있어요. CU/GS25/7-Eleven 아무 곳이나 역 발매기에서 구입하세요." },
+      { "icon": "🗺️", "tone": "blue", "title": "구글 말고 한국 지도 앱을 쓰세요", "body": "구글 지도는 한국 내에서 운전·대중교통 경로를 제공하지 못합니다. Naver Map이나 KakaoMap을 설치하세요 — 둘 다 영어를 지원하고 실시간 대중교통 경로 안내가 됩니다." },
+      { "icon": "🔁", "tone": "amber", "title": "환승은 무료 — 단, 내릴 때 태그하면", "body": "T-money를 쓰면 지하철↔버스, 버스↔버스 환승이 30분 이내 무료입니다. 함정은, 버스에서도 반드시 하차 태그를 해야 하며 그렇지 않으면 할인을 잃는다는 점이에요." }
+    ],
+    "modes": {
+      "title": "이동 수단을 고르세요",
+      "intro": "네 가지 이동 방법과 각각이 빛나는 순간. 정확한 요금은 위의 검증된 사실 상자에 있습니다.",
+      "cards": [
+        { "icon": "🚇", "name": "지하철", "tone": "blue", "best": "도시에서의 기본 선택", "fare": "₩1,550부터", "d": "빠르고, 저렴하고, 영어 안내가 완비되어 있으며 교통 체증도 없습니다. Seoul과 Busan 모두 방대한 노선망을 갖췄어요. 거의 모든 도시 이동은 여기서 시작하세요." },
+        { "icon": "🚌", "name": "시내버스", "tone": "green", "best": "지하철이 닿지 않는 곳", "fare": "₩1,500부터", "d": "색상으로 구분된 노선이 역과 역 사이의 빈틈을 메웁니다. 탈 때와 내릴 때 모두 태그하세요. 짧은 이동이나 강변·산길의 경치 좋은 노선에 딱이에요." },
+        { "icon": "🚕", "name": "택시", "tone": "amber", "best": "문 앞까지 & 심야", "fare": "₩4,800부터", "d": "세계 기준으로 저렴하고 어디에나 있습니다. Kakao T로 부르면 요금이 미리 표시되고 의사소통 부담도 없어요." },
+        { "icon": "🚄", "name": "KTX / SRT", "tone": "blue", "best": "도시 간 이동", "fare": "Seoul–Busan 약 ₩59,800", "d": "고속철도로 약 2시간 40분이면 Busan에 도착하고 Gyeongju, Daejeon, Gwangju 등에도 갑니다. 주말에는 좌석을 미리 예매하세요." }
+      ]
+    },
+    "tmoney": {
+      "title": "단 하나의 카드: T-money, 단계별 안내",
+      "intro": "T-money는 선불 태그 카드입니다. 구입부터 충전, 태그, 잔액 환급까지 전체 과정을 안내합니다.",
+      "steps": [
+        { "n": 1, "title": "카드 구입하기", "detail": "아무 편의점(CU, GS25, 7-Eleven, Emart24)이나 지하철역 발매기에서. 'T-money, please'라고만 하면 됩니다. 카드 자체는 몇천 원이며 환불되지 않아요." },
+        { "n": 2, "title": "현금으로 충전하기", "detail": "같은 편의점이나 역의 충전기에서 충전하세요(현금 가능). 하루 이틀 쓸 만큼 넣으면 되고, 언제든 더 충전할 수 있어요." },
+        { "n": 3, "title": "탈 때와 내릴 때 태그하기", "detail": "들어갈 때와 나올 때 모두 카드 리더기에 태그하세요 — 지하철 개찰구와 버스(앞뒤 문 모두)에서요. 하차 태그를 해야 무료 환승과 올바른 요금이 적용됩니다." },
+        { "n": 4, "title": "잔액 환급받기", "detail": "귀국 전 편의점에서 남은 잔액(소액)을 돌려받으세요. 카드 요금 자체는 환불되지 않고, 남은 충전 금액만 돌려받습니다." }
+      ],
+      "alt": "카드를 관리하기 번거롭다면? 많은 외국인 여행자는 대신 WOWPASS(선불카드 + T-money 일체형)나 비접촉 교통 결제를 지원하는 등록된 신용카드를 사용합니다 — 하지만 T-money가 가장 간단하고 가장 널리 쓰이는 선택지예요."
+    },
+    "busColors": {
+      "title": "버스 색깔 해독하기",
+      "intro": "Seoul의 버스는 하는 일에 따라 색으로 구분됩니다 — 색만 봐도 노선 종류를 한눈에 알 수 있어요.",
+      "items": [
+        { "hex": "#3B6FE0", "name": "파랑 — 간선", "d": "도시 전역의 주요 지역을 잇는 장거리 노선." },
+        { "hex": "#2E9E5B", "name": "초록 — 지선", "d": "가장 가까운 지하철역까지 이어주는 짧은 동네 노선." },
+        { "hex": "#E0B23B", "name": "노랑 — 순환", "d": "도심과 관광지 주변을 도는 노선(예: Namsan 일대)." },
+        { "hex": "#D6453B", "name": "빨강 — 광역 급행", "d": "위성도시(Bundang, Ilsan)로 가는 빠른 버스. 요금이 더 높습니다." }
+      ]
+    },
+    "taxi": {
+      "title": "택시 & Kakao T",
+      "intro": "택시는 요금이 합리적이고 수가 많습니다. 꼭 설치할 하나는 Kakao T예요 — Seoul 택시의 90% 이상이 이 앱을 쓰고, 확정 전에 예상 요금을 보여주며, 언어나 돌아가기 걱정을 없애줍니다.",
+      "types": [
+        { "name": "일반(중형)", "fare": "₩4,800부터", "d": "표준적인 주황/은색 택시. 미터 요금제이며, 심야 할증은 최대 40%(약 23:00–02:00)입니다." },
+        { "name": "모범(mobeom)", "fare": "₩7,000부터", "d": "금색 줄무늬가 있는 검은색 차량. 더 비싸고 넓으며 심야 할증이 없어요 — 늦은 이동에 좋습니다." },
+        { "name": "인터내셔널 택시", "fare": "₩8,000부터", "d": "검은색 또는 주황색에 'International' 표시. 기사가 영어/중국어/일본어를 하며 사전 예약도 가능합니다." }
+      ],
+      "tip": "대부분의 택시에서 T-money나 카드로 결제할 수 있어요. 목적지를 한국어로 준비해 두면(지도 앱에 표시됩니다) 승하차가 매끄럽습니다."
+    },
+    "intercity": {
+      "title": "도시에서 도시로: KTX vs SRT",
+      "intro": "두 고속철도 운영사가 전국을 아우릅니다. 타는 경험은 비슷하고 — 차이는 출발역과 몇 가지 규칙이에요.",
+      "cols": ["", "KTX", "SRT"],
+      "rows": [
+        { "label": "운영사", "vals": ["Korail (2004년부터)", "SR Corp (2016년부터)"] },
+        { "label": "Seoul 출발역", "vals": ["Seoul Station (도심)", "Suseo Station (남동부)"] },
+        { "label": "노선망", "vals": ["가장 넓음 — Busan, Gyeongju, Gwangju, Gangneung, Yeosu…", "Busan, Mokpo 노선"] },
+        { "label": "가격", "vals": ["표준", "약 10% 저렴"] },
+        { "label": "예매 방법", "vals": ["Korail Talk 앱 / letskorail.com", "SRT 사이트(외국 카드로는 번거로움)"] }
+      ],
+      "note": "어느 역에서 출발하는지 꼭 확인하세요 — SRT 열차(Suseo 출발)를 타려고 Seoul Station으로 가는 것은 여행을 망치는 대표적인 실수입니다. 주말과 공휴일에는 미리 예매하세요."
+    },
+    "apps": {
+      "title": "떠나기 전 이 앱들을 설치하세요",
+      "items": [
+        { "icon": "🗺️", "name": "Naver Map", "d": "한국에서 가장 완성도 높은 지도 + 대중교통 + 도보 길안내. 영어 지원.", "note": "메인 지도" },
+        { "icon": "🗺️", "name": "KakaoMap", "d": "대중교통 경로가 명확하고 버스 도착 시간까지 보여주는 훌륭한 대체 지도.", "note": "보조 지도" },
+        { "icon": "🚕", "name": "Kakao T", "d": "예상 요금을 미리 보여주며 택시를 부를 수 있고, 자전거 등도 지원.", "note": "택시" },
+        { "icon": "🚄", "name": "Korail Talk", "d": "공식 KTX 예매 앱 — 좌석을 예약하고 모바일 승차권을 제시하세요.", "note": "기차" }
+      ]
+    },
+    "pitfalls": {
+      "title": "시간이나 돈을 낭비하게 하는 실수",
+      "items": [
+        { "icon": "🗺️", "t": "구글 지도에 의존하기", "d": "한국에서는 대중교통·운전 경로 안내가 되지 않습니다. 대신 Naver Map이나 KakaoMap을 쓰세요." },
+        { "icon": "🚌", "t": "버스에서 하차 태그 안 하기", "d": "하차 태그를 건너뛰면 무료 환승을 잃고 요금이 더 부과될 수 있어요. 항상 승하차 모두 태그하세요." },
+        { "icon": "🚉", "t": "KTX와 SRT 역 혼동", "d": "KTX는 Seoul Station에서, SRT는 Suseo에서 출발합니다. 떠나기 전에 출발역을 확인하세요." },
+        { "icon": "⏰", "t": "출퇴근 시간대 혼잡", "d": "Seoul 지하철은 약 08:00–09:30과 18:00–19:30에 매우 붐빕니다. 그 시간대에는 큰 짐을 피하세요." },
+        { "icon": "💵", "t": "어디서나 현금이 될 거라 넘겨짚기", "d": "버스는 거스름돈을 잘 못 주고 일부는 현금을 받지 않아요. 충전된 T-money 카드 한 장이면 이 모든 걸 피할 수 있습니다." }
+      ]
+    },
+    "faq": {
+      "title": "이동 관련 자주 묻는 질문",
+      "items": [
+        { "q": "T-money 카드가 정말 필요한가요?", "a": "단연 가장 편한 선택입니다 — 지하철, 버스, 대부분의 택시를 한 번의 태그로 이용하고 환승도 무료예요. 아무 편의점에서 구입하고 충전하세요." },
+        { "q": "어떤 지도 앱을 써야 하나요?", "a": "Naver Map이나 KakaoMap이요. 데이터 반출 규정 때문에 구글 지도는 한국 내에서 대중교통·운전 경로를 제공하지 못합니다." },
+        { "q": "환승은 어떻게 되나요?", "a": "T-money를 쓰면 지하철과 버스(또는 버스와 버스) 간 환승이 30분 이내 무료입니다 — 매번 승하차 태그를 하는 한요." },
+        { "q": "한국어를 못해도 택시를 탈 수 있나요?", "a": "Kakao T를 쓰세요: 앱에서 목적지를 설정하면 예상 요금이 표시되고 기사에게 경로가 전달됩니다. 카드나 T-money로 결제하세요." },
+        { "q": "Busan에 갈 때 KTX와 SRT 중 뭐가 좋나요?", "a": "둘 다 빠릅니다(약 2시간 40분). KTX는 도심의 Seoul Station에서 출발하고 예매가 가장 쉬워요(Korail Talk 앱). SRT는 조금 더 저렴하지만 Suseo Station에서 출발하고 외국 카드로는 예매가 더 어렵습니다." },
+        { "q": "심야에 지하철이 안전한가요?", "a": "네, 한국의 대중교통은 매우 안전합니다. 다만 지하철은 자정 무렵 운행을 멈추니 — 그 이후에는 택시(Kakao T)나 심야(N) 버스를 이용하세요." }
+      ]
+    }
+  }
+}

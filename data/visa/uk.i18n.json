@@ -339,5 +339,277 @@
       ]
     },
     "ui": { "visa": "Visado", "stay": "Estancia", "entry": "Entrada", "where": "Dónde", "official": "Fuentes oficiales", "required": "Obligatorio", "conditional": "Si aplica", "recommended": "Recomendado", "confirm": "Las tasas/normas cambian — confírmalo en la fuente", "source": "Fuente", "updated": "Actualizado", "tldr": "En resumen" }
+  },
+  "vi": {
+    "kicker": "Hướng dẫn nhập cảnh · Vương quốc Anh → Hàn Quốc",
+    "readingTime": "Đọc trong 5 phút",
+    "h1": "Hướng dẫn nhập cảnh Hàn Quốc từ Vương quốc Anh",
+    "metaTitle": "Từ Vương quốc Anh đến Hàn Quốc: Yêu cầu visa & hướng dẫn nhập cảnh (2026) — Korea Trip Hub",
+    "metaDesc": "Du khách từ Vương quốc Anh có cần visa đến Hàn Quốc không? Không — miễn visa, với K-ETA được miễn đến hết năm 2026. Hãy nộp e-Arrival Card miễn phí và làm theo các bước nhập cảnh. Lưu trú: Tối đa 90 ngày.",
+    "verdict": {
+      "headline": "Không cần visa du lịch — hộ chiếu Vương quốc Anh được miễn visa.",
+      "sub": "Đối với du lịch ngắn hạn, bạn không phải xin bất kỳ loại visa nào. Hiện tại K-ETA cũng được miễn, nên việc chính cần làm là nộp e-Arrival Card miễn phí trước khi hạ cánh.",
+      "type": "Miễn visa (K-ETA hiện được miễn)",
+      "stay": "Tối đa 90 ngày",
+      "entry": "Du lịch ngắn hạn"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "Không cần visa, và K-ETA được miễn đến hết năm 2026", "body": "Vương quốc Anh là một trong 22 quốc gia được miễn K-ETA đến 31 Dec 2026, nên bạn không phải xin visa lẫn K-ETA cho du lịch ngắn hạn. Việc miễn dự kiến sẽ kết thúc và K-ETA trở lại vào 1 Jan 2027 — hãy xác nhận lại trước khi đi." },
+      { "icon": "📝", "tone": "blue", "title": "Bạn vẫn cần e-Arrival Card", "body": "Hầu như mọi du khách đều nộp e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 giờ trước khi đến. (Người có K-ETA hợp lệ được miễn, nhưng khi K-ETA đang được miễn thì bạn nên nộp e-Arrival Card.)" }
+    ],
+    "tldr": [
+      "Hiện tại không cần visa du lịch lẫn K-ETA — Vương quốc Anh được miễn visa và miễn K-ETA đến hết năm 2026.",
+      "Hãy nộp e-Arrival Card miễn phí tại e-arrivalcard.go.kr trong vòng 72 giờ trước khi đến.",
+      "Mang theo hộ chiếu còn hiệu lực trong suốt thời gian lưu trú cùng bằng chứng về chuyến bay khứ hồi/tiếp theo.",
+      "Bạn có thể lưu trú tối đa 90 ngày."
+    ],
+    "steps": {
+      "title": "Các bước nhập cảnh của bạn",
+      "items": [
+        { "n": 1, "title": "Xác nhận bạn được miễn visa", "detail": "Hộ chiếu Vương quốc Anh nhập cảnh Hàn Quốc miễn visa cho du lịch ngắn hạn, và K-ETA được miễn đến hết năm 2026 — không có gì phải xin." },
+        { "n": 2, "title": "Nộp e-Arrival Card", "detail": "Trong vòng 72 giờ trước khi đến, hãy điền miễn phí tại e-arrivalcard.go.kr và lưu mã QR/xác nhận.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "Kiểm tra hộ chiếu & vé đi tiếp", "detail": "Đảm bảo hộ chiếu còn hiệu lực trong suốt thời gian lưu trú, và chuẩn bị vé khứ hồi/đi tiếp cùng địa chỉ nơi ở đầu tiên." },
+        { "n": 4, "title": "Tại cửa nhập cảnh", "detail": "Xuất trình hộ chiếu và xác nhận e-Arrival; có thể bị lấy dấu vân tay và chụp ảnh. Giữ đúng mục đích du lịch — không được làm việc có lương khi nhập cảnh miễn visa." }
+      ]
+    },
+    "documents": {
+      "title": "Những gì cần chuẩn bị sẵn",
+      "intro": "Bạn không nộp đơn xin visa — nhưng hãy chuẩn bị sẵn những thứ này để nhập cảnh suôn sẻ.",
+      "cols": ["Hạng mục", "Nơi lấy", "Ghi chú"],
+      "rows": [
+        { "doc": "Hộ chiếu", "req": "required", "where": "Bạn đã có", "how": "Còn hiệu lực trong suốt thời gian lưu trú." },
+        { "doc": "Xác nhận e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Miễn phí; nộp trong vòng 72 giờ trước khi đến và lưu mã QR.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "Vé khứ hồi/đi tiếp", "req": "required", "where": "Hãng bay/đại lý du lịch", "how": "Bằng chứng bạn sẽ rời đi trong thời gian lưu trú được phép." },
+        { "doc": "Địa chỉ nơi ở", "req": "required", "where": "Trang đặt phòng", "how": "Địa chỉ khách sạn/nơi ở đầu tiên của bạn (được hỏi trên e-Arrival Card)." },
+        { "doc": "Kinh phí cho chuyến đi", "req": "recommended", "where": "Bạn", "how": "Thẻ được chấp nhận rộng rãi; hãy mang theo ít tiền mặt cho chợ và các cửa hàng nhỏ." }
+      ],
+      "legend": { "required": "Bắt buộc", "conditional": "Nếu áp dụng", "recommended": "Khuyến nghị" }
+    },
+    "pitfalls": {
+      "title": "Những lỗi nhập cảnh thường gặp",
+      "items": [
+        { "icon": "🕸️", "t": "Trả 'phí visa/K-ETA' mà bạn không nợ", "d": "Hiện tại bạn không cần visa lẫn K-ETA. Các trang web lừa đảo vẫn thu phí chúng — hãy bỏ qua." },
+        { "icon": "📝", "t": "Bỏ qua e-Arrival Card", "d": "Hầu hết du khách phải nộp (miễn phí). Hãy làm trong vòng 72 giờ trước khi đến." },
+        { "icon": "⏰", "t": "Nộp e-Arrival Card quá sớm", "d": "Nó hết hạn 72 giờ sau khi nộp — hãy nộp gần sát chuyến bay, không phải trước vài tuần." },
+        { "icon": "🗓️", "t": "Lưu trú quá thời hạn cho phép", "d": "Ở lại quá 90 ngày có nguy cơ bị phạt tiền và cấm nhập cảnh trong tương lai." },
+        { "icon": "💼", "t": "Làm việc khi nhập cảnh du lịch", "d": "Nhập cảnh miễn visa chỉ dành cho du lịch/thăm viếng — làm việc có lương cần visa phù hợp." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ nhập cảnh Vương quốc Anh → Hàn Quốc",
+      "items": [
+        { "q": "Du khách từ Vương quốc Anh có cần visa đến Hàn Quốc không?", "a": "Không — đối với du lịch ngắn hạn, người mang hộ chiếu Vương quốc Anh nhập cảnh Hàn Quốc miễn visa. Bạn không phải xin bất kỳ visa du lịch nào." },
+        { "q": "Tôi có cần K-ETA không?", "a": "Hiện tại thì không. Vương quốc Anh nằm trong số 22 quốc gia được miễn K-ETA đến 31 Dec 2026. Yêu cầu này dự kiến trở lại vào 1 Jan 2027 trừ khi được gia hạn." },
+        { "q": "Tôi có vẫn cần e-Arrival Card không?", "a": "Có — hầu hết du khách nộp e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 giờ trước khi đến." },
+        { "q": "Tôi có thể ở lại bao lâu?", "a": "Tối đa 90 ngày, cho mục đích du lịch." },
+        { "q": "Tôi có thể làm việc hay học tập khi nhập cảnh theo diện này không?", "a": "Không. Nhập cảnh miễn visa chỉ dành cho du lịch và thăm viếng ngắn hạn; làm việc hay học tập cần visa phù hợp." },
+        { "q": "Khi nào K-ETA quay trở lại?", "a": "Việc miễn dự kiến kết thúc vào 31 Dec 2026, K-ETA hoạt động lại từ 1 Jan 2027 trừ khi được gia hạn — hãy xác nhận lại gần ngày đi của bạn." }
+      ]
+    },
+    "ui": { "visa": "Visa", "stay": "Lưu trú", "entry": "Nhập cảnh", "where": "Nơi lấy", "official": "Nguồn chính thức", "required": "Bắt buộc", "conditional": "Nếu áp dụng", "recommended": "Khuyến nghị", "confirm": "Phí/quy định có thể thay đổi — hãy xác nhận tại nguồn chính thức", "source": "Nguồn", "updated": "Cập nhật", "tldr": "Tóm tắt" }
+  },
+  "th": {
+    "kicker": "คู่มือการเข้าเมือง · สหราชอาณาจักร → เกาหลี",
+    "readingTime": "อ่าน 5 นาที",
+    "h1": "คู่มือการเข้าเกาหลีจากสหราชอาณาจักร",
+    "metaTitle": "จากสหราชอาณาจักรสู่เกาหลี: ข้อกำหนดวีซ่าและคู่มือการเข้าเมือง (2026) — Korea Trip Hub",
+    "metaDesc": "นักเดินทางจากสหราชอาณาจักรต้องมีวีซ่าเข้าเกาหลีใต้หรือไม่? ไม่ต้อง — เข้าได้โดยไม่ต้องมีวีซ่า และได้รับการยกเว้น K-ETA จนถึงปี 2026 กรอก e-Arrival Card ฟรีและทำตามขั้นตอนการเข้าเมือง พำนัก: สูงสุด 90 วัน",
+    "verdict": {
+      "headline": "ไม่ต้องมีวีซ่าท่องเที่ยว — หนังสือเดินทางสหราชอาณาจักรได้รับการยกเว้นวีซ่า",
+      "sub": "สำหรับการท่องเที่ยวระยะสั้น คุณไม่ต้องยื่นขอวีซ่าใด ๆ ขณะนี้ K-ETA ก็ได้รับการยกเว้นด้วย ดังนั้นสิ่งสำคัญที่ต้องทำคือกรอก e-Arrival Card ฟรีก่อนเครื่องลงจอด",
+      "type": "ยกเว้นวีซ่า (ขณะนี้ยกเว้น K-ETA)",
+      "stay": "สูงสุด 90 วัน",
+      "entry": "การท่องเที่ยวระยะสั้น"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "ไม่ต้องมีวีซ่า และยกเว้น K-ETA จนถึงปี 2026", "body": "สหราชอาณาจักรเป็นหนึ่งใน 22 ประเทศที่ได้รับการยกเว้น K-ETA จนถึง 31 Dec 2026 ดังนั้นสำหรับการท่องเที่ยวระยะสั้นคุณจึงไม่ต้องยื่นขอทั้งวีซ่าและ K-ETA การยกเว้นนี้มีกำหนดสิ้นสุดและ K-ETA จะกลับมาในวันที่ 1 Jan 2027 — โปรดยืนยันอีกครั้งก่อนเดินทาง" },
+      { "icon": "📝", "tone": "blue", "title": "คุณยังต้องมี e-Arrival Card", "body": "ผู้มาเยือนเกือบทุกคนกรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง (ผู้ถือ K-ETA ที่ยังใช้ได้จะได้รับการยกเว้น แต่เมื่อ K-ETA ได้รับการยกเว้น คุณควรกรอก e-Arrival Card)" }
+    ],
+    "tldr": [
+      "ขณะนี้ไม่ต้องมีทั้งวีซ่าท่องเที่ยวและ K-ETA — สหราชอาณาจักรได้รับการยกเว้นวีซ่าและยกเว้น K-ETA จนถึงปี 2026",
+      "โปรดกรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง",
+      "นำหนังสือเดินทางที่มีอายุครอบคลุมระยะเวลาพำนักของคุณ พร้อมหลักฐานการเดินทางขากลับ/ต่อไป",
+      "คุณสามารถพำนักได้สูงสุด 90 วัน"
+    ],
+    "steps": {
+      "title": "ขั้นตอนการเข้าเมืองของคุณ",
+      "items": [
+        { "n": 1, "title": "ยืนยันว่าคุณได้รับการยกเว้นวีซ่า", "detail": "หนังสือเดินทางสหราชอาณาจักรเข้าเกาหลีได้โดยไม่ต้องมีวีซ่าสำหรับการท่องเที่ยวระยะสั้น และ K-ETA ได้รับการยกเว้นจนถึงปี 2026 — ไม่มีอะไรต้องยื่นขอ" },
+        { "n": 2, "title": "กรอก e-Arrival Card", "detail": "ภายใน 72 ชั่วโมงก่อนเดินทางถึง กรอกฟรีที่ e-arrivalcard.go.kr และบันทึก QR/ใบยืนยัน", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "ตรวจสอบหนังสือเดินทางและตั๋วเดินทางต่อ", "detail": "ตรวจสอบให้แน่ใจว่าหนังสือเดินทางของคุณมีอายุครอบคลุมระยะเวลาพำนัก และเตรียมตั๋วขากลับ/ต่อไป พร้อมที่อยู่ที่พักแห่งแรกของคุณ" },
+        { "n": 4, "title": "ที่ด่านตรวจคนเข้าเมือง", "detail": "แสดงหนังสือเดินทางและใบยืนยัน e-Arrival ของคุณ อาจมีการเก็บลายนิ้วมือและถ่ายรูป รักษาวัตถุประสงค์เพื่อการท่องเที่ยว — ห้ามทำงานที่ได้รับค่าจ้างเมื่อเข้าเมืองแบบยกเว้นวีซ่า" }
+      ]
+    },
+    "documents": {
+      "title": "สิ่งที่ต้องเตรียมให้พร้อม",
+      "intro": "คุณไม่ต้องยื่นคำร้องขอวีซ่า — แต่เตรียมสิ่งเหล่านี้ให้พร้อมเพื่อการเข้าเมืองที่ราบรื่น",
+      "cols": ["รายการ", "แหล่งที่ได้มา", "หมายเหตุ"],
+      "rows": [
+        { "doc": "หนังสือเดินทาง", "req": "required", "where": "คุณมีอยู่แล้ว", "how": "มีอายุครอบคลุมตลอดระยะเวลาพำนักของคุณ" },
+        { "doc": "ใบยืนยัน e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "ฟรี กรอกภายใน 72 ชั่วโมงก่อนเดินทางถึงและบันทึก QR", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "ตั๋วขากลับ/ต่อไป", "req": "required", "where": "สายการบิน/ตัวแทนท่องเที่ยว", "how": "หลักฐานว่าคุณจะเดินทางออกภายในระยะเวลาพำนักที่ได้รับอนุญาต" },
+        { "doc": "ที่อยู่ที่พัก", "req": "required", "where": "เว็บไซต์จองที่พัก", "how": "ที่อยู่โรงแรม/ที่พักแห่งแรกของคุณ (ถูกถามใน e-Arrival Card)" },
+        { "doc": "เงินสำหรับการเดินทาง", "req": "recommended", "where": "คุณ", "how": "บัตรได้รับการยอมรับอย่างกว้างขวาง พกเงินสดไว้บ้างสำหรับตลาดและร้านค้าเล็ก ๆ" }
+      ],
+      "legend": { "required": "จำเป็น", "conditional": "หากเกี่ยวข้อง", "recommended": "แนะนำ" }
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดในการเข้าเมืองที่พบบ่อย",
+      "items": [
+        { "icon": "🕸️", "t": "จ่าย 'ค่าธรรมเนียมวีซ่า/K-ETA' ที่คุณไม่ต้องจ่าย", "d": "ขณะนี้คุณไม่ต้องมีทั้งวีซ่าและ K-ETA เว็บไซต์หลอกลวงยังคงเรียกเก็บค่าธรรมเนียมเหล่านี้ — โปรดเพิกเฉย" },
+        { "icon": "📝", "t": "ข้าม e-Arrival Card", "d": "ผู้มาเยือนส่วนใหญ่ต้องกรอก (ฟรี) ทำภายใน 72 ชั่วโมงก่อนเดินทางถึง" },
+        { "icon": "⏰", "t": "กรอก e-Arrival Card เร็วเกินไป", "d": "มันหมดอายุ 72 ชั่วโมงหลังจากส่ง — กรอกใกล้ ๆ เที่ยวบินของคุณ ไม่ใช่ล่วงหน้าหลายสัปดาห์" },
+        { "icon": "🗓️", "t": "พำนักเกินกำหนดที่ได้รับอนุญาต", "d": "การพำนักเกิน 90 วันเสี่ยงต่อการถูกปรับและถูกห้ามเข้าเมืองในอนาคต" },
+        { "icon": "💼", "t": "ทำงานด้วยการเข้าเมืองแบบท่องเที่ยว", "d": "การเข้าเมืองแบบยกเว้นวีซ่ามีไว้สำหรับการท่องเที่ยว/เยี่ยมเยียนเท่านั้น — งานที่ได้รับค่าจ้างต้องมีวีซ่าที่เหมาะสม" }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเกี่ยวกับการเข้าเมือง สหราชอาณาจักร → เกาหลี",
+      "items": [
+        { "q": "นักเดินทางจากสหราชอาณาจักรต้องมีวีซ่าเข้าเกาหลีหรือไม่?", "a": "ไม่ต้อง — สำหรับการท่องเที่ยวระยะสั้น ผู้ถือหนังสือเดินทางสหราชอาณาจักรเข้าเกาหลีได้โดยไม่ต้องมีวีซ่า คุณไม่ต้องยื่นขอวีซ่าท่องเที่ยวใด ๆ" },
+        { "q": "ฉันต้องมี K-ETA หรือไม่?", "a": "ขณะนี้ไม่ต้อง สหราชอาณาจักรอยู่ในกลุ่ม 22 ประเทศที่ได้รับการยกเว้น K-ETA จนถึง 31 Dec 2026 ข้อกำหนดนี้มีกำหนดกลับมาในวันที่ 1 Jan 2027 เว้นแต่จะมีการขยายเวลา" },
+        { "q": "ฉันยังต้องมี e-Arrival Card หรือไม่?", "a": "ต้องมี — ผู้มาเยือนส่วนใหญ่กรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง" },
+        { "q": "ฉันพำนักได้นานเท่าใด?", "a": "สูงสุด 90 วัน สำหรับการท่องเที่ยว" },
+        { "q": "ฉันทำงานหรือเรียนด้วยการเข้าเมืองนี้ได้หรือไม่?", "a": "ไม่ได้ การเข้าเมืองแบบยกเว้นวีซ่ามีไว้สำหรับการท่องเที่ยวและการเยี่ยมเยียนระยะสั้นเท่านั้น การทำงานหรือการเรียนต้องมีวีซ่าที่เหมาะสม" },
+        { "q": "K-ETA จะกลับมาเมื่อใด?", "a": "การยกเว้นมีกำหนดสิ้นสุดในวันที่ 31 Dec 2026 และ K-ETA จะกลับมาใช้อีกครั้งในวันที่ 1 Jan 2027 เว้นแต่จะมีการขยายเวลา — โปรดยืนยันอีกครั้งใกล้วันเดินทางของคุณ" }
+      ]
+    },
+    "ui": { "visa": "วีซ่า", "stay": "พำนัก", "entry": "เข้าเมือง", "where": "แหล่งที่ได้มา", "official": "แหล่งข้อมูลทางการ", "required": "จำเป็น", "conditional": "หากเกี่ยวข้อง", "recommended": "แนะนำ", "confirm": "ค่าธรรมเนียม/กฎอาจเปลี่ยนแปลง — โปรดยืนยันจากแหล่งข้อมูลทางการ", "source": "แหล่งที่มา", "updated": "อัปเดตเมื่อ", "tldr": "สรุป" }
+  },
+  "id": {
+    "kicker": "Panduan masuk · Inggris → Korea",
+    "readingTime": "Baca 5 menit",
+    "h1": "Panduan Masuk Korea dari Inggris",
+    "metaTitle": "Dari Inggris ke Korea: Persyaratan Visa & Panduan Masuk (2026) — Korea Trip Hub",
+    "metaDesc": "Apakah pelancong dari Inggris memerlukan visa untuk Korea Selatan? Tidak — bebas visa, dengan K-ETA dibebaskan hingga 2026. Isi e-Arrival Card gratis dan ikuti langkah-langkah masuk. Tinggal: Hingga 90 hari.",
+    "verdict": {
+      "headline": "Tidak perlu visa turis — paspor Inggris bebas visa.",
+      "sub": "Untuk wisata jangka pendek, Anda tidak mengajukan visa apa pun. Saat ini K-ETA juga dibebaskan, jadi hal utama yang perlu dilakukan adalah mengisi e-Arrival Card gratis sebelum mendarat.",
+      "type": "Bebas visa (K-ETA saat ini dibebaskan)",
+      "stay": "Hingga 90 hari",
+      "entry": "Wisata jangka pendek"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "Tanpa visa, dan K-ETA dibebaskan hingga 2026", "body": "Inggris adalah salah satu dari 22 negara yang dibebaskan dari K-ETA hingga 31 Dec 2026, jadi Anda tidak mengajukan visa maupun K-ETA untuk wisata jangka pendek. Pembebasan ini dijadwalkan berakhir dan K-ETA kembali berlaku pada 1 Jan 2027 — konfirmasi ulang sebelum bepergian." },
+      { "icon": "📝", "tone": "blue", "title": "Anda tetap memerlukan e-Arrival Card", "body": "Hampir setiap pengunjung mengisi e-Arrival Card gratis di e-arrivalcard.go.kr, dalam 72 jam sebelum kedatangan. (Pemegang K-ETA yang masih berlaku dibebaskan, tetapi karena K-ETA dibebaskan, Anda sebaiknya mengisi e-Arrival Card.)" }
+    ],
+    "tldr": [
+      "Saat ini tidak perlu visa turis maupun K-ETA — Inggris bebas visa dan bebas K-ETA hingga 2026.",
+      "Isi e-Arrival Card gratis di e-arrivalcard.go.kr dalam 72 jam sebelum kedatangan.",
+      "Bawa paspor yang berlaku selama masa tinggal Anda serta bukti perjalanan pulang/lanjutan.",
+      "Anda dapat tinggal hingga 90 hari."
+    ],
+    "steps": {
+      "title": "Langkah-langkah masuk Anda",
+      "items": [
+        { "n": 1, "title": "Pastikan Anda bebas visa", "detail": "Paspor Inggris masuk ke Korea bebas visa untuk wisata jangka pendek, dan K-ETA dibebaskan hingga 2026 — tidak ada yang perlu diajukan." },
+        { "n": 2, "title": "Isi e-Arrival Card", "detail": "Dalam 72 jam sebelum kedatangan, isi gratis di e-arrivalcard.go.kr dan simpan QR/konfirmasi.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "Periksa paspor & tiket lanjutan", "detail": "Pastikan paspor Anda berlaku selama masa tinggal, dan siapkan tiket pulang/lanjutan serta alamat akomodasi pertama Anda." },
+        { "n": 4, "title": "Di imigrasi", "detail": "Tunjukkan paspor dan konfirmasi e-Arrival Anda; sidik jari dan foto mungkin diambil. Tetap untuk tujuan wisata — tidak ada pekerjaan berbayar pada masuk bebas visa." }
+      ]
+    },
+    "documents": {
+      "title": "Apa yang harus disiapkan",
+      "intro": "Anda tidak mengajukan permohonan visa — tetapi siapkan hal-hal ini untuk masuk yang lancar.",
+      "cols": ["Item", "Tempat memperolehnya", "Catatan"],
+      "rows": [
+        { "doc": "Paspor", "req": "required", "where": "Anda sudah memilikinya", "how": "Berlaku selama masa tinggal Anda." },
+        { "doc": "Konfirmasi e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Gratis; isi dalam 72 jam sebelum kedatangan dan simpan QR.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "Tiket pulang/lanjutan", "req": "required", "where": "Maskapai/agen perjalanan", "how": "Bukti bahwa Anda akan berangkat dalam masa tinggal yang diizinkan." },
+        { "doc": "Alamat akomodasi", "req": "required", "where": "Situs pemesanan", "how": "Alamat hotel/penginapan pertama Anda (ditanyakan di e-Arrival Card)." },
+        { "doc": "Dana untuk perjalanan Anda", "req": "recommended", "where": "Anda", "how": "Kartu diterima secara luas; bawa sedikit uang tunai untuk pasar dan pedagang kecil." }
+      ],
+      "legend": { "required": "Wajib", "conditional": "Jika berlaku", "recommended": "Direkomendasikan" }
+    },
+    "pitfalls": {
+      "title": "Kesalahan masuk yang umum",
+      "items": [
+        { "icon": "🕸️", "t": "Membayar 'biaya visa/K-ETA' yang tidak Anda utang", "d": "Saat ini Anda tidak memerlukan visa maupun K-ETA. Situs penipuan masih menagihnya — abaikan saja." },
+        { "icon": "📝", "t": "Melewatkan e-Arrival Card", "d": "Sebagian besar pengunjung wajib mengisinya (gratis). Lakukan dalam 72 jam sebelum kedatangan." },
+        { "icon": "⏰", "t": "Mengisi e-Arrival Card terlalu awal", "d": "Ini kedaluwarsa 72 jam setelah pengiriman — isi menjelang penerbangan Anda, bukan berminggu-minggu sebelumnya." },
+        { "icon": "🗓️", "t": "Melebihi izin tinggal Anda", "d": "Tinggal melebihi 90 hari berisiko denda dan larangan masuk di masa depan." },
+        { "icon": "💼", "t": "Bekerja dengan masuk turis", "d": "Masuk bebas visa hanya untuk wisata/kunjungan — pekerjaan berbayar memerlukan visa yang sesuai." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ masuk Inggris → Korea",
+      "items": [
+        { "q": "Apakah pelancong dari Inggris memerlukan visa untuk Korea?", "a": "Tidak — untuk wisata jangka pendek, pemegang paspor Inggris masuk ke Korea bebas visa. Anda tidak mengajukan visa turis apa pun." },
+        { "q": "Apakah saya memerlukan K-ETA?", "a": "Saat ini tidak. Inggris termasuk di antara 22 negara yang dibebaskan dari K-ETA hingga 31 Dec 2026. Persyaratan ini dijadwalkan kembali pada 1 Jan 2027 kecuali diperpanjang." },
+        { "q": "Apakah saya tetap memerlukan e-Arrival Card?", "a": "Ya — sebagian besar pengunjung mengisi e-Arrival Card gratis di e-arrivalcard.go.kr, dalam 72 jam sebelum kedatangan." },
+        { "q": "Berapa lama saya bisa tinggal?", "a": "Hingga 90 hari, untuk wisata." },
+        { "q": "Bisakah saya bekerja atau belajar dengan masuk ini?", "a": "Tidak. Masuk bebas visa hanya untuk wisata dan kunjungan singkat; bekerja atau belajar memerlukan visa yang sesuai." },
+        { "q": "Kapan K-ETA kembali berlaku?", "a": "Pembebasan dijadwalkan berakhir pada 31 Dec 2026, dengan K-ETA berlaku lagi 1 Jan 2027 kecuali diperpanjang — konfirmasi ulang menjelang tanggal perjalanan Anda." }
+      ]
+    },
+    "ui": { "visa": "Visa", "stay": "Tinggal", "entry": "Masuk", "where": "Tempat memperolehnya", "official": "Sumber resmi", "required": "Wajib", "conditional": "Jika berlaku", "recommended": "Direkomendasikan", "confirm": "Biaya/aturan dapat berubah — konfirmasi di sumber resmi", "source": "Sumber", "updated": "Diperbarui", "tldr": "Ringkasan" }
+  },
+  "ms": {
+    "kicker": "Panduan kemasukan · United Kingdom → Korea",
+    "readingTime": "Bacaan 5 minit",
+    "h1": "Panduan Kemasukan Korea dari United Kingdom",
+    "metaTitle": "Dari United Kingdom ke Korea: Keperluan Visa & Panduan Kemasukan (2026) — Korea Trip Hub",
+    "metaDesc": "Adakah pelancong dari United Kingdom memerlukan visa untuk Korea Selatan? Tidak — bebas visa, dengan K-ETA dikecualikan sehingga 2026. Isi e-Arrival Card percuma dan ikut langkah-langkah kemasukan. Tinggal: Sehingga 90 hari.",
+    "verdict": {
+      "headline": "Tiada visa pelancong diperlukan — pasport United Kingdom bebas visa.",
+      "sub": "Untuk pelancongan jangka pendek, anda tidak memohon sebarang visa. Buat masa ini K-ETA juga dikecualikan, jadi perkara utama yang perlu dilakukan ialah mengisi e-Arrival Card percuma sebelum mendarat.",
+      "type": "Bebas visa (K-ETA kini dikecualikan)",
+      "stay": "Sehingga 90 hari",
+      "entry": "Pelancongan jangka pendek"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "Tiada visa, dan K-ETA dikecualikan sehingga 2026", "body": "United Kingdom ialah salah satu daripada 22 negara yang dikecualikan daripada K-ETA sehingga 31 Dec 2026, jadi anda tidak memohon visa mahupun K-ETA untuk pelancongan jangka pendek. Pengecualian ini dijadualkan tamat dan K-ETA kembali pada 1 Jan 2027 — sahkan semula sebelum anda mengembara." },
+      { "icon": "📝", "tone": "blue", "title": "Anda masih memerlukan e-Arrival Card", "body": "Hampir setiap pelawat mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam masa 72 jam sebelum ketibaan. (Pemegang K-ETA yang sah dikecualikan, tetapi dengan K-ETA dikecualikan anda patut mengisi e-Arrival Card.)" }
+    ],
+    "tldr": [
+      "Buat masa ini tiada visa pelancong mahupun K-ETA diperlukan — United Kingdom bebas visa dan dikecualikan daripada K-ETA sehingga 2026.",
+      "Isi e-Arrival Card percuma di e-arrivalcard.go.kr dalam masa 72 jam sebelum ketibaan.",
+      "Bawa pasport yang sah sepanjang tempoh penginapan anda serta bukti perjalanan pulang/seterusnya.",
+      "Anda boleh tinggal sehingga 90 hari."
+    ],
+    "steps": {
+      "title": "Langkah-langkah kemasukan anda",
+      "items": [
+        { "n": 1, "title": "Sahkan anda bebas visa", "detail": "Pasport United Kingdom masuk ke Korea tanpa visa untuk pelancongan jangka pendek, dan K-ETA dikecualikan sehingga 2026 — tiada apa-apa untuk dimohon." },
+        { "n": 2, "title": "Isi e-Arrival Card", "detail": "Dalam masa 72 jam sebelum ketibaan, lengkapkannya secara percuma di e-arrivalcard.go.kr dan simpan QR/pengesahan.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "Semak pasport & tiket seterusnya", "detail": "Pastikan pasport anda sah sepanjang penginapan anda, dan sediakan tiket pulang/seterusnya serta alamat penginapan pertama anda." },
+        { "n": 4, "title": "Di imigresen", "detail": "Tunjukkan pasport dan pengesahan e-Arrival anda; cap jari dan gambar mungkin diambil. Kekalkan tujuan pelancongan — tiada kerja bergaji dengan kemasukan bebas visa." }
+      ]
+    },
+    "documents": {
+      "title": "Apa yang perlu disediakan",
+      "intro": "Anda tidak memfailkan permohonan visa — tetapi sediakan perkara ini untuk kemasukan yang lancar.",
+      "cols": ["Item", "Tempat mendapatkannya", "Nota"],
+      "rows": [
+        { "doc": "Pasport", "req": "required", "where": "Anda sudah memilikinya", "how": "Sah sepanjang tempoh penginapan anda." },
+        { "doc": "Pengesahan e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Percuma; isi dalam masa 72 jam sebelum ketibaan dan simpan QR.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "Tiket pulang/seterusnya", "req": "required", "where": "Syarikat penerbangan/agen pelancongan", "how": "Bukti bahawa anda akan berlepas dalam tempoh penginapan yang dibenarkan." },
+        { "doc": "Alamat penginapan", "req": "required", "where": "Laman tempahan", "how": "Alamat hotel/penginapan pertama anda (ditanya pada e-Arrival Card)." },
+        { "doc": "Dana untuk perjalanan anda", "req": "recommended", "where": "Anda", "how": "Kad diterima secara meluas; bawa sedikit wang tunai untuk pasar dan peniaga kecil." }
+      ],
+      "legend": { "required": "Wajib", "conditional": "Jika berkenaan", "recommended": "Disyorkan" }
+    },
+    "pitfalls": {
+      "title": "Kesilapan kemasukan yang biasa",
+      "items": [
+        { "icon": "🕸️", "t": "Membayar 'yuran visa/K-ETA' yang anda tidak terhutang", "d": "Buat masa ini anda tidak memerlukan visa mahupun K-ETA. Laman web penipuan masih mengenakan caj untuknya — abaikan sahaja." },
+        { "icon": "📝", "t": "Melangkau e-Arrival Card", "d": "Kebanyakan pelawat wajib mengisinya (percuma). Lakukannya dalam masa 72 jam sebelum ketibaan." },
+        { "icon": "⏰", "t": "Mengisi e-Arrival Card terlalu awal", "d": "Ia tamat tempoh 72 jam selepas dihantar — isi hampir dengan penerbangan anda, bukan berminggu-minggu lebih awal." },
+        { "icon": "🗓️", "t": "Tinggal melebihi tempoh yang dibenarkan", "d": "Tinggal melebihi 90 hari berisiko denda dan larangan kemasukan pada masa hadapan." },
+        { "icon": "💼", "t": "Bekerja dengan kemasukan pelancong", "d": "Kemasukan bebas visa adalah untuk pelancongan/lawatan sahaja — kerja bergaji memerlukan visa yang sesuai." }
+      ]
+    },
+    "faq": {
+      "title": "Soalan lazim kemasukan United Kingdom → Korea",
+      "items": [
+        { "q": "Adakah pelancong dari United Kingdom memerlukan visa untuk Korea?", "a": "Tidak — untuk pelancongan jangka pendek, pemegang pasport United Kingdom masuk ke Korea tanpa visa. Anda tidak memohon sebarang visa pelancong." },
+        { "q": "Adakah saya memerlukan K-ETA?", "a": "Buat masa ini tidak. United Kingdom termasuk dalam 22 negara yang dikecualikan daripada K-ETA sehingga 31 Dec 2026. Keperluan ini dijadualkan kembali pada 1 Jan 2027 melainkan dilanjutkan." },
+        { "q": "Adakah saya masih memerlukan e-Arrival Card?", "a": "Ya — kebanyakan pelawat mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam masa 72 jam sebelum ketibaan." },
+        { "q": "Berapa lama saya boleh tinggal?", "a": "Sehingga 90 hari, untuk pelancongan." },
+        { "q": "Bolehkah saya bekerja atau belajar dengan kemasukan ini?", "a": "Tidak. Kemasukan bebas visa adalah untuk pelancongan dan lawatan singkat sahaja; bekerja atau belajar memerlukan visa yang sesuai." },
+        { "q": "Bilakah K-ETA kembali?", "a": "Pengecualian dijadualkan tamat pada 31 Dec 2026, dengan K-ETA disambung semula 1 Jan 2027 melainkan dilanjutkan — sahkan semula hampir dengan tarikh perjalanan anda." }
+      ]
+    },
+    "ui": { "visa": "Visa", "stay": "Tinggal", "entry": "Kemasukan", "where": "Tempat mendapatkannya", "official": "Sumber rasmi", "required": "Wajib", "conditional": "Jika berkenaan", "recommended": "Disyorkan", "confirm": "Yuran/peraturan berubah — sahkan di sumber rasmi", "source": "Sumber", "updated": "Dikemas kini", "tldr": "Ringkasan" }
   }
 }

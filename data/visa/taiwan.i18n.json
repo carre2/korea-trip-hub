@@ -339,5 +339,277 @@
       ]
     },
     "ui": { "visa": "Visado", "stay": "Estancia", "entry": "Entrada", "where": "Dónde", "official": "Fuentes oficiales", "required": "Obligatorio", "conditional": "Si corresponde", "recommended": "Recomendado", "confirm": "Las tasas/normas cambian — confírmalo en la fuente", "source": "Fuente", "updated": "Actualizado", "tldr": "En resumen" }
+  },
+  "vi": {
+    "kicker": "Hướng dẫn nhập cảnh · Đài Loan → Hàn Quốc",
+    "readingTime": "Đọc trong 5 phút",
+    "h1": "Hướng dẫn nhập cảnh Hàn Quốc từ Đài Loan",
+    "metaTitle": "Từ Đài Loan đến Hàn Quốc: Yêu cầu thị thực & hướng dẫn nhập cảnh (2026) — Korea Trip Hub",
+    "metaDesc": "Du khách từ Đài Loan có cần thị thực vào Hàn Quốc không? Không — miễn thị thực, và K-ETA cũng được miễn đến năm 2026. Hãy khai e-Arrival Card miễn phí và làm theo các bước nhập cảnh. Thời gian lưu trú: tối đa 90 ngày.",
+    "verdict": {
+      "headline": "Không cần thị thực du lịch — hộ chiếu Đài Loan được miễn thị thực.",
+      "sub": "Với du lịch ngắn ngày, bạn không phải xin bất kỳ thị thực nào. Hiện tại K-ETA cũng được miễn, nên việc chính cần làm là khai e-Arrival Card miễn phí trước khi hạ cánh.",
+      "type": "Miễn thị thực (K-ETA hiện đang được miễn)",
+      "stay": "Tối đa 90 ngày",
+      "entry": "Du lịch ngắn ngày"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "Không cần thị thực, và K-ETA được miễn đến hết năm 2026", "body": "Đài Loan là một trong 22 quốc gia được miễn K-ETA đến ngày 31 tháng 12 năm 2026, nên với du lịch ngắn ngày bạn không phải xin thị thực lẫn K-ETA. Việc miễn trừ này dự kiến kết thúc và K-ETA sẽ trở lại vào ngày 1 tháng 1 năm 2027 — hãy xác nhận lại trước khi đi." },
+      { "icon": "📝", "tone": "blue", "title": "Bạn vẫn cần e-Arrival Card", "body": "Hầu hết mọi du khách đều khai e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 giờ trước khi đến. (Người có K-ETA hợp lệ được miễn, nhưng vì K-ETA đang được miễn nên bạn nên khai e-Arrival Card.)" }
+    ],
+    "tldr": [
+      "Hiện tại không cần thị thực du lịch lẫn K-ETA — Đài Loan được miễn thị thực và miễn K-ETA đến năm 2026.",
+      "Hãy khai e-Arrival Card miễn phí tại e-arrivalcard.go.kr trong vòng 72 giờ trước khi đến.",
+      "Mang theo hộ chiếu còn hiệu lực trong suốt thời gian lưu trú cùng bằng chứng chuyến bay tiếp theo/khứ hồi.",
+      "Bạn có thể lưu trú tối đa 90 ngày."
+    ],
+    "steps": {
+      "title": "Các bước nhập cảnh của bạn",
+      "items": [
+        { "n": 1, "title": "Xác nhận bạn được miễn thị thực", "detail": "Hộ chiếu Đài Loan nhập cảnh Hàn Quốc miễn thị thực khi du lịch ngắn ngày, và K-ETA được miễn đến năm 2026 — không có gì phải xin." },
+        { "n": 2, "title": "Khai e-Arrival Card", "detail": "Trong vòng 72 giờ trước khi đến, hãy hoàn tất miễn phí tại e-arrivalcard.go.kr và lưu mã QR/xác nhận.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "Kiểm tra hộ chiếu & vé đi tiếp", "detail": "Hãy chắc chắn hộ chiếu còn hiệu lực trong suốt thời gian lưu trú, và chuẩn bị vé khứ hồi/đi tiếp cùng địa chỉ nơi ở đầu tiên." },
+        { "n": 4, "title": "Tại cửa nhập cảnh", "detail": "Xuất trình hộ chiếu và xác nhận e-Arrival; có thể bạn sẽ được lấy dấu vân tay và chụp ảnh. Hãy giữ đúng mục đích du lịch — không được làm việc có lương khi nhập cảnh miễn thị thực." }
+      ]
+    },
+    "documents": {
+      "title": "Những thứ cần chuẩn bị sẵn",
+      "intro": "Bạn không nộp đơn xin thị thực — nhưng hãy chuẩn bị sẵn những thứ này để nhập cảnh suôn sẻ.",
+      "cols": ["Hạng mục", "Lấy ở đâu", "Ghi chú"],
+      "rows": [
+        { "doc": "Hộ chiếu", "req": "required", "where": "Bạn đã có", "how": "Còn hiệu lực trong suốt thời gian lưu trú." },
+        { "doc": "Xác nhận e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Miễn phí; khai trong vòng 72 giờ trước khi đến và lưu mã QR.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "Vé khứ hồi/đi tiếp", "req": "required", "where": "Hãng bay / đại lý du lịch", "how": "Bằng chứng bạn sẽ rời đi trong thời gian lưu trú được phép." },
+        { "doc": "Địa chỉ nơi ở", "req": "required", "where": "Các trang đặt phòng", "how": "Địa chỉ khách sạn/nơi ở đầu tiên của bạn (được hỏi trên e-Arrival Card)." },
+        { "doc": "Chi phí cho chuyến đi", "req": "recommended", "where": "Bạn", "how": "Thẻ được chấp nhận rộng rãi; hãy mang theo ít tiền mặt cho chợ và các cửa hàng nhỏ." }
+      ],
+      "legend": { "required": "Bắt buộc", "conditional": "Nếu áp dụng", "recommended": "Khuyến nghị" }
+    },
+    "pitfalls": {
+      "title": "Những lỗi nhập cảnh thường gặp",
+      "items": [
+        { "icon": "🕸️", "t": "Trả 'phí thị thực/K-ETA' mà bạn không nợ", "d": "Hiện tại bạn không cần thị thực lẫn K-ETA. Các trang lừa đảo vẫn thu phí cho chúng — hãy phớt lờ." },
+        { "icon": "📝", "t": "Bỏ qua e-Arrival Card", "d": "Hầu hết du khách phải khai (miễn phí). Hãy làm trong vòng 72 giờ trước khi đến." },
+        { "icon": "⏰", "t": "Khai e-Arrival Card quá sớm", "d": "Nó hết hạn sau 72 giờ kể từ khi nộp — hãy khai gần sát chuyến bay, đừng làm trước hàng tuần." },
+        { "icon": "🗓️", "t": "Lưu trú quá thời hạn cho phép", "d": "Ở quá tối đa 90 ngày có nguy cơ bị phạt và cấm nhập cảnh trong tương lai." },
+        { "icon": "💼", "t": "Làm việc khi nhập cảnh du lịch", "d": "Nhập cảnh miễn thị thực chỉ dành cho du lịch/thăm viếng — làm việc có lương cần thị thực phù hợp." }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp khi nhập cảnh Đài Loan → Hàn Quốc",
+      "items": [
+        { "q": "Du khách từ Đài Loan có cần thị thực vào Hàn Quốc không?", "a": "Không — với du lịch ngắn ngày, người mang hộ chiếu Đài Loan nhập cảnh Hàn Quốc miễn thị thực. Bạn không phải xin bất kỳ thị thực du lịch nào." },
+        { "q": "Tôi có cần K-ETA không?", "a": "Hiện tại thì không. Đài Loan nằm trong số 22 quốc gia được miễn K-ETA đến ngày 31 tháng 12 năm 2026. Yêu cầu này dự kiến trở lại vào ngày 1 tháng 1 năm 2027 trừ khi được gia hạn." },
+        { "q": "Tôi vẫn cần e-Arrival Card chứ?", "a": "Có — hầu hết du khách khai e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 giờ trước khi đến." },
+        { "q": "Tôi có thể lưu trú bao lâu?", "a": "Tối đa 90 ngày, cho mục đích du lịch." },
+        { "q": "Tôi có thể làm việc hay học tập với lần nhập cảnh này không?", "a": "Không. Nhập cảnh miễn thị thực chỉ dành cho du lịch và thăm viếng ngắn ngày; làm việc hay học tập cần thị thực phù hợp." },
+        { "q": "Khi nào K-ETA trở lại?", "a": "Việc miễn trừ dự kiến kết thúc vào ngày 31 tháng 12 năm 2026, và K-ETA sẽ hoạt động lại từ ngày 1 tháng 1 năm 2027 trừ khi được gia hạn — hãy xác nhận lại gần ngày đi của bạn." }
+      ]
+    },
+    "ui": { "visa": "Thị thực", "stay": "Lưu trú", "entry": "Nhập cảnh", "where": "Lấy ở đâu", "official": "Nguồn chính thức", "required": "Bắt buộc", "conditional": "Nếu áp dụng", "recommended": "Khuyến nghị", "confirm": "Phí và quy định có thể thay đổi — hãy kiểm tra tại nguồn chính thức", "source": "Nguồn", "updated": "Cập nhật", "tldr": "Tóm tắt" }
+  },
+  "th": {
+    "kicker": "คู่มือการเข้าเมือง · ไต้หวัน → เกาหลี",
+    "readingTime": "อ่าน 5 นาที",
+    "h1": "คู่มือการเข้าเกาหลีจากไต้หวัน",
+    "metaTitle": "จากไต้หวันสู่เกาหลี: ข้อกำหนดวีซ่าและคู่มือการเข้าเมือง (2026) — Korea Trip Hub",
+    "metaDesc": "นักท่องเที่ยวจากไต้หวันต้องใช้วีซ่าเข้าเกาหลีใต้ไหม? ไม่ต้อง — ยกเว้นวีซ่า และ K-ETA ก็ได้รับการยกเว้นจนถึงปี 2026 กรอก e-Arrival Card ฟรีและทำตามขั้นตอนการเข้าเมือง ระยะเวลาพำนัก: สูงสุด 90 วัน",
+    "verdict": {
+      "headline": "ไม่ต้องใช้วีซ่าท่องเที่ยว — หนังสือเดินทางไต้หวันได้รับการยกเว้นวีซ่า",
+      "sub": "สำหรับการท่องเที่ยวระยะสั้น คุณไม่ต้องยื่นขอวีซ่าใด ๆ ขณะนี้ K-ETA ก็ได้รับการยกเว้นเช่นกัน ดังนั้นสิ่งสำคัญคือการกรอก e-Arrival Card ฟรีก่อนเครื่องลงจอด",
+      "type": "ยกเว้นวีซ่า (ขณะนี้ K-ETA ได้รับการยกเว้น)",
+      "stay": "สูงสุด 90 วัน",
+      "entry": "การท่องเที่ยวระยะสั้น"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "ไม่ต้องใช้วีซ่า และ K-ETA ได้รับการยกเว้นจนถึงสิ้นปี 2026", "body": "ไต้หวันเป็นหนึ่งใน 22 ประเทศที่ได้รับการยกเว้น K-ETA จนถึงวันที่ 31 ธันวาคม 2026 ดังนั้นสำหรับการท่องเที่ยวระยะสั้น คุณไม่ต้องยื่นขอทั้งวีซ่าและ K-ETA การยกเว้นนี้มีกำหนดสิ้นสุดและ K-ETA จะกลับมาในวันที่ 1 มกราคม 2027 — โปรดตรวจสอบอีกครั้งก่อนเดินทาง" },
+      { "icon": "📝", "tone": "blue", "title": "คุณยังต้องใช้ e-Arrival Card", "body": "นักท่องเที่ยวเกือบทุกคนกรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง (ผู้ถือ K-ETA ที่ยังใช้ได้จะได้รับการยกเว้น แต่เนื่องจาก K-ETA ได้รับการยกเว้นอยู่ คุณจึงควรกรอก e-Arrival Card)" }
+    ],
+    "tldr": [
+      "ขณะนี้ไม่ต้องใช้ทั้งวีซ่าท่องเที่ยวและ K-ETA — ไต้หวันได้รับการยกเว้นวีซ่าและยกเว้น K-ETA จนถึงปี 2026",
+      "อย่าลืมกรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง",
+      "นำหนังสือเดินทางที่มีอายุครอบคลุมตลอดการพำนัก พร้อมหลักฐานการเดินทางออก/ขากลับ",
+      "คุณพำนักได้สูงสุด 90 วัน"
+    ],
+    "steps": {
+      "title": "ขั้นตอนการเข้าเมืองของคุณ",
+      "items": [
+        { "n": 1, "title": "ยืนยันว่าคุณได้รับการยกเว้นวีซ่า", "detail": "หนังสือเดินทางไต้หวันเข้าเกาหลีได้โดยไม่ต้องใช้วีซ่าสำหรับการท่องเที่ยวระยะสั้น และ K-ETA ได้รับการยกเว้นจนถึงปี 2026 — ไม่มีอะไรต้องยื่นขอ" },
+        { "n": 2, "title": "กรอก e-Arrival Card", "detail": "ภายใน 72 ชั่วโมงก่อนเดินทางถึง กรอกให้เสร็จฟรีที่ e-arrivalcard.go.kr และบันทึก QR/ใบยืนยันไว้", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "ตรวจสอบหนังสือเดินทางและตั๋วเดินทางต่อ", "detail": "ตรวจสอบให้แน่ใจว่าหนังสือเดินทางมีอายุครอบคลุมตลอดการพำนัก และเตรียมตั๋วขากลับ/เดินทางต่อพร้อมที่อยู่ที่พักแห่งแรก" },
+        { "n": 4, "title": "ที่ด่านตรวจคนเข้าเมือง", "detail": "แสดงหนังสือเดินทางและใบยืนยัน e-Arrival อาจมีการเก็บลายนิ้วมือและถ่ายรูป โปรดเดินทางเพื่อการท่องเที่ยวเท่านั้น — การเข้าเมืองแบบยกเว้นวีซ่าไม่อนุญาตให้ทำงานที่ได้รับค่าจ้าง" }
+      ]
+    },
+    "documents": {
+      "title": "สิ่งที่ต้องเตรียมให้พร้อม",
+      "intro": "คุณไม่ต้องยื่นคำขอวีซ่า — แต่เตรียมสิ่งเหล่านี้ให้พร้อมเพื่อการเข้าเมืองที่ราบรื่น",
+      "cols": ["รายการ", "หาได้ที่ไหน", "หมายเหตุ"],
+      "rows": [
+        { "doc": "หนังสือเดินทาง", "req": "required", "where": "คุณมีอยู่แล้ว", "how": "มีอายุครอบคลุมตลอดการพำนัก" },
+        { "doc": "ใบยืนยัน e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "ฟรี; กรอกภายใน 72 ชั่วโมงก่อนเดินทางถึงและบันทึก QR ไว้", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "ตั๋วขากลับ/เดินทางต่อ", "req": "required", "where": "สายการบิน / ตัวแทนท่องเที่ยว", "how": "หลักฐานว่าคุณจะเดินทางออกภายในระยะเวลาพำนักที่ได้รับอนุญาต" },
+        { "doc": "ที่อยู่ที่พัก", "req": "required", "where": "เว็บไซต์จองที่พัก", "how": "ที่อยู่โรงแรม/ที่พักแห่งแรกของคุณ (ถูกถามใน e-Arrival Card)" },
+        { "doc": "ค่าใช้จ่ายสำหรับการเดินทาง", "req": "recommended", "where": "ตัวคุณเอง", "how": "บัตรใช้ได้อย่างแพร่หลาย; พกเงินสดบ้างสำหรับตลาดและร้านค้าเล็ก ๆ" }
+      ],
+      "legend": { "required": "จำเป็น", "conditional": "หากเกี่ยวข้อง", "recommended": "แนะนำ" }
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดในการเข้าเมืองที่พบบ่อย",
+      "items": [
+        { "icon": "🕸️", "t": "จ่าย 'ค่าธรรมเนียมวีซ่า/K-ETA' ที่คุณไม่ต้องจ่าย", "d": "ขณะนี้คุณไม่ต้องใช้ทั้งวีซ่าและ K-ETA เว็บไซต์หลอกลวงยังคงเรียกเก็บค่าธรรมเนียมเหล่านี้ — โปรดเพิกเฉย" },
+        { "icon": "📝", "t": "ข้ามการกรอก e-Arrival Card", "d": "นักท่องเที่ยวส่วนใหญ่ต้องกรอก (ฟรี) ทำภายใน 72 ชั่วโมงก่อนเดินทางถึง" },
+        { "icon": "⏰", "t": "กรอก e-Arrival Card เร็วเกินไป", "d": "จะหมดอายุ 72 ชั่วโมงหลังจากส่ง — กรอกใกล้ ๆ เที่ยวบิน ไม่ใช่ล่วงหน้าหลายสัปดาห์" },
+        { "icon": "🗓️", "t": "พำนักเกินระยะเวลาที่ได้รับอนุญาต", "d": "การพำนักเกินสูงสุด 90 วันเสี่ยงต่อค่าปรับและการถูกห้ามเข้าประเทศในอนาคต" },
+        { "icon": "💼", "t": "ทำงานด้วยการเข้าเมืองแบบท่องเที่ยว", "d": "การเข้าเมืองแบบยกเว้นวีซ่ามีไว้สำหรับการท่องเที่ยว/เยี่ยมเยียนเท่านั้น — งานที่ได้รับค่าจ้างต้องใช้วีซ่าที่เหมาะสม" }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเกี่ยวกับการเข้าเมือง ไต้หวัน → เกาหลี",
+      "items": [
+        { "q": "นักท่องเที่ยวจากไต้หวันต้องใช้วีซ่าเข้าเกาหลีไหม?", "a": "ไม่ต้อง — สำหรับการท่องเที่ยวระยะสั้น ผู้ถือหนังสือเดินทางไต้หวันเข้าเกาหลีได้โดยไม่ต้องใช้วีซ่า คุณไม่ต้องยื่นขอวีซ่าท่องเที่ยวใด ๆ" },
+        { "q": "ฉันต้องใช้ K-ETA ไหม?", "a": "ขณะนี้ไม่ต้อง ไต้หวันอยู่ในกลุ่ม 22 ประเทศที่ได้รับการยกเว้น K-ETA จนถึงวันที่ 31 ธันวาคม 2026 ข้อกำหนดนี้มีกำหนดกลับมาในวันที่ 1 มกราคม 2027 เว้นแต่จะมีการขยายเวลา" },
+        { "q": "ฉันยังต้องใช้ e-Arrival Card ไหม?", "a": "ต้องใช้ — นักท่องเที่ยวส่วนใหญ่กรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง" },
+        { "q": "ฉันพำนักได้นานแค่ไหน?", "a": "สูงสุด 90 วัน สำหรับการท่องเที่ยว" },
+        { "q": "ฉันทำงานหรือเรียนด้วยการเข้าเมืองนี้ได้ไหม?", "a": "ไม่ได้ การเข้าเมืองแบบยกเว้นวีซ่ามีไว้สำหรับการท่องเที่ยวและการเยี่ยมเยียนระยะสั้นเท่านั้น การทำงานหรือการเรียนต้องใช้วีซ่าที่เหมาะสม" },
+        { "q": "K-ETA จะกลับมาเมื่อไหร่?", "a": "การยกเว้นมีกำหนดสิ้นสุดในวันที่ 31 ธันวาคม 2026 และ K-ETA จะกลับมาใช้ในวันที่ 1 มกราคม 2027 เว้นแต่จะมีการขยายเวลา — โปรดตรวจสอบอีกครั้งใกล้วันเดินทางของคุณ" }
+      ]
+    },
+    "ui": { "visa": "วีซ่า", "stay": "การพำนัก", "entry": "การเข้าเมือง", "where": "หาได้ที่ไหน", "official": "แหล่งข้อมูลทางการ", "required": "จำเป็น", "conditional": "หากเกี่ยวข้อง", "recommended": "แนะนำ", "confirm": "ค่าธรรมเนียม/กฎระเบียบอาจเปลี่ยนแปลง — โปรดตรวจสอบจากแหล่งข้อมูลทางการ", "source": "แหล่งที่มา", "updated": "อัปเดต", "tldr": "สรุป" }
+  },
+  "id": {
+    "kicker": "Panduan masuk · Taiwan → Korea",
+    "readingTime": "Baca 5 menit",
+    "h1": "Panduan Masuk Korea dari Taiwan",
+    "metaTitle": "Dari Taiwan ke Korea: Persyaratan Visa & Panduan Masuk (2026) — Korea Trip Hub",
+    "metaDesc": "Apakah pelancong dari Taiwan memerlukan visa untuk Korea Selatan? Tidak — bebas visa, dengan K-ETA yang juga dibebaskan hingga 2026. Isi e-Arrival Card gratis dan ikuti langkah-langkah masuk. Masa tinggal: hingga 90 hari.",
+    "verdict": {
+      "headline": "Tidak perlu visa turis — paspor Taiwan bebas visa.",
+      "sub": "Untuk wisata jangka pendek Anda tidak mengajukan visa apa pun. Saat ini K-ETA juga dibebaskan, jadi hal utama yang perlu dilakukan adalah mengisi e-Arrival Card gratis sebelum mendarat.",
+      "type": "Bebas visa (K-ETA saat ini dibebaskan)",
+      "stay": "Hingga 90 hari",
+      "entry": "Wisata jangka pendek"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "Tanpa visa, dan K-ETA dibebaskan hingga 2026", "body": "Taiwan adalah salah satu dari 22 negara yang dibebaskan dari K-ETA hingga 31 Desember 2026, jadi untuk wisata jangka pendek Anda tidak mengajukan visa maupun K-ETA. Pembebasan ini dijadwalkan berakhir dan K-ETA kembali berlaku pada 1 Januari 2027 — konfirmasikan kembali sebelum bepergian." },
+      { "icon": "📝", "tone": "blue", "title": "Anda tetap memerlukan e-Arrival Card", "body": "Hampir semua pengunjung mengisi e-Arrival Card gratis di e-arrivalcard.go.kr, dalam waktu 72 jam sebelum tiba. (Pemegang K-ETA yang masih berlaku dibebaskan, tetapi karena K-ETA sedang dibebaskan sebaiknya Anda mengisi e-Arrival Card.)" }
+    ],
+    "tldr": [
+      "Saat ini tidak perlu visa turis maupun K-ETA — Taiwan bebas visa dan bebas K-ETA hingga 2026.",
+      "Isi e-Arrival Card gratis di e-arrivalcard.go.kr dalam waktu 72 jam sebelum tiba.",
+      "Bawa paspor yang berlaku selama masa tinggal Anda beserta bukti perjalanan lanjutan/pulang.",
+      "Anda dapat tinggal hingga 90 hari."
+    ],
+    "steps": {
+      "title": "Langkah-langkah masuk Anda",
+      "items": [
+        { "n": 1, "title": "Pastikan Anda bebas visa", "detail": "Paspor Taiwan masuk ke Korea tanpa visa untuk wisata jangka pendek, dan K-ETA dibebaskan hingga 2026 — tidak ada yang perlu diajukan." },
+        { "n": 2, "title": "Isi e-Arrival Card", "detail": "Dalam waktu 72 jam sebelum tiba, lengkapi secara gratis di e-arrivalcard.go.kr dan simpan QR/konfirmasinya.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "Periksa paspor & tiket lanjutan", "detail": "Pastikan paspor Anda berlaku selama masa tinggal, dan siapkan tiket pulang/lanjutan beserta alamat penginapan pertama Anda." },
+        { "n": 4, "title": "Di imigrasi", "detail": "Tunjukkan paspor dan konfirmasi e-Arrival Anda; sidik jari dan foto mungkin diambil. Tetap untuk tujuan wisata — tidak boleh bekerja berbayar dengan masuk bebas visa." }
+      ]
+    },
+    "documents": {
+      "title": "Yang perlu disiapkan",
+      "intro": "Anda tidak mengajukan permohonan visa — tetapi siapkan hal-hal ini agar masuk dengan lancar.",
+      "cols": ["Item", "Di mana mendapatkannya", "Catatan"],
+      "rows": [
+        { "doc": "Paspor", "req": "required", "where": "Anda sudah memilikinya", "how": "Berlaku selama masa tinggal Anda." },
+        { "doc": "Konfirmasi e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Gratis; isi dalam waktu 72 jam sebelum tiba dan simpan QR-nya.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "Tiket pulang/lanjutan", "req": "required", "where": "Maskapai / agen perjalanan", "how": "Bukti bahwa Anda akan pergi dalam masa tinggal yang diizinkan." },
+        { "doc": "Alamat penginapan", "req": "required", "where": "Situs pemesanan", "how": "Alamat hotel/penginapan pertama Anda (ditanyakan pada e-Arrival Card)." },
+        { "doc": "Dana untuk perjalanan Anda", "req": "recommended", "where": "Anda", "how": "Kartu diterima luas; bawa sedikit uang tunai untuk pasar dan pedagang kecil." }
+      ],
+      "legend": { "required": "Wajib", "conditional": "Jika berlaku", "recommended": "Disarankan" }
+    },
+    "pitfalls": {
+      "title": "Kesalahan umum saat masuk",
+      "items": [
+        { "icon": "🕸️", "t": "Membayar 'biaya visa/K-ETA' yang tidak Anda perlukan", "d": "Saat ini Anda tidak perlu visa maupun K-ETA. Situs penipuan tetap menagihnya — abaikan saja." },
+        { "icon": "📝", "t": "Melewatkan e-Arrival Card", "d": "Sebagian besar pengunjung wajib mengisinya (gratis). Lakukan dalam waktu 72 jam sebelum tiba." },
+        { "icon": "⏰", "t": "Mengisi e-Arrival Card terlalu awal", "d": "Kadaluarsa 72 jam setelah dikirim — isi menjelang penerbangan Anda, bukan berminggu-minggu sebelumnya." },
+        { "icon": "🗓️", "t": "Melewati batas masa tinggal", "d": "Tinggal lebih dari hingga 90 hari berisiko denda dan larangan masuk di masa depan." },
+        { "icon": "💼", "t": "Bekerja dengan masuk sebagai turis", "d": "Masuk bebas visa hanya untuk wisata/kunjungan — pekerjaan berbayar memerlukan visa yang sesuai." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ masuk Taiwan → Korea",
+      "items": [
+        { "q": "Apakah pelancong dari Taiwan memerlukan visa untuk Korea?", "a": "Tidak — untuk wisata jangka pendek, pemegang paspor Taiwan masuk ke Korea tanpa visa. Anda tidak mengajukan visa turis apa pun." },
+        { "q": "Apakah saya memerlukan K-ETA?", "a": "Saat ini tidak. Taiwan termasuk di antara 22 negara yang dibebaskan dari K-ETA hingga 31 Desember 2026. Persyaratan ini dijadwalkan kembali pada 1 Januari 2027 kecuali diperpanjang." },
+        { "q": "Apakah saya tetap memerlukan e-Arrival Card?", "a": "Ya — sebagian besar pengunjung mengisi e-Arrival Card gratis di e-arrivalcard.go.kr, dalam waktu 72 jam sebelum tiba." },
+        { "q": "Berapa lama saya boleh tinggal?", "a": "Hingga 90 hari, untuk wisata." },
+        { "q": "Bisakah saya bekerja atau belajar dengan masuk ini?", "a": "Tidak. Masuk bebas visa hanya untuk wisata dan kunjungan singkat; bekerja atau belajar memerlukan visa yang sesuai." },
+        { "q": "Kapan K-ETA kembali berlaku?", "a": "Pembebasan dijadwalkan berakhir pada 31 Desember 2026, dengan K-ETA berlaku lagi mulai 1 Januari 2027 kecuali diperpanjang — konfirmasikan kembali menjelang tanggal perjalanan Anda." }
+      ]
+    },
+    "ui": { "visa": "Visa", "stay": "Masa tinggal", "entry": "Masuk", "where": "Di mana", "official": "Sumber resmi", "required": "Wajib", "conditional": "Jika berlaku", "recommended": "Disarankan", "confirm": "Biaya/aturan dapat berubah — konfirmasikan di sumber resmi", "source": "Sumber", "updated": "Diperbarui", "tldr": "Ringkasan" }
+  },
+  "ms": {
+    "kicker": "Panduan kemasukan · Taiwan → Korea",
+    "readingTime": "Bacaan 5 minit",
+    "h1": "Panduan Kemasukan ke Korea dari Taiwan",
+    "metaTitle": "Dari Taiwan ke Korea: Keperluan Visa & Panduan Kemasukan (2026) — Korea Trip Hub",
+    "metaDesc": "Adakah pelancong dari Taiwan memerlukan visa untuk Korea Selatan? Tidak — tanpa visa, dengan K-ETA turut dikecualikan sehingga 2026. Isi e-Arrival Card percuma dan ikut langkah kemasukan. Tempoh tinggal: sehingga 90 hari.",
+    "verdict": {
+      "headline": "Tiada visa pelancong diperlukan — pasport Taiwan bebas visa.",
+      "sub": "Untuk pelancongan jangka pendek anda tidak memohon sebarang visa. Buat masa ini K-ETA turut dikecualikan, jadi perkara utama yang perlu dilakukan ialah mengisi e-Arrival Card percuma sebelum mendarat.",
+      "type": "Bebas visa (K-ETA kini dikecualikan)",
+      "stay": "Sehingga 90 hari",
+      "entry": "Pelancongan jangka pendek"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "Tiada visa, dan K-ETA dikecualikan sehingga 2026", "body": "Taiwan ialah salah satu daripada 22 negara yang dikecualikan daripada K-ETA sehingga 31 Disember 2026, jadi untuk pelancongan jangka pendek anda tidak memohon visa mahupun K-ETA. Pengecualian ini dijadualkan tamat dan K-ETA kembali pada 1 Januari 2027 — sahkan semula sebelum anda bertolak." },
+      { "icon": "📝", "tone": "blue", "title": "Anda masih memerlukan e-Arrival Card", "body": "Hampir semua pengunjung mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam masa 72 jam sebelum tiba. (Pemegang K-ETA yang sah dikecualikan, tetapi kerana K-ETA sedang dikecualikan anda patut mengisi e-Arrival Card.)" }
+    ],
+    "tldr": [
+      "Buat masa ini tiada visa pelancong mahupun K-ETA diperlukan — Taiwan bebas visa dan dikecualikan K-ETA sehingga 2026.",
+      "Isilah e-Arrival Card percuma di e-arrivalcard.go.kr dalam masa 72 jam sebelum tiba.",
+      "Bawa pasport yang sah sepanjang tempoh tinggal anda beserta bukti perjalanan seterusnya/pulang.",
+      "Anda boleh tinggal sehingga 90 hari."
+    ],
+    "steps": {
+      "title": "Langkah kemasukan anda",
+      "items": [
+        { "n": 1, "title": "Sahkan anda bebas visa", "detail": "Pasport Taiwan masuk ke Korea tanpa visa untuk pelancongan jangka pendek, dan K-ETA dikecualikan sehingga 2026 — tiada apa-apa untuk dimohon." },
+        { "n": 2, "title": "Isi e-Arrival Card", "detail": "Dalam masa 72 jam sebelum tiba, lengkapkannya secara percuma di e-arrivalcard.go.kr dan simpan QR/pengesahan.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "Semak pasport & tiket seterusnya", "detail": "Pastikan pasport anda sah sepanjang tempoh tinggal, dan sediakan tiket pulang/seterusnya beserta alamat penginapan pertama anda." },
+        { "n": 4, "title": "Di kawalan imigresen", "detail": "Tunjukkan pasport dan pengesahan e-Arrival anda; cap jari dan gambar mungkin diambil. Kekalkan tujuan pelancongan — tiada kerja bergaji dibenarkan dengan kemasukan bebas visa." }
+      ]
+    },
+    "documents": {
+      "title": "Apa yang perlu disediakan",
+      "intro": "Anda tidak mengemukakan permohonan visa — tetapi sediakan perkara ini untuk kemasukan yang lancar.",
+      "cols": ["Perkara", "Di mana untuk mendapatkannya", "Catatan"],
+      "rows": [
+        { "doc": "Pasport", "req": "required", "where": "Anda sudah memilikinya", "how": "Sah sepanjang tempoh tinggal anda." },
+        { "doc": "Pengesahan e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Percuma; isi dalam masa 72 jam sebelum tiba dan simpan QR.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "Tiket pulang/seterusnya", "req": "required", "where": "Syarikat penerbangan / agensi pelancongan", "how": "Bukti bahawa anda akan bertolak dalam tempoh tinggal yang dibenarkan." },
+        { "doc": "Alamat penginapan", "req": "required", "where": "Laman tempahan", "how": "Alamat hotel/penginapan pertama anda (ditanya pada e-Arrival Card)." },
+        { "doc": "Dana untuk perjalanan anda", "req": "recommended", "where": "Anda", "how": "Kad diterima secara meluas; bawa sedikit wang tunai untuk pasar dan peniaga kecil." }
+      ],
+      "legend": { "required": "Wajib", "conditional": "Jika berkenaan", "recommended": "Disyorkan" }
+    },
+    "pitfalls": {
+      "title": "Kesilapan kemasukan yang biasa",
+      "items": [
+        { "icon": "🕸️", "t": "Membayar 'yuran visa/K-ETA' yang anda tidak perlu bayar", "d": "Buat masa ini anda tidak perlukan visa mahupun K-ETA. Laman penipuan masih mengenakan bayaran untuknya — abaikan sahaja." },
+        { "icon": "📝", "t": "Melangkau e-Arrival Card", "d": "Kebanyakan pengunjung wajib mengisinya (percuma). Lakukannya dalam masa 72 jam sebelum tiba." },
+        { "icon": "⏰", "t": "Mengisi e-Arrival Card terlalu awal", "d": "Ia luput 72 jam selepas dihantar — isikannya hampir dengan penerbangan anda, bukan berminggu-minggu lebih awal." },
+        { "icon": "🗓️", "t": "Tinggal melebihi tempoh yang dibenarkan", "d": "Tinggal melebihi sehingga 90 hari berisiko denda dan larangan masuk pada masa hadapan." },
+        { "icon": "💼", "t": "Bekerja dengan kemasukan pelancong", "d": "Kemasukan bebas visa hanya untuk pelancongan/lawatan — kerja bergaji memerlukan visa yang sesuai." }
+      ]
+    },
+    "faq": {
+      "title": "Soalan Lazim kemasukan Taiwan → Korea",
+      "items": [
+        { "q": "Adakah pelancong dari Taiwan memerlukan visa untuk Korea?", "a": "Tidak — untuk pelancongan jangka pendek, pemegang pasport Taiwan masuk ke Korea tanpa visa. Anda tidak memohon sebarang visa pelancong." },
+        { "q": "Adakah saya memerlukan K-ETA?", "a": "Buat masa ini tidak. Taiwan termasuk dalam 22 negara yang dikecualikan daripada K-ETA sehingga 31 Disember 2026. Keperluan ini dijadualkan kembali pada 1 Januari 2027 melainkan dilanjutkan." },
+        { "q": "Adakah saya masih memerlukan e-Arrival Card?", "a": "Ya — kebanyakan pengunjung mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam masa 72 jam sebelum tiba." },
+        { "q": "Berapa lama saya boleh tinggal?", "a": "Sehingga 90 hari, untuk pelancongan." },
+        { "q": "Bolehkah saya bekerja atau belajar dengan kemasukan ini?", "a": "Tidak. Kemasukan bebas visa hanya untuk pelancongan dan lawatan singkat; bekerja atau belajar memerlukan visa yang sesuai." },
+        { "q": "Bilakah K-ETA kembali?", "a": "Pengecualian dijadualkan tamat pada 31 Disember 2026, dengan K-ETA disambung semula pada 1 Januari 2027 melainkan dilanjutkan — sahkan semula hampir dengan tarikh perjalanan anda." }
+      ]
+    },
+    "ui": { "visa": "Visa", "stay": "Tempoh tinggal", "entry": "Kemasukan", "where": "Di mana", "official": "Sumber rasmi", "required": "Wajib", "conditional": "Jika berkenaan", "recommended": "Disyorkan", "confirm": "Yuran/peraturan berubah — sahkan di sumber rasmi", "source": "Sumber", "updated": "Dikemas kini", "tldr": "Ringkasan" }
   }
 }

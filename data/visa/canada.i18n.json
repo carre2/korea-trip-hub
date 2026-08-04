@@ -344,5 +344,281 @@
       ]
     },
     "ui": { "visa": "Visado", "stay": "Estancia", "entry": "Entrada", "where": "Dónde", "official": "Fuentes oficiales", "required": "Obligatorio", "conditional": "Si corresponde", "recommended": "Recomendado", "confirm": "Las tarifas/reglas cambian: confírmalo en la fuente", "source": "Fuente", "updated": "Actualizado", "tldr": "Resumen" }
+  },
+  "vi": {
+    "kicker": "Hướng dẫn nhập cảnh · Canada → Hàn Quốc",
+    "readingTime": "Đọc trong 5 phút",
+    "h1": "Hướng dẫn nhập cảnh Hàn Quốc từ Canada",
+    "metaTitle": "Từ Canada đến Hàn Quốc: Yêu cầu thị thực & hướng dẫn nhập cảnh (2026) — Korea Trip Hub",
+    "metaDesc": "Du khách từ Canada có cần thị thực vào Hàn Quốc không? Không — miễn thị thực, và K-ETA được miễn đến hết 2026. Hãy nộp e-Arrival Card miễn phí và làm theo các bước nhập cảnh. Thời gian lưu trú: tối đa 180 days (6 months).",
+    "verdict": {
+      "headline": "Không cần thị thực du lịch — hộ chiếu Canada được miễn thị thực.",
+      "sub": "Với du lịch ngắn hạn bạn không phải xin bất kỳ thị thực nào. Hiện tại K-ETA cũng được miễn, nên việc chính cần làm là nộp e-Arrival Card miễn phí trước khi hạ cánh.",
+      "type": "Miễn thị thực (K-ETA hiện được miễn)",
+      "stay": "Tối đa 180 days (6 months)",
+      "entry": "Du lịch ngắn hạn"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "Không cần thị thực, và K-ETA được miễn đến hết 2026", "body": "Canada là một trong 22 quốc gia được miễn K-ETA đến 31 Dec 2026, nên với du lịch ngắn hạn bạn không xin thị thực cũng không xin K-ETA. Việc miễn này dự kiến kết thúc và K-ETA quay lại vào 1 Jan 2027 — hãy xác nhận lại trước khi đi." },
+      { "icon": "📝", "tone": "blue", "title": "Bạn vẫn cần e-Arrival Card", "body": "Hầu hết mọi du khách đều nộp e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 hours trước khi đến. (Người có K-ETA hợp lệ được miễn, nhưng khi K-ETA đang được miễn thì bạn nên nộp e-Arrival Card.)" },
+      { "icon": "🗓️", "tone": "amber", "title": "Canada: tối đa 6 months", "body": "Theo thỏa thuận giữa Hàn Quốc và Canada, công dân Canada có thể lưu trú miễn thị thực tối đa 180 days (6 months) — dài hơn mức 90 days thông thường. Hãy xác nhận thời hạn chính xác của bạn khi nhập cảnh." }
+    ],
+    "tldr": [
+      "Hiện tại không cần thị thực du lịch cũng không cần K-ETA — Canada được miễn thị thực và miễn K-ETA đến hết 2026.",
+      "Hãy nộp e-Arrival Card miễn phí tại e-arrivalcard.go.kr trong vòng 72 hours trước khi đến.",
+      "Mang theo hộ chiếu còn hạn trong suốt thời gian lưu trú và bằng chứng về hành trình đi tiếp/khứ hồi.",
+      "Bạn có thể lưu trú tối đa 180 days (6 months)."
+    ],
+    "steps": {
+      "title": "Các bước nhập cảnh của bạn",
+      "items": [
+        { "n": 1, "title": "Xác nhận bạn được miễn thị thực", "detail": "Hộ chiếu Canada nhập cảnh Hàn Quốc miễn thị thực cho du lịch ngắn hạn, và K-ETA được miễn đến hết 2026 — không có gì phải xin cả." },
+        { "n": 2, "title": "Nộp e-Arrival Card", "detail": "Trong vòng 72 hours trước khi đến, điền miễn phí tại e-arrivalcard.go.kr và lưu mã QR/xác nhận.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "Kiểm tra hộ chiếu & vé đi tiếp", "detail": "Đảm bảo hộ chiếu còn hạn trong suốt thời gian lưu trú, và có vé khứ hồi/đi tiếp cùng địa chỉ nơi ở đầu tiên." },
+        { "n": 4, "title": "Tại cửa nhập cảnh", "detail": "Xuất trình hộ chiếu và xác nhận e-Arrival; có thể bạn sẽ được lấy vân tay và chụp ảnh. Chỉ nhằm mục đích du lịch — không làm việc có lương khi nhập cảnh miễn thị thực." }
+      ]
+    },
+    "documents": {
+      "title": "Những gì cần chuẩn bị sẵn",
+      "intro": "Bạn không nộp đơn xin thị thực — nhưng hãy chuẩn bị sẵn những thứ này để nhập cảnh suôn sẻ.",
+      "cols": ["Mục", "Lấy ở đâu", "Ghi chú"],
+      "rows": [
+        { "doc": "Hộ chiếu", "req": "required", "where": "Bạn đã có", "how": "Còn hạn trong suốt thời gian lưu trú của bạn." },
+        { "doc": "Xác nhận e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Miễn phí; nộp trong vòng 72 hours trước khi đến và lưu mã QR.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "Vé khứ hồi / đi tiếp", "req": "required", "where": "Hãng bay / đại lý du lịch", "how": "Bằng chứng bạn sẽ rời đi trong thời gian lưu trú được phép." },
+        { "doc": "Địa chỉ nơi ở", "req": "required", "where": "Các trang đặt phòng", "how": "Địa chỉ khách sạn/nơi ở đầu tiên của bạn (được hỏi trên e-Arrival Card)." },
+        { "doc": "Chi phí cho chuyến đi", "req": "recommended", "where": "Bạn", "how": "Thẻ được chấp nhận rộng rãi; hãy mang theo một ít tiền mặt cho chợ và các cửa hàng nhỏ." }
+      ],
+      "legend": { "required": "Bắt buộc", "conditional": "Nếu áp dụng", "recommended": "Khuyến nghị" }
+    },
+    "pitfalls": {
+      "title": "Những lỗi nhập cảnh thường gặp",
+      "items": [
+        { "icon": "🕸️", "t": "Trả 'phí thị thực/K-ETA' mà bạn không nợ", "d": "Hiện tại bạn không cần thị thực cũng không cần K-ETA. Các trang lừa đảo vẫn thu phí cho chúng — hãy phớt lờ." },
+        { "icon": "📝", "t": "Bỏ qua e-Arrival Card", "d": "Hầu hết du khách phải nộp nó (miễn phí). Hãy làm trong vòng 72 hours trước khi đến." },
+        { "icon": "⏰", "t": "Nộp e-Arrival Card quá sớm", "d": "Nó hết hạn 72 hours sau khi gửi — hãy nộp gần chuyến bay của bạn, đừng nộp trước nhiều tuần." },
+        { "icon": "🗓️", "t": "Lưu trú quá thời hạn cho phép", "d": "Ở lại quá tối đa 180 days (6 months) có nguy cơ bị phạt tiền và cấm nhập cảnh trong tương lai." },
+        { "icon": "💼", "t": "Làm việc khi nhập cảnh du lịch", "d": "Nhập cảnh miễn thị thực chỉ dành cho du lịch/thăm viếng — làm việc có lương cần thị thực phù hợp." }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về nhập cảnh Canada → Hàn Quốc",
+      "items": [
+        { "q": "Du khách từ Canada có cần thị thực vào Hàn Quốc không?", "a": "Không — với du lịch ngắn hạn, người mang hộ chiếu Canada nhập cảnh Hàn Quốc miễn thị thực. Bạn không xin bất kỳ thị thực du lịch nào." },
+        { "q": "Tôi có cần K-ETA không?", "a": "Hiện tại thì không. Canada nằm trong số 22 quốc gia được miễn K-ETA đến 31 Dec 2026. Yêu cầu này dự kiến quay lại vào 1 Jan 2027 trừ khi được gia hạn." },
+        { "q": "Tôi vẫn cần e-Arrival Card chứ?", "a": "Có — hầu hết du khách nộp e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 hours trước khi đến." },
+        { "q": "Tôi có thể lưu trú bao lâu?", "a": "Tối đa 180 days (6 months), cho mục đích du lịch." },
+        { "q": "Tôi có thể làm việc hay học tập với lần nhập cảnh này không?", "a": "Không. Nhập cảnh miễn thị thực chỉ dành cho du lịch và thăm viếng ngắn hạn; làm việc hay học tập cần thị thực phù hợp." },
+        { "q": "Khi nào K-ETA quay lại?", "a": "Việc miễn dự kiến kết thúc vào 31 Dec 2026, và K-ETA hoạt động lại từ 1 Jan 2027 trừ khi được gia hạn — hãy xác nhận lại gần ngày đi của bạn." }
+      ]
+    },
+    "ui": { "visa": "Thị thực", "stay": "Lưu trú", "entry": "Mục đích nhập cảnh", "where": "Lấy ở đâu", "official": "Nguồn chính thức", "required": "Bắt buộc", "conditional": "Nếu áp dụng", "recommended": "Khuyến nghị", "confirm": "Phí và quy định thay đổi — hãy xác nhận từ nguồn chính thức", "source": "Nguồn", "updated": "Cập nhật", "tldr": "Tóm tắt" }
+  },
+  "th": {
+    "kicker": "คู่มือการเข้าเมือง · แคนาดา → เกาหลี",
+    "readingTime": "อ่าน 5 นาที",
+    "h1": "คู่มือการเข้าประเทศเกาหลีจากแคนาดา",
+    "metaTitle": "จากแคนาดาสู่เกาหลี: ข้อกำหนดวีซ่าและคู่มือการเข้าเมือง (2026) — Korea Trip Hub",
+    "metaDesc": "นักเดินทางจากแคนาดาต้องมีวีซ่าเข้าเกาหลีใต้ไหม? ไม่ต้อง — เข้าได้โดยไม่ต้องมีวีซ่า และ K-ETA ได้รับการยกเว้นจนถึงปี 2026 ยื่น e-Arrival Card ฟรีและทำตามขั้นตอนการเข้าเมือง ระยะพำนัก: สูงสุด 180 days (6 months)",
+    "verdict": {
+      "headline": "ไม่ต้องมีวีซ่าท่องเที่ยว — หนังสือเดินทางแคนาดาเข้าได้โดยไม่ต้องมีวีซ่า",
+      "sub": "สำหรับการท่องเที่ยวระยะสั้นคุณไม่ต้องยื่นขอวีซ่าใด ๆ ตอนนี้ K-ETA ก็ได้รับการยกเว้นเช่นกัน ดังนั้นสิ่งหลักที่ต้องทำคือยื่น e-Arrival Card ฟรีก่อนเครื่องลง",
+      "type": "ไม่ต้องมีวีซ่า (ขณะนี้ K-ETA ได้รับการยกเว้น)",
+      "stay": "สูงสุด 180 days (6 months)",
+      "entry": "ท่องเที่ยวระยะสั้น"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "ไม่ต้องมีวีซ่า และ K-ETA ได้รับการยกเว้นจนถึงปี 2026", "body": "แคนาดาเป็นหนึ่งใน 22 ประเทศที่ได้รับการยกเว้น K-ETA จนถึง 31 Dec 2026 ดังนั้นสำหรับการท่องเที่ยวระยะสั้นคุณไม่ต้องยื่นทั้งวีซ่าและ K-ETA การยกเว้นนี้มีกำหนดสิ้นสุดและ K-ETA จะกลับมาในวันที่ 1 Jan 2027 — โปรดยืนยันอีกครั้งก่อนเดินทาง" },
+      { "icon": "📝", "tone": "blue", "title": "คุณยังคงต้องมี e-Arrival Card", "body": "ผู้มาเยือนเกือบทุกคนยื่น e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 hours ก่อนเดินทางถึง (ผู้ถือ K-ETA ที่ยังใช้ได้ได้รับการยกเว้น แต่เมื่อ K-ETA ได้รับการยกเว้นอยู่ คุณควรยื่น e-Arrival Card)" },
+      { "icon": "🗓️", "tone": "amber", "title": "แคนาดา: สูงสุด 6 months", "body": "ภายใต้ข้อตกลงระหว่างเกาหลีและแคนาดา พลเมืองแคนาดาสามารถพำนักโดยไม่ต้องมีวีซ่าได้สูงสุด 180 days (6 months) — นานกว่าปกติที่ 90 days โปรดยืนยันจำนวนวันที่อนุญาตที่แน่นอนของคุณเมื่อเข้าเมือง" }
+    ],
+    "tldr": [
+      "ตอนนี้ไม่ต้องมีวีซ่าท่องเที่ยวและไม่ต้องมี K-ETA — แคนาดาเข้าได้โดยไม่ต้องมีวีซ่าและได้รับการยกเว้น K-ETA จนถึงปี 2026",
+      "โปรดยื่น e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 hours ก่อนเดินทางถึง",
+      "นำหนังสือเดินทางที่มีอายุครอบคลุมระยะพำนักของคุณ และหลักฐานการเดินทางต่อ/ขากลับมาด้วย",
+      "คุณสามารถพำนักได้สูงสุด 180 days (6 months)"
+    ],
+    "steps": {
+      "title": "ขั้นตอนการเข้าเมืองของคุณ",
+      "items": [
+        { "n": 1, "title": "ยืนยันว่าคุณไม่ต้องมีวีซ่า", "detail": "หนังสือเดินทางแคนาดาเข้าเกาหลีได้โดยไม่ต้องมีวีซ่าสำหรับการท่องเที่ยวระยะสั้น และ K-ETA ได้รับการยกเว้นจนถึงปี 2026 — ไม่มีอะไรต้องยื่นขอ" },
+        { "n": 2, "title": "ยื่น e-Arrival Card", "detail": "ภายใน 72 hours ก่อนเดินทางถึง กรอกฟรีที่ e-arrivalcard.go.kr และบันทึก QR/ใบยืนยัน", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "ตรวจสอบหนังสือเดินทางและตั๋วเดินทางต่อ", "detail": "ตรวจสอบให้แน่ใจว่าหนังสือเดินทางของคุณมีอายุครอบคลุมระยะพำนัก และมีตั๋วขากลับ/เดินทางต่อพร้อมที่อยู่ที่พักแห่งแรกของคุณ" },
+        { "n": 4, "title": "ที่ด่านตรวจคนเข้าเมือง", "detail": "แสดงหนังสือเดินทางและใบยืนยัน e-Arrival ของคุณ อาจมีการเก็บลายนิ้วมือและถ่ายรูป เน้นเพื่อการท่องเที่ยว — ห้ามทำงานที่ได้รับค่าจ้างเมื่อเข้าเมืองโดยไม่ต้องมีวีซ่า" }
+      ]
+    },
+    "documents": {
+      "title": "สิ่งที่ควรเตรียมพร้อม",
+      "intro": "คุณไม่ต้องยื่นคำขอวีซ่า — แต่เตรียมสิ่งเหล่านี้ให้พร้อมเพื่อการเข้าเมืองที่ราบรื่น",
+      "cols": ["รายการ", "หาได้ที่ไหน", "หมายเหตุ"],
+      "rows": [
+        { "doc": "หนังสือเดินทาง", "req": "required", "where": "คุณมีอยู่แล้ว", "how": "มีอายุครอบคลุมตลอดระยะพำนักของคุณ" },
+        { "doc": "ใบยืนยัน e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "ฟรี; ยื่นภายใน 72 hours ก่อนเดินทางถึงและบันทึก QR", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "ตั๋วขากลับ / เดินทางต่อ", "req": "required", "where": "สายการบิน / ตัวแทนท่องเที่ยว", "how": "หลักฐานว่าคุณจะออกภายในระยะพำนักที่อนุญาต" },
+        { "doc": "ที่อยู่ที่พัก", "req": "required", "where": "เว็บไซต์จองที่พัก", "how": "ที่อยู่โรงแรม/ที่พักแห่งแรกของคุณ (ถูกถามใน e-Arrival Card)" },
+        { "doc": "เงินสำหรับการเดินทาง", "req": "recommended", "where": "ตัวคุณเอง", "how": "บัตรใช้ได้อย่างแพร่หลาย; พกเงินสดบ้างสำหรับตลาดและร้านค้าเล็ก ๆ" }
+      ],
+      "legend": { "required": "จำเป็น", "conditional": "หากเข้าเงื่อนไข", "recommended": "แนะนำ" }
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดในการเข้าเมืองที่พบบ่อย",
+      "items": [
+        { "icon": "🕸️", "t": "จ่าย 'ค่าธรรมเนียมวีซ่า/K-ETA' ที่คุณไม่ได้ติดค้าง", "d": "ตอนนี้คุณไม่ต้องมีทั้งวีซ่าและ K-ETA เว็บไซต์หลอกลวงยังคงเก็บค่าธรรมเนียมสำหรับสิ่งเหล่านี้ — เพิกเฉยเสีย" },
+        { "icon": "📝", "t": "ข้าม e-Arrival Card", "d": "ผู้มาเยือนส่วนใหญ่ต้องยื่น (ฟรี) ทำภายใน 72 hours ก่อนเดินทางถึง" },
+        { "icon": "⏰", "t": "ยื่น e-Arrival Card เร็วเกินไป", "d": "จะหมดอายุ 72 hours หลังจากส่ง — ยื่นใกล้กับเที่ยวบินของคุณ ไม่ใช่ล่วงหน้าหลายสัปดาห์" },
+        { "icon": "🗓️", "t": "พำนักเกินระยะที่อนุญาต", "d": "การอยู่เกินสูงสุด 180 days (6 months) เสี่ยงต่อค่าปรับและการห้ามเข้าเมืองในอนาคต" },
+        { "icon": "💼", "t": "ทำงานด้วยการเข้าเมืองแบบท่องเที่ยว", "d": "การเข้าเมืองโดยไม่ต้องมีวีซ่าเป็นเพื่อการท่องเที่ยว/เยี่ยมเยียนเท่านั้น — งานที่ได้รับค่าจ้างต้องมีวีซ่าที่เหมาะสม" }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเกี่ยวกับการเข้าเมือง แคนาดา → เกาหลี",
+      "items": [
+        { "q": "นักเดินทางจากแคนาดาต้องมีวีซ่าเข้าเกาหลีไหม?", "a": "ไม่ต้อง — สำหรับการท่องเที่ยวระยะสั้น ผู้ถือหนังสือเดินทางแคนาดาเข้าเกาหลีได้โดยไม่ต้องมีวีซ่า คุณไม่ต้องยื่นขอวีซ่าท่องเที่ยวใด ๆ" },
+        { "q": "ฉันต้องมี K-ETA ไหม?", "a": "ตอนนี้ไม่ต้อง แคนาดาอยู่ในกลุ่ม 22 ประเทศที่ได้รับการยกเว้น K-ETA จนถึง 31 Dec 2026 ข้อกำหนดนี้มีกำหนดกลับมาในวันที่ 1 Jan 2027 เว้นแต่จะมีการขยายเวลา" },
+        { "q": "ฉันยังต้องมี e-Arrival Card ไหม?", "a": "ต้อง — ผู้มาเยือนส่วนใหญ่ยื่น e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 hours ก่อนเดินทางถึง" },
+        { "q": "ฉันพำนักได้นานแค่ไหน?", "a": "สูงสุด 180 days (6 months) เพื่อการท่องเที่ยว" },
+        { "q": "ฉันทำงานหรือเรียนด้วยการเข้าเมืองครั้งนี้ได้ไหม?", "a": "ไม่ได้ การเข้าเมืองโดยไม่ต้องมีวีซ่าเป็นเพื่อการท่องเที่ยวและการเยี่ยมเยียนระยะสั้นเท่านั้น การทำงานหรือเรียนต้องมีวีซ่าที่เหมาะสม" },
+        { "q": "K-ETA จะกลับมาเมื่อไหร่?", "a": "การยกเว้นมีกำหนดสิ้นสุดในวันที่ 31 Dec 2026 และ K-ETA จะกลับมาในวันที่ 1 Jan 2027 เว้นแต่จะมีการขยายเวลา — โปรดยืนยันอีกครั้งใกล้วันเดินทางของคุณ" }
+      ]
+    },
+    "ui": { "visa": "วีซ่า", "stay": "ระยะพำนัก", "entry": "วัตถุประสงค์การเข้าเมือง", "where": "หาได้ที่ไหน", "official": "แหล่งข้อมูลทางการ", "required": "จำเป็น", "conditional": "หากเข้าเงื่อนไข", "recommended": "แนะนำ", "confirm": "ค่าธรรมเนียม/กฎเปลี่ยนแปลงได้ — โปรดยืนยันจากแหล่งทางการ", "source": "แหล่งที่มา", "updated": "อัปเดต", "tldr": "สรุป" }
+  },
+  "id": {
+    "kicker": "Panduan masuk · Kanada → Korea",
+    "readingTime": "Baca 5 menit",
+    "h1": "Panduan Masuk Korea dari Kanada",
+    "metaTitle": "Dari Kanada ke Korea: Persyaratan Visa & Panduan Masuk (2026) — Korea Trip Hub",
+    "metaDesc": "Apakah wisatawan dari Kanada butuh visa untuk Korea Selatan? Tidak — bebas visa, dengan K-ETA dibebaskan hingga 2026. Ajukan e-Arrival Card gratis dan ikuti langkah-langkah masuk. Lama tinggal: hingga 180 days (6 months).",
+    "verdict": {
+      "headline": "Tidak perlu visa turis — paspor Kanada bebas visa.",
+      "sub": "Untuk wisata jangka pendek Anda tidak mengajukan visa apa pun. Saat ini K-ETA juga dibebaskan, jadi hal utama yang perlu dilakukan adalah mengajukan e-Arrival Card gratis sebelum mendarat.",
+      "type": "Bebas visa (K-ETA saat ini dibebaskan)",
+      "stay": "Hingga 180 days (6 months)",
+      "entry": "Wisata jangka pendek"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "Tanpa visa, dan K-ETA dibebaskan hingga 2026", "body": "Kanada adalah salah satu dari 22 negara yang dibebaskan dari K-ETA hingga 31 Dec 2026, jadi untuk wisata jangka pendek Anda tidak mengajukan visa maupun K-ETA. Pembebasan ini dijadwalkan berakhir dan K-ETA kembali pada 1 Jan 2027 — konfirmasikan lagi sebelum bepergian." },
+      { "icon": "📝", "tone": "blue", "title": "Anda tetap perlu e-Arrival Card", "body": "Hampir setiap pengunjung mengajukan e-Arrival Card gratis di e-arrivalcard.go.kr, dalam 72 hours sebelum kedatangan. (Pemegang K-ETA yang berlaku dibebaskan, tetapi karena K-ETA dibebaskan sebaiknya Anda mengajukan e-Arrival Card.)" },
+      { "icon": "🗓️", "tone": "amber", "title": "Kanada: hingga 6 months", "body": "Berdasarkan pengaturan antara Korea dan Kanada, warga negara Kanada dapat tinggal tanpa visa hingga 180 days (6 months) — lebih lama dari 90 days yang biasa. Konfirmasikan batas pasti Anda saat masuk." }
+    ],
+    "tldr": [
+      "Saat ini tidak perlu visa turis maupun K-ETA — Kanada bebas visa dan bebas K-ETA hingga 2026.",
+      "Ajukan e-Arrival Card gratis di e-arrivalcard.go.kr dalam 72 hours sebelum kedatangan.",
+      "Bawa paspor yang berlaku selama masa tinggal Anda serta bukti perjalanan lanjutan/pulang.",
+      "Anda dapat tinggal hingga 180 days (6 months)."
+    ],
+    "steps": {
+      "title": "Langkah-langkah masuk Anda",
+      "items": [
+        { "n": 1, "title": "Pastikan Anda bebas visa", "detail": "Paspor Kanada masuk Korea bebas visa untuk wisata jangka pendek, dan K-ETA dibebaskan hingga 2026 — tidak ada yang perlu diajukan." },
+        { "n": 2, "title": "Ajukan e-Arrival Card", "detail": "Dalam 72 hours sebelum kedatangan, isi gratis di e-arrivalcard.go.kr dan simpan QR/konfirmasinya.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "Periksa paspor & tiket lanjutan", "detail": "Pastikan paspor Anda berlaku selama masa tinggal, dan miliki tiket pulang/lanjutan serta alamat penginapan pertama Anda." },
+        { "n": 4, "title": "Di imigrasi", "detail": "Tunjukkan paspor dan konfirmasi e-Arrival Anda; sidik jari dan foto mungkin diambil. Tetap untuk wisata — tidak ada pekerjaan berbayar pada masuk bebas visa." }
+      ]
+    },
+    "documents": {
+      "title": "Apa yang perlu disiapkan",
+      "intro": "Anda tidak mengajukan permohonan visa — tetapi siapkan ini agar masuk berjalan lancar.",
+      "cols": ["Item", "Di mana mendapatkannya", "Catatan"],
+      "rows": [
+        { "doc": "Paspor", "req": "required", "where": "Sudah Anda miliki", "how": "Berlaku selama masa tinggal Anda." },
+        { "doc": "Konfirmasi e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Gratis; ajukan dalam 72 hours sebelum kedatangan dan simpan QR-nya.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "Tiket pulang / lanjutan", "req": "required", "where": "Maskapai / agen perjalanan", "how": "Bukti bahwa Anda akan pergi dalam masa tinggal yang diizinkan." },
+        { "doc": "Alamat penginapan", "req": "required", "where": "Situs pemesanan", "how": "Alamat hotel/penginapan pertama Anda (ditanyakan di e-Arrival Card)." },
+        { "doc": "Dana untuk perjalanan Anda", "req": "recommended", "where": "Anda", "how": "Kartu diterima luas; bawa sedikit uang tunai untuk pasar dan pedagang kecil." }
+      ],
+      "legend": { "required": "Wajib", "conditional": "Jika berlaku", "recommended": "Disarankan" }
+    },
+    "pitfalls": {
+      "title": "Kesalahan masuk yang umum",
+      "items": [
+        { "icon": "🕸️", "t": "Membayar 'biaya visa/K-ETA' yang tidak Anda utang", "d": "Saat ini Anda tidak perlu visa maupun K-ETA. Situs penipuan masih menagih untuk itu — abaikan saja." },
+        { "icon": "📝", "t": "Melewatkan e-Arrival Card", "d": "Sebagian besar pengunjung harus mengajukannya (gratis). Lakukan dalam 72 hours sebelum kedatangan." },
+        { "icon": "⏰", "t": "Mengajukan e-Arrival Card terlalu awal", "d": "Kedaluwarsa 72 hours setelah pengajuan — ajukan mendekati penerbangan Anda, bukan berminggu-minggu sebelumnya." },
+        { "icon": "🗓️", "t": "Tinggal melebihi batas Anda", "d": "Tinggal melebihi hingga 180 days (6 months) berisiko denda dan larangan masuk di masa depan." },
+        { "icon": "💼", "t": "Bekerja dengan masuk turis", "d": "Masuk bebas visa hanya untuk wisata/kunjungan — pekerjaan berbayar memerlukan visa yang sesuai." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ masuk Kanada → Korea",
+      "items": [
+        { "q": "Apakah wisatawan dari Kanada butuh visa untuk Korea?", "a": "Tidak — untuk wisata jangka pendek, pemegang paspor Kanada masuk Korea bebas visa. Anda tidak mengajukan visa turis apa pun." },
+        { "q": "Apakah saya butuh K-ETA?", "a": "Saat ini tidak. Kanada termasuk 22 negara yang dibebaskan dari K-ETA hingga 31 Dec 2026. Persyaratan ini dijadwalkan kembali pada 1 Jan 2027 kecuali diperpanjang." },
+        { "q": "Apakah saya tetap butuh e-Arrival Card?", "a": "Ya — sebagian besar pengunjung mengajukan e-Arrival Card gratis di e-arrivalcard.go.kr, dalam 72 hours sebelum kedatangan." },
+        { "q": "Berapa lama saya bisa tinggal?", "a": "Hingga 180 days (6 months), untuk wisata." },
+        { "q": "Bisakah saya bekerja atau belajar dengan masuk ini?", "a": "Tidak. Masuk bebas visa hanya untuk wisata dan kunjungan singkat; bekerja atau belajar memerlukan visa yang sesuai." },
+        { "q": "Kapan K-ETA kembali?", "a": "Pembebasan dijadwalkan berakhir pada 31 Dec 2026, dengan K-ETA dilanjutkan 1 Jan 2027 kecuali diperpanjang — konfirmasikan lagi mendekati tanggal perjalanan Anda." }
+      ]
+    },
+    "ui": { "visa": "Visa", "stay": "Lama tinggal", "entry": "Tujuan masuk", "where": "Di mana", "official": "Sumber resmi", "required": "Wajib", "conditional": "Jika berlaku", "recommended": "Disarankan", "confirm": "Biaya/aturan berubah — konfirmasikan di sumber resmi", "source": "Sumber", "updated": "Diperbarui", "tldr": "Ringkasan" }
+  },
+  "ms": {
+    "kicker": "Panduan kemasukan · Kanada → Korea",
+    "readingTime": "Bacaan 5 minit",
+    "h1": "Panduan Kemasukan Korea dari Kanada",
+    "metaTitle": "Dari Kanada ke Korea: Keperluan Visa & Panduan Kemasukan (2026) — Korea Trip Hub",
+    "metaDesc": "Adakah pelancong dari Kanada memerlukan visa untuk Korea Selatan? Tidak — bebas visa, dengan K-ETA dikecualikan hingga 2026. Isi e-Arrival Card percuma dan ikuti langkah kemasukan. Tempoh tinggal: sehingga 180 days (6 months).",
+    "verdict": {
+      "headline": "Tiada visa pelancong diperlukan — pasport Kanada bebas visa.",
+      "sub": "Untuk pelancongan jangka pendek anda tidak memohon sebarang visa. Buat masa ini K-ETA juga dikecualikan, jadi perkara utama yang perlu dilakukan ialah mengisi e-Arrival Card percuma sebelum mendarat.",
+      "type": "Bebas visa (K-ETA kini dikecualikan)",
+      "stay": "Sehingga 180 days (6 months)",
+      "entry": "Pelancongan jangka pendek"
+    },
+    "highlights": [
+      { "icon": "✅", "tone": "green", "title": "Tiada visa, dan K-ETA dikecualikan hingga 2026", "body": "Kanada ialah salah satu daripada 22 negara yang dikecualikan daripada K-ETA hingga 31 Dec 2026, jadi untuk pelancongan jangka pendek anda tidak memohon visa mahupun K-ETA. Pengecualian ini dijadualkan tamat dan K-ETA kembali pada 1 Jan 2027 — sahkan semula sebelum anda melancong." },
+      { "icon": "📝", "tone": "blue", "title": "Anda masih perlukan e-Arrival Card", "body": "Hampir setiap pengunjung mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam masa 72 hours sebelum ketibaan. (Pemegang K-ETA yang sah dikecualikan, tetapi apabila K-ETA dikecualikan anda patut mengisi e-Arrival Card.)" },
+      { "icon": "🗓️", "tone": "amber", "title": "Kanada: sehingga 6 months", "body": "Di bawah pengaturan antara Korea dan Kanada, warganegara Kanada boleh tinggal tanpa visa sehingga 180 days (6 months) — lebih lama daripada 90 days yang biasa. Sahkan had tepat anda semasa masuk." }
+    ],
+    "tldr": [
+      "Buat masa ini tiada visa pelancong dan tiada K-ETA diperlukan — Kanada bebas visa dan dikecualikan K-ETA hingga 2026.",
+      "Isi e-Arrival Card percuma di e-arrivalcard.go.kr dalam masa 72 hours sebelum ketibaan.",
+      "Bawa pasport yang sah untuk tempoh tinggal anda serta bukti perjalanan seterusnya/pulang.",
+      "Anda boleh tinggal sehingga 180 days (6 months)."
+    ],
+    "steps": {
+      "title": "Langkah kemasukan anda",
+      "items": [
+        { "n": 1, "title": "Sahkan anda bebas visa", "detail": "Pasport Kanada masuk ke Korea bebas visa untuk pelancongan jangka pendek, dan K-ETA dikecualikan hingga 2026 — tiada apa-apa untuk dimohon." },
+        { "n": 2, "title": "Isi e-Arrival Card", "detail": "Dalam masa 72 hours sebelum ketibaan, lengkapkan secara percuma di e-arrivalcard.go.kr dan simpan QR/pengesahan.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
+        { "n": 3, "title": "Semak pasport & tiket seterusnya", "detail": "Pastikan pasport anda sah untuk tempoh tinggal, dan ada tiket pulang/seterusnya serta alamat penginapan pertama anda." },
+        { "n": 4, "title": "Di imigresen", "detail": "Tunjukkan pasport dan pengesahan e-Arrival anda; cap jari dan gambar mungkin diambil. Kekal untuk pelancongan — tiada kerja bergaji pada kemasukan bebas visa." }
+      ]
+    },
+    "documents": {
+      "title": "Apa yang perlu disediakan",
+      "intro": "Anda tidak memfailkan permohonan visa — tetapi sediakan ini untuk kemasukan yang lancar.",
+      "cols": ["Item", "Di mana mendapatkannya", "Nota"],
+      "rows": [
+        { "doc": "Pasport", "req": "required", "where": "Anda sudah ada", "how": "Sah sepanjang tempoh tinggal anda." },
+        { "doc": "Pengesahan e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Percuma; isi dalam masa 72 hours sebelum ketibaan dan simpan QR.", "link": "https://www.e-arrivalcard.go.kr" },
+        { "doc": "Tiket pulang / seterusnya", "req": "required", "where": "Syarikat penerbangan / agensi pelancongan", "how": "Bukti anda akan keluar dalam tempoh tinggal yang dibenarkan." },
+        { "doc": "Alamat penginapan", "req": "required", "where": "Laman tempahan", "how": "Alamat hotel/penginapan pertama anda (ditanya pada e-Arrival Card)." },
+        { "doc": "Dana untuk perjalanan anda", "req": "recommended", "where": "Anda", "how": "Kad diterima secara meluas; bawa sedikit wang tunai untuk pasar dan peniaga kecil." }
+      ],
+      "legend": { "required": "Diperlukan", "conditional": "Jika berkenaan", "recommended": "Disyorkan" }
+    },
+    "pitfalls": {
+      "title": "Kesilapan kemasukan yang biasa",
+      "items": [
+        { "icon": "🕸️", "t": "Membayar 'yuran visa/K-ETA' yang anda tidak terhutang", "d": "Buat masa ini anda tidak memerlukan visa mahupun K-ETA. Laman penipuan masih mengenakan bayaran untuknya — abaikan sahaja." },
+        { "icon": "📝", "t": "Melangkau e-Arrival Card", "d": "Kebanyakan pengunjung mesti mengisinya (percuma). Lakukan dalam masa 72 hours sebelum ketibaan." },
+        { "icon": "⏰", "t": "Mengisi e-Arrival Card terlalu awal", "d": "Ia tamat tempoh 72 hours selepas dihantar — isi hampir dengan penerbangan anda, bukan berminggu-minggu lebih awal." },
+        { "icon": "🗓️", "t": "Tinggal melebihi had anda", "d": "Tinggal melebihi sehingga 180 days (6 months) berisiko denda dan larangan masuk pada masa hadapan." },
+        { "icon": "💼", "t": "Bekerja dengan kemasukan pelancong", "d": "Kemasukan bebas visa adalah untuk pelancongan/lawatan sahaja — kerja bergaji memerlukan visa yang sesuai." }
+      ]
+    },
+    "faq": {
+      "title": "Soalan Lazim kemasukan Kanada → Korea",
+      "items": [
+        { "q": "Adakah pelancong dari Kanada memerlukan visa untuk Korea?", "a": "Tidak — untuk pelancongan jangka pendek, pemegang pasport Kanada masuk ke Korea bebas visa. Anda tidak memohon sebarang visa pelancong." },
+        { "q": "Adakah saya perlukan K-ETA?", "a": "Buat masa ini tidak. Kanada antara 22 negara yang dikecualikan daripada K-ETA hingga 31 Dec 2026. Keperluan ini dijadualkan kembali pada 1 Jan 2027 melainkan dilanjutkan." },
+        { "q": "Adakah saya masih perlukan e-Arrival Card?", "a": "Ya — kebanyakan pengunjung mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam masa 72 hours sebelum ketibaan." },
+        { "q": "Berapa lama saya boleh tinggal?", "a": "Sehingga 180 days (6 months), untuk pelancongan." },
+        { "q": "Bolehkah saya bekerja atau belajar dengan kemasukan ini?", "a": "Tidak. Kemasukan bebas visa adalah untuk pelancongan dan lawatan singkat sahaja; bekerja atau belajar memerlukan visa yang sesuai." },
+        { "q": "Bilakah K-ETA kembali?", "a": "Pengecualian dijadualkan tamat pada 31 Dec 2026, dengan K-ETA disambung semula 1 Jan 2027 melainkan dilanjutkan — sahkan semula hampir dengan tarikh perjalanan anda." }
+      ]
+    },
+    "ui": { "visa": "Visa", "stay": "Tinggal", "entry": "Tujuan masuk", "where": "Di mana", "official": "Sumber rasmi", "required": "Diperlukan", "conditional": "Jika berkenaan", "recommended": "Disyorkan", "confirm": "Yuran/peraturan berubah — sahkan di sumber rasmi", "source": "Sumber", "updated": "Dikemas kini", "tldr": "Ringkasan" }
   }
 }
