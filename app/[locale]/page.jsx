@@ -258,7 +258,7 @@ export default function Home({ params }) {
               <p>Search any address or place on Naver or Kakao maps, right here.</p>
             </div>
           </div>
-          <MapExplorer labels={m.map} />
+          <MapExplorer labels={m.map} locale={locale} />
         </div>
       </section>
 

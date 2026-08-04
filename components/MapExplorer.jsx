@@ -20,8 +20,15 @@ function loadScript(src, id) {
   });
 }
 
-export default function MapExplorer({ labels }) {
+// Google Maps `hl` and Naver `language` expect slightly different codes than our locale set.
+const G_HL = { zh: "zh-CN", "zh-TW": "zh-TW" }; // others (en, ja, vi, th, id, es, ms, ko) pass through
+const NAVER_LANG = { en: "en", ja: "ja", zh: "zh", "zh-TW": "zh", ko: "ko" }; // Naver supports ko/en/ja/zh only
+
+export default function MapExplorer({ labels, locale }) {
   const t = labels || {};
+  const loc = locale || "en";
+  const ghl = G_HL[loc] || loc;                 // Google shows labels in the page language (all 10)
+  const naverLang = NAVER_LANG[loc] || "en";    // Naver falls back to English where the language isn't supported
   const boxRef = useRef(null);
   const mapRef = useRef(null);
   const markerRef = useRef(null);
@@ -39,7 +46,7 @@ export default function MapExplorer({ labels }) {
       if (!NAVER_MAP_CLIENT_ID) { setNote(t.naverMissing || "Naver map key not set."); return; }
       window.navermap_authFailure = () =>
         setNote(t.authFail || "Naver Maps auth failed — check the Client ID and that this domain is registered.");
-      const url = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=${NAVER_MAP_CLIENT_ID}&submodules=geocoder`;
+      const url = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=${NAVER_MAP_CLIENT_ID}&submodules=geocoder&language=${naverLang}`;
       loadScript(url, "naver-maps-sdk")
         .then(() => {
           if (cancelled || !window.naver || !boxRef.current) return;
@@ -129,7 +136,7 @@ export default function MapExplorer({ labels }) {
       {provider === "google" ? (
         <iframe
           title="Google Map"
-          src={`https://www.google.com/maps?q=${encodeURIComponent(committed || "Seoul")}&hl=en&z=14&output=embed`}
+          src={`https://www.google.com/maps?q=${encodeURIComponent(committed || "Seoul")}&hl=${ghl}&z=14&output=embed`}
           style={{ height: 360, width: "100%", border: 0, display: "block" }}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
@@ -140,8 +147,8 @@ export default function MapExplorer({ labels }) {
 
       <div className="mapnote">
         {provider === "google"
-          ? (t.mapNoteGoogle || "Google Maps shows place names in English. For in-Korea navigation (directions), Naver or KakaoMap work best.")
-          : (t.mapNoteKorean || "Naver / KakaoMap give the best in-Korea detail and directions, but label places in Korean. Switch to Google for English labels.")}
+          ? (t.mapNoteGoogle || "Google Maps labels places in your language. For in-Korea navigation (directions & transit), Naver or KakaoMap are best.")
+          : (t.mapNoteKorean || "Naver / KakaoMap give the most detailed in-Korea directions. Naver also supports English/Japanese/Chinese; Google covers every language.")}
       </div>
       {note && (
         <div style={{ padding: "10px 14px", fontSize: 13, color: "var(--muted)", borderTop: "1px solid var(--border)" }}>
