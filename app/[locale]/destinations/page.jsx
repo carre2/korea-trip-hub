@@ -22,6 +22,7 @@ import destMs from "../../../data/destinations.ms.json";
 import destHi from "../../../data/destinations.hi.json";
 import destAr from "../../../data/destinations.ar.json";
 import destBn from "../../../data/destinations.bn.json";
+import destImages from "../../../data/dest-images.json";
 
 const destI18n = { ja: destJa, zh: destZh, "zh-TW": destZhTW, es: destEs, fr: destFr, de: destDe, pt: destPt, it: destIt, ru: destRu, ko: destKo, vi: destVi, th: destTh, id: destId, tr: destTr, fil: destFil, ms: destMs, hi: destHi, ar: destAr, bn: destBn };
 
@@ -77,9 +78,11 @@ export default function Destinations({ params }) {
                 {items.map(([slug, d]) => {
                   const f = d.factId ? fact(d.factId) : null;
                   const stat = f && f.value ? Object.values(f.value)[0] : null;
+                  const im = destImages[slug];
                   return (
                     <a className="card" key={slug} href={`/${locale}/destinations/${slug}/`}>
-                      <div className="thumb" style={{ background: d.grad }}>{d.icon}
+                      <div className={`thumb${im ? " thumb-img" : ""}`} style={im ? undefined : { background: d.grad }}>
+                        {im ? <img src={im.img} alt={d.name} loading="lazy" /> : d.icon}
                         <span className="rank">🔎 {d.rank}</span>
                       </div>
                       <div className="cbody">

@@ -3,6 +3,7 @@ import { pageMeta, breadcrumbLd, touristAttractionLd, SITE_NAME } from "../../..
 import JsonLd from "../../../../components/JsonLd";
 import { fact } from "../../../../lib/facts";
 import dest from "../../../../data/destinations.json";
+import destImages from "../../../../data/dest-images.json";
 import destJa from "../../../../data/destinations.ja.json";
 import destZh from "../../../../data/destinations.zh.json";
 import destEs from "../../../../data/destinations.es.json";
@@ -47,6 +48,7 @@ export function generateMetadata({ params }) {
 export default function DestinationDetail({ params }) {
   const locale = params?.locale || defaultLocale;
   const d = { ...dest.items[params.slug], ...(destI18n[locale]?.items?.[params.slug] || {}) };
+  const img = destImages[params.slug];
   const m = getMessages(locale);
   const t = m.dest;
   const ui = m.factsUI || {};
@@ -69,6 +71,7 @@ export default function DestinationDetail({ params }) {
           name: d.name,
           description: d.blurb,
           cityName: (dest.cities.find((c) => c.key === d.city) || {}).name,
+          image: img?.img,
         })}
       />
       <a className="crumb" href={`/${locale}/destinations/`}>← {t.browseAll}</a>
@@ -78,6 +81,17 @@ export default function DestinationDetail({ params }) {
         <h1>{d.name}</h1>
       </div>
       <p className="art-tagline">{d.blurb}</p>
+
+      {img?.img && (
+        <figure className="art-hero">
+          <img src={img.img} alt={d.name} loading="eager" />
+          {img.credit && (
+            <figcaption>
+              <a href={img.creditUrl} target="_blank" rel="noopener noreferrer">{img.credit}</a>
+            </figcaption>
+          )}
+        </figure>
+      )}
 
       {f && (
         <div className="factbox" style={{ marginBottom: 8 }}>
