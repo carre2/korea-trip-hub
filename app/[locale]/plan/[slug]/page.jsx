@@ -6,6 +6,7 @@ import GuideVisual from "../../../../components/GuideVisual";
 import TransitGuide from "../../../../components/TransitGuide";
 import AirportGuide from "../../../../components/AirportGuide";
 import SimGuide from "../../../../components/SimGuide";
+import MoneyGuide from "../../../../components/MoneyGuide";
 import guideVisa from "../../../../data/guides/visa.json";
 import guideVisaI18n from "../../../../data/guides/visa.i18n.json";
 import guideTransit from "../../../../data/guides/transit.json";
@@ -14,6 +15,7 @@ import guideAirport from "../../../../data/guides/airport.json";
 import guideAirportI18n from "../../../../data/guides/airport.i18n.json";
 import guideSim from "../../../../data/guides/sim.json";
 import guideSimI18n from "../../../../data/guides/sim.i18n.json";
+import guideMoney from "../../../../data/guides/money.json";
 import plan from "../../../../data/plan.json";
 import planJa from "../../../../data/plan.ja.json";
 import planZh from "../../../../data/plan.zh.json";
@@ -39,11 +41,11 @@ import planBn from "../../../../data/plan.bn.json";
 const planI18n = { ja: planJa, zh: planZh, "zh-TW": planZhTW, es: planEs, fr: planFr, de: planDe, pt: planPt, it: planIt, ru: planRu, ko: planKo, vi: planVi, th: planTh, id: planId, tr: planTr, fil: planFil, ms: planMs, hi: planHi, ar: planAr, bn: planBn };
 
 // Rich visual guides (English base). Keyed by slug; only slugs with a guide render the deep-dive layout.
-const guides = { visa: guideVisa, transit: guideTransit, airport: guideAirport, sim: guideSim };
+const guides = { visa: guideVisa, transit: guideTransit, airport: guideAirport, sim: guideSim, money: guideMoney };
 // Per-locale translation overrides for rich guides: { <locale>: { ...overrides } }.
 const guideI18n = { visa: guideVisaI18n, transit: guideTransitI18n, airport: guideAirportI18n, sim: guideSimI18n };
 // Which rich component renders each slug's guide body.
-const GuideBody = { visa: GuideVisual, transit: TransitGuide, airport: AirportGuide, sim: SimGuide };
+const GuideBody = { visa: GuideVisual, transit: TransitGuide, airport: AirportGuide, sim: SimGuide, money: MoneyGuide };
 
 // Deep-merge a locale override onto the English base guide (arrays replace; objects merge; scalars override).
 function mergeGuide(base, ov) {
@@ -246,7 +248,7 @@ export default function PlanArticle({ params }) {
       )}
 
       {/* Rich visual deep-dive (guide slugs only) */}
-      {guide && (() => { const Body = GuideBody[slug]; return Body ? <Body guide={guide} /> : null; })()}
+      {guide && (() => { const Body = GuideBody[slug]; return Body ? <Body guide={guide} fxLabels={m.fx} /> : null; })()}
 
       {/* Generic tips/official links (non-guide slugs) */}
       {!guide && item.tips?.length > 0 && (
