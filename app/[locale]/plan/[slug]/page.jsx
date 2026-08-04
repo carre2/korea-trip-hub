@@ -5,12 +5,14 @@ import { fact } from "../../../../lib/facts";
 import GuideVisual from "../../../../components/GuideVisual";
 import TransitGuide from "../../../../components/TransitGuide";
 import AirportGuide from "../../../../components/AirportGuide";
+import SimGuide from "../../../../components/SimGuide";
 import guideVisa from "../../../../data/guides/visa.json";
 import guideVisaI18n from "../../../../data/guides/visa.i18n.json";
 import guideTransit from "../../../../data/guides/transit.json";
 import guideTransitI18n from "../../../../data/guides/transit.i18n.json";
 import guideAirport from "../../../../data/guides/airport.json";
 import guideAirportI18n from "../../../../data/guides/airport.i18n.json";
+import guideSim from "../../../../data/guides/sim.json";
 import plan from "../../../../data/plan.json";
 import planJa from "../../../../data/plan.ja.json";
 import planZh from "../../../../data/plan.zh.json";
@@ -36,11 +38,11 @@ import planBn from "../../../../data/plan.bn.json";
 const planI18n = { ja: planJa, zh: planZh, "zh-TW": planZhTW, es: planEs, fr: planFr, de: planDe, pt: planPt, it: planIt, ru: planRu, ko: planKo, vi: planVi, th: planTh, id: planId, tr: planTr, fil: planFil, ms: planMs, hi: planHi, ar: planAr, bn: planBn };
 
 // Rich visual guides (English base). Keyed by slug; only slugs with a guide render the deep-dive layout.
-const guides = { visa: guideVisa, transit: guideTransit, airport: guideAirport };
+const guides = { visa: guideVisa, transit: guideTransit, airport: guideAirport, sim: guideSim };
 // Per-locale translation overrides for rich guides: { <locale>: { ...overrides } }.
 const guideI18n = { visa: guideVisaI18n, transit: guideTransitI18n, airport: guideAirportI18n };
 // Which rich component renders each slug's guide body.
-const GuideBody = { visa: GuideVisual, transit: TransitGuide, airport: AirportGuide };
+const GuideBody = { visa: GuideVisual, transit: TransitGuide, airport: AirportGuide, sim: SimGuide };
 
 // Deep-merge a locale override onto the English base guide (arrays replace; objects merge; scalars override).
 function mergeGuide(base, ov) {

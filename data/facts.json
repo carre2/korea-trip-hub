@@ -196,6 +196,16 @@
       "notes": "You must tap out on the bus too, or you lose the transfer discount and may be charged again."
     },
     {
+      "id": "sim-options",
+      "tier": "STABLE",
+      "claim": "Three ways to get online in Korea: an eSIM (install before you fly, live the moment you land), a physical SIM (needs an unlocked phone), or a rental pocket Wi-Fi (best shared by a group). Carriers are SKT, KT and LG U+.",
+      "value": { "esim": "activate before arrival", "physical_sim": "unlocked phone needed", "pocket_wifi": "rental, shareable", "carriers": "SKT, KT, LG U+", "buy_at": "airport arrivals or online" },
+      "source": "https://english.visitkorea.or.kr/",
+      "source_name": "VisitKorea / 2026 connectivity guides",
+      "verified": "2026-08-04", "recheck_after": "2027-08-01", "status": "VERIFIED",
+      "notes": "Prices vary widely by data amount and number of days, so compare current offers (e.g. Airalo/Klook for eSIM; carrier counters for SIM) rather than a fixed price. eSIM needs an eSIM-capable phone; a physical SIM needs an unlocked phone. Counters are in the Incheon T1/T2, Gimpo and Gimhae arrivals halls."
+    },
+    {
       "id": "best-time-seasons",
       "tier": "STABLE",
       "claim": "The best times to visit are spring (Mar–May) and autumn (Sep–Nov). Summer (Jun–Aug) is hot and humid with a monsoon; winter is cold and dry (Seoul averages about -2°C).",
