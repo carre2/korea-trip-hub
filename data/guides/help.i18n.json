@@ -1,0 +1,579 @@
+{
+  "_README": "Per-locale translation overrides for help.json (guides). Machine-translated — native review recommended.",
+  "zh": {
+    "kicker": "求助与紧急",
+    "readingTime": "阅读时间 6 分钟",
+    "h1": "求助与紧急情况",
+    "metaTitle": "韩国求助与紧急情况：紧急电话与应对方法（2026）— Korea Trip Hub",
+    "metaDesc": "韩国的紧急电话（112 报警、119 火灾/急救、1330 旅游热线、1345 出入境），生病、护照丢失或需要联系大使馆时怎么办，以及官方紧急应用。",
+    "tldr": [
+      "三个号码几乎能解决一切：112（报警）、119（火灾/急救）、1330（24 小时旅游热线）。",
+      "1330 可为你翻译，还能代你拨打 112/119——是最省事的第一通电话。",
+      "拨打 112/119 时，说出你需要的语言即可接入口译服务。",
+      "护照丢了？先报警立案，再联系你的大使馆。记得安装 Emergency Ready App。"
+    ],
+    "numbers": {
+      "title": "现在就存下这些号码",
+      "intro": "（手机上）点击即可拨打。这些号码全国通用，并提供口译服务。",
+      "items": [
+        { "factId": "emergency-police", "icon": "🚨", "label": "报警", "tone": "amber", "when": "犯罪、盗窃、危险、涉及他人的事故。" },
+        { "factId": "emergency-fire-medical", "icon": "🚑", "label": "火灾 / 急救", "tone": "blue", "when": "火灾、受伤、突发疾病——叫救护车。" },
+        { "factId": "tourist-hotline-1330", "icon": "📞", "label": "旅游热线", "tone": "green", "when": "任何旅行求助，24/7 全天候、多语种——可转接 112/119。" },
+        { "factId": "immigration-1345", "icon": "🛂", "label": "出入境", "tone": "neutral", "when": "签证、停留期限、出入境相关问题。" }
+      ]
+    },
+    "situations": {
+      "title": "遇到这些情况怎么办……",
+      "intro": "常见的旅行紧急情况，以及各自最快的应对方式。",
+      "cards": [
+        { "icon": "🤒", "name": "生病或受伤", "steps": ["紧急情况请拨打 119（说出你需要的语言以请求口译）或前往医院急诊室。", "小毛病去药局（약국）或无需预约的诊所，又快又便宜。", "带上护照和银行卡；保留所有收据，以便申请旅行保险理赔。"] },
+        { "icon": "🛂", "name": "护照丢失", "steps": ["到最近的警察局（경찰서）或派出所（파출소）报案，并领取报案证明。", "带着报案证明和任意身份证件，前往你所属国家的大使馆办理补发或紧急旅行证件。", "1330 可帮你找到警察局和大使馆，并提供口译。"] },
+        { "icon": "🎒", "name": "遗失物品", "steps": ["原路返回并询问工作人员——失物常常会被交到失物招领处。", "出租车/地铁遗失，可拨打 1330 协助联系运营方的失物招领。", "任何失窃，请报警立案（112）以便理赔。"] },
+        { "icon": "⛈️", "name": "暴风、热浪或预警", "steps": ["留意官方预警；Emergency Ready App 会显示避难所和指引。", "遇台风/暴雨，远离河流和低洼的地下通道；查看 KMA 气象预报。", "若不确定某条预警的含义，1330 可提供建议并翻译。"] }
+      ]
+    },
+    "apps": {
+      "title": "在需要之前就装好",
+      "items": [
+        { "icon": "🆘", "name": "Emergency Ready App", "d": "官方应用：最近的医院、警察局、避难所、安全指南和大使馆联系方式。", "note": "紧急" },
+        { "icon": "📞", "name": "1330 (call or chat)", "d": "韩国旅游热线——24/7 多语种协助，并可三方接入紧急服务口译。", "note": "热线" },
+        { "icon": "🗺️", "name": "Naver Map / KakaoMap", "d": "快速找到最近的医院、药房或警察局，并提供路线导航。", "note": "导航" }
+      ]
+    },
+    "embassy": {
+      "title": "联系你的大使馆",
+      "body": "护照丢失、被捕或遇到严重紧急情况时，你所属国家在韩国的大使馆或领事馆是求助之处——他们可签发紧急旅行证件并提供建议。搜索『[你的国家] 大使馆 首尔』查询最新地址和热线，或让 1330 帮你查找。许多大使馆位于首尔市中心。"
+    },
+    "pitfalls": {
+      "title": "值得了解",
+      "items": [
+        { "icon": "🌐", "t": "不会韩语也没关系", "d": "112、119 和 1330 都提供口译。先说明你需要的语言——或先打 1330 让他们代为转达。" },
+        { "icon": "💳", "t": "医院需要先付费", "d": "通常你要先付款（可刷卡），之后再向旅行保险理赔。保留收据和报案证明。" },
+        { "icon": "📵", "t": "还没有 SIM 卡？", "d": "即使没有本地 SIM 卡或话费，紧急电话（112/119）也能拨打。机场/酒店 Wi-Fi 也能用 1330 相关应用。" },
+        { "icon": "🪪", "t": "随身带证件", "d": "随身携带护照（或清晰的照片/复印件）——警察和医院可能会要求出示。" }
+      ]
+    },
+    "faq": {
+      "title": "求助与紧急常见问题",
+      "items": [
+        { "q": "我该打哪个号码？", "a": "报警打 112，火灾或急救打 119，任何与旅行有关的事打 1330（24/7 全天候、多语种，还能代你拨打 112/119）。" },
+        { "q": "他们会说我的语言吗？", "a": "112 和 119 提供口译——说明你需要的语言即可。1330 提供多种语言协助，包括英语、日语、中文、俄语、越南语、泰语和马来语。" },
+        { "q": "护照丢了怎么办？", "a": "先报警立案，再带着报案证明到你的大使馆办理补发或紧急旅行证件。1330 可帮你找到两者并提供口译。" },
+        { "q": "有紧急应用吗？", "a": "有——官方的 Emergency Ready App 会显示附近的医院、警察局、避难所、安全指引和大使馆联系方式。" },
+        { "q": "没有 SIM 卡也能拨打紧急电话吗？", "a": "可以，112 和 119 即使没有本地 SIM 卡或话费也能拨打。" }
+      ]
+    }
+  },
+  "zh-TW": {
+    "kicker": "求助與緊急",
+    "readingTime": "閱讀時間 6 分鐘",
+    "h1": "求助與緊急情況",
+    "metaTitle": "韓國求助與緊急情況：緊急電話與應對方法（2026）— Korea Trip Hub",
+    "metaDesc": "韓國的緊急電話（112 報警、119 火災/急救、1330 旅遊熱線、1345 出入境），生病、護照遺失或需要聯繫大使館時怎麼辦，以及官方緊急 App。",
+    "tldr": [
+      "三個號碼幾乎能解決一切：112（報警）、119（火災/急救）、1330（24 小時旅遊熱線）。",
+      "1330 可為你翻譯，還能代你撥打 112/119——是最省事的第一通電話。",
+      "撥打 112/119 時，說出你需要的語言即可接入口譯服務。",
+      "護照遺失？先報警立案，再聯繫你的大使館。記得安裝 Emergency Ready App。"
+    ],
+    "numbers": {
+      "title": "現在就存下這些號碼",
+      "intro": "（手機上）點擊即可撥打。這些號碼全國通用，並提供口譯服務。",
+      "items": [
+        { "factId": "emergency-police", "icon": "🚨", "label": "報警", "tone": "amber", "when": "犯罪、竊盜、危險、涉及他人的事故。" },
+        { "factId": "emergency-fire-medical", "icon": "🚑", "label": "火災 / 急救", "tone": "blue", "when": "火災、受傷、突發疾病——叫救護車。" },
+        { "factId": "tourist-hotline-1330", "icon": "📞", "label": "旅遊熱線", "tone": "green", "when": "任何旅行求助，24/7 全天候、多語種——可轉接 112/119。" },
+        { "factId": "immigration-1345", "icon": "🛂", "label": "出入境", "tone": "neutral", "when": "簽證、停留期限、出入境相關問題。" }
+      ]
+    },
+    "situations": {
+      "title": "遇到這些情況怎麼辦……",
+      "intro": "常見的旅行緊急情況，以及各自最快的應對方式。",
+      "cards": [
+        { "icon": "🤒", "name": "生病或受傷", "steps": ["緊急情況請撥打 119（說出你需要的語言以請求口譯）或前往醫院急診室。", "小毛病去藥局（약국）或免預約的診所，又快又便宜。", "帶上護照和信用卡；保留所有收據，以便申請旅遊保險理賠。"] },
+        { "icon": "🛂", "name": "護照遺失", "steps": ["到最近的警察局（경찰서）或派出所（파출소）報案，並領取報案證明。", "帶著報案證明和任意身分證件，前往你所屬國家的大使館辦理補發或緊急旅行證件。", "1330 可幫你找到警察局和大使館，並提供口譯。"] },
+        { "icon": "🎒", "name": "遺失物品", "steps": ["原路折返並詢問工作人員——失物常常會被送到失物招領處。", "計程車/地鐵遺失，可撥打 1330 協助聯繫營運方的失物招領。", "任何失竊，請報警立案（112）以便理賠。"] },
+        { "icon": "⛈️", "name": "暴風、熱浪或警報", "steps": ["留意官方警報；Emergency Ready App 會顯示避難所和指引。", "遇颱風/暴雨，遠離河流和低窪的地下道；查看 KMA 氣象預報。", "若不確定某則警報的含義，1330 可提供建議並翻譯。"] }
+      ]
+    },
+    "apps": {
+      "title": "在需要之前就裝好",
+      "items": [
+        { "icon": "🆘", "name": "Emergency Ready App", "d": "官方 App：最近的醫院、警察局、避難所、安全指南和大使館聯絡方式。", "note": "緊急" },
+        { "icon": "📞", "name": "1330 (call or chat)", "d": "韓國旅遊熱線——24/7 多語種協助，並可三方接入緊急服務口譯。", "note": "熱線" },
+        { "icon": "🗺️", "name": "Naver Map / KakaoMap", "d": "快速找到最近的醫院、藥房或警察局，並提供路線導航。", "note": "導航" }
+      ]
+    },
+    "embassy": {
+      "title": "聯繫你的大使館",
+      "body": "護照遺失、被捕或遇到嚴重緊急情況時，你所屬國家在韓國的大使館或領事館是求助之處——他們可簽發緊急旅行證件並提供建議。搜尋『[你的國家] 大使館 首爾』查詢最新地址和熱線，或讓 1330 幫你查找。許多大使館位於首爾市中心。"
+    },
+    "pitfalls": {
+      "title": "值得了解",
+      "items": [
+        { "icon": "🌐", "t": "不會韓語也沒關係", "d": "112、119 和 1330 都提供口譯。先說明你需要的語言——或先打 1330 讓他們代為轉達。" },
+        { "icon": "💳", "t": "醫院需要先付費", "d": "通常你要先付款（可刷卡），之後再向旅遊保險理賠。保留收據和報案證明。" },
+        { "icon": "📵", "t": "還沒有 SIM 卡？", "d": "即使沒有當地 SIM 卡或話費，緊急電話（112/119）也能撥打。機場/飯店 Wi-Fi 也能使用 1330 相關 App。" },
+        { "icon": "🪪", "t": "隨身帶證件", "d": "隨身攜帶護照（或清晰的照片/影本）——警察和醫院可能會要求出示。" }
+      ]
+    },
+    "faq": {
+      "title": "求助與緊急常見問題",
+      "items": [
+        { "q": "我該打哪個號碼？", "a": "報警打 112，火災或急救打 119，任何與旅行有關的事打 1330（24/7 全天候、多語種，還能代你撥打 112/119）。" },
+        { "q": "他們會說我的語言嗎？", "a": "112 和 119 提供口譯——說明你需要的語言即可。1330 提供多種語言協助，包括英語、日語、中文、俄語、越南語、泰語和馬來語。" },
+        { "q": "護照遺失怎麼辦？", "a": "先報警立案，再帶著報案證明到你的大使館辦理補發或緊急旅行證件。1330 可幫你找到兩者並提供口譯。" },
+        { "q": "有緊急 App 嗎？", "a": "有——官方的 Emergency Ready App 會顯示附近的醫院、警察局、避難所、安全指引和大使館聯絡方式。" },
+        { "q": "沒有 SIM 卡也能撥打緊急電話嗎？", "a": "可以，112 和 119 即使沒有當地 SIM 卡或話費也能撥打。" }
+      ]
+    }
+  },
+  "ja": {
+    "kicker": "困ったとき・緊急時",
+    "readingTime": "読了6分",
+    "h1": "困ったとき・緊急時",
+    "metaTitle": "韓国での緊急時ガイド：緊急番号と対処法（2026）— Korea Trip Hub",
+    "metaDesc": "韓国の緊急番号（112 警察、119 消防・救急、1330 観光案内ホットライン、1345 出入国）、体調を崩したとき、パスポートを失くしたとき、大使館に連絡したいときの対処法、そして公式の緊急アプリを紹介します。",
+    "tldr": [
+      "3つの番号でほとんど対応できます：112（警察）、119（消防・救急）、1330（24時間の観光ホットライン）。",
+      "1330 は通訳をしてくれ、あなたに代わって 112/119 にかけることもできます——最初の1本として最も手軽です。",
+      "112/119 にかけたら、必要な言語を伝えれば通訳につながります。",
+      "パスポートを失くしたら？まず警察に届け出て、それから大使館へ連絡を。Emergency Ready App も入れておきましょう。"
+    ],
+    "numbers": {
+      "title": "今すぐこの番号を保存",
+      "intro": "（スマホなら）タップで発信。全国どこでも使え、通訳も利用できます。",
+      "items": [
+        { "factId": "emergency-police", "icon": "🚨", "label": "警察", "tone": "amber", "when": "犯罪、盗難、危険、他人が関わる事故。" },
+        { "factId": "emergency-fire-medical", "icon": "🚑", "label": "消防・救急", "tone": "blue", "when": "火災、けが、急な病気——救急車を。" },
+        { "factId": "tourist-hotline-1330", "icon": "📞", "label": "観光ホットライン", "tone": "green", "when": "旅行のあらゆる相談に24時間・多言語で対応——112/119 への取り次ぎも。" },
+        { "factId": "immigration-1345", "icon": "🛂", "label": "出入国", "tone": "neutral", "when": "ビザ、滞在期間、出入国に関する質問。" }
+      ]
+    },
+    "situations": {
+      "title": "こんなときは…",
+      "intro": "旅行中によくある緊急事態と、それぞれの最短の対処法。",
+      "cards": [
+        { "icon": "🤒", "name": "体調が悪い・けがをした", "steps": ["緊急のときは 119 に電話（必要な言語を伝えて通訳を依頼）するか、病院の救急外来へ。", "軽い症状なら、薬局（약국）や予約不要のクリニックが早くて安いです。", "パスポートとカードを持参し、旅行保険の請求用に領収書を保管しておきましょう。"] },
+        { "icon": "🛂", "name": "パスポートを失くした", "steps": ["最寄りの警察署（경찰서）か派出所（파출소）に届け出て、届出の証明書をもらいます。", "その証明書と身分証を自国の大使館に持って行き、再発行または緊急渡航書類を受け取ります。", "1330 が警察署や大使館の場所探しと通訳を手伝ってくれます。"] },
+        { "icon": "🎒", "name": "持ち物を失くした", "steps": ["来た道を戻り、スタッフに尋ねましょう——落とし物は届けられていることがよくあります。", "タクシーや地下鉄なら、1330 に電話して事業者の遺失物センターへの連絡を手伝ってもらいます。", "盗まれた場合は、保険のために警察（112）に届け出を。"] },
+        { "icon": "⛈️", "name": "暴風・熱波・警報", "steps": ["公式の警報に従いましょう。Emergency Ready App が避難所や案内を表示します。", "台風・大雨のときは川や低い地下道を避け、KMA（気象庁）の予報を確認しましょう。", "警報の意味がわからないときは、1330 が助言と通訳をしてくれます。"] }
+      ]
+    },
+    "apps": {
+      "title": "必要になる前に入れておく",
+      "items": [
+        { "icon": "🆘", "name": "Emergency Ready App", "d": "公式アプリ：最寄りの病院・警察署・避難所、安全ガイド、大使館の連絡先。", "note": "緊急" },
+        { "icon": "📞", "name": "1330 (call or chat)", "d": "韓国観光公社のホットライン——24時間・多言語対応で、緊急サービスへの三者通訳も可能。", "note": "ホットライン" },
+        { "icon": "🗺️", "name": "Naver Map / KakaoMap", "d": "最寄りの病院・薬局・警察署をすぐに見つけ、道案内まで。", "note": "ナビ" }
+      ]
+    },
+    "embassy": {
+      "title": "大使館に連絡する",
+      "body": "パスポートの紛失、逮捕、重大な緊急事態のときは、韓国にある自国の大使館・領事館が頼れる場所です——緊急渡航書類の発行や助言をしてくれます。最新の住所とホットラインは「[自国名] 大使館 ソウル」で検索するか、1330 に探してもらいましょう。多くの大使館はソウル中心部にあります。"
+    },
+    "pitfalls": {
+      "title": "知っておくと安心",
+      "items": [
+        { "icon": "🌐", "t": "韓国語は話せなくて大丈夫", "d": "112、119、1330 はいずれも通訳を提供します。必要な言語を伝えるところから——または先に 1330 にかけて取り次いでもらいましょう。" },
+        { "icon": "💳", "t": "病院は前払いが基本", "d": "たいていは先に支払い（カード可）、あとで旅行保険に請求します。領収書と書類は保管を。" },
+        { "icon": "📵", "t": "まだ SIM がない？", "d": "緊急通報（112/119）は現地の SIM や残高がなくてもかけられます。空港・ホテルの Wi-Fi があれば 1330 のアプリも使えます。" },
+        { "icon": "🪪", "t": "身分証を携帯", "d": "パスポート（または鮮明な写真・コピー）を持ち歩きましょう——警察や病院で提示を求められることがあります。" }
+      ]
+    },
+    "faq": {
+      "title": "困ったとき・緊急時のよくある質問",
+      "items": [
+        { "q": "どの番号にかければいい？", "a": "警察は 112、火事や救急車は 119、旅行に関することは何でも 1330（24時間・多言語で、あなたに代わって 112/119 にもかけられます）。" },
+        { "q": "自分の言語は通じる？", "a": "112 と 119 には通訳があります——必要な言語を伝えましょう。1330 は英語、日本語、中国語、ロシア語、ベトナム語、タイ語、マレー語など複数の言語に対応しています。" },
+        { "q": "パスポートを失くしたら？", "a": "まず警察に届け出て、その証明書を持って大使館で再発行または緊急渡航書類を受け取ります。1330 が両方の場所探しと通訳を手伝ってくれます。" },
+        { "q": "緊急アプリはある？", "a": "はい——公式の Emergency Ready App が、近くの病院・警察署・避難所、安全案内、大使館の連絡先を表示します。" },
+        { "q": "SIM がなくても緊急通報できる？", "a": "はい、112 と 119 は現地の SIM や通話残高がなくてもかけられます。" }
+      ]
+    }
+  },
+  "vi": {
+    "kicker": "Trợ giúp & khẩn cấp",
+    "readingTime": "Đọc trong 6 phút",
+    "h1": "Trợ giúp & Khẩn cấp",
+    "metaTitle": "Trợ giúp & Khẩn cấp ở Hàn Quốc: Số điện thoại & Cách xử lý (2026) — Korea Trip Hub",
+    "metaDesc": "Các số khẩn cấp ở Hàn Quốc (112 cảnh sát, 119 cứu hỏa/cấp cứu, 1330 đường dây du lịch, 1345 xuất nhập cảnh), phải làm gì khi ốm, mất hộ chiếu hay cần đại sứ quán, cùng ứng dụng khẩn cấp chính thức.",
+    "tldr": [
+      "Ba số điện thoại lo được gần như mọi việc: 112 (cảnh sát), 119 (cứu hỏa/cấp cứu), 1330 (đường dây du lịch 24 giờ).",
+      "1330 sẽ phiên dịch cho bạn và có thể gọi 112/119 thay bạn — đây là cuộc gọi đầu tiên dễ nhất.",
+      "Khi gọi 112/119, hãy nói ngôn ngữ bạn cần để được kết nối với phiên dịch.",
+      "Mất hộ chiếu? Trình báo cảnh sát trước, rồi liên hệ đại sứ quán. Hãy cài Emergency Ready App."
+    ],
+    "numbers": {
+      "title": "Lưu ngay những số này",
+      "intro": "Chạm để gọi (trên điện thoại). Các số này dùng được trên toàn quốc và có phiên dịch.",
+      "items": [
+        { "factId": "emergency-police", "icon": "🚨", "label": "Cảnh sát", "tone": "amber", "when": "Tội phạm, trộm cắp, nguy hiểm, tai nạn liên quan đến người khác." },
+        { "factId": "emergency-fire-medical", "icon": "🚑", "label": "Cứu hỏa / Cấp cứu", "tone": "blue", "when": "Cháy, chấn thương, bệnh đột ngột — gọi xe cứu thương." },
+        { "factId": "tourist-hotline-1330", "icon": "📞", "label": "Đường dây du lịch", "tone": "green", "when": "Mọi hỗ trợ du lịch, 24/7, đa ngôn ngữ — có thể chuyển tiếp tới 112/119." },
+        { "factId": "immigration-1345", "icon": "🛂", "label": "Xuất nhập cảnh", "tone": "neutral", "when": "Thị thực, thời hạn lưu trú, các câu hỏi về xuất nhập cảnh." }
+      ]
+    },
+    "situations": {
+      "title": "Phải làm gì nếu…",
+      "intro": "Những tình huống khẩn cấp thường gặp khi đi du lịch và cách xử lý nhanh nhất cho mỗi tình huống.",
+      "cards": [
+        { "icon": "🤒", "name": "Bạn bị ốm hoặc bị thương", "steps": ["Khi khẩn cấp, gọi 119 (nói ngôn ngữ bạn cần để có phiên dịch) hoặc tới phòng cấp cứu của bệnh viện.", "Với vấn đề nhỏ, hiệu thuốc (약국) hoặc phòng khám không cần hẹn là nhanh và rẻ.", "Mang theo hộ chiếu và một thẻ; giữ mọi hóa đơn để yêu cầu bồi thường bảo hiểm du lịch."] },
+        { "icon": "🛂", "name": "Bạn mất hộ chiếu", "steps": ["Trình báo tại đồn cảnh sát gần nhất (경찰서) hoặc chốt cảnh sát (파출소) và lấy biên bản trình báo.", "Mang biên bản + giấy tờ tùy thân tới đại sứ quán nước bạn để xin cấp lại hoặc giấy thông hành khẩn cấp.", "1330 có thể giúp bạn tìm đồn cảnh sát và đại sứ quán, và phiên dịch."] },
+        { "icon": "🎒", "name": "Bạn làm mất đồ", "steps": ["Quay lại đường cũ và hỏi nhân viên — đồ thất lạc rất thường được giao nộp lại.", "Với taxi/tàu điện ngầm, gọi 1330 để được giúp liên hệ bộ phận thất lạc của nhà xe/nhà ga.", "Nếu bị trộm, hãy trình báo cảnh sát (112) để làm bảo hiểm."] },
+        { "icon": "⛈️", "name": "Bão, nắng nóng hoặc cảnh báo", "steps": ["Tuân theo các cảnh báo chính thức; Emergency Ready App hiển thị nơi trú ẩn và hướng dẫn.", "Khi có bão/mưa lớn, tránh sông và hầm chui thấp; kiểm tra dự báo của KMA.", "1330 có thể tư vấn và phiên dịch nếu bạn không chắc một cảnh báo có nghĩa là gì."] }
+      ]
+    },
+    "apps": {
+      "title": "Cài trước khi bạn cần đến",
+      "items": [
+        { "icon": "🆘", "name": "Emergency Ready App", "d": "Ứng dụng chính thức: bệnh viện, đồn cảnh sát, nơi trú ẩn gần nhất, hướng dẫn an toàn và liên hệ đại sứ quán.", "note": "Khẩn cấp" },
+        { "icon": "📞", "name": "1330 (call or chat)", "d": "Đường dây du lịch Hàn Quốc — hỗ trợ đa ngôn ngữ 24/7 và phiên dịch ba bên tới các dịch vụ khẩn cấp.", "note": "Đường dây nóng" },
+        { "icon": "🗺️", "name": "Naver Map / KakaoMap", "d": "Tìm nhanh bệnh viện, hiệu thuốc hoặc đồn cảnh sát gần nhất, kèm chỉ đường.", "note": "Dẫn đường" }
+      ]
+    },
+    "embassy": {
+      "title": "Liên hệ đại sứ quán của bạn",
+      "body": "Khi mất hộ chiếu, bị bắt giữ hoặc gặp tình huống khẩn cấp nghiêm trọng, đại sứ quán hoặc lãnh sự quán của chính nước bạn tại Hàn Quốc là nơi cần tìm đến — họ cấp giấy thông hành khẩn cấp và có thể tư vấn. Tìm '[tên nước của bạn] embassy Seoul' để có địa chỉ và đường dây nóng hiện tại, hoặc để 1330 giúp bạn tìm. Nhiều đại sứ quán nằm ở trung tâm Seoul."
+    },
+    "pitfalls": {
+      "title": "Nên biết",
+      "items": [
+        { "icon": "🌐", "t": "Bạn không cần biết tiếng Hàn", "d": "112, 119 và 1330 đều có phiên dịch. Hãy bắt đầu bằng việc nói ngôn ngữ bạn cần — hoặc gọi 1330 trước và để họ chuyển tiếp." },
+        { "icon": "💳", "t": "Bệnh viện yêu cầu thanh toán trước", "d": "Bạn thường trả tiền trước (thẻ cũng được) rồi yêu cầu bảo hiểm du lịch bồi thường sau. Giữ hóa đơn và biên bản." },
+        { "icon": "📵", "t": "Chưa có SIM?", "d": "Cuộc gọi khẩn cấp (112/119) hoạt động ngay cả khi không có SIM nội địa hay tiền trong máy. Wi-Fi sân bay/khách sạn cũng đủ để dùng các ứng dụng 1330." },
+        { "icon": "🪪", "t": "Mang theo giấy tờ tùy thân", "d": "Luôn mang hộ chiếu (hoặc ảnh/bản sao rõ nét) bên mình — cảnh sát và bệnh viện có thể yêu cầu xuất trình." }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về trợ giúp & khẩn cấp",
+      "items": [
+        { "q": "Tôi nên gọi số nào?", "a": "112 cho cảnh sát, 119 cho cứu hỏa hoặc xe cứu thương, và 1330 cho mọi việc liên quan đến du lịch (24/7, đa ngôn ngữ, và có thể gọi 112/119 giúp bạn)." },
+        { "q": "Họ có nói ngôn ngữ của tôi không?", "a": "112 và 119 có phiên dịch — hãy nói ngôn ngữ bạn cần. 1330 hỗ trợ nhiều ngôn ngữ gồm tiếng Anh, Nhật, Trung, Nga, Việt, Thái và Mã Lai." },
+        { "q": "Nếu tôi mất hộ chiếu thì sao?", "a": "Trình báo cảnh sát trước, rồi mang biên bản tới đại sứ quán để xin cấp lại hoặc giấy thông hành khẩn cấp. 1330 có thể giúp bạn tìm cả hai và phiên dịch." },
+        { "q": "Có ứng dụng khẩn cấp không?", "a": "Có — Emergency Ready App chính thức hiển thị bệnh viện, đồn cảnh sát, nơi trú ẩn gần đó, hướng dẫn an toàn và liên hệ đại sứ quán." },
+        { "q": "Cuộc gọi khẩn cấp có hoạt động khi không có SIM không?", "a": "Có, 112 và 119 có thể gọi được ngay cả khi không có SIM nội địa hay tiền điện thoại." }
+      ]
+    }
+  },
+  "th": {
+    "kicker": "ขอความช่วยเหลือและเหตุฉุกเฉิน",
+    "readingTime": "อ่าน 6 นาที",
+    "h1": "ขอความช่วยเหลือและเหตุฉุกเฉิน",
+    "metaTitle": "ขอความช่วยเหลือและเหตุฉุกเฉินในเกาหลี: เบอร์โทรและวิธีรับมือ (2026) — Korea Trip Hub",
+    "metaDesc": "เบอร์ฉุกเฉินของเกาหลี (112 ตำรวจ, 119 ดับเพลิง/รถพยาบาล, 1330 สายด่วนท่องเที่ยว, 1345 ตรวจคนเข้าเมือง) สิ่งที่ควรทำเมื่อป่วย ทำหนังสือเดินทางหาย หรือต้องติดต่อสถานทูต พร้อมแอปฉุกเฉินอย่างเป็นทางการ",
+    "tldr": [
+      "สามเบอร์นี้ครอบคลุมแทบทุกเรื่อง: 112 (ตำรวจ), 119 (ดับเพลิง/รถพยาบาล), 1330 (สายด่วนท่องเที่ยว 24 ชั่วโมง)",
+      "1330 ช่วยแปลภาษาให้คุณ และโทรหา 112/119 แทนคุณได้ — เป็นสายแรกที่โทรง่ายที่สุด",
+      "เมื่อโทร 112/119 ให้บอกภาษาที่คุณต้องการเพื่อเชื่อมต่อกับล่าม",
+      "หนังสือเดินทางหาย? แจ้งความกับตำรวจก่อน แล้วติดต่อสถานทูต และติดตั้ง Emergency Ready App"
+    ],
+    "numbers": {
+      "title": "บันทึกเบอร์เหล่านี้ไว้เดี๋ยวนี้",
+      "intro": "แตะเพื่อโทร (บนมือถือ) ใช้ได้ทั่วประเทศ และมีบริการล่าม",
+      "items": [
+        { "factId": "emergency-police", "icon": "🚨", "label": "ตำรวจ", "tone": "amber", "when": "อาชญากรรม การโจรกรรม อันตราย อุบัติเหตุที่เกี่ยวข้องกับผู้อื่น" },
+        { "factId": "emergency-fire-medical", "icon": "🚑", "label": "ดับเพลิง / รถพยาบาล", "tone": "blue", "when": "ไฟไหม้ บาดเจ็บ ป่วยกะทันหัน — เรียกรถพยาบาล" },
+        { "factId": "tourist-hotline-1330", "icon": "📞", "label": "สายด่วนท่องเที่ยว", "tone": "green", "when": "ความช่วยเหลือด้านการเดินทางทุกเรื่อง 24/7 หลายภาษา — โอนสายไป 112/119 ได้" },
+        { "factId": "immigration-1345", "icon": "🛂", "label": "ตรวจคนเข้าเมือง", "tone": "neutral", "when": "วีซ่า ระยะเวลาพำนัก คำถามเรื่องตรวจคนเข้าเมือง" }
+      ]
+    },
+    "situations": {
+      "title": "ถ้าเกิดเหตุการณ์เหล่านี้ ควรทำอย่างไร…",
+      "intro": "เหตุฉุกเฉินที่พบบ่อยระหว่างเดินทาง และวิธีรับมือที่เร็วที่สุดของแต่ละกรณี",
+      "cards": [
+        { "icon": "🤒", "name": "คุณป่วยหรือบาดเจ็บ", "steps": ["กรณีฉุกเฉิน โทร 119 (บอกภาษาที่คุณต้องการเพื่อขอล่าม) หรือไปที่ห้องฉุกเฉินของโรงพยาบาล", "อาการเล็กน้อย ร้านขายยา (약국) หรือคลินิกที่ไม่ต้องนัดล่วงหน้า รวดเร็วและราคาถูก", "พกหนังสือเดินทางและบัตรไปด้วย เก็บใบเสร็จทุกใบไว้เคลมประกันการเดินทาง"] },
+        { "icon": "🛂", "name": "คุณทำหนังสือเดินทางหาย", "steps": ["แจ้งความที่สถานีตำรวจ (경찰서) หรือป้อมตำรวจ (파출소) ที่ใกล้ที่สุด และขอเอกสารใบแจ้งความ", "นำใบแจ้งความ + บัตรประจำตัวใดก็ได้ ไปที่สถานทูตของประเทศคุณเพื่อขอออกใหม่หรือเอกสารเดินทางฉุกเฉิน", "1330 ช่วยหาสถานีตำรวจและสถานทูตให้คุณ พร้อมแปลภาษาได้"] },
+        { "icon": "🎒", "name": "คุณทำของหาย", "steps": ["ย้อนกลับไปตามเส้นทางและถามเจ้าหน้าที่ — ของหายมักถูกนำมาส่งคืนบ่อยครั้ง", "กรณีแท็กซี่/รถไฟใต้ดิน โทร 1330 เพื่อขอความช่วยเหลือติดต่อศูนย์ของหายของผู้ให้บริการ", "หากถูกขโมย ให้แจ้งความ (112) เพื่อใช้เคลมประกัน"] },
+        { "icon": "⛈️", "name": "พายุ คลื่นความร้อน หรือการแจ้งเตือน", "steps": ["ปฏิบัติตามการแจ้งเตือนอย่างเป็นทางการ Emergency Ready App จะแสดงที่หลบภัยและคำแนะนำ", "ช่วงพายุไต้ฝุ่น/ฝนตกหนัก เลี่ยงแม่น้ำและอุโมงค์ลอดใต้ที่อยู่ต่ำ ตรวจสอบพยากรณ์อากาศของ KMA", "หากไม่แน่ใจว่าการแจ้งเตือนหมายถึงอะไร 1330 ให้คำแนะนำและแปลภาษาได้"] }
+      ]
+    },
+    "apps": {
+      "title": "ติดตั้งไว้ก่อนที่จะต้องใช้",
+      "items": [
+        { "icon": "🆘", "name": "Emergency Ready App", "d": "แอปทางการ: โรงพยาบาล สถานีตำรวจ ที่หลบภัยที่ใกล้ที่สุด คู่มือความปลอดภัย และข้อมูลติดต่อสถานทูต", "note": "ฉุกเฉิน" },
+        { "icon": "📞", "name": "1330 (call or chat)", "d": "สายด่วนการท่องเที่ยวเกาหลี — ช่วยเหลือหลายภาษา 24/7 และล่ามสามทางไปยังบริการฉุกเฉิน", "note": "สายด่วน" },
+        { "icon": "🗺️", "name": "Naver Map / KakaoMap", "d": "หาโรงพยาบาล ร้านขายยา หรือสถานีตำรวจที่ใกล้ที่สุดได้อย่างรวดเร็ว พร้อมเส้นทาง", "note": "นำทาง" }
+      ]
+    },
+    "embassy": {
+      "title": "การติดต่อสถานทูตของคุณ",
+      "body": "กรณีหนังสือเดินทางหาย ถูกจับกุม หรือเหตุฉุกเฉินร้ายแรง สถานทูตหรือสถานกงสุลของประเทศคุณในเกาหลีคือที่พึ่ง — พวกเขาออกเอกสารเดินทางฉุกเฉินและให้คำแนะนำได้ ค้นหา '[ชื่อประเทศของคุณ] embassy Seoul' เพื่อดูที่อยู่และสายด่วนล่าสุด หรือให้ 1330 ช่วยหาให้ สถานทูตหลายแห่งอยู่ในใจกลางกรุง Seoul"
+    },
+    "pitfalls": {
+      "title": "รู้ไว้จะดี",
+      "items": [
+        { "icon": "🌐", "t": "ไม่จำเป็นต้องพูดภาษาเกาหลี", "d": "112, 119 และ 1330 มีบริการล่ามทั้งหมด เริ่มด้วยการบอกภาษาที่คุณต้องการ — หรือโทร 1330 ก่อนแล้วให้พวกเขาโอนสายให้" },
+        { "icon": "💳", "t": "โรงพยาบาลให้จ่ายก่อน", "d": "โดยปกติคุณต้องจ่ายเงินก่อน (ใช้บัตรได้) แล้วค่อยเคลมประกันการเดินทางภายหลัง เก็บใบเสร็จและใบแจ้งความไว้" },
+        { "icon": "📵", "t": "ยังไม่มีซิม?", "d": "โทรฉุกเฉิน (112/119) ได้แม้ไม่มีซิมท้องถิ่นหรือเงินในเครื่อง Wi-Fi ที่สนามบิน/โรงแรมก็ใช้แอปที่เกี่ยวกับ 1330 ได้" },
+        { "icon": "🪪", "t": "พกบัตรประจำตัว", "d": "พกหนังสือเดินทาง (หรือรูปถ่าย/สำเนาที่ชัดเจน) ติดตัวไว้ — ตำรวจและโรงพยาบาลอาจขอดู" }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเรื่องขอความช่วยเหลือและเหตุฉุกเฉิน",
+      "items": [
+        { "q": "ฉันควรโทรเบอร์ไหน?", "a": "112 สำหรับตำรวจ, 119 สำหรับดับเพลิงหรือรถพยาบาล และ 1330 สำหรับทุกเรื่องที่เกี่ยวกับการเดินทาง (24/7 หลายภาษา และโทรหา 112/119 แทนคุณได้)" },
+        { "q": "พวกเขาจะพูดภาษาของฉันไหม?", "a": "112 และ 119 มีล่าม — บอกภาษาที่คุณต้องการได้เลย 1330 ให้ความช่วยเหลือได้หลายภาษา รวมถึงอังกฤษ ญี่ปุ่น จีน รัสเซีย เวียดนาม ไทย และมาเลย์" },
+        { "q": "ถ้าทำหนังสือเดินทางหายทำอย่างไร?", "a": "แจ้งความกับตำรวจก่อน แล้วนำใบแจ้งความไปที่สถานทูตเพื่อขอออกใหม่หรือเอกสารเดินทางฉุกเฉิน 1330 ช่วยหาทั้งสองที่และแปลภาษาให้ได้" },
+        { "q": "มีแอปฉุกเฉินไหม?", "a": "มี — Emergency Ready App อย่างเป็นทางการแสดงโรงพยาบาล สถานีตำรวจ ที่หลบภัยใกล้เคียง คำแนะนำด้านความปลอดภัย และข้อมูลติดต่อสถานทูต" },
+        { "q": "โทรฉุกเฉินได้ไหมถ้าไม่มีซิม?", "a": "ได้ 112 และ 119 โทรได้แม้ไม่มีซิมท้องถิ่นหรือค่าโทรในเครื่อง" }
+      ]
+    }
+  },
+  "id": {
+    "kicker": "Bantuan & darurat",
+    "readingTime": "6 menit baca",
+    "h1": "Bantuan & Darurat",
+    "metaTitle": "Bantuan & Darurat di Korea: Nomor Penting & Apa yang Harus Dilakukan (2026) — Korea Trip Hub",
+    "metaDesc": "Nomor darurat Korea (112 polisi, 119 pemadam/ambulans, 1330 hotline wisata, 1345 imigrasi), apa yang harus dilakukan saat sakit, kehilangan paspor, atau butuh kedutaan, plus aplikasi darurat resmi.",
+    "tldr": [
+      "Tiga nomor mencakup hampir semuanya: 112 (polisi), 119 (pemadam/ambulans), 1330 (hotline wisata 24 jam).",
+      "1330 akan menerjemahkan untuk Anda dan bisa menelepon 112/119 atas nama Anda — panggilan pertama yang paling mudah.",
+      "Saat menelepon 112/119, sebutkan bahasa yang Anda butuhkan untuk terhubung ke penerjemah.",
+      "Paspor hilang? Buat laporan polisi dulu, lalu hubungi kedutaan Anda. Pasang Emergency Ready App."
+    ],
+    "numbers": {
+      "title": "Simpan nomor-nomor ini sekarang",
+      "intro": "Ketuk untuk menelepon (di ponsel). Nomor ini berlaku secara nasional, dan tersedia penerjemahan.",
+      "items": [
+        { "factId": "emergency-police", "icon": "🚨", "label": "Polisi", "tone": "amber", "when": "Kejahatan, pencurian, bahaya, kecelakaan yang melibatkan orang lain." },
+        { "factId": "emergency-fire-medical", "icon": "🚑", "label": "Pemadam / Ambulans", "tone": "blue", "when": "Kebakaran, cedera, sakit mendadak — ambulans." },
+        { "factId": "tourist-hotline-1330", "icon": "📞", "label": "Hotline Wisata", "tone": "green", "when": "Segala bantuan perjalanan, 24/7, multibahasa — bisa menghubungkan ke 112/119." },
+        { "factId": "immigration-1345", "icon": "🛂", "label": "Imigrasi", "tone": "neutral", "when": "Visa, lama tinggal, pertanyaan seputar imigrasi." }
+      ]
+    },
+    "situations": {
+      "title": "Apa yang harus dilakukan jika…",
+      "intro": "Keadaan darurat perjalanan yang umum dan cara tercepat mengatasinya.",
+      "cards": [
+        { "icon": "🤒", "name": "Anda sakit atau cedera", "steps": ["Untuk keadaan darurat, telepon 119 (sebutkan bahasa yang Anda butuhkan untuk penerjemah) atau pergi ke unit gawat darurat rumah sakit.", "Untuk masalah ringan, apotek (약국) atau klinik tanpa janji temu cepat dan murah.", "Bawa paspor dan kartu; simpan semua bukti pembayaran untuk klaim asuransi perjalanan."] },
+        { "icon": "🛂", "name": "Anda kehilangan paspor", "steps": ["Laporkan di kantor polisi terdekat (경찰서) atau pos polisi (파출소) dan minta dokumen laporannya.", "Bawa laporan + identitas apa pun ke kedutaan negara Anda untuk penggantian atau dokumen perjalanan darurat.", "1330 bisa membantu Anda menemukan kantor polisi dan kedutaan, serta menerjemahkan."] },
+        { "icon": "🎒", "name": "Anda kehilangan barang", "steps": ["Telusuri kembali dan tanyakan ke petugas — barang hilang sangat sering diserahkan kembali.", "Untuk taksi/kereta bawah tanah, telepon 1330 untuk bantuan menghubungi unit barang hilang operatornya.", "Untuk apa pun yang dicuri, buat laporan polisi (112) untuk asuransi."] },
+        { "icon": "⛈️", "name": "Badai, gelombang panas, atau peringatan", "steps": ["Ikuti peringatan resmi; Emergency Ready App menampilkan tempat berlindung dan panduan.", "Saat topan/hujan lebat, hindari sungai dan terowongan bawah yang rendah; cek prakiraan KMA.", "1330 bisa memberi saran dan menerjemahkan jika Anda tidak yakin arti sebuah peringatan."] }
+      ]
+    },
+    "apps": {
+      "title": "Pasang sebelum Anda membutuhkannya",
+      "items": [
+        { "icon": "🆘", "name": "Emergency Ready App", "d": "Aplikasi resmi: rumah sakit, kantor polisi, tempat berlindung terdekat, panduan keselamatan, dan kontak kedutaan.", "note": "Darurat" },
+        { "icon": "📞", "name": "1330 (call or chat)", "d": "Hotline pariwisata Korea — bantuan multibahasa 24/7 dan penerjemahan tiga arah ke layanan darurat.", "note": "Hotline" },
+        { "icon": "🗺️", "name": "Naver Map / KakaoMap", "d": "Temukan rumah sakit, apotek, atau kantor polisi terdekat dengan cepat, lengkap dengan petunjuk arah.", "note": "Navigasi" }
+      ]
+    },
+    "embassy": {
+      "title": "Menghubungi kedutaan Anda",
+      "body": "Untuk paspor hilang, penangkapan, atau keadaan darurat serius, kedutaan atau konsulat negara Anda sendiri di Korea adalah tempat yang dituju — mereka menerbitkan dokumen perjalanan darurat dan bisa memberi saran. Cari '[nama negara Anda] embassy Seoul' untuk alamat dan hotline terkini, atau biarkan 1330 membantu menemukannya. Banyak kedutaan berada di pusat kota Seoul."
+    },
+    "pitfalls": {
+      "title": "Baik untuk diketahui",
+      "items": [
+        { "icon": "🌐", "t": "Anda tidak perlu bahasa Korea", "d": "112, 119, dan 1330 semuanya menyediakan penerjemahan. Mulai dengan menyebutkan bahasa yang Anda butuhkan — atau telepon 1330 dulu dan biarkan mereka menghubungkan." },
+        { "icon": "💳", "t": "Rumah sakit meminta bayar di muka", "d": "Anda biasanya membayar di muka (kartu tidak masalah) lalu mengklaim ke asuransi perjalanan nanti. Simpan bukti pembayaran dan laporan." },
+        { "icon": "📵", "t": "Belum punya SIM card?", "d": "Panggilan darurat (112/119) tetap berfungsi bahkan tanpa SIM lokal atau pulsa. Wi-Fi bandara/hotel juga cukup untuk aplikasi terkait 1330." },
+        { "icon": "🪪", "t": "Bawa identitas", "d": "Bawa paspor (atau foto/salinan yang jelas) bersama Anda — polisi dan rumah sakit mungkin memintanya." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ bantuan & darurat",
+      "items": [
+        { "q": "Nomor mana yang harus saya telepon?", "a": "112 untuk polisi, 119 untuk kebakaran atau ambulans, dan 1330 untuk apa pun terkait perjalanan (24/7 dan multibahasa, serta bisa menelepon 112/119 untuk Anda)." },
+        { "q": "Apakah mereka bisa bahasa saya?", "a": "112 dan 119 punya penerjemahan — sebutkan bahasa yang Anda butuhkan. 1330 menawarkan bantuan dalam beberapa bahasa termasuk Inggris, Jepang, Mandarin, Rusia, Vietnam, Thai, dan Melayu." },
+        { "q": "Bagaimana jika saya kehilangan paspor?", "a": "Buat laporan polisi dulu, lalu bawa ke kedutaan Anda untuk penggantian atau dokumen perjalanan darurat. 1330 bisa membantu menemukan keduanya dan menerjemahkan." },
+        { "q": "Apakah ada aplikasi darurat?", "a": "Ya — Emergency Ready App resmi menampilkan rumah sakit, kantor polisi, tempat berlindung terdekat, panduan keselamatan, dan kontak kedutaan." },
+        { "q": "Apakah panggilan darurat berfungsi tanpa SIM?", "a": "Ya, 112 dan 119 bisa ditelepon bahkan tanpa SIM lokal atau pulsa." }
+      ]
+    }
+  },
+  "es": {
+    "kicker": "Ayuda y emergencias",
+    "readingTime": "6 min de lectura",
+    "h1": "Ayuda y emergencias",
+    "metaTitle": "Ayuda y emergencias en Corea: números y qué hacer (2026) — Korea Trip Hub",
+    "metaDesc": "Números de emergencia de Corea (112 policía, 119 bomberos/ambulancia, 1330 línea turística, 1345 inmigración), qué hacer si te enfermas, pierdes el pasaporte o necesitas tu embajada, además de la app oficial de emergencias.",
+    "tldr": [
+      "Tres números cubren casi todo: 112 (policía), 119 (bomberos/ambulancia), 1330 (línea turística 24 h).",
+      "1330 te hará de intérprete y puede llamar al 112/119 por ti — es la primera llamada más fácil.",
+      "En una llamada al 112/119, indica el idioma que necesitas para que te pasen con un intérprete.",
+      "¿Pasaporte perdido? Haz una denuncia en la policía y luego contacta con tu embajada. Instala la Emergency Ready App."
+    ],
+    "numbers": {
+      "title": "Guarda estos números ahora",
+      "intro": "Toca para llamar (en el móvil). Funcionan en todo el país y hay interpretación disponible.",
+      "items": [
+        { "factId": "emergency-police", "icon": "🚨", "label": "Policía", "tone": "amber", "when": "Delitos, robos, peligro, accidentes que involucran a otras personas." },
+        { "factId": "emergency-fire-medical", "icon": "🚑", "label": "Bomberos / Ambulancia", "tone": "blue", "when": "Incendio, lesión, enfermedad repentina — una ambulancia." },
+        { "factId": "tourist-hotline-1330", "icon": "📞", "label": "Línea turística", "tone": "green", "when": "Cualquier ayuda de viaje, 24/7, multilingüe — puede derivar al 112/119." },
+        { "factId": "immigration-1345", "icon": "🛂", "label": "Inmigración", "tone": "neutral", "when": "Visado, duración de la estancia, dudas de inmigración." }
+      ]
+    },
+    "situations": {
+      "title": "Qué hacer si…",
+      "intro": "Emergencias de viaje habituales y la forma más rápida de resolver cada una.",
+      "cards": [
+        { "icon": "🤒", "name": "Estás enfermo o herido", "steps": ["En una emergencia, llama al 119 (indica el idioma que necesitas para pedir intérprete) o ve a urgencias de un hospital.", "Para cosas leves, una farmacia (약국) o una clínica sin cita es rápido y barato.", "Lleva tu pasaporte y una tarjeta; guarda todos los recibos para reclamar al seguro de viaje."] },
+        { "icon": "🛂", "name": "Pierdes el pasaporte", "steps": ["Denúncialo en la comisaría más cercana (경찰서) o subcomisaría (파출소) y consigue el documento de la denuncia.", "Lleva la denuncia + cualquier identificación a la embajada de tu país para un reemplazo o documento de viaje de emergencia.", "El 1330 puede ayudarte a encontrar la comisaría y tu embajada, y hacer de intérprete."] },
+        { "icon": "🎒", "name": "Pierdes un objeto", "steps": ["Rehaz tus pasos y pregunta al personal — los objetos perdidos muy a menudo se entregan.", "Para taxis/metro, llama al 1330 para que te ayuden a contactar con los objetos perdidos del operador.", "Si te roban algo, pon una denuncia (112) para el seguro."] },
+        { "icon": "⛈️", "name": "Una tormenta, ola de calor o alerta", "steps": ["Sigue las alertas oficiales; la Emergency Ready App muestra refugios e indicaciones.", "En un tifón o lluvia intensa, evita ríos y pasos subterráneos bajos; consulta el pronóstico de la KMA.", "El 1330 puede asesorarte e interpretar si no estás seguro de qué significa una alerta."] }
+      ]
+    },
+    "apps": {
+      "title": "Instálala antes de necesitarla",
+      "items": [
+        { "icon": "🆘", "name": "Emergency Ready App", "d": "App oficial: hospitales, comisarías y refugios más cercanos, guías de seguridad y contactos de embajadas.", "note": "Emergencia" },
+        { "icon": "📞", "name": "1330 (call or chat)", "d": "La línea de turismo de Corea — ayuda multilingüe 24/7 e interpretación a tres bandas con los servicios de emergencia.", "note": "Línea de ayuda" },
+        { "icon": "🗺️", "name": "Naver Map / KakaoMap", "d": "Encuentra rápido el hospital, la farmacia o la comisaría más cercana, con indicaciones.", "note": "Navegación" }
+      ]
+    },
+    "embassy": {
+      "title": "Contactar con tu embajada",
+      "body": "Ante un pasaporte perdido, una detención o una emergencia grave, la embajada o el consulado de tu propio país en Corea es el lugar al que acudir — emiten documentos de viaje de emergencia y pueden asesorarte. Busca '[tu país] embassy Seoul' para la dirección y la línea telefónica actuales, o deja que el 1330 te ayude a encontrarla. Muchas embajadas están en el centro de Seoul."
+    },
+    "pitfalls": {
+      "title": "Bueno saberlo",
+      "items": [
+        { "icon": "🌐", "t": "No necesitas saber coreano", "d": "112, 119 y 1330 ofrecen interpretación. Empieza indicando el idioma que necesitas — o llama primero al 1330 y deja que ellos deriven la llamada." },
+        { "icon": "💳", "t": "Los hospitales cobran por adelantado", "d": "Normalmente pagas por adelantado (la tarjeta sirve) y reclamas después al seguro de viaje. Guarda recibos e informes." },
+        { "icon": "📵", "t": "¿Aún sin SIM?", "d": "Las llamadas de emergencia (112/119) funcionan incluso sin SIM local ni saldo. El wifi del aeropuerto/hotel también sirve para las apps del 1330." },
+        { "icon": "🪪", "t": "Lleva identificación", "d": "Lleva contigo el pasaporte (o una foto/copia clara) — la policía y los hospitales pueden pedírtelo." }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre ayuda y emergencias",
+      "items": [
+        { "q": "¿A qué número debo llamar?", "a": "112 para la policía, 119 para bomberos o una ambulancia, y 1330 para cualquier cosa relacionada con el viaje (es 24/7 y multilingüe, y puede llamar al 112/119 por ti)." },
+        { "q": "¿Hablarán mi idioma?", "a": "112 y 119 tienen interpretación — indica el idioma que necesitas. El 1330 ofrece ayuda en varios idiomas, entre ellos inglés, japonés, chino, ruso, vietnamita, tailandés y malayo." },
+        { "q": "¿Y si pierdo el pasaporte?", "a": "Haz primero una denuncia policial y luego llévala a tu embajada para un reemplazo o documento de viaje de emergencia. El 1330 puede ayudarte a localizar ambos e interpretar." },
+        { "q": "¿Hay una app de emergencias?", "a": "Sí — la Emergency Ready App oficial muestra hospitales, comisarías, refugios cercanos, indicaciones de seguridad y contactos de embajadas." },
+        { "q": "¿Funcionan las llamadas de emergencia sin SIM?", "a": "Sí, al 112 y al 119 se puede llamar incluso sin una SIM local ni saldo." }
+      ]
+    }
+  },
+  "ms": {
+    "kicker": "Bantuan & kecemasan",
+    "readingTime": "Bacaan 6 minit",
+    "h1": "Bantuan & Kecemasan",
+    "metaTitle": "Bantuan & Kecemasan di Korea: Nombor Penting & Apa Perlu Dibuat (2026) — Korea Trip Hub",
+    "metaDesc": "Nombor kecemasan Korea (112 polis, 119 bomba/ambulans, 1330 talian bantuan pelancong, 1345 imigresen), apa perlu dibuat jika sakit, kehilangan pasport atau perlukan kedutaan, serta aplikasi kecemasan rasmi.",
+    "tldr": [
+      "Tiga nombor merangkumi hampir segala-galanya: 112 (polis), 119 (bomba/ambulans), 1330 (talian bantuan pelancong 24 jam).",
+      "1330 akan menterjemah untuk anda dan boleh menghubungi 112/119 bagi pihak anda — panggilan pertama yang paling mudah.",
+      "Semasa menghubungi 112/119, sebutkan bahasa yang anda perlukan untuk disambungkan kepada jurubahasa.",
+      "Pasport hilang? Buat laporan polis dahulu, kemudian hubungi kedutaan anda. Pasang Emergency Ready App."
+    ],
+    "numbers": {
+      "title": "Simpan nombor-nombor ini sekarang",
+      "intro": "Ketik untuk menghubungi (pada telefon). Nombor ini berfungsi di seluruh negara, dan perkhidmatan terjemahan tersedia.",
+      "items": [
+        { "factId": "emergency-police", "icon": "🚨", "label": "Polis", "tone": "amber", "when": "Jenayah, kecurian, bahaya, kemalangan yang melibatkan orang lain." },
+        { "factId": "emergency-fire-medical", "icon": "🚑", "label": "Bomba / Ambulans", "tone": "blue", "when": "Kebakaran, kecederaan, sakit mengejut — ambulans." },
+        { "factId": "tourist-hotline-1330", "icon": "📞", "label": "Talian Pelancong", "tone": "green", "when": "Sebarang bantuan perjalanan, 24/7, pelbagai bahasa — boleh menyambung ke 112/119." },
+        { "factId": "immigration-1345", "icon": "🛂", "label": "Imigresen", "tone": "neutral", "when": "Visa, tempoh tinggal, soalan berkaitan imigresen." }
+      ]
+    },
+    "situations": {
+      "title": "Apa perlu dibuat jika…",
+      "intro": "Kecemasan perjalanan yang lazim dan cara terpantas mengatasinya.",
+      "cards": [
+        { "icon": "🤒", "name": "Anda sakit atau cedera", "steps": ["Untuk kecemasan, hubungi 119 (sebutkan bahasa yang anda perlukan untuk jurubahasa) atau pergi ke unit kecemasan hospital.", "Untuk masalah kecil, farmasi (약국) atau klinik tanpa temu janji adalah cepat dan murah.", "Bawa pasport dan kad; simpan semua resit untuk tuntutan insurans perjalanan."] },
+        { "icon": "🛂", "name": "Anda kehilangan pasport", "steps": ["Laporkannya di balai polis terdekat (경찰서) atau pondok polis (파출소) dan dapatkan dokumen laporan.", "Bawa laporan + sebarang pengenalan ke kedutaan negara anda untuk penggantian atau dokumen perjalanan kecemasan.", "1330 boleh membantu anda mencari balai polis dan kedutaan anda, serta menterjemah."] },
+        { "icon": "🎒", "name": "Anda kehilangan barang", "steps": ["Jejak semula dan tanya kakitangan — barang hilang sangat kerap diserahkan semula.", "Untuk teksi/kereta bawah tanah, hubungi 1330 untuk bantuan menghubungi unit barang hilang pengendali.", "Untuk apa-apa yang dicuri, buat laporan polis (112) untuk insurans."] },
+        { "icon": "⛈️", "name": "Ribut, gelombang haba atau amaran", "steps": ["Ikuti amaran rasmi; Emergency Ready App menunjukkan tempat perlindungan dan panduan.", "Semasa taufan/hujan lebat, elakkan sungai dan terowong bawah yang rendah; semak ramalan KMA.", "1330 boleh menasihati dan menterjemah jika anda tidak pasti maksud sesuatu amaran."] }
+      ]
+    },
+    "apps": {
+      "title": "Pasang sebelum anda memerlukannya",
+      "items": [
+        { "icon": "🆘", "name": "Emergency Ready App", "d": "Aplikasi rasmi: hospital, balai polis, tempat perlindungan terdekat, panduan keselamatan dan hubungan kedutaan.", "note": "Kecemasan" },
+        { "icon": "📞", "name": "1330 (call or chat)", "d": "Talian bantuan pelancongan Korea — bantuan pelbagai bahasa 24/7 dan terjemahan tiga hala kepada perkhidmatan kecemasan.", "note": "Talian bantuan" },
+        { "icon": "🗺️", "name": "Naver Map / KakaoMap", "d": "Cari hospital, farmasi atau balai polis terdekat dengan pantas, lengkap dengan arah.", "note": "Navigasi" }
+      ]
+    },
+    "embassy": {
+      "title": "Menghubungi kedutaan anda",
+      "body": "Untuk pasport hilang, tangkapan, atau kecemasan serius, kedutaan atau konsulat negara anda sendiri di Korea ialah tempat untuk dituju — mereka mengeluarkan dokumen perjalanan kecemasan dan boleh memberi nasihat. Cari '[nama negara anda] embassy Seoul' untuk alamat dan talian terkini, atau biarkan 1330 membantu anda mencarinya. Banyak kedutaan terletak di tengah kota Seoul."
+    },
+    "pitfalls": {
+      "title": "Baik untuk diketahui",
+      "items": [
+        { "icon": "🌐", "t": "Anda tidak perlu bahasa Korea", "d": "112, 119 dan 1330 semuanya menyediakan terjemahan. Mulakan dengan menyebutkan bahasa yang anda perlukan — atau hubungi 1330 dahulu dan biarkan mereka menyambungkannya." },
+        { "icon": "💳", "t": "Hospital mahukan bayaran dahulu", "d": "Anda biasanya membayar dahulu (kad boleh) dan menuntut daripada insurans perjalanan kemudian. Simpan resit dan laporan." },
+        { "icon": "📵", "t": "Belum ada SIM?", "d": "Panggilan kecemasan (112/119) berfungsi walaupun tanpa SIM tempatan atau kredit. Wi-Fi lapangan terbang/hotel juga memadai untuk aplikasi berkaitan 1330." },
+        { "icon": "🪪", "t": "Bawa pengenalan diri", "d": "Bawa pasport (atau foto/salinan yang jelas) bersama anda — polis dan hospital mungkin memintanya." }
+      ]
+    },
+    "faq": {
+      "title": "Soalan lazim bantuan & kecemasan",
+      "items": [
+        { "q": "Nombor mana yang perlu saya hubungi?", "a": "112 untuk polis, 119 untuk bomba atau ambulans, dan 1330 untuk apa-apa berkaitan perjalanan (24/7 dan pelbagai bahasa, serta boleh menghubungi 112/119 untuk anda)." },
+        { "q": "Adakah mereka bertutur dalam bahasa saya?", "a": "112 dan 119 mempunyai terjemahan — sebutkan bahasa yang anda perlukan. 1330 menawarkan bantuan dalam beberapa bahasa termasuk Inggeris, Jepun, Cina, Rusia, Vietnam, Thai dan Melayu." },
+        { "q": "Bagaimana jika saya kehilangan pasport?", "a": "Buat laporan polis dahulu, kemudian bawa ke kedutaan anda untuk penggantian atau dokumen perjalanan kecemasan. 1330 boleh membantu anda mencari kedua-duanya dan menterjemah." },
+        { "q": "Adakah terdapat aplikasi kecemasan?", "a": "Ya — Emergency Ready App rasmi menunjukkan hospital, balai polis, tempat perlindungan berdekatan, panduan keselamatan dan hubungan kedutaan." },
+        { "q": "Adakah panggilan kecemasan berfungsi tanpa SIM?", "a": "Ya, 112 dan 119 boleh didail walaupun tanpa SIM tempatan atau kredit telefon." }
+      ]
+    }
+  },
+  "ko": {
+    "kicker": "도움 & 긴급",
+    "readingTime": "6분 분량",
+    "h1": "도움 & 긴급 상황",
+    "metaTitle": "한국에서 도움 & 긴급 상황: 긴급 전화번호와 대처법 (2026) — Korea Trip Hub",
+    "metaDesc": "한국의 긴급 전화번호(112 경찰, 119 화재·구급, 1330 관광 안내 핫라인, 1345 출입국), 아프거나 여권을 잃어버렸거나 대사관이 필요할 때 대처법, 그리고 공식 긴급 앱까지 안내합니다.",
+    "tldr": [
+      "번호 세 개면 거의 모든 상황에 대응됩니다: 112(경찰), 119(화재·구급), 1330(24시간 관광 핫라인).",
+      "1330은 통역을 해 주고, 대신 112/119에 전화해 줄 수도 있습니다 — 가장 간편한 첫 전화입니다.",
+      "112/119에 전화하면 필요한 언어를 말해 통역으로 연결하세요.",
+      "여권을 잃어버렸다면? 먼저 경찰에 신고하고, 그다음 대사관에 연락하세요. Emergency Ready App도 설치해 두세요."
+    ],
+    "numbers": {
+      "title": "지금 이 번호들을 저장하세요",
+      "intro": "(휴대폰에서) 눌러서 바로 전화. 전국에서 사용할 수 있고, 통역도 제공됩니다.",
+      "items": [
+        { "factId": "emergency-police", "icon": "🚨", "label": "경찰", "tone": "amber", "when": "범죄, 절도, 위험, 타인이 관련된 사고." },
+        { "factId": "emergency-fire-medical", "icon": "🚑", "label": "화재 · 구급", "tone": "blue", "when": "화재, 부상, 갑작스러운 질환 — 구급차." },
+        { "factId": "tourist-hotline-1330", "icon": "📞", "label": "관광 핫라인", "tone": "green", "when": "여행 관련 모든 도움, 24시간, 다국어 — 112/119로 연결 가능." },
+        { "factId": "immigration-1345", "icon": "🛂", "label": "출입국", "tone": "neutral", "when": "비자, 체류 기간, 출입국 관련 문의." }
+      ]
+    },
+    "situations": {
+      "title": "이럴 때는 이렇게…",
+      "intro": "여행 중 흔히 겪는 긴급 상황과 각각을 가장 빠르게 해결하는 방법.",
+      "cards": [
+        { "icon": "🤒", "name": "아프거나 다쳤을 때", "steps": ["응급 상황이면 119에 전화하거나(필요한 언어를 말해 통역 요청) 병원 응급실로 가세요.", "가벼운 증상이라면 약국이나 예약 없이 갈 수 있는 의원이 빠르고 저렴합니다.", "여권과 카드를 챙기고, 여행자 보험 청구를 위해 영수증을 모두 보관하세요."] },
+        { "icon": "🛂", "name": "여권을 잃어버렸을 때", "steps": ["가까운 경찰서나 파출소에 신고하고 신고 확인서를 받으세요.", "그 확인서와 신분증을 가지고 본국 대사관에 가서 재발급 또는 긴급 여행 증명서를 받으세요.", "1330이 경찰서와 대사관을 찾도록 돕고 통역도 해 줍니다."] },
+        { "icon": "🎒", "name": "물건을 잃어버렸을 때", "steps": ["왔던 길을 되짚어 직원에게 물어보세요 — 분실물은 습득되어 접수되는 경우가 매우 많습니다.", "택시·지하철이라면 1330에 전화해 운영사 분실물 센터에 연락하도록 도움을 받으세요.", "도난당한 물건은 보험을 위해 경찰에 신고(112)하세요."] },
+        { "icon": "⛈️", "name": "폭풍, 폭염 또는 경보", "steps": ["공식 경보를 따르세요. Emergency Ready App이 대피소와 안내를 보여 줍니다.", "태풍·폭우 시에는 하천과 낮은 지하 통로를 피하고, KMA(기상청) 예보를 확인하세요.", "경보의 의미가 확실하지 않다면 1330이 조언과 통역을 해 줍니다."] }
+      ]
+    },
+    "apps": {
+      "title": "필요해지기 전에 미리 설치하세요",
+      "items": [
+        { "icon": "🆘", "name": "Emergency Ready App", "d": "공식 앱: 가장 가까운 병원·경찰서·대피소, 안전 안내, 대사관 연락처.", "note": "긴급" },
+        { "icon": "📞", "name": "1330 (call or chat)", "d": "한국관광공사 핫라인 — 24시간 다국어 지원과 긴급 서비스로의 3자 통역.", "note": "핫라인" },
+        { "icon": "🗺️", "name": "Naver Map / KakaoMap", "d": "가장 가까운 병원·약국·경찰서를 길 안내와 함께 빠르게 찾으세요.", "note": "내비게이션" }
+      ]
+    },
+    "embassy": {
+      "title": "대사관에 연락하기",
+      "body": "여권 분실, 체포, 심각한 긴급 상황에는 한국에 있는 본국 대사관이나 영사관이 도움을 청할 곳입니다 — 긴급 여행 증명서를 발급하고 조언해 줍니다. 최신 주소와 핫라인은 '[본국 이름] 대사관 서울'로 검색하거나 1330의 도움을 받아 찾으세요. 많은 대사관이 서울 도심에 있습니다."
+    },
+    "pitfalls": {
+      "title": "알아 두면 좋아요",
+      "items": [
+        { "icon": "🌐", "t": "한국어를 몰라도 됩니다", "d": "112, 119, 1330 모두 통역을 제공합니다. 필요한 언어를 말하는 것부터 시작하세요 — 아니면 먼저 1330에 전화해 연결을 부탁하세요." },
+        { "icon": "💳", "t": "병원은 선불이 기본입니다", "d": "보통 먼저 결제(카드 가능)하고 나중에 여행자 보험에 청구합니다. 영수증과 서류를 보관하세요." },
+        { "icon": "📵", "t": "아직 유심이 없나요?", "d": "긴급 전화(112/119)는 현지 유심이나 잔액이 없어도 걸립니다. 공항·호텔 Wi-Fi만 있으면 1330 관련 앱도 쓸 수 있습니다." },
+        { "icon": "🪪", "t": "신분증을 소지하세요", "d": "여권(또는 선명한 사진·사본)을 지니고 다니세요 — 경찰과 병원이 요구할 수 있습니다." }
+      ]
+    },
+    "faq": {
+      "title": "도움 & 긴급 자주 묻는 질문",
+      "items": [
+        { "q": "어느 번호로 전화해야 하나요?", "a": "경찰은 112, 화재나 구급차는 119, 여행과 관련된 것은 무엇이든 1330입니다(24시간·다국어이며, 대신 112/119로 전화해 줄 수 있습니다)." },
+        { "q": "제 언어로 통해요?", "a": "112와 119에는 통역이 있습니다 — 필요한 언어를 말하세요. 1330은 영어, 일본어, 중국어, 러시아어, 베트남어, 태국어, 말레이어 등 여러 언어로 도움을 제공합니다." },
+        { "q": "여권을 잃어버리면 어떻게 하나요?", "a": "먼저 경찰에 신고하고, 그 신고서를 가지고 대사관에 가서 재발급이나 긴급 여행 증명서를 받으세요. 1330이 두 곳을 찾도록 돕고 통역도 해 줍니다." },
+        { "q": "긴급 앱이 있나요?", "a": "네 — 공식 Emergency Ready App이 근처 병원·경찰서·대피소, 안전 안내, 대사관 연락처를 보여 줍니다." },
+        { "q": "유심이 없어도 긴급 전화가 되나요?", "a": "네, 112와 119는 현지 유심이나 통화 잔액이 없어도 걸 수 있습니다." }
+      ]
+    }
+  }
+}
