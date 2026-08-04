@@ -1,0 +1,67 @@
+{
+  "_README": "Rich guide content for the Weather / when-to-go plan page (English base). A live current-weather widget (components/WeatherNow.jsx, Open-Meteo) is rendered by WeatherGuide. HARNESS: seasonal characteristics only; exact cherry-blossom/foliage dates shift each year, so we never assert a fixed date. Verified fact best-time-seasons renders in the Verified-facts box.",
+  "slug": "weather",
+  "kicker": "When to go & what to pack",
+  "readingTime": "6 min read",
+  "wx": {
+    "title": "Weather right now",
+    "loading": "Loading live weather…",
+    "error": "Couldn't load live weather — check a forecast app for the current conditions.",
+    "note": "Live conditions for reference.",
+    "source": "Source",
+    "cities": { "seoul": "Seoul", "busan": "Busan", "jeju": "Jeju" }
+  },
+  "tldr": [
+    "Best overall: spring (Apr–May) and autumn (Sep–Nov) — mild and comfortable.",
+    "Summer (Jun–Aug) is hot and humid with a rainy monsoon; pack light + an umbrella.",
+    "Winter (Dec–Feb) is cold and dry; bring a warm coat and layers.",
+    "Cherry-blossom and fall-foliage timing shifts every year — check that year's forecast."
+  ],
+  "highlights": [
+    { "icon": "🌸", "tone": "green", "title": "Spring & autumn are the sweet spots", "body": "Mild temperatures, lower humidity and big scenery: cherry blossoms in spring, fiery foliage in autumn. These are peak travel seasons, so book accommodation early." },
+    { "icon": "🌧️", "tone": "amber", "title": "Summer = heat + monsoon", "body": "June–August is hot and humid, with a rainy monsoon stretch (usually late June–July) and occasional late-summer typhoons. Breathable clothes and a compact umbrella are essential." },
+    { "icon": "🧥", "tone": "blue", "title": "Winter is cold but bright", "body": "December–February is cold and dry, with Seoul often below freezing and some snow. Indoor heating is strong, so dress in layers you can peel off." }
+  ],
+  "seasons": {
+    "title": "The four seasons, and what to pack",
+    "cards": [
+      { "icon": "🌸", "name": "Spring", "months": "Mar – May", "tone": "green", "vibe": "Mild, cherry blossoms, occasional fine dust.", "pack": "Light layers, a light jacket, and a mask on high fine-dust days." },
+      { "icon": "🌊", "name": "Summer", "months": "Jun – Aug", "tone": "amber", "vibe": "Hot, humid, monsoon rain, some typhoons.", "pack": "Breathable clothes, a compact umbrella, sunscreen, and a layer for strong AC." },
+      { "icon": "🍁", "name": "Autumn", "months": "Sep – Nov", "tone": "neutral", "vibe": "Crisp, clear and dry — prime hiking and foliage.", "pack": "Light layers and a warmer jacket for late autumn." },
+      { "icon": "❄️", "name": "Winter", "months": "Dec – Feb", "tone": "blue", "vibe": "Cold and dry, Seoul below freezing, some snow.", "pack": "A warm coat, hat/gloves, and layers for strong indoor heating." }
+    ]
+  },
+  "periods": {
+    "title": "Notable times to plan around",
+    "items": [
+      { "icon": "🌸", "t": "Cherry blossoms", "d": "Roughly late March to mid-April, earlier in the warmer south (Jeju/Busan) than in Seoul. Exact dates move each year — follow that year's blossom forecast." },
+      { "icon": "🍁", "t": "Autumn foliage", "d": "Usually mid-October to early November, starting in the mountains and north and moving south. Check the current-year foliage forecast." },
+      { "icon": "🌧️", "t": "Monsoon (jangma)", "d": "A rainy stretch, generally late June into July. Trips are still fine — just plan indoor options and carry rain gear." },
+      { "icon": "😷", "t": "Fine dust season", "d": "Air quality can dip in spring (and at times winter). Check an air-quality app; wear a mask on bad days." }
+    ]
+  },
+  "pitfalls": {
+    "title": "Weather mistakes to avoid",
+    "items": [
+      { "icon": "📅", "t": "Chasing exact blossom dates", "d": "Cherry-blossom and foliage peaks shift by a week or more each year. Don't lock non-refundable plans to a fixed date — track the forecast." },
+      { "icon": "🌧️", "t": "Underestimating the monsoon", "d": "Late June–July can bring heavy rain. Pack a real umbrella/rain jacket and have indoor backups." },
+      { "icon": "🥵", "t": "Ignoring summer humidity", "d": "It's not just hot — it's humid. Hydrate, plan midday indoor breaks, and dress for strong indoor air-conditioning." },
+      { "icon": "🧊", "t": "Under-packing for winter", "d": "Seoul winters bite. A proper coat, plus a layer for very warm indoor heating, beats one thick jumper." },
+      { "icon": "😷", "t": "Skipping the air-quality check", "d": "On high fine-dust days, a mask and fewer strenuous outdoor plans make a real difference." }
+    ]
+  },
+  "faq": {
+    "title": "Weather FAQ",
+    "items": [
+      { "q": "When is the best time to visit Korea?", "a": "Spring (April–May) and autumn (September–November) are the most comfortable — mild, drier and scenic. They're also the busiest, so book early." },
+      { "q": "When do the cherry blossoms bloom?", "a": "Roughly late March to mid-April, earlier in the south. The exact peak shifts each year, so follow that year's blossom forecast rather than a fixed date." },
+      { "q": "Is summer a bad time to go?", "a": "It's hot, humid and has a rainy monsoon (late June–July), but it's far from a write-off — just pack light, carry an umbrella and plan some indoor time." },
+      { "q": "How cold does winter get?", "a": "Seoul is often below freezing in December–February, with some snow. It's cold and dry; a warm coat and layers handle it, and indoor heating is strong." },
+      { "q": "What's 'fine dust'?", "a": "Fine dust (미세먼지) is airborne particulate pollution that can rise in spring and at times winter. Check an air-quality app and wear a mask on bad days." }
+    ]
+  },
+  "official": [
+    { "icon": "🌤️", "name": "Korea Meteorological Administration", "url": "https://web.kma.go.kr/eng/", "what": "Official forecasts & warnings" },
+    { "icon": "🌏", "name": "VisitKorea", "url": "https://english.visitkorea.or.kr", "what": "Seasonal travel info" }
+  ]
+}
