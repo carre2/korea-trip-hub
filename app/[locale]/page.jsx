@@ -1,4 +1,5 @@
 import { getMessages, defaultLocale } from "../../lib/i18n";
+import { pageMeta } from "../../lib/seo";
 import { fact, factsUpdated } from "../../lib/facts";
 import MapExplorer from "../../components/MapExplorer";
 import SpotifyKpop from "../../components/SpotifyKpop";
@@ -80,6 +81,17 @@ function FactCard({ id, icon, iconBg, iconColor, title, sub, big, t }) {
       )}
     </div>
   );
+}
+
+export function generateMetadata({ params }) {
+  const locale = params?.locale || defaultLocale;
+  return pageMeta({
+    locale,
+    path: "",
+    title: "Korea Trip Hub — Plan your Korea trip in your language",
+    description:
+      "All-in-one multilingual travel hub for visiting Korea: AI trip planner, verified essentials (visa, transport), food & hands-on experiences, reviews, and K-culture.",
+  });
 }
 
 export default function Home({ params }) {

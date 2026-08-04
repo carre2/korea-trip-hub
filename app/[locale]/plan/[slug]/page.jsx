@@ -1,4 +1,5 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
+import { pageMeta } from "../../../../lib/seo";
 import { fact } from "../../../../lib/facts";
 import GuideVisual from "../../../../components/GuideVisual";
 import TransitGuide from "../../../../components/TransitGuide";
@@ -40,12 +41,16 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params }) {
+  const locale = params?.locale || defaultLocale;
   const item = plan.items[params.slug];
   const title = params.slug.charAt(0).toUpperCase() + params.slug.slice(1);
-  return {
+  return pageMeta({
+    locale,
+    path: `plan/${params.slug}`,
     title: `${title} — Korea Trip Hub`,
     description: item?.tagline || "Verified travel essentials for visiting Korea.",
-  };
+    type: "article",
+  });
 }
 
 function humanize(k) {

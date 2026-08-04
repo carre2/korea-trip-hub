@@ -1,65 +1,20 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
+import { pageMeta } from "../../../../lib/seo";
 import VisaCountryGuide from "../../../../components/VisaCountryGuide";
-import india from "../../../../data/visa/india.json";
-import vietnam from "../../../../data/visa/vietnam.json";
-import china from "../../../../data/visa/china.json";
-import philippines from "../../../../data/visa/philippines.json";
-import indonesia from "../../../../data/visa/indonesia.json";
-import usa from "../../../../data/visa/usa.json";
-import japan from "../../../../data/visa/japan.json";
-import uk from "../../../../data/visa/uk.json";
-import canada from "../../../../data/visa/canada.json";
-import australia from "../../../../data/visa/australia.json";
-import taiwan from "../../../../data/visa/taiwan.json";
-import indiaI18n from "../../../../data/visa/india.i18n.json";
-import vietnamI18n from "../../../../data/visa/vietnam.i18n.json";
-import chinaI18n from "../../../../data/visa/china.i18n.json";
-import philippinesI18n from "../../../../data/visa/philippines.i18n.json";
-import indonesiaI18n from "../../../../data/visa/indonesia.i18n.json";
-import usaI18n from "../../../../data/visa/usa.i18n.json";
-import japanI18n from "../../../../data/visa/japan.i18n.json";
-import ukI18n from "../../../../data/visa/uk.i18n.json";
-import canadaI18n from "../../../../data/visa/canada.i18n.json";
-import australiaI18n from "../../../../data/visa/australia.i18n.json";
-import taiwanI18n from "../../../../data/visa/taiwan.i18n.json";
-
-// Per-nationality visa guides. Add a country here + a data/visa/<code>.json file.
-const countries = { india, vietnam, china, philippines, indonesia, usa, japan, uk, canada, australia, taiwan };
-// Per-locale translation overrides, one file per country: { <locale>: { ...overrides } }.
-const i18nMaps = { india: indiaI18n, vietnam: vietnamI18n, china: chinaI18n, philippines: philippinesI18n, indonesia: indonesiaI18n, usa: usaI18n, japan: japanI18n, uk: ukI18n, canada: canadaI18n, australia: australiaI18n, taiwan: taiwanI18n };
-
-// Deep-merge a locale override onto the English base.
-// Arrays in the override REPLACE the base array (a locale provides the full translated array);
-// plain objects merge recursively; scalars override. Missing keys fall back to English.
-function mergeGuide(base, ov) {
-  if (!ov) return base;
-  const out = Array.isArray(base) ? [...base] : { ...base };
-  for (const k of Object.keys(ov)) {
-    const bv = base?.[k], ovv = ov[k];
-    if (Array.isArray(ovv)) out[k] = ovv;
-    else if (ovv && typeof ovv === "object" && bv && typeof bv === "object" && !Array.isArray(bv)) out[k] = mergeGuide(bv, ovv);
-    else out[k] = ovv;
-  }
-  return out;
-}
-
-function localized(country, locale) {
-  const base = countries[country];
-  if (!base) return null;
-  return mergeGuide(base, i18nMaps[country]?.[locale]);
-}
+import { localized, visaCountryCodes } from "../../../../lib/visa";
 
 export function generateStaticParams() {
-  const codes = Object.keys(countries);
-  return locales.flatMap((locale) => codes.map((country) => ({ locale, country })));
+  return locales.flatMap((locale) => visaCountryCodes.map((country) => ({ locale, country })));
 }
 
 export function generateMetadata({ params }) {
-  const g = localized(params.country, params.locale);
-  if (!g) return { title: "Visa guide — Korea Trip Hub" };
+  const locale = params?.locale || defaultLocale;
+  const g = localized(params.country, locale);
+  const path = `visa/${params.country}`;
+  if (!g) return pageMeta({ locale, path, title: "Visa guide — Korea Trip Hub" });
   const title = g.metaTitle || `${g.country} → Korea Visa: Step-by-Step Guide (2026) — Korea Trip Hub`;
   const description = g.metaDesc || `How to apply for a Korea tourist visa from ${g.country}: where to go, documents (and where to get each), fees, processing time and official links. ${g.verdict?.type || ""}`.trim();
-  return { title, description };
+  return pageMeta({ locale, path, title, description, type: "article" });
 }
 
 export default function VisaCountryPage({ params }) {

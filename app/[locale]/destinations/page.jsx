@@ -1,4 +1,5 @@
 import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
+import { pageMeta } from "../../../lib/seo";
 import { fact } from "../../../lib/facts";
 import dest from "../../../data/destinations.json";
 import destJa from "../../../data/destinations.ja.json";
@@ -27,8 +28,13 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export function generateMetadata() {
-  return { title: "Destinations — Korea Trip Hub" };
+export function generateMetadata({ params }) {
+  const locale = params?.locale || defaultLocale;
+  return pageMeta({
+    locale,
+    path: "destinations",
+    title: "Destinations — Korea Trip Hub",
+  });
 }
 
 export default function Destinations({ params }) {

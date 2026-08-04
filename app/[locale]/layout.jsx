@@ -1,22 +1,17 @@
 import "../globals.css";
 import { locales, rtlLocales, localeNames } from "../../lib/i18n";
+import { SITE } from "../../lib/seo";
 import Header from "../../components/Header";
-
-const SITE = "https://ktriphub.com";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-// Per-locale metadata + hreflang alternates (multilingual SEO).
-export function generateMetadata({ params }) {
-  const { locale } = params;
-  const languages = Object.fromEntries(locales.map((l) => [l, `${SITE}/${l}/`]));
-  languages["x-default"] = `${SITE}/en/`;
-  return {
-    metadataBase: new URL(SITE),
-    alternates: { canonical: `${SITE}/${locale}/`, languages },
-  };
+// Only metadataBase belongs here. canonical/hreflang are PER PAGE (lib/seo.js pageMeta) —
+// a canonical set in this layout would be inherited by every child page that doesn't
+// override it, telling Google the whole site is a copy of the locale home.
+export function generateMetadata() {
+  return { metadataBase: new URL(SITE) };
 }
 
 export default function LocaleLayout({ children, params }) {

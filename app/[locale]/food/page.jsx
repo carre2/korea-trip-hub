@@ -1,4 +1,5 @@
 import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
+import { pageMeta } from "../../../lib/seo";
 import food from "../../../data/food.json";
 import foodJa from "../../../data/food.ja.json";
 import foodZh from "../../../data/food.zh.json";
@@ -27,8 +28,13 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export function generateMetadata() {
-  return { title: "Food & Experiences — Korea Trip Hub" };
+export function generateMetadata({ params }) {
+  const locale = params?.locale || defaultLocale;
+  return pageMeta({
+    locale,
+    path: "food",
+    title: "Food & Experiences — Korea Trip Hub",
+  });
 }
 
 function Card({ item, tagBg, tagColor }) {
