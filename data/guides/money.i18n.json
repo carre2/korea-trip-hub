@@ -1,0 +1,570 @@
+{
+  "_README": "Per-locale translation overrides for money.json (guides). Machine-translated — native review recommended.",
+  "zh": {
+    "kicker": "钱与支付",
+    "readingTime": "阅读时间 6 分钟",
+    "fx": {
+      "title": "实时汇率 → 韩元（₩）",
+      "updated": "更新时间",
+      "loading": "正在加载实时汇率…",
+      "error": "暂时无法加载实时汇率——请用货币应用或咨询银行查看当前汇率。",
+      "note": "仅供参考的中间市场汇率。兑换处、ATM 和银行卡网络会采用各自的汇率和手续费（通常更不划算）。",
+      "source": "来源"
+    },
+    "tldr": [
+      "银行卡几乎处处能用——带一张支持非接触（感应）支付的卡。",
+      "在传统市场、街边小吃和小店备一点现金。",
+      "韩国不用小费——你看到的价格就是你要付的价格。",
+      "要换钱？市区兑换处通常比机场划算；刷卡时务必用 KRW 结算，别用你的本国货币。"
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "银行卡为王", "body": "信用卡、借记卡（以及手机非接触支付）几乎处处可用——商店、餐厅、咖啡馆、出租车、便利店。一张 Visa/Mastercard 在绝大多数地方都能用。" },
+      { "icon": "🪙", "tone": "amber", "title": "但还是备点现金", "body": "传统市场、街边小吃摊和一些本地小店以现金为主。口袋里放一点韩元，能省去尴尬。" },
+      { "icon": "🙅", "tone": "blue", "title": "无需小费", "body": "给小费不是这里的文化。在餐厅或出租车上都不用给小费——标出的价格就是最终价格。" }
+    ],
+    "exchange": {
+      "title": "在哪里换钱",
+      "intro": "你很少需要很多现金，但当你需要时，汇率会因换钱地点而差别很大。",
+      "options": [
+        { "icon": "🏙️", "name": "市区兑换处", "tone": "green", "d": "Myeongdong 和 Namdaemun 等区域的持牌兑换处通常汇率最好。多比较几家，并留意是否“免手续费”。" },
+        { "icon": "🏦", "name": "银行", "tone": "blue", "d": "可靠、汇率公道，但只在工作日营业且较慢。适合换较大金额。" },
+        { "icon": "🏧", "name": "“Global”ATM", "tone": "neutral", "d": "标有“Global”的 ATM 可用外国卡取韩元。方便，但要留意每笔取款手续费（常为 ₩3,000–5,000）。" },
+        { "icon": "🛫", "name": "机场兑换处", "tone": "amber", "d": "刚到时很方便，但汇率通常最差。只换够进城的金额，之后用市区兑换处或刷卡。" }
+      ]
+    },
+    "payments": {
+      "title": "银行卡、非接触支付与预付卡",
+      "intro": "日常到底怎么付款：",
+      "items": [
+        { "icon": "💳", "t": "银行卡与非接触支付", "d": "几乎处处可以感应或插卡。让终端以 KRW（韩元）结算，别用你的本国货币——见下方注意事项。" },
+        { "icon": "🚇", "t": "T-money", "d": "这张交通卡在许多便利店和自动售货机也能付款。用现金充值即可。" },
+        { "icon": "🎫", "t": "WOWPASS", "d": "一款热门的游客预付卡：在自助机上充入外币现金，即可得到一张同时能当 T-money 用的韩国卡。当你的卡被拒时很有用。" },
+        { "icon": "📱", "t": "手机支付", "d": "Apple Pay / Google Pay 现在许多地方可用，但覆盖仍不及实体卡——也带一张卡吧。" }
+      ]
+    },
+    "pitfalls": {
+      "title": "要避免的用钱误区",
+      "items": [
+        { "icon": "🔄", "t": "用本国货币结算（DCC）", "d": "如果刷卡终端提议以 USD/EUR/等而非 KRW 结算，请拒绝——“动态货币转换”会加收很差的加价。始终选择 KRW。" },
+        { "icon": "🛫", "t": "在机场换太多钱", "d": "机场汇率通常最差。只换够进城所需的金额。" },
+        { "icon": "🏧", "t": "意外的 ATM 手续费", "d": "外国卡 ATM 每笔取款可能收取 ₩3,000–5,000。一次多取一些，别多次小额取款。" },
+        { "icon": "💵", "t": "带太多现金", "d": "银行卡能应付大部分开销。你需要的现金通常远比想象的少。" },
+        { "icon": "💁", "t": "想给小费", "d": "这里根本不期待小费，反而可能造成困惑。别加小费。" }
+      ]
+    },
+    "faq": {
+      "title": "用钱常见问题",
+      "items": [
+        { "q": "我需要现金，还是有卡就够了？", "a": "一张卡几乎能应付一切。在传统市场、街边小吃和小店备点现金——但你用到的可能比预想的少。" },
+        { "q": "在哪里换汇率最好？", "a": "市区兑换处（例如 Myeongdong）通常比机场好，也常常优于 ATM。银行汇率公道但只在工作日营业。上方的实时汇率是中间市场参考价——兑换处和银行卡会采用各自的汇率。" },
+        { "q": "我该给小费吗？", "a": "不用。在韩国给小费不是惯例；标出的价格就是你要付的，餐厅和出租车都一样。" },
+        { "q": "我的外国卡被拒了——怎么办？", "a": "试试“Global”ATM 或换一张卡，或用现金充一张 WOWPASS 预付卡。出行前通知你的银行，以免他们拦截境外交易。" },
+        { "q": "Apple Pay / Google Pay 能用吗？", "a": "越来越可以，但受理面仍不及实体卡。请以一张芯片加非接触的卡作为主要支付方式。" }
+      ]
+    }
+  },
+  "zh-TW": {
+    "kicker": "金錢與支付",
+    "readingTime": "閱讀時間 6 分鐘",
+    "fx": {
+      "title": "即時匯率 → 韓元（₩）",
+      "updated": "更新時間",
+      "loading": "正在載入即時匯率…",
+      "error": "暫時無法載入即時匯率——請用貨幣 App 或洽詢銀行查看目前匯率。",
+      "note": "僅供參考的中間市場匯率。兌換處、ATM 和信用卡網路會採用各自的匯率和手續費（通常較不划算）。",
+      "source": "來源"
+    },
+    "tldr": [
+      "信用卡幾乎處處能用——帶一張支援感應（非接觸）支付的卡。",
+      "在傳統市場、街邊小吃和小店備一點現金。",
+      "韓國不用小費——你看到的價格就是你要付的價格。",
+      "要換錢？市區兌換處通常比機場划算；刷卡時務必用 KRW 結算，別用你的本國貨幣。"
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "信用卡為王", "body": "信用卡、金融卡（以及手機感應支付）幾乎處處可用——商店、餐廳、咖啡館、計程車、便利商店。一張 Visa/Mastercard 在絕大多數地方都能用。" },
+      { "icon": "🪙", "tone": "amber", "title": "但還是備點現金", "body": "傳統市場、街邊小吃攤和一些在地小店以現金為主。口袋裡放一點韓元，能省去尷尬。" },
+      { "icon": "🙅", "tone": "blue", "title": "無需小費", "body": "給小費不是這裡的文化。在餐廳或計程車上都不用給小費——標出的價格就是最終價格。" }
+    ],
+    "exchange": {
+      "title": "在哪裡換錢",
+      "intro": "你很少需要很多現金，但當你需要時，匯率會因換錢地點而差別很大。",
+      "options": [
+        { "icon": "🏙️", "name": "市區兌換處", "tone": "green", "d": "Myeongdong 和 Namdaemun 等區域的持牌兌換處通常匯率最好。多比較幾家，並留意是否「免手續費」。" },
+        { "icon": "🏦", "name": "銀行", "tone": "blue", "d": "可靠、匯率公道，但只在平日營業且較慢。適合換較大金額。" },
+        { "icon": "🏧", "name": "「Global」ATM", "tone": "neutral", "d": "標有「Global」的 ATM 可用外國卡領韓元。方便，但要留意每筆提款手續費（常為 ₩3,000–5,000）。" },
+        { "icon": "🛫", "name": "機場兌換處", "tone": "amber", "d": "剛抵達時很方便，但匯率通常最差。只換夠進城的金額，之後用市區兌換處或刷卡。" }
+      ]
+    },
+    "payments": {
+      "title": "信用卡、感應支付與預付卡",
+      "intro": "日常到底怎麼付款：",
+      "items": [
+        { "icon": "💳", "t": "信用卡與感應支付", "d": "幾乎處處可以感應或插卡。請讓終端以 KRW（韓元）結算，別用你的本國貨幣——見下方注意事項。" },
+        { "icon": "🚇", "t": "T-money", "d": "這張交通卡在許多便利商店和自動販賣機也能付款。用現金儲值即可。" },
+        { "icon": "🎫", "t": "WOWPASS", "d": "一款熱門的旅客預付卡：在自助機上儲入外幣現金，即可拿到一張同時能當 T-money 用的韓國卡。當你的卡被拒時很有用。" },
+        { "icon": "📱", "t": "行動支付", "d": "Apple Pay / Google Pay 現在許多地方可用，但涵蓋仍不及實體卡——也帶一張卡吧。" }
+      ]
+    },
+    "pitfalls": {
+      "title": "要避免的用錢誤區",
+      "items": [
+        { "icon": "🔄", "t": "以本國貨幣結算（DCC）", "d": "如果刷卡終端提議以 USD/EUR/等而非 KRW 結算，請拒絕——「動態貨幣轉換」會加收很差的加價。務必選擇 KRW。" },
+        { "icon": "🛫", "t": "在機場換太多錢", "d": "機場匯率通常最差。只換夠進城所需的金額。" },
+        { "icon": "🏧", "t": "意外的 ATM 手續費", "d": "外國卡 ATM 每筆提款可能收取 ₩3,000–5,000。一次多領一些，別多次小額提款。" },
+        { "icon": "💵", "t": "帶太多現金", "d": "信用卡能應付大部分開銷。你需要的現金通常遠比想像的少。" },
+        { "icon": "💁", "t": "想給小費", "d": "這裡根本不期待小費，反而可能造成困惑。別加小費。" }
+      ]
+    },
+    "faq": {
+      "title": "用錢常見問題",
+      "items": [
+        { "q": "我需要現金，還是有卡就夠了？", "a": "一張卡幾乎能應付一切。在傳統市場、街邊小吃和小店備點現金——但你用到的可能比預想的少。" },
+        { "q": "在哪裡換到最好的匯率？", "a": "市區兌換處（例如 Myeongdong）通常比機場好，也常常優於 ATM。銀行匯率公道但只在平日營業。上方的即時匯率是中間市場參考價——兌換處和信用卡會採用各自的匯率。" },
+        { "q": "我該給小費嗎？", "a": "不用。在韓國給小費不是慣例；標出的價格就是你要付的，餐廳和計程車都一樣。" },
+        { "q": "我的外國卡被拒了——怎麼辦？", "a": "試試「Global」ATM 或換一張卡，或用現金儲一張 WOWPASS 預付卡。出行前通知你的銀行，以免他們攔截境外交易。" },
+        { "q": "Apple Pay / Google Pay 能用嗎？", "a": "越來越可以，但受理面仍不及實體卡。請以一張晶片加感應的卡作為主要支付方式。" }
+      ]
+    }
+  },
+  "ja": {
+    "kicker": "お金と支払い",
+    "readingTime": "読了6分",
+    "fx": {
+      "title": "リアルタイム為替レート → 韓国ウォン（₩）",
+      "updated": "更新",
+      "loading": "リアルタイムレートを読み込み中…",
+      "error": "いまリアルタイムレートを読み込めませんでした——通貨アプリや銀行で現在のレートをご確認ください。",
+      "note": "参考用の仲値（ミッドマーケット）レートです。両替所、ATM、カード決済網はそれぞれ独自の（多くの場合より不利な）レートと手数料を適用します。",
+      "source": "出典"
+    },
+    "tldr": [
+      "カードはほぼどこでも使えます——非接触（タッチ）対応のものを1枚。",
+      "伝統市場、屋台、小さな店のために現金も少し持ちましょう。",
+      "韓国にチップはありません——表示価格がそのまま支払う金額です。",
+      "両替するなら？市街の両替所はたいてい空港よりお得。カード決済は必ず自国通貨ではなく KRW で。"
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "カードが主役", "body": "クレジット・デビットカード（およびスマホの非接触決済）はほぼどこでも使えます——店、レストラン、カフェ、タクシー、コンビニ。Visa/Mastercard は大半の場所で使えます。" },
+      { "icon": "🪙", "tone": "amber", "title": "でも現金も少しは持って", "body": "伝統市場、屋台、一部の小さな地元店は現金優先です。ポケットに少しウォンがあれば気まずい場面を避けられます。" },
+      { "icon": "🙅", "tone": "blue", "title": "チップは不要", "body": "チップは文化ではありません。レストランでもタクシーでもチップは払いません——表示価格が最終価格です。" }
+    ],
+    "exchange": {
+      "title": "どこで両替するか",
+      "intro": "多くの現金が必要になることはめったにありませんが、必要なとき、両替する場所でレートは大きく変わります。",
+      "options": [
+        { "icon": "🏙️", "name": "市街の両替所", "tone": "green", "d": "Myeongdong や Namdaemun といったエリアの認可された両替所はたいてい最も良いレート。いくつか比べて「手数料なし」かも確認しましょう。" },
+        { "icon": "🏦", "name": "銀行", "tone": "blue", "d": "信頼でき、公正なレートですが、平日のみ営業で時間もかかります。大きめの金額に向きます。" },
+        { "icon": "🏧", "name": "「Global」ATM", "tone": "neutral", "d": "「Global」表示の ATM は外国カードを受け付け、ウォンを引き出せます。便利ですが、1回あたりの引き出し手数料（多くは ₩3,000–5,000）に注意。" },
+        { "icon": "🛫", "name": "空港の両替所", "tone": "amber", "d": "到着時に便利ですが、レートはたいてい最も悪いです。市内に入るのに足りる分だけ両替し、あとは市街の両替所かカードで。" }
+      ]
+    },
+    "payments": {
+      "title": "カード、非接触決済、プリペイドカード",
+      "intro": "日々の実際の支払い方法：",
+      "items": [
+        { "icon": "💳", "t": "カードと非接触決済", "d": "ほぼどこでもタッチまたは挿入で。端末には自国通貨ではなく KRW（ウォン）で請求するよう伝えましょう——下の注意点を参照。" },
+        { "icon": "🚇", "t": "T-money", "d": "この交通カードは多くのコンビニや自動販売機でも支払えます。現金でチャージを。" },
+        { "icon": "🎫", "t": "WOWPASS", "d": "人気の旅行者向けプリペイドカード。キオスクで外貨現金をチャージすると、T-money としても使える韓国のカードが手に入ります。カードが使えないときに便利。" },
+        { "icon": "📱", "t": "モバイル決済", "d": "Apple Pay / Google Pay は今では多くの場所で使えますが、対応範囲はまだ実物のカードに及びません——カードも携帯しましょう。" }
+      ]
+    },
+    "pitfalls": {
+      "title": "避けたいお金の失敗",
+      "items": [
+        { "icon": "🔄", "t": "自国通貨で払う（DCC）", "d": "カード端末が KRW ではなく USD/EUR/等で請求すると提案してきたら断りましょう——「動的通貨換算」は不利な上乗せを加えます。必ず KRW を選んで。" },
+        { "icon": "🛫", "t": "空港で大量に両替する", "d": "空港のレートはたいてい最悪です。市内に着くのに必要な分だけ両替を。" },
+        { "icon": "🏧", "t": "思わぬ ATM 手数料", "d": "外国カード対応の ATM は1回の引き出しにつき ₩3,000–5,000 かかることがあります。小口を何度も引き出すより、一度に少し多めに。" },
+        { "icon": "💵", "t": "現金を持ちすぎる", "d": "カードでほとんどの支払いをまかなえます。必要な現金は思っているよりずっと少ないのが普通です。" },
+        { "icon": "💁", "t": "チップを渡そうとする", "d": "そもそも期待されておらず、かえって混乱を招くことも。チップは足さないで。" }
+      ]
+    },
+    "faq": {
+      "title": "お金のよくある質問",
+      "items": [
+        { "q": "現金は必要？それともカードだけで十分？", "a": "カードでほぼすべてまかなえます。伝統市場、屋台、小さな店のために現金も少し——ただ、思ったより使わないはずです。" },
+        { "q": "いちばん良いレートで両替するには？", "a": "市街の両替所（例：Myeongdong）はたいてい空港より良く、ATM よりも良いことが多いです。銀行は公正ですが平日のみ。上のリアルタイムレートは仲値の参考です——両替所やカードはそれぞれ独自のレートを適用します。" },
+        { "q": "チップは払うべき？", "a": "いいえ。韓国ではチップは慣習ではありません。表示された価格が支払う金額で、レストランでもタクシーでも同じです。" },
+        { "q": "外国のカードが使えませんでした——どうする？", "a": "「Global」ATM や別のカードを試すか、WOWPASS のプリペイドカードに現金をチャージしましょう。海外取引をブロックされないよう、渡航前に銀行へ連絡を。" },
+        { "q": "Apple Pay / Google Pay は使える？", "a": "ますます使えるようになっていますが、受け入れ範囲はまだ実物のカードに及びません。IC＋非接触対応のカードを主な手段として持ちましょう。" }
+      ]
+    }
+  },
+  "vi": {
+    "kicker": "Tiền & thanh toán",
+    "readingTime": "Đọc trong 6 phút",
+    "fx": {
+      "title": "Tỷ giá theo thời gian thực → Won Hàn Quốc (₩)",
+      "updated": "Cập nhật",
+      "loading": "Đang tải tỷ giá theo thời gian thực…",
+      "error": "Hiện chưa tải được tỷ giá theo thời gian thực — hãy kiểm tra một app tiền tệ hoặc ngân hàng của bạn để biết tỷ giá hiện tại.",
+      "note": "Tỷ giá trung bình thị trường chỉ mang tính tham khảo. Các quầy đổi tiền, ATM và mạng lưới thẻ áp dụng tỷ giá và phí riêng của họ (thường kém có lợi hơn).",
+      "source": "Nguồn"
+    },
+    "tldr": [
+      "Thẻ dùng được gần như mọi nơi — hãy mang theo một thẻ hỗ trợ thanh toán không tiếp xúc.",
+      "Mang một ít tiền mặt cho chợ truyền thống, đồ ăn đường phố và các cửa hàng nhỏ.",
+      "Không có tiền boa ở Hàn Quốc — giá bạn thấy là giá bạn trả.",
+      "Đổi tiền? Các quầy đổi tiền trong thành phố thường tốt hơn sân bay; khi quẹt thẻ luôn thanh toán bằng KRW, không phải tiền tệ nước bạn."
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "Thẻ là vua", "body": "Thẻ tín dụng và thẻ ghi nợ (và thanh toán không tiếp xúc trên điện thoại) được chấp nhận gần như mọi nơi — cửa hàng, nhà hàng, quán cà phê, taxi, cửa hàng tiện lợi. Một thẻ Visa/Mastercard dùng được ở đại đa số nơi." },
+      { "icon": "🪙", "tone": "amber", "title": "Nhưng vẫn giữ chút tiền mặt", "body": "Chợ truyền thống, quầy đồ ăn đường phố và một số cửa hàng nhỏ địa phương ưu tiên tiền mặt. Một ít won trong túi giúp tránh những khoảnh khắc lúng túng." },
+      { "icon": "🙅", "tone": "blue", "title": "Không tiền boa", "body": "Tiền boa không thuộc văn hóa nơi đây. Bạn không boa ở nhà hàng hay trên taxi — giá niêm yết là giá cuối cùng." }
+    ],
+    "exchange": {
+      "title": "Đổi tiền ở đâu",
+      "intro": "Bạn hiếm khi cần nhiều tiền mặt, nhưng khi cần, tỷ giá chênh lệch khá nhiều tùy nơi bạn đổi.",
+      "options": [
+        { "icon": "🏙️", "name": "Quầy đổi tiền trong thành phố", "tone": "green", "d": "Các quầy được cấp phép ở những khu như Myeongdong và Namdaemun thường cho tỷ giá tốt nhất. So sánh vài quầy và kiểm tra xem có 'miễn hoa hồng' không." },
+        { "icon": "🏦", "name": "Ngân hàng", "tone": "blue", "d": "Đáng tin, tỷ giá công bằng, nhưng chỉ mở giờ hành chính các ngày trong tuần và chậm hơn. Phù hợp cho số tiền lớn." },
+        { "icon": "🏧", "name": "ATM 'Global'", "tone": "neutral", "d": "ATM có ghi 'Global' chấp nhận thẻ nước ngoài và nhả ra won. Tiện, nhưng để ý phí mỗi lần rút (thường ₩3,000–5,000)." },
+        { "icon": "🛫", "name": "Quầy đổi tiền ở sân bay", "tone": "amber", "d": "Tiện lúc mới đến, nhưng tỷ giá thường tệ nhất. Chỉ đổi vừa đủ để vào thành phố, rồi dùng quầy trong phố hoặc thẻ." }
+      ]
+    },
+    "payments": {
+      "title": "Thẻ, không tiếp xúc & thẻ trả trước",
+      "intro": "Cách thực sự thanh toán hằng ngày:",
+      "items": [
+        { "icon": "💳", "t": "Thẻ & không tiếp xúc", "d": "Chạm hoặc cắm thẻ gần như mọi nơi. Yêu cầu máy tính tiền tính bằng KRW (won), không phải tiền tệ nước bạn — xem phần cạm bẫy bên dưới." },
+        { "icon": "🚇", "t": "T-money", "d": "Thẻ giao thông này cũng thanh toán được ở nhiều cửa hàng tiện lợi và máy bán hàng tự động. Nạp bằng tiền mặt." },
+        { "icon": "🎫", "t": "WOWPASS", "d": "Thẻ trả trước phổ biến cho du khách: nạp tiền mặt ngoại tệ tại ki-ốt để có một thẻ Hàn Quốc cũng dùng được như T-money. Hữu ích khi thẻ của bạn bị từ chối." },
+        { "icon": "📱", "t": "Thanh toán qua điện thoại", "d": "Apple Pay / Google Pay giờ dùng được ở nhiều nơi, nhưng độ phủ vẫn kém thẻ vật lý — hãy mang theo cả một thẻ." }
+      ]
+    },
+    "pitfalls": {
+      "title": "Những sai lầm về tiền cần tránh",
+      "items": [
+        { "icon": "🔄", "t": "Thanh toán bằng tiền tệ nước bạn (DCC)", "d": "Nếu máy quẹt thẻ đề nghị tính bằng USD/EUR/v.v. thay vì KRW, hãy từ chối — 'chuyển đổi tiền tệ động' cộng thêm một khoản chênh lệch bất lợi. Luôn chọn KRW." },
+        { "icon": "🛫", "t": "Đổi quá nhiều ở sân bay", "d": "Tỷ giá sân bay thường tệ nhất. Chỉ đổi số bạn cần để vào tới thành phố." },
+        { "icon": "🏧", "t": "Phí ATM bất ngờ", "d": "ATM chấp nhận thẻ nước ngoài có thể tính ₩3,000–5,000 mỗi lần rút. Rút nhiều hơn một chút trong một lần thay vì nhiều lần rút nhỏ." },
+        { "icon": "💵", "t": "Mang quá nhiều tiền mặt", "d": "Thẻ chi trả cho hầu hết chi tiêu. Bạn thường cần ít tiền mặt hơn nhiều so với bạn nghĩ." },
+        { "icon": "💁", "t": "Cố boa tiền", "d": "Đơn giản là không ai mong đợi và có thể gây bối rối. Đừng thêm tiền boa." }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về tiền bạc",
+      "items": [
+        { "q": "Tôi có cần tiền mặt không, hay chỉ cần thẻ là đủ?", "a": "Một chiếc thẻ lo được gần như mọi thứ. Hãy mang chút tiền mặt cho chợ truyền thống, đồ ăn đường phố và cửa hàng nhỏ — nhưng bạn có lẽ sẽ dùng ít hơn dự tính." },
+        { "q": "Đổi tiền ở đâu được tỷ giá tốt nhất?", "a": "Các quầy đổi tiền trong thành phố (ví dụ Myeongdong) thường tốt hơn sân bay và thường tốt hơn ATM. Ngân hàng thì công bằng nhưng chỉ mở các ngày trong tuần. Tỷ giá theo thời gian thực ở trên là tham chiếu trung bình thị trường — quầy đổi và thẻ áp dụng tỷ giá riêng của họ." },
+        { "q": "Tôi có nên boa không?", "a": "Không. Boa tiền không phải thông lệ ở Hàn Quốc; giá hiển thị là số bạn trả, ở nhà hàng cũng như trên taxi." },
+        { "q": "Thẻ nước ngoài của tôi bị từ chối — giờ sao?", "a": "Thử ATM 'Global' hoặc một thẻ khác, hoặc nạp tiền mặt vào thẻ trả trước WOWPASS. Báo cho ngân hàng trước khi đi để họ không chặn giao dịch nước ngoài." },
+        { "q": "Apple Pay / Google Pay có dùng được không?", "a": "Ngày càng được, nhưng mức chấp nhận vẫn kém thẻ vật lý. Hãy mang một thẻ chip-và-không-tiếp-xúc làm phương thức chính." }
+      ]
+    }
+  },
+  "th": {
+    "kicker": "เงินและการชำระเงิน",
+    "readingTime": "อ่าน 6 นาที",
+    "fx": {
+      "title": "อัตราแลกเปลี่ยนแบบเรียลไทม์ → วอนเกาหลี (₩)",
+      "updated": "อัปเดตเมื่อ",
+      "loading": "กำลังโหลดอัตราแบบเรียลไทม์…",
+      "error": "ตอนนี้โหลดอัตราแบบเรียลไทม์ไม่ได้ — โปรดตรวจสอบอัตราปัจจุบันจากแอปสกุลเงินหรือธนาคารของคุณ",
+      "note": "อัตรากลางตลาดสำหรับอ้างอิงเท่านั้น จุดรับแลกเงิน ATM และเครือข่ายบัตรจะใช้อัตราและค่าธรรมเนียมของตนเอง (ซึ่งมักไม่คุ้มค่ากว่า)",
+      "source": "แหล่งที่มา"
+    },
+    "tldr": [
+      "บัตรใช้ได้แทบทุกที่ — พกบัตรที่รองรับการแตะ (ไร้สัมผัส) ไปด้วย",
+      "พกเงินสดไว้บ้างสำหรับตลาดดั้งเดิม อาหารริมทาง และร้านเล็กๆ",
+      "เกาหลีไม่มีทิป — ราคาที่คุณเห็นคือราคาที่คุณจ่าย",
+      "จะแลกเงินไหม? จุดรับแลกในเมืองมักคุ้มกว่าสนามบิน เวลารูดบัตรให้ชำระเป็น KRW เสมอ ไม่ใช่สกุลเงินบ้านคุณ"
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "บัตรคือพระเอก", "body": "บัตรเครดิตและเดบิต (รวมถึงการแตะจ่ายผ่านมือถือ) ใช้ได้แทบทุกที่ — ร้านค้า ร้านอาหาร คาเฟ่ แท็กซี่ ร้านสะดวกซื้อ บัตร Visa/Mastercard ใช้ได้ในสถานที่ส่วนใหญ่" },
+      { "icon": "🪙", "tone": "amber", "title": "แต่ก็ยังพกเงินสดไว้บ้าง", "body": "ตลาดดั้งเดิม แผงอาหารริมทาง และร้านเล็กๆ บางร้านเน้นเงินสด มีวอนติดกระเป๋าเล็กน้อยช่วยเลี่ยงช่วงเวลาน่าอึดอัดได้" },
+      { "icon": "🙅", "tone": "blue", "title": "ไม่มีทิป", "body": "การให้ทิปไม่ใช่วัฒนธรรมที่นี่ คุณไม่ต้องให้ทิปที่ร้านอาหารหรือบนแท็กซี่ — ราคาที่ระบุคือราคาสุดท้าย" }
+    ],
+    "exchange": {
+      "title": "จะแลกเงินที่ไหน",
+      "intro": "คุณแทบไม่ต้องใช้เงินสดมากนัก แต่เมื่อจำเป็น อัตราจะต่างกันมากขึ้นอยู่กับสถานที่ที่คุณแลก",
+      "options": [
+        { "icon": "🏙️", "name": "จุดรับแลกเงินในเมือง", "tone": "green", "d": "จุดรับแลกที่มีใบอนุญาตในย่านอย่าง Myeongdong และ Namdaemun มักให้อัตราดีที่สุด ลองเทียบสองสามที่ และดูว่า 'ไม่คิดค่าคอมมิชชัน' หรือไม่" },
+        { "icon": "🏦", "name": "ธนาคาร", "tone": "blue", "d": "เชื่อถือได้ อัตรายุติธรรม แต่เปิดเฉพาะวันทำการและช้ากว่า เหมาะกับจำนวนเงินก้อนใหญ่" },
+        { "icon": "🏧", "name": "ATM 'Global'", "tone": "neutral", "d": "ATM ที่มีป้าย 'Global' รับบัตรต่างประเทศและจ่ายเป็นวอน สะดวก แต่ระวังค่าธรรมเนียมต่อการถอน (มักอยู่ที่ ₩3,000–5,000)" },
+        { "icon": "🛫", "name": "จุดรับแลกที่สนามบิน", "tone": "amber", "d": "สะดวกตอนเพิ่งมาถึง แต่อัตรามักแย่ที่สุด แลกแค่พอเข้าเมือง แล้วค่อยใช้จุดรับแลกในเมืองหรือรูดบัตร" }
+      ]
+    },
+    "payments": {
+      "title": "บัตร การแตะจ่าย และบัตรเติมเงิน",
+      "intro": "วิธีชำระเงินจริงในแต่ละวัน:",
+      "items": [
+        { "icon": "💳", "t": "บัตรและการแตะจ่าย", "d": "แตะหรือเสียบบัตรได้แทบทุกที่ บอกเครื่องให้เรียกเก็บเป็น KRW (วอน) ไม่ใช่สกุลเงินบ้านคุณ — ดูข้อควรระวังด้านล่าง" },
+        { "icon": "🚇", "t": "T-money", "d": "บัตรโดยสารนี้ยังจ่ายได้ที่ร้านสะดวกซื้อและตู้ขายของอัตโนมัติหลายแห่ง เติมเงินด้วยเงินสด" },
+        { "icon": "🎫", "t": "WOWPASS", "d": "บัตรเติมเงินยอดนิยมสำหรับนักท่องเที่ยว เติมเงินสดสกุลต่างประเทศที่ตู้คีออสก์ เพื่อให้ได้บัตรเกาหลีที่ใช้เป็น T-money ได้ด้วย มีประโยชน์เมื่อบัตรของคุณถูกปฏิเสธ" },
+        { "icon": "📱", "t": "จ่ายผ่านมือถือ", "d": "Apple Pay / Google Pay ตอนนี้ใช้ได้หลายที่แล้ว แต่ความครอบคลุมยังตามหลังบัตรจริง — พกบัตรไปด้วย" }
+      ]
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดเรื่องเงินที่ควรเลี่ยง",
+      "items": [
+        { "icon": "🔄", "t": "จ่ายเป็นสกุลเงินบ้านคุณ (DCC)", "d": "ถ้าเครื่องรูดบัตรเสนอเรียกเก็บเป็น USD/EUR/ฯลฯ แทน KRW ให้ปฏิเสธ — 'การแปลงสกุลเงินแบบไดนามิก' บวกส่วนต่างที่แย่ ให้เลือก KRW เสมอ" },
+        { "icon": "🛫", "t": "แลกเยอะที่สนามบิน", "d": "อัตราที่สนามบินมักแย่ที่สุด แลกแค่เท่าที่จำเป็นเพื่อเข้าเมือง" },
+        { "icon": "🏧", "t": "ค่าธรรมเนียม ATM ที่คาดไม่ถึง", "d": "ATM ที่รับบัตรต่างประเทศอาจคิด ₩3,000–5,000 ต่อการถอน ถอนทีละมากขึ้นหน่อยดีกว่าถอนย่อยหลายครั้ง" },
+        { "icon": "💵", "t": "พกเงินสดมากเกินไป", "d": "บัตรครอบคลุมค่าใช้จ่ายส่วนใหญ่ โดยปกติคุณต้องใช้เงินสดน้อยกว่าที่คิดมาก" },
+        { "icon": "💁", "t": "พยายามให้ทิป", "d": "ไม่มีใครคาดหวัง และอาจทำให้เกิดความสับสน อย่าเพิ่มทิป" }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเรื่องเงิน",
+      "items": [
+        { "q": "ฉันต้องใช้เงินสดไหม หรือมีบัตรก็พอ?", "a": "บัตรใบเดียวครอบคลุมแทบทุกอย่าง พกเงินสดไว้บ้างสำหรับตลาดดั้งเดิม อาหารริมทาง และร้านเล็กๆ — แต่คุณคงใช้น้อยกว่าที่คาดไว้" },
+        { "q": "แลกเงินที่ไหนได้อัตราดีที่สุด?", "a": "จุดรับแลกในเมือง (เช่น Myeongdong) มักดีกว่าสนามบินและมักดีกว่า ATM ธนาคารยุติธรรมแต่เปิดเฉพาะวันทำการ อัตราเรียลไทม์ด้านบนเป็นค่าอ้างอิงกลางตลาด — จุดรับแลกและบัตรใช้อัตราของตนเอง" },
+        { "q": "ฉันควรให้ทิปไหม?", "a": "ไม่ การให้ทิปไม่ใช่ธรรมเนียมในเกาหลี ราคาที่แสดงคือราคาที่คุณจ่าย ทั้งที่ร้านอาหารและบนแท็กซี่" },
+        { "q": "บัตรต่างประเทศของฉันถูกปฏิเสธ — ทำอย่างไรดี?", "a": "ลองใช้ ATM 'Global' หรือบัตรใบอื่น หรือเติมเงินสดลงบัตรเติมเงิน WOWPASS แจ้งธนาคารก่อนเดินทางเพื่อไม่ให้เขาบล็อกธุรกรรมต่างประเทศ" },
+        { "q": "Apple Pay / Google Pay ใช้ได้ไหม?", "a": "ใช้ได้มากขึ้นเรื่อยๆ แต่การยอมรับยังตามหลังบัตรจริง พกบัตรแบบชิปและแตะจ่ายไว้เป็นวิธีหลัก" }
+      ]
+    }
+  },
+  "id": {
+    "kicker": "Uang & pembayaran",
+    "readingTime": "Baca 6 menit",
+    "fx": {
+      "title": "Kurs langsung → won Korea (₩)",
+      "updated": "Diperbarui",
+      "loading": "Memuat kurs langsung…",
+      "error": "Kurs langsung tidak bisa dimuat sekarang — cek aplikasi mata uang atau bank Anda untuk kurs terkini.",
+      "note": "Kurs tengah pasar hanya untuk referensi. Gerai penukaran, ATM, dan jaringan kartu menerapkan kurs dan biaya mereka sendiri (biasanya kurang menguntungkan).",
+      "source": "Sumber"
+    },
+    "tldr": [
+      "Kartu berfungsi hampir di mana saja — bawa yang mendukung contactless.",
+      "Bawa sedikit uang tunai untuk pasar tradisional, jajanan kaki lima, dan toko kecil.",
+      "Tidak ada tip di Korea — harga yang Anda lihat adalah harga yang Anda bayar.",
+      "Mau tukar uang? Gerai penukaran di kota biasanya lebih baik daripada bandara; saat pakai kartu, selalu bayar dalam KRW, bukan mata uang negara Anda."
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "Kartu adalah raja", "body": "Kartu kredit dan debit (serta contactless lewat ponsel) diterima hampir di mana saja — toko, restoran, kafe, taksi, minimarket. Kartu Visa/Mastercard berfungsi di sebagian besar tempat." },
+      { "icon": "🪙", "tone": "amber", "title": "Tapi tetap simpan sedikit tunai", "body": "Pasar tradisional, gerai jajanan kaki lima, dan beberapa toko lokal kecil mengutamakan tunai. Sedikit won di kantong menghindarkan momen canggung." },
+      { "icon": "🙅", "tone": "blue", "title": "Tanpa tip", "body": "Memberi tip bukan bagian dari budaya. Anda tidak memberi tip di restoran atau taksi — harga tertera adalah harga akhir." }
+    ],
+    "exchange": {
+      "title": "Di mana menukar uang",
+      "intro": "Anda jarang butuh banyak tunai, tapi saat butuh, kurs sangat bervariasi tergantung tempat menukarnya.",
+      "options": [
+        { "icon": "🏙️", "name": "Gerai penukaran di kota", "tone": "green", "d": "Gerai berizin di area seperti Myeongdong dan Namdaemun biasanya memberi kurs terbaik. Bandingkan beberapa dan cek apakah 'tanpa komisi'." },
+        { "icon": "🏦", "name": "Bank", "tone": "blue", "d": "Andal, kurs wajar, tetapi hanya jam kerja hari biasa dan lebih lambat. Cocok untuk jumlah besar." },
+        { "icon": "🏧", "name": "ATM 'Global'", "tone": "neutral", "d": "ATM bertanda 'Global' menerima kartu asing dan mengeluarkan won. Praktis, tapi perhatikan biaya per penarikan (sering ₩3,000–5,000)." },
+        { "icon": "🛫", "name": "Gerai penukaran bandara", "tone": "amber", "d": "Praktis begitu tiba, tapi kursnya biasanya paling buruk. Tukar secukupnya untuk masuk ke kota, lalu pakai gerai di kota atau kartu." }
+      ]
+    },
+    "payments": {
+      "title": "Kartu, contactless & kartu prabayar",
+      "intro": "Cara membayar sehari-hari yang sebenarnya:",
+      "items": [
+        { "icon": "💳", "t": "Kartu & contactless", "d": "Tap atau masukkan kartu hampir di mana saja. Minta terminal menagih dalam KRW (won), bukan mata uang negara Anda — lihat jebakan di bawah." },
+        { "icon": "🚇", "t": "T-money", "d": "Kartu transit ini juga bisa membayar di banyak minimarket dan mesin penjual otomatis. Isi ulang dengan tunai." },
+        { "icon": "🎫", "t": "WOWPASS", "d": "Kartu prabayar populer untuk turis: isi tunai mata uang asing di kios untuk mendapatkan kartu Korea yang juga berfungsi sebagai T-money. Berguna jika kartu Anda ditolak." },
+        { "icon": "📱", "t": "Pembayaran ponsel", "d": "Apple Pay / Google Pay kini berfungsi di banyak tempat, tapi cakupannya masih di bawah kartu fisik — bawa kartu juga." }
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesalahan soal uang yang harus dihindari",
+      "items": [
+        { "icon": "🔄", "t": "Membayar dalam mata uang negara Anda (DCC)", "d": "Jika terminal kartu menawarkan menagih dalam USD/EUR/dll. alih-alih KRW, tolak — 'konversi mata uang dinamis' menambah markup yang buruk. Selalu pilih KRW." },
+        { "icon": "🛫", "t": "Menukar banyak di bandara", "d": "Kurs bandara biasanya paling buruk. Tukar hanya seperlunya untuk sampai ke kota." },
+        { "icon": "🏧", "t": "Biaya ATM yang mengejutkan", "d": "ATM untuk kartu asing bisa mengenakan ₩3,000–5,000 per penarikan. Tarik sedikit lebih banyak sekaligus daripada banyak penarikan kecil." },
+        { "icon": "💵", "t": "Membawa terlalu banyak tunai", "d": "Kartu menutup sebagian besar pengeluaran. Anda biasanya butuh jauh lebih sedikit tunai daripada yang dikira." },
+        { "icon": "💁", "t": "Mencoba memberi tip", "d": "Itu memang tidak diharapkan dan bisa menimbulkan kebingungan. Jangan menambahkan tip." }
+      ]
+    },
+    "faq": {
+      "title": "FAQ soal uang",
+      "items": [
+        { "q": "Apakah saya butuh tunai, atau kartu saja cukup?", "a": "Kartu menutup hampir segalanya. Bawa sedikit tunai untuk pasar tradisional, jajanan kaki lima, dan toko kecil — tapi Anda kemungkinan memakainya lebih sedikit dari perkiraan." },
+        { "q": "Di mana saya dapat kurs terbaik?", "a": "Gerai penukaran di kota (mis. Myeongdong) biasanya lebih baik daripada bandara dan sering lebih baik daripada ATM. Bank wajar tapi hanya hari kerja. Kurs langsung di atas adalah acuan tengah pasar — gerai dan kartu menerapkan kurs mereka sendiri." },
+        { "q": "Haruskah saya memberi tip?", "a": "Tidak. Memberi tip bukan kebiasaan di Korea; harga yang ditampilkan adalah yang Anda bayar, baik di restoran maupun di taksi." },
+        { "q": "Kartu asing saya ditolak — sekarang bagaimana?", "a": "Coba ATM 'Global' atau kartu lain, atau isi kartu prabayar WOWPASS dengan tunai. Beri tahu bank Anda sebelum bepergian agar mereka tidak memblokir transaksi luar negeri." },
+        { "q": "Apakah Apple Pay / Google Pay bisa dipakai?", "a": "Makin bisa, tapi penerimaannya masih di bawah kartu fisik. Bawa kartu chip-dan-contactless sebagai metode utama Anda." }
+      ]
+    }
+  },
+  "es": {
+    "kicker": "Dinero y pagos",
+    "readingTime": "Lectura de 6 min",
+    "fx": {
+      "title": "Tipo de cambio en vivo → won coreano (₩)",
+      "updated": "Actualizado",
+      "loading": "Cargando tipos en vivo…",
+      "error": "No se pudieron cargar los tipos en vivo ahora mismo: consulta una app de divisas o tu banco para el tipo actual.",
+      "note": "Tipo medio de mercado solo como referencia. Las casas de cambio, los cajeros y las redes de tarjetas aplican sus propios tipos y comisiones (normalmente menos favorables).",
+      "source": "Fuente"
+    },
+    "tldr": [
+      "Las tarjetas funcionan casi en todas partes: lleva una con pago sin contacto.",
+      "Lleva algo de efectivo para mercados tradicionales, comida callejera y tiendas pequeñas.",
+      "En Corea no se da propina: el precio que ves es el precio que pagas.",
+      "¿Cambiar dinero? Las casas de cambio de la ciudad suelen ser mejores que el aeropuerto; con tarjeta, paga siempre en KRW, no en tu moneda de origen."
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "La tarjeta manda", "body": "Se aceptan tarjetas de crédito y débito (y el pago sin contacto por móvil) casi en todas partes: tiendas, restaurantes, cafeterías, taxis, tiendas de conveniencia. Una Visa/Mastercard funciona en la gran mayoría de sitios." },
+      { "icon": "🪙", "tone": "amber", "title": "Pero lleva algo de efectivo", "body": "Los mercados tradicionales, los puestos de comida callejera y algunas tiendas locales pequeñas prefieren el efectivo. Unos wones en el bolsillo evitan momentos incómodos." },
+      { "icon": "🙅", "tone": "blue", "title": "Sin propinas", "body": "Dar propina no forma parte de la cultura. No se da propina en restaurantes ni en taxis: el precio indicado es el precio final." }
+    ],
+    "exchange": {
+      "title": "Dónde cambiar dinero",
+      "intro": "Rara vez necesitas mucho efectivo, pero cuando lo necesitas, los tipos varían mucho según dónde cambies.",
+      "options": [
+        { "icon": "🏙️", "name": "Casas de cambio de la ciudad", "tone": "green", "d": "Las casas autorizadas en zonas como Myeongdong y Namdaemun suelen dar los mejores tipos. Compara un par y comprueba que sea 'sin comisión'." },
+        { "icon": "🏦", "name": "Bancos", "tone": "blue", "d": "Fiables, tipos justos, pero solo en horario de días laborables y más lentos. Buenos para cantidades grandes." },
+        { "icon": "🏧", "name": "Cajeros 'Global'", "tone": "neutral", "d": "Los cajeros marcados como 'Global' aceptan tarjetas extranjeras y dispensan wones. Prácticos, pero cuidado con la comisión por retirada (a menudo ₩3,000–5,000)." },
+        { "icon": "🛫", "name": "Casas de cambio del aeropuerto", "tone": "amber", "d": "Cómodas al llegar, pero los tipos suelen ser los peores. Cambia solo lo justo para llegar a la ciudad y luego usa una casa de cambio urbana o la tarjeta." }
+      ]
+    },
+    "payments": {
+      "title": "Tarjetas, sin contacto y tarjetas prepago",
+      "intro": "Cómo pagar de verdad en el día a día:",
+      "items": [
+        { "icon": "💳", "t": "Tarjetas y sin contacto", "d": "Acerca o inserta la tarjeta casi en cualquier sitio. Pide al terminal que cobre en KRW (wones), no en tu moneda de origen: mira los errores más abajo." },
+        { "icon": "🚇", "t": "T-money", "d": "La tarjeta de transporte también sirve para pagar en muchas tiendas de conveniencia y máquinas expendedoras. Recárgala con efectivo." },
+        { "icon": "🎫", "t": "WOWPASS", "d": "Una tarjeta prepago popular entre turistas: carga efectivo en divisa extranjera en un quiosco para obtener una tarjeta coreana que también funciona como T-money. Útil si te rechazan la tarjeta." },
+        { "icon": "📱", "t": "Pago con móvil", "d": "Apple Pay / Google Pay ya funcionan en muchos sitios, pero la cobertura aún va por detrás de las tarjetas físicas: lleva también una tarjeta." }
+      ]
+    },
+    "pitfalls": {
+      "title": "Errores con el dinero que debes evitar",
+      "items": [
+        { "icon": "🔄", "t": "Pagar en tu moneda de origen (DCC)", "d": "Si un terminal ofrece cobrar en USD/EUR/etc. en vez de KRW, recházalo: la 'conversión dinámica de divisa' añade un mal recargo. Elige siempre KRW." },
+        { "icon": "🛫", "t": "Cambiar mucho en el aeropuerto", "d": "Los tipos del aeropuerto suelen ser los peores. Cambia solo lo que necesites para llegar a la ciudad." },
+        { "icon": "🏧", "t": "Comisiones sorpresa en cajeros", "d": "Los cajeros para tarjetas extranjeras pueden cobrar ₩3,000–5,000 por retirada. Saca un poco más de una vez en lugar de muchas retiradas pequeñas." },
+        { "icon": "💵", "t": "Llevar demasiado efectivo", "d": "Las tarjetas cubren la mayoría de los gastos. Normalmente necesitas mucho menos efectivo del que crees." },
+        { "icon": "💁", "t": "Intentar dar propina", "d": "Sencillamente no se espera y puede causar confusión. No añadas propina." }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre el dinero",
+      "items": [
+        { "q": "¿Necesito efectivo o basta con la tarjeta?", "a": "Una tarjeta cubre casi todo. Lleva algo de efectivo para mercados tradicionales, comida callejera y tiendas pequeñas, pero probablemente lo uses menos de lo que esperas." },
+        { "q": "¿Dónde consigo el mejor tipo de cambio?", "a": "Las casas de cambio de la ciudad (p. ej. Myeongdong) suelen ser mejores que el aeropuerto y a menudo mejores que los cajeros. Los bancos son justos pero solo abren entre semana. El tipo en vivo de arriba es una referencia media de mercado: las casas de cambio y las tarjetas aplican sus propios tipos." },
+        { "q": "¿Debo dar propina?", "a": "No. En Corea no es costumbre dar propina; el precio mostrado es lo que pagas, tanto en restaurantes como en taxis." },
+        { "q": "Me rechazaron la tarjeta extranjera, ¿y ahora qué?", "a": "Prueba un cajero 'Global' u otra tarjeta, o carga una tarjeta prepago WOWPASS con efectivo. Avisa a tu banco antes de viajar para que no bloquee las transacciones en el extranjero." },
+        { "q": "¿Se pueden usar Apple Pay / Google Pay?", "a": "Cada vez más, pero la aceptación aún va por detrás de las tarjetas físicas. Lleva una tarjeta con chip y sin contacto como método principal." }
+      ]
+    }
+  },
+  "ms": {
+    "kicker": "Wang & pembayaran",
+    "readingTime": "Bacaan 6 minit",
+    "fx": {
+      "title": "Kadar tukaran langsung → won Korea (₩)",
+      "updated": "Dikemas kini",
+      "loading": "Memuatkan kadar langsung…",
+      "error": "Tidak dapat memuatkan kadar langsung sekarang — semak apl mata wang atau bank anda untuk kadar semasa.",
+      "note": "Kadar pertengahan pasaran sebagai rujukan sahaja. Kaunter tukaran, ATM dan rangkaian kad mengenakan kadar dan yuran mereka sendiri (biasanya kurang menguntungkan).",
+      "source": "Sumber"
+    },
+    "tldr": [
+      "Kad berfungsi hampir di mana-mana — bawa kad yang menyokong tanpa sentuh.",
+      "Bawa sedikit wang tunai untuk pasar tradisional, makanan jalanan dan kedai kecil.",
+      "Tiada tip di Korea — harga yang anda lihat ialah harga yang anda bayar.",
+      "Menukar wang? Kaunter tukaran di bandar biasanya lebih baik daripada lapangan terbang; apabila guna kad, sentiasa bayar dalam KRW, bukan mata wang negara anda."
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "Kad adalah raja", "body": "Kad kredit dan debit (serta tanpa sentuh melalui telefon) diterima hampir di mana-mana — kedai, restoran, kafe, teksi, kedai serbaneka. Kad Visa/Mastercard berfungsi di kebanyakan tempat." },
+      { "icon": "🪙", "tone": "amber", "title": "Tetapi simpan sedikit tunai", "body": "Pasar tradisional, gerai makanan jalanan dan sesetengah kedai tempatan kecil mengutamakan tunai. Sedikit won dalam poket mengelakkan saat-saat janggal." },
+      { "icon": "🙅", "tone": "blue", "title": "Tiada tip", "body": "Memberi tip bukan sebahagian daripada budaya. Anda tidak memberi tip di restoran atau dalam teksi — harga tersenarai ialah harga akhir." }
+    ],
+    "exchange": {
+      "title": "Di mana hendak menukar wang",
+      "intro": "Anda jarang memerlukan banyak tunai, tetapi apabila perlu, kadar sangat berbeza bergantung pada tempat anda menukar.",
+      "options": [
+        { "icon": "🏙️", "name": "Kaunter tukaran di bandar", "tone": "green", "d": "Kaunter berlesen di kawasan seperti Myeongdong dan Namdaemun biasanya memberi kadar terbaik. Bandingkan beberapa dan periksa sama ada 'tanpa komisen'." },
+        { "icon": "🏦", "name": "Bank", "tone": "blue", "d": "Boleh dipercayai, kadar berpatutan, tetapi hanya waktu bekerja hari biasa dan lebih perlahan. Sesuai untuk jumlah besar." },
+        { "icon": "🏧", "name": "ATM 'Global'", "tone": "neutral", "d": "ATM bertanda 'Global' menerima kad asing dan mengeluarkan won. Mudah, tetapi berhati-hati dengan yuran setiap pengeluaran (selalunya ₩3,000–5,000)." },
+        { "icon": "🛫", "name": "Kaunter tukaran lapangan terbang", "tone": "amber", "d": "Mudah sebaik tiba, tetapi kadar biasanya paling teruk. Tukar secukupnya untuk masuk ke bandar, kemudian guna kaunter di bandar atau kad." }
+      ]
+    },
+    "payments": {
+      "title": "Kad, tanpa sentuh & kad prabayar",
+      "intro": "Cara sebenar membayar dari hari ke hari:",
+      "items": [
+        { "icon": "💳", "t": "Kad & tanpa sentuh", "d": "Sentuh atau masukkan kad hampir di mana-mana. Beritahu terminal untuk mengecaj dalam KRW (won), bukan mata wang negara anda — lihat kesilapan di bawah." },
+        { "icon": "🚇", "t": "T-money", "d": "Kad transit ini juga boleh membayar di banyak kedai serbaneka dan mesin layan diri. Tambah nilai dengan tunai." },
+        { "icon": "🎫", "t": "WOWPASS", "d": "Kad prabayar popular untuk pelancong: muatkan tunai mata wang asing di kiosk untuk mendapatkan kad Korea yang juga berfungsi sebagai T-money. Berguna jika kad anda ditolak." },
+        { "icon": "📱", "t": "Bayaran mudah alih", "d": "Apple Pay / Google Pay kini berfungsi di banyak tempat, tetapi liputan masih ketinggalan berbanding kad fizikal — bawa kad juga." }
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesilapan wang yang perlu dielakkan",
+      "items": [
+        { "icon": "🔄", "t": "Membayar dalam mata wang negara anda (DCC)", "d": "Jika terminal kad menawarkan untuk mengecaj dalam USD/EUR/dsb. dan bukan KRW, tolak — 'penukaran mata wang dinamik' menambah tokokan yang buruk. Sentiasa pilih KRW." },
+        { "icon": "🛫", "t": "Menukar banyak di lapangan terbang", "d": "Kadar lapangan terbang biasanya paling teruk. Tukar hanya apa yang anda perlukan untuk sampai ke bandar." },
+        { "icon": "🏧", "t": "Yuran ATM yang mengejutkan", "d": "ATM untuk kad asing mungkin mengenakan ₩3,000–5,000 setiap pengeluaran. Keluarkan lebih sedikit sekali gus daripada banyak pengeluaran kecil." },
+        { "icon": "💵", "t": "Membawa terlalu banyak tunai", "d": "Kad menampung kebanyakan perbelanjaan. Anda biasanya memerlukan jauh lebih sedikit tunai daripada yang anda sangka." },
+        { "icon": "💁", "t": "Cuba memberi tip", "d": "Ia memang tidak dijangka dan boleh menimbulkan kekeliruan. Jangan tambah tip." }
+      ]
+    },
+    "faq": {
+      "title": "Soalan lazim tentang wang",
+      "items": [
+        { "q": "Adakah saya perlukan tunai, atau kad sudah memadai?", "a": "Satu kad menampung hampir segalanya. Bawa sedikit tunai untuk pasar tradisional, makanan jalanan dan kedai kecil — tetapi anda mungkin menggunakannya kurang daripada jangkaan." },
+        { "q": "Di mana saya boleh dapat kadar tukaran terbaik?", "a": "Kaunter tukaran di bandar (cth. Myeongdong) biasanya lebih baik daripada lapangan terbang dan selalunya lebih baik daripada ATM. Bank berpatutan tetapi hanya hari bekerja. Kadar langsung di atas ialah rujukan pertengahan pasaran — kaunter dan kad mengenakan kadar mereka sendiri." },
+        { "q": "Perlukah saya memberi tip?", "a": "Tidak. Memberi tip bukan kebiasaan di Korea; harga yang dipaparkan ialah yang anda bayar, di restoran mahupun dalam teksi." },
+        { "q": "Kad asing saya ditolak — apa sekarang?", "a": "Cuba ATM 'Global' atau kad lain, atau muatkan kad prabayar WOWPASS dengan tunai. Maklumkan bank anda sebelum melancong supaya mereka tidak menyekat transaksi luar negara." },
+        { "q": "Bolehkah Apple Pay / Google Pay digunakan?", "a": "Semakin boleh, tetapi penerimaan masih ketinggalan berbanding kad fizikal. Bawa kad cip-dan-tanpa-sentuh sebagai kaedah utama anda." }
+      ]
+    }
+  },
+  "ko": {
+    "kicker": "돈과 결제",
+    "readingTime": "6분 분량",
+    "fx": {
+      "title": "실시간 환율 → 원화(₩)",
+      "updated": "업데이트",
+      "loading": "실시간 환율을 불러오는 중…",
+      "error": "지금은 실시간 환율을 불러올 수 없습니다 — 환율 앱이나 거래 은행에서 현재 환율을 확인하세요.",
+      "note": "참고용 중간 시장 환율입니다. 환전소, ATM, 카드사는 각자의(대개 덜 유리한) 환율과 수수료를 적용합니다.",
+      "source": "출처"
+    },
+    "tldr": [
+      "카드는 거의 어디서나 됩니다 — 비접촉(컨택리스) 결제가 되는 카드를 가져오세요.",
+      "전통시장, 길거리 음식, 작은 가게를 위해 현금을 조금 챙기세요.",
+      "한국에는 팁이 없습니다 — 보이는 가격이 곧 내는 가격입니다.",
+      "환전하시나요? 시내 환전소가 대개 공항보다 낫습니다. 카드 결제는 항상 본국 통화가 아니라 KRW로 하세요."
+    ],
+    "highlights": [
+      { "icon": "💳", "tone": "green", "title": "카드가 최고", "body": "신용카드와 체크카드(그리고 휴대폰 비접촉 결제)는 거의 어디서나 받습니다 — 상점, 식당, 카페, 택시, 편의점. Visa/Mastercard는 대부분의 장소에서 쓸 수 있습니다." },
+      { "icon": "🪙", "tone": "amber", "title": "그래도 현금은 조금", "body": "전통시장, 길거리 음식 노점, 일부 작은 동네 가게는 현금 우선입니다. 주머니에 원화가 조금 있으면 난처한 순간을 피할 수 있습니다." },
+      { "icon": "🙅", "tone": "blue", "title": "팁 없음", "body": "팁은 문화가 아닙니다. 식당이나 택시에서 팁을 주지 않습니다 — 표시된 가격이 최종 가격입니다." }
+    ],
+    "exchange": {
+      "title": "어디서 환전할까",
+      "intro": "많은 현금이 필요한 경우는 드물지만, 필요할 때는 어디서 바꾸느냐에 따라 환율 차이가 큽니다.",
+      "options": [
+        { "icon": "🏙️", "name": "시내 환전소", "tone": "green", "d": "Myeongdong, Namdaemun 같은 지역의 허가받은 환전소가 대개 환율이 가장 좋습니다. 몇 군데 비교해 보고 '무수수료'인지 확인하세요." },
+        { "icon": "🏦", "name": "은행", "tone": "blue", "d": "믿을 만하고 환율도 공정하지만 평일 영업시간만 되고 더 느립니다. 큰 금액에 적합합니다." },
+        { "icon": "🏧", "name": "'Global' ATM", "tone": "neutral", "d": "'Global' 표시가 있는 ATM은 외국 카드를 받고 원화를 내줍니다. 편리하지만 출금 건당 수수료(대개 ₩3,000–5,000)에 유의하세요." },
+        { "icon": "🛫", "name": "공항 환전소", "tone": "amber", "d": "도착하자마자 편리하지만 환율은 대개 가장 나쁩니다. 시내로 들어갈 만큼만 바꾸고, 이후에는 시내 환전소나 카드를 쓰세요." }
+      ]
+    },
+    "payments": {
+      "title": "카드, 비접촉 결제, 선불카드",
+      "intro": "매일 실제로 결제하는 방법:",
+      "items": [
+        { "icon": "💳", "t": "카드 & 비접촉 결제", "d": "거의 어디서나 태그하거나 삽입하면 됩니다. 단말기에 본국 통화가 아니라 KRW(원화)로 청구하도록 하세요 — 아래 주의사항 참고." },
+        { "icon": "🚇", "t": "T-money", "d": "이 교통카드는 많은 편의점과 자판기에서도 결제됩니다. 현금으로 충전하세요." },
+        { "icon": "🎫", "t": "WOWPASS", "d": "인기 있는 관광객용 선불카드입니다. 키오스크에서 외화 현금을 충전하면 T-money로도 쓸 수 있는 한국 카드가 나옵니다. 카드가 거절될 때 유용합니다." },
+        { "icon": "📱", "t": "모바일 결제", "d": "Apple Pay / Google Pay가 이제 여러 곳에서 되지만, 사용 범위는 아직 실물 카드에 못 미칩니다 — 카드도 함께 챙기세요." }
+      ]
+    },
+    "pitfalls": {
+      "title": "피해야 할 돈 실수",
+      "items": [
+        { "icon": "🔄", "t": "본국 통화로 결제하기(DCC)", "d": "카드 단말기가 KRW 대신 USD/EUR/등으로 청구하겠다고 제안하면 거절하세요 — '동적 통화 변환(DCC)'은 나쁜 가산 수수료를 붙입니다. 항상 KRW를 선택하세요." },
+        { "icon": "🛫", "t": "공항에서 많이 환전하기", "d": "공항 환율은 대개 가장 나쁩니다. 시내에 도착할 만큼만 바꾸세요." },
+        { "icon": "🏧", "t": "예상 못 한 ATM 수수료", "d": "외국 카드용 ATM은 출금 건당 ₩3,000–5,000를 받을 수 있습니다. 소액으로 여러 번 뽑기보다 한 번에 조금 더 뽑으세요." },
+        { "icon": "💵", "t": "현금을 너무 많이 들고 다니기", "d": "카드로 대부분의 지출을 해결할 수 있습니다. 대개 생각보다 훨씬 적은 현금만 필요합니다." },
+        { "icon": "💁", "t": "팁을 주려고 하기", "d": "애초에 기대하지 않으며 오히려 혼란을 줄 수 있습니다. 팁을 더하지 마세요." }
+      ]
+    },
+    "faq": {
+      "title": "돈 관련 자주 묻는 질문",
+      "items": [
+        { "q": "현금이 필요한가요, 아니면 카드만으로 충분한가요?", "a": "카드 한 장으로 거의 모든 게 해결됩니다. 전통시장, 길거리 음식, 작은 가게를 위해 현금을 조금 챙기세요 — 다만 예상보다 적게 쓰게 될 것입니다." },
+        { "q": "환율이 가장 좋은 곳은 어디인가요?", "a": "시내 환전소(예: Myeongdong)가 대개 공항보다 낫고 ATM보다도 나은 경우가 많습니다. 은행은 공정하지만 평일에만 됩니다. 위의 실시간 환율은 중간 시장 참고치입니다 — 환전소와 카드는 각자의 환율을 적용합니다." },
+        { "q": "팁을 줘야 하나요?", "a": "아니요. 한국에서는 팁이 관례가 아닙니다. 표시된 가격이 곧 내는 금액이며, 식당이든 택시든 마찬가지입니다." },
+        { "q": "외국 카드가 거절됐어요 — 이제 어떻게 하죠?", "a": "'Global' ATM이나 다른 카드를 시도하거나, WOWPASS 선불카드에 현금을 충전하세요. 해외 거래가 차단되지 않도록 여행 전에 은행에 알려 두세요." },
+        { "q": "Apple Pay / Google Pay를 쓸 수 있나요?", "a": "점점 가능해지고 있지만, 수용도는 아직 실물 카드에 못 미칩니다. 칩과 비접촉 기능이 있는 카드를 주 결제 수단으로 챙기세요." }
+      ]
+    }
+  }
+}

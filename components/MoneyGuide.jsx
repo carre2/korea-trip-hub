@@ -23,7 +23,7 @@ export default function MoneyGuide({ guide, fxLabels }) {
       )}
 
       {/* Live exchange rate */}
-      <FxRates labels={fxLabels} />
+      <FxRates labels={g.fx || fxLabels} />
 
       {/* Where to exchange */}
       {g.exchange && (
