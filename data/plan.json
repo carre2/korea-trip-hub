@@ -1,6 +1,6 @@
 {
   "_README": "PLAN YOUR TRIP 6종 콘텐츠. 수치는 여기 쓰지 않고 facts[]의 factId로 렌더링(HARNESS). intro/tips는 EDITORIAL(임의 수치 금지).",
-  "order": ["visa", "transit", "airport", "sim", "money", "weather"],
+  "order": ["visa", "transit", "airport", "sim", "money", "weather", "help"],
   "items": {
     "visa": {
       "icon": "🛂",
@@ -122,6 +122,26 @@
       "official": [
         { "name": "Korea Meteorological Administration", "url": "https://web.kma.go.kr/eng/" },
         { "name": "VisitKorea", "url": "https://english.visitkorea.or.kr" }
+      ]
+    },
+    "help": {
+      "icon": "🆘",
+      "color": "#DC3560",
+      "tagline": "Who to call and what to do if something goes wrong — save these before you need them.",
+      "intro": [
+        "Korea is very safe, but it helps to know exactly who to call. Three numbers cover almost everything: 112 for police, 119 for fire and ambulance, and 1330 — the 24-hour tourist hotline that will interpret for you and even call 112 or 119 on your behalf.",
+        "Below: the numbers, what to do in common situations (medical, lost passport, lost items), the official emergency app, and how to reach your embassy."
+      ],
+      "facts": [],
+      "tips": [
+        "Save 112, 119 and 1330 in your phone before you travel.",
+        "On a 119/112 call, say 'Hello, English please' and you'll be connected to interpretation.",
+        "1330 is the easiest first call — it's 24/7, multilingual, and can relay to emergency services.",
+        "Install the official 'Emergency Ready App' for hospitals, shelters and embassy info."
+      ],
+      "official": [
+        { "name": "VisitKorea — Emergency", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140042" },
+        { "name": "HiKorea (Immigration)", "url": "https://www.hikorea.go.kr" }
       ]
     }
   }

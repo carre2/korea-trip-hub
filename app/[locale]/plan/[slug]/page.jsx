@@ -8,6 +8,7 @@ import AirportGuide from "../../../../components/AirportGuide";
 import SimGuide from "../../../../components/SimGuide";
 import MoneyGuide from "../../../../components/MoneyGuide";
 import WeatherGuide from "../../../../components/WeatherGuide";
+import HelpGuide from "../../../../components/HelpGuide";
 import guideVisa from "../../../../data/guides/visa.json";
 import guideVisaI18n from "../../../../data/guides/visa.i18n.json";
 import guideTransit from "../../../../data/guides/transit.json";
@@ -20,6 +21,7 @@ import guideMoney from "../../../../data/guides/money.json";
 import guideMoneyI18n from "../../../../data/guides/money.i18n.json";
 import guideWeather from "../../../../data/guides/weather.json";
 import guideWeatherI18n from "../../../../data/guides/weather.i18n.json";
+import guideHelp from "../../../../data/guides/help.json";
 import plan from "../../../../data/plan.json";
 import planJa from "../../../../data/plan.ja.json";
 import planZh from "../../../../data/plan.zh.json";
@@ -45,11 +47,11 @@ import planBn from "../../../../data/plan.bn.json";
 const planI18n = { ja: planJa, zh: planZh, "zh-TW": planZhTW, es: planEs, fr: planFr, de: planDe, pt: planPt, it: planIt, ru: planRu, ko: planKo, vi: planVi, th: planTh, id: planId, tr: planTr, fil: planFil, ms: planMs, hi: planHi, ar: planAr, bn: planBn };
 
 // Rich visual guides (English base). Keyed by slug; only slugs with a guide render the deep-dive layout.
-const guides = { visa: guideVisa, transit: guideTransit, airport: guideAirport, sim: guideSim, money: guideMoney, weather: guideWeather };
+const guides = { visa: guideVisa, transit: guideTransit, airport: guideAirport, sim: guideSim, money: guideMoney, weather: guideWeather, help: guideHelp };
 // Per-locale translation overrides for rich guides: { <locale>: { ...overrides } }.
 const guideI18n = { visa: guideVisaI18n, transit: guideTransitI18n, airport: guideAirportI18n, sim: guideSimI18n, money: guideMoneyI18n, weather: guideWeatherI18n };
 // Which rich component renders each slug's guide body.
-const GuideBody = { visa: GuideVisual, transit: TransitGuide, airport: AirportGuide, sim: SimGuide, money: MoneyGuide, weather: WeatherGuide };
+const GuideBody = { visa: GuideVisual, transit: TransitGuide, airport: AirportGuide, sim: SimGuide, money: MoneyGuide, weather: WeatherGuide, help: HelpGuide };
 
 // Deep-merge a locale override onto the English base guide (arrays replace; objects merge; scalars override).
 function mergeGuide(base, ov) {
@@ -73,13 +75,14 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const locale = params?.locale || defaultLocale;
   const m = getMessages(locale);
-  // Tile titles are already translated in messages/*.json; taglines in data/plan.<locale>.json.
-  const title = m.plan.tiles[params.slug]?.title || params.slug;
+  // Tile titles are translated in messages/*.json; rich guides (e.g. help) fall back to their h1.
+  const gm = mergeGuide(guides[params.slug], guideI18n[params.slug]?.[locale]);
+  const title = m.plan.tiles[params.slug]?.title || gm?.h1 || params.slug;
   const item = { ...plan.items[params.slug], ...(planI18n[locale]?.items?.[params.slug] || {}) };
   return pageMeta({
     locale,
     path: `plan/${params.slug}`,
-    title: `${title} — ${SITE_NAME}`,
+    title: gm?.metaTitle || `${title} — ${SITE_NAME}`,
     description: item.tagline,
     type: "article",
   });
@@ -134,12 +137,12 @@ export default function PlanArticle({ params }) {
   const ov = planI18n[locale]?.items?.[slug] || {};
   const item = { ...base, ...ov }; // localized tagline/intro/tips override English base
   const m = getMessages(locale);
+  const guide = mergeGuide(guides[slug], guideI18n[slug]?.[locale]);
   const tile = m.plan.tiles[slug] || {};
-  const title = tile.title || slug;
+  const title = tile.title || guide?.h1 || slug;
 
   const hasFacts = item.facts.some((id) => fact(id));
   const ui = m.factsUI || {};
-  const guide = mergeGuide(guides[slug], guideI18n[slug]?.[locale]);
 
   return (
     <article className="article">

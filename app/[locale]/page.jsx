@@ -318,6 +318,9 @@ export default function Home({ params }) {
               <div className="kw" style={{ marginTop: 10 }}>⏳ {m.help.unavailable}</div>
             </div>
           </div>
+          <div style={{ marginTop: 14 }}>
+            <a className="btn ghost" href={`/${locale}/plan/help/`}>🆘 {m.help.fullGuide || "Full help & emergency guide"} →</a>
+          </div>
         </div>
       </section>
 

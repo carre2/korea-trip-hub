@@ -565,6 +565,25 @@
   .wx-season-vibe{font-size:12.5px;color:var(--text);margin:6px 0 8px;line-height:1.5}
   .wx-season-img{width:100%;height:104px;object-fit:cover;border-radius:10px;display:block;margin-bottom:9px}
 
+  /* ---------- HELP & EMERGENCY ---------- */
+  .help-num-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  @media (max-width:560px){.help-num-grid{grid-template-columns:1fr}}
+  .help-num{display:block;padding:14px 16px;border:1px solid var(--border);border-left:4px solid var(--border-strong);border-radius:13px;background:var(--surface);box-shadow:var(--shadow);transition:box-shadow .15s,transform .15s}
+  .help-num:hover{box-shadow:var(--shadow-lg);transform:translateY(-1px)}
+  .help-tone-amber{border-left-color:var(--accent)}
+  .help-tone-blue{border-left-color:var(--primary)}
+  .help-tone-green{border-left-color:var(--jade)}
+  .help-tone-neutral{border-left-color:var(--faint)}
+  .help-num-top{display:flex;align-items:center;gap:8px}
+  .help-num-ic{font-size:18px}
+  .help-num-label{font-size:13px;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+  .help-num-big{display:inline-block;font-size:34px;font-weight:850;letter-spacing:-.02em;line-height:1.1;margin:2px 0 4px;color:var(--text);text-decoration:none}
+  .help-num-big:hover{color:var(--primary)}
+  .help-num-when{font-size:12.5px;color:var(--muted);margin:0 0 6px;line-height:1.45}
+  .help-num-src{font-size:10.5px;color:var(--faint)}
+  .help-num-src a{color:var(--faint);text-decoration:underline;text-underline-offset:2px}
+  .help-sit .sim-setup{margin-top:8px}
+
   /* SIM option setup lists */
   .sim-opts .gv-doc{display:flex;flex-direction:column}
   .sim-setup{margin:10px 0 0;padding:0 0 0 18px;display:flex;flex-direction:column;gap:6px}

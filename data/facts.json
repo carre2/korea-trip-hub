@@ -86,6 +86,16 @@
     },
 
     {
+      "id": "immigration-1345",
+      "tier": "STABLE",
+      "claim": "The Immigration Contact Center is 1345 — a multilingual line for visa, stay and immigration questions (run by the Korea Immigration Service).",
+      "value": { "number": "1345", "for": "visa / stay / immigration", "languages": "multilingual" },
+      "source": "https://www.hikorea.go.kr",
+      "source_name": "HiKorea / Korea Immigration Service",
+      "verified": "2026-08-05", "recheck_after": "2027-08-01", "status": "VERIFIED",
+      "notes": "Dial 1345 without an area code inside Korea. For tourism info and interpretation, 1330 is the main line."
+    },
+    {
       "id": "arex-express",
       "tier": "VOLATILE",
       "claim": "AREX Express train: non-stop between Incheon Airport and Seoul Station. About 43 min from Terminal 1 (51 min from Terminal 2).",
