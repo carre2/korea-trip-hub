@@ -16,11 +16,11 @@
  *   [E] duplicate <title> within one locale (template not filled in)
  *   [E] locale home title identical to English (metadata translation regressed)
  *   [E] <html lang> missing/wrong, or RTL locale without dir="rtl"
- *   [E] og:image / twitter:image referencing a file that isn't in the build
+ *   [E] og:image missing, or og/twitter image referencing a file that isn't in the build
  *   [E] malformed JSON-LD
  *   [E] robots.txt without a sitemap line
  * Warnings (exit 0):
- *   [W] no og:image        [W] title/description length outside the usual SERP window
+ *   [W] title/description length outside the usual SERP window
  *   [W] title identical to English on a non-en page (untranslated content, not a code bug)
  *
  * Usage:  node scripts/verify-seo.mjs            (after a build)
@@ -172,7 +172,7 @@ for (const p of pages) {
     const local = src.startsWith(SITE) ? src.slice(SITE.length) : src.startsWith("/") ? src : null;
     if (local && !fs.existsSync(path.join(OUT, local.split("?")[0]))) E(id, `${label} not in build: ${src}`);
   }
-  if (!h.ogImage) W(id, "no og:image (link shares render without a picture)");
+  if (!h.ogImage) E(id, "no og:image (link shares would render without a picture)");
 
   // --- JSON-LD must parse and be typed ---
   for (const raw of h.ld) {

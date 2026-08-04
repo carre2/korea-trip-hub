@@ -77,7 +77,6 @@ npm run verify:seo    # 빌드 후 단독 실행
 - robots.txt에 `Sitemap:` 줄 없음
 
 **경고(exit 0 — 백로그):**
-- `og:image` 없음
 - title이 영어와 동일한 하위 페이지 (해당 언어 콘텐츠 미번역 — 로케일별 개수로 리포트)
 - title/description 길이가 일반적인 SERP 범위를 벗어남
 
@@ -88,8 +87,9 @@ npm run verify:seo    # 빌드 후 단독 실행
 
 ## 4. 현재 남은 SEO 백로그
 
-- [ ] **og:image (660페이지 전부 없음)** — 사이트 사진은 CC BY-SA라 크레딧 표기가 불가능한 공유 카드에 못 쓴다(`public/img/CREDITS.md` 규칙). 자체 제작 브랜드 카드가 필요하다.
-      `next/og`로 빌드 타임 생성은 Windows에서 `@vercel/og` 폰트 경로 오류(`TypeError: Invalid URL`)로 실패 → 미해결.
+- [x] ~~og:image~~ — 자체 제작 브랜드 카드 `public/img/og/ktriphub-og.jpg`(1200×630) 적용 완료.
+      사이트 사진은 CC BY-SA라 크레딧을 실을 수 없는 공유 카드에 쓸 수 없다(`public/img/CREDITS.md`).
+      **검증기가 og:image 누락을 에러로 막으므로**, 새 페이지도 자동으로 카드를 갖는다.
 - [ ] **메타 미번역 167페이지** — 대부분 비자면제 6개국 가이드(ja/ko/zh/zh-TW/es 5개 언어만 번역됨). 나머지 15개 언어 번역이 곧 SEO 개선이다.
 - [ ] title 70자 초과 145페이지 — 주로 비자 가이드 제목. 검색결과에서 잘린다.
 - [ ] `robots.js`의 `host` 필드는 비표준(Yandex 전용) — 무해하지만 정리 대상.
