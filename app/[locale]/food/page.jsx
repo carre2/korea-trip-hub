@@ -2,6 +2,7 @@ import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
 import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
 import food from "../../../data/food.json";
+import foodImages from "../../../data/food-images.json";
 import foodJa from "../../../data/food.ja.json";
 import foodZh from "../../../data/food.zh.json";
 import foodEs from "../../../data/food.es.json";
@@ -41,9 +42,11 @@ export function generateMetadata({ params }) {
 }
 
 function Card({ item, tagBg, tagColor }) {
+  const im = foodImages[item.key];
   return (
     <article className="card">
-      <div className="thumb" style={{ background: item.grad }}>{item.icon}
+      <div className={`thumb${im ? " thumb-img" : ""}`} style={im ? undefined : { background: item.grad }}>
+        {im ? <img src={im.img} alt={item.n} loading="lazy" /> : item.icon}
         {item.tag && (
           <span className="pill" style={{ position: "absolute", bottom: 12, left: 12, background: tagBg, color: tagColor }}>
             {item.tag}
@@ -96,8 +99,19 @@ export default function Food({ params }) {
           ))}
         </div>
 
-        <h2 style={{ fontSize: 20, fontWeight: 800, margin: "32px 0 12px" }}>{t.tips}</h2>
+        <h2 style={{ fontSize: 20, fontWeight: 800, margin: "24px 0 10px" }}>{t.tips}</h2>
         <ul className="tips">{tips.map((tip, i) => <li key={i}>{tip}</li>)}</ul>
+
+        <details className="photo-credits">
+          <summary>📷 {t.photoCredits || "Photo credits"}</summary>
+          <ul>
+            {[...eat, ...make].filter((i) => foodImages[i.key]).map((i) => (
+              <li key={i.key}>
+                {i.n} — <a href={foodImages[i.key].creditUrl} target="_blank" rel="noopener noreferrer">{foodImages[i.key].credit}</a>
+              </li>
+            ))}
+          </ul>
+        </details>
       </div>
     </section>
   );

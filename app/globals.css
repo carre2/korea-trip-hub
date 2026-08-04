@@ -202,6 +202,10 @@
   .thumb .rank .num{color:var(--gold)}
   .thumb .trend{position:absolute;top:12px;right:12px;background:rgba(10,12,20,.55);color:#fff;padding:5px 9px;border-radius:999px;font-size:11.5px;font-weight:700}
   .thumb-img img{width:100%;height:100%;object-fit:cover;display:block}
+  .photo-credits{margin:20px 0 0;font-size:12px;color:var(--faint)}
+  .photo-credits summary{cursor:pointer;font-weight:600}
+  .photo-credits ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:3px}
+  .photo-credits a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}
   .card .cbody{padding:15px 16px}
   .card .cbody h3{font-size:17px;font-weight:750;letter-spacing:-.01em}
   .card .cbody p{color:var(--muted);font-size:13.5px;margin-top:5px}

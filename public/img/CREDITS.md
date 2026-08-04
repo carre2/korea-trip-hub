@@ -39,3 +39,20 @@ All photographic images are sourced from free/openly-licensed collections and at
 | jagalchi | Photo: Bernard Gagnon / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Jagalchi_Market_02.jpg) |
 | seongsan | Photo: Basile Morin / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hydrangea_macrophylla_in_front_of_Seongsan_Ilchulbong_volcano_at_blue_hour_in_Jeju_Island_South_Korea.jpg) |
 | hallasan | Photo: Basile Morin / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Wooden_staircase_steps_in_the_forest_of_Hallasan_Park_Eorimok_Trail_at_dusk_on_Jeju_Island_in_South_Korea.jpg) |
+
+### Food (Plan → Food)
+
+| Key | Credit | Source |
+|---|---|---|
+| bbq | Photo: hellochris / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean.cuisine-Samgyeopsal-01.jpg) |
+| tteokbokki | Photo: jetalone / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean.snacks-Tteokbokki-08.jpg) |
+| bibimbap | Photo: Chloe Lim / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bibimbap_7.jpg) |
+| chimaek | Photo: Startandstar / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean_fried_chicken_240206.jpg) |
+| naengmyeon | Photo: Korea.net / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:KOCIS_Mul-naengmyeon%2C_Chilled_Buckwheat_Noodle_Soup_%284594756202%29.jpg) |
+| halal-veg | Photo: Richy! / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean_temple_cuisine-Sanchon-01.jpg) |
+| seongsu-cafe | Photo: Philip Mallis / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hojicha_bingsu_ice_dessert_at_cafe_in_Melbourne.jpg) |
+| jjigae | Photo: avlxyz / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean.cuisine-Kimchi_jjigae-01.jpg) |
+| make-kimchi | Photo: AhmadElq / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean_Kimchi.jpg) |
+| make-bulgogi | Photo: Debbie Tingzon / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bulgogi_3.jpg) |
+| make-tteok | Photo: Startandstar / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean_rice_cake_Korean_tteok.jpg) |
+| make-makgeolli | Photo: jinho kim / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Makgeolli_4.jpg) |
