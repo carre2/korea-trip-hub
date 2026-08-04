@@ -31,14 +31,33 @@
 ```
 > 한 번에 한 언어씩. 우선순위(방한객 기준): en(완료) → ja → zh → zh-TW → vi → th → id → 그 외.
 
-## 검증기 — `scripts/verify-i18n.mjs`
+## 검증기 (둘 다 prebuild에 연결 — 실패하면 배포가 막힌다)
+
+### 1. UI 문자열 — `scripts/verify-i18n.mjs`
 ```bash
 npm run verify:i18n              # 전체
 node scripts/verify-i18n.mjs ja  # 특정 언어
 ```
-- **prebuild에 연결됨** → 오류가 있으면 `npm run build`(=배포)가 실패한다.
+- 대상: `messages/*.json`
 - 하드 오류(exit 1): 키 누락 · **사실 숫자/도메인 변조** · 플레이스홀더 깨짐 · 언어 누수(한글 유출)
 - 경고(exit 0): 미번역 의심(원문과 동일 — 브랜드명은 정상) · 잉여 키
+
+### 2. 콘텐츠 번역 — `scripts/verify-content-i18n.mjs`
+```bash
+npm run verify:content                 # 전체
+node scripts/verify-content-i18n.mjs vi  # 특정 언어
+```
+- 대상: `data/<name>.<locale>.json`(destinations·food·plan)과 `data/visa/<country>.i18n.json`
+  — **UI 검증기가 보지 않던 영역.** 여행자가 실제로 행동의 근거로 삼는 수치가 여기 있다.
+- 하드 오류: 원문의 **숫자·날짜·도메인 누락**(예: "72시간"→"48시간", `e-arrivalcard.go.kr`→다른 도메인) ·
+  배열 길이 불일치(단계/FAQ 항목 누락) · 번역 금지 필드(link·url·req·icon) 변경 · 한글 누수 · 미등록 로케일
+- 경고: 10 이하의 작은 수가 다르게 표현된 경우 — 언어마다 정상이다
+  (아랍어는 "2 pages"를 쌍수로, 러시아어는 "#1 most-visited"를 "самый посещаемый"로 쓴다)
+- 로케일별 소수점·천단위 구분자 차이(`3.5`↔`3,5`, `10,000`↔`10.000`)는 동일 값으로 처리한다.
+- 파일별 번역 커버리지 표를 항상 출력하므로 **번역 백로그가 그대로 보인다.**
+
+> 검증기 자체도 시험했다: 번역문의 "72시간"을 "48시간"으로, 공식 도메인을 가짜 도메인으로
+> 바꾸자 각각 FAIL을 냈다.
 
 ## 언어별 스타일 메모 (계속 보강)
 - **ja:** 간결·자연스러운 상용체. 딱딱한 직역 금지(対象になります→対象です).
