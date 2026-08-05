@@ -361,7 +361,9 @@
   .art-tldr li::before{content:"▸";position:absolute;left:0;color:var(--primary);font-weight:800}
 
   .gv{margin-top:4px}
-  .gv-sec{margin:16px 0 0}
+  /* .gv-sec is a <section>, so it inherits the global `section{padding:70px 0}` used by
+     home-page blocks — kill that padding here so deep-dive sections sit tight. */
+  .gv-sec{margin:16px 0 0;padding:0}
   .gv-sec>h2{font-size:20px;font-weight:800;letter-spacing:-.01em;margin:0 0 6px}
   .gv-lead{color:var(--muted);font-size:15px;line-height:1.55;margin:0 0 9px;max-width:66ch}
 
