@@ -3,6 +3,8 @@
 // comparison table, per-option setup cards, pitfalls, FAQ and official links.
 // No prices are shown (HARNESS): plans vary, so we compare by type.
 
+import { linkify } from "../lib/linkify";
+
 export default function SimGuide({ guide }) {
   if (!guide) return null;
   const g = guide;
@@ -86,7 +88,7 @@ export default function SimGuide({ guide }) {
           <h2>{g.faq.title}</h2>
           <div className="gv-faq">
             {g.faq.items.map((it, i) => (
-              <details key={i} className="gv-faq-item"><summary>{it.q}</summary><p>{it.a}</p></details>
+              <details key={i} className="gv-faq-item"><summary>{it.q}</summary><p>{linkify(it.a)}</p></details>
             ))}
           </div>
         </section>

@@ -3,6 +3,8 @@
 // airport→city transport comparison table, foreigner taxi-app cards, pitfalls and FAQ.
 // Fare numbers mirror the Verified-facts boxes (facts.json).
 
+import { linkify } from "../lib/linkify";
+
 function SectionPhoto({ s }) {
   if (!s?.img) return null;
   return (
@@ -115,7 +117,7 @@ export default function AirportGuide({ guide }) {
           <h2>{g.faq.title}</h2>
           <div className="gv-faq">
             {g.faq.items.map((it, i) => (
-              <details key={i} className="gv-faq-item"><summary>{it.q}</summary><p>{it.a}</p></details>
+              <details key={i} className="gv-faq-item"><summary>{it.q}</summary><p>{linkify(it.a)}</p></details>
             ))}
           </div>
         </section>

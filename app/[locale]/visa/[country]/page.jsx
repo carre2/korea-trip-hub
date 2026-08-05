@@ -75,7 +75,7 @@ export default function VisaCountryPage({ params }) {
         </div>
       )}
 
-      <VisaCountryGuide guide={g} />
+      <VisaCountryGuide guide={g} m={m} />
 
       <p className="art-disclaimer">{m.footer?.disclaimer}</p>
     </article>

@@ -5,6 +5,8 @@
 // <details>), curated resources, and official-link cards.
 // Facts/numbers shown here mirror the Verified-facts boxes (grounded in facts.json).
 
+import { linkify } from "../lib/linkify";
+
 export default function GuideVisual({ guide }) {
   if (!guide) return null;
   const g = guide;
@@ -28,7 +30,7 @@ export default function GuideVisual({ guide }) {
                 <h3>{c.name}</h3>
                 <div className="gv-doc-cost">{c.cost}</div>
                 <p className="gv-doc-who"><b>{ui.who || "Who:"}</b> {c.who}</p>
-                <p className="gv-doc-what">{c.what}</p>
+                <p className="gv-doc-what">{linkify(c.what)}</p>
               </div>
             ))}
           </div>
@@ -96,7 +98,7 @@ export default function GuideVisual({ guide }) {
                 <span className="gv-step-n">{s.n}</span>
                 <div className="gv-step-body">
                   <h4>{s.title}</h4>
-                  <p>{s.detail}</p>
+                  <p>{linkify(s.detail)}</p>
                 </div>
               </li>
             ))}
@@ -114,7 +116,7 @@ export default function GuideVisual({ guide }) {
                 <span className="gv-check-ic">{it.icon}</span>
                 <div>
                   <b>{it.t}</b>
-                  <p>{it.d}</p>
+                  <p>{linkify(it.d)}</p>
                 </div>
               </div>
             ))}
@@ -133,7 +135,7 @@ export default function GuideVisual({ guide }) {
                 <span className="gv-step-n">{s.n}</span>
                 <div className="gv-step-body">
                   <h4>{s.title}</h4>
-                  <p>{s.detail}</p>
+                  <p>{linkify(s.detail)}</p>
                 </div>
               </li>
             ))}
@@ -164,7 +166,7 @@ export default function GuideVisual({ guide }) {
                 <span className="gv-pit-ic">{it.icon}</span>
                 <div>
                   <b>{it.t}</b>
-                  <p>{it.d}</p>
+                  <p>{linkify(it.d)}</p>
                 </div>
               </div>
             ))}
@@ -180,7 +182,7 @@ export default function GuideVisual({ guide }) {
             {g.faq.items.map((it, i) => (
               <details key={i} className="gv-faq-item">
                 <summary>{it.q}</summary>
-                <p>{it.a}</p>
+                <p>{linkify(it.a)}</p>
               </details>
             ))}
           </div>

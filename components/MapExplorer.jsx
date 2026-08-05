@@ -147,8 +147,8 @@ export default function MapExplorer({ labels, locale }) {
 
       <div className="mapnote">
         {provider === "google"
-          ? (t.mapNoteGoogle || "Google Maps labels places in your language. For in-Korea navigation (directions & transit), Naver or KakaoMap are best.")
-          : (t.mapNoteKorean || "Naver / KakaoMap give the most detailed in-Korea directions. Naver also supports English/Japanese/Chinese; Google covers every language.")}
+          ? (t.mapNoteGoogle || "Google Maps shows place names in your language — the easiest map to read. For in-Korea directions and transit, switch to Naver or KakaoMap.")
+          : (t.mapNoteKorean || "Naver & KakaoMap have the most detailed Korean road and transit data, but their labels are mostly in Korean. For English and other languages, use Google above.")}
       </div>
       {note && (
         <div style={{ padding: "10px 14px", fontSize: 13, color: "var(--muted)", borderTop: "1px solid var(--border)" }}>

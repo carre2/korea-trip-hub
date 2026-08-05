@@ -3,6 +3,7 @@
 // grounded in facts.json via factId), what-to-do situation cards, help apps,
 // embassy guidance, pitfalls and FAQ.
 import { fact } from "../lib/facts";
+import { linkify } from "../lib/linkify";
 
 export default function HelpGuide({ guide }) {
   if (!guide) return null;
@@ -110,7 +111,7 @@ export default function HelpGuide({ guide }) {
           <h2>{g.faq.title}</h2>
           <div className="gv-faq">
             {g.faq.items.map((it, i) => (
-              <details key={i} className="gv-faq-item"><summary>{it.q}</summary><p>{it.a}</p></details>
+              <details key={i} className="gv-faq-item"><summary>{it.q}</summary><p>{linkify(it.a)}</p></details>
             ))}
           </div>
         </section>

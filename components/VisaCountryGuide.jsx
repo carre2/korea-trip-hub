@@ -3,12 +3,19 @@
 // document table with "where/how to get each", funds guidance, pitfalls, FAQ,
 // resources and official cards. Fee/processing numbers come from facts.json.
 import { fact } from "../lib/facts";
+import { linkify } from "../lib/linkify";
 
-export default function VisaCountryGuide({ guide }) {
+export default function VisaCountryGuide({ guide, m }) {
   if (!guide) return null;
   const g = guide;
   const ui = g.ui || {};
   const f = g.factId ? fact(g.factId) : null;
+  // Localize the fee/processing fact (claim/notes/value labels) from the active
+  // locale's messages, falling back to the English base in facts.json.
+  const ftr = (f && m?.facts && m.facts[g.factId]) || {};
+  const fLabels = m?.factLabels || {};
+  const fClaim = ftr.claim || f?.claim;
+  const fNotes = ftr.notes || f?.notes;
   const REQ = {
     required: { t: ui.required || "Required", c: "gvr-req" },
     conditional: { t: ui.conditional || "If it applies", c: "gvr-cond" },
@@ -23,7 +30,7 @@ export default function VisaCountryGuide({ guide }) {
           <div className="vcg-verdict-flag">{g.flag}</div>
           <div>
             <h2>{g.verdict.headline}</h2>
-            <p>{g.verdict.sub}</p>
+            <p>{linkify(g.verdict.sub)}</p>
             <div className="vcg-verdict-meta">
               {g.verdict.type && <span><b>{ui.visa || "Visa"}</b>{g.verdict.type}</span>}
               {g.verdict.stay && <span><b>{ui.stay || "Stay"}</b>{g.verdict.stay}</span>}
@@ -49,20 +56,20 @@ export default function VisaCountryGuide({ guide }) {
       {f && (
         <div className="factbox vcg-fact">
           <div className="factbox-h">
-            <b>{f.claim}</b>
+            <b>{linkify(fClaim)}</b>
             <span className="pill verified">✓ {f.verified}</span>
           </div>
           {f.value && (
             <ul className="factvals">
               {Object.entries(f.value).map(([k, v]) => (
-                <li key={k}><span>{k.replace(/_/g, " ")}</span><b>{String(v)}</b></li>
+                <li key={k}><span>{fLabels[k] || k.replace(/_/g, " ")}</span><b>{String(v)}</b></li>
               ))}
             </ul>
           )}
           <div className="factsrc">
             <span className="pill vol">⚠ {ui.confirm || "Fees/rules change — confirm at source"}</span>
             <span>{ui.source || "Source"}: <a href={f.source} target="_blank" rel="noopener noreferrer">{f.source_name}</a></span>
-            {f.notes && <p className="factnote">ⓘ {f.notes}</p>}
+            {fNotes && <p className="factnote">ⓘ {linkify(fNotes)}</p>}
           </div>
         </div>
       )}
@@ -82,7 +89,7 @@ export default function VisaCountryGuide({ guide }) {
               </a>
             ))}
           </div>
-          {g.jurisdiction.note && <p className="gv-legend">ⓘ {g.jurisdiction.note}</p>}
+          {g.jurisdiction.note && <p className="gv-legend">ⓘ {linkify(g.jurisdiction.note)}</p>}
         </section>
       )}
 
@@ -96,7 +103,7 @@ export default function VisaCountryGuide({ guide }) {
                 <span className="gv-step-n">{s.n}</span>
                 <div className="gv-step-body">
                   <h4>{s.title}</h4>
-                  <p>{s.detail}{s.link && <> — <a href={s.link} target="_blank" rel="noopener noreferrer">{s.linkLabel || s.link}</a></>}</p>
+                  <p>{linkify(s.detail)}{s.link && <> — <a href={s.link} target="_blank" rel="noopener noreferrer">{s.linkLabel || s.link}</a></>}</p>
                 </div>
               </li>
             ))}
@@ -122,7 +129,7 @@ export default function VisaCountryGuide({ guide }) {
                     <span className="vcg-doc-lbl">{ui.where || "Where"}</span>
                     {r.link ? <a href={r.link} target="_blank" rel="noopener noreferrer">{r.where} ↗</a> : <span>{r.where}</span>}
                   </div>
-                  <p className="vcg-doc-how">{r.how}</p>
+                  <p className="vcg-doc-how">{linkify(r.how)}</p>
                 </div>
               );
             })}
@@ -134,9 +141,9 @@ export default function VisaCountryGuide({ guide }) {
       {g.funds && (
         <section className="gv-sec vcg-funds">
           <h2>{g.funds.title}</h2>
-          <p className="gv-lead">{g.funds.body}</p>
+          <p className="gv-lead">{linkify(g.funds.body)}</p>
           <ul className="tips">
-            {g.funds.tips.map((t, i) => <li key={i}>{t}</li>)}
+            {g.funds.tips.map((t, i) => <li key={i}>{linkify(t)}</li>)}
           </ul>
         </section>
       )}
@@ -149,7 +156,7 @@ export default function VisaCountryGuide({ guide }) {
             {g.pitfalls.items.map((it) => (
               <div key={it.t} className="gv-pit">
                 <span className="gv-pit-ic">{it.icon}</span>
-                <div><b>{it.t}</b><p>{it.d}</p></div>
+                <div><b>{it.t}</b><p>{linkify(it.d)}</p></div>
               </div>
             ))}
           </div>
@@ -164,7 +171,7 @@ export default function VisaCountryGuide({ guide }) {
             {g.faq.items.map((it, i) => (
               <details key={i} className="gv-faq-item">
                 <summary>{it.q}</summary>
-                <p>{it.a}</p>
+                <p>{linkify(it.a)}</p>
               </details>
             ))}
           </div>
