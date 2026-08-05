@@ -3,10 +3,28 @@
 import { useState } from "react";
 import citiesData from "../data/cities.json";
 import factsData from "../data/facts.json";
+import spotImages from "../data/spot-images.json";
 
 const CITY_ORDER = citiesData.order;
 const CITIES = citiesData.cities;
 const FACTS = Object.fromEntries((factsData.facts || []).map((f) => [f.id, f]));
+
+// Placeholder visuals for spots without a photo yet (by style category).
+const CAT_EMOJI = { food: "🍜", kpop: "🎤", sights: "🏛️", hiking: "🥾", shopping: "🛍️" };
+const CAT_GRAD = {
+  food: "linear-gradient(135deg,#f59e0b,#ef4444)",
+  kpop: "linear-gradient(135deg,#ec4899,#8b5cf6)",
+  sights: "linear-gradient(135deg,#3b82f6,#06b6d4)",
+  hiking: "linear-gradient(135deg,#10b981,#059669)",
+  shopping: "linear-gradient(135deg,#f472b6,#f59e0b)",
+};
+// Open Google Maps directions to the spot — Maps uses the visitor's current
+// location as the origin, so they see "my location → attraction" on a map.
+// Keyless, works on web and opens the Maps app on mobile.
+function mapUrl(name, cityName) {
+  const q = encodeURIComponent(`${name}, ${cityName}, South Korea`);
+  return `https://www.google.com/maps/dir/?api=1&destination=${q}`;
+}
 
 const STYLE_CHIPS = [
   { key: "food", label: "🍜 Food" },
@@ -150,14 +168,47 @@ export default function TripPlanner({ hero = {}, t = {} }) {
                   </div>
                 )}
 
-                {day.spots.map((s, j) => (
-                  <div className="step" key={j}>
-                    <div className="t">{t[SLOTS[j]] || SLOTS[j]}</div>
-                    <div className="body"><b>{s.n}</b>{s.d && <div className="meta">{s.d}</div>}</div>
-                  </div>
-                ))}
+                {day.spots.map((s, j) => {
+                  const im = spotImages[s.n];
+                  return (
+                    <a className="step" key={j} href={mapUrl(s.n, plan.city.name)}
+                       target="_blank" rel="noopener noreferrer" title={t.openMap || "See it on the map"}>
+                      <div className="t">{t[SLOTS[j]] || SLOTS[j]}</div>
+                      <div className="body">
+                        <b>{s.n}</b>
+                        {s.d && <div className="meta">{s.d}</div>}
+                        <span className="step-map">🗺️ {t.openMap || "See my route on the map"}</span>
+                      </div>
+                      <span className={`step-thumb${im ? " has-img" : ""}`}
+                            style={im ? undefined : { background: CAT_GRAD[s.c] || "linear-gradient(135deg,#64748b,#334155)" }}>
+                        {im ? <img src={im.img} alt={s.n} loading="lazy" /> : (CAT_EMOJI[s.c] || "📍")}
+                      </span>
+                    </a>
+                  );
+                })}
               </div>
             ))}
+
+            {(() => {
+              const used = [];
+              plan.daysOut.forEach((day) => day.spots.forEach((s) => {
+                const im = spotImages[s.n];
+                if (im && !used.some((u) => u.img === im.img)) used.push({ name: s.n, ...im });
+              }));
+              if (!used.length) return null;
+              return (
+                <details className="photo-credits">
+                  <summary>{t.photoCredits || "Photo credits"}</summary>
+                  <ul>
+                    {used.map((u) => (
+                      <li key={u.img}>
+                        <a href={u.creditUrl} target="_blank" rel="noopener noreferrer">{u.name} — {u.credit}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              );
+            })()}
           </div>
 
           <div className="share">
