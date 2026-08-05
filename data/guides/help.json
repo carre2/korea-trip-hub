@@ -16,28 +16,102 @@
     "title": "Save these numbers now",
     "intro": "Tap to call (on mobile). These work nationwide, and interpretation is available.",
     "items": [
-      { "factId": "emergency-police", "icon": "🚨", "label": "Police", "tone": "amber", "when": "Crime, theft, danger, accidents involving others." },
-      { "factId": "emergency-fire-medical", "icon": "🚑", "label": "Fire / Ambulance", "tone": "blue", "when": "Fire, injury, sudden illness — an ambulance." },
-      { "factId": "tourist-hotline-1330", "icon": "📞", "label": "Tourist Hotline", "tone": "green", "when": "Any travel help, 24/7, multilingual — can relay to 112/119." },
-      { "factId": "immigration-1345", "icon": "🛂", "label": "Immigration", "tone": "neutral", "when": "Visa, length of stay, immigration questions." }
+      {
+        "factId": "emergency-police",
+        "icon": "🚨",
+        "label": "Police",
+        "tone": "amber",
+        "when": "Crime, theft, danger, accidents involving others."
+      },
+      {
+        "factId": "emergency-fire-medical",
+        "icon": "🚑",
+        "label": "Fire / Ambulance",
+        "tone": "blue",
+        "when": "Fire, injury, sudden illness — an ambulance."
+      },
+      {
+        "factId": "tourist-hotline-1330",
+        "icon": "📞",
+        "label": "Tourist Hotline",
+        "tone": "green",
+        "when": "Any travel help, 24/7, multilingual — can relay to 112/119."
+      },
+      {
+        "factId": "immigration-1345",
+        "icon": "🛂",
+        "label": "Immigration",
+        "tone": "neutral",
+        "when": "Visa, length of stay, immigration questions."
+      }
     ]
   },
   "situations": {
     "title": "What to do if…",
     "intro": "Common travel emergencies and the fastest way through each.",
     "cards": [
-      { "icon": "🤒", "name": "You're sick or injured", "steps": ["For an emergency, call 119 (say 'English please') or go to a hospital emergency room.", "For minor issues, a pharmacy (약국) or walk-in clinic is quick and cheap.", "Bring your passport and a card; keep any receipts for travel-insurance claims."] },
-      { "icon": "🛂", "name": "You lose your passport", "steps": ["Report it at the nearest police station (경찰서) or substation (파출소) and get the report document.", "Take the report + any ID to your country's embassy for a replacement or emergency travel document.", "1330 can help you find the police station and your embassy, and interpret."] },
-      { "icon": "🎒", "name": "You lose an item", "steps": ["Retrace and ask staff — lost property is very often handed in.", "For taxis/subway, call 1330 for help contacting the operator's lost & found.", "For anything stolen, file a police report (112) for insurance."] },
-      { "icon": "⛈️", "name": "A storm, heatwave or alert", "steps": ["Follow official alerts; the Emergency Ready App shows shelters and guidance.", "In a typhoon/heavy rain, avoid rivers and low underpasses; check the KMA forecast.", "1330 can advise and interpret if you're unsure what an alert means."] }
+      {
+        "icon": "🤒",
+        "name": "You're sick or injured",
+        "steps": [
+          "For an emergency, call 119 (say 'English please') or go to a hospital emergency room.",
+          "For minor issues, a pharmacy (약국) or walk-in clinic is quick and cheap.",
+          "Bring your passport and a card; keep any receipts for travel-insurance claims."
+        ]
+      },
+      {
+        "icon": "🛂",
+        "name": "You lose your passport",
+        "steps": [
+          "Report it at the nearest police station (경찰서) or substation (파출소) and get the report document.",
+          "Take the report + any ID to your country's embassy for a replacement or emergency travel document.",
+          "1330 can help you find the police station and your embassy, and interpret."
+        ]
+      },
+      {
+        "icon": "🎒",
+        "name": "You lose an item",
+        "steps": [
+          "Retrace and ask staff — lost property is very often handed in.",
+          "For taxis/subway, call 1330 for help contacting the operator's lost & found.",
+          "For anything stolen, file a police report (112) for insurance."
+        ]
+      },
+      {
+        "icon": "⛈️",
+        "name": "A storm, heatwave or alert",
+        "steps": [
+          "Follow official alerts; the Emergency Ready App shows shelters and guidance.",
+          "In a typhoon/heavy rain, avoid rivers and low underpasses; check the KMA forecast.",
+          "1330 can advise and interpret if you're unsure what an alert means."
+        ]
+      }
     ]
   },
   "apps": {
     "title": "Install before you need it",
     "items": [
-      { "icon": "🆘", "name": "Emergency Ready App", "d": "Official app: nearest hospitals, police stations, shelters, safety guides and embassy contacts.", "note": "Emergency" },
-      { "icon": "📞", "name": "1330 (call or chat)", "d": "The Korea Tourism hotline — 24/7 multilingual help and 3-way interpretation to emergency services.", "note": "Hotline" },
-      { "icon": "🗺️", "name": "Naver Map / KakaoMap", "d": "Find the nearest hospital, pharmacy or police station fast, with directions.", "note": "Navigation" }
+      {
+        "icon": "🆘",
+        "name": "Emergency Ready App",
+        "d": "Official app: nearest hospitals, police stations, shelters, safety guides and embassy contacts.",
+        "note": "Emergency",
+        "url": "https://www.safekorea.go.kr/"
+      },
+      {
+        "icon": "📞",
+        "name": "1330 (call or chat)",
+        "d": "The Korea Tourism hotline — 24/7 multilingual help and 3-way interpretation to emergency services.",
+        "note": "Hotline",
+        "url": "https://english.visitkorea.or.kr/"
+      },
+      {
+        "icon": "🗺️",
+        "name": "Naver Map / KakaoMap",
+        "d": "Find the nearest hospital, pharmacy or police station fast, with directions.",
+        "note": "Navigation",
+        "url": "https://map.naver.com/"
+      }
     ]
   },
   "embassy": {
@@ -47,25 +121,71 @@
   "pitfalls": {
     "title": "Good to know",
     "items": [
-      { "icon": "🌐", "t": "You don't need Korean", "d": "112, 119 and 1330 all offer interpretation. Start with 'English please' — or call 1330 first and let them relay." },
-      { "icon": "💳", "t": "Hospitals expect payment", "d": "You usually pay upfront (card is fine) and claim later on travel insurance. Keep receipts and reports." },
-      { "icon": "📵", "t": "No SIM yet?", "d": "Emergency calls (112/119) work even without a local SIM or credit. Airport/hotel Wi-Fi covers 1330 apps too." },
-      { "icon": "🪪", "t": "Carry ID", "d": "Keep your passport (or a clear photo/copy) with you — police and hospitals may ask for it." }
+      {
+        "icon": "🌐",
+        "t": "You don't need Korean",
+        "d": "112, 119 and 1330 all offer interpretation. Start with 'English please' — or call 1330 first and let them relay."
+      },
+      {
+        "icon": "💳",
+        "t": "Hospitals expect payment",
+        "d": "You usually pay upfront (card is fine) and claim later on travel insurance. Keep receipts and reports."
+      },
+      {
+        "icon": "📵",
+        "t": "No SIM yet?",
+        "d": "Emergency calls (112/119) work even without a local SIM or credit. Airport/hotel Wi-Fi covers 1330 apps too."
+      },
+      {
+        "icon": "🪪",
+        "t": "Carry ID",
+        "d": "Keep your passport (or a clear photo/copy) with you — police and hospitals may ask for it."
+      }
     ]
   },
   "faq": {
     "title": "Help & emergency FAQ",
     "items": [
-      { "q": "Which number should I call?", "a": "112 for police, 119 for fire or an ambulance, and 1330 for anything travel-related (it's 24/7 and multilingual, and can call 112/119 for you)." },
-      { "q": "Will they speak my language?", "a": "112 and 119 have interpretation — say 'Hello, English please'. 1330 offers help in several languages including English, Japanese, Chinese, Russian, Vietnamese, Thai and Malay." },
-      { "q": "What if I lose my passport?", "a": "File a police report first, then take it to your embassy for a replacement or emergency travel document. 1330 can help you locate both and interpret." },
-      { "q": "Is there an emergency app?", "a": "Yes — the official 'Emergency Ready App' shows nearby hospitals, police stations, shelters, safety guidance and embassy contacts." },
-      { "q": "Do emergency calls work without a SIM?", "a": "Yes, 112 and 119 can be dialled even without a local SIM or phone credit." }
+      {
+        "q": "Which number should I call?",
+        "a": "112 for police, 119 for fire or an ambulance, and 1330 for anything travel-related (it's 24/7 and multilingual, and can call 112/119 for you)."
+      },
+      {
+        "q": "Will they speak my language?",
+        "a": "112 and 119 have interpretation — say 'Hello, English please'. 1330 offers help in several languages including English, Japanese, Chinese, Russian, Vietnamese, Thai and Malay."
+      },
+      {
+        "q": "What if I lose my passport?",
+        "a": "File a police report first, then take it to your embassy for a replacement or emergency travel document. 1330 can help you locate both and interpret."
+      },
+      {
+        "q": "Is there an emergency app?",
+        "a": "Yes — the official 'Emergency Ready App' shows nearby hospitals, police stations, shelters, safety guidance and embassy contacts."
+      },
+      {
+        "q": "Do emergency calls work without a SIM?",
+        "a": "Yes, 112 and 119 can be dialled even without a local SIM or phone credit."
+      }
     ]
   },
   "official": [
-    { "icon": "🌏", "name": "VisitKorea — Emergency", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140042", "what": "Official emergency guidance" },
-    { "icon": "🏛️", "name": "HiKorea", "url": "https://www.hikorea.go.kr", "what": "Immigration & 1345 info" },
-    { "icon": "🗺️", "name": "VisitKorea", "url": "https://english.visitkorea.or.kr", "what": "Tourist help & 1330" }
+    {
+      "icon": "🌏",
+      "name": "VisitKorea — Emergency",
+      "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140042",
+      "what": "Official emergency guidance"
+    },
+    {
+      "icon": "🏛️",
+      "name": "HiKorea",
+      "url": "https://www.hikorea.go.kr",
+      "what": "Immigration & 1345 info"
+    },
+    {
+      "icon": "🗺️",
+      "name": "VisitKorea",
+      "url": "https://english.visitkorea.or.kr",
+      "what": "Tourist help & 1330"
+    }
   ]
 }

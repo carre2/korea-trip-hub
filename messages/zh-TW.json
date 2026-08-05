@@ -137,32 +137,191 @@
     "confirm": "⚠ 價格/規定會變動 — 請在官方確認"
   },
   "factLabels": {
-    "exempt_until": "免除截止",
-    "earrival_card": "e-Arrival Card",
-    "age_exempt": "年齡豁免",
+    "exempt_until": "免除期限至",
+    "earrival_card": "電子入境卡",
+    "age_exempt": "年齡免除",
     "number": "號碼",
-    "hours": "服務時間",
+    "hours": "時段",
     "languages": "支援語言",
     "fare_krw_each_way": "單程票價",
-    "minutes": "時間（分鐘）",
+    "minutes": "分鐘",
     "type": "類型",
-    "frequency": "發車間隔",
+    "frequency": "班次",
     "fare_krw": "票價（KRW）",
-    "pay": "支付方式",
+    "pay": "付款方式",
     "stores": "購買地點",
     "basic_krw": "基本卡（KRW）",
     "design_krw": "設計款（KRW）",
     "card_refundable": "卡費可退",
-    "fare_krw_standard": "普通座票價（KRW）",
-    "duration": "時間",
-    "booking": "預訂",
+    "fare_krw_standard": "一般座車資（KRW）",
+    "duration": "所需時間",
+    "booking": "訂票",
     "best": "最佳季節",
     "summer": "夏季",
     "winter": "冬季",
     "currency": "貨幣",
     "code": "代碼",
     "symbol": "符號",
-    "tipping": "小費"
+    "tipping": "小費",
+    "apply": "申請",
+    "apply_at": "申請網址",
+    "appointment": "預約",
+    "avg_daily_foreign_visitors": "平均單日外國旅客",
+    "bank_statement": "銀行存款證明",
+    "base_cash": "起跳車資（現金）",
+    "base_distance": "起跳距離",
+    "base_tmoney": "起跳車資（T-money）",
+    "blue_green": "藍色／綠色公車",
+    "buy_at": "購買地點",
+    "carriers": "電信業者",
+    "condition": "條件",
+    "cost": "費用",
+    "deluxe_base": "模範（Mobeom）起跳",
+    "entries": "入境次數",
+    "esim": "eSIM",
+    "exempt_countries": "免除國家",
+    "extra": "額外費用",
+    "fare": "車資",
+    "fee": "費用",
+    "financial_docs": "財力證明文件",
+    "foreign_hikers": "外國登山客",
+    "group_visa_free": "團體免簽",
+    "international_base": "國際計程車起跳",
+    "intl_taxi": "國際計程車",
+    "jeju_visa_free": "濟州免簽",
+    "max_stay": "最長停留",
+    "medium_base": "中型公車起跳",
+    "medium_then": "中型公車，之後每",
+    "metered": "跳表",
+    "multi_year": "多年期",
+    "night": "深夜",
+    "night_surcharge": "深夜附加費",
+    "note": "備註",
+    "physical_sim": "實體 SIM 卡",
+    "pocket_wifi": "行動 Wi-Fi 分享器",
+    "processing": "辦理時間",
+    "rank": "排名",
+    "red_express": "紅色（快車）公車",
+    "refundable": "可退款",
+    "replaced": "取代對象",
+    "requirement_resumes": "要求恢復",
+    "service_fee": "服務費",
+    "tolls": "過路費",
+    "typical_result": "常見結果",
+    "valid_for": "效期",
+    "visa_fee": "簽證費",
+    "visa_type": "簽證類型",
+    "window": "申請時限",
+    "yellow": "黃色公車"
   },
-  "facts": {}
+  "facts": {
+    "keta-exemption": {
+      "claim": "免簽國國民在 2026-12-31 前可免 K-ETA 入境韓國，但仍須填寫電子入境卡（e-Arrival Card）。年齡 17 歲以下或 65 歲以上的旅客免申請 K-ETA。",
+      "notes": "各方資料對免除國家數量說法不一（22 個或 67 個）。請於官方網站確認最新國家清單，並就個人情況向領事館查證。"
+    },
+    "keta-fee-validity": {
+      "claim": "K-ETA 費用為 KRW 10,000（約 US$8），效期 3 年，可多次入境。請務必只在官方網站 k-eta.go.kr 申請。",
+      "notes": "費用恕不退還。請小心會額外收取 US$40–50 的第三方網站——唯一的官方網站是 k-eta.go.kr。"
+    },
+    "keta-apply-window": {
+      "claim": "請至少在登機前 72 hours 申請 K-ETA。核准通常快得多，但仍應預留時間，以防申請被進一步審查。",
+      "notes": "韓國出入境管理局建議至少在出發前 72 hours 提出申請。"
+    },
+    "keta-exempt-countries": {
+      "claim": "有 22 個國家／地區在 2026-12-31 前暫時免除 K-ETA；此要求預計於 2027-01-01 恢復。",
+      "notes": "澳洲、奧地利、比利時、加拿大、丹麥、芬蘭、法國、德國、香港、義大利、日本、澳門、荷蘭、紐西蘭、挪威、波蘭、新加坡、西班牙、瑞典、台灣、英國、美國（含關島）。請務必於 k-eta.go.kr 確認最新清單。"
+    },
+    "earrival-card-how": {
+      "claim": "電子入境卡（e-Arrival Card）免費，於 e-arrivalcard.go.kr 線上提交，最早可在抵達前 72 hours 填寫。它已於 2025 年取代紙本入境卡。",
+      "notes": "持有 K-ETA 者及已登記的外籍居民免填。提交後 72 hours 即失效，因此請盡量接近航班時間再填。"
+    },
+    "transit-free-transfer": {
+      "claim": "使用 T-money 卡並上下車都刷卡，地鐵與公車（或公車與公車）之間在 30 minutes 內轉乘免費。",
+      "notes": "下公車時也一定要刷卡，否則會失去轉乘優惠，並可能再次被扣款。"
+    },
+    "transit-subway-seoul": {
+      "claim": "首爾地鐵使用 T-money 卡的基本車資為 ₩1,550（現金單程票 ₩1,650），適用 10 km 以內；更長的行程每多 5 km 加收 ₩100。",
+      "notes": "已於 June 2025 的車資調漲中從 ₩1,400 上調。請於 Naver Map／KakaoMap 或首爾 TOPIS 網站確認最新車資。"
+    },
+    "transit-bus-seoul": {
+      "claim": "首爾市區公車車資（T-money）：藍色與綠色 ₩1,500、黃色 ₩1,400、紅色（廣域快車）₩3,000+、深夜（N-bus）₩2,500。",
+      "notes": "上下車都刷卡才能享有免費轉乘。請於首爾 TOPIS 確認最新車資。"
+    },
+    "transit-taxi-seoul": {
+      "claim": "首爾中型計程車起跳車資為 ₩4,800（前 1.6 km），之後每 132 m 加收 ₩100。深夜時段（約 23:00–02:00）加收最高 40% 的附加費。模範計程車（Deluxe）起跳 ₩7,000（前 3 km），且無深夜加成。",
+      "notes": "可用 Kakao T 事先估算車資。模範計程車（mobeom）與國際計程車費用較高，但可避開深夜加成／提供英文服務。"
+    },
+    "ktx-seoul-busan": {
+      "claim": "KTX 首爾 → 釜山 一般座單程車資與約略行車時間。",
+      "notes": "第三方數據。依列車與座位等級而異。請於 letskorail.com 確認實際車資。"
+    },
+    "tmoney-where-to-buy": {
+      "claim": "T-money 卡可在全國各地的便利商店（CU、GS25、7-Eleven、Emart24）及地鐵站售票機購買與加值。",
+      "notes": "可用於地鐵、公車、計程車及便利商店。"
+    },
+    "arex-express": {
+      "claim": "AREX 直達列車：仁川機場與首爾站之間不停站直達。第 1 航廈約 43 min（第 2 航廈約 51 min）。",
+      "notes": "直達車資已從舊價 ₩9,500 上調；2026 年的資料顯示約為 ₩13,000 均一價，線上折扣後約 ₩11,500。請務必於 arex.or.kr 確認最新車資。"
+    },
+    "arex-allstop": {
+      "claim": "AREX 各站停靠列車：約 59–66 minutes 抵達首爾站。車資依目的地車站而定。",
+      "notes": "最便宜的機場鐵路選項；可用 T-money 付費。請於 arex.or.kr 確認你目的地車站的確切車資。"
+    },
+    "airport-bus": {
+      "claim": "仁川機場豪華巴士／機場巴士：到首爾約 60–90 minutes，視路線與交通狀況而定。車資依巴士種類而異。",
+      "notes": "高級的 KAL 豪華巴士費用較高（約 ~₩18,000）；一般機場巴士較便宜。巴士會停靠許多飯店附近——請查看前往你目的地的路線。"
+    },
+    "airport-taxi": {
+      "claim": "從仁川機場搭一般跳表計程車到首爾市中心約 ₩65,000–85,000，需時 60–70 minutes。官方的國際計程車（International Taxi）提供固定車資，並配有認證的英／日／中文司機。",
+      "notes": "跳表車資會隨交通與目的地變動，並含高速公路過路費；也可能加收深夜附加費。國際計程車服務櫃檯設於 T1 與 T2 入境大廳（intltaxi.co.kr，+82-1644-2255）。"
+    },
+    "sim-options": {
+      "claim": "在韓國上網的三種方式：eSIM（出發前安裝，落地即可使用）、實體 SIM 卡（需未鎖機的手機），或租借行動 Wi-Fi 分享器（最適合多人共用）。電信業者為 SKT、KT 及 LG U+。",
+      "notes": "價格會隨流量與天數大幅變動，建議比較最新方案（例如 eSIM 可看 Airalo／Klook；SIM 卡可到電信櫃檯），而非套用固定價格。eSIM 需要支援 eSIM 的手機；實體 SIM 卡需要未鎖機的手機。櫃檯設於仁川 T1／T2、金浦與金海的入境大廳。"
+    },
+    "currency-krw": {
+      "claim": "韓國的貨幣是韓元（KRW，₩）。",
+      "notes": "刷卡普遍可通；現金則方便用於小攤販與傳統市場。"
+    },
+    "tipping-not-customary": {
+      "claim": "韓國沒有給小費的習慣；在餐廳或計程車上都不需要給小費。",
+      "notes": "部分高級飯店可能會加收服務費，但一般不預期給小費。"
+    },
+    "best-time-seasons": {
+      "claim": "最佳造訪時節為春季（3–5 月）與秋季（9–11 月）。夏季（6–8 月）炎熱潮濕且有梅雨；冬季寒冷乾燥（首爾平均約 -2°C）。",
+      "notes": "一般季節特徵。櫻花與紅葉的時間每年都會變動。"
+    },
+    "dest-stat-myeongdong": {
+      "claim": "明洞是首爾外國旅客平均單日人數最高的區域（約 100,910 人），為全市最多人造訪的地方。",
+      "notes": "平均單日外國旅客人數，依首爾市統計。"
+    },
+    "dest-stat-nseoultower": {
+      "claim": "N 首爾塔是首爾外國旅客造訪人數第 2 名的景點（平均單日約 57,370 人）。",
+      "notes": "平均單日外國旅客人數，依首爾市統計。"
+    },
+    "dest-stat-bukhansan": {
+      "claim": "北漢山是首爾群山中外國登山客最多的一座（約 4,015 人），引領日益盛行的「K-hiking」風潮。",
+      "notes": "首爾各山的外國登山客人數；北漢山最多。"
+    },
+    "visa-india-c39": {
+      "claim": "持印度護照者須辦理 C-3-9 短期觀光簽證才能造訪韓國（最長 90 天）。請親自前往韓國簽證申請中心（VFS Global）辦理——無需預約。",
+      "notes": "費用與辦理時間依中心與季節而異——請向你所在的 KVAC 確認。申請表與任何電子申請只在 visa.go.kr（唯一的官方入口）辦理。印度分為兩個轄區：大使館／新德里（visaforkorea-id.com）與清奈領事館（visaforkorea-ce.com）。"
+    },
+    "visa-vietnam-c39": {
+      "claim": "持越南護照者須辦理 C-3-9 短期觀光簽證前往韓國。自 2025 年起，觀光簽證的文件手續已簡化，並為越南旅客擴大提供多年期（最長 10 年）多次入境簽證。",
+      "notes": "簽證費用依對等原則訂定且恕不退還——請向 KVAC 確認最新金額。轄區分為河內（visaforkorea-vt.com）與胡志明市（visaforkorea-hc.com）。申請表：visa.go.kr。"
+    },
+    "visa-china-c3": {
+      "claim": "持中國護照者前往韓國本土須辦理 C-3 觀光簽證。濟州島則開放免簽入境最長 30 天（僅限濟州、直航班機）。",
+      "notes": "針對經核准的中國旅遊團（3 人以上）的免簽方案於 Sep 2025–Jun 2026 實施；在依此規劃前，請先查明是否已延長。濟州專屬免簽須搭乘不經本土轉機的直航班機。"
+    },
+    "visa-philippines-c3": {
+      "claim": "持菲律賓護照者前往韓國本土須辦理 C-3 觀光簽證，但免收簽證費。自 2026-02-20 起，不再需要 3 個月的銀行存款證明。",
+      "notes": "受雇者仍須繳交 ITR ＋在職證明；企業主則繳交 DTI／SEC 登記＋營業許可。濟州島有另行的免簽入境。請向大使館確認最新規定。"
+    },
+    "visa-indonesia-c3": {
+      "claim": "個人的印尼旅客前往韓國本土須辦理 C-3 觀光簽證。自 2026-05-28 起，3 人以上的印尼旅遊團可免簽做短期停留（僅限團體；個人不適用）。",
+      "notes": "個人旅客仍需簽證：護照、照片、3 個月銀行存款證明、在職證明＋薪資單，若由他人資助則需擔保函。濟州島有另行的免簽入境。"
+    }
+  }
 }

@@ -4,10 +4,9 @@
   "kicker": "Staying connected",
   "readingTime": "6 min read",
   "hero": {
-    "img": "/img/plan/sim.jpg",
-    "alt": "A mobile SIM card",
-    "credit": "Photo: Chaheel Riens / Wikimedia Commons · CC BY-SA 4.0",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Asda_SIM_from_Vodaphone_2022.jpg"
+    "img": "/img/plan/sim-hero.png",
+    "alt": "A traveler getting connected on arrival at the airport in Korea",
+    "credit": "Illustration · AI-generated for Korea Trip Hub"
   },
   "tldr": [
     "Solo & easiest: an eSIM — install it before you fly and it's live the moment you land.",
@@ -16,54 +15,217 @@
     "Don't quote a single price — compare by data amount and number of days."
   ],
   "highlights": [
-    { "icon": "📲", "tone": "green", "title": "eSIM is the easiest for most travelers", "body": "If your phone supports eSIM, buy one from an app (e.g. Airalo, Klook) before you fly, and your data is ready the instant you land — no counter, no SIM swap. Most Korea eSIMs run on the KT or SK Telecom network." },
-    { "icon": "👥", "tone": "amber", "title": "Pocket Wi-Fi wins for groups", "body": "A rental pocket Wi-Fi router shares one connection across several phones, so families and groups can split the daily cost. Pick it up at an airport kiosk — and remember to return it before your flight home." },
-    { "icon": "🔓", "tone": "blue", "title": "A physical SIM needs an unlocked phone", "body": "Nano-SIMs from the airport carrier counters (SKT, KT, LG U+) only work in an unlocked phone. Bring your passport; setup takes about 10–15 minutes." }
+    {
+      "icon": "📲",
+      "tone": "green",
+      "title": "eSIM is the easiest for most travelers",
+      "body": "If your phone supports eSIM, buy one from an app (e.g. Airalo, Klook) before you fly, and your data is ready the instant you land — no counter, no SIM swap. Most Korea eSIMs run on the KT or SK Telecom network."
+    },
+    {
+      "icon": "👥",
+      "tone": "amber",
+      "title": "Pocket Wi-Fi wins for groups",
+      "body": "A rental pocket Wi-Fi router shares one connection across several phones, so families and groups can split the daily cost. Pick it up at an airport kiosk — and remember to return it before your flight home."
+    },
+    {
+      "icon": "🔓",
+      "tone": "blue",
+      "title": "A physical SIM needs an unlocked phone",
+      "body": "Nano-SIMs from the airport carrier counters (SKT, KT, LG U+) only work in an unlocked phone. Bring your passport; setup takes about 10–15 minutes."
+    }
   ],
   "compare": {
     "title": "eSIM vs physical SIM vs pocket Wi-Fi",
-    "cols": ["", "eSIM", "Physical SIM", "Pocket Wi-Fi"],
+    "cols": [
+      "",
+      "eSIM",
+      "Physical SIM",
+      "Pocket Wi-Fi"
+    ],
     "rows": [
-      { "label": "Best for", "vals": ["Solo, convenience", "No-eSIM phones, solo", "Groups & families"] },
-      { "label": "Ready when", "vals": ["The moment you land", "After a counter visit", "After airport pickup"] },
-      { "label": "Get it", "vals": ["App before you fly", "Airport counter / online", "Reserve online, pick up at kiosk"] },
-      { "label": "Requirements", "vals": ["eSIM-capable phone", "Unlocked phone", "Carry & charge the router"] },
-      { "label": "Return needed?", "vals": ["No", "No", "Yes — before you fly home"] }
+      {
+        "label": "Best for",
+        "vals": [
+          "Solo, convenience",
+          "No-eSIM phones, solo",
+          "Groups & families"
+        ]
+      },
+      {
+        "label": "Ready when",
+        "vals": [
+          "The moment you land",
+          "After a counter visit",
+          "After airport pickup"
+        ]
+      },
+      {
+        "label": "Get it",
+        "vals": [
+          "App before you fly",
+          "Airport counter / online",
+          "Reserve online, pick up at kiosk"
+        ]
+      },
+      {
+        "label": "Requirements",
+        "vals": [
+          "eSIM-capable phone",
+          "Unlocked phone",
+          "Carry & charge the router"
+        ]
+      },
+      {
+        "label": "Return needed?",
+        "vals": [
+          "No",
+          "No",
+          "Yes — before you fly home"
+        ]
+      }
     ]
   },
   "options": {
     "title": "Set up your choice",
     "intro": "Pick the one that matches your phone and trip, then follow the quick setup.",
     "cards": [
-      { "icon": "📲", "name": "eSIM", "tone": "green", "best": "Solo · fastest", "setup": ["Check your phone supports eSIM.", "Buy a Korea eSIM in an app (Airalo, Klook, or a carrier) before you fly.", "Install the eSIM following the app's QR/steps.", "Turn on data roaming for that line when you land — you're online."] },
-      { "icon": "📶", "name": "Physical SIM", "tone": "blue", "best": "Unlocked phones", "setup": ["Make sure your phone is unlocked.", "Go to an SKT / KT / LG U+ counter in the arrivals hall (bring your passport).", "Pick a plan by data + number of days.", "Staff insert and activate it (~10–15 min)."] },
-      { "icon": "📡", "name": "Pocket Wi-Fi", "tone": "amber", "best": "Groups · sharing", "setup": ["Reserve online before your trip (cheaper).", "Collect the router at the airport pickup kiosk.", "Connect everyone's phones over Wi-Fi.", "Return it at the airport before you fly home."] }
+      {
+        "icon": "📲",
+        "name": "eSIM",
+        "tone": "green",
+        "best": "Solo · fastest",
+        "setup": [
+          "Check your phone supports eSIM.",
+          "Buy a Korea eSIM in an app (Airalo, Klook, or a carrier) before you fly.",
+          "Install the eSIM following the app's QR/steps.",
+          "Turn on data roaming for that line when you land — you're online."
+        ],
+        "links": [
+          {
+            "name": "Airalo",
+            "url": "https://www.airalo.com/"
+          },
+          {
+            "name": "Klook",
+            "url": "https://www.klook.com/"
+          }
+        ]
+      },
+      {
+        "icon": "📶",
+        "name": "Physical SIM",
+        "tone": "blue",
+        "best": "Unlocked phones",
+        "setup": [
+          "Make sure your phone is unlocked.",
+          "Go to an SKT / KT / LG U+ counter in the arrivals hall (bring your passport).",
+          "Pick a plan by data + number of days.",
+          "Staff insert and activate it (~10–15 min)."
+        ]
+      },
+      {
+        "icon": "📡",
+        "name": "Pocket Wi-Fi",
+        "tone": "amber",
+        "best": "Groups · sharing",
+        "setup": [
+          "Reserve online before your trip (cheaper).",
+          "Collect the router at the airport pickup kiosk.",
+          "Connect everyone's phones over Wi-Fi.",
+          "Return it at the airport before you fly home."
+        ],
+        "links": [
+          {
+            "name": "Klook",
+            "url": "https://www.klook.com/"
+          },
+          {
+            "name": "KKday",
+            "url": "https://www.kkday.com/"
+          }
+        ]
+      }
     ]
   },
   "pitfalls": {
     "title": "Mistakes to avoid",
     "items": [
-      { "icon": "🔒", "t": "A locked phone", "d": "A physical SIM won't work in a carrier-locked phone. Unlock it before you travel, or use an eSIM / pocket Wi-Fi instead." },
-      { "icon": "📵", "t": "Assuming eSIM support", "d": "Not every phone supports eSIM. Check your model first — otherwise plan for a physical SIM or pocket Wi-Fi." },
-      { "icon": "↩️", "t": "Forgetting to return the router", "d": "Pocket Wi-Fi is a rental — return it at the airport before departure or you'll be charged." },
-      { "icon": "📊", "t": "Buying too much (or too little) data", "d": "Match the plan to your real use and trip length. Hotels and cafés have free Wi-Fi, so you may need less than you think." },
-      { "icon": "🏞️", "t": "Weak rural coverage", "d": "For lots of national-park or coastal day trips, KT and SKT tend to have the widest coverage." }
+      {
+        "icon": "🔒",
+        "t": "A locked phone",
+        "d": "A physical SIM won't work in a carrier-locked phone. Unlock it before you travel, or use an eSIM / pocket Wi-Fi instead."
+      },
+      {
+        "icon": "📵",
+        "t": "Assuming eSIM support",
+        "d": "Not every phone supports eSIM. Check your model first — otherwise plan for a physical SIM or pocket Wi-Fi."
+      },
+      {
+        "icon": "↩️",
+        "t": "Forgetting to return the router",
+        "d": "Pocket Wi-Fi is a rental — return it at the airport before departure or you'll be charged."
+      },
+      {
+        "icon": "📊",
+        "t": "Buying too much (or too little) data",
+        "d": "Match the plan to your real use and trip length. Hotels and cafés have free Wi-Fi, so you may need less than you think."
+      },
+      {
+        "icon": "🏞️",
+        "t": "Weak rural coverage",
+        "d": "For lots of national-park or coastal day trips, KT and SKT tend to have the widest coverage."
+      }
     ]
   },
   "faq": {
     "title": "Connectivity FAQ",
     "items": [
-      { "q": "eSIM or physical SIM — which should I get?", "a": "If your phone supports eSIM, get an eSIM: install it before you fly and it works the moment you land. If not (or you prefer a physical card), buy a SIM at an airport counter — your phone must be unlocked." },
-      { "q": "What's best for a family or group?", "a": "A rental pocket Wi-Fi is usually cheapest when several people share one router. Just remember to return it at the airport before flying home." },
-      { "q": "Where do I buy at the airport?", "a": "All three carriers (SKT, KT, LG U+) have counters in the arrivals halls at Incheon (Terminals 1 & 2), Gimpo and Gimhae. You can also pre-order online." },
-      { "q": "How much does it cost?", "a": "Plans vary widely by data amount and number of days, so we don't quote a single price — compare current offers in an eSIM app or at the counters. Do check the data and validity, not just the headline price." },
-      { "q": "Do I even need one — isn't there free Wi-Fi?", "a": "There's lots of free Wi-Fi (airport, hotels, cafés, some buses/subway), but your own data makes maps, taxis and messaging reliable on the move. Most visitors get an eSIM or SIM." }
+      {
+        "q": "eSIM or physical SIM — which should I get?",
+        "a": "If your phone supports eSIM, get an eSIM: install it before you fly and it works the moment you land. If not (or you prefer a physical card), buy a SIM at an airport counter — your phone must be unlocked."
+      },
+      {
+        "q": "What's best for a family or group?",
+        "a": "A rental pocket Wi-Fi is usually cheapest when several people share one router. Just remember to return it at the airport before flying home."
+      },
+      {
+        "q": "Where do I buy at the airport?",
+        "a": "All three carriers (SKT, KT, LG U+) have counters in the arrivals halls at Incheon (Terminals 1 & 2), Gimpo and Gimhae. You can also pre-order online."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "Plans vary widely by data amount and number of days, so we don't quote a single price — compare current offers in an eSIM app or at the counters. Do check the data and validity, not just the headline price."
+      },
+      {
+        "q": "Do I even need one — isn't there free Wi-Fi?",
+        "a": "There's lots of free Wi-Fi (airport, hotels, cafés, some buses/subway), but your own data makes maps, taxis and messaging reliable on the move. Most visitors get an eSIM or SIM."
+      }
     ]
   },
   "official": [
-    { "icon": "📶", "name": "SK Telecom (roaming/tourist)", "url": "https://www.sktroaming.com/eng/main.do", "what": "SKT tourist SIM / eSIM info" },
-    { "icon": "📶", "name": "KT (Global store)", "url": "https://globalstore.kt.com/", "what": "KT tourist SIM / eSIM" },
-    { "icon": "🛫", "name": "Incheon Airport — services", "url": "https://www.airport.kr/ap/en/index.do", "what": "Arrivals-hall telecom counters" },
-    { "icon": "🌏", "name": "VisitKorea", "url": "https://english.visitkorea.or.kr", "what": "Official tourism info" }
+    {
+      "icon": "📶",
+      "name": "SK Telecom (roaming/tourist)",
+      "url": "https://www.sktroaming.com/eng/main.do",
+      "what": "SKT tourist SIM / eSIM info"
+    },
+    {
+      "icon": "📶",
+      "name": "KT (Global store)",
+      "url": "https://globalstore.kt.com/",
+      "what": "KT tourist SIM / eSIM"
+    },
+    {
+      "icon": "🛫",
+      "name": "Incheon Airport — services",
+      "url": "https://www.airport.kr/ap/en/index.do",
+      "what": "Arrivals-hall telecom counters"
+    },
+    {
+      "icon": "🌏",
+      "name": "VisitKorea",
+      "url": "https://english.visitkorea.or.kr",
+      "what": "Official tourism info"
+    }
   ]
 }

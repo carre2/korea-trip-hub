@@ -139,30 +139,189 @@
   "factLabels": {
     "exempt_until": "Miễn đến",
     "earrival_card": "e-Arrival Card",
-    "age_exempt": "Miễn theo tuổi",
+    "age_exempt": "Miễn theo độ tuổi",
     "number": "Số",
-    "hours": "Giờ phục vụ",
+    "hours": "Giờ",
     "languages": "Ngôn ngữ",
     "fare_krw_each_way": "Vé một chiều",
-    "minutes": "Thời gian (phút)",
+    "minutes": "Phút",
     "type": "Loại",
     "frequency": "Tần suất",
     "fare_krw": "Giá vé (KRW)",
     "pay": "Thanh toán",
-    "stores": "Mua ở đâu",
+    "stores": "Nơi mua",
     "basic_krw": "Thẻ cơ bản (KRW)",
     "design_krw": "Bản thiết kế (KRW)",
     "card_refundable": "Hoàn phí thẻ",
-    "fare_krw_standard": "Vé phổ thông (KRW)",
+    "fare_krw_standard": "Giá vé ghế thường (KRW)",
     "duration": "Thời gian",
-    "booking": "Đặt vé",
+    "booking": "Đặt chỗ",
     "best": "Mùa đẹp nhất",
     "summer": "Mùa hè",
     "winter": "Mùa đông",
     "currency": "Tiền tệ",
     "code": "Mã",
     "symbol": "Ký hiệu",
-    "tipping": "Tiền tip"
+    "tipping": "Tiền tip",
+    "apply": "Nộp đơn",
+    "apply_at": "Nộp đơn tại",
+    "appointment": "Lịch hẹn",
+    "avg_daily_foreign_visitors": "Khách nước ngoài TB mỗi ngày",
+    "bank_statement": "Sao kê ngân hàng",
+    "base_cash": "Giá vé cơ bản (tiền mặt)",
+    "base_distance": "Quãng đường cơ bản",
+    "base_tmoney": "Giá vé cơ bản (T-money)",
+    "blue_green": "Xe buýt xanh dương / xanh lá",
+    "buy_at": "Mua tại",
+    "carriers": "Nhà mạng",
+    "condition": "Điều kiện",
+    "cost": "Chi phí",
+    "deluxe_base": "Giá mở cửa hạng sang (Mobeom)",
+    "entries": "Số lần nhập cảnh",
+    "esim": "eSIM",
+    "exempt_countries": "Quốc gia được miễn",
+    "extra": "Phụ thu",
+    "fare": "Giá vé",
+    "fee": "Phí",
+    "financial_docs": "Giấy tờ tài chính",
+    "foreign_hikers": "Người leo núi nước ngoài",
+    "group_visa_free": "Miễn thị thực theo đoàn",
+    "international_base": "Giá mở cửa taxi quốc tế",
+    "intl_taxi": "International Taxi",
+    "jeju_visa_free": "Miễn thị thực Jeju",
+    "max_stay": "Thời gian lưu trú tối đa",
+    "medium_base": "Giá mở cửa taxi hạng trung",
+    "medium_then": "Taxi hạng trung, sau đó mỗi",
+    "metered": "Tính theo đồng hồ",
+    "multi_year": "Nhiều năm",
+    "night": "Ban đêm",
+    "night_surcharge": "Phụ phí ban đêm",
+    "note": "Lưu ý",
+    "physical_sim": "SIM vật lý",
+    "pocket_wifi": "Wi-Fi bỏ túi",
+    "processing": "Thời gian xử lý",
+    "rank": "Xếp hạng",
+    "red_express": "Xe buýt đỏ (tốc hành)",
+    "refundable": "Có hoàn lại",
+    "replaced": "Được thay thế bởi",
+    "requirement_resumes": "Yêu cầu áp dụng lại",
+    "service_fee": "Phí phục vụ",
+    "tolls": "Phí cầu đường",
+    "typical_result": "Kết quả điển hình",
+    "valid_for": "Hiệu lực",
+    "visa_fee": "Phí thị thực",
+    "visa_type": "Loại thị thực",
+    "window": "Thời hạn nộp đơn",
+    "yellow": "Xe buýt vàng"
   },
-  "facts": {}
+  "facts": {
+    "keta-exemption": {
+      "claim": "Công dân các nước được miễn thị thực có thể nhập cảnh Hàn Quốc mà không cần K-ETA cho đến 2026-12-31. Tuy nhiên vẫn bắt buộc khai e-Arrival Card. Du khách từ 17 tuổi trở xuống hoặc từ 65 tuổi trở lên được miễn K-ETA.",
+      "notes": "Các nguồn đưa ra số quốc gia được miễn khác nhau (22 so với 67). Hãy xác nhận danh sách quốc gia hiện hành tại trang chính thức; kiểm tra trường hợp của riêng bạn với lãnh sự quán."
+    },
+    "keta-fee-validity": {
+      "claim": "K-ETA có phí KRW 10,000 (khoảng US$8), có hiệu lực 3 năm và cho phép nhập cảnh nhiều lần. Chỉ nộp đơn tại trang chính thức k-eta.go.kr.",
+      "notes": "Phí không được hoàn lại. Hãy cảnh giác với các trang bên thứ ba thu thêm US$40–50 — trang chính thức duy nhất là k-eta.go.kr."
+    },
+    "keta-apply-window": {
+      "claim": "Hãy nộp đơn K-ETA ít nhất 72 hours trước khi lên máy bay. Việc phê duyệt thường nhanh hơn nhiều, nhưng nên chừa thời gian phòng khi hồ sơ của bạn bị xét duyệt.",
+      "notes": "Cục Xuất nhập cảnh Hàn Quốc khuyến nghị nộp đơn ít nhất 72 hours trước khi khởi hành."
+    },
+    "keta-exempt-countries": {
+      "claim": "22 quốc gia/vùng lãnh thổ được tạm miễn K-ETA cho đến 2026-12-31; yêu cầu này dự kiến áp dụng trở lại vào 2027-01-01.",
+      "notes": "Úc, Áo, Bỉ, Canada, Đan Mạch, Phần Lan, Pháp, Đức, Hồng Kông, Ý, Nhật Bản, Ma Cao, Hà Lan, New Zealand, Na Uy, Ba Lan, Singapore, Tây Ban Nha, Thụy Điển, Đài Loan, Vương quốc Anh, Hoa Kỳ (bao gồm Guam). Luôn xác nhận danh sách hiện hành tại k-eta.go.kr."
+    },
+    "earrival-card-how": {
+      "claim": "e-Arrival Card miễn phí và được khai trực tuyến tại e-arrivalcard.go.kr, tối đa 72 hours trước khi nhập cảnh. Nó đã thay thế thẻ nhập cảnh giấy vào năm 2025.",
+      "notes": "Người có K-ETA và người nước ngoài đã đăng ký cư trú được miễn. Bản khai của bạn hết hạn 72 hours sau khi nộp, vì vậy hãy khai vào thời điểm gần chuyến bay."
+    },
+    "transit-free-transfer": {
+      "claim": "Chuyển tuyến giữa tàu điện ngầm và xe buýt (hoặc xe buýt và xe buýt) được miễn phí trong vòng 30 minutes khi bạn thanh toán bằng thẻ T-money và quẹt thẻ cả lúc lên lẫn lúc xuống.",
+      "notes": "Bạn cũng phải quẹt thẻ lúc xuống xe buýt, nếu không sẽ mất ưu đãi chuyển tuyến và có thể bị tính phí lần nữa."
+    },
+    "transit-subway-seoul": {
+      "claim": "Giá vé cơ bản tàu điện ngầm Seoul là ₩1,550 khi dùng thẻ T-money (₩1,650 vé lẻ trả tiền mặt), cho quãng đường đến 10 km; chuyến dài hơn cộng thêm ₩100 cho mỗi 5 km vượt mức.",
+      "notes": "Đã tăng từ ₩1,400 trong đợt tăng giá vé June 2025. Hãy xác nhận giá vé hiện hành trên Naver Map / KakaoMap hoặc trang Seoul TOPIS."
+    },
+    "transit-bus-seoul": {
+      "claim": "Giá vé xe buýt nội đô Seoul (T-money): xanh dương & xanh lá ₩1,500, vàng ₩1,400, đỏ (tốc hành liên vùng) ₩3,000+, tuyến đêm (N-bus) ₩2,500.",
+      "notes": "Quẹt thẻ cả lúc lên VÀ lúc xuống để được chuyển tuyến miễn phí. Hãy xác nhận giá vé hiện hành tại Seoul TOPIS."
+    },
+    "transit-taxi-seoul": {
+      "claim": "Giá vé mở cửa taxi hạng trung ở Seoul là ₩4,800 (cho 1.6 km đầu), sau đó ₩100 cho mỗi 132 m. Có phụ phí ban đêm lên đến 40% (khoảng 23:00–02:00). Taxi hạng sang khởi điểm ₩7,000 (cho 3 km đầu) và không có phụ phí ban đêm.",
+      "notes": "Dùng Kakao T để ước tính giá cước trước. Taxi hạng sang (mobeom) và taxi quốc tế đắt hơn nhưng không có phụ phí ban đêm / có phục vụ tiếng Anh."
+    },
+    "ktx-seoul-busan": {
+      "claim": "Giá vé một chiều ghế thường và thời gian di chuyển ước tính của KTX Seoul → Busan.",
+      "notes": "Số liệu từ bên thứ ba. Thay đổi tùy chuyến tàu và hạng ghế. Hãy xác nhận giá cước thực tế tại letskorail.com."
+    },
+    "tmoney-where-to-buy": {
+      "claim": "Thẻ T-money được bán và nạp tiền tại các cửa hàng tiện lợi trên toàn quốc (CU, GS25, 7-Eleven, Emart24) và tại máy bán ở nhà ga tàu điện ngầm.",
+      "notes": "Dùng được cho tàu điện ngầm, xe buýt, taxi và tại các cửa hàng tiện lợi."
+    },
+    "arex-express": {
+      "claim": "Tàu tốc hành AREX: chạy thẳng không dừng giữa Sân bay Incheon và Ga Seoul. Khoảng 43 min từ Nhà ga 1 (51 min từ Nhà ga 2).",
+      "notes": "Giá vé tốc hành đã tăng từ mức cũ ₩9,500; các nguồn năm 2026 nêu khoảng ₩13,000 đồng giá, với giá giảm khi mua trực tuyến còn gần ₩11,500. Luôn xác nhận giá cước hiện hành tại arex.or.kr."
+    },
+    "arex-allstop": {
+      "claim": "Tàu thường dừng mọi ga AREX: đến Ga Seoul trong khoảng 59–66 minutes. Giá vé tùy vào ga đến của bạn.",
+      "notes": "Lựa chọn tàu ra sân bay rẻ nhất; thanh toán bằng T-money. Hãy xác nhận giá vé chính xác cho ga của bạn tại arex.or.kr."
+    },
+    "airport-bus": {
+      "claim": "Xe limousine / xe buýt sân bay Incheon: khoảng 60–90 phút đến Seoul, tùy tuyến và tình hình giao thông. Giá vé tùy loại xe.",
+      "notes": "Xe limousine KAL cao cấp đắt hơn (~₩18,000); xe buýt sân bay tiêu chuẩn rẻ hơn. Xe dừng gần nhiều khách sạn — hãy kiểm tra tuyến đến điểm bạn cần."
+    },
+    "airport-taxi": {
+      "claim": "Taxi tính cước thông thường từ Sân bay Incheon vào trung tâm Seoul khoảng ₩65,000–85,000 và mất 60–70 phút. Dịch vụ International Taxi chính thức có giá cố định với tài xế được cấp chứng chỉ nói tiếng Anh/Nhật/Trung.",
+      "notes": "Cước tính theo đồng hồ thay đổi tùy giao thông và điểm đến, đã bao gồm phí cầu đường cao tốc; có thể áp dụng phụ phí ban đêm. Quầy International Taxi nằm ở sảnh đến của T1 và T2 (intltaxi.co.kr, +82-1644-2255)."
+    },
+    "sim-options": {
+      "claim": "Ba cách để lên mạng ở Hàn Quốc: eSIM (cài trước khi bay, hoạt động ngay khi hạ cánh), SIM vật lý (cần điện thoại đã mở khóa), hoặc thuê thiết bị Wi-Fi bỏ túi (phù hợp nhất khi dùng chung theo nhóm). Các nhà mạng là SKT, KT và LG U+.",
+      "notes": "Giá chênh lệch nhiều tùy dung lượng dữ liệu và số ngày, vì vậy hãy so sánh các ưu đãi hiện hành (ví dụ Airalo/Klook cho eSIM; quầy nhà mạng cho SIM) thay vì một mức giá cố định. eSIM cần điện thoại hỗ trợ eSIM; SIM vật lý cần điện thoại đã mở khóa. Các quầy nằm ở sảnh đến của Incheon T1/T2, Gimpo và Gimhae."
+    },
+    "currency-krw": {
+      "claim": "Tiền tệ của Hàn Quốc là won (KRW, ₩).",
+      "notes": "Thẻ được chấp nhận rộng rãi; tiền mặt tiện dụng khi mua ở các quầy hàng nhỏ và chợ truyền thống."
+    },
+    "tipping-not-customary": {
+      "claim": "Ở Hàn Quốc không có thông lệ tip; bạn không cần tip ở nhà hàng hay trên taxi.",
+      "notes": "Một số khách sạn cao cấp có thể tính thêm phí phục vụ, nhưng nhìn chung không ai mong đợi tiền tip."
+    },
+    "best-time-seasons": {
+      "claim": "Thời điểm đẹp nhất để đến là mùa xuân (tháng 3–5) và mùa thu (tháng 9–11). Mùa hè (tháng 6–8) nóng ẩm và có mùa mưa; mùa đông lạnh và khô (Seoul trung bình khoảng -2°C).",
+      "notes": "Đặc điểm chung theo mùa. Thời điểm hoa anh đào và lá đỏ thay đổi mỗi năm."
+    },
+    "dest-stat-myeongdong": {
+      "claim": "Myeongdong thu hút lượng khách nước ngoài trung bình mỗi ngày cao nhất ở Seoul (khoảng 100,910), là khu vực được ghé thăm nhiều nhất thành phố.",
+      "notes": "Lượng khách nước ngoài trung bình mỗi ngày, theo báo cáo của thành phố Seoul."
+    },
+    "dest-stat-nseoultower": {
+      "claim": "N Seoul Tower là địa điểm được khách nước ngoài ghé thăm nhiều thứ 2 ở Seoul (trung bình khoảng 57,370 mỗi ngày).",
+      "notes": "Lượng khách nước ngoài trung bình mỗi ngày, theo báo cáo của thành phố Seoul."
+    },
+    "dest-stat-bukhansan": {
+      "claim": "Bukhansan có lượng người leo núi nước ngoài đông nhất trong các ngọn núi của Seoul (khoảng 4,015), dẫn đầu trào lưu 'K-hiking' đang phát triển.",
+      "notes": "Số người leo núi nước ngoài theo từng ngọn núi của Seoul; Bukhansan cao nhất."
+    },
+    "visa-india-c39": {
+      "claim": "Người mang hộ chiếu Ấn Độ cần thị thực du lịch ngắn hạn C-3-9 để đến Hàn Quốc (tối đa 90 ngày). Nộp hồ sơ trực tiếp tại Trung tâm Tiếp nhận Hồ sơ Xin thị thực Hàn Quốc (VFS Global) — không cần đặt lịch hẹn.",
+      "notes": "Phí và thời gian xử lý thay đổi tùy trung tâm và mùa — hãy xác nhận tại KVAC của bạn. Mẫu đơn và mọi hồ sơ điện tử chỉ có tại visa.go.kr (cổng chính thức duy nhất). Ấn Độ chia thành hai khu vực thẩm quyền: Đại sứ quán/New Delhi (visaforkorea-id.com) và Lãnh sự quán Chennai (visaforkorea-ce.com)."
+    },
+    "visa-vietnam-c39": {
+      "claim": "Người mang hộ chiếu Việt Nam cần thị thực du lịch ngắn hạn C-3-9 để đến Hàn Quốc. Từ năm 2025, thủ tục giấy tờ xin thị thực du lịch đã được đơn giản hóa, và thị thực nhập cảnh nhiều lần có thời hạn nhiều năm (lên đến 10 năm) đã được mở rộng cho du khách Việt Nam.",
+      "notes": "Phí thị thực được ấn định theo nguyên tắc có đi có lại và không được hoàn lại — hãy xác nhận mức phí hiện hành tại KVAC. Thẩm quyền chia thành Hà Nội (visaforkorea-vt.com) và Thành phố Hồ Chí Minh (visaforkorea-hc.com). Mẫu đơn: visa.go.kr."
+    },
+    "visa-china-c3": {
+      "claim": "Người mang hộ chiếu Trung Quốc cần thị thực du lịch C-3 để đến phần đất liền Hàn Quốc. Đảo Jeju cho phép nhập cảnh miễn thị thực đến 30 ngày (chỉ áp dụng cho Jeju, chuyến bay thẳng).",
+      "notes": "Một chương trình miễn thị thực cho các đoàn du lịch Trung Quốc được phê duyệt (từ 3 người trở lên) đã áp dụng từ tháng 9/2025 đến tháng 6/2026; hãy kiểm tra xem chương trình có được gia hạn hay không trước khi dựa vào đó. Miễn thị thực chỉ dành riêng cho Jeju yêu cầu chuyến bay thẳng, không quá cảnh qua đất liền."
+    },
+    "visa-philippines-c3": {
+      "claim": "Người mang hộ chiếu Philippines cần thị thực du lịch C-3 để đến phần đất liền Hàn Quốc, nhưng KHÔNG mất phí thị thực. Từ 2026-02-20, không còn yêu cầu sao kê ngân hàng 3 tháng.",
+      "notes": "Người lao động vẫn phải nộp ITR + Giấy chứng nhận việc làm; chủ doanh nghiệp nộp đăng ký DTI/SEC + giấy phép kinh doanh. Đảo Jeju có quy định nhập cảnh miễn thị thực riêng. Hãy xác nhận quy định hiện hành với đại sứ quán."
+    },
+    "visa-indonesia-c3": {
+      "claim": "Khách du lịch Indonesia đi lẻ cần thị thực du lịch C-3 để đến phần đất liền Hàn Quốc. Từ 2026-05-28, các đoàn du lịch Indonesia từ 3 người trở lên có thể nhập cảnh miễn thị thực cho các chuyến lưu trú ngắn (chỉ áp dụng cho đoàn; cá nhân không đủ điều kiện).",
+      "notes": "Khách đi lẻ vẫn cần thị thực: hộ chiếu, ảnh, sao kê ngân hàng 3 tháng, thư xác nhận việc làm + phiếu lương, thư bảo lãnh nếu được người khác tài trợ. Jeju có quy định nhập cảnh miễn thị thực riêng."
+    }
+  }
 }

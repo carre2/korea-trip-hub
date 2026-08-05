@@ -131,15 +131,19 @@ export default function TransitGuide({ guide }) {
         <section className="gv-sec">
           <h2>{g.apps.title}</h2>
           <div className="tg-app-grid">
-            {g.apps.items.map((a) => (
-              <div key={a.name} className="tg-app">
-                <span className="tg-app-ic">{a.icon}</span>
-                <div className="tg-app-body">
-                  <div className="tg-app-h"><b>{a.name}</b>{a.note && <span className="tg-app-tag">{a.note}</span>}</div>
-                  <p>{a.d}</p>
-                </div>
-              </div>
-            ))}
+            {g.apps.items.map((a) => {
+              const Card = a.url ? "a" : "div";
+              const props = a.url ? { href: a.url, target: "_blank", rel: "noopener noreferrer" } : {};
+              return (
+                <Card key={a.name} className="tg-app" {...props}>
+                  <span className="tg-app-ic">{a.icon}</span>
+                  <div className="tg-app-body">
+                    <div className="tg-app-h"><b>{a.name}{a.url ? " ↗" : ""}</b>{a.note && <span className="tg-app-tag">{a.note}</span>}</div>
+                    <p>{a.d}</p>
+                  </div>
+                </Card>
+              );
+            })}
           </div>
         </section>
       )}

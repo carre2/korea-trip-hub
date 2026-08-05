@@ -144,7 +144,7 @@
     "hours": "Horario",
     "languages": "Idiomas",
     "fare_krw_each_way": "Tarifa por trayecto",
-    "minutes": "Tiempo (min)",
+    "minutes": "Minutos",
     "type": "Tipo",
     "frequency": "Frecuencia",
     "fare_krw": "Tarifa (KRW)",
@@ -153,7 +153,7 @@
     "basic_krw": "Tarjeta básica (KRW)",
     "design_krw": "Edición de diseño (KRW)",
     "card_refundable": "Reembolso de tarjeta",
-    "fare_krw_standard": "Tarifa clase estándar (KRW)",
+    "fare_krw_standard": "Tarifa estándar (KRW)",
     "duration": "Duración",
     "booking": "Reserva",
     "best": "Mejores estaciones",
@@ -162,7 +162,166 @@
     "currency": "Moneda",
     "code": "Código",
     "symbol": "Símbolo",
-    "tipping": "Propina"
+    "tipping": "Propinas",
+    "apply": "Solicitar",
+    "apply_at": "Solicitar en",
+    "appointment": "Cita previa",
+    "avg_daily_foreign_visitors": "Media diaria de visitantes extranjeros",
+    "bank_statement": "Extracto bancario",
+    "base_cash": "Tarifa base (efectivo)",
+    "base_distance": "Distancia base",
+    "base_tmoney": "Tarifa base (T-money)",
+    "blue_green": "Autobús azul / verde",
+    "buy_at": "Comprar en",
+    "carriers": "Operadores",
+    "condition": "Condición",
+    "cost": "Coste",
+    "deluxe_base": "Base de lujo (Mobeom)",
+    "entries": "Entradas",
+    "esim": "eSIM",
+    "exempt_countries": "Países exentos",
+    "extra": "Extra",
+    "fare": "Tarifa",
+    "fee": "Tasa",
+    "financial_docs": "Documentos financieros",
+    "foreign_hikers": "Senderistas extranjeros",
+    "group_visa_free": "Sin visado para grupos",
+    "international_base": "Tarifa base del taxi internacional",
+    "intl_taxi": "International Taxi",
+    "jeju_visa_free": "Jeju sin visado",
+    "max_stay": "Estancia máxima",
+    "medium_base": "Tarifa base del autobús mediano",
+    "medium_then": "Autobús mediano, luego por",
+    "metered": "Con taxímetro",
+    "multi_year": "Varios años",
+    "night": "Nocturno",
+    "night_surcharge": "Recargo nocturno",
+    "note": "Nota",
+    "physical_sim": "SIM física",
+    "pocket_wifi": "Pocket Wi-Fi",
+    "processing": "Tramitación",
+    "rank": "Puesto",
+    "red_express": "Autobús rojo (exprés)",
+    "refundable": "Reembolsable",
+    "replaced": "Sustituye a",
+    "requirement_resumes": "El requisito se reanuda",
+    "service_fee": "Cargo por servicio",
+    "tolls": "Peajes",
+    "typical_result": "Resultado típico",
+    "valid_for": "Válido durante",
+    "visa_fee": "Tasa de visado",
+    "visa_type": "Tipo de visado",
+    "window": "Plazo de solicitud",
+    "yellow": "Autobús amarillo"
   },
-  "facts": {}
+  "facts": {
+    "keta-exemption": {
+      "claim": "Los ciudadanos de países exentos de visado pueden entrar a Corea sin K-ETA hasta el 2026-12-31. La e-Arrival Card sigue siendo obligatoria. Los viajeros de 17 años o menos y de 65 años o más están exentos del K-ETA.",
+      "notes": "Las fuentes discrepan sobre el número de países exentos (22 frente a 67). Confirma la lista actual de países en la web oficial; verifica tu caso concreto en un consulado."
+    },
+    "keta-fee-validity": {
+      "claim": "El K-ETA cuesta KRW 10,000 (unos US$8), es válido durante 3 años y permite múltiples entradas. Solicítalo únicamente en la web oficial, k-eta.go.kr.",
+      "notes": "La tasa no es reembolsable. Cuidado con las webs de terceros que cobran US$40–50 de más: la única web oficial es k-eta.go.kr."
+    },
+    "keta-apply-window": {
+      "claim": "Solicita el K-ETA al menos 72 hours antes de embarcar. La aprobación suele ser mucho más rápida, pero deja margen por si tu solicitud pasa a revisión.",
+      "notes": "El Servicio de Inmigración de Corea recomienda solicitarlo al menos 72 hours antes de la salida."
+    },
+    "keta-exempt-countries": {
+      "claim": "22 países/regiones están temporalmente exentos del K-ETA hasta el 2026-12-31; está previsto que el requisito vuelva el 2027-01-01.",
+      "notes": "Australia, Austria, Bélgica, Canadá, Dinamarca, Finlandia, Francia, Alemania, Hong Kong, Italia, Japón, Macao, Países Bajos, Nueva Zelanda, Noruega, Polonia, Singapur, España, Suecia, Taiwán, Reino Unido, Estados Unidos (incl. Guam). Confirma siempre la lista actual en k-eta.go.kr."
+    },
+    "earrival-card-how": {
+      "claim": "La e-Arrival Card es gratuita y se presenta en línea en e-arrivalcard.go.kr, hasta 72 hours antes de la llegada. Sustituyó a la tarjeta de llegada en papel en 2025.",
+      "notes": "Los titulares del K-ETA y los residentes extranjeros registrados están exentos. Tu envío caduca 72 hours después de presentarlo, así que hazlo cerca de tu vuelo."
+    },
+    "transit-free-transfer": {
+      "claim": "Los transbordos entre metro y autobús (o autobús y autobús) son gratuitos dentro de un plazo de 30 minutes si pagas con una tarjeta T-money y validas tanto al subir como al bajar.",
+      "notes": "También debes validar al bajar del autobús, o perderás el descuento por transbordo y podrían cobrarte de nuevo."
+    },
+    "transit-subway-seoul": {
+      "claim": "La tarifa base del metro de Seúl es de ₩1,550 con tarjeta T-money (₩1,650 en billete sencillo en efectivo), para hasta 10 km; los trayectos más largos suman ₩100 por cada 5 km adicionales.",
+      "notes": "Subió desde ₩1,400 en la subida de tarifas de June 2025. Confirma las tarifas actuales en Naver Map / KakaoMap o en la web de Seoul TOPIS."
+    },
+    "transit-bus-seoul": {
+      "claim": "Tarifas de los autobuses urbanos de Seúl (T-money): azul y verde ₩1,500, amarillo ₩1,400, rojo (exprés de larga distancia) ₩3,000+, nocturno (N-bus) ₩2,500.",
+      "notes": "Valida al subir Y al bajar para obtener transbordos gratuitos. Confirma las tarifas actuales en Seoul TOPIS."
+    },
+    "transit-taxi-seoul": {
+      "claim": "La tarifa base del taxi mediano de Seúl es de ₩4,800 (primeros 1.6 km), luego ₩100 por cada 132 m. Se aplica un recargo nocturno de hasta el 40% (aproximadamente de 23:00 a 02:00). Los taxis de lujo empiezan en ₩7,000 (primeros 3 km) y no tienen recargo nocturno.",
+      "notes": "Usa Kakao T para obtener una estimación de la tarifa por adelantado. Los taxis de lujo (mobeom) e internacionales cuestan más, pero evitan los recargos nocturnos y ofrecen inglés."
+    },
+    "ktx-seoul-busan": {
+      "claim": "Tarifa de ida en asiento estándar del KTX Seúl → Busan y tiempo de viaje aproximado.",
+      "notes": "Cifra de terceros. Varía según el tren y la clase de asiento. Confirma la tarifa real en letskorail.com."
+    },
+    "tmoney-where-to-buy": {
+      "claim": "Las tarjetas T-money se venden y se recargan en tiendas de conveniencia de todo el país (CU, GS25, 7-Eleven, Emart24) y en las máquinas de las estaciones de metro.",
+      "notes": "Funciona en metro, autobús, taxi y en tiendas de conveniencia."
+    },
+    "arex-express": {
+      "claim": "Tren AREX Express: directo entre el Aeropuerto de Incheon y la Estación de Seúl. Unos 43 min desde la Terminal 1 (51 min desde la Terminal 2).",
+      "notes": "La tarifa del Express subió respecto a los antiguos ₩9,500; las fuentes de 2026 citan unos ₩13,000 tarifa plana, con descuentos en línea de cerca de ₩11,500. Confirma siempre la tarifa actual en arex.or.kr."
+    },
+    "arex-allstop": {
+      "claim": "Tren AREX con todas las paradas: llega a la Estación de Seúl en unos 59–66 minutes. La tarifa depende de tu estación de destino.",
+      "notes": "La opción de tren al aeropuerto más económica; paga con T-money. Confirma la tarifa exacta para tu estación en arex.or.kr."
+    },
+    "airport-bus": {
+      "claim": "Limusina / autobús del Aeropuerto de Incheon: unos 60–90 minutos hasta Seúl, según la ruta y el tráfico. La tarifa varía según el tipo de autobús.",
+      "notes": "Los autobuses limusina premium KAL cuestan más (~₩18,000); los autobuses de aeropuerto estándar son más baratos. Los autobuses paran cerca de muchos hoteles: comprueba la ruta hasta tu destino."
+    },
+    "airport-taxi": {
+      "claim": "Un taxi normal con taxímetro desde el Aeropuerto de Incheon al centro de Seúl cuesta unos ₩65,000–85,000 y tarda entre 60 y 70 minutos. El International Taxi oficial ofrece tarifas fijas con conductores certificados que hablan inglés, japonés y chino.",
+      "notes": "Las tarifas con taxímetro varían según el tráfico y el destino e incluyen los peajes de autopista; puede aplicarse un recargo nocturno. Los mostradores del International Taxi están en las salas de llegadas de la T1 y la T2 (intltaxi.co.kr, +82-1644-2255)."
+    },
+    "sim-options": {
+      "claim": "Tres formas de conectarte en Corea: una eSIM (instálala antes de volar, activa en cuanto aterrizas), una SIM física (necesita un teléfono liberado) o un pocket Wi-Fi de alquiler (ideal para compartir en grupo). Los operadores son SKT, KT y LG U+.",
+      "notes": "Los precios varían mucho según la cantidad de datos y el número de días, así que compara las ofertas actuales (p. ej. Airalo/Klook para la eSIM; los mostradores de los operadores para la SIM) en lugar de un precio fijo. La eSIM necesita un teléfono compatible con eSIM; la SIM física necesita un teléfono liberado. Los mostradores están en las salas de llegadas de la T1/T2 de Incheon, Gimpo y Gimhae."
+    },
+    "currency-krw": {
+      "claim": "La moneda de Corea es el won (KRW, ₩).",
+      "notes": "Las tarjetas se aceptan ampliamente; el efectivo resulta útil para pequeños comercios y mercados tradicionales."
+    },
+    "tipping-not-customary": {
+      "claim": "En Corea no es habitual dejar propina; no hace falta que dejes propina en restaurantes ni en los taxis.",
+      "notes": "Algunos hoteles de lujo pueden añadir un cargo por servicio, pero en general no se espera propina."
+    },
+    "best-time-seasons": {
+      "claim": "Las mejores épocas para visitar son la primavera (mar–may) y el otoño (sep–nov). El verano (jun–ago) es caluroso y húmedo, con temporada de lluvias; el invierno es frío y seco (Seúl promedia unos -2°C).",
+      "notes": "Características estacionales generales. Las fechas de los cerezos en flor y del follaje otoñal cambian cada año."
+    },
+    "dest-stat-myeongdong": {
+      "claim": "Myeongdong registró el mayor número medio diario de visitantes extranjeros de Seúl (unos 100,910), la zona más visitada de la ciudad.",
+      "notes": "Media diaria de visitantes extranjeros, según los datos de la ciudad de Seúl."
+    },
+    "dest-stat-nseoultower": {
+      "claim": "La N Seoul Tower fue el 2.º lugar más visitado de Seúl por visitantes extranjeros (unos 57,370 de media diaria).",
+      "notes": "Media diaria de visitantes extranjeros, según los datos de la ciudad de Seúl."
+    },
+    "dest-stat-bukhansan": {
+      "claim": "Bukhansan tuvo el mayor número de senderistas extranjeros de las montañas de Seúl (unos 4,015), liderando la creciente tendencia del 'K-hiking'.",
+      "notes": "Recuento de senderistas extranjeros por montaña de Seúl; Bukhansan el más alto."
+    },
+    "visa-india-c39": {
+      "claim": "Los titulares de pasaporte indio necesitan un visado de turista de corta duración C-3-9 para visitar Corea (hasta 90 días). Solicítalo en persona en un Centro de Solicitud de Visados de Corea (VFS Global); no hace falta cita previa.",
+      "notes": "Las tasas y los plazos de tramitación varían según el centro y la temporada: confírmalo en tu KVAC. El formulario y cualquier solicitud electrónica solo están en visa.go.kr (el único portal oficial). India se divide en dos jurisdicciones: Embajada/Nueva Delhi (visaforkorea-id.com) y Consulado de Chennai (visaforkorea-ce.com)."
+    },
+    "visa-vietnam-c39": {
+      "claim": "Los titulares de pasaporte vietnamita necesitan un visado de turista de corta duración C-3-9 para Corea. Desde 2025 se simplificó la documentación del visado de turista y se han ampliado los visados de múltiples entradas de varios años (hasta 10 años) para los viajeros vietnamitas.",
+      "notes": "Las tasas de visado se fijan por reciprocidad y no son reembolsables: confirma el importe actual en el KVAC. La jurisdicción se divide entre Hanói (visaforkorea-vt.com) y Ciudad Ho Chi Minh (visaforkorea-hc.com). Formulario: visa.go.kr."
+    },
+    "visa-china-c3": {
+      "claim": "Los titulares de pasaporte chino necesitan un visado de turista C-3 para la Corea continental. La Isla de Jeju permite la entrada sin visado hasta 30 días (solo Jeju, con vuelos directos).",
+      "notes": "Un programa sin visado para grupos turísticos chinos autorizados (3 o más) estuvo vigente de sep 2025 a jun 2026; comprueba si se ha prorrogado antes de contar con él. La entrada sin visado exclusiva de Jeju exige vuelos directos sin tránsito por la Corea continental."
+    },
+    "visa-philippines-c3": {
+      "claim": "Los titulares de pasaporte filipino necesitan un visado de turista C-3 para la Corea continental, pero NO hay tasa de visado. Desde el 2026-02-20, ya no se exigen extractos bancarios de 3 meses.",
+      "notes": "Los empleados siguen presentando el ITR + un Certificado de Empleo; los propietarios de negocios presentan el registro DTI/SEC + la licencia comercial. La Isla de Jeju tiene una entrada sin visado independiente. Confirma las normas actuales con la embajada."
+    },
+    "visa-indonesia-c3": {
+      "claim": "Los turistas indonesios individuales necesitan un visado de turista C-3 para la Corea continental. Desde el 2026-05-28, los grupos turísticos indonesios de 3 o más pueden entrar sin visado para estancias cortas (solo grupos; los individuos no son elegibles).",
+      "notes": "Los viajeros individuales siguen necesitando visado: pasaporte, foto, extracto bancario de 3 meses, carta de empleo + nóminas y carta de patrocinio si los gastos los cubre otra persona. Jeju tiene una entrada sin visado independiente."
+    }
+  }
 }

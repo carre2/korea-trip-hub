@@ -137,23 +137,23 @@
     "confirm": "⚠ Harga/peraturan berubah — sahkan di sumber rasmi"
   },
   "factLabels": {
-    "exempt_until": "Dikecualikan hingga",
+    "exempt_until": "Dikecualikan sehingga",
     "earrival_card": "e-Arrival Card",
     "age_exempt": "Pengecualian umur",
     "number": "Nombor",
-    "hours": "Waktu perkhidmatan",
+    "hours": "Waktu",
     "languages": "Bahasa",
     "fare_krw_each_way": "Sehala",
-    "minutes": "Masa (min)",
+    "minutes": "Minit",
     "type": "Jenis",
     "frequency": "Kekerapan",
     "fare_krw": "Tambang (KRW)",
-    "pay": "Bayaran",
-    "stores": "Beli di mana",
+    "pay": "Pembayaran",
+    "stores": "Tempat membeli",
     "basic_krw": "Kad asas (KRW)",
     "design_krw": "Edisi reka bentuk (KRW)",
     "card_refundable": "Bayaran balik kad",
-    "fare_krw_standard": "Tambang kelas standard (KRW)",
+    "fare_krw_standard": "Tambang standard (KRW)",
     "duration": "Tempoh",
     "booking": "Tempahan",
     "best": "Musim terbaik",
@@ -162,7 +162,166 @@
     "currency": "Mata wang",
     "code": "Kod",
     "symbol": "Simbol",
-    "tipping": "Tip"
+    "tipping": "Memberi tip",
+    "apply": "Mohon",
+    "apply_at": "Mohon di",
+    "appointment": "Temu janji",
+    "avg_daily_foreign_visitors": "Purata pelawat asing harian",
+    "bank_statement": "Penyata bank",
+    "base_cash": "Tambang asas (tunai)",
+    "base_distance": "Jarak asas",
+    "base_tmoney": "Tambang asas (T-money)",
+    "blue_green": "Bas biru / hijau",
+    "buy_at": "Beli di",
+    "carriers": "Pembawa",
+    "condition": "Syarat",
+    "cost": "Kos",
+    "deluxe_base": "Asas mewah (Mobeom)",
+    "entries": "Kemasukan",
+    "esim": "eSIM",
+    "exempt_countries": "Negara dikecualikan",
+    "extra": "Tambahan",
+    "fare": "Tambang",
+    "fee": "Yuran",
+    "financial_docs": "Dokumen kewangan",
+    "foreign_hikers": "Pendaki asing",
+    "group_visa_free": "Bebas visa kumpulan",
+    "international_base": "Asas teksi antarabangsa",
+    "intl_taxi": "International Taxi",
+    "jeju_visa_free": "Bebas visa Jeju",
+    "max_stay": "Penginapan maksimum",
+    "medium_base": "Asas bas sederhana",
+    "medium_then": "Bas sederhana, kemudian setiap",
+    "metered": "Bermeter",
+    "multi_year": "Berbilang tahun",
+    "night": "Malam",
+    "night_surcharge": "Caj tambahan malam",
+    "note": "Nota",
+    "physical_sim": "SIM fizikal",
+    "pocket_wifi": "Wi-Fi poket",
+    "processing": "Pemprosesan",
+    "rank": "Kedudukan",
+    "red_express": "Bas merah (ekspres)",
+    "refundable": "Boleh dikembalikan",
+    "replaced": "Digantikan oleh",
+    "requirement_resumes": "Keperluan kembali",
+    "service_fee": "Yuran perkhidmatan",
+    "tolls": "Tol",
+    "typical_result": "Keputusan biasa",
+    "valid_for": "Sah selama",
+    "visa_fee": "Yuran visa",
+    "visa_type": "Jenis visa",
+    "window": "Tempoh permohonan",
+    "yellow": "Bas kuning"
   },
-  "facts": {}
+  "facts": {
+    "keta-exemption": {
+      "claim": "Warganegara bebas visa boleh masuk ke Korea tanpa K-ETA sehingga 2026-12-31. e-Arrival Card masih diperlukan. Pengembara berumur 17 tahun ke bawah atau 65 tahun ke atas dikecualikan daripada K-ETA.",
+      "notes": "Sumber berbeza tentang bilangan negara yang dikecualikan (22 berbanding 67). Sahkan senarai negara terkini di laman rasmi; semak kes anda sendiri dengan konsulat."
+    },
+    "keta-fee-validity": {
+      "claim": "K-ETA berharga KRW 10,000 (kira-kira US$8), sah selama 3 tahun, dan membenarkan kemasukan berbilang kali. Mohon hanya di laman rasmi, k-eta.go.kr.",
+      "notes": "Yuran ini tidak boleh dikembalikan. Berhati-hati dengan laman pihak ketiga yang mengenakan bayaran tambahan US$40–50 — satu-satunya laman rasmi ialah k-eta.go.kr."
+    },
+    "keta-apply-window": {
+      "claim": "Mohon K-ETA sekurang-kurangnya 72 hours sebelum menaiki pesawat. Kelulusan selalunya jauh lebih cepat, tetapi beri masa sekiranya permohonan anda perlu disemak.",
+      "notes": "Perkhidmatan Imigresen Korea mengesyorkan permohonan dibuat sekurang-kurangnya 72 hours sebelum berlepas."
+    },
+    "keta-exempt-countries": {
+      "claim": "22 negara/wilayah dikecualikan sementara daripada K-ETA sehingga 2026-12-31; keperluan ini dijadualkan kembali pada 2027-01-01.",
+      "notes": "Australia, Austria, Belgium, Kanada, Denmark, Finland, Perancis, Jerman, Hong Kong, Itali, Jepun, Macao, Belanda, New Zealand, Norway, Poland, Singapura, Sepanyol, Sweden, Taiwan, United Kingdom, Amerika Syarikat (termasuk Guam). Sentiasa sahkan senarai terkini di k-eta.go.kr."
+    },
+    "earrival-card-how": {
+      "claim": "e-Arrival Card adalah percuma dan dihantar dalam talian di e-arrivalcard.go.kr, sehingga 72 hours sebelum ketibaan. Ia menggantikan kad ketibaan kertas pada 2025.",
+      "notes": "Pemegang K-ETA dan pemastautin asing berdaftar dikecualikan. Penghantaran anda tamat tempoh 72 hours selepas anda memfailkannya, jadi lakukan hampir dengan waktu penerbangan anda."
+    },
+    "transit-free-transfer": {
+      "claim": "Pertukaran antara subway dan bas (atau bas ke bas) adalah percuma dalam masa 30 minutes apabila anda membayar dengan kad T-money dan tap masuk serta keluar.",
+      "notes": "Anda mesti tap keluar pada bas juga, jika tidak anda akan kehilangan diskaun pertukaran dan mungkin dikenakan bayaran semula."
+    },
+    "transit-subway-seoul": {
+      "claim": "Tambang asas subway Seoul ialah ₩1,550 dengan kad T-money (₩1,650 tiket tunai sehala), untuk sehingga 10 km; perjalanan lebih jauh menambah ₩100 setiap 5 km tambahan.",
+      "notes": "Dinaikkan daripada ₩1,400 dalam kenaikan tambang June 2025. Sahkan tambang semasa di Naver Map / KakaoMap atau laman Seoul TOPIS."
+    },
+    "transit-bus-seoul": {
+      "claim": "Tambang bas bandar Seoul (T-money): biru & hijau ₩1,500, kuning ₩1,400, merah (ekspres kawasan luas) ₩3,000+, malam (N-bus) ₩2,500.",
+      "notes": "Tap masuk DAN keluar untuk mendapatkan pertukaran percuma. Sahkan tambang semasa di Seoul TOPIS."
+    },
+    "transit-taxi-seoul": {
+      "claim": "Tambang asas teksi sederhana Seoul ialah ₩4,800 (1.6 km pertama), kemudian ₩100 setiap 132 m. Caj tambahan lewat malam sehingga 40% dikenakan (kira-kira 23:00–02:00). Teksi mewah bermula pada ₩7,000 (3 km pertama) tanpa caj tambahan malam.",
+      "notes": "Gunakan Kakao T untuk anggaran tambang awal. Teksi mewah (mobeom) dan teksi antarabangsa lebih mahal tetapi mengelakkan caj tambahan lewat malam / menyediakan bahasa Inggeris."
+    },
+    "ktx-seoul-busan": {
+      "claim": "Tambang sehala tempat duduk standard KTX Seoul → Busan dan anggaran masa perjalanan.",
+      "notes": "Angka pihak ketiga. Berbeza mengikut kereta api dan kelas tempat duduk. Sahkan tambang sebenar di letskorail.com."
+    },
+    "tmoney-where-to-buy": {
+      "claim": "Kad T-money dijual dan diisi semula di kedai serbaneka di seluruh negara (CU, GS25, 7-Eleven, Emart24) dan di mesin stesen subway.",
+      "notes": "Berfungsi pada subway, bas, teksi dan di kedai serbaneka."
+    },
+    "arex-express": {
+      "claim": "Kereta api AREX Express: tanpa henti antara Lapangan Terbang Incheon dan Stesen Seoul. Kira-kira 43 min dari Terminal 1 (51 min dari Terminal 2).",
+      "notes": "Tambang Express naik daripada ₩9,500 yang lama; sumber 2026 menyebut kira-kira ₩13,000 tambang rata dengan diskaun dalam talian sekitar ₩11,500. Sentiasa sahkan tambang semasa di arex.or.kr."
+    },
+    "arex-allstop": {
+      "claim": "Kereta api AREX semua henti: sampai ke Stesen Seoul dalam kira-kira 59–66 minutes. Tambang bergantung pada stesen destinasi anda.",
+      "notes": "Pilihan kereta api lapangan terbang paling murah; bayar dengan T-money. Sahkan tambang tepat untuk stesen anda di arex.or.kr."
+    },
+    "airport-bus": {
+      "claim": "Limosin / bas lapangan terbang Incheon: kira-kira 60–90 minit ke Seoul, bergantung pada laluan dan trafik. Tambang berbeza mengikut jenis bas.",
+      "notes": "Bas limosin KAL premium lebih mahal (~₩18,000); bas lapangan terbang standard lebih murah. Bas berhenti berhampiran banyak hotel — semak laluan untuk destinasi anda."
+    },
+    "airport-taxi": {
+      "claim": "Teksi bermeter biasa dari Lapangan Terbang Incheon ke pusat Seoul berharga kira-kira ₩65,000–85,000 dan mengambil masa 60–70 minit. International Taxi rasmi menawarkan tambang tetap dengan pemandu bertauliah yang berbahasa Inggeris/Jepun/Cina.",
+      "notes": "Tambang bermeter berbeza mengikut trafik dan destinasi serta termasuk tol lebuh raya; caj tambahan lewat malam mungkin dikenakan. Kaunter International Taxi terdapat di dewan ketibaan T1 dan T2 (intltaxi.co.kr, +82-1644-2255)."
+    },
+    "sim-options": {
+      "claim": "Tiga cara untuk mendapatkan sambungan dalam talian di Korea: eSIM (pasang sebelum terbang, aktif sebaik sahaja anda mendarat), SIM fizikal (memerlukan telefon yang tidak dikunci), atau Wi-Fi poket sewaan (paling sesuai dikongsi oleh sekumpulan). Pembawa ialah SKT, KT dan LG U+.",
+      "notes": "Harga sangat berbeza mengikut jumlah data dan bilangan hari, jadi bandingkan tawaran semasa (cth. Airalo/Klook untuk eSIM; kaunter pembawa untuk SIM) berbanding harga tetap. eSIM memerlukan telefon yang menyokong eSIM; SIM fizikal memerlukan telefon yang tidak dikunci. Kaunter terdapat di dewan ketibaan Incheon T1/T2, Gimpo dan Gimhae."
+    },
+    "currency-krw": {
+      "claim": "Mata wang Korea ialah won (KRW, ₩).",
+      "notes": "Kad diterima secara meluas; wang tunai berguna untuk penjual kecil dan pasar tradisional."
+    },
+    "tipping-not-customary": {
+      "claim": "Memberi tip bukan kebiasaan di Korea; anda tidak perlu memberi tip di restoran atau dalam teksi.",
+      "notes": "Sesetengah hotel mewah mungkin mengenakan caj perkhidmatan, tetapi secara umumnya tiada tip diharapkan."
+    },
+    "best-time-seasons": {
+      "claim": "Masa terbaik untuk melawat ialah musim bunga (Mac–Mei) dan musim luruh (Sep–Nov). Musim panas (Jun–Ogos) panas dan lembap dengan monsun; musim sejuk sejuk dan kering (Seoul purata kira-kira -2°C).",
+      "notes": "Ciri-ciri musim secara umum. Tarikh bunga sakura dan daun luruh berubah setiap tahun."
+    },
+    "dest-stat-myeongdong": {
+      "claim": "Myeongdong menarik purata bilangan pelawat asing harian tertinggi di Seoul (kira-kira 100,910), kawasan paling banyak dilawati di bandar ini.",
+      "notes": "Purata pelawat asing harian, menurut laporan bandar Seoul."
+    },
+    "dest-stat-nseoultower": {
+      "claim": "N Seoul Tower ialah tempat ke-2 paling banyak dilawati oleh pelawat asing di Seoul (kira-kira 57,370 purata harian).",
+      "notes": "Purata pelawat asing harian, menurut laporan bandar Seoul."
+    },
+    "dest-stat-bukhansan": {
+      "claim": "Bukhansan mempunyai pendaki asing paling ramai antara gunung-gunung di Seoul (kira-kira 4,015), mendahului trend 'K-hiking' yang semakin berkembang.",
+      "notes": "Kiraan pendaki asing mengikut gunung Seoul; Bukhansan tertinggi."
+    },
+    "visa-india-c39": {
+      "claim": "Pemegang pasport India memerlukan visa pelancong jangka pendek C-3-9 untuk melawat Korea (sehingga 90 hari). Mohon secara peribadi di Korea Visa Application Center (VFS Global) — tiada temu janji diperlukan.",
+      "notes": "Yuran dan pemprosesan berbeza mengikut pusat dan musim — sahkan di KVAC anda. Borang dan sebarang e-permohonan hanya ada di visa.go.kr (satu-satunya portal rasmi). India dibahagikan kepada dua bidang kuasa: Kedutaan/New Delhi (visaforkorea-id.com) dan Konsulat Chennai (visaforkorea-ce.com)."
+    },
+    "visa-vietnam-c39": {
+      "claim": "Pemegang pasport Vietnam memerlukan visa pelancong jangka pendek C-3-9 untuk Korea. Sejak 2025 kertas kerja visa pelancong telah dipermudahkan, dan visa berbilang kemasukan bagi tempoh berbilang tahun (sehingga 10 tahun) telah diperluas untuk pengembara Vietnam.",
+      "notes": "Yuran visa ditetapkan berdasarkan timbal balik dan tidak boleh dikembalikan — sahkan jumlah semasa di KVAC. Bidang kuasa dibahagikan kepada Hanoi (visaforkorea-vt.com) dan Ho Chi Minh City (visaforkorea-hc.com). Borang: visa.go.kr."
+    },
+    "visa-china-c3": {
+      "claim": "Pemegang pasport China memerlukan visa pelancong C-3 untuk Korea tanah besar. Pulau Jeju membenarkan kemasukan bebas visa sehingga 30 hari (khusus Jeju, penerbangan terus).",
+      "notes": "Skim bebas visa untuk kumpulan pelancongan China yang diluluskan (3+) berjalan Sep 2025–Jun 2026; semak sama ada ia telah dilanjutkan sebelum bergantung padanya. Bebas visa khusus Jeju memerlukan penerbangan terus tanpa transit tanah besar."
+    },
+    "visa-philippines-c3": {
+      "claim": "Pemegang pasport Filipina memerlukan visa pelancong C-3 untuk Korea tanah besar, tetapi TIADA yuran visa. Mulai 2026-02-20, penyata bank 3 bulan tidak lagi diperlukan.",
+      "notes": "Pekerja masih perlu mengemukakan ITR + Sijil Pekerjaan; pemilik perniagaan mengemukakan pendaftaran DTI/SEC + permit perniagaan. Pulau Jeju mempunyai kemasukan bebas visa yang berasingan. Sahkan peraturan semasa dengan kedutaan."
+    },
+    "visa-indonesia-c3": {
+      "claim": "Pelancong Indonesia individu memerlukan visa pelancong C-3 untuk Korea tanah besar. Sejak 2026-05-28, kumpulan pelancongan Indonesia seramai 3+ boleh masuk bebas visa untuk penginapan singkat (kumpulan sahaja; individu tidak layak).",
+      "notes": "Pengembara individu masih memerlukan visa: pasport, gambar, penyata bank 3 bulan, surat pekerjaan + slip gaji, surat penaja jika dibiayai oleh orang lain. Jeju mempunyai kemasukan bebas visa yang berasingan."
+    }
+  }
 }

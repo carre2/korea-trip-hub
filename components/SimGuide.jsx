@@ -52,6 +52,13 @@ export default function SimGuide({ guide }) {
                 <ol className="sim-setup">
                   {c.setup.map((s, i) => <li key={i}>{s}</li>)}
                 </ol>
+                {c.links && (
+                  <div className="sim-applinks">
+                    {c.links.map((l) => (
+                      <a key={l.name} href={l.url} target="_blank" rel="noopener noreferrer">{l.name} ↗</a>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </div>

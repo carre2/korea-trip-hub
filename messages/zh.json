@@ -137,24 +137,24 @@
     "confirm": "⚠ 价格/规定会变动 — 请在官方确认"
   },
   "factLabels": {
-    "exempt_until": "免除截止",
-    "earrival_card": "e-Arrival Card",
-    "age_exempt": "年龄豁免",
+    "exempt_until": "免办截止",
+    "earrival_card": "电子入境卡",
+    "age_exempt": "免办年龄",
     "number": "号码",
-    "hours": "服务时间",
+    "hours": "时段",
     "languages": "支持语言",
     "fare_krw_each_way": "单程票价",
-    "minutes": "用时（分钟）",
+    "minutes": "分钟",
     "type": "类型",
-    "frequency": "发车间隔",
+    "frequency": "班次",
     "fare_krw": "票价（KRW）",
     "pay": "支付方式",
     "stores": "购买地点",
     "basic_krw": "基础卡（KRW）",
     "design_krw": "设计款（KRW）",
     "card_refundable": "卡费可退",
-    "fare_krw_standard": "普通座票价（KRW）",
-    "duration": "用时",
+    "fare_krw_standard": "标准票价（KRW）",
+    "duration": "时长",
     "booking": "预订",
     "best": "最佳季节",
     "summer": "夏季",
@@ -162,12 +162,62 @@
     "currency": "货币",
     "code": "代码",
     "symbol": "符号",
-    "tipping": "小费"
+    "tipping": "小费",
+    "apply": "申请",
+    "apply_at": "申请网站",
+    "appointment": "预约",
+    "avg_daily_foreign_visitors": "日均外国游客",
+    "bank_statement": "银行流水",
+    "base_cash": "起步价（现金）",
+    "base_distance": "起步距离",
+    "base_tmoney": "起步价（T-money）",
+    "blue_green": "蓝色 / 绿色公交",
+    "buy_at": "购买地点",
+    "carriers": "运营商",
+    "condition": "条件",
+    "cost": "费用",
+    "deluxe_base": "豪华（模范）起步价",
+    "entries": "入境次数",
+    "esim": "eSIM",
+    "exempt_countries": "免签国家",
+    "extra": "加收",
+    "fare": "票价",
+    "fee": "费用",
+    "financial_docs": "财力证明",
+    "foreign_hikers": "外国登山者",
+    "group_visa_free": "团体免签",
+    "international_base": "国际出租车起步价",
+    "intl_taxi": "国际出租车",
+    "jeju_visa_free": "济州免签",
+    "max_stay": "最长停留",
+    "medium_base": "中型公交起步价",
+    "medium_then": "中型公交，之后每",
+    "metered": "计价",
+    "multi_year": "多年签",
+    "night": "深夜",
+    "night_surcharge": "深夜附加费",
+    "note": "备注",
+    "physical_sim": "实体 SIM 卡",
+    "pocket_wifi": "随身 Wi-Fi",
+    "processing": "办理时间",
+    "rank": "排名",
+    "red_express": "红色（快速）公交",
+    "refundable": "可否退款",
+    "replaced": "取代对象",
+    "requirement_resumes": "要求恢复",
+    "service_fee": "服务费",
+    "tolls": "通行费",
+    "typical_result": "常见结果",
+    "valid_for": "有效期",
+    "visa_fee": "签证费",
+    "visa_type": "签证类型",
+    "window": "申请时限",
+    "yellow": "黄色公交"
   },
   "facts": {
     "keta-exemption": {
-      "claim": "免签国公民可在 2026-12-31 前免 K-ETA 入境。e-Arrival Card 仍为必填。17 岁以下及 65 岁以上免 K-ETA。",
-      "notes": "各来源对免签国数量说法不一（22 国 / 67 国）。请在官方网站确认最新的适用国家名单；自己的情况请向领事馆核实。"
+      "claim": "免签国家的旅客在 2026-12-31 之前无需 K-ETA 即可入境韩国，但仍须提交电子入境卡（e-Arrival Card）。17 岁及以下或 65 岁及以上的旅客可免办 K-ETA。",
+      "notes": "不同来源对免签国家数量说法不一（22 个或 67 个）。请在官方网站确认最新的国家名单，并向领事馆核实自己的具体情况。"
     },
     "emergency-police": {
       "claim": "韩国报警电话为 112。",
@@ -182,40 +232,112 @@
       "notes": "旅游发展局官方咨询电话。"
     },
     "arex-express": {
-      "claim": "AREX 直达列车：仁川机场与首尔站之间直达不停站。从第 1 航站楼约 43 分钟（第 2 航站楼 51 分钟）。",
-      "notes": "直达票价已从此前的 ₩9,500 上调；2026 年信息显示约为 ₩13,000（在线折扣约 ₩11,500）。请务必在 arex.or.kr 确认当前票价。"
+      "claim": "AREX 直达列车：往返仁川机场与首尔站之间，中途不停站。从 1 号航站楼约 43 min（从 2 号航站楼 51 min）。",
+      "notes": "直达票价已从原先的 ₩9,500 上调；2026 年的资料显示约为 ₩13,000 统一价，网上折扣价约 ₩11,500。请务必在 arex.or.kr 确认最新票价。"
     },
     "arex-allstop": {
-      "claim": "AREX 普通列车：约 59〜66 分钟抵达首尔站。票价取决于目的地车站。",
-      "notes": "机场铁路中最便宜的选择，可用 T-money 乘车。请在 arex.or.kr 确认到达车站的准确票价。"
+      "claim": "AREX 普通（每站停）列车：约 59–66 minutes 到达首尔站。票价视目的地车站而定。",
+      "notes": "最便宜的机场轨道交通选择；可用 T-money 支付。请在 arex.or.kr 确认到你目的车站的准确票价。"
     },
     "airport-bus": {
-      "claim": "仁川机场大巴（豪华巴士／机场巴士）：视线路与路况，到首尔约 60〜90 分钟。票价因巴士类型而异。",
-      "notes": "高级 KAL 豪华巴士较贵（约 ₩18,000），普通机场巴士更便宜。多在酒店附近停靠——请确认前往目的地的线路。"
+      "claim": "仁川机场豪华巴士 / 机场巴士：到首尔约 60–90 分钟，视线路和路况而定。票价因巴士类型而异。",
+      "notes": "高级 KAL 豪华巴士价格更高（约 ₩18,000）；普通机场巴士更便宜。巴士在许多酒店附近停靠——请查看通往你目的地的线路。"
     },
     "tmoney-where-to-buy": {
-      "claim": "T-money 卡可在全国便利店（CU·GS25·7-Eleven·Emart24）及地铁站售卡机购买与充值。",
-      "notes": "可用于地铁、巴士、出租车与便利店。"
+      "claim": "T-money 卡可在全国各地的便利店（CU、GS25、7-Eleven、Emart24）以及地铁站的机器上购买和充值。",
+      "notes": "可用于地铁、公交、出租车和便利店消费。"
     },
     "tmoney-card-price": {
       "claim": "T-money 基础卡的价格与退款说明。",
       "notes": "因门店与款式而异。卡费本身不可退（仅退余额）。请在官方 t-money.co.kr 确认。"
     },
     "ktx-seoul-busan": {
-      "claim": "KTX 首尔→釜山 普通座单程票价与大致用时。",
-      "notes": "为第三方信息数值。因车次与座位等级而异。实际票价请在 letskorail.com 确认。"
+      "claim": "KTX 首尔 → 釜山标准席单程票价及大致行程时间。",
+      "notes": "第三方数据。因车次和座位等级而异。请在 letskorail.com 确认实际票价。"
     },
     "best-time-seasons": {
-      "claim": "最佳季节为春季（3〜5 月）与秋季（9〜11 月）。夏季（6〜8 月）闷热并有梅雨，冬季寒冷干燥（首尔平均约 -2℃）。",
-      "notes": "为一般季节特征。樱花与红叶时期每年不同。"
+      "claim": "最佳旅游时间是春季（3—5 月）和秋季（9—11 月）。夏季（6—8 月）炎热潮湿并有雨季；冬季寒冷干燥（首尔平均约 -2°C）。",
+      "notes": "一般的季节特征。樱花和红叶的日期每年都会变动。"
     },
     "tipping-not-customary": {
-      "claim": "韩国没有小费文化，在餐厅或出租车无需给小费。",
-      "notes": "部分高档酒店可能加收服务费，但通常不需给小费。"
+      "claim": "韩国没有小费习惯；在餐厅或出租车上都无需给小费。",
+      "notes": "部分豪华酒店可能收取服务费，但一般不会期待小费。"
     },
     "currency-krw": {
-      "claim": "韩国的货币为韩元（KRW, ₩）。",
-      "notes": "刷卡非常普遍，路边摊与传统市场用现金更方便。"
+      "claim": "韩国的货币是韩元（KRW，₩）。",
+      "notes": "刷卡消费很普遍；现金则方便在小商贩和传统市场使用。"
+    },
+    "keta-fee-validity": {
+      "claim": "K-ETA 费用为 KRW 10,000（约合 US$8），有效期 3 年，可多次入境。请只在官方网站 k-eta.go.kr 申请。",
+      "notes": "费用不予退还。请当心那些额外收取 US$40–50 的第三方网站——唯一的官方网站是 k-eta.go.kr。"
+    },
+    "keta-apply-window": {
+      "claim": "请在登机前至少 72 hours 申请 K-ETA。审批通常快得多，但仍要预留时间，以防申请被人工审核。",
+      "notes": "韩国出入境管理局建议在出发前至少 72 hours 提出申请。"
+    },
+    "keta-exempt-countries": {
+      "claim": "22 个国家/地区在 2026-12-31 之前暂时免办 K-ETA；该要求预定于 2027-01-01 恢复。",
+      "notes": "澳大利亚、奥地利、比利时、加拿大、丹麦、芬兰、法国、德国、香港、意大利、日本、澳门、荷兰、新西兰、挪威、波兰、新加坡、西班牙、瑞典、台湾、英国、美国（含关岛）。请务必在 k-eta.go.kr 确认最新名单。"
+    },
+    "earrival-card-how": {
+      "claim": "电子入境卡免费，在 e-arrivalcard.go.kr 在线提交，最早可在抵达前 72 hours 填写。它已于 2025 年取代纸质入境卡。",
+      "notes": "持有 K-ETA 者及已登记的外国居民可免填。提交后 72 hours 内失效，因此请尽量在临近航班时填写。"
+    },
+    "transit-free-transfer": {
+      "claim": "使用 T-money 卡并在上下车都刷卡时，30 minutes 内地铁与公交（或公交与公交）之间换乘免费。",
+      "notes": "乘公交时下车也必须刷卡，否则将失去换乘优惠，可能被再次扣费。"
+    },
+    "transit-subway-seoul": {
+      "claim": "首尔地铁使用 T-money 卡的起步价为 ₩1,550（现金单程票 ₩1,650），适用于 10 km 以内；更远的行程每增加 5 km 加收 ₩100。",
+      "notes": "在 June 2025 的票价上调中由 ₩1,400 提高。请在 Naver 地图 / KakaoMap 或首尔 TOPIS 网站确认最新票价。"
+    },
+    "transit-bus-seoul": {
+      "claim": "首尔市内公交票价（T-money）：蓝色和绿色 ₩1,500，黄色 ₩1,400，红色（广域快速）₩3,000 以上，深夜（N-bus）₩2,500。",
+      "notes": "上下车都刷卡才能享受免费换乘。请在首尔 TOPIS 确认最新票价。"
+    },
+    "transit-taxi-seoul": {
+      "claim": "首尔中型出租车起步价为 ₩4,800（前 1.6 km），之后每 132 m 加收 ₩100。深夜时段（约 23:00–02:00）加收最高 40% 的附加费。豪华出租车起步价 ₩7,000（前 3 km），不收深夜附加费。",
+      "notes": "可用 Kakao T 提前查看预估车费。豪华（模范）出租车和国际出租车价格更高，但不收深夜附加费，并可提供英语服务。"
+    },
+    "airport-taxi": {
+      "claim": "从仁川机场到首尔市中心的普通计价出租车约需 ₩65,000–85,000，耗时 60–70 分钟。官方国际出租车提供固定车费，并配有经认证的英语/日语/中文司机。",
+      "notes": "计价车费随路况和目的地而变化，并含高速公路通行费；深夜可能加收附加费。国际出租车服务台设在 T1 和 T2 到达大厅（intltaxi.co.kr，+82-1644-2255）。"
+    },
+    "sim-options": {
+      "claim": "在韩国上网的三种方式：eSIM（出发前安装，落地即用）、实体 SIM 卡（需要未锁定的手机）或租用随身 Wi-Fi（最适合多人共享）。运营商有 SKT、KT 和 LG U+。",
+      "notes": "价格因流量和天数不同差别很大，因此请比较当前的套餐（例如 eSIM 可看 Airalo/Klook；SIM 卡可到运营商柜台），而不要依赖固定价格。eSIM 需要支持 eSIM 的手机；实体 SIM 卡需要未锁定的手机。柜台设在仁川 T1/T2、金浦和金海的到达大厅。"
+    },
+    "dest-stat-myeongdong": {
+      "claim": "明洞是首尔日均外国游客最多的地区（约 100,910 人），也是全市游客量最高的区域。",
+      "notes": "日均外国游客量，据首尔市统计。"
+    },
+    "dest-stat-nseoultower": {
+      "claim": "N 首尔塔是首尔外国游客量第 2 高的景点（日均约 57,370 人）。",
+      "notes": "日均外国游客量，据首尔市统计。"
+    },
+    "dest-stat-bukhansan": {
+      "claim": "北汉山是首尔各山中外国登山者最多的（约 4,015 人），引领着日益兴起的“K 登山”热潮。",
+      "notes": "按首尔各山统计的外国登山者人数；北汉山最高。"
+    },
+    "visa-india-c39": {
+      "claim": "印度护照持有者需办理 C-3-9 短期旅游签证才能访问韩国（最长 90 天）。请亲自前往韩国签证申请中心（VFS Global）办理——无需预约。",
+      "notes": "费用和办理时间因中心和季节而异——请在你所在的 KVAC 确认。申请表及任何电子申请只在 visa.go.kr（唯一的官方门户）办理。印度分为两个辖区：大使馆/新德里（visaforkorea-id.com）和金奈领事馆（visaforkorea-ce.com）。"
+    },
+    "visa-vietnam-c39": {
+      "claim": "越南护照持有者需办理 C-3-9 短期旅游签证前往韩国。自 2025 年起旅游签证的手续得到简化，并为越南旅客扩大了多年（最长 10 年）多次入境签证。",
+      "notes": "签证费按对等原则设定，且不予退还——请在 KVAC 确认最新金额。辖区分为河内（visaforkorea-vt.com）和胡志明市（visaforkorea-hc.com）。申请表：visa.go.kr。"
+    },
+    "visa-china-c3": {
+      "claim": "中国护照持有者需办理 C-3 旅游签证才能前往韩国内地。济州岛允许免签入境最长 30 天（仅限济州、直飞航班）。",
+      "notes": "面向经批准的中国旅行团（3 人及以上）的免签方案实行于 2025 年 9 月—2026 年 6 月；在依赖它之前请先确认是否已延期。仅限济州的免签要求直飞、不经内地中转。"
+    },
+    "visa-philippines-c3": {
+      "claim": "菲律宾护照持有者需办理 C-3 旅游签证前往韩国内地，但无需签证费。自 2026-02-20 起，不再要求提供 3 个月银行流水。",
+      "notes": "在职人员仍需提交 ITR + 在职证明；企业主则提交 DTI/SEC 注册文件 + 营业执照。济州岛另有免签入境政策。请向大使馆确认最新规定。"
+    },
+    "visa-indonesia-c3": {
+      "claim": "印尼个人游客需办理 C-3 旅游签证前往韩国内地。自 2026-05-28 起，3 人及以上的印尼旅行团可免签短期入境（仅限团体；个人不适用）。",
+      "notes": "个人旅客仍需签证：护照、照片、3 个月银行流水、在职证明 + 工资单，若由他人资助还需担保信。济州岛另有免签入境政策。"
     }
   }
 }

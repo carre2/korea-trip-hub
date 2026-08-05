@@ -2,6 +2,7 @@ import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, articleLd, faqLd, SITE_NAME } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
 import { fact } from "../../../../lib/facts";
+import { linkify } from "../../../../lib/linkify";
 import GuideVisual from "../../../../components/GuideVisual";
 import TransitGuide from "../../../../components/TransitGuide";
 import AirportGuide from "../../../../components/AirportGuide";
@@ -107,7 +108,7 @@ function FactBlock({ id, m }) {
   return (
     <div className="factbox">
       <div className="factbox-h">
-        <b>{claim}</b>
+        <b>{linkify(claim)}</b>
         <span className="pill verified">✓ {f.verified}</span>
       </div>
       {f.value && (
@@ -125,7 +126,7 @@ function FactBlock({ id, m }) {
         <span>{ui.source || "Source"}:{" "}
           <a href={f.source} target="_blank" rel="noopener noreferrer">{f.source_name}</a>
         </span>
-        {notes && <p className="factnote">ⓘ {notes}</p>}
+        {notes && <p className="factnote">ⓘ {linkify(notes)}</p>}
       </div>
     </div>
   );
@@ -192,15 +193,23 @@ export default function PlanArticle({ params }) {
       )}
 
       {item.intro.map((p, i) => (
-        <p key={i} className={i === 0 ? "" : "lead"}>{p}</p>
+        <p key={i} className={i === 0 ? "" : "lead"}>{linkify(p)}</p>
       ))}
+
+      {/* Plain-language explainer callout (e.g. "What is K-ETA?") */}
+      {guide?.whatIsKeta && (
+        <aside className="keta-explainer">
+          <b className="keta-explainer-h">❓ {guide.whatIsKeta.title}</b>
+          <p>{linkify(guide.whatIsKeta.body)}</p>
+        </aside>
+      )}
 
       {/* TL;DR summary strip */}
       {guide?.tldr && (
         <div className="art-tldr">
           <span className="art-tldr-lbl">TL;DR</span>
           <ul>
-            {guide.tldr.map((t, i) => <li key={i}>{t}</li>)}
+            {guide.tldr.map((t, i) => <li key={i}>{linkify(t)}</li>)}
           </ul>
         </div>
       )}
