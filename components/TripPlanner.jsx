@@ -4,6 +4,8 @@ import { useState } from "react";
 import citiesData from "../data/cities.json";
 import factsData from "../data/facts.json";
 import spotImages from "../data/spot-images.json";
+import BookCTA from "./BookCTA";
+import { agodaCity, klookSearch } from "../lib/booking";
 
 const CITY_ORDER = citiesData.order;
 const CITIES = citiesData.cities;
@@ -209,6 +211,24 @@ export default function TripPlanner({ hero = {}, t = {} }) {
                 </details>
               );
             })()}
+          </div>
+
+          <div className="itin-book">
+            <BookCTA
+              partner="agoda"
+              icon="🏨"
+              label={`Find hotels in ${plan.city.name}`}
+              sub="Compare stays for your dates"
+              url={agodaCity(dest)}
+            />
+            <BookCTA
+              partner="klook"
+              icon="🎟️"
+              label={`Tours & tickets in ${plan.city.name}`}
+              sub="Day trips, passes, hanbok & more"
+              url={klookSearch(`${plan.city.name} Korea`)}
+              disclose
+            />
           </div>
 
           <div className="share">

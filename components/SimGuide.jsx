@@ -4,6 +4,8 @@
 // No prices are shown (HARNESS): plans vary, so we compare by type.
 
 import { linkify } from "../lib/linkify";
+import BookCTA from "./BookCTA";
+import { klookSearch } from "../lib/booking";
 
 export default function SimGuide({ guide }) {
   if (!guide) return null;
@@ -66,6 +68,16 @@ export default function SimGuide({ guide }) {
           </div>
         </section>
       )}
+
+      {/* Booking CTA — eSIM */}
+      <BookCTA
+        partner="klook"
+        icon="📲"
+        label="Get a Korea eSIM online"
+        sub="Instant delivery — data works the moment you land"
+        url={klookSearch("Korea eSIM")}
+        disclose
+      />
 
       {/* Pitfalls */}
       {g.pitfalls && (

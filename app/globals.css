@@ -170,6 +170,21 @@
     .hero-card{width:158px}
   }
 
+  /* ---------- BOOKING CTA (affiliate-ready) ---------- */
+  .bookcta{margin:14px 0 6px}
+  .bookcta-btn{display:flex;align-items:center;gap:14px;padding:14px 18px;border-radius:14px;text-decoration:none;
+    background:linear-gradient(135deg,var(--primary-soft),transparent);border:1px solid var(--border-strong);
+    transition:transform .15s ease,box-shadow .15s ease}
+  .bookcta-btn:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+  .bookcta-ic{font-size:26px;flex:none;line-height:1}
+  .bookcta-txt{display:flex;flex-direction:column;flex:1;min-width:0}
+  .bookcta-txt b{font-size:15.5px;color:var(--text);letter-spacing:-.01em}
+  .bookcta-txt em{font-style:normal;font-size:13px;color:var(--muted);margin-top:2px}
+  .bookcta-go{flex:none;font-weight:800;font-size:13.5px;color:var(--primary);white-space:nowrap}
+  .bookcta-disc{margin:7px 2px 0;font-size:11.5px;color:var(--faint);line-height:1.5}
+  .itin-book{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:14px 22px 2px}
+  @media (max-width:600px){.itin-book{grid-template-columns:1fr}.bookcta-go{display:none}}
+
   /* ---------- PLAN YOUR TRIP (top essentials band) ---------- */
   .plan-band{position:relative;padding:28px 0 34px;border-bottom:1px solid #DCE6F5}
   .plan-band::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;

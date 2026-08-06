@@ -4,6 +4,8 @@
 // pitfalls and FAQ. Fare numbers mirror the Verified-facts boxes (facts.json).
 
 import { linkify } from "../lib/linkify";
+import BookCTA from "./BookCTA";
+import { klookSearch } from "../lib/booking";
 
 function SectionPhoto({ s }) {
   if (!s?.img) return null;
@@ -127,6 +129,16 @@ export default function TransitGuide({ guide }) {
           {g.intercity.note && <p className="gv-legend">⚠ {g.intercity.note}</p>}
         </section>
       )}
+
+      {/* Booking CTA — KTX + transit pass */}
+      <BookCTA
+        partner="klook"
+        icon="🚄"
+        label="Book KTX / SRT train tickets & transit passes"
+        sub="Seoul ↔ Busan and more — reserve seats online"
+        url={klookSearch("Korea KTX train ticket")}
+        disclose
+      />
 
       {/* Apps */}
       {g.apps && (

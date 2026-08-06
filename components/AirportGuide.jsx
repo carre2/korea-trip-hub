@@ -4,6 +4,8 @@
 // Fare numbers mirror the Verified-facts boxes (facts.json).
 
 import { linkify } from "../lib/linkify";
+import BookCTA from "./BookCTA";
+import { klookSearch } from "../lib/booking";
 
 function SectionPhoto({ s }) {
   if (!s?.img) return null;
@@ -95,6 +97,16 @@ export default function AirportGuide({ guide }) {
           {g.taxiApps.tip && <p className="gv-legend">ⓘ {g.taxiApps.tip}</p>}
         </section>
       )}
+
+      {/* Booking CTA — airport transfer / AREX */}
+      <BookCTA
+        partner="klook"
+        icon="🚐"
+        label="Book an Incheon airport transfer or AREX ticket"
+        sub="Private pickup or express-train pass — skip the queue"
+        url={klookSearch("Incheon airport transfer AREX")}
+        disclose
+      />
 
       {/* Pitfalls */}
       {g.pitfalls && (
