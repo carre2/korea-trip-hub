@@ -2,6 +2,8 @@ import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, touristAttractionLd, SITE_NAME } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
 import { fact } from "../../../../lib/facts";
+import BookCTA from "../../../../components/BookCTA";
+import { klookSearch } from "../../../../lib/booking";
 import dest from "../../../../data/destinations.json";
 import destImages from "../../../../data/dest-images.json";
 import destJa from "../../../../data/destinations.ja.json";
@@ -109,6 +111,15 @@ export default function DestinationDetail({ params }) {
 
       <h2>{t.whyGo}</h2>
       {d.intro.map((p, i) => <p key={i} className={i ? "lead" : ""}>{p}</p>)}
+
+      <BookCTA
+        partner="klook"
+        icon="🎟️"
+        label="Book tours, tickets & experiences"
+        sub={`Skip-the-line entry, hanbok rental & day trips${(dest.cities.find((c) => c.key === d.city) || {}).name ? ` around ${(dest.cities.find((c) => c.key === d.city) || {}).name}` : ""}`}
+        url={klookSearch(d.name)}
+        disclose
+      />
 
       {d.tips?.length > 0 && (
         <>

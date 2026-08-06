@@ -1,6 +1,8 @@
 import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
 import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
+import BookCTA from "../../../components/BookCTA";
+import { klookSearch } from "../../../lib/booking";
 import food from "../../../data/food.json";
 import foodImages from "../../../data/food-images.json";
 import foodJa from "../../../data/food.ja.json";
@@ -98,6 +100,15 @@ export default function Food({ params }) {
             <Card key={i.n} item={i} tagBg="var(--amber-soft)" tagColor="var(--amber)" />
           ))}
         </div>
+
+        <BookCTA
+          partner="klook"
+          icon="👩‍🍳"
+          label="Book a Korean cooking class or food tour"
+          sub="Make kimchi, tteokbokki & more — or join a market food tour"
+          url={klookSearch("Korea cooking class food tour")}
+          disclose
+        />
 
         <h2 style={{ fontSize: 20, fontWeight: 800, margin: "24px 0 10px" }}>{t.tips}</h2>
         <ul className="tips">{tips.map((tip, i) => <li key={i}>{tip}</li>)}</ul>

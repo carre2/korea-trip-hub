@@ -6,6 +6,8 @@ import MapExplorer from "../../components/MapExplorer";
 import SpotifyKpop from "../../components/SpotifyKpop";
 import TripPlanner from "../../components/TripPlanner";
 import HeroSlider from "../../components/HeroSlider";
+import BookCTA from "../../components/BookCTA";
+import { klookSearch } from "../../lib/booking";
 import ReviewsSection from "../../components/ReviewsSection";
 import destData from "../../data/destinations.json";
 import destJa from "../../data/destinations.ja.json";
@@ -227,6 +229,25 @@ export default function Home({ params }) {
                 <div className="cbody"><h3>{c.n}</h3><p>{c.d}</p></div>
               </article>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ===== DEALS (booking) ===== */}
+      <section id="deals">
+        <div className="wrap">
+          <div className="sec-head">
+            <div>
+              <span className="eyebrow">Book &amp; save</span>
+              <h2>Popular Korea travel deals</h2>
+              <p>Tickets, passes and experiences most visitors book before they go — via Klook.</p>
+            </div>
+          </div>
+          <div className="deals-grid">
+            <BookCTA partner="klook" icon="📲" label="Korea eSIM" sub="Online in minutes — data on arrival" url={klookSearch("Korea eSIM")} />
+            <BookCTA partner="klook" icon="🚄" label="KTX / SRT train tickets" sub="Seoul ↔ Busan and beyond" url={klookSearch("Korea KTX train ticket")} />
+            <BookCTA partner="klook" icon="🎢" label="Theme parks & attraction tickets" sub="Everland, Lotte World, N Seoul Tower…" url={klookSearch("Korea theme park attraction ticket")} />
+            <BookCTA partner="klook" icon="👘" label="Hanbok, tours & experiences" sub="Palaces, day trips & hands-on classes" url={klookSearch("Korea hanbok tour experience")} disclose />
           </div>
         </div>
       </section>
