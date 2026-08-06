@@ -32,14 +32,14 @@ export default function Header({ locale }) {
           <span className="mark">◆</span> Korea<b>Trip</b>Hub
         </a>
         <nav className="links">
-          <a href="#plan">{t.plan}</a>
-          <a href="#planner">{t.planner}</a>
-          <a href="#dest">{t.destinations}</a>
-          <a href="#food">{t.food}</a>
-          <a href="#reviews">{t.reviews}</a>
-          <a href="#kculture">{t.kculture}</a>
-          <a href="#map">{t.map}</a>
-          <a href="#help">{t.help}</a>
+          <a href={`/${locale}/#plan`}>{t.plan}</a>
+          <a href={`/${locale}/#planner`}>{t.planner}</a>
+          <a href={`/${locale}/#dest`}>{t.destinations}</a>
+          <a href={`/${locale}/#food`}>{t.food}</a>
+          <a href={`/${locale}/#reviews`}>{t.reviews}</a>
+          <a href={`/${locale}/#kculture`}>{t.kculture}</a>
+          <a href={`/${locale}/#map`}>{t.map}</a>
+          <a href={`/${locale}/#help`}>{t.help}</a>
         </nav>
         <div className="nav-right">
           <label className="langsel" title="Choose language">
