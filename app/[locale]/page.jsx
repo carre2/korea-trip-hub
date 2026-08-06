@@ -5,6 +5,7 @@ import { fact, factsUpdated } from "../../lib/facts";
 import MapExplorer from "../../components/MapExplorer";
 import SpotifyKpop from "../../components/SpotifyKpop";
 import TripPlanner from "../../components/TripPlanner";
+import HeroSlider from "../../components/HeroSlider";
 import ReviewsSection from "../../components/ReviewsSection";
 import destData from "../../data/destinations.json";
 import destJa from "../../data/destinations.ja.json";
@@ -106,6 +107,9 @@ export default function Home({ params }) {
   return (
     <>
       <JsonLd data={webSiteLd(locale, m.meta.homeTitle, m.meta.homeDesc)} />
+
+      {/* ===== HERO (video filmstrip) ===== */}
+      <HeroSlider locale={locale} />
 
       {/* ===== PLAN YOUR TRIP (TOP) ===== */}
       <div className="plan-band flagbg" id="plan">
