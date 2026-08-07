@@ -152,9 +152,15 @@
   .hero2-cta{display:inline-block;margin-top:18px;background:#59e0c8;color:#0b1020;font-weight:800;font-size:15px;
     padding:11px 22px;border-radius:999px;text-decoration:none;transition:transform .15s,box-shadow .15s}
   .hero2-cta:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(89,224,200,.35)}
-  .hero2-strip{flex:1;display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;
-    padding:6px 4px 10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .hero2-right{flex:1;min-width:0;display:flex;flex-direction:column;gap:10px}
+  .hero2-strip{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;
+    padding:6px 4px 4px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
   .hero2-strip::-webkit-scrollbar{display:none}
+  .hero2-dots{display:flex;gap:8px;justify-content:center;align-items:center;padding-top:2px}
+  .hero2-dot{width:8px;height:8px;padding:0;border:0;border-radius:999px;background:rgba(255,255,255,.30);
+    cursor:pointer;transition:width .2s ease,background .2s ease}
+  .hero2-dot.on{width:24px;background:#59e0c8}
+  .hero2-dot:hover{background:rgba(255,255,255,.6)}
   .hero-card{flex:0 0 auto;width:212px;aspect-ratio:3/4;border-radius:18px;overflow:hidden;position:relative;
     scroll-snap-align:center;text-decoration:none;box-shadow:0 12px 30px rgba(0,0,0,.45);background:#0b1020;
     transition:transform .2s ease}

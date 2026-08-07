@@ -1,13 +1,36 @@
 "use client";
 
-// Home hero: brand headline + an auto-scrolling filmstrip of short looping
-// Korea clips (muted, lazy — videos only play while on screen). Each card links
-// to the matching section. Static-export friendly (client component, no SSR data).
-import { useEffect, useRef } from "react";
+// Home hero: brand headline + an auto-advancing filmstrip of short looping
+// Korea clips (muted, lazy). Dots below indicate/seek slides. Static-export safe.
+import { useEffect, useRef, useState } from "react";
 import slides from "../data/hero.json";
 
 export default function HeroSlider({ locale = "en" }) {
   const stripRef = useRef(null);
+  const [active, setActive] = useState(0);
+
+  // Center card i inside the strip (robust — scrolls the strip, not the page).
+  function scrollToCard(i) {
+    const strip = stripRef.current;
+    if (!strip) return;
+    const card = strip.children[i];
+    if (!card) return;
+    const left = card.offsetLeft - (strip.clientWidth - card.clientWidth) / 2;
+    strip.scrollTo({ left: Math.max(0, left), behavior: "smooth" });
+  }
+
+  // Which card is closest to the strip's center right now.
+  function nearestIndex() {
+    const strip = stripRef.current;
+    if (!strip) return 0;
+    const center = strip.scrollLeft + strip.clientWidth / 2;
+    let best = 0, bestD = Infinity;
+    Array.from(strip.children).forEach((c, i) => {
+      const d = Math.abs(c.offsetLeft + c.clientWidth / 2 - center);
+      if (d < bestD) { bestD = d; best = i; }
+    });
+    return best;
+  }
 
   // Play a card's video only while it is on screen (saves CPU / data).
   useEffect(() => {
@@ -15,34 +38,37 @@ export default function HeroSlider({ locale = "en" }) {
     if (!strip) return;
     const vids = strip.querySelectorAll("video");
     const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((e) => {
-          const v = e.target;
-          if (e.isIntersecting) { const p = v.play(); if (p && p.catch) p.catch(() => {}); }
-          else v.pause();
-        });
-      },
+      (entries) => entries.forEach((e) => {
+        const v = e.target;
+        if (e.isIntersecting) { const p = v.play(); if (p && p.catch) p.catch(() => {}); }
+        else v.pause();
+      }),
       { threshold: 0.35 }
     );
     vids.forEach((v) => io.observe(v));
     return () => io.disconnect();
   }, []);
 
-  // Gentle auto-advance; stops once the visitor scrolls the strip themselves.
+  // Auto-advance every 5s from wherever the strip currently is.
+  useEffect(() => {
+    const id = setInterval(() => {
+      if (!stripRef.current) return;
+      scrollToCard((nearestIndex() + 1) % slides.length);
+    }, 5000);
+    return () => clearInterval(id);
+  }, []);
+
+  // Keep the active dot in sync as the strip scrolls (auto or manual).
   useEffect(() => {
     const strip = stripRef.current;
     if (!strip) return;
-    let i = 0, stopped = false;
-    const stop = () => { stopped = true; };
-    strip.addEventListener("pointerdown", stop, { once: true });
-    const id = setInterval(() => {
-      if (stopped) return;
-      const cards = strip.children;
-      if (!cards.length) return;
-      i = (i + 1) % cards.length;
-      cards[i].scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
-    }, 4200);
-    return () => { clearInterval(id); strip.removeEventListener("pointerdown", stop); };
+    let raf = 0;
+    const onScroll = () => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => setActive(nearestIndex()));
+    };
+    strip.addEventListener("scroll", onScroll, { passive: true });
+    return () => { strip.removeEventListener("scroll", onScroll); cancelAnimationFrame(raf); };
   }, []);
 
   return (
@@ -54,24 +80,26 @@ export default function HeroSlider({ locale = "en" }) {
           <a className="hero2-cta" href={`/${locale}/#plan`}>Plan your trip →</a>
         </div>
 
-        <div className="hero2-strip" ref={stripRef}>
-          {slides.map((s) => (
-            <a key={s.label} className="hero-card" href={`/${locale}${s.href}`}>
-              <video
-                src={s.video}
-                poster={s.poster}
-                muted
-                loop
-                playsInline
-                preload="none"
-                aria-label={s.label}
+        <div className="hero2-right">
+          <div className="hero2-strip" ref={stripRef}>
+            {slides.map((s) => (
+              <a key={s.label} className="hero-card" href={`/${locale}${s.href}`}>
+                <video src={s.video} poster={s.poster} muted loop playsInline preload="none" aria-label={s.label} />
+                <span className="hero-card-lbl">{s.label}<em>{s.sub}</em></span>
+              </a>
+            ))}
+          </div>
+          <div className="hero2-dots" role="tablist" aria-label="Hero slides">
+            {slides.map((s, i) => (
+              <button
+                key={s.label}
+                className={`hero2-dot${i === active ? " on" : ""}`}
+                aria-label={`Show ${s.label}`}
+                aria-selected={i === active}
+                onClick={() => scrollToCard(i)}
               />
-              <span className="hero-card-lbl">
-                {s.label}
-                <em>{s.sub}</em>
-              </span>
-            </a>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>
