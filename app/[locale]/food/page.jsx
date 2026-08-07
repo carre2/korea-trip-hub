@@ -2,6 +2,7 @@ import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
 import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
 import BookCTA from "../../../components/BookCTA";
+import NearbyEats from "../../../components/NearbyEats";
 import { klookSearch } from "../../../lib/booking";
 import food from "../../../data/food.json";
 import foodImages from "../../../data/food-images.json";
@@ -55,7 +56,11 @@ function Card({ item, tagBg, tagColor }) {
           </span>
         )}
       </div>
-      <div className="cbody"><h3>{item.n}</h3><p>{item.d}</p></div>
+      <div className="cbody">
+        <h3>{item.n}</h3>
+        <p>{item.d}</p>
+        {item.mapq && <NearbyEats q={item.mapq} label={item.n} />}
+      </div>
     </article>
   );
 }
