@@ -7,6 +7,7 @@ import SpotifyKpop from "../../components/SpotifyKpop";
 import TripPlanner from "../../components/TripPlanner";
 import HeroSlider from "../../components/HeroSlider";
 import BookCTA from "../../components/BookCTA";
+import NearbyEats from "../../components/NearbyEats";
 import { klookSearch } from "../../lib/booking";
 import ReviewsSection from "../../components/ReviewsSection";
 import destData from "../../data/destinations.json";
@@ -214,7 +215,7 @@ export default function Home({ params }) {
                 <div className={`thumb${foodImages[c.key] ? " thumb-img" : ""}`} style={foodImages[c.key] ? undefined : { background: c.grad }}>
                   {foodImages[c.key] ? <img src={foodImages[c.key].img} alt={c.n} loading="lazy" /> : c.icon}
                 </div>
-                <div className="cbody"><h3>{c.n}</h3><p>{c.d}</p></div>
+                <div className="cbody"><h3>{c.n}</h3><p>{c.d}</p>{c.mapq && <NearbyEats q={c.mapq} label={c.n} />}</div>
               </article>
             ))}
           </div>
@@ -226,7 +227,7 @@ export default function Home({ params }) {
                   {foodImages[c.key] ? <img src={foodImages[c.key].img} alt={c.n} loading="lazy" /> : c.icon}
                   <span className="pill" style={{ position: "absolute", bottom: 12, left: 12, background: "var(--amber-soft)", color: "var(--amber)" }}>{c.tag}</span>
                 </div>
-                <div className="cbody"><h3>{c.n}</h3><p>{c.d}</p></div>
+                <div className="cbody"><h3>{c.n}</h3><p>{c.d}</p>{c.mapq && <NearbyEats q={c.mapq} label={c.n} />}</div>
               </article>
             ))}
           </div>
