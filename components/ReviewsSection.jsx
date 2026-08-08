@@ -43,7 +43,11 @@ export default function ReviewsSection({ t, locale }) {
 
       {filtered.length === 0 ? (
         <div className="rev-empty">
-          <p>{t.empty}</p>
+          <div className="rev-empty-ic">✍️</div>
+          <p className="rev-empty-h">{t.empty}</p>
+          <p className="rev-empty-sub">
+            {t.emptyPrompt || "Been to Korea? Share one quick tip — a great meal, a money-saver, or a “wish I’d known”. It helps the next traveler."}
+          </p>
           {REVIEW_FORM_URL ? (
             <a className="btn" href={REVIEW_FORM_URL} target="_blank" rel="noopener noreferrer">✍️ {t.cta}</a>
           ) : (

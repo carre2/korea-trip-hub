@@ -3,6 +3,7 @@ import { pageMeta, breadcrumbLd, articleLd, faqLd, SITE_NAME, REVIEWED } from ".
 import JsonLd from "../../../../components/JsonLd";
 import { fact } from "../../../../lib/facts";
 import { linkify } from "../../../../lib/linkify";
+import { REVIEW_FORM_URL } from "../../../../lib/config";
 import GuideVisual from "../../../../components/GuideVisual";
 import TransitGuide from "../../../../components/TransitGuide";
 import AirportGuide from "../../../../components/AirportGuide";
@@ -290,6 +291,12 @@ export default function PlanArticle({ params }) {
             ))}
           </div>
         </>
+      )}
+
+      {REVIEW_FORM_URL && (
+        <a className="tip-cta" href={REVIEW_FORM_URL} target="_blank" rel="noopener noreferrer">
+          💬 {m.reviews?.tipCta || "Been to Korea? Share a quick tip that helped you"} →
+        </a>
       )}
 
       <p className="art-disclaimer">
