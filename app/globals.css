@@ -201,6 +201,22 @@
     border-radius:8px;padding:6px 10px;cursor:pointer;transition:.15s}
   .nearby-menu button:hover{background:var(--surface-2);transform:translateY(-1px)}
   .nearby-hint{font-size:11px;color:var(--faint);width:100%}
+  /* Where to stay */
+  .stay-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0 0}
+  .stay-area{border:1px solid var(--border);border-radius:14px;padding:16px 18px;background:var(--surface);border-left:4px solid var(--primary)}
+  .stay-tone-amber{border-left-color:#B96A0B}
+  .stay-tone-green{border-left-color:#0E9280}
+  .stay-tone-blue{border-left-color:var(--primary)}
+  .stay-area-h{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .stay-area-h h3{font-size:17px;font-weight:800;margin:0}
+  .stay-best{font-size:11.5px;font-weight:700;color:var(--muted);background:var(--surface-2);border-radius:999px;padding:3px 10px;white-space:nowrap}
+  .stay-vibe{font-size:14px;line-height:1.55;color:var(--text);margin:9px 0 0}
+  .stay-near{font-size:12.5px;color:var(--muted);margin:7px 0 0}
+  .stay-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:11px}
+  .stay-links a{font-size:12.5px;font-weight:700;color:var(--primary);text-decoration:none;background:var(--primary-soft);
+    border:1px solid var(--border-strong);border-radius:8px;padding:5px 11px;transition:.15s}
+  .stay-links a:hover{background:var(--surface-2)}
+  @media (max-width:600px){.stay-grid{grid-template-columns:1fr}}
   @media (max-width:600px){.itin-book,.deals-grid{grid-template-columns:1fr}.bookcta-go{display:none}}
 
   /* ---------- PLAN YOUR TRIP (top essentials band) ---------- */

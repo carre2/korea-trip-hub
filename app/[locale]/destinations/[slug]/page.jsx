@@ -5,6 +5,7 @@ import { fact } from "../../../../lib/facts";
 import BookCTA from "../../../../components/BookCTA";
 import { klookSearch } from "../../../../lib/booking";
 import dest from "../../../../data/destinations.json";
+import stayData from "../../../../data/stay.json";
 import destImages from "../../../../data/dest-images.json";
 import destJa from "../../../../data/destinations.ja.json";
 import destZh from "../../../../data/destinations.zh.json";
@@ -120,6 +121,14 @@ export default function DestinationDetail({ params }) {
         url={klookSearch(d.name)}
         disclose
       />
+
+      {stayData.cities[d.city] && (
+        <p style={{ margin: "2px 0 0" }}>
+          <a href={`/${locale}/stay/${d.city}/`} style={{ color: "var(--primary)", fontWeight: 700, textDecoration: "none", fontSize: 14 }}>
+            🏨 Where to stay in {stayData.cities[d.city].name} →
+          </a>
+        </p>
+      )}
 
       {d.tips?.length > 0 && (
         <>

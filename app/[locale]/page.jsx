@@ -172,7 +172,10 @@ export default function Home({ params }) {
               <h2>{m.dest.title}</h2>
               <p>{m.dest.sub}</p>
             </div>
-            <a className="btn ghost" href={`/${locale}/destinations/`}>{m.dest.browseAll} →</a>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+              <a className="btn ghost" href={`/${locale}/stay/`}>🏨 Where to stay →</a>
+              <a className="btn ghost" href={`/${locale}/destinations/`}>{m.dest.browseAll} →</a>
+            </div>
           </div>
           <div className="grid g4">
             {["myeongdong", "n-seoul-tower", "gyeongbokgung", "bukhansan"].map((slug) => {
