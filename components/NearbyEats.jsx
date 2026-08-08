@@ -5,7 +5,7 @@
 // via API, so we open their apps where the user can see & sort by rating (4★+).
 import { useState } from "react";
 
-export default function NearbyEats({ q, label }) {
+export default function NearbyEats({ q, label, buttonText = "Find near me", hint = "Sort by 4★+ in the app" }) {
   const [open, setOpen] = useState(false);
   const [coords, setCoords] = useState(null);
 
@@ -39,14 +39,14 @@ export default function NearbyEats({ q, label }) {
   return (
     <div className="nearby">
       <button type="button" className="nearby-btn" onClick={toggle} aria-expanded={open} title={label}>
-        📍 Find near me
+        📍 {buttonText}
       </button>
       {open && (
         <div className="nearby-menu" role="menu">
           <button type="button" onClick={() => openMap("google")}>🌐 Google</button>
           <button type="button" onClick={() => openMap("naver")}>🟢 Naver</button>
           <button type="button" onClick={() => openMap("kakao")}>🟡 Kakao</button>
-          <span className="nearby-hint">Sort by 4★+ in the app</span>
+          {hint && <span className="nearby-hint">{hint}</span>}
         </div>
       )}
     </div>

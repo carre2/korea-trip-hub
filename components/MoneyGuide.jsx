@@ -3,6 +3,7 @@
 // (FxRates client component), where-to-exchange cards, payment methods,
 // pitfalls, FAQ and official links.
 import FxRates from "./FxRates";
+import NearbyEats from "./NearbyEats";
 import { linkify } from "../lib/linkify";
 
 export default function MoneyGuide({ guide, fxLabels }) {
@@ -40,6 +41,12 @@ export default function MoneyGuide({ guide, fxLabels }) {
               </div>
             ))}
           </div>
+          <NearbyEats
+            q="환전소"
+            label="Currency exchange"
+            buttonText="Find a currency exchange near me"
+            hint="Licensed booths (e.g. Myeongdong) & banks usually beat airport rates"
+          />
         </section>
       )}
 
