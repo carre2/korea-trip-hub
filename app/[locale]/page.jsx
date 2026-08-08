@@ -173,6 +173,7 @@ export default function Home({ params }) {
               <p>{m.dest.sub}</p>
             </div>
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+              <a className="btn ghost" href={`/${locale}/itinerary/`}>🗺️ Itineraries →</a>
               <a className="btn ghost" href={`/${locale}/stay/`}>🏨 Where to stay →</a>
               <a className="btn ghost" href={`/${locale}/destinations/`}>{m.dest.browseAll} →</a>
             </div>

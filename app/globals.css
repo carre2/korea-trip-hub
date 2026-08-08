@@ -217,6 +217,20 @@
     border:1px solid var(--border-strong);border-radius:8px;padding:5px 11px;transition:.15s}
   .stay-links a:hover{background:var(--surface-2)}
   @media (max-width:600px){.stay-grid{grid-template-columns:1fr}}
+  /* Ready-made itineraries */
+  .itin-days{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-direction:column;gap:14px}
+  .itin-day{border:1px solid var(--border);border-radius:14px;padding:14px 18px;background:var(--surface)}
+  .itin-day-h{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+  .itin-day-n{font-family:var(--mono);font-size:12px;font-weight:800;letter-spacing:.04em;color:#fff;background:#0E9280;border-radius:999px;padding:4px 12px;flex:none}
+  .itin-day-h b{font-size:16px;letter-spacing:-.01em}
+  .itin-day-stops{display:flex;flex-direction:column;gap:9px}
+  .itin-stop{display:grid;grid-template-columns:80px 1fr;gap:12px;align-items:start}
+  .itin-stop-t{font-size:12.5px;font-weight:700;color:var(--muted);padding-top:1px}
+  .itin-stop p{margin:0;font-size:14px;line-height:1.55}
+  .itin-stop a{color:var(--primary);font-weight:650;text-decoration:none}
+  .itin-crosslinks{display:flex;flex-wrap:wrap;gap:14px;margin-top:8px}
+  .itin-crosslinks a{color:var(--primary);font-weight:700;text-decoration:none;font-size:14px}
+  @media (max-width:600px){.itin-stop{grid-template-columns:64px 1fr;gap:8px}}
   @media (max-width:600px){.itin-book,.deals-grid{grid-template-columns:1fr}.bookcta-go{display:none}}
 
   /* ---------- PLAN YOUR TRIP (top essentials band) ---------- */
