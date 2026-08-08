@@ -4,64 +4,116 @@
     "seoul": {
       "name": "Seoul",
       "flag": "🏙️",
-      "metaTitle": "Where to Stay in Seoul: Best Areas & Neighborhoods (2026) — Korea Trip Hub",
+      "metaTitle": "Where to Stay in Seoul: Best Areas & Neighborhoods (2026)",
       "intro": "Seoul is huge, but the subway makes any neighborhood workable — so choose by the vibe you want. First-timers do best somewhere central like Myeongdong or Insadong; night owls love Hongdae; and Gangnam is the modern, upscale side of the river.",
       "areas": [
-        { "name": "Myeongdong", "best": "First-timers & shopping", "tone": "amber",
+        {
+          "name": "Myeongdong",
+          "best": "First-timers & shopping",
+          "tone": "amber",
           "vibe": "The classic first-time base — central, packed with hotels, street food and beauty shops, and walkable to Gyeongbokgung and N Seoul Tower.",
-          "near": "Airport bus stops here; Lines 4 & 2. Can be busy and touristy." },
-        { "name": "Hongdae", "best": "Nightlife & budget", "tone": "green",
+          "near": "Airport bus stops here; Lines 4 & 2. Can be busy and touristy."
+        },
+        {
+          "name": "Hongdae",
+          "best": "Nightlife & budget",
+          "tone": "green",
           "vibe": "Young, artsy university district with live buskers, indie shops, cafes and the city's best nightlife. Great value guesthouses and hostels.",
-          "near": "AREX runs direct to Incheon Airport (~50 min). Lines 2 & 6." },
-        { "name": "Gangnam", "best": "Upscale & modern", "tone": "blue",
+          "near": "AREX runs direct to Incheon Airport (~50 min). Lines 2 & 6."
+        },
+        {
+          "name": "Gangnam",
+          "best": "Upscale & modern",
+          "tone": "blue",
           "vibe": "Sleek, business-y and pricey — luxury hotels, COEX mall, K-pop spots around Apgujeong. Further from the historic centre.",
-          "near": "Lines 2, 3, 7 & Sinbundang; convenient for Suseo/SRT trains." },
-        { "name": "Insadong & Jongno", "best": "Culture & palaces", "tone": "amber",
+          "near": "Lines 2, 3, 7 & Sinbundang; convenient for Suseo/SRT trains."
+        },
+        {
+          "name": "Insadong & Jongno",
+          "best": "Culture & palaces",
+          "tone": "amber",
           "vibe": "Traditional heart of Seoul — tea houses, galleries, hanok stays and a short walk to Gyeongbokgung, Bukchon and Changdeokgung. Quieter at night.",
-          "near": "Lines 1, 3 & 5. Very walkable for sightseeing." },
-        { "name": "Itaewon", "best": "International food & diversity", "tone": "green",
+          "near": "Lines 1, 3 & 5. Very walkable for sightseeing."
+        },
+        {
+          "name": "Itaewon",
+          "best": "International food & diversity",
+          "tone": "green",
           "vibe": "Seoul's most international quarter — global restaurants, the most halal options in the city, and a lively bar scene.",
-          "near": "Line 6; close to Yongsan and N Seoul Tower." },
-        { "name": "Dongdaemun", "best": "Shopping & budget", "tone": "blue",
+          "near": "Line 6; close to Yongsan and N Seoul Tower."
+        },
+        {
+          "name": "Dongdaemun",
+          "best": "Shopping & budget",
+          "tone": "blue",
           "vibe": "Around-the-clock fashion malls, the futuristic DDP and cheap late-night eats. Handy if you want to shop till dawn.",
-          "near": "Lines 1, 2 & 4; central and well-connected." }
+          "near": "Lines 1, 2 & 4; central and well-connected."
+        }
       ]
     },
     "busan": {
       "name": "Busan",
       "flag": "🌊",
-      "metaTitle": "Where to Stay in Busan: Best Areas (Haeundae, Seomyeon…) 2026 — Korea Trip Hub",
+      "metaTitle": "Where to Stay in Busan: Best Areas & Beaches (2026)",
       "intro": "Busan is a beach city, so most visitors base themselves near the sea. Haeundae is the resort favourite; Gwangalli has the best night view; Seomyeon is the central transport-and-food hub; and Nampo-dong is the old-town market side.",
       "areas": [
-        { "name": "Haeundae", "best": "Beach & resorts", "tone": "blue",
+        {
+          "name": "Haeundae",
+          "best": "Beach & resorts",
+          "tone": "blue",
           "vibe": "Busan's most famous beach — high-rise resort hotels, the aquarium, Blueline Park sky capsule and a lively seafront.",
-          "near": "Line 2. A bit removed from the old town, but the beach makes up for it." },
-        { "name": "Gwangalli", "best": "Beach views & cafes", "tone": "green",
+          "near": "Line 2. A bit removed from the old town, but the beach makes up for it."
+        },
+        {
+          "name": "Gwangalli",
+          "best": "Beach views & cafes",
+          "tone": "green",
           "vibe": "Relaxed beach with a front-row view of the Gwangan Bridge light show, plus a young cafe-and-bar strip. Great for sunset.",
-          "near": "Line 2 (Gwangan); a short hop from Haeundae." },
-        { "name": "Seomyeon", "best": "Central & nightlife", "tone": "amber",
+          "near": "Line 2 (Gwangan); a short hop from Haeundae."
+        },
+        {
+          "name": "Seomyeon",
+          "best": "Central & nightlife",
+          "tone": "amber",
           "vibe": "Busan's downtown crossroads — shopping, endless restaurants and nightlife, and the easiest transfers across the city.",
-          "near": "Lines 1 & 2 interchange; the most central base." },
-        { "name": "Nampo-dong & Jagalchi", "best": "Old town & markets", "tone": "amber",
+          "near": "Lines 1 & 2 interchange; the most central base."
+        },
+        {
+          "name": "Nampo-dong & Jagalchi",
+          "best": "Old town & markets",
+          "tone": "amber",
           "vibe": "Historic Busan — Jagalchi fish market, Gukje market, BIFF Square street food and Gamcheon Culture Village nearby. Good value.",
-          "near": "Line 1; walkable, atmospheric, budget-friendly." }
+          "near": "Line 1; walkable, atmospheric, budget-friendly."
+        }
       ]
     },
     "jeju": {
       "name": "Jeju",
       "flag": "🌴",
-      "metaTitle": "Where to Stay in Jeju: Jeju City vs Seogwipo & Jungmun (2026) — Korea Trip Hub",
+      "metaTitle": "Where to Stay in Jeju: North vs South (2026)",
       "intro": "Jeju splits into a north side (Jeju City — where you land) and a south side (Seogwipo — warmer, greener, closer to the famous nature). You'll want a rental car either way; pick the side nearest the sights you care about.",
       "areas": [
-        { "name": "Jeju City (north)", "best": "Arrival & convenience", "tone": "blue",
+        {
+          "name": "Jeju City (north)",
+          "best": "Arrival & convenience",
+          "tone": "blue",
           "vibe": "Where the airport, Dongmun night market and most buses are — the practical, well-serviced base with the widest hotel choice.",
-          "near": "Jeju International Airport; best for short trips and nightlife." },
-        { "name": "Seogwipo (south)", "best": "Nature & waterfalls", "tone": "green",
+          "near": "Jeju International Airport; best for short trips and nightlife."
+        },
+        {
+          "name": "Seogwipo (south)",
+          "best": "Nature & waterfalls",
+          "tone": "green",
           "vibe": "Warmer, lush southern hub near Cheonjiyeon Waterfall, Jusangjeolli cliffs and Seongsan Ilchulbong — closer to Jeju's postcard scenery.",
-          "near": "~1 hr from the airport by car; scenic and calmer." },
-        { "name": "Jungmun", "best": "Luxury resorts & beaches", "tone": "amber",
+          "near": "~1 hr from the airport by car; scenic and calmer."
+        },
+        {
+          "name": "Jungmun",
+          "best": "Luxury resorts & beaches",
+          "tone": "amber",
           "vibe": "Jeju's resort belt — big-name beach resorts, golf and the Jungmun Saekdal beach, ideal for a relaxed stay-put holiday.",
-          "near": "Near Seogwipo, south coast; resort-focused." }
+          "near": "Near Seogwipo, south coast; resort-focused."
+        }
       ]
     }
   }

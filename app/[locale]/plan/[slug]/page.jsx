@@ -1,5 +1,5 @@
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
-import { pageMeta, breadcrumbLd, articleLd, faqLd, SITE_NAME } from "../../../../lib/seo";
+import { pageMeta, breadcrumbLd, articleLd, faqLd, SITE_NAME, REVIEWED } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
 import { fact } from "../../../../lib/facts";
 import { linkify } from "../../../../lib/linkify";
@@ -162,6 +162,7 @@ export default function PlanArticle({ params }) {
               headline: title,
               description: item.tagline,
               image: guide.hero?.img,
+              dateModified: REVIEWED.iso,
             }),
           guide && faqLd(guide.faq?.items, locale),
         ]}
@@ -176,6 +177,7 @@ export default function PlanArticle({ params }) {
         <div className="art-meta">
           {guide.kicker && <span className="art-kicker">{guide.kicker}</span>}
           {guide.readingTime && <span className="art-read">⏱ {guide.readingTime}</span>}
+          <span className="art-read art-updated">🔄 Updated {REVIEWED.label}</span>
         </div>
       )}
       <p className="art-tagline">{item.tagline}</p>
