@@ -24,52 +24,149 @@
     "Changing money? City exchange booths usually beat the airport; always pay card charges in KRW, not your home currency."
   ],
   "highlights": [
-    { "icon": "💳", "tone": "green", "title": "Cards are king", "body": "Credit and debit cards (and phone contactless) are accepted almost everywhere — shops, restaurants, cafés, taxis, convenience stores. A Visa/Mastercard works in the vast majority of places." },
-    { "icon": "🪙", "tone": "amber", "title": "But keep some cash", "body": "Traditional markets, street-food stalls and some small local shops are cash-first. A little won in your pocket avoids awkward moments." },
-    { "icon": "🙅", "tone": "blue", "title": "No tipping", "body": "Tipping isn't part of the culture. You don't tip at restaurants or in taxis — the listed price is the final price." }
+    {
+      "icon": "💳",
+      "tone": "green",
+      "title": "Cards are king",
+      "body": "Credit and debit cards (and phone contactless) are accepted almost everywhere — shops, restaurants, cafés, taxis, convenience stores. A Visa/Mastercard works in the vast majority of places."
+    },
+    {
+      "icon": "🪙",
+      "tone": "amber",
+      "title": "But keep some cash",
+      "body": "Traditional markets, street-food stalls and some small local shops are cash-first. A little won in your pocket avoids awkward moments."
+    },
+    {
+      "icon": "🙅",
+      "tone": "blue",
+      "title": "No tipping",
+      "body": "Tipping isn't part of the culture. You don't tip at restaurants or in taxis — the listed price is the final price."
+    }
   ],
   "exchange": {
     "title": "Where to change money",
     "intro": "You rarely need much cash, but when you do, rates vary a lot by where you change it.",
     "options": [
-      { "icon": "🏙️", "name": "City exchange booths", "tone": "green", "d": "Licensed booths in areas like Myeongdong and Namdaemun usually give the best rates. Compare a couple and check for 'no commission'." },
-      { "icon": "🏦", "name": "Banks", "tone": "blue", "d": "Reliable, fair rates, but weekday hours only and slower. Good for larger amounts." },
-      { "icon": "🏧", "name": "'Global' ATMs", "tone": "neutral", "d": "ATMs marked 'Global' accept foreign cards and dispense won. Handy, but watch for a per-withdrawal fee (often ₩3,000–5,000)." },
-      { "icon": "🛫", "name": "Airport booths", "tone": "amber", "d": "Convenient on arrival, but rates are usually the worst. Change just enough to get into the city, then use a city booth or card." }
+      {
+        "icon": "🏙️",
+        "name": "City exchange booths",
+        "tone": "green",
+        "d": "Licensed booths in areas like Myeongdong and Namdaemun usually give the best rates. Compare a couple and check for 'no commission'."
+      },
+      {
+        "icon": "🏦",
+        "name": "Banks",
+        "tone": "blue",
+        "d": "Reliable, fair rates, but weekday hours only and slower. Good for larger amounts."
+      },
+      {
+        "icon": "🏧",
+        "name": "'Global' ATMs",
+        "tone": "neutral",
+        "d": "ATMs marked 'Global' accept foreign cards and dispense won. Handy, but watch for a per-withdrawal fee (often ₩3,000–5,000)."
+      },
+      {
+        "icon": "🛫",
+        "name": "Airport booths",
+        "tone": "amber",
+        "d": "Convenient on arrival, but rates are usually the worst. Change just enough to get into the city, then use a city booth or card."
+      }
     ]
   },
   "payments": {
     "title": "Cards, contactless & prepaid cards",
     "intro": "How to actually pay day to day:",
     "items": [
-      { "icon": "💳", "t": "Cards & contactless", "d": "Tap or insert almost anywhere. Tell the terminal to charge in KRW (won), not your home currency — see the pitfalls below." },
-      { "icon": "🚇", "t": "T-money", "d": "The transit card also pays at many convenience stores and vending machines. Top it up with cash." },
-      { "icon": "🎫", "t": "WOWPASS", "d": "A popular tourist prepaid card: load foreign cash at a kiosk to get a Korean card that also works as T-money. Useful if your card gets declined." },
-      { "icon": "📱", "t": "Mobile pay", "d": "Apple Pay / Google Pay work in many places now, but coverage still trails physical cards — carry a card too." }
+      {
+        "icon": "💳",
+        "t": "Cards & contactless",
+        "d": "Tap or insert almost anywhere. Tell the terminal to charge in KRW (won), not your home currency — see the pitfalls below."
+      },
+      {
+        "icon": "🚇",
+        "t": "T-money",
+        "d": "The transit card also pays at many convenience stores and vending machines. Top it up with cash."
+      },
+      {
+        "icon": "🎫",
+        "t": "WOWPASS",
+        "d": "A popular tourist prepaid card: load foreign cash at a kiosk to get a Korean card that also works as T-money. Useful if your card gets declined."
+      },
+      {
+        "icon": "📱",
+        "t": "Mobile pay",
+        "d": "Apple Pay / Google Pay work in many places now, but coverage still trails physical cards — carry a card too."
+      }
     ]
   },
   "pitfalls": {
     "title": "Money mistakes to avoid",
     "items": [
-      { "icon": "🔄", "t": "Paying in your home currency (DCC)", "d": "If a card terminal offers to charge in USD/EUR/etc. instead of KRW, decline — 'dynamic currency conversion' adds a poor markup. Always choose KRW." },
-      { "icon": "🛫", "t": "Changing a lot at the airport", "d": "Airport rates are usually the worst. Change only what you need to reach the city." },
-      { "icon": "🏧", "t": "Surprise ATM fees", "d": "Foreign-card ATMs may charge ₩3,000–5,000 per withdrawal. Take out a bit more at once rather than many small withdrawals." },
-      { "icon": "💵", "t": "Carrying too much cash", "d": "Cards cover most spending. You usually need far less cash than you think." },
-      { "icon": "💁", "t": "Trying to tip", "d": "It's simply not expected and can cause confusion. Don't add a tip." }
+      {
+        "icon": "🔄",
+        "t": "Paying in your home currency (DCC)",
+        "d": "If a card terminal offers to charge in USD/EUR/etc. instead of KRW, decline — 'dynamic currency conversion' adds a poor markup. Always choose KRW."
+      },
+      {
+        "icon": "🛫",
+        "t": "Changing a lot at the airport",
+        "d": "Airport rates are usually the worst. Change only what you need to reach the city."
+      },
+      {
+        "icon": "🏧",
+        "t": "Surprise ATM fees",
+        "d": "Foreign-card ATMs may charge ₩3,000–5,000 per withdrawal. Take out a bit more at once rather than many small withdrawals."
+      },
+      {
+        "icon": "💵",
+        "t": "Carrying too much cash",
+        "d": "Cards cover most spending. You usually need far less cash than you think."
+      },
+      {
+        "icon": "💁",
+        "t": "Trying to tip",
+        "d": "It's simply not expected and can cause confusion. Don't add a tip."
+      }
     ]
   },
   "faq": {
     "title": "Money FAQ",
     "items": [
-      { "q": "Do I need cash, or is a card enough?", "a": "A card covers almost everything. Bring some cash for traditional markets, street food and small shops — but you'll likely use less than you expect." },
-      { "q": "Where do I get the best exchange rate?", "a": "City exchange booths (e.g. Myeongdong) usually beat the airport and often beat ATMs. Banks are fair but weekday-only. The live rate above is a mid-market reference — booths and cards apply their own rates." },
-      { "q": "Should I tip?", "a": "No. Tipping isn't customary in Korea; the price shown is what you pay, at restaurants and in taxis alike." },
-      { "q": "My foreign card was declined — what now?", "a": "Try a 'Global' ATM or another card, or load a WOWPASS prepaid card with cash. Notify your bank before travel so they don't block foreign transactions." },
-      { "q": "Is Apple Pay / Google Pay usable?", "a": "Increasingly yes, but acceptance still trails physical cards. Carry a chip-and-contactless card as your main method." }
+      {
+        "q": "Do I need cash, or is a card enough?",
+        "a": "A card covers almost everything. Bring some cash for traditional markets, street food and small shops — but you'll likely use less than you expect."
+      },
+      {
+        "q": "Where do I get the best exchange rate?",
+        "a": "City exchange booths (e.g. Myeongdong) usually beat the airport and often beat ATMs. Banks are fair but weekday-only. The live rate above is a mid-market reference — booths and cards apply their own rates."
+      },
+      {
+        "q": "Should I tip?",
+        "a": "No. Tipping isn't customary in Korea; the price shown is what you pay, at restaurants and in taxis alike."
+      },
+      {
+        "q": "My foreign card was declined — what now?",
+        "a": "Try a 'Global' ATM or another card, or load a WOWPASS prepaid card with cash. Notify your bank before travel so they don't block foreign transactions."
+      },
+      {
+        "q": "Is Apple Pay / Google Pay usable?",
+        "a": "Increasingly yes, but acceptance still trails physical cards. Carry a chip-and-contactless card as your main method."
+      }
     ]
   },
   "official": [
-    { "icon": "🌏", "name": "VisitKorea", "url": "https://english.visitkorea.or.kr", "what": "Official money & payment info" },
-    { "icon": "☎️", "name": "1330 Travel Hotline", "url": "https://english.visitkorea.or.kr", "what": "24h multilingual help (rates, disputes)" }
-  ]
+    {
+      "icon": "🌏",
+      "name": "VisitKorea",
+      "url": "https://english.visitkorea.or.kr",
+      "what": "Official money & payment info"
+    },
+    {
+      "icon": "☎️",
+      "name": "1330 Travel Hotline",
+      "url": "https://english.visitkorea.or.kr",
+      "what": "24h multilingual help (rates, disputes)"
+    }
+  ],
+  "heroBg": "/img/hero-bg/money.jpg"
 }
