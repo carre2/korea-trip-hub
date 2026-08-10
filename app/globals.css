@@ -252,6 +252,11 @@
     box-shadow:0 3px 8px rgba(20,50,90,.18)}
   .ptile b{font-size:14.5px;color:#111418;letter-spacing:-.01em;font-weight:800}
   .ptile small{font-size:12px;color:#2B3442;line-height:1.4;font-weight:500}
+  /* Photo-background variant: themed image + dark overlay + white text (matches plan hero banners) */
+  .ptile-img{background-size:cover;background-position:center;color:#fff;min-height:134px;justify-content:flex-start}
+  .ptile-img b{color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+  .ptile-img small{color:rgba(255,255,255,.92);text-shadow:0 1px 3px rgba(0,0,0,.55)}
+  .ptile-img .pic{box-shadow:0 3px 10px rgba(0,0,0,.45)}
 
   /* ---------- ITINERARY PREVIEW ---------- */
   .itin{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);box-shadow:var(--shadow);overflow:hidden}

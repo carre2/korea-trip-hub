@@ -125,9 +125,12 @@ export default function Home({ params }) {
             {PLAN_TILES.map((tile) => (
               <a
                 key={tile.key}
-                className="ptile"
+                className="ptile ptile-img"
                 href={`/${locale}/plan/${tile.key}/`}
-                style={{ background: tile.bg, borderColor: tile.bd }}
+                style={{
+                  backgroundImage: `linear-gradient(158deg, rgba(9,13,26,.42) 0%, rgba(9,13,26,.7) 100%), url(/img/hero-bg/${tile.key}.jpg)`,
+                  borderColor: tile.bd,
+                }}
               >
                 <span className="pic" style={{ background: tile.chip }}>{tile.icon}</span>
                 <b>{m.plan.tiles[tile.key].title}</b>
