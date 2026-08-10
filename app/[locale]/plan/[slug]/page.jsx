@@ -170,29 +170,49 @@ export default function PlanArticle({ params }) {
       />
       <a className="crumb" href={`/${locale}/#plan`}>← {m.nav.plan}</a>
 
-      <div className="art-head">
-        <span className="aic" style={{ background: item.color }}>{item.icon}</span>
-        <h1>{title}</h1>
-      </div>
-      {guide && (
-        <div className="art-meta">
-          {guide.kicker && <span className="art-kicker">{guide.kicker}</span>}
-          {guide.readingTime && <span className="art-read">⏱ {guide.readingTime}</span>}
-          <span className="art-read art-updated">🔄 Updated {REVIEWED.label}</span>
+      {guide?.heroBg ? (
+        /* Full-width hero banner: themed background image + overlay + white title */
+        <div className="plan-herobanner" style={{ backgroundImage: `url(${guide.heroBg})` }}>
+          <div className="plan-herobanner-in">
+            <span className="aic" style={{ background: item.color }}>{item.icon}</span>
+            <h1>{title}</h1>
+            <p className="plan-herobanner-tag">{item.tagline}</p>
+            {guide && (
+              <div className="art-meta plan-herobanner-meta">
+                {guide.kicker && <span className="art-kicker">{guide.kicker}</span>}
+                {guide.readingTime && <span className="art-read">⏱ {guide.readingTime}</span>}
+                <span className="art-read art-updated">🔄 Updated {REVIEWED.label}</span>
+              </div>
+            )}
+          </div>
         </div>
-      )}
-      <p className="art-tagline">{item.tagline}</p>
-
-      {/* Hero image (real photo, credited) */}
-      {guide?.hero?.img && (
-        <figure className="art-hero">
-          <img src={guide.hero.img} alt={guide.hero.alt} loading="eager" />
-          {guide.hero.credit && (
-            <figcaption>
-              <a href={guide.hero.creditUrl} target="_blank" rel="noopener noreferrer">{guide.hero.credit}</a>
-            </figcaption>
+      ) : (
+        <>
+          <div className="art-head">
+            <span className="aic" style={{ background: item.color }}>{item.icon}</span>
+            <h1>{title}</h1>
+          </div>
+          {guide && (
+            <div className="art-meta">
+              {guide.kicker && <span className="art-kicker">{guide.kicker}</span>}
+              {guide.readingTime && <span className="art-read">⏱ {guide.readingTime}</span>}
+              <span className="art-read art-updated">🔄 Updated {REVIEWED.label}</span>
+            </div>
           )}
-        </figure>
+          <p className="art-tagline">{item.tagline}</p>
+
+          {/* Hero image (real photo, credited) */}
+          {guide?.hero?.img && (
+            <figure className="art-hero">
+              <img src={guide.hero.img} alt={guide.hero.alt} loading="eager" />
+              {guide.hero.credit && (
+                <figcaption>
+                  <a href={guide.hero.creditUrl} target="_blank" rel="noopener noreferrer">{guide.hero.credit}</a>
+                </figcaption>
+              )}
+            </figure>
+          )}
+        </>
       )}
 
       {item.intro.map((p, i) => (
