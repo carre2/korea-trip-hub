@@ -1,20 +1,98 @@
 {
   "_README": "Penggantian bahasa Indonesia untuk food.json. eat/make urutan sama {n, tag, d}. Tanpa harga karangan. Terjemahan mesin — sebaiknya ditinjau.",
   "eat": [
-    { "n": "BBQ Korea", "tag": "Panggang", "d": "Perut babi (samgyeopsal) dan galbi dipanggang di meja, dibungkus daun selada dengan ssamjang dan bawang putih." },
-    { "n": "Tteokbokki & jajanan kaki lima", "tag": "Kaki lima", "d": "Kue beras dalam saus manis-pedas, plus hotteok, gimbap, dan otak-otak ikan dari kios pasar." },
-    { "n": "Bibimbap", "tag": "Klasik", "d": "Semangkuk nasi dengan sayur, telur, dan gochujang — aduk semuanya sebelum makan." },
-    { "n": "Ayam goreng Korea (chimaek)", "tag": "Ikon", "d": "Ayam goreng ekstra renyah dengan bir — 'chimaek' adalah kegemaran nasional." },
-    { "n": "Naengmyeon (mi dingin)", "tag": "Musim panas", "d": "Mi soba kenyal dalam kaldu dingin — favorit penyegar di musim panas." },
-    { "n": "Halal & vegetarian", "tag": "Diet", "d": "Tempat halal bersertifikat berkumpul di sekitar Itaewon; masakan kuil dan opsi vegetarian makin banyak di seluruh kota." },
-    { "n": "Kafe & dessert Seongsu", "tag": "Kafe", "d": "Kopi specialty dan dessert kreatif di kawasan kafe paling hits di Seoul." },
-    { "n": "Jjigae & bunsik (makanan penghangat)", "tag": "Rumahan", "d": "Sup mendidih seperti kimchi-jjigae dan budae-jjigae — mengenyangkan dan murah." }
+    {
+      "n": "BBQ Korea",
+      "tag": "Panggang",
+      "d": "Perut babi (samgyeopsal) dan galbi dipanggang di meja, dibungkus daun selada dengan ssamjang dan bawang putih."
+    },
+    {
+      "n": "Tteokbokki & jajanan kaki lima",
+      "tag": "Kaki lima",
+      "d": "Kue beras dalam saus manis-pedas, plus hotteok, gimbap, dan otak-otak ikan dari kios pasar."
+    },
+    {
+      "n": "Bibimbap",
+      "tag": "Klasik",
+      "d": "Semangkuk nasi dengan sayur, telur, dan gochujang — aduk semuanya sebelum makan."
+    },
+    {
+      "n": "Ayam goreng Korea (chimaek)",
+      "tag": "Ikon",
+      "d": "Ayam goreng ekstra renyah dengan bir — 'chimaek' adalah kegemaran nasional."
+    },
+    {
+      "n": "Naengmyeon (mi dingin)",
+      "tag": "Musim panas",
+      "d": "Mi soba kenyal dalam kaldu dingin — favorit penyegar di musim panas."
+    },
+    {
+      "n": "Halal & vegetarian",
+      "tag": "Diet",
+      "d": "Tempat halal bersertifikat berkumpul di sekitar Itaewon; masakan kuil dan opsi vegetarian makin banyak di seluruh kota."
+    },
+    {
+      "n": "Kafe & dessert Seongsu",
+      "tag": "Kafe",
+      "d": "Kopi specialty dan dessert kreatif di kawasan kafe paling hits di Seoul."
+    },
+    {
+      "n": "Jjigae & bunsik (makanan penghangat)",
+      "tag": "Rumahan",
+      "d": "Sup mendidih seperti kimchi-jjigae dan budae-jjigae — mengenyangkan dan murah."
+    },
+    {
+      "n": "Samgyetang (sup ayam ginseng)",
+      "tag": "Menyehatkan",
+      "d": "Seekor ayam muda utuh yang diisi nasi, ginseng, dan bawang putih dalam kuah putih susu — hidangan klasik musim panas yang menyehatkan."
+    },
+    {
+      "n": "Gamjatang (sup tulang babi)",
+      "tag": "Mengenyangkan",
+      "d": "Sup tulang punggung babi dan kentang yang pedas dan mengenyangkan, dimasak perlahan dengan daun perilla dan sayuran hijau — favorit penghangat di larut malam."
+    },
+    {
+      "n": "Dwaeji-gukbap (nasi sup babi)",
+      "tag": "Busan",
+      "d": "Sup babi dan nasi khas Busan — semangkuk kuah, daging babi, dan nasi hangat yang bisa Anda bumbui sesuai selera."
+    },
+    {
+      "n": "Jjimdak (ayam braise)",
+      "tag": "Andong",
+      "d": "Ayam braise ala Andong dengan soun, kentang, dan sayuran dalam saus kedelai yang manis-gurih."
+    },
+    {
+      "n": "Hotteok (panekuk manis)",
+      "tag": "Jajanan",
+      "d": "Panekuk jalanan yang dipanggang di wajan datar dengan isian gula merah leleh, kayu manis, dan kacang — paling nikmat saat musim dingin."
+    },
+    {
+      "n": "Japchae (soun)",
+      "tag": "Klasik",
+      "d": "Soun ubi jalar yang kenyal, ditumis dengan sayuran dan sedikit wijen — hidangan wajib saat pesta."
+    }
   ],
   "make": [
-    { "n": "Kelas membuat kimchi", "tag": "Praktik", "d": "Buat dan kemas kimchimu sendiri untuk dibawa pulang; biasanya dengan pemandu berbahasa Inggris." },
-    { "n": "Memasak bibimbap & bulgogi", "tag": "Memasak", "d": "Masak hidangan Korea lengkap bersama koki lalu santap di tempat." },
-    { "n": "Membuat tteok (kue beras)", "tag": "Tradisional", "d": "Bentuk kue beras tradisional warna-warni — seru dan ramah keluarga." },
-    { "n": "Membuat & mencicip makgeolli", "tag": "19+", "d": "Belajar membuat dan mencicipi arak beras Korea, biasanya dengan camilan." }
+    {
+      "n": "Kelas membuat kimchi",
+      "tag": "Praktik",
+      "d": "Buat dan kemas kimchimu sendiri untuk dibawa pulang; biasanya dengan pemandu berbahasa Inggris."
+    },
+    {
+      "n": "Memasak bibimbap & bulgogi",
+      "tag": "Memasak",
+      "d": "Masak hidangan Korea lengkap bersama koki lalu santap di tempat."
+    },
+    {
+      "n": "Membuat tteok (kue beras)",
+      "tag": "Tradisional",
+      "d": "Bentuk kue beras tradisional warna-warni — seru dan ramah keluarga."
+    },
+    {
+      "n": "Membuat & mencicip makgeolli",
+      "tag": "19+",
+      "d": "Belajar membuat dan mencicipi arak beras Korea, biasanya dengan camilan."
+    }
   ],
   "tips": [
     "Restoran yang penuh orang lokal biasanya pertanda baik.",

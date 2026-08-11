@@ -86,6 +86,12 @@ All photographic images are sourced from free/openly-licensed collections and at
 | make-bulgogi | Photo: Debbie Tingzon / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bulgogi_3.jpg) |
 | make-tteok | Photo: Startandstar / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean_rice_cake_Korean_tteok.jpg) |
 | make-makgeolli | Photo: jinho kim / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Makgeolli_4.jpg) |
+| samgyetang | Photo: wizdata / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Samgye-tang_2.jpg) |
+| gamjatang | Photo: comicpie (a flickr user) / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean.food-Gamjatang-01.jpg) |
+| gukbap | Photo: 사이팔사 / Wikimedia Commons · CC BY 2.0 kr | [Commons](https://commons.wikimedia.org/wiki/File:Dwaeji-gukbap.jpg) |
+| jjimdak | Photo: Korean Culture and Information Service / Wikimedia Commons · KOGL Type 1 | [Commons](https://commons.wikimedia.org/wiki/File:Andong-jjimdak.jpg) |
+| hotteok | Photo: Korea.net / Korean Culture and Information Service / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hotteok.jpg) |
+| japchae | Photo: korea.net / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Polish_Korean_Cuisine_and_Culture_Exchanges_Gradmother%E2%80%99s_Recipes_05.jpg) |
 
 ### Plan deep-dive heroes & weather seasons
 | File | Credit | Source |
