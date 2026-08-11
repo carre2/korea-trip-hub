@@ -39,6 +39,14 @@ All photographic images are sourced from free/openly-licensed collections and at
 | jagalchi | Photo: Bernard Gagnon / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Jagalchi_Market_02.jpg) |
 | seongsan | Photo: Basile Morin / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hydrangea_macrophylla_in_front_of_Seongsan_Ilchulbong_volcano_at_blue_hour_in_Jeju_Island_South_Korea.jpg) |
 | hallasan | Photo: Basile Morin / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Wooden_staircase_steps_in_the_forest_of_Hallasan_Park_Eorimok_Trail_at_dusk_on_Jeju_Island_in_South_Korea.jpg) |
+| changdeokgung | Photo: 문화재청 / Wikimedia Commons · KOGL Type 1 | [Commons](https://commons.wikimedia.org/wiki/File:%EC%B0%BD%EB%8D%95%EA%B6%81_%EC%A0%84%EA%B2%BD_(2012).jpg) |
+| ddp | Photo: Eugene Lim / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dongdaemun_Design_Plaza_at_night,_Seoul,_Korea.jpg) |
+| lotte-world-tower | Photo: cloud.shepherd / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lotte_World_Tower_(22074455581).jpg) |
+| ikseondong | Photo: 오모군 / Wikimedia Commons · CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:View_of_Ikseon-dong_from_National_Tax_Service_Jongno_District_Office.jpg) |
+| yonggungsa | Photo: 박혜민 / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:%ED%95%B4%EB%8F%99%EC%9A%A9%EA%B6%81%EC%82%AC_%EC%82%AC%EC%B0%B0_%EC%A0%84%EA%B2%BD.jpg) |
+| taejongdae | Photo: *intacto / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korea-Busan-Taejongdae-03.jpg) |
+| songdo | Photo: Michiel1972 / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Busan_-_Songdo_beach.jpg) |
+| jusangjeolli | Photo: Bernard Gagnon / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Daepo_Jusangjeolli_Cliff_01.jpg) |
 
 ### Food (Plan → Food)
 
