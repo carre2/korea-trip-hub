@@ -16,6 +16,18 @@
     {
       "key": "gyeongju",
       "name": "Gyeongju"
+    },
+    {
+      "key": "jeonju",
+      "name": "Jeonju"
+    },
+    {
+      "key": "gangneung",
+      "name": "Gangneung"
+    },
+    {
+      "key": "suwon",
+      "name": "Suwon"
     }
   ],
   "items": {
@@ -854,6 +866,238 @@
         "Cheomseongdae",
         "Gyeongju National Museum",
         "Daereungwon Tombs"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "cheonggyecheon": {
+      "city": "seoul",
+      "cat": "sights",
+      "icon": "🏞️",
+      "grad": "linear-gradient(135deg,#1E7A8C,#4FB3C4)",
+      "name": "Cheonggyecheon Stream",
+      "rank": "Downtown escape",
+      "blurb": "A restored stream cutting through downtown Seoul.",
+      "intro": [
+        "Cheonggyecheon is a restored stream that runs through the heart of Seoul, sunk below street level as a long walking park.",
+        "Once buried under a highway, it is now a cool, green escape with stepping stones, fountains and seasonal light displays."
+      ],
+      "tips": [
+        "It is a refreshing walk on a hot day — the water keeps it cooler.",
+        "Evenings bring lantern and light installations, especially in winter.",
+        "Start near Gwanghwamun / Cheonggye Plaza and follow it east."
+      ],
+      "nearby": [
+        "Gwangjang Market",
+        "Gwanghwamun",
+        "Dongdaemun"
+      ],
+      "official": [
+        {
+          "name": "VisitSeoul",
+          "url": "https://english.visitseoul.net"
+        }
+      ]
+    },
+    "huinnyeoul": {
+      "city": "busan",
+      "cat": "sights",
+      "icon": "🎨",
+      "grad": "linear-gradient(135deg,#12888F,#4FBFC4)",
+      "name": "Huinnyeoul Culture Village",
+      "rank": "Cliffside lanes",
+      "blurb": "Whitewashed lanes on a seaside cliff.",
+      "intro": [
+        "Huinnyeoul Culture Village clings to a cliff on Busan’s Yeongdo island, its white houses and narrow lanes looking straight out over the sea.",
+        "A coastal path runs below the village along the water’s edge."
+      ],
+      "tips": [
+        "Walk both the upper lanes and the lower seaside path.",
+        "It is a residential area — keep noise down.",
+        "Combine it with Taejongdae on Yeongdo."
+      ],
+      "nearby": [
+        "Taejongdae",
+        "Jagalchi Market",
+        "Songdo Beach"
+      ],
+      "official": [
+        {
+          "name": "VisitBusan",
+          "url": "https://www.visitbusan.net/en"
+        }
+      ]
+    },
+    "udo": {
+      "city": "jeju",
+      "cat": "sights",
+      "icon": "🐄",
+      "grad": "linear-gradient(135deg,#1CA5C9,#66D0E6)",
+      "name": "Udo Island",
+      "rank": "Islet off Jeju",
+      "blurb": "A tiny island of beaches and coastal cycling.",
+      "intro": [
+        "Udo (‘Cow Island’) is a small islet off Jeju’s east coast, reached by a short ferry and best explored by bike, scooter or the island bus.",
+        "White-and-turquoise beaches, low stone walls and sea views make it a relaxed half-day trip."
+      ],
+      "tips": [
+        "Take the ferry from near Seongsan; it is a short crossing.",
+        "Rent a bike or electric scooter to loop the island.",
+        "Go early to beat day-trip crowds in peak season."
+      ],
+      "nearby": [
+        "Seongsan Ilchulbong",
+        "Seopjikoji",
+        "Gimnyeong"
+      ],
+      "official": [
+        {
+          "name": "VisitJeju",
+          "url": "https://www.visitjeju.net/en"
+        }
+      ]
+    },
+    "jeonju-hanok": {
+      "city": "jeonju",
+      "cat": "sights",
+      "icon": "🏘️",
+      "grad": "linear-gradient(135deg,#9C6B3F,#C99A63)",
+      "name": "Jeonju Hanok Village",
+      "rank": "Hanok & food capital",
+      "blurb": "Korea’s best-known hanok village and food capital.",
+      "intro": [
+        "Jeonju Hanok Village is a large, well-preserved neighbourhood of traditional hanok houses in the city that gave the world bibimbap.",
+        "Its lanes are packed with tea houses, craft workshops, hanbok rentals and street food."
+      ],
+      "tips": [
+        "Try Jeonju-style bibimbap and the local street food.",
+        "Rent a hanbok to wander the lanes.",
+        "It is an easy trip from Seoul by fast train and bus."
+      ],
+      "nearby": [
+        "Gyeonggijeon Shrine",
+        "Jaman Mural Village",
+        "Nambu Market"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "gyeonggijeon": {
+      "city": "jeonju",
+      "cat": "sights",
+      "icon": "🏯",
+      "grad": "linear-gradient(135deg,#7A5C2E,#B8905A)",
+      "name": "Gyeonggijeon Shrine",
+      "rank": "Royal portrait shrine",
+      "blurb": "Serene shrine beside the hanok village.",
+      "intro": [
+        "Gyeonggijeon is a tranquil walled shrine holding a portrait of King Taejo, founder of the Joseon dynasty, right beside Jeonju Hanok Village.",
+        "Its bamboo groves and old halls are a calm counterpoint to the busy lanes outside."
+      ],
+      "tips": [
+        "It pairs naturally with a Jeonju Hanok Village visit.",
+        "The bamboo grove and rear gardens are the highlight.",
+        "The nearby Jeondong Catholic Cathedral is worth a look."
+      ],
+      "nearby": [
+        "Jeonju Hanok Village",
+        "Jeondong Cathedral",
+        "Nambu Market"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "gyeongpo": {
+      "city": "gangneung",
+      "cat": "sights",
+      "icon": "🏖️",
+      "grad": "linear-gradient(135deg,#1E5FA8,#4F9BD8)",
+      "name": "Gyeongpo Beach",
+      "rank": "East Sea beach & coffee",
+      "blurb": "Gangneung’s wide beach and coffee scene.",
+      "intro": [
+        "Gyeongpo is Gangneung’s long, wide East Sea beach, backed by pine groves, a scenic lake and one of Korea’s best-known coffee cultures.",
+        "It is the summer favourite of the east coast, an easy fast-train ride from Seoul."
+      ],
+      "tips": [
+        "The cafe strip along Anmok beach is famous for coffee.",
+        "Gyeongpo Lake beside the beach is lovely for a cherry-blossom walk.",
+        "Summer weekends are busy — arrive early."
+      ],
+      "nearby": [
+        "Anmok Coffee Street",
+        "Gyeongpo Lake",
+        "Jeongdongjin"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "jeongdongjin": {
+      "city": "gangneung",
+      "cat": "sights",
+      "icon": "🌅",
+      "grad": "linear-gradient(135deg,#E8973A,#F4C04E)",
+      "name": "Jeongdongjin",
+      "rank": "Sunrise by the sea",
+      "blurb": "Famous sunrise beach with a seaside railway.",
+      "intro": [
+        "Jeongdongjin is a small east-coast town known for sunrises over the sea and a railway station that sits right on the beach.",
+        "A hilltop sail-shaped hotel and an hourglass park add to its quirky charm."
+      ],
+      "tips": [
+        "It is a classic spot to watch the New Year sunrise.",
+        "The station is one of the closest to the sea anywhere.",
+        "Reachable by train down the east coast from Gangneung."
+      ],
+      "nearby": [
+        "Gyeongpo Beach",
+        "Jumunjin",
+        "Gangneung"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "hwaseong": {
+      "city": "suwon",
+      "cat": "sights",
+      "icon": "🏯",
+      "grad": "linear-gradient(135deg,#8A4B3A,#C07A5A)",
+      "name": "Hwaseong Fortress",
+      "rank": "UNESCO fortress",
+      "blurb": "UNESCO fortress walls circling old Suwon.",
+      "intro": [
+        "Hwaseong is a grand Joseon-era fortress wall that rings the old centre of Suwon, a UNESCO World Heritage site of gates, watchtowers and floodgates.",
+        "You can walk the full circuit of the walls for ever-changing views over the city."
+      ],
+      "tips": [
+        "Walk a section of the wall between the grand gates.",
+        "A trolley and archery experiences run inside the fortress.",
+        "It is a short train ride south of Seoul."
+      ],
+      "nearby": [
+        "Haenggung Palace",
+        "Suwon",
+        "Yeongtong"
       ],
       "official": [
         {

@@ -55,6 +55,14 @@ All photographic images are sourced from free/openly-licensed collections and at
 | bulguksa | Photo: Wikimedia Commons · Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Lotus_Flower_Bridge_and_Seven_Treasure_Bridge_at_Bulguksa_in_Gyeongju,_Korea.jpg) |
 | cheomseongdae | Photo: Basile Morin / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cheomseongdae_Observatory_under_blue_sky_in_Gyeongju_South_Korea.jpg) |
 | wolji | Photo: Basile Morin / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Water_reflection_of_Donggung_Palace_in_Wolji_Pond_at_blue_hour_in_Gyeongju_South_Korea.jpg) |
+| cheonggyecheon | Photo: Basile Morin / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cheonggyecheon_stream_at_sunrise_with_trees_in_Seoul.jpg) |
+| huinnyeoul | Photo: Yeoncong323 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Huinnyeoul_information_bureau.jpg) |
+| udo | Photo: Integral / Wikimedia Commons · CC BY-SA 2.0 kr | [Commons](https://commons.wikimedia.org/wiki/File:Red_algal_nodule_beach.JPG) |
+| jeonju-hanok | Photo: Mobius6 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Jeonju_Hanok_Village_20220701_003.jpg) |
+| gyeonggijeon | Photo: Mobius6 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Jeonju_Gyeonggijeon_20230408_001.jpg) |
+| gyeongpo | Photo: Mobius6 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gyeongpo_Beach_20220502_002.jpg) |
+| jeongdongjin | Photo: 최광모 / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:20151015_%EC%B5%9C%EA%B4%91%EB%AA%A8_SONY_DSC-RX10_DSC04367_20151024.JPG) |
+| hwaseong | Photo: Lance Vanlewen / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hwaseong_Fortress,_Suwon,_Gyeonggi-do,_Republic_of_Korea_(2).jpg) |
 
 ### Food (Plan → Food)
 
