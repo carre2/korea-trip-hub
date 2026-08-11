@@ -1,0 +1,130 @@
+{
+  "ui": {
+    "hubMetaTitle": "แผนเที่ยวเกาหลี: แพลน 3, 5 และ 7 วัน (2026)",
+    "hubMetaDesc": "แผนเที่ยวเกาหลีสำเร็จรูปแบบวันต่อวัน — 3 วันใน Seoul ที่ลงตัว, 5 วัน Seoul + Busan และทริป 7 วัน Seoul, Busan และ Jeju",
+    "hubH1": "แผนเที่ยวเกาหลี",
+    "hubTagline": "แผนสำเร็จรูปแบบวันต่อวัน — หรือสร้างของคุณเองด้วยเครื่องมือวางแผนฟรี",
+    "dayPlan": "แผน {n} วัน",
+    "backToHub": "แผนเที่ยวเกาหลี",
+    "daysLabel": "{n} วัน",
+    "updated": "อัปเดตเมื่อ",
+    "dayLabel": "วันที่ {n}",
+    "map": "แผนที่",
+    "goodToKnow": "ควรรู้ไว้",
+    "bookTrip": "จองทริปนี้",
+    "hotelsIn": "โรงแรมใน {city}",
+    "toursTickets": "ทัวร์และบัตรเข้าชม",
+    "whereToStayIn": "ที่พักใน {city}"
+  },
+  "order": ["seoul-3-days", "korea-5-days", "korea-7-days"],
+  "items": {
+    "seoul-3-days": {
+      "title": "3 วันใน Seoul: แผนเที่ยวครั้งแรกที่ลงตัวที่สุด",
+      "metaTitle": "3 วันใน Seoul: แผนเที่ยวที่ลงตัวที่สุด (2026)",
+      "sub": "พระราชวัง ตรอกฮันอก อาหารริมทาง และวิวเส้นขอบฟ้า — การมาเยือน Seoul ครั้งแรกที่ผ่อนคลายแต่ครบถ้วน",
+      "days": "3",
+      "cities": ["seoul"],
+      "overview": "นี่คือเส้นทางคลาสสิกสำหรับผู้มาครั้งแรก: Seoul เก่า (พระราชวังและฮันอก) ในวันแรก, Seoul สมัยใหม่และวิวกลางคืนในวันที่สอง และวันที่สามแบบยืดหยุ่นไว้เที่ยวนอกเมืองหรือเลือกเองตามใจ ทุกที่เชื่อมด้วยรถไฟใต้ดิน — คว้าบัตร T-money แล้วก็พร้อมลุย",
+      "plan": [
+        { "n": 1, "area": "พระราชวังและ Seoul เก่า", "stops": [
+          { "t": "เช้า", "p": "พระราชวัง Gyeongbokgung — มาแต่เช้า และใส่ฮันบกเพื่อเข้าฟรี อย่าพลาดชมพิธีเปลี่ยนเวรทหาร", "spot": "Gyeongbokgung Palace, Seoul" },
+          { "t": "บ่าย", "p": "เดินเล่นหมู่บ้านฮันอก Bukchon และคาเฟ่ย่าน Samcheong-dong แล้วไป Insadong เพื่อจิบชา ชมแกลเลอรี และซื้อของฝาก", "spot": "Bukchon Hanok Village, Seoul" },
+          { "t": "เย็น", "p": "มื้อค่ำที่ตลาด Gwangjang (bindaetteok, mayak gimbap) หนึ่งในตลาดอาหารริมทางเก่าแก่ที่เยี่ยมที่สุดของ Seoul", "spot": "Gwangjang Market, Seoul" }
+        ]},
+        { "n": 2, "area": "Seoul สมัยใหม่และวิวกลางคืน", "stops": [
+          { "t": "เช้า", "p": "บรันช์และเดินช้อปใน Hongdae — ร้านอินดี้ คาเฟ่ และนักดนตรีเปิดหมวกรอบมหาวิทยาลัย", "spot": "Hongdae, Seoul" },
+          { "t": "บ่าย", "p": "มุ่งสู่ Namsan แล้วขึ้น N Seoul Tower เพื่อชมวิวพาโนรามาของเมือง เดินชมเส้นทางร่มรื่นระหว่างทาง", "spot": "N Seoul Tower, Seoul" },
+          { "t": "เย็น", "p": "Myeongdong สำหรับช้อปปิ้ง ร้านเครื่องสำอาง และอาหารริมทางรอบสอง", "spot": "Myeongdong, Seoul" }
+        ]},
+        { "n": 3, "area": "เลือกเอง — เที่ยวนอกเมืองหรือเจาะลึก", "stops": [
+          { "t": "ตัวเลือก A", "p": "Gangnam: ห้องสมุด Starfield ที่ COEX, K-Star Road ใน Apgujeong และช้อปปิ้งระดับหรู", "spot": "Starfield COEX Mall, Seoul" },
+          { "t": "ตัวเลือก B", "p": "ทัวร์ DMZ ครึ่งวันสู่ชายแดนระหว่างสองเกาหลี — จองล่วงหน้า (ต้องใช้พาสปอร์ต)", "spot": "Imjingak, Paju" },
+          { "t": "เย็น", "p": "ผ่อนคลายที่สวนริมแม่น้ำ Han (Yeouido) — ซื้อของกินจากร้านสะดวกซื้อ แล้วดูสะพานเปิดไฟระยิบระยับ", "spot": "Yeouido Hangang Park, Seoul" }
+        ]}
+      ],
+      "tips": [
+        "หาบัตร T-money ก่อนเลย — ใช้ได้ทั้งรถไฟใต้ดิน รถบัส และแท็กซี่ส่วนใหญ่",
+        "พระราชวังปิดคนละวันในสัปดาห์ (Gyeongbokgung: วันอังคาร) — เช็กก่อนไป",
+        "ใช้ Naver Map หรือ KakaoMap นำทาง ส่วน Google Maps ระบบขนส่งในเกาหลีมีข้อจำกัด"
+      ]
+    },
+    "korea-5-days": {
+      "title": "5 วันในเกาหลี: แผนเที่ยว Seoul + Busan",
+      "metaTitle": "5 วันในเกาหลี: แผนเที่ยว Seoul + Busan (2026)",
+      "sub": "สิ่งที่ดีที่สุดของทั้งสองเมือง — สองวันใน Seoul นั่ง KTX ลงใต้สู่ Busan แล้วสัมผัสชายฝั่ง วัด และตลาดของแดนใต้",
+      "days": "5",
+      "cities": ["seoul", "busan"],
+      "overview": "ห้าวันเพียงพอสำหรับสองเมืองใหญ่ที่สุดของเกาหลี ใช้เวลาสองวันใน Seoul แล้วนั่งรถไฟความเร็วสูง KTX (~2h40) สู่ Busan เพื่อชายหาด หมู่บ้านศิลปะบนเนินเขา และอาหารทะเลที่ดีที่สุดของเกาหลี ก่อนเดินทางกลับ",
+      "plan": [
+        { "n": 1, "area": "Seoul — พระราชวังและ Bukchon", "stops": [
+          { "t": "เช้า", "p": "พระราชวัง Gyeongbokgung + พิธีเปลี่ยนเวรทหาร (ฮันบก = เข้าฟรี)", "spot": "Gyeongbokgung Palace, Seoul" },
+          { "t": "บ่าย", "p": "หมู่บ้านฮันอก Bukchon และ Insadong", "spot": "Bukchon Hanok Village, Seoul" },
+          { "t": "เย็น", "p": "อาหารริมทางและช้อปปิ้งที่ Myeongdong", "spot": "Myeongdong, Seoul" }
+        ]},
+        { "n": 2, "area": "Seoul — สมัยใหม่และวิว", "stops": [
+          { "t": "เช้า", "p": "คาเฟ่และร้านค้าใน Hongdae", "spot": "Hongdae, Seoul" },
+          { "t": "บ่าย", "p": "N Seoul Tower เพื่อชมเส้นขอบฟ้าของเมือง", "spot": "N Seoul Tower, Seoul" },
+          { "t": "เย็น", "p": "ตลาด Gwangjang หรือสวนริมแม่น้ำ Han", "spot": "Gwangjang Market, Seoul" }
+        ]},
+        { "n": 3, "area": "KTX สู่ Busan — ชายฝั่ง", "stops": [
+          { "t": "เช้า", "p": "KTX จากสถานี Seoul สู่ Busan (~2h40) จองที่นั่งล่วงหน้าในช่วงสุดสัปดาห์", "spot": "Seoul Station" },
+          { "t": "บ่าย", "p": "หาด Haeundae และสกายแคปซูล Blueline Park", "spot": "Haeundae Beach, Busan" },
+          { "t": "เย็น", "p": "หาด Gwangalli เพื่อชมโชว์แสงสีสะพาน Gwangan", "spot": "Gwangalli Beach, Busan" }
+        ]},
+        { "n": 4, "area": "Busan — หมู่บ้าน ตลาด วัด", "stops": [
+          { "t": "เช้า", "p": "หมู่บ้านวัฒนธรรม Gamcheon — ย่านบนเนินเขาสีพาสเทล", "spot": "Gamcheon Culture Village, Busan" },
+          { "t": "บ่าย", "p": "ตลาดปลา Jagalchi และอาหารริมทาง BIFF Square ใน Nampo-dong", "spot": "Jagalchi Market, Busan" },
+          { "t": "เย็น", "p": "Haedong Yonggungsa วัดริมทะเลที่หาได้ยาก ในช่วงแสงทอง", "spot": "Haedong Yonggungsa, Busan" }
+        ]},
+        { "n": 5, "area": "กลับ Seoul / เดินทางออก", "stops": [
+          { "t": "เช้า", "p": "แวะหาด Busan หรือคาเฟ่ครั้งสุดท้าย แล้วนั่ง KTX กลับ Seoul (หรือบินกลับจาก Gimhae)", "spot": "Busan Station" },
+          { "t": "บ่าย", "p": "ถ้าบินจาก Incheon เผื่อเวลาสำหรับต่อ AREX/รถไปสนามบิน", "spot": "Incheon International Airport" }
+        ]}
+      ],
+      "tips": [
+        "จองที่นั่ง KTX ล่วงหน้าสำหรับสุดสัปดาห์และวันหยุด (แอป Korail Talk / letskorail.com)",
+        "Busan กระจายตัวกว้าง — ใช้รถไฟใต้ดินร่วมกับแท็กซี่ Kakao T ครอบคลุมได้เกือบทั้งเมือง",
+        "พักสองคืนใน Seoul + สองคืนใน Busan ช่วยให้ไม่ต้องเก็บ/รื้อกระเป๋าบ่อย"
+      ]
+    },
+    "korea-7-days": {
+      "title": "7 วันในเกาหลี: แผนเที่ยว Seoul, Busan และ Jeju",
+      "metaTitle": "7 วันในเกาหลี: Seoul, Busan และ Jeju (2026)",
+      "sub": "ครบทั้งลูป — Seoul เชิงประวัติศาสตร์ Busan ริมชายฝั่ง และเกาะภูเขาไฟ Jeju เชื่อมกันด้วย KTX และเที่ยวบินสั้น ๆ",
+      "days": "7",
+      "cities": ["seoul", "busan", "jeju"],
+      "overview": "หนึ่งสัปดาห์ทำให้คุณเพิ่ม Jeju เกาะพักผ่อนของเกาหลี เข้ากับเส้นทาง Seoul–Busan ได้ สองวันใน Seoul สองวันใน Busan แล้วบินสั้น ๆ สู่ Jeju เพื่อยอดภูเขาไฟ น้ำตก และชายหาด เช่ารถขับบน Jeju — ระบบขนส่งสาธารณะมีจำกัด",
+      "plan": [
+        { "n": 1, "area": "Seoul — พระราชวังและ Bukchon", "stops": [
+          { "t": "ทั้งวัน", "p": "Gyeongbokgung, หมู่บ้านฮันอก Bukchon, Insadong และ Myeongdong ในตอนเย็น", "spot": "Gyeongbokgung Palace, Seoul" }
+        ]},
+        { "n": 2, "area": "Seoul — สมัยใหม่และวิว", "stops": [
+          { "t": "ทั้งวัน", "p": "Hongdae, N Seoul Tower และตลาด Gwangjang — หรือเสริมทัวร์ DMZ ครึ่งวัน", "spot": "N Seoul Tower, Seoul" }
+        ]},
+        { "n": 3, "area": "KTX สู่ Busan", "stops": [
+          { "t": "ทั้งวัน", "p": "KTX สู่ Busan; หาด Haeundae, Blueline Park และวิวกลางคืน Gwangalli", "spot": "Haeundae Beach, Busan" }
+        ]},
+        { "n": 4, "area": "ไฮไลต์ Busan", "stops": [
+          { "t": "ทั้งวัน", "p": "หมู่บ้านวัฒนธรรม Gamcheon, ตลาด Jagalchi และวัด Haedong Yonggungsa", "spot": "Gamcheon Culture Village, Busan" }
+        ]},
+        { "n": 5, "area": "บินสู่ Jeju — ฝั่งตะวันออก", "stops": [
+          { "t": "เช้า", "p": "เที่ยวบินสั้น ๆ จาก Gimhae (Busan) สู่ Jeju แล้วรับรถเช่า", "spot": "Jeju International Airport" },
+          { "t": "บ่าย", "p": "Seongsan Ilchulbong (ยอดพระอาทิตย์ขึ้น) และ Seopjikoji บนชายฝั่งตะวันออก", "spot": "Seongsan Ilchulbong, Jeju" },
+          { "t": "เย็น", "p": "ตลาด Dongmun ใน Jeju City สำหรับมื้อค่ำ", "spot": "Jeju Dongmun Market" }
+        ]},
+        { "n": 6, "area": "Jeju — ฝั่งใต้และน้ำตก", "stops": [
+          { "t": "ทั้งวัน", "p": "น้ำตก Cheonjiyeon, หน้าผา Jusangjeolli และหาดรีสอร์ต Jungmun รอบ Seogwipo", "spot": "Cheonjiyeon Waterfall, Jeju" }
+        ]},
+        { "n": 7, "area": "Jeju — ฝั่งตะวันตกและเดินทางออก", "stops": [
+          { "t": "เช้า", "p": "หาด Hyeopjae และสวน Hallim บนชายฝั่งตะวันตก", "spot": "Hyeopjae Beach, Jeju" },
+          { "t": "บ่าย", "p": "คืนรถแล้วบินออก (Jeju → Seoul/Incheon เพื่อต่อเที่ยวบินระหว่างประเทศ)", "spot": "Jeju International Airport" }
+        ]}
+      ],
+      "tips": [
+        "เช่ารถขับบน Jeju — รถบัสช้าและสถานที่เที่ยวกระจายอยู่รอบชายฝั่ง",
+        "เที่ยวบินสู่ Jeju มีบ่อยและราคาถูก (เป็นหนึ่งในเส้นทางที่พลุกพล่านที่สุดในโลกจาก Seoul)",
+        "เช็กว่าเที่ยวบินระหว่างประเทศของคุณออกจาก Incheon หรือไม่ และเผื่อเวลาไปให้ถึง"
+      ]
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "ui": {
+    "hubMetaTitle": "Nên ở đâu tại Hàn Quốc: Khu vực tốt nhất ở Seoul, Busan & Jeju",
+    "hubMetaDesc": "Nên ở đâu tại Hàn Quốc — những khu vực tốt nhất ở Seoul, Busan và Jeju cho người lần đầu đến, cuộc sống về đêm, bãi biển, văn hóa và tiết kiệm, kèm liên kết khách sạn.",
+    "hubH1": "Nên ở đâu tại Hàn Quốc",
+    "hubTagline": "Chọn đúng khu vực ở mỗi thành phố — theo phong cách, chứ không chỉ theo giá.",
+    "cardTitle": "Nên ở đâu tại {city}",
+    "areasCompared": "So sánh {n} khu vực",
+    "backToHub": "Nên ở đâu",
+    "cityH1": "Nên ở đâu tại {city}",
+    "cityTagline": "Những khu vực & khu phố tốt nhất — chọn theo phong cách, chứ không chỉ theo giá.",
+    "updated": "Cập nhật",
+    "findHotel": "Tìm khách sạn",
+    "thingsToDo": "Điểm tham quan"
+  },
+  "cities": {
+    "seoul": {
+      "name": "Seoul",
+      "flag": "🏙️",
+      "metaTitle": "Nên ở đâu tại Seoul: Khu vực & khu phố tốt nhất (2026)",
+      "intro": "Seoul rất rộng lớn, nhưng tàu điện ngầm khiến khu nào cũng ở được — vậy nên hãy chọn theo phong cách bạn muốn. Người lần đầu đến hợp nhất với một nơi trung tâm như Myeongdong hay Insadong; dân mê đêm khuya yêu Hongdae; còn Gangnam là phía sông hiện đại, sang trọng.",
+      "areas": [
+        {
+          "name": "Myeongdong",
+          "best": "Người lần đầu đến & mua sắm",
+          "tone": "amber",
+          "vibe": "Điểm dừng chân kinh điển cho lần đầu — trung tâm, dày đặc khách sạn, đồ ăn đường phố và cửa hàng mỹ phẩm, đi bộ được tới Gyeongbokgung và N Seoul Tower.",
+          "near": "Xe buýt sân bay dừng ở đây; Tuyến 4 & 2. Có thể đông đúc và nhiều khách du lịch."
+        },
+        {
+          "name": "Hongdae",
+          "best": "Cuộc sống về đêm & tiết kiệm",
+          "tone": "green",
+          "vibe": "Khu đại học trẻ trung, nghệ thuật với nghệ sĩ đường phố biểu diễn trực tiếp, cửa hàng indie, quán cà phê và cuộc sống về đêm sôi động nhất thành phố. Nhà nghỉ và hostel giá tốt.",
+          "near": "AREX chạy thẳng tới sân bay Incheon (~50 min). Tuyến 2 & 6."
+        },
+        {
+          "name": "Gangnam",
+          "best": "Sang trọng & hiện đại",
+          "tone": "blue",
+          "vibe": "Bóng bẩy, mang hơi hướng công sở và đắt đỏ — khách sạn hạng sang, trung tâm thương mại COEX, các điểm K-pop quanh Apgujeong. Xa trung tâm lịch sử hơn.",
+          "near": "Tuyến 2, 3, 7 & Sinbundang; thuận tiện cho tàu Suseo/SRT."
+        },
+        {
+          "name": "Insadong & Jongno",
+          "best": "Văn hóa & cung điện",
+          "tone": "amber",
+          "vibe": "Trái tim truyền thống của Seoul — quán trà, phòng tranh, nhà hanok để nghỉ và chỉ vài bước chân tới Gyeongbokgung, Bukchon và Changdeokgung. Yên tĩnh hơn về đêm.",
+          "near": "Tuyến 1, 3 & 5. Rất dễ đi bộ tham quan."
+        },
+        {
+          "name": "Itaewon",
+          "best": "Ẩm thực quốc tế & đa dạng",
+          "tone": "green",
+          "vibe": "Khu quốc tế nhất của Seoul — nhà hàng từ khắp thế giới, nhiều lựa chọn halal nhất thành phố, và khu quán bar sôi động.",
+          "near": "Tuyến 6; gần Yongsan và N Seoul Tower."
+        },
+        {
+          "name": "Dongdaemun",
+          "best": "Mua sắm & tiết kiệm",
+          "tone": "blue",
+          "vibe": "Trung tâm thời trang mở suốt ngày đêm, DDP mang dáng vẻ tương lai và đồ ăn khuya giá rẻ. Tiện lợi nếu bạn muốn mua sắm tới tận rạng sáng.",
+          "near": "Tuyến 1, 2 & 4; trung tâm và kết nối tốt."
+        }
+      ]
+    },
+    "busan": {
+      "name": "Busan",
+      "flag": "🌊",
+      "metaTitle": "Nên ở đâu tại Busan: Khu vực & bãi biển tốt nhất (2026)",
+      "intro": "Busan là thành phố biển, nên hầu hết du khách chọn ở gần biển. Haeundae là lựa chọn nghỉ dưỡng được yêu thích; Gwangalli có cảnh đêm đẹp nhất; Seomyeon là đầu mối giao thông và ẩm thực trung tâm; còn Nampo-dong là khu chợ phố cổ.",
+      "areas": [
+        {
+          "name": "Haeundae",
+          "best": "Bãi biển & khu nghỉ dưỡng",
+          "tone": "blue",
+          "vibe": "Bãi biển nổi tiếng nhất Busan — khách sạn nghỉ dưỡng cao tầng, thủy cung, sky capsule ở Blueline Park và bờ biển sôi động.",
+          "near": "Tuyến 2. Hơi xa phố cổ, nhưng bãi biển bù đắp lại điều đó."
+        },
+        {
+          "name": "Gwangalli",
+          "best": "Cảnh biển & quán cà phê",
+          "tone": "green",
+          "vibe": "Bãi biển thư thái với vị trí ngắm trực diện màn trình diễn ánh sáng cầu Gwangan, cùng dãy quán cà phê và quán bar trẻ trung. Tuyệt vời để ngắm hoàng hôn.",
+          "near": "Tuyến 2 (Gwangan); cách Haeundae một quãng ngắn."
+        },
+        {
+          "name": "Seomyeon",
+          "best": "Trung tâm & cuộc sống về đêm",
+          "tone": "amber",
+          "vibe": "Giao lộ trung tâm của Busan — mua sắm, vô số nhà hàng và cuộc sống về đêm, cùng việc chuyển tuyến dễ dàng nhất khắp thành phố.",
+          "near": "Điểm giao Tuyến 1 & 2; điểm dừng chân trung tâm nhất."
+        },
+        {
+          "name": "Nampo-dong & Jagalchi",
+          "best": "Phố cổ & chợ",
+          "tone": "amber",
+          "vibe": "Busan cổ kính — chợ cá Jagalchi, chợ Gukje, đồ ăn đường phố ở BIFF Square và Gamcheon Culture Village gần đó. Giá tốt.",
+          "near": "Tuyến 1; dễ đi bộ, giàu không khí, hợp túi tiền."
+        }
+      ]
+    },
+    "jeju": {
+      "name": "Jeju",
+      "flag": "🌴",
+      "metaTitle": "Nên ở đâu tại Jeju: Phía Bắc hay phía Nam (2026)",
+      "intro": "Jeju chia thành phía bắc (Jeju City — nơi bạn hạ cánh) và phía nam (Seogwipo — ấm hơn, xanh hơn, gần thiên nhiên nổi tiếng hơn). Dù chọn phía nào bạn cũng nên thuê xe tự lái; hãy chọn phía gần nhất với những điểm tham quan bạn quan tâm.",
+      "areas": [
+        {
+          "name": "Jeju City (phía bắc)",
+          "best": "Nơi hạ cánh & tiện lợi",
+          "tone": "blue",
+          "vibe": "Nơi có sân bay, chợ đêm Dongmun và hầu hết các tuyến xe buýt — điểm dừng chân thực tế, nhiều dịch vụ với lựa chọn khách sạn phong phú nhất.",
+          "near": "Sân bay quốc tế Jeju; hợp nhất cho chuyến đi ngắn và cuộc sống về đêm."
+        },
+        {
+          "name": "Seogwipo (phía nam)",
+          "best": "Thiên nhiên & thác nước",
+          "tone": "green",
+          "vibe": "Đầu mối phía nam ấm áp, xanh tươi gần thác Cheonjiyeon, vách đá Jusangjeolli và Seongsan Ilchulbong — gần hơn với cảnh đẹp như bưu thiếp của Jeju.",
+          "near": "~1 hr từ sân bay bằng xe; cảnh đẹp và yên bình hơn."
+        },
+        {
+          "name": "Jungmun",
+          "best": "Khu nghỉ dưỡng sang trọng & bãi biển",
+          "tone": "amber",
+          "vibe": "Dải khu nghỉ dưỡng của Jeju — các resort biển tên tuổi, sân golf và bãi biển Jungmun Saekdal, lý tưởng cho kỳ nghỉ thư giãn tại chỗ.",
+          "near": "Gần Seogwipo, bờ biển phía nam; tập trung vào nghỉ dưỡng."
+        }
+      ]
+    }
+  }
+}

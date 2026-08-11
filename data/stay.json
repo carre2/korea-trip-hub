@@ -1,5 +1,19 @@
 {
-  "_README": "Where-to-stay neighborhood guides (English base). Editorial area descriptions (no invented prices). Rendered by components/StayGuide.jsx; Agoda links via lib/booking (affiliate once AFF.agoda is set).",
+  "_README": "Where-to-stay neighborhood guides (English base). Editorial area descriptions (no invented prices). Rendered by components/StayGuide.jsx; Agoda links via lib/booking (affiliate once AFF.agoda is set). `ui` = page chrome labels, translated per locale in stay.<locale>.json.",
+  "ui": {
+    "hubMetaTitle": "Where to Stay in Korea: Best Areas in Seoul, Busan & Jeju",
+    "hubMetaDesc": "Where to stay in Korea — the best neighborhoods in Seoul, Busan and Jeju for first-timers, nightlife, beaches, culture and budget, with hotel links.",
+    "hubH1": "Where to Stay in Korea",
+    "hubTagline": "Pick the right area in each city — by vibe, not just price.",
+    "cardTitle": "Where to stay in {city}",
+    "areasCompared": "{n} areas compared",
+    "backToHub": "Where to stay",
+    "cityH1": "Where to Stay in {city}",
+    "cityTagline": "The best areas & neighborhoods — chosen by vibe, not just price.",
+    "updated": "Updated",
+    "findHotel": "Find a hotel",
+    "thingsToDo": "Things to do"
+  },
   "cities": {
     "seoul": {
       "name": "Seoul",

@@ -1,0 +1,130 @@
+{
+  "ui": {
+    "hubMetaTitle": "韩国行程规划：3天、5天与7天方案（2026）",
+    "hubMetaDesc": "现成的韩国逐日行程——完美的首尔3日游、首尔+釜山5日游，以及首尔、釜山、济州7日之旅。",
+    "hubH1": "韩国行程规划",
+    "hubTagline": "现成的逐日行程——或用免费规划工具打造属于你自己的方案。",
+    "dayPlan": "{n}天方案",
+    "backToHub": "韩国行程规划",
+    "daysLabel": "{n}天",
+    "updated": "更新于",
+    "dayLabel": "第{n}天",
+    "map": "地图",
+    "goodToKnow": "实用贴士",
+    "bookTrip": "预订这趟行程",
+    "hotelsIn": "{city}的酒店",
+    "toursTickets": "旅行团与门票",
+    "whereToStayIn": "{city}住宿指南"
+  },
+  "order": ["seoul-3-days", "korea-5-days", "korea-7-days"],
+  "items": {
+    "seoul-3-days": {
+      "title": "首尔3日游：完美的初访行程",
+      "metaTitle": "首尔3日游：完美行程（2026）",
+      "sub": "古宫、韩屋小巷、街头美食与天际线美景——一次轻松又完整的首尔初体验。",
+      "days": "3",
+      "cities": ["seoul"],
+      "overview": "这是经典的初访路线：第一天游老首尔（古宫和韩屋），第二天看现代首尔和夜景，第三天则机动安排，可以来一次一日游或按自己的喜好挑选。所有地方地铁都能到——买一张T-money交通卡就万事俱备了。",
+      "plan": [
+        { "n": 1, "area": "古宫与老首尔", "stops": [
+          { "t": "上午", "p": "景福宫——早点到，穿韩服可免费入场。别错过换岗仪式。", "spot": "Gyeongbokgung Palace, Seoul" },
+          { "t": "下午", "p": "漫步北村韩屋村和三清洞的咖啡馆，再去仁寺洞喝茶、逛画廊、买纪念品。", "spot": "Bukchon Hanok Village, Seoul" },
+          { "t": "晚上", "p": "在广藏市场吃晚饭（绿豆煎饼、麻药紫菜包饭），这是首尔最棒的老牌街头美食市场之一。", "spot": "Gwangjang Market, Seoul" }
+        ]},
+        { "n": 2, "area": "现代首尔与夜景", "stops": [
+          { "t": "上午", "p": "在弘大吃早午餐、逛逛——大学周边有独立小店、咖啡馆和街头艺人。", "spot": "Hongdae, Seoul" },
+          { "t": "下午", "p": "前往南山，登上N首尔塔俯瞰城市全景；沿途还能走走绿荫小径。", "spot": "N Seoul Tower, Seoul" },
+          { "t": "晚上", "p": "去明洞购物、逛美妆店，再来一轮街头小吃。", "spot": "Myeongdong, Seoul" }
+        ]},
+        { "n": 3, "area": "自由选择——一日游或深度探索", "stops": [
+          { "t": "方案A", "p": "江南：COEX星空图书馆、狎鸥亭的K-Star Road，以及高档购物。", "spot": "Starfield COEX Mall, Seoul" },
+          { "t": "方案B", "p": "半日DMZ之旅，前往韩朝边境——需提前预订（须带护照）。", "spot": "Imjingak, Paju" },
+          { "t": "晚上", "p": "在汉江公园（汝矣岛）放松收尾——买些便利店小吃，看桥上灯光亮起。", "spot": "Yeouido Hangang Park, Seoul" }
+        ]}
+      ],
+      "tips": [
+        "先办一张T-money交通卡——地铁、公交和大部分出租车都能用。",
+        "各古宫每周闭馆的日子不同（景福宫：周二）——出发前先查好。",
+        "用Naver地图或KakaoMap导航；谷歌地图在韩国的公交路线功能有限。"
+      ]
+    },
+    "korea-5-days": {
+      "title": "韩国5日游：首尔+釜山行程",
+      "metaTitle": "韩国5日游：首尔+釜山行程（2026）",
+      "sub": "两座城市的精华——在首尔待两天，乘KTX南下釜山，饱览南部的海岸、寺庙和市场。",
+      "days": "5",
+      "cities": ["seoul", "busan"],
+      "overview": "五天足够玩转韩国最大的两座城市。先在首尔待两天，再乘KTX高铁（约2h40）前往釜山，感受海滩、山坡上的艺术村和韩国最棒的海鲜，然后再返回。",
+      "plan": [
+        { "n": 1, "area": "首尔——古宫与北村", "stops": [
+          { "t": "上午", "p": "景福宫+换岗仪式（穿韩服=免费入场）。", "spot": "Gyeongbokgung Palace, Seoul" },
+          { "t": "下午", "p": "北村韩屋村和仁寺洞。", "spot": "Bukchon Hanok Village, Seoul" },
+          { "t": "晚上", "p": "明洞的街头小吃和购物。", "spot": "Myeongdong, Seoul" }
+        ]},
+        { "n": 2, "area": "首尔——现代与美景", "stops": [
+          { "t": "上午", "p": "弘大的咖啡馆和小店。", "spot": "Hongdae, Seoul" },
+          { "t": "下午", "p": "登N首尔塔看天际线。", "spot": "N Seoul Tower, Seoul" },
+          { "t": "晚上", "p": "广藏市场，或去汉江公园。", "spot": "Gwangjang Market, Seoul" }
+        ]},
+        { "n": 3, "area": "乘KTX前往釜山——海岸", "stops": [
+          { "t": "上午", "p": "从首尔站乘KTX到釜山（约2h40）。周末请提前订座。", "spot": "Seoul Station" },
+          { "t": "下午", "p": "海云台海滩和Blueline Park的天空胶囊列车。", "spot": "Haeundae Beach, Busan" },
+          { "t": "晚上", "p": "去广安里海滩看广安大桥的灯光秀。", "spot": "Gwangalli Beach, Busan" }
+        ]},
+        { "n": 4, "area": "釜山——村落、市场、寺庙", "stops": [
+          { "t": "上午", "p": "甘川文化村——山坡上色彩柔和的街区。", "spot": "Gamcheon Culture Village, Busan" },
+          { "t": "下午", "p": "南浦洞的札嘎其鱼市和BIFF广场街头小吃。", "spot": "Jagalchi Market, Busan" },
+          { "t": "晚上", "p": "在黄金时刻造访海东龙宫寺，一座罕见的海边寺庙。", "spot": "Haedong Yonggungsa, Busan" }
+        ]},
+        { "n": 5, "area": "返回首尔/启程回家", "stops": [
+          { "t": "上午", "p": "最后再去趟釜山的海滩或咖啡馆，然后乘KTX返回首尔（或从金海机场飞回家）。", "spot": "Busan Station" },
+          { "t": "下午", "p": "如果从仁川出发，请预留搭乘AREX机场快线/转机的时间。", "spot": "Incheon International Airport" }
+        ]}
+      ],
+      "tips": [
+        "周末和节假日请提前预订KTX座位（Korail Talk应用/letskorail.com）。",
+        "釜山地方分散——地铁加上Kakao T打车基本能覆盖大部分地方。",
+        "首尔住两晚+釜山住两晚，能省去反复收拾行李的麻烦。"
+      ]
+    },
+    "korea-7-days": {
+      "title": "韩国7日游：首尔、釜山、济州行程",
+      "metaTitle": "韩国7日游：首尔、釜山、济州（2026）",
+      "sub": "完整环线——历史悠久的首尔、海滨釜山，以及火山岛济州，由KTX和一段短途飞行串联起来。",
+      "days": "7",
+      "cities": ["seoul", "busan", "jeju"],
+      "overview": "一周时间足以在首尔—釜山路线的基础上加上韩国的度假之岛济州。首尔两天、釜山两天，然后短途飞往济州，饱览火山峰、瀑布和海滩。在济州租辆车吧——这里的公共交通并不发达。",
+      "plan": [
+        { "n": 1, "area": "首尔——古宫与北村", "stops": [
+          { "t": "全天", "p": "景福宫、北村韩屋村、仁寺洞，晚上再去明洞。", "spot": "Gyeongbokgung Palace, Seoul" }
+        ]},
+        { "n": 2, "area": "首尔——现代与美景", "stops": [
+          { "t": "全天", "p": "弘大、N首尔塔和广藏市场——也可以加一段DMZ半日游。", "spot": "N Seoul Tower, Seoul" }
+        ]},
+        { "n": 3, "area": "乘KTX前往釜山", "stops": [
+          { "t": "全天", "p": "乘KTX到釜山；海云台海滩、Blueline Park和广安里夜景。", "spot": "Haeundae Beach, Busan" }
+        ]},
+        { "n": 4, "area": "釜山精华", "stops": [
+          { "t": "全天", "p": "甘川文化村、札嘎其市场和海东龙宫寺。", "spot": "Gamcheon Culture Village, Busan" }
+        ]},
+        { "n": 5, "area": "飞往济州——东部", "stops": [
+          { "t": "上午", "p": "从金海（釜山）短途飞往济州；取租来的车。", "spot": "Jeju International Airport" },
+          { "t": "下午", "p": "东部海岸的城山日出峰和涉地可支。", "spot": "Seongsan Ilchulbong, Jeju" },
+          { "t": "晚上", "p": "在济州市的东门市场吃晚饭。", "spot": "Jeju Dongmun Market" }
+        ]},
+        { "n": 6, "area": "济州——南部与瀑布", "stops": [
+          { "t": "全天", "p": "天地渊瀑布、柱状节理带海崖，还有西归浦附近中文一带的度假海滩。", "spot": "Cheonjiyeon Waterfall, Jeju" }
+        ]},
+        { "n": 7, "area": "济州——西部与启程", "stops": [
+          { "t": "上午", "p": "西部海岸的挟才海滩和翰林公园。", "spot": "Hyeopjae Beach, Jeju" },
+          { "t": "下午", "p": "还车后搭机离开（济州→首尔/仁川转乘国际航班）。", "spot": "Jeju International Airport" }
+        ]}
+      ],
+      "tips": [
+        "在济州租辆车吧——公交慢，景点又散布在沿海各处。",
+        "飞济州的航班又多又便宜（从首尔出发是全球最繁忙的航线之一）。",
+        "确认你的国际航班是否从仁川出发，并预留出前往机场的缓冲时间。"
+      ]
+    }
+  }
+}

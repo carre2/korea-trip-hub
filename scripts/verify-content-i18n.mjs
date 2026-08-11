@@ -44,7 +44,7 @@ const wanted = (loc) => !targets.length || targets.includes(loc);
 // Fields that must never be translated: URLs, enum values, asset paths.
 // NOT "n": in data/visa it's a step number (numeric, skipped anyway), but in data/food
 // it's the dish name, which must be translated.
-const FROZEN = new Set(["link", "url", "src", "req", "icon", "tone", "img", "creditUrl", "code", "factId"]);
+const FROZEN = new Set(["link", "url", "src", "req", "icon", "tone", "img", "creditUrl", "code", "factId", "spot"]);
 const HANGUL = /[가-힣]/;
 const HANGUL_OK = new Set(["ko"]);
 

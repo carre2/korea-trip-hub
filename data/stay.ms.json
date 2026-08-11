@@ -1,0 +1,133 @@
+{
+  "ui": {
+    "hubMetaTitle": "Tempat Menginap di Korea: Kawasan Terbaik di Seoul, Busan & Jeju",
+    "hubMetaDesc": "Tempat menginap di Korea — kawasan terbaik di Seoul, Busan dan Jeju untuk pengunjung kali pertama, hiburan malam, pantai, budaya dan bajet, lengkap dengan pautan hotel.",
+    "hubH1": "Tempat Menginap di Korea",
+    "hubTagline": "Pilih kawasan yang sesuai di setiap bandar — ikut suasana, bukan sekadar harga.",
+    "cardTitle": "Tempat menginap di {city}",
+    "areasCompared": "{n} kawasan dibandingkan",
+    "backToHub": "Tempat menginap",
+    "cityH1": "Tempat Menginap di {city}",
+    "cityTagline": "Kawasan dan kejiranan terbaik — dipilih ikut suasana, bukan sekadar harga.",
+    "updated": "Dikemas kini",
+    "findHotel": "Cari hotel",
+    "thingsToDo": "Aktiviti menarik"
+  },
+  "cities": {
+    "seoul": {
+      "name": "Seoul",
+      "flag": "🏙️",
+      "metaTitle": "Tempat Menginap di Seoul: Kawasan dan Kejiranan Terbaik (2026)",
+      "intro": "Seoul sangat luas, tetapi sistem subway menjadikan mana-mana kawasan mudah dijangkau — jadi pilih ikut suasana yang anda mahukan. Pengunjung kali pertama paling sesuai di kawasan pusat seperti Myeongdong atau Insadong; peminat hiburan malam gemarkan Hongdae; manakala Gangnam pula bahagian moden dan mewah di seberang sungai.",
+      "areas": [
+        {
+          "name": "Myeongdong",
+          "best": "Pengunjung kali pertama & membeli-belah",
+          "tone": "amber",
+          "vibe": "Pangkalan klasik untuk kali pertama — terletak di pusat, penuh dengan hotel, makanan jalanan dan kedai kecantikan, serta boleh berjalan kaki ke Gyeongbokgung dan N Seoul Tower.",
+          "near": "Bas lapangan terbang berhenti di sini; Lines 4 & 2. Boleh jadi sesak dan dipenuhi pelancong."
+        },
+        {
+          "name": "Hongdae",
+          "best": "Hiburan malam & bajet",
+          "tone": "green",
+          "vibe": "Kawasan universiti yang muda dan berjiwa seni dengan penghibur jalanan, kedai indie, kafe dan hiburan malam terbaik di bandar ini. Rumah tetamu dan hostel yang sangat berbaloi harganya.",
+          "near": "AREX bergerak terus ke Lapangan Terbang Incheon (~50 min). Lines 2 & 6."
+        },
+        {
+          "name": "Gangnam",
+          "best": "Mewah & moden",
+          "tone": "blue",
+          "vibe": "Bergaya, bersuasana perniagaan dan mahal — hotel mewah, pusat beli-belah COEX, lokasi K-pop di sekitar Apgujeong. Lebih jauh dari pusat bersejarah.",
+          "near": "Lines 2, 3, 7 & Sinbundang; mudah untuk kereta api Suseo/SRT."
+        },
+        {
+          "name": "Insadong & Jongno",
+          "best": "Budaya & istana",
+          "tone": "amber",
+          "vibe": "Nadi tradisional Seoul — rumah teh, galeri, penginapan hanok dan hanya berjalan kaki singkat ke Gyeongbokgung, Bukchon dan Changdeokgung. Lebih tenang pada waktu malam.",
+          "near": "Lines 1, 3 & 5. Sangat sesuai untuk berjalan kaki melihat pemandangan."
+        },
+        {
+          "name": "Itaewon",
+          "best": "Makanan antarabangsa & kepelbagaian",
+          "tone": "green",
+          "vibe": "Kawasan paling antarabangsa di Seoul — restoran dari seluruh dunia, pilihan halal terbanyak di bandar ini, dan suasana bar yang meriah.",
+          "near": "Line 6; berhampiran Yongsan dan N Seoul Tower."
+        },
+        {
+          "name": "Dongdaemun",
+          "best": "Membeli-belah & bajet",
+          "tone": "blue",
+          "vibe": "Pusat beli-belah fesyen yang beroperasi sepanjang masa, DDP yang futuristik dan juadah lewat malam yang murah. Sesuai jika anda mahu membeli-belah hingga subuh.",
+          "near": "Lines 1, 2 & 4; di pusat bandar dan mempunyai hubungan yang baik."
+        }
+      ]
+    },
+    "busan": {
+      "name": "Busan",
+      "flag": "🌊",
+      "metaTitle": "Tempat Menginap di Busan: Kawasan dan Pantai Terbaik (2026)",
+      "intro": "Busan ialah bandar pantai, jadi kebanyakan pengunjung memilih penginapan berhampiran laut. Haeundae menjadi pilihan utama untuk resort; Gwangalli mempunyai pemandangan malam terbaik; Seomyeon ialah hab pengangkutan dan makanan di pusat bandar; manakala Nampo-dong pula bahagian pasar pekan lama.",
+      "areas": [
+        {
+          "name": "Haeundae",
+          "best": "Pantai & resort",
+          "tone": "blue",
+          "vibe": "Pantai paling terkenal di Busan — hotel resort pencakar langit, akuarium, sky capsule Blueline Park dan tepi laut yang meriah.",
+          "near": "Line 2. Sedikit jauh dari pekan lama, namun keindahan pantainya berbaloi."
+        },
+        {
+          "name": "Gwangalli",
+          "best": "Pemandangan pantai & kafe",
+          "tone": "green",
+          "vibe": "Pantai yang santai dengan pemandangan terbaik persembahan cahaya Jambatan Gwangan, ditambah deretan kafe dan bar yang muda. Terbaik untuk menikmati matahari terbenam.",
+          "near": "Line 2 (Gwangan); tidak jauh dari Haeundae."
+        },
+        {
+          "name": "Seomyeon",
+          "best": "Pusat bandar & hiburan malam",
+          "tone": "amber",
+          "vibe": "Persimpangan pusat bandar Busan — membeli-belah, restoran tidak terkira dan hiburan malam, serta pertukaran pengangkutan paling mudah di seluruh bandar.",
+          "near": "Pertukaran Lines 1 & 2; pangkalan yang paling strategik di tengah bandar."
+        },
+        {
+          "name": "Nampo-dong & Jagalchi",
+          "best": "Pekan lama & pasar",
+          "tone": "amber",
+          "vibe": "Busan yang bersejarah — pasar ikan Jagalchi, pasar Gukje, makanan jalanan BIFF Square dan Kampung Budaya Gamcheon berdekatan. Berbaloi harganya.",
+          "near": "Line 1; mudah dijelajah dengan berjalan kaki, penuh suasana, mesra bajet."
+        }
+      ]
+    },
+    "jeju": {
+      "name": "Jeju",
+      "flag": "🌴",
+      "metaTitle": "Tempat Menginap di Jeju: Utara vs Selatan (2026)",
+      "intro": "Jeju terbahagi kepada bahagian utara (Jeju City — tempat anda mendarat) dan bahagian selatan (Seogwipo — lebih panas, lebih menghijau, lebih hampir dengan alam semula jadi yang terkenal). Anda pasti memerlukan kereta sewa tidak kira di mana; pilih bahagian yang paling hampir dengan tarikan yang anda minati.",
+      "areas": [
+        {
+          "name": "Jeju City (utara)",
+          "best": "Ketibaan & kemudahan",
+          "tone": "blue",
+          "vibe": "Lokasi lapangan terbang, pasar malam Dongmun dan kebanyakan bas — pangkalan praktikal dengan perkhidmatan lengkap dan pilihan hotel paling luas.",
+          "near": "Lapangan Terbang Antarabangsa Jeju; terbaik untuk perjalanan singkat dan hiburan malam."
+        },
+        {
+          "name": "Seogwipo (selatan)",
+          "best": "Alam semula jadi & air terjun",
+          "tone": "green",
+          "vibe": "Hab selatan yang lebih panas dan menghijau berhampiran Air Terjun Cheonjiyeon, tebing Jusangjeolli dan Seongsan Ilchulbong — lebih hampir dengan pemandangan indah Jeju.",
+          "near": "~1 hr dari lapangan terbang dengan kereta; indah dan lebih tenang."
+        },
+        {
+          "name": "Jungmun",
+          "best": "Resort mewah & pantai",
+          "tone": "amber",
+          "vibe": "Kawasan resort Jeju — resort pantai berjenama besar, golf dan pantai Jungmun Saekdal, sesuai untuk percutian santai yang menetap di satu tempat.",
+          "near": "Berhampiran Seogwipo, pantai selatan; tertumpu pada resort."
+        }
+      ]
+    }
+  }
+}

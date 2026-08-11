@@ -1,5 +1,22 @@
 {
-  "_README": "Ready-made day-by-day itineraries (English base). Editorial (real places, no invented prices/times). Rendered by components/ItineraryGuide.jsx. `spot` fields power a Google Maps link per stop. `cities` drives hotel CTAs.",
+  "_README": "Ready-made day-by-day itineraries (English base). Editorial (real places, no invented prices/times). Rendered by components/ItineraryGuide.jsx. `spot` fields power a Google Maps link per stop (KEEP verbatim/English — it is a map query, not display text; frozen in verify-content-i18n). `cities` drives hotel CTAs. `ui` = page chrome labels, translated per locale in itineraries.<locale>.json.",
+  "ui": {
+    "hubMetaTitle": "Korea Itineraries: 3, 5 & 7-Day Plans (2026)",
+    "hubMetaDesc": "Ready-made Korea itineraries, day by day — the perfect 3 days in Seoul, 5 days Seoul + Busan, and a 7-day Seoul, Busan & Jeju trip.",
+    "hubH1": "Korea Itineraries",
+    "hubTagline": "Ready-made day-by-day plans — or build your own with the free planner.",
+    "dayPlan": "{n}-day plan",
+    "backToHub": "Korea itineraries",
+    "daysLabel": "{n} days",
+    "updated": "Updated",
+    "dayLabel": "Day {n}",
+    "map": "map",
+    "goodToKnow": "Good to know",
+    "bookTrip": "Book this trip",
+    "hotelsIn": "Hotels in {city}",
+    "toursTickets": "Tours & tickets",
+    "whereToStayIn": "Where to stay in {city}"
+  },
   "order": ["seoul-3-days", "korea-5-days", "korea-7-days"],
   "items": {
     "seoul-3-days": {

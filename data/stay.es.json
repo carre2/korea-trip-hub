@@ -1,0 +1,133 @@
+{
+  "ui": {
+    "hubMetaTitle": "Dónde alojarse en Corea: las mejores zonas de Seúl, Busan y Jeju",
+    "hubMetaDesc": "Dónde alojarse en Corea: los mejores barrios de Seúl, Busan y Jeju para quienes viajan por primera vez, vida nocturna, playas, cultura y presupuesto ajustado, con enlaces a hoteles.",
+    "hubH1": "Dónde alojarse en Corea",
+    "hubTagline": "Elige la zona adecuada en cada ciudad, por su ambiente y no solo por el precio.",
+    "cardTitle": "Dónde alojarse en {city}",
+    "areasCompared": "{n} zonas comparadas",
+    "backToHub": "Dónde alojarse",
+    "cityH1": "Dónde alojarse en {city}",
+    "cityTagline": "Las mejores zonas y barrios, elegidos por su ambiente y no solo por el precio.",
+    "updated": "Actualizado",
+    "findHotel": "Buscar hotel",
+    "thingsToDo": "Qué hacer"
+  },
+  "cities": {
+    "seoul": {
+      "name": "Seúl",
+      "flag": "🏙️",
+      "metaTitle": "Dónde alojarse en Seúl: las mejores zonas y barrios (2026)",
+      "intro": "Seúl es enorme, pero el metro hace que cualquier barrio funcione, así que elige según el ambiente que busques. Quienes viajan por primera vez se sienten mejor en una zona céntrica como Myeongdong o Insadong; a los noctámbulos les encanta Hongdae; y Gangnam es la cara moderna y elegante al otro lado del río.",
+      "areas": [
+        {
+          "name": "Myeongdong",
+          "best": "Primera visita y compras",
+          "tone": "amber",
+          "vibe": "La base clásica para la primera vez: céntrica, repleta de hoteles, comida callejera y tiendas de cosmética, y a un paseo de Gyeongbokgung y la N Seoul Tower.",
+          "near": "Aquí paran los autobuses del aeropuerto; líneas 4 & 2. Puede ser bulliciosa y muy turística."
+        },
+        {
+          "name": "Hongdae",
+          "best": "Vida nocturna y presupuesto ajustado",
+          "tone": "green",
+          "vibe": "Barrio universitario joven y artístico, con músicos callejeros en directo, tiendas independientes, cafeterías y la mejor vida nocturna de la ciudad. Casas de huéspedes y hostales con muy buena relación calidad-precio.",
+          "near": "El AREX va directo al aeropuerto de Incheon (~50 min). Líneas 2 & 6."
+        },
+        {
+          "name": "Gangnam",
+          "best": "Elegante y moderno",
+          "tone": "blue",
+          "vibe": "Sofisticado, de aire ejecutivo y caro: hoteles de lujo, el centro comercial COEX y lugares del K-pop en torno a Apgujeong. Más alejado del centro histórico.",
+          "near": "Líneas 2, 3, 7 y Sinbundang; cómodo para los trenes de Suseo/SRT."
+        },
+        {
+          "name": "Insadong y Jongno",
+          "best": "Cultura y palacios",
+          "tone": "amber",
+          "vibe": "El corazón tradicional de Seúl: casas de té, galerías, alojamientos en hanok y un corto paseo hasta Gyeongbokgung, Bukchon y Changdeokgung. Más tranquilo de noche.",
+          "near": "Líneas 1, 3 & 5. Muy caminable para hacer turismo."
+        },
+        {
+          "name": "Itaewon",
+          "best": "Cocina internacional y diversidad",
+          "tone": "green",
+          "vibe": "El barrio más internacional de Seúl: restaurantes de todo el mundo, la mayor oferta halal de la ciudad y un animado ambiente de bares.",
+          "near": "Línea 6; cerca de Yongsan y la N Seoul Tower."
+        },
+        {
+          "name": "Dongdaemun",
+          "best": "Compras y presupuesto ajustado",
+          "tone": "blue",
+          "vibe": "Centros comerciales de moda abiertos las 24 horas, el futurista DDP y comida barata a altas horas de la noche. Práctico si quieres comprar hasta el amanecer.",
+          "near": "Líneas 1, 2 & 4; céntrico y bien comunicado."
+        }
+      ]
+    },
+    "busan": {
+      "name": "Busan",
+      "flag": "🌊",
+      "metaTitle": "Dónde alojarse en Busan: las mejores zonas y playas (2026)",
+      "intro": "Busan es una ciudad de playa, así que la mayoría de los visitantes se alojan cerca del mar. Haeundae es la favorita para unas vacaciones tipo resort; Gwangalli tiene las mejores vistas nocturnas; Seomyeon es el nudo central de transporte y gastronomía; y Nampo-dong es la zona del casco antiguo y sus mercados.",
+      "areas": [
+        {
+          "name": "Haeundae",
+          "best": "Playa y resorts",
+          "tone": "blue",
+          "vibe": "La playa más famosa de Busan: hoteles resort de gran altura, el acuario, la cápsula elevada del Blueline Park y un animado paseo marítimo.",
+          "near": "Línea 2. Algo apartada del casco antiguo, pero la playa lo compensa."
+        },
+        {
+          "name": "Gwangalli",
+          "best": "Vistas de playa y cafeterías",
+          "tone": "green",
+          "vibe": "Una playa relajada con vistas de primera fila al espectáculo de luces del puente Gwangan, además de un tramo joven de cafeterías y bares. Ideal para el atardecer.",
+          "near": "Línea 2 (Gwangan); a un paso de Haeundae."
+        },
+        {
+          "name": "Seomyeon",
+          "best": "Céntrico y vida nocturna",
+          "tone": "amber",
+          "vibe": "El cruce de caminos del centro de Busan: compras, restaurantes sin fin y vida nocturna, con los transbordos más fáciles de toda la ciudad.",
+          "near": "Intercambiador de las líneas 1 & 2; la base más céntrica."
+        },
+        {
+          "name": "Nampo-dong y Jagalchi",
+          "best": "Casco antiguo y mercados",
+          "tone": "amber",
+          "vibe": "El Busan histórico: el mercado de pescado de Jagalchi, el mercado Gukje, la comida callejera de BIFF Square y, muy cerca, el pueblo cultural de Gamcheon. Buena relación calidad-precio.",
+          "near": "Línea 1; caminable, con encanto y económico."
+        }
+      ]
+    },
+    "jeju": {
+      "name": "Jeju",
+      "flag": "🌴",
+      "metaTitle": "Dónde alojarse en Jeju: norte o sur (2026)",
+      "intro": "Jeju se divide en el lado norte (la ciudad de Jeju, donde aterrizas) y el lado sur (Seogwipo, más cálido, más verde y más cerca de la famosa naturaleza). En cualquier caso te convendrá alquilar coche; elige el lado más cercano a los lugares que te interesen.",
+      "areas": [
+        {
+          "name": "Ciudad de Jeju (norte)",
+          "best": "Llegada y comodidad",
+          "tone": "blue",
+          "vibe": "Donde están el aeropuerto, el mercado nocturno de Dongmun y la mayoría de los autobuses: la base práctica y bien equipada, con la mayor variedad de hoteles.",
+          "near": "Aeropuerto Internacional de Jeju; ideal para viajes cortos y vida nocturna."
+        },
+        {
+          "name": "Seogwipo (sur)",
+          "best": "Naturaleza y cascadas",
+          "tone": "green",
+          "vibe": "Un núcleo sureño más cálido y frondoso, cerca de la cascada de Cheonjiyeon, los acantilados de Jusangjeolli y Seongsan Ilchulbong: más cerca de los paisajes de postal de Jeju.",
+          "near": "~1 hr del aeropuerto en coche; pintoresco y más tranquilo."
+        },
+        {
+          "name": "Jungmun",
+          "best": "Resorts de lujo y playas",
+          "tone": "amber",
+          "vibe": "El cinturón de resorts de Jeju: grandes resorts de playa, golf y la playa de Jungmun Saekdal, ideal para unas vacaciones relajadas sin moverse del sitio.",
+          "near": "Cerca de Seogwipo, en la costa sur; centrado en los resorts."
+        }
+      ]
+    }
+  }
+}
