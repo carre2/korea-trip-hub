@@ -47,6 +47,14 @@ All photographic images are sourced from free/openly-licensed collections and at
 | taejongdae | Photo: *intacto / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korea-Busan-Taejongdae-03.jpg) |
 | songdo | Photo: Michiel1972 / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Busan_-_Songdo_beach.jpg) |
 | jusangjeolli | Photo: Bernard Gagnon / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Daepo_Jusangjeolli_Cliff_01.jpg) |
+| insadong | Photo: S h y numis / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Insa-dong_%EC%9D%B8%EC%82%AC%EB%8F%99_October_1_2020_20.jpg) |
+| gwangjang-market | Photo: Bgag / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Gwangjang_Market,_Seoul_01.jpg) |
+| gwangalli | Photo: Chelsea Hicks / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gwangalli_Beach.jpg) |
+| cheonjiyeon | Photo: Martin Chen / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korea-Jeju-Cheonjiyeon_Waterfall-01.jpg) |
+| manjanggul | Photo: AhmadElq / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Manjanggul_lava_column,_largest_in_the_world.jpg) |
+| bulguksa | Photo: Wikimedia Commons · Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Lotus_Flower_Bridge_and_Seven_Treasure_Bridge_at_Bulguksa_in_Gyeongju,_Korea.jpg) |
+| cheomseongdae | Photo: Basile Morin / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cheomseongdae_Observatory_under_blue_sky_in_Gyeongju_South_Korea.jpg) |
+| wolji | Photo: Basile Morin / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Water_reflection_of_Donggung_Palace_in_Wolji_Pond_at_blue_hour_in_Gyeongju_South_Korea.jpg) |
 
 ### Food (Plan → Food)
 

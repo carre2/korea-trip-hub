@@ -12,6 +12,10 @@
     {
       "key": "jeju",
       "name": "Jeju"
+    },
+    {
+      "key": "gyeongju",
+      "name": "Gyeongju"
     }
   ],
   "items": {
@@ -623,6 +627,238 @@
         {
           "name": "VisitJeju",
           "url": "https://www.visitjeju.net/en"
+        }
+      ]
+    },
+    "insadong": {
+      "city": "seoul",
+      "cat": "sights",
+      "icon": "🖼️",
+      "grad": "linear-gradient(135deg,#9C6B3F,#C99A63)",
+      "name": "Insadong",
+      "rank": "Traditional culture",
+      "blurb": "Antiques, tea houses and traditional crafts.",
+      "intro": [
+        "Insadong is Seoul’s traditional-culture street, lined with antique shops, art galleries, craft stores, tea houses and calligraphy studios.",
+        "Its main lane and side alleys are pedestrian-friendly and easy to browse on foot."
+      ],
+      "tips": [
+        "Duck into the side alleys for tea houses and hidden courtyards.",
+        "The Ssamziegil complex spirals upward with small craft shops.",
+        "It is an easy walk from Gyeongbokgung and Bukchon."
+      ],
+      "nearby": [
+        "Gyeongbokgung",
+        "Bukchon Hanok Village",
+        "Jongno"
+      ],
+      "official": [
+        {
+          "name": "VisitSeoul",
+          "url": "https://english.visitseoul.net"
+        }
+      ]
+    },
+    "gwangjang-market": {
+      "city": "seoul",
+      "cat": "food",
+      "icon": "🥘",
+      "grad": "linear-gradient(135deg,#C0392B,#E67E5A)",
+      "name": "Gwangjang Market",
+      "rank": "Street-food icon",
+      "blurb": "One of Seoul’s oldest street-food markets.",
+      "intro": [
+        "Gwangjang Market is one of Seoul’s oldest traditional markets, famous for its buzzing street-food alley.",
+        "Grab a stool for bindaetteok (mung-bean pancakes), mayak gimbap and other classics."
+      ],
+      "tips": [
+        "Come hungry and share several dishes across stalls.",
+        "Lunchtime and early evening are liveliest.",
+        "Many food stalls prefer cash."
+      ],
+      "nearby": [
+        "Dongdaemun",
+        "Cheonggyecheon",
+        "Insadong"
+      ],
+      "official": [
+        {
+          "name": "VisitSeoul",
+          "url": "https://english.visitseoul.net"
+        }
+      ]
+    },
+    "gwangalli": {
+      "city": "busan",
+      "cat": "sights",
+      "icon": "🌉",
+      "grad": "linear-gradient(135deg,#1E5FA8,#4F9BD8)",
+      "name": "Gwangalli Beach",
+      "rank": "Diamond Bridge nights",
+      "blurb": "Beach with the Gwangan Bridge light show.",
+      "intro": [
+        "Gwangalli is a relaxed city beach framed by the Gwangan ‘Diamond’ Bridge, whose nightly light show makes it Busan’s favourite after-dark spot.",
+        "A young strip of cafes, bars and seafood restaurants lines the sand."
+      ],
+      "tips": [
+        "Come at night for the bridge light show, and drone shows on some weekends.",
+        "The cafe-and-bar strip is livelier than Haeundae’s.",
+        "It is a short subway hop from Haeundae."
+      ],
+      "nearby": [
+        "Haeundae Beach",
+        "Gwangan Bridge",
+        "Namcheon"
+      ],
+      "official": [
+        {
+          "name": "VisitBusan",
+          "url": "https://www.visitbusan.net/en"
+        }
+      ]
+    },
+    "cheonjiyeon": {
+      "city": "jeju",
+      "cat": "sights",
+      "icon": "💦",
+      "grad": "linear-gradient(135deg,#0E8A6B,#4FBF9B)",
+      "name": "Cheonjiyeon Waterfall",
+      "rank": "Seogwipo falls",
+      "blurb": "Lush waterfall in the heart of Seogwipo.",
+      "intro": [
+        "Cheonjiyeon Waterfall tumbles into a wide pool at the end of a short, lush trail in Seogwipo on Jeju’s south coast.",
+        "The subtropical gorge around it stays green year-round and is lit at night."
+      ],
+      "tips": [
+        "The walk in is short, flat and stroller-friendly.",
+        "Evenings bring illuminations along the path.",
+        "Pair it with Jusangjeolli and the Jungmun area nearby."
+      ],
+      "nearby": [
+        "Jusangjeolli Cliffs",
+        "Jungmun",
+        "Seogwipo"
+      ],
+      "official": [
+        {
+          "name": "VisitJeju",
+          "url": "https://www.visitjeju.net/en"
+        }
+      ]
+    },
+    "manjanggul": {
+      "city": "jeju",
+      "cat": "sights",
+      "icon": "🕳️",
+      "grad": "linear-gradient(135deg,#2B2E36,#565C68)",
+      "name": "Manjanggul Cave",
+      "rank": "UNESCO lava tube",
+      "blurb": "A vast UNESCO lava tube you can walk through.",
+      "intro": [
+        "Manjanggul is one of the world’s finest lava tubes and part of Jeju’s UNESCO World Heritage listing, formed by flowing volcanic lava.",
+        "An open section leads through the tunnel to a towering lava column."
+      ],
+      "tips": [
+        "It stays cool inside year-round — bring a light layer.",
+        "The floor is uneven and damp; wear grippy shoes.",
+        "It is on the east side, near Seongsan."
+      ],
+      "nearby": [
+        "Seongsan Ilchulbong",
+        "Gimnyeong",
+        "Jeju City"
+      ],
+      "official": [
+        {
+          "name": "VisitJeju",
+          "url": "https://www.visitjeju.net/en"
+        }
+      ]
+    },
+    "bulguksa": {
+      "city": "gyeongju",
+      "cat": "sights",
+      "icon": "🛕",
+      "grad": "linear-gradient(135deg,#7A5C2E,#B8905A)",
+      "name": "Bulguksa Temple",
+      "rank": "UNESCO temple",
+      "blurb": "Gyeongju’s UNESCO Silla-era masterpiece temple.",
+      "intro": [
+        "Bulguksa is a masterpiece of Silla-era Buddhist art and a UNESCO World Heritage site, with stone terraces, bridges and two celebrated pagodas.",
+        "It is the centrepiece of a visit to Gyeongju, Korea’s ancient capital."
+      ],
+      "tips": [
+        "Pair it with the Seokguram Grotto up the same mountain.",
+        "Mornings are quietest and best for photos.",
+        "Autumn colour around the temple is spectacular."
+      ],
+      "nearby": [
+        "Seokguram Grotto",
+        "Gyeongju",
+        "Bomun Lake"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "cheomseongdae": {
+      "city": "gyeongju",
+      "cat": "sights",
+      "icon": "🔭",
+      "grad": "linear-gradient(135deg,#6B6152,#9C9285)",
+      "name": "Cheomseongdae Observatory",
+      "rank": "Ancient observatory",
+      "blurb": "One of Asia’s oldest surviving observatories.",
+      "intro": [
+        "Cheomseongdae is a bottle-shaped stone tower from the Silla kingdom, regarded as one of the oldest surviving astronomical observatories in Asia.",
+        "It stands among royal tombs and seasonal flower fields in central Gyeongju."
+      ],
+      "tips": [
+        "The surrounding Wolseong parkland is lovely at dusk.",
+        "It is floodlit and photogenic after dark.",
+        "Combine it with Donggung Palace and Wolji Pond next door."
+      ],
+      "nearby": [
+        "Donggung & Wolji Pond",
+        "Daereungwon Tombs",
+        "Gyeongju"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "wolji": {
+      "city": "gyeongju",
+      "cat": "sights",
+      "icon": "🌙",
+      "grad": "linear-gradient(135deg,#2B3A67,#5B6BA8)",
+      "name": "Donggung Palace & Wolji Pond",
+      "rank": "Night reflections",
+      "blurb": "Silla palace ruins mirrored in a night-lit pond.",
+      "intro": [
+        "Donggung Palace and Wolji Pond (formerly Anapji) are the restored grounds of a Silla royal pleasure garden, most magical after dark.",
+        "Illuminated pavilions reflect in the still water — Gyeongju’s signature night view."
+      ],
+      "tips": [
+        "Come after sunset for the famous reflections.",
+        "It is a short walk from Cheomseongdae.",
+        "Check the closing time so you do not miss the evening view."
+      ],
+      "nearby": [
+        "Cheomseongdae",
+        "Gyeongju National Museum",
+        "Daereungwon Tombs"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
         }
       ]
     }
