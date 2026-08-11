@@ -63,6 +63,12 @@ All photographic images are sourced from free/openly-licensed collections and at
 | gyeongpo | Photo: Mobius6 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gyeongpo_Beach_20220502_002.jpg) |
 | jeongdongjin | Photo: 최광모 / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:20151015_%EC%B5%9C%EA%B4%91%EB%AA%A8_SONY_DSC-RX10_DSC04367_20151024.JPG) |
 | hwaseong | Photo: Lance Vanlewen / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hwaseong_Fortress,_Suwon,_Gyeonggi-do,_Republic_of_Korea_(2).jpg) |
+| daereungwon | Photo: dokaspar / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gyeongju_-_King_Tomb_Park_-_panoramio.jpg) |
+| jaman | Photo: lumoplank / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Jaman_Mural_Village,_Jeonju_-_Jeonju3052.jpg) |
+| ojukheon | Photo: 최광모 / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:20151003OjukheonDSC03018.jpg) |
+| haenggung | Photo: Korea.net / Republic of Korea / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:KOCIS_Martial_artists_perform_at_Suwon_Haenggung_Palace_(5433219260).jpg) |
+| starfield-coex | Photo: Hyerimwon / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%EB%B3%84%EB%A7%88%EB%8B%B9%EB%8F%84%EC%84%9C%EA%B4%80.jpg) |
+| oryukdo | Photo: S099001 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Oryukdo_Skywalk.jpg) |
 
 ### Food (Plan → Food)
 
