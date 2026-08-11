@@ -16,31 +16,86 @@
     "toursTickets": "Lawatan & tiket",
     "whereToStayIn": "Tempat menginap di {city}"
   },
-  "order": ["seoul-3-days", "korea-5-days", "korea-7-days"],
+  "order": [
+    "seoul-3-days",
+    "korea-5-days",
+    "korea-7-days",
+    "gyeongju-2-days"
+  ],
   "items": {
     "seoul-3-days": {
       "title": "3 Hari di Seoul: Itinerari Sempurna untuk Kali Pertama",
       "metaTitle": "3 Hari di Seoul: Itinerari Sempurna (2026)",
       "sub": "Istana, lorong hanok, makanan jalanan dan pemandangan kaki langit — lawatan pertama ke Seoul yang santai namun lengkap.",
       "days": "3",
-      "cities": ["seoul"],
+      "cities": [
+        "seoul"
+      ],
       "overview": "Inilah laluan klasik untuk kali pertama: Seoul Lama (istana dan hanok) pada hari pertama, Seoul moden dan pemandangan malam pada hari kedua, serta hari ketiga yang fleksibel untuk perjalanan sehari atau pilihan anda sendiri. Semuanya berhubung dengan subway — dapatkan kad T-money dan anda sudah bersedia.",
       "plan": [
-        { "n": 1, "area": "Istana & Seoul Lama", "stops": [
-          { "t": "Pagi", "p": "Istana Gyeongbokgung — tiba awal, dan pakai hanbok untuk masuk percuma. Saksikan istiadat pertukaran pengawal.", "spot": "Gyeongbokgung Palace, Seoul" },
-          { "t": "Tengah hari", "p": "Menjelajah Kampung Hanok Bukchon dan kafe Samcheong-dong, kemudian ke Insadong untuk teh, galeri dan cenderamata.", "spot": "Bukchon Hanok Village, Seoul" },
-          { "t": "Malam", "p": "Makan malam di Pasar Gwangjang (bindaetteok, mayak gimbap), salah satu pasar makanan jalanan lama yang hebat di Seoul.", "spot": "Gwangjang Market, Seoul" }
-        ]},
-        { "n": 2, "area": "Seoul moden & pemandangan malam", "stops": [
-          { "t": "Pagi", "p": "Brunch dan bersiar-siar di Hongdae — kedai indie, kafe dan penghibur jalanan di sekitar universiti.", "spot": "Hongdae, Seoul" },
-          { "t": "Tengah hari", "p": "Menuju ke Namsan dan naik ke N Seoul Tower untuk panorama bandar; menyusuri denai hijau dalam perjalanan.", "spot": "N Seoul Tower, Seoul" },
-          { "t": "Malam", "p": "Myeongdong untuk membeli-belah, kedai kecantikan dan pusingan kedua makanan jalanan.", "spot": "Myeongdong, Seoul" }
-        ]},
-        { "n": 3, "area": "Pilihan anda — perjalanan sehari atau penerokaan mendalam", "stops": [
-          { "t": "Pilihan A", "p": "Gangnam: Perpustakaan Starfield COEX, K-Star Road di Apgujeong dan membeli-belah mewah.", "spot": "Starfield COEX Mall, Seoul" },
-          { "t": "Pilihan B", "p": "Lawatan DMZ separuh hari ke sempadan antara Korea — tempah awal (pasport diperlukan).", "spot": "Imjingak, Paju" },
-          { "t": "Malam", "p": "Bersantai di taman Sungai Han (Yeouido) — beli snek kedai serbaneka dan saksikan lampu jambatan menyala.", "spot": "Yeouido Hangang Park, Seoul" }
-        ]}
+        {
+          "n": 1,
+          "area": "Istana & Seoul Lama",
+          "stops": [
+            {
+              "t": "Pagi",
+              "p": "Istana Gyeongbokgung — tiba awal, dan pakai hanbok untuk masuk percuma. Saksikan istiadat pertukaran pengawal.",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            },
+            {
+              "t": "Tengah hari",
+              "p": "Menjelajah Kampung Hanok Bukchon dan kafe Samcheong-dong, kemudian ke Insadong untuk teh, galeri dan cenderamata.",
+              "spot": "Bukchon Hanok Village, Seoul"
+            },
+            {
+              "t": "Malam",
+              "p": "Makan malam di Pasar Gwangjang (bindaetteok, mayak gimbap), salah satu pasar makanan jalanan lama yang hebat di Seoul.",
+              "spot": "Gwangjang Market, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Seoul moden & pemandangan malam",
+          "stops": [
+            {
+              "t": "Pagi",
+              "p": "Brunch dan bersiar-siar di Hongdae — kedai indie, kafe dan penghibur jalanan di sekitar universiti.",
+              "spot": "Hongdae, Seoul"
+            },
+            {
+              "t": "Tengah hari",
+              "p": "Menuju ke Namsan dan naik ke N Seoul Tower untuk panorama bandar; menyusuri denai hijau dalam perjalanan.",
+              "spot": "N Seoul Tower, Seoul"
+            },
+            {
+              "t": "Malam",
+              "p": "Myeongdong untuk membeli-belah, kedai kecantikan dan pusingan kedua makanan jalanan.",
+              "spot": "Myeongdong, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "Pilihan anda — perjalanan sehari atau penerokaan mendalam",
+          "stops": [
+            {
+              "t": "Pilihan A",
+              "p": "Gangnam: Perpustakaan Starfield COEX, K-Star Road di Apgujeong dan membeli-belah mewah.",
+              "spot": "Starfield COEX Mall, Seoul"
+            },
+            {
+              "t": "Pilihan B",
+              "p": "Lawatan DMZ separuh hari ke sempadan antara Korea — tempah awal (pasport diperlukan).",
+              "spot": "Imjingak, Paju"
+            },
+            {
+              "t": "Malam",
+              "p": "Bersantai di taman Sungai Han (Yeouido) — beli snek kedai serbaneka dan saksikan lampu jambatan menyala.",
+              "spot": "Yeouido Hangang Park, Seoul"
+            }
+          ]
+        }
       ],
       "tips": [
         "Dapatkan kad T-money dahulu — ia meliputi subway, bas dan kebanyakan teksi.",
@@ -53,33 +108,112 @@
       "metaTitle": "5 Hari di Korea: Itinerari Seoul + Busan (2026)",
       "sub": "Yang terbaik daripada kedua-dua bandar — dua hari di Seoul, menaiki KTX ke Busan, dan pantai, kuil serta pasar di selatan.",
       "days": "5",
-      "cities": ["seoul", "busan"],
+      "cities": [
+        "seoul",
+        "busan"
+      ],
       "overview": "Lima hari sudah cukup untuk dua bandar terbesar Korea. Luangkan dua hari di Seoul, kemudian naik kereta api laju KTX (~2h40) ke Busan untuk menikmati pantai, kampung seni di lereng bukit dan makanan laut terbaik Korea, sebelum kembali.",
       "plan": [
-        { "n": 1, "area": "Seoul — istana & Bukchon", "stops": [
-          { "t": "Pagi", "p": "Istana Gyeongbokgung + pertukaran pengawal (hanbok = masuk percuma).", "spot": "Gyeongbokgung Palace, Seoul" },
-          { "t": "Tengah hari", "p": "Kampung Hanok Bukchon dan Insadong.", "spot": "Bukchon Hanok Village, Seoul" },
-          { "t": "Malam", "p": "Makanan jalanan dan membeli-belah di Myeongdong.", "spot": "Myeongdong, Seoul" }
-        ]},
-        { "n": 2, "area": "Seoul — moden & pemandangan", "stops": [
-          { "t": "Pagi", "p": "Kafe dan kedai di Hongdae.", "spot": "Hongdae, Seoul" },
-          { "t": "Tengah hari", "p": "N Seoul Tower untuk pemandangan kaki langit.", "spot": "N Seoul Tower, Seoul" },
-          { "t": "Malam", "p": "Pasar Gwangjang atau taman Sungai Han.", "spot": "Gwangjang Market, Seoul" }
-        ]},
-        { "n": 3, "area": "KTX ke Busan — pantai", "stops": [
-          { "t": "Pagi", "p": "KTX dari Stesen Seoul ke Busan (~2h40). Tempah tempat duduk lebih awal pada hujung minggu.", "spot": "Seoul Station" },
-          { "t": "Tengah hari", "p": "Pantai Haeundae dan sky capsule Blueline Park.", "spot": "Haeundae Beach, Busan" },
-          { "t": "Malam", "p": "Pantai Gwangalli untuk persembahan cahaya Jambatan Gwangan.", "spot": "Gwangalli Beach, Busan" }
-        ]},
-        { "n": 4, "area": "Busan — kampung, pasar, kuil", "stops": [
-          { "t": "Pagi", "p": "Kampung Budaya Gamcheon — kejiranan lereng bukit berwarna pastel.", "spot": "Gamcheon Culture Village, Busan" },
-          { "t": "Tengah hari", "p": "Pasar Ikan Jagalchi dan makanan jalanan BIFF Square di Nampo-dong.", "spot": "Jagalchi Market, Busan" },
-          { "t": "Malam", "p": "Haedong Yonggungsa, kuil tepi laut yang jarang ditemui, ketika waktu senja keemasan.", "spot": "Haedong Yonggungsa, Busan" }
-        ]},
-        { "n": 5, "area": "Kembali ke Seoul / berlepas", "stops": [
-          { "t": "Pagi", "p": "Pantai atau kafe Busan pada saat akhir, kemudian KTX kembali ke Seoul (atau terbang pulang dari Gimhae).", "spot": "Busan Station" },
-          { "t": "Tengah hari", "p": "Jika berlepas dari Incheon, luangkan masa untuk perjalanan AREX/ke lapangan terbang.", "spot": "Incheon International Airport" }
-        ]}
+        {
+          "n": 1,
+          "area": "Seoul — istana & Bukchon",
+          "stops": [
+            {
+              "t": "Pagi",
+              "p": "Istana Gyeongbokgung + pertukaran pengawal (hanbok = masuk percuma).",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            },
+            {
+              "t": "Tengah hari",
+              "p": "Kampung Hanok Bukchon dan Insadong.",
+              "spot": "Bukchon Hanok Village, Seoul"
+            },
+            {
+              "t": "Malam",
+              "p": "Makanan jalanan dan membeli-belah di Myeongdong.",
+              "spot": "Myeongdong, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Seoul — moden & pemandangan",
+          "stops": [
+            {
+              "t": "Pagi",
+              "p": "Kafe dan kedai di Hongdae.",
+              "spot": "Hongdae, Seoul"
+            },
+            {
+              "t": "Tengah hari",
+              "p": "N Seoul Tower untuk pemandangan kaki langit.",
+              "spot": "N Seoul Tower, Seoul"
+            },
+            {
+              "t": "Malam",
+              "p": "Pasar Gwangjang atau taman Sungai Han.",
+              "spot": "Gwangjang Market, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "KTX ke Busan — pantai",
+          "stops": [
+            {
+              "t": "Pagi",
+              "p": "KTX dari Stesen Seoul ke Busan (~2h40). Tempah tempat duduk lebih awal pada hujung minggu.",
+              "spot": "Seoul Station"
+            },
+            {
+              "t": "Tengah hari",
+              "p": "Pantai Haeundae dan sky capsule Blueline Park.",
+              "spot": "Haeundae Beach, Busan"
+            },
+            {
+              "t": "Malam",
+              "p": "Pantai Gwangalli untuk persembahan cahaya Jambatan Gwangan.",
+              "spot": "Gwangalli Beach, Busan"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "area": "Busan — kampung, pasar, kuil",
+          "stops": [
+            {
+              "t": "Pagi",
+              "p": "Kampung Budaya Gamcheon — kejiranan lereng bukit berwarna pastel.",
+              "spot": "Gamcheon Culture Village, Busan"
+            },
+            {
+              "t": "Tengah hari",
+              "p": "Pasar Ikan Jagalchi dan makanan jalanan BIFF Square di Nampo-dong.",
+              "spot": "Jagalchi Market, Busan"
+            },
+            {
+              "t": "Malam",
+              "p": "Haedong Yonggungsa, kuil tepi laut yang jarang ditemui, ketika waktu senja keemasan.",
+              "spot": "Haedong Yonggungsa, Busan"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "area": "Kembali ke Seoul / berlepas",
+          "stops": [
+            {
+              "t": "Pagi",
+              "p": "Pantai atau kafe Busan pada saat akhir, kemudian KTX kembali ke Seoul (atau terbang pulang dari Gimhae).",
+              "spot": "Busan Station"
+            },
+            {
+              "t": "Tengah hari",
+              "p": "Jika berlepas dari Incheon, luangkan masa untuk perjalanan AREX/ke lapangan terbang.",
+              "spot": "Incheon International Airport"
+            }
+          ]
+        }
       ],
       "tips": [
         "Tempah tempat duduk KTX lebih awal untuk hujung minggu dan cuti (aplikasi Korail Talk / letskorail.com).",
@@ -92,38 +226,169 @@
       "metaTitle": "7 Hari di Korea: Seoul, Busan & Jeju (2026)",
       "sub": "Perjalanan penuh — Seoul yang bersejarah, Busan di tepi pantai dan pulau gunung berapi Jeju, dihubungkan dengan KTX dan penerbangan singkat.",
       "days": "7",
-      "cities": ["seoul", "busan", "jeju"],
+      "cities": [
+        "seoul",
+        "busan",
+        "jeju"
+      ],
       "overview": "Seminggu membolehkan anda menambah Jeju, pulau percutian Korea, ke laluan Seoul–Busan. Dua hari di Seoul, dua di Busan, kemudian penerbangan singkat ke Jeju untuk puncak gunung berapi, air terjun dan pantai. Sewa kereta di Jeju — pengangkutan awam terhad.",
       "plan": [
-        { "n": 1, "area": "Seoul — istana & Bukchon", "stops": [
-          { "t": "Sepanjang hari", "p": "Gyeongbokgung, Kampung Hanok Bukchon, Insadong, dan Myeongdong pada waktu malam.", "spot": "Gyeongbokgung Palace, Seoul" }
-        ]},
-        { "n": 2, "area": "Seoul — moden & pemandangan", "stops": [
-          { "t": "Sepanjang hari", "p": "Hongdae, N Seoul Tower dan Pasar Gwangjang — atau tambah lawatan DMZ separuh hari.", "spot": "N Seoul Tower, Seoul" }
-        ]},
-        { "n": 3, "area": "KTX ke Busan", "stops": [
-          { "t": "Sepanjang hari", "p": "KTX ke Busan; Pantai Haeundae, Blueline Park dan pemandangan malam Gwangalli.", "spot": "Haeundae Beach, Busan" }
-        ]},
-        { "n": 4, "area": "Tarikan utama Busan", "stops": [
-          { "t": "Sepanjang hari", "p": "Kampung Budaya Gamcheon, Pasar Jagalchi dan Kuil Haedong Yonggungsa.", "spot": "Gamcheon Culture Village, Busan" }
-        ]},
-        { "n": 5, "area": "Terbang ke Jeju — bahagian timur", "stops": [
-          { "t": "Pagi", "p": "Penerbangan singkat dari Gimhae (Busan) ke Jeju; ambil kereta sewa.", "spot": "Jeju International Airport" },
-          { "t": "Tengah hari", "p": "Seongsan Ilchulbong (Puncak Matahari Terbit) dan Seopjikoji di pantai timur.", "spot": "Seongsan Ilchulbong, Jeju" },
-          { "t": "Malam", "p": "Pasar Dongmun di Jeju City untuk makan malam.", "spot": "Jeju Dongmun Market" }
-        ]},
-        { "n": 6, "area": "Jeju — selatan & air terjun", "stops": [
-          { "t": "Sepanjang hari", "p": "Air Terjun Cheonjiyeon, tebing Jusangjeolli dan pantai resort Jungmun di sekitar Seogwipo.", "spot": "Cheonjiyeon Waterfall, Jeju" }
-        ]},
-        { "n": 7, "area": "Jeju — barat & berlepas", "stops": [
-          { "t": "Pagi", "p": "Pantai Hyeopjae dan Taman Hallim di pantai barat.", "spot": "Hyeopjae Beach, Jeju" },
-          { "t": "Tengah hari", "p": "Pulangkan kereta dan berlepas (Jeju → Seoul/Incheon untuk sambungan antarabangsa).", "spot": "Jeju International Airport" }
-        ]}
+        {
+          "n": 1,
+          "area": "Seoul — istana & Bukchon",
+          "stops": [
+            {
+              "t": "Sepanjang hari",
+              "p": "Gyeongbokgung, Kampung Hanok Bukchon, Insadong, dan Myeongdong pada waktu malam.",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Seoul — moden & pemandangan",
+          "stops": [
+            {
+              "t": "Sepanjang hari",
+              "p": "Hongdae, N Seoul Tower dan Pasar Gwangjang — atau tambah lawatan DMZ separuh hari.",
+              "spot": "N Seoul Tower, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "KTX ke Busan",
+          "stops": [
+            {
+              "t": "Sepanjang hari",
+              "p": "KTX ke Busan; Pantai Haeundae, Blueline Park dan pemandangan malam Gwangalli.",
+              "spot": "Haeundae Beach, Busan"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "area": "Tarikan utama Busan",
+          "stops": [
+            {
+              "t": "Sepanjang hari",
+              "p": "Kampung Budaya Gamcheon, Pasar Jagalchi dan Kuil Haedong Yonggungsa.",
+              "spot": "Gamcheon Culture Village, Busan"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "area": "Terbang ke Jeju — bahagian timur",
+          "stops": [
+            {
+              "t": "Pagi",
+              "p": "Penerbangan singkat dari Gimhae (Busan) ke Jeju; ambil kereta sewa.",
+              "spot": "Jeju International Airport"
+            },
+            {
+              "t": "Tengah hari",
+              "p": "Seongsan Ilchulbong (Puncak Matahari Terbit) dan Seopjikoji di pantai timur.",
+              "spot": "Seongsan Ilchulbong, Jeju"
+            },
+            {
+              "t": "Malam",
+              "p": "Pasar Dongmun di Jeju City untuk makan malam.",
+              "spot": "Jeju Dongmun Market"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "area": "Jeju — selatan & air terjun",
+          "stops": [
+            {
+              "t": "Sepanjang hari",
+              "p": "Air Terjun Cheonjiyeon, tebing Jusangjeolli dan pantai resort Jungmun di sekitar Seogwipo.",
+              "spot": "Cheonjiyeon Waterfall, Jeju"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "area": "Jeju — barat & berlepas",
+          "stops": [
+            {
+              "t": "Pagi",
+              "p": "Pantai Hyeopjae dan Taman Hallim di pantai barat.",
+              "spot": "Hyeopjae Beach, Jeju"
+            },
+            {
+              "t": "Tengah hari",
+              "p": "Pulangkan kereta dan berlepas (Jeju → Seoul/Incheon untuk sambungan antarabangsa).",
+              "spot": "Jeju International Airport"
+            }
+          ]
+        }
       ],
       "tips": [
         "Sewa kereta di Jeju — bas lambat dan tarikan tersebar di sekeliling pantai.",
         "Penerbangan ke Jeju kerap dan murah (salah satu laluan tersibuk dunia dari Seoul).",
         "Semak sama ada penerbangan antarabangsa anda berlepas dari Incheon dan sediakan masa tambahan untuk sampai ke sana."
+      ]
+    },
+    "gyeongju-2-days": {
+      "title": "2 Hari di Gyeongju: Bekas Ibu Kota Purba Korea",
+      "metaTitle": "Itinerari 2 Hari di Gyeongju (2026)",
+      "sub": "Kuil Silla, makam diraja dan kolam bermandikan cahaya tanglung — muzium terbuka bekas ibu kota purba Korea.",
+      "days": "2",
+      "cities": [
+        "gyeongju"
+      ],
+      "overview": "Gyeongju menjadi ibu kota kerajaan Silla selama hampir seribu tahun, dan khazanahnya bertaburan di sebuah bandar kecil yang santai. Luangkan satu hari untuk kuil UNESCO di kawasan berbukit dan satu hari lagi di jalur pusat bandar yang penuh makam, sebuah balai cerap dan kolam bermandikan cahaya waktu malam. Ia mudah dicapai dengan tren KTX ke stesen Singyeongju yang berdekatan dari Seoul atau Busan.",
+      "plan": [
+        {
+          "n": 1,
+          "area": "Kuil UNESCO & kawasan berbukit",
+          "stops": [
+            {
+              "t": "Pagi",
+              "p": "Kuil Bulguksa — sebuah mahakarya era Silla yang penuh teres batu dan pagoda; tibalah awal.",
+              "spot": "Bulguksa, Gyeongju"
+            },
+            {
+              "t": "Tengah hari",
+              "p": "Gua Seokguram di atas gunung yang sama, dengan patung Buddha batu yang tenang dan pemandangan laut.",
+              "spot": "Seokguram, Gyeongju"
+            },
+            {
+              "t": "Malam",
+              "p": "Kembali ke bandar untuk makan malam di sekitar Hwangnidan-gil, jalan kafe dan makanan yang trendi.",
+              "spot": "Hwangnidan-gil, Gyeongju"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Makam, balai cerap & kolam",
+          "stops": [
+            {
+              "t": "Pagi",
+              "p": "Taman makam Daereungwon dan Cheonmachong, satu-satunya busut diraja yang boleh anda masuki.",
+              "spot": "Daereungwon, Gyeongju"
+            },
+            {
+              "t": "Tengah hari",
+              "p": "Cheomseongdae, sebuah balai cerap batu purba, kemudian Muzium Negara Gyeongju.",
+              "spot": "Cheomseongdae, Gyeongju"
+            },
+            {
+              "t": "Malam",
+              "p": "Istana Donggung dan Kolam Wolji selepas gelap, apabila balairung terpantul di permukaan air.",
+              "spot": "Donggung Palace and Wolji Pond, Gyeongju"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Naik KTX ke stesen Singyeongju, kemudian bas atau teksi ke tempat-tempat menarik.",
+        "Sewa basikal di pusat bandar — makam, Cheomseongdae dan Wolji terletak berdekatan antara satu sama lain.",
+        "Simpan Kolam Wolji untuk waktu malam; ia pemandangan malam ikonik Gyeongju."
       ]
     }
   }

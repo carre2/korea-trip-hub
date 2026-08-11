@@ -128,6 +128,35 @@
           "near": "Cerca de Seogwipo, en la costa sur; centrado en los resorts."
         }
       ]
+    },
+    "gyeongju": {
+      "name": "Gyeongju",
+      "flag": "🏛️",
+      "metaTitle": "Dónde alojarse en Gyeongju: mejores zonas (2026)",
+      "intro": "Gyeongju, la antigua capital de Silla en Corea, es compacta y se reparte en varias bases: la zona de resorts del lago Bomun para hoteles y tranquilidad, el casco antiguo en torno a las tumbas reales y la calle de cafés Hwangnidan-gil para ver los lugares a pie, y la zona cercana a Bulguksa para empezar temprano en el templo.",
+      "areas": [
+        {
+          "name": "Resort del lago Bomun",
+          "best": "Resorts y tranquilidad",
+          "tone": "blue",
+          "vibe": "Una zona de resorts creada expresamente en torno a un lago, con los hoteles más grandes, spas y fácil acceso a Bulguksa: tranquila y verde, a un corto trayecto de los lugares de interés.",
+          "near": "Un corto trayecto en autobús o taxi hasta el centro; ideal para la comodidad y las familias."
+        },
+        {
+          "name": "Centro y Hwangnidan-gil",
+          "best": "Lugares de interés y cafés",
+          "tone": "amber",
+          "vibe": "El casco antiguo, recorrible a pie, junto a las tumbas reales, Cheomseongdae y la moderna calle de cafés y boutiques Hwangnidan-gil: la mayoría de los lugares históricos están a un paseo.",
+          "near": "A pie hasta Daereungwon, Cheomseongdae y Wolji; casas de huéspedes y alojamientos boutique."
+        },
+        {
+          "name": "Cerca de Bulguksa",
+          "best": "Templo y tranquilidad",
+          "tone": "green",
+          "vibe": "El lado este, más verde, cerca de Bulguksa y Seokguram, ideal para una base tranquila y una visita temprana al templo antes de las multitudes.",
+          "near": "Lo más cercano a Bulguksa y Seokguram; a un trayecto en autobús o taxi del centro."
+        }
+      ]
     }
   }
 }

@@ -16,31 +16,86 @@
     "toursTickets": "行程與門票",
     "whereToStayIn": "{city}住宿指南"
   },
-  "order": ["seoul-3-days", "korea-5-days", "korea-7-days"],
+  "order": [
+    "seoul-3-days",
+    "korea-5-days",
+    "korea-7-days",
+    "gyeongju-2-days"
+  ],
   "items": {
     "seoul-3-days": {
       "title": "首爾 3 日遊：初訪者的完美行程",
       "metaTitle": "首爾 3 日遊：完美行程規劃（2026）",
       "sub": "古宮、韓屋巷弄、街頭小吃與城市天際線——輕鬆卻完整的首爾初訪之旅。",
       "days": "3",
-      "cities": ["seoul"],
+      "cities": [
+        "seoul"
+      ],
       "overview": "這是最經典的初訪路線：第一天走訪古首爾（宮殿與韓屋），第二天感受現代首爾與夜景，第三天則彈性安排一日遊或自己想去的地方。所有景點都有地鐵串連——買張T-money卡就搞定了。",
       "plan": [
-        { "n": 1, "area": "宮殿與古首爾", "stops": [
-          { "t": "上午", "p": "景福宮——早點到，穿韓服還能免費入場。別錯過守門將換崗儀式。", "spot": "Gyeongbokgung Palace, Seoul" },
-          { "t": "下午", "p": "漫步北村韓屋村與三清洞的咖啡館，再到仁寺洞喝茶、逛藝廊、買伴手禮。", "spot": "Bukchon Hanok Village, Seoul" },
-          { "t": "晚上", "p": "在廣藏市場吃晚餐（綠豆煎餅、麻藥飯捲），這是首爾歷史悠久的街頭美食市場之一。", "spot": "Gwangjang Market, Seoul" }
-        ]},
-        { "n": 2, "area": "現代首爾與夜景", "stops": [
-          { "t": "上午", "p": "在弘大吃早午餐、逛街——大學周邊有獨立小店、咖啡館與街頭藝人。", "spot": "Hongdae, Seoul" },
-          { "t": "下午", "p": "前往南山，登上N首爾塔飽覽城市全景；沿途還能走走綠意盎然的步道。", "spot": "N Seoul Tower, Seoul" },
-          { "t": "晚上", "p": "到明洞購物、逛美妝店，再來第二輪街頭小吃。", "spot": "Myeongdong, Seoul" }
-        ]},
-        { "n": 3, "area": "由你決定——一日遊或深度探索", "stops": [
-          { "t": "選項 A", "p": "江南：COEX星空圖書館、狎鷗亭的K-Star Road，還有高檔購物。", "spot": "Starfield COEX Mall, Seoul" },
-          { "t": "選項 B", "p": "半日DMZ非軍事區行程，前往兩韓邊界——記得先預約（需帶護照）。", "spot": "Imjingak, Paju" },
-          { "t": "晚上", "p": "在漢江公園（汝矣島）放鬆收尾——買些便利商店的零食，看著橋樑點亮燈光。", "spot": "Yeouido Hangang Park, Seoul" }
-        ]}
+        {
+          "n": 1,
+          "area": "宮殿與古首爾",
+          "stops": [
+            {
+              "t": "上午",
+              "p": "景福宮——早點到，穿韓服還能免費入場。別錯過守門將換崗儀式。",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            },
+            {
+              "t": "下午",
+              "p": "漫步北村韓屋村與三清洞的咖啡館，再到仁寺洞喝茶、逛藝廊、買伴手禮。",
+              "spot": "Bukchon Hanok Village, Seoul"
+            },
+            {
+              "t": "晚上",
+              "p": "在廣藏市場吃晚餐（綠豆煎餅、麻藥飯捲），這是首爾歷史悠久的街頭美食市場之一。",
+              "spot": "Gwangjang Market, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "現代首爾與夜景",
+          "stops": [
+            {
+              "t": "上午",
+              "p": "在弘大吃早午餐、逛街——大學周邊有獨立小店、咖啡館與街頭藝人。",
+              "spot": "Hongdae, Seoul"
+            },
+            {
+              "t": "下午",
+              "p": "前往南山，登上N首爾塔飽覽城市全景；沿途還能走走綠意盎然的步道。",
+              "spot": "N Seoul Tower, Seoul"
+            },
+            {
+              "t": "晚上",
+              "p": "到明洞購物、逛美妝店，再來第二輪街頭小吃。",
+              "spot": "Myeongdong, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "由你決定——一日遊或深度探索",
+          "stops": [
+            {
+              "t": "選項 A",
+              "p": "江南：COEX星空圖書館、狎鷗亭的K-Star Road，還有高檔購物。",
+              "spot": "Starfield COEX Mall, Seoul"
+            },
+            {
+              "t": "選項 B",
+              "p": "半日DMZ非軍事區行程，前往兩韓邊界——記得先預約（需帶護照）。",
+              "spot": "Imjingak, Paju"
+            },
+            {
+              "t": "晚上",
+              "p": "在漢江公園（汝矣島）放鬆收尾——買些便利商店的零食，看著橋樑點亮燈光。",
+              "spot": "Yeouido Hangang Park, Seoul"
+            }
+          ]
+        }
       ],
       "tips": [
         "先辦一張T-money卡——地鐵、公車和大多數計程車都能用。",
@@ -53,33 +108,112 @@
       "metaTitle": "韓國 5 日遊：首爾＋釜山行程（2026）",
       "sub": "兩座城市的精華——首爾兩天，再搭KTX南下釜山，走訪南部的海岸、寺廟與市場。",
       "days": "5",
-      "cities": ["seoul", "busan"],
+      "cities": [
+        "seoul",
+        "busan"
+      ],
       "overview": "五天足以玩遍韓國最大的兩座城市。先在首爾待兩天，再搭KTX高速列車（~2h40）到釜山，享受海灘、山坡上的藝術村和全韓國最棒的海鮮，之後再折返。",
       "plan": [
-        { "n": 1, "area": "首爾——宮殿與北村", "stops": [
-          { "t": "上午", "p": "景福宮＋守門將換崗儀式（穿韓服＝免費入場）。", "spot": "Gyeongbokgung Palace, Seoul" },
-          { "t": "下午", "p": "北村韓屋村與仁寺洞。", "spot": "Bukchon Hanok Village, Seoul" },
-          { "t": "晚上", "p": "明洞街頭小吃與購物。", "spot": "Myeongdong, Seoul" }
-        ]},
-        { "n": 2, "area": "首爾——現代與美景", "stops": [
-          { "t": "上午", "p": "弘大的咖啡館與商店。", "spot": "Hongdae, Seoul" },
-          { "t": "下午", "p": "登N首爾塔賞城市天際線。", "spot": "N Seoul Tower, Seoul" },
-          { "t": "晚上", "p": "廣藏市場或漢江公園。", "spot": "Gwangjang Market, Seoul" }
-        ]},
-        { "n": 3, "area": "搭KTX到釜山——海岸線", "stops": [
-          { "t": "上午", "p": "從首爾站搭KTX到釜山（~2h40）。週末記得提前訂位。", "spot": "Seoul Station" },
-          { "t": "下午", "p": "海雲台海灘與Blueline Park天空膠囊。", "spot": "Haeundae Beach, Busan" },
-          { "t": "晚上", "p": "到廣安里海灘欣賞廣安大橋的燈光秀。", "spot": "Gwangalli Beach, Busan" }
-        ]},
-        { "n": 4, "area": "釜山——文化村、市場、寺廟", "stops": [
-          { "t": "上午", "p": "甘川洞文化村——山坡上色彩繽紛的社區。", "spot": "Gamcheon Culture Village, Busan" },
-          { "t": "下午", "p": "南浦洞的札嘎其魚市場與BIFF廣場街頭小吃。", "spot": "Jagalchi Market, Busan" },
-          { "t": "晚上", "p": "在黃昏時分造訪罕見的海邊寺廟——海東龍宮寺。", "spot": "Haedong Yonggungsa, Busan" }
-        ]},
-        { "n": 5, "area": "返回首爾／啟程回家", "stops": [
-          { "t": "上午", "p": "把握最後時間去釜山的海灘或咖啡館，再搭KTX回首爾（或從金海機場直接飛回家）。", "spot": "Busan Station" },
-          { "t": "下午", "p": "若從仁川機場出發，記得預留搭AREX機場快線／前往機場的時間。", "spot": "Incheon International Airport" }
-        ]}
+        {
+          "n": 1,
+          "area": "首爾——宮殿與北村",
+          "stops": [
+            {
+              "t": "上午",
+              "p": "景福宮＋守門將換崗儀式（穿韓服＝免費入場）。",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            },
+            {
+              "t": "下午",
+              "p": "北村韓屋村與仁寺洞。",
+              "spot": "Bukchon Hanok Village, Seoul"
+            },
+            {
+              "t": "晚上",
+              "p": "明洞街頭小吃與購物。",
+              "spot": "Myeongdong, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "首爾——現代與美景",
+          "stops": [
+            {
+              "t": "上午",
+              "p": "弘大的咖啡館與商店。",
+              "spot": "Hongdae, Seoul"
+            },
+            {
+              "t": "下午",
+              "p": "登N首爾塔賞城市天際線。",
+              "spot": "N Seoul Tower, Seoul"
+            },
+            {
+              "t": "晚上",
+              "p": "廣藏市場或漢江公園。",
+              "spot": "Gwangjang Market, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "搭KTX到釜山——海岸線",
+          "stops": [
+            {
+              "t": "上午",
+              "p": "從首爾站搭KTX到釜山（~2h40）。週末記得提前訂位。",
+              "spot": "Seoul Station"
+            },
+            {
+              "t": "下午",
+              "p": "海雲台海灘與Blueline Park天空膠囊。",
+              "spot": "Haeundae Beach, Busan"
+            },
+            {
+              "t": "晚上",
+              "p": "到廣安里海灘欣賞廣安大橋的燈光秀。",
+              "spot": "Gwangalli Beach, Busan"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "area": "釜山——文化村、市場、寺廟",
+          "stops": [
+            {
+              "t": "上午",
+              "p": "甘川洞文化村——山坡上色彩繽紛的社區。",
+              "spot": "Gamcheon Culture Village, Busan"
+            },
+            {
+              "t": "下午",
+              "p": "南浦洞的札嘎其魚市場與BIFF廣場街頭小吃。",
+              "spot": "Jagalchi Market, Busan"
+            },
+            {
+              "t": "晚上",
+              "p": "在黃昏時分造訪罕見的海邊寺廟——海東龍宮寺。",
+              "spot": "Haedong Yonggungsa, Busan"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "area": "返回首爾／啟程回家",
+          "stops": [
+            {
+              "t": "上午",
+              "p": "把握最後時間去釜山的海灘或咖啡館，再搭KTX回首爾（或從金海機場直接飛回家）。",
+              "spot": "Busan Station"
+            },
+            {
+              "t": "下午",
+              "p": "若從仁川機場出發，記得預留搭AREX機場快線／前往機場的時間。",
+              "spot": "Incheon International Airport"
+            }
+          ]
+        }
       ],
       "tips": [
         "週末與假日請提前訂KTX的座位（Korail Talk App／letskorail.com）。",
@@ -92,38 +226,169 @@
       "metaTitle": "韓國 7 日遊：首爾、釜山與濟州（2026）",
       "sub": "完整環遊——歷史底蘊的首爾、海濱的釜山，以及火山島濟州，用KTX與一段短程航班串連起來。",
       "days": "7",
-      "cities": ["seoul", "busan", "jeju"],
+      "cities": [
+        "seoul",
+        "busan",
+        "jeju"
+      ],
       "overview": "一週的時間，讓你能在首爾—釜山路線上再加碼韓國的度假島嶼濟州。首爾兩天、釜山兩天，接著搭短程航班飛往濟州，欣賞火山峰、瀑布與海灘。在濟州要租車——當地大眾運輸並不方便。",
       "plan": [
-        { "n": 1, "area": "首爾——宮殿與北村", "stops": [
-          { "t": "全天", "p": "景福宮、北村韓屋村、仁寺洞，晚上再逛明洞。", "spot": "Gyeongbokgung Palace, Seoul" }
-        ]},
-        { "n": 2, "area": "首爾——現代與美景", "stops": [
-          { "t": "全天", "p": "弘大、N首爾塔與廣藏市場——或再加一段DMZ半日遊。", "spot": "N Seoul Tower, Seoul" }
-        ]},
-        { "n": 3, "area": "搭KTX到釜山", "stops": [
-          { "t": "全天", "p": "搭KTX到釜山；海雲台海灘、Blueline Park，以及廣安里的夜景。", "spot": "Haeundae Beach, Busan" }
-        ]},
-        { "n": 4, "area": "釜山精華", "stops": [
-          { "t": "全天", "p": "甘川洞文化村、札嘎其市場與海東龍宮寺。", "spot": "Gamcheon Culture Village, Busan" }
-        ]},
-        { "n": 5, "area": "飛往濟州——東部", "stops": [
-          { "t": "上午", "p": "從金海（釜山）搭短程航班飛往濟州；取租來的車。", "spot": "Jeju International Airport" },
-          { "t": "下午", "p": "東海岸的城山日出峰與涉地可支。", "spot": "Seongsan Ilchulbong, Jeju" },
-          { "t": "晚上", "p": "到濟州市的東門市場吃晚餐。", "spot": "Jeju Dongmun Market" }
-        ]},
-        { "n": 6, "area": "濟州——南部與瀑布", "stops": [
-          { "t": "全天", "p": "天地淵瀑布、柱狀節理帶，以及西歸浦一帶的中文度假海灘。", "spot": "Cheonjiyeon Waterfall, Jeju" }
-        ]},
-        { "n": 7, "area": "濟州——西部與啟程", "stops": [
-          { "t": "上午", "p": "西海岸的挾才海邊與翰林公園。", "spot": "Hyeopjae Beach, Jeju" },
-          { "t": "下午", "p": "還車後搭機離開（濟州 → 首爾／仁川轉搭國際航班）。", "spot": "Jeju International Airport" }
-        ]}
+        {
+          "n": 1,
+          "area": "首爾——宮殿與北村",
+          "stops": [
+            {
+              "t": "全天",
+              "p": "景福宮、北村韓屋村、仁寺洞，晚上再逛明洞。",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "首爾——現代與美景",
+          "stops": [
+            {
+              "t": "全天",
+              "p": "弘大、N首爾塔與廣藏市場——或再加一段DMZ半日遊。",
+              "spot": "N Seoul Tower, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "搭KTX到釜山",
+          "stops": [
+            {
+              "t": "全天",
+              "p": "搭KTX到釜山；海雲台海灘、Blueline Park，以及廣安里的夜景。",
+              "spot": "Haeundae Beach, Busan"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "area": "釜山精華",
+          "stops": [
+            {
+              "t": "全天",
+              "p": "甘川洞文化村、札嘎其市場與海東龍宮寺。",
+              "spot": "Gamcheon Culture Village, Busan"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "area": "飛往濟州——東部",
+          "stops": [
+            {
+              "t": "上午",
+              "p": "從金海（釜山）搭短程航班飛往濟州；取租來的車。",
+              "spot": "Jeju International Airport"
+            },
+            {
+              "t": "下午",
+              "p": "東海岸的城山日出峰與涉地可支。",
+              "spot": "Seongsan Ilchulbong, Jeju"
+            },
+            {
+              "t": "晚上",
+              "p": "到濟州市的東門市場吃晚餐。",
+              "spot": "Jeju Dongmun Market"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "area": "濟州——南部與瀑布",
+          "stops": [
+            {
+              "t": "全天",
+              "p": "天地淵瀑布、柱狀節理帶，以及西歸浦一帶的中文度假海灘。",
+              "spot": "Cheonjiyeon Waterfall, Jeju"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "area": "濟州——西部與啟程",
+          "stops": [
+            {
+              "t": "上午",
+              "p": "西海岸的挾才海邊與翰林公園。",
+              "spot": "Hyeopjae Beach, Jeju"
+            },
+            {
+              "t": "下午",
+              "p": "還車後搭機離開（濟州 → 首爾／仁川轉搭國際航班）。",
+              "spot": "Jeju International Airport"
+            }
+          ]
+        }
       ],
       "tips": [
         "在濟州租車——公車很慢，景點又散落在沿海各處。",
         "飛濟州的班次頻繁又便宜（從首爾出發是全球最繁忙的航線之一）。",
         "確認你的國際航班是否從仁川機場起飛，並預留充裕的交通時間。"
+      ]
+    },
+    "gyeongju-2-days": {
+      "title": "慶州二日遊：韓國的千年古都",
+      "metaTitle": "慶州二日遊行程（2026）",
+      "sub": "新羅古寺、王陵與燈火點綴的池塘——走進韓國古都這座露天博物館。",
+      "days": "2",
+      "cities": [
+        "gyeongju"
+      ],
+      "overview": "慶州曾是新羅王朝將近千年的都城，各種珍貴古蹟散落在這座悠閒的小城裡。一天走訪山間的UNESCO世界遺產寺廟，另一天則安排市中心一帶的王陵、天文臺與夜間點燈的池塘。從首爾或釜山搭KTX到鄰近的新慶州站也很方便。",
+      "plan": [
+        {
+          "n": 1,
+          "area": "UNESCO寺廟與山間巡禮",
+          "stops": [
+            {
+              "t": "上午",
+              "p": "佛國寺——新羅時代的石造平臺與石塔傑作；建議一早前往。",
+              "spot": "Bulguksa, Gyeongju"
+            },
+            {
+              "t": "下午",
+              "p": "沿著同一座山往上走到石窟庵，欣賞莊嚴寧靜的石佛與海景。",
+              "spot": "Seokguram, Gyeongju"
+            },
+            {
+              "t": "傍晚",
+              "p": "回到市區，在時髦的咖啡與美食街皇理團路一帶享用晚餐。",
+              "spot": "Hwangnidan-gil, Gyeongju"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "王陵、天文臺與池塘",
+          "stops": [
+            {
+              "t": "上午",
+              "p": "大陵苑古墳公園與天馬塚——唯一能走進去參觀的王陵。",
+              "spot": "Daereungwon, Gyeongju"
+            },
+            {
+              "t": "下午",
+              "p": "參觀瞻星臺這座古老的石造天文臺，接著前往國立慶州博物館。",
+              "spot": "Cheomseongdae, Gyeongju"
+            },
+            {
+              "t": "傍晚",
+              "p": "入夜後造訪東宮與月池，欣賞樓閣倒映在水面的景致。",
+              "spot": "Donggung Palace and Wolji Pond, Gyeongju"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "搭KTX到新慶州站，再轉乘公車或計程車前往各景點。",
+        "在市中心租一台單車——王陵、瞻星臺與月池彼此距離都很近。",
+        "把月池留到入夜後再去；那是慶州最具代表性的夜景。"
       ]
     }
   }

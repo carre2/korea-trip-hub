@@ -16,31 +16,86 @@
     "toursTickets": "투어·입장권",
     "whereToStayIn": "{city} 숙소 가이드"
   },
-  "order": ["seoul-3-days", "korea-5-days", "korea-7-days"],
+  "order": [
+    "seoul-3-days",
+    "korea-5-days",
+    "korea-7-days",
+    "gyeongju-2-days"
+  ],
   "items": {
     "seoul-3-days": {
       "title": "서울 3일: 첫 방문자를 위한 완벽한 일정",
       "metaTitle": "서울 3일: 완벽한 여행 일정 (2026)",
       "sub": "고궁과 한옥 골목, 길거리 음식과 스카이라인 전망까지 — 여유롭지만 알찬 첫 서울 여행.",
       "days": "3",
-      "cities": ["seoul"],
+      "cities": [
+        "seoul"
+      ],
       "overview": "첫 방문자를 위한 정석 코스입니다. 첫날은 옛 서울(고궁과 한옥), 둘째 날은 현대적인 서울과 야경, 셋째 날은 근교 나들이나 취향대로 채우는 자유 일정입니다. 모든 곳이 지하철로 연결되니, 티머니 카드 한 장이면 준비 끝입니다.",
       "plan": [
-        { "n": 1, "area": "고궁과 옛 서울", "stops": [
-          { "t": "오전", "p": "경복궁 — 아침 일찍 도착하세요. 한복을 입으면 무료로 입장할 수 있습니다. 수문장 교대식도 놓치지 마세요.", "spot": "Gyeongbokgung Palace, Seoul" },
-          { "t": "오후", "p": "북촌한옥마을과 삼청동 카페 거리를 거닐고, 인사동으로 넘어가 전통차와 갤러리, 기념품을 즐겨 보세요.", "spot": "Bukchon Hanok Village, Seoul" },
-          { "t": "저녁", "p": "서울의 대표적인 전통 길거리 음식 시장인 광장시장에서 저녁을 드세요(빈대떡, 마약김밥).", "spot": "Gwangjang Market, Seoul" }
-        ]},
-        { "n": 2, "area": "현대적인 서울과 야경", "stops": [
-          { "t": "오전", "p": "홍대에서 브런치와 구경 — 대학가 주변의 개성 있는 상점과 카페, 거리 공연을 즐겨 보세요.", "spot": "Hongdae, Seoul" },
-          { "t": "오후", "p": "남산으로 가서 N서울타워에 올라 도시 전경을 감상하세요. 가는 길의 숲길 산책도 좋습니다.", "spot": "N Seoul Tower, Seoul" },
-          { "t": "저녁", "p": "명동에서 쇼핑과 화장품 가게 구경, 그리고 다시 한 번 길거리 음식을 즐겨 보세요.", "spot": "Myeongdong, Seoul" }
-        ]},
-        { "n": 3, "area": "취향대로 — 근교 나들이 또는 깊이 보기", "stops": [
-          { "t": "옵션 A", "p": "강남: 코엑스 별마당 도서관, 압구정 K-스타로드, 그리고 고급 쇼핑.", "spot": "Starfield COEX Mall, Seoul" },
-          { "t": "옵션 B", "p": "남북 접경지대로 떠나는 반나절 DMZ 투어 — 미리 예약하세요(여권 필수).", "spot": "Imjingak, Paju" },
-          { "t": "저녁", "p": "한강공원(여의도)에서 하루를 마무리하세요 — 편의점 간식을 사서 다리에 불이 켜지는 모습을 바라보세요.", "spot": "Yeouido Hangang Park, Seoul" }
-        ]}
+        {
+          "n": 1,
+          "area": "고궁과 옛 서울",
+          "stops": [
+            {
+              "t": "오전",
+              "p": "경복궁 — 아침 일찍 도착하세요. 한복을 입으면 무료로 입장할 수 있습니다. 수문장 교대식도 놓치지 마세요.",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            },
+            {
+              "t": "오후",
+              "p": "북촌한옥마을과 삼청동 카페 거리를 거닐고, 인사동으로 넘어가 전통차와 갤러리, 기념품을 즐겨 보세요.",
+              "spot": "Bukchon Hanok Village, Seoul"
+            },
+            {
+              "t": "저녁",
+              "p": "서울의 대표적인 전통 길거리 음식 시장인 광장시장에서 저녁을 드세요(빈대떡, 마약김밥).",
+              "spot": "Gwangjang Market, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "현대적인 서울과 야경",
+          "stops": [
+            {
+              "t": "오전",
+              "p": "홍대에서 브런치와 구경 — 대학가 주변의 개성 있는 상점과 카페, 거리 공연을 즐겨 보세요.",
+              "spot": "Hongdae, Seoul"
+            },
+            {
+              "t": "오후",
+              "p": "남산으로 가서 N서울타워에 올라 도시 전경을 감상하세요. 가는 길의 숲길 산책도 좋습니다.",
+              "spot": "N Seoul Tower, Seoul"
+            },
+            {
+              "t": "저녁",
+              "p": "명동에서 쇼핑과 화장품 가게 구경, 그리고 다시 한 번 길거리 음식을 즐겨 보세요.",
+              "spot": "Myeongdong, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "취향대로 — 근교 나들이 또는 깊이 보기",
+          "stops": [
+            {
+              "t": "옵션 A",
+              "p": "강남: 코엑스 별마당 도서관, 압구정 K-스타로드, 그리고 고급 쇼핑.",
+              "spot": "Starfield COEX Mall, Seoul"
+            },
+            {
+              "t": "옵션 B",
+              "p": "남북 접경지대로 떠나는 반나절 DMZ 투어 — 미리 예약하세요(여권 필수).",
+              "spot": "Imjingak, Paju"
+            },
+            {
+              "t": "저녁",
+              "p": "한강공원(여의도)에서 하루를 마무리하세요 — 편의점 간식을 사서 다리에 불이 켜지는 모습을 바라보세요.",
+              "spot": "Yeouido Hangang Park, Seoul"
+            }
+          ]
+        }
       ],
       "tips": [
         "먼저 티머니 카드를 준비하세요 — 지하철과 버스, 대부분의 택시에서 쓸 수 있습니다.",
@@ -53,33 +108,112 @@
       "metaTitle": "한국 5일: 서울+부산 일정 (2026)",
       "sub": "두 도시의 매력을 한 번에 — 서울에서 이틀, KTX로 부산까지, 그리고 남부의 해안과 사찰, 시장까지.",
       "days": "5",
-      "cities": ["seoul", "busan"],
+      "cities": [
+        "seoul",
+        "busan"
+      ],
       "overview": "5일이면 한국에서 가장 큰 두 도시를 돌아보기에 충분합니다. 서울에서 이틀을 보낸 뒤, KTX 고속열차(약 2시간 40분)를 타고 부산으로 내려가 해변과 언덕 위 예술 마을, 한국 최고의 해산물을 즐기고 돌아옵니다.",
       "plan": [
-        { "n": 1, "area": "서울 — 고궁과 북촌", "stops": [
-          { "t": "오전", "p": "경복궁과 수문장 교대식(한복 착용 시 무료 입장).", "spot": "Gyeongbokgung Palace, Seoul" },
-          { "t": "오후", "p": "북촌한옥마을과 인사동.", "spot": "Bukchon Hanok Village, Seoul" },
-          { "t": "저녁", "p": "명동 길거리 음식과 쇼핑.", "spot": "Myeongdong, Seoul" }
-        ]},
-        { "n": 2, "area": "서울 — 현대와 전망", "stops": [
-          { "t": "오전", "p": "홍대 카페와 상점 구경.", "spot": "Hongdae, Seoul" },
-          { "t": "오후", "p": "N서울타워에서 스카이라인 감상.", "spot": "N Seoul Tower, Seoul" },
-          { "t": "저녁", "p": "광장시장 또는 한강공원.", "spot": "Gwangjang Market, Seoul" }
-        ]},
-        { "n": 3, "area": "KTX로 부산 — 해안", "stops": [
-          { "t": "오전", "p": "서울역에서 KTX를 타고 부산까지(약 2시간 40분). 주말에는 좌석을 미리 예약하세요.", "spot": "Seoul Station" },
-          { "t": "오후", "p": "해운대해수욕장과 블루라인파크 스카이캡슐.", "spot": "Haeundae Beach, Busan" },
-          { "t": "저녁", "p": "광안리해변에서 광안대교 조명 쇼 감상.", "spot": "Gwangalli Beach, Busan" }
-        ]},
-        { "n": 4, "area": "부산 — 마을, 시장, 사찰", "stops": [
-          { "t": "오전", "p": "감천문화마을 — 파스텔빛 언덕 마을.", "spot": "Gamcheon Culture Village, Busan" },
-          { "t": "오후", "p": "자갈치 수산시장과 남포동 BIFF광장 길거리 음식.", "spot": "Jagalchi Market, Busan" },
-          { "t": "저녁", "p": "해질 무렵 보기 드문 바닷가 사찰 해동용궁사.", "spot": "Haedong Yonggungsa, Busan" }
-        ]},
-        { "n": 5, "area": "서울로 복귀 / 출국", "stops": [
-          { "t": "오전", "p": "마지막으로 부산 해변이나 카페를 즐긴 뒤 KTX로 서울로 돌아가거나, 김해공항에서 귀국편을 탑니다.", "spot": "Busan Station" },
-          { "t": "오후", "p": "인천공항에서 출국한다면 공항철도(AREX) 이동 시간을 넉넉히 두세요.", "spot": "Incheon International Airport" }
-        ]}
+        {
+          "n": 1,
+          "area": "서울 — 고궁과 북촌",
+          "stops": [
+            {
+              "t": "오전",
+              "p": "경복궁과 수문장 교대식(한복 착용 시 무료 입장).",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            },
+            {
+              "t": "오후",
+              "p": "북촌한옥마을과 인사동.",
+              "spot": "Bukchon Hanok Village, Seoul"
+            },
+            {
+              "t": "저녁",
+              "p": "명동 길거리 음식과 쇼핑.",
+              "spot": "Myeongdong, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "서울 — 현대와 전망",
+          "stops": [
+            {
+              "t": "오전",
+              "p": "홍대 카페와 상점 구경.",
+              "spot": "Hongdae, Seoul"
+            },
+            {
+              "t": "오후",
+              "p": "N서울타워에서 스카이라인 감상.",
+              "spot": "N Seoul Tower, Seoul"
+            },
+            {
+              "t": "저녁",
+              "p": "광장시장 또는 한강공원.",
+              "spot": "Gwangjang Market, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "KTX로 부산 — 해안",
+          "stops": [
+            {
+              "t": "오전",
+              "p": "서울역에서 KTX를 타고 부산까지(약 2시간 40분). 주말에는 좌석을 미리 예약하세요.",
+              "spot": "Seoul Station"
+            },
+            {
+              "t": "오후",
+              "p": "해운대해수욕장과 블루라인파크 스카이캡슐.",
+              "spot": "Haeundae Beach, Busan"
+            },
+            {
+              "t": "저녁",
+              "p": "광안리해변에서 광안대교 조명 쇼 감상.",
+              "spot": "Gwangalli Beach, Busan"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "area": "부산 — 마을, 시장, 사찰",
+          "stops": [
+            {
+              "t": "오전",
+              "p": "감천문화마을 — 파스텔빛 언덕 마을.",
+              "spot": "Gamcheon Culture Village, Busan"
+            },
+            {
+              "t": "오후",
+              "p": "자갈치 수산시장과 남포동 BIFF광장 길거리 음식.",
+              "spot": "Jagalchi Market, Busan"
+            },
+            {
+              "t": "저녁",
+              "p": "해질 무렵 보기 드문 바닷가 사찰 해동용궁사.",
+              "spot": "Haedong Yonggungsa, Busan"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "area": "서울로 복귀 / 출국",
+          "stops": [
+            {
+              "t": "오전",
+              "p": "마지막으로 부산 해변이나 카페를 즐긴 뒤 KTX로 서울로 돌아가거나, 김해공항에서 귀국편을 탑니다.",
+              "spot": "Busan Station"
+            },
+            {
+              "t": "오후",
+              "p": "인천공항에서 출국한다면 공항철도(AREX) 이동 시간을 넉넉히 두세요.",
+              "spot": "Incheon International Airport"
+            }
+          ]
+        }
       ],
       "tips": [
         "주말과 공휴일에는 KTX 좌석을 미리 예약하세요(코레일톡 앱 / letskorail.com).",
@@ -92,38 +226,169 @@
       "metaTitle": "한국 7일: 서울·부산·제주 (2026)",
       "sub": "완벽한 한 바퀴 — 역사의 도시 서울, 해안 도시 부산, 화산섬 제주를 KTX와 짧은 비행으로 잇는 일정.",
       "days": "7",
-      "cities": ["seoul", "busan", "jeju"],
+      "cities": [
+        "seoul",
+        "busan",
+        "jeju"
+      ],
       "overview": "일주일이면 서울–부산 코스에 한국의 휴양섬 제주를 더할 수 있습니다. 서울에서 이틀, 부산에서 이틀을 보낸 뒤 짧은 비행으로 제주로 건너가 화산 봉우리와 폭포, 해변을 즐깁니다. 제주에서는 렌터카를 빌리세요 — 대중교통이 제한적입니다.",
       "plan": [
-        { "n": 1, "area": "서울 — 고궁과 북촌", "stops": [
-          { "t": "하루", "p": "경복궁, 북촌한옥마을, 인사동, 그리고 저녁에는 명동.", "spot": "Gyeongbokgung Palace, Seoul" }
-        ]},
-        { "n": 2, "area": "서울 — 현대와 전망", "stops": [
-          { "t": "하루", "p": "홍대, N서울타워, 광장시장 — 또는 반나절 DMZ 투어를 더해도 좋습니다.", "spot": "N Seoul Tower, Seoul" }
-        ]},
-        { "n": 3, "area": "KTX로 부산", "stops": [
-          { "t": "하루", "p": "KTX로 부산 이동; 해운대해수욕장, 블루라인파크, 광안리 야경.", "spot": "Haeundae Beach, Busan" }
-        ]},
-        { "n": 4, "area": "부산 하이라이트", "stops": [
-          { "t": "하루", "p": "감천문화마을, 자갈치시장, 해동용궁사.", "spot": "Gamcheon Culture Village, Busan" }
-        ]},
-        { "n": 5, "area": "제주로 비행 — 동부", "stops": [
-          { "t": "오전", "p": "김해공항(부산)에서 제주까지 짧은 비행 후 렌터카를 받습니다.", "spot": "Jeju International Airport" },
-          { "t": "오후", "p": "동부 해안의 성산일출봉과 섭지코지.", "spot": "Seongsan Ilchulbong, Jeju" },
-          { "t": "저녁", "p": "제주시 동문시장에서 저녁 식사.", "spot": "Jeju Dongmun Market" }
-        ]},
-        { "n": 6, "area": "제주 — 남부와 폭포", "stops": [
-          { "t": "하루", "p": "천지연폭포, 주상절리, 그리고 서귀포 일대의 중문 리조트 해변.", "spot": "Cheonjiyeon Waterfall, Jeju" }
-        ]},
-        { "n": 7, "area": "제주 — 서부와 출국", "stops": [
-          { "t": "오전", "p": "서부 해안의 협재해변과 한림공원.", "spot": "Hyeopjae Beach, Jeju" },
-          { "t": "오후", "p": "렌터카를 반납하고 출국합니다(국제선 환승은 제주 → 서울/인천).", "spot": "Jeju International Airport" }
-        ]}
+        {
+          "n": 1,
+          "area": "서울 — 고궁과 북촌",
+          "stops": [
+            {
+              "t": "하루",
+              "p": "경복궁, 북촌한옥마을, 인사동, 그리고 저녁에는 명동.",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "서울 — 현대와 전망",
+          "stops": [
+            {
+              "t": "하루",
+              "p": "홍대, N서울타워, 광장시장 — 또는 반나절 DMZ 투어를 더해도 좋습니다.",
+              "spot": "N Seoul Tower, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "KTX로 부산",
+          "stops": [
+            {
+              "t": "하루",
+              "p": "KTX로 부산 이동; 해운대해수욕장, 블루라인파크, 광안리 야경.",
+              "spot": "Haeundae Beach, Busan"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "area": "부산 하이라이트",
+          "stops": [
+            {
+              "t": "하루",
+              "p": "감천문화마을, 자갈치시장, 해동용궁사.",
+              "spot": "Gamcheon Culture Village, Busan"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "area": "제주로 비행 — 동부",
+          "stops": [
+            {
+              "t": "오전",
+              "p": "김해공항(부산)에서 제주까지 짧은 비행 후 렌터카를 받습니다.",
+              "spot": "Jeju International Airport"
+            },
+            {
+              "t": "오후",
+              "p": "동부 해안의 성산일출봉과 섭지코지.",
+              "spot": "Seongsan Ilchulbong, Jeju"
+            },
+            {
+              "t": "저녁",
+              "p": "제주시 동문시장에서 저녁 식사.",
+              "spot": "Jeju Dongmun Market"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "area": "제주 — 남부와 폭포",
+          "stops": [
+            {
+              "t": "하루",
+              "p": "천지연폭포, 주상절리, 그리고 서귀포 일대의 중문 리조트 해변.",
+              "spot": "Cheonjiyeon Waterfall, Jeju"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "area": "제주 — 서부와 출국",
+          "stops": [
+            {
+              "t": "오전",
+              "p": "서부 해안의 협재해변과 한림공원.",
+              "spot": "Hyeopjae Beach, Jeju"
+            },
+            {
+              "t": "오후",
+              "p": "렌터카를 반납하고 출국합니다(국제선 환승은 제주 → 서울/인천).",
+              "spot": "Jeju International Airport"
+            }
+          ]
+        }
       ],
       "tips": [
         "제주에서는 렌터카를 빌리세요 — 버스는 느리고 명소가 해안 곳곳에 흩어져 있습니다.",
         "제주 항공편은 자주 있고 저렴합니다(서울발 세계에서 가장 붐비는 노선 중 하나입니다).",
         "국제선이 인천공항에서 출발하는지 확인하고, 그곳까지 이동할 시간을 넉넉히 두세요."
+      ]
+    },
+    "gyeongju-2-days": {
+      "title": "경주 2일 여행: 신라 천 년의 고도",
+      "metaTitle": "경주 2일 여행 일정 (2026)",
+      "sub": "신라의 사찰과 왕릉, 등불 밝힌 연못까지 — 야외 박물관 같은 신라의 옛 수도.",
+      "days": "2",
+      "cities": [
+        "gyeongju"
+      ],
+      "overview": "경주는 천 년 가까이 신라의 수도였고, 그 보물들이 여유로운 작은 도시 곳곳에 흩어져 있습니다. 하루는 산자락의 UNESCO 사찰을, 다른 하루는 왕릉과 천문대, 밤에 불 밝힌 연못이 있는 도심 일대를 둘러보세요. 서울이나 부산에서 가까운 신경주역까지 KTX로 편하게 갈 수 있습니다.",
+      "plan": [
+        {
+          "n": 1,
+          "area": "UNESCO 사찰과 산자락",
+          "stops": [
+            {
+              "t": "오전",
+              "p": "불국사 — 돌계단과 석탑이 어우러진 신라 시대의 걸작이니 이른 아침에 도착하세요.",
+              "spot": "Bulguksa, Gyeongju"
+            },
+            {
+              "t": "오후",
+              "p": "같은 산을 오르면 나오는 석굴암 — 고요한 석불과 탁 트인 바다 전망이 기다립니다.",
+              "spot": "Seokguram, Gyeongju"
+            },
+            {
+              "t": "저녁",
+              "p": "시내로 돌아와 요즘 뜨는 카페·맛집 거리 황리단길 일대에서 저녁을 즐기세요.",
+              "spot": "Hwangnidan-gil, Gyeongju"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "왕릉과 천문대, 연못",
+          "stops": [
+            {
+              "t": "오전",
+              "p": "대릉원 고분 공원과, 내부로 들어가 볼 수 있는 유일한 왕릉인 천마총을 둘러보세요.",
+              "spot": "Daereungwon, Gyeongju"
+            },
+            {
+              "t": "오후",
+              "p": "고대 석조 천문대인 첨성대를 본 뒤 국립경주박물관으로 향합니다.",
+              "spot": "Cheomseongdae, Gyeongju"
+            },
+            {
+              "t": "저녁",
+              "p": "해가 진 뒤의 동궁과 월지 — 누각이 물 위에 비치는 야경이 일품입니다.",
+              "spot": "Donggung Palace and Wolji Pond, Gyeongju"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "KTX를 타고 신경주역까지 간 뒤 버스나 택시로 명소를 둘러보세요.",
+        "시내에서 자전거를 빌리면 왕릉과 첨성대, 월지가 가까이 모여 있어 편합니다.",
+        "월지는 해가 진 뒤로 남겨두세요. 경주를 대표하는 야경입니다."
       ]
     }
   }

@@ -16,31 +16,86 @@
     "toursTickets": "Tour & vé",
     "whereToStayIn": "Nên ở đâu tại {city}"
   },
-  "order": ["seoul-3-days", "korea-5-days", "korea-7-days"],
+  "order": [
+    "seoul-3-days",
+    "korea-5-days",
+    "korea-7-days",
+    "gyeongju-2-days"
+  ],
   "items": {
     "seoul-3-days": {
       "title": "3 ngày ở Seoul: Lịch trình hoàn hảo cho người lần đầu đến",
       "metaTitle": "3 ngày ở Seoul: Lịch trình hoàn hảo (2026)",
       "sub": "Cung điện, những con ngõ hanok, đồ ăn đường phố và cảnh đường chân trời — chuyến thăm Seoul đầu tiên thư thái nhưng trọn vẹn.",
       "days": "3",
-      "cities": ["seoul"],
+      "cities": [
+        "seoul"
+      ],
       "overview": "Đây là lộ trình kinh điển cho người lần đầu: Seoul cổ kính (cung điện và hanok) ở ngày một, Seoul hiện đại và cảnh đêm ở ngày hai, và một ngày ba linh hoạt để đi chơi trong ngày hoặc theo lựa chọn riêng của bạn. Mọi thứ đều kết nối bằng tàu điện ngầm — sắm một thẻ T-money là xong.",
       "plan": [
-        { "n": 1, "area": "Cung điện & Seoul cổ kính", "stops": [
-          { "t": "Buổi sáng", "p": "Cung điện Gyeongbokgung — đến sớm, và mặc hanbok để vào cửa miễn phí. Đừng bỏ lỡ lễ đổi gác.", "spot": "Gyeongbokgung Palace, Seoul" },
-          { "t": "Buổi chiều", "p": "Dạo quanh làng Bukchon Hanok và các quán cà phê Samcheong-dong, rồi tới Insadong để thưởng trà, ngắm phòng tranh và mua quà lưu niệm.", "spot": "Bukchon Hanok Village, Seoul" },
-          { "t": "Buổi tối", "p": "Ăn tối ở chợ Gwangjang (bindaetteok, mayak gimbap), một trong những khu chợ ẩm thực đường phố lâu đời tuyệt vời của Seoul.", "spot": "Gwangjang Market, Seoul" }
-        ]},
-        { "n": 2, "area": "Seoul hiện đại & cảnh đêm", "stops": [
-          { "t": "Buổi sáng", "p": "Ăn brunch và dạo phố ở Hongdae — cửa hàng indie, quán cà phê và nghệ sĩ đường phố quanh khu đại học.", "spot": "Hongdae, Seoul" },
-          { "t": "Buổi chiều", "p": "Tới Namsan và lên N Seoul Tower để ngắm toàn cảnh thành phố; đi bộ trên những lối mòn rợp cây trên đường lên.", "spot": "N Seoul Tower, Seoul" },
-          { "t": "Buổi tối", "p": "Myeongdong để mua sắm, ghé cửa hàng mỹ phẩm và thêm một vòng đồ ăn đường phố.", "spot": "Myeongdong, Seoul" }
-        ]},
-        { "n": 3, "area": "Lựa chọn của bạn — đi chơi trong ngày hoặc khám phá sâu", "stops": [
-          { "t": "Lựa chọn A", "p": "Gangnam: Thư viện Starfield COEX, K-Star Road ở Apgujeong và mua sắm cao cấp.", "spot": "Starfield COEX Mall, Seoul" },
-          { "t": "Lựa chọn B", "p": "Tour nửa ngày tới khu DMZ ở biên giới liên Triều — đặt trước (cần hộ chiếu).", "spot": "Imjingak, Paju" },
-          { "t": "Buổi tối", "p": "Thư giãn ở một công viên bên sông Hàn (Yeouido) — mua đồ ăn vặt ở cửa hàng tiện lợi và ngắm những cây cầu lên đèn.", "spot": "Yeouido Hangang Park, Seoul" }
-        ]}
+        {
+          "n": 1,
+          "area": "Cung điện & Seoul cổ kính",
+          "stops": [
+            {
+              "t": "Buổi sáng",
+              "p": "Cung điện Gyeongbokgung — đến sớm, và mặc hanbok để vào cửa miễn phí. Đừng bỏ lỡ lễ đổi gác.",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            },
+            {
+              "t": "Buổi chiều",
+              "p": "Dạo quanh làng Bukchon Hanok và các quán cà phê Samcheong-dong, rồi tới Insadong để thưởng trà, ngắm phòng tranh và mua quà lưu niệm.",
+              "spot": "Bukchon Hanok Village, Seoul"
+            },
+            {
+              "t": "Buổi tối",
+              "p": "Ăn tối ở chợ Gwangjang (bindaetteok, mayak gimbap), một trong những khu chợ ẩm thực đường phố lâu đời tuyệt vời của Seoul.",
+              "spot": "Gwangjang Market, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Seoul hiện đại & cảnh đêm",
+          "stops": [
+            {
+              "t": "Buổi sáng",
+              "p": "Ăn brunch và dạo phố ở Hongdae — cửa hàng indie, quán cà phê và nghệ sĩ đường phố quanh khu đại học.",
+              "spot": "Hongdae, Seoul"
+            },
+            {
+              "t": "Buổi chiều",
+              "p": "Tới Namsan và lên N Seoul Tower để ngắm toàn cảnh thành phố; đi bộ trên những lối mòn rợp cây trên đường lên.",
+              "spot": "N Seoul Tower, Seoul"
+            },
+            {
+              "t": "Buổi tối",
+              "p": "Myeongdong để mua sắm, ghé cửa hàng mỹ phẩm và thêm một vòng đồ ăn đường phố.",
+              "spot": "Myeongdong, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "Lựa chọn của bạn — đi chơi trong ngày hoặc khám phá sâu",
+          "stops": [
+            {
+              "t": "Lựa chọn A",
+              "p": "Gangnam: Thư viện Starfield COEX, K-Star Road ở Apgujeong và mua sắm cao cấp.",
+              "spot": "Starfield COEX Mall, Seoul"
+            },
+            {
+              "t": "Lựa chọn B",
+              "p": "Tour nửa ngày tới khu DMZ ở biên giới liên Triều — đặt trước (cần hộ chiếu).",
+              "spot": "Imjingak, Paju"
+            },
+            {
+              "t": "Buổi tối",
+              "p": "Thư giãn ở một công viên bên sông Hàn (Yeouido) — mua đồ ăn vặt ở cửa hàng tiện lợi và ngắm những cây cầu lên đèn.",
+              "spot": "Yeouido Hangang Park, Seoul"
+            }
+          ]
+        }
       ],
       "tips": [
         "Sắm một thẻ T-money trước tiên — nó dùng được cho tàu điện ngầm, xe buýt và hầu hết taxi.",
@@ -53,33 +108,112 @@
       "metaTitle": "5 ngày ở Hàn Quốc: Lịch trình Seoul + Busan (2026)",
       "sub": "Tinh túy của cả hai thành phố — hai ngày ở Seoul, đi tàu KTX xuống Busan, cùng bờ biển, chùa chiền và chợ ở phía nam.",
       "days": "5",
-      "cities": ["seoul", "busan"],
+      "cities": [
+        "seoul",
+        "busan"
+      ],
       "overview": "Năm ngày là đủ cho hai thành phố lớn nhất Hàn Quốc. Dành hai ngày ở Seoul, rồi đi tàu cao tốc KTX (~2h40) tới Busan để tận hưởng bãi biển, một ngôi làng nghệ thuật trên sườn đồi và hải sản ngon nhất Hàn Quốc, trước khi quay về.",
       "plan": [
-        { "n": 1, "area": "Seoul — cung điện & Bukchon", "stops": [
-          { "t": "Buổi sáng", "p": "Cung điện Gyeongbokgung + lễ đổi gác (hanbok = vào cửa miễn phí).", "spot": "Gyeongbokgung Palace, Seoul" },
-          { "t": "Buổi chiều", "p": "Làng Bukchon Hanok và Insadong.", "spot": "Bukchon Hanok Village, Seoul" },
-          { "t": "Buổi tối", "p": "Đồ ăn đường phố và mua sắm ở Myeongdong.", "spot": "Myeongdong, Seoul" }
-        ]},
-        { "n": 2, "area": "Seoul — hiện đại & ngắm cảnh", "stops": [
-          { "t": "Buổi sáng", "p": "Quán cà phê và cửa hàng ở Hongdae.", "spot": "Hongdae, Seoul" },
-          { "t": "Buổi chiều", "p": "N Seoul Tower để ngắm đường chân trời.", "spot": "N Seoul Tower, Seoul" },
-          { "t": "Buổi tối", "p": "Chợ Gwangjang hoặc một công viên bên sông Hàn.", "spot": "Gwangjang Market, Seoul" }
-        ]},
-        { "n": 3, "area": "KTX tới Busan — bờ biển", "stops": [
-          { "t": "Buổi sáng", "p": "Tàu KTX từ ga Seoul tới Busan (~2h40). Đặt chỗ trước vào cuối tuần.", "spot": "Seoul Station" },
-          { "t": "Buổi chiều", "p": "Bãi biển Haeundae và sky capsule ở Blueline Park.", "spot": "Haeundae Beach, Busan" },
-          { "t": "Buổi tối", "p": "Bãi biển Gwangalli để xem màn trình diễn ánh sáng cầu Gwangan.", "spot": "Gwangalli Beach, Busan" }
-        ]},
-        { "n": 4, "area": "Busan — làng, chợ, chùa", "stops": [
-          { "t": "Buổi sáng", "p": "Gamcheon Culture Village — khu phố sườn đồi tông màu pastel.", "spot": "Gamcheon Culture Village, Busan" },
-          { "t": "Buổi chiều", "p": "Chợ cá Jagalchi và đồ ăn đường phố ở BIFF Square tại Nampo-dong.", "spot": "Jagalchi Market, Busan" },
-          { "t": "Buổi tối", "p": "Haedong Yonggungsa, ngôi chùa ven biển hiếm có, vào giờ hoàng hôn.", "spot": "Haedong Yonggungsa, Busan" }
-        ]},
-        { "n": 5, "area": "Về lại Seoul / khởi hành", "stops": [
-          { "t": "Buổi sáng", "p": "Tranh thủ ghé bãi biển hay quán cà phê Busan lần cuối, rồi đi KTX về lại Seoul (hoặc bay về từ Gimhae).", "spot": "Busan Station" },
-          { "t": "Buổi chiều", "p": "Nếu bay từ Incheon, hãy chừa thời gian cho việc di chuyển bằng AREX/tới sân bay.", "spot": "Incheon International Airport" }
-        ]}
+        {
+          "n": 1,
+          "area": "Seoul — cung điện & Bukchon",
+          "stops": [
+            {
+              "t": "Buổi sáng",
+              "p": "Cung điện Gyeongbokgung + lễ đổi gác (hanbok = vào cửa miễn phí).",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            },
+            {
+              "t": "Buổi chiều",
+              "p": "Làng Bukchon Hanok và Insadong.",
+              "spot": "Bukchon Hanok Village, Seoul"
+            },
+            {
+              "t": "Buổi tối",
+              "p": "Đồ ăn đường phố và mua sắm ở Myeongdong.",
+              "spot": "Myeongdong, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Seoul — hiện đại & ngắm cảnh",
+          "stops": [
+            {
+              "t": "Buổi sáng",
+              "p": "Quán cà phê và cửa hàng ở Hongdae.",
+              "spot": "Hongdae, Seoul"
+            },
+            {
+              "t": "Buổi chiều",
+              "p": "N Seoul Tower để ngắm đường chân trời.",
+              "spot": "N Seoul Tower, Seoul"
+            },
+            {
+              "t": "Buổi tối",
+              "p": "Chợ Gwangjang hoặc một công viên bên sông Hàn.",
+              "spot": "Gwangjang Market, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "KTX tới Busan — bờ biển",
+          "stops": [
+            {
+              "t": "Buổi sáng",
+              "p": "Tàu KTX từ ga Seoul tới Busan (~2h40). Đặt chỗ trước vào cuối tuần.",
+              "spot": "Seoul Station"
+            },
+            {
+              "t": "Buổi chiều",
+              "p": "Bãi biển Haeundae và sky capsule ở Blueline Park.",
+              "spot": "Haeundae Beach, Busan"
+            },
+            {
+              "t": "Buổi tối",
+              "p": "Bãi biển Gwangalli để xem màn trình diễn ánh sáng cầu Gwangan.",
+              "spot": "Gwangalli Beach, Busan"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "area": "Busan — làng, chợ, chùa",
+          "stops": [
+            {
+              "t": "Buổi sáng",
+              "p": "Gamcheon Culture Village — khu phố sườn đồi tông màu pastel.",
+              "spot": "Gamcheon Culture Village, Busan"
+            },
+            {
+              "t": "Buổi chiều",
+              "p": "Chợ cá Jagalchi và đồ ăn đường phố ở BIFF Square tại Nampo-dong.",
+              "spot": "Jagalchi Market, Busan"
+            },
+            {
+              "t": "Buổi tối",
+              "p": "Haedong Yonggungsa, ngôi chùa ven biển hiếm có, vào giờ hoàng hôn.",
+              "spot": "Haedong Yonggungsa, Busan"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "area": "Về lại Seoul / khởi hành",
+          "stops": [
+            {
+              "t": "Buổi sáng",
+              "p": "Tranh thủ ghé bãi biển hay quán cà phê Busan lần cuối, rồi đi KTX về lại Seoul (hoặc bay về từ Gimhae).",
+              "spot": "Busan Station"
+            },
+            {
+              "t": "Buổi chiều",
+              "p": "Nếu bay từ Incheon, hãy chừa thời gian cho việc di chuyển bằng AREX/tới sân bay.",
+              "spot": "Incheon International Airport"
+            }
+          ]
+        }
       ],
       "tips": [
         "Đặt chỗ KTX trước cho cuối tuần và ngày lễ (ứng dụng Korail Talk / letskorail.com).",
@@ -92,38 +226,169 @@
       "metaTitle": "7 ngày ở Hàn Quốc: Seoul, Busan & Jeju (2026)",
       "sub": "Trọn vòng khám phá — Seoul cổ kính, Busan ven biển và hòn đảo núi lửa Jeju, nối với nhau bằng tàu KTX và một chuyến bay ngắn.",
       "days": "7",
-      "cities": ["seoul", "busan", "jeju"],
+      "cities": [
+        "seoul",
+        "busan",
+        "jeju"
+      ],
       "overview": "Một tuần cho phép bạn thêm Jeju, hòn đảo nghỉ dưỡng của Hàn Quốc, vào lộ trình Seoul–Busan. Hai ngày ở Seoul, hai ngày ở Busan, rồi một chuyến bay ngắn tới Jeju để ngắm đỉnh núi lửa, thác nước và bãi biển. Hãy thuê xe ở Jeju — giao thông công cộng bị hạn chế.",
       "plan": [
-        { "n": 1, "area": "Seoul — cung điện & Bukchon", "stops": [
-          { "t": "Cả ngày", "p": "Gyeongbokgung, làng Bukchon Hanok, Insadong, và Myeongdong vào buổi tối.", "spot": "Gyeongbokgung Palace, Seoul" }
-        ]},
-        { "n": 2, "area": "Seoul — hiện đại & ngắm cảnh", "stops": [
-          { "t": "Cả ngày", "p": "Hongdae, N Seoul Tower và chợ Gwangjang — hoặc thêm một tour nửa ngày tới DMZ.", "spot": "N Seoul Tower, Seoul" }
-        ]},
-        { "n": 3, "area": "KTX tới Busan", "stops": [
-          { "t": "Cả ngày", "p": "Đi KTX tới Busan; bãi biển Haeundae, Blueline Park và cảnh đêm Gwangalli.", "spot": "Haeundae Beach, Busan" }
-        ]},
-        { "n": 4, "area": "Điểm nổi bật ở Busan", "stops": [
-          { "t": "Cả ngày", "p": "Gamcheon Culture Village, chợ Jagalchi và chùa Haedong Yonggungsa.", "spot": "Gamcheon Culture Village, Busan" }
-        ]},
-        { "n": 5, "area": "Bay tới Jeju — phía đông", "stops": [
-          { "t": "Buổi sáng", "p": "Chuyến bay ngắn từ Gimhae (Busan) tới Jeju; nhận xe thuê.", "spot": "Jeju International Airport" },
-          { "t": "Buổi chiều", "p": "Seongsan Ilchulbong (Đỉnh Bình Minh) và Seopjikoji ở bờ biển phía đông.", "spot": "Seongsan Ilchulbong, Jeju" },
-          { "t": "Buổi tối", "p": "Chợ Dongmun ở Jeju City để ăn tối.", "spot": "Jeju Dongmun Market" }
-        ]},
-        { "n": 6, "area": "Jeju — phía nam & thác nước", "stops": [
-          { "t": "Cả ngày", "p": "Thác Cheonjiyeon, vách đá Jusangjeolli và các bãi biển nghỉ dưỡng Jungmun quanh Seogwipo.", "spot": "Cheonjiyeon Waterfall, Jeju" }
-        ]},
-        { "n": 7, "area": "Jeju — phía tây & khởi hành", "stops": [
-          { "t": "Buổi sáng", "p": "Bãi biển Hyeopjae và Hallim Park ở bờ biển phía tây.", "spot": "Hyeopjae Beach, Jeju" },
-          { "t": "Buổi chiều", "p": "Trả xe và bay đi (Jeju → Seoul/Incheon để nối chuyến quốc tế).", "spot": "Jeju International Airport" }
-        ]}
+        {
+          "n": 1,
+          "area": "Seoul — cung điện & Bukchon",
+          "stops": [
+            {
+              "t": "Cả ngày",
+              "p": "Gyeongbokgung, làng Bukchon Hanok, Insadong, và Myeongdong vào buổi tối.",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Seoul — hiện đại & ngắm cảnh",
+          "stops": [
+            {
+              "t": "Cả ngày",
+              "p": "Hongdae, N Seoul Tower và chợ Gwangjang — hoặc thêm một tour nửa ngày tới DMZ.",
+              "spot": "N Seoul Tower, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "KTX tới Busan",
+          "stops": [
+            {
+              "t": "Cả ngày",
+              "p": "Đi KTX tới Busan; bãi biển Haeundae, Blueline Park và cảnh đêm Gwangalli.",
+              "spot": "Haeundae Beach, Busan"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "area": "Điểm nổi bật ở Busan",
+          "stops": [
+            {
+              "t": "Cả ngày",
+              "p": "Gamcheon Culture Village, chợ Jagalchi và chùa Haedong Yonggungsa.",
+              "spot": "Gamcheon Culture Village, Busan"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "area": "Bay tới Jeju — phía đông",
+          "stops": [
+            {
+              "t": "Buổi sáng",
+              "p": "Chuyến bay ngắn từ Gimhae (Busan) tới Jeju; nhận xe thuê.",
+              "spot": "Jeju International Airport"
+            },
+            {
+              "t": "Buổi chiều",
+              "p": "Seongsan Ilchulbong (Đỉnh Bình Minh) và Seopjikoji ở bờ biển phía đông.",
+              "spot": "Seongsan Ilchulbong, Jeju"
+            },
+            {
+              "t": "Buổi tối",
+              "p": "Chợ Dongmun ở Jeju City để ăn tối.",
+              "spot": "Jeju Dongmun Market"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "area": "Jeju — phía nam & thác nước",
+          "stops": [
+            {
+              "t": "Cả ngày",
+              "p": "Thác Cheonjiyeon, vách đá Jusangjeolli và các bãi biển nghỉ dưỡng Jungmun quanh Seogwipo.",
+              "spot": "Cheonjiyeon Waterfall, Jeju"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "area": "Jeju — phía tây & khởi hành",
+          "stops": [
+            {
+              "t": "Buổi sáng",
+              "p": "Bãi biển Hyeopjae và Hallim Park ở bờ biển phía tây.",
+              "spot": "Hyeopjae Beach, Jeju"
+            },
+            {
+              "t": "Buổi chiều",
+              "p": "Trả xe và bay đi (Jeju → Seoul/Incheon để nối chuyến quốc tế).",
+              "spot": "Jeju International Airport"
+            }
+          ]
+        }
       ],
       "tips": [
         "Thuê xe ở Jeju — xe buýt chậm và các điểm tham quan trải rộng quanh bờ biển.",
         "Các chuyến bay tới Jeju thường xuyên và rẻ (một trong những đường bay bận rộn nhất thế giới xuất phát từ Seoul).",
         "Kiểm tra xem chuyến bay quốc tế của bạn có khởi hành từ Incheon không và chừa thời gian dự phòng để tới đó."
+      ]
+    },
+    "gyeongju-2-days": {
+      "title": "2 Ngày ở Gyeongju: Cố đô cổ xưa của Hàn Quốc",
+      "metaTitle": "Lịch trình 2 ngày ở Gyeongju (2026)",
+      "sub": "Chùa Silla, lăng mộ hoàng gia và những hồ nước lung linh ánh đèn lồng — bảo tàng ngoài trời của cố đô cổ xưa Hàn Quốc.",
+      "days": "2",
+      "cities": [
+        "gyeongju"
+      ],
+      "overview": "Gyeongju từng là kinh đô của vương quốc Silla trong gần một nghìn năm, và những báu vật của nó nằm rải rác khắp một thành phố nhỏ thư thái. Hãy dành một ngày cho các ngôi chùa UNESCO trên đồi và một ngày cho dải trung tâm với các lăng mộ, một đài thiên văn và một hồ nước lung linh về đêm. Từ Seoul hay Busan chỉ cần một chuyến KTX dễ dàng tới ga Singyeongju gần đó.",
+      "plan": [
+        {
+          "n": 1,
+          "area": "Chùa UNESCO & đồi núi",
+          "stops": [
+            {
+              "t": "Buổi sáng",
+              "p": "Chùa Bulguksa — một kiệt tác thời Silla với các sân đá bậc thang và những ngôi tháp; hãy đến sớm.",
+              "spot": "Bulguksa, Gyeongju"
+            },
+            {
+              "t": "Buổi chiều",
+              "p": "Động Seokguram trên cùng ngọn núi, với tượng Phật đá thanh thản và cảnh biển.",
+              "spot": "Seokguram, Gyeongju"
+            },
+            {
+              "t": "Buổi tối",
+              "p": "Quay về phố dùng bữa tối quanh Hwangnidan-gil, con phố cà phê và ẩm thực thời thượng.",
+              "spot": "Hwangnidan-gil, Gyeongju"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Lăng mộ, đài thiên văn & hồ nước",
+          "stops": [
+            {
+              "t": "Buổi sáng",
+              "p": "Công viên lăng mộ Daereungwon và Cheonmachong, gò mộ hoàng gia duy nhất mà bạn có thể bước vào bên trong.",
+              "spot": "Daereungwon, Gyeongju"
+            },
+            {
+              "t": "Buổi chiều",
+              "p": "Cheomseongdae, một đài thiên văn bằng đá cổ xưa, rồi tới Bảo tàng Quốc gia Gyeongju.",
+              "spot": "Cheomseongdae, Gyeongju"
+            },
+            {
+              "t": "Buổi tối",
+              "p": "Cung Donggung và hồ Wolji Pond sau khi trời tối, khi các đình gác soi bóng trên mặt nước.",
+              "spot": "Donggung Palace and Wolji Pond, Gyeongju"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Đi KTX tới ga Singyeongju, rồi bắt xe buýt hoặc taxi đến các điểm tham quan.",
+        "Thuê xe đạp ở trung tâm — các lăng mộ, Cheomseongdae và Wolji nằm gần nhau.",
+        "Để dành hồ Wolji Pond cho lúc trời tối; đó là cảnh đêm biểu tượng của Gyeongju."
       ]
     }
   }
