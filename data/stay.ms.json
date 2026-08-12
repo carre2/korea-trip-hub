@@ -157,6 +157,72 @@
           "near": "Paling dekat dengan Bulguksa dan Seokguram; perjalanan bas atau teksi dari pusat bandar."
         }
       ]
+    },
+    "jeonju": {
+      "name": "Jeonju",
+      "flag": "🏘️",
+      "metaTitle": "Tempat Menginap di Jeonju: Kawasan Terbaik (2026)",
+      "intro": "Jeonju padat dan mudah: menginap di hanok tradisional dalam Hanok Village untuk berada beberapa langkah sahaja dari tempat menarik dan makanan, atau pilih hotel moden di sekitar pusat bandar dan stesen untuk keselesaan dan pengangkutan.",
+      "areas": [
+        {
+          "name": "Hanok Village & sekitarnya",
+          "best": "Penginapan hanok & makanan",
+          "tone": "amber",
+          "vibe": "Menginap di rumah tetamu hanok yang dipulihkan betul-betul di tengah-tengah lorong, rumah teh dan makanan jalanan — pangkalan yang paling beratmosfera, dan boleh berjalan kaki ke mana-mana.",
+          "near": "Di jantung tempat menarik; tempah awal pada hujung minggu."
+        },
+        {
+          "name": "Pusat bandar & Stesen Jeonju",
+          "best": "Hotel & pengangkutan",
+          "tone": "blue",
+          "vibe": "Hotel moden di sekitar pusat bandar dan stesen, sesuai untuk bas dan KTX — lebih keselesaan dan pilihan, hanya perjalanan singkat dari Hanok Village.",
+          "near": "Terbaik untuk sambungan kereta api/bas; lebih senyap pada waktu malam."
+        }
+      ]
+    },
+    "gangneung": {
+      "name": "Gangneung",
+      "flag": "🌊",
+      "metaTitle": "Tempat Menginap di Gangneung: Kawasan Terbaik (2026)",
+      "intro": "Gangneung terbahagi antara laut dan pusat bandar: berpangkalan di pantai Gyeongpo atau Anmok untuk pasir, kafe dan kopi, atau menginap di pusat bandar berhampiran stesen untuk pengangkutan dan perjalanan KTX yang mudah dari Seoul.",
+      "areas": [
+        {
+          "name": "Pantai Gyeongpo & Anmok",
+          "best": "Pantai & kopi",
+          "tone": "blue",
+          "vibe": "Betul-betul di tepi pantai Laut Timur, tasik berlatarkan pokok pain dan jalan kopi Anmok yang terkenal — pangkalan yang santai dan indah, yang diinginkan oleh kebanyakan pengunjung.",
+          "near": "Di tepi pantai; perjalanan singkat dari stesen dan pusat bandar."
+        },
+        {
+          "name": "Pusat bandar & Stesen Gangneung",
+          "best": "Pusat & pengangkutan",
+          "tone": "amber",
+          "vibe": "Di sekitar stesen KTX dan pasar pusat, sesuai untuk bas menyusuri pantai dan ketibaan yang mudah dari Seoul.",
+          "near": "Terbaik untuk pengangkutan dan pasar; perjalanan singkat ke pantai."
+        }
+      ]
+    },
+    "suwon": {
+      "name": "Suwon",
+      "flag": "🏯",
+      "metaTitle": "Tempat Menginap di Suwon: Kawasan Terbaik (2026)",
+      "intro": "Suwon ialah perjalanan sehari atau bermalam yang mudah dari Seoul: menginap di bandar lama berhampiran Kota Hwaseong untuk menyusuri tembok dan Istana Haenggung, atau pilih hotel berhampiran Stesen Suwon untuk pengangkutan dan membeli-belah.",
+      "areas": [
+        {
+          "name": "Bandar lama Hwaseong",
+          "best": "Kota & tempat menarik",
+          "tone": "amber",
+          "vibe": "Di dalam tembok kota berhampiran Istana Haenggung dan lorong kafe Haenggung-dong — pangkalan yang paling berkarakter, beberapa langkah dari tempat menarik utama.",
+          "near": "Berjalan kaki ke tembok dan istana; rumah tetamu dan hotel kecil."
+        },
+        {
+          "name": "Kawasan Stesen Suwon",
+          "best": "Hotel & transit",
+          "tone": "blue",
+          "vibe": "Di sekitar stesen dengan hotel besar, gedung membeli-belah dan kereta api yang mudah — praktikal dan bersambung baik ke Seoul.",
+          "near": "Terbaik untuk pengangkutan dan membeli-belah; perjalanan singkat ke kota."
+        }
+      ]
     }
   }
 }

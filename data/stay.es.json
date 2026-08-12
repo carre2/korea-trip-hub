@@ -157,6 +157,72 @@
           "near": "Lo más cercano a Bulguksa y Seokguram; a un trayecto en autobús o taxi del centro."
         }
       ]
+    },
+    "jeonju": {
+      "name": "Jeonju",
+      "flag": "🏘️",
+      "metaTitle": "Dónde alojarse en Jeonju: mejores zonas (2026)",
+      "intro": "Jeonju es compacta y cómoda: duerme en un hanok tradicional dentro del Hanok Village para estar a pasos de los lugares de interés y la comida, o elige un hotel moderno en el centro y cerca de la estación para mayor comodidad y transporte.",
+      "areas": [
+        {
+          "name": "Hanok Village y alrededores",
+          "best": "Alojamientos hanok y comida",
+          "tone": "amber",
+          "vibe": "Duerme en una casa de huéspedes hanok restaurada entre los callejones, las casas de té y la comida callejera: la base con más encanto y a pie de todo.",
+          "near": "En el corazón de los lugares de interés; reserva con antelación los fines de semana."
+        },
+        {
+          "name": "Centro y estación de Jeonju",
+          "best": "Hoteles y transporte",
+          "tone": "blue",
+          "vibe": "Hoteles modernos en el centro y cerca de la estación, prácticos para autobuses y el KTX: más comodidad y opciones, a un corto trayecto del Hanok Village.",
+          "near": "Lo mejor para conexiones de tren y autobús; más tranquilo de noche."
+        }
+      ]
+    },
+    "gangneung": {
+      "name": "Gangneung",
+      "flag": "🌊",
+      "metaTitle": "Dónde alojarse en Gangneung: mejores zonas (2026)",
+      "intro": "Gangneung se divide entre el mar y el centro: alójate en la playa de Gyeongpo o Anmok para disfrutar de arena, cafeterías y café, o quédate en el centro cerca de la estación por el transporte y un cómodo salto en KTX desde Seúl.",
+      "areas": [
+        {
+          "name": "Playa de Gyeongpo y Anmok",
+          "best": "Playa y café",
+          "tone": "blue",
+          "vibe": "Junto a la playa del mar del Este, el lago rodeado de pinos y la famosa calle del café de Anmok: la base relajada y pintoresca que buscan la mayoría de los visitantes.",
+          "near": "En la playa; a un corto trayecto de la estación y el centro."
+        },
+        {
+          "name": "Centro y estación de Gangneung",
+          "best": "Céntrico y transporte",
+          "tone": "amber",
+          "vibe": "Cerca de la estación de KTX y el mercado central, práctico para tomar autobuses por la costa y llegar fácilmente desde Seúl.",
+          "near": "Lo mejor para el transporte y los mercados; a un corto trayecto de las playas."
+        }
+      ]
+    },
+    "suwon": {
+      "name": "Suwon",
+      "flag": "🏯",
+      "metaTitle": "Dónde alojarse en Suwon: mejores zonas (2026)",
+      "intro": "Suwon es una excursión fácil de un día o de una noche desde Seúl: alójate en el casco antiguo junto a la fortaleza de Hwaseong para recorrer las murallas y el palacio de Haenggung, o elige un hotel cerca de la estación de Suwon por el transporte y las compras.",
+      "areas": [
+        {
+          "name": "Casco antiguo de Hwaseong",
+          "best": "Fortaleza y lugares de interés",
+          "tone": "amber",
+          "vibe": "Dentro de las murallas de la fortaleza, cerca del palacio de Haenggung y los callejones de cafeterías de Haenggung-dong: la base con más carácter, a pasos de los principales lugares de interés.",
+          "near": "A pie de las murallas y el palacio; casas de huéspedes y hoteles pequeños."
+        },
+        {
+          "name": "Zona de la estación de Suwon",
+          "best": "Hoteles y transporte",
+          "tone": "blue",
+          "vibe": "Alrededor de la estación, con grandes hoteles, grandes almacenes y trenes cómodos: práctica y bien conectada con Seúl.",
+          "near": "Lo mejor para el transporte y las compras; a un corto trayecto de la fortaleza."
+        }
+      ]
     }
   }
 }

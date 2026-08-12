@@ -158,6 +158,72 @@
           "near": "Closest to Bulguksa and Seokguram; a bus or taxi ride from downtown."
         }
       ]
+    },
+    "jeonju": {
+      "name": "Jeonju",
+      "flag": "🏘️",
+      "metaTitle": "Where to Stay in Jeonju: Best Areas (2026)",
+      "intro": "Jeonju is compact and easy: sleep in a traditional hanok inside the Hanok Village to be steps from the sights and food, or pick a modern hotel around the downtown and station for comfort and transport.",
+      "areas": [
+        {
+          "name": "Hanok Village & around",
+          "best": "Hanok stays & food",
+          "tone": "amber",
+          "vibe": "Sleep in a restored hanok guesthouse right among the lanes, tea houses and street food — the most atmospheric base, and walkable to everything.",
+          "near": "In the heart of the sights; book ahead on weekends."
+        },
+        {
+          "name": "Downtown & Jeonju Station",
+          "best": "Hotels & transport",
+          "tone": "blue",
+          "vibe": "Modern hotels around the downtown and station, handy for buses and the KTX — more comfort and choice, a short ride from the hanok village.",
+          "near": "Best for train/bus connections; quieter at night."
+        }
+      ]
+    },
+    "gangneung": {
+      "name": "Gangneung",
+      "flag": "🌊",
+      "metaTitle": "Where to Stay in Gangneung: Best Areas (2026)",
+      "intro": "Gangneung splits between the sea and the centre: base at Gyeongpo or Anmok beach for sand, cafes and coffee, or stay downtown near the station for transport and an easy KTX hop from Seoul.",
+      "areas": [
+        {
+          "name": "Gyeongpo & Anmok Beach",
+          "best": "Beach & coffee",
+          "tone": "blue",
+          "vibe": "Right by the East Sea beach, pine-backed lake and the famous Anmok coffee street — the relaxed, scenic base most visitors want.",
+          "near": "On the beach; a short ride from the station and downtown."
+        },
+        {
+          "name": "Downtown & Gangneung Station",
+          "best": "Central & transport",
+          "tone": "amber",
+          "vibe": "Around the KTX station and central market, handy for buses down the coast and an easy arrival from Seoul.",
+          "near": "Best for transport and markets; a short ride to the beaches."
+        }
+      ]
+    },
+    "suwon": {
+      "name": "Suwon",
+      "flag": "🏯",
+      "metaTitle": "Where to Stay in Suwon: Best Areas (2026)",
+      "intro": "Suwon is an easy day trip or overnight from Seoul: stay in the old town by Hwaseong Fortress to walk the walls and Haenggung Palace, or pick a hotel near Suwon Station for transport and shopping.",
+      "areas": [
+        {
+          "name": "Hwaseong old town",
+          "best": "Fortress & sights",
+          "tone": "amber",
+          "vibe": "Inside the fortress walls near Haenggung Palace and the Haenggung-dong cafe lanes — the most characterful base, steps from the main sights.",
+          "near": "Walk to the walls and palace; guesthouses and small hotels."
+        },
+        {
+          "name": "Suwon Station area",
+          "best": "Hotels & transit",
+          "tone": "blue",
+          "vibe": "Around the station with big hotels, department stores and easy trains — practical and well-connected to Seoul.",
+          "near": "Best for transport and shopping; a short ride to the fortress."
+        }
+      ]
     }
   }
 }
