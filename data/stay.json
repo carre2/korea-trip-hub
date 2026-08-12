@@ -224,6 +224,35 @@
           "near": "Best for transport and shopping; a short ride to the fortress."
         }
       ]
+    },
+    "incheon": {
+      "name": "Incheon",
+      "flag": "✈️",
+      "metaTitle": "Where to Stay in Incheon: Yeongjongdo & Airport (2026)",
+      "intro": "Incheon is most travellers’ arrival point — and a growing K-pop concert base. Yeongjong Island, home to Incheon Airport and the Inspire Arena, is where many overseas fans stay for shows and layovers; the planned city of Songdo adds modern hotels, and the old open-port district has Korea’s oldest Chinatown and the seaside at Wolmido.",
+      "areas": [
+        {
+          "name": "Yeongjong Island (Airport & Inspire Arena)",
+          "best": "K-pop concerts & flights",
+          "tone": "blue",
+          "vibe": "The island with Incheon Airport and the Inspire Arena entertainment resort — a favourite base for overseas K-pop concert-goers and anyone with an early or late flight, with airport hotels and a big resort complex.",
+          "near": "On the AREX line from the airport; a short shuttle or taxi to Inspire Arena."
+        },
+        {
+          "name": "Songdo",
+          "best": "Modern & conventions",
+          "tone": "amber",
+          "vibe": "A sleek, planned district of skyscrapers, parks and convention centres like Central Park and Songdo Convensia — modern hotels and a calm, spacious feel.",
+          "near": "Incheon subway Line 1; linked to the airport by bridge."
+        },
+        {
+          "name": "Open Port & Wolmido",
+          "best": "Chinatown & seaside",
+          "tone": "green",
+          "vibe": "Incheon’s historic harbour quarter — Korea’s oldest Chinatown, mural streets and the Wolmido seaside boardwalk with its old-school fun fair.",
+          "near": "Line 1 to Incheon Station; walkable and atmospheric."
+        }
+      ]
     }
   }
 }

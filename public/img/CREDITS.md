@@ -98,6 +98,11 @@ All photographic images are sourced from free/openly-licensed collections and at
 | jjimdak | Photo: Korean Culture and Information Service / Wikimedia Commons · KOGL Type 1 | [Commons](https://commons.wikimedia.org/wiki/File:Andong-jjimdak.jpg) |
 | hotteok | Photo: Korea.net / Korean Culture and Information Service / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hotteok.jpg) |
 | japchae | Photo: korea.net / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Polish_Korean_Cuisine_and_Culture_Exchanges_Gradmother%E2%80%99s_Recipes_05.jpg) |
+| sundae | Photo: Popo le Chien / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Sundae.jpg) |
+| kalguksu | Photo: by jslander / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean.noodle-Kalguksu-01.jpg) |
+| bossam | Photo: Korea.net / Korean Culture and Information Service / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:KOCIS_BOSSAM,_napa_wraps_with_pork_(4618280268).jpg) |
+| hoe | Photo: littlepepper / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Hoe_(raw_fish).jpg) |
+| gimbap | Photo: changupn / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Gimbap_(pixabay).jpg) |
 
 ### Plan deep-dive heroes & weather seasons
 | File | Credit | Source |

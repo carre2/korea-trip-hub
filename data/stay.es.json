@@ -223,6 +223,35 @@
           "near": "Lo mejor para el transporte y las compras; a un corto trayecto de la fortaleza."
         }
       ]
+    },
+    "incheon": {
+      "name": "Incheon",
+      "flag": "✈️",
+      "metaTitle": "Dónde alojarse en Incheon: Yeongjongdo y el aeropuerto (2026)",
+      "intro": "Incheon es el punto de llegada de la mayoría de los viajeros, y una base cada vez más popular para conciertos de K-pop. Yeongjong Island, donde están el Aeropuerto de Incheon y el Inspire Arena, es donde se alojan muchos fans extranjeros para los shows y las escalas; la ciudad planificada de Songdo suma hoteles modernos, y el antiguo distrito portuario alberga el Chinatown más antiguo de Corea y la costa de Wolmido.",
+      "areas": [
+        {
+          "name": "Yeongjong Island (Aeropuerto e Inspire Arena)",
+          "best": "Conciertos de K-pop y vuelos",
+          "tone": "blue",
+          "vibe": "La isla con el Aeropuerto de Incheon y el complejo de entretenimiento Inspire Arena: una base preferida por los asistentes extranjeros a conciertos de K-pop y por cualquiera con un vuelo muy temprano o muy tarde, con hoteles de aeropuerto y un gran complejo turístico.",
+          "near": "En la línea AREX desde el aeropuerto; un corto trayecto en shuttle o taxi hasta el Inspire Arena."
+        },
+        {
+          "name": "Songdo",
+          "best": "Moderno y convenciones",
+          "tone": "amber",
+          "vibe": "Un distrito elegante y planificado de rascacielos, parques y centros de convenciones como Central Park y Songdo Convensia: hoteles modernos y una sensación tranquila y espaciosa.",
+          "near": "Línea 1 del metro de Incheon; conectado con el aeropuerto por puente."
+        },
+        {
+          "name": "Open Port y Wolmido",
+          "best": "Chinatown y costa",
+          "tone": "green",
+          "vibe": "El histórico barrio portuario de Incheon: el Chinatown más antiguo de Corea, calles con murales y el paseo marítimo de Wolmido con su feria de atracciones de siempre.",
+          "near": "Línea 1 hasta la estación de Incheon; se recorre a pie y tiene mucho ambiente."
+        }
+      ]
     }
   }
 }
