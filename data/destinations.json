@@ -28,6 +28,10 @@
     {
       "key": "suwon",
       "name": "Suwon"
+    },
+    {
+      "key": "sokcho",
+      "name": "Sokcho"
     }
   ],
   "items": {
@@ -1277,6 +1281,180 @@
         {
           "name": "VisitBusan",
           "url": "https://www.visitbusan.net/en"
+        }
+      ]
+    },
+    "seoraksan": {
+      "city": "sokcho",
+      "cat": "hiking",
+      "icon": "⛰️",
+      "grad": "linear-gradient(135deg,#2f7d4f,#69c97a)",
+      "name": "Seoraksan National Park",
+      "rank": "Korea’s top mountain",
+      "blurb": "Granite peaks, temples and autumn colour.",
+      "intro": [
+        "Seoraksan is Korea’s most famous national park — dramatic granite peaks, valleys and temples near the east-coast city of Sokcho.",
+        "A cable car climbs toward Gwongeumseong fortress, and trails of every level fan out from Sinheungsa temple."
+      ],
+      "tips": [
+        "Autumn foliage is spectacular but very busy — go early.",
+        "Take the cable car for big views without the full climb.",
+        "Bring layers; mountain weather changes fast."
+      ],
+      "nearby": [
+        "Ulsanbawi",
+        "Sinheungsa",
+        "Sokcho"
+      ],
+      "official": [
+        {
+          "name": "Korea National Park",
+          "url": "https://english.knps.or.kr"
+        }
+      ]
+    },
+    "abai": {
+      "city": "sokcho",
+      "cat": "food",
+      "icon": "🚤",
+      "grad": "linear-gradient(135deg,#1E5FA8,#4F9BD8)",
+      "name": "Abai Village",
+      "rank": "Ferry-raft & K-drama",
+      "blurb": "A seaside village reached by a hand-pulled ferry.",
+      "intro": [
+        "Abai Village in Sokcho was settled by refugees from the north and is famous for its hand-pulled ‘gaetbae’ raft-ferry across the channel.",
+        "It is known for Abai sundae and squid dishes, and as a filming spot for hit Korean dramas."
+      ],
+      "tips": [
+        "Ride the hand-pulled ferry across the inlet.",
+        "Try Abai sundae (stuffed sausage) and squid sundae.",
+        "Combine it with Sokcho Beach and the fish market."
+      ],
+      "nearby": [
+        "Sokcho Beach",
+        "Seoraksan",
+        "Cheongchoho Lake"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "ihwa": {
+      "city": "seoul",
+      "cat": "sights",
+      "icon": "🎨",
+      "grad": "linear-gradient(135deg,#B5651D,#E0975A)",
+      "name": "Ihwa Mural Village",
+      "rank": "Hillside murals",
+      "blurb": "A steep hillside of murals near Naksan.",
+      "intro": [
+        "Ihwa Mural Village climbs the slope below Naksan Park, its stairways and walls brightened with murals and art installations.",
+        "From the top there are wide views over the rooftops of old Seoul."
+      ],
+      "tips": [
+        "It is a residential area — keep noise down and respect homes.",
+        "Combine it with a walk on the Naksan section of the old city wall.",
+        "Wear comfortable shoes for the steep lanes."
+      ],
+      "nearby": [
+        "Naksan Park",
+        "Dongdaemun",
+        "Hyehwa"
+      ],
+      "official": [
+        {
+          "name": "VisitSeoul",
+          "url": "https://english.visitseoul.net"
+        }
+      ]
+    },
+    "igidae": {
+      "city": "busan",
+      "cat": "sights",
+      "icon": "🌊",
+      "grad": "linear-gradient(135deg,#1CA5C9,#66D0E6)",
+      "name": "Igidae Coastal Walk",
+      "rank": "Cliff coastal trail",
+      "blurb": "A rugged cliffside trail along the sea.",
+      "intro": [
+        "Igidae is a coastal park in Busan with a rocky cliff trail and a suspension bridge, looking across the water to the Gwangan Bridge and the Haeundae skyline.",
+        "It links along the shore toward the Oryukdo Skywalk."
+      ],
+      "tips": [
+        "Wear good shoes — parts are rocky with stairs.",
+        "The Gwangan Bridge views are best in the late afternoon.",
+        "You can walk on toward the Oryukdo Skywalk."
+      ],
+      "nearby": [
+        "Oryukdo Skywalk",
+        "Gwangalli Beach",
+        "Haeundae Beach"
+      ],
+      "official": [
+        {
+          "name": "VisitBusan",
+          "url": "https://www.visitbusan.net/en"
+        }
+      ]
+    },
+    "hyeopjae": {
+      "city": "jeju",
+      "cat": "sights",
+      "icon": "🏖️",
+      "grad": "linear-gradient(135deg,#1CA5C9,#66D0E6)",
+      "name": "Hyeopjae Beach",
+      "rank": "Turquoise west beach",
+      "blurb": "White sand and turquoise water on Jeju’s west.",
+      "intro": [
+        "Hyeopjae is one of Jeju’s prettiest beaches — white sand, shallow turquoise water and a view of Biyangdo island offshore.",
+        "The Hallim Park gardens and caves sit right next door."
+      ],
+      "tips": [
+        "The water is shallow and calm — good for families.",
+        "Sunset over Biyangdo island is lovely.",
+        "Pair it with Hallim Park next door."
+      ],
+      "nearby": [
+        "Hallim Park",
+        "Geumneung Beach",
+        "Aewol"
+      ],
+      "official": [
+        {
+          "name": "VisitJeju",
+          "url": "https://www.visitjeju.net/en"
+        }
+      ]
+    },
+    "nambu-market": {
+      "city": "jeonju",
+      "cat": "food",
+      "icon": "🥘",
+      "grad": "linear-gradient(135deg,#C0392B,#E67E5A)",
+      "name": "Jeonju Nambu Market",
+      "rank": "Market & night food",
+      "blurb": "A traditional market with a youthful night hall.",
+      "intro": [
+        "Nambu Market is Jeonju’s big traditional market — busy by day with produce and street food, and known for its ‘Youth Mall’ of young vendors upstairs.",
+        "On weekend nights a night market fills the aisles with food stalls."
+      ],
+      "tips": [
+        "Come hungry — it is one of Jeonju’s best street-food spots.",
+        "Check for the weekend night market.",
+        "It is a short walk from the Hanok Village."
+      ],
+      "nearby": [
+        "Jeonju Hanok Village",
+        "Gyeonggijeon Shrine",
+        "Pungnammun"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
         }
       ]
     }

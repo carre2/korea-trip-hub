@@ -69,6 +69,12 @@ All photographic images are sourced from free/openly-licensed collections and at
 | haenggung | Photo: Korea.net / Republic of Korea / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:KOCIS_Martial_artists_perform_at_Suwon_Haenggung_Palace_(5433219260).jpg) |
 | starfield-coex | Photo: Hyerimwon / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:%EB%B3%84%EB%A7%88%EB%8B%B9%EB%8F%84%EC%84%9C%EA%B4%80.jpg) |
 | oryukdo | Photo: S099001 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Oryukdo_Skywalk.jpg) |
+| seoraksan | Photo: Taewangkorea / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dinosaur_Ridge_of_Seoraksan.jpg) |
+| abai | Photo: adam bee / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Abai_village_-_5433869814.jpg) |
+| ihwa | Photo: Bonnielou2013 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ihwa_Mural_Village_10.jpg) |
+| igidae | Photo: dom brassey draws comics / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:View_of_Haeundae_from_Igidae_Coastal_Trail.jpg) |
+| hyeopjae | Photo: Lcarrion88 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hyeopjae.jpg) |
+| nambu-market | Photo: Shamus7792003 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Along_Jeonju_River_and_across_from_Nambu_Market..JPG) |
 
 ### Food (Plan → Food)
 
