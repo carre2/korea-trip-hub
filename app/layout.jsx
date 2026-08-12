@@ -8,6 +8,7 @@ export const metadata = {
   // Site-verification meta tags (rendered on every page's <head>).
   other: {
     "p:domain_verify": "20f3ec6adc3c8ed867705f6791228fe3",
+    "google-adsense-account": "ca-pub-2067934281598769",
   },
 };
 

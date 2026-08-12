@@ -1,7 +1,11 @@
 import "../globals.css";
+import Script from "next/script";
 import { locales, rtlLocales, localeNames } from "../../lib/i18n";
 import { SITE } from "../../lib/seo";
 import Header from "../../components/Header";
+
+// Google AdSense publisher (ktriphub.com). Loader below serves ads once approved.
+const ADSENSE_CLIENT = "ca-pub-2067934281598769";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -22,6 +26,12 @@ export default function LocaleLayout({ children, params }) {
       <body>
         <Header locale={locale} />
         {children}
+        <Script
+          id="adsbygoogle-init"
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
       </body>
     </html>
   );
