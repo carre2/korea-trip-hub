@@ -6,6 +6,8 @@ import Header from "../../components/Header";
 
 // Google AdSense publisher (ktriphub.com). Loader below serves ads once approved.
 const ADSENSE_CLIENT = "ca-pub-2067934281598769";
+// Google Analytics 4 measurement ID (ktriphub.com property).
+const GA_ID = "G-DZTSGKJ926";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -32,6 +34,13 @@ export default function LocaleLayout({ children, params }) {
           strategy="afterInteractive"
           crossOrigin="anonymous"
         />
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_ID}');`}
+        </Script>
       </body>
     </html>
   );
