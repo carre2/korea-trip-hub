@@ -1,0 +1,81 @@
+{
+  "_README": "K-pop-for-visitors guide (English base). EVERGREEN + fact-safe: concert venues, ticket platforms, weekly music shows, agency neighborhoods and fan landmarks. NO concert dates or tour schedules (those are volatile) — the `live` block links out to kpophub.kr + official ticketers instead. `spot` = frozen Google Maps query (keep English). `url` = frozen. Translated per locale in kpop.<locale>.json.",
+  "ui": {
+    "metaTitle": "한국의 K-pop: 콘서트·공연장·티켓·팬 가이드 (2026)",
+    "metaDesc": "K-pop 팬을 위한 한국 여행 가이드 — 콘서트 공연장, 티켓 구매법, 매주 열리는 음악방송 직관, 소속사 동네(HYBE, SM, JYP, YG)와 팬 성지까지. 현재 진행 중인 콘서트 일정은 kpophub.kr에서 확인하세요.",
+    "h1": "한국에서 즐기는 K-pop",
+    "tagline": "한국을 찾은 팬을 위한 가이드 — 공연장, 티켓, 라이브 음악방송, 소속사 명소, 그리고 K-pop의 열기를 온몸으로 느낄 수 있는 곳들.",
+    "mapLabel": "지도"
+  },
+  "live": {
+    "title": "지금 열리는 콘서트와 이벤트",
+    "body": "콘서트 라인업은 수시로 바뀌기 때문에 여기에 날짜를 고정해두지 않습니다 — 금방 옛날 정보가 되어버리거든요. 현재 진행 중인 K-pop 콘서트, 투어, 이벤트는 실시간 정보에서 확인하세요:",
+    "links": [
+      { "name": "kpophub.kr — 실시간 K-pop 콘서트 정보", "url": "https://kpophub.kr" }
+    ],
+    "note": "아래 공식 티켓 플랫폼에서도 지금 예매 중인 공연을 확인할 수 있습니다."
+  },
+  "venues": {
+    "title": "콘서트가 열리는 곳",
+    "intro": "규모가 큰 K-pop 콘서트와 투어, 시상식은 대부분 서울과 인천 일대의 대형 공연장 몇 곳에서 열립니다.",
+    "items": [
+      { "name": "인스파이어 아레나", "area": "인천 영종도", "d": "인천공항 바로 옆 인스파이어 리조트에 자리한, 한국 최대 규모의 실내 아레나 — 대형 콘서트와 시상식이 자주 열리는 핵심 공연장입니다.", "spot": "Inspire Arena, Incheon" },
+      { "name": "고척스카이돔", "area": "서울 구로", "d": "한국 최초의 돔 구장으로, 그 규모 덕분에 초대형 솔로·그룹 콘서트의 단골 무대가 됩니다.", "spot": "Gocheok Sky Dome, Seoul" },
+      { "name": "KSPO돔", "area": "서울 송파 올림픽공원", "d": "올림픽공원 안에 있는 대표적인 대형 실내 아레나(올림픽체조경기장)로, 오랫동안 주요 K-pop 콘서트의 무대가 되어 왔습니다.", "spot": "KSPO Dome, Seoul" },
+      { "name": "잠실 종합운동장", "area": "서울 송파", "d": "잠실 주경기장과 실내체육관에서 스타디움급 투어와 음악 페스티벌이 열립니다.", "spot": "Jamsil Sports Complex, Seoul" },
+      { "name": "올림픽홀", "area": "서울 송파 올림픽공원", "d": "쇼케이스, 팬미팅, 소규모 콘서트에 쓰이는 중형 공연장입니다.", "spot": "Olympic Hall, Seoul" }
+    ]
+  },
+  "tickets": {
+    "title": "티켓 구하는 법",
+    "intro": "K-pop 티켓은 몇몇 공식 한국 플랫폼에서 판매됩니다. 외국인 팬은 대개 영어로 된 '글로벌' 버전을 이용할 수 있지만, 인기 공연은 몇 분 만에 매진되므로 미리 준비하는 것이 좋습니다.",
+    "steps": [
+      "티켓 사이트 계정을 미리 만들어두고, 팬클럽 선예매가 있다면 해당 아티스트의 팬클럽에도 가입해 두세요.",
+      "정확한 예매 오픈 시각을 한국 시간(KST) 기준으로 확인하고, 몇 분 전에 로그인해 대기하세요.",
+      "결제와 본인 확인 규정을 먼저 확인하세요 — 일부 사이트는 한국에서 사용 가능한 카드나 인증된 휴대폰 번호가 필요합니다.",
+      "공연이 매진됐다면 공식 리셀만 이용하고, 길거리 암표상은 절대 이용하지 마세요."
+    ],
+    "platforms": [
+      { "name": "Interpark Global", "what": "영어 글로벌 사이트를 갖춘, K-pop 콘서트 최대 예매처.", "url": "https://globalinterpark.com" },
+      { "name": "Yes24 Ticket", "what": "콘서트, 팬미팅, 뮤지컬을 아우르는 주요 예매처.", "url": "https://ticket.yes24.com" },
+      { "name": "Melon Ticket", "what": "Melon 음악 서비스와 연동된 예매 플랫폼.", "url": "https://ticket.melon.com" },
+      { "name": "Weverse", "what": "HYBE와 파트너 아티스트를 위한 팬 플랫폼 — 일부 판매와 팬클럽 혜택이 여기서 진행됩니다.", "url": "https://weverse.io" }
+    ]
+  },
+  "musicShows": {
+    "title": "라이브 음악방송 직관하기",
+    "intro": "한국의 주간 TV 음악방송은 방청객 앞에서 녹화되며, 상당수가 팬을 무료로 입장시켜 줍니다 — 하루 오후에 여러 아티스트의 무대를 한 번에 볼 수 있는 기회입니다.",
+    "shows": [
+      { "name": "뮤직뱅크 (KBS)", "d": "가장 오래된 주간 음악방송 중 하나." },
+      { "name": "쇼! 음악중심 (MBC)", "d": "MBC의 대표 주말 음악방송." },
+      { "name": "인기가요 (SBS)", "d": "SBS의 인기 주말 차트 방송." },
+      { "name": "엠카운트다운 (Mnet)", "d": "화려한 무대로 유명한 Mnet의 주간 방송." },
+      { "name": "쇼챔피언 (MBC M)", "d": "상대적으로 입장하기 쉬운 편인 주중 방송." }
+    ],
+    "tips": [
+      "방청 자리는 보통 출연 아티스트의 팬카페나 팬클럽을 통해 사전에 신청하는 방식으로 운영됩니다.",
+      "일부 방송은 당일 현장에서 소수의 대기 자리를 주기도 하는데, 이른 시작과 긴 대기를 각오해야 합니다.",
+      "규정과 일정이 자주 바뀌므로, 가기 전에 반드시 방송사의 최신 안내를 확인하세요."
+    ]
+  },
+  "agencies": {
+    "title": "소속사가 있는 곳",
+    "intro": "팬들은 '빅4' 소속사 동네를 자주 찾아 건물과 그 주변 카페·상점을 둘러봅니다. 건물과 소속 아티스트는 시간이 지나면 바뀌므로, 실시간 정보가 아닌 대략적인 안내로 참고하세요.",
+    "items": [
+      { "name": "HYBE", "area": "서울 용산", "d": "HYBE 본사는 용산 중심부에 있으며, BTS와 SEVENTEEN 같은 아티스트가 속한 레이블들의 본거지입니다." },
+      { "name": "SM Entertainment", "area": "서울 성수", "d": "SM 본사는 트렌디한 성수 카페 거리에 있으며, aespa와 NCT 같은 아티스트의 본거지입니다. 카페 투어와 함께 둘러보세요." },
+      { "name": "JYP Entertainment", "area": "서울 강동", "d": "JYP 건물은 서울 동부에 있으며, TWICE와 Stray Kids 같은 아티스트의 본거지입니다." },
+      { "name": "YG Entertainment", "area": "서울 마포 합정", "d": "YG는 홍대 근처 합정에 있으며, BLACKPINK와 TREASURE 같은 아티스트의 본거지입니다 — 저녁 나들이와 묶기에 좋습니다." }
+    ]
+  },
+  "spots": {
+    "title": "K-pop 팬 성지",
+    "intro": "팬들이 K-pop의 분위기를 만끽할 수 있도록 만들어진 곳 몇 군데를 소개합니다.",
+    "items": [
+      { "name": "K-스타로드", "area": "서울 압구정", "d": "K-pop 그룹을 상징하는 '강남돌' 아트 피규어가 늘어선 거리로, 많은 소속사와 스튜디오가 모여 있는 고급 동네 압구정-청담에 있습니다." },
+      { "name": "COEX & SMTOWN", "area": "서울 강남", "d": "COEX 복합몰에는 K-pop 테마 공간과 유명한 별마당 도서관이 있습니다." },
+      { "name": "홍대 버스킹 거리", "area": "서울 마포", "d": "주말 저녁이면 홍익대학교 일대에서 댄스 크루와 가수들이 K-pop 커버 무대를 펼칩니다." },
+      { "name": "팝업 카페 & 포토 이벤트", "area": "성수·홍대와 쇼핑몰", "d": "아이돌과 그룹들이 기간 한정 팝업 카페와 포토 전시를 엽니다 — 장소가 계속 바뀌니 방문 시점에 무엇이 열리는지 확인하세요." }
+    ]
+  }
+}

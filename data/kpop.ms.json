@@ -1,0 +1,81 @@
+{
+  "_README": "K-pop-for-visitors guide (English base). EVERGREEN + fact-safe: concert venues, ticket platforms, weekly music shows, agency neighborhoods and fan landmarks. NO concert dates or tour schedules (those are volatile) — the `live` block links out to kpophub.kr + official ticketers instead. `spot` = frozen Google Maps query (keep English). `url` = frozen. Translated per locale in kpop.<locale>.json.",
+  "ui": {
+    "metaTitle": "K-pop di Korea: Konsert, Tempat, Tiket & Panduan Peminat (2026)",
+    "metaDesc": "Panduan peminat K-pop ke Korea — tempat konsert, cara membeli tiket, menonton rancangan muzik mingguan secara langsung, kawasan agensi (HYBE, SM, JYP, YG) dan mercu tanda peminat. Tarikh konsert terkini melalui kpophub.kr.",
+    "h1": "K-pop di Korea",
+    "tagline": "Panduan peminat yang melawat — tempat, tiket, rancangan muzik langsung, lokasi agensi dan tempat untuk merasai suasananya.",
+    "mapLabel": "peta"
+  },
+  "live": {
+    "title": "Konsert & acara yang berlangsung sekarang",
+    "body": "Barisan konsert sentiasa berubah, jadi kami tidak membekukan tarikh di sini — ia hanya akan menjadi lapuk. Untuk konsert, jelajah dan acara K-pop terkini, semak senarai langsung:",
+    "links": [
+      { "name": "kpophub.kr — senarai konsert K-pop langsung", "url": "https://kpophub.kr" }
+    ],
+    "note": "Platform tiket rasmi di bawah juga menunjukkan apa yang sedang dijual sekarang."
+  },
+  "venues": {
+    "title": "Di mana konsert berlangsung",
+    "intro": "Kebanyakan konsert besar K-pop, jelajah dan majlis anugerah berlangsung di segelintir tempat besar sekitar Seoul dan Incheon.",
+    "items": [
+      { "name": "Inspire Arena", "area": "Yeongjong Island, Incheon", "d": "Arena dalaman terbesar di Korea, sebahagian daripada resort Inspire betul-betul di sebelah Lapangan Terbang Incheon — hentian utama untuk konsert besar dan majlis anugerah.", "spot": "Inspire Arena, Incheon" },
+      { "name": "Gocheok Sky Dome", "area": "Guro, Seoul", "d": "Stadium berkubah pertama di Korea; saiznya menjadikannya pilihan utama untuk konsert solo dan kumpulan terbesar.", "spot": "Gocheok Sky Dome, Seoul" },
+      { "name": "KSPO Dome", "area": "Olympic Park, Songpa, Seoul", "d": "Arena dalaman besar yang klasik di Olympic Park (Olympic Gymnastics Arena), lama menjadi tapak untuk konsert K-pop utama.", "spot": "KSPO Dome, Seoul" },
+      { "name": "Jamsil Sports Complex", "area": "Songpa, Seoul", "d": "Stadium dan arena dalaman Jamsil menganjurkan jelajah berskala stadium dan festival muzik.", "spot": "Jamsil Sports Complex, Seoul" },
+      { "name": "Olympic Hall", "area": "Olympic Park, Songpa, Seoul", "d": "Dewan bersaiz sederhana yang digunakan untuk showcase, pertemuan peminat dan konsert lebih kecil.", "spot": "Olympic Hall, Seoul" }
+    ]
+  },
+  "tickets": {
+    "title": "Cara mendapatkan tiket",
+    "intro": "Tiket K-pop dijual melalui beberapa platform rasmi Korea. Peminat asing biasanya boleh menggunakan versi 'Global' berbahasa Inggeris — tetapi rancangan popular habis dijual dalam beberapa minit, jadi bersedialah lebih awal.",
+    "steps": [
+      "Buat akaun anda lebih awal di laman tiket, dan sertai kelab peminat artis jika ada prajualan untuk ahli.",
+      "Catat waktu jualan bermula yang tepat mengikut waktu Korea (KST) dan pastikan anda sudah log masuk serta bersedia beberapa minit lebih awal.",
+      "Semak peraturan pembayaran dan ID terlebih dahulu — sesetengah laman memerlukan kad yang berfungsi di Korea atau nombor telefon yang disahkan.",
+      "Jika sesuatu rancangan habis dijual, gunakan hanya jualan semula rasmi — jangan sesekali membeli daripada penjual haram di jalanan."
+    ],
+    "platforms": [
+      { "name": "Interpark Global", "what": "Penjual tiket konsert K-pop terbesar, dengan laman global berbahasa Inggeris.", "url": "https://globalinterpark.com" },
+      { "name": "Yes24 Ticket", "what": "Penjual tiket utama untuk konsert, pertemuan peminat dan muzikal.", "url": "https://ticket.yes24.com" },
+      { "name": "Melon Ticket", "what": "Pengeluaran tiket yang terikat dengan perkhidmatan muzik Melon.", "url": "https://ticket.melon.com" },
+      { "name": "Weverse", "what": "Platform peminat untuk HYBE dan artis rakan kongsi — sesetengah jualan dan keistimewaan kelab peminat berlangsung di sini.", "url": "https://weverse.io" }
+    ]
+  },
+  "musicShows": {
+    "title": "Tonton rancangan muzik secara langsung",
+    "intro": "Rancangan muzik TV mingguan Korea dirakam di hadapan penonton langsung, dan kebanyakannya membenarkan peminat masuk secara percuma — peluang untuk melihat beberapa artis membuat persembahan dalam satu petang.",
+    "shows": [
+      { "name": "Music Bank (KBS)", "d": "Salah satu rancangan muzik mingguan yang paling lama berlangsung." },
+      { "name": "Show! Music Core (MBC)", "d": "Rancangan muzik hujung minggu utama MBC." },
+      { "name": "Inkigayo (SBS)", "d": "Rancangan carta hujung minggu popular SBS." },
+      { "name": "M Countdown (Mnet)", "d": "Rancangan mingguan Mnet, terkenal dengan pentas yang mewah." },
+      { "name": "Show Champion (MBC M)", "d": "Rancangan pertengahan minggu yang selalunya lebih mudah untuk masuk." }
+    ],
+    "tips": [
+      "Tempat penonton biasanya diuruskan melalui fan cafe atau kelab peminat artis yang membuat persembahan — anda memohon lebih awal.",
+      "Sesetengah rancangan mempunyai tempat sedia hadir yang terhad pada hari itu; jangkakan permulaan awal dan menunggu yang lama.",
+      "Peraturan dan jadual kerap berubah — sentiasa semak panduan terkini penyiar sebelum anda pergi."
+    ]
+  },
+  "agencies": {
+    "title": "Di mana agensi berada",
+    "intro": "Peminat sering melawat kawasan kejiranan agensi 'Big 4' untuk melihat bangunan serta kafe dan kedai di sekitarnya. Bangunan dan senarai artis berubah dari semasa ke semasa, jadi anggap ini sebagai panduan orientasi, bukan direktori langsung.",
+    "items": [
+      { "name": "HYBE", "area": "Yongsan, Seoul", "d": "Ibu pejabat HYBE terletak di tengah Yongsan — tapak label di sebalik artis seperti BTS dan SEVENTEEN." },
+      { "name": "SM Entertainment", "area": "Seongsu, Seoul", "d": "Ibu pejabat SM terletak di kawasan kafe Seongsu yang bergaya — tapak artis seperti aespa dan NCT. Gabungkannya dengan lawatan menjelajah kafe." },
+      { "name": "JYP Entertainment", "area": "Gangdong, Seoul", "d": "Bangunan JYP terletak di timur Seoul — tapak artis seperti TWICE dan Stray Kids." },
+      { "name": "YG Entertainment", "area": "Hapjeong, Mapo, Seoul", "d": "YG terletak di Hapjeong berdekatan Hongdae — tapak artis seperti BLACKPINK dan TREASURE — mudah digabungkan dengan aktiviti keluar malam." }
+    ]
+  },
+  "spots": {
+    "title": "Mercu tanda peminat K-pop",
+    "intro": "Beberapa lokasi memang dicipta untuk peminat menghayati suasananya.",
+    "items": [
+      { "name": "K-Star Road", "area": "Apgujeong, Seoul", "d": "Jalan yang dipenuhi figura seni 'GangnamDol' yang mewakili kumpulan K-pop, di Apgujeong-Cheongdam yang mewah berdekatan banyak agensi dan studio." },
+      { "name": "COEX & SMTOWN", "area": "Gangnam, Seoul", "d": "Kompleks COEX mempunyai ruang bertemakan K-pop dan Starfield Library yang terkenal." },
+      { "name": "Hongdae busking street", "area": "Mapo, Seoul", "d": "Petang hujung minggu membawa kumpulan penari dan penyanyi membuat persembahan lagu cover K-pop di sekitar Hongik University." },
+      { "name": "Pop-up cafes & photo events", "area": "Seongsu, Hongdae & malls", "d": "Idola dan kumpulan mengadakan kafe pop-up dan pameran foto berjangka masa terhad — ia berpindah-pindah, jadi semak apa yang ada semasa anda melawat." }
+    ]
+  }
+}

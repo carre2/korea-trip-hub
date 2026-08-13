@@ -1,0 +1,81 @@
+{
+  "_README": "Cẩm nang K-pop cho du khách (bản gốc tiếng Anh). EVERGREEN + an toàn dữ kiện: địa điểm tổ chức concert, nền tảng bán vé, show âm nhạc hằng tuần, khu phố của các công ty giải trí và địa danh dành cho người hâm mộ. KHÔNG có ngày diễn concert hay lịch tour (những thông tin đó thay đổi liên tục) — thay vào đó khối `live` dẫn link ra kpophub.kr + các đơn vị bán vé chính thức. `spot` = truy vấn Google Maps cố định (giữ nguyên tiếng Anh). `url` = cố định. Được dịch theo từng ngôn ngữ trong kpop.<locale>.json.",
+  "ui": {
+    "metaTitle": "K-pop tại Hàn Quốc: Concert, địa điểm, vé & cẩm nang cho fan (2026)",
+    "metaDesc": "Cẩm nang Hàn Quốc dành cho fan K-pop — địa điểm tổ chức concert, cách mua vé, xem trực tiếp các show âm nhạc hằng tuần, khu phố của các công ty giải trí (HYBE, SM, JYP, YG) và những địa danh dành cho fan. Xem ngày diễn concert hiện tại tại kpophub.kr.",
+    "h1": "K-pop tại Hàn Quốc",
+    "tagline": "Cẩm nang cho fan khi đến thăm — địa điểm, vé, show âm nhạc trực tiếp, trụ sở các công ty giải trí và những nơi để cảm nhận không khí K-pop.",
+    "mapLabel": "bản đồ"
+  },
+  "live": {
+    "title": "Concert & sự kiện đang diễn ra",
+    "body": "Lịch diễn concert thay đổi liên tục, nên chúng tôi không cố định ngày ở đây — chúng sẽ nhanh chóng lỗi thời. Để xem concert, tour và sự kiện K-pop hiện tại, hãy xem danh sách cập nhật trực tiếp:",
+    "links": [
+      { "name": "kpophub.kr — danh sách concert K-pop cập nhật trực tiếp", "url": "https://kpophub.kr" }
+    ],
+    "note": "Các nền tảng bán vé chính thức bên dưới cũng cho biết những show đang mở bán vé ngay lúc này."
+  },
+  "venues": {
+    "title": "Nơi diễn ra các concert",
+    "intro": "Hầu hết các concert, tour và lễ trao giải K-pop lớn đều diễn ra tại một số ít địa điểm lớn quanh Seoul và Incheon.",
+    "items": [
+      { "name": "Inspire Arena", "area": "Đảo Yeongjong, Incheon", "d": "Nhà thi đấu trong nhà lớn nhất Hàn Quốc, thuộc khu nghỉ dưỡng Inspire ngay cạnh Sân bay Incheon — một điểm dừng quan trọng cho các concert lớn và lễ trao giải.", "spot": "Inspire Arena, Incheon" },
+      { "name": "Gocheok Sky Dome", "area": "Guro, Seoul", "d": "Sân vận động có mái vòm đầu tiên của Hàn Quốc; quy mô của nó khiến đây trở thành lựa chọn hàng đầu cho những concert solo và nhóm lớn nhất.", "spot": "Gocheok Sky Dome, Seoul" },
+      { "name": "KSPO Dome", "area": "Olympic Park, Songpa, Seoul", "d": "Một nhà thi đấu trong nhà lớn kinh điển trong Olympic Park (Nhà thi đấu Thể dục dụng cụ Olympic), từ lâu là nơi tổ chức các concert K-pop lớn.", "spot": "KSPO Dome, Seoul" },
+      { "name": "Jamsil Sports Complex", "area": "Songpa, Seoul", "d": "Sân vận động Jamsil và nhà thi đấu trong nhà tổ chức các tour quy mô sân vận động và lễ hội âm nhạc.", "spot": "Jamsil Sports Complex, Seoul" },
+      { "name": "Olympic Hall", "area": "Olympic Park, Songpa, Seoul", "d": "Một hội trường cỡ vừa dùng cho các showcase, buổi fan meeting và concert quy mô nhỏ hơn.", "spot": "Olympic Hall, Seoul" }
+    ]
+  },
+  "tickets": {
+    "title": "Cách mua vé",
+    "intro": "Vé K-pop được bán qua một số nền tảng chính thức của Hàn Quốc. Fan nước ngoài thường có thể dùng phiên bản 'Global' bằng tiếng Anh — nhưng những show nổi tiếng bán hết trong vài phút, nên hãy chuẩn bị trước.",
+    "steps": [
+      "Hãy tạo tài khoản sớm trên trang bán vé, và tham gia fan club của nghệ sĩ nếu có đợt mở bán sớm dành cho thành viên.",
+      "Ghi lại giờ mở bán chính xác theo giờ Hàn Quốc (KST) và hãy đăng nhập sẵn sàng vài phút trước đó.",
+      "Kiểm tra trước các quy định về thanh toán và giấy tờ tùy thân — một số trang cần thẻ dùng được ở Hàn Quốc hoặc số điện thoại đã xác thực.",
+      "Nếu một show đã bán hết vé, chỉ mua lại qua kênh bán lại chính thức — tuyệt đối không mua của phe vé ngoài đường."
+    ],
+    "platforms": [
+      { "name": "Interpark Global", "what": "Đơn vị bán vé concert K-pop lớn nhất, có trang global bằng tiếng Anh.", "url": "https://globalinterpark.com" },
+      { "name": "Yes24 Ticket", "what": "Một đơn vị bán vé lớn cho concert, fan meeting và nhạc kịch.", "url": "https://ticket.yes24.com" },
+      { "name": "Melon Ticket", "what": "Dịch vụ bán vé gắn với dịch vụ âm nhạc Melon.", "url": "https://ticket.melon.com" },
+      { "name": "Weverse", "what": "Nền tảng fan dành cho HYBE và các nghệ sĩ đối tác — một số đợt bán vé và ưu đãi fan club diễn ra tại đây.", "url": "https://weverse.io" }
+    ]
+  },
+  "musicShows": {
+    "title": "Xem một show âm nhạc trực tiếp",
+    "intro": "Các show âm nhạc truyền hình hằng tuần của Hàn Quốc được ghi hình trước khán giả trực tiếp, và nhiều show cho fan vào miễn phí — cơ hội để xem nhiều nghệ sĩ biểu diễn trong cùng một buổi chiều.",
+    "shows": [
+      { "name": "Music Bank (KBS)", "d": "Một trong những show âm nhạc hằng tuần phát sóng lâu đời nhất." },
+      { "name": "Show! Music Core (MBC)", "d": "Show âm nhạc cuối tuần chủ lực của MBC." },
+      { "name": "Inkigayo (SBS)", "d": "Show xếp hạng cuối tuần nổi tiếng của SBS." },
+      { "name": "M Countdown (Mnet)", "d": "Show hằng tuần của Mnet, nổi tiếng với những sân khấu được dàn dựng công phu." },
+      { "name": "Show Champion (MBC M)", "d": "Một show giữa tuần thường dễ vào xem hơn." }
+    ],
+    "tips": [
+      "Chỗ ngồi cho khán giả thường được sắp xếp qua fan cafe hoặc fan club của nghệ sĩ biểu diễn — bạn phải đăng ký trước.",
+      "Một số show có ít suất chờ (standby) trong ngày; hãy chuẩn bị đi sớm và chờ lâu.",
+      "Quy định và lịch trình thay đổi thường xuyên — luôn kiểm tra hướng dẫn mới nhất của đài trước khi đi."
+    ]
+  },
+  "agencies": {
+    "title": "Nơi đặt trụ sở các công ty giải trí",
+    "intro": "Fan thường ghé thăm khu phố của 'Big 4' công ty giải trí để ngắm các tòa nhà cùng những quán cafe và cửa hàng xung quanh. Tòa nhà và danh sách nghệ sĩ thay đổi theo thời gian, nên hãy xem đây là thông tin định hướng, không phải danh bạ cập nhật liên tục.",
+    "items": [
+      { "name": "HYBE", "area": "Yongsan, Seoul", "d": "Trụ sở của HYBE nằm ở trung tâm Yongsan — nơi có các hãng đứng sau những nhóm như BTS và SEVENTEEN." },
+      { "name": "SM Entertainment", "area": "Seongsu, Seoul", "d": "Trụ sở SM nằm ở khu cafe thời thượng Seongsu — nơi có những nhóm như aespa và NCT. Hãy kết hợp với một buổi dạo quán cafe." },
+      { "name": "JYP Entertainment", "area": "Gangdong, Seoul", "d": "Tòa nhà của JYP nằm ở phía đông Seoul — nơi có những nhóm như TWICE và Stray Kids." },
+      { "name": "YG Entertainment", "area": "Hapjeong, Mapo, Seoul", "d": "YG tọa lạc ở Hapjeong gần Hongdae — nơi có những nhóm như BLACKPINK và TREASURE — dễ dàng kết hợp với một buổi đi chơi tối." }
+    ]
+  },
+  "spots": {
+    "title": "Địa danh dành cho fan K-pop",
+    "intro": "Một vài địa điểm được tạo ra để fan đắm mình trong không khí K-pop.",
+    "items": [
+      { "name": "K-Star Road", "area": "Apgujeong, Seoul", "d": "Một con phố với các mô hình nghệ thuật 'GangnamDol' tượng trưng cho các nhóm K-pop, nằm ở khu Apgujeong-Cheongdam sang trọng gần nhiều công ty giải trí và phòng thu." },
+      { "name": "COEX & SMTOWN", "area": "Gangnam, Seoul", "d": "Khu phức hợp COEX có những không gian chủ đề K-pop và Thư viện Starfield nổi tiếng." },
+      { "name": "Phố busking Hongdae", "area": "Mapo, Seoul", "d": "Vào các tối cuối tuần, những nhóm nhảy và ca sĩ biểu diễn các bản cover K-pop quanh Đại học Hongik." },
+      { "name": "Quán cafe pop-up & sự kiện chụp ảnh", "area": "Seongsu, Hongdae & các trung tâm thương mại", "d": "Các idol và nhóm nhạc tổ chức những quán cafe pop-up và triển lãm ảnh trong thời gian giới hạn — chúng thay đổi địa điểm liên tục, nên hãy kiểm tra xem có gì khi bạn đến." }
+    ]
+  }
+}

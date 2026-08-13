@@ -37,7 +37,7 @@ export default function Header({ locale }) {
           <a href={`/${locale}/#dest`}>{t.destinations}</a>
           <a href={`/${locale}/#food`}>{t.food}</a>
           <a href={`/${locale}/#reviews`}>{t.reviews}</a>
-          <a href={`/${locale}/#kculture`}>{t.kculture}</a>
+          <a href={`/${locale}/kpop/`}>{t.kculture}</a>
           <a href={`/${locale}/#map`}>{t.map}</a>
           <a href={`/${locale}/#help`}>{t.help}</a>
         </nav>

@@ -1,0 +1,81 @@
+{
+  "_README": "K-pop-for-visitors guide (English base). EVERGREEN + fact-safe: concert venues, ticket platforms, weekly music shows, agency neighborhoods and fan landmarks. NO concert dates or tour schedules (those are volatile) — the `live` block links out to kpophub.kr + official ticketers instead. `spot` = frozen Google Maps query (keep English). `url` = frozen. Translated per locale in kpop.<locale>.json.",
+  "ui": {
+    "metaTitle": "韩国K-pop攻略：演唱会、场馆、门票与追星指南（2026）",
+    "metaDesc": "写给K-pop粉丝的韩国攻略——演唱会场馆、如何购票、现场观看每周音乐节目、经纪公司所在街区（HYBE、SM、JYP、YG）以及粉丝地标。最新演唱会日程可查看kpophub.kr。",
+    "h1": "韩国K-pop",
+    "tagline": "写给来韩粉丝的指南——场馆、门票、现场音乐节目、经纪公司据点，以及感受这股热潮的地方。",
+    "mapLabel": "地图"
+  },
+  "live": {
+    "title": "正在举办的演唱会与活动",
+    "body": "演唱会阵容时时都在变，所以我们不在这里锁定日期——那样很快就会过时。想了解最新的K-pop演唱会、巡演和活动，请查看实时列表：",
+    "links": [
+      { "name": "kpophub.kr——K-pop演唱会实时资讯", "url": "https://kpophub.kr" }
+    ],
+    "note": "下方的官方购票平台也会显示当前正在开售的演出。"
+  },
+  "venues": {
+    "title": "演唱会都在哪里举办",
+    "intro": "大多数大型K-pop演唱会、巡演和颁奖典礼都集中在首尔和仁川周边的几座大型场馆。",
+    "items": [
+      { "name": "Inspire Arena", "area": "仁川永宗岛", "d": "韩国最大的室内综合体育馆，隶属于紧邻仁川机场的Inspire度假村——大型演唱会和颁奖典礼的重要举办地。", "spot": "Inspire Arena, Incheon" },
+      { "name": "高尺天空巨蛋", "area": "首尔九老", "d": "韩国首座圆顶体育场；凭借其规模，成为最盛大的个人和团体演唱会的首选之地。", "spot": "Gocheok Sky Dome, Seoul" },
+      { "name": "KSPO巨蛋", "area": "首尔松坡奥林匹克公园", "d": "位于奥林匹克公园内的经典大型室内场馆（即奥林匹克体操竞技场），长期以来都是重大K-pop演唱会的举办地。", "spot": "KSPO Dome, Seoul" },
+      { "name": "蚕室综合运动场", "area": "首尔松坡", "d": "蚕室体育场和室内场馆承办体育场规模的巡演和音乐节。", "spot": "Jamsil Sports Complex, Seoul" },
+      { "name": "奥林匹克大厅", "area": "首尔松坡奥林匹克公园", "d": "一座中型场馆，用于showcase、粉丝见面会和规模较小的演唱会。", "spot": "Olympic Hall, Seoul" }
+    ]
+  },
+  "tickets": {
+    "title": "如何购票",
+    "intro": "K-pop门票通过几家韩国官方平台销售。外国粉丝通常可以使用英文的“Global（全球）”版本——但热门演出往往几分钟内就售罄，所以要提前做好准备。",
+    "steps": [
+      "尽早在购票网站注册账号，如果艺人有会员优先购票，就加入其官方粉丝俱乐部。",
+      "记清楚以韩国时间（KST）计的准确开售时刻，提前几分钟登录并做好准备。",
+      "先弄清付款和身份验证规则——有些网站需要在韩国可用的银行卡或经过验证的手机号码。",
+      "如果演出售罄，只使用官方转售渠道——绝不要找街头黄牛。"
+    ],
+    "platforms": [
+      { "name": "Interpark Global", "what": "最大的K-pop演唱会购票平台，设有英文全球站点。", "url": "https://globalinterpark.com" },
+      { "name": "Yes24 Ticket", "what": "承办演唱会、粉丝见面会和音乐剧的主要购票平台。", "url": "https://ticket.yes24.com" },
+      { "name": "Melon Ticket", "what": "与Melon音乐服务绑定的购票平台。", "url": "https://ticket.melon.com" },
+      { "name": "Weverse", "what": "面向HYBE及合作艺人的粉丝平台——部分开售和粉丝俱乐部福利在这里进行。", "url": "https://weverse.io" }
+    ]
+  },
+  "musicShows": {
+    "title": "现场观看音乐节目",
+    "intro": "韩国每周的电视音乐节目会在现场观众面前录制，许多节目还允许粉丝免费入场——一个下午就能看到多组艺人的演出。",
+    "shows": [
+      { "name": "Music Bank (KBS)", "d": "播出时间最长的每周音乐节目之一。" },
+      { "name": "Show! Music Core (MBC)", "d": "MBC的招牌周末音乐节目。" },
+      { "name": "Inkigayo (SBS)", "d": "SBS广受欢迎的周末打歌榜节目。" },
+      { "name": "M Countdown (Mnet)", "d": "Mnet的每周节目，以精心制作的舞台著称。" },
+      { "name": "Show Champion (MBC M)", "d": "一档周中节目，通常更容易入场观看。" }
+    ],
+    "tips": [
+      "观众席位通常通过登台艺人的粉丝咖啡厅或粉丝俱乐部组织安排——需要提前报名申请。",
+      "有些节目当天有少量现场候补席位；请做好早起和长时间等候的准备。",
+      "规则和日程经常变动——出发前一定要查看电视台当前的最新指引。"
+    ]
+  },
+  "agencies": {
+    "title": "经纪公司都在哪里",
+    "intro": "粉丝常会去“四大”经纪公司所在的街区，看看那些大楼以及周边的咖啡厅和店铺。大楼和艺人阵容会随时间变化，所以请把这当作大致的方位指引，而不是实时名录。",
+    "items": [
+      { "name": "HYBE", "area": "首尔龙山", "d": "HYBE总部坐落于龙山中心地带——旗下厂牌拥有BTS、SEVENTEEN等艺人。" },
+      { "name": "SM Entertainment", "area": "首尔城水", "d": "SM总部位于时尚的城水咖啡厅街区——旗下有aespa、NCT等艺人。可以顺便来一场咖啡厅巡游。" },
+      { "name": "JYP Entertainment", "area": "首尔江东", "d": "JYP大楼位于首尔东部——旗下有TWICE、Stray Kids等艺人。" },
+      { "name": "YG Entertainment", "area": "首尔麻浦狎鸥亭", "d": "YG位于弘大附近的合井——旗下有BLACKPINK、TREASURE等艺人——很容易和夜生活行程搭配在一起。" }
+    ]
+  },
+  "spots": {
+    "title": "K-pop粉丝地标",
+    "intro": "有几处地方是专为粉丝沉浸感受这股热潮而打造的。",
+    "items": [
+      { "name": "K-Star Road", "area": "首尔狎鸥亭", "d": "一条街道两旁立着代表各K-pop组合的“GangnamDol”艺术玩偶，位于高档的狎鸥亭-清潭一带，靠近众多经纪公司和录音室。" },
+      { "name": "COEX与SMTOWN", "area": "首尔江南", "d": "COEX综合体内设有K-pop主题空间和著名的星空图书馆。" },
+      { "name": "弘大街头卖唱街", "area": "首尔麻浦", "d": "周末傍晚，弘益大学周边会有舞团和歌手表演K-pop翻跳翻唱。" },
+      { "name": "快闪咖啡厅与写真活动", "area": "城水、弘大及各大商场", "d": "偶像和组合会举办限时快闪咖啡厅和写真展——地点会更换，所以来访时记得查看当时正在举办的活动。" }
+    ]
+  }
+}

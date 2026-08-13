@@ -283,7 +283,10 @@ export default function Home({ params }) {
               <h2>{m.spotify.title}</h2>
               <p>{m.spotify.sub}</p>
             </div>
-            <a className="btn ghost" href="https://kpophub.kr" target="_blank" rel="noopener noreferrer">🎫 Concerts on kpophub.kr →</a>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+              <a className="btn ghost" href={`/${locale}/kpop/`}>🎤 K-pop travel guide →</a>
+              <a className="btn ghost" href="https://kpophub.kr" target="_blank" rel="noopener noreferrer">🎫 Concerts on kpophub.kr →</a>
+            </div>
           </div>
           <SpotifyKpop labels={m.spotify} />
         </div>

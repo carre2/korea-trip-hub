@@ -27,6 +27,7 @@ export default function StayGuide({ city, cityKey, ui }) {
           </div>
         ))}
       </div>
+      {city.budget && <p className="stay-budget">💸 {city.budget}</p>}
       <p className="bookcta-disc">ⓘ {DISCLOSURE}</p>
     </div>
   );

@@ -1,0 +1,81 @@
+{
+  "_README": "給遊客的 K-pop 指南（英文原始版）。長青且事實安全：演唱會場館、購票平台、每週音樂節目、經紀公司所在地區與粉絲地標。不列演唱會日期或巡演行程（那些變動頻繁）——改由 `live` 區塊連結至 kpophub.kr 與官方售票商。`spot` = 固定的 Google Maps 查詢字串（保留英文）。`url` = 固定。各語系翻譯於 kpop.<locale>.json。",
+  "ui": {
+    "metaTitle": "韓國 K-pop：演唱會、場館、購票與粉絲指南（2026）",
+    "metaDesc": "給 K-pop 粉絲的韓國指南——演唱會場館、如何購票、現場觀看每週音樂節目、經紀公司所在地區（HYBE、SM、JYP、YG）與粉絲地標。最新演唱會日期請見 kpophub.kr。",
+    "h1": "韓國 K-pop",
+    "tagline": "給來訪粉絲的指南——場館、購票、現場音樂節目、經紀公司景點，以及感受這股熱潮的地方。",
+    "mapLabel": "地圖"
+  },
+  "live": {
+    "title": "正在舉行的演唱會與活動",
+    "body": "演唱會陣容隨時在變，所以我們不在這裡固定日期——那樣很快就會過時。想查看最新的 K-pop 演唱會、巡演與活動，請參考即時清單：",
+    "links": [
+      { "name": "kpophub.kr——即時 K-pop 演唱會清單", "url": "https://kpophub.kr" }
+    ],
+    "note": "下方的官方售票平台也會顯示目前正在開賣的場次。"
+  },
+  "venues": {
+    "title": "演唱會在哪裡舉辦",
+    "intro": "大多數大型 K-pop 演唱會、巡演與頒獎典禮，都在首爾與仁川一帶的幾個大型場館舉行。",
+    "items": [
+      { "name": "Inspire Arena", "area": "仁川永宗島", "d": "韓國最大的室內體育館，是緊鄰仁川機場的 Inspire 度假村的一部分——大型演唱會與頒獎典禮的重要據點。", "spot": "Inspire Arena, Incheon" },
+      { "name": "高尺天空巨蛋", "area": "首爾九老", "d": "韓國第一座巨蛋球場；其規模使它成為最大型個人與團體演唱會的首選。", "spot": "Gocheok Sky Dome, Seoul" },
+      { "name": "KSPO巨蛋", "area": "首爾松坡奧林匹克公園", "d": "位於奧林匹克公園內的經典大型室內體育館（原奧林匹克體操競技場），長年來都是大型 K-pop 演唱會的舉辦地。", "spot": "KSPO Dome, Seoul" },
+      { "name": "蠶室綜合運動場", "area": "首爾松坡", "d": "蠶室主體育場與室內體育館可主辦體育場等級的巡演與音樂節。", "spot": "Jamsil Sports Complex, Seoul" },
+      { "name": "奧林匹克廳", "area": "首爾松坡奧林匹克公園", "d": "中型表演廳，用於 showcase、粉絲見面會與較小型的演唱會。", "spot": "Olympic Hall, Seoul" }
+    ]
+  },
+  "tickets": {
+    "title": "如何購票",
+    "intro": "K-pop 門票透過幾個韓國官方平台販售。外國粉絲通常可以使用英文版的「Global」介面——但熱門場次往往幾分鐘內就售罄，所以要提前準備。",
+    "steps": [
+      "提早在售票網站註冊帳號；如果有會員預售，就加入該藝人的官方後援會。",
+      "記下以韓國時間（KST）為準的確切開賣時間，並在開賣前幾分鐘登入待命。",
+      "先確認付款與身分驗證規則——有些網站需要能在韓國使用的信用卡，或經過驗證的電話號碼。",
+      "如果場次售罄，只使用官方轉售管道——絕不要找街頭黃牛。"
+    ],
+    "platforms": [
+      { "name": "Interpark Global", "what": "最大的 K-pop 演唱會售票商，設有英文的全球網站。", "url": "https://globalinterpark.com" },
+      { "name": "Yes24 Ticket", "what": "販售演唱會、粉絲見面會與音樂劇門票的主要售票商。", "url": "https://ticket.yes24.com" },
+      { "name": "Melon Ticket", "what": "與 Melon 音樂服務綁定的售票平台。", "url": "https://ticket.melon.com" },
+      { "name": "Weverse", "what": "HYBE 及合作藝人的粉絲平台——部分開賣與後援會福利在此進行。", "url": "https://weverse.io" }
+    ]
+  },
+  "musicShows": {
+    "title": "現場觀看音樂節目",
+    "intro": "韓國每週的電視音樂節目都在現場觀眾面前錄製，許多節目還讓粉絲免費入場——一個下午就能看到多組藝人表演的機會。",
+    "shows": [
+      { "name": "Music Bank (KBS)", "d": "歷史最悠久的每週音樂節目之一。" },
+      { "name": "Show! Music Core (MBC)", "d": "MBC 的招牌週末音樂節目。" },
+      { "name": "Inkigayo (SBS)", "d": "SBS 廣受歡迎的週末排行榜節目。" },
+      { "name": "M Countdown (Mnet)", "d": "Mnet 的每週節目，以精心打造的舞台著稱。" },
+      { "name": "Show Champion (MBC M)", "d": "平日播出的節目，通常較容易入場。" }
+    ],
+    "tips": [
+      "觀眾席通常透過表演藝人的粉絲咖啡（fan cafe）或後援會安排——需要事先申請。",
+      "有些節目當天會開放少量現場候補名額；請預期要早起並長時間等候。",
+      "規則與時程經常變動——出發前請務必查看電視台的最新公告。"
+    ]
+  },
+  "agencies": {
+    "title": "經紀公司在哪裡",
+    "intro": "粉絲常造訪「四大」經紀公司所在的地區，看看那些大樓以及周邊的咖啡廳與商店。大樓與旗下藝人陣容會隨時間改變，所以請把這當作方向指引，而非即時名錄。",
+    "items": [
+      { "name": "HYBE", "area": "首爾龍山", "d": "HYBE 的總部位於龍山市中心——旗下廠牌打造了 BTS、SEVENTEEN 等團體。" },
+      { "name": "SM Entertainment", "area": "首爾城水", "d": "SM 的總部位於時髦的城水咖啡廳區——aespa、NCT 等團體的所屬公司。可以順道來一趟咖啡廳巡禮。" },
+      { "name": "JYP Entertainment", "area": "首爾江東", "d": "JYP 的大樓位於首爾東部——TWICE、Stray Kids 等團體的所屬公司。" },
+      { "name": "YG Entertainment", "area": "首爾麻浦合井", "d": "YG 位於弘大附近的合井——BLACKPINK、TREASURE 等團體的所屬公司——很適合順便安排夜晚的行程。" }
+    ]
+  },
+  "spots": {
+    "title": "K-pop 粉絲地標",
+    "intro": "有幾個地方，就是為了讓粉絲盡情感受這股氛圍而生的。",
+    "items": [
+      { "name": "K-Star Road", "area": "首爾狎鷗亭", "d": "一條街道兩旁立著代表各 K-pop 團體的『GangnamDol』公仔藝術裝置，位於高級的狎鷗亭—清潭一帶，鄰近許多經紀公司與工作室。" },
+      { "name": "COEX 與 SMTOWN", "area": "首爾江南", "d": "COEX 綜合設施內設有 K-pop 主題空間，以及著名的 Starfield 圖書館（星空圖書館）。" },
+      { "name": "弘大街頭表演街", "area": "首爾麻浦", "d": "週末夜晚，弘益大學周邊會有舞團與歌手表演 K-pop 翻跳與翻唱。" },
+      { "name": "快閃咖啡廳與寫真活動", "area": "城水、弘大與各大商場", "d": "偶像與團體會舉辦限時的快閃咖啡廳與寫真展——地點會變動，所以造訪時記得查一下當時有什麼活動。" }
+    ]
+  }
+}

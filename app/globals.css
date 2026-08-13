@@ -258,6 +258,18 @@
   .ptile-img small{color:rgba(255,255,255,.92);text-shadow:0 1px 3px rgba(0,0,0,.55)}
   .ptile-img .pic{box-shadow:0 3px 10px rgba(0,0,0,.45)}
 
+  /* ---------- K-pop guide ---------- */
+  .kpop-live{background:linear-gradient(135deg,#2a0a18,#3a1226);color:#fff;border:1px solid rgba(255,62,108,.35);border-radius:14px;padding:16px 18px;margin-bottom:16px}
+  .kpop-live b{font-size:16px}
+  .kpop-live p{color:#f0d5df;font-size:13.5px;line-height:1.5;margin:6px 0 0}
+  .kpop-live-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .kpop-live-links a{display:inline-block;background:#FF3E6C;color:#fff;font-weight:700;font-size:13.5px;padding:8px 14px;border-radius:999px;text-decoration:none;transition:background .15s}
+  .kpop-live-links a:hover{background:#ff5c83}
+  .kpop-live-note{font-size:12px;color:#d8b3c0 !important;margin-top:8px !important}
+  .kpop-steps{margin:0 0 14px;padding-left:20px}
+  .kpop-steps li{margin:6px 0;font-size:14px;line-height:1.5;color:var(--text)}
+  .stay-budget{background:var(--surface-2);border:1px solid var(--border);border-left:3px solid #0FA08C;border-radius:10px;padding:11px 14px;font-size:13.5px;line-height:1.5;margin:14px 0 4px;color:var(--text)}
+
   /* ---------- ITINERARY PREVIEW ---------- */
   .itin{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);box-shadow:var(--shadow);overflow:hidden}
   .itin-head{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:18px 22px;border-bottom:1px solid var(--border);flex-wrap:wrap;background:var(--surface-2)}

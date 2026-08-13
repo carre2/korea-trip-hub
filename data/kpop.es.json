@@ -1,0 +1,81 @@
+{
+  "_README": "K-pop-for-visitors guide (English base). EVERGREEN + fact-safe: concert venues, ticket platforms, weekly music shows, agency neighborhoods and fan landmarks. NO concert dates or tour schedules (those are volatile) — the `live` block links out to kpophub.kr + official ticketers instead. `spot` = frozen Google Maps query (keep English). `url` = frozen. Translated per locale in kpop.<locale>.json.",
+  "ui": {
+    "metaTitle": "K-pop en Corea: conciertos, recintos, entradas y guía para fans (2026)",
+    "metaDesc": "Una guía de Corea para fans del K-pop: recintos de conciertos, cómo comprar entradas, ver programas musicales semanales en directo, los barrios de las agencias (HYBE, SM, JYP, YG) y lugares emblemáticos para fans. Fechas de conciertos actuales en kpophub.kr.",
+    "h1": "K-pop en Corea",
+    "tagline": "Guía para el fan de visita: recintos, entradas, programas musicales en directo, lugares de las agencias y dónde sentir la escena.",
+    "mapLabel": "mapa"
+  },
+  "live": {
+    "title": "Conciertos y eventos que están pasando ahora",
+    "body": "Los carteles de conciertos cambian constantemente, así que aquí no fijamos fechas: quedarían desactualizadas enseguida. Para conciertos, giras y eventos de K-pop actuales, consulta la cartelera en directo:",
+    "links": [
+      { "name": "kpophub.kr — cartelera de conciertos de K-pop en directo", "url": "https://kpophub.kr" }
+    ],
+    "note": "Las plataformas oficiales de entradas que aparecen abajo también muestran lo que está a la venta ahora mismo."
+  },
+  "venues": {
+    "title": "Dónde se celebran los conciertos",
+    "intro": "La mayoría de los grandes conciertos, giras y galas de premios de K-pop recalan en un puñado de grandes recintos en torno a Seúl e Incheon.",
+    "items": [
+      { "name": "Inspire Arena", "area": "Yeongjong Island, Incheon", "d": "El mayor pabellón cubierto de Corea, parte del complejo Inspire justo al lado del aeropuerto de Incheon; una parada clave para grandes conciertos y galas de premios.", "spot": "Inspire Arena, Incheon" },
+      { "name": "Gocheok Sky Dome", "area": "Guro, Seúl", "d": "El primer estadio cubierto de Corea; su tamaño lo convierte en un imprescindible para los mayores conciertos de solistas y grupos.", "spot": "Gocheok Sky Dome, Seoul" },
+      { "name": "KSPO Dome", "area": "Olympic Park, Songpa, Seúl", "d": "Un clásico pabellón cubierto de gran tamaño en el Olympic Park (el Olympic Gymnastics Arena), durante mucho tiempo hogar de grandes conciertos de K-pop.", "spot": "KSPO Dome, Seoul" },
+      { "name": "Jamsil Sports Complex", "area": "Songpa, Seúl", "d": "El estadio y el pabellón cubierto de Jamsil acogen giras a escala de estadio y festivales de música.", "spot": "Jamsil Sports Complex, Seoul" },
+      { "name": "Olympic Hall", "area": "Olympic Park, Songpa, Seúl", "d": "Una sala de tamaño medio usada para showcases, fan meetings y conciertos más pequeños.", "spot": "Olympic Hall, Seoul" }
+    ]
+  },
+  "tickets": {
+    "title": "Cómo conseguir entradas",
+    "intro": "Las entradas de K-pop se venden a través de unas pocas plataformas coreanas oficiales. Los fans extranjeros suelen poder usar las versiones 'Global' en inglés, pero los espectáculos populares se agotan en minutos, así que prepárate con antelación.",
+    "steps": [
+      "Crea tu cuenta pronto en la web de venta de entradas y únete al fan club del artista si hay una preventa para socios.",
+      "Apunta la hora exacta de salida a la venta en hora de Corea (KST) y ten la sesión iniciada y todo listo unos minutos antes.",
+      "Consulta primero las reglas de pago y de identificación: algunas webs necesitan una tarjeta que funcione en Corea o un número de teléfono verificado.",
+      "Si un espectáculo está agotado, usa solo la reventa oficial; nunca a revendedores callejeros."
+    ],
+    "platforms": [
+      { "name": "Interpark Global", "what": "La mayor plataforma de entradas de conciertos de K-pop, con una web global en inglés.", "url": "https://globalinterpark.com" },
+      { "name": "Yes24 Ticket", "what": "Una importante plataforma de entradas para conciertos, fan meetings y musicales.", "url": "https://ticket.yes24.com" },
+      { "name": "Melon Ticket", "what": "Venta de entradas ligada al servicio de música Melon.", "url": "https://ticket.melon.com" },
+      { "name": "Weverse", "what": "Plataforma para fans de HYBE y artistas asociados; aquí se realizan algunas ventas y ventajas de fan club.", "url": "https://weverse.io" }
+    ]
+  },
+  "musicShows": {
+    "title": "Ver un programa musical en directo",
+    "intro": "Los programas musicales semanales de la tele coreana se graban ante público en directo, y muchos dejan entrar a los fans gratis: una oportunidad de ver a varios artistas actuar en una sola tarde.",
+    "shows": [
+      { "name": "Music Bank (KBS)", "d": "Uno de los programas musicales semanales más longevos." },
+      { "name": "Show! Music Core (MBC)", "d": "El programa musical estrella del fin de semana de MBC." },
+      { "name": "Inkigayo (SBS)", "d": "El popular programa de listas del fin de semana de SBS." },
+      { "name": "M Countdown (Mnet)", "d": "El programa semanal de Mnet, conocido por sus escenarios elaborados." },
+      { "name": "Show Champion (MBC M)", "d": "Un programa de entre semana al que suele ser más fácil entrar." }
+    ],
+    "tips": [
+      "Las plazas de público se organizan normalmente a través del fan cafe o el fan club del artista que actúa; hay que solicitarlas con antelación.",
+      "Algunos programas tienen plazas limitadas de standby el mismo día; cuenta con empezar temprano y una larga espera.",
+      "Las normas y los horarios cambian con frecuencia: consulta siempre las indicaciones actuales de la cadena antes de ir."
+    ]
+  },
+  "agencies": {
+    "title": "Dónde están las agencias",
+    "intro": "Los fans suelen visitar los barrios de las agencias del 'Big 4' por los edificios y por las cafeterías y tiendas de alrededor. Los edificios y los rósters cambian con el tiempo, así que tómatelo como una orientación, no como un directorio en tiempo real.",
+    "items": [
+      { "name": "HYBE", "area": "Yongsan, Seúl", "d": "La sede de HYBE se encuentra en el centro de Yongsan, hogar de sellos que están detrás de grupos como BTS y SEVENTEEN." },
+      { "name": "SM Entertainment", "area": "Seongsu, Seúl", "d": "La sede de SM está en el moderno barrio de cafeterías de Seongsu, hogar de grupos como aespa y NCT. Combínala con una ruta de cafeterías." },
+      { "name": "JYP Entertainment", "area": "Gangdong, Seúl", "d": "El edificio de JYP está en el este de Seúl, hogar de grupos como TWICE y Stray Kids." },
+      { "name": "YG Entertainment", "area": "Hapjeong, Mapo, Seúl", "d": "YG se ubica en Hapjeong, cerca de Hongdae, hogar de grupos como BLACKPINK y TREASURE, fácil de combinar con una salida nocturna." }
+    ]
+  },
+  "spots": {
+    "title": "Lugares emblemáticos para fans del K-pop",
+    "intro": "Unos cuantos lugares están hechos para que los fans se empapen de la escena.",
+    "items": [
+      { "name": "K-Star Road", "area": "Apgujeong, Seúl", "d": "Una calle jalonada de figuras de arte 'GangnamDol' que representan a grupos de K-pop, en el elegante Apgujeong-Cheongdam, cerca de muchas agencias y estudios." },
+      { "name": "COEX & SMTOWN", "area": "Gangnam, Seúl", "d": "El complejo COEX alberga espacios temáticos de K-pop y la famosa Starfield Library." },
+      { "name": "Hongdae busking street", "area": "Mapo, Seúl", "d": "Las tardes de fin de semana atraen a grupos de baile y cantantes que interpretan versiones de K-pop por los alrededores de la Universidad Hongik." },
+      { "name": "Pop-up cafes & photo events", "area": "Seongsu, Hongdae y centros comerciales", "d": "Ídolos y grupos montan cafeterías pop-up y exposiciones de fotos por tiempo limitado; se van moviendo, así que consulta qué hay cuando vayas." }
+    ]
+  }
+}
