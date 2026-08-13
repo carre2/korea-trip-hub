@@ -113,3 +113,12 @@ All photographic images are sourced from free/openly-licensed collections and at
 | wx/autumn.jpg | Ludovic Peron · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Landscape_in_Seoraksan_National_Park_1.jpg) |
 | wx/winter.jpg | Korea.net / KOCIS · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gyeongbokgung_Palace_covered_with_snow_%284270309099%29.jpg) |
 | plan/money.jpg | Smiley.toerist · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Namdaemun_market_in_Seoul_I.jpg) |
+
+### K-pop guide (Where the concerts happen)
+
+| File | Credit | Source |
+|---|---|---|
+| kpop/gocheok | Photo: Seoul Metropolitan Facilities Management Corporation / Wikimedia Commons · KOGL Type 1 | [Commons](https://commons.wikimedia.org/wiki/File:Gocheok_Sky_Dome_interior.jpg) |
+| kpop/jamsil | Photo: Dorulog / Wikimedia Commons · CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Jamsil_Arena_for_2019_LCK_Spring_Finals_(1).jpg) |
+| kpop/olympic-hall | Photo: Tildin Han / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Seoul_Olympic_Hall.jpg) |
+| kpop spots: COEX, Hongdae | reuse of dest images (see Destinations) | — |

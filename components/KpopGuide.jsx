@@ -1,13 +1,41 @@
-// K-pop-for-visitors guide (server component). Evergreen sections: concert
-// venues (with map links), how to buy tickets, weekly music shows, agency
-// neighborhoods and fan landmarks. Live concert dates link out (no stale data).
+// K-pop-for-visitors guide (server component). Visual-first: photo/gradient
+// thumbnails, map links per place, and brand-coloured ticket badges. Live
+// concert dates link out (no stale data). Images/map queries are language-
+// neutral and live in data/kpop-images.json, indexed to match each section.
+import kimg from "../data/kpop-images.json";
+
 function mapUrl(q) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+}
+
+function Thumb({ v }) {
+  if (v?.img) return <span className="kpop-thumb" style={{ backgroundImage: `url(${v.img})` }} aria-hidden="true" />;
+  return (
+    <span className="kpop-thumb kpop-thumb-grad" style={{ background: v?.grad }} aria-hidden="true">{v?.icon}</span>
+  );
+}
+
+function PlaceCard({ item, v, mapLabel }) {
+  const spot = item.spot || v?.spot;
+  return (
+    <div className="kpop-card">
+      <Thumb v={v} />
+      <div className="kpop-card-body">
+        <div className="kpop-card-h"><b>{item.name}</b>{item.area && <span className="kpop-area">{item.area}</span>}</div>
+        <p>{item.d}</p>
+        {spot && (
+          <a className="kpop-map" href={mapUrl(spot)} target="_blank" rel="noopener noreferrer">🗺️ {mapLabel}</a>
+        )}
+      </div>
+    </div>
+  );
 }
 
 export default function KpopGuide({ g, ui }) {
   if (!g) return null;
   const L = ui || {};
+  const mapLabel = L.mapLabel || "map";
+
   return (
     <div className="gv">
       {g.live && (
@@ -27,18 +55,8 @@ export default function KpopGuide({ g, ui }) {
         <section className="gv-sec">
           <h2>🎤 {g.venues.title}</h2>
           <p className="gv-lead">{g.venues.intro}</p>
-          <div className="stay-grid">
-            {g.venues.items.map((v) => (
-              <div key={v.name} className="stay-area stay-tone-blue">
-                <div className="stay-area-h"><h3>{v.name}</h3><span className="stay-best">{v.area}</span></div>
-                <p className="stay-vibe">{v.d}</p>
-                {v.spot && (
-                  <p className="stay-near">
-                    📍 <a href={mapUrl(v.spot)} target="_blank" rel="noopener noreferrer">🗺️ {L.mapLabel || "map"}</a>
-                  </p>
-                )}
-              </div>
-            ))}
+          <div className="kpop-cards">
+            {g.venues.items.map((it, i) => <PlaceCard key={it.name} item={it} v={kimg.venues[i]} mapLabel={mapLabel} />)}
           </div>
         </section>
       )}
@@ -48,9 +66,13 @@ export default function KpopGuide({ g, ui }) {
           <h2>🎟️ {g.tickets.title}</h2>
           <p className="gv-lead">{g.tickets.intro}</p>
           <ol className="kpop-steps">{g.tickets.steps.map((s, i) => <li key={i}>{s}</li>)}</ol>
-          <div className="official-links">
-            {g.tickets.platforms.map((p) => (
-              <a key={p.url} href={p.url} target="_blank" rel="noopener noreferrer">🔗 {p.name} — {p.what}</a>
+          <div className="kpop-tickets">
+            {g.tickets.platforms.map((p, i) => (
+              <a key={p.url} className="kpop-ticket" href={p.url} target="_blank" rel="noopener noreferrer">
+                <span className="kpop-badge" style={{ background: kimg.platforms[i]?.color }}>{kimg.platforms[i]?.badge}</span>
+                <span className="kpop-ticket-txt"><b>{p.name}</b> — {p.what}</span>
+                <span className="kpop-ticket-arrow">↗</span>
+              </a>
             ))}
           </div>
         </section>
@@ -73,13 +95,8 @@ export default function KpopGuide({ g, ui }) {
         <section className="gv-sec">
           <h2>🏢 {g.agencies.title}</h2>
           <p className="gv-lead">{g.agencies.intro}</p>
-          <div className="stay-grid">
-            {g.agencies.items.map((a) => (
-              <div key={a.name} className="stay-area stay-tone-amber">
-                <div className="stay-area-h"><h3>{a.name}</h3><span className="stay-best">{a.area}</span></div>
-                <p className="stay-vibe">{a.d}</p>
-              </div>
-            ))}
+          <div className="kpop-cards">
+            {g.agencies.items.map((it, i) => <PlaceCard key={it.name} item={it} v={kimg.agencies[i]} mapLabel={mapLabel} />)}
           </div>
         </section>
       )}
@@ -88,13 +105,8 @@ export default function KpopGuide({ g, ui }) {
         <section className="gv-sec">
           <h2>⭐ {g.spots.title}</h2>
           <p className="gv-lead">{g.spots.intro}</p>
-          <div className="stay-grid">
-            {g.spots.items.map((s) => (
-              <div key={s.name} className="stay-area stay-tone-green">
-                <div className="stay-area-h"><h3>{s.name}</h3><span className="stay-best">{s.area}</span></div>
-                <p className="stay-vibe">{s.d}</p>
-              </div>
-            ))}
+          <div className="kpop-cards">
+            {g.spots.items.map((it, i) => <PlaceCard key={it.name} item={it} v={kimg.spots[i]} mapLabel={mapLabel} />)}
           </div>
         </section>
       )}

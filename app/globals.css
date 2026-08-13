@@ -268,6 +268,25 @@
   .kpop-live-note{font-size:12px;color:#d8b3c0 !important;margin-top:8px !important}
   .kpop-steps{margin:0 0 14px;padding-left:20px}
   .kpop-steps li{margin:6px 0;font-size:14px;line-height:1.5;color:var(--text)}
+  .kpop-cards{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media (max-width:720px){.kpop-cards{grid-template-columns:1fr}}
+  .kpop-card{display:flex;gap:12px;background:var(--surface-2);border:1px solid var(--border);border-radius:14px;padding:12px;transition:transform .15s,box-shadow .15s}
+  .kpop-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(20,50,90,.12)}
+  .kpop-thumb{flex:0 0 76px;width:76px;height:76px;border-radius:10px;background-size:cover;background-position:center;display:grid;place-items:center;font-size:30px;color:#fff}
+  .kpop-thumb-grad{box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}
+  .kpop-card-body{min-width:0;flex:1}
+  .kpop-card-h{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:4px}
+  .kpop-card-h b{font-size:15px;color:var(--text);letter-spacing:-.01em}
+  .kpop-area{font-size:11px;font-weight:600;color:var(--muted);background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:2px 8px}
+  .kpop-card-body p{font-size:13px;color:var(--muted);line-height:1.5;margin:0}
+  .kpop-map{display:inline-block;margin-top:8px;font-size:12.5px;font-weight:700;color:var(--primary);text-decoration:none}
+  .kpop-map:hover{text-decoration:underline}
+  .kpop-tickets{display:flex;flex-direction:column;gap:8px}
+  .kpop-ticket{display:flex;align-items:center;gap:12px;background:var(--surface-2);border:1px solid var(--border);border-radius:12px;padding:10px 14px;text-decoration:none;transition:background .15s}
+  .kpop-ticket:hover{background:var(--surface)}
+  .kpop-badge{flex:0 0 auto;min-width:42px;height:38px;padding:0 8px;border-radius:9px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:14px;letter-spacing:-.02em}
+  .kpop-ticket-txt{flex:1;font-size:13.5px;color:var(--text)}
+  .kpop-ticket-arrow{color:var(--faint);font-weight:700}
   .stay-budget{background:var(--surface-2);border:1px solid var(--border);border-left:3px solid #0FA08C;border-radius:10px;padding:11px 14px;font-size:13.5px;line-height:1.5;margin:14px 0 4px;color:var(--text)}
 
   /* ---------- ITINERARY PREVIEW ---------- */
