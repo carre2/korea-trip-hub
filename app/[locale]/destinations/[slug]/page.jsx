@@ -6,6 +6,7 @@ import BookCTA from "../../../../components/BookCTA";
 import { klookSearch } from "../../../../lib/booking";
 import dest from "../../../../data/destinations.json";
 import stayData from "../../../../data/stay.json";
+import { stayFor } from "../../../../lib/content";
 import destImages from "../../../../data/dest-images.json";
 import destJa from "../../../../data/destinations.ja.json";
 import destZh from "../../../../data/destinations.zh.json";
@@ -39,11 +40,18 @@ export function generateMetadata({ params }) {
   // Same English-base + locale-override merge the page body uses, so the tab title and the
   // search snippet are in the reader's language, not English.
   const d = { ...dest.items[params.slug], ...(destI18n[locale]?.items?.[params.slug] || {}) };
+  // SEO: add the city keyword to the title (people search "<place> <city>") and use the
+  // richer first intro paragraph as the description (higher relevance + click-through).
+  // Prefer the localized city name (from the stay guides) so CJK titles read natively.
+  const cityName =
+    stayFor(locale).cities[d.city]?.name ||
+    (dest.cities.find((c) => c.key === d.city) || {}).name;
+  const name = d.name || "Destination";
   return pageMeta({
     locale,
     path: `destinations/${params.slug}`,
-    title: `${d.name || "Destination"} — ${SITE_NAME}`,
-    description: d.blurb,
+    title: cityName ? `${name}, ${cityName} — ${SITE_NAME}` : `${name} — ${SITE_NAME}`,
+    description: (Array.isArray(d.intro) && d.intro[0]) || d.blurb,
     type: "article",
   });
 }
