@@ -122,3 +122,4 @@ All photographic images are sourced from free/openly-licensed collections and at
 | kpop/jamsil | Photo: Dorulog / Wikimedia Commons · CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Jamsil_Arena_for_2019_LCK_Spring_Finals_(1).jpg) |
 | kpop/olympic-hall | Photo: Tildin Han / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Seoul_Olympic_Hall.jpg) |
 | kpop spots: COEX, Hongdae | reuse of dest images (see Destinations) | — |
+| hero-bg/kpop (home K-pop tile) | Photo: The White House / Wikimedia Commons · Public domain (U.S. federal government work) — BTS at the White House, May 31, 2022 | [Commons](https://commons.wikimedia.org/wiki/File:BTS_at_the_White_House_on_May_31,_2022.jpg) |

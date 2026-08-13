@@ -64,6 +64,7 @@ const PLAN_TILES = [
   { key: "money", icon: "💳", bg: "#F2D794", bd: "#E5C066", chip: "#B96A0B" },
   { key: "weather", icon: "🌤️", bg: "#F8BAC9", bd: "#F291A8", chip: "#DC3560" },
   { key: "help", icon: "🆘", bg: "#F6B8C4", bd: "#EE93A4", chip: "#C62B49" },
+  { key: "kpop", icon: "🎤", bg: "#F4B3D6", bd: "#EC8BC0", chip: "#D6247E", to: "kpop" },
 ];
 
 /** Small verified-fact card for the Help section (only renders VERIFIED facts). */
@@ -126,7 +127,7 @@ export default function Home({ params }) {
               <a
                 key={tile.key}
                 className="ptile ptile-img"
-                href={`/${locale}/plan/${tile.key}/`}
+                href={`/${locale}/${tile.to ? tile.to : `plan/${tile.key}`}/`}
                 style={{
                   backgroundImage: `linear-gradient(158deg, rgba(9,13,26,.42) 0%, rgba(9,13,26,.7) 100%), url(/img/hero-bg/${tile.key}.jpg)`,
                   borderColor: tile.bd,
