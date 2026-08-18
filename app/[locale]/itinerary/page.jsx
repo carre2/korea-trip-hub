@@ -33,7 +33,7 @@ export default function ItineraryHub({ params }) {
           { name: ui.backToHub, path: "itinerary" },
         ])}
       />
-      <a className="crumb" href={`/${locale}/#planner`}>← {m.nav?.planner || "AI Planner"}</a>
+      <a className="crumb" href={`/${locale}/#planner`}>← {m.nav?.planner || "Trip Planner"}</a>
       <div className="art-head">
         <span className="aic" style={{ background: "#A2E5D6" }}>🗺️</span>
         <h1>{ui.hubH1}</h1>

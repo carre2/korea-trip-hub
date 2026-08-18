@@ -14,7 +14,13 @@ export default function Header({ locale }) {
 
   function onLang(e) {
     const code = e.target.value;
-    if (code && code !== locale) window.location.assign(`/${code}/`);
+    if (!code || code === locale) return;
+    // Preserve the current path, query and hash — only swap the locale segment —
+    // so switching language keeps you on the same page instead of the locale home.
+    const parts = window.location.pathname.split("/");
+    if (parts.length > 1 && locales.includes(parts[1])) parts[1] = code;
+    else parts.splice(1, 0, code);
+    window.location.assign(parts.join("/") + window.location.search + window.location.hash);
   }
 
   function toggleTheme() {

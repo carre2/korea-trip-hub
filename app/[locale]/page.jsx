@@ -159,10 +159,10 @@ export default function Home({ params }) {
           <TripPlanner hero={m.hero} t={m.planner} />
 
           <div className="trustbar reveal">
-            <span>🚄 <b>Transport included</b> — KTX, bus &amp; flight options</span>
-            <span>🧭 <b>Route-optimized</b> by real distance</span>
-            <span>📤 <b>Share</b> to KakaoTalk, WhatsApp, LINE</span>
-            <span>🌐 <b>20 languages</b></span>
+            <span>🚄 <b>Transport options</b> — KTX, bus &amp; flight</span>
+            <span>🗺️ <b>Day-by-day draft</b> in seconds</span>
+            <span>📤 <b>Share</b> to WhatsApp, LINE &amp; X</span>
+            <span>🌐 <b>10 languages</b></span>
           </div>
         </div>
       </div>
@@ -373,7 +373,7 @@ export default function Home({ params }) {
           </div>
           <div>
             <h5>Plan</h5>
-            <a href="#plan">Plan Trip</a><a href="#planner">AI Planner</a><a href="#dest">Destinations</a><a href="#food">Food</a>
+            <a href="#plan">Plan Trip</a><a href="#planner">Trip Planner</a><a href="#dest">Destinations</a><a href="#food">Food</a>
           </div>
           <div>
             <h5>Discover</h5>

@@ -28,12 +28,15 @@ export default function LocaleLayout({ children, params }) {
       <body>
         <Header locale={locale} />
         {children}
+        {/* AdSense loader PAUSED (2026-08-18): no live ad slots + no consent/CMP yet, so it
+            only added privacy/perf cost with zero ad revenue. Re-enable together with the
+            consent system and real <ins> slots (see IMPROVEMENT_PLAN_KO.md WS3).
         <Script
           id="adsbygoogle-init"
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
           strategy="afterInteractive"
           crossOrigin="anonymous"
-        />
+        /> */}
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
         <Script id="ga4-init" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];

@@ -75,6 +75,19 @@ export default function TripPlanner({ hero = {}, t = {} }) {
     setPlan(generate(dest, days, styles));
   }
 
+  // Real share actions (were dead buttons before). Built at click time so window/navigator
+  // are only touched in the browser, never during static export.
+  const tripUrl = () => (typeof window !== "undefined" ? window.location.href : "https://ktriphub.com/");
+  const tripText = () => (plan ? `${days}-day ${plan.city.name} trip · Korea Trip Hub` : "Korea Trip Hub");
+  const openShare = (u) => window.open(u, "_blank", "noopener,noreferrer");
+  async function shareNative() {
+    const url = tripUrl();
+    if (typeof navigator !== "undefined" && navigator.share) {
+      try { await navigator.share({ title: "Korea Trip Hub", text: tripText(), url }); return; } catch { /* user cancelled */ }
+    }
+    try { await navigator.clipboard?.writeText(url); } catch {}
+  }
+
   const transport = plan && plan.city.transportFromSeoul;
   const transportFact = transport && transport.factId ? FACTS[transport.factId] : null;
   const factOk = transportFact && transportFact.status === "VERIFIED";
@@ -84,7 +97,7 @@ export default function TripPlanner({ hero = {}, t = {} }) {
       <div className="planner reveal">
         <div className="planner-top">
           <span className="tag">● Plan a trip</span>
-          <span style={{ color: "var(--muted)", fontSize: 13 }}>Free · No sign-up · No AI cost</span>
+          <span style={{ color: "var(--muted)", fontSize: 13 }}>Free · No sign-up · Instant</span>
         </div>
 
         <div className="route">
@@ -233,11 +246,15 @@ export default function TripPlanner({ hero = {}, t = {} }) {
 
           <div className="share">
             <span className="lbl">{t.share || "Share this trip"}</span>
-            <button className="sbtn" title="KakaoTalk" style={{ background: "#FEE500", color: "#3A1D1D" }}>K</button>
-            <button className="sbtn" title="WhatsApp" style={{ color: "#25D366" }}>✆</button>
-            <button className="sbtn" title="LINE" style={{ color: "#06C755" }}>L</button>
-            <button className="sbtn" title="X">𝕏</button>
-            <button className="sbtn" title="Copy link" onClick={() => navigator.clipboard?.writeText(window.location.href)}>🔗</button>
+            <button className="sbtn" title="Share" aria-label="Share" onClick={shareNative}>⤴</button>
+            <button className="sbtn" title="WhatsApp" aria-label="Share on WhatsApp" style={{ color: "#25D366" }}
+              onClick={() => openShare(`https://wa.me/?text=${encodeURIComponent(tripText() + " " + tripUrl())}`)}>✆</button>
+            <button className="sbtn" title="LINE" aria-label="Share on LINE" style={{ color: "#06C755" }}
+              onClick={() => openShare(`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(tripUrl())}`)}>L</button>
+            <button className="sbtn" title="X" aria-label="Share on X"
+              onClick={() => openShare(`https://twitter.com/intent/tweet?text=${encodeURIComponent(tripText())}&url=${encodeURIComponent(tripUrl())}`)}>𝕏</button>
+            <button className="sbtn" title="Copy link" aria-label="Copy link"
+              onClick={() => navigator.clipboard?.writeText(tripUrl())}>🔗</button>
             <span style={{ marginLeft: "auto", fontSize: 12, color: "var(--muted)" }}>
               ⓘ {t.transportNote || "Times and fares change — confirm with the operator."}
             </span>
