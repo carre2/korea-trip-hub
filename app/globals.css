@@ -828,3 +828,39 @@
   .vcg-hl-ic{font-size:22px;flex:none;line-height:1.2}
   .vcg-hl b{font-size:14.5px;display:block;margin-bottom:2px}
   .vcg-hl p{font-size:13px;color:var(--muted);margin:0;line-height:1.55}
+
+  /* ===== Site-wide slim footer (SiteFooter.jsx) ===== */
+  .sitefoot{border-top:1px solid var(--border);background:var(--surface-2);margin-top:40px}
+  .sitefoot-in{padding:22px 0 30px;display:flex;flex-direction:column;gap:10px;align-items:center;text-align:center}
+  .sitefoot-brand{font-weight:800;font-size:15px;color:var(--text);letter-spacing:-.01em}
+  .sitefoot-brand .mark{color:var(--primary)}
+  .sitefoot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px}
+  .sitefoot-links a{font-size:13px;color:var(--muted);text-decoration:none}
+  .sitefoot-links a:hover{color:var(--primary);text-decoration:underline}
+  .sitefoot-aff{font-size:12px;color:var(--faint);max-width:62ch;margin:2px 0 0;line-height:1.5}
+  .sitefoot-rights{font-size:12px;color:var(--faint);max-width:66ch;margin:0;line-height:1.5}
+
+  /* ===== Legal / trust pages (legal/[slug]) ===== */
+  .legal .art-head h1{font-size:26px}
+  .legal-sec{margin:18px 0 0}
+  .legal-sec h2{font-size:16px;margin:0 0 6px;color:var(--text)}
+  .legal-sec p{font-size:14.5px;line-height:1.7;color:var(--muted);margin:0 0 8px}
+  .legal-sec ul{margin:6px 0 8px;padding-left:20px}
+  .legal-sec li{font-size:14px;line-height:1.6;color:var(--muted);margin:3px 0}
+  .legal-sec a{color:var(--primary)}
+  .legal-more{display:flex;flex-wrap:wrap;gap:8px 14px;margin:26px 0 0;padding-top:16px;border-top:1px solid var(--border)}
+  .legal-more a{font-size:13px;color:var(--muted);text-decoration:none;font-weight:600}
+  .legal-more a:hover{color:var(--primary)}
+
+  /* ===== Consent banner (ConsentBanner.jsx) — Google Consent Mode v2 ===== */
+  .consent{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--surface);border-top:1px solid var(--border-strong,var(--border));box-shadow:0 -6px 24px rgba(10,20,40,.14)}
+  .consent-in{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;padding:14px 0}
+  .consent-txt{flex:1;min-width:240px;font-size:13px;line-height:1.55;color:var(--text);margin:0}
+  .consent-txt a{color:var(--primary);font-weight:600}
+  .consent-btns{display:flex;gap:10px;flex:none}
+  .consent-b{border-radius:10px;padding:9px 18px;font-size:13.5px;font-weight:700;cursor:pointer;border:1px solid var(--border)}
+  .consent-b.ghost{background:transparent;color:var(--muted)}
+  .consent-b.ghost:hover{color:var(--text);border-color:var(--text)}
+  .consent-b.ok{background:var(--primary);color:#fff;border-color:var(--primary)}
+  .consent-b.ok:hover{filter:brightness(1.05)}
+  @media (max-width:560px){.consent-btns{width:100%}.consent-b{flex:1}}

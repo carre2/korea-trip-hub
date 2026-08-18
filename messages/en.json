@@ -78,7 +78,20 @@
   },
   "footer": {
     "tagline": "The all-in-one hub for visiting Korea — plan, explore, eat and experience, in 10 languages.",
-    "disclaimer": "Travel facts are checked against official sources with a verification date. Prices, schedules and visa rules change — always confirm at the linked official source before you travel."
+    "disclaimer": "Travel facts are checked against official sources with a verification date. Prices, schedules and visa rules change — always confirm at the linked official source before you travel.",
+    "legalNav": {
+      "about": "About",
+      "editorial": "Editorial Policy",
+      "privacy": "Privacy & Cookies",
+      "terms": "Terms",
+      "affiliate": "Affiliate Disclosure",
+      "contact": "Contact"
+    },
+    "updatedLabel": "Updated",
+    "legalNavLabel": "Legal",
+    "morePolicies": "More policies",
+    "affiliateLine": "Some links are affiliate links — we may earn a commission at no extra cost to you.",
+    "rights": "© 2026 Korea Trip Hub — an independent travel guide. Always confirm current rules with official sources."
   },
   "map": {
     "search": "Search",
@@ -220,5 +233,12 @@
     "window": "Apply window",
     "yellow": "Yellow bus"
   },
-  "facts": {}
+  "facts": {},
+  "consent": {
+    "title": "We value your privacy",
+    "body": "We use cookies to measure traffic (Google Analytics) only if you accept. The site works either way.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "manage": "Privacy & Cookies"
+  }
 }
