@@ -7,6 +7,18 @@
 
 ---
 
+## 0. 진행 현황
+
+- **2026-08-18 · Phase 0 정직성 배치 완료 · 배포 (커밋 `c716647`)**
+  - ✅ "20 languages" → "10" 전면(태그라인 20개 파일 + 홈 트러스트바) · ✅ 전 활성 로케일(10개)에서 "AI" 주장 제거(플래너 명칭·hero 배지·meta 설명) · ✅ 트러스트바 "Route-optimized" → "Day-by-day draft" · ✅ 영어 hero 카피에서 "fastest/route/from your door" 제거 · ✅ "AI Planner" → "Trip Planner"(nav·footer·itinerary)
+  - ✅ 공유 버튼 실구현(Web Share API + WhatsApp/LINE/X 인텐트 + 복사; 카카오는 SDK 필요라 네이티브 공유로 대체)
+  - ✅ 언어 전환 시 현재 경로·쿼리·해시 보존
+  - ✅ AdSense 로더 일시 중단(GA 유지) · ✅ `--faint` 대비 ≥4.5:1(light `#646C7C`/dark `#868FA3`) · ✅ `facts.json _updated` → 2026-08-05
+- **이월(다음 착수):** 9개 비영어 로케일의 hero `title_1`·`lede` 문장에 남은 superlative("fastest"/"pin"/"door" 상당 표현) 정직화 — 문장 재작성이라 번역 필요 → 로케일별 번역 에이전트로 처리 예정(WS4 앞부분).
+- **🟥 당신 대기:** Cloudflare HTTPS·www→apex 301(WS2, P0 최우선) — 대시보드에서. 착수 시 단계별 클릭 가이드 제공.
+
+---
+
 ## 1. 대조 결과 — 감사 지적사항, 지금도 유효한가?
 
 오늘 작업 저장소에서 직접 확인한 결과, 핵심 지적은 **전부 현재 코드에 존재**한다.
