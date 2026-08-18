@@ -8,6 +8,7 @@ import dest from "../../../../data/destinations.json";
 import stayData from "../../../../data/stay.json";
 import { stayFor } from "../../../../lib/content";
 import destImages from "../../../../data/dest-images.json";
+import ArticleTrust from "../../../../components/ArticleTrust";
 import destJa from "../../../../data/destinations.ja.json";
 import destZh from "../../../../data/destinations.zh.json";
 import destEs from "../../../../data/destinations.es.json";
@@ -65,6 +66,14 @@ export default function DestinationDetail({ params }) {
   const ui = m.factsUI || {};
   const f = d.factId ? fact(d.factId) : null;
   const trFact = (m.facts && m.facts[d.factId]) || {};
+  // Related: up to 3 other attractions in the same city, with localized names.
+  const related = Object.keys(dest.items)
+    .filter((s) => s !== params.slug && dest.items[s].city === d.city)
+    .slice(0, 3)
+    .map((s) => ({
+      href: `/${locale}/destinations/${s}/`,
+      label: destI18n[locale]?.items?.[s]?.name || dest.items[s].name,
+    }));
 
   return (
     <article className="article">
@@ -165,6 +174,7 @@ export default function DestinationDetail({ params }) {
         </>
       )}
 
+      <ArticleTrust locale={locale} related={related} />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>
   );

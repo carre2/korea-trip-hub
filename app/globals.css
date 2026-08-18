@@ -864,3 +864,20 @@
   .consent-b.ok{background:var(--primary);color:#fff;border-color:var(--primary)}
   .consent-b.ok:hover{filter:brightness(1.05)}
   @media (max-width:560px){.consent-btns{width:100%}.consent-b{flex:1}}
+
+  /* ===== Article trust block (ArticleTrust.jsx) — "About this page" ===== */
+  .artrust{margin:28px 0 0;padding:16px 18px;border:1px solid var(--border);border-radius:14px;background:var(--surface-2)}
+  .artrust-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;font-size:13px;color:var(--muted)}
+  .artrust-by b{color:var(--text)}
+  .artrust-link{color:var(--primary);text-decoration:none;font-weight:600}
+  .artrust-link:hover{text-decoration:underline}
+  .artrust-rev{margin-left:auto;color:var(--faint);font-weight:600}
+  .artrust-note{font-size:12.5px;line-height:1.6;color:var(--muted);margin:10px 0 0}
+  .artrust-actions{margin:10px 0 0}
+  .artrust-report{font-size:12.5px;font-weight:700;color:var(--primary);text-decoration:none}
+  .artrust-report:hover{text-decoration:underline}
+  .artrust-related{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin:12px 0 0;padding-top:12px;border-top:1px solid var(--border)}
+  .artrust-rel-lbl{font-size:12px;font-weight:700;color:var(--faint);text-transform:uppercase;letter-spacing:.04em}
+  .artrust-related a{font-size:13px;color:var(--muted);text-decoration:none;font-weight:600}
+  .artrust-related a:hover{color:var(--primary)}
+  @media (max-width:560px){.artrust-rev{margin-left:0;width:100%}}

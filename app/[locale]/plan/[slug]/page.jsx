@@ -11,6 +11,7 @@ import SimGuide from "../../../../components/SimGuide";
 import MoneyGuide from "../../../../components/MoneyGuide";
 import WeatherGuide from "../../../../components/WeatherGuide";
 import HelpGuide from "../../../../components/HelpGuide";
+import ArticleTrust from "../../../../components/ArticleTrust";
 import guideVisa from "../../../../data/guides/visa.json";
 import guideVisaI18n from "../../../../data/guides/visa.i18n.json";
 import guideTransit from "../../../../data/guides/transit.json";
@@ -319,6 +320,7 @@ export default function PlanArticle({ params }) {
         </a>
       )}
 
+      <ArticleTrust locale={locale} />
       <p className="art-disclaimer">
         {m.footer.disclaimer}
       </p>

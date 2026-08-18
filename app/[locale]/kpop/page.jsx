@@ -2,6 +2,7 @@ import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
 import { pageMeta, breadcrumbLd, SITE_NAME, REVIEWED } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
 import KpopGuide from "../../../components/KpopGuide";
+import ArticleTrust from "../../../components/ArticleTrust";
 import kpopEn from "../../../data/kpop.json";
 import kpopJa from "../../../data/kpop.ja.json";
 import kpopZh from "../../../data/kpop.zh.json";
@@ -58,6 +59,7 @@ export default function KpopPage({ params }) {
       </div>
       <p className="art-tagline">{ui.tagline}</p>
       <KpopGuide g={g} ui={ui} />
+      <ArticleTrust locale={locale} />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>
   );

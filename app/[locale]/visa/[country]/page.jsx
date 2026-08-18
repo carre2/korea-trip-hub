@@ -2,6 +2,7 @@ import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, articleLd, faqLd } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
 import VisaCountryGuide from "../../../../components/VisaCountryGuide";
+import ArticleTrust from "../../../../components/ArticleTrust";
 import { localized, visaCountryCodes } from "../../../../lib/visa";
 
 export function generateStaticParams() {
@@ -77,6 +78,7 @@ export default function VisaCountryPage({ params }) {
 
       <VisaCountryGuide guide={g} m={m} />
 
+      <ArticleTrust locale={locale} />
       <p className="art-disclaimer">{m.footer?.disclaimer}</p>
     </article>
   );

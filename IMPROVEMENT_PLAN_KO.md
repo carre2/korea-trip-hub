@@ -16,6 +16,12 @@
   - ✅ AdSense 로더 일시 중단(GA 유지) · ✅ `--faint` 대비 ≥4.5:1(light `#646C7C`/dark `#868FA3`) · ✅ `facts.json _updated` → 2026-08-05
 - **2026-08-18 · 이월분 완료 · 배포 (커밋 `e53f328`)**
   - ✅ 9개 비영어 로케일(zh·zh-TW·ja·vi·th·id·es·ms·ko) hero `title_1`·`lede` 정직화 — "pin/mark"→"enter/add", "fastest route"→"transport options", "호텔에서 출발" 표현 제거, "route"→"day-by-day plan". 고유명사(KTX·Busan)·각 언어 어투 보존, 검증 PASS. → **P0-3 정직성 전 로케일 완료.**
+- **2026-08-18 · Phase 1 (WS3 개인정보·동의) 완료 · 배포 (커밋 `031efaf` + `ba2638a`)**
+  - ✅ 법적·신뢰 페이지 6종(About·Editorial·Privacy&Cookies·Terms·Affiliate·Contact) × **10개 언어 = 60페이지**. 내용은 실제 관행 반영(GA4·Agoda/Klook·Cloudflare·계정없음·Google Forms). 운영자=Korea Trip Hub, 연락처=contact@ktriphub.com(mailto). canonical·hreflang·JSON-LD 정상.
+  - ✅ **Google Consent Mode v2**: GA4 기본 denied → 자체 배너 동의 시에만 활성(외부 CMP 없음), 선택 저장. 배너 문구 10개 언어.
+  - ✅ **사이트 공통 슬림 푸터**(SiteFooter): 법적 링크+제휴고지+© 전 페이지 노출.
+  - ✅ 9개 언어 법적 본문 번역(병렬 에이전트, 구조·숫자·이메일·고유명사 보존, verify-content-i18n 9/9). 850→910페이지.
+  - **남은 것(WS3 잔여):** contact@ktriphub.com 실제 메일 라우팅(🟥 Cloudflare Email Routing, 당신) · AdSense 재개는 이후 실슬롯+ad_storage 동의와 함께.
 - **🟥 당신 대기:** Cloudflare HTTPS·www→apex 301(WS2, P0 최우선) — 대시보드에서. 착수 시 단계별 클릭 가이드 제공.
 
 ---

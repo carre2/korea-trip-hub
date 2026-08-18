@@ -2,6 +2,7 @@ import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, articleLd, SITE_NAME, REVIEWED } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
 import StayGuide from "../../../../components/StayGuide";
+import ArticleTrust from "../../../../components/ArticleTrust";
 import { stayFor, fill } from "../../../../lib/content";
 import stayData from "../../../../data/stay.json";
 
@@ -63,6 +64,13 @@ export default function StayCity({ params }) {
       </div>
       <p className="art-tagline">{ui.cityTagline}</p>
       <StayGuide city={c} cityKey={params.city} ui={ui} />
+      <ArticleTrust
+        locale={locale}
+        related={CITY_KEYS.filter((k) => k !== params.city).slice(0, 3).map((k) => ({
+          href: `/${locale}/stay/${k}/`,
+          label: S.cities[k]?.name || k,
+        }))}
+      />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>
   );

@@ -2,6 +2,7 @@ import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, articleLd, SITE_NAME, REVIEWED } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
 import ItineraryGuide from "../../../../components/ItineraryGuide";
+import ArticleTrust from "../../../../components/ArticleTrust";
 import { itinFor, fill } from "../../../../lib/content";
 import itin from "../../../../data/itineraries.json";
 
@@ -56,6 +57,7 @@ export default function ItineraryPage({ params }) {
       </div>
       <p className="art-tagline">{it.sub}</p>
       <ItineraryGuide it={it} locale={locale} ui={ui} />
+      <ArticleTrust locale={locale} />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>
   );
