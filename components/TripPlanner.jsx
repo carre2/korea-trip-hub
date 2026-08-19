@@ -147,6 +147,10 @@ export default function TripPlanner({ hero = {}, t = {} }) {
         </div>
       </div>
 
+      <p className="sr-only" role="status" aria-live="polite">
+        {plan ? `${days}-day ${plan.city.name} plan ready.` : ""}
+      </p>
+
       {plan && (
         <div className="itin" style={{ marginTop: 22 }}>
           <div className="itin-head">

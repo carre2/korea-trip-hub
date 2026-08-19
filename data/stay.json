@@ -12,7 +12,9 @@
     "cityTagline": "The best areas & neighborhoods — chosen by vibe, not just price.",
     "updated": "Updated",
     "findHotel": "Find a hotel",
-    "thingsToDo": "Things to do"
+    "thingsToDo": "Things to do",
+    "typesTitle": "Types of accommodation in Korea",
+    "typesIntro": "Not sure what to book? Here's how Korea's main lodging types compare — and who each one suits."
   },
   "cities": {
     "seoul": {
@@ -319,5 +321,56 @@
       ],
       "budget": "On a budget? Sokcho has guesthouses and hostels near the beach and Jungang Market, plus mountain pensions near Seoraksan that split well between friends."
     }
-  }
+  },
+  "types": [
+    {
+      "icon": "🏨",
+      "name": "Hotels",
+      "best": "Comfort & service",
+      "desc": "From business hotels to five-star resorts, with a front desk, breakfast and daily cleaning. The easiest choice if you value convenience and English-speaking staff.",
+      "tip": "Compare rates and cancellation terms on Agoda or the hotel's own site."
+    },
+    {
+      "icon": "🛏️",
+      "name": "Guesthouses & hostels",
+      "best": "Budget & meeting people",
+      "desc": "Dorm beds and small private rooms, often run by friendly hosts, with common areas that make them social. Popular with solo and young travelers.",
+      "tip": "Great value near Hongdae, Myeongdong and beach towns; female-only dorms are usually available."
+    },
+    {
+      "icon": "🏯",
+      "name": "Hanok stays",
+      "best": "Culture & atmosphere",
+      "desc": "Sleep in a restored traditional Korean house with wooden beams, paper doors and a warm ondol floor. Concentrated in Jeonju, Bukchon in Seoul and Gyeongju.",
+      "tip": "Rooms can be simple and floor-based — ask whether the bathroom is private."
+    },
+    {
+      "icon": "🏡",
+      "name": "Pensions",
+      "best": "Groups & nature",
+      "desc": "Self-contained holiday houses or cabins, often with a kitchen and a barbecue, common on Jeju and in mountain and beach areas. Best split between friends or family.",
+      "tip": "You usually need a car; check whether cooking gear and towels are provided."
+    },
+    {
+      "icon": "🧘",
+      "name": "Templestay",
+      "best": "Quiet & mindful",
+      "desc": "Spend a night at a Buddhist temple with meditation, tea and temple meals — a calm cultural experience rather than a hotel.",
+      "tip": "Book through the official Templestay program; early mornings are part of the experience."
+    },
+    {
+      "icon": "♨️",
+      "name": "Jjimjilbang (sauna)",
+      "best": "One night & very cheap",
+      "desc": "Korean bath-houses with sauna rooms and a shared sleeping hall. Not a hotel, but a cheap, safe option for a short night or a late arrival.",
+      "tip": "You sleep on the floor in a communal room, so bring earplugs; bathing areas are separated by gender."
+    },
+    {
+      "icon": "🏢",
+      "name": "Serviced apartments & officetels",
+      "best": "Longer stays & families",
+      "desc": "Apartment-style rooms with a kitchen and laundry, handy for longer visits or families who prefer to self-cater. Common in Seoul and Busan.",
+      "tip": "Check the minimum stay — some are rented by the week or month."
+    }
+  ]
 }

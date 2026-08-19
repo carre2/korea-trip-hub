@@ -29,8 +29,9 @@ export default function LocaleLayout({ children, params }) {
   return (
     <html lang={locale} dir={dir}>
       <body>
+        <a className="skip-link" href="#main">Skip to content</a>
         <Header locale={locale} />
-        {children}
+        <main id="main">{children}</main>
         <SiteFooter locale={locale} />
         <ConsentBanner t={consent} privacyHref={`/${locale}/legal/privacy/`} />
         {/* Google Consent Mode v2 — every signal denied by default until the visitor opts

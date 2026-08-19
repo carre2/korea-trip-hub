@@ -11,7 +11,9 @@
     "cityTagline": "Kawasan dan lingkungan terbaik — dipilih berdasarkan suasana, bukan sekadar harga.",
     "updated": "Diperbarui",
     "findHotel": "Cari hotel",
-    "thingsToDo": "Aktivitas seru"
+    "thingsToDo": "Aktivitas seru",
+    "typesTitle": "Jenis-jenis akomodasi di Korea",
+    "typesIntro": "Bingung mau pesan yang mana? Berikut perbandingan jenis penginapan utama di Korea — beserta siapa yang paling cocok dengan masing-masing pilihan."
   },
   "cities": {
     "seoul": {
@@ -318,5 +320,56 @@
       ],
       "budget": "Punya anggaran terbatas? Sokcho memiliki guesthouse dan hostel di dekat pantai dan Pasar Jungang, serta pension pegunungan di dekat Seoraksan yang biayanya pas untuk dibagi bersama teman."
     }
-  }
+  },
+  "types": [
+    {
+      "icon": "🏨",
+      "name": "Hotel",
+      "best": "Kenyamanan & layanan",
+      "desc": "Mulai dari hotel bisnis hingga resor bintang lima, lengkap dengan meja resepsionis, sarapan, dan pembersihan kamar setiap hari. Pilihan paling praktis jika Anda mengutamakan kemudahan dan staf yang bisa berbahasa Inggris.",
+      "tip": "Bandingkan tarif dan ketentuan pembatalan di Agoda atau situs resmi hotel."
+    },
+    {
+      "icon": "🛏️",
+      "name": "Guesthouse & hostel",
+      "best": "Hemat & bertemu orang baru",
+      "desc": "Tempat tidur di kamar bersama dan kamar pribadi kecil, sering dikelola tuan rumah yang ramah, dengan ruang bersama yang membuat suasananya akrab. Populer di kalangan pelancong solo dan anak muda.",
+      "tip": "Sangat bernilai di sekitar Hongdae, Myeongdong, dan kota-kota pantai; kamar bersama khusus perempuan biasanya tersedia."
+    },
+    {
+      "icon": "🏯",
+      "name": "Menginap di hanok",
+      "best": "Budaya & suasana",
+      "desc": "Tidur di rumah tradisional Korea yang telah dipugar, dengan balok kayu, pintu kertas, dan lantai ondol yang hangat. Terkonsentrasi di Jeonju, Bukchon di Seoul, dan Gyeongju.",
+      "tip": "Kamarnya bisa sederhana dan beralaskan lantai — tanyakan apakah kamar mandinya pribadi."
+    },
+    {
+      "icon": "🏡",
+      "name": "Pension",
+      "best": "Rombongan & alam",
+      "desc": "Rumah atau pondok liburan mandiri, sering dilengkapi dapur dan tempat barbeku, umum ditemui di Jeju serta di kawasan pegunungan dan pantai. Paling pas jika biayanya dibagi bersama teman atau keluarga.",
+      "tip": "Biasanya Anda butuh mobil; periksa apakah peralatan masak dan handuk sudah disediakan."
+    },
+    {
+      "icon": "🧘",
+      "name": "Templestay",
+      "best": "Ketenangan & kesadaran diri",
+      "desc": "Menginap semalam di kuil Buddha dengan meditasi, minum teh, dan hidangan kuil — sebuah pengalaman budaya yang menenangkan, bukan sekadar hotel.",
+      "tip": "Pesan melalui program resmi Templestay; bangun pagi buta adalah bagian dari pengalamannya."
+    },
+    {
+      "icon": "♨️",
+      "name": "Jjimjilbang (sauna)",
+      "best": "Semalam & sangat murah",
+      "desc": "Pemandian umum khas Korea dengan ruang sauna dan aula tidur bersama. Bukan hotel, tetapi pilihan murah dan aman untuk menginap singkat atau saat tiba larut malam.",
+      "tip": "Anda tidur di lantai dalam ruang bersama, jadi bawalah penyumbat telinga; area pemandian dipisahkan menurut jenis kelamin."
+    },
+    {
+      "icon": "🏢",
+      "name": "Apartemen berlayanan & officetel",
+      "best": "Menginap lebih lama & keluarga",
+      "desc": "Kamar bergaya apartemen dengan dapur dan fasilitas cuci, praktis untuk kunjungan lebih lama atau keluarga yang ingin memasak sendiri. Umum di Seoul dan Busan.",
+      "tip": "Periksa masa inap minimal — sebagian disewakan per minggu atau per bulan."
+    }
+  ]
 }

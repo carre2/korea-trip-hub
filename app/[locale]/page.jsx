@@ -150,10 +150,10 @@ export default function Home({ params }) {
               ✦ {m.hero.badge}
             </span>
           </div>
-          <h1 className="reveal">
+          <h2 className="reveal">
             {m.hero.title_1}<br />
             <span className="hl">{m.hero.title_2}</span>
-          </h1>
+          </h2>
           <p className="lede reveal">{m.hero.lede}</p>
 
           <TripPlanner hero={m.hero} t={m.planner} />

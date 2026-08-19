@@ -11,7 +11,9 @@
     "cityTagline": "Las mejores zonas y barrios, elegidos por su ambiente y no solo por el precio.",
     "updated": "Actualizado",
     "findHotel": "Buscar hotel",
-    "thingsToDo": "Qué hacer"
+    "thingsToDo": "Qué hacer",
+    "typesTitle": "Tipos de alojamiento en Corea",
+    "typesIntro": "¿No sabes qué reservar? Así se comparan los principales tipos de alojamiento en Corea, y a quién le conviene cada uno."
   },
   "cities": {
     "seoul": {
@@ -318,5 +320,56 @@
       ],
       "budget": "¿Viajas con poco presupuesto? Sokcho tiene casas de huéspedes y albergues cerca de la playa y del Mercado Jungang, además de pensiones de montaña cerca de Seoraksan que salen a cuenta si las compartes entre amigos."
     }
-  }
+  },
+  "types": [
+    {
+      "icon": "🏨",
+      "name": "Hoteles",
+      "best": "Comodidad y servicio",
+      "desc": "Desde hoteles de negocios hasta resorts de lujo, con recepción, desayuno y limpieza diaria. La opción más sencilla si valoras la comodidad y el personal que habla inglés.",
+      "tip": "Compara tarifas y condiciones de cancelación en Agoda o en la web del propio hotel."
+    },
+    {
+      "icon": "🛏️",
+      "name": "Casas de huéspedes y albergues",
+      "best": "Presupuesto ajustado y conocer gente",
+      "desc": "Camas en dormitorios compartidos y pequeñas habitaciones privadas, a menudo gestionadas por anfitriones amables, con zonas comunes que invitan a socializar. Muy populares entre quienes viajan solos y los jóvenes.",
+      "tip": "Excelente relación calidad-precio cerca de Hongdae, Myeongdong y los pueblos costeros; suele haber dormitorios solo para mujeres."
+    },
+    {
+      "icon": "🏯",
+      "name": "Estancias en hanok",
+      "best": "Cultura y ambiente",
+      "desc": "Duerme en una casa tradicional coreana restaurada, con vigas de madera, puertas de papel y un cálido suelo de ondol. Se concentran en Jeonju, en el barrio de Bukchon en Seúl y en Gyeongju.",
+      "tip": "Las habitaciones pueden ser sencillas y a ras de suelo; pregunta si el baño es privado."
+    },
+    {
+      "icon": "🏡",
+      "name": "Pensiones",
+      "best": "Grupos y naturaleza",
+      "desc": "Casas o cabañas de vacaciones independientes, a menudo con cocina y barbacoa, habituales en Jeju y en zonas de montaña y playa. Salen mejor de precio si las compartes entre amigos o en familia.",
+      "tip": "Normalmente necesitas coche; comprueba si incluyen utensilios de cocina y toallas."
+    },
+    {
+      "icon": "🧘",
+      "name": "Templestay",
+      "best": "Silencio y atención plena",
+      "desc": "Pasa una noche en un templo budista con meditación, té y comidas del templo, una experiencia cultural serena más que un hotel.",
+      "tip": "Resérvalo a través del programa oficial de templestay; madrugar forma parte de la experiencia."
+    },
+    {
+      "icon": "♨️",
+      "name": "Jjimjilbang (sauna)",
+      "best": "Una sola noche y muy económico",
+      "desc": "Casas de baños coreanas con salas de sauna y una sala común para dormir. No es un hotel, pero sí una opción barata y segura para una noche corta o una llegada tardía.",
+      "tip": "Duermes en el suelo de una sala compartida, así que lleva tapones para los oídos; las zonas de baño están separadas por sexos."
+    },
+    {
+      "icon": "🏢",
+      "name": "Apartamentos con servicios y officetel",
+      "best": "Estancias largas y familias",
+      "desc": "Habitaciones tipo apartamento con cocina y lavadora, prácticas para visitas largas o para familias que prefieren cocinar por su cuenta. Habituales en Seúl y Busan.",
+      "tip": "Comprueba la estancia mínima; algunos se alquilan por semanas o por meses."
+    }
+  ]
 }

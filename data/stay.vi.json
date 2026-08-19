@@ -11,7 +11,9 @@
     "cityTagline": "Những khu vực & khu phố tốt nhất — chọn theo phong cách, chứ không chỉ theo giá.",
     "updated": "Cập nhật",
     "findHotel": "Tìm khách sạn",
-    "thingsToDo": "Điểm tham quan"
+    "thingsToDo": "Điểm tham quan",
+    "typesTitle": "Các loại hình lưu trú ở Hàn Quốc",
+    "typesIntro": "Chưa biết nên đặt chỗ nào? Đây là cách so sánh những loại hình lưu trú chính ở Hàn Quốc — và loại nào phù hợp với ai."
   },
   "cities": {
     "seoul": {
@@ -318,5 +320,56 @@
       ],
       "budget": "Đi tiết kiệm? Sokcho có nhiều nhà nghỉ và hostel gần bãi biển và Chợ Jungang, cùng những pension trên núi gần Seoraksan rất hợp để chia phòng với bạn bè."
     }
-  }
+  },
+  "types": [
+    {
+      "icon": "🏨",
+      "name": "Khách sạn",
+      "best": "Tiện nghi & dịch vụ",
+      "desc": "Từ khách sạn dành cho doanh nhân đến khu nghỉ dưỡng năm sao, có quầy lễ tân, bữa sáng và dọn phòng mỗi ngày. Lựa chọn dễ dàng nhất nếu bạn coi trọng sự tiện lợi và nhân viên nói được tiếng Anh.",
+      "tip": "Hãy so sánh giá phòng và điều khoản hủy phòng trên Agoda hoặc ngay trên trang web của khách sạn."
+    },
+    {
+      "icon": "🛏️",
+      "name": "Nhà nghỉ & hostel",
+      "best": "Tiết kiệm & gặp gỡ mọi người",
+      "desc": "Giường trong phòng tập thể và những phòng riêng nhỏ, thường do các chủ nhà thân thiện điều hành, với khu vực chung mang lại không khí giao lưu. Được khách đi một mình và giới trẻ ưa chuộng.",
+      "tip": "Đáng đồng tiền quanh khu Hongdae, Myeongdong và các thị trấn ven biển; phòng tập thể dành riêng cho nữ thường luôn có sẵn."
+    },
+    {
+      "icon": "🏯",
+      "name": "Lưu trú tại nhà hanok",
+      "best": "Văn hóa & không khí",
+      "desc": "Ngủ trong một ngôi nhà truyền thống Hàn Quốc đã được phục dựng với xà gỗ, cửa dán giấy và sàn ondol ấm áp. Tập trung ở Jeonju, khu Bukchon tại Seoul và Gyeongju.",
+      "tip": "Phòng có thể đơn sơ và ngủ dưới sàn — hãy hỏi xem phòng tắm có riêng hay không."
+    },
+    {
+      "icon": "🏡",
+      "name": "Pension",
+      "best": "Nhóm bạn & thiên nhiên",
+      "desc": "Nhà nghỉ hoặc cabin riêng biệt tự phục vụ, thường có bếp và khu nướng thịt, phổ biến ở đảo Jeju cũng như các vùng núi và ven biển. Lý tưởng khi chia sẻ chi phí cùng bạn bè hoặc gia đình.",
+      "tip": "Bạn thường cần có xe hơi; hãy kiểm tra xem có sẵn dụng cụ nấu ăn và khăn tắm hay không."
+    },
+    {
+      "icon": "🧘",
+      "name": "Templestay",
+      "best": "Tĩnh lặng & chánh niệm",
+      "desc": "Ở lại một đêm tại ngôi chùa Phật giáo với thiền định, thưởng trà và các bữa ăn chay nhà chùa — một trải nghiệm văn hóa an yên hơn là một khách sạn.",
+      "tip": "Hãy đặt chỗ qua chương trình Templestay chính thức; dậy sớm cũng là một phần của trải nghiệm."
+    },
+    {
+      "icon": "♨️",
+      "name": "Jjimjilbang (nhà tắm hơi)",
+      "best": "Một đêm & rất rẻ",
+      "desc": "Nhà tắm công cộng kiểu Hàn Quốc với các phòng xông hơi và một sảnh ngủ chung. Không phải khách sạn, nhưng là lựa chọn rẻ và an toàn cho một đêm ngắn ngủi hoặc khi đến nơi muộn.",
+      "tip": "Bạn ngủ dưới sàn trong phòng chung, vậy nên hãy mang theo nút bịt tai; khu vực tắm được tách riêng theo giới tính."
+    },
+    {
+      "icon": "🏢",
+      "name": "Căn hộ dịch vụ & officetel",
+      "best": "Ở dài ngày & gia đình",
+      "desc": "Phòng kiểu căn hộ có bếp và máy giặt, tiện lợi cho những chuyến đi dài ngày hoặc gia đình muốn tự nấu nướng. Phổ biến ở Seoul và Busan.",
+      "tip": "Hãy kiểm tra thời gian lưu trú tối thiểu — một số nơi cho thuê theo tuần hoặc theo tháng."
+    }
+  ]
 }

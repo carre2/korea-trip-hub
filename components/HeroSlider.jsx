@@ -8,6 +8,7 @@ import slides from "../data/hero.json";
 export default function HeroSlider({ locale = "en" }) {
   const stripRef = useRef(null);
   const [active, setActive] = useState(0);
+  const [paused, setPaused] = useState(false);
 
   // Center card i inside the strip (robust — scrolls the strip, not the page).
   function scrollToCard(i) {
@@ -49,14 +50,17 @@ export default function HeroSlider({ locale = "en" }) {
     return () => io.disconnect();
   }, []);
 
-  // Auto-advance every 5s from wherever the strip currently is.
+  // Auto-advance every 5s — unless the visitor paused it or prefers reduced motion.
   useEffect(() => {
+    if (paused) return;
+    if (typeof window !== "undefined" && window.matchMedia &&
+        window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const id = setInterval(() => {
       if (!stripRef.current) return;
       scrollToCard((nearestIndex() + 1) % slides.length);
     }, 5000);
     return () => clearInterval(id);
-  }, []);
+  }, [paused]);
 
   // Keep the active dot in sync as the strip scrolls (auto or manual).
   useEffect(() => {
@@ -89,13 +93,21 @@ export default function HeroSlider({ locale = "en" }) {
               </a>
             ))}
           </div>
-          <div className="hero2-dots" role="tablist" aria-label="Hero slides">
+          <div className="hero2-dots" role="group" aria-label="Hero slides">
+            <button
+              className="hero2-play"
+              aria-label={paused ? "Play slideshow" : "Pause slideshow"}
+              aria-pressed={paused}
+              onClick={() => setPaused((p) => !p)}
+            >
+              {paused ? "▶" : "⏸"}
+            </button>
             {slides.map((s, i) => (
               <button
                 key={s.label}
                 className={`hero2-dot${i === active ? " on" : ""}`}
                 aria-label={`Show ${s.label}`}
-                aria-selected={i === active}
+                aria-current={i === active ? "true" : undefined}
                 onClick={() => scrollToCard(i)}
               />
             ))}
