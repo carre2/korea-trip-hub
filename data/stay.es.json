@@ -98,6 +98,20 @@
           "tone": "amber",
           "vibe": "El Busan histórico: el mercado de pescado de Jagalchi, el mercado Gukje, la comida callejera de BIFF Square y, muy cerca, el pueblo cultural de Gamcheon. Buena relación calidad-precio.",
           "near": "Línea 1; caminable, con encanto y económico."
+        },
+        {
+          "name": "Songjeong",
+          "best": "Playa tranquila y surf",
+          "tone": "green",
+          "vibe": "Una playa más apacible justo al este de Haeundae, popular entre surfistas, con casas de huéspedes, albergues de surf y alojamientos con vistas al mar.",
+          "near": "El tren costero de Blueline Park y Haeundae quedan a un corto trayecto."
+        },
+        {
+          "name": "Estación de Busan y Choryang",
+          "best": "Nudo de transporte y buen precio",
+          "tone": "amber",
+          "vibe": "Alrededor de la estación del KTX: hoteles a buen precio, el puerto y los callejones de ladera de Choryang, cómodo para las llegadas y para Nampo-dong.",
+          "near": "KTX y Línea 1; una primera o última noche fácil en la ciudad."
         }
       ],
       "budget": "¿Viajas con poco presupuesto? Nampo-dong, Seomyeon y las zonas cercanas a las playas tienen muchas guesthouses y hostales."
@@ -128,8 +142,23 @@
           "tone": "amber",
           "vibe": "El cinturón de resorts de Jeju: grandes resorts de playa, golf y la playa de Jungmun Saekdal, ideal para unas vacaciones relajadas sin moverse del sitio.",
           "near": "Cerca de Seogwipo, en la costa sur; centrado en los resorts."
+        },
+        {
+          "name": "Aewol (costa oeste)",
+          "best": "Cafeterías y vistas al mar",
+          "tone": "green",
+          "vibe": "Un pintoresco tramo de la costa oeste con café-restaurantes y pensiones con estilo a lo largo de la orilla, una base relajada lejos de la ciudad.",
+          "near": "Se recomienda coche; a un corto trayecto al oeste de la ciudad de Jeju."
+        },
+        {
+          "name": "Seongsan (este)",
+          "best": "Pico del amanecer y costa este",
+          "tone": "blue",
+          "vibe": "Junto a Seongsan Ilchulbong, en la costa este: pensiones y casas de huéspedes cómodas para la caminata del amanecer, el ferri a Udo y Seopjikoji.",
+          "near": "Ideal para recorrer el este de Jeju; se recomienda coche."
         }
-      ]
+      ],
+      "budget": "¿Viajas con poco presupuesto? La ciudad de Jeju tiene casas de huéspedes y albergues cerca de la terminal de autobuses y del Mercado Dongmun, muchos de ellos puntos de encuentro para viajeros solitarios y senderistas."
     },
     "gyeongju": {
       "name": "Gyeongju",
@@ -158,7 +187,8 @@
           "vibe": "El lado este, más verde, cerca de Bulguksa y Seokguram, ideal para una base tranquila y una visita temprana al templo antes de las multitudes.",
           "near": "Lo más cercano a Bulguksa y Seokguram; a un trayecto en autobús o taxi del centro."
         }
-      ]
+      ],
+      "budget": "¿Viajas con poco presupuesto? Hwangnidan-gil y el centro tienen casas de huéspedes hanok y albergues a poca distancia a pie de las tumbas reales y del estanque Wolji iluminado de noche."
     },
     "jeonju": {
       "name": "Jeonju",
@@ -180,7 +210,8 @@
           "vibe": "Hoteles modernos en el centro y cerca de la estación, prácticos para autobuses y el KTX: más comodidad y opciones, a un corto trayecto del Hanok Village.",
           "near": "Lo mejor para conexiones de tren y autobús; más tranquilo de noche."
         }
-      ]
+      ],
+      "budget": "¿Viajas con poco presupuesto? La Aldea Hanok y sus callejuelas están llenas de asequibles casas de huéspedes hanok; pasar una noche sobre un suelo tradicional de ondol forma parte de la experiencia."
     },
     "gangneung": {
       "name": "Gangneung",
@@ -202,7 +233,8 @@
           "vibe": "Cerca de la estación de KTX y el mercado central, práctico para tomar autobuses por la costa y llegar fácilmente desde Seúl.",
           "near": "Lo mejor para el transporte y los mercados; a un corto trayecto de las playas."
         }
-      ]
+      ],
+      "budget": "¿Viajas con poco presupuesto? Cerca de la playa de Gyeongpo y de la estación encontrarás casas de huéspedes y pensiones, con las cafeterías de la calle del café y el mar a un corto paseo o trayecto en autobús."
     },
     "suwon": {
       "name": "Suwon",
@@ -255,6 +287,36 @@
         }
       ],
       "budget": "¿Viajas con poco presupuesto? Alrededor de Unseo Station, en Yeongjong Island (a una parada de AREX del aeropuerto), hay hoteles de aeropuerto más económicos, guesthouses y albergues, prácticos para un vuelo temprano o un concierto en el Inspire Arena."
+    },
+    "sokcho": {
+      "name": "Sokcho",
+      "flag": "🌊",
+      "metaTitle": "Dónde alojarse en Sokcho — Seoraksan y zonas de playa",
+      "intro": "Sokcho es la puerta de entrada al Parque Nacional de Seoraksan y una tranquila localidad playera del mar del Este. La mayoría de los visitantes se alojan cerca de la playa o de la entrada de Seoraksan.",
+      "areas": [
+        {
+          "name": "Playa y puerto de Sokcho",
+          "best": "Base junto a la playa y la ciudad",
+          "tone": "blue",
+          "vibe": "La zona principal de playa y puerto, cerca del mercado de pescado, la Aldea Abai y los autobuses hacia Seoraksan.",
+          "near": "Cómoda para restaurantes, ferris y la terminal de autobuses exprés."
+        },
+        {
+          "name": "Seorak-dong (entrada de Seoraksan)",
+          "best": "Senderismo y naturaleza",
+          "tone": "green",
+          "vibe": "Justo al lado de la entrada del Parque Nacional de Seoraksan y el teleférico, con pensiones y hoteles de complejo entre las montañas.",
+          "near": "La mejor opción si el senderismo es tu prioridad; más tranquila al caer la noche."
+        },
+        {
+          "name": "Centro y terminal de autobuses",
+          "best": "Transporte y buena relación calidad-precio",
+          "tone": "amber",
+          "vibe": "El centro de Sokcho cerca de las terminales, con hoteles y moteles más económicos y fáciles conexiones con la playa y Seoraksan.",
+          "near": "Práctica para llegar, salir y hacer excursiones de un día."
+        }
+      ],
+      "budget": "¿Viajas con poco presupuesto? Sokcho tiene casas de huéspedes y albergues cerca de la playa y del Mercado Jungang, además de pensiones de montaña cerca de Seoraksan que salen a cuenta si las compartes entre amigos."
     }
   }
 }

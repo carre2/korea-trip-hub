@@ -98,6 +98,20 @@
           "tone": "amber",
           "vibe": "Busan cổ kính — chợ cá Jagalchi, chợ Gukje, đồ ăn đường phố ở BIFF Square và Gamcheon Culture Village gần đó. Giá tốt.",
           "near": "Tuyến 1; dễ đi bộ, giàu không khí, hợp túi tiền."
+        },
+        {
+          "name": "Songjeong",
+          "best": "Bãi biển yên tĩnh & lướt sóng",
+          "tone": "green",
+          "vibe": "Một bãi biển êm đềm nằm ngay phía đông Haeundae, được dân lướt sóng ưa chuộng, với nhà nghỉ, hostel lướt sóng và chỗ ở nhìn ra biển.",
+          "near": "Tuyến đường sắt ven biển Blueline Park và Haeundae chỉ cách một quãng ngắn."
+        },
+        {
+          "name": "Ga Busan & Choryang",
+          "best": "Đầu mối giao thông & giá hợp lý",
+          "tone": "amber",
+          "vibe": "Quanh ga KTX — khách sạn giá tốt, khu cảng và những con hẻm trên sườn đồi Choryang, tiện cho lúc mới đến và cho khu Nampo-dong.",
+          "near": "Tuyến KTX và Tuyến 1; dễ dàng cho đêm đầu hoặc đêm cuối ở thành phố."
         }
       ],
       "budget": "Đi du lịch tiết kiệm? Nampo-dong, Seomyeon và các khu gần bãi biển có rất nhiều guesthouse và hostel."
@@ -128,8 +142,23 @@
           "tone": "amber",
           "vibe": "Dải khu nghỉ dưỡng của Jeju — các resort biển tên tuổi, sân golf và bãi biển Jungmun Saekdal, lý tưởng cho kỳ nghỉ thư giãn tại chỗ.",
           "near": "Gần Seogwipo, bờ biển phía nam; tập trung vào nghỉ dưỡng."
+        },
+        {
+          "name": "Aewol (bờ tây)",
+          "best": "Quán cà phê & cảnh biển",
+          "tone": "green",
+          "vibe": "Một dải bờ tây nên thơ với các quán cà phê kiêm nhà hàng và những pension phong cách dọc bờ biển, một điểm dừng chân thư thái tránh xa phố thị.",
+          "near": "Nên thuê xe hơi; chỉ cách trung tâm Jeju một quãng lái xe ngắn về phía tây."
+        },
+        {
+          "name": "Seongsan (phía đông)",
+          "best": "Đỉnh ngắm bình minh & bờ đông",
+          "tone": "blue",
+          "vibe": "Nằm cạnh Seongsan Ilchulbong ở bờ đông — các pension và nhà nghỉ thuận tiện cho việc leo núi ngắm bình minh, đi phà Udo và tham quan Seopjikoji.",
+          "near": "Tuyệt vời để khám phá phía đông Jeju; nên thuê xe hơi."
         }
-      ]
+      ],
+      "budget": "Đi tiết kiệm? Trung tâm Jeju có nhiều nhà nghỉ và hostel gần bến xe và Chợ Dongmun — nhiều nơi là điểm giao lưu cho khách đi một mình và người leo núi."
     },
     "gyeongju": {
       "name": "Gyeongju",
@@ -158,7 +187,8 @@
           "vibe": "Phía đông xanh mát hơn gần Bulguksa và Seokguram, thích hợp làm điểm lưu trú thanh bình và viếng chùa sớm trước khi đông khách.",
           "near": "Gần Bulguksa và Seokguram nhất; cách trung tâm một quãng đi xe buýt hoặc taxi."
         }
-      ]
+      ],
+      "budget": "Đi tiết kiệm? Phố Hwangnidan-gil và khu trung tâm có các nhà nghỉ hanok và hostel nằm trong tầm đi bộ tới các lăng mộ hoàng gia và Ao Wolji lung linh về đêm."
     },
     "jeonju": {
       "name": "Jeonju",
@@ -180,7 +210,8 @@
           "vibe": "Những khách sạn hiện đại quanh khu trung tâm và nhà ga, tiện cho xe buýt và KTX — nhiều tiện nghi và lựa chọn hơn, chỉ mất một chặng xe ngắn tới làng hanok.",
           "near": "Tốt nhất cho việc kết nối tàu/xe buýt; yên tĩnh hơn vào ban đêm."
         }
-      ]
+      ],
+      "budget": "Đi tiết kiệm? Làng Hanok và những con phố nhỏ xung quanh đầy ắp các nhà nghỉ hanok giá phải chăng — một đêm ngủ trên sàn ondol truyền thống là một phần của trải nghiệm."
     },
     "gangneung": {
       "name": "Gangneung",
@@ -202,7 +233,8 @@
           "vibe": "Quanh ga KTX và chợ trung tâm, tiện cho xe buýt dọc bờ biển và dễ dàng đến từ Seoul.",
           "near": "Tốt nhất cho việc di chuyển và đi chợ; chỉ một chặng xe ngắn tới các bãi biển."
         }
-      ]
+      ],
+      "budget": "Đi tiết kiệm? Gần Bãi biển Gyeongpo và nhà ga, bạn sẽ tìm thấy nhà nghỉ và pension, với các quán trên phố cà phê và biển cả chỉ cách một quãng đi bộ hoặc đi xe buýt."
     },
     "suwon": {
       "name": "Suwon",
@@ -255,6 +287,36 @@
         }
       ],
       "budget": "Đi du lịch tiết kiệm? Quanh ga Unseo trên đảo Yeongjong (cách sân bay một ga AREX) có những khách sạn sân bay giá rẻ hơn, guesthouse và dorm — tiện cho chuyến bay sớm hoặc một buổi concert ở Inspire Arena."
+    },
+    "sokcho": {
+      "name": "Sokcho",
+      "flag": "🌊",
+      "metaTitle": "Nên ở đâu tại Sokcho — khu Seoraksan & bãi biển",
+      "intro": "Sokcho là cửa ngõ dẫn vào Vườn Quốc gia Seoraksan và cũng là một thị trấn biển Đông Hải thư thái. Hầu hết du khách chọn lưu trú gần bãi biển hoặc gần cổng vào Seoraksan.",
+      "areas": [
+        {
+          "name": "Bãi biển & Cảng Sokcho",
+          "best": "Cơ sở nghỉ gần biển & trung tâm",
+          "tone": "blue",
+          "vibe": "Khu bãi biển và cảng chính, gần chợ cá, Làng Abai và các tuyến xe buýt đi Seoraksan.",
+          "near": "Thuận tiện cho nhà hàng, phà và bến xe khách liên tỉnh."
+        },
+        {
+          "name": "Seorak-dong (cổng vào Seoraksan)",
+          "best": "Leo núi & thiên nhiên",
+          "tone": "green",
+          "vibe": "Ngay cạnh cổng Vườn Quốc gia Seoraksan và tuyến cáp treo, với các pension và khách sạn nghỉ dưỡng giữa núi rừng.",
+          "near": "Lựa chọn tốt nhất nếu bạn ưu tiên leo núi; về đêm khá yên tĩnh."
+        },
+        {
+          "name": "Trung tâm & Bến xe",
+          "best": "Giao thông & giá hợp lý",
+          "tone": "amber",
+          "vibe": "Khu trung tâm Sokcho gần các bến xe, có khách sạn và nhà nghỉ giá mềm cùng kết nối dễ dàng tới bãi biển và Seoraksan.",
+          "near": "Tiện lợi cho việc đến, đi và các chuyến trong ngày."
+        }
+      ],
+      "budget": "Đi tiết kiệm? Sokcho có nhiều nhà nghỉ và hostel gần bãi biển và Chợ Jungang, cùng những pension trên núi gần Seoraksan rất hợp để chia phòng với bạn bè."
     }
   }
 }

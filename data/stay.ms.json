@@ -98,6 +98,20 @@
           "tone": "amber",
           "vibe": "Busan yang bersejarah — pasar ikan Jagalchi, pasar Gukje, makanan jalanan BIFF Square dan Kampung Budaya Gamcheon berdekatan. Berbaloi harganya.",
           "near": "Line 1; mudah dijelajah dengan berjalan kaki, penuh suasana, mesra bajet."
+        },
+        {
+          "name": "Songjeong",
+          "best": "Pantai tenang & luncur air",
+          "tone": "green",
+          "vibe": "Pantai yang lebih tenang di sebelah timur Haeundae, popular dalam kalangan peluncur ombak, dengan rumah tetamu, asrama luncur dan penginapan menghadap laut.",
+          "near": "Kereta api pantai Blueline Park dan Haeundae hanya beberapa minit perjalanan."
+        },
+        {
+          "name": "Stesen Busan & Choryang",
+          "best": "Hab pengangkutan & berbaloi",
+          "tone": "amber",
+          "vibe": "Sekitar stesen KTX — hotel berharga berpatutan, pelabuhan dan lorong-lorong bukit Choryang, mudah untuk ketibaan dan Nampo-dong.",
+          "near": "KTX dan Laluan 1; pilihan mudah untuk malam pertama atau terakhir di bandar."
         }
       ],
       "budget": "Bajet terhad? Nampo-dong, Seomyeon dan kawasan berhampiran pantai mempunyai banyak rumah tetamu dan hostel."
@@ -128,8 +142,23 @@
           "tone": "amber",
           "vibe": "Kawasan resort Jeju — resort pantai berjenama besar, golf dan pantai Jungmun Saekdal, sesuai untuk percutian santai yang menetap di satu tempat.",
           "near": "Berhampiran Seogwipo, pantai selatan; tertumpu pada resort."
+        },
+        {
+          "name": "Aewol (pantai barat)",
+          "best": "Kafe & pemandangan laut",
+          "tone": "green",
+          "vibe": "Kawasan pantai barat yang indah dengan kafe-restoran dan pension bergaya di sepanjang pesisir, pangkalan santai jauh dari bandar.",
+          "near": "Kereta amat digalakkan; sedikit perjalanan ke barat dari Bandar Jeju."
+        },
+        {
+          "name": "Seongsan (timur)",
+          "best": "Puncak matahari terbit & pantai timur",
+          "tone": "blue",
+          "vibe": "Di sebelah Seongsan Ilchulbong di pantai timur — pension dan rumah tetamu yang mudah untuk pendakian matahari terbit, feri Udo dan Seopjikoji.",
+          "near": "Sesuai untuk menjelajah Jeju timur; kereta amat digalakkan."
         }
-      ]
+      ],
+      "budget": "Bajet terhad? Bandar Jeju mempunyai rumah tetamu dan asrama berhampiran terminal bas dan Pasar Dongmun — banyak antaranya menjadi tempat berkumpul bagi pengembara solo dan pendaki."
     },
     "gyeongju": {
       "name": "Gyeongju",
@@ -158,7 +187,8 @@
           "vibe": "Sisi timur yang lebih menghijau berhampiran Bulguksa dan Seokguram, sesuai untuk penginapan yang tenang dan lawatan kuil awal pagi sebelum orang ramai tiba.",
           "near": "Paling dekat dengan Bulguksa dan Seokguram; perjalanan bas atau teksi dari pusat bandar."
         }
-      ]
+      ],
+      "budget": "Bajet terhad? Hwangnidan-gil dan kawasan pusat bandar mempunyai rumah tetamu hanok dan asrama yang boleh dicapai dengan berjalan kaki ke makam diraja dan Kolam Wolji yang bercahaya pada waktu malam."
     },
     "jeonju": {
       "name": "Jeonju",
@@ -180,7 +210,8 @@
           "vibe": "Hotel moden di sekitar pusat bandar dan stesen, sesuai untuk bas dan KTX — lebih keselesaan dan pilihan, hanya perjalanan singkat dari Hanok Village.",
           "near": "Terbaik untuk sambungan kereta api/bas; lebih senyap pada waktu malam."
         }
-      ]
+      ],
+      "budget": "Bajet terhad? Kampung Hanok dan lorong-lorong sekitarnya dipenuhi rumah tetamu hanok yang berpatutan — bermalam di atas lantai ondol tradisional merupakan sebahagian daripada pengalaman."
     },
     "gangneung": {
       "name": "Gangneung",
@@ -202,7 +233,8 @@
           "vibe": "Di sekitar stesen KTX dan pasar pusat, sesuai untuk bas menyusuri pantai dan ketibaan yang mudah dari Seoul.",
           "near": "Terbaik untuk pengangkutan dan pasar; perjalanan singkat ke pantai."
         }
-      ]
+      ],
+      "budget": "Bajet terhad? Berhampiran Pantai Gyeongpo dan stesen, anda akan menemui rumah tetamu dan pension, dengan kafe di jalan kopi serta laut yang mudah dicapai dengan berjalan kaki atau menaiki bas."
     },
     "suwon": {
       "name": "Suwon",
@@ -255,6 +287,36 @@
         }
       ],
       "budget": "Bajet terhad? Di sekitar Unseo Station di Yeongjong Island (satu hentian AREX dari lapangan terbang) terdapat hotel lapangan terbang yang lebih murah, rumah tetamu dan asrama — sesuai untuk penerbangan awal pagi atau konsert di Inspire Arena."
+    },
+    "sokcho": {
+      "name": "Sokcho",
+      "flag": "🌊",
+      "metaTitle": "Tempat menginap di Sokcho — kawasan Seoraksan & pantai",
+      "intro": "Sokcho ialah pintu masuk ke Taman Negara Seoraksan dan sebuah pekan pantai Laut Timur yang santai. Kebanyakan pelancong menginap berhampiran pantai atau pintu masuk Seoraksan.",
+      "areas": [
+        {
+          "name": "Pantai & Pelabuhan Sokcho",
+          "best": "Pangkalan pantai & bandar",
+          "tone": "blue",
+          "vibe": "Kawasan pantai dan pelabuhan utama, dekat dengan pasar ikan, Kampung Abai dan bas menuju Seoraksan.",
+          "near": "Mudah untuk ke restoran, feri dan terminal bas ekspres."
+        },
+        {
+          "name": "Seorak-dong (pintu masuk Seoraksan)",
+          "best": "Mendaki & alam semula jadi",
+          "tone": "green",
+          "vibe": "Betul-betul di sebelah pintu Taman Negara Seoraksan dan kereta kabel, dengan pension dan hotel resort di celah-celah gunung.",
+          "near": "Terbaik jika mendaki menjadi keutamaan anda; lebih sunyi selepas malam."
+        },
+        {
+          "name": "Pusat Bandar & Terminal Bas",
+          "best": "Pengangkutan & berbaloi",
+          "tone": "amber",
+          "vibe": "Sokcho tengah berhampiran terminal, dengan hotel dan motel yang lebih murah serta sambungan mudah ke pantai dan Seoraksan.",
+          "near": "Selesa untuk tiba, berlepas dan lawatan sehari."
+        }
+      ],
+      "budget": "Bajet terhad? Sokcho mempunyai rumah tetamu dan asrama berhampiran pantai serta Pasar Jungang, di samping penginapan pension di kaki gunung berhampiran Seoraksan yang berbaloi dikongsi bersama rakan."
     }
   }
 }

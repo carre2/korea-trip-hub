@@ -99,6 +99,20 @@
           "tone": "amber",
           "vibe": "Historic Busan — Jagalchi fish market, Gukje market, BIFF Square street food and Gamcheon Culture Village nearby. Good value.",
           "near": "Line 1; walkable, atmospheric, budget-friendly."
+        },
+        {
+          "name": "Songjeong",
+          "best": "Quiet beach & surf",
+          "tone": "green",
+          "vibe": "A calmer beach just east of Haeundae popular with surfers, with guesthouses, surf hostels and sea-view stays.",
+          "near": "Blueline Park coastal rail and Haeundae are a short ride away."
+        },
+        {
+          "name": "Busan Station & Choryang",
+          "best": "Transport hub & value",
+          "tone": "amber",
+          "vibe": "Around the KTX station — well-priced hotels, the port and Choryang's hillside alleys, handy for arrivals and Nampo-dong.",
+          "near": "KTX and Line 1; an easy first or last night in the city."
         }
       ],
       "budget": "On a budget? Nampo-dong, Seomyeon and the areas near the beaches have plenty of guesthouses and hostels."
@@ -129,8 +143,23 @@
           "tone": "amber",
           "vibe": "Jeju's resort belt — big-name beach resorts, golf and the Jungmun Saekdal beach, ideal for a relaxed stay-put holiday.",
           "near": "Near Seogwipo, south coast; resort-focused."
+        },
+        {
+          "name": "Aewol (west coast)",
+          "best": "Cafés & sea views",
+          "tone": "green",
+          "vibe": "A scenic west-coast stretch of café-restaurants and stylish pensions along the shore, a relaxed base away from the city.",
+          "near": "A car is recommended; a short drive west of Jeju City."
+        },
+        {
+          "name": "Seongsan (east)",
+          "best": "Sunrise peak & east coast",
+          "tone": "blue",
+          "vibe": "Beside Seongsan Ilchulbong on the east coast — pensions and guesthouses handy for the sunrise hike, the Udo ferry and Seopjikoji.",
+          "near": "Great for touring east Jeju; a car is recommended."
         }
-      ]
+      ],
+      "budget": "On a budget? Jeju City has guesthouses and hostels near the bus terminal and Dongmun Market — many are social hubs for solo travelers and hikers."
     },
     "gyeongju": {
       "name": "Gyeongju",
@@ -159,7 +188,8 @@
           "vibe": "The greener eastern side near Bulguksa and Seokguram, good for a peaceful base and an early temple visit before the crowds.",
           "near": "Closest to Bulguksa and Seokguram; a bus or taxi ride from downtown."
         }
-      ]
+      ],
+      "budget": "On a budget? Hwangnidan-gil and the downtown area have hanok guesthouses and hostels within walking distance of the royal tombs and the night-lit Wolji Pond."
     },
     "jeonju": {
       "name": "Jeonju",
@@ -181,7 +211,8 @@
           "vibe": "Modern hotels around the downtown and station, handy for buses and the KTX — more comfort and choice, a short ride from the hanok village.",
           "near": "Best for train/bus connections; quieter at night."
         }
-      ]
+      ],
+      "budget": "On a budget? The Hanok Village and its side streets are full of affordable hanok guesthouses — a night on a traditional ondol floor is part of the experience."
     },
     "gangneung": {
       "name": "Gangneung",
@@ -203,7 +234,8 @@
           "vibe": "Around the KTX station and central market, handy for buses down the coast and an easy arrival from Seoul.",
           "near": "Best for transport and markets; a short ride to the beaches."
         }
-      ]
+      ],
+      "budget": "On a budget? Near Gyeongpo Beach and the station you'll find guesthouses and pensions, with coffee-street cafés and the sea an easy walk or bus ride away."
     },
     "suwon": {
       "name": "Suwon",
@@ -256,6 +288,36 @@
         }
       ],
       "budget": "On a budget? Around Unseo Station on Yeongjong Island (one AREX stop from the airport) there are cheaper airport hotels, guesthouses and dorms — handy for an early flight or an Inspire Arena concert."
+    },
+    "sokcho": {
+      "name": "Sokcho",
+      "flag": "🌊",
+      "metaTitle": "Where to stay in Sokcho — Seoraksan & beach areas",
+      "intro": "Sokcho is the gateway to Seoraksan National Park and a laid-back East Sea beach town. Most visitors base near the beach or the Seoraksan entrance.",
+      "areas": [
+        {
+          "name": "Sokcho Beach & Harbor",
+          "best": "Beach & city base",
+          "tone": "blue",
+          "vibe": "The main beach and harbor area, close to the fish market, Abai Village and buses toward Seoraksan.",
+          "near": "Handy for restaurants, ferries and the express bus terminal."
+        },
+        {
+          "name": "Seorak-dong (Seoraksan entrance)",
+          "best": "Hiking & nature",
+          "tone": "green",
+          "vibe": "Right by the Seoraksan National Park gate and cable car, with pensions and resort hotels among the mountains.",
+          "near": "Best if hiking is your priority; quieter after dark."
+        },
+        {
+          "name": "Downtown & Bus Terminal",
+          "best": "Transport & value",
+          "tone": "amber",
+          "vibe": "Central Sokcho near the terminals, with cheaper hotels and motels and easy links to the beach and Seoraksan.",
+          "near": "Convenient for arriving, leaving and day trips."
+        }
+      ],
+      "budget": "On a budget? Sokcho has guesthouses and hostels near the beach and Jungang Market, plus mountain pensions near Seoraksan that split well between friends."
     }
   }
 }

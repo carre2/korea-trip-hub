@@ -14,7 +14,7 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }) {
   const locale = params?.locale || defaultLocale;
-  const c = stayFor(locale).cities[params.city];
+  const c = stayFor(locale).cities[params.city] || stayData.cities[params.city];
   const path = `stay/${params.city}`;
   if (!c) return pageMeta({ locale, path, title: `Where to stay — ${SITE_NAME}` });
   return pageMeta({
@@ -29,7 +29,7 @@ export function generateMetadata({ params }) {
 export default function StayCity({ params }) {
   const locale = params?.locale || defaultLocale;
   const S = stayFor(locale);
-  const c = S.cities[params.city];
+  const c = S.cities[params.city] || stayData.cities[params.city];
   const ui = S.ui;
   const m = getMessages(locale);
   if (!c) return null;
