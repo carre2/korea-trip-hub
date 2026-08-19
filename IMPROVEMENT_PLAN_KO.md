@@ -22,7 +22,10 @@
   - ✅ **사이트 공통 슬림 푸터**(SiteFooter): 법적 링크+제휴고지+© 전 페이지 노출.
   - ✅ 9개 언어 법적 본문 번역(병렬 에이전트, 구조·숫자·이메일·고유명사 보존, verify-content-i18n 9/9). 850→910페이지.
   - **남은 것(WS3 잔여):** contact@ktriphub.com 실제 메일 라우팅(🟥 Cloudflare Email Routing, 당신) · AdSense 재개는 이후 실슬롯+ad_storage 동의와 함께.
-- **🟥 당신 대기:** Cloudflare HTTPS·www→apex 301(WS2, P0 최우선) — 대시보드에서. 착수 시 단계별 클릭 가이드 제공.
+- **2026-08-18 · 글별 신뢰 블록(WS8 일부) 완료 · 배포 (커밋 `4bf3a85`)**
+  - ✅ 멀티사이트 AdSense 승인전략의 "글마다 누가·어떻게 작성" 항목 → `ArticleTrust`(작성·검수 표기 + 편집정책 링크 + 최종검토일 + 출처 검수문구 + 오류신고 링크 + 관련 내부글)를 6개 글 타입(destinations·plan·visa·itinerary·stay·kpop) 전부에 배선, 10개 언어. destinations/stay는 관련글(형제) 포함.
+  - 참고: ktriphub은 승인전략의 공통 요구(신뢰페이지·AdSense 확인메타·광고 절제·lang/hreflang·제휴 고지)를 이미 충족. **AdSense = 확인메타 유지 + 광고 서빙만 승인 전 중단**(전략 ②+⑤ 동시충족).
+- **🟥 당신 대기:** Cloudflare HTTPS·www→apex 301(WS2, P0 최우선) + contact@ktriphub.com 메일 라우팅 — 둘 다 Cloudflare 대시보드. 착수 시 단계별 가이드 제공.
 
 ---
 

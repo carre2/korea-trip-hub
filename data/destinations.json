@@ -1457,6 +1457,177 @@
           "url": "https://english.visitkorea.or.kr"
         }
       ]
+    },
+    "national-museum-korea": {
+      "city": "seoul",
+      "cat": "sights",
+      "icon": "🏛️",
+      "grad": "linear-gradient(135deg,#3B5BA5,#6E8FD6)",
+      "name": "National Museum of Korea",
+      "rank": "Korea's flagship museum",
+      "blurb": "Korea's largest museum — free entry to millennia of art and history.",
+      "intro": [
+        "The National Museum of Korea in Yongsan is the country's flagship museum, tracing Korean history from prehistory through the Joseon era across vast, well-labelled galleries.",
+        "General admission is free and English signage makes it easy for first-time visitors."
+      ],
+      "tips": [
+        "General admission is free; some special exhibitions are ticketed.",
+        "Don't miss the Pensive Bodhisattva room and the tall stone pagoda in the main hall.",
+        "It sits inside Yongsan Family Park — pair it with a riverside walk."
+      ],
+      "nearby": [
+        "Yongsan",
+        "Ichon Han River Park",
+        "Itaewon"
+      ],
+      "official": [
+        {
+          "name": "National Museum of Korea",
+          "url": "https://www.museum.go.kr/site/eng/home"
+        }
+      ]
+    },
+    "seoul-forest": {
+      "city": "seoul",
+      "cat": "sights",
+      "icon": "🌳",
+      "grad": "linear-gradient(135deg,#2E9E5B,#6FCF97)",
+      "name": "Seoul Forest",
+      "rank": "Seoul's green escape",
+      "blurb": "A big riverside park with a deer enclosure, gardens and café streets nearby.",
+      "intro": [
+        "Seoul Forest is a large park east of the city centre, with wooded walking paths, a deer enclosure, water gardens and open lawns popular for picnics.",
+        "It sits beside the Han River and the trendy Seongsu café district."
+      ],
+      "tips": [
+        "Free to enter and open year-round.",
+        "Walk or cycle the Han River path straight from the park.",
+        "Seongsu's cafés and pop-up stores are a short walk away."
+      ],
+      "nearby": [
+        "Seongsu",
+        "Ttukseom Han River Park",
+        "Konkuk University"
+      ],
+      "official": [
+        {
+          "name": "VisitSeoul",
+          "url": "https://english.visitseoul.net"
+        }
+      ]
+    },
+    "beomeosa": {
+      "city": "busan",
+      "cat": "sights",
+      "icon": "🛕",
+      "grad": "linear-gradient(135deg,#B5651D,#E0A45B)",
+      "name": "Beomeosa Temple",
+      "rank": "Busan's mountain temple",
+      "blurb": "A serene Silla-era temple on the wooded slopes of Geumjeongsan.",
+      "intro": [
+        "Beomeosa is one of Busan's most important Buddhist temples, founded in the Silla era on the forested slopes of Geumjeongsan.",
+        "Its halls, stone pagoda and mountain setting feel a world away from the city's beaches."
+      ],
+      "tips": [
+        "Combine it with a hike on Geumjeongsan or a walk along the old fortress wall.",
+        "Dress modestly — it's an active temple.",
+        "Take the subway to Beomeosa Station, then a short bus or uphill walk."
+      ],
+      "nearby": [
+        "Geumjeongsan",
+        "Geumjeong Fortress"
+      ],
+      "official": [
+        {
+          "name": "VisitBusan",
+          "url": "https://www.visitbusan.net/en"
+        }
+      ]
+    },
+    "songjeong-beach": {
+      "city": "busan",
+      "cat": "sights",
+      "icon": "🏄",
+      "grad": "linear-gradient(135deg,#1CA5C9,#7FD4E6)",
+      "name": "Songjeong Beach",
+      "rank": "Busan's surf beach",
+      "blurb": "A relaxed sandy beach popular for beginner surfing, just east of Haeundae.",
+      "intro": [
+        "Songjeong is a calmer, more local beach just east of Haeundae, with gentle waves that make it Busan's favourite spot for first-time surfers.",
+        "Surf shops, cafés and the scenic Blueline Park coastal rail are all close by."
+      ],
+      "tips": [
+        "Surf schools rent boards and run lessons in season.",
+        "The Blueline Park coastal rail runs between Songjeong and Haeundae.",
+        "It's quieter than Haeundae, especially on weekdays."
+      ],
+      "nearby": [
+        "Haeundae Beach",
+        "Blueline Park",
+        "Cheongsapo"
+      ],
+      "official": [
+        {
+          "name": "VisitBusan",
+          "url": "https://www.visitbusan.net/en"
+        }
+      ]
+    },
+    "seopjikoji": {
+      "city": "jeju",
+      "cat": "sights",
+      "icon": "🏝️",
+      "grad": "linear-gradient(135deg,#1E9E8A,#6FD0BE)",
+      "name": "Seopjikoji",
+      "rank": "Jeju's scenic cape",
+      "blurb": "A grassy coastal cape with low cliffs, a lighthouse and spring canola fields.",
+      "intro": [
+        "Seopjikoji is a grassy cape on Jeju's eastern coast, with easy paths along low cliffs, a white lighthouse and views back to Seongsan Ilchulbong.",
+        "In spring the surrounding fields turn bright yellow with canola blossom."
+      ],
+      "tips": [
+        "Pair it with Seongsan Ilchulbong, which is close by.",
+        "Spring canola season and clear days are the most scenic.",
+        "The walk out to the lighthouse is easy and mostly flat."
+      ],
+      "nearby": [
+        "Seongsan Ilchulbong",
+        "Udo Island"
+      ],
+      "official": [
+        {
+          "name": "VisitJeju",
+          "url": "https://www.visitjeju.net/en"
+        }
+      ]
+    },
+    "seokguram": {
+      "city": "gyeongju",
+      "cat": "sights",
+      "icon": "🛕",
+      "grad": "linear-gradient(135deg,#7A6A55,#B7A98E)",
+      "name": "Seokguram Grotto",
+      "rank": "UNESCO Buddhist grotto",
+      "blurb": "A UNESCO granite grotto sheltering a serene seated Buddha above Bulguksa.",
+      "intro": [
+        "Seokguram is a Silla-era stone grotto high on Tohamsan above Bulguksa, sheltering a magnificent seated Buddha ringed by carved guardians and bodhisattvas.",
+        "It is a UNESCO World Heritage Site, listed together with Bulguksa temple."
+      ],
+      "tips": [
+        "Visit it together with Bulguksa — they share the same mountain and heritage listing.",
+        "The main Buddha is viewed through glass to protect it, and photography inside is restricted.",
+        "Sunrise over the eastern ridges is famous here."
+      ],
+      "nearby": [
+        "Bulguksa Temple",
+        "Tohamsan"
+      ],
+      "official": [
+        {
+          "name": "Gyeongju City Tourism",
+          "url": "https://www.gyeongju.go.kr/tour/eng"
+        }
+      ]
     }
   }
 }

@@ -26,6 +26,12 @@ All photographic images are sourced from free/openly-licensed collections and at
 
 | Slug | Credit | Source |
 |---|---|---|
+| dest/national-museum-korea | Photo: Richard Mortel / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:National_Museum_of_Korea%2C_Seoul_%282%29_%2840236586235%29.jpg) |
+| dest/seoul-forest | Photo: WANGYIFAN2024 / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:People_are_enjoying_a_spring_outing_at_Seoul_Forest_Park.jpg) |
+| dest/beomeosa | Photo: Busan Metropolitan City / Busan Tourism Organization · KOGL Type 1 | [Commons](https://commons.wikimedia.org/wiki/File:298-1_%EC%B5%9C%EC%88%98%EC%A7%84_%EB%B2%94%EC%96%B4%EC%82%AC%EC%9D%98_%EA%B0%80%EC%9D%84.jpg) |
+| dest/songjeong-beach | Photo: Sgroey / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Songjeong_panorama.jpg) |
+| dest/seopjikoji | Photo: song songroov / Wikimedia Commons · CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Seopjikoji-ro%2C_Seongsan-eup%2C_Seogwipo-si%2C_Jeju-do%2C_South_Korea_-_panoramio_-_song_songroov.jpg) |
+| dest/seokguram | Photo: Han Seok-Hong / Wikimedia Commons · KOGL Type 1 | [Commons](https://commons.wikimedia.org/wiki/File:Front_view_of_Seokguram_from_front_chamber.jpg) |
 | myeongdong | Photo: Tristan Surtel / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Namdaemun-ro_and_Aloft_Seoul_Myeongdong_by_night.jpg) |
 | gyeongbokgung | Photo: Frank Schulenburg / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gyeonghoeru_%28Royal_Banquet_Hall%29_at_Gyeongbokgung_Palace%2C_Seoul.jpg) |
 | n-seoul-tower | Photo: lumoplank / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Namsan_Tower%2C_Seoul_-_Namsan2299.jpg) |
