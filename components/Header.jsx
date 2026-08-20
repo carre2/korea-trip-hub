@@ -1,17 +1,19 @@
 "use client";
 
+// Client component — intentionally imports NOTHING from lib/i18n so the 10
+// message dictionaries never end up in the client bundle. The server layout
+// passes the few strings this needs (nav labels + locale list) as props.
 import { useEffect, useState } from "react";
-import { locales, localeNames, rtlLocales, getMessages } from "../lib/i18n";
 
-export default function Header({ locale }) {
-  const t = getMessages(locale).nav;
+export default function Header({ locale, nav = {}, locales = [], localeNames = {}, rtl = false }) {
+  const t = nav;
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Keep <html lang/dir> in sync with the active locale.
   useEffect(() => {
     document.documentElement.lang = locale;
-    document.documentElement.dir = rtlLocales.includes(locale) ? "rtl" : "ltr";
-  }, [locale]);
+    document.documentElement.dir = rtl ? "rtl" : "ltr";
+  }, [locale, rtl]);
 
   // Close the mobile menu on Escape.
   useEffect(() => {

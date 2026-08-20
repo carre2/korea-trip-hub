@@ -104,7 +104,7 @@ export default function DestinationDetail({ params }) {
 
       {img?.img && (
         <figure className="art-hero">
-          <img src={img.img} alt={d.name} loading="eager" />
+          <img src={img.img} alt={d.name} width={1280} height={853} loading="eager" />
           {img.credit && (
             <figcaption>
               <a href={img.creditUrl} target="_blank" rel="noopener noreferrer">{img.credit}</a>

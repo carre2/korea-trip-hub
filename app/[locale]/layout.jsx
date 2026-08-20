@@ -25,12 +25,13 @@ export function generateMetadata() {
 export default function LocaleLayout({ children, params }) {
   const { locale } = params;
   const dir = rtlLocales.includes(locale) ? "rtl" : "ltr";
-  const consent = getMessages(locale).consent || {};
+  const m = getMessages(locale);
+  const consent = m.consent || {};
   return (
     <html lang={locale} dir={dir}>
       <body>
         <a className="skip-link" href="#main">Skip to content</a>
-        <Header locale={locale} />
+        <Header locale={locale} nav={m.nav} locales={locales} localeNames={localeNames} rtl={dir === "rtl"} />
         <main id="main">{children}</main>
         <SiteFooter locale={locale} />
         <ConsentBanner t={consent} privacyHref={`/${locale}/legal/privacy/`} />

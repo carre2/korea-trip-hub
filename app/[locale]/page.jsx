@@ -191,7 +191,7 @@ export default function Home({ params }) {
               return (
                 <a className="card" key={slug} href={`/${locale}/destinations/${slug}/`}>
                   <div className={`thumb${im ? " thumb-img" : ""}`} style={im ? undefined : { background: d.grad }}>
-                    {im ? <img src={im.img} alt={d.name} loading="lazy" /> : d.icon}
+                    {im ? <img src={im.img} alt={d.name} width={1280} height={853} loading="lazy" /> : d.icon}
                     <span className="rank">🔎 {d.rank}</span>
                   </div>
                   <div className="cbody">
