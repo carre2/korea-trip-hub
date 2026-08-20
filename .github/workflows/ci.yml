@@ -1,0 +1,39 @@
+name: CI
+
+# Gate every push and PR the same way Cloudflare builds the site: a clean
+# install and a full production build, which runs all three content verifiers
+# (verify-i18n + verify-content-i18n in prebuild, verify-seo in postbuild) and
+# the fact-freshness gate. A red check here means the site would not build.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Cancel superseded runs on the same ref (only the latest push matters).
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build (runs i18n + content + SEO verifiers and the fact gate)
+        run: npm run build
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
+
+      - name: Verify static export exists
+        run: test -f out/en/index.html && echo "static export OK"

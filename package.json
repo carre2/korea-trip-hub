@@ -11,8 +11,9 @@
     "verify:i18n": "node scripts/verify-i18n.mjs",
     "verify:content": "node scripts/verify-content-i18n.mjs",
     "verify:seo": "node scripts/verify-seo.mjs",
+    "check:facts": "node scripts/check-facts.mjs",
     "review:export": "node scripts/export-review.mjs",
-    "prebuild": "node scripts/verify-i18n.mjs && node scripts/verify-content-i18n.mjs",
+    "prebuild": "node scripts/verify-i18n.mjs && node scripts/verify-content-i18n.mjs && node scripts/check-facts.mjs",
     "postbuild": "node scripts/verify-seo.mjs"
   },
   "dependencies": {
