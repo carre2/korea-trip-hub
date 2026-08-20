@@ -171,6 +171,60 @@
       "d": "Seaweed rice rolls packed with vegetables, egg and more — the cheap, portable classic for a quick meal or picnic.",
       "key": "gimbap",
       "mapq": "김밥 맛집"
+    },
+    {
+      "key": "dakgalbi",
+      "n": "Dakgalbi (spicy stir-fried chicken)",
+      "icon": "🍗",
+      "grad": "linear-gradient(135deg,#E8552D,#F59E0B)",
+      "tag": "Chuncheon",
+      "mapq": "Dakgalbi restaurant",
+      "d": "Chicken, cabbage and rice cakes stir-fried in a sweet-spicy sauce on a hot plate — the cheese-topped version is a favourite. A Chuncheon speciality, great for sharing."
+    },
+    {
+      "key": "sundubu",
+      "n": "Sundubu-jjigae (soft tofu stew)",
+      "icon": "🍲",
+      "grad": "linear-gradient(135deg,#D92D20,#F97316)",
+      "tag": "Comfort",
+      "mapq": "Sundubu jjigae",
+      "d": "A bubbling, spicy stew of silky uncurdled tofu with seafood or pork, served with rice and often a raw egg cracked in at the table."
+    },
+    {
+      "key": "budae-jjigae",
+      "n": "Budae-jjigae (army stew)",
+      "icon": "🍜",
+      "grad": "linear-gradient(135deg,#C0392B,#E67E22)",
+      "tag": "Sharing",
+      "mapq": "Budae jjigae",
+      "d": "A hearty hot-pot of kimchi, sausage, ham, instant noodles and cheese in a spicy broth — a post-war invention that is now comfort food for groups."
+    },
+    {
+      "key": "ganjang-gejang",
+      "n": "Ganjang-gejang (soy-marinated crab)",
+      "icon": "🦀",
+      "grad": "linear-gradient(135deg,#8B5A2B,#C0894B)",
+      "tag": "Delicacy",
+      "mapq": "Ganjang gejang",
+      "d": "Raw crab marinated in soy sauce until silky and briny — nicknamed the 'rice thief' because it is so good with rice. An adventurous local favourite."
+    },
+    {
+      "key": "pajeon",
+      "n": "Pajeon (savoury pancake)",
+      "icon": "🥞",
+      "grad": "linear-gradient(135deg,#3E9E5B,#C9A227)",
+      "tag": "Rainy day",
+      "mapq": "Haemul pajeon",
+      "d": "A crisp scallion pancake, often loaded with seafood (haemul-pajeon). Koreans love it with makgeolli rice wine, especially on a rainy day."
+    },
+    {
+      "key": "bingsu",
+      "n": "Bingsu (shaved-ice dessert)",
+      "icon": "🍧",
+      "grad": "linear-gradient(135deg,#8EC5FC,#E0A6D8)",
+      "tag": "Dessert",
+      "mapq": "Bingsu cafe",
+      "d": "A mountain of fine shaved ice topped with sweet red beans (patbingsu), fruit, condensed milk or matcha — the go-to summer dessert to share."
     }
   ],
   "make": [

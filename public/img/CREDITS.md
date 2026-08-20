@@ -86,6 +86,12 @@ All photographic images are sourced from free/openly-licensed collections and at
 
 | Key | Credit | Source |
 |---|---|---|
+| food/dakgalbi | Photo: 円周率３パーセント / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cheese_dakgalbi_20200314-01.jpg) |
+| food/sundubu | Photo: Ser Amantio di Nicolao / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sundubu_jjigae_with_seafood_and_beef_from_Lighthouse_Tofu_2.jpg) |
+| food/budae-jjigae | Photo: bryan (Flickr) / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kingkong_Budae_Jjigae_Busan_%2845698928752%29.jpg) |
+| food/ganjang-gejang | Photo: bryan (Flickr) / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Ganjang-gejang_%2832014766195%29.jpg) |
+| food/pajeon | Photo: Jirka Matousek / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Haemul-pajeon_2.jpg) |
+| food/bingsu | Photo: tookapic / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Patbingsu_3.jpg) |
 | bbq | Photo: hellochris / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean.cuisine-Samgyeopsal-01.jpg) |
 | tteokbokki | Photo: jetalone / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korean.snacks-Tteokbokki-08.jpg) |
 | bibimbap | Photo: Chloe Lim / Wikimedia Commons · CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bibimbap_7.jpg) |
