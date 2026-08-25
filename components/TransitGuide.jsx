@@ -19,7 +19,7 @@ function SectionPhoto({ s }) {
   );
 }
 
-export default function TransitGuide({ guide }) {
+export default function TransitGuide({ guide, official }) {
   if (!guide) return null;
   const g = guide;
 
@@ -192,7 +192,7 @@ export default function TransitGuide({ guide }) {
       {/* Official */}
       {g.official && (
         <section className="gv-sec">
-          <h2>Official sources</h2>
+          <h2>{official || "Official sources"}</h2>
           <div className="gv-off-grid">
             {g.official.map((o) => (
               <a key={o.name} className="gv-off" href={o.url} target="_blank" rel="noopener noreferrer">
