@@ -32,6 +32,12 @@ All photographic images are sourced from free/openly-licensed collections and at
 | dest/songjeong-beach | Photo: Sgroey / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Songjeong_panorama.jpg) |
 | dest/seopjikoji | Photo: song songroov / Wikimedia Commons · CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Seopjikoji-ro%2C_Seongsan-eup%2C_Seogwipo-si%2C_Jeju-do%2C_South_Korea_-_panoramio_-_song_songroov.jpg) |
 | dest/seokguram | Photo: Han Seok-Hong / Wikimedia Commons · KOGL Type 1 | [Commons](https://commons.wikimedia.org/wiki/File:Front_view_of_Seokguram_from_front_chamber.jpg) |
+| dest/lotte-world | Photo: kallerna / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lotte_World_day_view_4.jpg) |
+| dest/namdaemun-market | Photo: Smiley.toerist / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Namdaemun_market_in_Seoul_III.jpg) |
+| dest/yongdusan | Photo: Mobius6 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Busan_Tower_and_Yongdusan_Park_20200522_002.jpg) |
+| dest/cheonjeyeon | Photo: lumoplank / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Cheonjeyeon_Waterfall%2C_Jeju_-_Cheonjeyeon2555.jpg) |
+| dest/sanbangsan | Photo: Sadopaul / Wikimedia Commons · CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sanbangsan_%282025-01%29.jpg) |
+| dest/woljeonggyo | Photo: bryan (Flickr) / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Woljeonggyo_Bridge_Gyeongju.jpg) |
 | myeongdong | Photo: Tristan Surtel / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Namdaemun-ro_and_Aloft_Seoul_Myeongdong_by_night.jpg) |
 | gyeongbokgung | Photo: Frank Schulenburg / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gyeonghoeru_%28Royal_Banquet_Hall%29_at_Gyeongbokgung_Palace%2C_Seoul.jpg) |
 | n-seoul-tower | Photo: lumoplank / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Namsan_Tower%2C_Seoul_-_Namsan2299.jpg) |

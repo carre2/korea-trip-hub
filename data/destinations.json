@@ -1628,6 +1628,180 @@
           "url": "https://www.gyeongju.go.kr/tour/eng"
         }
       ]
+    },
+    "lotte-world": {
+      "city": "seoul",
+      "cat": "sights",
+      "icon": "🎢",
+      "grad": "linear-gradient(135deg,#E23B7A,#F59E0B)",
+      "name": "Lotte World",
+      "rank": "Indoor-outdoor theme park",
+      "blurb": "A huge theme park with an indoor 'Adventure' dome and an outdoor 'Magic Island' by a lake.",
+      "intro": [
+        "Lotte World is one of Seoul's biggest theme parks — a covered indoor section that's great whatever the weather, plus an outdoor 'Magic Island' with rides around a lake.",
+        "It's easy to reach by subway and pairs with Lotte World Tower and Seokchon Lake right next door."
+      ],
+      "tips": [
+        "Weekdays are far quieter than weekends.",
+        "It's right by Jamsil Station and Lotte World Tower.",
+        "The indoor area is a lifesaver on a rainy or very hot day."
+      ],
+      "nearby": [
+        "Lotte World Tower",
+        "Seokchon Lake",
+        "Jamsil"
+      ],
+      "official": [
+        {
+          "name": "VisitSeoul",
+          "url": "https://english.visitseoul.net"
+        }
+      ]
+    },
+    "namdaemun-market": {
+      "city": "seoul",
+      "cat": "sights",
+      "icon": "🛍️",
+      "grad": "linear-gradient(135deg,#F2A93B,#E2542D)",
+      "name": "Namdaemun Market",
+      "rank": "Seoul's biggest market",
+      "blurb": "Korea's largest traditional market — street food, goods and bargains.",
+      "intro": [
+        "Namdaemun is Korea's largest traditional market, a maze of alleys packed with clothes, kitchenware, accessories and some of Seoul's best street food.",
+        "It runs day and night and sits right by Namdaemun gate and Myeongdong."
+      ],
+      "tips": [
+        "Come hungry — the food alleys are the highlight (try the hotteok and kalguksu).",
+        "Haggling is normal for goods, less so for food.",
+        "It's a short walk from Myeongdong and Seoul Station."
+      ],
+      "nearby": [
+        "Myeongdong",
+        "Namdaemun Gate",
+        "Seoul Station"
+      ],
+      "official": [
+        {
+          "name": "VisitSeoul",
+          "url": "https://english.visitseoul.net"
+        }
+      ]
+    },
+    "yongdusan": {
+      "city": "busan",
+      "cat": "sights",
+      "icon": "🗼",
+      "grad": "linear-gradient(135deg,#3B6FB5,#59C0E0)",
+      "name": "Yongdusan Park & Busan Tower",
+      "rank": "City-centre landmark",
+      "blurb": "A hilltop park crowned by Busan Tower, with panoramic views over the port.",
+      "intro": [
+        "Yongdusan Park sits on a hill in the middle of downtown Busan, topped by Busan Tower with sweeping views over the harbour and city.",
+        "It's steps from Nampo-dong, Gukje Market and the Jagalchi fish market."
+      ],
+      "tips": [
+        "Go up the tower near sunset for the best light.",
+        "Escalators from Nampo-dong save you the climb.",
+        "Pair it with Gukje Market and Jagalchi nearby."
+      ],
+      "nearby": [
+        "Nampo-dong",
+        "Gukje Market",
+        "Jagalchi Fish Market"
+      ],
+      "official": [
+        {
+          "name": "VisitBusan",
+          "url": "https://www.visitbusan.net/en"
+        }
+      ]
+    },
+    "cheonjeyeon": {
+      "city": "jeju",
+      "cat": "sights",
+      "icon": "💧",
+      "grad": "linear-gradient(135deg,#1E9E8A,#6FD0BE)",
+      "name": "Cheonjeyeon Waterfall",
+      "rank": "Three-tier waterfall",
+      "blurb": "A lush three-tier waterfall with a scenic 'Fairy Bridge' near Jungmun.",
+      "intro": [
+        "Cheonjeyeon is a three-tier waterfall set in dense subtropical forest on Jeju's south coast, linked by shady paths and the ornate Seonimgyo 'fairy bridge'.",
+        "It sits beside the Jungmun resort area."
+      ],
+      "tips": [
+        "Don't mix it up with Cheonjiyeon — this is the three-tier one near Jungmun.",
+        "The top tier flows mainly after rain; the lower tiers are reliable.",
+        "Combine it with Jungmun beach and the Jusangjeolli cliffs."
+      ],
+      "nearby": [
+        "Jungmun",
+        "Jusangjeolli Cliffs",
+        "Seogwipo"
+      ],
+      "official": [
+        {
+          "name": "VisitJeju",
+          "url": "https://www.visitjeju.net/en"
+        }
+      ]
+    },
+    "sanbangsan": {
+      "city": "jeju",
+      "cat": "sights",
+      "icon": "⛰️",
+      "grad": "linear-gradient(135deg,#5B8C5A,#A7C957)",
+      "name": "Sanbangsan",
+      "rank": "Bell-shaped lava dome",
+      "blurb": "A dramatic bell-shaped lava dome with a cliffside cave temple and sea views.",
+      "intro": [
+        "Sanbangsan is a striking bell-shaped lava dome on Jeju's southwest coast, with a cliff grotto temple (Sanbanggulsa) part-way up and wide views over the sea.",
+        "The Yongmeori coast right below makes an easy half-day."
+      ],
+      "tips": [
+        "The climb to the grotto temple is short but steep.",
+        "Pair it with the Yongmeori coastal walk below.",
+        "It's especially pretty with the canola fields in spring."
+      ],
+      "nearby": [
+        "Yongmeori Coast",
+        "Jungmun",
+        "Seogwipo"
+      ],
+      "official": [
+        {
+          "name": "VisitJeju",
+          "url": "https://www.visitjeju.net/en"
+        }
+      ]
+    },
+    "woljeonggyo": {
+      "city": "gyeongju",
+      "cat": "sights",
+      "icon": "🌉",
+      "grad": "linear-gradient(135deg,#7A6A55,#C0A878)",
+      "name": "Woljeonggyo Bridge",
+      "rank": "Silla-era bridge",
+      "blurb": "A beautifully reconstructed Silla-era covered wooden bridge, stunning at night.",
+      "intro": [
+        "Woljeonggyo is a reconstructed Silla-era wooden bridge over the Namcheon stream in Gyeongju, with an elegant pavilion-roofed walkway.",
+        "It's most photogenic in the evening, lit up and reflected in the water."
+      ],
+      "tips": [
+        "Come after dark for the illuminated reflection.",
+        "It's an easy walk or bike ride from Gyeongju's royal tomb park.",
+        "Free to cross and open into the evening."
+      ],
+      "nearby": [
+        "Daereungwon",
+        "Gyochon Village",
+        "Gyeongju"
+      ],
+      "official": [
+        {
+          "name": "Gyeongju City Tourism",
+          "url": "https://www.gyeongju.go.kr/tour/eng"
+        }
+      ]
     }
   }
 }
