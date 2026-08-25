@@ -159,10 +159,10 @@ export default function Home({ params }) {
           <TripPlanner hero={m.hero} t={m.planner} />
 
           <div className="trustbar reveal">
-            <span>🚄 <b>Transport options</b> — KTX, bus &amp; flight</span>
-            <span>🗺️ <b>Day-by-day draft</b> in seconds</span>
-            <span>📤 <b>Share</b> to WhatsApp, LINE &amp; X</span>
-            <span>🌐 <b>10 languages</b></span>
+            <span>🚄 <b>{m.home.trustTransport}</b> — {m.home.trustTransportSub}</span>
+            <span>🗺️ <b>{m.home.trustDraft}</b> {m.home.trustDraftSub}</span>
+            <span>📤 <b>{m.home.trustShare}</b> {m.home.trustShareSub}</span>
+            <span>🌐 <b>{m.home.trustLangs}</b></span>
           </div>
         </div>
       </div>
@@ -247,16 +247,16 @@ export default function Home({ params }) {
         <div className="wrap">
           <div className="sec-head">
             <div>
-              <span className="eyebrow">Book &amp; save</span>
-              <h2>Popular Korea travel deals</h2>
-              <p>Tickets, passes and experiences most visitors book before they go — via Klook.</p>
+              <span className="eyebrow">{m.home.dealsEyebrow}</span>
+              <h2>{m.home.dealsTitle}</h2>
+              <p>{m.home.dealsSub}</p>
             </div>
           </div>
           <div className="deals-grid">
-            <BookCTA partner="klook" icon="📲" label="Korea eSIM" sub="Online in minutes — data on arrival" url={klookSearch("Korea eSIM")} />
-            <BookCTA partner="klook" icon="🚄" label="KTX / SRT train tickets" sub="Seoul ↔ Busan and beyond" url={klookSearch("Korea KTX train ticket")} />
-            <BookCTA partner="klook" icon="🎢" label="Theme parks & attraction tickets" sub="Everland, Lotte World, N Seoul Tower…" url={klookSearch("Korea theme park attraction ticket")} />
-            <BookCTA partner="klook" icon="👘" label="Hanbok, tours & experiences" sub="Palaces, day trips & hands-on classes" url={klookSearch("Korea hanbok tour experience")} disclose />
+            <BookCTA partner="klook" icon="📲" label={m.home.dealEsim} sub={m.home.dealEsimSub} url={klookSearch("Korea eSIM")} />
+            <BookCTA partner="klook" icon="🚄" label={m.home.dealKtx} sub={m.home.dealKtxSub} url={klookSearch("Korea KTX train ticket")} />
+            <BookCTA partner="klook" icon="🎢" label={m.home.dealParks} sub={m.home.dealParksSub} url={klookSearch("Korea theme park attraction ticket")} />
+            <BookCTA partner="klook" icon="👘" label={m.home.dealHanbok} sub={m.home.dealHanbokSub} url={klookSearch("Korea hanbok tour experience")} disclose />
           </div>
         </div>
       </section>
@@ -298,9 +298,9 @@ export default function Home({ params }) {
         <div className="wrap">
           <div className="sec-head">
             <div>
-              <span className="eyebrow">Find your way</span>
-              <h2>Search on your map of choice</h2>
-              <p>Search any address or place on Naver or Kakao maps, right here.</p>
+              <span className="eyebrow">{m.home.mapEyebrow}</span>
+              <h2>{m.home.mapTitle}</h2>
+              <p>{m.home.mapSub}</p>
             </div>
           </div>
           <MapExplorer labels={m.map} locale={locale} />
@@ -372,16 +372,16 @@ export default function Home({ params }) {
             <p style={{ maxWidth: "34ch" }}>{m.footer.tagline}</p>
           </div>
           <div>
-            <h5>Plan</h5>
-            <a href="#plan">Plan Trip</a><a href="#planner">Trip Planner</a><a href="#dest">Destinations</a><a href="#food">Food</a>
+            <h5>{m.footer.colPlan}</h5>
+            <a href="#plan">{m.footer.linkPlanTrip}</a><a href="#planner">{m.nav.planner}</a><a href="#dest">{m.nav.destinations}</a><a href="#food">{m.nav.food}</a>
           </div>
           <div>
-            <h5>Discover</h5>
-            <a href="#kculture">K-Culture</a><a href="https://kpophub.kr">Concerts (kpophub.kr)</a><a href="#reviews">Reviews</a><a href="#help">Help & Safety</a>
+            <h5>{m.footer.colDiscover}</h5>
+            <a href="#kculture">{m.nav.kculture}</a><a href="https://kpophub.kr">{m.footer.linkConcerts}</a><a href="#reviews">{m.nav.reviews}</a><a href="#help">{m.footer.linkHelpSafety}</a>
           </div>
           <div>
-            <h5>Info</h5>
-            <a href="#help">Visa & K-ETA</a><a href="#help">Emergency</a><a href="#help">Embassies</a>
+            <h5>{m.footer.colInfo}</h5>
+            <a href="#help">{m.footer.linkVisa}</a><a href="#help">{m.footer.linkEmergency}</a><a href="#help">{m.footer.linkEmbassies}</a>
           </div>
         </div>
         <div className="note">{m.footer.disclaimer}</div>
