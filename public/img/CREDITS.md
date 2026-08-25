@@ -38,6 +38,12 @@ All photographic images are sourced from free/openly-licensed collections and at
 | dest/cheonjeyeon | Photo: lumoplank / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Cheonjeyeon_Waterfall%2C_Jeju_-_Cheonjeyeon2555.jpg) |
 | dest/sanbangsan | Photo: Sadopaul / Wikimedia Commons · CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Sanbangsan_%282025-01%29.jpg) |
 | dest/woljeonggyo | Photo: bryan (Flickr) / Wikimedia Commons · CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Woljeonggyo_Bridge_Gyeongju.jpg) |
+| dest/incheon-chinatown | Photo: Jjw / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Incheon_Chinatown_Samgukji-Geori.jpg) |
+| dest/songdo-central-park | Photo: Raccoon Dog / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Songdo_Central_Park_at_night.jpg) |
+| dest/wolmido | Photo: JNicol / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Incheon_from_Wolmido.jpg) |
+| dest/eurwangni-beach | Photo: 골뱅이 / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Eurwangni_Beach%2C_Incheon_-_panoramio.jpg) |
+| dest/war-memorial | Photo: Adbar / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:War_Memorial_of_Korea_main_building.JPG) |
+| dest/banpo-hangang | Photo: Bryan Dorrough / Wikimedia Commons · Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banpo_Bridge_Fountain.jpg) |
 | myeongdong | Photo: Tristan Surtel / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Namdaemun-ro_and_Aloft_Seoul_Myeongdong_by_night.jpg) |
 | gyeongbokgung | Photo: Frank Schulenburg / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gyeonghoeru_%28Royal_Banquet_Hall%29_at_Gyeongbokgung_Palace%2C_Seoul.jpg) |
 | n-seoul-tower | Photo: lumoplank / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Namsan_Tower%2C_Seoul_-_Namsan2299.jpg) |

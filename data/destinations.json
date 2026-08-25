@@ -32,6 +32,10 @@
     {
       "key": "sokcho",
       "name": "Sokcho"
+    },
+    {
+      "key": "incheon",
+      "name": "Incheon"
     }
   ],
   "items": {
@@ -1800,6 +1804,180 @@
         {
           "name": "Gyeongju City Tourism",
           "url": "https://www.gyeongju.go.kr/tour/eng"
+        }
+      ]
+    },
+    "incheon-chinatown": {
+      "city": "incheon",
+      "cat": "sights",
+      "icon": "🏮",
+      "grad": "linear-gradient(135deg,#C0392B,#E67E22)",
+      "name": "Incheon Chinatown",
+      "rank": "Korea's original Chinatown",
+      "blurb": "Korea's largest Chinatown — birthplace of jjajangmyeon, with painted alleys and street snacks.",
+      "intro": [
+        "Incheon Chinatown, right by the port, is Korea's oldest and largest Chinatown — a colourful maze of Chinese restaurants, bakeries and mural-lined stairways.",
+        "It's the birthplace of jjajangmyeon (black-bean noodles), and the Jjajangmyeon Museum tells the story."
+      ],
+      "tips": [
+        "Try jjajangmyeon and freshly-steamed gonggal-ppang bread.",
+        "Walk up to the Samgukji mural street and the fairy-tale village next door.",
+        "It's a short walk from Incheon Station on Line 1."
+      ],
+      "nearby": [
+        "Open Port area",
+        "Wolmido",
+        "Sinpo Market"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "songdo-central-park": {
+      "city": "incheon",
+      "cat": "sights",
+      "icon": "🌆",
+      "grad": "linear-gradient(135deg,#2C7BE5,#59D0E6)",
+      "name": "Songdo Central Park",
+      "rank": "Futuristic waterfront park",
+      "blurb": "A sleek waterfront park with a saltwater canal, framed by Songdo's skyline.",
+      "intro": [
+        "Songdo Central Park is the green heart of Incheon's futuristic Songdo district — a landscaped park built around a seawater canal, with skyscrapers rising on every side.",
+        "You can rent a pedal boat or hop on a water taxi along the canal."
+      ],
+      "tips": [
+        "It's especially striking at night when the towers light up.",
+        "Rent a boat on the canal, or walk the full loop.",
+        "Reachable on Incheon subway Line 1."
+      ],
+      "nearby": [
+        "Tri-bowl",
+        "Songdo",
+        "Incheon"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "wolmido": {
+      "city": "incheon",
+      "cat": "sights",
+      "icon": "🎡",
+      "grad": "linear-gradient(135deg,#1CA5C9,#7FD4E6)",
+      "name": "Wolmido",
+      "rank": "Seaside boardwalk",
+      "blurb": "A breezy seaside boardwalk with rides, cafés, seagulls and sunset views.",
+      "intro": [
+        "Wolmido is Incheon's seaside playground — a waterfront promenade lined with cafés, an old-school amusement area, and boats where seagulls follow you for snacks.",
+        "It's a favourite for a sunset stroll and fresh seafood."
+      ],
+      "tips": [
+        "Feeding the seagulls from the ferry deck is a Wolmido tradition.",
+        "Come for sunset and stay for the seaside cafés.",
+        "A short bus ride from Incheon Station."
+      ],
+      "nearby": [
+        "Incheon Chinatown",
+        "Open Port area",
+        "Incheon Port"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "eurwangni-beach": {
+      "city": "incheon",
+      "cat": "sights",
+      "icon": "🏖️",
+      "grad": "linear-gradient(135deg,#1CA5C9,#F2D794)",
+      "name": "Eurwangni Beach",
+      "rank": "Beach near the airport",
+      "blurb": "A sandy sunset beach on Yeongjong Island, minutes from Incheon Airport.",
+      "intro": [
+        "Eurwangni is a gentle sandy beach on Yeongjong Island, just minutes from Incheon Airport — a handy first or last stop, or an easy escape from Seoul.",
+        "It's known for shallow water, seafood restaurants and west-coast sunsets."
+      ],
+      "tips": [
+        "Great for a layover or your first or last night near the airport.",
+        "Sunset here is the highlight.",
+        "Pair it with nearby Muui Island."
+      ],
+      "nearby": [
+        "Incheon Airport",
+        "Yeongjong Island",
+        "Muui Island"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "war-memorial": {
+      "city": "seoul",
+      "cat": "sights",
+      "icon": "🎖️",
+      "grad": "linear-gradient(135deg,#5B6472,#9AA2B6)",
+      "name": "War Memorial of Korea",
+      "rank": "Free history museum",
+      "blurb": "A vast, free museum of Korean military history with an outdoor weapons park.",
+      "intro": [
+        "The War Memorial of Korea in Yongsan is a large, free museum tracing Korea's military history from ancient times through the Korean War, with moving memorial halls.",
+        "Its outdoor plaza displays tanks, aircraft and ships that kids and history buffs love."
+      ],
+      "tips": [
+        "General admission is free.",
+        "The outdoor aircraft-and-tank park is a hit with kids.",
+        "It's near Itaewon and Samgakji Station."
+      ],
+      "nearby": [
+        "Yongsan",
+        "Itaewon",
+        "Namsan"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "banpo-hangang": {
+      "city": "seoul",
+      "cat": "sights",
+      "icon": "🌈",
+      "grad": "linear-gradient(135deg,#8E5BE0,#59C0E6)",
+      "name": "Banpo Hangang Park",
+      "rank": "Rainbow Fountain riverside",
+      "blurb": "A Han River park famous for the Banpo Bridge Moonlight Rainbow Fountain.",
+      "intro": [
+        "Banpo Hangang Park stretches along the Han River beside Banpo Bridge, home to the Moonlight Rainbow Fountain — a light-and-water show that arcs off the bridge on summer evenings.",
+        "By day it's a favourite for picnics, bikes and convenience-store ramyeon by the water."
+      ],
+      "tips": [
+        "Check the fountain show times before you go — it's seasonal and runs in the evening.",
+        "Grab ramyeon and snacks from the riverside convenience store.",
+        "Rent a bike or a picnic mat and relax like the locals."
+      ],
+      "nearby": [
+        "Banpo Bridge",
+        "Express Bus Terminal",
+        "Sinsa"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
         }
       ]
     }
