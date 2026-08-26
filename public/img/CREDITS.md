@@ -44,6 +44,12 @@ All photographic images are sourced from free/openly-licensed collections and at
 | dest/eurwangni-beach | Photo: 골뱅이 / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Eurwangni_Beach%2C_Incheon_-_panoramio.jpg) |
 | dest/war-memorial | Photo: Adbar / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:War_Memorial_of_Korea_main_building.JPG) |
 | dest/banpo-hangang | Photo: Bryan Dorrough / Wikimedia Commons · Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banpo_Bridge_Fountain.jpg) |
+| dest/odongdo | Photo: Mobius6 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Yeosu_Odongdo_20180929_001.jpg) |
+| dest/dolsan-bridge | Photo: Ambir Tolang / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Yeosu-si,_South_Korea_(Unsplash).jpg) |
+| dest/hyangiram | Photo: Garam / Wikimedia Commons · CC BY | [Commons](https://commons.wikimedia.org/wiki/File:Cheonsugwaneumjeon_of_Hyangiram_in_2017.jpg) |
+| dest/dongpirang | Photo: Mobius6 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dongpirang_Village_20190511_18.jpg) |
+| dest/tongyeong-cablecar | Photo: Junho Jung / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korea-Tongyeong-Hallyeo_Waterway_Observation_Cable_Car-03.jpg) |
+| dest/hansando | Photo: Asfreeas / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Korea-Tongyeong-Hansan_Island-Overview-01.jpg) |
 | dest/seomun-market | Photo: Choi2451 / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Seomun_Night_Market,_Daegu.jpg) |
 | dest/apsan-park | Photo: Daegu City Official / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:앞산공원.jpg) |
 | dest/mudeungsan | Photo: VaneTrz20 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:View_from_Mudeungsan.jpg) |

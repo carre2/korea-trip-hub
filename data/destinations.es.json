@@ -1383,6 +1383,120 @@
         "Andong",
         "Nakdong River"
       ]
+    },
+    "odongdo": {
+      "name": "Odongdo",
+      "rank": "La isla de las camelias de Yeosu",
+      "blurb": "Una pequeña isla de bosques de camelia y senderos junto al mar, unida a Yeosu por un rompeolas.",
+      "intro": [
+        "Odongdo es una pequeña isla boscosa frente a Yeosu, unida a tierra firme por un largo rompeolas que puedes recorrer a pie o cruzar montado en el pequeño tren dongbaek.",
+        "A finales del invierno sus camelias florecen de rojo, y los senderos sombreados conducen a un faro y a miradores con vistas al mar."
+      ],
+      "tips": [
+        "Recorre el rompeolas a pie o súbete al tren dongbaek de estilo tranvía.",
+        "Las camelias florecen desde finales del invierno hasta comienzos de la primavera.",
+        "Combínala con el paseo marítimo de Yeosu y el teleférico que hay cerca."
+      ],
+      "nearby": [
+        "Dolsan Bridge",
+        "Yeosu Expo",
+        "Jinnamgwan"
+      ]
+    },
+    "dolsan-bridge": {
+      "name": "Dolsan Bridge",
+      "rank": "Ícono del mar nocturno de Yeosu",
+      "blurb": "El puente iluminado hacia Dolsan Island: el corazón resplandeciente del famoso mar nocturno de Yeosu.",
+      "intro": [
+        "El Dolsan Bridge se arquea sobre el agua hasta Dolsan Island, iluminado con colores cambiantes al caer la noche: la imagen que la mayoría de la gente asocia con el mar nocturno de Yeosu.",
+        "El paseo marítimo y las cafeterías que hay debajo lo convierten en un paseo nocturno muy apreciado."
+      ],
+      "tips": [
+        "Ven después del atardecer para ver el puente iluminado y su reflejo sobre el agua.",
+        "Sube hasta Dolsan Park para disfrutar del mirador clásico.",
+        "Los restaurantes de marisco se alinean en la orilla del lado de Dolsan."
+      ],
+      "nearby": [
+        "Odongdo",
+        "Dolsan Park",
+        "Yeosu Expo"
+      ]
+    },
+    "hyangiram": {
+      "name": "Hyangiram Hermitage",
+      "rank": "Templo del amanecer sobre el acantilado",
+      "blurb": "Un pequeño ermitorio aferrado a los acantilados marinos en la punta de Dolsan Island, célebre por su amanecer.",
+      "intro": [
+        "Hyangiram es un pequeño ermitorio construido en los acantilados rocosos del extremo sur de Dolsan Island, al que se llega por un sendero empinado y estrechos pasadizos entre rocas.",
+        "Mira de frente al mar abierto y es uno de los lugares más célebres de Corea para contemplar el amanecer."
+      ],
+      "tips": [
+        "Lleva buen calzado: el tramo final se estrecha al pasar entre grietas de roca.",
+        "El amanecer es la experiencia estrella, así que ve temprano.",
+        "Está en el extremo más alejado de Dolsan Island, y se llega mejor en coche o autobús."
+      ],
+      "nearby": [
+        "Dolsan Bridge",
+        "Dolsan Island",
+        "Yeosu"
+      ]
+    },
+    "dongpirang": {
+      "name": "Dongpirang Village",
+      "rank": "Pueblo de murales sobre el puerto",
+      "blurb": "Un laberinto de callejones en la ladera pintados con murales, que se asoma sobre el viejo puerto de Tongyeong.",
+      "intro": [
+        "Dongpirang es un antiguo barrio empinado sobre el puerto de Gangguan, en Tongyeong, salvado de la demolición y cubierto de murales luminosos pintados por artistas y voluntarios.",
+        "Subir por sus callejones pintados te recompensa con vistas al puerto y rincones perfectos para fotografiar a cada paso."
+      ],
+      "tips": [
+        "Lleva calzado cómodo: los callejones son empinados y con escalones.",
+        "Los murales cambian con el tiempo a medida que se pintan otros nuevos, y aquí todavía vive gente, así que sé respetuoso.",
+        "Combínalo con el Jungang Market, al pie de la colina."
+      ],
+      "nearby": [
+        "Jungang Market",
+        "Tongyeong Cable Car",
+        "Gangguan Port"
+      ]
+    },
+    "tongyeong-cablecar": {
+      "name": "Tongyeong Cable Car",
+      "rank": "Paseo con vistas al mar de Hallyeo",
+      "blurb": "Un largo teleférico que sube al Mireuksan para disfrutar de una vista panorámica de las islas del parque marítimo de Hallyeo.",
+      "intro": [
+        "El Tongyeong Cable Car asciende al monte Mireuksan, uno de los recorridos de este tipo más largos del país, deslizándose sobre el bosque hasta una estación en lo alto de la cresta.",
+        "Desde la cima, unas pasarelas conducen a miradores sobre las islas dispersas del canal de Hallyeo."
+      ],
+      "tips": [
+        "Compra los billetes con antelación y cuenta con cola los fines de semana concurridos.",
+        "Los senderos cortos de la cima llevan a los mejores miradores de las islas.",
+        "Los días despejados ofrecen las vistas al mar más amplias."
+      ],
+      "nearby": [
+        "Dongpirang Village",
+        "Mireuksan",
+        "Hansando"
+      ]
+    },
+    "hansando": {
+      "name": "Hansando",
+      "rank": "La isla de la gran batalla naval",
+      "blurb": "Una apacible isla boscosa frente a Tongyeong, escenario de la célebre victoria naval de Hansan del Admiral Yi.",
+      "intro": [
+        "Hansando es una isla tranquila y verde, a un corto trayecto en ferry desde Tongyeong, rodeada de aguas serenas y orillas cubiertas de pinos.",
+        "Se la recuerda como el escenario de la célebre victoria de Hansan del Admiral Yi Sun-sin, hoy conmemorada por el santuario de Jeseungdang."
+      ],
+      "tips": [
+        "Toma el ferry desde la terminal de pasajeros de Tongyeong.",
+        "Visita el santuario de Jeseungdang y su pabellón con vistas al mar.",
+        "Es una excursión fácil y relajada de medio día."
+      ],
+      "nearby": [
+        "Tongyeong",
+        "Jeseungdang",
+        "Tongyeong Cable Car"
+      ]
     }
   }
 }

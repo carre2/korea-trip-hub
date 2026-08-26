@@ -48,6 +48,14 @@
     {
       "key": "andong",
       "name": "Andong"
+    },
+    {
+      "key": "yeosu",
+      "name": "Yeosu"
+    },
+    {
+      "key": "tongyeong",
+      "name": "Tongyeong"
     }
   ],
   "items": {
@@ -2159,6 +2167,180 @@
         "Hahoe Folk Village",
         "Andong",
         "Nakdong River"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "odongdo": {
+      "city": "yeosu",
+      "cat": "sights",
+      "icon": "🏛️",
+      "grad": "linear-gradient(135deg,#C97A16,#F0A83C)",
+      "name": "Odongdo",
+      "rank": "Yeosu's camellia island",
+      "blurb": "A little island of camellia woods and sea-walk paths, linked to Yeosu by a breakwater.",
+      "intro": [
+        "Odongdo is a small, forested island just off Yeosu, joined to the mainland by a long breakwater you can walk or ride a little dongbaek train across.",
+        "In late winter its camellia trees bloom red, and shaded paths lead to a lighthouse and sea-view lookouts."
+      ],
+      "tips": [
+        "Walk the breakwater out, or hop on the trolley-style dongbaek train.",
+        "Camellias flower from late winter into early spring.",
+        "Pair it with the Yeosu waterfront and cable car nearby."
+      ],
+      "nearby": [
+        "Dolsan Bridge",
+        "Yeosu Expo",
+        "Jinnamgwan"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "dolsan-bridge": {
+      "city": "yeosu",
+      "cat": "sights",
+      "icon": "🏛️",
+      "grad": "linear-gradient(135deg,#C97A16,#F0A83C)",
+      "name": "Dolsan Bridge",
+      "rank": "Yeosu night-sea icon",
+      "blurb": "The illuminated bridge to Dolsan Island — the glowing heart of Yeosu's famous night sea.",
+      "intro": [
+        "Dolsan Bridge arcs across the water to Dolsan Island, lit up in shifting colours after dark — the image most people picture as Yeosu's night sea.",
+        "The waterfront promenade and cafes below make it a favourite evening stroll."
+      ],
+      "tips": [
+        "Come after sunset for the illuminated bridge and its reflection on the water.",
+        "Walk up to Dolsan Park for the classic overlook.",
+        "Seafood restaurants line the shore on the Dolsan side."
+      ],
+      "nearby": [
+        "Odongdo",
+        "Dolsan Park",
+        "Yeosu Expo"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "hyangiram": {
+      "city": "yeosu",
+      "cat": "sights",
+      "icon": "🏛️",
+      "grad": "linear-gradient(135deg,#C97A16,#F0A83C)",
+      "name": "Hyangiram Hermitage",
+      "rank": "Sunrise cliff temple",
+      "blurb": "A tiny hermitage clinging to sea cliffs at the tip of Dolsan Island, famous for sunrise.",
+      "intro": [
+        "Hyangiram is a small hermitage built into the rocky cliffs at the southern tip of Dolsan Island, reached by a steep path and narrow rock passages.",
+        "It looks straight out over the open sea and is one of Korea's celebrated spots to watch the sunrise."
+      ],
+      "tips": [
+        "Wear good shoes — the final climb squeezes through narrow rock clefts.",
+        "Sunrise is the signature experience, so go early.",
+        "It's at the far end of Dolsan Island, best reached by car or bus."
+      ],
+      "nearby": [
+        "Dolsan Bridge",
+        "Dolsan Island",
+        "Yeosu"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "dongpirang": {
+      "city": "tongyeong",
+      "cat": "sights",
+      "icon": "🏛️",
+      "grad": "linear-gradient(135deg,#C97A16,#F0A83C)",
+      "name": "Dongpirang Village",
+      "rank": "Harbor mural village",
+      "blurb": "A hillside warren of alleys painted with murals, looking down over Tongyeong's old harbor.",
+      "intro": [
+        "Dongpirang is a steep old neighbourhood above Tongyeong's Gangguan harbor, saved from demolition and covered in bright murals by artists and volunteers.",
+        "Climbing its painted lanes rewards you with harbour views and photo-perfect corners at every turn."
+      ],
+      "tips": [
+        "Wear comfortable shoes — the lanes are steep and stepped.",
+        "The murals change over time as new ones are painted, and people still live here, so be respectful.",
+        "Combine it with Jungang Market at the bottom of the hill."
+      ],
+      "nearby": [
+        "Jungang Market",
+        "Tongyeong Cable Car",
+        "Gangguan Port"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "tongyeong-cablecar": {
+      "city": "tongyeong",
+      "cat": "hiking",
+      "icon": "🥾",
+      "grad": "linear-gradient(135deg,#2f9e44,#69c97a)",
+      "name": "Tongyeong Cable Car",
+      "rank": "Hallyeo sea-view ride",
+      "blurb": "A long cable car up Mireuksan for a sweeping view over the Hallyeo maritime park's islands.",
+      "intro": [
+        "The Tongyeong Cable Car climbs Mireuksan mountain, one of the longest such rides in the country, gliding over forest to a ridge-top station.",
+        "From the top, walkways lead to lookouts over the scattered islands of the Hallyeo Waterway."
+      ],
+      "tips": [
+        "Buy tickets early and expect a queue on busy weekends.",
+        "Short trails at the top lead to the best island viewpoints.",
+        "Clear days give the widest sea views."
+      ],
+      "nearby": [
+        "Dongpirang Village",
+        "Mireuksan",
+        "Hansando"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "hansando": {
+      "city": "tongyeong",
+      "cat": "sights",
+      "icon": "🏛️",
+      "grad": "linear-gradient(135deg,#C97A16,#F0A83C)",
+      "name": "Hansando",
+      "rank": "Island of the great sea battle",
+      "blurb": "A peaceful wooded island off Tongyeong, site of Admiral Yi's famous Hansan naval victory.",
+      "intro": [
+        "Hansando is a quiet, green island a short ferry from Tongyeong, ringed by calm waters and pine-covered shores.",
+        "It is remembered as the site of Admiral Yi Sun-sin's celebrated Hansan Island victory, marked today by the Jeseungdang shrine."
+      ],
+      "tips": [
+        "Take the ferry from Tongyeong's passenger terminal.",
+        "Visit the Jeseungdang shrine and its sea-view pavilion.",
+        "It makes an easy, restful half-day trip."
+      ],
+      "nearby": [
+        "Tongyeong",
+        "Jeseungdang",
+        "Tongyeong Cable Car"
       ],
       "official": [
         {
