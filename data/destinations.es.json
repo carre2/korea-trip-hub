@@ -1269,6 +1269,120 @@
         "Terminal de Autobuses Exprés",
         "Sinsa"
       ]
+    },
+    "seomun-market": {
+      "name": "Seomun Market",
+      "rank": "El gran mercado nocturno de Daegu",
+      "blurb": "Uno de los mercados tradicionales más grandes y antiguos de Corea: un enorme mercado diurno que se transforma en una animada calle gastronómica nocturna.",
+      "intro": [
+        "Seomun Market es uno de los mercados tradicionales más grandes y antiguos de Corea, en pleno corazón de Daegu, con incontables puestos de textiles, artículos para el hogar y todo lo que se te ocurra.",
+        "Al caer la noche, el mercado nocturno cobra vida y los pasillos se llenan de carritos de comida que sirven las especialidades de Daegu bajo un techo de luces."
+      ],
+      "tips": [
+        "Ven con hambre después del atardecer: el mercado nocturno se prolonga hasta bien entrada la tarde con comida callejera en abundancia.",
+        "Prueba especialidades de Daegu como el napjak-mandu (empanadillas planas) y el makchang a la parrilla.",
+        "Es fácil llegar en el Metro de Daegu; la parada más cercana es la estación de Seomun Market."
+      ],
+      "nearby": [
+        "Dongseongno",
+        "Calles de Historia Moderna de Daegu",
+        "Calle Kim Kwang-seok"
+      ]
+    },
+    "apsan-park": {
+      "name": "Apsan Park",
+      "rank": "El mirador de montaña de Daegu",
+      "blurb": "Un parque montañoso y boscoso a las afueras de la ciudad, con un teleférico que sube hasta una vista panorámica sobre Daegu.",
+      "intro": [
+        "Apsan Park se extiende por las laderas arboladas al sur de Daegu, entrelazadas con senderos de montaña, pequeños templos y un teleférico.",
+        "El observatorio cercano a la cima ofrece una de las mejores panorámicas urbanas del país: Daegu extendido a tus pies, sobre todo al atardecer y de noche."
+      ],
+      "tips": [
+        "Sube en el teleférico de Apsan si prefieres evitar la caminata hasta el observatorio.",
+        "Programa la visita para el final de la tarde y verás cómo se encienden las luces de la ciudad.",
+        "Está a un corto trayecto en taxi o autobús desde el centro de Daegu."
+      ],
+      "nearby": [
+        "Seomun Market",
+        "Arboreto de Daegu",
+        "Callejón Anjirang Gopchang"
+      ]
+    },
+    "mudeungsan": {
+      "name": "Mudeungsan National Park",
+      "rank": "La montaña guardiana de Gwangju",
+      "blurb": "La querida montaña de parque nacional de Gwangju, conocida por sus suaves senderos de cresta y sus espectaculares columnas de roca cerca de la cima.",
+      "intro": [
+        "El Mudeungsan se alza justo detrás de Gwangju: un parque nacional de crestas boscosas y famosas formaciones de roca columnar cerca de la cumbre.",
+        "Sus senderos bien trazados lo convierten en una excursión de un día muy apreciada, con amplias vistas sobre la ciudad."
+      ],
+      "tips": [
+        "La entrada del templo Jeungsimsa es el punto de partida más fácil desde la ciudad.",
+        "Lleva calzado adecuado: los senderos superiores son rocosos.",
+        "El follaje otoñal y las azaleas primaverales son las temporadas más espectaculares."
+      ],
+      "nearby": [
+        "Gwangju National Museum",
+        "Asia Culture Center",
+        "Jeungsimsa"
+      ]
+    },
+    "gwangju-museum": {
+      "name": "Gwangju National Museum",
+      "rank": "El tesoro de la región de Jeolla",
+      "blurb": "Un museo tranquilo y gratuito sobre la historia y el arte de la región de Jeolla, famoso por las reliquias rescatadas de un naufragio medieval.",
+      "intro": [
+        "El Gwangju National Museum reúne el arte y la historia de la región de Jeolla dentro de un elegante edificio de estilo tradicional al pie de las colinas.",
+        "Su colección más conocida es el conjunto de cerámicas y cargamento recuperado del naufragio de Sinan, frente a la costa suroccidental de Corea."
+      ],
+      "tips": [
+        "La entrada general es gratuita.",
+        "Reserva un par de horas y combínalo después con un paseo por el cercano Mudeungsan.",
+        "Está algo apartado del centro: lo más cómodo es llegar en taxi o autobús."
+      ],
+      "nearby": [
+        "Mudeungsan",
+        "Asia Culture Center",
+        "Sala de la Bienal de Gwangju"
+      ]
+    },
+    "hahoe-village": {
+      "name": "Hahoe Folk Village",
+      "rank": "Aldea viva Patrimonio de la UNESCO",
+      "blurb": "Una aldea clánica declarada Patrimonio de la UNESCO, con casas de tejas y de paja acurrucadas en un meandro del río Nakdong.",
+      "intro": [
+        "Hahoe es una aldea centenaria cerca de Andong donde la gente aún vive entre las mansiones de tejas y las casitas con techo de paja de un antiguo clan confuciano.",
+        "El río Nakdong la rodea por completo (su nombre significa 'rodeada por el río') y es Patrimonio de la Humanidad de la UNESCO."
+      ],
+      "tips": [
+        "Sube al acantilado de Buyongdae, al otro lado del río, para disfrutar de la vista clásica sobre toda la aldea.",
+        "Consulta el horario de la danza de máscaras de Hahoe, un animado espectáculo folclórico local.",
+        "Está a un trayecto en autobús o taxi desde Andong; combínalo con el museo de máscaras situado en la entrada."
+      ],
+      "nearby": [
+        "Byeongsan Seowon",
+        "Acantilado de Buyongdae",
+        "Andong"
+      ]
+    },
+    "byeongsan-seowon": {
+      "name": "Byeongsan Seowon",
+      "rank": "Academia confuciana Patrimonio de la UNESCO",
+      "blurb": "Una serena academia confuciana Patrimonio de la UNESCO, famosa por la vista del río enmarcada por su pabellón abierto Mandaeru.",
+      "intro": [
+        "Byeongsan Seowon es una academia confuciana bellamente ubicada cerca de Andong, entre los seowon coreanos inscritos como Patrimonio de la Humanidad de la UNESCO.",
+        "Su pabellón abierto Mandaeru enmarca una muy apreciada vista del río y de la pared del acantilado de enfrente."
+      ],
+      "tips": [
+        "Siéntate en el suelo del pabellón Mandaeru y contempla la vista enmarcada del río: lo mejor de la visita.",
+        "Es tranquilo y poco concurrido; combínalo con la cercana Hahoe Folk Village.",
+        "Se accede en coche o taxi desde Andong por una carretera rural."
+      ],
+      "nearby": [
+        "Hahoe Folk Village",
+        "Andong",
+        "Nakdong River"
+      ]
     }
   }
 }

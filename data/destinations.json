@@ -36,6 +36,18 @@
     {
       "key": "incheon",
       "name": "Incheon"
+    },
+    {
+      "key": "daegu",
+      "name": "Daegu"
+    },
+    {
+      "key": "gwangju",
+      "name": "Gwangju"
+    },
+    {
+      "key": "andong",
+      "name": "Andong"
     }
   ],
   "items": {
@@ -1973,6 +1985,180 @@
         "Banpo Bridge",
         "Express Bus Terminal",
         "Sinsa"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "seomun-market": {
+      "city": "daegu",
+      "cat": "shopping",
+      "icon": "🛍️",
+      "grad": "linear-gradient(135deg,#3B4CE0,#7A5CFF)",
+      "name": "Seomun Market",
+      "rank": "Daegu's grand night market",
+      "blurb": "One of Korea's largest and oldest traditional markets — a huge day market that turns into a buzzing night food street.",
+      "intro": [
+        "Seomun Market is one of Korea's largest and oldest traditional markets, in the heart of Daegu, with countless stalls of textiles, homeware and everything in between.",
+        "After dark the night market fires up and the aisles fill with food carts serving Daegu specialities under a canopy of lights."
+      ],
+      "tips": [
+        "Come hungry after sunset — the night market runs into the evening with street food galore.",
+        "Try Daegu specialities like napjak-mandu (flat dumplings) and grilled makchang.",
+        "It's easy to reach on the Daegu Metro; the nearest stop is Seomun Market Station."
+      ],
+      "nearby": [
+        "Dongseongno",
+        "Daegu Modern History Streets",
+        "Kim Kwang-seok Street"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "apsan-park": {
+      "city": "daegu",
+      "cat": "hiking",
+      "icon": "🥾",
+      "grad": "linear-gradient(135deg,#2f9e44,#69c97a)",
+      "name": "Apsan Park",
+      "rank": "Daegu's mountain lookout",
+      "blurb": "A forested mountain park on the city's edge, with a cable car up to a sweeping view over Daegu.",
+      "intro": [
+        "Apsan Park spreads across the wooded slopes south of Daegu, laced with hiking trails, small temples and a cable car.",
+        "The observatory near the top offers one of the best city panoramas in the country — Daegu laid out below, especially at sunset and after dark."
+      ],
+      "tips": [
+        "Ride the Apsan Cable Car up if you'd rather skip the climb to the observatory.",
+        "Time it for late afternoon to catch the city lights coming on.",
+        "It's a short taxi or bus ride from central Daegu."
+      ],
+      "nearby": [
+        "Seomun Market",
+        "Daegu Arboretum",
+        "Anjirang Gopchang Alley"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "mudeungsan": {
+      "city": "gwangju",
+      "cat": "hiking",
+      "icon": "🥾",
+      "grad": "linear-gradient(135deg,#2f9e44,#69c97a)",
+      "name": "Mudeungsan National Park",
+      "rank": "Gwangju's guardian mountain",
+      "blurb": "Gwangju's beloved national-park mountain, known for gentle ridgeline trails and dramatic rock columns near the top.",
+      "intro": [
+        "Mudeungsan rises right behind Gwangju — a national park of forested ridges and famous columnar-rock formations near the summit.",
+        "Well-graded trails make it a favourite day hike, with wide views back over the city."
+      ],
+      "tips": [
+        "The Jeungsimsa temple entrance is the easiest starting point from the city.",
+        "Wear proper shoes — the upper trails are rocky.",
+        "Autumn foliage and spring azaleas are the peak seasons."
+      ],
+      "nearby": [
+        "Gwangju National Museum",
+        "Asia Culture Center",
+        "Jeungsimsa"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "gwangju-museum": {
+      "city": "gwangju",
+      "cat": "sights",
+      "icon": "🏛️",
+      "grad": "linear-gradient(135deg,#C97A16,#F0A83C)",
+      "name": "Gwangju National Museum",
+      "rank": "Jeolla's treasure house",
+      "blurb": "A calm, free museum of Jeolla-region history and art, famous for relics raised from a medieval shipwreck.",
+      "intro": [
+        "The Gwangju National Museum gathers the art and history of the Jeolla region inside a graceful traditional-style building at the foot of the hills.",
+        "Its best-known collection is the haul of ceramics and cargo recovered from the Sinan shipwreck off Korea's southwest coast."
+      ],
+      "tips": [
+        "General admission is free.",
+        "Allow a couple of hours, then pair it with a walk on nearby Mudeungsan.",
+        "It sits a little outside the centre — easiest by taxi or bus."
+      ],
+      "nearby": [
+        "Mudeungsan",
+        "Asia Culture Center",
+        "Gwangju Biennale Hall"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "hahoe-village": {
+      "city": "andong",
+      "cat": "sights",
+      "icon": "🏛️",
+      "grad": "linear-gradient(135deg,#C97A16,#F0A83C)",
+      "name": "Hahoe Folk Village",
+      "rank": "UNESCO living village",
+      "blurb": "A UNESCO-listed clan village of tiled and thatched houses cradled in a bend of the Nakdong River.",
+      "intro": [
+        "Hahoe is a centuries-old village near Andong where people still live among the tiled mansions and thatched cottages of an old Confucian clan.",
+        "The Nakdong River loops right around it — the name means 'river-surrounding' — and it is a UNESCO World Heritage site."
+      ],
+      "tips": [
+        "Climb to the Buyongdae cliff across the river for the classic view over the whole village.",
+        "Check the schedule for the Hahoe mask dance, a lively local folk performance.",
+        "It's a bus or taxi ride from Andong; pair it with the mask museum at the entrance."
+      ],
+      "nearby": [
+        "Byeongsan Seowon",
+        "Buyongdae Cliff",
+        "Andong"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "byeongsan-seowon": {
+      "city": "andong",
+      "cat": "sights",
+      "icon": "🏛️",
+      "grad": "linear-gradient(135deg,#C97A16,#F0A83C)",
+      "name": "Byeongsan Seowon",
+      "rank": "UNESCO Confucian academy",
+      "blurb": "A serene UNESCO Confucian academy famous for the river view framed by its open Mandaeru pavilion.",
+      "intro": [
+        "Byeongsan Seowon is a beautifully sited Confucian academy near Andong, among the Korean seowon inscribed as a UNESCO World Heritage site.",
+        "Its open Mandaeru pavilion frames a much-loved view of the river and the cliff face opposite."
+      ],
+      "tips": [
+        "Sit on the Mandaeru pavilion floor and take in the framed river view — the highlight of a visit.",
+        "It's quiet and uncrowded; combine it with Hahoe Village nearby.",
+        "Access is by car or taxi from Andong along a country road."
+      ],
+      "nearby": [
+        "Hahoe Folk Village",
+        "Andong",
+        "Nakdong River"
       ],
       "official": [
         {

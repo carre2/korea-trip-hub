@@ -44,6 +44,12 @@ All photographic images are sourced from free/openly-licensed collections and at
 | dest/eurwangni-beach | Photo: 골뱅이 / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Eurwangni_Beach%2C_Incheon_-_panoramio.jpg) |
 | dest/war-memorial | Photo: Adbar / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:War_Memorial_of_Korea_main_building.JPG) |
 | dest/banpo-hangang | Photo: Bryan Dorrough / Wikimedia Commons · Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Banpo_Bridge_Fountain.jpg) |
+| dest/seomun-market | Photo: Choi2451 / Wikimedia Commons · CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Seomun_Night_Market,_Daegu.jpg) |
+| dest/apsan-park | Photo: Daegu City Official / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:앞산공원.jpg) |
+| dest/mudeungsan | Photo: VaneTrz20 / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:View_from_Mudeungsan.jpg) |
+| dest/gwangju-museum | Photo: Saigen Jiro / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Building_of_Gwangju_National_Museum-1.JPG) |
+| dest/hahoe-village | Photo: Bernard Gagnon / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Hahoe_Folk_Village_02.jpg) |
+| dest/byeongsan-seowon | Photo: limhyungkyu / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:병산서원-1.jpg) |
 | myeongdong | Photo: Tristan Surtel / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Namdaemun-ro_and_Aloft_Seoul_Myeongdong_by_night.jpg) |
 | gyeongbokgung | Photo: Frank Schulenburg / Wikimedia Commons · CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Gyeonghoeru_%28Royal_Banquet_Hall%29_at_Gyeongbokgung_Palace%2C_Seoul.jpg) |
 | n-seoul-tower | Photo: lumoplank / Wikimedia Commons · CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Namsan_Tower%2C_Seoul_-_Namsan2299.jpg) |
