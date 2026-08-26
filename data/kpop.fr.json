@@ -1,0 +1,81 @@
+{
+  "_README": "K-pop-for-visitors guide (English base). EVERGREEN + fact-safe: concert venues, ticket platforms, weekly music shows, agency neighborhoods and fan landmarks. NO concert dates or tour schedules (those are volatile) — the `live` block links out to kpophub.kr + official ticketers instead. `spot` = frozen Google Maps query (keep English). `url` = frozen. Translated per locale in kpop.<locale>.json.",
+  "ui": {
+    "metaTitle": "La K-pop en Corée : concerts, salles, billets et guide des fans (2026)",
+    "metaDesc": "Le guide de la Corée pour les fans de K-pop : salles de concert, comment acheter des billets, assister en direct aux émissions musicales hebdomadaires, quartiers des agences (HYBE, SM, JYP, YG) et lieux emblématiques pour les fans. Dates de concerts à jour sur kpophub.kr.",
+    "h1": "La K-pop en Corée",
+    "tagline": "Le guide du fan en visite : salles, billets, émissions musicales en direct, lieux des agences et endroits où vivre la scène de près.",
+    "mapLabel": "carte"
+  },
+  "live": {
+    "title": "Concerts et événements en ce moment",
+    "body": "La programmation des concerts change en permanence, alors nous ne figeons pas les dates ici : elles deviendraient vite obsolètes. Pour les concerts, tournées et événements K-pop du moment, consultez les informations en direct :",
+    "links": [
+      { "name": "kpophub.kr — infos de concerts K-pop en direct", "url": "https://kpophub.kr" }
+    ],
+    "note": "Les sites de billetterie officiels ci-dessous indiquent aussi les spectacles en vente en ce moment."
+  },
+  "venues": {
+    "title": "Où ont lieu les concerts",
+    "intro": "La plupart des grands concerts, tournées et cérémonies de remise de prix K-pop se tiennent dans une poignée de grandes salles autour de Séoul et d'Incheon.",
+    "items": [
+      { "name": "Inspire Arena", "area": "Île de Yeongjong, Incheon", "d": "La plus grande salle couverte de Corée, intégrée au complexe Inspire juste à côté de l'aéroport d'Incheon — une étape majeure pour les grands concerts et les cérémonies de remise de prix.", "spot": "Inspire Arena, Incheon" },
+      { "name": "Gocheok Sky Dome", "area": "Guro, Séoul", "d": "Le premier stade couvert de Corée ; sa taille en fait un lieu de prédilection pour les plus grands concerts en solo comme en groupe.", "spot": "Gocheok Sky Dome, Seoul" },
+      { "name": "KSPO Dome", "area": "Parc olympique, Songpa, Séoul", "d": "Une grande salle couverte emblématique du parc olympique (l'Arène de gymnastique olympique), qui accueille depuis longtemps de grands concerts K-pop.", "spot": "KSPO Dome, Seoul" },
+      { "name": "Jamsil Sports Complex", "area": "Songpa, Séoul", "d": "Le stade et la salle couverte de Jamsil accueillent des tournées à l'échelle des stades et des festivals de musique.", "spot": "Jamsil Sports Complex, Seoul" },
+      { "name": "Olympic Hall", "area": "Parc olympique, Songpa, Séoul", "d": "Une salle de taille moyenne utilisée pour les showcases, les rencontres avec les fans et les concerts plus intimes.", "spot": "Olympic Hall, Seoul" }
+    ]
+  },
+  "tickets": {
+    "title": "Comment obtenir des billets",
+    "intro": "Les billets de K-pop se vendent sur quelques plateformes officielles coréennes. Les fans étrangers peuvent généralement utiliser les versions « Global » en anglais — mais les spectacles populaires affichent complet en quelques minutes, alors préparez-vous à l'avance.",
+    "steps": [
+      "Créez votre compte tôt sur le site de billetterie, et rejoignez le fan-club de l'artiste s'il y a une prévente réservée aux membres.",
+      "Notez l'heure exacte de mise en vente à l'heure coréenne (KST) et soyez connecté et prêt quelques minutes avant.",
+      "Vérifiez d'abord les règles de paiement et d'identité — certains sites exigent une carte utilisable en Corée ou un numéro de téléphone vérifié.",
+      "Si un spectacle affiche complet, n'utilisez que la revente officielle — jamais les revendeurs à la sauvette."
+    ],
+    "platforms": [
+      { "name": "Interpark Global", "what": "Le plus grand billetteur de concerts K-pop, avec un site global en anglais.", "url": "https://globalinterpark.com" },
+      { "name": "Yes24 Ticket", "what": "Un billetteur majeur pour les concerts, les rencontres avec les fans et les comédies musicales.", "url": "https://ticket.yes24.com" },
+      { "name": "Melon Ticket", "what": "Billetterie liée au service de musique Melon.", "url": "https://ticket.melon.com" },
+      { "name": "Weverse", "what": "Plateforme de fans pour HYBE et les artistes partenaires — certaines ventes et avantages de fan-club s'y déroulent.", "url": "https://weverse.io" }
+    ]
+  },
+  "musicShows": {
+    "title": "Assister à une émission musicale en direct",
+    "intro": "Les émissions musicales hebdomadaires de la télévision coréenne sont enregistrées devant un public en direct, et beaucoup laissent entrer les fans gratuitement — l'occasion de voir plusieurs artistes se produire en un seul après-midi.",
+    "shows": [
+      { "name": "Music Bank (KBS)", "d": "L'une des émissions musicales hebdomadaires les plus anciennes." },
+      { "name": "Show! Music Core (MBC)", "d": "L'émission musicale phare du week-end de MBC." },
+      { "name": "Inkigayo (SBS)", "d": "La populaire émission de classement du week-end de SBS." },
+      { "name": "M Countdown (Mnet)", "d": "L'émission hebdomadaire de Mnet, réputée pour ses mises en scène élaborées." },
+      { "name": "Show Champion (MBC M)", "d": "Une émission de milieu de semaine dans laquelle il est souvent plus facile d'entrer." }
+    ],
+    "tips": [
+      "Les places du public sont généralement organisées via le fan-café ou le fan-club de l'artiste qui se produit — il faut s'inscrire à l'avance.",
+      "Certaines émissions proposent un nombre limité de places d'attente le jour même ; attendez-vous à un début matinal et à une longue attente.",
+      "Les règles et les horaires changent souvent — vérifiez toujours les indications à jour du diffuseur avant de vous y rendre."
+    ]
+  },
+  "agencies": {
+    "title": "Où se trouvent les agences",
+    "intro": "Les fans visitent souvent les quartiers des agences du « Big 4 » pour les bâtiments ainsi que les cafés et boutiques alentour. Les bâtiments et les rosters évoluent avec le temps, alors considérez ceci comme un repère, non comme un annuaire à jour.",
+    "items": [
+      { "name": "HYBE", "area": "Yongsan, Séoul", "d": "Le siège de HYBE se trouve au cœur de Yongsan — foyer des labels derrière des artistes comme BTS et SEVENTEEN." },
+      { "name": "SM Entertainment", "area": "Seongsu, Séoul", "d": "Le siège de SM est dans le quartier branché des cafés de Seongsu — foyer d'artistes comme aespa et NCT. À combiner avec une tournée des cafés." },
+      { "name": "JYP Entertainment", "area": "Gangdong, Séoul", "d": "Le bâtiment de JYP se trouve dans l'est de Séoul — foyer d'artistes comme TWICE et Stray Kids." },
+      { "name": "YG Entertainment", "area": "Hapjeong, Mapo, Séoul", "d": "YG est situé à Hapjeong près de Hongdae — foyer d'artistes comme BLACKPINK et TREASURE — facile à combiner avec une sortie nocturne." }
+    ]
+  },
+  "spots": {
+    "title": "Lieux emblématiques pour les fans de K-pop",
+    "intro": "Quelques endroits sont faits pour que les fans s'imprègnent de la scène.",
+    "items": [
+      { "name": "K-Star Road", "area": "Apgujeong, Séoul", "d": "Une rue bordée de figurines artistiques « GangnamDol » représentant des groupes de K-pop, dans le quartier chic d'Apgujeong-Cheongdam, près de nombreuses agences et studios." },
+      { "name": "COEX & SMTOWN", "area": "Gangnam, Séoul", "d": "Le complexe COEX abrite des espaces sur le thème de la K-pop et la célèbre bibliothèque Starfield." },
+      { "name": "Rue de busking de Hongdae", "area": "Mapo, Séoul", "d": "Les soirs de week-end, des troupes de danse et des chanteurs interprètent des reprises de K-pop autour de l'université Hongik." },
+      { "name": "Cafés éphémères et événements photo", "area": "Seongsu, Hongdae et centres commerciaux", "d": "Des idoles et des groupes organisent des cafés éphémères et des expositions photo à durée limitée — ils changent d'emplacement, alors vérifiez ce qui se tient au moment de votre visite." }
+    ]
+  }
+}

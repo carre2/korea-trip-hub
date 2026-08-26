@@ -14,8 +14,18 @@
       "entry": "短期観光"
     },
     "highlights": [
-      { "icon": "✅", "tone": "green", "title": "ビザ不要、K-ETAも2026年まで免除", "body": "オーストラリアは31 Dec 2026までK-ETAが免除される22か国のひとつで、短期観光ではビザもK-ETAも申請不要です。この免除は終了予定で、K-ETAは1 Jan 2027に復活します — 渡航前に再確認してください。" },
-      { "icon": "📝", "tone": "blue", "title": "e-Arrival Cardは必要です", "body": "ほぼすべての渡航者が、到着前72時間以内にe-arrivalcard.go.krで無料のe-Arrival Cardを申請します。（有効なK-ETA保持者は免除されますが、K-ETAが免除されている今はe-Arrival Cardを申請すべきです。）" }
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "ビザ不要、K-ETAも2026年まで免除",
+        "body": "オーストラリアは31 Dec 2026までK-ETAが免除される22か国のひとつで、短期観光ではビザもK-ETAも申請不要です。この免除は終了予定で、K-ETAは1 Jan 2027に復活します — 渡航前に再確認してください。"
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "e-Arrival Cardは必要です",
+        "body": "ほぼすべての渡航者が、到着前72時間以内にe-arrivalcard.go.krで無料のe-Arrival Cardを申請します。（有効なK-ETA保持者は免除されますが、K-ETAが免除されている今はe-Arrival Cardを申請すべきです。）"
+      }
     ],
     "tldr": [
       "今は観光ビザもK-ETAも不要 — オーストラリアは2026年までビザ免除かつK-ETA免除です。",
@@ -26,47 +36,150 @@
     "steps": {
       "title": "入国の手順",
       "items": [
-        { "n": 1, "title": "ビザ免除であることを確認", "detail": "オーストラリアのパスポートは短期観光で韓国にビザ免除で入国でき、K-ETAも2026年まで免除されています — 申請するものは何もありません。" },
-        { "n": 2, "title": "e-Arrival Cardを申請", "detail": "到着前72時間以内に、e-arrivalcard.go.krで無料で記入し、QRコード／確認画面を保存してください。", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
-        { "n": 3, "title": "パスポートと出国便を確認", "detail": "パスポートが滞在期間中有効であることを確認し、帰国・出国便のチケットと最初の宿泊先の住所を用意してください。" },
-        { "n": 4, "title": "入国審査で", "detail": "パスポートとe-Arrivalの確認画面を提示します。指紋と顔写真の採取が行われる場合があります。観光目的に留めてください — ビザ免除入国での有給就労は不可です。" }
+        {
+          "n": 1,
+          "title": "ビザ免除であることを確認",
+          "detail": "オーストラリアのパスポートは短期観光で韓国にビザ免除で入国でき、K-ETAも2026年まで免除されています — 申請するものは何もありません。"
+        },
+        {
+          "n": 2,
+          "title": "e-Arrival Cardを申請",
+          "detail": "到着前72時間以内に、e-arrivalcard.go.krで無料で記入し、QRコード／確認画面を保存してください。",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "パスポートと出国便を確認",
+          "detail": "パスポートが滞在期間中有効であることを確認し、帰国・出国便のチケットと最初の宿泊先の住所を用意してください。"
+        },
+        {
+          "n": 4,
+          "title": "入国審査で",
+          "detail": "パスポートとe-Arrivalの確認画面を提示します。指紋と顔写真の採取が行われる場合があります。観光目的に留めてください — ビザ免除入国での有給就労は不可です。"
+        }
       ]
     },
     "documents": {
       "title": "準備しておくもの",
       "intro": "ビザ申請は不要ですが、スムーズな入国のために以下を用意しておきましょう。",
-      "cols": ["項目", "入手先", "備考"],
-      "rows": [
-        { "doc": "パスポート", "req": "required", "where": "手元にあります", "how": "滞在期間中有効なもの。" },
-        { "doc": "e-Arrival Cardの確認", "req": "required", "where": "e-arrivalcard.go.kr", "how": "無料。到着前72時間以内に申請し、QRコードを保存。", "link": "https://www.e-arrivalcard.go.kr" },
-        { "doc": "帰国／出国便のチケット", "req": "required", "where": "航空会社／旅行代理店", "how": "許可された滞在期間内に出国することの証明。" },
-        { "doc": "宿泊先の住所", "req": "required", "where": "予約サイト", "how": "最初のホテル／宿泊先の住所（e-Arrival Cardで尋ねられます）。" },
-        { "doc": "旅行の資金", "req": "recommended", "where": "本人", "how": "カードは広く使えますが、市場や小さな店舗向けに現金も少し持っておきましょう。" }
+      "cols": [
+        "項目",
+        "入手先",
+        "備考"
       ],
-      "legend": { "required": "必須", "conditional": "該当する場合", "recommended": "推奨" }
+      "rows": [
+        {
+          "doc": "パスポート",
+          "req": "required",
+          "where": "手元にあります",
+          "how": "滞在期間中有効なもの。"
+        },
+        {
+          "doc": "e-Arrival Cardの確認",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "無料。到着前72時間以内に申請し、QRコードを保存。",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "帰国／出国便のチケット",
+          "req": "required",
+          "where": "航空会社／旅行代理店",
+          "how": "許可された滞在期間内に出国することの証明。"
+        },
+        {
+          "doc": "宿泊先の住所",
+          "req": "required",
+          "where": "予約サイト",
+          "how": "最初のホテル／宿泊先の住所（e-Arrival Cardで尋ねられます）。"
+        },
+        {
+          "doc": "旅行の資金",
+          "req": "recommended",
+          "where": "本人",
+          "how": "カードは広く使えますが、市場や小さな店舗向けに現金も少し持っておきましょう。"
+        }
+      ],
+      "legend": {
+        "required": "必須",
+        "conditional": "該当する場合",
+        "recommended": "推奨"
+      }
     },
     "pitfalls": {
       "title": "よくある入国時のミス",
       "items": [
-        { "icon": "🕸️", "t": "不要な「ビザ／K-ETA料金」を支払う", "d": "今はビザもK-ETAも不要です。詐欺サイトは今でも料金を請求してきます — 無視しましょう。" },
-        { "icon": "📝", "t": "e-Arrival Cardの申請を怠る", "d": "ほとんどの渡航者は申請が必要です（無料）。到着前72時間以内に行いましょう。" },
-        { "icon": "⏰", "t": "e-Arrival Cardを早く申請しすぎる", "d": "提出から72時間で失効します — 数週間前ではなく、フライト直前に申請しましょう。" },
-        { "icon": "🗓️", "t": "許可された滞在期間を超過する", "d": "最大90日を超えて滞在すると、罰金や今後の入国禁止のリスクがあります。" },
-        { "icon": "💼", "t": "観光入国で就労する", "d": "ビザ免除入国は観光・訪問のみが対象です — 有給就労には正規のビザが必要です。" }
+        {
+          "icon": "🕸️",
+          "t": "不要な「ビザ／K-ETA料金」を支払う",
+          "d": "今はビザもK-ETAも不要です。詐欺サイトは今でも料金を請求してきます — 無視しましょう。"
+        },
+        {
+          "icon": "📝",
+          "t": "e-Arrival Cardの申請を怠る",
+          "d": "ほとんどの渡航者は申請が必要です（無料）。到着前72時間以内に行いましょう。"
+        },
+        {
+          "icon": "⏰",
+          "t": "e-Arrival Cardを早く申請しすぎる",
+          "d": "提出から72時間で失効します — 数週間前ではなく、フライト直前に申請しましょう。"
+        },
+        {
+          "icon": "🗓️",
+          "t": "許可された滞在期間を超過する",
+          "d": "最大90日を超えて滞在すると、罰金や今後の入国禁止のリスクがあります。"
+        },
+        {
+          "icon": "💼",
+          "t": "観光入国で就労する",
+          "d": "ビザ免除入国は観光・訪問のみが対象です — 有給就労には正規のビザが必要です。"
+        }
       ]
     },
     "faq": {
       "title": "オーストラリア → 韓国 入国FAQ",
       "items": [
-        { "q": "オーストラリアからの旅行者は韓国のビザが必要ですか？", "a": "いいえ — 短期観光ならオーストラリアのパスポート保持者はビザ免除で韓国に入国できます。観光ビザの申請は一切不要です。" },
-        { "q": "K-ETAは必要ですか？", "a": "今は不要です。オーストラリアは31 Dec 2026までK-ETAが免除される22か国に含まれます。この要件は延長されない限り1 Jan 2027に復活する予定です。" },
-        { "q": "e-Arrival Cardは必要ですか？", "a": "はい — ほとんどの渡航者は到着前72時間以内に、e-arrivalcard.go.krで無料のe-Arrival Cardを申請します。" },
-        { "q": "どのくらい滞在できますか？", "a": "観光で最大90日までです。" },
-        { "q": "この入国で就労や就学はできますか？", "a": "いいえ。ビザ免除入国は観光と短期訪問のみが対象で、就労や就学には適切なビザが必要です。" },
-        { "q": "K-ETAはいつ復活しますか？", "a": "免除は31 Dec 2026に終了予定で、延長されない限りK-ETAは1 Jan 2027に再開します — 渡航日近くに再確認してください。" }
+        {
+          "q": "オーストラリアからの旅行者は韓国のビザが必要ですか？",
+          "a": "いいえ — 短期観光ならオーストラリアのパスポート保持者はビザ免除で韓国に入国できます。観光ビザの申請は一切不要です。"
+        },
+        {
+          "q": "K-ETAは必要ですか？",
+          "a": "今は不要です。オーストラリアは31 Dec 2026までK-ETAが免除される22か国に含まれます。この要件は延長されない限り1 Jan 2027に復活する予定です。"
+        },
+        {
+          "q": "e-Arrival Cardは必要ですか？",
+          "a": "はい — ほとんどの渡航者は到着前72時間以内に、e-arrivalcard.go.krで無料のe-Arrival Cardを申請します。"
+        },
+        {
+          "q": "どのくらい滞在できますか？",
+          "a": "観光で最大90日までです。"
+        },
+        {
+          "q": "この入国で就労や就学はできますか？",
+          "a": "いいえ。ビザ免除入国は観光と短期訪問のみが対象で、就労や就学には適切なビザが必要です。"
+        },
+        {
+          "q": "K-ETAはいつ復活しますか？",
+          "a": "免除は31 Dec 2026に終了予定で、延長されない限りK-ETAは1 Jan 2027に再開します — 渡航日近くに再確認してください。"
+        }
       ]
     },
-    "ui": { "visa": "ビザ", "stay": "滞在", "entry": "入国", "where": "入手先", "official": "公式情報源", "required": "必須", "conditional": "該当する場合", "recommended": "推奨", "confirm": "料金・規則は変わります — 公式情報でご確認ください", "source": "出典", "updated": "更新日", "tldr": "要点" }
+    "ui": {
+      "visa": "ビザ",
+      "stay": "滞在",
+      "entry": "入国",
+      "where": "入手先",
+      "official": "公式情報源",
+      "required": "必須",
+      "conditional": "該当する場合",
+      "recommended": "推奨",
+      "confirm": "料金・規則は変わります — 公式情報でご確認ください",
+      "source": "出典",
+      "updated": "更新日",
+      "tldr": "要点"
+    }
   },
   "ko": {
     "kicker": "입국 가이드 · 호주 → 한국",
@@ -82,8 +195,18 @@
       "entry": "단기 관광"
     },
     "highlights": [
-      { "icon": "✅", "tone": "green", "title": "비자 불필요, K-ETA도 2026년까지 면제", "body": "호주는 31 Dec 2026까지 K-ETA가 면제되는 22개국 중 하나로, 단기 관광에는 비자도 K-ETA도 신청하지 않습니다. 이 면제는 종료 예정이며 K-ETA는 1 Jan 2027에 다시 시행됩니다 — 출발 전 다시 확인하세요." },
-      { "icon": "📝", "tone": "blue", "title": "그래도 e-Arrival Card는 필요합니다", "body": "거의 모든 방문객이 도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 신청합니다. (유효한 K-ETA 소지자는 면제되지만, K-ETA가 면제된 지금은 e-Arrival Card를 신청해야 합니다.)" }
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "비자 불필요, K-ETA도 2026년까지 면제",
+        "body": "호주는 31 Dec 2026까지 K-ETA가 면제되는 22개국 중 하나로, 단기 관광에는 비자도 K-ETA도 신청하지 않습니다. 이 면제는 종료 예정이며 K-ETA는 1 Jan 2027에 다시 시행됩니다 — 출발 전 다시 확인하세요."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "그래도 e-Arrival Card는 필요합니다",
+        "body": "거의 모든 방문객이 도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 신청합니다. (유효한 K-ETA 소지자는 면제되지만, K-ETA가 면제된 지금은 e-Arrival Card를 신청해야 합니다.)"
+      }
     ],
     "tldr": [
       "지금은 관광 비자도 K-ETA도 필요 없습니다 — 호주는 2026년까지 무비자이자 K-ETA 면제 대상입니다.",
@@ -94,47 +217,150 @@
     "steps": {
       "title": "입국 절차",
       "items": [
-        { "n": 1, "title": "무비자 여부 확인", "detail": "호주 여권은 단기 관광으로 한국에 무비자 입국할 수 있고, K-ETA도 2026년까지 면제됩니다 — 신청할 것이 없습니다." },
-        { "n": 2, "title": "e-Arrival Card 신청", "detail": "도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료로 작성하고 QR코드/확인 화면을 저장하세요.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
-        { "n": 3, "title": "여권 및 출국 항공권 확인", "detail": "여권이 체류 기간 동안 유효한지 확인하고, 귀국·출국 항공권과 첫 숙소 주소를 준비하세요." },
-        { "n": 4, "title": "입국 심사에서", "detail": "여권과 e-Arrival 확인 화면을 제시하세요. 지문과 얼굴 사진을 채취할 수 있습니다. 관광 목적을 유지하세요 — 무비자 입국으로는 유급 근로가 불가합니다." }
+        {
+          "n": 1,
+          "title": "무비자 여부 확인",
+          "detail": "호주 여권은 단기 관광으로 한국에 무비자 입국할 수 있고, K-ETA도 2026년까지 면제됩니다 — 신청할 것이 없습니다."
+        },
+        {
+          "n": 2,
+          "title": "e-Arrival Card 신청",
+          "detail": "도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료로 작성하고 QR코드/확인 화면을 저장하세요.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "여권 및 출국 항공권 확인",
+          "detail": "여권이 체류 기간 동안 유효한지 확인하고, 귀국·출국 항공권과 첫 숙소 주소를 준비하세요."
+        },
+        {
+          "n": 4,
+          "title": "입국 심사에서",
+          "detail": "여권과 e-Arrival 확인 화면을 제시하세요. 지문과 얼굴 사진을 채취할 수 있습니다. 관광 목적을 유지하세요 — 무비자 입국으로는 유급 근로가 불가합니다."
+        }
       ]
     },
     "documents": {
       "title": "미리 준비할 것",
       "intro": "비자 신청은 하지 않지만, 원활한 입국을 위해 아래 항목을 준비해 두세요.",
-      "cols": ["항목", "발급처", "비고"],
-      "rows": [
-        { "doc": "여권", "req": "required", "where": "이미 보유", "how": "체류 기간 동안 유효한 것." },
-        { "doc": "e-Arrival Card 확인", "req": "required", "where": "e-arrivalcard.go.kr", "how": "무료. 도착 전 72시간 이내에 신청하고 QR코드를 저장하세요.", "link": "https://www.e-arrivalcard.go.kr" },
-        { "doc": "귀국 / 출국 항공권", "req": "required", "where": "항공사 / 여행사", "how": "허용된 체류 기간 내에 출국한다는 증빙." },
-        { "doc": "숙소 주소", "req": "required", "where": "예약 사이트", "how": "첫 호텔/숙소 주소 (e-Arrival Card에서 묻습니다)." },
-        { "doc": "여행 경비", "req": "recommended", "where": "본인", "how": "카드는 널리 사용되지만, 시장이나 소규모 상점을 위해 현금도 어느 정도 준비하세요." }
+      "cols": [
+        "항목",
+        "발급처",
+        "비고"
       ],
-      "legend": { "required": "필수", "conditional": "해당 시", "recommended": "권장" }
+      "rows": [
+        {
+          "doc": "여권",
+          "req": "required",
+          "where": "이미 보유",
+          "how": "체류 기간 동안 유효한 것."
+        },
+        {
+          "doc": "e-Arrival Card 확인",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "무료. 도착 전 72시간 이내에 신청하고 QR코드를 저장하세요.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "귀국 / 출국 항공권",
+          "req": "required",
+          "where": "항공사 / 여행사",
+          "how": "허용된 체류 기간 내에 출국한다는 증빙."
+        },
+        {
+          "doc": "숙소 주소",
+          "req": "required",
+          "where": "예약 사이트",
+          "how": "첫 호텔/숙소 주소 (e-Arrival Card에서 묻습니다)."
+        },
+        {
+          "doc": "여행 경비",
+          "req": "recommended",
+          "where": "본인",
+          "how": "카드는 널리 사용되지만, 시장이나 소규모 상점을 위해 현금도 어느 정도 준비하세요."
+        }
+      ],
+      "legend": {
+        "required": "필수",
+        "conditional": "해당 시",
+        "recommended": "권장"
+      }
     },
     "pitfalls": {
       "title": "흔한 입국 실수",
       "items": [
-        { "icon": "🕸️", "t": "내지 않아도 되는 '비자/K-ETA 수수료' 지불", "d": "지금은 비자도 K-ETA도 필요 없습니다. 사기 사이트는 여전히 수수료를 청구합니다 — 무시하세요." },
-        { "icon": "📝", "t": "e-Arrival Card 건너뛰기", "d": "대부분의 방문객은 반드시 신청해야 합니다(무료). 도착 72시간 이내에 하세요." },
-        { "icon": "⏰", "t": "e-Arrival Card를 너무 일찍 신청", "d": "제출 후 72시간이 지나면 만료됩니다 — 몇 주 전이 아니라 항공편에 가깝게 신청하세요." },
-        { "icon": "🗓️", "t": "허용 체류 기간 초과", "d": "최대 90일을 넘겨 체류하면 벌금과 향후 입국 금지의 위험이 있습니다." },
-        { "icon": "💼", "t": "관광 입국으로 근로하기", "d": "무비자 입국은 관광/방문 전용입니다 — 유급 근로에는 정식 비자가 필요합니다." }
+        {
+          "icon": "🕸️",
+          "t": "내지 않아도 되는 '비자/K-ETA 수수료' 지불",
+          "d": "지금은 비자도 K-ETA도 필요 없습니다. 사기 사이트는 여전히 수수료를 청구합니다 — 무시하세요."
+        },
+        {
+          "icon": "📝",
+          "t": "e-Arrival Card 건너뛰기",
+          "d": "대부분의 방문객은 반드시 신청해야 합니다(무료). 도착 72시간 이내에 하세요."
+        },
+        {
+          "icon": "⏰",
+          "t": "e-Arrival Card를 너무 일찍 신청",
+          "d": "제출 후 72시간이 지나면 만료됩니다 — 몇 주 전이 아니라 항공편에 가깝게 신청하세요."
+        },
+        {
+          "icon": "🗓️",
+          "t": "허용 체류 기간 초과",
+          "d": "최대 90일을 넘겨 체류하면 벌금과 향후 입국 금지의 위험이 있습니다."
+        },
+        {
+          "icon": "💼",
+          "t": "관광 입국으로 근로하기",
+          "d": "무비자 입국은 관광/방문 전용입니다 — 유급 근로에는 정식 비자가 필요합니다."
+        }
       ]
     },
     "faq": {
       "title": "호주 → 한국 입국 FAQ",
       "items": [
-        { "q": "호주에서 오는 여행자는 한국 비자가 필요한가요?", "a": "아니요 — 단기 관광이라면 호주 여권 소지자는 무비자로 한국에 입국합니다. 어떤 관광 비자도 신청하지 않습니다." },
-        { "q": "K-ETA가 필요한가요?", "a": "지금은 아닙니다. 호주는 31 Dec 2026까지 K-ETA가 면제되는 22개국에 포함됩니다. 이 요건은 연장되지 않는 한 1 Jan 2027에 다시 시행될 예정입니다." },
-        { "q": "그래도 e-Arrival Card는 필요한가요?", "a": "예 — 대부분의 방문객은 도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 신청합니다." },
-        { "q": "얼마나 머무를 수 있나요?", "a": "관광으로 최대 90일까지입니다." },
-        { "q": "이 입국으로 일하거나 공부할 수 있나요?", "a": "아니요. 무비자 입국은 관광과 단기 방문 전용이며, 근로나 학업에는 적절한 비자가 필요합니다." },
-        { "q": "K-ETA는 언제 다시 시행되나요?", "a": "면제는 31 Dec 2026에 종료 예정이며, 연장되지 않는 한 K-ETA는 1 Jan 2027에 재개됩니다 — 여행 날짜에 가깝게 다시 확인하세요." }
+        {
+          "q": "호주에서 오는 여행자는 한국 비자가 필요한가요?",
+          "a": "아니요 — 단기 관광이라면 호주 여권 소지자는 무비자로 한국에 입국합니다. 어떤 관광 비자도 신청하지 않습니다."
+        },
+        {
+          "q": "K-ETA가 필요한가요?",
+          "a": "지금은 아닙니다. 호주는 31 Dec 2026까지 K-ETA가 면제되는 22개국에 포함됩니다. 이 요건은 연장되지 않는 한 1 Jan 2027에 다시 시행될 예정입니다."
+        },
+        {
+          "q": "그래도 e-Arrival Card는 필요한가요?",
+          "a": "예 — 대부분의 방문객은 도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 신청합니다."
+        },
+        {
+          "q": "얼마나 머무를 수 있나요?",
+          "a": "관광으로 최대 90일까지입니다."
+        },
+        {
+          "q": "이 입국으로 일하거나 공부할 수 있나요?",
+          "a": "아니요. 무비자 입국은 관광과 단기 방문 전용이며, 근로나 학업에는 적절한 비자가 필요합니다."
+        },
+        {
+          "q": "K-ETA는 언제 다시 시행되나요?",
+          "a": "면제는 31 Dec 2026에 종료 예정이며, 연장되지 않는 한 K-ETA는 1 Jan 2027에 재개됩니다 — 여행 날짜에 가깝게 다시 확인하세요."
+        }
       ]
     },
-    "ui": { "visa": "비자", "stay": "체류", "entry": "입국", "where": "발급처", "official": "공식 정보원", "required": "필수", "conditional": "해당 시", "recommended": "권장", "confirm": "수수료·규정은 바뀝니다 — 공식 출처에서 확인하세요", "source": "출처", "updated": "업데이트", "tldr": "요약" }
+    "ui": {
+      "visa": "비자",
+      "stay": "체류",
+      "entry": "입국",
+      "where": "발급처",
+      "official": "공식 정보원",
+      "required": "필수",
+      "conditional": "해당 시",
+      "recommended": "권장",
+      "confirm": "수수료·규정은 바뀝니다 — 공식 출처에서 확인하세요",
+      "source": "출처",
+      "updated": "업데이트",
+      "tldr": "요약"
+    }
   },
   "zh": {
     "kicker": "入境指南 · 澳大利亚 → 韩国",
@@ -150,8 +376,18 @@
       "entry": "短期旅游"
     },
     "highlights": [
-      { "icon": "✅", "tone": "green", "title": "无需签证，K-ETA在2026年前也豁免", "body": "澳大利亚是31 Dec 2026前免于K-ETA的22个国家之一，因此短期旅游既不申请签证也不申请K-ETA。该豁免预定到期，K-ETA将于1 Jan 2027恢复——出行前请再次确认。" },
-      { "icon": "📝", "tone": "blue", "title": "你仍然需要e-Arrival Card", "body": "几乎每位旅客都会在抵达前72小时内于e-arrivalcard.go.kr填写免费的e-Arrival Card。（持有效K-ETA者可豁免，但在K-ETA豁免期间你应填写e-Arrival Card。）" }
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "无需签证，K-ETA在2026年前也豁免",
+        "body": "澳大利亚是31 Dec 2026前免于K-ETA的22个国家之一，因此短期旅游既不申请签证也不申请K-ETA。该豁免预定到期，K-ETA将于1 Jan 2027恢复——出行前请再次确认。"
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "你仍然需要e-Arrival Card",
+        "body": "几乎每位旅客都会在抵达前72小时内于e-arrivalcard.go.kr填写免费的e-Arrival Card。（持有效K-ETA者可豁免，但在K-ETA豁免期间你应填写e-Arrival Card。）"
+      }
     ],
     "tldr": [
       "现在既不需要旅游签证也不需要K-ETA——澳大利亚在2026年前免签且免K-ETA。",
@@ -162,47 +398,150 @@
     "steps": {
       "title": "你的入境步骤",
       "items": [
-        { "n": 1, "title": "确认你免签", "detail": "澳大利亚护照可免签短期旅游入境韩国，K-ETA也在2026年前豁免——无需申请任何东西。" },
-        { "n": 2, "title": "填写e-Arrival Card", "detail": "在抵达前72小时内，于e-arrivalcard.go.kr免费填写，并保存二维码/确认页。", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
-        { "n": 3, "title": "检查护照与续程机票", "detail": "确保护照在停留期内有效，并备好回程/续程机票以及首个住宿地址。" },
-        { "n": 4, "title": "在入境检查时", "detail": "出示护照和e-Arrival确认页；可能会采集指纹和照片。请仅用于旅游——免签入境不得从事有偿工作。" }
+        {
+          "n": 1,
+          "title": "确认你免签",
+          "detail": "澳大利亚护照可免签短期旅游入境韩国，K-ETA也在2026年前豁免——无需申请任何东西。"
+        },
+        {
+          "n": 2,
+          "title": "填写e-Arrival Card",
+          "detail": "在抵达前72小时内，于e-arrivalcard.go.kr免费填写，并保存二维码/确认页。",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "检查护照与续程机票",
+          "detail": "确保护照在停留期内有效，并备好回程/续程机票以及首个住宿地址。"
+        },
+        {
+          "n": 4,
+          "title": "在入境检查时",
+          "detail": "出示护照和e-Arrival确认页；可能会采集指纹和照片。请仅用于旅游——免签入境不得从事有偿工作。"
+        }
       ]
     },
     "documents": {
       "title": "需要准备的东西",
       "intro": "你无需提交签证申请——但备好这些以便顺利入境。",
-      "cols": ["项目", "获取途径", "备注"],
-      "rows": [
-        { "doc": "护照", "req": "required", "where": "你已持有", "how": "在停留期内有效。" },
-        { "doc": "e-Arrival Card确认", "req": "required", "where": "e-arrivalcard.go.kr", "how": "免费；在抵达前72小时内填写并保存二维码。", "link": "https://www.e-arrivalcard.go.kr" },
-        { "doc": "回程/续程机票", "req": "required", "where": "航空公司/旅行社", "how": "证明你会在允许的停留期内离境。" },
-        { "doc": "住宿地址", "req": "required", "where": "预订网站", "how": "你的首个酒店/住宿地址（e-Arrival Card会询问）。" },
-        { "doc": "旅行资金", "req": "recommended", "where": "你本人", "how": "刷卡广泛通用；为市场和小商贩准备一些现金。" }
+      "cols": [
+        "项目",
+        "获取途径",
+        "备注"
       ],
-      "legend": { "required": "必需", "conditional": "如适用", "recommended": "建议" }
+      "rows": [
+        {
+          "doc": "护照",
+          "req": "required",
+          "where": "你已持有",
+          "how": "在停留期内有效。"
+        },
+        {
+          "doc": "e-Arrival Card确认",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "免费；在抵达前72小时内填写并保存二维码。",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "回程/续程机票",
+          "req": "required",
+          "where": "航空公司/旅行社",
+          "how": "证明你会在允许的停留期内离境。"
+        },
+        {
+          "doc": "住宿地址",
+          "req": "required",
+          "where": "预订网站",
+          "how": "你的首个酒店/住宿地址（e-Arrival Card会询问）。"
+        },
+        {
+          "doc": "旅行资金",
+          "req": "recommended",
+          "where": "你本人",
+          "how": "刷卡广泛通用；为市场和小商贩准备一些现金。"
+        }
+      ],
+      "legend": {
+        "required": "必需",
+        "conditional": "如适用",
+        "recommended": "建议"
+      }
     },
     "pitfalls": {
       "title": "常见入境错误",
       "items": [
-        { "icon": "🕸️", "t": "支付你本不该付的'签证/K-ETA费用'", "d": "现在你既不需要签证也不需要K-ETA。诈骗网站仍会为此收费——请忽略它们。" },
-        { "icon": "📝", "t": "跳过e-Arrival Card", "d": "大多数旅客必须填写（免费）。请在抵达72小时内完成。" },
-        { "icon": "⏰", "t": "过早填写e-Arrival Card", "d": "提交后72小时失效——请在临近航班时填写，而不是提前数周。" },
-        { "icon": "🗓️", "t": "超过允许的停留期", "d": "停留超过90天有被罚款和今后入境禁令的风险。" },
-        { "icon": "💼", "t": "以旅游身份入境后工作", "d": "免签入境仅限旅游/探访——有偿工作需要正规签证。" }
+        {
+          "icon": "🕸️",
+          "t": "支付你本不该付的'签证/K-ETA费用'",
+          "d": "现在你既不需要签证也不需要K-ETA。诈骗网站仍会为此收费——请忽略它们。"
+        },
+        {
+          "icon": "📝",
+          "t": "跳过e-Arrival Card",
+          "d": "大多数旅客必须填写（免费）。请在抵达72小时内完成。"
+        },
+        {
+          "icon": "⏰",
+          "t": "过早填写e-Arrival Card",
+          "d": "提交后72小时失效——请在临近航班时填写，而不是提前数周。"
+        },
+        {
+          "icon": "🗓️",
+          "t": "超过允许的停留期",
+          "d": "停留超过90天有被罚款和今后入境禁令的风险。"
+        },
+        {
+          "icon": "💼",
+          "t": "以旅游身份入境后工作",
+          "d": "免签入境仅限旅游/探访——有偿工作需要正规签证。"
+        }
       ]
     },
     "faq": {
       "title": "澳大利亚 → 韩国 入境常见问题",
       "items": [
-        { "q": "来自澳大利亚的旅客需要韩国签证吗？", "a": "不需要——短期旅游时澳大利亚护照持有者免签入境韩国。你无需申请任何旅游签证。" },
-        { "q": "我需要K-ETA吗？", "a": "现在不需要。澳大利亚属于31 Dec 2026前免于K-ETA的22个国家。除非延长，该要求预定于1 Jan 2027恢复。" },
-        { "q": "我仍然需要e-Arrival Card吗？", "a": "需要——大多数旅客会在抵达前72小时内于e-arrivalcard.go.kr填写免费的e-Arrival Card。" },
-        { "q": "我可以停留多久？", "a": "旅游最多90天。" },
-        { "q": "我可以凭此次入境工作或学习吗？", "a": "不可以。免签入境仅限旅游和短期探访；工作或学习需要相应签证。" },
-        { "q": "K-ETA什么时候恢复？", "a": "豁免预定于31 Dec 2026结束，除非延长，K-ETA将于1 Jan 2027恢复——请在临近出行日期时再次确认。" }
+        {
+          "q": "来自澳大利亚的旅客需要韩国签证吗？",
+          "a": "不需要——短期旅游时澳大利亚护照持有者免签入境韩国。你无需申请任何旅游签证。"
+        },
+        {
+          "q": "我需要K-ETA吗？",
+          "a": "现在不需要。澳大利亚属于31 Dec 2026前免于K-ETA的22个国家。除非延长，该要求预定于1 Jan 2027恢复。"
+        },
+        {
+          "q": "我仍然需要e-Arrival Card吗？",
+          "a": "需要——大多数旅客会在抵达前72小时内于e-arrivalcard.go.kr填写免费的e-Arrival Card。"
+        },
+        {
+          "q": "我可以停留多久？",
+          "a": "旅游最多90天。"
+        },
+        {
+          "q": "我可以凭此次入境工作或学习吗？",
+          "a": "不可以。免签入境仅限旅游和短期探访；工作或学习需要相应签证。"
+        },
+        {
+          "q": "K-ETA什么时候恢复？",
+          "a": "豁免预定于31 Dec 2026结束，除非延长，K-ETA将于1 Jan 2027恢复——请在临近出行日期时再次确认。"
+        }
       ]
     },
-    "ui": { "visa": "签证", "stay": "停留", "entry": "入境", "where": "获取途径", "official": "官方来源", "required": "必需", "conditional": "如适用", "recommended": "建议", "confirm": "费用/规则会变动——请以官方来源为准", "source": "来源", "updated": "更新", "tldr": "摘要" }
+    "ui": {
+      "visa": "签证",
+      "stay": "停留",
+      "entry": "入境",
+      "where": "获取途径",
+      "official": "官方来源",
+      "required": "必需",
+      "conditional": "如适用",
+      "recommended": "建议",
+      "confirm": "费用/规则会变动——请以官方来源为准",
+      "source": "来源",
+      "updated": "更新",
+      "tldr": "摘要"
+    }
   },
   "zh-TW": {
     "kicker": "入境指南 · 澳洲 → 韓國",
@@ -218,8 +557,18 @@
       "entry": "短期旅遊"
     },
     "highlights": [
-      { "icon": "✅", "tone": "green", "title": "無需簽證，K-ETA在2026年前也豁免", "body": "澳洲是31 Dec 2026前免於K-ETA的22個國家之一，因此短期旅遊既不申請簽證也不申請K-ETA。該豁免預定到期，K-ETA將於1 Jan 2027恢復——出行前請再次確認。" },
-      { "icon": "📝", "tone": "blue", "title": "你仍然需要e-Arrival Card", "body": "幾乎每位旅客都會在抵達前72小時內於e-arrivalcard.go.kr填寫免費的e-Arrival Card。（持有效K-ETA者可豁免，但在K-ETA豁免期間你應填寫e-Arrival Card。）" }
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "無需簽證，K-ETA在2026年前也豁免",
+        "body": "澳洲是31 Dec 2026前免於K-ETA的22個國家之一，因此短期旅遊既不申請簽證也不申請K-ETA。該豁免預定到期，K-ETA將於1 Jan 2027恢復——出行前請再次確認。"
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "你仍然需要e-Arrival Card",
+        "body": "幾乎每位旅客都會在抵達前72小時內於e-arrivalcard.go.kr填寫免費的e-Arrival Card。（持有效K-ETA者可豁免，但在K-ETA豁免期間你應填寫e-Arrival Card。）"
+      }
     ],
     "tldr": [
       "現在既不需要旅遊簽證也不需要K-ETA——澳洲在2026年前免簽且免K-ETA。",
@@ -230,47 +579,150 @@
     "steps": {
       "title": "你的入境步驟",
       "items": [
-        { "n": 1, "title": "確認你免簽", "detail": "澳洲護照可免簽短期旅遊入境韓國，K-ETA也在2026年前豁免——無需申請任何東西。" },
-        { "n": 2, "title": "填寫e-Arrival Card", "detail": "在抵達前72小時內，於e-arrivalcard.go.kr免費填寫，並儲存QR碼/確認頁。", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
-        { "n": 3, "title": "檢查護照與續程機票", "detail": "確保護照在停留期內有效，並備妥回程/續程機票以及首個住宿地址。" },
-        { "n": 4, "title": "在入境查驗時", "detail": "出示護照和e-Arrival確認頁；可能會採集指紋和照片。請僅用於旅遊——免簽入境不得從事有償工作。" }
+        {
+          "n": 1,
+          "title": "確認你免簽",
+          "detail": "澳洲護照可免簽短期旅遊入境韓國，K-ETA也在2026年前豁免——無需申請任何東西。"
+        },
+        {
+          "n": 2,
+          "title": "填寫e-Arrival Card",
+          "detail": "在抵達前72小時內，於e-arrivalcard.go.kr免費填寫，並儲存QR碼/確認頁。",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "檢查護照與續程機票",
+          "detail": "確保護照在停留期內有效，並備妥回程/續程機票以及首個住宿地址。"
+        },
+        {
+          "n": 4,
+          "title": "在入境查驗時",
+          "detail": "出示護照和e-Arrival確認頁；可能會採集指紋和照片。請僅用於旅遊——免簽入境不得從事有償工作。"
+        }
       ]
     },
     "documents": {
       "title": "需要準備的東西",
       "intro": "你無需提交簽證申請——但備妥這些以便順利入境。",
-      "cols": ["項目", "取得途徑", "備註"],
-      "rows": [
-        { "doc": "護照", "req": "required", "where": "你已持有", "how": "在停留期內有效。" },
-        { "doc": "e-Arrival Card確認", "req": "required", "where": "e-arrivalcard.go.kr", "how": "免費；在抵達前72小時內填寫並儲存QR碼。", "link": "https://www.e-arrivalcard.go.kr" },
-        { "doc": "回程/續程機票", "req": "required", "where": "航空公司/旅行社", "how": "證明你會在允許的停留期內離境。" },
-        { "doc": "住宿地址", "req": "required", "where": "訂房網站", "how": "你的首個飯店/住宿地址（e-Arrival Card會詢問）。" },
-        { "doc": "旅行資金", "req": "recommended", "where": "你本人", "how": "刷卡廣泛通用；為市場和小商販準備一些現金。" }
+      "cols": [
+        "項目",
+        "取得途徑",
+        "備註"
       ],
-      "legend": { "required": "必需", "conditional": "如適用", "recommended": "建議" }
+      "rows": [
+        {
+          "doc": "護照",
+          "req": "required",
+          "where": "你已持有",
+          "how": "在停留期內有效。"
+        },
+        {
+          "doc": "e-Arrival Card確認",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "免費；在抵達前72小時內填寫並儲存QR碼。",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "回程/續程機票",
+          "req": "required",
+          "where": "航空公司/旅行社",
+          "how": "證明你會在允許的停留期內離境。"
+        },
+        {
+          "doc": "住宿地址",
+          "req": "required",
+          "where": "訂房網站",
+          "how": "你的首個飯店/住宿地址（e-Arrival Card會詢問）。"
+        },
+        {
+          "doc": "旅行資金",
+          "req": "recommended",
+          "where": "你本人",
+          "how": "刷卡廣泛通用；為市場和小商販準備一些現金。"
+        }
+      ],
+      "legend": {
+        "required": "必需",
+        "conditional": "如適用",
+        "recommended": "建議"
+      }
     },
     "pitfalls": {
       "title": "常見入境錯誤",
       "items": [
-        { "icon": "🕸️", "t": "支付你本不該付的『簽證/K-ETA費用』", "d": "現在你既不需要簽證也不需要K-ETA。詐騙網站仍會為此收費——請忽略它們。" },
-        { "icon": "📝", "t": "跳過e-Arrival Card", "d": "大多數旅客必須填寫（免費）。請在抵達72小時內完成。" },
-        { "icon": "⏰", "t": "過早填寫e-Arrival Card", "d": "提交後72小時失效——請在臨近航班時填寫，而不是提前數週。" },
-        { "icon": "🗓️", "t": "超過允許的停留期", "d": "停留超過90天有被罰款和今後入境禁令的風險。" },
-        { "icon": "💼", "t": "以旅遊身分入境後工作", "d": "免簽入境僅限旅遊/探訪——有償工作需要正式簽證。" }
+        {
+          "icon": "🕸️",
+          "t": "支付你本不該付的『簽證/K-ETA費用』",
+          "d": "現在你既不需要簽證也不需要K-ETA。詐騙網站仍會為此收費——請忽略它們。"
+        },
+        {
+          "icon": "📝",
+          "t": "跳過e-Arrival Card",
+          "d": "大多數旅客必須填寫（免費）。請在抵達72小時內完成。"
+        },
+        {
+          "icon": "⏰",
+          "t": "過早填寫e-Arrival Card",
+          "d": "提交後72小時失效——請在臨近航班時填寫，而不是提前數週。"
+        },
+        {
+          "icon": "🗓️",
+          "t": "超過允許的停留期",
+          "d": "停留超過90天有被罰款和今後入境禁令的風險。"
+        },
+        {
+          "icon": "💼",
+          "t": "以旅遊身分入境後工作",
+          "d": "免簽入境僅限旅遊/探訪——有償工作需要正式簽證。"
+        }
       ]
     },
     "faq": {
       "title": "澳洲 → 韓國 入境常見問題",
       "items": [
-        { "q": "來自澳洲的旅客需要韓國簽證嗎？", "a": "不需要——短期旅遊時澳洲護照持有者免簽入境韓國。你無需申請任何旅遊簽證。" },
-        { "q": "我需要K-ETA嗎？", "a": "現在不需要。澳洲屬於31 Dec 2026前免於K-ETA的22個國家。除非延長，該要求預定於1 Jan 2027恢復。" },
-        { "q": "我仍然需要e-Arrival Card嗎？", "a": "需要——大多數旅客會在抵達前72小時內於e-arrivalcard.go.kr填寫免費的e-Arrival Card。" },
-        { "q": "我可以停留多久？", "a": "旅遊最多90天。" },
-        { "q": "我可以憑此次入境工作或學習嗎？", "a": "不可以。免簽入境僅限旅遊和短期探訪；工作或學習需要相應簽證。" },
-        { "q": "K-ETA什麼時候恢復？", "a": "豁免預定於31 Dec 2026結束，除非延長，K-ETA將於1 Jan 2027恢復——請在臨近出行日期時再次確認。" }
+        {
+          "q": "來自澳洲的旅客需要韓國簽證嗎？",
+          "a": "不需要——短期旅遊時澳洲護照持有者免簽入境韓國。你無需申請任何旅遊簽證。"
+        },
+        {
+          "q": "我需要K-ETA嗎？",
+          "a": "現在不需要。澳洲屬於31 Dec 2026前免於K-ETA的22個國家。除非延長，該要求預定於1 Jan 2027恢復。"
+        },
+        {
+          "q": "我仍然需要e-Arrival Card嗎？",
+          "a": "需要——大多數旅客會在抵達前72小時內於e-arrivalcard.go.kr填寫免費的e-Arrival Card。"
+        },
+        {
+          "q": "我可以停留多久？",
+          "a": "旅遊最多90天。"
+        },
+        {
+          "q": "我可以憑此次入境工作或學習嗎？",
+          "a": "不可以。免簽入境僅限旅遊和短期探訪；工作或學習需要相應簽證。"
+        },
+        {
+          "q": "K-ETA什麼時候恢復？",
+          "a": "豁免預定於31 Dec 2026結束，除非延長，K-ETA將於1 Jan 2027恢復——請在臨近出行日期時再次確認。"
+        }
       ]
     },
-    "ui": { "visa": "簽證", "stay": "停留", "entry": "入境", "where": "取得途徑", "official": "官方來源", "required": "必需", "conditional": "如適用", "recommended": "建議", "confirm": "費用/規則會變動——請以官方來源為準", "source": "來源", "updated": "更新", "tldr": "摘要" }
+    "ui": {
+      "visa": "簽證",
+      "stay": "停留",
+      "entry": "入境",
+      "where": "取得途徑",
+      "official": "官方來源",
+      "required": "必需",
+      "conditional": "如適用",
+      "recommended": "建議",
+      "confirm": "費用/規則會變動——請以官方來源為準",
+      "source": "來源",
+      "updated": "更新",
+      "tldr": "摘要"
+    }
   },
   "es": {
     "kicker": "Guía de entrada · Australia → Corea",
@@ -286,8 +738,18 @@
       "entry": "Turismo de corta duración"
     },
     "highlights": [
-      { "icon": "✅", "tone": "green", "title": "Sin visado, y K-ETA exenta hasta 2026", "body": "Australia es uno de los 22 países exentos de la K-ETA hasta 31 Dec 2026, así que no solicitas ni visado ni K-ETA para el turismo corto. La exención está prevista que termine y la K-ETA vuelve el 1 Jan 2027: reconfírmalo antes de viajar." },
-      { "icon": "📝", "tone": "blue", "title": "Aun así necesitas la e-Arrival Card", "body": "Casi todos los visitantes rellenan la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas antes de la llegada. (Los titulares de una K-ETA válida están exentos, pero con la K-ETA exenta conviene rellenar la e-Arrival Card.)" }
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Sin visado, y K-ETA exenta hasta 2026",
+        "body": "Australia es uno de los 22 países exentos de la K-ETA hasta 31 Dec 2026, así que no solicitas ni visado ni K-ETA para el turismo corto. La exención está prevista que termine y la K-ETA vuelve el 1 Jan 2027: reconfírmalo antes de viajar."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "Aun así necesitas la e-Arrival Card",
+        "body": "Casi todos los visitantes rellenan la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas antes de la llegada. (Los titulares de una K-ETA válida están exentos, pero con la K-ETA exenta conviene rellenar la e-Arrival Card.)"
+      }
     ],
     "tldr": [
       "Ahora mismo no necesitas visado de turista ni K-ETA: Australia entra sin visado y está exenta de K-ETA hasta 2026.",
@@ -298,47 +760,150 @@
     "steps": {
       "title": "Tus pasos de entrada",
       "items": [
-        { "n": 1, "title": "Confirma que no necesitas visado", "detail": "Los pasaportes de Australia entran en Corea sin visado para el turismo corto, y la K-ETA está exenta hasta 2026: no hay nada que solicitar." },
-        { "n": 2, "title": "Rellena la e-Arrival Card", "detail": "Dentro de las 72 horas antes de la llegada, complétala gratis en e-arrivalcard.go.kr y guarda el QR/confirmación.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
-        { "n": 3, "title": "Revisa el pasaporte y el billete de salida", "detail": "Asegúrate de que tu pasaporte sea válido durante tu estancia, y ten un billete de regreso/salida más la dirección de tu primer alojamiento." },
-        { "n": 4, "title": "En inmigración", "detail": "Muestra tu pasaporte y la confirmación de la e-Arrival; pueden tomarte las huellas y una foto. Mantenlo como turismo: sin trabajo remunerado en la entrada sin visado." }
+        {
+          "n": 1,
+          "title": "Confirma que no necesitas visado",
+          "detail": "Los pasaportes de Australia entran en Corea sin visado para el turismo corto, y la K-ETA está exenta hasta 2026: no hay nada que solicitar."
+        },
+        {
+          "n": 2,
+          "title": "Rellena la e-Arrival Card",
+          "detail": "Dentro de las 72 horas antes de la llegada, complétala gratis en e-arrivalcard.go.kr y guarda el QR/confirmación.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Revisa el pasaporte y el billete de salida",
+          "detail": "Asegúrate de que tu pasaporte sea válido durante tu estancia, y ten un billete de regreso/salida más la dirección de tu primer alojamiento."
+        },
+        {
+          "n": 4,
+          "title": "En inmigración",
+          "detail": "Muestra tu pasaporte y la confirmación de la e-Arrival; pueden tomarte las huellas y una foto. Mantenlo como turismo: sin trabajo remunerado en la entrada sin visado."
+        }
       ]
     },
     "documents": {
       "title": "Qué tener a mano",
       "intro": "No presentas una solicitud de visado, pero ten esto a mano para una entrada sin problemas.",
-      "cols": ["Elemento", "Dónde conseguirlo", "Notas"],
-      "rows": [
-        { "doc": "Pasaporte", "req": "required", "where": "Ya lo tienes", "how": "Válido durante toda tu estancia." },
-        { "doc": "Confirmación de la e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Gratis; rellénala dentro de las 72 horas antes de la llegada y guarda el QR.", "link": "https://www.e-arrivalcard.go.kr" },
-        { "doc": "Billete de regreso / salida", "req": "required", "where": "Aerolínea / agencia de viajes", "how": "Prueba de que saldrás dentro de tu estancia permitida." },
-        { "doc": "Dirección de alojamiento", "req": "required", "where": "Sitios de reserva", "how": "La dirección de tu primer hotel/alojamiento (se pide en la e-Arrival Card)." },
-        { "doc": "Fondos para tu viaje", "req": "recommended", "where": "Tú", "how": "Las tarjetas se aceptan ampliamente; lleva algo de efectivo para mercados y pequeños vendedores." }
+      "cols": [
+        "Elemento",
+        "Dónde conseguirlo",
+        "Notas"
       ],
-      "legend": { "required": "Obligatorio", "conditional": "Si aplica", "recommended": "Recomendado" }
+      "rows": [
+        {
+          "doc": "Pasaporte",
+          "req": "required",
+          "where": "Ya lo tienes",
+          "how": "Válido durante toda tu estancia."
+        },
+        {
+          "doc": "Confirmación de la e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Gratis; rellénala dentro de las 72 horas antes de la llegada y guarda el QR.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Billete de regreso / salida",
+          "req": "required",
+          "where": "Aerolínea / agencia de viajes",
+          "how": "Prueba de que saldrás dentro de tu estancia permitida."
+        },
+        {
+          "doc": "Dirección de alojamiento",
+          "req": "required",
+          "where": "Sitios de reserva",
+          "how": "La dirección de tu primer hotel/alojamiento (se pide en la e-Arrival Card)."
+        },
+        {
+          "doc": "Fondos para tu viaje",
+          "req": "recommended",
+          "where": "Tú",
+          "how": "Las tarjetas se aceptan ampliamente; lleva algo de efectivo para mercados y pequeños vendedores."
+        }
+      ],
+      "legend": {
+        "required": "Obligatorio",
+        "conditional": "Si aplica",
+        "recommended": "Recomendado"
+      }
     },
     "pitfalls": {
       "title": "Errores comunes de entrada",
       "items": [
-        { "icon": "🕸️", "t": "Pagar una 'tasa de visado/K-ETA' que no debes", "d": "Ahora mismo no necesitas ni visado ni K-ETA. Los sitios fraudulentos siguen cobrando por ellos: ignóralos." },
-        { "icon": "📝", "t": "Saltarse la e-Arrival Card", "d": "La mayoría de los visitantes debe rellenarla (gratis). Hazlo dentro de las 72 horas tras la llegada." },
-        { "icon": "⏰", "t": "Rellenar la e-Arrival Card demasiado pronto", "d": "Caduca 72 horas después de enviarla: rellénala cerca de tu vuelo, no semanas antes." },
-        { "icon": "🗓️", "t": "Superar tu estancia permitida", "d": "Quedarte más de 90 días arriesga multas y prohibiciones de entrada futuras." },
-        { "icon": "💼", "t": "Trabajar con una entrada de turista", "d": "La entrada sin visado es solo para turismo/visitas: el trabajo remunerado requiere un visado adecuado." }
+        {
+          "icon": "🕸️",
+          "t": "Pagar una 'tasa de visado/K-ETA' que no debes",
+          "d": "Ahora mismo no necesitas ni visado ni K-ETA. Los sitios fraudulentos siguen cobrando por ellos: ignóralos."
+        },
+        {
+          "icon": "📝",
+          "t": "Saltarse la e-Arrival Card",
+          "d": "La mayoría de los visitantes debe rellenarla (gratis). Hazlo dentro de las 72 horas tras la llegada."
+        },
+        {
+          "icon": "⏰",
+          "t": "Rellenar la e-Arrival Card demasiado pronto",
+          "d": "Caduca 72 horas después de enviarla: rellénala cerca de tu vuelo, no semanas antes."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Superar tu estancia permitida",
+          "d": "Quedarte más de 90 días arriesga multas y prohibiciones de entrada futuras."
+        },
+        {
+          "icon": "💼",
+          "t": "Trabajar con una entrada de turista",
+          "d": "La entrada sin visado es solo para turismo/visitas: el trabajo remunerado requiere un visado adecuado."
+        }
       ]
     },
     "faq": {
       "title": "Preguntas frecuentes de entrada Australia → Corea",
       "items": [
-        { "q": "¿Los viajeros de Australia necesitan visado para Corea?", "a": "No: para el turismo de corta duración, los titulares de pasaporte de Australia entran en Corea sin visado. No solicitas ningún visado de turista." },
-        { "q": "¿Necesito la K-ETA?", "a": "Ahora mismo no. Australia está entre los 22 países exentos de la K-ETA hasta 31 Dec 2026. Está previsto que el requisito vuelva el 1 Jan 2027 salvo que se prorrogue." },
-        { "q": "¿Aún necesito la e-Arrival Card?", "a": "Sí: la mayoría de los visitantes rellena la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas antes de la llegada." },
-        { "q": "¿Cuánto tiempo puedo quedarme?", "a": "Hasta 90 días, para turismo." },
-        { "q": "¿Puedo trabajar o estudiar con esta entrada?", "a": "No. La entrada sin visado es solo para turismo y visitas cortas; trabajar o estudiar requiere el visado correspondiente." },
-        { "q": "¿Cuándo vuelve la K-ETA?", "a": "Está previsto que la exención termine el 31 Dec 2026, y la K-ETA se reanude el 1 Jan 2027 salvo que se prorrogue: reconfírmalo cerca de tu fecha de viaje." }
+        {
+          "q": "¿Los viajeros de Australia necesitan visado para Corea?",
+          "a": "No: para el turismo de corta duración, los titulares de pasaporte de Australia entran en Corea sin visado. No solicitas ningún visado de turista."
+        },
+        {
+          "q": "¿Necesito la K-ETA?",
+          "a": "Ahora mismo no. Australia está entre los 22 países exentos de la K-ETA hasta 31 Dec 2026. Está previsto que el requisito vuelva el 1 Jan 2027 salvo que se prorrogue."
+        },
+        {
+          "q": "¿Aún necesito la e-Arrival Card?",
+          "a": "Sí: la mayoría de los visitantes rellena la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas antes de la llegada."
+        },
+        {
+          "q": "¿Cuánto tiempo puedo quedarme?",
+          "a": "Hasta 90 días, para turismo."
+        },
+        {
+          "q": "¿Puedo trabajar o estudiar con esta entrada?",
+          "a": "No. La entrada sin visado es solo para turismo y visitas cortas; trabajar o estudiar requiere el visado correspondiente."
+        },
+        {
+          "q": "¿Cuándo vuelve la K-ETA?",
+          "a": "Está previsto que la exención termine el 31 Dec 2026, y la K-ETA se reanude el 1 Jan 2027 salvo que se prorrogue: reconfírmalo cerca de tu fecha de viaje."
+        }
       ]
     },
-    "ui": { "visa": "Visado", "stay": "Estancia", "entry": "Entrada", "where": "Dónde", "official": "Fuentes oficiales", "required": "Obligatorio", "conditional": "Si aplica", "recommended": "Recomendado", "confirm": "Las tasas/reglas cambian: confírmalo en la fuente", "source": "Fuente", "updated": "Actualizado", "tldr": "Resumen" }
+    "ui": {
+      "visa": "Visado",
+      "stay": "Estancia",
+      "entry": "Entrada",
+      "where": "Dónde",
+      "official": "Fuentes oficiales",
+      "required": "Obligatorio",
+      "conditional": "Si aplica",
+      "recommended": "Recomendado",
+      "confirm": "Las tasas/reglas cambian: confírmalo en la fuente",
+      "source": "Fuente",
+      "updated": "Actualizado",
+      "tldr": "Resumen"
+    }
   },
   "vi": {
     "kicker": "Hướng dẫn nhập cảnh · Úc → Hàn Quốc",
@@ -354,8 +919,18 @@
       "entry": "Du lịch ngắn hạn"
     },
     "highlights": [
-      { "icon": "✅", "tone": "green", "title": "Không cần thị thực, K-ETA cũng được miễn đến năm 2026", "body": "Úc là một trong 22 quốc gia được miễn K-ETA đến 31 Dec 2026, nên với du lịch ngắn hạn bạn không xin cả thị thực lẫn K-ETA. Việc miễn này dự kiến sẽ kết thúc và K-ETA trở lại vào 1 Jan 2027 — hãy xác nhận lại trước khi đi." },
-      { "icon": "📝", "tone": "blue", "title": "Bạn vẫn cần e-Arrival Card", "body": "Hầu hết mọi du khách đều điền e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 giờ trước khi đến. (Người có K-ETA hợp lệ được miễn, nhưng khi K-ETA đang được miễn thì bạn nên điền e-Arrival Card.)" }
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Không cần thị thực, K-ETA cũng được miễn đến năm 2026",
+        "body": "Úc là một trong 22 quốc gia được miễn K-ETA đến 31 Dec 2026, nên với du lịch ngắn hạn bạn không xin cả thị thực lẫn K-ETA. Việc miễn này dự kiến sẽ kết thúc và K-ETA trở lại vào 1 Jan 2027 — hãy xác nhận lại trước khi đi."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "Bạn vẫn cần e-Arrival Card",
+        "body": "Hầu hết mọi du khách đều điền e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 giờ trước khi đến. (Người có K-ETA hợp lệ được miễn, nhưng khi K-ETA đang được miễn thì bạn nên điền e-Arrival Card.)"
+      }
     ],
     "tldr": [
       "Hiện tại không cần thị thực du lịch lẫn K-ETA — Úc miễn thị thực và miễn K-ETA đến năm 2026.",
@@ -366,47 +941,150 @@
     "steps": {
       "title": "Các bước nhập cảnh của bạn",
       "items": [
-        { "n": 1, "title": "Xác nhận bạn được miễn thị thực", "detail": "Hộ chiếu Úc được nhập cảnh Hàn Quốc miễn thị thực cho du lịch ngắn hạn, và K-ETA cũng được miễn đến năm 2026 — không có gì để xin." },
-        { "n": 2, "title": "Điền e-Arrival Card", "detail": "Trong vòng 72 giờ trước khi đến, điền miễn phí tại e-arrivalcard.go.kr và lưu mã QR/xác nhận.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
-        { "n": 3, "title": "Kiểm tra hộ chiếu & vé đi tiếp", "detail": "Đảm bảo hộ chiếu còn hạn trong suốt thời gian lưu trú, và có vé khứ hồi/đi tiếp cùng địa chỉ nơi ở đầu tiên." },
-        { "n": 4, "title": "Tại quầy nhập cảnh", "detail": "Xuất trình hộ chiếu và xác nhận e-Arrival; có thể lấy dấu vân tay và chụp ảnh. Chỉ dùng cho du lịch — không làm việc có trả lương khi nhập cảnh miễn thị thực." }
+        {
+          "n": 1,
+          "title": "Xác nhận bạn được miễn thị thực",
+          "detail": "Hộ chiếu Úc được nhập cảnh Hàn Quốc miễn thị thực cho du lịch ngắn hạn, và K-ETA cũng được miễn đến năm 2026 — không có gì để xin."
+        },
+        {
+          "n": 2,
+          "title": "Điền e-Arrival Card",
+          "detail": "Trong vòng 72 giờ trước khi đến, điền miễn phí tại e-arrivalcard.go.kr và lưu mã QR/xác nhận.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Kiểm tra hộ chiếu & vé đi tiếp",
+          "detail": "Đảm bảo hộ chiếu còn hạn trong suốt thời gian lưu trú, và có vé khứ hồi/đi tiếp cùng địa chỉ nơi ở đầu tiên."
+        },
+        {
+          "n": 4,
+          "title": "Tại quầy nhập cảnh",
+          "detail": "Xuất trình hộ chiếu và xác nhận e-Arrival; có thể lấy dấu vân tay và chụp ảnh. Chỉ dùng cho du lịch — không làm việc có trả lương khi nhập cảnh miễn thị thực."
+        }
       ]
     },
     "documents": {
       "title": "Những thứ cần chuẩn bị sẵn",
       "intro": "Bạn không nộp đơn xin thị thực — nhưng hãy chuẩn bị sẵn những thứ này để nhập cảnh suôn sẻ.",
-      "cols": ["Mục", "Nơi lấy", "Ghi chú"],
-      "rows": [
-        { "doc": "Hộ chiếu", "req": "required", "where": "Bạn đã có", "how": "Còn hạn trong suốt thời gian lưu trú." },
-        { "doc": "Xác nhận e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Miễn phí; điền trong vòng 72 giờ trước khi đến và lưu mã QR.", "link": "https://www.e-arrivalcard.go.kr" },
-        { "doc": "Vé khứ hồi / đi tiếp", "req": "required", "where": "Hãng bay / đại lý du lịch", "how": "Bằng chứng bạn sẽ rời đi trong thời gian lưu trú được phép." },
-        { "doc": "Địa chỉ nơi ở", "req": "required", "where": "Trang đặt phòng", "how": "Địa chỉ khách sạn/nơi ở đầu tiên (được hỏi trên e-Arrival Card)." },
-        { "doc": "Tiền cho chuyến đi", "req": "recommended", "where": "Bạn", "how": "Thẻ được chấp nhận rộng rãi; mang theo ít tiền mặt cho chợ và các cửa hàng nhỏ." }
+      "cols": [
+        "Mục",
+        "Nơi lấy",
+        "Ghi chú"
       ],
-      "legend": { "required": "Bắt buộc", "conditional": "Nếu áp dụng", "recommended": "Khuyến nghị" }
+      "rows": [
+        {
+          "doc": "Hộ chiếu",
+          "req": "required",
+          "where": "Bạn đã có",
+          "how": "Còn hạn trong suốt thời gian lưu trú."
+        },
+        {
+          "doc": "Xác nhận e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Miễn phí; điền trong vòng 72 giờ trước khi đến và lưu mã QR.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Vé khứ hồi / đi tiếp",
+          "req": "required",
+          "where": "Hãng bay / đại lý du lịch",
+          "how": "Bằng chứng bạn sẽ rời đi trong thời gian lưu trú được phép."
+        },
+        {
+          "doc": "Địa chỉ nơi ở",
+          "req": "required",
+          "where": "Trang đặt phòng",
+          "how": "Địa chỉ khách sạn/nơi ở đầu tiên (được hỏi trên e-Arrival Card)."
+        },
+        {
+          "doc": "Tiền cho chuyến đi",
+          "req": "recommended",
+          "where": "Bạn",
+          "how": "Thẻ được chấp nhận rộng rãi; mang theo ít tiền mặt cho chợ và các cửa hàng nhỏ."
+        }
+      ],
+      "legend": {
+        "required": "Bắt buộc",
+        "conditional": "Nếu áp dụng",
+        "recommended": "Khuyến nghị"
+      }
     },
     "pitfalls": {
       "title": "Những lỗi nhập cảnh thường gặp",
       "items": [
-        { "icon": "🕸️", "t": "Trả 'phí thị thực/K-ETA' mà bạn không nợ", "d": "Hiện tại bạn không cần cả thị thực lẫn K-ETA. Các trang lừa đảo vẫn thu phí cho chúng — hãy bỏ qua." },
-        { "icon": "📝", "t": "Bỏ qua e-Arrival Card", "d": "Hầu hết du khách phải điền (miễn phí). Hãy làm trong vòng 72 giờ trước khi đến." },
-        { "icon": "⏰", "t": "Điền e-Arrival Card quá sớm", "d": "Nó hết hạn 72 giờ sau khi nộp — hãy điền gần sát chuyến bay, không phải trước cả tuần." },
-        { "icon": "🗓️", "t": "Ở quá thời gian cho phép", "d": "Ở quá 90 ngày có nguy cơ bị phạt tiền và cấm nhập cảnh trong tương lai." },
-        { "icon": "💼", "t": "Làm việc khi nhập cảnh du lịch", "d": "Nhập cảnh miễn thị thực chỉ dành cho du lịch/thăm viếng — làm việc có trả lương cần thị thực phù hợp." }
+        {
+          "icon": "🕸️",
+          "t": "Trả 'phí thị thực/K-ETA' mà bạn không nợ",
+          "d": "Hiện tại bạn không cần cả thị thực lẫn K-ETA. Các trang lừa đảo vẫn thu phí cho chúng — hãy bỏ qua."
+        },
+        {
+          "icon": "📝",
+          "t": "Bỏ qua e-Arrival Card",
+          "d": "Hầu hết du khách phải điền (miễn phí). Hãy làm trong vòng 72 giờ trước khi đến."
+        },
+        {
+          "icon": "⏰",
+          "t": "Điền e-Arrival Card quá sớm",
+          "d": "Nó hết hạn 72 giờ sau khi nộp — hãy điền gần sát chuyến bay, không phải trước cả tuần."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Ở quá thời gian cho phép",
+          "d": "Ở quá 90 ngày có nguy cơ bị phạt tiền và cấm nhập cảnh trong tương lai."
+        },
+        {
+          "icon": "💼",
+          "t": "Làm việc khi nhập cảnh du lịch",
+          "d": "Nhập cảnh miễn thị thực chỉ dành cho du lịch/thăm viếng — làm việc có trả lương cần thị thực phù hợp."
+        }
       ]
     },
     "faq": {
       "title": "Câu hỏi thường gặp về nhập cảnh Úc → Hàn Quốc",
       "items": [
-        { "q": "Du khách từ Úc có cần thị thực Hàn Quốc không?", "a": "Không — với du lịch ngắn hạn, người có hộ chiếu Úc nhập cảnh Hàn Quốc miễn thị thực. Bạn không xin bất kỳ thị thực du lịch nào." },
-        { "q": "Tôi có cần K-ETA không?", "a": "Hiện tại thì không. Úc nằm trong 22 quốc gia được miễn K-ETA đến 31 Dec 2026. Yêu cầu này dự kiến trở lại vào 1 Jan 2027 trừ khi được gia hạn." },
-        { "q": "Tôi vẫn cần e-Arrival Card chứ?", "a": "Có — hầu hết du khách điền e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 giờ trước khi đến." },
-        { "q": "Tôi có thể ở lại bao lâu?", "a": "Tối đa 90 ngày, cho du lịch." },
-        { "q": "Tôi có thể làm việc hoặc học tập với lần nhập cảnh này không?", "a": "Không. Nhập cảnh miễn thị thực chỉ dành cho du lịch và thăm viếng ngắn hạn; làm việc hoặc học tập cần thị thực phù hợp." },
-        { "q": "Khi nào K-ETA trở lại?", "a": "Việc miễn dự kiến kết thúc vào 31 Dec 2026, và K-ETA nối lại vào 1 Jan 2027 trừ khi được gia hạn — hãy xác nhận lại gần ngày đi." }
+        {
+          "q": "Du khách từ Úc có cần thị thực Hàn Quốc không?",
+          "a": "Không — với du lịch ngắn hạn, người có hộ chiếu Úc nhập cảnh Hàn Quốc miễn thị thực. Bạn không xin bất kỳ thị thực du lịch nào."
+        },
+        {
+          "q": "Tôi có cần K-ETA không?",
+          "a": "Hiện tại thì không. Úc nằm trong 22 quốc gia được miễn K-ETA đến 31 Dec 2026. Yêu cầu này dự kiến trở lại vào 1 Jan 2027 trừ khi được gia hạn."
+        },
+        {
+          "q": "Tôi vẫn cần e-Arrival Card chứ?",
+          "a": "Có — hầu hết du khách điền e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 giờ trước khi đến."
+        },
+        {
+          "q": "Tôi có thể ở lại bao lâu?",
+          "a": "Tối đa 90 ngày, cho du lịch."
+        },
+        {
+          "q": "Tôi có thể làm việc hoặc học tập với lần nhập cảnh này không?",
+          "a": "Không. Nhập cảnh miễn thị thực chỉ dành cho du lịch và thăm viếng ngắn hạn; làm việc hoặc học tập cần thị thực phù hợp."
+        },
+        {
+          "q": "Khi nào K-ETA trở lại?",
+          "a": "Việc miễn dự kiến kết thúc vào 31 Dec 2026, và K-ETA nối lại vào 1 Jan 2027 trừ khi được gia hạn — hãy xác nhận lại gần ngày đi."
+        }
       ]
     },
-    "ui": { "visa": "Thị thực", "stay": "Lưu trú", "entry": "Nhập cảnh", "where": "Nơi lấy", "official": "Nguồn chính thức", "required": "Bắt buộc", "conditional": "Nếu áp dụng", "recommended": "Khuyến nghị", "confirm": "Phí/quy định có thể thay đổi — hãy xác nhận tại nguồn chính thức", "source": "Nguồn", "updated": "Cập nhật", "tldr": "Tóm tắt" }
+    "ui": {
+      "visa": "Thị thực",
+      "stay": "Lưu trú",
+      "entry": "Nhập cảnh",
+      "where": "Nơi lấy",
+      "official": "Nguồn chính thức",
+      "required": "Bắt buộc",
+      "conditional": "Nếu áp dụng",
+      "recommended": "Khuyến nghị",
+      "confirm": "Phí/quy định có thể thay đổi — hãy xác nhận tại nguồn chính thức",
+      "source": "Nguồn",
+      "updated": "Cập nhật",
+      "tldr": "Tóm tắt"
+    }
   },
   "th": {
     "kicker": "คู่มือการเข้าเมือง · ออสเตรเลีย → เกาหลี",
@@ -422,8 +1100,18 @@
       "entry": "ท่องเที่ยวระยะสั้น"
     },
     "highlights": [
-      { "icon": "✅", "tone": "green", "title": "ไม่ต้องใช้วีซ่า และยกเว้น K-ETA จนถึงปี 2026", "body": "ออสเตรเลียเป็นหนึ่งใน 22 ประเทศที่ได้รับการยกเว้น K-ETA จนถึง 31 Dec 2026 ดังนั้นสำหรับการท่องเที่ยวระยะสั้นคุณไม่ต้องยื่นทั้งวีซ่าและ K-ETA การยกเว้นนี้มีกำหนดสิ้นสุดและ K-ETA จะกลับมาในวันที่ 1 Jan 2027 — โปรดตรวจสอบอีกครั้งก่อนเดินทาง" },
-      { "icon": "📝", "tone": "blue", "title": "คุณยังคงต้องใช้ e-Arrival Card", "body": "ผู้เดินทางเกือบทุกคนกรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง (ผู้ถือ K-ETA ที่ยังใช้ได้จะได้รับการยกเว้น แต่เมื่อ K-ETA ถูกยกเว้นอยู่ในขณะนี้ คุณควรกรอก e-Arrival Card)" }
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "ไม่ต้องใช้วีซ่า และยกเว้น K-ETA จนถึงปี 2026",
+        "body": "ออสเตรเลียเป็นหนึ่งใน 22 ประเทศที่ได้รับการยกเว้น K-ETA จนถึง 31 Dec 2026 ดังนั้นสำหรับการท่องเที่ยวระยะสั้นคุณไม่ต้องยื่นทั้งวีซ่าและ K-ETA การยกเว้นนี้มีกำหนดสิ้นสุดและ K-ETA จะกลับมาในวันที่ 1 Jan 2027 — โปรดตรวจสอบอีกครั้งก่อนเดินทาง"
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "คุณยังคงต้องใช้ e-Arrival Card",
+        "body": "ผู้เดินทางเกือบทุกคนกรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง (ผู้ถือ K-ETA ที่ยังใช้ได้จะได้รับการยกเว้น แต่เมื่อ K-ETA ถูกยกเว้นอยู่ในขณะนี้ คุณควรกรอก e-Arrival Card)"
+      }
     ],
     "tldr": [
       "ตอนนี้ไม่ต้องใช้ทั้งวีซ่าท่องเที่ยวและ K-ETA — ออสเตรเลียเข้าได้โดยไม่ต้องมีวีซ่าและได้รับการยกเว้น K-ETA จนถึงปี 2026",
@@ -434,47 +1122,150 @@
     "steps": {
       "title": "ขั้นตอนการเข้าเมืองของคุณ",
       "items": [
-        { "n": 1, "title": "ยืนยันว่าคุณไม่ต้องใช้วีซ่า", "detail": "หนังสือเดินทางออสเตรเลียเข้าเกาหลีได้โดยไม่ต้องมีวีซ่าสำหรับการท่องเที่ยวระยะสั้น และ K-ETA ก็ได้รับการยกเว้นจนถึงปี 2026 — ไม่มีอะไรต้องยื่นขอ" },
-        { "n": 2, "title": "กรอก e-Arrival Card", "detail": "ภายใน 72 ชั่วโมงก่อนเดินทางถึง กรอกฟรีที่ e-arrivalcard.go.kr และบันทึก QR/หน้ายืนยัน", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
-        { "n": 3, "title": "ตรวจสอบหนังสือเดินทางและตั๋วขาออก", "detail": "ตรวจสอบให้แน่ใจว่าหนังสือเดินทางใช้ได้ตลอดระยะเวลาพำนัก และมีตั๋วขากลับ/ขาออกพร้อมที่อยู่ที่พักแห่งแรก" },
-        { "n": 4, "title": "ที่ด่านตรวจคนเข้าเมือง", "detail": "แสดงหนังสือเดินทางและหน้ายืนยัน e-Arrival อาจมีการเก็บลายนิ้วมือและถ่ายรูป ให้อยู่ในขอบเขตการท่องเที่ยว — ห้ามทำงานที่ได้รับค่าจ้างเมื่อเข้าเมืองแบบไม่ต้องมีวีซ่า" }
+        {
+          "n": 1,
+          "title": "ยืนยันว่าคุณไม่ต้องใช้วีซ่า",
+          "detail": "หนังสือเดินทางออสเตรเลียเข้าเกาหลีได้โดยไม่ต้องมีวีซ่าสำหรับการท่องเที่ยวระยะสั้น และ K-ETA ก็ได้รับการยกเว้นจนถึงปี 2026 — ไม่มีอะไรต้องยื่นขอ"
+        },
+        {
+          "n": 2,
+          "title": "กรอก e-Arrival Card",
+          "detail": "ภายใน 72 ชั่วโมงก่อนเดินทางถึง กรอกฟรีที่ e-arrivalcard.go.kr และบันทึก QR/หน้ายืนยัน",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "ตรวจสอบหนังสือเดินทางและตั๋วขาออก",
+          "detail": "ตรวจสอบให้แน่ใจว่าหนังสือเดินทางใช้ได้ตลอดระยะเวลาพำนัก และมีตั๋วขากลับ/ขาออกพร้อมที่อยู่ที่พักแห่งแรก"
+        },
+        {
+          "n": 4,
+          "title": "ที่ด่านตรวจคนเข้าเมือง",
+          "detail": "แสดงหนังสือเดินทางและหน้ายืนยัน e-Arrival อาจมีการเก็บลายนิ้วมือและถ่ายรูป ให้อยู่ในขอบเขตการท่องเที่ยว — ห้ามทำงานที่ได้รับค่าจ้างเมื่อเข้าเมืองแบบไม่ต้องมีวีซ่า"
+        }
       ]
     },
     "documents": {
       "title": "สิ่งที่ต้องเตรียมให้พร้อม",
       "intro": "คุณไม่ต้องยื่นคำขอวีซ่า — แต่เตรียมสิ่งเหล่านี้ให้พร้อมเพื่อการเข้าเมืองที่ราบรื่น",
-      "cols": ["รายการ", "แหล่งที่ได้มา", "หมายเหตุ"],
-      "rows": [
-        { "doc": "หนังสือเดินทาง", "req": "required", "where": "คุณมีอยู่แล้ว", "how": "ใช้ได้ตลอดระยะเวลาพำนัก" },
-        { "doc": "การยืนยัน e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "ฟรี; กรอกภายใน 72 ชั่วโมงก่อนเดินทางถึงและบันทึก QR", "link": "https://www.e-arrivalcard.go.kr" },
-        { "doc": "ตั๋วขากลับ / ขาออก", "req": "required", "where": "สายการบิน / ตัวแทนท่องเที่ยว", "how": "หลักฐานว่าคุณจะออกภายในระยะเวลาพำนักที่อนุญาต" },
-        { "doc": "ที่อยู่ที่พัก", "req": "required", "where": "เว็บไซต์จองที่พัก", "how": "ที่อยู่โรงแรม/ที่พักแห่งแรกของคุณ (ถูกถามใน e-Arrival Card)" },
-        { "doc": "เงินสำหรับการเดินทาง", "req": "recommended", "where": "คุณ", "how": "บัตรได้รับการยอมรับอย่างกว้างขวาง; พกเงินสดไว้บ้างสำหรับตลาดและร้านค้าเล็ก ๆ" }
+      "cols": [
+        "รายการ",
+        "แหล่งที่ได้มา",
+        "หมายเหตุ"
       ],
-      "legend": { "required": "จำเป็น", "conditional": "หากเกี่ยวข้อง", "recommended": "แนะนำ" }
+      "rows": [
+        {
+          "doc": "หนังสือเดินทาง",
+          "req": "required",
+          "where": "คุณมีอยู่แล้ว",
+          "how": "ใช้ได้ตลอดระยะเวลาพำนัก"
+        },
+        {
+          "doc": "การยืนยัน e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "ฟรี; กรอกภายใน 72 ชั่วโมงก่อนเดินทางถึงและบันทึก QR",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "ตั๋วขากลับ / ขาออก",
+          "req": "required",
+          "where": "สายการบิน / ตัวแทนท่องเที่ยว",
+          "how": "หลักฐานว่าคุณจะออกภายในระยะเวลาพำนักที่อนุญาต"
+        },
+        {
+          "doc": "ที่อยู่ที่พัก",
+          "req": "required",
+          "where": "เว็บไซต์จองที่พัก",
+          "how": "ที่อยู่โรงแรม/ที่พักแห่งแรกของคุณ (ถูกถามใน e-Arrival Card)"
+        },
+        {
+          "doc": "เงินสำหรับการเดินทาง",
+          "req": "recommended",
+          "where": "คุณ",
+          "how": "บัตรได้รับการยอมรับอย่างกว้างขวาง; พกเงินสดไว้บ้างสำหรับตลาดและร้านค้าเล็ก ๆ"
+        }
+      ],
+      "legend": {
+        "required": "จำเป็น",
+        "conditional": "หากเกี่ยวข้อง",
+        "recommended": "แนะนำ"
+      }
     },
     "pitfalls": {
       "title": "ข้อผิดพลาดในการเข้าเมืองที่พบบ่อย",
       "items": [
-        { "icon": "🕸️", "t": "จ่าย 'ค่าธรรมเนียมวีซ่า/K-ETA' ที่คุณไม่ต้องจ่าย", "d": "ตอนนี้คุณไม่ต้องใช้ทั้งวีซ่าและ K-ETA เว็บไซต์หลอกลวงยังคงเรียกเก็บเงินสำหรับสิ่งเหล่านี้ — เพิกเฉยเสีย" },
-        { "icon": "📝", "t": "ข้าม e-Arrival Card", "d": "ผู้เดินทางส่วนใหญ่ต้องกรอก (ฟรี) ทำภายใน 72 ชั่วโมงก่อนเดินทางถึง" },
-        { "icon": "⏰", "t": "กรอก e-Arrival Card เร็วเกินไป", "d": "มันหมดอายุ 72 ชั่วโมงหลังส่ง — กรอกใกล้กับเที่ยวบิน ไม่ใช่ล่วงหน้าหลายสัปดาห์" },
-        { "icon": "🗓️", "t": "พำนักเกินกำหนดที่อนุญาต", "d": "การพำนักเกิน 90 วันเสี่ยงต่อค่าปรับและการห้ามเข้าประเทศในอนาคต" },
-        { "icon": "💼", "t": "ทำงานด้วยการเข้าเมืองแบบท่องเที่ยว", "d": "การเข้าเมืองแบบไม่ต้องมีวีซ่ามีไว้สำหรับการท่องเที่ยว/เยี่ยมเยียนเท่านั้น — งานที่ได้รับค่าจ้างต้องใช้วีซ่าที่เหมาะสม" }
+        {
+          "icon": "🕸️",
+          "t": "จ่าย 'ค่าธรรมเนียมวีซ่า/K-ETA' ที่คุณไม่ต้องจ่าย",
+          "d": "ตอนนี้คุณไม่ต้องใช้ทั้งวีซ่าและ K-ETA เว็บไซต์หลอกลวงยังคงเรียกเก็บเงินสำหรับสิ่งเหล่านี้ — เพิกเฉยเสีย"
+        },
+        {
+          "icon": "📝",
+          "t": "ข้าม e-Arrival Card",
+          "d": "ผู้เดินทางส่วนใหญ่ต้องกรอก (ฟรี) ทำภายใน 72 ชั่วโมงก่อนเดินทางถึง"
+        },
+        {
+          "icon": "⏰",
+          "t": "กรอก e-Arrival Card เร็วเกินไป",
+          "d": "มันหมดอายุ 72 ชั่วโมงหลังส่ง — กรอกใกล้กับเที่ยวบิน ไม่ใช่ล่วงหน้าหลายสัปดาห์"
+        },
+        {
+          "icon": "🗓️",
+          "t": "พำนักเกินกำหนดที่อนุญาต",
+          "d": "การพำนักเกิน 90 วันเสี่ยงต่อค่าปรับและการห้ามเข้าประเทศในอนาคต"
+        },
+        {
+          "icon": "💼",
+          "t": "ทำงานด้วยการเข้าเมืองแบบท่องเที่ยว",
+          "d": "การเข้าเมืองแบบไม่ต้องมีวีซ่ามีไว้สำหรับการท่องเที่ยว/เยี่ยมเยียนเท่านั้น — งานที่ได้รับค่าจ้างต้องใช้วีซ่าที่เหมาะสม"
+        }
       ]
     },
     "faq": {
       "title": "คำถามที่พบบ่อยเกี่ยวกับการเข้าเมือง ออสเตรเลีย → เกาหลี",
       "items": [
-        { "q": "นักท่องเที่ยวจากออสเตรเลียต้องใช้วีซ่าเข้าเกาหลีไหม?", "a": "ไม่ต้อง — สำหรับการท่องเที่ยวระยะสั้น ผู้ถือหนังสือเดินทางออสเตรเลียเข้าเกาหลีได้โดยไม่ต้องมีวีซ่า คุณไม่ต้องยื่นขอวีซ่าท่องเที่ยวใด ๆ" },
-        { "q": "ฉันต้องใช้ K-ETA ไหม?", "a": "ตอนนี้ไม่ต้อง ออสเตรเลียอยู่ใน 22 ประเทศที่ได้รับการยกเว้น K-ETA จนถึง 31 Dec 2026 ข้อกำหนดนี้มีกำหนดกลับมาในวันที่ 1 Jan 2027 เว้นแต่จะมีการขยายเวลา" },
-        { "q": "ฉันยังต้องใช้ e-Arrival Card ไหม?", "a": "ใช่ — ผู้เดินทางส่วนใหญ่กรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง" },
-        { "q": "ฉันพำนักได้นานเท่าไร?", "a": "สูงสุด 90 วัน สำหรับการท่องเที่ยว" },
-        { "q": "ฉันทำงานหรือเรียนด้วยการเข้าเมืองนี้ได้ไหม?", "a": "ไม่ได้ การเข้าเมืองแบบไม่ต้องมีวีซ่ามีไว้สำหรับการท่องเที่ยวและการเยี่ยมเยียนระยะสั้นเท่านั้น การทำงานหรือการเรียนต้องใช้วีซ่าที่เหมาะสม" },
-        { "q": "K-ETA จะกลับมาเมื่อไร?", "a": "การยกเว้นมีกำหนดสิ้นสุดในวันที่ 31 Dec 2026 และ K-ETA จะกลับมาในวันที่ 1 Jan 2027 เว้นแต่จะมีการขยายเวลา — โปรดตรวจสอบอีกครั้งใกล้วันเดินทางของคุณ" }
+        {
+          "q": "นักท่องเที่ยวจากออสเตรเลียต้องใช้วีซ่าเข้าเกาหลีไหม?",
+          "a": "ไม่ต้อง — สำหรับการท่องเที่ยวระยะสั้น ผู้ถือหนังสือเดินทางออสเตรเลียเข้าเกาหลีได้โดยไม่ต้องมีวีซ่า คุณไม่ต้องยื่นขอวีซ่าท่องเที่ยวใด ๆ"
+        },
+        {
+          "q": "ฉันต้องใช้ K-ETA ไหม?",
+          "a": "ตอนนี้ไม่ต้อง ออสเตรเลียอยู่ใน 22 ประเทศที่ได้รับการยกเว้น K-ETA จนถึง 31 Dec 2026 ข้อกำหนดนี้มีกำหนดกลับมาในวันที่ 1 Jan 2027 เว้นแต่จะมีการขยายเวลา"
+        },
+        {
+          "q": "ฉันยังต้องใช้ e-Arrival Card ไหม?",
+          "a": "ใช่ — ผู้เดินทางส่วนใหญ่กรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง"
+        },
+        {
+          "q": "ฉันพำนักได้นานเท่าไร?",
+          "a": "สูงสุด 90 วัน สำหรับการท่องเที่ยว"
+        },
+        {
+          "q": "ฉันทำงานหรือเรียนด้วยการเข้าเมืองนี้ได้ไหม?",
+          "a": "ไม่ได้ การเข้าเมืองแบบไม่ต้องมีวีซ่ามีไว้สำหรับการท่องเที่ยวและการเยี่ยมเยียนระยะสั้นเท่านั้น การทำงานหรือการเรียนต้องใช้วีซ่าที่เหมาะสม"
+        },
+        {
+          "q": "K-ETA จะกลับมาเมื่อไร?",
+          "a": "การยกเว้นมีกำหนดสิ้นสุดในวันที่ 31 Dec 2026 และ K-ETA จะกลับมาในวันที่ 1 Jan 2027 เว้นแต่จะมีการขยายเวลา — โปรดตรวจสอบอีกครั้งใกล้วันเดินทางของคุณ"
+        }
       ]
     },
-    "ui": { "visa": "วีซ่า", "stay": "พำนัก", "entry": "เข้าเมือง", "where": "แหล่งที่ได้มา", "official": "แหล่งข้อมูลทางการ", "required": "จำเป็น", "conditional": "หากเกี่ยวข้อง", "recommended": "แนะนำ", "confirm": "ค่าธรรมเนียม/กฎเปลี่ยนแปลงได้ — โปรดยืนยันที่แหล่งข้อมูลทางการ", "source": "แหล่งที่มา", "updated": "อัปเดต", "tldr": "สรุป" }
+    "ui": {
+      "visa": "วีซ่า",
+      "stay": "พำนัก",
+      "entry": "เข้าเมือง",
+      "where": "แหล่งที่ได้มา",
+      "official": "แหล่งข้อมูลทางการ",
+      "required": "จำเป็น",
+      "conditional": "หากเกี่ยวข้อง",
+      "recommended": "แนะนำ",
+      "confirm": "ค่าธรรมเนียม/กฎเปลี่ยนแปลงได้ — โปรดยืนยันที่แหล่งข้อมูลทางการ",
+      "source": "แหล่งที่มา",
+      "updated": "อัปเดต",
+      "tldr": "สรุป"
+    }
   },
   "id": {
     "kicker": "Panduan masuk · Australia → Korea",
@@ -490,8 +1281,18 @@
       "entry": "Wisata jangka pendek"
     },
     "highlights": [
-      { "icon": "✅", "tone": "green", "title": "Tanpa visa, dan K-ETA dibebaskan hingga 2026", "body": "Australia adalah salah satu dari 22 negara yang dibebaskan dari K-ETA hingga 31 Dec 2026, jadi untuk wisata singkat Anda tidak mengajukan visa maupun K-ETA. Pembebasan ini dijadwalkan berakhir dan K-ETA kembali berlaku pada 1 Jan 2027 — konfirmasikan lagi sebelum bepergian." },
-      { "icon": "📝", "tone": "blue", "title": "Anda tetap memerlukan e-Arrival Card", "body": "Hampir setiap pengunjung mengisi e-Arrival Card gratis di e-arrivalcard.go.kr, dalam waktu 72 jam sebelum kedatangan. (Pemegang K-ETA yang masih berlaku dibebaskan, tetapi dengan K-ETA yang dibebaskan sebaiknya Anda mengisi e-Arrival Card.)" }
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Tanpa visa, dan K-ETA dibebaskan hingga 2026",
+        "body": "Australia adalah salah satu dari 22 negara yang dibebaskan dari K-ETA hingga 31 Dec 2026, jadi untuk wisata singkat Anda tidak mengajukan visa maupun K-ETA. Pembebasan ini dijadwalkan berakhir dan K-ETA kembali berlaku pada 1 Jan 2027 — konfirmasikan lagi sebelum bepergian."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "Anda tetap memerlukan e-Arrival Card",
+        "body": "Hampir setiap pengunjung mengisi e-Arrival Card gratis di e-arrivalcard.go.kr, dalam waktu 72 jam sebelum kedatangan. (Pemegang K-ETA yang masih berlaku dibebaskan, tetapi dengan K-ETA yang dibebaskan sebaiknya Anda mengisi e-Arrival Card.)"
+      }
     ],
     "tldr": [
       "Saat ini tidak perlu visa turis maupun K-ETA — Australia bebas visa dan bebas K-ETA hingga 2026.",
@@ -502,47 +1303,150 @@
     "steps": {
       "title": "Langkah-langkah masuk Anda",
       "items": [
-        { "n": 1, "title": "Pastikan Anda bebas visa", "detail": "Paspor Australia masuk Korea bebas visa untuk wisata singkat, dan K-ETA dibebaskan hingga 2026 — tidak ada yang perlu diajukan." },
-        { "n": 2, "title": "Isi e-Arrival Card", "detail": "Dalam waktu 72 jam sebelum kedatangan, lengkapi gratis di e-arrivalcard.go.kr dan simpan QR/konfirmasi.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
-        { "n": 3, "title": "Periksa paspor & tiket lanjutan", "detail": "Pastikan paspor Anda berlaku selama masa tinggal, dan miliki tiket pulang/lanjutan serta alamat akomodasi pertama Anda." },
-        { "n": 4, "title": "Di imigrasi", "detail": "Tunjukkan paspor dan konfirmasi e-Arrival; sidik jari dan foto mungkin diambil. Tetap untuk wisata — tidak ada pekerjaan berbayar pada masuk bebas visa." }
+        {
+          "n": 1,
+          "title": "Pastikan Anda bebas visa",
+          "detail": "Paspor Australia masuk Korea bebas visa untuk wisata singkat, dan K-ETA dibebaskan hingga 2026 — tidak ada yang perlu diajukan."
+        },
+        {
+          "n": 2,
+          "title": "Isi e-Arrival Card",
+          "detail": "Dalam waktu 72 jam sebelum kedatangan, lengkapi gratis di e-arrivalcard.go.kr dan simpan QR/konfirmasi.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Periksa paspor & tiket lanjutan",
+          "detail": "Pastikan paspor Anda berlaku selama masa tinggal, dan miliki tiket pulang/lanjutan serta alamat akomodasi pertama Anda."
+        },
+        {
+          "n": 4,
+          "title": "Di imigrasi",
+          "detail": "Tunjukkan paspor dan konfirmasi e-Arrival; sidik jari dan foto mungkin diambil. Tetap untuk wisata — tidak ada pekerjaan berbayar pada masuk bebas visa."
+        }
       ]
     },
     "documents": {
       "title": "Apa yang perlu disiapkan",
       "intro": "Anda tidak mengajukan permohonan visa — tetapi siapkan ini agar masuk lancar.",
-      "cols": ["Item", "Tempat memperolehnya", "Catatan"],
-      "rows": [
-        { "doc": "Paspor", "req": "required", "where": "Anda sudah memilikinya", "how": "Berlaku selama masa tinggal Anda." },
-        { "doc": "Konfirmasi e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Gratis; isi dalam waktu 72 jam sebelum kedatangan dan simpan QR.", "link": "https://www.e-arrivalcard.go.kr" },
-        { "doc": "Tiket pulang / lanjutan", "req": "required", "where": "Maskapai / agen perjalanan", "how": "Bukti bahwa Anda akan pergi dalam masa tinggal yang diizinkan." },
-        { "doc": "Alamat akomodasi", "req": "required", "where": "Situs pemesanan", "how": "Alamat hotel/penginapan pertama Anda (ditanyakan di e-Arrival Card)." },
-        { "doc": "Dana untuk perjalanan Anda", "req": "recommended", "where": "Anda", "how": "Kartu diterima secara luas; bawa sedikit uang tunai untuk pasar dan pedagang kecil." }
+      "cols": [
+        "Item",
+        "Tempat memperolehnya",
+        "Catatan"
       ],
-      "legend": { "required": "Wajib", "conditional": "Jika berlaku", "recommended": "Disarankan" }
+      "rows": [
+        {
+          "doc": "Paspor",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Berlaku selama masa tinggal Anda."
+        },
+        {
+          "doc": "Konfirmasi e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Gratis; isi dalam waktu 72 jam sebelum kedatangan dan simpan QR.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Tiket pulang / lanjutan",
+          "req": "required",
+          "where": "Maskapai / agen perjalanan",
+          "how": "Bukti bahwa Anda akan pergi dalam masa tinggal yang diizinkan."
+        },
+        {
+          "doc": "Alamat akomodasi",
+          "req": "required",
+          "where": "Situs pemesanan",
+          "how": "Alamat hotel/penginapan pertama Anda (ditanyakan di e-Arrival Card)."
+        },
+        {
+          "doc": "Dana untuk perjalanan Anda",
+          "req": "recommended",
+          "where": "Anda",
+          "how": "Kartu diterima secara luas; bawa sedikit uang tunai untuk pasar dan pedagang kecil."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berlaku",
+        "recommended": "Disarankan"
+      }
     },
     "pitfalls": {
       "title": "Kesalahan masuk yang umum",
       "items": [
-        { "icon": "🕸️", "t": "Membayar 'biaya visa/K-ETA' yang tidak Anda utang", "d": "Saat ini Anda tidak memerlukan visa maupun K-ETA. Situs penipuan tetap menagihnya — abaikan saja." },
-        { "icon": "📝", "t": "Melewatkan e-Arrival Card", "d": "Sebagian besar pengunjung wajib mengisinya (gratis). Lakukan dalam waktu 72 jam sebelum kedatangan." },
-        { "icon": "⏰", "t": "Mengisi e-Arrival Card terlalu awal", "d": "Ia kedaluwarsa 72 jam setelah diserahkan — isi mendekati penerbangan Anda, bukan berminggu-minggu sebelumnya." },
-        { "icon": "🗓️", "t": "Melebihi izin tinggal Anda", "d": "Tinggal lebih dari 90 hari berisiko denda dan larangan masuk di masa depan." },
-        { "icon": "💼", "t": "Bekerja dengan masuk turis", "d": "Masuk bebas visa hanya untuk wisata/kunjungan — pekerjaan berbayar memerlukan visa yang sesuai." }
+        {
+          "icon": "🕸️",
+          "t": "Membayar 'biaya visa/K-ETA' yang tidak Anda utang",
+          "d": "Saat ini Anda tidak memerlukan visa maupun K-ETA. Situs penipuan tetap menagihnya — abaikan saja."
+        },
+        {
+          "icon": "📝",
+          "t": "Melewatkan e-Arrival Card",
+          "d": "Sebagian besar pengunjung wajib mengisinya (gratis). Lakukan dalam waktu 72 jam sebelum kedatangan."
+        },
+        {
+          "icon": "⏰",
+          "t": "Mengisi e-Arrival Card terlalu awal",
+          "d": "Ia kedaluwarsa 72 jam setelah diserahkan — isi mendekati penerbangan Anda, bukan berminggu-minggu sebelumnya."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Melebihi izin tinggal Anda",
+          "d": "Tinggal lebih dari 90 hari berisiko denda dan larangan masuk di masa depan."
+        },
+        {
+          "icon": "💼",
+          "t": "Bekerja dengan masuk turis",
+          "d": "Masuk bebas visa hanya untuk wisata/kunjungan — pekerjaan berbayar memerlukan visa yang sesuai."
+        }
       ]
     },
     "faq": {
       "title": "FAQ masuk Australia → Korea",
       "items": [
-        { "q": "Apakah wisatawan dari Australia memerlukan visa untuk Korea?", "a": "Tidak — untuk wisata jangka pendek pemegang paspor Australia masuk Korea bebas visa. Anda tidak mengajukan visa turis apa pun." },
-        { "q": "Apakah saya memerlukan K-ETA?", "a": "Saat ini tidak. Australia termasuk dalam 22 negara yang dibebaskan dari K-ETA hingga 31 Dec 2026. Persyaratan ini dijadwalkan kembali pada 1 Jan 2027 kecuali diperpanjang." },
-        { "q": "Apakah saya tetap memerlukan e-Arrival Card?", "a": "Ya — sebagian besar pengunjung mengisi e-Arrival Card gratis di e-arrivalcard.go.kr, dalam waktu 72 jam sebelum kedatangan." },
-        { "q": "Berapa lama saya boleh tinggal?", "a": "Hingga 90 hari, untuk wisata." },
-        { "q": "Bisakah saya bekerja atau belajar dengan masuk ini?", "a": "Tidak. Masuk bebas visa hanya untuk wisata dan kunjungan singkat; bekerja atau belajar memerlukan visa yang sesuai." },
-        { "q": "Kapan K-ETA kembali berlaku?", "a": "Pembebasan dijadwalkan berakhir pada 31 Dec 2026, dengan K-ETA berlaku kembali 1 Jan 2027 kecuali diperpanjang — konfirmasikan lagi mendekati tanggal perjalanan Anda." }
+        {
+          "q": "Apakah wisatawan dari Australia memerlukan visa untuk Korea?",
+          "a": "Tidak — untuk wisata jangka pendek pemegang paspor Australia masuk Korea bebas visa. Anda tidak mengajukan visa turis apa pun."
+        },
+        {
+          "q": "Apakah saya memerlukan K-ETA?",
+          "a": "Saat ini tidak. Australia termasuk dalam 22 negara yang dibebaskan dari K-ETA hingga 31 Dec 2026. Persyaratan ini dijadwalkan kembali pada 1 Jan 2027 kecuali diperpanjang."
+        },
+        {
+          "q": "Apakah saya tetap memerlukan e-Arrival Card?",
+          "a": "Ya — sebagian besar pengunjung mengisi e-Arrival Card gratis di e-arrivalcard.go.kr, dalam waktu 72 jam sebelum kedatangan."
+        },
+        {
+          "q": "Berapa lama saya boleh tinggal?",
+          "a": "Hingga 90 hari, untuk wisata."
+        },
+        {
+          "q": "Bisakah saya bekerja atau belajar dengan masuk ini?",
+          "a": "Tidak. Masuk bebas visa hanya untuk wisata dan kunjungan singkat; bekerja atau belajar memerlukan visa yang sesuai."
+        },
+        {
+          "q": "Kapan K-ETA kembali berlaku?",
+          "a": "Pembebasan dijadwalkan berakhir pada 31 Dec 2026, dengan K-ETA berlaku kembali 1 Jan 2027 kecuali diperpanjang — konfirmasikan lagi mendekati tanggal perjalanan Anda."
+        }
       ]
     },
-    "ui": { "visa": "Visa", "stay": "Tinggal", "entry": "Masuk", "where": "Tempat", "official": "Sumber resmi", "required": "Wajib", "conditional": "Jika berlaku", "recommended": "Disarankan", "confirm": "Biaya/aturan berubah — konfirmasikan di sumber resmi", "source": "Sumber", "updated": "Diperbarui", "tldr": "Ringkasan" }
+    "ui": {
+      "visa": "Visa",
+      "stay": "Tinggal",
+      "entry": "Masuk",
+      "where": "Tempat",
+      "official": "Sumber resmi",
+      "required": "Wajib",
+      "conditional": "Jika berlaku",
+      "recommended": "Disarankan",
+      "confirm": "Biaya/aturan berubah — konfirmasikan di sumber resmi",
+      "source": "Sumber",
+      "updated": "Diperbarui",
+      "tldr": "Ringkasan"
+    }
   },
   "ms": {
     "kicker": "Panduan masuk · Australia → Korea",
@@ -558,8 +1462,18 @@
       "entry": "Pelancongan jangka pendek"
     },
     "highlights": [
-      { "icon": "✅", "tone": "green", "title": "Tiada visa, dan K-ETA dikecualikan hingga 2026", "body": "Australia ialah salah satu daripada 22 negara yang dikecualikan daripada K-ETA sehingga 31 Dec 2026, jadi untuk pelancongan singkat anda tidak memohon visa mahupun K-ETA. Pengecualian ini dijadualkan berakhir dan K-ETA kembali pada 1 Jan 2027 — sahkan semula sebelum anda bertolak." },
-      { "icon": "📝", "tone": "blue", "title": "Anda masih memerlukan e-Arrival Card", "body": "Hampir setiap pelawat mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam masa 72 jam sebelum ketibaan. (Pemegang K-ETA yang sah dikecualikan, tetapi dengan K-ETA dikecualikan anda patut mengisi e-Arrival Card.)" }
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Tiada visa, dan K-ETA dikecualikan hingga 2026",
+        "body": "Australia ialah salah satu daripada 22 negara yang dikecualikan daripada K-ETA sehingga 31 Dec 2026, jadi untuk pelancongan singkat anda tidak memohon visa mahupun K-ETA. Pengecualian ini dijadualkan berakhir dan K-ETA kembali pada 1 Jan 2027 — sahkan semula sebelum anda bertolak."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "Anda masih memerlukan e-Arrival Card",
+        "body": "Hampir setiap pelawat mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam masa 72 jam sebelum ketibaan. (Pemegang K-ETA yang sah dikecualikan, tetapi dengan K-ETA dikecualikan anda patut mengisi e-Arrival Card.)"
+      }
     ],
     "tldr": [
       "Buat masa ini tiada visa pelancong mahupun K-ETA diperlukan — Australia bebas visa dan dikecualikan K-ETA sehingga 2026.",
@@ -570,46 +1484,511 @@
     "steps": {
       "title": "Langkah-langkah masuk anda",
       "items": [
-        { "n": 1, "title": "Sahkan anda bebas visa", "detail": "Pasport Australia masuk ke Korea bebas visa untuk pelancongan singkat, dan K-ETA juga dikecualikan sehingga 2026 — tiada apa-apa untuk dimohon." },
-        { "n": 2, "title": "Isi e-Arrival Card", "detail": "Dalam masa 72 jam sebelum ketibaan, lengkapkannya percuma di e-arrivalcard.go.kr dan simpan QR/pengesahan.", "link": "https://www.e-arrivalcard.go.kr", "linkLabel": "e-Arrival Card" },
-        { "n": 3, "title": "Semak pasport & tiket seterusnya", "detail": "Pastikan pasport anda sah sepanjang penginapan, dan ada tiket pulang/seterusnya serta alamat penginapan pertama anda." },
-        { "n": 4, "title": "Di imigresen", "detail": "Tunjukkan pasport dan pengesahan e-Arrival; cap jari dan foto mungkin diambil. Kekalkan sebagai pelancongan — tiada kerja bergaji pada kemasukan bebas visa." }
+        {
+          "n": 1,
+          "title": "Sahkan anda bebas visa",
+          "detail": "Pasport Australia masuk ke Korea bebas visa untuk pelancongan singkat, dan K-ETA juga dikecualikan sehingga 2026 — tiada apa-apa untuk dimohon."
+        },
+        {
+          "n": 2,
+          "title": "Isi e-Arrival Card",
+          "detail": "Dalam masa 72 jam sebelum ketibaan, lengkapkannya percuma di e-arrivalcard.go.kr dan simpan QR/pengesahan.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Semak pasport & tiket seterusnya",
+          "detail": "Pastikan pasport anda sah sepanjang penginapan, dan ada tiket pulang/seterusnya serta alamat penginapan pertama anda."
+        },
+        {
+          "n": 4,
+          "title": "Di imigresen",
+          "detail": "Tunjukkan pasport dan pengesahan e-Arrival; cap jari dan foto mungkin diambil. Kekalkan sebagai pelancongan — tiada kerja bergaji pada kemasukan bebas visa."
+        }
       ]
     },
     "documents": {
       "title": "Apa yang perlu disediakan",
       "intro": "Anda tidak memfailkan permohonan visa — tetapi sediakan ini untuk kemasukan yang lancar.",
-      "cols": ["Item", "Di mana mendapatkannya", "Nota"],
-      "rows": [
-        { "doc": "Pasport", "req": "required", "where": "Anda sudah memilikinya", "how": "Sah sepanjang tempoh penginapan anda." },
-        { "doc": "Pengesahan e-Arrival Card", "req": "required", "where": "e-arrivalcard.go.kr", "how": "Percuma; isi dalam masa 72 jam sebelum ketibaan dan simpan QR.", "link": "https://www.e-arrivalcard.go.kr" },
-        { "doc": "Tiket pulang / seterusnya", "req": "required", "where": "Syarikat penerbangan / agen pelancongan", "how": "Bukti anda akan keluar dalam tempoh penginapan yang dibenarkan." },
-        { "doc": "Alamat penginapan", "req": "required", "where": "Laman tempahan", "how": "Alamat hotel/penginapan pertama anda (ditanya pada e-Arrival Card)." },
-        { "doc": "Dana untuk perjalanan anda", "req": "recommended", "where": "Anda", "how": "Kad diterima secara meluas; bawa sedikit wang tunai untuk pasar dan penjual kecil." }
+      "cols": [
+        "Item",
+        "Di mana mendapatkannya",
+        "Nota"
       ],
-      "legend": { "required": "Wajib", "conditional": "Jika berkenaan", "recommended": "Disyorkan" }
+      "rows": [
+        {
+          "doc": "Pasport",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Sah sepanjang tempoh penginapan anda."
+        },
+        {
+          "doc": "Pengesahan e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Percuma; isi dalam masa 72 jam sebelum ketibaan dan simpan QR.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Tiket pulang / seterusnya",
+          "req": "required",
+          "where": "Syarikat penerbangan / agen pelancongan",
+          "how": "Bukti anda akan keluar dalam tempoh penginapan yang dibenarkan."
+        },
+        {
+          "doc": "Alamat penginapan",
+          "req": "required",
+          "where": "Laman tempahan",
+          "how": "Alamat hotel/penginapan pertama anda (ditanya pada e-Arrival Card)."
+        },
+        {
+          "doc": "Dana untuk perjalanan anda",
+          "req": "recommended",
+          "where": "Anda",
+          "how": "Kad diterima secara meluas; bawa sedikit wang tunai untuk pasar dan penjual kecil."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berkenaan",
+        "recommended": "Disyorkan"
+      }
     },
     "pitfalls": {
       "title": "Kesilapan masuk yang biasa",
       "items": [
-        { "icon": "🕸️", "t": "Membayar 'yuran visa/K-ETA' yang anda tidak terhutang", "d": "Buat masa ini anda tidak memerlukan visa mahupun K-ETA. Laman penipuan masih mengenakan bayaran untuknya — abaikan sahaja." },
-        { "icon": "📝", "t": "Melangkau e-Arrival Card", "d": "Kebanyakan pelawat mesti mengisinya (percuma). Lakukan dalam masa 72 jam sebelum ketibaan." },
-        { "icon": "⏰", "t": "Mengisi e-Arrival Card terlalu awal", "d": "Ia luput 72 jam selepas dihantar — isi hampir dengan penerbangan anda, bukan berminggu-minggu lebih awal." },
-        { "icon": "🗓️", "t": "Melebihi tempoh dibenarkan anda", "d": "Tinggal melebihi 90 hari berisiko denda dan larangan masuk pada masa depan." },
-        { "icon": "💼", "t": "Bekerja dengan kemasukan pelancong", "d": "Kemasukan bebas visa hanya untuk pelancongan/lawatan — kerja bergaji memerlukan visa yang sesuai." }
+        {
+          "icon": "🕸️",
+          "t": "Membayar 'yuran visa/K-ETA' yang anda tidak terhutang",
+          "d": "Buat masa ini anda tidak memerlukan visa mahupun K-ETA. Laman penipuan masih mengenakan bayaran untuknya — abaikan sahaja."
+        },
+        {
+          "icon": "📝",
+          "t": "Melangkau e-Arrival Card",
+          "d": "Kebanyakan pelawat mesti mengisinya (percuma). Lakukan dalam masa 72 jam sebelum ketibaan."
+        },
+        {
+          "icon": "⏰",
+          "t": "Mengisi e-Arrival Card terlalu awal",
+          "d": "Ia luput 72 jam selepas dihantar — isi hampir dengan penerbangan anda, bukan berminggu-minggu lebih awal."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Melebihi tempoh dibenarkan anda",
+          "d": "Tinggal melebihi 90 hari berisiko denda dan larangan masuk pada masa depan."
+        },
+        {
+          "icon": "💼",
+          "t": "Bekerja dengan kemasukan pelancong",
+          "d": "Kemasukan bebas visa hanya untuk pelancongan/lawatan — kerja bergaji memerlukan visa yang sesuai."
+        }
       ]
     },
     "faq": {
       "title": "Soalan lazim masuk Australia → Korea",
       "items": [
-        { "q": "Adakah pelancong dari Australia memerlukan visa untuk Korea?", "a": "Tidak — untuk pelancongan jangka pendek pemegang pasport Australia masuk ke Korea bebas visa. Anda tidak memohon sebarang visa pelancong." },
-        { "q": "Adakah saya memerlukan K-ETA?", "a": "Buat masa ini tidak. Australia antara 22 negara yang dikecualikan daripada K-ETA sehingga 31 Dec 2026. Keperluan ini dijadualkan kembali pada 1 Jan 2027 melainkan dilanjutkan." },
-        { "q": "Adakah saya masih memerlukan e-Arrival Card?", "a": "Ya — kebanyakan pelawat mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam masa 72 jam sebelum ketibaan." },
-        { "q": "Berapa lama saya boleh tinggal?", "a": "Sehingga 90 hari, untuk pelancongan." },
-        { "q": "Bolehkah saya bekerja atau belajar dengan kemasukan ini?", "a": "Tidak. Kemasukan bebas visa hanya untuk pelancongan dan lawatan singkat; bekerja atau belajar memerlukan visa yang sesuai." },
-        { "q": "Bilakah K-ETA kembali?", "a": "Pengecualian dijadualkan berakhir pada 31 Dec 2026, dengan K-ETA disambung semula pada 1 Jan 2027 melainkan dilanjutkan — sahkan semula hampir dengan tarikh perjalanan anda." }
+        {
+          "q": "Adakah pelancong dari Australia memerlukan visa untuk Korea?",
+          "a": "Tidak — untuk pelancongan jangka pendek pemegang pasport Australia masuk ke Korea bebas visa. Anda tidak memohon sebarang visa pelancong."
+        },
+        {
+          "q": "Adakah saya memerlukan K-ETA?",
+          "a": "Buat masa ini tidak. Australia antara 22 negara yang dikecualikan daripada K-ETA sehingga 31 Dec 2026. Keperluan ini dijadualkan kembali pada 1 Jan 2027 melainkan dilanjutkan."
+        },
+        {
+          "q": "Adakah saya masih memerlukan e-Arrival Card?",
+          "a": "Ya — kebanyakan pelawat mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam masa 72 jam sebelum ketibaan."
+        },
+        {
+          "q": "Berapa lama saya boleh tinggal?",
+          "a": "Sehingga 90 hari, untuk pelancongan."
+        },
+        {
+          "q": "Bolehkah saya bekerja atau belajar dengan kemasukan ini?",
+          "a": "Tidak. Kemasukan bebas visa hanya untuk pelancongan dan lawatan singkat; bekerja atau belajar memerlukan visa yang sesuai."
+        },
+        {
+          "q": "Bilakah K-ETA kembali?",
+          "a": "Pengecualian dijadualkan berakhir pada 31 Dec 2026, dengan K-ETA disambung semula pada 1 Jan 2027 melainkan dilanjutkan — sahkan semula hampir dengan tarikh perjalanan anda."
+        }
       ]
     },
-    "ui": { "visa": "Visa", "stay": "Tinggal", "entry": "Masuk", "where": "Di mana", "official": "Sumber rasmi", "required": "Wajib", "conditional": "Jika berkenaan", "recommended": "Disyorkan", "confirm": "Yuran/peraturan berubah — sahkan di sumber rasmi", "source": "Sumber", "updated": "Dikemas kini", "tldr": "Ringkasan" }
+    "ui": {
+      "visa": "Visa",
+      "stay": "Tinggal",
+      "entry": "Masuk",
+      "where": "Di mana",
+      "official": "Sumber rasmi",
+      "required": "Wajib",
+      "conditional": "Jika berkenaan",
+      "recommended": "Disyorkan",
+      "confirm": "Yuran/peraturan berubah — sahkan di sumber rasmi",
+      "source": "Sumber",
+      "updated": "Dikemas kini",
+      "tldr": "Ringkasan"
+    }
+  },
+  "ru": {
+    "kicker": "Гид по въезду · Австралия → Корея",
+    "readingTime": "5 мин чтения",
+    "h1": "Гид по въезду в Корею из Австралии",
+    "metaTitle": "Из Австралии в Корею: визовые требования и гид по въезду (2026) — Korea Trip Hub",
+    "metaDesc": "Нужна ли виза в Южную Корею путешественникам из Австралии? Нет — безвизовый въезд, а K-ETA не требуется до 2026 года. Заполните бесплатную e-Arrival Card и следуйте шагам въезда. Пребывание: до 90 дней.",
+    "verdict": {
+      "headline": "Туристическая виза не нужна — паспорта Австралии дают безвизовый въезд.",
+      "sub": "Для краткосрочного туризма вы не подаёте на визу. Сейчас K-ETA тоже не требуется, поэтому главное — заполнить бесплатную e-Arrival Card до прилёта.",
+      "type": "Безвизовый въезд (K-ETA сейчас не требуется)",
+      "stay": "До 90 дней",
+      "entry": "Краткосрочный туризм"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Виза не нужна, и K-ETA не требуется до 2026 года",
+        "body": "Австралия — одна из 22 стран, освобождённых от K-ETA до 31 Dec 2026, поэтому для короткого туризма вы не оформляете ни визу, ни K-ETA. Освобождение планируется завершить, и K-ETA вернётся 1 Jan 2027 — уточните перед поездкой."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "e-Arrival Card всё равно нужна",
+        "body": "Почти каждый посетитель заполняет бесплатную e-Arrival Card на e-arrivalcard.go.kr в течение 72 часов до прибытия. (Обладатели действующей K-ETA освобождены, но пока K-ETA не требуется, вам следует заполнить e-Arrival Card.)"
+      }
+    ],
+    "tldr": [
+      "Сейчас не нужны ни туристическая виза, ни K-ETA — Австралия имеет безвизовый въезд и освобождена от K-ETA до 2026 года.",
+      "Обязательно заполните бесплатную e-Arrival Card на e-arrivalcard.go.kr в течение 72 часов до прибытия.",
+      "Возьмите паспорт, действительный на весь срок пребывания, и подтверждение обратного/дальнейшего маршрута.",
+      "Вы можете находиться до 90 дней."
+    ],
+    "steps": {
+      "title": "Ваши шаги для въезда",
+      "items": [
+        {
+          "n": 1,
+          "title": "Убедитесь, что вам не нужна виза",
+          "detail": "Паспорта Австралии дают безвизовый въезд в Корею для короткого туризма, а K-ETA не требуется до 2026 года — оформлять нечего."
+        },
+        {
+          "n": 2,
+          "title": "Заполните e-Arrival Card",
+          "detail": "В течение 72 часов до прибытия заполните её бесплатно на e-arrivalcard.go.kr и сохраните QR-код/подтверждение.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Проверьте паспорт и билет на выезд",
+          "detail": "Убедитесь, что паспорт действителен на весь срок пребывания, и имейте обратный/дальнейший билет, а также адрес первого места проживания."
+        },
+        {
+          "n": 4,
+          "title": "На паспортном контроле",
+          "detail": "Покажите паспорт и подтверждение e-Arrival; могут снять отпечатки пальцев и сделать фото. Только туризм — при безвизовом въезде оплачиваемая работа запрещена."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Что подготовить",
+      "intro": "Вы не подаёте заявление на визу, но подготовьте это для беспрепятственного въезда.",
+      "cols": [
+        "Пункт",
+        "Где получить",
+        "Примечания"
+      ],
+      "rows": [
+        {
+          "doc": "Паспорт",
+          "req": "required",
+          "where": "Уже у вас",
+          "how": "Действителен на весь срок пребывания."
+        },
+        {
+          "doc": "Подтверждение e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Бесплатно; заполните в течение 72 часов до прибытия и сохраните QR-код.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Обратный / дальнейший билет",
+          "req": "required",
+          "where": "Авиакомпания / турагент",
+          "how": "Доказательство, что вы выедете в пределах разрешённого срока."
+        },
+        {
+          "doc": "Адрес проживания",
+          "req": "required",
+          "where": "Сайты бронирования",
+          "how": "Адрес вашего первого отеля/жилья (спрашивается в e-Arrival Card)."
+        },
+        {
+          "doc": "Средства на поездку",
+          "req": "recommended",
+          "where": "Вы",
+          "how": "Карты широко принимаются; имейте немного наличных для рынков и мелких продавцов."
+        }
+      ],
+      "legend": {
+        "required": "Обязательно",
+        "conditional": "Если применимо",
+        "recommended": "Рекомендуется"
+      }
+    },
+    "pitfalls": {
+      "title": "Частые ошибки при въезде",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "Оплата «сбора за визу/K-ETA», который вы не должны",
+          "d": "Сейчас вам не нужны ни виза, ни K-ETA. Мошеннические сайты всё равно берут за них плату — игнорируйте их."
+        },
+        {
+          "icon": "📝",
+          "t": "Пропуск e-Arrival Card",
+          "d": "Большинство посетителей обязаны её заполнить (бесплатно). Сделайте это в течение 72 часов до прибытия."
+        },
+        {
+          "icon": "⏰",
+          "t": "Слишком раннее заполнение e-Arrival Card",
+          "d": "Она истекает через 72 часа после отправки — заполняйте ближе к рейсу, а не за недели."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Превышение разрешённого срока",
+          "d": "Пребывание свыше 90 дней грозит штрафами и запретом на въезд в будущем."
+        },
+        {
+          "icon": "💼",
+          "t": "Работа при туристическом въезде",
+          "d": "Безвизовый въезд только для туризма/визитов — для оплачиваемой работы нужна соответствующая виза."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Австралия → Корея: часто задаваемые вопросы о въезде",
+      "items": [
+        {
+          "q": "Нужна ли путешественникам из Австралии виза в Корею?",
+          "a": "Нет — для краткосрочного туризма обладатели паспортов Австралии въезжают в Корею без визы. Вы не подаёте на туристическую визу."
+        },
+        {
+          "q": "Нужна ли мне K-ETA?",
+          "a": "Сейчас нет. Австралия входит в число 22 стран, освобождённых от K-ETA до 31 Dec 2026. Требование планируется вернуть 1 Jan 2027, если оно не будет продлено."
+        },
+        {
+          "q": "Нужна ли мне всё же e-Arrival Card?",
+          "a": "Да — большинство посетителей заполняют бесплатную e-Arrival Card на e-arrivalcard.go.kr в течение 72 часов до прибытия."
+        },
+        {
+          "q": "Как долго я могу оставаться?",
+          "a": "До 90 дней, для туризма."
+        },
+        {
+          "q": "Могу ли я работать или учиться при таком въезде?",
+          "a": "Нет. Безвизовый въезд только для туризма и коротких визитов; для работы или учёбы нужна соответствующая виза."
+        },
+        {
+          "q": "Когда вернётся K-ETA?",
+          "a": "Освобождение планируется завершить 31 Dec 2026, а K-ETA возобновится 1 Jan 2027, если не будет продлено — уточните ближе к дате поездки."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Виза",
+      "stay": "Пребывание",
+      "entry": "Въезд",
+      "where": "Где получить",
+      "official": "Официальные источники",
+      "required": "Обязательно",
+      "conditional": "Если применимо",
+      "recommended": "Рекомендуется",
+      "confirm": "Сборы и правила меняются — проверьте в официальном источнике",
+      "source": "Источник",
+      "updated": "Обновлено",
+      "tldr": "Кратко"
+    }
+  },
+  "fr": {
+    "kicker": "Guide d'entrée · Australie → Corée",
+    "readingTime": "5 min de lecture",
+    "h1": "Guide d'entrée en Corée depuis l'Australie",
+    "metaTitle": "De l'Australie à la Corée : conditions de visa et guide d'entrée (2026) — Korea Trip Hub",
+    "metaDesc": "Les voyageurs australiens ont-ils besoin d'un visa pour la Corée du Sud ? Non — sans visa, la K-ETA étant suspendue jusqu'en 2026. Remplissez la e-Arrival Card gratuite et suivez les étapes d'entrée. Séjour : jusqu'à 90 jours.",
+    "verdict": {
+      "headline": "Pas de visa touristique nécessaire — les passeports australiens sont exemptés de visa.",
+      "sub": "Pour le tourisme de courte durée, vous ne demandez aucun visa. Actuellement, la K-ETA est également suspendue, donc l'essentiel est de remplir la e-Arrival Card gratuite avant d'atterrir.",
+      "type": "Sans visa (K-ETA actuellement suspendue)",
+      "stay": "Jusqu'à 90 jours",
+      "entry": "Tourisme de courte durée"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Pas de visa, et K-ETA suspendue jusqu'en 2026",
+        "body": "L'Australie est l'un des 22 pays exemptés de K-ETA jusqu'au 31 Dec 2026, donc vous ne demandez ni visa ni K-ETA pour un court séjour touristique. Cette exemption doit prendre fin et la K-ETA revient le 1 Jan 2027 — reconfirmez avant de voyager."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "Vous avez tout de même besoin de la e-Arrival Card",
+        "body": "Presque tous les visiteurs remplissent la e-Arrival Card gratuite sur e-arrivalcard.go.kr, dans les 72 heures avant l'arrivée. (Les titulaires d'une K-ETA valide en sont exemptés, mais comme la K-ETA est suspendue, vous devriez remplir la e-Arrival Card.)"
+      }
+    ],
+    "tldr": [
+      "Aucun visa touristique ni K-ETA nécessaire pour l'instant — l'Australie est sans visa et exemptée de K-ETA jusqu'en 2026.",
+      "Remplissez bien la e-Arrival Card gratuite sur e-arrivalcard.go.kr dans les 72 heures avant l'arrivée.",
+      "Apportez un passeport valide pour la durée de votre séjour, ainsi qu'une preuve de voyage de retour/continuation.",
+      "Vous pouvez rester jusqu'à 90 jours."
+    ],
+    "steps": {
+      "title": "Vos étapes d'entrée",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirmez que vous êtes sans visa",
+          "detail": "Les passeports australiens entrent en Corée sans visa pour un court séjour touristique, et la K-ETA est suspendue jusqu'en 2026 — il n'y a rien à demander."
+        },
+        {
+          "n": 2,
+          "title": "Remplissez la e-Arrival Card",
+          "detail": "Dans les 72 heures avant l'arrivée, remplissez-la gratuitement sur e-arrivalcard.go.kr et enregistrez le QR/la confirmation.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Vérifiez le passeport et le billet de continuation",
+          "detail": "Assurez-vous que votre passeport est valide pour la durée de votre séjour, et ayez un billet de retour/continuation ainsi que l'adresse de votre premier hébergement."
+        },
+        {
+          "n": 4,
+          "title": "Au contrôle de l'immigration",
+          "detail": "Présentez votre passeport et la confirmation de la e-Arrival ; vos empreintes et une photo peuvent être prises. Restez dans le cadre du tourisme — pas de travail rémunéré avec une entrée sans visa."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Ce qu'il faut avoir prêt",
+      "intro": "Vous ne déposez pas de demande de visa — mais ayez ceci prêt pour une entrée sans encombre.",
+      "cols": [
+        "Élément",
+        "Où l'obtenir",
+        "Remarques"
+      ],
+      "rows": [
+        {
+          "doc": "Passeport",
+          "req": "required",
+          "where": "Vous l'avez",
+          "how": "Valide pendant toute la durée de votre séjour."
+        },
+        {
+          "doc": "Confirmation de la e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Gratuit ; remplissez-la dans les 72 heures avant l'arrivée et enregistrez le QR.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Billet de retour / continuation",
+          "req": "required",
+          "where": "Compagnie aérienne / agence de voyages",
+          "how": "Preuve que vous partirez dans les limites de votre séjour autorisé."
+        },
+        {
+          "doc": "Adresse d'hébergement",
+          "req": "required",
+          "where": "Sites de réservation",
+          "how": "L'adresse de votre premier hôtel/hébergement (demandée sur la e-Arrival Card)."
+        },
+        {
+          "doc": "Fonds pour votre voyage",
+          "req": "recommended",
+          "where": "Vous",
+          "how": "Les cartes sont largement acceptées ; emportez un peu d'espèces pour les marchés et les petits commerçants."
+        }
+      ],
+      "legend": {
+        "required": "Obligatoire",
+        "conditional": "Le cas échéant",
+        "recommended": "Recommandé"
+      }
+    },
+    "pitfalls": {
+      "title": "Erreurs d'entrée courantes",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "Payer des « frais de visa/K-ETA » que vous ne devez pas",
+          "d": "Actuellement, vous n'avez besoin ni d'un visa ni de la K-ETA. Les sites frauduleux les facturent encore — ignorez-les."
+        },
+        {
+          "icon": "📝",
+          "t": "Sauter la e-Arrival Card",
+          "d": "La plupart des visiteurs doivent la remplir (gratuit). Faites-le dans les 72 heures avant l'arrivée."
+        },
+        {
+          "icon": "⏰",
+          "t": "Remplir la e-Arrival Card trop tôt",
+          "d": "Elle expire 72 heures après l'envoi — remplissez-la juste avant votre vol, pas des semaines à l'avance."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Dépasser la durée autorisée",
+          "d": "Rester au-delà de 90 jours expose à des amendes et à de futures interdictions d'entrée."
+        },
+        {
+          "icon": "💼",
+          "t": "Travailler avec une entrée touristique",
+          "d": "L'entrée sans visa est réservée au tourisme/aux visites — un travail rémunéré nécessite un visa approprié."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ entrée Australie → Corée",
+      "items": [
+        {
+          "q": "Les voyageurs australiens ont-ils besoin d'un visa pour la Corée ?",
+          "a": "Non — pour le tourisme de courte durée, les titulaires d'un passeport australien entrent en Corée sans visa. Vous ne demandez aucun visa touristique."
+        },
+        {
+          "q": "Ai-je besoin de la K-ETA ?",
+          "a": "Pas pour l'instant. L'Australie fait partie des 22 pays exemptés de K-ETA jusqu'au 31 Dec 2026. L'obligation doit revenir le 1 Jan 2027, sauf prolongation."
+        },
+        {
+          "q": "Ai-je tout de même besoin de la e-Arrival Card ?",
+          "a": "Oui — la plupart des visiteurs remplissent la e-Arrival Card gratuite sur e-arrivalcard.go.kr, dans les 72 heures avant l'arrivée."
+        },
+        {
+          "q": "Combien de temps puis-je rester ?",
+          "a": "Jusqu'à 90 jours, pour le tourisme."
+        },
+        {
+          "q": "Puis-je travailler ou étudier avec cette entrée ?",
+          "a": "Non. L'entrée sans visa est réservée au tourisme et aux courtes visites ; travailler ou étudier nécessite le visa approprié."
+        },
+        {
+          "q": "Quand la K-ETA revient-elle ?",
+          "a": "L'exemption doit prendre fin le 31 Dec 2026, la K-ETA reprenant le 1 Jan 2027 sauf prolongation — reconfirmez à l'approche de votre date de voyage."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Visa",
+      "stay": "Séjour",
+      "entry": "Entrée",
+      "where": "Où",
+      "official": "Sources officielles",
+      "required": "Obligatoire",
+      "conditional": "Le cas échéant",
+      "recommended": "Recommandé",
+      "confirm": "Les frais/règles changent — vérifiez à la source",
+      "source": "Source",
+      "updated": "Mis à jour",
+      "tldr": "En bref"
+    }
   }
 }

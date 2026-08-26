@@ -1,0 +1,395 @@
+{
+  "ui": {
+    "hubMetaTitle": "Itinéraires en Corée : circuits de 3, 5 et 7 jours (2026)",
+    "hubMetaDesc": "Des itinéraires en Corée prêts à l'emploi, jour par jour : les 3 jours parfaits à Séoul, 5 jours Séoul + Busan et un voyage de 7 jours à Séoul, Busan et Jeju.",
+    "hubH1": "Itinéraires en Corée",
+    "hubTagline": "Des circuits prêts à l'emploi, jour par jour, ou composez le vôtre avec le planificateur gratuit.",
+    "dayPlan": "Circuit de {n} jours",
+    "backToHub": "Itinéraires en Corée",
+    "daysLabel": "{n} jours",
+    "updated": "Mis à jour le",
+    "dayLabel": "Jour {n}",
+    "map": "carte",
+    "goodToKnow": "Bon à savoir",
+    "bookTrip": "Réserver ce voyage",
+    "hotelsIn": "Hôtels à {city}",
+    "toursTickets": "Excursions et billets",
+    "whereToStayIn": "Où loger à {city}"
+  },
+  "order": [
+    "seoul-3-days",
+    "korea-5-days",
+    "korea-7-days",
+    "gyeongju-2-days"
+  ],
+  "items": {
+    "seoul-3-days": {
+      "title": "3 jours à Séoul : l'itinéraire parfait pour une première visite",
+      "metaTitle": "3 jours à Séoul : l'itinéraire parfait (2026)",
+      "sub": "Palais, ruelles de hanok, street food et vues sur les gratte-ciel : une première visite de Séoul détendue mais complète.",
+      "days": "3",
+      "cities": [
+        "seoul"
+      ],
+      "overview": "Voici l'itinéraire classique pour une première fois : le vieux Séoul (palais et hanok) le premier jour, le Séoul moderne et ses vues nocturnes le deuxième, et un troisième jour flexible pour une excursion ou vos propres envies. Tout est desservi par le métro : procurez-vous une carte T-money et vous êtes prêt.",
+      "plan": [
+        {
+          "n": 1,
+          "area": "Palais et vieux Séoul",
+          "stops": [
+            {
+              "t": "Matin",
+              "p": "Le palais Gyeongbokgung : arrivez tôt et portez un hanbok pour entrer gratuitement. Ne manquez pas la relève de la garde.",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            },
+            {
+              "t": "Après-midi",
+              "p": "Flânez dans le village de hanok de Bukchon et les cafés de Samcheong-dong, puis à Insadong pour le thé, les galeries et les souvenirs.",
+              "spot": "Bukchon Hanok Village, Seoul"
+            },
+            {
+              "t": "Soir",
+              "p": "Dîner au marché de Gwangjang (bindaetteok, mayak gimbap), l'un des grands marchés de street food historiques de Séoul.",
+              "spot": "Gwangjang Market, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Séoul moderne et vues nocturnes",
+          "stops": [
+            {
+              "t": "Matin",
+              "p": "Brunch et lèche-vitrines à Hongdae : boutiques indépendantes, cafés et artistes de rue autour de l'université.",
+              "spot": "Hongdae, Seoul"
+            },
+            {
+              "t": "Après-midi",
+              "p": "Direction Namsan, puis montée à la N Seoul Tower pour le panorama sur la ville ; empruntez les sentiers verdoyants en chemin.",
+              "spot": "N Seoul Tower, Seoul"
+            },
+            {
+              "t": "Soir",
+              "p": "Myeongdong pour le shopping, les boutiques de cosmétiques et une deuxième tournée de street food.",
+              "spot": "Myeongdong, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "À vous de choisir : excursion ou exploration approfondie",
+          "stops": [
+            {
+              "t": "Option A",
+              "p": "Gangnam : la bibliothèque Starfield du COEX, la K-Star Road à Apgujeong et le shopping haut de gamme.",
+              "spot": "Starfield COEX Mall, Seoul"
+            },
+            {
+              "t": "Option B",
+              "p": "Une excursion d'une demi-journée à la DMZ, la frontière intercoréenne : réservez à l'avance (passeport obligatoire).",
+              "spot": "Imjingak, Paju"
+            },
+            {
+              "t": "Soir",
+              "p": "Détendez-vous dans un parc au bord du fleuve Han (Yeouido) : achetez des snacks à la supérette et regardez les ponts s'illuminer.",
+              "spot": "Yeouido Hangang Park, Seoul"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Procurez-vous d'abord une carte T-money : elle couvre le métro, le bus et la plupart des taxis.",
+        "Les palais ferment des jours différents selon la semaine (Gyeongbokgung : le mardi) : vérifiez avant de partir.",
+        "Utilisez Naver Map ou KakaoMap pour vous orienter ; les transports en commun sur Google Maps sont limités en Corée."
+      ]
+    },
+    "korea-5-days": {
+      "title": "5 jours en Corée : itinéraire Séoul + Busan",
+      "metaTitle": "5 jours en Corée : itinéraire Séoul + Busan (2026)",
+      "sub": "Le meilleur des deux villes : deux jours à Séoul, le KTX jusqu'à Busan, et la côte, les temples et les marchés du Sud.",
+      "days": "5",
+      "cities": [
+        "seoul",
+        "busan"
+      ],
+      "overview": "Cinq jours suffisent pour découvrir les deux plus grandes villes de Corée. Passez deux jours à Séoul, puis prenez le train à grande vitesse KTX (~2h40) jusqu'à Busan pour ses plages, un village d'artistes à flanc de colline et les meilleurs fruits de mer de Corée, avant de repartir.",
+      "plan": [
+        {
+          "n": 1,
+          "area": "Séoul : palais et Bukchon",
+          "stops": [
+            {
+              "t": "Matin",
+              "p": "Le palais Gyeongbokgung et la relève de la garde (hanbok = entrée gratuite).",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            },
+            {
+              "t": "Après-midi",
+              "p": "Le village de hanok de Bukchon et Insadong.",
+              "spot": "Bukchon Hanok Village, Seoul"
+            },
+            {
+              "t": "Soir",
+              "p": "Street food et shopping à Myeongdong.",
+              "spot": "Myeongdong, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Séoul : modernité et panoramas",
+          "stops": [
+            {
+              "t": "Matin",
+              "p": "Les cafés et boutiques de Hongdae.",
+              "spot": "Hongdae, Seoul"
+            },
+            {
+              "t": "Après-midi",
+              "p": "La N Seoul Tower pour la vue sur les gratte-ciel.",
+              "spot": "N Seoul Tower, Seoul"
+            },
+            {
+              "t": "Soir",
+              "p": "Le marché de Gwangjang ou un parc au bord du fleuve Han.",
+              "spot": "Gwangjang Market, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "KTX jusqu'à Busan : la côte",
+          "stops": [
+            {
+              "t": "Matin",
+              "p": "KTX depuis la gare de Séoul jusqu'à Busan (~2h40). Réservez une place à l'avance le week-end.",
+              "spot": "Seoul Station"
+            },
+            {
+              "t": "Après-midi",
+              "p": "La plage de Haeundae et la capsule aérienne du Blueline Park.",
+              "spot": "Haeundae Beach, Busan"
+            },
+            {
+              "t": "Soir",
+              "p": "La plage de Gwangalli pour le spectacle lumineux du pont Gwangan.",
+              "spot": "Gwangalli Beach, Busan"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "area": "Busan : village, marché, temple",
+          "stops": [
+            {
+              "t": "Matin",
+              "p": "Le village culturel de Gamcheon : le quartier pastel à flanc de colline.",
+              "spot": "Gamcheon Culture Village, Busan"
+            },
+            {
+              "t": "Après-midi",
+              "p": "Le marché aux poissons de Jagalchi et la street food de la BIFF Square à Nampo-dong.",
+              "spot": "Jagalchi Market, Busan"
+            },
+            {
+              "t": "Soir",
+              "p": "Haedong Yonggungsa, un rare temple en bord de mer, à l'heure dorée.",
+              "spot": "Haedong Yonggungsa, Busan"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "area": "Retour à Séoul / départ",
+          "stops": [
+            {
+              "t": "Matin",
+              "p": "Une dernière plage ou un dernier café à Busan, puis retour à Séoul en KTX (ou vol retour depuis Gimhae).",
+              "spot": "Busan Station"
+            },
+            {
+              "t": "Après-midi",
+              "p": "Si vous partez d'Incheon, prévoyez du temps pour le transfert AREX/aéroport.",
+              "spot": "Incheon International Airport"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Réservez vos places de KTX à l'avance pour les week-ends et jours fériés (application Korail Talk / letskorail.com).",
+        "Busan est étendue : son métro et les taxis Kakao T couvrent l'essentiel de la ville.",
+        "Deux nuits à Séoul + deux à Busan vous évitent de faire et défaire vos bagages sans cesse."
+      ]
+    },
+    "korea-7-days": {
+      "title": "7 jours en Corée : itinéraire Séoul, Busan et Jeju",
+      "metaTitle": "7 jours en Corée : Séoul, Busan et Jeju (2026)",
+      "sub": "La boucle complète : Séoul historique, Busan côtière et l'île volcanique de Jeju, reliées par le KTX et un court vol.",
+      "days": "7",
+      "cities": [
+        "seoul",
+        "busan",
+        "jeju"
+      ],
+      "overview": "Une semaine vous permet d'ajouter Jeju, l'île de vacances de Corée, à l'itinéraire Séoul-Busan. Deux jours à Séoul, deux à Busan, puis un court vol jusqu'à Jeju pour ses pics volcaniques, ses cascades et ses plages. Louez une voiture à Jeju : les transports en commun y sont limités.",
+      "plan": [
+        {
+          "n": 1,
+          "area": "Séoul : palais et Bukchon",
+          "stops": [
+            {
+              "t": "Journée",
+              "p": "Gyeongbokgung, le village de hanok de Bukchon, Insadong, et Myeongdong en soirée.",
+              "spot": "Gyeongbokgung Palace, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Séoul : modernité et panoramas",
+          "stops": [
+            {
+              "t": "Journée",
+              "p": "Hongdae, la N Seoul Tower et le marché de Gwangjang, ou ajoutez une excursion d'une demi-journée à la DMZ.",
+              "spot": "N Seoul Tower, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "KTX jusqu'à Busan",
+          "stops": [
+            {
+              "t": "Journée",
+              "p": "KTX jusqu'à Busan ; la plage de Haeundae, le Blueline Park et la vue nocturne de Gwangalli.",
+              "spot": "Haeundae Beach, Busan"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "area": "Les incontournables de Busan",
+          "stops": [
+            {
+              "t": "Journée",
+              "p": "Le village culturel de Gamcheon, le marché de Jagalchi et le temple Haedong Yonggungsa.",
+              "spot": "Gamcheon Culture Village, Busan"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "area": "Vol vers Jeju : côte est",
+          "stops": [
+            {
+              "t": "Matin",
+              "p": "Court vol depuis Gimhae (Busan) jusqu'à Jeju ; récupérez une voiture de location.",
+              "spot": "Jeju International Airport"
+            },
+            {
+              "t": "Après-midi",
+              "p": "Seongsan Ilchulbong (le pic du lever de soleil) et Seopjikoji sur la côte est.",
+              "spot": "Seongsan Ilchulbong, Jeju"
+            },
+            {
+              "t": "Soir",
+              "p": "Dîner au marché de Dongmun à Jeju-si.",
+              "spot": "Jeju Dongmun Market"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "area": "Jeju : sud et cascades",
+          "stops": [
+            {
+              "t": "Journée",
+              "p": "La cascade de Cheonjiyeon, les falaises de Jusangjeolli et les plages de la station balnéaire de Jungmun autour de Seogwipo.",
+              "spot": "Cheonjiyeon Waterfall, Jeju"
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "area": "Jeju : ouest et départ",
+          "stops": [
+            {
+              "t": "Matin",
+              "p": "La plage de Hyeopjae et le parc Hallim sur la côte ouest.",
+              "spot": "Hyeopjae Beach, Jeju"
+            },
+            {
+              "t": "Après-midi",
+              "p": "Rendez la voiture et prenez l'avion (Jeju → Séoul/Incheon pour les correspondances internationales).",
+              "spot": "Jeju International Airport"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Louez une voiture à Jeju : les bus sont lents et les sites sont éparpillés le long de la côte.",
+        "Les vols vers Jeju sont fréquents et bon marché (l'une des liaisons les plus fréquentées au monde au départ de Séoul).",
+        "Vérifiez si votre vol international part d'Incheon et prévoyez une marge pour vous y rendre."
+      ]
+    },
+    "gyeongju-2-days": {
+      "title": "2 jours à Gyeongju : l'ancienne capitale de la Corée",
+      "metaTitle": "Itinéraire de 2 jours à Gyeongju (2026)",
+      "sub": "Temples de Silla, tombes royales et étangs éclairés de lanternes : le musée à ciel ouvert de l'ancienne capitale coréenne.",
+      "days": "2",
+      "cities": [
+        "gyeongju"
+      ],
+      "overview": "Gyeongju fut la capitale du royaume de Silla pendant près de mille ans, et ses trésors sont disséminés dans une petite ville paisible. Consacrez une journée aux temples classés à l'UNESCO dans les collines et une autre au centre-ville, où se concentrent tombes, un observatoire et un étang illuminé la nuit. On y accède facilement en KTX jusqu'à la gare de Singyeongju, toute proche, depuis Séoul ou Busan.",
+      "plan": [
+        {
+          "n": 1,
+          "area": "Temples de l'UNESCO et collines",
+          "stops": [
+            {
+              "t": "Matin",
+              "p": "Le temple Bulguksa, un chef-d'œuvre de l'époque de Silla aux terrasses de pierre et pagodes ; arrivez tôt.",
+              "spot": "Bulguksa, Gyeongju"
+            },
+            {
+              "t": "Après-midi",
+              "p": "La grotte de Seokguram, plus haut sur la même montagne, avec son serein Bouddha de pierre et sa vue sur la mer.",
+              "spot": "Seokguram, Gyeongju"
+            },
+            {
+              "t": "Soir",
+              "p": "Retour en ville pour dîner autour de Hwangnidan-gil, la rue branchée des cafés et de la gastronomie.",
+              "spot": "Hwangnidan-gil, Gyeongju"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Tombes, observatoire et étang",
+          "stops": [
+            {
+              "t": "Matin",
+              "p": "Le parc des tombes de Daereungwon et Cheonmachong, le seul tumulus royal dans lequel on peut entrer.",
+              "spot": "Daereungwon, Gyeongju"
+            },
+            {
+              "t": "Après-midi",
+              "p": "Cheomseongdae, un ancien observatoire de pierre, puis le musée national de Gyeongju.",
+              "spot": "Cheomseongdae, Gyeongju"
+            },
+            {
+              "t": "Soir",
+              "p": "Le palais Donggung et l'étang Wolji à la nuit tombée, quand les pavillons se reflètent dans l'eau.",
+              "spot": "Donggung Palace and Wolji Pond, Gyeongju"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Prenez le KTX jusqu'à la gare de Singyeongju, puis un bus ou un taxi jusqu'aux sites.",
+        "Louez un vélo au centre-ville : les tombes, Cheomseongdae et Wolji sont proches les uns des autres.",
+        "Gardez l'étang Wolji pour la nuit tombée ; c'est la vue nocturne emblématique de Gyeongju."
+      ]
+    }
+  }
+}

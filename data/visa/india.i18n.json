@@ -2258,5 +2258,507 @@
         }
       ]
     }
+  },
+  "ru": {
+    "kicker": "Визовый гид · Индия → Корея",
+    "readingTime": "9 мин чтения",
+    "h1": "Виза в Корею для граждан Индии",
+    "metaTitle": "Виза в Корею из Индии: пошаговый гид (2026) — Korea Trip Hub",
+    "metaDesc": "Как получить туристическую визу в Корею из Индии: куда подавать, необходимые документы (и где получить каждый), сборы, сроки оформления и официальные ссылки. Краткосрочная туристическая виза C-3-9.",
+    "ui": {
+      "visa": "Тип визы",
+      "stay": "Срок пребывания",
+      "entry": "Въезд",
+      "where": "Где получить",
+      "official": "Официальные источники",
+      "required": "Обязательно",
+      "conditional": "Если применимо",
+      "recommended": "Рекомендуется",
+      "confirm": "Сборы и правила могут меняться — уточняйте в источнике",
+      "source": "Источник",
+      "updated": "Обновлено",
+      "tldr": "Кратко"
+    },
+    "verdict": {
+      "headline": "Да — обладателям индийских паспортов нужна виза.",
+      "sub": "Вы подаёте на краткосрочную туристическую визу C-3-9 (однократный въезд, пребывание до 90 дней) лично в Корейском визовом центре (KVAC). K-ETA/безвизовый въезд НЕ распространяется на индийские паспорта.",
+      "type": "C-3-9 краткосрочная туристическая",
+      "stay": "До 90 дней",
+      "entry": "Однократный въезд (в некоторых случаях возможен многократный — уточните в KVAC)"
+    },
+    "tldr": [
+      "Заполните форму на visa.go.kr (ЕДИНСТВЕННЫЙ официальный портал), распечатайте и подпишите её.",
+      "Приходите без записи в Корейский визовый центр ВАШЕГО штата — в Индии два округа юрисдикции.",
+      "Возьмите паспорт, фото, брони авиабилетов и отеля, выписку из банка за 6 месяцев и налоговые декларации (ITR) за 2–3 года.",
+      "Сбор ≈ INR 3,400 + сервисный сбор; результат примерно через 5–10 рабочих дней."
+    ],
+    "jurisdiction": {
+      "title": "Шаг 0 — Найдите СВОЙ центр (на этом многие спотыкаются)",
+      "intro": "Индия разделена на два консульских округа. Подавать нужно в центр, обслуживающий ваш штат проживания — приход не в тот центр обернётся напрасной поездкой. Это самая частая ошибка.",
+      "zones": [
+        {
+          "name": "Посольство Кореи — округ New Delhi",
+          "covers": "Большая часть Индии: северные, западные, восточные и центральные штаты (Delhi NCR, Maharashtra, Gujarat, West Bengal, UP, Punjab и др.)",
+          "centers": "New Delhi, Mumbai, Kolkata и другие",
+          "site": "visaforkorea-id.com",
+          "url": "https://www.visaforkorea-id.com"
+        },
+        {
+          "name": "Генеральное консульство — округ Chennai",
+          "covers": "Южная Индия: Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Telangana и Puducherry",
+          "centers": "Chennai, Bengaluru",
+          "site": "visaforkorea-ce.com",
+          "url": "https://www.visaforkorea-ce.com"
+        }
+      ],
+      "note": "Не уверены, какой ваш? Откройте сайт KVAC для вашего региона и проверьте список округа/центров, прежде чем ехать подавать."
+    },
+    "steps": {
+      "title": "Оформление, шаг за шагом",
+      "items": [
+        {
+          "n": 1,
+          "title": "Определите тип визы",
+          "detail": "Для туризма нужна краткосрочная гостевая (туристическая) виза C-3-9. Перед началом соберите документы из списка ниже."
+        },
+        {
+          "n": 2,
+          "title": "Заполните форму на visa.go.kr",
+          "detail": "Зайдите на Корейский визовый портал (visa.go.kr) — единственный официальный сайт. Заполните заявление онлайн, затем распечатайте и подпишите его. По одной анкете на заявителя.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Корейский визовый портал"
+        },
+        {
+          "n": 3,
+          "title": "Соберите документы",
+          "detail": "Соберите все документы из списка ниже. Нехватка финансовых документов или фото неверного формата — главные причины задержек."
+        },
+        {
+          "n": 4,
+          "title": "Идите в свой KVAC — без записи",
+          "detail": "Приходите в Корейский визовый центр вашего округа в рабочие часы. В Индии запись не требуется."
+        },
+        {
+          "n": 5,
+          "title": "Подайте и оплатите",
+          "detail": "Сдайте анкету и документы и оплатите визовый сбор плюс сервисный сбор центра на стойке."
+        },
+        {
+          "n": 6,
+          "title": "Отслеживайте заявление",
+          "detail": "Следите за статусом по email/SMS или на странице отслеживания KVAC. Не бронируйте невозвратные билеты до одобрения."
+        },
+        {
+          "n": 7,
+          "title": "Заберите паспорт",
+          "detail": "Заберите лично или курьером. Сразу проверьте данные визовой наклейки (имя, даты, тип въезда)."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Список документов — где и как получить каждый",
+      "intro": "Это то, что пропускают все остальные сайты. Для каждого документа указано, где именно его получить и что он должен подтверждать.",
+      "cols": [
+        "Документ",
+        "Где получить",
+        "Что должен подтверждать"
+      ],
+      "rows": [
+        {
+          "doc": "Паспорт",
+          "req": "required",
+          "where": "Уже у вас",
+          "how": "Действителен ещё 6+ месяцев после поездки, минимум 2 чистые страницы, выдан в течение последних 10 лет. Возьмите и старые паспорта."
+        },
+        {
+          "doc": "Визовая анкета",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Заполните на Корейском визовом портале, распечатайте и подпишите. По одной на заявителя.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Фото — 35 × 45 мм",
+          "req": "required",
+          "where": "Любое фотоателье",
+          "how": "Белый фон, сделано за последние 6 месяцев, анфас, без очков и головного убора."
+        },
+        {
+          "doc": "Бронь авиабилетов туда-обратно",
+          "req": "required",
+          "where": "Авиакомпания / турагент",
+          "how": "Достаточно подтверждённой брони/маршрута — НЕ покупайте оплаченный билет до одобрения визы."
+        },
+        {
+          "doc": "Подтверждение проживания",
+          "req": "required",
+          "where": "Сайты бронирования отелей",
+          "how": "Подтверждённые брони отелей на весь срок пребывания. Останавливаетесь у кого-то? Добавьте пригласительное письмо + копию удостоверения/ARC принимающего."
+        },
+        {
+          "doc": "Выписка из банка — за последние 6 месяцев",
+          "req": "required",
+          "where": "Ваш банк",
+          "how": "Запросите выписку за 6 месяцев с печатью банка и уполномоченной подписью. Стабильный баланс гораздо убедительнее внезапного пополнения."
+        },
+        {
+          "doc": "Налоговые декларации (ITR)",
+          "req": "required",
+          "where": "incometax.gov.in",
+          "how": "Скачайте ITR-V / подтверждение за последние 2–3 года с портала электронной подачи налоговых деклараций.",
+          "link": "https://www.incometax.gov.in"
+        },
+        {
+          "doc": "Подтверждение работы / статуса",
+          "req": "conditional",
+          "where": "Работодатель / бизнес / колледж",
+          "how": "Работающим: письмо об отпуске + письмо с работы на фирменном бланке. Самозанятым: регистрация бизнеса / GST. Студентам: справка bonafide. Пенсионерам: подтверждение пенсии."
+        },
+        {
+          "doc": "Сопроводительное письмо + план по дням",
+          "req": "recommended",
+          "where": "Составьте сами (на английском)",
+          "how": "Короткое письмо с целью и датами поездки плюс план по дням. Не всегда обязательно, но усиливает туристическую заявку."
+        },
+        {
+          "doc": "Пояснительное письмо",
+          "req": "conditional",
+          "where": "Составьте сами",
+          "how": "Если вы действительно не можете предоставить ITR или выписки из банка, приложите подписанное письмо с объяснением причины."
+        }
+      ],
+      "legend": {
+        "required": "Обязательно",
+        "conditional": "Если применимо к вам",
+        "recommended": "Рекомендуется"
+      }
+    },
+    "funds": {
+      "title": "«Какой баланс на счёте нужен?»",
+      "body": "Единого официального минимума для туристической визы не опубликовано. Важно доказать, что вы можете комфортно оплатить всю поездку и имеете причины вернуться в Индию. Сотрудники смотрят на стабильность, а не только на итоговую цифру.",
+      "tips": [
+        "Показывайте стабильный баланс за 6 месяцев — крупное пополнение за несколько дней до подачи выглядит слабо.",
+        "Дополните выписку из банка своими ITR; вместе они создают убедительную картину.",
+        "Есть спонсор? Добавьте выписку из банка спонсора, подписанное спонсорское письмо и подтверждение вашего родства/отношений."
+      ]
+    },
+    "pitfalls": {
+      "title": "Ошибки, ведущие к отказам и задержкам",
+      "items": [
+        {
+          "icon": "📍",
+          "t": "Не тот центр округа",
+          "d": "Подача в центр, не обслуживающий ваш штат. Сначала определите свой округ (Delhi или Chennai)."
+        },
+        {
+          "icon": "💸",
+          "t": "Деньги в последний момент",
+          "d": "Внезапное крупное пополнение прямо перед подачей. Вместо этого показывайте стабильные, объяснимые средства."
+        },
+        {
+          "icon": "🎫",
+          "t": "Слишком ранняя покупка билетов",
+          "d": "Оплата невозвратных билетов до одобрения. Для заявки достаточно брони."
+        },
+        {
+          "icon": "🧾",
+          "t": "Отсутствие ITR",
+          "d": "Нет налоговых деклараций и нет объяснения. Если вы не можете подать ITR, приложите понятное пояснительное письмо."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Плохое фото",
+          "d": "Неверный размер, цветной фон, очки или старое фото. Используйте свежий снимок 35×45 мм на белом фоне."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Индия → Корея: часто задаваемые вопросы о визе",
+      "items": [
+        {
+          "q": "Могут ли индийцы получить визу в Корею по прибытии или электронную визу?",
+          "a": "Для обычного туризма — нет: обладатели индийских паспортов заранее подают на туристическую визу C-3-9 в Корейском визовом центре. Форму заполняют на Корейском визовом портале (visa.go.kr); для некоторых категорий там доступна электронная подача."
+        },
+        {
+          "q": "Нужна ли предварительная запись?",
+          "a": "Нет. В Индии можно прийти в KVAC в рабочие часы и подать документы; предварительная запись не нужна."
+        },
+        {
+          "q": "Сколько это занимает?",
+          "a": "Обычно около 5–10 рабочих дней, но может быть дольше в пиковый сезон или при дополнительных проверках. Подавайте заблаговременно до поездки."
+        },
+        {
+          "q": "Сколько это стоит?",
+          "a": "Примерно INR 3,400 за краткосрочную визу с однократным въездом, плюс сервисный сбор центра (около INR 1,100–1,400). Суммы меняются — уточните актуальный сбор в вашем KVAC."
+        },
+        {
+          "q": "В какой центр идти?",
+          "a": "Это зависит от вашего штата проживания. Южные штаты Индии проходят через округ Chennai (Chennai, Bengaluru); остальная Индия — через округ New Delhi/посольства (New Delhi, Mumbai, Kolkata и другие)."
+        },
+        {
+          "q": "Можно ли получить многократную визу?",
+          "a": "Многократные туристические визы возможны в некоторых случаях (например, для заявителей с богатой историей поездок), но право на них различается. Уточните в вашем KVAC или консульстве актуальные правила многократного въезда для Индии."
+        },
+        {
+          "q": "Что если я никогда не подавал ITR?",
+          "a": "Приложите подписанное письмо с объяснением причины и усильте заявку надёжной выпиской из банка за 6 месяцев и, при необходимости, документами спонсора."
+        },
+        {
+          "q": "Нужна ли мне e-Arrival Card после получения визы?",
+          "a": "Требование e-Arrival Card может по-прежнему применяться при въезде. Проверьте правила въездных документов ближе к дате поездки на официальных сайтах."
+        }
+      ]
+    }
+  },
+  "fr": {
+    "kicker": "Guide des visas · Inde → Corée",
+    "readingTime": "9 min de lecture",
+    "h1": "Visa coréen pour les citoyens indiens",
+    "metaTitle": "Visa coréen depuis l'Inde : guide étape par étape (2026) — Korea Trip Hub",
+    "metaDesc": "Comment obtenir un visa touristique coréen depuis l'Inde : où déposer la demande, documents requis (et où obtenir chacun), frais, délais de traitement, liens officiels. Visa touristique de courte durée C-3-9.",
+    "ui": {
+      "visa": "Type de visa",
+      "stay": "Durée de séjour",
+      "entry": "Entrée",
+      "where": "Où l'obtenir",
+      "official": "Sources officielles",
+      "required": "Obligatoire",
+      "conditional": "Le cas échéant",
+      "recommended": "Recommandé",
+      "confirm": "Les frais/règles peuvent changer — vérifiez à la source",
+      "source": "Source",
+      "updated": "Mis à jour",
+      "tldr": "En bref"
+    },
+    "verdict": {
+      "headline": "Oui — les titulaires d'un passeport indien ont besoin d'un visa.",
+      "sub": "Vous demanderez le visa touristique de courte durée C-3-9 (entrée unique, séjour jusqu'à 90 jours) en personne à un Korea Visa Application Center. La K-ETA/l'entrée sans visa ne s'applique PAS aux passeports indiens.",
+      "type": "C-3-9 Touristique de courte durée",
+      "stay": "Jusqu'à 90 jours",
+      "entry": "Entrée unique (entrée multiple possible dans certains cas — renseignez-vous au KVAC)"
+    },
+    "tldr": [
+      "Remplissez le formulaire sur visa.go.kr (le SEUL portail officiel), imprimez-le et signez-le.",
+      "Présentez-vous sans rendez-vous au Korea Visa Application Center de VOTRE État — l'Inde compte deux juridictions.",
+      "Apportez le passeport, une photo, les réservations de vol + d'hôtel, un relevé bancaire de 6 mois et 2–3 ans d'ITR.",
+      "Frais ≈ INR 3,400 + frais de service ; résultat en environ 5–10 jours ouvrés."
+    ],
+    "jurisdiction": {
+      "title": "Étape 0 — Trouvez VOTRE centre (c'est ce qui piège les gens)",
+      "intro": "L'Inde est divisée en deux juridictions consulaires. Vous devez déposer votre demande au centre qui couvre votre État de résidence — vous présenter au mauvais centre gâche le déplacement. C'est l'erreur la plus fréquente.",
+      "zones": [
+        {
+          "name": "Ambassade de Corée — juridiction de New Delhi",
+          "covers": "La majeure partie de l'Inde : États du Nord, de l'Ouest, de l'Est et du Centre (Delhi NCR, Maharashtra, Gujarat, West Bengal, UP, Punjab, etc.)",
+          "centers": "New Delhi, Mumbai, Kolkata et plus",
+          "site": "visaforkorea-id.com",
+          "url": "https://www.visaforkorea-id.com"
+        },
+        {
+          "name": "Consulat général — juridiction de Chennai",
+          "covers": "Inde du Sud : Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Telangana et Puducherry",
+          "centers": "Chennai, Bengaluru",
+          "site": "visaforkorea-ce.com",
+          "url": "https://www.visaforkorea-ce.com"
+        }
+      ],
+      "note": "Vous ne savez pas lequel est le vôtre ? Ouvrez le site du KVAC de votre région et vérifiez sa liste de juridictions/centres avant de vous déplacer pour déposer votre demande."
+    },
+    "steps": {
+      "title": "La demande, étape par étape",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirmez le type de visa",
+          "detail": "Pour le tourisme, il vous faut le visa de visite de courte durée (touristique) C-3-9. Réunissez la liste ci-dessous avant de commencer."
+        },
+        {
+          "n": 2,
+          "title": "Remplissez le formulaire sur visa.go.kr",
+          "detail": "Rendez-vous sur le Korea Visa Portal (visa.go.kr) — le seul site officiel. Remplissez le formulaire de demande en ligne, puis imprimez-le et signez-le. Un formulaire par demandeur.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Rassemblez vos documents",
+          "detail": "Réunissez tous les documents de la liste ci-dessous. Des justificatifs financiers manquants ou une photo au mauvais format sont les principales causes de retard."
+        },
+        {
+          "n": 4,
+          "title": "Rendez-vous à votre KVAC — sans rendez-vous",
+          "detail": "Présentez-vous au Korea Visa Application Center de votre juridiction pendant les heures d'ouverture. Aucun rendez-vous n'est requis en Inde."
+        },
+        {
+          "n": 5,
+          "title": "Déposez et payez",
+          "detail": "Remettez votre formulaire + vos documents et payez les frais de visa ainsi que les frais de service du centre au guichet."
+        },
+        {
+          "n": 6,
+          "title": "Suivez votre demande",
+          "detail": "Suivez le statut par e-mail/SMS ou sur la page de suivi du KVAC. Ne réservez pas de vols non remboursables avant d'être approuvé."
+        },
+        {
+          "n": 7,
+          "title": "Récupérez votre passeport",
+          "detail": "Récupérez-le en personne ou par courrier. Vérifiez les détails de la vignette de visa (nom, dates, type d'entrée) dès que vous le recevez."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Liste des documents — avec où et comment obtenir chacun",
+      "intro": "C'est la partie que tous les autres sites omettent. Pour chaque document, voici exactement où l'obtenir et ce qu'il doit indiquer.",
+      "cols": [
+        "Document",
+        "Où l'obtenir",
+        "Ce qu'il doit indiquer"
+      ],
+      "rows": [
+        {
+          "doc": "Passeport",
+          "req": "required",
+          "where": "Vous l'avez",
+          "how": "Valide 6 mois ou plus au-delà de votre voyage, au moins 2 pages vierges, délivré au cours des 10 dernières années. Apportez aussi vos anciens passeports."
+        },
+        {
+          "doc": "Formulaire de demande de visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Complétez-le sur le Korea Visa Portal, imprimez et signez. Un par demandeur.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Photo — 35 × 45 mm",
+          "req": "required",
+          "where": "N'importe quel studio photo",
+          "how": "Fond blanc, prise dans les 6 derniers mois, visage entier, sans lunettes ni couvre-chef."
+        },
+        {
+          "doc": "Réservation de vol aller-retour",
+          "req": "required",
+          "where": "Compagnie aérienne / agence de voyages",
+          "how": "Une réservation/un itinéraire confirmé suffit — N'achetez PAS de billet payant avant que le visa soit approuvé."
+        },
+        {
+          "doc": "Justificatif d'hébergement",
+          "req": "required",
+          "where": "Sites de réservation d'hôtel",
+          "how": "Réservations d'hôtel confirmées couvrant votre séjour. Vous logez chez quelqu'un ? Ajoutez une lettre d'invitation + une copie de la pièce d'identité/ARC de l'hôte."
+        },
+        {
+          "doc": "Relevé bancaire — 6 derniers mois",
+          "req": "required",
+          "where": "Votre banque",
+          "how": "Demandez un relevé de 6 mois avec le sceau/tampon de la banque et une signature autorisée. Un solde régulier est bien plus convaincant qu'un dépôt soudain."
+        },
+        {
+          "doc": "Déclarations de revenus (ITR)",
+          "req": "required",
+          "where": "incometax.gov.in",
+          "how": "Téléchargez l'ITR-V / l'accusé de réception des 2–3 dernières années depuis le portail de télédéclaration de l'impôt sur le revenu.",
+          "link": "https://www.incometax.gov.in"
+        },
+        {
+          "doc": "Justificatif d'emploi / de statut",
+          "req": "conditional",
+          "where": "Employeur / entreprise / université",
+          "how": "Salarié : lettre de congé + attestation d'emploi sur papier à en-tête de l'entreprise. Indépendant : enregistrement d'entreprise / GST. Étudiant : certificat de scolarité (bonafide). Retraité : justificatif de pension."
+        },
+        {
+          "doc": "Lettre de motivation + itinéraire jour par jour",
+          "req": "recommended",
+          "where": "À rédiger vous-même (en anglais)",
+          "how": "Une courte lettre indiquant l'objet et les dates du voyage, ainsi qu'un programme jour par jour. Pas toujours obligatoire, mais cela renforce un dossier touristique."
+        },
+        {
+          "doc": "Lettre explicative",
+          "req": "conditional",
+          "where": "À rédiger vous-même",
+          "how": "Si vous ne pouvez vraiment pas fournir d'ITR ou de relevés bancaires, joignez une lettre signée expliquant pourquoi."
+        }
+      ],
+      "legend": {
+        "required": "Obligatoire",
+        "conditional": "Si cela s'applique à vous",
+        "recommended": "Recommandé"
+      }
+    },
+    "funds": {
+      "title": "« De quel solde bancaire ai-je besoin ? »",
+      "body": "Il n'existe pas de minimum officiel unique publié pour le visa touristique. Ce qui compte, c'est de prouver que vous pouvez financer confortablement tout le voyage et que vous avez des raisons de rentrer en Inde. Les agents instructeurs regardent la stabilité, pas seulement un chiffre affiché.",
+      "tips": [
+        "Montrez un solde constant sur 6 mois — un dépôt important effectué quelques jours avant la demande fait mauvaise impression.",
+        "Associez le relevé bancaire à votre ITR ; ensemble, ils racontent une histoire crédible.",
+        "Vous êtes parrainé ? Ajoutez le relevé bancaire du garant, une lettre de parrainage signée et une preuve de votre lien de parenté."
+      ]
+    },
+    "pitfalls": {
+      "title": "Erreurs qui causent rejets et retards",
+      "items": [
+        {
+          "icon": "📍",
+          "t": "Mauvais centre de juridiction",
+          "d": "Déposer sa demande dans un centre qui ne couvre pas votre État. Vérifiez d'abord votre juridiction (Delhi ou Chennai)."
+        },
+        {
+          "icon": "💸",
+          "t": "Argent de dernière minute",
+          "d": "Un gros dépôt soudain juste avant de déposer la demande. Montrez plutôt des fonds réguliers et justifiables."
+        },
+        {
+          "icon": "🎫",
+          "t": "Acheter les vols trop tôt",
+          "d": "Payer des billets non remboursables avant l'approbation. Une réservation suffit pour le dossier."
+        },
+        {
+          "icon": "🧾",
+          "t": "ITR manquant",
+          "d": "Aucune déclaration de revenus et aucune explication. Si vous ne pouvez pas déclarer d'ITR, joignez une lettre explicative claire."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Mauvaise photo",
+          "d": "Mauvaise taille, fond coloré, lunettes ou photo ancienne. Utilisez une photo récente de 35×45 mm sur fond blanc."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ visa Inde → Corée",
+      "items": [
+        {
+          "q": "Les Indiens peuvent-ils obtenir un visa coréen à l'arrivée ou un e-visa ?",
+          "a": "Pas pour le tourisme classique — les titulaires d'un passeport indien demandent à l'avance le visa touristique C-3-9 à un Korea Visa Application Center. Le Korea Visa Portal (visa.go.kr) est l'endroit où vous remplissez le formulaire ; certaines catégories y prennent en charge la demande en ligne."
+        },
+        {
+          "q": "Ai-je besoin d'un rendez-vous ?",
+          "a": "Non. En Inde, vous pouvez vous présenter au KVAC pendant les heures d'ouverture et déposer votre demande ; aucun rendez-vous préalable n'est requis."
+        },
+        {
+          "q": "Combien de temps cela prend-il ?",
+          "a": "Généralement environ 5–10 jours ouvrés, mais cela peut être plus long en haute saison ou si des vérifications supplémentaires sont nécessaires. Faites votre demande bien avant votre voyage."
+        },
+        {
+          "q": "Combien cela coûte-t-il ?",
+          "a": "Environ INR 3,400 pour un visa de courte durée à entrée unique, plus les frais de service du centre (environ INR 1,100–1,400). Les montants changent — confirmez le tarif en vigueur à votre KVAC."
+        },
+        {
+          "q": "À quel centre dois-je aller ?",
+          "a": "Cela dépend de votre État de résidence. Les États du sud de l'Inde relèvent de la juridiction de Chennai (Chennai, Bengaluru) ; le reste de l'Inde relève de la juridiction de New Delhi/de l'ambassade (New Delhi, Mumbai, Kolkata et plus)."
+        },
+        {
+          "q": "Puis-je obtenir un visa à entrées multiples ?",
+          "a": "Les visas touristiques à entrées multiples sont possibles dans certains cas (par exemple pour les demandeurs ayant un solide historique de voyages), mais l'éligibilité varie. Renseignez-vous auprès de votre KVAC ou du consulat sur les règles actuelles d'entrées multiples pour l'Inde."
+        },
+        {
+          "q": "Que faire si je n'ai jamais déclaré d'ITR ?",
+          "a": "Soumettez une lettre signée expliquant pourquoi, et renforcez le dossier avec un solide relevé bancaire de 6 mois et, le cas échéant, les documents d'un garant."
+        },
+        {
+          "q": "Ai-je toujours besoin de la e-Arrival Card après avoir obtenu le visa ?",
+          "a": "L'obligation de e-Arrival Card peut toujours s'appliquer à l'entrée. Vérifiez les règles relatives aux documents d'entrée à l'approche de votre date de voyage sur les sites officiels."
+        }
+      ]
+    }
   }
 }

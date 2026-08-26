@@ -1,0 +1,490 @@
+{
+  "ui": {
+    "hubMetaTitle": "Où loger en Corée : les meilleurs quartiers à Séoul, Busan et Jeju",
+    "hubMetaDesc": "Où loger en Corée — les meilleurs quartiers de Séoul, Busan et Jeju pour un premier séjour, la vie nocturne, les plages, la culture et les petits budgets, avec liens vers les hôtels.",
+    "hubH1": "Où loger en Corée",
+    "hubTagline": "Choisissez le bon quartier dans chaque ville — selon l'ambiance, pas seulement le prix.",
+    "cardTitle": "Où loger à {city}",
+    "areasCompared": "{n} quartiers comparés",
+    "backToHub": "Où loger",
+    "cityH1": "Où loger à {city}",
+    "cityTagline": "Les meilleurs quartiers et secteurs — choisis selon l'ambiance, pas seulement le prix.",
+    "updated": "Mis à jour",
+    "findHotel": "Trouver un hôtel",
+    "thingsToDo": "À voir et à faire",
+    "typesTitle": "Types d'hébergement en Corée",
+    "typesIntro": "Vous ne savez pas quoi réserver ? Voici comment se comparent les principaux types d'hébergement en Corée — et à qui chacun convient.",
+    "goodToKnow": "Bon à savoir"
+  },
+  "cities": {
+    "seoul": {
+      "name": "Séoul",
+      "flag": "🏙️",
+      "metaTitle": "Où loger à Séoul : les meilleurs quartiers et secteurs (2026)",
+      "intro": "Séoul est immense, mais le métro rend tous les quartiers pratiques — choisissez donc selon l'ambiance recherchée. Pour un premier séjour, mieux vaut un quartier central comme Myeongdong ou Insadong ; les noctambules adorent Hongdae ; et Gangnam est le côté moderne et chic au sud du fleuve.",
+      "areas": [
+        {
+          "name": "Myeongdong",
+          "best": "Premier séjour et shopping",
+          "tone": "amber",
+          "vibe": "Le camp de base classique pour un premier séjour — central, rempli d'hôtels, de street food et de boutiques de cosmétiques, et à pied de Gyeongbokgung et de la N Seoul Tower.",
+          "near": "Arrêt du bus aéroport ici ; Lignes 4 et 2. Peut être animé et touristique."
+        },
+        {
+          "name": "Hongdae",
+          "best": "Vie nocturne et petit budget",
+          "tone": "green",
+          "vibe": "Quartier universitaire jeune et arty, avec musiciens de rue, boutiques indépendantes, cafés et la meilleure vie nocturne de la ville. Excellentes pensions et auberges au bon rapport qualité-prix.",
+          "near": "L'AREX rejoint directement l'aéroport d'Incheon (~50 min). Lignes 2 et 6."
+        },
+        {
+          "name": "Gangnam",
+          "best": "Chic et moderne",
+          "tone": "blue",
+          "vibe": "Élégant, très business et cher — hôtels de luxe, centre commercial COEX, spots K-pop autour d'Apgujeong. Plus éloigné du centre historique.",
+          "near": "Lignes 2, 3, 7 et Sinbundang ; pratique pour les trains SRT de Suseo."
+        },
+        {
+          "name": "Insadong et Jongno",
+          "best": "Culture et palais",
+          "tone": "amber",
+          "vibe": "Le cœur traditionnel de Séoul — maisons de thé, galeries, séjours en hanok, à quelques pas de Gyeongbokgung, Bukchon et Changdeokgung. Plus calme le soir.",
+          "near": "Lignes 1, 3 et 5. Très agréable à parcourir à pied pour les visites."
+        },
+        {
+          "name": "Itaewon",
+          "best": "Cuisine internationale et diversité",
+          "tone": "green",
+          "vibe": "Le quartier le plus international de Séoul — restaurants du monde entier, le plus grand choix d'options halal de la ville et une scène de bars animée.",
+          "near": "Ligne 6 ; proche de Yongsan et de la N Seoul Tower."
+        },
+        {
+          "name": "Dongdaemun",
+          "best": "Shopping et petit budget",
+          "tone": "blue",
+          "vibe": "Centres commerciaux de mode ouverts 24h/24, le futuriste DDP et des repas nocturnes bon marché. Pratique si vous voulez faire du shopping jusqu'à l'aube.",
+          "near": "Lignes 1, 2 et 4 ; central et bien desservi."
+        }
+      ],
+      "budget": "Petit budget ? Hongdae et Myeongdong regorgent de dortoirs, pensions et auberges — bon rapport qualité-prix et conviviaux, très prisés des voyageurs plus jeunes.",
+      "notes": [
+        "Séoul récompense un point de chute central — n'importe où le long de la ligne 2 du métro met la plupart des sites à quelques minutes, et les supérettes ouvertes 24h/24 et les trains tardifs font qu'on se sent rarement bloqué.",
+        "Les tarifs sont les plus élevés autour de Myeongdong et Gangnam, tandis que Hongdae, Mapo et Jongno offrent un meilleur rapport qualité-prix avec beaucoup de caractère. Beaucoup d'hôtels gardent vos bagages avant l'enregistrement, bien pratique après un KTX matinal ou une arrivée à l'aéroport."
+      ]
+    },
+    "busan": {
+      "name": "Busan",
+      "flag": "🌊",
+      "metaTitle": "Où loger à Busan : les meilleurs quartiers et plages (2026)",
+      "intro": "Busan est une ville balnéaire, la plupart des visiteurs s'installent donc près de la mer. Haeundae est la favorite côté resort ; Gwangalli offre la plus belle vue nocturne ; Seomyeon est le centre névralgique des transports et de la gastronomie ; et Nampo-dong est le côté marché de la vieille ville.",
+      "areas": [
+        {
+          "name": "Haeundae",
+          "best": "Plage et resorts",
+          "tone": "blue",
+          "vibe": "La plage la plus célèbre de Busan — hôtels-resorts en hauteur, l'aquarium, la capsule aérienne du Blueline Park et un front de mer animé.",
+          "near": "Ligne 2. Un peu à l'écart de la vieille ville, mais la plage compense largement."
+        },
+        {
+          "name": "Gwangalli",
+          "best": "Vue sur la plage et cafés",
+          "tone": "green",
+          "vibe": "Plage décontractée avec vue au premier rang sur le spectacle de lumière du pont Gwangan, plus une allée jeune de cafés et de bars. Parfait pour le coucher du soleil.",
+          "near": "Ligne 2 (Gwangan) ; à deux pas de Haeundae."
+        },
+        {
+          "name": "Seomyeon",
+          "best": "Central et vie nocturne",
+          "tone": "amber",
+          "vibe": "Le carrefour du centre-ville de Busan — shopping, restaurants à l'infini et vie nocturne, avec les correspondances les plus faciles à travers la ville.",
+          "near": "Correspondance Lignes 1 et 2 ; le point de chute le plus central."
+        },
+        {
+          "name": "Nampo-dong et Jagalchi",
+          "best": "Vieille ville et marchés",
+          "tone": "amber",
+          "vibe": "Le Busan historique — marché aux poissons de Jagalchi, marché Gukje, street food de BIFF Square et le village culturel de Gamcheon tout près. Bon rapport qualité-prix.",
+          "near": "Ligne 1 ; agréable à pied, plein de charme et économique."
+        },
+        {
+          "name": "Songjeong",
+          "best": "Plage tranquille et surf",
+          "tone": "green",
+          "vibe": "Une plage plus calme juste à l'est de Haeundae, prisée des surfeurs, avec des pensions, des auberges de surf et des hébergements avec vue sur mer.",
+          "near": "Le train côtier du Blueline Park et Haeundae sont à quelques minutes."
+        },
+        {
+          "name": "Gare de Busan et Choryang",
+          "best": "Pôle de transport et bon rapport qualité-prix",
+          "tone": "amber",
+          "vibe": "Autour de la gare KTX — hôtels à prix raisonnable, le port et les ruelles à flanc de colline de Choryang, pratique pour les arrivées et pour Nampo-dong.",
+          "near": "KTX et Ligne 1 ; une première ou dernière nuit facile en ville."
+        }
+      ],
+      "budget": "Petit budget ? Nampo-dong, Seomyeon et les secteurs proches des plages regorgent de pensions et d'auberges.",
+      "notes": [
+        "Busan s'étire le long de la côte, choisissez donc votre point de chute selon l'envie : Haeundae pour la plage et les hôtels-resorts, Seomyeon pour le shopping et les meilleures liaisons de transport, ou Nampo-dong pour les marchés et les rues de la vieille ville.",
+        "Le métro les relie tous, même si les routes sont lentes aux heures de pointe. Les chambres avec vue sur mer à Haeundae se vendent tôt pour les mois d'été, réservez donc bien à l'avance si vous venez en juillet ou août."
+      ]
+    },
+    "jeju": {
+      "name": "Jeju",
+      "flag": "🌴",
+      "metaTitle": "Où loger à Jeju : nord ou sud (2026)",
+      "intro": "Jeju se divise en un côté nord (Jeju City — là où l'on atterrit) et un côté sud (Seogwipo — plus chaud, plus verdoyant, plus proche de la nature célèbre). Une voiture de location sera nécessaire dans les deux cas ; choisissez le côté le plus proche des sites qui vous intéressent.",
+      "areas": [
+        {
+          "name": "Jeju City (nord)",
+          "best": "Arrivée et commodité",
+          "tone": "blue",
+          "vibe": "Là où se trouvent l'aéroport, le marché nocturne de Dongmun et la plupart des bus — le point de chute pratique et bien équipé, avec le plus large choix d'hôtels.",
+          "near": "Aéroport international de Jeju ; idéal pour les courts séjours et la vie nocturne."
+        },
+        {
+          "name": "Seogwipo (sud)",
+          "best": "Nature et cascades",
+          "tone": "green",
+          "vibe": "Pôle méridional plus chaud et verdoyant, près de la cascade Cheonjiyeon, des falaises de Jusangjeolli et de Seongsan Ilchulbong — au plus près des paysages de carte postale de Jeju.",
+          "near": "~1 h de l'aéroport en voiture ; pittoresque et plus calme."
+        },
+        {
+          "name": "Jungmun",
+          "best": "Resorts de luxe et plages",
+          "tone": "amber",
+          "vibe": "La ceinture de resorts de Jeju — grands complexes balnéaires, golf et la plage de Jungmun Saekdal, idéal pour des vacances tranquilles sur place.",
+          "near": "Près de Seogwipo, côte sud ; axé sur les resorts."
+        },
+        {
+          "name": "Aewol (côte ouest)",
+          "best": "Cafés et vues sur mer",
+          "tone": "green",
+          "vibe": "Un tronçon pittoresque de la côte ouest, avec cafés-restaurants et pensions élégantes le long du littoral, un point de chute détendu loin de la ville.",
+          "near": "Une voiture est recommandée ; à courte distance à l'ouest de Jeju City."
+        },
+        {
+          "name": "Seongsan (est)",
+          "best": "Pic du lever de soleil et côte est",
+          "tone": "blue",
+          "vibe": "À côté de Seongsan Ilchulbong sur la côte est — pensions et maisons d'hôtes pratiques pour la randonnée au lever du soleil, le ferry pour Udo et Seopjikoji.",
+          "near": "Parfait pour explorer l'est de Jeju ; une voiture est recommandée."
+        }
+      ],
+      "budget": "Petit budget ? Jeju City compte des pensions et des auberges près du terminal de bus et du marché Dongmun — beaucoup sont des lieux de rencontre pour les voyageurs solo et les randonneurs.",
+      "notes": [
+        "Jeju est une grande île qu'il vaut mieux diviser en deux : beaucoup de visiteurs passent les premières nuits près de Jeju City au nord, à proximité de l'aéroport, puis rejoignent Seogwipo au sud pour les cascades et les plages des resorts de Jungmun.",
+        "Une voiture de location a bien plus de sens ici que les bus publics, et l'endroit où vous logez le long de la côte décide si vous vous réveillez au lever du soleil ou si vous admirez le coucher du soleil sur la mer."
+      ]
+    },
+    "gyeongju": {
+      "name": "Gyeongju",
+      "flag": "🏛️",
+      "metaTitle": "Où loger à Gyeongju : les meilleurs quartiers (2026)",
+      "intro": "Gyeongju, ancienne capitale du royaume de Silla, est compacte et se répartit sur quelques points de chute : la zone de resorts du lac Bomun pour les hôtels et le calme, le vieux centre autour des tombes royales et la rue de cafés Hwangnidan-gil pour les visites à pied, et le secteur près de Bulguksa pour une visite matinale des temples.",
+      "areas": [
+        {
+          "name": "Resort du lac Bomun",
+          "best": "Resorts et calme",
+          "tone": "blue",
+          "vibe": "Une zone de resorts aménagée autour d'un lac, avec les plus grands hôtels, des spas et un accès facile à Bulguksa — calme et verdoyante, à quelques minutes des sites.",
+          "near": "À courte distance du centre en bus ou en taxi ; idéal pour le confort et les familles."
+        },
+        {
+          "name": "Centre-ville et Hwangnidan-gil",
+          "best": "Sites et cafés",
+          "tone": "amber",
+          "vibe": "Le vieux centre, agréable à pied, à côté des tombes royales, de Cheomseongdae et de la rue tendance de cafés et boutiques Hwangnidan-gil — la plupart des sites historiques se rejoignent à pied.",
+          "near": "À pied de Daereungwon, Cheomseongdae et Wolji ; pensions et hébergements de charme."
+        },
+        {
+          "name": "Près de Bulguksa",
+          "best": "Temple et tranquillité",
+          "tone": "green",
+          "vibe": "Le côté est plus verdoyant, près de Bulguksa et Seokguram, idéal pour un point de chute paisible et une visite matinale du temple avant la foule.",
+          "near": "Le plus proche de Bulguksa et Seokguram ; à quelques minutes en bus ou en taxi du centre."
+        }
+      ],
+      "budget": "Petit budget ? Hwangnidan-gil et le centre-ville proposent des pensions en hanok et des auberges à distance de marche des tombes royales et de l'étang Wolji illuminé la nuit.",
+      "notes": [
+        "Gyeongju est compacte et se parcourt à pied autour du centre historique, si bien que loger près du lac Bomun ou de la vieille ville met les tombes royales, Cheomseongdae et les sites illuminés la nuit à portée de main.",
+        "Les pensions traditionnelles en hanok sont ici un point fort et souvent d'un meilleur rapport qualité-prix qu'à Séoul. Destination prisée pour une excursion à la journée, la ville se remplit le week-end et à la saison des cerisiers en fleurs, réservez donc tôt pour le printemps."
+      ]
+    },
+    "jeonju": {
+      "name": "Jeonju",
+      "flag": "🏘️",
+      "metaTitle": "Où loger à Jeonju : les meilleurs quartiers (2026)",
+      "intro": "Jeonju est compacte et facile : dormez dans un hanok traditionnel au cœur du village de hanok pour être à deux pas des sites et de la gastronomie, ou choisissez un hôtel moderne autour du centre et de la gare pour le confort et les transports.",
+      "areas": [
+        {
+          "name": "Village de hanok et alentours",
+          "best": "Séjour en hanok et gastronomie",
+          "tone": "amber",
+          "vibe": "Dormez dans une pension en hanok restauré, au milieu même des ruelles, des maisons de thé et de la street food — le point de chute le plus plein de charme, et tout se rejoint à pied.",
+          "near": "Au cœur des sites ; réservez à l'avance le week-end."
+        },
+        {
+          "name": "Centre-ville et gare de Jeonju",
+          "best": "Hôtels et transports",
+          "tone": "blue",
+          "vibe": "Hôtels modernes autour du centre et de la gare, pratiques pour les bus et le KTX — plus de confort et de choix, à quelques minutes du village de hanok.",
+          "near": "Idéal pour les correspondances train/bus ; plus calme le soir."
+        }
+      ],
+      "budget": "Petit budget ? Le village de hanok et ses ruelles regorgent de pensions en hanok abordables — une nuit sur un plancher ondol traditionnel fait partie de l'expérience.",
+      "notes": [
+        "À Jeonju, le village de hanok est la raison pour laquelle la plupart des gens viennent, et dormir dans un hanok traditionnel en son sein — planchers ondol chauffés et petite cour — est l'expérience emblématique, à quelques pas des restaurants de bibimbap et de la street food.",
+        "Les chambres sont simples mais pleines de charme. Si vous préférez un hôtel moderne, installez-vous près du terminal de bus de Jeonju ou du secteur de Gaeksa et rejoignez le village en un court trajet en taxi."
+      ]
+    },
+    "gangneung": {
+      "name": "Gangneung",
+      "flag": "🌊",
+      "metaTitle": "Où loger à Gangneung : les meilleurs quartiers (2026)",
+      "intro": "Gangneung se partage entre la mer et le centre : installez-vous à la plage de Gyeongpo ou d'Anmok pour le sable, les cafés et le café, ou logez au centre-ville près de la gare pour les transports et un accès facile en KTX depuis Séoul.",
+      "areas": [
+        {
+          "name": "Plages de Gyeongpo et Anmok",
+          "best": "Plage et café",
+          "tone": "blue",
+          "vibe": "Juste au bord de la plage de la mer de l'Est, du lac bordé de pins et de la célèbre rue du café d'Anmok — le point de chute détendu et pittoresque que recherchent la plupart des visiteurs.",
+          "near": "En bord de plage ; à quelques minutes de la gare et du centre-ville."
+        },
+        {
+          "name": "Centre-ville et gare de Gangneung",
+          "best": "Central et transports",
+          "tone": "amber",
+          "vibe": "Autour de la gare KTX et du marché central, pratique pour les bus le long de la côte et une arrivée facile depuis Séoul.",
+          "near": "Idéal pour les transports et les marchés ; à quelques minutes des plages."
+        }
+      ],
+      "budget": "Petit budget ? Près de la plage de Gyeongpo et de la gare, vous trouverez des pensions et des « pensions » (locations), avec les cafés de la rue du café et la mer accessibles à pied ou en bus.",
+      "notes": [
+        "À Gangneung, tout tourne autour de la côte : logez près des plages de Gyeongpo ou d'Anmok pour le lever du soleil sur la mer et les cafés de la célèbre rue du café, ou près de la gare de Gangneung si vous arrivez par le KTX rapide depuis Séoul.",
+        "Les week-ends d'été et la saison de la mer en hiver sont chargés, réservez donc les chambres en bord de mer à l'avance. Beaucoup de voyageurs y associent Jeongdongjin, tout proche, pour ses vues sur le train au lever du soleil."
+      ]
+    },
+    "suwon": {
+      "name": "Suwon",
+      "flag": "🏯",
+      "metaTitle": "Où loger à Suwon : les meilleurs quartiers (2026)",
+      "intro": "Suwon se prête facilement à une excursion à la journée ou à une nuit depuis Séoul : logez dans la vieille ville près de la forteresse de Hwaseong pour arpenter les remparts et le palais Haenggung, ou choisissez un hôtel près de la gare de Suwon pour les transports et le shopping.",
+      "areas": [
+        {
+          "name": "Vieille ville de Hwaseong",
+          "best": "Forteresse et sites",
+          "tone": "amber",
+          "vibe": "À l'intérieur des remparts de la forteresse, près du palais Haenggung et des ruelles de cafés de Haenggung-dong — le point de chute le plus plein de caractère, à quelques pas des principaux sites.",
+          "near": "À pied des remparts et du palais ; pensions et petits hôtels."
+        },
+        {
+          "name": "Secteur de la gare de Suwon",
+          "best": "Hôtels et transports",
+          "tone": "blue",
+          "vibe": "Autour de la gare, avec de grands hôtels, des grands magasins et des trains faciles — pratique et bien relié à Séoul.",
+          "near": "Idéal pour les transports et le shopping ; à quelques minutes de la forteresse."
+        }
+      ],
+      "notes": [
+        "Suwon est parfaite pour une nuit facile depuis Séoul : logez dans la vieille ville de la forteresse de Hwaseong pour arpenter les remparts et le palais Haenggung à votre rythme, ou choisissez un hôtel près de la gare de Suwon pour les grands magasins et les trains rapides.",
+        "Les pensions de la vieille ville sont plus calmes et pleines de charme, tandis que le secteur de la gare est plus pratique. C'est assez proche pour qu'une excursion à la journée fonctionne aussi si vous préférez dormir à Séoul."
+      ]
+    },
+    "incheon": {
+      "name": "Incheon",
+      "flag": "✈️",
+      "metaTitle": "Où loger à Incheon : Yeongjongdo et l'aéroport (2026)",
+      "intro": "Incheon est le point d'arrivée de la plupart des voyageurs — et une base de concerts K-pop en plein essor. L'île de Yeongjong, qui abrite l'aéroport d'Incheon et l'Inspire Arena, est là où de nombreux fans étrangers logent pour les concerts et les escales ; la ville planifiée de Songdo ajoute des hôtels modernes, et le vieux quartier du port ouvert abrite le plus ancien Chinatown de Corée et le bord de mer de Wolmido.",
+      "areas": [
+        {
+          "name": "Île de Yeongjong (aéroport et Inspire Arena)",
+          "best": "Concerts K-pop et vols",
+          "tone": "blue",
+          "vibe": "L'île qui abrite l'aéroport d'Incheon et le complexe de divertissement Inspire Arena — un point de chute prisé des amateurs de concerts K-pop venus de l'étranger et de quiconque a un vol tôt ou tard, avec des hôtels d'aéroport et un grand complexe de resort.",
+          "near": "Sur la ligne AREX depuis l'aéroport ; une courte navette ou un taxi jusqu'à l'Inspire Arena."
+        },
+        {
+          "name": "Songdo",
+          "best": "Moderne et congrès",
+          "tone": "amber",
+          "vibe": "Un quartier planifié et élégant de gratte-ciel, de parcs et de centres de congrès comme Central Park et Songdo Convensia — hôtels modernes et atmosphère calme et spacieuse.",
+          "near": "Ligne 1 du métro d'Incheon ; relié à l'aéroport par un pont."
+        },
+        {
+          "name": "Port ouvert et Wolmido",
+          "best": "Chinatown et bord de mer",
+          "tone": "green",
+          "vibe": "Le quartier portuaire historique d'Incheon — le plus ancien Chinatown de Corée, des ruelles de fresques et la promenade en bord de mer de Wolmido avec sa fête foraine à l'ancienne.",
+          "near": "Ligne 1 jusqu'à la gare d'Incheon ; agréable à pied et plein de charme."
+        }
+      ],
+      "budget": "Petit budget ? Autour de la station Unseo sur l'île de Yeongjong (un arrêt d'AREX depuis l'aéroport), on trouve des hôtels d'aéroport, des pensions et des dortoirs moins chers — pratique pour un vol matinal ou un concert à l'Inspire Arena.",
+      "notes": [
+        "Incheon est là où la plupart des voyages commencent ou se terminent, c'est donc un point de chute malin pour les vols matinaux : les hôtels autour de l'aéroport d'Incheon et sur l'île de Yeongjong vous permettent de dormir à quelques minutes du terminal, certains avec navettes gratuites.",
+        "Pour la ville elle-même, logez près du port ouvert et de Chinatown pour l'ambiance et un accès facile à Séoul par la Ligne 1. Une dernière nuit ici vaut mieux qu'une course avant l'aube à travers la capitale."
+      ]
+    },
+    "sokcho": {
+      "name": "Sokcho",
+      "flag": "🌊",
+      "metaTitle": "Où loger à Sokcho — le Seoraksan et les quartiers de plage",
+      "intro": "Sokcho est la porte d'entrée du parc national du Seoraksan et une ville balnéaire tranquille de la mer de l'Est. La plupart des visiteurs s'installent près de la plage ou de l'entrée du Seoraksan.",
+      "areas": [
+        {
+          "name": "Plage et port de Sokcho",
+          "best": "Plage et point de chute en ville",
+          "tone": "blue",
+          "vibe": "Le secteur de la plage principale et du port, près du marché aux poissons, du village d'Abai et des bus vers le Seoraksan.",
+          "near": "Pratique pour les restaurants, les ferries et le terminal de bus express."
+        },
+        {
+          "name": "Seorak-dong (entrée du Seoraksan)",
+          "best": "Randonnée et nature",
+          "tone": "green",
+          "vibe": "Juste à côté de la porte du parc national du Seoraksan et du téléphérique, avec des « pensions » (locations) et des hôtels-resorts au milieu des montagnes.",
+          "near": "Idéal si la randonnée est votre priorité ; plus calme à la tombée de la nuit."
+        },
+        {
+          "name": "Centre-ville et terminal de bus",
+          "best": "Transports et bon rapport qualité-prix",
+          "tone": "amber",
+          "vibe": "Le centre de Sokcho près des terminaux, avec des hôtels et motels moins chers et des liaisons faciles vers la plage et le Seoraksan.",
+          "near": "Pratique pour arriver, repartir et les excursions à la journée."
+        }
+      ],
+      "budget": "Petit budget ? Sokcho compte des pensions et des auberges près de la plage et du marché Jungang, ainsi que des locations de montagne près du Seoraksan qui se partagent bien entre amis.",
+      "notes": [
+        "Sokcho est la porte d'entrée du Seoraksan, logez donc près de l'Expo Tower ou du port pour les vues sur mer et le marché aux poissons, puis rejoignez le parc national par un court trajet en bus.",
+        "Les chambres près de la plage se remplissent vite en été et pendant le feuillage d'automne, la haute saison du Seoraksan. Les bus depuis Séoul arrivent au terminal de Sokcho, un secteur pratique pour les motels bon marché et les correspondances."
+      ]
+    },
+    "daegu": {
+      "name": "Daegu",
+      "flag": "🌆",
+      "metaTitle": "Où loger à Daegu : les meilleurs quartiers (2026)",
+      "intro": "Daegu est compacte et facile : installez-vous au centre-ville autour de Dongseongno pour le shopping et la gastronomie, ou près de la gare de Dongdaegu pour les trains KTX rapides et un saut vite fait jusqu'au marché de Seomun.",
+      "areas": [
+        {
+          "name": "Dongseongno (centre-ville)",
+          "best": "Shopping et vie nocturne",
+          "tone": "amber",
+          "vibe": "Le quartier commerçant central animé de Daegu, à pied des marchés, des cafés et des ruelles d'histoire moderne.",
+          "near": "À quelques pas du marché de Seomun et de la rue Kim Kwang-seok ; nombreux hôtels de gamme moyenne."
+        },
+        {
+          "name": "Gare de Dongdaegu",
+          "best": "KTX et transports",
+          "tone": "blue",
+          "vibe": "Autour de la principale gare KTX, avec de grands hôtels et le terminal de bus — le point d'arrivée le plus facile et un point de chute rapide pour les excursions à la journée.",
+          "near": "KTX direct vers Séoul et Busan ; centres commerciaux et restaurants juste à côté."
+        }
+      ],
+      "notes": [
+        "Daegu est compacte, un point de chute au centre-ville autour de Dongseongno garde donc les marchés, les cafés et les ruelles d'histoire moderne à votre porte, tandis qu'un hôtel près de la gare de Dongdaegu vous offre des liaisons KTX rapides et le terminal de bus pour les excursions à la journée.",
+        "La ville est réputée pour sa chaleur au cœur de l'été, une chambre bien climatisée vaut donc la peine d'être vérifiée. Le marché nocturne de Seomun est à quelques minutes à pied de la plupart des hôtels centraux."
+      ]
+    },
+    "gwangju": {
+      "name": "Gwangju",
+      "flag": "🎨",
+      "metaTitle": "Où loger à Gwangju : les meilleurs quartiers (2026)",
+      "intro": "Gwangju est le pôle de l'art et de la gastronomie du sud-ouest. Logez au centre-ville près de l'Asia Culture Center pour la culture et la vie nocturne, ou dans le quartier de Sangmu pour des hôtels plus récents et des transports faciles.",
+      "areas": [
+        {
+          "name": "Centre-ville (Chungjang-ro)",
+          "best": "Culture et gastronomie",
+          "tone": "amber",
+          "vibe": "La vieille rue commerçante centrale à côté de l'Asia Culture Center — cafés, galeries et street food, animée à la tombée de la nuit.",
+          "near": "À pied de l'ACC et des marchés ; pensions et hôtels d'affaires."
+        },
+        {
+          "name": "Quartier de Sangmu",
+          "best": "Hôtels récents et transports",
+          "tone": "blue",
+          "vibe": "Un quartier planifié moderne avec des hôtels plus récents, des restaurants et une ligne de métro vers le centre.",
+          "near": "Pratique pour les voyageurs d'affaires ; à quelques minutes du centre-ville."
+        }
+      ],
+      "notes": [
+        "À Gwangju, le secteur central de Chungjang-ro vous garde près de l'Asia Culture Center, de la street food et de la vie nocturne, tandis que le quartier plus récent de Sangmu offre des hôtels modernes et une ligne de métro vers le centre.",
+        "C'est une ville détendue, avec des files d'attente plus courtes qu'à Séoul ou Busan, les hôtels de gamme moyenne y offrent donc un bon rapport qualité-prix. Installez-vous au centre-ville si vous voulez rejoindre le dîner et la culture à pied le soir."
+      ]
+    },
+    "andong": {
+      "name": "Andong",
+      "flag": "🎭",
+      "metaTitle": "Où loger à Andong : les meilleurs quartiers (2026)",
+      "intro": "Andong est le cœur du patrimoine confucéen coréen. Logez dans un hanok traditionnel au village de Hahoe pour l'expérience complète, ou près de la gare d'Andong et du centre-ville pour les restaurants et des bus faciles vers les sites.",
+      "areas": [
+        {
+          "name": "Village de Hahoe",
+          "best": "Séjour en hanok",
+          "tone": "amber",
+          "vibe": "Dormez dans une maison aux tuiles ou au toit de chaume vieille de plusieurs siècles, au cœur du village folklorique classé à l'UNESCO — calme, plein de charme et profondément authentique.",
+          "near": "Réservez un homestay en hanok ; le musée des masques et la rivière sont à votre porte."
+        },
+        {
+          "name": "Centre-ville et gare d'Andong",
+          "best": "Gastronomie et transports",
+          "tone": "blue",
+          "vibe": "Le centre-ville compact avec le vieux marché, les restaurants de jjimdak d'Andong et les bus vers Hahoe et les seowon.",
+          "near": "Idéal pour se restaurer et se déplacer ; hôtels et motels ordinaires."
+        }
+      ],
+      "notes": [
+        "Andong est étalée, il faut donc choisir entre l'ambiance et la commodité : un homestay en hanok traditionnel à Hahoe ou à proximité est inoubliable, mais calme et rural, tandis que le centre-ville et le secteur de la gare d'Andong vous gardent près des restaurants, du vieux marché et des bus vers les sites.",
+        "Réservez les séjours en hanok à l'avance, car ils ne sont qu'une poignée. Le jjimdak d'Andong est un incontournable, et les hôtels du centre en sont les plus proches."
+      ]
+    }
+  },
+  "types": [
+    {
+      "icon": "🏨",
+      "name": "Hôtels",
+      "best": "Confort et service",
+      "desc": "Des hôtels d'affaires aux resorts cinq étoiles, avec réception, petit-déjeuner et ménage quotidien. Le choix le plus simple si vous privilégiez la commodité et un personnel anglophone.",
+      "tip": "Comparez les tarifs et les conditions d'annulation sur Agoda ou sur le site officiel de l'hôtel."
+    },
+    {
+      "icon": "🛏️",
+      "name": "Pensions et auberges",
+      "best": "Petit budget et rencontres",
+      "desc": "Lits en dortoir et petites chambres privées, souvent tenus par des hôtes accueillants, avec des espaces communs qui les rendent conviviaux. Prisés des voyageurs solo et jeunes.",
+      "tip": "Excellent rapport qualité-prix près de Hongdae, Myeongdong et des villes balnéaires ; des dortoirs réservés aux femmes sont généralement disponibles."
+    },
+    {
+      "icon": "🏯",
+      "name": "Séjours en hanok",
+      "best": "Culture et ambiance",
+      "desc": "Dormez dans une maison coréenne traditionnelle restaurée, avec poutres en bois, portes en papier et un plancher ondol chauffant. Concentrés à Jeonju, à Bukchon (Séoul) et à Gyeongju.",
+      "tip": "Les chambres peuvent être simples, avec couchage au sol — demandez si la salle de bain est privée."
+    },
+    {
+      "icon": "🏡",
+      "name": "Pensions (locations)",
+      "best": "Groupes et nature",
+      "desc": "Maisons ou chalets de vacances indépendants, souvent avec cuisine et barbecue, fréquents à Jeju et dans les zones de montagne et de bord de mer. À partager de préférence entre amis ou en famille.",
+      "tip": "Une voiture est généralement nécessaire ; vérifiez si les ustensiles de cuisine et les serviettes sont fournis."
+    },
+    {
+      "icon": "🧘",
+      "name": "Templestay",
+      "best": "Calme et pleine conscience",
+      "desc": "Passez une nuit dans un temple bouddhiste, avec méditation, thé et repas monastiques — une expérience culturelle apaisante plutôt qu'un hôtel.",
+      "tip": "Réservez via le programme officiel Templestay ; les levers matinaux font partie de l'expérience."
+    },
+    {
+      "icon": "♨️",
+      "name": "Jjimjilbang (sauna)",
+      "best": "Une seule nuit et très économique",
+      "desc": "Bains publics coréens avec salles de sauna et une salle de repos commune. Ce n'est pas un hôtel, mais une option bon marché et sûre pour une courte nuit ou une arrivée tardive.",
+      "tip": "Vous dormez au sol dans une salle commune, apportez donc des bouchons d'oreille ; les zones de bain sont séparées par sexe."
+    },
+    {
+      "icon": "🏢",
+      "name": "Appart-hôtels et officetels",
+      "best": "Séjours longs et familles",
+      "desc": "Chambres de type appartement avec cuisine et buanderie, pratiques pour les longs séjours ou les familles qui préfèrent cuisiner elles-mêmes. Fréquents à Séoul et Busan.",
+      "tip": "Vérifiez la durée minimale de séjour — certains se louent à la semaine ou au mois."
+    }
+  ]
+}

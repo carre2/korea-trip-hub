@@ -13,10 +13,13 @@ import kpopId from "../../../data/kpop.id.json";
 import kpopEs from "../../../data/kpop.es.json";
 import kpopMs from "../../../data/kpop.ms.json";
 import kpopKo from "../../../data/kpop.ko.json";
+import kpopRu from "../../../data/kpop.ru.json";
+import kpopFr from "../../../data/kpop.fr.json";
 
 const KPOP = {
   en: kpopEn, ja: kpopJa, zh: kpopZh, "zh-TW": kpopZhTW, vi: kpopVi,
   th: kpopTh, id: kpopId, es: kpopEs, ms: kpopMs, ko: kpopKo,
+  ru: kpopRu, fr: kpopFr,
 };
 const kpopFor = (locale) => KPOP[locale] || kpopEn;
 

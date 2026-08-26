@@ -1628,5 +1628,367 @@
       "updated": "Dikemas kini",
       "tldr": "Ringkasan"
     }
+  },
+  "ru": {
+    "kicker": "Гид по въезду · США → Корея",
+    "readingTime": "5 мин чтения",
+    "h1": "Гид по въезду в Корею из США",
+    "metaTitle": "Из США в Корею: визовые требования и гид по въезду (2026) — Korea Trip Hub",
+    "metaDesc": "Нужна ли путешественникам из США виза в Южную Корею? Нет — безвизовый въезд, а K-ETA не требуется до конца 2026 года. Заполните бесплатную e-Arrival Card и следуйте шагам въезда. Пребывание: до 90 дней.",
+    "verdict": {
+      "headline": "Туристическая виза не нужна — паспорта США дают безвизовый въезд.",
+      "sub": "Для краткосрочного туризма вы не подаёте заявление ни на какую визу. Сейчас K-ETA также не требуется, поэтому главное — заполнить бесплатную e-Arrival Card до прилёта.",
+      "type": "Безвизовый въезд (K-ETA сейчас не требуется)",
+      "stay": "До 90 дней",
+      "entry": "Краткосрочный туризм"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Виза не нужна, и K-ETA не требуется до конца 2026 года",
+        "body": "США — одна из 22 стран, освобождённых от K-ETA до 31 декабря 2026 года, поэтому для краткосрочного туризма вы не оформляете ни визу, ни K-ETA. Освобождение должно завершиться, и K-ETA возвращается 1 января 2027 года — уточните перед поездкой."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "e-Arrival Card всё же нужна",
+        "body": "Почти каждый посетитель заполняет бесплатную e-Arrival Card на e-arrivalcard.go.kr в течение 72 часов до прибытия. (Владельцы действующей K-ETA освобождены, но пока K-ETA не требуется, вам следует заполнить e-Arrival Card.)"
+      }
+    ],
+    "tldr": [
+      "Сейчас не нужны ни туристическая виза, ни K-ETA — США имеют безвизовый режим и освобождены от K-ETA до конца 2026 года.",
+      "Обязательно заполните бесплатную e-Arrival Card на e-arrivalcard.go.kr в течение 72 часов до прибытия.",
+      "Возьмите паспорт, действительный на весь срок пребывания, и подтверждение обратного/дальнейшего перелёта.",
+      "Вы можете находиться до 90 дней."
+    ],
+    "steps": {
+      "title": "Ваши шаги для въезда",
+      "items": [
+        {
+          "n": 1,
+          "title": "Убедитесь, что вам не нужна виза",
+          "detail": "Паспорта США дают безвизовый въезд в Корею для краткосрочного туризма, а K-ETA не требуется до конца 2026 года — оформлять ничего не нужно."
+        },
+        {
+          "n": 2,
+          "title": "Заполните e-Arrival Card",
+          "detail": "В течение 72 часов до прибытия заполните её бесплатно на e-arrivalcard.go.kr и сохраните QR-код/подтверждение.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Проверьте паспорт и билет на вылет",
+          "detail": "Убедитесь, что паспорт действителен на весь срок пребывания, и подготовьте обратный/дальнейший билет и адрес первого места проживания."
+        },
+        {
+          "n": 4,
+          "title": "На паспортном контроле",
+          "detail": "Предъявите паспорт и подтверждение e-Arrival; могут снять отпечатки пальцев и сделать фото. Цель — только туризм: оплачиваемая работа при безвизовом въезде запрещена."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Что нужно подготовить",
+      "intro": "Вы не подаёте визовое заявление, но подготовьте это для беспроблемного въезда.",
+      "cols": [
+        "Пункт",
+        "Где получить",
+        "Примечания"
+      ],
+      "rows": [
+        {
+          "doc": "Паспорт",
+          "req": "required",
+          "where": "У вас уже есть",
+          "how": "Действителен на весь срок пребывания."
+        },
+        {
+          "doc": "Подтверждение e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Бесплатно; заполните в течение 72 часов до прибытия и сохраните QR-код.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Обратный / дальнейший билет",
+          "req": "required",
+          "where": "Авиакомпания / турагент",
+          "how": "Доказательство, что вы выедете в пределах разрешённого срока."
+        },
+        {
+          "doc": "Адрес проживания",
+          "req": "required",
+          "where": "Сайты бронирования",
+          "how": "Адрес первого отеля/места проживания (спрашивается в e-Arrival Card)."
+        },
+        {
+          "doc": "Средства на поездку",
+          "req": "recommended",
+          "where": "Вы сами",
+          "how": "Карты принимают повсеместно; возьмите немного наличных для рынков и мелких продавцов."
+        }
+      ],
+      "legend": {
+        "required": "Обязательно",
+        "conditional": "Если применимо",
+        "recommended": "Рекомендуется"
+      }
+    },
+    "pitfalls": {
+      "title": "Частые ошибки при въезде",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "Оплата «сбора за визу/K-ETA», который вы не должны платить",
+          "d": "Сейчас вам не нужны ни виза, ни K-ETA. Мошеннические сайты всё равно берут за них плату — игнорируйте их."
+        },
+        {
+          "icon": "📝",
+          "t": "Пропуск e-Arrival Card",
+          "d": "Большинство посетителей обязаны её заполнить (бесплатно). Сделайте это в течение 72 часов до прибытия."
+        },
+        {
+          "icon": "⏰",
+          "t": "Слишком раннее заполнение e-Arrival Card",
+          "d": "Она истекает через 72 часа после отправки — заполняйте её ближе к вылету, а не за недели."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Превышение разрешённого срока пребывания",
+          "d": "Пребывание дольше 90 дней грозит штрафами и запретом на въезд в будущем."
+        },
+        {
+          "icon": "💼",
+          "t": "Работа при туристическом въезде",
+          "d": "Безвизовый въезд только для туризма/визитов — для оплачиваемой работы нужна соответствующая виза."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Часто задаваемые вопросы о въезде США → Корея",
+      "items": [
+        {
+          "q": "Нужна ли путешественникам из США виза в Корею?",
+          "a": "Нет — для краткосрочного туризма владельцы паспортов США въезжают в Корею без визы. Вы не подаёте заявление ни на какую туристическую визу."
+        },
+        {
+          "q": "Нужна ли мне K-ETA?",
+          "a": "Сейчас нет. США входят в число 22 стран, освобождённых от K-ETA до 31 декабря 2026 года. Требование должно вернуться 1 января 2027 года, если не будет продлено освобождение."
+        },
+        {
+          "q": "Нужна ли мне всё же e-Arrival Card?",
+          "a": "Да — большинство посетителей заполняют бесплатную e-Arrival Card на e-arrivalcard.go.kr в течение 72 часов до прибытия."
+        },
+        {
+          "q": "Как долго я могу находиться?",
+          "a": "До 90 дней, с туристической целью."
+        },
+        {
+          "q": "Могу ли я работать или учиться при таком въезде?",
+          "a": "Нет. Безвизовый въезд только для туризма и коротких визитов; для работы или учёбы нужна соответствующая виза."
+        },
+        {
+          "q": "Когда K-ETA вернётся?",
+          "a": "Освобождение должно завершиться 31 декабря 2026 года, а K-ETA возобновится 1 января 2027 года, если не будет продлено — уточните ближе к дате поездки."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Виза",
+      "stay": "Пребывание",
+      "entry": "Цель въезда",
+      "where": "Где получить",
+      "official": "Официальные источники",
+      "required": "Обязательно",
+      "conditional": "Если применимо",
+      "recommended": "Рекомендуется",
+      "confirm": "Сборы и правила меняются — уточняйте в официальных источниках",
+      "source": "Источник",
+      "updated": "Обновлено",
+      "tldr": "Кратко"
+    }
+  },
+  "fr": {
+    "kicker": "Guide d'entrée · États-Unis → Corée",
+    "readingTime": "5 min de lecture",
+    "h1": "Guide d'entrée en Corée depuis les États-Unis",
+    "metaTitle": "Des États-Unis à la Corée : conditions de visa et guide d'entrée (2026) — Korea Trip Hub",
+    "metaDesc": "Les voyageurs des États-Unis ont-ils besoin d'un visa pour la Corée du Sud ? Non — sans visa, avec la K-ETA dispensée jusqu'en 2026. Remplissez la e-Arrival Card gratuite et suivez les étapes d'entrée. Séjour : jusqu'à 90 jours.",
+    "verdict": {
+      "headline": "Aucun visa touristique nécessaire — les passeports des États-Unis sont dispensés de visa.",
+      "sub": "Pour un tourisme de courte durée, vous ne demandez aucun visa. En ce moment, la K-ETA est également dispensée, donc l'essentiel est de remplir la e-Arrival Card gratuite avant d'atterrir.",
+      "type": "Sans visa (K-ETA actuellement dispensée)",
+      "stay": "Jusqu'à 90 jours",
+      "entry": "Tourisme de courte durée"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Sans visa, et K-ETA dispensée jusqu'en 2026",
+        "body": "Les États-Unis sont l'un des 22 pays exemptés de K-ETA jusqu'au 31 décembre 2026, vous ne demandez donc ni visa ni K-ETA pour un court séjour touristique. La dispense doit prendre fin et la K-ETA revient le 1er janvier 2027 — reconfirmez avant de voyager."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "Vous avez tout de même besoin de la e-Arrival Card",
+        "body": "Presque tous les visiteurs remplissent la e-Arrival Card gratuite sur e-arrivalcard.go.kr, dans les 72 heures précédant l'arrivée. (Les titulaires d'une K-ETA valide en sont dispensés, mais la K-ETA étant dispensée, vous devriez remplir la e-Arrival Card.)"
+      }
+    ],
+    "tldr": [
+      "Aucun visa touristique ni K-ETA nécessaire pour le moment — les États-Unis sont sans visa et exemptés de K-ETA jusqu'en 2026.",
+      "Remplissez bien la e-Arrival Card gratuite sur e-arrivalcard.go.kr dans les 72 heures précédant l'arrivée.",
+      "Apportez un passeport valide pour la durée de votre séjour ainsi qu'une preuve de voyage de continuation/retour.",
+      "Vous pouvez séjourner jusqu'à 90 jours."
+    ],
+    "steps": {
+      "title": "Vos étapes d'entrée",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirmez que vous êtes dispensé de visa",
+          "detail": "Les passeports des États-Unis entrent en Corée sans visa pour un court séjour touristique, et la K-ETA est dispensée jusqu'en 2026 — il n'y a rien à demander."
+        },
+        {
+          "n": 2,
+          "title": "Remplissez la e-Arrival Card",
+          "detail": "Dans les 72 heures précédant l'arrivée, remplissez-la gratuitement sur e-arrivalcard.go.kr et enregistrez le QR/la confirmation.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Vérifiez le passeport et le billet de continuation",
+          "detail": "Assurez-vous que votre passeport est valide pour la durée de votre séjour, et munissez-vous d'un billet de retour/continuation ainsi que de l'adresse de votre premier hébergement."
+        },
+        {
+          "n": 4,
+          "title": "Au contrôle de l'immigration",
+          "detail": "Présentez votre passeport et la confirmation e-Arrival ; vos empreintes et une photo peuvent être prises. Restez dans le cadre touristique — pas de travail rémunéré avec une entrée sans visa."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Ce qu'il faut avoir prêt",
+      "intro": "Vous ne déposez pas de demande de visa — mais ayez ceci prêt pour une entrée sans encombre.",
+      "cols": [
+        "Élément",
+        "Où l'obtenir",
+        "Remarques"
+      ],
+      "rows": [
+        {
+          "doc": "Passeport",
+          "req": "required",
+          "where": "Vous l'avez déjà",
+          "how": "Valide pendant toute la durée de votre séjour."
+        },
+        {
+          "doc": "Confirmation de la e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Gratuit ; à remplir dans les 72 heures précédant l'arrivée et enregistrez le QR.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Billet de retour / continuation",
+          "req": "required",
+          "where": "Compagnie aérienne / agence de voyages",
+          "how": "Preuve que vous repartirez dans les limites de votre séjour autorisé."
+        },
+        {
+          "doc": "Adresse d'hébergement",
+          "req": "required",
+          "where": "Sites de réservation",
+          "how": "L'adresse de votre premier hôtel/hébergement (demandée sur la e-Arrival Card)."
+        },
+        {
+          "doc": "Fonds pour votre voyage",
+          "req": "recommended",
+          "where": "Vous",
+          "how": "Les cartes sont largement acceptées ; prévoyez un peu d'espèces pour les marchés et les petits commerçants."
+        }
+      ],
+      "legend": {
+        "required": "Obligatoire",
+        "conditional": "Le cas échéant",
+        "recommended": "Recommandé"
+      }
+    },
+    "pitfalls": {
+      "title": "Erreurs d'entrée courantes",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "Payer des « frais de visa/K-ETA » que vous ne devez pas",
+          "d": "En ce moment, vous n'avez besoin ni d'un visa ni de la K-ETA. Des sites frauduleux les facturent encore — ignorez-les."
+        },
+        {
+          "icon": "📝",
+          "t": "Sauter la e-Arrival Card",
+          "d": "La plupart des visiteurs doivent la remplir (gratuit). Faites-le dans les 72 heures précédant l'arrivée."
+        },
+        {
+          "icon": "⏰",
+          "t": "Remplir la e-Arrival Card trop tôt",
+          "d": "Elle expire 72 heures après l'envoi — remplissez-la peu avant votre vol, pas des semaines à l'avance."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Dépasser la durée autorisée",
+          "d": "Rester au-delà de 90 jours vous expose à des amendes et à des interdictions d'entrée futures."
+        },
+        {
+          "icon": "💼",
+          "t": "Travailler avec une entrée touristique",
+          "d": "L'entrée sans visa est réservée au tourisme/aux visites — un travail rémunéré nécessite un visa approprié."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ d'entrée États-Unis → Corée",
+      "items": [
+        {
+          "q": "Les voyageurs des États-Unis ont-ils besoin d'un visa pour la Corée ?",
+          "a": "Non — pour un tourisme de courte durée, les titulaires d'un passeport des États-Unis entrent en Corée sans visa. Vous ne demandez aucun visa touristique."
+        },
+        {
+          "q": "Ai-je besoin de la K-ETA ?",
+          "a": "Pas pour le moment. Les États-Unis font partie des 22 pays exemptés de K-ETA jusqu'au 31 décembre 2026. L'obligation doit revenir le 1er janvier 2027, sauf prolongation."
+        },
+        {
+          "q": "Ai-je tout de même besoin de la e-Arrival Card ?",
+          "a": "Oui — la plupart des visiteurs remplissent la e-Arrival Card gratuite sur e-arrivalcard.go.kr, dans les 72 heures précédant l'arrivée."
+        },
+        {
+          "q": "Combien de temps puis-je rester ?",
+          "a": "Jusqu'à 90 jours, pour le tourisme."
+        },
+        {
+          "q": "Puis-je travailler ou étudier avec cette entrée ?",
+          "a": "Non. L'entrée sans visa est réservée au tourisme et aux courtes visites ; travailler ou étudier nécessite le visa approprié."
+        },
+        {
+          "q": "Quand la K-ETA revient-elle ?",
+          "a": "La dispense doit prendre fin le 31 décembre 2026, la K-ETA reprenant le 1er janvier 2027 sauf prolongation — reconfirmez à l'approche de votre date de voyage."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Visa",
+      "stay": "Séjour",
+      "entry": "Entrée",
+      "where": "Où l'obtenir",
+      "official": "Sources officielles",
+      "required": "Obligatoire",
+      "conditional": "Le cas échéant",
+      "recommended": "Recommandé",
+      "confirm": "Les frais/règles changent — vérifiez à la source",
+      "source": "Source",
+      "updated": "Mis à jour",
+      "tldr": "En bref"
+    }
   }
 }
