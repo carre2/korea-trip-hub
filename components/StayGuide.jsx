@@ -28,6 +28,12 @@ export default function StayGuide({ city, cityKey, ui }) {
         ))}
       </div>
       {city.budget && <p className="stay-budget">💸 {city.budget}</p>}
+      {Array.isArray(city.notes) && city.notes.length > 0 && (
+        <section className="stay-notes">
+          <h2>{ui?.goodToKnow || "Good to know"}</h2>
+          {city.notes.map((para, i) => <p key={i}>{para}</p>)}
+        </section>
+      )}
       <p className="bookcta-disc">ⓘ {DISCLOSURE}</p>
     </div>
   );

@@ -302,6 +302,9 @@
   .kpop-ticket-txt{flex:1;font-size:13.5px;color:var(--text)}
   .kpop-ticket-arrow{color:var(--faint);font-weight:700}
   .stay-budget{background:var(--surface-2);border:1px solid var(--border);border-left:3px solid #0FA08C;border-radius:10px;padding:11px 14px;font-size:13.5px;line-height:1.5;margin:14px 0 4px;color:var(--text)}
+  .stay-notes{margin:22px 0 6px}
+  .stay-notes h2{font-size:18px;margin:0 0 8px}
+  .stay-notes p{font-size:15px;line-height:1.7;margin:0 0 10px;color:var(--text)}
 
   /* ---------- ITINERARY PREVIEW ---------- */
   .itin{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);box-shadow:var(--shadow);overflow:hidden}

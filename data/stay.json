@@ -14,7 +14,8 @@
     "findHotel": "Find a hotel",
     "thingsToDo": "Things to do",
     "typesTitle": "Types of accommodation in Korea",
-    "typesIntro": "Not sure what to book? Here's how Korea's main lodging types compare — and who each one suits."
+    "typesIntro": "Not sure what to book? Here's how Korea's main lodging types compare — and who each one suits.",
+    "goodToKnow": "Good to know"
   },
   "cities": {
     "seoul": {
@@ -66,7 +67,11 @@
           "near": "Lines 1, 2 & 4; central and well-connected."
         }
       ],
-      "budget": "On a budget? Hongdae and Myeongdong are packed with dorms, guesthouses and hostels — great value and social, and popular with younger travellers."
+      "budget": "On a budget? Hongdae and Myeongdong are packed with dorms, guesthouses and hostels — great value and social, and popular with younger travellers.",
+      "notes": [
+        "Seoul rewards a central base — anywhere along Subway Line 2 puts most sights within a short ride, and 24-hour convenience stores and late trains mean you rarely feel stranded.",
+        "Rates run highest around Myeongdong and Gangnam, while Hongdae, Mapo and Jongno give better value with plenty of character. Many hotels hold your bags before check-in, which helps after an early KTX or airport arrival."
+      ]
     },
     "busan": {
       "name": "Busan",
@@ -117,7 +122,11 @@
           "near": "KTX and Line 1; an easy first or last night in the city."
         }
       ],
-      "budget": "On a budget? Nampo-dong, Seomyeon and the areas near the beaches have plenty of guesthouses and hostels."
+      "budget": "On a budget? Nampo-dong, Seomyeon and the areas near the beaches have plenty of guesthouses and hostels.",
+      "notes": [
+        "Busan stretches along the coast, so choose your base by mood: Haeundae for the beach and resort hotels, Seomyeon for shopping and the best transit links, or Nampo-dong for markets and old-town streets.",
+        "The metro connects them all, though rush-hour roads are slow. Sea-view rooms in Haeundae sell out early for the summer months, so book well ahead if you come in July or August."
+      ]
     },
     "jeju": {
       "name": "Jeju",
@@ -161,7 +170,11 @@
           "near": "Great for touring east Jeju; a car is recommended."
         }
       ],
-      "budget": "On a budget? Jeju City has guesthouses and hostels near the bus terminal and Dongmun Market — many are social hubs for solo travelers and hikers."
+      "budget": "On a budget? Jeju City has guesthouses and hostels near the bus terminal and Dongmun Market — many are social hubs for solo travelers and hikers.",
+      "notes": [
+        "Jeju is a big island best split in two: many visitors spend the first nights near Jeju City in the north, close to the airport, then move to Seogwipo in the south for the waterfalls and Jungmun resort beaches.",
+        "A rental car makes far more sense here than public buses, and where you stay along the coast decides whether you wake to sunrise or catch the sunset over the sea."
+      ]
     },
     "gyeongju": {
       "name": "Gyeongju",
@@ -191,7 +204,11 @@
           "near": "Closest to Bulguksa and Seokguram; a bus or taxi ride from downtown."
         }
       ],
-      "budget": "On a budget? Hwangnidan-gil and the downtown area have hanok guesthouses and hostels within walking distance of the royal tombs and the night-lit Wolji Pond."
+      "budget": "On a budget? Hwangnidan-gil and the downtown area have hanok guesthouses and hostels within walking distance of the royal tombs and the night-lit Wolji Pond.",
+      "notes": [
+        "Gyeongju is compact and walkable around the historic centre, so staying near Bomun Lake or the old town keeps the royal tombs, Cheomseongdae and the night-lit sights within easy reach.",
+        "Traditional hanok guesthouses here are a highlight and often better value than in Seoul. As a day-trip favourite the city fills up on weekends and in cherry-blossom season, so reserve early for spring."
+      ]
     },
     "jeonju": {
       "name": "Jeonju",
@@ -214,7 +231,11 @@
           "near": "Best for train/bus connections; quieter at night."
         }
       ],
-      "budget": "On a budget? The Hanok Village and its side streets are full of affordable hanok guesthouses — a night on a traditional ondol floor is part of the experience."
+      "budget": "On a budget? The Hanok Village and its side streets are full of affordable hanok guesthouses — a night on a traditional ondol floor is part of the experience.",
+      "notes": [
+        "In Jeonju the Hanok Village is the reason most people come, and sleeping in a traditional hanok inside it — heated ondol floors and a small courtyard — is the signature experience, steps from the bibimbap restaurants and street food.",
+        "Rooms are simple but atmospheric. If you'd rather have a modern hotel, base near the Jeonju bus terminal or the Gaeksa area and reach the village in a short taxi ride."
+      ]
     },
     "gangneung": {
       "name": "Gangneung",
@@ -237,7 +258,11 @@
           "near": "Best for transport and markets; a short ride to the beaches."
         }
       ],
-      "budget": "On a budget? Near Gyeongpo Beach and the station you'll find guesthouses and pensions, with coffee-street cafés and the sea an easy walk or bus ride away."
+      "budget": "On a budget? Near Gyeongpo Beach and the station you'll find guesthouses and pensions, with coffee-street cafés and the sea an easy walk or bus ride away.",
+      "notes": [
+        "Gangneung is all about the coast: stay near Gyeongpo or Anmok Beach for sunrise over the sea and the famous coffee-street cafes, or near Gangneung Station if you're arriving on the fast KTX from Seoul.",
+        "Summer weekends and the winter-sea season get busy, so book beachfront rooms ahead. Many travellers pair it with nearby Jeongdongjin for its sunrise train views."
+      ]
     },
     "suwon": {
       "name": "Suwon",
@@ -259,6 +284,10 @@
           "vibe": "Around the station with big hotels, department stores and easy trains — practical and well-connected to Seoul.",
           "near": "Best for transport and shopping; a short ride to the fortress."
         }
+      ],
+      "notes": [
+        "Suwon works well as an easy overnight from Seoul: stay inside the Hwaseong Fortress old town to walk the walls and Haenggung Palace at your own pace, or pick a hotel by Suwon Station for department stores and quick trains.",
+        "The old-town guesthouses are quieter and full of character, while the station area is more practical. It's close enough that a day trip also works if you'd rather sleep in Seoul."
       ]
     },
     "incheon": {
@@ -289,7 +318,11 @@
           "near": "Line 1 to Incheon Station; walkable and atmospheric."
         }
       ],
-      "budget": "On a budget? Around Unseo Station on Yeongjong Island (one AREX stop from the airport) there are cheaper airport hotels, guesthouses and dorms — handy for an early flight or an Inspire Arena concert."
+      "budget": "On a budget? Around Unseo Station on Yeongjong Island (one AREX stop from the airport) there are cheaper airport hotels, guesthouses and dorms — handy for an early flight or an Inspire Arena concert.",
+      "notes": [
+        "Incheon is where most trips begin or end, so it's a smart base for early flights: hotels around Incheon Airport and on Yeongjong Island let you sleep minutes from the terminal, some with free shuttles.",
+        "For the city itself, stay near the Open Port and Chinatown for atmosphere and easy Line 1 access to Seoul. A last night here beats a pre-dawn dash across the capital."
+      ]
     },
     "sokcho": {
       "name": "Sokcho",
@@ -319,7 +352,11 @@
           "near": "Convenient for arriving, leaving and day trips."
         }
       ],
-      "budget": "On a budget? Sokcho has guesthouses and hostels near the beach and Jungang Market, plus mountain pensions near Seoraksan that split well between friends."
+      "budget": "On a budget? Sokcho has guesthouses and hostels near the beach and Jungang Market, plus mountain pensions near Seoraksan that split well between friends.",
+      "notes": [
+        "Sokcho is the gateway to Seoraksan, so stay near the Expo Tower or the harbour for sea views and the fish market, then reach the national park by a short bus.",
+        "Rooms near the beach fill quickly in summer and during the autumn foliage, the peak season for Seoraksan. Buses from Seoul arrive at the Sokcho terminal, a handy area for cheaper motels and onward connections."
+      ]
     },
     "daegu": {
       "name": "Daegu",
@@ -341,6 +378,10 @@
           "vibe": "Around the main KTX station with big hotels and the bus terminal — the easiest arrival point and a fast base for day trips.",
           "near": "Direct KTX to Seoul and Busan; malls and dining next door."
         }
+      ],
+      "notes": [
+        "Daegu is compact, so a downtown base around Dongseongno keeps the markets, cafes and modern-history alleys on your doorstep, while a hotel by Dongdaegu Station gives you fast KTX links and the bus terminal for day trips.",
+        "The city is famously hot in midsummer, so a room with strong air-conditioning is worth checking. Seomun night market is an easy walk from most central hotels."
       ]
     },
     "gwangju": {
@@ -363,6 +404,10 @@
           "vibe": "A modern planned district with newer hotels, restaurants and a subway line into the centre.",
           "near": "Handy for business travellers; a short ride to downtown."
         }
+      ],
+      "notes": [
+        "In Gwangju the downtown Chungjang-ro area keeps you close to the Asia Culture Center, street food and nightlife, while the newer Sangmu district has modern hotels and a subway line into the centre.",
+        "It's a relaxed city with shorter queues than Seoul or Busan, so mid-range hotels are good value. Base downtown if you want to walk to dinner and culture in the evenings."
       ]
     },
     "andong": {
@@ -385,6 +430,10 @@
           "vibe": "The compact town centre with the old market, Andong jjimdak restaurants and buses out to Hahoe and the seowon.",
           "near": "Best for dining and transport; ordinary hotels and motels."
         }
+      ],
+      "notes": [
+        "Andong is spread out, so decide between atmosphere and convenience: a traditional hanok homestay in or near Hahoe Folk Village is unforgettable but quiet and rural, while the downtown and Andong Station area keeps you near restaurants, the old market and buses to the sights.",
+        "Book the hanok stays ahead, as there are only a handful. Andong jjimdak is a must-eat, and the central hotels sit closest to it."
       ]
     }
   },
