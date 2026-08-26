@@ -319,6 +319,72 @@
         }
       ],
       "budget": "¿Viajas con poco presupuesto? Sokcho tiene casas de huéspedes y albergues cerca de la playa y del Mercado Jungang, además de pensiones de montaña cerca de Seoraksan que salen a cuenta si las compartes entre amigos."
+    },
+    "daegu": {
+      "name": "Daegu",
+      "flag": "🌆",
+      "metaTitle": "Dónde alojarse en Daegu: mejores zonas (2026)",
+      "intro": "Daegu es compacta y cómoda: instálate en el centro, en torno a Dongseongno, para compras y comida, o cerca de la estación de Dongdaegu para tomar el KTX rápido y llegar en un momento al mercado de Seomun.",
+      "areas": [
+        {
+          "name": "Dongseongno (centro)",
+          "best": "Compras y vida nocturna",
+          "tone": "amber",
+          "vibe": "El bullicioso distrito comercial central de Daegu, con mercados, cafeterías y los callejones de historia moderna a un paso.",
+          "near": "A pocos pasos del mercado de Seomun y de la calle Kim Kwang-seok; abundan los hoteles de gama media."
+        },
+        {
+          "name": "Estación de Dongdaegu",
+          "best": "KTX y transporte",
+          "tone": "blue",
+          "vibe": "En torno a la principal estación del KTX, con grandes hoteles y la terminal de autobuses: el punto de llegada más fácil y una base rápida para excursiones de un día.",
+          "near": "KTX directo a Seúl y Busan; centros comerciales y restaurantes al lado."
+        }
+      ]
+    },
+    "gwangju": {
+      "name": "Gwangju",
+      "flag": "🎨",
+      "metaTitle": "Dónde alojarse en Gwangju: mejores zonas (2026)",
+      "intro": "Gwangju es el eje del arte y la gastronomía del suroeste. Alójate en el centro, cerca del Asia Culture Center, para cultura y vida nocturna, o en el distrito de Sangmu para hoteles más nuevos y buen transporte.",
+      "areas": [
+        {
+          "name": "Centro (Chungjang-ro)",
+          "best": "Cultura y gastronomía",
+          "tone": "amber",
+          "vibe": "La antigua calle comercial central junto al Asia Culture Center: cafeterías, galerías y comida callejera, animada al caer la noche.",
+          "near": "A pie hasta el ACC y los mercados; casas de huéspedes y hoteles de negocios."
+        },
+        {
+          "name": "Distrito de Sangmu",
+          "best": "Hoteles nuevos y transporte",
+          "tone": "blue",
+          "vibe": "Un distrito moderno y planificado con hoteles y restaurantes más nuevos y una línea de metro hasta el centro.",
+          "near": "Práctico para viajeros de negocios; a un corto trayecto del centro."
+        }
+      ]
+    },
+    "andong": {
+      "name": "Andong",
+      "flag": "🎭",
+      "metaTitle": "Dónde alojarse en Andong: mejores zonas (2026)",
+      "intro": "Andong es el corazón del patrimonio confuciano coreano. Alójate en un hanok tradicional en Hahoe Village para vivir la experiencia completa, o cerca de la estación de Andong y el centro para restaurantes y autobuses fáciles hacia los lugares de interés.",
+      "areas": [
+        {
+          "name": "Hahoe Village",
+          "best": "Estancias en hanok",
+          "tone": "amber",
+          "vibe": "Duerme en una casa centenaria de tejas o de paja dentro de la aldea folclórica declarada UNESCO: tranquila, con encanto y auténticamente local.",
+          "near": "Reserva una estancia en hanok; el museo de máscaras y el río están a la puerta."
+        },
+        {
+          "name": "Centro y estación de Andong",
+          "best": "Gastronomía y transporte",
+          "tone": "blue",
+          "vibe": "El compacto centro del pueblo, con el mercado antiguo, los restaurantes de jjimdak de Andong y autobuses hacia Hahoe y los seowon.",
+          "near": "Lo mejor para comer y desplazarse; hoteles y moteles corrientes."
+        }
+      ]
     }
   },
   "types": [

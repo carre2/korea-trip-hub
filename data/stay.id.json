@@ -319,6 +319,72 @@
         }
       ],
       "budget": "Punya anggaran terbatas? Sokcho memiliki guesthouse dan hostel di dekat pantai dan Pasar Jungang, serta pension pegunungan di dekat Seoraksan yang biayanya pas untuk dibagi bersama teman."
+    },
+    "daegu": {
+      "name": "Daegu",
+      "flag": "🌆",
+      "metaTitle": "Tempat Menginap di Daegu: Area Terbaik (2026)",
+      "intro": "Daegu ringkas dan mudah dijelajahi: jadikan pusat kota di sekitar Dongseongno sebagai basis Anda untuk belanja dan kuliner, atau pilih dekat Dongdaegu Station untuk kereta cepat KTX dan akses singkat ke Seomun Market.",
+      "areas": [
+        {
+          "name": "Dongseongno (pusat kota)",
+          "best": "Belanja & kehidupan malam",
+          "tone": "amber",
+          "vibe": "Kawasan belanja sentral Daegu yang ramai, mudah dijangkau dengan berjalan kaki ke pasar, kafe, dan gang-gang bersejarah modern.",
+          "near": "Hanya beberapa langkah dari Seomun Market dan Kim Kwang-seok Street; banyak hotel kelas menengah."
+        },
+        {
+          "name": "Dongdaegu Station",
+          "best": "KTX & transit",
+          "tone": "blue",
+          "vibe": "Di sekitar stasiun utama KTX dengan hotel-hotel besar dan terminal bus — titik kedatangan paling mudah sekaligus basis cepat untuk wisata sehari.",
+          "near": "KTX langsung ke Seoul dan Busan; mal dan tempat makan tepat di sebelahnya."
+        }
+      ]
+    },
+    "gwangju": {
+      "name": "Gwangju",
+      "flag": "🎨",
+      "metaTitle": "Tempat Menginap di Gwangju: Area Terbaik (2026)",
+      "intro": "Gwangju adalah pusat seni dan kuliner di wilayah barat daya. Menginaplah di pusat kota dekat Asia Culture Center untuk budaya dan kehidupan malam, atau di kawasan Sangmu untuk hotel-hotel baru dan akses transit yang mudah.",
+      "areas": [
+        {
+          "name": "Pusat kota (Chungjang-ro)",
+          "best": "Budaya & kuliner",
+          "tone": "amber",
+          "vibe": "Jalan belanja sentral lama di dekat Asia Culture Center — kafe, galeri, dan jajanan kaki lima, meriah setelah malam tiba.",
+          "near": "Berjalan kaki ke ACC dan pasar-pasar; tersedia guesthouse dan hotel bisnis."
+        },
+        {
+          "name": "Kawasan Sangmu",
+          "best": "Hotel baru & transit",
+          "tone": "blue",
+          "vibe": "Kawasan terencana yang modern dengan hotel-hotel baru, restoran, dan jalur kereta bawah tanah menuju pusat kota.",
+          "near": "Praktis bagi pelancong bisnis; hanya perjalanan singkat ke pusat kota."
+        }
+      ]
+    },
+    "andong": {
+      "name": "Andong",
+      "flag": "🎭",
+      "metaTitle": "Tempat Menginap di Andong: Area Terbaik (2026)",
+      "intro": "Andong adalah jantung warisan Konfusianisme Korea. Menginaplah di hanok tradisional di Hahoe Village untuk pengalaman yang utuh, atau dekat Andong Station dan pusat kota untuk restoran serta bus yang mudah menuju berbagai objek wisata.",
+      "areas": [
+        {
+          "name": "Hahoe Village",
+          "best": "Menginap di hanok",
+          "tone": "amber",
+          "vibe": "Bermalam di rumah beratap genteng atau jerami berusia berabad-abad di dalam desa rakyat UNESCO — tenang, penuh suasana, dan sangat autentik.",
+          "near": "Pesan homestay hanok; museum topeng dan sungai tepat di depan pintu."
+        },
+        {
+          "name": "Pusat kota & Andong Station",
+          "best": "Kuliner & transit",
+          "tone": "blue",
+          "vibe": "Pusat kota yang ringkas dengan pasar lama, restoran jjimdak khas Andong, dan bus keluar menuju Hahoe serta seowon.",
+          "near": "Terbaik untuk kuliner dan transportasi; tersedia hotel dan motel biasa."
+        }
+      ]
     }
   },
   "types": [

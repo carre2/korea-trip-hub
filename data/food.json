@@ -225,6 +225,60 @@
       "tag": "Dessert",
       "mapq": "Bingsu cafe",
       "d": "A mountain of fine shaved ice topped with sweet red beans (patbingsu), fruit, condensed milk or matcha — the go-to summer dessert to share."
+    },
+    {
+      "n": "Mandu (dumplings)",
+      "icon": "🥟",
+      "grad": "linear-gradient(135deg,#e0a458,#f2c879)",
+      "tag": "Classic",
+      "d": "Korean dumplings stuffed with pork, tofu and vegetables — steamed, pan-fried, or dropped into soup as mandu-guk.",
+      "key": "mandu",
+      "mapq": "만두 맛집"
+    },
+    {
+      "n": "Jokbal (braised pig's trotters)",
+      "icon": "🐷",
+      "grad": "linear-gradient(135deg,#a1674a,#c98a5e)",
+      "tag": "Pork",
+      "d": "Pig's trotters slow-braised in soy and spices until tender, sliced and eaten with salted-shrimp sauce and lettuce wraps.",
+      "key": "jokbal",
+      "mapq": "족발 보쌈"
+    },
+    {
+      "n": "Yukhoe (beef tartare)",
+      "icon": "🥩",
+      "grad": "linear-gradient(135deg,#b5303f,#e05a54)",
+      "tag": "Delicacy",
+      "d": "Silky hand-cut raw beef seasoned with sesame oil and pear, often topped with an egg yolk — Korea's take on tartare.",
+      "key": "yukhoe",
+      "mapq": "육회 맛집"
+    },
+    {
+      "n": "Seolleongtang (ox-bone soup)",
+      "icon": "🍲",
+      "grad": "linear-gradient(135deg,#8a8f98,#c2c7cf)",
+      "tag": "Comfort",
+      "d": "A milky ox-bone broth simmered for hours, served with rice and noodles — you season it yourself with salt and spring onion.",
+      "key": "seolleongtang",
+      "mapq": "설렁탕"
+    },
+    {
+      "n": "Kongguksu (soybean noodle soup)",
+      "icon": "🥣",
+      "grad": "linear-gradient(135deg,#cbb26a,#e6d9a8)",
+      "tag": "Summer",
+      "d": "Chilled noodles in a cool, nutty soybean broth — a refreshing summer dish, usually eaten with a pinch of salt.",
+      "key": "kongguksu",
+      "mapq": "콩국수"
+    },
+    {
+      "n": "Gopchang (grilled intestines)",
+      "icon": "🔥",
+      "grad": "linear-gradient(135deg,#c0392b,#e67e22)",
+      "tag": "Grill",
+      "d": "Beef or pork intestines grilled at the table until crisp and smoky — a rich, much-loved dish to share over drinks.",
+      "key": "gopchang",
+      "mapq": "곱창 맛집"
     }
   ],
   "make": [
