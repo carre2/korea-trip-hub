@@ -1,5 +1,12 @@
 # Cloudflare Pages redirects. This file is copied to the deploy root (out/_redirects).
 # Root → default locale (edge redirect, no JS needed).
+#
+# Kept as 302 (not 301) on purpose: "/" is a language-neutral entry point for a
+# 10-language site. A permanent 301 is cached hard by browsers and would block ever
+# adding Accept-Language / geo routing at the root without fighting stale caches.
+# SEO cost is nil — /en/ is the declared hreflang x-default and every locale home
+# cross-links via hreflang, so crawlers resolve the canonical set correctly. Reviewed
+# 2026-08-26; revisit only if the English default is made permanent.
 /            /en/    302
 
 # (Later) if ktrip.kr is added as a second custom domain pointing here,

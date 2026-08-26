@@ -1,59 +1,106 @@
 {
   "_note": "Legal/trust content SSOT (English base). Per-locale translations live in data/legal.<locale>.json. Content MUST reflect the site's ACTUAL practices — no invented claims, entities, or figures. Data controller & contact: Korea Trip Hub / contact@ktriphub.com.",
-  "updated": "2026-08-18",
-  "order": ["about", "editorial", "privacy", "terms", "affiliate", "contact"],
+  "updated": "2026-08-26",
+  "order": [
+    "about",
+    "operator",
+    "contact",
+    "privacy",
+    "terms",
+    "editorial",
+    "corrections",
+    "affiliate"
+  ],
   "pages": {
     "about": {
       "title": "About Korea Trip Hub",
-      "desc": "What Korea Trip Hub is, how it works, and who runs it — an independent, multilingual travel guide for people visiting Korea.",
+      "desc": "What Korea Trip Hub is, the tools it gives you, how it uses AI with human review, and who runs it — an independent, multilingual guide for visiting Korea.",
       "intro": "Korea Trip Hub helps international visitors plan a trip to Korea in their own language.",
       "sections": [
         {
           "h": "What you'll find",
-          "body": ["A trip planner that drafts a rule-based, day-by-day outline from curated lists of real places, plus city and food guides, a K-pop guide, and verified essentials: visa and K-ETA, airport-to-city transport, SIM and eSIM, money, weather, and emergency help."]
+          "body": [
+            "A trip planner that drafts a rule-based, day-by-day outline from curated lists of real places, plus city and food guides, a K-pop guide, and verified essentials: visa and K-ETA, airport-to-city transport, SIM and eSIM, money, weather, and emergency help."
+          ]
+        },
+        {
+          "h": "Tools that do the work",
+          "body": [
+            "A day-by-day trip planner builds a rule-based outline from curated lists of real places, interactive maps show where each spot sits, and side-by-side comparison tables — where to stay by area, transport options, SIM vs eSIM — help you decide at a glance. Everything is free and needs no sign-up."
+          ]
         },
         {
           "h": "How it works",
-          "body": ["The site is free and needs no sign-up. Key facts — visa rules, fares, emergency numbers — come from official government and operator sources, and each shows a verification date and a link back to the source. Hotel and tour links are affiliate links (see our Affiliate Disclosure)."]
+          "body": [
+            "Key facts — visa rules, fares, emergency numbers — come from official government and operator sources, and each shows a verification date and a link back to the source. Hotel and tour links are affiliate links (see our Advertising & Affiliate Disclosure)."
+          ]
         },
         {
           "h": "Languages",
-          "body": ["Korea Trip Hub is currently available in 10 languages. We work to keep the facts identical across every language."]
+          "body": [
+            "Korea Trip Hub is currently available in 10 languages. We work to keep the facts identical across every language, and automated checks flag anything missing or inconsistent."
+          ]
+        },
+        {
+          "h": "AI with human review",
+          "body": [
+            "We use AI tools to help draft and translate content faster, but AI never has the final say: a human operator reviews the facts, checks every official link, and is accountable for what you read. See our Editorial & Sourcing Policy for details."
+          ]
         },
         {
           "h": "Who runs it",
-          "body": ["Korea Trip Hub is an independent project, operated under the name Korea Trip Hub. It complements — and does not replace — official sources, so always confirm the current rules before you travel. Questions or corrections: contact@ktriphub.com."]
+          "body": [
+            "Korea Trip Hub is an independent project run by a single operator, who also runs a few other independent sites — we disclose that openly rather than hide it (see About the Operator). It complements, and does not replace, official sources, so always confirm the current rules before you travel. Questions or corrections: contact@ktriphub.com."
+          ]
         }
       ]
     },
     "editorial": {
       "title": "Editorial & Sourcing Policy",
-      "desc": "How Korea Trip Hub researches, verifies, and corrects its travel information, and how it keeps facts consistent across languages.",
+      "desc": "How Korea Trip Hub researches, verifies, and corrects its travel information, how AI and human review fit together, and how it keeps facts consistent across languages.",
       "intro": "Our goal is accurate, current, and clearly-sourced travel information for visitors to Korea.",
       "sections": [
         {
           "h": "Where our facts come from",
-          "body": ["Essentials such as visa and K-ETA rules, airport transport, and emergency numbers are built from official government and operator sources, and we link to those sources on the page."]
+          "body": [
+            "Essentials such as visa and K-ETA rules, airport transport, and emergency numbers are built from official government and operator sources, and we link to those sources on the page."
+          ]
+        },
+        {
+          "h": "How we use AI",
+          "body": [
+            "We use AI tools to help draft and translate content. AI is an assistant, not the author of record: a human operator reviews the facts, verifies every official link, and is accountable for what is published. Automated checks additionally guard against numbers, links, or contacts drifting between languages."
+          ]
         },
         {
           "h": "Verified-only facts",
-          "body": ["Key numbers and rules are stored in a central facts database. Only entries marked as verified are shown to readers, each with the date it was checked and a link to confirm it. Time-sensitive items are re-checked on a schedule."]
+          "body": [
+            "Key numbers and rules are stored in a central facts database. Only entries marked as verified are shown to readers, each with the date it was checked and a link to confirm it. Time-sensitive items are re-checked on a schedule."
+          ]
         },
         {
           "h": "No invented numbers",
-          "body": ["We do not publish estimated prices, durations, or figures without a source. Where a value cannot be verified, we leave it out rather than guess."]
+          "body": [
+            "We do not publish estimated prices, durations, or figures without a source. Where a value cannot be verified, we leave it out rather than guess."
+          ]
         },
         {
           "h": "Corrections",
-          "body": ["If something is outdated or wrong, email contact@ktriphub.com and we will review it. We update the verification date when a fact is re-checked."]
+          "body": [
+            "If something is outdated or wrong, email contact@ktriphub.com and we will review it. We update the verification date when a fact is re-checked."
+          ]
         },
         {
           "h": "Translations",
-          "body": ["Content is offered in multiple languages. Automated checks flag missing translations and guard against numbers, links, or contacts changing between languages."]
+          "body": [
+            "Content is offered in multiple languages. Automated checks flag missing translations and guard against numbers, links, or contacts changing between languages."
+          ]
         },
         {
           "h": "Independence",
-          "body": ["Editorial choices — which places and tips we feature — are made independently of our affiliate partners."]
+          "body": [
+            "Editorial choices — which places and tips we feature — are made independently of our affiliate partners."
+          ]
         }
       ]
     },
@@ -64,44 +111,69 @@
       "sections": [
         {
           "h": "Who we are",
-          "body": ["Korea Trip Hub (\"we\") operates this website and is the data controller for the processing described here. Contact: contact@ktriphub.com."]
+          "body": [
+            "Korea Trip Hub (\"we\") operates this website and is the data controller for the processing described here. Contact: contact@ktriphub.com."
+          ]
         },
         {
           "h": "What we collect",
-          "body": ["Analytics (with your consent): if you accept, Google Analytics 4 collects pseudonymous usage data — pages viewed, device and browser type, approximate location derived from your IP address, and the page that referred you — to help us understand how the site is used. Analytics are denied by default until you accept.", "Hosting logs: our host, Cloudflare, processes technical data such as IP address and user-agent to deliver and secure the site.", "Feedback (optional): if you submit a tip through our feedback form (Google Forms), we receive what you choose to enter. We do not run accounts, logins, or newsletters, and we do not sell personal data."]
+          "body": [
+            "Analytics (with your consent): if you accept, Google Analytics 4 collects pseudonymous usage data — pages viewed, device and browser type, approximate location derived from your IP address, and the page that referred you — to help us understand how the site is used. Analytics are denied by default until you accept.",
+            "Hosting logs: our host, Cloudflare, processes technical data such as IP address and user-agent to deliver and secure the site.",
+            "Feedback (optional): if you submit a tip through our feedback form (Google Forms), we receive what you choose to enter. We do not run accounts, logins, or newsletters, and we do not sell personal data."
+          ]
         },
         {
           "h": "Cookies",
-          "body": ["A first-party cookie stores your consent choice so we don't ask on every page. Google Analytics cookies are only set after you accept. You can change your choice at any time from the cookie banner or by clearing cookies in your browser."],
-          "list": ["Consent choice — first-party — stores accept/reject — up to 12 months.", "Google Analytics (_ga, _ga_*) — set only after consent — measures usage — up to about 13 months."]
+          "body": [
+            "A first-party cookie stores your consent choice so we don't ask on every page. Google Analytics cookies are only set after you accept. You can change your choice at any time from the cookie banner or by clearing cookies in your browser."
+          ],
+          "list": [
+            "Consent choice — first-party — stores accept/reject — up to 12 months.",
+            "Google Analytics (_ga, _ga_*) — set only after consent — measures usage — up to about 13 months."
+          ]
         },
         {
           "h": "Legal bases",
-          "body": ["We rely on your consent for analytics cookies, and on our legitimate interest in delivering and securing the site for basic hosting logs."]
+          "body": [
+            "We rely on your consent for analytics cookies, and on our legitimate interest in delivering and securing the site for basic hosting logs."
+          ]
         },
         {
           "h": "Third parties and international transfers",
-          "body": ["We use Google (Analytics and, for the optional form, Google Forms) and Cloudflare (hosting and content delivery). When you click a partner link, Agoda or Klook process your visit under their own policies. These providers may process data outside your country, subject to their safeguards and privacy policies."]
+          "body": [
+            "We use Google (Analytics and, for the optional form, Google Forms) and Cloudflare (hosting and content delivery). When you click a partner link, Agoda or Klook process your visit under their own policies. These providers may process data outside your country, subject to their safeguards and privacy policies."
+          ]
         },
         {
           "h": "Advertising",
-          "body": ["We do not currently display third-party advertising. If we introduce ads (for example, Google AdSense) in the future, we will update this policy and any advertising cookies will run under your consent."]
+          "body": [
+            "We do not currently display third-party advertising. If we introduce ads (for example, Google AdSense) in the future, we will update this policy and any advertising cookies will run under your consent."
+          ]
         },
         {
           "h": "Retention",
-          "body": ["Analytics data is retained according to Google's retention settings (up to 14 months). Your consent choice is stored for up to 12 months, after which we ask again."]
+          "body": [
+            "Analytics data is retained according to Google's retention settings (up to 14 months). Your consent choice is stored for up to 12 months, after which we ask again."
+          ]
         },
         {
           "h": "Your rights",
-          "body": ["Depending on where you live, you may have the right to access, correct, delete, or object to the processing of your data, and to withdraw consent at any time. To exercise these rights, email contact@ktriphub.com. You may also use your browser or device controls to block or delete cookies."]
+          "body": [
+            "Depending on where you live, you may have the right to access, correct, delete, or object to the processing of your data, and to withdraw consent at any time. To exercise these rights, email contact@ktriphub.com. You may also use your browser or device controls to block or delete cookies."
+          ]
         },
         {
           "h": "Children",
-          "body": ["The site is not directed at children under 16, and we do not knowingly collect their personal data."]
+          "body": [
+            "The site is not directed at children under 16, and we do not knowingly collect their personal data."
+          ]
         },
         {
           "h": "Changes and contact",
-          "body": ["We may update this policy; the date at the top shows the latest version. Questions: contact@ktriphub.com."]
+          "body": [
+            "We may update this policy; the date at the top shows the latest version. Questions: contact@ktriphub.com."
+          ]
         }
       ]
     },
@@ -112,62 +184,94 @@
       "sections": [
         {
           "h": "Informational only",
-          "body": ["Korea Trip Hub provides general travel information. Rules and figures — visa requirements, transport times and fares, prices, opening details — change and can vary by nationality and date. We show sources and verification dates, but we cannot guarantee that everything is accurate, complete, or current. Always confirm with the official source before you travel or book."]
+          "body": [
+            "Korea Trip Hub provides general travel information. Rules and figures — visa requirements, transport times and fares, prices, opening details — change and can vary by nationality and date. We show sources and verification dates, but we cannot guarantee that everything is accurate, complete, or current. Always confirm with the official source before you travel or book."
+          ]
         },
         {
           "h": "Not professional advice",
-          "body": ["Nothing here is legal, immigration, financial, or medical advice. For decisions that depend on your situation, consult the relevant official authority or a qualified professional."]
+          "body": [
+            "Nothing here is legal, immigration, financial, or medical advice. For decisions that depend on your situation, consult the relevant official authority or a qualified professional."
+          ]
         },
         {
           "h": "The trip planner",
-          "body": ["The planner produces a rule-based, day-by-day draft from curated lists of real places. It is a starting suggestion — not a booking, and not a guarantee of routes, opening times, or availability."]
+          "body": [
+            "The planner produces a rule-based, day-by-day draft from curated lists of real places. It is a starting suggestion — not a booking, and not a guarantee of routes, opening times, or availability."
+          ]
         },
         {
           "h": "External links and bookings",
-          "body": ["We link to third-party sites, including official pages and booking partners such as Agoda and Klook. We don't control those sites and aren't responsible for their content, prices, or services. Any booking is a contract between you and that provider."]
+          "body": [
+            "We link to third-party sites, including official pages and booking partners such as Agoda and Klook. We don't control those sites and aren't responsible for their content, prices, or services. Any booking is a contract between you and that provider."
+          ]
         },
         {
           "h": "Affiliate links",
-          "body": ["Some links are affiliate links. See our Affiliate Disclosure for details."]
+          "body": [
+            "Some links are affiliate links. See our Affiliate Disclosure for details."
+          ]
         },
         {
           "h": "Intellectual property",
-          "body": ["Site text and design are ours or used under license. Photographs are credited to their authors under their respective licenses, as shown on the pages. Please don't reuse content without permission or proper attribution."]
+          "body": [
+            "Site text and design are ours or used under license. Photographs are credited to their authors under their respective licenses, as shown on the pages. Please don't reuse content without permission or proper attribution."
+          ]
         },
         {
           "h": "No warranty and limitation of liability",
-          "body": ["The site is provided \"as is,\" without warranties of any kind. To the maximum extent permitted by law, we are not liable for any loss arising from your use of the site or your reliance on its information."]
+          "body": [
+            "The site is provided \"as is,\" without warranties of any kind. To the maximum extent permitted by law, we are not liable for any loss arising from your use of the site or your reliance on its information."
+          ]
         },
         {
           "h": "Changes and contact",
-          "body": ["We may update these terms; the date at the top shows the latest version. Questions: contact@ktriphub.com."]
+          "body": [
+            "We may update these terms; the date at the top shows the latest version. Questions: contact@ktriphub.com."
+          ]
         }
       ]
     },
     "affiliate": {
-      "title": "Affiliate Disclosure",
-      "desc": "How Korea Trip Hub uses affiliate links (Agoda, Klook) — you never pay more, and recommendations stay independent.",
+      "title": "Advertising & Affiliate Disclosure",
+      "desc": "How Korea Trip Hub uses affiliate links (Agoda, Klook) and how any future advertising is handled — you never pay more, and recommendations stay independent.",
       "intro": "Korea Trip Hub is free to use, and affiliate links help keep it that way.",
       "sections": [
         {
+          "h": "Advertising",
+          "body": [
+            "Korea Trip Hub does not currently show third-party display ads. If we add advertising in the future (for example, Google AdSense), ads will be clearly distinguishable from our editorial content and from official source links, and any advertising cookies will run under your consent — see our Privacy & Cookie Policy."
+          ]
+        },
+        {
           "h": "How it works",
-          "body": ["We take part in affiliate programs — currently Agoda (hotels) and Klook (tours and tickets). When you click certain \"Find hotels\" or \"Tours & tickets\" links and then book, we may earn a small commission."]
+          "body": [
+            "We take part in affiliate programs — currently Agoda (hotels) and Klook (tours and tickets). When you click certain \"Find hotels\" or \"Tours & tickets\" links and then book, we may earn a small commission."
+          ]
         },
         {
           "h": "You never pay more",
-          "body": ["Commissions are paid by the partner, not by you. Your price is the same whether or not you use our link."]
+          "body": [
+            "Commissions are paid by the partner, not by you. Your price is the same whether or not you use our link."
+          ]
         },
         {
           "h": "Recommendations stay independent",
-          "body": ["We are not paid to feature specific places. Which destinations, restaurants, and tips we highlight is an editorial decision, made independently of affiliate partners. Affiliate links are marked as sponsored and rel=\"nofollow\"."]
+          "body": [
+            "We are not paid to feature specific places. Which destinations, restaurants, and tips we highlight is an editorial decision, made independently of affiliate partners. Affiliate links are marked as sponsored and rel=\"nofollow\"."
+          ]
         },
         {
           "h": "Prices and availability",
-          "body": ["Prices, availability, and booking terms are set by the partner and shown on their site — not by us. Confirm the details there before you book."]
+          "body": [
+            "Prices, availability, and booking terms are set by the partner and shown on their site — not by us. Confirm the details there before you book."
+          ]
         },
         {
           "h": "Questions",
-          "body": ["Anything unclear? Email contact@ktriphub.com."]
+          "body": [
+            "Anything unclear? Email contact@ktriphub.com."
+          ]
         }
       ]
     },
@@ -178,19 +282,107 @@
       "sections": [
         {
           "h": "Email",
-          "body": ["The best way to reach us is by email: contact@ktriphub.com."]
+          "body": [
+            "The best way to reach us is by email: contact@ktriphub.com."
+          ]
         },
         {
           "h": "What to write about",
-          "body": ["Corrections or updates to travel information, privacy requests (such as access or deletion), partnership and affiliate questions, or general feedback and ideas."]
+          "body": [
+            "Corrections or updates to travel information, privacy requests (such as access or deletion), partnership and affiliate questions, or general feedback and ideas."
+          ]
         },
         {
           "h": "Response time",
-          "body": ["We read every message and reply as soon as we can. This is a small, independent project, so please allow a little time."]
+          "body": [
+            "We read every message and reply as soon as we can. This is a small, independent project, so please allow a little time."
+          ]
         },
         {
           "h": "Quick tips",
-          "body": ["Visited somewhere and have a tip for other travelers? You can also share it through the feedback form linked on our guide pages."]
+          "body": [
+            "Visited somewhere and have a tip for other travelers? You can also share it through the feedback form linked on our guide pages."
+          ]
+        }
+      ]
+    },
+    "operator": {
+      "title": "About the Operator",
+      "desc": "Who runs Korea Trip Hub, how AI and human review are used, and the other independent sites run by the same operator.",
+      "intro": "Korea Trip Hub is a small, independent project run by one operator — not a company, government body, or tourism board.",
+      "sections": [
+        {
+          "h": "Who runs it",
+          "body": [
+            "Korea Trip Hub is built and maintained by a single independent operator based in South Korea. It is a self-funded personal project, and is not affiliated with any government body, tourism organization, or travel agency."
+          ]
+        },
+        {
+          "h": "Why it exists",
+          "body": [
+            "The goal is simple: help international visitors plan a Korea trip in their own language, with the essentials verified against official sources instead of scattered across dozens of pages."
+          ]
+        },
+        {
+          "h": "How we use AI",
+          "body": [
+            "We use AI tools to help draft and translate content faster. AI is an assistant, not the author of record: a human operator reviews the facts, checks every official link, and is responsible for what you read. Key numbers and rules are kept in a verified-only database (see our Editorial & Sourcing Policy), and anything that cannot be confirmed is left out rather than guessed."
+          ]
+        },
+        {
+          "h": "Human review and accountability",
+          "body": [
+            "Every essentials fact carries a verification date and a source link, and a person — not an algorithm — decides what is published. When we get something wrong, we want to fix it quickly (see Corrections & Errors)."
+          ]
+        },
+        {
+          "h": "Other sites we run",
+          "body": [
+            "In the interest of transparency: the same operator runs a small number of other independent information sites, including a Japanese-language companion travel blog (韓国旅行ハブ) and a K-pop guide (kpophub.kr). These are separate projects that each stand on their own content — we disclose the relationship rather than hide it."
+          ]
+        },
+        {
+          "h": "Contact",
+          "body": [
+            "Questions, corrections, or partnership enquiries are welcome at contact@ktriphub.com."
+          ]
+        }
+      ]
+    },
+    "corrections": {
+      "title": "Corrections & Errors",
+      "desc": "How to report a mistake on Korea Trip Hub and how we review, fix, and date-stamp corrections.",
+      "intro": "Travel information changes, and mistakes happen. If you spot something wrong or out of date, please tell us.",
+      "sections": [
+        {
+          "h": "How to report an error",
+          "body": [
+            "Email contact@ktriphub.com with the page, the detail that looks wrong, and — if you have it — a link to the correct official source. You can also use the feedback form linked on our guide pages."
+          ]
+        },
+        {
+          "h": "What happens next",
+          "body": [
+            "A human reviews every report. If we confirm an error, we fix it and update the page's review date. Time-sensitive facts — visa rules, fares, emergency numbers — are also re-checked on a schedule, not only when someone writes in."
+          ]
+        },
+        {
+          "h": "How we handle facts",
+          "body": [
+            "Key numbers and rules come from official government and operator sources, are stored in a verified-only database, and show the date they were last checked with a link back to the source. If a value cannot be verified, we remove it rather than guess."
+          ]
+        },
+        {
+          "h": "Significant corrections",
+          "body": [
+            "For a correction that materially changes advice, we update the visible review date so you can see the page was revised."
+          ]
+        },
+        {
+          "h": "The official source still wins",
+          "body": [
+            "We complement official sources; we do not replace them. Always confirm the current rules with the official authority before you travel or book."
+          ]
         }
       ]
     }

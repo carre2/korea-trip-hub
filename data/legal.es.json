@@ -1,58 +1,105 @@
 {
-  "updated": "2026-08-18",
-  "order": ["about", "editorial", "privacy", "terms", "affiliate", "contact"],
+  "updated": "2026-08-26",
+  "order": [
+    "about",
+    "operator",
+    "contact",
+    "privacy",
+    "terms",
+    "editorial",
+    "corrections",
+    "affiliate"
+  ],
   "pages": {
     "about": {
       "title": "Acerca de Korea Trip Hub",
-      "desc": "Qué es Korea Trip Hub, cómo funciona y quién lo gestiona: una guía de viajes independiente y multilingüe para quienes visitan Corea.",
-      "intro": "Korea Trip Hub ayuda a los viajeros internacionales a planificar su viaje a Corea en su propio idioma.",
+      "desc": "Qué es Korea Trip Hub, las herramientas que te ofrece, cómo utiliza la IA con revisión humana y quién lo gestiona: una guía independiente y multilingüe para viajar a Corea.",
+      "intro": "Korea Trip Hub ayuda a los viajeros internacionales a planificar un viaje a Corea en su propio idioma.",
       "sections": [
         {
-          "h": "Qué vas a encontrar",
-          "body": ["Un planificador de viajes que elabora un itinerario día a día basado en reglas, a partir de listas seleccionadas de lugares reales, además de guías de ciudades y gastronomía, una guía de K-pop y datos esenciales verificados: visado y K-ETA, transporte del aeropuerto a la ciudad, SIM y eSIM, dinero, clima y ayuda de emergencia."]
+          "h": "Qué encontrarás",
+          "body": [
+            "Un planificador de viajes que elabora un itinerario día a día, basado en reglas y a partir de listas seleccionadas de lugares reales, además de guías de ciudades y gastronomía, una guía de K-pop y datos esenciales verificados: visado y K-ETA, transporte del aeropuerto a la ciudad, SIM y eSIM, dinero, clima y ayuda de emergencia."
+          ]
+        },
+        {
+          "h": "Herramientas que hacen el trabajo",
+          "body": [
+            "Un planificador de viajes día a día crea un itinerario basado en reglas a partir de listas seleccionadas de lugares reales, mapas interactivos muestran dónde se encuentra cada sitio y tablas comparativas lado a lado — dónde alojarse según la zona, opciones de transporte, SIM frente a eSIM — te ayudan a decidir de un vistazo. Todo es gratuito y no requiere registro."
+          ]
         },
         {
           "h": "Cómo funciona",
-          "body": ["El sitio es gratuito y no requiere registro. Los datos clave — normas de visado, tarifas, números de emergencia — proceden de fuentes oficiales del gobierno y de los operadores, y cada uno muestra una fecha de verificación y un enlace a la fuente original. Los enlaces a hoteles y tours son enlaces de afiliados (consulta nuestra Divulgación de afiliados)."]
+          "body": [
+            "Los datos clave — normas de visado, tarifas, números de emergencia — provienen de fuentes oficiales gubernamentales y de operadores, y cada uno muestra una fecha de verificación y un enlace a la fuente. Los enlaces a hoteles y tours son enlaces de afiliados (consulta nuestra Divulgación sobre Publicidad y Afiliados)."
+          ]
         },
         {
           "h": "Idiomas",
-          "body": ["Korea Trip Hub está disponible actualmente en 10 idiomas. Trabajamos para mantener los datos idénticos en todos los idiomas."]
+          "body": [
+            "Korea Trip Hub está disponible actualmente en 10 idiomas. Trabajamos para mantener los datos idénticos en todos los idiomas, y comprobaciones automáticas detectan cualquier elemento que falte o resulte incoherente."
+          ]
+        },
+        {
+          "h": "IA con revisión humana",
+          "body": [
+            "Utilizamos herramientas de IA para ayudar a redactar y traducir contenido más rápido, pero la IA nunca tiene la última palabra: un operador humano revisa los datos, comprueba cada enlace oficial y es responsable de lo que lees. Consulta nuestra Política Editorial y de Fuentes para más detalles."
+          ]
         },
         {
           "h": "Quién lo gestiona",
-          "body": ["Korea Trip Hub es un proyecto independiente, operado bajo el nombre de Korea Trip Hub. Complementa — y no reemplaza — las fuentes oficiales, así que confirma siempre las normas vigentes antes de viajar. Preguntas o correcciones: contact@ktriphub.com."]
+          "body": [
+            "Korea Trip Hub es un proyecto independiente gestionado por un único operador, que también gestiona algunos otros sitios independientes: lo divulgamos abiertamente en lugar de ocultarlo (consulta Acerca del Operador). Complementa, y no sustituye, las fuentes oficiales, así que confirma siempre las normas vigentes antes de viajar. Preguntas o correcciones: contact@ktriphub.com."
+          ]
         }
       ]
     },
     "editorial": {
-      "title": "Política editorial y de fuentes",
-      "desc": "Cómo Korea Trip Hub investiga, verifica y corrige su información de viajes, y cómo mantiene la coherencia de los datos entre idiomas.",
+      "title": "Política Editorial y de Fuentes",
+      "desc": "Cómo Korea Trip Hub investiga, verifica y corrige su información de viajes, cómo encajan la IA y la revisión humana, y cómo mantiene los datos coherentes entre idiomas.",
       "intro": "Nuestro objetivo es ofrecer información de viajes precisa, actualizada y con fuentes claras para quienes visitan Corea.",
       "sections": [
         {
-          "h": "De dónde proceden nuestros datos",
-          "body": ["Los datos esenciales, como las normas de visado y K-ETA, el transporte desde el aeropuerto y los números de emergencia, se elaboran a partir de fuentes oficiales del gobierno y de los operadores, y enlazamos a esas fuentes en la página."]
+          "h": "De dónde provienen nuestros datos",
+          "body": [
+            "Los datos esenciales, como las normas de visado y K-ETA, el transporte del aeropuerto y los números de emergencia, se elaboran a partir de fuentes oficiales gubernamentales y de operadores, y enlazamos a esas fuentes en la propia página."
+          ]
+        },
+        {
+          "h": "Cómo utilizamos la IA",
+          "body": [
+            "Utilizamos herramientas de IA para ayudar a redactar y traducir contenido. La IA es un asistente, no la autora responsable: un operador humano revisa los datos, verifica cada enlace oficial y es responsable de lo que se publica. Además, comprobaciones automáticas evitan que las cifras, los enlaces o los contactos se desvíen entre idiomas."
+          ]
         },
         {
           "h": "Solo datos verificados",
-          "body": ["Los números y las normas clave se almacenan en una base de datos central de hechos. Solo se muestran a los lectores las entradas marcadas como verificadas, cada una con la fecha en que se comprobó y un enlace para confirmarla. Los elementos que dependen del tiempo se vuelven a comprobar de forma periódica."]
+          "body": [
+            "Las cifras y normas clave se almacenan en una base de datos central de datos. Solo se muestran a los lectores las entradas marcadas como verificadas, cada una con la fecha en que se comprobó y un enlace para confirmarla. Los elementos sensibles al tiempo se vuelven a comprobar según un calendario."
+          ]
         },
         {
           "h": "Sin cifras inventadas",
-          "body": ["No publicamos precios, duraciones ni cifras estimadas sin una fuente. Cuando un valor no puede verificarse, preferimos omitirlo antes que suponerlo."]
+          "body": [
+            "No publicamos precios, duraciones ni cifras estimadas sin una fuente. Cuando un valor no puede verificarse, lo omitimos en lugar de suponerlo."
+          ]
         },
         {
           "h": "Correcciones",
-          "body": ["Si algo está desactualizado o es incorrecto, escribe a contact@ktriphub.com y lo revisaremos. Actualizamos la fecha de verificación cuando un dato se vuelve a comprobar."]
+          "body": [
+            "Si algo está desactualizado o es incorrecto, escribe a contact@ktriphub.com y lo revisaremos. Actualizamos la fecha de verificación cuando un dato se vuelve a comprobar."
+          ]
         },
         {
           "h": "Traducciones",
-          "body": ["El contenido se ofrece en varios idiomas. Comprobaciones automáticas detectan las traducciones faltantes y evitan que los números, los enlaces o los contactos cambien de un idioma a otro."]
+          "body": [
+            "El contenido se ofrece en varios idiomas. Comprobaciones automáticas detectan las traducciones que faltan y evitan que las cifras, los enlaces o los contactos cambien entre idiomas."
+          ]
         },
         {
           "h": "Independencia",
-          "body": ["Las decisiones editoriales — qué lugares y consejos destacamos — se toman de forma independiente de nuestros socios afiliados."]
+          "body": [
+            "Las decisiones editoriales — qué lugares y consejos destacamos — se toman con independencia de nuestros socios afiliados."
+          ]
         }
       ]
     },
@@ -63,44 +110,69 @@
       "sections": [
         {
           "h": "Quiénes somos",
-          "body": ["Korea Trip Hub (\"nosotros\") gestiona este sitio web y es el responsable del tratamiento de los datos descritos aquí. Contacto: contact@ktriphub.com."]
+          "body": [
+            "Korea Trip Hub (\"nosotros\") gestiona este sitio web y es el responsable del tratamiento de los datos descritos aquí. Contacto: contact@ktriphub.com."
+          ]
         },
         {
           "h": "Qué recopilamos",
-          "body": ["Analítica (con tu consentimiento): si aceptas, Google Analytics 4 recopila datos de uso seudonimizados — páginas vistas, tipo de dispositivo y navegador, ubicación aproximada derivada de tu dirección IP y la página que te remitió — para ayudarnos a entender cómo se usa el sitio. La analítica está denegada de forma predeterminada hasta que aceptes.", "Registros de alojamiento: nuestro proveedor de alojamiento, Cloudflare, trata datos técnicos como la dirección IP y el agente de usuario para ofrecer y proteger el sitio.", "Comentarios (opcional): si envías una sugerencia a través de nuestro formulario de comentarios (Google Forms), recibimos lo que decidas escribir. No gestionamos cuentas, inicios de sesión ni boletines, y no vendemos datos personales."]
+          "body": [
+            "Analítica (con tu consentimiento): si aceptas, Google Analytics 4 recopila datos de uso seudonimizados — páginas vistas, tipo de dispositivo y navegador, ubicación aproximada derivada de tu dirección IP y la página que te remitió — para ayudarnos a entender cómo se usa el sitio. La analítica está denegada de forma predeterminada hasta que aceptes.",
+            "Registros de alojamiento: nuestro proveedor de alojamiento, Cloudflare, trata datos técnicos como la dirección IP y el agente de usuario para ofrecer y proteger el sitio.",
+            "Comentarios (opcional): si envías una sugerencia a través de nuestro formulario de comentarios (Google Forms), recibimos lo que decidas escribir. No gestionamos cuentas, inicios de sesión ni boletines, y no vendemos datos personales."
+          ]
         },
         {
           "h": "Cookies",
-          "body": ["Una cookie propia guarda tu elección de consentimiento para no preguntarte en cada página. Las cookies de Google Analytics solo se instalan después de que aceptes. Puedes cambiar tu elección en cualquier momento desde el aviso de cookies o borrando las cookies en tu navegador."],
-          "list": ["Elección de consentimiento — propia — guarda aceptar/rechazar — hasta 12 meses.", "Google Analytics (_ga, _ga_*) — se instala solo tras el consentimiento — mide el uso — hasta unos 13 meses."]
+          "body": [
+            "Una cookie propia guarda tu elección de consentimiento para no preguntarte en cada página. Las cookies de Google Analytics solo se instalan después de que aceptes. Puedes cambiar tu elección en cualquier momento desde el aviso de cookies o borrando las cookies en tu navegador."
+          ],
+          "list": [
+            "Elección de consentimiento — propia — guarda aceptar/rechazar — hasta 12 meses.",
+            "Google Analytics (_ga, _ga_*) — se instala solo tras el consentimiento — mide el uso — hasta unos 13 meses."
+          ]
         },
         {
           "h": "Bases legales",
-          "body": ["Nos basamos en tu consentimiento para las cookies de analítica, y en nuestro interés legítimo de ofrecer y proteger el sitio para los registros básicos de alojamiento."]
+          "body": [
+            "Nos basamos en tu consentimiento para las cookies de analítica, y en nuestro interés legítimo de ofrecer y proteger el sitio para los registros básicos de alojamiento."
+          ]
         },
         {
           "h": "Terceros y transferencias internacionales",
-          "body": ["Utilizamos Google (Analytics y, para el formulario opcional, Google Forms) y Cloudflare (alojamiento y distribución de contenido). Cuando haces clic en el enlace de un socio, Agoda o Klook tratan tu visita conforme a sus propias políticas. Estos proveedores pueden tratar datos fuera de tu país, sujetos a sus garantías y políticas de privacidad."]
+          "body": [
+            "Utilizamos Google (Analytics y, para el formulario opcional, Google Forms) y Cloudflare (alojamiento y distribución de contenido). Cuando haces clic en el enlace de un socio, Agoda o Klook tratan tu visita conforme a sus propias políticas. Estos proveedores pueden tratar datos fuera de tu país, sujetos a sus garantías y políticas de privacidad."
+          ]
         },
         {
           "h": "Publicidad",
-          "body": ["Actualmente no mostramos publicidad de terceros. Si en el futuro introducimos anuncios (por ejemplo, Google AdSense), actualizaremos esta política y cualquier cookie publicitaria se ejecutará con tu consentimiento."]
+          "body": [
+            "Actualmente no mostramos publicidad de terceros. Si en el futuro introducimos anuncios (por ejemplo, Google AdSense), actualizaremos esta política y cualquier cookie publicitaria se ejecutará con tu consentimiento."
+          ]
         },
         {
           "h": "Conservación",
-          "body": ["Los datos de analítica se conservan según la configuración de retención de Google (hasta 14 meses). Tu elección de consentimiento se guarda durante un máximo de 12 meses, tras los cuales volvemos a preguntar."]
+          "body": [
+            "Los datos de analítica se conservan según la configuración de retención de Google (hasta 14 meses). Tu elección de consentimiento se guarda durante un máximo de 12 meses, tras los cuales volvemos a preguntar."
+          ]
         },
         {
           "h": "Tus derechos",
-          "body": ["Según el lugar donde vivas, puedes tener derecho a acceder, corregir, eliminar u oponerte al tratamiento de tus datos, y a retirar tu consentimiento en cualquier momento. Para ejercer estos derechos, escribe a contact@ktriphub.com. También puedes usar los controles de tu navegador o dispositivo para bloquear o eliminar cookies."]
+          "body": [
+            "Según el lugar donde vivas, puedes tener derecho a acceder, corregir, eliminar u oponerte al tratamiento de tus datos, y a retirar tu consentimiento en cualquier momento. Para ejercer estos derechos, escribe a contact@ktriphub.com. También puedes usar los controles de tu navegador o dispositivo para bloquear o eliminar cookies."
+          ]
         },
         {
           "h": "Menores",
-          "body": ["El sitio no está dirigido a menores de 16 años, y no recopilamos deliberadamente sus datos personales."]
+          "body": [
+            "El sitio no está dirigido a menores de 16 años, y no recopilamos deliberadamente sus datos personales."
+          ]
         },
         {
           "h": "Cambios y contacto",
-          "body": ["Podemos actualizar esta política; la fecha que aparece en la parte superior indica la versión más reciente. Preguntas: contact@ktriphub.com."]
+          "body": [
+            "Podemos actualizar esta política; la fecha que aparece en la parte superior indica la versión más reciente. Preguntas: contact@ktriphub.com."
+          ]
         }
       ]
     },
@@ -111,62 +183,94 @@
       "sections": [
         {
           "h": "Solo con fines informativos",
-          "body": ["Korea Trip Hub ofrece información general de viajes. Las normas y las cifras — requisitos de visado, tiempos y tarifas de transporte, precios, horarios de apertura — cambian y pueden variar según la nacionalidad y la fecha. Mostramos las fuentes y las fechas de verificación, pero no podemos garantizar que todo sea preciso, completo o esté actualizado. Confirma siempre con la fuente oficial antes de viajar o reservar."]
+          "body": [
+            "Korea Trip Hub ofrece información general de viajes. Las normas y las cifras — requisitos de visado, tiempos y tarifas de transporte, precios, horarios de apertura — cambian y pueden variar según la nacionalidad y la fecha. Mostramos las fuentes y las fechas de verificación, pero no podemos garantizar que todo sea preciso, completo o esté actualizado. Confirma siempre con la fuente oficial antes de viajar o reservar."
+          ]
         },
         {
           "h": "No es asesoramiento profesional",
-          "body": ["Nada de lo aquí publicado constituye asesoramiento legal, migratorio, financiero o médico. Para decisiones que dependan de tu situación, consulta a la autoridad oficial correspondiente o a un profesional cualificado."]
+          "body": [
+            "Nada de lo aquí publicado constituye asesoramiento legal, migratorio, financiero o médico. Para decisiones que dependan de tu situación, consulta a la autoridad oficial correspondiente o a un profesional cualificado."
+          ]
         },
         {
           "h": "El planificador de viajes",
-          "body": ["El planificador genera un borrador día a día basado en reglas, a partir de listas seleccionadas de lugares reales. Es una sugerencia de partida — no una reserva, ni una garantía de rutas, horarios de apertura o disponibilidad."]
+          "body": [
+            "El planificador genera un borrador día a día basado en reglas, a partir de listas seleccionadas de lugares reales. Es una sugerencia de partida — no una reserva, ni una garantía de rutas, horarios de apertura o disponibilidad."
+          ]
         },
         {
           "h": "Enlaces externos y reservas",
-          "body": ["Enlazamos a sitios de terceros, incluidas páginas oficiales y socios de reservas como Agoda y Klook. No controlamos esos sitios y no somos responsables de su contenido, precios o servicios. Cualquier reserva es un contrato entre tú y ese proveedor."]
+          "body": [
+            "Enlazamos a sitios de terceros, incluidas páginas oficiales y socios de reservas como Agoda y Klook. No controlamos esos sitios y no somos responsables de su contenido, precios o servicios. Cualquier reserva es un contrato entre tú y ese proveedor."
+          ]
         },
         {
           "h": "Enlaces de afiliados",
-          "body": ["Algunos enlaces son enlaces de afiliados. Consulta nuestra Divulgación de afiliados para más detalles."]
+          "body": [
+            "Algunos enlaces son enlaces de afiliados. Consulta nuestra Divulgación de afiliados para más detalles."
+          ]
         },
         {
           "h": "Propiedad intelectual",
-          "body": ["El texto y el diseño del sitio son nuestros o se utilizan bajo licencia. Las fotografías se atribuyen a sus autores según sus respectivas licencias, tal como se indica en las páginas. Por favor, no reutilices el contenido sin permiso o sin la atribución adecuada."]
+          "body": [
+            "El texto y el diseño del sitio son nuestros o se utilizan bajo licencia. Las fotografías se atribuyen a sus autores según sus respectivas licencias, tal como se indica en las páginas. Por favor, no reutilices el contenido sin permiso o sin la atribución adecuada."
+          ]
         },
         {
           "h": "Sin garantías y limitación de responsabilidad",
-          "body": ["El sitio se ofrece \"tal cual\", sin garantías de ningún tipo. En la máxima medida permitida por la ley, no somos responsables de ninguna pérdida derivada de tu uso del sitio o de tu confianza en su información."]
+          "body": [
+            "El sitio se ofrece \"tal cual\", sin garantías de ningún tipo. En la máxima medida permitida por la ley, no somos responsables de ninguna pérdida derivada de tu uso del sitio o de tu confianza en su información."
+          ]
         },
         {
           "h": "Cambios y contacto",
-          "body": ["Podemos actualizar estas condiciones; la fecha que aparece en la parte superior indica la versión más reciente. Preguntas: contact@ktriphub.com."]
+          "body": [
+            "Podemos actualizar estas condiciones; la fecha que aparece en la parte superior indica la versión más reciente. Preguntas: contact@ktriphub.com."
+          ]
         }
       ]
     },
     "affiliate": {
-      "title": "Divulgación de afiliados",
-      "desc": "Cómo Korea Trip Hub usa enlaces de afiliados (Agoda, Klook): nunca pagas más y las recomendaciones se mantienen independientes.",
-      "intro": "Korea Trip Hub es de uso gratuito, y los enlaces de afiliados ayudan a que siga siendo así.",
+      "title": "Divulgación sobre Publicidad y Afiliados",
+      "desc": "Cómo Korea Trip Hub utiliza enlaces de afiliados (Agoda, Klook) y cómo se gestiona cualquier publicidad futura: nunca pagas de más y las recomendaciones se mantienen independientes.",
+      "intro": "Korea Trip Hub es de uso gratuito, y los enlaces de afiliados ayudan a que siga siéndolo.",
       "sections": [
         {
-          "h": "Cómo funciona",
-          "body": ["Participamos en programas de afiliados — actualmente Agoda (hoteles) y Klook (tours y entradas). Cuando haces clic en ciertos enlaces de \"Buscar hoteles\" o \"Tours y entradas\" y luego reservas, podemos ganar una pequeña comisión."]
+          "h": "Publicidad",
+          "body": [
+            "Korea Trip Hub no muestra actualmente anuncios gráficos de terceros. Si añadimos publicidad en el futuro (por ejemplo, Google AdSense), los anuncios se distinguirán claramente de nuestro contenido editorial y de los enlaces a fuentes oficiales, y cualquier cookie publicitaria se activará con tu consentimiento; consulta nuestra Política de Privacidad y Cookies."
+          ]
         },
         {
-          "h": "Nunca pagas más",
-          "body": ["Las comisiones las paga el socio, no tú. Tu precio es el mismo tanto si usas nuestro enlace como si no."]
+          "h": "Cómo funciona",
+          "body": [
+            "Participamos en programas de afiliados — actualmente Agoda (hoteles) y Klook (tours y entradas). Cuando haces clic en ciertos enlaces de «Buscar hoteles» o «Tours y entradas» y después reservas, podemos ganar una pequeña comisión."
+          ]
+        },
+        {
+          "h": "Nunca pagas de más",
+          "body": [
+            "Las comisiones las paga el socio, no tú. Tu precio es el mismo tanto si usas nuestro enlace como si no."
+          ]
         },
         {
           "h": "Las recomendaciones se mantienen independientes",
-          "body": ["No nos pagan por destacar lugares concretos. Qué destinos, restaurantes y consejos resaltamos es una decisión editorial, tomada de forma independiente de los socios afiliados. Los enlaces de afiliados se marcan como patrocinados y con rel=\"nofollow\"."]
+          "body": [
+            "No nos pagan por destacar lugares concretos. Qué destinos, restaurantes y consejos resaltamos es una decisión editorial, tomada con independencia de los socios afiliados. Los enlaces de afiliados están marcados como patrocinados y con rel=\"nofollow\"."
+          ]
         },
         {
           "h": "Precios y disponibilidad",
-          "body": ["Los precios, la disponibilidad y las condiciones de reserva los establece el socio y se muestran en su sitio, no en el nuestro. Confirma los detalles allí antes de reservar."]
+          "body": [
+            "Los precios, la disponibilidad y las condiciones de reserva los establece el socio y se muestran en su sitio, no en el nuestro. Confirma los detalles allí antes de reservar."
+          ]
         },
         {
           "h": "Preguntas",
-          "body": ["¿Algo no queda claro? Escribe a contact@ktriphub.com."]
+          "body": [
+            "¿Algo no queda claro? Escribe a contact@ktriphub.com."
+          ]
         }
       ]
     },
@@ -177,19 +281,107 @@
       "sections": [
         {
           "h": "Correo electrónico",
-          "body": ["La mejor forma de contactarnos es por correo electrónico: contact@ktriphub.com."]
+          "body": [
+            "La mejor forma de contactarnos es por correo electrónico: contact@ktriphub.com."
+          ]
         },
         {
           "h": "Sobre qué escribir",
-          "body": ["Correcciones o actualizaciones de la información de viajes, solicitudes de privacidad (como acceso o eliminación), preguntas sobre colaboraciones y afiliación, o comentarios e ideas en general."]
+          "body": [
+            "Correcciones o actualizaciones de la información de viajes, solicitudes de privacidad (como acceso o eliminación), preguntas sobre colaboraciones y afiliación, o comentarios e ideas en general."
+          ]
         },
         {
           "h": "Tiempo de respuesta",
-          "body": ["Leemos todos los mensajes y respondemos tan pronto como podemos. Este es un proyecto pequeño e independiente, así que te pedimos un poco de paciencia."]
+          "body": [
+            "Leemos todos los mensajes y respondemos tan pronto como podemos. Este es un proyecto pequeño e independiente, así que te pedimos un poco de paciencia."
+          ]
         },
         {
           "h": "Consejos rápidos",
-          "body": ["¿Has visitado algún lugar y tienes un consejo para otros viajeros? También puedes compartirlo a través del formulario de comentarios enlazado en nuestras páginas de guías."]
+          "body": [
+            "¿Has visitado algún lugar y tienes un consejo para otros viajeros? También puedes compartirlo a través del formulario de comentarios enlazado en nuestras páginas de guías."
+          ]
+        }
+      ]
+    },
+    "operator": {
+      "title": "Acerca del Operador",
+      "desc": "Quién gestiona Korea Trip Hub, cómo se emplean la IA y la revisión humana, y los demás sitios independientes gestionados por el mismo operador.",
+      "intro": "Korea Trip Hub es un proyecto pequeño e independiente gestionado por un solo operador: no es una empresa, un organismo gubernamental ni una oficina de turismo.",
+      "sections": [
+        {
+          "h": "Quién lo gestiona",
+          "body": [
+            "Korea Trip Hub está creado y mantenido por un único operador independiente radicado en Corea del Sur. Es un proyecto personal autofinanciado y no está afiliado a ningún organismo gubernamental, organización turística ni agencia de viajes."
+          ]
+        },
+        {
+          "h": "Por qué existe",
+          "body": [
+            "El objetivo es sencillo: ayudar a los viajeros internacionales a planificar un viaje a Corea en su propio idioma, con los datos esenciales verificados frente a fuentes oficiales en lugar de dispersos por decenas de páginas."
+          ]
+        },
+        {
+          "h": "Cómo utilizamos la IA",
+          "body": [
+            "Utilizamos herramientas de IA para ayudar a redactar y traducir contenido más rápido. La IA es un asistente, no la autora responsable: un operador humano revisa los datos, comprueba cada enlace oficial y es responsable de lo que lees. Las cifras y normas clave se guardan en una base de datos que solo admite datos verificados (consulta nuestra Política Editorial y de Fuentes), y todo lo que no puede confirmarse se omite en lugar de suponerse."
+          ]
+        },
+        {
+          "h": "Revisión humana y responsabilidad",
+          "body": [
+            "Cada dato esencial lleva una fecha de verificación y un enlace a la fuente, y es una persona — no un algoritmo — quien decide qué se publica. Cuando nos equivocamos, queremos corregirlo rápidamente (consulta Correcciones y Errores)."
+          ]
+        },
+        {
+          "h": "Otros sitios que gestionamos",
+          "body": [
+            "En aras de la transparencia: el mismo operador gestiona un pequeño número de otros sitios independientes de información, entre ellos un blog de viajes complementario en japonés (韓国旅行ハブ) y una guía de K-pop (kpophub.kr). Son proyectos independientes que se sostienen cada uno por su propio contenido; divulgamos la relación en lugar de ocultarla."
+          ]
+        },
+        {
+          "h": "Contacto",
+          "body": [
+            "Las preguntas, correcciones o consultas de colaboración son bienvenidas en contact@ktriphub.com."
+          ]
+        }
+      ]
+    },
+    "corrections": {
+      "title": "Correcciones y Errores",
+      "desc": "Cómo informar de un error en Korea Trip Hub y cómo revisamos, corregimos y fechamos las correcciones.",
+      "intro": "La información de viajes cambia y los errores ocurren. Si detectas algo incorrecto o desactualizado, cuéntanoslo.",
+      "sections": [
+        {
+          "h": "Cómo informar de un error",
+          "body": [
+            "Escribe a contact@ktriphub.com indicando la página, el detalle que parece incorrecto y — si lo tienes — un enlace a la fuente oficial correcta. También puedes usar el formulario de comentarios enlazado en nuestras páginas de guía."
+          ]
+        },
+        {
+          "h": "Qué ocurre después",
+          "body": [
+            "Una persona revisa cada informe. Si confirmamos un error, lo corregimos y actualizamos la fecha de revisión de la página. Los datos sensibles al tiempo — normas de visado, tarifas, números de emergencia — también se vuelven a comprobar según un calendario, no solo cuando alguien nos escribe."
+          ]
+        },
+        {
+          "h": "Cómo tratamos los datos",
+          "body": [
+            "Las cifras y normas clave provienen de fuentes oficiales gubernamentales y de operadores, se almacenan en una base de datos que solo admite datos verificados y muestran la fecha en que se comprobaron por última vez con un enlace a la fuente. Si un valor no puede verificarse, lo retiramos en lugar de suponerlo."
+          ]
+        },
+        {
+          "h": "Correcciones importantes",
+          "body": [
+            "Cuando una corrección cambia sustancialmente un consejo, actualizamos la fecha de revisión visible para que puedas ver que la página se ha revisado."
+          ]
+        },
+        {
+          "h": "La fuente oficial siempre prevalece",
+          "body": [
+            "Complementamos las fuentes oficiales; no las sustituimos. Confirma siempre las normas vigentes con la autoridad oficial antes de viajar o reservar."
+          ]
         }
       ]
     }
