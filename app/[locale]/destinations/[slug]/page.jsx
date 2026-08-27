@@ -3,6 +3,7 @@ import { pageMeta, breadcrumbLd, touristAttractionLd, SITE_NAME } from "../../..
 import JsonLd from "../../../../components/JsonLd";
 import { fact } from "../../../../lib/facts";
 import BookCTA from "../../../../components/BookCTA";
+import Stay22Map from "../../../../components/Stay22Map";
 import { klookSearch } from "../../../../lib/booking";
 import dest from "../../../../data/destinations.json";
 import stayData from "../../../../data/stay.json";
@@ -174,6 +175,7 @@ export default function DestinationDetail({ params }) {
         </>
       )}
 
+      <Stay22Map place={`${d.name}, South Korea`} heading={m.hotelsNearby} />
       <ArticleTrust locale={locale} related={related} />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>
