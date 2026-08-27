@@ -49,6 +49,15 @@ gtag('config','${GA_ID}');`}
         {/* AdSense loader PAUSED (2026-08-18): no live ad slots + no ad-consent UI yet, so it
             only added privacy/perf cost with zero ad revenue. Re-enable with real <ins> slots
             and ad_storage consent (see IMPROVEMENT_PLAN_KO.md WS3). Publisher: ADSENSE_CLIENT. */}
+        {/* Stay22 LinkSwap — HELD OFF until AdSense first approval (user decision 2026-08-26).
+            Auto-monetizes existing hotel links (Booking.com/Hotels.com/Agoda/Expedia/…). To
+            enable, also set STAY22.aid in lib/booking.js and update the Affiliate + Privacy
+            pages (hotel links then earn; disclose Stay22). Uncomment to switch on:
+        <Script id="stay22-init" strategy="afterInteractive">
+          {`window.Stay22=window.Stay22||{};window.Stay22.params={lmaID:'6a8fd38afdad71da9008a52b'};`}
+        </Script>
+        <Script src="https://scripts.stay22.com/letmeallez.js" strategy="afterInteractive" />
+        */}
       </body>
     </html>
   );
