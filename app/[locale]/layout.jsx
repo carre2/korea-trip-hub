@@ -46,9 +46,17 @@ try{if(localStorage.getItem('kth_consent')==='granted')gtag('consent','update',{
 gtag('config','${GA_ID}');`}
         </Script>
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
-        {/* AdSense loader PAUSED (2026-08-18): no live ad slots + no ad-consent UI yet, so it
-            only added privacy/perf cost with zero ad revenue. Re-enable with real <ins> slots
-            and ad_storage consent (see IMPROVEMENT_PLAN_KO.md WS3). Publisher: ADSENSE_CLIENT. */}
+        {/* AdSense loader — the code Google needs to find on visited pages to review/approve
+            the site (a paused loader was the likely cause of ktriphub sitting in "Getting
+            ready" past 4 weeks; re-enabled 2026-08-26). Loads AFTER the Consent Mode default
+            (ad_storage denied by default above), so it stays GDPR-compliant; no <ins> ad slots
+            are placed yet, so no ads render — only the code is present for review. */}
+        <Script
+          id="adsense"
+          strategy="afterInteractive"
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+          crossOrigin="anonymous"
+        />
         {/* Stay22 LinkSwap — HELD OFF until AdSense first approval (user decision 2026-08-26).
             Auto-monetizes existing hotel links (Booking.com/Hotels.com/Agoda/Expedia/…). To
             enable, also set STAY22.aid in lib/booking.js and update the Affiliate + Privacy
