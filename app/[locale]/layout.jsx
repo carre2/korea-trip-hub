@@ -57,15 +57,14 @@ gtag('config','${GA_ID}');`}
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
           crossOrigin="anonymous"
         />
-        {/* Stay22 LinkSwap — HELD OFF until AdSense first approval (user decision 2026-08-26).
-            Auto-monetizes existing hotel links (Booking.com/Hotels.com/Agoda/Expedia/…). To
-            enable, also set STAY22.aid in lib/booking.js and update the Affiliate + Privacy
-            pages (hotel links then earn; disclose Stay22). Uncomment to switch on:
+        {/* Stay22 LinkSwap (ACTIVE 2026-08-26 — Stay22 approved). Turns existing hotel links
+            into commission-earning partner links (Booking.com/Hotels.com/Agoda/Expedia/…).
+            Loads after the Consent Mode default above; disclosed on the Affiliate & Privacy
+            pages. Pairs with <Stay22Map> (STAY22.aid in lib/booking.js). */}
         <Script id="stay22-init" strategy="afterInteractive">
           {`window.Stay22=window.Stay22||{};window.Stay22.params={lmaID:'6a8fd38afdad71da9008a52b'};`}
         </Script>
         <Script src="https://scripts.stay22.com/letmeallez.js" strategy="afterInteractive" />
-        */}
       </body>
     </html>
   );
