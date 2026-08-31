@@ -2,6 +2,7 @@ import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, articleLd, faqLd } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
 import VisaCountryGuide from "../../../../components/VisaCountryGuide";
+import VisaPhotoSpec from "../../../../components/VisaPhotoSpec";
 import NextSteps from "../../../../components/NextSteps";
 import ArticleTrust from "../../../../components/ArticleTrust";
 import { localized, visaCountryCodes } from "../../../../lib/visa";
@@ -78,6 +79,8 @@ export default function VisaCountryPage({ params }) {
       )}
 
       <VisaCountryGuide guide={g} m={m} />
+
+      {g.verdict?.need && <VisaPhotoSpec m={m} />}
 
       <NextSteps locale={locale} m={m} />
 
