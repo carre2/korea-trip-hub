@@ -18,6 +18,7 @@
   },
   "order": [
     "seoul-3-days",
+    "kpop-3-days",
     "korea-5-days",
     "korea-7-days",
     "gyeongju-2-days"
@@ -389,6 +390,87 @@
         "Toma el KTX hasta la estación de Singyeongju y luego un autobús o taxi hasta los lugares de interés.",
         "Alquila una bicicleta en el centro: las tumbas, Cheomseongdae y Wolji están cerca unas de otras.",
         "Deja el estanque Wolji para después del anochecer; es la vista nocturna por excelencia de Gyeongju."
+      ]
+    },
+    "kpop-3-days": {
+      "title": "Peregrinación K-pop: 3 días en Seúl para fans",
+      "metaTitle": "K-pop en Seúl: itinerario de 3 días para fans (2026)",
+      "sub": "Los barrios de las agencias, la tienda insignia KWANGYA@SEOUL, cafeterías de ídolos y pop-ups de Seongsu: el primer viaje perfecto a Seúl para un fan.",
+      "days": "3",
+      "cities": [
+        "seoul"
+      ],
+      "overview": "Pensado para fans del K-pop: el primer día, el distrito de cafeterías y pop-ups de Seongsu (donde están la sede de SM Entertainment y la tienda KWANGYA@SEOUL); el segundo, los barrios de las agencias y el K-beauty del centro de Seúl; y el tercero, las tiendas indie, el baile y los artistas callejeros en torno a Hongdae. Las fechas de conciertos y programas musicales cambian constantemente, así que organiza los días fijos a su alrededor y consulta kpophub.kr y las boleterías oficiales para ver qué hay.",
+      "plan": [
+        {
+          "n": 1,
+          "area": "Seongsu, el epicentro de los pop-ups de K-pop",
+          "stops": [
+            {
+              "t": "Mañana",
+              "p": "Empieza en Seongsu, el distrito de cafeterías en antiguas fábricas de Seúl y sede de SM Entertainment. Visita la tienda insignia KWANGYA@SEOUL para conseguir merchandising oficial de grupos como aespa, NCT y RIIZE.",
+              "spot": "KWANGYA@SEOUL, Seoul"
+            },
+            {
+              "t": "Tarde",
+              "p": "Recorre las cafeterías de diseño y luego mira qué pop-ups de K-pop y de marcas y qué cafeterías temáticas de ídolos están abiertas: cambian constantemente, así que fíjate en lo que hay cuando vayas (algunos requieren reserva con hora).",
+              "spot": "Seongsu-dong, Seoul"
+            },
+            {
+              "t": "Noche",
+              "p": "Relájate en el Bosque de Seúl, justo al lado, o quédate en Seongsu para cenar y disfrutar de más cafeterías.",
+              "spot": "Seoul Forest, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "area": "Agencias, K-beauty y el río",
+          "stops": [
+            {
+              "t": "Mañana",
+              "p": "Ve a Yongsan, a la zona de la sede de HYBE (la agencia de BTS y muchos más): una parada favorita para las fotos de los fans. El edificio es una oficina en funcionamiento, así que disfrútalo desde fuera.",
+              "spot": "HYBE, Yongsan-gu, Seoul"
+            },
+            {
+              "t": "Tarde",
+              "p": "Myeongdong para K-beauty y merchandising oficial de artistas: tiendas insignia de cosmética, pop-ups y comida callejera en una misma zona fácil de recorrer a pie.",
+              "spot": "Myeongdong, Seoul"
+            },
+            {
+              "t": "Noche",
+              "p": "Si tienes entradas para la grabación de un programa musical en directo (Inkigayo, M Countdown, Show! Music Core y otros), esta es tu franja: las solicitudes y los estudios varían según el programa, así que confirma los detalles con antelación. Si no, disfruta del río Han en Yeouido.",
+              "spot": "Yeouido Hangang Park, Seoul"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "area": "Hongdae: indie, baile y artistas callejeros",
+          "stops": [
+            {
+              "t": "Mañana",
+              "p": "Explora Hongdae: tiendas indie de discos y merchandising, estudios de baile de K-pop y cafeterías alrededor de la Universidad Hongik.",
+              "spot": "Hongdae, Seoul"
+            },
+            {
+              "t": "Tarde",
+              "p": "Disfruta de actuaciones callejeras y de eventos de 'random play dance' cerca de la plaza de la salida de la estación de la Universidad Hongik (informales y sujetos al clima), o apúntate a una clase de baile de K-pop.",
+              "spot": "Hongik University Station, Seoul"
+            },
+            {
+              "t": "Noche",
+              "p": "Deja la noche libre para un concierto, eso en torno a lo que muchos fans montan todo el viaje. Consulta las fechas actuales de giras y comebacks en kpophub.kr y en las boleterías oficiales.",
+              "spot": "Hongdae, Seoul"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Los horarios de conciertos y programas musicales cambian constantemente: consulta kpophub.kr y las boleterías oficiales antes de fijar tus fechas.",
+        "Los pop-ups y las cafeterías de ídolos de Seongsu van rotando; averigua qué hay cuando vayas y anota los que requieran reserva con hora.",
+        "Los edificios de las agencias (HYBE, SM, JYP, YG) son oficinas en funcionamiento: disfruta de las fachadas y las tiendas oficiales, y respeta al personal y a los vecinos.",
+        "Todo esto está conectado por metro: hazte con una tarjeta T-money y usa Naver Map o KakaoMap para orientarte."
       ]
     }
   }
