@@ -1,0 +1,2062 @@
+{
+  "_README": "Per-locale translation overrides for hongkong → Korea entry guide. { <locale>: { ...overrides } }. English base in hongkong.json.",
+  "ja": {
+    "kicker": "入国ガイド · 香港 → 韓国",
+    "readingTime": "読了目安5分",
+    "h1": "香港から韓国への入国ガイド",
+    "metaTitle": "香港から韓国へ：ビザは必要？（2026年）— Korea Trip Hub",
+    "metaDesc": "香港（HKSAR）のパスポート保持者は韓国のビザが必要？いいえ — 最長90日までビザ免除で、K-ETAも2026年まで免除されています。着陸前に無料のe-Arrival Cardを申請するだけです。入国手順を詳しく解説します。",
+    "verdict": {
+      "headline": "観光ビザは不要 — 香港（HKSAR）のパスポートはビザ免除です。",
+      "sub": "短期観光ならビザの申請は一切不要です。現在はK-ETAも免除されているため、着陸前に無料のe-Arrival Cardを申請することが主なポイントです。",
+      "type": "ビザ免除（K-ETAは現在免除中）",
+      "stay": "最長90日",
+      "entry": "短期観光"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "ビザ不要、K-ETAも2026年まで免除",
+        "body": "香港（HKSAR）はK-ETAが免除される22の国・地域の一つで、2026年12月31日まで対象です。そのため短期観光ではビザもK-ETAも申請不要です。この免除は終了予定で、K-ETAは2027年1月1日に再開されます — 渡航前に再確認してください。"
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "e-Arrival Cardは必要です",
+        "body": "ほぼすべての訪問者が、到着前72時間以内にe-arrivalcard.go.krで無料のe-Arrival Cardを申請します。（有効なK-ETA保持者は免除されますが、K-ETAが免除されている今はe-Arrival Cardを申請してください。）"
+      },
+      {
+        "icon": "🛂",
+        "tone": "amber",
+        "title": "このページはHKSARパスポート向けです",
+        "body": "香港特別行政区（HKSAR）のパスポートを対象としています。BN(O)、身分証明書（Document of Identity）、その他のパスポートで渡航する場合は、その書類ごとの規則を確認してください — 異なる場合があります。"
+      }
+    ],
+    "tldr": [
+      "現在は観光ビザもK-ETAも不要 — 香港（HKSAR）はビザ免除で、2026年までK-ETAも免除されています。",
+      "到着前72時間以内に、e-arrivalcard.go.krで無料のe-Arrival Cardを必ず申請しましょう。",
+      "滞在期間中有効なパスポートと、出国・帰国便の証明を用意しましょう。",
+      "滞在は最長90日までです。"
+    ],
+    "steps": {
+      "title": "入国の手順",
+      "items": [
+        {
+          "n": 1,
+          "title": "ビザ免除であることを確認",
+          "detail": "香港（HKSAR）のパスポートは短期観光なら韓国にビザなしで入国でき、K-ETAも2026年まで免除されています — 申請するものは何もありません。"
+        },
+        {
+          "n": 2,
+          "title": "e-Arrival Cardを申請",
+          "detail": "到着前72時間以内に、e-arrivalcard.go.krで無料で入力を済ませ、QRコード／確認画面を保存しておきましょう。",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "パスポートと出国便を確認",
+          "detail": "パスポートが滞在期間中有効であることを確認し、帰国・出国便のチケットと最初の宿泊先の住所を用意しましょう。"
+        },
+        {
+          "n": 4,
+          "title": "入国審査で",
+          "detail": "パスポートとe-Arrivalの確認画面を提示します。指紋と写真の採取が行われる場合があります。目的は観光に限ってください — ビザ免除での入国では就労はできません。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "準備しておくもの",
+      "intro": "ビザの申請は不要ですが、スムーズな入国のために以下を用意しておきましょう。",
+      "cols": [
+        "項目",
+        "入手先",
+        "備考"
+      ],
+      "rows": [
+        {
+          "doc": "パスポート",
+          "req": "required",
+          "where": "お手元にあるもの",
+          "how": "HKSARパスポート。滞在期間中有効であること。"
+        },
+        {
+          "doc": "e-Arrival Cardの確認",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "無料。到着前72時間以内に申請し、QRコードを保存しましょう。",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "帰国・出国便のチケット",
+          "req": "required",
+          "where": "航空会社／旅行代理店",
+          "how": "許可された滞在期間内に出国することの証明。"
+        },
+        {
+          "doc": "宿泊先の住所",
+          "req": "required",
+          "where": "予約サイト",
+          "how": "最初のホテル／宿泊先の住所（e-Arrival Cardで尋ねられます）。"
+        },
+        {
+          "doc": "旅行の資金",
+          "req": "recommended",
+          "where": "ご自身",
+          "how": "カードは広く使えますが、市場や小規模の店舗のために現金も少し持っておきましょう。"
+        }
+      ],
+      "legend": {
+        "required": "必須",
+        "conditional": "該当する場合",
+        "recommended": "推奨"
+      }
+    },
+    "pitfalls": {
+      "title": "よくある入国時の間違い",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "不要な「ビザ／K-ETA手数料」を支払う",
+          "d": "現在はビザもK-ETAも不要です。詐欺サイトは今も料金を請求してきます — 無視しましょう。"
+        },
+        {
+          "icon": "📝",
+          "t": "e-Arrival Cardを申請し忘れる",
+          "d": "ほとんどの訪問者は申請が必要です（無料）。到着前72時間以内に済ませましょう。"
+        },
+        {
+          "icon": "⏰",
+          "t": "e-Arrival Cardを早く申請しすぎる",
+          "d": "提出から72時間で失効します — 何週間も前ではなく、フライト直前に申請しましょう。"
+        },
+        {
+          "icon": "🛂",
+          "t": "BN(O)も同じ規則だと思い込む",
+          "d": "このガイドはHKSARパスポート向けです。他の渡航書類は要件が異なる場合があります — ご自身の書類を確認してください。"
+        },
+        {
+          "icon": "🗓️",
+          "t": "許可された滞在期間を超過する",
+          "d": "最長90日を超えて滞在すると、罰金や今後の入国禁止のリスクがあります。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "香港 → 韓国 入国FAQ",
+      "items": [
+        {
+          "q": "香港のパスポート保持者は韓国のビザが必要ですか？",
+          "a": "いいえ — 短期観光なら、香港特別行政区（HKSAR）のパスポート保持者はビザなしで韓国に入国できます。観光ビザの申請は一切不要です。"
+        },
+        {
+          "q": "K-ETAは必要ですか？",
+          "a": "現在は不要です。香港は2026年12月31日までK-ETAが免除される22の国・地域に含まれます。この要件は延長されない限り、2027年1月1日に再開される予定です。"
+        },
+        {
+          "q": "それでもe-Arrival Cardは必要ですか？",
+          "a": "はい — ほとんどの訪問者は、到着前72時間以内にe-arrivalcard.go.krで無料のe-Arrival Cardを申請します。"
+        },
+        {
+          "q": "どのくらい滞在できますか？",
+          "a": "観光目的で最長90日までです。"
+        },
+        {
+          "q": "BN(O)パスポートを持っています — これは当てはまりますか？",
+          "a": "このページは香港特別行政区（HKSAR）のパスポートを対象としています。BN(O)は英国のパスポートで、異なる規則が適用される場合があります — 渡航前にその書類固有の要件を確認してください。"
+        },
+        {
+          "q": "K-ETAはいつ再開されますか？",
+          "a": "免除は2026年12月31日に終了予定で、延長されない限りK-ETAは2027年1月1日に再開されます — 渡航日が近づいたら再確認してください。"
+        }
+      ]
+    },
+    "ui": {
+      "visa": "ビザ",
+      "stay": "滞在",
+      "entry": "入国",
+      "where": "入手先",
+      "official": "公式情報源",
+      "required": "必須",
+      "conditional": "該当する場合",
+      "recommended": "推奨",
+      "confirm": "料金・規則は変わります — 公式情報源で確認を",
+      "source": "出典",
+      "updated": "更新日",
+      "tldr": "要点"
+    }
+  },
+  "zh": {
+    "kicker": "入境指南 · 香港 → 韩国",
+    "readingTime": "阅读时间 5 分钟",
+    "h1": "从香港入境韩国指南",
+    "metaTitle": "从香港到韩国：需要签证吗？（2026）— Korea Trip Hub",
+    "metaDesc": "香港（HKSAR）护照持有者前往韩国需要签证吗？不需要 — 最多 90 天免签，且 K-ETA 豁免至 2026 年。只需在落地前填写免费的 e-Arrival Card 即可。完整入境步骤见文内。",
+    "verdict": {
+      "headline": "无需旅游签证 — 香港（HKSAR）护照免签。",
+      "sub": "短期旅游无需申请任何签证。目前 K-ETA 也已豁免，因此主要事项是在落地前填写免费的 e-Arrival Card。",
+      "type": "免签（K-ETA 目前豁免）",
+      "stay": "最多 90 天",
+      "entry": "短期旅游"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "无需签证，K-ETA 也豁免至 2026 年",
+        "body": "香港（HKSAR）是 K-ETA 豁免的 22 个国家和地区之一，豁免期至 2026 年 12 月 31 日，因此短期旅游既无需签证也无需 K-ETA。该豁免预定到期，K-ETA 将于 2027 年 1 月 1 日恢复 — 出行前请再次确认。"
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "你仍需填写 e-Arrival Card",
+        "body": "几乎所有访客都会在抵达前 72 小时内于 e-arrivalcard.go.kr 填写免费的 e-Arrival Card。（持有效 K-ETA 者可豁免，但目前 K-ETA 已豁免，因此你应填写 e-Arrival Card。）"
+      },
+      {
+        "icon": "🛂",
+        "tone": "amber",
+        "title": "本页面适用于 HKSAR 护照",
+        "body": "本页面涵盖香港特区（HKSAR）护照。如果你持 BN(O)、身份证明书（Document of Identity）或其他护照出行，请查阅该证件自身的规定 — 规定可能不同。"
+      }
+    ],
+    "tldr": [
+      "现在既无需旅游签证也无需 K-ETA — 香港（HKSAR）免签，且 K-ETA 豁免至 2026 年。",
+      "务必在抵达前 72 小时内于 e-arrivalcard.go.kr 填写免费的 e-Arrival Card。",
+      "携带在停留期间有效的护照，以及续程/返程行程证明。",
+      "你最多可停留 90 天。"
+    ],
+    "steps": {
+      "title": "你的入境步骤",
+      "items": [
+        {
+          "n": 1,
+          "title": "确认你免签",
+          "detail": "香港（HKSAR）护照短期旅游可免签入境韩国，且 K-ETA 豁免至 2026 年 — 无需申请任何东西。"
+        },
+        {
+          "n": 2,
+          "title": "填写 e-Arrival Card",
+          "detail": "在抵达前 72 小时内，于 e-arrivalcard.go.kr 免费完成填写，并保存二维码/确认页。",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "检查护照与续程机票",
+          "detail": "确保护照在停留期间有效，并备好返程/续程机票以及首个住宿地址。"
+        },
+        {
+          "n": 4,
+          "title": "在入境检查时",
+          "detail": "出示护照和 e-Arrival 确认页；可能会采集指纹和照片。请以旅游为目的 — 免签入境不得从事有偿工作。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "需要准备的材料",
+      "intro": "你无需提交签证申请 — 但请备好以下材料以便顺利入境。",
+      "cols": [
+        "项目",
+        "获取方式",
+        "备注"
+      ],
+      "rows": [
+        {
+          "doc": "护照",
+          "req": "required",
+          "where": "你已持有",
+          "how": "HKSAR 护照，在停留期间内有效。"
+        },
+        {
+          "doc": "e-Arrival Card 确认页",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "免费；在抵达前 72 小时内填写并保存二维码。",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "返程/续程机票",
+          "req": "required",
+          "where": "航空公司/旅行社",
+          "how": "证明你会在允许停留期内离境。"
+        },
+        {
+          "doc": "住宿地址",
+          "req": "required",
+          "where": "预订网站",
+          "how": "你的首个酒店/住宿地址（e-Arrival Card 会询问）。"
+        },
+        {
+          "doc": "旅行资金",
+          "req": "recommended",
+          "where": "本人",
+          "how": "银行卡广泛受理；建议携带少量现金用于市场和小商贩。"
+        }
+      ],
+      "legend": {
+        "required": "必需",
+        "conditional": "如适用",
+        "recommended": "建议"
+      }
+    },
+    "pitfalls": {
+      "title": "常见入境错误",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "支付你无需缴纳的『签证/K-ETA 费用』",
+          "d": "目前你既不需要签证也不需要 K-ETA。诈骗网站仍会收取此类费用 — 请忽略。"
+        },
+        {
+          "icon": "📝",
+          "t": "漏填 e-Arrival Card",
+          "d": "大多数访客必须填写（免费）。请在抵达前 72 小时内完成。"
+        },
+        {
+          "icon": "⏰",
+          "t": "过早填写 e-Arrival Card",
+          "d": "提交后 72 小时失效 — 请临近航班时填写，不要提前数周。"
+        },
+        {
+          "icon": "🛂",
+          "t": "以为 BN(O) 适用相同规定",
+          "d": "本指南适用于 HKSAR 护照。其他旅行证件的要求可能不同 — 请查阅你自己的证件。"
+        },
+        {
+          "icon": "🗓️",
+          "t": "超过允许停留期",
+          "d": "停留超过最多 90 天可能面临罚款和未来入境禁令。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "香港 → 韩国入境常见问题",
+      "items": [
+        {
+          "q": "香港护照持有者前往韩国需要签证吗？",
+          "a": "不需要 — 短期旅游时，香港特区护照持有者可免签入境韩国。你无需申请任何旅游签证。"
+        },
+        {
+          "q": "我需要 K-ETA 吗？",
+          "a": "目前不需要。香港属于 K-ETA 豁免的 22 个国家和地区之一，豁免期至 2026 年 12 月 31 日。除非延长，该要求预定于 2027 年 1 月 1 日恢复。"
+        },
+        {
+          "q": "我仍需要 e-Arrival Card 吗？",
+          "a": "需要 — 大多数访客会在抵达前 72 小时内于 e-arrivalcard.go.kr 填写免费的 e-Arrival Card。"
+        },
+        {
+          "q": "我可以停留多久？",
+          "a": "旅游目的最多 90 天。"
+        },
+        {
+          "q": "我持 BN(O) 护照 — 这适用吗？",
+          "a": "本页面涵盖香港特区护照。BN(O) 是英国护照，可能适用不同规定 — 出行前请查阅该证件的具体要求。"
+        },
+        {
+          "q": "K-ETA 何时恢复？",
+          "a": "豁免预定于 2026 年 12 月 31 日结束，除非延长，K-ETA 将于 2027 年 1 月 1 日恢复 — 请在临近出行日期时再次确认。"
+        }
+      ]
+    },
+    "ui": {
+      "visa": "签证",
+      "stay": "停留",
+      "entry": "入境",
+      "where": "获取方式",
+      "official": "官方来源",
+      "required": "必需",
+      "conditional": "如适用",
+      "recommended": "建议",
+      "confirm": "费用/规则会变动 — 请以官方来源为准",
+      "source": "来源",
+      "updated": "更新",
+      "tldr": "摘要"
+    }
+  },
+  "zh-TW": {
+    "kicker": "入境指南 · 香港 → 韓國",
+    "readingTime": "閱讀時間 5 分鐘",
+    "h1": "從香港入境韓國指南",
+    "metaTitle": "從香港到韓國：需要簽證嗎？（2026）— Korea Trip Hub",
+    "metaDesc": "持香港（HKSAR）護照者前往韓國需要簽證嗎？不需要 — 免簽最多可停留 90 天，且 K-ETA 豁免至 2026 年底。只要在抵達前填寫免費的 e-Arrival Card 即可。完整入境步驟都在文內。",
+    "verdict": {
+      "headline": "免辦觀光簽證 — 香港（HKSAR）護照可免簽。",
+      "sub": "短期觀光不需要申請任何簽證。目前 K-ETA 也在豁免中，所以主要要做的就是在抵達前填寫免費的 e-Arrival Card。",
+      "type": "免簽（K-ETA 目前豁免）",
+      "stay": "最多 90 天",
+      "entry": "短期觀光"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "免簽證，K-ETA 也豁免至 2026 年",
+        "body": "香港（HKSAR）是 K-ETA 豁免的 22 個國家和地區之一，豁免期至 2026 年 12 月 31 日，因此短期觀光既不用辦簽證，也不用申請 K-ETA。這項豁免預計會結束，K-ETA 將於 2027 年 1 月 1 日恢復 — 出發前請再次確認。"
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "你仍然需要填寫 e-Arrival Card",
+        "body": "幾乎所有旅客都會在抵達前 72 小時內，於 e-arrivalcard.go.kr 填寫免費的 e-Arrival Card。（持有效 K-ETA 者可免填，但目前 K-ETA 已豁免，因此你應該填寫 e-Arrival Card。）"
+      },
+      {
+        "icon": "🛂",
+        "tone": "amber",
+        "title": "本頁適用於 HKSAR 護照",
+        "body": "本頁說明的是香港特區（HKSAR）護照。如果你持 BN(O)、身份證明書（Document of Identity）或其他護照旅行，請查閱該證件本身的規定 — 規定可能不同。"
+      }
+    ],
+    "tldr": [
+      "現在觀光簽證和 K-ETA 都不需要 — 香港（HKSAR）免簽，且 K-ETA 豁免至 2026 年。",
+      "請務必在抵達前 72 小時內，於 e-arrivalcard.go.kr 填寫免費的 e-Arrival Card。",
+      "請攜帶在停留期間內有效的護照，以及續程/回程的行程證明。",
+      "你最多可以停留 90 天。"
+    ],
+    "steps": {
+      "title": "你的入境步驟",
+      "items": [
+        {
+          "n": 1,
+          "title": "確認你可以免簽",
+          "detail": "香港（HKSAR）護照短期觀光可免簽入境韓國，而且 K-ETA 豁免至 2026 年 — 沒有任何東西需要申請。"
+        },
+        {
+          "n": 2,
+          "title": "填寫 e-Arrival Card",
+          "detail": "在抵達前 72 小時內，於 e-arrivalcard.go.kr 免費填寫完成，並保存 QR Code/確認頁面。",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "檢查護照與續程機票",
+          "detail": "確認護照在停留期間內有效，並備妥回程/續程機票以及第一晚的住宿地址。"
+        },
+        {
+          "n": 4,
+          "title": "在證照查驗時",
+          "detail": "出示護照和 e-Arrival 確認頁面；可能會採集指紋和拍照。請以觀光為目的 — 免簽入境不得從事有薪工作。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "需要事先準備的東西",
+      "intro": "你不需要遞交簽證申請 — 但請備妥以下項目，以便順利入境。",
+      "cols": [
+        "項目",
+        "取得方式",
+        "備註"
+      ],
+      "rows": [
+        {
+          "doc": "護照",
+          "req": "required",
+          "where": "你已持有",
+          "how": "HKSAR 護照，在停留期間內有效。"
+        },
+        {
+          "doc": "e-Arrival Card 確認頁",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "免費；請在抵達前 72 小時內填寫並保存 QR Code。",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "回程/續程機票",
+          "req": "required",
+          "where": "航空公司/旅行社",
+          "how": "證明你會在允許的停留期間內離境。"
+        },
+        {
+          "doc": "住宿地址",
+          "req": "required",
+          "where": "訂房網站",
+          "how": "你第一晚的飯店/住宿地址（e-Arrival Card 會詢問）。"
+        },
+        {
+          "doc": "旅費",
+          "req": "recommended",
+          "where": "本人",
+          "how": "刷卡相當普遍；建議帶些現金，以便在市場和小攤商消費。"
+        }
+      ],
+      "legend": {
+        "required": "必備",
+        "conditional": "視情況而定",
+        "recommended": "建議"
+      }
+    },
+    "pitfalls": {
+      "title": "常見的入境錯誤",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "支付你其實不用繳的『簽證/K-ETA 費用』",
+          "d": "目前你既不需要簽證，也不需要 K-ETA。詐騙網站仍會收取這類費用 — 請別理會。"
+        },
+        {
+          "icon": "📝",
+          "t": "漏填 e-Arrival Card",
+          "d": "大多數旅客都必須填寫（免費）。請在抵達前 72 小時內完成。"
+        },
+        {
+          "icon": "⏰",
+          "t": "太早填寫 e-Arrival Card",
+          "d": "送出後 72 小時就會失效 — 請在接近航班時再填，不要提前好幾週。"
+        },
+        {
+          "icon": "🛂",
+          "t": "以為 BN(O) 適用相同規定",
+          "d": "本指南適用於 HKSAR 護照。其他旅行證件的規定可能不同 — 請查閱你自己的證件。"
+        },
+        {
+          "icon": "🗓️",
+          "t": "超過可停留天數",
+          "d": "停留超過最多 90 天，可能面臨罰款以及日後入境的禁令。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "香港 → 韓國入境常見問題",
+      "items": [
+        {
+          "q": "持香港護照者前往韓國需要簽證嗎？",
+          "a": "不需要 — 短期觀光時，香港特區（HKSAR）護照持有人可免簽入境韓國。你不需要申請任何觀光簽證。"
+        },
+        {
+          "q": "我需要 K-ETA 嗎？",
+          "a": "目前不需要。香港屬於 K-ETA 豁免的 22 個國家和地區之一，豁免期至 2026 年 12 月 31 日。除非延長，這項規定預計於 2027 年 1 月 1 日恢復。"
+        },
+        {
+          "q": "我還是需要 e-Arrival Card 嗎？",
+          "a": "需要 — 大多數旅客都會在抵達前 72 小時內，於 e-arrivalcard.go.kr 填寫免費的 e-Arrival Card。"
+        },
+        {
+          "q": "我可以停留多久？",
+          "a": "以觀光目的最多 90 天。"
+        },
+        {
+          "q": "我持 BN(O) 護照 — 這適用嗎？",
+          "a": "本頁說明的是香港特區（HKSAR）護照。BN(O) 屬於英國護照，規定可能不同 — 出發前請查閱該特定證件的相關規定。"
+        },
+        {
+          "q": "K-ETA 什麼時候恢復？",
+          "a": "豁免預計於 2026 年 12 月 31 日結束，除非延長，K-ETA 將於 2027 年 1 月 1 日恢復 — 請在接近出發日期時再次確認。"
+        }
+      ]
+    },
+    "ui": {
+      "visa": "簽證",
+      "stay": "停留",
+      "entry": "入境",
+      "where": "取得方式",
+      "official": "官方資訊來源",
+      "required": "必備",
+      "conditional": "視情況而定",
+      "recommended": "建議",
+      "confirm": "費用/規定可能變動 — 請以官方來源為準",
+      "source": "來源",
+      "updated": "更新",
+      "tldr": "重點摘要"
+    }
+  },
+  "vi": {
+    "kicker": "Hướng dẫn nhập cảnh · Hồng Kông → Hàn Quốc",
+    "readingTime": "Đọc trong 5 phút",
+    "h1": "Hướng dẫn nhập cảnh Hàn Quốc từ Hồng Kông",
+    "metaTitle": "Từ Hồng Kông đến Hàn Quốc: Bạn có cần thị thực không? (2026) — Korea Trip Hub",
+    "metaDesc": "Người mang hộ chiếu Hồng Kông (HKSAR) có cần thị thực vào Hàn Quốc không? Không — miễn thị thực tối đa 90 ngày, và K-ETA được miễn đến hết năm 2026. Chỉ cần khai e-Arrival Card miễn phí trước khi hạ cánh. Đầy đủ các bước nhập cảnh bên trong.",
+    "verdict": {
+      "headline": "Không cần thị thực du lịch — hộ chiếu Hồng Kông (HKSAR) được miễn thị thực.",
+      "sub": "Với du lịch ngắn ngày, bạn không phải xin bất kỳ thị thực nào. Hiện tại K-ETA cũng được miễn, nên việc chính cần làm là khai e-Arrival Card miễn phí trước khi hạ cánh.",
+      "type": "Miễn thị thực (K-ETA hiện đang được miễn)",
+      "stay": "Tối đa 90 ngày",
+      "entry": "Du lịch ngắn ngày"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Không cần thị thực, và K-ETA được miễn đến hết năm 2026",
+        "body": "Hồng Kông (HKSAR) là một trong 22 quốc gia/vùng lãnh thổ được miễn K-ETA đến ngày 31 tháng 12 năm 2026, nên với du lịch ngắn ngày bạn không phải xin thị thực lẫn K-ETA. Việc miễn trừ này dự kiến kết thúc và K-ETA sẽ trở lại vào ngày 1 tháng 1 năm 2027 — hãy xác nhận lại trước khi đi."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "Bạn vẫn cần e-Arrival Card",
+        "body": "Hầu hết mọi du khách đều khai e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 giờ trước khi đến. (Người có K-ETA hợp lệ được miễn, nhưng vì K-ETA đang được miễn nên bạn nên khai e-Arrival Card.)"
+      },
+      {
+        "icon": "🛂",
+        "tone": "amber",
+        "title": "Trang này dành cho hộ chiếu HKSAR",
+        "body": "Trang này áp dụng cho hộ chiếu Đặc khu Hành chính Hồng Kông (HKSAR). Nếu bạn đi bằng BN(O), Document of Identity, hay một hộ chiếu khác, hãy kiểm tra quy định riêng của loại giấy tờ đó — chúng có thể khác nhau."
+      }
+    ],
+    "tldr": [
+      "Hiện tại không cần thị thực du lịch lẫn K-ETA — Hồng Kông (HKSAR) được miễn thị thực và miễn K-ETA đến năm 2026.",
+      "Hãy khai e-Arrival Card miễn phí tại e-arrivalcard.go.kr trong vòng 72 giờ trước khi đến.",
+      "Mang theo hộ chiếu còn hiệu lực trong suốt thời gian lưu trú cùng bằng chứng chuyến bay tiếp theo/khứ hồi.",
+      "Bạn có thể lưu trú tối đa 90 ngày."
+    ],
+    "steps": {
+      "title": "Các bước nhập cảnh của bạn",
+      "items": [
+        {
+          "n": 1,
+          "title": "Xác nhận bạn được miễn thị thực",
+          "detail": "Hộ chiếu Hồng Kông (HKSAR) nhập cảnh Hàn Quốc miễn thị thực khi du lịch ngắn ngày, và K-ETA được miễn đến năm 2026 — không có gì phải xin."
+        },
+        {
+          "n": 2,
+          "title": "Khai e-Arrival Card",
+          "detail": "Trong vòng 72 giờ trước khi đến, hãy hoàn tất miễn phí tại e-arrivalcard.go.kr và lưu mã QR/xác nhận.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Kiểm tra hộ chiếu & vé đi tiếp",
+          "detail": "Hãy chắc chắn hộ chiếu còn hiệu lực trong suốt thời gian lưu trú, và chuẩn bị vé khứ hồi/đi tiếp cùng địa chỉ nơi ở đầu tiên."
+        },
+        {
+          "n": 4,
+          "title": "Tại cửa nhập cảnh",
+          "detail": "Xuất trình hộ chiếu và xác nhận e-Arrival; có thể bạn sẽ được lấy dấu vân tay và chụp ảnh. Hãy giữ đúng mục đích du lịch — không được làm việc có lương khi nhập cảnh miễn thị thực."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Những thứ cần chuẩn bị sẵn",
+      "intro": "Bạn không nộp đơn xin thị thực — nhưng hãy chuẩn bị sẵn những thứ này để nhập cảnh suôn sẻ.",
+      "cols": [
+        "Hạng mục",
+        "Lấy ở đâu",
+        "Ghi chú"
+      ],
+      "rows": [
+        {
+          "doc": "Hộ chiếu",
+          "req": "required",
+          "where": "Bạn đã có",
+          "how": "Hộ chiếu HKSAR, còn hiệu lực trong suốt thời gian lưu trú."
+        },
+        {
+          "doc": "Xác nhận e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Miễn phí; khai trong vòng 72 giờ trước khi đến và lưu mã QR.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Vé khứ hồi/đi tiếp",
+          "req": "required",
+          "where": "Hãng bay / đại lý du lịch",
+          "how": "Bằng chứng bạn sẽ rời đi trong thời gian lưu trú được phép."
+        },
+        {
+          "doc": "Địa chỉ nơi ở",
+          "req": "required",
+          "where": "Các trang đặt phòng",
+          "how": "Địa chỉ khách sạn/nơi ở đầu tiên của bạn (được hỏi trên e-Arrival Card)."
+        },
+        {
+          "doc": "Chi phí cho chuyến đi",
+          "req": "recommended",
+          "where": "Bạn",
+          "how": "Thẻ được chấp nhận rộng rãi; hãy mang theo ít tiền mặt cho chợ và các cửa hàng nhỏ."
+        }
+      ],
+      "legend": {
+        "required": "Bắt buộc",
+        "conditional": "Nếu áp dụng",
+        "recommended": "Khuyến nghị"
+      }
+    },
+    "pitfalls": {
+      "title": "Những lỗi nhập cảnh thường gặp",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "Trả 'phí thị thực/K-ETA' mà bạn không nợ",
+          "d": "Hiện tại bạn không cần thị thực lẫn K-ETA. Các trang lừa đảo vẫn thu phí cho chúng — hãy phớt lờ."
+        },
+        {
+          "icon": "📝",
+          "t": "Bỏ qua e-Arrival Card",
+          "d": "Hầu hết du khách phải khai (miễn phí). Hãy làm trong vòng 72 giờ trước khi đến."
+        },
+        {
+          "icon": "⏰",
+          "t": "Khai e-Arrival Card quá sớm",
+          "d": "Nó hết hạn sau 72 giờ kể từ khi nộp — hãy khai gần sát chuyến bay, đừng làm trước hàng tuần."
+        },
+        {
+          "icon": "🛂",
+          "t": "Cho rằng BN(O) tuân theo cùng quy định",
+          "d": "Hướng dẫn này dành cho hộ chiếu HKSAR. Các giấy tờ đi lại khác có thể có yêu cầu khác — hãy kiểm tra giấy tờ của bạn."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Lưu trú quá thời hạn cho phép",
+          "d": "Ở quá tối đa 90 ngày có nguy cơ bị phạt và cấm nhập cảnh trong tương lai."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp khi nhập cảnh Hồng Kông → Hàn Quốc",
+      "items": [
+        {
+          "q": "Người mang hộ chiếu Hồng Kông có cần thị thực vào Hàn Quốc không?",
+          "a": "Không — với du lịch ngắn ngày, người mang hộ chiếu Đặc khu Hành chính Hồng Kông nhập cảnh Hàn Quốc miễn thị thực. Bạn không phải xin bất kỳ thị thực du lịch nào."
+        },
+        {
+          "q": "Tôi có cần K-ETA không?",
+          "a": "Hiện tại thì không. Hồng Kông nằm trong số 22 quốc gia/vùng lãnh thổ được miễn K-ETA đến ngày 31 tháng 12 năm 2026. Yêu cầu này dự kiến trở lại vào ngày 1 tháng 1 năm 2027 trừ khi được gia hạn."
+        },
+        {
+          "q": "Tôi vẫn cần e-Arrival Card chứ?",
+          "a": "Có — hầu hết du khách khai e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 giờ trước khi đến."
+        },
+        {
+          "q": "Tôi có thể lưu trú bao lâu?",
+          "a": "Tối đa 90 ngày, cho mục đích du lịch."
+        },
+        {
+          "q": "Tôi có hộ chiếu BN(O) — điều này có áp dụng không?",
+          "a": "Trang này áp dụng cho hộ chiếu Đặc khu Hành chính Hồng Kông. BN(O) là hộ chiếu Anh và có thể tuân theo quy định khác — hãy kiểm tra yêu cầu cho loại giấy tờ cụ thể đó trước khi đi."
+        },
+        {
+          "q": "Khi nào K-ETA trở lại?",
+          "a": "Việc miễn trừ dự kiến kết thúc vào ngày 31 tháng 12 năm 2026, và K-ETA sẽ hoạt động lại từ ngày 1 tháng 1 năm 2027 trừ khi được gia hạn — hãy xác nhận lại gần ngày đi của bạn."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Thị thực",
+      "stay": "Lưu trú",
+      "entry": "Nhập cảnh",
+      "where": "Lấy ở đâu",
+      "official": "Nguồn chính thức",
+      "required": "Bắt buộc",
+      "conditional": "Nếu áp dụng",
+      "recommended": "Khuyến nghị",
+      "confirm": "Phí và quy định có thể thay đổi — hãy kiểm tra tại nguồn chính thức",
+      "source": "Nguồn",
+      "updated": "Cập nhật",
+      "tldr": "Tóm tắt"
+    }
+  },
+  "th": {
+    "kicker": "คู่มือการเข้าเมือง · ฮ่องกง → เกาหลี",
+    "readingTime": "อ่าน 5 นาที",
+    "h1": "คู่มือการเข้าเกาหลีจากฮ่องกง",
+    "metaTitle": "จากฮ่องกงสู่เกาหลี: ต้องใช้วีซ่าไหม? (2026) — Korea Trip Hub",
+    "metaDesc": "ผู้ถือหนังสือเดินทางฮ่องกง (HKSAR) ต้องใช้วีซ่าเข้าเกาหลีใต้ไหม? ไม่ต้อง — ยกเว้นวีซ่าสูงสุด 90 วัน และ K-ETA ได้รับการยกเว้นจนถึงปี 2026 เพียงกรอก e-Arrival Card ฟรีก่อนเครื่องลงจอด ดูขั้นตอนการเข้าเมืองทั้งหมดด้านใน",
+    "verdict": {
+      "headline": "ไม่ต้องใช้วีซ่าท่องเที่ยว — หนังสือเดินทางฮ่องกง (HKSAR) ได้รับการยกเว้นวีซ่า",
+      "sub": "สำหรับการท่องเที่ยวระยะสั้น คุณไม่ต้องยื่นขอวีซ่าใด ๆ ขณะนี้ K-ETA ก็ได้รับการยกเว้นเช่นกัน ดังนั้นสิ่งสำคัญคือการกรอก e-Arrival Card ฟรีก่อนเครื่องลงจอด",
+      "type": "ยกเว้นวีซ่า (ขณะนี้ K-ETA ได้รับการยกเว้น)",
+      "stay": "สูงสุด 90 วัน",
+      "entry": "การท่องเที่ยวระยะสั้น"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "ไม่ต้องใช้วีซ่า และ K-ETA ได้รับการยกเว้นจนถึงสิ้นปี 2026",
+        "body": "ฮ่องกง (HKSAR) เป็นหนึ่งใน 22 ประเทศ/เขตแดนที่ได้รับการยกเว้น K-ETA จนถึงวันที่ 31 ธันวาคม 2026 ดังนั้นสำหรับการท่องเที่ยวระยะสั้น คุณไม่ต้องยื่นขอทั้งวีซ่าและ K-ETA การยกเว้นนี้มีกำหนดสิ้นสุดและ K-ETA จะกลับมาในวันที่ 1 มกราคม 2027 — โปรดตรวจสอบอีกครั้งก่อนเดินทาง"
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "คุณยังต้องใช้ e-Arrival Card",
+        "body": "นักท่องเที่ยวเกือบทุกคนกรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง (ผู้ถือ K-ETA ที่ยังใช้ได้จะได้รับการยกเว้น แต่เนื่องจาก K-ETA ได้รับการยกเว้นอยู่ คุณจึงควรกรอก e-Arrival Card)"
+      },
+      {
+        "icon": "🛂",
+        "tone": "amber",
+        "title": "หน้านี้สำหรับหนังสือเดินทาง HKSAR",
+        "body": "ครอบคลุมหนังสือเดินทางเขตบริหารพิเศษฮ่องกง (HKSAR) หากคุณเดินทางด้วย BN(O), เอกสารแสดงตน (Document of Identity) หรือหนังสือเดินทางอื่น โปรดตรวจสอบกฎของเอกสารนั้นเอง — อาจแตกต่างกัน"
+      }
+    ],
+    "tldr": [
+      "ขณะนี้ไม่ต้องใช้ทั้งวีซ่าท่องเที่ยวและ K-ETA — ฮ่องกง (HKSAR) ได้รับการยกเว้นวีซ่าและยกเว้น K-ETA จนถึงปี 2026",
+      "อย่าลืมกรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง",
+      "นำหนังสือเดินทางที่มีอายุครอบคลุมตลอดการพำนัก พร้อมหลักฐานการเดินทางออก/ขากลับ",
+      "คุณพำนักได้สูงสุด 90 วัน"
+    ],
+    "steps": {
+      "title": "ขั้นตอนการเข้าเมืองของคุณ",
+      "items": [
+        {
+          "n": 1,
+          "title": "ยืนยันว่าคุณได้รับการยกเว้นวีซ่า",
+          "detail": "หนังสือเดินทางฮ่องกง (HKSAR) เข้าเกาหลีได้โดยไม่ต้องใช้วีซ่าสำหรับการท่องเที่ยวระยะสั้น และ K-ETA ได้รับการยกเว้นจนถึงปี 2026 — ไม่มีอะไรต้องยื่นขอ"
+        },
+        {
+          "n": 2,
+          "title": "กรอก e-Arrival Card",
+          "detail": "ภายใน 72 ชั่วโมงก่อนเดินทางถึง กรอกให้เสร็จฟรีที่ e-arrivalcard.go.kr และบันทึก QR/ใบยืนยันไว้",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "ตรวจสอบหนังสือเดินทางและตั๋วเดินทางต่อ",
+          "detail": "ตรวจสอบให้แน่ใจว่าหนังสือเดินทางมีอายุครอบคลุมตลอดการพำนัก และเตรียมตั๋วขากลับ/เดินทางต่อพร้อมที่อยู่ที่พักแห่งแรก"
+        },
+        {
+          "n": 4,
+          "title": "ที่ด่านตรวจคนเข้าเมือง",
+          "detail": "แสดงหนังสือเดินทางและใบยืนยัน e-Arrival อาจมีการเก็บลายนิ้วมือและถ่ายรูป โปรดเดินทางเพื่อการท่องเที่ยวเท่านั้น — การเข้าเมืองแบบยกเว้นวีซ่าไม่อนุญาตให้ทำงานที่ได้รับค่าจ้าง"
+        }
+      ]
+    },
+    "documents": {
+      "title": "สิ่งที่ต้องเตรียมให้พร้อม",
+      "intro": "คุณไม่ต้องยื่นคำขอวีซ่า — แต่เตรียมสิ่งเหล่านี้ให้พร้อมเพื่อการเข้าเมืองที่ราบรื่น",
+      "cols": [
+        "รายการ",
+        "หาได้ที่ไหน",
+        "หมายเหตุ"
+      ],
+      "rows": [
+        {
+          "doc": "หนังสือเดินทาง",
+          "req": "required",
+          "where": "คุณมีอยู่แล้ว",
+          "how": "หนังสือเดินทาง HKSAR มีอายุครอบคลุมตลอดการพำนัก"
+        },
+        {
+          "doc": "ใบยืนยัน e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "ฟรี; กรอกภายใน 72 ชั่วโมงก่อนเดินทางถึงและบันทึก QR ไว้",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "ตั๋วขากลับ/เดินทางต่อ",
+          "req": "required",
+          "where": "สายการบิน / ตัวแทนท่องเที่ยว",
+          "how": "หลักฐานว่าคุณจะเดินทางออกภายในระยะเวลาพำนักที่ได้รับอนุญาต"
+        },
+        {
+          "doc": "ที่อยู่ที่พัก",
+          "req": "required",
+          "where": "เว็บไซต์จองที่พัก",
+          "how": "ที่อยู่โรงแรม/ที่พักแห่งแรกของคุณ (ถูกถามใน e-Arrival Card)"
+        },
+        {
+          "doc": "ค่าใช้จ่ายสำหรับการเดินทาง",
+          "req": "recommended",
+          "where": "ตัวคุณเอง",
+          "how": "บัตรใช้ได้อย่างแพร่หลาย; พกเงินสดบ้างสำหรับตลาดและร้านค้าเล็ก ๆ"
+        }
+      ],
+      "legend": {
+        "required": "จำเป็น",
+        "conditional": "หากเกี่ยวข้อง",
+        "recommended": "แนะนำ"
+      }
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดในการเข้าเมืองที่พบบ่อย",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "จ่าย 'ค่าธรรมเนียมวีซ่า/K-ETA' ที่คุณไม่ต้องจ่าย",
+          "d": "ขณะนี้คุณไม่ต้องใช้ทั้งวีซ่าและ K-ETA เว็บไซต์หลอกลวงยังคงเรียกเก็บค่าธรรมเนียมเหล่านี้ — โปรดเพิกเฉย"
+        },
+        {
+          "icon": "📝",
+          "t": "ข้ามการกรอก e-Arrival Card",
+          "d": "นักท่องเที่ยวส่วนใหญ่ต้องกรอก (ฟรี) ทำภายใน 72 ชั่วโมงก่อนเดินทางถึง"
+        },
+        {
+          "icon": "⏰",
+          "t": "กรอก e-Arrival Card เร็วเกินไป",
+          "d": "จะหมดอายุ 72 ชั่วโมงหลังจากส่ง — กรอกใกล้ ๆ เที่ยวบิน ไม่ใช่ล่วงหน้าหลายสัปดาห์"
+        },
+        {
+          "icon": "🛂",
+          "t": "คิดเอาเองว่า BN(O) ใช้กฎเดียวกัน",
+          "d": "คู่มือนี้สำหรับหนังสือเดินทาง HKSAR เอกสารเดินทางอื่นอาจมีข้อกำหนดต่างกัน — โปรดตรวจสอบของคุณ"
+        },
+        {
+          "icon": "🗓️",
+          "t": "พำนักเกินระยะเวลาที่ได้รับอนุญาต",
+          "d": "การพำนักเกินสูงสุด 90 วันเสี่ยงต่อค่าปรับและการถูกห้ามเข้าประเทศในอนาคต"
+        }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเกี่ยวกับการเข้าเมือง ฮ่องกง → เกาหลี",
+      "items": [
+        {
+          "q": "ผู้ถือหนังสือเดินทางฮ่องกงต้องใช้วีซ่าเข้าเกาหลีไหม?",
+          "a": "ไม่ต้อง — สำหรับการท่องเที่ยวระยะสั้น ผู้ถือหนังสือเดินทางเขตบริหารพิเศษฮ่องกง (HKSAR) เข้าเกาหลีได้โดยไม่ต้องใช้วีซ่า คุณไม่ต้องยื่นขอวีซ่าท่องเที่ยวใด ๆ"
+        },
+        {
+          "q": "ฉันต้องใช้ K-ETA ไหม?",
+          "a": "ขณะนี้ไม่ต้อง ฮ่องกงอยู่ในกลุ่ม 22 ประเทศ/เขตแดนที่ได้รับการยกเว้น K-ETA จนถึงวันที่ 31 ธันวาคม 2026 ข้อกำหนดนี้มีกำหนดกลับมาในวันที่ 1 มกราคม 2027 เว้นแต่จะมีการขยายเวลา"
+        },
+        {
+          "q": "ฉันยังต้องใช้ e-Arrival Card ไหม?",
+          "a": "ต้องใช้ — นักท่องเที่ยวส่วนใหญ่กรอก e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง"
+        },
+        {
+          "q": "ฉันพำนักได้นานแค่ไหน?",
+          "a": "สูงสุด 90 วัน สำหรับการท่องเที่ยว"
+        },
+        {
+          "q": "ฉันถือหนังสือเดินทาง BN(O) — ใช้กับกรณีนี้ไหม?",
+          "a": "หน้านี้ครอบคลุมหนังสือเดินทางเขตบริหารพิเศษฮ่องกง (HKSAR) BN(O) เป็นหนังสือเดินทางอังกฤษและอาจใช้กฎที่แตกต่างกัน — โปรดตรวจสอบข้อกำหนดของเอกสารนั้นก่อนเดินทาง"
+        },
+        {
+          "q": "K-ETA จะกลับมาเมื่อไหร่?",
+          "a": "การยกเว้นมีกำหนดสิ้นสุดในวันที่ 31 ธันวาคม 2026 และ K-ETA จะกลับมาใช้ในวันที่ 1 มกราคม 2027 เว้นแต่จะมีการขยายเวลา — โปรดตรวจสอบอีกครั้งใกล้วันเดินทางของคุณ"
+        }
+      ]
+    },
+    "ui": {
+      "visa": "วีซ่า",
+      "stay": "การพำนัก",
+      "entry": "การเข้าเมือง",
+      "where": "หาได้ที่ไหน",
+      "official": "แหล่งข้อมูลทางการ",
+      "required": "จำเป็น",
+      "conditional": "หากเกี่ยวข้อง",
+      "recommended": "แนะนำ",
+      "confirm": "ค่าธรรมเนียม/กฎระเบียบอาจเปลี่ยนแปลง — โปรดตรวจสอบจากแหล่งข้อมูลทางการ",
+      "source": "แหล่งที่มา",
+      "updated": "อัปเดต",
+      "tldr": "สรุป"
+    }
+  },
+  "id": {
+    "kicker": "Panduan masuk · Hong Kong → Korea",
+    "readingTime": "Baca 5 menit",
+    "h1": "Panduan Masuk Korea dari Hong Kong",
+    "metaTitle": "Dari Hong Kong ke Korea: Perlukah Visa? (2026) — Korea Trip Hub",
+    "metaDesc": "Apakah pemegang paspor Hong Kong (HKSAR) memerlukan visa untuk Korea Selatan? Tidak — bebas visa hingga 90 hari, dan K-ETA dibebaskan hingga 2026. Cukup isi e-Arrival Card gratis sebelum mendarat. Langkah-langkah masuk lengkap di dalam.",
+    "verdict": {
+      "headline": "Tidak perlu visa turis — paspor Hong Kong (HKSAR) bebas visa.",
+      "sub": "Untuk wisata jangka pendek Anda tidak mengajukan visa apa pun. Saat ini K-ETA juga dibebaskan, jadi hal utama yang perlu dilakukan adalah mengisi e-Arrival Card gratis sebelum mendarat.",
+      "type": "Bebas visa (K-ETA saat ini dibebaskan)",
+      "stay": "Hingga 90 hari",
+      "entry": "Wisata jangka pendek"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Tanpa visa, dan K-ETA dibebaskan hingga 2026",
+        "body": "Hong Kong (HKSAR) adalah salah satu dari 22 negara/kawasan yang dibebaskan dari K-ETA hingga 31 Desember 2026, jadi untuk wisata singkat Anda tidak mengajukan visa maupun K-ETA. Pembebasan ini dijadwalkan berakhir dan K-ETA kembali berlaku pada 1 Januari 2027 — konfirmasikan kembali sebelum bepergian."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "Anda tetap memerlukan e-Arrival Card",
+        "body": "Hampir semua pengunjung mengisi e-Arrival Card gratis di e-arrivalcard.go.kr, dalam waktu 72 jam sebelum tiba. (Pemegang K-ETA yang masih berlaku dibebaskan, tetapi karena K-ETA sedang dibebaskan sebaiknya Anda mengisi e-Arrival Card.)"
+      },
+      {
+        "icon": "🛂",
+        "tone": "amber",
+        "title": "Halaman ini untuk paspor HKSAR",
+        "body": "Halaman ini membahas paspor Hong Kong SAR. Jika Anda bepergian dengan BN(O), Document of Identity, atau paspor lain, periksa aturan dokumen tersebut sendiri — bisa berbeda."
+      }
+    ],
+    "tldr": [
+      "Saat ini tidak perlu visa turis maupun K-ETA — Hong Kong (HKSAR) bebas visa dan bebas K-ETA hingga 2026.",
+      "Isi e-Arrival Card gratis di e-arrivalcard.go.kr dalam waktu 72 jam sebelum tiba.",
+      "Bawa paspor yang berlaku selama masa tinggal Anda beserta bukti perjalanan lanjutan/pulang.",
+      "Anda dapat tinggal hingga 90 hari."
+    ],
+    "steps": {
+      "title": "Langkah-langkah masuk Anda",
+      "items": [
+        {
+          "n": 1,
+          "title": "Pastikan Anda bebas visa",
+          "detail": "Paspor Hong Kong (HKSAR) masuk ke Korea tanpa visa untuk wisata singkat, dan K-ETA dibebaskan hingga 2026 — tidak ada yang perlu diajukan."
+        },
+        {
+          "n": 2,
+          "title": "Isi e-Arrival Card",
+          "detail": "Dalam waktu 72 jam sebelum tiba, lengkapi secara gratis di e-arrivalcard.go.kr dan simpan QR/konfirmasinya.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Periksa paspor & tiket lanjutan",
+          "detail": "Pastikan paspor Anda berlaku selama masa tinggal, dan siapkan tiket pulang/lanjutan beserta alamat penginapan pertama Anda."
+        },
+        {
+          "n": 4,
+          "title": "Di imigrasi",
+          "detail": "Tunjukkan paspor dan konfirmasi e-Arrival Anda; sidik jari dan foto mungkin diambil. Tetap untuk tujuan wisata — tidak boleh bekerja berbayar dengan masuk bebas visa."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Yang perlu disiapkan",
+      "intro": "Anda tidak mengajukan permohonan visa — tetapi siapkan hal-hal ini agar masuk dengan lancar.",
+      "cols": [
+        "Item",
+        "Di mana mendapatkannya",
+        "Catatan"
+      ],
+      "rows": [
+        {
+          "doc": "Paspor",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Paspor HKSAR, berlaku selama masa tinggal Anda."
+        },
+        {
+          "doc": "Konfirmasi e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Gratis; isi dalam waktu 72 jam sebelum tiba dan simpan QR-nya.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Tiket pulang/lanjutan",
+          "req": "required",
+          "where": "Maskapai / agen perjalanan",
+          "how": "Bukti bahwa Anda akan pergi dalam masa tinggal yang diizinkan."
+        },
+        {
+          "doc": "Alamat penginapan",
+          "req": "required",
+          "where": "Situs pemesanan",
+          "how": "Alamat hotel/penginapan pertama Anda (ditanyakan pada e-Arrival Card)."
+        },
+        {
+          "doc": "Dana untuk perjalanan Anda",
+          "req": "recommended",
+          "where": "Anda",
+          "how": "Kartu diterima luas; bawa sedikit uang tunai untuk pasar dan pedagang kecil."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berlaku",
+        "recommended": "Disarankan"
+      }
+    },
+    "pitfalls": {
+      "title": "Kesalahan umum saat masuk",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "Membayar 'biaya visa/K-ETA' yang tidak Anda perlukan",
+          "d": "Saat ini Anda tidak perlu visa maupun K-ETA. Situs penipuan tetap menagihnya — abaikan saja."
+        },
+        {
+          "icon": "📝",
+          "t": "Melewatkan e-Arrival Card",
+          "d": "Sebagian besar pengunjung wajib mengisinya (gratis). Lakukan dalam waktu 72 jam sebelum tiba."
+        },
+        {
+          "icon": "⏰",
+          "t": "Mengisi e-Arrival Card terlalu awal",
+          "d": "Kadaluarsa 72 jam setelah dikirim — isi menjelang penerbangan Anda, bukan berminggu-minggu sebelumnya."
+        },
+        {
+          "icon": "🛂",
+          "t": "Mengira BN(O) mengikuti aturan yang sama",
+          "d": "Panduan ini untuk paspor HKSAR. Dokumen perjalanan lain dapat memiliki persyaratan berbeda — periksa milik Anda."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Melewati batas masa tinggal",
+          "d": "Tinggal lebih dari hingga 90 hari berisiko denda dan larangan masuk di masa depan."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ masuk Hong Kong → Korea",
+      "items": [
+        {
+          "q": "Apakah pemegang paspor Hong Kong memerlukan visa untuk Korea?",
+          "a": "Tidak — untuk wisata jangka pendek, pemegang paspor Hong Kong SAR masuk ke Korea tanpa visa. Anda tidak mengajukan visa turis apa pun."
+        },
+        {
+          "q": "Apakah saya memerlukan K-ETA?",
+          "a": "Saat ini tidak. Hong Kong termasuk di antara 22 negara/kawasan yang dibebaskan dari K-ETA hingga 31 Desember 2026. Persyaratan ini dijadwalkan kembali pada 1 Januari 2027 kecuali diperpanjang."
+        },
+        {
+          "q": "Apakah saya tetap memerlukan e-Arrival Card?",
+          "a": "Ya — sebagian besar pengunjung mengisi e-Arrival Card gratis di e-arrivalcard.go.kr, dalam waktu 72 jam sebelum tiba."
+        },
+        {
+          "q": "Berapa lama saya boleh tinggal?",
+          "a": "Hingga 90 hari, untuk wisata."
+        },
+        {
+          "q": "Saya memegang paspor BN(O) — apakah ini berlaku?",
+          "a": "Halaman ini membahas paspor Hong Kong SAR. BN(O) adalah paspor Inggris dan dapat mengikuti aturan yang berbeda — periksa persyaratan untuk dokumen tersebut sebelum bepergian."
+        },
+        {
+          "q": "Kapan K-ETA kembali berlaku?",
+          "a": "Pembebasan dijadwalkan berakhir pada 31 Desember 2026, dengan K-ETA berlaku lagi mulai 1 Januari 2027 kecuali diperpanjang — konfirmasikan kembali menjelang tanggal perjalanan Anda."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Visa",
+      "stay": "Masa tinggal",
+      "entry": "Masuk",
+      "where": "Di mana",
+      "official": "Sumber resmi",
+      "required": "Wajib",
+      "conditional": "Jika berlaku",
+      "recommended": "Disarankan",
+      "confirm": "Biaya/aturan dapat berubah — konfirmasikan di sumber resmi",
+      "source": "Sumber",
+      "updated": "Diperbarui",
+      "tldr": "Ringkasan"
+    }
+  },
+  "es": {
+    "kicker": "Guía de entrada · Hong Kong → Corea",
+    "readingTime": "5 min de lectura",
+    "h1": "Guía de entrada a Corea desde Hong Kong",
+    "metaTitle": "De Hong Kong a Corea: ¿necesitas visado? (2026) — Korea Trip Hub",
+    "metaDesc": "¿Los titulares de pasaporte de Hong Kong (HKSAR) necesitan visado para Corea del Sur? No — sin visado hasta 90 días, y la K-ETA está exenta hasta 2026. Solo rellena la e-Arrival Card gratuita antes de aterrizar. Todos los pasos de entrada dentro.",
+    "verdict": {
+      "need": false,
+      "headline": "No se necesita visado de turista — los pasaportes de Hong Kong (HKSAR) entran sin visado.",
+      "sub": "Para el turismo de corta duración no solicitas ningún visado. Ahora mismo la K-ETA también está exenta, así que lo principal es rellenar la e-Arrival Card gratuita antes de aterrizar.",
+      "type": "Sin visado (K-ETA exenta actualmente)",
+      "stay": "Hasta 90 días",
+      "entry": "Turismo de corta duración"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Sin visado, y K-ETA exenta hasta 2026",
+        "body": "Hong Kong (HKSAR) es uno de los 22 países/regiones exentos de la K-ETA hasta el 31 de diciembre de 2026, por lo que para el turismo de corta duración no solicitas ni visado ni K-ETA. Está previsto que la exención finalice y la K-ETA vuelva el 1 de enero de 2027 — vuelve a confirmarlo antes de viajar."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "Aún necesitas la e-Arrival Card",
+        "body": "Casi todos los visitantes rellenan la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas previas a la llegada. (Quienes tengan una K-ETA válida están exentos, pero al estar la K-ETA exenta conviene rellenar la e-Arrival Card.)"
+      },
+      {
+        "icon": "🛂",
+        "tone": "amber",
+        "title": "Esta página es para el pasaporte HKSAR",
+        "body": "Cubre el pasaporte de Hong Kong SAR. Si viajas con un BN(O), un Documento de Identidad u otro pasaporte, consulta las normas propias de ese documento — pueden diferir."
+      }
+    ],
+    "tldr": [
+      "Ahora mismo no se necesita ni visado de turista ni K-ETA — Hong Kong (HKSAR) entra sin visado y está exento de la K-ETA hasta 2026.",
+      "Rellena la e-Arrival Card gratuita en e-arrivalcard.go.kr dentro de las 72 horas previas a la llegada.",
+      "Lleva un pasaporte válido para toda tu estancia y una prueba de viaje de salida/regreso.",
+      "Puedes quedarte hasta 90 días."
+    ],
+    "steps": {
+      "title": "Tus pasos de entrada",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirma que no necesitas visado",
+          "detail": "Los pasaportes de Hong Kong (HKSAR) entran en Corea sin visado para el turismo de corta duración, y la K-ETA está exenta hasta 2026 — no hay nada que solicitar."
+        },
+        {
+          "n": 2,
+          "title": "Rellena la e-Arrival Card",
+          "detail": "Dentro de las 72 horas previas a la llegada, complétala gratis en e-arrivalcard.go.kr y guarda el QR/confirmación.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Revisa el pasaporte y el billete de salida",
+          "detail": "Asegúrate de que tu pasaporte sea válido durante toda tu estancia y ten un billete de regreso/salida más la dirección de tu primer alojamiento."
+        },
+        {
+          "n": 4,
+          "title": "En el control de inmigración",
+          "detail": "Muestra tu pasaporte y la confirmación de la e-Arrival; pueden tomarte las huellas y una foto. Limítate al turismo — no se permite trabajo remunerado con la entrada sin visado."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Qué tener preparado",
+      "intro": "No presentas una solicitud de visado, pero ten esto listo para una entrada sin contratiempos.",
+      "cols": [
+        "Elemento",
+        "Dónde conseguirlo",
+        "Notas"
+      ],
+      "rows": [
+        {
+          "doc": "Pasaporte",
+          "req": "required",
+          "where": "Ya lo tienes",
+          "how": "Pasaporte HKSAR, válido durante toda tu estancia."
+        },
+        {
+          "doc": "Confirmación de la e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Gratis; rellénala dentro de las 72 horas previas a la llegada y guarda el QR.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Billete de regreso/salida",
+          "req": "required",
+          "where": "Aerolínea / agencia de viajes",
+          "how": "Prueba de que saldrás dentro de tu estancia permitida."
+        },
+        {
+          "doc": "Dirección de alojamiento",
+          "req": "required",
+          "where": "Sitios de reservas",
+          "how": "La dirección de tu primer hotel/alojamiento (se pide en la e-Arrival Card)."
+        },
+        {
+          "doc": "Fondos para tu viaje",
+          "req": "recommended",
+          "where": "Tú",
+          "how": "Las tarjetas se aceptan ampliamente; lleva algo de efectivo para mercados y pequeños comercios."
+        }
+      ],
+      "legend": {
+        "required": "Obligatorio",
+        "conditional": "Si corresponde",
+        "recommended": "Recomendado"
+      }
+    },
+    "pitfalls": {
+      "title": "Errores comunes de entrada",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "Pagar una 'tasa de visado/K-ETA' que no debes",
+          "d": "Ahora mismo no necesitas ni visado ni K-ETA. Aun así, sitios fraudulentos cobran por ellos — ignóralos."
+        },
+        {
+          "icon": "📝",
+          "t": "Saltarte la e-Arrival Card",
+          "d": "La mayoría de los visitantes deben rellenarla (gratis). Hazlo dentro de las 72 horas previas a la llegada."
+        },
+        {
+          "icon": "⏰",
+          "t": "Rellenar la e-Arrival Card demasiado pronto",
+          "d": "Caduca 72 horas después de enviarla — rellénala cerca de tu vuelo, no semanas antes."
+        },
+        {
+          "icon": "🛂",
+          "t": "Suponer que un BN(O) sigue la misma norma",
+          "d": "Esta guía es para el pasaporte HKSAR. Otros documentos de viaje pueden tener requisitos diferentes — comprueba el tuyo."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Superar tu estancia permitida",
+          "d": "Quedarte más de hasta 90 días conlleva multas y posibles prohibiciones de entrada futuras."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ de entrada Hong Kong → Corea",
+      "items": [
+        {
+          "q": "¿Los titulares de pasaporte de Hong Kong necesitan visado para Corea?",
+          "a": "No — para el turismo de corta duración, los titulares de pasaporte de Hong Kong SAR entran en Corea sin visado. No solicitas ningún visado de turista."
+        },
+        {
+          "q": "¿Necesito la K-ETA?",
+          "a": "Ahora mismo no. Hong Kong está entre los 22 países/regiones exentos de la K-ETA hasta el 31 de diciembre de 2026. Está previsto que el requisito vuelva el 1 de enero de 2027, salvo que se prorrogue."
+        },
+        {
+          "q": "¿Aún necesito la e-Arrival Card?",
+          "a": "Sí — la mayoría de los visitantes rellenan la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas previas a la llegada."
+        },
+        {
+          "q": "¿Cuánto tiempo puedo quedarme?",
+          "a": "Hasta 90 días, por turismo."
+        },
+        {
+          "q": "Tengo un pasaporte BN(O) — ¿esto aplica?",
+          "a": "Esta página cubre el pasaporte de Hong Kong SAR. Un BN(O) es un pasaporte británico y puede seguir normas diferentes — consulta los requisitos de ese documento concreto antes de viajar."
+        },
+        {
+          "q": "¿Cuándo vuelve la K-ETA?",
+          "a": "Está previsto que la exención finalice el 31 de diciembre de 2026 y que la K-ETA se reanude el 1 de enero de 2027, salvo prórroga — vuelve a confirmarlo cerca de tu fecha de viaje."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Visado",
+      "stay": "Estancia",
+      "entry": "Entrada",
+      "where": "Dónde",
+      "official": "Fuentes oficiales",
+      "required": "Obligatorio",
+      "conditional": "Si corresponde",
+      "recommended": "Recomendado",
+      "confirm": "Las tasas/normas cambian — confírmalo en la fuente",
+      "source": "Fuente",
+      "updated": "Actualizado",
+      "tldr": "En resumen"
+    }
+  },
+  "ms": {
+    "kicker": "Panduan kemasukan · Hong Kong → Korea",
+    "readingTime": "Bacaan 5 minit",
+    "h1": "Panduan Kemasukan ke Korea dari Hong Kong",
+    "metaTitle": "Dari Hong Kong ke Korea: Perlukah Anda Visa? (2026) — Korea Trip Hub",
+    "metaDesc": "Adakah pemegang pasport Hong Kong (HKSAR) memerlukan visa untuk Korea Selatan? Tidak — bebas visa sehingga 90 hari, dan K-ETA dikecualikan sehingga 2026. Cuma isi e-Arrival Card percuma sebelum anda mendarat. Langkah kemasukan penuh di dalam.",
+    "verdict": {
+      "headline": "Tiada visa pelancong diperlukan — pasport Hong Kong (HKSAR) bebas visa.",
+      "sub": "Untuk pelancongan jangka pendek anda tidak memohon sebarang visa. Buat masa ini K-ETA turut dikecualikan, jadi perkara utama yang perlu dilakukan ialah mengisi e-Arrival Card percuma sebelum anda mendarat.",
+      "type": "Bebas visa (K-ETA kini dikecualikan)",
+      "stay": "Sehingga 90 hari",
+      "entry": "Pelancongan jangka pendek"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Tiada visa, dan K-ETA dikecualikan sehingga 2026",
+        "body": "Hong Kong (HKSAR) ialah salah satu daripada 22 negara/wilayah yang dikecualikan daripada K-ETA sehingga 31 Disember 2026, jadi untuk pelancongan jangka pendek anda tidak memohon visa mahupun K-ETA. Pengecualian ini dijadualkan tamat dan K-ETA kembali pada 1 Januari 2027 — sahkan semula sebelum anda bertolak."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "Anda masih memerlukan e-Arrival Card",
+        "body": "Hampir semua pengunjung mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam masa 72 jam sebelum tiba. (Pemegang K-ETA yang sah dikecualikan, tetapi kerana K-ETA sedang dikecualikan anda patut mengisi e-Arrival Card.)"
+      },
+      {
+        "icon": "🛂",
+        "tone": "amber",
+        "title": "Halaman ini untuk pasport HKSAR",
+        "body": "Ia merangkumi pasport Hong Kong SAR. Jika anda mengembara dengan BN(O), Document of Identity, atau pasport lain, semak peraturan dokumen itu sendiri — ia mungkin berbeza."
+      }
+    ],
+    "tldr": [
+      "Buat masa ini tiada visa pelancong dan tiada K-ETA diperlukan — Hong Kong (HKSAR) bebas visa dan dikecualikan K-ETA sehingga 2026.",
+      "Isilah e-Arrival Card percuma di e-arrivalcard.go.kr dalam masa 72 jam sebelum tiba.",
+      "Bawa pasport yang sah sepanjang tempoh tinggal anda beserta bukti perjalanan seterusnya/pulang.",
+      "Anda boleh tinggal sehingga 90 hari."
+    ],
+    "steps": {
+      "title": "Langkah kemasukan anda",
+      "items": [
+        {
+          "n": 1,
+          "title": "Sahkan anda bebas visa",
+          "detail": "Pasport Hong Kong (HKSAR) masuk ke Korea tanpa visa untuk pelancongan jangka pendek, dan K-ETA dikecualikan sehingga 2026 — tiada apa-apa untuk dimohon."
+        },
+        {
+          "n": 2,
+          "title": "Isi e-Arrival Card",
+          "detail": "Dalam masa 72 jam sebelum tiba, lengkapkannya secara percuma di e-arrivalcard.go.kr dan simpan QR/pengesahan.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Semak pasport & tiket seterusnya",
+          "detail": "Pastikan pasport anda sah sepanjang tempoh tinggal, dan sediakan tiket pulang/seterusnya beserta alamat penginapan pertama anda."
+        },
+        {
+          "n": 4,
+          "title": "Di kawalan imigresen",
+          "detail": "Tunjukkan pasport dan pengesahan e-Arrival anda; cap jari dan gambar mungkin diambil. Kekalkan tujuan pelancongan — tiada kerja bergaji dengan kemasukan bebas visa."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Apa yang perlu disediakan",
+      "intro": "Anda tidak mengemukakan permohonan visa — tetapi sediakan perkara ini untuk kemasukan yang lancar.",
+      "cols": [
+        "Perkara",
+        "Di mana untuk mendapatkannya",
+        "Catatan"
+      ],
+      "rows": [
+        {
+          "doc": "Pasport",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Pasport HKSAR, sah sepanjang tempoh tinggal anda."
+        },
+        {
+          "doc": "Pengesahan e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Percuma; isi dalam masa 72 jam sebelum tiba dan simpan QR.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Tiket pulang/seterusnya",
+          "req": "required",
+          "where": "Syarikat penerbangan / agensi pelancongan",
+          "how": "Bukti bahawa anda akan bertolak dalam tempoh tinggal yang dibenarkan."
+        },
+        {
+          "doc": "Alamat penginapan",
+          "req": "required",
+          "where": "Laman tempahan",
+          "how": "Alamat hotel/penginapan pertama anda (ditanya pada e-Arrival Card)."
+        },
+        {
+          "doc": "Dana untuk perjalanan anda",
+          "req": "recommended",
+          "where": "Anda",
+          "how": "Kad diterima secara meluas; bawa sedikit wang tunai untuk pasar dan peniaga kecil."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berkenaan",
+        "recommended": "Disyorkan"
+      }
+    },
+    "pitfalls": {
+      "title": "Kesilapan kemasukan yang biasa",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "Membayar 'yuran visa/K-ETA' yang anda tidak perlu bayar",
+          "d": "Buat masa ini anda tidak perlukan visa mahupun K-ETA. Laman penipuan masih mengenakan bayaran untuknya — abaikan sahaja."
+        },
+        {
+          "icon": "📝",
+          "t": "Melangkau e-Arrival Card",
+          "d": "Kebanyakan pengunjung wajib mengisinya (percuma). Lakukannya dalam masa 72 jam sebelum tiba."
+        },
+        {
+          "icon": "⏰",
+          "t": "Mengisi e-Arrival Card terlalu awal",
+          "d": "Ia luput 72 jam selepas dihantar — isikannya hampir dengan penerbangan anda, bukan berminggu-minggu lebih awal."
+        },
+        {
+          "icon": "🛂",
+          "t": "Menganggap BN(O) mengikut peraturan yang sama",
+          "d": "Panduan ini untuk pasport HKSAR. Dokumen perjalanan lain mungkin mempunyai keperluan berbeza — semak dokumen anda."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Tinggal melebihi tempoh yang dibenarkan",
+          "d": "Tinggal melebihi sehingga 90 hari berisiko denda dan larangan masuk pada masa hadapan."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Soalan Lazim kemasukan Hong Kong → Korea",
+      "items": [
+        {
+          "q": "Adakah pemegang pasport Hong Kong memerlukan visa untuk Korea?",
+          "a": "Tidak — untuk pelancongan jangka pendek, pemegang pasport Hong Kong SAR masuk ke Korea tanpa visa. Anda tidak memohon sebarang visa pelancong."
+        },
+        {
+          "q": "Adakah saya memerlukan K-ETA?",
+          "a": "Buat masa ini tidak. Hong Kong termasuk dalam 22 negara/wilayah yang dikecualikan daripada K-ETA sehingga 31 Disember 2026. Keperluan ini dijadualkan kembali pada 1 Januari 2027 melainkan dilanjutkan."
+        },
+        {
+          "q": "Adakah saya masih memerlukan e-Arrival Card?",
+          "a": "Ya — kebanyakan pengunjung mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam masa 72 jam sebelum tiba."
+        },
+        {
+          "q": "Berapa lama saya boleh tinggal?",
+          "a": "Sehingga 90 hari, untuk pelancongan."
+        },
+        {
+          "q": "Saya memegang pasport BN(O) — adakah ini terpakai?",
+          "a": "Halaman ini merangkumi pasport Hong Kong SAR. BN(O) ialah pasport British dan mungkin mengikut peraturan berbeza — semak keperluan untuk dokumen tersebut sebelum anda mengembara."
+        },
+        {
+          "q": "Bilakah K-ETA kembali?",
+          "a": "Pengecualian dijadualkan tamat pada 31 Disember 2026, dengan K-ETA disambung semula pada 1 Januari 2027 melainkan dilanjutkan — sahkan semula hampir dengan tarikh perjalanan anda."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Visa",
+      "stay": "Tempoh tinggal",
+      "entry": "Kemasukan",
+      "where": "Di mana",
+      "official": "Sumber rasmi",
+      "required": "Wajib",
+      "conditional": "Jika berkenaan",
+      "recommended": "Disyorkan",
+      "confirm": "Yuran/peraturan berubah — sahkan di sumber rasmi",
+      "source": "Sumber",
+      "updated": "Dikemas kini",
+      "tldr": "Ringkasan"
+    }
+  },
+  "ko": {
+    "kicker": "입국 가이드 · 홍콩 → 한국",
+    "readingTime": "5분 읽기",
+    "h1": "홍콩에서 한국 입국 가이드",
+    "metaTitle": "홍콩에서 한국: 비자가 필요할까요? (2026) — Korea Trip Hub",
+    "metaDesc": "홍콩(HKSAR) 여권 소지자는 한국 비자가 필요할까요? 아니요 — 최대 90일 무비자이며, K-ETA도 2026년까지 면제됩니다. 착륙 전에 무료 e-Arrival Card만 신청하면 됩니다. 전체 입국 절차를 안내합니다.",
+    "verdict": {
+      "headline": "관광 비자 불필요 — 홍콩(HKSAR) 여권은 무비자입니다.",
+      "sub": "단기 관광이라면 어떤 비자도 신청하지 않습니다. 현재는 K-ETA도 면제되어, 착륙 전에 무료 e-Arrival Card를 신청하는 것이 핵심입니다.",
+      "type": "무비자 (현재 K-ETA 면제)",
+      "stay": "최대 90일",
+      "entry": "단기 관광"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "비자 불필요, K-ETA도 2026년까지 면제",
+        "body": "홍콩(HKSAR)은 2026년 12월 31일까지 K-ETA가 면제되는 22개국·지역 중 하나로, 단기 관광에는 비자도 K-ETA도 신청하지 않습니다. 이 면제는 종료될 예정이며 K-ETA는 2027년 1월 1일에 다시 시행됩니다 — 여행 전 다시 확인하세요."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "그래도 e-Arrival Card는 필요합니다",
+        "body": "거의 모든 방문객이 도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 신청합니다. (유효한 K-ETA 소지자는 면제되지만, K-ETA가 면제된 지금은 e-Arrival Card를 신청해야 합니다.)"
+      },
+      {
+        "icon": "🛂",
+        "tone": "amber",
+        "title": "이 페이지는 HKSAR 여권 기준입니다",
+        "body": "이 안내는 홍콩특별행정구(HKSAR) 여권을 다룹니다. BN(O), 신분증명서(Document of Identity), 또는 다른 여권으로 여행한다면 해당 서류의 규정을 확인하세요 — 규정이 다를 수 있습니다."
+      }
+    ],
+    "tldr": [
+      "지금은 관광 비자도 K-ETA도 필요 없습니다 — 홍콩(HKSAR)은 무비자이며 2026년까지 K-ETA도 면제됩니다.",
+      "도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 꼭 신청하세요.",
+      "체류 기간 동안 유효한 여권과 출국/귀국 항공편 증빙을 준비하세요.",
+      "최대 90일까지 체류할 수 있습니다."
+    ],
+    "steps": {
+      "title": "입국 절차",
+      "items": [
+        {
+          "n": 1,
+          "title": "무비자 여부 확인",
+          "detail": "홍콩(HKSAR) 여권은 단기 관광 시 한국에 무비자로 입국하며, K-ETA도 2026년까지 면제됩니다 — 신청할 것이 없습니다."
+        },
+        {
+          "n": 2,
+          "title": "e-Arrival Card 신청",
+          "detail": "도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료로 작성하고 QR/확인서를 저장하세요.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "여권과 출국 항공권 확인",
+          "detail": "여권이 체류 기간 동안 유효한지 확인하고, 귀국/출국 항공권과 첫 숙소 주소를 준비하세요."
+        },
+        {
+          "n": 4,
+          "title": "입국 심사에서",
+          "detail": "여권과 e-Arrival 확인서를 제시하며, 지문과 사진을 채취할 수 있습니다. 목적은 관광에 한정하세요 — 무비자 입국으로는 유급 노동을 할 수 없습니다."
+        }
+      ]
+    },
+    "documents": {
+      "title": "미리 준비할 것",
+      "intro": "비자 신청서는 제출하지 않지만, 원활한 입국을 위해 다음을 준비해 두세요.",
+      "cols": [
+        "항목",
+        "발급처",
+        "비고"
+      ],
+      "rows": [
+        {
+          "doc": "여권",
+          "req": "required",
+          "where": "이미 소지",
+          "how": "HKSAR 여권, 체류 기간 동안 유효할 것."
+        },
+        {
+          "doc": "e-Arrival Card 확인서",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "무료. 도착 전 72시간 이내에 신청하고 QR을 저장하세요.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "귀국/출국 항공권",
+          "req": "required",
+          "where": "항공사 / 여행사",
+          "how": "허용된 체류 기간 내에 출국한다는 증빙."
+        },
+        {
+          "doc": "숙소 주소",
+          "req": "required",
+          "where": "예약 사이트",
+          "how": "첫 호텔/숙소 주소 (e-Arrival Card에서 묻습니다)."
+        },
+        {
+          "doc": "여행 경비",
+          "req": "recommended",
+          "where": "본인",
+          "how": "카드는 널리 사용되지만, 시장이나 소규모 상점을 위해 현금도 조금 지참하세요."
+        }
+      ],
+      "legend": {
+        "required": "필수",
+        "conditional": "해당하는 경우",
+        "recommended": "권장"
+      }
+    },
+    "pitfalls": {
+      "title": "흔한 입국 실수",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "내지 않아도 되는 '비자/K-ETA 수수료' 결제",
+          "d": "현재는 비자도 K-ETA도 필요 없습니다. 사기 사이트는 여전히 이에 대해 요금을 청구합니다 — 무시하세요."
+        },
+        {
+          "icon": "📝",
+          "t": "e-Arrival Card 신청 누락",
+          "d": "대부분의 방문객은 신청해야 합니다 (무료). 도착 전 72시간 이내에 하세요."
+        },
+        {
+          "icon": "⏰",
+          "t": "e-Arrival Card를 너무 일찍 신청",
+          "d": "제출 후 72시간이 지나면 만료됩니다 — 몇 주 전이 아니라 항공편에 가깝게 신청하세요."
+        },
+        {
+          "icon": "🛂",
+          "t": "BN(O)도 같은 규정이라고 단정",
+          "d": "이 안내는 HKSAR 여권 기준입니다. 다른 여행 서류는 요건이 다를 수 있습니다 — 본인 서류를 확인하세요."
+        },
+        {
+          "icon": "🗓️",
+          "t": "허용 기간 초과 체류",
+          "d": "최대 90일을 넘겨 체류하면 벌금과 향후 입국 금지의 위험이 있습니다."
+        }
+      ]
+    },
+    "faq": {
+      "title": "홍콩 → 한국 입국 FAQ",
+      "items": [
+        {
+          "q": "홍콩 여권 소지자는 한국 비자가 필요한가요?",
+          "a": "아니요 — 단기 관광이라면 홍콩특별행정구(HKSAR) 여권 소지자는 무비자로 한국에 입국합니다. 어떤 관광 비자도 신청하지 않습니다."
+        },
+        {
+          "q": "K-ETA가 필요한가요?",
+          "a": "지금은 아닙니다. 홍콩은 2026년 12월 31일까지 K-ETA가 면제되는 22개국·지역에 포함됩니다. 이 요건은 연장되지 않는 한 2027년 1월 1일에 다시 시행될 예정입니다."
+        },
+        {
+          "q": "그래도 e-Arrival Card가 필요한가요?",
+          "a": "네 — 대부분의 방문객은 도착 전 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 신청합니다."
+        },
+        {
+          "q": "얼마나 체류할 수 있나요?",
+          "a": "관광 목적으로 최대 90일까지입니다."
+        },
+        {
+          "q": "저는 BN(O) 여권을 소지하고 있는데, 여기에 해당하나요?",
+          "a": "이 페이지는 홍콩특별행정구(HKSAR) 여권을 다룹니다. BN(O)는 영국 여권으로 다른 규정을 따를 수 있습니다 — 여행 전에 해당 서류의 요건을 확인하세요."
+        },
+        {
+          "q": "K-ETA는 언제 다시 시행되나요?",
+          "a": "면제는 2026년 12월 31일에 종료될 예정이며, 연장되지 않는 한 K-ETA는 2027년 1월 1일에 다시 시행됩니다 — 여행 날짜가 가까워지면 다시 확인하세요."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "비자",
+      "stay": "체류",
+      "entry": "입국",
+      "where": "발급처",
+      "official": "공식 정보원",
+      "required": "필수",
+      "conditional": "해당하는 경우",
+      "recommended": "권장",
+      "confirm": "요금·규정은 변경됩니다 — 공식 출처에서 확인하세요",
+      "source": "출처",
+      "updated": "업데이트",
+      "tldr": "핵심 요약"
+    }
+  },
+  "ru": {
+    "kicker": "Гид по въезду · Гонконг → Корея",
+    "readingTime": "5 мин чтения",
+    "h1": "Гид по въезду в Корею из Гонконга",
+    "metaTitle": "Из Гонконга в Корею: нужна ли виза? (2026) — Korea Trip Hub",
+    "metaDesc": "Нужна ли обладателям паспорта Гонконга (HKSAR) виза в Южную Корею? Нет — безвизовый въезд до 90 дней, а K-ETA отменена до конца 2026 года. Просто заполните бесплатную e-Arrival Card до прилёта. Полные шаги въезда внутри.",
+    "verdict": {
+      "headline": "Туристическая виза не нужна — паспорта Гонконга (HKSAR) дают безвизовый въезд.",
+      "sub": "Для краткосрочного туризма вы не подаёте ни на какую визу. Сейчас K-ETA тоже отменена, поэтому главное — заполнить бесплатную e-Arrival Card до прилёта.",
+      "type": "Без визы (K-ETA сейчас отменена)",
+      "stay": "До 90 дней",
+      "entry": "Краткосрочный туризм"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Без визы, и K-ETA отменена до конца 2026 года",
+        "body": "Гонконг (HKSAR) — одна из 22 стран/регионов, освобождённых от K-ETA до 31 декабря 2026 года, поэтому для короткого туризма вы не подаёте ни на визу, ни на K-ETA. Отмену планируют завершить, и K-ETA вернётся 1 января 2027 года — уточните перед поездкой."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "e-Arrival Card вам всё же нужна",
+        "body": "Почти каждый путешественник заполняет бесплатную e-Arrival Card на e-arrivalcard.go.kr в течение 72 часов до прибытия. (Обладатели действующей K-ETA освобождены, но при отменённой K-ETA вам следует заполнить e-Arrival Card.)"
+      },
+      {
+        "icon": "🛂",
+        "tone": "amber",
+        "title": "Эта страница — для паспорта HKSAR",
+        "body": "Она относится к паспорту Гонконга (HKSAR). Если вы путешествуете по BN(O), Document of Identity или другому паспорту, проверьте правила именно для этого документа — они могут отличаться."
+      }
+    ],
+    "tldr": [
+      "Сейчас не нужны ни туристическая виза, ни K-ETA — Гонконг (HKSAR) безвизовый и освобождён от K-ETA до конца 2026 года.",
+      "Обязательно заполните бесплатную e-Arrival Card на e-arrivalcard.go.kr в течение 72 часов до прибытия.",
+      "Возьмите паспорт, действительный на весь срок пребывания, плюс подтверждение обратного/дальнейшего перелёта.",
+      "Вы можете находиться до 90 дней."
+    ],
+    "steps": {
+      "title": "Ваши шаги при въезде",
+      "items": [
+        {
+          "n": 1,
+          "title": "Убедитесь, что вам не нужна виза",
+          "detail": "Паспорта Гонконга (HKSAR) дают безвизовый въезд в Корею для короткого туризма, а K-ETA отменена до конца 2026 года — подавать не на что."
+        },
+        {
+          "n": 2,
+          "title": "Заполните e-Arrival Card",
+          "detail": "В течение 72 часов до прибытия заполните её бесплатно на e-arrivalcard.go.kr и сохраните QR/подтверждение.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Проверьте паспорт и обратный билет",
+          "detail": "Убедитесь, что паспорт действителен на весь срок пребывания, и имейте обратный/дальнейший билет плюс адрес первого места проживания."
+        },
+        {
+          "n": 4,
+          "title": "На паспортном контроле",
+          "detail": "Предъявите паспорт и подтверждение e-Arrival; могут снять отпечатки пальцев и сделать фото. Только туризм — при безвизовом въезде оплачиваемая работа запрещена."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Что подготовить",
+      "intro": "Вы не подаёте визовое заявление — но подготовьте это для беспроблемного въезда.",
+      "cols": [
+        "Пункт",
+        "Где получить",
+        "Примечания"
+      ],
+      "rows": [
+        {
+          "doc": "Паспорт",
+          "req": "required",
+          "where": "У вас уже есть",
+          "how": "Паспорт HKSAR, действителен на весь срок пребывания."
+        },
+        {
+          "doc": "Подтверждение e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Бесплатно; заполните в течение 72 часов до прибытия и сохраните QR.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Обратный / дальнейший билет",
+          "req": "required",
+          "where": "Авиакомпания / турагент",
+          "how": "Доказательство того, что вы уедете в рамках разрешённого срока пребывания."
+        },
+        {
+          "doc": "Адрес проживания",
+          "req": "required",
+          "where": "Сайты бронирования",
+          "how": "Адрес вашего первого отеля/жилья (спрашивается в e-Arrival Card)."
+        },
+        {
+          "doc": "Средства на поездку",
+          "req": "recommended",
+          "where": "Вы",
+          "how": "Карты широко принимаются; берите немного наличных для рынков и мелких продавцов."
+        }
+      ],
+      "legend": {
+        "required": "Обязательно",
+        "conditional": "Если применимо",
+        "recommended": "Рекомендуется"
+      }
+    },
+    "pitfalls": {
+      "title": "Частые ошибки при въезде",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "Платить «сбор за визу/K-ETA», который вы не должны",
+          "d": "Сейчас вам не нужны ни виза, ни K-ETA. Мошеннические сайты всё равно берут за них плату — игнорируйте их."
+        },
+        {
+          "icon": "📝",
+          "t": "Пропустить e-Arrival Card",
+          "d": "Большинство посетителей обязаны её заполнить (бесплатно). Сделайте это в течение 72 часов до прибытия."
+        },
+        {
+          "icon": "⏰",
+          "t": "Заполнить e-Arrival Card слишком рано",
+          "d": "Она истекает через 72 часа после отправки — заполняйте ближе к рейсу, а не за недели."
+        },
+        {
+          "icon": "🛂",
+          "t": "Считать, что BN(O) подчиняется тем же правилам",
+          "d": "Этот гид — для паспорта HKSAR. У других проездных документов могут быть иные требования — проверьте свой."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Превысить разрешённый срок",
+          "d": "Пребывание сверх 90 дней грозит штрафами и запретами на въезд в будущем."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ по въезду Гонконг → Корея",
+      "items": [
+        {
+          "q": "Нужна ли обладателям паспорта Гонконга виза в Корею?",
+          "a": "Нет — для краткосрочного туризма обладатели паспорта Гонконга (HKSAR) въезжают в Корею без визы. Вы не подаёте ни на какую туристическую визу."
+        },
+        {
+          "q": "Нужна ли мне K-ETA?",
+          "a": "Сейчас нет. Гонконг входит в число 22 стран/регионов, освобождённых от K-ETA до 31 декабря 2026 года. Требование планируют вернуть 1 января 2027 года, если оно не будет продлено."
+        },
+        {
+          "q": "Нужна ли мне по-прежнему e-Arrival Card?",
+          "a": "Да — большинство посетителей заполняют бесплатную e-Arrival Card на e-arrivalcard.go.kr в течение 72 часов до прибытия."
+        },
+        {
+          "q": "Как долго я могу оставаться?",
+          "a": "До 90 дней, для туризма."
+        },
+        {
+          "q": "У меня паспорт BN(O) — это применимо ко мне?",
+          "a": "Эта страница охватывает паспорт Гонконга (HKSAR). BN(O) — британский паспорт, и на него могут распространяться другие правила — проверьте требования именно для этого документа перед поездкой."
+        },
+        {
+          "q": "Когда вернётся K-ETA?",
+          "a": "Отмену планируют завершить 31 декабря 2026 года, а K-ETA возобновится 1 января 2027 года, если не будет продлена — уточните ближе к дате поездки."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Виза",
+      "stay": "Пребывание",
+      "entry": "Въезд",
+      "where": "Где получить",
+      "official": "Официальные источники",
+      "required": "Обязательно",
+      "conditional": "Если применимо",
+      "recommended": "Рекомендуется",
+      "confirm": "Сборы/правила меняются — уточняйте в официальном источнике",
+      "source": "Источник",
+      "updated": "Обновлено",
+      "tldr": "Ключевое"
+    }
+  },
+  "fr": {
+    "kicker": "Guide d'entrée · Hong Kong → Corée",
+    "readingTime": "5 min de lecture",
+    "h1": "Guide d'entrée en Corée depuis Hong Kong",
+    "metaTitle": "De Hong Kong à la Corée : avez-vous besoin d'un visa ? (2026) — Korea Trip Hub",
+    "metaDesc": "Les titulaires d'un passeport de Hong Kong (HKSAR) ont-ils besoin d'un visa pour la Corée du Sud ? Non — sans visa jusqu'à 90 jours, et la K-ETA est dispensée jusqu'en 2026. Remplissez simplement l'e-Arrival Card gratuite avant d'atterrir. Toutes les étapes d'entrée à l'intérieur.",
+    "verdict": {
+      "need": false,
+      "headline": "Aucun visa touristique nécessaire — les passeports de Hong Kong (HKSAR) sont exemptés de visa.",
+      "sub": "Pour le tourisme de court séjour, vous ne demandez aucun visa. Actuellement, la K-ETA est également dispensée, donc l'essentiel est de remplir l'e-Arrival Card gratuite avant d'atterrir.",
+      "type": "Sans visa (K-ETA actuellement dispensée)",
+      "stay": "Jusqu'à 90 jours",
+      "entry": "Tourisme de court séjour"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Pas de visa, et K-ETA dispensée jusqu'en 2026",
+        "body": "Hong Kong (HKSAR) fait partie des 22 pays/régions exemptés de la K-ETA jusqu'au 31 décembre 2026 ; vous ne demandez donc ni visa ni K-ETA pour un court séjour touristique. Cette dispense doit prendre fin et la K-ETA revient le 1er janvier 2027 — vérifiez à nouveau avant de voyager."
+      },
+      {
+        "icon": "📝",
+        "tone": "blue",
+        "title": "Vous avez toujours besoin de l'e-Arrival Card",
+        "body": "Presque tous les visiteurs remplissent l'e-Arrival Card gratuite sur e-arrivalcard.go.kr, dans les 72 heures précédant l'arrivée. (Les titulaires d'une K-ETA valide en sont exemptés, mais la K-ETA étant dispensée, vous devriez remplir l'e-Arrival Card.)"
+      },
+      {
+        "icon": "🛂",
+        "tone": "amber",
+        "title": "Cette page concerne le passeport HKSAR",
+        "body": "Elle couvre le passeport de la RAS de Hong Kong. Si vous voyagez avec un BN(O), un Document of Identity ou un autre passeport, vérifiez les règles propres à ce document — elles peuvent différer."
+      }
+    ],
+    "tldr": [
+      "Ni visa touristique ni K-ETA nécessaires pour le moment — Hong Kong (HKSAR) est exempté de visa et de K-ETA jusqu'en 2026.",
+      "Remplissez bien l'e-Arrival Card gratuite sur e-arrivalcard.go.kr dans les 72 heures précédant l'arrivée.",
+      "Apportez un passeport valable pour la durée de votre séjour ainsi qu'un justificatif de voyage de continuation/retour.",
+      "Vous pouvez rester jusqu'à 90 jours."
+    ],
+    "steps": {
+      "title": "Vos étapes d'entrée",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirmez que vous êtes exempté de visa",
+          "detail": "Les passeports de Hong Kong (HKSAR) entrent en Corée sans visa pour un court séjour touristique, et la K-ETA est dispensée jusqu'en 2026 — il n'y a rien à demander."
+        },
+        {
+          "n": 2,
+          "title": "Remplissez l'e-Arrival Card",
+          "detail": "Dans les 72 heures précédant l'arrivée, remplissez-la gratuitement sur e-arrivalcard.go.kr et enregistrez le QR/la confirmation.",
+          "link": "https://www.e-arrivalcard.go.kr",
+          "linkLabel": "e-Arrival Card"
+        },
+        {
+          "n": 3,
+          "title": "Vérifiez le passeport et le billet de continuation",
+          "detail": "Assurez-vous que votre passeport est valable pour la durée de votre séjour, et munissez-vous d'un billet retour/de continuation ainsi que de l'adresse de votre premier hébergement."
+        },
+        {
+          "n": 4,
+          "title": "Au contrôle de l'immigration",
+          "detail": "Présentez votre passeport et la confirmation de l'e-Arrival ; vos empreintes et une photo peuvent être prises. Restez-en au tourisme — pas de travail rémunéré avec une entrée sans visa."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Ce qu'il faut avoir prêt",
+      "intro": "Vous ne déposez pas de demande de visa — mais ayez ceci prêt pour une entrée sans encombre.",
+      "cols": [
+        "Élément",
+        "Où l'obtenir",
+        "Remarques"
+      ],
+      "rows": [
+        {
+          "doc": "Passeport",
+          "req": "required",
+          "where": "Vous l'avez déjà",
+          "how": "Passeport HKSAR, valable pour toute la durée de votre séjour."
+        },
+        {
+          "doc": "Confirmation de l'e-Arrival Card",
+          "req": "required",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Gratuite ; remplissez-la dans les 72 heures précédant l'arrivée et enregistrez le QR.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Billet retour / de continuation",
+          "req": "required",
+          "where": "Compagnie aérienne / agence de voyages",
+          "how": "Preuve que vous repartirez dans les limites du séjour autorisé."
+        },
+        {
+          "doc": "Adresse de l'hébergement",
+          "req": "required",
+          "where": "Sites de réservation",
+          "how": "L'adresse de votre premier hôtel/hébergement (demandée sur l'e-Arrival Card)."
+        },
+        {
+          "doc": "Fonds pour votre voyage",
+          "req": "recommended",
+          "where": "Vous",
+          "how": "Les cartes sont largement acceptées ; prévoyez un peu d'espèces pour les marchés et les petits commerçants."
+        }
+      ],
+      "legend": {
+        "required": "Obligatoire",
+        "conditional": "Le cas échéant",
+        "recommended": "Recommandé"
+      }
+    },
+    "pitfalls": {
+      "title": "Erreurs d'entrée fréquentes",
+      "items": [
+        {
+          "icon": "🕸️",
+          "t": "Payer des « frais de visa/K-ETA » que vous ne devez pas",
+          "d": "Actuellement, vous n'avez besoin ni d'un visa ni d'une K-ETA. Des sites frauduleux les facturent encore — ignorez-les."
+        },
+        {
+          "icon": "📝",
+          "t": "Sauter l'e-Arrival Card",
+          "d": "La plupart des visiteurs doivent la remplir (gratuite). Faites-le dans les 72 heures précédant l'arrivée."
+        },
+        {
+          "icon": "⏰",
+          "t": "Remplir l'e-Arrival Card trop tôt",
+          "d": "Elle expire 72 heures après l'envoi — remplissez-la juste avant votre vol, pas des semaines à l'avance."
+        },
+        {
+          "icon": "🛂",
+          "t": "Supposer qu'un BN(O) suit la même règle",
+          "d": "Ce guide concerne le passeport HKSAR. D'autres documents de voyage peuvent avoir des exigences différentes — vérifiez le vôtre."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Dépasser la durée de séjour autorisée",
+          "d": "Rester au-delà de 90 jours expose à des amendes et à de futures interdictions d'entrée."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ entrée Hong Kong → Corée",
+      "items": [
+        {
+          "q": "Les titulaires d'un passeport de Hong Kong ont-ils besoin d'un visa pour la Corée ?",
+          "a": "Non — pour le tourisme de court séjour, les titulaires d'un passeport de la RAS de Hong Kong entrent en Corée sans visa. Vous ne demandez aucun visa touristique."
+        },
+        {
+          "q": "Ai-je besoin de la K-ETA ?",
+          "a": "Pas pour le moment. Hong Kong fait partie des 22 pays/régions exemptés de la K-ETA jusqu'au 31 décembre 2026. Cette obligation doit revenir le 1er janvier 2027, sauf prolongation."
+        },
+        {
+          "q": "Ai-je encore besoin de l'e-Arrival Card ?",
+          "a": "Oui — la plupart des visiteurs remplissent l'e-Arrival Card gratuite sur e-arrivalcard.go.kr, dans les 72 heures précédant l'arrivée."
+        },
+        {
+          "q": "Combien de temps puis-je rester ?",
+          "a": "Jusqu'à 90 jours, pour le tourisme."
+        },
+        {
+          "q": "Je détiens un passeport BN(O) — cela s'applique-t-il ?",
+          "a": "Cette page couvre le passeport de la RAS de Hong Kong. Un BN(O) est un passeport britannique et peut suivre des règles différentes — vérifiez les exigences propres à ce document avant de voyager."
+        },
+        {
+          "q": "Quand la K-ETA revient-elle ?",
+          "a": "La dispense doit prendre fin le 31 décembre 2026, la K-ETA reprenant le 1er janvier 2027 sauf prolongation — vérifiez à nouveau à l'approche de votre date de voyage."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Visa",
+      "stay": "Séjour",
+      "entry": "Entrée",
+      "where": "Où l'obtenir",
+      "official": "Sources officielles",
+      "required": "Obligatoire",
+      "conditional": "Le cas échéant",
+      "recommended": "Recommandé",
+      "confirm": "Les frais et les règles changent — vérifiez auprès des sources officielles",
+      "source": "Source",
+      "updated": "Mis à jour",
+      "tldr": "Points clés"
+    }
+  }
+}

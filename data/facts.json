@@ -55,6 +55,30 @@
       "notes": "K-ETA holders and registered foreign residents are exempt. Your submission expires 72 hours after you file it, so time it close to your flight."
     },
     {
+      "id": "visa-malaysia-free",
+      "tier": "VOLATILE",
+      "claim": "Malaysian passport holders enter Korea visa-free for up to 90 days for tourism, but must apply for K-ETA — Malaysia is not on the temporary K-ETA exemption list.",
+      "value": { "visa": "not required (short-term tourism)", "stay": "up to 90 days", "keta": "required", "keta_fee": "₩10,000", "keta_valid": "3 years" },
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140769",
+      "source_name": "VisitKorea (KTO) — Visa & Travel Requirements; K-ETA per k-eta.go.kr",
+      "verified": "2026-08-31",
+      "recheck_after": "2026-11-01",
+      "status": "VERIFIED",
+      "notes": "Visa-free 90 days under the Korea–Malaysia visa-waiver agreement. Malaysia is absent from the 22-region K-ETA temporary exemption list, so travelers must apply for K-ETA at k-eta.go.kr (valid K-ETA holders are then exempt from the e-Arrival Card). Confirm the current requirement at k-eta.go.kr before booking."
+    },
+    {
+      "id": "visa-thailand-free",
+      "tier": "VOLATILE",
+      "claim": "Thai passport holders enter Korea visa-free for up to 90 days for tourism, but must apply for K-ETA — Thailand is not on the temporary K-ETA exemption list.",
+      "value": { "visa": "not required (short-term tourism)", "stay": "up to 90 days", "keta": "required", "keta_fee": "₩10,000", "keta_valid": "3 years" },
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140769",
+      "source_name": "VisitKorea (KTO) — Visa & Travel Requirements; K-ETA per k-eta.go.kr",
+      "verified": "2026-08-31",
+      "recheck_after": "2026-11-01",
+      "status": "VERIFIED",
+      "notes": "Visa-free 90 days under the Korea–Thailand visa-waiver agreement. Thailand is absent from the 22-region K-ETA temporary exemption list, so travelers must apply for K-ETA at k-eta.go.kr (valid K-ETA holders are then exempt from the e-Arrival Card). K-ETA approval is not guaranteed and immigration makes the final decision — apply early and keep your trip genuinely for tourism. Confirm at k-eta.go.kr before booking."
+    },
+    {
       "id": "emergency-police",
       "tier": "STABLE",
       "claim": "Korea's emergency police number is 112.",

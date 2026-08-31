@@ -1,0 +1,2139 @@
+{
+  "_README": "Per-locale translation overrides for thailand → Korea entry guide. { <locale>: { ...overrides } }. English base in thailand.json.",
+  "ja": {
+    "kicker": "入国ガイド · タイ → 韓国",
+    "readingTime": "読了目安6分",
+    "h1": "タイから韓国への入国ガイド",
+    "metaTitle": "タイから韓国へ：ビザは必要？（2026年）— Korea Trip Hub",
+    "metaDesc": "タイのパスポート保持者は韓国のビザが必要？いいえ — 最長90日までビザ免除です。ただしK-ETA（₩10,000、有効期間3年）は必要です：タイはK-ETA免除リストに含まれていません。早めに申請を — ステップバイステップの入国ガイドを解説します。",
+    "verdict": {
+      "headline": "観光ビザは不要 — ただしK-ETAの申請が必要です。",
+      "sub": "タイのパスポートは短期観光ならビザ免除なので、申請するビザはありません。ただしタイはK-ETA免除リストに含まれていないため、渡航前にK-ETAを取得する必要があります。有効なK-ETAがあれば、e-Arrival Cardは免除されます。",
+      "type": "ビザ免除 — K-ETAが必要",
+      "stay": "最長90日",
+      "entry": "短期観光"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "最長90日までビザ不要",
+        "body": "韓国・タイ間のビザ免除協定により、タイのパスポート保持者は短期観光なら韓国にビザなしで入国でき、最長90日まで滞在できます。提出する観光ビザの申請はありません。"
+      },
+      {
+        "icon": "🟠",
+        "tone": "amber",
+        "title": "ただしK-ETAは必要です",
+        "body": "タイは一時的なK-ETA免除の対象となる22の国・地域に含まれていないため、搭乗前にK-ETAを申請する必要があります。料金はKRW 10,000（約US$8）で、有効期間は3年、複数回入国が可能です。申請は公式サイトk-eta.go.krでのみ行います。"
+      },
+      {
+        "icon": "🛂",
+        "tone": "blue",
+        "title": "早めに申請を — 承認は自動ではありません",
+        "body": "K-ETA（および到着時の入国審査の最終判断）は保証されていません。早めに申請し、正直に回答し、旅行は純粋に観光目的にとどめましょう — 帰国便のチケット、ホテルの予約、資金の証明を携帯してください。有効なK-ETAを保持していれば、e-Arrival Cardは免除されます。"
+      }
+    ],
+    "tldr": [
+      "観光ビザは不要 — タイのパスポートは最長90日までビザ免除です。",
+      "渡航前にK-ETAの申請が必要です（KRW 10,000、有効期間3年）— k-eta.go.krでのみ。",
+      "出発の少なくとも72時間前に申請しましょう。有効なK-ETAがあればe-Arrival Cardは免除されます。",
+      "帰国便のチケット、ホテルの予約、資金の証明を携帯しましょう — 承認は自動ではありません。"
+    ],
+    "steps": {
+      "title": "入国の手順",
+      "items": [
+        {
+          "n": 1,
+          "title": "ビザ免除であることを確認",
+          "detail": "タイのパスポートは短期観光なら韓国にビザなしで入国できます（最長90日）— 申請する観光ビザはありません。"
+        },
+        {
+          "n": 2,
+          "title": "K-ETAを申請（必須）",
+          "detail": "搭乗の少なくとも72時間前に、公式サイトk-eta.go.krで申請しましょう。料金はKRW 10,000、有効期間は3年で複数回入国が可能です。追加料金を請求する模倣サイトに注意してください — 公式なのはk-eta.go.krだけです。",
+          "link": "https://www.k-eta.go.kr",
+          "linkLabel": "K-ETAを申請"
+        },
+        {
+          "n": 3,
+          "title": "旅行の証明書類を準備",
+          "detail": "帰国・出国便のチケット、確定した宿泊先、資金の証明を用意しておきましょう。承認も入国も自動ではないため、本物の観光を示す書類が役立ちます。"
+        },
+        {
+          "n": 4,
+          "title": "入国審査で",
+          "detail": "有効なK-ETAがあればe-Arrival Cardは提出しません。到着時にパスポートと渡航書類を提示します。指紋と写真の採取が行われる場合があります。目的は観光に限ってください — ビザ免除での入国では就労はできません。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "準備しておくもの",
+      "intro": "ビザの申請は不要ですが、K-ETAは必要です。加えて、到着時に本物の観光であることを示すために以下も用意しておきましょう。",
+      "cols": [
+        "項目",
+        "入手先",
+        "備考"
+      ],
+      "rows": [
+        {
+          "doc": "パスポート",
+          "req": "required",
+          "where": "お手元にあるもの",
+          "how": "滞在期間中有効であること。"
+        },
+        {
+          "doc": "K-ETAの承認",
+          "req": "required",
+          "where": "k-eta.go.kr",
+          "how": "KRW 10,000。搭乗の少なくとも72時間前に申請しましょう。公式サイトのみ。",
+          "link": "https://www.k-eta.go.kr"
+        },
+        {
+          "doc": "e-Arrival Card",
+          "req": "conditional",
+          "where": "e-arrivalcard.go.kr",
+          "how": "K-ETAを保持していない場合のみ（例：年齢による免除対象者）。K-ETA保持者は免除されます。",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "帰国・出国便のチケット",
+          "req": "required",
+          "where": "航空会社／旅行代理店",
+          "how": "許可された滞在期間内に出国することの証明 — タイの旅行者はよく確認されます。"
+        },
+        {
+          "doc": "宿泊先の予約",
+          "req": "required",
+          "where": "予約サイト",
+          "how": "最初の数泊分の確定したホテル／宿泊先（K-ETA申請時に尋ねられます）。"
+        },
+        {
+          "doc": "資金の証明",
+          "req": "recommended",
+          "where": "ご自身／銀行",
+          "how": "旅行を支えられることを示すカード、現金、または最近の取引明細。"
+        }
+      ],
+      "legend": {
+        "required": "必須",
+        "conditional": "該当する場合",
+        "recommended": "推奨"
+      }
+    },
+    "pitfalls": {
+      "title": "よくある入国時の間違い",
+      "items": [
+        {
+          "icon": "🟠",
+          "t": "タイがK-ETA免除だと思い込む",
+          "d": "免除されていません。一部の国は2026年までK-ETAが免除されますが、タイはその一つではありません — 渡航前に申請が必要です。"
+        },
+        {
+          "icon": "🕸️",
+          "t": "模倣の「K-ETA」サイトで申請する",
+          "d": "唯一の公式サイトはk-eta.go.kr（KRW 10,000）です。第三者サイトは同じ手続きにUS$40–50の追加料金を請求します。"
+        },
+        {
+          "icon": "⏰",
+          "t": "申請が遅すぎる",
+          "d": "出発の少なくとも72時間前に申請しましょう。承認は保証されていないため、審査される場合に備えて余裕を持ちましょう。"
+        },
+        {
+          "icon": "🧾",
+          "t": "旅行の証明を持たずに到着する",
+          "d": "帰国便のチケット、ホテルの予約、資金の証明を携帯しましょう。タイの訪問者は入国審査でこれらをよく求められます。"
+        },
+        {
+          "icon": "🗓️",
+          "t": "許可された滞在期間を超過する",
+          "d": "最長90日を超えて滞在すると、罰金や今後の入国禁止のリスクがあります。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "タイ → 韓国 入国FAQ",
+      "items": [
+        {
+          "q": "タイのパスポート保持者は韓国のビザが必要ですか？",
+          "a": "いいえ — 短期観光なら、タイのパスポート保持者はビザなしで韓国に入国でき、最長90日まで滞在できます。観光ビザの申請は一切不要です。"
+        },
+        {
+          "q": "K-ETAは必要ですか？",
+          "a": "はい。タイは一時的なK-ETA免除リストに含まれていないため、搭乗前にK-ETAを申請する必要があります — 公式サイトk-eta.go.krで行います。"
+        },
+        {
+          "q": "K-ETAの料金と有効期間はどのくらいですか？",
+          "a": "料金はKRW 10,000（約US$8）で、有効期間は3年、複数回入国が可能です。申請はk-eta.go.krでのみ行ってください。"
+        },
+        {
+          "q": "K-ETAの承認は保証されていますか？",
+          "a": "いいえ。K-ETA、そして到着時の入国審査による最終判断は保証されていません。早めに申請し、正直に回答し、本物の観光を示す書類 — 帰国便のチケット、ホテルの予約、資金の証明 — を携帯してください。"
+        },
+        {
+          "q": "e-Arrival Cardも必要ですか？",
+          "a": "いいえ — 有効なK-ETAを保持していれば、e-Arrival Cardは免除されます。どちらか一方を提出し、両方は提出しません。"
+        },
+        {
+          "q": "どのくらい滞在できますか？",
+          "a": "観光目的で最長90日までです。就労や就学には適切なビザが必要です。"
+        }
+      ]
+    },
+    "ui": {
+      "visa": "ビザ",
+      "stay": "滞在",
+      "entry": "入国",
+      "where": "入手先",
+      "official": "公式情報源",
+      "required": "必須",
+      "conditional": "該当する場合",
+      "recommended": "推奨",
+      "confirm": "料金・規則は変わります — 公式情報源で確認を",
+      "source": "出典",
+      "updated": "更新日",
+      "tldr": "要点"
+    }
+  },
+  "zh": {
+    "kicker": "入境指南 · 泰国 → 韩国",
+    "readingTime": "阅读时间 6 分钟",
+    "h1": "从泰国入境韩国指南",
+    "metaTitle": "从泰国到韩国：需要签证吗？（2026）— Korea Trip Hub",
+    "metaDesc": "泰国护照持有者前往韩国需要签证吗？不需要 — 最多 90 天免签。但你确实需要 K-ETA（₩10,000，有效期 3 年）：泰国不在 K-ETA 豁免名单上。请尽早申请 — 分步入境指南见文内。",
+    "verdict": {
+      "headline": "无需旅游签证 — 但你必须申请 K-ETA。",
+      "sub": "泰国护照短期旅游免签，因此无需申请签证。但泰国不在 K-ETA 豁免名单上，所以你必须在起飞前取得 K-ETA。持有效 K-ETA 后，你即可豁免 e-Arrival Card。",
+      "type": "免签 — 需要 K-ETA",
+      "stay": "最多 90 天",
+      "entry": "短期旅游"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "最多 90 天免签",
+        "body": "根据韩国—泰国免签协议，泰国护照持有者可免签入境韩国进行短期旅游，最多可停留 90 天。无需提交任何旅游签证申请。"
+      },
+      {
+        "icon": "🟠",
+        "tone": "amber",
+        "title": "但你确实需要 K-ETA",
+        "body": "泰国不在临时 K-ETA 豁免的 22 个国家和地区之列，因此你必须在登机前申请 K-ETA。费用为 KRW 10,000（约 US$8），有效期 3 年、可多次入境，且只能在官方网站 k-eta.go.kr 申请。"
+      },
+      {
+        "icon": "🛂",
+        "tone": "blue",
+        "title": "尽早申请 — 批准并非自动",
+        "body": "K-ETA（以及抵达时入境审查的最终决定）并不保证通过。请尽早申请、如实回答，并确保你的行程确实为旅游目的 — 携带返程机票、酒店预订和资金证明。如果你持有有效的 K-ETA，即可豁免 e-Arrival Card。"
+      }
+    ],
+    "tldr": [
+      "无需旅游签证 — 泰国护照最多 90 天免签。",
+      "你必须在起飞前申请 K-ETA（KRW 10,000，有效期 3 年）— 仅限 k-eta.go.kr。",
+      "请在出发前至少 72 小时申请；持有效 K-ETA 即可豁免 e-Arrival Card。",
+      "携带返程机票、酒店预订和资金证明 — 批准并非自动。"
+    ],
+    "steps": {
+      "title": "你的入境步骤",
+      "items": [
+        {
+          "n": 1,
+          "title": "确认你免签",
+          "detail": "泰国护照短期旅游（最多 90 天）可免签入境韩国 — 无需申请任何旅游签证。"
+        },
+        {
+          "n": 2,
+          "title": "申请 K-ETA（必需）",
+          "detail": "请在登机前至少 72 小时于官方网站 k-eta.go.kr 申请。费用为 KRW 10,000，有效期 3 年、可多次入境。谨防加收费用的仿冒网站 — 只有 k-eta.go.kr 是官方网站。",
+          "link": "https://www.k-eta.go.kr",
+          "linkLabel": "申请 K-ETA"
+        },
+        {
+          "n": 3,
+          "title": "准备你的行程证明",
+          "detail": "备好返程/续程机票、已确认的住宿和资金证明。批准和入境并非自动，因此真实的旅游材料会有帮助。"
+        },
+        {
+          "n": 4,
+          "title": "在入境检查时",
+          "detail": "持有效 K-ETA 则无需填写 e-Arrival Card。抵达时出示护照和旅行材料；可能会采集指纹和照片。请以旅游为目的 — 免签入境不得从事有偿工作。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "需要准备的材料",
+      "intro": "你无需提交签证申请 — 但你确实需要 K-ETA，另外备好以下材料以便在抵达时证明确为旅游。",
+      "cols": [
+        "项目",
+        "获取方式",
+        "备注"
+      ],
+      "rows": [
+        {
+          "doc": "护照",
+          "req": "required",
+          "where": "你已持有",
+          "how": "在停留期间内有效。"
+        },
+        {
+          "doc": "K-ETA 批准",
+          "req": "required",
+          "where": "k-eta.go.kr",
+          "how": "KRW 10,000；请在登机前至少 72 小时申请。仅限官方网站。",
+          "link": "https://www.k-eta.go.kr"
+        },
+        {
+          "doc": "e-Arrival Card",
+          "req": "conditional",
+          "where": "e-arrivalcard.go.kr",
+          "how": "仅当你不持有 K-ETA 时（例如因年龄而豁免的旅客）。K-ETA 持有者可豁免。",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "返程/续程机票",
+          "req": "required",
+          "where": "航空公司/旅行社",
+          "how": "证明你会在允许停留期内离境 — 泰国旅客常被查验。"
+        },
+        {
+          "doc": "住宿预订",
+          "req": "required",
+          "where": "预订网站",
+          "how": "已确认的首几晚酒店/住宿（申请 K-ETA 时会询问）。"
+        },
+        {
+          "doc": "资金证明",
+          "req": "recommended",
+          "where": "本人／你的银行",
+          "how": "银行卡、现金或近期对账单，证明你能负担此行。"
+        }
+      ],
+      "legend": {
+        "required": "必需",
+        "conditional": "如适用",
+        "recommended": "建议"
+      }
+    },
+    "pitfalls": {
+      "title": "常见入境错误",
+      "items": [
+        {
+          "icon": "🟠",
+          "t": "以为泰国可豁免 K-ETA",
+          "d": "并非如此。有些国家在 2026 年前可豁免 K-ETA，但泰国不在其中 — 你必须在起飞前申请。"
+        },
+        {
+          "icon": "🕸️",
+          "t": "在仿冒的『K-ETA』网站上申请",
+          "d": "唯一的官方网站是 k-eta.go.kr（KRW 10,000）。第三方网站会为同样的服务额外收取 US$40–50。"
+        },
+        {
+          "icon": "⏰",
+          "t": "申请太晚",
+          "d": "请在出发前至少 72 小时申请。批准并不保证，因此请预留时间以防申请被审查。"
+        },
+        {
+          "icon": "🧾",
+          "t": "抵达时没有行程证明",
+          "d": "携带返程机票、酒店预订和资金证明。泰国访客在入境时常被要求出示这些。"
+        },
+        {
+          "icon": "🗓️",
+          "t": "超过允许停留期",
+          "d": "停留超过最多 90 天可能面临罚款和未来入境禁令。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "泰国 → 韩国入境常见问题",
+      "items": [
+        {
+          "q": "泰国护照持有者前往韩国需要签证吗？",
+          "a": "不需要 — 短期旅游时，泰国护照持有者可免签入境韩国，最多可停留 90 天。你无需申请任何旅游签证。"
+        },
+        {
+          "q": "我需要 K-ETA 吗？",
+          "a": "需要。泰国不在临时 K-ETA 豁免名单上，因此你必须在登机前申请 K-ETA — 在官方网站 k-eta.go.kr 办理。"
+        },
+        {
+          "q": "K-ETA 多少钱？有效期多久？",
+          "a": "费用为 KRW 10,000（约 US$8），有效期 3 年，可多次入境。仅在 k-eta.go.kr 申请。"
+        },
+        {
+          "q": "K-ETA 一定会获批吗？",
+          "a": "不。K-ETA 以及抵达时入境部门的最终决定都不保证通过。请尽早申请、如实回答，并携带真实的旅游材料 — 返程机票、酒店预订和资金证明。"
+        },
+        {
+          "q": "我还需要 e-Arrival Card 吗？",
+          "a": "不需要 — 如果你持有有效的 K-ETA，即可豁免 e-Arrival Card。两者只需办理其一，无需同时办理。"
+        },
+        {
+          "q": "我可以停留多久？",
+          "a": "旅游目的最多 90 天。工作或学习需要相应的签证。"
+        }
+      ]
+    },
+    "ui": {
+      "visa": "签证",
+      "stay": "停留",
+      "entry": "入境",
+      "where": "获取方式",
+      "official": "官方来源",
+      "required": "必需",
+      "conditional": "如适用",
+      "recommended": "建议",
+      "confirm": "费用/规则会变动 — 请以官方来源为准",
+      "source": "来源",
+      "updated": "更新",
+      "tldr": "摘要"
+    }
+  },
+  "zh-TW": {
+    "kicker": "入境指南 · 泰國 → 韓國",
+    "readingTime": "閱讀時間 6 分鐘",
+    "h1": "從泰國入境韓國指南",
+    "metaTitle": "從泰國到韓國：需要簽證嗎？（2026）— Korea Trip Hub",
+    "metaDesc": "持泰國護照者前往韓國需要簽證嗎？不需要 — 免簽最多可停留 90 天。但你確實需要 K-ETA（₩10,000，效期 3 年）：泰國不在 K-ETA 豁免名單上。請及早申請 — 逐步入境指南都在文內。",
+    "verdict": {
+      "headline": "免辦觀光簽證 — 但你必須申請 K-ETA。",
+      "sub": "泰國護照短期觀光可免簽，所以沒有簽證需要申請。但泰國不在 K-ETA 豁免名單上，因此你必須在搭機前取得 K-ETA。持有效 K-ETA 後，你就可以免填 e-Arrival Card。",
+      "type": "免簽 — 需要 K-ETA",
+      "stay": "最多 90 天",
+      "entry": "短期觀光"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "最多 90 天免簽",
+        "body": "根據韓國與泰國的免簽協議，泰國護照持有人短期觀光可免簽入境韓國，最多可停留 90 天。沒有觀光簽證需要遞交申請。"
+      },
+      {
+        "icon": "🟠",
+        "tone": "amber",
+        "title": "但你確實需要 K-ETA",
+        "body": "泰國不在暫時性 K-ETA 豁免的 22 個國家和地區之列，因此你必須在登機前申請 K-ETA。費用為 KRW 10,000（約 US$8），效期 3 年、可多次入境，且僅能在官方網站 k-eta.go.kr 申請。"
+      },
+      {
+        "icon": "🛂",
+        "tone": "blue",
+        "title": "請及早申請 — 核准並非自動",
+        "body": "K-ETA（以及抵達時入境審查的最終決定）並非必然核准。請及早申請、誠實作答，並讓行程確實以觀光為目的 — 隨身攜帶回程機票、飯店訂房和財力證明。若你持有有效的 K-ETA，即可免填 e-Arrival Card。"
+      }
+    ],
+    "tldr": [
+      "免辦觀光簽證 — 泰國護照免簽最多可停留 90 天。",
+      "你必須在搭機前申請 K-ETA（KRW 10,000，效期 3 年）— 僅能在 k-eta.go.kr 申請。",
+      "請至少在出發前 72 小時申請；持有效 K-ETA 後即可免填 e-Arrival Card。",
+      "請隨身攜帶回程機票、飯店訂房和財力證明 — 核准並非自動。"
+    ],
+    "steps": {
+      "title": "你的入境步驟",
+      "items": [
+        {
+          "n": 1,
+          "title": "確認你可以免簽",
+          "detail": "泰國護照短期觀光可免簽入境韓國（最多 90 天）— 沒有觀光簽證需要申請。"
+        },
+        {
+          "n": 2,
+          "title": "申請 K-ETA（必辦）",
+          "detail": "請至少在登機前 72 小時，於官方網站 k-eta.go.kr 申請。費用為 KRW 10,000，效期 3 年、可多次入境。請當心會加收費用的仿冒網站 — 只有 k-eta.go.kr 是官方網站。",
+          "link": "https://www.k-eta.go.kr",
+          "linkLabel": "申請 K-ETA"
+        },
+        {
+          "n": 3,
+          "title": "準備你的旅行證明",
+          "detail": "請備妥回程/續程機票、已確認的住宿，以及財力證明。核准與入境並非自動，因此真實的觀光文件會有幫助。"
+        },
+        {
+          "n": 4,
+          "title": "在證照查驗時",
+          "detail": "持有效 K-ETA 就不需要填寫 e-Arrival Card。抵達時出示護照和旅行文件；可能會採集指紋和拍照。請以觀光為目的 — 免簽入境不得從事有薪工作。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "需要事先準備的東西",
+      "intro": "你不需要遞交簽證申請 — 但你確實需要 K-ETA，並請備妥以下項目，以便在抵達時證明是真實觀光。",
+      "cols": [
+        "項目",
+        "取得方式",
+        "備註"
+      ],
+      "rows": [
+        {
+          "doc": "護照",
+          "req": "required",
+          "where": "你已持有",
+          "how": "在停留期間內有效。"
+        },
+        {
+          "doc": "K-ETA 核准",
+          "req": "required",
+          "where": "k-eta.go.kr",
+          "how": "KRW 10,000；請至少在登機前 72 小時申請。僅限官方網站。",
+          "link": "https://www.k-eta.go.kr"
+        },
+        {
+          "doc": "e-Arrival Card",
+          "req": "conditional",
+          "where": "e-arrivalcard.go.kr",
+          "how": "僅在你未持有 K-ETA 時才需要（例如因年齡而免辦的旅客）。持 K-ETA 者可免填。",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "回程/續程機票",
+          "req": "required",
+          "where": "航空公司/旅行社",
+          "how": "證明你會在允許的停留期間內離境 — 泰國旅客常會被查驗。"
+        },
+        {
+          "doc": "住宿訂房",
+          "req": "required",
+          "where": "訂房網站",
+          "how": "你頭幾晚已確認的飯店/住宿（申請 K-ETA 時會詢問）。"
+        },
+        {
+          "doc": "財力證明",
+          "req": "recommended",
+          "where": "本人／你的銀行",
+          "how": "信用卡、現金，或近期能證明你有能力負擔行程的帳戶明細。"
+        }
+      ],
+      "legend": {
+        "required": "必備",
+        "conditional": "視情況而定",
+        "recommended": "建議"
+      }
+    },
+    "pitfalls": {
+      "title": "常見的入境錯誤",
+      "items": [
+        {
+          "icon": "🟠",
+          "t": "以為泰國免辦 K-ETA",
+          "d": "並非如此。有些國家在 2026 年前免辦 K-ETA，但泰國不在其中 — 你必須在搭機前申請。"
+        },
+        {
+          "icon": "🕸️",
+          "t": "在仿冒的『K-ETA』網站申請",
+          "d": "唯一的官方網站是 k-eta.go.kr（KRW 10,000）。第三方網站會為相同服務多收 US$40–50。"
+        },
+        {
+          "icon": "⏰",
+          "t": "太晚申請",
+          "d": "請至少在出發前 72 小時申請。核准並非必然，因此請預留時間，以防你的申請被審查。"
+        },
+        {
+          "icon": "🧾",
+          "t": "抵達時沒有帶旅行證明",
+          "d": "請隨身攜帶回程機票、飯店訂房和財力證明。泰國旅客在入境審查時常被要求出示這些。"
+        },
+        {
+          "icon": "🗓️",
+          "t": "超過可停留天數",
+          "d": "停留超過最多 90 天，可能面臨罰款以及日後入境的禁令。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "泰國 → 韓國入境常見問題",
+      "items": [
+        {
+          "q": "持泰國護照者前往韓國需要簽證嗎？",
+          "a": "不需要 — 短期觀光時，泰國護照持有人可免簽入境韓國，最多可停留 90 天。你不需要申請任何觀光簽證。"
+        },
+        {
+          "q": "我需要 K-ETA 嗎？",
+          "a": "需要。泰國不在暫時性 K-ETA 豁免名單上，因此你必須在登機前申請 K-ETA — 於官方網站 k-eta.go.kr 申請。"
+        },
+        {
+          "q": "K-ETA 費用多少、效期多久？",
+          "a": "費用為 KRW 10,000（約 US$8），效期 3 年，可多次入境。請僅在 k-eta.go.kr 申請。"
+        },
+        {
+          "q": "K-ETA 一定會核准嗎？",
+          "a": "不一定。K-ETA 以及抵達時入境審查的最終決定，都不保證一定通過。請及早申請、誠實作答，並攜帶真實的觀光文件 — 回程機票、飯店訂房和財力證明。"
+        },
+        {
+          "q": "我還需要 e-Arrival Card 嗎？",
+          "a": "不需要 — 若你持有有效的 K-ETA，即可免填 e-Arrival Card。兩者擇一辦理，不必都辦。"
+        },
+        {
+          "q": "我可以停留多久？",
+          "a": "以觀光目的最多 90 天。工作或就學需要相應的簽證。"
+        }
+      ]
+    },
+    "ui": {
+      "visa": "簽證",
+      "stay": "停留",
+      "entry": "入境",
+      "where": "取得方式",
+      "official": "官方資訊來源",
+      "required": "必備",
+      "conditional": "視情況而定",
+      "recommended": "建議",
+      "confirm": "費用/規定可能變動 — 請以官方來源為準",
+      "source": "來源",
+      "updated": "更新",
+      "tldr": "重點摘要"
+    }
+  },
+  "vi": {
+    "kicker": "Hướng dẫn nhập cảnh · Thái Lan → Hàn Quốc",
+    "readingTime": "Đọc trong 6 phút",
+    "h1": "Hướng dẫn nhập cảnh Hàn Quốc từ Thái Lan",
+    "metaTitle": "Từ Thái Lan đến Hàn Quốc: Bạn có cần thị thực không? (2026) — Korea Trip Hub",
+    "metaDesc": "Người mang hộ chiếu Thái Lan có cần thị thực vào Hàn Quốc không? Không — miễn thị thực tối đa 90 ngày. Nhưng bạn CÓ cần K-ETA (₩10,000, hiệu lực 3 năm): Thái Lan không nằm trong danh sách miễn K-ETA. Hãy xin sớm — hướng dẫn nhập cảnh từng bước bên trong.",
+    "verdict": {
+      "headline": "Không cần thị thực du lịch — nhưng bạn phải xin K-ETA.",
+      "sub": "Hộ chiếu Thái Lan được miễn thị thực khi du lịch ngắn ngày, nên không có thị thực nào phải xin. Nhưng Thái Lan không nằm trong danh sách miễn K-ETA, nên bạn phải xin K-ETA trước khi bay. Khi có K-ETA hợp lệ, bạn được miễn e-Arrival Card.",
+      "type": "Miễn thị thực — cần K-ETA",
+      "stay": "Tối đa 90 ngày",
+      "entry": "Du lịch ngắn ngày"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Không cần thị thực tối đa 90 ngày",
+        "body": "Theo hiệp định miễn thị thực Hàn Quốc–Thái Lan, người mang hộ chiếu Thái Lan nhập cảnh Hàn Quốc miễn thị thực khi du lịch ngắn ngày và có thể lưu trú tối đa 90 ngày. Không có đơn xin thị thực du lịch nào phải nộp."
+      },
+      {
+        "icon": "🟠",
+        "tone": "amber",
+        "title": "Nhưng bạn CÓ cần K-ETA",
+        "body": "Thái Lan không nằm trong 22 quốc gia/vùng lãnh thổ được miễn K-ETA tạm thời, nên bạn phải xin K-ETA trước khi lên máy bay. Phí là KRW 10,000 (khoảng US$8), có hiệu lực 3 năm với nhập cảnh nhiều lần, và chỉ được xin tại trang chính thức k-eta.go.kr."
+      },
+      {
+        "icon": "🛂",
+        "tone": "blue",
+        "title": "Hãy xin sớm — việc phê duyệt không tự động",
+        "body": "K-ETA (và quyết định cuối cùng của cơ quan xuất nhập cảnh khi đến) không được bảo đảm. Hãy xin sớm, trả lời trung thực, và giữ cho chuyến đi thực sự vì mục đích du lịch — mang theo vé khứ hồi, đặt phòng khách sạn và bằng chứng tài chính. Nếu bạn có K-ETA hợp lệ, bạn được miễn e-Arrival Card."
+      }
+    ],
+    "tldr": [
+      "Không cần thị thực du lịch — hộ chiếu Thái Lan được miễn thị thực tối đa 90 ngày.",
+      "Bạn phải xin K-ETA trước khi bay (KRW 10,000, hiệu lực 3 năm) — chỉ tại k-eta.go.kr.",
+      "Hãy xin ít nhất 72 giờ trước khi khởi hành; K-ETA hợp lệ sẽ giúp bạn được miễn e-Arrival Card.",
+      "Mang theo vé khứ hồi, đặt phòng khách sạn và bằng chứng tài chính — việc phê duyệt không tự động."
+    ],
+    "steps": {
+      "title": "Các bước nhập cảnh của bạn",
+      "items": [
+        {
+          "n": 1,
+          "title": "Xác nhận bạn được miễn thị thực",
+          "detail": "Hộ chiếu Thái Lan nhập cảnh Hàn Quốc miễn thị thực khi du lịch ngắn ngày (tối đa 90 ngày) — không có thị thực du lịch nào phải xin."
+        },
+        {
+          "n": 2,
+          "title": "Xin K-ETA (bắt buộc)",
+          "detail": "Hãy xin tại trang chính thức k-eta.go.kr ít nhất 72 giờ trước khi lên máy bay. Phí là KRW 10,000, hiệu lực 3 năm với nhập cảnh nhiều lần. Hãy cẩn thận với các trang giả mạo thu thêm phí — chỉ k-eta.go.kr là chính thức.",
+          "link": "https://www.k-eta.go.kr",
+          "linkLabel": "Xin K-ETA"
+        },
+        {
+          "n": 3,
+          "title": "Chuẩn bị bằng chứng chuyến đi",
+          "detail": "Hãy chuẩn bị sẵn vé khứ hồi/đi tiếp, nơi ở đã xác nhận, và bằng chứng tài chính. Việc phê duyệt và nhập cảnh không tự động, nên các giấy tờ du lịch xác thực sẽ hữu ích."
+        },
+        {
+          "n": 4,
+          "title": "Tại cửa nhập cảnh",
+          "detail": "Với K-ETA hợp lệ, bạn không khai e-Arrival Card. Xuất trình hộ chiếu và giấy tờ chuyến đi khi đến; có thể bạn sẽ được lấy dấu vân tay và chụp ảnh. Hãy giữ đúng mục đích du lịch — không được làm việc có lương khi nhập cảnh miễn thị thực."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Những thứ cần chuẩn bị sẵn",
+      "intro": "Bạn không nộp đơn xin thị thực — nhưng bạn cần có K-ETA, cùng những thứ này để chứng minh mục đích du lịch xác thực khi đến.",
+      "cols": [
+        "Hạng mục",
+        "Lấy ở đâu",
+        "Ghi chú"
+      ],
+      "rows": [
+        {
+          "doc": "Hộ chiếu",
+          "req": "required",
+          "where": "Bạn đã có",
+          "how": "Còn hiệu lực trong suốt thời gian lưu trú."
+        },
+        {
+          "doc": "Phê duyệt K-ETA",
+          "req": "required",
+          "where": "k-eta.go.kr",
+          "how": "KRW 10,000; xin ít nhất 72 giờ trước khi lên máy bay. Chỉ trang chính thức.",
+          "link": "https://www.k-eta.go.kr"
+        },
+        {
+          "doc": "e-Arrival Card",
+          "req": "conditional",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Chỉ khi bạn KHÔNG có K-ETA (ví dụ du khách được miễn theo độ tuổi). Người có K-ETA được miễn.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Vé khứ hồi/đi tiếp",
+          "req": "required",
+          "where": "Hãng bay / đại lý du lịch",
+          "how": "Bằng chứng bạn sẽ rời đi trong thời gian lưu trú được phép — thường được kiểm tra đối với du khách Thái Lan."
+        },
+        {
+          "doc": "Đặt phòng nơi ở",
+          "req": "required",
+          "where": "Các trang đặt phòng",
+          "how": "Khách sạn/nơi ở đã xác nhận cho những đêm đầu tiên của bạn (được hỏi khi bạn xin K-ETA)."
+        },
+        {
+          "doc": "Bằng chứng tài chính",
+          "req": "recommended",
+          "where": "Bạn / ngân hàng của bạn",
+          "how": "Thẻ, tiền mặt, hoặc sao kê gần đây cho thấy bạn có thể chi trả cho chuyến đi."
+        }
+      ],
+      "legend": {
+        "required": "Bắt buộc",
+        "conditional": "Nếu áp dụng",
+        "recommended": "Khuyến nghị"
+      }
+    },
+    "pitfalls": {
+      "title": "Những lỗi nhập cảnh thường gặp",
+      "items": [
+        {
+          "icon": "🟠",
+          "t": "Cho rằng Thái Lan được miễn K-ETA",
+          "d": "Không phải vậy. Một số quốc gia được miễn K-ETA đến hết năm 2026, nhưng Thái Lan không nằm trong số đó — bạn phải xin trước khi bay."
+        },
+        {
+          "icon": "🕸️",
+          "t": "Nộp trên trang 'K-ETA' giả mạo",
+          "d": "Trang chính thức duy nhất là k-eta.go.kr (KRW 10,000). Các trang bên thứ ba thu thêm US$40–50 cho cùng một thứ."
+        },
+        {
+          "icon": "⏰",
+          "t": "Xin quá muộn",
+          "d": "Hãy xin ít nhất 72 giờ trước khi khởi hành. Việc phê duyệt không được bảo đảm, nên hãy chừa thời gian phòng khi hồ sơ của bạn bị xét duyệt."
+        },
+        {
+          "icon": "🧾",
+          "t": "Đến nơi mà không có bằng chứng chuyến đi",
+          "d": "Mang theo vé khứ hồi, đặt phòng khách sạn và bằng chứng tài chính. Du khách Thái Lan thường được yêu cầu những thứ này tại cửa nhập cảnh."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Lưu trú quá thời hạn cho phép",
+          "d": "Ở quá tối đa 90 ngày có nguy cơ bị phạt và cấm nhập cảnh trong tương lai."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp khi nhập cảnh Thái Lan → Hàn Quốc",
+      "items": [
+        {
+          "q": "Người mang hộ chiếu Thái Lan có cần thị thực vào Hàn Quốc không?",
+          "a": "Không — với du lịch ngắn ngày, người mang hộ chiếu Thái Lan nhập cảnh Hàn Quốc miễn thị thực và có thể lưu trú tối đa 90 ngày. Bạn không phải xin bất kỳ thị thực du lịch nào."
+        },
+        {
+          "q": "Tôi có cần K-ETA không?",
+          "a": "Có. Thái Lan không nằm trong danh sách miễn K-ETA tạm thời, nên bạn phải xin K-ETA trước khi lên máy bay — tại trang chính thức k-eta.go.kr."
+        },
+        {
+          "q": "K-ETA giá bao nhiêu và có hiệu lực bao lâu?",
+          "a": "Phí là KRW 10,000 (khoảng US$8), có hiệu lực 3 năm và cho phép nhập cảnh nhiều lần. Chỉ xin tại k-eta.go.kr."
+        },
+        {
+          "q": "Việc phê duyệt K-ETA có được bảo đảm không?",
+          "a": "Không. K-ETA, và quyết định cuối cùng của cơ quan xuất nhập cảnh khi đến, không được bảo đảm. Hãy xin sớm, trả lời trung thực, và mang theo các giấy tờ du lịch xác thực — vé khứ hồi, đặt phòng khách sạn và bằng chứng tài chính."
+        },
+        {
+          "q": "Tôi có cần cả e-Arrival Card không?",
+          "a": "Không — nếu bạn có K-ETA hợp lệ thì được miễn e-Arrival Card. Bạn khai cái này hoặc cái kia, không phải cả hai."
+        },
+        {
+          "q": "Tôi có thể lưu trú bao lâu?",
+          "a": "Tối đa 90 ngày, cho mục đích du lịch. Làm việc hay học tập cần thị thực phù hợp."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Thị thực",
+      "stay": "Lưu trú",
+      "entry": "Nhập cảnh",
+      "where": "Lấy ở đâu",
+      "official": "Nguồn chính thức",
+      "required": "Bắt buộc",
+      "conditional": "Nếu áp dụng",
+      "recommended": "Khuyến nghị",
+      "confirm": "Phí và quy định có thể thay đổi — hãy kiểm tra tại nguồn chính thức",
+      "source": "Nguồn",
+      "updated": "Cập nhật",
+      "tldr": "Tóm tắt"
+    }
+  },
+  "th": {
+    "kicker": "คู่มือการเข้าเมือง · ไทย → เกาหลี",
+    "readingTime": "อ่าน 6 นาที",
+    "h1": "คู่มือการเข้าเกาหลีจากไทย",
+    "metaTitle": "จากไทยสู่เกาหลี: ต้องใช้วีซ่าไหม? (2026) — Korea Trip Hub",
+    "metaDesc": "ผู้ถือหนังสือเดินทางไทยต้องใช้วีซ่าเข้าเกาหลีใต้ไหม? ไม่ต้อง — ยกเว้นวีซ่าสูงสุด 90 วัน แต่คุณต้องมี K-ETA (₩10,000, ใช้ได้ 3 ปี) เพราะไทยไม่อยู่ในรายชื่อยกเว้น K-ETA ยื่นขอแต่เนิ่น ๆ — คู่มือการเข้าเมืองทีละขั้นตอนอยู่ด้านใน",
+    "verdict": {
+      "headline": "ไม่ต้องใช้วีซ่าท่องเที่ยว — แต่คุณต้องยื่นขอ K-ETA",
+      "sub": "หนังสือเดินทางไทยได้รับการยกเว้นวีซ่าสำหรับการท่องเที่ยวระยะสั้น จึงไม่มีวีซ่าที่ต้องยื่นขอ แต่ไทยไม่อยู่ในรายชื่อยกเว้น K-ETA ดังนั้นคุณต้องขอ K-ETA ก่อนขึ้นเครื่อง เมื่อมี K-ETA ที่ใช้ได้แล้ว คุณจะได้รับการยกเว้น e-Arrival Card",
+      "type": "ยกเว้นวีซ่า — ต้องมี K-ETA",
+      "stay": "สูงสุด 90 วัน",
+      "entry": "การท่องเที่ยวระยะสั้น"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "ไม่ต้องใช้วีซ่าสูงสุด 90 วัน",
+        "body": "ภายใต้ข้อตกลงยกเว้นวีซ่าเกาหลี–ไทย ผู้ถือหนังสือเดินทางไทยเข้าเกาหลีได้โดยไม่ต้องใช้วีซ่าสำหรับการท่องเที่ยวระยะสั้น และพำนักได้สูงสุด 90 วัน ไม่มีคำขอวีซ่าท่องเที่ยวที่ต้องยื่น"
+      },
+      {
+        "icon": "🟠",
+        "tone": "amber",
+        "title": "แต่คุณต้องมี K-ETA",
+        "body": "ไทยไม่อยู่ในกลุ่ม 22 ประเทศ/เขตแดนที่ได้รับการยกเว้น K-ETA ชั่วคราว ดังนั้นคุณต้องยื่นขอ K-ETA ก่อนขึ้นเครื่อง มีค่าธรรมเนียม KRW 10,000 (ประมาณ US$8) ใช้ได้ 3 ปีแบบเข้าออกหลายครั้ง และยื่นขอได้เฉพาะที่เว็บไซต์ทางการ k-eta.go.kr เท่านั้น"
+      },
+      {
+        "icon": "🛂",
+        "tone": "blue",
+        "title": "ยื่นขอแต่เนิ่น ๆ — การอนุมัติไม่ใช่เรื่องอัตโนมัติ",
+        "body": "K-ETA (และการตัดสินใจขั้นสุดท้ายของตรวจคนเข้าเมืองเมื่อเดินทางถึง) ไม่ได้รับประกัน ยื่นขอแต่เนิ่น ๆ ตอบตามความจริง และให้การเดินทางเป็นการท่องเที่ยวอย่างแท้จริง — พกตั๋วขากลับ ใบจองโรงแรม และหลักฐานทางการเงิน หากคุณมี K-ETA ที่ใช้ได้ คุณจะได้รับการยกเว้น e-Arrival Card"
+      }
+    ],
+    "tldr": [
+      "ไม่ต้องใช้วีซ่าท่องเที่ยว — หนังสือเดินทางไทยได้รับการยกเว้นวีซ่าสูงสุด 90 วัน",
+      "คุณต้องยื่นขอ K-ETA ก่อนบิน (KRW 10,000, ใช้ได้ 3 ปี) — เฉพาะที่ k-eta.go.kr เท่านั้น",
+      "ยื่นขออย่างน้อย 72 ชั่วโมงก่อนออกเดินทาง; K-ETA ที่ใช้ได้จะทำให้คุณได้รับการยกเว้น e-Arrival Card",
+      "พกตั๋วขากลับ ใบจองโรงแรม และหลักฐานทางการเงิน — การอนุมัติไม่ใช่เรื่องอัตโนมัติ"
+    ],
+    "steps": {
+      "title": "ขั้นตอนการเข้าเมืองของคุณ",
+      "items": [
+        {
+          "n": 1,
+          "title": "ยืนยันว่าคุณได้รับการยกเว้นวีซ่า",
+          "detail": "หนังสือเดินทางไทยเข้าเกาหลีได้โดยไม่ต้องใช้วีซ่าสำหรับการท่องเที่ยวระยะสั้น (สูงสุด 90 วัน) — ไม่มีวีซ่าท่องเที่ยวที่ต้องยื่นขอ"
+        },
+        {
+          "n": 2,
+          "title": "ยื่นขอ K-ETA (จำเป็น)",
+          "detail": "ยื่นขอที่เว็บไซต์ทางการ k-eta.go.kr อย่างน้อย 72 ชั่วโมงก่อนขึ้นเครื่อง ค่าธรรมเนียมคือ KRW 10,000 ใช้ได้ 3 ปีแบบเข้าออกหลายครั้ง ระวังเว็บไซต์เลียนแบบที่เรียกเก็บเงินเพิ่ม — มีเพียง k-eta.go.kr เท่านั้นที่เป็นทางการ",
+          "link": "https://www.k-eta.go.kr",
+          "linkLabel": "ยื่นขอ K-ETA"
+        },
+        {
+          "n": 3,
+          "title": "เตรียมหลักฐานการเดินทางของคุณ",
+          "detail": "เตรียมตั๋วขากลับ/เดินทางต่อ ที่พักที่ยืนยันแล้ว และหลักฐานทางการเงินให้พร้อม การอนุมัติและการเข้าเมืองไม่ใช่เรื่องอัตโนมัติ ดังนั้นเอกสารการท่องเที่ยวที่แท้จริงจะช่วยได้"
+        },
+        {
+          "n": 4,
+          "title": "ที่ด่านตรวจคนเข้าเมือง",
+          "detail": "เมื่อมี K-ETA ที่ใช้ได้ คุณไม่ต้องกรอก e-Arrival Card แสดงหนังสือเดินทางและเอกสารการเดินทางเมื่อเดินทางถึง อาจมีการเก็บลายนิ้วมือและถ่ายรูป โปรดเดินทางเพื่อการท่องเที่ยวเท่านั้น — การเข้าเมืองแบบยกเว้นวีซ่าไม่อนุญาตให้ทำงานที่ได้รับค่าจ้าง"
+        }
+      ]
+    },
+    "documents": {
+      "title": "สิ่งที่ต้องเตรียมให้พร้อม",
+      "intro": "คุณไม่ต้องยื่นคำขอวีซ่า — แต่คุณต้องมี K-ETA พร้อมสิ่งเหล่านี้เพื่อแสดงว่าเป็นการท่องเที่ยวจริงเมื่อเดินทางถึง",
+      "cols": [
+        "รายการ",
+        "หาได้ที่ไหน",
+        "หมายเหตุ"
+      ],
+      "rows": [
+        {
+          "doc": "หนังสือเดินทาง",
+          "req": "required",
+          "where": "คุณมีอยู่แล้ว",
+          "how": "มีอายุครอบคลุมตลอดการพำนัก"
+        },
+        {
+          "doc": "การอนุมัติ K-ETA",
+          "req": "required",
+          "where": "k-eta.go.kr",
+          "how": "KRW 10,000; ยื่นขออย่างน้อย 72 ชั่วโมงก่อนขึ้นเครื่อง เฉพาะเว็บไซต์ทางการเท่านั้น",
+          "link": "https://www.k-eta.go.kr"
+        },
+        {
+          "doc": "e-Arrival Card",
+          "req": "conditional",
+          "where": "e-arrivalcard.go.kr",
+          "how": "เฉพาะกรณีที่คุณไม่มี K-ETA (เช่น ผู้เดินทางที่ได้รับการยกเว้นตามอายุ) ผู้ถือ K-ETA ได้รับการยกเว้น",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "ตั๋วขากลับ/เดินทางต่อ",
+          "req": "required",
+          "where": "สายการบิน / ตัวแทนท่องเที่ยว",
+          "how": "หลักฐานว่าคุณจะเดินทางออกภายในระยะเวลาพำนักที่ได้รับอนุญาต — มักถูกตรวจสอบสำหรับผู้เดินทางชาวไทย"
+        },
+        {
+          "doc": "การจองที่พัก",
+          "req": "required",
+          "where": "เว็บไซต์จองที่พัก",
+          "how": "โรงแรม/ที่พักที่ยืนยันแล้วสำหรับคืนแรก ๆ ของคุณ (ถูกถามตอนยื่นขอ K-ETA)"
+        },
+        {
+          "doc": "หลักฐานทางการเงิน",
+          "req": "recommended",
+          "where": "ตัวคุณเอง / ธนาคารของคุณ",
+          "how": "บัตร เงินสด หรือสเตทเมนต์ล่าสุดที่แสดงว่าคุณสามารถรับผิดชอบค่าใช้จ่ายการเดินทางได้"
+        }
+      ],
+      "legend": {
+        "required": "จำเป็น",
+        "conditional": "หากเกี่ยวข้อง",
+        "recommended": "แนะนำ"
+      }
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดในการเข้าเมืองที่พบบ่อย",
+      "items": [
+        {
+          "icon": "🟠",
+          "t": "คิดเอาเองว่าไทยได้รับการยกเว้น K-ETA",
+          "d": "ไม่ใช่ บางประเทศได้รับการยกเว้น K-ETA จนถึงปี 2026 แต่ไทยไม่ใช่หนึ่งในนั้น — คุณต้องยื่นขอก่อนบิน"
+        },
+        {
+          "icon": "🕸️",
+          "t": "ยื่นขอบนเว็บไซต์ 'K-ETA' เลียนแบบ",
+          "d": "เว็บไซต์ทางการมีเพียง k-eta.go.kr เท่านั้น (KRW 10,000) เว็บไซต์บุคคลที่สามเรียกเก็บเงินเพิ่ม US$40–50 สำหรับสิ่งเดียวกัน"
+        },
+        {
+          "icon": "⏰",
+          "t": "ยื่นขอช้าเกินไป",
+          "d": "ยื่นขออย่างน้อย 72 ชั่วโมงก่อนออกเดินทาง การอนุมัติไม่ได้รับประกัน ดังนั้นเผื่อเวลาไว้เผื่อคำขอของคุณถูกตรวจสอบ"
+        },
+        {
+          "icon": "🧾",
+          "t": "เดินทางถึงโดยไม่มีหลักฐานการเดินทาง",
+          "d": "พกตั๋วขากลับ ใบจองโรงแรม และหลักฐานทางการเงิน ผู้เดินทางชาวไทยมักถูกขอสิ่งเหล่านี้ที่ด่านตรวจคนเข้าเมือง"
+        },
+        {
+          "icon": "🗓️",
+          "t": "พำนักเกินระยะเวลาที่ได้รับอนุญาต",
+          "d": "การพำนักเกินสูงสุด 90 วันเสี่ยงต่อค่าปรับและการถูกห้ามเข้าประเทศในอนาคต"
+        }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเกี่ยวกับการเข้าเมือง ไทย → เกาหลี",
+      "items": [
+        {
+          "q": "ผู้ถือหนังสือเดินทางไทยต้องใช้วีซ่าเข้าเกาหลีไหม?",
+          "a": "ไม่ต้อง — สำหรับการท่องเที่ยวระยะสั้น ผู้ถือหนังสือเดินทางไทยเข้าเกาหลีได้โดยไม่ต้องใช้วีซ่า และพำนักได้สูงสุด 90 วัน คุณไม่ต้องยื่นขอวีซ่าท่องเที่ยวใด ๆ"
+        },
+        {
+          "q": "ฉันต้องใช้ K-ETA ไหม?",
+          "a": "ต้องใช้ ไทยไม่อยู่ในรายชื่อยกเว้น K-ETA ชั่วคราว ดังนั้นคุณต้องยื่นขอ K-ETA ก่อนขึ้นเครื่อง — ที่เว็บไซต์ทางการ k-eta.go.kr"
+        },
+        {
+          "q": "K-ETA ราคาเท่าไรและใช้ได้นานแค่ไหน?",
+          "a": "มีค่าธรรมเนียม KRW 10,000 (ประมาณ US$8) ใช้ได้ 3 ปี และเข้าออกได้หลายครั้ง ยื่นขอเฉพาะที่ k-eta.go.kr เท่านั้น"
+        },
+        {
+          "q": "การอนุมัติ K-ETA รับประกันไหม?",
+          "a": "ไม่ K-ETA และการตัดสินใจขั้นสุดท้ายของตรวจคนเข้าเมืองเมื่อเดินทางถึง ไม่ได้รับประกัน ยื่นขอแต่เนิ่น ๆ ตอบตามความจริง และพกเอกสารการท่องเที่ยวที่แท้จริง — ตั๋วขากลับ ใบจองโรงแรม และหลักฐานทางการเงิน"
+        },
+        {
+          "q": "ฉันต้องใช้ e-Arrival Card ด้วยไหม?",
+          "a": "ไม่ต้อง — หากคุณมี K-ETA ที่ใช้ได้ คุณจะได้รับการยกเว้น e-Arrival Card คุณกรอกอย่างใดอย่างหนึ่ง ไม่ใช่ทั้งสองอย่าง"
+        },
+        {
+          "q": "ฉันพำนักได้นานแค่ไหน?",
+          "a": "สูงสุด 90 วัน สำหรับการท่องเที่ยว การทำงานหรือการเรียนต้องใช้วีซ่าที่เหมาะสม"
+        }
+      ]
+    },
+    "ui": {
+      "visa": "วีซ่า",
+      "stay": "การพำนัก",
+      "entry": "การเข้าเมือง",
+      "where": "หาได้ที่ไหน",
+      "official": "แหล่งข้อมูลทางการ",
+      "required": "จำเป็น",
+      "conditional": "หากเกี่ยวข้อง",
+      "recommended": "แนะนำ",
+      "confirm": "ค่าธรรมเนียม/กฎระเบียบอาจเปลี่ยนแปลง — โปรดตรวจสอบจากแหล่งข้อมูลทางการ",
+      "source": "แหล่งที่มา",
+      "updated": "อัปเดต",
+      "tldr": "สรุป"
+    }
+  },
+  "id": {
+    "kicker": "Panduan masuk · Thailand → Korea",
+    "readingTime": "Baca 6 menit",
+    "h1": "Panduan Masuk Korea dari Thailand",
+    "metaTitle": "Dari Thailand ke Korea: Perlukah Visa? (2026) — Korea Trip Hub",
+    "metaDesc": "Apakah pemegang paspor Thailand memerlukan visa untuk Korea Selatan? Tidak — bebas visa hingga 90 hari. Tapi Anda TETAP memerlukan K-ETA (₩10,000, berlaku 3 tahun): Thailand tidak ada dalam daftar pembebasan K-ETA. Ajukan lebih awal — panduan masuk langkah demi langkah di dalam.",
+    "verdict": {
+      "headline": "Tidak perlu visa turis — tetapi Anda harus mengajukan K-ETA.",
+      "sub": "Paspor Thailand bebas visa untuk wisata singkat, jadi tidak ada visa yang perlu diajukan. Tetapi Thailand tidak ada dalam daftar pembebasan K-ETA, jadi Anda harus memperoleh K-ETA sebelum terbang. Dengan K-ETA yang berlaku, Anda kemudian dibebaskan dari e-Arrival Card.",
+      "type": "Bebas visa — K-ETA wajib",
+      "stay": "Hingga 90 hari",
+      "entry": "Wisata jangka pendek"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Tanpa visa hingga 90 hari",
+        "body": "Berdasarkan perjanjian bebas visa Korea–Thailand, pemegang paspor Thailand masuk ke Korea tanpa visa untuk wisata jangka pendek dan dapat tinggal hingga 90 hari. Tidak ada permohonan visa turis yang perlu diajukan."
+      },
+      {
+        "icon": "🟠",
+        "tone": "amber",
+        "title": "Tetapi Anda TETAP memerlukan K-ETA",
+        "body": "Thailand tidak termasuk di antara 22 negara/kawasan dalam pembebasan sementara K-ETA, jadi Anda harus mengajukan K-ETA sebelum naik pesawat. Biayanya KRW 10,000 (sekitar US$8), berlaku 3 tahun dengan beberapa kali masuk, dan hanya diajukan di situs resmi k-eta.go.kr."
+      },
+      {
+        "icon": "🛂",
+        "tone": "blue",
+        "title": "Ajukan lebih awal — persetujuan tidak otomatis",
+        "body": "K-ETA (dan keputusan akhir imigrasi saat tiba) tidak dijamin. Ajukan lebih awal, jawab dengan jujur, dan pastikan perjalanan Anda benar-benar untuk wisata — bawa tiket pulang, pemesanan hotel, dan bukti dana. Jika Anda memegang K-ETA yang berlaku, Anda dibebaskan dari e-Arrival Card."
+      }
+    ],
+    "tldr": [
+      "Tanpa visa turis — paspor Thailand bebas visa hingga 90 hari.",
+      "Anda harus mengajukan K-ETA sebelum terbang (KRW 10,000, berlaku 3 tahun) — hanya di k-eta.go.kr.",
+      "Ajukan setidaknya 72 jam sebelum keberangkatan; K-ETA yang berlaku kemudian membebaskan Anda dari e-Arrival Card.",
+      "Bawa tiket pulang, pemesanan hotel, dan bukti dana — persetujuan tidak otomatis."
+    ],
+    "steps": {
+      "title": "Langkah-langkah masuk Anda",
+      "items": [
+        {
+          "n": 1,
+          "title": "Pastikan Anda bebas visa",
+          "detail": "Paspor Thailand masuk ke Korea tanpa visa untuk wisata singkat (hingga 90 hari) — tidak ada visa turis yang perlu diajukan."
+        },
+        {
+          "n": 2,
+          "title": "Ajukan K-ETA (wajib)",
+          "detail": "Ajukan di situs resmi k-eta.go.kr setidaknya 72 jam sebelum naik pesawat. Biayanya KRW 10,000, berlaku 3 tahun dengan beberapa kali masuk. Waspadai situs tiruan yang menagih biaya tambahan — hanya k-eta.go.kr yang resmi.",
+          "link": "https://www.k-eta.go.kr",
+          "linkLabel": "Ajukan K-ETA"
+        },
+        {
+          "n": 3,
+          "title": "Siapkan bukti perjalanan Anda",
+          "detail": "Siapkan tiket pulang/lanjutan, penginapan yang telah dikonfirmasi, dan bukti dana. Persetujuan dan masuk tidak otomatis, jadi dokumen wisata yang asli membantu."
+        },
+        {
+          "n": 4,
+          "title": "Di imigrasi",
+          "detail": "Dengan K-ETA yang berlaku, Anda tidak mengisi e-Arrival Card. Tunjukkan paspor dan dokumen perjalanan Anda saat tiba; sidik jari dan foto mungkin diambil. Tetap untuk tujuan wisata — tidak boleh bekerja berbayar dengan masuk bebas visa."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Yang perlu disiapkan",
+      "intro": "Anda tidak mengajukan permohonan visa — tetapi Anda memang memerlukan K-ETA, ditambah hal-hal ini untuk menunjukkan wisata yang asli saat tiba.",
+      "cols": [
+        "Item",
+        "Di mana mendapatkannya",
+        "Catatan"
+      ],
+      "rows": [
+        {
+          "doc": "Paspor",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Berlaku selama masa tinggal Anda."
+        },
+        {
+          "doc": "Persetujuan K-ETA",
+          "req": "required",
+          "where": "k-eta.go.kr",
+          "how": "KRW 10,000; ajukan setidaknya 72 jam sebelum naik pesawat. Hanya situs resmi.",
+          "link": "https://www.k-eta.go.kr"
+        },
+        {
+          "doc": "e-Arrival Card",
+          "req": "conditional",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Hanya jika Anda TIDAK memegang K-ETA (mis. pelancong yang dibebaskan karena usia). Pemegang K-ETA dibebaskan.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Tiket pulang/lanjutan",
+          "req": "required",
+          "where": "Maskapai / agen perjalanan",
+          "how": "Bukti bahwa Anda akan pergi dalam masa tinggal yang diizinkan — sering diperiksa untuk pelancong Thailand."
+        },
+        {
+          "doc": "Pemesanan penginapan",
+          "req": "required",
+          "where": "Situs pemesanan",
+          "how": "Hotel/penginapan yang dikonfirmasi untuk malam-malam pertama Anda (ditanyakan saat Anda mengajukan K-ETA)."
+        },
+        {
+          "doc": "Bukti dana",
+          "req": "recommended",
+          "where": "Anda / bank Anda",
+          "how": "Kartu, uang tunai, atau rekening koran terbaru yang menunjukkan Anda dapat membiayai perjalanan Anda."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berlaku",
+        "recommended": "Disarankan"
+      }
+    },
+    "pitfalls": {
+      "title": "Kesalahan umum saat masuk",
+      "items": [
+        {
+          "icon": "🟠",
+          "t": "Mengira Thailand dibebaskan dari K-ETA",
+          "d": "Tidak. Beberapa negara dibebaskan dari K-ETA hingga 2026, tetapi Thailand bukan salah satunya — Anda harus mengajukan sebelum terbang."
+        },
+        {
+          "icon": "🕸️",
+          "t": "Mengajukan di situs 'K-ETA' tiruan",
+          "d": "Satu-satunya situs resmi adalah k-eta.go.kr (KRW 10,000). Situs pihak ketiga menagih US$40–50 lebih untuk hal yang sama."
+        },
+        {
+          "icon": "⏰",
+          "t": "Mengajukan terlalu terlambat",
+          "d": "Ajukan setidaknya 72 jam sebelum keberangkatan. Persetujuan tidak dijamin, jadi sisakan waktu jika permohonan Anda ditinjau."
+        },
+        {
+          "icon": "🧾",
+          "t": "Tiba tanpa bukti perjalanan",
+          "d": "Bawa tiket pulang, pemesanan hotel, dan bukti dana. Pengunjung Thailand umumnya diminta hal-hal ini di imigrasi."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Melewati batas masa tinggal",
+          "d": "Tinggal lebih dari hingga 90 hari berisiko denda dan larangan masuk di masa depan."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ masuk Thailand → Korea",
+      "items": [
+        {
+          "q": "Apakah pemegang paspor Thailand memerlukan visa untuk Korea?",
+          "a": "Tidak — untuk wisata jangka pendek, pemegang paspor Thailand masuk ke Korea tanpa visa dan dapat tinggal hingga 90 hari. Anda tidak mengajukan visa turis apa pun."
+        },
+        {
+          "q": "Apakah saya memerlukan K-ETA?",
+          "a": "Ya. Thailand tidak ada dalam daftar pembebasan sementara K-ETA, jadi Anda harus mengajukan K-ETA sebelum naik pesawat — di situs resmi k-eta.go.kr."
+        },
+        {
+          "q": "Berapa biaya K-ETA dan berapa lama berlakunya?",
+          "a": "Biayanya KRW 10,000 (sekitar US$8), berlaku 3 tahun, dan memungkinkan beberapa kali masuk. Ajukan hanya di k-eta.go.kr."
+        },
+        {
+          "q": "Apakah persetujuan K-ETA dijamin?",
+          "a": "Tidak. K-ETA, dan keputusan akhir oleh imigrasi saat tiba, tidak dijamin. Ajukan lebih awal, jawab dengan jujur, dan bawa dokumen wisata yang asli — tiket pulang, pemesanan hotel, dan bukti dana."
+        },
+        {
+          "q": "Apakah saya juga memerlukan e-Arrival Card?",
+          "a": "Tidak — jika Anda memegang K-ETA yang berlaku, Anda dibebaskan dari e-Arrival Card. Anda mengisi salah satu, bukan keduanya."
+        },
+        {
+          "q": "Berapa lama saya boleh tinggal?",
+          "a": "Hingga 90 hari, untuk wisata. Bekerja atau belajar memerlukan visa yang sesuai."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Visa",
+      "stay": "Masa tinggal",
+      "entry": "Masuk",
+      "where": "Di mana",
+      "official": "Sumber resmi",
+      "required": "Wajib",
+      "conditional": "Jika berlaku",
+      "recommended": "Disarankan",
+      "confirm": "Biaya/aturan dapat berubah — konfirmasikan di sumber resmi",
+      "source": "Sumber",
+      "updated": "Diperbarui",
+      "tldr": "Ringkasan"
+    }
+  },
+  "es": {
+    "kicker": "Guía de entrada · Tailandia → Corea",
+    "readingTime": "6 min de lectura",
+    "h1": "Guía de entrada a Corea desde Tailandia",
+    "metaTitle": "De Tailandia a Corea: ¿necesitas visado? (2026) — Korea Trip Hub",
+    "metaDesc": "¿Los titulares de pasaporte tailandés necesitan visado para Corea del Sur? No — sin visado hasta 90 días. Pero SÍ necesitas la K-ETA (₩10,000, válida 3 años): Tailandia no está en la lista de exención de la K-ETA. Solicítala pronto — guía de entrada paso a paso dentro.",
+    "verdict": {
+      "need": false,
+      "headline": "No se necesita visado de turista — pero debes solicitar la K-ETA.",
+      "sub": "Los pasaportes tailandeses entran sin visado para el turismo de corta duración, así que no hay ningún visado que solicitar. Pero Tailandia no está en la lista de exención de la K-ETA, por lo que debes obtener una K-ETA antes de volar. Con una K-ETA válida quedas entonces exento de la e-Arrival Card.",
+      "type": "Sin visado — K-ETA obligatoria",
+      "stay": "Hasta 90 días",
+      "entry": "Turismo de corta duración"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Sin visado hasta 90 días",
+        "body": "En virtud del acuerdo de exención de visado Corea–Tailandia, los titulares de pasaporte tailandés entran en Corea sin visado para el turismo de corta duración y pueden quedarse hasta 90 días. No hay ninguna solicitud de visado de turista que presentar."
+      },
+      {
+        "icon": "🟠",
+        "tone": "amber",
+        "title": "Pero SÍ necesitas la K-ETA",
+        "body": "Tailandia no está entre los 22 países/regiones de la exención temporal de la K-ETA, por lo que debes solicitar la K-ETA antes de embarcar. Cuesta KRW 10,000 (unos US$8), es válida 3 años con múltiples entradas y solo se solicita en el sitio oficial k-eta.go.kr."
+      },
+      {
+        "icon": "🛂",
+        "tone": "blue",
+        "title": "Solicítala pronto — la aprobación no es automática",
+        "body": "Una K-ETA (y la decisión final de inmigración a la llegada) no está garantizada. Solicítala pronto, responde con honestidad y mantén tu viaje realmente como turismo — lleva tu billete de regreso, la reserva de hotel y una prueba de fondos. Si tienes una K-ETA válida quedas exento de la e-Arrival Card."
+      }
+    ],
+    "tldr": [
+      "Sin visado de turista — los pasaportes tailandeses entran sin visado hasta 90 días.",
+      "Debes solicitar la K-ETA antes de volar (KRW 10,000, válida 3 años) — solo en k-eta.go.kr.",
+      "Solicítala al menos 72 horas antes de la salida; una K-ETA válida te exime entonces de la e-Arrival Card.",
+      "Lleva tu billete de regreso, la reserva de hotel y una prueba de fondos — la aprobación no es automática."
+    ],
+    "steps": {
+      "title": "Tus pasos de entrada",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirma que no necesitas visado",
+          "detail": "Los pasaportes tailandeses entran en Corea sin visado para el turismo de corta duración (hasta 90 días) — no hay ningún visado de turista que solicitar."
+        },
+        {
+          "n": 2,
+          "title": "Solicita la K-ETA (obligatoria)",
+          "detail": "Solicítala en el sitio oficial k-eta.go.kr al menos 72 horas antes de embarcar. La tasa es de KRW 10,000, válida 3 años con múltiples entradas. Cuidado con los sitios imitadores que cobran de más — solo k-eta.go.kr es oficial.",
+          "link": "https://www.k-eta.go.kr",
+          "linkLabel": "Solicitar la K-ETA"
+        },
+        {
+          "n": 3,
+          "title": "Prepara tus pruebas de viaje",
+          "detail": "Ten listos tu billete de regreso/salida, el alojamiento confirmado y una prueba de fondos. La aprobación y la entrada no son automáticas, así que unos documentos de turismo genuinos ayudan."
+        },
+        {
+          "n": 4,
+          "title": "En el control de inmigración",
+          "detail": "Con una K-ETA válida no rellenas la e-Arrival Card. Muestra tu pasaporte y tus documentos de viaje a la llegada; pueden tomarte las huellas y una foto. Limítate al turismo — no se permite trabajo remunerado con la entrada sin visado."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Qué tener preparado",
+      "intro": "No presentas una solicitud de visado, pero sí necesitas la K-ETA, además de esto para demostrar un turismo genuino a la llegada.",
+      "cols": [
+        "Elemento",
+        "Dónde conseguirlo",
+        "Notas"
+      ],
+      "rows": [
+        {
+          "doc": "Pasaporte",
+          "req": "required",
+          "where": "Ya lo tienes",
+          "how": "Válido durante toda tu estancia."
+        },
+        {
+          "doc": "Aprobación de la K-ETA",
+          "req": "required",
+          "where": "k-eta.go.kr",
+          "how": "KRW 10,000; solicítala al menos 72 horas antes de embarcar. Solo el sitio oficial.",
+          "link": "https://www.k-eta.go.kr"
+        },
+        {
+          "doc": "e-Arrival Card",
+          "req": "conditional",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Solo si NO tienes una K-ETA (p. ej., viajeros exentos por edad). Los titulares de K-ETA están exentos.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Billete de regreso/salida",
+          "req": "required",
+          "where": "Aerolínea / agencia de viajes",
+          "how": "Prueba de que saldrás dentro de tu estancia permitida — a menudo se comprueba a los viajeros tailandeses."
+        },
+        {
+          "doc": "Reserva de alojamiento",
+          "req": "required",
+          "where": "Sitios de reservas",
+          "how": "Hotel/alojamiento confirmado para tus primeras noches (se pide al solicitar la K-ETA)."
+        },
+        {
+          "doc": "Prueba de fondos",
+          "req": "recommended",
+          "where": "Tú / tu banco",
+          "how": "Tarjetas, efectivo o un extracto reciente que demuestre que puedes costear tu viaje."
+        }
+      ],
+      "legend": {
+        "required": "Obligatorio",
+        "conditional": "Si corresponde",
+        "recommended": "Recomendado"
+      }
+    },
+    "pitfalls": {
+      "title": "Errores comunes de entrada",
+      "items": [
+        {
+          "icon": "🟠",
+          "t": "Suponer que Tailandia está exenta de la K-ETA",
+          "d": "No lo está. Algunos países están exentos de la K-ETA hasta 2026, pero Tailandia no es uno de ellos — debes solicitarla antes de volar."
+        },
+        {
+          "icon": "🕸️",
+          "t": "Solicitarla en un sitio imitador de 'K-ETA'",
+          "d": "El único sitio oficial es k-eta.go.kr (KRW 10,000). Los sitios de terceros cobran US$40–50 de más por lo mismo."
+        },
+        {
+          "icon": "⏰",
+          "t": "Solicitarla demasiado tarde",
+          "d": "Solicítala al menos 72 horas antes de la salida. La aprobación no está garantizada, así que deja margen por si revisan tu solicitud."
+        },
+        {
+          "icon": "🧾",
+          "t": "Llegar sin pruebas de viaje",
+          "d": "Lleva tu billete de regreso, la reserva de hotel y una prueba de fondos. A los visitantes tailandeses se les suele pedir esto en inmigración."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Superar tu estancia permitida",
+          "d": "Quedarte más de hasta 90 días conlleva multas y posibles prohibiciones de entrada futuras."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ de entrada Tailandia → Corea",
+      "items": [
+        {
+          "q": "¿Los titulares de pasaporte tailandés necesitan visado para Corea?",
+          "a": "No — para el turismo de corta duración, los titulares de pasaporte tailandés entran en Corea sin visado y pueden quedarse hasta 90 días. No solicitas ningún visado de turista."
+        },
+        {
+          "q": "¿Necesito la K-ETA?",
+          "a": "Sí. Tailandia no está en la lista de exención temporal de la K-ETA, por lo que debes solicitar la K-ETA antes de embarcar — en el sitio oficial k-eta.go.kr."
+        },
+        {
+          "q": "¿Cuánto cuesta la K-ETA y cuánto tiempo es válida?",
+          "a": "Cuesta KRW 10,000 (unos US$8), es válida 3 años y permite múltiples entradas. Solicítala solo en k-eta.go.kr."
+        },
+        {
+          "q": "¿Está garantizada la aprobación de la K-ETA?",
+          "a": "No. Una K-ETA, y la decisión final de inmigración a la llegada, no están garantizadas. Solicítala pronto, responde con honestidad y lleva documentos de turismo genuinos — billete de regreso, reserva de hotel y una prueba de fondos."
+        },
+        {
+          "q": "¿También necesito la e-Arrival Card?",
+          "a": "No — si tienes una K-ETA válida quedas exento de la e-Arrival Card. Rellenas una u otra, no ambas."
+        },
+        {
+          "q": "¿Cuánto tiempo puedo quedarme?",
+          "a": "Hasta 90 días, por turismo. Trabajar o estudiar requiere el visado correspondiente."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Visado",
+      "stay": "Estancia",
+      "entry": "Entrada",
+      "where": "Dónde",
+      "official": "Fuentes oficiales",
+      "required": "Obligatorio",
+      "conditional": "Si corresponde",
+      "recommended": "Recomendado",
+      "confirm": "Las tasas/normas cambian — confírmalo en la fuente",
+      "source": "Fuente",
+      "updated": "Actualizado",
+      "tldr": "En resumen"
+    }
+  },
+  "ms": {
+    "kicker": "Panduan kemasukan · Thailand → Korea",
+    "readingTime": "Bacaan 6 minit",
+    "h1": "Panduan Kemasukan ke Korea dari Thailand",
+    "metaTitle": "Dari Thailand ke Korea: Perlukah Anda Visa? (2026) — Korea Trip Hub",
+    "metaDesc": "Adakah pemegang pasport Thailand memerlukan visa untuk Korea Selatan? Tidak — bebas visa sehingga 90 hari. Tetapi anda MEMANG perlukan K-ETA (₩10,000, sah 3 tahun): Thailand tiada dalam senarai pengecualian K-ETA. Mohon awal — panduan kemasukan langkah demi langkah di dalam.",
+    "verdict": {
+      "headline": "Tiada visa pelancong diperlukan — tetapi anda mesti memohon K-ETA.",
+      "sub": "Pasport Thailand bebas visa untuk pelancongan jangka pendek, jadi tiada visa untuk dimohon. Tetapi Thailand tiada dalam senarai pengecualian K-ETA, jadi anda mesti mendapatkan K-ETA sebelum anda terbang. Dengan K-ETA yang sah, anda kemudiannya dikecualikan daripada e-Arrival Card.",
+      "type": "Bebas visa — K-ETA diperlukan",
+      "stay": "Sehingga 90 hari",
+      "entry": "Pelancongan jangka pendek"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Tiada visa sehingga 90 hari",
+        "body": "Di bawah perjanjian pengecualian visa Korea–Thailand, pemegang pasport Thailand masuk ke Korea tanpa visa untuk pelancongan jangka pendek dan boleh tinggal sehingga 90 hari. Tiada permohonan visa pelancong untuk dikemukakan."
+      },
+      {
+        "icon": "🟠",
+        "tone": "amber",
+        "title": "Tetapi anda MEMANG perlukan K-ETA",
+        "body": "Thailand tiada dalam 22 negara/wilayah pada pengecualian sementara K-ETA, jadi anda mesti memohon K-ETA sebelum menaiki pesawat. Ia berharga KRW 10,000 (kira-kira US$8), sah selama 3 tahun dengan pelbagai kemasukan, dan hanya dipohon di laman rasmi k-eta.go.kr."
+      },
+      {
+        "icon": "🛂",
+        "tone": "blue",
+        "title": "Mohon awal — kelulusan tidak automatik",
+        "body": "K-ETA (dan keputusan akhir imigresen semasa ketibaan) tidak dijamin. Mohon awal, jawab dengan jujur, dan pastikan perjalanan anda benar-benar untuk pelancongan — bawa tiket pulang, tempahan hotel dan bukti dana anda. Jika anda memegang K-ETA yang sah anda dikecualikan daripada e-Arrival Card."
+      }
+    ],
+    "tldr": [
+      "Tiada visa pelancong — pasport Thailand bebas visa sehingga 90 hari.",
+      "Anda mesti memohon K-ETA sebelum anda terbang (KRW 10,000, sah 3 tahun) — hanya di k-eta.go.kr.",
+      "Mohon sekurang-kurangnya 72 jam sebelum berlepas; K-ETA yang sah kemudiannya mengecualikan anda daripada e-Arrival Card.",
+      "Bawa tiket pulang, tempahan hotel dan bukti dana anda — kelulusan tidak automatik."
+    ],
+    "steps": {
+      "title": "Langkah kemasukan anda",
+      "items": [
+        {
+          "n": 1,
+          "title": "Sahkan anda bebas visa",
+          "detail": "Pasport Thailand masuk ke Korea tanpa visa untuk pelancongan jangka pendek (sehingga 90 hari) — tiada visa pelancong untuk dimohon."
+        },
+        {
+          "n": 2,
+          "title": "Mohon K-ETA (diperlukan)",
+          "detail": "Mohon di laman rasmi k-eta.go.kr sekurang-kurangnya 72 jam sebelum menaiki pesawat. Yurannya ialah KRW 10,000, sah 3 tahun dengan pelbagai kemasukan. Berhati-hati dengan laman tiruan yang mengenakan bayaran tambahan — hanya k-eta.go.kr yang rasmi.",
+          "link": "https://www.k-eta.go.kr",
+          "linkLabel": "Mohon K-ETA"
+        },
+        {
+          "n": 3,
+          "title": "Sediakan bukti perjalanan anda",
+          "detail": "Sediakan tiket pulang/seterusnya, penginapan yang disahkan, dan bukti dana anda. Kelulusan dan kemasukan tidak automatik, jadi dokumen pelancongan yang tulen membantu."
+        },
+        {
+          "n": 4,
+          "title": "Di kawalan imigresen",
+          "detail": "Dengan K-ETA yang sah anda tidak mengisi e-Arrival Card. Tunjukkan pasport dan dokumen perjalanan anda semasa ketibaan; cap jari dan gambar mungkin diambil. Kekalkan tujuan pelancongan — tiada kerja bergaji dengan kemasukan bebas visa."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Apa yang perlu disediakan",
+      "intro": "Anda tidak mengemukakan permohonan visa — tetapi anda memang perlukan K-ETA, serta perkara ini untuk menunjukkan pelancongan yang tulen semasa ketibaan.",
+      "cols": [
+        "Perkara",
+        "Di mana untuk mendapatkannya",
+        "Catatan"
+      ],
+      "rows": [
+        {
+          "doc": "Pasport",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Sah sepanjang tempoh tinggal anda."
+        },
+        {
+          "doc": "Kelulusan K-ETA",
+          "req": "required",
+          "where": "k-eta.go.kr",
+          "how": "KRW 10,000; mohon sekurang-kurangnya 72 jam sebelum menaiki pesawat. Laman rasmi sahaja.",
+          "link": "https://www.k-eta.go.kr"
+        },
+        {
+          "doc": "e-Arrival Card",
+          "req": "conditional",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Hanya jika anda TIDAK memegang K-ETA (cth. pelancong yang dikecualikan mengikut umur). Pemegang K-ETA dikecualikan.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Tiket pulang/seterusnya",
+          "req": "required",
+          "where": "Syarikat penerbangan / agensi pelancongan",
+          "how": "Bukti bahawa anda akan bertolak dalam tempoh tinggal yang dibenarkan — kerap disemak bagi pelancong Thailand."
+        },
+        {
+          "doc": "Tempahan penginapan",
+          "req": "required",
+          "where": "Laman tempahan",
+          "how": "Hotel/penginapan yang disahkan untuk beberapa malam pertama anda (ditanya semasa anda memohon K-ETA)."
+        },
+        {
+          "doc": "Bukti dana",
+          "req": "recommended",
+          "where": "Anda / bank anda",
+          "how": "Kad, wang tunai, atau penyata terkini yang menunjukkan anda mampu menampung perjalanan anda."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berkenaan",
+        "recommended": "Disyorkan"
+      }
+    },
+    "pitfalls": {
+      "title": "Kesilapan kemasukan yang biasa",
+      "items": [
+        {
+          "icon": "🟠",
+          "t": "Menganggap Thailand dikecualikan K-ETA",
+          "d": "Ia tidak. Sesetengah negara dikecualikan daripada K-ETA sehingga 2026, tetapi Thailand bukan salah satunya — anda mesti memohon sebelum anda terbang."
+        },
+        {
+          "icon": "🕸️",
+          "t": "Memohon di laman 'K-ETA' tiruan",
+          "d": "Satu-satunya laman rasmi ialah k-eta.go.kr (KRW 10,000). Laman pihak ketiga mengenakan bayaran tambahan US$40–50 untuk perkara yang sama."
+        },
+        {
+          "icon": "⏰",
+          "t": "Memohon terlalu lewat",
+          "d": "Mohon sekurang-kurangnya 72 jam sebelum berlepas. Kelulusan tidak dijamin, jadi beri masa sekiranya permohonan anda disemak."
+        },
+        {
+          "icon": "🧾",
+          "t": "Tiba tanpa bukti perjalanan",
+          "d": "Bawa tiket pulang, tempahan hotel dan bukti dana anda. Pengunjung Thailand lazimnya diminta perkara ini di imigresen."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Tinggal melebihi tempoh yang dibenarkan",
+          "d": "Tinggal melebihi sehingga 90 hari berisiko denda dan larangan masuk pada masa hadapan."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Soalan Lazim kemasukan Thailand → Korea",
+      "items": [
+        {
+          "q": "Adakah pemegang pasport Thailand memerlukan visa untuk Korea?",
+          "a": "Tidak — untuk pelancongan jangka pendek, pemegang pasport Thailand masuk ke Korea tanpa visa dan boleh tinggal sehingga 90 hari. Anda tidak memohon sebarang visa pelancong."
+        },
+        {
+          "q": "Adakah saya memerlukan K-ETA?",
+          "a": "Ya. Thailand tiada dalam senarai pengecualian sementara K-ETA, jadi anda mesti memohon K-ETA sebelum menaiki pesawat — di laman rasmi k-eta.go.kr."
+        },
+        {
+          "q": "Berapakah kos K-ETA dan berapa lama ia sah?",
+          "a": "Ia berharga KRW 10,000 (kira-kira US$8), sah selama 3 tahun, dan membenarkan pelbagai kemasukan. Mohon hanya di k-eta.go.kr."
+        },
+        {
+          "q": "Adakah kelulusan K-ETA dijamin?",
+          "a": "Tidak. K-ETA, dan keputusan akhir oleh imigresen semasa ketibaan, tidak dijamin. Mohon awal, jawab dengan jujur, dan bawa dokumen pelancongan yang tulen — tiket pulang, tempahan hotel dan bukti dana."
+        },
+        {
+          "q": "Adakah saya juga memerlukan e-Arrival Card?",
+          "a": "Tidak — jika anda memegang K-ETA yang sah anda dikecualikan daripada e-Arrival Card. Anda mengisi salah satu, bukan kedua-duanya."
+        },
+        {
+          "q": "Berapa lama saya boleh tinggal?",
+          "a": "Sehingga 90 hari, untuk pelancongan. Bekerja atau belajar memerlukan visa yang sesuai."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Visa",
+      "stay": "Tempoh tinggal",
+      "entry": "Kemasukan",
+      "where": "Di mana",
+      "official": "Sumber rasmi",
+      "required": "Wajib",
+      "conditional": "Jika berkenaan",
+      "recommended": "Disyorkan",
+      "confirm": "Yuran/peraturan berubah — sahkan di sumber rasmi",
+      "source": "Sumber",
+      "updated": "Dikemas kini",
+      "tldr": "Ringkasan"
+    }
+  },
+  "ko": {
+    "kicker": "입국 가이드 · 태국 → 한국",
+    "readingTime": "6분 읽기",
+    "h1": "태국에서 한국 입국 가이드",
+    "metaTitle": "태국에서 한국: 비자가 필요할까요? (2026) — Korea Trip Hub",
+    "metaDesc": "태국 여권 소지자는 한국 비자가 필요할까요? 아니요 — 최대 90일 무비자입니다. 하지만 K-ETA는 반드시 필요합니다 (₩10,000, 3년 유효): 태국은 K-ETA 면제 대상국이 아닙니다. 미리 신청하세요 — 단계별 입국 가이드를 안내합니다.",
+    "verdict": {
+      "headline": "관광 비자 불필요 — 하지만 K-ETA는 반드시 신청해야 합니다.",
+      "sub": "태국 여권은 단기 관광 시 무비자여서 신청할 비자가 없습니다. 하지만 태국은 K-ETA 면제 대상국이 아니므로, 출발 전에 반드시 K-ETA를 받아야 합니다. 유효한 K-ETA가 있으면 e-Arrival Card는 면제됩니다.",
+      "type": "무비자 — K-ETA 필요",
+      "stay": "최대 90일",
+      "entry": "단기 관광"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "최대 90일 무비자",
+        "body": "한국–태국 비자 면제 협정에 따라, 태국 여권 소지자는 단기 관광 시 한국에 무비자로 입국하며 최대 90일간 체류할 수 있습니다. 제출할 관광 비자 신청서가 없습니다."
+      },
+      {
+        "icon": "🟠",
+        "tone": "amber",
+        "title": "하지만 K-ETA는 반드시 필요합니다",
+        "body": "태국은 임시 K-ETA 면제 대상 22개국·지역에 속하지 않으므로, 탑승 전에 반드시 K-ETA를 신청해야 합니다. 비용은 KRW 10,000(약 US$8)이며, 3년간 복수 입국으로 유효하고, 공식 사이트 k-eta.go.kr에서만 신청합니다."
+      },
+      {
+        "icon": "🛂",
+        "tone": "blue",
+        "title": "미리 신청하세요 — 승인은 자동이 아닙니다",
+        "body": "K-ETA(그리고 도착 시 최종 입국 심사 결정)는 보장되지 않습니다. 미리 신청하고, 정직하게 답변하며, 진정한 관광 목적으로 여행하세요 — 귀국 항공권, 호텔 예약, 자금 증빙을 지참하세요. 유효한 K-ETA를 소지하면 e-Arrival Card는 면제됩니다."
+      }
+    ],
+    "tldr": [
+      "관광 비자 불필요 — 태국 여권은 최대 90일 무비자입니다.",
+      "출발 전에 반드시 K-ETA를 신청해야 합니다 (KRW 10,000, 3년 유효) — k-eta.go.kr에서만 신청하세요.",
+      "출발 최소 72시간 전에 신청하세요. 유효한 K-ETA가 있으면 e-Arrival Card는 면제됩니다.",
+      "귀국 항공권, 호텔 예약, 자금 증빙을 지참하세요 — 승인은 자동이 아닙니다."
+    ],
+    "steps": {
+      "title": "입국 절차",
+      "items": [
+        {
+          "n": 1,
+          "title": "무비자 여부 확인",
+          "detail": "태국 여권은 단기 관광 시 한국에 무비자로 입국합니다 (최대 90일) — 신청할 관광 비자가 없습니다."
+        },
+        {
+          "n": 2,
+          "title": "K-ETA 신청 (필수)",
+          "detail": "탑승 최소 72시간 전에 공식 사이트 k-eta.go.kr에서 신청하세요. 비용은 KRW 10,000이며, 3년간 복수 입국으로 유효합니다. 추가 요금을 청구하는 모방 사이트를 주의하세요 — k-eta.go.kr만 공식입니다.",
+          "link": "https://www.k-eta.go.kr",
+          "linkLabel": "K-ETA 신청"
+        },
+        {
+          "n": 3,
+          "title": "여행 증빙 준비",
+          "detail": "귀국/출국 항공권, 확정된 숙소, 자금 증빙을 준비하세요. 승인과 입국은 자동이 아니므로, 진정한 관광 서류가 도움이 됩니다."
+        },
+        {
+          "n": 4,
+          "title": "입국 심사에서",
+          "detail": "유효한 K-ETA가 있으면 e-Arrival Card는 신청하지 않습니다. 도착 시 여권과 여행 서류를 제시하며, 지문과 사진을 채취할 수 있습니다. 목적은 관광에 한정하세요 — 무비자 입국으로는 유급 노동을 할 수 없습니다."
+        }
+      ]
+    },
+    "documents": {
+      "title": "미리 준비할 것",
+      "intro": "비자 신청서는 제출하지 않지만, K-ETA는 필요하며, 도착 시 진정한 관광임을 보여줄 다음도 준비하세요.",
+      "cols": [
+        "항목",
+        "발급처",
+        "비고"
+      ],
+      "rows": [
+        {
+          "doc": "여권",
+          "req": "required",
+          "where": "이미 소지",
+          "how": "체류 기간 동안 유효할 것."
+        },
+        {
+          "doc": "K-ETA 승인",
+          "req": "required",
+          "where": "k-eta.go.kr",
+          "how": "KRW 10,000; 탑승 최소 72시간 전에 신청. 공식 사이트만 이용.",
+          "link": "https://www.k-eta.go.kr"
+        },
+        {
+          "doc": "e-Arrival Card",
+          "req": "conditional",
+          "where": "e-arrivalcard.go.kr",
+          "how": "K-ETA를 소지하지 않은 경우에만 (예: 연령 면제 여행자). K-ETA 소지자는 면제됩니다.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "귀국/출국 항공권",
+          "req": "required",
+          "where": "항공사 / 여행사",
+          "how": "허용된 체류 기간 내에 출국한다는 증빙 — 태국 여행자는 자주 확인받습니다."
+        },
+        {
+          "doc": "숙소 예약",
+          "req": "required",
+          "where": "예약 사이트",
+          "how": "첫 며칠간의 확정된 호텔/숙소 (K-ETA 신청 시 묻습니다)."
+        },
+        {
+          "doc": "자금 증빙",
+          "req": "recommended",
+          "where": "본인 / 은행",
+          "how": "여행을 감당할 수 있음을 보여주는 카드, 현금, 또는 최근 거래 내역서."
+        }
+      ],
+      "legend": {
+        "required": "필수",
+        "conditional": "해당하는 경우",
+        "recommended": "권장"
+      }
+    },
+    "pitfalls": {
+      "title": "흔한 입국 실수",
+      "items": [
+        {
+          "icon": "🟠",
+          "t": "태국이 K-ETA 면제라고 단정",
+          "d": "그렇지 않습니다. 일부 국가는 2026년까지 K-ETA가 면제되지만, 태국은 그중 하나가 아닙니다 — 출발 전에 반드시 신청해야 합니다."
+        },
+        {
+          "icon": "🕸️",
+          "t": "모방 'K-ETA' 사이트에서 신청",
+          "d": "유일한 공식 사이트는 k-eta.go.kr(KRW 10,000)입니다. 제3자 사이트는 같은 것을 두고 US$40–50를 추가로 청구합니다."
+        },
+        {
+          "icon": "⏰",
+          "t": "너무 늦게 신청",
+          "d": "출발 최소 72시간 전에 신청하세요. 승인은 보장되지 않으므로, 신청이 심사될 경우를 대비해 여유를 두세요."
+        },
+        {
+          "icon": "🧾",
+          "t": "여행 증빙 없이 도착",
+          "d": "귀국 항공권, 호텔 예약, 자금 증빙을 지참하세요. 태국 방문객은 입국 심사에서 이를 흔히 요구받습니다."
+        },
+        {
+          "icon": "🗓️",
+          "t": "허용 기간 초과 체류",
+          "d": "최대 90일을 넘겨 체류하면 벌금과 향후 입국 금지의 위험이 있습니다."
+        }
+      ]
+    },
+    "faq": {
+      "title": "태국 → 한국 입국 FAQ",
+      "items": [
+        {
+          "q": "태국 여권 소지자는 한국 비자가 필요한가요?",
+          "a": "아니요 — 단기 관광이라면 태국 여권 소지자는 무비자로 한국에 입국하며 최대 90일간 체류할 수 있습니다. 어떤 관광 비자도 신청하지 않습니다."
+        },
+        {
+          "q": "K-ETA가 필요한가요?",
+          "a": "네. 태국은 임시 K-ETA 면제 대상국이 아니므로, 탑승 전에 반드시 K-ETA를 신청해야 합니다 — 공식 사이트 k-eta.go.kr에서요."
+        },
+        {
+          "q": "K-ETA는 비용이 얼마이고 얼마나 유효한가요?",
+          "a": "비용은 KRW 10,000(약 US$8)이며, 3년간 유효하고 복수 입국이 가능합니다. k-eta.go.kr에서만 신청하세요."
+        },
+        {
+          "q": "K-ETA 승인은 보장되나요?",
+          "a": "아니요. K-ETA와 도착 시 입국 심사의 최종 결정은 보장되지 않습니다. 미리 신청하고, 정직하게 답변하며, 진정한 관광 서류를 지참하세요 — 귀국 항공권, 호텔 예약, 자금 증빙."
+        },
+        {
+          "q": "e-Arrival Card도 필요한가요?",
+          "a": "아니요 — 유효한 K-ETA를 소지하면 e-Arrival Card는 면제됩니다. 둘 중 하나만 신청하며, 둘 다는 아닙니다."
+        },
+        {
+          "q": "얼마나 체류할 수 있나요?",
+          "a": "관광 목적으로 최대 90일까지입니다. 취업이나 학업에는 적절한 비자가 필요합니다."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "비자",
+      "stay": "체류",
+      "entry": "입국",
+      "where": "발급처",
+      "official": "공식 정보원",
+      "required": "필수",
+      "conditional": "해당하는 경우",
+      "recommended": "권장",
+      "confirm": "요금·규정은 변경됩니다 — 공식 출처에서 확인하세요",
+      "source": "출처",
+      "updated": "업데이트",
+      "tldr": "핵심 요약"
+    }
+  },
+  "ru": {
+    "kicker": "Гид по въезду · Таиланд → Корея",
+    "readingTime": "6 мин чтения",
+    "h1": "Гид по въезду в Корею из Таиланда",
+    "metaTitle": "Из Таиланда в Корею: нужна ли виза? (2026) — Korea Trip Hub",
+    "metaDesc": "Нужна ли обладателям паспорта Таиланда виза в Южную Корею? Нет — безвизовый въезд до 90 дней. Но K-ETA вам НУЖНА (₩10,000, действует 3 года): Таиланда нет в списке освобождения от K-ETA. Подавайте заранее — пошаговый гид по въезду внутри.",
+    "verdict": {
+      "headline": "Туристическая виза не нужна — но вы должны оформить K-ETA.",
+      "sub": "Паспорта Таиланда дают безвизовый въезд для короткого туризма, поэтому визу подавать не нужно. Но Таиланда нет в списке освобождения от K-ETA, поэтому вы должны получить K-ETA до вылета. С действующей K-ETA вы затем освобождаетесь от e-Arrival Card.",
+      "type": "Без визы — требуется K-ETA",
+      "stay": "До 90 дней",
+      "entry": "Краткосрочный туризм"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Без визы до 90 дней",
+        "body": "По соглашению об отмене виз между Кореей и Таиландом обладатели паспорта Таиланда въезжают в Корею без визы для краткосрочного туризма и могут находиться до 90 дней. Никакого заявления на туристическую визу подавать не нужно."
+      },
+      {
+        "icon": "🟠",
+        "tone": "amber",
+        "title": "Но K-ETA вам НУЖНА",
+        "body": "Таиланда нет среди 22 стран/регионов во временном освобождении от K-ETA, поэтому вы должны оформить K-ETA до посадки. Она стоит KRW 10,000 (около US$8), действует 3 года с многократным въездом и оформляется только на официальном сайте k-eta.go.kr."
+      },
+      {
+        "icon": "🛂",
+        "tone": "blue",
+        "title": "Подавайте заранее — одобрение не автоматическое",
+        "body": "K-ETA (и окончательное решение иммиграции по прибытии) не гарантированы. Подавайте заранее, отвечайте честно и держите поездку действительно туристической — имейте при себе обратный билет, бронь отеля и подтверждение средств. Если у вас есть действующая K-ETA, вы освобождены от e-Arrival Card."
+      }
+    ],
+    "tldr": [
+      "Никакой туристической визы — паспорта Таиланда дают безвизовый въезд до 90 дней.",
+      "Вы должны оформить K-ETA до вылета (KRW 10,000, действует 3 года) — только на k-eta.go.kr.",
+      "Подавайте не менее чем за 72 часа до вылета; действующая K-ETA затем освобождает вас от e-Arrival Card.",
+      "Имейте при себе обратный билет, бронь отеля и подтверждение средств — одобрение не автоматическое."
+    ],
+    "steps": {
+      "title": "Ваши шаги при въезде",
+      "items": [
+        {
+          "n": 1,
+          "title": "Убедитесь, что вам не нужна виза",
+          "detail": "Паспорта Таиланда дают безвизовый въезд в Корею для короткого туризма (до 90 дней) — туристическую визу подавать не нужно."
+        },
+        {
+          "n": 2,
+          "title": "Оформите K-ETA (обязательно)",
+          "detail": "Подайте на официальном сайте k-eta.go.kr не менее чем за 72 часа до посадки. Сбор составляет KRW 10,000, действует 3 года с многократным въездом. Остерегайтесь сайтов-подделок, которые берут доплату — официальный только k-eta.go.kr.",
+          "link": "https://www.k-eta.go.kr",
+          "linkLabel": "Оформить K-ETA"
+        },
+        {
+          "n": 3,
+          "title": "Подготовьте подтверждение поездки",
+          "detail": "Подготовьте обратный/дальнейший билет, подтверждённое проживание и подтверждение средств. Одобрение и въезд не автоматические, поэтому подлинные туристические документы помогают."
+        },
+        {
+          "n": 4,
+          "title": "На паспортном контроле",
+          "detail": "С действующей K-ETA вы не заполняете e-Arrival Card. Предъявите паспорт и проездные документы по прибытии; могут снять отпечатки пальцев и сделать фото. Только туризм — при безвизовом въезде оплачиваемая работа запрещена."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Что подготовить",
+      "intro": "Вы не подаёте визовое заявление — но вам нужна K-ETA, плюс это, чтобы показать подлинный туризм по прибытии.",
+      "cols": [
+        "Пункт",
+        "Где получить",
+        "Примечания"
+      ],
+      "rows": [
+        {
+          "doc": "Паспорт",
+          "req": "required",
+          "where": "У вас уже есть",
+          "how": "Действителен на весь срок пребывания."
+        },
+        {
+          "doc": "Одобрение K-ETA",
+          "req": "required",
+          "where": "k-eta.go.kr",
+          "how": "KRW 10,000; подайте не менее чем за 72 часа до посадки. Только официальный сайт.",
+          "link": "https://www.k-eta.go.kr"
+        },
+        {
+          "doc": "e-Arrival Card",
+          "req": "conditional",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Только если у вас НЕТ K-ETA (например, путешественники, освобождённые по возрасту). Обладатели K-ETA освобождены.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Обратный / дальнейший билет",
+          "req": "required",
+          "where": "Авиакомпания / турагент",
+          "how": "Доказательство того, что вы уедете в рамках разрешённого срока пребывания — часто проверяется у путешественников из Таиланда."
+        },
+        {
+          "doc": "Бронь проживания",
+          "req": "required",
+          "where": "Сайты бронирования",
+          "how": "Подтверждённый отель/жильё на первые ночи (спрашивается при оформлении K-ETA)."
+        },
+        {
+          "doc": "Подтверждение средств",
+          "req": "recommended",
+          "where": "Вы / ваш банк",
+          "how": "Карты, наличные или свежая выписка, показывающая, что вы можете обеспечить поездку."
+        }
+      ],
+      "legend": {
+        "required": "Обязательно",
+        "conditional": "Если применимо",
+        "recommended": "Рекомендуется"
+      }
+    },
+    "pitfalls": {
+      "title": "Частые ошибки при въезде",
+      "items": [
+        {
+          "icon": "🟠",
+          "t": "Считать, что Таиланд освобождён от K-ETA",
+          "d": "Это не так. Некоторые страны освобождены от K-ETA до конца 2026 года, но Таиланд не из их числа — вы должны оформить до вылета."
+        },
+        {
+          "icon": "🕸️",
+          "t": "Подавать на сайте-подделке «K-ETA»",
+          "d": "Единственный официальный сайт — k-eta.go.kr (KRW 10,000). Сторонние сайты берут доплату US$40–50 за то же самое."
+        },
+        {
+          "icon": "⏰",
+          "t": "Подать слишком поздно",
+          "d": "Подавайте не менее чем за 72 часа до вылета. Одобрение не гарантировано, поэтому оставьте время на случай проверки заявления."
+        },
+        {
+          "icon": "🧾",
+          "t": "Прибыть без подтверждения поездки",
+          "d": "Имейте при себе обратный билет, бронь отеля и подтверждение средств. У посетителей из Таиланда их часто спрашивают на паспортном контроле."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Превысить разрешённый срок",
+          "d": "Пребывание сверх 90 дней грозит штрафами и запретами на въезд в будущем."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ по въезду Таиланд → Корея",
+      "items": [
+        {
+          "q": "Нужна ли обладателям паспорта Таиланда виза в Корею?",
+          "a": "Нет — для краткосрочного туризма обладатели паспорта Таиланда въезжают в Корею без визы и могут находиться до 90 дней. Вы не подаёте ни на какую туристическую визу."
+        },
+        {
+          "q": "Нужна ли мне K-ETA?",
+          "a": "Да. Таиланда нет в списке временного освобождения от K-ETA, поэтому вы должны оформить K-ETA до посадки — на официальном сайте k-eta.go.kr."
+        },
+        {
+          "q": "Сколько стоит K-ETA и как долго она действует?",
+          "a": "Она стоит KRW 10,000 (около US$8), действует 3 года и допускает многократный въезд. Подавайте только на k-eta.go.kr."
+        },
+        {
+          "q": "Гарантировано ли одобрение K-ETA?",
+          "a": "Нет. K-ETA и окончательное решение иммиграции по прибытии не гарантированы. Подавайте заранее, отвечайте честно и имейте при себе подлинные туристические документы — обратный билет, бронь отеля и подтверждение средств."
+        },
+        {
+          "q": "Нужна ли мне также e-Arrival Card?",
+          "a": "Нет — если у вас есть действующая K-ETA, вы освобождены от e-Arrival Card. Вы подаёте одно или другое, но не оба."
+        },
+        {
+          "q": "Как долго я могу оставаться?",
+          "a": "До 90 дней, для туризма. Для работы или учёбы нужна соответствующая виза."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Виза",
+      "stay": "Пребывание",
+      "entry": "Въезд",
+      "where": "Где получить",
+      "official": "Официальные источники",
+      "required": "Обязательно",
+      "conditional": "Если применимо",
+      "recommended": "Рекомендуется",
+      "confirm": "Сборы/правила меняются — уточняйте в официальном источнике",
+      "source": "Источник",
+      "updated": "Обновлено",
+      "tldr": "Ключевое"
+    }
+  },
+  "fr": {
+    "kicker": "Guide d'entrée · Thaïlande → Corée",
+    "readingTime": "6 min de lecture",
+    "h1": "Guide d'entrée en Corée depuis la Thaïlande",
+    "metaTitle": "De la Thaïlande à la Corée : avez-vous besoin d'un visa ? (2026) — Korea Trip Hub",
+    "metaDesc": "Les titulaires d'un passeport thaïlandais ont-ils besoin d'un visa pour la Corée du Sud ? Non — sans visa jusqu'à 90 jours. Mais vous avez BIEN besoin de la K-ETA (₩10,000, valable 3 ans) : la Thaïlande ne figure pas sur la liste de dispense de la K-ETA. Faites la demande tôt — guide d'entrée étape par étape à l'intérieur.",
+    "verdict": {
+      "need": false,
+      "headline": "Aucun visa touristique nécessaire — mais vous devez demander la K-ETA.",
+      "sub": "Les passeports thaïlandais sont exemptés de visa pour un court séjour touristique, il n'y a donc pas de visa à demander. Mais la Thaïlande ne figure pas sur la liste de dispense de la K-ETA ; vous devez donc obtenir une K-ETA avant de prendre l'avion. Avec une K-ETA valide, vous êtes alors exempté de l'e-Arrival Card.",
+      "type": "Sans visa — K-ETA obligatoire",
+      "stay": "Jusqu'à 90 jours",
+      "entry": "Tourisme de court séjour"
+    },
+    "highlights": [
+      {
+        "icon": "✅",
+        "tone": "green",
+        "title": "Pas de visa jusqu'à 90 jours",
+        "body": "En vertu de l'accord d'exemption de visa Corée–Thaïlande, les titulaires d'un passeport thaïlandais entrent en Corée sans visa pour un court séjour touristique et peuvent rester jusqu'à 90 jours. Il n'y a aucune demande de visa touristique à déposer."
+      },
+      {
+        "icon": "🟠",
+        "tone": "amber",
+        "title": "Mais vous avez BIEN besoin de la K-ETA",
+        "body": "La Thaïlande ne fait pas partie des 22 pays/régions bénéficiant de la dispense temporaire de la K-ETA ; vous devez donc demander la K-ETA avant l'embarquement. Elle coûte KRW 10,000 (environ US$8), est valable 3 ans avec entrées multiples, et se demande uniquement sur le site officiel k-eta.go.kr."
+      },
+      {
+        "icon": "🛂",
+        "tone": "blue",
+        "title": "Faites la demande tôt — l'approbation n'est pas automatique",
+        "body": "Une K-ETA (et la décision finale de l'immigration à l'arrivée) n'est pas garantie. Faites la demande tôt, répondez honnêtement et gardez un voyage réellement touristique — munissez-vous de votre billet retour, de votre réservation d'hôtel et d'un justificatif de fonds. Si vous détenez une K-ETA valide, vous êtes exempté de l'e-Arrival Card."
+      }
+    ],
+    "tldr": [
+      "Pas de visa touristique — les passeports thaïlandais sont exemptés de visa jusqu'à 90 jours.",
+      "Vous devez demander la K-ETA avant de prendre l'avion (KRW 10,000, valable 3 ans) — uniquement sur k-eta.go.kr.",
+      "Faites la demande au moins 72 heures avant le départ ; une K-ETA valide vous exempte alors de l'e-Arrival Card.",
+      "Munissez-vous de votre billet retour, de votre réservation d'hôtel et d'un justificatif de fonds — l'approbation n'est pas automatique."
+    ],
+    "steps": {
+      "title": "Vos étapes d'entrée",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirmez que vous êtes exempté de visa",
+          "detail": "Les passeports thaïlandais entrent en Corée sans visa pour un court séjour touristique (jusqu'à 90 jours) — il n'y a pas de visa touristique à demander."
+        },
+        {
+          "n": 2,
+          "title": "Demandez la K-ETA (obligatoire)",
+          "detail": "Faites la demande sur le site officiel k-eta.go.kr au moins 72 heures avant l'embarquement. Les frais sont de KRW 10,000, valables 3 ans avec entrées multiples. Méfiez-vous des sites imitateurs qui facturent un supplément — seul k-eta.go.kr est officiel.",
+          "link": "https://www.k-eta.go.kr",
+          "linkLabel": "Demander la K-ETA"
+        },
+        {
+          "n": 3,
+          "title": "Préparez vos justificatifs de voyage",
+          "detail": "Ayez prêts votre billet retour/de continuation, un hébergement confirmé et un justificatif de fonds. L'approbation et l'entrée ne sont pas automatiques, alors de véritables documents touristiques sont utiles."
+        },
+        {
+          "n": 4,
+          "title": "Au contrôle de l'immigration",
+          "detail": "Avec une K-ETA valide, vous ne remplissez pas l'e-Arrival Card. Présentez votre passeport et vos documents de voyage à l'arrivée ; vos empreintes et une photo peuvent être prises. Restez-en au tourisme — pas de travail rémunéré avec une entrée sans visa."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Ce qu'il faut avoir prêt",
+      "intro": "Vous ne déposez pas de demande de visa — mais vous avez besoin de la K-ETA, ainsi que de ceci pour prouver un tourisme authentique à l'arrivée.",
+      "cols": [
+        "Élément",
+        "Où l'obtenir",
+        "Remarques"
+      ],
+      "rows": [
+        {
+          "doc": "Passeport",
+          "req": "required",
+          "where": "Vous l'avez déjà",
+          "how": "Valable pour toute la durée de votre séjour."
+        },
+        {
+          "doc": "Approbation K-ETA",
+          "req": "required",
+          "where": "k-eta.go.kr",
+          "how": "KRW 10,000 ; faites la demande au moins 72 heures avant l'embarquement. Site officiel uniquement.",
+          "link": "https://www.k-eta.go.kr"
+        },
+        {
+          "doc": "e-Arrival Card",
+          "req": "conditional",
+          "where": "e-arrivalcard.go.kr",
+          "how": "Uniquement si vous ne détenez PAS de K-ETA (par exemple les voyageurs exemptés en raison de leur âge). Les titulaires d'une K-ETA en sont exemptés.",
+          "link": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "doc": "Billet retour / de continuation",
+          "req": "required",
+          "where": "Compagnie aérienne / agence de voyages",
+          "how": "Preuve que vous repartirez dans les limites du séjour autorisé — souvent vérifiée pour les voyageurs thaïlandais."
+        },
+        {
+          "doc": "Réservation d'hébergement",
+          "req": "required",
+          "where": "Sites de réservation",
+          "how": "Hôtel/hébergement confirmé pour vos premières nuits (demandé lorsque vous demandez la K-ETA)."
+        },
+        {
+          "doc": "Justificatif de fonds",
+          "req": "recommended",
+          "where": "Vous / votre banque",
+          "how": "Cartes, espèces ou un relevé récent montrant que vous pouvez financer votre voyage."
+        }
+      ],
+      "legend": {
+        "required": "Obligatoire",
+        "conditional": "Le cas échéant",
+        "recommended": "Recommandé"
+      }
+    },
+    "pitfalls": {
+      "title": "Erreurs d'entrée fréquentes",
+      "items": [
+        {
+          "icon": "🟠",
+          "t": "Supposer que la Thaïlande est exemptée de K-ETA",
+          "d": "Ce n'est pas le cas. Certains pays sont dispensés de la K-ETA jusqu'en 2026, mais la Thaïlande n'en fait pas partie — vous devez faire la demande avant de prendre l'avion."
+        },
+        {
+          "icon": "🕸️",
+          "t": "Faire la demande sur un site « K-ETA » imitateur",
+          "d": "Le seul site officiel est k-eta.go.kr (KRW 10,000). Des sites tiers facturent US$40–50 de plus pour la même chose."
+        },
+        {
+          "icon": "⏰",
+          "t": "Faire la demande trop tard",
+          "d": "Faites la demande au moins 72 heures avant le départ. L'approbation n'est pas garantie, alors prévoyez du temps au cas où votre demande serait examinée."
+        },
+        {
+          "icon": "🧾",
+          "t": "Arriver sans justificatif de voyage",
+          "d": "Munissez-vous de votre billet retour, de votre réservation d'hôtel et d'un justificatif de fonds. Ces documents sont couramment demandés aux visiteurs thaïlandais à l'immigration."
+        },
+        {
+          "icon": "🗓️",
+          "t": "Dépasser la durée de séjour autorisée",
+          "d": "Rester au-delà de 90 jours expose à des amendes et à de futures interdictions d'entrée."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ entrée Thaïlande → Corée",
+      "items": [
+        {
+          "q": "Les titulaires d'un passeport thaïlandais ont-ils besoin d'un visa pour la Corée ?",
+          "a": "Non — pour le tourisme de court séjour, les titulaires d'un passeport thaïlandais entrent en Corée sans visa et peuvent rester jusqu'à 90 jours. Vous ne demandez aucun visa touristique."
+        },
+        {
+          "q": "Ai-je besoin de la K-ETA ?",
+          "a": "Oui. La Thaïlande ne figure pas sur la liste de dispense temporaire de la K-ETA ; vous devez donc demander la K-ETA avant l'embarquement — sur le site officiel k-eta.go.kr."
+        },
+        {
+          "q": "Combien coûte la K-ETA et quelle est sa durée de validité ?",
+          "a": "Elle coûte KRW 10,000 (environ US$8), est valable 3 ans et autorise les entrées multiples. Faites la demande uniquement sur k-eta.go.kr."
+        },
+        {
+          "q": "L'approbation de la K-ETA est-elle garantie ?",
+          "a": "Non. Une K-ETA, et la décision finale de l'immigration à l'arrivée, ne sont pas garanties. Faites la demande tôt, répondez honnêtement et munissez-vous de véritables documents touristiques — billet retour, réservation d'hôtel et justificatif de fonds."
+        },
+        {
+          "q": "Ai-je aussi besoin de l'e-Arrival Card ?",
+          "a": "Non — si vous détenez une K-ETA valide, vous êtes exempté de l'e-Arrival Card. Vous remplissez l'un ou l'autre, pas les deux."
+        },
+        {
+          "q": "Combien de temps puis-je rester ?",
+          "a": "Jusqu'à 90 jours, pour le tourisme. Travailler ou étudier nécessite le visa approprié."
+        }
+      ]
+    },
+    "ui": {
+      "visa": "Visa",
+      "stay": "Séjour",
+      "entry": "Entrée",
+      "where": "Où l'obtenir",
+      "official": "Sources officielles",
+      "required": "Obligatoire",
+      "conditional": "Le cas échéant",
+      "recommended": "Recommandé",
+      "confirm": "Les frais et les règles changent — vérifiez auprès des sources officielles",
+      "source": "Source",
+      "updated": "Mis à jour",
+      "tldr": "Points clés"
+    }
+  }
+}
