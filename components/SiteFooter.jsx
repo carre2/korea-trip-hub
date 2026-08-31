@@ -22,6 +22,11 @@ export default function SiteFooter({ locale }) {
             </a>
           ))}
         </nav>
+        <p className="sitefoot-family">
+          <a href="https://kpophub.kr" rel="noopener">
+            🎤 {m.nav?.kculture || "K-Culture"} — kpophub.kr →
+          </a>
+        </p>
         <p className="sitefoot-aff">
           {f.affiliateLine || "Some links are affiliate links — we may earn a commission at no extra cost to you."}
         </p>
