@@ -1,0 +1,24 @@
+{
+  "_README": "Per-nationality extras for visa-REQUIRED guides: home currency code + that country's embassy in Korea. Embassy contacts VERIFIED 2026-08-31 from official embassy sites (see url). VOLATILE — always show the official URL and a 'confirm' note; do not treat as guaranteed. Rendered by VisaLocalInfo on visa/[country] pages where verdict.need is true.",
+  "_verified": "2026-08-31",
+  "india": {
+    "currency": "INR",
+    "embassy": { "name": "Embassy of India, Seoul", "addr": "Dokseodang-ro, Yongsan-gu, Seoul 04419", "tel": "+82-2-798-4257", "url": "https://indembassyseoul.gov.in" }
+  },
+  "vietnam": {
+    "currency": "VND",
+    "embassy": { "name": "Embassy of Vietnam, Seoul", "addr": "123 Bukchon-ro, Jongno-gu, Seoul", "tel": "+82-2-720-5124", "url": "https://vnembassy-seoul.mofa.gov.vn" }
+  },
+  "china": {
+    "currency": "CNY",
+    "embassy": { "name": "Embassy of China, Seoul", "addr": "27 Myeongdong 2-gil, Jung-gu, Seoul", "tel": "+82-2-738-1038", "url": "http://kr.china-embassy.gov.cn" }
+  },
+  "philippines": {
+    "currency": "PHP",
+    "embassy": { "name": "Embassy of the Philippines, Seoul", "addr": "80 Hoenamu-ro, Yongsan-gu, Seoul", "tel": "+82-2-788-2100", "url": "https://www.philembassy-seoul.com" }
+  },
+  "indonesia": {
+    "currency": "IDR",
+    "embassy": { "name": "Embassy of Indonesia (KBRI), Seoul", "addr": "380 Yeouidaebang-ro, Yeongdeungpo-gu, Seoul", "tel": "+82-2-783-5677", "url": "https://kemlu.go.id/seoul" }
+  }
+}

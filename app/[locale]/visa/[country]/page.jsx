@@ -3,7 +3,9 @@ import { pageMeta, breadcrumbLd, articleLd, faqLd } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
 import VisaCountryGuide from "../../../../components/VisaCountryGuide";
 import VisaPhotoSpec from "../../../../components/VisaPhotoSpec";
+import VisaLocalInfo from "../../../../components/VisaLocalInfo";
 import NextSteps from "../../../../components/NextSteps";
+import visaLocal from "../../../../data/visa-local.json";
 import ArticleTrust from "../../../../components/ArticleTrust";
 import { localized, visaCountryCodes } from "../../../../lib/visa";
 
@@ -81,6 +83,14 @@ export default function VisaCountryPage({ params }) {
       <VisaCountryGuide guide={g} m={m} />
 
       {g.verdict?.need && <VisaPhotoSpec m={m} />}
+
+      {g.verdict?.need && visaLocal[params.country] && (
+        <VisaLocalInfo
+          cur={visaLocal[params.country].currency}
+          embassy={visaLocal[params.country].embassy}
+          labels={m.visaLocal}
+        />
+      )}
 
       <NextSteps locale={locale} m={m} />
 
