@@ -5,6 +5,7 @@ import { fact } from "../../../../lib/facts";
 import { linkify } from "../../../../lib/linkify";
 import { REVIEW_FORM_URL } from "../../../../lib/config";
 import GuideVisual from "../../../../components/GuideVisual";
+import VisaFinder from "../../../../components/VisaFinder";
 import TransitGuide from "../../../../components/TransitGuide";
 import AirportGuide from "../../../../components/AirportGuide";
 import SimGuide from "../../../../components/SimGuide";
@@ -236,6 +237,19 @@ export default function PlanArticle({ params }) {
             {guide.tldr.map((t, i) => <li key={i}>{linkify(t)}</li>)}
           </ul>
         </div>
+      )}
+
+      {/* Interactive nationality picker → jumps to the right country guide */}
+      {guide?.countryGuides && (
+        <VisaFinder
+          locale={locale}
+          items={[
+            ...(guide.countryGuides.items || []).map((c) => ({ ...c, group: "need" })),
+            ...(guide.countryGuides.visaFree || []).map((c) => ({ ...c, group: "free" })),
+          ].sort((a, b) => a.name.localeCompare(b.name))}
+          labels={m.visaFinder || {}}
+          moreText={guide.countryGuides.more}
+        />
       )}
 
       {/* Per-nationality visa guide hub */}

@@ -935,3 +935,21 @@
   .ns-kpop:hover{border-color:var(--accent)}
   .ns-arrow{position:absolute;top:13px;right:14px;color:var(--accent);font-weight:700;font-size:15px}
   @media (max-width:560px){.nextsteps{padding:20px;border-radius:var(--r)}.ns-grid{grid-template-columns:1fr 1fr}}
+
+  /* --- Visa finder (nationality picker on the visa hub) --- */
+  .visafinder{margin:20px 0;padding:20px 22px;background:var(--primary-soft);border:1px solid var(--border);border-radius:var(--r)}
+  .vf-label{display:block;font-size:15px;font-weight:700;color:var(--text);margin:0 0 10px}
+  .vf-row{display:flex}
+  .vf-select{width:100%;max-width:420px;font-size:15px;font-family:var(--sans);color:var(--text);background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--r-sm);padding:11px 13px;cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235B6376' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:36px}
+  .vf-select:focus-visible{outline:2px solid var(--primary);outline-offset:1px}
+  .vf-result{display:flex;align-items:center;gap:13px;margin-top:14px;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--muted);border-radius:var(--r-sm);box-shadow:var(--shadow)}
+  .vf-result.vf-need{border-left-color:var(--amber)}
+  .vf-result.vf-free{border-left-color:var(--jade)}
+  .vf-flag{font-size:26px;line-height:1;flex:0 0 auto}
+  .vf-txt{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1}
+  .vf-txt b{font-size:15px;color:var(--text)}
+  .vf-txt em{font-size:12.5px;color:var(--muted);font-style:normal;line-height:1.4}
+  .vf-cta{flex:0 0 auto;font-size:13px;font-weight:700;color:var(--on-primary);background:var(--primary);padding:9px 14px;border-radius:999px;text-decoration:none;white-space:nowrap}
+  .vf-cta:hover{filter:brightness(1.06)}
+  .vf-more{font-size:13px;color:var(--muted);margin:12px 0 0;line-height:1.5}
+  @media (max-width:520px){.vf-result{flex-wrap:wrap}.vf-cta{width:100%;text-align:center}}
