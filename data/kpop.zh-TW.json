@@ -11,7 +11,10 @@
     "title": "正在舉行的演唱會與活動",
     "body": "演唱會陣容隨時在變，所以我們不在這裡固定日期——那樣很快就會過時。想查看最新的 K-pop 演唱會、巡演與活動，請參考即時清單：",
     "links": [
-      { "name": "kpophub.kr——即時 K-pop 演唱會清單", "url": "https://kpophub.kr" }
+      {
+        "name": "kpophub.kr——即時 K-pop 演唱會清單",
+        "url": "https://kpophub.kr"
+      }
     ],
     "note": "下方的官方售票平台也會顯示目前正在開賣的場次。"
   },
@@ -19,11 +22,36 @@
     "title": "演唱會在哪裡舉辦",
     "intro": "大多數大型 K-pop 演唱會、巡演與頒獎典禮，都在首爾與仁川一帶的幾個大型場館舉行。",
     "items": [
-      { "name": "Inspire Arena", "area": "仁川永宗島", "d": "韓國最大的室內體育館，是緊鄰仁川機場的 Inspire 度假村的一部分——大型演唱會與頒獎典禮的重要據點。", "spot": "Inspire Arena, Incheon" },
-      { "name": "高尺天空巨蛋", "area": "首爾九老", "d": "韓國第一座巨蛋球場；其規模使它成為最大型個人與團體演唱會的首選。", "spot": "Gocheok Sky Dome, Seoul" },
-      { "name": "KSPO巨蛋", "area": "首爾松坡奧林匹克公園", "d": "位於奧林匹克公園內的經典大型室內體育館（原奧林匹克體操競技場），長年來都是大型 K-pop 演唱會的舉辦地。", "spot": "KSPO Dome, Seoul" },
-      { "name": "蠶室綜合運動場", "area": "首爾松坡", "d": "蠶室主體育場與室內體育館可主辦體育場等級的巡演與音樂節。", "spot": "Jamsil Sports Complex, Seoul" },
-      { "name": "奧林匹克廳", "area": "首爾松坡奧林匹克公園", "d": "中型表演廳，用於 showcase、粉絲見面會與較小型的演唱會。", "spot": "Olympic Hall, Seoul" }
+      {
+        "name": "Inspire Arena",
+        "area": "仁川永宗島",
+        "d": "韓國最大的室內體育館，是緊鄰仁川機場的 Inspire 度假村的一部分——大型演唱會與頒獎典禮的重要據點。",
+        "spot": "Inspire Arena, Incheon"
+      },
+      {
+        "name": "高尺天空巨蛋",
+        "area": "首爾九老",
+        "d": "韓國第一座巨蛋球場；其規模使它成為最大型個人與團體演唱會的首選。",
+        "spot": "Gocheok Sky Dome, Seoul"
+      },
+      {
+        "name": "KSPO巨蛋",
+        "area": "首爾松坡奧林匹克公園",
+        "d": "位於奧林匹克公園內的經典大型室內體育館（原奧林匹克體操競技場），長年來都是大型 K-pop 演唱會的舉辦地。",
+        "spot": "KSPO Dome, Seoul"
+      },
+      {
+        "name": "蠶室綜合運動場",
+        "area": "首爾松坡",
+        "d": "蠶室主體育場與室內體育館可主辦體育場等級的巡演與音樂節。",
+        "spot": "Jamsil Sports Complex, Seoul"
+      },
+      {
+        "name": "奧林匹克廳",
+        "area": "首爾松坡奧林匹克公園",
+        "d": "中型表演廳，用於 showcase、粉絲見面會與較小型的演唱會。",
+        "spot": "Olympic Hall, Seoul"
+      }
     ]
   },
   "tickets": {
@@ -36,21 +64,52 @@
       "如果場次售罄，只使用官方轉售管道——絕不要找街頭黃牛。"
     ],
     "platforms": [
-      { "name": "Interpark Global", "what": "最大的 K-pop 演唱會售票商，設有英文的全球網站。", "url": "https://globalinterpark.com" },
-      { "name": "Yes24 Ticket", "what": "販售演唱會、粉絲見面會與音樂劇門票的主要售票商。", "url": "https://ticket.yes24.com" },
-      { "name": "Melon Ticket", "what": "與 Melon 音樂服務綁定的售票平台。", "url": "https://ticket.melon.com" },
-      { "name": "Weverse", "what": "HYBE 及合作藝人的粉絲平台——部分開賣與後援會福利在此進行。", "url": "https://weverse.io" }
+      {
+        "name": "Interpark Global",
+        "what": "最大的 K-pop 演唱會售票商，設有英文的全球網站。",
+        "url": "https://globalinterpark.com"
+      },
+      {
+        "name": "Yes24 Ticket",
+        "what": "販售演唱會、粉絲見面會與音樂劇門票的主要售票商。",
+        "url": "https://ticket.yes24.com"
+      },
+      {
+        "name": "Melon Ticket",
+        "what": "與 Melon 音樂服務綁定的售票平台。",
+        "url": "https://ticket.melon.com"
+      },
+      {
+        "name": "Weverse",
+        "what": "HYBE 及合作藝人的粉絲平台——部分開賣與後援會福利在此進行。",
+        "url": "https://weverse.io"
+      }
     ]
   },
   "musicShows": {
     "title": "現場觀看音樂節目",
     "intro": "韓國每週的電視音樂節目都在現場觀眾面前錄製，許多節目還讓粉絲免費入場——一個下午就能看到多組藝人表演的機會。",
     "shows": [
-      { "name": "Music Bank (KBS)", "d": "歷史最悠久的每週音樂節目之一。" },
-      { "name": "Show! Music Core (MBC)", "d": "MBC 的招牌週末音樂節目。" },
-      { "name": "Inkigayo (SBS)", "d": "SBS 廣受歡迎的週末排行榜節目。" },
-      { "name": "M Countdown (Mnet)", "d": "Mnet 的每週節目，以精心打造的舞台著稱。" },
-      { "name": "Show Champion (MBC M)", "d": "平日播出的節目，通常較容易入場。" }
+      {
+        "name": "Music Bank (KBS)",
+        "d": "歷史最悠久的每週音樂節目之一。"
+      },
+      {
+        "name": "Show! Music Core (MBC)",
+        "d": "MBC 的招牌週末音樂節目。"
+      },
+      {
+        "name": "Inkigayo (SBS)",
+        "d": "SBS 廣受歡迎的週末排行榜節目。"
+      },
+      {
+        "name": "M Countdown (Mnet)",
+        "d": "Mnet 的每週節目，以精心打造的舞台著稱。"
+      },
+      {
+        "name": "Show Champion (MBC M)",
+        "d": "平日播出的節目，通常較容易入場。"
+      }
     ],
     "tips": [
       "觀眾席通常透過表演藝人的粉絲咖啡（fan cafe）或後援會安排——需要事先申請。",
@@ -62,20 +121,52 @@
     "title": "經紀公司在哪裡",
     "intro": "粉絲常造訪「四大」經紀公司所在的地區，看看那些大樓以及周邊的咖啡廳與商店。大樓與旗下藝人陣容會隨時間改變，所以請把這當作方向指引，而非即時名錄。",
     "items": [
-      { "name": "HYBE", "area": "首爾龍山", "d": "HYBE 的總部位於龍山市中心——旗下廠牌打造了 BTS、SEVENTEEN 等團體。" },
-      { "name": "SM Entertainment", "area": "首爾城水", "d": "SM 的總部位於時髦的城水咖啡廳區——aespa、NCT 等團體的所屬公司。可以順道來一趟咖啡廳巡禮。" },
-      { "name": "JYP Entertainment", "area": "首爾江東", "d": "JYP 的大樓位於首爾東部——TWICE、Stray Kids 等團體的所屬公司。" },
-      { "name": "YG Entertainment", "area": "首爾麻浦合井", "d": "YG 位於弘大附近的合井——BLACKPINK、TREASURE 等團體的所屬公司——很適合順便安排夜晚的行程。" }
+      {
+        "name": "HYBE",
+        "area": "首爾龍山",
+        "d": "HYBE 的總部位於龍山市中心——旗下廠牌打造了 BTS、SEVENTEEN 等團體。"
+      },
+      {
+        "name": "SM Entertainment",
+        "area": "首爾城水",
+        "d": "SM 總部就位於時尚的聖水咖啡廳街區，旗下的 KWANGYA@SEOUL 旗艦店販售 aespa、NCT、RIIZE 等團體的官方周邊。這裡是粉絲的朝聖地，不妨搭配咖啡廳巡禮，順道逛逛遍布這一帶的快閃店。"
+      },
+      {
+        "name": "JYP Entertainment",
+        "area": "首爾江東",
+        "d": "JYP 的大樓位於首爾東部——TWICE、Stray Kids 等團體的所屬公司。"
+      },
+      {
+        "name": "YG Entertainment",
+        "area": "首爾麻浦合井",
+        "d": "YG 位於弘大附近的合井——BLACKPINK、TREASURE 等團體的所屬公司——很適合順便安排夜晚的行程。"
+      }
     ]
   },
   "spots": {
     "title": "K-pop 粉絲地標",
     "intro": "有幾個地方，就是為了讓粉絲盡情感受這股氛圍而生的。",
     "items": [
-      { "name": "K-Star Road", "area": "首爾狎鷗亭", "d": "一條街道兩旁立著代表各 K-pop 團體的『GangnamDol』公仔藝術裝置，位於高級的狎鷗亭—清潭一帶，鄰近許多經紀公司與工作室。" },
-      { "name": "COEX 與 SMTOWN", "area": "首爾江南", "d": "COEX 綜合設施內設有 K-pop 主題空間，以及著名的 Starfield 圖書館（星空圖書館）。" },
-      { "name": "弘大街頭表演街", "area": "首爾麻浦", "d": "週末夜晚，弘益大學周邊會有舞團與歌手表演 K-pop 翻跳與翻唱。" },
-      { "name": "快閃咖啡廳與寫真活動", "area": "城水、弘大與各大商場", "d": "偶像與團體會舉辦限時的快閃咖啡廳與寫真展——地點會變動，所以造訪時記得查一下當時有什麼活動。" }
+      {
+        "name": "K-Star Road",
+        "area": "首爾狎鷗亭",
+        "d": "一條街道兩旁立著代表各 K-pop 團體的『GangnamDol』公仔藝術裝置，位於高級的狎鷗亭—清潭一帶，鄰近許多經紀公司與工作室。"
+      },
+      {
+        "name": "COEX 與 SMTOWN",
+        "area": "首爾江南",
+        "d": "COEX 綜合設施內設有 K-pop 主題空間，以及著名的 Starfield 圖書館（星空圖書館）。"
+      },
+      {
+        "name": "弘大街頭表演街",
+        "area": "首爾麻浦",
+        "d": "週末夜晚，弘益大學周邊會有舞團與歌手表演 K-pop 翻跳與翻唱。"
+      },
+      {
+        "name": "快閃咖啡廳與寫真活動",
+        "area": "首爾聖水",
+        "d": "聖水是這股熱潮的震央：偶像與團體在這裡由倉庫改建的空間舉辦限時快閃咖啡廳與寫真展（弘大和大型商場也有）。這些活動會四處移動，出發前記得查一下當期有什麼，有些還需要預約指定時段。"
+      }
     ]
   }
 }

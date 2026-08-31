@@ -11,7 +11,10 @@
     "title": "Concerts & events happening now",
     "body": "Concert line-ups change all the time, so we don't freeze dates here — they'd just go stale. For current K-pop concerts, tours and events, check the live listings:",
     "links": [
-      { "name": "kpophub.kr — live K-pop concert listings", "url": "https://kpophub.kr" }
+      {
+        "name": "kpophub.kr — live K-pop concert listings",
+        "url": "https://kpophub.kr"
+      }
     ],
     "note": "The official ticket platforms below also show what's on sale right now."
   },
@@ -19,11 +22,36 @@
     "title": "Where the concerts happen",
     "intro": "Most big K-pop concerts, tours and award shows land at a handful of large venues around Seoul and Incheon.",
     "items": [
-      { "name": "Inspire Arena", "area": "Yeongjong Island, Incheon", "d": "Korea's largest indoor arena, part of the Inspire resort right by Incheon Airport — a major stop for big concerts and award shows.", "spot": "Inspire Arena, Incheon" },
-      { "name": "Gocheok Sky Dome", "area": "Guro, Seoul", "d": "Korea's first domed stadium; its scale makes it a go-to for the biggest solo and group concerts.", "spot": "Gocheok Sky Dome, Seoul" },
-      { "name": "KSPO Dome", "area": "Olympic Park, Songpa, Seoul", "d": "A classic large indoor arena in Olympic Park (the Olympic Gymnastics Arena), long a home for major K-pop concerts.", "spot": "KSPO Dome, Seoul" },
-      { "name": "Jamsil Sports Complex", "area": "Songpa, Seoul", "d": "The Jamsil stadium and indoor arena host stadium-scale tours and music festivals.", "spot": "Jamsil Sports Complex, Seoul" },
-      { "name": "Olympic Hall", "area": "Olympic Park, Songpa, Seoul", "d": "A mid-size hall used for showcases, fan meetings and smaller concerts.", "spot": "Olympic Hall, Seoul" }
+      {
+        "name": "Inspire Arena",
+        "area": "Yeongjong Island, Incheon",
+        "d": "Korea's largest indoor arena, part of the Inspire resort right by Incheon Airport — a major stop for big concerts and award shows.",
+        "spot": "Inspire Arena, Incheon"
+      },
+      {
+        "name": "Gocheok Sky Dome",
+        "area": "Guro, Seoul",
+        "d": "Korea's first domed stadium; its scale makes it a go-to for the biggest solo and group concerts.",
+        "spot": "Gocheok Sky Dome, Seoul"
+      },
+      {
+        "name": "KSPO Dome",
+        "area": "Olympic Park, Songpa, Seoul",
+        "d": "A classic large indoor arena in Olympic Park (the Olympic Gymnastics Arena), long a home for major K-pop concerts.",
+        "spot": "KSPO Dome, Seoul"
+      },
+      {
+        "name": "Jamsil Sports Complex",
+        "area": "Songpa, Seoul",
+        "d": "The Jamsil stadium and indoor arena host stadium-scale tours and music festivals.",
+        "spot": "Jamsil Sports Complex, Seoul"
+      },
+      {
+        "name": "Olympic Hall",
+        "area": "Olympic Park, Songpa, Seoul",
+        "d": "A mid-size hall used for showcases, fan meetings and smaller concerts.",
+        "spot": "Olympic Hall, Seoul"
+      }
     ]
   },
   "tickets": {
@@ -36,21 +64,52 @@
       "If a show is sold out, only use official resale — never street scalpers."
     ],
     "platforms": [
-      { "name": "Interpark Global", "what": "The biggest K-pop concert ticketer, with an English global site.", "url": "https://globalinterpark.com" },
-      { "name": "Yes24 Ticket", "what": "A major ticketer for concerts, fan meetings and musicals.", "url": "https://ticket.yes24.com" },
-      { "name": "Melon Ticket", "what": "Ticketing tied to the Melon music service.", "url": "https://ticket.melon.com" },
-      { "name": "Weverse", "what": "Fan platform for HYBE and partner artists — some sales and fan-club perks run here.", "url": "https://weverse.io" }
+      {
+        "name": "Interpark Global",
+        "what": "The biggest K-pop concert ticketer, with an English global site.",
+        "url": "https://globalinterpark.com"
+      },
+      {
+        "name": "Yes24 Ticket",
+        "what": "A major ticketer for concerts, fan meetings and musicals.",
+        "url": "https://ticket.yes24.com"
+      },
+      {
+        "name": "Melon Ticket",
+        "what": "Ticketing tied to the Melon music service.",
+        "url": "https://ticket.melon.com"
+      },
+      {
+        "name": "Weverse",
+        "what": "Fan platform for HYBE and partner artists — some sales and fan-club perks run here.",
+        "url": "https://weverse.io"
+      }
     ]
   },
   "musicShows": {
     "title": "Watch a live music show",
     "intro": "Korea's weekly TV music shows tape in front of a live audience, and many let fans in for free — a chance to see several artists perform in one afternoon.",
     "shows": [
-      { "name": "Music Bank (KBS)", "d": "One of the longest-running weekly music shows." },
-      { "name": "Show! Music Core (MBC)", "d": "MBC's flagship weekend music show." },
-      { "name": "Inkigayo (SBS)", "d": "SBS's popular weekend chart show." },
-      { "name": "M Countdown (Mnet)", "d": "Mnet's weekly show, known for elaborate stages." },
-      { "name": "Show Champion (MBC M)", "d": "A midweek show that is often easier to get into." }
+      {
+        "name": "Music Bank (KBS)",
+        "d": "One of the longest-running weekly music shows."
+      },
+      {
+        "name": "Show! Music Core (MBC)",
+        "d": "MBC's flagship weekend music show."
+      },
+      {
+        "name": "Inkigayo (SBS)",
+        "d": "SBS's popular weekend chart show."
+      },
+      {
+        "name": "M Countdown (Mnet)",
+        "d": "Mnet's weekly show, known for elaborate stages."
+      },
+      {
+        "name": "Show Champion (MBC M)",
+        "d": "A midweek show that is often easier to get into."
+      }
     ],
     "tips": [
       "Audience spots are usually organized through the performing artist's fan cafe or fan club — you apply in advance.",
@@ -62,20 +121,52 @@
     "title": "Where the agencies are",
     "intro": "Fans often visit the 'Big 4' agency neighborhoods for the buildings and the cafes and shops around them. Buildings and rosters change over time, so treat this as orientation, not a live directory.",
     "items": [
-      { "name": "HYBE", "area": "Yongsan, Seoul", "d": "HYBE's headquarters sits in central Yongsan — home to labels behind acts such as BTS and SEVENTEEN." },
-      { "name": "SM Entertainment", "area": "Seongsu, Seoul", "d": "SM's HQ is in the trendy Seongsu cafe district — home to acts such as aespa and NCT. Pair it with a cafe crawl." },
-      { "name": "JYP Entertainment", "area": "Gangdong, Seoul", "d": "JYP's building is in eastern Seoul — home to acts such as TWICE and Stray Kids." },
-      { "name": "YG Entertainment", "area": "Hapjeong, Mapo, Seoul", "d": "YG sits in Hapjeong near Hongdae — home to acts such as BLACKPINK and TREASURE — easy to combine with a night out." }
+      {
+        "name": "HYBE",
+        "area": "Yongsan, Seoul",
+        "d": "HYBE's headquarters sits in central Yongsan — home to labels behind acts such as BTS and SEVENTEEN."
+      },
+      {
+        "name": "SM Entertainment",
+        "area": "Seongsu, Seoul",
+        "d": "SM's headquarters is in the trendy Seongsu café district, where its KWANGYA@SEOUL flagship store sells official goods for acts such as aespa, NCT and RIIZE. It's a fan pilgrimage — pair it with a café crawl and the pop-up stores that fill the neighbourhood."
+      },
+      {
+        "name": "JYP Entertainment",
+        "area": "Gangdong, Seoul",
+        "d": "JYP's building is in eastern Seoul — home to acts such as TWICE and Stray Kids."
+      },
+      {
+        "name": "YG Entertainment",
+        "area": "Hapjeong, Mapo, Seoul",
+        "d": "YG sits in Hapjeong near Hongdae — home to acts such as BLACKPINK and TREASURE — easy to combine with a night out."
+      }
     ]
   },
   "spots": {
     "title": "K-pop fan landmarks",
     "intro": "A few spots are made for fans to soak up the scene.",
     "items": [
-      { "name": "K-Star Road", "area": "Apgujeong, Seoul", "d": "A street lined with 'GangnamDol' art figures representing K-pop groups, in upscale Apgujeong-Cheongdam near many agencies and studios." },
-      { "name": "COEX & SMTOWN", "area": "Gangnam, Seoul", "d": "The COEX complex has K-pop-themed spaces and the famous Starfield Library." },
-      { "name": "Hongdae busking street", "area": "Mapo, Seoul", "d": "Weekend evenings bring dance crews and singers performing K-pop covers around Hongik University." },
-      { "name": "Pop-up cafes & photo events", "area": "Seongsu, Hongdae & malls", "d": "Idols and groups run limited-time pop-up cafes and photo exhibitions — they move around, so check what's on when you visit." }
+      {
+        "name": "K-Star Road",
+        "area": "Apgujeong, Seoul",
+        "d": "A street lined with 'GangnamDol' art figures representing K-pop groups, in upscale Apgujeong-Cheongdam near many agencies and studios."
+      },
+      {
+        "name": "COEX & SMTOWN",
+        "area": "Gangnam, Seoul",
+        "d": "The COEX complex has K-pop-themed spaces and the famous Starfield Library."
+      },
+      {
+        "name": "Hongdae busking street",
+        "area": "Mapo, Seoul",
+        "d": "Weekend evenings bring dance crews and singers performing K-pop covers around Hongik University."
+      },
+      {
+        "name": "Pop-up cafes & photo events",
+        "area": "Seongsu, Seoul",
+        "d": "Seongsu is the epicentre: idols and groups run limited-time pop-up cafés and photo exhibitions in its converted-warehouse spaces (Hongdae and the big malls host them too). They move around, so check what's on when you visit — some need a timed reservation."
+      }
     ]
   }
 }
