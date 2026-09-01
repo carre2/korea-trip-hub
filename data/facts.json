@@ -91,6 +91,18 @@
       "notes": "From 1 April 2026 the application form must be typed and printed — handwritten forms are not accepted. The 6-month bank statement does not need to be translated into Korean, though other documents may. Fees vary by visa type (roughly US$40 for a single-entry short stay) — confirm the current fee at visaforkorea.mn."
     },
     {
+      "id": "visa-bangladesh-c39",
+      "tier": "VOLATILE",
+      "claim": "Bangladeshi citizens need a C-3-9 short-term tourist visa for Korea (single entry, stay up to 90 days), submitted with a printed barcoded e-Form at the Korean Embassy in Dhaka. Single-entry fee about US$40; processing about 10–15 working days.",
+      "value": { "visa": "C-3-9 short-term tourist", "entry": "single (double/multiple possible)", "stay": "up to 90 days", "apply_at": "Korean Embassy, Dhaka (e-Form via visa.go.kr)", "fee": "US$40 single / US$70 double / US$90 multiple", "processing": "about 10–15 working days" },
+      "source": "https://overseas.mofa.go.kr/bd-en/brd/m_23302/view.do?seq=1&page=1",
+      "source_name": "Embassy of the Republic of Korea in Bangladesh (MOFA)",
+      "verified": "2026-08-31",
+      "recheck_after": "2026-12-01",
+      "status": "VERIFIED",
+      "notes": "All applicants must complete the e-Form on visa.go.kr and submit the printed, barcoded form. Bangladesh-specific: a Bank Solvency Certificate is expected alongside the 6-month bank statement. Submission at the Embassy (4 Madani Avenue, Baridhara, Dhaka-1212), Sunday–Thursday 09:00–12:30. Confirm current fees and documents at the embassy site."
+    },
+    {
       "id": "emergency-police",
       "tier": "STABLE",
       "claim": "Korea's emergency police number is 112.",
