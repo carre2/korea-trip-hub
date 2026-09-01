@@ -79,6 +79,18 @@
       "notes": "Visa-free 90 days under the Korea–Thailand visa-waiver agreement. Thailand is absent from the 22-region K-ETA temporary exemption list, so travelers must apply for K-ETA at k-eta.go.kr (valid K-ETA holders are then exempt from the e-Arrival Card). K-ETA approval is not guaranteed and immigration makes the final decision — apply early and keep your trip genuinely for tourism. Confirm at k-eta.go.kr before booking."
     },
     {
+      "id": "visa-mongolia-c39",
+      "tier": "VOLATILE",
+      "claim": "Mongolian citizens need a C-3-9 short-term tourist visa for Korea (single entry, stay up to 90 days), applied for in person at the Korea Visa Application Center in Ulaanbaatar. Processing is about 5–15 business days.",
+      "value": { "visa": "C-3-9 short-term tourist", "entry": "single", "stay": "up to 90 days", "apply_at": "KVAC Mongolia (visaforkorea.mn) / Korean Embassy, Ulaanbaatar", "processing": "about 5–15 business days" },
+      "source": "https://www.visaforkorea.mn",
+      "source_name": "Korea Visa Application Center, Mongolia (IOM)",
+      "verified": "2026-08-31",
+      "recheck_after": "2026-12-01",
+      "status": "VERIFIED",
+      "notes": "From 1 April 2026 the application form must be typed and printed — handwritten forms are not accepted. The 6-month bank statement does not need to be translated into Korean, though other documents may. Fees vary by visa type (roughly US$40 for a single-entry short stay) — confirm the current fee at visaforkorea.mn."
+    },
+    {
       "id": "emergency-police",
       "tier": "STABLE",
       "claim": "Korea's emergency police number is 112.",
