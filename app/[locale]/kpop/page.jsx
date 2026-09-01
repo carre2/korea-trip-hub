@@ -3,6 +3,7 @@ import { pageMeta, breadcrumbLd, SITE_NAME, REVIEWED } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
 import KpopGuide from "../../../components/KpopGuide";
 import ArticleTrust from "../../../components/ArticleTrust";
+import { itinFor } from "../../../lib/content";
 import kpopEn from "../../../data/kpop.json";
 import kpopJa from "../../../data/kpop.ja.json";
 import kpopZh from "../../../data/kpop.zh.json";
@@ -62,6 +63,18 @@ export default function KpopPage({ params }) {
       </div>
       <p className="art-tagline">{ui.tagline}</p>
       <KpopGuide g={g} ui={ui} />
+
+      {(() => {
+        const trip = itinFor(locale).items["kpop-3-days"];
+        return trip ? (
+          <a className="kpop-tripcta" href={`/${locale}/itinerary/kpop-3-days/`}>
+            <span className="ktc-ic" aria-hidden="true">🗺️</span>
+            <span className="ktc-txt"><b>{trip.title}</b><em>{trip.sub}</em></span>
+            <span className="ktc-arrow" aria-hidden="true">→</span>
+          </a>
+        ) : null;
+      })()}
+
       <ArticleTrust locale={locale} />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>
