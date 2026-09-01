@@ -1,3 +1,2280 @@
 {
-  "_README": "Per-locale translation overrides for uzbekistan → Korea visa guide. { <locale>: { ...overrides } }. English base in uzbekistan.json."
+  "_README": "Per-locale translation overrides for uzbekistan → Korea visa guide. { <locale>: { ...overrides } }. English base in uzbekistan.json.",
+  "ja": {
+    "kicker": "ビザガイド · Uzbekistan → 韓国",
+    "readingTime": "7分で読めます",
+    "h1": "Uzbekistanからの韓国ビザ",
+    "metaTitle": "Uzbekistanから韓国のビザ：必要ですか？（2026年）— Korea Trip Hub",
+    "metaDesc": "はい — Uzbekistanのパスポート保持者は韓国のビザが必要です（C-3 短期観光、最長90日）。観光の申請は、Tashkent駐在の韓国大使館が認定した旅行代理店を通して行います — その手順を解説します。",
+    "ui": {
+      "visa": "ビザの種類",
+      "stay": "滞在期間",
+      "entry": "入国",
+      "where": "入手先",
+      "official": "公式ソース",
+      "required": "必須",
+      "conditional": "該当する場合",
+      "recommended": "推奨",
+      "confirm": "手数料・規則は変更される場合があります — 出典で確認してください",
+      "source": "出典",
+      "updated": "更新日",
+      "tldr": "要点"
+    },
+    "verdict": {
+      "headline": "はい — Uzbekistanのパスポート保持者はビザが必要です。",
+      "sub": "C-3 短期観光ビザ（最長90日間の滞在）を申請します。観光の場合、Tashkentの韓国大使館は認定された旅行代理店を通してのみ書類を受け付けます — 直接またはオンラインでの提出はできません。K-ETA／ビザ免除入国は適用されません。",
+      "type": "C-3 短期観光",
+      "stay": "最長90日間",
+      "entry": "シングルエントリー（場合によってはマルチプルエントリーも可能 — 代理店に確認してください）"
+    },
+    "tldr": [
+      "visa.go.kr（唯一の公式ポータル）でフォームに記入し、印刷して署名します。",
+      "Tashkentの韓国大使館が認定した旅行代理店を選びます — 観光申請を提出できるのはこれらの代理店だけです（直接・オンライン提出は不可）。",
+      "パスポート、写真、航空券＋ホテルの予約、そして財政証明を代理店に渡すと、代理店が領事部に提出します。",
+      "手数料と処理期間は公表されていません — 計画を立てる前に、代理店または大使館に両方を確認してください。"
+    ],
+    "steps": {
+      "title": "申請の手順（ステップバイステップ）",
+      "items": [
+        {
+          "n": 1,
+          "title": "ビザの種類を確認する",
+          "detail": "観光にはC-3 短期訪問（観光）ビザが必要です。始める前に、下のチェックリストを揃えてください。"
+        },
+        {
+          "n": 2,
+          "title": "visa.go.krでフォームに記入する",
+          "detail": "Korea Visa Portal（visa.go.kr）にアクセスします — 唯一の公式サイトです。申請フォームに記入し、印刷して署名します。申請者1人につき1枚です。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "認定旅行代理店を選ぶ",
+          "detail": "Tashkentの韓国大使館の公式サイトを開き、公表されている認定代理店の一覧を利用します。観光では、これらの代理店だけが申請を提出できます — それ以外を主張する者にはご注意ください。"
+        },
+        {
+          "n": 4,
+          "title": "書類を揃える",
+          "detail": "下のチェックリストを集めます。正確な最新の必要書類の一覧と、必要な翻訳については代理店が教えてくれます。"
+        },
+        {
+          "n": 5,
+          "title": "代理店を通して提出する",
+          "detail": "書類を認定代理店に渡すと、代理店が大使館の領事部に申請を提出します。観光ビザは直接またはオンラインで提出することはできません。"
+        },
+        {
+          "n": 6,
+          "title": "支払って待つ",
+          "detail": "ビザ手数料と代理店のサービス料を支払い、審査結果を待ちます。現在の手数料と処理期間は代理店に確認してください — 公表されていません。"
+        },
+        {
+          "n": 7,
+          "title": "パスポートを受け取る",
+          "detail": "代理店を通して受け取り、受け取ったらすぐにビザステッカーの記載内容（氏名、日付、入国の種類）を確認してください。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "必要書類チェックリスト — 各書類の入手先と方法つき",
+      "intro": "正確な最新の一覧は認定代理店が確認しますが、観光の書類一式には通常これらが含まれます。各書類について、どこで入手し、何が記載されていなければならないかを示します。",
+      "cols": [
+        "書類",
+        "入手先",
+        "記載されるべき内容"
+      ],
+      "rows": [
+        {
+          "doc": "パスポート",
+          "req": "required",
+          "where": "お手元にあります",
+          "how": "旅行終了後6か月以上有効で、空白ページが2ページ以上あるもの。古いパスポートがあれば一緒に持参してください。"
+        },
+        {
+          "doc": "ビザ申請フォーム",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Korea Visa Portalで記入し、印刷して署名します。申請者1人につき1枚。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "写真 — 35 × 45 mm",
+          "req": "required",
+          "where": "任意の写真スタジオ",
+          "how": "無地の白背景、過去6か月以内に撮影、正面顔、眼鏡や頭部の着用物なし。"
+        },
+        {
+          "doc": "往復の航空券予約",
+          "req": "required",
+          "where": "航空会社／旅行代理店",
+          "how": "確定した予約／旅程で十分です — ビザが承認される前に有料の航空券を購入しないでください。"
+        },
+        {
+          "doc": "宿泊証明",
+          "req": "required",
+          "where": "ホテル予約サイト",
+          "how": "滞在期間をカバーする確定済みのホテル予約。誰かの家に滞在する場合は、招待状＋ホストのID／ARCのコピーを添えてください。"
+        },
+        {
+          "doc": "財政証明（銀行取引明細）",
+          "req": "required",
+          "where": "ご利用の銀行",
+          "how": "旅行費用を賄えることを示す、銀行の印章付きの最近の取引明細。安定した残高は、突然の入金よりもはるかに説得力があります。"
+        },
+        {
+          "doc": "在職／身分証明",
+          "req": "required",
+          "where": "雇用主／事業／大学",
+          "how": "被雇用者：在職証明書／休暇届。自営業：事業登録。学生：在学証明書。退職者：年金の証明。"
+        }
+      ],
+      "legend": {
+        "required": "必須",
+        "conditional": "該当する場合",
+        "recommended": "推奨"
+      }
+    },
+    "funds": {
+      "title": "「銀行残高はいくら必要ですか？」",
+      "body": "観光ビザについて公表された単一の公式な最低額はありません。重要なのは、旅行全体を無理なく賄えること、そしてUzbekistanに戻る理由があることを証明することです。審査官は、目立つ数字だけでなく安定性を見ます。",
+      "tips": [
+        "一貫した残高を示してください — 申請の数日前に行った多額の入金は弱く見えます。",
+        "銀行取引明細を、仕事・事業・学業の証明と組み合わせてください。両者が揃うと、信頼できるストーリーになります。",
+        "スポンサーがいる場合は、スポンサーの銀行取引明細、署名入りのスポンサーシップレター、そして関係を示す証明を添えてください。"
+      ]
+    },
+    "pitfalls": {
+      "title": "却下や遅延を招く間違い",
+      "items": [
+        {
+          "icon": "🏢",
+          "t": "直接またはオンラインで提出しようとする",
+          "d": "観光では、大使館は認定代理店を通してのみ書類を受け付けます。窓口への持ち込みやオンラインでの試みは処理されません。"
+        },
+        {
+          "icon": "🕸️",
+          "t": "非認定の代理店を利用する",
+          "d": "観光申請を提出できるのは、大使館の公式一覧に載っている代理店だけです。まず一覧を確認し、『ビザ保証』を約束する者は無視してください。"
+        },
+        {
+          "icon": "🎫",
+          "t": "航空券を早く買いすぎる",
+          "d": "承認前に払い戻し不可の航空券を購入すること。書類には予約で十分です。"
+        },
+        {
+          "icon": "💸",
+          "t": "直前のお金",
+          "d": "申請の直前に突然多額の入金をすること。代わりに、安定して説明できる資金を示してください。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "不適切な写真",
+          "d": "サイズ違い、色付き背景、眼鏡、または古い写真。新しい35 × 45 mmの白背景の写真を使ってください。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Uzbekistan → 韓国 ビザFAQ",
+      "items": [
+        {
+          "q": "Uzbekistanの国民は韓国のビザが必要ですか？",
+          "a": "はい — 観光では、事前にC-3 短期観光ビザを申請します。Uzbekistanのパスポートはビザ免除の対象ではなく、K-ETAの対象一覧にも含まれていません。"
+        },
+        {
+          "q": "大使館で直接、またはオンラインで申請できますか？",
+          "a": "観光ビザではできません。Tashkentの韓国大使館は、認定した旅行代理店を通してのみ観光申請を受け付けます。就労ビザや一部の学生ビザ、政府プログラムのビザは、別の方法で提出します。"
+        },
+        {
+          "q": "認定代理店はどこで見つけられますか？",
+          "a": "公式の一覧は、Tashkentの韓国大使館のウェブサイトに掲載されています。その一覧に載っている代理店のみを利用してください。"
+        },
+        {
+          "q": "費用はいくらで、どのくらいかかりますか？",
+          "a": "手数料と処理期間は、参照できる公式ソースには公表されていません。航空券を予約する前に、認定代理店または大使館に両方を確認してください。"
+        },
+        {
+          "q": "大使館はどこにありますか？",
+          "a": "在Tashkent大韓民国大使館は、Mirabad地区のAfrosiyob Street 7にあります — ただし観光の場合は、本人が出向くのではなく認定代理店を通して提出します。"
+        },
+        {
+          "q": "マルチプルエントリービザは取得できますか？",
+          "a": "マルチプルエントリーの観光ビザは場合によっては可能ですが、資格は状況によって異なります。現在の規則については、認定代理店または大使館にお問い合わせください。"
+        },
+        {
+          "q": "ビザを取得した後もe-Arrival Cardは必要ですか？",
+          "a": "入国時にe-Arrival Cardの要件が適用される場合があります。旅行日が近づいたら、公式サイトで入国書類の規則を確認してください。"
+        }
+      ]
+    }
+  },
+  "zh": {
+    "kicker": "签证指南 · Uzbekistan → 韩国",
+    "readingTime": "阅读约 7 分钟",
+    "h1": "从 Uzbekistan 申请韩国签证",
+    "metaTitle": "从 Uzbekistan 前往韩国的签证：需要吗？（2026）— Korea Trip Hub",
+    "metaDesc": "是的 — Uzbekistan 护照持有者前往韩国需要签证（C-3 短期旅游，最多 90 天）。旅游申请须通过驻 Tashkent 韩国大使馆认可的旅行社办理 — 以下是具体流程。",
+    "ui": {
+      "visa": "签证类型",
+      "stay": "停留时间",
+      "entry": "入境",
+      "where": "从何处获取",
+      "official": "官方来源",
+      "required": "必需",
+      "conditional": "如适用",
+      "recommended": "推荐",
+      "confirm": "费用/规定可能变动 — 请在来源处确认",
+      "source": "来源",
+      "updated": "更新于",
+      "tldr": "摘要"
+    },
+    "verdict": {
+      "headline": "是的 — Uzbekistan 护照持有者需要签证。",
+      "sub": "您将申请 C-3 短期旅游签证（停留最多 90 天）。就旅游而言，驻 Tashkent 的韩国大使馆仅通过认可的旅行社受理材料 — 您无法直接或在线提交。K-ETA／免签入境不适用。",
+      "type": "C-3 短期旅游",
+      "stay": "最多 90 天",
+      "entry": "单次入境（某些情况下可办理多次入境 — 请咨询旅行社）"
+    },
+    "tldr": [
+      "在 visa.go.kr（唯一的官方门户）填写申请表，然后打印并签名。",
+      "选择一家经驻 Tashkent 韩国大使馆认可的旅行社 — 只有它们才能递交旅游申请（不接受直接或在线提交）。",
+      "将护照、照片、机票 + 酒店预订以及资金证明交给旅行社，由他们提交给领事部门。",
+      "费用和办理时间并未公开公布 — 在规划行程前，请向旅行社或大使馆确认这两项。"
+    ],
+    "steps": {
+      "title": "申请流程，逐步说明",
+      "items": [
+        {
+          "n": 1,
+          "title": "确认签证类型",
+          "detail": "旅游请办理 C-3 短期访问（旅游）签证。开始前请备齐下面的清单。"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填写申请表",
+          "detail": "前往 Korea Visa Portal（visa.go.kr）— 唯一的官方网站。填写申请表，打印并签名。每位申请人一份。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "选择一家获认可的旅行社",
+          "detail": "打开驻 Tashkent 韩国大使馆的官方网站，使用其公布的认可旅行社名单。就旅游而言，只有这些旅行社才能提交您的申请 — 谨防任何声称并非如此的人。"
+        },
+        {
+          "n": 4,
+          "title": "备齐您的材料",
+          "detail": "收集下面的清单。旅行社会告诉您确切的最新材料清单以及所需的任何翻译件。"
+        },
+        {
+          "n": 5,
+          "title": "通过旅行社提交",
+          "detail": "将材料交给获认可的旅行社，由他们向大使馆领事部门递交申请。旅游签证无法直接或在线提交。"
+        },
+        {
+          "n": 6,
+          "title": "缴费并等待",
+          "detail": "缴纳签证费和旅行社的服务费，然后等待结果。请向旅行社确认当前的费用和办理时间 — 它们并未公开公布。"
+        },
+        {
+          "n": 7,
+          "title": "领取护照",
+          "detail": "通过旅行社领取，收到后立即核对签证贴纸上的信息（姓名、日期、入境类型）。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "材料清单 — 附每项的获取地点与方式",
+      "intro": "确切的最新清单由获认可的旅行社确认，但旅游材料通常包括这些。对于每一项，这里说明在哪里获取以及必须显示什么内容。",
+      "cols": [
+        "材料",
+        "在哪里获取",
+        "必须显示的内容"
+      ],
+      "rows": [
+        {
+          "doc": "护照",
+          "req": "required",
+          "where": "您已持有",
+          "how": "旅行结束后仍有 6 个月以上有效期，至少有 2 页空白页。如有旧护照也请一并携带。"
+        },
+        {
+          "doc": "签证申请表",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在 Korea Visa Portal 填写，打印并签名。每位申请人一份。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片 — 35 × 45 mm",
+          "req": "required",
+          "where": "任意照相馆",
+          "how": "纯白背景，最近 6 个月内拍摄，正面免冠，不戴眼镜或头饰。"
+        },
+        {
+          "doc": "往返机票预订",
+          "req": "required",
+          "where": "航空公司／旅行社",
+          "how": "已确认的预订／行程即可 — 在签证获批前请勿购买已付款的机票。"
+        },
+        {
+          "doc": "住宿证明",
+          "req": "required",
+          "where": "酒店预订网站",
+          "how": "涵盖您整个停留期间的已确认酒店预订。借住他人处？请附上邀请函 + 邀请人的身份证／ARC 复印件。"
+        },
+        {
+          "doc": "资金证明（银行对账单）",
+          "req": "required",
+          "where": "您的银行",
+          "how": "带有银行印章、显示您能负担此行的近期对账单。稳定的余额远比突然的入款更有说服力。"
+        },
+        {
+          "doc": "在职／身份证明",
+          "req": "required",
+          "where": "雇主／企业／院校",
+          "how": "在职者：在职／休假证明信。自雇者：营业登记。学生：在读证明。退休者：养老金证明。"
+        }
+      ],
+      "legend": {
+        "required": "必需",
+        "conditional": "如适用于您",
+        "recommended": "推荐"
+      }
+    },
+    "funds": {
+      "title": "「我需要多少银行存款？」",
+      "body": "对于旅游签证，官方并未公布单一的最低金额。重要的是证明您能够轻松负担整趟行程，并且有理由返回 Uzbekistan。审核官看重的是稳定性，而不仅仅是一个显眼的数字。",
+      "tips": [
+        "展示持续稳定的余额 — 申请前几天才存入的大额款项显得薄弱。",
+        "将银行对账单与您的工作、经营或学业证明搭配在一起；两者结合能讲述一个可信的故事。",
+        "有担保人？请附上担保人的银行对账单、签署的担保函，以及能证明你们关系的材料。"
+      ]
+    },
+    "pitfalls": {
+      "title": "导致拒签和延误的错误",
+      "items": [
+        {
+          "icon": "🏢",
+          "t": "试图直接或在线提交",
+          "d": "就旅游而言，大使馆仅通过认可的旅行社受理材料。到场或在线提交的尝试不会被受理。"
+        },
+        {
+          "icon": "🕸️",
+          "t": "使用未获认可的旅行社",
+          "d": "只有大使馆官方名单上的旅行社才能递交旅游申请。请先核对名单，并忽略任何承诺『保证出签』的人。"
+        },
+        {
+          "icon": "🎫",
+          "t": "过早购买机票",
+          "d": "在获批前支付不可退款的机票。材料只需预订即可。"
+        },
+        {
+          "icon": "💸",
+          "t": "临时凑钱",
+          "d": "申请前突然存入一大笔钱。请改为展示稳定、可解释的资金。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "照片不合格",
+          "d": "尺寸错误、彩色背景、戴眼镜或旧照片。请使用新拍摄的 35 × 45 mm 白底照片。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Uzbekistan → 韩国 签证常见问题",
+      "items": [
+        {
+          "q": "Uzbekistan 公民前往韩国需要签证吗？",
+          "a": "需要 — 就旅游而言，您需提前申请 C-3 短期旅游签证。Uzbekistan 护照不在免签之列，也不在 K-ETA 名单上。"
+        },
+        {
+          "q": "我可以直接在大使馆或在线申请吗？",
+          "a": "旅游签证不行。驻 Tashkent 的韩国大使馆仅通过其认可的旅行社受理旅游申请。就业签证、部分学生签证及政府项目签证的提交方式不同。"
+        },
+        {
+          "q": "我在哪里查到认可的旅行社？",
+          "a": "官方名单公布在驻 Tashkent 韩国大使馆的网站上。请只使用该名单上的旅行社。"
+        },
+        {
+          "q": "费用是多少，需要多长时间？",
+          "a": "费用和办理时间并未在可查阅的官方来源中公布。在预订机票前，请向认可的旅行社或大使馆确认这两项。"
+        },
+        {
+          "q": "大使馆在哪里？",
+          "a": "大韩民国驻 Tashkent 大使馆位于 Mirabad 区 Afrosiyob Street 7 — 但就旅游而言，您需通过认可的旅行社提交，而非亲自前往。"
+        },
+        {
+          "q": "我可以办理多次入境签证吗？",
+          "a": "多次入境旅游签证在某些情况下可以办理，但是否符合条件因人而异。请向您的认可旅行社或大使馆咨询当前规定。"
+        },
+        {
+          "q": "拿到签证后我还需要 e-Arrival Card 吗？",
+          "a": "入境时可能仍需 e-Arrival Card。请在临近出行日期时，在官方网站上查看入境材料规定。"
+        }
+      ]
+    }
+  },
+  "zh-TW": {
+    "kicker": "簽證指南 · Uzbekistan → 韓國",
+    "readingTime": "閱讀約 7 分鐘",
+    "h1": "從 Uzbekistan 申請韓國簽證",
+    "metaTitle": "從 Uzbekistan 前往韓國的簽證：需要嗎？（2026）— Korea Trip Hub",
+    "metaDesc": "是的 — Uzbekistan 護照持有人前往韓國需要簽證（C-3 短期觀光，最多 90 天）。觀光申請須透過駐 Tashkent 韓國大使館認可的旅行社辦理 — 以下是實際流程。",
+    "ui": {
+      "visa": "簽證類型",
+      "stay": "停留時間",
+      "entry": "入境",
+      "where": "從何處取得",
+      "official": "官方來源",
+      "required": "必備",
+      "conditional": "如適用",
+      "recommended": "建議",
+      "confirm": "費用/規定可能變動 — 請於來源處確認",
+      "source": "來源",
+      "updated": "更新於",
+      "tldr": "摘要"
+    },
+    "verdict": {
+      "headline": "是的 — Uzbekistan 護照持有人需要簽證。",
+      "sub": "您將申請 C-3 短期觀光簽證（停留最多 90 天）。就觀光而言，駐 Tashkent 的韓國大使館僅透過認可的旅行社受理文件 — 您無法直接或線上提交。K-ETA／免簽入境並不適用。",
+      "type": "C-3 短期觀光",
+      "stay": "最多 90 天",
+      "entry": "單次入境（部分情況下可辦理多次入境 — 請洽旅行社）"
+    },
+    "tldr": [
+      "在 visa.go.kr（唯一的官方入口網站）填寫申請表，然後列印並簽名。",
+      "選擇一家經駐 Tashkent 韓國大使館認可的旅行社 — 只有它們才能遞交觀光申請（不接受直接或線上提交）。",
+      "將護照、照片、機票 + 飯店訂房以及財力證明交給旅行社，由他們提交給領事部門。",
+      "費用與辦理時間並未公開公布 — 在規劃行程前，請向旅行社或大使館確認這兩項。"
+    ],
+    "steps": {
+      "title": "申請流程，逐步說明",
+      "items": [
+        {
+          "n": 1,
+          "title": "確認簽證類型",
+          "detail": "觀光請辦理 C-3 短期停留（觀光）簽證。開始前請備齊下方清單。"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填寫申請表",
+          "detail": "前往 Korea Visa Portal（visa.go.kr）— 唯一的官方網站。填寫申請表，列印並簽名。每位申請人一份。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "選擇一家獲認可的旅行社",
+          "detail": "開啟駐 Tashkent 韓國大使館的官方網站，使用其公布的認可旅行社名單。就觀光而言，只有這些旅行社才能提交您的申請 — 請提防任何聲稱並非如此的人。"
+        },
+        {
+          "n": 4,
+          "title": "備齊您的文件",
+          "detail": "蒐集下方清單。旅行社會告訴您確切的最新文件清單，以及所需的任何翻譯文件。"
+        },
+        {
+          "n": 5,
+          "title": "透過旅行社提交",
+          "detail": "將文件交給獲認可的旅行社，由他們向大使館領事部門遞交申請。觀光簽證無法直接或線上提交。"
+        },
+        {
+          "n": 6,
+          "title": "繳費並等待",
+          "detail": "繳納簽證費與旅行社的服務費，然後等待結果。請向旅行社確認目前的費用與辦理時間 — 這些並未公開公布。"
+        },
+        {
+          "n": 7,
+          "title": "領取護照",
+          "detail": "透過旅行社領取，收到後立即核對簽證貼紙上的資訊（姓名、日期、入境類型）。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "文件清單 — 附每項的取得地點與方式",
+      "intro": "確切的最新清單由獲認可的旅行社確認，但觀光文件通常包括這些。對於每一項，這裡說明在哪裡取得以及必須顯示什麼內容。",
+      "cols": [
+        "文件",
+        "在哪裡取得",
+        "必須顯示的內容"
+      ],
+      "rows": [
+        {
+          "doc": "護照",
+          "req": "required",
+          "where": "您已持有",
+          "how": "旅行結束後仍有 6 個月以上效期，至少有 2 頁空白頁。若有舊護照也請一併攜帶。"
+        },
+        {
+          "doc": "簽證申請表",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在 Korea Visa Portal 填寫，列印並簽名。每位申請人一份。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片 — 35 × 45 mm",
+          "req": "required",
+          "where": "任何照相館",
+          "how": "純白背景，最近 6 個月內拍攝，正面脫帽，不戴眼鏡或頭飾。"
+        },
+        {
+          "doc": "來回機票訂位",
+          "req": "required",
+          "where": "航空公司／旅行社",
+          "how": "已確認的訂位／行程即可 — 在簽證核准前請勿購買已付款的機票。"
+        },
+        {
+          "doc": "住宿證明",
+          "req": "required",
+          "where": "飯店訂房網站",
+          "how": "涵蓋您整個停留期間的已確認飯店訂房。借住他人處？請附上邀請函 + 邀請人的身分證／ARC 影本。"
+        },
+        {
+          "doc": "財力證明（銀行對帳單）",
+          "req": "required",
+          "where": "您的銀行",
+          "how": "帶有銀行印章、顯示您能負擔此行的近期對帳單。穩定的餘額遠比突然的入帳更有說服力。"
+        },
+        {
+          "doc": "在職／身分證明",
+          "req": "required",
+          "where": "雇主／企業／院校",
+          "how": "在職者：在職／請假證明信。自營者：營業登記。學生：在學證明。退休者：退休金證明。"
+        }
+      ],
+      "legend": {
+        "required": "必備",
+        "conditional": "如適用於您",
+        "recommended": "建議"
+      }
+    },
+    "funds": {
+      "title": "「我需要多少銀行存款？」",
+      "body": "就觀光簽證而言，官方並未公布單一的最低金額。重要的是證明您能夠輕鬆負擔整趟行程，並且有理由返回 Uzbekistan。審核官看重的是穩定性，而不只是一個顯眼的數字。",
+      "tips": [
+        "展示持續穩定的餘額 — 申請前幾天才存入的大額款項顯得薄弱。",
+        "將銀行對帳單與您的工作、經營或學業證明搭配在一起；兩者結合能講述一個可信的故事。",
+        "有擔保人？請附上擔保人的銀行對帳單、簽署的擔保函，以及能證明你們關係的文件。"
+      ]
+    },
+    "pitfalls": {
+      "title": "導致拒簽與延誤的錯誤",
+      "items": [
+        {
+          "icon": "🏢",
+          "t": "試圖直接或線上提交",
+          "d": "就觀光而言，大使館僅透過認可的旅行社受理文件。臨櫃或線上提交的嘗試不會被受理。"
+        },
+        {
+          "icon": "🕸️",
+          "t": "使用未獲認可的旅行社",
+          "d": "只有大使館官方名單上的旅行社才能遞交觀光申請。請先核對名單，並忽略任何承諾『保證出簽』的人。"
+        },
+        {
+          "icon": "🎫",
+          "t": "太早購買機票",
+          "d": "在核准前支付不可退款的機票。文件只需訂位即可。"
+        },
+        {
+          "icon": "💸",
+          "t": "臨時湊錢",
+          "d": "申請前突然存入一大筆錢。請改為展示穩定、可說明的資金。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "照片不合格",
+          "d": "尺寸錯誤、彩色背景、戴眼鏡或舊照片。請使用新拍攝的 35 × 45 mm 白底照片。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Uzbekistan → 韓國 簽證常見問題",
+      "items": [
+        {
+          "q": "Uzbekistan 公民前往韓國需要簽證嗎？",
+          "a": "需要 — 就觀光而言，您需提前申請 C-3 短期觀光簽證。Uzbekistan 護照不在免簽之列，也不在 K-ETA 名單上。"
+        },
+        {
+          "q": "我可以直接在大使館或線上申請嗎？",
+          "a": "觀光簽證不行。駐 Tashkent 的韓國大使館僅透過其認可的旅行社受理觀光申請。就業簽證、部分學生簽證及政府專案簽證的提交方式不同。"
+        },
+        {
+          "q": "我在哪裡查到認可的旅行社？",
+          "a": "官方名單公布在駐 Tashkent 韓國大使館的網站上。請只使用該名單上的旅行社。"
+        },
+        {
+          "q": "費用是多少，需要多久？",
+          "a": "費用與辦理時間並未在可查閱的官方來源中公布。在訂機票前，請向認可的旅行社或大使館確認這兩項。"
+        },
+        {
+          "q": "大使館在哪裡？",
+          "a": "大韓民國駐 Tashkent 大使館位於 Mirabad 區 Afrosiyob Street 7 — 但就觀光而言，您需透過認可的旅行社提交，而非親自前往。"
+        },
+        {
+          "q": "我可以辦理多次入境簽證嗎？",
+          "a": "多次入境觀光簽證在部分情況下可以辦理，但是否符合資格因人而異。請向您的認可旅行社或大使館洽詢目前規定。"
+        },
+        {
+          "q": "拿到簽證後我還需要 e-Arrival Card 嗎？",
+          "a": "入境時可能仍需 e-Arrival Card。請在接近出行日期時，於官方網站查看入境文件規定。"
+        }
+      ]
+    }
+  },
+  "vi": {
+    "kicker": "Hướng dẫn visa · Uzbekistan → Hàn Quốc",
+    "readingTime": "Đọc trong 7 phút",
+    "h1": "Visa Hàn Quốc từ Uzbekistan",
+    "metaTitle": "Visa từ Uzbekistan đi Hàn Quốc: Bạn có cần không? (2026) — Korea Trip Hub",
+    "metaDesc": "Có — người mang hộ chiếu Uzbekistan cần visa để vào Hàn Quốc (C-3 du lịch ngắn hạn, tối đa 90 ngày). Hồ sơ du lịch được nộp qua một công ty du lịch được Đại sứ quán Hàn Quốc tại Tashkent ủy quyền — đây là cách thức hoạt động.",
+    "ui": {
+      "visa": "Loại visa",
+      "stay": "Thời gian lưu trú",
+      "entry": "Nhập cảnh",
+      "where": "Lấy ở đâu",
+      "official": "Nguồn chính thức",
+      "required": "Bắt buộc",
+      "conditional": "Nếu áp dụng",
+      "recommended": "Khuyến nghị",
+      "confirm": "Lệ phí/quy định có thể thay đổi — hãy xác nhận tại nguồn",
+      "source": "Nguồn",
+      "updated": "Cập nhật",
+      "tldr": "Tóm tắt"
+    },
+    "verdict": {
+      "headline": "Có — người mang hộ chiếu Uzbekistan cần visa.",
+      "sub": "Bạn sẽ xin visa du lịch ngắn hạn C-3 (lưu trú tối đa 90 ngày). Với mục đích du lịch, Đại sứ quán Hàn Quốc tại Tashkent CHỈ tiếp nhận hồ sơ qua các công ty du lịch được ủy quyền — bạn không thể nộp trực tiếp hay trực tuyến. Nhập cảnh bằng K-ETA/miễn visa KHÔNG áp dụng.",
+      "type": "C-3 Du lịch ngắn hạn",
+      "stay": "Tối đa 90 ngày",
+      "entry": "Nhập cảnh một lần (một số trường hợp có thể được nhập cảnh nhiều lần — hãy hỏi công ty du lịch)"
+    },
+    "tldr": [
+      "Điền mẫu đơn tại visa.go.kr (cổng thông tin chính thức DUY NHẤT), sau đó in ra và ký tên.",
+      "Chọn một công ty du lịch được Đại sứ quán Hàn Quốc tại Tashkent ủy quyền — chỉ họ mới có thể nộp hồ sơ du lịch (không nộp trực tiếp hay trực tuyến).",
+      "Giao cho công ty du lịch hộ chiếu, ảnh, đặt chỗ chuyến bay + khách sạn cùng chứng minh tài chính của bạn; họ sẽ nộp lên bộ phận lãnh sự.",
+      "Lệ phí và thời gian xử lý không được công bố công khai — hãy xác nhận cả hai với công ty du lịch hoặc đại sứ quán trước khi lên kế hoạch."
+    ],
+    "steps": {
+      "title": "Quy trình nộp hồ sơ, từng bước",
+      "items": [
+        {
+          "n": 1,
+          "title": "Xác nhận loại visa",
+          "detail": "Với mục đích du lịch, bạn cần visa thăm ngắn hạn (du lịch) C-3. Hãy chuẩn bị danh mục bên dưới trước khi bắt đầu."
+        },
+        {
+          "n": 2,
+          "title": "Điền mẫu đơn tại visa.go.kr",
+          "detail": "Truy cập Korea Visa Portal (visa.go.kr) — trang web chính thức duy nhất. Hoàn tất mẫu đơn, in ra và ký tên. Mỗi người nộp một mẫu đơn.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Chọn một công ty du lịch được ủy quyền",
+          "detail": "Mở trang web chính thức của Đại sứ quán Hàn Quốc tại Tashkent và dùng danh sách các công ty được ủy quyền được công bố ở đó. Với mục đích du lịch, chỉ các công ty này mới có thể nộp hồ sơ của bạn — hãy cảnh giác với bất kỳ ai nói khác đi."
+        },
+        {
+          "n": 4,
+          "title": "Chuẩn bị giấy tờ của bạn",
+          "detail": "Thu thập danh mục bên dưới. Công ty du lịch sẽ cho bạn biết danh sách giấy tờ hiện hành chính xác và bất kỳ bản dịch nào cần thiết."
+        },
+        {
+          "n": 5,
+          "title": "Nộp qua công ty du lịch",
+          "detail": "Giao giấy tờ cho công ty du lịch được ủy quyền; họ sẽ nộp hồ sơ lên bộ phận lãnh sự của đại sứ quán. Bạn không thể nộp trực tiếp hay trực tuyến cho visa du lịch."
+        },
+        {
+          "n": 6,
+          "title": "Thanh toán & chờ đợi",
+          "detail": "Trả lệ phí visa và phí dịch vụ của công ty du lịch, rồi chờ kết quả. Hãy xác nhận lệ phí và thời gian xử lý hiện tại với công ty du lịch — chúng không được công bố công khai."
+        },
+        {
+          "n": 7,
+          "title": "Nhận lại hộ chiếu",
+          "detail": "Nhận qua công ty du lịch và kiểm tra thông tin trên tem visa (tên, ngày tháng, loại nhập cảnh) ngay khi nhận được."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Danh mục giấy tờ — kèm nơi & cách lấy từng loại",
+      "intro": "Công ty du lịch được ủy quyền sẽ xác nhận danh sách hiện hành chính xác, nhưng một bộ hồ sơ du lịch thường gồm những giấy tờ này. Với mỗi loại, đây là nơi bạn lấy và những gì nó phải thể hiện.",
+      "cols": [
+        "Giấy tờ",
+        "Lấy ở đâu",
+        "Phải thể hiện điều gì"
+      ],
+      "rows": [
+        {
+          "doc": "Hộ chiếu",
+          "req": "required",
+          "where": "Bạn đã có",
+          "how": "Còn hạn hơn 6 tháng sau chuyến đi, có ít nhất 2 trang trống. Mang theo cả hộ chiếu cũ nếu bạn có."
+        },
+        {
+          "doc": "Mẫu đơn xin visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Hoàn tất trên Korea Visa Portal, in ra và ký tên. Mỗi người một mẫu.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Ảnh — 35 × 45 mm",
+          "req": "required",
+          "where": "Bất kỳ tiệm chụp ảnh nào",
+          "how": "Nền trắng trơn, chụp trong vòng 6 tháng gần đây, thấy rõ toàn bộ khuôn mặt, không đeo kính hay đội mũ."
+        },
+        {
+          "doc": "Đặt chỗ chuyến bay khứ hồi",
+          "req": "required",
+          "where": "Hãng bay / công ty du lịch",
+          "how": "Một đặt chỗ/lịch trình đã xác nhận là đủ — ĐỪNG mua vé đã thanh toán trước khi visa được chấp thuận."
+        },
+        {
+          "doc": "Chứng minh chỗ ở",
+          "req": "required",
+          "where": "Các trang đặt phòng khách sạn",
+          "how": "Đặt phòng khách sạn đã xác nhận bao trọn thời gian lưu trú. Ở nhờ nhà ai đó? Bổ sung thư mời + bản sao giấy tờ tùy thân/ARC của chủ nhà."
+        },
+        {
+          "doc": "Chứng minh tài chính (sao kê ngân hàng)",
+          "req": "required",
+          "where": "Ngân hàng của bạn",
+          "how": "Một bản sao kê gần đây có dấu của ngân hàng, cho thấy bạn có thể chi trả cho chuyến đi. Số dư ổn định thuyết phục hơn nhiều so với một khoản tiền gửi đột ngột."
+        },
+        {
+          "doc": "Chứng minh việc làm / tình trạng",
+          "req": "required",
+          "where": "Nơi làm việc / doanh nghiệp / trường",
+          "how": "Người đi làm: thư xác nhận việc làm/nghỉ phép. Tự kinh doanh: giấy đăng ký kinh doanh. Sinh viên: giấy xác nhận nhập học. Người nghỉ hưu: chứng minh lương hưu."
+        }
+      ],
+      "legend": {
+        "required": "Bắt buộc",
+        "conditional": "Nếu áp dụng với bạn",
+        "recommended": "Khuyến nghị"
+      }
+    },
+    "funds": {
+      "title": "\"Tôi cần bao nhiêu số dư ngân hàng?\"",
+      "body": "Không có một mức tối thiểu chính thức duy nhất nào được công bố cho visa du lịch. Điều quan trọng là chứng minh bạn có thể thoải mái chi trả cho toàn bộ chuyến đi và có lý do để trở về Uzbekistan. Cán bộ xét duyệt nhìn vào sự ổn định, chứ không chỉ một con số nổi bật.",
+      "tips": [
+        "Cho thấy số dư ổn định — một khoản tiền gửi lớn thực hiện vài ngày trước khi nộp trông có vẻ yếu.",
+        "Kết hợp sao kê ngân hàng với chứng minh công việc, doanh nghiệp hoặc việc học của bạn; cùng nhau chúng kể một câu chuyện đáng tin.",
+        "Được người khác bảo trợ? Bổ sung sao kê ngân hàng của người bảo trợ, một thư bảo trợ có chữ ký, và bằng chứng về mối quan hệ của bạn."
+      ]
+    },
+    "pitfalls": {
+      "title": "Những sai lầm gây từ chối & chậm trễ",
+      "items": [
+        {
+          "icon": "🏢",
+          "t": "Cố nộp trực tiếp hoặc trực tuyến",
+          "d": "Với mục đích du lịch, đại sứ quán chỉ tiếp nhận giấy tờ qua các công ty được ủy quyền. Việc đến trực tiếp hay nộp trực tuyến sẽ không được xử lý."
+        },
+        {
+          "icon": "🕸️",
+          "t": "Dùng công ty du lịch không được ủy quyền",
+          "d": "Chỉ các công ty có trong danh sách chính thức của đại sứ quán mới có thể nộp hồ sơ du lịch. Hãy kiểm tra danh sách trước, và phớt lờ bất kỳ ai hứa hẹn visa 'bảo đảm'."
+        },
+        {
+          "icon": "🎫",
+          "t": "Mua vé máy bay quá sớm",
+          "d": "Thanh toán vé không hoàn tiền trước khi được chấp thuận. Một đặt chỗ là đủ cho hồ sơ."
+        },
+        {
+          "icon": "💸",
+          "t": "Tiền phút chót",
+          "d": "Một khoản tiền gửi lớn đột ngột ngay trước khi nộp. Thay vào đó hãy cho thấy nguồn tiền ổn định, giải thích được."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Ảnh không đạt",
+          "d": "Sai kích thước, nền có màu, đeo kính hoặc ảnh cũ. Hãy dùng ảnh mới 35 × 45 mm nền trắng."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về visa Uzbekistan → Hàn Quốc",
+      "items": [
+        {
+          "q": "Công dân Uzbekistan có cần visa vào Hàn Quốc không?",
+          "a": "Có — với mục đích du lịch, bạn xin trước visa du lịch ngắn hạn C-3. Hộ chiếu Uzbekistan không được miễn visa và không nằm trong danh sách K-ETA."
+        },
+        {
+          "q": "Tôi có thể nộp trực tiếp tại đại sứ quán hoặc trực tuyến không?",
+          "a": "Không, đối với visa du lịch. Đại sứ quán Hàn Quốc tại Tashkent chỉ tiếp nhận hồ sơ du lịch qua các công ty du lịch mà họ đã ủy quyền. Visa lao động, một số visa sinh viên và visa theo chương trình chính phủ được nộp theo cách khác."
+        },
+        {
+          "q": "Tôi tìm các công ty được ủy quyền ở đâu?",
+          "a": "Danh sách chính thức được công bố trên trang web của Đại sứ quán Hàn Quốc tại Tashkent. Chỉ sử dụng các công ty có trong danh sách đó."
+        },
+        {
+          "q": "Chi phí bao nhiêu và mất bao lâu?",
+          "a": "Lệ phí và thời gian xử lý không được công bố trong một nguồn chính thức có thể tra cứu. Hãy xác nhận cả hai với một công ty du lịch được ủy quyền hoặc đại sứ quán trước khi đặt vé máy bay."
+        },
+        {
+          "q": "Đại sứ quán ở đâu?",
+          "a": "Đại sứ quán Đại Hàn Dân Quốc tại Tashkent nằm ở Afrosiyob Street 7, quận Mirabad — nhưng với mục đích du lịch, bạn nộp qua một công ty du lịch được ủy quyền, không phải trực tiếp."
+        },
+        {
+          "q": "Tôi có thể xin visa nhập cảnh nhiều lần không?",
+          "a": "Visa du lịch nhập cảnh nhiều lần là khả thi trong một số trường hợp, nhưng điều kiện đủ tùy từng người. Hãy hỏi công ty du lịch được ủy quyền hoặc đại sứ quán về quy định hiện hành."
+        },
+        {
+          "q": "Tôi có còn cần e-Arrival Card sau khi có visa không?",
+          "a": "Yêu cầu e-Arrival Card vẫn có thể áp dụng khi nhập cảnh. Hãy kiểm tra quy định về giấy tờ nhập cảnh trên các trang chính thức khi gần đến ngày đi."
+        }
+      ]
+    }
+  },
+  "th": {
+    "kicker": "คู่มือวีซ่า · Uzbekistan → เกาหลี",
+    "readingTime": "อ่าน 7 นาที",
+    "h1": "วีซ่าเกาหลีจาก Uzbekistan",
+    "metaTitle": "วีซ่าจาก Uzbekistan ไปเกาหลี: ต้องใช้ไหม? (2026) — Korea Trip Hub",
+    "metaDesc": "ใช่ — ผู้ถือหนังสือเดินทาง Uzbekistan ต้องใช้วีซ่าเข้าเกาหลีใต้ (C-3 ท่องเที่ยวระยะสั้น สูงสุด 90 วัน) คำร้องเพื่อการท่องเที่ยวต้องยื่นผ่านบริษัทท่องเที่ยวที่ได้รับการรับรองจากสถานเอกอัครราชทูตเกาหลีประจำ Tashkent — นี่คือขั้นตอนการทำงาน",
+    "ui": {
+      "visa": "ประเภทวีซ่า",
+      "stay": "ระยะเวลาพำนัก",
+      "entry": "การเข้าเมือง",
+      "where": "ขอได้ที่ไหน",
+      "official": "แหล่งข้อมูลทางการ",
+      "required": "จำเป็น",
+      "conditional": "หากเข้าข่าย",
+      "recommended": "แนะนำ",
+      "confirm": "ค่าธรรมเนียม/กฎอาจเปลี่ยนแปลง — โปรดตรวจสอบจากแหล่งข้อมูล",
+      "source": "แหล่งที่มา",
+      "updated": "อัปเดตเมื่อ",
+      "tldr": "สรุป"
+    },
+    "verdict": {
+      "headline": "ใช่ — ผู้ถือหนังสือเดินทาง Uzbekistan ต้องมีวีซ่า",
+      "sub": "คุณจะยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3 (พำนักได้สูงสุด 90 วัน) สำหรับการท่องเที่ยว สถานเอกอัครราชทูตเกาหลีประจำ Tashkent รับเอกสารเฉพาะผ่านบริษัทท่องเที่ยวที่ได้รับการรับรองเท่านั้น — คุณไม่สามารถยื่นด้วยตนเองหรือออนไลน์ได้ การเข้าเมืองแบบ K-ETA/ยกเว้นวีซ่าไม่ใช้กับกรณีนี้",
+      "type": "C-3 ท่องเที่ยวระยะสั้น",
+      "stay": "สูงสุด 90 วัน",
+      "entry": "เข้าออกครั้งเดียว (บางกรณีอาจขอแบบเข้าออกหลายครั้งได้ — สอบถามบริษัทท่องเที่ยว)"
+    },
+    "tldr": [
+      "กรอกแบบฟอร์มที่ visa.go.kr (พอร์ทัลทางการเพียงแห่งเดียว) แล้วพิมพ์ออกมาลงนาม",
+      "เลือกบริษัทท่องเที่ยวที่ได้รับการรับรองจากสถานเอกอัครราชทูตเกาหลีประจำ Tashkent — มีเพียงบริษัทเหล่านี้เท่านั้นที่สามารถยื่นคำร้องเพื่อการท่องเที่ยวได้ (ไม่รับยื่นด้วยตนเองหรือออนไลน์)",
+      "มอบหนังสือเดินทาง รูปถ่าย การจองเที่ยวบิน + โรงแรม และหลักฐานการเงินให้บริษัทท่องเที่ยว แล้วบริษัทจะยื่นต่อฝ่ายกงสุล",
+      "ค่าธรรมเนียมและระยะเวลาดำเนินการไม่ได้เปิดเผยต่อสาธารณะ — โปรดตรวจสอบทั้งสองอย่างกับบริษัทท่องเที่ยวหรือสถานทูตก่อนวางแผน"
+    ],
+    "steps": {
+      "title": "การยื่นคำร้อง ทีละขั้นตอน",
+      "items": [
+        {
+          "n": 1,
+          "title": "ยืนยันประเภทวีซ่า",
+          "detail": "สำหรับการท่องเที่ยว คุณต้องใช้วีซ่าเยือนระยะสั้น (ท่องเที่ยว) C-3 รวบรวมรายการตรวจสอบด้านล่างก่อนเริ่ม"
+        },
+        {
+          "n": 2,
+          "title": "กรอกแบบฟอร์มที่ visa.go.kr",
+          "detail": "ไปที่ Korea Visa Portal (visa.go.kr) — เว็บไซต์ทางการเพียงแห่งเดียว กรอกแบบฟอร์มคำร้อง พิมพ์ออกมาแล้วลงนาม หนึ่งแบบฟอร์มต่อผู้ยื่นหนึ่งคน",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "เลือกบริษัทท่องเที่ยวที่ได้รับการรับรอง",
+          "detail": "เปิดเว็บไซต์ทางการของสถานเอกอัครราชทูตเกาหลีประจำ Tashkent และใช้รายชื่อบริษัทที่ได้รับการรับรองซึ่งประกาศไว้ สำหรับการท่องเที่ยว มีเพียงบริษัทเหล่านี้เท่านั้นที่ยื่นคำร้องของคุณได้ — โปรดระวังผู้ที่อ้างเป็นอย่างอื่น"
+        },
+        {
+          "n": 4,
+          "title": "เตรียมเอกสารของคุณ",
+          "detail": "รวบรวมรายการตรวจสอบด้านล่าง บริษัทท่องเที่ยวจะแจ้งรายการเอกสารล่าสุดที่ถูกต้องและงานแปลใด ๆ ที่ต้องใช้"
+        },
+        {
+          "n": 5,
+          "title": "ยื่นผ่านบริษัทท่องเที่ยว",
+          "detail": "มอบเอกสารของคุณให้บริษัทท่องเที่ยวที่ได้รับการรับรอง แล้วบริษัทจะยื่นคำร้องต่อฝ่ายกงสุลของสถานทูต วีซ่าท่องเที่ยวไม่สามารถยื่นด้วยตนเองหรือออนไลน์ได้"
+        },
+        {
+          "n": 6,
+          "title": "ชำระเงินและรอ",
+          "detail": "ชำระค่าธรรมเนียมวีซ่าและค่าบริการของบริษัทท่องเที่ยว แล้วรอผลการพิจารณา โปรดตรวจสอบค่าธรรมเนียมและระยะเวลาดำเนินการปัจจุบันกับบริษัทท่องเที่ยว — ข้อมูลเหล่านี้ไม่ได้เปิดเผยต่อสาธารณะ"
+        },
+        {
+          "n": 7,
+          "title": "รับหนังสือเดินทางของคุณ",
+          "detail": "รับผ่านบริษัทท่องเที่ยว และตรวจสอบรายละเอียดสติกเกอร์วีซ่า (ชื่อ วันที่ ประเภทการเข้าเมือง) ทันทีที่ได้รับ"
+        }
+      ]
+    },
+    "documents": {
+      "title": "รายการตรวจสอบเอกสาร — พร้อมบอกว่าขอแต่ละอย่างได้ที่ไหนและอย่างไร",
+      "intro": "บริษัทท่องเที่ยวที่ได้รับการรับรองจะยืนยันรายการล่าสุดที่ถูกต้อง แต่แฟ้มเอกสารสำหรับการท่องเที่ยวมักประกอบด้วยสิ่งเหล่านี้ สำหรับแต่ละรายการ นี่คือที่ที่คุณขอได้และสิ่งที่ต้องปรากฏในเอกสารนั้น",
+      "cols": [
+        "เอกสาร",
+        "ขอได้ที่ไหน",
+        "ต้องแสดงอะไร"
+      ],
+      "rows": [
+        {
+          "doc": "หนังสือเดินทาง",
+          "req": "required",
+          "where": "คุณมีอยู่แล้ว",
+          "how": "มีอายุเหลือ 6 เดือนขึ้นไปหลังการเดินทาง มีหน้าว่างอย่างน้อย 2 หน้า นำหนังสือเดินทางเล่มเก่ามาด้วยหากมี"
+        },
+        {
+          "doc": "แบบฟอร์มคำร้องขอวีซ่า",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "กรอกที่ Korea Visa Portal พิมพ์ออกมาแล้วลงนาม หนึ่งชุดต่อผู้ยื่นหนึ่งคน",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "รูปถ่าย — 35 × 45 mm",
+          "req": "required",
+          "where": "ร้านถ่ายรูปใดก็ได้",
+          "how": "พื้นหลังสีขาวล้วน ถ่ายภายใน 6 เดือนที่ผ่านมา เห็นใบหน้าเต็ม ไม่สวมแว่นตาหรือเครื่องปกคลุมศีรษะ"
+        },
+        {
+          "doc": "การจองเที่ยวบินไป-กลับ",
+          "req": "required",
+          "where": "สายการบิน / บริษัทท่องเที่ยว",
+          "how": "การจอง/กำหนดการที่ยืนยันแล้วก็เพียงพอ — อย่าซื้อตั๋วที่จ่ายเงินแล้วก่อนวีซ่าได้รับอนุมัติ"
+        },
+        {
+          "doc": "หลักฐานที่พัก",
+          "req": "required",
+          "where": "เว็บไซต์จองโรงแรม",
+          "how": "การจองโรงแรมที่ยืนยันแล้วครอบคลุมช่วงพำนักของคุณ พักกับใครสักคน? เพิ่มจดหมายเชิญ + สำเนาบัตรประจำตัว/ARC ของเจ้าบ้าน"
+        },
+        {
+          "doc": "หลักฐานการเงิน (รายการเดินบัญชีธนาคาร)",
+          "req": "required",
+          "where": "ธนาคารของคุณ",
+          "how": "รายการเดินบัญชีล่าสุดที่มีตราประทับของธนาคาร แสดงว่าคุณสามารถออกค่าใช้จ่ายการเดินทางได้ ยอดคงเหลือที่สม่ำเสมอน่าเชื่อถือกว่าการฝากเงินก้อนโตแบบกะทันหันมาก"
+        },
+        {
+          "doc": "หลักฐานการจ้างงาน / สถานะ",
+          "req": "required",
+          "where": "นายจ้าง / ธุรกิจ / วิทยาลัย",
+          "how": "ลูกจ้าง: จดหมายรับรองการทำงาน/จดหมายลา ผู้ประกอบอาชีพอิสระ: ทะเบียนธุรกิจ นักศึกษา: หนังสือรับรองการเป็นนักศึกษา ผู้เกษียณ: หลักฐานบำนาญ"
+        }
+      ],
+      "legend": {
+        "required": "จำเป็น",
+        "conditional": "หากเข้าข่ายกับคุณ",
+        "recommended": "แนะนำ"
+      }
+    },
+    "funds": {
+      "title": "\"ต้องมียอดเงินในธนาคารเท่าไร?\"",
+      "body": "ไม่มีจำนวนขั้นต่ำอย่างเป็นทางการเพียงตัวเดียวที่ประกาศไว้สำหรับวีซ่าท่องเที่ยว สิ่งที่สำคัญคือการพิสูจน์ว่าคุณสามารถออกค่าใช้จ่ายตลอดการเดินทางได้อย่างสบาย ๆ และมีเหตุผลที่จะกลับ Uzbekistan เจ้าหน้าที่พิจารณาความมั่นคง ไม่ใช่แค่ตัวเลขที่ดูดี",
+      "tips": [
+        "แสดงยอดคงเหลือที่สม่ำเสมอ — การฝากเงินก้อนใหญ่ไม่กี่วันก่อนยื่นดูอ่อน",
+        "จับคู่รายการเดินบัญชีธนาคารกับหลักฐานงาน ธุรกิจ หรือการเรียนของคุณ เมื่อรวมกันจะเล่าเรื่องที่น่าเชื่อถือ",
+        "มีผู้สนับสนุน? เพิ่มรายการเดินบัญชีธนาคารของผู้สนับสนุน จดหมายสนับสนุนที่ลงนาม และหลักฐานความสัมพันธ์ของคุณ"
+      ]
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดที่ทำให้ถูกปฏิเสธและล่าช้า",
+      "items": [
+        {
+          "icon": "🏢",
+          "t": "พยายามยื่นด้วยตนเองหรือออนไลน์",
+          "d": "สำหรับการท่องเที่ยว สถานทูตรับเอกสารเฉพาะผ่านบริษัทที่ได้รับการรับรองเท่านั้น การไปยื่นเองที่เคาน์เตอร์หรือทางออนไลน์จะไม่ได้รับการดำเนินการ"
+        },
+        {
+          "icon": "🕸️",
+          "t": "ใช้บริษัทที่ไม่ได้รับการรับรอง",
+          "d": "มีเพียงบริษัทในรายชื่อทางการของสถานทูตเท่านั้นที่ยื่นคำร้องเพื่อการท่องเที่ยวได้ ตรวจสอบรายชื่อก่อน และเพิกเฉยต่อผู้ที่รับปาก 'การันตี' วีซ่า"
+        },
+        {
+          "icon": "🎫",
+          "t": "ซื้อตั๋วเครื่องบินเร็วเกินไป",
+          "d": "จ่ายค่าตั๋วที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ การจองก็เพียงพอสำหรับแฟ้ม"
+        },
+        {
+          "icon": "💸",
+          "t": "เงินนาทีสุดท้าย",
+          "d": "การฝากเงินก้อนใหญ่แบบกะทันหันก่อนยื่น แสดงเงินที่มั่นคงและอธิบายได้แทน"
+        },
+        {
+          "icon": "🖼️",
+          "t": "รูปถ่ายไม่ดี",
+          "d": "ขนาดผิด พื้นหลังมีสี ใส่แว่นตา หรือรูปเก่า ใช้รูปใหม่ 35 × 45 mm พื้นหลังสีขาว"
+        }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเกี่ยวกับวีซ่า Uzbekistan → เกาหลี",
+      "items": [
+        {
+          "q": "พลเมือง Uzbekistan ต้องใช้วีซ่าเข้าเกาหลีไหม?",
+          "a": "ใช่ — สำหรับการท่องเที่ยว คุณต้องยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3 ล่วงหน้า หนังสือเดินทาง Uzbekistan ไม่ได้รับการยกเว้นวีซ่าและไม่อยู่ในรายชื่อ K-ETA"
+        },
+        {
+          "q": "ยื่นที่สถานทูตโดยตรงหรือออนไลน์ได้ไหม?",
+          "a": "ไม่ได้สำหรับวีซ่าท่องเที่ยว สถานเอกอัครราชทูตเกาหลีประจำ Tashkent รับคำร้องเพื่อการท่องเที่ยวเฉพาะผ่านบริษัทท่องเที่ยวที่ตนรับรองเท่านั้น วีซ่าทำงาน วีซ่านักเรียนบางประเภท และวีซ่าโครงการของรัฐยื่นด้วยวิธีที่ต่างออกไป"
+        },
+        {
+          "q": "หาบริษัทที่ได้รับการรับรองได้ที่ไหน?",
+          "a": "รายชื่อทางการประกาศอยู่บนเว็บไซต์ของสถานเอกอัครราชทูตเกาหลีประจำ Tashkent ใช้เฉพาะบริษัทในรายชื่อนั้น"
+        },
+        {
+          "q": "ค่าใช้จ่ายเท่าไรและใช้เวลานานแค่ไหน?",
+          "a": "ค่าธรรมเนียมและระยะเวลาดำเนินการไม่ได้เผยแพร่ในแหล่งข้อมูลทางการที่เข้าถึงได้ โปรดตรวจสอบทั้งสองอย่างกับบริษัทท่องเที่ยวที่ได้รับการรับรองหรือสถานทูตก่อนจองตั๋วเครื่องบิน"
+        },
+        {
+          "q": "สถานทูตอยู่ที่ไหน?",
+          "a": "สถานเอกอัครราชทูตสาธารณรัฐเกาหลีประจำ Tashkent ตั้งอยู่ที่ Afrosiyob Street 7 เขต Mirabad — แต่สำหรับการท่องเที่ยว คุณยื่นผ่านบริษัทท่องเที่ยวที่ได้รับการรับรอง ไม่ใช่ด้วยตนเอง"
+        },
+        {
+          "q": "ขอวีซ่าแบบเข้าออกหลายครั้งได้ไหม?",
+          "a": "วีซ่าท่องเที่ยวแบบเข้าออกหลายครั้งเป็นไปได้ในบางกรณี แต่คุณสมบัติแตกต่างกันไป สอบถามบริษัทท่องเที่ยวที่ได้รับการรับรองหรือสถานทูตเกี่ยวกับกฎปัจจุบัน"
+        },
+        {
+          "q": "หลังจากได้วีซ่าแล้วยังต้องใช้ e-Arrival Card ไหม?",
+          "a": "ข้อกำหนด e-Arrival Card อาจยังคงใช้เมื่อเข้าเมือง ตรวจสอบกฎเกี่ยวกับเอกสารเข้าเมืองบนเว็บไซต์ทางการเมื่อใกล้วันเดินทาง"
+        }
+      ]
+    }
+  },
+  "id": {
+    "kicker": "Panduan visa · Uzbekistan → Korea",
+    "readingTime": "Baca 7 menit",
+    "h1": "Visa Korea dari Uzbekistan",
+    "metaTitle": "Visa dari Uzbekistan ke Korea: Apakah Anda Membutuhkannya? (2026) — Korea Trip Hub",
+    "metaDesc": "Ya — pemegang paspor Uzbekistan membutuhkan visa untuk Korea Selatan (C-3 wisata jangka pendek, hingga 90 hari). Permohonan wisata diajukan melalui biro perjalanan yang terakreditasi oleh Kedutaan Besar Korea di Tashkent — inilah cara kerjanya.",
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Masa tinggal",
+      "entry": "Masuk",
+      "where": "Tempat mendapatkannya",
+      "official": "Sumber resmi",
+      "required": "Wajib",
+      "conditional": "Jika berlaku",
+      "recommended": "Disarankan",
+      "confirm": "Biaya/aturan dapat berubah — konfirmasi di sumbernya",
+      "source": "Sumber",
+      "updated": "Diperbarui",
+      "tldr": "Ringkasan"
+    },
+    "verdict": {
+      "headline": "Ya — pemegang paspor Uzbekistan membutuhkan visa.",
+      "sub": "Anda akan mengajukan visa wisata jangka pendek C-3 (tinggal hingga 90 hari). Untuk pariwisata, Kedutaan Besar Korea di Tashkent HANYA menerima dokumen melalui biro perjalanan terakreditasi — Anda tidak dapat mengajukan langsung atau daring. Masuk dengan K-ETA/bebas visa TIDAK berlaku.",
+      "type": "C-3 Wisata Jangka Pendek",
+      "stay": "Hingga 90 hari",
+      "entry": "Sekali masuk (masuk beberapa kali dimungkinkan dalam beberapa kasus — tanyakan pada biro perjalanan)"
+    },
+    "tldr": [
+      "Isi formulir di visa.go.kr (SATU-SATUNYA portal resmi), lalu cetak dan tanda tangani.",
+      "Pilih biro perjalanan yang terakreditasi oleh Kedutaan Besar Korea di Tashkent — hanya mereka yang dapat mengajukan permohonan wisata (tidak ada pengajuan langsung atau daring).",
+      "Serahkan paspor, foto, pemesanan penerbangan + hotel, serta bukti keuangan Anda kepada biro perjalanan; mereka mengajukannya ke bagian konsuler.",
+      "Biaya dan waktu pemrosesan tidak dipublikasikan secara terbuka — konfirmasikan keduanya dengan biro perjalanan atau kedutaan sebelum Anda merencanakan."
+    ],
+    "steps": {
+      "title": "Permohonan, langkah demi langkah",
+      "items": [
+        {
+          "n": 1,
+          "title": "Pastikan jenis visa",
+          "detail": "Untuk pariwisata, Anda memerlukan visa kunjungan jangka pendek (wisata) C-3. Kumpulkan daftar periksa di bawah sebelum mulai."
+        },
+        {
+          "n": 2,
+          "title": "Isi formulir di visa.go.kr",
+          "detail": "Buka Korea Visa Portal (visa.go.kr) — satu-satunya situs resmi. Lengkapi formulir permohonan, cetak dan tanda tangani. Satu formulir per pemohon.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Pilih biro perjalanan terakreditasi",
+          "detail": "Buka situs web resmi Kedutaan Besar Korea di Tashkent dan gunakan daftar biro terakreditasi yang dipublikasikan di sana. Untuk pariwisata, hanya biro-biro ini yang dapat mengajukan permohonan Anda — waspadalah terhadap siapa pun yang mengklaim sebaliknya."
+        },
+        {
+          "n": 4,
+          "title": "Susun dokumen Anda",
+          "detail": "Kumpulkan daftar periksa di bawah. Biro perjalanan akan memberi tahu daftar dokumen terkini yang tepat dan terjemahan apa pun yang diperlukan."
+        },
+        {
+          "n": 5,
+          "title": "Ajukan melalui biro perjalanan",
+          "detail": "Serahkan dokumen Anda kepada biro perjalanan terakreditasi; mereka mengajukan permohonan ke bagian konsuler kedutaan. Anda tidak dapat mengajukan langsung atau daring untuk visa wisata."
+        },
+        {
+          "n": 6,
+          "title": "Bayar & tunggu",
+          "detail": "Bayar biaya visa dan biaya layanan biro perjalanan, lalu tunggu keputusannya. Konfirmasikan biaya dan waktu pemrosesan terkini dengan biro perjalanan — keduanya tidak dipublikasikan secara terbuka."
+        },
+        {
+          "n": 7,
+          "title": "Ambil paspor Anda",
+          "detail": "Ambil melalui biro perjalanan dan periksa detail stiker visa (nama, tanggal, jenis masuk) begitu Anda menerimanya."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Daftar periksa dokumen — dengan tempat & cara mendapatkan masing-masing",
+      "intro": "Biro perjalanan terakreditasi mengonfirmasi daftar terkini yang tepat, tetapi berkas wisata umumnya mencakup ini. Untuk masing-masing, berikut tempat Anda memperolehnya dan apa yang harus ditunjukkannya.",
+      "cols": [
+        "Dokumen",
+        "Tempat mendapatkannya",
+        "Apa yang harus ditunjukkan"
+      ],
+      "rows": [
+        {
+          "doc": "Paspor",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Berlaku 6+ bulan setelah perjalanan Anda, dengan setidaknya 2 halaman kosong. Bawa juga paspor lama jika ada."
+        },
+        {
+          "doc": "Formulir permohonan visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapi di Korea Visa Portal, cetak dan tanda tangani. Satu per pemohon.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 35 × 45 mm",
+          "req": "required",
+          "where": "Studio foto mana pun",
+          "how": "Latar putih polos, diambil dalam 6 bulan terakhir, wajah penuh, tanpa kacamata atau penutup kepala."
+        },
+        {
+          "doc": "Pemesanan penerbangan pulang-pergi",
+          "req": "required",
+          "where": "Maskapai / biro perjalanan",
+          "how": "Pemesanan/itinerari yang terkonfirmasi sudah cukup — JANGAN membeli tiket berbayar sebelum visa disetujui."
+        },
+        {
+          "doc": "Bukti akomodasi",
+          "req": "required",
+          "where": "Situs pemesanan hotel",
+          "how": "Pemesanan hotel terkonfirmasi yang mencakup masa tinggal Anda. Menginap di rumah seseorang? Tambahkan surat undangan + salinan KTP/ARC tuan rumah."
+        },
+        {
+          "doc": "Bukti keuangan (rekening koran)",
+          "req": "required",
+          "where": "Bank Anda",
+          "how": "Rekening koran terbaru dengan cap bank yang menunjukkan Anda mampu membiayai perjalanan. Saldo yang stabil jauh lebih meyakinkan daripada setoran mendadak."
+        },
+        {
+          "doc": "Bukti pekerjaan / status",
+          "req": "required",
+          "where": "Pemberi kerja / usaha / kampus",
+          "how": "Bekerja: surat keterangan kerja/cuti. Wiraswasta: izin usaha. Mahasiswa: surat keterangan terdaftar. Pensiunan: bukti pensiun."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berlaku bagi Anda",
+        "recommended": "Disarankan"
+      }
+    },
+    "funds": {
+      "title": "\"Berapa saldo bank yang saya butuhkan?\"",
+      "body": "Tidak ada satu pun batas minimum resmi yang dipublikasikan untuk visa wisata. Yang penting adalah membuktikan bahwa Anda dapat membiayai seluruh perjalanan dengan nyaman dan memiliki alasan untuk kembali ke Uzbekistan. Petugas kasus melihat kestabilan, bukan sekadar angka yang mencolok.",
+      "tips": [
+        "Tunjukkan saldo yang konsisten — setoran besar yang dilakukan beberapa hari sebelum mengajukan terlihat lemah.",
+        "Pasangkan rekening koran dengan bukti pekerjaan, usaha, atau studi Anda; bersama-sama keduanya menceritakan kisah yang kredibel.",
+        "Disponsori? Tambahkan rekening koran sponsor, surat sponsor yang ditandatangani, dan bukti hubungan Anda."
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesalahan yang menyebabkan penolakan & penundaan",
+      "items": [
+        {
+          "icon": "🏢",
+          "t": "Mencoba mengajukan langsung atau daring",
+          "d": "Untuk pariwisata, kedutaan hanya menerima dokumen melalui biro terakreditasi. Upaya datang langsung atau daring tidak akan diproses."
+        },
+        {
+          "icon": "🕸️",
+          "t": "Menggunakan biro yang tidak terakreditasi",
+          "d": "Hanya biro yang ada dalam daftar resmi kedutaan yang dapat mengajukan permohonan wisata. Periksa daftarnya lebih dulu, dan abaikan siapa pun yang menjanjikan visa 'dijamin'."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membeli tiket terlalu dini",
+          "d": "Membayar tiket yang tidak dapat dikembalikan sebelum persetujuan. Pemesanan sudah cukup untuk berkas."
+        },
+        {
+          "icon": "💸",
+          "t": "Uang menit terakhir",
+          "d": "Setoran besar mendadak tepat sebelum mengajukan. Tunjukkan dana yang stabil dan dapat dijelaskan sebagai gantinya."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Foto buruk",
+          "d": "Ukuran salah, latar berwarna, kacamata, atau foto lama. Gunakan foto baru 35 × 45 mm berlatar putih."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ visa Uzbekistan → Korea",
+      "items": [
+        {
+          "q": "Apakah warga Uzbekistan membutuhkan visa untuk Korea?",
+          "a": "Ya — untuk pariwisata Anda mengajukan visa wisata jangka pendek C-3 terlebih dahulu. Paspor Uzbekistan tidak bebas visa dan tidak ada dalam daftar K-ETA."
+        },
+        {
+          "q": "Bisakah saya mengajukan langsung di kedutaan atau daring?",
+          "a": "Tidak untuk visa wisata. Kedutaan Besar Korea di Tashkent hanya menerima permohonan wisata melalui biro perjalanan yang telah diakreditasinya. Visa kerja, sebagian visa pelajar, dan visa program pemerintah diajukan dengan cara berbeda."
+        },
+        {
+          "q": "Di mana saya menemukan biro yang terakreditasi?",
+          "a": "Daftar resmi dipublikasikan di situs web Kedutaan Besar Korea di Tashkent. Gunakan hanya biro yang ada dalam daftar tersebut."
+        },
+        {
+          "q": "Berapa biayanya dan berapa lama waktunya?",
+          "a": "Biaya dan waktu pemrosesan tidak dipublikasikan dalam sumber resmi yang dapat diakses. Konfirmasikan keduanya dengan biro perjalanan terakreditasi atau kedutaan sebelum Anda memesan tiket pesawat."
+        },
+        {
+          "q": "Di mana kedutaannya?",
+          "a": "Kedutaan Besar Republik Korea di Tashkent berada di Afrosiyob Street 7, Distrik Mirabad — tetapi untuk pariwisata Anda mengajukan melalui biro perjalanan terakreditasi, bukan secara langsung."
+        },
+        {
+          "q": "Bisakah saya mendapatkan visa masuk beberapa kali?",
+          "a": "Visa wisata masuk beberapa kali dimungkinkan dalam beberapa kasus, tetapi kelayakannya bervariasi. Tanyakan aturan terkini kepada biro perjalanan terakreditasi atau kedutaan Anda."
+        },
+        {
+          "q": "Apakah saya masih memerlukan e-Arrival Card setelah mendapatkan visa?",
+          "a": "Persyaratan e-Arrival Card mungkin masih berlaku saat masuk. Periksa aturan dokumen masuk di situs resmi menjelang tanggal perjalanan Anda."
+        }
+      ]
+    }
+  },
+  "es": {
+    "kicker": "Guía de visado · Uzbekistan → Corea",
+    "readingTime": "7 min de lectura",
+    "h1": "Visado de Corea desde Uzbekistan",
+    "metaTitle": "Visado de Uzbekistan a Corea: ¿necesitas uno? (2026) — Korea Trip Hub",
+    "metaDesc": "Sí — los titulares de pasaporte de Uzbekistan necesitan visado para Corea del Sur (C-3 de turista de corta duración, hasta 90 días). Las solicitudes de turismo se tramitan a través de una agencia de viajes acreditada por la Embajada de Corea en Tashkent — así funciona.",
+    "ui": {
+      "visa": "Tipo de visado",
+      "stay": "Estancia",
+      "entry": "Entrada",
+      "where": "Dónde conseguirlo",
+      "official": "Fuente oficial",
+      "required": "Obligatorio",
+      "conditional": "Si corresponde",
+      "recommended": "Recomendado",
+      "confirm": "Las tasas/normas pueden cambiar — confírmalo en la fuente",
+      "source": "Fuente",
+      "updated": "Actualizado",
+      "tldr": "Resumen"
+    },
+    "verdict": {
+      "headline": "Sí — los titulares de pasaporte de Uzbekistan necesitan visado.",
+      "sub": "Solicitarás el visado de turista de corta duración C-3 (estancia de hasta 90 días). Para el turismo, la Embajada de Corea en Tashkent SOLO admite documentos a través de agencias de viajes acreditadas — no puedes presentarlo directamente ni en línea. La entrada con K-ETA/sin visado NO se aplica.",
+      "type": "C-3 Turista de corta duración",
+      "stay": "Hasta 90 días",
+      "entry": "Entrada única (la entrada múltiple es posible en algunos casos — pregunta en la agencia)"
+    },
+    "tldr": [
+      "Rellena el formulario en visa.go.kr (el ÚNICO portal oficial), luego imprímelo y fírmalo.",
+      "Elige una agencia de viajes acreditada por la Embajada de Corea en Tashkent — solo ellas pueden presentar una solicitud de turismo (sin presentación directa ni en línea).",
+      "Entrega a la agencia tu pasaporte, una foto y las reservas de vuelo + hotel, además del justificante económico; ellos lo presentan en la sección consular.",
+      "Las tasas y los plazos de tramitación no se publican abiertamente — confirma ambos con la agencia o la embajada antes de planificar."
+    ],
+    "steps": {
+      "title": "La solicitud, paso a paso",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirma el tipo de visado",
+          "detail": "Para turismo necesitas el visado de visita de corta duración (turista) C-3. Reúne la lista de verificación de abajo antes de empezar."
+        },
+        {
+          "n": 2,
+          "title": "Rellena el formulario en visa.go.kr",
+          "detail": "Ve al Korea Visa Portal (visa.go.kr) — el único sitio oficial. Completa el formulario de solicitud, imprímelo y fírmalo. Un formulario por solicitante.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Elige una agencia de viajes acreditada",
+          "detail": "Abre el sitio web oficial de la Embajada de Corea en Tashkent y usa su lista publicada de agencias acreditadas. Para el turismo, solo estas agencias pueden presentar tu solicitud — desconfía de cualquiera que afirme lo contrario."
+        },
+        {
+          "n": 4,
+          "title": "Reúne tus documentos",
+          "detail": "Recopila la lista de abajo. La agencia te indicará la lista exacta y actual de documentos y cualquier traducción que necesite."
+        },
+        {
+          "n": 5,
+          "title": "Preséntalo a través de la agencia",
+          "detail": "Entrega tus documentos a la agencia acreditada; ellos presentan la solicitud en la sección consular de la embajada. No puedes presentarlo directamente ni en línea para un visado de turista."
+        },
+        {
+          "n": 6,
+          "title": "Paga y espera",
+          "detail": "Paga la tasa del visado y el cargo por servicio de la agencia, luego espera la decisión. Confirma la tasa y el plazo de tramitación actuales con la agencia — no se publican abiertamente."
+        },
+        {
+          "n": 7,
+          "title": "Recoge tu pasaporte",
+          "detail": "Recógelo a través de la agencia y comprueba los datos de la etiqueta del visado (nombre, fechas, tipo de entrada) en cuanto lo recibas."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Lista de documentos — con dónde y cómo conseguir cada uno",
+      "intro": "La agencia acreditada confirma la lista exacta y actual, pero un expediente de turista normalmente incluye estos. Para cada uno, aquí tienes dónde obtenerlo y qué debe mostrar.",
+      "cols": [
+        "Documento",
+        "Dónde conseguirlo",
+        "Qué debe mostrar"
+      ],
+      "rows": [
+        {
+          "doc": "Pasaporte",
+          "req": "required",
+          "where": "Ya lo tienes",
+          "how": "Válido 6+ meses más allá de tu viaje, con al menos 2 páginas en blanco. Lleva también los pasaportes antiguos si los tienes."
+        },
+        {
+          "doc": "Formulario de solicitud de visado",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Complétalo en el Korea Visa Portal, imprímelo y fírmalo. Uno por solicitante.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 35 × 45 mm",
+          "req": "required",
+          "where": "Cualquier estudio fotográfico",
+          "how": "Fondo blanco liso, tomada en los últimos 6 meses, rostro completo, sin gafas ni prendas en la cabeza."
+        },
+        {
+          "doc": "Reserva de vuelo de ida y vuelta",
+          "req": "required",
+          "where": "Aerolínea / agencia",
+          "how": "Una reserva/itinerario confirmado es suficiente — NO compres un billete pagado antes de que se apruebe el visado."
+        },
+        {
+          "doc": "Justificante de alojamiento",
+          "req": "required",
+          "where": "Sitios de reserva de hoteles",
+          "how": "Reservas de hotel confirmadas que cubran tu estancia. ¿Te alojas con alguien? Añade una carta de invitación + copia del DNI/ARC del anfitrión."
+        },
+        {
+          "doc": "Justificante económico (extracto bancario)",
+          "req": "required",
+          "where": "Tu banco",
+          "how": "Un extracto reciente con el sello del banco que muestre que puedes financiar el viaje. Un saldo estable es mucho más convincente que un depósito repentino."
+        },
+        {
+          "doc": "Justificante de empleo / situación",
+          "req": "required",
+          "where": "Empleador / negocio / universidad",
+          "how": "Empleado: carta de empleo/permiso. Autónomo: registro mercantil. Estudiante: certificado de matrícula. Jubilado: justificante de pensión."
+        }
+      ],
+      "legend": {
+        "required": "Obligatorio",
+        "conditional": "Si te corresponde",
+        "recommended": "Recomendado"
+      }
+    },
+    "funds": {
+      "title": "«¿Cuánto saldo bancario necesito?»",
+      "body": "No hay un único mínimo oficial publicado para el visado de turista. Lo que importa es demostrar que puedes financiar cómodamente todo el viaje y que tienes motivos para volver a Uzbekistan. Los funcionarios que evalúan el caso miran la estabilidad, no solo una cifra llamativa.",
+      "tips": [
+        "Muestra un saldo constante — un gran depósito hecho días antes de solicitar parece débil.",
+        "Combina el extracto bancario con un justificante de tu trabajo, negocio o estudios; juntos cuentan una historia creíble.",
+        "¿Tienes patrocinador? Añade el extracto bancario del patrocinador, una carta de patrocinio firmada y una prueba de tu relación."
+      ]
+    },
+    "pitfalls": {
+      "title": "Errores que provocan rechazos y retrasos",
+      "items": [
+        {
+          "icon": "🏢",
+          "t": "Intentar presentarlo directamente o en línea",
+          "d": "Para el turismo, la embajada solo admite documentos a través de agencias acreditadas. Un intento presencial o en línea no se tramitará."
+        },
+        {
+          "icon": "🕸️",
+          "t": "Usar una agencia no acreditada",
+          "d": "Solo las agencias de la lista oficial de la embajada pueden presentar una solicitud de turismo. Comprueba primero la lista e ignora a quien prometa un visado 'garantizado'."
+        },
+        {
+          "icon": "🎫",
+          "t": "Comprar los vuelos demasiado pronto",
+          "d": "Pagar billetes no reembolsables antes de la aprobación. Una reserva es suficiente para el expediente."
+        },
+        {
+          "icon": "💸",
+          "t": "Dinero de última hora",
+          "d": "Un gran depósito repentino justo antes de solicitar. Muestra en su lugar fondos estables y justificables."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Mala foto",
+          "d": "Tamaño incorrecto, fondo de color, gafas o una foto antigua. Usa una foto reciente de 35 × 45 mm con fondo blanco."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre el visado Uzbekistan → Corea",
+      "items": [
+        {
+          "q": "¿Necesitan visado los ciudadanos de Uzbekistan para Corea?",
+          "a": "Sí — para el turismo solicitas con antelación el visado de turista de corta duración C-3. Los pasaportes de Uzbekistan no están exentos de visado ni figuran en la lista K-ETA."
+        },
+        {
+          "q": "¿Puedo solicitarlo directamente en la embajada o en línea?",
+          "a": "No para un visado de turista. La Embajada de Corea en Tashkent admite solicitudes de turismo únicamente a través de las agencias de viajes que ha acreditado. Los visados de trabajo, algunos de estudiante y los de programas gubernamentales se presentan de otra manera."
+        },
+        {
+          "q": "¿Dónde encuentro las agencias acreditadas?",
+          "a": "La lista oficial se publica en el sitio web de la Embajada de Corea en Tashkent. Usa solo agencias de esa lista."
+        },
+        {
+          "q": "¿Cuánto cuesta y cuánto tarda?",
+          "a": "La tasa y el plazo de tramitación no se publican en una fuente oficial accesible. Confirma ambos con una agencia acreditada o con la embajada antes de reservar los vuelos."
+        },
+        {
+          "q": "¿Dónde está la embajada?",
+          "a": "La Embajada de la República de Corea en Tashkent está en Afrosiyob Street 7, distrito de Mirabad — pero para el turismo presentas la solicitud a través de una agencia acreditada, no en persona."
+        },
+        {
+          "q": "¿Puedo obtener un visado de entrada múltiple?",
+          "a": "Los visados de turista de entrada múltiple son posibles en algunos casos, pero la elegibilidad varía. Pregunta a tu agencia acreditada o a la embajada sobre las normas actuales."
+        },
+        {
+          "q": "¿Sigo necesitando la e-Arrival Card después de obtener el visado?",
+          "a": "El requisito de la e-Arrival Card puede seguir aplicándose a la entrada. Comprueba las normas de documentos de entrada en los sitios oficiales cerca de la fecha de tu viaje."
+        }
+      ]
+    }
+  },
+  "ms": {
+    "kicker": "Panduan visa · Uzbekistan → Korea",
+    "readingTime": "Bacaan 7 minit",
+    "h1": "Visa Korea dari Uzbekistan",
+    "metaTitle": "Visa dari Uzbekistan ke Korea: Adakah Anda Memerlukannya? (2026) — Korea Trip Hub",
+    "metaDesc": "Ya — pemegang pasport Uzbekistan memerlukan visa untuk Korea Selatan (C-3 pelancong jangka pendek, sehingga 90 hari). Permohonan pelancongan dibuat melalui agensi pelancongan yang diiktiraf oleh Kedutaan Korea di Tashkent — beginilah caranya.",
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Tempoh menginap",
+      "entry": "Kemasukan",
+      "where": "Tempat mendapatkannya",
+      "official": "Sumber rasmi",
+      "required": "Diperlukan",
+      "conditional": "Jika berkenaan",
+      "recommended": "Disyorkan",
+      "confirm": "Yuran/peraturan boleh berubah — sahkan di sumber",
+      "source": "Sumber",
+      "updated": "Dikemas kini",
+      "tldr": "Ringkasan"
+    },
+    "verdict": {
+      "headline": "Ya — pemegang pasport Uzbekistan memerlukan visa.",
+      "sub": "Anda akan memohon visa pelancong jangka pendek C-3 (tinggal sehingga 90 hari). Untuk pelancongan, Kedutaan Korea di Tashkent HANYA menerima dokumen melalui agensi pelancongan yang diiktiraf — anda tidak boleh menyerahkannya secara terus atau dalam talian. Kemasukan K-ETA/tanpa visa TIDAK terpakai.",
+      "type": "C-3 Pelancong Jangka Pendek",
+      "stay": "Sehingga 90 hari",
+      "entry": "Kemasukan tunggal (kemasukan berbilang mungkin dalam sesetengah kes — tanya agensi)"
+    },
+    "tldr": [
+      "Isi borang di visa.go.kr (SATU-SATUNYA portal rasmi), kemudian cetak dan tandatangani.",
+      "Pilih agensi pelancongan yang diiktiraf oleh Kedutaan Korea di Tashkent — hanya mereka yang boleh mengemukakan permohonan pelancongan (tiada penyerahan terus atau dalam talian).",
+      "Serahkan pasport, foto, tempahan penerbangan + hotel serta bukti kewangan anda kepada agensi; mereka mengemukakannya kepada bahagian konsular.",
+      "Yuran dan masa pemprosesan tidak diterbitkan secara terbuka — sahkan kedua-duanya dengan agensi atau kedutaan sebelum anda merancang."
+    ],
+    "steps": {
+      "title": "Permohonan, langkah demi langkah",
+      "items": [
+        {
+          "n": 1,
+          "title": "Sahkan jenis visa",
+          "detail": "Untuk pelancongan, anda memerlukan visa lawatan jangka pendek (pelancong) C-3. Kumpulkan senarai semak di bawah sebelum anda mula."
+        },
+        {
+          "n": 2,
+          "title": "Isi borang di visa.go.kr",
+          "detail": "Pergi ke Korea Visa Portal (visa.go.kr) — satu-satunya laman rasmi. Lengkapkan borang permohonan, cetak dan tandatangani. Satu borang bagi setiap pemohon.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Pilih agensi pelancongan yang diiktiraf",
+          "detail": "Buka laman web rasmi Kedutaan Korea di Tashkent dan gunakan senarai agensi diiktiraf yang diterbitkannya. Untuk pelancongan, hanya agensi-agensi ini yang boleh mengemukakan permohonan anda — berwaspadalah terhadap sesiapa yang mendakwa sebaliknya."
+        },
+        {
+          "n": 4,
+          "title": "Kumpulkan dokumen anda",
+          "detail": "Kumpulkan senarai semak di bawah. Agensi akan memberitahu anda senarai dokumen terkini yang tepat serta sebarang terjemahan yang diperlukan."
+        },
+        {
+          "n": 5,
+          "title": "Kemukakan melalui agensi",
+          "detail": "Serahkan dokumen anda kepada agensi yang diiktiraf; mereka mengemukakan permohonan kepada bahagian konsular kedutaan. Anda tidak boleh mengemukakannya secara terus atau dalam talian untuk visa pelancong."
+        },
+        {
+          "n": 6,
+          "title": "Bayar & tunggu",
+          "detail": "Bayar yuran visa dan caj perkhidmatan agensi, kemudian tunggu keputusan. Sahkan yuran dan masa pemprosesan semasa dengan agensi — ia tidak diterbitkan secara terbuka."
+        },
+        {
+          "n": 7,
+          "title": "Ambil pasport anda",
+          "detail": "Ambil melalui agensi dan semak butiran pelekat visa (nama, tarikh, jenis kemasukan) sebaik sahaja anda menerimanya."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Senarai semak dokumen — dengan tempat & cara mendapatkan setiap satu",
+      "intro": "Agensi yang diiktiraf mengesahkan senarai terkini yang tepat, tetapi fail pelancong lazimnya merangkumi perkara ini. Bagi setiap satu, di sinilah anda memperolehnya dan apa yang mesti ditunjukkannya.",
+      "cols": [
+        "Dokumen",
+        "Tempat mendapatkannya",
+        "Apa yang mesti ditunjukkan"
+      ],
+      "rows": [
+        {
+          "doc": "Pasport",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Sah 6+ bulan melebihi perjalanan anda, dengan sekurang-kurangnya 2 halaman kosong. Bawa juga pasport lama jika ada."
+        },
+        {
+          "doc": "Borang permohonan visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapkan di Korea Visa Portal, cetak dan tandatangani. Satu bagi setiap pemohon.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 35 × 45 mm",
+          "req": "required",
+          "where": "Mana-mana studio foto",
+          "how": "Latar putih polos, diambil dalam tempoh 6 bulan lepas, wajah penuh, tanpa cermin mata atau penutup kepala."
+        },
+        {
+          "doc": "Tempahan penerbangan pergi-balik",
+          "req": "required",
+          "where": "Syarikat penerbangan / agensi",
+          "how": "Tempahan/jadual perjalanan yang disahkan sudah memadai — JANGAN beli tiket berbayar sebelum visa diluluskan."
+        },
+        {
+          "doc": "Bukti penginapan",
+          "req": "required",
+          "where": "Laman tempahan hotel",
+          "how": "Tempahan hotel yang disahkan meliputi tempoh menginap anda. Menginap dengan seseorang? Tambahkan surat jemputan + salinan kad pengenalan/ARC tuan rumah."
+        },
+        {
+          "doc": "Bukti kewangan (penyata bank)",
+          "req": "required",
+          "where": "Bank anda",
+          "how": "Penyata terkini dengan cap bank yang menunjukkan anda mampu membiayai perjalanan. Baki yang stabil jauh lebih meyakinkan daripada deposit mengejut."
+        },
+        {
+          "doc": "Bukti pekerjaan / status",
+          "req": "required",
+          "where": "Majikan / perniagaan / kolej",
+          "how": "Bekerja: surat pekerjaan/cuti. Bekerja sendiri: pendaftaran perniagaan. Pelajar: sijil pendaftaran. Pesara: bukti pencen."
+        }
+      ],
+      "legend": {
+        "required": "Diperlukan",
+        "conditional": "Jika berkenaan dengan anda",
+        "recommended": "Disyorkan"
+      }
+    },
+    "funds": {
+      "title": "\"Berapa baki bank yang saya perlukan?\"",
+      "body": "Tiada satu jumlah minimum rasmi yang diterbitkan untuk visa pelancong. Yang penting ialah membuktikan anda mampu membiayai keseluruhan perjalanan dengan selesa dan mempunyai sebab untuk pulang ke Uzbekistan. Pegawai kes melihat kestabilan, bukan sekadar angka yang menonjol.",
+      "tips": [
+        "Tunjukkan baki yang konsisten — deposit besar yang dibuat beberapa hari sebelum memohon kelihatan lemah.",
+        "Gandingkan penyata bank dengan bukti pekerjaan, perniagaan atau pengajian anda; bersama-sama ia menceritakan kisah yang boleh dipercayai.",
+        "Ditaja? Tambahkan penyata bank penaja, surat penajaan yang ditandatangani, dan bukti hubungan anda."
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesilapan yang menyebabkan penolakan & kelewatan",
+      "items": [
+        {
+          "icon": "🏢",
+          "t": "Cuba mengemukakan secara terus atau dalam talian",
+          "d": "Untuk pelancongan, kedutaan hanya menerima dokumen melalui agensi yang diiktiraf. Percubaan hadir sendiri atau dalam talian tidak akan diproses."
+        },
+        {
+          "icon": "🕸️",
+          "t": "Menggunakan agensi yang tidak diiktiraf",
+          "d": "Hanya agensi dalam senarai rasmi kedutaan boleh mengemukakan permohonan pelancongan. Semak senarai dahulu, dan abaikan sesiapa yang menjanjikan visa 'terjamin'."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membeli tiket penerbangan terlalu awal",
+          "d": "Membayar tiket yang tidak boleh dikembalikan wang sebelum kelulusan. Tempahan sudah memadai untuk fail."
+        },
+        {
+          "icon": "💸",
+          "t": "Wang saat akhir",
+          "d": "Deposit besar mengejut sejurus sebelum memohon. Sebaliknya, tunjukkan dana yang stabil dan boleh dijelaskan."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Foto tidak elok",
+          "d": "Saiz salah, latar berwarna, cermin mata atau foto lama. Gunakan foto baharu 35 × 45 mm berlatar putih."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Soalan lazim visa Uzbekistan → Korea",
+      "items": [
+        {
+          "q": "Adakah warganegara Uzbekistan memerlukan visa untuk Korea?",
+          "a": "Ya — untuk pelancongan anda memohon visa pelancong jangka pendek C-3 terlebih dahulu. Pasport Uzbekistan tidak bebas visa dan tiada dalam senarai K-ETA."
+        },
+        {
+          "q": "Bolehkah saya memohon terus di kedutaan atau dalam talian?",
+          "a": "Tidak untuk visa pelancong. Kedutaan Korea di Tashkent menerima permohonan pelancongan hanya melalui agensi pelancongan yang telah diiktirafnya. Visa pekerjaan, sebahagian visa pelajar dan visa program kerajaan dikemukakan dengan cara berbeza."
+        },
+        {
+          "q": "Di mana saya boleh mencari agensi yang diiktiraf?",
+          "a": "Senarai rasmi diterbitkan di laman web Kedutaan Korea di Tashkent. Gunakan hanya agensi dalam senarai itu."
+        },
+        {
+          "q": "Berapa kosnya dan berapa lama masa yang diambil?",
+          "a": "Yuran dan masa pemprosesan tidak diterbitkan dalam sumber rasmi yang boleh diakses. Sahkan kedua-duanya dengan agensi yang diiktiraf atau kedutaan sebelum anda menempah penerbangan."
+        },
+        {
+          "q": "Di manakah kedutaan itu?",
+          "a": "Kedutaan Republik Korea di Tashkent terletak di Afrosiyob Street 7, Daerah Mirabad — tetapi untuk pelancongan anda mengemukakan permohonan melalui agensi yang diiktiraf, bukan secara peribadi."
+        },
+        {
+          "q": "Bolehkah saya mendapatkan visa kemasukan berbilang?",
+          "a": "Visa pelancong kemasukan berbilang mungkin dalam sesetengah kes, tetapi kelayakan berbeza-beza. Tanya agensi yang diiktiraf atau kedutaan anda tentang peraturan semasa."
+        },
+        {
+          "q": "Adakah saya masih memerlukan e-Arrival Card selepas mendapat visa?",
+          "a": "Keperluan e-Arrival Card mungkin masih terpakai semasa kemasukan. Semak peraturan dokumen kemasukan di laman rasmi menjelang tarikh perjalanan anda."
+        }
+      ]
+    }
+  },
+  "ko": {
+    "kicker": "비자 가이드 · Uzbekistan → 한국",
+    "readingTime": "7분 분량",
+    "h1": "Uzbekistan에서 신청하는 한국 비자",
+    "metaTitle": "Uzbekistan에서 한국 비자: 필요할까요? (2026) — Korea Trip Hub",
+    "metaDesc": "네 — Uzbekistan 여권 소지자는 한국(대한민국) 비자가 필요합니다 (C-3 단기 관광, 최대 90일). 관광 신청은 Tashkent 주재 한국 대사관이 인증한 여행사를 통해 진행됩니다 — 그 방법을 안내합니다.",
+    "ui": {
+      "visa": "비자 종류",
+      "stay": "체류 기간",
+      "entry": "입국",
+      "where": "발급처",
+      "official": "공식 출처",
+      "required": "필수",
+      "conditional": "해당 시",
+      "recommended": "권장",
+      "confirm": "수수료·규정은 변경될 수 있습니다 — 출처에서 확인하세요",
+      "source": "출처",
+      "updated": "업데이트",
+      "tldr": "요약"
+    },
+    "verdict": {
+      "headline": "네 — Uzbekistan 여권 소지자는 비자가 필요합니다.",
+      "sub": "C-3 단기 관광 비자(최대 90일 체류)를 신청합니다. 관광의 경우, Tashkent 주재 한국 대사관은 인증된 여행사를 통해서만 서류를 접수합니다 — 직접 또는 온라인으로는 제출할 수 없습니다. K-ETA/무비자 입국은 적용되지 않습니다.",
+      "type": "C-3 단기 관광",
+      "stay": "최대 90일",
+      "entry": "단수 입국 (경우에 따라 복수 입국 가능 — 여행사에 문의하세요)"
+    },
+    "tldr": [
+      "visa.go.kr(유일한 공식 포털)에서 양식을 작성하고, 인쇄해 서명하세요.",
+      "Tashkent 주재 한국 대사관이 인증한 여행사를 고르세요 — 관광 신청을 접수할 수 있는 곳은 이 여행사들뿐입니다(직접·온라인 제출 불가).",
+      "여권, 사진, 항공권+호텔 예약과 재정 증빙을 여행사에 건네면, 여행사가 영사과에 제출합니다.",
+      "수수료와 처리 기간은 공개적으로 게시되어 있지 않습니다 — 계획을 세우기 전에 여행사나 대사관에 두 가지를 모두 확인하세요."
+    ],
+    "steps": {
+      "title": "신청, 단계별로",
+      "items": [
+        {
+          "n": 1,
+          "title": "비자 종류 확인",
+          "detail": "관광에는 C-3 단기 방문(관광) 비자가 필요합니다. 시작하기 전에 아래 체크리스트를 준비하세요."
+        },
+        {
+          "n": 2,
+          "title": "visa.go.kr에서 양식 작성",
+          "detail": "Korea Visa Portal(visa.go.kr)로 이동하세요 — 유일한 공식 사이트입니다. 신청 양식을 작성하고 인쇄해 서명하세요. 신청자 1인당 한 장입니다.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "인증 여행사 선택",
+          "detail": "Tashkent 주재 한국 대사관의 공식 웹사이트를 열어 공개된 인증 여행사 목록을 이용하세요. 관광의 경우 이 여행사들만 신청을 제출할 수 있습니다 — 그 외를 주장하는 사람은 주의하세요."
+        },
+        {
+          "n": 4,
+          "title": "서류 준비",
+          "detail": "아래 체크리스트를 모으세요. 정확한 최신 서류 목록과 필요한 번역은 여행사가 알려줍니다."
+        },
+        {
+          "n": 5,
+          "title": "여행사를 통해 제출",
+          "detail": "서류를 인증 여행사에 건네면, 여행사가 대사관 영사과에 신청을 접수합니다. 관광 비자는 직접 또는 온라인으로 제출할 수 없습니다."
+        },
+        {
+          "n": 6,
+          "title": "결제 및 대기",
+          "detail": "비자 수수료와 여행사 서비스 수수료를 결제한 뒤 결과를 기다리세요. 현재 수수료와 처리 기간은 여행사에 확인하세요 — 공개적으로 게시되어 있지 않습니다."
+        },
+        {
+          "n": 7,
+          "title": "여권 수령",
+          "detail": "여행사를 통해 수령하고, 받는 즉시 비자 스티커 정보(이름, 날짜, 입국 종류)를 확인하세요."
+        }
+      ]
+    },
+    "documents": {
+      "title": "서류 체크리스트 — 각 서류를 어디서 어떻게 받는지 포함",
+      "intro": "정확한 최신 목록은 인증 여행사가 확인하지만, 관광 서류 일체에는 보통 이것들이 포함됩니다. 각 서류에 대해, 어디서 발급받고 무엇이 표시되어야 하는지 알려드립니다.",
+      "cols": [
+        "서류",
+        "발급처",
+        "표시되어야 할 내용"
+      ],
+      "rows": [
+        {
+          "doc": "여권",
+          "req": "required",
+          "where": "이미 가지고 있음",
+          "how": "여행 종료 후 6개월 이상 유효, 최소 2장의 빈 페이지. 이전 여권이 있으면 함께 지참하세요."
+        },
+        {
+          "doc": "비자 신청 양식",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Korea Visa Portal에서 작성하고 인쇄해 서명하세요. 신청자 1인당 한 장.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "사진 — 35 × 45 mm",
+          "req": "required",
+          "where": "아무 사진관",
+          "how": "무지 흰색 배경, 최근 6개월 이내 촬영, 정면 얼굴, 안경이나 머리 착용물 없음."
+        },
+        {
+          "doc": "왕복 항공권 예약",
+          "req": "required",
+          "where": "항공사 / 여행사",
+          "how": "확정된 예약/일정으로 충분합니다 — 비자가 승인되기 전에는 유료 항공권을 구매하지 마세요."
+        },
+        {
+          "doc": "숙박 증명",
+          "req": "required",
+          "where": "호텔 예약 사이트",
+          "how": "체류 기간을 포함하는 확정된 호텔 예약. 누군가의 집에 머무나요? 초청장 + 호스트의 ID/ARC 사본을 추가하세요."
+        },
+        {
+          "doc": "재정 증빙(은행 거래내역서)",
+          "req": "required",
+          "where": "거래 은행",
+          "how": "여행 비용을 감당할 수 있음을 보여주는, 은행 직인이 찍힌 최근 거래내역서. 꾸준한 잔액이 갑작스러운 입금보다 훨씬 설득력 있습니다."
+        },
+        {
+          "doc": "재직 / 신분 증명",
+          "req": "required",
+          "where": "고용주 / 사업체 / 대학",
+          "how": "재직자: 재직/휴가 확인서. 자영업자: 사업자 등록증. 학생: 재학증명서. 은퇴자: 연금 증명."
+        }
+      ],
+      "legend": {
+        "required": "필수",
+        "conditional": "본인에게 해당하는 경우",
+        "recommended": "권장"
+      }
+    },
+    "funds": {
+      "title": "\"은행 잔액이 얼마나 필요한가요?\"",
+      "body": "관광 비자에 대해 공표된 단일 공식 최소 금액은 없습니다. 중요한 것은 여행 전체를 무리 없이 감당할 수 있고 Uzbekistan으로 돌아올 이유가 있음을 증명하는 것입니다. 심사관은 눈에 띄는 숫자만이 아니라 안정성을 봅니다.",
+      "tips": [
+        "일관된 잔액을 보여주세요 — 신청 며칠 전에 넣은 큰 입금은 약해 보입니다.",
+        "은행 거래내역서를 직업·사업·학업 증빙과 함께 제시하세요. 둘이 합쳐지면 신뢰할 수 있는 이야기가 됩니다.",
+        "후원을 받나요? 후원자의 은행 거래내역서, 서명된 후원서, 그리고 관계를 증명하는 자료를 추가하세요."
+      ]
+    },
+    "pitfalls": {
+      "title": "거절과 지연을 부르는 실수",
+      "items": [
+        {
+          "icon": "🏢",
+          "t": "직접 또는 온라인으로 제출하려는 것",
+          "d": "관광의 경우 대사관은 인증 여행사를 통해서만 서류를 접수합니다. 방문 접수나 온라인 시도는 처리되지 않습니다."
+        },
+        {
+          "icon": "🕸️",
+          "t": "비인증 여행사를 이용하는 것",
+          "d": "관광 신청을 접수할 수 있는 곳은 대사관 공식 목록에 있는 여행사뿐입니다. 먼저 목록을 확인하고, '비자 보장'을 약속하는 사람은 무시하세요."
+        },
+        {
+          "icon": "🎫",
+          "t": "항공권을 너무 일찍 구매하는 것",
+          "d": "승인 전에 환불 불가 항공권을 결제하는 것. 서류에는 예약으로 충분합니다."
+        },
+        {
+          "icon": "💸",
+          "t": "막판 자금",
+          "d": "신청 직전의 갑작스러운 큰 입금. 대신 꾸준하고 설명 가능한 자금을 보여주세요."
+        },
+        {
+          "icon": "🖼️",
+          "t": "부적절한 사진",
+          "d": "잘못된 크기, 색이 있는 배경, 안경 또는 오래된 사진. 새로 찍은 35 × 45 mm 흰색 배경 사진을 사용하세요."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Uzbekistan → 한국 비자 FAQ",
+      "items": [
+        {
+          "q": "Uzbekistan 국민은 한국 비자가 필요한가요?",
+          "a": "네 — 관광의 경우 C-3 단기 관광 비자를 사전에 신청합니다. Uzbekistan 여권은 무비자 대상이 아니며 K-ETA 목록에도 없습니다."
+        },
+        {
+          "q": "대사관에서 직접, 또는 온라인으로 신청할 수 있나요?",
+          "a": "관광 비자는 안 됩니다. Tashkent 주재 한국 대사관은 자체 인증한 여행사를 통해서만 관광 신청을 접수합니다. 취업 비자, 일부 학생 비자, 정부 프로그램 비자는 다른 방식으로 제출합니다."
+        },
+        {
+          "q": "인증 여행사는 어디서 찾나요?",
+          "a": "공식 목록은 Tashkent 주재 한국 대사관 웹사이트에 게시되어 있습니다. 그 목록에 있는 여행사만 이용하세요."
+        },
+        {
+          "q": "비용은 얼마이고 얼마나 걸리나요?",
+          "a": "수수료와 처리 기간은 접근 가능한 공식 출처에 게시되어 있지 않습니다. 항공권을 예약하기 전에 인증 여행사나 대사관에 두 가지를 모두 확인하세요."
+        },
+        {
+          "q": "대사관은 어디에 있나요?",
+          "a": "주 Tashkent 대한민국 대사관은 Mirabad 지구 Afrosiyob Street 7에 있습니다 — 다만 관광의 경우 본인이 직접 방문하지 않고 인증 여행사를 통해 제출합니다."
+        },
+        {
+          "q": "복수 입국 비자를 받을 수 있나요?",
+          "a": "복수 입국 관광 비자는 경우에 따라 가능하지만 자격은 상황에 따라 다릅니다. 현재 규정은 인증 여행사나 대사관에 문의하세요."
+        },
+        {
+          "q": "비자를 받은 후에도 e-Arrival Card가 필요한가요?",
+          "a": "입국 시 e-Arrival Card 요건이 여전히 적용될 수 있습니다. 여행 날짜가 가까워지면 공식 사이트에서 입국 서류 규정을 확인하세요."
+        }
+      ]
+    }
+  },
+  "ru": {
+    "kicker": "Визовый гид · Uzbekistan → Корея",
+    "readingTime": "Чтение 7 мин",
+    "h1": "Виза в Корею из Uzbekistan",
+    "metaTitle": "Виза из Uzbekistan в Корею: нужна ли она? (2026) — Korea Trip Hub",
+    "metaDesc": "Да — владельцам паспорта Uzbekistan нужна виза в Южную Корею (C-3 краткосрочная туристическая, до 90 дней). Туристические заявления подаются через турагентство, аккредитованное посольством Кореи в Tashkent — вот как это работает.",
+    "ui": {
+      "visa": "Тип визы",
+      "stay": "Срок пребывания",
+      "entry": "Въезд",
+      "where": "Где получить",
+      "official": "Официальные источники",
+      "required": "Обязательно",
+      "conditional": "Если применимо",
+      "recommended": "Рекомендуется",
+      "confirm": "Сборы и правила могут меняться — уточняйте в источнике",
+      "source": "Источник",
+      "updated": "Обновлено",
+      "tldr": "Кратко"
+    },
+    "verdict": {
+      "headline": "Да — владельцам паспорта Uzbekistan нужна виза.",
+      "sub": "Вы будете оформлять краткосрочную туристическую визу C-3 (пребывание до 90 дней). Для туризма посольство Кореи в Tashkent принимает документы ТОЛЬКО через аккредитованные турагентства — подать напрямую или онлайн нельзя. Въезд по K-ETA/без визы НЕ применяется.",
+      "type": "C-3 Краткосрочная туристическая",
+      "stay": "До 90 дней",
+      "entry": "Однократный въезд (в некоторых случаях возможен многократный — уточните в агентстве)"
+    },
+    "tldr": [
+      "Заполните форму на visa.go.kr (ЕДИНСТВЕННЫЙ официальный портал), затем распечатайте и подпишите её.",
+      "Выберите турагентство, аккредитованное посольством Кореи в Tashkent — только они могут подать туристическое заявление (без прямой или онлайн-подачи).",
+      "Передайте агентству паспорт, фото, брони авиабилетов + отеля и подтверждение финансов; они подадут документы в консульский отдел.",
+      "Сборы и сроки обработки не публикуются открыто — уточните и то, и другое в агентстве или посольстве, прежде чем планировать."
+    ],
+    "steps": {
+      "title": "Подача заявления, шаг за шагом",
+      "items": [
+        {
+          "n": 1,
+          "title": "Определите тип визы",
+          "detail": "Для туризма вам нужна краткосрочная гостевая (туристическая) виза C-3. Соберите список ниже, прежде чем начать."
+        },
+        {
+          "n": 2,
+          "title": "Заполните форму на visa.go.kr",
+          "detail": "Перейдите на Korea Visa Portal (visa.go.kr) — единственный официальный сайт. Заполните анкету, распечатайте и подпишите её. Одна форма на заявителя.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Выберите аккредитованное турагентство",
+          "detail": "Откройте официальный сайт посольства Кореи в Tashkent и воспользуйтесь опубликованным списком аккредитованных агентств. Для туризма только эти агентства могут подать ваше заявление — остерегайтесь тех, кто утверждает обратное."
+        },
+        {
+          "n": 4,
+          "title": "Соберите документы",
+          "detail": "Соберите список ниже. Агентство сообщит вам точный актуальный перечень документов и любые необходимые переводы."
+        },
+        {
+          "n": 5,
+          "title": "Подайте через агентство",
+          "detail": "Передайте документы аккредитованному агентству; оно подаёт заявление в консульский отдел посольства. Для туристической визы подать напрямую или онлайн нельзя."
+        },
+        {
+          "n": 6,
+          "title": "Оплатите и ждите",
+          "detail": "Оплатите визовый сбор и сервисный сбор агентства, затем ждите решения. Уточните текущий сбор и срок обработки в агентстве — они не публикуются открыто."
+        },
+        {
+          "n": 7,
+          "title": "Заберите паспорт",
+          "detail": "Заберите его через агентство и сразу же проверьте данные визовой наклейки (имя, даты, тип въезда)."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Список документов — с указанием, где и как получить каждый",
+      "intro": "Точный актуальный список подтверждает аккредитованное агентство, но туристический комплект обычно включает эти документы. По каждому — где его получить и что он должен содержать.",
+      "cols": [
+        "Документ",
+        "Где получить",
+        "Что должно быть указано"
+      ],
+      "rows": [
+        {
+          "doc": "Паспорт",
+          "req": "required",
+          "where": "У вас уже есть",
+          "how": "Действителен более 6 месяцев после поездки, не менее 2 чистых страниц. Возьмите и старые паспорта, если они есть."
+        },
+        {
+          "doc": "Анкета на визу",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Заполните на Korea Visa Portal, распечатайте и подпишите. По одной на заявителя.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Фото — 35 × 45 mm",
+          "req": "required",
+          "where": "Любое фотоателье",
+          "how": "Однотонный белый фон, снято за последние 6 месяцев, лицо полностью, без очков и головных уборов."
+        },
+        {
+          "doc": "Бронь авиабилета туда-обратно",
+          "req": "required",
+          "where": "Авиакомпания / агентство",
+          "how": "Подтверждённой брони/маршрута достаточно — НЕ покупайте оплаченный билет до одобрения визы."
+        },
+        {
+          "doc": "Подтверждение проживания",
+          "req": "required",
+          "where": "Сайты бронирования отелей",
+          "how": "Подтверждённые брони отелей на весь срок пребывания. Останавливаетесь у кого-то? Добавьте приглашение + копию удостоверения личности/ARC принимающей стороны."
+        },
+        {
+          "doc": "Подтверждение финансов (выписка из банка)",
+          "req": "required",
+          "where": "Ваш банк",
+          "how": "Свежая выписка с печатью банка, показывающая, что вы можете оплатить поездку. Стабильный остаток куда убедительнее внезапного пополнения."
+        },
+        {
+          "doc": "Подтверждение занятости / статуса",
+          "req": "required",
+          "where": "Работодатель / бизнес / вуз",
+          "how": "Работающим: справка с работы/об отпуске. Самозанятым: регистрация бизнеса. Студентам: справка о зачислении. Пенсионерам: подтверждение пенсии."
+        }
+      ],
+      "legend": {
+        "required": "Обязательно",
+        "conditional": "Если применимо к вам",
+        "recommended": "Рекомендуется"
+      }
+    },
+    "funds": {
+      "title": "«Сколько денег должно быть на счёте?»",
+      "body": "Единой официально опубликованной минимальной суммы для туристической визы нет. Важно доказать, что вы можете спокойно оплатить всю поездку и имеете причины вернуться в Uzbekistan. Сотрудники, рассматривающие дело, смотрят на стабильность, а не только на броскую цифру.",
+      "tips": [
+        "Показывайте стабильный остаток — крупное пополнение за несколько дней до подачи выглядит слабо.",
+        "Сочетайте банковскую выписку с подтверждением работы, бизнеса или учёбы; вместе они складываются в убедительную историю.",
+        "Есть спонсор? Добавьте банковскую выписку спонсора, подписанное спонсорское письмо и подтверждение вашего родства."
+      ]
+    },
+    "pitfalls": {
+      "title": "Ошибки, ведущие к отказам и задержкам",
+      "items": [
+        {
+          "icon": "🏢",
+          "t": "Попытка подать напрямую или онлайн",
+          "d": "Для туризма посольство принимает документы только через аккредитованные агентства. Попытка прийти лично или подать онлайн не будет обработана."
+        },
+        {
+          "icon": "🕸️",
+          "t": "Обращение в неаккредитованное агентство",
+          "d": "Подать туристическое заявление могут только агентства из официального списка посольства. Сначала проверьте список и игнорируйте всех, кто обещает визу 'с гарантией'."
+        },
+        {
+          "icon": "🎫",
+          "t": "Слишком ранняя покупка билетов",
+          "d": "Оплата невозвратных билетов до одобрения. Для комплекта достаточно брони."
+        },
+        {
+          "icon": "💸",
+          "t": "Деньги в последний момент",
+          "d": "Внезапное крупное пополнение прямо перед подачей. Вместо этого показывайте стабильные, объяснимые средства."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Плохое фото",
+          "d": "Неверный размер, цветной фон, очки или старое фото. Используйте свежий снимок 35 × 45 mm на белом фоне."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Часто задаваемые вопросы о визе Uzbekistan → Корея",
+      "items": [
+        {
+          "q": "Нужна ли гражданам Uzbekistan виза в Корею?",
+          "a": "Да — для туризма вы заранее оформляете краткосрочную туристическую визу C-3. Паспорта Uzbekistan не дают безвизового въезда и не входят в список K-ETA."
+        },
+        {
+          "q": "Можно ли подать напрямую в посольстве или онлайн?",
+          "a": "Не для туристической визы. Посольство Кореи в Tashkent принимает туристические заявления только через аккредитованные им турагентства. Рабочие, некоторые студенческие и визы по государственным программам подаются иначе."
+        },
+        {
+          "q": "Где найти аккредитованные агентства?",
+          "a": "Официальный список опубликован на сайте посольства Кореи в Tashkent. Пользуйтесь только агентствами из этого списка."
+        },
+        {
+          "q": "Сколько это стоит и сколько занимает времени?",
+          "a": "Сбор и срок обработки не публикуются в доступном официальном источнике. Уточните и то, и другое в аккредитованном агентстве или посольстве, прежде чем покупать билеты."
+        },
+        {
+          "q": "Где находится посольство?",
+          "a": "Посольство Республики Корея в Tashkent находится по адресу Afrosiyob Street 7, район Mirabad — но для туризма вы подаёте документы через аккредитованное агентство, а не лично."
+        },
+        {
+          "q": "Можно ли получить многократную визу?",
+          "a": "Многократные туристические визы возможны в некоторых случаях, но право на них различается. Уточните текущие правила в вашем аккредитованном агентстве или в посольстве."
+        },
+        {
+          "q": "Нужна ли e-Arrival Card после получения визы?",
+          "a": "Требование e-Arrival Card всё ещё может действовать при въезде. Ближе к дате поездки проверьте правила о въездных документах на официальных сайтах."
+        }
+      ]
+    }
+  },
+  "fr": {
+    "kicker": "Guide des visas · Uzbekistan → Corée",
+    "readingTime": "Lecture de 7 min",
+    "h1": "Visa pour la Corée depuis l'Uzbekistan",
+    "metaTitle": "Visa de l'Uzbekistan vers la Corée : en avez-vous besoin ? (2026) — Korea Trip Hub",
+    "metaDesc": "Oui — les titulaires d'un passeport de l'Uzbekistan ont besoin d'un visa pour la Corée du Sud (C-3 touristique de courte durée, jusqu'à 90 jours). Les demandes touristiques passent par une agence de voyages accréditée par l'ambassade de Corée à Tashkent — voici comment cela fonctionne.",
+    "ui": {
+      "visa": "Type de visa",
+      "stay": "Durée de séjour",
+      "entry": "Entrée",
+      "where": "Où l'obtenir",
+      "official": "Sources officielles",
+      "required": "Obligatoire",
+      "conditional": "Le cas échéant",
+      "recommended": "Recommandé",
+      "confirm": "Les frais/règles peuvent changer — vérifiez à la source",
+      "source": "Source",
+      "updated": "Mis à jour",
+      "tldr": "En bref"
+    },
+    "verdict": {
+      "headline": "Oui — les titulaires d'un passeport de l'Uzbekistan ont besoin d'un visa.",
+      "sub": "Vous demanderez le visa touristique de courte durée C-3 (séjour jusqu'à 90 jours). Pour le tourisme, l'ambassade de Corée à Tashkent n'accepte les documents QUE par l'intermédiaire d'agences de voyages accréditées — vous ne pouvez pas déposer directement ni en ligne. L'entrée avec K-ETA/sans visa NE s'applique PAS.",
+      "type": "C-3 Touristique de courte durée",
+      "stay": "Jusqu'à 90 jours",
+      "entry": "Entrée unique (l'entrée multiple est possible dans certains cas — demandez à l'agence)"
+    },
+    "tldr": [
+      "Remplissez le formulaire sur visa.go.kr (le SEUL portail officiel), puis imprimez-le et signez-le.",
+      "Choisissez une agence de voyages accréditée par l'ambassade de Corée à Tashkent — seules elles peuvent déposer une demande touristique (pas de dépôt direct ni en ligne).",
+      "Remettez à l'agence votre passeport, une photo et vos réservations de vol + hôtel ainsi que le justificatif financier ; elle les dépose à la section consulaire.",
+      "Les frais et les délais de traitement ne sont pas publiés ouvertement — confirmez les deux auprès de l'agence ou de l'ambassade avant de planifier."
+    ],
+    "steps": {
+      "title": "La demande, étape par étape",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirmez le type de visa",
+          "detail": "Pour le tourisme, il vous faut le visa de visite de courte durée (touristique) C-3. Rassemblez la liste ci-dessous avant de commencer."
+        },
+        {
+          "n": 2,
+          "title": "Remplissez le formulaire sur visa.go.kr",
+          "detail": "Rendez-vous sur le Korea Visa Portal (visa.go.kr) — le seul site officiel. Remplissez le formulaire de demande, imprimez-le et signez-le. Un formulaire par demandeur.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Choisissez une agence de voyages accréditée",
+          "detail": "Ouvrez le site officiel de l'ambassade de Corée à Tashkent et utilisez sa liste publiée d'agences accréditées. Pour le tourisme, seules ces agences peuvent déposer votre demande — méfiez-vous de quiconque prétend le contraire."
+        },
+        {
+          "n": 4,
+          "title": "Rassemblez vos documents",
+          "detail": "Réunissez la liste ci-dessous. L'agence vous indiquera la liste exacte et actuelle des documents ainsi que toute traduction nécessaire."
+        },
+        {
+          "n": 5,
+          "title": "Déposez par l'intermédiaire de l'agence",
+          "detail": "Remettez vos documents à l'agence accréditée ; elle dépose la demande à la section consulaire de l'ambassade. Vous ne pouvez pas déposer directement ni en ligne pour un visa touristique."
+        },
+        {
+          "n": 6,
+          "title": "Payez et attendez",
+          "detail": "Réglez les frais de visa et les frais de service de l'agence, puis attendez la décision. Confirmez les frais et le délai de traitement actuels auprès de l'agence — ils ne sont pas publiés ouvertement."
+        },
+        {
+          "n": 7,
+          "title": "Récupérez votre passeport",
+          "detail": "Récupérez-le par l'intermédiaire de l'agence et vérifiez les informations de la vignette de visa (nom, dates, type d'entrée) dès que vous le recevez."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Liste des documents — avec où et comment obtenir chacun",
+      "intro": "L'agence accréditée confirme la liste exacte et actuelle, mais un dossier touristique comprend généralement ceci. Pour chacun, voici où l'obtenir et ce qu'il doit indiquer.",
+      "cols": [
+        "Document",
+        "Où l'obtenir",
+        "Ce qu'il doit indiquer"
+      ],
+      "rows": [
+        {
+          "doc": "Passeport",
+          "req": "required",
+          "where": "Vous l'avez déjà",
+          "how": "Valable plus de 6 mois au-delà de votre voyage, avec au moins 2 pages vierges. Apportez aussi vos anciens passeports si vous en avez."
+        },
+        {
+          "doc": "Formulaire de demande de visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "À remplir sur le Korea Visa Portal, imprimer et signer. Un par demandeur.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Photo — 35 × 45 mm",
+          "req": "required",
+          "where": "N'importe quel studio photo",
+          "how": "Fond blanc uni, prise au cours des 6 derniers mois, visage entier, sans lunettes ni couvre-chef."
+        },
+        {
+          "doc": "Réservation de vol aller-retour",
+          "req": "required",
+          "where": "Compagnie aérienne / agence",
+          "how": "Une réservation/un itinéraire confirmé suffit — N'achetez PAS de billet payé avant l'approbation du visa."
+        },
+        {
+          "doc": "Justificatif d'hébergement",
+          "req": "required",
+          "where": "Sites de réservation d'hôtels",
+          "how": "Réservations d'hôtel confirmées couvrant votre séjour. Vous logez chez quelqu'un ? Ajoutez une lettre d'invitation + une copie de la pièce d'identité/ARC de l'hôte."
+        },
+        {
+          "doc": "Justificatif financier (relevé bancaire)",
+          "req": "required",
+          "where": "Votre banque",
+          "how": "Un relevé récent avec le cachet de la banque montrant que vous pouvez financer le voyage. Un solde stable est bien plus convaincant qu'un dépôt soudain."
+        },
+        {
+          "doc": "Justificatif d'emploi / de situation",
+          "req": "required",
+          "where": "Employeur / entreprise / université",
+          "how": "Salarié : attestation d'emploi/de congé. Indépendant : immatriculation de l'entreprise. Étudiant : certificat de scolarité. Retraité : justificatif de pension."
+        }
+      ],
+      "legend": {
+        "required": "Obligatoire",
+        "conditional": "Si cela vous concerne",
+        "recommended": "Recommandé"
+      }
+    },
+    "funds": {
+      "title": "« De combien d'argent ai-je besoin sur mon compte ? »",
+      "body": "Il n'existe aucun montant minimum officiel unique publié pour le visa touristique. Ce qui compte, c'est de prouver que vous pouvez financer confortablement tout le voyage et que vous avez des raisons de retourner en Uzbekistan. Les agents examinent la stabilité, et pas seulement un chiffre accrocheur.",
+      "tips": [
+        "Montrez un solde régulier — un dépôt important effectué quelques jours avant la demande paraît fragile.",
+        "Associez le relevé bancaire à un justificatif de votre emploi, de votre entreprise ou de vos études ; ensemble, ils racontent une histoire crédible.",
+        "Vous êtes parrainé ? Ajoutez le relevé bancaire du garant, une lettre de parrainage signée et une preuve de votre lien de parenté."
+      ]
+    },
+    "pitfalls": {
+      "title": "Erreurs qui entraînent refus et retards",
+      "items": [
+        {
+          "icon": "🏢",
+          "t": "Tenter de déposer directement ou en ligne",
+          "d": "Pour le tourisme, l'ambassade n'accepte les documents que par l'intermédiaire d'agences accréditées. Un dépôt sur place ou en ligne ne sera pas traité."
+        },
+        {
+          "icon": "🕸️",
+          "t": "Recourir à une agence non accréditée",
+          "d": "Seules les agences figurant sur la liste officielle de l'ambassade peuvent déposer une demande touristique. Vérifiez d'abord la liste et ignorez quiconque promet un visa « garanti »."
+        },
+        {
+          "icon": "🎫",
+          "t": "Acheter les vols trop tôt",
+          "d": "Payer des billets non remboursables avant l'approbation. Une réservation suffit pour le dossier."
+        },
+        {
+          "icon": "💸",
+          "t": "Argent de dernière minute",
+          "d": "Un dépôt important et soudain juste avant la demande. Montrez plutôt des fonds stables et justifiables."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Mauvaise photo",
+          "d": "Mauvaise taille, fond coloré, lunettes ou photo ancienne. Utilisez une photo récente de 35 × 45 mm sur fond blanc."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ visa Uzbekistan → Corée",
+      "items": [
+        {
+          "q": "Les citoyens de l'Uzbekistan ont-ils besoin d'un visa pour la Corée ?",
+          "a": "Oui — pour le tourisme, vous demandez à l'avance le visa touristique de courte durée C-3. Les passeports de l'Uzbekistan ne sont pas exemptés de visa et ne figurent pas sur la liste K-ETA."
+        },
+        {
+          "q": "Puis-je déposer ma demande directement à l'ambassade ou en ligne ?",
+          "a": "Pas pour un visa touristique. L'ambassade de Corée à Tashkent n'accepte les demandes touristiques que par l'intermédiaire des agences de voyages qu'elle a accréditées. Les visas de travail, certains visas d'étudiant et les visas de programmes gouvernementaux se déposent différemment."
+        },
+        {
+          "q": "Où trouver les agences accréditées ?",
+          "a": "La liste officielle est publiée sur le site de l'ambassade de Corée à Tashkent. N'utilisez que les agences figurant sur cette liste."
+        },
+        {
+          "q": "Combien cela coûte-t-il et combien de temps cela prend-il ?",
+          "a": "Les frais et le délai de traitement ne sont pas publiés dans une source officielle accessible. Confirmez les deux auprès d'une agence accréditée ou de l'ambassade avant de réserver vos vols."
+        },
+        {
+          "q": "Où se trouve l'ambassade ?",
+          "a": "L'ambassade de la République de Corée à Tashkent se situe au Afrosiyob Street 7, district de Mirabad — mais pour le tourisme, vous déposez votre demande par l'intermédiaire d'une agence accréditée, et non en personne."
+        },
+        {
+          "q": "Puis-je obtenir un visa à entrées multiples ?",
+          "a": "Les visas touristiques à entrées multiples sont possibles dans certains cas, mais l'admissibilité varie. Renseignez-vous auprès de votre agence accréditée ou de l'ambassade sur les règles actuelles."
+        },
+        {
+          "q": "Ai-je encore besoin de l'e-Arrival Card après avoir obtenu le visa ?",
+          "a": "L'exigence de l'e-Arrival Card peut toujours s'appliquer à l'entrée. Vérifiez les règles relatives aux documents d'entrée sur les sites officiels à l'approche de votre date de voyage."
+        }
+      ]
+    }
+  }
 }
