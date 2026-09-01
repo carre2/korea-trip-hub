@@ -1,3 +1,2412 @@
 {
-  "_README": "Per-locale translation overrides for Bangladesh → Korea visa guide. { <locale>: { ...overrides } }. English base in bangladesh.json."
+  "_README": "Per-locale translation overrides for Bangladesh → Korea visa guide. { <locale>: { ...overrides } }. English base in bangladesh.json.",
+  "ja": {
+    "kicker": "ビザガイド · バングラデシュ → 韓国",
+    "readingTime": "8分で読めます",
+    "h1": "バングラデシュからの韓国ビザ",
+    "metaTitle": "バングラデシュから韓国のビザ：必要ですか？（2026年）— Korea Trip Hub",
+    "metaDesc": "はい — バングラデシュのパスポート保有者は韓国のビザが必要です（C-3-9 短期観光、最長90日）。visa.go.krでバーコード付きe-Formを記入し、Dhakaの駐バングラデシュ韓国大使館で提出します。必要書類、料金、処理期間を解説します。",
+    "ui": {
+      "visa": "ビザの種類",
+      "stay": "滞在期間",
+      "entry": "入国",
+      "where": "入手先",
+      "official": "公式ソース",
+      "required": "必須",
+      "conditional": "該当する場合",
+      "recommended": "推奨",
+      "confirm": "手数料・規則は変更される場合があります — 出典で確認してください",
+      "source": "出典",
+      "updated": "更新日",
+      "tldr": "要点"
+    },
+    "verdict": {
+      "headline": "はい — バングラデシュのパスポート保有者はビザが必要です。",
+      "sub": "C-3-9短期観光ビザ（シングルエントリー、最長90日間の滞在）を申請します。visa.go.krでe-Formに記入し、バーコード付きのフォームを印刷して、Dhakaの駐バングラデシュ韓国大使館に本人が提出します。K-ETA／ビザ免除入国はバングラデシュのパスポートには適用されません。",
+      "type": "C-3-9 短期観光",
+      "stay": "最長90日間",
+      "entry": "シングルエントリー（追加料金でダブル／マルチプルも可能）"
+    },
+    "tldr": [
+      "visa.go.kr（唯一の公式ポータル）でe-Formに記入し、バーコード付きのフォームを印刷します — 2026年以降、すべての申請者はe-Formを提出しなければなりません。",
+      "Dhakaの駐バングラデシュ韓国大使館（4 Madani Avenue, Baridhara）で本人が提出します。日〜木曜 09:00–12:30。",
+      "パスポート、3.5 × 4.5 cmの写真、航空券＋ホテルの予約、6か月分の銀行取引明細、そしてBank Solvency Certificateを持参します。",
+      "手数料はシングルエントリーで約US$40（ダブルUS$70／マルチプルUS$90）。結果は約10〜15営業日で出ます。"
+    ],
+    "steps": {
+      "title": "申請の手順（ステップバイステップ）",
+      "items": [
+        {
+          "n": 1,
+          "title": "ビザの種類を確認する",
+          "detail": "観光にはC-3-9短期訪問（観光）ビザが必要です。始める前に、下のチェックリストを揃えてください。"
+        },
+        {
+          "n": 2,
+          "title": "visa.go.krでe-Formに記入する",
+          "detail": "韓国ビザポータル（visa.go.kr）にアクセスします — 唯一の公式サイトです。e-Formに記入して印刷します：印刷したフォームにはバーコードが付いています。2026年以降、すべての申請者はこのe-Formで申請しなければなりません。申請者1人につき1枚です。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "書類を揃える",
+          "detail": "下のチェックリストのすべての書類を集めます。財政証明の弱さや写真の規格違いが、遅延の最大の原因です。"
+        },
+        {
+          "n": 4,
+          "title": "Dhakaの韓国大使館で提出する",
+          "detail": "バーコード付きのe-Formと書類を、駐バングラデシュ韓国大使館（4 Madani Avenue, Baridhara, Dhaka-1212）に持参します。受付時間は日曜〜木曜の09:00–12:30です。",
+          "link": "https://overseas.mofa.go.kr/bd-en",
+          "linkLabel": "駐バングラデシュ 韓国大使館"
+        },
+        {
+          "n": 5,
+          "title": "手数料を支払う",
+          "detail": "ビザ手数料を支払います — シングルエントリーの短期ビザで約US$40（ダブル／マルチプルはより高額）。"
+        },
+        {
+          "n": 6,
+          "title": "申請状況を追跡する",
+          "detail": "案内に従って状況を確認します。承認されるまで払い戻し不可の航空券は予約しないでください。追加書類や面接を求められることがあります。"
+        },
+        {
+          "n": 7,
+          "title": "パスポートを受け取る",
+          "detail": "案内に従って受け取り、受け取ったらすぐにビザステッカーの記載内容（氏名、日付、入国の種類）を確認してください。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "必要書類チェックリスト — 各書類の入手先と方法つき",
+      "intro": "これは他のどのサイトも省略する部分です。各書類について、どこで入手し、何が記載されていなければならないかを正確に示します。",
+      "cols": [
+        "書類",
+        "入手先",
+        "記載されるべき内容"
+      ],
+      "rows": [
+        {
+          "doc": "パスポート",
+          "req": "required",
+          "where": "お手元にあります",
+          "how": "旅行終了後6か月以上有効で、空白ページが2ページ以上あること。古いパスポートがあれば一緒に持参してください。"
+        },
+        {
+          "doc": "e-Form（バーコード付き）、印刷したもの",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "韓国ビザポータルでe-Formに記入して印刷します — 印刷物にはバーコードが付いています。すべての申請者がe-Formを使わなければなりません。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "写真 — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "任意の写真スタジオ",
+          "how": "自然なカラー、無地の白背景、過去6か月以内に撮影、正面顔、眼鏡や頭部の着用物なし。"
+        },
+        {
+          "doc": "往復の航空券予約",
+          "req": "required",
+          "where": "航空会社／旅行代理店",
+          "how": "確定した予約／旅程で十分です — ビザが承認される前に有料の航空券を購入しないでください。"
+        },
+        {
+          "doc": "宿泊証明",
+          "req": "required",
+          "where": "ホテル予約サイト",
+          "how": "滞在期間をカバーする確定済みのホテル予約。誰かの家に滞在する場合は、招待状＋ホストのID／ARCのコピーを添えてください。"
+        },
+        {
+          "doc": "銀行取引明細 — 過去6か月",
+          "req": "required",
+          "where": "ご利用の銀行",
+          "how": "銀行の印章がある6か月分の個人明細。安定した残高は、突然の入金よりもはるかに説得力があります。"
+        },
+        {
+          "doc": "Bank Solvency Certificate",
+          "req": "required",
+          "where": "ご利用の銀行",
+          "how": "銀行が発行する支払能力証明書 — 明細書とあわせて求められることが多い、バングラデシュ特有の書類です。"
+        },
+        {
+          "doc": "在職／事業の証明",
+          "req": "required",
+          "where": "雇用主／商業登記所",
+          "how": "被雇用者：在職証明書＋休暇届。事業主：営業許可証（過去1年以内のもの）。所得税証明書があれば添えてください。"
+        }
+      ],
+      "legend": {
+        "required": "必須",
+        "conditional": "該当する場合",
+        "recommended": "推奨"
+      }
+    },
+    "funds": {
+      "title": "「銀行残高はいくら必要ですか？」",
+      "body": "観光ビザについて公表された単一の公式な最低額はありません。重要なのは、旅行全体を無理なく賄えること、そしてバングラデシュに戻る理由があることを証明することです。審査官は、目立つ数字だけでなく安定性を見ます。",
+      "tips": [
+        "6か月間、一貫した残高を示してください — 申請の数日前に行った多額の入金は弱く見えます。",
+        "銀行取引明細とBank Solvency Certificateを、仕事や事業の証明と組み合わせてください。揃うと信頼できるストーリーになります。",
+        "スポンサーがいる場合は、スポンサーの銀行取引明細、署名入りのスポンサーシップレター、そして関係を示す証明を添えてください。"
+      ]
+    },
+    "pitfalls": {
+      "title": "却下や遅延を招く間違い",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "バーコード付きe-Formを省く",
+          "d": "すべての申請者はvisa.go.krでe-Formに記入し、印刷したバーコード付きのフォームを提出しなければなりません。古い紙のフォームは受け付けられません。"
+        },
+        {
+          "icon": "🏦",
+          "t": "Bank Solvency Certificateがない",
+          "d": "バングラデシュの申請者は通常、6か月分の明細に加えて支払能力証明書を添えることが求められます。省かないでください。"
+        },
+        {
+          "icon": "🎫",
+          "t": "航空券を早く買いすぎる",
+          "d": "承認前に払い戻し不可の航空券を購入すること。申請書類には予約で十分です。"
+        },
+        {
+          "icon": "🌐",
+          "t": "偽の「ビザ」サイトで申請する",
+          "d": "韓国ビザを扱うのはvisa.go.kr（フォーム）とDhakaの公式な韓国大使館だけです — 追加料金を取る類似サイトは無視してください。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "不適切な写真",
+          "d": "サイズ違い、色付き背景、眼鏡、または古い写真。新しい3.5 × 4.5 cmの白背景の写真を使ってください。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "バングラデシュ → 韓国 ビザFAQ",
+      "items": [
+        {
+          "q": "バングラデシュ国民は韓国のビザが必要ですか？",
+          "a": "はい — 観光の場合はC-3-9短期観光ビザを事前に申請します。バングラデシュのパスポートはビザ免除ではなく、K-ETAの対象にも含まれません。"
+        },
+        {
+          "q": "どこで申請しますか？",
+          "a": "韓国ビザポータル（visa.go.kr）でe-Formに記入し、印刷したバーコード付きのフォームをDhakaの駐バングラデシュ韓国大使館（4 Madani Avenue, Baridhara）に本人が提出します。"
+        },
+        {
+          "q": "e-Formとは何ですか？",
+          "a": "2026年以降、すべての申請者はvisa.go.krでオンラインのe-Formを記入して印刷しなければなりません — 印刷物には大使館がスキャンするバーコードが付いています。手書きの古いフォームは受け付けられません。"
+        },
+        {
+          "q": "どのくらいかかりますか？",
+          "a": "通常は約10〜15営業日で、繁忙期や面接・追加書類を求められた場合はさらに長くかかります。旅行の十分前に申請してください。"
+        },
+        {
+          "q": "費用はいくらですか？",
+          "a": "シングルエントリーの短期ビザで約US$40、ダブルエントリーで約US$70、マルチプルエントリーで約US$90です。金額は変わります — 現在の手数料は大使館で確認してください。"
+        },
+        {
+          "q": "Bank Solvency Certificateとは何ですか？",
+          "a": "あなたが財政的に支払能力があることを確認する銀行発行の書類です。バングラデシュの申請者は通常、6か月分の銀行取引明細に加えてこれを提出することが求められます。"
+        },
+        {
+          "q": "マルチプルエントリービザは取得できますか？",
+          "a": "ダブル・マルチプルエントリービザは追加料金で取得できますが、資格は状況によって異なります。バングラデシュ向けの現在の規則については大使館にお問い合わせください。"
+        },
+        {
+          "q": "ビザを取得した後もe-Arrival Cardは必要ですか？",
+          "a": "入国時のe-Arrival Cardの要件は依然として適用される場合があります。旅行日が近づいたら、公式サイトで入国書類の規則を確認してください。"
+        }
+      ]
+    }
+  },
+  "zh": {
+    "kicker": "签证指南 · 孟加拉国 → 韩国",
+    "readingTime": "阅读约 8 分钟",
+    "h1": "从孟加拉国申请的韩国签证",
+    "metaTitle": "从孟加拉国到韩国的签证：你需要吗？（2026）— Korea Trip Hub",
+    "metaDesc": "是的 — 孟加拉国护照持有者前往韩国需要签证（C-3-9 短期旅游，最长 90 天）。在 visa.go.kr 填写带条形码的 e-Form，并在 Dhaka 的韩国大使馆当面递交。本文详解所需材料、费用与办理时间。",
+    "ui": {
+      "visa": "签证类型",
+      "stay": "停留时间",
+      "entry": "入境",
+      "where": "从何处获取",
+      "official": "官方来源",
+      "required": "必需",
+      "conditional": "如适用",
+      "recommended": "推荐",
+      "confirm": "费用/规定可能变动 — 请在来源处确认",
+      "source": "来源",
+      "updated": "更新于",
+      "tldr": "摘要"
+    },
+    "verdict": {
+      "headline": "是的 — 孟加拉国护照持有者需要签证。",
+      "sub": "你将申请 C-3-9 短期旅游签证（单次入境，最长停留 90 天）。在 visa.go.kr 填写 e-Form，打印带条形码的表格，然后本人前往 Dhaka 的韩国大使馆递交。K-ETA／免签入境不适用于孟加拉国护照。",
+      "type": "C-3-9 短期旅游",
+      "stay": "最长 90 天",
+      "entry": "单次入境（多付费用可申请两次／多次）"
+    },
+    "tldr": [
+      "在 visa.go.kr（唯一的官方门户）填写 e-Form，然后打印带条形码的表格 — 自 2026 年起，每位申请人都必须递交 e-Form。",
+      "本人前往 Dhaka 的韩国大使馆（4 Madani Avenue, Baridhara）递交，周日至周四 09:00–12:30。",
+      "携带护照、3.5 × 4.5 cm 照片、机票＋酒店预订、6 个月银行对账单以及 Bank Solvency Certificate。",
+      "费用约 US$40 单次入境（两次 US$70／多次 US$90）；约 10–15 个工作日出结果。"
+    ],
+    "steps": {
+      "title": "申请步骤详解",
+      "items": [
+        {
+          "n": 1,
+          "title": "确认签证类型",
+          "detail": "旅游请选择 C-3-9 短期访问（旅游）签证。开始前请先备齐下面的清单。"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填写 e-Form",
+          "detail": "前往 Korea Visa Portal（visa.go.kr）— 唯一的官方网站。填写 e-Form 后打印出来：打印的表格带有条形码。自 2026 年起，所有申请人都必须使用此 e-Form 申请。每位申请人一份。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "备齐材料",
+          "detail": "收集下面清单中的每一份材料。财力证明不足或照片规格不符是导致延误的首要原因。"
+        },
+        {
+          "n": 4,
+          "title": "在 Dhaka 的韩国大使馆递交",
+          "detail": "将带条形码的 e-Form 和材料递交至大韩民国大使馆，地址 4 Madani Avenue, Baridhara, Dhaka-1212。受理时间为周日至周四 09:00–12:30。",
+          "link": "https://overseas.mofa.go.kr/bd-en",
+          "linkLabel": "韩国驻孟加拉国大使馆"
+        },
+        {
+          "n": 5,
+          "title": "缴纳费用",
+          "detail": "缴纳签证费 — 单次入境短期签证约 US$40（两次／多次入境更高）。"
+        },
+        {
+          "n": 6,
+          "title": "查询申请进度",
+          "detail": "按指示查询状态。获批前不要预订不可退款的机票；你可能被要求补充材料或面谈。"
+        },
+        {
+          "n": 7,
+          "title": "领取护照",
+          "detail": "按指示领取，拿到后立即核对签证贴纸的信息（姓名、日期、入境类型）。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "材料清单 — 附每份材料的获取地点与方式",
+      "intro": "这是其他网站都略过的部分。对于每份材料，这里明确告诉你在哪里获取以及必须显示什么内容。",
+      "cols": [
+        "材料",
+        "从何处获取",
+        "必须显示的内容"
+      ],
+      "rows": [
+        {
+          "doc": "护照",
+          "req": "required",
+          "where": "你已持有",
+          "how": "在行程结束后仍有 6 个月以上有效期，至少 2 页空白页。如有旧护照也请一并携带。"
+        },
+        {
+          "doc": "e-Form（带条形码）打印件",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在 Korea Visa Portal 填写 e-Form 并打印 — 打印件带有条形码。每位申请人都必须使用 e-Form。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片 — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "任意照相馆",
+          "how": "自然彩色、纯白背景、近 6 个月内拍摄、正面全脸、不戴眼镜或头饰。"
+        },
+        {
+          "doc": "往返机票预订",
+          "req": "required",
+          "where": "航空公司／旅行社",
+          "how": "已确认的预订／行程即可 — 签证获批前不要购买已付款的机票。"
+        },
+        {
+          "doc": "住宿证明",
+          "req": "required",
+          "where": "酒店预订网站",
+          "how": "覆盖你整个停留期的已确认酒店预订。借住他人处？请附上邀请函＋住宿人的身份证／ARC 复印件。"
+        },
+        {
+          "doc": "银行对账单 — 近 6 个月",
+          "req": "required",
+          "where": "你的开户银行",
+          "how": "带银行印章的 6 个月个人对账单。稳定的余额远比突然的一笔存款更有说服力。"
+        },
+        {
+          "doc": "Bank Solvency Certificate",
+          "req": "required",
+          "where": "你的开户银行",
+          "how": "银行出具的偿付能力证明 — 这是孟加拉国特有的材料，通常需与对账单一并提交。"
+        },
+        {
+          "doc": "在职／营业证明",
+          "req": "required",
+          "where": "雇主／工商登记机构",
+          "how": "在职者：在职证明＋准假信。企业主：营业执照（近一年内）。如有个人所得税证明请一并附上。"
+        }
+      ],
+      "legend": {
+        "required": "必需",
+        "conditional": "如适用于你",
+        "recommended": "推荐"
+      }
+    },
+    "funds": {
+      "title": "“我需要多少银行存款？”",
+      "body": "旅游签证没有公布统一的官方最低金额。关键在于证明你能够轻松负担整趟行程，并且有理由返回孟加拉国。审核官看重的是稳定性，而不仅仅是一个亮眼的数字。",
+      "tips": [
+        "展示 6 个月内稳定的余额 — 申请前几天才存入的一大笔钱会显得可疑。",
+        "将银行对账单和 Bank Solvency Certificate 与你的工作或营业证明搭配在一起；合在一起才能讲出可信的故事。",
+        "有人资助？请附上资助人的银行对账单、签名的资助信，以及你们关系的证明。"
+      ]
+    },
+    "pitfalls": {
+      "title": "导致拒签与延误的错误",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "省略带条形码的 e-Form",
+          "d": "每位申请人都必须在 visa.go.kr 填写 e-Form 并递交打印的带条形码表格。旧的纸质表格会被拒收。"
+        },
+        {
+          "icon": "🏦",
+          "t": "没有 Bank Solvency Certificate",
+          "d": "孟加拉国申请人通常需要在 6 个月对账单之外再附一份偿付能力证明。不要遗漏。"
+        },
+        {
+          "icon": "🎫",
+          "t": "过早购买机票",
+          "d": "在获批前购买不可退款的机票。材料中有预订即可。"
+        },
+        {
+          "icon": "🌐",
+          "t": "在假冒的“签证”网站上申请",
+          "d": "只有 visa.go.kr（表格）和 Dhaka 的官方韩国大使馆办理韩国签证 — 请忽略那些额外收费的仿冒网站。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "照片不合格",
+          "d": "尺寸不对、彩色背景、戴眼镜或旧照片。请使用新拍的 3.5 × 4.5 cm 白底照片。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "孟加拉国 → 韩国 签证常见问题",
+      "items": [
+        {
+          "q": "孟加拉国公民去韩国需要签证吗？",
+          "a": "需要 — 旅游需提前申请 C-3-9 短期旅游签证。孟加拉国护照不能免签，也不在 K-ETA 名单内。"
+        },
+        {
+          "q": "我在哪里申请？",
+          "a": "在 Korea Visa Portal（visa.go.kr）填写 e-Form，并本人将打印的带条形码表格递交至 Dhaka 的韩国大使馆（4 Madani Avenue, Baridhara）。"
+        },
+        {
+          "q": "什么是 e-Form？",
+          "a": "自 2026 年起，每位申请人都必须在 visa.go.kr 填写在线 e-Form 并打印 — 打印件上有供大使馆扫描的条形码。手写的旧表格不予受理。"
+        },
+        {
+          "q": "需要多长时间？",
+          "a": "通常约 10–15 个工作日，旺季或被要求面谈、补充材料时会更久。请在行程前尽早申请。"
+        },
+        {
+          "q": "费用是多少？",
+          "a": "单次入境短期签证约 US$40；两次入境约 US$70，多次入境约 US$90。金额会变动 — 请向大使馆确认当前费用。"
+        },
+        {
+          "q": "什么是 Bank Solvency Certificate？",
+          "a": "由你的银行出具、确认你有偿付能力的证明信。孟加拉国申请人通常需要在 6 个月银行对账单之外再提交这份证明。"
+        },
+        {
+          "q": "我能申请多次入境签证吗？",
+          "a": "两次和多次入境签证需支付更高费用，但资格视情况而定。请向大使馆咨询孟加拉国的现行规定。"
+        },
+        {
+          "q": "拿到签证后还需要 e-Arrival Card 吗？",
+          "a": "入境时可能仍需 e-Arrival Card。请在临近出行日期时于官方网站核对入境材料规定。"
+        }
+      ]
+    }
+  },
+  "zh-TW": {
+    "kicker": "簽證指南 · 孟加拉 → 韓國",
+    "readingTime": "閱讀約 8 分鐘",
+    "h1": "從孟加拉申請的韓國簽證",
+    "metaTitle": "從孟加拉到韓國的簽證：需要嗎？（2026）— Korea Trip Hub",
+    "metaDesc": "是的 — 孟加拉護照持有人前往韓國需要簽證（C-3-9 短期旅遊，最長 90 天）。在 visa.go.kr 填寫附條碼的 e-Form，並於 Dhaka 的韓國大使館當面遞交。本文詳解所需文件、費用與辦理時間。",
+    "ui": {
+      "visa": "簽證類型",
+      "stay": "停留時間",
+      "entry": "入境",
+      "where": "從何處取得",
+      "official": "官方來源",
+      "required": "必備",
+      "conditional": "如適用",
+      "recommended": "建議",
+      "confirm": "費用/規定可能變動 — 請於來源處確認",
+      "source": "來源",
+      "updated": "更新於",
+      "tldr": "摘要"
+    },
+    "verdict": {
+      "headline": "是的 — 孟加拉護照持有人需要簽證。",
+      "sub": "你將申請 C-3-9 短期旅遊簽證（單次入境，最長停留 90 天）。在 visa.go.kr 填寫 e-Form，列印附條碼的表格，然後親自前往 Dhaka 的韓國大使館遞交。K-ETA／免簽入境不適用於孟加拉護照。",
+      "type": "C-3-9 短期旅遊",
+      "stay": "最長 90 天",
+      "entry": "單次入境（多付費用可申請兩次／多次）"
+    },
+    "tldr": [
+      "在 visa.go.kr（唯一的官方入口網站）填寫 e-Form，然後列印附條碼的表格 — 自 2026 年起，每位申請人都必須遞交 e-Form。",
+      "親自前往 Dhaka 的韓國大使館（4 Madani Avenue, Baridhara）遞交，週日至週四 09:00–12:30。",
+      "攜帶護照、3.5 × 4.5 cm 照片、機票＋飯店訂房、6 個月銀行對帳單以及 Bank Solvency Certificate。",
+      "費用約 US$40 單次入境（兩次 US$70／多次 US$90）；約 10–15 個工作天出結果。"
+    ],
+    "steps": {
+      "title": "申請步驟詳解",
+      "items": [
+        {
+          "n": 1,
+          "title": "確認簽證類型",
+          "detail": "旅遊請選擇 C-3-9 短期訪問（旅遊）簽證。開始前請先備齊下方清單。"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填寫 e-Form",
+          "detail": "前往 Korea Visa Portal（visa.go.kr）— 唯一的官方網站。填寫 e-Form 後列印出來：列印的表格附有條碼。自 2026 年起，所有申請人都必須以此 e-Form 申請。每位申請人一份。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "備齊文件",
+          "detail": "收集下方清單中的每一份文件。財力證明不足或照片規格不符是延誤的首要原因。"
+        },
+        {
+          "n": 4,
+          "title": "在 Dhaka 的韓國大使館遞交",
+          "detail": "將附條碼的 e-Form 和文件遞交至大韓民國大使館，地址 4 Madani Avenue, Baridhara, Dhaka-1212。受理時間為週日至週四 09:00–12:30。",
+          "link": "https://overseas.mofa.go.kr/bd-en",
+          "linkLabel": "韓國駐孟加拉大使館"
+        },
+        {
+          "n": 5,
+          "title": "繳納費用",
+          "detail": "繳納簽證費 — 單次入境短期簽證約 US$40（兩次／多次入境更高）。"
+        },
+        {
+          "n": 6,
+          "title": "查詢申請進度",
+          "detail": "依指示查詢狀態。獲批前請勿預訂不可退款的機票；你可能被要求補件或面談。"
+        },
+        {
+          "n": 7,
+          "title": "領取護照",
+          "detail": "依指示領取，拿到後立即核對簽證貼紙的資訊（姓名、日期、入境類型）。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "文件清單 — 附每份文件的取得地點與方式",
+      "intro": "這是其他網站都略過的部分。針對每份文件，這裡明確告訴你在哪裡取得以及必須顯示什麼內容。",
+      "cols": [
+        "文件",
+        "從何處取得",
+        "必須顯示的內容"
+      ],
+      "rows": [
+        {
+          "doc": "護照",
+          "req": "required",
+          "where": "你已持有",
+          "how": "在行程結束後仍有 6 個月以上效期，至少 2 頁空白頁。如有舊護照也請一併攜帶。"
+        },
+        {
+          "doc": "e-Form（附條碼）列印本",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在 Korea Visa Portal 填寫 e-Form 並列印 — 列印本附有條碼。每位申請人都必須使用 e-Form。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片 — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "任何照相館",
+          "how": "自然彩色、純白背景、近 6 個月內拍攝、正面全臉、不戴眼鏡或頭飾。"
+        },
+        {
+          "doc": "來回機票訂位",
+          "req": "required",
+          "where": "航空公司／旅行社",
+          "how": "已確認的訂位／行程即可 — 簽證獲批前請勿購買已付款的機票。"
+        },
+        {
+          "doc": "住宿證明",
+          "req": "required",
+          "where": "訂房網站",
+          "how": "涵蓋你整段停留期的已確認訂房。借住他人處？請附上邀請函＋住宿人的身分證／ARC 影本。"
+        },
+        {
+          "doc": "銀行對帳單 — 近 6 個月",
+          "req": "required",
+          "where": "你的往來銀行",
+          "how": "附銀行印章的 6 個月個人對帳單。穩定的餘額遠比突然的一筆存款更有說服力。"
+        },
+        {
+          "doc": "Bank Solvency Certificate",
+          "req": "required",
+          "where": "你的往來銀行",
+          "how": "銀行開立的償付能力證明 — 這是孟加拉特有的文件，通常需與對帳單一併提交。"
+        },
+        {
+          "doc": "在職／營業證明",
+          "req": "required",
+          "where": "雇主／商業登記機關",
+          "how": "在職者：在職證明＋准假信。企業主：營業執照（近一年內）。如有綜合所得稅證明請一併附上。"
+        }
+      ],
+      "legend": {
+        "required": "必備",
+        "conditional": "若適用於你",
+        "recommended": "建議"
+      }
+    },
+    "funds": {
+      "title": "「我需要多少銀行存款？」",
+      "body": "旅遊簽證並未公布統一的官方最低金額。關鍵在於證明你能輕鬆負擔整趟行程，並且有理由返回孟加拉。審核人員看重的是穩定性，而不只是一個亮眼的數字。",
+      "tips": [
+        "展示 6 個月內穩定的餘額 — 申請前幾天才存入的一大筆錢會顯得可疑。",
+        "將銀行對帳單和 Bank Solvency Certificate 與你的工作或營業證明搭配在一起；合在一起才能講出可信的故事。",
+        "有人資助？請附上資助人的銀行對帳單、簽名的資助信，以及你們關係的證明。"
+      ]
+    },
+    "pitfalls": {
+      "title": "導致拒簽與延誤的錯誤",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "省略附條碼的 e-Form",
+          "d": "每位申請人都必須在 visa.go.kr 填寫 e-Form 並遞交列印的附條碼表格。舊的紙本表格會被退回。"
+        },
+        {
+          "icon": "🏦",
+          "t": "沒有 Bank Solvency Certificate",
+          "d": "孟加拉申請人通常需要在 6 個月對帳單之外再附一份償付能力證明。請勿遺漏。"
+        },
+        {
+          "icon": "🎫",
+          "t": "過早購買機票",
+          "d": "在獲批前購買不可退款的機票。文件中有訂位即可。"
+        },
+        {
+          "icon": "🌐",
+          "t": "在假冒的「簽證」網站上申請",
+          "d": "只有 visa.go.kr（表格）和 Dhaka 的官方韓國大使館辦理韓國簽證 — 請忽略那些額外收費的仿冒網站。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "照片不合格",
+          "d": "尺寸不對、彩色背景、戴眼鏡或舊照片。請使用新拍的 3.5 × 4.5 cm 白底照片。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "孟加拉 → 韓國 簽證常見問題",
+      "items": [
+        {
+          "q": "孟加拉公民去韓國需要簽證嗎？",
+          "a": "需要 — 旅遊須提前申請 C-3-9 短期旅遊簽證。孟加拉護照不能免簽，也不在 K-ETA 名單內。"
+        },
+        {
+          "q": "我要在哪裡申請？",
+          "a": "在 Korea Visa Portal（visa.go.kr）填寫 e-Form，並親自將列印的附條碼表格遞交至 Dhaka 的韓國大使館（4 Madani Avenue, Baridhara）。"
+        },
+        {
+          "q": "什麼是 e-Form？",
+          "a": "自 2026 年起，每位申請人都必須在 visa.go.kr 填寫線上 e-Form 並列印 — 列印本上有供大使館掃描的條碼。手寫的舊表格不予受理。"
+        },
+        {
+          "q": "需要多久？",
+          "a": "通常約 10–15 個工作天，旺季或被要求面談、補件時會更久。請在行程前盡早申請。"
+        },
+        {
+          "q": "費用是多少？",
+          "a": "單次入境短期簽證約 US$40；兩次入境約 US$70，多次入境約 US$90。金額會變動 — 請向大使館確認目前費用。"
+        },
+        {
+          "q": "什麼是 Bank Solvency Certificate？",
+          "a": "由你的銀行開立、確認你有償付能力的證明信。孟加拉申請人通常需要在 6 個月銀行對帳單之外再提交這份證明。"
+        },
+        {
+          "q": "我可以申請多次入境簽證嗎？",
+          "a": "兩次和多次入境簽證須支付更高費用，但資格視情況而定。請向大使館洽詢孟加拉的現行規定。"
+        },
+        {
+          "q": "拿到簽證後還需要 e-Arrival Card 嗎？",
+          "a": "入境時可能仍需 e-Arrival Card。請在接近出行日期時於官方網站核對入境文件規定。"
+        }
+      ]
+    }
+  },
+  "vi": {
+    "kicker": "Hướng dẫn visa · Bangladesh → Hàn Quốc",
+    "readingTime": "Đọc trong 8 phút",
+    "h1": "Visa Hàn Quốc từ Bangladesh",
+    "metaTitle": "Visa từ Bangladesh đi Hàn Quốc: Bạn có cần không? (2026) — Korea Trip Hub",
+    "metaDesc": "Có — người mang hộ chiếu Bangladesh cần visa để vào Hàn Quốc (C-3-9 du lịch ngắn hạn, tối đa 90 ngày). Điền e-Form có mã vạch trên visa.go.kr và nộp trực tiếp tại Đại sứ quán Hàn Quốc ở Dhaka: giấy tờ, lệ phí và thời gian xử lý.",
+    "ui": {
+      "visa": "Loại visa",
+      "stay": "Thời gian lưu trú",
+      "entry": "Nhập cảnh",
+      "where": "Lấy ở đâu",
+      "official": "Nguồn chính thức",
+      "required": "Bắt buộc",
+      "conditional": "Nếu áp dụng",
+      "recommended": "Khuyến nghị",
+      "confirm": "Lệ phí/quy định có thể thay đổi — hãy xác nhận tại nguồn",
+      "source": "Nguồn",
+      "updated": "Cập nhật",
+      "tldr": "Tóm tắt"
+    },
+    "verdict": {
+      "headline": "Có — người mang hộ chiếu Bangladesh cần visa.",
+      "sub": "Bạn sẽ xin visa du lịch ngắn hạn C-3-9 (nhập cảnh một lần, lưu trú tối đa 90 ngày). Điền e-Form trên visa.go.kr, in tờ khai có mã vạch, rồi nộp trực tiếp tại Đại sứ quán Hàn Quốc ở Dhaka. K-ETA/miễn thị thực KHÔNG áp dụng cho hộ chiếu Bangladesh.",
+      "type": "C-3-9 Du lịch ngắn hạn",
+      "stay": "Tối đa 90 ngày",
+      "entry": "Nhập cảnh một lần (có thể xin hai lần / nhiều lần với lệ phí cao hơn)"
+    },
+    "tldr": [
+      "Điền e-Form trên visa.go.kr (cổng chính thức DUY NHẤT), rồi IN tờ khai có mã vạch — từ năm 2026 mọi người nộp đơn đều phải nộp e-Form.",
+      "Nộp trực tiếp tại Đại sứ quán Hàn Quốc ở Dhaka (4 Madani Avenue, Baridhara), Chủ Nhật–Thứ Năm 09:00–12:30.",
+      "Mang theo hộ chiếu, ảnh 3.5 × 4.5 cm, đặt chỗ vé máy bay + khách sạn, sao kê ngân hàng 6 tháng VÀ Bank Solvency Certificate.",
+      "Lệ phí ≈ US$40 nhập cảnh một lần (US$70 hai lần / US$90 nhiều lần); có kết quả trong khoảng 10–15 ngày làm việc."
+    ],
+    "steps": {
+      "title": "Quy trình nộp đơn, từng bước",
+      "items": [
+        {
+          "n": 1,
+          "title": "Xác định loại visa",
+          "detail": "Đi du lịch thì bạn cần visa thăm ngắn hạn (du lịch) C-3-9. Hãy chuẩn bị đầy đủ danh sách bên dưới trước khi bắt đầu."
+        },
+        {
+          "n": 2,
+          "title": "Điền e-Form trên visa.go.kr",
+          "detail": "Truy cập Korea Visa Portal (visa.go.kr) — trang chính thức duy nhất. Điền e-Form rồi in ra: tờ khai in ra có mã vạch. Từ năm 2026 mọi người nộp đơn đều phải nộp bằng e-Form này. Mỗi người một tờ.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Chuẩn bị giấy tờ",
+          "detail": "Thu thập mọi giấy tờ trong danh sách bên dưới. Chứng minh tài chính yếu hoặc ảnh sai quy cách là nguyên nhân chậm trễ hàng đầu."
+        },
+        {
+          "n": 4,
+          "title": "Nộp tại Đại sứ quán Hàn Quốc, Dhaka",
+          "detail": "Mang e-Form có mã vạch và giấy tờ của bạn đến Đại sứ quán Đại Hàn Dân Quốc, 4 Madani Avenue, Baridhara, Dhaka-1212. Giờ nhận hồ sơ là Chủ Nhật–Thứ Năm, 09:00–12:30.",
+          "link": "https://overseas.mofa.go.kr/bd-en",
+          "linkLabel": "Đại sứ quán Hàn Quốc, Bangladesh"
+        },
+        {
+          "n": 5,
+          "title": "Nộp lệ phí",
+          "detail": "Nộp lệ phí visa — khoảng US$40 cho visa ngắn hạn nhập cảnh một lần (cao hơn nếu hai/nhiều lần)."
+        },
+        {
+          "n": 6,
+          "title": "Theo dõi hồ sơ",
+          "detail": "Theo dõi tình trạng theo hướng dẫn. Đừng đặt vé máy bay không hoàn tiền cho đến khi được chấp thuận; bạn có thể được yêu cầu bổ sung giấy tờ hoặc phỏng vấn."
+        },
+        {
+          "n": 7,
+          "title": "Nhận lại hộ chiếu",
+          "detail": "Nhận theo hướng dẫn và kiểm tra thông tin trên tem visa (tên, ngày, loại nhập cảnh) ngay khi nhận."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Danh sách giấy tờ — kèm nơi lấy và cách lấy từng loại",
+      "intro": "Đây là phần mà mọi trang khác đều bỏ qua. Với mỗi giấy tờ, đây là chính xác nơi bạn lấy và nó phải thể hiện điều gì.",
+      "cols": [
+        "Giấy tờ",
+        "Lấy ở đâu",
+        "Phải thể hiện điều gì"
+      ],
+      "rows": [
+        {
+          "doc": "Hộ chiếu",
+          "req": "required",
+          "where": "Bạn đã có",
+          "how": "Còn hạn 6+ tháng sau chuyến đi, còn ít nhất 2 trang trống. Mang theo cả hộ chiếu cũ nếu có."
+        },
+        {
+          "doc": "e-Form (có mã vạch), đã in",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Điền e-Form trên Korea Visa Portal và in ra — bản in có mã vạch. Mọi người nộp đơn đều phải dùng e-Form.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Ảnh — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "Bất kỳ tiệm chụp ảnh nào",
+          "how": "Màu tự nhiên, nền trắng trơn, chụp trong vòng 6 tháng gần đây, thấy rõ toàn khuôn mặt, không đeo kính hay đội mũ."
+        },
+        {
+          "doc": "Đặt chỗ vé máy bay khứ hồi",
+          "req": "required",
+          "where": "Hãng bay / đại lý du lịch",
+          "how": "Một đặt chỗ/lịch trình đã xác nhận là đủ — ĐỪNG mua vé đã trả tiền trước khi visa được chấp thuận."
+        },
+        {
+          "doc": "Chứng minh chỗ ở",
+          "req": "required",
+          "where": "Trang đặt phòng khách sạn",
+          "how": "Đặt phòng khách sạn đã xác nhận bao trọn thời gian lưu trú. Ở nhờ nhà ai đó? Bổ sung thư mời + bản sao ID/ARC của chủ nhà."
+        },
+        {
+          "doc": "Sao kê ngân hàng — 6 tháng gần nhất",
+          "req": "required",
+          "where": "Ngân hàng của bạn",
+          "how": "Sao kê cá nhân 6 tháng có đóng dấu ngân hàng. Số dư ổn định thuyết phục hơn nhiều so với một khoản gửi vào đột ngột."
+        },
+        {
+          "doc": "Bank Solvency Certificate",
+          "req": "required",
+          "where": "Ngân hàng của bạn",
+          "how": "Giấy chứng nhận khả năng thanh toán từ ngân hàng — một giấy tờ đặc thù của Bangladesh, thường được yêu cầu kèm theo sao kê."
+        },
+        {
+          "doc": "Chứng minh việc làm / kinh doanh",
+          "req": "required",
+          "where": "Nơi làm việc / cơ quan đăng ký kinh doanh",
+          "how": "Người đi làm: giấy xác nhận công tác + đơn xin nghỉ phép. Chủ doanh nghiệp: giấy phép kinh doanh (trong vòng một năm gần đây). Kèm giấy chứng nhận thuế thu nhập nếu có."
+        }
+      ],
+      "legend": {
+        "required": "Bắt buộc",
+        "conditional": "Nếu áp dụng với bạn",
+        "recommended": "Khuyến nghị"
+      }
+    },
+    "funds": {
+      "title": "\"Tôi cần bao nhiêu số dư ngân hàng?\"",
+      "body": "Không có một mức tối thiểu chính thức duy nhất nào được công bố cho visa du lịch. Điều quan trọng là chứng minh bạn có thể thoải mái chi trả cho cả chuyến đi và có lý do để trở về Bangladesh. Cán bộ xét duyệt nhìn vào sự ổn định, không chỉ một con số nổi bật.",
+      "tips": [
+        "Cho thấy số dư nhất quán trong 6 tháng — một khoản gửi lớn thực hiện vài ngày trước khi nộp trông sẽ yếu.",
+        "Kết hợp sao kê ngân hàng và Bank Solvency Certificate với chứng minh công việc hoặc kinh doanh của bạn; đi cùng nhau, chúng kể một câu chuyện đáng tin.",
+        "Được người khác bảo trợ? Bổ sung sao kê ngân hàng của người bảo trợ, thư bảo trợ có chữ ký, và bằng chứng về mối quan hệ của bạn."
+      ]
+    },
+    "pitfalls": {
+      "title": "Những sai lầm gây từ chối và chậm trễ",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "Bỏ qua e-Form có mã vạch",
+          "d": "Mọi người nộp đơn đều phải điền e-Form trên visa.go.kr và nộp tờ khai có mã vạch đã in. Tờ khai giấy kiểu cũ sẽ bị từ chối."
+        },
+        {
+          "icon": "🏦",
+          "t": "Không có Bank Solvency Certificate",
+          "d": "Người nộp đơn ở Bangladesh thường được yêu cầu bổ sung giấy chứng nhận khả năng thanh toán bên cạnh sao kê 6 tháng. Đừng bỏ sót."
+        },
+        {
+          "icon": "🎫",
+          "t": "Mua vé máy bay quá sớm",
+          "d": "Trả tiền vé không hoàn lại trước khi được chấp thuận. Một đặt chỗ là đủ cho hồ sơ."
+        },
+        {
+          "icon": "🌐",
+          "t": "Nộp đơn trên trang 'visa' giả",
+          "d": "Chỉ visa.go.kr (mẫu đơn) và Đại sứ quán Hàn Quốc chính thức ở Dhaka xử lý visa Hàn Quốc — hãy bỏ qua những trang nhái thu thêm phí."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Ảnh không đạt",
+          "d": "Sai kích thước, nền màu, đeo kính hoặc ảnh cũ. Hãy dùng ảnh mới 3.5 × 4.5 cm nền trắng."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về visa Bangladesh → Hàn Quốc",
+      "items": [
+        {
+          "q": "Công dân Bangladesh có cần visa đi Hàn Quốc không?",
+          "a": "Có — đi du lịch thì bạn xin trước visa du lịch ngắn hạn C-3-9. Hộ chiếu Bangladesh không được miễn thị thực và không nằm trong danh sách K-ETA."
+        },
+        {
+          "q": "Tôi nộp đơn ở đâu?",
+          "a": "Bạn điền e-Form trên Korea Visa Portal (visa.go.kr) và nộp trực tiếp tờ khai có mã vạch đã in tại Đại sứ quán Hàn Quốc ở Dhaka (4 Madani Avenue, Baridhara)."
+        },
+        {
+          "q": "e-Form là gì?",
+          "a": "Từ năm 2026, mọi người nộp đơn đều phải hoàn thành e-Form trực tuyến trên visa.go.kr và in ra — bản in có mã vạch để đại sứ quán quét. Tờ khai cũ viết tay không được chấp nhận."
+        },
+        {
+          "q": "Mất bao lâu?",
+          "a": "Thường khoảng 10–15 ngày làm việc, và lâu hơn vào mùa cao điểm hoặc nếu bạn bị gọi phỏng vấn hay yêu cầu bổ sung giấy tờ. Hãy nộp sớm trước chuyến đi."
+        },
+        {
+          "q": "Chi phí bao nhiêu?",
+          "a": "Khoảng US$40 cho visa ngắn hạn nhập cảnh một lần; khoảng US$70 cho hai lần và US$90 cho nhiều lần. Số tiền có thể thay đổi — hãy xác nhận lệ phí hiện hành tại đại sứ quán."
+        },
+        {
+          "q": "Bank Solvency Certificate là gì?",
+          "a": "Một thư từ ngân hàng xác nhận bạn có khả năng thanh toán về tài chính. Người nộp đơn ở Bangladesh thường được yêu cầu nộp nó cùng với sao kê ngân hàng 6 tháng."
+        },
+        {
+          "q": "Tôi có thể xin visa nhập cảnh nhiều lần không?",
+          "a": "Visa hai lần và nhiều lần có với lệ phí cao hơn, nhưng điều kiện xét duyệt khác nhau. Hãy hỏi đại sứ quán về quy định hiện hành cho Bangladesh."
+        },
+        {
+          "q": "Sau khi có visa tôi có còn cần e-Arrival Card không?",
+          "a": "Yêu cầu về e-Arrival Card vẫn có thể áp dụng khi nhập cảnh. Hãy kiểm tra quy định về giấy tờ nhập cảnh trên các trang chính thức gần ngày đi."
+        }
+      ]
+    }
+  },
+  "th": {
+    "kicker": "คู่มือวีซ่า · บังกลาเทศ → เกาหลี",
+    "readingTime": "อ่าน 8 นาที",
+    "h1": "วีซ่าเกาหลีจากบังกลาเทศ",
+    "metaTitle": "วีซ่าเข้าเกาหลีจากบังกลาเทศ: ต้องใช้ไหม? (2026) — Korea Trip Hub",
+    "metaDesc": "ใช่ — ผู้ถือหนังสือเดินทางบังกลาเทศต้องใช้วีซ่าเข้าเกาหลีใต้ (C-3-9 ท่องเที่ยวระยะสั้น สูงสุด 90 วัน) กรอก e-Form ที่มีบาร์โค้ดที่ visa.go.kr แล้วยื่นที่สถานเอกอัครราชทูตเกาหลีใน Dhaka: เอกสาร ค่าธรรมเนียม และระยะเวลาดำเนินการ",
+    "ui": {
+      "visa": "ประเภทวีซ่า",
+      "stay": "ระยะเวลาพำนัก",
+      "entry": "การเข้าเมือง",
+      "where": "ขอได้ที่ไหน",
+      "official": "แหล่งข้อมูลทางการ",
+      "required": "จำเป็น",
+      "conditional": "หากเข้าข่าย",
+      "recommended": "แนะนำ",
+      "confirm": "ค่าธรรมเนียม/กฎอาจเปลี่ยนแปลง — โปรดตรวจสอบจากแหล่งข้อมูล",
+      "source": "แหล่งที่มา",
+      "updated": "อัปเดตเมื่อ",
+      "tldr": "สรุป"
+    },
+    "verdict": {
+      "headline": "ใช่ — ผู้ถือหนังสือเดินทางบังกลาเทศต้องมีวีซ่า",
+      "sub": "คุณจะยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3-9 (เข้าออกครั้งเดียว พำนักได้สูงสุด 90 วัน) กรอก e-Form ที่ visa.go.kr พิมพ์แบบฟอร์มที่มีบาร์โค้ด แล้วยื่นด้วยตนเองที่สถานเอกอัครราชทูตเกาหลีใน Dhaka การเข้าเมืองแบบ K-ETA/ยกเว้นวีซ่าไม่ใช้กับหนังสือเดินทางบังกลาเทศ",
+      "type": "C-3-9 ท่องเที่ยวระยะสั้น",
+      "stay": "สูงสุด 90 วัน",
+      "entry": "เข้าออกครั้งเดียว (ขอแบบสองครั้ง/หลายครั้งได้โดยเสียค่าธรรมเนียมสูงขึ้น)"
+    },
+    "tldr": [
+      "กรอก e-Form ที่ visa.go.kr (พอร์ทัลทางการเพียงแห่งเดียว) แล้วพิมพ์แบบฟอร์มที่มีบาร์โค้ดออกมา — ตั้งแต่ปี 2026 ผู้ยื่นทุกคนต้องยื่น e-Form",
+      "ยื่นด้วยตนเองที่สถานเอกอัครราชทูตเกาหลีใน Dhaka (4 Madani Avenue, Baridhara) วันอาทิตย์–พฤหัสบดี 09:00–12:30",
+      "นำหนังสือเดินทาง รูปถ่าย 3.5 × 4.5 cm การจองเที่ยวบิน + โรงแรม รายการเดินบัญชีธนาคาร 6 เดือน และ Bank Solvency Certificate ไปด้วย",
+      "ค่าธรรมเนียม ≈ US$40 สำหรับเข้าออกครั้งเดียว (สองครั้ง US$70 / หลายครั้ง US$90); ทราบผลภายในประมาณ 10–15 วันทำการ"
+    ],
+    "steps": {
+      "title": "การยื่นคำร้อง ทีละขั้นตอน",
+      "items": [
+        {
+          "n": 1,
+          "title": "ยืนยันประเภทวีซ่า",
+          "detail": "สำหรับการท่องเที่ยว คุณต้องใช้วีซ่าเยือนระยะสั้น (ท่องเที่ยว) C-3-9 รวบรวมรายการตรวจสอบด้านล่างก่อนเริ่ม"
+        },
+        {
+          "n": 2,
+          "title": "กรอก e-Form ที่ visa.go.kr",
+          "detail": "ไปที่ Korea Visa Portal (visa.go.kr) — เว็บไซต์ทางการเพียงแห่งเดียว กรอก e-Form แล้วพิมพ์ออกมา: แบบฟอร์มที่พิมพ์จะมีบาร์โค้ด ตั้งแต่ปี 2026 ผู้ยื่นทุกคนต้องยื่นด้วย e-Form นี้ หนึ่งแบบฟอร์มต่อผู้ยื่นหนึ่งคน",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "เตรียมเอกสารของคุณ",
+          "detail": "รวบรวมเอกสารทุกอย่างในรายการตรวจสอบด้านล่าง หลักฐานการเงินที่อ่อนหรือรูปถ่ายผิดรูปแบบเป็นสาเหตุอันดับต้น ๆ ของความล่าช้า"
+        },
+        {
+          "n": 4,
+          "title": "ยื่นที่สถานเอกอัครราชทูตเกาหลี Dhaka",
+          "detail": "นำ e-Form ที่มีบาร์โค้ดและเอกสารของคุณไปที่สถานเอกอัครราชทูตสาธารณรัฐเกาหลี 4 Madani Avenue, Baridhara, Dhaka-1212 เวลารับยื่นคือวันอาทิตย์–พฤหัสบดี 09:00–12:30",
+          "link": "https://overseas.mofa.go.kr/bd-en",
+          "linkLabel": "สถานเอกอัครราชทูตเกาหลี บังกลาเทศ"
+        },
+        {
+          "n": 5,
+          "title": "ชำระค่าธรรมเนียม",
+          "detail": "ชำระค่าธรรมเนียมวีซ่า — ประมาณ US$40 สำหรับวีซ่าระยะสั้นเข้าออกครั้งเดียว (สูงกว่านั้นสำหรับสองครั้ง/หลายครั้ง)"
+        },
+        {
+          "n": 6,
+          "title": "ติดตามคำร้องของคุณ",
+          "detail": "ติดตามสถานะตามคำแนะนำ อย่าจองเที่ยวบินที่คืนเงินไม่ได้จนกว่าจะได้รับอนุมัติ คุณอาจถูกขอเอกสารเพิ่มเติมหรือให้สัมภาษณ์"
+        },
+        {
+          "n": 7,
+          "title": "รับหนังสือเดินทางของคุณ",
+          "detail": "รับตามคำแนะนำและตรวจสอบรายละเอียดสติกเกอร์วีซ่า (ชื่อ วันที่ ประเภทการเข้าเมือง) ทันทีที่ได้รับ"
+        }
+      ]
+    },
+    "documents": {
+      "title": "รายการตรวจสอบเอกสาร — พร้อมบอกว่าขอแต่ละอย่างได้ที่ไหนและอย่างไร",
+      "intro": "นี่คือส่วนที่เว็บไซต์อื่นทุกแห่งข้ามไป สำหรับเอกสารแต่ละอย่าง นี่คือที่ที่คุณขอได้และสิ่งที่ต้องปรากฏในเอกสารนั้นอย่างชัดเจน",
+      "cols": [
+        "เอกสาร",
+        "ขอได้ที่ไหน",
+        "ต้องแสดงอะไร"
+      ],
+      "rows": [
+        {
+          "doc": "หนังสือเดินทาง",
+          "req": "required",
+          "where": "คุณมีอยู่แล้ว",
+          "how": "มีอายุเหลือ 6+ เดือนหลังการเดินทาง มีหน้าว่างอย่างน้อย 2 หน้า นำหนังสือเดินทางเล่มเก่ามาด้วยหากมี"
+        },
+        {
+          "doc": "e-Form (มีบาร์โค้ด) ที่พิมพ์แล้ว",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "กรอก e-Form ที่ Korea Visa Portal แล้วพิมพ์ออกมา — เอกสารที่พิมพ์มีบาร์โค้ด ผู้ยื่นทุกคนต้องใช้ e-Form",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "รูปถ่าย — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "ร้านถ่ายรูปใดก็ได้",
+          "how": "สีธรรมชาติ พื้นหลังสีขาวล้วน ถ่ายภายใน 6 เดือนที่ผ่านมา เห็นใบหน้าเต็ม ไม่สวมแว่นตาหรือเครื่องปกคลุมศีรษะ"
+        },
+        {
+          "doc": "การจองเที่ยวบินไป-กลับ",
+          "req": "required",
+          "where": "สายการบิน / ตัวแทนท่องเที่ยว",
+          "how": "การจอง/กำหนดการที่ยืนยันแล้วก็เพียงพอ — อย่าซื้อตั๋วที่จ่ายเงินแล้วก่อนวีซ่าได้รับอนุมัติ"
+        },
+        {
+          "doc": "หลักฐานที่พัก",
+          "req": "required",
+          "where": "เว็บไซต์จองโรงแรม",
+          "how": "การจองโรงแรมที่ยืนยันแล้วครอบคลุมช่วงพำนักของคุณ พักกับใครสักคน? เพิ่มจดหมายเชิญ + สำเนาบัตรประจำตัว/ARC ของเจ้าบ้าน"
+        },
+        {
+          "doc": "รายการเดินบัญชีธนาคาร — 6 เดือนล่าสุด",
+          "req": "required",
+          "where": "ธนาคารของคุณ",
+          "how": "รายการเดินบัญชีส่วนบุคคล 6 เดือนที่มีตราประทับของธนาคาร ยอดคงเหลือที่สม่ำเสมอน่าเชื่อถือกว่าการฝากเงินก้อนโตแบบกะทันหันมาก"
+        },
+        {
+          "doc": "Bank Solvency Certificate",
+          "req": "required",
+          "where": "ธนาคารของคุณ",
+          "how": "หนังสือรับรองความสามารถในการชำระหนี้จากธนาคารของคุณ — เอกสารเฉพาะของบังกลาเทศที่มักถูกขอควบคู่กับรายการเดินบัญชี"
+        },
+        {
+          "doc": "หลักฐานการจ้างงาน / ธุรกิจ",
+          "req": "required",
+          "where": "นายจ้าง / สำนักงานทะเบียนการค้า",
+          "how": "ลูกจ้าง: หนังสือรับรองการทำงาน + จดหมายลา เจ้าของธุรกิจ: ใบอนุญาตประกอบการค้า (ภายในปีที่ผ่านมา) แนบหนังสือรับรองภาษีเงินได้หากมี"
+        }
+      ],
+      "legend": {
+        "required": "จำเป็น",
+        "conditional": "หากเข้าข่ายกับคุณ",
+        "recommended": "แนะนำ"
+      }
+    },
+    "funds": {
+      "title": "\"ต้องมียอดเงินในธนาคารเท่าไร?\"",
+      "body": "ไม่มีจำนวนขั้นต่ำอย่างเป็นทางการเพียงตัวเดียวที่ประกาศไว้สำหรับวีซ่าท่องเที่ยว สิ่งที่สำคัญคือการพิสูจน์ว่าคุณสามารถออกค่าใช้จ่ายตลอดการเดินทางได้อย่างสบาย ๆ และมีเหตุผลที่จะกลับบังกลาเทศ เจ้าหน้าที่พิจารณาความมั่นคง ไม่ใช่แค่ตัวเลขที่ดูดี",
+      "tips": [
+        "แสดงยอดคงเหลือที่สม่ำเสมอตลอด 6 เดือน — การฝากเงินก้อนใหญ่ไม่กี่วันก่อนยื่นดูอ่อน",
+        "จับคู่รายการเดินบัญชีธนาคารและ Bank Solvency Certificate กับหลักฐานการงานหรือธุรกิจของคุณ เมื่อรวมกันจะเล่าเรื่องที่น่าเชื่อถือ",
+        "มีผู้สนับสนุน? เพิ่มรายการเดินบัญชีธนาคารของผู้สนับสนุน จดหมายสนับสนุนที่ลงนาม และหลักฐานความสัมพันธ์ของคุณ"
+      ]
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดที่ทำให้ถูกปฏิเสธและล่าช้า",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "ข้าม e-Form ที่มีบาร์โค้ด",
+          "d": "ผู้ยื่นทุกคนต้องกรอก e-Form ที่ visa.go.kr และยื่นแบบฟอร์มที่พิมพ์ซึ่งมีบาร์โค้ด แบบฟอร์มกระดาษแบบเก่าจะไม่ได้รับการรับ"
+        },
+        {
+          "icon": "🏦",
+          "t": "ไม่มี Bank Solvency Certificate",
+          "d": "ผู้ยื่นในบังกลาเทศมักถูกคาดหวังให้เพิ่มหนังสือรับรองความสามารถในการชำระหนี้นอกเหนือจากรายการเดินบัญชี 6 เดือน อย่าละไว้"
+        },
+        {
+          "icon": "🎫",
+          "t": "ซื้อตั๋วเครื่องบินเร็วเกินไป",
+          "d": "จ่ายค่าตั๋วที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ การจองก็เพียงพอสำหรับแฟ้ม"
+        },
+        {
+          "icon": "🌐",
+          "t": "ยื่นบนเว็บ 'วีซ่า' ปลอม",
+          "d": "มีเพียง visa.go.kr (แบบฟอร์ม) และสถานเอกอัครราชทูตเกาหลีอย่างเป็นทางการใน Dhaka เท่านั้นที่ดำเนินการวีซ่าเกาหลี — เพิกเฉยต่อเว็บเลียนแบบที่เก็บเงินเพิ่ม"
+        },
+        {
+          "icon": "🖼️",
+          "t": "รูปถ่ายไม่ดี",
+          "d": "ขนาดผิด พื้นหลังมีสี ใส่แว่นตา หรือรูปเก่า ใช้รูปใหม่ 3.5 × 4.5 cm พื้นหลังสีขาว"
+        }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเกี่ยวกับวีซ่า บังกลาเทศ → เกาหลี",
+      "items": [
+        {
+          "q": "พลเมืองบังกลาเทศต้องใช้วีซ่าเข้าเกาหลีไหม?",
+          "a": "ใช่ — สำหรับการท่องเที่ยว คุณต้องยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3-9 ล่วงหน้า หนังสือเดินทางบังกลาเทศไม่ได้รับการยกเว้นวีซ่าและไม่อยู่ในรายชื่อ K-ETA"
+        },
+        {
+          "q": "ยื่นขอได้ที่ไหน?",
+          "a": "คุณกรอก e-Form ที่ Korea Visa Portal (visa.go.kr) และยื่นแบบฟอร์มที่พิมพ์ซึ่งมีบาร์โค้ดด้วยตนเองที่สถานเอกอัครราชทูตเกาหลีใน Dhaka (4 Madani Avenue, Baridhara)"
+        },
+        {
+          "q": "e-Form คืออะไร?",
+          "a": "ตั้งแต่ปี 2026 ผู้ยื่นทุกคนต้องกรอก e-Form ออนไลน์ที่ visa.go.kr และพิมพ์ออกมา — เอกสารที่พิมพ์มีบาร์โค้ดที่สถานทูตจะสแกน แบบฟอร์มเก่าที่เขียนด้วยมือจะไม่ได้รับการยอมรับ"
+        },
+        {
+          "q": "ใช้เวลานานแค่ไหน?",
+          "a": "โดยทั่วไปประมาณ 10–15 วันทำการ และนานกว่านั้นในช่วงฤดูท่องเที่ยวหรือหากคุณถูกเรียกสัมภาษณ์หรือขอเอกสารเพิ่มเติม ยื่นล่วงหน้าก่อนการเดินทางของคุณมาก ๆ"
+        },
+        {
+          "q": "ค่าใช้จ่ายเท่าไร?",
+          "a": "ประมาณ US$40 สำหรับวีซ่าระยะสั้นเข้าออกครั้งเดียว; ประมาณ US$70 สำหรับสองครั้ง และ US$90 สำหรับหลายครั้ง จำนวนเงินเปลี่ยนแปลงได้ — ยืนยันค่าธรรมเนียมปัจจุบันที่สถานทูต"
+        },
+        {
+          "q": "Bank Solvency Certificate คืออะไร?",
+          "a": "จดหมายจากธนาคารของคุณที่ยืนยันว่าคุณมีความสามารถในการชำระหนี้ทางการเงิน ผู้ยื่นในบังกลาเทศมักถูกคาดหวังให้ยื่นเอกสารนี้เพิ่มเติมจากรายการเดินบัญชีธนาคาร 6 เดือน"
+        },
+        {
+          "q": "ขอวีซ่าเข้าออกหลายครั้งได้ไหม?",
+          "a": "วีซ่าเข้าออกสองครั้งและหลายครั้งมีให้โดยเสียค่าธรรมเนียมสูงขึ้น แต่คุณสมบัติแตกต่างกันไป สอบถามที่สถานทูตเกี่ยวกับกฎปัจจุบันสำหรับบังกลาเทศ"
+        },
+        {
+          "q": "หลังจากได้วีซ่าแล้วยังต้องใช้ e-Arrival Card ไหม?",
+          "a": "ข้อกำหนด e-Arrival Card ยังอาจใช้เมื่อเข้าเมือง ตรวจสอบกฎเอกสารการเข้าเมืองบนเว็บไซต์ทางการเมื่อใกล้วันเดินทางของคุณ"
+        }
+      ]
+    }
+  },
+  "id": {
+    "kicker": "Panduan visa · Bangladesh → Korea",
+    "readingTime": "Baca 8 menit",
+    "h1": "Visa Korea dari Bangladesh",
+    "metaTitle": "Visa dari Bangladesh ke Korea: Apakah Anda Membutuhkannya? (2026) — Korea Trip Hub",
+    "metaDesc": "Ya — pemegang paspor Bangladesh memerlukan visa untuk Korea Selatan (C-3-9 turis jangka pendek, hingga 90 hari). Isi e-Form berbarcode di visa.go.kr dan ajukan di Kedutaan Besar Korea di Dhaka: dokumen, biaya, dan waktu pemrosesan.",
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Masa tinggal",
+      "entry": "Masuk",
+      "where": "Tempat mendapatkannya",
+      "official": "Sumber resmi",
+      "required": "Wajib",
+      "conditional": "Jika berlaku",
+      "recommended": "Disarankan",
+      "confirm": "Biaya/aturan dapat berubah — konfirmasi di sumbernya",
+      "source": "Sumber",
+      "updated": "Diperbarui",
+      "tldr": "Ringkasan"
+    },
+    "verdict": {
+      "headline": "Ya — pemegang paspor Bangladesh memerlukan visa.",
+      "sub": "Anda akan mengajukan visa turis jangka pendek C-3-9 (sekali masuk, tinggal hingga 90 hari). Isi e-Form di visa.go.kr, cetak formulir berbarcode, lalu ajukan secara langsung di Kedutaan Besar Korea di Dhaka. Masuk dengan K-ETA/bebas visa TIDAK berlaku untuk paspor Bangladesh.",
+      "type": "C-3-9 Turis Jangka Pendek",
+      "stay": "Hingga 90 hari",
+      "entry": "Sekali masuk (dua kali / beberapa kali dimungkinkan dengan biaya lebih tinggi)"
+    },
+    "tldr": [
+      "Isi e-Form di visa.go.kr (SATU-SATUNYA portal resmi), lalu CETAK formulir berbarcode — sejak 2026 setiap pemohon wajib mengajukan e-Form.",
+      "Ajukan secara langsung di Kedutaan Besar Korea di Dhaka (4 Madani Avenue, Baridhara), Minggu–Kamis 09:00–12:30.",
+      "Bawa paspor, foto 3.5 × 4.5 cm, reservasi penerbangan + hotel, rekening koran 6 bulan, DAN Bank Solvency Certificate.",
+      "Biaya ≈ US$40 sekali masuk (US$70 dua kali / US$90 beberapa kali); hasil dalam sekitar 10–15 hari kerja."
+    ],
+    "steps": {
+      "title": "Proses pengajuan, langkah demi langkah",
+      "items": [
+        {
+          "n": 1,
+          "title": "Pastikan jenis visanya",
+          "detail": "Untuk berwisata Anda memerlukan visa kunjungan jangka pendek (turis) C-3-9. Kumpulkan daftar periksa di bawah sebelum mulai."
+        },
+        {
+          "n": 2,
+          "title": "Isi e-Form di visa.go.kr",
+          "detail": "Buka Korea Visa Portal (visa.go.kr) — satu-satunya situs resmi. Lengkapi e-Form, lalu cetak: formulir yang dicetak memuat barcode. Sejak 2026 semua pemohon wajib mengajukan dengan e-Form ini. Satu per pemohon.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Siapkan dokumen Anda",
+          "detail": "Kumpulkan setiap dokumen dalam daftar periksa di bawah. Bukti keuangan yang lemah atau foto berformat salah adalah penyebab utama keterlambatan."
+        },
+        {
+          "n": 4,
+          "title": "Ajukan di Kedutaan Besar Korea, Dhaka",
+          "detail": "Bawa e-Form berbarcode dan dokumen Anda ke Kedutaan Besar Republik Korea, 4 Madani Avenue, Baridhara, Dhaka-1212. Jam pengajuan Minggu–Kamis, 09:00–12:30.",
+          "link": "https://overseas.mofa.go.kr/bd-en",
+          "linkLabel": "Kedutaan Besar Korea, Bangladesh"
+        },
+        {
+          "n": 5,
+          "title": "Bayar biayanya",
+          "detail": "Bayar biaya visa — sekitar US$40 untuk visa jangka pendek sekali masuk (lebih tinggi untuk dua kali/beberapa kali masuk)."
+        },
+        {
+          "n": 6,
+          "title": "Pantau pengajuan Anda",
+          "detail": "Ikuti statusnya sesuai petunjuk. Jangan pesan penerbangan yang tidak bisa dikembalikan sampai disetujui; Anda mungkin diminta dokumen tambahan atau wawancara."
+        },
+        {
+          "n": 7,
+          "title": "Ambil paspor Anda",
+          "detail": "Ambil sesuai petunjuk dan periksa detail stiker visa (nama, tanggal, jenis masuk) begitu Anda menerimanya."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Daftar periksa dokumen — lengkap dengan di mana & bagaimana mendapatkan masing-masing",
+      "intro": "Ini bagian yang dilewatkan setiap situs lain. Untuk tiap dokumen, inilah tepatnya di mana Anda memperolehnya dan apa yang harus tertera.",
+      "cols": [
+        "Dokumen",
+        "Di mana mendapatkannya",
+        "Apa yang harus tertera"
+      ],
+      "rows": [
+        {
+          "doc": "Paspor",
+          "req": "required",
+          "where": "Sudah Anda miliki",
+          "how": "Berlaku 6+ bulan setelah perjalanan Anda, dengan minimal 2 halaman kosong. Bawa juga paspor lama jika ada."
+        },
+        {
+          "doc": "e-Form (berbarcode), tercetak",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapi e-Form di Korea Visa Portal dan cetak — hasil cetaknya memuat barcode. Setiap pemohon wajib menggunakan e-Form.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "Studio foto mana pun",
+          "how": "Warna alami, latar putih polos, diambil dalam 6 bulan terakhir, wajah penuh, tanpa kacamata atau penutup kepala."
+        },
+        {
+          "doc": "Reservasi penerbangan pulang-pergi",
+          "req": "required",
+          "where": "Maskapai / agen perjalanan",
+          "how": "Reservasi/itinerary yang telah dikonfirmasi sudah cukup — JANGAN membeli tiket berbayar sebelum visa disetujui."
+        },
+        {
+          "doc": "Bukti akomodasi",
+          "req": "required",
+          "where": "Situs pemesanan hotel",
+          "how": "Pemesanan hotel terkonfirmasi yang mencakup masa tinggal Anda. Menginap di tempat seseorang? Tambahkan surat undangan + salinan ID/ARC tuan rumah."
+        },
+        {
+          "doc": "Rekening koran — 6 bulan terakhir",
+          "req": "required",
+          "where": "Bank Anda",
+          "how": "Rekening koran pribadi 6 bulan dengan stempel bank. Saldo yang stabil jauh lebih meyakinkan daripada setoran mendadak."
+        },
+        {
+          "doc": "Bank Solvency Certificate",
+          "req": "required",
+          "where": "Bank Anda",
+          "how": "Surat keterangan solvabilitas dari bank Anda — dokumen khas Bangladesh yang biasanya diminta bersama rekening koran."
+        },
+        {
+          "doc": "Bukti pekerjaan / usaha",
+          "req": "required",
+          "where": "Pemberi kerja / kantor perdagangan",
+          "how": "Karyawan: surat keterangan kerja + surat izin cuti. Pemilik usaha: izin usaha (dalam satu tahun terakhir). Sertakan surat keterangan pajak penghasilan jika ada."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berlaku bagi Anda",
+        "recommended": "Disarankan"
+      }
+    },
+    "funds": {
+      "title": "\"Berapa saldo bank yang saya perlukan?\"",
+      "body": "Tidak ada satu pun jumlah minimum resmi yang dipublikasikan untuk visa turis. Yang penting adalah membuktikan Anda dapat membiayai seluruh perjalanan dengan nyaman dan memiliki alasan untuk kembali ke Bangladesh. Petugas menilai kestabilan, bukan sekadar angka mencolok.",
+      "tips": [
+        "Tunjukkan saldo yang konsisten selama 6 bulan — setoran besar yang dilakukan beberapa hari sebelum mengajukan terlihat lemah.",
+        "Pasangkan rekening koran dan Bank Solvency Certificate dengan bukti pekerjaan atau usaha Anda; bersama-sama keduanya menceritakan kisah yang kredibel.",
+        "Disponsori? Tambahkan rekening koran sponsor, surat sponsor bertanda tangan, dan bukti hubungan Anda."
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesalahan yang menyebabkan penolakan & keterlambatan",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "Melewatkan e-Form berbarcode",
+          "d": "Setiap pemohon wajib mengisi e-Form di visa.go.kr dan mengajukan formulir berbarcode yang telah dicetak. Formulir kertas lama ditolak."
+        },
+        {
+          "icon": "🏦",
+          "t": "Tanpa Bank Solvency Certificate",
+          "d": "Pemohon dari Bangladesh biasanya diminta menambahkan surat keterangan solvabilitas di samping rekening koran 6 bulan. Jangan sampai terlewat."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membeli tiket terlalu dini",
+          "d": "Membayar tiket yang tidak bisa dikembalikan sebelum disetujui. Reservasi sudah cukup untuk berkas."
+        },
+        {
+          "icon": "🌐",
+          "t": "Mengajukan di situs 'visa' palsu",
+          "d": "Hanya visa.go.kr (formulir) dan Kedutaan Besar Korea resmi di Dhaka yang menangani visa Korea — abaikan situs tiruan yang menarik biaya lebih."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Foto buruk",
+          "d": "Ukuran salah, latar berwarna, berkacamata, atau foto lama. Gunakan foto baru 3.5 × 4.5 cm berlatar putih."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ visa Bangladesh → Korea",
+      "items": [
+        {
+          "q": "Apakah warga Bangladesh memerlukan visa untuk Korea?",
+          "a": "Ya — untuk berwisata Anda mengajukan lebih dulu visa turis jangka pendek C-3-9. Paspor Bangladesh tidak bebas visa dan tidak ada dalam daftar K-ETA."
+        },
+        {
+          "q": "Di mana saya mengajukan?",
+          "a": "Anda mengisi e-Form di Korea Visa Portal (visa.go.kr) dan mengajukan formulir berbarcode yang telah dicetak secara langsung di Kedutaan Besar Korea di Dhaka (4 Madani Avenue, Baridhara)."
+        },
+        {
+          "q": "Apa itu e-Form?",
+          "a": "Sejak 2026 setiap pemohon wajib melengkapi e-Form daring di visa.go.kr dan mencetaknya — hasil cetaknya memiliki barcode yang dipindai kedutaan. Formulir lama tulisan tangan tidak diterima."
+        },
+        {
+          "q": "Berapa lama prosesnya?",
+          "a": "Biasanya sekitar 10–15 hari kerja, dan lebih lama pada musim ramai atau jika Anda dipanggil wawancara atau diminta dokumen tambahan. Ajukan jauh sebelum perjalanan Anda."
+        },
+        {
+          "q": "Berapa biayanya?",
+          "a": "Sekitar US$40 untuk visa jangka pendek sekali masuk; sekitar US$70 untuk dua kali masuk dan US$90 untuk beberapa kali masuk. Jumlahnya berubah — konfirmasikan biaya terkini di kedutaan."
+        },
+        {
+          "q": "Apa itu Bank Solvency Certificate?",
+          "a": "Surat dari bank Anda yang menyatakan Anda mampu secara finansial. Pemohon dari Bangladesh biasanya diminta menyerahkannya sebagai tambahan atas rekening koran 6 bulan."
+        },
+        {
+          "q": "Bisakah saya mendapat visa beberapa kali masuk?",
+          "a": "Visa dua kali dan beberapa kali masuk tersedia dengan biaya lebih tinggi, tetapi kelayakan bervariasi. Tanyakan ke kedutaan tentang aturan terkini untuk Bangladesh."
+        },
+        {
+          "q": "Apakah saya masih perlu e-Arrival Card setelah mendapat visa?",
+          "a": "Persyaratan e-Arrival Card masih bisa berlaku saat masuk. Periksa aturan dokumen masuk di situs resmi menjelang tanggal perjalanan Anda."
+        }
+      ]
+    }
+  },
+  "es": {
+    "kicker": "Guía de visado · Bangladés → Corea",
+    "readingTime": "8 min de lectura",
+    "h1": "Visado de Corea desde Bangladés",
+    "metaTitle": "Visado de Bangladés a Corea: ¿necesitas uno? (2026) — Korea Trip Hub",
+    "metaDesc": "Sí — los titulares de pasaporte de Bangladés necesitan visado para Corea del Sur (C-3-9 de turista de corta duración, hasta 90 días). Rellena el e-Form con código de barras en visa.go.kr y preséntalo en la Embajada de Corea en Dhaka: documentos, tasas y tiempo de tramitación.",
+    "ui": {
+      "visa": "Tipo de visado",
+      "stay": "Estancia",
+      "entry": "Entrada",
+      "where": "Dónde conseguirlo",
+      "official": "Fuente oficial",
+      "required": "Obligatorio",
+      "conditional": "Si corresponde",
+      "recommended": "Recomendado",
+      "confirm": "Las tasas/normas pueden cambiar — confírmalo en la fuente",
+      "source": "Fuente",
+      "updated": "Actualizado",
+      "tldr": "Resumen"
+    },
+    "verdict": {
+      "headline": "Sí — los titulares de pasaporte de Bangladés necesitan visado.",
+      "sub": "Solicitarás el visado de turista de corta duración C-3-9 (entrada única, estancia de hasta 90 días). Rellena el e-Form en visa.go.kr, imprime el formulario con código de barras y preséntalo en persona en la Embajada de Corea en Dhaka. La entrada con K-ETA/sin visado NO se aplica a los pasaportes de Bangladés.",
+      "type": "C-3-9 Turista de corta duración",
+      "stay": "Hasta 90 días",
+      "entry": "Entrada única (doble / múltiple posible pagando una tasa mayor)"
+    },
+    "tldr": [
+      "Rellena el e-Form en visa.go.kr (el ÚNICO portal oficial) y luego IMPRIME el formulario con código de barras — desde 2026 todo solicitante debe presentar el e-Form.",
+      "Preséntalo en persona en la Embajada de Corea en Dhaka (4 Madani Avenue, Baridhara), de domingo a jueves de 09:00 a 12:30.",
+      "Lleva el pasaporte, una foto de 3.5 × 4.5 cm, las reservas de vuelo + hotel, un extracto bancario de 6 meses Y un Bank Solvency Certificate.",
+      "Tasa ≈ US$40 entrada única (US$70 doble / US$90 múltiple); resultado en unos 10–15 días hábiles."
+    ],
+    "steps": {
+      "title": "La solicitud, paso a paso",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirma el tipo de visado",
+          "detail": "Para turismo necesitas el visado de visita de corta duración (turista) C-3-9. Reúne la lista de verificación de abajo antes de empezar."
+        },
+        {
+          "n": 2,
+          "title": "Rellena el e-Form en visa.go.kr",
+          "detail": "Ve al Portal de Visados de Corea (visa.go.kr) — el único sitio oficial. Completa el e-Form y luego imprímelo: el formulario impreso lleva un código de barras. Desde 2026 todos los solicitantes deben presentar la solicitud con este e-Form. Uno por solicitante.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Reúne tus documentos",
+          "detail": "Recopila todos los documentos de la lista de abajo. La falta de justificantes económicos o una foto con formato incorrecto son las principales causas de retraso."
+        },
+        {
+          "n": 4,
+          "title": "Preséntalo en la Embajada de Corea, Dhaka",
+          "detail": "Lleva el e-Form con código de barras y tus documentos a la Embajada de la República de Corea, 4 Madani Avenue, Baridhara, Dhaka-1212. El horario de presentación es de domingo a jueves, de 09:00 a 12:30.",
+          "link": "https://overseas.mofa.go.kr/bd-en",
+          "linkLabel": "Embajada de Corea, Bangladés"
+        },
+        {
+          "n": 5,
+          "title": "Paga la tasa",
+          "detail": "Paga la tasa del visado — unos US$40 para un visado de corta duración de entrada única (más para entrada doble/múltiple)."
+        },
+        {
+          "n": 6,
+          "title": "Haz seguimiento de tu solicitud",
+          "detail": "Sigue el estado según las indicaciones. No reserves vuelos no reembolsables hasta que te aprueben; pueden pedirte documentos adicionales o una entrevista."
+        },
+        {
+          "n": 7,
+          "title": "Recoge tu pasaporte",
+          "detail": "Recógelo según las indicaciones y comprueba los datos de la etiqueta del visado (nombre, fechas, tipo de entrada) en cuanto lo recibas."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Lista de documentos — con dónde y cómo conseguir cada uno",
+      "intro": "Esta es la parte que todos los demás sitios omiten. Para cada documento, aquí tienes exactamente dónde obtenerlo y qué debe mostrar.",
+      "cols": [
+        "Documento",
+        "Dónde conseguirlo",
+        "Qué debe mostrar"
+      ],
+      "rows": [
+        {
+          "doc": "Pasaporte",
+          "req": "required",
+          "where": "Ya lo tienes",
+          "how": "Válido 6+ meses más allá de tu viaje, con al menos 2 páginas en blanco. Lleva también los pasaportes antiguos si los tienes."
+        },
+        {
+          "doc": "e-Form (con código de barras), impreso",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Completa el e-Form en el Portal de Visados de Corea e imprímelo — la impresión lleva un código de barras. Todo solicitante debe usar el e-Form.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "Cualquier estudio fotográfico",
+          "how": "Color natural, fondo blanco liso, tomada en los últimos 6 meses, rostro completo, sin gafas ni prendas en la cabeza."
+        },
+        {
+          "doc": "Reserva de vuelo de ida y vuelta",
+          "req": "required",
+          "where": "Aerolínea / agencia de viajes",
+          "how": "Una reserva/itinerario confirmado es suficiente — NO compres un billete pagado antes de que se apruebe el visado."
+        },
+        {
+          "doc": "Justificante de alojamiento",
+          "req": "required",
+          "where": "Sitios de reserva de hoteles",
+          "how": "Reservas de hotel confirmadas que cubran tu estancia. ¿Te alojas con alguien? Añade una carta de invitación + copia del DNI/ARC del anfitrión."
+        },
+        {
+          "doc": "Extracto bancario — últimos 6 meses",
+          "req": "required",
+          "where": "Tu banco",
+          "how": "Un extracto personal de 6 meses con el sello del banco. Un saldo estable es mucho más convincente que un depósito repentino."
+        },
+        {
+          "doc": "Bank Solvency Certificate",
+          "req": "required",
+          "where": "Tu banco",
+          "how": "Un certificado de solvencia de tu banco — un documento propio de Bangladés que suele exigirse junto con el extracto."
+        },
+        {
+          "doc": "Justificante de empleo / negocio",
+          "req": "required",
+          "where": "Empleador / registro mercantil",
+          "how": "Empleado: certificado de empleo + carta de permiso. Empresario: licencia comercial (del último año). Incluye un certificado del impuesto sobre la renta si lo tienes."
+        }
+      ],
+      "legend": {
+        "required": "Obligatorio",
+        "conditional": "Si te corresponde",
+        "recommended": "Recomendado"
+      }
+    },
+    "funds": {
+      "title": "«¿Cuánto saldo bancario necesito?»",
+      "body": "No hay un único mínimo oficial publicado para el visado de turista. Lo que importa es demostrar que puedes financiar cómodamente todo el viaje y que tienes motivos para volver a Bangladés. Los funcionarios que evalúan el caso miran la estabilidad, no solo una cifra llamativa.",
+      "tips": [
+        "Muestra un saldo constante durante 6 meses — un gran depósito hecho días antes de solicitar parece débil.",
+        "Combina el extracto bancario y el Bank Solvency Certificate con tu justificante de empleo o negocio; juntos cuentan una historia creíble.",
+        "¿Tienes patrocinador? Añade el extracto bancario del patrocinador, una carta de patrocinio firmada y una prueba de tu relación."
+      ]
+    },
+    "pitfalls": {
+      "title": "Errores que provocan rechazos y retrasos",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "Saltarse el e-Form con código de barras",
+          "d": "Todo solicitante debe rellenar el e-Form en visa.go.kr y presentar el formulario impreso con código de barras. Un formulario de papel antiguo se rechaza."
+        },
+        {
+          "icon": "🏦",
+          "t": "Sin Bank Solvency Certificate",
+          "d": "A los solicitantes de Bangladés se les suele exigir añadir un certificado de solvencia además del extracto de 6 meses. No lo dejes fuera."
+        },
+        {
+          "icon": "🎫",
+          "t": "Comprar los vuelos demasiado pronto",
+          "d": "Pagar billetes no reembolsables antes de la aprobación. Una reserva es suficiente para el expediente."
+        },
+        {
+          "icon": "🌐",
+          "t": "Solicitar en una web de 'visados' falsa",
+          "d": "Solo visa.go.kr (formulario) y la Embajada de Corea oficial en Dhaka tramitan los visados de Corea — ignora las webs imitadoras que cobran de más."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Mala foto",
+          "d": "Tamaño incorrecto, fondo de color, gafas o una foto antigua. Usa una foto reciente de 3.5 × 4.5 cm con fondo blanco."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre el visado Bangladés → Corea",
+      "items": [
+        {
+          "q": "¿Necesitan visado los ciudadanos de Bangladés para Corea?",
+          "a": "Sí — para turismo solicitas con antelación el visado de turista de corta duración C-3-9. Los pasaportes de Bangladés no están exentos de visado ni figuran en la lista de K-ETA."
+        },
+        {
+          "q": "¿Dónde solicito?",
+          "a": "Rellenas el e-Form en el Portal de Visados de Corea (visa.go.kr) y presentas el formulario impreso con código de barras en persona en la Embajada de Corea en Dhaka (4 Madani Avenue, Baridhara)."
+        },
+        {
+          "q": "¿Qué es el e-Form?",
+          "a": "Desde 2026 todo solicitante debe completar el e-Form en línea en visa.go.kr e imprimirlo — la impresión tiene un código de barras que la embajada escanea. Los formularios antiguos escritos a mano no se aceptan."
+        },
+        {
+          "q": "¿Cuánto tarda?",
+          "a": "Normalmente unos 10–15 días hábiles, y más durante la temporada alta o si te citan para una entrevista o documentos adicionales. Solicítalo con mucha antelación a tu viaje."
+        },
+        {
+          "q": "¿Cuánto cuesta?",
+          "a": "Unos US$40 para un visado de corta duración de entrada única; alrededor de US$70 para entrada doble y US$90 para entrada múltiple. Las cantidades cambian — confirma la tasa actual en la embajada."
+        },
+        {
+          "q": "¿Qué es el Bank Solvency Certificate?",
+          "a": "Una carta de tu banco que confirma que eres solvente. A los solicitantes de Bangladés se les suele exigir presentarla además del extracto bancario de 6 meses."
+        },
+        {
+          "q": "¿Puedo obtener un visado de entrada múltiple?",
+          "a": "Los visados de entrada doble y múltiple están disponibles pagando una tasa mayor, pero la elegibilidad varía. Pregunta en la embajada por las normas actuales para Bangladés."
+        },
+        {
+          "q": "¿Sigo necesitando la e-Arrival Card después de obtener el visado?",
+          "a": "El requisito de la e-Arrival Card puede seguir aplicándose a la entrada. Comprueba las normas de documentos de entrada en los sitios oficiales cerca de la fecha de tu viaje."
+        }
+      ]
+    }
+  },
+  "ms": {
+    "kicker": "Panduan visa · Bangladesh → Korea",
+    "readingTime": "Bacaan 8 minit",
+    "h1": "Visa Korea untuk Warganegara Bangladesh",
+    "metaTitle": "Visa dari Bangladesh ke Korea: Adakah Anda Memerlukannya? (2026) — Korea Trip Hub",
+    "metaDesc": "Ya — pemegang pasport Bangladesh memerlukan visa untuk Korea Selatan (C-3-9 pelancong jangka pendek, sehingga 90 hari). Isi e-Form berkod bar di visa.go.kr dan kemukakan di Kedutaan Korea di Dhaka: dokumen, yuran dan masa pemprosesan.",
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Tempoh menginap",
+      "entry": "Kemasukan",
+      "where": "Tempat mendapatkannya",
+      "official": "Sumber rasmi",
+      "required": "Diperlukan",
+      "conditional": "Jika berkenaan",
+      "recommended": "Disyorkan",
+      "confirm": "Yuran/peraturan boleh berubah — sahkan di sumber",
+      "source": "Sumber",
+      "updated": "Dikemas kini",
+      "tldr": "Ringkasan"
+    },
+    "verdict": {
+      "headline": "Ya — pemegang pasport Bangladesh memerlukan visa.",
+      "sub": "Anda akan memohon visa pelancong jangka pendek C-3-9 (masuk sekali, tinggal sehingga 90 hari). Isi e-Form di visa.go.kr, cetak borang berkod bar, dan kemukakannya secara peribadi di Kedutaan Korea di Dhaka. Kemasukan K-ETA/tanpa visa TIDAK terpakai untuk pasport Bangladesh.",
+      "type": "C-3-9 Pelancong Jangka Pendek",
+      "stay": "Sehingga 90 hari",
+      "entry": "Masuk sekali (dua kali / berbilang kali boleh dengan yuran lebih tinggi)"
+    },
+    "tldr": [
+      "Isi e-Form di visa.go.kr (SATU-SATUNYA portal rasmi), kemudian CETAK borang berkod bar — sejak 2026 setiap pemohon mesti mengemukakan e-Form.",
+      "Kemukakan secara peribadi di Kedutaan Korea di Dhaka (4 Madani Avenue, Baridhara), Ahad–Khamis 09:00–12:30.",
+      "Bawa pasport, foto 3.5 × 4.5 cm, tempahan penerbangan + hotel, penyata bank 6 bulan DAN Bank Solvency Certificate.",
+      "Yuran ≈ US$40 masuk sekali (US$70 dua kali / US$90 berbilang kali); keputusan dalam kira-kira 10–15 hari bekerja."
+    ],
+    "steps": {
+      "title": "Permohonan, langkah demi langkah",
+      "items": [
+        {
+          "n": 1,
+          "title": "Sahkan jenis visa",
+          "detail": "Untuk pelancongan, anda perlukan visa lawatan jangka pendek (pelancong) C-3-9. Kumpulkan senarai semak di bawah sebelum bermula."
+        },
+        {
+          "n": 2,
+          "title": "Isi e-Form di visa.go.kr",
+          "detail": "Pergi ke Korea Visa Portal (visa.go.kr) — satu-satunya laman rasmi. Lengkapkan e-Form, kemudian cetak: borang yang dicetak membawa kod bar. Sejak 2026 semua pemohon mesti memohon dengan e-Form ini. Satu bagi setiap pemohon.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Kumpulkan dokumen anda",
+          "detail": "Kumpulkan setiap dokumen dalam senarai semak di bawah. Bukti kewangan yang lemah atau foto berformat salah ialah punca utama kelewatan."
+        },
+        {
+          "n": 4,
+          "title": "Kemukakan di Kedutaan Korea, Dhaka",
+          "detail": "Bawa e-Form berkod bar dan dokumen anda ke Kedutaan Republik Korea, 4 Madani Avenue, Baridhara, Dhaka-1212. Waktu pengemukaan ialah Ahad–Khamis, 09:00–12:30.",
+          "link": "https://overseas.mofa.go.kr/bd-en",
+          "linkLabel": "Kedutaan Korea, Bangladesh"
+        },
+        {
+          "n": 5,
+          "title": "Bayar yuran",
+          "detail": "Bayar yuran visa — kira-kira US$40 untuk visa jangka pendek masuk sekali (lebih tinggi untuk masuk dua kali/berbilang kali)."
+        },
+        {
+          "n": 6,
+          "title": "Jejaki permohonan anda",
+          "detail": "Ikuti statusnya seperti diarahkan. Jangan tempah penerbangan yang tidak boleh dikembalikan sehingga anda diluluskan; anda mungkin diminta dokumen tambahan atau temu duga."
+        },
+        {
+          "n": 7,
+          "title": "Ambil pasport anda",
+          "detail": "Ambil seperti diarahkan dan semak butiran pelekat visa (nama, tarikh, jenis kemasukan) sebaik sahaja anda menerimanya."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Senarai semak dokumen — dengan di mana & bagaimana mendapatkan setiap satu",
+      "intro": "Inilah bahagian yang dilangkau oleh setiap laman lain. Bagi setiap dokumen, inilah dengan tepat di mana anda memperolehnya dan apa yang mesti ditunjukkannya.",
+      "cols": [
+        "Dokumen",
+        "Di mana mendapatkannya",
+        "Apa yang mesti ditunjukkan"
+      ],
+      "rows": [
+        {
+          "doc": "Pasport",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Sah 6+ bulan selepas perjalanan anda, dengan sekurang-kurangnya 2 halaman kosong. Bawa juga pasport lama jika ada."
+        },
+        {
+          "doc": "e-Form (berkod bar), dicetak",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapkan e-Form di Korea Visa Portal dan cetak — cetakan itu membawa kod bar. Setiap pemohon mesti menggunakan e-Form.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "Mana-mana studio foto",
+          "how": "Warna semula jadi, latar putih polos, diambil dalam tempoh 6 bulan lepas, muka penuh, tanpa cermin mata atau penutup kepala."
+        },
+        {
+          "doc": "Tempahan penerbangan pergi-balik",
+          "req": "required",
+          "where": "Syarikat penerbangan / ejen pelancongan",
+          "how": "Tempahan/itinerari yang disahkan sudah memadai — JANGAN beli tiket berbayar sebelum visa diluluskan."
+        },
+        {
+          "doc": "Bukti penginapan",
+          "req": "required",
+          "where": "Laman tempahan hotel",
+          "how": "Tempahan hotel yang disahkan meliputi tempoh tinggal anda. Menginap dengan seseorang? Tambah surat jemputan + salinan ID/ARC tuan rumah."
+        },
+        {
+          "doc": "Penyata bank — 6 bulan terakhir",
+          "req": "required",
+          "where": "Bank anda",
+          "how": "Penyata peribadi 6 bulan dengan cop bank. Baki yang stabil jauh lebih meyakinkan daripada deposit mengejut."
+        },
+        {
+          "doc": "Bank Solvency Certificate",
+          "req": "required",
+          "where": "Bank anda",
+          "how": "Sijil kemampuan bayar daripada bank anda — dokumen khusus Bangladesh yang biasanya dijangka bersama penyata."
+        },
+        {
+          "doc": "Bukti pekerjaan / perniagaan",
+          "req": "required",
+          "where": "Majikan / pejabat perdagangan",
+          "how": "Bekerja: sijil pekerjaan + surat cuti. Pemilik perniagaan: lesen perniagaan (dalam tempoh setahun lepas). Sertakan sijil cukai pendapatan jika ada."
+        }
+      ],
+      "legend": {
+        "required": "Diperlukan",
+        "conditional": "Jika berkenaan dengan anda",
+        "recommended": "Disyorkan"
+      }
+    },
+    "funds": {
+      "title": "\"Berapa banyak baki bank yang saya perlukan?\"",
+      "body": "Tiada satu jumlah minimum rasmi yang diterbitkan untuk visa pelancong. Yang penting ialah membuktikan anda mampu membiayai keseluruhan perjalanan dengan selesa dan mempunyai sebab untuk pulang ke Bangladesh. Pegawai penilai melihat kestabilan, bukan sekadar angka yang menonjol.",
+      "tips": [
+        "Tunjukkan baki yang konsisten selama 6 bulan — deposit besar yang dibuat beberapa hari sebelum memohon kelihatan lemah.",
+        "Gandingkan penyata bank dan Bank Solvency Certificate dengan bukti pekerjaan atau perniagaan anda; bersama-sama ia menceritakan kisah yang boleh dipercayai.",
+        "Ditaja? Tambah penyata bank penaja, surat tajaan bertandatangan, dan bukti hubungan anda."
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesilapan yang menyebabkan penolakan & kelewatan",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "Melangkau e-Form berkod bar",
+          "d": "Setiap pemohon mesti mengisi e-Form di visa.go.kr dan mengemukakan borang berkod bar yang dicetak. Borang kertas lama ditolak."
+        },
+        {
+          "icon": "🏦",
+          "t": "Tiada Bank Solvency Certificate",
+          "d": "Pemohon Bangladesh biasanya dijangka menambah sijil kemampuan bayar selain penyata 6 bulan. Jangan tinggalkannya."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membeli tiket penerbangan terlalu awal",
+          "d": "Membayar tiket yang tidak boleh dikembalikan sebelum kelulusan. Tempahan sudah memadai untuk fail."
+        },
+        {
+          "icon": "🌐",
+          "t": "Memohon di laman 'visa' palsu",
+          "d": "Hanya visa.go.kr (borang) dan Kedutaan Korea rasmi di Dhaka mengendalikan visa Korea — abaikan laman tiruan yang mengenakan caj tambahan."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Foto tidak elok",
+          "d": "Saiz salah, latar berwarna, cermin mata atau foto lama. Gunakan foto baharu 3.5 × 4.5 cm berlatar putih."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Soalan lazim visa Bangladesh → Korea",
+      "items": [
+        {
+          "q": "Adakah warganegara Bangladesh memerlukan visa untuk Korea?",
+          "a": "Ya — untuk pelancongan anda memohon terlebih dahulu visa pelancong jangka pendek C-3-9. Pasport Bangladesh tidak bebas visa dan tiada dalam senarai K-ETA."
+        },
+        {
+          "q": "Di mana saya memohon?",
+          "a": "Anda mengisi e-Form di Korea Visa Portal (visa.go.kr) dan mengemukakan borang berkod bar yang dicetak secara peribadi di Kedutaan Korea di Dhaka (4 Madani Avenue, Baridhara)."
+        },
+        {
+          "q": "Apakah e-Form?",
+          "a": "Sejak 2026 setiap pemohon mesti melengkapkan e-Form dalam talian di visa.go.kr dan mencetaknya — cetakan itu mempunyai kod bar yang diimbas kedutaan. Borang lama yang ditulis tangan tidak diterima."
+        },
+        {
+          "q": "Berapa lama masanya?",
+          "a": "Biasanya kira-kira 10–15 hari bekerja, dan lebih lama pada musim kemuncak atau jika anda dipanggil untuk temu duga atau dokumen tambahan. Mohon jauh lebih awal daripada perjalanan anda."
+        },
+        {
+          "q": "Berapa kosnya?",
+          "a": "Kira-kira US$40 untuk visa jangka pendek masuk sekali; lebih kurang US$70 untuk masuk dua kali dan US$90 untuk masuk berbilang kali. Jumlah berubah — sahkan yuran semasa di kedutaan."
+        },
+        {
+          "q": "Apakah Bank Solvency Certificate?",
+          "a": "Surat daripada bank anda yang mengesahkan anda mampu bayar dari segi kewangan. Pemohon Bangladesh biasanya dijangka mengemukakannya sebagai tambahan kepada penyata bank 6 bulan."
+        },
+        {
+          "q": "Bolehkah saya mendapat visa berbilang kali masuk?",
+          "a": "Visa masuk dua kali dan berbilang kali ada dengan yuran lebih tinggi, tetapi kelayakan berbeza-beza. Tanya di kedutaan tentang peraturan semasa untuk Bangladesh."
+        },
+        {
+          "q": "Adakah saya masih perlukan e-Arrival Card selepas mendapat visa?",
+          "a": "Keperluan e-Arrival Card masih boleh terpakai semasa kemasukan. Semak peraturan dokumen kemasukan di laman rasmi menjelang tarikh perjalanan anda."
+        }
+      ]
+    }
+  },
+  "ko": {
+    "kicker": "비자 가이드 · 방글라데시 → 한국",
+    "readingTime": "8분 분량",
+    "h1": "방글라데시에서 신청하는 한국 비자",
+    "metaTitle": "방글라데시에서 한국 비자: 필요할까요? (2026) — Korea Trip Hub",
+    "metaDesc": "네 — 방글라데시 여권 소지자는 한국 비자가 필요합니다 (C-3-9 단기 관광, 최대 90일). visa.go.kr에서 바코드가 있는 e-Form을 작성하고 Dhaka의 주방글라데시 한국대사관에 제출하세요. 서류, 수수료, 처리 기간을 안내합니다.",
+    "ui": {
+      "visa": "비자 종류",
+      "stay": "체류 기간",
+      "entry": "입국",
+      "where": "발급처",
+      "official": "공식 출처",
+      "required": "필수",
+      "conditional": "해당 시",
+      "recommended": "권장",
+      "confirm": "수수료·규정은 변경될 수 있습니다 — 출처에서 확인하세요",
+      "source": "출처",
+      "updated": "업데이트",
+      "tldr": "요약"
+    },
+    "verdict": {
+      "headline": "네 — 방글라데시 여권 소지자는 비자가 필요합니다.",
+      "sub": "C-3-9 단기 관광 비자(단수 입국, 최대 90일 체류)를 신청합니다. visa.go.kr에서 e-Form을 작성하고 바코드가 있는 양식을 인쇄한 뒤 Dhaka의 주방글라데시 한국대사관에 본인이 직접 제출하세요. K-ETA/무비자 입국은 방글라데시 여권에는 적용되지 않습니다.",
+      "type": "C-3-9 단기 관광",
+      "stay": "최대 90일",
+      "entry": "단수 입국 (추가 수수료로 복수/여러 번 입국 가능)"
+    },
+    "tldr": [
+      "visa.go.kr(유일한 공식 포털)에서 e-Form을 작성한 뒤 바코드가 있는 양식을 인쇄하세요 — 2026년부터 모든 신청자는 e-Form을 제출해야 합니다.",
+      "Dhaka의 주방글라데시 한국대사관(4 Madani Avenue, Baridhara)에 본인이 직접 제출하세요. 일~목 09:00–12:30.",
+      "여권, 3.5 × 4.5 cm 사진, 항공권+호텔 예약, 6개월 은행 거래내역서, 그리고 Bank Solvency Certificate를 지참하세요.",
+      "수수료 ≈ 단수 입국 US$40 (복수 US$70 / 여러 번 US$90); 결과는 약 10~15 영업일 내에 나옵니다."
+    ],
+    "steps": {
+      "title": "신청, 단계별로",
+      "items": [
+        {
+          "n": 1,
+          "title": "비자 종류 확인",
+          "detail": "관광에는 C-3-9 단기 방문(관광) 비자가 필요합니다. 시작하기 전에 아래 체크리스트를 준비하세요."
+        },
+        {
+          "n": 2,
+          "title": "visa.go.kr에서 e-Form 작성",
+          "detail": "한국 비자 포털(visa.go.kr)로 이동하세요 — 유일한 공식 사이트입니다. e-Form을 작성한 뒤 인쇄하세요: 인쇄된 양식에는 바코드가 있습니다. 2026년부터 모든 신청자는 이 e-Form으로 신청해야 합니다. 신청자 1인당 한 장입니다.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "서류 준비",
+          "detail": "아래 체크리스트의 모든 서류를 모으세요. 재정 서류 부실이나 규격에 맞지 않는 사진이 지연의 가장 큰 원인입니다."
+        },
+        {
+          "n": 4,
+          "title": "Dhaka 한국대사관에서 제출",
+          "detail": "바코드가 있는 e-Form과 서류를 대한민국 대사관(4 Madani Avenue, Baridhara, Dhaka-1212)에 지참하세요. 접수 시간은 일요일~목요일 09:00–12:30입니다.",
+          "link": "https://overseas.mofa.go.kr/bd-en",
+          "linkLabel": "주방글라데시 한국대사관"
+        },
+        {
+          "n": 5,
+          "title": "수수료 납부",
+          "detail": "비자 수수료를 납부하세요 — 단수 입국 단기 비자는 약 US$40 (복수/여러 번 입국은 더 높음)."
+        },
+        {
+          "n": 6,
+          "title": "신청 진행 상황 확인",
+          "detail": "안내에 따라 상태를 확인하세요. 승인되기 전에는 환불 불가 항공권을 예약하지 마세요. 추가 서류나 면접을 요청받을 수 있습니다."
+        },
+        {
+          "n": 7,
+          "title": "여권 수령",
+          "detail": "안내에 따라 수령하고, 받는 즉시 비자 스티커의 정보(이름, 날짜, 입국 종류)를 확인하세요."
+        }
+      ]
+    },
+    "documents": {
+      "title": "서류 체크리스트 — 각 서류를 어디서 어떻게 받는지 포함",
+      "intro": "이것이 다른 사이트들이 모두 건너뛰는 부분입니다. 각 서류에 대해, 정확히 어디서 발급받고 무엇이 표시되어야 하는지 알려드립니다.",
+      "cols": [
+        "서류",
+        "발급처",
+        "표시되어야 할 내용"
+      ],
+      "rows": [
+        {
+          "doc": "여권",
+          "req": "required",
+          "where": "이미 가지고 있음",
+          "how": "여행 종료 후 6개월 이상 유효하고, 빈 페이지가 최소 2장 있어야 합니다. 이전 여권이 있으면 함께 지참하세요."
+        },
+        {
+          "doc": "e-Form(바코드 있음), 인쇄본",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "한국 비자 포털에서 e-Form을 작성하고 인쇄하세요 — 인쇄물에는 바코드가 있습니다. 모든 신청자는 e-Form을 사용해야 합니다.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "사진 — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "아무 사진관",
+          "how": "자연스러운 컬러, 무늬 없는 흰색 배경, 최근 6개월 이내 촬영, 정면 얼굴, 안경이나 머리 착용물 없음."
+        },
+        {
+          "doc": "왕복 항공권 예약",
+          "req": "required",
+          "where": "항공사 / 여행사",
+          "how": "확정된 예약/일정으로 충분합니다 — 비자가 승인되기 전에는 유료 항공권을 구매하지 마세요."
+        },
+        {
+          "doc": "숙박 증명",
+          "req": "required",
+          "where": "호텔 예약 사이트",
+          "how": "체류 기간을 포함하는 확정된 호텔 예약. 누군가의 집에 머무나요? 초청장 + 호스트의 ID/ARC 사본을 추가하세요."
+        },
+        {
+          "doc": "은행 거래내역서 — 최근 6개월",
+          "req": "required",
+          "where": "거래 은행",
+          "how": "은행 직인이 있는 6개월 개인 거래내역서. 꾸준한 잔액이 갑작스러운 입금보다 훨씬 설득력이 있습니다."
+        },
+        {
+          "doc": "Bank Solvency Certificate",
+          "req": "required",
+          "where": "거래 은행",
+          "how": "은행이 발급하는 지급 능력 증명서 — 거래내역서와 함께 요구되는 경우가 많은 방글라데시 특유의 서류입니다."
+        },
+        {
+          "doc": "재직 / 사업 증명",
+          "req": "required",
+          "where": "고용주 / 상업 등기소",
+          "how": "재직자: 재직증명서 + 휴가 확인서. 사업주: 영업 허가증(최근 1년 이내). 소득세 증명서가 있으면 함께 첨부하세요."
+        }
+      ],
+      "legend": {
+        "required": "필수",
+        "conditional": "본인에게 해당하는 경우",
+        "recommended": "권장"
+      }
+    },
+    "funds": {
+      "title": "\"은행 잔액이 얼마나 필요한가요?\"",
+      "body": "관광 비자에 대해 공표된 단일 공식 최소 금액은 없습니다. 중요한 것은 여행 전체를 무리 없이 감당할 수 있고 방글라데시로 돌아올 이유가 있음을 증명하는 것입니다. 심사관은 눈에 띄는 숫자만이 아니라 안정성을 봅니다.",
+      "tips": [
+        "6개월간 일관된 잔액을 보여주세요 — 신청 며칠 전에 넣은 큰 입금은 약해 보입니다.",
+        "은행 거래내역서와 Bank Solvency Certificate를 직업이나 사업 증명과 함께 제시하세요. 둘이 합쳐지면 신뢰할 수 있는 이야기가 됩니다.",
+        "후원을 받나요? 후원자의 은행 거래내역서, 서명된 후원서, 그리고 관계를 증명하는 자료를 추가하세요."
+      ]
+    },
+    "pitfalls": {
+      "title": "거절과 지연을 부르는 실수",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "바코드가 있는 e-Form 생략",
+          "d": "모든 신청자는 visa.go.kr에서 e-Form을 작성하고 인쇄한 바코드 양식을 제출해야 합니다. 예전 종이 양식은 거부됩니다."
+        },
+        {
+          "icon": "🏦",
+          "t": "Bank Solvency Certificate 없음",
+          "d": "방글라데시 신청자는 보통 6개월 거래내역서에 더해 지급 능력 증명서를 추가하도록 요구됩니다. 빠뜨리지 마세요."
+        },
+        {
+          "icon": "🎫",
+          "t": "너무 이른 항공권 구매",
+          "d": "승인 전에 환불 불가 항공권을 결제하는 것. 서류에는 예약으로 충분합니다."
+        },
+        {
+          "icon": "🌐",
+          "t": "가짜 '비자' 사이트에서 신청",
+          "d": "한국 비자를 처리하는 곳은 visa.go.kr(양식)와 Dhaka의 공식 한국대사관뿐입니다 — 추가 요금을 받는 유사 사이트는 무시하세요."
+        },
+        {
+          "icon": "🖼️",
+          "t": "부적절한 사진",
+          "d": "잘못된 크기, 색이 있는 배경, 안경 또는 오래된 사진. 새로 찍은 3.5 × 4.5 cm 흰색 배경 사진을 사용하세요."
+        }
+      ]
+    },
+    "faq": {
+      "title": "방글라데시 → 한국 비자 FAQ",
+      "items": [
+        {
+          "q": "방글라데시 국민은 한국 비자가 필요한가요?",
+          "a": "네 — 관광의 경우 C-3-9 단기 관광 비자를 사전에 신청합니다. 방글라데시 여권은 무비자가 아니며 K-ETA 목록에도 없습니다."
+        },
+        {
+          "q": "어디서 신청하나요?",
+          "a": "한국 비자 포털(visa.go.kr)에서 e-Form을 작성하고, 인쇄한 바코드 양식을 Dhaka의 주방글라데시 한국대사관(4 Madani Avenue, Baridhara)에 본인이 직접 제출합니다."
+        },
+        {
+          "q": "e-Form이 무엇인가요?",
+          "a": "2026년부터 모든 신청자는 visa.go.kr에서 온라인 e-Form을 작성하고 인쇄해야 합니다 — 인쇄물에는 대사관이 스캔하는 바코드가 있습니다. 손으로 쓴 예전 양식은 받지 않습니다."
+        },
+        {
+          "q": "얼마나 걸리나요?",
+          "a": "보통 약 10~15 영업일이며, 성수기이거나 면접 또는 추가 서류를 요청받으면 더 오래 걸립니다. 여행 훨씬 전에 신청하세요."
+        },
+        {
+          "q": "비용은 얼마인가요?",
+          "a": "단수 입국 단기 비자는 약 US$40, 복수 입국은 약 US$70, 여러 번 입국은 약 US$90입니다. 금액은 변동됩니다 — 현재 수수료는 대사관에서 확인하세요."
+        },
+        {
+          "q": "Bank Solvency Certificate가 무엇인가요?",
+          "a": "당신이 재정적으로 지급 능력이 있음을 확인해 주는 은행 발급 서류입니다. 방글라데시 신청자는 보통 6개월 은행 거래내역서에 더해 이를 제출하도록 요구됩니다."
+        },
+        {
+          "q": "복수 입국 비자를 받을 수 있나요?",
+          "a": "복수 및 여러 번 입국 비자는 더 높은 수수료로 받을 수 있지만 자격은 상황에 따라 다릅니다. 방글라데시에 대한 현재 규정은 대사관에 문의하세요."
+        },
+        {
+          "q": "비자를 받은 후에도 e-Arrival Card가 필요한가요?",
+          "a": "입국 시 e-Arrival Card 요건은 여전히 적용될 수 있습니다. 여행 날짜가 가까워지면 공식 사이트에서 입국 서류 규정을 확인하세요."
+        }
+      ]
+    }
+  },
+  "ru": {
+    "kicker": "Гид по визе · Бангладеш → Корея",
+    "readingTime": "Чтение 8 мин",
+    "h1": "Виза в Корею из Бангладеш",
+    "metaTitle": "Виза из Бангладеш в Корею: нужна ли она? (2026) — Korea Trip Hub",
+    "metaDesc": "Да — владельцам паспорта Бангладеш нужна виза в Южную Корею (C-3-9, краткосрочная туристическая, до 90 дней). Заполните e-Form со штрихкодом на visa.go.kr и подайте документы в Посольство Кореи в Dhaka: документы, сборы и сроки оформления.",
+    "ui": {
+      "visa": "Тип визы",
+      "stay": "Срок пребывания",
+      "entry": "Въезд",
+      "where": "Где получить",
+      "official": "Официальные источники",
+      "required": "Обязательно",
+      "conditional": "Если применимо",
+      "recommended": "Рекомендуется",
+      "confirm": "Сборы и правила могут меняться — уточняйте в источнике",
+      "source": "Источник",
+      "updated": "Обновлено",
+      "tldr": "Кратко"
+    },
+    "verdict": {
+      "headline": "Да — владельцам паспорта Бангладеш нужна виза.",
+      "sub": "Вы будете оформлять краткосрочную туристическую визу C-3-9 (однократный въезд, пребывание до 90 дней). Заполните e-Form на visa.go.kr, распечатайте форму со штрихкодом и подайте её лично в Посольстве Кореи в Dhaka. Въезд по K-ETA/без визы НЕ распространяется на паспорта Бангладеш.",
+      "type": "C-3-9 Краткосрочная туристическая",
+      "stay": "До 90 дней",
+      "entry": "Однократный въезд (двукратный / многократный возможен за более высокий сбор)"
+    },
+    "tldr": [
+      "Заполните e-Form на visa.go.kr (ЕДИНСТВЕННЫЙ официальный портал), затем РАСПЕЧАТАЙТЕ форму со штрихкодом — с 2026 года каждый заявитель обязан подавать e-Form.",
+      "Подайте лично в Посольство Кореи в Dhaka (4 Madani Avenue, Baridhara), воскресенье–четверг 09:00–12:30.",
+      "Возьмите паспорт, фото 3.5 × 4.5 cm, брони авиабилетов + отеля, выписку из банка за 6 месяцев И Bank Solvency Certificate.",
+      "Сбор ≈ US$40 за однократный въезд (US$70 двукратный / US$90 многократный); результат примерно через 10–15 рабочих дней."
+    ],
+    "steps": {
+      "title": "Подача заявления, шаг за шагом",
+      "items": [
+        {
+          "n": 1,
+          "title": "Определите тип визы",
+          "detail": "Для туризма вам нужна краткосрочная гостевая (туристическая) виза C-3-9. Соберите контрольный список ниже, прежде чем начать."
+        },
+        {
+          "n": 2,
+          "title": "Заполните e-Form на visa.go.kr",
+          "detail": "Перейдите на Korea Visa Portal (visa.go.kr) — единственный официальный сайт. Заполните e-Form, затем распечатайте её: распечатанная форма содержит штрихкод. С 2026 года все заявители обязаны подавать заявление с этой e-Form. Одна на заявителя.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Соберите документы",
+          "detail": "Соберите все документы из контрольного списка ниже. Слабое финансовое подтверждение или фото неправильного формата — главные причины задержек."
+        },
+        {
+          "n": 4,
+          "title": "Подайте в Посольстве Кореи, Dhaka",
+          "detail": "Принесите e-Form со штрихкодом и документы в Посольство Республики Корея, 4 Madani Avenue, Baridhara, Dhaka-1212. Часы приёма: воскресенье–четверг, 09:00–12:30.",
+          "link": "https://overseas.mofa.go.kr/bd-en",
+          "linkLabel": "Посольство Кореи, Бангладеш"
+        },
+        {
+          "n": 5,
+          "title": "Оплатите сбор",
+          "detail": "Оплатите визовый сбор — около US$40 за краткосрочную визу с однократным въездом (больше за двукратный/многократный въезд)."
+        },
+        {
+          "n": 6,
+          "title": "Отслеживайте заявление",
+          "detail": "Следите за статусом согласно инструкциям. Не бронируйте невозвратные авиабилеты до одобрения; у вас могут запросить дополнительные документы или собеседование."
+        },
+        {
+          "n": 7,
+          "title": "Заберите паспорт",
+          "detail": "Заберите его согласно инструкциям и сразу же проверьте данные визовой наклейки (имя, даты, тип въезда), как только получите."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Контрольный список документов — с указанием, где и как получить каждый",
+      "intro": "Это та часть, которую пропускают все остальные сайты. Для каждого документа здесь указано, где именно вы его получаете и что он должен подтверждать.",
+      "cols": [
+        "Документ",
+        "Где получить",
+        "Что должно быть указано"
+      ],
+      "rows": [
+        {
+          "doc": "Паспорт",
+          "req": "required",
+          "where": "У вас уже есть",
+          "how": "Действителен ещё 6+ месяцев после поездки, минимум 2 пустые страницы. Возьмите и старые паспорта, если они есть."
+        },
+        {
+          "doc": "e-Form (со штрихкодом), распечатанная",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Заполните e-Form на Korea Visa Portal и распечатайте — распечатка содержит штрихкод. Каждый заявитель обязан использовать e-Form.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Фото — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "Любая фотостудия",
+          "how": "Естественный цвет, однотонный белый фон, снято за последние 6 месяцев, лицо полностью, без очков и головных уборов."
+        },
+        {
+          "doc": "Бронь авиабилета туда-обратно",
+          "req": "required",
+          "where": "Авиакомпания / турагент",
+          "how": "Подтверждённой брони/маршрута достаточно — НЕ покупайте оплаченный билет до одобрения визы."
+        },
+        {
+          "doc": "Подтверждение проживания",
+          "req": "required",
+          "where": "Сайты бронирования отелей",
+          "how": "Подтверждённые брони отеля на весь срок пребывания. Останавливаетесь у кого-то? Добавьте приглашение + копию удостоверения/ARC принимающей стороны."
+        },
+        {
+          "doc": "Выписка из банка — за последние 6 месяцев",
+          "req": "required",
+          "where": "Ваш банк",
+          "how": "Личная выписка за 6 месяцев с печатью банка. Стабильный баланс намного убедительнее внезапного пополнения."
+        },
+        {
+          "doc": "Bank Solvency Certificate",
+          "req": "required",
+          "where": "Ваш банк",
+          "how": "Справка о платёжеспособности из вашего банка — характерный для Бангладеш документ, который обычно требуют вместе с выпиской."
+        },
+        {
+          "doc": "Подтверждение работы / бизнеса",
+          "req": "required",
+          "where": "Работодатель / торговый реестр",
+          "how": "Наёмным работникам: справка с места работы + заявление на отпуск. Владельцам бизнеса: торговая лицензия (за последний год). Приложите справку о подоходном налоге, если она есть."
+        }
+      ],
+      "legend": {
+        "required": "Обязательно",
+        "conditional": "Если относится к вам",
+        "recommended": "Рекомендуется"
+      }
+    },
+    "funds": {
+      "title": "«Сколько денег должно быть на счёте?»",
+      "body": "Единого официального минимума для туристической визы не публикуется. Важно доказать, что вы можете спокойно оплатить всю поездку и что у вас есть причины вернуться в Бангладеш. Сотрудники смотрят на стабильность, а не только на броскую цифру.",
+      "tips": [
+        "Покажите стабильный баланс на протяжении 6 месяцев — крупное пополнение за несколько дней до подачи выглядит слабо.",
+        "Сочетайте выписку из банка и Bank Solvency Certificate с подтверждением работы или бизнеса; вместе они складываются в убедительную историю.",
+        "Есть спонсор? Добавьте выписку из банка спонсора, подписанное спонсорское письмо и подтверждение ваших отношений."
+      ]
+    },
+    "pitfalls": {
+      "title": "Ошибки, ведущие к отказам и задержкам",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "Пропуск e-Form со штрихкодом",
+          "d": "Каждый заявитель обязан заполнить e-Form на visa.go.kr и подать распечатанную форму со штрихкодом. Старая бумажная форма не принимается."
+        },
+        {
+          "icon": "🏦",
+          "t": "Нет Bank Solvency Certificate",
+          "d": "От заявителей из Бангладеш обычно ожидают справку о платёжеспособности в дополнение к выписке за 6 месяцев. Не пропускайте её."
+        },
+        {
+          "icon": "🎫",
+          "t": "Слишком ранняя покупка билетов",
+          "d": "Оплата невозвратных билетов до одобрения. Для дела достаточно брони."
+        },
+        {
+          "icon": "🌐",
+          "t": "Подача на поддельном 'визовом' сайте",
+          "d": "Корейские визы оформляют только visa.go.kr (форма) и официальное Посольство Кореи в Dhaka — игнорируйте похожие сайты, берущие лишнюю плату."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Плохое фото",
+          "d": "Неверный размер, цветной фон, очки или старое фото. Используйте свежее фото 3.5 × 4.5 cm на белом фоне."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Часто задаваемые вопросы о визе Бангладеш → Корея",
+      "items": [
+        {
+          "q": "Нужна ли гражданам Бангладеш виза в Корею?",
+          "a": "Да — для туризма вы заранее оформляете краткосрочную туристическую визу C-3-9. Паспорта Бангладеш не дают безвизового въезда и не входят в список K-ETA."
+        },
+        {
+          "q": "Где подавать заявление?",
+          "a": "Вы заполняете e-Form на Korea Visa Portal (visa.go.kr) и лично подаёте распечатанную форму со штрихкодом в Посольстве Кореи в Dhaka (4 Madani Avenue, Baridhara)."
+        },
+        {
+          "q": "Что такое e-Form?",
+          "a": "С 2026 года каждый заявитель обязан заполнить онлайн-форму e-Form на visa.go.kr и распечатать её — на распечатке есть штрихкод, который сканирует посольство. Рукописные старые формы не принимаются."
+        },
+        {
+          "q": "Сколько это занимает?",
+          "a": "Обычно около 10–15 рабочих дней, дольше в высокий сезон или если вас вызовут на собеседование либо запросят дополнительные документы. Подавайте задолго до поездки."
+        },
+        {
+          "q": "Сколько это стоит?",
+          "a": "Около US$40 за краткосрочную визу с однократным въездом; примерно US$70 за двукратный и US$90 за многократный въезд. Суммы меняются — уточните текущий сбор в посольстве."
+        },
+        {
+          "q": "Что такое Bank Solvency Certificate?",
+          "a": "Письмо из вашего банка, подтверждающее вашу платёжеспособность. От заявителей из Бангладеш обычно ожидают его подачу в дополнение к выписке из банка за 6 месяцев."
+        },
+        {
+          "q": "Можно ли получить многократную визу?",
+          "a": "Двукратные и многократные визы доступны за более высокий сбор, но право на них варьируется. Уточните в посольстве действующие правила для Бангладеш."
+        },
+        {
+          "q": "Нужна ли мне e-Arrival Card после получения визы?",
+          "a": "Требование e-Arrival Card всё ещё может применяться при въезде. Проверьте правила по въездным документам на официальных сайтах ближе к дате поездки."
+        }
+      ]
+    }
+  },
+  "fr": {
+    "kicker": "Guide des visas · Bangladesh → Corée",
+    "readingTime": "Lecture de 8 min",
+    "h1": "Visa pour la Corée depuis le Bangladesh",
+    "metaTitle": "Visa du Bangladesh vers la Corée : en avez-vous besoin ? (2026) — Korea Trip Hub",
+    "metaDesc": "Oui — les titulaires d'un passeport bangladais ont besoin d'un visa pour la Corée du Sud (C-3-9 touristique de courte durée, jusqu'à 90 jours). Remplissez l'e-Form à code-barres sur visa.go.kr et déposez votre dossier à l'ambassade de Corée à Dhaka : documents, frais et délai de traitement.",
+    "ui": {
+      "visa": "Type de visa",
+      "stay": "Durée de séjour",
+      "entry": "Entrée",
+      "where": "Où l'obtenir",
+      "official": "Sources officielles",
+      "required": "Obligatoire",
+      "conditional": "Le cas échéant",
+      "recommended": "Recommandé",
+      "confirm": "Les frais/règles peuvent changer — vérifiez à la source",
+      "source": "Source",
+      "updated": "Mis à jour",
+      "tldr": "En bref"
+    },
+    "verdict": {
+      "headline": "Oui — les titulaires d'un passeport bangladais ont besoin d'un visa.",
+      "sub": "Vous demanderez le visa touristique de courte durée C-3-9 (entrée unique, séjour jusqu'à 90 jours). Remplissez l'e-Form sur visa.go.kr, imprimez le formulaire à code-barres, puis déposez-le en personne à l'ambassade de Corée à Dhaka. L'entrée avec K-ETA/sans visa NE s'applique PAS aux passeports bangladais.",
+      "type": "C-3-9 Touristique de courte durée",
+      "stay": "Jusqu'à 90 jours",
+      "entry": "Entrée unique (double / multiple possible moyennant des frais plus élevés)"
+    },
+    "tldr": [
+      "Remplissez l'e-Form sur visa.go.kr (le SEUL portail officiel), puis IMPRIMEZ le formulaire à code-barres — depuis 2026, chaque demandeur doit soumettre l'e-Form.",
+      "Déposez-le en personne à l'ambassade de Corée à Dhaka (4 Madani Avenue, Baridhara), du dimanche au jeudi de 09:00 à 12:30.",
+      "Apportez le passeport, une photo 3.5 × 4.5 cm, les réservations de vol + hôtel, un relevé bancaire de 6 mois ET un Bank Solvency Certificate.",
+      "Frais ≈ US$40 en entrée unique (US$70 double / US$90 multiple) ; résultat en environ 10–15 jours ouvrables."
+    ],
+    "steps": {
+      "title": "La demande, étape par étape",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirmez le type de visa",
+          "detail": "Pour le tourisme, il vous faut le visa de visite de courte durée (touristique) C-3-9. Rassemblez la liste de contrôle ci-dessous avant de commencer."
+        },
+        {
+          "n": 2,
+          "title": "Remplissez l'e-Form sur visa.go.kr",
+          "detail": "Rendez-vous sur le Korea Visa Portal (visa.go.kr) — le seul site officiel. Remplissez l'e-Form, puis imprimez-le : le formulaire imprimé porte un code-barres. Depuis 2026, tous les demandeurs doivent faire leur demande avec cet e-Form. Un par demandeur.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Rassemblez vos documents",
+          "detail": "Réunissez tous les documents de la liste ci-dessous. Des justificatifs financiers insuffisants ou une photo au mauvais format sont les principales causes de retard."
+        },
+        {
+          "n": 4,
+          "title": "Déposez à l'ambassade de Corée, Dhaka",
+          "detail": "Apportez l'e-Form à code-barres et vos documents à l'ambassade de la République de Corée, 4 Madani Avenue, Baridhara, Dhaka-1212. Les heures de dépôt sont du dimanche au jeudi, de 09:00 à 12:30.",
+          "link": "https://overseas.mofa.go.kr/bd-en",
+          "linkLabel": "Ambassade de Corée, Bangladesh"
+        },
+        {
+          "n": 5,
+          "title": "Payez les frais",
+          "detail": "Payez les frais de visa — environ US$40 pour un visa de courte durée à entrée unique (davantage pour une entrée double/multiple)."
+        },
+        {
+          "n": 6,
+          "title": "Suivez votre demande",
+          "detail": "Suivez le statut selon les indications. Ne réservez pas de vols non remboursables avant d'être approuvé ; on peut vous demander des documents supplémentaires ou un entretien."
+        },
+        {
+          "n": 7,
+          "title": "Récupérez votre passeport",
+          "detail": "Récupérez-le selon les indications et vérifiez les informations de la vignette de visa (nom, dates, type d'entrée) dès que vous le recevez."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Liste des documents — avec où et comment obtenir chacun",
+      "intro": "C'est la partie que tous les autres sites passent sous silence. Pour chaque document, voici exactement où l'obtenir et ce qu'il doit indiquer.",
+      "cols": [
+        "Document",
+        "Où l'obtenir",
+        "Ce qu'il doit indiquer"
+      ],
+      "rows": [
+        {
+          "doc": "Passeport",
+          "req": "required",
+          "where": "Vous l'avez déjà",
+          "how": "Valable 6+ mois après votre voyage, avec au moins 2 pages vierges. Apportez aussi vos anciens passeports si vous en avez."
+        },
+        {
+          "doc": "e-Form (à code-barres), imprimé",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Remplissez l'e-Form sur le Korea Visa Portal et imprimez-le — l'impression porte un code-barres. Chaque demandeur doit utiliser l'e-Form.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Photo — 3.5 × 4.5 cm",
+          "req": "required",
+          "where": "N'importe quel studio photo",
+          "how": "Couleur naturelle, fond blanc uni, prise au cours des 6 derniers mois, visage entier, sans lunettes ni couvre-chef."
+        },
+        {
+          "doc": "Réservation de vol aller-retour",
+          "req": "required",
+          "where": "Compagnie aérienne / agence de voyages",
+          "how": "Une réservation/un itinéraire confirmé suffit — N'achetez PAS de billet payé avant l'approbation du visa."
+        },
+        {
+          "doc": "Justificatif d'hébergement",
+          "req": "required",
+          "where": "Sites de réservation d'hôtels",
+          "how": "Réservations d'hôtel confirmées couvrant votre séjour. Vous logez chez quelqu'un ? Ajoutez une lettre d'invitation + une copie de la pièce d'identité/ARC de l'hôte."
+        },
+        {
+          "doc": "Relevé bancaire — 6 derniers mois",
+          "req": "required",
+          "where": "Votre banque",
+          "how": "Un relevé personnel de 6 mois avec le cachet de la banque. Un solde stable est bien plus convaincant qu'un dépôt soudain."
+        },
+        {
+          "doc": "Bank Solvency Certificate",
+          "req": "required",
+          "where": "Votre banque",
+          "how": "Un certificat de solvabilité de votre banque — un document propre au Bangladesh, généralement attendu en complément du relevé."
+        },
+        {
+          "doc": "Justificatif d'emploi / d'activité",
+          "req": "required",
+          "where": "Employeur / registre du commerce",
+          "how": "Salarié : certificat d'emploi + attestation de congé. Chef d'entreprise : licence commerciale (de la dernière année). Joignez un avis d'impôt sur le revenu si vous en avez un."
+        }
+      ],
+      "legend": {
+        "required": "Obligatoire",
+        "conditional": "Si cela vous concerne",
+        "recommended": "Recommandé"
+      }
+    },
+    "funds": {
+      "title": "« De combien d'épargne bancaire ai-je besoin ? »",
+      "body": "Aucun montant minimum officiel unique n'est publié pour le visa touristique. Ce qui compte, c'est de prouver que vous pouvez financer confortablement l'ensemble du voyage et que vous avez des raisons de revenir au Bangladesh. Les agents examinent la stabilité, pas seulement un chiffre accrocheur.",
+      "tips": [
+        "Montrez un solde constant sur 6 mois — un dépôt important effectué quelques jours avant la demande paraît faible.",
+        "Associez le relevé bancaire et le Bank Solvency Certificate à votre justificatif d'emploi ou d'activité ; ensemble, ils racontent une histoire crédible.",
+        "Vous êtes parrainé ? Ajoutez le relevé bancaire du garant, une lettre de prise en charge signée et une preuve de votre lien de parenté."
+      ]
+    },
+    "pitfalls": {
+      "title": "Erreurs qui entraînent refus et retards",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "Sauter l'e-Form à code-barres",
+          "d": "Chaque demandeur doit remplir l'e-Form sur visa.go.kr et soumettre le formulaire imprimé à code-barres. Un ancien formulaire papier est refusé."
+        },
+        {
+          "icon": "🏦",
+          "t": "Pas de Bank Solvency Certificate",
+          "d": "Les demandeurs du Bangladesh doivent généralement ajouter un certificat de solvabilité en plus du relevé de 6 mois. Ne l'omettez pas."
+        },
+        {
+          "icon": "🎫",
+          "t": "Acheter les vols trop tôt",
+          "d": "Payer des billets non remboursables avant l'approbation. Une réservation suffit pour le dossier."
+        },
+        {
+          "icon": "🌐",
+          "t": "Postuler sur un faux site de « visa »",
+          "d": "Seuls visa.go.kr (formulaire) et l'ambassade de Corée officielle à Dhaka traitent les visas coréens — ignorez les sites imitateurs qui facturent des frais supplémentaires."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Mauvaise photo",
+          "d": "Mauvaise taille, fond coloré, lunettes ou photo ancienne. Utilisez une photo récente 3.5 × 4.5 cm sur fond blanc."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ visa Bangladesh → Corée",
+      "items": [
+        {
+          "q": "Les citoyens bangladais ont-ils besoin d'un visa pour la Corée ?",
+          "a": "Oui — pour le tourisme, vous demandez à l'avance le visa touristique de courte durée C-3-9. Les passeports bangladais ne sont pas exemptés de visa et ne figurent pas sur la liste K-ETA."
+        },
+        {
+          "q": "Où dois-je faire la demande ?",
+          "a": "Vous remplissez l'e-Form sur le Korea Visa Portal (visa.go.kr) et déposez le formulaire imprimé à code-barres en personne à l'ambassade de Corée à Dhaka (4 Madani Avenue, Baridhara)."
+        },
+        {
+          "q": "Qu'est-ce que l'e-Form ?",
+          "a": "Depuis 2026, chaque demandeur doit remplir l'e-Form en ligne sur visa.go.kr et l'imprimer — l'impression comporte un code-barres que l'ambassade scanne. Les anciens formulaires manuscrits ne sont pas acceptés."
+        },
+        {
+          "q": "Combien de temps cela prend-il ?",
+          "a": "Généralement environ 10–15 jours ouvrables, et davantage en haute saison ou si vous êtes convoqué à un entretien ou pour des documents supplémentaires. Faites la demande bien avant votre voyage."
+        },
+        {
+          "q": "Combien cela coûte-t-il ?",
+          "a": "Environ US$40 pour un visa de courte durée à entrée unique ; environ US$70 pour une entrée double et US$90 pour une entrée multiple. Les montants changent — confirmez les frais actuels auprès de l'ambassade."
+        },
+        {
+          "q": "Qu'est-ce qu'un Bank Solvency Certificate ?",
+          "a": "Une lettre de votre banque confirmant votre solvabilité financière. Les demandeurs du Bangladesh doivent généralement le fournir en plus du relevé bancaire de 6 mois."
+        },
+        {
+          "q": "Puis-je obtenir un visa à entrées multiples ?",
+          "a": "Les visas à entrée double et multiple sont disponibles moyennant des frais plus élevés, mais l'admissibilité varie. Renseignez-vous auprès de l'ambassade sur les règles actuelles pour le Bangladesh."
+        },
+        {
+          "q": "Ai-je encore besoin de l'e-Arrival Card après avoir obtenu le visa ?",
+          "a": "L'obligation d'e-Arrival Card peut toujours s'appliquer à l'entrée. Vérifiez les règles sur les documents d'entrée sur les sites officiels à l'approche de votre date de voyage."
+        }
+      ]
+    }
+  }
 }
