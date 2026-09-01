@@ -103,6 +103,30 @@
       "notes": "All applicants must complete the e-Form on visa.go.kr and submit the printed, barcoded form. Bangladesh-specific: a Bank Solvency Certificate is expected alongside the 6-month bank statement. Submission at the Embassy (4 Madani Avenue, Baridhara, Dhaka-1212), Sunday–Thursday 09:00–12:30. Confirm current fees and documents at the embassy site."
     },
     {
+      "id": "visa-nepal-c39",
+      "tier": "VOLATILE",
+      "claim": "Nepali citizens need a C-3-9 short-term tourist visa for Korea (single entry, stay up to 90 days), applied for at the Korean Embassy in Kathmandu by online appointment. Single-entry fee NPR 5,400; processing about 21 working days.",
+      "value": { "visa": "C-3-9 short-term tourist", "entry": "single", "stay": "up to 90 days", "apply_at": "Korean Embassy, Kathmandu (appointment at koreanembassynepal.org)", "fee": "NPR 5,400 (single entry)", "processing": "about 21 working days" },
+      "source": "https://overseas.mofa.go.kr/np-en/wpge/m_1714/contents.do",
+      "source_name": "Embassy of the Republic of Korea in Nepal (MOFA)",
+      "verified": "2026-08-31",
+      "recheck_after": "2026-12-01",
+      "status": "VERIFIED",
+      "notes": "Book an online appointment at koreanembassynepal.org (slots open Mondays and Wednesdays 10:00). Nepali documents must be translated into English and notarized; Korean documents must be originals issued within the last 3 months. Flight bookings should show departure at least 21 days after the application. Submitting fake tickets or false details can bring a rejection and a 3-year re-application ban. Confirm current fees/rules at the embassy."
+    },
+    {
+      "id": "visa-uzbekistan-c3",
+      "tier": "VOLATILE",
+      "claim": "Uzbekistani citizens need a C-3 short-term tourist visa for Korea (stay up to 90 days). Tourist applications are accepted only through travel agencies accredited by the Korean Embassy in Tashkent — independent/online submission is not available.",
+      "value": { "visa": "C-3 short-term tourist", "stay": "up to 90 days", "apply_via": "travel agencies accredited by the Korean Embassy, Tashkent (agency list on the embassy site)", "embassy": "Afrosiyob Street 7, Mirabad District, Tashkent" },
+      "source": "https://kun.uz/en/news/2026/02/03/how-citizens-of-uzbekistan-can-obtain-a-visa-to-south-korea",
+      "source_name": "Korean Embassy, Tashkent (consular process, via kun.uz reporting)",
+      "verified": "2026-08-31",
+      "recheck_after": "2026-12-01",
+      "status": "VERIFIED",
+      "notes": "For tourist/visitor visas the embassy accepts documents only through accredited travel agencies listed on its official site; you cannot submit directly or online. Employment, some student, and government-program visas are submitted differently. Fees and processing times are not published in an accessible official source — confirm both with an accredited agency or the embassy before you plan."
+    },
+    {
       "id": "emergency-police",
       "tier": "STABLE",
       "claim": "Korea's emergency police number is 112.",
