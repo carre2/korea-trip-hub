@@ -1,3 +1,2390 @@
 {
-  "_README": "Per-locale translation overrides for nepal → Korea visa guide. { <locale>: { ...overrides } }. English base in nepal.json."
+  "_README": "Per-locale translation overrides for nepal → Korea visa guide. { <locale>: { ...overrides } }. English base in nepal.json.",
+  "ja": {
+    "kicker": "ビザガイド · Nepal → 韓国",
+    "readingTime": "8分で読めます",
+    "h1": "Nepalからの韓国ビザ",
+    "metaTitle": "Nepalから韓国のビザ：必要ですか？（2026年）— Korea Trip Hub",
+    "metaDesc": "はい — Nepalのパスポート保持者は韓国のビザが必要です（C-3-9 短期観光、最長90日）。Kathmanduの韓国大使館でオンライン予約を取りましょう：必要書類、手数料（NPR 5,400）、処理期間。",
+    "ui": {
+      "visa": "ビザの種類",
+      "stay": "滞在期間",
+      "entry": "入国",
+      "where": "入手先",
+      "official": "公式ソース",
+      "required": "必須",
+      "conditional": "該当する場合",
+      "recommended": "推奨",
+      "confirm": "手数料・規則は変更される場合があります — 出典で確認してください",
+      "source": "出典",
+      "updated": "更新日",
+      "tldr": "要点"
+    },
+    "verdict": {
+      "headline": "はい — Nepalのパスポート保持者はビザが必要です。",
+      "sub": "Kathmanduの韓国大使館で、オンライン予約により C-3-9 短期観光ビザ（シングルエントリー、最長90日間の滞在）を申請します。K-ETA／ビザ免除入国は Nepal のパスポートには適用されません。",
+      "type": "C-3-9 短期観光",
+      "stay": "最長90日間",
+      "entry": "シングルエントリー（場合によってはマルチプルエントリーも可能 — 大使館で確認してください）"
+    },
+    "tldr": [
+      "visa.go.kr（唯一の公式ポータル）でフォームに記入し、印刷して署名します。",
+      "koreanembassynepal.org でオンライン予約を取ります — 予約枠は毎週月曜と水曜の10:00に開放されます。",
+      "Nepal の書類は英語に翻訳し、公証を受けてください。韓国の書類は過去3か月以内に発行された原本が必要です。",
+      "手数料は NPR 5,400（シングルエントリー）、窓口で現金払い。結果は約21営業日で出ます。"
+    ],
+    "steps": {
+      "title": "申請の手順（ステップバイステップ）",
+      "items": [
+        {
+          "n": 1,
+          "title": "ビザの種類を確認する",
+          "detail": "観光にはC-3-9短期訪問（観光）ビザが必要です。始める前に、下のチェックリストを揃えてください。"
+        },
+        {
+          "n": 2,
+          "title": "visa.go.krでフォームに記入する",
+          "detail": "Korea Visa Portal（visa.go.kr）にアクセスします — 唯一の公式サイトです。申請フォームに記入し、印刷して署名します。申請者1人につき1枚です。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "オンライン予約を取る",
+          "detail": "koreanembassynepal.org で予約枠を確保します。予約枠は毎週月曜と水曜の10:00に開放されます — すぐ埋まるので早めに予約してください。"
+        },
+        {
+          "n": 4,
+          "title": "書類を揃えて準備する",
+          "detail": "下のチェックリストを集めます。Nepal の書類は英語に翻訳して公証を受ける必要があります。韓国の書類は過去3か月以内に発行された原本でなければなりません。"
+        },
+        {
+          "n": 5,
+          "title": "予約日に来館し、支払う",
+          "detail": "予約時間に Kathmandu の韓国大使館へ本人が出向いてフォームと書類を提出し、窓口で NPR 5,400 の手数料を現金で支払います。"
+        },
+        {
+          "n": 6,
+          "title": "審査を待つ",
+          "detail": "審査には約21営業日かかります。承認されるまで払い戻し不可の航空券は予約しないでください。追加書類を求められることがあります。"
+        },
+        {
+          "n": 7,
+          "title": "パスポートを受け取る",
+          "detail": "案内に従って受け取り、受け取った瞬間にビザステッカーの記載内容（氏名、日付、入国の種類）を確認してください。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "必要書類チェックリスト — 各書類の入手先と方法つき",
+      "intro": "これは他のどのサイトも省略する部分です。各書類について、どこで入手し、何が記載されていなければならないかを正確に示します。Nepal の書類は英語への翻訳と公証が必要です。",
+      "cols": [
+        "書類",
+        "入手先",
+        "記載されるべき内容"
+      ],
+      "rows": [
+        {
+          "doc": "パスポート",
+          "req": "required",
+          "where": "お手元にあります",
+          "how": "旅行終了後6か月以上有効で、空白ページが2ページ以上あること。古いパスポートがあればそれも持参してください。"
+        },
+        {
+          "doc": "ビザ申請フォーム",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Korea Visa Portal で記入し、印刷して署名します。申請者1人につき1枚。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "写真",
+          "req": "required",
+          "where": "任意の写真スタジオ",
+          "how": "最近のパスポートサイズの写真1枚、無地の白背景、過去6か月以内に撮影、正面顔。"
+        },
+        {
+          "doc": "往復の航空券予約",
+          "req": "required",
+          "where": "航空会社／旅行代理店",
+          "how": "申請日から少なくとも21日後に出発する確定予約。承認前に有料の航空券を購入せず、偽の航空券は絶対に提出しないでください。"
+        },
+        {
+          "doc": "宿泊証明",
+          "req": "required",
+          "where": "ホテル予約サイト",
+          "how": "滞在期間をカバーする確定済みのホテル予約。誰かの家に滞在する場合は、招待状＋ホストのID／ARCのコピーを添えてください。"
+        },
+        {
+          "doc": "カバーレター＋旅程",
+          "req": "required",
+          "where": "自分で書く（英語）",
+          "how": "訪問の目的を記した手紙と、日ごとの計画。"
+        },
+        {
+          "doc": "銀行取引明細／財政証明",
+          "req": "required",
+          "where": "ご利用の銀行",
+          "how": "旅行費用を賄えることを示す最近の明細（銀行の印章付き）。Nepal の書類は英語翻訳＋公証が必要です。"
+        },
+        {
+          "doc": "在職／身分の証明",
+          "req": "required",
+          "where": "雇用主／事業／大学",
+          "how": "被雇用者：在職／休暇証明書。自営業：事業登録。学生：在学証明書。英語に翻訳し公証すること。"
+        }
+      ],
+      "legend": {
+        "required": "必須",
+        "conditional": "該当する場合",
+        "recommended": "推奨"
+      }
+    },
+    "funds": {
+      "title": "「銀行残高はいくら必要ですか？」",
+      "body": "観光ビザについて公表された単一の公式な最低額はありません。重要なのは、旅行全体を無理なく賄えること、そして Nepal に戻る理由があることを証明することです。審査官は、目立つ数字だけでなく安定性を見ます。",
+      "tips": [
+        "一貫した残高を示してください — 申請の数日前に行った多額の入金は弱く見えます。",
+        "銀行取引明細を、仕事・事業・学業の証明と組み合わせてください。合わせて示すと信頼できるストーリーになります。",
+        "スポンサーがいる場合は、スポンサーの銀行取引明細、署名入りのスポンサーシップレター、そして関係を示す証明を添えてください。"
+      ]
+    },
+    "pitfalls": {
+      "title": "却下や遅延を招く間違い",
+      "items": [
+        {
+          "icon": "🚫",
+          "t": "偽物または不一致の航空券",
+          "d": "偽の航空券や虚偽の旅行情報を提出すると、却下に加えて再申請の3年間の禁止につながることがあります。本物の予約を使ってください。"
+        },
+        {
+          "icon": "📜",
+          "t": "公証されていない Nepal の書類",
+          "d": "Nepal の書類は英語に翻訳し公証を受けなければなりません。未翻訳・未公証の書類は差し戻されます。"
+        },
+        {
+          "icon": "📅",
+          "t": "予約枠を逃す",
+          "d": "予約枠は毎週月曜と水曜の10:00に開放され、すぐに埋まります。それに合わせて予約を計画してください。"
+        },
+        {
+          "icon": "🎫",
+          "t": "航空券を早く買いすぎる",
+          "d": "承認前に払い戻し不可の航空券を購入すること。予約（出発が21日以上先）があれば書類には十分です。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "不適切な写真",
+          "d": "サイズ違い、色付き背景、眼鏡、または古い写真。白背景の新しいパスポート写真を使ってください。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Nepal → 韓国 ビザFAQ",
+      "items": [
+        {
+          "q": "Nepal の国民は韓国のビザが必要ですか？",
+          "a": "はい — 観光の場合は、C-3-9短期観光ビザを事前に申請します。Nepal のパスポートはビザ免除ではなく、K-ETA の対象でもありません。"
+        },
+        {
+          "q": "予約はどうやって取りますか？",
+          "a": "koreanembassynepal.org でオンライン予約します。予約枠は毎週月曜と水曜の10:00に開放され、すぐ埋まるので、できるだけ早く予約してください。"
+        },
+        {
+          "q": "どのくらいかかりますか？",
+          "a": "約21営業日ですが、繁忙期や追加の審査が必要な場合はさらに長くかかります。旅行の十分前に申請してください。"
+        },
+        {
+          "q": "費用はいくらですか？",
+          "a": "シングルエントリーの短期ビザで NPR 5,400、大使館の窓口で現金払い。金額は変わります — 現在の手数料は大使館で確認してください。"
+        },
+        {
+          "q": "書類の翻訳は必要ですか？",
+          "a": "はい — Nepal の書類は英語に翻訳し公証を受ける必要があります。韓国の書類は過去3か月以内に発行された原本でなければなりません。"
+        },
+        {
+          "q": "なぜ航空券は申請の21日以上後に出発する必要があるのですか？",
+          "a": "大使館は、審査（約21営業日）に間に合う旅行日程を求めます。出発が少なくとも21日先の予約を取り、偽の航空券は絶対に使わないでください。"
+        },
+        {
+          "q": "マルチプルエントリービザは取得できますか？",
+          "a": "マルチプルエントリーの観光ビザは場合によっては可能ですが、資格は状況によって異なります。Nepal 向けの現在の規則については大使館にお問い合わせください。"
+        },
+        {
+          "q": "ビザを取得した後もe-Arrival Cardは必要ですか？",
+          "a": "入国時に e-Arrival Card の要件が依然として適用される場合があります。旅行日が近づいたら、公式サイトで入国書類の規則を確認してください。"
+        }
+      ]
+    }
+  },
+  "zh": {
+    "kicker": "签证指南 · Nepal → 韩国",
+    "readingTime": "阅读8分钟",
+    "h1": "从 Nepal 前往韩国的签证",
+    "metaTitle": "Nepal 到韩国签证：需要吗？（2026）— Korea Trip Hub",
+    "metaDesc": "需要 — Nepal 护照持有者前往韩国需要签证（C-3-9 短期旅游，最多 90 天）。请在 Kathmandu 的韩国大使馆预约在线面谈：材料、费用（NPR 5,400）和办理时间。",
+    "ui": {
+      "visa": "签证类型",
+      "stay": "停留时间",
+      "entry": "入境",
+      "where": "从何处获取",
+      "official": "官方来源",
+      "required": "必需",
+      "conditional": "如适用",
+      "recommended": "推荐",
+      "confirm": "费用/规定可能变动 — 请在来源处确认",
+      "source": "来源",
+      "updated": "更新于",
+      "tldr": "摘要"
+    },
+    "verdict": {
+      "headline": "需要 — 持 Nepal 护照者需要签证。",
+      "sub": "您需要在 Kathmandu 的韩国大使馆通过在线预约申请 C-3-9 短期旅游签证（单次入境，停留最长 90 天）。K-ETA/免签入境不适用于 Nepal 护照。",
+      "type": "C-3-9 短期旅游",
+      "stay": "最长90天",
+      "entry": "单次入境（某些情况下可办理多次入境 — 请向大使馆咨询）"
+    },
+    "tldr": [
+      "在 visa.go.kr（唯一的官方门户）填写表格，打印并签名。",
+      "在 koreanembassynepal.org 预约在线名额 — 名额于每周一和周三 10:00 开放。",
+      "将 Nepal 的文件翻译成英文并进行公证；韩国文件必须是最近 3 个月内出具的原件。",
+      "费用 NPR 5,400（单次入境），在柜台现金支付；约 21 个工作日出结果。"
+    ],
+    "steps": {
+      "title": "申请流程，分步进行",
+      "items": [
+        {
+          "n": 1,
+          "title": "确认签证类型",
+          "detail": "旅游需要 C-3-9 短期访问（旅游）签证。开始前请备齐下面的清单。"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填写表格",
+          "detail": "前往 Korea Visa Portal（visa.go.kr）— 唯一的官方网站。填写申请表，然后打印并签名。每位申请人一份表格。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "预约在线名额",
+          "detail": "在 koreanembassynepal.org 预约名额。预约名额于每周一和周三 10:00 开放 — 请尽早预约，名额很快满。"
+        },
+        {
+          "n": 4,
+          "title": "备齐并准备材料",
+          "detail": "收集下面的清单。Nepal 的文件必须翻译成英文并进行公证；任何韩国文件都必须是最近 3 个月内出具的原件。"
+        },
+        {
+          "n": 5,
+          "title": "按预约到场并付款",
+          "detail": "在预约时间亲自前往 Kathmandu 的韩国大使馆递交表格和材料，并在柜台以现金支付 NPR 5,400 的费用。"
+        },
+        {
+          "n": 6,
+          "title": "等待办理",
+          "detail": "办理约需 21 个工作日。在获批之前不要预订不可退款的机票；您可能会被要求补充材料。"
+        },
+        {
+          "n": 7,
+          "title": "领取护照",
+          "detail": "按指示领取，收到后立即核对签证贴纸信息（姓名、日期、入境类型）。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "材料清单 — 附每份材料的获取地点和方法",
+      "intro": "这正是其他网站都略过的部分。对于每份材料，这里都准确说明从何处获取以及必须显示什么内容。Nepal 的文件需要英文翻译和公证。",
+      "cols": [
+        "材料",
+        "从何处获取",
+        "必须显示的内容"
+      ],
+      "rows": [
+        {
+          "doc": "护照",
+          "req": "required",
+          "where": "您已持有",
+          "how": "旅行结束后有效期 6 个月以上，至少 2 页空白页。如有旧护照也请携带。"
+        },
+        {
+          "doc": "签证申请表",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在 Korea Visa Portal 填写、打印并签名。每位申请人一份。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片",
+          "req": "required",
+          "where": "任何照相馆",
+          "how": "一张近期护照尺寸照片，纯白色背景，最近 6 个月内拍摄，正面全脸。"
+        },
+        {
+          "doc": "往返机票预订",
+          "req": "required",
+          "where": "航空公司/旅行社",
+          "how": "一份已确认的预订，出发时间至少在申请后 21 天。获批前请勿购买已付款的机票，也切勿提交假机票。"
+        },
+        {
+          "doc": "住宿证明",
+          "req": "required",
+          "where": "酒店预订网站",
+          "how": "涵盖您停留期间的已确认酒店预订。与他人同住？请附上邀请函+房东的身份证/ARC 复印件。"
+        },
+        {
+          "doc": "求职信+行程",
+          "req": "required",
+          "where": "自行撰写（英文）",
+          "how": "一封说明访问目的的信件，以及每日计划。"
+        },
+        {
+          "doc": "银行对账单/财力证明",
+          "req": "required",
+          "where": "您的银行",
+          "how": "一份近期对账单（带银行印章），显示您能支付本次旅行。Nepal 的文件需要英文翻译+公证。"
+        },
+        {
+          "doc": "在职/身份证明",
+          "req": "required",
+          "where": "雇主/企业/学校",
+          "how": "在职者：在职/请假证明。个体经营者：营业执照。学生：在读证明。翻译成英文并公证。"
+        }
+      ],
+      "legend": {
+        "required": "必需",
+        "conditional": "如适用于您",
+        "recommended": "推荐"
+      }
+    },
+    "funds": {
+      "title": "“我需要多少银行存款余额？”",
+      "body": "旅游签证没有公布单一的官方最低金额。重要的是证明您能从容支付整趟旅行，并且有理由返回 Nepal。审理官员看的是稳定性，而不仅仅是一个醒目的数字。",
+      "tips": [
+        "展示稳定的余额 — 申请前几天才存入的大笔金额显得薄弱。",
+        "将银行对账单与您的工作、生意或学业证明搭配；两者结合能讲出一个可信的故事。",
+        "有人资助？请附上资助人的银行对账单、签名的资助信，以及你们关系的证明。"
+      ]
+    },
+    "pitfalls": {
+      "title": "导致拒签和延误的错误",
+      "items": [
+        {
+          "icon": "🚫",
+          "t": "假机票或信息不符的机票",
+          "d": "提交假机票或虚假行程信息可能导致拒签，并被处以 3 年内禁止再申请。请使用真实的预订。"
+        },
+        {
+          "icon": "📜",
+          "t": "未公证的 Nepal 文件",
+          "d": "Nepal 的文件必须翻译成英文并进行公证。未翻译或未公证的材料会被退回。"
+        },
+        {
+          "icon": "📅",
+          "t": "错过预约时段",
+          "d": "预约名额于每周一和周三 10:00 开放，且很快满。请围绕这些时间安排您的预约。"
+        },
+        {
+          "icon": "🎫",
+          "t": "过早购买机票",
+          "d": "在获批前支付不可退款的机票。一份预订（出发在 21 天以上之后）就足以用于申请材料。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "照片不合格",
+          "d": "尺寸错误、彩色背景、戴眼镜或旧照片。请使用新拍的白底护照照片。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Nepal → 韩国签证常见问题",
+      "items": [
+        {
+          "q": "Nepal 公民前往韩国需要签证吗？",
+          "a": "需要 — 旅游需提前申请 C-3-9 短期旅游签证。Nepal 护照不免签，也不在 K-ETA 名单内。"
+        },
+        {
+          "q": "我如何预约？",
+          "a": "在 koreanembassynepal.org 在线预约。名额于每周一和周三 10:00 开放且很快满，所以请尽早预约。"
+        },
+        {
+          "q": "需要多长时间？",
+          "a": "约 21 个工作日，在旺季或需要额外审查时会更久。请在旅行前尽早申请。"
+        },
+        {
+          "q": "费用是多少？",
+          "a": "单次入境短期签证 NPR 5,400，在大使馆柜台以现金支付。金额会变动 — 请在大使馆确认当前费用。"
+        },
+        {
+          "q": "我的材料需要翻译吗？",
+          "a": "需要 — Nepal 的文件必须翻译成英文并进行公证。任何韩国文件都必须是最近 3 个月内出具的原件。"
+        },
+        {
+          "q": "为什么机票需要在申请后 21 天以上出发？",
+          "a": "大使馆希望您的行程日期能预留办理时间（约 21 个工作日）。请预订出发至少在 21 天以后的机票 — 且切勿使用假机票。"
+        },
+        {
+          "q": "我能办理多次入境签证吗？",
+          "a": "多次入境旅游签证在某些情况下可以办理，但资格因人而异。请向大使馆咨询目前针对 Nepal 的规定。"
+        },
+        {
+          "q": "拿到签证后我还需要 e-Arrival Card 吗？",
+          "a": "入境时 e-Arrival Card 的要求可能仍然适用。请在临近旅行日期时在官方网站查看入境材料规定。"
+        }
+      ]
+    }
+  },
+  "zh-TW": {
+    "kicker": "簽證指南 · Nepal → 韓國",
+    "readingTime": "閱讀8分鐘",
+    "h1": "從 Nepal 前往韓國的簽證",
+    "metaTitle": "Nepal 到韓國簽證：你需要嗎？（2026）— Korea Trip Hub",
+    "metaDesc": "需要 — Nepal 護照持有人前往韓國需要簽證（C-3-9 短期觀光，最多 90 天）。請在 Kathmandu 的韓國大使館預約線上面談：文件、費用（NPR 5,400）及辦理時間。",
+    "ui": {
+      "visa": "簽證類型",
+      "stay": "停留時間",
+      "entry": "入境",
+      "where": "從何處取得",
+      "official": "官方來源",
+      "required": "必備",
+      "conditional": "如適用",
+      "recommended": "建議",
+      "confirm": "費用/規定可能變動 — 請於來源處確認",
+      "source": "來源",
+      "updated": "更新於",
+      "tldr": "摘要"
+    },
+    "verdict": {
+      "headline": "需要 — 持 Nepal 護照者需要簽證。",
+      "sub": "您需要在 Kathmandu 的韓國大使館透過線上預約申請 C-3-9 短期旅遊簽證（單次入境，停留最長 90 天）。K-ETA/免簽入境不適用於 Nepal 護照。",
+      "type": "C-3-9 短期旅遊",
+      "stay": "最長90天",
+      "entry": "單次入境（某些情況下可辦理多次入境 — 請向大使館洽詢）"
+    },
+    "tldr": [
+      "在 visa.go.kr（唯一的官方入口網站）填寫表格，列印並簽名。",
+      "在 koreanembassynepal.org 預約線上名額 — 名額於每週一和週三 10:00 開放。",
+      "將 Nepal 的文件翻譯成英文並辦理公證；韓國文件必須是最近 3 個月內核發的正本。",
+      "費用 NPR 5,400（單次入境），在櫃台以現金支付；約 21 個工作天出結果。"
+    ],
+    "steps": {
+      "title": "申請流程，逐步進行",
+      "items": [
+        {
+          "n": 1,
+          "title": "確認簽證類型",
+          "detail": "旅遊需要 C-3-9 短期訪問（旅遊）簽證。開始前請備齊下方的清單。"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填寫表格",
+          "detail": "前往 Korea Visa Portal（visa.go.kr）— 唯一的官方網站。填寫申請表，然後列印並簽名。每位申請人一份表格。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "預約線上名額",
+          "detail": "在 koreanembassynepal.org 預約名額。預約名額於每週一和週三 10:00 開放 — 請盡早預約，名額很快額滿。"
+        },
+        {
+          "n": 4,
+          "title": "備齊並準備文件",
+          "detail": "收集下方的清單。Nepal 的文件必須翻譯成英文並辦理公證；任何韓國文件都必須是最近 3 個月內核發的正本。"
+        },
+        {
+          "n": 5,
+          "title": "依預約到場並付款",
+          "detail": "在預約時間親自前往 Kathmandu 的韓國大使館遞交表格和文件，並在櫃台以現金支付 NPR 5,400 的費用。"
+        },
+        {
+          "n": 6,
+          "title": "等待辦理",
+          "detail": "辦理約需 21 個工作天。在獲准之前請勿預訂不可退款的機票；您可能會被要求補充文件。"
+        },
+        {
+          "n": 7,
+          "title": "領取護照",
+          "detail": "依指示領取，收到後立即核對簽證貼紙資訊（姓名、日期、入境類型）。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "文件清單 — 附每份文件的取得地點和方法",
+      "intro": "這正是其他網站都略過的部分。對於每份文件，這裡都準確說明從何處取得以及必須顯示什麼內容。Nepal 的文件需要英文翻譯和公證。",
+      "cols": [
+        "文件",
+        "從何處取得",
+        "必須顯示的內容"
+      ],
+      "rows": [
+        {
+          "doc": "護照",
+          "req": "required",
+          "where": "您已持有",
+          "how": "旅行結束後有效期 6 個月以上，至少 2 頁空白頁。若有舊護照也請攜帶。"
+        },
+        {
+          "doc": "簽證申請表",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在 Korea Visa Portal 填寫、列印並簽名。每位申請人一份。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片",
+          "req": "required",
+          "where": "任何照相館",
+          "how": "一張近期護照尺寸照片，純白色背景，最近 6 個月內拍攝，正面全臉。"
+        },
+        {
+          "doc": "來回機票訂位",
+          "req": "required",
+          "where": "航空公司/旅行社",
+          "how": "一份已確認的訂位，出發時間至少在申請後 21 天。獲准前請勿購買已付款的機票，也切勿提交假機票。"
+        },
+        {
+          "doc": "住宿證明",
+          "req": "required",
+          "where": "飯店訂房網站",
+          "how": "涵蓋您停留期間的已確認飯店訂房。與他人同住？請附上邀請函+房東的身分證/ARC 影本。"
+        },
+        {
+          "doc": "求職信+行程",
+          "req": "required",
+          "where": "自行撰寫（英文）",
+          "how": "一封說明訪問目的的信件，以及每日計畫。"
+        },
+        {
+          "doc": "銀行對帳單/財力證明",
+          "req": "required",
+          "where": "您的銀行",
+          "how": "一份近期對帳單（附銀行印章），顯示您能支付本次旅行。Nepal 的文件需要英文翻譯+公證。"
+        },
+        {
+          "doc": "在職/身分證明",
+          "req": "required",
+          "where": "雇主/企業/學校",
+          "how": "在職者：在職/請假證明。自營業者：營業登記。學生：在學證明。翻譯成英文並公證。"
+        }
+      ],
+      "legend": {
+        "required": "必備",
+        "conditional": "如適用於您",
+        "recommended": "建議"
+      }
+    },
+    "funds": {
+      "title": "「我需要多少銀行存款餘額？」",
+      "body": "旅遊簽證並無公布單一的官方最低金額。重要的是證明您能從容負擔整趟旅行，並且有理由返回 Nepal。審理人員看的是穩定性，而不僅是一個醒目的數字。",
+      "tips": [
+        "展示穩定的餘額 — 申請前幾天才存入的大筆金額顯得薄弱。",
+        "將銀行對帳單與您的工作、生意或學業證明搭配；兩者結合能講出一個可信的故事。",
+        "有人贊助？請附上贊助人的銀行對帳單、簽名的贊助信，以及你們關係的證明。"
+      ]
+    },
+    "pitfalls": {
+      "title": "導致拒簽和延誤的錯誤",
+      "items": [
+        {
+          "icon": "🚫",
+          "t": "假機票或資訊不符的機票",
+          "d": "提交假機票或不實行程資訊可能導致拒簽，並被處以 3 年內禁止再申請。請使用真實的訂位。"
+        },
+        {
+          "icon": "📜",
+          "t": "未公證的 Nepal 文件",
+          "d": "Nepal 的文件必須翻譯成英文並辦理公證。未翻譯或未公證的文件會被退回。"
+        },
+        {
+          "icon": "📅",
+          "t": "錯過預約時段",
+          "d": "預約名額於每週一和週三 10:00 開放，且很快額滿。請圍繞這些時間安排您的預約。"
+        },
+        {
+          "icon": "🎫",
+          "t": "過早購買機票",
+          "d": "在獲准前支付不可退款的機票。一份訂位（出發在 21 天以上之後）就足以用於申請文件。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "照片不合格",
+          "d": "尺寸錯誤、彩色背景、戴眼鏡或舊照片。請使用新拍的白底護照照片。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Nepal → 韓國簽證常見問題",
+      "items": [
+        {
+          "q": "Nepal 公民前往韓國需要簽證嗎？",
+          "a": "需要 — 旅遊需提前申請 C-3-9 短期旅遊簽證。Nepal 護照不免簽，也不在 K-ETA 名單內。"
+        },
+        {
+          "q": "我如何預約？",
+          "a": "在 koreanembassynepal.org 線上預約。名額於每週一和週三 10:00 開放且很快額滿，所以請盡早預約。"
+        },
+        {
+          "q": "需要多長時間？",
+          "a": "約 21 個工作天，在旺季或需要額外審查時會更久。請在旅行前盡早申請。"
+        },
+        {
+          "q": "費用是多少？",
+          "a": "單次入境短期簽證 NPR 5,400，在大使館櫃台以現金支付。金額會變動 — 請在大使館確認目前費用。"
+        },
+        {
+          "q": "我的文件需要翻譯嗎？",
+          "a": "需要 — Nepal 的文件必須翻譯成英文並辦理公證。任何韓國文件都必須是最近 3 個月內核發的正本。"
+        },
+        {
+          "q": "為什麼機票需要在申請後 21 天以上出發？",
+          "a": "大使館希望您的行程日期能預留辦理時間（約 21 個工作天）。請預訂出發至少在 21 天以後的機票 — 且切勿使用假機票。"
+        },
+        {
+          "q": "我能辦理多次入境簽證嗎？",
+          "a": "多次入境旅遊簽證在某些情況下可以辦理，但資格因人而異。請向大使館洽詢目前針對 Nepal 的規定。"
+        },
+        {
+          "q": "拿到簽證後我還需要 e-Arrival Card 嗎？",
+          "a": "入境時 e-Arrival Card 的要求可能仍然適用。請在接近旅行日期時於官方網站查看入境文件規定。"
+        }
+      ]
+    }
+  },
+  "vi": {
+    "kicker": "Hướng dẫn visa · Nepal → Hàn Quốc",
+    "readingTime": "Đọc 8 phút",
+    "h1": "Visa Hàn Quốc từ Nepal",
+    "metaTitle": "Visa từ Nepal đến Hàn Quốc: Bạn có cần không? (2026) — Korea Trip Hub",
+    "metaDesc": "Có — người mang hộ chiếu Nepal cần visa vào Hàn Quốc (C-3-9 du lịch ngắn hạn, tối đa 90 ngày). Đặt lịch hẹn trực tuyến tại Đại sứ quán Hàn Quốc ở Kathmandu: giấy tờ, lệ phí (NPR 5,400) và thời gian xử lý.",
+    "ui": {
+      "visa": "Loại visa",
+      "stay": "Thời gian lưu trú",
+      "entry": "Nhập cảnh",
+      "where": "Lấy ở đâu",
+      "official": "Nguồn chính thức",
+      "required": "Bắt buộc",
+      "conditional": "Nếu áp dụng",
+      "recommended": "Khuyến nghị",
+      "confirm": "Lệ phí/quy định có thể thay đổi — hãy xác nhận tại nguồn",
+      "source": "Nguồn",
+      "updated": "Cập nhật",
+      "tldr": "Tóm tắt"
+    },
+    "verdict": {
+      "headline": "Có — người mang hộ chiếu Nepal cần visa.",
+      "sub": "Bạn sẽ nộp hồ sơ xin visa du lịch ngắn hạn C-3-9 (nhập cảnh một lần, lưu trú tối đa 90 ngày) tại Đại sứ quán Hàn Quốc ở Kathmandu, theo lịch hẹn trực tuyến. Nhập cảnh bằng K-ETA/miễn visa KHÔNG áp dụng cho hộ chiếu Nepal.",
+      "type": "C-3-9 Du lịch ngắn hạn",
+      "stay": "Tối đa 90 ngày",
+      "entry": "Nhập cảnh một lần (nhập cảnh nhiều lần có thể được trong một số trường hợp — hãy hỏi tại đại sứ quán)"
+    },
+    "tldr": [
+      "Điền mẫu đơn tại visa.go.kr (cổng chính thức DUY NHẤT), in ra và ký tên.",
+      "Đặt lịch hẹn trực tuyến tại koreanembassynepal.org — các suất mở vào thứ Hai và thứ Tư lúc 10:00.",
+      "Dịch giấy tờ Nepal sang tiếng Anh VÀ công chứng; giấy tờ Hàn Quốc phải là bản gốc được cấp trong vòng 3 tháng gần đây.",
+      "Lệ phí NPR 5,400 (nhập cảnh một lần), tiền mặt tại quầy; có kết quả trong khoảng 21 ngày làm việc."
+    ],
+    "steps": {
+      "title": "Quy trình nộp hồ sơ, từng bước",
+      "items": [
+        {
+          "n": 1,
+          "title": "Xác nhận loại visa",
+          "detail": "Để du lịch, bạn cần visa thăm ngắn hạn (du lịch) C-3-9. Hãy chuẩn bị danh sách bên dưới trước khi bắt đầu."
+        },
+        {
+          "n": 2,
+          "title": "Điền mẫu đơn tại visa.go.kr",
+          "detail": "Truy cập Korea Visa Portal (visa.go.kr) — trang chính thức duy nhất. Hoàn thành mẫu đơn, sau đó in ra và ký tên. Mỗi người nộp một mẫu đơn.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Đặt lịch hẹn trực tuyến",
+          "detail": "Đặt một suất tại koreanembassynepal.org. Các suất hẹn mở vào thứ Hai và thứ Tư lúc 10:00 — hãy đặt sớm, chúng hết rất nhanh."
+        },
+        {
+          "n": 4,
+          "title": "Tập hợp & chuẩn bị giấy tờ của bạn",
+          "detail": "Thu thập danh sách bên dưới. Giấy tờ Nepal phải được dịch sang tiếng Anh và công chứng; mọi giấy tờ Hàn Quốc phải là bản gốc được cấp trong vòng 3 tháng gần đây."
+        },
+        {
+          "n": 5,
+          "title": "Đến buổi hẹn & thanh toán",
+          "detail": "Nộp mẫu đơn và giấy tờ trực tiếp tại Đại sứ quán Hàn Quốc ở Kathmandu vào giờ hẹn của bạn, và trả lệ phí NPR 5,400 bằng tiền mặt tại quầy."
+        },
+        {
+          "n": 6,
+          "title": "Chờ xử lý",
+          "detail": "Việc xử lý mất khoảng 21 ngày làm việc. Đừng đặt vé máy bay không hoàn tiền cho đến khi được chấp thuận; bạn có thể được yêu cầu bổ sung giấy tờ."
+        },
+        {
+          "n": 7,
+          "title": "Nhận lại hộ chiếu",
+          "detail": "Nhận theo hướng dẫn và kiểm tra thông tin trên tem visa (tên, ngày tháng, loại nhập cảnh) ngay khi nhận được."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Danh sách giấy tờ — kèm nơi & cách lấy từng loại",
+      "intro": "Đây là phần mà mọi trang khác đều bỏ qua. Với mỗi giấy tờ, đây là chỉ dẫn chính xác lấy ở đâu và phải thể hiện điều gì. Giấy tờ Nepal cần bản dịch tiếng Anh và công chứng.",
+      "cols": [
+        "Giấy tờ",
+        "Lấy ở đâu",
+        "Phải thể hiện điều gì"
+      ],
+      "rows": [
+        {
+          "doc": "Hộ chiếu",
+          "req": "required",
+          "where": "Bạn đã có",
+          "how": "Còn hiệu lực trên 6 tháng sau chuyến đi, với ít nhất 2 trang trắng. Hãy mang theo cả hộ chiếu cũ nếu có."
+        },
+        {
+          "doc": "Mẫu đơn xin visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Hoàn thành trên Korea Visa Portal, in ra và ký tên. Mỗi người một mẫu.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Ảnh",
+          "req": "required",
+          "where": "Bất kỳ tiệm chụp ảnh nào",
+          "how": "Một ảnh cỡ hộ chiếu gần đây, nền trắng trơn, chụp trong vòng 6 tháng gần đây, khuôn mặt trực diện."
+        },
+        {
+          "doc": "Đặt vé máy bay khứ hồi",
+          "req": "required",
+          "where": "Hãng bay / đại lý du lịch",
+          "how": "Một đặt chỗ đã xác nhận với ngày khởi hành ít nhất 21 ngày sau khi bạn nộp. ĐỪNG mua vé đã thanh toán trước khi được chấp thuận, và không bao giờ nộp vé giả."
+        },
+        {
+          "doc": "Chứng minh chỗ ở",
+          "req": "required",
+          "where": "Trang đặt phòng khách sạn",
+          "how": "Đặt phòng khách sạn đã xác nhận bao trùm thời gian lưu trú. Ở nhờ nhà ai đó? Bổ sung thư mời + bản sao CMND/ARC của chủ nhà."
+        },
+        {
+          "doc": "Thư ngỏ + lịch trình",
+          "req": "required",
+          "where": "Tự viết (tiếng Anh)",
+          "how": "Một lá thư nêu mục đích chuyến thăm của bạn và kế hoạch từng ngày."
+        },
+        {
+          "doc": "Sao kê ngân hàng / chứng minh tài chính",
+          "req": "required",
+          "where": "Ngân hàng của bạn",
+          "how": "Một bản sao kê gần đây (có dấu ngân hàng) cho thấy bạn có thể chi trả cho chuyến đi. Giấy tờ Nepal cần bản dịch tiếng Anh + công chứng."
+        },
+        {
+          "doc": "Chứng minh việc làm / tình trạng",
+          "req": "required",
+          "where": "Nhà tuyển dụng / doanh nghiệp / trường học",
+          "how": "Người đi làm: thư xác nhận việc làm/nghỉ phép. Tự kinh doanh: đăng ký kinh doanh. Sinh viên: giấy xác nhận sinh viên. Dịch sang tiếng Anh và công chứng."
+        }
+      ],
+      "legend": {
+        "required": "Bắt buộc",
+        "conditional": "Nếu áp dụng với bạn",
+        "recommended": "Khuyến nghị"
+      }
+    },
+    "funds": {
+      "title": "\"Tôi cần bao nhiêu số dư ngân hàng?\"",
+      "body": "Không có một mức tối thiểu chính thức duy nhất nào được công bố cho visa du lịch. Điều quan trọng là chứng minh bạn có thể thoải mái chi trả cho cả chuyến đi và có lý do để quay về Nepal. Cán bộ xét duyệt nhìn vào sự ổn định, chứ không chỉ một con số nổi bật.",
+      "tips": [
+        "Hãy cho thấy số dư ổn định — một khoản nạp lớn vài ngày trước khi nộp trông rất yếu.",
+        "Kết hợp sao kê ngân hàng với bằng chứng về công việc, kinh doanh hoặc học tập của bạn; cả hai cùng nhau kể một câu chuyện đáng tin.",
+        "Được tài trợ? Hãy bổ sung sao kê ngân hàng của người tài trợ, một thư bảo trợ có chữ ký, và bằng chứng về mối quan hệ của bạn."
+      ]
+    },
+    "pitfalls": {
+      "title": "Những lỗi gây từ chối & chậm trễ",
+      "items": [
+        {
+          "icon": "🚫",
+          "t": "Vé máy bay giả hoặc không khớp",
+          "d": "Nộp vé giả hoặc thông tin chuyến đi sai lệch có thể dẫn đến bị từ chối VÀ cấm nộp lại trong 3 năm. Hãy dùng một đặt chỗ thật."
+        },
+        {
+          "icon": "📜",
+          "t": "Giấy tờ Nepal chưa công chứng",
+          "d": "Giấy tờ Nepal phải được dịch sang tiếng Anh và công chứng. Giấy tờ chưa dịch hoặc chưa công chứng sẽ bị trả lại."
+        },
+        {
+          "icon": "📅",
+          "t": "Lỡ khung giờ đặt hẹn",
+          "d": "Các suất hẹn mở vào thứ Hai và thứ Tư lúc 10:00 và hết rất nhanh. Hãy lên kế hoạch đặt hẹn quanh các mốc đó."
+        },
+        {
+          "icon": "🎫",
+          "t": "Mua vé máy bay quá sớm",
+          "d": "Thanh toán vé không hoàn tiền trước khi được chấp thuận. Một đặt chỗ (khởi hành sau 21+ ngày) là đủ cho hồ sơ."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Ảnh không đạt",
+          "d": "Sai kích thước, nền màu, đeo kính hoặc ảnh cũ. Hãy dùng ảnh hộ chiếu mới nền trắng."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về visa Nepal → Hàn Quốc",
+      "items": [
+        {
+          "q": "Công dân Nepal có cần visa vào Hàn Quốc không?",
+          "a": "Có — để du lịch, bạn nộp hồ sơ trước cho visa du lịch ngắn hạn C-3-9. Hộ chiếu Nepal không được miễn visa và không nằm trong danh sách K-ETA."
+        },
+        {
+          "q": "Làm sao để tôi đặt được lịch hẹn?",
+          "a": "Đặt trực tuyến tại koreanembassynepal.org. Các suất mở vào thứ Hai và thứ Tư lúc 10:00 và hết rất nhanh, vì vậy hãy đặt sớm nhất có thể."
+        },
+        {
+          "q": "Mất bao lâu?",
+          "a": "Khoảng 21 ngày làm việc, và lâu hơn vào mùa cao điểm hoặc nếu cần kiểm tra thêm. Hãy nộp thật sớm trước chuyến đi."
+        },
+        {
+          "q": "Chi phí là bao nhiêu?",
+          "a": "NPR 5,400 cho visa ngắn hạn nhập cảnh một lần, trả bằng tiền mặt tại quầy đại sứ quán. Số tiền có thể thay đổi — hãy xác nhận lệ phí hiện tại tại đại sứ quán."
+        },
+        {
+          "q": "Giấy tờ của tôi có cần dịch không?",
+          "a": "Có — giấy tờ Nepal phải được dịch sang tiếng Anh và công chứng. Mọi giấy tờ Hàn Quốc phải là bản gốc được cấp trong vòng 3 tháng gần đây."
+        },
+        {
+          "q": "Vì sao chuyến bay phải khởi hành sau khi nộp 21+ ngày?",
+          "a": "Đại sứ quán mong muốn ngày đi của bạn để có thời gian xử lý (khoảng 21 ngày làm việc). Hãy đặt chỗ với ngày khởi hành ít nhất 21 ngày sau — và không bao giờ dùng vé giả."
+        },
+        {
+          "q": "Tôi có thể xin visa nhập cảnh nhiều lần không?",
+          "a": "Visa du lịch nhập cảnh nhiều lần có thể được cấp trong một số trường hợp, nhưng điều kiện khác nhau. Hãy hỏi đại sứ quán về quy định hiện hành cho Nepal."
+        },
+        {
+          "q": "Tôi có còn cần e-Arrival Card sau khi có visa không?",
+          "a": "Yêu cầu e-Arrival Card vẫn có thể áp dụng khi nhập cảnh. Hãy kiểm tra quy định về giấy tờ nhập cảnh trên các trang chính thức gần ngày đi của bạn."
+        }
+      ]
+    }
+  },
+  "th": {
+    "kicker": "คู่มือวีซ่า · Nepal → เกาหลี",
+    "readingTime": "อ่าน 8 นาที",
+    "h1": "วีซ่าเกาหลีจาก Nepal",
+    "metaTitle": "วีซ่าเข้าเกาหลีจาก Nepal: ต้องใช้ไหม? (2026) — Korea Trip Hub",
+    "metaDesc": "ใช่ — ผู้ถือหนังสือเดินทาง Nepal ต้องใช้วีซ่าเข้าเกาหลีใต้ (C-3-9 ท่องเที่ยวระยะสั้น สูงสุด 90 วัน) จองนัดหมายออนไลน์ที่สถานเอกอัครราชทูตเกาหลีใน Kathmandu: เอกสาร ค่าธรรมเนียม (NPR 5,400) และระยะเวลาดำเนินการ",
+    "ui": {
+      "visa": "ประเภทวีซ่า",
+      "stay": "ระยะเวลาพำนัก",
+      "entry": "การเข้าเมือง",
+      "where": "ขอได้ที่ไหน",
+      "official": "แหล่งข้อมูลทางการ",
+      "required": "จำเป็น",
+      "conditional": "หากเข้าข่าย",
+      "recommended": "แนะนำ",
+      "confirm": "ค่าธรรมเนียม/กฎอาจเปลี่ยนแปลง — โปรดตรวจสอบจากแหล่งข้อมูล",
+      "source": "แหล่งที่มา",
+      "updated": "อัปเดตเมื่อ",
+      "tldr": "สรุป"
+    },
+    "verdict": {
+      "headline": "ใช่ — ผู้ถือหนังสือเดินทาง Nepal ต้องมีวีซ่า",
+      "sub": "คุณจะยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3-9 (เข้าออกครั้งเดียว พำนักได้สูงสุด 90 วัน) ที่สถานเอกอัครราชทูตเกาหลีใน Kathmandu โดยการนัดหมายออนไลน์ การเข้าเมืองแบบ K-ETA/ยกเว้นวีซ่าไม่ใช้กับหนังสือเดินทาง Nepal",
+      "type": "C-3-9 ท่องเที่ยวระยะสั้น",
+      "stay": "สูงสุด 90 วัน",
+      "entry": "เข้าออกครั้งเดียว (บางกรณีอาจขอแบบเข้าออกหลายครั้งได้ — สอบถามที่สถานทูต)"
+    },
+    "tldr": [
+      "กรอกแบบฟอร์มที่ visa.go.kr (พอร์ทัลทางการเพียงแห่งเดียว) พิมพ์ออกมาแล้วลงนาม",
+      "จองนัดหมายออนไลน์ที่ koreanembassynepal.org — ช่วงนัดหมายจะเปิดทุกวันจันทร์และวันพุธเวลา 10:00",
+      "นำเอกสาร Nepal ไปแปลเป็นภาษาอังกฤษและรับรองโดยโนตารี เอกสารเกาหลีต้องเป็นต้นฉบับที่ออกภายใน 3 เดือนที่ผ่านมา",
+      "ค่าธรรมเนียม NPR 5,400 (เข้าออกครั้งเดียว) ชำระเงินสดที่เคาน์เตอร์ ทราบผลภายในประมาณ 21 วันทำการ"
+    ],
+    "steps": {
+      "title": "การยื่นคำร้อง ทีละขั้นตอน",
+      "items": [
+        {
+          "n": 1,
+          "title": "ยืนยันประเภทวีซ่า",
+          "detail": "สำหรับการท่องเที่ยว คุณต้องใช้วีซ่าเยือนระยะสั้น (ท่องเที่ยว) C-3-9 รวบรวมรายการตรวจสอบด้านล่างก่อนเริ่ม"
+        },
+        {
+          "n": 2,
+          "title": "กรอกแบบฟอร์มที่ visa.go.kr",
+          "detail": "ไปที่ Korea Visa Portal (visa.go.kr) — เว็บไซต์ทางการเพียงแห่งเดียว กรอกแบบฟอร์มคำร้อง พิมพ์ออกมาแล้วลงนาม หนึ่งแบบฟอร์มต่อผู้ยื่นหนึ่งคน",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "จองนัดหมายออนไลน์",
+          "detail": "จองช่วงเวลาที่ koreanembassynepal.org ช่วงนัดหมายจะเปิดทุกวันจันทร์และวันพุธเวลา 10:00 — จองแต่เนิ่น ๆ เพราะเต็มเร็ว"
+        },
+        {
+          "n": 4,
+          "title": "รวบรวมและเตรียมเอกสารของคุณ",
+          "detail": "รวบรวมรายการตรวจสอบด้านล่าง เอกสาร Nepal ต้องแปลเป็นภาษาอังกฤษและรับรองโดยโนตารี ส่วนเอกสารเกาหลีต้องเป็นต้นฉบับที่ออกภายใน 3 เดือนที่ผ่านมา"
+        },
+        {
+          "n": 5,
+          "title": "ไปตามนัดและชำระเงิน",
+          "detail": "ยื่นแบบฟอร์มและเอกสารด้วยตนเองที่สถานเอกอัครราชทูตเกาหลีใน Kathmandu ตามเวลานัดหมาย และชำระค่าธรรมเนียม NPR 5,400 เป็นเงินสดที่เคาน์เตอร์"
+        },
+        {
+          "n": 6,
+          "title": "รอการดำเนินการ",
+          "detail": "การดำเนินการใช้เวลาประมาณ 21 วันทำการ อย่าจองเที่ยวบินที่คืนเงินไม่ได้จนกว่าจะได้รับอนุมัติ คุณอาจถูกขอเอกสารเพิ่มเติม"
+        },
+        {
+          "n": 7,
+          "title": "รับหนังสือเดินทางของคุณ",
+          "detail": "รับตามคำแนะนำ และตรวจสอบรายละเอียดสติกเกอร์วีซ่า (ชื่อ วันที่ ประเภทการเข้าเมือง) ทันทีที่ได้รับ"
+        }
+      ]
+    },
+    "documents": {
+      "title": "รายการตรวจสอบเอกสาร — พร้อมบอกว่าขอแต่ละอย่างได้ที่ไหนและอย่างไร",
+      "intro": "นี่คือส่วนที่เว็บไซต์อื่นทุกแห่งข้ามไป สำหรับเอกสารแต่ละอย่าง นี่คือที่ที่คุณขอได้และสิ่งที่ต้องปรากฏในเอกสารนั้นอย่างชัดเจน เอกสาร Nepal ต้องมีการแปลเป็นภาษาอังกฤษและการรับรองโดยโนตารี",
+      "cols": [
+        "เอกสาร",
+        "ขอได้ที่ไหน",
+        "ต้องแสดงอะไร"
+      ],
+      "rows": [
+        {
+          "doc": "หนังสือเดินทาง",
+          "req": "required",
+          "where": "คุณมีอยู่แล้ว",
+          "how": "มีอายุเหลือ 6+ เดือนหลังการเดินทาง มีหน้าว่างอย่างน้อย 2 หน้า หากมีหนังสือเดินทางเล่มเก่าให้นำมาด้วย"
+        },
+        {
+          "doc": "แบบฟอร์มคำร้องขอวีซ่า",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "กรอกที่ Korea Visa Portal พิมพ์ออกมาแล้วลงนาม หนึ่งชุดต่อผู้ยื่นหนึ่งคน",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "รูปถ่าย",
+          "req": "required",
+          "where": "ร้านถ่ายรูปใดก็ได้",
+          "how": "รูปถ่ายขนาดหนังสือเดินทางล่าสุด 1 รูป พื้นหลังสีขาวเรียบ ถ่ายภายใน 6 เดือนที่ผ่านมา เห็นใบหน้าเต็ม"
+        },
+        {
+          "doc": "การจองเที่ยวบินไป-กลับ",
+          "req": "required",
+          "where": "สายการบิน / ตัวแทนท่องเที่ยว",
+          "how": "การจองที่ยืนยันแล้วโดยมีกำหนดออกเดินทางอย่างน้อย 21 วันหลังจากยื่น อย่าซื้อตั๋วที่จ่ายเงินแล้วก่อนได้รับอนุมัติ และห้ามยื่นตั๋วปลอมเด็ดขาด"
+        },
+        {
+          "doc": "หลักฐานที่พัก",
+          "req": "required",
+          "where": "เว็บไซต์จองโรงแรม",
+          "how": "การจองโรงแรมที่ยืนยันแล้วครอบคลุมช่วงพำนักของคุณ พักกับใครสักคน? เพิ่มจดหมายเชิญ + สำเนาบัตรประจำตัว/ARC ของเจ้าบ้าน"
+        },
+        {
+          "doc": "จดหมายนำ + กำหนดการเดินทาง",
+          "req": "required",
+          "where": "เขียนเอง (ภาษาอังกฤษ)",
+          "how": "จดหมายระบุจุดประสงค์การมาเยือนของคุณ พร้อมแผนรายวัน"
+        },
+        {
+          "doc": "รายการเดินบัญชีธนาคาร / หลักฐานการเงิน",
+          "req": "required",
+          "where": "ธนาคารของคุณ",
+          "how": "รายการเดินบัญชีล่าสุด (มีตราประทับของธนาคาร) ที่แสดงว่าคุณสามารถออกค่าใช้จ่ายการเดินทางได้ เอกสาร Nepal ต้องมีการแปลเป็นภาษาอังกฤษ + การรับรองโดยโนตารี"
+        },
+        {
+          "doc": "หลักฐานการจ้างงาน / สถานะ",
+          "req": "required",
+          "where": "นายจ้าง / ธุรกิจ / วิทยาลัย",
+          "how": "ลูกจ้าง: หนังสือรับรองการทำงาน/การลา ผู้ประกอบอาชีพอิสระ: ทะเบียนธุรกิจ นักศึกษา: หนังสือรับรองการเป็นนักศึกษา แปลเป็นภาษาอังกฤษและรับรองโดยโนตารี"
+        }
+      ],
+      "legend": {
+        "required": "จำเป็น",
+        "conditional": "หากเข้าข่ายกับคุณ",
+        "recommended": "แนะนำ"
+      }
+    },
+    "funds": {
+      "title": "\"ต้องมียอดเงินในธนาคารเท่าไร?\"",
+      "body": "ไม่มีจำนวนขั้นต่ำอย่างเป็นทางการเพียงตัวเดียวที่ประกาศไว้สำหรับวีซ่าท่องเที่ยว สิ่งที่สำคัญคือการพิสูจน์ว่าคุณสามารถออกค่าใช้จ่ายตลอดการเดินทางได้อย่างสบาย ๆ และมีเหตุผลที่จะกลับ Nepal เจ้าหน้าที่พิจารณาความมั่นคง ไม่ใช่แค่ตัวเลขที่ดูดี",
+      "tips": [
+        "แสดงยอดคงเหลือที่สม่ำเสมอ — การฝากเงินก้อนใหญ่ไม่กี่วันก่อนยื่นดูอ่อน",
+        "จับคู่รายการเดินบัญชีธนาคารกับหลักฐานงาน ธุรกิจ หรือการเรียนของคุณ เมื่อรวมกันจะเล่าเรื่องที่น่าเชื่อถือ",
+        "มีผู้สนับสนุน? เพิ่มรายการเดินบัญชีธนาคารของผู้สนับสนุน จดหมายสนับสนุนที่ลงนาม และหลักฐานความสัมพันธ์ของคุณ"
+      ]
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดที่ทำให้ถูกปฏิเสธและล่าช้า",
+      "items": [
+        {
+          "icon": "🚫",
+          "t": "ตั๋วเครื่องบินปลอมหรือไม่ตรงกัน",
+          "d": "การยื่นตั๋วปลอมหรือข้อมูลการเดินทางเท็จอาจทำให้ถูกปฏิเสธ และถูกห้ามยื่นใหม่เป็นเวลา 3 ปี ใช้การจองจริง"
+        },
+        {
+          "icon": "📜",
+          "t": "เอกสาร Nepal ที่ไม่ได้รับรองโดยโนตารี",
+          "d": "เอกสาร Nepal ต้องแปลเป็นภาษาอังกฤษและรับรองโดยโนตารี เอกสารที่ไม่ได้แปลหรือไม่ได้รับรองจะถูกส่งกลับ"
+        },
+        {
+          "icon": "📅",
+          "t": "พลาดช่วงเวลานัดหมาย",
+          "d": "ช่วงนัดหมายเปิดทุกวันจันทร์และวันพุธเวลา 10:00 และเต็มเร็ว วางแผนการจองของคุณให้สอดคล้อง"
+        },
+        {
+          "icon": "🎫",
+          "t": "ซื้อตั๋วเครื่องบินเร็วเกินไป",
+          "d": "จ่ายค่าตั๋วที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ การจอง (ออกเดินทางในอีก 21+ วัน) ก็เพียงพอสำหรับแฟ้ม"
+        },
+        {
+          "icon": "🖼️",
+          "t": "รูปถ่ายไม่ดี",
+          "d": "ขนาดผิด พื้นหลังมีสี ใส่แว่นตา หรือรูปเก่า ใช้รูปถ่ายหนังสือเดินทางใหม่พื้นหลังสีขาว"
+        }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยเกี่ยวกับวีซ่า Nepal → เกาหลี",
+      "items": [
+        {
+          "q": "พลเมือง Nepal ต้องใช้วีซ่าเข้าเกาหลีไหม?",
+          "a": "ใช่ — สำหรับการท่องเที่ยว คุณยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3-9 ล่วงหน้า หนังสือเดินทาง Nepal ไม่ได้รับการยกเว้นวีซ่าและไม่อยู่ในรายชื่อ K-ETA"
+        },
+        {
+          "q": "ฉันจะจองนัดหมายได้อย่างไร?",
+          "a": "จองออนไลน์ที่ koreanembassynepal.org ช่วงนัดหมายเปิดทุกวันจันทร์และวันพุธเวลา 10:00 และเต็มเร็ว ดังนั้นจองให้เร็วที่สุดเท่าที่ทำได้"
+        },
+        {
+          "q": "ใช้เวลานานเท่าไร?",
+          "a": "ประมาณ 21 วันทำการ และนานกว่านั้นในช่วงฤดูท่องเที่ยวที่คนเยอะหรือหากต้องตรวจสอบเพิ่มเติม ยื่นล่วงหน้าก่อนการเดินทางนาน ๆ"
+        },
+        {
+          "q": "ค่าใช้จ่ายเท่าไร?",
+          "a": "NPR 5,400 สำหรับวีซ่าระยะสั้นเข้าออกครั้งเดียว ชำระเงินสดที่เคาน์เตอร์สถานทูต จำนวนเงินเปลี่ยนแปลงได้ — ยืนยันค่าธรรมเนียมปัจจุบันที่สถานทูต"
+        },
+        {
+          "q": "เอกสารของฉันต้องแปลไหม?",
+          "a": "ใช่ — เอกสาร Nepal ต้องแปลเป็นภาษาอังกฤษและรับรองโดยโนตารี เอกสารเกาหลีต้องเป็นต้นฉบับที่ออกภายใน 3 เดือนที่ผ่านมา"
+        },
+        {
+          "q": "ทำไมเที่ยวบินต้องออกเดินทางหลังยื่น 21+ วัน?",
+          "a": "สถานทูตคาดหวังว่ากำหนดการเดินทางของคุณจะเผื่อเวลาสำหรับการดำเนินการ (ประมาณ 21 วันทำการ) จองโดยมีกำหนดออกเดินทางอย่างน้อย 21 วัน — และห้ามใช้ตั๋วปลอมเด็ดขาด"
+        },
+        {
+          "q": "ฉันขอวีซ่าเข้าออกหลายครั้งได้ไหม?",
+          "a": "วีซ่าท่องเที่ยวเข้าออกหลายครั้งเป็นไปได้ในบางกรณี แต่คุณสมบัติแตกต่างกันไป สอบถามที่สถานทูตเกี่ยวกับกฎปัจจุบันสำหรับ Nepal"
+        },
+        {
+          "q": "หลังจากได้วีซ่าแล้ว ยังต้องใช้ e-Arrival Card อยู่ไหม?",
+          "a": "ข้อกำหนด e-Arrival Card อาจยังใช้เมื่อเข้าเมือง ตรวจสอบกฎเอกสารการเข้าเมืองบนเว็บไซต์ทางการใกล้ ๆ วันเดินทางของคุณ"
+        }
+      ]
+    }
+  },
+  "id": {
+    "kicker": "Panduan visa · Nepal → Korea",
+    "readingTime": "Baca 8 menit",
+    "h1": "Visa Korea dari Nepal",
+    "metaTitle": "Visa Nepal ke Korea: Perlukah? (2026) — Korea Trip Hub",
+    "metaDesc": "Ya — pemegang paspor Nepal memerlukan visa untuk Korea Selatan (C-3-9 turis jangka pendek, hingga 90 hari). Pesan janji temu daring di Kedutaan Besar Korea di Kathmandu: dokumen, biaya (NPR 5,400), dan waktu pemrosesan.",
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Masa tinggal",
+      "entry": "Masuk",
+      "where": "Tempat mendapatkannya",
+      "official": "Sumber resmi",
+      "required": "Wajib",
+      "conditional": "Jika berlaku",
+      "recommended": "Disarankan",
+      "confirm": "Biaya/aturan dapat berubah — konfirmasi di sumbernya",
+      "source": "Sumber",
+      "updated": "Diperbarui",
+      "tldr": "Ringkasan"
+    },
+    "verdict": {
+      "headline": "Ya — pemegang paspor Nepal memerlukan visa.",
+      "sub": "Anda akan mengajukan visa turis jangka pendek C-3-9 (sekali masuk, tinggal hingga 90 hari) di Kedutaan Besar Korea di Kathmandu, melalui janji temu daring. Masuk dengan K-ETA/bebas visa TIDAK berlaku untuk paspor Nepal.",
+      "type": "C-3-9 Turis Jangka Pendek",
+      "stay": "Hingga 90 hari",
+      "entry": "Sekali masuk (masuk berkali-kali dimungkinkan dalam beberapa kasus — tanyakan di kedutaan)"
+    },
+    "tldr": [
+      "Isi formulir di visa.go.kr (SATU-SATUNYA portal resmi), cetak, dan tanda tangani.",
+      "Pesan janji temu daring di koreanembassynepal.org — slot dibuka pada hari Senin dan Rabu pukul 10:00.",
+      "Terjemahkan dokumen Nepal ke bahasa Inggris DAN legalisasi notaris; dokumen Korea harus asli yang diterbitkan dalam 3 bulan terakhir.",
+      "Biaya NPR 5,400 (sekali masuk), tunai di loket; hasil dalam sekitar 21 hari kerja."
+    ],
+    "steps": {
+      "title": "Pengajuan, langkah demi langkah",
+      "items": [
+        {
+          "n": 1,
+          "title": "Konfirmasi jenis visa",
+          "detail": "Untuk pariwisata Anda memerlukan visa kunjungan jangka pendek (turis) C-3-9. Kumpulkan daftar periksa di bawah sebelum memulai."
+        },
+        {
+          "n": 2,
+          "title": "Isi formulir di visa.go.kr",
+          "detail": "Buka Korea Visa Portal (visa.go.kr) — satu-satunya situs resmi. Lengkapi formulir pengajuan, lalu cetak dan tanda tangani. Satu formulir per pemohon.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Pesan janji temu daring",
+          "detail": "Pesan slot di koreanembassynepal.org. Slot janji temu dibuka pada hari Senin dan Rabu pukul 10:00 — pesan lebih awal, cepat penuh."
+        },
+        {
+          "n": 4,
+          "title": "Susun & siapkan dokumen Anda",
+          "detail": "Kumpulkan daftar periksa di bawah. Dokumen Nepal harus diterjemahkan ke bahasa Inggris dan dilegalisasi notaris; dokumen Korea apa pun harus asli yang diterbitkan dalam 3 bulan terakhir."
+        },
+        {
+          "n": 5,
+          "title": "Hadiri janji temu & bayar",
+          "detail": "Serahkan formulir dan dokumen Anda secara langsung di Kedutaan Besar Korea di Kathmandu pada waktu janji temu Anda, dan bayar biaya NPR 5,400 secara tunai di loket."
+        },
+        {
+          "n": 6,
+          "title": "Tunggu pemrosesan",
+          "detail": "Pemrosesan memakan waktu sekitar 21 hari kerja. Jangan pesan penerbangan yang tidak dapat dikembalikan sampai Anda disetujui; Anda mungkin diminta dokumen tambahan."
+        },
+        {
+          "n": 7,
+          "title": "Ambil paspor Anda",
+          "detail": "Ambil sesuai petunjuk dan periksa detail stiker visa (nama, tanggal, jenis masuk) begitu Anda menerimanya."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Daftar periksa dokumen — dengan tempat & cara mendapatkan masing-masing",
+      "intro": "Ini adalah bagian yang dilewati semua situs lain. Untuk setiap dokumen, berikut penjelasan persis di mana mendapatkannya dan apa yang harus ditunjukkannya. Dokumen Nepal memerlukan terjemahan bahasa Inggris dan legalisasi notaris.",
+      "cols": [
+        "Dokumen",
+        "Tempat mendapatkannya",
+        "Apa yang harus ditunjukkan"
+      ],
+      "rows": [
+        {
+          "doc": "Paspor",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Berlaku 6+ bulan setelah perjalanan Anda, dengan minimal 2 halaman kosong. Bawa juga paspor lama jika ada."
+        },
+        {
+          "doc": "Formulir pengajuan visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapi di Korea Visa Portal, cetak, dan tanda tangani. Satu per pemohon.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto",
+          "req": "required",
+          "where": "Studio foto mana pun",
+          "how": "Satu foto ukuran paspor terbaru, latar putih polos, diambil dalam 6 bulan terakhir, wajah penuh."
+        },
+        {
+          "doc": "Reservasi penerbangan pulang-pergi",
+          "req": "required",
+          "where": "Maskapai / agen perjalanan",
+          "how": "Reservasi terkonfirmasi dengan keberangkatan setidaknya 21 hari setelah Anda mengajukan. JANGAN membeli tiket berbayar sebelum persetujuan, dan jangan pernah menyerahkan tiket palsu."
+        },
+        {
+          "doc": "Bukti akomodasi",
+          "req": "required",
+          "where": "Situs pemesanan hotel",
+          "how": "Pemesanan hotel terkonfirmasi yang mencakup masa tinggal Anda. Menginap dengan seseorang? Tambahkan surat undangan + salinan KTP/ARC tuan rumah."
+        },
+        {
+          "doc": "Surat pengantar + itinerari",
+          "req": "required",
+          "where": "Tulis sendiri (bahasa Inggris)",
+          "how": "Surat yang menyatakan tujuan kunjungan Anda dan rencana harian."
+        },
+        {
+          "doc": "Rekening koran / bukti keuangan",
+          "req": "required",
+          "where": "Bank Anda",
+          "how": "Rekening koran terbaru (dengan segel bank) yang menunjukkan Anda mampu membiayai perjalanan. Dokumen Nepal memerlukan terjemahan bahasa Inggris + legalisasi notaris."
+        },
+        {
+          "doc": "Bukti pekerjaan / status",
+          "req": "required",
+          "where": "Pemberi kerja / usaha / kampus",
+          "how": "Bekerja: surat keterangan kerja/cuti. Wiraswasta: pendaftaran usaha. Mahasiswa: surat keterangan aktif. Diterjemahkan ke bahasa Inggris dan dilegalisasi notaris."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berlaku untuk Anda",
+        "recommended": "Disarankan"
+      }
+    },
+    "funds": {
+      "title": "\"Berapa saldo bank yang saya perlukan?\"",
+      "body": "Tidak ada satu batas minimum resmi yang diterbitkan untuk visa turis. Yang penting adalah membuktikan bahwa Anda mampu membiayai seluruh perjalanan dengan nyaman dan memiliki alasan untuk kembali ke Nepal. Petugas kasus melihat kestabilan, bukan sekadar angka mencolok.",
+      "tips": [
+        "Tunjukkan saldo yang konsisten — setoran besar yang dilakukan beberapa hari sebelum mengajukan terlihat lemah.",
+        "Padukan rekening koran dengan bukti pekerjaan, usaha, atau studi Anda; bersama-sama keduanya menceritakan kisah yang kredibel.",
+        "Disponsori? Tambahkan rekening koran sponsor, surat sponsor bertanda tangan, dan bukti hubungan Anda."
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesalahan yang menyebabkan penolakan & keterlambatan",
+      "items": [
+        {
+          "icon": "🚫",
+          "t": "Tiket penerbangan palsu atau tidak cocok",
+          "d": "Menyerahkan tiket palsu atau detail perjalanan palsu dapat mengakibatkan penolakan DAN larangan 3 tahun untuk mengajukan kembali. Gunakan reservasi asli."
+        },
+        {
+          "icon": "📜",
+          "t": "Dokumen Nepal tanpa legalisasi notaris",
+          "d": "Dokumen Nepal harus diterjemahkan ke bahasa Inggris dan dilegalisasi notaris. Berkas yang tidak diterjemahkan atau tidak dilegalisasi akan dikembalikan."
+        },
+        {
+          "icon": "📅",
+          "t": "Melewatkan jendela janji temu",
+          "d": "Slot janji temu dibuka pada hari Senin dan Rabu pukul 10:00 dan cepat penuh. Rencanakan pemesanan Anda mengikutinya."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membeli tiket terlalu dini",
+          "d": "Membayar tiket yang tidak dapat dikembalikan sebelum persetujuan. Reservasi (keberangkatan 21+ hari kemudian) sudah cukup untuk berkas."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Foto buruk",
+          "d": "Ukuran salah, latar berwarna, kacamata, atau foto lama. Gunakan foto paspor baru dengan latar putih."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ visa Nepal → Korea",
+      "items": [
+        {
+          "q": "Apakah warga negara Nepal memerlukan visa untuk Korea?",
+          "a": "Ya — untuk pariwisata Anda mengajukan lebih dulu visa turis jangka pendek C-3-9. Paspor Nepal tidak bebas visa dan tidak ada dalam daftar K-ETA."
+        },
+        {
+          "q": "Bagaimana saya mendapatkan janji temu?",
+          "a": "Pesan daring di koreanembassynepal.org. Slot dibuka pada hari Senin dan Rabu pukul 10:00 dan cepat penuh, jadi pesan sedini mungkin."
+        },
+        {
+          "q": "Berapa lama waktunya?",
+          "a": "Sekitar 21 hari kerja, dan lebih lama pada musim puncak atau jika diperlukan pemeriksaan tambahan. Ajukan jauh sebelum perjalanan Anda."
+        },
+        {
+          "q": "Berapa biayanya?",
+          "a": "NPR 5,400 untuk visa jangka pendek sekali masuk, dibayar tunai di loket kedutaan. Jumlahnya berubah — konfirmasi biaya terkini di kedutaan."
+        },
+        {
+          "q": "Apakah dokumen saya perlu diterjemahkan?",
+          "a": "Ya — dokumen Nepal harus diterjemahkan ke bahasa Inggris dan dilegalisasi notaris. Dokumen Korea apa pun harus asli yang diterbitkan dalam 3 bulan terakhir."
+        },
+        {
+          "q": "Mengapa penerbangan harus berangkat 21+ hari setelah mengajukan?",
+          "a": "Kedutaan mengharapkan tanggal perjalanan Anda memberi ruang untuk pemrosesan (sekitar 21 hari kerja). Pesan dengan keberangkatan setidaknya 21 hari kemudian — dan jangan pernah tiket palsu."
+        },
+        {
+          "q": "Bisakah saya mendapatkan visa masuk berkali-kali?",
+          "a": "Visa turis masuk berkali-kali dimungkinkan dalam beberapa kasus, tetapi kelayakannya bervariasi. Tanyakan di kedutaan tentang aturan terkini untuk Nepal."
+        },
+        {
+          "q": "Apakah saya masih memerlukan e-Arrival Card setelah mendapatkan visa?",
+          "a": "Persyaratan e-Arrival Card mungkin masih berlaku saat masuk. Periksa aturan dokumen masuk di situs resmi menjelang tanggal perjalanan Anda."
+        }
+      ]
+    }
+  },
+  "es": {
+    "kicker": "Guía de visado · Nepal → Corea",
+    "readingTime": "8 min de lectura",
+    "h1": "Visado de Corea desde Nepal",
+    "metaTitle": "Visado de Nepal a Corea: ¿lo necesitas? (2026) — Korea Trip Hub",
+    "metaDesc": "Sí — los titulares de pasaporte de Nepal necesitan visado para Corea del Sur (C-3-9 de turista de corta duración, hasta 90 días). Reserva una cita en línea en la Embajada de Corea en Kathmandu: documentos, tasa (NPR 5,400) y tiempo de tramitación.",
+    "ui": {
+      "visa": "Tipo de visado",
+      "stay": "Estancia",
+      "entry": "Entrada",
+      "where": "Dónde conseguirlo",
+      "official": "Fuente oficial",
+      "required": "Obligatorio",
+      "conditional": "Si corresponde",
+      "recommended": "Recomendado",
+      "confirm": "Las tasas/normas pueden cambiar — confírmalo en la fuente",
+      "source": "Fuente",
+      "updated": "Actualizado",
+      "tldr": "Resumen"
+    },
+    "verdict": {
+      "headline": "Sí — los titulares de pasaporte de Nepal necesitan visado.",
+      "sub": "Solicitarás el visado de turista de corta duración C-3-9 (entrada única, estancia de hasta 90 días) en la Embajada de Corea en Kathmandu, mediante cita en línea. La entrada con K-ETA/sin visado NO se aplica a los pasaportes de Nepal.",
+      "type": "C-3-9 Turista de corta duración",
+      "stay": "Hasta 90 días",
+      "entry": "Entrada única (la entrada múltiple es posible en algunos casos — pregunta en la embajada)"
+    },
+    "tldr": [
+      "Rellena el formulario en visa.go.kr (el ÚNICO portal oficial), imprímelo y fírmalo.",
+      "Reserva una cita en línea en koreanembassynepal.org — las plazas se abren los lunes y los miércoles a las 10:00.",
+      "Haz traducir al inglés Y notarizar los documentos de Nepal; los documentos coreanos deben ser originales emitidos en los últimos 3 meses.",
+      "Tasa NPR 5,400 (entrada única), en efectivo en el mostrador; resultado en unos 21 días hábiles."
+    ],
+    "steps": {
+      "title": "La solicitud, paso a paso",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirma el tipo de visado",
+          "detail": "Para turismo necesitas el visado de visita de corta duración (turista) C-3-9. Reúne la lista de verificación de abajo antes de empezar."
+        },
+        {
+          "n": 2,
+          "title": "Rellena el formulario en visa.go.kr",
+          "detail": "Ve al Korea Visa Portal (visa.go.kr) — el único sitio oficial. Completa el formulario de solicitud, imprímelo y fírmalo. Un formulario por solicitante.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Reserva una cita en línea",
+          "detail": "Reserva una plaza en koreanembassynepal.org. Las citas se abren los lunes y los miércoles a las 10:00 — reserva pronto, se llenan rápido."
+        },
+        {
+          "n": 4,
+          "title": "Reúne y prepara tus documentos",
+          "detail": "Recopila la lista de abajo. Los documentos de Nepal deben traducirse al inglés y notarizarse; cualquier documento coreano debe ser original emitido en los últimos 3 meses."
+        },
+        {
+          "n": 5,
+          "title": "Acude a la cita y paga",
+          "detail": "Presenta tu formulario y documentos en persona en la Embajada de Corea en Kathmandu a la hora de tu cita, y paga la tasa de NPR 5,400 en efectivo en el mostrador."
+        },
+        {
+          "n": 6,
+          "title": "Espera la tramitación",
+          "detail": "La tramitación tarda unos 21 días hábiles. No reserves vuelos no reembolsables hasta que te aprueben; podrían pedirte más documentos."
+        },
+        {
+          "n": 7,
+          "title": "Recoge tu pasaporte",
+          "detail": "Recógelo según te indiquen y comprueba los datos de la etiqueta del visado (nombre, fechas, tipo de entrada) en cuanto lo recibas."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Lista de documentos — con dónde y cómo conseguir cada uno",
+      "intro": "Esta es la parte que todos los demás sitios omiten. Para cada documento, aquí tienes exactamente dónde obtenerlo y qué debe mostrar. Los documentos de Nepal necesitan traducción al inglés y notarización.",
+      "cols": [
+        "Documento",
+        "Dónde conseguirlo",
+        "Qué debe mostrar"
+      ],
+      "rows": [
+        {
+          "doc": "Pasaporte",
+          "req": "required",
+          "where": "Ya lo tienes",
+          "how": "Válido 6+ meses más allá de tu viaje, con al menos 2 páginas en blanco. Lleva también los pasaportes antiguos si los tienes."
+        },
+        {
+          "doc": "Formulario de solicitud de visado",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Complétalo en el Korea Visa Portal, imprímelo y fírmalo. Uno por solicitante.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto",
+          "req": "required",
+          "where": "Cualquier estudio fotográfico",
+          "how": "Una foto reciente tamaño pasaporte, fondo blanco liso, tomada en los últimos 6 meses, rostro completo."
+        },
+        {
+          "doc": "Reserva de vuelo de ida y vuelta",
+          "req": "required",
+          "where": "Aerolínea / agencia de viajes",
+          "how": "Una reserva confirmada con salida al menos 21 días después de solicitar. NO compres un billete pagado antes de la aprobación y nunca presentes un billete falso."
+        },
+        {
+          "doc": "Justificante de alojamiento",
+          "req": "required",
+          "where": "Sitios de reserva de hoteles",
+          "how": "Reservas de hotel confirmadas que cubran tu estancia. ¿Te alojas con alguien? Añade una carta de invitación + copia del DNI/ARC del anfitrión."
+        },
+        {
+          "doc": "Carta de presentación + itinerario",
+          "req": "required",
+          "where": "Escríbelo tú mismo (en inglés)",
+          "how": "Una carta que indique el propósito de tu visita y un plan día a día."
+        },
+        {
+          "doc": "Extracto bancario / prueba financiera",
+          "req": "required",
+          "where": "Tu banco",
+          "how": "Un extracto reciente (con el sello del banco) que muestre que puedes financiar el viaje. Los documentos de Nepal necesitan traducción al inglés + notarización."
+        },
+        {
+          "doc": "Justificante de empleo / situación",
+          "req": "required",
+          "where": "Empleador / negocio / universidad",
+          "how": "Empleado: carta de empleo/permiso. Autónomo: registro mercantil. Estudiante: certificado de matrícula. Traducido al inglés y notarizado."
+        }
+      ],
+      "legend": {
+        "required": "Obligatorio",
+        "conditional": "Si te corresponde",
+        "recommended": "Recomendado"
+      }
+    },
+    "funds": {
+      "title": "«¿Cuánto saldo bancario necesito?»",
+      "body": "No hay un único mínimo oficial publicado para el visado de turista. Lo que importa es demostrar que puedes financiar cómodamente todo el viaje y que tienes motivos para volver a Nepal. Los funcionarios que evalúan el caso miran la estabilidad, no solo una cifra llamativa.",
+      "tips": [
+        "Muestra un saldo constante — un gran depósito hecho días antes de solicitar parece débil.",
+        "Combina el extracto bancario con la prueba de tu trabajo, negocio o estudios; juntos cuentan una historia creíble.",
+        "¿Tienes patrocinador? Añade el extracto bancario del patrocinador, una carta de patrocinio firmada y una prueba de tu relación."
+      ]
+    },
+    "pitfalls": {
+      "title": "Errores que provocan rechazos y retrasos",
+      "items": [
+        {
+          "icon": "🚫",
+          "t": "Billetes de vuelo falsos o que no coinciden",
+          "d": "Presentar un billete falso o datos de viaje falsos puede acarrear un rechazo Y una prohibición de 3 años para volver a solicitar. Usa una reserva genuina."
+        },
+        {
+          "icon": "📜",
+          "t": "Documentos de Nepal sin notarizar",
+          "d": "Los documentos de Nepal deben traducirse al inglés y notarizarse. Los papeles sin traducir o sin notarizar se devuelven."
+        },
+        {
+          "icon": "📅",
+          "t": "Perder la ventana de la cita",
+          "d": "Las plazas de cita se abren los lunes y los miércoles a las 10:00 y se llenan rápido. Planifica tu reserva en torno a ellas."
+        },
+        {
+          "icon": "🎫",
+          "t": "Comprar los vuelos demasiado pronto",
+          "d": "Pagar billetes no reembolsables antes de la aprobación. Una reserva (salida 21+ días después) basta para el expediente."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Mala foto",
+          "d": "Tamaño incorrecto, fondo de color, gafas o una foto antigua. Usa una foto de pasaporte reciente con fondo blanco."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre el visado Nepal → Corea",
+      "items": [
+        {
+          "q": "¿Los ciudadanos de Nepal necesitan visado para Corea?",
+          "a": "Sí — para el turismo solicitas con antelación el visado de turista de corta duración C-3-9. Los pasaportes de Nepal no están exentos de visado ni figuran en la lista de la K-ETA."
+        },
+        {
+          "q": "¿Cómo consigo una cita?",
+          "a": "Resérvala en línea en koreanembassynepal.org. Las plazas se abren los lunes y los miércoles a las 10:00 y se llenan rápido, así que reserva lo antes posible."
+        },
+        {
+          "q": "¿Cuánto tarda?",
+          "a": "Unos 21 días hábiles, y más durante la temporada alta o si se necesitan comprobaciones adicionales. Solicítalo con mucha antelación a tu viaje."
+        },
+        {
+          "q": "¿Cuánto cuesta?",
+          "a": "NPR 5,400 por un visado de corta duración de entrada única, pagado en efectivo en el mostrador de la embajada. Las cantidades cambian — confirma la tasa actual en la embajada."
+        },
+        {
+          "q": "¿Mis documentos necesitan traducción?",
+          "a": "Sí — los documentos de Nepal deben traducirse al inglés y notarizarse. Cualquier documento coreano debe ser original emitido en los últimos 3 meses."
+        },
+        {
+          "q": "¿Por qué el vuelo debe salir 21+ días después de solicitar?",
+          "a": "La embajada espera que tus fechas de viaje permitan la tramitación (unos 21 días hábiles). Reserva con una salida al menos 21 días después — y nunca un billete falso."
+        },
+        {
+          "q": "¿Puedo obtener un visado de entrada múltiple?",
+          "a": "Los visados de turista de entrada múltiple son posibles en algunos casos, pero la elegibilidad varía. Pregunta en la embajada sobre las normas actuales para Nepal."
+        },
+        {
+          "q": "¿Sigo necesitando la e-Arrival Card después de obtener el visado?",
+          "a": "El requisito de la e-Arrival Card puede seguir aplicándose a la entrada. Comprueba las normas de documentos de entrada en los sitios oficiales cerca de la fecha de tu viaje."
+        }
+      ]
+    }
+  },
+  "ms": {
+    "kicker": "Panduan visa · Nepal → Korea",
+    "readingTime": "Bacaan 8 minit",
+    "h1": "Visa Korea dari Nepal",
+    "metaTitle": "Visa Nepal ke Korea: Adakah Anda Memerlukannya? (2026) — Korea Trip Hub",
+    "metaDesc": "Ya — pemegang pasport Nepal memerlukan visa untuk Korea Selatan (pelancong jangka pendek C-3-9, sehingga 90 hari). Tempah temu janji dalam talian di Kedutaan Korea di Kathmandu: dokumen, yuran (NPR 5,400) dan masa pemprosesan.",
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Tempoh menginap",
+      "entry": "Kemasukan",
+      "where": "Tempat mendapatkannya",
+      "official": "Sumber rasmi",
+      "required": "Diperlukan",
+      "conditional": "Jika berkenaan",
+      "recommended": "Disyorkan",
+      "confirm": "Yuran/peraturan boleh berubah — sahkan di sumber",
+      "source": "Sumber",
+      "updated": "Dikemas kini",
+      "tldr": "Ringkasan"
+    },
+    "verdict": {
+      "headline": "Ya — pemegang pasport Nepal memerlukan visa.",
+      "sub": "Anda akan memohon visa pelancong jangka pendek C-3-9 (kemasukan tunggal, menginap sehingga 90 hari) di Kedutaan Korea di Kathmandu, melalui temu janji dalam talian. Kemasukan K-ETA/tanpa visa TIDAK terpakai pada pasport Nepal.",
+      "type": "C-3-9 Pelancong jangka pendek",
+      "stay": "Sehingga 90 hari",
+      "entry": "Kemasukan tunggal (kemasukan berbilang mungkin dalam sesetengah kes — tanya di kedutaan)"
+    },
+    "tldr": [
+      "Isi borang di visa.go.kr (portal rasmi SATU-SATUNYA), cetak dan tandatanganinya.",
+      "Tempah temu janji dalam talian di koreanembassynepal.org — slot dibuka pada hari Isnin dan Rabu pada jam 10:00.",
+      "Terjemahkan dokumen Nepal ke bahasa Inggeris DAN sahkan secara notari; dokumen Korea mestilah asal yang dikeluarkan dalam tempoh 3 bulan lalu.",
+      "Yuran NPR 5,400 (kemasukan tunggal), tunai di kaunter; keputusan dalam kira-kira 21 hari bekerja."
+    ],
+    "steps": {
+      "title": "Permohonan, langkah demi langkah",
+      "items": [
+        {
+          "n": 1,
+          "title": "Sahkan jenis visa",
+          "detail": "Untuk pelancongan, anda perlukan visa lawatan jangka pendek (pelancong) C-3-9. Kumpulkan senarai semak di bawah sebelum bermula."
+        },
+        {
+          "n": 2,
+          "title": "Isi borang di visa.go.kr",
+          "detail": "Pergi ke Korea Visa Portal (visa.go.kr) — satu-satunya laman rasmi. Lengkapkan borang permohonan, cetak dan tandatanganinya. Satu borang bagi setiap pemohon.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Tempah temu janji dalam talian",
+          "detail": "Tempah slot di koreanembassynepal.org. Slot temu janji dibuka pada hari Isnin dan Rabu pada jam 10:00 — tempah awal, ia penuh dengan cepat."
+        },
+        {
+          "n": 4,
+          "title": "Kumpul & sediakan dokumen anda",
+          "detail": "Kumpulkan senarai semak di bawah. Dokumen Nepal mesti diterjemahkan ke bahasa Inggeris dan disahkan secara notari; sebarang dokumen Korea mestilah asal yang dikeluarkan dalam tempoh 3 bulan lalu."
+        },
+        {
+          "n": 5,
+          "title": "Hadiri temu janji & bayar",
+          "detail": "Serahkan borang dan dokumen anda secara peribadi di Kedutaan Korea di Kathmandu pada waktu temu janji anda, dan bayar yuran NPR 5,400 secara tunai di kaunter."
+        },
+        {
+          "n": 6,
+          "title": "Tunggu pemprosesan",
+          "detail": "Pemprosesan mengambil masa kira-kira 21 hari bekerja. Jangan tempah penerbangan yang tidak boleh dikembalikan wang sehingga anda diluluskan; anda mungkin diminta dokumen tambahan."
+        },
+        {
+          "n": 7,
+          "title": "Ambil pasport anda",
+          "detail": "Ambil seperti yang diarahkan dan semak butiran pelekat visa (nama, tarikh, jenis kemasukan) sebaik sahaja anda menerimanya."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Senarai semak dokumen — dengan tempat & cara mendapatkan setiap satu",
+      "intro": "Inilah bahagian yang dilangkau oleh setiap laman lain. Bagi setiap dokumen, di sini tepat di mana anda mendapatkannya dan apa yang mesti ditunjukkannya. Dokumen Nepal memerlukan terjemahan bahasa Inggeris dan pengesahan notari.",
+      "cols": [
+        "Dokumen",
+        "Tempat mendapatkannya",
+        "Apa yang mesti ditunjukkan"
+      ],
+      "rows": [
+        {
+          "doc": "Pasport",
+          "req": "required",
+          "where": "Anda sudah ada",
+          "how": "Sah 6+ bulan melebihi perjalanan anda, dengan sekurang-kurangnya 2 halaman kosong. Bawa juga pasport lama jika ada."
+        },
+        {
+          "doc": "Borang permohonan visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapkan di Korea Visa Portal, cetak dan tandatangani. Satu bagi setiap pemohon.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Gambar",
+          "req": "required",
+          "where": "Mana-mana studio gambar",
+          "how": "Satu gambar bersaiz pasport terkini, latar belakang putih polos, diambil dalam tempoh 6 bulan lalu, muka penuh."
+        },
+        {
+          "doc": "Tempahan penerbangan pergi-balik",
+          "req": "required",
+          "where": "Syarikat penerbangan / ejen pelancongan",
+          "how": "Tempahan yang disahkan dengan berlepas sekurang-kurangnya 21 hari selepas anda memohon. JANGAN beli tiket berbayar sebelum kelulusan, dan jangan sekali-kali serahkan tiket palsu."
+        },
+        {
+          "doc": "Bukti penginapan",
+          "req": "required",
+          "where": "Laman tempahan hotel",
+          "how": "Tempahan hotel yang disahkan meliputi tempoh menginap anda. Menginap dengan seseorang? Tambah surat jemputan + salinan ID/ARC tuan rumah."
+        },
+        {
+          "doc": "Surat iringan + jadual perjalanan",
+          "req": "required",
+          "where": "Tulis sendiri (bahasa Inggeris)",
+          "how": "Sepucuk surat menyatakan tujuan lawatan anda dan pelan hari demi hari."
+        },
+        {
+          "doc": "Penyata bank / bukti kewangan",
+          "req": "required",
+          "where": "Bank anda",
+          "how": "Penyata terkini (dengan cop bank) yang menunjukkan anda mampu membiayai perjalanan. Dokumen Nepal memerlukan terjemahan bahasa Inggeris + pengesahan notari."
+        },
+        {
+          "doc": "Bukti pekerjaan / status",
+          "req": "required",
+          "where": "Majikan / perniagaan / kolej",
+          "how": "Bekerja: surat pekerjaan/cuti. Bekerja sendiri: pendaftaran perniagaan. Pelajar: surat pengesahan pelajar. Diterjemahkan ke bahasa Inggeris dan disahkan secara notari."
+        }
+      ],
+      "legend": {
+        "required": "Diperlukan",
+        "conditional": "Jika ia terpakai kepada anda",
+        "recommended": "Disyorkan"
+      }
+    },
+    "funds": {
+      "title": "«Berapa baki bank yang saya perlukan?»",
+      "body": "Tiada satu minimum rasmi tunggal yang diterbitkan untuk visa pelancong. Yang penting ialah membuktikan anda mampu membiayai keseluruhan perjalanan dengan selesa dan mempunyai sebab untuk pulang ke Nepal. Pegawai kes melihat kestabilan, bukan sekadar angka yang menonjol.",
+      "tips": [
+        "Tunjukkan baki yang konsisten — deposit besar yang dibuat beberapa hari sebelum memohon kelihatan lemah.",
+        "Gandingkan penyata bank dengan bukti pekerjaan, perniagaan atau pengajian anda; bersama-sama ia menceritakan kisah yang boleh dipercayai.",
+        "Ditaja? Tambah penyata bank penaja, surat penajaan bertandatangan, dan bukti hubungan anda."
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesilapan yang menyebabkan penolakan & kelewatan",
+      "items": [
+        {
+          "icon": "🚫",
+          "t": "Tiket penerbangan palsu atau tidak sepadan",
+          "d": "Menyerahkan tiket palsu atau butiran perjalanan palsu boleh membawa penolakan DAN larangan 3 tahun untuk memohon semula. Gunakan tempahan yang tulen."
+        },
+        {
+          "icon": "📜",
+          "t": "Dokumen Nepal tanpa pengesahan notari",
+          "d": "Dokumen Nepal mesti diterjemahkan ke bahasa Inggeris dan disahkan secara notari. Kertas yang tidak diterjemah atau tidak disahkan akan dihantar semula."
+        },
+        {
+          "icon": "📅",
+          "t": "Terlepas tetingkap temu janji",
+          "d": "Slot temu janji dibuka pada hari Isnin dan Rabu pada jam 10:00 dan penuh dengan cepat. Rancang tempahan anda mengikutnya."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membeli penerbangan terlalu awal",
+          "d": "Membayar tiket yang tidak boleh dikembalikan wang sebelum kelulusan. Satu tempahan (berlepas 21+ hari kemudian) sudah memadai untuk fail."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Gambar buruk",
+          "d": "Saiz salah, latar belakang berwarna, cermin mata atau gambar lama. Gunakan gambar pasport baharu berlatar belakang putih."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Soalan Lazim visa Nepal → Korea",
+      "items": [
+        {
+          "q": "Adakah warganegara Nepal memerlukan visa untuk Korea?",
+          "a": "Ya — untuk pelancongan, anda memohon terlebih dahulu visa pelancong jangka pendek C-3-9. Pasport Nepal tidak bebas visa dan tiada dalam senarai K-ETA."
+        },
+        {
+          "q": "Bagaimana saya mendapatkan temu janji?",
+          "a": "Tempah dalam talian di koreanembassynepal.org. Slot dibuka pada hari Isnin dan Rabu pada jam 10:00 dan penuh dengan cepat, jadi tempah seawal mungkin."
+        },
+        {
+          "q": "Berapa lama masa yang diambil?",
+          "a": "Kira-kira 21 hari bekerja, dan lebih lama pada musim kemuncak atau jika semakan tambahan diperlukan. Mohon jauh lebih awal sebelum perjalanan anda."
+        },
+        {
+          "q": "Berapakah kosnya?",
+          "a": "NPR 5,400 untuk visa jangka pendek kemasukan tunggal, dibayar secara tunai di kaunter kedutaan. Jumlahnya berubah — sahkan yuran semasa di kedutaan."
+        },
+        {
+          "q": "Adakah dokumen saya memerlukan terjemahan?",
+          "a": "Ya — dokumen Nepal mesti diterjemahkan ke bahasa Inggeris dan disahkan secara notari. Sebarang dokumen Korea mestilah asal yang dikeluarkan dalam tempoh 3 bulan lalu."
+        },
+        {
+          "q": "Mengapa penerbangan perlu berlepas 21+ hari selepas memohon?",
+          "a": "Kedutaan menjangkakan tarikh perjalanan anda memberi ruang untuk pemprosesan (kira-kira 21 hari bekerja). Tempah dengan berlepas sekurang-kurangnya 21 hari kemudian — dan jangan sekali-kali tiket palsu."
+        },
+        {
+          "q": "Bolehkah saya mendapatkan visa kemasukan berbilang?",
+          "a": "Visa pelancong kemasukan berbilang mungkin dalam sesetengah kes, tetapi kelayakan berbeza-beza. Tanya di kedutaan tentang peraturan semasa untuk Nepal."
+        },
+        {
+          "q": "Adakah saya masih memerlukan e-Arrival Card selepas mendapat visa?",
+          "a": "Keperluan e-Arrival Card mungkin masih terpakai semasa kemasukan. Semak peraturan dokumen kemasukan di laman rasmi hampir dengan tarikh perjalanan anda."
+        }
+      ]
+    }
+  },
+  "ko": {
+    "kicker": "비자 가이드 · Nepal → 한국",
+    "readingTime": "8분 분량",
+    "h1": "Nepal에서 신청하는 한국 비자",
+    "metaTitle": "Nepal에서 한국 비자: 필요할까요? (2026) — Korea Trip Hub",
+    "metaDesc": "네 — Nepal 여권 소지자는 한국 비자가 필요합니다 (C-3-9 단기 관광, 최대 90일). Kathmandu 주재 한국 대사관에서 온라인 예약을 잡으세요: 서류, 수수료(NPR 5,400), 처리 기간을 안내합니다.",
+    "ui": {
+      "visa": "비자 종류",
+      "stay": "체류 기간",
+      "entry": "입국",
+      "where": "발급처",
+      "official": "공식 출처",
+      "required": "필수",
+      "conditional": "해당 시",
+      "recommended": "권장",
+      "confirm": "수수료·규정은 변경될 수 있습니다 — 출처에서 확인하세요",
+      "source": "출처",
+      "updated": "업데이트",
+      "tldr": "요약"
+    },
+    "verdict": {
+      "headline": "네 — Nepal 여권 소지자는 비자가 필요합니다.",
+      "sub": "Kathmandu 주재 한국 대사관에서 온라인 예약으로 C-3-9 단기 관광 비자(단수 입국, 최대 90일 체류)를 신청합니다. K-ETA/무비자 입국은 Nepal 여권에는 적용되지 않습니다.",
+      "type": "C-3-9 단기 관광",
+      "stay": "최대 90일",
+      "entry": "단수 입국 (경우에 따라 복수 입국 가능 — 대사관에 문의하세요)"
+    },
+    "tldr": [
+      "visa.go.kr(유일한 공식 포털)에서 양식을 작성하고, 인쇄해 서명하세요.",
+      "koreanembassynepal.org에서 온라인 예약을 잡으세요 — 예약 슬롯은 매주 월요일과 수요일 10:00에 열립니다.",
+      "Nepal 서류는 영어로 번역하고 공증까지 받으세요. 한국 서류는 최근 3개월 이내에 발급된 원본이어야 합니다.",
+      "수수료 NPR 5,400(단수 입국), 창구에서 현금 결제. 결과는 약 21영업일 내에 나옵니다."
+    ],
+    "steps": {
+      "title": "신청, 단계별로",
+      "items": [
+        {
+          "n": 1,
+          "title": "비자 종류 확인",
+          "detail": "관광에는 C-3-9 단기 방문(관광) 비자가 필요합니다. 시작하기 전에 아래 체크리스트를 준비하세요."
+        },
+        {
+          "n": 2,
+          "title": "visa.go.kr에서 양식 작성",
+          "detail": "Korea Visa Portal(visa.go.kr)로 이동하세요 — 유일한 공식 사이트입니다. 신청 양식을 작성한 뒤 인쇄해 서명하세요. 신청자 1인당 한 장입니다.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "온라인 예약 잡기",
+          "detail": "koreanembassynepal.org에서 예약 슬롯을 확보하세요. 예약 슬롯은 매주 월요일과 수요일 10:00에 열립니다 — 금방 차니 일찍 예약하세요."
+        },
+        {
+          "n": 4,
+          "title": "서류 준비 및 정리",
+          "detail": "아래 체크리스트를 모으세요. Nepal 서류는 영어로 번역하고 공증을 받아야 하며, 한국 서류는 최근 3개월 이내에 발급된 원본이어야 합니다."
+        },
+        {
+          "n": 5,
+          "title": "예약일 방문 및 결제",
+          "detail": "예약 시간에 Kathmandu 주재 한국 대사관에 직접 방문해 양식과 서류를 제출하고, 창구에서 NPR 5,400 수수료를 현금으로 결제하세요."
+        },
+        {
+          "n": 6,
+          "title": "처리 대기",
+          "detail": "처리에는 약 21영업일이 걸립니다. 승인되기 전에는 환불 불가 항공권을 예약하지 마세요. 추가 서류를 요청받을 수 있습니다."
+        },
+        {
+          "n": 7,
+          "title": "여권 수령",
+          "detail": "안내에 따라 수령하고, 받는 즉시 비자 스티커 정보(이름, 날짜, 입국 종류)를 확인하세요."
+        }
+      ]
+    },
+    "documents": {
+      "title": "서류 체크리스트 — 각 서류를 어디서 어떻게 받는지 포함",
+      "intro": "이것이 다른 사이트들이 모두 건너뛰는 부분입니다. 각 서류에 대해, 정확히 어디서 발급받고 무엇이 표시되어야 하는지 알려드립니다. Nepal 서류는 영어 번역과 공증이 필요합니다.",
+      "cols": [
+        "서류",
+        "발급처",
+        "표시되어야 할 내용"
+      ],
+      "rows": [
+        {
+          "doc": "여권",
+          "req": "required",
+          "where": "이미 가지고 있음",
+          "how": "여행 종료 후 6개월 이상 유효하고, 빈 페이지가 최소 2장 있어야 합니다. 이전 여권이 있으면 함께 지참하세요."
+        },
+        {
+          "doc": "비자 신청 양식",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Korea Visa Portal에서 작성하고 인쇄해 서명하세요. 신청자 1인당 한 장.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "사진",
+          "req": "required",
+          "where": "아무 사진관",
+          "how": "최근 여권용 사진 1매, 무지 흰색 배경, 최근 6개월 이내 촬영, 정면 얼굴."
+        },
+        {
+          "doc": "왕복 항공권 예약",
+          "req": "required",
+          "where": "항공사 / 여행사",
+          "how": "신청일로부터 최소 21일 이후 출발하는 확정 예약. 승인 전에 유료 항공권을 구매하지 말고, 가짜 항공권은 절대 제출하지 마세요."
+        },
+        {
+          "doc": "숙박 증명",
+          "req": "required",
+          "where": "호텔 예약 사이트",
+          "how": "체류 기간을 포함하는 확정된 호텔 예약. 누군가의 집에 머무나요? 초청장 + 호스트의 ID/ARC 사본을 추가하세요."
+        },
+        {
+          "doc": "커버레터 + 일정표",
+          "req": "required",
+          "where": "직접 작성 (영어)",
+          "how": "방문 목적을 밝히는 편지와 일자별 계획."
+        },
+        {
+          "doc": "은행 거래내역서 / 재정 증명",
+          "req": "required",
+          "where": "거래 은행",
+          "how": "여행 비용을 감당할 수 있음을 보여주는 최근 거래내역서(은행 직인 포함). Nepal 서류는 영어 번역 + 공증이 필요합니다."
+        },
+        {
+          "doc": "재직 / 신분 증명",
+          "req": "required",
+          "where": "고용주 / 사업체 / 대학",
+          "how": "재직자: 재직/휴가 증명서. 자영업자: 사업자 등록증. 학생: 재학증명서. 영어로 번역하고 공증하세요."
+        }
+      ],
+      "legend": {
+        "required": "필수",
+        "conditional": "본인에게 해당하는 경우",
+        "recommended": "권장"
+      }
+    },
+    "funds": {
+      "title": "\"은행 잔액이 얼마나 필요한가요?\"",
+      "body": "관광 비자에 대해 공표된 단일 공식 최소 금액은 없습니다. 중요한 것은 여행 전체를 무리 없이 감당할 수 있고 Nepal로 돌아올 이유가 있음을 증명하는 것입니다. 심사관은 눈에 띄는 숫자만이 아니라 안정성을 봅니다.",
+      "tips": [
+        "일관된 잔액을 보여주세요 — 신청 며칠 전에 넣은 큰 입금은 약해 보입니다.",
+        "은행 거래내역서를 직업·사업·학업 증명과 함께 제시하세요. 함께 있으면 신뢰할 수 있는 이야기가 됩니다.",
+        "후원을 받나요? 후원자의 은행 거래내역서, 서명된 후원서, 그리고 관계를 증명하는 자료를 추가하세요."
+      ]
+    },
+    "pitfalls": {
+      "title": "거절과 지연을 부르는 실수",
+      "items": [
+        {
+          "icon": "🚫",
+          "t": "가짜이거나 일치하지 않는 항공권",
+          "d": "가짜 항공권이나 허위 여행 정보를 제출하면 거절뿐 아니라 3년간 재신청 금지로 이어질 수 있습니다. 진짜 예약을 사용하세요."
+        },
+        {
+          "icon": "📜",
+          "t": "공증받지 않은 Nepal 서류",
+          "d": "Nepal 서류는 영어로 번역하고 공증을 받아야 합니다. 번역·공증되지 않은 서류는 반려됩니다."
+        },
+        {
+          "icon": "📅",
+          "t": "예약 시간대를 놓침",
+          "d": "예약 슬롯은 매주 월요일과 수요일 10:00에 열리며 금방 찹니다. 이에 맞춰 예약을 계획하세요."
+        },
+        {
+          "icon": "🎫",
+          "t": "너무 이른 항공권 구매",
+          "d": "승인 전에 환불 불가 항공권을 결제하는 것. 예약(출발이 21일 이상 남음)이면 서류에는 충분합니다."
+        },
+        {
+          "icon": "🖼️",
+          "t": "부적절한 사진",
+          "d": "잘못된 크기, 색이 있는 배경, 안경 또는 오래된 사진. 새로 찍은 흰색 배경 여권 사진을 사용하세요."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Nepal → 한국 비자 FAQ",
+      "items": [
+        {
+          "q": "Nepal 국민은 한국 비자가 필요한가요?",
+          "a": "네 — 관광의 경우 C-3-9 단기 관광 비자를 미리 신청합니다. Nepal 여권은 무비자가 아니며 K-ETA 대상도 아닙니다."
+        },
+        {
+          "q": "예약은 어떻게 잡나요?",
+          "a": "koreanembassynepal.org에서 온라인으로 예약하세요. 슬롯은 매주 월요일과 수요일 10:00에 열리고 금방 차니 최대한 일찍 예약하세요."
+        },
+        {
+          "q": "얼마나 걸리나요?",
+          "a": "약 21영업일이며, 성수기이거나 추가 심사가 필요하면 더 오래 걸립니다. 여행 훨씬 전에 신청하세요."
+        },
+        {
+          "q": "비용은 얼마인가요?",
+          "a": "단수 입국 단기 비자는 NPR 5,400이며 대사관 창구에서 현금으로 냅니다. 금액은 변동됩니다 — 현재 수수료는 대사관에서 확인하세요."
+        },
+        {
+          "q": "서류에 번역이 필요한가요?",
+          "a": "네 — Nepal 서류는 영어로 번역하고 공증을 받아야 합니다. 한국 서류는 최근 3개월 이내에 발급된 원본이어야 합니다."
+        },
+        {
+          "q": "항공권은 왜 신청 후 21일 이상 뒤에 출발해야 하나요?",
+          "a": "대사관은 처리 기간(약 21영업일)을 감안한 여행 일정을 기대합니다. 출발이 최소 21일 남은 예약을 잡고, 가짜 항공권은 절대 쓰지 마세요."
+        },
+        {
+          "q": "복수 입국 비자를 받을 수 있나요?",
+          "a": "복수 입국 관광 비자는 경우에 따라 가능하지만 자격은 상황에 따라 다릅니다. Nepal에 대한 현재 규정은 대사관에 문의하세요."
+        },
+        {
+          "q": "비자를 받은 후에도 e-Arrival Card가 필요한가요?",
+          "a": "입국 시 e-Arrival Card 요건이 여전히 적용될 수 있습니다. 여행 날짜가 가까워지면 공식 사이트에서 입국 서류 규정을 확인하세요."
+        }
+      ]
+    }
+  },
+  "ru": {
+    "kicker": "Визовый гид · Nepal → Корея",
+    "readingTime": "8 мин чтения",
+    "h1": "Виза в Корею из Nepal",
+    "metaTitle": "Виза из Nepal в Корею: нужна ли она? (2026) — Korea Trip Hub",
+    "metaDesc": "Да — обладателям паспорта Nepal нужна виза в Южную Корею (C-3-9, краткосрочная туристическая, до 90 дней). Запишитесь онлайн на приём в Посольство Кореи в Kathmandu: документы, сбор (NPR 5,400) и срок обработки.",
+    "ui": {
+      "visa": "Тип визы",
+      "stay": "Срок пребывания",
+      "entry": "Въезд",
+      "where": "Где получить",
+      "official": "Официальные источники",
+      "required": "Обязательно",
+      "conditional": "Если применимо",
+      "recommended": "Рекомендуется",
+      "confirm": "Сборы и правила могут меняться — уточняйте в источнике",
+      "source": "Источник",
+      "updated": "Обновлено",
+      "tldr": "Кратко"
+    },
+    "verdict": {
+      "headline": "Да — обладателям паспорта Nepal нужна виза.",
+      "sub": "Вы подаёте на краткосрочную туристическую визу C-3-9 (однократный въезд, пребывание до 90 дней) в Посольстве Кореи в Kathmandu по онлайн-записи. K-ETA/безвизовый въезд НЕ распространяется на паспорта Nepal.",
+      "type": "C-3-9 краткосрочная туристическая",
+      "stay": "До 90 дней",
+      "entry": "Однократный въезд (в некоторых случаях возможен многократный — уточните в посольстве)"
+    },
+    "tldr": [
+      "Заполните форму на visa.go.kr (ЕДИНСТВЕННЫЙ официальный портал), распечатайте и подпишите её.",
+      "Запишитесь онлайн на приём на koreanembassynepal.org — слоты открываются по понедельникам и средам в 10:00.",
+      "Документы Nepal переведите на английский И нотариально заверьте; корейские документы должны быть оригиналами, выданными в последние 3 месяца.",
+      "Сбор NPR 5,400 (однократный въезд), наличными на стойке; результат примерно через 21 рабочий день."
+    ],
+    "steps": {
+      "title": "Оформление, шаг за шагом",
+      "items": [
+        {
+          "n": 1,
+          "title": "Определите тип визы",
+          "detail": "Для туризма нужна краткосрочная гостевая (туристическая) виза C-3-9. Перед началом соберите документы из списка ниже."
+        },
+        {
+          "n": 2,
+          "title": "Заполните форму на visa.go.kr",
+          "detail": "Зайдите на Korea Visa Portal (visa.go.kr) — единственный официальный сайт. Заполните заявление, затем распечатайте и подпишите его. По одной анкете на заявителя.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Запишитесь онлайн на приём",
+          "detail": "Забронируйте слот на koreanembassynepal.org. Слоты для записи открываются по понедельникам и средам в 10:00 — записывайтесь заранее, они быстро заканчиваются."
+        },
+        {
+          "n": 4,
+          "title": "Соберите и подготовьте документы",
+          "detail": "Соберите список ниже. Документы Nepal нужно перевести на английский и нотариально заверить; любые корейские документы должны быть оригиналами, выданными в последние 3 месяца."
+        },
+        {
+          "n": 5,
+          "title": "Придите на приём и оплатите",
+          "detail": "Подайте анкету и документы лично в Посольстве Кореи в Kathmandu в назначенное время и оплатите сбор NPR 5,400 наличными на стойке."
+        },
+        {
+          "n": 6,
+          "title": "Дождитесь обработки",
+          "detail": "Обработка занимает около 21 рабочего дня. Не бронируйте невозвратные билеты до одобрения; у вас могут запросить дополнительные документы."
+        },
+        {
+          "n": 7,
+          "title": "Заберите паспорт",
+          "detail": "Заберите его по инструкции и сразу проверьте данные визовой наклейки (имя, даты, тип въезда)."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Список документов — где и как получить каждый",
+      "intro": "Это то, что пропускают все остальные сайты. Для каждого документа указано, где именно его получить и что он должен подтверждать. Документам Nepal нужны перевод на английский и нотариальное заверение.",
+      "cols": [
+        "Документ",
+        "Где получить",
+        "Что должен подтверждать"
+      ],
+      "rows": [
+        {
+          "doc": "Паспорт",
+          "req": "required",
+          "where": "Уже у вас",
+          "how": "Действителен ещё 6+ месяцев после поездки, минимум 2 чистые страницы. Возьмите и старые паспорта, если они есть."
+        },
+        {
+          "doc": "Визовая анкета",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Заполните на Korea Visa Portal, распечатайте и подпишите. По одной на заявителя.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Фото",
+          "req": "required",
+          "where": "Любое фотоателье",
+          "how": "Одно недавнее фото паспортного размера, ровный белый фон, сделано за последние 6 месяцев, анфас."
+        },
+        {
+          "doc": "Бронь авиабилетов туда-обратно",
+          "req": "required",
+          "where": "Авиакомпания / турагент",
+          "how": "Подтверждённая бронь с вылетом не ранее чем через 21 день после подачи. НЕ покупайте оплаченный билет до одобрения и никогда не подавайте поддельный билет."
+        },
+        {
+          "doc": "Подтверждение проживания",
+          "req": "required",
+          "where": "Сайты бронирования отелей",
+          "how": "Подтверждённые брони отелей на весь срок пребывания. Останавливаетесь у кого-то? Добавьте пригласительное письмо + копию удостоверения/ARC принимающего."
+        },
+        {
+          "doc": "Сопроводительное письмо + маршрут",
+          "req": "required",
+          "where": "Составьте сами (на английском)",
+          "how": "Письмо с указанием цели вашего визита и плана по дням."
+        },
+        {
+          "doc": "Выписка из банка / финансовое подтверждение",
+          "req": "required",
+          "where": "Ваш банк",
+          "how": "Недавняя выписка (с печатью банка), показывающая, что вы можете оплатить поездку. Документам Nepal нужны перевод на английский + нотариальное заверение."
+        },
+        {
+          "doc": "Подтверждение работы / статуса",
+          "req": "required",
+          "where": "Работодатель / бизнес / колледж",
+          "how": "Работающим: справка с работы/об отпуске. Самозанятым: регистрация бизнеса. Студентам: справка об обучении. Переведено на английский и нотариально заверено."
+        }
+      ],
+      "legend": {
+        "required": "Обязательно",
+        "conditional": "Если применимо к вам",
+        "recommended": "Рекомендуется"
+      }
+    },
+    "funds": {
+      "title": "«Какой баланс на счёте нужен?»",
+      "body": "Единого официального минимума для туристической визы не опубликовано. Важно доказать, что вы можете комфортно оплатить всю поездку и имеете причины вернуться в Nepal. Сотрудники смотрят на стабильность, а не только на итоговую цифру.",
+      "tips": [
+        "Показывайте стабильный баланс — крупное пополнение за несколько дней до подачи выглядит слабо.",
+        "Дополните выписку из банка подтверждением вашей работы, бизнеса или учёбы; вместе они создают убедительную картину.",
+        "Есть спонсор? Добавьте выписку из банка спонсора, подписанное спонсорское письмо и подтверждение вашего родства/отношений."
+      ]
+    },
+    "pitfalls": {
+      "title": "Ошибки, ведущие к отказам и задержкам",
+      "items": [
+        {
+          "icon": "🚫",
+          "t": "Поддельные или несовпадающие авиабилеты",
+          "d": "Подача поддельного билета или ложных данных о поездке может привести к отказу И трёхлетнему запрету на повторную подачу. Используйте настоящую бронь."
+        },
+        {
+          "icon": "📜",
+          "t": "Незаверенные документы Nepal",
+          "d": "Документы Nepal нужно перевести на английский и нотариально заверить. Непереведённые или незаверенные бумаги возвращают."
+        },
+        {
+          "icon": "📅",
+          "t": "Пропуск окна записи",
+          "d": "Слоты для записи открываются по понедельникам и средам в 10:00 и быстро заканчиваются. Планируйте запись с учётом этого."
+        },
+        {
+          "icon": "🎫",
+          "t": "Слишком ранняя покупка билетов",
+          "d": "Оплата невозвратных билетов до одобрения. Для дела достаточно брони (вылет через 21+ день)."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Плохое фото",
+          "d": "Неверный размер, цветной фон, очки или старое фото. Используйте свежее фото на паспорт на белом фоне."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Nepal → Корея: часто задаваемые вопросы о визе",
+      "items": [
+        {
+          "q": "Нужна ли гражданам Nepal виза в Корею?",
+          "a": "Да — для туризма вы заранее подаёте на краткосрочную туристическую визу C-3-9. Паспорта Nepal не безвизовые и не входят в список K-ETA."
+        },
+        {
+          "q": "Как записаться на приём?",
+          "a": "Запишитесь онлайн на koreanembassynepal.org. Слоты открываются по понедельникам и средам в 10:00 и быстро заканчиваются, поэтому записывайтесь как можно раньше."
+        },
+        {
+          "q": "Сколько это занимает?",
+          "a": "Около 21 рабочего дня, дольше в пиковый сезон или при дополнительных проверках. Подавайте заблаговременно до поездки."
+        },
+        {
+          "q": "Сколько это стоит?",
+          "a": "NPR 5,400 за краткосрочную визу с однократным въездом, оплата наличными на стойке посольства. Суммы меняются — уточните актуальный сбор в посольстве."
+        },
+        {
+          "q": "Нужен ли перевод моих документов?",
+          "a": "Да — документы Nepal нужно перевести на английский и нотариально заверить. Любые корейские документы должны быть оригиналами, выданными в последние 3 месяца."
+        },
+        {
+          "q": "Почему рейс должен вылетать через 21+ день после подачи?",
+          "a": "Посольство ожидает, что даты поездки оставляют время на обработку (около 21 рабочего дня). Бронируйте с вылетом не ранее чем через 21 день — и никогда не поддельный билет."
+        },
+        {
+          "q": "Можно ли получить многократную визу?",
+          "a": "Многократные туристические визы возможны в некоторых случаях, но право на них различается. Уточните в посольстве актуальные правила для Nepal."
+        },
+        {
+          "q": "Нужна ли мне e-Arrival Card после получения визы?",
+          "a": "Требование e-Arrival Card может по-прежнему применяться при въезде. Проверьте правила въездных документов ближе к дате поездки на официальных сайтах."
+        }
+      ]
+    }
+  },
+  "fr": {
+    "kicker": "Guide des visas · Nepal → Corée",
+    "readingTime": "8 min de lecture",
+    "h1": "Visa coréen depuis le Nepal",
+    "metaTitle": "Visa Nepal vers Corée : en avez-vous besoin ? (2026) — Korea Trip Hub",
+    "metaDesc": "Oui — les titulaires d'un passeport du Nepal ont besoin d'un visa pour la Corée du Sud (C-3-9 tourisme de court séjour, jusqu'à 90 jours). Prenez rendez-vous en ligne à l'Ambassade de Corée à Kathmandu : documents, frais (NPR 5,400) et délai de traitement.",
+    "ui": {
+      "visa": "Type de visa",
+      "stay": "Durée de séjour",
+      "entry": "Entrée",
+      "where": "Où l'obtenir",
+      "official": "Sources officielles",
+      "required": "Obligatoire",
+      "conditional": "Le cas échéant",
+      "recommended": "Recommandé",
+      "confirm": "Les frais/règles peuvent changer — vérifiez à la source",
+      "source": "Source",
+      "updated": "Mis à jour",
+      "tldr": "En bref"
+    },
+    "verdict": {
+      "headline": "Oui — les titulaires d'un passeport du Nepal ont besoin d'un visa.",
+      "sub": "Vous demanderez le visa touristique de courte durée C-3-9 (entrée unique, séjour jusqu'à 90 jours) à l'Ambassade de Corée à Kathmandu, sur rendez-vous en ligne. La K-ETA/l'entrée sans visa ne s'applique PAS aux passeports du Nepal.",
+      "type": "C-3-9 Touristique de courte durée",
+      "stay": "Jusqu'à 90 jours",
+      "entry": "Entrée unique (entrée multiple possible dans certains cas — renseignez-vous à l'ambassade)"
+    },
+    "tldr": [
+      "Remplissez le formulaire sur visa.go.kr (le SEUL portail officiel), imprimez-le et signez-le.",
+      "Prenez rendez-vous en ligne sur koreanembassynepal.org — les créneaux s'ouvrent les lundis et les mercredis à 10:00.",
+      "Faites traduire les documents du Nepal en anglais ET notariser ; les documents coréens doivent être des originaux émis au cours des 3 derniers mois.",
+      "Frais NPR 5,400 (entrée unique), en espèces au guichet ; résultat en environ 21 jours ouvrés."
+    ],
+    "steps": {
+      "title": "La demande, étape par étape",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirmez le type de visa",
+          "detail": "Pour le tourisme, il vous faut le visa de visite de courte durée (touristique) C-3-9. Réunissez la liste ci-dessous avant de commencer."
+        },
+        {
+          "n": 2,
+          "title": "Remplissez le formulaire sur visa.go.kr",
+          "detail": "Rendez-vous sur le Korea Visa Portal (visa.go.kr) — le seul site officiel. Remplissez le formulaire de demande, puis imprimez-le et signez-le. Un formulaire par demandeur.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Prenez rendez-vous en ligne",
+          "detail": "Réservez un créneau sur koreanembassynepal.org. Les créneaux de rendez-vous s'ouvrent les lundis et les mercredis à 10:00 — réservez tôt, ils partent vite."
+        },
+        {
+          "n": 4,
+          "title": "Rassemblez et préparez vos documents",
+          "detail": "Réunissez la liste ci-dessous. Les documents du Nepal doivent être traduits en anglais et notarisés ; tout document coréen doit être un original émis au cours des 3 derniers mois."
+        },
+        {
+          "n": 5,
+          "title": "Présentez-vous au rendez-vous et payez",
+          "detail": "Déposez votre formulaire et vos documents en personne à l'Ambassade de Corée à Kathmandu à l'heure de votre rendez-vous, et payez les frais de NPR 5,400 en espèces au guichet."
+        },
+        {
+          "n": 6,
+          "title": "Attendez le traitement",
+          "detail": "Le traitement prend environ 21 jours ouvrés. Ne réservez pas de vols non remboursables avant d'être approuvé ; on pourrait vous demander des documents supplémentaires."
+        },
+        {
+          "n": 7,
+          "title": "Récupérez votre passeport",
+          "detail": "Récupérez-le selon les instructions et vérifiez les détails de la vignette de visa (nom, dates, type d'entrée) dès que vous le recevez."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Liste des documents — avec où et comment obtenir chacun",
+      "intro": "C'est la partie que tous les autres sites omettent. Pour chaque document, voici exactement où l'obtenir et ce qu'il doit indiquer. Les documents du Nepal ont besoin d'une traduction en anglais et d'une notarisation.",
+      "cols": [
+        "Document",
+        "Où l'obtenir",
+        "Ce qu'il doit indiquer"
+      ],
+      "rows": [
+        {
+          "doc": "Passeport",
+          "req": "required",
+          "where": "Vous l'avez",
+          "how": "Valide 6 mois ou plus au-delà de votre voyage, avec au moins 2 pages vierges. Apportez aussi vos anciens passeports si vous en avez."
+        },
+        {
+          "doc": "Formulaire de demande de visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Complétez-le sur le Korea Visa Portal, imprimez et signez. Un par demandeur.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Photo",
+          "req": "required",
+          "where": "N'importe quel studio photo",
+          "how": "Une photo récente au format passeport, fond blanc uni, prise dans les 6 derniers mois, visage entier."
+        },
+        {
+          "doc": "Réservation de vol aller-retour",
+          "req": "required",
+          "where": "Compagnie aérienne / agence de voyages",
+          "how": "Une réservation confirmée avec un départ au moins 21 jours après votre demande. N'achetez PAS de billet payant avant l'approbation, et ne présentez jamais de faux billet."
+        },
+        {
+          "doc": "Justificatif d'hébergement",
+          "req": "required",
+          "where": "Sites de réservation d'hôtel",
+          "how": "Réservations d'hôtel confirmées couvrant votre séjour. Vous logez chez quelqu'un ? Ajoutez une lettre d'invitation + une copie de la pièce d'identité/ARC de l'hôte."
+        },
+        {
+          "doc": "Lettre de motivation + itinéraire",
+          "req": "required",
+          "where": "À rédiger vous-même (en anglais)",
+          "how": "Une lettre indiquant l'objet de votre visite et un programme jour par jour."
+        },
+        {
+          "doc": "Relevé bancaire / preuve financière",
+          "req": "required",
+          "where": "Votre banque",
+          "how": "Un relevé récent (avec le sceau de la banque) montrant que vous pouvez financer le voyage. Les documents du Nepal ont besoin d'une traduction en anglais + notarisation."
+        },
+        {
+          "doc": "Justificatif d'emploi / de statut",
+          "req": "required",
+          "where": "Employeur / entreprise / université",
+          "how": "Salarié : attestation d'emploi/de congé. Indépendant : enregistrement d'entreprise. Étudiant : certificat de scolarité. Traduit en anglais et notarisé."
+        }
+      ],
+      "legend": {
+        "required": "Obligatoire",
+        "conditional": "Si cela s'applique à vous",
+        "recommended": "Recommandé"
+      }
+    },
+    "funds": {
+      "title": "« De quel solde bancaire ai-je besoin ? »",
+      "body": "Il n'existe pas de minimum officiel unique publié pour le visa touristique. Ce qui compte, c'est de prouver que vous pouvez financer confortablement tout le voyage et que vous avez des raisons de rentrer au Nepal. Les agents instructeurs regardent la stabilité, pas seulement un chiffre affiché.",
+      "tips": [
+        "Montrez un solde constant — un dépôt important effectué quelques jours avant la demande fait mauvaise impression.",
+        "Associez le relevé bancaire à la preuve de votre emploi, de votre entreprise ou de vos études ; ensemble, ils racontent une histoire crédible.",
+        "Vous êtes parrainé ? Ajoutez le relevé bancaire du garant, une lettre de parrainage signée et une preuve de votre lien de parenté."
+      ]
+    },
+    "pitfalls": {
+      "title": "Erreurs qui causent rejets et retards",
+      "items": [
+        {
+          "icon": "🚫",
+          "t": "Billets d'avion faux ou incohérents",
+          "d": "Présenter un faux billet ou de fausses informations de voyage peut entraîner un rejet ET une interdiction de 3 ans de déposer une nouvelle demande. Utilisez une réservation authentique."
+        },
+        {
+          "icon": "📜",
+          "t": "Documents du Nepal non notarisés",
+          "d": "Les documents du Nepal doivent être traduits en anglais et notarisés. Les papiers non traduits ou non notarisés sont renvoyés."
+        },
+        {
+          "icon": "📅",
+          "t": "Manquer la fenêtre de rendez-vous",
+          "d": "Les créneaux de rendez-vous s'ouvrent les lundis et les mercredis à 10:00 et partent vite. Planifiez votre réservation en conséquence."
+        },
+        {
+          "icon": "🎫",
+          "t": "Acheter les vols trop tôt",
+          "d": "Payer des billets non remboursables avant l'approbation. Une réservation (départ 21+ jours plus tard) suffit pour le dossier."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Mauvaise photo",
+          "d": "Mauvaise taille, fond coloré, lunettes ou photo ancienne. Utilisez une photo de passeport récente sur fond blanc."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ visa Nepal → Corée",
+      "items": [
+        {
+          "q": "Les citoyens du Nepal ont-ils besoin d'un visa pour la Corée ?",
+          "a": "Oui — pour le tourisme, vous demandez à l'avance le visa touristique de courte durée C-3-9. Les passeports du Nepal ne sont pas exemptés de visa et ne figurent pas sur la liste K-ETA."
+        },
+        {
+          "q": "Comment obtenir un rendez-vous ?",
+          "a": "Réservez en ligne sur koreanembassynepal.org. Les créneaux s'ouvrent les lundis et les mercredis à 10:00 et partent vite, alors réservez le plus tôt possible."
+        },
+        {
+          "q": "Combien de temps cela prend-il ?",
+          "a": "Environ 21 jours ouvrés, et plus longtemps en haute saison ou si des vérifications supplémentaires sont nécessaires. Faites votre demande bien avant votre voyage."
+        },
+        {
+          "q": "Combien cela coûte-t-il ?",
+          "a": "NPR 5,400 pour un visa de courte durée à entrée unique, payé en espèces au guichet de l'ambassade. Les montants changent — confirmez le tarif en vigueur à l'ambassade."
+        },
+        {
+          "q": "Mes documents doivent-ils être traduits ?",
+          "a": "Oui — les documents du Nepal doivent être traduits en anglais et notarisés. Tout document coréen doit être un original émis au cours des 3 derniers mois."
+        },
+        {
+          "q": "Pourquoi le vol doit-il partir 21+ jours après la demande ?",
+          "a": "L'ambassade s'attend à ce que vos dates de voyage laissent le temps du traitement (environ 21 jours ouvrés). Réservez avec un départ au moins 21 jours plus tard — et jamais de faux billet."
+        },
+        {
+          "q": "Puis-je obtenir un visa à entrées multiples ?",
+          "a": "Les visas touristiques à entrées multiples sont possibles dans certains cas, mais l'éligibilité varie. Renseignez-vous à l'ambassade sur les règles actuelles pour le Nepal."
+        },
+        {
+          "q": "Ai-je toujours besoin de la e-Arrival Card après avoir obtenu le visa ?",
+          "a": "L'obligation de e-Arrival Card peut toujours s'appliquer à l'entrée. Vérifiez les règles relatives aux documents d'entrée à l'approche de votre date de voyage sur les sites officiels."
+        }
+      ]
+    }
+  }
 }
