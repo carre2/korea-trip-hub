@@ -1,3 +1,2302 @@
 {
-  "_README": "Per-locale translation overrides for pakistan → Korea visa guide. { <locale>: { ...overrides } }. English base in pakistan.json."
+  "_README": "Per-locale translation overrides for pakistan → Korea visa guide. { <locale>: { ...overrides } }. English base in pakistan.json.",
+  "ja": {
+    "kicker": "ビザガイド · Pakistan → 韓国",
+    "readingTime": "7分で読めます",
+    "h1": "Pakistanからの韓国ビザ",
+    "metaTitle": "はい — Pakistanから韓国はビザが必要です（C-3、2026年）— Korea Trip Hub",
+    "metaDesc": "はい — Pakistanのパスポート保持者は韓国のビザが必要です（C-3 短期観光、最長90日）。Islamabadの韓国大使館で申請します — 必要書類、想定される面接、そして説得力のある観光申請書類の作り方を解説します。",
+    "ui": {
+      "visa": "ビザの種類",
+      "stay": "滞在期間",
+      "entry": "入国",
+      "where": "入手先",
+      "official": "公式ソース",
+      "required": "必須",
+      "conditional": "該当する場合",
+      "recommended": "推奨",
+      "confirm": "手数料・規則は変更される場合があります — 出典で確認してください",
+      "source": "出典",
+      "updated": "更新日",
+      "tldr": "要点"
+    },
+    "verdict": {
+      "headline": "はい — Pakistanのパスポート保有者はビザが必要です。",
+      "sub": "Islamabadの韓国大使館でC-3短期観光ビザ（最長90日間の滞在）を申請します。一部の申請者は面接に呼ばれ、観光ビザの延長は原則として認められません。K-ETA／ビザ免除入国は適用されません。",
+      "type": "C-3 短期観光",
+      "stay": "最長90日間",
+      "entry": "シングルエントリー（場合によってはマルチプルエントリーも可能 — 大使館でお尋ねください）"
+    },
+    "tldr": [
+      "visa.go.kr（唯一の公式ポータル）でフォームに記入し、印刷して署名します。",
+      "Islamabadの韓国大使館へ本人が出向いて提出します — 面接に呼ばれることがあります。",
+      "パスポート、写真、航空券＋ホテルの予約、銀行取引明細、そして在職または事業の証明を持参します。",
+      "現在の手数料と処理時間は大使館で確認してください — 公表されていません。観光ビザの延長は原則として認められません。"
+    ],
+    "steps": {
+      "title": "申請の手順（ステップバイステップ）",
+      "items": [
+        {
+          "n": 1,
+          "title": "ビザの種類を確認する",
+          "detail": "観光にはC-3短期訪問（観光）ビザが必要です。始める前に、下のチェックリストを揃えてください。"
+        },
+        {
+          "n": 2,
+          "title": "visa.go.krでフォームに記入する",
+          "detail": "Korea Visa Portal（visa.go.kr）にアクセスします — 唯一の公式サイトです。申請フォームに記入し、印刷して署名します。すべての記載内容が提出書類と一致していることを確認してください。申請者1人につき1枚です。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "書類を揃える",
+          "detail": "下のチェックリストを集めます。一貫性があり、きちんと裏付けられた観光申請書類が、遅延を避ける最善の方法です。"
+        },
+        {
+          "n": 4,
+          "title": "Islamabadの韓国大使館で提出する",
+          "detail": "フォームと書類を大使館へ本人が持参して提出します。現在の受付時間や予約の要否は大使館のサイトで確認してください。",
+          "link": "https://overseas.mofa.go.kr/pk-en",
+          "linkLabel": "韓国大使館（Pakistan）"
+        },
+        {
+          "n": 5,
+          "title": "求められたら面接を受ける",
+          "detail": "一部の申請者は、書類を確認するための短い面接に呼ばれます。書類と矛盾のないよう正直に答えてください。"
+        },
+        {
+          "n": 6,
+          "title": "支払って待つ",
+          "detail": "ビザ手数料を支払い、結果を待ちます。現在の手数料と処理時間は大使館で確認してください — 公表されていません。承認されるまで払い戻し不可の航空券は予約しないでください。"
+        },
+        {
+          "n": 7,
+          "title": "パスポートを受け取る",
+          "detail": "案内に従って受け取り、受け取ったらすぐにビザステッカーの記載内容（氏名、日付、入国の種類）を確認してください。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "必要書類チェックリスト — 各書類の入手先と方法つき",
+      "intro": "これは他のどのサイトも省略する部分です。各書類について、どこで入手し、何が記載されていなければならないかを正確に示します。",
+      "cols": [
+        "書類",
+        "入手先",
+        "記載されるべき内容"
+      ],
+      "rows": [
+        {
+          "doc": "パスポート",
+          "req": "required",
+          "where": "お手元にあります",
+          "how": "旅行終了後6か月以上有効で、空白ページが2ページ以上あるもの。古いパスポートがあれば一緒に持参してください。"
+        },
+        {
+          "doc": "ビザ申請フォーム",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Korea Visa Portalで記入し、印刷して署名します。すべての記載内容が提出書類と一致していなければなりません。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "写真 — 35 × 45 mm",
+          "req": "required",
+          "where": "任意の写真スタジオ",
+          "how": "白背景、過去6か月以内に撮影、正面顔、眼鏡や頭部の着用物なし。"
+        },
+        {
+          "doc": "往復の航空券予約",
+          "req": "required",
+          "where": "航空会社／旅行代理店",
+          "how": "確定した予約／旅程で十分です — ビザが承認される前に有料の航空券を購入しないでください。"
+        },
+        {
+          "doc": "宿泊証明",
+          "req": "required",
+          "where": "ホテル予約サイト",
+          "how": "滞在期間をカバーする確定済みのホテル予約。誰かの家に滞在する場合は、招待状＋ホストのID／ARCのコピーを添えてください。"
+        },
+        {
+          "doc": "銀行取引明細",
+          "req": "required",
+          "where": "ご利用の銀行",
+          "how": "旅行費用を賄えることを示す最近の明細（銀行の印章つき）。安定した残高は、突然の入金よりもはるかに説得力があります。"
+        },
+        {
+          "doc": "在職／事業の証明",
+          "req": "required",
+          "where": "雇用主／事業",
+          "how": "被雇用者：在職証明書＋休暇届。事業主：登録／税務書類。これはPakistanとの強い結びつきを示すのに役立ちます。"
+        }
+      ],
+      "legend": {
+        "required": "必須",
+        "conditional": "該当する場合",
+        "recommended": "推奨"
+      }
+    },
+    "funds": {
+      "title": "「銀行残高はいくら必要ですか？」",
+      "body": "観光ビザについて公表された単一の公式な最低額はありません。重要なのは、旅行全体を無理なく賄えること、そしてPakistanに戻る強い理由があることを証明することです。審査官は、目立つ数字だけでなく、安定性と結びつきを見ます。",
+      "tips": [
+        "一貫した残高を示してください — 申請の数日前に行った多額の入金は弱く見えます。",
+        "銀行取引明細に在職または事業の証明を組み合わせてください。ここでは母国との強い結びつきが大きな意味を持ちます。",
+        "スポンサーがいる場合は、スポンサーの銀行取引明細、署名入りのスポンサーシップレター、そして関係を示す証明を添えてください。"
+      ]
+    },
+    "pitfalls": {
+      "title": "却下や遅延を招く間違い",
+      "items": [
+        {
+          "icon": "🗣️",
+          "t": "回答の食い違い",
+          "d": "フォーム、書類、面接の内容が一致しないと、申請書類は弱く見えます。すべてを一貫させ、正直に保ってください。"
+        },
+        {
+          "icon": "🏠",
+          "t": "母国との結びつきが弱い",
+          "d": "帰国することの証拠が乏しいこと（安定した仕事、事業、家族の結びつきがない）は、よくある却下理由です。Pakistanとの結びつきをしっかり示してください。"
+        },
+        {
+          "icon": "🎫",
+          "t": "航空券を早く買いすぎる",
+          "d": "承認前に払い戻し不可の航空券を購入すること。申請書類には予約で十分です。"
+        },
+        {
+          "icon": "🌐",
+          "t": "偽の「ビザ」サイトで申請する",
+          "d": "韓国ビザを扱うのはvisa.go.kr（フォーム）とIslamabadの公式な韓国大使館だけです — 追加料金を取る類似サイトは無視してください。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "不適切な写真",
+          "d": "サイズ違い、色付き背景、眼鏡、または古い写真。新しい35 × 45 mmの白背景の写真を使ってください。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pakistan → 韓国 ビザFAQ",
+      "items": [
+        {
+          "q": "Pakistan国民は韓国のビザが必要ですか？",
+          "a": "はい — 観光の場合は事前にC-3短期観光ビザを申請します。Pakistanのパスポートはビザ免除ではなく、K-ETAの対象でもありません。"
+        },
+        {
+          "q": "どこで申請しますか？",
+          "a": "Islamabadの韓国大使館で本人が申請します。フォームはKorea Visa Portal（visa.go.kr）で記入します。"
+        },
+        {
+          "q": "面接はありますか？",
+          "a": "ある場合があります。一部の申請者は書類を確認するための短い面接に呼ばれるので、書類と回答を矛盾なく保ってください。"
+        },
+        {
+          "q": "費用と所要時間はどのくらいですか？",
+          "a": "手数料と処理時間は、アクセスできる公式ソースでは公表されていません。航空券を予約する前に、両方を大使館で確認してください。"
+        },
+        {
+          "q": "韓国で観光ビザを延長できますか？",
+          "a": "原則としてできません — 観光ビザの延長は通常認められません。与えられた滞在期間内で旅行を計画してください。"
+        },
+        {
+          "q": "マルチプルエントリービザは取得できますか？",
+          "a": "マルチプルエントリーの観光ビザは場合によっては可能ですが、資格は状況によって異なります。Pakistan向けの現在の規則については大使館にお問い合わせください。"
+        },
+        {
+          "q": "ビザを取得した後もe-Arrival Cardは必要ですか？",
+          "a": "入国時のe-Arrival Cardの要件は依然として適用される場合があります。旅行日が近づいたら、公式サイトで入国書類の規則を確認してください。"
+        }
+      ]
+    }
+  },
+  "zh": {
+    "kicker": "签证指南 · Pakistan → 韩国",
+    "readingTime": "阅读7分钟",
+    "h1": "从 Pakistan 申请韩国签证",
+    "metaTitle": "需要 — 从 Pakistan 前往韩国需要签证（C-3，2026）— Korea Trip Hub",
+    "metaDesc": "需要 — Pakistan 护照持有者前往韩国需要签证（C-3 短期旅游，最多 90 天）。在 Islamabad 的韩国大使馆申请 — 所需材料、可能的面谈，以及如何准备一份有说服力的旅游申请材料。",
+    "ui": {
+      "visa": "签证类型",
+      "stay": "停留时间",
+      "entry": "入境",
+      "where": "从何处获取",
+      "official": "官方来源",
+      "required": "必需",
+      "conditional": "如适用",
+      "recommended": "推荐",
+      "confirm": "费用/规定可能变动 — 请在来源处确认",
+      "source": "来源",
+      "updated": "更新于",
+      "tldr": "摘要"
+    },
+    "verdict": {
+      "headline": "是的 — 持 Pakistan 护照者需要签证。",
+      "sub": "您需要在 Islamabad 的韩国大使馆申请 C-3 短期旅游签证（停留最长 90 天）。部分申请人会被要求面谈，且旅游签证的延期通常不予批准。K-ETA/免签入境不适用。",
+      "type": "C-3 短期旅游",
+      "stay": "最长 90 天",
+      "entry": "单次入境（某些情况下可办理多次入境 — 请向大使馆咨询）"
+    },
+    "tldr": [
+      "在 visa.go.kr（唯一的官方门户）填写表格，打印并签名。",
+      "本人前往 Islamabad 的韩国大使馆当面提交 — 您可能会被要求面谈。",
+      "携带护照、照片、机票+酒店预订、银行对账单，以及工作或经营的证明。",
+      "请向大使馆确认当前费用和办理时间 — 这些并未公开发布。旅游签证延期通常不予批准。"
+    ],
+    "steps": {
+      "title": "申请步骤详解",
+      "items": [
+        {
+          "n": 1,
+          "title": "确认签证类型",
+          "detail": "旅游请办理 C-3 短期访问（旅游）签证。开始前先备齐下面的清单。"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填写表格",
+          "detail": "前往 Korea Visa Portal（visa.go.kr）— 唯一的官方网站。填写申请表，打印并签名。确保每一项都与您的辅助材料一致。每位申请人一份表格。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "备齐材料",
+          "detail": "收集下面清单中的材料。一份前后一致、材料齐全的旅游申请是避免延误的最佳方式。"
+        },
+        {
+          "n": 4,
+          "title": "在 Islamabad 的韩国大使馆提交",
+          "detail": "本人携表格和材料前往大使馆当面提交。请查看大使馆网站了解当前办公时间以及是否需要预约。",
+          "link": "https://overseas.mofa.go.kr/pk-en",
+          "linkLabel": "韩国大使馆，Pakistan"
+        },
+        {
+          "n": 5,
+          "title": "如被要求，参加面谈",
+          "detail": "部分申请人会被叫去进行简短面谈以核实材料。请如实回答，并与您的材料保持一致。"
+        },
+        {
+          "n": 6,
+          "title": "缴费并等待",
+          "detail": "缴纳签证费并等待结果。请向大使馆确认当前费用和办理时间 — 这些并未公开发布。在获批之前不要预订不可退款的机票。"
+        },
+        {
+          "n": 7,
+          "title": "领取护照",
+          "detail": "按指示领取，收到后立即核对签证贴纸上的信息（姓名、日期、入境类型）。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "材料清单 — 附每项在何处、如何获取",
+      "intro": "这正是其他网站都略过的部分。对于每一份材料，这里都明确说明在哪里获取以及必须体现什么内容。",
+      "cols": [
+        "材料",
+        "从何处获取",
+        "必须体现什么"
+      ],
+      "rows": [
+        {
+          "doc": "护照",
+          "req": "required",
+          "where": "您已持有",
+          "how": "有效期在行程结束后 6 个月以上，至少有 2 页空白页。如有旧护照也请一并携带。"
+        },
+        {
+          "doc": "签证申请表",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在 Korea Visa Portal 填写，打印并签名。每一项都必须与您的辅助材料一致。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片 — 35 × 45 mm",
+          "req": "required",
+          "where": "任意照相馆",
+          "how": "纯白背景，最近 6 个月内拍摄，正面全脸，不戴眼镜或头饰。"
+        },
+        {
+          "doc": "往返机票预订",
+          "req": "required",
+          "where": "航空公司/旅行社",
+          "how": "确认的预订/行程即可 — 在签证获批之前不要购买已付款的机票。"
+        },
+        {
+          "doc": "住宿证明",
+          "req": "required",
+          "where": "酒店预订网站",
+          "how": "涵盖您停留期间的确认酒店预订。住在他人家里？请附上邀请函 + 住宿人身份证/ARC 复印件。"
+        },
+        {
+          "doc": "银行对账单",
+          "req": "required",
+          "where": "您的开户银行",
+          "how": "近期对账单（带银行印章），证明您能负担此行。稳定的余额远比突然的一笔存款更有说服力。"
+        },
+        {
+          "doc": "工作/经营证明",
+          "req": "required",
+          "where": "雇主/企业",
+          "how": "在职者：在职证明 + 休假信。企业主：注册/税务文件。这有助于证明与 Pakistan 有牢固的联系。"
+        }
+      ],
+      "legend": {
+        "required": "必需",
+        "conditional": "如适用于您",
+        "recommended": "推荐"
+      }
+    },
+    "funds": {
+      "title": "“银行余额需要多少？”",
+      "body": "旅游签证并没有公布单一的官方最低金额。重要的是证明您能轻松负担整个行程，并有充分理由返回 Pakistan。审核官看的是稳定性和联系，而不仅仅是一个显眼的数字。",
+      "tips": [
+        "展示稳定的余额 — 申请前几天才存入的一大笔钱看起来很弱。",
+        "将银行对账单与工作或经营证明搭配提交；牢固的本国联系在这里非常重要。",
+        "有担保人？请附上担保人的银行对账单、签署的担保信，以及你们关系的证明。"
+      ]
+    },
+    "pitfalls": {
+      "title": "导致拒签和延误的错误",
+      "items": [
+        {
+          "icon": "🗣️",
+          "t": "前后不一致的回答",
+          "d": "如果表格、材料和面谈中的信息不一致，申请材料就会显得薄弱。请保持一切前后一致且真实。"
+        },
+        {
+          "icon": "🏠",
+          "t": "本国联系薄弱",
+          "d": "缺乏返回的证据（没有稳定工作、经营或家庭联系）是常见的拒签原因。请充分证明您与 Pakistan 的联系。"
+        },
+        {
+          "icon": "🎫",
+          "t": "过早购买机票",
+          "d": "在获批前购买不可退款的机票。申请材料有预订即可。"
+        },
+        {
+          "icon": "🌐",
+          "t": "在假冒的“签证”网站申请",
+          "d": "只有 visa.go.kr（表格）和 Islamabad 的官方韩国大使馆办理韩国签证 — 请无视那些额外收费的仿冒网站。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "照片不合格",
+          "d": "尺寸不对、彩色背景、戴眼镜或旧照片。请使用新拍摄的 35 × 45 mm 白色背景照片。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pakistan → 韩国 签证常见问题",
+      "items": [
+        {
+          "q": "Pakistan 公民前往韩国需要签证吗？",
+          "a": "需要 — 旅游需提前申请 C-3 短期旅游签证。Pakistan 护照不能免签，也不在 K-ETA 名单内。"
+        },
+        {
+          "q": "在哪里申请？",
+          "a": "本人前往 Islamabad 的韩国大使馆申请。表格在 Korea Visa Portal（visa.go.kr）上填写。"
+        },
+        {
+          "q": "会面谈吗？",
+          "a": "有可能。部分申请人会被叫去进行简短面谈以核实材料，因此请保持材料和回答一致。"
+        },
+        {
+          "q": "费用多少、需要多长时间？",
+          "a": "费用和办理时间在可查阅的官方来源中并未公布。在预订机票前，请向大使馆确认这两项。"
+        },
+        {
+          "q": "可以在韩国延长旅游签证吗？",
+          "a": "通常不能 — 旅游签证的延期一般不予批准。请在获准的停留期内规划行程。"
+        },
+        {
+          "q": "可以办理多次入境签证吗？",
+          "a": "多次入境旅游签证在某些情况下可以办理，但资格因人而异。请向大使馆咨询针对 Pakistan 的当前规定。"
+        },
+        {
+          "q": "拿到签证后还需要 e-Arrival Card 吗？",
+          "a": "入境时 e-Arrival Card 的要求仍可能适用。请在临近出行日期时到官方网站核对入境材料规定。"
+        }
+      ]
+    }
+  },
+  "zh-TW": {
+    "kicker": "簽證指南 · Pakistan → 韓國",
+    "readingTime": "閱讀7分鐘",
+    "h1": "從 Pakistan 申請韓國簽證",
+    "metaTitle": "需要 — 從 Pakistan 前往韓國需要簽證（C-3，2026）— Korea Trip Hub",
+    "metaDesc": "需要 — Pakistan 護照持有人前往韓國需要簽證（C-3 短期觀光，最多 90 天）。於 Islamabad 的韓國大使館申請 — 所需文件、可能的面談，以及如何準備一份有說服力的觀光申請文件。",
+    "ui": {
+      "visa": "簽證類型",
+      "stay": "停留時間",
+      "entry": "入境",
+      "where": "從何處取得",
+      "official": "官方來源",
+      "required": "必備",
+      "conditional": "如適用",
+      "recommended": "建議",
+      "confirm": "費用/規定可能變動 — 請於來源處確認",
+      "source": "來源",
+      "updated": "更新於",
+      "tldr": "摘要"
+    },
+    "verdict": {
+      "headline": "是的 — 持 Pakistan 護照者需要簽證。",
+      "sub": "您需要於 Islamabad 的韓國大使館申請 C-3 短期觀光簽證（停留最長 90 天）。部分申請人會被要求面談，且觀光簽證的延期通常不予核准。K-ETA/免簽入境不適用。",
+      "type": "C-3 短期觀光",
+      "stay": "最長 90 天",
+      "entry": "單次入境（某些情況下可辦理多次入境 — 請向大使館洽詢）"
+    },
+    "tldr": [
+      "在 visa.go.kr（唯一的官方入口網站）填寫表格，列印並簽名。",
+      "本人前往 Islamabad 的韓國大使館當面遞交 — 您可能會被要求面談。",
+      "攜帶護照、照片、機票+飯店預訂、銀行對帳單，以及工作或營業的證明。",
+      "請向大使館確認目前的費用與辦理時間 — 這些並未公開發布。觀光簽證延期通常不予核准。"
+    ],
+    "steps": {
+      "title": "申請步驟逐步說明",
+      "items": [
+        {
+          "n": 1,
+          "title": "確認簽證類型",
+          "detail": "觀光請辦理 C-3 短期停留（觀光）簽證。開始前先備齊下方清單。"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填寫表格",
+          "detail": "前往 Korea Visa Portal（visa.go.kr）— 唯一的官方網站。填寫申請表，列印並簽名。請確保每一項都與您的佐證文件一致。每位申請人一份表格。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "備齊文件",
+          "detail": "收集下方清單中的文件。一份前後一致、佐證完整的觀光申請是避免延誤的最佳方式。"
+        },
+        {
+          "n": 4,
+          "title": "於 Islamabad 的韓國大使館遞交",
+          "detail": "本人攜表格與文件前往大使館當面遞交。請查看大使館網站了解目前的辦公時間以及是否需要預約。",
+          "link": "https://overseas.mofa.go.kr/pk-en",
+          "linkLabel": "韓國大使館，Pakistan"
+        },
+        {
+          "n": 5,
+          "title": "如被要求，參加面談",
+          "detail": "部分申請人會被叫去進行簡短面談以核實文件。請據實回答，並與您的文件保持一致。"
+        },
+        {
+          "n": 6,
+          "title": "繳費並等候",
+          "detail": "繳納簽證費並等候結果。請向大使館確認目前的費用與辦理時間 — 這些並未公開發布。在獲准之前請勿預訂不可退款的機票。"
+        },
+        {
+          "n": 7,
+          "title": "領取護照",
+          "detail": "依指示領取，收到後立即核對簽證貼紙上的資訊（姓名、日期、入境類型）。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "文件清單 — 附每項在何處、如何取得",
+      "intro": "這正是其他網站都略過的部分。對於每一份文件，這裡都明確說明在哪裡取得以及必須呈現什麼內容。",
+      "cols": [
+        "文件",
+        "從何處取得",
+        "必須呈現什麼"
+      ],
+      "rows": [
+        {
+          "doc": "護照",
+          "req": "required",
+          "where": "您已持有",
+          "how": "效期在行程結束後 6 個月以上，至少有 2 頁空白頁。如有舊護照也請一併攜帶。"
+        },
+        {
+          "doc": "簽證申請表",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在 Korea Visa Portal 填寫，列印並簽名。每一項都必須與您的佐證文件一致。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片 — 35 × 45 mm",
+          "req": "required",
+          "where": "任一照相館",
+          "how": "純白背景，最近 6 個月內拍攝，正面全臉，不戴眼鏡或頭飾。"
+        },
+        {
+          "doc": "來回機票預訂",
+          "req": "required",
+          "where": "航空公司/旅行社",
+          "how": "確認的預訂/行程即可 — 在簽證獲准之前請勿購買已付款的機票。"
+        },
+        {
+          "doc": "住宿證明",
+          "req": "required",
+          "where": "飯店預訂網站",
+          "how": "涵蓋您停留期間的確認飯店預訂。住在他人家中？請附上邀請函 + 住宿人身分證/ARC 影本。"
+        },
+        {
+          "doc": "銀行對帳單",
+          "req": "required",
+          "where": "您的往來銀行",
+          "how": "近期對帳單（附銀行印章），證明您能負擔此行。穩定的餘額遠比突然的一筆存款更有說服力。"
+        },
+        {
+          "doc": "工作/營業證明",
+          "req": "required",
+          "where": "雇主/企業",
+          "how": "在職者：在職證明 + 請假信。企業主：登記/稅務文件。這有助於證明與 Pakistan 有穩固的連結。"
+        }
+      ],
+      "legend": {
+        "required": "必備",
+        "conditional": "若適用於您",
+        "recommended": "建議"
+      }
+    },
+    "funds": {
+      "title": "「銀行餘額需要多少？」",
+      "body": "觀光簽證並沒有公布單一的官方最低金額。重要的是證明您能輕鬆負擔整趟行程，並有充分理由返回 Pakistan。審核人員看的是穩定性與連結，而不只是一個顯眼的數字。",
+      "tips": [
+        "呈現穩定的餘額 — 申請前幾天才存入的一大筆錢看起來很薄弱。",
+        "將銀行對帳單與工作或營業證明一併提交；穩固的本國連結在這裡非常重要。",
+        "有擔保人？請附上擔保人的銀行對帳單、簽署的擔保信，以及你們關係的證明。"
+      ]
+    },
+    "pitfalls": {
+      "title": "導致拒簽與延誤的錯誤",
+      "items": [
+        {
+          "icon": "🗣️",
+          "t": "前後不一致的回答",
+          "d": "如果表格、文件與面談中的資訊不一致，申請文件就會顯得薄弱。請保持一切前後一致且真實。"
+        },
+        {
+          "icon": "🏠",
+          "t": "本國連結薄弱",
+          "d": "缺乏返回的證據（沒有穩定工作、營業或家庭連結）是常見的拒簽原因。請充分證明您與 Pakistan 的連結。"
+        },
+        {
+          "icon": "🎫",
+          "t": "過早購買機票",
+          "d": "在獲准前購買不可退款的機票。申請文件有預訂即可。"
+        },
+        {
+          "icon": "🌐",
+          "t": "在假冒的「簽證」網站申請",
+          "d": "只有 visa.go.kr（表格）與 Islamabad 的官方韓國大使館辦理韓國簽證 — 請無視那些額外收費的仿冒網站。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "照片不合格",
+          "d": "尺寸不對、彩色背景、戴眼鏡或舊照片。請使用新拍攝的 35 × 45 mm 白色背景照片。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pakistan → 韓國 簽證常見問題",
+      "items": [
+        {
+          "q": "Pakistan 公民前往韓國需要簽證嗎？",
+          "a": "需要 — 觀光需提前申請 C-3 短期觀光簽證。Pakistan 護照無法免簽，也不在 K-ETA 名單內。"
+        },
+        {
+          "q": "在哪裡申請？",
+          "a": "本人前往 Islamabad 的韓國大使館申請。表格於 Korea Visa Portal（visa.go.kr）上填寫。"
+        },
+        {
+          "q": "會面談嗎？",
+          "a": "有可能。部分申請人會被叫去進行簡短面談以核實文件，因此請保持文件與回答一致。"
+        },
+        {
+          "q": "費用多少、需要多久？",
+          "a": "費用與辦理時間在可查閱的官方來源中並未公布。在預訂機票前，請向大使館確認這兩項。"
+        },
+        {
+          "q": "可以在韓國延長觀光簽證嗎？",
+          "a": "通常不行 — 觀光簽證的延期一般不予核准。請在獲准的停留期內規劃行程。"
+        },
+        {
+          "q": "可以辦理多次入境簽證嗎？",
+          "a": "多次入境觀光簽證在某些情況下可以辦理，但資格因人而異。請向大使館洽詢針對 Pakistan 的目前規定。"
+        },
+        {
+          "q": "拿到簽證後還需要 e-Arrival Card 嗎？",
+          "a": "入境時 e-Arrival Card 的要求仍可能適用。請在接近出行日期時至官方網站核對入境文件規定。"
+        }
+      ]
+    }
+  },
+  "vi": {
+    "kicker": "Hướng dẫn visa · Pakistan → Hàn Quốc",
+    "readingTime": "Đọc 7 phút",
+    "h1": "Visa Hàn Quốc từ Pakistan",
+    "metaTitle": "Có — bạn cần visa Hàn Quốc từ Pakistan (C-3, 2026) — Korea Trip Hub",
+    "metaDesc": "Có — người mang hộ chiếu Pakistan cần visa vào Hàn Quốc (C-3 du lịch ngắn hạn, tối đa 90 ngày). Nộp hồ sơ tại Đại sứ quán Hàn Quốc ở Islamabad — giấy tờ, buổi phỏng vấn có thể diễn ra, và cách xây dựng một bộ hồ sơ du lịch thuyết phục.",
+    "ui": {
+      "visa": "Loại visa",
+      "stay": "Thời gian lưu trú",
+      "entry": "Nhập cảnh",
+      "where": "Lấy ở đâu",
+      "official": "Nguồn chính thức",
+      "required": "Bắt buộc",
+      "conditional": "Nếu áp dụng",
+      "recommended": "Khuyến nghị",
+      "confirm": "Lệ phí/quy định có thể thay đổi — hãy xác nhận tại nguồn",
+      "source": "Nguồn",
+      "updated": "Cập nhật",
+      "tldr": "Tóm tắt"
+    },
+    "verdict": {
+      "headline": "Có — người mang hộ chiếu Pakistan cần visa.",
+      "sub": "Bạn sẽ nộp hồ sơ xin visa du lịch ngắn hạn C-3 (lưu trú tối đa 90 ngày) tại Đại sứ quán Hàn Quốc ở Islamabad. Một số người nộp sẽ được mời phỏng vấn, và visa du lịch nói chung không được gia hạn. Nhập cảnh bằng K-ETA/miễn visa KHÔNG áp dụng.",
+      "type": "C-3 Du lịch ngắn hạn",
+      "stay": "Tối đa 90 ngày",
+      "entry": "Nhập cảnh một lần (nhập cảnh nhiều lần có thể được trong một số trường hợp — hãy hỏi tại đại sứ quán)"
+    },
+    "tldr": [
+      "Điền mẫu đơn tại visa.go.kr (cổng chính thức DUY NHẤT), in ra và ký tên.",
+      "Nộp trực tiếp tại Đại sứ quán Hàn Quốc ở Islamabad — bạn có thể được mời phỏng vấn.",
+      "Mang theo hộ chiếu, ảnh, đặt vé máy bay + khách sạn, sao kê ngân hàng, và bằng chứng về công việc hoặc kinh doanh của bạn.",
+      "Hãy xác nhận lệ phí hiện hành và thời gian xử lý tại đại sứ quán — chúng không được công bố công khai. Visa du lịch nói chung không được gia hạn."
+    ],
+    "steps": {
+      "title": "Quy trình nộp hồ sơ, từng bước",
+      "items": [
+        {
+          "n": 1,
+          "title": "Xác nhận loại visa",
+          "detail": "Để đi du lịch bạn cần visa thăm ngắn hạn (du lịch) C-3. Hãy chuẩn bị danh sách bên dưới trước khi bắt đầu."
+        },
+        {
+          "n": 2,
+          "title": "Điền mẫu đơn tại visa.go.kr",
+          "detail": "Vào Korea Visa Portal (visa.go.kr) — trang chính thức duy nhất. Hoàn thành mẫu đơn, in ra và ký tên. Hãy chắc chắn mọi chi tiết khớp với giấy tờ chứng minh của bạn. Mỗi người nộp một mẫu đơn.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Chuẩn bị giấy tờ",
+          "detail": "Thu thập danh sách bên dưới. Một bộ hồ sơ du lịch nhất quán, được chứng minh đầy đủ là cách tốt nhất để tránh chậm trễ."
+        },
+        {
+          "n": 4,
+          "title": "Nộp tại Đại sứ quán Hàn Quốc, Islamabad",
+          "detail": "Nộp trực tiếp mẫu đơn và giấy tờ tại Đại sứ quán. Hãy xem trang của đại sứ quán để biết giờ làm việc hiện tại và có cần hẹn lịch hay không.",
+          "link": "https://overseas.mofa.go.kr/pk-en",
+          "linkLabel": "Đại sứ quán Hàn Quốc, Pakistan"
+        },
+        {
+          "n": 5,
+          "title": "Dự phỏng vấn nếu được yêu cầu",
+          "detail": "Một số người nộp được mời phỏng vấn ngắn để xác minh hồ sơ. Hãy trả lời trung thực và nhất quán với giấy tờ của bạn."
+        },
+        {
+          "n": 6,
+          "title": "Nộp lệ phí & chờ",
+          "detail": "Nộp lệ phí visa và chờ kết quả. Hãy xác nhận lệ phí hiện hành và thời gian xử lý tại đại sứ quán — chúng không được công bố công khai. Đừng đặt vé máy bay không hoàn tiền cho đến khi được chấp thuận."
+        },
+        {
+          "n": 7,
+          "title": "Nhận lại hộ chiếu",
+          "detail": "Nhận lại theo hướng dẫn và kiểm tra ngay thông tin trên tem visa (tên, ngày, loại nhập cảnh) khi bạn nhận được."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Danh sách giấy tờ — kèm nơi & cách lấy từng loại",
+      "intro": "Đây là phần mà mọi trang khác đều bỏ qua. Với mỗi giấy tờ, đây là chính xác nơi bạn lấy nó và nó phải thể hiện điều gì.",
+      "cols": [
+        "Giấy tờ",
+        "Lấy ở đâu",
+        "Phải thể hiện điều gì"
+      ],
+      "rows": [
+        {
+          "doc": "Hộ chiếu",
+          "req": "required",
+          "where": "Bạn đã có",
+          "how": "Còn hạn 6+ tháng sau chuyến đi, có ít nhất 2 trang trống. Mang theo cả hộ chiếu cũ nếu có."
+        },
+        {
+          "doc": "Mẫu đơn xin visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Hoàn thành trên Korea Visa Portal, in ra và ký tên. Mọi chi tiết phải khớp với giấy tờ chứng minh của bạn.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Ảnh — 35 × 45 mm",
+          "req": "required",
+          "where": "Bất kỳ tiệm ảnh nào",
+          "how": "Nền trắng trơn, chụp trong vòng 6 tháng gần đây, thấy rõ toàn mặt, không đeo kính hay đội mũ."
+        },
+        {
+          "doc": "Đặt vé máy bay khứ hồi",
+          "req": "required",
+          "where": "Hãng bay / đại lý du lịch",
+          "how": "Một đặt chỗ/lịch trình đã xác nhận là đủ — ĐỪNG mua vé đã thanh toán trước khi visa được chấp thuận."
+        },
+        {
+          "doc": "Bằng chứng chỗ ở",
+          "req": "required",
+          "where": "Trang đặt phòng khách sạn",
+          "how": "Đặt phòng khách sạn đã xác nhận bao trùm thời gian lưu trú. Ở nhờ nhà ai đó? Thêm thư mời + bản sao ID/ARC của người bảo trợ."
+        },
+        {
+          "doc": "Sao kê ngân hàng",
+          "req": "required",
+          "where": "Ngân hàng của bạn",
+          "how": "Sao kê gần đây (có dấu ngân hàng) cho thấy bạn có thể chi trả chuyến đi. Số dư ổn định thuyết phục hơn nhiều so với một khoản nạp đột ngột."
+        },
+        {
+          "doc": "Bằng chứng việc làm / kinh doanh",
+          "req": "required",
+          "where": "Chủ lao động / doanh nghiệp",
+          "how": "Người đi làm: giấy xác nhận việc làm + đơn xin nghỉ phép. Chủ doanh nghiệp: giấy đăng ký / hồ sơ thuế. Điều này giúp cho thấy mối ràng buộc chặt chẽ với Pakistan."
+        }
+      ],
+      "legend": {
+        "required": "Bắt buộc",
+        "conditional": "Nếu áp dụng với bạn",
+        "recommended": "Khuyến nghị"
+      }
+    },
+    "funds": {
+      "title": "“Tôi cần bao nhiêu số dư ngân hàng?”",
+      "body": "Không có một mức tối thiểu chính thức duy nhất nào được công bố cho visa du lịch. Điều quan trọng là chứng minh bạn có thể thoải mái chi trả cho cả chuyến đi và có lý do vững chắc để trở về Pakistan. Cán bộ xét duyệt nhìn vào sự ổn định và mối ràng buộc, không chỉ một con số nổi bật.",
+      "tips": [
+        "Thể hiện số dư nhất quán — một khoản nạp lớn vài ngày trước khi nộp trông rất yếu.",
+        "Kết hợp sao kê ngân hàng với bằng chứng về công việc hoặc kinh doanh; mối ràng buộc chặt với quê nhà rất quan trọng ở đây.",
+        "Được bảo trợ? Thêm sao kê ngân hàng của người bảo trợ, thư bảo trợ có chữ ký, và bằng chứng về mối quan hệ của bạn."
+      ]
+    },
+    "pitfalls": {
+      "title": "Những sai lầm gây từ chối & chậm trễ",
+      "items": [
+        {
+          "icon": "🗣️",
+          "t": "Câu trả lời không nhất quán",
+          "d": "Nếu thông tin trên đơn, giấy tờ và phỏng vấn không khớp, hồ sơ trông sẽ yếu. Hãy giữ mọi thứ nhất quán và trung thực."
+        },
+        {
+          "icon": "🏠",
+          "t": "Ràng buộc với quê nhà yếu",
+          "d": "Ít bằng chứng cho thấy bạn sẽ trở về (không có việc làm ổn định, kinh doanh hay ràng buộc gia đình) là lý do từ chối phổ biến. Hãy chứng minh rõ mối ràng buộc của bạn với Pakistan."
+        },
+        {
+          "icon": "🎫",
+          "t": "Mua vé máy bay quá sớm",
+          "d": "Trả tiền vé không hoàn lại trước khi được chấp thuận. Một đặt chỗ là đủ cho hồ sơ."
+        },
+        {
+          "icon": "🌐",
+          "t": "Nộp trên trang ‘visa’ giả",
+          "d": "Chỉ visa.go.kr (mẫu đơn) và Đại sứ quán Hàn Quốc chính thức ở Islamabad xử lý visa Hàn Quốc — hãy bỏ qua các trang nhái thu thêm phí."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Ảnh không đạt",
+          "d": "Sai kích thước, nền màu, đeo kính hoặc ảnh cũ. Hãy dùng ảnh mới 35 × 45 mm nền trắng."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Hỏi đáp visa Pakistan → Hàn Quốc",
+      "items": [
+        {
+          "q": "Công dân Pakistan có cần visa vào Hàn Quốc không?",
+          "a": "Có — để đi du lịch bạn nộp trước xin visa du lịch ngắn hạn C-3. Hộ chiếu Pakistan không được miễn visa và không nằm trong danh sách K-ETA."
+        },
+        {
+          "q": "Tôi nộp ở đâu?",
+          "a": "Nộp trực tiếp tại Đại sứ quán Hàn Quốc ở Islamabad. Bạn điền mẫu đơn trên Korea Visa Portal, visa.go.kr."
+        },
+        {
+          "q": "Tôi có bị phỏng vấn không?",
+          "a": "Có thể. Một số người nộp được mời phỏng vấn ngắn để xác minh hồ sơ, vì vậy hãy giữ giấy tờ và câu trả lời nhất quán."
+        },
+        {
+          "q": "Chi phí bao nhiêu và mất bao lâu?",
+          "a": "Lệ phí và thời gian xử lý không được công bố trong một nguồn chính thức có thể tra cứu. Hãy xác nhận cả hai tại đại sứ quán trước khi bạn đặt vé."
+        },
+        {
+          "q": "Tôi có thể gia hạn visa du lịch ở Hàn Quốc không?",
+          "a": "Nói chung là không — visa du lịch thường không được gia hạn. Hãy lên kế hoạch chuyến đi trong thời gian lưu trú được cấp."
+        },
+        {
+          "q": "Tôi có thể xin visa nhập cảnh nhiều lần không?",
+          "a": "Visa du lịch nhập cảnh nhiều lần có thể được trong một số trường hợp, nhưng điều kiện khác nhau. Hãy hỏi đại sứ quán về quy định hiện hành cho Pakistan."
+        },
+        {
+          "q": "Sau khi có visa tôi có còn cần e-Arrival Card không?",
+          "a": "Yêu cầu e-Arrival Card vẫn có thể áp dụng khi nhập cảnh. Hãy kiểm tra quy định giấy tờ nhập cảnh trên các trang chính thức khi gần đến ngày đi."
+        }
+      ]
+    }
+  },
+  "th": {
+    "kicker": "คู่มือวีซ่า · Pakistan → เกาหลี",
+    "readingTime": "อ่าน 7 นาที",
+    "h1": "วีซ่าเกาหลีจาก Pakistan",
+    "metaTitle": "ใช่ — คุณต้องมีวีซ่าเกาหลีจาก Pakistan (C-3, 2026) — Korea Trip Hub",
+    "metaDesc": "ใช่ — ผู้ถือหนังสือเดินทาง Pakistan ต้องมีวีซ่าเข้าเกาหลีใต้ (C-3 ท่องเที่ยวระยะสั้น สูงสุด 90 วัน) ยื่นขอที่สถานเอกอัครราชทูตเกาหลีใน Islamabad — เอกสาร การสัมภาษณ์ที่อาจเกิดขึ้น และวิธีจัดเตรียมแฟ้มนักท่องเที่ยวที่น่าเชื่อถือ",
+    "ui": {
+      "visa": "ประเภทวีซ่า",
+      "stay": "ระยะเวลาพำนัก",
+      "entry": "การเข้าเมือง",
+      "where": "ขอได้ที่ไหน",
+      "official": "แหล่งข้อมูลทางการ",
+      "required": "จำเป็น",
+      "conditional": "หากเข้าข่าย",
+      "recommended": "แนะนำ",
+      "confirm": "ค่าธรรมเนียม/กฎอาจเปลี่ยนแปลง — โปรดตรวจสอบจากแหล่งข้อมูล",
+      "source": "แหล่งที่มา",
+      "updated": "อัปเดตเมื่อ",
+      "tldr": "สรุป"
+    },
+    "verdict": {
+      "headline": "ใช่ — ผู้ถือหนังสือเดินทาง Pakistan ต้องมีวีซ่า",
+      "sub": "คุณจะยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3 (พำนักได้สูงสุด 90 วัน) ที่สถานเอกอัครราชทูตเกาหลีใน Islamabad ผู้ยื่นบางรายจะถูกเรียกสัมภาษณ์ และโดยทั่วไปวีซ่าท่องเที่ยวจะไม่ได้รับการต่ออายุ การเข้าเมืองแบบ K-ETA/ยกเว้นวีซ่าใช้ไม่ได้",
+      "type": "C-3 ท่องเที่ยวระยะสั้น",
+      "stay": "สูงสุด 90 วัน",
+      "entry": "เข้าออกครั้งเดียว (บางกรณีอาจขอแบบเข้าออกหลายครั้งได้ — สอบถามที่สถานทูต)"
+    },
+    "tldr": [
+      "กรอกแบบฟอร์มที่ visa.go.kr (พอร์ทัลทางการเพียงแห่งเดียว) พิมพ์ออกมาแล้วลงนาม",
+      "ยื่นด้วยตนเองที่สถานเอกอัครราชทูตเกาหลีใน Islamabad — คุณอาจถูกเรียกสัมภาษณ์",
+      "นำหนังสือเดินทาง รูปถ่าย การจองเที่ยวบิน + โรงแรม รายการเดินบัญชีธนาคาร และหลักฐานงานหรือธุรกิจของคุณไปด้วย",
+      "ตรวจสอบค่าธรรมเนียมปัจจุบันและระยะเวลาดำเนินการที่สถานทูต — ไม่ได้เปิดเผยต่อสาธารณะ โดยทั่วไปวีซ่าท่องเที่ยวจะไม่ได้รับการต่ออายุ"
+    ],
+    "steps": {
+      "title": "การยื่นคำร้อง ทีละขั้นตอน",
+      "items": [
+        {
+          "n": 1,
+          "title": "ยืนยันประเภทวีซ่า",
+          "detail": "สำหรับการท่องเที่ยว คุณต้องใช้วีซ่าเยือนระยะสั้น (ท่องเที่ยว) C-3 รวบรวมรายการตรวจสอบด้านล่างก่อนเริ่ม"
+        },
+        {
+          "n": 2,
+          "title": "กรอกแบบฟอร์มที่ visa.go.kr",
+          "detail": "ไปที่ Korea Visa Portal (visa.go.kr) — เว็บไซต์ทางการเพียงแห่งเดียว กรอกแบบฟอร์มคำร้อง พิมพ์ออกมาแล้วลงนาม ตรวจสอบให้ทุกรายละเอียดตรงกับเอกสารประกอบของคุณ หนึ่งแบบฟอร์มต่อผู้ยื่นหนึ่งคน",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "เตรียมเอกสารของคุณ",
+          "detail": "รวบรวมรายการด้านล่าง แฟ้มนักท่องเที่ยวที่สอดคล้องกันและมีหลักฐานครบถ้วนคือวิธีที่ดีที่สุดในการหลีกเลี่ยงความล่าช้า"
+        },
+        {
+          "n": 4,
+          "title": "ยื่นที่สถานเอกอัครราชทูตเกาหลี Islamabad",
+          "detail": "ยื่นแบบฟอร์มและเอกสารด้วยตนเองที่สถานทูต ตรวจสอบเว็บไซต์สถานทูตเพื่อดูเวลาทำการปัจจุบันและว่าต้องนัดหมายหรือไม่",
+          "link": "https://overseas.mofa.go.kr/pk-en",
+          "linkLabel": "สถานเอกอัครราชทูตเกาหลี, Pakistan"
+        },
+        {
+          "n": 5,
+          "title": "เข้าสัมภาษณ์หากถูกขอ",
+          "detail": "ผู้ยื่นบางรายจะถูกเรียกสัมภาษณ์สั้น ๆ เพื่อตรวจสอบแฟ้ม ตอบอย่างซื่อตรงและสอดคล้องกับเอกสารของคุณ"
+        },
+        {
+          "n": 6,
+          "title": "ชำระเงิน & รอ",
+          "detail": "ชำระค่าธรรมเนียมวีซ่าและรอผล ตรวจสอบค่าธรรมเนียมปัจจุบันและระยะเวลาดำเนินการที่สถานทูต — ไม่ได้เปิดเผยต่อสาธารณะ อย่าจองเที่ยวบินที่คืนเงินไม่ได้จนกว่าจะได้รับอนุมัติ"
+        },
+        {
+          "n": 7,
+          "title": "รับหนังสือเดินทางของคุณ",
+          "detail": "รับตามที่ได้รับแจ้ง และตรวจสอบรายละเอียดสติกเกอร์วีซ่า (ชื่อ วันที่ ประเภทการเข้าเมือง) ทันทีที่ได้รับ"
+        }
+      ]
+    },
+    "documents": {
+      "title": "รายการตรวจสอบเอกสาร — พร้อมบอกว่าขอแต่ละอย่างได้ที่ไหนและอย่างไร",
+      "intro": "นี่คือส่วนที่เว็บไซต์อื่นทุกแห่งข้ามไป สำหรับเอกสารแต่ละอย่าง นี่คือที่ที่คุณขอได้และสิ่งที่ต้องปรากฏในเอกสารนั้นอย่างชัดเจน",
+      "cols": [
+        "เอกสาร",
+        "ขอได้ที่ไหน",
+        "ต้องแสดงอะไร"
+      ],
+      "rows": [
+        {
+          "doc": "หนังสือเดินทาง",
+          "req": "required",
+          "where": "คุณมีอยู่แล้ว",
+          "how": "มีอายุเหลือ 6+ เดือนหลังการเดินทาง มีหน้าว่างอย่างน้อย 2 หน้า นำหนังสือเดินทางเล่มเก่ามาด้วยหากมี"
+        },
+        {
+          "doc": "แบบฟอร์มคำร้องขอวีซ่า",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "กรอกที่ Korea Visa Portal พิมพ์ออกมาแล้วลงนาม ทุกรายละเอียดต้องตรงกับเอกสารประกอบของคุณ",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "รูปถ่าย — 35 × 45 mm",
+          "req": "required",
+          "where": "ร้านถ่ายรูปใดก็ได้",
+          "how": "พื้นหลังสีขาว ถ่ายภายใน 6 เดือนที่ผ่านมา เห็นใบหน้าเต็ม ไม่สวมแว่นตาหรือเครื่องปกคลุมศีรษะ"
+        },
+        {
+          "doc": "การจองเที่ยวบินไป-กลับ",
+          "req": "required",
+          "where": "สายการบิน / ตัวแทนท่องเที่ยว",
+          "how": "การจอง/กำหนดการที่ยืนยันแล้วก็เพียงพอ — อย่าซื้อตั๋วที่จ่ายเงินแล้วก่อนวีซ่าได้รับอนุมัติ"
+        },
+        {
+          "doc": "หลักฐานที่พัก",
+          "req": "required",
+          "where": "เว็บไซต์จองโรงแรม",
+          "how": "การจองโรงแรมที่ยืนยันแล้วครอบคลุมช่วงพำนักของคุณ พักกับใครสักคน? เพิ่มจดหมายเชิญ + สำเนาบัตรประจำตัว/ARC ของเจ้าบ้าน"
+        },
+        {
+          "doc": "รายการเดินบัญชีธนาคาร",
+          "req": "required",
+          "where": "ธนาคารของคุณ",
+          "how": "รายการเดินบัญชีล่าสุด (มีตราประทับของธนาคาร) ที่แสดงว่าคุณสามารถออกค่าใช้จ่ายการเดินทางได้ ยอดคงเหลือที่สม่ำเสมอน่าเชื่อถือกว่าการฝากเงินก้อนโตแบบกะทันหันมาก"
+        },
+        {
+          "doc": "หลักฐานการจ้างงาน / ธุรกิจ",
+          "req": "required",
+          "where": "นายจ้าง / ธุรกิจ",
+          "how": "ลูกจ้าง: หนังสือรับรองการทำงาน + จดหมายลา เจ้าของธุรกิจ: เอกสารจดทะเบียน / ภาษี ซึ่งช่วยแสดงความผูกพันที่แน่นแฟ้นกับ Pakistan"
+        }
+      ],
+      "legend": {
+        "required": "จำเป็น",
+        "conditional": "หากเข้าข่ายกับคุณ",
+        "recommended": "แนะนำ"
+      }
+    },
+    "funds": {
+      "title": "“ต้องมียอดเงินในธนาคารเท่าไร?”",
+      "body": "ไม่มีจำนวนขั้นต่ำอย่างเป็นทางการเพียงตัวเดียวที่ประกาศไว้สำหรับวีซ่าท่องเที่ยว สิ่งที่สำคัญคือการพิสูจน์ว่าคุณสามารถออกค่าใช้จ่ายตลอดการเดินทางได้อย่างสบาย ๆ และมีเหตุผลหนักแน่นที่จะกลับ Pakistan เจ้าหน้าที่พิจารณาความมั่นคงและความผูกพัน ไม่ใช่แค่ตัวเลขที่ดูดี",
+      "tips": [
+        "แสดงยอดคงเหลือที่สม่ำเสมอ — การฝากเงินก้อนใหญ่ไม่กี่วันก่อนยื่นดูอ่อน",
+        "จับคู่รายการเดินบัญชีธนาคารกับหลักฐานงานหรือธุรกิจของคุณ ความผูกพันกับประเทศบ้านเกิดที่แน่นแฟ้นมีความสำคัญมากในที่นี้",
+        "มีผู้สนับสนุน? เพิ่มรายการเดินบัญชีธนาคารของผู้สนับสนุน จดหมายสนับสนุนที่ลงนาม และหลักฐานความสัมพันธ์ของคุณ"
+      ]
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดที่ทำให้ถูกปฏิเสธและล่าช้า",
+      "items": [
+        {
+          "icon": "🗣️",
+          "t": "คำตอบไม่สอดคล้องกัน",
+          "d": "หากรายละเอียดในแบบฟอร์ม เอกสาร และการสัมภาษณ์ไม่ตรงกัน แฟ้มจะดูอ่อน รักษาทุกอย่างให้สอดคล้องและซื่อตรง"
+        },
+        {
+          "icon": "🏠",
+          "t": "ความผูกพันกับบ้านเกิดอ่อน",
+          "d": "หลักฐานน้อยว่าคุณจะกลับ (ไม่มีงานประจำ ธุรกิจ หรือความผูกพันในครอบครัว) เป็นเหตุผลปฏิเสธที่พบบ่อย จงแสดงความผูกพันของคุณกับ Pakistan ให้ชัดเจน"
+        },
+        {
+          "icon": "🎫",
+          "t": "ซื้อตั๋วเครื่องบินเร็วเกินไป",
+          "d": "จ่ายค่าตั๋วที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ การจองก็เพียงพอสำหรับแฟ้ม"
+        },
+        {
+          "icon": "🌐",
+          "t": "ยื่นบนเว็บ ‘วีซ่า’ ปลอม",
+          "d": "มีเพียง visa.go.kr (แบบฟอร์ม) และสถานเอกอัครราชทูตเกาหลีอย่างเป็นทางการใน Islamabad เท่านั้นที่ดำเนินการวีซ่าเกาหลี — เพิกเฉยต่อเว็บไซต์เลียนแบบที่เก็บเงินเพิ่ม"
+        },
+        {
+          "icon": "🖼️",
+          "t": "รูปถ่ายไม่ดี",
+          "d": "ขนาดผิด พื้นหลังมีสี ใส่แว่นตา หรือรูปเก่า ใช้รูปใหม่ 35 × 45 mm พื้นหลังสีขาว"
+        }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อยวีซ่า Pakistan → เกาหลี",
+      "items": [
+        {
+          "q": "พลเมือง Pakistan ต้องมีวีซ่าเข้าเกาหลีไหม?",
+          "a": "ต้อง — สำหรับการท่องเที่ยว คุณยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3 ล่วงหน้า หนังสือเดินทาง Pakistan ไม่ได้รับการยกเว้นวีซ่าและไม่อยู่ในรายชื่อ K-ETA"
+        },
+        {
+          "q": "ยื่นขอที่ไหน?",
+          "a": "ยื่นด้วยตนเองที่สถานเอกอัครราชทูตเกาหลีใน Islamabad คุณกรอกแบบฟอร์มที่ Korea Visa Portal, visa.go.kr"
+        },
+        {
+          "q": "จะถูกสัมภาษณ์ไหม?",
+          "a": "อาจถูกสัมภาษณ์ ผู้ยื่นบางรายจะถูกเรียกสัมภาษณ์สั้น ๆ เพื่อตรวจสอบแฟ้ม ดังนั้นรักษาเอกสารและคำตอบให้สอดคล้องกัน"
+        },
+        {
+          "q": "ค่าใช้จ่ายเท่าไรและใช้เวลานานแค่ไหน?",
+          "a": "ค่าธรรมเนียมและระยะเวลาดำเนินการไม่ได้เปิดเผยในแหล่งข้อมูลทางการที่เข้าถึงได้ ตรวจสอบทั้งสองอย่างที่สถานทูตก่อนจองเที่ยวบิน"
+        },
+        {
+          "q": "ต่ออายุวีซ่าท่องเที่ยวในเกาหลีได้ไหม?",
+          "a": "โดยทั่วไปไม่ได้ — วีซ่าท่องเที่ยวมักไม่ได้รับการต่ออายุ วางแผนการเดินทางภายในระยะเวลาพำนักที่คุณได้รับ"
+        },
+        {
+          "q": "ขอวีซ่าแบบเข้าออกหลายครั้งได้ไหม?",
+          "a": "วีซ่าท่องเที่ยวแบบเข้าออกหลายครั้งเป็นไปได้ในบางกรณี แต่คุณสมบัติแตกต่างกันไป สอบถามที่สถานทูตเกี่ยวกับกฎปัจจุบันสำหรับ Pakistan"
+        },
+        {
+          "q": "หลังได้วีซ่าแล้วยังต้องใช้ e-Arrival Card ไหม?",
+          "a": "ข้อกำหนด e-Arrival Card ยังอาจมีผลเมื่อเข้าเมือง ตรวจสอบกฎเอกสารเข้าเมืองบนเว็บไซต์ทางการเมื่อใกล้วันเดินทางของคุณ"
+        }
+      ]
+    }
+  },
+  "id": {
+    "kicker": "Panduan visa · Pakistan → Korea",
+    "readingTime": "Baca 7 menit",
+    "h1": "Visa Korea dari Pakistan",
+    "metaTitle": "Ya — Anda butuh visa Korea dari Pakistan (C-3, 2026) — Korea Trip Hub",
+    "metaDesc": "Ya — pemegang paspor Pakistan memerlukan visa untuk Korea Selatan (C-3 turis jangka pendek, hingga 90 hari). Ajukan di Kedutaan Besar Korea di Islamabad — dokumen, kemungkinan wawancara, dan cara menyusun berkas turis yang kuat.",
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Masa tinggal",
+      "entry": "Masuk",
+      "where": "Tempat mendapatkannya",
+      "official": "Sumber resmi",
+      "required": "Wajib",
+      "conditional": "Jika berlaku",
+      "recommended": "Disarankan",
+      "confirm": "Biaya/aturan dapat berubah — konfirmasi di sumbernya",
+      "source": "Sumber",
+      "updated": "Diperbarui",
+      "tldr": "Ringkasan"
+    },
+    "verdict": {
+      "headline": "Ya — pemegang paspor Pakistan memerlukan visa.",
+      "sub": "Anda akan mengajukan visa turis jangka pendek C-3 (tinggal hingga 90 hari) di Kedutaan Besar Korea di Islamabad. Sebagian pemohon dipanggil untuk wawancara, dan visa turis umumnya tidak diperpanjang. Masuk dengan K-ETA/bebas visa TIDAK berlaku.",
+      "type": "C-3 Turis Jangka Pendek",
+      "stay": "Hingga 90 hari",
+      "entry": "Sekali masuk (masuk berkali-kali mungkin dalam beberapa kasus — tanyakan di kedutaan)"
+    },
+    "tldr": [
+      "Isi formulir di visa.go.kr (SATU-SATUNYA portal resmi), cetak dan tanda tangani.",
+      "Ajukan langsung di Kedutaan Besar Korea di Islamabad — Anda mungkin dipanggil untuk wawancara.",
+      "Bawa paspor, foto, pemesanan penerbangan + hotel, rekening koran bank, dan bukti pekerjaan atau usaha Anda.",
+      "Konfirmasi biaya terkini dan waktu pemrosesan di kedutaan — keduanya tidak dipublikasikan secara terbuka. Visa turis umumnya tidak diperpanjang."
+    ],
+    "steps": {
+      "title": "Pengajuan, langkah demi langkah",
+      "items": [
+        {
+          "n": 1,
+          "title": "Konfirmasikan jenis visa",
+          "detail": "Untuk wisata Anda memerlukan visa kunjungan jangka pendek (turis) C-3. Kumpulkan daftar periksa di bawah sebelum mulai."
+        },
+        {
+          "n": 2,
+          "title": "Isi formulir di visa.go.kr",
+          "detail": "Buka Korea Visa Portal (visa.go.kr) — satu-satunya situs resmi. Lengkapi formulir permohonan, cetak dan tanda tangani. Pastikan setiap detail cocok dengan dokumen pendukung Anda. Satu formulir per pemohon.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Susun dokumen Anda",
+          "detail": "Kumpulkan daftar periksa di bawah. Berkas turis yang konsisten dan terdokumentasi dengan baik adalah cara terbaik menghindari keterlambatan."
+        },
+        {
+          "n": 4,
+          "title": "Ajukan di Kedutaan Besar Korea, Islamabad",
+          "detail": "Serahkan formulir dan dokumen Anda secara langsung di Kedutaan. Cek situs kedutaan untuk jam kerja terkini dan apakah perlu janji temu.",
+          "link": "https://overseas.mofa.go.kr/pk-en",
+          "linkLabel": "Kedutaan Besar Korea, Pakistan"
+        },
+        {
+          "n": 5,
+          "title": "Ikuti wawancara jika diminta",
+          "detail": "Sebagian pemohon dipanggil untuk wawancara singkat guna memverifikasi berkas. Jawab dengan jujur dan konsisten dengan dokumen Anda."
+        },
+        {
+          "n": 6,
+          "title": "Bayar & tunggu",
+          "detail": "Bayar biaya visa dan tunggu keputusan. Konfirmasi biaya terkini dan waktu pemrosesan di kedutaan — keduanya tidak dipublikasikan secara terbuka. Jangan pesan penerbangan yang tidak dapat dikembalikan sampai Anda disetujui."
+        },
+        {
+          "n": 7,
+          "title": "Ambil paspor Anda",
+          "detail": "Ambil sesuai petunjuk dan periksa detail stiker visa (nama, tanggal, jenis masuk) begitu Anda menerimanya."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Daftar periksa dokumen — dengan di mana & bagaimana mendapatkan masing-masing",
+      "intro": "Inilah bagian yang dilewati setiap situs lain. Untuk setiap dokumen, inilah tepatnya di mana Anda memperolehnya dan apa yang harus ditunjukkannya.",
+      "cols": [
+        "Dokumen",
+        "Tempat mendapatkannya",
+        "Apa yang harus ditunjukkan"
+      ],
+      "rows": [
+        {
+          "doc": "Paspor",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Berlaku 6+ bulan setelah perjalanan Anda, dengan minimal 2 halaman kosong. Bawa juga paspor lama jika ada."
+        },
+        {
+          "doc": "Formulir permohonan visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapi di Korea Visa Portal, cetak dan tanda tangani. Setiap detail harus cocok dengan dokumen pendukung Anda.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 35 × 45 mm",
+          "req": "required",
+          "where": "Studio foto mana pun",
+          "how": "Latar putih polos, diambil dalam 6 bulan terakhir, wajah penuh, tanpa kacamata atau penutup kepala."
+        },
+        {
+          "doc": "Pemesanan penerbangan pulang-pergi",
+          "req": "required",
+          "where": "Maskapai / agen perjalanan",
+          "how": "Pemesanan/rencana perjalanan yang terkonfirmasi sudah cukup — JANGAN beli tiket berbayar sebelum visa disetujui."
+        },
+        {
+          "doc": "Bukti akomodasi",
+          "req": "required",
+          "where": "Situs pemesanan hotel",
+          "how": "Pemesanan hotel terkonfirmasi yang mencakup masa tinggal Anda. Menginap di rumah seseorang? Tambahkan surat undangan + salinan ID/ARC tuan rumah."
+        },
+        {
+          "doc": "Rekening koran bank",
+          "req": "required",
+          "where": "Bank Anda",
+          "how": "Rekening koran terbaru (dengan stempel bank) yang menunjukkan Anda dapat membiayai perjalanan. Saldo yang stabil jauh lebih meyakinkan daripada setoran mendadak."
+        },
+        {
+          "doc": "Bukti pekerjaan / usaha",
+          "req": "required",
+          "where": "Pemberi kerja / usaha",
+          "how": "Bekerja: surat keterangan kerja + surat cuti. Pemilik usaha: dokumen pendaftaran / pajak. Ini membantu menunjukkan ikatan kuat dengan Pakistan."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berlaku bagi Anda",
+        "recommended": "Disarankan"
+      }
+    },
+    "funds": {
+      "title": "“Berapa saldo bank yang saya butuhkan?”",
+      "body": "Tidak ada satu angka minimum resmi yang dipublikasikan untuk visa turis. Yang penting adalah membuktikan bahwa Anda dapat membiayai seluruh perjalanan dengan nyaman dan memiliki alasan kuat untuk kembali ke Pakistan. Petugas menilai kestabilan dan ikatan, bukan sekadar angka yang mencolok.",
+      "tips": [
+        "Tunjukkan saldo yang konsisten — setoran besar beberapa hari sebelum mengajukan terlihat lemah.",
+        "Padukan rekening koran bank dengan bukti pekerjaan atau usaha Anda; ikatan kuat dengan tanah air sangat penting di sini.",
+        "Disponsori? Tambahkan rekening koran sponsor, surat sponsor bertanda tangan, dan bukti hubungan Anda."
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesalahan yang menyebabkan penolakan & keterlambatan",
+      "items": [
+        {
+          "icon": "🗣️",
+          "t": "Jawaban tidak konsisten",
+          "d": "Jika detail pada formulir, dokumen, dan wawancara tidak cocok, berkas terlihat lemah. Jaga semuanya konsisten dan jujur."
+        },
+        {
+          "icon": "🏠",
+          "t": "Ikatan tanah air lemah",
+          "d": "Sedikit bukti bahwa Anda akan kembali (tanpa pekerjaan tetap, usaha, atau ikatan keluarga) adalah alasan penolakan yang umum. Dokumentasikan ikatan Anda dengan Pakistan dengan baik."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membeli tiket terlalu dini",
+          "d": "Membayar tiket yang tidak dapat dikembalikan sebelum disetujui. Pemesanan sudah cukup untuk berkas."
+        },
+        {
+          "icon": "🌐",
+          "t": "Mengajukan di situs ‘visa’ palsu",
+          "d": "Hanya visa.go.kr (formulir) dan Kedutaan Besar Korea resmi di Islamabad yang mengurus visa Korea — abaikan situs tiruan yang memungut biaya tambahan."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Foto buruk",
+          "d": "Ukuran salah, latar berwarna, kacamata, atau foto lama. Gunakan foto baru 35 × 45 mm latar putih."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Tanya jawab visa Pakistan → Korea",
+      "items": [
+        {
+          "q": "Apakah warga Pakistan memerlukan visa untuk Korea?",
+          "a": "Ya — untuk wisata Anda mengajukan visa turis jangka pendek C-3 di muka. Paspor Pakistan tidak bebas visa dan tidak ada dalam daftar K-ETA."
+        },
+        {
+          "q": "Di mana saya mengajukan?",
+          "a": "Secara langsung di Kedutaan Besar Korea di Islamabad. Anda mengisi formulir di Korea Visa Portal, visa.go.kr."
+        },
+        {
+          "q": "Apakah saya akan diwawancarai?",
+          "a": "Mungkin saja. Sebagian pemohon dipanggil untuk wawancara singkat guna memverifikasi berkas, jadi jaga dokumen dan jawaban Anda tetap konsisten."
+        },
+        {
+          "q": "Berapa biayanya dan berapa lama?",
+          "a": "Biaya dan waktu pemrosesan tidak dipublikasikan dalam sumber resmi yang dapat diakses. Konfirmasi keduanya di kedutaan sebelum Anda memesan penerbangan."
+        },
+        {
+          "q": "Bisakah saya memperpanjang visa turis di Korea?",
+          "a": "Umumnya tidak — visa turis biasanya tidak diperpanjang. Rencanakan perjalanan Anda dalam masa tinggal yang diberikan."
+        },
+        {
+          "q": "Bisakah saya mendapatkan visa masuk berkali-kali?",
+          "a": "Visa turis masuk berkali-kali mungkin dalam beberapa kasus, tetapi kelayakan bervariasi. Tanyakan di kedutaan tentang aturan terkini untuk Pakistan."
+        },
+        {
+          "q": "Apakah saya masih perlu e-Arrival Card setelah mendapat visa?",
+          "a": "Persyaratan e-Arrival Card masih dapat berlaku saat masuk. Periksa aturan dokumen masuk di situs resmi menjelang tanggal perjalanan Anda."
+        }
+      ]
+    }
+  },
+  "es": {
+    "kicker": "Guía de visado · Pakistan → Corea",
+    "readingTime": "7 min de lectura",
+    "h1": "Visado de Corea desde Pakistan",
+    "metaTitle": "Sí — necesitas visado para Corea desde Pakistan (C-3, 2026) — Korea Trip Hub",
+    "metaDesc": "Sí — los titulares de pasaporte de Pakistan necesitan visado para Corea del Sur (C-3 de turista de corta duración, hasta 90 días). Solicítalo en la Embajada de Corea en Islamabad — documentos, la posible entrevista y cómo preparar un expediente de turista sólido.",
+    "ui": {
+      "visa": "Tipo de visado",
+      "stay": "Estancia",
+      "entry": "Entrada",
+      "where": "Dónde conseguirlo",
+      "official": "Fuente oficial",
+      "required": "Obligatorio",
+      "conditional": "Si corresponde",
+      "recommended": "Recomendado",
+      "confirm": "Las tasas/normas pueden cambiar — confírmalo en la fuente",
+      "source": "Fuente",
+      "updated": "Actualizado",
+      "tldr": "Resumen"
+    },
+    "verdict": {
+      "headline": "Sí — los titulares de pasaporte de Pakistan necesitan visado.",
+      "sub": "Solicitarás el visado de turista de corta duración C-3 (estancia de hasta 90 días) en la Embajada de Corea en Islamabad. A algunos solicitantes se les llama a una entrevista, y las prórrogas del visado de turista por lo general no se conceden. La entrada con K-ETA/sin visado NO se aplica.",
+      "type": "C-3 Turista de corta duración",
+      "stay": "Hasta 90 días",
+      "entry": "Entrada única (la entrada múltiple es posible en algunos casos — pregunta en la embajada)"
+    },
+    "tldr": [
+      "Rellena el formulario en visa.go.kr (el ÚNICO portal oficial), imprímelo y fírmalo.",
+      "Preséntalo en persona en la Embajada de Corea en Islamabad — puede que te llamen a una entrevista.",
+      "Lleva el pasaporte, una foto, las reservas de vuelo + hotel, un extracto bancario y un justificante de tu trabajo o negocio.",
+      "Confirma la tasa actual y el tiempo de tramitación en la embajada — no se publican abiertamente. Las prórrogas de turista por lo general no se conceden."
+    ],
+    "steps": {
+      "title": "La solicitud, paso a paso",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirma el tipo de visado",
+          "detail": "Para turismo necesitas el visado de visita de corta duración (turista) C-3. Reúne la lista de verificación de abajo antes de empezar."
+        },
+        {
+          "n": 2,
+          "title": "Rellena el formulario en visa.go.kr",
+          "detail": "Ve al Korea Visa Portal (visa.go.kr) — el único sitio oficial. Completa el formulario de solicitud, imprímelo y fírmalo. Asegúrate de que cada dato coincida con tus documentos justificativos. Un formulario por solicitante.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Reúne tus documentos",
+          "detail": "Recopila la lista de abajo. Un expediente de turista coherente y bien documentado es la mejor forma de evitar retrasos."
+        },
+        {
+          "n": 4,
+          "title": "Presenta en la Embajada de Corea, Islamabad",
+          "detail": "Entrega tu formulario y documentos en persona en la Embajada. Consulta el sitio de la embajada para conocer el horario actual y si se necesita cita.",
+          "link": "https://overseas.mofa.go.kr/pk-en",
+          "linkLabel": "Embajada de Corea, Pakistan"
+        },
+        {
+          "n": 5,
+          "title": "Acude a una entrevista si te la piden",
+          "detail": "A algunos solicitantes se les llama a una breve entrevista para verificar su expediente. Responde con honestidad y de forma coherente con tus documentos."
+        },
+        {
+          "n": 6,
+          "title": "Paga y espera",
+          "detail": "Paga la tasa del visado y espera la decisión. Confirma la tasa actual y el tiempo de tramitación en la embajada — no se publican abiertamente. No reserves vuelos no reembolsables hasta que te aprueben."
+        },
+        {
+          "n": 7,
+          "title": "Recoge tu pasaporte",
+          "detail": "Recógelo según las indicaciones y comprueba los datos de la etiqueta del visado (nombre, fechas, tipo de entrada) en cuanto lo recibas."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Lista de documentos — con dónde y cómo conseguir cada uno",
+      "intro": "Esta es la parte que todos los demás sitios omiten. Para cada documento, aquí tienes exactamente dónde obtenerlo y qué debe mostrar.",
+      "cols": [
+        "Documento",
+        "Dónde conseguirlo",
+        "Qué debe mostrar"
+      ],
+      "rows": [
+        {
+          "doc": "Pasaporte",
+          "req": "required",
+          "where": "Ya lo tienes",
+          "how": "Válido 6+ meses más allá de tu viaje, con al menos 2 páginas en blanco. Lleva también los pasaportes antiguos si los tienes."
+        },
+        {
+          "doc": "Formulario de solicitud de visado",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Complétalo en el Korea Visa Portal, imprímelo y fírmalo. Cada dato debe coincidir con tus documentos justificativos.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 35 × 45 mm",
+          "req": "required",
+          "where": "Cualquier estudio fotográfico",
+          "how": "Fondo blanco liso, tomada en los últimos 6 meses, rostro completo, sin gafas ni prendas en la cabeza."
+        },
+        {
+          "doc": "Reserva de vuelo de ida y vuelta",
+          "req": "required",
+          "where": "Aerolínea / agencia de viajes",
+          "how": "Una reserva/itinerario confirmado es suficiente — NO compres un billete pagado antes de que se apruebe el visado."
+        },
+        {
+          "doc": "Justificante de alojamiento",
+          "req": "required",
+          "where": "Sitios de reserva de hoteles",
+          "how": "Reservas de hotel confirmadas que cubran tu estancia. ¿Te alojas con alguien? Añade una carta de invitación + copia del DNI/ARC del anfitrión."
+        },
+        {
+          "doc": "Extracto bancario",
+          "req": "required",
+          "where": "Tu banco",
+          "how": "Un extracto reciente (con el sello del banco) que muestre que puedes financiar el viaje. Un saldo estable es mucho más convincente que un depósito repentino."
+        },
+        {
+          "doc": "Justificante de empleo / negocio",
+          "req": "required",
+          "where": "Empleador / negocio",
+          "how": "Empleado: certificado de empleo + carta de permiso. Empresario: documentos de registro / fiscales. Esto ayuda a demostrar vínculos sólidos con Pakistan."
+        }
+      ],
+      "legend": {
+        "required": "Obligatorio",
+        "conditional": "Si te corresponde",
+        "recommended": "Recomendado"
+      }
+    },
+    "funds": {
+      "title": "«¿Cuánto saldo bancario necesito?»",
+      "body": "No hay un único mínimo oficial publicado para el visado de turista. Lo que importa es demostrar que puedes financiar cómodamente todo el viaje y que tienes motivos de peso para volver a Pakistan. Los funcionarios que evalúan el caso miran la estabilidad y los vínculos, no solo una cifra llamativa.",
+      "tips": [
+        "Muestra un saldo constante — un gran depósito hecho días antes de solicitar parece débil.",
+        "Combina el extracto bancario con un justificante de tu trabajo o negocio; aquí los vínculos sólidos con tu país importan mucho.",
+        "¿Tienes patrocinador? Añade el extracto bancario del patrocinador, una carta de patrocinio firmada y una prueba de tu relación."
+      ]
+    },
+    "pitfalls": {
+      "title": "Errores que provocan rechazos y retrasos",
+      "items": [
+        {
+          "icon": "🗣️",
+          "t": "Respuestas incoherentes",
+          "d": "Si los datos del formulario, los documentos y la entrevista no coinciden, el expediente parece débil. Mantén todo coherente y honesto."
+        },
+        {
+          "icon": "🏠",
+          "t": "Vínculos débiles con tu país",
+          "d": "Poca prueba de que regresarás (sin trabajo estable, negocio o vínculos familiares) es un motivo habitual de denegación. Documenta bien tus vínculos con Pakistan."
+        },
+        {
+          "icon": "🎫",
+          "t": "Comprar los vuelos demasiado pronto",
+          "d": "Pagar billetes no reembolsables antes de la aprobación. Una reserva es suficiente para el expediente."
+        },
+        {
+          "icon": "🌐",
+          "t": "Solicitar en un sitio de ‘visados’ falso",
+          "d": "Solo visa.go.kr (formulario) y la Embajada de Corea oficial en Islamabad tramitan los visados de Corea — ignora los sitios imitación que cobran de más."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Mala foto",
+          "d": "Tamaño incorrecto, fondo de color, gafas o una foto antigua. Usa una foto reciente de 35 × 45 mm con fondo blanco."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre el visado Pakistan → Corea",
+      "items": [
+        {
+          "q": "¿Necesitan visado para Corea los ciudadanos de Pakistan?",
+          "a": "Sí — para turismo solicitas con antelación el visado de turista de corta duración C-3. Los pasaportes de Pakistan no están exentos de visado ni figuran en la lista de K-ETA."
+        },
+        {
+          "q": "¿Dónde solicito?",
+          "a": "En persona en la Embajada de Corea en Islamabad. Rellenas el formulario en el Korea Visa Portal, visa.go.kr."
+        },
+        {
+          "q": "¿Me harán una entrevista?",
+          "a": "Puede ser. A algunos solicitantes se les llama a una breve entrevista para verificar su expediente, así que mantén tus documentos y respuestas coherentes."
+        },
+        {
+          "q": "¿Cuánto cuesta y cuánto tarda?",
+          "a": "La tasa y el tiempo de tramitación no se publican en una fuente oficial accesible. Confirma ambos en la embajada antes de reservar vuelos."
+        },
+        {
+          "q": "¿Puedo prorrogar un visado de turista en Corea?",
+          "a": "Por lo general no — las prórrogas del visado de turista no suelen concederse. Planifica tu viaje dentro de la estancia que te concedan."
+        },
+        {
+          "q": "¿Puedo obtener un visado de entrada múltiple?",
+          "a": "Los visados de turista de entrada múltiple son posibles en algunos casos, pero la elegibilidad varía. Pregunta en la embajada por las normas actuales para Pakistan."
+        },
+        {
+          "q": "¿Sigo necesitando la e-Arrival Card después de obtener el visado?",
+          "a": "El requisito de la e-Arrival Card puede seguir aplicándose a la entrada. Comprueba las normas de documentos de entrada en los sitios oficiales cerca de la fecha de tu viaje."
+        }
+      ]
+    }
+  },
+  "ms": {
+    "kicker": "Panduan visa · Pakistan → Korea",
+    "readingTime": "Bacaan 7 minit",
+    "h1": "Visa Korea dari Pakistan",
+    "metaTitle": "Ya — anda perlukan visa Korea dari Pakistan (C-3, 2026) — Korea Trip Hub",
+    "metaDesc": "Ya — pemegang pasport Pakistan memerlukan visa untuk Korea Selatan (C-3 pelancong jangka pendek, sehingga 90 hari). Mohon di Kedutaan Korea di Islamabad — dokumen, kemungkinan temu duga, dan cara membina fail pelancong yang kukuh.",
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Tempoh menginap",
+      "entry": "Kemasukan",
+      "where": "Tempat mendapatkannya",
+      "official": "Sumber rasmi",
+      "required": "Diperlukan",
+      "conditional": "Jika berkenaan",
+      "recommended": "Disyorkan",
+      "confirm": "Yuran/peraturan boleh berubah — sahkan di sumber",
+      "source": "Sumber",
+      "updated": "Dikemas kini",
+      "tldr": "Ringkasan"
+    },
+    "verdict": {
+      "headline": "Ya — pemegang pasport Pakistan memerlukan visa.",
+      "sub": "Anda akan memohon visa pelancong jangka pendek C-3 (menginap sehingga 90 hari) di Kedutaan Korea di Islamabad. Sesetengah pemohon dipanggil untuk temu duga, dan visa pelancong secara amnya tidak dilanjutkan. Kemasukan K-ETA/tanpa visa TIDAK terpakai.",
+      "type": "C-3 Pelancong Jangka Pendek",
+      "stay": "Sehingga 90 hari",
+      "entry": "Kemasukan tunggal (kemasukan berbilang mungkin dalam sesetengah kes — tanya di kedutaan)"
+    },
+    "tldr": [
+      "Isi borang di visa.go.kr (portal rasmi SATU-SATUNYA), cetak dan tandatanganinya.",
+      "Kemukakan secara peribadi di Kedutaan Korea di Islamabad — anda mungkin dipanggil untuk temu duga.",
+      "Bawa pasport, foto, tempahan penerbangan + hotel, penyata bank, dan bukti pekerjaan atau perniagaan anda.",
+      "Sahkan yuran semasa dan masa pemprosesan di kedutaan — kedua-duanya tidak diterbitkan secara terbuka. Visa pelancong secara amnya tidak dilanjutkan."
+    ],
+    "steps": {
+      "title": "Permohonan, langkah demi langkah",
+      "items": [
+        {
+          "n": 1,
+          "title": "Sahkan jenis visa",
+          "detail": "Untuk pelancongan anda perlukan visa lawatan jangka pendek (pelancong) C-3. Kumpulkan senarai semak di bawah sebelum bermula."
+        },
+        {
+          "n": 2,
+          "title": "Isi borang di visa.go.kr",
+          "detail": "Pergi ke Korea Visa Portal (visa.go.kr) — satu-satunya laman rasmi. Lengkapkan borang permohonan, cetak dan tandatanganinya. Pastikan setiap butiran sepadan dengan dokumen sokongan anda. Satu borang setiap pemohon.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Kumpulkan dokumen anda",
+          "detail": "Kumpulkan senarai semak di bawah. Fail pelancong yang konsisten dan berdokumen lengkap ialah cara terbaik mengelakkan kelewatan."
+        },
+        {
+          "n": 4,
+          "title": "Kemukakan di Kedutaan Korea, Islamabad",
+          "detail": "Serahkan borang dan dokumen anda secara peribadi di Kedutaan. Semak laman kedutaan untuk waktu operasi semasa dan sama ada temu janji diperlukan.",
+          "link": "https://overseas.mofa.go.kr/pk-en",
+          "linkLabel": "Kedutaan Korea, Pakistan"
+        },
+        {
+          "n": 5,
+          "title": "Hadiri temu duga jika diminta",
+          "detail": "Sesetengah pemohon dipanggil untuk temu duga ringkas bagi mengesahkan fail. Jawab dengan jujur dan konsisten dengan dokumen anda."
+        },
+        {
+          "n": 6,
+          "title": "Bayar & tunggu",
+          "detail": "Bayar yuran visa dan tunggu keputusan. Sahkan yuran semasa dan masa pemprosesan di kedutaan — kedua-duanya tidak diterbitkan secara terbuka. Jangan tempah penerbangan yang tidak boleh dikembalikan sehingga anda diluluskan."
+        },
+        {
+          "n": 7,
+          "title": "Ambil pasport anda",
+          "detail": "Ambil mengikut arahan dan semak butiran pelekat visa (nama, tarikh, jenis kemasukan) sebaik sahaja anda menerimanya."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Senarai semak dokumen — dengan di mana & bagaimana mendapatkan setiap satu",
+      "intro": "Inilah bahagian yang dilangkau oleh setiap laman lain. Untuk setiap dokumen, inilah tepatnya tempat anda memperolehnya dan apa yang mesti ditunjukkannya.",
+      "cols": [
+        "Dokumen",
+        "Tempat mendapatkannya",
+        "Apa yang mesti ditunjukkan"
+      ],
+      "rows": [
+        {
+          "doc": "Pasport",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Sah 6+ bulan selepas perjalanan anda, dengan sekurang-kurangnya 2 halaman kosong. Bawa juga pasport lama jika ada."
+        },
+        {
+          "doc": "Borang permohonan visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapkan di Korea Visa Portal, cetak dan tandatanganinya. Setiap butiran mesti sepadan dengan dokumen sokongan anda.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 35 × 45 mm",
+          "req": "required",
+          "where": "Mana-mana studio foto",
+          "how": "Latar belakang putih kosong, diambil dalam 6 bulan lepas, muka penuh, tanpa cermin mata atau penutup kepala."
+        },
+        {
+          "doc": "Tempahan penerbangan pergi-balik",
+          "req": "required",
+          "where": "Syarikat penerbangan / ejen pelancongan",
+          "how": "Tempahan/itinerari yang disahkan sudah memadai — JANGAN beli tiket berbayar sebelum visa diluluskan."
+        },
+        {
+          "doc": "Bukti penginapan",
+          "req": "required",
+          "where": "Laman tempahan hotel",
+          "how": "Tempahan hotel yang disahkan meliputi tempoh penginapan anda. Menginap dengan seseorang? Tambah surat jemputan + salinan ID/ARC tuan rumah."
+        },
+        {
+          "doc": "Penyata bank",
+          "req": "required",
+          "where": "Bank anda",
+          "how": "Penyata terkini (dengan cop bank) yang menunjukkan anda mampu membiayai perjalanan. Baki yang stabil jauh lebih meyakinkan daripada deposit mengejut."
+        },
+        {
+          "doc": "Bukti pekerjaan / perniagaan",
+          "req": "required",
+          "where": "Majikan / perniagaan",
+          "how": "Bekerja: sijil pekerjaan + surat cuti. Pemilik perniagaan: dokumen pendaftaran / cukai. Ini membantu menunjukkan ikatan kukuh dengan Pakistan."
+        }
+      ],
+      "legend": {
+        "required": "Diperlukan",
+        "conditional": "Jika berkenaan dengan anda",
+        "recommended": "Disyorkan"
+      }
+    },
+    "funds": {
+      "title": "“Berapa baki bank yang saya perlukan?”",
+      "body": "Tiada satu jumlah minimum rasmi yang diterbitkan untuk visa pelancong. Apa yang penting ialah membuktikan anda mampu membiayai keseluruhan perjalanan dengan selesa dan mempunyai sebab kukuh untuk pulang ke Pakistan. Pegawai menilai kestabilan dan ikatan, bukan sekadar angka yang menonjol.",
+      "tips": [
+        "Tunjukkan baki yang konsisten — deposit besar beberapa hari sebelum memohon kelihatan lemah.",
+        "Gandingkan penyata bank dengan bukti pekerjaan atau perniagaan anda; ikatan kukuh dengan tanah air amat penting di sini.",
+        "Ditaja? Tambah penyata bank penaja, surat penajaan yang ditandatangani, dan bukti hubungan anda."
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesilapan yang menyebabkan penolakan & kelewatan",
+      "items": [
+        {
+          "icon": "🗣️",
+          "t": "Jawapan tidak konsisten",
+          "d": "Jika butiran pada borang, dokumen dan temu duga tidak sepadan, fail kelihatan lemah. Pastikan semuanya konsisten dan jujur."
+        },
+        {
+          "icon": "🏠",
+          "t": "Ikatan tanah air lemah",
+          "d": "Sedikit bukti bahawa anda akan pulang (tiada pekerjaan tetap, perniagaan atau ikatan keluarga) ialah sebab penolakan yang lazim. Dokumenkan ikatan anda dengan Pakistan dengan baik."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membeli tiket terlalu awal",
+          "d": "Membayar tiket yang tidak boleh dikembalikan sebelum diluluskan. Satu tempahan sudah memadai untuk fail."
+        },
+        {
+          "icon": "🌐",
+          "t": "Memohon di laman ‘visa’ palsu",
+          "d": "Hanya visa.go.kr (borang) dan Kedutaan Korea rasmi di Islamabad yang mengendalikan visa Korea — abaikan laman tiruan yang mengenakan bayaran tambahan."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Foto buruk",
+          "d": "Saiz salah, latar berwarna, cermin mata atau foto lama. Gunakan foto baru 35 × 45 mm berlatar putih."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Soal jawab visa Pakistan → Korea",
+      "items": [
+        {
+          "q": "Adakah warganegara Pakistan memerlukan visa untuk Korea?",
+          "a": "Ya — untuk pelancongan anda memohon visa pelancong jangka pendek C-3 terlebih dahulu. Pasport Pakistan tidak bebas visa dan tiada dalam senarai K-ETA."
+        },
+        {
+          "q": "Di mana saya memohon?",
+          "a": "Secara peribadi di Kedutaan Korea di Islamabad. Anda mengisi borang di Korea Visa Portal, visa.go.kr."
+        },
+        {
+          "q": "Adakah saya akan ditemu duga?",
+          "a": "Mungkin. Sesetengah pemohon dipanggil untuk temu duga ringkas bagi mengesahkan fail, jadi pastikan dokumen dan jawapan anda konsisten."
+        },
+        {
+          "q": "Berapa kosnya dan berapa lama?",
+          "a": "Yuran dan masa pemprosesan tidak diterbitkan dalam sumber rasmi yang boleh diakses. Sahkan kedua-duanya di kedutaan sebelum anda menempah penerbangan."
+        },
+        {
+          "q": "Bolehkah saya melanjutkan visa pelancong di Korea?",
+          "a": "Secara amnya tidak — visa pelancong biasanya tidak dilanjutkan. Rancang perjalanan anda dalam tempoh menginap yang diberikan."
+        },
+        {
+          "q": "Bolehkah saya mendapatkan visa kemasukan berbilang?",
+          "a": "Visa pelancong kemasukan berbilang mungkin dalam sesetengah kes, tetapi kelayakan berbeza-beza. Tanya di kedutaan tentang peraturan semasa untuk Pakistan."
+        },
+        {
+          "q": "Adakah saya masih memerlukan e-Arrival Card selepas mendapat visa?",
+          "a": "Keperluan e-Arrival Card masih boleh terpakai semasa kemasukan. Semak peraturan dokumen kemasukan di laman rasmi menjelang tarikh perjalanan anda."
+        }
+      ]
+    }
+  },
+  "ko": {
+    "kicker": "비자 가이드 · Pakistan → 한국",
+    "readingTime": "7분 분량",
+    "h1": "Pakistan에서 신청하는 한국 비자",
+    "metaTitle": "네 — Pakistan에서 한국은 비자가 필요합니다 (C-3, 2026) — Korea Trip Hub",
+    "metaDesc": "네 — Pakistan 여권 소지자는 한국 비자가 필요합니다 (C-3 단기 관광, 최대 90일). Islamabad의 한국 대사관에서 신청합니다 — 서류, 있을 수 있는 인터뷰, 그리고 설득력 있는 관광 서류를 준비하는 방법을 안내합니다.",
+    "ui": {
+      "visa": "비자 종류",
+      "stay": "체류 기간",
+      "entry": "입국",
+      "where": "발급처",
+      "official": "공식 출처",
+      "required": "필수",
+      "conditional": "해당 시",
+      "recommended": "권장",
+      "confirm": "수수료·규정은 변경될 수 있습니다 — 출처에서 확인하세요",
+      "source": "출처",
+      "updated": "업데이트",
+      "tldr": "요약"
+    },
+    "verdict": {
+      "headline": "네 — Pakistan 여권 소지자는 비자가 필요합니다.",
+      "sub": "Islamabad의 한국 대사관에서 C-3 단기 관광 비자(최대 90일 체류)를 신청합니다. 일부 신청자는 인터뷰에 불려가며, 관광 비자 연장은 일반적으로 허용되지 않습니다. K-ETA/무비자 입국은 적용되지 않습니다.",
+      "type": "C-3 단기 관광",
+      "stay": "최대 90일",
+      "entry": "단수 입국 (경우에 따라 복수 입국 가능 — 대사관에 문의하세요)"
+    },
+    "tldr": [
+      "visa.go.kr(유일한 공식 포털)에서 양식을 작성하고, 인쇄해 서명하세요.",
+      "Islamabad의 한국 대사관에 본인이 직접 제출하세요 — 인터뷰에 불려갈 수 있습니다.",
+      "여권, 사진, 항공권+호텔 예약, 은행 거래내역서, 그리고 직업이나 사업 증명을 지참하세요.",
+      "현재 수수료와 처리 기간은 대사관에서 확인하세요 — 공개적으로 발표되어 있지 않습니다. 관광 비자 연장은 일반적으로 허용되지 않습니다."
+    ],
+    "steps": {
+      "title": "신청, 단계별로",
+      "items": [
+        {
+          "n": 1,
+          "title": "비자 종류 확인",
+          "detail": "관광에는 C-3 단기 방문(관광) 비자가 필요합니다. 시작하기 전에 아래 체크리스트를 준비하세요."
+        },
+        {
+          "n": 2,
+          "title": "visa.go.kr에서 양식 작성",
+          "detail": "Korea Visa Portal(visa.go.kr)로 이동하세요 — 유일한 공식 사이트입니다. 신청 양식을 작성한 뒤 인쇄해 서명하세요. 모든 항목이 제출 서류와 일치하는지 확인하세요. 신청자 1인당 한 장입니다.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "서류 준비",
+          "detail": "아래 체크리스트를 모으세요. 일관되고 근거가 잘 갖춰진 관광 서류가 지연을 피하는 가장 좋은 방법입니다."
+        },
+        {
+          "n": 4,
+          "title": "Islamabad 한국 대사관에 제출",
+          "detail": "양식과 서류를 대사관에 본인이 직접 제출하세요. 현재 운영 시간과 예약 필요 여부는 대사관 사이트에서 확인하세요.",
+          "link": "https://overseas.mofa.go.kr/pk-en",
+          "linkLabel": "한국 대사관, Pakistan"
+        },
+        {
+          "n": 5,
+          "title": "요청 시 인터뷰 참석",
+          "detail": "일부 신청자는 서류를 확인하기 위한 짧은 인터뷰에 불려갑니다. 서류와 어긋나지 않게 정직하게 답하세요."
+        },
+        {
+          "n": 6,
+          "title": "결제 및 대기",
+          "detail": "비자 수수료를 결제하고 결과를 기다리세요. 현재 수수료와 처리 기간은 대사관에서 확인하세요 — 공개적으로 발표되어 있지 않습니다. 승인되기 전에는 환불 불가 항공권을 예약하지 마세요."
+        },
+        {
+          "n": 7,
+          "title": "여권 수령",
+          "detail": "안내에 따라 수령하고, 받는 즉시 비자 스티커 정보(이름, 날짜, 입국 종류)를 확인하세요."
+        }
+      ]
+    },
+    "documents": {
+      "title": "서류 체크리스트 — 각 서류를 어디서 어떻게 받는지 포함",
+      "intro": "이것이 다른 사이트들이 모두 건너뛰는 부분입니다. 각 서류에 대해, 정확히 어디서 발급받고 무엇이 표시되어야 하는지 알려드립니다.",
+      "cols": [
+        "서류",
+        "발급처",
+        "표시되어야 할 내용"
+      ],
+      "rows": [
+        {
+          "doc": "여권",
+          "req": "required",
+          "where": "이미 가지고 있음",
+          "how": "여행 종료 후 6개월 이상 유효하고, 최소 2장의 빈 페이지가 있어야 합니다. 이전 여권이 있으면 함께 지참하세요."
+        },
+        {
+          "doc": "비자 신청 양식",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Korea Visa Portal에서 작성하고 인쇄해 서명하세요. 모든 항목이 제출 서류와 일치해야 합니다.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "사진 — 35 × 45 mm",
+          "req": "required",
+          "where": "아무 사진관",
+          "how": "흰색 배경, 최근 6개월 이내 촬영, 정면 얼굴, 안경이나 머리 착용물 없음."
+        },
+        {
+          "doc": "왕복 항공권 예약",
+          "req": "required",
+          "where": "항공사 / 여행사",
+          "how": "확정된 예약/일정으로 충분합니다 — 비자가 승인되기 전에는 유료 항공권을 구매하지 마세요."
+        },
+        {
+          "doc": "숙박 증명",
+          "req": "required",
+          "where": "호텔 예약 사이트",
+          "how": "체류 기간을 포함하는 확정된 호텔 예약. 누군가의 집에 머무나요? 초청장 + 호스트의 ID/ARC 사본을 추가하세요."
+        },
+        {
+          "doc": "은행 거래내역서",
+          "req": "required",
+          "where": "거래 은행",
+          "how": "여행 비용을 감당할 수 있음을 보여주는 최근 거래내역서(은행 직인 포함). 꾸준한 잔액이 갑작스러운 입금보다 훨씬 설득력이 있습니다."
+        },
+        {
+          "doc": "재직 / 사업 증명",
+          "req": "required",
+          "where": "고용주 / 사업체",
+          "how": "재직자: 재직증명서 + 휴가 확인서. 사업주: 등록 / 세무 서류. 이는 Pakistan과의 강한 유대를 보여주는 데 도움이 됩니다."
+        }
+      ],
+      "legend": {
+        "required": "필수",
+        "conditional": "본인에게 해당하는 경우",
+        "recommended": "권장"
+      }
+    },
+    "funds": {
+      "title": "“은행 잔액이 얼마나 필요한가요?”",
+      "body": "관광 비자에 대해 공표된 단일 공식 최소 금액은 없습니다. 중요한 것은 여행 전체를 무리 없이 감당할 수 있고 Pakistan으로 돌아올 강력한 이유가 있음을 증명하는 것입니다. 심사관은 눈에 띄는 숫자만이 아니라 안정성과 유대를 봅니다.",
+      "tips": [
+        "일관된 잔액을 보여주세요 — 신청 며칠 전에 넣은 큰 입금은 약해 보입니다.",
+        "은행 거래내역서를 직업이나 사업 증명과 함께 제시하세요. 여기서는 본국과의 강한 유대가 큰 의미를 갖습니다.",
+        "후원을 받나요? 후원자의 은행 거래내역서, 서명된 후원서, 그리고 관계를 증명하는 자료를 추가하세요."
+      ]
+    },
+    "pitfalls": {
+      "title": "거절과 지연을 부르는 실수",
+      "items": [
+        {
+          "icon": "🗣️",
+          "t": "일관되지 않은 답변",
+          "d": "양식, 서류, 인터뷰의 내용이 일치하지 않으면 서류가 약해 보입니다. 모든 것을 일관되고 정직하게 유지하세요."
+        },
+        {
+          "icon": "🏠",
+          "t": "약한 본국 유대",
+          "d": "돌아올 것이라는 증거가 부족한 것(안정된 직업, 사업 또는 가족 유대가 없음)은 흔한 거절 사유입니다. Pakistan과의 유대를 잘 증명하세요."
+        },
+        {
+          "icon": "🎫",
+          "t": "너무 이른 항공권 구매",
+          "d": "승인 전에 환불 불가 항공권을 결제하는 것. 서류에는 예약으로 충분합니다."
+        },
+        {
+          "icon": "🌐",
+          "t": "가짜 '비자' 사이트에서 신청",
+          "d": "한국 비자를 처리하는 곳은 visa.go.kr(양식)과 Islamabad의 공식 한국 대사관뿐입니다 — 추가 요금을 받는 유사 사이트는 무시하세요."
+        },
+        {
+          "icon": "🖼️",
+          "t": "부적절한 사진",
+          "d": "잘못된 크기, 색이 있는 배경, 안경 또는 오래된 사진. 새로 찍은 35 × 45 mm 흰색 배경 사진을 사용하세요."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pakistan → 한국 비자 FAQ",
+      "items": [
+        {
+          "q": "Pakistan 시민은 한국 비자가 필요한가요?",
+          "a": "네 — 관광의 경우 사전에 C-3 단기 관광 비자를 신청합니다. Pakistan 여권은 무비자가 아니며 K-ETA 대상도 아닙니다."
+        },
+        {
+          "q": "어디서 신청하나요?",
+          "a": "Islamabad의 한국 대사관에서 본인이 직접 신청합니다. 양식은 Korea Visa Portal(visa.go.kr)에서 작성합니다."
+        },
+        {
+          "q": "인터뷰를 하나요?",
+          "a": "그럴 수 있습니다. 일부 신청자는 서류를 확인하기 위한 짧은 인터뷰에 불려가므로 서류와 답변을 일관되게 유지하세요."
+        },
+        {
+          "q": "비용은 얼마이고 얼마나 걸리나요?",
+          "a": "수수료와 처리 기간은 접근 가능한 공식 출처에 공표되어 있지 않습니다. 항공권을 예약하기 전에 두 가지를 모두 대사관에서 확인하세요."
+        },
+        {
+          "q": "한국에서 관광 비자를 연장할 수 있나요?",
+          "a": "일반적으로 불가합니다 — 관광 비자 연장은 보통 허용되지 않습니다. 주어진 체류 기간 내에서 여행을 계획하세요."
+        },
+        {
+          "q": "복수 입국 비자를 받을 수 있나요?",
+          "a": "복수 입국 관광 비자는 경우에 따라 가능하지만 자격은 상황에 따라 다릅니다. Pakistan에 대한 현재 규정은 대사관에 문의하세요."
+        },
+        {
+          "q": "비자를 받은 후에도 e-Arrival Card가 필요한가요?",
+          "a": "입국 시 e-Arrival Card 요건은 여전히 적용될 수 있습니다. 여행 날짜가 가까워지면 공식 사이트에서 입국 서류 규정을 확인하세요."
+        }
+      ]
+    }
+  },
+  "ru": {
+    "kicker": "Визовый гид · Pakistan → Корея",
+    "readingTime": "7 мин чтения",
+    "h1": "Виза в Корею из Pakistan",
+    "metaTitle": "Да — вам нужна виза в Корею из Pakistan (C-3, 2026) — Korea Trip Hub",
+    "metaDesc": "Да — обладателям паспорта Pakistan нужна виза в Южную Корею (C-3, краткосрочная туристическая, до 90 дней). Подавайте в Посольстве Кореи в Islamabad — документы, возможное собеседование и как собрать убедительный туристический пакет.",
+    "ui": {
+      "visa": "Тип визы",
+      "stay": "Срок пребывания",
+      "entry": "Въезд",
+      "where": "Где получить",
+      "official": "Официальные источники",
+      "required": "Обязательно",
+      "conditional": "Если применимо",
+      "recommended": "Рекомендуется",
+      "confirm": "Сборы и правила могут меняться — уточняйте в источнике",
+      "source": "Источник",
+      "updated": "Обновлено",
+      "tldr": "Кратко"
+    },
+    "verdict": {
+      "headline": "Да — обладателям паспорта Pakistan нужна виза.",
+      "sub": "Вы подаёте на краткосрочную туристическую визу C-3 (пребывание до 90 дней) в Посольстве Кореи в Islamabad. Некоторых заявителей приглашают на собеседование, а продление туристической визы, как правило, не предоставляется. K-ETA/безвизовый въезд НЕ применяется.",
+      "type": "C-3 краткосрочная туристическая",
+      "stay": "До 90 дней",
+      "entry": "Однократный въезд (многократный въезд возможен в некоторых случаях — уточните в посольстве)"
+    },
+    "tldr": [
+      "Заполните форму на visa.go.kr (ЕДИНСТВЕННЫЙ официальный портал), распечатайте и подпишите.",
+      "Подайте лично в Посольстве Кореи в Islamabad — вас могут пригласить на собеседование.",
+      "Возьмите паспорт, фото, бронь авиабилетов + отеля, выписку из банка и подтверждение работы или бизнеса.",
+      "Уточните текущий сбор и срок обработки в посольстве — они открыто не публикуются. Продление туристической визы, как правило, не предоставляется."
+    ],
+    "steps": {
+      "title": "Подача заявления, шаг за шагом",
+      "items": [
+        {
+          "n": 1,
+          "title": "Подтвердите тип визы",
+          "detail": "Для туризма нужна краткосрочная гостевая (туристическая) виза C-3. Соберите приведённый ниже перечень, прежде чем начать."
+        },
+        {
+          "n": 2,
+          "title": "Заполните форму на visa.go.kr",
+          "detail": "Зайдите на Korea Visa Portal (visa.go.kr) — единственный официальный сайт. Заполните форму заявления, распечатайте и подпишите. Убедитесь, что каждая деталь совпадает с вашими подтверждающими документами. Одна форма на заявителя.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Соберите документы",
+          "detail": "Соберите перечень ниже. Последовательный, хорошо документированный туристический пакет — лучший способ избежать задержек."
+        },
+        {
+          "n": 4,
+          "title": "Подайте в Посольстве Кореи, Islamabad",
+          "detail": "Подайте форму и документы лично в Посольстве. Проверьте на сайте посольства текущие часы работы и нужна ли запись.",
+          "link": "https://overseas.mofa.go.kr/pk-en",
+          "linkLabel": "Посольство Кореи, Pakistan"
+        },
+        {
+          "n": 5,
+          "title": "Пройдите собеседование, если попросят",
+          "detail": "Некоторых заявителей приглашают на короткое собеседование для проверки пакета. Отвечайте честно и в соответствии с вашими документами."
+        },
+        {
+          "n": 6,
+          "title": "Оплатите и ждите",
+          "detail": "Оплатите визовый сбор и ждите решения. Уточните текущий сбор и срок обработки в посольстве — они открыто не публикуются. Не бронируйте невозвратные авиабилеты до получения одобрения."
+        },
+        {
+          "n": 7,
+          "title": "Заберите паспорт",
+          "detail": "Заберите согласно указаниям и сразу проверьте данные визовой наклейки (имя, даты, тип въезда), как только получите её."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Перечень документов — где и как получить каждый",
+      "intro": "Это часть, которую пропускают все остальные сайты. Для каждого документа здесь указано, где именно вы его получаете и что он должен показывать.",
+      "cols": [
+        "Документ",
+        "Где получить",
+        "Что должен показывать"
+      ],
+      "rows": [
+        {
+          "doc": "Паспорт",
+          "req": "required",
+          "where": "У вас уже есть",
+          "how": "Действителен 6+ месяцев после поездки, минимум 2 чистые страницы. Возьмите и старые паспорта, если они есть."
+        },
+        {
+          "doc": "Форма заявления на визу",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Заполните на Korea Visa Portal, распечатайте и подпишите. Каждая деталь должна совпадать с вашими подтверждающими документами.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Фото — 35 × 45 mm",
+          "req": "required",
+          "where": "Любая фотостудия",
+          "how": "Однотонный белый фон, снято за последние 6 месяцев, лицо полностью, без очков и головных уборов."
+        },
+        {
+          "doc": "Бронь авиабилета туда-обратно",
+          "req": "required",
+          "where": "Авиакомпания / турагент",
+          "how": "Достаточно подтверждённой брони/маршрута — НЕ покупайте оплаченный билет до одобрения визы."
+        },
+        {
+          "doc": "Подтверждение проживания",
+          "req": "required",
+          "where": "Сайты бронирования отелей",
+          "how": "Подтверждённая бронь отеля на весь срок пребывания. Останавливаетесь у кого-то? Добавьте пригласительное письмо + копию ID/ARC принимающей стороны."
+        },
+        {
+          "doc": "Выписка из банка",
+          "req": "required",
+          "where": "Ваш банк",
+          "how": "Свежая выписка (с печатью банка), показывающая, что вы можете оплатить поездку. Стабильный остаток гораздо убедительнее внезапного пополнения."
+        },
+        {
+          "doc": "Подтверждение работы / бизнеса",
+          "req": "required",
+          "where": "Работодатель / бизнес",
+          "how": "Работающим: справка с места работы + заявление на отпуск. Владельцам бизнеса: регистрационные / налоговые документы. Это помогает показать прочные связи с Pakistan."
+        }
+      ],
+      "legend": {
+        "required": "Обязательно",
+        "conditional": "Если относится к вам",
+        "recommended": "Рекомендуется"
+      }
+    },
+    "funds": {
+      "title": "«Сколько денег должно быть на счёте?»",
+      "body": "Единого официально опубликованного минимума для туристической визы нет. Важно доказать, что вы можете спокойно оплатить всю поездку и у вас есть веские причины вернуться в Pakistan. Сотрудники смотрят на стабильность и связи, а не только на заметную цифру.",
+      "tips": [
+        "Показывайте стабильный остаток — крупное пополнение за несколько дней до подачи выглядит слабо.",
+        "Дополните выписку из банка подтверждением работы или бизнеса; прочные связи с родиной здесь очень важны.",
+        "Есть спонсор? Добавьте выписку из банка спонсора, подписанное спонсорское письмо и подтверждение ваших отношений."
+      ]
+    },
+    "pitfalls": {
+      "title": "Ошибки, ведущие к отказам и задержкам",
+      "items": [
+        {
+          "icon": "🗣️",
+          "t": "Противоречивые ответы",
+          "d": "Если данные в форме, документах и на собеседовании не совпадают, пакет выглядит слабо. Держите всё последовательным и честным."
+        },
+        {
+          "icon": "🏠",
+          "t": "Слабые связи с родиной",
+          "d": "Мало доказательств того, что вы вернётесь (нет стабильной работы, бизнеса или семейных связей) — частая причина отказа. Хорошо задокументируйте свои связи с Pakistan."
+        },
+        {
+          "icon": "🎫",
+          "t": "Слишком ранняя покупка билетов",
+          "d": "Оплата невозвратных билетов до одобрения. Для пакета достаточно брони."
+        },
+        {
+          "icon": "🌐",
+          "t": "Подача на поддельном «визовом» сайте",
+          "d": "Корейские визы оформляют только visa.go.kr (форма) и официальное Посольство Кореи в Islamabad — игнорируйте похожие сайты, берущие доплату."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Плохое фото",
+          "d": "Неверный размер, цветной фон, очки или старое фото. Используйте свежее фото 35 × 45 mm на белом фоне."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Виза Pakistan → Корея: вопросы и ответы",
+      "items": [
+        {
+          "q": "Нужна ли гражданам Pakistan виза в Корею?",
+          "a": "Да — для туризма вы заранее подаёте на краткосрочную туристическую визу C-3. Паспорта Pakistan не безвизовые и не входят в список K-ETA."
+        },
+        {
+          "q": "Где подавать?",
+          "a": "Лично в Посольстве Кореи в Islamabad. Форму вы заполняете на Korea Visa Portal, visa.go.kr."
+        },
+        {
+          "q": "Будет ли собеседование?",
+          "a": "Возможно. Некоторых заявителей приглашают на короткое собеседование для проверки пакета, поэтому держите документы и ответы согласованными."
+        },
+        {
+          "q": "Сколько это стоит и сколько занимает?",
+          "a": "Сбор и срок обработки не публикуются в доступном официальном источнике. Уточните и то, и другое в посольстве, прежде чем бронировать авиабилеты."
+        },
+        {
+          "q": "Можно ли продлить туристическую визу в Корее?",
+          "a": "Как правило, нет — продление туристической визы обычно не предоставляется. Планируйте поездку в пределах предоставленного срока пребывания."
+        },
+        {
+          "q": "Можно ли получить многократную визу?",
+          "a": "Многократные туристические визы возможны в некоторых случаях, но право на них различается. Уточните в посольстве текущие правила для Pakistan."
+        },
+        {
+          "q": "Нужна ли мне e-Arrival Card после получения визы?",
+          "a": "Требование e-Arrival Card всё ещё может применяться при въезде. Проверьте правила по въездным документам на официальных сайтах ближе к дате поездки."
+        }
+      ]
+    }
+  },
+  "fr": {
+    "kicker": "Guide des visas · Pakistan → Corée",
+    "readingTime": "7 min de lecture",
+    "h1": "Visa coréen depuis le Pakistan",
+    "metaTitle": "Oui — il vous faut un visa coréen depuis le Pakistan (C-3, 2026) — Korea Trip Hub",
+    "metaDesc": "Oui — les titulaires d'un passeport du Pakistan ont besoin d'un visa pour la Corée du Sud (C-3 tourisme de court séjour, jusqu'à 90 jours). Faites la demande à l'Ambassade de Corée à Islamabad — documents, l'entretien éventuel, et comment constituer un dossier de touriste solide.",
+    "ui": {
+      "visa": "Type de visa",
+      "stay": "Durée de séjour",
+      "entry": "Entrée",
+      "where": "Où l'obtenir",
+      "official": "Sources officielles",
+      "required": "Obligatoire",
+      "conditional": "Le cas échéant",
+      "recommended": "Recommandé",
+      "confirm": "Les frais/règles peuvent changer — vérifiez à la source",
+      "source": "Source",
+      "updated": "Mis à jour",
+      "tldr": "En bref"
+    },
+    "verdict": {
+      "headline": "Oui — les titulaires d'un passeport du Pakistan ont besoin d'un visa.",
+      "sub": "Vous demanderez le visa touristique de courte durée C-3 (séjour jusqu'à 90 jours) à l'Ambassade de Corée à Islamabad. Certains demandeurs sont convoqués à un entretien, et les prolongations de visa touristique ne sont généralement pas accordées. La K-ETA/l'entrée sans visa ne s'applique PAS.",
+      "type": "C-3 Touristique de courte durée",
+      "stay": "Jusqu'à 90 jours",
+      "entry": "Entrée unique (l'entrée multiple est possible dans certains cas — renseignez-vous à l'ambassade)"
+    },
+    "tldr": [
+      "Remplissez le formulaire sur visa.go.kr (le SEUL portail officiel), imprimez-le et signez-le.",
+      "Déposez en personne à l'Ambassade de Corée à Islamabad — vous pouvez être convoqué à un entretien.",
+      "Apportez le passeport, une photo, les réservations de vol + hôtel, un relevé bancaire et un justificatif de votre emploi ou de votre entreprise.",
+      "Confirmez les frais actuels et le délai de traitement à l'ambassade — ils ne sont pas publiés ouvertement. Les prolongations de visa touristique ne sont généralement pas accordées."
+    ],
+    "steps": {
+      "title": "La demande, étape par étape",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirmez le type de visa",
+          "detail": "Pour le tourisme, il vous faut le visa de visite de courte durée (touristique) C-3. Rassemblez la liste ci-dessous avant de commencer."
+        },
+        {
+          "n": 2,
+          "title": "Remplissez le formulaire sur visa.go.kr",
+          "detail": "Rendez-vous sur le Korea Visa Portal (visa.go.kr) — le seul site officiel. Remplissez le formulaire de demande, imprimez-le et signez-le. Assurez-vous que chaque détail correspond à vos pièces justificatives. Un formulaire par demandeur.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Rassemblez vos documents",
+          "detail": "Réunissez la liste ci-dessous. Un dossier de touriste cohérent et bien documenté est le meilleur moyen d'éviter les retards."
+        },
+        {
+          "n": 4,
+          "title": "Déposez à l'Ambassade de Corée, Islamabad",
+          "detail": "Remettez votre formulaire et vos documents en personne à l'Ambassade. Consultez le site de l'ambassade pour les horaires actuels et pour savoir si un rendez-vous est nécessaire.",
+          "link": "https://overseas.mofa.go.kr/pk-en",
+          "linkLabel": "Ambassade de Corée, Pakistan"
+        },
+        {
+          "n": 5,
+          "title": "Passez un entretien si on vous le demande",
+          "detail": "Certains demandeurs sont convoqués à un court entretien pour vérifier leur dossier. Répondez honnêtement et de façon cohérente avec vos documents."
+        },
+        {
+          "n": 6,
+          "title": "Payez et attendez",
+          "detail": "Payez les frais de visa et attendez la décision. Confirmez les frais actuels et le délai de traitement à l'ambassade — ils ne sont pas publiés ouvertement. Ne réservez pas de vols non remboursables avant votre approbation."
+        },
+        {
+          "n": 7,
+          "title": "Récupérez votre passeport",
+          "detail": "Récupérez-le selon les indications et vérifiez les informations de la vignette de visa (nom, dates, type d'entrée) dès que vous le recevez."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Liste des documents — avec où et comment obtenir chacun",
+      "intro": "C'est la partie que tous les autres sites passent sous silence. Pour chaque document, voici exactement où l'obtenir et ce qu'il doit montrer.",
+      "cols": [
+        "Document",
+        "Où l'obtenir",
+        "Ce qu'il doit montrer"
+      ],
+      "rows": [
+        {
+          "doc": "Passeport",
+          "req": "required",
+          "where": "Vous l'avez déjà",
+          "how": "Valable 6+ mois au-delà de votre voyage, avec au moins 2 pages vierges. Apportez aussi les anciens passeports si vous en avez."
+        },
+        {
+          "doc": "Formulaire de demande de visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Remplissez-le sur le Korea Visa Portal, imprimez-le et signez-le. Chaque détail doit correspondre à vos pièces justificatives.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Photo — 35 × 45 mm",
+          "req": "required",
+          "where": "N'importe quel studio photo",
+          "how": "Fond blanc uni, prise dans les 6 derniers mois, visage entier, sans lunettes ni couvre-chef."
+        },
+        {
+          "doc": "Réservation de vol aller-retour",
+          "req": "required",
+          "where": "Compagnie aérienne / agence de voyages",
+          "how": "Une réservation/un itinéraire confirmé suffit — N'achetez PAS de billet payé avant l'approbation du visa."
+        },
+        {
+          "doc": "Justificatif d'hébergement",
+          "req": "required",
+          "where": "Sites de réservation d'hôtels",
+          "how": "Réservations d'hôtel confirmées couvrant votre séjour. Vous logez chez quelqu'un ? Ajoutez une lettre d'invitation + une copie de la pièce d'identité/ARC de l'hôte."
+        },
+        {
+          "doc": "Relevé bancaire",
+          "req": "required",
+          "where": "Votre banque",
+          "how": "Un relevé récent (avec le cachet de la banque) montrant que vous pouvez financer le voyage. Un solde stable est bien plus convaincant qu'un dépôt soudain."
+        },
+        {
+          "doc": "Justificatif d'emploi / d'entreprise",
+          "req": "required",
+          "where": "Employeur / entreprise",
+          "how": "Salarié : certificat d'emploi + lettre de congé. Chef d'entreprise : documents d'immatriculation / fiscaux. Cela aide à montrer des liens solides avec le Pakistan."
+        }
+      ],
+      "legend": {
+        "required": "Obligatoire",
+        "conditional": "Si cela vous concerne",
+        "recommended": "Recommandé"
+      }
+    },
+    "funds": {
+      "title": "« De combien de solde bancaire ai-je besoin ? »",
+      "body": "Il n'existe pas de minimum officiel unique publié pour le visa touristique. Ce qui compte, c'est de prouver que vous pouvez financer confortablement tout le voyage et que vous avez de bonnes raisons de revenir au Pakistan. Les agents examinent la stabilité et les liens, pas seulement un chiffre accrocheur.",
+      "tips": [
+        "Montrez un solde constant — un gros dépôt effectué quelques jours avant la demande paraît faible.",
+        "Associez le relevé bancaire à un justificatif de votre emploi ou de votre entreprise ; des liens forts avec votre pays comptent beaucoup ici.",
+        "Vous êtes parrainé ? Ajoutez le relevé bancaire du parrain, une lettre de parrainage signée et une preuve de votre lien de parenté."
+      ]
+    },
+    "pitfalls": {
+      "title": "Erreurs qui entraînent refus et retards",
+      "items": [
+        {
+          "icon": "🗣️",
+          "t": "Réponses incohérentes",
+          "d": "Si les informations de votre formulaire, de vos documents et de l'entretien ne concordent pas, le dossier paraît faible. Gardez tout cohérent et honnête."
+        },
+        {
+          "icon": "🏠",
+          "t": "Liens faibles avec votre pays",
+          "d": "Peu de preuves que vous reviendrez (pas d'emploi stable, d'entreprise ni de liens familiaux) est un motif de refus courant. Documentez bien vos liens avec le Pakistan."
+        },
+        {
+          "icon": "🎫",
+          "t": "Acheter les vols trop tôt",
+          "d": "Payer des billets non remboursables avant l'approbation. Une réservation suffit pour le dossier."
+        },
+        {
+          "icon": "🌐",
+          "t": "Faire la demande sur un faux site de « visa »",
+          "d": "Seuls visa.go.kr (formulaire) et l'Ambassade de Corée officielle à Islamabad traitent les visas coréens — ignorez les sites imitateurs qui facturent un supplément."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Mauvaise photo",
+          "d": "Mauvaise taille, fond coloré, lunettes ou photo ancienne. Utilisez une photo récente de 35 × 45 mm sur fond blanc."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ visa Pakistan → Corée",
+      "items": [
+        {
+          "q": "Les citoyens du Pakistan ont-ils besoin d'un visa pour la Corée ?",
+          "a": "Oui — pour le tourisme, vous demandez à l'avance le visa touristique de courte durée C-3. Les passeports du Pakistan ne sont pas exemptés de visa et ne figurent pas sur la liste K-ETA."
+        },
+        {
+          "q": "Où faire la demande ?",
+          "a": "En personne à l'Ambassade de Corée à Islamabad. Vous remplissez le formulaire sur le Korea Visa Portal, visa.go.kr."
+        },
+        {
+          "q": "Aurai-je un entretien ?",
+          "a": "C'est possible. Certains demandeurs sont convoqués à un court entretien pour vérifier leur dossier, alors gardez vos documents et vos réponses cohérents."
+        },
+        {
+          "q": "Combien ça coûte et combien de temps cela prend-il ?",
+          "a": "Les frais et le délai de traitement ne sont pas publiés dans une source officielle accessible. Confirmez les deux à l'ambassade avant de réserver des vols."
+        },
+        {
+          "q": "Puis-je prolonger un visa touristique en Corée ?",
+          "a": "En général non — les prolongations de visa touristique ne sont habituellement pas accordées. Planifiez votre voyage dans la limite du séjour accordé."
+        },
+        {
+          "q": "Puis-je obtenir un visa à entrées multiples ?",
+          "a": "Les visas touristiques à entrées multiples sont possibles dans certains cas, mais l'admissibilité varie. Renseignez-vous à l'ambassade sur les règles actuelles pour le Pakistan."
+        },
+        {
+          "q": "Ai-je encore besoin de la e-Arrival Card après avoir obtenu le visa ?",
+          "a": "L'exigence de la e-Arrival Card peut encore s'appliquer à l'entrée. Vérifiez les règles relatives aux documents d'entrée sur les sites officiels à l'approche de votre date de voyage."
+        }
+      ]
+    }
+  }
 }
