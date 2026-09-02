@@ -3,6 +3,7 @@ import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
 import BookCTA from "../../../components/BookCTA";
 import NearbyEats from "../../../components/NearbyEats";
+import FindTopEats from "../../../components/FindTopEats";
 import { klookSearch } from "../../../lib/booking";
 import food from "../../../data/food.json";
 import foodImages from "../../../data/food-images.json";
@@ -91,6 +92,8 @@ export default function Food({ params }) {
           </div>
           <a className="btn ghost" href={`/${locale}/#planner`}>✨ {m.hero.build}</a>
         </div>
+
+        <FindTopEats m={m} />
 
         <h3 style={{ fontSize: 18, fontWeight: 800, margin: "8px 0 14px" }}>🍜 {t.eat}</h3>
         <div className="grid g4">
