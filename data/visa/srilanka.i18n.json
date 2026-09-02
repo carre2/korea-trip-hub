@@ -1,3 +1,2302 @@
 {
-  "_README": "Per-locale translation overrides for srilanka → Korea visa guide. { <locale>: { ...overrides } }. English base in srilanka.json."
+  "_README": "Per-locale translation overrides for srilanka → Korea visa guide. { <locale>: { ...overrides } }. English base in srilanka.json.",
+  "ja": {
+    "kicker": "ビザガイド · Sri Lanka → 韓国",
+    "readingTime": "8分で読めます",
+    "h1": "Sri Lankaからの韓国ビザ",
+    "metaTitle": "Sri Lankaから韓国のビザ：必要ですか？（2026年）— Korea Trip Hub",
+    "metaDesc": "はい — Sri Lankaのパスポート保持者は韓国のビザが必要です（C-3-9 短期観光、紙のビザ、最長90日）。Colomboの韓国大使館で申請します：必要書類、手数料、処理期間をステップごとに解説します。",
+    "ui": {
+      "visa": "ビザの種類",
+      "stay": "滞在期間",
+      "entry": "入国",
+      "where": "入手先",
+      "official": "公式ソース",
+      "required": "必須",
+      "conditional": "該当する場合",
+      "recommended": "推奨",
+      "confirm": "手数料・規則は変更される場合があります — 出典で確認してください",
+      "source": "出典",
+      "updated": "更新日",
+      "tldr": "要点"
+    },
+    "verdict": {
+      "headline": "はい — Sri Lankaのパスポート保有者はビザが必要です。",
+      "sub": "C-3-9短期観光ビザ（紙のビザ、シングルエントリー、最長90日間の滞在）をColomboの韓国大使館で申請します。K-ETA／ビザ免除入国はSri Lankaのパスポートには適用されません。",
+      "type": "C-3-9 短期観光（紙のビザ）",
+      "stay": "最長90日間",
+      "entry": "シングルエントリー（場合によってはマルチプルエントリーも可能 — 大使館で確認してください）"
+    },
+    "tldr": [
+      "visa.go.kr（唯一の公式ポータル）でフォームに記入し、印刷して署名します。",
+      "Colomboの韓国大使館（No. 98 Dharmapala Mawatha, Colombo 7）に本人が出向いて提出します。",
+      "パスポート（残存6か月以上、空白ページ1ページ以上）、写真、航空券＋ホテルの予約、銀行取引明細を持参します。",
+      "手数料は大使館の現在のレートでルピー建てで支払います。処理には最低でも約15営業日かかります（特急サービスはありません）。"
+    ],
+    "steps": {
+      "title": "申請の手順（ステップバイステップ）",
+      "items": [
+        {
+          "n": 1,
+          "title": "ビザの種類を確認する",
+          "detail": "観光にはC-3-9短期訪問（観光）ビザが必要で、紙のビザとして発給されます。始める前に、下のチェックリストを揃えてください。"
+        },
+        {
+          "n": 2,
+          "title": "visa.go.krでフォームに記入する",
+          "detail": "Korea Visa Portal（visa.go.kr）にアクセスします — 唯一の公式サイトです。申請フォームに記入し、印刷して署名します。申請者1人につき1枚です。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "書類を揃える",
+          "detail": "下のチェックリストのすべての書類を集めます。必須書類の不足は却下のよくある原因です。"
+        },
+        {
+          "n": 4,
+          "title": "Colomboの韓国大使館で提出する",
+          "detail": "フォームと書類を、No. 98 Dharmapala Mawatha, Colombo 7の大使館へ本人が持参します。窓口の受付時間はおおむね09:30–12:00と14:30–16:30です — 行く前に大使館サイトで確認してください。",
+          "link": "https://overseas.mofa.go.kr/lk-en",
+          "linkLabel": "韓国大使館（Sri Lanka）"
+        },
+        {
+          "n": 5,
+          "title": "手数料を支払う（ルピー建て）",
+          "detail": "手数料は、大使館の最新の「Visa Fee Increase」告知にあるレートでSri Lankaルピー建てで支払います。金額は大使館サイトで確認してください。"
+        },
+        {
+          "n": 6,
+          "title": "処理を待つ",
+          "detail": "処理には最低でも約15営業日かかります — 特急サービスはありません（早期発給は外交・公用パスポートのみ）。承認されるまで払い戻し不可の航空券は予約しないでください。"
+        },
+        {
+          "n": 7,
+          "title": "パスポートを受け取る",
+          "detail": "案内に従って受け取り、受け取った瞬間にビザステッカーの記載内容（氏名、日付、入国の種類）を確認してください。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "必要書類チェックリスト — 各書類の入手先と方法つき",
+      "intro": "これは他のどのサイトも省略する部分です。各書類について、どこで入手し、何が記載されていなければならないかを正確に示します。",
+      "cols": [
+        "書類",
+        "入手先",
+        "記載されるべき内容"
+      ],
+      "rows": [
+        {
+          "doc": "パスポート",
+          "req": "required",
+          "where": "お手元にあります",
+          "how": "旅行終了後6か月以上有効で、ビザ用の空白ページが1ページ以上あること。古いパスポートがあればそれも持参してください。"
+        },
+        {
+          "doc": "ビザ申請フォーム",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Korea Visa Portalで記入し、印刷して署名します。申請者1人につき1枚。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "写真 — 35 × 45 mm",
+          "req": "required",
+          "where": "任意の写真スタジオ",
+          "how": "白い無地の背景、過去6か月以内に撮影、正面顔、眼鏡や頭部の着用物なし。"
+        },
+        {
+          "doc": "往復の航空券予約",
+          "req": "required",
+          "where": "航空会社／旅行代理店",
+          "how": "確定した予約／旅程で十分です — ビザが承認される前に有料の航空券を購入しないでください。"
+        },
+        {
+          "doc": "宿泊証明",
+          "req": "required",
+          "where": "ホテル予約サイト",
+          "how": "滞在期間をカバーする確定済みのホテル予約。誰かの家に滞在する場合は、招待状＋ホストのID／ARCのコピーを添えてください。"
+        },
+        {
+          "doc": "銀行取引明細",
+          "req": "required",
+          "where": "ご利用の銀行",
+          "how": "旅行費用を賄えることを示す最近の明細（銀行の印章付き）。安定した残高は、突然の入金よりもはるかに説得力があります。"
+        },
+        {
+          "doc": "在職／身分証明",
+          "req": "required",
+          "where": "雇用主／事業／大学",
+          "how": "被雇用者：在職／休暇証明書。自営業：事業登録。学生：在学証明書。退職者：年金の証明。"
+        }
+      ],
+      "legend": {
+        "required": "必須",
+        "conditional": "該当する場合",
+        "recommended": "推奨"
+      }
+    },
+    "funds": {
+      "title": "「銀行残高はいくら必要ですか？」",
+      "body": "観光ビザについて公表された単一の公式な最低額はありません。重要なのは、旅行全体を無理なく賄えること、そしてSri Lankaに戻る理由があることを証明することです。審査官は、目立つ数字だけでなく安定性を見ます。",
+      "tips": [
+        "一貫した残高を示してください — 申請の数日前に行った多額の入金は弱く見えます。",
+        "銀行取引明細を、仕事・事業・学業の証明と組み合わせてください。両者が揃うと、信頼できるストーリーになります。",
+        "スポンサーがいる場合は、スポンサーの銀行取引明細、署名入りのスポンサーシップレター、そして関係を示す証明を添えてください。"
+      ]
+    },
+    "pitfalls": {
+      "title": "却下や遅延を招く間違い",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "書類の不備",
+          "d": "必須書類の不足は却下につながることがあります。上のチェックリストを使い、提出前に再確認してください。"
+        },
+        {
+          "icon": "⏳",
+          "t": "早い処理を期待すること",
+          "d": "特急サービスはなく、処理には最低でも約15営業日かかります。旅行の十分前に申請してください。"
+        },
+        {
+          "icon": "🎫",
+          "t": "航空券を早く買いすぎる",
+          "d": "承認前に払い戻し不可の航空券を購入すること。申請書類には予約で十分です。"
+        },
+        {
+          "icon": "🌐",
+          "t": "偽の「ビザ」サイトで申請すること",
+          "d": "韓国ビザを扱うのはvisa.go.kr（フォーム）とColomboの公式な韓国大使館だけです — 追加料金を取る類似サイトは無視してください。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "不適切な写真",
+          "d": "サイズ違い、色付き背景、眼鏡、または古い写真。新しい35 × 45 mmの白背景の写真を使ってください。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Sri Lanka → 韓国 ビザFAQ",
+      "items": [
+        {
+          "q": "Sri Lanka国民は韓国のビザが必要ですか？",
+          "a": "はい — 観光の場合は、紙のビザとして発給されるC-3-9短期観光ビザを事前に申請します。Sri Lankaのパスポートはビザ免除ではなく、K-ETAの対象リストにも入っていません。"
+        },
+        {
+          "q": "どこで申請しますか？",
+          "a": "Colomboの韓国大使館（No. 98 Dharmapala Mawatha, Colombo 7）で本人が申請します。フォームはKorea Visa Portal（visa.go.kr）で記入します。"
+        },
+        {
+          "q": "どのくらいかかりますか？",
+          "a": "最低でも約15営業日で、場合によってはさらに長くかかります。特急サービスはないので、旅行の十分前に申請してください。"
+        },
+        {
+          "q": "費用はいくらですか？",
+          "a": "手数料は、大使館の最新の「Visa Fee Increase」告知にあるレートでSri Lankaルピー建てで支払います。正確な金額は大使館サイトで確認してください。"
+        },
+        {
+          "q": "特急や緊急のオプションはありますか？",
+          "a": "いいえ。早期発給は外交・公用パスポートの保有者のみが利用できます。"
+        },
+        {
+          "q": "マルチプルエントリービザは取得できますか？",
+          "a": "マルチプルエントリーの観光ビザは場合によっては可能ですが、資格は状況によって異なります。Sri Lankaに関する現在の規則は大使館にお問い合わせください。"
+        },
+        {
+          "q": "ビザを取得した後もe-Arrival Cardは必要ですか？",
+          "a": "入国時のe-Arrival Cardの要件は依然として適用される場合があります。旅行日が近づいたら、公式サイトで入国書類の規則を確認してください。"
+        }
+      ]
+    }
+  },
+  "zh": {
+    "kicker": "签证指南 · Sri Lanka → 韩国",
+    "readingTime": "阅读约 8 分钟",
+    "h1": "从 Sri Lanka 申请韩国签证",
+    "metaTitle": "从 Sri Lanka 到韩国的签证：你需要吗？（2026）— Korea Trip Hub",
+    "metaDesc": "是的 — Sri Lanka 护照持有人前往韩国需要签证（C-3-9 短期旅游、纸质签证、最长 90 天）。在 Colombo 的韩国大使馆申请：所需材料、费用与办理时间，一步步为你讲清。",
+    "ui": {
+      "visa": "签证类型",
+      "stay": "停留时间",
+      "entry": "入境",
+      "where": "从何处获取",
+      "official": "官方来源",
+      "required": "必需",
+      "conditional": "如适用",
+      "recommended": "推荐",
+      "confirm": "费用/规定可能变动 — 请在来源处确认",
+      "source": "来源",
+      "updated": "更新于",
+      "tldr": "摘要"
+    },
+    "verdict": {
+      "headline": "是的 — Sri Lanka 护照持有人需要签证。",
+      "sub": "你将在 Colombo 的韩国大使馆申请 C-3-9 短期旅游签证 —— 一种纸质签证（单次入境，停留最长 90 天）。K-ETA／免签入境不适用于 Sri Lanka 护照。",
+      "type": "C-3-9 短期旅游（纸质签证）",
+      "stay": "最长 90 天",
+      "entry": "单次入境（部分情况下可申请多次入境 —— 请向大使馆咨询）"
+    },
+    "tldr": [
+      "在 visa.go.kr（唯一的官方门户）填写表格，打印并签名。",
+      "本人前往 Colombo 的韩国大使馆（No. 98 Dharmapala Mawatha, Colombo 7）递交。",
+      "携带护照（有效期 6 个月以上、至少 1 页空白页）、照片、机票＋酒店预订，以及银行对账单。",
+      "费用按大使馆当前汇率以卢比支付；办理至少约需 15 个工作日（无加急服务）。"
+    ],
+    "steps": {
+      "title": "申请流程，一步步来",
+      "items": [
+        {
+          "n": 1,
+          "title": "确认签证类型",
+          "detail": "旅游请选择 C-3-9 短期访问（旅游）签证，以纸质签证形式签发。开始前先备齐下面的清单。"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填写表格",
+          "detail": "前往 Korea Visa Portal（visa.go.kr）—— 唯一的官方网站。填写申请表，打印并签名。每位申请人一份。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "备齐材料",
+          "detail": "收齐下面清单中的每一份材料。缺少任何必需材料都是常见的拒签原因。"
+        },
+        {
+          "n": 4,
+          "title": "在 Colombo 的韩国大使馆递交",
+          "detail": "本人携带表格和材料前往位于 No. 98 Dharmapala Mawatha, Colombo 7 的大使馆。对外办公时间大约为 09:30–12:00 和 14:30–16:30 —— 出发前请先查看大使馆网站。",
+          "link": "https://overseas.mofa.go.kr/lk-en",
+          "linkLabel": "韩国大使馆（Sri Lanka）"
+        },
+        {
+          "n": 5,
+          "title": "缴纳费用（以卢比）",
+          "detail": "费用按大使馆最新「Visa Fee Increase」通知中的汇率以 Sri Lanka 卢比支付。请在大使馆网站确认金额。"
+        },
+        {
+          "n": 6,
+          "title": "等待办理",
+          "detail": "办理至少约需 15 个工作日 —— 没有加急服务（提前签发仅限外交／公务护照）。获批前不要预订不可退款的机票。"
+        },
+        {
+          "n": 7,
+          "title": "领取护照",
+          "detail": "按通知领取，拿到的第一时间核对签证贴纸信息（姓名、日期、入境类型）。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "材料清单 —— 附每份材料在哪里、如何获取",
+      "intro": "这正是其他网站都略过的部分。对于每份材料，这里都写明你在哪里获取、上面必须显示什么。",
+      "cols": [
+        "材料",
+        "在哪里获取",
+        "必须显示什么"
+      ],
+      "rows": [
+        {
+          "doc": "护照",
+          "req": "required",
+          "where": "你已持有",
+          "how": "旅行结束后仍有效 6 个月以上，至少留有 1 页空白页用于贴签。如有旧护照也请一并携带。"
+        },
+        {
+          "doc": "签证申请表",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在 Korea Visa Portal 填写，打印并签名。每位申请人一份。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片 — 35 × 45 mm",
+          "req": "required",
+          "where": "任意照相馆",
+          "how": "纯白背景，近 6 个月内拍摄，正面免冠，不戴眼镜或头饰。"
+        },
+        {
+          "doc": "往返机票预订",
+          "req": "required",
+          "where": "航空公司／旅行社",
+          "how": "已确认的预订／行程即可 —— 签证获批前不要购买已付款的机票。"
+        },
+        {
+          "doc": "住宿证明",
+          "req": "required",
+          "where": "酒店预订网站",
+          "how": "覆盖整个停留期的已确认酒店预订。借住他人处？请附上邀请函＋房主的身份证／ARC 复印件。"
+        },
+        {
+          "doc": "银行对账单",
+          "req": "required",
+          "where": "你的银行",
+          "how": "近期对账单（带银行印章），证明你能负担此行费用。稳定的余额远比突然的存入更有说服力。"
+        },
+        {
+          "doc": "在职／身份证明",
+          "req": "required",
+          "where": "雇主／企业／院校",
+          "how": "在职者：在职／准假证明。个体经营者：营业执照。学生：在读证明。退休者：养老金证明。"
+        }
+      ],
+      "legend": {
+        "required": "必需",
+        "conditional": "如适用于你",
+        "recommended": "推荐"
+      }
+    },
+    "funds": {
+      "title": "「银行余额需要多少？」",
+      "body": "旅游签证没有公布单一的官方最低金额。关键在于证明你能从容负担整趟旅行，并且有返回 Sri Lanka 的理由。审核官看的是稳定性，而不只是一个亮眼的数字。",
+      "tips": [
+        "展示持续稳定的余额 —— 申请前几天才存入的大额款项显得单薄。",
+        "把银行对账单与你的工作、生意或学业证明搭配在一起；两者结合才能讲出可信的故事。",
+        "有人资助？请附上资助人的银行对账单、签署的资助信，以及你们关系的证明。"
+      ]
+    },
+    "pitfalls": {
+      "title": "导致拒签和延误的错误",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "材料不齐",
+          "d": "缺少任何必需材料都可能导致拒签。请使用上面的清单，递交前再核对一遍。"
+        },
+        {
+          "icon": "⏳",
+          "t": "指望快速出签",
+          "d": "没有加急服务；办理至少约需 15 个工作日。请在出行前尽早申请。"
+        },
+        {
+          "icon": "🎫",
+          "t": "过早购买机票",
+          "d": "在获批前就付款买不可退款的机票。申请材料有预订即可。"
+        },
+        {
+          "icon": "🌐",
+          "t": "在假冒的「签证」网站申请",
+          "d": "只有 visa.go.kr（表格）和 Colombo 的官方韩国大使馆办理韩国签证 —— 请无视那些额外收费的仿冒网站。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "照片不合格",
+          "d": "尺寸不对、彩色背景、戴眼镜或旧照片。请使用新拍的 35 × 45 mm 白底照片。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Sri Lanka → 韩国 签证常见问题",
+      "items": [
+        {
+          "q": "Sri Lanka 公民去韩国需要签证吗？",
+          "a": "需要 —— 旅游需提前申请以纸质签证形式签发的 C-3-9 短期旅游签证。Sri Lanka 护照不享受免签，也不在 K-ETA 名单内。"
+        },
+        {
+          "q": "在哪里申请？",
+          "a": "本人前往 Colombo 的韩国大使馆（No. 98 Dharmapala Mawatha, Colombo 7）。表格在 Korea Visa Portal（visa.go.kr）上填写。"
+        },
+        {
+          "q": "需要多久？",
+          "a": "至少约 15 个工作日，部分情况会更久。没有加急服务，请在出行前尽早申请。"
+        },
+        {
+          "q": "费用是多少？",
+          "a": "费用按大使馆最新「Visa Fee Increase」通知中的汇率以 Sri Lanka 卢比支付。请在大使馆网站确认确切金额。"
+        },
+        {
+          "q": "有加急或紧急办理吗？",
+          "a": "没有。提前签发仅面向外交和公务护照持有人。"
+        },
+        {
+          "q": "可以申请多次入境签证吗？",
+          "a": "多次入境旅游签证在部分情况下可以申请，但资格因人而异。请就 Sri Lanka 的现行规定向大使馆咨询。"
+        },
+        {
+          "q": "拿到签证后还需要 e-Arrival Card 吗？",
+          "a": "入境时 e-Arrival Card 的要求可能仍然适用。请在临近出行日期时于官方网站查看入境材料规定。"
+        }
+      ]
+    }
+  },
+  "zh-TW": {
+    "kicker": "簽證指南 · Sri Lanka → 韓國",
+    "readingTime": "閱讀約 8 分鐘",
+    "h1": "從 Sri Lanka 申請韓國簽證",
+    "metaTitle": "從 Sri Lanka 到韓國的簽證：你需要嗎？（2026）— Korea Trip Hub",
+    "metaDesc": "是的 — Sri Lanka 護照持有人前往韓國需要簽證（C-3-9 短期旅遊、紙本簽證、最長 90 天）。在 Colombo 的韓國大使館申請：所需文件、費用與辦理時間，一步步為你講清楚。",
+    "ui": {
+      "visa": "簽證類型",
+      "stay": "停留時間",
+      "entry": "入境",
+      "where": "從何處取得",
+      "official": "官方來源",
+      "required": "必備",
+      "conditional": "如適用",
+      "recommended": "建議",
+      "confirm": "費用/規定可能變動 — 請於來源處確認",
+      "source": "來源",
+      "updated": "更新於",
+      "tldr": "摘要"
+    },
+    "verdict": {
+      "headline": "是的 — Sri Lanka 護照持有人需要簽證。",
+      "sub": "你將在 Colombo 的韓國大使館申請 C-3-9 短期旅遊簽證 —— 一種紙本簽證（單次入境，停留最長 90 天）。K-ETA／免簽入境不適用於 Sri Lanka 護照。",
+      "type": "C-3-9 短期旅遊（紙本簽證）",
+      "stay": "最長 90 天",
+      "entry": "單次入境（部分情況下可申請多次入境 —— 請向大使館洽詢）"
+    },
+    "tldr": [
+      "在 visa.go.kr（唯一的官方入口網站）填寫表格，列印並簽名。",
+      "本人前往 Colombo 的韓國大使館（No. 98 Dharmapala Mawatha, Colombo 7）遞交。",
+      "攜帶護照（有效期 6 個月以上、至少 1 頁空白頁）、照片、機票＋飯店訂房，以及銀行對帳單。",
+      "費用依大使館目前匯率以盧比支付；辦理至少約需 15 個工作天（無急件服務）。"
+    ],
+    "steps": {
+      "title": "申請流程，一步步來",
+      "items": [
+        {
+          "n": 1,
+          "title": "確認簽證類型",
+          "detail": "旅遊請選擇 C-3-9 短期停留（旅遊）簽證，以紙本簽證形式核發。開始前先備齊下面的清單。"
+        },
+        {
+          "n": 2,
+          "title": "在 visa.go.kr 填寫表格",
+          "detail": "前往 Korea Visa Portal（visa.go.kr）—— 唯一的官方網站。填寫申請表，列印並簽名。每位申請人一份。",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "備齊文件",
+          "detail": "備齊下面清單中的每一份文件。缺少任何必備文件都是常見的拒簽原因。"
+        },
+        {
+          "n": 4,
+          "title": "在 Colombo 的韓國大使館遞交",
+          "detail": "本人攜帶表格與文件前往位於 No. 98 Dharmapala Mawatha, Colombo 7 的大使館。對外辦公時間大約為 09:30–12:00 與 14:30–16:30 —— 出發前請先查看大使館網站。",
+          "link": "https://overseas.mofa.go.kr/lk-en",
+          "linkLabel": "韓國大使館（Sri Lanka）"
+        },
+        {
+          "n": 5,
+          "title": "繳交費用（以盧比）",
+          "detail": "費用依大使館最新「Visa Fee Increase」公告中的匯率以 Sri Lanka 盧比支付。請於大使館網站確認金額。"
+        },
+        {
+          "n": 6,
+          "title": "等待辦理",
+          "detail": "辦理至少約需 15 個工作天 —— 沒有急件服務（提前核發僅限外交／公務護照）。獲准前請勿預訂不可退款的機票。"
+        },
+        {
+          "n": 7,
+          "title": "領取護照",
+          "detail": "依通知領取，拿到的第一時間核對簽證貼紙資訊（姓名、日期、入境類型）。"
+        }
+      ]
+    },
+    "documents": {
+      "title": "文件清單 —— 附每份文件在哪裡、如何取得",
+      "intro": "這正是其他網站都略過的部分。對於每份文件，這裡都寫明你在哪裡取得、上面必須顯示什麼。",
+      "cols": [
+        "文件",
+        "在哪裡取得",
+        "必須顯示什麼"
+      ],
+      "rows": [
+        {
+          "doc": "護照",
+          "req": "required",
+          "where": "你已持有",
+          "how": "旅行結束後仍有效 6 個月以上，至少留有 1 頁空白頁供貼簽。如有舊護照也請一併攜帶。"
+        },
+        {
+          "doc": "簽證申請表",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "在 Korea Visa Portal 填寫，列印並簽名。每位申請人一份。",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "照片 — 35 × 45 mm",
+          "req": "required",
+          "where": "任何照相館",
+          "how": "純白背景，近 6 個月內拍攝，正面脫帽，不戴眼鏡或頭飾。"
+        },
+        {
+          "doc": "來回機票訂位",
+          "req": "required",
+          "where": "航空公司／旅行社",
+          "how": "已確認的訂位／行程即可 —— 簽證獲准前請勿購買已付款的機票。"
+        },
+        {
+          "doc": "住宿證明",
+          "req": "required",
+          "where": "飯店訂房網站",
+          "how": "涵蓋整個停留期的已確認飯店訂房。借住他人處？請附上邀請函＋屋主的身分證／ARC 影本。"
+        },
+        {
+          "doc": "銀行對帳單",
+          "req": "required",
+          "where": "你的銀行",
+          "how": "近期對帳單（附銀行印章），證明你能負擔此行費用。穩定的餘額遠比突然的存入更有說服力。"
+        },
+        {
+          "doc": "在職／身分證明",
+          "req": "required",
+          "where": "雇主／企業／院校",
+          "how": "在職者：在職／請假證明。自營業者：營業登記。學生：在學證明。退休者：退休金證明。"
+        }
+      ],
+      "legend": {
+        "required": "必備",
+        "conditional": "如適用於你",
+        "recommended": "建議"
+      }
+    },
+    "funds": {
+      "title": "「銀行餘額需要多少？」",
+      "body": "旅遊簽證並沒有公布單一的官方最低金額。關鍵在於證明你能從容負擔整趟旅行，並且有返回 Sri Lanka 的理由。審核官看的是穩定性，而不只是一個亮眼的數字。",
+      "tips": [
+        "展現持續穩定的餘額 —— 申請前幾天才存入的大額款項顯得單薄。",
+        "把銀行對帳單與你的工作、生意或學業證明搭配在一起；兩者結合才能講出可信的故事。",
+        "有人資助？請附上資助人的銀行對帳單、簽署的資助信，以及你們關係的證明。"
+      ]
+    },
+    "pitfalls": {
+      "title": "導致拒簽與延誤的錯誤",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "文件不齊",
+          "d": "缺少任何必備文件都可能導致拒簽。請使用上面的清單，遞交前再核對一遍。"
+        },
+        {
+          "icon": "⏳",
+          "t": "期待快速出簽",
+          "d": "沒有急件服務；辦理至少約需 15 個工作天。請在出行前及早申請。"
+        },
+        {
+          "icon": "🎫",
+          "t": "太早購買機票",
+          "d": "在獲准前就付款買不可退款的機票。申請文件有訂位即可。"
+        },
+        {
+          "icon": "🌐",
+          "t": "在假冒的「簽證」網站申請",
+          "d": "只有 visa.go.kr（表格）與 Colombo 的官方韓國大使館辦理韓國簽證 —— 請無視那些額外收費的仿冒網站。"
+        },
+        {
+          "icon": "🖼️",
+          "t": "照片不合格",
+          "d": "尺寸不對、彩色背景、戴眼鏡或舊照片。請使用新拍的 35 × 45 mm 白底照片。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Sri Lanka → 韓國 簽證常見問題",
+      "items": [
+        {
+          "q": "Sri Lanka 公民去韓國需要簽證嗎？",
+          "a": "需要 —— 旅遊需提前申請以紙本簽證形式核發的 C-3-9 短期旅遊簽證。Sri Lanka 護照不享有免簽，也不在 K-ETA 名單內。"
+        },
+        {
+          "q": "在哪裡申請？",
+          "a": "本人前往 Colombo 的韓國大使館（No. 98 Dharmapala Mawatha, Colombo 7）。表格在 Korea Visa Portal（visa.go.kr）上填寫。"
+        },
+        {
+          "q": "需要多久？",
+          "a": "至少約 15 個工作天，部分情況會更久。沒有急件服務，請在出行前及早申請。"
+        },
+        {
+          "q": "費用是多少？",
+          "a": "費用依大使館最新「Visa Fee Increase」公告中的匯率以 Sri Lanka 盧比支付。請於大使館網站確認確切金額。"
+        },
+        {
+          "q": "有急件或緊急辦理嗎？",
+          "a": "沒有。提前核發僅提供給外交與公務護照持有人。"
+        },
+        {
+          "q": "可以申請多次入境簽證嗎？",
+          "a": "多次入境旅遊簽證在部分情況下可以申請，但資格因人而異。請就 Sri Lanka 的現行規定向大使館洽詢。"
+        },
+        {
+          "q": "拿到簽證後還需要 e-Arrival Card 嗎？",
+          "a": "入境時 e-Arrival Card 的要求可能仍然適用。請在接近出行日期時於官方網站查看入境文件規定。"
+        }
+      ]
+    }
+  },
+  "vi": {
+    "kicker": "Hướng dẫn visa · Sri Lanka → Hàn Quốc",
+    "readingTime": "Đọc trong 8 phút",
+    "h1": "Visa Hàn Quốc từ Sri Lanka",
+    "metaTitle": "Visa từ Sri Lanka đến Hàn Quốc: Bạn có cần không? (2026) — Korea Trip Hub",
+    "metaDesc": "Có — người mang hộ chiếu Sri Lanka cần visa để đến Hàn Quốc (C-3-9 du lịch ngắn hạn, visa giấy, tối đa 90 ngày). Nộp tại Đại sứ quán Hàn Quốc ở Colombo: giấy tờ, lệ phí và thời gian xử lý, từng bước một.",
+    "ui": {
+      "visa": "Loại visa",
+      "stay": "Thời gian lưu trú",
+      "entry": "Nhập cảnh",
+      "where": "Lấy ở đâu",
+      "official": "Nguồn chính thức",
+      "required": "Bắt buộc",
+      "conditional": "Nếu áp dụng",
+      "recommended": "Khuyến nghị",
+      "confirm": "Lệ phí/quy định có thể thay đổi — hãy xác nhận tại nguồn",
+      "source": "Nguồn",
+      "updated": "Cập nhật",
+      "tldr": "Tóm tắt"
+    },
+    "verdict": {
+      "headline": "Có — người mang hộ chiếu Sri Lanka cần visa.",
+      "sub": "Bạn sẽ xin visa du lịch ngắn hạn C-3-9 — một loại visa giấy (nhập cảnh một lần, lưu trú tối đa 90 ngày) — tại Đại sứ quán Hàn Quốc ở Colombo. Nhập cảnh bằng K-ETA/miễn visa KHÔNG áp dụng cho hộ chiếu Sri Lanka.",
+      "type": "C-3-9 Du lịch ngắn hạn (visa giấy)",
+      "stay": "Tối đa 90 ngày",
+      "entry": "Nhập cảnh một lần (một số trường hợp có thể xin nhập cảnh nhiều lần — hãy hỏi tại đại sứ quán)"
+    },
+    "tldr": [
+      "Điền mẫu đơn tại visa.go.kr (cổng chính thức DUY NHẤT), in ra và ký tên.",
+      "Nộp trực tiếp tại Đại sứ quán Hàn Quốc ở Colombo (No. 98 Dharmapala Mawatha, Colombo 7).",
+      "Mang theo hộ chiếu (còn hạn 6+ tháng, còn ít nhất 1 trang trống), ảnh, đặt vé máy bay + khách sạn, và sao kê ngân hàng.",
+      "Nộp lệ phí bằng rupee theo tỷ giá hiện hành của đại sứ quán; xử lý mất tối thiểu khoảng 15 ngày làm việc (không có dịch vụ lấy nhanh)."
+    ],
+    "steps": {
+      "title": "Quy trình nộp hồ sơ, từng bước",
+      "items": [
+        {
+          "n": 1,
+          "title": "Xác định loại visa",
+          "detail": "Để đi du lịch, bạn cần visa thăm ngắn hạn (du lịch) C-3-9, được cấp dưới dạng visa giấy. Hãy chuẩn bị danh sách bên dưới trước khi bắt đầu."
+        },
+        {
+          "n": 2,
+          "title": "Điền mẫu đơn tại visa.go.kr",
+          "detail": "Truy cập Korea Visa Portal (visa.go.kr) — trang web chính thức duy nhất. Hoàn tất mẫu đơn, in ra và ký tên. Mỗi người nộp một mẫu đơn.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Chuẩn bị giấy tờ",
+          "detail": "Thu thập đầy đủ mọi giấy tờ trong danh sách bên dưới. Thiếu bất kỳ giấy tờ bắt buộc nào là nguyên nhân từ chối phổ biến."
+        },
+        {
+          "n": 4,
+          "title": "Nộp tại Đại sứ quán Hàn Quốc, Colombo",
+          "detail": "Mang mẫu đơn và giấy tờ đến trực tiếp Đại sứ quán tại No. 98 Dharmapala Mawatha, Colombo 7. Giờ tiếp dân khoảng 09:30–12:00 và 14:30–16:30 — hãy kiểm tra trang web đại sứ quán trước khi đi.",
+          "link": "https://overseas.mofa.go.kr/lk-en",
+          "linkLabel": "Đại sứ quán Hàn Quốc, Sri Lanka"
+        },
+        {
+          "n": 5,
+          "title": "Nộp lệ phí (bằng rupee)",
+          "detail": "Lệ phí được nộp bằng rupee Sri Lanka theo tỷ giá trong thông báo 'Visa Fee Increase' hiện hành của đại sứ quán. Hãy xác nhận số tiền trên trang web đại sứ quán."
+        },
+        {
+          "n": 6,
+          "title": "Chờ xử lý",
+          "detail": "Xử lý mất tối thiểu khoảng 15 ngày làm việc — không có dịch vụ lấy nhanh (cấp sớm chỉ dành cho hộ chiếu ngoại giao/công vụ). Đừng đặt vé máy bay không hoàn tiền cho đến khi được chấp thuận."
+        },
+        {
+          "n": 7,
+          "title": "Nhận hộ chiếu",
+          "detail": "Nhận lại theo hướng dẫn và kiểm tra thông tin trên tem visa (tên, ngày tháng, loại nhập cảnh) ngay khi nhận."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Danh sách giấy tờ — kèm nơi lấy và cách lấy từng loại",
+      "intro": "Đây là phần mà mọi trang khác đều bỏ qua. Với mỗi giấy tờ, đây là chính xác nơi bạn lấy nó và những gì nó phải thể hiện.",
+      "cols": [
+        "Giấy tờ",
+        "Lấy ở đâu",
+        "Phải thể hiện điều gì"
+      ],
+      "rows": [
+        {
+          "doc": "Hộ chiếu",
+          "req": "required",
+          "where": "Bạn đã có",
+          "how": "Còn hạn 6+ tháng sau chuyến đi, còn ít nhất một trang trống để dán visa. Mang theo cả hộ chiếu cũ nếu có."
+        },
+        {
+          "doc": "Mẫu đơn xin visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Hoàn tất trên Korea Visa Portal, in ra và ký tên. Mỗi người một mẫu.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Ảnh — 35 × 45 mm",
+          "req": "required",
+          "where": "Bất kỳ tiệm chụp ảnh nào",
+          "how": "Nền trắng trơn, chụp trong vòng 6 tháng gần đây, thấy rõ toàn bộ khuôn mặt, không đeo kính hay đội mũ."
+        },
+        {
+          "doc": "Đặt vé máy bay khứ hồi",
+          "req": "required",
+          "where": "Hãng bay / đại lý du lịch",
+          "how": "Một đặt chỗ/lịch trình đã xác nhận là đủ — ĐỪNG mua vé đã thanh toán trước khi visa được chấp thuận."
+        },
+        {
+          "doc": "Bằng chứng chỗ ở",
+          "req": "required",
+          "where": "Các trang đặt khách sạn",
+          "how": "Đặt phòng khách sạn đã xác nhận bao trọn thời gian lưu trú. Ở nhờ nhà ai đó? Thêm thư mời + bản sao ID/ARC của chủ nhà."
+        },
+        {
+          "doc": "Sao kê ngân hàng",
+          "req": "required",
+          "where": "Ngân hàng của bạn",
+          "how": "Sao kê gần đây (có dấu của ngân hàng) chứng minh bạn đủ khả năng chi trả cho chuyến đi. Số dư ổn định thuyết phục hơn nhiều so với một khoản gửi đột ngột."
+        },
+        {
+          "doc": "Bằng chứng việc làm / tình trạng",
+          "req": "required",
+          "where": "Người sử dụng lao động / doanh nghiệp / trường",
+          "how": "Người đi làm: thư xác nhận việc làm/nghỉ phép. Tự kinh doanh: giấy đăng ký kinh doanh. Sinh viên: giấy xác nhận nhập học. Người nghỉ hưu: bằng chứng lương hưu."
+        }
+      ],
+      "legend": {
+        "required": "Bắt buộc",
+        "conditional": "Nếu áp dụng với bạn",
+        "recommended": "Khuyến nghị"
+      }
+    },
+    "funds": {
+      "title": "\"Tôi cần bao nhiêu số dư ngân hàng?\"",
+      "body": "Không có một mức tối thiểu chính thức duy nhất nào được công bố cho visa du lịch. Điều quan trọng là chứng minh bạn có thể thoải mái chi trả cho cả chuyến đi và có lý do để quay về Sri Lanka. Cán bộ xét duyệt nhìn vào sự ổn định, không chỉ một con số nổi bật.",
+      "tips": [
+        "Cho thấy số dư ổn định — một khoản gửi lớn ngay vài ngày trước khi nộp trông thiếu thuyết phục.",
+        "Kết hợp sao kê ngân hàng với bằng chứng về công việc, doanh nghiệp hoặc việc học của bạn; cùng nhau chúng kể một câu chuyện đáng tin.",
+        "Được ai đó bảo trợ? Thêm sao kê ngân hàng của người bảo trợ, thư bảo trợ có chữ ký, và bằng chứng về mối quan hệ của bạn."
+      ]
+    },
+    "pitfalls": {
+      "title": "Những sai lầm gây từ chối & chậm trễ",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "Hồ sơ thiếu sót",
+          "d": "Thiếu bất kỳ giấy tờ bắt buộc nào đều có thể dẫn đến từ chối. Hãy dùng danh sách ở trên và kiểm tra kỹ trước khi nộp."
+        },
+        {
+          "icon": "⏳",
+          "t": "Trông đợi xử lý nhanh",
+          "d": "Không có dịch vụ lấy nhanh; xử lý mất tối thiểu khoảng 15 ngày làm việc. Hãy nộp sớm trước chuyến đi."
+        },
+        {
+          "icon": "🎫",
+          "t": "Mua vé máy bay quá sớm",
+          "d": "Thanh toán vé không hoàn tiền trước khi được chấp thuận. Một đặt chỗ là đủ cho hồ sơ."
+        },
+        {
+          "icon": "🌐",
+          "t": "Nộp trên trang 'visa' giả",
+          "d": "Chỉ có visa.go.kr (mẫu đơn) và Đại sứ quán Hàn Quốc chính thức ở Colombo xử lý visa Hàn Quốc — hãy phớt lờ các trang nhái thu thêm tiền."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Ảnh không đạt",
+          "d": "Sai kích thước, nền có màu, đeo kính hoặc ảnh cũ. Hãy dùng ảnh mới nền trắng 35 × 45 mm."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Hỏi đáp visa Sri Lanka → Hàn Quốc",
+      "items": [
+        {
+          "q": "Công dân Sri Lanka có cần visa đến Hàn Quốc không?",
+          "a": "Có — để du lịch, bạn nộp trước visa du lịch ngắn hạn C-3-9, được cấp dưới dạng visa giấy. Hộ chiếu Sri Lanka không được miễn visa và không nằm trong danh sách K-ETA."
+        },
+        {
+          "q": "Tôi nộp ở đâu?",
+          "a": "Nộp trực tiếp tại Đại sứ quán Hàn Quốc ở Colombo (No. 98 Dharmapala Mawatha, Colombo 7). Bạn điền mẫu đơn trên Korea Visa Portal, visa.go.kr."
+        },
+        {
+          "q": "Mất bao lâu?",
+          "a": "Tối thiểu khoảng 15 ngày làm việc, và lâu hơn với một số trường hợp. Không có dịch vụ lấy nhanh, nên hãy nộp sớm trước chuyến đi."
+        },
+        {
+          "q": "Chi phí bao nhiêu?",
+          "a": "Lệ phí được nộp bằng rupee Sri Lanka theo tỷ giá trong thông báo 'Visa Fee Increase' hiện hành của đại sứ quán. Hãy xác nhận số tiền chính xác trên trang web đại sứ quán."
+        },
+        {
+          "q": "Có lựa chọn lấy nhanh hoặc khẩn cấp không?",
+          "a": "Không. Cấp sớm chỉ dành cho người mang hộ chiếu ngoại giao và công vụ."
+        },
+        {
+          "q": "Tôi có thể xin visa nhập cảnh nhiều lần không?",
+          "a": "Visa du lịch nhập cảnh nhiều lần có thể được cấp trong một số trường hợp, nhưng điều kiện tùy từng người. Hãy hỏi đại sứ quán về quy định hiện hành cho Sri Lanka."
+        },
+        {
+          "q": "Sau khi có visa tôi có còn cần e-Arrival Card không?",
+          "a": "Yêu cầu e-Arrival Card vẫn có thể áp dụng khi nhập cảnh. Hãy kiểm tra quy định về giấy tờ nhập cảnh trên các trang chính thức khi gần đến ngày đi."
+        }
+      ]
+    }
+  },
+  "th": {
+    "kicker": "คู่มือวีซ่า · Sri Lanka → เกาหลี",
+    "readingTime": "อ่าน 8 นาที",
+    "h1": "วีซ่าเกาหลีจาก Sri Lanka",
+    "metaTitle": "วีซ่าจาก Sri Lanka ไปเกาหลี: ต้องใช้ไหม? (2026) — Korea Trip Hub",
+    "metaDesc": "ใช่ — ผู้ถือหนังสือเดินทาง Sri Lanka ต้องใช้วีซ่าเข้าเกาหลีใต้ (C-3-9 ท่องเที่ยวระยะสั้น วีซ่าแบบกระดาษ สูงสุด 90 วัน) ยื่นที่สถานทูตเกาหลีใน Colombo: เอกสาร ค่าธรรมเนียม และระยะเวลาดำเนินการ ทีละขั้นตอน",
+    "ui": {
+      "visa": "ประเภทวีซ่า",
+      "stay": "ระยะเวลาพำนัก",
+      "entry": "การเข้าเมือง",
+      "where": "ขอได้ที่ไหน",
+      "official": "แหล่งข้อมูลทางการ",
+      "required": "จำเป็น",
+      "conditional": "หากเข้าข่าย",
+      "recommended": "แนะนำ",
+      "confirm": "ค่าธรรมเนียม/กฎอาจเปลี่ยนแปลง — โปรดตรวจสอบจากแหล่งข้อมูล",
+      "source": "แหล่งที่มา",
+      "updated": "อัปเดตเมื่อ",
+      "tldr": "สรุป"
+    },
+    "verdict": {
+      "headline": "ใช่ — ผู้ถือหนังสือเดินทาง Sri Lanka ต้องมีวีซ่า",
+      "sub": "คุณจะยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3-9 — วีซ่าแบบกระดาษ (เข้าออกครั้งเดียว พำนักได้สูงสุด 90 วัน) — ที่สถานทูตเกาหลีใน Colombo การเข้าเมืองแบบ K-ETA/ยกเว้นวีซ่าไม่ใช้กับหนังสือเดินทาง Sri Lanka",
+      "type": "C-3-9 ท่องเที่ยวระยะสั้น (วีซ่าแบบกระดาษ)",
+      "stay": "สูงสุด 90 วัน",
+      "entry": "เข้าออกครั้งเดียว (บางกรณีอาจขอแบบเข้าออกหลายครั้งได้ — สอบถามที่สถานทูต)"
+    },
+    "tldr": [
+      "กรอกแบบฟอร์มที่ visa.go.kr (พอร์ทัลทางการเพียงแห่งเดียว) พิมพ์ออกมาแล้วลงนาม",
+      "ยื่นด้วยตนเองที่สถานทูตเกาหลีใน Colombo (No. 98 Dharmapala Mawatha, Colombo 7)",
+      "นำหนังสือเดินทาง (เหลืออายุ 6+ เดือน มีหน้าว่างอย่างน้อย 1 หน้า) รูปถ่าย การจองเที่ยวบิน + โรงแรม และรายการเดินบัญชีธนาคารไปด้วย",
+      "ชำระค่าธรรมเนียมเป็นเงินรูปีตามอัตราปัจจุบันของสถานทูต; การดำเนินการใช้เวลาอย่างน้อยประมาณ 15 วันทำการ (ไม่มีบริการแบบเร่งด่วน)"
+    ],
+    "steps": {
+      "title": "การยื่นคำร้อง ทีละขั้นตอน",
+      "items": [
+        {
+          "n": 1,
+          "title": "ยืนยันประเภทวีซ่า",
+          "detail": "สำหรับการท่องเที่ยว คุณต้องใช้วีซ่าเยือนระยะสั้น (ท่องเที่ยว) C-3-9 ซึ่งออกเป็นวีซ่าแบบกระดาษ รวบรวมรายการตรวจสอบด้านล่างก่อนเริ่ม"
+        },
+        {
+          "n": 2,
+          "title": "กรอกแบบฟอร์มที่ visa.go.kr",
+          "detail": "ไปที่ Korea Visa Portal (visa.go.kr) — เว็บไซต์ทางการเพียงแห่งเดียว กรอกแบบฟอร์มคำร้อง พิมพ์ออกมาแล้วลงนาม หนึ่งแบบฟอร์มต่อผู้ยื่นหนึ่งคน",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "เตรียมเอกสารของคุณ",
+          "detail": "รวบรวมเอกสารทุกอย่างในรายการตรวจสอบด้านล่าง การขาดเอกสารที่จำเป็นใด ๆ เป็นสาเหตุการถูกปฏิเสธที่พบบ่อย"
+        },
+        {
+          "n": 4,
+          "title": "ยื่นที่สถานทูตเกาหลี Colombo",
+          "detail": "นำแบบฟอร์มและเอกสารไปยื่นด้วยตนเองที่สถานทูต เลขที่ No. 98 Dharmapala Mawatha, Colombo 7 เวลาทำการสำหรับประชาชนอยู่ที่ประมาณ 09:30–12:00 และ 14:30–16:30 — ตรวจสอบเว็บไซต์สถานทูตก่อนไป",
+          "link": "https://overseas.mofa.go.kr/lk-en",
+          "linkLabel": "สถานทูตเกาหลี Sri Lanka"
+        },
+        {
+          "n": 5,
+          "title": "ชำระค่าธรรมเนียม (เป็นเงินรูปี)",
+          "detail": "ค่าธรรมเนียมชำระเป็นเงินรูปี Sri Lanka ตามอัตราในประกาศ 'Visa Fee Increase' ฉบับปัจจุบันของสถานทูต ยืนยันจำนวนเงินได้ที่เว็บไซต์สถานทูต"
+        },
+        {
+          "n": 6,
+          "title": "รอการดำเนินการ",
+          "detail": "การดำเนินการใช้เวลาอย่างน้อยประมาณ 15 วันทำการ — ไม่มีบริการแบบเร่งด่วน (การออกวีซ่าก่อนกำหนดมีเฉพาะหนังสือเดินทางทูต/ราชการ) อย่าจองเที่ยวบินที่คืนเงินไม่ได้จนกว่าจะได้รับอนุมัติ"
+        },
+        {
+          "n": 7,
+          "title": "รับหนังสือเดินทางของคุณ",
+          "detail": "รับคืนตามที่แจ้ง และตรวจสอบรายละเอียดสติกเกอร์วีซ่า (ชื่อ วันที่ ประเภทการเข้าเมือง) ทันทีที่ได้รับ"
+        }
+      ]
+    },
+    "documents": {
+      "title": "รายการตรวจสอบเอกสาร — พร้อมบอกว่าขอแต่ละอย่างได้ที่ไหนและอย่างไร",
+      "intro": "นี่คือส่วนที่เว็บไซต์อื่นทุกแห่งข้ามไป สำหรับเอกสารแต่ละอย่าง นี่คือที่ที่คุณขอได้และสิ่งที่ต้องปรากฏในเอกสารนั้นอย่างชัดเจน",
+      "cols": [
+        "เอกสาร",
+        "ขอได้ที่ไหน",
+        "ต้องแสดงอะไร"
+      ],
+      "rows": [
+        {
+          "doc": "หนังสือเดินทาง",
+          "req": "required",
+          "where": "คุณมีอยู่แล้ว",
+          "how": "มีอายุเหลือ 6+ เดือนหลังการเดินทาง มีหน้าว่างสำหรับวีซ่าอย่างน้อย 1 หน้า นำหนังสือเดินทางเล่มเก่ามาด้วยหากมี"
+        },
+        {
+          "doc": "แบบฟอร์มคำร้องขอวีซ่า",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "กรอกที่ Korea Visa Portal พิมพ์ออกมาแล้วลงนาม หนึ่งชุดต่อผู้ยื่นหนึ่งคน",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "รูปถ่าย — 35 × 45 mm",
+          "req": "required",
+          "where": "ร้านถ่ายรูปใดก็ได้",
+          "how": "พื้นหลังสีขาวล้วน ถ่ายภายใน 6 เดือนที่ผ่านมา เห็นใบหน้าเต็ม ไม่สวมแว่นตาหรือเครื่องปกคลุมศีรษะ"
+        },
+        {
+          "doc": "การจองเที่ยวบินไป-กลับ",
+          "req": "required",
+          "where": "สายการบิน / ตัวแทนท่องเที่ยว",
+          "how": "การจอง/กำหนดการที่ยืนยันแล้วก็เพียงพอ — อย่าซื้อตั๋วที่จ่ายเงินแล้วก่อนวีซ่าได้รับอนุมัติ"
+        },
+        {
+          "doc": "หลักฐานที่พัก",
+          "req": "required",
+          "where": "เว็บไซต์จองโรงแรม",
+          "how": "การจองโรงแรมที่ยืนยันแล้วครอบคลุมช่วงพำนักของคุณ พักกับใครสักคน? เพิ่มจดหมายเชิญ + สำเนาบัตรประจำตัว/ARC ของเจ้าบ้าน"
+        },
+        {
+          "doc": "รายการเดินบัญชีธนาคาร",
+          "req": "required",
+          "where": "ธนาคารของคุณ",
+          "how": "รายการเดินบัญชีล่าสุด (มีตราประทับของธนาคาร) ที่แสดงว่าคุณมีเงินพอสำหรับการเดินทาง ยอดคงเหลือที่สม่ำเสมอน่าเชื่อถือกว่าการฝากเงินก้อนโตแบบกะทันหันมาก"
+        },
+        {
+          "doc": "หลักฐานการจ้างงาน / สถานะ",
+          "req": "required",
+          "where": "นายจ้าง / ธุรกิจ / วิทยาลัย",
+          "how": "ลูกจ้าง: จดหมายรับรองการทำงาน/การลา ผู้ประกอบอาชีพอิสระ: ทะเบียนธุรกิจ นักศึกษา: หนังสือรับรองการเป็นนักศึกษา ผู้เกษียณ: หลักฐานบำนาญ"
+        }
+      ],
+      "legend": {
+        "required": "จำเป็น",
+        "conditional": "หากเข้าข่ายกับคุณ",
+        "recommended": "แนะนำ"
+      }
+    },
+    "funds": {
+      "title": "\"ต้องมียอดเงินในธนาคารเท่าไร?\"",
+      "body": "ไม่มีจำนวนขั้นต่ำอย่างเป็นทางการเพียงตัวเดียวที่ประกาศไว้สำหรับวีซ่าท่องเที่ยว สิ่งที่สำคัญคือการพิสูจน์ว่าคุณสามารถออกค่าใช้จ่ายตลอดการเดินทางได้อย่างสบาย ๆ และมีเหตุผลที่จะกลับ Sri Lanka เจ้าหน้าที่พิจารณาความมั่นคง ไม่ใช่แค่ตัวเลขที่ดูดี",
+      "tips": [
+        "แสดงยอดคงเหลือที่สม่ำเสมอ — การฝากเงินก้อนใหญ่ไม่กี่วันก่อนยื่นดูอ่อน",
+        "จับคู่รายการเดินบัญชีธนาคารกับหลักฐานการงาน ธุรกิจ หรือการศึกษาของคุณ เมื่อรวมกันจะเล่าเรื่องที่น่าเชื่อถือ",
+        "มีผู้สนับสนุน? เพิ่มรายการเดินบัญชีธนาคารของผู้สนับสนุน จดหมายสนับสนุนที่ลงนาม และหลักฐานความสัมพันธ์ของคุณ"
+      ]
+    },
+    "pitfalls": {
+      "title": "ข้อผิดพลาดที่ทำให้ถูกปฏิเสธและล่าช้า",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "แฟ้มเอกสารไม่ครบ",
+          "d": "การขาดเอกสารที่จำเป็นใด ๆ อาจทำให้ถูกปฏิเสธ ใช้รายการตรวจสอบด้านบนและตรวจทานอีกครั้งก่อนยื่น"
+        },
+        {
+          "icon": "⏳",
+          "t": "คาดหวังการดำเนินการที่รวดเร็ว",
+          "d": "ไม่มีบริการแบบเร่งด่วน; การดำเนินการใช้เวลาอย่างน้อยประมาณ 15 วันทำการ ยื่นล่วงหน้าก่อนการเดินทางให้มาก"
+        },
+        {
+          "icon": "🎫",
+          "t": "ซื้อตั๋วเครื่องบินเร็วเกินไป",
+          "d": "จ่ายค่าตั๋วที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ การจองก็เพียงพอสำหรับแฟ้ม"
+        },
+        {
+          "icon": "🌐",
+          "t": "ยื่นบนเว็บไซต์ 'วีซ่า' ปลอม",
+          "d": "เฉพาะ visa.go.kr (แบบฟอร์ม) และสถานทูตเกาหลีอย่างเป็นทางการใน Colombo เท่านั้นที่จัดการวีซ่าเกาหลี — เพิกเฉยต่อเว็บไซต์เลียนแบบที่เก็บเงินเพิ่ม"
+        },
+        {
+          "icon": "🖼️",
+          "t": "รูปถ่ายไม่ดี",
+          "d": "ขนาดผิด พื้นหลังมีสี ใส่แว่นตา หรือรูปเก่า ใช้รูปใหม่ 35 × 45 mm พื้นหลังสีขาว"
+        }
+      ]
+    },
+    "faq": {
+      "title": "คำถามที่พบบ่อย วีซ่า Sri Lanka → เกาหลี",
+      "items": [
+        {
+          "q": "พลเมือง Sri Lanka ต้องใช้วีซ่าไปเกาหลีไหม?",
+          "a": "ใช่ — สำหรับการท่องเที่ยว คุณยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3-9 ล่วงหน้า ซึ่งออกเป็นวีซ่าแบบกระดาษ หนังสือเดินทาง Sri Lanka ไม่ได้รับการยกเว้นวีซ่าและไม่อยู่ในรายชื่อ K-ETA"
+        },
+        {
+          "q": "ยื่นที่ไหน?",
+          "a": "ยื่นด้วยตนเองที่สถานทูตเกาหลีใน Colombo (No. 98 Dharmapala Mawatha, Colombo 7) คุณกรอกแบบฟอร์มที่ Korea Visa Portal, visa.go.kr"
+        },
+        {
+          "q": "ใช้เวลานานแค่ไหน?",
+          "a": "อย่างน้อยประมาณ 15 วันทำการ และนานกว่านั้นในบางกรณี ไม่มีบริการแบบเร่งด่วน จึงควรยื่นล่วงหน้าก่อนการเดินทางให้มาก"
+        },
+        {
+          "q": "ค่าใช้จ่ายเท่าไร?",
+          "a": "ค่าธรรมเนียมชำระเป็นเงินรูปี Sri Lanka ตามอัตราในประกาศ 'Visa Fee Increase' ฉบับปัจจุบันของสถานทูต ยืนยันจำนวนเงินที่แน่นอนได้ที่เว็บไซต์สถานทูต"
+        },
+        {
+          "q": "มีตัวเลือกแบบเร่งด่วนหรือฉุกเฉินไหม?",
+          "a": "ไม่มี การออกวีซ่าก่อนกำหนดมีให้เฉพาะผู้ถือหนังสือเดินทางทูตและราชการเท่านั้น"
+        },
+        {
+          "q": "ขอวีซ่าแบบเข้าออกหลายครั้งได้ไหม?",
+          "a": "วีซ่าท่องเที่ยวแบบเข้าออกหลายครั้งเป็นไปได้ในบางกรณี แต่คุณสมบัติแตกต่างกันไป สอบถามที่สถานทูตเกี่ยวกับกฎปัจจุบันสำหรับ Sri Lanka"
+        },
+        {
+          "q": "หลังจากได้วีซ่าแล้วยังต้องใช้ e-Arrival Card ไหม?",
+          "a": "ข้อกำหนด e-Arrival Card ยังอาจใช้เมื่อเข้าเมือง ตรวจสอบกฎเกี่ยวกับเอกสารเข้าเมืองบนเว็บไซต์ทางการเมื่อใกล้วันเดินทาง"
+        }
+      ]
+    }
+  },
+  "id": {
+    "kicker": "Panduan visa · Sri Lanka → Korea",
+    "readingTime": "8 menit baca",
+    "h1": "Visa Korea dari Sri Lanka",
+    "metaTitle": "Visa dari Sri Lanka ke Korea: Apakah Anda Memerlukannya? (2026) — Korea Trip Hub",
+    "metaDesc": "Ya — pemegang paspor Sri Lanka memerlukan visa untuk Korea Selatan (C-3-9 wisata jangka pendek, visa kertas, hingga 90 hari). Ajukan di Kedutaan Besar Korea di Colombo: dokumen, biaya, dan waktu pemrosesan, langkah demi langkah.",
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Masa tinggal",
+      "entry": "Masuk",
+      "where": "Tempat mendapatkannya",
+      "official": "Sumber resmi",
+      "required": "Wajib",
+      "conditional": "Jika berlaku",
+      "recommended": "Disarankan",
+      "confirm": "Biaya/aturan dapat berubah — konfirmasi di sumbernya",
+      "source": "Sumber",
+      "updated": "Diperbarui",
+      "tldr": "Ringkasan"
+    },
+    "verdict": {
+      "headline": "Ya — pemegang paspor Sri Lanka memerlukan visa.",
+      "sub": "Anda akan mengajukan visa wisata jangka pendek C-3-9 — sebuah visa kertas (sekali masuk, tinggal hingga 90 hari) — di Kedutaan Besar Korea di Colombo. Masuk dengan K-ETA/bebas visa TIDAK berlaku untuk paspor Sri Lanka.",
+      "type": "C-3-9 Wisata jangka pendek (visa kertas)",
+      "stay": "Hingga 90 hari",
+      "entry": "Sekali masuk (masuk beberapa kali dimungkinkan dalam beberapa kasus — tanyakan di kedutaan)"
+    },
+    "tldr": [
+      "Isi formulir di visa.go.kr (SATU-SATUNYA portal resmi), cetak dan tanda tangani.",
+      "Serahkan langsung di Kedutaan Besar Korea di Colombo (No. 98 Dharmapala Mawatha, Colombo 7).",
+      "Bawa paspor (berlaku 6+ bulan, minimal 1 halaman kosong), foto, pemesanan penerbangan + hotel, dan rekening koran.",
+      "Bayar biaya dalam rupee sesuai kurs terkini kedutaan; pemrosesan memakan waktu minimal sekitar 15 hari kerja (tidak ada layanan ekspres)."
+    ],
+    "steps": {
+      "title": "Proses pengajuan, langkah demi langkah",
+      "items": [
+        {
+          "n": 1,
+          "title": "Pastikan jenis visa",
+          "detail": "Untuk wisata, Anda memerlukan visa kunjungan jangka pendek (wisata) C-3-9, yang diterbitkan sebagai visa kertas. Siapkan daftar periksa di bawah sebelum mulai."
+        },
+        {
+          "n": 2,
+          "title": "Isi formulir di visa.go.kr",
+          "detail": "Buka Korea Visa Portal (visa.go.kr) — satu-satunya situs resmi. Lengkapi formulir permohonan, cetak dan tanda tangani. Satu formulir per pemohon.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Susun dokumen Anda",
+          "detail": "Kumpulkan setiap dokumen dalam daftar periksa di bawah. Kekurangan dokumen wajib apa pun adalah penyebab penolakan yang umum."
+        },
+        {
+          "n": 4,
+          "title": "Serahkan di Kedutaan Besar Korea, Colombo",
+          "detail": "Bawa formulir dan dokumen Anda secara langsung ke Kedutaan di No. 98 Dharmapala Mawatha, Colombo 7. Jam layanan publik sekitar 09:30–12:00 dan 14:30–16:30 — periksa situs kedutaan sebelum datang.",
+          "link": "https://overseas.mofa.go.kr/lk-en",
+          "linkLabel": "Kedutaan Besar Korea, Sri Lanka"
+        },
+        {
+          "n": 5,
+          "title": "Bayar biaya (dalam rupee)",
+          "detail": "Biaya dibayar dalam rupee Sri Lanka sesuai kurs pada pengumuman 'Visa Fee Increase' terkini kedutaan. Pastikan jumlahnya di situs kedutaan."
+        },
+        {
+          "n": 6,
+          "title": "Tunggu pemrosesan",
+          "detail": "Pemrosesan memakan waktu minimal sekitar 15 hari kerja — tidak ada layanan ekspres (penerbitan lebih awal hanya untuk paspor diplomatik/dinas). Jangan pesan penerbangan yang tidak bisa di-refund sampai Anda disetujui."
+        },
+        {
+          "n": 7,
+          "title": "Ambil paspor Anda",
+          "detail": "Ambil sesuai petunjuk dan periksa detail stiker visa (nama, tanggal, jenis masuk) begitu Anda menerimanya."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Daftar periksa dokumen — dengan di mana & bagaimana mendapatkan masing-masing",
+      "intro": "Ini adalah bagian yang dilewati semua situs lain. Untuk setiap dokumen, inilah persis di mana Anda memperolehnya dan apa yang harus ditunjukkannya.",
+      "cols": [
+        "Dokumen",
+        "Di mana mendapatkannya",
+        "Apa yang harus ditunjukkan"
+      ],
+      "rows": [
+        {
+          "doc": "Paspor",
+          "req": "required",
+          "where": "Anda sudah punya",
+          "how": "Berlaku 6+ bulan setelah perjalanan Anda, dengan setidaknya satu halaman kosong untuk visa. Bawa juga paspor lama jika ada."
+        },
+        {
+          "doc": "Formulir permohonan visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapi di Korea Visa Portal, cetak dan tanda tangani. Satu per pemohon.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 35 × 45 mm",
+          "req": "required",
+          "where": "Studio foto mana pun",
+          "how": "Latar putih polos, diambil dalam 6 bulan terakhir, wajah penuh, tanpa kacamata atau penutup kepala."
+        },
+        {
+          "doc": "Pemesanan penerbangan pulang-pergi",
+          "req": "required",
+          "where": "Maskapai / agen perjalanan",
+          "how": "Pemesanan/itinerary yang dikonfirmasi sudah cukup — JANGAN membeli tiket berbayar sebelum visa disetujui."
+        },
+        {
+          "doc": "Bukti akomodasi",
+          "req": "required",
+          "where": "Situs pemesanan hotel",
+          "how": "Pemesanan hotel terkonfirmasi yang mencakup masa tinggal Anda. Menginap dengan seseorang? Tambahkan surat undangan + salinan ID/ARC tuan rumah."
+        },
+        {
+          "doc": "Rekening koran",
+          "req": "required",
+          "where": "Bank Anda",
+          "how": "Rekening koran terbaru (dengan cap bank) yang menunjukkan Anda mampu membiayai perjalanan. Saldo yang stabil jauh lebih meyakinkan daripada setoran mendadak."
+        },
+        {
+          "doc": "Bukti pekerjaan / status",
+          "req": "required",
+          "where": "Pemberi kerja / usaha / kampus",
+          "how": "Bekerja: surat keterangan kerja/cuti. Wiraswasta: registrasi usaha. Mahasiswa: surat keterangan terdaftar. Pensiunan: bukti pensiun."
+        }
+      ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Jika berlaku untuk Anda",
+        "recommended": "Disarankan"
+      }
+    },
+    "funds": {
+      "title": "\"Berapa saldo bank yang saya butuhkan?\"",
+      "body": "Tidak ada jumlah minimum resmi tunggal yang dipublikasikan untuk visa wisata. Yang penting adalah membuktikan Anda mampu membiayai seluruh perjalanan dengan nyaman dan punya alasan untuk kembali ke Sri Lanka. Petugas melihat kestabilan, bukan sekadar angka yang mencolok.",
+      "tips": [
+        "Tunjukkan saldo yang konsisten — setoran besar yang dilakukan beberapa hari sebelum mengajukan terlihat lemah.",
+        "Padukan rekening koran dengan bukti pekerjaan, usaha, atau studi Anda; bersama-sama keduanya menceritakan kisah yang kredibel.",
+        "Disponsori? Tambahkan rekening koran sponsor, surat sponsor yang ditandatangani, dan bukti hubungan Anda."
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesalahan yang menyebabkan penolakan & keterlambatan",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "Berkas tidak lengkap",
+          "d": "Kekurangan dokumen wajib apa pun bisa menyebabkan penolakan. Gunakan daftar periksa di atas dan periksa ulang sebelum menyerahkan."
+        },
+        {
+          "icon": "⏳",
+          "t": "Mengharapkan proses cepat",
+          "d": "Tidak ada layanan ekspres; pemrosesan memakan waktu minimal sekitar 15 hari kerja. Ajukan jauh sebelum perjalanan Anda."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membeli tiket terlalu dini",
+          "d": "Membayar tiket yang tidak bisa di-refund sebelum disetujui. Pemesanan sudah cukup untuk berkas."
+        },
+        {
+          "icon": "🌐",
+          "t": "Mengajukan di situs 'visa' palsu",
+          "d": "Hanya visa.go.kr (formulir) dan Kedutaan Besar Korea resmi di Colombo yang menangani visa Korea — abaikan situs tiruan yang mengenakan biaya tambahan."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Foto buruk",
+          "d": "Ukuran salah, latar berwarna, berkacamata, atau foto lama. Gunakan foto baru 35 × 45 mm berlatar putih."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Tanya jawab visa Sri Lanka → Korea",
+      "items": [
+        {
+          "q": "Apakah warga Sri Lanka memerlukan visa untuk Korea?",
+          "a": "Ya — untuk wisata Anda mengajukan lebih dahulu visa wisata jangka pendek C-3-9, yang diterbitkan sebagai visa kertas. Paspor Sri Lanka tidak bebas visa dan tidak ada dalam daftar K-ETA."
+        },
+        {
+          "q": "Di mana saya mengajukan?",
+          "a": "Secara langsung di Kedutaan Besar Korea di Colombo (No. 98 Dharmapala Mawatha, Colombo 7). Anda mengisi formulir di Korea Visa Portal, visa.go.kr."
+        },
+        {
+          "q": "Berapa lama?",
+          "a": "Minimal sekitar 15 hari kerja, dan lebih lama untuk beberapa kasus. Tidak ada layanan ekspres, jadi ajukan jauh sebelum perjalanan Anda."
+        },
+        {
+          "q": "Berapa biayanya?",
+          "a": "Biaya dibayar dalam rupee Sri Lanka sesuai kurs pada pengumuman 'Visa Fee Increase' terkini kedutaan. Pastikan jumlah pastinya di situs kedutaan."
+        },
+        {
+          "q": "Apakah ada opsi ekspres atau mendesak?",
+          "a": "Tidak. Penerbitan lebih awal hanya tersedia untuk pemegang paspor diplomatik dan dinas."
+        },
+        {
+          "q": "Bisakah saya mendapatkan visa multiple-entry?",
+          "a": "Visa wisata multiple-entry dimungkinkan dalam beberapa kasus, tetapi kelayakan bervariasi. Tanyakan di kedutaan tentang aturan terkini untuk Sri Lanka."
+        },
+        {
+          "q": "Apakah saya masih memerlukan e-Arrival Card setelah mendapatkan visa?",
+          "a": "Persyaratan e-Arrival Card mungkin masih berlaku saat masuk. Periksa aturan dokumen masuk di situs resmi menjelang tanggal perjalanan Anda."
+        }
+      ]
+    }
+  },
+  "es": {
+    "kicker": "Guía de visado · Sri Lanka → Corea",
+    "readingTime": "8 min de lectura",
+    "h1": "Visado de Corea desde Sri Lanka",
+    "metaTitle": "Visado de Sri Lanka a Corea: ¿necesitas uno? (2026) — Korea Trip Hub",
+    "metaDesc": "Sí — los titulares de pasaporte de Sri Lanka necesitan visado para Corea del Sur (C-3-9 de turista de corta duración, un visado en papel, hasta 90 días). Solicítalo en la Embajada de Corea en Colombo: documentos, tasa y tiempo de tramitación, paso a paso.",
+    "ui": {
+      "visa": "Tipo de visado",
+      "stay": "Estancia",
+      "entry": "Entrada",
+      "where": "Dónde conseguirlo",
+      "official": "Fuente oficial",
+      "required": "Obligatorio",
+      "conditional": "Si corresponde",
+      "recommended": "Recomendado",
+      "confirm": "Las tasas/normas pueden cambiar — confírmalo en la fuente",
+      "source": "Fuente",
+      "updated": "Actualizado",
+      "tldr": "Resumen"
+    },
+    "verdict": {
+      "headline": "Sí — los titulares de pasaporte de Sri Lanka necesitan visado.",
+      "sub": "Solicitarás el visado de turista de corta duración C-3-9 — un visado en papel (entrada única, estancia de hasta 90 días) — en la Embajada de Corea en Colombo. La entrada con K-ETA/sin visado NO se aplica a los pasaportes de Sri Lanka.",
+      "type": "C-3-9 Turista de corta duración (visado en papel)",
+      "stay": "Hasta 90 días",
+      "entry": "Entrada única (la entrada múltiple es posible en algunos casos — pregunta en la embajada)"
+    },
+    "tldr": [
+      "Rellena el formulario en visa.go.kr (el ÚNICO portal oficial), imprímelo y fírmalo.",
+      "Preséntalo en persona en la Embajada de Corea en Colombo (No. 98 Dharmapala Mawatha, Colombo 7).",
+      "Lleva el pasaporte (válido 6+ meses, con 1+ página en blanco), una foto, las reservas de vuelo + hotel y un extracto bancario.",
+      "Paga la tasa en rupias al cambio vigente de la embajada; la tramitación tarda un mínimo de unos 15 días hábiles (sin servicio exprés)."
+    ],
+    "steps": {
+      "title": "La solicitud, paso a paso",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirma el tipo de visado",
+          "detail": "Para turismo necesitas el visado de visita de corta duración (turista) C-3-9, expedido como visado en papel. Reúne la lista de verificación de abajo antes de empezar."
+        },
+        {
+          "n": 2,
+          "title": "Rellena el formulario en visa.go.kr",
+          "detail": "Ve al Korea Visa Portal (visa.go.kr) — el único sitio oficial. Completa el formulario de solicitud, imprímelo y fírmalo. Un formulario por solicitante.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Reúne tus documentos",
+          "detail": "Recopila todos los documentos de la lista de abajo. Que falte cualquier documento obligatorio es una causa común de rechazo."
+        },
+        {
+          "n": 4,
+          "title": "Preséntalo en la Embajada de Corea, Colombo",
+          "detail": "Lleva tu formulario y documentos en persona a la Embajada en No. 98 Dharmapala Mawatha, Colombo 7. El horario de atención al público es de aproximadamente 09:30–12:00 y 14:30–16:30 — consulta el sitio de la embajada antes de ir.",
+          "link": "https://overseas.mofa.go.kr/lk-en",
+          "linkLabel": "Embajada de Corea, Sri Lanka"
+        },
+        {
+          "n": 5,
+          "title": "Paga la tasa (en rupias)",
+          "detail": "La tasa se paga en rupias de Sri Lanka al cambio del aviso 'Visa Fee Increase' vigente de la embajada. Confirma el importe en el sitio de la embajada."
+        },
+        {
+          "n": 6,
+          "title": "Espera la tramitación",
+          "detail": "La tramitación tarda un mínimo de unos 15 días hábiles — no hay servicio exprés (la expedición anticipada es solo para pasaportes diplomáticos/oficiales). No reserves vuelos no reembolsables hasta que te aprueben."
+        },
+        {
+          "n": 7,
+          "title": "Recoge tu pasaporte",
+          "detail": "Recógelo según las indicaciones y comprueba los datos de la etiqueta del visado (nombre, fechas, tipo de entrada) en cuanto lo recibas."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Lista de documentos — con dónde y cómo conseguir cada uno",
+      "intro": "Esta es la parte que todos los demás sitios omiten. Para cada documento, aquí tienes exactamente dónde obtenerlo y qué debe mostrar.",
+      "cols": [
+        "Documento",
+        "Dónde conseguirlo",
+        "Qué debe mostrar"
+      ],
+      "rows": [
+        {
+          "doc": "Pasaporte",
+          "req": "required",
+          "where": "Ya lo tienes",
+          "how": "Válido 6+ meses más allá de tu viaje, con al menos una página en blanco para el visado. Lleva también los pasaportes antiguos si los tienes."
+        },
+        {
+          "doc": "Formulario de solicitud de visado",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Complétalo en el Korea Visa Portal, imprímelo y fírmalo. Uno por solicitante.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Foto — 35 × 45 mm",
+          "req": "required",
+          "where": "Cualquier estudio fotográfico",
+          "how": "Fondo blanco liso, tomada en los últimos 6 meses, rostro completo, sin gafas ni prendas en la cabeza."
+        },
+        {
+          "doc": "Reserva de vuelo de ida y vuelta",
+          "req": "required",
+          "where": "Aerolínea / agencia de viajes",
+          "how": "Una reserva/itinerario confirmado es suficiente — NO compres un billete pagado antes de que se apruebe el visado."
+        },
+        {
+          "doc": "Justificante de alojamiento",
+          "req": "required",
+          "where": "Sitios de reserva de hoteles",
+          "how": "Reservas de hotel confirmadas que cubran tu estancia. ¿Te alojas con alguien? Añade una carta de invitación + copia del DNI/ARC del anfitrión."
+        },
+        {
+          "doc": "Extracto bancario",
+          "req": "required",
+          "where": "Tu banco",
+          "how": "Un extracto reciente (con el sello del banco) que muestre que puedes financiar el viaje. Un saldo estable es mucho más convincente que un depósito repentino."
+        },
+        {
+          "doc": "Justificante de empleo / situación",
+          "req": "required",
+          "where": "Empleador / negocio / universidad",
+          "how": "Empleado: carta de empleo/permiso. Autónomo: registro mercantil. Estudiante: certificado de matrícula. Jubilado: justificante de pensión."
+        }
+      ],
+      "legend": {
+        "required": "Obligatorio",
+        "conditional": "Si te corresponde",
+        "recommended": "Recomendado"
+      }
+    },
+    "funds": {
+      "title": "«¿Cuánto saldo bancario necesito?»",
+      "body": "No hay un único mínimo oficial publicado para el visado de turista. Lo que importa es demostrar que puedes financiar cómodamente todo el viaje y que tienes motivos para volver a Sri Lanka. Los funcionarios que evalúan el caso miran la estabilidad, no solo una cifra llamativa.",
+      "tips": [
+        "Muestra un saldo constante — un gran depósito hecho días antes de solicitar parece débil.",
+        "Combina el extracto bancario con una prueba de tu empleo, negocio o estudios; juntos cuentan una historia creíble.",
+        "¿Tienes patrocinador? Añade el extracto bancario del patrocinador, una carta de patrocinio firmada y una prueba de tu relación."
+      ]
+    },
+    "pitfalls": {
+      "title": "Errores que provocan rechazos y retrasos",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "Un expediente incompleto",
+          "d": "Que falte cualquier documento obligatorio puede provocar un rechazo. Usa la lista de arriba y revísala dos veces antes de presentarla."
+        },
+        {
+          "icon": "⏳",
+          "t": "Esperar una tramitación rápida",
+          "d": "No hay servicio exprés; la tramitación tarda un mínimo de unos 15 días hábiles. Solicítalo con mucha antelación a tu viaje."
+        },
+        {
+          "icon": "🎫",
+          "t": "Comprar los vuelos demasiado pronto",
+          "d": "Pagar billetes no reembolsables antes de la aprobación. Una reserva es suficiente para el expediente."
+        },
+        {
+          "icon": "🌐",
+          "t": "Solicitar en un sitio 'de visados' falso",
+          "d": "Solo visa.go.kr (formulario) y la Embajada de Corea oficial en Colombo tramitan los visados de Corea — ignora los sitios imitación que cobran de más."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Mala foto",
+          "d": "Tamaño incorrecto, fondo de color, gafas o una foto antigua. Usa una foto reciente de 35 × 45 mm con fondo blanco."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre el visado Sri Lanka → Corea",
+      "items": [
+        {
+          "q": "¿Los ciudadanos de Sri Lanka necesitan visado para Corea?",
+          "a": "Sí — para turismo solicitas con antelación el visado de turista de corta duración C-3-9, expedido como visado en papel. Los pasaportes de Sri Lanka no están exentos de visado ni figuran en la lista K-ETA."
+        },
+        {
+          "q": "¿Dónde solicito?",
+          "a": "En persona en la Embajada de Corea en Colombo (No. 98 Dharmapala Mawatha, Colombo 7). El formulario se rellena en el Korea Visa Portal, visa.go.kr."
+        },
+        {
+          "q": "¿Cuánto tarda?",
+          "a": "Un mínimo de unos 15 días hábiles, y más en algunos casos. No hay servicio exprés, así que solicítalo con mucha antelación a tu viaje."
+        },
+        {
+          "q": "¿Cuánto cuesta?",
+          "a": "La tasa se paga en rupias de Sri Lanka al cambio del aviso 'Visa Fee Increase' vigente de la embajada. Confirma el importe exacto en el sitio de la embajada."
+        },
+        {
+          "q": "¿Hay opción exprés o urgente?",
+          "a": "No. La expedición anticipada solo está disponible para titulares de pasaportes diplomáticos y oficiales."
+        },
+        {
+          "q": "¿Puedo obtener un visado de entrada múltiple?",
+          "a": "Los visados de turista de entrada múltiple son posibles en algunos casos, pero la elegibilidad varía. Pregunta en la embajada por las normas actuales para Sri Lanka."
+        },
+        {
+          "q": "¿Sigo necesitando la e-Arrival Card después de obtener el visado?",
+          "a": "El requisito de la e-Arrival Card puede seguir aplicándose a la entrada. Comprueba las normas de documentos de entrada en los sitios oficiales cerca de la fecha de tu viaje."
+        }
+      ]
+    }
+  },
+  "ms": {
+    "kicker": "Panduan visa · Sri Lanka → Korea",
+    "readingTime": "Bacaan 8 minit",
+    "h1": "Visa Korea dari Sri Lanka",
+    "metaTitle": "Visa dari Sri Lanka ke Korea: Adakah Anda Memerlukannya? (2026) — Korea Trip Hub",
+    "metaDesc": "Ya — pemegang pasport Sri Lanka memerlukan visa untuk Korea Selatan (C-3-9 pelancong jangka pendek, visa kertas, sehingga 90 hari). Mohon di Kedutaan Korea di Colombo: dokumen, yuran dan masa pemprosesan, langkah demi langkah.",
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Tempoh menginap",
+      "entry": "Kemasukan",
+      "where": "Tempat mendapatkannya",
+      "official": "Sumber rasmi",
+      "required": "Diperlukan",
+      "conditional": "Jika berkenaan",
+      "recommended": "Disyorkan",
+      "confirm": "Yuran/peraturan boleh berubah — sahkan di sumber",
+      "source": "Sumber",
+      "updated": "Dikemas kini",
+      "tldr": "Ringkasan"
+    },
+    "verdict": {
+      "headline": "Ya — pemegang pasport Sri Lanka memerlukan visa.",
+      "sub": "Anda akan memohon visa pelancong jangka pendek C-3-9 — sejenis visa kertas (kemasukan sekali, tinggal sehingga 90 hari) — di Kedutaan Korea di Colombo. Kemasukan K-ETA/tanpa visa TIDAK terpakai untuk pasport Sri Lanka.",
+      "type": "C-3-9 Pelancong jangka pendek (visa kertas)",
+      "stay": "Sehingga 90 hari",
+      "entry": "Kemasukan sekali (kemasukan berbilang mungkin dalam sesetengah kes — tanya di kedutaan)"
+    },
+    "tldr": [
+      "Isi borang di visa.go.kr (SATU-SATUNYA portal rasmi), cetak dan tandatangani.",
+      "Serahkan sendiri di Kedutaan Korea di Colombo (No. 98 Dharmapala Mawatha, Colombo 7).",
+      "Bawa pasport (sah 6+ bulan, sekurang-kurangnya 1 halaman kosong), gambar, tempahan penerbangan + hotel, dan penyata bank.",
+      "Bayar yuran dalam rupee mengikut kadar semasa kedutaan; pemprosesan mengambil masa sekurang-kurangnya kira-kira 15 hari bekerja (tiada perkhidmatan ekspres)."
+    ],
+    "steps": {
+      "title": "Permohonan, langkah demi langkah",
+      "items": [
+        {
+          "n": 1,
+          "title": "Sahkan jenis visa",
+          "detail": "Untuk pelancongan, anda memerlukan visa lawatan jangka pendek (pelancong) C-3-9, yang dikeluarkan sebagai visa kertas. Kumpulkan senarai semak di bawah sebelum bermula."
+        },
+        {
+          "n": 2,
+          "title": "Isi borang di visa.go.kr",
+          "detail": "Pergi ke Korea Visa Portal (visa.go.kr) — satu-satunya laman rasmi. Lengkapkan borang permohonan, cetak dan tandatangani. Satu borang bagi setiap pemohon.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Kumpulkan dokumen anda",
+          "detail": "Kumpulkan setiap dokumen dalam senarai semak di bawah. Kekurangan mana-mana dokumen wajib ialah punca penolakan yang biasa."
+        },
+        {
+          "n": 4,
+          "title": "Serahkan di Kedutaan Korea, Colombo",
+          "detail": "Bawa borang dan dokumen anda sendiri ke Kedutaan di No. 98 Dharmapala Mawatha, Colombo 7. Waktu urusan awam lebih kurang 09:30–12:00 dan 14:30–16:30 — semak laman kedutaan sebelum pergi.",
+          "link": "https://overseas.mofa.go.kr/lk-en",
+          "linkLabel": "Kedutaan Korea, Sri Lanka"
+        },
+        {
+          "n": 5,
+          "title": "Bayar yuran (dalam rupee)",
+          "detail": "Yuran dibayar dalam rupee Sri Lanka mengikut kadar dalam notis 'Visa Fee Increase' semasa kedutaan. Sahkan jumlahnya di laman kedutaan."
+        },
+        {
+          "n": 6,
+          "title": "Tunggu pemprosesan",
+          "detail": "Pemprosesan mengambil masa sekurang-kurangnya kira-kira 15 hari bekerja — tiada perkhidmatan ekspres (pengeluaran awal hanya untuk pasport diplomatik/rasmi). Jangan tempah penerbangan yang tidak boleh dikembalikan wang sehingga anda diluluskan."
+        },
+        {
+          "n": 7,
+          "title": "Ambil pasport anda",
+          "detail": "Ambil mengikut arahan dan semak butiran pelekat visa (nama, tarikh, jenis kemasukan) sebaik sahaja anda menerimanya."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Senarai semak dokumen — dengan di mana & bagaimana mendapatkan setiap satu",
+      "intro": "Inilah bahagian yang dilangkau oleh setiap laman lain. Bagi setiap dokumen, inilah tepatnya di mana anda memperolehnya dan apa yang perlu ditunjukkannya.",
+      "cols": [
+        "Dokumen",
+        "Di mana mendapatkannya",
+        "Apa yang perlu ditunjukkan"
+      ],
+      "rows": [
+        {
+          "doc": "Pasport",
+          "req": "required",
+          "where": "Anda sudah memilikinya",
+          "how": "Sah 6+ bulan selepas perjalanan anda, dengan sekurang-kurangnya satu halaman kosong untuk visa. Bawa juga pasport lama jika ada."
+        },
+        {
+          "doc": "Borang permohonan visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Lengkapkan di Korea Visa Portal, cetak dan tandatangani. Satu bagi setiap pemohon.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Gambar — 35 × 45 mm",
+          "req": "required",
+          "where": "Mana-mana studio foto",
+          "how": "Latar putih kosong, diambil dalam tempoh 6 bulan lepas, wajah penuh, tanpa cermin mata atau penutup kepala."
+        },
+        {
+          "doc": "Tempahan penerbangan pergi-balik",
+          "req": "required",
+          "where": "Syarikat penerbangan / ejen pelancongan",
+          "how": "Tempahan/itinerari yang disahkan sudah memadai — JANGAN beli tiket berbayar sebelum visa diluluskan."
+        },
+        {
+          "doc": "Bukti penginapan",
+          "req": "required",
+          "where": "Laman tempahan hotel",
+          "how": "Tempahan hotel yang disahkan meliputi tempoh menginap anda. Menginap dengan seseorang? Tambah surat jemputan + salinan ID/ARC tuan rumah."
+        },
+        {
+          "doc": "Penyata bank",
+          "req": "required",
+          "where": "Bank anda",
+          "how": "Penyata terkini (dengan cop bank) yang menunjukkan anda mampu membiayai perjalanan. Baki yang stabil jauh lebih meyakinkan daripada deposit mengejut."
+        },
+        {
+          "doc": "Bukti pekerjaan / status",
+          "req": "required",
+          "where": "Majikan / perniagaan / kolej",
+          "how": "Bekerja: surat pekerjaan/cuti. Bekerja sendiri: pendaftaran perniagaan. Pelajar: surat pengesahan pendaftaran. Pesara: bukti pencen."
+        }
+      ],
+      "legend": {
+        "required": "Diperlukan",
+        "conditional": "Jika berkenaan dengan anda",
+        "recommended": "Disyorkan"
+      }
+    },
+    "funds": {
+      "title": "\"Berapa banyak baki bank yang saya perlukan?\"",
+      "body": "Tiada satu jumlah minimum rasmi yang diterbitkan untuk visa pelancong. Yang penting ialah membuktikan anda mampu membiayai keseluruhan perjalanan dengan selesa dan mempunyai sebab untuk kembali ke Sri Lanka. Pegawai menilai kestabilan, bukan sekadar angka yang menonjol.",
+      "tips": [
+        "Tunjukkan baki yang konsisten — deposit besar yang dibuat beberapa hari sebelum memohon kelihatan lemah.",
+        "Gandingkan penyata bank dengan bukti pekerjaan, perniagaan atau pengajian anda; bersama-sama ia menceritakan kisah yang boleh dipercayai.",
+        "Ditaja? Tambah penyata bank penaja, surat tajaan yang ditandatangani, dan bukti hubungan anda."
+      ]
+    },
+    "pitfalls": {
+      "title": "Kesilapan yang menyebabkan penolakan & kelewatan",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "Fail tidak lengkap",
+          "d": "Kekurangan mana-mana dokumen wajib boleh menyebabkan penolakan. Gunakan senarai semak di atas dan semak dua kali sebelum menyerahkannya."
+        },
+        {
+          "icon": "⏳",
+          "t": "Mengharapkan pemprosesan pantas",
+          "d": "Tiada perkhidmatan ekspres; pemprosesan mengambil masa sekurang-kurangnya kira-kira 15 hari bekerja. Mohon lebih awal sebelum perjalanan anda."
+        },
+        {
+          "icon": "🎫",
+          "t": "Membeli penerbangan terlalu awal",
+          "d": "Membayar tiket yang tidak boleh dikembalikan wang sebelum kelulusan. Tempahan sudah memadai untuk fail."
+        },
+        {
+          "icon": "🌐",
+          "t": "Memohon di laman 'visa' palsu",
+          "d": "Hanya visa.go.kr (borang) dan Kedutaan Korea rasmi di Colombo mengendalikan visa Korea — abaikan laman tiruan yang mengenakan bayaran tambahan."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Gambar tidak baik",
+          "d": "Saiz salah, latar berwarna, bercermin mata atau gambar lama. Gunakan gambar baharu 35 × 45 mm berlatar putih."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Soalan lazim visa Sri Lanka → Korea",
+      "items": [
+        {
+          "q": "Adakah warga Sri Lanka memerlukan visa untuk Korea?",
+          "a": "Ya — untuk pelancongan anda memohon terlebih dahulu visa pelancong jangka pendek C-3-9, yang dikeluarkan sebagai visa kertas. Pasport Sri Lanka tidak bebas visa dan tiada dalam senarai K-ETA."
+        },
+        {
+          "q": "Di mana saya memohon?",
+          "a": "Sendiri di Kedutaan Korea di Colombo (No. 98 Dharmapala Mawatha, Colombo 7). Anda mengisi borang di Korea Visa Portal, visa.go.kr."
+        },
+        {
+          "q": "Berapa lama masanya?",
+          "a": "Sekurang-kurangnya kira-kira 15 hari bekerja, dan lebih lama bagi sesetengah kes. Tiada perkhidmatan ekspres, jadi mohon lebih awal sebelum perjalanan anda."
+        },
+        {
+          "q": "Berapa kosnya?",
+          "a": "Yuran dibayar dalam rupee Sri Lanka mengikut kadar dalam notis 'Visa Fee Increase' semasa kedutaan. Sahkan jumlah tepat di laman kedutaan."
+        },
+        {
+          "q": "Adakah pilihan ekspres atau segera?",
+          "a": "Tiada. Pengeluaran awal hanya tersedia untuk pemegang pasport diplomatik dan rasmi."
+        },
+        {
+          "q": "Bolehkah saya mendapatkan visa kemasukan berbilang?",
+          "a": "Visa pelancong kemasukan berbilang mungkin dalam sesetengah kes, tetapi kelayakan berbeza-beza. Tanya di kedutaan tentang peraturan semasa untuk Sri Lanka."
+        },
+        {
+          "q": "Adakah saya masih memerlukan e-Arrival Card selepas mendapat visa?",
+          "a": "Keperluan e-Arrival Card mungkin masih terpakai semasa kemasukan. Semak peraturan dokumen kemasukan di laman rasmi menjelang tarikh perjalanan anda."
+        }
+      ]
+    }
+  },
+  "ko": {
+    "kicker": "비자 가이드 · Sri Lanka → 한국",
+    "readingTime": "8분 분량",
+    "h1": "Sri Lanka에서 신청하는 한국 비자",
+    "metaTitle": "Sri Lanka에서 한국 비자: 필요할까요? (2026) — Korea Trip Hub",
+    "metaDesc": "네 — Sri Lanka 여권 소지자는 한국 비자가 필요합니다 (C-3-9 단기 관광, 종이 비자, 최대 90일). Colombo의 주스리랑카 한국대사관에서 신청합니다: 서류, 수수료, 처리 기간을 단계별로 안내합니다.",
+    "ui": {
+      "visa": "비자 종류",
+      "stay": "체류 기간",
+      "entry": "입국",
+      "where": "발급처",
+      "official": "공식 출처",
+      "required": "필수",
+      "conditional": "해당 시",
+      "recommended": "권장",
+      "confirm": "수수료·규정은 변경될 수 있습니다 — 출처에서 확인하세요",
+      "source": "출처",
+      "updated": "업데이트",
+      "tldr": "요약"
+    },
+    "verdict": {
+      "headline": "네 — Sri Lanka 여권 소지자는 비자가 필요합니다.",
+      "sub": "C-3-9 단기 관광 비자 — 종이 비자(단수 입국, 최대 90일 체류) — 를 Colombo의 한국대사관에서 신청합니다. K-ETA/무비자 입국은 Sri Lanka 여권에는 적용되지 않습니다.",
+      "type": "C-3-9 단기 관광 (종이 비자)",
+      "stay": "최대 90일",
+      "entry": "단수 입국 (경우에 따라 복수 입국 가능 — 대사관에 문의하세요)"
+    },
+    "tldr": [
+      "visa.go.kr(유일한 공식 포털)에서 양식을 작성하고, 인쇄해 서명하세요.",
+      "Colombo의 한국대사관(No. 98 Dharmapala Mawatha, Colombo 7)에 본인이 직접 방문해 제출하세요.",
+      "여권(잔여 6개월 이상, 빈 페이지 1장 이상), 사진, 항공권+호텔 예약, 은행 거래내역서를 지참하세요.",
+      "수수료는 대사관의 현재 환율로 루피화로 납부합니다. 처리에는 최소 약 15 영업일이 걸립니다(특급 서비스 없음)."
+    ],
+    "steps": {
+      "title": "신청, 단계별로",
+      "items": [
+        {
+          "n": 1,
+          "title": "비자 종류 확인",
+          "detail": "관광에는 C-3-9 단기 방문(관광) 비자가 필요하며, 종이 비자로 발급됩니다. 시작하기 전에 아래 체크리스트를 준비하세요."
+        },
+        {
+          "n": 2,
+          "title": "visa.go.kr에서 양식 작성",
+          "detail": "Korea Visa Portal(visa.go.kr)로 이동하세요 — 유일한 공식 사이트입니다. 신청 양식을 작성한 뒤 인쇄해 서명하세요. 신청자 1인당 한 장입니다.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "서류 준비",
+          "detail": "아래 체크리스트의 모든 서류를 모으세요. 필수 서류가 하나라도 빠지면 거절의 흔한 원인이 됩니다."
+        },
+        {
+          "n": 4,
+          "title": "Colombo 한국대사관에서 제출",
+          "detail": "양식과 서류를 No. 98 Dharmapala Mawatha, Colombo 7의 대사관으로 본인이 직접 가져가세요. 민원 시간은 대략 09:30–12:00와 14:30–16:30입니다 — 가기 전에 대사관 사이트를 확인하세요.",
+          "link": "https://overseas.mofa.go.kr/lk-en",
+          "linkLabel": "주스리랑카 한국대사관"
+        },
+        {
+          "n": 5,
+          "title": "수수료 납부 (루피화)",
+          "detail": "수수료는 대사관의 최신 'Visa Fee Increase' 공지의 환율로 Sri Lanka 루피화로 납부합니다. 금액은 대사관 사이트에서 확인하세요."
+        },
+        {
+          "n": 6,
+          "title": "처리 대기",
+          "detail": "처리에는 최소 약 15 영업일이 걸립니다 — 특급 서비스는 없습니다(조기 발급은 외교·관용 여권만 해당). 승인되기 전에는 환불 불가 항공권을 예약하지 마세요."
+        },
+        {
+          "n": 7,
+          "title": "여권 수령",
+          "detail": "안내에 따라 수령하고, 받는 즉시 비자 스티커 정보(이름, 날짜, 입국 종류)를 확인하세요."
+        }
+      ]
+    },
+    "documents": {
+      "title": "서류 체크리스트 — 각 서류를 어디서 어떻게 받는지 포함",
+      "intro": "이것이 다른 사이트들이 모두 건너뛰는 부분입니다. 각 서류에 대해, 정확히 어디서 발급받고 무엇이 표시되어야 하는지 알려드립니다.",
+      "cols": [
+        "서류",
+        "발급처",
+        "표시되어야 할 내용"
+      ],
+      "rows": [
+        {
+          "doc": "여권",
+          "req": "required",
+          "where": "이미 가지고 있음",
+          "how": "여행 종료 후 6개월 이상 유효하고, 비자용 빈 페이지가 최소 1장 있어야 합니다. 이전 여권이 있으면 함께 지참하세요."
+        },
+        {
+          "doc": "비자 신청 양식",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Korea Visa Portal에서 작성하고 인쇄해 서명하세요. 신청자 1인당 한 장.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "사진 — 35 × 45 mm",
+          "req": "required",
+          "where": "아무 사진관",
+          "how": "흰색 무지 배경, 최근 6개월 이내 촬영, 정면 얼굴, 안경이나 머리 착용물 없음."
+        },
+        {
+          "doc": "왕복 항공권 예약",
+          "req": "required",
+          "where": "항공사 / 여행사",
+          "how": "확정된 예약/일정으로 충분합니다 — 비자가 승인되기 전에는 유료 항공권을 구매하지 마세요."
+        },
+        {
+          "doc": "숙박 증명",
+          "req": "required",
+          "where": "호텔 예약 사이트",
+          "how": "체류 기간을 포함하는 확정된 호텔 예약. 누군가의 집에 머무나요? 초청장 + 호스트의 ID/ARC 사본을 추가하세요."
+        },
+        {
+          "doc": "은행 거래내역서",
+          "req": "required",
+          "where": "거래 은행",
+          "how": "여행 경비를 감당할 수 있음을 보여주는 최근 내역서(은행 직인 포함). 꾸준한 잔액이 갑작스러운 입금보다 훨씬 설득력이 있습니다."
+        },
+        {
+          "doc": "재직 / 신분 증명",
+          "req": "required",
+          "where": "고용주 / 사업체 / 대학",
+          "how": "재직자: 재직/휴가 증명서. 자영업자: 사업자 등록증. 학생: 재학증명서. 은퇴자: 연금 증명."
+        }
+      ],
+      "legend": {
+        "required": "필수",
+        "conditional": "본인에게 해당하는 경우",
+        "recommended": "권장"
+      }
+    },
+    "funds": {
+      "title": "\"은행 잔액이 얼마나 필요한가요?\"",
+      "body": "관광 비자에 대해 공표된 단일 공식 최소 금액은 없습니다. 중요한 것은 여행 전체를 무리 없이 감당할 수 있고 Sri Lanka로 돌아올 이유가 있음을 증명하는 것입니다. 심사관은 눈에 띄는 숫자만이 아니라 안정성을 봅니다.",
+      "tips": [
+        "일관된 잔액을 보여주세요 — 신청 며칠 전에 넣은 큰 입금은 약해 보입니다.",
+        "은행 거래내역서를 직업·사업·학업 증명과 함께 제시하세요. 둘이 합쳐지면 신뢰할 수 있는 이야기가 됩니다.",
+        "후원을 받나요? 후원자의 은행 거래내역서, 서명된 후원서, 그리고 관계를 증명하는 자료를 추가하세요."
+      ]
+    },
+    "pitfalls": {
+      "title": "거절과 지연을 부르는 실수",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "서류 미비",
+          "d": "필수 서류가 하나라도 빠지면 거절될 수 있습니다. 위 체크리스트를 사용하고 제출 전에 다시 확인하세요."
+        },
+        {
+          "icon": "⏳",
+          "t": "빠른 처리를 기대하는 것",
+          "d": "특급 서비스가 없으며 처리에는 최소 약 15 영업일이 걸립니다. 여행 훨씬 전에 신청하세요."
+        },
+        {
+          "icon": "🎫",
+          "t": "너무 이른 항공권 구매",
+          "d": "승인 전에 환불 불가 항공권을 결제하는 것. 서류에는 예약으로 충분합니다."
+        },
+        {
+          "icon": "🌐",
+          "t": "가짜 '비자' 사이트에서 신청하는 것",
+          "d": "한국 비자는 visa.go.kr(양식)와 Colombo의 공식 한국대사관만 처리합니다 — 추가 요금을 받는 유사 사이트는 무시하세요."
+        },
+        {
+          "icon": "🖼️",
+          "t": "부적절한 사진",
+          "d": "잘못된 크기, 색이 있는 배경, 안경 또는 오래된 사진. 새로 찍은 35 × 45 mm 흰색 배경 사진을 사용하세요."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Sri Lanka → 한국 비자 FAQ",
+      "items": [
+        {
+          "q": "Sri Lanka 국민은 한국 비자가 필요한가요?",
+          "a": "네 — 관광의 경우 종이 비자로 발급되는 C-3-9 단기 관광 비자를 미리 신청합니다. Sri Lanka 여권은 무비자 대상이 아니며 K-ETA 목록에도 없습니다."
+        },
+        {
+          "q": "어디서 신청하나요?",
+          "a": "Colombo의 한국대사관(No. 98 Dharmapala Mawatha, Colombo 7)에서 본인이 직접 신청합니다. 양식은 Korea Visa Portal(visa.go.kr)에서 작성합니다."
+        },
+        {
+          "q": "얼마나 걸리나요?",
+          "a": "최소 약 15 영업일이며, 일부 경우 더 오래 걸립니다. 특급 서비스가 없으니 여행 훨씬 전에 신청하세요."
+        },
+        {
+          "q": "비용은 얼마인가요?",
+          "a": "수수료는 대사관의 최신 'Visa Fee Increase' 공지의 환율로 Sri Lanka 루피화로 납부합니다. 정확한 금액은 대사관 사이트에서 확인하세요."
+        },
+        {
+          "q": "특급이나 긴급 옵션이 있나요?",
+          "a": "없습니다. 조기 발급은 외교·관용 여권 소지자만 이용할 수 있습니다."
+        },
+        {
+          "q": "복수 입국 비자를 받을 수 있나요?",
+          "a": "복수 입국 관광 비자는 경우에 따라 가능하지만 자격은 상황에 따라 다릅니다. Sri Lanka에 대한 현재 규정은 대사관에 문의하세요."
+        },
+        {
+          "q": "비자를 받은 후에도 e-Arrival Card가 필요한가요?",
+          "a": "입국 시 e-Arrival Card 요건은 여전히 적용될 수 있습니다. 여행 날짜가 가까워지면 공식 사이트에서 입국 서류 규정을 확인하세요."
+        }
+      ]
+    }
+  },
+  "ru": {
+    "kicker": "Визовый гид · Sri Lanka → Корея",
+    "readingTime": "Чтение 8 мин",
+    "h1": "Виза в Корею из Sri Lanka",
+    "metaTitle": "Виза из Sri Lanka в Корею: нужна ли она? (2026) — Korea Trip Hub",
+    "metaDesc": "Да — владельцам паспорта Sri Lanka нужна виза в Южную Корею (C-3-9 краткосрочная туристическая, бумажная виза, до 90 дней). Подавайте в посольстве Кореи в Colombo: документы, сбор и сроки оформления, шаг за шагом.",
+    "ui": {
+      "visa": "Тип визы",
+      "stay": "Срок пребывания",
+      "entry": "Въезд",
+      "where": "Где получить",
+      "official": "Официальные источники",
+      "required": "Обязательно",
+      "conditional": "Если применимо",
+      "recommended": "Рекомендуется",
+      "confirm": "Сборы и правила могут меняться — уточняйте в источнике",
+      "source": "Источник",
+      "updated": "Обновлено",
+      "tldr": "Кратко"
+    },
+    "verdict": {
+      "headline": "Да — владельцам паспорта Sri Lanka нужна виза.",
+      "sub": "Вы подадите на краткосрочную туристическую визу C-3-9 — бумажную визу (однократный въезд, пребывание до 90 дней) — в посольстве Кореи в Colombo. Въезд по K-ETA/без визы НЕ распространяется на паспорта Sri Lanka.",
+      "type": "C-3-9 краткосрочная туристическая (бумажная виза)",
+      "stay": "До 90 дней",
+      "entry": "Однократный въезд (в некоторых случаях возможен многократный — уточните в посольстве)"
+    },
+    "tldr": [
+      "Заполните форму на visa.go.kr (ЕДИНСТВЕННЫЙ официальный портал), распечатайте и подпишите.",
+      "Подайте лично в посольстве Кореи в Colombo (No. 98 Dharmapala Mawatha, Colombo 7).",
+      "Возьмите паспорт (действителен 6+ месяцев, 1+ чистая страница), фото, брони авиабилетов + отеля и банковскую выписку.",
+      "Оплатите сбор в рупиях по текущему курсу посольства; оформление занимает минимум около 15 рабочих дней (срочной услуги нет)."
+    ],
+    "steps": {
+      "title": "Подача заявления, шаг за шагом",
+      "items": [
+        {
+          "n": 1,
+          "title": "Определите тип визы",
+          "detail": "Для туризма вам нужна краткосрочная визитная (туристическая) виза C-3-9, оформляемая как бумажная виза. Соберите чек-лист ниже, прежде чем начать."
+        },
+        {
+          "n": 2,
+          "title": "Заполните форму на visa.go.kr",
+          "detail": "Зайдите на Korea Visa Portal (visa.go.kr) — единственный официальный сайт. Заполните форму заявления, распечатайте и подпишите. Одна форма на заявителя.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Соберите документы",
+          "detail": "Соберите все документы из чек-листа ниже. Отсутствие любого обязательного документа — распространённая причина отказа."
+        },
+        {
+          "n": 4,
+          "title": "Подайте в посольстве Кореи, Colombo",
+          "detail": "Принесите форму и документы лично в посольство по адресу No. 98 Dharmapala Mawatha, Colombo 7. Часы приёма примерно 09:30–12:00 и 14:30–16:30 — проверьте сайт посольства перед визитом.",
+          "link": "https://overseas.mofa.go.kr/lk-en",
+          "linkLabel": "Посольство Кореи, Sri Lanka"
+        },
+        {
+          "n": 5,
+          "title": "Оплатите сбор (в рупиях)",
+          "detail": "Сбор оплачивается в рупиях Sri Lanka по курсу из действующего уведомления посольства 'Visa Fee Increase'. Уточните сумму на сайте посольства."
+        },
+        {
+          "n": 6,
+          "title": "Дождитесь оформления",
+          "detail": "Оформление занимает минимум около 15 рабочих дней — срочной услуги нет (досрочная выдача только для дипломатических/служебных паспортов). Не бронируйте невозвратные авиабилеты до одобрения."
+        },
+        {
+          "n": 7,
+          "title": "Получите паспорт",
+          "detail": "Заберите его согласно указаниям и сразу же проверьте данные визовой наклейки (имя, даты, тип въезда)."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Чек-лист документов — с указанием, где и как получить каждый",
+      "intro": "Это та часть, которую пропускают все остальные сайты. Для каждого документа здесь указано, где именно вы его получаете и что он должен содержать.",
+      "cols": [
+        "Документ",
+        "Где получить",
+        "Что должно быть указано"
+      ],
+      "rows": [
+        {
+          "doc": "Паспорт",
+          "req": "required",
+          "where": "У вас уже есть",
+          "how": "Действителен 6+ месяцев после поездки, с как минимум одной чистой страницей для визы. Возьмите и старые паспорта, если они есть."
+        },
+        {
+          "doc": "Анкета на визу",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Заполните на Korea Visa Portal, распечатайте и подпишите. По одной на заявителя.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Фото — 35 × 45 mm",
+          "req": "required",
+          "where": "Любое фотоателье",
+          "how": "Однотонный белый фон, снято за последние 6 месяцев, лицо анфас, без очков и головных уборов."
+        },
+        {
+          "doc": "Бронь авиабилетов туда-обратно",
+          "req": "required",
+          "where": "Авиакомпания / турагент",
+          "how": "Подтверждённой брони/маршрута достаточно — НЕ покупайте оплаченный билет до одобрения визы."
+        },
+        {
+          "doc": "Подтверждение проживания",
+          "req": "required",
+          "where": "Сайты бронирования отелей",
+          "how": "Подтверждённые брони отелей на весь срок пребывания. Останавливаетесь у кого-то? Добавьте письмо-приглашение + копию ID/ARC принимающего."
+        },
+        {
+          "doc": "Банковская выписка",
+          "req": "required",
+          "where": "Ваш банк",
+          "how": "Свежая выписка (с печатью банка), показывающая, что вы можете оплатить поездку. Стабильный остаток гораздо убедительнее внезапного пополнения."
+        },
+        {
+          "doc": "Подтверждение занятости / статуса",
+          "req": "required",
+          "where": "Работодатель / бизнес / вуз",
+          "how": "Работающим: справка с работы/об отпуске. Самозанятым: регистрация бизнеса. Студентам: справка о зачислении. Пенсионерам: подтверждение пенсии."
+        }
+      ],
+      "legend": {
+        "required": "Обязательно",
+        "conditional": "Если это относится к вам",
+        "recommended": "Рекомендуется"
+      }
+    },
+    "funds": {
+      "title": "«Сколько денег нужно на счёте?»",
+      "body": "Для туристической визы нет единого официально опубликованного минимума. Важно доказать, что вы можете спокойно оплатить всю поездку и у вас есть причины вернуться в Sri Lanka. Сотрудники смотрят на стабильность, а не только на броскую цифру.",
+      "tips": [
+        "Покажите стабильный остаток — крупное пополнение за несколько дней до подачи выглядит слабо.",
+        "Дополните банковскую выписку подтверждением работы, бизнеса или учёбы; вместе они складываются в убедительную картину.",
+        "Есть спонсор? Добавьте банковскую выписку спонсора, подписанное спонсорское письмо и подтверждение вашего родства."
+      ]
+    },
+    "pitfalls": {
+      "title": "Ошибки, ведущие к отказам и задержкам",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "Неполный комплект",
+          "d": "Отсутствие любого обязательного документа может привести к отказу. Пользуйтесь чек-листом выше и перепроверьте перед подачей."
+        },
+        {
+          "icon": "⏳",
+          "t": "Ожидание быстрого оформления",
+          "d": "Срочной услуги нет; оформление занимает минимум около 15 рабочих дней. Подавайте задолго до поездки."
+        },
+        {
+          "icon": "🎫",
+          "t": "Слишком ранняя покупка билетов",
+          "d": "Оплата невозвратных билетов до одобрения. Для комплекта достаточно брони."
+        },
+        {
+          "icon": "🌐",
+          "t": "Подача на поддельном «визовом» сайте",
+          "d": "Корейские визы оформляют только visa.go.kr (форма) и официальное посольство Кореи в Colombo — игнорируйте сайты-двойники, берущие доплату."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Плохое фото",
+          "d": "Неверный размер, цветной фон, очки или старое фото. Используйте свежее фото 35 × 45 mm на белом фоне."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Виза Sri Lanka → Корея: частые вопросы",
+      "items": [
+        {
+          "q": "Нужна ли гражданам Sri Lanka виза в Корею?",
+          "a": "Да — для туризма вы заранее подаёте на краткосрочную туристическую визу C-3-9, оформляемую как бумажная виза. Паспорта Sri Lanka не безвизовые и не входят в список K-ETA."
+        },
+        {
+          "q": "Где подавать?",
+          "a": "Лично в посольстве Кореи в Colombo (No. 98 Dharmapala Mawatha, Colombo 7). Форму вы заполняете на Korea Visa Portal, visa.go.kr."
+        },
+        {
+          "q": "Сколько это занимает?",
+          "a": "Минимум около 15 рабочих дней, а в некоторых случаях дольше. Срочной услуги нет, поэтому подавайте задолго до поездки."
+        },
+        {
+          "q": "Сколько это стоит?",
+          "a": "Сбор оплачивается в рупиях Sri Lanka по курсу из действующего уведомления посольства 'Visa Fee Increase'. Уточните точную сумму на сайте посольства."
+        },
+        {
+          "q": "Есть ли срочный или экспресс-вариант?",
+          "a": "Нет. Досрочная выдача доступна только владельцам дипломатических и служебных паспортов."
+        },
+        {
+          "q": "Можно ли получить многократную визу?",
+          "a": "Многократные туристические визы возможны в некоторых случаях, но право на них зависит от обстоятельств. Уточните в посольстве действующие правила для Sri Lanka."
+        },
+        {
+          "q": "Нужна ли e-Arrival Card после получения визы?",
+          "a": "Требование e-Arrival Card всё ещё может действовать при въезде. Проверьте правила по въездным документам на официальных сайтах ближе к дате поездки."
+        }
+      ]
+    }
+  },
+  "fr": {
+    "kicker": "Guide des visas · Sri Lanka → Corée",
+    "readingTime": "Lecture de 8 min",
+    "h1": "Visa coréen depuis le Sri Lanka",
+    "metaTitle": "Visa du Sri Lanka vers la Corée : en avez-vous besoin ? (2026) — Korea Trip Hub",
+    "metaDesc": "Oui — les titulaires d'un passeport du Sri Lanka ont besoin d'un visa pour la Corée du Sud (C-3-9 touristique de court séjour, un visa papier, jusqu'à 90 jours). Déposez à l'ambassade de Corée à Colombo : documents, frais et délai de traitement, étape par étape.",
+    "ui": {
+      "visa": "Type de visa",
+      "stay": "Durée de séjour",
+      "entry": "Entrée",
+      "where": "Où l'obtenir",
+      "official": "Sources officielles",
+      "required": "Obligatoire",
+      "conditional": "Le cas échéant",
+      "recommended": "Recommandé",
+      "confirm": "Les frais/règles peuvent changer — vérifiez à la source",
+      "source": "Source",
+      "updated": "Mis à jour",
+      "tldr": "En bref"
+    },
+    "verdict": {
+      "headline": "Oui — les titulaires d'un passeport du Sri Lanka ont besoin d'un visa.",
+      "sub": "Vous demanderez le visa touristique de court séjour C-3-9 — un visa papier (entrée unique, séjour jusqu'à 90 jours) — à l'ambassade de Corée à Colombo. L'entrée avec K-ETA/sans visa NE s'applique PAS aux passeports du Sri Lanka.",
+      "type": "C-3-9 Touristique de court séjour (visa papier)",
+      "stay": "Jusqu'à 90 jours",
+      "entry": "Entrée unique (l'entrée multiple est possible dans certains cas — renseignez-vous à l'ambassade)"
+    },
+    "tldr": [
+      "Remplissez le formulaire sur visa.go.kr (le SEUL portail officiel), imprimez-le et signez-le.",
+      "Déposez en personne à l'ambassade de Corée à Colombo (No. 98 Dharmapala Mawatha, Colombo 7).",
+      "Apportez le passeport (valable 6+ mois, 1+ page vierge), une photo, les réservations de vol + hôtel et un relevé bancaire.",
+      "Payez les frais en roupies au taux en vigueur de l'ambassade ; le traitement prend au minimum environ 15 jours ouvrés (pas de service express)."
+    ],
+    "steps": {
+      "title": "La demande, étape par étape",
+      "items": [
+        {
+          "n": 1,
+          "title": "Confirmez le type de visa",
+          "detail": "Pour le tourisme, il vous faut le visa de visite de court séjour (touristique) C-3-9, délivré sous forme de visa papier. Rassemblez la liste ci-dessous avant de commencer."
+        },
+        {
+          "n": 2,
+          "title": "Remplissez le formulaire sur visa.go.kr",
+          "detail": "Rendez-vous sur le Korea Visa Portal (visa.go.kr) — le seul site officiel. Complétez le formulaire de demande, imprimez-le et signez-le. Un formulaire par demandeur.",
+          "link": "https://www.visa.go.kr",
+          "linkLabel": "Korea Visa Portal"
+        },
+        {
+          "n": 3,
+          "title": "Rassemblez vos documents",
+          "detail": "Réunissez chaque document de la liste ci-dessous. L'absence de tout document obligatoire est une cause fréquente de refus."
+        },
+        {
+          "n": 4,
+          "title": "Déposez à l'ambassade de Corée, Colombo",
+          "detail": "Apportez votre formulaire et vos documents en personne à l'ambassade au No. 98 Dharmapala Mawatha, Colombo 7. Les heures d'ouverture au public sont d'environ 09:30–12:00 et 14:30–16:30 — vérifiez le site de l'ambassade avant de vous déplacer.",
+          "link": "https://overseas.mofa.go.kr/lk-en",
+          "linkLabel": "Ambassade de Corée, Sri Lanka"
+        },
+        {
+          "n": 5,
+          "title": "Payez les frais (en roupies)",
+          "detail": "Les frais se paient en roupies srilankaises au taux de l'avis 'Visa Fee Increase' en vigueur de l'ambassade. Confirmez le montant sur le site de l'ambassade."
+        },
+        {
+          "n": 6,
+          "title": "Attendez le traitement",
+          "detail": "Le traitement prend au minimum environ 15 jours ouvrés — il n'y a pas de service express (la délivrance anticipée ne concerne que les passeports diplomatiques/officiels). Ne réservez pas de vols non remboursables avant d'être approuvé."
+        },
+        {
+          "n": 7,
+          "title": "Récupérez votre passeport",
+          "detail": "Récupérez-le comme indiqué et vérifiez les mentions de la vignette de visa (nom, dates, type d'entrée) dès réception."
+        }
+      ]
+    },
+    "documents": {
+      "title": "Liste des documents — avec où et comment obtenir chacun",
+      "intro": "C'est la partie que tous les autres sites passent sous silence. Pour chaque document, voici exactement où l'obtenir et ce qu'il doit indiquer.",
+      "cols": [
+        "Document",
+        "Où l'obtenir",
+        "Ce qu'il doit indiquer"
+      ],
+      "rows": [
+        {
+          "doc": "Passeport",
+          "req": "required",
+          "where": "Vous l'avez déjà",
+          "how": "Valable 6+ mois après votre voyage, avec au moins une page vierge pour le visa. Apportez aussi les anciens passeports si vous en avez."
+        },
+        {
+          "doc": "Formulaire de demande de visa",
+          "req": "required",
+          "where": "visa.go.kr",
+          "how": "Complétez-le sur le Korea Visa Portal, imprimez-le et signez-le. Un par demandeur.",
+          "link": "https://www.visa.go.kr"
+        },
+        {
+          "doc": "Photo — 35 × 45 mm",
+          "req": "required",
+          "where": "N'importe quel studio photo",
+          "how": "Fond blanc uni, prise dans les 6 derniers mois, visage entier, sans lunettes ni couvre-chef."
+        },
+        {
+          "doc": "Réservation de vol aller-retour",
+          "req": "required",
+          "where": "Compagnie aérienne / agence de voyages",
+          "how": "Une réservation/un itinéraire confirmé suffit — N'achetez PAS de billet payé avant l'approbation du visa."
+        },
+        {
+          "doc": "Justificatif d'hébergement",
+          "req": "required",
+          "where": "Sites de réservation d'hôtels",
+          "how": "Réservations d'hôtel confirmées couvrant votre séjour. Vous logez chez quelqu'un ? Ajoutez une lettre d'invitation + une copie de la pièce d'identité/ARC de l'hôte."
+        },
+        {
+          "doc": "Relevé bancaire",
+          "req": "required",
+          "where": "Votre banque",
+          "how": "Un relevé récent (avec le cachet de la banque) montrant que vous pouvez financer le voyage. Un solde stable est bien plus convaincant qu'un dépôt soudain."
+        },
+        {
+          "doc": "Justificatif d'emploi / de statut",
+          "req": "required",
+          "where": "Employeur / entreprise / université",
+          "how": "Salarié : attestation d'emploi/de congé. Indépendant : immatriculation de l'entreprise. Étudiant : certificat de scolarité. Retraité : justificatif de pension."
+        }
+      ],
+      "legend": {
+        "required": "Obligatoire",
+        "conditional": "Si cela vous concerne",
+        "recommended": "Recommandé"
+      }
+    },
+    "funds": {
+      "title": "« De combien ai-je besoin sur mon compte ? »",
+      "body": "Il n'existe pas de montant minimum officiel unique publié pour le visa touristique. L'important est de prouver que vous pouvez financer confortablement tout le voyage et que vous avez des raisons de rentrer au Sri Lanka. Les agents examinent la stabilité, pas seulement un chiffre accrocheur.",
+      "tips": [
+        "Montrez un solde constant — un gros dépôt effectué quelques jours avant la demande fait mauvaise impression.",
+        "Associez le relevé bancaire à un justificatif de votre emploi, de votre entreprise ou de vos études ; ensemble, ils racontent une histoire crédible.",
+        "Vous êtes parrainé ? Ajoutez le relevé bancaire du garant, une lettre de prise en charge signée et une preuve de votre lien de parenté."
+      ]
+    },
+    "pitfalls": {
+      "title": "Erreurs qui entraînent refus et retards",
+      "items": [
+        {
+          "icon": "🧾",
+          "t": "Un dossier incomplet",
+          "d": "L'absence de tout document obligatoire peut entraîner un refus. Utilisez la liste ci-dessus et vérifiez deux fois avant de déposer."
+        },
+        {
+          "icon": "⏳",
+          "t": "S'attendre à un traitement rapide",
+          "d": "Il n'y a pas de service express ; le traitement prend au minimum environ 15 jours ouvrés. Déposez bien avant votre voyage."
+        },
+        {
+          "icon": "🎫",
+          "t": "Acheter les vols trop tôt",
+          "d": "Payer des billets non remboursables avant l'approbation. Une réservation suffit pour le dossier."
+        },
+        {
+          "icon": "🌐",
+          "t": "Faire la demande sur un faux site « de visa »",
+          "d": "Seuls visa.go.kr (formulaire) et l'ambassade de Corée officielle à Colombo traitent les visas coréens — ignorez les sites imitations qui facturent un supplément."
+        },
+        {
+          "icon": "🖼️",
+          "t": "Mauvaise photo",
+          "d": "Mauvaise taille, fond coloré, lunettes ou photo ancienne. Utilisez une photo récente de 35 × 45 mm sur fond blanc."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ visa Sri Lanka → Corée",
+      "items": [
+        {
+          "q": "Les citoyens du Sri Lanka ont-ils besoin d'un visa pour la Corée ?",
+          "a": "Oui — pour le tourisme, vous demandez à l'avance le visa touristique de court séjour C-3-9, délivré sous forme de visa papier. Les passeports du Sri Lanka ne sont pas exemptés de visa et ne figurent pas sur la liste K-ETA."
+        },
+        {
+          "q": "Où déposer la demande ?",
+          "a": "En personne à l'ambassade de Corée à Colombo (No. 98 Dharmapala Mawatha, Colombo 7). Vous remplissez le formulaire sur le Korea Visa Portal, visa.go.kr."
+        },
+        {
+          "q": "Combien de temps cela prend-il ?",
+          "a": "Au minimum environ 15 jours ouvrés, et davantage dans certains cas. Il n'y a pas de service express, alors déposez bien avant votre voyage."
+        },
+        {
+          "q": "Combien cela coûte-t-il ?",
+          "a": "Les frais se paient en roupies srilankaises au taux de l'avis 'Visa Fee Increase' en vigueur de l'ambassade. Confirmez le montant exact sur le site de l'ambassade."
+        },
+        {
+          "q": "Existe-t-il une option express ou urgente ?",
+          "a": "Non. La délivrance anticipée n'est possible que pour les titulaires de passeports diplomatiques et officiels."
+        },
+        {
+          "q": "Puis-je obtenir un visa à entrées multiples ?",
+          "a": "Les visas touristiques à entrées multiples sont possibles dans certains cas, mais l'admissibilité varie. Renseignez-vous à l'ambassade sur les règles actuelles pour le Sri Lanka."
+        },
+        {
+          "q": "Ai-je encore besoin de l'e-Arrival Card après avoir obtenu le visa ?",
+          "a": "L'exigence de l'e-Arrival Card peut toujours s'appliquer à l'entrée. Vérifiez les règles sur les documents d'entrée sur les sites officiels à l'approche de votre date de voyage."
+        }
+      ]
+    }
+  }
 }
