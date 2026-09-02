@@ -127,6 +127,30 @@
       "notes": "For tourist/visitor visas the embassy accepts documents only through accredited travel agencies listed on its official site; you cannot submit directly or online. Employment, some student, and government-program visas are submitted differently. Fees and processing times are not published in an accessible official source — confirm both with an accredited agency or the embassy before you plan."
     },
     {
+      "id": "visa-srilanka-c39",
+      "tier": "VOLATILE",
+      "claim": "Sri Lankan citizens need a C-3-9 short-term tourist visa for Korea (a paper visa, stay up to 90 days), applied for at the Korean Embassy in Colombo. Processing is a minimum of about 15 working days; the fee is paid in rupees at the embassy's current rate.",
+      "value": { "visa": "C-3-9 short-term tourist (paper visa)", "stay": "up to 90 days", "apply_at": "Korean Embassy, Colombo (No. 98 Dharmapala Mawatha, Colombo 7)", "processing": "minimum about 15 working days", "fee": "paid in LKR at the embassy's current rate" },
+      "source": "https://overseas.mofa.go.kr/lk-en/brd/m_2318/view.do?seq=761383&page=2",
+      "source_name": "Embassy of the Republic of Korea in Sri Lanka (MOFA)",
+      "verified": "2026-08-31",
+      "recheck_after": "2026-12-01",
+      "status": "VERIFIED",
+      "notes": "This is a paper visa, not an e-visa. The fee is paid in rupees at the rate in the embassy's current 'Visa Fee Increase' notice — confirm the amount there. There is no express service (early issuance is only for diplomatic/official passports). Passport must be valid 6+ months with at least one blank page. Missing any required document can cause a rejection."
+    },
+    {
+      "id": "visa-pakistan-c3",
+      "tier": "VOLATILE",
+      "claim": "Pakistani citizens need a C-3 short-term tourist visa for Korea (stay up to 90 days), submitted at the Korean Embassy in Islamabad. Some applicants are called for an interview, and tourist-visa extensions are generally not granted.",
+      "value": { "visa": "C-3 short-term tourist", "stay": "up to 90 days", "apply_at": "Korean Embassy, Islamabad", "interview": "possible", "extensions": "generally not granted" },
+      "source": "https://overseas.mofa.go.kr/pk-en/wpge/m_3159/contents.do",
+      "source_name": "Embassy of the Republic of Korea in Pakistan (MOFA)",
+      "verified": "2026-08-31",
+      "recheck_after": "2026-12-01",
+      "status": "VERIFIED",
+      "notes": "Applications are submitted at the Embassy in Islamabad; an interview may be requested to verify your file. Tourist-visa validity is usually 90 days and extensions are generally not granted. Fees and processing times are not published in an accessible official source — confirm both at the embassy before you plan."
+    },
+    {
       "id": "emergency-police",
       "tier": "STABLE",
       "claim": "Korea's emergency police number is 112.",
