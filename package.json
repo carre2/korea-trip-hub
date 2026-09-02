@@ -13,7 +13,8 @@
     "verify:seo": "node scripts/verify-seo.mjs",
     "check:facts": "node scripts/check-facts.mjs",
     "review:export": "node scripts/export-review.mjs",
-    "prebuild": "node scripts/verify-i18n.mjs && node scripts/verify-content-i18n.mjs && node scripts/check-facts.mjs",
+    "gen:visafaq": "node scripts/gen-visa-faq.mjs",
+    "prebuild": "node scripts/gen-visa-faq.mjs && node scripts/verify-i18n.mjs && node scripts/verify-content-i18n.mjs && node scripts/check-facts.mjs",
     "postbuild": "node scripts/verify-seo.mjs",
     "indexnow": "node scripts/indexnow.mjs"
   },
