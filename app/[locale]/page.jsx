@@ -358,6 +358,7 @@ export default function Home({ params }) {
           </div>
           <div style={{ marginTop: 14 }}>
             <a className="btn ghost" href={`/${locale}/plan/help/`}>🆘 {m.help.fullGuide || "Full help & emergency guide"} →</a>
+            <a className="btn ghost" href={`/${locale}/ask-korea/?ref=website`} style={{ marginInlineStart: 8 }}>💬 {m.askKorea.title} →</a>
           </div>
         </div>
       </section>
