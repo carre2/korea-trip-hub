@@ -1038,4 +1038,20 @@
   .ask-secondary{cursor:pointer;font:inherit}
   .ask-status{margin:12px 0 0;color:var(--jade);font-size:13px;font-weight:700}
   .ask-fineprint{margin:16px 0 0;color:var(--faint);font-size:12px;line-height:1.55}
+  /* Answered questions (visa & K-ETA FAQ, per-locale) */
+  .ask-answers{margin:0 0 24px}
+  .ask-answers>h2{font-size:22px;margin:0 0 6px;color:var(--text)}
+  .ask-answers-lead{margin:0 0 16px;color:var(--muted);font-size:14.5px;line-height:1.65;max-width:720px}
+  .ask-faq{display:flex;flex-direction:column;gap:8px}
+  .ask-faq-item{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-sm);overflow:hidden}
+  .ask-faq-item[open]{border-color:var(--primary)}
+  .ask-faq-item>summary{list-style:none;cursor:pointer;padding:14px 16px;font-size:14.5px;font-weight:700;color:var(--text);display:flex;justify-content:space-between;gap:12px;align-items:center}
+  .ask-faq-item>summary::-webkit-details-marker{display:none}
+  .ask-faq-item>summary::after{content:"+";flex:0 0 auto;font-size:19px;font-weight:700;color:var(--primary);line-height:1}
+  .ask-faq-item[open]>summary::after{content:"–"}
+  .ask-faq-item>summary:hover{background:var(--primary-soft)}
+  .ask-faq-a{padding:0 16px 15px;color:var(--muted);font-size:14px;line-height:1.7}
+  .ask-faq-a a{color:var(--primary);font-weight:600}
+  .ask-answers-more{display:inline-block;margin:14px 0 0;color:var(--primary);font-weight:700;font-size:14px;text-decoration:none}
+  .ask-answers-more:hover{text-decoration:underline}
   @media (max-width:700px){.ask-steps{grid-template-columns:1fr}.ask-form{padding:19px}.ask-actions .btn{width:100%;text-align:center}}
