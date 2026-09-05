@@ -256,7 +256,10 @@ export default function Home({ params }) {
             <BookCTA partner="klook" icon="📲" label={m.home.dealEsim} sub={m.home.dealEsimSub} url={klookSearch("Korea eSIM")} />
             <BookCTA partner="klook" icon="🚄" label={m.home.dealKtx} sub={m.home.dealKtxSub} url={klookSearch("Korea KTX train ticket")} />
             <BookCTA partner="klook" icon="🎢" label={m.home.dealParks} sub={m.home.dealParksSub} url={klookSearch("Korea theme park attraction ticket")} />
-            <BookCTA partner="klook" icon="👘" label={m.home.dealHanbok} sub={m.home.dealHanbokSub} url={klookSearch("Korea hanbok tour experience")} disclose />
+            <BookCTA partner="klook" icon="👘" label={m.home.dealHanbok} sub={m.home.dealHanbokSub} url={klookSearch("Korea hanbok tour experience")} />
+            <div className="deal-wide">
+              <BookCTA partner="klook" icon="🏨" label={m.home.dealHotel} sub={m.home.dealHotelSub} url={klookSearch("Korea hotels")} disclose />
+            </div>
           </div>
         </div>
       </section>
