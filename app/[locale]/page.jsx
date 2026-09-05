@@ -256,9 +256,16 @@ export default function Home({ params }) {
             <BookCTA partner="klook" icon="📲" label={m.home.dealEsim} sub={m.home.dealEsimSub} url={klookSearch("Korea eSIM")} />
             <BookCTA partner="klook" icon="🚄" label={m.home.dealKtx} sub={m.home.dealKtxSub} url={klookSearch("Korea KTX train ticket")} />
             <BookCTA partner="klook" icon="🎢" label={m.home.dealParks} sub={m.home.dealParksSub} url={klookSearch("Korea theme park attraction ticket")} />
-            <BookCTA partner="klook" icon="👘" label={m.home.dealHanbok} sub={m.home.dealHanbokSub} url={klookSearch("Korea hanbok tour experience")} />
+            <BookCTA partner="klook" icon="👘" label={m.home.dealHanbok} sub={m.home.dealHanbokSub} url={klookSearch("Korea hanbok tour experience")} disclose />
+            {/* Hotels: internal band into our /stay/ guide (Stay22 map — active commission, keeps visitors on-site). */}
             <div className="deal-wide">
-              <BookCTA partner="klook" icon="🏨" label={m.home.dealHotel} sub={m.home.dealHotelSub} url={klookSearch("Korea hotels")} disclose />
+              <div className="bookcta">
+                <a className="bookcta-btn" href={`/${locale}/stay/`}>
+                  <span className="bookcta-ic">🏨</span>
+                  <span className="bookcta-txt"><b>{m.home.dealHotel}</b><em>{m.home.dealHotelSub}</em></span>
+                  <span className="bookcta-go">{m.home.dealHotelGo} →</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
