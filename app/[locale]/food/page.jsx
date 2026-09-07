@@ -45,7 +45,7 @@ export function generateMetadata({ params }) {
   });
 }
 
-function Card({ item, tagBg, tagColor }) {
+function Card({ item, tagBg, tagColor, locale }) {
   const im = foodImages[item.key];
   return (
     <article className="card">
@@ -61,6 +61,9 @@ function Card({ item, tagBg, tagColor }) {
         <h3>{item.n}</h3>
         <p>{item.d}</p>
         {item.mapq && <NearbyEats q={item.mapq} label={item.n} />}
+        {item.city && locale && (
+          <a className="food-city-link" href={`/${locale}/stay/${item.city}/`}>🏨 {item.tag} →</a>
+        )}
       </div>
     </article>
   );
@@ -73,6 +76,7 @@ export default function Food({ params }) {
   const ov = foodI18n[locale] || {};
   const eat = merge(food.eat, ov.eat);
   const make = merge(food.make, ov.make);
+  const regional = merge(food.regional || [], ov.regional);
   const tips = (ov.tips && ov.tips.length) ? ov.tips : food.tips;
 
   return (
@@ -117,6 +121,18 @@ export default function Food({ params }) {
           url={klookSearch("Korea cooking class food tour")}
           disclose
         />
+
+        {regional.length > 0 && (
+          <>
+            <h3 style={{ fontSize: 18, fontWeight: 800, margin: "30px 0 6px" }}>🗺️ {t.regional || "Regional specialties — worth the trip"}</h3>
+            <p style={{ color: "var(--muted)", margin: "0 0 14px", fontSize: 14 }}>{t.regionalSub || "Every region has its own signature dish. Tap a city to see where to stay nearby."}</p>
+            <div className="grid g4">
+              {regional.map((i) => (
+                <Card key={i.n} item={i} tagBg="var(--jade-soft)" tagColor="var(--jade)" locale={locale} />
+              ))}
+            </div>
+          </>
+        )}
 
         <h2 style={{ fontSize: 20, fontWeight: 800, margin: "24px 0 10px" }}>{t.tips}</h2>
         <ul className="tips">{tips.map((tip, i) => <li key={i}>{tip}</li>)}</ul>

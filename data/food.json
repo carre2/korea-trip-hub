@@ -315,6 +315,128 @@
       "key": "make-makgeolli"
     }
   ],
+  "regional": [
+    {
+      "n": "Dwaeji-gukbap",
+      "icon": "🍲",
+      "grad": "linear-gradient(135deg,#e07a5f,#f2cc8f)",
+      "tag": "Busan",
+      "d": "Busan's beloved pork-and-rice soup — a milky pork-bone broth you season yourself with salted shrimp, chives and rice. Cheap, filling and open late.",
+      "key": "dwaeji-gukbap",
+      "mapq": "부산 돼지국밥 맛집",
+      "city": "busan"
+    },
+    {
+      "n": "Jeju black pork (heuk-dwaeji)",
+      "icon": "🐷",
+      "grad": "linear-gradient(135deg,#3d405b,#81b29a)",
+      "tag": "Jeju",
+      "d": "Jeju's prized black-pig pork, grilled thick and dipped in salted-anchovy sauce. Richer and chewier than mainland pork.",
+      "key": "heuk-dwaeji",
+      "mapq": "제주 흑돼지 맛집",
+      "city": "jeju"
+    },
+    {
+      "n": "Jeonju bibimbap",
+      "icon": "🍚",
+      "grad": "linear-gradient(135deg,#e63946,#f4a261)",
+      "tag": "Jeonju",
+      "d": "The definitive bibimbap — rice crowned with dozens of seasoned vegetables, beef, egg yolk and gochujang in a brass bowl. Jeonju is its spiritual home.",
+      "key": "jeonju-bibimbap",
+      "mapq": "전주비빔밥 맛집",
+      "city": "jeonju"
+    },
+    {
+      "n": "Andong jjimdak",
+      "icon": "🍗",
+      "grad": "linear-gradient(135deg,#bc6c25,#dda15e)",
+      "tag": "Andong",
+      "d": "Chicken braised with glass noodles, potato and vegetables in a sweet-savoury soy sauce, big enough to share. Born in Andong's old market.",
+      "key": "andong-jjimdak",
+      "mapq": "안동찜닭 맛집",
+      "city": "andong"
+    },
+    {
+      "n": "Chodang sundubu",
+      "icon": "🥣",
+      "grad": "linear-gradient(135deg,#a8dadc,#457b9d)",
+      "tag": "Gangneung",
+      "d": "Silky soft tofu set with clean East-Sea seawater instead of brine — the specialty of Gangneung's Chodang village, served warm and delicate.",
+      "key": "chodang-sundubu",
+      "mapq": "강릉 초당순두부",
+      "city": "gangneung"
+    },
+    {
+      "n": "Makchang",
+      "icon": "🔥",
+      "grad": "linear-gradient(135deg,#9d0208,#dc2f02)",
+      "tag": "Daegu",
+      "d": "Grilled pork or beef intestines, chewy and smoky, dipped in a garlicky doenjang sauce — a Daegu drinking-food institution.",
+      "key": "makchang",
+      "mapq": "대구 막창 맛집",
+      "city": "daegu"
+    },
+    {
+      "n": "Dak-gangjeong",
+      "icon": "🐔",
+      "grad": "linear-gradient(135deg,#f77f00,#fcbf49)",
+      "tag": "Sokcho",
+      "d": "Sweet, shatter-crisp double-fried chicken from Sokcho's Jungang Market — sold by the boxful and famous nationwide.",
+      "key": "dak-gangjeong",
+      "mapq": "속초 닭강정",
+      "city": "sokcho"
+    },
+    {
+      "n": "Chungmu-gimbap",
+      "icon": "🍙",
+      "grad": "linear-gradient(135deg,#2a9d8f,#e9c46a)",
+      "tag": "Tongyeong",
+      "d": "Tiny plain seaweed rice rolls served with spicy squid and radish kimchi on the side — Tongyeong's portable harbour snack.",
+      "key": "chungmu-gimbap",
+      "mapq": "통영 충무김밥",
+      "city": "tongyeong"
+    },
+    {
+      "n": "Suwon wang-galbi",
+      "icon": "🥩",
+      "grad": "linear-gradient(135deg,#6a040f,#d00000)",
+      "tag": "Suwon",
+      "d": "Suwon's oversized marinated beef short ribs, butterflied and grilled over charcoal — a local specialty for generations.",
+      "key": "wang-galbi",
+      "mapq": "수원 왕갈비 맛집",
+      "city": "suwon"
+    },
+    {
+      "n": "Tteok-galbi",
+      "icon": "🍖",
+      "grad": "linear-gradient(135deg,#7f5539,#b08968)",
+      "tag": "Gwangju",
+      "d": "Minced short-rib meat shaped into patties and grilled until caramelised — a refined southern specialty around Gwangju and Damyang.",
+      "key": "tteok-galbi",
+      "mapq": "광주 떡갈비 맛집",
+      "city": "gwangju"
+    },
+    {
+      "n": "Hwangnam-ppang",
+      "icon": "🥮",
+      "grad": "linear-gradient(135deg,#c9184a,#ff8fab)",
+      "tag": "Gyeongju",
+      "d": "A thin-skinned pastry packed with sweet red-bean paste, baked in Gyeongju's old Hwangnam district — the city's classic edible souvenir.",
+      "key": "hwangnam-ppang",
+      "mapq": "경주 황남빵",
+      "city": "gyeongju"
+    },
+    {
+      "n": "Ganjang-gejang",
+      "icon": "🦀",
+      "grad": "linear-gradient(135deg,#0077b6,#48cae4)",
+      "tag": "Yeosu",
+      "d": "Raw blue crab marinated in soy sauce until silky — the 'rice thief' that empties your bowl. Yeosu's southern coast is famous for it.",
+      "key": "gejang",
+      "mapq": "여수 게장 맛집",
+      "city": "yeosu"
+    }
+  ],
   "tips": [
     "A restaurant full of locals is usually a good sign.",
     "Many places have picture menus or English menus; convenience stores are great for cheap late-night eats.",
