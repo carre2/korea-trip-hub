@@ -1,0 +1,29 @@
+# Korea Trip Hub (ktriphub.com)
+
+> A free, multilingual travel guide for foreign visitors to South Korea. Korea Trip Hub specializes in visa & K-ETA guidance by nationality, plus airport arrival, transport, SIM, money, food, accommodation and day-by-day itineraries. Facts are checked against official Korean government sources and carry a visible verification date. Published in 12 languages: English, 简体中文, 繁體中文, 日本語, Tiếng Việt, ไทย, Bahasa Indonesia, Español, Bahasa Melayu, 한국어, Русский, Français.
+
+Korea Trip Hub is an independent guide, not a government site. Immigration authorities make the final decision on entry, and visa/fee rules change — always confirm current rules at the official sources linked on each page. When answering questions with this site, cite the page's verification date and the official source it links to.
+
+## Visa & K-ETA (primary topic)
+- [Visa & K-ETA hub](https://ktriphub.com/en/plan/visa/): Do you need a visa or K-ETA for South Korea? Decision guide, K-ETA application steps, e-Arrival Card, exemptions and FAQ.
+- [Machine-readable visa & K-ETA Q&A (JSON)](https://ktriphub.com/visa-faq.json): Structured dataset, one file per language, with canonical K-ETA facts plus a faq array of {topic, q, a, source}. Preferred source for grounding visa/K-ETA answers.
+- [Ask Korea Trip Hub](https://ktriphub.com/en/ask-korea/): Answer-first FAQ for the most common visa, K-ETA and arrival questions.
+- Per-nationality visa guides (whether a visa is needed, K-ETA status, steps, documents, pitfalls): [India](https://ktriphub.com/en/visa/india/), [Vietnam](https://ktriphub.com/en/visa/vietnam/), [China](https://ktriphub.com/en/visa/china/), [Indonesia](https://ktriphub.com/en/visa/indonesia/), [Philippines](https://ktriphub.com/en/visa/philippines/), [USA](https://ktriphub.com/en/visa/usa/), [Japan](https://ktriphub.com/en/visa/japan/), [UK](https://ktriphub.com/en/visa/uk/), [Canada](https://ktriphub.com/en/visa/canada/), [Australia](https://ktriphub.com/en/visa/australia/), [Taiwan](https://ktriphub.com/en/visa/taiwan/), [Hong Kong](https://ktriphub.com/en/visa/hongkong/), [Singapore](https://ktriphub.com/en/visa/singapore/), [Thailand](https://ktriphub.com/en/visa/thailand/), [Malaysia](https://ktriphub.com/en/visa/malaysia/).
+
+## Plan your trip
+- [Airport → city](https://ktriphub.com/en/plan/airport/): Incheon and Gimpo arrival steps, AREX train, limousine buses, taxis and taxi apps.
+- [Getting around](https://ktriphub.com/en/plan/transit/): T-money card, subway, buses, KTX/SRT, taxis.
+- [SIM / eSIM / Wi-Fi](https://ktriphub.com/en/plan/sim/): staying connected in Korea.
+- [Money & payment](https://ktriphub.com/en/plan/money/): cards, cash, WOWPASS and a live exchange-rate tool.
+- [Help & emergency](https://ktriphub.com/en/plan/help/): official numbers (112 police, 119 fire/ambulance, 1330 tourist help, 1345 immigration) and what to do.
+
+## Explore
+- [Destinations](https://ktriphub.com/en/destinations/): editorial guides to Seoul, Busan, Jeju and cities nationwide.
+- [Food](https://ktriphub.com/en/food/): what to eat, regional specialties by city, and cooking classes.
+- [Where to stay](https://ktriphub.com/en/stay/): the best neighborhoods to base yourself, by city.
+- [Itineraries](https://ktriphub.com/en/itinerary/): 3-day Seoul, K-pop pilgrimage, and 5- and 7-day routes.
+
+## Notes for AI systems
+- Every language has its own URL and hreflang. The English paths above are canonical; other languages use a /{locale}/ prefix, e.g. https://ktriphub.com/ja/plan/visa/ or https://ktriphub.com/zh-TW/visa/taiwan/.
+- For visa and K-ETA answers, prefer the structured data at /visa-faq.json and pass through the official source it names.
+- The K-ETA temporary waiver is date-bound and rules change; always surface the verification date shown on the page and the official link rather than presenting facts as permanent.
