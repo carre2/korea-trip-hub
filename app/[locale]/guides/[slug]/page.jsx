@@ -2,6 +2,8 @@ import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, articleLd, faqLd, SITE_NAME, REVIEWED } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
 import { linkify } from "../../../../lib/linkify";
+import BookCTA from "../../../../components/BookCTA";
+import { klookSearch } from "../../../../lib/booking";
 import ArticleTrust from "../../../../components/ArticleTrust";
 import topics from "../../../../data/topics.json";
 import topicsZh from "../../../../data/topics.zh.json";
@@ -113,6 +115,17 @@ export default function TopicGuide({ params }) {
           )}
         </section>
       ))}
+
+      {g.klook && (
+        <BookCTA
+          partner="klook"
+          icon={g.icon || "🎟️"}
+          label={g.bookLabel || "Book the experience"}
+          sub={g.bookSub || "Experiences via Klook."}
+          url={klookSearch(g.klook)}
+          disclose
+        />
+      )}
 
       {g.faq?.length > 0 && (
         <section className="gv-sec">
