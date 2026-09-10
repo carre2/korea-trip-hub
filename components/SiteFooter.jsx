@@ -23,6 +23,8 @@ export default function SiteFooter({ locale }) {
           ))}
         </nav>
         <p className="sitefoot-family">
+          <a href={`/${locale}/guides/`}>🍁 {m.guides?.title || "Korea travel guides"} →</a>
+          {"  ·  "}
           <a href="https://kpophub.kr/en/calendar/" rel="noopener">
             🎤 {m.nav?.kculture || "K-Culture"} — kpophub.kr →
           </a>
