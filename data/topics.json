@@ -1,6 +1,12 @@
 {
   "_README": "Seasonal & topic travel guides (/guides/<slug>). Answer-first + FAQ for GEO. Fact-safe: seasonal timing is given as month-range windows with a 'check the current-year forecast' caveat — no invented exact dates. Spots link to /destinations by slug.",
-  "order": ["autumn-foliage", "cherry-blossom"],
+  "order": [
+    "autumn-foliage",
+    "cherry-blossom",
+    "winter-in-korea",
+    "korea-etiquette",
+    "korea-safety"
+  ],
   "items": {
     "autumn-foliage": {
       "icon": "🍁",
@@ -32,12 +38,30 @@
             "From dramatic mountain ridges to city palaces, here are standout foliage spots — tap any to see details and how to get there."
           ],
           "spots": [
-            { "name": "Seoraksan National Park", "slug": "seoraksan" },
-            { "name": "Bukhansan", "slug": "bukhansan" },
-            { "name": "Namsan / N Seoul Tower", "slug": "n-seoul-tower" },
-            { "name": "Changdeokgung", "slug": "changdeokgung" },
-            { "name": "Gyeongbokgung", "slug": "gyeongbokgung" },
-            { "name": "Seoul Forest", "slug": "seoul-forest" }
+            {
+              "name": "Seoraksan National Park",
+              "slug": "seoraksan"
+            },
+            {
+              "name": "Bukhansan",
+              "slug": "bukhansan"
+            },
+            {
+              "name": "Namsan / N Seoul Tower",
+              "slug": "n-seoul-tower"
+            },
+            {
+              "name": "Changdeokgung",
+              "slug": "changdeokgung"
+            },
+            {
+              "name": "Gyeongbokgung",
+              "slug": "gyeongbokgung"
+            },
+            {
+              "name": "Seoul Forest",
+              "slug": "seoul-forest"
+            }
           ]
         },
         {
@@ -69,8 +93,14 @@
         }
       ],
       "official": [
-        { "name": "Korea Meteorological Administration", "url": "https://web.kma.go.kr/eng/" },
-        { "name": "VisitKorea", "url": "https://english.visitkorea.or.kr" }
+        {
+          "name": "Korea Meteorological Administration",
+          "url": "https://web.kma.go.kr/eng/"
+        },
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
       ]
     },
     "cherry-blossom": {
@@ -103,12 +133,30 @@
             "From famous festivals to quiet riversides, here are standout spots — tap any to see details and directions. Jinhae, near Busan, hosts the country's most famous blossom festival if the dates line up."
           ],
           "spots": [
-            { "name": "Banpo Hangang Park (Seoul)", "slug": "banpo-hangang" },
-            { "name": "Seoul Forest", "slug": "seoul-forest" },
-            { "name": "Changdeokgung", "slug": "changdeokgung" },
-            { "name": "Gwangalli (Busan)", "slug": "gwangalli" },
-            { "name": "Daereungwon (Gyeongju)", "slug": "daereungwon" },
-            { "name": "Wolji Pond (Gyeongju)", "slug": "wolji" }
+            {
+              "name": "Banpo Hangang Park (Seoul)",
+              "slug": "banpo-hangang"
+            },
+            {
+              "name": "Seoul Forest",
+              "slug": "seoul-forest"
+            },
+            {
+              "name": "Changdeokgung",
+              "slug": "changdeokgung"
+            },
+            {
+              "name": "Gwangalli (Busan)",
+              "slug": "gwangalli"
+            },
+            {
+              "name": "Daereungwon (Gyeongju)",
+              "slug": "daereungwon"
+            },
+            {
+              "name": "Wolji Pond (Gyeongju)",
+              "slug": "wolji"
+            }
           ]
         },
         {
@@ -140,8 +188,245 @@
         }
       ],
       "official": [
-        { "name": "VisitKorea", "url": "https://english.visitkorea.or.kr" },
-        { "name": "Korea Meteorological Administration", "url": "https://web.kma.go.kr/eng/" }
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        },
+        {
+          "name": "Korea Meteorological Administration",
+          "url": "https://web.kma.go.kr/eng/"
+        }
+      ]
+    },
+    "winter-in-korea": {
+      "icon": "❄️",
+      "color": "#3A6EA5",
+      "h1": "Korea in Winter: What to Expect, Pack & Do",
+      "metaTitle": "Korea in Winter: Weather, Packing & Things to Do — Korea Trip Hub",
+      "metaDesc": "What is Korea like in winter? Cold, dry and often sunny, with snow, ski slopes, hot-spring towns and glittering light festivals — here's when it's coldest, what to pack and what to do.",
+      "kicker": "Seasonal guide",
+      "readingTime": "6 min read",
+      "answer": "Winter in Korea runs from December to February — cold, dry and frequently sunny, often below freezing in Seoul and the north. It's low season for crowds and a great time for skiing, hot springs, snowy palaces and winter light festivals, as long as you pack proper layers.",
+      "tldr": [
+        "Winter runs December to February — cold and dry, often below freezing in Seoul.",
+        "Great for skiing, hot springs (jjimjilbang), snowy palaces and light festivals.",
+        "Pack a warm coat, layers, gloves and a hat; indoor heating is strong.",
+        "Fewer crowds and lower prices than spring or autumn."
+      ],
+      "sections": [
+        {
+          "h2": "What's the weather like?",
+          "body": [
+            "Korean winters are cold and dry, with clear, sunny days broken by cold snaps blowing in from the north. Seoul and inland areas regularly drop below freezing, while the south and Jeju stay milder.",
+            "Snow is common in the mountains and along the east coast, and less frequent in Seoul — though the city does get pretty snowfalls.",
+            "The upside is low humidity and bright skies, which are lovely for photos as long as you're dressed for the cold."
+          ]
+        },
+        {
+          "h2": "Best things to do in winter",
+          "body": [
+            "Winter opens up experiences you can't have any other season — skiing and snow play in the mountains, steamy hot springs and jjimjilbang saunas, snow-dusted palaces, and city light festivals. Tap a spot to see details and directions."
+          ],
+          "spots": [
+            {
+              "name": "Seoraksan National Park",
+              "slug": "seoraksan"
+            },
+            {
+              "name": "Gyeongbokgung",
+              "slug": "gyeongbokgung"
+            },
+            {
+              "name": "N Seoul Tower",
+              "slug": "n-seoul-tower"
+            },
+            {
+              "name": "Bukchon Hanok Village",
+              "slug": "bukchon"
+            },
+            {
+              "name": "Jeongdongjin",
+              "slug": "jeongdongjin"
+            },
+            {
+              "name": "Myeongdong",
+              "slug": "myeongdong"
+            }
+          ]
+        },
+        {
+          "h2": "Tips for a winter trip",
+          "body": [
+            "Layer up: a warm coat, thermal base layers, gloves, a hat and a scarf make outdoor sightseeing comfortable.",
+            "Indoor heating is strong, so wear layers you can peel off on the subway and in cafes.",
+            "Warm up in a jjimjilbang (Korean sauna) or a hot-spring town — a beloved winter ritual.",
+            "Days are short, so start early; winter is low season, so hotels and flights are often cheaper."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How cold does Korea get in winter?",
+          "a": "Cold. Seoul and the inland north regularly fall below freezing from December to February, with cold snaps colder still, while the south and Jeju stay milder. It is dry, though, and often sunny."
+        },
+        {
+          "q": "Does it snow in Korea?",
+          "a": "Yes, especially in the mountains and along the east coast; Seoul gets occasional pretty snowfalls too. Snowy landscapes and ski slopes are a big winter draw."
+        },
+        {
+          "q": "What should I pack for Korea in winter?",
+          "a": "A warm coat, thermal base layers, a hat, gloves and a scarf, plus layers you can remove indoors, where heating is strong. Warm, grippy shoes help on icy days."
+        },
+        {
+          "q": "Is winter a good time to visit Korea?",
+          "a": "Yes, if you don't mind the cold. It is low season, so there are fewer crowds and lower prices, and it is ideal for skiing, hot springs, snowy palaces and winter light festivals."
+        }
+      ],
+      "official": [
+        {
+          "name": "Korea Meteorological Administration",
+          "url": "https://web.kma.go.kr/eng/"
+        },
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "korea-etiquette": {
+      "icon": "🙏",
+      "color": "#6A4C93",
+      "h1": "Korea Etiquette: Do's and Don'ts for Visitors",
+      "metaTitle": "Korea Etiquette: Do's & Don'ts Every Visitor Should Know — Korea Trip Hub",
+      "metaDesc": "What are the key etiquette rules in Korea? From shoes-off homes and two-hand gestures to dining and public-transport manners — the simple do's and don'ts that help you fit in.",
+      "kicker": "Culture guide",
+      "readingTime": "5 min read",
+      "answer": "Korean etiquette centers on respect and awareness of others: take your shoes off indoors, use two hands when giving or receiving, keep quiet on public transport, and follow your host's lead at the table. A little effort goes a long way, and locals are forgiving of honest mistakes.",
+      "tldr": [
+        "Take your shoes off before entering homes and many traditional spaces.",
+        "Give and receive with two hands, especially with elders.",
+        "Keep phone calls and loud talk to a minimum on public transport.",
+        "At meals, wait for elders to start, and pour drinks for others, not yourself."
+      ],
+      "sections": [
+        {
+          "h2": "Everyday do's and don'ts",
+          "body": [
+            "Respect for elders shapes much of daily etiquette. Use both hands when handing over money, cards or gifts, and a slight bow or nod makes a friendly greeting.",
+            "Keep public spaces calm: subways and buses are quiet, so loud phone calls stand out. Line up, and let people off before you board.",
+            "Tipping isn't expected and can even cause confusion — good service is standard and prices are as marked."
+          ]
+        },
+        {
+          "h2": "Dining etiquette",
+          "body": [
+            "Wait for the eldest or your host to begin, and pour drinks for others rather than yourself — someone will refill your glass in turn.",
+            "Keep your rice bowl on the table and eat rice with a spoon; chopsticks are mainly for the side dishes.",
+            "Shared side dishes (banchan) belong to the table, so take modest amounts, and it's polite to try a little of everything."
+          ]
+        },
+        {
+          "h2": "Places that need extra care",
+          "body": [
+            "Remove your shoes at homes, temple halls, and many traditional restaurants and guesthouses — look for a step up or a shoe rack.",
+            "At temples and memorials, keep your voice low, dress modestly, and follow the posted rules on photography.",
+            "When in doubt, watch what locals do and follow their lead — it's the simplest guide of all."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need to tip in Korea?",
+          "a": "No. Tipping isn't part of Korean culture and isn't expected in restaurants, taxis or hotels. Prices are as marked, and trying to tip can cause confusion."
+        },
+        {
+          "q": "Do I take my shoes off in Korea?",
+          "a": "Yes, before entering homes, temple halls, and many traditional restaurants and guesthouses. Look for a step up or a shoe rack near the entrance."
+        },
+        {
+          "q": "What are common etiquette mistakes tourists make in Korea?",
+          "a": "Talking loudly or taking phone calls on the subway, handing things to elders with one hand, starting a meal before the eldest, and pouring your own drink. None are serious — locals are forgiving of honest mistakes."
+        },
+        {
+          "q": "How should I behave on Korean public transport?",
+          "a": "Keep quiet, avoid phone calls, give up priority seats, and let passengers off before you board. Eating strong-smelling food is also frowned upon."
+        }
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "korea-safety": {
+      "icon": "🛡️",
+      "color": "#2A9D8F",
+      "h1": "Is Korea Safe? A Traveler's Safety Guide",
+      "metaTitle": "Is Korea Safe for Tourists? A Traveler's Safety Guide — Korea Trip Hub",
+      "metaDesc": "Is South Korea safe to visit? Generally very safe, with low crime and reliable help lines — here's what to know about scams, solo and night-time travel, and emergencies.",
+      "kicker": "Practical guide",
+      "readingTime": "5 min read",
+      "answer": "South Korea is generally a very safe country for travelers, with low violent crime and streets that stay busy and comfortable well into the night. Normal city precautions apply — mind your belongings in crowds, use licensed taxis, and know the free help lines — but most visitors feel at ease, including solo travelers.",
+      "tldr": [
+        "Korea is generally very safe, with low crime and lively, comfortable nights.",
+        "Use normal city sense: mind belongings in crowds and use licensed taxis.",
+        "Free help: 112 (police), 119 (fire/medical), 1330 (travel help, multilingual).",
+        "Solo and female travelers generally report feeling comfortable."
+      ],
+      "sections": [
+        {
+          "h2": "How safe is Korea, really?",
+          "body": [
+            "By global standards, South Korea is very safe. Violent crime against visitors is rare, and it's common to see people out and about late at night in busy areas.",
+            "The main risks are ordinary ones — pickpocketing in crowded markets, the occasional taxi or nightlife overcharge, and online or messaging scams — not violent crime.",
+            "As anywhere, stay aware in nightlife districts and keep an eye on your drink and your belongings."
+          ]
+        },
+        {
+          "h2": "Staying safe day to day",
+          "body": [
+            "Use licensed taxis or ride-hailing apps, and prefer card or transit payment to avoid cash disputes.",
+            "Keep digital copies of your passport and key documents, and note your embassy's contact details before you travel.",
+            "Occasional natural events like summer typhoons or fine-dust days do happen; check forecasts and follow local advisories."
+          ]
+        },
+        {
+          "h2": "Who to call in an emergency",
+          "body": [
+            "Korea has free, reliable help lines. For police, dial 112; for fire or medical emergencies, dial 119.",
+            "The 1330 travel hotline offers round-the-clock help and interpretation in several languages — a great first call for any traveler problem.",
+            "See our Help & Emergency guide for the full list, saved and ready before you land."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is South Korea safe for tourists?",
+          "a": "Yes, generally very safe. Violent crime is low, streets stay busy at night, and reliable help lines exist. Use normal city precautions with your belongings and taxis, and most visitors feel completely at ease."
+        },
+        {
+          "q": "Is Korea safe for solo female travelers?",
+          "a": "Generally yes — many solo female travelers report feeling comfortable, including at night in busy areas. Use the same sensible precautions you would in any big city, especially in nightlife districts."
+        },
+        {
+          "q": "What are the emergency numbers in Korea?",
+          "a": "Dial 112 for police and 119 for fire or medical emergencies. The 1330 travel hotline gives round-the-clock help and interpretation in several languages."
+        },
+        {
+          "q": "Are there common scams in Korea?",
+          "a": "They're uncommon but exist: unmetered-taxi or nightlife overcharging, and online or messaging scams. Use licensed taxis or apps, confirm fares where relevant, and be cautious with unsolicited messages."
+        }
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        },
+        {
+          "name": "Korea Tourism Organization (1330)",
+          "url": "https://english.visitkorea.or.kr"
+        }
       ]
     }
   }
