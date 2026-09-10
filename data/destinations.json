@@ -56,6 +56,22 @@
     {
       "key": "tongyeong",
       "name": "Tongyeong"
+    },
+    {
+      "key": "gapyeong",
+      "name": "Gapyeong"
+    },
+    {
+      "key": "yongin",
+      "name": "Yongin"
+    },
+    {
+      "key": "suncheon",
+      "name": "Suncheon"
+    },
+    {
+      "key": "damyang",
+      "name": "Damyang"
     }
   ],
   "items": {
@@ -2675,6 +2691,256 @@
         "Hahoe Folk Village",
         "Byeongsan Seowon",
         "Andong"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "nami-island": {
+      "city": "gapyeong",
+      "cat": "sights",
+      "icon": "🌳",
+      "grad": "linear-gradient(135deg,#2d6a4f,#74c69d)",
+      "name": "Nami Island",
+      "rank": "Tree-lined river-island getaway",
+      "blurb": "A crescent-shaped river island near Gapyeong famous for its tree-lined lanes and seasonal colours.",
+      "intro": [
+        "Nami Island (Namiseom) is a small, car-free island in the river near Gapyeong, reached by a short ferry — or a zip-line — from the mainland.",
+        "It's beloved for its straight, tree-lined lanes, especially the metasequoia and gingko avenues, which turn spectacular in autumn and glow with lights in winter.",
+        "The island rose to fame as a filming location for the K-drama Winter Sonata, and it's now one of the most popular day trips from Seoul, paired easily with the gardens nearby."
+      ],
+      "tips": [
+        "Come early on a weekday to enjoy the lanes before the tour crowds arrive.",
+        "It's a classic combo with the Garden of Morning Calm or the Gangchon rail bike nearby.",
+        "The ferry runs regularly; a zip-line is a fun alternative way across.",
+        "Autumn foliage and the winter lights are the most photogenic seasons."
+      ],
+      "nearby": [
+        "Garden of Morning Calm",
+        "Gapyeong",
+        "Chuncheon"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ],
+      "klook": "Nami Island tour from Seoul"
+    },
+    "garden-morning-calm": {
+      "city": "gapyeong",
+      "cat": "sights",
+      "icon": "🌷",
+      "grad": "linear-gradient(135deg,#b5179e,#f72585)",
+      "name": "Garden of Morning Calm",
+      "rank": "Themed arboretum & light festival",
+      "blurb": "A large themed arboretum near Gapyeong, glorious with flowers by day and lights in winter.",
+      "intro": [
+        "The Garden of Morning Calm is one of Korea's oldest private arboretums, set in the hills near Gapyeong with themed gardens spread across a wooded slope.",
+        "Each season brings a different show — spring and autumn flowers, lush summer greenery, and a famous Lighting Festival that drapes the grounds in lights through the colder months.",
+        "It pairs naturally with Nami Island for a full day out of Seoul."
+      ],
+      "tips": [
+        "Visit near dusk in the festival season to catch the gardens by day and by light.",
+        "Combine it with Nami Island and the Gangchon rail bike for a classic Gapyeong loop.",
+        "Wear comfortable shoes — the gardens climb a gentle hillside.",
+        "Check the seasonal flower and festival calendar before you go."
+      ],
+      "nearby": [
+        "Nami Island",
+        "Gapyeong",
+        "Chuncheon"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ],
+      "klook": "Garden of Morning Calm ticket"
+    },
+    "everland": {
+      "city": "yongin",
+      "cat": "sights",
+      "icon": "🎢",
+      "grad": "linear-gradient(135deg,#f94144,#f9c74f)",
+      "name": "Everland",
+      "rank": "Korea's largest theme park",
+      "blurb": "Korea's biggest theme park near Yongin, with thrill rides, a zoo safari and seasonal festivals.",
+      "intro": [
+        "Everland is Korea's largest theme park, set in the hills of Yongin about an hour south of Seoul.",
+        "It mixes thrill rides — including the famous wooden roller coaster T Express — with a drive-through safari, a zoo, and gardens that host big seasonal flower and light festivals.",
+        "It's a full-day outing, especially popular with families and during the tulip and rose seasons."
+      ],
+      "tips": [
+        "Buy tickets ahead and arrive at opening to beat the lines for the top rides.",
+        "The tulip (spring) and rose (early summer) festivals are especially pretty.",
+        "The Caribbean Bay water park sits next door for summer visits.",
+        "Shuttle buses and a subway-plus-bus combo connect it to Seoul."
+      ],
+      "nearby": [
+        "Korean Folk Village",
+        "Yongin",
+        "Suwon"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ],
+      "klook": "Everland ticket"
+    },
+    "korean-folk-village": {
+      "city": "yongin",
+      "cat": "sights",
+      "icon": "🏘️",
+      "grad": "linear-gradient(135deg,#7f5539,#ddb892)",
+      "name": "Korean Folk Village",
+      "rank": "Living Joseon-era village",
+      "blurb": "A large open-air folk village near Yongin recreating traditional Joseon life with houses, crafts and performances.",
+      "intro": [
+        "The Korean Folk Village near Yongin is a sprawling open-air museum that recreates a traditional Joseon-era village, with hundreds of relocated and reconstructed houses.",
+        "Costumed artisans, farmers' music, tightrope walking and horseback performances bring old daily life to the streets, and it's a frequent filming location for historical dramas.",
+        "It's an easy, engaging half- to full-day trip, often paired with Everland or Suwon's Hwaseong Fortress."
+      ],
+      "tips": [
+        "Catch the schedule for the farmers' music, tightrope and horseback shows.",
+        "Renting a hanbok adds to the atmosphere for photos.",
+        "It pairs well with Everland or Suwon on a day out of Seoul.",
+        "Allow extra time in autumn, when the village and its stream look their best."
+      ],
+      "nearby": [
+        "Everland",
+        "Yongin",
+        "Suwon"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ],
+      "klook": "Korean Folk Village ticket"
+    },
+    "cheongwadae": {
+      "city": "seoul",
+      "cat": "sights",
+      "icon": "🏯",
+      "grad": "linear-gradient(135deg,#1d3557,#457b9d)",
+      "name": "Cheong Wa Dae (Blue House)",
+      "rank": "Former presidential residence",
+      "blurb": "Korea's former presidential compound at the foot of Bugaksan, opened to the public with blue-tiled halls and gardens.",
+      "intro": [
+        "Cheong Wa Dae — the 'Blue House' — was the office and residence of South Korea's presidents for decades, set against Bugaksan just behind Gyeongbokgung.",
+        "It opened to the public in 2022, and visitors can now walk the grounds, the blue-tiled main hall, the reception buildings and the wooded gardens.",
+        "It makes a natural extension of a Gyeongbokgung visit, with mountain views over the old palace district."
+      ],
+      "tips": [
+        "Entry is free, but reserving a time slot ahead is wise in busy seasons.",
+        "It connects easily with Gyeongbokgung, Bukchon and Samcheong-dong on foot.",
+        "The gardens and the Bugaksan backdrop are lovely in autumn.",
+        "Bring ID and check the current reservation and opening rules before you go."
+      ],
+      "nearby": [
+        "Gyeongbokgung",
+        "Bukchon Hanok Village",
+        "Seoul"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "bongeunsa": {
+      "city": "seoul",
+      "cat": "sights",
+      "icon": "🛕",
+      "grad": "linear-gradient(135deg,#606c38,#dda15e)",
+      "name": "Bongeunsa Temple",
+      "rank": "City temple facing COEX",
+      "blurb": "A historic Buddhist temple in Gangnam, its old halls set against skyscrapers across from COEX.",
+      "intro": [
+        "Bongeunsa is a centuries-old Buddhist temple in the heart of Gangnam, its tiled halls and a tall stone Maitreya Buddha sitting directly across from the COEX complex.",
+        "The contrast of quiet temple courtyards against glassy skyscrapers makes it one of Seoul's most striking city temples.",
+        "It offers templestay and temple-life programs, and the grounds are especially serene in the early morning."
+      ],
+      "tips": [
+        "It's a short walk from COEX and the Starfield mall — an easy add-on.",
+        "Visit early for a peaceful atmosphere before the crowds.",
+        "Look for the templestay and temple-food programs for a deeper experience.",
+        "Dress modestly and keep your voice low inside the halls."
+      ],
+      "nearby": [
+        "Starfield COEX Mall",
+        "Seoul"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    },
+    "suncheonman-bay": {
+      "city": "suncheon",
+      "cat": "sights",
+      "icon": "🦢",
+      "grad": "linear-gradient(135deg,#588157,#a3b18a)",
+      "name": "Suncheon Bay Wetland",
+      "rank": "Vast reed-bed coastal wetland",
+      "blurb": "A protected coastal wetland near Suncheon famous for its reed fields, mudflats and migratory birds.",
+      "intro": [
+        "Suncheon Bay is one of the world's best-preserved coastal wetlands, a broad expanse of reed beds and tidal mudflats on Korea's south coast.",
+        "Boardwalks lead through the golden reeds to a viewpoint hill, and in winter the bay hosts flocks of migratory birds, including rare cranes.",
+        "The reeds are most spectacular in autumn, and the adjacent Suncheonman Bay National Garden makes a natural pairing."
+      ],
+      "tips": [
+        "Autumn, when the reeds turn gold, is the classic time to visit.",
+        "Climb to the Yongsan viewpoint for the famous S-shaped channel view at sunset.",
+        "Pair it with the neighbouring Suncheonman Bay National Garden.",
+        "Bring binoculars in winter for the migratory birds."
+      ],
+      "nearby": [
+        "Suncheon",
+        "Yeosu"
+      ],
+      "official": [
+        {
+          "name": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ],
+      "klook": "Suncheon Bay tour"
+    },
+    "juknokwon": {
+      "city": "damyang",
+      "cat": "sights",
+      "icon": "🎋",
+      "grad": "linear-gradient(135deg,#2d6a4f,#95d5b2)",
+      "name": "Juknokwon Bamboo Forest",
+      "rank": "Damyang's walkable bamboo grove",
+      "blurb": "A cool, walkable bamboo forest in Damyang with shaded trails and pavilions.",
+      "intro": [
+        "Juknokwon is a lush bamboo forest in Damyang, a region long famous for bamboo, laced with shaded walking trails and pavilions.",
+        "Sunlight filtering through the tall green stalks keeps it wonderfully cool in summer and endlessly photogenic year-round.",
+        "It pairs well with Damyang's Metasequoia-lined road, another of the area's signature scenes."
+      ],
+      "tips": [
+        "Summer visitors love the shade — the grove stays cooler than the surrounding area.",
+        "Combine it with the nearby Metasequoia Road for a classic Damyang pairing.",
+        "Try local bamboo dishes, like daetongbap (rice steamed in bamboo).",
+        "Wear comfortable shoes for the gentle uphill trails."
+      ],
+      "nearby": [
+        "Gwangju",
+        "Damyang"
       ],
       "official": [
         {
