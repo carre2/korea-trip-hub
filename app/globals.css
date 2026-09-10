@@ -377,6 +377,9 @@
   .card .cbody p{color:var(--muted);font-size:13.5px;margin-top:5px}
   .food-city-link{display:inline-block;margin-top:10px;font-size:13px;font-weight:800;color:var(--jade);text-decoration:none}
   .food-city-link:hover{text-decoration:underline}
+  .topic-spots{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .topic-spot{display:inline-flex;align-items:center;gap:4px;font-size:13.5px;font-weight:700;color:var(--jade);text-decoration:none;background:var(--jade-soft);padding:6px 12px;border-radius:999px}
+  .topic-spot:hover{text-decoration:underline}
   .kw{font-family:var(--mono);font-size:11.5px;color:var(--faint);margin-top:10px;display:flex;align-items:center;gap:6px}
 
   /* ---------- FOOD ---------- */

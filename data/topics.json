@@ -1,0 +1,148 @@
+{
+  "_README": "Seasonal & topic travel guides (/guides/<slug>). Answer-first + FAQ for GEO. Fact-safe: seasonal timing is given as month-range windows with a 'check the current-year forecast' caveat — no invented exact dates. Spots link to /destinations by slug.",
+  "order": ["autumn-foliage", "cherry-blossom"],
+  "items": {
+    "autumn-foliage": {
+      "icon": "🍁",
+      "color": "#C1440E",
+      "h1": "Korea Autumn Foliage: When & Where to See Fall Colors",
+      "metaTitle": "Korea Autumn Foliage 2026: When & Where to See Fall Colors — Korea Trip Hub",
+      "metaDesc": "When do Korea's autumn leaves peak, and where are the best spots? Foliage sweeps from the northern mountains in mid-October to the southern cities by mid-November — with timing, top places and tips.",
+      "kicker": "Seasonal guide",
+      "readingTime": "6 min read",
+      "answer": "Korea's autumn foliage (danpung) peaks from mid-October in the northern mountains to mid-November in the southern cities. The colours start high in the mountains and move south and downhill, so you can chase them for weeks — but the exact peak shifts each year with the weather, so check the current-year forecast before you book.",
+      "tldr": [
+        "Peak foliage runs roughly mid-October (mountains and the north) to mid-November (cities and the south).",
+        "Colours move from high mountains downhill, and from north to south.",
+        "Standout spots include Seoraksan, Bukhansan, Namsan and Seoul's old palaces.",
+        "Dates shift every year — check the Korea Meteorological Administration forecast."
+      ],
+      "sections": [
+        {
+          "h2": "When do the autumn leaves peak?",
+          "body": [
+            "Autumn colour begins high in the northern mountains around early-to-mid October, then spreads south and down to lower elevations through November.",
+            "In the mountains, Seoraksan usually turns first; in the cities, Seoul's parks and palaces tend to peak from late October into early November.",
+            "Because the timing depends on temperature, the peak moves a week or two each year — the Korea Meteorological Administration publishes an annual foliage forecast that is worth checking before you lock in dates."
+          ]
+        },
+        {
+          "h2": "Best places to see fall colors",
+          "body": [
+            "From dramatic mountain ridges to city palaces, here are standout foliage spots — tap any to see details and how to get there."
+          ],
+          "spots": [
+            { "name": "Seoraksan National Park", "slug": "seoraksan" },
+            { "name": "Bukhansan", "slug": "bukhansan" },
+            { "name": "Namsan / N Seoul Tower", "slug": "n-seoul-tower" },
+            { "name": "Changdeokgung", "slug": "changdeokgung" },
+            { "name": "Gyeongbokgung", "slug": "gyeongbokgung" },
+            { "name": "Seoul Forest", "slug": "seoul-forest" }
+          ]
+        },
+        {
+          "h2": "Tips for an autumn trip",
+          "body": [
+            "Autumn is a peak travel season, so book trains, buses and hotels well ahead — especially around weekends.",
+            "Mornings can be crisp; bring light layers, and comfortable shoes for mountain trails.",
+            "Weekdays and early starts mean thinner crowds at the popular mountains and palaces.",
+            "Pair the leaves with autumn food — roasted chestnuts, sweet persimmons and warm street snacks are everywhere."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "When is the best time to see autumn leaves in Korea?",
+          "a": "Roughly mid-October to mid-November. The mountains and the north peak earlier, from mid-October, while Seoul and the southern cities usually peak from late October into November. Check the current-year forecast, as the dates shift with temperature."
+        },
+        {
+          "q": "Where are the best autumn foliage spots near Seoul?",
+          "a": "Bukhansan and Namsan (N Seoul Tower) for mountain colour, the palaces — Changdeokgung's Secret Garden and Gyeongbokgung — and Seoul Forest for an easy city stroll."
+        },
+        {
+          "q": "Is Seoraksan worth it for autumn colors?",
+          "a": "Yes — Seoraksan is one of Korea's most famous foliage mountains and usually turns first, from early-to-mid October. Go on a weekday if you can, as it gets very busy at peak."
+        },
+        {
+          "q": "Do I need to book ahead for an autumn trip?",
+          "a": "Yes. Autumn is a peak season for domestic travel, so reserve KTX or SRT trains, intercity buses and hotels early, particularly for weekends and around holidays."
+        }
+      ],
+      "official": [
+        { "name": "Korea Meteorological Administration", "url": "https://web.kma.go.kr/eng/" },
+        { "name": "VisitKorea", "url": "https://english.visitkorea.or.kr" }
+      ]
+    },
+    "cherry-blossom": {
+      "icon": "🌸",
+      "color": "#E0668E",
+      "h1": "Korea Cherry Blossom: When & Where to See the Blooms",
+      "metaTitle": "Korea Cherry Blossom 2027: When & Where to See the Blooms — Korea Trip Hub",
+      "metaDesc": "When does Korea's cherry blossom bloom, and where are the best spots? Blossoms open from late March in the south to mid-April in Seoul — with timing, top places and festival tips.",
+      "kicker": "Seasonal guide",
+      "readingTime": "6 min read",
+      "answer": "Korea's cherry blossoms (beotkkot) bloom from late March on the warm southern coast — around Jeju and Busan — reaching Seoul and the centre by early-to-mid April. Full bloom lasts only about a week at each place, and the exact dates move each year with the weather, so check the current-year forecast before booking.",
+      "tldr": [
+        "Blossoms open in late March in the south and reach Seoul by early-to-mid April.",
+        "Full bloom lasts only about a week at any one place.",
+        "Standout spots include Jinhae, Busan, Gyeongju and Seoul's riversides.",
+        "Dates shift every year — check the current-year bloom forecast."
+      ],
+      "sections": [
+        {
+          "h2": "When do the cherry blossoms bloom?",
+          "body": [
+            "The bloom starts on the warm southern coast in late March — Jeju and Busan are usually first — then travels north, reaching Seoul and Gyeonggi around early-to-mid April.",
+            "At any one place, full bloom lasts only about a week before the petals fall, so timing really matters.",
+            "Because it depends on temperature, the peak shifts each year; weather services publish an annual cherry-blossom forecast worth checking before you commit to dates."
+          ]
+        },
+        {
+          "h2": "Best places to see the blossoms",
+          "body": [
+            "From famous festivals to quiet riversides, here are standout spots — tap any to see details and directions. Jinhae, near Busan, hosts the country's most famous blossom festival if the dates line up."
+          ],
+          "spots": [
+            { "name": "Banpo Hangang Park (Seoul)", "slug": "banpo-hangang" },
+            { "name": "Seoul Forest", "slug": "seoul-forest" },
+            { "name": "Changdeokgung", "slug": "changdeokgung" },
+            { "name": "Gwangalli (Busan)", "slug": "gwangalli" },
+            { "name": "Daereungwon (Gyeongju)", "slug": "daereungwon" },
+            { "name": "Wolji Pond (Gyeongju)", "slug": "wolji" }
+          ]
+        },
+        {
+          "h2": "Tips for a cherry-blossom trip",
+          "body": [
+            "The bloom is short and the dates move, so build flexibility into your plans and watch the current-year forecast.",
+            "Spring is peak season; reserve trains and hotels early, especially around festival weekends.",
+            "Go early in the morning for photos before the crowds, and keep a rainy-day backup — spring showers can cut a bloom short.",
+            "Jinhae's Gunhangje festival near Busan is the most famous blossom event in the country, if the timing works out."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "When do cherry blossoms bloom in Korea?",
+          "a": "From late March on the southern coast (Jeju, Busan) to early-to-mid April in Seoul. Full bloom lasts only about a week at each place, and the dates shift each year with the weather."
+        },
+        {
+          "q": "Where are the best cherry blossom spots in Seoul?",
+          "a": "The Hangang riverside parks such as Banpo, Seoul Forest, and palace grounds like Changdeokgung are lovely, and many neighbourhood streets bloom too."
+        },
+        {
+          "q": "Which city is best for cherry blossoms in Korea?",
+          "a": "Jinhae, near Busan, hosts the most famous festival, while Gyeongju, Busan and Seoul are all superb. The south blooms first, so pick your city to match your travel dates."
+        },
+        {
+          "q": "How long does the cherry blossom last?",
+          "a": "About a week of full bloom at any given place. Because the window is short and moves each year, check the current-year forecast and keep your plans flexible."
+        }
+      ],
+      "official": [
+        { "name": "VisitKorea", "url": "https://english.visitkorea.or.kr" },
+        { "name": "Korea Meteorological Administration", "url": "https://web.kma.go.kr/eng/" }
+      ]
+    }
+  }
+}
