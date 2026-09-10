@@ -134,9 +134,9 @@ export default function DestinationDetail({ params }) {
       <BookCTA
         partner="klook"
         icon="🎟️"
-        label="Book tours, tickets & experiences"
-        sub={`Skip-the-line entry, hanbok rental & day trips${(dest.cities.find((c) => c.key === d.city) || {}).name ? ` around ${(dest.cities.find((c) => c.key === d.city) || {}).name}` : ""}`}
-        url={klookSearch(d.name)}
+        label={m.destBook?.label || "Tickets, tours & experiences"}
+        sub={m.destBook?.sub || "Skip-the-line entry, hanbok rental and day trips — via Klook."}
+        url={klookSearch(dest.items[params.slug].klook || dest.items[params.slug].name)}
         disclose
       />
 
