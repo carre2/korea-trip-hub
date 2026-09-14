@@ -767,6 +767,8 @@
   .wx-season-months{font-family:var(--mono);font-size:12px;font-weight:700;color:var(--muted);background:var(--surface-2);border-radius:999px;padding:3px 9px}
   .wx-season-vibe{font-size:12.5px;color:var(--text);margin:6px 0 8px;line-height:1.5}
   .wx-season-img{width:100%;height:104px;object-fit:cover;border-radius:10px;display:block;margin-bottom:9px}
+  .wx-season-link{display:inline-block;margin-top:8px;font-size:12.5px;font-weight:800;color:var(--jade);text-decoration:none}
+  .wx-season-link:hover{text-decoration:underline}
 
   /* ---------- HELP & EMERGENCY ---------- */
   .help-num-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}

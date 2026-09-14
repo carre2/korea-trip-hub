@@ -303,7 +303,7 @@ export default function PlanArticle({ params }) {
       )}
 
       {/* Rich visual deep-dive (guide slugs only) */}
-      {guide && (() => { const Body = GuideBody[slug]; return Body ? <Body guide={guide} fxLabels={m.fx} official={m.plan.officialSources} /> : null; })()}
+      {guide && (() => { const Body = GuideBody[slug]; return Body ? <Body guide={guide} fxLabels={m.fx} official={m.plan.officialSources} locale={locale} seasonLabels={m.seasonLinks} /> : null; })()}
 
       {/* Generic tips/official links (non-guide slugs) */}
       {!guide && item.tips?.length > 0 && (

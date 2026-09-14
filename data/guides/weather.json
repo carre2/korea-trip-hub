@@ -190,5 +190,23 @@
       "what": "Seasonal travel info"
     }
   ],
-  "heroBg": "/img/hero-bg/weather.jpg"
+  "heroBg": "/img/hero-bg/weather.jpg",
+  "seasonLinks": [
+    {
+      "href": "guides/cherry-blossom",
+      "key": "spring"
+    },
+    {
+      "href": "destinations/haeundae",
+      "key": "summer"
+    },
+    {
+      "href": "guides/autumn-foliage",
+      "key": "autumn"
+    },
+    {
+      "href": "guides/winter-in-korea",
+      "key": "winter"
+    }
+  ]
 }

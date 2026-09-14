@@ -5,7 +5,7 @@
 import WeatherNow from "./WeatherNow";
 import { linkify } from "../lib/linkify";
 
-export default function WeatherGuide({ guide, official }) {
+export default function WeatherGuide({ guide, official, locale = "en", seasonLabels }) {
   if (!guide) return null;
   const g = guide;
 
@@ -31,18 +31,25 @@ export default function WeatherGuide({ guide, official }) {
         <section className="gv-sec">
           <h2>{g.seasons.title}</h2>
           <div className="gv-doc-grid wx-seasons">
-            {g.seasons.cards.map((c) => (
-              <div key={c.name} className={`gv-doc gv-tone-${c.tone}`}>
-                {c.img && <img className="wx-season-img" src={c.img} alt={c.name} loading="lazy" />}
-                <div className="wx-season-top">
-                  <span className="gv-doc-ic">{c.icon}</span>
-                  <span className="wx-season-months">{c.months}</span>
+            {g.seasons.cards.map((c, i) => {
+              const link = g.seasonLinks?.[i];
+              const linkLabel = link && seasonLabels?.[link.key];
+              return (
+                <div key={c.name} className={`gv-doc gv-tone-${c.tone}`}>
+                  {c.img && <img className="wx-season-img" src={c.img} alt={c.name} loading="lazy" />}
+                  <div className="wx-season-top">
+                    <span className="gv-doc-ic">{c.icon}</span>
+                    <span className="wx-season-months">{c.months}</span>
+                  </div>
+                  <h3>{c.name}</h3>
+                  <p className="wx-season-vibe">{c.vibe}</p>
+                  <p className="gv-doc-what"><b>{g.seasons.packLabel || "Pack:"}</b> {c.pack}</p>
+                  {linkLabel && (
+                    <a className="wx-season-link" href={`/${locale}/${link.href}/`}>🧭 {linkLabel} →</a>
+                  )}
                 </div>
-                <h3>{c.name}</h3>
-                <p className="wx-season-vibe">{c.vibe}</p>
-                <p className="gv-doc-what"><b>{g.seasons.packLabel || "Pack:"}</b> {c.pack}</p>
-              </div>
-            ))}
+              );
+            })}
           </div>
           {g.seasons.cards.some((c) => c.credit) && (
             <details className="photo-credits">
