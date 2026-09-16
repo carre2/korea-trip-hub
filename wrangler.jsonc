@@ -1,11 +1,17 @@
 {
-  // Cloudflare Workers static-assets deployment for the Next.js static export.
-  // Build (`npm run build`) produces ./out; wrangler uploads it as static assets.
+  // Cloudflare Worker: static assets + a small AI chat endpoint (/api/chat).
+  // `npm run build` produces ./out (static export). Static pages are served
+  // directly from the asset store; the Worker only runs for /api/chat and true
+  // 404s, so existing page behaviour is unchanged.
   "name": "korea-trip-hub",
   "compatibility_date": "2025-01-01",
+  "main": "worker/index.js",
   "assets": {
     "directory": "./out",
-    // Serve /404.html for unmatched paths (multi-page static site).
+    "binding": "ASSETS",
     "not_found_handling": "404-page"
-  }
+  },
+  // Cloudflare Workers AI is the default chat model (no external key needed).
+  // If an ANTHROPIC_API_KEY secret is set, the Worker prefers Claude Haiku.
+  "ai": { "binding": "AI" }
 }
