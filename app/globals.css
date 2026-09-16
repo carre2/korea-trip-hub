@@ -773,7 +773,7 @@
   /* Chat widget */
   .cw-fab{position:fixed;right:16px;bottom:16px;z-index:70;width:56px;height:56px;border:none;border-radius:50%;background:var(--primary);color:#fff;font-size:25px;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35)}
   .cw-fab:hover{filter:brightness(1.06)}
-  .cw-panel{position:fixed;right:16px;bottom:84px;z-index:70;width:min(720px,calc(100vw - 24px));max-height:min(780px,calc(100vh - 100px));display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:0 12px 40px rgba(0,0,0,.32);overflow:hidden}
+  .cw-panel{position:fixed;right:16px;bottom:84px;z-index:70;width:min(720px,calc(100vw - 24px));height:min(600px,calc(100vh - 92px));display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:0 12px 40px rgba(0,0,0,.32);overflow:hidden}
   .cw-panel .cw-msg{font-size:14.5px}
   .cw-panel .cw-greet p{font-size:14.5px}
   .cw-head{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;background:var(--surface-2);border-bottom:1px solid var(--border)}
