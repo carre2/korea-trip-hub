@@ -2,7 +2,7 @@
 // Static pages are served from the asset store directly; this Worker only runs
 // for /api/chat (POST) and for paths with no matching asset (404s).
 
-const MODEL_CF = "@cf/meta/llama-3.1-8b-instruct"; // Workers AI fallback
+const MODEL_CF = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"; // Workers AI (current)
 const MODEL_CLAUDE = "claude-haiku-4-5-20251001";   // preferred if a key is set
 const MAX_TURNS = 12;      // recent user/assistant turns kept
 const MAX_CHARS = 1500;    // per-message input cap
