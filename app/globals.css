@@ -773,6 +773,12 @@
   /* Chat widget */
   .cw-fab{position:fixed;right:16px;bottom:16px;z-index:70;width:56px;height:56px;border:none;border-radius:50%;background:var(--primary);color:#fff;font-size:25px;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35)}
   .cw-fab:hover{filter:brightness(1.06)}
+  .cw-bubble{position:fixed;right:84px;bottom:18px;z-index:69;width:max-content;max-width:min(260px,calc(100vw - 110px));animation:cwBubbleIn .35s ease}
+  .cw-bubble-msg{position:relative;display:block;width:100%;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:14px;padding:9px 13px;font-size:13px;font-weight:700;line-height:1.35;text-align:left;cursor:pointer;box-shadow:0 6px 22px rgba(0,0,0,.24)}
+  .cw-bubble-msg::after{content:"";position:absolute;right:-5px;bottom:14px;width:11px;height:11px;background:var(--surface);border-right:1px solid var(--border);border-bottom:1px solid var(--border);transform:rotate(-45deg)}
+  .cw-bubble-msg:hover{border-color:var(--primary)}
+  .cw-bubble-x{position:absolute;top:-8px;right:-8px;width:20px;height:20px;border:1px solid var(--border);background:var(--surface-2);color:var(--muted);border-radius:50%;font-size:11px;line-height:1;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.2)}
+  @keyframes cwBubbleIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
   .cw-panel{position:fixed;right:16px;bottom:84px;z-index:70;width:min(720px,calc(100vw - 24px));height:min(600px,calc(100vh - 92px));display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:0 12px 40px rgba(0,0,0,.32);overflow:hidden}
   .cw-panel .cw-msg{font-size:14.5px}
   .cw-panel .cw-greet p{font-size:14.5px}
@@ -800,6 +806,7 @@
   @media (max-width:560px){
     .cw-panel{right:8px;left:8px;width:auto;bottom:76px}
     .cw-fab{right:12px;bottom:12px}
+    .cw-bubble{right:74px;bottom:14px;max-width:calc(100vw - 96px)}
   }
 
   /* ---------- HELP & EMERGENCY ---------- */

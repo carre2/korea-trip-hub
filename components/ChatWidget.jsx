@@ -29,9 +29,20 @@ export default function ChatWidget({ locale = "en", labels = {} }) {
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
   const [coords, setCoords] = useState(null);
+  const [bubbleOff, setBubbleOff] = useState(false); // greeting bubble dismissed this session
   const scroller = useRef(null);
 
   useEffect(() => { if (scroller.current) scroller.current.scrollTop = scroller.current.scrollHeight; }, [msgs, busy, open]);
+  useEffect(() => { try { if (sessionStorage.getItem("cw-bubble") === "off") setBubbleOff(true); } catch {} }, []);
+
+  function dismissBubble() {
+    setBubbleOff(true);
+    try { sessionStorage.setItem("cw-bubble", "off"); } catch {}
+  }
+  function toggleOpen() {
+    setOpen((o) => !o);
+    dismissBubble();
+  }
 
   async function send(text) {
     const content = (text ?? input).trim();
@@ -73,7 +84,16 @@ export default function ChatWidget({ locale = "en", labels = {} }) {
 
   return (
     <>
-      <button className="cw-fab" aria-label={t.title || "Ask for help"} onClick={() => setOpen((o) => !o)}>
+      {!open && !bubbleOff && (
+        <div className="cw-bubble">
+          <button className="cw-bubble-x" aria-label="Dismiss" onClick={dismissBubble}>✕</button>
+          <button className="cw-bubble-msg" onClick={() => { setOpen(true); dismissBubble(); }}>
+            {t.bubble || "Need help? Ask me anything 💬"}
+          </button>
+        </div>
+      )}
+
+      <button className="cw-fab" aria-label={t.title || "Ask for help"} onClick={toggleOpen}>
         {open ? "✕" : "💬"}
       </button>
 
