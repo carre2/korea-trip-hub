@@ -5,6 +5,7 @@ import { SITE } from "../../lib/seo";
 import Header from "../../components/Header";
 import SiteFooter from "../../components/SiteFooter";
 import ConsentBanner from "../../components/ConsentBanner";
+import ChatWidget from "../../components/ChatWidget";
 
 // Google AdSense publisher (ktriphub.com). Loader below serves ads once approved.
 const ADSENSE_CLIENT = "ca-pub-2067934281598769";
@@ -34,6 +35,7 @@ export default function LocaleLayout({ children, params }) {
         <Header locale={locale} nav={m.nav} locales={locales} localeNames={localeNames} rtl={dir === "rtl"} />
         <main id="main">{children}</main>
         <SiteFooter locale={locale} />
+        <ChatWidget locale={locale} labels={m.chat} />
         <ConsentBanner t={consent} privacyHref={`/${locale}/legal/privacy/`} />
         {/* Google Consent Mode v2 — every signal denied by default until the visitor opts
             in via the banner above (or a stored choice is re-applied). Runs before GA reads

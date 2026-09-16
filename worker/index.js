@@ -101,7 +101,7 @@ async function handleChat(request, env) {
     let reply = "";
     if (env.ANTHROPIC_API_KEY) reply = await callClaude(env, system, messages);
     else if (env.AI) reply = await callWorkersAI(env, system, messages);
-    else return json({ error: "no_model", detail: "no AI binding and no ANTHROPIC_API_KEY" }, 503);
+    else return json({ error: "no_model" }, 503);
     if (!reply) return json({ error: "empty" }, 502);
     return json({ reply });
   } catch (e) {
@@ -109,7 +109,7 @@ async function handleChat(request, env) {
     if (env.ANTHROPIC_API_KEY && env.AI) {
       try { const reply = await callWorkersAI(env, system, messages); if (reply) return json({ reply }); } catch (e2) {}
     }
-    return json({ error: "chat_unavailable", detail: String((e && e.message) || e), hasKey: !!env.ANTHROPIC_API_KEY, hasAI: !!env.AI }, 503);
+    return json({ error: "chat_unavailable" }, 503);
   }
 }
 
