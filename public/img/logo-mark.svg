@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="Korea Trip Hub mark">
+  <defs>
+    <linearGradient id="ktgrad" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3B4CE0"/>
+      <stop offset="0.52" stop-color="#FF3E6C"/>
+      <stop offset="1" stop-color="#0FA08C"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="40" height="40" rx="12" fill="url(#ktgrad)"/>
+  <rect x="5.25" y="5.25" width="37.5" height="37.5" rx="10.75" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.5"/>
+  <path d="M24 12 L36 24 L24 36 L12 24 Z" fill="#ffffff"/>
+</svg>
