@@ -50,7 +50,11 @@
 1. **[HIGH] English 누수 1건 — `/ja/plan/help/`** → ✅ **수정완료(자동)**
    - 원인: plan 페이지 description=`item.tagline`인데 `plan.ja.json`에 `help` 없음 → **영어 base tagline 누수**(메타+배너 둘 다).
    - 수정: ① 메타=번역된 가이드 metaDesc 우선(`guideI18n[slug][locale].metaDesc || item.tagline`) → help가 107자 일본어 metaDesc 사용. ② `plan.ja.json`에 일본어 help tagline 추가 → 배너도 일본어.
-2. **[MEDIUM/결정] 짧은 description 109개(<80자)** → **자동 패딩 안 함(지침 준수)**
+2. **[MEDIUM/진행중] 짧은 description 109개(<80자)** — **패딩 아닌 자연스러운 심화로 단계 진행:**
+   - **✅ phase 1**: plan 허브 6종(visa/transit/airport/sim/money/weather) ja metaDesc 신규(75~86자). plan 페이지가 가이드 metaDesc 우선 → **배너 불변·메타만 심화**. 커밋 6adebeb.
+   - **✅ phase 2**: 섹션 허브 4종(destinations/food/guides = 부제 겸 메타 ~60자로 심화, ask-korea = 메타전용 91자). itinerary/stay/kpop은 이미 김(65~88자, 데이터파일 ui). 커밋 c73749e.
+   - **남은 tail**: 명소상세 92개(intro[0] 재사용, 단문 ~46자·양질). 별도 metaDesc 필드+page.jsx 필요·ROI 낮아 후순위(결정).
+   - (아래 원 진단 보존:)
    - **중요 판단:** 전부 **자연스럽고 페이지 내용과 정확히 일치하는 양질의 일본어**(예: `南山の頂に立つNソウルタワーは、市内を一望できる絶景スポット。特に夕暮れと夜がおすすめです。`). 일본어는 **전각**이라 60–80자면 영문 120–160자 폭 → **Bing이 문자수 기준으로 과다경고**하는 측면.
    - 그래도 검색의도 키워드가 얇은 상위 페이지는 **손으로 풍부화** 여지 있음. 단 이는 **① 대량(100+) ② 전 로케일 구조(짧음은 ja 전용 아님) ③ 일부는 본문(intro/blurb) 재사용이라 별도 `metaDesc` 필드 신설 필요**한 **큰 결정** → §N에서 승인 요청.
 
