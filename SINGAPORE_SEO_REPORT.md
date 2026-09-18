@@ -25,7 +25,8 @@
 ## D. hreflang/canonical/sitemap — 정상 (변경 없음)
 
 ## E. 안전 수정(이번)
-- **없음(불필요)**: SGD는 이미 FxRates에 존재 → 추가 코드 수정 불필요. 억지 수정 안 함(지침).
+- SGD는 이미 FxRates에 존재(추가 불필요).
+- **신규 가이드 `/en/guides/korea-from-singapore/`** 추가 — 싱가포르 여행객용 계획 허브(무비자 안내·Changi 항공·SGD 예산·SIM·교통·일정을 우리 검증 페이지로 내부링크, facts-harness 준수 가격 미기재, FAQPage+Article JSON-LD). 커밋 6adebeb. **→ §F 권고 B(약)의 실행분.**
 
 ## F. 판단: A/B/C/D
 ### 권고: **B(약) — 영어 유지 + 싱가포르 특화(영어) 소량** *(잠정, GSC 확인 전제)*
