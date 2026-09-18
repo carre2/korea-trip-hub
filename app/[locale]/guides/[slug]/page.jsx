@@ -89,21 +89,21 @@ export default function TopicGuide({ params }) {
       {g.answer && (
         <div className="art-tldr topic-answer">
           <span className="art-tldr-lbl">{gm.answer || "Quick answer"}</span>
-          <p style={{ margin: 0 }}>{linkify(g.answer)}</p>
+          <p style={{ margin: 0 }}>{linkify(g.answer, locale)}</p>
         </div>
       )}
 
       {g.tldr && (
         <div className="art-tldr">
           <span className="art-tldr-lbl">TL;DR</span>
-          <ul>{g.tldr.map((t, i) => <li key={i}>{linkify(t)}</li>)}</ul>
+          <ul>{g.tldr.map((t, i) => <li key={i}>{linkify(t, locale)}</li>)}</ul>
         </div>
       )}
 
       {g.sections?.map((s, i) => (
         <section key={i} className="gv-sec">
           <h2>{s.h2}</h2>
-          {s.body?.map((p, j) => <p key={j}>{linkify(p)}</p>)}
+          {s.body?.map((p, j) => <p key={j}>{linkify(p, locale)}</p>)}
           {s.spots && (
             <div className="topic-spots">
               {s.spots.map((sp) => (
@@ -133,7 +133,7 @@ export default function TopicGuide({ params }) {
           {g.faq.map((f, i) => (
             <details key={i} className="gv-faq">
               <summary>{f.q}</summary>
-              <p>{linkify(f.a)}</p>
+              <p>{linkify(f.a, locale)}</p>
             </details>
           ))}
         </section>
