@@ -21,6 +21,7 @@ const CURRENCIES = [
   { code: "IDR", flag: "🇮🇩", unit: 1000 },
   { code: "SGD", flag: "🇸🇬", unit: 1 },
   { code: "INR", flag: "🇮🇳", unit: 100 },
+  { code: "PHP", flag: "🇵🇭", unit: 100 },
 ];
 
 function fmt(n) {
