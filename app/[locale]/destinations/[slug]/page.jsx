@@ -49,11 +49,21 @@ export function generateMetadata({ params }) {
     stayFor(locale).cities[d.city]?.name ||
     (dest.cities.find((c) => c.key === d.city) || {}).name;
   const name = d.name || "Destination";
+  // Description: combine the first two existing intro paragraphs (both already on the
+  // page) so the meta is a fuller, more relevant snippet instead of a single short line.
+  // Reuses existing localized prose — no invented copy, no per-page rewriting.
+  let description = d.blurb || "";
+  if (Array.isArray(d.intro) && d.intro[0]) {
+    description = d.intro[0];
+    if (d.intro[1] && description.length + d.intro[1].length + 1 <= 165) {
+      description = `${description} ${d.intro[1]}`;
+    }
+  }
   return pageMeta({
     locale,
     path: `destinations/${params.slug}`,
     title: cityName ? `${name}, ${cityName} — ${SITE_NAME}` : `${name} — ${SITE_NAME}`,
-    description: (Array.isArray(d.intro) && d.intro[0]) || d.blurb,
+    description,
     type: "article",
   });
 }
