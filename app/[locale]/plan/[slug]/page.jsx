@@ -88,7 +88,10 @@ export function generateMetadata({ params }) {
     locale,
     path: `plan/${params.slug}`,
     title: gm?.metaTitle || `${title} — ${SITE_NAME}`,
-    description: item.tagline,
+    // Prefer the guide's TRANSLATED metaDesc (locale i18n only, never the English base)
+    // for a rich page-specific description; fall back to the localized tagline.
+    // Fixes e.g. /ja/plan/help/ leaking the English tagline into <meta description>.
+    description: guideI18n[params.slug]?.[locale]?.metaDesc || item.tagline,
     type: "article",
   });
 }
