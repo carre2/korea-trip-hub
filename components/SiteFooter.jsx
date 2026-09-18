@@ -1,7 +1,7 @@
 // Site-wide slim footer (server component). Rendered on every locale page via the
 // locale layout, so the legal / trust links and the affiliate disclosure are reachable
 // from anywhere — not just the home page.
-import { getMessages } from "../lib/i18n";
+import { getMessages, locales, localeNames } from "../lib/i18n";
 import { legalSlugs, legalFor } from "../lib/legal";
 
 export default function SiteFooter({ locale }) {
@@ -15,6 +15,18 @@ export default function SiteFooter({ locale }) {
         <div className="sitefoot-brand">
           <span className="mark">◆</span> Korea<b>Trip</b>Hub
         </div>
+        {/* Crawlable language links (real <a href>, not just the JS switcher) so every
+            crawler — Baidu especially, which largely ignores hreflang — can discover and
+            reach each language home. Additive; canonical/hreflang are unchanged. */}
+        <nav className="sitefoot-langs" aria-label={f.langNavLabel || "Languages"}>
+          {locales.map((code) =>
+            code === locale ? (
+              <strong key={code} aria-current="true">{localeNames[code]}</strong>
+            ) : (
+              <a key={code} href={`/${code}/`} hrefLang={code}>{localeNames[code]}</a>
+            )
+          )}
+        </nav>
         <nav className="sitefoot-links" aria-label={f.legalNavLabel || "Legal"}>
           {legalSlugs().map((s) => (
             <a key={s} href={`/${locale}/legal/${s}/`}>
