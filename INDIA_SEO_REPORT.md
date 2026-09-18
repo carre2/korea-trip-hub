@@ -33,6 +33,10 @@
 | 파일 | 변경 | 심각도 |
 |---|---|---|
 | `components/FxRates.jsx` | 통화 목록에 **INR 추가**(`{code:"INR",unit:100}`) → money 페이지에서 **100 INR ↔ ₩ 실시간 환산** 표시. 라이브 API(er-api)에 INR 존재, 누락 시 자동 숨김 가드 있음. i18n 무관. | MEDIUM |
+| `data/topics.json` | **신규 가이드 `/en/guides/korea-from-india/`** — 인도 여행객용 계획 허브(비자·예산 프레임워크·항공·채식/할랄음식·SIM·교통·일정을 우리 검증 페이지로 내부링크). **facts-harness 준수: 가격 미기재**, 실제 숫자는 flight tool·money 페이지(INR)로 유도. FAQPage+Article JSON-LD 자동. 커밋 8d9df9b | HIGH |
+| `lib/linkify.jsx` | 가이드 본문에서 `[라벨](/경로/)` **내부 마크다운 링크** 지원(로케일 자동 prefix, 하위호환). | LOW |
+
+**→ §F 권고 B의 첫 실행분(인도 특화 영어 콘텐츠) 완료.** 다음 확장 후보: 비자 페이지 인도 FAQ 보강, 예산/첫여행 세그먼트 일정.
 
 ## F. 핵심 판단: 영어 중심 vs 힌디 추가 (A/B/C/D)
 

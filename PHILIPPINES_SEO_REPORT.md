@@ -28,6 +28,9 @@
 | 파일 | 변경 | 심각도 |
 |---|---|---|
 | `components/FxRates.jsx` | **PHP 추가**(`{code:"PHP",unit:100}`) → money 페이지에서 **100 PHP ↔ ₩ 실시간**. er-api 피드에 PHP 존재, 누락가드 있음, i18n 무관. | MEDIUM |
+| `data/topics.json` | **신규 가이드 `/en/guides/korea-from-philippines/`** — 필리핀 여행객용 계획 허브(비자[무료]·마닐라 항공·예산·SIM·교통·음식·일정을 우리 검증 페이지로 내부링크). **facts-harness 준수: 가격 미기재**. FAQPage+Article JSON-LD 자동. 커밋 8d9df9b | HIGH |
+
+**→ §F 권고 B의 첫 실행분(필리핀 특화 영어 콘텐츠) 완료.** 다음: Manila 항공·비자 무료 강조·예산 세그먼트.
 
 ## F. 판단: A/B/C/D
 ### 권고: **B — 영어 유지 + 필리핀 특화(영어) 콘텐츠** *(잠정, GSC 확인 전제)*
