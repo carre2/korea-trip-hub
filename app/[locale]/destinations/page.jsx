@@ -37,7 +37,7 @@ export function generateMetadata({ params }) {
     locale,
     path: "destinations",
     title: `${m.dest.title} — ${SITE_NAME}`,
-    description: m.dest.sub,
+    description: m.dest.metaDesc || m.dest.sub,
   });
 }
 

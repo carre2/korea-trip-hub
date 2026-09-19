@@ -41,7 +41,7 @@ export function generateMetadata({ params }) {
     locale,
     path: "food",
     title: `${m.food.title} — ${SITE_NAME}`,
-    description: m.food.sub,
+    description: m.food.metaDesc || m.food.sub,
   });
 }
 

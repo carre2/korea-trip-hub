@@ -27,7 +27,7 @@ export function generateMetadata({ params }) {
     locale,
     path: "guides",
     title: `${gm.title || "Korea travel guides"} — ${SITE_NAME}`,
-    description: gm.sub || "Seasonal and topic guides for visiting Korea.",
+    description: gm.metaDesc || gm.sub || "Seasonal and topic guides for visiting Korea.",
   });
 }
 
