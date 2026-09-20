@@ -40,6 +40,12 @@ export default function ItineraryHub({ params }) {
       </div>
       <p className="art-tagline">{ui.hubTagline}</p>
 
+      {Array.isArray(ui.hubIntro) && ui.hubIntro.length > 0 && (
+        <div className="art-intro">
+          {ui.hubIntro.map((p, i) => <p key={i} className={i ? "lead" : ""}>{p}</p>)}
+        </div>
+      )}
+
       <div className="vcg-hub-grid">
         {I.order.map((slug) => {
           const it = ITEMS[slug];
