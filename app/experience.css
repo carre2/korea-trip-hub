@@ -222,3 +222,13 @@ body:has(.consent) .korea-welcome{display:none}
 @media(max-width:599px){.journey-hero{padding-top:16px}.journey-cover{inset:0 16px}.journey-hero-grid{min-height:610px;padding-block:40px 120px}.journey-intro{padding-inline:14px}.journey-intro h1{font-size:40px}.journey-cover>a::after{background:linear-gradient(90deg,rgba(9,26,32,.90),rgba(9,26,32,.55))}.journey-cover>a>span{right:14px;bottom:60px}.journey-cover figcaption{text-align:left;line-height:1.4;font-size:9px}.journey-photo-grid{grid-template-columns:1fr 1fr;gap:12px}.journey-place>a>div{padding:12px}.journey-place h3{font-size:16px}.journey-place p{font-size:12px}.korea-welcome{right:12px;bottom:88px}.korea-guide-fab{width:56px;height:56px}.cw-panel{bottom:80px;max-height:calc(100dvh - 96px)}}
 @media print{.korea-welcome{display:none!important}}
 .journey-home .journey-intro h1{overflow-wrap:normal;word-break:keep-all;max-width:14ch}
+/* Transparent 3D character, facing left toward the page. */
+.korea-guide-fab{width:96px;height:148px;right:16px;bottom:12px;border:0;border-radius:0;background:transparent;box-shadow:none;overflow:visible;padding:0;transition:width .2s,height .2s}
+.korea-guide-fab img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 4px 5px rgba(0,0,0,.18))}
+.korea-guide-fab.is-welcoming{width:156px;height:240px}
+.korea-guide-fab[aria-expanded="true"]{width:48px;height:48px;border:1px solid var(--border);border-radius:50%;background:var(--surface);color:var(--text)}
+.korea-welcome{right:180px;bottom:138px;width:min(260px,calc(100vw - 204px));padding:22px 18px 16px;display:block;border-radius:18px}
+.korea-welcome::after{content:"";position:absolute;right:-7px;bottom:28px;width:12px;height:12px;background:var(--surface);border-top:1px solid var(--border-strong);border-right:1px solid var(--border-strong);transform:rotate(45deg)}
+.korea-welcome-message{padding:8px 0 0}.korea-welcome-message strong{font-size:17px}.korea-chat-avatar{border-radius:0;object-fit:contain;width:34px;height:50px}
+@media(max-width:599px){.korea-guide-fab{width:76px;height:116px;right:8px;bottom:10px}.korea-guide-fab.is-welcoming{width:112px;height:172px}.korea-welcome{right:132px;bottom:92px;width:calc(100vw - 148px);max-width:250px;padding:24px 12px 12px}.korea-welcome-message strong{font-size:15px}.korea-welcome-message small{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.korea-guide-fab{transition:none}}

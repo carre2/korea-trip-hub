@@ -92,21 +92,20 @@ export default function ChatWidget({ locale = "en", labels = {} }) {
       {!open && !bubbleOff && (
         <div className="korea-welcome" role="region" aria-label={t.title}>
           <button className="korea-welcome-close" aria-label={t.close} onClick={dismissBubble}>✕</button>
-          <img src="/img/hanbok-guide.png" alt="" width="108" height="108" />
           <button className="korea-welcome-message" onClick={() => { setOpen(true); dismissBubble(); }}>
             <small>{t.virtualGuide}</small><strong>{t.bubble}</strong><span>{t.title} ↗</span>
           </button>
         </div>
       )}
 
-      <button className="cw-fab korea-guide-fab" aria-label={t.title || "Ask for help"} aria-expanded={open} aria-controls="korea-chat-panel" onClick={toggleOpen}>
-        {open ? "✕" : <img src="/img/hanbok-guide.png" alt="" width="56" height="56" />}
+      <button className={`cw-fab korea-guide-fab ${!open && !bubbleOff ? "is-welcoming" : ""}`} aria-label={t.title || "Ask for help"} aria-expanded={open} aria-controls="korea-chat-panel" onClick={toggleOpen}>
+        {open ? "✕" : <img src="/img/hanbok-guide-3d.png" alt="" width="120" height="180" />}
       </button>
 
       {open && (
         <div id="korea-chat-panel" className="cw-panel" role="dialog" aria-label={t.title || "Korea Trip Hub Assistant"}>
           <div className="cw-head">
-            <b><img className="korea-chat-avatar" src="/img/hanbok-guide.png" alt="" width="40" height="40" /> {t.title}<small className="korea-chat-label">{t.virtualGuide}</small></b>
+            <b><img className="korea-chat-avatar" src="/img/hanbok-guide-3d.png" alt="" width="40" height="40" /> {t.title}<small className="korea-chat-label">{t.virtualGuide}</small></b>
             <button className="cw-x" aria-label={t.close} onClick={() => setOpen(false)}>✕</button>
           </div>
 
