@@ -25,12 +25,23 @@ function renderReply(text) {
 export default function ChatWidget({ locale = "en", labels = {} }) {
   const t = labels;
   const [open, setOpen] = useState(false);
+  const [guideSrc, setGuideSrc] = useState(null);
   const [msgs, setMsgs] = useState([]); // {role, content}
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
   const [coords, setCoords] = useState(null);
   const [bubbleOff, setBubbleOff] = useState(true);
   const scroller = useRef(null);
+
+  useEffect(() => {
+    let guide;
+    try { guide = sessionStorage.getItem('kth-guide-character'); } catch {}
+    if (guide !== 'female' && guide !== 'male') {
+      guide = Math.random() < 0.5 ? 'female' : 'male';
+      try { sessionStorage.setItem('kth-guide-character', guide); } catch {}
+    }
+    setGuideSrc(guide === 'male' ? '/img/hanbok-guide-male-3d.png' : '/img/hanbok-guide-3d.png');
+  }, []);
 
   useEffect(() => { if (scroller.current) scroller.current.scrollTop = scroller.current.scrollHeight; }, [msgs, busy, open]);
   useEffect(() => {
@@ -99,13 +110,13 @@ export default function ChatWidget({ locale = "en", labels = {} }) {
       )}
 
       <button className={`cw-fab korea-guide-fab ${!open && !bubbleOff ? "is-welcoming" : ""}`} aria-label={t.title || "Ask for help"} aria-expanded={open} aria-controls="korea-chat-panel" onClick={toggleOpen}>
-        {open ? "✕" : <img src="/img/hanbok-guide-3d.png" alt="" width="120" height="180" />}
+        {open ? "✕" : guideSrc && <img src={guideSrc} alt="" width="120" height="180" />}
       </button>
 
       {open && (
         <div id="korea-chat-panel" className="cw-panel" role="dialog" aria-label={t.title || "Korea Trip Hub Assistant"}>
           <div className="cw-head">
-            <b><img className="korea-chat-avatar" src="/img/hanbok-guide-3d.png" alt="" width="40" height="40" /> {t.title}<small className="korea-chat-label">{t.virtualGuide}</small></b>
+            <b>{guideSrc && <img className="korea-chat-avatar" src={guideSrc} alt="" width="40" height="40" />} {t.title}<small className="korea-chat-label">{t.virtualGuide}</small></b>
             <button className="cw-x" aria-label={t.close} onClick={() => setOpen(false)}>✕</button>
           </div>
 
