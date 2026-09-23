@@ -1,6 +1,7 @@
 import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
 import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
+import topicImages from "../../../data/topic-images.json";
 import topics from "../../../data/topics.json";
 import topicsZh from "../../../data/topics.zh.json";
 import topicsZhTW from "../../../data/topics.zh-TW.json";
@@ -58,8 +59,8 @@ export default function GuidesHub({ params }) {
             const g = ov ? { ...base, ...ov } : base;
             return (
               <a key={slug} className="card" href={`/${locale}/guides/${slug}/`}>
-                <div className="thumb" style={{ background: `linear-gradient(135deg, ${g.color}, ${g.color}bb)` }}>
-                  <span style={{ fontSize: 44 }}>{g.icon}</span>
+                <div className="thumb guide-photo">
+                  <img src={topicImages[slug].img} alt="" loading="lazy" width="640" height="400" />
                   {g.kicker && (
                     <span className="pill" style={{ position: "absolute", bottom: 12, left: 12, background: "rgba(255,255,255,.85)", color: "#333" }}>
                       {g.kicker}
@@ -73,6 +74,9 @@ export default function GuidesHub({ params }) {
               </a>
             );
           })}
+        </div>
+        <div className="guide-photo-credits">
+          {topics.order.map(slug => <a key={slug} href={topicImages[slug].creditUrl} target="_blank" rel="noopener noreferrer">{(topicI18n[locale]?.items?.[slug] || topics.items[slug]).h1} — {topicImages[slug].credit}</a>)}
         </div>
       </div>
     </section>
