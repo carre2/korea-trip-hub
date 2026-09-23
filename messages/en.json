@@ -115,7 +115,7 @@
     "unavailable": "Being verified"
   },
   "footer": {
-    "tagline": "The all-in-one hub for visiting Korea — plan, explore, eat and experience, in 10 languages.",
+    "tagline": "From entry essentials to days worth remembering. Start with what you need, save the trip you love.",
     "disclaimer": "Travel facts are checked against official sources with a verification date. Prices, schedules and visa rules change — always confirm at the linked official source before you travel.",
     "legalNav": {
       "about": "About",
@@ -284,7 +284,32 @@
     "window": "Apply window",
     "yellow": "Yellow bus"
   },
-  "facts": {},
+  "facts": {
+    "keta-exemption": {
+      "claim": "The temporary K-ETA waiver applies only to designated countries and regions through 2026-12-31. Visa-free entry does not automatically mean K-ETA exemption. Check the official notice again for later travel dates.",
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
+    },
+    "keta-fee-validity": {
+      "claim": "K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay.",
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
+    },
+    "keta-apply-window": {
+      "claim": "Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed.",
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
+    },
+    "keta-exempt-countries": {
+      "claim": "The temporary K-ETA waiver applies only to designated countries and regions through 2026-12-31. Visa-free entry does not automatically mean K-ETA exemption. Check the official notice again for later travel dates.",
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
+    },
+    "earrival-card-how": {
+      "claim": "The e-Arrival Card is conditional. Valid K-ETA holders entering under K-ETA and valid Korean residence-card holders are exempt. A traveler entering with a visa may need the declaration even when also holding K-ETA. Other exceptions exist: use the official navigator for your documents and journey. This is an immigration declaration, separate from customs.",
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
+    },
+    "keta-age-exemption": {
+      "claim": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card.",
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
+    }
+  },
   "consent": {
     "title": "We value your privacy",
     "body": "We use cookies to measure traffic (Google Analytics) only if you accept. The site works either way.",
@@ -323,7 +348,7 @@
     "dealHotelSub": "Compare Seoul, Busan & Jeju stays",
     "dealHotelGo": "See where to stay",
     "mapTitle": "Search on your map of choice",
-    "trustLangs": "10 languages",
+    "trustLangs": "12 languages",
     "mapEyebrow": "Find your way",
     "mapSub": "Search any address or place on Naver or Kakao maps, right here."
   },
@@ -407,5 +432,73 @@
     "answersTitle": "Popular questions — answered",
     "answersLead": "Quick answers to the visa and K-ETA questions travelers ask most. Open any question, and see your nationality's full walkthrough in the visa guide.",
     "answersMore": "Open the full Visa & K-ETA guide →"
+  },
+  "experience": {
+    "heroTitle": "Korea, at your own pace.",
+    "heroSub": "From entry essentials to days worth remembering. Start with what you need, save the trip you love.",
+    "start": "Start planning",
+    "free": "Free to use · No account needed",
+    "languages": "{n} languages",
+    "myTrip": "My trip",
+    "entry": "Entry & visas",
+    "arrival": "Your first day",
+    "explore": "Places & food",
+    "entrySub": "Find the guide for your passport",
+    "arrivalSub": "Airport transfers, connectivity and payment",
+    "exploreSub": "Discover places to add to your plans",
+    "chooseTitle": "Where would you like to start?",
+    "essentials": "Before you travel",
+    "plannerTitle": "Make this trip yours.",
+    "plannerSub": "Choose a suggested route, remove stops, and save it for later. Check current opening hours and transport before travelling.",
+    "chooseRoute": "Choose your itinerary",
+    "preview": "Preview itinerary",
+    "save": "Save my trip",
+    "saved": "Saved on this device",
+    "removeSave": "Remove saved trip",
+    "removed": "Saved trip removed",
+    "storageNote": "Saved in this browser only. Shared links include your route and selected stops, not your checklist.",
+    "storageError": "This browser could not save your trip. Copy a link to keep it instead.",
+    "shared": "Shared itinerary loaded",
+    "copy": "Copy trip link",
+    "copyDone": "Trip link copied",
+    "copyError": "Could not copy. Select and copy the link below.",
+    "print": "Print itinerary",
+    "checklist": "Your travel checklist",
+    "progress": "{done} / {total} ready",
+    "resume": "Continue my trip",
+    "empty": "Choose an itinerary to begin.",
+    "resetChecklist": "Reset checklist",
+    "removeStop": "Remove stop",
+    "restoreStops": "Restore all stops",
+    "customize": "Adjust your stops",
+    "invalidShare": "This trip link is not supported. Choose a route below.",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "language": "Language",
+    "theme": "Change theme",
+    "skip": "Skip to content",
+    "book": "Book on {partner}",
+    "details": "Read the full guide",
+    "visaHint": "Passport country not listed? Check your requirements with the official immigration service.",
+    "guideScope": "Requirements depend on your passport, age, purpose of travel and valid documents. Confirm your circumstances with the official source.",
+    "firstDay": "Prepare for arrival",
+    "nextTitle": "Next, prepare for your arrival",
+    "nextSub": "Plan your airport transfer, stay connected, and keep your travel checklist together.",
+    "nearby": "Find nearby",
+    "nearbyHint": "Check options in your map app",
+    "readingTime": "{n} min read",
+    "addPlace": "Add to my trip",
+    "placeSaved": "Place saved",
+    "savedPlaces": "Saved places",
+    "placesHint": "Reorder this shortlist before adding it to your day-by-day plan. Travel times are not calculated.",
+    "placesEmpty": "Save places from destination and food pages.",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "clearPlaces": "Clear saved places",
+    "contents": "On this page",
+    "officialCheck": "Official check",
+    "continuePrep": "Continue preparing",
+    "entryScope": "Your passport and travel conditions determine the rules. Check age, travel date, purpose and valid documents on the official sites.",
+    "placeTitle": "{place}, {city}: travel guide"
   }
 }

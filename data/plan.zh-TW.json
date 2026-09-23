@@ -4,14 +4,24 @@
     "visa": {
       "tagline": "入境韓國需要簽證或 K-ETA 嗎？這裡說明大多數短期遊客的入境流程。",
       "intro": [
-        "多數遊客為短期停留，無需提前辦簽證即可入境。但具體規定因國籍而異，出行前請務必在官方來源確認你自己的情況。",
-        "截至 2026 年，韓國對符合條件的免簽國國民臨時免除 K-ETA（電子旅行許可）。即使免除 K-ETA，所有入境者仍須填寫 e-Arrival Card。"
+        "選擇護照核發國家的指南，再到官方網站核對旅行目的、入境日期、年齡及有效證件。網站語言不代表國籍。"
       ],
       "tips": [
-        "確認你的國籍 — 免簽停留天數因國家而異（常見為 30、60 或 90 天）。",
-        "護照在停留期間應保持有效。",
-        "線上提前或抵達時填寫 e-Arrival Card，即可省去紙本表格。",
-        "如有疑問，請聯繫最近的韓國大使館或領事館。"
+        "請在官方網站確認自身情況。最終入境決定由入境審查作出。"
+      ],
+      "official": [
+        {
+          "name": "K-ETA",
+          "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN"
+        },
+        {
+          "name": "e-Arrival Card",
+          "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E"
+        },
+        {
+          "name": "Korea Visa Portal",
+          "url": "https://www.visa.go.kr"
+        }
       ]
     },
     "transit": {

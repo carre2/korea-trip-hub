@@ -5,7 +5,7 @@
     "readingTime": "5分で読めます",
     "h1": "日本から韓国への入国ガイド",
     "metaTitle": "日本から韓国へ：ビザの要否と入国ガイド（2026）— Korea Trip Hub",
-    "metaDesc": "日本から韓国へ、ビザは必要？いいえ — ビザ不要で、K-ETAも2026年まで免除中です。無料のe-Arrival Cardを申請し、入国手順に従いましょう。滞在：最長90日。",
+    "metaDesc": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。",
     "ui": {
       "visa": "ビザ",
       "stay": "滞在",
@@ -22,7 +22,7 @@
     },
     "verdict": {
       "headline": "観光ビザは不要 — 日本のパスポートはビザ免除です。",
-      "sub": "短期観光ならビザの申請は一切不要です。現在はK-ETAも免除されているため、やるべきことは到着前に無料のe-Arrival Cardを申請することだけです。",
+      "sub": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。",
       "type": "ビザ不要（K-ETAは現在免除）",
       "stay": "最長90日",
       "entry": "短期観光"
@@ -32,18 +32,18 @@
         "icon": "✅",
         "tone": "green",
         "title": "ビザ不要、K-ETAも2026年まで免除",
-        "body": "日本は2026年12月31日までK-ETAが免除される22か国の一つで、短期観光ならビザもK-ETAも申請不要です。この免除は終了予定で、2027年1月1日にK-ETAが復活します — 渡航前に再確認してください。"
+        "body": "K-ETAの一時免除は、指定された国・地域にのみ2026-12-31まで適用されます。ビザなしで入国できても、K-ETAが自動的に免除されるわけではありません。それ以降の渡航は公式のお知らせを再確認してください。"
       },
       {
         "icon": "📝",
         "tone": "blue",
         "title": "e-Arrival Cardは引き続き必要です",
-        "body": "ほぼすべての渡航者が、到着の72時間前以内にe-arrivalcard.go.krで無料のe-Arrival Cardを申請します。（有効なK-ETA保持者は免除されますが、K-ETAが免除されている今はe-Arrival Cardを申請しましょう。）"
+        "body": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。"
       }
     ],
     "tldr": [
       "現在は観光ビザもK-ETAも不要 — 日本はビザ免除で、2026年までK-ETAも免除されています。",
-      "到着の72時間前以内に、e-arrivalcard.go.krで無料のe-Arrival Cardを必ず申請しましょう。",
+      "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。",
       "滞在期間中有効なパスポートと、出国・帰国便の予約証明を用意しましょう。",
       "滞在は最長90日です。"
     ],
@@ -160,11 +160,11 @@
         },
         {
           "q": "K-ETAは必要ですか？",
-          "a": "現在は不要です。日本は2026年12月31日までK-ETAが免除される22か国に含まれます。この要件は延長されない限り2027年1月1日に復活する予定です。"
+          "a": "K-ETAの一時免除は、指定された国・地域にのみ2026-12-31まで適用されます。ビザなしで入国できても、K-ETAが自動的に免除されるわけではありません。それ以降の渡航は公式のお知らせを再確認してください。"
         },
         {
           "q": "e-Arrival Cardは必要ですか？",
-          "a": "はい — ほとんどの渡航者は、到着の72時間前以内にe-arrivalcard.go.krで無料のe-Arrival Cardを申請します。"
+          "a": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。"
         },
         {
           "q": "どのくらい滞在できますか？",
@@ -176,7 +176,7 @@
         },
         {
           "q": "K-ETAはいつ復活しますか？",
-          "a": "免除は2026年12月31日に終了予定で、延長されない限り2027年1月1日にK-ETAが再開します — 渡航日の直前に再確認してください。"
+          "a": "K-ETAの一時免除は、指定された国・地域にのみ2026-12-31まで適用されます。ビザなしで入国できても、K-ETAが自動的に免除されるわけではありません。それ以降の渡航は公式のお知らせを再確認してください。"
         },
         {
           "q": "韓国に入国するのに復路または先の便のチケットは必要ですか？",
@@ -191,14 +191,40 @@
           "a": "着陸の少し前に無料の e-Arrival Card を記入し、その後、入国審査と税関を通過します。尋ねられた場合に備えて、宿泊先の住所と復路のチケットを用意しておきましょう。"
         }
       ]
-    }
+    },
+    "official": [
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr",
+        "what": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。"
+      },
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr",
+        "what": "Check status (currently waived)"
+      },
+      {
+        "icon": "🏛️",
+        "name": "HiKorea",
+        "url": "https://www.hikorea.go.kr",
+        "what": "Immigration & extensions (MOJ)"
+      },
+      {
+        "icon": "🌏",
+        "name": "Embassy of Korea in Japan",
+        "url": "https://overseas.mofa.go.kr/jp-ja/index.do",
+        "what": "Official notices for your country"
+      }
+    ]
   },
   "ko": {
     "kicker": "입국 가이드 · 일본 → 한국",
     "readingTime": "읽는 데 5분",
     "h1": "일본에서 한국으로 입국 가이드",
     "metaTitle": "일본에서 한국으로: 비자 요건과 입국 가이드(2026) — Korea Trip Hub",
-    "metaDesc": "일본에서 한국에 갈 때 비자가 필요할까요? 아니요 — 무비자이며, K-ETA도 2026년까지 면제됩니다. 무료 e-Arrival Card를 신청하고 입국 절차를 따르세요. 체류: 최대 90일.",
+    "metaDesc": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다.",
     "ui": {
       "visa": "비자",
       "stay": "체류",
@@ -215,7 +241,7 @@
     },
     "verdict": {
       "headline": "관광 비자는 필요 없습니다 — 일본 여권은 무비자입니다.",
-      "sub": "단기 관광이라면 어떤 비자도 신청하지 않습니다. 지금은 K-ETA도 면제되므로, 해야 할 일은 도착 전에 무료 e-Arrival Card를 신청하는 것뿐입니다.",
+      "sub": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다.",
       "type": "무비자(현재 K-ETA 면제)",
       "stay": "최대 90일",
       "entry": "단기 관광"
@@ -225,18 +251,18 @@
         "icon": "✅",
         "tone": "green",
         "title": "비자 불필요, K-ETA도 2026년까지 면제",
-        "body": "일본은 2026년 12월 31일까지 K-ETA가 면제되는 22개국 중 하나로, 단기 관광에는 비자도 K-ETA도 신청하지 않습니다. 이 면제는 종료될 예정이며 2027년 1월 1일에 K-ETA가 다시 시행됩니다 — 여행 전에 다시 확인하세요."
+        "body": "K-ETA 한시 면제는 지정된 국가·지역에만 2026-12-31까지 적용됩니다. 무비자 입국 대상이라고 자동으로 K-ETA가 면제되는 것은 아닙니다. 이후 여행은 공식 공지를 다시 확인하세요."
       },
       {
         "icon": "📝",
         "tone": "blue",
         "title": "e-Arrival Card는 여전히 필요합니다",
-        "body": "거의 모든 방문객은 도착 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 신청합니다. (유효한 K-ETA 소지자는 면제되지만, K-ETA가 면제된 지금은 e-Arrival Card를 신청해야 합니다.)"
+        "body": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다."
       }
     ],
     "tldr": [
       "지금은 관광 비자도 K-ETA도 필요 없습니다 — 일본은 무비자이며 2026년까지 K-ETA가 면제됩니다.",
-      "도착 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 꼭 신청하세요.",
+      "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다.",
       "체류 기간 동안 유효한 여권과 출국·귀국 여정 증빙을 준비하세요.",
       "최대 90일 동안 체류할 수 있습니다."
     ],
@@ -353,11 +379,11 @@
         },
         {
           "q": "K-ETA가 필요한가요?",
-          "a": "지금은 필요 없습니다. 일본은 2026년 12월 31일까지 K-ETA가 면제되는 22개국에 포함됩니다. 이 요건은 연장되지 않는 한 2027년 1월 1일에 다시 시행될 예정입니다."
+          "a": "K-ETA 한시 면제는 지정된 국가·지역에만 2026-12-31까지 적용됩니다. 무비자 입국 대상이라고 자동으로 K-ETA가 면제되는 것은 아닙니다. 이후 여행은 공식 공지를 다시 확인하세요."
         },
         {
           "q": "e-Arrival Card는 여전히 필요한가요?",
-          "a": "네 — 대부분의 방문객은 도착 72시간 이내에 e-arrivalcard.go.kr에서 무료 e-Arrival Card를 신청합니다."
+          "a": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다."
         },
         {
           "q": "얼마나 머물 수 있나요?",
@@ -369,7 +395,7 @@
         },
         {
           "q": "K-ETA는 언제 다시 시행되나요?",
-          "a": "면제는 2026년 12월 31일에 종료될 예정이며, 연장되지 않는 한 2027년 1월 1일에 K-ETA가 재개됩니다 — 여행 날짜에 가까워지면 다시 확인하세요."
+          "a": "K-ETA 한시 면제는 지정된 국가·지역에만 2026-12-31까지 적용됩니다. 무비자 입국 대상이라고 자동으로 K-ETA가 면제되는 것은 아닙니다. 이후 여행은 공식 공지를 다시 확인하세요."
         },
         {
           "q": "한국에 입국하려면 왕복 또는 다음 여정 항공권이 필요한가요?",
@@ -384,14 +410,40 @@
           "a": "착륙 직전에 무료 e-Arrival Card를 작성한 뒤 입국심사와 세관을 통과하세요. 요청받을 경우를 대비해 숙소 주소와 귀국 항공권 정보를 준비해 두세요."
         }
       ]
-    }
+    },
+    "official": [
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr",
+        "what": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다."
+      },
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr",
+        "what": "Check status (currently waived)"
+      },
+      {
+        "icon": "🏛️",
+        "name": "HiKorea",
+        "url": "https://www.hikorea.go.kr",
+        "what": "Immigration & extensions (MOJ)"
+      },
+      {
+        "icon": "🌏",
+        "name": "Embassy of Korea in Japan",
+        "url": "https://overseas.mofa.go.kr/jp-ja/index.do",
+        "what": "Official notices for your country"
+      }
+    ]
   },
   "zh": {
     "kicker": "入境指南 · 日本 → 韩国",
     "readingTime": "阅读 5 分钟",
     "h1": "日本人去韩国要签证吗？免签",
     "metaTitle": "日本护照去韩国要签证吗？免签（2026）— Korea Trip Hub",
-    "metaDesc": "从日本前往韩国需要签证吗？不需要 — 免签，且 K-ETA 在 2026 年前也予以豁免。请填写免费的 e-Arrival Card 并按入境步骤操作。停留：最多 90 天。",
+    "metaDesc": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。",
     "ui": {
       "visa": "签证",
       "stay": "停留",
@@ -408,7 +460,7 @@
     },
     "verdict": {
       "headline": "无需旅游签证 — 日本护照免签。",
-      "sub": "短期旅游无需申请任何签证。目前 K-ETA 也已豁免，因此你要做的只是在抵达前填写免费的 e-Arrival Card。",
+      "sub": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。",
       "type": "免签（目前 K-ETA 豁免）",
       "stay": "最多 90 天",
       "entry": "短期旅游"
@@ -418,18 +470,18 @@
         "icon": "✅",
         "tone": "green",
         "title": "无需签证，K-ETA 也豁免至 2026 年",
-        "body": "日本是 2026 年 12 月 31 日前免除 K-ETA 的 22 个国家之一，短期旅游既无需签证也无需 K-ETA。该豁免将到期，K-ETA 于 2027 年 1 月 1 日恢复 — 出行前请再次确认。"
+        "body": "K-ETA临时豁免仅适用于指定国家和地区，有效至2026-12-31。免签入境不等于自动免除K-ETA。之后的旅行请重新查看官方公告。"
       },
       {
         "icon": "📝",
         "tone": "blue",
         "title": "你仍然需要 e-Arrival Card",
-        "body": "几乎每位访客都会在抵达前 72 小时内在 e-arrivalcard.go.kr 填写免费的 e-Arrival Card。（持有效 K-ETA 者可豁免，但在 K-ETA 豁免期间，你应填写 e-Arrival Card。）"
+        "body": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。"
       }
     ],
     "tldr": [
       "目前既不需要旅游签证也不需要 K-ETA — 日本免签，且 K-ETA 豁免至 2026 年。",
-      "请务必在抵达前 72 小时内在 e-arrivalcard.go.kr 填写免费的 e-Arrival Card。",
+      "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。",
       "携带在停留期内有效的护照，以及续程/返程行程的证明。",
       "你最多可停留 90 天。"
     ],
@@ -546,11 +598,11 @@
         },
         {
           "q": "我需要 K-ETA 吗？",
-          "a": "目前不需要。日本属于 2026 年 12 月 31 日前免除 K-ETA 的 22 个国家之一。除非延期，该要求将于 2027 年 1 月 1 日恢复。"
+          "a": "K-ETA临时豁免仅适用于指定国家和地区，有效至2026-12-31。免签入境不等于自动免除K-ETA。之后的旅行请重新查看官方公告。"
         },
         {
           "q": "我仍然需要 e-Arrival Card 吗？",
-          "a": "是的 — 大多数访客会在抵达前 72 小时内在 e-arrivalcard.go.kr 填写免费的 e-Arrival Card。"
+          "a": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。"
         },
         {
           "q": "我可以停留多久？",
@@ -562,7 +614,7 @@
         },
         {
           "q": "K-ETA 何时恢复？",
-          "a": "豁免定于 2026 年 12 月 31 日结束，除非延期，K-ETA 将于 2027 年 1 月 1 日恢复 — 请在临近出行日期时再次确认。"
+          "a": "K-ETA临时豁免仅适用于指定国家和地区，有效至2026-12-31。免签入境不等于自动免除K-ETA。之后的旅行请重新查看官方公告。"
         },
         {
           "q": "入境韩国需要回程或续程机票吗？",
@@ -577,14 +629,40 @@
           "a": "落地前不久填写免费的 e-Arrival Card，随后通过移民与海关检查。请备好住宿地址和回程机票，以备查问。"
         }
       ]
-    }
+    },
+    "official": [
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr",
+        "what": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。"
+      },
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr",
+        "what": "Check status (currently waived)"
+      },
+      {
+        "icon": "🏛️",
+        "name": "HiKorea",
+        "url": "https://www.hikorea.go.kr",
+        "what": "Immigration & extensions (MOJ)"
+      },
+      {
+        "icon": "🌏",
+        "name": "Embassy of Korea in Japan",
+        "url": "https://overseas.mofa.go.kr/jp-ja/index.do",
+        "what": "Official notices for your country"
+      }
+    ]
   },
   "zh-TW": {
     "kicker": "入境指南 · 日本 → 韓國",
     "readingTime": "閱讀 5 分鐘",
     "h1": "日本人去韓國要簽證嗎？免簽",
     "metaTitle": "日本護照去韓國要簽證嗎？免簽（2026）— Korea Trip Hub",
-    "metaDesc": "從日本前往韓國需要簽證嗎？不需要 — 免簽，且 K-ETA 在 2026 年前也予以豁免。請填寫免費的 e-Arrival Card 並依入境步驟操作。停留：最多 90 天。",
+    "metaDesc": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。",
     "ui": {
       "visa": "簽證",
       "stay": "停留",
@@ -601,7 +679,7 @@
     },
     "verdict": {
       "headline": "無需觀光簽證 — 日本護照免簽。",
-      "sub": "短期觀光無需申請任何簽證。目前 K-ETA 也已豁免，因此你要做的只是在抵達前填寫免費的 e-Arrival Card。",
+      "sub": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。",
       "type": "免簽（目前 K-ETA 豁免）",
       "stay": "最多 90 天",
       "entry": "短期觀光"
@@ -611,18 +689,18 @@
         "icon": "✅",
         "tone": "green",
         "title": "無需簽證，K-ETA 也豁免至 2026 年",
-        "body": "日本是 2026 年 12 月 31 日前免除 K-ETA 的 22 個國家之一，短期觀光既無需簽證也無需 K-ETA。該豁免將到期，K-ETA 於 2027 年 1 月 1 日恢復 — 出行前請再次確認。"
+        "body": "K-ETA臨時豁免僅適用於指定國家和地區，有效至2026-12-31。免簽入境不等於自動免除K-ETA。之後的旅行請重新查看官方公告。"
       },
       {
         "icon": "📝",
         "tone": "blue",
         "title": "你仍然需要 e-Arrival Card",
-        "body": "幾乎每位旅客都會在抵達前 72 小時內於 e-arrivalcard.go.kr 填寫免費的 e-Arrival Card。（持有效 K-ETA 者可豁免，但在 K-ETA 豁免期間，你應填寫 e-Arrival Card。）"
+        "body": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。"
       }
     ],
     "tldr": [
       "目前既不需要觀光簽證也不需要 K-ETA — 日本免簽，且 K-ETA 豁免至 2026 年。",
-      "請務必在抵達前 72 小時內於 e-arrivalcard.go.kr 填寫免費的 e-Arrival Card。",
+      "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。",
       "攜帶在停留期內有效的護照，以及續程/回程行程的證明。",
       "你最多可停留 90 天。"
     ],
@@ -739,11 +817,11 @@
         },
         {
           "q": "我需要 K-ETA 嗎？",
-          "a": "目前不需要。日本屬於 2026 年 12 月 31 日前免除 K-ETA 的 22 個國家之一。除非延期，該要求將於 2027 年 1 月 1 日恢復。"
+          "a": "K-ETA臨時豁免僅適用於指定國家和地區，有效至2026-12-31。免簽入境不等於自動免除K-ETA。之後的旅行請重新查看官方公告。"
         },
         {
           "q": "我仍然需要 e-Arrival Card 嗎？",
-          "a": "是的 — 大多數旅客會在抵達前 72 小時內於 e-arrivalcard.go.kr 填寫免費的 e-Arrival Card。"
+          "a": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。"
         },
         {
           "q": "我可以停留多久？",
@@ -755,7 +833,7 @@
         },
         {
           "q": "K-ETA 何時恢復？",
-          "a": "豁免預定於 2026 年 12 月 31 日結束，除非延期，K-ETA 將於 2027 年 1 月 1 日恢復 — 請在臨近出行日期時再次確認。"
+          "a": "K-ETA臨時豁免僅適用於指定國家和地區，有效至2026-12-31。免簽入境不等於自動免除K-ETA。之後的旅行請重新查看官方公告。"
         },
         {
           "q": "入境韓國需要回程或續程機票嗎？",
@@ -770,14 +848,40 @@
           "a": "落地前不久填寫免費的 e-Arrival Card，隨後通過移民與海關查驗。請備好住宿地址和回程機票，以備查問。"
         }
       ]
-    }
+    },
+    "official": [
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr",
+        "what": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。"
+      },
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr",
+        "what": "Check status (currently waived)"
+      },
+      {
+        "icon": "🏛️",
+        "name": "HiKorea",
+        "url": "https://www.hikorea.go.kr",
+        "what": "Immigration & extensions (MOJ)"
+      },
+      {
+        "icon": "🌏",
+        "name": "Embassy of Korea in Japan",
+        "url": "https://overseas.mofa.go.kr/jp-ja/index.do",
+        "what": "Official notices for your country"
+      }
+    ]
   },
   "es": {
     "kicker": "Guía de entrada · Japón → Corea",
     "readingTime": "5 min de lectura",
     "h1": "Guía de entrada a Corea desde Japón",
     "metaTitle": "De Japón a Corea: requisitos de visado y guía de entrada (2026) — Korea Trip Hub",
-    "metaDesc": "¿Los viajeros de Japón necesitan visado para Corea del Sur? No — sin visado, con la K-ETA exenta hasta 2026. Rellena la e-Arrival Card gratuita y sigue los pasos de entrada. Estancia: hasta 90 días.",
+    "metaDesc": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera.",
     "ui": {
       "visa": "Visado",
       "stay": "Estancia",
@@ -794,7 +898,7 @@
     },
     "verdict": {
       "headline": "No necesitas visado de turista — los pasaportes de Japón entran sin visado.",
-      "sub": "Para el turismo de corta duración no solicitas ningún visado. Ahora mismo la K-ETA también está exenta, así que lo único que debes hacer es rellenar la e-Arrival Card gratuita antes de aterrizar.",
+      "sub": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera.",
       "type": "Sin visado (K-ETA actualmente exenta)",
       "stay": "Hasta 90 días",
       "entry": "Turismo de corta duración"
@@ -804,18 +908,18 @@
         "icon": "✅",
         "tone": "green",
         "title": "Sin visado, y K-ETA exenta hasta 2026",
-        "body": "Japón es uno de los 22 países exentos de la K-ETA hasta el 31 dic 2026, por lo que no solicitas ni visado ni K-ETA para el turismo de corta duración. La exención va a finalizar y la K-ETA vuelve el 1 ene 2027 — vuelve a confirmarlo antes de viajar."
+        "body": "La exención temporal de K-ETA se aplica solo a los países y territorios designados hasta 2026-12-31. Entrar sin visado no implica estar exento de K-ETA. Consulta de nuevo el aviso oficial para viajes posteriores."
       },
       {
         "icon": "📝",
         "tone": "blue",
         "title": "Aun así necesitas la e-Arrival Card",
-        "body": "Casi todos los visitantes rellenan la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas previas a la llegada. (Los titulares de una K-ETA válida están exentos, pero con la K-ETA exenta deberías rellenar la e-Arrival Card.)"
+        "body": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera."
       }
     ],
     "tldr": [
       "Ahora mismo no necesitas ni visado de turista ni K-ETA — Japón entra sin visado y está exento de la K-ETA hasta 2026.",
-      "Sí debes rellenar la e-Arrival Card gratuita en e-arrivalcard.go.kr dentro de las 72 horas previas a la llegada.",
+      "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera.",
       "Lleva un pasaporte válido para tu estancia más una prueba de viaje de salida/regreso.",
       "Puedes quedarte hasta 90 días."
     ],
@@ -932,11 +1036,11 @@
         },
         {
           "q": "¿Necesito la K-ETA?",
-          "a": "Ahora mismo no. Japón está entre los 22 países exentos de la K-ETA hasta el 31 dic 2026. El requisito está previsto que vuelva el 1 ene 2027 salvo prórroga."
+          "a": "La exención temporal de K-ETA se aplica solo a los países y territorios designados hasta 2026-12-31. Entrar sin visado no implica estar exento de K-ETA. Consulta de nuevo el aviso oficial para viajes posteriores."
         },
         {
           "q": "¿Sigo necesitando la e-Arrival Card?",
-          "a": "Sí — la mayoría de los visitantes rellenan la e-Arrival Card gratuita en e-arrivalcard.go.kr, dentro de las 72 horas previas a la llegada."
+          "a": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera."
         },
         {
           "q": "¿Cuánto tiempo puedo quedarme?",
@@ -948,7 +1052,7 @@
         },
         {
           "q": "¿Cuándo vuelve la K-ETA?",
-          "a": "La exención está prevista que finalice el 31 dic 2026, con la K-ETA reanudándose el 1 ene 2027 salvo prórroga — vuelve a confirmarlo cerca de tu fecha de viaje."
+          "a": "La exención temporal de K-ETA se aplica solo a los países y territorios designados hasta 2026-12-31. Entrar sin visado no implica estar exento de K-ETA. Consulta de nuevo el aviso oficial para viajes posteriores."
         },
         {
           "q": "¿Necesito un billete de vuelta o de continuación para entrar en Corea?",
@@ -963,17 +1067,43 @@
           "a": "Completa la e-Arrival Card gratuita poco antes de aterrizar y luego pasa el control de inmigración y aduanas. Ten preparada la dirección de tu alojamiento y el billete de vuelta por si te los piden."
         }
       ]
-    }
+    },
+    "official": [
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr",
+        "what": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera."
+      },
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr",
+        "what": "Check status (currently waived)"
+      },
+      {
+        "icon": "🏛️",
+        "name": "HiKorea",
+        "url": "https://www.hikorea.go.kr",
+        "what": "Immigration & extensions (MOJ)"
+      },
+      {
+        "icon": "🌏",
+        "name": "Embassy of Korea in Japan",
+        "url": "https://overseas.mofa.go.kr/jp-ja/index.do",
+        "what": "Official notices for your country"
+      }
+    ]
   },
   "vi": {
     "kicker": "Hướng dẫn nhập cảnh · Nhật Bản → Hàn Quốc",
     "readingTime": "Đọc 5 phút",
     "h1": "Hướng dẫn nhập cảnh Hàn Quốc từ Nhật Bản",
     "metaTitle": "Nhật Bản đến Hàn Quốc: Yêu cầu visa và hướng dẫn nhập cảnh (2026) — Korea Trip Hub",
-    "metaDesc": "Hộ chiếu Nhật Bản có cần visa vào Hàn Quốc không? Không — được miễn visa, và K-ETA cũng được miễn đến hết năm 2026. Hãy khai e-Arrival Card miễn phí và làm theo các bước nhập cảnh. Lưu trú: tối đa 90 ngày.",
+    "metaDesc": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan.",
     "verdict": {
       "headline": "Không cần visa du lịch — hộ chiếu Nhật Bản được miễn visa.",
-      "sub": "Với du lịch ngắn ngày bạn không phải xin bất kỳ visa nào. Hiện K-ETA cũng đang được miễn, nên việc chính cần làm là khai e-Arrival Card miễn phí trước khi hạ cánh.",
+      "sub": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan.",
       "type": "Miễn visa (K-ETA đang được miễn)",
       "stay": "Tối đa 90 ngày",
       "entry": "Du lịch ngắn ngày"
@@ -983,18 +1113,18 @@
         "icon": "✅",
         "tone": "green",
         "title": "Không cần visa, K-ETA cũng được miễn đến hết 2026",
-        "body": "Nhật Bản là một trong 22 quốc gia được miễn K-ETA đến ngày 31 tháng 12 năm 2026, nên với du lịch ngắn ngày bạn không phải xin visa lẫn K-ETA. Việc miễn này dự kiến kết thúc và K-ETA trở lại từ ngày 1 tháng 1 năm 2027 — hãy kiểm tra lại trước khi đi."
+        "body": "Miễn K-ETA tạm thời chỉ áp dụng cho các quốc gia và vùng lãnh thổ được chỉ định đến 2026-12-31. Nhập cảnh miễn thị thực không đồng nghĩa với tự động được miễn K-ETA. Kiểm tra lại thông báo chính thức cho chuyến đi sau thời hạn này."
       },
       {
         "icon": "📝",
         "tone": "blue",
         "title": "Bạn vẫn cần e-Arrival Card",
-        "body": "Hầu hết khách nhập cảnh đều khai e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 giờ trước khi đến. (Người có K-ETA còn hiệu lực được miễn, nhưng khi K-ETA đang được miễn thì bạn nên khai e-Arrival Card.)"
+        "body": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan."
       }
     ],
     "tldr": [
       "Hiện không cần visa du lịch lẫn K-ETA — Nhật Bản được miễn visa và miễn K-ETA đến hết 2026.",
-      "Hãy khai e-Arrival Card miễn phí tại e-arrivalcard.go.kr trong vòng 72 giờ trước khi đến.",
+      "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan.",
       "Mang hộ chiếu còn hạn cho suốt thời gian lưu trú cùng bằng chứng vé về hoặc vé đi tiếp.",
       "Bạn được lưu trú tối đa 90 ngày."
     ],
@@ -1111,11 +1241,11 @@
         },
         {
           "q": "Tôi có cần K-ETA không?",
-          "a": "Hiện thì không. Nhật Bản nằm trong 22 quốc gia được miễn K-ETA đến ngày 31 tháng 12 năm 2026. Yêu cầu này dự kiến trở lại từ ngày 1 tháng 1 năm 2027 nếu không được gia hạn."
+          "a": "Miễn K-ETA tạm thời chỉ áp dụng cho các quốc gia và vùng lãnh thổ được chỉ định đến 2026-12-31. Nhập cảnh miễn thị thực không đồng nghĩa với tự động được miễn K-ETA. Kiểm tra lại thông báo chính thức cho chuyến đi sau thời hạn này."
         },
         {
           "q": "Tôi vẫn cần e-Arrival Card chứ?",
-          "a": "Có — hầu hết khách nhập cảnh khai e-Arrival Card miễn phí tại e-arrivalcard.go.kr, trong vòng 72 giờ trước khi đến."
+          "a": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan."
         },
         {
           "q": "Tôi được ở bao lâu?",
@@ -1127,7 +1257,7 @@
         },
         {
           "q": "Khi nào K-ETA quay lại?",
-          "a": "Việc miễn dự kiến kết thúc ngày 31 tháng 12 năm 2026, và K-ETA áp dụng lại từ ngày 1 tháng 1 năm 2027 nếu không được gia hạn — hãy kiểm tra lại gần ngày đi."
+          "a": "Miễn K-ETA tạm thời chỉ áp dụng cho các quốc gia và vùng lãnh thổ được chỉ định đến 2026-12-31. Nhập cảnh miễn thị thực không đồng nghĩa với tự động được miễn K-ETA. Kiểm tra lại thông báo chính thức cho chuyến đi sau thời hạn này."
         },
         {
           "q": "Tôi có cần vé khứ hồi hoặc vé đi tiếp để nhập cảnh Hàn Quốc không?",
@@ -1156,17 +1286,43 @@
       "source": "Nguồn",
       "updated": "Cập nhật",
       "tldr": "Tóm tắt"
-    }
+    },
+    "official": [
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr",
+        "what": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan."
+      },
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr",
+        "what": "Check status (currently waived)"
+      },
+      {
+        "icon": "🏛️",
+        "name": "HiKorea",
+        "url": "https://www.hikorea.go.kr",
+        "what": "Immigration & extensions (MOJ)"
+      },
+      {
+        "icon": "🌏",
+        "name": "Embassy of Korea in Japan",
+        "url": "https://overseas.mofa.go.kr/jp-ja/index.do",
+        "what": "Official notices for your country"
+      }
+    ]
   },
   "th": {
     "kicker": "คู่มือการเข้าเมือง · ญี่ปุ่น → เกาหลี",
     "readingTime": "อ่าน 5 นาที",
     "h1": "คู่มือการเข้าเกาหลีจากญี่ปุ่น",
     "metaTitle": "ญี่ปุ่นไปเกาหลี: เงื่อนไขวีซ่าและคู่มือการเข้าเมือง (2026) — Korea Trip Hub",
-    "metaDesc": "ผู้ถือหนังสือเดินทางญี่ปุ่นต้องขอวีซ่าเกาหลีใต้ไหม? ไม่ต้อง — ได้รับยกเว้นวีซ่า และ K-ETA ก็ได้รับการยกเว้นถึงปี 2026 ให้ยื่น e-Arrival Card ฟรีและทำตามขั้นตอนการเข้าเมือง พำนักได้: สูงสุด 90 วัน",
+    "metaDesc": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร",
     "verdict": {
       "headline": "ไม่ต้องขอวีซ่าท่องเที่ยว — หนังสือเดินทางญี่ปุ่นได้รับยกเว้นวีซ่า",
-      "sub": "สำหรับการท่องเที่ยวระยะสั้นคุณไม่ต้องยื่นขอวีซ่าใดๆ ขณะนี้ K-ETA ก็ได้รับการยกเว้นด้วย สิ่งสำคัญที่ต้องทำจึงเป็นการยื่น e-Arrival Card ฟรีก่อนเครื่องลงจอด",
+      "sub": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร",
       "type": "ยกเว้นวีซ่า (ขณะนี้ยกเว้น K-ETA)",
       "stay": "สูงสุด 90 วัน",
       "entry": "ท่องเที่ยวระยะสั้น"
@@ -1176,18 +1332,18 @@
         "icon": "✅",
         "tone": "green",
         "title": "ไม่ต้องขอวีซ่า และยกเว้น K-ETA ถึงปี 2026",
-        "body": "ญี่ปุ่นเป็นหนึ่งใน 22 ประเทศที่ได้รับยกเว้น K-ETA ถึงวันที่ 31 ธันวาคม 2026 ดังนั้นสำหรับการท่องเที่ยวระยะสั้นคุณไม่ต้องยื่นทั้งวีซ่าและ K-ETA การยกเว้นนี้มีกำหนดสิ้นสุดและ K-ETA จะกลับมาในวันที่ 1 มกราคม 2027 — โปรดตรวจสอบอีกครั้งก่อนเดินทาง"
+        "body": "การยกเว้น K-ETA ชั่วคราวใช้กับประเทศและเขตที่กำหนดเท่านั้นจนถึง 2026-12-31 การเข้าประเทศแบบยกเว้นวีซ่าไม่ได้หมายถึงยกเว้น K-ETA โดยอัตโนมัติ หากเดินทางหลังจากนั้นให้ตรวจสอบประกาศทางการอีกครั้ง"
       },
       {
         "icon": "📝",
         "tone": "blue",
         "title": "คุณยังต้องยื่น e-Arrival Card",
-        "body": "ผู้เดินทางเกือบทุกคนยื่น e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง (ผู้ถือ K-ETA ที่ยังใช้ได้จะได้รับยกเว้น แต่เมื่อ K-ETA ถูกยกเว้นอยู่ คุณควรยื่น e-Arrival Card)"
+        "body": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร"
       }
     ],
     "tldr": [
       "ขณะนี้ไม่ต้องใช้ทั้งวีซ่าท่องเที่ยวและ K-ETA — ญี่ปุ่นได้รับยกเว้นวีซ่าและยกเว้น K-ETA ถึงปี 2026",
-      "อย่าลืมยื่น e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง",
+      "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร",
       "พกหนังสือเดินทางที่มีอายุครอบคลุมการพำนัก พร้อมหลักฐานตั๋วขากลับหรือเดินทางต่อ",
       "คุณพำนักได้สูงสุด 90 วัน"
     ],
@@ -1304,11 +1460,11 @@
         },
         {
           "q": "ฉันต้องใช้ K-ETA ไหม?",
-          "a": "ตอนนี้ไม่ต้อง ญี่ปุ่นอยู่ใน 22 ประเทศที่ได้รับยกเว้น K-ETA ถึงวันที่ 31 ธันวาคม 2026 ข้อกำหนดนี้มีกำหนดกลับมาในวันที่ 1 มกราคม 2027 หากไม่มีการขยายเวลา"
+          "a": "การยกเว้น K-ETA ชั่วคราวใช้กับประเทศและเขตที่กำหนดเท่านั้นจนถึง 2026-12-31 การเข้าประเทศแบบยกเว้นวีซ่าไม่ได้หมายถึงยกเว้น K-ETA โดยอัตโนมัติ หากเดินทางหลังจากนั้นให้ตรวจสอบประกาศทางการอีกครั้ง"
         },
         {
           "q": "ฉันยังต้องยื่น e-Arrival Card อยู่ไหม?",
-          "a": "ใช่ — ผู้เดินทางส่วนใหญ่ยื่น e-Arrival Card ฟรีที่ e-arrivalcard.go.kr ภายใน 72 ชั่วโมงก่อนเดินทางถึง"
+          "a": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร"
         },
         {
           "q": "ฉันอยู่ได้นานแค่ไหน?",
@@ -1320,7 +1476,7 @@
         },
         {
           "q": "K-ETA จะกลับมาเมื่อไหร่?",
-          "a": "การยกเว้นมีกำหนดสิ้นสุดวันที่ 31 ธันวาคม 2026 และ K-ETA จะกลับมาใช้วันที่ 1 มกราคม 2027 หากไม่มีการขยายเวลา — โปรดตรวจสอบอีกครั้งใกล้วันเดินทาง"
+          "a": "การยกเว้น K-ETA ชั่วคราวใช้กับประเทศและเขตที่กำหนดเท่านั้นจนถึง 2026-12-31 การเข้าประเทศแบบยกเว้นวีซ่าไม่ได้หมายถึงยกเว้น K-ETA โดยอัตโนมัติ หากเดินทางหลังจากนั้นให้ตรวจสอบประกาศทางการอีกครั้ง"
         },
         {
           "q": "ต้องมีตั๋วขากลับหรือตั๋วเดินทางต่อเพื่อเข้าเกาหลีหรือไม่?",
@@ -1349,17 +1505,43 @@
       "source": "แหล่งข้อมูล",
       "updated": "อัปเดต",
       "tldr": "สรุป"
-    }
+    },
+    "official": [
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr",
+        "what": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร"
+      },
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr",
+        "what": "Check status (currently waived)"
+      },
+      {
+        "icon": "🏛️",
+        "name": "HiKorea",
+        "url": "https://www.hikorea.go.kr",
+        "what": "Immigration & extensions (MOJ)"
+      },
+      {
+        "icon": "🌏",
+        "name": "Embassy of Korea in Japan",
+        "url": "https://overseas.mofa.go.kr/jp-ja/index.do",
+        "what": "Official notices for your country"
+      }
+    ]
   },
   "id": {
     "kicker": "Panduan masuk · Jepang → Korea",
     "readingTime": "Baca 5 menit",
     "h1": "Panduan Masuk Korea dari Jepang",
     "metaTitle": "Jepang ke Korea: Syarat Visa & Panduan Masuk (2026) — Korea Trip Hub",
-    "metaDesc": "Apakah pemegang paspor Jepang perlu visa ke Korea Selatan? Tidak — bebas visa, dan K-ETA juga dibebaskan hingga 2026. Isi e-Arrival Card gratis dan ikuti langkah masuknya. Lama tinggal: hingga 90 hari.",
+    "metaDesc": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai.",
     "verdict": {
       "headline": "Tidak perlu visa turis — paspor Jepang bebas visa.",
-      "sub": "Untuk wisata jangka pendek Anda tidak mengajukan visa apa pun. Saat ini K-ETA juga dibebaskan, jadi yang utama adalah mengisi e-Arrival Card gratis sebelum mendarat.",
+      "sub": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai.",
       "type": "Bebas visa (K-ETA sedang dibebaskan)",
       "stay": "Hingga 90 hari",
       "entry": "Wisata jangka pendek"
@@ -1369,18 +1551,18 @@
         "icon": "✅",
         "tone": "green",
         "title": "Tanpa visa, dan K-ETA dibebaskan hingga 2026",
-        "body": "Jepang adalah satu dari 22 negara yang dibebaskan dari K-ETA hingga 31 Desember 2026, jadi untuk wisata singkat Anda tidak mengajukan visa maupun K-ETA. Pembebasan ini dijadwalkan berakhir dan K-ETA berlaku lagi pada 1 Januari 2027 — pastikan kembali sebelum berangkat."
+        "body": "Pembebasan sementara K-ETA hanya berlaku bagi negara dan wilayah yang ditetapkan hingga 2026-12-31. Bebas visa tidak otomatis berarti bebas K-ETA. Periksa kembali pengumuman resmi untuk perjalanan setelah tanggal tersebut."
       },
       {
         "icon": "📝",
         "tone": "blue",
         "title": "Anda tetap perlu e-Arrival Card",
-        "body": "Hampir semua pengunjung mengisi e-Arrival Card gratis di e-arrivalcard.go.kr, dalam 72 jam sebelum tiba. (Pemegang K-ETA yang masih berlaku dibebaskan, tetapi karena K-ETA sedang dibebaskan, sebaiknya Anda mengisi e-Arrival Card.)"
+        "body": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai."
       }
     ],
     "tldr": [
       "Saat ini tidak perlu visa turis maupun K-ETA — Jepang bebas visa dan bebas K-ETA hingga 2026.",
-      "Tetap isi e-Arrival Card gratis di e-arrivalcard.go.kr dalam 72 jam sebelum tiba.",
+      "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai.",
       "Bawa paspor yang berlaku selama masa tinggal Anda beserta bukti tiket pulang/lanjutan.",
       "Anda boleh tinggal hingga 90 hari."
     ],
@@ -1497,11 +1679,11 @@
         },
         {
           "q": "Apakah saya perlu K-ETA?",
-          "a": "Saat ini tidak. Jepang termasuk 22 negara yang dibebaskan dari K-ETA hingga 31 Desember 2026. Kewajiban ini dijadwalkan berlaku lagi pada 1 Januari 2027 kecuali diperpanjang."
+          "a": "Pembebasan sementara K-ETA hanya berlaku bagi negara dan wilayah yang ditetapkan hingga 2026-12-31. Bebas visa tidak otomatis berarti bebas K-ETA. Periksa kembali pengumuman resmi untuk perjalanan setelah tanggal tersebut."
         },
         {
           "q": "Apakah saya tetap perlu e-Arrival Card?",
-          "a": "Ya — sebagian besar pengunjung mengisi e-Arrival Card gratis di e-arrivalcard.go.kr, dalam 72 jam sebelum tiba."
+          "a": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai."
         },
         {
           "q": "Berapa lama saya boleh tinggal?",
@@ -1513,7 +1695,7 @@
         },
         {
           "q": "Kapan K-ETA berlaku lagi?",
-          "a": "Pembebasan dijadwalkan berakhir 31 Desember 2026, dan K-ETA berlaku lagi 1 Januari 2027 kecuali diperpanjang — pastikan kembali menjelang tanggal keberangkatan."
+          "a": "Pembebasan sementara K-ETA hanya berlaku bagi negara dan wilayah yang ditetapkan hingga 2026-12-31. Bebas visa tidak otomatis berarti bebas K-ETA. Periksa kembali pengumuman resmi untuk perjalanan setelah tanggal tersebut."
         },
         {
           "q": "Apakah saya perlu tiket pulang atau tiket lanjutan untuk masuk ke Korea?",
@@ -1542,17 +1724,43 @@
       "source": "Sumber",
       "updated": "Diperbarui",
       "tldr": "Ringkasan"
-    }
+    },
+    "official": [
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr",
+        "what": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai."
+      },
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr",
+        "what": "Check status (currently waived)"
+      },
+      {
+        "icon": "🏛️",
+        "name": "HiKorea",
+        "url": "https://www.hikorea.go.kr",
+        "what": "Immigration & extensions (MOJ)"
+      },
+      {
+        "icon": "🌏",
+        "name": "Embassy of Korea in Japan",
+        "url": "https://overseas.mofa.go.kr/jp-ja/index.do",
+        "what": "Official notices for your country"
+      }
+    ]
   },
   "ms": {
     "kicker": "Panduan kemasukan · Jepun → Korea",
     "readingTime": "Bacaan 5 minit",
     "h1": "Panduan Kemasukan ke Korea dari Jepun",
     "metaTitle": "Jepun ke Korea: Syarat Visa & Panduan Kemasukan (2026) — Korea Trip Hub",
-    "metaDesc": "Adakah pemegang pasport Jepun perlukan visa ke Korea Selatan? Tidak — bebas visa, dan K-ETA turut dikecualikan sehingga hujung 2026. Isi e-Arrival Card percuma dan ikut langkah kemasukan. Tempoh tinggal: sehingga 90 hari.",
+    "metaDesc": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam.",
     "verdict": {
       "headline": "Tiada visa pelancong diperlukan — pasport Jepun bebas visa.",
-      "sub": "Untuk pelancongan jangka pendek anda tidak memohon sebarang visa. Buat masa ini K-ETA juga dikecualikan, jadi perkara utama ialah mengisi e-Arrival Card percuma sebelum mendarat.",
+      "sub": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam.",
       "type": "Bebas visa (K-ETA dikecualikan buat masa ini)",
       "stay": "Sehingga 90 hari",
       "entry": "Pelancongan jangka pendek"
@@ -1562,18 +1770,18 @@
         "icon": "✅",
         "tone": "green",
         "title": "Tiada visa, dan K-ETA dikecualikan sehingga hujung 2026",
-        "body": "Jepun ialah salah satu daripada 22 negara yang dikecualikan daripada K-ETA sehingga 31 Disember 2026, jadi untuk pelancongan singkat anda tidak memohon visa mahupun K-ETA. Pengecualian ini dijadualkan tamat dan K-ETA kembali pada 1 Januari 2027 — sahkan semula sebelum anda bertolak."
+        "body": "Pengecualian sementara K-ETA hanya terpakai kepada negara dan wilayah yang ditetapkan hingga 2026-12-31. Kemasukan tanpa visa tidak bermakna K-ETA dikecualikan secara automatik. Semak semula notis rasmi untuk perjalanan selepas tarikh itu."
       },
       {
         "icon": "📝",
         "tone": "blue",
         "title": "Anda tetap perlukan e-Arrival Card",
-        "body": "Hampir semua pengunjung mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam tempoh 72 jam sebelum ketibaan. (Pemegang K-ETA yang sah dikecualikan, tetapi memandangkan K-ETA dikecualikan, anda patut mengisi e-Arrival Card.)"
+        "body": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam."
       }
     ],
     "tldr": [
       "Buat masa ini tiada visa pelancong dan tiada K-ETA diperlukan — Jepun bebas visa dan dikecualikan K-ETA sehingga hujung 2026.",
-      "Pastikan anda mengisi e-Arrival Card percuma di e-arrivalcard.go.kr dalam tempoh 72 jam sebelum ketibaan.",
+      "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam.",
       "Bawa pasport yang sah sepanjang tempoh tinggal serta bukti tiket pulang atau penerbangan seterusnya.",
       "Anda boleh tinggal sehingga 90 hari."
     ],
@@ -1690,11 +1898,11 @@
         },
         {
           "q": "Adakah saya perlukan K-ETA?",
-          "a": "Buat masa ini tidak. Jepun termasuk dalam 22 negara yang dikecualikan daripada K-ETA sehingga 31 Disember 2026. Syarat ini dijadualkan kembali pada 1 Januari 2027 melainkan dilanjutkan."
+          "a": "Pengecualian sementara K-ETA hanya terpakai kepada negara dan wilayah yang ditetapkan hingga 2026-12-31. Kemasukan tanpa visa tidak bermakna K-ETA dikecualikan secara automatik. Semak semula notis rasmi untuk perjalanan selepas tarikh itu."
         },
         {
           "q": "Adakah saya masih perlukan e-Arrival Card?",
-          "a": "Ya — kebanyakan pengunjung mengisi e-Arrival Card percuma di e-arrivalcard.go.kr, dalam tempoh 72 jam sebelum ketibaan."
+          "a": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam."
         },
         {
           "q": "Berapa lama saya boleh tinggal?",
@@ -1706,7 +1914,7 @@
         },
         {
           "q": "Bilakah K-ETA kembali?",
-          "a": "Pengecualian dijadualkan tamat pada 31 Disember 2026, dengan K-ETA berkuat kuasa semula pada 1 Januari 2027 melainkan dilanjutkan — sahkan semula hampir dengan tarikh perjalanan anda."
+          "a": "Pengecualian sementara K-ETA hanya terpakai kepada negara dan wilayah yang ditetapkan hingga 2026-12-31. Kemasukan tanpa visa tidak bermakna K-ETA dikecualikan secara automatik. Semak semula notis rasmi untuk perjalanan selepas tarikh itu."
         },
         {
           "q": "Adakah saya perlukan tiket pulang atau tiket seterusnya untuk masuk ke Korea?",
@@ -1735,14 +1943,40 @@
       "source": "Sumber",
       "updated": "Dikemas kini",
       "tldr": "Ringkasan"
-    }
+    },
+    "official": [
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr",
+        "what": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam."
+      },
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr",
+        "what": "Check status (currently waived)"
+      },
+      {
+        "icon": "🏛️",
+        "name": "HiKorea",
+        "url": "https://www.hikorea.go.kr",
+        "what": "Immigration & extensions (MOJ)"
+      },
+      {
+        "icon": "🌏",
+        "name": "Embassy of Korea in Japan",
+        "url": "https://overseas.mofa.go.kr/jp-ja/index.do",
+        "what": "Official notices for your country"
+      }
+    ]
   },
   "ru": {
     "kicker": "Гид по въезду · Япония → Корея",
     "readingTime": "5 мин чтения",
     "h1": "Гид по въезду в Корею из Японии",
     "metaTitle": "Из Японии в Корею: визовые требования и гид по въезду (2026) — Korea Trip Hub",
-    "metaDesc": "Нужна ли путешественникам из Японии виза в Южную Корею? Нет — безвизовый въезд, и K-ETA отменена до конца 2026 года. Заполните бесплатную e-Arrival Card и следуйте шагам въезда. Пребывание: до 90 дней.",
+    "metaDesc": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной.",
     "ui": {
       "visa": "Виза",
       "stay": "Пребывание",
@@ -1759,7 +1993,7 @@
     },
     "verdict": {
       "headline": "Туристическая виза не нужна — паспорта Японии дают безвизовый въезд.",
-      "sub": "Для краткосрочного туризма вы не подаёте ни на какую визу. Сейчас K-ETA тоже отменена, поэтому главное — заполнить бесплатную e-Arrival Card до прилёта.",
+      "sub": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной.",
       "type": "Без визы (K-ETA сейчас отменена)",
       "stay": "До 90 дней",
       "entry": "Краткосрочный туризм"
@@ -1769,18 +2003,18 @@
         "icon": "✅",
         "tone": "green",
         "title": "Без визы, и K-ETA отменена до конца 2026 года",
-        "body": "Япония входит в число 22 стран, освобождённых от K-ETA до 31 декабря 2026 года, поэтому для короткого туризма вы не подаёте ни на визу, ни на K-ETA. Отмену планируют завершить, и K-ETA вернётся 1 января 2027 года — уточните перед поездкой."
+        "body": "Временное освобождение от K-ETA действует только для указанных стран и территорий до 2026-12-31. Безвизовый въезд не означает автоматического освобождения от K-ETA. Для более поздних поездок снова проверьте официальное уведомление."
       },
       {
         "icon": "📝",
         "tone": "blue",
         "title": "e-Arrival Card вам всё же нужна",
-        "body": "Почти каждый путешественник заполняет бесплатную e-Arrival Card на e-arrivalcard.go.kr в течение 72 часов до прибытия. (Обладатели действующей K-ETA освобождены, но при отменённой K-ETA вам следует заполнить e-Arrival Card.)"
+        "body": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной."
       }
     ],
     "tldr": [
       "Сейчас не нужны ни туристическая виза, ни K-ETA — Япония безвизовая и освобождена от K-ETA до конца 2026 года.",
-      "Обязательно заполните бесплатную e-Arrival Card на e-arrivalcard.go.kr в течение 72 часов до прибытия.",
+      "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной.",
       "Возьмите паспорт, действительный на весь срок пребывания, плюс подтверждение обратного/дальнейшего перелёта.",
       "Вы можете находиться до 90 дней."
     ],
@@ -1897,11 +2131,11 @@
         },
         {
           "q": "Нужна ли мне K-ETA?",
-          "a": "Сейчас нет. Япония входит в число 22 стран, освобождённых от K-ETA до 31 декабря 2026 года. Требование планируют вернуть 1 января 2027 года, если оно не будет продлено."
+          "a": "Временное освобождение от K-ETA действует только для указанных стран и территорий до 2026-12-31. Безвизовый въезд не означает автоматического освобождения от K-ETA. Для более поздних поездок снова проверьте официальное уведомление."
         },
         {
           "q": "Нужна ли мне по-прежнему e-Arrival Card?",
-          "a": "Да — большинство посетителей заполняют бесплатную e-Arrival Card на e-arrivalcard.go.kr в течение 72 часов до прибытия."
+          "a": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной."
         },
         {
           "q": "Как долго я могу оставаться?",
@@ -1913,7 +2147,7 @@
         },
         {
           "q": "Когда вернётся K-ETA?",
-          "a": "Отмену планируют завершить 31 декабря 2026 года, а K-ETA возобновится 1 января 2027 года, если не будет продлена — уточните ближе к дате поездки."
+          "a": "Временное освобождение от K-ETA действует только для указанных стран и территорий до 2026-12-31. Безвизовый въезд не означает автоматического освобождения от K-ETA. Для более поздних поездок снова проверьте официальное уведомление."
         },
         {
           "q": "Нужен ли обратный билет или билет на дальнейший маршрут для въезда в Корею?",
@@ -1928,14 +2162,40 @@
           "a": "Незадолго до посадки заполните бесплатную e-Arrival Card, затем пройдите паспортный и таможенный контроль. Держите наготове адрес проживания и обратный билет на случай, если их спросят."
         }
       ]
-    }
+    },
+    "official": [
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr",
+        "what": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной."
+      },
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr",
+        "what": "Check status (currently waived)"
+      },
+      {
+        "icon": "🏛️",
+        "name": "HiKorea",
+        "url": "https://www.hikorea.go.kr",
+        "what": "Immigration & extensions (MOJ)"
+      },
+      {
+        "icon": "🌏",
+        "name": "Embassy of Korea in Japan",
+        "url": "https://overseas.mofa.go.kr/jp-ja/index.do",
+        "what": "Official notices for your country"
+      }
+    ]
   },
   "fr": {
     "kicker": "Guide d'entrée · Japon → Corée",
     "readingTime": "5 min de lecture",
     "h1": "Guide d'entrée en Corée depuis le Japon",
     "metaTitle": "Du Japon à la Corée : conditions de visa et guide d'entrée (2026) — Korea Trip Hub",
-    "metaDesc": "Les voyageurs venant du Japon ont-ils besoin d'un visa pour la Corée du Sud ? Non — sans visa, avec la K-ETA dispensée jusqu'en 2026. Remplissez l'e-Arrival Card gratuite et suivez les étapes d'entrée. Séjour : jusqu'à 90 jours.",
+    "metaDesc": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière.",
     "ui": {
       "visa": "Visa",
       "stay": "Séjour",
@@ -1952,7 +2212,7 @@
     },
     "verdict": {
       "headline": "Aucun visa touristique nécessaire — les passeports japonais sont exemptés de visa.",
-      "sub": "Pour le tourisme de court séjour, vous ne demandez aucun visa. Actuellement, la K-ETA est également dispensée, donc l'essentiel est de remplir l'e-Arrival Card gratuite avant d'atterrir.",
+      "sub": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière.",
       "type": "Sans visa (K-ETA actuellement dispensée)",
       "stay": "Jusqu'à 90 jours",
       "entry": "Tourisme de court séjour"
@@ -1962,18 +2222,18 @@
         "icon": "✅",
         "tone": "green",
         "title": "Pas de visa, et K-ETA dispensée jusqu'en 2026",
-        "body": "Le Japon fait partie des 22 pays exemptés de la K-ETA jusqu'au 31 décembre 2026 ; vous ne demandez donc ni visa ni K-ETA pour un court séjour touristique. Cette dispense doit prendre fin et la K-ETA revient le 1er janvier 2027 — vérifiez à nouveau avant de voyager."
+        "body": "L’exemption temporaire de K-ETA concerne uniquement les pays et territoires désignés jusqu’au 2026-12-31. Une entrée sans visa ne signifie pas une exemption automatique de K-ETA. Consultez à nouveau l’avis officiel pour un voyage ultérieur."
       },
       {
         "icon": "📝",
         "tone": "blue",
         "title": "Vous avez toujours besoin de l'e-Arrival Card",
-        "body": "Presque tous les visiteurs remplissent l'e-Arrival Card gratuite sur e-arrivalcard.go.kr, dans les 72 heures précédant l'arrivée. (Les titulaires d'une K-ETA valide en sont exemptés, mais la K-ETA étant dispensée, vous devriez remplir l'e-Arrival Card.)"
+        "body": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière."
       }
     ],
     "tldr": [
       "Ni visa touristique ni K-ETA nécessaires pour le moment — le Japon est exempté de visa et de K-ETA jusqu'en 2026.",
-      "Remplissez bien l'e-Arrival Card gratuite sur e-arrivalcard.go.kr dans les 72 heures précédant l'arrivée.",
+      "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière.",
       "Apportez un passeport valable pour la durée de votre séjour ainsi qu'un justificatif de voyage de continuation/retour.",
       "Vous pouvez rester jusqu'à 90 jours."
     ],
@@ -2090,11 +2350,11 @@
         },
         {
           "q": "Ai-je besoin de la K-ETA ?",
-          "a": "Pas pour le moment. Le Japon fait partie des 22 pays exemptés de la K-ETA jusqu'au 31 décembre 2026. Cette obligation doit revenir le 1er janvier 2027, sauf prolongation."
+          "a": "L’exemption temporaire de K-ETA concerne uniquement les pays et territoires désignés jusqu’au 2026-12-31. Une entrée sans visa ne signifie pas une exemption automatique de K-ETA. Consultez à nouveau l’avis officiel pour un voyage ultérieur."
         },
         {
           "q": "Ai-je encore besoin de l'e-Arrival Card ?",
-          "a": "Oui — la plupart des visiteurs remplissent l'e-Arrival Card gratuite sur e-arrivalcard.go.kr, dans les 72 heures précédant l'arrivée."
+          "a": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière."
         },
         {
           "q": "Combien de temps puis-je rester ?",
@@ -2106,7 +2366,7 @@
         },
         {
           "q": "Quand la K-ETA revient-elle ?",
-          "a": "La dispense doit prendre fin le 31 décembre 2026, la K-ETA reprenant le 1er janvier 2027 sauf prolongation — vérifiez à nouveau à l'approche de votre date de voyage."
+          "a": "L’exemption temporaire de K-ETA concerne uniquement les pays et territoires désignés jusqu’au 2026-12-31. Une entrée sans visa ne signifie pas une exemption automatique de K-ETA. Consultez à nouveau l’avis officiel pour un voyage ultérieur."
         },
         {
           "q": "Ai-je besoin d'un billet de retour ou de continuation pour entrer en Corée ?",
@@ -2121,6 +2381,32 @@
           "a": "Remplissez la e-Arrival Card gratuite peu avant l'atterrissage, puis passez l'immigration et la douane. Ayez l'adresse de votre hébergement et votre billet de retour prêts au cas où on vous les demanderait."
         }
       ]
-    }
+    },
+    "official": [
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr",
+        "what": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière."
+      },
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr",
+        "what": "Check status (currently waived)"
+      },
+      {
+        "icon": "🏛️",
+        "name": "HiKorea",
+        "url": "https://www.hikorea.go.kr",
+        "what": "Immigration & extensions (MOJ)"
+      },
+      {
+        "icon": "🌏",
+        "name": "Embassy of Korea in Japan",
+        "url": "https://overseas.mofa.go.kr/jp-ja/index.do",
+        "what": "Official notices for your country"
+      }
+    ]
   }
 }

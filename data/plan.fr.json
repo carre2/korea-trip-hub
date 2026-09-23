@@ -4,14 +4,24 @@
     "visa": {
       "tagline": "Avez-vous besoin d'un visa ou d'une K-ETA pour entrer en Corée ? Voici comment se déroule l'entrée pour la plupart des voyageurs en court séjour.",
       "intro": [
-        "La plupart des touristes viennent en Corée pour un court séjour et ne demandent pas de visa à l'avance. Mais les règles exactes dépendent de votre nationalité : vérifiez donc toujours votre situation auprès d'une source officielle avant de partir.",
-        "En 2026, la Corée a temporairement dispensé de la K-ETA (autorisation de voyage électronique) les ressortissants éligibles à l'exemption de visa. Même lorsque la K-ETA est dispensée, tous les voyageurs à l'arrivée doivent remplir l'e-Arrival Card."
+        "Choisissez le guide du pays de votre passeport, puis vérifiez motif, date d’entrée, âge et documents valides sur les sites officiels. La langue du site ne détermine pas votre nationalité."
       ],
       "tips": [
-        "Vérifiez votre nationalité : la durée du séjour sans visa varie selon les pays (souvent 30, 60 ou 90 jours).",
-        "Votre passeport doit être valide pendant toute la durée de votre séjour.",
-        "Remplissez l'e-Arrival Card en ligne avant votre départ ou à l'arrivée pour éviter le formulaire papier.",
-        "En cas de doute, contactez l'ambassade ou le consulat de Corée le plus proche."
+        "Confirmez votre situation sur les sites officiels. L’immigration prend la décision finale d’entrée."
+      ],
+      "official": [
+        {
+          "name": "K-ETA",
+          "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN"
+        },
+        {
+          "name": "e-Arrival Card",
+          "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E"
+        },
+        {
+          "name": "Korea Visa Portal",
+          "url": "https://www.visa.go.kr"
+        }
       ]
     },
     "transit": {

@@ -1,64 +1,94 @@
 {
   "_README": "Facts SSOT. Follows HARNESS.md. Only status:VERIFIED facts render. All numbers/contacts/rules must be grounded here. No invented estimates. VOLATILE facts must show source + verified date + confirm link. claim/notes are the ENGLISH (base-language) display text; translations for other locales live in messages/<locale>.json under `facts`.",
-  "_updated": "2026-08-05",
+  "_updated": "2026-09-23",
   "facts": [
     {
       "id": "keta-exemption",
       "tier": "VOLATILE",
-      "claim": "Visa-free nationals can enter Korea without K-ETA until 2026-12-31. The e-Arrival Card is still required. Travelers aged 17 and under or 65 and over are exempt from K-ETA.",
-      "value": { "exempt_until": "2026-12-31", "earrival_card": "required", "age_exempt": "<=17 or >=65" },
-      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=251923",
-      "source_name": "VisitKorea (KTO official)",
-      "verified": "2026-08-02",
-      "recheck_after": "2026-11-01",
+      "claim": "The temporary K-ETA waiver applies only to designated countries and regions through 2026-12-31. Visa-free entry does not automatically mean K-ETA exemption. Check the official notice again for later travel dates.",
+      "value": {
+        "exempt_until": "2026-12-31",
+        "scope": "designated countries and regions only"
+      },
+      "source": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+      "source_name": "Korea Immigration Service — K-ETA",
+      "verified": "2026-09-23",
+      "recheck_after": "2026-10-23",
       "status": "VERIFIED",
-      "notes": "Sources differ on the number of exempt countries (22 vs 67). Confirm the current country list at the official site; check your own case with a consulate."
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
     },
     {
       "id": "keta-fee-validity",
       "tier": "VOLATILE",
-      "claim": "K-ETA costs KRW 10,000 (about US$8), is valid for 3 years, and allows multiple entries. Apply only at the official site, k-eta.go.kr.",
-      "value": { "fee": "₩10,000 (~US$8)", "valid_for": "3 years", "entries": "multiple", "apply_at": "k-eta.go.kr only", "refundable": false },
-      "source": "https://www.k-eta.go.kr",
-      "source_name": "K-ETA (Korea Immigration Service, MOJ)",
-      "verified": "2026-08-03", "recheck_after": "2026-12-01", "status": "VERIFIED",
-      "notes": "The fee is non-refundable. Beware third-party sites that charge US$40–50 extra — the only official site is k-eta.go.kr."
+      "claim": "K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay.",
+      "value": {
+        "fee": "KRW 10,000 plus online payment fee",
+        "validity": "3 years or passport expiry, whichever first",
+        "refundable": false
+      },
+      "source": "https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN",
+      "source_name": "Korea Immigration Service — K-ETA",
+      "verified": "2026-09-23",
+      "recheck_after": "2026-10-23",
+      "status": "VERIFIED",
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
     },
     {
       "id": "keta-apply-window",
-      "tier": "STABLE",
-      "claim": "Apply for K-ETA at least 72 hours before boarding. Approval is often much faster, but allow time in case your application is reviewed.",
-      "value": { "apply": "≥ 72h before boarding", "typical_result": "minutes to 72h" },
-      "source": "https://www.k-eta.go.kr",
-      "source_name": "K-ETA official",
-      "verified": "2026-08-03", "recheck_after": "2027-01-01", "status": "VERIFIED",
-      "notes": "The Korea Immigration Service recommends applying at least 72 hours before departure."
+      "tier": "VOLATILE",
+      "claim": "Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed.",
+      "value": {
+        "approval": "before boarding",
+        "assessment": "may exceed 72 hours"
+      },
+      "source": "https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN",
+      "source_name": "Korea Immigration Service — K-ETA",
+      "verified": "2026-09-23",
+      "recheck_after": "2026-10-23",
+      "status": "VERIFIED",
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
     },
     {
       "id": "keta-exempt-countries",
       "tier": "VOLATILE",
-      "claim": "22 countries/regions are temporarily exempt from K-ETA through 2026-12-31; the requirement is scheduled to return on 2027-01-01.",
-      "value": { "exempt_countries": 22, "exempt_until": "2026-12-31", "requirement_resumes": "2027-01-01" },
-      "source": "https://www.fragomen.com/insights/south-korea-visit-korea-year-temporarily-exempts-22-countries-from-k-eta.html",
-      "source_name": "Fragomen / Korea MOJ notice",
-      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
-      "notes": "Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Hong Kong, Italy, Japan, Macao, Netherlands, New Zealand, Norway, Poland, Singapore, Spain, Sweden, Taiwan, United Kingdom, United States (incl. Guam). Always confirm the current list at k-eta.go.kr."
+      "claim": "The temporary K-ETA waiver applies only to designated countries and regions through 2026-12-31. Visa-free entry does not automatically mean K-ETA exemption. Check the official notice again for later travel dates.",
+      "value": {
+        "exempt_until": "2026-12-31",
+        "scope": "designated countries and regions only"
+      },
+      "source": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+      "source_name": "Korea Immigration Service — K-ETA",
+      "verified": "2026-09-23",
+      "recheck_after": "2026-10-23",
+      "status": "VERIFIED",
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
     },
     {
       "id": "earrival-card-how",
       "tier": "VOLATILE",
-      "claim": "The e-Arrival Card is free and submitted online at e-arrivalcard.go.kr, up to 72 hours before arrival. It replaced the paper arrival card in 2025.",
-      "value": { "cost": "free", "apply_at": "e-arrivalcard.go.kr", "window": "within 72h before arrival", "replaced": "paper card (2025)" },
-      "source": "https://www.e-arrivalcard.go.kr",
-      "source_name": "Korea Immigration Service (e-Arrival Card)",
-      "verified": "2026-08-03", "recheck_after": "2026-12-01", "status": "VERIFIED",
-      "notes": "K-ETA holders and registered foreign residents are exempt. Your submission expires 72 hours after you file it, so time it close to your flight."
+      "claim": "The e-Arrival Card is conditional. Valid K-ETA holders entering under K-ETA and valid Korean residence-card holders are exempt. A traveler entering with a visa may need the declaration even when also holding K-ETA. Other exceptions exist: use the official navigator for your documents and journey. This is an immigration declaration, separate from customs.",
+      "value": {
+        "required": "conditional",
+        "customs": "separate declaration"
+      },
+      "source": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+      "source_name": "Korea Immigration Service — e-Arrival Card",
+      "verified": "2026-09-23",
+      "recheck_after": "2026-10-23",
+      "status": "VERIFIED",
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
     },
     {
       "id": "visa-malaysia-free",
       "tier": "VOLATILE",
       "claim": "Malaysian passport holders enter Korea visa-free for up to 90 days for tourism, but must apply for K-ETA — Malaysia is not on the temporary K-ETA exemption list.",
-      "value": { "visa": "not required (short-term tourism)", "stay": "up to 90 days", "keta": "required", "keta_fee": "₩10,000", "keta_valid": "3 years" },
+      "value": {
+        "visa": "not required (short-term tourism)",
+        "stay": "up to 90 days",
+        "keta": "required",
+        "keta_fee": "₩10,000",
+        "keta_valid": "3 years"
+      },
       "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140769",
       "source_name": "VisitKorea (KTO) — Visa & Travel Requirements; K-ETA per k-eta.go.kr",
       "verified": "2026-08-31",
@@ -70,7 +100,13 @@
       "id": "visa-thailand-free",
       "tier": "VOLATILE",
       "claim": "Thai passport holders enter Korea visa-free for up to 90 days for tourism, but must apply for K-ETA — Thailand is not on the temporary K-ETA exemption list.",
-      "value": { "visa": "not required (short-term tourism)", "stay": "up to 90 days", "keta": "required", "keta_fee": "₩10,000", "keta_valid": "3 years" },
+      "value": {
+        "visa": "not required (short-term tourism)",
+        "stay": "up to 90 days",
+        "keta": "required",
+        "keta_fee": "₩10,000",
+        "keta_valid": "3 years"
+      },
       "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140769",
       "source_name": "VisitKorea (KTO) — Visa & Travel Requirements; K-ETA per k-eta.go.kr",
       "verified": "2026-08-31",
@@ -82,7 +118,13 @@
       "id": "visa-mongolia-c39",
       "tier": "VOLATILE",
       "claim": "Mongolian citizens need a C-3-9 short-term tourist visa for Korea (single entry, stay up to 90 days), applied for in person at the Korea Visa Application Center in Ulaanbaatar. Processing is about 5–15 business days.",
-      "value": { "visa": "C-3-9 short-term tourist", "entry": "single", "stay": "up to 90 days", "apply_at": "KVAC Mongolia (visaforkorea.mn) / Korean Embassy, Ulaanbaatar", "processing": "about 5–15 business days" },
+      "value": {
+        "visa": "C-3-9 short-term tourist",
+        "entry": "single",
+        "stay": "up to 90 days",
+        "apply_at": "KVAC Mongolia (visaforkorea.mn) / Korean Embassy, Ulaanbaatar",
+        "processing": "about 5–15 business days"
+      },
       "source": "https://www.visaforkorea.mn",
       "source_name": "Korea Visa Application Center, Mongolia (IOM)",
       "verified": "2026-08-31",
@@ -94,7 +136,14 @@
       "id": "visa-bangladesh-c39",
       "tier": "VOLATILE",
       "claim": "Bangladeshi citizens need a C-3-9 short-term tourist visa for Korea (single entry, stay up to 90 days), submitted with a printed barcoded e-Form at the Korean Embassy in Dhaka. Single-entry fee about US$40; processing about 10–15 working days.",
-      "value": { "visa": "C-3-9 short-term tourist", "entry": "single (double/multiple possible)", "stay": "up to 90 days", "apply_at": "Korean Embassy, Dhaka (e-Form via visa.go.kr)", "fee": "US$40 single / US$70 double / US$90 multiple", "processing": "about 10–15 working days" },
+      "value": {
+        "visa": "C-3-9 short-term tourist",
+        "entry": "single (double/multiple possible)",
+        "stay": "up to 90 days",
+        "apply_at": "Korean Embassy, Dhaka (e-Form via visa.go.kr)",
+        "fee": "US$40 single / US$70 double / US$90 multiple",
+        "processing": "about 10–15 working days"
+      },
       "source": "https://overseas.mofa.go.kr/bd-en/brd/m_23302/view.do?seq=1&page=1",
       "source_name": "Embassy of the Republic of Korea in Bangladesh (MOFA)",
       "verified": "2026-08-31",
@@ -106,7 +155,14 @@
       "id": "visa-nepal-c39",
       "tier": "VOLATILE",
       "claim": "Nepali citizens need a C-3-9 short-term tourist visa for Korea (single entry, stay up to 90 days), applied for at the Korean Embassy in Kathmandu by online appointment. Single-entry fee NPR 5,400; processing about 21 working days.",
-      "value": { "visa": "C-3-9 short-term tourist", "entry": "single", "stay": "up to 90 days", "apply_at": "Korean Embassy, Kathmandu (appointment at koreanembassynepal.org)", "fee": "NPR 5,400 (single entry)", "processing": "about 21 working days" },
+      "value": {
+        "visa": "C-3-9 short-term tourist",
+        "entry": "single",
+        "stay": "up to 90 days",
+        "apply_at": "Korean Embassy, Kathmandu (appointment at koreanembassynepal.org)",
+        "fee": "NPR 5,400 (single entry)",
+        "processing": "about 21 working days"
+      },
       "source": "https://overseas.mofa.go.kr/np-en/wpge/m_1714/contents.do",
       "source_name": "Embassy of the Republic of Korea in Nepal (MOFA)",
       "verified": "2026-08-31",
@@ -118,7 +174,12 @@
       "id": "visa-uzbekistan-c3",
       "tier": "VOLATILE",
       "claim": "Uzbekistani citizens need a C-3 short-term tourist visa for Korea (stay up to 90 days). Tourist applications are accepted only through travel agencies accredited by the Korean Embassy in Tashkent — independent/online submission is not available.",
-      "value": { "visa": "C-3 short-term tourist", "stay": "up to 90 days", "apply_via": "travel agencies accredited by the Korean Embassy, Tashkent (agency list on the embassy site)", "embassy": "Afrosiyob Street 7, Mirabad District, Tashkent" },
+      "value": {
+        "visa": "C-3 short-term tourist",
+        "stay": "up to 90 days",
+        "apply_via": "travel agencies accredited by the Korean Embassy, Tashkent (agency list on the embassy site)",
+        "embassy": "Afrosiyob Street 7, Mirabad District, Tashkent"
+      },
       "source": "https://kun.uz/en/news/2026/02/03/how-citizens-of-uzbekistan-can-obtain-a-visa-to-south-korea",
       "source_name": "Korean Embassy, Tashkent (consular process, via kun.uz reporting)",
       "verified": "2026-08-31",
@@ -130,7 +191,13 @@
       "id": "visa-srilanka-c39",
       "tier": "VOLATILE",
       "claim": "Sri Lankan citizens need a C-3-9 short-term tourist visa for Korea (a paper visa, stay up to 90 days), applied for at the Korean Embassy in Colombo. Processing is a minimum of about 15 working days; the fee is paid in rupees at the embassy's current rate.",
-      "value": { "visa": "C-3-9 short-term tourist (paper visa)", "stay": "up to 90 days", "apply_at": "Korean Embassy, Colombo (No. 98 Dharmapala Mawatha, Colombo 7)", "processing": "minimum about 15 working days", "fee": "paid in LKR at the embassy's current rate" },
+      "value": {
+        "visa": "C-3-9 short-term tourist (paper visa)",
+        "stay": "up to 90 days",
+        "apply_at": "Korean Embassy, Colombo (No. 98 Dharmapala Mawatha, Colombo 7)",
+        "processing": "minimum about 15 working days",
+        "fee": "paid in LKR at the embassy's current rate"
+      },
       "source": "https://overseas.mofa.go.kr/lk-en/brd/m_2318/view.do?seq=761383&page=2",
       "source_name": "Embassy of the Republic of Korea in Sri Lanka (MOFA)",
       "verified": "2026-08-31",
@@ -142,7 +209,13 @@
       "id": "visa-pakistan-c3",
       "tier": "VOLATILE",
       "claim": "Pakistani citizens need a C-3 short-term tourist visa for Korea (stay up to 90 days), submitted at the Korean Embassy in Islamabad. Some applicants are called for an interview, and tourist-visa extensions are generally not granted.",
-      "value": { "visa": "C-3 short-term tourist", "stay": "up to 90 days", "apply_at": "Korean Embassy, Islamabad", "interview": "possible", "extensions": "generally not granted" },
+      "value": {
+        "visa": "C-3 short-term tourist",
+        "stay": "up to 90 days",
+        "apply_at": "Korean Embassy, Islamabad",
+        "interview": "possible",
+        "extensions": "generally not granted"
+      },
       "source": "https://overseas.mofa.go.kr/pk-en/wpge/m_3159/contents.do",
       "source_name": "Embassy of the Republic of Korea in Pakistan (MOFA)",
       "verified": "2026-08-31",
@@ -154,7 +227,13 @@
       "id": "visa-kazakhstan-free",
       "tier": "VOLATILE",
       "claim": "Kazakhstani citizens enter Korea visa-free for up to 30 days for tourism (maximum 60 days within any 180-day period), but must apply for K-ETA — Kazakhstan is not on the temporary K-ETA exemption list.",
-      "value": { "visa": "not required (short-term tourism)", "stay": "up to 30 days (max 60 within any 180-day period)", "keta": "required", "keta_fee": "₩10,000", "keta_valid": "3 years" },
+      "value": {
+        "visa": "not required (short-term tourism)",
+        "stay": "up to 30 days (max 60 within any 180-day period)",
+        "keta": "required",
+        "keta_fee": "₩10,000",
+        "keta_valid": "3 years"
+      },
       "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140769",
       "source_name": "VisitKorea (KTO) — Visa & Travel Requirements; K-ETA per k-eta.go.kr",
       "verified": "2026-08-31",
@@ -166,274 +245,465 @@
       "id": "emergency-police",
       "tier": "STABLE",
       "claim": "Korea's emergency police number is 112.",
-      "value": { "number": "112" },
+      "value": {
+        "number": "112"
+      },
       "source": "https://english.visitkorea.or.kr/",
       "source_name": "VisitKorea",
-      "verified": "2026-08-02", "recheck_after": "2027-08-01", "status": "VERIFIED",
+      "verified": "2026-08-02",
+      "recheck_after": "2027-08-01",
+      "status": "VERIFIED",
       "notes": "Well-established number."
     },
     {
       "id": "emergency-fire-medical",
       "tier": "STABLE",
       "claim": "Korea's fire and emergency medical (ambulance) number is 119.",
-      "value": { "number": "119" },
+      "value": {
+        "number": "119"
+      },
       "source": "https://english.visitkorea.or.kr/",
       "source_name": "VisitKorea",
-      "verified": "2026-08-02", "recheck_after": "2027-08-01", "status": "VERIFIED",
+      "verified": "2026-08-02",
+      "recheck_after": "2027-08-01",
+      "status": "VERIFIED",
       "notes": "Well-established number."
     },
     {
       "id": "tourist-hotline-1330",
       "tier": "STABLE",
       "claim": "The Korea Tourism Organization's travel help, interpretation and complaint line is 1330 (24 hours, multilingual).",
-      "value": { "number": "1330", "hours": "24h", "languages": "multi" },
+      "value": {
+        "number": "1330",
+        "hours": "24h",
+        "languages": "multi"
+      },
       "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do",
       "source_name": "Korea Tourism Organization",
-      "verified": "2026-08-02", "recheck_after": "2027-08-01", "status": "VERIFIED",
+      "verified": "2026-08-02",
+      "recheck_after": "2027-08-01",
+      "status": "VERIFIED",
       "notes": "Official KTO tourist information line."
     },
-
     {
       "id": "immigration-1345",
       "tier": "STABLE",
       "claim": "The Immigration Contact Center is 1345 — a multilingual line for visa, stay and immigration questions (run by the Korea Immigration Service).",
-      "value": { "number": "1345", "for": "visa / stay / immigration", "languages": "multilingual" },
+      "value": {
+        "number": "1345",
+        "for": "visa / stay / immigration",
+        "languages": "multilingual"
+      },
       "source": "https://www.hikorea.go.kr",
       "source_name": "HiKorea / Korea Immigration Service",
-      "verified": "2026-08-05", "recheck_after": "2027-08-01", "status": "VERIFIED",
+      "verified": "2026-08-05",
+      "recheck_after": "2027-08-01",
+      "status": "VERIFIED",
       "notes": "Dial 1345 without an area code inside Korea. For tourism info and interpretation, 1330 is the main line."
     },
     {
       "id": "arex-express",
       "tier": "VOLATILE",
       "claim": "AREX Express train: non-stop between Incheon Airport and Seoul Station. About 43 min from Terminal 1 (51 min from Terminal 2).",
-      "value": { "fare": "≈ ₩11,000–13,000", "minutes": "43 (T1) / 51 (T2)", "type": "non-stop", "hours": "≈ 05:20–23:32" },
+      "value": {
+        "fare": "≈ ₩11,000–13,000",
+        "minutes": "43 (T1) / 51 (T2)",
+        "type": "non-stop",
+        "hours": "≈ 05:20–23:32"
+      },
       "source": "https://www.arex.or.kr",
       "source_name": "AREX (2026 guides) — confirm at arex.or.kr",
-      "verified": "2026-08-04", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "verified": "2026-08-04",
+      "recheck_after": "2026-11-01",
+      "status": "VERIFIED",
       "notes": "The Express fare rose from the older ₩9,500; 2026 sources cite about ₩13,000 flat with online discounts near ₩11,500. Always confirm the current fare at arex.or.kr."
     },
     {
       "id": "arex-allstop",
       "tier": "VOLATILE",
       "claim": "AREX all-stop train: reaches Seoul Station in about 59–66 minutes. Fare depends on your destination station.",
-      "value": { "fare": "up to ≈ ₩5,350", "minutes": "59–66", "frequency": "every 5–10 min", "pay": "T-money OK" },
+      "value": {
+        "fare": "up to ≈ ₩5,350",
+        "minutes": "59–66",
+        "frequency": "every 5–10 min",
+        "pay": "T-money OK"
+      },
       "source": "https://www.arex.or.kr",
       "source_name": "AREX (2026 guides) — confirm at arex.or.kr",
-      "verified": "2026-08-04", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "verified": "2026-08-04",
+      "recheck_after": "2026-11-01",
+      "status": "VERIFIED",
       "notes": "Cheapest airport rail option; pay with T-money. Confirm the exact fare for your station at arex.or.kr."
     },
     {
       "id": "airport-bus",
       "tier": "VOLATILE",
       "claim": "Incheon Airport limousine / airport bus: about 60–90 minutes to Seoul, depending on route and traffic. Fare varies by bus type.",
-      "value": { "fare": "≈ ₩10,000–18,000", "minutes": "60–90", "pay": "cash / T-money / card" },
+      "value": {
+        "fare": "≈ ₩10,000–18,000",
+        "minutes": "60–90",
+        "pay": "cash / T-money / card"
+      },
       "source": "https://www.airport.kr/ap/en/index.do",
       "source_name": "Incheon Airport / 2026 guides",
-      "verified": "2026-08-04", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "verified": "2026-08-04",
+      "recheck_after": "2026-11-01",
+      "status": "VERIFIED",
       "notes": "Premium KAL limousine buses cost more (~₩18,000); standard airport buses are cheaper. Buses stop near many hotels — check the route for your destination."
     },
     {
       "id": "airport-taxi",
       "tier": "VOLATILE",
       "claim": "A regular metered taxi from Incheon Airport to central Seoul runs about ₩65,000–85,000 and takes 60–70 minutes. The official International Taxi offers fixed fares with certified English/Japanese/Chinese-speaking drivers.",
-      "value": { "metered": "≈ ₩65,000–85,000", "minutes": "60–70", "intl_taxi": "fixed fare, EN/JA/ZH drivers", "tolls": "expressway tolls added" },
+      "value": {
+        "metered": "≈ ₩65,000–85,000",
+        "minutes": "60–70",
+        "intl_taxi": "fixed fare, EN/JA/ZH drivers",
+        "tolls": "expressway tolls added"
+      },
       "source": "https://www.intltaxi.co.kr",
       "source_name": "Incheon Airport International Taxi / 2026 guides",
-      "verified": "2026-08-04", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "verified": "2026-08-04",
+      "recheck_after": "2026-11-01",
+      "status": "VERIFIED",
       "notes": "Metered fares vary with traffic and destination and include expressway tolls; a late-night surcharge can apply. International Taxi desks are in the T1 and T2 arrivals halls (intltaxi.co.kr, +82-1644-2255)."
     },
     {
       "id": "tmoney-where-to-buy",
       "tier": "STABLE",
       "claim": "T-money cards are sold and recharged at convenience stores nationwide (CU, GS25, 7-Eleven, Emart24) and at subway station machines.",
-      "value": { "stores": "CU, GS25, 7-Eleven, Emart24, subway station machines" },
+      "value": {
+        "stores": "CU, GS25, 7-Eleven, Emart24, subway station machines"
+      },
       "source": "https://english.visitkorea.or.kr/",
       "source_name": "VisitKorea / multiple guides (2026)",
-      "verified": "2026-08-03", "recheck_after": "2027-08-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2027-08-01",
+      "status": "VERIFIED",
       "notes": "Works on subway, bus, taxi and at convenience stores."
     },
     {
       "id": "tmoney-card-price",
       "tier": "VOLATILE",
       "claim": "T-money basic card price and refund policy.",
-      "value": { "basic_krw": "2,500–4,000", "design_krw": "5,000–10,000", "card_refundable": false },
+      "value": {
+        "basic_krw": "2,500–4,000",
+        "design_krw": "5,000–10,000",
+        "card_refundable": false
+      },
       "source": "https://blog.trazy.com/korea-subway-t-money-card-guide/",
       "source_name": "Travel guides (2026) — confirm at t-money.co.kr",
-      "verified": "2026-08-03", "recheck_after": "2026-12-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2026-12-01",
+      "status": "VERIFIED",
       "notes": "Varies by store and design. The card fee itself is non-refundable (only the remaining balance is refundable). Confirm at the official t-money.co.kr."
     },
     {
       "id": "ktx-seoul-busan",
       "tier": "VOLATILE",
       "claim": "KTX Seoul → Busan standard-seat one-way fare and approximate travel time.",
-      "value": { "fare_krw_standard": "~59,800", "duration": "2h15–2h40", "booking": "letskorail.com / KORAIL app, up to 1 month ahead" },
+      "value": {
+        "fare_krw_standard": "~59,800",
+        "duration": "2h15–2h40",
+        "booking": "letskorail.com / KORAIL app, up to 1 month ahead"
+      },
       "source": "https://www.koreatodo.com/how-to-get-to-busan-from-seoul",
       "source_name": "Travel guides (2026) — confirm at KORAIL",
-      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2026-11-01",
+      "status": "VERIFIED",
       "notes": "Third-party figure. Varies by train and seat class. Confirm the real fare at letskorail.com."
     },
     {
       "id": "transit-subway-seoul",
       "tier": "VOLATILE",
       "claim": "Seoul subway base fare is ₩1,550 with a T-money card (₩1,650 cash single ticket), for up to 10 km; longer trips add ₩100 per extra 5 km.",
-      "value": { "base_tmoney": "₩1,550", "base_cash": "₩1,650", "base_distance": "up to 10 km", "extra": "+₩100 / 5 km" },
+      "value": {
+        "base_tmoney": "₩1,550",
+        "base_cash": "₩1,650",
+        "base_distance": "up to 10 km",
+        "extra": "+₩100 / 5 km"
+      },
       "source": "https://english.visitseoul.net/",
       "source_name": "VisitSeoul / Seoul transit guides (2026)",
-      "verified": "2026-08-04", "recheck_after": "2026-12-01", "status": "VERIFIED",
+      "verified": "2026-08-04",
+      "recheck_after": "2026-12-01",
+      "status": "VERIFIED",
       "notes": "Raised from ₩1,400 in the June 2025 fare increase. Confirm current fares in Naver Map / KakaoMap or the Seoul TOPIS site."
     },
     {
       "id": "transit-bus-seoul",
       "tier": "VOLATILE",
       "claim": "Seoul city bus fares (T-money): blue & green ₩1,500, yellow ₩1,400, red (wide-area express) ₩3,000+, night (N-bus) ₩2,500.",
-      "value": { "blue_green": "₩1,500", "yellow": "₩1,400", "red_express": "₩3,000+", "night": "₩2,500" },
+      "value": {
+        "blue_green": "₩1,500",
+        "yellow": "₩1,400",
+        "red_express": "₩3,000+",
+        "night": "₩2,500"
+      },
       "source": "https://topis.seoul.go.kr/openEngBus.do",
       "source_name": "Seoul TOPIS (Seoul city) / 2026 guides",
-      "verified": "2026-08-04", "recheck_after": "2026-12-01", "status": "VERIFIED",
+      "verified": "2026-08-04",
+      "recheck_after": "2026-12-01",
+      "status": "VERIFIED",
       "notes": "Tap in AND out to get free transfers. Confirm current fares at Seoul TOPIS."
     },
     {
       "id": "transit-taxi-seoul",
       "tier": "VOLATILE",
       "claim": "Seoul medium taxi base fare is ₩4,800 (first 1.6 km), then ₩100 per 132 m. A late-night surcharge of up to 40% applies (about 23:00–02:00). Deluxe taxis start at ₩7,000 (first 3 km) with no night surcharge.",
-      "value": { "medium_base": "₩4,800", "medium_then": "₩100 / 132 m", "night_surcharge": "up to 40% (≈23:00–02:00)", "deluxe_base": "₩7,000", "international_base": "₩8,000" },
+      "value": {
+        "medium_base": "₩4,800",
+        "medium_then": "₩100 / 132 m",
+        "night_surcharge": "up to 40% (≈23:00–02:00)",
+        "deluxe_base": "₩7,000",
+        "international_base": "₩8,000"
+      },
       "source": "https://english.visitseoul.net/essential-Info-article/Taxi_/16758",
       "source_name": "VisitSeoul (Seoul city official)",
-      "verified": "2026-08-04", "recheck_after": "2026-12-01", "status": "VERIFIED",
+      "verified": "2026-08-04",
+      "recheck_after": "2026-12-01",
+      "status": "VERIFIED",
       "notes": "Use Kakao T for an upfront fare estimate. Deluxe (mobeom) and international taxis cost more but avoid late-night surcharges / offer English."
     },
     {
       "id": "transit-free-transfer",
       "tier": "STABLE",
       "claim": "Transfers between subway and bus (or bus and bus) are free within 30 minutes when you pay with a T-money card and tap both in and out.",
-      "value": { "window": "within 30 min", "condition": "T-money, tap in and out" },
+      "value": {
+        "window": "within 30 min",
+        "condition": "T-money, tap in and out"
+      },
       "source": "https://english.visitseoul.net/",
       "source_name": "VisitSeoul / Seoul transit guides",
-      "verified": "2026-08-04", "recheck_after": "2027-08-01", "status": "VERIFIED",
+      "verified": "2026-08-04",
+      "recheck_after": "2027-08-01",
+      "status": "VERIFIED",
       "notes": "You must tap out on the bus too, or you lose the transfer discount and may be charged again."
     },
     {
       "id": "sim-options",
       "tier": "STABLE",
       "claim": "Three ways to get online in Korea: an eSIM (install before you fly, live the moment you land), a physical SIM (needs an unlocked phone), or a rental pocket Wi-Fi (best shared by a group). Carriers are SKT, KT and LG U+.",
-      "value": { "esim": "activate before arrival", "physical_sim": "unlocked phone needed", "pocket_wifi": "rental, shareable", "carriers": "SKT, KT, LG U+", "buy_at": "airport arrivals or online" },
+      "value": {
+        "esim": "activate before arrival",
+        "physical_sim": "unlocked phone needed",
+        "pocket_wifi": "rental, shareable",
+        "carriers": "SKT, KT, LG U+",
+        "buy_at": "airport arrivals or online"
+      },
       "source": "https://english.visitkorea.or.kr/",
       "source_name": "VisitKorea / 2026 connectivity guides",
-      "verified": "2026-08-04", "recheck_after": "2027-08-01", "status": "VERIFIED",
+      "verified": "2026-08-04",
+      "recheck_after": "2027-08-01",
+      "status": "VERIFIED",
       "notes": "Prices vary widely by data amount and number of days, so compare current offers (e.g. Airalo/Klook for eSIM; carrier counters for SIM) rather than a fixed price. eSIM needs an eSIM-capable phone; a physical SIM needs an unlocked phone. Counters are in the Incheon T1/T2, Gimpo and Gimhae arrivals halls."
     },
     {
       "id": "best-time-seasons",
       "tier": "STABLE",
       "claim": "The best times to visit are spring (Mar–May) and autumn (Sep–Nov). Summer (Jun–Aug) is hot and humid with a monsoon; winter is cold and dry (Seoul averages about -2°C).",
-      "value": { "best": "spring (Mar–May), autumn (Sep–Nov)", "summer": "hot/humid, monsoon", "winter": "cold, Seoul avg ~ -2°C" },
+      "value": {
+        "best": "spring (Mar–May), autumn (Sep–Nov)",
+        "summer": "hot/humid, monsoon",
+        "winter": "cold, Seoul avg ~ -2°C"
+      },
       "source": "https://english.visitkorea.or.kr/",
       "source_name": "General climate info / multiple travel guides",
-      "verified": "2026-08-03", "recheck_after": "2027-08-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2027-08-01",
+      "status": "VERIFIED",
       "notes": "General seasonal characteristics. Cherry-blossom and fall-foliage dates shift each year."
     },
     {
       "id": "tipping-not-customary",
       "tier": "STABLE",
       "claim": "Tipping is not customary in Korea; you don't need to tip at restaurants or in taxis.",
-      "value": { "tipping": "not customary" },
+      "value": {
+        "tipping": "not customary"
+      },
       "source": "https://english.visitkorea.or.kr/",
       "source_name": "VisitKorea",
-      "verified": "2026-08-03", "recheck_after": "2027-08-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2027-08-01",
+      "status": "VERIFIED",
       "notes": "Some luxury hotels may add a service charge, but generally no tip is expected."
     },
     {
       "id": "currency-krw",
       "tier": "STABLE",
       "claim": "Korea's currency is the won (KRW, ₩).",
-      "value": { "currency": "South Korean won", "code": "KRW", "symbol": "₩" },
+      "value": {
+        "currency": "South Korean won",
+        "code": "KRW",
+        "symbol": "₩"
+      },
       "source": "https://english.visitkorea.or.kr/",
       "source_name": "VisitKorea",
-      "verified": "2026-08-03", "recheck_after": "2028-08-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2028-08-01",
+      "status": "VERIFIED",
       "notes": "Cards are widely accepted; cash is handy for small vendors and traditional markets."
     },
-
     {
       "id": "dest-stat-myeongdong",
       "tier": "STABLE",
       "claim": "Myeongdong drew the highest average daily number of foreign visitors in Seoul (about 100,910), the city's most-visited area.",
-      "value": { "avg_daily_foreign_visitors": "100,910", "rank": 1 },
+      "value": {
+        "avg_daily_foreign_visitors": "100,910",
+        "rank": 1
+      },
       "source": "https://english.seoul.go.kr/from-k-culture-to-k-hiking-foreign-tourists-venture-beyond-seouls-top-attractions/",
       "source_name": "Seoul Metropolitan Government",
-      "verified": "2026-08-03", "recheck_after": "2027-02-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2027-02-01",
+      "status": "VERIFIED",
       "notes": "Average daily foreign visitors, per Seoul city reporting."
     },
     {
       "id": "dest-stat-nseoultower",
       "tier": "STABLE",
       "claim": "N Seoul Tower was Seoul's 2nd most-visited spot by foreign visitors (about 57,370 average daily).",
-      "value": { "avg_daily_foreign_visitors": "57,370", "rank": 2 },
+      "value": {
+        "avg_daily_foreign_visitors": "57,370",
+        "rank": 2
+      },
       "source": "https://english.seoul.go.kr/from-k-culture-to-k-hiking-foreign-tourists-venture-beyond-seouls-top-attractions/",
       "source_name": "Seoul Metropolitan Government",
-      "verified": "2026-08-03", "recheck_after": "2027-02-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2027-02-01",
+      "status": "VERIFIED",
       "notes": "Average daily foreign visitors, per Seoul city reporting."
     },
     {
       "id": "dest-stat-bukhansan",
       "tier": "STABLE",
       "claim": "Bukhansan had the most foreign hikers of Seoul's mountains (about 4,015), leading the growing 'K-hiking' trend.",
-      "value": { "foreign_hikers": "4,015", "note": "top K-hiking peak" },
+      "value": {
+        "foreign_hikers": "4,015",
+        "note": "top K-hiking peak"
+      },
       "source": "https://korea.stripes.com/travel/foreign-tourists-seoul-k-hiking.html",
       "source_name": "Stripes Korea / Seoul reporting",
-      "verified": "2026-08-03", "recheck_after": "2027-02-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2027-02-01",
+      "status": "VERIFIED",
       "notes": "Foreign hiker counts by Seoul mountain; Bukhansan highest."
     },
-    { "id": "visa-free-90days-general", "tier": "VOLATILE", "claim": "Many nationalities can enter visa-free for tourism (length varies by country: 30/60/90 days).", "value": null, "source": "https://www.hikorea.go.kr", "source_name": "HiKorea (MOJ) / Visa policy of South Korea", "verified": null, "status": "TODO", "notes": "Varies by country — do not generalize. Provide a per-country confirmation link in the UI." },
+    {
+      "id": "visa-free-90days-general",
+      "tier": "VOLATILE",
+      "claim": "Many nationalities can enter visa-free for tourism (length varies by country: 30/60/90 days).",
+      "value": null,
+      "source": "https://www.hikorea.go.kr",
+      "source_name": "HiKorea (MOJ) / Visa policy of South Korea",
+      "verified": null,
+      "status": "TODO",
+      "notes": "Varies by country — do not generalize. Provide a per-country confirmation link in the UI."
+    },
     {
       "id": "visa-india-c39",
       "tier": "VOLATILE",
       "claim": "Indian passport holders need a C-3-9 short-term tourist visa to visit Korea (up to 90 days). Apply in person at a Korea Visa Application Center (VFS Global) — no appointment needed.",
-      "value": { "visa_type": "C-3-9 short-term tourist", "max_stay": "90 days", "visa_fee": "≈ INR 3,400 (single entry)", "service_fee": "≈ INR 1,100–1,400", "processing": "≈ 5–10 working days", "appointment": "not required" },
+      "value": {
+        "visa_type": "C-3-9 short-term tourist",
+        "max_stay": "90 days",
+        "visa_fee": "≈ INR 3,400 (single entry)",
+        "service_fee": "≈ INR 1,100–1,400",
+        "processing": "≈ 5–10 working days",
+        "appointment": "not required"
+      },
       "source": "https://www.visaforkorea-id.com/apply-visa.html",
       "source_name": "KVAC India (VFS Global) / Korea Visa Portal",
-      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2026-11-01",
+      "status": "VERIFIED",
       "notes": "Fees and processing vary by center and season — confirm at your KVAC. The form and any e-application are only at visa.go.kr (the only official portal). India is split into two jurisdictions: Embassy/New Delhi (visaforkorea-id.com) and Chennai Consulate (visaforkorea-ce.com)."
     },
     {
       "id": "visa-vietnam-c39",
       "tier": "VOLATILE",
       "claim": "Vietnamese passport holders need a C-3-9 short-term tourist visa for Korea. Since 2025 the tourist-visa paperwork was simplified, and multi-year (up to 10-year) multiple-entry visas have been expanded for Vietnamese travelers.",
-      "value": { "visa_type": "C-3-9 short-term tourist", "max_stay": "90 days", "financial_docs": "simplified: 1–2 types", "multi_year": "up to 10-year multiple-entry (eligibility applies)", "apply_at": "KVAC Hanoi / Ho Chi Minh City" },
+      "value": {
+        "visa_type": "C-3-9 short-term tourist",
+        "max_stay": "90 days",
+        "financial_docs": "simplified: 1–2 types",
+        "multi_year": "up to 10-year multiple-entry (eligibility applies)",
+        "apply_at": "KVAC Hanoi / Ho Chi Minh City"
+      },
       "source": "https://overseas.mofa.go.kr/vn-ko/brd/m_2198/list.do",
       "source_name": "Embassy of Korea in Vietnam / KVAC",
-      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2026-11-01",
+      "status": "VERIFIED",
       "notes": "Visa fees are set by reciprocity and are non-refundable — confirm the current amount at the KVAC. Jurisdiction splits into Hanoi (visaforkorea-vt.com) and Ho Chi Minh City (visaforkorea-hc.com). Form: visa.go.kr."
     },
     {
       "id": "visa-china-c3",
       "tier": "VOLATILE",
       "claim": "Chinese passport holders need a C-3 tourist visa for mainland Korea. Jeju Island allows visa-free entry up to 30 days (Jeju-only, direct flights).",
-      "value": { "visa_type": "C-3 tourist", "max_stay": "90 days", "jeju_visa_free": "up to 30 days (Jeju only)", "apply_at": "Korean embassy/consulate or KVAC (VFS)" },
+      "value": {
+        "visa_type": "C-3 tourist",
+        "max_stay": "90 days",
+        "jeju_visa_free": "up to 30 days (Jeju only)",
+        "apply_at": "Korean embassy/consulate or KVAC (VFS)"
+      },
       "source": "https://mileasia.com/korea/chinese-visa-korea/",
       "source_name": "Travel guides (2026) — confirm at Korean embassy in China",
-      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2026-11-01",
+      "status": "VERIFIED",
       "notes": "A visa-free scheme for approved Chinese tour groups (3+) ran Sep 2025–Jun 2026; check whether it has been extended before relying on it. Jeju-only visa-free requires direct flights without mainland transit."
     },
     {
       "id": "visa-philippines-c3",
       "tier": "VOLATILE",
       "claim": "Filipino passport holders need a C-3 tourist visa for mainland Korea, but there is NO visa fee. From 2026-02-20, 3-month bank statements are no longer required.",
-      "value": { "visa_type": "C-3 tourist", "visa_fee": "free (no fee)", "processing": "≈ 3–5 business days", "bank_statement": "no longer required (from 2026-02-20)", "apply_at": "Korean embassy / accredited agencies" },
+      "value": {
+        "visa_type": "C-3 tourist",
+        "visa_fee": "free (no fee)",
+        "processing": "≈ 3–5 business days",
+        "bank_statement": "no longer required (from 2026-02-20)",
+        "apply_at": "Korean embassy / accredited agencies"
+      },
       "source": "https://myoona.ph/blog/travel/south-korea-visa-requirements/",
       "source_name": "Travel guides (2026) — confirm at Korean embassy in the Philippines",
-      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2026-11-01",
+      "status": "VERIFIED",
       "notes": "Employees still submit ITR + Certificate of Employment; business owners submit DTI/SEC registration + business permit. Jeju Island has separate visa-free entry. Confirm current rules with the embassy."
     },
     {
       "id": "visa-indonesia-c3",
       "tier": "VOLATILE",
       "claim": "Individual Indonesian tourists need a C-3 tourist visa for mainland Korea. Since 2026-05-28, Indonesian tour groups of 3+ can enter visa-free for short stays (groups only; individuals not eligible).",
-      "value": { "visa_type": "C-3 tourist (individuals)", "max_stay": "90 days", "group_visa_free": "3+ group, from 2026-05-28 (trial)", "jeju_visa_free": "yes (Jeju only)", "apply_at": "Korean embassy/consulate or KVAC Jakarta" },
+      "value": {
+        "visa_type": "C-3 tourist (individuals)",
+        "max_stay": "90 days",
+        "group_visa_free": "3+ group, from 2026-05-28 (trial)",
+        "jeju_visa_free": "yes (Jeju only)",
+        "apply_at": "Korean embassy/consulate or KVAC Jakarta"
+      },
       "source": "https://www.lmiconsultancy.com/south-korea-introduces-conditional-visa-free-entry-for-indonesian-nationals/",
       "source_name": "Immigration briefings (2026) — confirm at Korean embassy in Indonesia",
-      "verified": "2026-08-03", "recheck_after": "2026-11-01", "status": "VERIFIED",
+      "verified": "2026-08-03",
+      "recheck_after": "2026-11-01",
+      "status": "VERIFIED",
       "notes": "Individual travelers still need a visa: passport, photo, 3-month bank statement, employment letter + salary slips, sponsor letter if funded by another. Jeju has separate visa-free entry."
+    },
+    {
+      "id": "keta-age-exemption",
+      "tier": "VOLATILE",
+      "claim": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card.",
+      "value": {
+        "age_exempt": "<=17 or >=65"
+      },
+      "source": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=175266",
+      "source_name": "Korea Immigration Service — K-ETA",
+      "verified": "2026-09-23",
+      "recheck_after": "2026-10-23",
+      "status": "VERIFIED",
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
     }
   ]
 }

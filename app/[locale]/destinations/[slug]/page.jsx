@@ -9,6 +9,7 @@ import dest from "../../../../data/destinations.json";
 import stayData from "../../../../data/stay.json";
 import { stayFor } from "../../../../lib/content";
 import destImages from "../../../../data/dest-images.json";
+import SavePlace from "../../../../components/SavePlace";
 import ArticleTrust from "../../../../components/ArticleTrust";
 import destJa from "../../../../data/destinations.ja.json";
 import destZh from "../../../../data/destinations.zh.json";
@@ -62,7 +63,7 @@ export function generateMetadata({ params }) {
   return pageMeta({
     locale,
     path: `destinations/${params.slug}`,
-    title: cityName ? `${name}, ${cityName} — ${SITE_NAME}` : `${name} — ${SITE_NAME}`,
+    title: getMessages(locale).experience.placeTitle.replace("{place}",name).replace("{city}",cityName||"Korea"),
     description,
     type: "article",
   });
@@ -111,7 +112,7 @@ export default function DestinationDetail({ params }) {
         <span className="aic" style={{ background: d.grad }}>{d.icon}</span>
         <h1>{d.name}</h1>
       </div>
-      <p className="art-tagline">{d.blurb}</p>
+      <p className="art-tagline">{d.blurb}</p><SavePlace id={`dest:${params.slug}`} locale={locale} />
 
       {img?.img && (
         <figure className="art-hero">
@@ -153,7 +154,7 @@ export default function DestinationDetail({ params }) {
       {stayData.cities[d.city] && (
         <p style={{ margin: "2px 0 0" }}>
           <a href={`/${locale}/stay/${d.city}/`} style={{ color: "var(--primary)", fontWeight: 700, textDecoration: "none", fontSize: 14 }}>
-            🏨 Where to stay in {stayData.cities[d.city].name} →
+            🏨 {m.nextSteps.stay} →
           </a>
         </p>
       )}

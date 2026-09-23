@@ -8,7 +8,7 @@
     "metaDesc": "カザフスタンのパスポート保持者は韓国にビザが必要？いいえ — 最長30日（180日間で最大60日）まではビザ不要です。ただしK-ETA（₩10,000、有効3年）は必要です：カザフスタンはK-ETA免除リストに含まれていません。",
     "verdict": {
       "headline": "観光ビザは不要 — ただしK-ETAの申請が必要です。",
-      "sub": "カザフスタンのパスポートは短期観光ならビザ不要です（最長30日、かつ180日間で60日を超えないこと）。ただしカザフスタンはK-ETA免除リストに含まれないため、渡航前にK-ETAを取得しなければなりません。有効なK-ETAがあれば、e-Arrival Cardは免除されます。",
+      "sub": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。",
       "type": "ビザ免除 — K-ETAが必要",
       "stay": "最長30日（180日間で最大60日）",
       "entry": "短期観光"
@@ -30,13 +30,13 @@
         "icon": "📝",
         "tone": "blue",
         "title": "K-ETAはe-Arrival Cardの代わりになります",
-        "body": "有効なK-ETAを持っていればe-Arrival Cardは免除されます — 両方を提出する必要はありません。（年齢によりK-ETAが免除される場合 — 17歳以下または65歳以上 — は、代わりに無料のe-Arrival Cardを申請してください。）"
+        "body": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。"
       }
     ],
     "tldr": [
       "観光ビザは不要 — カザフスタンのパスポートは最長30日（180日間で最大60日）までビザ免除です。",
       "渡航前にK-ETAを必ず申請しましょう（KRW 10,000、有効3年） — k-eta.go.krでのみ。",
-      "出発の少なくとも72時間前に申請を。有効なK-ETAがあればe-Arrival Cardは免除されます。",
+      "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。",
       "滞在期間中有効なパスポートと、出国・帰国便の証明を用意しましょう。"
     ],
     "steps": {
@@ -62,7 +62,7 @@
         {
           "n": 4,
           "title": "入国審査で",
-          "detail": "有効なK-ETAがあればe-Arrival Cardは提出しません。到着時にパスポートを提示します。指紋と写真の採取が行われる場合があります。目的は観光に限ってください — ビザ免除での入国では就労はできません。"
+          "detail": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。"
         }
       ]
     },
@@ -141,12 +141,12 @@
         {
           "icon": "⏰",
           "t": "申請が遅すぎる",
-          "d": "出発の少なくとも72時間前に申請しましょう。承認は早いことが多いですが、審査される場合に備えて余裕を持ってください。"
+          "d": "搭乗前に承認を得られるよう、余裕を持って申請してください。K-ETAの審査は72時間を超える場合があり、承認までの時間や入国は保証されません。"
         },
         {
           "icon": "📝",
           "t": "すでにK-ETAがあるのにe-Arrival Cardを提出する",
-          "d": "両方は必要ありません。有効なK-ETAがあればe-Arrival Cardは免除されます。"
+          "d": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。"
         }
       ]
     },
@@ -171,7 +171,7 @@
         },
         {
           "q": "e-Arrival Cardも必要ですか？",
-          "a": "いいえ — 有効なK-ETAを持っていればe-Arrival Cardは免除されます。どちらか一方を提出し、両方は必要ありません。"
+          "a": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。"
         },
         {
           "q": "この入国資格で就労や就学はできますか？",
@@ -202,7 +202,7 @@
     "metaDesc": "哈萨克斯坦护照持有者去韩国需要签证吗？不需要 — 最多可免签停留 30 天（任意 180 天内最多 60 天）。但你确实需要 K-ETA（₩10,000，有效期 3 年）：哈萨克斯坦不在 K-ETA 豁免名单上。",
     "verdict": {
       "headline": "无需旅游签证 — 但你必须申请 K-ETA。",
-      "sub": "哈萨克斯坦护照短期旅游免签（最多 30 天，且任意 180 天内不超过 60 天）。但哈萨克斯坦不在 K-ETA 豁免名单上，因此你必须在出发前取得 K-ETA。持有有效的 K-ETA 后，你便可免填 e-Arrival Card。",
+      "sub": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。",
       "type": "免签 — 需要 K-ETA",
       "stay": "最多 30 天（任意 180 天内最多 60 天）",
       "entry": "短期旅游"
@@ -224,13 +224,13 @@
         "icon": "📝",
         "tone": "blue",
         "title": "K-ETA 可代替 e-Arrival Card",
-        "body": "一旦持有有效的 K-ETA，你便可免填 e-Arrival Card — 无需两者都提交。（如果你因年龄而豁免 K-ETA — 17 岁及以下或 65 岁及以上 — 请改填免费的 e-Arrival Card。）"
+        "body": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。"
       }
     ],
     "tldr": [
       "无需旅游签证 — 哈萨克斯坦护照最多可免签 30 天（任意 180 天内最多 60 天）。",
       "你必须在出发前申请 K-ETA（KRW 10,000，有效期 3 年）— 仅在 k-eta.go.kr 申请。",
-      "请至少在出发前 72 小时申请；持有有效的 K-ETA 便可免填 e-Arrival Card。",
+      "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。",
       "携带在停留期间有效的护照，以及续程/返程行程证明。"
     ],
     "steps": {
@@ -256,7 +256,7 @@
         {
           "n": 4,
           "title": "在入境检查时",
-          "detail": "持有有效的 K-ETA 就无需填写 e-Arrival Card。抵达时出示护照；可能会采集指纹和照片。请以旅游为目的 — 免签入境不得从事有偿工作。"
+          "detail": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。"
         }
       ]
     },
@@ -335,12 +335,12 @@
         {
           "icon": "⏰",
           "t": "申请太晚",
-          "d": "请至少在出发前 72 小时申请。审批通常很快，但请留出时间，以防申请被进一步审核。"
+          "d": "请尽早申请，确保登机前获批。K-ETA审核可能超过72小时，不保证审批时间或入境。"
         },
         {
           "icon": "📝",
           "t": "已有 K-ETA 却仍填 e-Arrival Card",
-          "d": "两者无需都办。持有有效的 K-ETA 即可免填 e-Arrival Card。"
+          "d": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。"
         }
       ]
     },
@@ -365,7 +365,7 @@
         },
         {
           "q": "我还需要 e-Arrival Card 吗？",
-          "a": "不需要 — 如果你持有有效的 K-ETA，即可免填 e-Arrival Card。两者只需办其一，无需都办。"
+          "a": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。"
         },
         {
           "q": "我可以凭此入境工作或学习吗？",
@@ -396,7 +396,7 @@
     "metaDesc": "持哈薩克護照前往韓國需要簽證嗎？不需要 — 最多可免簽停留 30 天（任意 180 天內最多 60 天）。但你確實需要 K-ETA（₩10,000，有效期 3 年）：哈薩克不在 K-ETA 豁免名單上。",
     "verdict": {
       "headline": "免辦觀光簽證 — 但你必須申請 K-ETA。",
-      "sub": "哈薩克護照短期觀光可免簽（最多 30 天，且任意 180 天內不超過 60 天）。但哈薩克不在 K-ETA 豁免名單上，因此你必須在出發前取得 K-ETA。持有有效的 K-ETA 後，你便可免填 e-Arrival Card。",
+      "sub": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。",
       "type": "免簽 — 需要 K-ETA",
       "stay": "最多 30 天（任意 180 天內最多 60 天）",
       "entry": "短期觀光"
@@ -418,13 +418,13 @@
         "icon": "📝",
         "tone": "blue",
         "title": "K-ETA 可取代 e-Arrival Card",
-        "body": "一旦持有有效的 K-ETA，你便可免填 e-Arrival Card — 不需要兩者都提交。（若你因年齡而豁免 K-ETA — 17 歲以下或 65 歲以上 — 請改填免費的 e-Arrival Card。）"
+        "body": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。"
       }
     ],
     "tldr": [
       "免辦觀光簽證 — 哈薩克護照最多可免簽 30 天（任意 180 天內最多 60 天）。",
       "你必須在出發前申請 K-ETA（KRW 10,000，有效期 3 年）— 僅能在 k-eta.go.kr 申請。",
-      "請至少在出發前 72 小時申請；持有有效的 K-ETA 便可免填 e-Arrival Card。",
+      "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。",
       "請攜帶在停留期間內有效的護照，以及續程/回程的行程證明。"
     ],
     "steps": {
@@ -450,7 +450,7 @@
         {
           "n": 4,
           "title": "在證照查驗時",
-          "detail": "持有有效的 K-ETA 就不必填寫 e-Arrival Card。抵達時出示護照；可能會採集指紋和拍照。請以觀光為目的 — 免簽入境不得從事有薪工作。"
+          "detail": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。"
         }
       ]
     },
@@ -529,12 +529,12 @@
         {
           "icon": "⏰",
           "t": "太晚申請",
-          "d": "請至少在出發前 72 小時申請。核准通常很快，但請預留時間，以防申請被進一步審查。"
+          "d": "請儘早申請，確保登機前獲批。K-ETA審核可能超過72小時，不保證審批時間或入境。"
         },
         {
           "icon": "📝",
           "t": "已有 K-ETA 卻仍填 e-Arrival Card",
-          "d": "兩者不需要都辦。持有有效的 K-ETA 即可免填 e-Arrival Card。"
+          "d": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。"
         }
       ]
     },
@@ -559,7 +559,7 @@
         },
         {
           "q": "我還需要 e-Arrival Card 嗎？",
-          "a": "不需要 — 如果你持有有效的 K-ETA，即可免填 e-Arrival Card。兩者只需辦其一，不需要都辦。"
+          "a": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。"
         },
         {
           "q": "我可以憑這次入境工作或就學嗎？",
@@ -590,7 +590,7 @@
     "metaDesc": "Người mang hộ chiếu Kazakhstan có cần thị thực vào Hàn Quốc không? Không — miễn thị thực tối đa 30 ngày (tối đa 60 ngày trong bất kỳ giai đoạn 180 ngày nào). Nhưng bạn CÓ cần K-ETA (₩10,000, hiệu lực 3 năm): Kazakhstan không nằm trong danh sách miễn K-ETA.",
     "verdict": {
       "headline": "Không cần thị thực du lịch — nhưng bạn phải xin K-ETA.",
-      "sub": "Hộ chiếu Kazakhstan được miễn thị thực cho du lịch ngắn ngày (tối đa 30 ngày, và không quá 60 ngày trong bất kỳ giai đoạn 180 ngày nào). Nhưng Kazakhstan không nằm trong danh sách miễn K-ETA, nên bạn phải có K-ETA trước khi bay. Khi đã có K-ETA hợp lệ, bạn được miễn e-Arrival Card.",
+      "sub": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan.",
       "type": "Miễn thị thực — cần K-ETA",
       "stay": "Tối đa 30 ngày (tối đa 60 ngày trong bất kỳ giai đoạn 180 ngày nào)",
       "entry": "Du lịch ngắn ngày"
@@ -612,13 +612,13 @@
         "icon": "📝",
         "tone": "blue",
         "title": "K-ETA thay thế cho e-Arrival Card",
-        "body": "Khi đã có K-ETA hợp lệ, bạn được miễn e-Arrival Card — không phải khai cả hai. (Nếu bạn được miễn K-ETA theo độ tuổi — từ 17 tuổi trở xuống hoặc từ 65 tuổi trở lên — hãy khai e-Arrival Card miễn phí thay thế.)"
+        "body": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan."
       }
     ],
     "tldr": [
       "Không cần thị thực du lịch — hộ chiếu Kazakhstan được miễn thị thực tối đa 30 ngày (tối đa 60 ngày trong bất kỳ giai đoạn 180 ngày nào).",
       "Bạn phải xin K-ETA trước khi bay (KRW 10,000, hiệu lực 3 năm) — chỉ tại k-eta.go.kr.",
-      "Hãy xin ít nhất 72 giờ trước khi khởi hành; K-ETA hợp lệ khi đó sẽ miễn cho bạn e-Arrival Card.",
+      "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan.",
       "Mang theo hộ chiếu còn hiệu lực trong suốt thời gian lưu trú cùng bằng chứng chuyến bay tiếp theo/khứ hồi."
     ],
     "steps": {
@@ -644,7 +644,7 @@
         {
           "n": 4,
           "title": "Tại cửa nhập cảnh",
-          "detail": "Khi đã có K-ETA hợp lệ, bạn không phải khai e-Arrival Card. Xuất trình hộ chiếu khi đến; có thể bạn sẽ được lấy dấu vân tay và chụp ảnh. Hãy giữ đúng mục đích du lịch — không được làm việc có lương khi nhập cảnh miễn thị thực."
+          "detail": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan."
         }
       ]
     },
@@ -723,12 +723,12 @@
         {
           "icon": "⏰",
           "t": "Xin quá muộn",
-          "d": "Hãy xin ít nhất 72 giờ trước khi khởi hành. Việc phê duyệt thường nhanh, nhưng hãy chừa thời gian phòng khi đơn của bạn bị xét duyệt."
+          "d": "Nộp sớm để được chấp thuận trước khi lên máy bay. Xét duyệt K-ETA có thể kéo dài hơn 72 giờ; không bảo đảm thời gian phê duyệt hay quyền nhập cảnh."
         },
         {
           "icon": "📝",
           "t": "Khai e-Arrival Card khi đã có K-ETA",
-          "d": "Bạn không cần cả hai. K-ETA hợp lệ giúp bạn được miễn e-Arrival Card."
+          "d": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan."
         }
       ]
     },
@@ -753,7 +753,7 @@
         },
         {
           "q": "Tôi có cần cả e-Arrival Card không?",
-          "a": "Không — nếu bạn có K-ETA hợp lệ thì được miễn e-Arrival Card. Bạn khai một trong hai, không phải cả hai."
+          "a": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan."
         },
         {
           "q": "Tôi có thể làm việc hay học tập với lần nhập cảnh này không?",
@@ -784,7 +784,7 @@
     "metaDesc": "ผู้ถือหนังสือเดินทางคาซัคสถานต้องใช้วีซ่าเข้าเกาหลีใต้ไหม? ไม่ต้อง — ยกเว้นวีซ่าได้สูงสุด 30 วัน (สูงสุด 60 วันในช่วง 180 วันใด ๆ) แต่คุณต้องใช้ K-ETA (₩10,000 มีอายุ 3 ปี): คาซัคสถานไม่อยู่ในรายชื่อยกเว้น K-ETA",
     "verdict": {
       "headline": "ไม่ต้องใช้วีซ่าท่องเที่ยว — แต่คุณต้องยื่นขอ K-ETA",
-      "sub": "หนังสือเดินทางคาซัคสถานได้รับการยกเว้นวีซ่าสำหรับการท่องเที่ยวระยะสั้น (สูงสุด 30 วัน และไม่เกิน 60 วันในช่วง 180 วันใด ๆ) แต่คาซัคสถานไม่อยู่ในรายชื่อยกเว้น K-ETA ดังนั้นคุณต้องได้รับ K-ETA ก่อนออกเดินทาง เมื่อมี K-ETA ที่ใช้ได้แล้ว คุณจะได้รับการยกเว้น e-Arrival Card",
+      "sub": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร",
       "type": "ยกเว้นวีซ่า — ต้องใช้ K-ETA",
       "stay": "สูงสุด 30 วัน (สูงสุด 60 วันในช่วง 180 วันใด ๆ)",
       "entry": "การท่องเที่ยวระยะสั้น"
@@ -806,13 +806,13 @@
         "icon": "📝",
         "tone": "blue",
         "title": "K-ETA ใช้แทน e-Arrival Card",
-        "body": "เมื่อคุณมี K-ETA ที่ใช้ได้แล้ว คุณจะได้รับการยกเว้น e-Arrival Card — ไม่ต้องยื่นทั้งสองอย่าง (หากคุณได้รับการยกเว้น K-ETA ตามอายุ — 17 ปีหรือต่ำกว่า หรือ 65 ปีขึ้นไป — ให้ยื่น e-Arrival Card ฟรีแทน)"
+        "body": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร"
       }
     ],
     "tldr": [
       "ไม่ต้องใช้วีซ่าท่องเที่ยว — หนังสือเดินทางคาซัคสถานได้รับการยกเว้นวีซ่าสูงสุด 30 วัน (สูงสุด 60 วันในช่วง 180 วันใด ๆ)",
       "คุณต้องยื่นขอ K-ETA ก่อนออกเดินทาง (KRW 10,000 มีอายุ 3 ปี) — ที่ k-eta.go.kr เท่านั้น",
-      "ยื่นขออย่างน้อย 72 ชั่วโมงก่อนออกเดินทาง; เมื่อมี K-ETA ที่ใช้ได้ คุณจะได้รับการยกเว้น e-Arrival Card",
+      "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร",
       "นำหนังสือเดินทางที่มีอายุครอบคลุมตลอดการพำนัก พร้อมหลักฐานการเดินทางออก/ขากลับ"
     ],
     "steps": {
@@ -838,7 +838,7 @@
         {
           "n": 4,
           "title": "ที่ด่านตรวจคนเข้าเมือง",
-          "detail": "เมื่อมี K-ETA ที่ใช้ได้ คุณไม่ต้องยื่น e-Arrival Card แสดงหนังสือเดินทางเมื่อเดินทางถึง อาจมีการเก็บลายนิ้วมือและถ่ายรูป โปรดเดินทางเพื่อการท่องเที่ยวเท่านั้น — การเข้าเมืองแบบยกเว้นวีซ่าไม่อนุญาตให้ทำงานที่ได้รับค่าจ้าง"
+          "detail": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร"
         }
       ]
     },
@@ -917,12 +917,12 @@
         {
           "icon": "⏰",
           "t": "ยื่นขอช้าเกินไป",
-          "d": "ยื่นขออย่างน้อย 72 ชั่วโมงก่อนออกเดินทาง การอนุมัติมักรวดเร็ว แต่เผื่อเวลาไว้ในกรณีที่คำขอของคุณถูกตรวจสอบ"
+          "d": "สมัครล่วงหน้าให้มีเวลารับอนุมัติก่อนขึ้นเครื่อง การพิจารณา K-ETA อาจเกิน 72 ชั่วโมง ไม่มีการรับประกันเวลาอนุมัติหรือการเข้าเมือง"
         },
         {
           "icon": "📝",
           "t": "ยื่น e-Arrival Card ทั้งที่มี K-ETA อยู่แล้ว",
-          "d": "คุณไม่ต้องใช้ทั้งสองอย่าง K-ETA ที่ใช้ได้ทำให้คุณได้รับการยกเว้น e-Arrival Card"
+          "d": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร"
         }
       ]
     },
@@ -947,7 +947,7 @@
         },
         {
           "q": "ฉันต้องใช้ e-Arrival Card ด้วยไหม?",
-          "a": "ไม่ต้อง — หากคุณมี K-ETA ที่ใช้ได้ คุณจะได้รับการยกเว้น e-Arrival Card คุณยื่นอย่างใดอย่างหนึ่ง ไม่ใช่ทั้งสองอย่าง"
+          "a": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร"
         },
         {
           "q": "ฉันทำงานหรือเรียนด้วยการเข้าเมืองนี้ได้ไหม?",
@@ -978,7 +978,7 @@
     "metaDesc": "Apakah pemegang paspor Kazakhstan memerlukan visa untuk Korea Selatan? Tidak — bebas visa hingga 30 hari (maksimal 60 hari dalam periode 180 hari mana pun). Namun Anda TETAP memerlukan K-ETA (₩10,000, berlaku 3 tahun): Kazakhstan tidak ada dalam daftar pembebasan K-ETA.",
     "verdict": {
       "headline": "Tidak perlu visa turis — tetapi Anda harus mengajukan K-ETA.",
-      "sub": "Paspor Kazakhstan bebas visa untuk wisata singkat (hingga 30 hari, dan tidak lebih dari 60 hari dalam periode 180 hari mana pun). Namun Kazakhstan tidak ada dalam daftar pembebasan K-ETA, jadi Anda harus memperoleh K-ETA sebelum terbang. Dengan K-ETA yang berlaku, Anda kemudian dibebaskan dari e-Arrival Card.",
+      "sub": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai.",
       "type": "Bebas visa — K-ETA diperlukan",
       "stay": "Hingga 30 hari (maksimal 60 dalam periode 180 hari mana pun)",
       "entry": "Wisata jangka pendek"
@@ -1000,13 +1000,13 @@
         "icon": "📝",
         "tone": "blue",
         "title": "K-ETA menggantikan e-Arrival Card",
-        "body": "Setelah Anda memegang K-ETA yang berlaku, Anda dibebaskan dari e-Arrival Card — Anda tidak mengisi keduanya. (Jika Anda dibebaskan dari K-ETA karena usia — 17 tahun ke bawah atau 65 tahun ke atas — isilah e-Arrival Card gratis sebagai gantinya.)"
+        "body": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai."
       }
     ],
     "tldr": [
       "Tidak perlu visa turis — paspor Kazakhstan bebas visa hingga 30 hari (maksimal 60 dalam periode 180 hari mana pun).",
       "Anda harus mengajukan K-ETA sebelum terbang (KRW 10,000, berlaku 3 tahun) — hanya di k-eta.go.kr.",
-      "Ajukan setidaknya 72 jam sebelum keberangkatan; K-ETA yang berlaku kemudian membebaskan Anda dari e-Arrival Card.",
+      "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai.",
       "Bawa paspor yang berlaku selama masa tinggal Anda beserta bukti perjalanan lanjutan/pulang."
     ],
     "steps": {
@@ -1032,7 +1032,7 @@
         {
           "n": 4,
           "title": "Di imigrasi",
-          "detail": "Dengan K-ETA yang berlaku, Anda tidak mengisi e-Arrival Card. Tunjukkan paspor Anda saat tiba; sidik jari dan foto mungkin diambil. Tetap untuk tujuan wisata — tidak boleh bekerja berbayar dengan masuk bebas visa."
+          "detail": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai."
         }
       ]
     },
@@ -1111,12 +1111,12 @@
         {
           "icon": "⏰",
           "t": "Mengajukan terlalu terlambat",
-          "d": "Ajukan setidaknya 72 jam sebelum keberangkatan. Persetujuan sering kali cepat, tetapi sisakan waktu jika permohonan Anda ditinjau."
+          "d": "Ajukan cukup awal agar persetujuan diterima sebelum naik pesawat. Pemeriksaan K-ETA dapat melebihi 72 jam; waktu persetujuan dan izin masuk tidak dijamin."
         },
         {
           "icon": "📝",
           "t": "Mengisi e-Arrival Card padahal sudah punya K-ETA",
-          "d": "Anda tidak perlu keduanya. K-ETA yang berlaku membuat Anda dibebaskan dari e-Arrival Card."
+          "d": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai."
         }
       ]
     },
@@ -1141,7 +1141,7 @@
         },
         {
           "q": "Apakah saya juga memerlukan e-Arrival Card?",
-          "a": "Tidak — jika Anda memegang K-ETA yang berlaku, Anda dibebaskan dari e-Arrival Card. Anda mengisi salah satu, bukan keduanya."
+          "a": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai."
         },
         {
           "q": "Bisakah saya bekerja atau belajar dengan masuk ini?",
@@ -1172,7 +1172,7 @@
     "metaDesc": "¿Los titulares de pasaporte de Kazajistán necesitan visado para Corea del Sur? No — sin visado hasta 30 días (máx. 60 en cualquier periodo de 180 días). Pero SÍ necesitas la K-ETA (₩10,000, válida 3 años): Kazajistán no está en la lista de exención de la K-ETA.",
     "verdict": {
       "headline": "No se necesita visado de turista, pero debes solicitar la K-ETA.",
-      "sub": "Los pasaportes de Kazajistán entran sin visado para turismo corto (hasta 30 días, y no más de 60 días en cualquier periodo de 180 días). Pero Kazajistán no está en la lista de exención de la K-ETA, así que debes obtener la K-ETA antes de volar. Con una K-ETA válida quedas exento de la e-Arrival Card.",
+      "sub": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera.",
       "type": "Sin visado — K-ETA obligatoria",
       "stay": "Hasta 30 días (máx. 60 en cualquier periodo de 180 días)",
       "entry": "Turismo de corta duración"
@@ -1194,13 +1194,13 @@
         "icon": "📝",
         "tone": "blue",
         "title": "La K-ETA sustituye a la e-Arrival Card",
-        "body": "Una vez que tienes una K-ETA válida quedas exento de la e-Arrival Card — no presentas ambas. (Si estás exento de la K-ETA por edad — 17 años o menos, o 65 años o más — presenta en su lugar la e-Arrival Card gratuita.)"
+        "body": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera."
       }
     ],
     "tldr": [
       "Sin visado de turista — los pasaportes de Kazajistán entran sin visado hasta 30 días (máx. 60 en cualquier periodo de 180 días).",
       "Debes solicitar la K-ETA antes de volar (KRW 10,000, válida 3 años) — solo en k-eta.go.kr.",
-      "Solicítala al menos 72 horas antes de la salida; una K-ETA válida te exime luego de la e-Arrival Card.",
+      "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera.",
       "Lleva un pasaporte válido para toda tu estancia y una prueba de viaje de salida/regreso."
     ],
     "steps": {
@@ -1226,7 +1226,7 @@
         {
           "n": 4,
           "title": "En el control de inmigración",
-          "detail": "Con una K-ETA válida no presentas la e-Arrival Card. Muestra tu pasaporte a la llegada; pueden tomarte las huellas y una foto. Limítate al turismo — no se permite trabajo remunerado con la entrada sin visado."
+          "detail": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera."
         }
       ]
     },
@@ -1305,12 +1305,12 @@
         {
           "icon": "⏰",
           "t": "Solicitarla demasiado tarde",
-          "d": "Solicítala al menos 72 horas antes de la salida. La aprobación suele ser rápida, pero deja margen por si revisan tu solicitud."
+          "d": "Solicita con tiempo para recibir la aprobación antes de embarcar. La evaluación de K-ETA puede superar las 72 horas; no se garantiza el plazo de aprobación ni la entrada."
         },
         {
           "icon": "📝",
           "t": "Presentar la e-Arrival Card cuando ya tienes la K-ETA",
-          "d": "No necesitas ambas. Una K-ETA válida te exime de la e-Arrival Card."
+          "d": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera."
         }
       ]
     },
@@ -1335,7 +1335,7 @@
         },
         {
           "q": "¿También necesito la e-Arrival Card?",
-          "a": "No — si tienes una K-ETA válida quedas exento de la e-Arrival Card. Presentas una u otra, no ambas."
+          "a": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera."
         },
         {
           "q": "¿Puedo trabajar o estudiar con esta entrada?",
@@ -1366,7 +1366,7 @@
     "metaDesc": "Adakah pemegang pasport Kazakhstan memerlukan visa untuk Korea Selatan? Tidak — bebas visa sehingga 30 hari (maksimum 60 hari dalam mana-mana tempoh 180 hari). Tetapi anda MEMANG perlukan K-ETA (₩10,000, sah 3 tahun): Kazakhstan tiada dalam senarai pengecualian K-ETA.",
     "verdict": {
       "headline": "Tiada visa pelancong diperlukan — tetapi anda mesti memohon K-ETA.",
-      "sub": "Pasport Kazakhstan bebas visa untuk pelancongan singkat (sehingga 30 hari, dan tidak lebih daripada 60 hari dalam mana-mana tempoh 180 hari). Tetapi Kazakhstan tiada dalam senarai pengecualian K-ETA, jadi anda mesti memperoleh K-ETA sebelum berlepas. Dengan K-ETA yang sah, anda kemudiannya dikecualikan daripada e-Arrival Card.",
+      "sub": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam.",
       "type": "Bebas visa — K-ETA diperlukan",
       "stay": "Sehingga 30 hari (maksimum 60 dalam mana-mana tempoh 180 hari)",
       "entry": "Pelancongan jangka pendek"
@@ -1388,13 +1388,13 @@
         "icon": "📝",
         "tone": "blue",
         "title": "K-ETA menggantikan e-Arrival Card",
-        "body": "Sebaik sahaja anda memegang K-ETA yang sah, anda dikecualikan daripada e-Arrival Card — anda tidak mengisi kedua-duanya. (Jika anda dikecualikan daripada K-ETA atas sebab umur — 17 tahun ke bawah atau 65 tahun ke atas — isi e-Arrival Card percuma sebagai gantinya.)"
+        "body": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam."
       }
     ],
     "tldr": [
       "Tiada visa pelancong — pasport Kazakhstan bebas visa sehingga 30 hari (maksimum 60 dalam mana-mana tempoh 180 hari).",
       "Anda mesti memohon K-ETA sebelum berlepas (KRW 10,000, sah 3 tahun) — hanya di k-eta.go.kr.",
-      "Mohon sekurang-kurangnya 72 jam sebelum berlepas; K-ETA yang sah kemudian mengecualikan anda daripada e-Arrival Card.",
+      "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam.",
       "Bawa pasport yang sah sepanjang tempoh tinggal anda beserta bukti perjalanan seterusnya/pulang."
     ],
     "steps": {
@@ -1420,7 +1420,7 @@
         {
           "n": 4,
           "title": "Di kawalan imigresen",
-          "detail": "Dengan K-ETA yang sah, anda tidak mengisi e-Arrival Card. Tunjukkan pasport anda semasa ketibaan; cap jari dan gambar mungkin diambil. Kekalkan tujuan pelancongan — tiada kerja bergaji dibenarkan dengan kemasukan bebas visa."
+          "detail": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam."
         }
       ]
     },
@@ -1499,12 +1499,12 @@
         {
           "icon": "⏰",
           "t": "Memohon terlalu lewat",
-          "d": "Mohon sekurang-kurangnya 72 jam sebelum berlepas. Kelulusan selalunya cepat, tetapi berikan masa sekiranya permohonan anda disemak."
+          "d": "Mohon awal supaya kelulusan diterima sebelum menaiki pesawat. Penilaian K-ETA boleh melebihi 72 jam; tempoh kelulusan dan kemasukan tidak dijamin."
         },
         {
           "icon": "📝",
           "t": "Mengisi e-Arrival Card sedangkan anda sudah ada K-ETA",
-          "d": "Anda tidak perlukan kedua-duanya. K-ETA yang sah menjadikan anda dikecualikan daripada e-Arrival Card."
+          "d": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam."
         }
       ]
     },
@@ -1529,7 +1529,7 @@
         },
         {
           "q": "Adakah saya juga memerlukan e-Arrival Card?",
-          "a": "Tidak — jika anda memegang K-ETA yang sah, anda dikecualikan daripada e-Arrival Card. Anda mengisi salah satu, bukan kedua-duanya."
+          "a": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam."
         },
         {
           "q": "Bolehkah saya bekerja atau belajar dengan kemasukan ini?",
@@ -1560,7 +1560,7 @@
     "metaDesc": "카자흐스탄 여권 소지자는 한국에 비자가 필요할까요? 아니요 — 최대 30일(어느 180일 기간이든 최대 60일)까지 무비자입니다. 하지만 K-ETA는 반드시 필요합니다(₩10,000, 3년 유효): 카자흐스탄은 K-ETA 면제 목록에 없습니다.",
     "verdict": {
       "headline": "관광 비자는 불필요 — 하지만 K-ETA는 반드시 신청해야 합니다.",
-      "sub": "카자흐스탄 여권은 단기 관광 시 무비자입니다(최대 30일, 어느 180일 기간이든 60일 이내). 하지만 카자흐스탄은 K-ETA 면제 목록에 없으므로, 출국 전에 K-ETA를 받아야 합니다. 유효한 K-ETA가 있으면 e-Arrival Card는 면제됩니다.",
+      "sub": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다.",
       "type": "무비자 — K-ETA 필요",
       "stay": "최대 30일(어느 180일 기간이든 최대 60일)",
       "entry": "단기 관광"
@@ -1582,13 +1582,13 @@
         "icon": "📝",
         "tone": "blue",
         "title": "K-ETA가 e-Arrival Card를 대체합니다",
-        "body": "유효한 K-ETA를 소지하면 e-Arrival Card는 면제됩니다 — 둘 다 제출하지 않습니다. (연령에 따라 K-ETA가 면제되는 경우 — 17세 이하 또는 65세 이상 — 대신 무료 e-Arrival Card를 신청하세요.)"
+        "body": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다."
       }
     ],
     "tldr": [
       "관광 비자 불필요 — 카자흐스탄 여권은 최대 30일(어느 180일 기간이든 최대 60일)까지 무비자입니다.",
       "출국 전에 K-ETA를 반드시 신청해야 합니다(KRW 10,000, 3년 유효) — k-eta.go.kr에서만.",
-      "출발 최소 72시간 전에 신청하세요; 유효한 K-ETA가 있으면 e-Arrival Card는 면제됩니다.",
+      "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다.",
       "체류 기간 동안 유효한 여권과 출국/귀국 항공편 증빙을 준비하세요."
     ],
     "steps": {
@@ -1614,7 +1614,7 @@
         {
           "n": 4,
           "title": "입국 심사에서",
-          "detail": "유효한 K-ETA가 있으면 e-Arrival Card를 제출하지 않습니다. 도착 시 여권을 제시하며, 지문과 사진을 채취할 수 있습니다. 목적은 관광에 한정하세요 — 무비자 입국으로는 유급 노동을 할 수 없습니다."
+          "detail": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다."
         }
       ]
     },
@@ -1693,12 +1693,12 @@
         {
           "icon": "⏰",
           "t": "너무 늦게 신청",
-          "d": "출발 최소 72시간 전에 신청하세요. 승인은 대개 빠르지만, 신청서가 심사될 경우에 대비해 여유를 두세요."
+          "d": "탑승 전에 승인을 받을 수 있도록 충분히 일찍 신청하세요. K-ETA 심사는 72시간을 넘을 수 있으며 승인 시간이나 입국을 보장하지 않습니다."
         },
         {
           "icon": "📝",
           "t": "이미 K-ETA가 있는데 e-Arrival Card를 제출",
-          "d": "둘 다 필요하지 않습니다. 유효한 K-ETA가 있으면 e-Arrival Card는 면제됩니다."
+          "d": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다."
         }
       ]
     },
@@ -1723,7 +1723,7 @@
         },
         {
           "q": "e-Arrival Card도 필요한가요?",
-          "a": "아니요 — 유효한 K-ETA를 소지하면 e-Arrival Card는 면제됩니다. 둘 중 하나만 제출하고, 둘 다 하지는 않습니다."
+          "a": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다."
         },
         {
           "q": "이 입국으로 일하거나 공부할 수 있나요?",
@@ -1754,7 +1754,7 @@
     "metaDesc": "Нужна ли обладателям паспорта Казахстана виза в Южную Корею? Нет — безвизовый въезд до 30 дней (не более 60 дней в течение любого 180-дневного периода). Но вам НУЖНА K-ETA (₩10,000, действует 3 года): Казахстана нет в списке освобождённых от K-ETA.",
     "verdict": {
       "headline": "Туристическая виза не нужна — но вы обязаны оформить K-ETA.",
-      "sub": "Паспорта Казахстана дают безвизовый въезд для короткого туризма (до 30 дней и не более 60 дней в течение любого 180-дневного периода). Но Казахстана нет в списке освобождённых от K-ETA, поэтому вы обязаны получить K-ETA до вылета. При действующей K-ETA вы освобождаетесь от e-Arrival Card.",
+      "sub": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной.",
       "type": "Без визы — нужна K-ETA",
       "stay": "До 30 дней (не более 60 в течение любого 180-дневного периода)",
       "entry": "Краткосрочный туризм"
@@ -1776,13 +1776,13 @@
         "icon": "📝",
         "tone": "blue",
         "title": "K-ETA заменяет e-Arrival Card",
-        "body": "Имея действующую K-ETA, вы освобождаетесь от e-Arrival Card — обе подавать не нужно. (Если вы освобождены от K-ETA по возрасту — 17 лет и младше или 65 лет и старше — заполните вместо неё бесплатную e-Arrival Card.)"
+        "body": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной."
       }
     ],
     "tldr": [
       "Туристическая виза не нужна — паспорта Казахстана дают безвизовый въезд до 30 дней (не более 60 в течение любого 180-дневного периода).",
       "Вы обязаны оформить K-ETA до вылета (KRW 10,000, действует 3 года) — только на k-eta.go.kr.",
-      "Подавайте не менее чем за 72 часа до вылета; действующая K-ETA затем освобождает вас от e-Arrival Card.",
+      "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной.",
       "Возьмите паспорт, действительный на весь срок пребывания, плюс подтверждение обратного/дальнейшего перелёта."
     ],
     "steps": {
@@ -1808,7 +1808,7 @@
         {
           "n": 4,
           "title": "На паспортном контроле",
-          "detail": "При действующей K-ETA вы не заполняете e-Arrival Card. Предъявите паспорт по прибытии; могут снять отпечатки пальцев и сделать фото. Только туризм — при безвизовом въезде оплачиваемая работа запрещена."
+          "detail": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной."
         }
       ]
     },
@@ -1887,12 +1887,12 @@
         {
           "icon": "⏰",
           "t": "Оформлять слишком поздно",
-          "d": "Оформляйте не менее чем за 72 часа до вылета. Одобрение часто быстрое, но оставьте время на случай, если ваше заявление будут проверять."
+          "d": "Подавайте заявление заранее, чтобы получить одобрение до посадки. Рассмотрение K-ETA может занять более 72 часов; срок одобрения и въезд не гарантируются."
         },
         {
           "icon": "📝",
           "t": "Заполнять e-Arrival Card, когда K-ETA уже есть",
-          "d": "Обе не нужны. Действующая K-ETA освобождает вас от e-Arrival Card."
+          "d": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной."
         }
       ]
     },
@@ -1917,7 +1917,7 @@
         },
         {
           "q": "Нужна ли мне также e-Arrival Card?",
-          "a": "Нет — при действующей K-ETA вы освобождаетесь от e-Arrival Card. Вы подаёте что-то одно, а не обе."
+          "a": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной."
         },
         {
           "q": "Могу ли я работать или учиться при таком въезде?",
@@ -1948,7 +1948,7 @@
     "metaDesc": "Les titulaires d'un passeport kazakh ont-ils besoin d'un visa pour la Corée du Sud ? Non — sans visa jusqu'à 30 jours (max. 60 sur toute période de 180 jours). Mais vous DEVEZ avoir la K-ETA (₩10,000, valable 3 ans) : le Kazakhstan ne figure pas sur la liste d'exemption de la K-ETA.",
     "verdict": {
       "headline": "Aucun visa touristique nécessaire — mais vous devez demander la K-ETA.",
-      "sub": "Les passeports kazakhs sont exemptés de visa pour le tourisme de court séjour (jusqu'à 30 jours, et pas plus de 60 jours sur toute période de 180 jours). Mais le Kazakhstan ne figure pas sur la liste d'exemption de la K-ETA, vous devez donc obtenir une K-ETA avant de prendre l'avion. Avec une K-ETA valide, vous êtes alors dispensé de l'e-Arrival Card.",
+      "sub": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière.",
       "type": "Sans visa — K-ETA obligatoire",
       "stay": "Jusqu'à 30 jours (max. 60 sur toute période de 180 jours)",
       "entry": "Tourisme de court séjour"
@@ -1970,13 +1970,13 @@
         "icon": "📝",
         "tone": "blue",
         "title": "La K-ETA remplace l'e-Arrival Card",
-        "body": "Dès que vous détenez une K-ETA valide, vous êtes dispensé de l'e-Arrival Card — vous ne remplissez pas les deux. (Si vous êtes dispensé de la K-ETA en raison de l'âge — 17 ans ou moins, ou 65 ans ou plus — remplissez plutôt l'e-Arrival Card gratuite.)"
+        "body": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière."
       }
     ],
     "tldr": [
       "Aucun visa touristique — les passeports kazakhs sont exemptés de visa jusqu'à 30 jours (max. 60 sur toute période de 180 jours).",
       "Vous devez demander la K-ETA avant de prendre l'avion (KRW 10,000, valable 3 ans) — uniquement sur k-eta.go.kr.",
-      "Demandez-la au moins 72 heures avant le départ ; une K-ETA valide vous dispense alors de l'e-Arrival Card.",
+      "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière.",
       "Apportez un passeport valable pour la durée de votre séjour ainsi qu'un justificatif de voyage de continuation/retour."
     ],
     "steps": {
@@ -2002,7 +2002,7 @@
         {
           "n": 4,
           "title": "Au contrôle de l'immigration",
-          "detail": "Avec une K-ETA valide, vous ne remplissez pas l'e-Arrival Card. Présentez votre passeport à l'arrivée ; vos empreintes et une photo peuvent être prises. Restez-en au tourisme — pas de travail rémunéré avec une entrée sans visa."
+          "detail": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière."
         }
       ]
     },
@@ -2081,12 +2081,12 @@
         {
           "icon": "⏰",
           "t": "Faire la demande trop tard",
-          "d": "Demandez-la au moins 72 heures avant le départ. L'approbation est souvent rapide, mais prévoyez du temps au cas où votre demande serait examinée."
+          "d": "Faites votre demande assez tôt pour obtenir l’approbation avant l’embarquement. L’examen K-ETA peut dépasser 72 heures ; ni le délai d’approbation ni l’entrée ne sont garantis."
         },
         {
           "icon": "📝",
           "t": "Remplir l'e-Arrival Card alors que vous avez déjà la K-ETA",
-          "d": "Vous n'avez pas besoin des deux. Une K-ETA valide vous dispense de l'e-Arrival Card."
+          "d": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière."
         }
       ]
     },
@@ -2111,7 +2111,7 @@
         },
         {
           "q": "Ai-je aussi besoin de l'e-Arrival Card ?",
-          "a": "Non — si vous détenez une K-ETA valide, vous êtes dispensé de l'e-Arrival Card. Vous remplissez l'une ou l'autre, pas les deux."
+          "a": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière."
         },
         {
           "q": "Puis-je travailler ou étudier avec cette entrée ?",

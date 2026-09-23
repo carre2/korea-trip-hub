@@ -115,7 +115,7 @@
     "unavailable": "En cours de vérification"
   },
   "footer": {
-    "tagline": "Le hub tout-en-un pour visiter la Corée — préparez, explorez, mangez et vivez l'expérience, en 10 langues.",
+    "tagline": "Des formalités d’entrée aux journées inoubliables. Commencez par vos besoins et enregistrez votre voyage.",
     "disclaimer": "Les informations pratiques sont vérifiées auprès de sources officielles avec une date de vérification. Les prix, horaires et règles de visa évoluent — confirmez toujours auprès de la source officielle indiquée avant de voyager.",
     "legalNav": {
       "about": "À propos",
@@ -284,7 +284,32 @@
     "window": "Période de demande",
     "yellow": "Bus jaune"
   },
-  "facts": {},
+  "facts": {
+    "keta-exemption": {
+      "claim": "L’exemption temporaire de K-ETA concerne uniquement les pays et territoires désignés jusqu’au 2026-12-31. Une entrée sans visa ne signifie pas une exemption automatique de K-ETA. Consultez à nouveau l’avis officiel pour un voyage ultérieur.",
+      "notes": "Confirmez votre situation sur les sites officiels. L’immigration prend la décision finale d’entrée."
+    },
+    "keta-fee-validity": {
+      "claim": "K-ETA coûte KRW 10,000, auxquels s’ajoutent les frais de paiement en ligne, sans remboursement. Les autorisations actuelles sont valables 3 ans ou jusqu’à l’expiration du passeport, selon la première échéance ; ce n’est pas la durée de séjour autorisée par visite.",
+      "notes": "Confirmez votre situation sur les sites officiels. L’immigration prend la décision finale d’entrée."
+    },
+    "keta-apply-window": {
+      "claim": "Faites votre demande assez tôt pour obtenir l’approbation avant l’embarquement. L’examen K-ETA peut dépasser 72 heures ; ni le délai d’approbation ni l’entrée ne sont garantis.",
+      "notes": "Confirmez votre situation sur les sites officiels. L’immigration prend la décision finale d’entrée."
+    },
+    "keta-exempt-countries": {
+      "claim": "L’exemption temporaire de K-ETA concerne uniquement les pays et territoires désignés jusqu’au 2026-12-31. Une entrée sans visa ne signifie pas une exemption automatique de K-ETA. Consultez à nouveau l’avis officiel pour un voyage ultérieur.",
+      "notes": "Confirmez votre situation sur les sites officiels. L’immigration prend la décision finale d’entrée."
+    },
+    "earrival-card-how": {
+      "claim": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière.",
+      "notes": "Confirmez votre situation sur les sites officiels. L’immigration prend la décision finale d’entrée."
+    },
+    "keta-age-exemption": {
+      "claim": "Les voyageurs de nationalités éligibles à K-ETA âgés de 17 ans ou moins, ou de 65 ans ou plus, sont exemptés de l’obligation de K-ETA. Cela ne les dispense pas automatiquement de l’e-Arrival Card.",
+      "notes": "Confirmez votre situation sur les sites officiels. L’immigration prend la décision finale d’entrée."
+    }
+  },
   "consent": {
     "title": "Nous respectons votre vie privée",
     "body": "Nous utilisons des cookies pour mesurer l'audience (Google Analytics) uniquement si vous acceptez. Le site fonctionne dans les deux cas.",
@@ -323,7 +348,7 @@
     "dealHotelSub": "Comparez les séjours à Séoul, Busan et Jeju",
     "dealHotelGo": "Où se loger",
     "mapTitle": "Recherchez sur la carte de votre choix",
-    "trustLangs": "10 langues",
+    "trustLangs": "12 langues",
     "mapEyebrow": "Trouvez votre chemin",
     "mapSub": "Recherchez n'importe quelle adresse ou lieu sur Naver ou Kakao Maps, directement ici."
   },
@@ -407,5 +432,73 @@
     "answersTitle": "Questions fréquentes — avec réponses",
     "answersLead": "Des réponses rapides aux questions sur le visa et la K-ETA que les voyageurs posent le plus. Ouvrez n'importe quelle question ; retrouvez le parcours complet selon votre nationalité dans le guide des visas.",
     "answersMore": "Ouvrir le guide complet Visa et K-ETA →"
+  },
+  "experience": {
+    "heroTitle": "La Corée, à votre rythme.",
+    "heroSub": "Des formalités d’entrée aux journées inoubliables. Commencez par vos besoins et enregistrez votre voyage.",
+    "start": "Préparer mon voyage",
+    "free": "Gratuit · Sans compte",
+    "languages": "{n} langues",
+    "myTrip": "Mon voyage",
+    "entry": "Entrée et visas",
+    "arrival": "Votre premier jour",
+    "explore": "Lieux et saveurs",
+    "entrySub": "Trouvez le guide adapté à votre passeport",
+    "arrivalSub": "Transfert aéroport, connexion et paiements",
+    "exploreSub": "Découvrez des lieux pour votre itinéraire",
+    "chooseTitle": "Par où souhaitez-vous commencer ?",
+    "essentials": "Avant le départ",
+    "plannerTitle": "Créez un voyage à votre image.",
+    "plannerSub": "Choisissez un parcours suggéré, retirez des étapes et enregistrez-le. Vérifiez les horaires et les transports actuels avant de partir.",
+    "chooseRoute": "Choisir votre itinéraire",
+    "preview": "Voir l’itinéraire",
+    "save": "Enregistrer mon voyage",
+    "saved": "Enregistré sur cet appareil",
+    "removeSave": "Supprimer le voyage enregistré",
+    "removed": "Voyage enregistré supprimé",
+    "storageNote": "Enregistré uniquement dans ce navigateur. Le lien partagé contient le parcours et les étapes choisies, pas la liste des préparatifs.",
+    "storageError": "Ce navigateur n’a pas pu enregistrer le voyage. Copiez le lien pour le conserver.",
+    "shared": "Itinéraire partagé chargé",
+    "copy": "Copier le lien du voyage",
+    "copyDone": "Lien du voyage copié",
+    "copyError": "Copie impossible. Sélectionnez et copiez le lien ci-dessous.",
+    "print": "Imprimer l’itinéraire",
+    "checklist": "Votre liste de préparatifs",
+    "progress": "{done} / {total} prêts",
+    "resume": "Reprendre mon voyage",
+    "empty": "Choisissez un itinéraire pour commencer.",
+    "resetChecklist": "Réinitialiser la liste",
+    "removeStop": "Retirer l’étape",
+    "restoreStops": "Rétablir toutes les étapes",
+    "customize": "Ajuster les étapes",
+    "invalidShare": "Ce lien n’est pas pris en charge. Choisissez un parcours ci-dessous.",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "language": "Langue",
+    "theme": "Changer de thème",
+    "skip": "Aller au contenu",
+    "book": "Réserver sur {partner}",
+    "details": "Lire le guide complet",
+    "visaHint": "Le pays de votre passeport ne figure pas dans la liste ? Vérifiez les conditions auprès du service officiel d’immigration.",
+    "guideScope": "Les conditions dépendent du passeport, de l’âge, du motif du voyage et des documents valides. Confirmez votre situation auprès de la source officielle.",
+    "firstDay": "Préparer votre arrivée",
+    "nextTitle": "Ensuite, préparez votre arrivée",
+    "nextSub": "Organisez le transfert depuis l’aéroport, la connexion et tous vos préparatifs dans une seule liste.",
+    "nearby": "Trouver à proximité",
+    "nearbyHint": "Consultez les options dans votre application de cartes",
+    "readingTime": "Lecture : {n} min",
+    "addPlace": "Ajouter à mon voyage",
+    "placeSaved": "Lieu enregistré",
+    "savedPlaces": "Lieux enregistrés",
+    "placesHint": "Classez vos choix avant de préparer chaque journée. Les temps de trajet ne sont pas calculés.",
+    "placesEmpty": "Enregistrez des lieux depuis les pages de destinations et de gastronomie.",
+    "moveUp": "Monter",
+    "moveDown": "Descendre",
+    "clearPlaces": "Vider les lieux enregistrés",
+    "contents": "Sur cette page",
+    "officialCheck": "Vérification officielle",
+    "continuePrep": "Continuer les préparatifs",
+    "entryScope": "Les règles dépendent du passeport et des conditions du voyage. Vérifiez âge, date d’entrée, motif et documents valides sur les sites officiels.",
+    "placeTitle": "Visiter {place}, {city} : guide"
   }
 }

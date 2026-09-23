@@ -4,14 +4,24 @@
     "visa": {
       "tagline": "Perlu visa atau K-ETA untuk masuk Korea? Ini alur masuk bagi kebanyakan turis jangka pendek.",
       "intro": [
-        "Kebanyakan turis datang untuk tinggal singkat dan tidak mengurus visa sebelumnya, tetapi aturan pastinya bergantung pada kewarganegaraan — selalu pastikan kasusmu di sumber resmi sebelum terbang.",
-        "Pada 2026, Korea sementara membebaskan K-ETA bagi warga negara bebas visa. Meski bebas K-ETA, setiap pelancong tetap wajib mengisi e-Arrival Card."
+        "Pilih panduan negara penerbit paspor, lalu periksa tujuan, tanggal masuk, usia, dan dokumen berlaku di situs resmi. Bahasa situs bukan kewarganegaraan Anda."
       ],
       "tips": [
-        "Periksa kewarganegaraanmu — lama tinggal bebas visa berbeda per negara (sering 30, 60, atau 90 hari).",
-        "Paspor harus berlaku selama masa tinggal.",
-        "Isi e-Arrival Card daring lebih awal atau saat tiba agar tak perlu formulir kertas.",
-        "Jika ragu, hubungi kedutaan atau konsulat Korea terdekat."
+        "Pastikan kasus Anda di situs resmi. Petugas imigrasi membuat keputusan akhir tentang izin masuk."
+      ],
+      "official": [
+        {
+          "name": "K-ETA",
+          "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN"
+        },
+        {
+          "name": "e-Arrival Card",
+          "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E"
+        },
+        {
+          "name": "Korea Visa Portal",
+          "url": "https://www.visa.go.kr"
+        }
       ]
     },
     "transit": {

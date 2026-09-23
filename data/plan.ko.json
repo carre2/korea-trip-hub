@@ -4,14 +4,24 @@
     "visa": {
       "tagline": "한국 입국에 비자나 K-ETA가 필요할까요? 대부분의 단기 여행자를 위한 입국 절차를 정리했습니다.",
       "intro": [
-        "대부분의 관광객은 단기 체류로, 미리 비자를 신청하지 않습니다. 다만 정확한 규정은 국적에 따라 다르니, 출발 전 반드시 공식 출처에서 본인 사례를 확인하세요.",
-        "2026년 현재 한국은 비자면제 대상국 국민의 K-ETA를 한시적으로 면제하고 있습니다. K-ETA가 면제되어도 모든 입국자는 e-Arrival Card를 작성해야 합니다."
+        "여권 발급 국가의 가이드를 선택한 뒤 여행 목적·입국일·나이·유효한 서류를 공식 사이트에서 확인하세요. 사이트 언어를 국적으로 판단하지 않습니다."
       ],
       "tips": [
-        "본인 국적을 확인하세요 — 무비자 체류 기간은 나라마다 다릅니다(보통 30·60·90일).",
-        "여권은 체류 기간 내내 유효해야 합니다.",
-        "e-Arrival Card는 온라인으로 미리 또는 도착 시 작성하면 종이 서식을 생략할 수 있습니다.",
-        "확실치 않으면 가까운 한국 대사관·영사관에 문의하세요."
+        "본인 조건은 공식 사이트에서 확인하세요. 최종 입국 결정은 출입국 심사에서 이루어집니다."
+      ],
+      "official": [
+        {
+          "name": "K-ETA",
+          "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN"
+        },
+        {
+          "name": "e-Arrival Card",
+          "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E"
+        },
+        {
+          "name": "Korea Visa Portal",
+          "url": "https://www.visa.go.kr"
+        }
       ]
     },
     "transit": {

@@ -115,7 +115,7 @@
     "unavailable": "Sedang diverifikasi"
   },
   "footer": {
-    "tagline": "Pusat serba-ada untuk berkunjung ke Korea — rencanakan, jelajahi, makan, dan alami, dalam 10 bahasa.",
+    "tagline": "Dari persiapan masuk negara hingga hari-hari berkesan. Mulai dari kebutuhanmu dan simpan perjalanan favoritmu.",
     "disclaimer": "Info perjalanan dicek dengan sumber resmi beserta tanggal verifikasi. Harga, jadwal, dan aturan visa berubah — selalu konfirmasi di sumber resmi yang ditautkan sebelum berangkat.",
     "legalNav": {
       "about": "Tentang",
@@ -286,24 +286,24 @@
   },
   "facts": {
     "keta-exemption": {
-      "claim": "Warga negara bebas visa dapat masuk ke Korea tanpa K-ETA hingga 2026-12-31. e-Arrival Card tetap wajib. Wisatawan berusia 17 tahun ke bawah atau 65 tahun ke atas dikecualikan dari K-ETA.",
-      "notes": "Sumber berbeda-beda soal jumlah negara yang dikecualikan (22 vs 67). Pastikan daftar negara terbaru di situs resmi; periksa kasus Anda sendiri ke konsulat."
+      "claim": "Pembebasan sementara K-ETA hanya berlaku bagi negara dan wilayah yang ditetapkan hingga 2026-12-31. Bebas visa tidak otomatis berarti bebas K-ETA. Periksa kembali pengumuman resmi untuk perjalanan setelah tanggal tersebut.",
+      "notes": "Pastikan kasus Anda di situs resmi. Petugas imigrasi membuat keputusan akhir tentang izin masuk."
     },
     "keta-fee-validity": {
-      "claim": "K-ETA berbiaya KRW 10,000 (sekitar US$8), berlaku selama 3 tahun, dan memperbolehkan masuk berkali-kali. Ajukan hanya di situs resmi, k-eta.go.kr.",
-      "notes": "Biaya tidak dapat dikembalikan. Waspadai situs pihak ketiga yang mengenakan biaya tambahan US$40–50 — satu-satunya situs resmi adalah k-eta.go.kr."
+      "claim": "Biaya K-ETA adalah KRW 10,000 ditambah biaya pembayaran daring dan tidak dapat dikembalikan. Persetujuan saat ini berlaku selama 3 tahun atau hingga paspor kedaluwarsa, mana yang lebih dahulu; ini bukan durasi tinggal per kunjungan.",
+      "notes": "Pastikan kasus Anda di situs resmi. Petugas imigrasi membuat keputusan akhir tentang izin masuk."
     },
     "keta-apply-window": {
-      "claim": "Ajukan K-ETA paling lambat 72 hours sebelum naik pesawat. Persetujuan sering kali jauh lebih cepat, tetapi sediakan waktu jika pengajuan Anda ditinjau.",
-      "notes": "Korea Immigration Service menganjurkan mengajukan paling lambat 72 hours sebelum keberangkatan."
+      "claim": "Ajukan cukup awal agar persetujuan diterima sebelum naik pesawat. Pemeriksaan K-ETA dapat melebihi 72 jam; waktu persetujuan dan izin masuk tidak dijamin.",
+      "notes": "Pastikan kasus Anda di situs resmi. Petugas imigrasi membuat keputusan akhir tentang izin masuk."
     },
     "keta-exempt-countries": {
-      "claim": "22 negara/wilayah untuk sementara dikecualikan dari K-ETA hingga 2026-12-31; kewajiban ini dijadwalkan berlaku kembali pada 2027-01-01.",
-      "notes": "Australia, Austria, Belgia, Kanada, Denmark, Finlandia, Prancis, Jerman, Hong Kong, Italia, Jepang, Makau, Belanda, Selandia Baru, Norwegia, Polandia, Singapura, Spanyol, Swedia, Taiwan, Inggris, Amerika Serikat (termasuk Guam). Selalu pastikan daftar terbaru di k-eta.go.kr."
+      "claim": "Pembebasan sementara K-ETA hanya berlaku bagi negara dan wilayah yang ditetapkan hingga 2026-12-31. Bebas visa tidak otomatis berarti bebas K-ETA. Periksa kembali pengumuman resmi untuk perjalanan setelah tanggal tersebut.",
+      "notes": "Pastikan kasus Anda di situs resmi. Petugas imigrasi membuat keputusan akhir tentang izin masuk."
     },
     "earrival-card-how": {
-      "claim": "e-Arrival Card gratis dan diajukan secara online di e-arrivalcard.go.kr, hingga 72 hours sebelum kedatangan. Kartu ini menggantikan kartu kedatangan kertas pada 2025.",
-      "notes": "Pemegang K-ETA dan penduduk asing terdaftar dikecualikan. Pengajuan Anda kedaluwarsa 72 hours setelah Anda mengisinya, jadi atur waktunya berdekatan dengan jadwal penerbangan."
+      "claim": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai.",
+      "notes": "Pastikan kasus Anda di situs resmi. Petugas imigrasi membuat keputusan akhir tentang izin masuk."
     },
     "transit-free-transfer": {
       "claim": "Perpindahan antara kereta bawah tanah dan bus (atau bus ke bus) gratis dalam 30 minutes jika Anda membayar dengan kartu T-money dan menempelkan kartu saat masuk maupun keluar.",
@@ -392,6 +392,10 @@
     "visa-indonesia-c3": {
       "claim": "Wisatawan Indonesia perorangan memerlukan visa turis C-3 untuk Korea daratan. Sejak 2026-05-28, rombongan wisata Indonesia berjumlah 3+ dapat masuk bebas visa untuk kunjungan singkat (hanya rombongan; perorangan tidak memenuhi syarat).",
       "notes": "Wisatawan perorangan tetap memerlukan visa: paspor, foto, rekening koran 3 bulan, surat keterangan kerja + slip gaji, surat sponsor jika dibiayai orang lain. Jeju memiliki jalur masuk bebas visa terpisah."
+    },
+    "keta-age-exemption": {
+      "claim": "Pelancong berkewarganegaraan yang memenuhi syarat K-ETA berusia 17 tahun ke bawah atau 65 tahun ke atas dibebaskan dari kewajiban K-ETA. Ini tidak otomatis membebaskan e-Arrival Card.",
+      "notes": "Pastikan kasus Anda di situs resmi. Petugas imigrasi membuat keputusan akhir tentang izin masuk."
     }
   },
   "consent": {
@@ -432,7 +436,7 @@
     "dealHotelSub": "Bandingkan penginapan di Seoul, Busan & Jeju",
     "dealHotelGo": "Lihat area menginap",
     "mapTitle": "Cari di peta pilihanmu",
-    "trustLangs": "10 bahasa",
+    "trustLangs": "12 bahasa",
     "mapEyebrow": "Temukan jalanmu",
     "mapSub": "Cari alamat atau tempat apa pun di peta Naver atau Kakao, langsung di sini."
   },
@@ -516,5 +520,73 @@
     "answersTitle": "Pertanyaan populer — terjawab",
     "answersLead": "Jawaban cepat untuk pertanyaan visa dan K-ETA yang paling sering ditanyakan wisatawan. Buka pertanyaan mana pun; lihat panduan lengkap untuk kewarganegaraan Anda di panduan visa.",
     "answersMore": "Buka panduan Visa & K-ETA lengkap →"
+  },
+  "experience": {
+    "heroTitle": "Jelajahi Korea dengan caramu.",
+    "heroSub": "Dari persiapan masuk negara hingga hari-hari berkesan. Mulai dari kebutuhanmu dan simpan perjalanan favoritmu.",
+    "start": "Mulai merencanakan",
+    "free": "Gratis · Tanpa akun",
+    "languages": "{n} bahasa",
+    "myTrip": "Perjalananku",
+    "entry": "Masuk Korea & visa",
+    "arrival": "Hari pertama",
+    "explore": "Destinasi & kuliner",
+    "entrySub": "Temukan panduan sesuai paspormu",
+    "arrivalSub": "Transportasi bandara, internet, dan pembayaran",
+    "exploreSub": "Temukan tempat untuk ditambahkan ke rencana",
+    "chooseTitle": "Mau mulai dari mana?",
+    "essentials": "Persiapan sebelum berangkat",
+    "plannerTitle": "Rancang perjalananmu sendiri.",
+    "plannerSub": "Pilih rute saran, hapus tempat singgah, lalu simpan. Periksa jam buka dan transportasi terbaru sebelum bepergian.",
+    "chooseRoute": "Pilih rencana perjalanan",
+    "preview": "Lihat rencana",
+    "save": "Simpan perjalananku",
+    "saved": "Tersimpan di perangkat ini",
+    "removeSave": "Hapus perjalanan tersimpan",
+    "removed": "Perjalanan tersimpan dihapus",
+    "storageNote": "Hanya tersimpan di browser ini. Tautan berbagi memuat rute dan tempat pilihan, bukan daftar persiapan.",
+    "storageError": "Browser ini tidak dapat menyimpan perjalanan. Salin tautannya sebagai gantinya.",
+    "shared": "Rencana yang dibagikan dimuat",
+    "copy": "Salin tautan perjalanan",
+    "copyDone": "Tautan perjalanan disalin",
+    "copyError": "Tidak dapat menyalin. Pilih dan salin tautan di bawah.",
+    "print": "Cetak rencana perjalanan",
+    "checklist": "Daftar persiapan perjalanan",
+    "progress": "{done} / {total} siap",
+    "resume": "Lanjutkan perjalananku",
+    "empty": "Pilih rencana untuk memulai.",
+    "resetChecklist": "Reset daftar",
+    "removeStop": "Hapus tempat singgah",
+    "restoreStops": "Pulihkan semua tempat",
+    "customize": "Atur tempat singgah",
+    "invalidShare": "Tautan perjalanan ini tidak didukung. Pilih rute di bawah.",
+    "menuOpen": "Buka menu",
+    "menuClose": "Tutup menu",
+    "language": "Bahasa",
+    "theme": "Ganti tema",
+    "skip": "Langsung ke konten",
+    "book": "Pesan di {partner}",
+    "details": "Baca panduan lengkap",
+    "visaHint": "Negara penerbit paspor tidak tercantum? Periksa persyaratan melalui layanan imigrasi resmi.",
+    "guideScope": "Persyaratan bergantung pada paspor, usia, tujuan perjalanan, dan dokumen yang berlaku. Pastikan kondisimu melalui sumber resmi.",
+    "firstDay": "Persiapan kedatangan",
+    "nextTitle": "Selanjutnya, siapkan kedatanganmu",
+    "nextSub": "Rencanakan transportasi bandara, siapkan koneksi, dan kumpulkan persiapan dalam satu daftar.",
+    "nearby": "Cari di sekitar",
+    "nearbyHint": "Lihat pilihan di aplikasi peta",
+    "readingTime": "Waktu baca {n} menit",
+    "addPlace": "Tambahkan ke perjalanan",
+    "placeSaved": "Tempat tersimpan",
+    "savedPlaces": "Tempat tersimpan",
+    "placesHint": "Urutkan pilihan tempat sebelum menyusun rencana harian. Waktu perjalanan tidak dihitung.",
+    "placesEmpty": "Simpan tempat dari halaman destinasi dan kuliner.",
+    "moveUp": "Geser ke atas",
+    "moveDown": "Geser ke bawah",
+    "clearPlaces": "Hapus semua tempat",
+    "contents": "Isi halaman ini",
+    "officialCheck": "Periksa situs resmi",
+    "continuePrep": "Lanjutkan persiapan",
+    "entryScope": "Aturan bergantung pada paspor dan kondisi perjalanan. Periksa usia, tanggal masuk, tujuan, dan dokumen yang berlaku di situs resmi.",
+    "placeTitle": "Panduan wisata {place}, {city}"
   }
 }

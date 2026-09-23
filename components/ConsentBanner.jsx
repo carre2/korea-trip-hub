@@ -27,6 +27,7 @@ export default function ConsentBanner({ t = {}, privacyHref = "/en/legal/privacy
         analytics_storage: granted ? "granted" : "denied",
       });
     }
+    window.dispatchEvent(new Event('kth-consent-change'));
     setShow(false);
   }
 

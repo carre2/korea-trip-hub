@@ -14,9 +14,11 @@
     "check:facts": "node scripts/check-facts.mjs",
     "review:export": "node scripts/export-review.mjs",
     "gen:visafaq": "node scripts/gen-visa-faq.mjs",
-    "prebuild": "node scripts/gen-visa-faq.mjs && node scripts/verify-i18n.mjs && node scripts/verify-content-i18n.mjs && node scripts/check-facts.mjs",
+    "prebuild": "node scripts/gen-visa-faq.mjs && node scripts/verify-i18n.mjs && node scripts/verify-content-i18n.mjs && node scripts/check-facts.mjs && node scripts/verify-audit-coverage.mjs",
     "postbuild": "node scripts/verify-seo.mjs",
-    "indexnow": "node scripts/indexnow.mjs"
+    "indexnow": "node scripts/indexnow.mjs",
+    "verify:audit": "node scripts/verify-audit-coverage.mjs",
+    "test:audit": "node scripts/test-trip-state.mjs && node scripts/test-audit.mjs"
   },
   "dependencies": {
     "next": "^14.2.35",

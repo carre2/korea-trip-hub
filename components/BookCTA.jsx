@@ -1,9 +1,12 @@
+"use client";
+import { useExperience } from "./ExperienceProvider";
 // Reusable booking call-to-action. Renders a partner link with the correct
 // rel="sponsored nofollow" (SEO-safe) and an optional affiliate disclosure.
 // No client JS; safe to use inside server OR client components.
 import { withAff, DISCLOSURE } from "../lib/booking";
 
 export default function BookCTA({ partner, url, icon = "🎟️", label, sub, disclose = false }) {
+  const t = useExperience();
   const href = withAff(url, partner);
   const pretty = partner ? partner.charAt(0).toUpperCase() + partner.slice(1) : "partner";
   return (
@@ -14,9 +17,9 @@ export default function BookCTA({ partner, url, icon = "🎟️", label, sub, di
           <b>{label}</b>
           {sub && <em>{sub}</em>}
         </span>
-        <span className="bookcta-go">Book on {pretty} ↗</span>
+        <span className="bookcta-go">{(t.book || "Book on {partner}").replace("{partner}", pretty)} ↗</span>
       </a>
-      {disclose && <p className="bookcta-disc">ⓘ {DISCLOSURE}</p>}
+      {disclose && <p className="bookcta-disc">ⓘ {t.affiliate || DISCLOSURE}</p>}
     </div>
   );
 }

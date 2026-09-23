@@ -1,14 +1,14 @@
-import { getMessages, defaultLocale } from "../../lib/i18n";
+import { getMessages, defaultLocale, locales } from "../../lib/i18n";
 import { pageMeta, webSiteLd } from "../../lib/seo";
 import JsonLd from "../../components/JsonLd";
-import { fact, factsUpdated } from "../../lib/facts";
+
 import MapExplorer from "../../components/MapExplorer";
-import SpotifyKpop from "../../components/SpotifyKpop";
+import { itinFor } from "../../lib/content";
 import TripPlanner from "../../components/TripPlanner";
 import HeroSlider from "../../components/HeroSlider";
-import BookCTA from "../../components/BookCTA";
+
 import NearbyEats from "../../components/NearbyEats";
-import { klookSearch } from "../../lib/booking";
+
 import ReviewsSection from "../../components/ReviewsSection";
 import destData from "../../data/destinations.json";
 import destJa from "../../data/destinations.ja.json";
@@ -56,41 +56,7 @@ import foodBn from "../../data/food.bn.json";
 const destI18n = { ja: destJa, zh: destZh, "zh-TW": destZhTW, es: destEs, fr: destFr, de: destDe, pt: destPt, it: destIt, ru: destRu, ko: destKo, vi: destVi, th: destTh, id: destId, tr: destTr, fil: destFil, ms: destMs, hi: destHi, ar: destAr, bn: destBn };
 const foodI18n = { ja: foodJa, zh: foodZh, "zh-TW": foodZhTW, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt, it: foodIt, ru: foodRu, ko: foodKo, vi: foodVi, th: foodTh, id: foodId, tr: foodTr, fil: foodFil, ms: foodMs, hi: foodHi, ar: foodAr, bn: foodBn };
 
-const PLAN_TILES = [
-  { key: "visa", icon: "🛂", bg: "#BFC9FA", bd: "#9FAEF3", chip: "#3B4CE0" },
-  { key: "transit", icon: "🚇", bg: "#A2E5D6", bd: "#75D4C0", chip: "#0E9280" },
-  { key: "airport", icon: "✈️", bg: "#A7D9F3", bd: "#77C2E9", chip: "#1C7FBE" },
-  { key: "sim", icon: "📶", bg: "#D2C2F2", bd: "#B79FEB", chip: "#6D45C4" },
-  { key: "money", icon: "💳", bg: "#F2D794", bd: "#E5C066", chip: "#B96A0B" },
-  { key: "weather", icon: "🌤️", bg: "#F8BAC9", bd: "#F291A8", chip: "#DC3560" },
-  { key: "help", icon: "🆘", bg: "#F6B8C4", bd: "#EE93A4", chip: "#C62B49" },
-  { key: "kpop", icon: "🎤", bg: "#F4B3D6", bd: "#EC8BC0", chip: "#D6247E", to: "kpop" },
-];
-
-/** Small verified-fact card for the Help section (only renders VERIFIED facts). */
-function FactCard({ id, icon, iconBg, iconColor, title, sub, big, t }) {
-  const f = fact(id);
-  return (
-    <div className="help-card">
-      <div className="hic" style={{ background: iconBg, color: iconColor }}>{icon}</div>
-      <h3>{title}</h3>
-      <p>{sub}</p>
-      {f ? (
-        <>
-          {big && <div className="num">{big}</div>}
-          <div className="kw" style={{ marginTop: 10 }}>
-            ✓ {t.verified_on} {f.verified} ·{" "}
-            <a href={f.source} target="_blank" rel="noopener noreferrer">
-              {f.source_name}
-            </a>
-          </div>
-        </>
-      ) : (
-        <div className="kw" style={{ marginTop: 10 }}>⏳ {t.unavailable}</div>
-      )}
-    </div>
-  );
-}
+import SavedPlaces from "../../components/SavedPlaces";
 
 export function generateMetadata({ params }) {
   const locale = params?.locale || defaultLocale;
@@ -105,298 +71,51 @@ export function generateMetadata({ params }) {
 
 export default function Home({ params }) {
   const locale = params?.locale || defaultLocale;
-  const m = getMessages(locale);
-  const keta = fact("keta-exemption");
-
-  return (
-    <>
-      <JsonLd data={webSiteLd(locale, m.meta.homeTitle, m.meta.homeDesc)} />
-
-      {/* ===== HERO (video filmstrip) ===== */}
-      <HeroSlider locale={locale} />
-
-      {/* ===== PLAN YOUR TRIP (TOP) ===== */}
-      <div className="plan-band flagbg" id="plan">
-        <div className="wrap">
-          <div className="plan-head">
-            <h2><span className="k">Plan</span> your trip — start here</h2>
-            <p>{m.plan.sub}</p>
-          </div>
-          <div className="plan-tiles">
-            {PLAN_TILES.map((tile) => (
-              <a
-                key={tile.key}
-                className="ptile ptile-img"
-                href={`/${locale}/${tile.to ? tile.to : `plan/${tile.key}`}/`}
-                style={{
-                  backgroundImage: `linear-gradient(158deg, rgba(9,13,26,.42) 0%, rgba(9,13,26,.7) 100%), url(/img/hero-bg/${tile.key}.jpg)`,
-                  borderColor: tile.bd,
-                }}
-              >
-                <span className="pic" style={{ background: tile.chip }}>{tile.icon}</span>
-                <b>{m.plan.tiles[tile.key].title}</b>
-                <small>{m.plan.tiles[tile.key].sub}</small>
-              </a>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* ===== HERO / PLANNER ===== */}
-      <div className="hero" id="planner">
-        <div className="wrap">
-          <div className="hero-badge reveal">
-            <span className="pill" style={{ background: "var(--primary-soft)", color: "var(--primary)" }}>
-              ✦ {m.hero.badge}
-            </span>
-          </div>
-          <h2 className="reveal">
-            {m.hero.title_1}<br />
-            <span className="hl">{m.hero.title_2}</span>
-          </h2>
-          <p className="lede reveal">{m.hero.lede}</p>
-
-          <TripPlanner hero={m.hero} t={m.planner} />
-
-          <div className="trustbar reveal">
-            <span>🚄 <b>{m.home.trustTransport}</b> — {m.home.trustTransportSub}</span>
-            <span>🗺️ <b>{m.home.trustDraft}</b> {m.home.trustDraftSub}</span>
-            <span>📤 <b>{m.home.trustShare}</b> {m.home.trustShareSub}</span>
-            <span>🌐 <b>{m.home.trustLangs}</b></span>
-          </div>
-        </div>
-      </div>
-
-      {/* ===== DESTINATIONS (search-ranked) ===== */}
-      <section id="dest" style={{ paddingTop: 20 }}>
-        <div className="wrap">
-          <div className="sec-head">
-            <div>
-              <span className="eyebrow">Where to go</span>
-              <h2>{m.dest.title}</h2>
-              <p>{m.dest.sub}</p>
-            </div>
-            <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-              <a className="btn ghost" href={`/${locale}/itinerary/`}>🗺️ Itineraries →</a>
-              <a className="btn ghost" href={`/${locale}/stay/`}>🏨 Where to stay →</a>
-              <a className="btn ghost" href={`/${locale}/destinations/`}>{m.dest.browseAll} →</a>
-            </div>
-          </div>
-          <div className="grid g4">
-            {["myeongdong", "n-seoul-tower", "gyeongbokgung", "bukhansan"].map((slug) => {
-              const d = { ...destData.items[slug], ...(destI18n[locale]?.items?.[slug] || {}) };
-              const f = d.factId ? fact(d.factId) : null;
-              const stat = f && f.value ? Object.values(f.value)[0] : null;
-              const im = destImages[slug];
-              return (
-                <a className="card" key={slug} href={`/${locale}/destinations/${slug}/`}>
-                  <div className={`thumb${im ? " thumb-img" : ""}`} style={im ? undefined : { background: d.grad }}>
-                    {im ? <img src={im.img} alt={d.name} width={1280} height={853} loading="lazy" /> : d.icon}
-                    <span className="rank">🔎 {d.rank}</span>
-                  </div>
-                  <div className="cbody">
-                    <h3>{d.name}</h3><p>{d.blurb}</p>
-                    {stat && <div className="kw">›_ {stat}{f.value.rank ? " daily visitors" : ""}</div>}
-                  </div>
-                </a>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ===== FOOD (eat + make) ===== */}
-      <section id="food">
-        <div className="wrap">
-          <div className="sec-head">
-            <div>
-              <span className="eyebrow">Eat & make</span>
-              <h2>{m.food.title}</h2>
-              <p>{m.food.sub}</p>
-            </div>
-            <a className="btn ghost" href={`/${locale}/food/`}>{m.food.browseAll} →</a>
-          </div>
-          <h4 style={{ fontFamily: "var(--mono)", color: "var(--faint)", textTransform: "uppercase", letterSpacing: ".04em", margin: "0 0 12px" }}>🍜 {m.food.eat}</h4>
-          <div className="grid g4">
-            {foodData.eat.map((it, i) => ({ ...it, ...((foodI18n[locale]?.eat || [])[i] || {}) })).slice(0, 4).map((c) => (
-              <article className="card" key={c.n}>
-                <div className={`thumb${foodImages[c.key] ? " thumb-img" : ""}`} style={foodImages[c.key] ? undefined : { background: c.grad }}>
-                  {foodImages[c.key] ? <img src={foodImages[c.key].img} alt={c.n} loading="lazy" /> : c.icon}
-                </div>
-                <div className="cbody"><h3>{c.n}</h3><p>{c.d}</p>{c.mapq && <NearbyEats q={c.mapq} label={c.n} />}</div>
-              </article>
-            ))}
-          </div>
-          <h4 style={{ fontFamily: "var(--mono)", color: "var(--faint)", textTransform: "uppercase", letterSpacing: ".04em", margin: "26px 0 12px" }}>🥢 {m.food.make}</h4>
-          <div className="grid g4">
-            {foodData.make.map((it, i) => ({ ...it, ...((foodI18n[locale]?.make || [])[i] || {}) })).slice(0, 4).map((c) => (
-              <article className="card" key={c.n}>
-                <div className={`thumb${foodImages[c.key] ? " thumb-img" : ""}`} style={foodImages[c.key] ? undefined : { background: c.grad }}>
-                  {foodImages[c.key] ? <img src={foodImages[c.key].img} alt={c.n} loading="lazy" /> : c.icon}
-                  <span className="pill" style={{ position: "absolute", bottom: 12, left: 12, background: "var(--amber-soft)", color: "var(--amber)" }}>{c.tag}</span>
-                </div>
-                <div className="cbody"><h3>{c.n}</h3><p>{c.d}</p>{c.mapq && <NearbyEats q={c.mapq} label={c.n} />}</div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ===== DEALS (booking) ===== */}
-      <section id="deals">
-        <div className="wrap">
-          <div className="sec-head">
-            <div>
-              <span className="eyebrow">{m.home.dealsEyebrow}</span>
-              <h2>{m.home.dealsTitle}</h2>
-              <p>{m.home.dealsSub}</p>
-            </div>
-          </div>
-          <div className="deals-grid">
-            <BookCTA partner="klook" icon="📲" label={m.home.dealEsim} sub={m.home.dealEsimSub} url={klookSearch("Korea eSIM")} />
-            <BookCTA partner="klook" icon="🚄" label={m.home.dealKtx} sub={m.home.dealKtxSub} url={klookSearch("Korea KTX train ticket")} />
-            <BookCTA partner="klook" icon="🎢" label={m.home.dealParks} sub={m.home.dealParksSub} url={klookSearch("Korea theme park attraction ticket")} />
-            <BookCTA partner="klook" icon="👘" label={m.home.dealHanbok} sub={m.home.dealHanbokSub} url={klookSearch("Korea hanbok tour experience")} disclose />
-            {/* Hotels: internal band into our /stay/ guide (Stay22 map — active commission, keeps visitors on-site). */}
-            <div className="deal-wide">
-              <div className="bookcta">
-                <a className="bookcta-btn" href={`/${locale}/stay/`}>
-                  <span className="bookcta-ic">🏨</span>
-                  <span className="bookcta-txt"><b>{m.home.dealHotel}</b><em>{m.home.dealHotelSub}</em></span>
-                  <span className="bookcta-go">{m.home.dealHotelGo} →</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== REVIEWS (real, by category & language) ===== */}
-      <section className="reviews" id="reviews">
-        <div className="wrap">
-          <div className="sec-head">
-            <div>
-              <span className="eyebrow">From travelers like you</span>
-              <h2>{m.reviews.title}</h2>
-              <p>{m.reviews.sub}</p>
-            </div>
-          </div>
-          <ReviewsSection t={m.reviews} locale={locale} />
-        </div>
-      </section>
-
-      {/* ===== K-CULTURE ===== */}
-      <section id="kculture">
-        <div className="wrap">
-          <div className="sec-head">
-            <div>
-              <span className="eyebrow">Hallyu</span>
-              <h2>{m.spotify.title}</h2>
-              <p>{m.spotify.sub}</p>
-            </div>
-            <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-              <a className="btn ghost" href={`/${locale}/kpop/`}>🎤 K-pop travel guide →</a>
-              <a className="btn ghost" href="https://kpophub.kr" target="_blank" rel="noopener noreferrer">🎫 Concerts on kpophub.kr →</a>
-            </div>
-          </div>
-          <SpotifyKpop labels={m.spotify} />
-        </div>
-      </section>
-
-      {/* ===== MAP ===== */}
-      <section id="map" style={{ background: "var(--surface-2)", borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}>
-        <div className="wrap">
-          <div className="sec-head">
-            <div>
-              <span className="eyebrow">{m.home.mapEyebrow}</span>
-              <h2>{m.home.mapTitle}</h2>
-              <p>{m.home.mapSub}</p>
-            </div>
-          </div>
-          <MapExplorer labels={m.map} locale={locale} />
-        </div>
-      </section>
-
-      {/* ===== HELP & SAFETY (verified facts) ===== */}
-      <section id="help">
-        <div className="wrap">
-          <div className="sec-head">
-            <div>
-              <span className="eyebrow">{m.help.eyebrow}</span>
-              <h2>{m.help.title}</h2>
-              <p>{m.help.sub}</p>
-            </div>
-            {factsUpdated && (
-              <span className="pill" style={{ background: "var(--jade-soft)", color: "var(--jade)" }}>
-                Facts updated {factsUpdated}
-              </span>
-            )}
-          </div>
-
-          {/* K-ETA verified callout */}
-          {keta && (
-            <div className="itin" style={{ marginBottom: 18 }}>
-              <div className="itin-head">
-                <div className="route-lbl">🛂 Visa & K-ETA</div>
-                <span className="pill" style={{ background: "var(--jade-soft)", color: "var(--jade)" }}>
-                  ✓ {m.help.verified_on} {keta.verified}
-                </span>
-              </div>
-              <div style={{ padding: "16px 22px" }}>
-                <p style={{ fontWeight: 600 }}>{keta.claim}</p>
-                <p style={{ color: "var(--muted)", fontSize: 13.5, marginTop: 8 }}>
-                  ⚠️ {keta.notes} — {m.help.check_official}:{" "}
-                  <a href={keta.source} target="_blank" rel="noopener noreferrer">{keta.source_name}</a>
-                </p>
-              </div>
-            </div>
-          )}
-
-          <div className="grid help-grid">
-            <FactCard id="tourist-hotline-1330" icon="📞" iconBg="var(--jade-soft)" iconColor="var(--jade)"
-              title="Tourist Help Line" sub="24/7 travel help, complaints & interpretation." big="1330" t={m.help} />
-            <FactCard id="emergency-police" icon="🚨" iconBg="var(--accent-soft)" iconColor="var(--accent)"
-              title="Police" sub="Nationwide emergency police number." big="112" t={m.help} />
-            <FactCard id="emergency-fire-medical" icon="🚑" iconBg="var(--primary-soft)" iconColor="var(--primary)"
-              title="Fire / Ambulance" sub="Fire and emergency medical." big="119" t={m.help} />
-            <div className="help-card">
-              <div className="hic" style={{ background: "var(--amber-soft)", color: "var(--amber)" }}>🏛️</div>
-              <h3>{m.help.embassy.title}</h3>
-              <p>{m.help.embassy.sub}</p>
-              <div className="kw" style={{ marginTop: 10 }}>⏳ {m.help.unavailable}</div>
-            </div>
-          </div>
-          <div style={{ marginTop: 14 }}>
-            <a className="btn ghost" href={`/${locale}/plan/help/`}>🆘 {m.help.fullGuide || "Full help & emergency guide"} →</a>
-            <a className="btn ghost" href={`/${locale}/ask-korea/`} style={{ marginInlineStart: 8 }}>💬 {m.askKorea.title} →</a>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== FOOTER ===== */}
-      <footer>
-        <div className="wrap foot-grid">
-          <div>
-            <a className="brand" href={`/${locale}/`} style={{ marginBottom: 10 }}>
-              <span className="mark">◆</span> Korea<b>Trip</b>Hub
-            </a>
-            <p style={{ maxWidth: "34ch" }}>{m.footer.tagline}</p>
-          </div>
-          <div>
-            <h5>{m.footer.colPlan}</h5>
-            <a href="#plan">{m.footer.linkPlanTrip}</a><a href="#planner">{m.nav.planner}</a><a href="#dest">{m.nav.destinations}</a><a href="#food">{m.nav.food}</a>
-          </div>
-          <div>
-            <h5>{m.footer.colDiscover}</h5>
-            <a href="#kculture">{m.nav.kculture}</a><a href="https://kpophub.kr">{m.footer.linkConcerts}</a><a href="#reviews">{m.nav.reviews}</a><a href="#help">{m.footer.linkHelpSafety}</a>
-          </div>
-          <div>
-            <h5>{m.footer.colInfo}</h5>
-            <a href="#help">{m.footer.linkVisa}</a><a href="#help">{m.footer.linkEmergency}</a><a href="#help">{m.footer.linkEmbassies}</a>
-          </div>
-        </div>
-        <div className="note">{m.footer.disclaimer}</div>
-      </footer>
-    </>
-  );
+  const m = getMessages(locale), t = m.experience;
+  const itineraries = itinFor(locale);
+  const destination = (slug) => ({ ...destData.items[slug], ...(destI18n[locale]?.items?.[slug] || {}) });
+  const routeOptions = Object.fromEntries(itineraries.order.map((key) => {
+    const { title, plan } = itineraries.items[key]; return [key, { title, plan }];
+  }));
+  const placeCatalog = Object.fromEntries(Object.entries(destData.items).map(([slug])=>['dest:'+slug,{name:destination(slug).name,path:'destinations/'+slug+'/'}]));
+  for(const category of ['eat','make','regional']) (foodData[category]||[]).forEach((item,i)=>{placeCatalog['food:'+item.key]={name:foodI18n[locale]?.[category]?.[i]?.n||item.n,path:'food/#food-'+item.key}});
+  const checklist = ['visa', 'airport', 'sim', 'money'].map((key) => ({ id: key, label: m.plan.tiles[key].title, path: `plan/${key}` }));
+  checklist.push({ id: 'stay', label: m.nextSteps.stay, path: 'stay' });
+  const starts = [
+    { title: t.entry, sub: t.entrySub, href: `/${locale}/plan/visa/`, icon: '01' },
+    { title: t.arrival, sub: t.arrivalSub, href: `/${locale}/plan/airport/`, icon: '02' },
+    { title: t.explore, sub: t.exploreSub, href: `/${locale}/destinations/`, icon: '03' },
+  ];
+  return <div className="journey-home">
+    <JsonLd data={webSiteLd(locale, m.meta.homeTitle, m.meta.homeDesc)} />
+    <HeroSlider locale={locale} t={t} languageCount={locales.length} image={destImages.gyeongbokgung} imageLabel={destination('gyeongbokgung').name} />
+    <section id="plan" className="journey-start wrap">
+      <div className="sec-head"><h2>{t.chooseTitle}</h2><a href="#planner">{t.myTrip} ↗</a></div>
+      <div className="journey-start-grid">{starts.map((item) => <a className="journey-start-card" key={item.icon} href={item.href}>
+        <span className="journey-number">{item.icon}</span><h3>{item.title}</h3><p>{item.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span>
+      </a>)}</div>
+      <div className="journey-essentials"><h3>{t.essentials}</h3><div>{['visa','airport','transit','sim','money','weather','help'].map((key) => <a key={key} href={`/${locale}/plan/${key}/`}>{m.plan.tiles[key].title} →</a>)}</div></div>
+    </section>
+    <section id="planner" className="journey-planner"><div className="wrap">
+      <div className="sec-head"><div><span className="eyebrow">{t.myTrip}</span><h2>{t.plannerTitle}</h2><p>{t.plannerSub}</p></div><a href={`/${locale}/itinerary/`}>{m.nextSteps.itinerary} →</a></div>
+      <SavedPlaces catalog={placeCatalog} locale={locale} t={t} /><TripPlanner catalog={placeCatalog} locale={locale} labels={t} routes={routeOptions} order={itineraries.order} ui={{dayLabel: itineraries.ui.dayLabel, map: itineraries.ui.map}} checklist={checklist} />
+    </div></section>
+    <section id="dest" className="wrap journey-discover">
+      <div className="sec-head"><div><span className="eyebrow">{t.explore}</span><h2>{m.dest.title}</h2></div><a href={`/${locale}/destinations/`}>{m.dest.browseAll} →</a></div>
+      <div className="journey-photo-grid">{['bukchon','haeundae','seongsan'].map((slug) => {
+        const d=destination(slug), im=destImages[slug];
+        return <article className="journey-place" key={slug}><a href={`/${locale}/destinations/${slug}/`}><img src={im.img} alt={d.name} width="1280" height="853" loading="lazy" /><div><h3>{d.name}</h3><p>{d.blurb}</p></div></a><small><a href={im.creditUrl} target="_blank" rel="noopener noreferrer">{im.credit}</a></small></article>;
+      })}</div>
+    </section>
+    <section id="food" className="wrap journey-food"><div className="sec-head"><h2>{m.food.title}</h2><a href={`/${locale}/food/`}>{m.food.browseAll} →</a></div>
+      <div className="journey-food-grid">{foodData.eat.slice(0,3).map((base,i)=>{
+        const item={...base,...foodI18n[locale]?.eat?.[i]}, im=foodImages[item.key];
+        return <article className="journey-food-card" key={item.key}>{im && <img src={im.img} alt={item.n} width="400" height="300" loading="lazy" />}<div><h3>{item.n}</h3><p>{item.d}</p>{item.mapq && <NearbyEats q={item.mapq} label={item.n} />}{im?.credit && <small className="journey-credit"><a href={im.creditUrl} target="_blank" rel="noopener noreferrer">{im.credit}</a></small>}</div></article>;
+      })}</div>
+    </section>
+    <section className="wrap journey-more" id="kculture"><div><span className="eyebrow">{m.guides.eyebrow}</span><h2>{m.guides.title}</h2><p>{m.guides.sub}</p><a className="btn ghost" href={`/${locale}/guides/`}>{t.details} →</a></div><div><span className="eyebrow">{m.nav.kculture}</span><h2>{m.plan.tiles.kpop.title}</h2><p>{m.plan.tiles.kpop.sub}</p><a className="btn ghost" href={`/${locale}/kpop/`}>{t.details} →</a></div></section>
+    <section id="map" className="journey-map"><div className="wrap"><details><summary>{m.home.mapTitle}</summary><MapExplorer labels={m.map} locale={locale} /></details></div></section>
+    <section id="reviews" className="wrap journey-review"><details><summary>{m.reviews.title}</summary><ReviewsSection t={m.reviews} locale={locale} /></details></section>
+    <section id="help" className="wrap journey-help"><div><span className="eyebrow">{m.help.eyebrow}</span><h2>{m.help.title}</h2><p>{m.help.sub}</p></div><a className="btn ghost" href={`/${locale}/plan/help/`}>{m.plan.tiles.help.title} →</a></section>
+  </div>;
 }

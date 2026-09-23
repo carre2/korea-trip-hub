@@ -4,14 +4,24 @@
     "visa": {
       "tagline": "入境韩国需要签证或 K-ETA 吗?这里说明大多数短期游客的入境流程。",
       "intro": [
-        "多数游客为短期停留，无需提前办签证即可入境。但具体规定因国籍而异，出行前请务必在官方来源确认你自己的情况。",
-        "截至 2026 年，韩国对符合条件的免签国公民临时免除 K-ETA（电子旅行许可）。即使免除 K-ETA，所有入境者仍须填写 e-Arrival Card。"
+        "选择护照签发国家的指南，再到官方网站核对旅行目的、入境日期、年龄及有效证件。网站语言不代表国籍。"
       ],
       "tips": [
-        "确认你的国籍 — 免签停留天数因国家而异（常见为 30、60 或 90 天）。",
-        "护照在停留期间应保持有效。",
-        "在线提前或到达时填写 e-Arrival Card，即可省去纸质表格。",
-        "如有疑问，请联系最近的韩国大使馆或领事馆。"
+        "请在官方网站确认自身情况。最终入境决定由入境审查作出。"
+      ],
+      "official": [
+        {
+          "name": "K-ETA",
+          "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN"
+        },
+        {
+          "name": "e-Arrival Card",
+          "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E"
+        },
+        {
+          "name": "Korea Visa Portal",
+          "url": "https://www.visa.go.kr"
+        }
       ]
     },
     "transit": {

@@ -67,7 +67,7 @@ export default function TopicGuide({ params }) {
             path: `guides/${slug}`,
             headline: g.h1,
             description: g.metaDesc,
-            dateModified: REVIEWED.iso,
+            dateModified: g.reviewed || REVIEWED.iso,
           }),
           faqLd(g.faq, locale),
         ]}
@@ -81,7 +81,7 @@ export default function TopicGuide({ params }) {
       <div className="art-meta">
         {g.kicker && <span className="art-kicker">{g.kicker}</span>}
         {g.readingTime && <span className="art-read">⏱ {g.readingTime}</span>}
-        <span className="art-read art-updated">🔄 Updated {REVIEWED.label}</span>
+        <span className="art-read art-updated">🔄 {m.footer.updatedLabel} {g.reviewed || REVIEWED.iso}</span>
       </div>
       <p className="art-tagline">{g.metaDesc}</p>
 
@@ -147,7 +147,7 @@ export default function TopicGuide({ params }) {
         </div>
       )}
 
-      <ArticleTrust locale={locale} />
+      <ArticleTrust reviewed={g.reviewed || REVIEWED.iso} locale={locale} />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>
   );

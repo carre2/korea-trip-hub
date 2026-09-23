@@ -1,11 +1,11 @@
 "use client";
 
-// Client component — intentionally imports NOTHING from lib/i18n so the 10
+// Client component — intentionally imports NOTHING from lib/i18n so the locale
 // message dictionaries never end up in the client bundle. The server layout
 // passes the few strings this needs (nav labels + locale list) as props.
 import { useEffect, useState } from "react";
 
-export default function Header({ locale, nav = {}, locales = [], localeNames = {}, rtl = false }) {
+export default function Header({ locale, nav = {}, labels: ui = {}, locales = [], localeNames = {}, rtl = false }) {
   const t = nav;
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -13,6 +13,7 @@ export default function Header({ locale, nav = {}, locales = [], localeNames = {
   useEffect(() => {
     document.documentElement.lang = locale;
     document.documentElement.dir = rtl ? "rtl" : "ltr";
+    try { const theme = localStorage.getItem("kth_theme"); if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme; } catch {}
   }, [locale, rtl]);
 
   // Close the mobile menu on Escape.
@@ -40,7 +41,9 @@ export default function Header({ locale, nav = {}, locales = [], localeNames = {
     const cur =
       root.getAttribute("data-theme") ||
       (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-    root.setAttribute("data-theme", cur === "dark" ? "light" : "dark");
+    const next = cur === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("kth_theme", next); } catch {}
   }
 
   const close = () => setMenuOpen(false);
@@ -53,27 +56,26 @@ export default function Header({ locale, nav = {}, locales = [], localeNames = {
         </a>
         <button
           className="nav-toggle"
-          aria-label={menuOpen ? "Close menu" : "Open menu"}
+          aria-label={menuOpen ? ui.menuClose : ui.menuOpen}
           aria-expanded={menuOpen}
           aria-controls="primary-nav"
           onClick={() => setMenuOpen((v) => !v)}
         >
           {menuOpen ? "✕" : "☰"}
         </button>
-        <nav id="primary-nav" className={`links${menuOpen ? " open" : ""}`} aria-label="Main">
-          <a href={`/${locale}/#plan`} onClick={close}>{t.plan}</a>
-          <a href={`/${locale}/#planner`} onClick={close}>{t.planner}</a>
-          <a href={`/${locale}/#dest`} onClick={close}>{t.destinations}</a>
-          <a href={`/${locale}/#food`} onClick={close}>{t.food}</a>
-          <a href={`/${locale}/#reviews`} onClick={close}>{t.reviews}</a>
-          <a href={`/${locale}/kpop/`} onClick={close}>{t.kculture}</a>
-          <a href={`/${locale}/#map`} onClick={close}>{t.map}</a>
-          <a href={`/${locale}/#help`} onClick={close}>{t.help}</a>
-        </nav>
+        <nav id="primary-nav" className={`links${menuOpen ? " open" : ""}`} aria-label={ui.menuOpen}>
+          <a href={`/${locale}/plan/visa/`} onClick={close}>{ui.entry}</a>
+          <a href={`/${locale}/plan/airport/`} onClick={close}>{ui.arrival}</a>
+          <a href={`/${locale}/destinations/`} onClick={close}>{ui.explore}</a>
+          <a href={`/${locale}/guides/`} onClick={close}>{ui.continuePrep}</a>
+          <a href={`/${locale}/itinerary/`} onClick={close}>{t.planner}</a>
+          <a className="nav-mytrip" href={`/${locale}/#planner`} onClick={close}>{ui.myTrip}</a>
+          <a href={`/${locale}/plan/help/`} onClick={close}>{t.help}</a>
+        <button type="button" className="mobile-theme trip-text-button" onClick={toggleTheme}>◐ {ui.theme}</button></nav>
         <div className="nav-right">
-          <label className="langsel" title="Choose language">
+          <label className="langsel" title={ui.language}>
             <span className="globe">🌐</span>
-            <select aria-label="Language" value={locale} onChange={onLang}>
+            <select aria-label={ui.language} value={locale} onChange={onLang}>
               {locales.map((code) => (
                 <option key={code} value={code}>
                   {localeNames[code]}
@@ -81,7 +83,7 @@ export default function Header({ locale, nav = {}, locales = [], localeNames = {
               ))}
             </select>
           </label>
-          <button className="theme-btn" aria-label="Toggle theme" onClick={toggleTheme}>
+          <button className="theme-btn" aria-label={ui.theme} onClick={toggleTheme}>
             ◐
           </button>
         </div>

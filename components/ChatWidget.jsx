@@ -29,7 +29,7 @@ export default function ChatWidget({ locale = "en", labels = {} }) {
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
   const [coords, setCoords] = useState(null);
-  const [bubbleOff, setBubbleOff] = useState(false); // greeting bubble dismissed this session
+  const [bubbleOff, setBubbleOff] = useState(true); // keep the reading surface clear until the user asks for help
   const scroller = useRef(null);
 
   useEffect(() => { if (scroller.current) scroller.current.scrollTop = scroller.current.scrollHeight; }, [msgs, busy, open]);

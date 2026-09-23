@@ -3,9 +3,13 @@
 // "Find this food near me" — opens Google / Naver / KakaoMap searching for the
 // dish around the visitor's current location. Naver & Kakao don't expose ratings
 // via API, so we open their apps where the user can see & sort by rating (4★+).
+import { useExperience } from "./ExperienceProvider";
 import { useState } from "react";
 
-export default function NearbyEats({ q, label, buttonText = "Find near me", hint = "Sort by 4★+ in the app" }) {
+export default function NearbyEats({ q, label, buttonText, hint }) {
+  const t = useExperience();
+  buttonText = buttonText || t.nearby;
+  hint = hint || t.nearbyHint;
   const [open, setOpen] = useState(false);
   const [coords, setCoords] = useState(null);
 

@@ -1,4 +1,5 @@
 "use client";
+import { track } from "../lib/analytics";
 import { useState } from "react";
 
 // Interactive "find your country" picker for the visa hub. Data comes from the
@@ -18,7 +19,7 @@ export default function VisaFinder({ locale, items = [], labels = {}, moreText }
           id="vf-select"
           className="vf-select"
           value={code}
-          onChange={(e) => setCode(e.target.value)}
+          onChange={(e) => { setCode(e.target.value); if(e.target.value) track("visa_result_view", { locale, result_type: items.find(i=>i.code===e.target.value)?.group || "unknown" }); }}
         >
           <option value="">{labels.placeholder || "Select your nationality…"}</option>
           {items.map((i) => (

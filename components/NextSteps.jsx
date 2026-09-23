@@ -20,7 +20,7 @@ export default function NextSteps({ locale, m }) {
   const kpop = { icon: "🎤", title: tiles.kpop?.title || "K-pop & Concerts", sub: tiles.kpop?.sub || "Venues, tickets & idol hotspots", href: L("kpop") };
 
   return (
-    <section className="nextsteps" aria-label={ns.title || "Plan the rest of your trip"}>
+    <section className="nextsteps" data-placement="bottom" aria-label={ns.title || "Plan the rest of your trip"}>
       <div className="ns-head">
         <h2>{ns.title || "Visa sorted? Now plan the rest of your trip"}</h2>
         <p>{ns.sub || "Arrival, getting around, where to stay, and what to do — the rest of your Korea trip, all here."}</p>

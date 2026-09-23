@@ -18,7 +18,7 @@ export default function SiteFooter({ locale }) {
         {/* Crawlable language links (real <a href>, not just the JS switcher) so every
             crawler — Baidu especially, which largely ignores hreflang — can discover and
             reach each language home. Additive; canonical/hreflang are unchanged. */}
-        <nav className="sitefoot-langs" aria-label={f.langNavLabel || "Languages"}>
+        <nav className="sitefoot-langs" aria-label={m.experience.language}>
           {locales.map((code) =>
             code === locale ? (
               <strong key={code} aria-current="true">{localeNames[code]}</strong>

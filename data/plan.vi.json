@@ -4,14 +4,24 @@
     "visa": {
       "tagline": "Có cần visa hay K-ETA để nhập cảnh Hàn Quốc không? Đây là cách nhập cảnh cho hầu hết du khách ngắn ngày.",
       "intro": [
-        "Hầu hết du khách đi ngắn ngày và không xin visa trước, nhưng quy định chính xác tùy quốc tịch — hãy luôn xác nhận trường hợp của bạn tại nguồn chính thức trước khi bay.",
-        "Năm 2026, Hàn Quốc tạm miễn K-ETA cho công dân thuộc diện miễn visa. Dù được miễn K-ETA, mọi du khách vẫn phải điền e-Arrival Card."
+        "Chọn hướng dẫn theo nước cấp hộ chiếu, rồi kiểm tra mục đích, ngày nhập cảnh, tuổi và giấy tờ còn hiệu lực trên trang chính thức. Ngôn ngữ trang không phải quốc tịch."
       ],
       "tips": [
-        "Kiểm tra quốc tịch của bạn — thời gian lưu trú miễn visa tùy nước (thường 30, 60 hoặc 90 ngày).",
-        "Hộ chiếu phải còn hạn suốt thời gian lưu trú.",
-        "Điền e-Arrival Card trực tuyến trước hoặc khi đến để khỏi dùng mẫu giấy.",
-        "Nếu chưa chắc, hãy liên hệ đại sứ quán hoặc lãnh sự quán Hàn Quốc gần nhất."
+        "Xác nhận trường hợp của bạn trên trang chính thức. Cơ quan xuất nhập cảnh quyết định cuối cùng về việc nhập cảnh."
+      ],
+      "official": [
+        {
+          "name": "K-ETA",
+          "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN"
+        },
+        {
+          "name": "e-Arrival Card",
+          "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E"
+        },
+        {
+          "name": "Korea Visa Portal",
+          "url": "https://www.visa.go.kr"
+        }
       ]
     },
     "transit": {

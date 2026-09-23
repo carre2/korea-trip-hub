@@ -45,10 +45,12 @@ export function generateMetadata({ params }) {
   });
 }
 
+import SavePlace from "../../../components/SavePlace";
+
 function Card({ item, tagBg, tagColor, locale }) {
   const im = foodImages[item.key];
   return (
-    <article className="card">
+    <article className="card" id={`food-${item.key}`}>
       <div className={`thumb${im ? " thumb-img" : ""}`} style={im ? undefined : { background: item.grad }}>
         {im ? <img src={im.img} alt={item.n} loading="lazy" /> : item.icon}
         {item.tag && (
@@ -58,7 +60,7 @@ function Card({ item, tagBg, tagColor, locale }) {
         )}
       </div>
       <div className="cbody">
-        <h3>{item.n}</h3>
+        <h3>{item.n}</h3><SavePlace id={`food:${item.key}`} locale={locale} />
         <p>{item.d}</p>
         {item.mapq && <NearbyEats q={item.mapq} label={item.n} />}
         {item.city && locale && (

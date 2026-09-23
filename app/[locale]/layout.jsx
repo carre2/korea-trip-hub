@@ -1,10 +1,14 @@
 import "../globals.css";
+import "../experience.css";
 import Script from "next/script";
 import { locales, rtlLocales, localeNames, getMessages } from "../../lib/i18n";
 import { SITE } from "../../lib/seo";
 import Header from "../../components/Header";
 import SiteFooter from "../../components/SiteFooter";
 import ConsentBanner from "../../components/ConsentBanner";
+import ExperienceProvider from "../../components/ExperienceProvider";
+import ArticleContents from "../../components/ArticleContents";
+import JourneyAnalytics from "../../components/JourneyAnalytics";
 import ChatWidget from "../../components/ChatWidget";
 
 // Google AdSense publisher (ktriphub.com). Loader below serves ads once approved.
@@ -31,9 +35,10 @@ export default function LocaleLayout({ children, params }) {
   return (
     <html lang={locale} dir={dir}>
       <body>
-        <a className="skip-link" href="#main">Skip to content</a>
-        <Header locale={locale} nav={m.nav} locales={locales} localeNames={localeNames} rtl={dir === "rtl"} />
-        <main id="main">{children}</main>
+        <ExperienceProvider labels={{...m.experience, affiliate: m.footer.affiliateLine}}>
+        <a className="skip-link" href="#main">{m.experience.skip}</a>
+        <Header locale={locale} nav={m.nav} labels={m.experience} locales={locales} localeNames={localeNames} rtl={dir === "rtl"} />
+        <JourneyAnalytics locale={locale} /><main id="main"><ArticleContents label={m.experience.contents} />{children}</main>
         <SiteFooter locale={locale} />
         <ChatWidget locale={locale} labels={m.chat} />
         <ConsentBanner t={consent} privacyHref={`/${locale}/legal/privacy/`} />
@@ -45,7 +50,7 @@ export default function LocaleLayout({ children, params }) {
 gtag('js', new Date());
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
 try{if(localStorage.getItem('kth_consent')==='granted')gtag('consent','update',{analytics_storage:'granted'});}catch(e){}
-gtag('config','${GA_ID}');`}
+if(['ktriphub.com','www.ktriphub.com'].includes(location.hostname))gtag('config','${GA_ID}');`}
         </Script>
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
         {/* AdSense loader — the code Google needs to find on visited pages to review/approve
@@ -59,14 +64,7 @@ gtag('config','${GA_ID}');`}
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
           crossOrigin="anonymous"
         />
-        {/* Stay22 LinkSwap (ACTIVE 2026-08-26 — Stay22 approved). Turns existing hotel links
-            into commission-earning partner links (Booking.com/Hotels.com/Agoda/Expedia/…).
-            Loads after the Consent Mode default above; disclosed on the Affiliate & Privacy
-            pages. Pairs with <Stay22Map> (STAY22.aid in lib/booking.js). */}
-        <Script id="stay22-init" strategy="afterInteractive">
-          {`window.Stay22=window.Stay22||{};window.Stay22.params={lmaID:'6a8fd38afdad71da9008a52b'};`}
-        </Script>
-        <Script src="https://scripts.stay22.com/letmeallez.js" strategy="afterInteractive" />
+      </ExperienceProvider>
       </body>
     </html>
   );

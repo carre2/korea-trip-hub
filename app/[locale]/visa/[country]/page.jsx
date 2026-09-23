@@ -1,3 +1,5 @@
+import EntryGuidance from "../../../../components/EntryGuidance";
+import ArrivalSteps from "../../../../components/ArrivalSteps";
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, articleLd, faqLd } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
@@ -31,7 +33,7 @@ export default function VisaCountryPage({ params }) {
   const ui = g.ui || {};
 
   return (
-    <article className="article">
+    <article className="article entry-country">
       <JsonLd
         data={[
           breadcrumbLd(locale, [
@@ -80,6 +82,7 @@ export default function VisaCountryPage({ params }) {
         </div>
       )}
 
+      <EntryGuidance locale={locale} compact /><ArrivalSteps locale={locale} m={{experience:m.experience,plan:m.plan}} placement="visa-country" />
       <VisaCountryGuide guide={g} m={m} />
 
       {g.verdict?.need && <VisaPhotoSpec m={m} />}

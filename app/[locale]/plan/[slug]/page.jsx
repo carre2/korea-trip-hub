@@ -1,3 +1,5 @@
+import EntryGuidance from "../../../../components/EntryGuidance";
+import ArrivalSteps from "../../../../components/ArrivalSteps";
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, articleLd, faqLd, SITE_NAME, REVIEWED } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
@@ -87,7 +89,7 @@ export function generateMetadata({ params }) {
   return pageMeta({
     locale,
     path: `plan/${params.slug}`,
-    title: gm?.metaTitle || `${title} — ${SITE_NAME}`,
+    title: (locale === "en" ? gm?.metaTitle : guideI18n[params.slug]?.[locale]?.metaTitle) || `${title} — ${SITE_NAME}`,
     // Prefer the guide's TRANSLATED metaDesc (locale i18n only, never the English base)
     // for a rich page-specific description; fall back to the localized tagline.
     // Fixes e.g. /ja/plan/help/ leaking the English tagline into <meta description>.
@@ -153,7 +155,7 @@ export default function PlanArticle({ params }) {
   const ui = m.factsUI || {};
 
   return (
-    <article className="article">
+    <article className={`article ${slug === "visa" ? "entry-article" : ""}`}>
       <JsonLd
         data={[
           breadcrumbLd(locale, [
@@ -168,7 +170,7 @@ export default function PlanArticle({ params }) {
               headline: title,
               description: item.tagline,
               image: guide.hero?.img,
-              dateModified: REVIEWED.iso,
+              dateModified: guide.reviewed || REVIEWED.iso,
             }),
           guide && faqLd(guide.faq?.items, locale),
         ]}
@@ -185,8 +187,8 @@ export default function PlanArticle({ params }) {
             {guide && (
               <div className="art-meta plan-herobanner-meta">
                 {guide.kicker && <span className="art-kicker">{guide.kicker}</span>}
-                {guide.readingTime && <span className="art-read">⏱ {guide.readingTime}</span>}
-                <span className="art-read art-updated">🔄 Updated {REVIEWED.label}</span>
+                {guide.readingTime && <span className="art-read">⏱ {m.experience.readingTime.replace("{n}", String(guide.readingTime).match(/\d+/)?.[0] || "")}</span>}
+                <span className="art-read art-updated">{m.footer.updatedLabel} {new Intl.DateTimeFormat(locale, {year:"numeric", month:"long"}).format(new Date(guide.reviewed || REVIEWED.iso))}</span>
               </div>
             )}
           </div>
@@ -200,8 +202,8 @@ export default function PlanArticle({ params }) {
           {guide && (
             <div className="art-meta">
               {guide.kicker && <span className="art-kicker">{guide.kicker}</span>}
-              {guide.readingTime && <span className="art-read">⏱ {guide.readingTime}</span>}
-              <span className="art-read art-updated">🔄 Updated {REVIEWED.label}</span>
+              {guide.readingTime && <span className="art-read">⏱ {m.experience.readingTime.replace("{n}", String(guide.readingTime).match(/\d+/)?.[0] || "")}</span>}
+              <span className="art-read art-updated">{m.footer.updatedLabel} {new Intl.DateTimeFormat(locale, {year:"numeric", month:"long"}).format(new Date(guide.reviewed || REVIEWED.iso))}</span>
             </div>
           )}
           <p className="art-tagline">{item.tagline}</p>
@@ -220,6 +222,22 @@ export default function PlanArticle({ params }) {
         </>
       )}
 
+      {/* Interactive nationality picker → jumps to the right country guide */}
+      {guide?.countryGuides && (
+        <VisaFinder
+          locale={locale}
+          items={[
+            ...(guide.countryGuides.items || []).map((c) => ({ ...c, group: "need" })),
+            ...(guide.countryGuides.visaFree || []).map((c) => ({ ...c, group: "free" })),
+          ].sort((a, b) => a.name.localeCompare(b.name))}
+          labels={m.visaFinder || {}}
+          moreText={m.experience.visaHint}
+        />
+      )}
+
+      {slug === "visa" && <EntryGuidance locale={locale} compact />}
+      {slug === "visa" && <ArrivalSteps locale={locale} m={{experience:m.experience,plan:m.plan}} placement="visa-hub" />}
+
       {item.intro.map((p, i) => (
         <p key={i} className={i === 0 ? "" : "lead"}>{linkify(p)}</p>
       ))}
@@ -233,26 +251,13 @@ export default function PlanArticle({ params }) {
       )}
 
       {/* TL;DR summary strip */}
-      {guide?.tldr && (
+      {slug !== "visa" && guide?.tldr && (
         <div className="art-tldr">
           <span className="art-tldr-lbl">TL;DR</span>
           <ul>
             {guide.tldr.map((t, i) => <li key={i}>{linkify(t)}</li>)}
           </ul>
         </div>
-      )}
-
-      {/* Interactive nationality picker → jumps to the right country guide */}
-      {guide?.countryGuides && (
-        <VisaFinder
-          locale={locale}
-          items={[
-            ...(guide.countryGuides.items || []).map((c) => ({ ...c, group: "need" })),
-            ...(guide.countryGuides.visaFree || []).map((c) => ({ ...c, group: "free" })),
-          ].sort((a, b) => a.name.localeCompare(b.name))}
-          labels={m.visaFinder || {}}
-          moreText={guide.countryGuides.more}
-        />
       )}
 
       {/* Per-nationality visa guide hub */}
@@ -267,7 +272,7 @@ export default function PlanArticle({ params }) {
               <a key={c.code} className="vcg-hub-card" href={`/${locale}/visa/${c.code}/`}>
                 <span className="vcg-hub-flag">{c.flag}</span>
                 <span className="vcg-hub-txt">
-                  <b>{c.name} → Korea</b>
+                  <b>{c.name}</b>
                   <em>{c.note}</em>
                 </span>
                 <span className="vcg-hub-arrow">→</span>
@@ -283,7 +288,7 @@ export default function PlanArticle({ params }) {
                   <a key={c.code} className="vcg-hub-card vcg-hub-free" href={`/${locale}/visa/${c.code}/`}>
                     <span className="vcg-hub-flag">{c.flag}</span>
                     <span className="vcg-hub-txt">
-                      <b>{c.name} → Korea</b>
+                      <b>{c.name}</b>
                       <em>{c.note}</em>
                     </span>
                     <span className="vcg-hub-arrow">→</span>
@@ -337,7 +342,7 @@ export default function PlanArticle({ params }) {
         </a>
       )}
 
-      <ArticleTrust locale={locale} />
+      <ArticleTrust locale={locale} reviewed={guide?.reviewed || REVIEWED.iso} />
       <p className="art-disclaimer">
         {m.footer.disclaimer}
       </p>

@@ -1,0 +1,13 @@
+"use client";
+import {useEffect,useState} from 'react';
+import {PLACES_KEY,normalizePlaces,decodePlaces} from '../lib/places-state.mjs';
+import {track} from '../lib/analytics';
+export default function SavedPlaces({catalog,locale,t}){
+ const [ids,setIds]=useState([]),[shared,setShared]=useState(false),[status,setStatus]=useState(''),[url,setUrl]=useState('');
+ useEffect(()=>{const q=new URLSearchParams(location.search).get('places');function sync(){try{setIds(normalizePlaces(JSON.parse(localStorage.getItem(PLACES_KEY)||'[]'),catalog))}catch{setStatus(t.storageError)}}if(q!==null){setIds(decodePlaces(q,catalog));setShared(true)}else sync();window.addEventListener('storage',sync);window.addEventListener('places-change',sync);return()=>{window.removeEventListener('storage',sync);window.removeEventListener('places-change',sync)}},[catalog,t]);
+ function save(next){try{localStorage.setItem(PLACES_KEY,JSON.stringify(next));setShared(false);setStatus(t.saved);const u=new URL(location.href);u.searchParams.delete('places');history.replaceState(null,'',u.href);window.dispatchEvent(new Event('places-change'));return true}catch{setStatus(t.storageError);return false}}
+ function update(next){setIds(next);setUrl('');if(!shared)save(next)}
+ function move(i,n){const next=[...ids];[next[i],next[i+n]]=[next[i+n],next[i]];update(next)}
+ async function share(){const u=new URL(`/${locale}/`,location.origin);u.searchParams.set('places',ids.join(','));u.hash='saved-places';setUrl(u.href);try{await navigator.clipboard.writeText(u.href);setStatus(t.copyDone);track('itinerary_share',{locale,method:'places_link'})}catch{setStatus(t.copyError)}}
+ return <section id="saved-places" className="saved-places"><h3>{t.savedPlaces}</h3><p>{t.placesHint}</p>{ids.length===0?<p>{t.placesEmpty}</p>:<><ol>{ids.map((id,i)=>{const p=catalog[id];return <li key={id}><a href={`/${locale}/${p.path}`}>{p.name}</a><div className="saved-place-actions"><button disabled={!i} aria-label={`${t.moveUp}: ${p.name}`} onClick={()=>move(i,-1)}>↑</button><button disabled={i===ids.length-1} aria-label={`${t.moveDown}: ${p.name}`} onClick={()=>move(i,1)}>↓</button><button aria-label={`${t.removeStop}: ${p.name}`} onClick={()=>update(ids.filter(x=>x!==id))}>×</button></div></li>})}</ol><div className="trip-toolbar">{shared&&<button className="btn" onClick={()=>save(ids)}>{t.save}</button>}<button className="btn ghost" onClick={share}>{t.copy}</button><button className="trip-text-button" onClick={()=>update([])}>{t.clearPlaces}</button></div></> }<p role="status">{status}</p>{url&&<input className="trip-copy" aria-label={t.copy} value={url} readOnly onFocus={e=>e.target.select()}/>}<a href={`/${locale}/destinations/`}>{t.explore} →</a></section>
+}

@@ -20,20 +20,7 @@ const factById = Object.fromEntries((facts.facts || []).map((f) => [f.id, f]));
 const updated = facts._updated || new Date().toISOString().slice(0, 10);
 
 // Canonical K-ETA / entry facts (values only — language-neutral).
-const ketaFacts = {
-  keta_fee: factById["keta-fee-validity"]?.value?.fee || "₩10,000",
-  keta_valid_for: factById["keta-fee-validity"]?.value?.valid_for || "3 years",
-  keta_entries: "multiple",
-  keta_apply_before: factById["keta-apply-window"]?.value?.apply || "≥ 72h before boarding",
-  keta_apply_at: "k-eta.go.kr (official only)",
-  keta_waiver_until: factById["keta-exempt-countries"]?.value?.exempt_until || "2026-12-31",
-  keta_returns: factById["keta-exempt-countries"]?.value?.requirement_resumes || "2027-01-01",
-  keta_exempt_regions: (factById["keta-exempt-countries"]?.notes || "")
-    .replace(/\.\s*Always confirm.*$/i, "")
-    .split(",").map((s) => s.trim()).filter(Boolean),
-  earrival: "free, at e-arrivalcard.go.kr, within 72h before arrival (K-ETA holders exempt)",
-  age_exempt_from_keta: "17 and under or 65 and over",
-};
+const ketaFacts = Object.fromEntries(facts.facts.filter(f=>f.status==='VERIFIED' && /^(keta-|earrival-)/.test(f.id)).map(f=>[f.id,{value:f.value,claim:f.claim,source:f.source,verified:f.verified}]));
 const SOURCES = {
   k_eta: "https://www.k-eta.go.kr",
   e_arrival_card: "https://www.e-arrivalcard.go.kr",
@@ -64,6 +51,8 @@ fs.mkdirSync(OUT, { recursive: true });
 let totalQ = 0;
 for (const loc of LOCALES) {
   const faq = [];
+  const messages = read(path.join(ROOT, 'messages', `${loc}.json`));
+  const entry = read(path.join(DATA, 'entry-guidance.json'))[loc];
   // 1) hub FAQ (K-ETA / entry basics)
   const hubFaq = (loc !== "en" && hubI18n[loc]?.faq?.items) || hubBase.faq?.items || [];
   for (const it of hubFaq) faq.push({ topic: "keta-entry", q: it.q, a: it.a, source: `/${loc}/plan/visa/` });
@@ -76,7 +65,7 @@ for (const loc of LOCALES) {
     if (v.headline) {
       faq.push({
         topic: `visa:${code}`,
-        q: (ov.verdict?.headline ? "" : "") + `${country} → Korea: do you need a visa?`,
+        q: ov.h1 || base.h1,
         a: [v.headline, v.sub].filter(Boolean).join(" "),
         source: src,
       });
