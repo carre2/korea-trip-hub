@@ -30,7 +30,7 @@ export default function ChatWidget({ locale = "en", labels = {} }) {
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
   const [coords, setCoords] = useState(null);
-  const [bubbleOff, setBubbleOff] = useState(true);
+  const [bubbleOff, setBubbleOff] = useState(false);
   const scroller = useRef(null);
 
   useEffect(() => {
@@ -44,16 +44,10 @@ export default function ChatWidget({ locale = "en", labels = {} }) {
   }, []);
 
   useEffect(() => { if (scroller.current) scroller.current.scrollTop = scroller.current.scrollHeight; }, [msgs, busy, open]);
-  useEffect(() => {
-    try { if (localStorage.getItem('kth-welcome-dismissed') || sessionStorage.getItem('kth-welcome-seen')) return; } catch {}
-    const timer = setTimeout(() => { setBubbleOff(false); try { sessionStorage.setItem('kth-welcome-seen','1'); } catch {} }, 1800);
-    return () => clearTimeout(timer);
-  }, []);
   useEffect(() => { if (!open) return; const escape = e => { if (e.key === 'Escape') setOpen(false); }; window.addEventListener('keydown',escape); return () => window.removeEventListener('keydown',escape); }, [open]);
 
   function dismissBubble() {
     setBubbleOff(true);
-    try { localStorage.setItem('kth-welcome-dismissed','1'); } catch {}
   }
   function toggleOpen() {
     setOpen((o) => !o);
@@ -103,7 +97,7 @@ export default function ChatWidget({ locale = "en", labels = {} }) {
       {!open && !bubbleOff && (
         <div className="korea-welcome" role="region" aria-label={t.title}>
           <button className="korea-welcome-close" aria-label={t.close} onClick={dismissBubble}>✕</button>
-          <button className="korea-welcome-message" onClick={() => { setOpen(true); dismissBubble(); }}>
+          <button className="korea-welcome-message" onClick={() => setOpen(true)}>
             <small>{t.virtualGuide}</small><strong>{t.bubble}</strong><span>{t.title} ↗</span>
           </button>
         </div>
