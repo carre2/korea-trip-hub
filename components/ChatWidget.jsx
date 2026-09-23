@@ -29,15 +29,20 @@ export default function ChatWidget({ locale = "en", labels = {} }) {
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
   const [coords, setCoords] = useState(null);
-  const [bubbleOff, setBubbleOff] = useState(true); // keep the reading surface clear until the user asks for help
+  const [bubbleOff, setBubbleOff] = useState(true);
   const scroller = useRef(null);
 
   useEffect(() => { if (scroller.current) scroller.current.scrollTop = scroller.current.scrollHeight; }, [msgs, busy, open]);
-  useEffect(() => { try { if (sessionStorage.getItem("cw-bubble") === "off") setBubbleOff(true); } catch {} }, []);
+  useEffect(() => {
+    try { if (localStorage.getItem('kth-welcome-dismissed') || sessionStorage.getItem('kth-welcome-seen')) return; } catch {}
+    const timer = setTimeout(() => { setBubbleOff(false); try { sessionStorage.setItem('kth-welcome-seen','1'); } catch {} }, 1800);
+    return () => clearTimeout(timer);
+  }, []);
+  useEffect(() => { if (!open) return; const escape = e => { if (e.key === 'Escape') setOpen(false); }; window.addEventListener('keydown',escape); return () => window.removeEventListener('keydown',escape); }, [open]);
 
   function dismissBubble() {
     setBubbleOff(true);
-    try { sessionStorage.setItem("cw-bubble", "off"); } catch {}
+    try { localStorage.setItem('kth-welcome-dismissed','1'); } catch {}
   }
   function toggleOpen() {
     setOpen((o) => !o);
@@ -85,23 +90,24 @@ export default function ChatWidget({ locale = "en", labels = {} }) {
   return (
     <>
       {!open && !bubbleOff && (
-        <div className="cw-bubble">
-          <button className="cw-bubble-x" aria-label="Dismiss" onClick={dismissBubble}>✕</button>
-          <button className="cw-bubble-msg" onClick={() => { setOpen(true); dismissBubble(); }}>
-            {t.bubble || "Need help? Ask me anything 💬"}
+        <div className="korea-welcome" role="region" aria-label={t.title}>
+          <button className="korea-welcome-close" aria-label={t.close} onClick={dismissBubble}>✕</button>
+          <img src="/img/hanbok-guide.png" alt="" width="108" height="108" />
+          <button className="korea-welcome-message" onClick={() => { setOpen(true); dismissBubble(); }}>
+            <small>{t.virtualGuide}</small><strong>{t.bubble}</strong><span>{t.title} ↗</span>
           </button>
         </div>
       )}
 
-      <button className="cw-fab" aria-label={t.title || "Ask for help"} onClick={toggleOpen}>
-        {open ? "✕" : "💬"}
+      <button className="cw-fab korea-guide-fab" aria-label={t.title || "Ask for help"} aria-expanded={open} aria-controls="korea-chat-panel" onClick={toggleOpen}>
+        {open ? "✕" : <img src="/img/hanbok-guide.png" alt="" width="56" height="56" />}
       </button>
 
       {open && (
-        <div className="cw-panel" role="dialog" aria-label={t.title || "Korea Trip Hub Assistant"}>
+        <div id="korea-chat-panel" className="cw-panel" role="dialog" aria-label={t.title || "Korea Trip Hub Assistant"}>
           <div className="cw-head">
-            <b>💬 {t.title || "Korea Trip Hub Assistant"}</b>
-            <button className="cw-x" aria-label="Close" onClick={() => setOpen(false)}>✕</button>
+            <b><img className="korea-chat-avatar" src="/img/hanbok-guide.png" alt="" width="40" height="40" /> {t.title}<small className="korea-chat-label">{t.virtualGuide}</small></b>
+            <button className="cw-x" aria-label={t.close} onClick={() => setOpen(false)}>✕</button>
           </div>
 
           <div className="cw-emerg">🚨 {t.emergency || "In danger or hurt? Call 112 (police) or 119 (fire/ambulance) now."}</div>

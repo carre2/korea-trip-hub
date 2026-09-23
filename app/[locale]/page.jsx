@@ -102,9 +102,9 @@ export default function Home({ params }) {
     </div></section>
     <section id="dest" className="wrap journey-discover">
       <div className="sec-head"><div><span className="eyebrow">{t.explore}</span><h2>{m.dest.title}</h2></div><a href={`/${locale}/destinations/`}>{m.dest.browseAll} →</a></div>
-      <div className="journey-photo-grid">{['bukchon','haeundae','seongsan'].map((slug) => {
+      <div className="journey-photo-grid">{['bukchon','haeundae','seongsan','bulguksa'].map((slug) => {
         const d=destination(slug), im=destImages[slug];
-        return <article className="journey-place" key={slug}><a href={`/${locale}/destinations/${slug}/`}><img src={im.img} alt={d.name} width="1280" height="853" loading="lazy" /><div><h3>{d.name}</h3><p>{d.blurb}</p></div></a><small><a href={im.creditUrl} target="_blank" rel="noopener noreferrer">{im.credit}</a></small></article>;
+        return <article className="journey-place" key={slug}><a href={`/${locale}/destinations/${slug}/`}><img src={im.img} alt={d.name} width="1280" height="853" loading="lazy" /><div><span className="korea-place-mark" aria-hidden="true" lang="ko">{({bukchon:'서울',haeundae:'부산',seongsan:'제주',bulguksa:'경주'})[slug]}</span><h3>{d.name}</h3><p>{d.blurb}</p></div></a><small><a href={im.creditUrl} target="_blank" rel="noopener noreferrer">{im.credit}</a></small></article>;
       })}</div>
     </section>
     <section id="food" className="wrap journey-food"><div className="sec-head"><h2>{m.food.title}</h2><a href={`/${locale}/food/`}>{m.food.browseAll} →</a></div>

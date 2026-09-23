@@ -196,3 +196,29 @@ button:disabled{opacity:.45;cursor:default}.save-place{display:flex;flex-wrap:wr
 @media(max-width:900px){.entry-conditions{grid-template-columns:1fr}}
 @media(max-width:599px){.saved-places,.entry-guidance{padding:18px}.saved-places li{flex-wrap:wrap}.trip-stop-actions{grid-column:2;grid-row:span 2}.save-place .btn{white-space:normal}}
 @media print{.saved-place-actions,.saved-places .trip-toolbar,.trip-stop-actions,.article-contents,.saved-places>input{display:none!important}.saved-places{break-inside:avoid;border:0}.saved-places li{display:list-item;list-style:decimal}}
+/* Korean editorial identity: hanji-inspired ground and restrained changho lines. */
+:root,:root[data-theme="light"]{--bg:#f8f5ed;--surface-2:#f0eee4;--korea-grid:rgba(109,88,52,.045)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111e2b;--surface-2:#1c3040;--korea-grid:rgba(193,211,221,.035)}}
+:root[data-theme="dark"]{--bg:#111e2b;--surface-2:#1c3040;--korea-grid:rgba(193,211,221,.035)}
+body{background-image:repeating-linear-gradient(0deg,transparent 0 5px,var(--korea-grid) 5px 6px)}
+.journey-hero{padding:28px 0 20px}.journey-hero-grid{position:relative;display:grid;grid-template-columns:1fr;min-height:620px;align-items:center;padding-block:64px;padding-bottom:100px;isolation:isolate}
+.journey-cover{position:absolute;inset:0 28px;z-index:-1;border-radius:24px;overflow:hidden;background:#132d36}
+.journey-cover>a{height:100%;border-radius:24px}.journey-cover img{height:100%;width:100%;object-fit:cover;object-position:center 46%}
+.journey-cover>a::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,26,32,.93),rgba(9,26,32,.66) 48%,rgba(9,26,32,.12));pointer-events:none}
+.journey-cover>a>span{z-index:1;left:auto;right:22px;bottom:44px;background:#102d32e8;border:1px solid #aec8bc;font-size:13px}
+.journey-cover figcaption{position:absolute;bottom:14px;right:20px;left:20px;text-align:right;z-index:2;color:#fff;margin:0;font-size:10px;text-shadow:0 1px 3px #000}
+.journey-intro{padding-inline:42px;max-width:690px;color:#fff;pointer-events:none}.journey-intro a{pointer-events:auto}.journey-intro h1{font-size:clamp(38px,4.5vw,64px);max-width:12ch;margin:18px 0}
+.journey-intro p,.journey-intro small,.journey-kicker span{color:#edf2ed}.journey-intro p{max-width:42ch}.journey-kicker{color:#b6e9d6}.journey-hero-actions>a:not(.btn){color:#fff}.journey-hero-actions .btn{background:#d8eee4;color:#123d31;border:1px solid #fff}
+.korea-wordmark{font-family:var(--serif);font-size:34px;letter-spacing:.18em;display:block;margin-bottom:16px;color:#fff}.korea-wordmark::after{content:"";display:inline-block;width:9px;height:28px;margin-left:14px;background:#b85345;border-radius:2px;vertical-align:middle}
+.journey-start::before,.journey-discover::before{content:"";display:block;height:10px;margin-bottom:32px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:repeating-linear-gradient(90deg,transparent 0 17px,var(--border) 17px 18px,transparent 18px 23px,var(--border) 23px 24px);opacity:.5}
+.journey-photo-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.korea-place-mark{display:block;font-family:var(--serif);font-size:24px;letter-spacing:.12em;color:var(--primary);margin-bottom:10px}.journey-place>a{border:1px solid var(--border);background:var(--surface);border-radius:16px;overflow:hidden;display:block}.journey-place>a>div{padding:18px}
+.korea-welcome{position:fixed;right:22px;bottom:94px;z-index:69;display:flex;align-items:center;gap:14px;width:min(360px,calc(100vw - 32px));padding:20px 38px 20px 16px;background:var(--surface);color:var(--text);border:1px solid var(--border-strong);border-radius:20px;box-shadow:var(--shadow-lg)}
+.korea-welcome>img{width:96px;height:112px;object-fit:cover;border-radius:48px 48px 12px 12px;border:1px solid var(--border);flex-shrink:0}
+.korea-welcome-close{position:absolute;right:0;top:0;width:44px;height:44px;border:0;background:none;color:var(--text);cursor:pointer}
+.korea-welcome-message{border:0;background:none;color:inherit;text-align:start;cursor:pointer;padding:8px 0;min-width:0}.korea-welcome-message small{display:block;color:var(--muted);font-size:11px;margin-bottom:8px}.korea-welcome-message strong{display:block;font-size:18px;line-height:1.5;overflow-wrap:anywhere}.korea-welcome-message span{display:block;color:var(--primary);font-size:12px;margin-top:10px}
+.korea-guide-fab{width:62px;height:62px;border:2px solid var(--border-strong);overflow:hidden;background:var(--surface);color:var(--text)}.korea-guide-fab img{width:100%;height:100%;object-fit:cover;display:block}.korea-chat-avatar{border-radius:50%;vertical-align:middle;object-fit:cover;margin-right:8px}.korea-chat-label{display:block;font-size:11px;font-weight:400;margin-top:5px}.cw-head b{min-width:0}.cw-x{min-width:44px;min-height:44px}
+body:has(.consent) .korea-welcome{display:none}
+@media(max-width:1100px){.journey-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.journey-intro{max-width:620px;padding-inline:30px}.journey-hero-grid{min-height:590px}}
+@media(max-width:599px){.journey-hero{padding-top:16px}.journey-cover{inset:0 16px}.journey-hero-grid{min-height:610px;padding-block:40px 120px}.journey-intro{padding-inline:14px}.journey-intro h1{font-size:40px}.journey-cover>a::after{background:linear-gradient(90deg,rgba(9,26,32,.90),rgba(9,26,32,.55))}.journey-cover>a>span{right:14px;bottom:60px}.journey-cover figcaption{text-align:left;line-height:1.4;font-size:9px}.journey-photo-grid{grid-template-columns:1fr 1fr;gap:12px}.journey-place>a>div{padding:12px}.journey-place h3{font-size:16px}.journey-place p{font-size:12px}.korea-welcome{right:12px;bottom:88px}.korea-guide-fab{width:56px;height:56px}.cw-panel{bottom:80px;max-height:calc(100dvh - 96px)}}
+@media print{.korea-welcome{display:none!important}}
+.journey-home .journey-intro h1{overflow-wrap:normal;word-break:keep-all;max-width:14ch}
