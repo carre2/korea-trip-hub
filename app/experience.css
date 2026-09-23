@@ -274,3 +274,23 @@ nav.links a{font-weight:700;color:var(--text)}
  .korea-guide-fab:not([aria-expanded="true"]),.korea-guide-fab.is-welcoming{width:min(260px,42.25dvh);height:min(400px,65dvh)}
  .korea-welcome{bottom:80px;right:calc(min(260px,42.25dvh) + 24px);width:min(300px,calc(100vw - min(260px,42.25dvh) - 40px))}
 }
+
+/* Let enlarged multilingual labels occupy their own space instead of covering titles. */
+.fe-grid{grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr))}
+.fe-card{min-width:0;gap:12px}
+.fe-top{flex-direction:column;align-items:flex-start;gap:10px}
+.fe-brand{max-width:100%;line-height:1.5;overflow-wrap:anywhere}
+.fe-lang{max-width:100%;white-space:normal;line-height:1.5;overflow-wrap:anywhere}
+.fe-note{overflow-wrap:anywhere;line-height:1.65}.fe-open{margin-top:auto;padding-top:8px}
+/* Shared wrapping for compact labels and controls after the type enlargement. */
+.sec-head,.stay-area-h,.rev-top,.rev-foot,.concert,.subtabs{flex-wrap:wrap}
+.sec-head>*{min-width:0}.sec-head a{max-width:100%}
+.stay-best,.pill.verified,.concert .lk{white-space:normal;overflow-wrap:anywhere;max-width:100%}
+.kw,.rev-top .who .sub{flex-wrap:wrap}
+.grid>*,.fe-head>div,.kpop-card-body,.bookcta-txt{min-width:0}
+.card .cbody h3,.ns-t,.ns-s,.topic-spot{overflow-wrap:anywhere}
+@media(max-width:599px){.ns-grid{grid-template-columns:1fr}.subtabs{border-radius:16px;width:100%}.subtabs button{flex:1 1 140px}.journey-help .btn{max-width:100%}}
+/* Map provider tabs also need room for enlarged labels on narrow screens. */
+.mapsearch{flex-wrap:wrap}.mapsearch .inp{min-width:0;max-width:100%;flex-basis:180px}.mapsearch input{min-width:0}
+.maptoggle{display:flex;flex-wrap:wrap;max-width:100%;gap:4px}.maptoggle button{white-space:normal}
+@media(max-width:599px){.mapsearch .maptoggle{flex-basis:100%}.mapsearch .inp{flex-basis:100%!important}.mapsearch>.btn{width:100%}}
