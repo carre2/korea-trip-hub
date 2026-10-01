@@ -40,6 +40,16 @@ export default function VisaCountryGuide({ guide, m }) {
         </div>
       )}
 
+      {/* Keep official checks close to the answer, before the long checklist. */}
+      {g.official?.length > 0 && (
+        <nav className="vcg-source-shortcuts" aria-label={ui.official || "Official sources"}>
+          <b>{ui.official || "Official sources"}</b>
+          {g.official.map((o) => (
+            <a key={o.url} href={o.url} target="_blank" rel="noopener noreferrer">{o.name} ↗</a>
+          ))}
+        </nav>
+      )}
+
       {/* Highlight callouts (Jeju visa-free, group waivers, multi-year visas...) */}
       {g.highlights && g.highlights.length > 0 && (
         <div className="vcg-highlights">
@@ -62,7 +72,7 @@ export default function VisaCountryGuide({ guide, m }) {
           {f.value && (
             <ul className="factvals">
               {Object.entries(f.value).map(([k, v]) => (
-                <li key={k}><span>{fLabels[k] || k.replace(/_/g, " ")}</span><b>{String(v)}</b></li>
+                <li key={k}><span>{g.factLabels?.[k] || fLabels[k] || k.replace(/_/g, " ")}</span><b>{g.factValueLabels?.[String(v)] || String(v)}</b></li>
               ))}
             </ul>
           )}
@@ -83,7 +93,7 @@ export default function VisaCountryGuide({ guide, m }) {
             {g.jurisdiction.zones.map((z) => (
               <a key={z.name} className="vcg-zone" href={z.url} target="_blank" rel="noopener noreferrer">
                 <h3>{z.name}</h3>
-                <p className="vcg-zone-covers"><b>Covers:</b> {z.covers}</p>
+                <p className="vcg-zone-covers">{ui.covers && <b>{ui.covers}: </b>}{z.covers}</p>
                 <p className="vcg-zone-centers">🏢 {z.centers}</p>
                 <span className="vcg-zone-site">{z.site} ↗</span>
               </a>

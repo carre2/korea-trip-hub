@@ -112,12 +112,21 @@ const titlesByLocale = new Map(); // locale -> Map(title -> [rel])
 const refTitles = new Map(); // path -> en title
 const parsed = new Map();
 
-for (const p of pages) {
-  const h = parseHead(fs.readFileSync(p.file, "utf8"));
-  parsed.set(p.rel, h);
-  if (p.locale === REF) refTitles.set(p.path, h.title);
+// Bound concurrent reads for large multilingual exports and slower disks.
+// Keep insertion/report order stable and avoid retaining every raw HTML file.
+for (let start = 0; start < pages.length; start += 32) {
+  const batch = pages.slice(start, start + 32);
+  const heads = await Promise.all(batch.map(async (p) => parseHead(await fs.promises.readFile(p.file, "utf8"))));
+  batch.forEach((p, i) => {
+    const h = heads[i];
+    parsed.set(p.rel, h);
+    if (p.locale === REF) refTitles.set(p.path, h.title);
+  });
+  if ((start + batch.length) % 512 === 0 || start + batch.length === pages.length)
+    console.log(`  Parsed ${start + batch.length}/${pages.length} pages`);
 }
 
+const imageExists = new Map();
 for (const p of pages) {
   const h = parsed.get(p.rel);
   const id = `/${p.rel}/`;
@@ -170,7 +179,11 @@ for (const p of pages) {
   for (const [label, src] of [["og:image", h.ogImage], ["twitter:image", h.twImage]]) {
     if (!src) continue;
     const local = src.startsWith(SITE) ? src.slice(SITE.length) : src.startsWith("/") ? src : null;
-    if (local && !fs.existsSync(path.join(OUT, local.split("?")[0]))) E(id, `${label} not in build: ${src}`);
+    if (local) {
+      const imagePath = path.join(OUT, local.split("?")[0]);
+      if (!imageExists.has(imagePath)) imageExists.set(imagePath, fs.existsSync(imagePath));
+      if (!imageExists.get(imagePath)) E(id, `${label} not in build: ${src}`);
+    }
   }
   if (!h.ogImage) E(id, "no og:image (link shares would render without a picture)");
 

@@ -1414,8 +1414,8 @@
     "kicker": "簽證指南 · 菲律賓 → 韓國",
     "readingTime": "閱讀約 8 分鐘",
     "h1": "菲律賓人去韓國要簽證嗎？需要但免費",
-    "metaTitle": "菲律賓護照去韓國要簽證嗎？需要但免費（2026）— Korea Trip Hub",
-    "metaDesc": "需要 — 菲律賓護照持有人前往韓國需要簽證（C-3 觀光），但簽證費用是免費的。該去哪裡申請、需要哪些文件與各自的取得方式，以及辦理時間 — 逐步說明。",
+    "metaTitle": "菲律賓護照申請韓國簽證：文件與流程（2026）— Korea Trip Hub",
+    "metaDesc": "菲律賓護照赴韓 C-3 觀光簽證指南：申請文件、送件流程、簽證費與辦理時間的查詢方式，以及韓國駐菲律賓大使館官方連結。申請前請核對最新要求。",
     "ui": {
       "visa": "簽證類型",
       "stay": "停留時間",
@@ -1428,7 +1428,8 @@
       "confirm": "費用/規定可能變動 — 請於官方來源確認",
       "source": "來源",
       "updated": "更新",
-      "tldr": "摘要"
+      "tldr": "摘要",
+      "covers": "管轄地區"
     },
     "verdict": {
       "headline": "是的 — 菲律賓護照持有人需要簽證，但它是免費的。",
@@ -1643,7 +1644,68 @@
           "a": "入境文件規定（如 e-Arrival Card）在抵達時可能仍然適用。請在接近出行日期時查看最新規定。"
         }
       ]
-    }
+    },
+    "country": "菲律賓",
+    "hero": {
+      "alt": "仁川國際機場入境大廳"
+    },
+    "factLabels": {
+      "apply_at": "申請地點",
+      "scope": "適用範圍"
+    },
+    "factValueLabels": {
+      "C-3 tourist": "C-3 觀光簽證",
+      "free (no fee)": "免簽證費",
+      "≈ 3–5 business days": "約 3–5 個工作天",
+      "no longer required (from 2026-02-20)": "自 2026-02-20 起不再要求",
+      "Korean embassy / accredited agencies": "韓國大使館／指定代辦機構"
+    },
+    "resources": {
+      "title": "官方資訊與參考指南",
+      "intro": "請優先查閱官方最新公告；第三方指南僅供參考。",
+      "items": [
+        {
+          "label": "韓國簽證入口網 — 填寫申請表",
+          "src": "visa.go.kr (official)",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "label": "韓國駐菲律賓大使館",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/index.do"
+        },
+        {
+          "label": "菲律賓旅客韓國簽證申請條件（2026）",
+          "src": "Oona Insurance",
+          "url": "https://myoona.ph/blog/travel/south-korea-visa-requirements/"
+        },
+        {
+          "label": "菲律賓旅客觀光簽證申請指南",
+          "src": "Traveloka",
+          "url": "https://www.traveloka.com/en-ph/explore/tips/complete-guideline-of-south-korea-visa-requirements-for-filipinos-trp/334185"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "📄",
+        "name": "韓國簽證入口網",
+        "url": "https://www.visa.go.kr",
+        "what": "填寫申請表（唯一官方簽證入口網）"
+      },
+      {
+        "icon": "🏛️",
+        "name": "韓國駐菲律賓大使館",
+        "url": "https://overseas.mofa.go.kr/ph-en/index.do",
+        "what": "官方申請條件與送件資訊"
+      },
+      {
+        "icon": "🧾",
+        "name": "菲律賓國稅局（BIR）",
+        "url": "https://www.bir.gov.ph",
+        "what": "取得所得稅申報資料（ITR）／Form 2316"
+      }
+    ]
   },
   "vi": {
     "kicker": "Hướng dẫn visa · Philippines → Hàn Quốc",

@@ -52,7 +52,7 @@ export default function VisaCountryPage({ params }) {
           faqLd(g.faq?.items, locale),
         ]}
       />
-      <a className="crumb" href={`/${locale}/plan/visa/`}>← {m.nav?.plan || "Plan Trip"} · Visa</a>
+      <a className="crumb" href={`/${locale}/plan/visa/`}>← {m.plan?.tiles?.visa?.title || "Visa & K-ETA"}</a>
 
       <div className="art-head">
         <span className="aic vcg-flagbox">{g.flag}</span>
@@ -64,9 +64,16 @@ export default function VisaCountryPage({ params }) {
         {g.updated && <span className="art-read">· {ui.updated || "Updated"} {g.updated}</span>}
       </div>
 
+      {g.tldr && (
+        <div className="art-tldr">
+          <span className="art-tldr-lbl">{ui.tldr || "TL;DR"}</span>
+          <ul>{g.tldr.map((t, i) => <li key={i}>{t}</li>)}</ul>
+        </div>
+      )}
+
       {g.hero?.img && (
         <figure className="art-hero">
-          <img src={g.hero.img} alt={g.hero.alt} loading="eager" />
+          <img src={g.hero.img} alt={g.hero.alt} width="1280" height="960" loading="lazy" />
           {g.hero.credit && (
             <figcaption>
               <a href={g.hero.creditUrl} target="_blank" rel="noopener noreferrer">{g.hero.credit}</a>
@@ -75,14 +82,7 @@ export default function VisaCountryPage({ params }) {
         </figure>
       )}
 
-      {g.tldr && (
-        <div className="art-tldr">
-          <span className="art-tldr-lbl">{ui.tldr || "TL;DR"}</span>
-          <ul>{g.tldr.map((t, i) => <li key={i}>{t}</li>)}</ul>
-        </div>
-      )}
-
-      <EntryGuidance locale={locale} compact /><ArrivalSteps locale={locale} m={{experience:m.experience,plan:m.plan}} placement="visa-country" />
+      <EntryGuidance locale={locale} compact />
       <VisaCountryGuide guide={g} m={m} />
 
       {g.verdict?.need && <VisaPhotoSpec m={m} />}
@@ -95,9 +95,10 @@ export default function VisaCountryPage({ params }) {
         />
       )}
 
+      <ArrivalSteps locale={locale} m={{experience:m.experience,plan:m.plan}} placement="visa-country" />
       <NextSteps locale={locale} m={m} />
 
-      <ArticleTrust locale={locale} />
+      <ArticleTrust locale={locale} reviewed={g.updated || null} showVerifiedNote={false} />
       <p className="art-disclaimer">{m.footer?.disclaimer}</p>
     </article>
   );

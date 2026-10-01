@@ -31,6 +31,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DATA = path.join(ROOT, "data");
 const readJson = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
+const factsById = Object.fromEntries(readJson(path.join(DATA, "facts.json")).facts.map((f) => [f.id, f]));
 
 const LOCALES = (() => {
   const src = fs.readFileSync(path.join(ROOT, "lib", "i18n.js"), "utf8");
@@ -129,7 +130,7 @@ function compare(base, ov, at, ctx) {
     const variants = new Set([tok, tok.replace(/[.,]/g, ""), tok.replace(/,/g, "."), tok.replace(/\./g, ",")]);
     if ([...variants].some((v) => have.includes(v.toLowerCase()))) continue;
     const msg = `${ctx}: ${at} — dropped "${tok}" (base: "${String(base).slice(0, 60)}…")`;
-    if (soft) warnings.push(msg); // ordinal/rank reworded — a style choice, not a fact change
+    if (soft && !at.startsWith("factValueLabels.")) warnings.push(msg); // display facts preserve even small limits/fees
     else errors.push(msg);
   }
 }
@@ -171,6 +172,17 @@ if (fs.existsSync(VISA)) {
       if (!wanted(loc)) continue;
       const c = { toString: () => `visa/${country} · ${loc}`, locale: loc };
       compare(base, ov[loc], "", c);
+      // Display translations must stay attached to an exact SSOT value and
+      // preserve its numeric/date tokens. A fact change requires a new label.
+      const valueLabels = ov[loc].factValueLabels;
+      if (valueLabels) {
+        const values = Object.values(factsById[base.factId]?.value || {}).map(String);
+        for (const [source, translated] of Object.entries(valueLabels)) {
+          if (!values.includes(source)) errors.push(`${c}: factValueLabels has stale or unknown value "${source}"`);
+          if (typeof translated !== "string" || !translated.trim()) errors.push(`${c}: factValueLabels has an empty translation`);
+          else compare(source, translated, "factValueLabels.value", c);
+        }
+      }
     }
     rows.push({ file: `data/visa/${f}`, have });
   }

@@ -1540,8 +1540,8 @@
     "kicker": "簽證指南 · 中國 → 韓國",
     "readingTime": "閱讀約 8 分鐘",
     "h1": "中國人去韓國要簽證嗎？需要・濟州免簽",
-    "metaTitle": "中國護照去韓國要簽證嗎？需要・濟州免簽（2026）— Korea Trip Hub",
-    "metaDesc": "需要 — 中國護照持有人前往韓國需要簽證（C-3 觀光），不過濟州島允許免簽入境最多 30 天。該去哪裡申請、需要哪些文件與各自的取得方式、費用及辦理時間。",
+    "metaTitle": "中國護照去韓國要簽證嗎？申請流程與濟州規定（2026）— Korea Trip Hub",
+    "metaDesc": "中國護照赴韓 C-3 觀光簽證指南：申請文件、領區與送件流程，以及濟州最長 30 天免簽的適用條件。附官方查詢連結，出發前請確認最新規定。",
     "ui": {
       "visa": "簽證類型",
       "stay": "停留期",
@@ -1554,7 +1554,8 @@
       "confirm": "費用/規定可能變動 — 請以官方為準",
       "source": "來源",
       "updated": "更新",
-      "tldr": "要點速覽"
+      "tldr": "要點速覽",
+      "covers": "管轄地區"
     },
     "verdict": {
       "headline": "是的 — 中國公民前往韓國本土需要簽證。",
@@ -1790,7 +1791,67 @@
           "a": "資金證明不足或不清楚、出行目的不夠可信、文件不齊全，或在錯誤的轄區申請。請依文件清單準備，並至對應戶籍地址的申請中心辦理。"
         }
       ]
-    }
+    },
+    "country": "中國",
+    "hero": {
+      "alt": "仁川國際機場入境大廳"
+    },
+    "factLabels": {
+      "apply_at": "申請地點",
+      "scope": "適用範圍"
+    },
+    "factValueLabels": {
+      "C-3 tourist": "C-3 觀光簽證",
+      "90 days": "90 天",
+      "up to 30 days (Jeju only)": "最長 30 天（僅限濟州）",
+      "Korean embassy/consulate or KVAC (VFS)": "韓國使領館或韓國簽證申請中心（KVAC／VFS）"
+    },
+    "resources": {
+      "title": "官方資訊與參考指南",
+      "intro": "請優先查閱官方最新公告；第三方指南僅供參考。",
+      "items": [
+        {
+          "label": "韓國簽證入口網 — 填寫申請表",
+          "src": "visa.go.kr (official)",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "label": "韓國簽證申請中心（VFS，中國）",
+          "src": "vfsglobal.com",
+          "url": "https://www.vfsglobal.com/"
+        },
+        {
+          "label": "中國公民赴韓需要簽證嗎？（2026）",
+          "src": "MileAsia",
+          "url": "https://mileasia.com/korea/chinese-visa-korea/"
+        },
+        {
+          "label": "團體免簽公告（2025–2026）",
+          "src": "MOFA (embassy notice)",
+          "url": "https://www.mofa.go.kr/sg-en/brd/m_2435/view.do?seq=761557"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "📄",
+        "name": "韓國簽證入口網",
+        "url": "https://www.visa.go.kr",
+        "what": "填寫申請表（唯一官方簽證入口網）"
+      },
+      {
+        "icon": "🏢",
+        "name": "中國韓國簽證申請中心（VFS Global）",
+        "url": "https://www.vfsglobal.com/",
+        "what": "向所屬領區的申請中心送件"
+      },
+      {
+        "icon": "🏝️",
+        "name": "濟州免簽資訊",
+        "url": "https://english.visitkorea.or.kr",
+        "what": "僅限濟州的 30 天免簽詳細規定"
+      }
+    ]
   },
   "vi": {
     "kicker": "Hướng dẫn visa · Trung Quốc → Hàn Quốc",

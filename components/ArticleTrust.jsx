@@ -5,7 +5,7 @@
 import { getMessages } from "../lib/i18n";
 import { REVIEWED } from "../lib/seo";
 
-export default function ArticleTrust({ locale, related = [], reviewed = REVIEWED.iso }) {
+export default function ArticleTrust({ locale, related = [], reviewed = REVIEWED.iso, showVerifiedNote = true }) {
   const m = getMessages(locale);
   const t = m.articleTrust || {};
   const nav = (m.footer && m.footer.legalNav) || {};
@@ -14,10 +14,10 @@ export default function ArticleTrust({ locale, related = [], reviewed = REVIEWED
       <div className="artrust-head">
         <span className="artrust-by">🖊 {t.by || "By"} <b>Korea Trip Hub</b></span>
         <a className="artrust-link" href={`/${locale}/legal/editorial/`}>{nav.editorial || "Editorial policy"}</a>
-        <span className="artrust-rev">🔄 {t.reviewed || "Reviewed"}: {new Intl.DateTimeFormat(locale, {year:"numeric",month:"long"}).format(new Date(reviewed))}</span>
+        {reviewed && <span className="artrust-rev">🔄 {t.reviewed || "Reviewed"}: <time dateTime={reviewed}>{new Intl.DateTimeFormat(locale, {year:"numeric",month:"long",day:"numeric",timeZone:"UTC"}).format(new Date(reviewed))}</time></span>}
       </div>
       <p className="artrust-note">
-        {t.verifiedNote || "Key facts are checked against official government and operator sources."}{" "}
+        {showVerifiedNote && <>{t.verifiedNote || "Key facts are checked against official government and operator sources."}{" "}</>}
         {t.confirmNote || "Rules and prices can change — confirm with the official source before you travel or book."}
       </p>
       <div className="artrust-actions">

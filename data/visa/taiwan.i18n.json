@@ -661,8 +661,8 @@
     "kicker": "入境指南 · 台灣 → 韓國",
     "readingTime": "閱讀時間 5 分鐘",
     "h1": "台灣人去韓國要簽證嗎？免簽",
-    "metaTitle": "台灣護照去韓國要簽證嗎？免簽（2026）— Korea Trip Hub",
-    "metaDesc": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。",
+    "metaTitle": "台灣護照赴韓：簽證、K-ETA 與入境申報（2026）— Korea Trip Hub",
+    "metaDesc": "台灣護照赴韓行前指南：查詢簽證、K-ETA 與 e-Arrival Card 適用條件，準備入境文件，並透過韓國官方連結確認豁免與最新規定。",
     "verdict": {
       "headline": "免辦觀光簽證 — 台灣護照可免簽。",
       "sub": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。",
@@ -847,7 +847,8 @@
       "confirm": "費用/規定可能變動 — 請以官方來源為準",
       "source": "來源",
       "updated": "更新",
-      "tldr": "重點摘要"
+      "tldr": "重點摘要",
+      "covers": "管轄地區"
     },
     "official": [
       {
@@ -860,21 +861,58 @@
         "icon": "✅",
         "name": "K-ETA",
         "url": "https://www.k-eta.go.kr",
-        "what": "Check status (currently waived)"
+        "what": "確認目前的 K-ETA 豁免狀態"
       },
       {
         "icon": "🏛️",
         "name": "HiKorea",
         "url": "https://www.hikorea.go.kr",
-        "what": "Immigration & extensions (MOJ)"
+        "what": "入境與延長停留資訊（韓國法務部）"
       },
       {
         "icon": "🌏",
         "name": "VisitKorea",
         "url": "https://english.visitkorea.or.kr",
-        "what": "Official notices for your country"
+        "what": "查閱適用於您護照國籍的官方公告"
       }
-    ]
+    ],
+    "country": "台灣",
+    "hero": {
+      "alt": "仁川國際機場入境大廳"
+    },
+    "factLabels": {
+      "apply_at": "申請地點",
+      "scope": "適用範圍"
+    },
+    "factValueLabels": {
+      "designated countries and regions only": "僅限指定國家與地區"
+    },
+    "resources": {
+      "title": "官方查詢管道",
+      "intro": "出發前請確認適用於您的最新入境規定。",
+      "items": [
+        {
+          "label": "e-Arrival Card — 免費填寫",
+          "src": "e-arrivalcard.go.kr",
+          "url": "https://www.e-arrivalcard.go.kr"
+        },
+        {
+          "label": "K-ETA — 查詢目前豁免狀態",
+          "src": "k-eta.go.kr",
+          "url": "https://www.k-eta.go.kr"
+        },
+        {
+          "label": "入境與延長停留資訊",
+          "src": "HiKorea",
+          "url": "https://www.hikorea.go.kr"
+        },
+        {
+          "label": "官方旅遊資訊",
+          "src": "VisitKorea",
+          "url": "https://english.visitkorea.or.kr"
+        }
+      ]
+    }
   },
   "es": {
     "kicker": "Guía de entrada · Taiwán → Corea",
