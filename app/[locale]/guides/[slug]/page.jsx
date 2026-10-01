@@ -148,7 +148,7 @@ export default function TopicGuide({ params }) {
         </div>
       )}
 
-      {slug.startsWith("korea-from-") && <BudgetCalculator locale={locale} />}
+      {slug.startsWith("korea-from-") && <BudgetCalculator key={slug} locale={locale} country={slug.slice('korea-from-'.length)} />}
       <ArticleTrust reviewed={g.reviewed || REVIEWED.iso} locale={locale} />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>

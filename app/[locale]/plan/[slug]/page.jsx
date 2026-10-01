@@ -15,6 +15,7 @@ import MoneyGuide from "../../../../components/MoneyGuide";
 import WeatherGuide from "../../../../components/WeatherGuide";
 import HelpGuide from "../../../../components/HelpGuide";
 import BudgetCalculator from "../../../../components/BudgetCalculator";
+import searchCopy from '../../../../data/search-copy.json';
 import ArticleTrust from "../../../../components/ArticleTrust";
 import guideVisa from "../../../../data/guides/visa.json";
 import guideVisaI18n from "../../../../data/guides/visa.i18n.json";
@@ -83,6 +84,11 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const locale = params?.locale || defaultLocale;
   const m = getMessages(locale);
+  const copy = searchCopy[locale] || searchCopy.en;
+  if (params.slug === 'sim' || params.slug === 'visa') {
+    const key = params.slug === 'sim' ? 'sim' : 'visaHub';
+    return pageMeta({locale, path:`plan/${params.slug}`, title:copy[`${key}Title`], description:copy[`${key}Description`], type:'article'});
+  }
   // Tile titles are translated in messages/*.json; rich guides (e.g. help) fall back to their h1.
   const gm = mergeGuide(guides[params.slug], guideI18n[params.slug]?.[locale]);
   const title = m.plan.tiles[params.slug]?.title || gm?.h1 || params.slug;

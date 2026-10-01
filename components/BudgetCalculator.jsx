@@ -1,14 +1,13 @@
 "use client";
 import { useId, useState } from 'react';
 import labels from '../data/budget-ui.json';
-import { CURRENCIES, calculateBudget } from '../lib/budget.mjs';
+import { CURRENCIES, calculateBudget, budgetCurrency } from '../lib/budget.mjs';
 import { track } from '../lib/analytics';
 const fields = ['flights','stay','transport','food','activities'];
-const defaults = {id:'IDR',vi:'VND',th:'THB',ms:'MYR',ja:'JPY','zh-TW':'TWD',ko:'KRW',fr:'EUR',es:'EUR'};
-export default function BudgetCalculator({locale}) {
+export default function BudgetCalculator({locale, country}) {
   const t = labels[locale] || labels.en, id = useId();
   const [values, setValues] = useState(fields.map(() => ''));
-  const [currency, setCurrency] = useState(defaults[locale] || 'USD');
+  const [currency, setCurrency] = useState(budgetCurrency(locale, country));
   const [rate, setRate] = useState('');
   const [result, setResult] = useState(null);
   const [error, setError] = useState(false);

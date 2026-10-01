@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation';
 import labels from '../data/share-ui.json';
 import { pageShareUrl, emailShareUrl } from '../lib/share.mjs';
 import { track } from '../lib/analytics';
+import { PLACES_KEY } from '../lib/places-state.mjs';
 
 export default function ShareTools({ locale, title, getUrl, routeId, selection = false }) {
   const t = labels[locale] || labels.en;
@@ -16,6 +17,15 @@ export default function ShareTools({ locale, title, getUrl, routeId, selection =
   useEffect(() => { setReady(true); setNative(typeof navigator.share === 'function'); setStatus(''); setLink(''); }, [path]);
   // Discard a previously displayed link after the parent's selection changes.
   useEffect(() => { setLink(''); setStatus(''); }, [getUrl]);
+  useEffect(() => {
+    if (!selection) return;
+    function changed(event) {
+      if (event.type === 'storage' && event.key !== null && event.key !== PLACES_KEY) return;
+      setLink(''); setStatus('');
+    }
+    window.addEventListener('places-change', changed); window.addEventListener('storage', changed);
+    return () => { window.removeEventListener('places-change', changed); window.removeEventListener('storage', changed); };
+  }, [selection]);
   function data() {
     return { title: title || document.querySelector('main h1')?.textContent || document.title,
       url: getUrl ? getUrl() : pageShareUrl(window.location.href) };

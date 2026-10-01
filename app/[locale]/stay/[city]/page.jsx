@@ -6,6 +6,7 @@ import Stay22Map from "../../../../components/Stay22Map";
 import ArticleTrust from "../../../../components/ArticleTrust";
 import { stayFor, fill } from "../../../../lib/content";
 import stayData from "../../../../data/stay.json";
+import searchCopy from '../../../../data/search-copy.json';
 
 const CITY_KEYS = Object.keys(stayData.cities);
 
@@ -22,7 +23,7 @@ export function generateMetadata({ params }) {
     locale,
     path,
     title: c.metaTitle || `Where to Stay in ${c.name} — ${SITE_NAME}`,
-    description: c.intro,
+    description: (searchCopy[locale] || searchCopy.en).stayDescription.replace('{city}', c.name),
     type: "article",
   });
 }

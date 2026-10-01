@@ -10,6 +10,8 @@ import NextSteps from "../../../../components/NextSteps";
 import visaLocal from "../../../../data/visa-local.json";
 import ArticleTrust from "../../../../components/ArticleTrust";
 import { localized, visaCountryCodes } from "../../../../lib/visa";
+import searchCopy from '../../../../data/search-copy.json';
+import { visaSearchMetadata } from '../../../../lib/search-metadata.mjs';
 
 export function generateStaticParams() {
   return locales.flatMap((locale) => visaCountryCodes.map((country) => ({ locale, country })));
@@ -20,8 +22,7 @@ export function generateMetadata({ params }) {
   const g = localized(params.country, locale);
   const path = `visa/${params.country}`;
   if (!g) return pageMeta({ locale, path, title: "Visa guide — Korea Trip Hub" });
-  const title = g.metaTitle || `${g.country} → Korea Visa: Step-by-Step Guide (2026) — Korea Trip Hub`;
-  const description = g.metaDesc || `How to apply for a Korea tourist visa from ${g.country}: where to go, documents (and where to get each), fees, processing time and official links. ${g.verdict?.type || ""}`.trim();
+  const {title, description} = visaSearchMetadata(g, params.country, locale, searchCopy[locale] || searchCopy.en);
   return pageMeta({ locale, path, title, description, type: "article" });
 }
 
