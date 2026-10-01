@@ -14,6 +14,7 @@ import SimGuide from "../../../../components/SimGuide";
 import MoneyGuide from "../../../../components/MoneyGuide";
 import WeatherGuide from "../../../../components/WeatherGuide";
 import HelpGuide from "../../../../components/HelpGuide";
+import BudgetCalculator from "../../../../components/BudgetCalculator";
 import ArticleTrust from "../../../../components/ArticleTrust";
 import guideVisa from "../../../../data/guides/visa.json";
 import guideVisaI18n from "../../../../data/guides/visa.i18n.json";
@@ -342,6 +343,7 @@ export default function PlanArticle({ params }) {
         </a>
       )}
 
+      {slug === "money" && <BudgetCalculator locale={locale} />}
       <ArticleTrust locale={locale} reviewed={guide?.reviewed || REVIEWED.iso} />
       <p className="art-disclaimer">
         {m.footer.disclaimer}

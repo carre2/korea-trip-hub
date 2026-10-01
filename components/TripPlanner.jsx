@@ -1,16 +1,17 @@
 "use client";
 import { useEffect, useState } from 'react';
-import { TRIP_KEY, normalizeTrip, encodeTrip, decodeTrip } from '../lib/trip-state.mjs';
+import { TRIP_KEY, normalizeTrip, decodeTrip } from '../lib/trip-state.mjs';
 import {PLACES_KEY,normalizePlaces,decodePlaces} from '../lib/places-state.mjs';
 import placeLinks from '../data/itinerary-links.json';
 import { track } from '../lib/analytics';
+import ShareTools from './ShareTools';
+import { tripShareUrl } from '../lib/share.mjs';
 
 export default function TripPlanner({ locale, routes, order, ui, labels: t, checklist, catalog }) {
   const [selected, setSelected] = useState(order[0]);
   const [trip, setTrip] = useState(null);
   const [saved, setSaved] = useState(false);
   const [status, setStatus] = useState('');
-  const [copyFallback, setCopyFallback] = useState('');
   const [started, setStarted] = useState(false);
   const [ready, setReady] = useState(false);
   const current = trip && routes[trip.route];
@@ -37,23 +38,20 @@ export default function TripPlanner({ locale, routes, order, ui, labels: t, chec
     try { localStorage.setItem(TRIP_KEY, JSON.stringify(next)); clearSharedQuery(); setSaved(true); setStatus(t.saved); return true; }
     catch { setSaved(false); setStatus(t.storageError); return false; }
   }
-  function update(next) { setTrip(next); setCopyFallback(''); if (saved) persist(next); }
+  function update(next) { setTrip(next); if (saved) persist(next); }
   function preview() {
     clearSharedQuery();
-    setTrip({ v: 1, route: selected, excluded: [], checked: [] }); setSaved(false); setStatus(t.preview); setCopyFallback('');
+    setTrip({ v: 1, route: selected, excluded: [], checked: [] }); setSaved(false); setStatus(t.preview);
     track('itinerary_generate', { locale, route_id: selected });
   }
   function save() { if (persist(trip)) track('itinerary_save', { locale, route_id: trip.route }); }
   function remove() {
     try { localStorage.removeItem(TRIP_KEY); setSaved(false); setStatus(t.removed); } catch { setStatus(t.storageError); }
   }
-  async function copy() {
-    const url = new URL(`/${locale}/`, window.location.origin);
-    url.searchParams.set('trip', encodeTrip(trip));
-    try {const q=new URLSearchParams(location.search).get('places');const places=q!==null?decodePlaces(q,catalog):normalizePlaces(JSON.parse(localStorage.getItem(PLACES_KEY)||'[]'),catalog);if(places.length)url.searchParams.set('places',places.join(','));}catch{}
-    url.hash = 'planner';
-    try { await navigator.clipboard.writeText(url.href); setStatus(t.copyDone); setCopyFallback(url.href); track('itinerary_share', { locale, route_id: trip.route }); }
-    catch { setCopyFallback(url.href); setStatus(t.copyError); }
+  function shareUrl() {
+    let places = [];
+    try {const q=new URLSearchParams(location.search).get('places');places=q!==null?decodePlaces(q,catalog):normalizePlaces(JSON.parse(localStorage.getItem(PLACES_KEY)||'[]'),catalog);}catch{}
+    return tripShareUrl({ origin: window.location.origin, locale, trip, places });
   }
   function ordered(day) {const indexed=day.stops.map((stop,index)=>({stop,id:day.n+'-'+index}));return trip.order ? indexed.sort((a,b)=>{const ai=trip.order.indexOf(a.id),bi=trip.order.indexOf(b.id);return (ai<0?999:ai)-(bi<0?999:bi)}) : indexed;}
   function move(day,id,delta){const list=ordered(day).filter(x=>!trip.excluded.includes(x.id)).map(x=>x.id);const i=list.indexOf(id),j=i+delta;if(j<0||j>=list.length)return;[list[i],list[j]]=[list[j],list[i]];const rest=(trip.order||[]).filter(x=>!list.includes(x));update({...trip,order:[...rest,...list]});}
@@ -71,10 +69,10 @@ export default function TripPlanner({ locale, routes, order, ui, labels: t, chec
     {current && <>
       <div className="trip-heading"><h3>{current.title}</h3><a href={`/${locale}/itinerary/${trip.route}/`}>{t.details} →</a></div>
       <div className="trip-toolbar"><button type="button" className="btn" onClick={save}>{saved ? `✓ ${t.saved}` : t.save}</button>
-        <button type="button" className="btn ghost" onClick={copy}>{t.copy}</button><button type="button" className="btn ghost" onClick={() => window.print()}>{t.print}</button>
+        <button type="button" className="btn ghost" onClick={() => window.print()}>{t.print}</button>
         {saved && <button type="button" className="trip-text-button" onClick={remove}>{t.removeSave}</button>}
       </div><p className="trip-storage-note">{t.storageNote}</p>
-      {copyFallback && <input className="trip-copy" aria-label={t.copy} value={copyFallback} readOnly onFocus={(e) => e.target.select()} />}
+      <ShareTools locale={locale} title={current.title} getUrl={shareUrl} routeId={trip.route} selection />
       <div className="trip-layout"><div className="trip-itinerary">
         <div className="trip-subhead"><span>{t.customize}</span><small>{t.placesHint}</small>{trip.excluded.length > 0 && <button type="button" className="trip-text-button" onClick={() => update({ ...trip, excluded: [] })}>{t.restoreStops}</button>}</div>
         {current.plan.map((day) => <section className="trip-day" key={day.n}><h4><span>{ui.dayLabel.replace('{n}', day.n)}</span> {day.area}</h4>

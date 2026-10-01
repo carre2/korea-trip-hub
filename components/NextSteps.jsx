@@ -4,16 +4,20 @@
 // already-translated plan.tiles.* strings; only the band heading + stay/itinerary
 // labels are new (messages.nextSteps). The K-pop card is the kpophub funnel entry
 // (our /kpop guide links out to kpophub.kr for live concerts).
-export default function NextSteps({ locale, m }) {
+import topics from '../data/topics.json';
+import budgetLabels from '../data/budget-ui.json';
+export default function NextSteps({ locale, m, country, countryTitle }) {
   const ns = m?.nextSteps || {};
   const tiles = m?.plan?.tiles || {};
   const L = (p) => `/${locale}/${p}/`;
+  const guide = country && topics.items[`korea-from-${country}`];
+  const budget = budgetLabels[locale] || budgetLabels.en;
 
   const items = [
     { icon: "✈️", title: tiles.airport?.title || "Airport → City", sub: tiles.airport?.sub || "From the airport", href: L("plan/airport") },
     { icon: "🚇", title: tiles.transit?.title || "Getting Around", sub: tiles.transit?.sub || "Subway, bus & rail", href: L("plan/transit") },
     { icon: "📱", title: tiles.sim?.title || "SIM / eSIM / Wi-Fi", sub: tiles.sim?.sub || "Stay connected", href: L("plan/sim") },
-    { icon: "💳", title: tiles.money?.title || "Money & Payment", sub: tiles.money?.sub || "Cash & cards", href: L("plan/money") },
+    { icon: "💳", title: tiles.money?.title || "Money & Payment", sub: tiles.money?.sub || "Cash & cards", href: L("plan/money") + "#budget" },
     { icon: "🏨", title: ns.stay || "Where to stay", sub: ns.staySub || "Best areas & neighborhoods", href: L("stay") },
     { icon: "🗺️", title: ns.itinerary || "Ready-made itineraries", sub: ns.itinerarySub || "3–7 day routes you can copy", href: L("itinerary") },
   ];
@@ -24,6 +28,11 @@ export default function NextSteps({ locale, m }) {
       <div className="ns-head">
         <h2>{ns.title || "Visa sorted? Now plan the rest of your trip"}</h2>
         <p>{ns.sub || "Arrival, getting around, where to stay, and what to do — the rest of your Korea trip, all here."}</p>
+      </div>
+      <div className="share-actions">
+        <a className="btn" href={`/${locale}/#planner`}>{budget.planner} →</a>
+        <a className="btn ghost" href={`${L('plan/money')}#budget`}>{budget.title} →</a>
+        {guide && <a className="btn ghost" href={L(`guides/korea-from-${country}`)}>{m.guides.title} · {countryTitle} →</a>}
       </div>
       <div className="ns-grid">
         {items.map((it) => (

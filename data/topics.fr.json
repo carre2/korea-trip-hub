@@ -1150,9 +1150,9 @@
           ]
         },
         {
-          "h2": "Budget et hébergement",
+          "h2": "Comparez votre budget en VND",
           "body": [
-            "Comparez les vols et hébergements pour vos dates réelles. Ajoutez bagages, transferts, transports locaux, repas, connexion et activités. Comparez le taux de change avec les frais et vérifiez le traitement des paiements à l’étranger par votre carte.",
+            "Conservez les devis en KRW pour l’hébergement, les transports et les activités. Convertissez le total du séjour en VND au taux vérifié auprès de votre banque ou prestataire de paiement, en tenant compte des frais. Comparez les options avec le calculateur ci-dessous.",
             "[Argent & paiement](/plan/money/) · [Où loger](/stay/)"
           ]
         },
@@ -1202,7 +1202,83 @@
           "url": "https://www.e-arrivalcard.go.kr"
         }
       ],
-      "reviewed": "2026-09-23"
+      "reviewed": "2026-10-01"
+    },
+    "korea-from-indonesia": {
+      "icon": "✈️",
+      "color": "#C0392B",
+      "h1": "Corée depuis l’Indonésie : budget et itinéraire",
+      "metaTitle": "Corée depuis l’Indonésie : budget et itinéraire",
+      "metaDesc": "Préparez votre voyage en Corée depuis l’Indonésie : formalités, budget en IDR, repas et itinéraire à enregistrer et partager.",
+      "kicker": "Préparer",
+      "answer": "Consultez le guide d’entrée correspondant à votre passeport, puis comparez le coût total en IDR. Choisissez des lieux proches de votre hébergement et envoyez le parcours à vos compagnons.",
+      "tldr": [
+        "Entrée et visas",
+        "Votre premier jour",
+        "Mon voyage"
+      ],
+      "sections": [
+        {
+          "h2": "Documents d’entrée",
+          "body": [
+            "Le pays de départ peut différer de la nationalité du passeport. Choisissez le guide selon le passeport utilisé, pas seulement l’origine du vol. Vérifiez les règles officielles selon le motif, l’âge, la date et les documents.",
+            "[Entrée et visas](/visa/indonesia/)"
+          ]
+        },
+        {
+          "h2": "Comparez votre budget en IDR",
+          "body": [
+            "Conservez les devis en KRW pour l’hébergement, les transports et les activités. Utilisez le taux de votre banque ou prestataire de paiement pour comparer le total en IDR, frais compris. Saisissez les devis de tout le séjour dans le calculateur ci-dessous.",
+            "[Argent & paiement](/plan/money/) · [Où loger](/stay/)"
+          ]
+        },
+        {
+          "h2": "Votre première journée",
+          "body": [
+            "Choisissez le transport selon l’heure d’arrivée, l’hébergement, les bagages et les besoins d’accessibilité. Prévoyez une solution si le service choisi est indisponible. Avant d’acheter une connexion, vérifiez le modèle du téléphone, le verrouillage opérateur, l’activation et les appels inclus.",
+            "[Aéroport → ville](/plan/airport/) · [SIM / eSIM / Wi-Fi](/plan/sim/) · [Se déplacer](/plan/transit/)"
+          ]
+        },
+        {
+          "h2": "Prévoyez les repas selon vos besoins",
+          "body": [
+            "Si vous avez besoin de repas halal, vérifiez directement auprès de chaque restaurant sa certification actuelle et ses ingrédients. Ne vous fiez pas au nom du plat. Enregistrez les options confirmées près de vos étapes.",
+            "[Gastronomie — goûtez, puis cuisinez](/food/) · [Destinations](/destinations/) · [Quand partir / météo](/plan/weather/)"
+          ]
+        },
+        {
+          "h2": "Créer l’itinéraire",
+          "body": [
+            "Ouvrez un parcours suggéré et adaptez les étapes à vos envies. Enregistrez-le dans ce navigateur, partagez le lien avec vos proches et imprimez un résumé. Le lien contient les choix, pas votre liste personnelle de préparatifs.",
+            "[Itinéraires clés en main](/itinerary/)"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Quel guide d’entrée choisir ?",
+          "a": "Utilisez celui du pays émetteur du passeport avec lequel vous voyagerez, puis vérifiez vos conditions auprès des autorités officielles."
+        },
+        {
+          "q": "Comment choisir un itinéraire ?",
+          "a": "Partez des villes souhaitées et du temps disponible. Gardez de la marge pour les trajets et le repos, puis vérifiez les services actuels avant de fixer le programme."
+        }
+      ],
+      "official": [
+        {
+          "name": "K-ETA (official)",
+          "url": "https://www.k-eta.go.kr"
+        },
+        {
+          "name": "Korea Visa Portal",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "name": "e-Arrival Card",
+          "url": "https://www.e-arrivalcard.go.kr"
+        }
+      ],
+      "reviewed": "2026-10-01"
     }
   }
 }

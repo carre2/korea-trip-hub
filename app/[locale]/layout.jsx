@@ -53,11 +53,7 @@ try{if(localStorage.getItem('kth_consent')==='granted')gtag('consent','update',{
 if(['ktriphub.com','www.ktriphub.com'].includes(location.hostname))gtag('config','${GA_ID}');`}
         </Script>
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
-        {/* AdSense loader — the code Google needs to find on visited pages to review/approve
-            the site (a paused loader was the likely cause of ktriphub sitting in "Getting
-            ready" past 4 weeks; re-enabled 2026-08-26). Loads AFTER the Consent Mode default
-            (ad_storage denied by default above), so it stays GDPR-compliant; no <ins> ad slots
-            are placed yet, so no ads render — only the code is present for review. */}
+        {/* Auto ads placements and formats are controlled in the AdSense account. */}
         <Script
           id="adsense"
           strategy="afterInteractive"

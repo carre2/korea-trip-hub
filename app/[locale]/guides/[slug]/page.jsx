@@ -4,6 +4,7 @@ import JsonLd from "../../../../components/JsonLd";
 import { linkify } from "../../../../lib/linkify";
 import BookCTA from "../../../../components/BookCTA";
 import { klookSearch } from "../../../../lib/booking";
+import BudgetCalculator from "../../../../components/BudgetCalculator";
 import ArticleTrust from "../../../../components/ArticleTrust";
 import topics from "../../../../data/topics.json";
 import topicsZh from "../../../../data/topics.zh.json";
@@ -147,6 +148,7 @@ export default function TopicGuide({ params }) {
         </div>
       )}
 
+      {slug.startsWith("korea-from-") && <BudgetCalculator locale={locale} />}
       <ArticleTrust reviewed={g.reviewed || REVIEWED.iso} locale={locale} />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>

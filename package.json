@@ -18,7 +18,7 @@
     "postbuild": "node scripts/verify-seo.mjs",
     "indexnow": "node scripts/indexnow.mjs",
     "verify:audit": "node scripts/verify-audit-coverage.mjs",
-    "test:audit": "node scripts/test-trip-state.mjs && node scripts/test-audit.mjs"
+    "test:audit": "node scripts/test-trip-state.mjs && node scripts/test-audit.mjs && node scripts/test-sharing-budget.mjs"
   },
   "dependencies": {
     "next": "^14.2.35",

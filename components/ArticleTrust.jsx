@@ -4,6 +4,7 @@
 // REVIEWED) and the translated legal-nav labels — no per-article dates are invented.
 import { getMessages } from "../lib/i18n";
 import { REVIEWED } from "../lib/seo";
+import ShareTools from './ShareTools';
 
 export default function ArticleTrust({ locale, related = [], reviewed = REVIEWED.iso, showVerifiedNote = true }) {
   const m = getMessages(locale);
@@ -11,6 +12,7 @@ export default function ArticleTrust({ locale, related = [], reviewed = REVIEWED
   const nav = (m.footer && m.footer.legalNav) || {};
   return (
     <aside className="artrust" aria-label={t.about || "About this page"}>
+      <ShareTools locale={locale} />
       <div className="artrust-head">
         <span className="artrust-by">🖊 {t.by || "By"} <b>Korea Trip Hub</b></span>
         <a className="artrust-link" href={`/${locale}/legal/editorial/`}>{nav.editorial || "Editorial policy"}</a>

@@ -15,7 +15,8 @@
     "korea-from-malaysia",
     "korea-from-taiwan",
     "korea-from-thailand",
-    "korea-from-vietnam"
+    "korea-from-vietnam",
+    "korea-from-indonesia"
   ],
   "items": {
     "korea-from-taiwan": {
@@ -192,9 +193,9 @@
           ]
         },
         {
-          "h2": "Budget and accommodation",
+          "h2": "Compare your budget in VND",
           "body": [
-            "Compare flight and accommodation quotes for your actual dates. Add luggage, airport transfers, local transport, food, connectivity and activities to the total. Compare the exchange rate and fees together, and check how your card handles overseas payments.",
+            "Keep the original KRW quotes for accommodation, transport and activities. Convert the whole-trip total into VND using a rate you have checked with your bank or payment provider, allowing for fees. Use the calculator below before comparing options.",
             "[Money & Payment](/plan/money/) · [Where to stay](/stay/)"
           ]
         },
@@ -244,7 +245,7 @@
           "url": "https://www.e-arrivalcard.go.kr"
         }
       ],
-      "reviewed": "2026-09-23"
+      "reviewed": "2026-10-01"
     },
     "korea-from-singapore": {
       "icon": "✈️",
@@ -1238,6 +1239,82 @@
           "url": "https://english.visitkorea.or.kr"
         }
       ]
+    },
+    "korea-from-indonesia": {
+      "icon": "✈️",
+      "color": "#C0392B",
+      "h1": "Korea trip from Indonesia: budget and itinerary",
+      "metaTitle": "Korea trip from Indonesia: budget and itinerary",
+      "metaDesc": "Prepare your Korea trip from Indonesia: check entry guidance, compare your budget in IDR, plan meals and save an itinerary to share.",
+      "kicker": "Plan Trip",
+      "answer": "Start with the entry guide for your passport, then compare the full trip cost in IDR. Choose places around your accommodation and send your route to your companions.",
+      "tldr": [
+        "Entry & visas",
+        "Your first day",
+        "My trip"
+      ],
+      "sections": [
+        {
+          "h2": "Entry documents",
+          "body": [
+            "Your departure country and passport nationality may differ. Use the guide for your passport, not simply where your flight starts. Check the official rules for your purpose, age, arrival date and documents.",
+            "[Entry & visas](/visa/indonesia/)"
+          ]
+        },
+        {
+          "h2": "Compare your budget in IDR",
+          "body": [
+            "Keep the original KRW quotes for accommodation, transport and activities. Use your own bank or payment-provider rate to compare the total in IDR, including payment fees. Enter the whole-trip quotes in the calculator below.",
+            "[Money & Payment](/plan/money/) · [Where to stay](/stay/)"
+          ]
+        },
+        {
+          "h2": "Your first day",
+          "body": [
+            "Choose airport transport using your arrival time, accommodation location, luggage and accessibility needs. Keep a fallback if your preferred service is unavailable. Before buying connectivity, check your exact phone model, carrier lock, plan activation conditions and whether calls are included.",
+            "[Airport → City](/plan/airport/) · [SIM / eSIM / Wi-Fi](/plan/sim/) · [Getting Around](/plan/transit/)"
+          ]
+        },
+        {
+          "h2": "Plan meals around your needs",
+          "body": [
+            "If you need halal food, check each restaurant’s current certification and ingredients directly. Do not infer suitability from a dish name. Save confirmed options near your chosen stops.",
+            "[Food — taste it, then make it](/food/) · [Destinations](/destinations/) · [Best Time / Weather](/plan/weather/)"
+          ]
+        },
+        {
+          "h2": "Ready to plan",
+          "body": [
+            "Open a suggested itinerary and adjust the stops to your interests. Save it in this browser, share the link with your companions and print a summary. Shared links contain selections, not your preparation checklist.",
+            "[Ready-made itineraries](/itinerary/)"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which entry guide should I use?",
+          "a": "Use the guide for the country that issued the passport you will travel on, then verify your conditions with the official authorities."
+        },
+        {
+          "q": "How should I choose an itinerary?",
+          "a": "Start with the cities you want to visit and the time you have. Leave space for transfers and rest, and check current services before committing to the plan."
+        }
+      ],
+      "official": [
+        {
+          "name": "K-ETA (official)",
+          "url": "https://www.k-eta.go.kr"
+        },
+        {
+          "name": "Korea Visa Portal",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "name": "e-Arrival Card",
+          "url": "https://www.e-arrivalcard.go.kr"
+        }
+      ],
+      "reviewed": "2026-10-01"
     }
   }
 }

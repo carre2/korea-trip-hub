@@ -1120,3 +1120,17 @@
   .ask-answers-more{display:inline-block;margin:14px 0 0;color:var(--primary);font-weight:700;font-size:1.125rem;text-decoration:none}
   .ask-answers-more:hover{text-decoration:underline}
   @media (max-width:700px){.ask-steps{grid-template-columns:1fr}.ask-form{padding:19px}.ask-actions .btn{width:100%;text-align:center}}
+/* Travel tools stay in document flow and wrap on narrow screens. */
+.share-tools { margin: 18px 0; padding: 16px; border: 1px solid var(--border); border-radius: 12px; }
+.share-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0; }
+.share-actions .btn { min-height: 44px; white-space: normal; text-align: center; }
+.share-note, .share-tools p { font-size: .9rem; line-height: 1.6; }
+.share-tools p:empty { display: none; }
+.share-tools .trip-copy { width: 100%; min-width: 0; box-sizing: border-box; }
+.budget-calculator { margin: 28px 0; padding: clamp(16px, 4vw, 28px); border: 1px solid var(--border); border-radius: 16px; scroll-margin-top: 100px; }
+.budget-calculator p { line-height: 1.7; }
+.budget-fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 16px; margin: 18px 0; }
+.budget-fields label { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.budget-fields input, .budget-fields select { width: 100%; box-sizing: border-box; min-height: 44px; padding: 10px; border: 1px solid #647b83; border-radius: 8px; background: var(--surface); color: var(--text); font: inherit; }
+.budget-total { display: flex; flex-wrap: wrap; gap: 8px; font-size: 1.15rem; }
+@media print { .share-tools, .budget-calculator form { display: none; } }
