@@ -263,18 +263,16 @@ nav.links a{font-weight:700;color:var(--text)}
 }
 @media(max-height:600px){.korea-guide-fab.is-welcoming{height:min(480px,65dvh);width:min(312px,42.25dvh)}.korea-welcome{bottom:80px;right:calc(min(312px,42.25dvh) + 24px);width:min(300px,calc(100vw - min(312px,42.25dvh) - 40px))}}
 
-/* Keep the guide readable at a stable size, with the invitation beside its hand. */
-.korea-guide-fab:not([aria-expanded="true"]),.korea-guide-fab.is-welcoming{width:260px;height:400px}
-.korea-welcome{right:288px;bottom:240px;width:min(300px,calc(100vw - 312px))}
+/* Keep the floating help control compact so it does not cover travel content. */
+.korea-guide-fab:not([aria-expanded="true"]),.korea-guide-fab.is-welcoming{width:96px;height:148px}
+.korea-guide-fab[aria-expanded="true"]{width:48px;height:48px}
+.korea-welcome{right:128px;bottom:40px;width:min(260px,calc(100vw - 152px))}
+.korea-chat-avatar{width:40px;height:40px}
 @media(max-width:599px){
- .korea-guide-fab:not([aria-expanded="true"]),.korea-guide-fab.is-welcoming{width:190px;height:290px}
- .korea-welcome{right:16px;bottom:310px;width:calc(100vw - 32px);max-width:300px}
+ .korea-guide-fab:not([aria-expanded="true"]),.korea-guide-fab.is-welcoming{width:56px;height:72px}
+ .korea-welcome{display:none}
 }
-@media(max-height:600px){
- .korea-guide-fab:not([aria-expanded="true"]),.korea-guide-fab.is-welcoming{width:min(260px,42.25dvh);height:min(400px,65dvh)}
- .korea-welcome{bottom:80px;right:calc(min(260px,42.25dvh) + 24px);width:min(300px,calc(100vw - min(260px,42.25dvh) - 40px))}
-}
-
+@media(max-height:600px){.korea-welcome{display:none}}
 /* Let enlarged multilingual labels occupy their own space instead of covering titles. */
 .fe-grid{grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr))}
 .fe-card{min-width:0;gap:12px}
