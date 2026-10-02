@@ -1,11 +1,12 @@
 {
-  "_README": "Per-locale translation overrides for philippines.json. Machine-translated — native review recommended.",
+  "_README": "Reviewed against official sources on 2026-10-02; native-language review recommended.",
   "ja": {
     "kicker": "ビザガイド · フィリピン → 韓国",
-    "readingTime": "8分で読めます",
+    "readingTime": "",
     "h1": "フィリピン国民のための韓国ビザ",
     "metaTitle": "フィリピンから韓国のビザ：必要ですか？（2026年）— Korea Trip Hub",
-    "metaDesc": "はい — フィリピンのパスポート保持者は韓国のビザが必要です（C-3 観光）。ただしビザ料金は無料です。申請先、必要書類とその入手先、処理時間をステップごとに解説します。",
+    "metaDesc": "フィリピンのパスポート所持者が韓国本土を観光するにはC-3-9観光ビザが必要です。 フィリピンのKVACを通じて申請します。訪問前に最新のKVAC案内を確認してください。通常の申請は大使館で直接受け付けていません。",
+    "updated": "2026-10-02",
     "ui": {
       "visa": "ビザの種類",
       "stay": "滞在期間",
@@ -21,101 +22,90 @@
       "tldr": "要点"
     },
     "verdict": {
-      "headline": "はい — フィリピンのパスポート所持者にはビザが必要ですが、無料です。",
-      "sub": "韓国本土へ渡航する前にC-3観光ビザを申請します。メリットは、ビザ料金がなく、処理が早く、2026年2月以降は3か月分の銀行取引明細書を提出する必要がなくなったことです。",
-      "type": "C-3 観光",
-      "stay": "最大90日",
-      "entry": "シングルエントリー（資格を満たす旅行者はマルチプルエントリーも可能）"
+      "need": true,
+      "headline": "フィリピンのパスポート所持者が韓国本土を観光するにはC-3-9観光ビザが必要です。",
+      "sub": "フィリピンのKVACを通じて申請します。訪問前に最新のKVAC案内を確認してください。通常の申請は大使館で直接受け付けていません。",
+      "type": "C-3-9",
+      "stay": "",
+      "entry": ""
     },
     "highlights": [
       {
-        "icon": "🆓",
+        "icon": "🧾",
         "tone": "green",
-        "title": "ビザ料金なし",
-        "body": "C-3観光ビザはフィリピンのパスポート所持者には無料です。独自のサービス料を追加する代理店にご注意ください。"
+        "title": "ビザ手数料と別途サービス料",
+        "body": "フィリピン国籍の申請者：59日以下の滞在はビザ発給手数料免除、60–90日はPHP 2,000です。KVACの料金は別途必要で、代理店のサービス料が加わる場合もあります。"
       },
       {
-        "icon": "📉",
+        "icon": "🗓️",
         "tone": "blue",
-        "title": "2026年2月20日以降、簡素化",
-        "body": "フィリピンの申請者は、直近3か月分の銀行取引明細書を提出する必要がなくなりました。従業員は代わりにITR＋在職証明書（Certificate of Employment）を提示します。"
-      },
-      {
-        "icon": "🏝️",
-        "tone": "amber",
-        "title": "済州島（Jeju）— 別枠のビザ免除入国",
-        "body": "限定的なビザ免除入国の選択肢があります（済州島から）。これらは本土の観光ビザとは別のものです。"
+        "title": "最新の審査期間のお知らせ",
+        "body": "2026-10-01から、通常のC-3審査は12営業日、急行申請は5営業日です。急行申請の対象条件は別途確認してください。"
       }
     ],
     "tldr": [
-      "本土の韓国にはC-3観光ビザが必要です — でも無料です。",
-      "visa.go.kr でフォームに記入し、その後、韓国大使館または公認の旅行代理店を通じて提出します。",
-      "従業員：ITR＋在職証明書（Certificate of Employment）を持参。事業主：DTI/SEC＋事業許可証。",
-      "2026年2月以降、3か月分の銀行取引明細書は不要になりました。処理は約3–5営業日です。"
+      "フィリピンのパスポート所持者が韓国本土を観光するにはC-3-9観光ビザが必要です。",
+      "フィリピン国籍の申請者：59日以下の滞在はビザ発給手数料免除、60–90日はPHP 2,000です。KVACの料金は別途必要で、代理店のサービス料が加わる場合もあります。",
+      "2026-10-01から、通常のC-3審査は12営業日、急行申請は5営業日です。急行申請の対象条件は別途確認してください。",
+      "最新の観光ビザチェックリストでは、通常の会社員について取引明細書の別項目ではなく銀行残高証明書が記載されています。資金証明の一律免除ではありません。該当区分と追加要求に従ってください。"
     ],
     "steps": {
       "title": "申請手続きをステップごとに",
       "items": [
         {
           "n": 1,
-          "title": "ビザの種類を確認する",
-          "detail": "観光目的の場合は、C-3短期観光ビザを申請します。"
+          "title": "書類を準備する",
+          "detail": "これは要約であり、完全なチェックリストではありません。学生・フリーランス・退職者・支援を受ける申請者などは公式リストの該当区分を確認してください。",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+          "linkLabel": "公式ソース"
         },
         {
           "n": 2,
-          "title": "visa.go.kr でフォームに記入する",
-          "detail": "唯一の公式サイトである Korea Visa Portal で申請フォームを記入し、印刷して署名します。",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "Korea Visa Portal"
+          "title": "KVAC",
+          "detail": "フィリピンのKVACを通じて申請します。訪問前に最新のKVAC案内を確認してください。通常の申請は大使館で直接受け付けていません。 代理店を利用する場合は大使館の最新指定代理店リストから選び、受付方法を確認してください。",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1",
+          "linkLabel": "公式ソース"
         },
         {
           "n": 3,
-          "title": "書類を準備する",
-          "detail": "下のチェックリストを揃えます。従業員はITR＋在職証明書（Certificate of Employment）が中心、事業主は登録証＋許可証が中心です。"
+          "title": "最新の審査期間のお知らせ",
+          "detail": "2026-10-01から、通常のC-3審査は12営業日、急行申請は5営業日です。急行申請の対象条件は別途確認してください。 ビザ承認や入国は保証されません。追加書類を求められる場合があり、提出後に審査期間が再計算されることがあります。",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+          "linkLabel": "公式ソース"
         },
         {
           "n": 4,
-          "title": "大使館／公認代理店に提出する",
-          "detail": "駐フィリピン韓国大使館（Embassy of Korea in the Philippines）または大使館公認の旅行代理店に申請を提出します。"
-        },
-        {
-          "n": 5,
-          "title": "支払うビザ料金はありません",
-          "detail": "ビザ自体は無料です。旅行代理店を利用する場合、代理店独自の手数料がかかることがありますが、大使館の料金はゼロです。"
-        },
-        {
-          "n": 6,
-          "title": "約3–5営業日待つ",
-          "detail": "処理は早いですが、韓国の祝日（Chuseok、Seollal）前後は余裕をもってください。"
-        },
-        {
-          "n": 7,
           "title": "パスポートを受け取る",
-          "detail": "パスポートを受け取り、すぐにビザの内容を確認します。"
+          "detail": "KVACからSMS通知を受け取ってから訪問してください。パスポートを受け取り、ビザ発給内容を確認します。"
         }
       ]
     },
     "documents": {
       "title": "書類チェックリスト — それぞれの入手先と方法つき",
-      "intro": "各項目について、どこで入手し、何を示す必要があるかを記載しています。要件は従業員、事業主、学生で異なります。",
+      "intro": "これは要約であり、完全なチェックリストではありません。学生・フリーランス・退職者・支援を受ける申請者などは公式リストの該当区分を確認してください。",
       "cols": [
         "書類",
         "入手先",
         "何を示す必要があるか"
       ],
+      "legend": {
+        "required": "必須",
+        "conditional": "職業によります",
+        "recommended": "推奨"
+      },
       "rows": [
         {
           "doc": "パスポート",
           "req": "required",
           "where": "すでにお持ちです",
-          "how": "残存有効期間6か月以上、空白ページあり。"
+          "how": "パスポート原本と顔写真・個人情報ページのコピー。"
         },
         {
           "doc": "ビザ申請書",
           "req": "required",
-          "where": "visa.go.kr",
-          "how": "Korea Visa Portal で記入し、印刷して署名します。",
-          "link": "https://www.visa.go.kr"
+          "where": "公式ソース",
+          "how": "大使館の公式観光ビザ必要書類に添付された申請書を使用し、その記入要領に従ってください。",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
         },
         {
           "doc": "写真",
@@ -125,79 +115,22 @@
         },
         {
           "doc": "銀行残高証明書",
-          "req": "required",
-          "where": "ご利用の銀行",
-          "how": "口座の銀行残高証明書。注意：2026年2月20日以降、3か月分の銀行取引明細書は不要になりました。"
-        },
-        {
-          "doc": "ITR（従業員）",
           "req": "conditional",
-          "where": "BIR / 雇用主（Form 2316）",
-          "how": "就労所得を証明する所得税申告書（Income Tax Return）。",
-          "link": "https://www.bir.gov.ph"
+          "where": "ご利用の銀行",
+          "how": "銀行残高証明書：申請者名義で直近3か月以内に発行され、口座名義・番号・種類・開設日・現在の残高・6か月間の平均残高（ADB）が必要です。"
         },
         {
-          "doc": "在職証明書（COE）",
+          "doc": "在職証明書（COE） / ITR",
           "req": "conditional",
           "where": "雇用主 / 人事部",
-          "how": "会社のレターヘッドに、役職、給与、承認された休暇日を記載。"
+          "how": "会社員：直近3か月以内発行の会社レターヘッドによるCOEに役職・給与・入社日・会社住所・人事担当者の電話とメールを記載し、ITR（BIR Form 2316または1701）を準備します。"
         },
         {
           "doc": "事業登録（自営業）",
           "req": "conditional",
           "where": "DTI または SEC + LGU",
-          "how": "DTI（個人事業主）または SEC（法人）の登録に加え、事業許可証／市長許可証（mayor's permit）。",
+          "how": "個人事業主：DTI登録証、事業／市長許可証、ITR（BIR Form 1701）。法人申請者：SEC登録の最初のページとGIS、市長許可証、ITR（BIR Form 1701または1702）。",
           "link": "https://www.dti.gov.ph"
-        },
-        {
-          "doc": "往復航空券＆ホテルの予約",
-          "req": "required",
-          "where": "航空会社 / 予約サイト",
-          "how": "予約／旅程で十分です — 承認前に航空券を購入しないでください。"
-        }
-      ],
-      "legend": {
-        "required": "必須",
-        "conditional": "職業によります",
-        "recommended": "推奨"
-      }
-    },
-    "funds": {
-      "title": "「旅行費用を賄えることをどう証明すればいい？」",
-      "body": "2026年2月以降、3か月分の銀行取引明細書は提出しなくなりました — 銀行残高証明書に加えて、ITR／在職（または事業）の証明が財政面の説明を担います。目的は、安定した収入とフィリピンへの強いつながりを示すことです。",
-      "tips": [
-        "従業員：ITR＋在職証明書（Certificate of Employment）がファイルの中心です。",
-        "事業主：登録証＋事業許可証＋銀行残高証明書。",
-        "スポンサーがいる場合は、スポンサーの書類と関係を示す証明を追加します。"
-      ]
-    },
-    "pitfalls": {
-      "title": "却下や遅延を招くミス",
-      "items": [
-        {
-          "icon": "💳",
-          "t": "「ビザ料金」を支払う",
-          "d": "大使館のビザは無料です。正当な追加費用は代理店の手数料だけです。"
-        },
-        {
-          "icon": "🧾",
-          "t": "就労証明が弱い",
-          "d": "ITR や COE の不足。これらは今やフィリピン人申請者のファイルの核心です。"
-        },
-        {
-          "icon": "🎫",
-          "t": "航空券を早く購入する",
-          "d": "承認前に払い戻し不可の航空券を購入する — 予約で十分です。"
-        },
-        {
-          "icon": "🏝️",
-          "t": "Jeju と本土を混同する",
-          "d": "Jeju のビザ免除の選択肢は本土の韓国旅行には適用されません。"
-        },
-        {
-          "icon": "🗓️",
-          "t": "祝日ピークに申請する",
-          "d": "Chuseok／Seollal 前後は処理が遅くなります — 早めに申請しましょう。"
         }
       ]
     },
@@ -206,41 +139,79 @@
       "items": [
         {
           "q": "フィリピン人は韓国にビザが必要ですか？",
-          "a": "本土の韓国には必要です — 渡航前にC-3観光ビザを申請します。無料です。済州島（Jeju）には別枠のビザ免除入国があります。"
+          "a": "フィリピンのパスポート所持者が韓国本土を観光するにはC-3-9観光ビザが必要です。"
         },
         {
           "q": "ビザ料金はいくらですか？",
-          "a": "フィリピンのパスポート所持者向けのC-3観光ビザにビザ料金はありません。旅行代理店が独自のサービス料を請求することはありますが、大使館の料金はゼロです。"
+          "a": "フィリピン国籍の申請者：59日以下の滞在はビザ発給手数料免除、60–90日はPHP 2,000です。KVACの料金は別途必要で、代理店のサービス料が加わる場合もあります。"
         },
         {
           "q": "銀行取引明細書は必要ですか？",
-          "a": "2026年2月20日以降、3か月分の銀行取引明細書は不要になりました。従業員はITR＋在職証明書（Certificate of Employment）、事業主は登録証＋許可証を提示します。"
+          "a": "最新の観光ビザチェックリストでは、通常の会社員について取引明細書の別項目ではなく銀行残高証明書が記載されています。資金証明の一律免除ではありません。該当区分と追加要求に従ってください。 銀行残高証明書：申請者名義で直近3か月以内に発行され、口座名義・番号・種類・開設日・現在の残高・6か月間の平均残高（ADB）が必要です。"
         },
         {
           "q": "どのくらい時間がかかりますか？",
-          "a": "約3–5営業日で、Chuseok や Seollal などの韓国の祝日前後はより長くかかります。"
+          "a": "2026-10-01から、通常のC-3審査は12営業日、急行申請は5営業日です。急行申請の対象条件は別途確認してください。 ビザ承認や入国は保証されません。追加書類を求められる場合があり、提出後に審査期間が再計算されることがあります。"
         },
         {
           "q": "どこで申請しますか？",
-          "a": "駐フィリピン韓国大使館（Embassy of Korea in the Philippines）、または大使館公認の旅行代理店を通じて申請します。"
-        },
-        {
-          "q": "マルチプルエントリービザは取得できますか？",
-          "a": "マルチプルエントリービザは資格を満たす旅行者（例：確かな渡航歴）には可能です。現在の対象条件は大使館にお問い合わせください。"
-        },
-        {
-          "q": "e-Arrival Card はまだ必要ですか？",
-          "a": "e-Arrival Card などの入国書類の規定は到着時に依然として適用される場合があります。渡航日近くに最新の規定を確認してください。"
+          "a": "フィリピンのKVACを通じて申請します。訪問前に最新のKVAC案内を確認してください。通常の申請は大使館で直接受け付けていません。 代理店を利用する場合は大使館の最新指定代理店リストから選び、受付方法を確認してください。"
         }
       ]
+    },
+    "resources": {
+      "title": "公式ソース",
+      "intro": "これは要約であり、完全なチェックリストではありません。学生・フリーランス・退職者・支援を受ける申請者などは公式リストの該当区分を確認してください。",
+      "items": [
+        {
+          "label": "書類チェックリスト — それぞれの入手先と方法つき",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
+        },
+        {
+          "label": "最新の審査期間のお知らせ",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1"
+        },
+        {
+          "label": "KVAC",
+          "src": "visaforkorea-mn.com",
+          "url": "https://www.visaforkorea-mn.com"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "🏛️",
+        "name": "公式ソース",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+        "what": "書類チェックリスト — それぞれの入手先と方法つき"
+      },
+      {
+        "icon": "🗓️",
+        "name": "最新の審査期間のお知らせ",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+        "what": "2026-10-01から、通常のC-3審査は12営業日、急行申請は5営業日です。急行申請の対象条件は別途確認してください。"
+      }
+    ],
+    "factLabels": {
+      "visa_fee": "ビザ手数料と別途サービス料",
+      "processing": "最新の審査期間のお知らせ",
+      "apply_at": "どこで申請しますか？"
+    },
+    "factValueLabels": {
+      "For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee.": "フィリピン国籍の申請者：59日以下の滞在はビザ発給手数料免除、60–90日はPHP 2,000です。KVACの料金は別途必要で、代理店のサービス料が加わる場合もあります。",
+      "Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.": "2026-10-01から、通常のC-3審査は12営業日、急行申請は5営業日です。急行申請の対象条件は別途確認してください。",
+      "Submit through KVAC in the Philippines. Check the current KVAC instructions before visiting; the Embassy does not receive ordinary applications directly.": "フィリピンのKVACを通じて申請します。訪問前に最新のKVAC案内を確認してください。通常の申請は大使館で直接受け付けていません。"
     }
   },
   "ko": {
     "kicker": "비자 가이드 · 필리핀 → 한국",
-    "readingTime": "8분 읽기",
+    "readingTime": "",
     "h1": "필리핀 국민을 위한 한국 비자",
     "metaTitle": "필리핀에서 한국 비자: 필요할까요? (2026) — Korea Trip Hub",
-    "metaDesc": "네 — 필리핀 여권 소지자는 한국 비자가 필요합니다 (C-3 관광). 다만 비자 수수료는 무료입니다. 어디서 신청하는지, 서류와 각 발급처, 처리 기간을 단계별로 안내합니다.",
+    "metaDesc": "필리핀 여권 소지자가 한국 본토를 관광하려면 C-3-9 관광 비자가 필요합니다. 필리핀 KVAC를 통해 접수하세요. 방문 전 최신 KVAC 안내를 확인하세요. 일반 신청은 대사관에서 직접 접수하지 않습니다.",
+    "updated": "2026-10-02",
     "ui": {
       "visa": "비자 종류",
       "stay": "체류 기간",
@@ -256,101 +227,90 @@
       "tldr": "요약"
     },
     "verdict": {
-      "headline": "네 — 필리핀 여권 소지자는 비자가 필요하지만, 무료입니다.",
-      "sub": "한국 본토로 여행하기 전에 C-3 관광 비자를 신청합니다. 장점은 비자 수수료가 없고, 처리가 빠르며, 2026년 2월부터 3개월치 은행 거래 내역서를 제출하지 않아도 된다는 점입니다.",
-      "type": "C-3 관광",
-      "stay": "최대 90일",
-      "entry": "단수 입국 (자격을 갖춘 여행자는 복수 입국도 가능)"
+      "need": true,
+      "headline": "필리핀 여권 소지자가 한국 본토를 관광하려면 C-3-9 관광 비자가 필요합니다.",
+      "sub": "필리핀 KVAC를 통해 접수하세요. 방문 전 최신 KVAC 안내를 확인하세요. 일반 신청은 대사관에서 직접 접수하지 않습니다.",
+      "type": "C-3-9",
+      "stay": "",
+      "entry": ""
     },
     "highlights": [
       {
-        "icon": "🆓",
+        "icon": "🧾",
         "tone": "green",
-        "title": "비자 수수료 없음",
-        "body": "C-3 관광 비자는 필리핀 여권 소지자에게 무료입니다. 자체 서비스 요금을 추가하는 대행사를 주의하세요."
+        "title": "비자 수수료와 별도 서비스 비용",
+        "body": "필리핀 국적 신청자: 59일 이하 체류는 사증 발급 수수료 면제, 60–90일 체류는 PHP 2,000입니다. KVAC 비용은 별도이며 대행기관 서비스 비용이 추가될 수 있습니다."
       },
       {
-        "icon": "📉",
+        "icon": "🗓️",
         "tone": "blue",
-        "title": "2026년 2월 20일부터 간소화",
-        "body": "필리핀의 신청자는 더 이상 최근 3개월치 은행 거래 내역서를 제출할 필요가 없습니다. 직장인은 대신 ITR + 재직증명서(Certificate of Employment)를 제시합니다."
-      },
-      {
-        "icon": "🏝️",
-        "tone": "amber",
-        "title": "제주도(Jeju) — 별도의 무비자 입국",
-        "body": "제한적인 무비자 입국 옵션이 있습니다(제주도부터). 이는 본토 관광 비자와는 별개입니다."
+        "title": "최신 처리 기간 공지",
+        "body": "2026-10-01 시행: 일반 C-3 처리는 12영업일, 급행 신청은 5영업일입니다. 급행 자격은 별도로 확인하세요."
       }
     ],
     "tldr": [
-      "한국 본토에는 C-3 관광 비자가 필요합니다 — 하지만 무료입니다.",
-      "visa.go.kr에서 양식을 작성한 뒤, 주필리핀 한국대사관 또는 공인 여행사를 통해 제출합니다.",
-      "직장인: ITR + 재직증명서(Certificate of Employment) 지참. 사업주: DTI/SEC + 사업 허가증.",
-      "2026년 2월부터 3개월치 은행 거래 내역서는 필요 없습니다. 처리는 약 3–5 영업일입니다."
+      "필리핀 여권 소지자가 한국 본토를 관광하려면 C-3-9 관광 비자가 필요합니다.",
+      "필리핀 국적 신청자: 59일 이하 체류는 사증 발급 수수료 면제, 60–90일 체류는 PHP 2,000입니다. KVAC 비용은 별도이며 대행기관 서비스 비용이 추가될 수 있습니다.",
+      "2026-10-01 시행: 일반 C-3 처리는 12영업일, 급행 신청은 5영업일입니다. 급행 자격은 별도로 확인하세요.",
+      "최신 관광 비자 체크리스트의 일반 직장인 항목에는 별도 거래내역서 대신 잔고증명서가 명시돼 있습니다. 재정 증빙이 모두 면제되는 것은 아니므로 해당 신청 유형과 추가 요구를 따르세요."
     ],
     "steps": {
       "title": "신청 절차, 단계별로",
       "items": [
         {
           "n": 1,
-          "title": "비자 종류 확인",
-          "detail": "관광 목적이라면 C-3 단기 관광 비자를 신청합니다."
+          "title": "서류 준비",
+          "detail": "완전한 체크리스트가 아닌 요약입니다. 학생·프리랜서·은퇴자·재정보증을 받는 신청자 등은 공식 체크리스트의 해당 항목을 확인해야 합니다.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+          "linkLabel": "공식 출처"
         },
         {
           "n": 2,
-          "title": "visa.go.kr에서 양식 작성",
-          "detail": "유일한 공식 사이트인 Korea Visa Portal에서 신청서를 작성한 뒤 인쇄하여 서명합니다.",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "Korea Visa Portal"
+          "title": "KVAC",
+          "detail": "필리핀 KVAC를 통해 접수하세요. 방문 전 최신 KVAC 안내를 확인하세요. 일반 신청은 대사관에서 직접 접수하지 않습니다. 대행기관 이용 시 대사관의 최신 지정기관 목록에서 선택하고 접수 방식을 확인하세요.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1",
+          "linkLabel": "공식 출처"
         },
         {
           "n": 3,
-          "title": "서류 준비",
-          "detail": "아래 체크리스트를 준비합니다. 직장인은 ITR + 재직증명서(Certificate of Employment)가 중심이고, 사업주는 등록증 + 허가증이 중심입니다."
+          "title": "최신 처리 기간 공지",
+          "detail": "2026-10-01 시행: 일반 C-3 처리는 12영업일, 급행 신청은 5영업일입니다. 급행 자격은 별도로 확인하세요. 비자 승인과 입국은 보장되지 않습니다. 추가 서류를 요구할 수 있으며 제출 후 심사 기간이 다시 계산될 수 있습니다.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+          "linkLabel": "공식 출처"
         },
         {
           "n": 4,
-          "title": "대사관 / 공인 대행사에 제출",
-          "detail": "주필리핀 한국대사관(Embassy of Korea in the Philippines) 또는 대사관 공인 여행사에 신청서를 접수합니다."
-        },
-        {
-          "n": 5,
-          "title": "낼 비자 수수료 없음",
-          "detail": "비자 자체는 무료입니다. 여행사를 이용하면 자체 대행 수수료가 부과될 수 있지만, 대사관 수수료는 0원입니다."
-        },
-        {
-          "n": 6,
-          "title": "약 3–5 영업일 대기",
-          "detail": "처리는 빠르지만, 한국 명절(Chuseok, Seollal) 전후에는 여유를 두세요."
-        },
-        {
-          "n": 7,
           "title": "여권 수령",
-          "detail": "여권을 받고 비자 정보를 바로 확인합니다."
+          "detail": "KVAC 문자 안내를 받은 뒤 방문하세요. 여권을 수령하고 사증 발급 내역을 확인하세요."
         }
       ]
     },
     "documents": {
       "title": "서류 체크리스트 — 각 서류의 발급처와 방법 포함",
-      "intro": "각 항목에 대해 어디서 받고 무엇을 보여줘야 하는지 정리했습니다. 요건은 직장인, 사업주, 학생마다 다릅니다.",
+      "intro": "완전한 체크리스트가 아닌 요약입니다. 학생·프리랜서·은퇴자·재정보증을 받는 신청자 등은 공식 체크리스트의 해당 항목을 확인해야 합니다.",
       "cols": [
         "서류",
         "발급처",
         "보여줘야 할 내용"
       ],
+      "legend": {
+        "required": "필수",
+        "conditional": "직업에 따라 다름",
+        "recommended": "권장"
+      },
       "rows": [
         {
           "doc": "여권",
           "req": "required",
           "where": "이미 소지",
-          "how": "잔여 유효기간 6개월 이상, 빈 페이지 있음."
+          "how": "여권 원본과 여권 인적사항면 사본."
         },
         {
           "doc": "비자 신청서",
           "req": "required",
-          "where": "visa.go.kr",
-          "how": "Korea Visa Portal에서 작성, 인쇄, 서명.",
-          "link": "https://www.visa.go.kr"
+          "where": "공식 출처",
+          "how": "대사관 공식 관광 비자 구비서류 안내에 첨부된 신청서를 사용하고 신청서 지침을 따르세요.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
         },
         {
           "doc": "사진",
@@ -360,79 +320,22 @@
         },
         {
           "doc": "은행 잔고 증명서",
-          "req": "required",
-          "where": "거래 은행",
-          "how": "계좌의 은행 잔고 증명서. 참고: 2026년 2월 20일부터 3개월치 은행 거래 내역서는 필요 없습니다."
-        },
-        {
-          "doc": "ITR (직장인)",
           "req": "conditional",
-          "where": "BIR / 고용주 (Form 2316)",
-          "how": "근로 소득을 증명하는 소득세 신고서(Income Tax Return).",
-          "link": "https://www.bir.gov.ph"
+          "where": "거래 은행",
+          "how": "은행 잔고증명서: 최근 3개월 이내 신청자 명의로 발급받고, 계좌명·번호·유형·개설일·현재 잔액·6개월 평균잔액(ADB)을 포함해야 합니다."
         },
         {
-          "doc": "재직증명서 (COE)",
+          "doc": "재직증명서 (COE) / ITR",
           "req": "conditional",
           "where": "고용주 / 인사팀",
-          "how": "회사 레터헤드에 직위, 급여, 승인된 휴가 날짜 기재."
+          "how": "직장인: 최근 3개월 이내 발급된 회사 공식 양식의 COE에 직위·급여·입사일·회사 주소·인사담당자 전화와 이메일을 포함하고, ITR(BIR Form 2316 또는 1701)을 준비하세요."
         },
         {
           "doc": "사업자 등록 (자영업)",
           "req": "conditional",
           "where": "DTI 또는 SEC + LGU",
-          "how": "DTI(개인사업자) 또는 SEC(법인) 등록증과 사업 허가증/시장 허가증(mayor's permit).",
+          "how": "개인사업자: DTI 등록증, 사업/시장 허가증, ITR(BIR Form 1701). 법인 신청자: SEC 등록증 첫 페이지와 GIS, 시장 허가증, ITR(BIR Form 1701 또는 1702).",
           "link": "https://www.dti.gov.ph"
-        },
-        {
-          "doc": "왕복 항공권 & 호텔 예약",
-          "req": "required",
-          "where": "항공사 / 예약 사이트",
-          "how": "예약/일정만으로 충분합니다 — 승인 전에 항공권을 결제하지 마세요."
-        }
-      ],
-      "legend": {
-        "required": "필수",
-        "conditional": "직업에 따라 다름",
-        "recommended": "권장"
-      }
-    },
-    "funds": {
-      "title": "\"여행 비용을 감당할 수 있음을 어떻게 증명하나요?\"",
-      "body": "2026년 2월부터 3개월치 은행 거래 내역서는 제출하지 않습니다 — 은행 잔고 증명서와 함께 ITR/재직(또는 사업) 증빙이 재정 상황을 설명합니다. 목적은 안정적인 소득과 필리핀과의 강한 연결고리를 보여주는 것입니다.",
-      "tips": [
-        "직장인: ITR + 재직증명서(Certificate of Employment)가 서류의 핵심입니다.",
-        "사업주: 등록증 + 사업 허가증 + 은행 잔고 증명서.",
-        "후원을 받나요? 후원자의 서류와 관계 증빙을 추가하세요."
-      ]
-    },
-    "pitfalls": {
-      "title": "거절과 지연을 부르는 실수",
-      "items": [
-        {
-          "icon": "💳",
-          "t": "'비자 수수료' 지불",
-          "d": "대사관 비자는 무료입니다. 정당한 추가 비용은 대행사 수수료뿐입니다."
-        },
-        {
-          "icon": "🧾",
-          "t": "약한 재직 증빙",
-          "d": "ITR 또는 COE 누락. 이는 이제 필리핀 신청자 서류의 핵심입니다."
-        },
-        {
-          "icon": "🎫",
-          "t": "항공권 조기 결제",
-          "d": "승인 전에 환불 불가 항공권 구매 — 예약만으로 충분합니다."
-        },
-        {
-          "icon": "🏝️",
-          "t": "Jeju와 본토 혼동",
-          "d": "Jeju 무비자 옵션은 한국 본토 여행에는 적용되지 않습니다."
-        },
-        {
-          "icon": "🗓️",
-          "t": "명절 성수기에 신청",
-          "d": "Chuseok/Seollal 전후에는 처리가 느려집니다 — 더 일찍 신청하세요."
         }
       ]
     },
@@ -441,41 +344,79 @@
       "items": [
         {
           "q": "필리핀인은 한국에 비자가 필요한가요?",
-          "a": "본토 한국에는 필요합니다 — 여행 전에 C-3 관광 비자를 신청합니다. 무료입니다. 제주도(Jeju)에는 별도의 무비자 입국이 있습니다."
+          "a": "필리핀 여권 소지자가 한국 본토를 관광하려면 C-3-9 관광 비자가 필요합니다."
         },
         {
           "q": "비자 수수료는 얼마인가요?",
-          "a": "필리핀 여권 소지자의 C-3 관광 비자에는 비자 수수료가 없습니다. 여행사가 자체 서비스 요금을 청구할 수는 있지만, 대사관 수수료는 0원입니다."
+          "a": "필리핀 국적 신청자: 59일 이하 체류는 사증 발급 수수료 면제, 60–90일 체류는 PHP 2,000입니다. KVAC 비용은 별도이며 대행기관 서비스 비용이 추가될 수 있습니다."
         },
         {
           "q": "은행 거래 내역서가 필요한가요?",
-          "a": "2026년 2월 20일부터 3개월치 은행 거래 내역서는 필요 없습니다. 직장인은 ITR + 재직증명서(Certificate of Employment)를, 사업주는 등록증 + 허가증을 제시합니다."
+          "a": "최신 관광 비자 체크리스트의 일반 직장인 항목에는 별도 거래내역서 대신 잔고증명서가 명시돼 있습니다. 재정 증빙이 모두 면제되는 것은 아니므로 해당 신청 유형과 추가 요구를 따르세요. 은행 잔고증명서: 최근 3개월 이내 신청자 명의로 발급받고, 계좌명·번호·유형·개설일·현재 잔액·6개월 평균잔액(ADB)을 포함해야 합니다."
         },
         {
           "q": "얼마나 걸리나요?",
-          "a": "약 3–5 영업일이며, Chuseok과 Seollal 같은 한국 명절 전후에는 더 오래 걸립니다."
+          "a": "2026-10-01 시행: 일반 C-3 처리는 12영업일, 급행 신청은 5영업일입니다. 급행 자격은 별도로 확인하세요. 비자 승인과 입국은 보장되지 않습니다. 추가 서류를 요구할 수 있으며 제출 후 심사 기간이 다시 계산될 수 있습니다."
         },
         {
           "q": "어디서 신청하나요?",
-          "a": "주필리핀 한국대사관(Embassy of Korea in the Philippines) 또는 대사관 공인 여행사를 통해 신청합니다."
-        },
-        {
-          "q": "복수 입국 비자를 받을 수 있나요?",
-          "a": "복수 입국 비자는 자격을 갖춘 여행자(예: 풍부한 여행 이력)에게 가능합니다. 현재 자격 요건은 대사관에 문의하세요."
-        },
-        {
-          "q": "e-Arrival Card가 아직 필요한가요?",
-          "a": "e-Arrival Card 같은 입국 서류 규정은 도착 시 여전히 적용될 수 있습니다. 여행 날짜에 가까워지면 최신 규정을 확인하세요."
+          "a": "필리핀 KVAC를 통해 접수하세요. 방문 전 최신 KVAC 안내를 확인하세요. 일반 신청은 대사관에서 직접 접수하지 않습니다. 대행기관 이용 시 대사관의 최신 지정기관 목록에서 선택하고 접수 방식을 확인하세요."
         }
       ]
+    },
+    "resources": {
+      "title": "공식 출처",
+      "intro": "완전한 체크리스트가 아닌 요약입니다. 학생·프리랜서·은퇴자·재정보증을 받는 신청자 등은 공식 체크리스트의 해당 항목을 확인해야 합니다.",
+      "items": [
+        {
+          "label": "서류 체크리스트 — 각 서류의 발급처와 방법 포함",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
+        },
+        {
+          "label": "최신 처리 기간 공지",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1"
+        },
+        {
+          "label": "KVAC",
+          "src": "visaforkorea-mn.com",
+          "url": "https://www.visaforkorea-mn.com"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "🏛️",
+        "name": "공식 출처",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+        "what": "서류 체크리스트 — 각 서류의 발급처와 방법 포함"
+      },
+      {
+        "icon": "🗓️",
+        "name": "최신 처리 기간 공지",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+        "what": "2026-10-01 시행: 일반 C-3 처리는 12영업일, 급행 신청은 5영업일입니다. 급행 자격은 별도로 확인하세요."
+      }
+    ],
+    "factLabels": {
+      "visa_fee": "비자 수수료와 별도 서비스 비용",
+      "processing": "최신 처리 기간 공지",
+      "apply_at": "어디서 신청하나요?"
+    },
+    "factValueLabels": {
+      "For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee.": "필리핀 국적 신청자: 59일 이하 체류는 사증 발급 수수료 면제, 60–90일 체류는 PHP 2,000입니다. KVAC 비용은 별도이며 대행기관 서비스 비용이 추가될 수 있습니다.",
+      "Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.": "2026-10-01 시행: 일반 C-3 처리는 12영업일, 급행 신청은 5영업일입니다. 급행 자격은 별도로 확인하세요.",
+      "Submit through KVAC in the Philippines. Check the current KVAC instructions before visiting; the Embassy does not receive ordinary applications directly.": "필리핀 KVAC를 통해 접수하세요. 방문 전 최신 KVAC 안내를 확인하세요. 일반 신청은 대사관에서 직접 접수하지 않습니다."
     }
   },
   "es": {
     "kicker": "Guía de visa · Filipinas → Corea",
-    "readingTime": "8 min de lectura",
+    "readingTime": "",
     "h1": "Visa de Corea para filipinos",
     "metaTitle": "Visado de Filipinas a Corea: ¿necesitas uno? (2026) — Korea Trip Hub",
-    "metaDesc": "Sí — los titulares de pasaporte filipino necesitan visado para Corea del Sur (C-3 de turista), pero la tasa del visado es GRATUITA. Dónde solicitarlo, los documentos y dónde conseguir cada uno, y el tiempo de tramitación — paso a paso.",
+    "metaDesc": "Los titulares de pasaporte filipino necesitan un visado turístico C-3-9 para Corea continental. Presenta la solicitud a través de KVAC en Filipinas. Revisa sus instrucciones actuales antes de acudir; la Embajada no recibe solicitudes ordinarias directamente.",
+    "updated": "2026-10-02",
     "ui": {
       "visa": "Tipo de visa",
       "stay": "Duración de la estancia",
@@ -491,101 +432,90 @@
       "tldr": "RESUMEN"
     },
     "verdict": {
-      "headline": "Sí — los titulares de pasaporte filipino necesitan visa, pero es GRATIS.",
-      "sub": "Solicitas la visa de turista C-3 antes de viajar a la Corea continental. La ventaja: no hay tarifa de visa, el trámite es rápido y, desde febrero de 2026, ya no presentas extractos bancarios de 3 meses.",
-      "type": "C-3 Turista",
-      "stay": "Hasta 90 días",
-      "entry": "Entrada única (entrada múltiple posible para viajeros que califiquen)"
+      "need": true,
+      "headline": "Los titulares de pasaporte filipino necesitan un visado turístico C-3-9 para Corea continental.",
+      "sub": "Presenta la solicitud a través de KVAC en Filipinas. Revisa sus instrucciones actuales antes de acudir; la Embajada no recibe solicitudes ordinarias directamente.",
+      "type": "C-3-9",
+      "stay": "",
+      "entry": ""
     },
     "highlights": [
       {
-        "icon": "🆓",
+        "icon": "🧾",
         "tone": "green",
-        "title": "Sin tarifa de visa",
-        "body": "La visa de turista C-3 es gratuita para los titulares de pasaporte filipino. Cuidado con las agencias que añaden sus propios cargos por servicio."
+        "title": "Tasas de visado y cargos de servicio aparte",
+        "body": "Para ciudadanos filipinos: estancias de hasta 59 días sin tasa de expedición; estancias de 60–90 días cuestan PHP 2,000. Los cargos de KVAC son aparte; una agencia puede añadir honorarios."
       },
       {
-        "icon": "📉",
+        "icon": "🗓️",
         "tone": "blue",
-        "title": "Simplificado desde el 20 de febrero de 2026",
-        "body": "Los solicitantes en Filipinas ya no están obligados a presentar los extractos bancarios de los últimos 3 meses. Los empleados muestran en su lugar el ITR + Certificate of Employment."
-      },
-      {
-        "icon": "🏝️",
-        "tone": "amber",
-        "title": "Isla de Jeju — entrada sin visa aparte",
-        "body": "Existen opciones limitadas de entrada sin visa (empezando por la isla de Jeju). Son independientes de la visa de turista continental."
+        "title": "Aviso actual de plazos",
+        "body": "Desde 2026-10-01: el trámite C-3 ordinario tarda 12 días laborables; el exprés sigue en 5 días laborables. Comprueba por separado los requisitos del exprés."
       }
     ],
     "tldr": [
-      "La visa de turista C-3 es obligatoria para la Corea continental — pero es GRATIS.",
-      "Rellena el formulario en visa.go.kr y luego preséntalo a través de la Embajada de Corea o una agencia de viajes acreditada.",
-      "Empleados: lleven ITR + Certificate of Employment. Dueños de negocio: DTI/SEC + permiso de negocio.",
-      "Desde febrero de 2026 ya no necesitas extractos bancarios de 3 meses. El trámite tarda unos 3–5 días hábiles."
+      "Los titulares de pasaporte filipino necesitan un visado turístico C-3-9 para Corea continental.",
+      "Para ciudadanos filipinos: estancias de hasta 59 días sin tasa de expedición; estancias de 60–90 días cuestan PHP 2,000. Los cargos de KVAC son aparte; una agencia puede añadir honorarios.",
+      "Desde 2026-10-01: el trámite C-3 ordinario tarda 12 días laborables; el exprés sigue en 5 días laborables. Comprueba por separado los requisitos del exprés.",
+      "La lista turística actual exige un certificado bancario para empleados ordinarios, sin enumerar un extracto como documento separado. No es una exención general de pruebas económicas: sigue tu categoría y cualquier petición adicional."
     ],
     "steps": {
       "title": "La solicitud, paso a paso",
       "items": [
         {
           "n": 1,
-          "title": "Confirma el tipo de visa",
-          "detail": "Para turismo, solicita la visa de turista de corto plazo C-3."
+          "title": "Prepara tus documentos",
+          "detail": "Es un resumen, no una lista completa. Estudiantes, autónomos, jubilados, solicitantes con patrocinador y otras categorías deben consultar su sección de la lista oficial.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+          "linkLabel": "Fuente oficial"
         },
         {
           "n": 2,
-          "title": "Rellena el formulario en visa.go.kr",
-          "detail": "Completa el formulario de solicitud en el Korea Visa Portal — el único sitio oficial — luego imprímelo y fírmalo.",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "Korea Visa Portal"
+          "title": "KVAC",
+          "detail": "Presenta la solicitud a través de KVAC en Filipinas. Revisa sus instrucciones actuales antes de acudir; la Embajada no recibe solicitudes ordinarias directamente. Si recurres a una agencia, elige de la lista vigente de agencias designadas por la Embajada y confirma cómo presentar la solicitud.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1",
+          "linkLabel": "Fuente oficial"
         },
         {
           "n": 3,
-          "title": "Prepara tus documentos",
-          "detail": "Reúne la lista de abajo. Los empleados se centran en el ITR + Certificate of Employment; los dueños de negocio en el registro + permiso."
+          "title": "Aviso actual de plazos",
+          "detail": "Desde 2026-10-01: el trámite C-3 ordinario tarda 12 días laborables; el exprés sigue en 5 días laborables. Comprueba por separado los requisitos del exprés. No se garantiza la aprobación ni la entrada. Pueden solicitar documentos adicionales y recalcular el plazo tras su entrega.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+          "linkLabel": "Fuente oficial"
         },
         {
           "n": 4,
-          "title": "Preséntalo en la Embajada / agencia acreditada",
-          "detail": "Presenta tu solicitud en la Embassy of Korea in the Philippines o en una agencia de viajes acreditada por la embajada."
-        },
-        {
-          "n": 5,
-          "title": "No hay tarifa de visa que pagar",
-          "detail": "La visa en sí es gratuita. Si usas una agencia de viajes, pueden cobrar su propia tarifa de gestión — la tarifa de la embajada es cero."
-        },
-        {
-          "n": 6,
-          "title": "Espera ~3–5 días hábiles",
-          "detail": "El trámite es rápido, pero deja más tiempo alrededor de los feriados coreanos (Chuseok, Seollal)."
-        },
-        {
-          "n": 7,
           "title": "Recoge tu pasaporte",
-          "detail": "Recoge tu pasaporte y revisa los datos de la visa de inmediato."
+          "detail": "Acude a KVAC tras recibir su aviso por SMS. Recoge el pasaporte y comprueba los datos de concesión del visado."
         }
       ]
     },
     "documents": {
       "title": "Lista de documentos — con dónde y cómo obtener cada uno",
-      "intro": "Para cada elemento, aquí tienes dónde obtenerlo y qué debe mostrar. Los requisitos difieren para empleados, dueños de negocio y estudiantes.",
+      "intro": "Es un resumen, no una lista completa. Estudiantes, autónomos, jubilados, solicitantes con patrocinador y otras categorías deben consultar su sección de la lista oficial.",
       "cols": [
         "Documento",
         "Dónde obtenerlo",
         "Qué debe mostrar"
       ],
+      "legend": {
+        "required": "Obligatorio",
+        "conditional": "Depende de tu trabajo",
+        "recommended": "Recomendado"
+      },
       "rows": [
         {
           "doc": "Pasaporte",
           "req": "required",
           "where": "Ya lo tienes",
-          "how": "Válido 6+ meses con páginas en blanco."
+          "how": "Pasaporte original y copia de su página de datos personales."
         },
         {
           "doc": "Formulario de solicitud de visa",
           "req": "required",
-          "where": "visa.go.kr",
-          "how": "Complétalo en el Korea Visa Portal, imprime y firma.",
-          "link": "https://www.visa.go.kr"
+          "where": "Fuente oficial",
+          "how": "Usa el formulario adjunto a los requisitos oficiales de visado turístico de la Embajada y sigue sus instrucciones.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
         },
         {
           "doc": "Foto",
@@ -595,79 +525,22 @@
         },
         {
           "doc": "Certificado bancario",
-          "req": "required",
-          "where": "Tu banco",
-          "how": "Un certificado bancario de tu cuenta. Nota: desde el 20 de febrero de 2026, ya no se requieren extractos bancarios de 3 meses."
-        },
-        {
-          "doc": "ITR (empleados)",
           "req": "conditional",
-          "where": "BIR / empleador (Form 2316)",
-          "how": "Declaración del impuesto sobre la renta (Income Tax Return) que acredite tus ingresos laborales.",
-          "link": "https://www.bir.gov.ph"
+          "where": "Tu banco",
+          "how": "Certificado bancario: expedido a nombre del solicitante en los últimos 3 meses, con nombre, número, tipo de cuenta, fecha de apertura, saldo actual y saldo medio diario de 6 meses (ADB)."
         },
         {
-          "doc": "Certificate of Employment (COE)",
+          "doc": "Certificate of Employment (COE) / ITR",
           "req": "conditional",
           "where": "Tu empleador / RR. HH.",
-          "how": "En papel membretado de la empresa: cargo, salario y fechas de licencia aprobadas."
+          "how": "Empleados: COE en papel membretado, expedido en los últimos 3 meses, con puesto, salario, fecha de contratación, dirección y teléfono/correo de RR. HH.; e ITR (BIR Form 2316 o 1701)."
         },
         {
           "doc": "Registro de negocio (autónomos)",
           "req": "conditional",
           "where": "DTI o SEC + LGU",
-          "how": "Registro de DTI (empresario individual) o SEC (sociedad), más tu permiso de negocio/permiso del alcalde (mayor's permit).",
+          "how": "Empresarios individuales: certificado DTI, permiso comercial/del alcalde e ITR (BIR Form 1701). Empresas: primera página del registro SEC y GIS, permiso del alcalde e ITR (BIR Form 1701 o 1702).",
           "link": "https://www.dti.gov.ph"
-        },
-        {
-          "doc": "Reserva de vuelo de ida y vuelta y hotel",
-          "req": "required",
-          "where": "Aerolínea / sitios de reservas",
-          "how": "Las reservas/el itinerario son suficientes — no pagues un boleto antes de la aprobación."
-        }
-      ],
-      "legend": {
-        "required": "Obligatorio",
-        "conditional": "Depende de tu trabajo",
-        "recommended": "Recomendado"
-      }
-    },
-    "funds": {
-      "title": "\"¿Cómo pruebo que puedo costear el viaje?\"",
-      "body": "Desde febrero de 2026, ya no presentas extractos bancarios de 3 meses — un certificado bancario junto con tu ITR/prueba de empleo (o de negocio) cuenta la historia financiera. El objetivo es demostrar ingresos estables y vínculos sólidos con Filipinas.",
-      "tips": [
-        "Empleados: el ITR + Certificate of Employment son el núcleo de tu expediente.",
-        "Dueños de negocio: registro + permiso de negocio + un certificado bancario.",
-        "¿Te patrocinan? Añade los documentos del patrocinador y la prueba de la relación."
-      ]
-    },
-    "pitfalls": {
-      "title": "Errores que causan rechazos y retrasos",
-      "items": [
-        {
-          "icon": "💳",
-          "t": "Pagar una 'tarifa de visa'",
-          "d": "La visa de la embajada es GRATIS. Solo las tarifas de gestión de la agencia son extras legítimos."
-        },
-        {
-          "icon": "🧾",
-          "t": "Prueba de empleo débil",
-          "d": "Falta el ITR o el COE. Ahora son el corazón del expediente de un solicitante filipino."
-        },
-        {
-          "icon": "🎫",
-          "t": "Pagar los vuelos pronto",
-          "d": "Comprar boletos no reembolsables antes de la aprobación — una reserva es suficiente."
-        },
-        {
-          "icon": "🏝️",
-          "t": "Confundir Jeju con la parte continental",
-          "d": "Las opciones sin visa de Jeju no cubren los viajes a la Corea continental."
-        },
-        {
-          "icon": "🗓️",
-          "t": "Solicitar en temporada alta de feriados",
-          "d": "El trámite se ralentiza alrededor de Chuseok/Seollal — solicita antes."
         }
       ]
     },
@@ -676,41 +549,79 @@
       "items": [
         {
           "q": "¿Los filipinos necesitan visa para Corea?",
-          "a": "Sí para la Corea continental — solicitas una visa de turista C-3 antes de viajar. Es gratuita. La isla de Jeju tiene una entrada sin visa aparte."
+          "a": "Los titulares de pasaporte filipino necesitan un visado turístico C-3-9 para Corea continental."
         },
         {
           "q": "¿Cuánto cuesta la tarifa de visa?",
-          "a": "No hay tarifa de visa para la visa de turista C-3 para los titulares de pasaporte filipino. Una agencia de viajes puede cobrar su propia tarifa de servicio, pero la tarifa de la embajada es cero."
+          "a": "Para ciudadanos filipinos: estancias de hasta 59 días sin tasa de expedición; estancias de 60–90 días cuestan PHP 2,000. Los cargos de KVAC son aparte; una agencia puede añadir honorarios."
         },
         {
           "q": "¿Necesito extractos bancarios?",
-          "a": "Desde el 20 de febrero de 2026, ya no se requieren extractos bancarios de 3 meses. Los empleados muestran ITR + Certificate of Employment; los dueños de negocio muestran registro + permiso."
+          "a": "La lista turística actual exige un certificado bancario para empleados ordinarios, sin enumerar un extracto como documento separado. No es una exención general de pruebas económicas: sigue tu categoría y cualquier petición adicional. Certificado bancario: expedido a nombre del solicitante en los últimos 3 meses, con nombre, número, tipo de cuenta, fecha de apertura, saldo actual y saldo medio diario de 6 meses (ADB)."
         },
         {
           "q": "¿Cuánto tarda?",
-          "a": "Unos 3–5 días hábiles, más alrededor de feriados coreanos como Chuseok y Seollal."
+          "a": "Desde 2026-10-01: el trámite C-3 ordinario tarda 12 días laborables; el exprés sigue en 5 días laborables. Comprueba por separado los requisitos del exprés. No se garantiza la aprobación ni la entrada. Pueden solicitar documentos adicionales y recalcular el plazo tras su entrega."
         },
         {
           "q": "¿Dónde solicito?",
-          "a": "En la Embassy of Korea in the Philippines o a través de una agencia de viajes acreditada por la embajada."
-        },
-        {
-          "q": "¿Puedo obtener una visa de entrada múltiple?",
-          "a": "Las visas de entrada múltiple son posibles para viajeros que califiquen (p. ej., un buen historial de viajes). Consulta a la embajada sobre la elegibilidad actual."
-        },
-        {
-          "q": "¿Todavía necesito la e-Arrival Card?",
-          "a": "Las normas de documentos de entrada como la e-Arrival Card aún pueden aplicarse a la llegada. Consulta las normas vigentes cerca de tu fecha de viaje."
+          "a": "Presenta la solicitud a través de KVAC en Filipinas. Revisa sus instrucciones actuales antes de acudir; la Embajada no recibe solicitudes ordinarias directamente. Si recurres a una agencia, elige de la lista vigente de agencias designadas por la Embajada y confirma cómo presentar la solicitud."
         }
       ]
+    },
+    "resources": {
+      "title": "Fuente oficial",
+      "intro": "Es un resumen, no una lista completa. Estudiantes, autónomos, jubilados, solicitantes con patrocinador y otras categorías deben consultar su sección de la lista oficial.",
+      "items": [
+        {
+          "label": "Lista de documentos — con dónde y cómo obtener cada uno",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
+        },
+        {
+          "label": "Aviso actual de plazos",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1"
+        },
+        {
+          "label": "KVAC",
+          "src": "visaforkorea-mn.com",
+          "url": "https://www.visaforkorea-mn.com"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "🏛️",
+        "name": "Fuente oficial",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+        "what": "Lista de documentos — con dónde y cómo obtener cada uno"
+      },
+      {
+        "icon": "🗓️",
+        "name": "Aviso actual de plazos",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+        "what": "Desde 2026-10-01: el trámite C-3 ordinario tarda 12 días laborables; el exprés sigue en 5 días laborables. Comprueba por separado los requisitos del exprés."
+      }
+    ],
+    "factLabels": {
+      "visa_fee": "Tasas de visado y cargos de servicio aparte",
+      "processing": "Aviso actual de plazos",
+      "apply_at": "¿Dónde solicito?"
+    },
+    "factValueLabels": {
+      "For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee.": "Para ciudadanos filipinos: estancias de hasta 59 días sin tasa de expedición; estancias de 60–90 días cuestan PHP 2,000. Los cargos de KVAC son aparte; una agencia puede añadir honorarios.",
+      "Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.": "Desde 2026-10-01: el trámite C-3 ordinario tarda 12 días laborables; el exprés sigue en 5 días laborables. Comprueba por separado los requisitos del exprés.",
+      "Submit through KVAC in the Philippines. Check the current KVAC instructions before visiting; the Embassy does not receive ordinary applications directly.": "Presenta la solicitud a través de KVAC en Filipinas. Revisa sus instrucciones actuales antes de acudir; la Embajada no recibe solicitudes ordinarias directamente."
     }
   },
   "th": {
     "kicker": "คู่มือวีซ่า · ฟิลิปปินส์ → เกาหลี",
-    "readingTime": "อ่าน 8 นาที",
+    "readingTime": "",
     "h1": "วีซ่าเกาหลีสำหรับชาวฟิลิปปินส์",
     "metaTitle": "วีซ่าเข้าเกาหลีจากฟิลิปปินส์: ต้องใช้ไหม? (2026) — Korea Trip Hub",
-    "metaDesc": "ใช่ — ผู้ถือหนังสือเดินทางฟิลิปปินส์ต้องใช้วีซ่าเข้าเกาหลีใต้ (C-3 ท่องเที่ยว) แต่ค่าธรรมเนียมวีซ่าฟรี ที่ที่ต้องยื่นขอ เอกสารและแหล่งที่หาได้แต่ละอย่าง และระยะเวลาดำเนินการ — ทีละขั้นตอน",
+    "metaDesc": "ผู้ถือหนังสือเดินทางฟิลิปปินส์ต้องมีวีซ่าท่องเที่ยว C-3-9 เพื่อเดินทางไปเกาหลีแผ่นดินใหญ่ ยื่นผ่าน KVAC ในฟิลิปปินส์ ตรวจสอบคำแนะนำล่าสุดของ KVAC ก่อนเดินทางไป สถานทูตไม่รับคำขอทั่วไปโดยตรง",
+    "updated": "2026-10-02",
     "ui": {
       "visa": "ประเภทวีซ่า",
       "stay": "ระยะเวลาพำนัก",
@@ -726,101 +637,90 @@
       "tldr": "สรุป"
     },
     "verdict": {
-      "headline": "ใช่ — ผู้ถือหนังสือเดินทางฟิลิปปินส์ต้องมีวีซ่า แต่ฟรี",
-      "sub": "คุณยื่นขอวีซ่าท่องเที่ยว C-3 ก่อนเดินทางไปยังเกาหลีแผ่นดินใหญ่ ข้อดี: ไม่มีค่าธรรมเนียมวีซ่า ดำเนินการรวดเร็ว และตั้งแต่เดือนกุมภาพันธ์ 2026 คุณไม่ต้องยื่นรายการเดินบัญชีธนาคารย้อนหลัง 3 เดือนอีกต่อไป",
-      "type": "C-3 ท่องเที่ยว",
-      "stay": "สูงสุด 90 วัน",
-      "entry": "เข้าครั้งเดียว (เข้าหลายครั้งได้สำหรับผู้เดินทางที่มีคุณสมบัติ)"
+      "need": true,
+      "headline": "ผู้ถือหนังสือเดินทางฟิลิปปินส์ต้องมีวีซ่าท่องเที่ยว C-3-9 เพื่อเดินทางไปเกาหลีแผ่นดินใหญ่",
+      "sub": "ยื่นผ่าน KVAC ในฟิลิปปินส์ ตรวจสอบคำแนะนำล่าสุดของ KVAC ก่อนเดินทางไป สถานทูตไม่รับคำขอทั่วไปโดยตรง",
+      "type": "C-3-9",
+      "stay": "",
+      "entry": ""
     },
     "highlights": [
       {
-        "icon": "🆓",
+        "icon": "🧾",
         "tone": "green",
-        "title": "ไม่มีค่าธรรมเนียมวีซ่า",
-        "body": "วีซ่าท่องเที่ยว C-3 ฟรีสำหรับผู้ถือหนังสือเดินทางฟิลิปปินส์ ระวังตัวแทนที่เพิ่มค่าบริการของตนเอง"
+        "title": "ค่าธรรมเนียมวีซ่าและค่าบริการแยกต่างหาก",
+        "body": "สำหรับผู้สมัครสัญชาติฟิลิปปินส์: พำนักไม่เกิน 59 วันยกเว้นค่าธรรมเนียมออกวีซ่า; 60–90 วันมีค่าธรรมเนียม PHP 2,000 ค่าบริการ KVAC แยกต่างหาก และตัวแทนอาจเรียกเก็บค่าบริการเพิ่ม"
       },
       {
-        "icon": "📉",
+        "icon": "🗓️",
         "tone": "blue",
-        "title": "ง่ายขึ้นตั้งแต่ 20 ก.พ. 2026",
-        "body": "ผู้ยื่นในฟิลิปปินส์ไม่ต้องยื่นรายการเดินบัญชีธนาคารย้อนหลัง 3 เดือนอีกต่อไป พนักงานแสดง ITR + Certificate of Employment แทน"
-      },
-      {
-        "icon": "🏝️",
-        "tone": "amber",
-        "title": "เกาะเชจู (Jeju) — การเข้าเมืองแบบไม่ต้องมีวีซ่าแยกต่างหาก",
-        "body": "มีตัวเลือกการเข้าเมืองแบบไม่ต้องมีวีซ่าอย่างจำกัด (เริ่มจากเกาะเชจู) ซึ่งแยกจากวีซ่าท่องเที่ยวแผ่นดินใหญ่"
+        "title": "ประกาศระยะเวลาพิจารณาล่าสุด",
+        "body": "ตั้งแต่ 2026-10-01: การพิจารณา C-3 ทั่วไปใช้ 12 วันทำการ ส่วนคำขอเร่งด่วนยังใช้ 5 วันทำการ ตรวจสอบคุณสมบัติการยื่นเร่งด่วนแยกต่างหาก"
       }
     ],
     "tldr": [
-      "ต้องมีวีซ่าท่องเที่ยว C-3 สำหรับเกาหลีแผ่นดินใหญ่ — แต่ฟรี",
-      "กรอกแบบฟอร์มที่ visa.go.kr แล้วยื่นผ่านสถานทูตเกาหลีหรือตัวแทนท่องเที่ยวที่ได้รับการรับรอง",
-      "พนักงาน: นำ ITR + Certificate of Employment มาด้วย เจ้าของธุรกิจ: DTI/SEC + ใบอนุญาตประกอบธุรกิจ",
-      "ตั้งแต่เดือนกุมภาพันธ์ 2026 คุณไม่ต้องใช้รายการเดินบัญชีธนาคาร 3 เดือนอีกต่อไป การดำเนินการใช้เวลาประมาณ 3–5 วันทำการ"
+      "ผู้ถือหนังสือเดินทางฟิลิปปินส์ต้องมีวีซ่าท่องเที่ยว C-3-9 เพื่อเดินทางไปเกาหลีแผ่นดินใหญ่",
+      "สำหรับผู้สมัครสัญชาติฟิลิปปินส์: พำนักไม่เกิน 59 วันยกเว้นค่าธรรมเนียมออกวีซ่า; 60–90 วันมีค่าธรรมเนียม PHP 2,000 ค่าบริการ KVAC แยกต่างหาก และตัวแทนอาจเรียกเก็บค่าบริการเพิ่ม",
+      "ตั้งแต่ 2026-10-01: การพิจารณา C-3 ทั่วไปใช้ 12 วันทำการ ส่วนคำขอเร่งด่วนยังใช้ 5 วันทำการ ตรวจสอบคุณสมบัติการยื่นเร่งด่วนแยกต่างหาก",
+      "รายการท่องเที่ยวล่าสุดระบุหนังสือรับรองธนาคารสำหรับพนักงานทั่วไป โดยไม่ได้แยกรายการเดินบัญชีต่างหาก ไม่ใช่การยกเว้นหลักฐานการเงินทั้งหมด ต้องทำตามหมวดผู้สมัครและคำขอเพิ่มเติม"
     ],
     "steps": {
       "title": "การยื่นคำขอ ทีละขั้นตอน",
       "items": [
         {
           "n": 1,
-          "title": "ยืนยันประเภทวีซ่า",
-          "detail": "สำหรับการท่องเที่ยว ให้ยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3"
+          "title": "เตรียมเอกสารของคุณ",
+          "detail": "นี่เป็นสรุป ไม่ใช่รายการครบถ้วน นักเรียน ผู้ทำงานอิสระ ผู้เกษียณ ผู้สมัครที่มีผู้สนับสนุน และกลุ่มอื่นต้องดูหมวดของตนในรายการทางการ",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+          "linkLabel": "แหล่งข้อมูลทางการ"
         },
         {
           "n": 2,
-          "title": "กรอกแบบฟอร์มที่ visa.go.kr",
-          "detail": "กรอกแบบฟอร์มคำขอที่ Korea Visa Portal — เว็บไซต์ทางการเพียงแห่งเดียว — จากนั้นพิมพ์และลงนาม",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "Korea Visa Portal"
+          "title": "KVAC",
+          "detail": "ยื่นผ่าน KVAC ในฟิลิปปินส์ ตรวจสอบคำแนะนำล่าสุดของ KVAC ก่อนเดินทางไป สถานทูตไม่รับคำขอทั่วไปโดยตรง หากใช้ตัวแทน ให้เลือกจากรายชื่อตัวแทนที่สถานทูตแต่งตั้งล่าสุดและยืนยันวิธีส่งเอกสาร",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1",
+          "linkLabel": "แหล่งข้อมูลทางการ"
         },
         {
           "n": 3,
-          "title": "เตรียมเอกสารของคุณ",
-          "detail": "รวบรวมรายการตรวจสอบด้านล่าง พนักงานเน้นที่ ITR + Certificate of Employment เจ้าของธุรกิจเน้นที่การจดทะเบียน + ใบอนุญาต"
+          "title": "ประกาศระยะเวลาพิจารณาล่าสุด",
+          "detail": "ตั้งแต่ 2026-10-01: การพิจารณา C-3 ทั่วไปใช้ 12 วันทำการ ส่วนคำขอเร่งด่วนยังใช้ 5 วันทำการ ตรวจสอบคุณสมบัติการยื่นเร่งด่วนแยกต่างหาก ไม่รับประกันการอนุมัติวีซ่าหรือการเข้าประเทศ อาจมีการขอเอกสารเพิ่มเติมและคำนวณระยะเวลาพิจารณาใหม่หลังยื่น",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+          "linkLabel": "แหล่งข้อมูลทางการ"
         },
         {
           "n": 4,
-          "title": "ยื่นที่สถานทูต / ตัวแทนที่ได้รับการรับรอง",
-          "detail": "ยื่นคำขอของคุณที่ Embassy of Korea in the Philippines หรือตัวแทนท่องเที่ยวที่สถานทูตรับรอง"
-        },
-        {
-          "n": 5,
-          "title": "ไม่มีค่าธรรมเนียมวีซ่าที่ต้องจ่าย",
-          "detail": "ตัววีซ่าเองฟรี หากคุณใช้ตัวแทนท่องเที่ยว พวกเขาอาจเรียกเก็บค่าดำเนินการของตนเอง — ค่าธรรมเนียมของสถานทูตเป็นศูนย์"
-        },
-        {
-          "n": 6,
-          "title": "รอประมาณ 3–5 วันทำการ",
-          "detail": "การดำเนินการรวดเร็ว แต่ควรเผื่อเวลามากขึ้นในช่วงวันหยุดของเกาหลี (Chuseok, Seollal)"
-        },
-        {
-          "n": 7,
           "title": "รับหนังสือเดินทางของคุณ",
-          "detail": "รับหนังสือเดินทางและตรวจสอบรายละเอียดวีซ่าทันที"
+          "detail": "ไป KVAC หลังได้รับแจ้งทาง SMS รับหนังสือเดินทางและตรวจสอบรายละเอียดการออกวีซ่า"
         }
       ]
     },
     "documents": {
       "title": "รายการตรวจสอบเอกสาร — พร้อมที่ที่รับและวิธีรับแต่ละอย่าง",
-      "intro": "สำหรับแต่ละรายการ นี่คือที่ที่คุณจะรับได้และสิ่งที่ต้องแสดง ข้อกำหนดแตกต่างกันสำหรับพนักงาน เจ้าของธุรกิจ และนักเรียน",
+      "intro": "นี่เป็นสรุป ไม่ใช่รายการครบถ้วน นักเรียน ผู้ทำงานอิสระ ผู้เกษียณ ผู้สมัครที่มีผู้สนับสนุน และกลุ่มอื่นต้องดูหมวดของตนในรายการทางการ",
       "cols": [
         "เอกสาร",
         "รับได้ที่ไหน",
         "ต้องแสดงอะไร"
       ],
+      "legend": {
+        "required": "จำเป็น",
+        "conditional": "ขึ้นอยู่กับงานของคุณ",
+        "recommended": "แนะนำ"
+      },
       "rows": [
         {
           "doc": "หนังสือเดินทาง",
           "req": "required",
           "where": "คุณมีอยู่แล้ว",
-          "how": "มีอายุใช้งานเหลือ 6 เดือนขึ้นไป และมีหน้าว่าง"
+          "how": "หนังสือเดินทางฉบับจริงและสำเนาหน้าข้อมูลส่วนบุคคล"
         },
         {
           "doc": "แบบฟอร์มคำขอวีซ่า",
           "req": "required",
-          "where": "visa.go.kr",
-          "how": "กรอกที่ Korea Visa Portal พิมพ์ ลงนาม",
-          "link": "https://www.visa.go.kr"
+          "where": "แหล่งข้อมูลทางการ",
+          "how": "ใช้แบบฟอร์มที่แนบกับข้อกำหนดวีซ่าท่องเที่ยวอย่างเป็นทางการของสถานทูต และปฏิบัติตามคำแนะนำในแบบฟอร์ม",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
         },
         {
           "doc": "รูปถ่าย",
@@ -830,79 +730,22 @@
         },
         {
           "doc": "หนังสือรับรองธนาคาร",
-          "req": "required",
-          "where": "ธนาคารของคุณ",
-          "how": "หนังสือรับรองธนาคารของบัญชีคุณ หมายเหตุ: ตั้งแต่ 20 ก.พ. 2026 ไม่ต้องใช้รายการเดินบัญชีธนาคาร 3 เดือนอีกต่อไป"
-        },
-        {
-          "doc": "ITR (พนักงาน)",
           "req": "conditional",
-          "where": "BIR / นายจ้าง (Form 2316)",
-          "how": "แบบแสดงรายการภาษีเงินได้ (Income Tax Return) ที่พิสูจน์รายได้จากการทำงานของคุณ",
-          "link": "https://www.bir.gov.ph"
+          "where": "ธนาคารของคุณ",
+          "how": "หนังสือรับรองธนาคาร: ออกในชื่อผู้สมัครภายใน 3 เดือนล่าสุด ระบุชื่อ เลขที่ ประเภทบัญชี วันที่เปิดบัญชี ยอดปัจจุบัน และยอดเฉลี่ยรายวันย้อนหลัง 6 เดือน (ADB)"
         },
         {
-          "doc": "Certificate of Employment (COE)",
+          "doc": "Certificate of Employment (COE) / ITR",
           "req": "conditional",
           "where": "นายจ้าง / ฝ่ายบุคคลของคุณ",
-          "how": "บนหัวจดหมายของบริษัท: ตำแหน่ง เงินเดือน และวันลาที่ได้รับอนุมัติ"
+          "how": "พนักงาน: COE บนหัวกระดาษบริษัท ออกภายใน 3 เดือนล่าสุด ระบุตำแหน่ง เงินเดือน วันเริ่มงาน ที่อยู่บริษัท โทรศัพท์และอีเมลฝ่ายบุคคล พร้อม ITR (BIR Form 2316 หรือ 1701)"
         },
         {
           "doc": "การจดทะเบียนธุรกิจ (ผู้ประกอบอาชีพอิสระ)",
           "req": "conditional",
           "where": "DTI หรือ SEC + LGU",
-          "how": "การจดทะเบียน DTI (เจ้าของคนเดียว) หรือ SEC (บริษัท) พร้อมใบอนุญาตประกอบธุรกิจ/ใบอนุญาตของนายกเทศมนตรี (mayor's permit)",
+          "how": "เจ้าของกิจการคนเดียว: ใบรับรอง DTI ใบอนุญาตธุรกิจ/นายกเทศมนตรี และ ITR (BIR Form 1701) ผู้สมัครนิติบุคคล: หน้าแรกทะเบียน SEC และ GIS ใบอนุญาตนายกเทศมนตรี และ ITR (BIR Form 1701 หรือ 1702)",
           "link": "https://www.dti.gov.ph"
-        },
-        {
-          "doc": "การจองเที่ยวบินไป-กลับและโรงแรม",
-          "req": "required",
-          "where": "สายการบิน / เว็บไซต์จอง",
-          "how": "การจอง/กำหนดการเดินทางก็เพียงพอ — อย่าจ่ายค่าตั๋วก่อนได้รับอนุมัติ"
-        }
-      ],
-      "legend": {
-        "required": "จำเป็น",
-        "conditional": "ขึ้นอยู่กับงานของคุณ",
-        "recommended": "แนะนำ"
-      }
-    },
-    "funds": {
-      "title": "\"ฉันจะพิสูจน์ได้อย่างไรว่าฉันมีเงินพอสำหรับการเดินทาง?\"",
-      "body": "ตั้งแต่เดือนกุมภาพันธ์ 2026 คุณไม่ต้องยื่นรายการเดินบัญชีธนาคาร 3 เดือนอีกต่อไป — หนังสือรับรองธนาคารพร้อมกับ ITR/หลักฐานการจ้างงาน (หรือธุรกิจ) เป็นตัวบอกเล่าสถานะทางการเงิน เป้าหมายคือแสดงรายได้ที่มั่นคงและความผูกพันที่แน่นแฟ้นกับฟิลิปปินส์",
-      "tips": [
-        "พนักงาน: ITR + Certificate of Employment คือหัวใจของแฟ้มเอกสารของคุณ",
-        "เจ้าของธุรกิจ: การจดทะเบียน + ใบอนุญาตประกอบธุรกิจ + หนังสือรับรองธนาคาร",
-        "มีผู้สนับสนุนใช่ไหม? เพิ่มเอกสารของผู้สนับสนุนและหลักฐานความสัมพันธ์"
-      ]
-    },
-    "pitfalls": {
-      "title": "ข้อผิดพลาดที่ทำให้ถูกปฏิเสธและล่าช้า",
-      "items": [
-        {
-          "icon": "💳",
-          "t": "การจ่าย 'ค่าธรรมเนียมวีซ่า'",
-          "d": "วีซ่าที่สถานทูตฟรี มีเพียงค่าดำเนินการของตัวแทนเท่านั้นที่เป็นค่าใช้จ่ายเพิ่มเติมที่ถูกต้อง"
-        },
-        {
-          "icon": "🧾",
-          "t": "หลักฐานการจ้างงานอ่อนแอ",
-          "d": "ขาด ITR หรือ COE ตอนนี้สิ่งเหล่านี้คือหัวใจของแฟ้มเอกสารของผู้ยื่นชาวฟิลิปปินส์"
-        },
-        {
-          "icon": "🎫",
-          "t": "จ่ายค่าเที่ยวบินเร็วเกินไป",
-          "d": "ซื้อตั๋วที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ — การจองก็เพียงพอ"
-        },
-        {
-          "icon": "🏝️",
-          "t": "สับสนระหว่าง Jeju กับแผ่นดินใหญ่",
-          "d": "ตัวเลือกไม่ต้องมีวีซ่าของ Jeju ไม่ครอบคลุมการเดินทางในเกาหลีแผ่นดินใหญ่"
-        },
-        {
-          "icon": "🗓️",
-          "t": "ยื่นในช่วงวันหยุดสูงสุด",
-          "d": "การดำเนินการช้าลงในช่วง Chuseok/Seollal — ยื่นให้เร็วขึ้น"
         }
       ]
     },
@@ -911,41 +754,79 @@
       "items": [
         {
           "q": "ชาวฟิลิปปินส์ต้องมีวีซ่าไปเกาหลีหรือไม่?",
-          "a": "ต้องมีสำหรับเกาหลีแผ่นดินใหญ่ — คุณยื่นขอวีซ่าท่องเที่ยว C-3 ก่อนเดินทาง ซึ่งฟรี เกาะเชจู (Jeju) มีการเข้าเมืองแบบไม่ต้องมีวีซ่าแยกต่างหาก"
+          "a": "ผู้ถือหนังสือเดินทางฟิลิปปินส์ต้องมีวีซ่าท่องเที่ยว C-3-9 เพื่อเดินทางไปเกาหลีแผ่นดินใหญ่"
         },
         {
           "q": "ค่าธรรมเนียมวีซ่าเท่าไหร่?",
-          "a": "ไม่มีค่าธรรมเนียมวีซ่าสำหรับวีซ่าท่องเที่ยว C-3 สำหรับผู้ถือหนังสือเดินทางฟิลิปปินส์ ตัวแทนท่องเที่ยวอาจเรียกเก็บค่าบริการของตนเอง แต่ค่าธรรมเนียมของสถานทูตเป็นศูนย์"
+          "a": "สำหรับผู้สมัครสัญชาติฟิลิปปินส์: พำนักไม่เกิน 59 วันยกเว้นค่าธรรมเนียมออกวีซ่า; 60–90 วันมีค่าธรรมเนียม PHP 2,000 ค่าบริการ KVAC แยกต่างหาก และตัวแทนอาจเรียกเก็บค่าบริการเพิ่ม"
         },
         {
           "q": "ฉันต้องใช้รายการเดินบัญชีธนาคารหรือไม่?",
-          "a": "ตั้งแต่ 20 ก.พ. 2026 ไม่ต้องใช้รายการเดินบัญชีธนาคาร 3 เดือนอีกต่อไป พนักงานแสดง ITR + Certificate of Employment เจ้าของธุรกิจแสดงการจดทะเบียน + ใบอนุญาต"
+          "a": "รายการท่องเที่ยวล่าสุดระบุหนังสือรับรองธนาคารสำหรับพนักงานทั่วไป โดยไม่ได้แยกรายการเดินบัญชีต่างหาก ไม่ใช่การยกเว้นหลักฐานการเงินทั้งหมด ต้องทำตามหมวดผู้สมัครและคำขอเพิ่มเติม หนังสือรับรองธนาคาร: ออกในชื่อผู้สมัครภายใน 3 เดือนล่าสุด ระบุชื่อ เลขที่ ประเภทบัญชี วันที่เปิดบัญชี ยอดปัจจุบัน และยอดเฉลี่ยรายวันย้อนหลัง 6 เดือน (ADB)"
         },
         {
           "q": "ใช้เวลานานเท่าไหร่?",
-          "a": "ประมาณ 3–5 วันทำการ นานกว่านั้นในช่วงวันหยุดของเกาหลีเช่น Chuseok และ Seollal"
+          "a": "ตั้งแต่ 2026-10-01: การพิจารณา C-3 ทั่วไปใช้ 12 วันทำการ ส่วนคำขอเร่งด่วนยังใช้ 5 วันทำการ ตรวจสอบคุณสมบัติการยื่นเร่งด่วนแยกต่างหาก ไม่รับประกันการอนุมัติวีซ่าหรือการเข้าประเทศ อาจมีการขอเอกสารเพิ่มเติมและคำนวณระยะเวลาพิจารณาใหม่หลังยื่น"
         },
         {
           "q": "ฉันยื่นได้ที่ไหน?",
-          "a": "ที่ Embassy of Korea in the Philippines หรือผ่านตัวแทนท่องเที่ยวที่สถานทูตรับรอง"
-        },
-        {
-          "q": "ฉันขอวีซ่าเข้าหลายครั้งได้หรือไม่?",
-          "a": "วีซ่าเข้าหลายครั้งเป็นไปได้สำหรับผู้เดินทางที่มีคุณสมบัติ (เช่น มีประวัติการเดินทางที่ดี) สอบถามสถานทูตเกี่ยวกับคุณสมบัติปัจจุบัน"
-        },
-        {
-          "q": "ฉันยังต้องใช้ e-Arrival Card หรือไม่?",
-          "a": "กฎเกี่ยวกับเอกสารเข้าเมืองเช่น e-Arrival Card อาจยังคงมีผลเมื่อเดินทางถึง ตรวจสอบกฎปัจจุบันใกล้วันเดินทางของคุณ"
+          "a": "ยื่นผ่าน KVAC ในฟิลิปปินส์ ตรวจสอบคำแนะนำล่าสุดของ KVAC ก่อนเดินทางไป สถานทูตไม่รับคำขอทั่วไปโดยตรง หากใช้ตัวแทน ให้เลือกจากรายชื่อตัวแทนที่สถานทูตแต่งตั้งล่าสุดและยืนยันวิธีส่งเอกสาร"
         }
       ]
+    },
+    "resources": {
+      "title": "แหล่งข้อมูลทางการ",
+      "intro": "นี่เป็นสรุป ไม่ใช่รายการครบถ้วน นักเรียน ผู้ทำงานอิสระ ผู้เกษียณ ผู้สมัครที่มีผู้สนับสนุน และกลุ่มอื่นต้องดูหมวดของตนในรายการทางการ",
+      "items": [
+        {
+          "label": "รายการตรวจสอบเอกสาร — พร้อมที่ที่รับและวิธีรับแต่ละอย่าง",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
+        },
+        {
+          "label": "ประกาศระยะเวลาพิจารณาล่าสุด",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1"
+        },
+        {
+          "label": "KVAC",
+          "src": "visaforkorea-mn.com",
+          "url": "https://www.visaforkorea-mn.com"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "🏛️",
+        "name": "แหล่งข้อมูลทางการ",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+        "what": "รายการตรวจสอบเอกสาร — พร้อมที่ที่รับและวิธีรับแต่ละอย่าง"
+      },
+      {
+        "icon": "🗓️",
+        "name": "ประกาศระยะเวลาพิจารณาล่าสุด",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+        "what": "ตั้งแต่ 2026-10-01: การพิจารณา C-3 ทั่วไปใช้ 12 วันทำการ ส่วนคำขอเร่งด่วนยังใช้ 5 วันทำการ ตรวจสอบคุณสมบัติการยื่นเร่งด่วนแยกต่างหาก"
+      }
+    ],
+    "factLabels": {
+      "visa_fee": "ค่าธรรมเนียมวีซ่าและค่าบริการแยกต่างหาก",
+      "processing": "ประกาศระยะเวลาพิจารณาล่าสุด",
+      "apply_at": "ฉันยื่นได้ที่ไหน?"
+    },
+    "factValueLabels": {
+      "For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee.": "สำหรับผู้สมัครสัญชาติฟิลิปปินส์: พำนักไม่เกิน 59 วันยกเว้นค่าธรรมเนียมออกวีซ่า; 60–90 วันมีค่าธรรมเนียม PHP 2,000 ค่าบริการ KVAC แยกต่างหาก และตัวแทนอาจเรียกเก็บค่าบริการเพิ่ม",
+      "Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.": "ตั้งแต่ 2026-10-01: การพิจารณา C-3 ทั่วไปใช้ 12 วันทำการ ส่วนคำขอเร่งด่วนยังใช้ 5 วันทำการ ตรวจสอบคุณสมบัติการยื่นเร่งด่วนแยกต่างหาก",
+      "Submit through KVAC in the Philippines. Check the current KVAC instructions before visiting; the Embassy does not receive ordinary applications directly.": "ยื่นผ่าน KVAC ในฟิลิปปินส์ ตรวจสอบคำแนะนำล่าสุดของ KVAC ก่อนเดินทางไป สถานทูตไม่รับคำขอทั่วไปโดยตรง"
     }
   },
   "ms": {
     "kicker": "Panduan visa · Filipina → Korea",
-    "readingTime": "Bacaan 8 min",
+    "readingTime": "",
     "h1": "Visa Korea untuk rakyat Filipina",
     "metaTitle": "Visa Filipina ke Korea: Adakah Anda Memerlukannya? (2026) — Korea Trip Hub",
-    "metaDesc": "Ya — pemegang pasport Filipina memerlukan visa untuk Korea Selatan (pelancong C-3), tetapi yuran visa adalah PERCUMA. Di mana untuk memohon, dokumen dan di mana untuk mendapatkan setiapnya, dan masa pemprosesan — langkah demi langkah.",
+    "metaDesc": "Pemegang pasport Filipina memerlukan visa pelancong C-3-9 untuk melawat tanah besar Korea. Hantar melalui KVAC di Filipina. Semak arahan KVAC terkini sebelum hadir; Kedutaan tidak menerima permohonan biasa secara langsung.",
+    "updated": "2026-10-02",
     "ui": {
       "visa": "Jenis visa",
       "stay": "Tempoh tinggal",
@@ -961,101 +842,90 @@
       "tldr": "RINGKASAN"
     },
     "verdict": {
-      "headline": "Ya — pemegang pasport Filipina memerlukan visa, tetapi ia PERCUMA.",
-      "sub": "Anda memohon visa pelancong C-3 sebelum melancong ke tanah besar Korea. Kelebihannya: tiada yuran visa, pemprosesan pantas, dan sejak Februari 2026 anda tidak lagi menghantar penyata bank 3 bulan.",
-      "type": "C-3 Pelancong",
-      "stay": "Sehingga 90 hari",
-      "entry": "Kemasukan tunggal (kemasukan berbilang mungkin untuk pelancong yang layak)"
+      "need": true,
+      "headline": "Pemegang pasport Filipina memerlukan visa pelancong C-3-9 untuk melawat tanah besar Korea.",
+      "sub": "Hantar melalui KVAC di Filipina. Semak arahan KVAC terkini sebelum hadir; Kedutaan tidak menerima permohonan biasa secara langsung.",
+      "type": "C-3-9",
+      "stay": "",
+      "entry": ""
     },
     "highlights": [
       {
-        "icon": "🆓",
+        "icon": "🧾",
         "tone": "green",
-        "title": "Tiada yuran visa",
-        "body": "Visa pelancong C-3 adalah percuma untuk pemegang pasport Filipina. Berhati-hati dengan agensi yang menambah caj perkhidmatan mereka sendiri."
+        "title": "Fi visa dan caj perkhidmatan berasingan",
+        "body": "Bagi warga Filipina: penginapan 59 hari atau kurang dikecualikan fi pengeluaran visa; 60–90 hari dikenakan PHP 2,000. Caj KVAC berasingan; agensi mungkin mengenakan fi perkhidmatan."
       },
       {
-        "icon": "📉",
+        "icon": "🗓️",
         "tone": "blue",
-        "title": "Dipermudah sejak 20 Feb 2026",
-        "body": "Pemohon di Filipina tidak lagi dikehendaki menghantar penyata bank untuk 3 bulan terakhir. Pekerja menunjukkan ITR + Certificate of Employment sebaliknya."
-      },
-      {
-        "icon": "🏝️",
-        "tone": "amber",
-        "title": "Pulau Jeju — kemasukan tanpa visa yang berasingan",
-        "body": "Terdapat pilihan kemasukan tanpa visa yang terhad (bermula dengan Pulau Jeju). Ia berasingan daripada visa pelancong tanah besar."
+        "title": "Notis tempoh pemprosesan terkini",
+        "body": "Mulai 2026-10-01: pemprosesan C-3 biasa ialah 12 hari bekerja; permohonan ekspres kekal 5 hari bekerja. Semak kelayakan ekspres secara berasingan."
       }
     ],
     "tldr": [
-      "Visa pelancong C-3 diperlukan untuk tanah besar Korea — tetapi ia PERCUMA.",
-      "Isi borang di visa.go.kr, kemudian hantar melalui Kedutaan Korea atau agensi pelancongan yang diiktiraf.",
-      "Pekerja: bawa ITR + Certificate of Employment. Pemilik perniagaan: DTI/SEC + permit perniagaan.",
-      "Sejak Februari 2026 anda tidak lagi memerlukan penyata bank 3 bulan. Pemprosesan mengambil masa kira-kira 3–5 hari bekerja."
+      "Pemegang pasport Filipina memerlukan visa pelancong C-3-9 untuk melawat tanah besar Korea.",
+      "Bagi warga Filipina: penginapan 59 hari atau kurang dikecualikan fi pengeluaran visa; 60–90 hari dikenakan PHP 2,000. Caj KVAC berasingan; agensi mungkin mengenakan fi perkhidmatan.",
+      "Mulai 2026-10-01: pemprosesan C-3 biasa ialah 12 hari bekerja; permohonan ekspres kekal 5 hari bekerja. Semak kelayakan ekspres secara berasingan.",
+      "Senarai pelancong terkini menyenaraikan sijil bank bagi pekerja biasa, bukan penyata bank sebagai item berasingan. Ini bukan pengecualian menyeluruh bukti kewangan: ikut kategori dan permintaan tambahan."
     ],
     "steps": {
       "title": "Permohonan, langkah demi langkah",
       "items": [
         {
           "n": 1,
-          "title": "Sahkan jenis visa",
-          "detail": "Untuk pelancongan, mohon visa pelancong jangka pendek C-3."
+          "title": "Sediakan dokumen anda",
+          "detail": "Ini ringkasan, bukan senarai lengkap. Pelajar, pekerja bebas, pesara, pemohon yang ditaja dan kategori lain perlu merujuk bahagian masing-masing dalam senarai rasmi.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+          "linkLabel": "Sumber rasmi"
         },
         {
           "n": 2,
-          "title": "Isi borang di visa.go.kr",
-          "detail": "Lengkapkan borang permohonan di Korea Visa Portal — satu-satunya laman rasmi — kemudian cetak dan tandatangani.",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "Korea Visa Portal"
+          "title": "KVAC",
+          "detail": "Hantar melalui KVAC di Filipina. Semak arahan KVAC terkini sebelum hadir; Kedutaan tidak menerima permohonan biasa secara langsung. Jika menggunakan agensi, pilih daripada senarai agensi dilantik Kedutaan terkini dan sahkan kaedah penghantaran.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1",
+          "linkLabel": "Sumber rasmi"
         },
         {
           "n": 3,
-          "title": "Sediakan dokumen anda",
-          "detail": "Kumpulkan senarai semak di bawah. Pekerja tertumpu pada ITR + Certificate of Employment; pemilik perniagaan pada pendaftaran + permit."
+          "title": "Notis tempoh pemprosesan terkini",
+          "detail": "Mulai 2026-10-01: pemprosesan C-3 biasa ialah 12 hari bekerja; permohonan ekspres kekal 5 hari bekerja. Semak kelayakan ekspres secara berasingan. Kelulusan visa dan kemasukan tidak dijamin. Dokumen tambahan boleh diminta; tempoh semakan boleh dikira semula selepas penyerahan.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+          "linkLabel": "Sumber rasmi"
         },
         {
           "n": 4,
-          "title": "Hantar ke Kedutaan / agensi yang diiktiraf",
-          "detail": "Kemukakan permohonan anda ke Embassy of Korea in the Philippines atau agensi pelancongan yang diiktiraf oleh kedutaan."
-        },
-        {
-          "n": 5,
-          "title": "Tiada yuran visa untuk dibayar",
-          "detail": "Visa itu sendiri percuma. Jika anda menggunakan agensi pelancongan, mereka mungkin mengenakan yuran pengendalian sendiri — yuran kedutaan adalah sifar."
-        },
-        {
-          "n": 6,
-          "title": "Tunggu ~3–5 hari bekerja",
-          "detail": "Pemprosesan pantas, tetapi peruntukkan lebih banyak masa sekitar cuti Korea (Chuseok, Seollal)."
-        },
-        {
-          "n": 7,
           "title": "Ambil pasport anda",
-          "detail": "Ambil pasport anda dan semak butiran visa dengan segera."
+          "detail": "Hadir ke KVAC selepas menerima notis SMS. Ambil pasport dan semak butiran pengeluaran visa."
         }
       ]
     },
     "documents": {
       "title": "Senarai semak dokumen — dengan di mana & bagaimana mendapatkan setiap satu",
-      "intro": "Untuk setiap item, di sini di mana untuk mendapatkannya dan apa yang mesti ditunjukkan. Keperluan berbeza untuk pekerja, pemilik perniagaan dan pelajar.",
+      "intro": "Ini ringkasan, bukan senarai lengkap. Pelajar, pekerja bebas, pesara, pemohon yang ditaja dan kategori lain perlu merujuk bahagian masing-masing dalam senarai rasmi.",
       "cols": [
         "Dokumen",
         "Di mana untuk mendapatkannya",
         "Apa yang mesti ditunjukkan"
       ],
+      "legend": {
+        "required": "Diperlukan",
+        "conditional": "Bergantung pada pekerjaan anda",
+        "recommended": "Disyorkan"
+      },
       "rows": [
         {
           "doc": "Pasport",
           "req": "required",
           "where": "Anda sudah memilikinya",
-          "how": "Sah 6+ bulan dengan muka surat kosong."
+          "how": "Pasport asal dan salinan halaman biodata pasport."
         },
         {
           "doc": "Borang permohonan visa",
           "req": "required",
-          "where": "visa.go.kr",
-          "how": "Lengkapkan di Korea Visa Portal, cetak, tandatangani.",
-          "link": "https://www.visa.go.kr"
+          "where": "Sumber rasmi",
+          "how": "Gunakan borang yang dilampirkan pada keperluan visa pelancong rasmi Kedutaan dan ikuti arahan borang.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
         },
         {
           "doc": "Foto",
@@ -1065,79 +935,22 @@
         },
         {
           "doc": "Sijil bank",
-          "req": "required",
-          "where": "Bank anda",
-          "how": "Sijil bank akaun anda. Nota: sejak 20 Feb 2026, penyata bank 3 bulan tidak lagi diperlukan."
-        },
-        {
-          "doc": "ITR (pekerja)",
           "req": "conditional",
-          "where": "BIR / majikan (Form 2316)",
-          "how": "Penyata Cukai Pendapatan (Income Tax Return) yang membuktikan pendapatan pekerjaan anda.",
-          "link": "https://www.bir.gov.ph"
+          "where": "Bank anda",
+          "how": "Sijil bank: dikeluarkan atas nama pemohon dalam 3 bulan terkini, dengan nama, nombor, jenis akaun, tarikh pembukaan, baki semasa dan purata baki harian 6 bulan (ADB)."
         },
         {
-          "doc": "Certificate of Employment (COE)",
+          "doc": "Certificate of Employment (COE) / ITR",
           "req": "conditional",
           "where": "Majikan anda / HR",
-          "how": "Pada kepala surat syarikat: jawatan, gaji dan tarikh cuti yang diluluskan."
+          "how": "Pekerja: COE pada kepala surat syarikat, dikeluarkan dalam 3 bulan terkini, menyatakan jawatan, gaji, tarikh mula bekerja, alamat syarikat dan telefon/e-mel HR; serta ITR (BIR Form 2316 atau 1701)."
         },
         {
           "doc": "Pendaftaran perniagaan (bekerja sendiri)",
           "req": "conditional",
           "where": "DTI atau SEC + LGU",
-          "how": "Pendaftaran DTI (pemilik tunggal) atau SEC (syarikat), serta permit perniagaan/permit datuk bandar anda (mayor's permit).",
+          "how": "Pemilik tunggal: sijil DTI, permit perniagaan/datuk bandar dan ITR (BIR Form 1701). Pemohon korporat: halaman pertama pendaftaran SEC dan GIS, permit datuk bandar, ITR (BIR Form 1701 atau 1702).",
           "link": "https://www.dti.gov.ph"
-        },
-        {
-          "doc": "Tempahan penerbangan pergi-balik & hotel",
-          "req": "required",
-          "where": "Syarikat penerbangan / laman tempahan",
-          "how": "Tempahan/jadual perjalanan sudah memadai — jangan bayar tiket sebelum kelulusan."
-        }
-      ],
-      "legend": {
-        "required": "Diperlukan",
-        "conditional": "Bergantung pada pekerjaan anda",
-        "recommended": "Disyorkan"
-      }
-    },
-    "funds": {
-      "title": "\"Bagaimana saya membuktikan saya mampu menampung perjalanan ini?\"",
-      "body": "Sejak Februari 2026, anda tidak lagi menghantar penyata bank 3 bulan — sijil bank bersama ITR/bukti pekerjaan (atau perniagaan) anda membawa gambaran kewangan. Matlamatnya adalah untuk menunjukkan pendapatan yang stabil dan ikatan yang kukuh dengan Filipina.",
-      "tips": [
-        "Pekerja: ITR + Certificate of Employment adalah teras fail anda.",
-        "Pemilik perniagaan: pendaftaran + permit perniagaan + sijil bank.",
-        "Ditaja? Tambahkan dokumen penaja dan bukti hubungan."
-      ]
-    },
-    "pitfalls": {
-      "title": "Kesilapan yang menyebabkan penolakan & kelewatan",
-      "items": [
-        {
-          "icon": "💳",
-          "t": "Membayar 'yuran visa'",
-          "d": "Visa kedutaan adalah PERCUMA. Hanya yuran pengendalian agensi sahaja tambahan yang sah."
-        },
-        {
-          "icon": "🧾",
-          "t": "Bukti pekerjaan yang lemah",
-          "d": "ITR atau COE yang tiada. Ini kini menjadi teras fail pemohon Filipina."
-        },
-        {
-          "icon": "🎫",
-          "t": "Membayar penerbangan terlalu awal",
-          "d": "Membeli tiket tidak boleh dikembalikan sebelum kelulusan — tempahan sudah memadai."
-        },
-        {
-          "icon": "🏝️",
-          "t": "Mengelirukan Jeju dengan tanah besar",
-          "d": "Pilihan tanpa visa Jeju tidak meliputi perjalanan ke tanah besar Korea."
-        },
-        {
-          "icon": "🗓️",
-          "t": "Memohon semasa puncak cuti",
-          "d": "Pemprosesan menjadi perlahan sekitar Chuseok/Seollal — mohon lebih awal."
         }
       ]
     },
@@ -1146,41 +959,79 @@
       "items": [
         {
           "q": "Adakah rakyat Filipina memerlukan visa untuk Korea?",
-          "a": "Ya untuk tanah besar Korea — anda memohon visa pelancong C-3 sebelum melancong. Ia percuma. Pulau Jeju mempunyai kemasukan tanpa visa yang berasingan."
+          "a": "Pemegang pasport Filipina memerlukan visa pelancong C-3-9 untuk melawat tanah besar Korea."
         },
         {
           "q": "Berapakah yuran visa?",
-          "a": "Tiada yuran visa untuk visa pelancong C-3 bagi pemegang pasport Filipina. Agensi pelancongan mungkin mengenakan yuran perkhidmatan sendiri, tetapi yuran kedutaan adalah sifar."
+          "a": "Bagi warga Filipina: penginapan 59 hari atau kurang dikecualikan fi pengeluaran visa; 60–90 hari dikenakan PHP 2,000. Caj KVAC berasingan; agensi mungkin mengenakan fi perkhidmatan."
         },
         {
           "q": "Adakah saya memerlukan penyata bank?",
-          "a": "Sejak 20 Feb 2026, penyata bank 3 bulan tidak lagi diperlukan. Pekerja menunjukkan ITR + Certificate of Employment; pemilik perniagaan menunjukkan pendaftaran + permit."
+          "a": "Senarai pelancong terkini menyenaraikan sijil bank bagi pekerja biasa, bukan penyata bank sebagai item berasingan. Ini bukan pengecualian menyeluruh bukti kewangan: ikut kategori dan permintaan tambahan. Sijil bank: dikeluarkan atas nama pemohon dalam 3 bulan terkini, dengan nama, nombor, jenis akaun, tarikh pembukaan, baki semasa dan purata baki harian 6 bulan (ADB)."
         },
         {
           "q": "Berapa lama masa yang diambil?",
-          "a": "Kira-kira 3–5 hari bekerja, lebih lama sekitar cuti Korea seperti Chuseok dan Seollal."
+          "a": "Mulai 2026-10-01: pemprosesan C-3 biasa ialah 12 hari bekerja; permohonan ekspres kekal 5 hari bekerja. Semak kelayakan ekspres secara berasingan. Kelulusan visa dan kemasukan tidak dijamin. Dokumen tambahan boleh diminta; tempoh semakan boleh dikira semula selepas penyerahan."
         },
         {
           "q": "Di mana saya memohon?",
-          "a": "Di Embassy of Korea in the Philippines atau melalui agensi pelancongan yang diiktiraf oleh kedutaan."
-        },
-        {
-          "q": "Bolehkah saya mendapatkan visa kemasukan berbilang?",
-          "a": "Visa kemasukan berbilang mungkin untuk pelancong yang layak (cth., sejarah perjalanan yang kukuh). Tanya kedutaan tentang kelayakan semasa."
-        },
-        {
-          "q": "Adakah saya masih memerlukan e-Arrival Card?",
-          "a": "Peraturan dokumen kemasukan seperti e-Arrival Card mungkin masih terpakai semasa ketibaan. Semak peraturan semasa hampir dengan tarikh perjalanan anda."
+          "a": "Hantar melalui KVAC di Filipina. Semak arahan KVAC terkini sebelum hadir; Kedutaan tidak menerima permohonan biasa secara langsung. Jika menggunakan agensi, pilih daripada senarai agensi dilantik Kedutaan terkini dan sahkan kaedah penghantaran."
         }
       ]
+    },
+    "resources": {
+      "title": "Sumber rasmi",
+      "intro": "Ini ringkasan, bukan senarai lengkap. Pelajar, pekerja bebas, pesara, pemohon yang ditaja dan kategori lain perlu merujuk bahagian masing-masing dalam senarai rasmi.",
+      "items": [
+        {
+          "label": "Senarai semak dokumen — dengan di mana & bagaimana mendapatkan setiap satu",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
+        },
+        {
+          "label": "Notis tempoh pemprosesan terkini",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1"
+        },
+        {
+          "label": "KVAC",
+          "src": "visaforkorea-mn.com",
+          "url": "https://www.visaforkorea-mn.com"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "🏛️",
+        "name": "Sumber rasmi",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+        "what": "Senarai semak dokumen — dengan di mana & bagaimana mendapatkan setiap satu"
+      },
+      {
+        "icon": "🗓️",
+        "name": "Notis tempoh pemprosesan terkini",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+        "what": "Mulai 2026-10-01: pemprosesan C-3 biasa ialah 12 hari bekerja; permohonan ekspres kekal 5 hari bekerja. Semak kelayakan ekspres secara berasingan."
+      }
+    ],
+    "factLabels": {
+      "visa_fee": "Fi visa dan caj perkhidmatan berasingan",
+      "processing": "Notis tempoh pemprosesan terkini",
+      "apply_at": "Di mana saya memohon?"
+    },
+    "factValueLabels": {
+      "For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee.": "Bagi warga Filipina: penginapan 59 hari atau kurang dikecualikan fi pengeluaran visa; 60–90 hari dikenakan PHP 2,000. Caj KVAC berasingan; agensi mungkin mengenakan fi perkhidmatan.",
+      "Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.": "Mulai 2026-10-01: pemprosesan C-3 biasa ialah 12 hari bekerja; permohonan ekspres kekal 5 hari bekerja. Semak kelayakan ekspres secara berasingan.",
+      "Submit through KVAC in the Philippines. Check the current KVAC instructions before visiting; the Embassy does not receive ordinary applications directly.": "Hantar melalui KVAC di Filipina. Semak arahan KVAC terkini sebelum hadir; Kedutaan tidak menerima permohonan biasa secara langsung."
     }
   },
   "zh": {
     "kicker": "签证指南 · 菲律宾 → 韩国",
-    "readingTime": "阅读约 8 分钟",
+    "readingTime": "",
     "h1": "菲律宾人去韩国要签证吗？需要但免费",
     "metaTitle": "菲律宾护照去韩国要签证吗？需要但免费（2026）— Korea Trip Hub",
-    "metaDesc": "需要 — 菲律宾护照持有者前往韩国需要签证（C-3 旅游），但签证费用为免费。在哪里申请、所需材料及各自的获取方式，以及办理时间 — 逐步说明。",
+    "metaDesc": "菲律宾护照持有人前往韩国本土旅游，须申请 C-3-9 旅游签证。 通过菲律宾 KVAC 递交申请。前往前请确认最新 KVAC 说明；普通申请不由大使馆直接受理。",
+    "updated": "2026-10-02",
     "ui": {
       "visa": "签证类型",
       "stay": "停留时间",
@@ -1196,101 +1047,90 @@
       "tldr": "摘要"
     },
     "verdict": {
-      "headline": "是的 — 菲律宾护照持有者需要签证，但它是免费的。",
-      "sub": "前往韩国本土之前，你需要申请 C-3 旅游签证。好处是：没有签证费，办理快速，而且自 2026 年 2 月起你不再需要提交 3 个月的银行流水。",
-      "type": "C-3 旅游",
-      "stay": "最多 90 天",
-      "entry": "单次入境（符合条件的旅行者可申请多次入境）"
+      "need": true,
+      "headline": "菲律宾护照持有人前往韩国本土旅游，须申请 C-3-9 旅游签证。",
+      "sub": "通过菲律宾 KVAC 递交申请。前往前请确认最新 KVAC 说明；普通申请不由大使馆直接受理。",
+      "type": "C-3-9",
+      "stay": "",
+      "entry": ""
     },
     "highlights": [
       {
-        "icon": "🆓",
+        "icon": "🧾",
         "tone": "green",
-        "title": "免签证费",
-        "body": "C-3 旅游签证对菲律宾护照持有者免费。请提防那些额外收取自己服务费的代理机构。"
+        "title": "签证费与另计的服务费",
+        "body": "菲律宾籍申请人：停留 59 天以下免签证签发费；停留 60–90 天为 PHP 2,000。KVAC 费用另计，代办机构也可能收取服务费。"
       },
       {
-        "icon": "📉",
+        "icon": "🗓️",
         "tone": "blue",
-        "title": "自 2026 年 2 月 20 日起简化",
-        "body": "菲律宾的申请人不再需要提交最近 3 个月的银行流水。员工改为出示 ITR + Certificate of Employment。"
-      },
-      {
-        "icon": "🏝️",
-        "tone": "amber",
-        "title": "济州岛（Jeju）— 单独的免签入境",
-        "body": "有一些有限的免签入境选项（从济州岛开始）。这些与本土旅游签证是分开的。"
+        "title": "最新审查期间公告",
+        "body": "自 2026-10-01 起，普通 C-3 审查为 12 个工作日，加急仍为 5 个工作日。加急资格须另外确认。"
       }
     ],
     "tldr": [
-      "前往韩国本土需要 C-3 旅游签证 — 但它是免费的。",
-      "在 visa.go.kr 填写表格，然后通过韩国大使馆或经认可的旅行社提交。",
-      "员工：携带 ITR + Certificate of Employment。企业主：DTI/SEC + 营业许可证。",
-      "自 2026 年 2 月起，不再需要 3 个月的银行流水。办理约需 3–5 个工作日。"
+      "菲律宾护照持有人前往韩国本土旅游，须申请 C-3-9 旅游签证。",
+      "菲律宾籍申请人：停留 59 天以下免签证签发费；停留 60–90 天为 PHP 2,000。KVAC 费用另计，代办机构也可能收取服务费。",
+      "自 2026-10-01 起，普通 C-3 审查为 12 个工作日，加急仍为 5 个工作日。加急资格须另外确认。",
+      "最新旅游签证清单的普通受雇者项目列有存款证明，未另列银行交易明细。这不代表全面免除财务证明；请依申请类别及补件要求准备。"
     ],
     "steps": {
       "title": "申请流程，分步进行",
       "items": [
         {
           "n": 1,
-          "title": "确认签证类型",
-          "detail": "如果是旅游，请申请 C-3 短期旅游签证。"
+          "title": "准备你的文件",
+          "detail": "本页仅为摘要，并非完整清单。学生、自由职业者、退休者、由他人提供财务支持的申请人等，请查看官方清单的对应类别。",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+          "linkLabel": "官方来源"
         },
         {
           "n": 2,
-          "title": "在 visa.go.kr 填写表格",
-          "detail": "在唯一的官方网站 Korea Visa Portal 上填写申请表，然后打印并签名。",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "Korea Visa Portal"
+          "title": "KVAC",
+          "detail": "通过菲律宾 KVAC 递交申请。前往前请确认最新 KVAC 说明；普通申请不由大使馆直接受理。 使用代办机构时，请从大使馆最新指定名单选择，并确认收件方式。",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1",
+          "linkLabel": "官方来源"
         },
         {
           "n": 3,
-          "title": "准备你的文件",
-          "detail": "备齐下面的清单。员工以 ITR + Certificate of Employment 为核心；企业主以登记证 + 许可证为核心。"
+          "title": "最新审查期间公告",
+          "detail": "自 2026-10-01 起，普通 C-3 审查为 12 个工作日，加急仍为 5 个工作日。加急资格须另外确认。 不保证签证批准或入境。审查时可能要求补件，提交后审查期间可能重新计算。",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+          "linkLabel": "官方来源"
         },
         {
           "n": 4,
-          "title": "提交至大使馆 / 认可代理机构",
-          "detail": "向 Embassy of Korea in the Philippines 或大使馆认可的旅行社递交你的申请。"
-        },
-        {
-          "n": 5,
-          "title": "无需缴纳签证费",
-          "detail": "签证本身免费。如果你使用旅行社，他们可能收取自己的手续费 — 大使馆费用为零。"
-        },
-        {
-          "n": 6,
-          "title": "等待约 3–5 个工作日",
-          "detail": "办理很快，但在韩国节假日（Chuseok、Seollal）前后请留出更多时间。"
-        },
-        {
-          "n": 7,
           "title": "领取你的护照",
-          "detail": "领取护照并立即核对签证信息。"
+          "detail": "收到 KVAC 的短信通知后再前往。领取护照并确认签证签发资料。"
         }
       ]
     },
     "documents": {
       "title": "文件清单 — 附每份文件的获取地点和方式",
-      "intro": "对于每一项，这里列出在哪里获取以及必须显示什么内容。员工、企业主和学生的要求各不相同。",
+      "intro": "本页仅为摘要，并非完整清单。学生、自由职业者、退休者、由他人提供财务支持的申请人等，请查看官方清单的对应类别。",
       "cols": [
         "文件",
         "在哪里获取",
         "必须显示什么"
       ],
+      "legend": {
+        "required": "必需",
+        "conditional": "取决于你的工作",
+        "recommended": "推荐"
+      },
       "rows": [
         {
           "doc": "护照",
           "req": "required",
           "where": "你已持有",
-          "how": "有效期 6 个月以上，且有空白页。"
+          "how": "护照原件及护照个人资料页复印件。"
         },
         {
           "doc": "签证申请表",
           "req": "required",
-          "where": "visa.go.kr",
-          "how": "在 Korea Visa Portal 填写、打印、签名。",
-          "link": "https://www.visa.go.kr"
+          "where": "官方来源",
+          "how": "使用大使馆官方旅游签证文件说明所附的申请表，并按照表格指示填写。",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
         },
         {
           "doc": "照片",
@@ -1300,79 +1140,22 @@
         },
         {
           "doc": "银行存款证明",
-          "req": "required",
-          "where": "你的银行",
-          "how": "你账户的银行存款证明。注意：自 2026 年 2 月 20 日起，不再需要 3 个月的银行流水。"
-        },
-        {
-          "doc": "ITR（员工）",
           "req": "conditional",
-          "where": "BIR / 雇主（Form 2316）",
-          "how": "证明你工作收入的所得税申报表（Income Tax Return）。",
-          "link": "https://www.bir.gov.ph"
+          "where": "你的银行",
+          "how": "银行存款证明：须于最近 3 个月内以申请人名义签发，载明账户名称、号码、类型、开户日、当前余额及 6 个月平均每日余额（ADB）。"
         },
         {
-          "doc": "Certificate of Employment (COE)",
+          "doc": "Certificate of Employment (COE) / ITR",
           "req": "conditional",
           "where": "你的雇主 / 人力资源部",
-          "how": "使用公司信头：职位、薪资和已批准的休假日期。"
+          "how": "受雇者：最近 3 个月内签发的公司抬头 COE，载明职位、薪资、入职日、公司地址与人事电话及电子邮箱；另附 ITR（BIR Form 2316 或 1701）。"
         },
         {
           "doc": "营业登记（个体经营）",
           "req": "conditional",
           "where": "DTI 或 SEC + LGU",
-          "how": "DTI（个体户）或 SEC（公司）登记证，以及你的营业许可证/市长许可证（mayor's permit）。",
+          "how": "独资业者：DTI 证明、营业／市长许可及 ITR（BIR Form 1701）。法人申请人：SEC 登记首页与 GIS、市长许可及 ITR（BIR Form 1701 或 1702）。",
           "link": "https://www.dti.gov.ph"
-        },
-        {
-          "doc": "往返机票和酒店预订",
-          "req": "required",
-          "where": "航空公司 / 预订网站",
-          "how": "预订/行程即可 — 在获批之前不要付款购票。"
-        }
-      ],
-      "legend": {
-        "required": "必需",
-        "conditional": "取决于你的工作",
-        "recommended": "推荐"
-      }
-    },
-    "funds": {
-      "title": "“我如何证明自己能负担这次旅行？”",
-      "body": "自 2026 年 2 月起，你不再提交 3 个月的银行流水 — 银行存款证明加上你的 ITR/在职（或企业）证明来说明你的财务状况。目的是展示稳定的收入和与菲律宾的紧密联系。",
-      "tips": [
-        "员工：ITR + Certificate of Employment 是你材料的核心。",
-        "企业主：登记证 + 营业许可证 + 一份银行存款证明。",
-        "有人担保？附上担保人的文件和关系证明。"
-      ]
-    },
-    "pitfalls": {
-      "title": "导致拒签和延误的错误",
-      "items": [
-        {
-          "icon": "💳",
-          "t": "缴纳“签证费”",
-          "d": "大使馆签证是免费的。只有代理机构的手续费才是合理的额外费用。"
-        },
-        {
-          "icon": "🧾",
-          "t": "在职证明薄弱",
-          "d": "缺少 ITR 或 COE。这些现在是菲律宾申请人材料的核心。"
-        },
-        {
-          "icon": "🎫",
-          "t": "过早支付机票",
-          "d": "在获批前购买不可退款的机票 — 预订即可。"
-        },
-        {
-          "icon": "🏝️",
-          "t": "混淆 Jeju 与本土",
-          "d": "Jeju 的免签选项不涵盖韩国本土旅行。"
-        },
-        {
-          "icon": "🗓️",
-          "t": "在节假日高峰期申请",
-          "d": "在 Chuseok/Seollal 前后办理会变慢 — 请提早申请。"
         }
       ]
     },
@@ -1381,41 +1164,79 @@
       "items": [
         {
           "q": "菲律宾人去韩国需要签证吗？",
-          "a": "去韩国本土需要 — 你要在出行前申请 C-3 旅游签证。它是免费的。济州岛（Jeju）有单独的免签入境。"
+          "a": "菲律宾护照持有人前往韩国本土旅游，须申请 C-3-9 旅游签证。"
         },
         {
           "q": "签证费是多少？",
-          "a": "菲律宾护照持有者的 C-3 旅游签证没有签证费。旅行社可能收取自己的服务费，但大使馆费用为零。"
+          "a": "菲律宾籍申请人：停留 59 天以下免签证签发费；停留 60–90 天为 PHP 2,000。KVAC 费用另计，代办机构也可能收取服务费。"
         },
         {
           "q": "我需要银行流水吗？",
-          "a": "自 2026 年 2 月 20 日起，不再需要 3 个月的银行流水。员工出示 ITR + Certificate of Employment；企业主出示登记证 + 许可证。"
+          "a": "最新旅游签证清单的普通受雇者项目列有存款证明，未另列银行交易明细。这不代表全面免除财务证明；请依申请类别及补件要求准备。 银行存款证明：须于最近 3 个月内以申请人名义签发，载明账户名称、号码、类型、开户日、当前余额及 6 个月平均每日余额（ADB）。"
         },
         {
           "q": "需要多长时间？",
-          "a": "约 3–5 个工作日，在 Chuseok 和 Seollal 等韩国节假日前后会更久。"
+          "a": "自 2026-10-01 起，普通 C-3 审查为 12 个工作日，加急仍为 5 个工作日。加急资格须另外确认。 不保证签证批准或入境。审查时可能要求补件，提交后审查期间可能重新计算。"
         },
         {
           "q": "我在哪里申请？",
-          "a": "在 Embassy of Korea in the Philippines 或通过大使馆认可的旅行社申请。"
-        },
-        {
-          "q": "我可以获得多次入境签证吗？",
-          "a": "符合条件的旅行者（例如有良好的旅行记录）可以申请多次入境签证。请向大使馆咨询当前的资格条件。"
-        },
-        {
-          "q": "我还需要 e-Arrival Card 吗？",
-          "a": "入境文件规定（如 e-Arrival Card）在抵达时可能仍然适用。请在临近出行日期时查看最新规定。"
+          "a": "通过菲律宾 KVAC 递交申请。前往前请确认最新 KVAC 说明；普通申请不由大使馆直接受理。 使用代办机构时，请从大使馆最新指定名单选择，并确认收件方式。"
         }
       ]
+    },
+    "resources": {
+      "title": "官方来源",
+      "intro": "本页仅为摘要，并非完整清单。学生、自由职业者、退休者、由他人提供财务支持的申请人等，请查看官方清单的对应类别。",
+      "items": [
+        {
+          "label": "文件清单 — 附每份文件的获取地点和方式",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
+        },
+        {
+          "label": "最新审查期间公告",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1"
+        },
+        {
+          "label": "KVAC",
+          "src": "visaforkorea-mn.com",
+          "url": "https://www.visaforkorea-mn.com"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "🏛️",
+        "name": "官方来源",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+        "what": "文件清单 — 附每份文件的获取地点和方式"
+      },
+      {
+        "icon": "🗓️",
+        "name": "最新审查期间公告",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+        "what": "自 2026-10-01 起，普通 C-3 审查为 12 个工作日，加急仍为 5 个工作日。加急资格须另外确认。"
+      }
+    ],
+    "factLabels": {
+      "visa_fee": "签证费与另计的服务费",
+      "processing": "最新审查期间公告",
+      "apply_at": "我在哪里申请？"
+    },
+    "factValueLabels": {
+      "For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee.": "菲律宾籍申请人：停留 59 天以下免签证签发费；停留 60–90 天为 PHP 2,000。KVAC 费用另计，代办机构也可能收取服务费。",
+      "Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.": "自 2026-10-01 起，普通 C-3 审查为 12 个工作日，加急仍为 5 个工作日。加急资格须另外确认。",
+      "Submit through KVAC in the Philippines. Check the current KVAC instructions before visiting; the Embassy does not receive ordinary applications directly.": "通过菲律宾 KVAC 递交申请。前往前请确认最新 KVAC 说明；普通申请不由大使馆直接受理。"
     }
   },
   "zh-TW": {
     "kicker": "簽證指南 · 菲律賓 → 韓國",
-    "readingTime": "閱讀約 8 分鐘",
+    "readingTime": "",
     "h1": "菲律賓人去韓國要簽證嗎？需要但免費",
     "metaTitle": "菲律賓護照申請韓國簽證：文件與流程（2026）— Korea Trip Hub",
-    "metaDesc": "菲律賓護照赴韓 C-3 觀光簽證指南：申請文件、送件流程、簽證費與辦理時間的查詢方式，以及韓國駐菲律賓大使館官方連結。申請前請核對最新要求。",
+    "metaDesc": "菲律賓護照持有人前往韓國本土觀光，須申請 C-3-9 觀光簽證。 透過菲律賓 KVAC 遞交申請。前往前請確認最新 KVAC 說明；一般申請不由大使館直接受理。",
+    "updated": "2026-10-02",
     "ui": {
       "visa": "簽證類型",
       "stay": "停留時間",
@@ -1432,101 +1253,90 @@
       "covers": "管轄地區"
     },
     "verdict": {
-      "headline": "是的 — 菲律賓護照持有人需要簽證，但它是免費的。",
-      "sub": "前往韓國本土之前，你需要申請 C-3 旅遊簽證。好處是：沒有簽證費，辦理快速，而且自 2026 年 2 月起你不再需要提交 3 個月的銀行對帳單。",
-      "type": "C-3 旅遊",
-      "stay": "最多 90 天",
-      "entry": "單次入境（符合條件的旅客可申請多次入境）"
+      "need": true,
+      "headline": "菲律賓護照持有人前往韓國本土觀光，須申請 C-3-9 觀光簽證。",
+      "sub": "透過菲律賓 KVAC 遞交申請。前往前請確認最新 KVAC 說明；一般申請不由大使館直接受理。",
+      "type": "C-3-9",
+      "stay": "",
+      "entry": ""
     },
     "highlights": [
       {
-        "icon": "🆓",
+        "icon": "🧾",
         "tone": "green",
-        "title": "免簽證費",
-        "body": "C-3 旅遊簽證對菲律賓護照持有人免費。請提防額外收取自身服務費的代辦機構。"
+        "title": "簽證費與另計的服務費",
+        "body": "菲律賓籍申請人：停留 59 天以下免簽證核發費；停留 60–90 天為 PHP 2,000。KVAC 費用另計，代辦機構亦可能收取服務費。"
       },
       {
-        "icon": "📉",
+        "icon": "🗓️",
         "tone": "blue",
-        "title": "自 2026 年 2 月 20 日起簡化",
-        "body": "菲律賓的申請人不再需要提交最近 3 個月的銀行對帳單。員工改為出示 ITR + Certificate of Employment。"
-      },
-      {
-        "icon": "🏝️",
-        "tone": "amber",
-        "title": "濟州島（Jeju）— 單獨的免簽入境",
-        "body": "有一些有限的免簽入境選項（從濟州島開始）。這些與本土旅遊簽證是分開的。"
+        "title": "最新審查期間公告",
+        "body": "自 2026-10-01 起，一般 C-3 審查為 12 個工作天，急件仍為 5 個工作天。急件資格須另外確認。"
       }
     ],
     "tldr": [
-      "前往韓國本土需要 C-3 旅遊簽證 — 但它是免費的。",
-      "在 visa.go.kr 填寫表格，然後透過韓國大使館或經認可的旅行社遞交。",
-      "員工：攜帶 ITR + Certificate of Employment。企業主：DTI/SEC + 營業許可證。",
-      "自 2026 年 2 月起，不再需要 3 個月的銀行對帳單。辦理約需 3–5 個工作天。"
+      "菲律賓護照持有人前往韓國本土觀光，須申請 C-3-9 觀光簽證。",
+      "菲律賓籍申請人：停留 59 天以下免簽證核發費；停留 60–90 天為 PHP 2,000。KVAC 費用另計，代辦機構亦可能收取服務費。",
+      "自 2026-10-01 起，一般 C-3 審查為 12 個工作天，急件仍為 5 個工作天。急件資格須另外確認。",
+      "最新觀光簽證清單的普通受僱者項目列有存款證明，未另列銀行交易明細。這不代表全面免除財務證明；請依申請類別及補件要求準備。"
     ],
     "steps": {
       "title": "申請流程，分步進行",
       "items": [
         {
           "n": 1,
-          "title": "確認簽證類型",
-          "detail": "如果是旅遊，請申請 C-3 短期旅遊簽證。"
+          "title": "準備你的文件",
+          "detail": "本頁僅為摘要，並非完整清單。學生、自由工作者、退休者、由他人提供財務支持的申請人等，請查看官方清單的對應類別。",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+          "linkLabel": "官方來源"
         },
         {
           "n": 2,
-          "title": "在 visa.go.kr 填寫表格",
-          "detail": "在唯一的官方網站 Korea Visa Portal 上填寫申請表，然後列印並簽名。",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "Korea Visa Portal"
+          "title": "KVAC",
+          "detail": "透過菲律賓 KVAC 遞交申請。前往前請確認最新 KVAC 說明；一般申請不由大使館直接受理。 使用代辦機構時，請從大使館最新指定名單選擇，並確認收件方式。",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1",
+          "linkLabel": "官方來源"
         },
         {
           "n": 3,
-          "title": "準備你的文件",
-          "detail": "備齊下面的清單。員工以 ITR + Certificate of Employment 為核心；企業主以登記證 + 許可證為核心。"
+          "title": "最新審查期間公告",
+          "detail": "自 2026-10-01 起，一般 C-3 審查為 12 個工作天，急件仍為 5 個工作天。急件資格須另外確認。 不保證簽證核准或入境。審查時可能要求補件，提交後審查期間可能重新計算。",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+          "linkLabel": "官方來源"
         },
         {
           "n": 4,
-          "title": "遞交至大使館 / 認可代辦機構",
-          "detail": "向 Embassy of Korea in the Philippines 或大使館認可的旅行社遞交你的申請。"
-        },
-        {
-          "n": 5,
-          "title": "無需繳納簽證費",
-          "detail": "簽證本身免費。如果你使用旅行社，他們可能收取自身的手續費 — 大使館費用為零。"
-        },
-        {
-          "n": 6,
-          "title": "等待約 3–5 個工作天",
-          "detail": "辦理很快，但在韓國假日（Chuseok、Seollal）前後請預留更多時間。"
-        },
-        {
-          "n": 7,
           "title": "領取你的護照",
-          "detail": "領取護照並立即核對簽證資訊。"
+          "detail": "收到 KVAC 的簡訊通知後再前往。領取護照並確認簽證核發資料。"
         }
       ]
     },
     "documents": {
       "title": "文件清單 — 附每份文件的取得地點與方式",
-      "intro": "對於每一項，這裡列出在哪裡取得以及必須顯示什麼內容。員工、企業主和學生的要求各不相同。",
+      "intro": "本頁僅為摘要，並非完整清單。學生、自由工作者、退休者、由他人提供財務支持的申請人等，請查看官方清單的對應類別。",
       "cols": [
         "文件",
         "在哪裡取得",
         "必須顯示什麼"
       ],
+      "legend": {
+        "required": "必需",
+        "conditional": "取決於你的工作",
+        "recommended": "建議"
+      },
       "rows": [
         {
           "doc": "護照",
           "req": "required",
           "where": "你已持有",
-          "how": "有效期 6 個月以上，且有空白頁。"
+          "how": "護照正本及護照個人資料頁影本。"
         },
         {
           "doc": "簽證申請表",
           "req": "required",
-          "where": "visa.go.kr",
-          "how": "在 Korea Visa Portal 填寫、列印、簽名。",
-          "link": "https://www.visa.go.kr"
+          "where": "官方來源",
+          "how": "使用大使館官方觀光簽證文件說明所附的申請表，並依照表格指示填寫。",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
         },
         {
           "doc": "照片",
@@ -1536,79 +1346,22 @@
         },
         {
           "doc": "銀行存款證明",
-          "req": "required",
-          "where": "你的銀行",
-          "how": "你帳戶的銀行存款證明。注意：自 2026 年 2 月 20 日起，不再需要 3 個月的銀行對帳單。"
-        },
-        {
-          "doc": "ITR（員工）",
           "req": "conditional",
-          "where": "BIR / 僱主（Form 2316）",
-          "how": "證明你工作收入的所得稅申報表（Income Tax Return）。",
-          "link": "https://www.bir.gov.ph"
+          "where": "你的銀行",
+          "how": "銀行存款證明：須於最近 3 個月內以申請人名義核發，載明帳戶名稱、號碼、類型、開戶日、目前餘額及 6 個月平均每日餘額（ADB）。"
         },
         {
-          "doc": "Certificate of Employment (COE)",
+          "doc": "Certificate of Employment (COE) / ITR",
           "req": "conditional",
           "where": "你的僱主 / 人力資源部",
-          "how": "使用公司信頭：職位、薪資和已核准的休假日期。"
+          "how": "受僱者：最近 3 個月內核發的公司抬頭 COE，載明職位、薪資、到職日、公司地址與人資電話及電子郵件；另附 ITR（BIR Form 2316 或 1701）。"
         },
         {
           "doc": "營業登記（個體經營）",
           "req": "conditional",
           "where": "DTI 或 SEC + LGU",
-          "how": "DTI（獨資）或 SEC（公司）登記證，以及你的營業許可證/市長許可證（mayor's permit）。",
+          "how": "獨資業者：DTI 證明、營業／市長許可及 ITR（BIR Form 1701）。法人申請人：SEC 登記首頁與 GIS、市長許可及 ITR（BIR Form 1701 或 1702）。",
           "link": "https://www.dti.gov.ph"
-        },
-        {
-          "doc": "來回機票與飯店訂房",
-          "req": "required",
-          "where": "航空公司 / 訂房網站",
-          "how": "訂位/行程即可 — 在獲批之前不要付款購票。"
-        }
-      ],
-      "legend": {
-        "required": "必需",
-        "conditional": "取決於你的工作",
-        "recommended": "建議"
-      }
-    },
-    "funds": {
-      "title": "“我如何證明自己能負擔這次旅行？”",
-      "body": "自 2026 年 2 月起，你不再提交 3 個月的銀行對帳單 — 銀行存款證明加上你的 ITR/在職（或企業）證明來說明你的財務狀況。目的是展現穩定的收入和與菲律賓的緊密連結。",
-      "tips": [
-        "員工：ITR + Certificate of Employment 是你資料的核心。",
-        "企業主：登記證 + 營業許可證 + 一份銀行存款證明。",
-        "有人擔保？附上擔保人的文件和關係證明。"
-      ]
-    },
-    "pitfalls": {
-      "title": "導致拒簽和延誤的錯誤",
-      "items": [
-        {
-          "icon": "💳",
-          "t": "繳納“簽證費”",
-          "d": "大使館簽證是免費的。只有代辦機構的手續費才是合理的額外費用。"
-        },
-        {
-          "icon": "🧾",
-          "t": "在職證明薄弱",
-          "d": "缺少 ITR 或 COE。這些現在是菲律賓申請人資料的核心。"
-        },
-        {
-          "icon": "🎫",
-          "t": "過早支付機票",
-          "d": "在獲批前購買不可退款的機票 — 訂位即可。"
-        },
-        {
-          "icon": "🏝️",
-          "t": "混淆 Jeju 與本土",
-          "d": "Jeju 的免簽選項不涵蓋韓國本土旅行。"
-        },
-        {
-          "icon": "🗓️",
-          "t": "在假日高峰期申請",
-          "d": "在 Chuseok/Seollal 前後辦理會變慢 — 請提早申請。"
         }
       ]
     },
@@ -1617,102 +1370,79 @@
       "items": [
         {
           "q": "菲律賓人去韓國需要簽證嗎？",
-          "a": "去韓國本土需要 — 你要在出行前申請 C-3 旅遊簽證。它是免費的。濟州島（Jeju）有單獨的免簽入境。"
+          "a": "菲律賓護照持有人前往韓國本土觀光，須申請 C-3-9 觀光簽證。"
         },
         {
           "q": "簽證費是多少？",
-          "a": "菲律賓護照持有人的 C-3 旅遊簽證沒有簽證費。旅行社可能收取自身的服務費，但大使館費用為零。"
+          "a": "菲律賓籍申請人：停留 59 天以下免簽證核發費；停留 60–90 天為 PHP 2,000。KVAC 費用另計，代辦機構亦可能收取服務費。"
         },
         {
           "q": "我需要銀行對帳單嗎？",
-          "a": "自 2026 年 2 月 20 日起，不再需要 3 個月的銀行對帳單。員工出示 ITR + Certificate of Employment；企業主出示登記證 + 許可證。"
+          "a": "最新觀光簽證清單的普通受僱者項目列有存款證明，未另列銀行交易明細。這不代表全面免除財務證明；請依申請類別及補件要求準備。 銀行存款證明：須於最近 3 個月內以申請人名義核發，載明帳戶名稱、號碼、類型、開戶日、目前餘額及 6 個月平均每日餘額（ADB）。"
         },
         {
           "q": "需要多長時間？",
-          "a": "約 3–5 個工作天，在 Chuseok 和 Seollal 等韓國假日前後會更久。"
+          "a": "自 2026-10-01 起，一般 C-3 審查為 12 個工作天，急件仍為 5 個工作天。急件資格須另外確認。 不保證簽證核准或入境。審查時可能要求補件，提交後審查期間可能重新計算。"
         },
         {
           "q": "我在哪裡申請？",
-          "a": "在 Embassy of Korea in the Philippines 或透過大使館認可的旅行社申請。"
-        },
-        {
-          "q": "我可以取得多次入境簽證嗎？",
-          "a": "符合條件的旅客（例如有良好的旅行紀錄）可以申請多次入境簽證。請向大使館諮詢目前的資格條件。"
-        },
-        {
-          "q": "我還需要 e-Arrival Card 嗎？",
-          "a": "入境文件規定（如 e-Arrival Card）在抵達時可能仍然適用。請在接近出行日期時查看最新規定。"
+          "a": "透過菲律賓 KVAC 遞交申請。前往前請確認最新 KVAC 說明；一般申請不由大使館直接受理。 使用代辦機構時，請從大使館最新指定名單選擇，並確認收件方式。"
         }
       ]
     },
-    "country": "菲律賓",
-    "hero": {
-      "alt": "仁川國際機場入境大廳"
-    },
-    "factLabels": {
-      "apply_at": "申請地點",
-      "scope": "適用範圍"
-    },
-    "factValueLabels": {
-      "C-3 tourist": "C-3 觀光簽證",
-      "free (no fee)": "免簽證費",
-      "≈ 3–5 business days": "約 3–5 個工作天",
-      "no longer required (from 2026-02-20)": "自 2026-02-20 起不再要求",
-      "Korean embassy / accredited agencies": "韓國大使館／指定代辦機構"
-    },
     "resources": {
-      "title": "官方資訊與參考指南",
-      "intro": "請優先查閱官方最新公告；第三方指南僅供參考。",
+      "title": "官方來源",
+      "intro": "本頁僅為摘要，並非完整清單。學生、自由工作者、退休者、由他人提供財務支持的申請人等，請查看官方清單的對應類別。",
       "items": [
         {
-          "label": "韓國簽證入口網 — 填寫申請表",
-          "src": "visa.go.kr (official)",
-          "url": "https://www.visa.go.kr"
-        },
-        {
-          "label": "韓國駐菲律賓大使館",
+          "label": "文件清單 — 附每份文件的取得地點與方式",
           "src": "overseas.mofa.go.kr",
-          "url": "https://overseas.mofa.go.kr/ph-en/index.do"
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
         },
         {
-          "label": "菲律賓旅客韓國簽證申請條件（2026）",
-          "src": "Oona Insurance",
-          "url": "https://myoona.ph/blog/travel/south-korea-visa-requirements/"
+          "label": "最新審查期間公告",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1"
         },
         {
-          "label": "菲律賓旅客觀光簽證申請指南",
-          "src": "Traveloka",
-          "url": "https://www.traveloka.com/en-ph/explore/tips/complete-guideline-of-south-korea-visa-requirements-for-filipinos-trp/334185"
+          "label": "KVAC",
+          "src": "visaforkorea-mn.com",
+          "url": "https://www.visaforkorea-mn.com"
         }
       ]
     },
     "official": [
       {
-        "icon": "📄",
-        "name": "韓國簽證入口網",
-        "url": "https://www.visa.go.kr",
-        "what": "填寫申請表（唯一官方簽證入口網）"
-      },
-      {
         "icon": "🏛️",
-        "name": "韓國駐菲律賓大使館",
-        "url": "https://overseas.mofa.go.kr/ph-en/index.do",
-        "what": "官方申請條件與送件資訊"
+        "name": "官方來源",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+        "what": "文件清單 — 附每份文件的取得地點與方式"
       },
       {
-        "icon": "🧾",
-        "name": "菲律賓國稅局（BIR）",
-        "url": "https://www.bir.gov.ph",
-        "what": "取得所得稅申報資料（ITR）／Form 2316"
+        "icon": "🗓️",
+        "name": "最新審查期間公告",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+        "what": "自 2026-10-01 起，一般 C-3 審查為 12 個工作天，急件仍為 5 個工作天。急件資格須另外確認。"
       }
-    ]
+    ],
+    "factLabels": {
+      "visa_fee": "簽證費與另計的服務費",
+      "processing": "最新審查期間公告",
+      "apply_at": "我在哪裡申請？"
+    },
+    "factValueLabels": {
+      "For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee.": "菲律賓籍申請人：停留 59 天以下免簽證核發費；停留 60–90 天為 PHP 2,000。KVAC 費用另計，代辦機構亦可能收取服務費。",
+      "Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.": "自 2026-10-01 起，一般 C-3 審查為 12 個工作天，急件仍為 5 個工作天。急件資格須另外確認。",
+      "Submit through KVAC in the Philippines. Check the current KVAC instructions before visiting; the Embassy does not receive ordinary applications directly.": "透過菲律賓 KVAC 遞交申請。前往前請確認最新 KVAC 說明；一般申請不由大使館直接受理。"
+    }
   },
   "vi": {
     "kicker": "Hướng dẫn visa · Philippines → Hàn Quốc",
-    "readingTime": "Đọc trong 8 phút",
+    "readingTime": "",
     "h1": "Visa Hàn Quốc cho người Philippines",
     "metaTitle": "Thị thực từ Philippines đến Hàn Quốc: Bạn có cần không? (2026) — Korea Trip Hub",
-    "metaDesc": "Có — người mang hộ chiếu Philippines cần thị thực vào Hàn Quốc (C-3 du lịch), nhưng lệ phí thị thực là MIỄN PHÍ. Nơi nộp, các giấy tờ và nơi lấy từng loại, và thời gian xử lý — từng bước một.",
+    "metaDesc": "Người mang hộ chiếu Philippines cần thị thực du lịch C-3-9 để đến phần đất liền Hàn Quốc. Nộp hồ sơ qua KVAC tại Philippines. Kiểm tra hướng dẫn KVAC mới nhất trước khi đến; Đại sứ quán không trực tiếp nhận hồ sơ thông thường.",
+    "updated": "2026-10-02",
     "ui": {
       "visa": "Loại visa",
       "stay": "Thời gian lưu trú",
@@ -1728,101 +1458,90 @@
       "tldr": "TÓM TẮT"
     },
     "verdict": {
-      "headline": "Có — người mang hộ chiếu Philippines cần visa, nhưng nó MIỄN PHÍ.",
-      "sub": "Bạn xin visa du lịch C-3 trước khi đến Hàn Quốc đại lục. Điểm tốt: không có lệ phí visa, xử lý nhanh, và từ tháng 2 năm 2026 bạn không còn phải nộp sao kê ngân hàng 3 tháng.",
-      "type": "C-3 Du lịch",
-      "stay": "Tối đa 90 ngày",
-      "entry": "Nhập cảnh một lần (nhập cảnh nhiều lần có thể áp dụng cho du khách đủ điều kiện)"
+      "need": true,
+      "headline": "Người mang hộ chiếu Philippines cần thị thực du lịch C-3-9 để đến phần đất liền Hàn Quốc.",
+      "sub": "Nộp hồ sơ qua KVAC tại Philippines. Kiểm tra hướng dẫn KVAC mới nhất trước khi đến; Đại sứ quán không trực tiếp nhận hồ sơ thông thường.",
+      "type": "C-3-9",
+      "stay": "",
+      "entry": ""
     },
     "highlights": [
       {
-        "icon": "🆓",
+        "icon": "🧾",
         "tone": "green",
-        "title": "Không lệ phí visa",
-        "body": "Visa du lịch C-3 miễn phí cho người mang hộ chiếu Philippines. Hãy cẩn thận với các đại lý cộng thêm phí dịch vụ riêng của họ."
+        "title": "Phí thị thực và phí dịch vụ riêng",
+        "body": "Với người quốc tịch Philippines: lưu trú từ 59 ngày trở xuống được miễn phí cấp thị thực; từ 60–90 ngày là PHP 2,000. Phí KVAC tính riêng; đại lý có thể thu thêm phí dịch vụ."
       },
       {
-        "icon": "📉",
+        "icon": "🗓️",
         "tone": "blue",
-        "title": "Đơn giản hóa từ ngày 20 tháng 2 năm 2026",
-        "body": "Người nộp đơn tại Philippines không còn phải nộp sao kê ngân hàng 3 tháng gần nhất. Thay vào đó, nhân viên xuất trình ITR + Certificate of Employment."
-      },
-      {
-        "icon": "🏝️",
-        "tone": "amber",
-        "title": "Đảo Jeju — nhập cảnh miễn visa riêng",
-        "body": "Có một số lựa chọn nhập cảnh miễn visa hạn chế (bắt đầu từ đảo Jeju). Những lựa chọn này tách biệt với visa du lịch đại lục."
+        "title": "Thông báo thời gian xét duyệt mới nhất",
+        "body": "Từ 2026-10-01: xử lý C-3 thông thường mất 12 ngày làm việc; hồ sơ nhanh vẫn là 5 ngày làm việc. Kiểm tra riêng điều kiện dùng dịch vụ nhanh."
       }
     ],
     "tldr": [
-      "Visa du lịch C-3 là bắt buộc đối với Hàn Quốc đại lục — nhưng nó MIỄN PHÍ.",
-      "Điền mẫu đơn tại visa.go.kr, sau đó nộp qua Đại sứ quán Hàn Quốc hoặc một công ty du lịch được ủy quyền.",
-      "Nhân viên: mang theo ITR + Certificate of Employment. Chủ doanh nghiệp: DTI/SEC + giấy phép kinh doanh.",
-      "Từ tháng 2 năm 2026 bạn không còn cần sao kê ngân hàng 3 tháng. Xử lý mất khoảng 3–5 ngày làm việc."
+      "Người mang hộ chiếu Philippines cần thị thực du lịch C-3-9 để đến phần đất liền Hàn Quốc.",
+      "Với người quốc tịch Philippines: lưu trú từ 59 ngày trở xuống được miễn phí cấp thị thực; từ 60–90 ngày là PHP 2,000. Phí KVAC tính riêng; đại lý có thể thu thêm phí dịch vụ.",
+      "Từ 2026-10-01: xử lý C-3 thông thường mất 12 ngày làm việc; hồ sơ nhanh vẫn là 5 ngày làm việc. Kiểm tra riêng điều kiện dùng dịch vụ nhanh.",
+      "Danh sách du lịch hiện hành yêu cầu giấy xác nhận ngân hàng cho người làm công thông thường, không liệt kê sao kê thành mục riêng. Điều này không miễn toàn bộ chứng minh tài chính: làm theo nhóm hồ sơ và yêu cầu bổ sung."
     ],
     "steps": {
       "title": "Quy trình nộp đơn, từng bước",
       "items": [
         {
           "n": 1,
-          "title": "Xác nhận loại visa",
-          "detail": "Nếu đi du lịch, hãy xin visa du lịch ngắn hạn C-3."
+          "title": "Chuẩn bị giấy tờ của bạn",
+          "detail": "Đây là bản tóm tắt, không phải danh sách đầy đủ. Sinh viên, người làm tự do, người nghỉ hưu, người được tài trợ và các nhóm khác phải xem mục riêng trong danh sách chính thức.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+          "linkLabel": "Nguồn chính thức"
         },
         {
           "n": 2,
-          "title": "Điền mẫu đơn tại visa.go.kr",
-          "detail": "Hoàn thành mẫu đơn tại Korea Visa Portal — trang chính thức duy nhất — sau đó in ra và ký tên.",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "Korea Visa Portal"
+          "title": "KVAC",
+          "detail": "Nộp hồ sơ qua KVAC tại Philippines. Kiểm tra hướng dẫn KVAC mới nhất trước khi đến; Đại sứ quán không trực tiếp nhận hồ sơ thông thường. Nếu dùng đại lý, chọn trong danh sách được Đại sứ quán chỉ định hiện hành và xác nhận cách nộp.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1",
+          "linkLabel": "Nguồn chính thức"
         },
         {
           "n": 3,
-          "title": "Chuẩn bị giấy tờ của bạn",
-          "detail": "Chuẩn bị danh sách kiểm tra bên dưới. Nhân viên tập trung vào ITR + Certificate of Employment; chủ doanh nghiệp vào đăng ký + giấy phép."
+          "title": "Thông báo thời gian xét duyệt mới nhất",
+          "detail": "Từ 2026-10-01: xử lý C-3 thông thường mất 12 ngày làm việc; hồ sơ nhanh vẫn là 5 ngày làm việc. Kiểm tra riêng điều kiện dùng dịch vụ nhanh. Không bảo đảm được cấp thị thực hay nhập cảnh. Có thể cần bổ sung giấy tờ; thời gian xét duyệt có thể được tính lại sau khi nộp.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+          "linkLabel": "Nguồn chính thức"
         },
         {
           "n": 4,
-          "title": "Nộp cho Đại sứ quán / đại lý được ủy quyền",
-          "detail": "Nộp đơn của bạn tại Embassy of Korea in the Philippines hoặc một công ty du lịch được đại sứ quán ủy quyền."
-        },
-        {
-          "n": 5,
-          "title": "Không có lệ phí visa phải trả",
-          "detail": "Bản thân visa là miễn phí. Nếu bạn dùng công ty du lịch, họ có thể tính phí xử lý riêng — lệ phí đại sứ quán bằng không."
-        },
-        {
-          "n": 6,
-          "title": "Chờ khoảng 3–5 ngày làm việc",
-          "detail": "Xử lý nhanh, nhưng hãy để thêm thời gian quanh các dịp lễ Hàn Quốc (Chuseok, Seollal)."
-        },
-        {
-          "n": 7,
           "title": "Nhận lại hộ chiếu của bạn",
-          "detail": "Nhận hộ chiếu và kiểm tra thông tin visa ngay lập tức."
+          "detail": "Đến KVAC sau khi nhận thông báo SMS. Nhận hộ chiếu và kiểm tra thông tin cấp thị thực."
         }
       ]
     },
     "documents": {
       "title": "Danh sách giấy tờ — kèm nơi & cách lấy từng loại",
-      "intro": "Với mỗi mục, đây là nơi lấy và những gì nó phải thể hiện. Yêu cầu khác nhau đối với nhân viên, chủ doanh nghiệp và sinh viên.",
+      "intro": "Đây là bản tóm tắt, không phải danh sách đầy đủ. Sinh viên, người làm tự do, người nghỉ hưu, người được tài trợ và các nhóm khác phải xem mục riêng trong danh sách chính thức.",
       "cols": [
         "Giấy tờ",
         "Lấy ở đâu",
         "Phải thể hiện điều gì"
       ],
+      "legend": {
+        "required": "Bắt buộc",
+        "conditional": "Tùy vào công việc của bạn",
+        "recommended": "Khuyến nghị"
+      },
       "rows": [
         {
           "doc": "Hộ chiếu",
           "req": "required",
           "where": "Bạn đã có",
-          "how": "Còn hiệu lực 6+ tháng với các trang trống."
+          "how": "Hộ chiếu gốc và bản sao trang thông tin cá nhân."
         },
         {
           "doc": "Mẫu đơn xin visa",
           "req": "required",
-          "where": "visa.go.kr",
-          "how": "Hoàn thành tại Korea Visa Portal, in ra, ký tên.",
-          "link": "https://www.visa.go.kr"
+          "where": "Nguồn chính thức",
+          "how": "Dùng mẫu đơn đính kèm hướng dẫn thị thực du lịch chính thức của Đại sứ quán và làm theo chỉ dẫn trên mẫu.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
         },
         {
           "doc": "Ảnh",
@@ -1832,79 +1551,22 @@
         },
         {
           "doc": "Giấy chứng nhận ngân hàng",
-          "req": "required",
-          "where": "Ngân hàng của bạn",
-          "how": "Giấy chứng nhận ngân hàng của tài khoản của bạn. Lưu ý: từ ngày 20 tháng 2 năm 2026, sao kê ngân hàng 3 tháng không còn bắt buộc."
-        },
-        {
-          "doc": "ITR (nhân viên)",
           "req": "conditional",
-          "where": "BIR / chủ lao động (Form 2316)",
-          "how": "Tờ khai thuế thu nhập (Income Tax Return) chứng minh thu nhập từ công việc của bạn.",
-          "link": "https://www.bir.gov.ph"
+          "where": "Ngân hàng của bạn",
+          "how": "Giấy xác nhận ngân hàng: cấp trong 3 tháng gần nhất, đứng tên người nộp, có tên, số, loại tài khoản, ngày mở, số dư hiện tại và số dư trung bình hằng ngày trong 6 tháng (ADB)."
         },
         {
-          "doc": "Certificate of Employment (COE)",
+          "doc": "Certificate of Employment (COE) / ITR",
           "req": "conditional",
           "where": "Chủ lao động / phòng nhân sự của bạn",
-          "how": "Trên giấy tiêu đề công ty: chức vụ, lương và ngày nghỉ phép đã được duyệt."
+          "how": "Người làm công: COE trên giấy tiêu đề công ty, cấp trong 3 tháng gần nhất, có chức vụ, lương, ngày vào làm, địa chỉ công ty, điện thoại/email nhân sự; kèm ITR (BIR Form 2316 hoặc 1701)."
         },
         {
           "doc": "Đăng ký kinh doanh (tự làm chủ)",
           "req": "conditional",
           "where": "DTI hoặc SEC + LGU",
-          "how": "Đăng ký DTI (chủ sở hữu duy nhất) hoặc SEC (công ty), cùng với giấy phép kinh doanh/giấy phép của thị trưởng (mayor's permit).",
+          "how": "Chủ hộ kinh doanh: chứng nhận DTI, giấy phép kinh doanh/thị trưởng và ITR (BIR Form 1701). Doanh nghiệp: trang đầu đăng ký SEC và GIS, giấy phép thị trưởng, ITR (BIR Form 1701 hoặc 1702).",
           "link": "https://www.dti.gov.ph"
-        },
-        {
-          "doc": "Đặt chỗ vé máy bay khứ hồi & khách sạn",
-          "req": "required",
-          "where": "Hãng bay / trang đặt chỗ",
-          "how": "Đặt chỗ/lịch trình là đủ — đừng thanh toán vé trước khi được chấp thuận."
-        }
-      ],
-      "legend": {
-        "required": "Bắt buộc",
-        "conditional": "Tùy vào công việc của bạn",
-        "recommended": "Khuyến nghị"
-      }
-    },
-    "funds": {
-      "title": "“Làm sao tôi chứng minh mình đủ khả năng chi trả chuyến đi?”",
-      "body": "Từ tháng 2 năm 2026, bạn không còn nộp sao kê ngân hàng 3 tháng — giấy chứng nhận ngân hàng cùng với ITR/bằng chứng việc làm (hoặc kinh doanh) của bạn thể hiện bức tranh tài chính. Mục tiêu là cho thấy thu nhập ổn định và mối ràng buộc chặt chẽ với Philippines.",
-      "tips": [
-        "Nhân viên: ITR + Certificate of Employment là cốt lõi hồ sơ của bạn.",
-        "Chủ doanh nghiệp: đăng ký + giấy phép kinh doanh + một giấy chứng nhận ngân hàng.",
-        "Được bảo trợ? Bổ sung giấy tờ của người bảo trợ và bằng chứng quan hệ."
-      ]
-    },
-    "pitfalls": {
-      "title": "Những sai lầm gây từ chối & chậm trễ",
-      "items": [
-        {
-          "icon": "💳",
-          "t": "Trả 'lệ phí visa'",
-          "d": "Visa tại đại sứ quán là MIỄN PHÍ. Chỉ có phí xử lý của đại lý mới là khoản phụ thu hợp lệ."
-        },
-        {
-          "icon": "🧾",
-          "t": "Bằng chứng việc làm yếu",
-          "d": "Thiếu ITR hoặc COE. Những giấy tờ này giờ là trọng tâm hồ sơ của người nộp đơn Philippines."
-        },
-        {
-          "icon": "🎫",
-          "t": "Thanh toán vé máy bay quá sớm",
-          "d": "Mua vé không hoàn tiền trước khi được chấp thuận — một đặt chỗ là đủ."
-        },
-        {
-          "icon": "🏝️",
-          "t": "Nhầm lẫn Jeju với đại lục",
-          "d": "Các lựa chọn miễn visa của Jeju không bao gồm việc đi lại ở Hàn Quốc đại lục."
-        },
-        {
-          "icon": "🗓️",
-          "t": "Nộp đơn vào cao điểm lễ",
-          "d": "Xử lý chậm lại quanh Chuseok/Seollal — hãy nộp sớm hơn."
         }
       ]
     },
@@ -1913,41 +1575,79 @@
       "items": [
         {
           "q": "Người Philippines có cần visa đến Hàn Quốc không?",
-          "a": "Có đối với Hàn Quốc đại lục — bạn xin visa du lịch C-3 trước khi đi. Nó miễn phí. Đảo Jeju có nhập cảnh miễn visa riêng."
+          "a": "Người mang hộ chiếu Philippines cần thị thực du lịch C-3-9 để đến phần đất liền Hàn Quốc."
         },
         {
           "q": "Lệ phí visa là bao nhiêu?",
-          "a": "Không có lệ phí visa cho visa du lịch C-3 đối với người mang hộ chiếu Philippines. Một công ty du lịch có thể tính phí dịch vụ riêng, nhưng lệ phí đại sứ quán bằng không."
+          "a": "Với người quốc tịch Philippines: lưu trú từ 59 ngày trở xuống được miễn phí cấp thị thực; từ 60–90 ngày là PHP 2,000. Phí KVAC tính riêng; đại lý có thể thu thêm phí dịch vụ."
         },
         {
           "q": "Tôi có cần sao kê ngân hàng không?",
-          "a": "Từ ngày 20 tháng 2 năm 2026, sao kê ngân hàng 3 tháng không còn bắt buộc. Nhân viên xuất trình ITR + Certificate of Employment; chủ doanh nghiệp xuất trình đăng ký + giấy phép."
+          "a": "Danh sách du lịch hiện hành yêu cầu giấy xác nhận ngân hàng cho người làm công thông thường, không liệt kê sao kê thành mục riêng. Điều này không miễn toàn bộ chứng minh tài chính: làm theo nhóm hồ sơ và yêu cầu bổ sung. Giấy xác nhận ngân hàng: cấp trong 3 tháng gần nhất, đứng tên người nộp, có tên, số, loại tài khoản, ngày mở, số dư hiện tại và số dư trung bình hằng ngày trong 6 tháng (ADB)."
         },
         {
           "q": "Mất bao lâu?",
-          "a": "Khoảng 3–5 ngày làm việc, lâu hơn quanh các dịp lễ Hàn Quốc như Chuseok và Seollal."
+          "a": "Từ 2026-10-01: xử lý C-3 thông thường mất 12 ngày làm việc; hồ sơ nhanh vẫn là 5 ngày làm việc. Kiểm tra riêng điều kiện dùng dịch vụ nhanh. Không bảo đảm được cấp thị thực hay nhập cảnh. Có thể cần bổ sung giấy tờ; thời gian xét duyệt có thể được tính lại sau khi nộp."
         },
         {
           "q": "Tôi nộp đơn ở đâu?",
-          "a": "Tại Embassy of Korea in the Philippines hoặc thông qua một công ty du lịch được đại sứ quán ủy quyền."
-        },
-        {
-          "q": "Tôi có thể xin visa nhập cảnh nhiều lần không?",
-          "a": "Visa nhập cảnh nhiều lần có thể áp dụng cho du khách đủ điều kiện (ví dụ, lịch sử du lịch tốt). Hãy hỏi đại sứ quán về điều kiện hiện tại."
-        },
-        {
-          "q": "Tôi có còn cần e-Arrival Card không?",
-          "a": "Các quy định về giấy tờ nhập cảnh như e-Arrival Card vẫn có thể áp dụng khi nhập cảnh. Hãy kiểm tra quy định hiện hành gần ngày đi của bạn."
+          "a": "Nộp hồ sơ qua KVAC tại Philippines. Kiểm tra hướng dẫn KVAC mới nhất trước khi đến; Đại sứ quán không trực tiếp nhận hồ sơ thông thường. Nếu dùng đại lý, chọn trong danh sách được Đại sứ quán chỉ định hiện hành và xác nhận cách nộp."
         }
       ]
+    },
+    "resources": {
+      "title": "Nguồn chính thức",
+      "intro": "Đây là bản tóm tắt, không phải danh sách đầy đủ. Sinh viên, người làm tự do, người nghỉ hưu, người được tài trợ và các nhóm khác phải xem mục riêng trong danh sách chính thức.",
+      "items": [
+        {
+          "label": "Danh sách giấy tờ — kèm nơi & cách lấy từng loại",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
+        },
+        {
+          "label": "Thông báo thời gian xét duyệt mới nhất",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1"
+        },
+        {
+          "label": "KVAC",
+          "src": "visaforkorea-mn.com",
+          "url": "https://www.visaforkorea-mn.com"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "🏛️",
+        "name": "Nguồn chính thức",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+        "what": "Danh sách giấy tờ — kèm nơi & cách lấy từng loại"
+      },
+      {
+        "icon": "🗓️",
+        "name": "Thông báo thời gian xét duyệt mới nhất",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+        "what": "Từ 2026-10-01: xử lý C-3 thông thường mất 12 ngày làm việc; hồ sơ nhanh vẫn là 5 ngày làm việc. Kiểm tra riêng điều kiện dùng dịch vụ nhanh."
+      }
+    ],
+    "factLabels": {
+      "visa_fee": "Phí thị thực và phí dịch vụ riêng",
+      "processing": "Thông báo thời gian xét duyệt mới nhất",
+      "apply_at": "Tôi nộp đơn ở đâu?"
+    },
+    "factValueLabels": {
+      "For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee.": "Với người quốc tịch Philippines: lưu trú từ 59 ngày trở xuống được miễn phí cấp thị thực; từ 60–90 ngày là PHP 2,000. Phí KVAC tính riêng; đại lý có thể thu thêm phí dịch vụ.",
+      "Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.": "Từ 2026-10-01: xử lý C-3 thông thường mất 12 ngày làm việc; hồ sơ nhanh vẫn là 5 ngày làm việc. Kiểm tra riêng điều kiện dùng dịch vụ nhanh.",
+      "Submit through KVAC in the Philippines. Check the current KVAC instructions before visiting; the Embassy does not receive ordinary applications directly.": "Nộp hồ sơ qua KVAC tại Philippines. Kiểm tra hướng dẫn KVAC mới nhất trước khi đến; Đại sứ quán không trực tiếp nhận hồ sơ thông thường."
     }
   },
   "id": {
     "kicker": "Panduan visa · Filipina → Korea",
-    "readingTime": "Baca 8 menit",
+    "readingTime": "",
     "h1": "Visa Korea untuk warga Filipina",
     "metaTitle": "Visa Filipina ke Korea: Perlukah? (2026) — Korea Trip Hub",
-    "metaDesc": "Ya — pemegang paspor Filipina memerlukan visa untuk Korea Selatan (C-3 turis), tetapi biaya visanya GRATIS. Di mana mengajukan, dokumen dan di mana memperoleh masing-masing, dan waktu pemrosesan — langkah demi langkah.",
+    "metaDesc": "Pemegang paspor Filipina memerlukan visa wisata C-3-9 untuk mengunjungi daratan Korea. Ajukan melalui KVAC di Filipina. Periksa petunjuk KVAC terbaru sebelum datang; Kedutaan tidak menerima pengajuan biasa secara langsung.",
+    "updated": "2026-10-02",
     "ui": {
       "visa": "Jenis visa",
       "stay": "Lama tinggal",
@@ -1963,101 +1663,90 @@
       "tldr": "RINGKASAN"
     },
     "verdict": {
-      "headline": "Ya — pemegang paspor Filipina memerlukan visa, tetapi GRATIS.",
-      "sub": "Anda mengajukan visa turis C-3 sebelum bepergian ke Korea daratan. Keuntungannya: tidak ada biaya visa, pemrosesan cepat, dan sejak Februari 2026 Anda tidak lagi menyerahkan rekening koran 3 bulan.",
-      "type": "C-3 Turis",
-      "stay": "Hingga 90 hari",
-      "entry": "Sekali masuk (masuk berkali-kali dimungkinkan untuk pelancong yang memenuhi syarat)"
+      "need": true,
+      "headline": "Pemegang paspor Filipina memerlukan visa wisata C-3-9 untuk mengunjungi daratan Korea.",
+      "sub": "Ajukan melalui KVAC di Filipina. Periksa petunjuk KVAC terbaru sebelum datang; Kedutaan tidak menerima pengajuan biasa secara langsung.",
+      "type": "C-3-9",
+      "stay": "",
+      "entry": ""
     },
     "highlights": [
       {
-        "icon": "🆓",
+        "icon": "🧾",
         "tone": "green",
-        "title": "Tanpa biaya visa",
-        "body": "Visa turis C-3 gratis untuk pemegang paspor Filipina. Waspadai agen yang menambahkan biaya layanan mereka sendiri."
+        "title": "Biaya visa dan biaya layanan terpisah",
+        "body": "Untuk warga Filipina: masa tinggal 59 hari atau kurang bebas biaya penerbitan visa; 60–90 hari dikenai PHP 2,000. Biaya KVAC terpisah; agen dapat menambah biaya layanan."
       },
       {
-        "icon": "📉",
+        "icon": "🗓️",
         "tone": "blue",
-        "title": "Disederhanakan sejak 20 Feb 2026",
-        "body": "Pemohon di Filipina tidak lagi diwajibkan menyerahkan rekening koran 3 bulan terakhir. Sebagai gantinya, karyawan menunjukkan ITR + Certificate of Employment."
-      },
-      {
-        "icon": "🏝️",
-        "tone": "amber",
-        "title": "Pulau Jeju — masuk bebas visa terpisah",
-        "body": "Ada opsi masuk bebas visa yang terbatas (mulai dari Pulau Jeju). Opsi ini terpisah dari visa turis daratan."
+        "title": "Pengumuman waktu proses terbaru",
+        "body": "Mulai 2026-10-01: proses C-3 biasa memerlukan 12 hari kerja; pengajuan ekspres tetap 5 hari kerja. Periksa kelayakan ekspres secara terpisah."
       }
     ],
     "tldr": [
-      "Visa turis C-3 wajib untuk Korea daratan — tetapi GRATIS.",
-      "Isi formulir di visa.go.kr, lalu ajukan melalui Kedutaan Besar Korea atau agen perjalanan terakreditasi.",
-      "Karyawan: bawa ITR + Certificate of Employment. Pemilik usaha: DTI/SEC + izin usaha.",
-      "Sejak Februari 2026 Anda tidak lagi memerlukan rekening koran 3 bulan. Pemrosesan sekitar 3–5 hari kerja."
+      "Pemegang paspor Filipina memerlukan visa wisata C-3-9 untuk mengunjungi daratan Korea.",
+      "Untuk warga Filipina: masa tinggal 59 hari atau kurang bebas biaya penerbitan visa; 60–90 hari dikenai PHP 2,000. Biaya KVAC terpisah; agen dapat menambah biaya layanan.",
+      "Mulai 2026-10-01: proses C-3 biasa memerlukan 12 hari kerja; pengajuan ekspres tetap 5 hari kerja. Periksa kelayakan ekspres secara terpisah.",
+      "Daftar wisata terbaru mencantumkan surat bank untuk karyawan biasa, bukan rekening koran sebagai item terpisah. Ini bukan pembebasan menyeluruh atas bukti keuangan: ikuti kategori dan permintaan tambahan."
     ],
     "steps": {
       "title": "Proses pengajuan, langkah demi langkah",
       "items": [
         {
           "n": 1,
-          "title": "Konfirmasi jenis visa",
-          "detail": "Untuk wisata, ajukan visa turis jangka pendek C-3."
+          "title": "Siapkan dokumen Anda",
+          "detail": "Ini ringkasan, bukan daftar lengkap. Pelajar, pekerja lepas, pensiunan, pemohon bersponsor dan kategori lain harus mengikuti bagian masing-masing dalam daftar resmi.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+          "linkLabel": "Sumber resmi"
         },
         {
           "n": 2,
-          "title": "Isi formulir di visa.go.kr",
-          "detail": "Lengkapi formulir permohonan di Korea Visa Portal — satu-satunya situs resmi — lalu cetak dan tanda tangani.",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "Korea Visa Portal"
+          "title": "KVAC",
+          "detail": "Ajukan melalui KVAC di Filipina. Periksa petunjuk KVAC terbaru sebelum datang; Kedutaan tidak menerima pengajuan biasa secara langsung. Jika memakai agen, pilih dari daftar agen resmi Kedutaan terbaru dan pastikan prosedur penyerahannya.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1",
+          "linkLabel": "Sumber resmi"
         },
         {
           "n": 3,
-          "title": "Siapkan dokumen Anda",
-          "detail": "Kumpulkan daftar periksa di bawah. Karyawan berfokus pada ITR + Certificate of Employment; pemilik usaha pada pendaftaran + izin."
+          "title": "Pengumuman waktu proses terbaru",
+          "detail": "Mulai 2026-10-01: proses C-3 biasa memerlukan 12 hari kerja; pengajuan ekspres tetap 5 hari kerja. Periksa kelayakan ekspres secara terpisah. Persetujuan visa dan izin masuk tidak dijamin. Dokumen tambahan dapat diminta; masa pemeriksaan dapat dihitung ulang setelah penyerahan.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+          "linkLabel": "Sumber resmi"
         },
         {
           "n": 4,
-          "title": "Ajukan ke Kedutaan / agen terakreditasi",
-          "detail": "Ajukan permohonan Anda ke Embassy of Korea in the Philippines atau agen perjalanan yang terakreditasi kedutaan."
-        },
-        {
-          "n": 5,
-          "title": "Tidak ada biaya visa yang harus dibayar",
-          "detail": "Visanya sendiri gratis. Jika Anda menggunakan agen perjalanan, mereka dapat mengenakan biaya penanganan sendiri — biaya kedutaan adalah nol."
-        },
-        {
-          "n": 6,
-          "title": "Tunggu ~3–5 hari kerja",
-          "detail": "Pemrosesan cepat, tetapi sediakan lebih banyak waktu menjelang hari libur Korea (Chuseok, Seollal)."
-        },
-        {
-          "n": 7,
           "title": "Ambil paspor Anda",
-          "detail": "Ambil paspor Anda dan periksa detail visa segera."
+          "detail": "Datang ke KVAC setelah menerima pemberitahuan SMS. Ambil paspor dan periksa rincian penerbitan visa."
         }
       ]
     },
     "documents": {
       "title": "Daftar periksa dokumen — dengan di mana & bagaimana mendapatkan masing-masing",
-      "intro": "Untuk setiap item, berikut tempat mendapatkannya dan apa yang harus ditunjukkan. Persyaratan berbeda untuk karyawan, pemilik usaha, dan pelajar.",
+      "intro": "Ini ringkasan, bukan daftar lengkap. Pelajar, pekerja lepas, pensiunan, pemohon bersponsor dan kategori lain harus mengikuti bagian masing-masing dalam daftar resmi.",
       "cols": [
         "Dokumen",
         "Di mana mendapatkannya",
         "Apa yang harus ditunjukkan"
       ],
+      "legend": {
+        "required": "Wajib",
+        "conditional": "Tergantung pekerjaan Anda",
+        "recommended": "Disarankan"
+      },
       "rows": [
         {
           "doc": "Paspor",
           "req": "required",
           "where": "Anda sudah memilikinya",
-          "how": "Berlaku 6+ bulan dengan halaman kosong."
+          "how": "Paspor asli dan salinan halaman biodata paspor."
         },
         {
           "doc": "Formulir permohonan visa",
           "req": "required",
-          "where": "visa.go.kr",
-          "how": "Lengkapi di Korea Visa Portal, cetak, tanda tangani.",
-          "link": "https://www.visa.go.kr"
+          "where": "Sumber resmi",
+          "how": "Gunakan formulir yang dilampirkan pada persyaratan visa wisata resmi Kedutaan dan ikuti petunjuk formulir.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
         },
         {
           "doc": "Foto",
@@ -2067,79 +1756,22 @@
         },
         {
           "doc": "Surat keterangan bank",
-          "req": "required",
-          "where": "Bank Anda",
-          "how": "Surat keterangan bank atas rekening Anda. Catatan: sejak 20 Feb 2026, rekening koran 3 bulan tidak lagi diperlukan."
-        },
-        {
-          "doc": "ITR (karyawan)",
           "req": "conditional",
-          "where": "BIR / pemberi kerja (Form 2316)",
-          "how": "Surat Pemberitahuan Pajak Penghasilan (Income Tax Return) yang membuktikan penghasilan kerja Anda.",
-          "link": "https://www.bir.gov.ph"
+          "where": "Bank Anda",
+          "how": "Surat bank: diterbitkan atas nama pemohon dalam 3 bulan terakhir, mencantumkan nama, nomor, jenis rekening, tanggal pembukaan, saldo saat ini dan saldo harian rata-rata 6 bulan (ADB)."
         },
         {
-          "doc": "Certificate of Employment (COE)",
+          "doc": "Certificate of Employment (COE) / ITR",
           "req": "conditional",
           "where": "Pemberi kerja / HR Anda",
-          "how": "Di atas kop surat perusahaan: jabatan, gaji, dan tanggal cuti yang disetujui."
+          "how": "Karyawan: COE berkepala surat perusahaan, diterbitkan dalam 3 bulan terakhir, berisi jabatan, gaji, tanggal masuk, alamat perusahaan dan telepon/email HR; serta ITR (BIR Form 2316 atau 1701)."
         },
         {
           "doc": "Pendaftaran usaha (wiraswasta)",
           "req": "conditional",
           "where": "DTI atau SEC + LGU",
-          "how": "Pendaftaran DTI (pemilik tunggal) atau SEC (perseroan), plus izin usaha/izin wali kota Anda (mayor's permit).",
+          "how": "Usaha perseorangan: sertifikat DTI, izin usaha/wali kota dan ITR (BIR Form 1701). Pemohon perusahaan: halaman pertama pendaftaran SEC dan GIS, izin wali kota, ITR (BIR Form 1701 atau 1702).",
           "link": "https://www.dti.gov.ph"
-        },
-        {
-          "doc": "Reservasi tiket pesawat pulang-pergi & hotel",
-          "req": "required",
-          "where": "Maskapai / situs pemesanan",
-          "how": "Reservasi/itinerari sudah cukup — jangan membayar tiket sebelum disetujui."
-        }
-      ],
-      "legend": {
-        "required": "Wajib",
-        "conditional": "Tergantung pekerjaan Anda",
-        "recommended": "Disarankan"
-      }
-    },
-    "funds": {
-      "title": "“Bagaimana saya membuktikan bahwa saya mampu membiayai perjalanan ini?”",
-      "body": "Sejak Februari 2026, Anda tidak lagi menyerahkan rekening koran 3 bulan — surat keterangan bank bersama ITR/bukti pekerjaan (atau usaha) Anda yang menggambarkan kondisi keuangan. Tujuannya adalah menunjukkan penghasilan yang stabil dan ikatan yang kuat dengan Filipina.",
-      "tips": [
-        "Karyawan: ITR + Certificate of Employment adalah inti dari berkas Anda.",
-        "Pemilik usaha: pendaftaran + izin usaha + surat keterangan bank.",
-        "Disponsori? Tambahkan dokumen sponsor dan bukti hubungan."
-      ]
-    },
-    "pitfalls": {
-      "title": "Kesalahan yang menyebabkan penolakan & keterlambatan",
-      "items": [
-        {
-          "icon": "💳",
-          "t": "Membayar 'biaya visa'",
-          "d": "Visa kedutaan GRATIS. Hanya biaya penanganan agen yang merupakan tambahan yang sah."
-        },
-        {
-          "icon": "🧾",
-          "t": "Bukti pekerjaan yang lemah",
-          "d": "ITR atau COE yang tidak ada. Ini kini menjadi inti berkas pemohon Filipina."
-        },
-        {
-          "icon": "🎫",
-          "t": "Membayar tiket pesawat terlalu dini",
-          "d": "Membeli tiket yang tidak dapat dikembalikan sebelum disetujui — reservasi sudah cukup."
-        },
-        {
-          "icon": "🏝️",
-          "t": "Mengacaukan Jeju dengan daratan",
-          "d": "Opsi bebas visa Jeju tidak mencakup perjalanan ke Korea daratan."
-        },
-        {
-          "icon": "🗓️",
-          "t": "Mengajukan saat puncak liburan",
-          "d": "Pemrosesan melambat menjelang Chuseok/Seollal — ajukan lebih awal."
         }
       ]
     },
@@ -2148,41 +1780,79 @@
       "items": [
         {
           "q": "Apakah warga Filipina memerlukan visa untuk Korea?",
-          "a": "Ya untuk Korea daratan — Anda mengajukan visa turis C-3 sebelum bepergian. Visa ini gratis. Pulau Jeju memiliki masuk bebas visa terpisah."
+          "a": "Pemegang paspor Filipina memerlukan visa wisata C-3-9 untuk mengunjungi daratan Korea."
         },
         {
           "q": "Berapa biaya visanya?",
-          "a": "Tidak ada biaya visa untuk visa turis C-3 bagi pemegang paspor Filipina. Agen perjalanan dapat mengenakan biaya layanan sendiri, tetapi biaya kedutaan adalah nol."
+          "a": "Untuk warga Filipina: masa tinggal 59 hari atau kurang bebas biaya penerbitan visa; 60–90 hari dikenai PHP 2,000. Biaya KVAC terpisah; agen dapat menambah biaya layanan."
         },
         {
           "q": "Apakah saya memerlukan rekening koran?",
-          "a": "Sejak 20 Feb 2026, rekening koran 3 bulan tidak lagi diperlukan. Karyawan menunjukkan ITR + Certificate of Employment; pemilik usaha menunjukkan pendaftaran + izin."
+          "a": "Daftar wisata terbaru mencantumkan surat bank untuk karyawan biasa, bukan rekening koran sebagai item terpisah. Ini bukan pembebasan menyeluruh atas bukti keuangan: ikuti kategori dan permintaan tambahan. Surat bank: diterbitkan atas nama pemohon dalam 3 bulan terakhir, mencantumkan nama, nomor, jenis rekening, tanggal pembukaan, saldo saat ini dan saldo harian rata-rata 6 bulan (ADB)."
         },
         {
           "q": "Berapa lama waktunya?",
-          "a": "Sekitar 3–5 hari kerja, lebih lama menjelang hari libur Korea seperti Chuseok dan Seollal."
+          "a": "Mulai 2026-10-01: proses C-3 biasa memerlukan 12 hari kerja; pengajuan ekspres tetap 5 hari kerja. Periksa kelayakan ekspres secara terpisah. Persetujuan visa dan izin masuk tidak dijamin. Dokumen tambahan dapat diminta; masa pemeriksaan dapat dihitung ulang setelah penyerahan."
         },
         {
           "q": "Di mana saya mengajukan?",
-          "a": "Di Embassy of Korea in the Philippines atau melalui agen perjalanan yang terakreditasi kedutaan."
-        },
-        {
-          "q": "Bisakah saya mendapatkan visa masuk berkali-kali?",
-          "a": "Visa masuk berkali-kali dimungkinkan untuk pelancong yang memenuhi syarat (mis., riwayat perjalanan yang kuat). Tanyakan kepada kedutaan tentang kelayakan saat ini."
-        },
-        {
-          "q": "Apakah saya masih memerlukan e-Arrival Card?",
-          "a": "Aturan dokumen masuk seperti e-Arrival Card mungkin masih berlaku saat kedatangan. Periksa aturan terkini menjelang tanggal perjalanan Anda."
+          "a": "Ajukan melalui KVAC di Filipina. Periksa petunjuk KVAC terbaru sebelum datang; Kedutaan tidak menerima pengajuan biasa secara langsung. Jika memakai agen, pilih dari daftar agen resmi Kedutaan terbaru dan pastikan prosedur penyerahannya."
         }
       ]
+    },
+    "resources": {
+      "title": "Sumber resmi",
+      "intro": "Ini ringkasan, bukan daftar lengkap. Pelajar, pekerja lepas, pensiunan, pemohon bersponsor dan kategori lain harus mengikuti bagian masing-masing dalam daftar resmi.",
+      "items": [
+        {
+          "label": "Daftar periksa dokumen — dengan di mana & bagaimana mendapatkan masing-masing",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
+        },
+        {
+          "label": "Pengumuman waktu proses terbaru",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1"
+        },
+        {
+          "label": "KVAC",
+          "src": "visaforkorea-mn.com",
+          "url": "https://www.visaforkorea-mn.com"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "🏛️",
+        "name": "Sumber resmi",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+        "what": "Daftar periksa dokumen — dengan di mana & bagaimana mendapatkan masing-masing"
+      },
+      {
+        "icon": "🗓️",
+        "name": "Pengumuman waktu proses terbaru",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+        "what": "Mulai 2026-10-01: proses C-3 biasa memerlukan 12 hari kerja; pengajuan ekspres tetap 5 hari kerja. Periksa kelayakan ekspres secara terpisah."
+      }
+    ],
+    "factLabels": {
+      "visa_fee": "Biaya visa dan biaya layanan terpisah",
+      "processing": "Pengumuman waktu proses terbaru",
+      "apply_at": "Di mana saya mengajukan?"
+    },
+    "factValueLabels": {
+      "For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee.": "Untuk warga Filipina: masa tinggal 59 hari atau kurang bebas biaya penerbitan visa; 60–90 hari dikenai PHP 2,000. Biaya KVAC terpisah; agen dapat menambah biaya layanan.",
+      "Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.": "Mulai 2026-10-01: proses C-3 biasa memerlukan 12 hari kerja; pengajuan ekspres tetap 5 hari kerja. Periksa kelayakan ekspres secara terpisah.",
+      "Submit through KVAC in the Philippines. Check the current KVAC instructions before visiting; the Embassy does not receive ordinary applications directly.": "Ajukan melalui KVAC di Filipina. Periksa petunjuk KVAC terbaru sebelum datang; Kedutaan tidak menerima pengajuan biasa secara langsung."
     }
   },
   "ru": {
     "kicker": "Гид по визе · Филиппины → Корея",
-    "readingTime": "8 мин чтения",
+    "readingTime": "",
     "h1": "Виза в Корею для граждан Филиппин",
     "metaTitle": "Виза с Филиппин в Корею: нужна ли она? (2026) — Korea Trip Hub",
-    "metaDesc": "Да — обладателям филиппинского паспорта нужна виза в Южную Корею (C-3, туристическая), но визовый сбор БЕСПЛАТНЫЙ. Где подавать, какие документы и где получить каждый, и срок обработки — шаг за шагом.",
+    "metaDesc": "Владельцам филиппинских паспортов для туризма в материковой Корее нужна виза C-3-9. Подавайте через KVAC на Филиппинах. Перед посещением проверьте актуальные инструкции KVAC; посольство не принимает обычные заявления напрямую.",
+    "updated": "2026-10-02",
     "ui": {
       "visa": "Тип визы",
       "stay": "Срок пребывания",
@@ -2198,101 +1868,90 @@
       "tldr": "КРАТКО"
     },
     "verdict": {
-      "headline": "Да — обладателям филиппинского паспорта нужна виза, но она БЕСПЛАТНА.",
-      "sub": "Вы подаёте на туристическую визу C-3 перед поездкой в материковую Корею. Плюсы: визового сбора нет, обработка быстрая, а с февраля 2026 года вы больше не подаёте выписки из банка за 3 месяца.",
-      "type": "Туристическая C-3",
-      "stay": "До 90 дней",
-      "entry": "Однократный въезд (многократный возможен для соответствующих путешественников)"
+      "need": true,
+      "headline": "Владельцам филиппинских паспортов для туризма в материковой Корее нужна виза C-3-9.",
+      "sub": "Подавайте через KVAC на Филиппинах. Перед посещением проверьте актуальные инструкции KVAC; посольство не принимает обычные заявления напрямую.",
+      "type": "C-3-9",
+      "stay": "",
+      "entry": ""
     },
     "highlights": [
       {
-        "icon": "🆓",
+        "icon": "🧾",
         "tone": "green",
-        "title": "Без визового сбора",
-        "body": "Туристическая виза C-3 бесплатна для обладателей филиппинского паспорта. Остерегайтесь агентств, которые добавляют собственные сервисные сборы."
+        "title": "Визовый сбор и отдельная плата за услуги",
+        "body": "Для граждан Филиппин: пребывание до 59 дней включительно без сбора за выдачу визы; 60–90 дней — PHP 2,000. Сборы KVAC оплачиваются отдельно; агентство может добавить плату за услуги."
       },
       {
-        "icon": "📉",
+        "icon": "🗓️",
         "tone": "blue",
-        "title": "Упрощено с 20 февраля 2026 года",
-        "body": "Заявителям на Филиппинах больше не требуется подавать выписки из банка за последние 3 месяца. Работники вместо этого показывают ITR + Certificate of Employment."
-      },
-      {
-        "icon": "🏝️",
-        "tone": "amber",
-        "title": "Остров Чеджу — отдельный безвизовый въезд",
-        "body": "Есть ограниченные варианты безвизового въезда (начиная с острова Чеджу). Они отдельны от материковой туристической визы."
+        "title": "Актуальное уведомление о сроках",
+        "body": "С 2026-10-01: обычное рассмотрение C-3 занимает 12 рабочих дней, экспресс — по-прежнему 5 рабочих дней. Условия экспресс-подачи проверяйте отдельно."
       }
     ],
     "tldr": [
-      "Туристическая виза C-3 обязательна для материковой Кореи — но она БЕСПЛАТНА.",
-      "Заполните форму на visa.go.kr, затем подайте её через Посольство Кореи или аккредитованное турагентство.",
-      "Работники: возьмите ITR + Certificate of Employment. Владельцы бизнеса: DTI/SEC + разрешение на ведение бизнеса.",
-      "С февраля 2026 года выписки из банка за 3 месяца больше не нужны. Обработка занимает около 3–5 рабочих дней."
+      "Владельцам филиппинских паспортов для туризма в материковой Корее нужна виза C-3-9.",
+      "Для граждан Филиппин: пребывание до 59 дней включительно без сбора за выдачу визы; 60–90 дней — PHP 2,000. Сборы KVAC оплачиваются отдельно; агентство может добавить плату за услуги.",
+      "С 2026-10-01: обычное рассмотрение C-3 занимает 12 рабочих дней, экспресс — по-прежнему 5 рабочих дней. Условия экспресс-подачи проверяйте отдельно.",
+      "Текущий туристический список для обычных работников содержит банковскую справку, а не выписку отдельным пунктом. Это не всеобщая отмена финансовых доказательств: следуйте своей категории и дополнительным запросам."
     ],
     "steps": {
       "title": "Процесс подачи, шаг за шагом",
       "items": [
         {
           "n": 1,
-          "title": "Определите тип визы",
-          "detail": "Для туризма подавайте на краткосрочную туристическую визу C-3."
+          "title": "Подготовьте документы",
+          "detail": "Это краткое изложение, а не полный список. Студентам, фрилансерам, пенсионерам, заявителям со спонсором и другим категориям нужен соответствующий раздел официального списка.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+          "linkLabel": "Официальный источник"
         },
         {
           "n": 2,
-          "title": "Заполните форму на visa.go.kr",
-          "detail": "Заполните заявление на Korea Visa Portal — единственном официальном сайте — затем распечатайте и подпишите его.",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "Визовый портал Кореи"
+          "title": "KVAC",
+          "detail": "Подавайте через KVAC на Филиппинах. Перед посещением проверьте актуальные инструкции KVAC; посольство не принимает обычные заявления напрямую. При обращении в агентство выбирайте из текущего списка назначенных посольством агентств и уточняйте порядок подачи.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1",
+          "linkLabel": "Официальный источник"
         },
         {
           "n": 3,
-          "title": "Подготовьте документы",
-          "detail": "Соберите перечень ниже. Для работников основа — ITR + Certificate of Employment; для владельцев бизнеса — регистрация + разрешение."
+          "title": "Актуальное уведомление о сроках",
+          "detail": "С 2026-10-01: обычное рассмотрение C-3 занимает 12 рабочих дней, экспресс — по-прежнему 5 рабочих дней. Условия экспресс-подачи проверяйте отдельно. Одобрение визы и въезд не гарантированы. Могут запросить дополнительные документы и пересчитать срок рассмотрения после их подачи.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+          "linkLabel": "Официальный источник"
         },
         {
           "n": 4,
-          "title": "Подайте в Посольство / аккредитованное агентство",
-          "detail": "Подайте заявление в Посольство Кореи на Филиппинах или в аккредитованное посольством турагентство."
-        },
-        {
-          "n": 5,
-          "title": "Визового сбора платить не нужно",
-          "detail": "Сама виза бесплатна. Если вы пользуетесь турагентством, оно может взять собственный сервисный сбор — сбор посольства равен нулю."
-        },
-        {
-          "n": 6,
-          "title": "Ждите ~3–5 рабочих дней",
-          "detail": "Обработка быстрая, но закладывайте больше времени в период корейских праздников (Chuseok, Seollal)."
-        },
-        {
-          "n": 7,
           "title": "Заберите паспорт",
-          "detail": "Заберите паспорт и сразу проверьте данные визы."
+          "detail": "Приходите в KVAC после получения SMS. Заберите паспорт и проверьте данные выданной визы."
         }
       ]
     },
     "documents": {
       "title": "Перечень документов — с указанием, где и как получить каждый",
-      "intro": "Для каждого пункта указано, где его получить и что он должен подтверждать. Требования различаются для работников, владельцев бизнеса и студентов.",
+      "intro": "Это краткое изложение, а не полный список. Студентам, фрилансерам, пенсионерам, заявителям со спонсором и другим категориям нужен соответствующий раздел официального списка.",
       "cols": [
         "Документ",
         "Где получить",
         "Что должно быть указано"
       ],
+      "legend": {
+        "required": "Обязательно",
+        "conditional": "Зависит от вашей работы",
+        "recommended": "Рекомендуется"
+      },
       "rows": [
         {
           "doc": "Паспорт",
           "req": "required",
           "where": "У вас уже есть",
-          "how": "Действителен ещё не менее 6 месяцев, с чистыми страницами."
+          "how": "Оригинал паспорта и копия страницы персональных данных."
         },
         {
           "doc": "Визовое заявление",
           "req": "required",
-          "where": "visa.go.kr",
-          "how": "Заполните на Korea Visa Portal, распечатайте, подпишите.",
-          "link": "https://www.visa.go.kr"
+          "where": "Официальный источник",
+          "how": "Используйте анкету, приложенную к официальным требованиям посольства для туристической визы, и следуйте ее инструкциям.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
         },
         {
           "doc": "Фото",
@@ -2302,79 +1961,22 @@
         },
         {
           "doc": "Банковская справка",
-          "req": "required",
-          "where": "Ваш банк",
-          "how": "Банковская справка по вашему счёту. Примечание: с 20 февраля 2026 года выписки из банка за 3 месяца больше не требуются."
-        },
-        {
-          "doc": "ITR (для работников)",
           "req": "conditional",
-          "where": "BIR / работодатель (Form 2316)",
-          "how": "Налоговая декларация (Income Tax Return), подтверждающая ваш трудовой доход.",
-          "link": "https://www.bir.gov.ph"
+          "where": "Ваш банк",
+          "how": "Банковская справка: выдана на имя заявителя за последние 3 месяца, содержит имя владельца, номер, тип и дату открытия счета, текущий остаток и средний ежедневный остаток за 6 месяцев (ADB)."
         },
         {
-          "doc": "Certificate of Employment (COE)",
+          "doc": "Certificate of Employment (COE) / ITR",
           "req": "conditional",
           "where": "Ваш работодатель / отдел кадров",
-          "how": "На фирменном бланке компании: должность, зарплата и утверждённые даты отпуска."
+          "how": "Работники: COE на бланке компании, выданная за последние 3 месяца, с должностью, зарплатой, датой найма, адресом компании и телефоном/email отдела кадров; ITR (BIR Form 2316 или 1701)."
         },
         {
           "doc": "Регистрация бизнеса (для самозанятых)",
           "req": "conditional",
           "where": "DTI или SEC + LGU",
-          "how": "Регистрация DTI (ИП) или SEC (юрлицо), плюс разрешение на бизнес/разрешение мэра (mayor's permit).",
+          "how": "Индивидуальные предприниматели: сертификат DTI, разрешение на бизнес/мэра, ITR (BIR Form 1701). Компании: первая страница регистрации SEC и GIS, разрешение мэра, ITR (BIR Form 1701 или 1702).",
           "link": "https://www.dti.gov.ph"
-        },
-        {
-          "doc": "Бронь авиабилетов туда-обратно и отеля",
-          "req": "required",
-          "where": "Авиакомпания / сайты бронирования",
-          "how": "Достаточно брони/маршрута — не оплачивайте билет до одобрения."
-        }
-      ],
-      "legend": {
-        "required": "Обязательно",
-        "conditional": "Зависит от вашей работы",
-        "recommended": "Рекомендуется"
-      }
-    },
-    "funds": {
-      "title": "«Как доказать, что я могу позволить себе поездку?»",
-      "body": "С февраля 2026 года вы больше не подаёте выписки из банка за 3 месяца — банковская справка вместе с ITR/подтверждением занятости (или бизнеса) отражает финансовую картину. Цель — показать стабильный доход и прочные связи с Филиппинами.",
-      "tips": [
-        "Работники: ITR + Certificate of Employment — основа вашего досье.",
-        "Владельцы бизнеса: регистрация + разрешение на бизнес + банковская справка.",
-        "Есть спонсор? Добавьте документы спонсора и подтверждение родства."
-      ]
-    },
-    "pitfalls": {
-      "title": "Ошибки, приводящие к отказам и задержкам",
-      "items": [
-        {
-          "icon": "💳",
-          "t": "Платить «визовый сбор»",
-          "d": "Виза в посольстве БЕСПЛАТНА. Законны только сервисные сборы агентства как дополнительные."
-        },
-        {
-          "icon": "🧾",
-          "t": "Слабое подтверждение занятости",
-          "d": "Отсутствие ITR или COE. Теперь именно они — сердце досье филиппинского заявителя."
-        },
-        {
-          "icon": "🎫",
-          "t": "Ранняя оплата авиабилетов",
-          "d": "Покупка невозвратных билетов до одобрения — брони достаточно."
-        },
-        {
-          "icon": "🏝️",
-          "t": "Путать Чеджу с материком",
-          "d": "Безвизовые варианты Чеджу не покрывают поездки по материковой Корее."
-        },
-        {
-          "icon": "🗓️",
-          "t": "Подавать в пик праздников",
-          "d": "Обработка замедляется в период Chuseok/Seollal — подавайте раньше."
         }
       ]
     },
@@ -2383,41 +1985,79 @@
       "items": [
         {
           "q": "Нужна ли филиппинцам виза в Корею?",
-          "a": "Для материковой Кореи — да, вы подаёте на туристическую визу C-3 перед поездкой. Она бесплатна. На острове Чеджу действует отдельный безвизовый въезд."
+          "a": "Владельцам филиппинских паспортов для туризма в материковой Корее нужна виза C-3-9."
         },
         {
           "q": "Сколько стоит визовый сбор?",
-          "a": "Для туристической визы C-3 для обладателей филиппинского паспорта визового сбора нет. Турагентство может взять собственный сервисный сбор, но сбор посольства равен нулю."
+          "a": "Для граждан Филиппин: пребывание до 59 дней включительно без сбора за выдачу визы; 60–90 дней — PHP 2,000. Сборы KVAC оплачиваются отдельно; агентство может добавить плату за услуги."
         },
         {
           "q": "Нужны ли мне выписки из банка?",
-          "a": "С 20 февраля 2026 года выписки из банка за 3 месяца больше не требуются. Работники показывают ITR + Certificate of Employment; владельцы бизнеса — регистрацию + разрешение."
+          "a": "Текущий туристический список для обычных работников содержит банковскую справку, а не выписку отдельным пунктом. Это не всеобщая отмена финансовых доказательств: следуйте своей категории и дополнительным запросам. Банковская справка: выдана на имя заявителя за последние 3 месяца, содержит имя владельца, номер, тип и дату открытия счета, текущий остаток и средний ежедневный остаток за 6 месяцев (ADB)."
         },
         {
           "q": "Сколько это занимает?",
-          "a": "Около 3–5 рабочих дней, дольше в период корейских праздников, таких как Chuseok и Seollal."
+          "a": "С 2026-10-01: обычное рассмотрение C-3 занимает 12 рабочих дней, экспресс — по-прежнему 5 рабочих дней. Условия экспресс-подачи проверяйте отдельно. Одобрение визы и въезд не гарантированы. Могут запросить дополнительные документы и пересчитать срок рассмотрения после их подачи."
         },
         {
           "q": "Где мне подавать?",
-          "a": "В Посольстве Кореи на Филиппинах или через аккредитованное посольством турагентство."
-        },
-        {
-          "q": "Могу ли я получить многократную визу?",
-          "a": "Многократные визы возможны для соответствующих путешественников (например, с богатой историей поездок). Уточните в посольстве текущие условия."
-        },
-        {
-          "q": "Нужна ли мне по-прежнему e-Arrival Card?",
-          "a": "Правила въездных документов, такие как e-Arrival Card, могут по-прежнему действовать по прибытии. Проверьте актуальные правила ближе к дате поездки."
+          "a": "Подавайте через KVAC на Филиппинах. Перед посещением проверьте актуальные инструкции KVAC; посольство не принимает обычные заявления напрямую. При обращении в агентство выбирайте из текущего списка назначенных посольством агентств и уточняйте порядок подачи."
         }
       ]
+    },
+    "resources": {
+      "title": "Официальный источник",
+      "intro": "Это краткое изложение, а не полный список. Студентам, фрилансерам, пенсионерам, заявителям со спонсором и другим категориям нужен соответствующий раздел официального списка.",
+      "items": [
+        {
+          "label": "Перечень документов — с указанием, где и как получить каждый",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
+        },
+        {
+          "label": "Актуальное уведомление о сроках",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1"
+        },
+        {
+          "label": "KVAC",
+          "src": "visaforkorea-mn.com",
+          "url": "https://www.visaforkorea-mn.com"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "🏛️",
+        "name": "Официальный источник",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+        "what": "Перечень документов — с указанием, где и как получить каждый"
+      },
+      {
+        "icon": "🗓️",
+        "name": "Актуальное уведомление о сроках",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+        "what": "С 2026-10-01: обычное рассмотрение C-3 занимает 12 рабочих дней, экспресс — по-прежнему 5 рабочих дней. Условия экспресс-подачи проверяйте отдельно."
+      }
+    ],
+    "factLabels": {
+      "visa_fee": "Визовый сбор и отдельная плата за услуги",
+      "processing": "Актуальное уведомление о сроках",
+      "apply_at": "Где мне подавать?"
+    },
+    "factValueLabels": {
+      "For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee.": "Для граждан Филиппин: пребывание до 59 дней включительно без сбора за выдачу визы; 60–90 дней — PHP 2,000. Сборы KVAC оплачиваются отдельно; агентство может добавить плату за услуги.",
+      "Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.": "С 2026-10-01: обычное рассмотрение C-3 занимает 12 рабочих дней, экспресс — по-прежнему 5 рабочих дней. Условия экспресс-подачи проверяйте отдельно.",
+      "Submit through KVAC in the Philippines. Check the current KVAC instructions before visiting; the Embassy does not receive ordinary applications directly.": "Подавайте через KVAC на Филиппинах. Перед посещением проверьте актуальные инструкции KVAC; посольство не принимает обычные заявления напрямую."
     }
   },
   "fr": {
     "kicker": "Guide des visas · Philippines → Corée",
-    "readingTime": "8 min de lecture",
+    "readingTime": "",
     "h1": "Visa pour la Corée pour les citoyens philippins",
     "metaTitle": "Visa Philippines vers Corée : en avez-vous besoin ? (2026) — Korea Trip Hub",
-    "metaDesc": "Oui — les titulaires d'un passeport philippin ont besoin d'un visa pour la Corée du Sud (C-3 tourisme), mais les frais de visa sont GRATUITS. Où faire la demande, les documents et où obtenir chacun, et le délai de traitement — étape par étape.",
+    "metaDesc": "Les titulaires d’un passeport philippin ont besoin d’un visa touristique C-3-9 pour la Corée continentale. Déposez le dossier via KVAC aux Philippines. Consultez ses instructions actuelles avant de venir ; l’ambassade ne reçoit pas directement les demandes ordinaires.",
+    "updated": "2026-10-02",
     "ui": {
       "visa": "Type de visa",
       "stay": "Durée du séjour",
@@ -2433,101 +2073,90 @@
       "tldr": "EN BREF"
     },
     "verdict": {
-      "headline": "Oui — les titulaires d'un passeport philippin ont besoin d'un visa, mais il est GRATUIT.",
-      "sub": "Vous demandez le visa touristique C-3 avant de voyager vers la Corée continentale. L'avantage : aucuns frais de visa, un traitement rapide, et depuis février 2026 vous n'avez plus à fournir de relevés bancaires de 3 mois.",
-      "type": "Touristique C-3",
-      "stay": "Jusqu'à 90 jours",
-      "entry": "Entrée unique (entrées multiples possibles pour les voyageurs éligibles)"
+      "need": true,
+      "headline": "Les titulaires d’un passeport philippin ont besoin d’un visa touristique C-3-9 pour la Corée continentale.",
+      "sub": "Déposez le dossier via KVAC aux Philippines. Consultez ses instructions actuelles avant de venir ; l’ambassade ne reçoit pas directement les demandes ordinaires.",
+      "type": "C-3-9",
+      "stay": "",
+      "entry": ""
     },
     "highlights": [
       {
-        "icon": "🆓",
+        "icon": "🧾",
         "tone": "green",
-        "title": "Aucuns frais de visa",
-        "body": "Le visa touristique C-3 est gratuit pour les titulaires d'un passeport philippin. Méfiez-vous des agences qui ajoutent leurs propres frais de service."
+        "title": "Frais de visa et services facturés séparément",
+        "body": "Pour les citoyens philippins : séjour de 59 jours ou moins sans frais de délivrance ; séjour de 60–90 jours à PHP 2,000. Les frais KVAC sont distincts ; une agence peut ajouter ses honoraires."
       },
       {
-        "icon": "📉",
+        "icon": "🗓️",
         "tone": "blue",
-        "title": "Simplifié depuis le 20 février 2026",
-        "body": "Les demandeurs aux Philippines ne sont plus tenus de fournir les relevés bancaires des 3 derniers mois. Les salariés présentent à la place leur ITR + une attestation d'emploi (Certificate of Employment)."
-      },
-      {
-        "icon": "🏝️",
-        "tone": "amber",
-        "title": "Île de Jeju — exemption de visa distincte",
-        "body": "Il existe des possibilités limitées d'entrée sans visa (en commençant par l'île de Jeju). Elles sont distinctes du visa touristique pour le continent."
+        "title": "Avis actuel sur les délais",
+        "body": "Depuis le 2026-10-01 : le traitement C-3 ordinaire est de 12 jours ouvrés ; les demandes express restent à 5 jours ouvrés. Vérifiez séparément les conditions de l’express."
       }
     ],
     "tldr": [
-      "Le visa touristique C-3 est obligatoire pour la Corée continentale — mais il est GRATUIT.",
-      "Remplissez le formulaire sur visa.go.kr, puis déposez-le auprès de l'ambassade de Corée ou d'une agence de voyages agréée.",
-      "Salariés : apportez l'ITR + l'attestation d'emploi (Certificate of Employment). Chefs d'entreprise : DTI/SEC + permis d'exploitation.",
-      "Depuis février 2026, vous n'avez plus besoin de relevés bancaires de 3 mois. Le traitement prend environ 3 à 5 jours ouvrables."
+      "Les titulaires d’un passeport philippin ont besoin d’un visa touristique C-3-9 pour la Corée continentale.",
+      "Pour les citoyens philippins : séjour de 59 jours ou moins sans frais de délivrance ; séjour de 60–90 jours à PHP 2,000. Les frais KVAC sont distincts ; une agence peut ajouter ses honoraires.",
+      "Depuis le 2026-10-01 : le traitement C-3 ordinaire est de 12 jours ouvrés ; les demandes express restent à 5 jours ouvrés. Vérifiez séparément les conditions de l’express.",
+      "La liste touristique actuelle mentionne une attestation bancaire pour les salariés ordinaires, sans relevé bancaire comme pièce distincte. Il ne s’agit pas d’une dispense générale de justificatifs financiers : suivez votre catégorie et les demandes complémentaires."
     ],
     "steps": {
       "title": "La demande, étape par étape",
       "items": [
         {
           "n": 1,
-          "title": "Confirmez le type de visa",
-          "detail": "Pour le tourisme, demandez le visa touristique de court séjour C-3."
+          "title": "Préparez vos documents",
+          "detail": "Ceci est un résumé, pas une liste complète. Étudiants, indépendants, retraités, demandeurs parrainés et autres catégories doivent consulter leur section de la liste officielle.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+          "linkLabel": "Source officielle"
         },
         {
           "n": 2,
-          "title": "Remplissez le formulaire sur visa.go.kr",
-          "detail": "Complétez le formulaire de demande sur le Korea Visa Portal — le seul site officiel — puis imprimez-le et signez-le.",
-          "link": "https://www.visa.go.kr",
-          "linkLabel": "Portail des visas de la Corée"
+          "title": "KVAC",
+          "detail": "Déposez le dossier via KVAC aux Philippines. Consultez ses instructions actuelles avant de venir ; l’ambassade ne reçoit pas directement les demandes ordinaires. Si vous passez par une agence, choisissez dans la liste actuelle de l’ambassade et confirmez les modalités de dépôt.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1",
+          "linkLabel": "Source officielle"
         },
         {
           "n": 3,
-          "title": "Préparez vos documents",
-          "detail": "Rassemblez la liste ci-dessous. Les salariés s'appuient sur l'ITR + l'attestation d'emploi ; les chefs d'entreprise sur l'immatriculation + le permis."
+          "title": "Avis actuel sur les délais",
+          "detail": "Depuis le 2026-10-01 : le traitement C-3 ordinaire est de 12 jours ouvrés ; les demandes express restent à 5 jours ouvrés. Vérifiez séparément les conditions de l’express. Ni l’approbation ni l’entrée ne sont garanties. Des pièces supplémentaires peuvent être demandées et le délai recalculé après leur dépôt.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+          "linkLabel": "Source officielle"
         },
         {
           "n": 4,
-          "title": "Déposez auprès de l'ambassade / d'une agence agréée",
-          "detail": "Déposez votre demande auprès de l'ambassade de Corée aux Philippines ou d'une agence de voyages agréée par l'ambassade."
-        },
-        {
-          "n": 5,
-          "title": "Aucuns frais de visa à payer",
-          "detail": "Le visa lui-même est gratuit. Si vous passez par une agence de voyages, elle peut facturer ses propres frais de dossier — les frais de l'ambassade sont nuls."
-        },
-        {
-          "n": 6,
-          "title": "Attendez environ 3 à 5 jours ouvrables",
-          "detail": "Le traitement est rapide, mais prévoyez plus de temps autour des fêtes coréennes (Chuseok, Seollal)."
-        },
-        {
-          "n": 7,
           "title": "Récupérez votre passeport",
-          "detail": "Récupérez votre passeport et vérifiez immédiatement les détails du visa."
+          "detail": "Rendez-vous à KVAC après réception du SMS. Récupérez votre passeport et vérifiez les informations de délivrance du visa."
         }
       ]
     },
     "documents": {
       "title": "Liste des documents — avec où et comment obtenir chacun",
-      "intro": "Pour chaque document, voici où l'obtenir et ce qu'il doit indiquer. Les exigences diffèrent pour les salariés, les chefs d'entreprise et les étudiants.",
+      "intro": "Ceci est un résumé, pas une liste complète. Étudiants, indépendants, retraités, demandeurs parrainés et autres catégories doivent consulter leur section de la liste officielle.",
       "cols": [
         "Document",
         "Où l'obtenir",
         "Ce qu'il doit indiquer"
       ],
+      "legend": {
+        "required": "Obligatoire",
+        "conditional": "Selon votre profession",
+        "recommended": "Recommandé"
+      },
       "rows": [
         {
           "doc": "Passeport",
           "req": "required",
           "where": "Vous l'avez déjà",
-          "how": "Valable au moins 6 mois, avec des pages vierges."
+          "how": "Passeport original et copie de la page de données personnelles."
         },
         {
           "doc": "Formulaire de demande de visa",
           "req": "required",
-          "where": "visa.go.kr",
-          "how": "À compléter sur le Korea Visa Portal, imprimer, signer.",
-          "link": "https://www.visa.go.kr"
+          "where": "Source officielle",
+          "how": "Utilisez le formulaire joint aux exigences officielles de visa touristique de l’ambassade et suivez ses instructions.",
+          "link": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
         },
         {
           "doc": "Photo",
@@ -2537,79 +2166,22 @@
         },
         {
           "doc": "Attestation bancaire",
-          "req": "required",
-          "where": "Votre banque",
-          "how": "Une attestation bancaire de votre compte. Remarque : depuis le 20 février 2026, les relevés bancaires de 3 mois ne sont plus exigés."
-        },
-        {
-          "doc": "ITR (salariés)",
           "req": "conditional",
-          "where": "BIR / employeur (Form 2316)",
-          "how": "Déclaration de revenus (Income Tax Return) prouvant vos revenus d'emploi.",
-          "link": "https://www.bir.gov.ph"
+          "where": "Votre banque",
+          "how": "Attestation bancaire : délivrée au nom du demandeur dans les 3 derniers mois, avec nom, numéro et type de compte, date d’ouverture, solde actuel et solde quotidien moyen sur 6 mois (ADB)."
         },
         {
-          "doc": "Attestation d'emploi (COE)",
+          "doc": "Attestation d'emploi (COE) / ITR",
           "req": "conditional",
           "where": "Votre employeur / RH",
-          "how": "Sur papier à en-tête de l'entreprise : poste, salaire et dates de congé approuvées."
+          "how": "Salariés : COE sur papier à en-tête, délivré dans les 3 derniers mois, avec poste, salaire, date d’embauche, adresse et téléphone/courriel RH ; et ITR (BIR Form 2316 ou 1701)."
         },
         {
           "doc": "Immatriculation d'entreprise (indépendants)",
           "req": "conditional",
           "where": "DTI ou SEC + LGU",
-          "how": "Immatriculation DTI (entrepreneur individuel) ou SEC (société), plus votre permis d'exploitation / permis du maire (mayor's permit).",
+          "how": "Entrepreneurs individuels : certificat DTI, permis commercial/du maire et ITR (BIR Form 1701). Sociétés : première page du registre SEC et GIS, permis du maire et ITR (BIR Form 1701 ou 1702).",
           "link": "https://www.dti.gov.ph"
-        },
-        {
-          "doc": "Réservation de vol aller-retour et d'hôtel",
-          "req": "required",
-          "where": "Compagnie aérienne / sites de réservation",
-          "how": "Les réservations/l'itinéraire suffisent — ne payez pas de billet avant l'approbation."
-        }
-      ],
-      "legend": {
-        "required": "Obligatoire",
-        "conditional": "Selon votre profession",
-        "recommended": "Recommandé"
-      }
-    },
-    "funds": {
-      "title": "« Comment prouver que je peux financer le voyage ? »",
-      "body": "Depuis février 2026, vous ne fournissez plus de relevés bancaires de 3 mois — une attestation bancaire ainsi que votre justificatif d'ITR/d'emploi (ou d'activité) portent le volet financier. L'objectif est de démontrer des revenus stables et des liens forts avec les Philippines.",
-      "tips": [
-        "Salariés : l'ITR + l'attestation d'emploi (Certificate of Employment) sont le cœur de votre dossier.",
-        "Chefs d'entreprise : immatriculation + permis d'exploitation + une attestation bancaire.",
-        "Vous êtes pris en charge ? Ajoutez les documents du garant et un justificatif de lien de parenté."
-      ]
-    },
-    "pitfalls": {
-      "title": "Erreurs qui entraînent des refus et des retards",
-      "items": [
-        {
-          "icon": "💳",
-          "t": "Payer des « frais de visa »",
-          "d": "Le visa de l'ambassade est GRATUIT. Seuls les frais de dossier des agences sont des suppléments légitimes."
-        },
-        {
-          "icon": "🧾",
-          "t": "Justificatif d'emploi faible",
-          "d": "ITR ou COE manquant. Ils sont désormais au cœur du dossier d'un demandeur philippin."
-        },
-        {
-          "icon": "🎫",
-          "t": "Payer les vols trop tôt",
-          "d": "Acheter des billets non remboursables avant l'approbation — une réservation suffit."
-        },
-        {
-          "icon": "🏝️",
-          "t": "Confondre Jeju et le continent",
-          "d": "Les possibilités d'entrée sans visa à Jeju ne couvrent pas les voyages en Corée continentale."
-        },
-        {
-          "icon": "🗓️",
-          "t": "Déposer sa demande en pleine période de fêtes",
-          "d": "Le traitement ralentit autour de Chuseok/Seollal — déposez plus tôt."
         }
       ]
     },
@@ -2618,33 +2190,70 @@
       "items": [
         {
           "q": "Les Philippins ont-ils besoin d'un visa pour la Corée ?",
-          "a": "Oui pour la Corée continentale — vous demandez un visa touristique C-3 avant de voyager. Il est gratuit. L'île de Jeju dispose d'une entrée sans visa distincte."
+          "a": "Les titulaires d’un passeport philippin ont besoin d’un visa touristique C-3-9 pour la Corée continentale."
         },
         {
           "q": "Quel est le montant des frais de visa ?",
-          "a": "Il n'y a aucuns frais de visa pour le visa touristique C-3 destiné aux titulaires d'un passeport philippin. Une agence de voyages peut facturer ses propres frais de service, mais les frais de l'ambassade sont nuls."
+          "a": "Pour les citoyens philippins : séjour de 59 jours ou moins sans frais de délivrance ; séjour de 60–90 jours à PHP 2,000. Les frais KVAC sont distincts ; une agence peut ajouter ses honoraires."
         },
         {
           "q": "Ai-je besoin de relevés bancaires ?",
-          "a": "Depuis le 20 février 2026, les relevés bancaires de 3 mois ne sont plus exigés. Les salariés présentent l'ITR + l'attestation d'emploi (Certificate of Employment) ; les chefs d'entreprise présentent l'immatriculation + le permis."
+          "a": "La liste touristique actuelle mentionne une attestation bancaire pour les salariés ordinaires, sans relevé bancaire comme pièce distincte. Il ne s’agit pas d’une dispense générale de justificatifs financiers : suivez votre catégorie et les demandes complémentaires. Attestation bancaire : délivrée au nom du demandeur dans les 3 derniers mois, avec nom, numéro et type de compte, date d’ouverture, solde actuel et solde quotidien moyen sur 6 mois (ADB)."
         },
         {
           "q": "Combien de temps cela prend-il ?",
-          "a": "Environ 3 à 5 jours ouvrables, davantage autour des fêtes coréennes comme Chuseok et Seollal."
+          "a": "Depuis le 2026-10-01 : le traitement C-3 ordinaire est de 12 jours ouvrés ; les demandes express restent à 5 jours ouvrés. Vérifiez séparément les conditions de l’express. Ni l’approbation ni l’entrée ne sont garanties. Des pièces supplémentaires peuvent être demandées et le délai recalculé après leur dépôt."
         },
         {
           "q": "Où dois-je déposer ma demande ?",
-          "a": "À l'ambassade de Corée aux Philippines ou via une agence de voyages agréée par l'ambassade."
-        },
-        {
-          "q": "Puis-je obtenir un visa à entrées multiples ?",
-          "a": "Les visas à entrées multiples sont possibles pour les voyageurs éligibles (par exemple, un solide historique de voyages). Renseignez-vous auprès de l'ambassade sur les conditions actuelles d'éligibilité."
-        },
-        {
-          "q": "Ai-je encore besoin de l'e-Arrival Card ?",
-          "a": "Les règles relatives aux documents d'entrée comme l'e-Arrival Card peuvent toujours s'appliquer à l'arrivée. Vérifiez les règles en vigueur à l'approche de votre date de voyage."
+          "a": "Déposez le dossier via KVAC aux Philippines. Consultez ses instructions actuelles avant de venir ; l’ambassade ne reçoit pas directement les demandes ordinaires. Si vous passez par une agence, choisissez dans la liste actuelle de l’ambassade et confirmez les modalités de dépôt."
         }
       ]
+    },
+    "resources": {
+      "title": "Source officielle",
+      "intro": "Ceci est un résumé, pas une liste complète. Étudiants, indépendants, retraités, demandeurs parrainés et autres catégories doivent consulter leur section de la liste officielle.",
+      "items": [
+        {
+          "label": "Liste des documents — avec où et comment obtenir chacun",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1"
+        },
+        {
+          "label": "Avis actuel sur les délais",
+          "src": "overseas.mofa.go.kr",
+          "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1"
+        },
+        {
+          "label": "KVAC",
+          "src": "visaforkorea-mn.com",
+          "url": "https://www.visaforkorea-mn.com"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "🏛️",
+        "name": "Source officielle",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+        "what": "Liste des documents — avec où et comment obtenir chacun"
+      },
+      {
+        "icon": "🗓️",
+        "name": "Avis actuel sur les délais",
+        "url": "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+        "what": "Depuis le 2026-10-01 : le traitement C-3 ordinaire est de 12 jours ouvrés ; les demandes express restent à 5 jours ouvrés. Vérifiez séparément les conditions de l’express."
+      }
+    ],
+    "factLabels": {
+      "visa_fee": "Frais de visa et services facturés séparément",
+      "processing": "Avis actuel sur les délais",
+      "apply_at": "Où dois-je déposer ma demande ?"
+    },
+    "factValueLabels": {
+      "For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee.": "Pour les citoyens philippins : séjour de 59 jours ou moins sans frais de délivrance ; séjour de 60–90 jours à PHP 2,000. Les frais KVAC sont distincts ; une agence peut ajouter ses honoraires.",
+      "Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.": "Depuis le 2026-10-01 : le traitement C-3 ordinaire est de 12 jours ouvrés ; les demandes express restent à 5 jours ouvrés. Vérifiez séparément les conditions de l’express.",
+      "Submit through KVAC in the Philippines. Check the current KVAC instructions before visiting; the Embassy does not receive ordinary applications directly.": "Déposez le dossier via KVAC aux Philippines. Consultez ses instructions actuelles avant de venir ; l’ambassade ne reçoit pas directement les demandes ordinaires."
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "_README": "Facts SSOT. Follows HARNESS.md. Only status:VERIFIED facts render. All numbers/contacts/rules must be grounded here. No invented estimates. VOLATILE facts must show source + verified date + confirm link. claim/notes are the ENGLISH (base-language) display text; translations for other locales live in messages/<locale>.json under `facts`.",
-  "_updated": "2026-09-23",
+  "_updated": "2026-10-02",
   "facts": [
     {
       "id": "keta-exemption",
@@ -658,20 +658,33 @@
     {
       "id": "visa-philippines-c3",
       "tier": "VOLATILE",
-      "claim": "Filipino passport holders need a C-3 tourist visa for mainland Korea, but there is NO visa fee. From 2026-02-20, 3-month bank statements are no longer required.",
+      "claim": "Filipino passport holders need a C-3-9 tourist visa for mainland Korea. For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee. Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.",
       "value": {
-        "visa_type": "C-3 tourist",
-        "visa_fee": "free (no fee)",
-        "processing": "≈ 3–5 business days",
-        "bank_statement": "no longer required (from 2026-02-20)",
-        "apply_at": "Korean embassy / accredited agencies"
+        "visa_fee": "For Filipino applicants: stays of 59 days or less have no visa issuance fee; stays of 60–90 days cost PHP 2,000. KVAC charges are separate; an agency may add a service fee.",
+        "processing": "Effective 2026-10-01: ordinary C-3 processing is 12 working days; express applications remain 5 working days. Check express eligibility separately.",
+        "apply_at": "Submit through KVAC in the Philippines. Check the current KVAC instructions before visiting; the Embassy does not receive ordinary applications directly."
       },
-      "source": "https://myoona.ph/blog/travel/south-korea-visa-requirements/",
-      "source_name": "Travel guides (2026) — confirm at Korean embassy in the Philippines",
-      "verified": "2026-08-03",
+      "source": "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+      "source_name": "Embassy of the Republic of Korea in the Philippines — tourist checklist",
+      "verified": "2026-10-02",
       "recheck_after": "2026-11-01",
       "status": "VERIFIED",
-      "notes": "Employees still submit ITR + Certificate of Employment; business owners submit DTI/SEC registration + business permit. Jeju Island has separate visa-free entry. Confirm current rules with the embassy."
+      "notes": "This is a summary, not a complete checklist. Students, freelancers, retirees, sponsored applicants and other categories must use their own section of the official checklist. Approval and entry are not guaranteed. Additional documents may be requested; the processing period may be recalculated after submission.",
+      "sources": [
+        "https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1",
+        "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1",
+        "https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1"
+      ],
+      "document_requirements": {
+        "passport": "Original passport and copy of the passport bio-page.",
+        "form": "Use the visa application form attached to the Embassy’s official tourist-visa requirements. Follow the form instructions.",
+        "bank_certificate": "Bank certificate: issued in your name within the last 3 months, showing account name, number, type, opening date, current balance and 6-month average daily balance (ADB).",
+        "employment": "Employees: COE on company letterhead with position, salary, hired date, company address and HR phone/email, issued within the last 3 months; ITR (BIR Form 2316 or 1701).",
+        "business": "Sole proprietors: DTI certificate, business/mayor’s permit and ITR (BIR Form 1701). Corporate applicants: SEC registration first page and GIS, mayor’s permit and ITR (BIR Form 1701 or 1702).",
+        "bank_statement_scope": "The current tourist checklist lists a bank certificate, rather than a separate bank-statement item for ordinary employees. This is not a blanket exemption from financial evidence: follow your category and any additional request.",
+        "collection": "Visit KVAC after receiving its SMS notice. Collect your passport and check the visa grant details.",
+        "photo": "3.5 cm × 4.5 cm; plain white background, taken within the last 6 months; no copies, selfies or altered photos."
+      }
     },
     {
       "id": "visa-indonesia-c3",
