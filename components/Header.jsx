@@ -100,7 +100,7 @@ export default function Header({ locale, nav = {}, labels: ui = {}, locales = []
         </div>
       </div>
       <dialog ref={shareDialog} className="header-share-dialog" aria-label={sharing.heading} onClick={(event) => { if (event.target === event.currentTarget) shareDialog.current?.close(); }}>
-        <div className="header-share-dialog-top"><button type="button" className="btn ghost" onClick={() => shareDialog.current?.close()}>{sharing.close} ✕</button></div>
+        <div className="header-share-dialog-top"><button type="button" className="share-close" aria-label={sharing.close} onClick={() => shareDialog.current?.close()}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
         <ShareTools locale={locale} expandPlatforms />
       </dialog>
     </header>
