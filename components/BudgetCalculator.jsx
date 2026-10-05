@@ -4,6 +4,7 @@ import labels from '../data/budget-ui.json';
 import { CURRENCIES, calculateBudget, budgetCurrency } from '../lib/budget.mjs';
 import { track } from '../lib/analytics';
 import TravelIcon from './TravelIcon';
+import PeekMascot from './PeekMascot';
 const fields = ['flights','stay','transport','food','activities'];
 export default function BudgetCalculator({locale, country}) {
   const t = labels[locale] || labels.en, id = useId();
@@ -19,7 +20,7 @@ export default function BudgetCalculator({locale, country}) {
     if (next) track('budget_calculate', {locale,currency});
   }
   const money = (value, code) => new Intl.NumberFormat(locale, {style:'currency',currency:code,maximumFractionDigits:2}).format(value);
-  return <section id="budget" className="budget-calculator" aria-labelledby={`${id}-title`}>
+  return <section id="budget" className="budget-calculator travel-has-peek" aria-labelledby={`${id}-title`}><PeekMascot animal="cat"/>
     <h2 id={`${id}-title`} className="travel-heading"><TravelIcon name="money"/>{t.title}</h2><p>{t.note}</p>
     <form onSubmit={calculate}>
       <div className="budget-fields">{fields.map((field, i) => <label key={field} htmlFor={`${id}-${field}`}><span className="budget-field-label"><TravelIcon name={field} compact/>{t[field]} (KRW)</span>

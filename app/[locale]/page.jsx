@@ -58,6 +58,7 @@ const foodI18n = { ja: foodJa, zh: foodZh, "zh-TW": foodZhTW, es: foodEs, fr: fo
 
 import SavedPlaces from "../../components/SavedPlaces";
 import TravelIcon from "../../components/TravelIcon";
+import PeekMascot from "../../components/PeekMascot";
 
 export function generateMetadata({ params }) {
   const locale = params?.locale || defaultLocale;
@@ -92,7 +93,8 @@ export default function Home({ params }) {
     <HeroSlider locale={locale} t={t} languageCount={locales.length} image={destImages.gyeongbokgung} imageLabel={destination('gyeongbokgung').name} />
     <section id="plan" className="journey-start wrap">
       <div className="sec-head"><h2>{t.chooseTitle}</h2><a href="#planner">{t.myTrip} ↗</a></div>
-      <div className="journey-start-grid">{starts.map((item) => <a className="journey-start-card" key={item.icon} href={item.href}>
+      <div className="journey-start-grid">{starts.map((item, index) => <a className="journey-start-card travel-has-peek" key={item.icon} href={item.href}>
+        <PeekMascot animal={['bunny','bear','cat'][index]}/>
         <div className="journey-card-top"><TravelIcon name={item.symbol}/><span className="journey-number">{item.icon}</span></div><h3>{item.title}</h3><p>{item.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span>
       </a>)}</div>
       <div className="journey-essentials"><h3>{t.essentials}</h3><div>{['visa','airport','transit','sim','money','weather','help'].map((key) => <a key={key} href={`/${locale}/plan/${key}/`}><TravelIcon name={key} compact/><span>{m.plan.tiles[key].title} →</span></a>)}</div></div>
