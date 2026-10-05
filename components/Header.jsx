@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import ShareTools from "./ShareTools";
 import shareLabels from "../data/share-ui.json";
 
-export default function Header({ locale, nav = {}, labels: ui = {}, locales = [], localeNames = {}, rtl = false }) {
+export default function Header({ locale, nav = {}, labels: ui = {}, festivalTitle, locales = [], localeNames = {}, rtl = false }) {
   const t = nav;
   const sharing = shareLabels[locale] || shareLabels.en;
   const shareDialog = useRef(null);
@@ -74,6 +74,7 @@ export default function Header({ locale, nav = {}, labels: ui = {}, locales = []
           <a href={`/${locale}/plan/airport/`} onClick={close}>{ui.arrival}</a>
           <a href={`/${locale}/destinations/`} onClick={close}>{ui.explore}</a>
           <a href={`/${locale}/guides/`} onClick={close}>{ui.continuePrep}</a>
+          <a href={`/${locale}/festivals/`} onClick={close}>{festivalTitle}</a>
           <a href={`/${locale}/itinerary/`} onClick={close}>{t.planner}</a>
           <a className="nav-mytrip" href={onHome ? '#planner' : `/${locale}/#planner`} onClick={close}>{ui.myTrip}</a>
           <a href={`/${locale}/plan/help/`} onClick={close}>{t.help}</a>

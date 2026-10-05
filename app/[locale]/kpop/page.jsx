@@ -3,6 +3,7 @@ import { pageMeta, breadcrumbLd, SITE_NAME, REVIEWED } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
 import KpopGuide from "../../../components/KpopGuide";
 import ArticleTrust from "../../../components/ArticleTrust";
+import festivalCopies from "../../../data/festivals-ui.json";
 import { itinFor } from "../../../lib/content";
 import kpopEn from "../../../data/kpop.json";
 import kpopJa from "../../../data/kpop.ja.json";
@@ -62,6 +63,7 @@ export default function KpopPage({ params }) {
         <span className="art-read art-updated">🔄 {ui.updated || "Updated"} {REVIEWED.label}</span>
       </div>
       <p className="art-tagline">{ui.tagline}</p>
+      <div className="festival-kpop"><div><h2>🎆 {festivalCopies[locale].title}</h2><p>{festivalCopies[locale].intro}</p></div><a className="btn ghost" href={`/${locale}/festivals/`}>{m.experience.details} →</a></div>
       <KpopGuide g={g} ui={ui} />
 
       {(() => {

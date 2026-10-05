@@ -1,6 +1,9 @@
 import { getMessages, defaultLocale, locales } from "../../lib/i18n";
 import { pageMeta, webSiteLd } from "../../lib/seo";
 import JsonLd from "../../components/JsonLd";
+import festivalCopies from "../../data/festivals-ui.json";
+import festivalRegistry from "../../data/festivals.json";
+import {fact} from "../../lib/facts";
 
 import MapExplorer from "../../components/MapExplorer";
 import { itinFor } from "../../lib/content";
@@ -80,6 +83,7 @@ export default function Home({ params }) {
     const { title, plan } = itineraries.items[key]; return [key, { title, plan }];
   }));
   const placeCatalog = Object.fromEntries(Object.entries(destData.items).map(([slug])=>['dest:'+slug,{name:destination(slug).name,path:'destinations/'+slug+'/'}]));
+  for(const event of festivalRegistry.items)if(fact(event.factId))placeCatalog['event:'+event.id]={name:festivalCopies[locale].events[event.id].name,path:'festivals/#'+event.id};
   for(const category of ['eat','make','regional']) (foodData[category]||[]).forEach((item,i)=>{placeCatalog['food:'+item.key]={name:foodI18n[locale]?.[category]?.[i]?.n||item.n,path:'food/#food-'+item.key}});
   const checklist = ['visa', 'airport', 'sim', 'money'].map((key) => ({ id: key, label: m.plan.tiles[key].title, path: `plan/${key}` }));
   checklist.push({ id: 'stay', label: m.nextSteps.stay, path: 'stay' });
@@ -116,7 +120,7 @@ export default function Home({ params }) {
         return <article className="journey-food-card" key={item.key}>{im && <img src={im.img} alt={item.n} width="400" height="300" loading="lazy" />}<div><h3>{item.n}</h3><p>{item.d}</p>{item.mapq && <NearbyEats q={item.mapq} label={item.n} />}{im?.credit && <small className="journey-credit"><a href={im.creditUrl} target="_blank" rel="noopener noreferrer">{im.credit}</a></small>}</div></article>;
       })}</div>
     </section>
-    <section className="wrap journey-more" id="kculture"><div><span className="eyebrow">{m.guides.eyebrow}</span><h2>{m.guides.title}</h2><p>{m.guides.sub}</p><a className="btn ghost" href={`/${locale}/guides/`}>{t.details} →</a></div><div><span className="eyebrow">{m.nav.kculture}</span><h2>{m.plan.tiles.kpop.title}</h2><p>{m.plan.tiles.kpop.sub}</p><a className="btn ghost" href={`/${locale}/kpop/`}>{t.details} →</a></div></section>
+    <section className="wrap journey-more" id="kculture"><div><span className="eyebrow">{m.guides.eyebrow}</span><h2>{m.guides.title}</h2><p>{m.guides.sub}</p><a className="btn ghost" href={`/${locale}/guides/`}>{t.details} →</a></div><div><span className="eyebrow">{m.nav.kculture}</span><h2>{festivalCopies[locale].title}</h2><p>{festivalCopies[locale].intro}</p><a className="btn ghost" href={`/${locale}/festivals/`}>{t.details} →</a></div></section>
     <section id="map" className="journey-map"><div className="wrap"><details><summary>{m.home.mapTitle}</summary><MapExplorer labels={m.map} locale={locale} /></details></div></section>
     <section id="reviews" className="wrap journey-review"><details><summary>{m.reviews.title}</summary><ReviewsSection t={m.reviews} locale={locale} /></details></section>
     <section id="help" className="wrap journey-help"><div><span className="eyebrow">{m.help.eyebrow}</span><h2>{m.help.title}</h2><p>{m.help.sub}</p></div><a className="btn ghost" href={`/${locale}/plan/help/`}>{m.plan.tiles.help.title} →</a></section>

@@ -1,7 +1,31 @@
 {
   "_README": "Facts SSOT. Follows HARNESS.md. Only status:VERIFIED facts render. All numbers/contacts/rules must be grounded here. No invented estimates. VOLATILE facts must show source + verified date + confirm link. claim/notes are the ENGLISH (base-language) display text; translations for other locales live in messages/<locale>.json under `facts`.",
-  "_updated": "2026-10-02",
+  "_updated": "2026-10-05",
   "facts": [
+    {
+      "id": "festival-biff-2026", "tier": "VOLATILE", "status": "VERIFIED",
+      "claim": "Busan International Film Festival runs from 2026-10-06 to 2026-10-15 at Busan Cinema Center and other official screening venues.",
+      "value": {"start":"2026-10-06","end":"2026-10-15","venue":"Busan Cinema Center and other official screening venues","map":"Busan Cinema Center, Busan","official":"https://www.biff.kr/eng/addon/10000001/page.asp?page_num=11079","tickets":"https://ticket.biff.kr/"},
+      "source": "https://www.biff.kr/eng/addon/10000001/page.asp?page_num=11079", "source_name": "Busan International Film Festival",
+      "verified": "2026-10-05", "recheck_after": "2026-10-19",
+      "notes": "Official dates and venues verified. Confirm individual screening times, fees and booking with the organizer. Map is an orientation venue, not every screening location."
+    },
+    {
+      "id": "festival-jinju-2026", "tier": "VOLATILE", "status": "VERIFIED",
+      "claim": "Jinju Namgang Yudeung Festival runs from 2026-10-03 to 2026-10-18 around Jinjuseong Fortress and the Namgang River in Jinju.",
+      "value": {"start":"2026-10-03","end":"2026-10-18","venue":"Jinjuseong Fortress and the Namgang River, Jinju","map":"Jinjuseong Fortress, Jinju","official":"https://english.visitkorea.or.kr/svc/sp/festivals/contentsView.do?dataSetId=297&menuSn=1040&vcontsId=96362"},
+      "source": "https://english.visitkorea.or.kr/svc/sp/festivals/contentsView.do?dataSetId=297&menuSn=1040&vcontsId=96362", "source_name": "Korea Tourism Organization",
+      "verified": "2026-10-05", "recheck_after": "2026-10-19",
+      "notes": "Official dates and venues verified. Confirm program times, charges and reservations with the organizer. No fee or fireworks/drone performance time is asserted."
+    },
+    {
+      "id": "festival-busan-fireworks-2026", "tier": "VOLATILE", "status": "VERIFIED",
+      "claim": "Busan Fireworks Festival takes place on 2026-11-07 around Gwangalli Beach, Igidae and Dongbaekseom in Busan.",
+      "value": {"start":"2026-11-07","end":"2026-11-07","venue":"Gwangalli Beach, Igidae and Dongbaekseom, Busan","map":"Gwangalli Beach, Busan","official":"https://busanfireworks.com/bbs/content.php?co_id=overview","tickets":"https://busanfireworks.com/bbs/board.php?bo_table=reservation"},
+      "source": "https://busanfireworks.com/bbs/content.php?co_id=overview", "source_name": "Busan Festival Organizing Committee",
+      "verified": "2026-10-05", "recheck_after": "2026-10-19",
+      "notes": "Official dates, venues and ticket information link verified. Confirm performance times, prices, admission and weather-related changes with the organizer."
+    },
     {
       "id": "keta-exemption",
       "tier": "VOLATILE",

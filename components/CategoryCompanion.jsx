@@ -6,7 +6,7 @@ import TravelIcon from './TravelIcon';
 const categories = {
   destinations: ['cat', 'explore'], food: ['bear', 'food'], guides: ['bunny', 'weather'],
   itinerary: ['bear', 'explore'], stay: ['cat', 'stay'], kpop: ['bunny', 'activities'],
-  plan: ['bear', 'airport'], visa: ['bunny', 'visa'],
+  festivals: ['bunny', 'activities'], plan: ['bear', 'airport'], visa: ['bunny', 'visa'],
 };
 
 export default function CategoryCompanion({ titles }) {

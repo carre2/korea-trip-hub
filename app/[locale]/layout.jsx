@@ -12,6 +12,7 @@ import ArticleContents from "../../components/ArticleContents";
 import JourneyAnalytics from "../../components/JourneyAnalytics";
 import ChatWidget from "../../components/ChatWidget";
 import CategoryCompanion from "../../components/CategoryCompanion";
+import festivalCopies from "../../data/festivals-ui.json";
 
 // Google AdSense publisher (ktriphub.com). Loader below serves ads once approved.
 const ADSENSE_CLIENT = "ca-pub-2067934281598769";
@@ -39,8 +40,8 @@ export default function LocaleLayout({ children, params }) {
       <body>
         <ExperienceProvider labels={{...m.experience, affiliate: m.footer.affiliateLine}}>
         <a className="skip-link" href="#main">{m.experience.skip}</a>
-        <Header locale={locale} nav={m.nav} labels={m.experience} locales={locales} localeNames={localeNames} rtl={dir === "rtl"} />
-        <JourneyAnalytics locale={locale} /><main id="main"><ArticleContents label={m.experience.contents} /><CategoryCompanion titles={{destinations:m.dest.title,food:m.food.title,guides:m.guides.title,itinerary:m.experience.plannerTitle,stay:m.nextSteps.stay,kpop:m.nav.kculture,plan:m.experience.essentials,visa:m.experience.entry}}/>{children}</main>
+        <Header locale={locale} nav={m.nav} labels={m.experience} festivalTitle={festivalCopies[locale].title} locales={locales} localeNames={localeNames} rtl={dir === "rtl"} />
+        <JourneyAnalytics locale={locale} /><main id="main"><ArticleContents label={m.experience.contents} /><CategoryCompanion titles={{destinations:m.dest.title,food:m.food.title,guides:m.guides.title,itinerary:m.experience.plannerTitle,stay:m.nextSteps.stay,kpop:m.nav.kculture,festivals:festivalCopies[locale].title,plan:m.experience.essentials,visa:m.experience.entry}}/>{children}</main>
         <SiteFooter locale={locale} />
         <ChatWidget locale={locale} labels={m.chat} />
         <ConsentBanner t={consent} privacyHref={`/${locale}/legal/privacy/`} />
