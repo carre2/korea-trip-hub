@@ -3,43 +3,89 @@
   "_updated": "2026-10-05",
   "facts": [
     {
-      "id":"klook-busan-fireworks-ticket","tier":"VOLATILE","status":"VERIFIED",
-      "claim":"Klook lists a 2026 Busan Fireworks Festival ticket and round-trip shuttle product.",
-      "value":{"url":"https://www.klook.com/en-US/activity/171795-2026-busan-fireworks-festival-21th-anniversary-ticket/","kind":"tickets"},
-      "source":"https://www.klook.com/en-US/activity/171795-2026-busan-fireworks-festival-21th-anniversary-ticket/","source_name":"Klook",
-      "verified":"2026-10-05","recheck_after":"2026-10-12",
-      "notes":"Product identity and package listing checked. Availability, prices, departure details, inclusions and cancellation terms must be confirmed on Klook. Past reviews do not establish current package conditions."
+      "id": "klook-busan-fireworks-ticket",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "Klook lists a 2026 Busan Fireworks Festival ticket and round-trip shuttle product.",
+      "value": {
+        "url": "https://www.klook.com/en-US/activity/171795-2026-busan-fireworks-festival-21th-anniversary-ticket/",
+        "kind": "tickets"
+      },
+      "source": "https://www.klook.com/en-US/activity/171795-2026-busan-fireworks-festival-21th-anniversary-ticket/",
+      "source_name": "Klook",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-10-12",
+      "notes": "Product identity and package listing checked. Availability, prices, departure details, inclusions and cancellation terms must be confirmed on Klook. Past reviews do not establish current package conditions."
     },
     {
-      "id":"klook-jinju-festival-tour","tier":"VOLATILE","status":"VERIFIED",
-      "claim":"Klook lists a Jinju Namgang Lantern Festival guided tour departing from Busan.",
-      "value":{"url":"https://www.klook.com/en-US/activity/124304-korea-festival-express-jinju-namgang-lantern-festival-from-busan/","kind":"tour"},
-      "source":"https://www.klook.com/en-US/activity/124304-korea-festival-express-jinju-namgang-lantern-festival-from-busan/","source_name":"Klook",
-      "verified":"2026-10-05","recheck_after":"2026-10-12",
-      "notes":"Product page includes a 2026 date selector. It is a tour product, not a standalone festival admission ticket. Confirm the selected date and current package on Klook."
+      "id": "klook-jinju-festival-tour",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "Klook lists a Jinju Namgang Lantern Festival guided tour departing from Busan.",
+      "value": {
+        "url": "https://www.klook.com/en-US/activity/124304-korea-festival-express-jinju-namgang-lantern-festival-from-busan/",
+        "kind": "tour"
+      },
+      "source": "https://www.klook.com/en-US/activity/124304-korea-festival-express-jinju-namgang-lantern-festival-from-busan/",
+      "source_name": "Klook",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-10-12",
+      "notes": "Product page includes a 2026 date selector. It is a tour product, not a standalone festival admission ticket. Confirm the selected date and current package on Klook."
     },
     {
-      "id": "festival-biff-2026", "tier": "VOLATILE", "status": "VERIFIED",
+      "id": "festival-biff-2026",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
       "claim": "Busan International Film Festival runs from 2026-10-06 to 2026-10-15 at Busan Cinema Center and other official screening venues.",
-      "value": {"start":"2026-10-06","end":"2026-10-15","venue":"Busan Cinema Center and other official screening venues","map":"Busan Cinema Center, Busan","official":"https://www.biff.kr/eng/addon/10000001/page.asp?page_num=11079","tickets":"https://ticket.biff.kr/"},
-      "source": "https://www.biff.kr/eng/addon/10000001/page.asp?page_num=11079", "source_name": "Busan International Film Festival",
-      "verified": "2026-10-05", "recheck_after": "2026-10-19",
+      "value": {
+        "start": "2026-10-06",
+        "end": "2026-10-15",
+        "venue": "Busan Cinema Center and other official screening venues",
+        "map": "Busan Cinema Center, Busan",
+        "official": "https://www.biff.kr/eng/addon/10000001/page.asp?page_num=11079",
+        "tickets": "https://ticket.biff.kr/"
+      },
+      "source": "https://www.biff.kr/eng/addon/10000001/page.asp?page_num=11079",
+      "source_name": "Busan International Film Festival",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-10-19",
       "notes": "Official dates and venues verified. Confirm individual screening times, fees and booking with the organizer. Map is an orientation venue, not every screening location."
     },
     {
-      "id": "festival-jinju-2026", "tier": "VOLATILE", "status": "VERIFIED",
+      "id": "festival-jinju-2026",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
       "claim": "Jinju Namgang Yudeung Festival runs from 2026-10-03 to 2026-10-18 around Jinjuseong Fortress and the Namgang River in Jinju.",
-      "value": {"start":"2026-10-03","end":"2026-10-18","venue":"Jinjuseong Fortress and the Namgang River, Jinju","map":"Jinjuseong Fortress, Jinju","official":"https://english.visitkorea.or.kr/svc/sp/festivals/contentsView.do?dataSetId=297&menuSn=1040&vcontsId=96362"},
-      "source": "https://english.visitkorea.or.kr/svc/sp/festivals/contentsView.do?dataSetId=297&menuSn=1040&vcontsId=96362", "source_name": "Korea Tourism Organization",
-      "verified": "2026-10-05", "recheck_after": "2026-10-19",
+      "value": {
+        "start": "2026-10-03",
+        "end": "2026-10-18",
+        "venue": "Jinjuseong Fortress and the Namgang River, Jinju",
+        "map": "Jinjuseong Fortress, Jinju",
+        "official": "https://english.visitkorea.or.kr/svc/sp/festivals/contentsView.do?dataSetId=297&menuSn=1040&vcontsId=96362"
+      },
+      "source": "https://english.visitkorea.or.kr/svc/sp/festivals/contentsView.do?dataSetId=297&menuSn=1040&vcontsId=96362",
+      "source_name": "Korea Tourism Organization",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-10-19",
       "notes": "Official dates and venues verified. Confirm program times, charges and reservations with the organizer. No fee or fireworks/drone performance time is asserted."
     },
     {
-      "id": "festival-busan-fireworks-2026", "tier": "VOLATILE", "status": "VERIFIED",
+      "id": "festival-busan-fireworks-2026",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
       "claim": "Busan Fireworks Festival takes place on 2026-11-07 around Gwangalli Beach, Igidae and Dongbaekseom in Busan.",
-      "value": {"start":"2026-11-07","end":"2026-11-07","venue":"Gwangalli Beach, Igidae and Dongbaekseom, Busan","map":"Gwangalli Beach, Busan","official":"https://busanfireworks.com/bbs/content.php?co_id=overview","tickets":"https://busanfireworks.com/bbs/board.php?bo_table=reservation"},
-      "source": "https://busanfireworks.com/bbs/content.php?co_id=overview", "source_name": "Busan Festival Organizing Committee",
-      "verified": "2026-10-05", "recheck_after": "2026-10-19",
+      "value": {
+        "start": "2026-11-07",
+        "end": "2026-11-07",
+        "venue": "Gwangalli Beach, Igidae and Dongbaekseom, Busan",
+        "map": "Gwangalli Beach, Busan",
+        "official": "https://busanfireworks.com/bbs/content.php?co_id=overview",
+        "tickets": "https://busanfireworks.com/bbs/board.php?bo_table=reservation"
+      },
+      "source": "https://busanfireworks.com/bbs/content.php?co_id=overview",
+      "source_name": "Busan Festival Organizing Committee",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-10-19",
       "notes": "Official dates, venues and ticket information link verified. Confirm performance times, prices, admission and weather-related changes with the organizer."
     },
     {
@@ -663,20 +709,18 @@
     {
       "id": "visa-vietnam-c39",
       "tier": "VOLATILE",
-      "claim": "Vietnamese passport holders need a C-3-9 short-term tourist visa for Korea. Since 2025 the tourist-visa paperwork was simplified, and multi-year (up to 10-year) multiple-entry visas have been expanded for Vietnamese travelers.",
+      "claim": "Ordinary Vietnamese passport holders need a visa for a normal mainland tourist trip. Hanoi's current single-entry C-3-9 guide specifies a 30-day stay; follow the period actually granted on your visa.",
       "value": {
         "visa_type": "C-3-9 short-term tourist",
-        "max_stay": "90 days",
-        "financial_docs": "simplified: 1–2 types",
-        "multi_year": "up to 10-year multiple-entry (eligibility applies)",
-        "apply_at": "KVAC Hanoi / Ho Chi Minh City"
+        "max_stay": "Hanoi single-entry: 30 days; follow the issued visa",
+        "apply_at": "KVAC Hanoi / Ho Chi Minh City / Korean Consulate General in Da Nang"
       },
-      "source": "https://overseas.mofa.go.kr/vn-ko/brd/m_2198/list.do",
-      "source_name": "Embassy of Korea in Vietnam / KVAC",
-      "verified": "2026-08-03",
-      "recheck_after": "2026-11-01",
+      "source": "https://visaforkorea-vt.com/customercenter/notice/view/722",
+      "source_name": "KVAC Hanoi · C-3-9 checklist",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-11-05",
       "status": "VERIFIED",
-      "notes": "Visa fees are set by reciprocity and are non-refundable — confirm the current amount at the KVAC. Jurisdiction splits into Hanoi (visaforkorea-vt.com) and Ho Chi Minh City (visaforkorea-hc.com). Form: visa.go.kr."
+      "notes": "Apply through the office responsible for your residence: Hanoi, Ho Chi Minh City or Da Nang. Eligibility and permitted stay vary by visa category. Confirm the current checklist with that office."
     },
     {
       "id": "visa-china-c3",
@@ -757,6 +801,116 @@
       "recheck_after": "2026-10-23",
       "status": "VERIFIED",
       "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
+    },
+    {
+      "id": "visa-vietnam-keta",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "Ordinary Vietnamese passports are not eligible for K-ETA. For a normal mainland tourist trip, obtain a visa; K-ETA cannot replace it and is not an extra application after receiving your visa.",
+      "source": "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
+      "source_name": "K-ETA",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-11-05",
+      "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel."
+    },
+    {
+      "id": "visa-vietnam-processing",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "Published individual tourist processing times are 16 working days in Hanoi and 18 working days in Ho Chi Minh City. Weekends and holidays are excluded; additional checks can take longer. These are published estimates, not guaranteed deadlines. Da Nang applicants should confirm separately.",
+      "source": "https://visaforkorea-vt.com/customercenter/notice/view/873",
+      "source_name": "KVAC Hanoi",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-11-05",
+      "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel.",
+      "sources": [
+        {
+          "name": "KVAC HCMC",
+          "url": "https://visaforkorea-hc.com/customercenter/notice/view/778"
+        }
+      ]
+    },
+    {
+      "id": "visa-vietnam-fees",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "Short-stay single-entry visa: USD 20; multiple-entry: USD 80. KVAC Hanoi and HCMC add VND 390,000 per application, excluding optional services. Confirm the payable currency and current total at your office; the KVAC service charge is not a Da Nang consular charge.",
+      "source": "https://visaforkorea-vt.com/info/service",
+      "source_name": "KVAC Hanoi",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-11-05",
+      "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel.",
+      "sources": [
+        {
+          "name": "KVAC HCMC · USD / VND",
+          "url": "https://visaforkorea-hc.com/info/service"
+        },
+        {
+          "name": "Korean Embassy · Vietnamese reciprocal visa fees",
+          "url": "https://overseas.mofa.go.kr/us-en/brd/m_4502/view.do?page=1&seq=715889"
+        }
+      ]
+    },
+    {
+      "id": "visa-vietnam-jurisdiction",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "Apply according to your registered residence: KVAC Hanoi, KVAC Ho Chi Minh City, or the Korean Consulate General in Da Nang. Check the current jurisdiction and appointment instructions before visiting.",
+      "source": "https://overseas.mofa.go.kr/vn-danang-vi/brd/m_22986/view.do?seq=47",
+      "source_name": "Korean Consulate General in Da Nang",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-11-05",
+      "notes": "Da Nang Vietnamese FAQ names Hue, Da Nang and Quang Ngai; residence exceptions need proof. Hanoi guidance covers Quang Tri northwards. Confirm current province coverage and appointment requirements with the receiving office."
+    },
+    {
+      "id": "visa-vietnam-documents",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "Use the checklist for your office and application category. Hanoi's current individual C-3-9 checklist requests bank statements for the latest 3 months, plus salary records for employees. Include residence and family documents when applicable; translation and certification requirements vary.",
+      "source": "https://visaforkorea-vt.com/customercenter/notice/view/722",
+      "source_name": "KVAC Hanoi",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-11-05",
+      "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel."
+    },
+    {
+      "id": "visa-vietnam-arrival",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "A short-term tourist entering with a visa must submit the e-Arrival Card unless a separate exemption applies, such as holding a valid Korean residence card. Check the official navigator for your documents.",
+      "source": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+      "source_name": "Korea Immigration Service",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-11-05",
+      "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel."
+    },
+    {
+      "id": "visa-vietnam-jeju",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "Vietnamese ordinary-passport tourists can use the separate Jeju visa-free program for up to 30 days, subject to entry assessment. Arrive directly at Jeju from overseas by air or sea and stay on Jeju. An itinerary entering Korea through Seoul or Busan is not covered. Going to the mainland requires the appropriate visa or prior immigration permission; admission is not guaranteed.",
+      "source": "https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=759205",
+      "source_name": "Embassy of Korea",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-11-05",
+      "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel.",
+      "sources": [
+        {
+          "name": "Korean Embassy · Jeju eligibility and mainland restrictions",
+          "url": "https://overseas.mofa.go.kr/gr-en/brd/m_22348/view.do?seq=59"
+        }
+      ]
+    },
+    {
+      "id": "visa-vietnam-transit",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "A qualifying visa or residence permit for the US, Canada, Australia, New Zealand or a listed European country may allow B-2 transit for up to 30 days on an eligible onward/return route. A Japanese visa alone is not in the current third-country transit list. You need a confirmed departure within 30 days and must meet immigration-history, routing and visa-document conditions; merely owning a visa or taking a Vietnam–Korea round trip is insufficient. Verify your complete itinerary with immigration and the airline.",
+      "source": "https://overseas.mofa.go.kr/est-en/brd/m_27860/view.do?seq=19",
+      "source_name": "Embassy of Korea",
+      "verified": "2026-10-05",
+      "recheck_after": "2026-11-05",
+      "notes": "Official notice dated 2026-03-31. Qualifying US/Canada/Australia/New Zealand or specified European documents, onward ticket within 30 days, permitted route, visa verification, immigration history and stopover limits all apply. Japan alone is not listed. This is not a general visa waiver for a Vietnam–Korea return trip."
     }
   ]
 }

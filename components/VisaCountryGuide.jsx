@@ -40,6 +40,19 @@ export default function VisaCountryGuide({ guide, m }) {
         </div>
       )}
 
+      {g.entryNotice && fact(g.entryNotice.factId) && (
+        <section className="entry-guidance vcg-entry-answer">
+          <h3>{g.entryNotice.title}</h3>
+          <p><b>{g.entryNotice.body}</b></p>
+          <p>{g.entryNotice.arrival}</p>
+          <p>{g.entryNotice.safety}</p>
+          <div className="entry-official">
+            {g.entryNotice.links.map(it=><a key={it.url} href={it.url} target="_blank" rel="noopener noreferrer">{it.label} ↗</a>)}
+          </div>
+          <p className="entry-reviewed"><time dateTime={fact(g.entryNotice.factId).verified}>{fact(g.entryNotice.factId).verified}</time> · <a href={fact(g.entryNotice.factId).source} target="_blank" rel="noopener noreferrer">{ui.source || "Source"}: K-ETA</a></p>
+        </section>
+      )}
+
       {/* Keep official checks close to the answer, before the long checklist. */}
       {g.official?.length > 0 && (
         <nav className="vcg-source-shortcuts" aria-label={ui.official || "Official sources"}>
@@ -182,6 +195,7 @@ export default function VisaCountryGuide({ guide, m }) {
               <details key={i} className="gv-faq-item">
                 <summary>{it.q}</summary>
                 <p>{linkify(it.a)}</p>
+                {it.factId && fact(it.factId) && <p className="factsrc">{ui.source || "Source"}: <a href={fact(it.factId).source} target="_blank" rel="noopener noreferrer">{fact(it.factId).source_name}</a> · <time dateTime={fact(it.factId).verified}>{fact(it.factId).verified}</time>{fact(it.factId).sources?.map(s=><span key={s.url}> · <a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a></span>)}</p>}
               </details>
             ))}
           </div>

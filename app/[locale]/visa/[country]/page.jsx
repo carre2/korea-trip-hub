@@ -83,7 +83,7 @@ export default function VisaCountryPage({ params }) {
         </figure>
       )}
 
-      <EntryGuidance locale={locale} compact />
+      {!g.entryNotice && <EntryGuidance locale={locale} compact />}
       <VisaCountryGuide guide={g} m={m} />
 
       {g.verdict?.need && <VisaPhotoSpec m={m} />}
