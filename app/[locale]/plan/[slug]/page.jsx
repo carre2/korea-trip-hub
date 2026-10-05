@@ -1,4 +1,7 @@
 import EntryGuidance from "../../../../components/EntryGuidance";
+import EntryGroupFee from "../../../../components/EntryGroupFee";
+import entryRouting from "../../../../data/entry-routing-ui.json";
+import {visaHubItems} from "../../../../lib/visa";
 import ArrivalSteps from "../../../../components/ArrivalSteps";
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, articleLd, faqLd, SITE_NAME, REVIEWED } from "../../../../lib/seo";
@@ -113,7 +116,7 @@ function humanize(k) {
 /** Renders a verified fact only (HARNESS: never render TODO/STALE).
  *  Display text (claim/notes/labels/UI) comes from the active locale's messages
  *  when available, falling back to the English base in facts.json. */
-function FactBlock({ id, m }) {
+function FactBlock({ id, m, showValues=true }) {
   const f = fact(id);
   if (!f) return null;
   const ui = m.factsUI || {};
@@ -127,7 +130,7 @@ function FactBlock({ id, m }) {
         <b>{linkify(claim)}</b>
         <span className="pill verified"><span aria-hidden="true">✓</span><time dateTime={f.verified}>{f.verified}</time></span>
       </div>
-      {f.value && (
+      {showValues && f.value && (
         <ul className="factvals">
           {Object.entries(f.value).map(([k, v]) => (
             <li key={k}>
@@ -234,16 +237,14 @@ export default function PlanArticle({ params }) {
       {guide?.countryGuides && (
         <VisaFinder
           locale={locale}
-          items={[
-            ...(guide.countryGuides.items || []).map((c) => ({ ...c, group: "need" })),
-            ...(guide.countryGuides.visaFree || []).map((c) => ({ ...c, group: "free" })),
-          ].sort((a, b) => a.name.localeCompare(b.name))}
+          items={visaHubItems(locale).sort((a,b)=>a.name.localeCompare(b.name))}
+          entryCopy={entryRouting[locale]||entryRouting.en}
           labels={m.visaFinder || {}}
           moreText={m.experience.visaHint}
         />
       )}
 
-      {slug === "visa" && <EntryGuidance locale={locale} compact />}
+      {slug === "visa" && <EntryGuidance locale={locale} compact hub />}
       {slug === "visa" && <ArrivalSteps locale={locale} m={{experience:m.experience,plan:m.plan}} placement="visa-hub" />}
 
       {item.intro.map((p, i) => (
@@ -277,7 +278,7 @@ export default function PlanArticle({ params }) {
 
           {guide.countryGuides.needTitle && <h3 className="vcg-hub-sub">{guide.countryGuides.needTitle}</h3>}
           <div className="vcg-hub-grid">
-            {guide.countryGuides.items.map((c) => (
+            {visaHubItems(locale).filter(c=>c.group==='need').map((c) => (
               <a key={c.code} className="vcg-hub-card" href={`/${locale}/visa/${c.code}/`}>
                 <span className="vcg-hub-flag">{c.flag}</span>
                 <span className="vcg-hub-txt">
@@ -293,7 +294,7 @@ export default function PlanArticle({ params }) {
             <>
               {guide.countryGuides.freeTitle && <h3 className="vcg-hub-sub">{guide.countryGuides.freeTitle}</h3>}
               <div className="vcg-hub-grid">
-                {guide.countryGuides.visaFree.map((c) => (
+                {visaHubItems(locale).filter(c=>c.group==='free').map((c) => (
                   <a key={c.code} className="vcg-hub-card vcg-hub-free" href={`/${locale}/visa/${c.code}/`}>
                     <span className="vcg-hub-flag">{c.flag}</span>
                     <span className="vcg-hub-txt">
@@ -313,9 +314,11 @@ export default function PlanArticle({ params }) {
       {hasFacts && (
         <>
           <h2>✓ {ui.verified_facts || "Verified facts"}</h2>
-          {item.facts.map((id) => (
-            <FactBlock key={id} id={id} m={m} />
-          ))}
+          {slug==='visa'?<>
+            {item.facts.filter(id=>!id.startsWith('keta-')).map(id=><FactBlock key={id} id={id} m={m} showValues={false}/>)}
+            <details className="entry-keta-only"><summary>{(entryRouting[locale]||entryRouting.en).ketaOnly}</summary>{item.facts.filter(id=>id.startsWith('keta-')).map(id=><FactBlock key={id} id={id} m={m} showValues={false}/>)}</details>
+            <EntryGroupFee locale={locale}/>
+          </>:item.facts.map(id=><FactBlock key={id} id={id} m={m}/>)}
         </>
       )}
 
@@ -347,7 +350,7 @@ export default function PlanArticle({ params }) {
 
       {REVIEW_FORM_URL && (
         <a className="tip-cta" href={REVIEW_FORM_URL} target="_blank" rel="noopener noreferrer">
-          💬 {m.reviews?.tipCta || "Been to Korea? Share a quick tip that helped you"} →
+          💬 {m.reviews?.tipCta || m.reviews?.cta || "Share a travel tip"} →
         </a>
       )}
 

@@ -1,4 +1,5 @@
 import EntryGuidance from "../../../../components/EntryGuidance";
+import EntryGroupFee from "../../../../components/EntryGroupFee";
 import ArrivalSteps from "../../../../components/ArrivalSteps";
 import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, articleLd, faqLd } from "../../../../lib/seo";
@@ -83,8 +84,9 @@ export default function VisaCountryPage({ params }) {
         </figure>
       )}
 
-      {!g.entryNotice && <EntryGuidance locale={locale} compact />}
+      {!g.entryNotice && <EntryGuidance locale={locale} compact visaRequired={!!g.verdict?.need} />}
       <VisaCountryGuide guide={g} m={m} />
+      {['china','vietnam','philippines','indonesia','india'].includes(params.country)&&<EntryGroupFee locale={locale}/>}
 
       {g.verdict?.need && <VisaPhotoSpec m={m} />}
 

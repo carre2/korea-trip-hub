@@ -7,7 +7,7 @@ import { useState } from "react";
 // to translate — only the 3 chrome labels (messages.visaFinder). Picking a
 // nationality reveals its verdict note + a link to the full A-to-Z guide; this
 // is an on-page tool (dwell-time + a genuine utility signal), not a dead grid.
-export default function VisaFinder({ locale, items = [], labels = {}, moreText }) {
+export default function VisaFinder({ locale, items = [], labels = {}, moreText, entryCopy }) {
   const [code, setCode] = useState("");
   const sel = items.find((i) => i.code === code);
 
@@ -28,7 +28,7 @@ export default function VisaFinder({ locale, items = [], labels = {}, moreText }
         </select>
       </div>
 
-      {sel ? (
+      {sel ? (<>
         <div className={`vf-result ${sel.group === "need" ? "vf-need" : "vf-free"}`} role="status">
           <span className="vf-flag" aria-hidden="true">{sel.flag}</span>
           <span className="vf-txt">
@@ -37,6 +37,8 @@ export default function VisaFinder({ locale, items = [], labels = {}, moreText }
           </span>
           <a className="vf-cta" href={`/${locale}/visa/${sel.code}/`}>{labels.cta || "View full guide"} →</a>
         </div>
+        {entryCopy&&<p className="vf-entry-answer" role="status">{sel.group==='need'?entryCopy.visa:entryCopy.ketaOnly}</p>}
+        </>
       ) : (
         moreText && <p className="vf-more">{moreText}</p>
       )}

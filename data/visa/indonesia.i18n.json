@@ -1,51 +1,54 @@
 {
   "_README": "Per-locale translation overrides for indonesia.json. Machine-translated — native review recommended.",
   "id": {
+    "_README": "Per-nationality visa deep-dive: Indonesia → Korea. Grounded in official channels (Embassy of Korea in Indonesia, Korea Visa Portal) + 2026 immigration briefings. Fee/processing VOLATILE (factId visa-indonesia-c3). No invented figures.",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "code": "indonesia",
+    "factId": "visa-indonesia-c3",
+    "metaTitle": "Visa Indonesia ke Korea: Perlukah? (2026) — Korea Trip Hub",
+    "metaDesc": "Visa Korea untuk warga Indonesia · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "Panduan visa · Indonesia → Korea",
     "readingTime": "baca 8 menit",
-    "h1": "Visa Korea untuk warga Indonesia",
-    "metaTitle": "Visa Indonesia ke Korea: Perlukah? (2026) — Korea Trip Hub",
-    "metaDesc": "Apakah pemegang paspor Indonesia memerlukan visa untuk Korea Selatan? Turis individu memerlukan visa C-3 (rombongan mungkin bebas visa mulai 2026). Di mana mengajukan, dokumen dan di mana memperoleh masing-masing, biaya, dan waktu pemrosesan.",
-    "ui": {
-      "visa": "Jenis visa",
-      "stay": "Lama tinggal",
-      "entry": "Jumlah masuk",
-      "where": "Di mana mendapatkannya",
-      "official": "Sumber resmi",
-      "required": "Wajib",
-      "conditional": "Jika berlaku",
-      "recommended": "Disarankan",
-      "confirm": "Biaya/aturan dapat berubah — harap konfirmasi di sumber resmi",
-      "source": "Sumber",
-      "updated": "Diperbarui",
-      "tldr": "RINGKASAN"
+    "updated": "2026-10-05",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Arrivals at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
     },
     "verdict": {
       "headline": "Wisatawan individu Indonesia memerlukan visa — tetapi rombongan mungkin tidak.",
-      "sub": "Untuk perjalanan mandiri ke Korea daratan, Anda mengajukan visa turis C-3. Sejak 28 Mei 2026, rombongan wisata beranggotakan 3 orang atau lebih dapat masuk tanpa visa untuk kunjungan singkat melalui skema uji coba — perorangan belum memenuhi syarat.",
+      "sub": "Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri.",
       "type": "Turis C-3 (perorangan)",
-      "stay": "Hingga 90 hari",
-      "entry": "Sekali masuk (perorangan) / bebas visa untuk rombongan yang memenuhi syarat"
+      "stay": "Visa: sesuai izin yang diterbitkan; program grup ditunjuk: 15 hari",
+      "entry": "C-3 / B-2"
     },
     "highlights": [
       {
         "icon": "👥",
         "tone": "green",
-        "title": "Bebas visa untuk rombongan mulai 28 Mei 2026",
-        "body": "Rombongan wisata Indonesia yang terdiri dari minimal 3 orang dapat masuk tanpa visa untuk kunjungan singkat melalui skema uji coba. Hanya berlaku untuk rombongan — wisatawan perorangan tetap memerlukan visa."
+        "title": "Program grup",
+        "body": "Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."
       },
       {
         "icon": "🏝️",
         "tone": "amber",
         "title": "Pulau Jeju — bebas visa tersendiri",
-        "body": "Warga negara Indonesia dapat masuk Jeju tanpa visa (khusus Jeju, penerbangan langsung, tanpa transit ke daratan). Ini terpisah dari visa turis daratan."
+        "body": "Wisatawan berpaspor biasa Indonesia dapat menggunakan program bebas visa Jeju tersendiri hingga 30 hari, tiba langsung dari luar negeri dan hanya tinggal di Jeju. Masuk melalui Korea daratan tidak tercakup. Perjalanan ke daratan memerlukan visa yang sesuai atau izin imigrasi sebelumnya; petugas menilai izin masuk di perbatasan."
+      },
+      {
+        "icon": "🗓️",
+        "tone": "blue",
+        "title": "Visa multiple",
+        "body": "Pemohon yang memenuhi syarat dapat mengajukan multiple visa 5 atau 10 tahun; tabel KVAC mencantumkan masa tinggal 30 hari per kunjungan. Masa berlaku panjang bukan izin tinggal terus-menerus atau kelayakan otomatis. Minta KVAC memeriksa kategori Anda."
       }
     ],
     "tldr": [
       "Wisatawan mandiri memerlukan visa turis C-3 untuk Korea daratan.",
       "Isi formulir di visa.go.kr, lalu ajukan di Kedutaan Besar Korea / KVAC Jakarta.",
       "Bawa paspor, foto, rekening koran 3 bulan, surat keterangan kerja + slip gaji.",
-      "Bepergian dalam rombongan 3 orang atau lebih? Anda mungkin memenuhi syarat untuk masuk tanpa visa (uji coba mulai Mei 2026)."
+      "Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."
     ],
     "steps": {
       "title": "Proses pengajuan, langkah demi langkah (C-3 perorangan)",
@@ -53,7 +56,7 @@
         {
           "n": 1,
           "title": "Pastikan jenis visa",
-          "detail": "Wisatawan mandiri mengajukan visa turis jangka pendek C-3. (Rombongan 3 orang atau lebih sebaiknya menanyakan skema uji coba bebas visa kepada agen perjalanan mereka.)"
+          "detail": "Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri. Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."
         },
         {
           "n": 2,
@@ -75,12 +78,12 @@
         {
           "n": 5,
           "title": "Bayar biaya",
-          "detail": "Bayar biaya visa dan biaya layanan. Biaya tidak dapat dikembalikan meskipun ditolak — konfirmasikan jumlahnya di pusat layanan."
+          "detail": "Mulai 2026-07-01: single jangka pendek IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; multiple IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Ekspres dan layanan pilihan dikenai biaya tambahan; periksa tabel resmi terbaru."
         },
         {
           "n": 6,
           "title": "Pantau & tunggu",
-          "detail": "Ikuti status melalui kanal pusat layanan. Jangan membeli tiket pesawat yang tidak dapat dikembalikan sebelum disetujui."
+          "detail": "Perkiraan KVAC Jakarta: visa single/double 10 hari kerja, multiple 7, ekspres C-3 yang memenuhi syarat 5. Tanggal pengajuan termasuk; hari libur tidak dihitung. Dokumen tambahan atau wawancara dapat memperpanjang proses. Menurut FAQ resmi, tiket pesawat dan reservasi hotel tidak wajib untuk pemeriksaan visa."
         },
         {
           "n": 7,
@@ -137,9 +140,9 @@
         },
         {
           "doc": "Reservasi tiket pulang-pergi & hotel",
-          "req": "required",
+          "req": "recommended",
           "where": "Maskapai / situs pemesanan",
-          "how": "Reservasi/rencana perjalanan sudah cukup — jangan membayar tiket sebelum disetujui."
+          "how": "Perkiraan KVAC Jakarta: visa single/double 10 hari kerja, multiple 7, ekspres C-3 yang memenuhi syarat 5. Tanggal pengajuan termasuk; hari libur tidak dihitung. Dokumen tambahan atau wawancara dapat memperpanjang proses. Menurut FAQ resmi, tiket pesawat dan reservasi hotel tidak wajib untuk pemeriksaan visa."
         },
         {
           "doc": "Surat sponsor (jika dibiayai orang lain)",
@@ -169,7 +172,7 @@
         {
           "icon": "🧍",
           "t": "Mengira sendirian = bebas visa",
-          "d": "Uji coba bebas visa hanya untuk rombongan (3 orang atau lebih). Wisatawan perorangan tetap memerlukan visa C-3."
+          "d": "Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."
         },
         {
           "icon": "💸",
@@ -198,11 +201,13 @@
       "items": [
         {
           "q": "Apakah warga Indonesia memerlukan visa untuk Korea?",
-          "a": "Wisatawan perorangan memerlukan visa turis C-3 untuk Korea daratan. Sejak 28 Mei 2026, rombongan wisata 3 orang atau lebih dapat masuk tanpa visa melalui uji coba; Pulau Jeju memiliki jalur bebas visa tersendiri."
+          "a": "Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri. Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "Saya bepergian sendirian — bisakah saya tanpa visa?",
-          "a": "Tidak. Uji coba bebas visa hanya berlaku untuk rombongan minimal 3 orang. Wisatawan mandiri harus mengajukan visa C-3."
+          "a": "Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri. Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "Bukti finansial apa yang saya perlukan?",
@@ -214,73 +219,188 @@
         },
         {
           "q": "Berapa biayanya?",
-          "a": "Biaya bervariasi dan tidak dapat dikembalikan meskipun ditolak. Konfirmasikan jumlah terkini di pusat layanan."
+          "a": "Mulai 2026-07-01: single jangka pendek IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; multiple IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Ekspres dan layanan pilihan dikenai biaya tambahan; periksa tabel resmi terbaru.",
+          "factId": "visa-indonesia-fees"
         },
         {
           "q": "Apakah saya masih memerlukan e-Arrival Card?",
-          "a": "Aturan dokumen masuk seperti e-Arrival Card tetap dapat berlaku saat kedatangan. Periksa aturan yang berlaku menjelang tanggal keberangkatan Anda."
+          "a": "Pengunjung dengan visa jangka pendek wajib mengisi e-Arrival Card kecuali memenuhi pengecualian tersendiri. Untuk masuk bebas visa grup, periksa navigator resmi dan penyelenggara yang ditunjuk; jangan menganggap persetujuan grup menggantikan deklarasi kedatangan.",
+          "factId": "earrival-card-how"
         },
         {
           "q": "Apakah warga Indonesia bisa mengunjungi Jeju tanpa visa?",
-          "a": "Pulau Jeju menjalankan program masuk bebas visa tersendiri yang terbuka bagi banyak kewarganegaraan, tetapi hanya untuk menginap di pulau itu saja. Karena aturannya bisa berubah, periksa dulu daftar kelayakan terbaru sebelum Anda mengandalkannya."
+          "a": "Wisatawan berpaspor biasa Indonesia dapat menggunakan program bebas visa Jeju tersendiri hingga 30 hari, tiba langsung dari luar negeri dan hanya tinggal di Jeju. Masuk melalui Korea daratan tidak tercakup. Perjalanan ke daratan memerlukan visa yang sesuai atau izin imigrasi sebelumnya; petugas menilai izin masuk di perbatasan.",
+          "factId": "visa-indonesia-jeju"
         },
         {
           "q": "Berapa lama proses pengurusan visa Korea?",
-          "a": "Setelah dokumen Anda diterima, prosesnya biasanya memakan waktu beberapa hari kerja, meski bervariasi menurut musim dan menurut pusat pengajuan. Ajukan jauh-jauh hari sebelum perjalanan dan pastikan lama proses terkini di tempat Anda mengajukan."
+          "a": "Perkiraan KVAC Jakarta: visa single/double 10 hari kerja, multiple 7, ekspres C-3 yang memenuhi syarat 5. Tanggal pengajuan termasuk; hari libur tidak dihitung. Dokumen tambahan atau wawancara dapat memperpanjang proses. Menurut FAQ resmi, tiket pesawat dan reservasi hotel tidak wajib untuk pemeriksaan visa.",
+          "factId": "visa-indonesia-processing"
         },
         {
           "q": "Apakah anak-anak perlu visa Korea sendiri?",
           "a": "Ya — setiap pelancong, termasuk anak-anak, memerlukan visanya masing-masing. Pengajuan untuk anak di bawah umur diserahkan bersama dokumen pendukung orang tua dan bukti hubungan keluarga."
+        },
+        {
+          "q": "K-ETA?",
+          "a": "Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri.",
+          "factId": "keta-visa-distinction"
+        },
+        {
+          "q": "Visa multiple?",
+          "a": "Pemohon yang memenuhi syarat dapat mengajukan multiple visa 5 atau 10 tahun; tabel KVAC mencantumkan masa tinggal 30 hari per kunjungan. Masa berlaku panjang bukan izin tinggal terus-menerus atau kelayakan otomatis. Minta KVAC memeriksa kategori Anda.",
+          "factId": "visa-indonesia-multiple"
         }
       ]
+    },
+    "resources": {
+      "title": "Sumber resmi",
+      "intro": "Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri.",
+      "items": [
+        {
+          "label": "Sumber resmi · Korea Visa Portal",
+          "src": "www.visa.go.kr",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "label": "Sumber resmi · KVAC Jakarta",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location"
+        },
+        {
+          "label": "Sumber resmi · KVAC · IDR",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee"
+        },
+        {
+          "label": "Sumber resmi · KVAC · FAQ",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/customer/faq"
+        },
+        {
+          "label": "Sumber resmi · B-2 · Indonesia",
+          "src": "immigration.go.kr",
+          "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do"
+        },
+        {
+          "label": "Sumber resmi · C-3-2",
+          "src": "www.moj.go.kr",
+          "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "📄",
+        "name": "Sumber resmi · Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri."
+      },
+      {
+        "icon": "🏢",
+        "name": "Sumber resmi · KVAC Jakarta",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
+        "what": "Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri."
+      },
+      {
+        "icon": "🏢",
+        "name": "Sumber resmi · KVAC · IDR",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
+        "what": "Mulai 2026-07-01: single jangka pendek IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; multiple IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Ekspres dan layanan pilihan dikenai biaya tambahan; periksa tabel resmi terbaru."
+      },
+      {
+        "icon": "🏢",
+        "name": "Sumber resmi · KVAC · FAQ",
+        "url": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+        "what": "Perkiraan KVAC Jakarta: visa single/double 10 hari kerja, multiple 7, ekspres C-3 yang memenuhi syarat 5. Tanggal pengajuan termasuk; hari libur tidak dihitung. Dokumen tambahan atau wawancara dapat memperpanjang proses. Menurut FAQ resmi, tiket pesawat dan reservasi hotel tidak wajib untuk pemeriksaan visa."
+      },
+      {
+        "icon": "🏢",
+        "name": "Sumber resmi · B-2 · Indonesia",
+        "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
+        "what": "Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."
+      },
+      {
+        "icon": "🏢",
+        "name": "Sumber resmi · C-3-2",
+        "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
+        "what": "Visa grup C-3-2 yang memenuhi syarat bagi China, Vietnam, Filipina, Indonesia, India, dan Kamboja mendapat pembebasan biaya penerbitan USD 15 sampai 2026-12-31. Ini bukan bebas visa atau pembebasan biaya visa individu, agen, maupun layanan."
+      }
+    ],
+    "factValueLabels": {
+      "C-3": "Turis C-3 (perorangan)",
+      "Visa grant; designated group: 15 days": "Visa: sesuai izin yang diterbitkan; program grup ditunjuk: 15 hari",
+      "KVAC Jakarta": "KVAC Jakarta"
+    },
+    "h1": "Visa Korea untuk warga Indonesia",
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Lama tinggal",
+      "entry": "Jumlah masuk",
+      "where": "Di mana mendapatkannya",
+      "official": "Sumber resmi",
+      "required": "Wajib",
+      "conditional": "Jika berlaku",
+      "recommended": "Disarankan",
+      "confirm": "Biaya/aturan dapat berubah — harap konfirmasi di sumber resmi",
+      "source": "Sumber",
+      "updated": "Diperbarui",
+      "tldr": "RINGKASAN"
+    },
+    "applicationOffice": {
+      "factId": "kvac-jakarta-location",
+      "title": "KVAC Jakarta"
     }
   },
   "ja": {
+    "_README": "Per-nationality visa deep-dive: Indonesia → Korea. Grounded in official channels (Embassy of Korea in Indonesia, Korea Visa Portal) + 2026 immigration briefings. Fee/processing VOLATILE (factId visa-indonesia-c3). No invented figures.",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "code": "indonesia",
+    "factId": "visa-indonesia-c3",
+    "metaTitle": "インドネシアから韓国のビザ：必要ですか？（2026年）— Korea Trip Hub",
+    "metaDesc": "インドネシア国民のための韓国ビザ · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "ビザガイド · インドネシア → 韓国",
     "readingTime": "8分で読めます",
-    "h1": "インドネシア国民のための韓国ビザ",
-    "metaTitle": "インドネシアから韓国のビザ：必要ですか？（2026年）— Korea Trip Hub",
-    "metaDesc": "インドネシアのパスポート保持者は韓国のビザが必要？個人旅行者はC-3ビザが必要です（団体は2026年からビザなしになる可能性があります）。申請先、必要書類とその入手先、料金、処理時間を解説します。",
-    "ui": {
-      "visa": "ビザの種類",
-      "stay": "滞在期間",
-      "entry": "入国回数",
-      "where": "入手場所",
-      "official": "公式ソース",
-      "required": "必須",
-      "conditional": "該当する場合",
-      "recommended": "推奨",
-      "confirm": "費用・規則は変更される場合があります — 公式ソースでご確認ください",
-      "source": "出典",
-      "updated": "更新日",
-      "tldr": "要点"
+    "updated": "2026-10-05",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Arrivals at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
     },
     "verdict": {
       "headline": "インドネシアの個人旅行者はビザが必要です — ただし団体は不要な場合があります。",
-      "sub": "韓国本土への個人・自由旅行では、C-3観光ビザを申請します。2026年5月28日以降、3名以上の団体旅行は試験制度により短期滞在でビザ免除で入国できますが、個人はまだ対象外です。",
+      "sub": "通常の観光ビザが必要な一般旅券は、その訪問にK-ETAを申請できません。 通常の韓国本土訪問でビザが必要な旅券の場合、K-ETAで代用できず、ビザ取得後の追加申請も不要です。K-ETAの年齢免除はビザ免除ではありません。団体・済州制度は別の条件があります。",
       "type": "C-3 観光（個人）",
-      "stay": "最長90日",
-      "entry": "シングル入国（個人）／条件を満たす団体はビザ免除"
+      "stay": "ビザ：発給条件に従う・指定団体：15日",
+      "entry": "C-3 / B-2"
     },
     "highlights": [
       {
         "icon": "👥",
         "tone": "green",
-        "title": "2026年5月28日から団体ビザ免除",
-        "body": "3名以上のインドネシア人団体旅行は、試験制度により短期滞在でビザ免除で入国できます。団体のみが対象で、個人旅行者は引き続きビザが必要です。"
+        "title": "団体制度",
+        "body": "試行期間：2026-05-28～2026-12-31。指定インドネシア旅行会社が募集した3人以上の団体のみ、最長15日滞在できます。友人3人の個人旅行は対象外です。韓国側は航空到着24時間前・船舶36時間前までにHiKoreaへ名簿登録して事前審査を受け、原則同一便・船で一緒に入出国します。"
       },
       {
         "icon": "🏝️",
         "tone": "amber",
         "title": "Jeju島 — 別枠のビザ免除入国",
-        "body": "インドネシア国民はJejuにビザ免除で入国できます（Jejuのみ、直行便、本土への乗り継ぎ不可）。これは本土の観光ビザとは別枠です。"
+        "body": "インドネシア一般旅券の観光客は、海外から済州へ直接到着して済州のみ滞在する別制度で最長30日査証免除となります。本土経由の入国は対象外。本土移動には適切なビザまたは事前入管許可が必要で、最終入国審査があります。"
+      },
+      {
+        "icon": "🗓️",
+        "tone": "blue",
+        "title": "複数ビザ",
+        "body": "対象者は5年・10年の複数ビザを申請でき、KVAC表の1回滞在は30日です。長い有効期間は連続居住や自動的な資格を意味しません。申請区分はKVACに確認してください。"
       }
     ],
     "tldr": [
       "個人旅行者は韓国本土のためにC-3観光ビザが必要です。",
       "visa.go.krでフォームに記入し、駐インドネシア韓国大使館／KVAC Jakartaで提出します。",
       "パスポート、写真、3か月分の銀行取引明細、在職証明書＋給与明細を持参してください。",
-      "3名以上の団体で旅行しますか？ビザ免除の対象になる場合があります（2026年5月からの試験制度）。"
+      "試行期間：2026-05-28～2026-12-31。指定インドネシア旅行会社が募集した3人以上の団体のみ、最長15日滞在できます。友人3人の個人旅行は対象外です。韓国側は航空到着24時間前・船舶36時間前までにHiKoreaへ名簿登録して事前審査を受け、原則同一便・船で一緒に入出国します。"
     ],
     "steps": {
       "title": "申請手順（個人C-3）",
@@ -288,7 +408,7 @@
         {
           "n": 1,
           "title": "ビザの種類を確認",
-          "detail": "個人旅行者は短期観光ビザC-3を申請します。（3名以上の団体は、旅行代理店にビザ免除の試験制度について確認してください。）"
+          "detail": "通常の観光ビザが必要な一般旅券は、その訪問にK-ETAを申請できません。 通常の韓国本土訪問でビザが必要な旅券の場合、K-ETAで代用できず、ビザ取得後の追加申請も不要です。K-ETAの年齢免除はビザ免除ではありません。団体・済州制度は別の条件があります。 試行期間：2026-05-28～2026-12-31。指定インドネシア旅行会社が募集した3人以上の団体のみ、最長15日滞在できます。友人3人の個人旅行は対象外です。韓国側は航空到着24時間前・船舶36時間前までにHiKoreaへ名簿登録して事前審査を受け、原則同一便・船で一緒に入出国します。"
         },
         {
           "n": 2,
@@ -310,12 +430,12 @@
         {
           "n": 5,
           "title": "費用を支払う",
-          "detail": "ビザ費用とサービス料を支払います。却下されても返金されません — センターで金額を確認してください。"
+          "detail": "2026-07-01から：短期単数IDR 680,000 + KVAC IDR 240,000 = IDR 920,000、複数IDR 1,530,000 + IDR 240,000 = IDR 1,770,000。速達・任意サービスは別料金です。最新の公式表を確認してください。"
         },
         {
           "n": 6,
           "title": "追跡して待つ",
-          "detail": "センターのチャネルでステータスを確認します。承認前に払い戻し不可の航空券を購入しないでください。"
+          "detail": "ジャカルタKVACの目安：単数・ダブル10営業日、複数7、対象C-3速達5。申請日を含み休日を除きます。追加資料や面接で延長する場合があります。公式FAQでは航空券・ホテル予約はビザ審査に必須ではありません。"
         },
         {
           "n": 7,
@@ -372,9 +492,9 @@
         },
         {
           "doc": "往復航空券・ホテルの予約",
-          "req": "required",
+          "req": "recommended",
           "where": "航空会社／予約サイト",
-          "how": "予約・旅程で十分です — 承認前に航空券を購入しないでください。"
+          "how": "ジャカルタKVACの目安：単数・ダブル10営業日、複数7、対象C-3速達5。申請日を含み休日を除きます。追加資料や面接で延長する場合があります。公式FAQでは航空券・ホテル予約はビザ審査に必須ではありません。"
         },
         {
           "doc": "スポンサー状（他者が費用を負担する場合）",
@@ -404,7 +524,7 @@
         {
           "icon": "🧍",
           "t": "個人＝ビザ免除と思い込む",
-          "d": "ビザ免除の試験制度は団体（3名以上）のみです。個人旅行者は引き続きC-3ビザが必要です。"
+          "d": "試行期間：2026-05-28～2026-12-31。指定インドネシア旅行会社が募集した3人以上の団体のみ、最長15日滞在できます。友人3人の個人旅行は対象外です。韓国側は航空到着24時間前・船舶36時間前までにHiKoreaへ名簿登録して事前審査を受け、原則同一便・船で一緒に入出国します。"
         },
         {
           "icon": "💸",
@@ -433,11 +553,13 @@
       "items": [
         {
           "q": "インドネシア人は韓国にビザが必要ですか？",
-          "a": "個人旅行者は韓国本土のためにC-3観光ビザが必要です。2026年5月28日以降、3名以上の団体旅行は試験制度によりビザ免除で入国できます。Jejuには別枠のビザ免除入国があります。"
+          "a": "通常の観光ビザが必要な一般旅券は、その訪問にK-ETAを申請できません。 通常の韓国本土訪問でビザが必要な旅券の場合、K-ETAで代用できず、ビザ取得後の追加申請も不要です。K-ETAの年齢免除はビザ免除ではありません。団体・済州制度は別の条件があります。 試行期間：2026-05-28～2026-12-31。指定インドネシア旅行会社が募集した3人以上の団体のみ、最長15日滞在できます。友人3人の個人旅行は対象外です。韓国側は航空到着24時間前・船舶36時間前までにHiKoreaへ名簿登録して事前審査を受け、原則同一便・船で一緒に入出国します。",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "一人で旅行します — ビザは省略できますか？",
-          "a": "いいえ。ビザ免除の試験制度は3名以上の団体のみに適用されます。個人旅行者はC-3ビザを申請する必要があります。"
+          "a": "通常の観光ビザが必要な一般旅券は、その訪問にK-ETAを申請できません。 通常の韓国本土訪問でビザが必要な旅券の場合、K-ETAで代用できず、ビザ取得後の追加申請も不要です。K-ETAの年齢免除はビザ免除ではありません。団体・済州制度は別の条件があります。 試行期間：2026-05-28～2026-12-31。指定インドネシア旅行会社が募集した3人以上の団体のみ、最長15日滞在できます。友人3人の個人旅行は対象外です。韓国側は航空到着24時間前・船舶36時間前までにHiKoreaへ名簿登録して事前審査を受け、原則同一便・船で一緒に入出国します。",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "どのような財政証明が必要ですか？",
@@ -449,73 +571,188 @@
         },
         {
           "q": "費用はいくらですか？",
-          "a": "費用は異なり、却下されても返金されません。最新の金額はセンターで確認してください。"
+          "a": "2026-07-01から：短期単数IDR 680,000 + KVAC IDR 240,000 = IDR 920,000、複数IDR 1,530,000 + IDR 240,000 = IDR 1,770,000。速達・任意サービスは別料金です。最新の公式表を確認してください。",
+          "factId": "visa-indonesia-fees"
         },
         {
           "q": "e-Arrival Cardはまだ必要ですか？",
-          "a": "e-Arrival Cardなどの入国書類の規則は、到着時に依然として適用される場合があります。渡航日近くに最新の規則を確認してください。"
+          "a": "短期ビザでの入国者は、別の免除条件がない限りe-Arrival Cardが必要です。団体査証免除では公式案内と指定旅行会社に確認し、団体承認が入国申告を代替すると考えないでください。",
+          "factId": "earrival-card-how"
         },
         {
           "q": "インドネシア国民はビザなしで済州島を訪れることができますか？",
-          "a": "済州島（Jeju Island）には、多くの国籍の方を対象とした独自のビザなし入境（visa-free）プログラムがあり、島内のみの滞在に限られます。ルールは変わることがあるため、頼りにする前に最新の対象リストを確認してください。"
+          "a": "インドネシア一般旅券の観光客は、海外から済州へ直接到着して済州のみ滞在する別制度で最長30日査証免除となります。本土経由の入国は対象外。本土移動には適切なビザまたは事前入管許可が必要で、最終入国審査があります。",
+          "factId": "visa-indonesia-jeju"
         },
         {
           "q": "韓国ビザの発給にはどのくらい時間がかかりますか？",
-          "a": "書類が受理されると、通常は数営業日で処理されますが、時期や申請センターによって異なります。旅行に余裕をもって早めに申請し、申請先で最新の所要日数を確認してください。"
+          "a": "ジャカルタKVACの目安：単数・ダブル10営業日、複数7、対象C-3速達5。申請日を含み休日を除きます。追加資料や面接で延長する場合があります。公式FAQでは航空券・ホテル予約はビザ審査に必須ではありません。",
+          "factId": "visa-indonesia-processing"
         },
         {
           "q": "子どもにも個別の韓国ビザは必要ですか？",
           "a": "はい——子どもを含め、旅行者一人ひとりに個別のビザが必要です。未成年者の申請は、親の証明書類と家族関係を示す書類を添えて提出します。"
+        },
+        {
+          "q": "K-ETA?",
+          "a": "通常の観光ビザが必要な一般旅券は、その訪問にK-ETAを申請できません。 通常の韓国本土訪問でビザが必要な旅券の場合、K-ETAで代用できず、ビザ取得後の追加申請も不要です。K-ETAの年齢免除はビザ免除ではありません。団体・済州制度は別の条件があります。",
+          "factId": "keta-visa-distinction"
+        },
+        {
+          "q": "複数ビザ?",
+          "a": "対象者は5年・10年の複数ビザを申請でき、KVAC表の1回滞在は30日です。長い有効期間は連続居住や自動的な資格を意味しません。申請区分はKVACに確認してください。",
+          "factId": "visa-indonesia-multiple"
         }
       ]
+    },
+    "resources": {
+      "title": "公式ソース",
+      "intro": "通常の観光ビザが必要な一般旅券は、その訪問にK-ETAを申請できません。 通常の韓国本土訪問でビザが必要な旅券の場合、K-ETAで代用できず、ビザ取得後の追加申請も不要です。K-ETAの年齢免除はビザ免除ではありません。団体・済州制度は別の条件があります。",
+      "items": [
+        {
+          "label": "公式ソース · Korea Visa Portal",
+          "src": "www.visa.go.kr",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "label": "公式ソース · KVAC Jakarta",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location"
+        },
+        {
+          "label": "公式ソース · KVAC · IDR",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee"
+        },
+        {
+          "label": "公式ソース · KVAC · FAQ",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/customer/faq"
+        },
+        {
+          "label": "公式ソース · B-2 · Indonesia",
+          "src": "immigration.go.kr",
+          "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do"
+        },
+        {
+          "label": "公式ソース · C-3-2",
+          "src": "www.moj.go.kr",
+          "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "📄",
+        "name": "公式ソース · Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "通常の観光ビザが必要な一般旅券は、その訪問にK-ETAを申請できません。 通常の韓国本土訪問でビザが必要な旅券の場合、K-ETAで代用できず、ビザ取得後の追加申請も不要です。K-ETAの年齢免除はビザ免除ではありません。団体・済州制度は別の条件があります。"
+      },
+      {
+        "icon": "🏢",
+        "name": "公式ソース · KVAC Jakarta",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
+        "what": "通常の観光ビザが必要な一般旅券は、その訪問にK-ETAを申請できません。 通常の韓国本土訪問でビザが必要な旅券の場合、K-ETAで代用できず、ビザ取得後の追加申請も不要です。K-ETAの年齢免除はビザ免除ではありません。団体・済州制度は別の条件があります。"
+      },
+      {
+        "icon": "🏢",
+        "name": "公式ソース · KVAC · IDR",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
+        "what": "2026-07-01から：短期単数IDR 680,000 + KVAC IDR 240,000 = IDR 920,000、複数IDR 1,530,000 + IDR 240,000 = IDR 1,770,000。速達・任意サービスは別料金です。最新の公式表を確認してください。"
+      },
+      {
+        "icon": "🏢",
+        "name": "公式ソース · KVAC · FAQ",
+        "url": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+        "what": "ジャカルタKVACの目安：単数・ダブル10営業日、複数7、対象C-3速達5。申請日を含み休日を除きます。追加資料や面接で延長する場合があります。公式FAQでは航空券・ホテル予約はビザ審査に必須ではありません。"
+      },
+      {
+        "icon": "🏢",
+        "name": "公式ソース · B-2 · Indonesia",
+        "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
+        "what": "試行期間：2026-05-28～2026-12-31。指定インドネシア旅行会社が募集した3人以上の団体のみ、最長15日滞在できます。友人3人の個人旅行は対象外です。韓国側は航空到着24時間前・船舶36時間前までにHiKoreaへ名簿登録して事前審査を受け、原則同一便・船で一緒に入出国します。"
+      },
+      {
+        "icon": "🏢",
+        "name": "公式ソース · C-3-2",
+        "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
+        "what": "中国・ベトナム・フィリピン・インドネシア・インド・カンボジアの対象C-3-2団体ビザは、USD 15の発給手数料が2026-12-31まで免除されます。査証免除や個人ビザ・旅行会社・サービス料金の免除ではありません。"
+      }
+    ],
+    "factValueLabels": {
+      "C-3": "C-3 観光（個人）",
+      "Visa grant; designated group: 15 days": "ビザ：発給条件に従う・指定団体：15日",
+      "KVAC Jakarta": "KVAC Jakarta"
+    },
+    "h1": "インドネシア国民のための韓国ビザ",
+    "ui": {
+      "visa": "ビザの種類",
+      "stay": "滞在期間",
+      "entry": "入国回数",
+      "where": "入手場所",
+      "official": "公式ソース",
+      "required": "必須",
+      "conditional": "該当する場合",
+      "recommended": "推奨",
+      "confirm": "費用・規則は変更される場合があります — 公式ソースでご確認ください",
+      "source": "出典",
+      "updated": "更新日",
+      "tldr": "要点"
+    },
+    "applicationOffice": {
+      "factId": "kvac-jakarta-location",
+      "title": "KVAC Jakarta"
     }
   },
   "ko": {
+    "_README": "Per-nationality visa deep-dive: Indonesia → Korea. Grounded in official channels (Embassy of Korea in Indonesia, Korea Visa Portal) + 2026 immigration briefings. Fee/processing VOLATILE (factId visa-indonesia-c3). No invented figures.",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "code": "indonesia",
+    "factId": "visa-indonesia-c3",
+    "metaTitle": "인도네시아에서 한국 비자: 필요할까요? (2026) — Korea Trip Hub",
+    "metaDesc": "인도네시아 국민을 위한 한국 비자 · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "비자 가이드 · 인도네시아 → 한국",
     "readingTime": "8분 분량",
-    "h1": "인도네시아 국민을 위한 한국 비자",
-    "metaTitle": "인도네시아에서 한국 비자: 필요할까요? (2026) — Korea Trip Hub",
-    "metaDesc": "인도네시아 여권 소지자는 한국 비자가 필요할까요? 개별 관광객은 C-3 비자가 필요합니다 (단체는 2026년부터 무비자일 수 있습니다). 어디서 신청하는지, 서류와 각 발급처, 수수료와 처리 기간을 안내합니다.",
-    "ui": {
-      "visa": "비자 종류",
-      "stay": "체류 기간",
-      "entry": "입국 횟수",
-      "where": "발급받는 곳",
-      "official": "공식 출처",
-      "required": "필수",
-      "conditional": "해당 시",
-      "recommended": "권장",
-      "confirm": "비용/규정은 변경될 수 있습니다 — 공식 출처에서 확인하세요",
-      "source": "출처",
-      "updated": "업데이트됨",
-      "tldr": "요약"
+    "updated": "2026-10-05",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Arrivals at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
     },
     "verdict": {
       "headline": "인도네시아 개인 여행자는 비자가 필요합니다 — 단, 단체는 필요 없을 수 있습니다.",
-      "sub": "한국 본토로의 개인·자유 여행은 C-3 관광 비자를 신청합니다. 2026년 5월 28일부터 3인 이상 단체 여행은 시범 제도에 따라 단기 체류 무비자 입국이 가능하지만, 개인은 아직 대상이 아닙니다.",
+      "sub": "일반 관광비자가 필요한 일반여권은 해당 방문에 K-ETA를 신청할 수 없습니다. 일반적인 한국 본토 방문에 비자가 필요한 여권이라면 K-ETA로 대신할 수 없고, 비자 발급 후 추가 신청할 필요도 없습니다. K-ETA 연령 면제는 비자 면제가 아닙니다. 단체·제주 예외는 별도 조건을 확인하세요.",
       "type": "C-3 관광 (개인)",
-      "stay": "최대 90일",
-      "entry": "단수 입국 (개인) / 자격을 갖춘 단체는 무비자"
+      "stay": "비자: 실제 발급 조건에 따름 · 지정 단체: 15일",
+      "entry": "C-3 / B-2"
     },
     "highlights": [
       {
         "icon": "👥",
         "tone": "green",
-        "title": "2026년 5월 28일부터 단체 무비자",
-        "body": "3인 이상 인도네시아 단체 여행은 시범 제도에 따라 단기 체류 무비자 입국이 가능합니다. 단체만 해당되며, 개인 여행자는 여전히 비자가 필요합니다."
+        "title": "단체 제도",
+        "body": "시범기간은 2026-05-28~2026-12-31입니다. 지정된 인도네시아 여행사가 모집한 3인 이상 단체만 최대 15일 체류가 가능하며, 친구 세 명의 자유여행은 해당하지 않습니다. 한국 협력 여행사는 항공 입국 24시간 전·선박 36시간 전까지 하이코리아에 명단을 등록하고 사전 점검을 받아야 합니다. 원칙적으로 동일 항공편·선박편으로 함께 입출국합니다."
       },
       {
         "icon": "🏝️",
         "tone": "amber",
         "title": "Jeju섬 — 별도의 무비자 입국",
-        "body": "인도네시아 국민은 Jeju에 무비자로 입국할 수 있습니다(Jeju 한정, 직항편, 본토 경유 불가). 이는 본토 관광 비자와는 별개입니다."
+        "body": "인도네시아 일반여권 관광객은 해외에서 제주로 직접 도착해 제주에만 머무르는 별도 무비자 제도로 최대 30일 체류할 수 있습니다. 한국 본토 경유 입국은 해당하지 않습니다. 본토 이동은 적절한 비자 또는 사전 출입국 허가가 필요하며 최종 입국은 심사 대상입니다."
+      },
+      {
+        "icon": "🗓️",
+        "tone": "blue",
+        "title": "복수비자",
+        "body": "적격 신청자는 5년·10년 복수비자를 신청할 수 있으며 KVAC 표의 1회 체류기간은 30일입니다. 긴 비자 유효기간이 장기 연속 체류나 자동 신청 자격을 뜻하지 않습니다. 본인의 신청 유형은 KVAC에 확인하세요."
       }
     ],
     "tldr": [
       "개인 여행자는 한국 본토를 위해 C-3 관광 비자가 필요합니다.",
       "visa.go.kr에서 양식을 작성한 뒤, 주인도네시아 한국 대사관 / KVAC Jakarta에 제출하세요.",
       "여권, 사진, 3개월 은행 거래내역서, 재직증명서 + 급여명세서를 지참하세요.",
-      "3인 이상 단체로 여행하시나요? 무비자 입국 대상이 될 수 있습니다(2026년 5월부터 시범 운영)."
+      "시범기간은 2026-05-28~2026-12-31입니다. 지정된 인도네시아 여행사가 모집한 3인 이상 단체만 최대 15일 체류가 가능하며, 친구 세 명의 자유여행은 해당하지 않습니다. 한국 협력 여행사는 항공 입국 24시간 전·선박 36시간 전까지 하이코리아에 명단을 등록하고 사전 점검을 받아야 합니다. 원칙적으로 동일 항공편·선박편으로 함께 입출국합니다."
     ],
     "steps": {
       "title": "신청 절차, 단계별 (개인 C-3)",
@@ -523,7 +760,7 @@
         {
           "n": 1,
           "title": "비자 종류 확인",
-          "detail": "개인 여행자는 단기 관광 비자 C-3를 신청합니다. (3인 이상 단체는 여행사에 무비자 시범 제도를 문의하세요.)"
+          "detail": "일반 관광비자가 필요한 일반여권은 해당 방문에 K-ETA를 신청할 수 없습니다. 일반적인 한국 본토 방문에 비자가 필요한 여권이라면 K-ETA로 대신할 수 없고, 비자 발급 후 추가 신청할 필요도 없습니다. K-ETA 연령 면제는 비자 면제가 아닙니다. 단체·제주 예외는 별도 조건을 확인하세요. 시범기간은 2026-05-28~2026-12-31입니다. 지정된 인도네시아 여행사가 모집한 3인 이상 단체만 최대 15일 체류가 가능하며, 친구 세 명의 자유여행은 해당하지 않습니다. 한국 협력 여행사는 항공 입국 24시간 전·선박 36시간 전까지 하이코리아에 명단을 등록하고 사전 점검을 받아야 합니다. 원칙적으로 동일 항공편·선박편으로 함께 입출국합니다."
         },
         {
           "n": 2,
@@ -545,12 +782,12 @@
         {
           "n": 5,
           "title": "비용 납부",
-          "detail": "비자 비용과 서비스 수수료를 납부하세요. 거부되어도 환불되지 않으니 센터에서 금액을 확인하세요."
+          "detail": "2026-07-01부터 단기 단수 IDR 680,000 + KVAC IDR 240,000 = IDR 920,000, 복수 IDR 1,530,000 + IDR 240,000 = IDR 1,770,000입니다. 급행·선택 서비스는 추가 비용이 있으며 최신 공식 요금표를 확인하세요."
         },
         {
           "n": 6,
           "title": "추적 및 대기",
-          "detail": "센터 채널을 통해 상태를 확인하세요. 승인 전에는 환불 불가 항공권을 구매하지 마세요."
+          "detail": "자카르타 KVAC 예상 심사는 단수·더블 10영업일, 복수 7영업일, 적격 C-3 급행 5영업일입니다. 접수일 포함·휴일 제외이며 추가 서류나 면담으로 연장될 수 있습니다. 공식 FAQ는 비자 심사에 항공권·호텔 예약이 필수는 아니라고 안내합니다."
         },
         {
           "n": 7,
@@ -607,9 +844,9 @@
         },
         {
           "doc": "왕복 항공권 및 호텔 예약",
-          "req": "required",
+          "req": "recommended",
           "where": "항공사 / 예약 사이트",
-          "how": "예약/일정만으로 충분합니다 — 승인 전에 항공권을 결제하지 마세요."
+          "how": "자카르타 KVAC 예상 심사는 단수·더블 10영업일, 복수 7영업일, 적격 C-3 급행 5영업일입니다. 접수일 포함·휴일 제외이며 추가 서류나 면담으로 연장될 수 있습니다. 공식 FAQ는 비자 심사에 항공권·호텔 예약이 필수는 아니라고 안내합니다."
         },
         {
           "doc": "스폰서 레터(타인이 비용 부담 시)",
@@ -639,7 +876,7 @@
         {
           "icon": "🧍",
           "t": "개인 = 무비자로 오해",
-          "d": "무비자 시범 제도는 단체(3인 이상)만 해당됩니다. 개인 여행자는 여전히 C-3 비자가 필요합니다."
+          "d": "시범기간은 2026-05-28~2026-12-31입니다. 지정된 인도네시아 여행사가 모집한 3인 이상 단체만 최대 15일 체류가 가능하며, 친구 세 명의 자유여행은 해당하지 않습니다. 한국 협력 여행사는 항공 입국 24시간 전·선박 36시간 전까지 하이코리아에 명단을 등록하고 사전 점검을 받아야 합니다. 원칙적으로 동일 항공편·선박편으로 함께 입출국합니다."
         },
         {
           "icon": "💸",
@@ -668,11 +905,13 @@
       "items": [
         {
           "q": "인도네시아인은 한국 비자가 필요한가요?",
-          "a": "개인 여행자는 한국 본토를 위해 C-3 관광 비자가 필요합니다. 2026년 5월 28일부터 3인 이상 단체 여행은 시범 제도에 따라 무비자로 입국할 수 있으며, Jeju에는 별도의 무비자 입국이 있습니다."
+          "a": "일반 관광비자가 필요한 일반여권은 해당 방문에 K-ETA를 신청할 수 없습니다. 일반적인 한국 본토 방문에 비자가 필요한 여권이라면 K-ETA로 대신할 수 없고, 비자 발급 후 추가 신청할 필요도 없습니다. K-ETA 연령 면제는 비자 면제가 아닙니다. 단체·제주 예외는 별도 조건을 확인하세요. 시범기간은 2026-05-28~2026-12-31입니다. 지정된 인도네시아 여행사가 모집한 3인 이상 단체만 최대 15일 체류가 가능하며, 친구 세 명의 자유여행은 해당하지 않습니다. 한국 협력 여행사는 항공 입국 24시간 전·선박 36시간 전까지 하이코리아에 명단을 등록하고 사전 점검을 받아야 합니다. 원칙적으로 동일 항공편·선박편으로 함께 입출국합니다.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "혼자 여행합니다 — 비자를 생략할 수 있나요?",
-          "a": "아니요. 무비자 시범 제도는 3인 이상 단체에만 적용됩니다. 개인 여행자는 C-3 비자를 신청해야 합니다."
+          "a": "일반 관광비자가 필요한 일반여권은 해당 방문에 K-ETA를 신청할 수 없습니다. 일반적인 한국 본토 방문에 비자가 필요한 여권이라면 K-ETA로 대신할 수 없고, 비자 발급 후 추가 신청할 필요도 없습니다. K-ETA 연령 면제는 비자 면제가 아닙니다. 단체·제주 예외는 별도 조건을 확인하세요. 시범기간은 2026-05-28~2026-12-31입니다. 지정된 인도네시아 여행사가 모집한 3인 이상 단체만 최대 15일 체류가 가능하며, 친구 세 명의 자유여행은 해당하지 않습니다. 한국 협력 여행사는 항공 입국 24시간 전·선박 36시간 전까지 하이코리아에 명단을 등록하고 사전 점검을 받아야 합니다. 원칙적으로 동일 항공편·선박편으로 함께 입출국합니다.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "어떤 재정 증빙이 필요한가요?",
@@ -684,73 +923,188 @@
         },
         {
           "q": "비용은 얼마인가요?",
-          "a": "비용은 다양하며 거부되어도 환불되지 않습니다. 최신 금액은 센터에서 확인하세요."
+          "a": "2026-07-01부터 단기 단수 IDR 680,000 + KVAC IDR 240,000 = IDR 920,000, 복수 IDR 1,530,000 + IDR 240,000 = IDR 1,770,000입니다. 급행·선택 서비스는 추가 비용이 있으며 최신 공식 요금표를 확인하세요.",
+          "factId": "visa-indonesia-fees"
         },
         {
           "q": "e-Arrival Card가 여전히 필요한가요?",
-          "a": "e-Arrival Card 등 입국 서류 규정이 도착 시 여전히 적용될 수 있습니다. 여행일 가까이에 최신 규정을 확인하세요."
+          "a": "단기 비자 입국자는 별도 면제 사유가 없다면 전자입국신고를 해야 합니다. 단체 무비자는 공식 내비게이터와 지정 여행사에 확인하세요. 단체 입국 승인이 입국신고를 대신한다고 가정하지 마세요.",
+          "factId": "earrival-card-how"
         },
         {
           "q": "인도네시아 국민은 무비자로 제주를 방문할 수 있나요?",
-          "a": "제주도는 여러 국적에 열려 있는 별도의 무비자 입국 제도를 운영하지만, 이는 제주도 내 체류에만 적용됩니다. 규정이 바뀌므로 이에 의존하기 전에 최신 대상 국가 목록을 확인하세요."
+          "a": "인도네시아 일반여권 관광객은 해외에서 제주로 직접 도착해 제주에만 머무르는 별도 무비자 제도로 최대 30일 체류할 수 있습니다. 한국 본토 경유 입국은 해당하지 않습니다. 본토 이동은 적절한 비자 또는 사전 출입국 허가가 필요하며 최종 입국은 심사 대상입니다.",
+          "factId": "visa-indonesia-jeju"
         },
         {
           "q": "한국 비자 발급에는 시간이 얼마나 걸리나요?",
-          "a": "서류가 접수되면 처리에는 보통 며칠(영업일)이 걸리지만, 시기와 접수처에 따라 달라집니다. 여행 일정보다 넉넉히 앞서 신청하고, 신청하는 곳에서 현재 소요 기간을 확인하세요."
+          "a": "자카르타 KVAC 예상 심사는 단수·더블 10영업일, 복수 7영업일, 적격 C-3 급행 5영업일입니다. 접수일 포함·휴일 제외이며 추가 서류나 면담으로 연장될 수 있습니다. 공식 FAQ는 비자 심사에 항공권·호텔 예약이 필수는 아니라고 안내합니다.",
+          "factId": "visa-indonesia-processing"
         },
         {
           "q": "어린이도 각자 한국 비자가 필요한가요?",
           "a": "네. 어린이를 포함해 모든 여행자는 각자 비자가 필요합니다. 미성년자의 신청은 부모의 증빙 서류와 가족 관계 증명과 함께 제출합니다."
+        },
+        {
+          "q": "K-ETA?",
+          "a": "일반 관광비자가 필요한 일반여권은 해당 방문에 K-ETA를 신청할 수 없습니다. 일반적인 한국 본토 방문에 비자가 필요한 여권이라면 K-ETA로 대신할 수 없고, 비자 발급 후 추가 신청할 필요도 없습니다. K-ETA 연령 면제는 비자 면제가 아닙니다. 단체·제주 예외는 별도 조건을 확인하세요.",
+          "factId": "keta-visa-distinction"
+        },
+        {
+          "q": "복수비자?",
+          "a": "적격 신청자는 5년·10년 복수비자를 신청할 수 있으며 KVAC 표의 1회 체류기간은 30일입니다. 긴 비자 유효기간이 장기 연속 체류나 자동 신청 자격을 뜻하지 않습니다. 본인의 신청 유형은 KVAC에 확인하세요.",
+          "factId": "visa-indonesia-multiple"
         }
       ]
+    },
+    "resources": {
+      "title": "공식 출처",
+      "intro": "일반 관광비자가 필요한 일반여권은 해당 방문에 K-ETA를 신청할 수 없습니다. 일반적인 한국 본토 방문에 비자가 필요한 여권이라면 K-ETA로 대신할 수 없고, 비자 발급 후 추가 신청할 필요도 없습니다. K-ETA 연령 면제는 비자 면제가 아닙니다. 단체·제주 예외는 별도 조건을 확인하세요.",
+      "items": [
+        {
+          "label": "공식 출처 · Korea Visa Portal",
+          "src": "www.visa.go.kr",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "label": "공식 출처 · KVAC Jakarta",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location"
+        },
+        {
+          "label": "공식 출처 · KVAC · IDR",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee"
+        },
+        {
+          "label": "공식 출처 · KVAC · FAQ",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/customer/faq"
+        },
+        {
+          "label": "공식 출처 · B-2 · Indonesia",
+          "src": "immigration.go.kr",
+          "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do"
+        },
+        {
+          "label": "공식 출처 · C-3-2",
+          "src": "www.moj.go.kr",
+          "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "📄",
+        "name": "공식 출처 · Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "일반 관광비자가 필요한 일반여권은 해당 방문에 K-ETA를 신청할 수 없습니다. 일반적인 한국 본토 방문에 비자가 필요한 여권이라면 K-ETA로 대신할 수 없고, 비자 발급 후 추가 신청할 필요도 없습니다. K-ETA 연령 면제는 비자 면제가 아닙니다. 단체·제주 예외는 별도 조건을 확인하세요."
+      },
+      {
+        "icon": "🏢",
+        "name": "공식 출처 · KVAC Jakarta",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
+        "what": "일반 관광비자가 필요한 일반여권은 해당 방문에 K-ETA를 신청할 수 없습니다. 일반적인 한국 본토 방문에 비자가 필요한 여권이라면 K-ETA로 대신할 수 없고, 비자 발급 후 추가 신청할 필요도 없습니다. K-ETA 연령 면제는 비자 면제가 아닙니다. 단체·제주 예외는 별도 조건을 확인하세요."
+      },
+      {
+        "icon": "🏢",
+        "name": "공식 출처 · KVAC · IDR",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
+        "what": "2026-07-01부터 단기 단수 IDR 680,000 + KVAC IDR 240,000 = IDR 920,000, 복수 IDR 1,530,000 + IDR 240,000 = IDR 1,770,000입니다. 급행·선택 서비스는 추가 비용이 있으며 최신 공식 요금표를 확인하세요."
+      },
+      {
+        "icon": "🏢",
+        "name": "공식 출처 · KVAC · FAQ",
+        "url": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+        "what": "자카르타 KVAC 예상 심사는 단수·더블 10영업일, 복수 7영업일, 적격 C-3 급행 5영업일입니다. 접수일 포함·휴일 제외이며 추가 서류나 면담으로 연장될 수 있습니다. 공식 FAQ는 비자 심사에 항공권·호텔 예약이 필수는 아니라고 안내합니다."
+      },
+      {
+        "icon": "🏢",
+        "name": "공식 출처 · B-2 · Indonesia",
+        "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
+        "what": "시범기간은 2026-05-28~2026-12-31입니다. 지정된 인도네시아 여행사가 모집한 3인 이상 단체만 최대 15일 체류가 가능하며, 친구 세 명의 자유여행은 해당하지 않습니다. 한국 협력 여행사는 항공 입국 24시간 전·선박 36시간 전까지 하이코리아에 명단을 등록하고 사전 점검을 받아야 합니다. 원칙적으로 동일 항공편·선박편으로 함께 입출국합니다."
+      },
+      {
+        "icon": "🏢",
+        "name": "공식 출처 · C-3-2",
+        "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
+        "what": "중국·베트남·필리핀·인도네시아·인도·캄보디아의 적격 C-3-2 단체비자는 USD 15 발급 수수료가 2026-12-31까지 면제됩니다. 무비자 입국이나 개인비자·여행사·서비스 수수료 면제와는 다릅니다."
+      }
+    ],
+    "factValueLabels": {
+      "C-3": "C-3 관광 (개인)",
+      "Visa grant; designated group: 15 days": "비자: 실제 발급 조건에 따름 · 지정 단체: 15일",
+      "KVAC Jakarta": "KVAC Jakarta"
+    },
+    "h1": "인도네시아 국민을 위한 한국 비자",
+    "ui": {
+      "visa": "비자 종류",
+      "stay": "체류 기간",
+      "entry": "입국 횟수",
+      "where": "발급받는 곳",
+      "official": "공식 출처",
+      "required": "필수",
+      "conditional": "해당 시",
+      "recommended": "권장",
+      "confirm": "비용/규정은 변경될 수 있습니다 — 공식 출처에서 확인하세요",
+      "source": "출처",
+      "updated": "업데이트됨",
+      "tldr": "요약"
+    },
+    "applicationOffice": {
+      "factId": "kvac-jakarta-location",
+      "title": "KVAC Jakarta"
     }
   },
   "es": {
+    "_README": "Per-nationality visa deep-dive: Indonesia → Korea. Grounded in official channels (Embassy of Korea in Indonesia, Korea Visa Portal) + 2026 immigration briefings. Fee/processing VOLATILE (factId visa-indonesia-c3). No invented figures.",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "code": "indonesia",
+    "factId": "visa-indonesia-c3",
+    "metaTitle": "Visado de Indonesia a Corea: ¿necesitas uno? (2026) — Korea Trip Hub",
+    "metaDesc": "Visado de Corea para ciudadanos indonesios · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "Guía de visado · Indonesia → Corea",
     "readingTime": "8 min de lectura",
-    "h1": "Visado de Corea para ciudadanos indonesios",
-    "metaTitle": "Visado de Indonesia a Corea: ¿necesitas uno? (2026) — Korea Trip Hub",
-    "metaDesc": "¿Los titulares de pasaporte indonesio necesitan visado para Corea del Sur? Los turistas individuales necesitan un visado C-3 (los grupos pueden estar exentos de visado desde 2026). Dónde solicitarlo, documentos y dónde conseguir cada uno, tasas y tiempo de tramitación.",
-    "ui": {
-      "visa": "Tipo de visado",
-      "stay": "Duración de la estancia",
-      "entry": "Número de entradas",
-      "where": "Dónde obtenerlo",
-      "official": "Fuente oficial",
-      "required": "Obligatorio",
-      "conditional": "Si corresponde",
-      "recommended": "Recomendado",
-      "confirm": "Las tasas y normas pueden cambiar — confirme en las fuentes oficiales",
-      "source": "Fuente",
-      "updated": "Actualizado",
-      "tldr": "RESUMEN"
+    "updated": "2026-10-05",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Arrivals at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
     },
     "verdict": {
       "headline": "Los viajeros individuales indonesios necesitan visado, pero los grupos quizá no.",
-      "sub": "Para viajes por cuenta propia a la Corea continental, se solicita el visado de turista C-3. Desde el 28 de mayo de 2026, los grupos turísticos de 3 o más personas pueden entrar sin visado para estancias cortas mediante un programa piloto; los particulares aún no reúnen los requisitos.",
+      "sub": "Los pasaportes ordinarios que necesitan visa turística no son elegibles para K-ETA en esa visita. Si su pasaporte necesita visa para una visita normal a Corea continental, K-ETA no la sustituye ni se solicita además de la visa. La exención de K-ETA por edad no exime de visa. Los programas de grupos y Jeju tienen condiciones propias.",
       "type": "Turista C-3 (individual)",
-      "stay": "Hasta 90 días",
-      "entry": "Entrada única (individual) / exención de visado para grupos que reúnan los requisitos"
+      "stay": "Visa: según la autorización expedida; grupo designado: 15 días",
+      "entry": "C-3 / B-2"
     },
     "highlights": [
       {
         "icon": "👥",
         "tone": "green",
-        "title": "Exención de visado para grupos desde el 28 de mayo de 2026",
-        "body": "Los grupos turísticos indonesios de al menos 3 personas pueden entrar sin visado para estancias cortas mediante un programa piloto. Solo aplica a grupos; los viajeros individuales siguen necesitando visado."
+        "title": "Programa de grupos",
+        "body": "Prueba: 2026-05-28 a 2026-12-31. Solo grupos de 3 o más captados por agencias indonesias designadas, máximo 15 días. Tres amigos independientes no cumplen. El socio coreano registra la lista en HiKorea 24 horas antes por avión o 36 por barco y obtiene revisión previa; el grupo entra y sale normalmente en el mismo vuelo o barco."
       },
       {
         "icon": "🏝️",
         "tone": "amber",
         "title": "Isla de Jeju — exención de visado aparte",
-        "body": "Los ciudadanos indonesios pueden entrar en Jeju sin visado (solo Jeju, vuelos directos, sin tránsito al continente). Esto es independiente del visado de turista para el continente."
+        "body": "Los turistas con pasaporte ordinario indonesio pueden usar el programa separado de Jeju hasta 30 días, llegando directamente del extranjero y permaneciendo en la isla. No cubre entrada por Corea continental. Ir al continente exige visa adecuada o permiso migratorio previo; la admisión se evalúa."
+      },
+      {
+        "icon": "🗓️",
+        "tone": "blue",
+        "title": "Entrada múltiple",
+        "body": "Los solicitantes elegibles pueden pedir visas múltiples de 5 o 10 años; KVAC indica 30 días por visita. La larga validez no implica residencia continua ni elegibilidad automática; confirme su categoría con KVAC."
       }
     ],
     "tldr": [
       "Los viajeros independientes necesitan un visado de turista C-3 para la Corea continental.",
       "Rellene el formulario en visa.go.kr y luego preséntelo en la Embajada de Corea / KVAC Jakarta.",
       "Lleve pasaporte, foto, extracto bancario de 3 meses, carta de empleo y nóminas.",
-      "¿Viaja en grupo de 3 o más? Puede tener derecho a la entrada sin visado (piloto desde mayo de 2026)."
+      "Prueba: 2026-05-28 a 2026-12-31. Solo grupos de 3 o más captados por agencias indonesias designadas, máximo 15 días. Tres amigos independientes no cumplen. El socio coreano registra la lista en HiKorea 24 horas antes por avión o 36 por barco y obtiene revisión previa; el grupo entra y sale normalmente en el mismo vuelo o barco."
     ],
     "steps": {
       "title": "El proceso de solicitud, paso a paso (C-3 individual)",
@@ -758,7 +1112,7 @@
         {
           "n": 1,
           "title": "Confirme el tipo de visado",
-          "detail": "Los turistas independientes solicitan el visado de turista de corta duración C-3. (Los grupos de 3 o más deben preguntar a su agencia por el programa piloto sin visado.)"
+          "detail": "Los pasaportes ordinarios que necesitan visa turística no son elegibles para K-ETA en esa visita. Si su pasaporte necesita visa para una visita normal a Corea continental, K-ETA no la sustituye ni se solicita además de la visa. La exención de K-ETA por edad no exime de visa. Los programas de grupos y Jeju tienen condiciones propias. Prueba: 2026-05-28 a 2026-12-31. Solo grupos de 3 o más captados por agencias indonesias designadas, máximo 15 días. Tres amigos independientes no cumplen. El socio coreano registra la lista en HiKorea 24 horas antes por avión o 36 por barco y obtiene revisión previa; el grupo entra y sale normalmente en el mismo vuelo o barco."
         },
         {
           "n": 2,
@@ -780,12 +1134,12 @@
         {
           "n": 5,
           "title": "Pague la tasa",
-          "detail": "Pague la tasa del visado y cualquier tasa de servicio. Las tasas no se reembolsan aunque se deniegue — confirme el importe en el centro."
+          "detail": "Desde 2026-07-01: simple corta IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; múltiple IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Exprés y servicios opcionales aparte; consulte la tabla oficial vigente."
         },
         {
           "n": 6,
           "title": "Haga seguimiento y espere",
-          "detail": "Siga el estado por el canal del centro. No compre vuelos no reembolsables antes de la aprobación."
+          "detail": "KVAC Yakarta estima: visa simple/doble 10 días hábiles, múltiple 7, C-3 exprés elegible 5. Incluye el día de solicitud, excluye festivos. Documentos o entrevistas adicionales pueden retrasar. La FAQ oficial no exige billetes ni reservas de hotel para evaluar la visa."
         },
         {
           "n": 7,
@@ -842,9 +1196,9 @@
         },
         {
           "doc": "Reserva de vuelo ida y vuelta y hotel",
-          "req": "required",
+          "req": "recommended",
           "where": "Aerolínea / sitios de reservas",
-          "how": "Las reservas o el itinerario bastan — no pague el billete antes de la aprobación."
+          "how": "KVAC Yakarta estima: visa simple/doble 10 días hábiles, múltiple 7, C-3 exprés elegible 5. Incluye el día de solicitud, excluye festivos. Documentos o entrevistas adicionales pueden retrasar. La FAQ oficial no exige billetes ni reservas de hotel para evaluar la visa."
         },
         {
           "doc": "Carta de patrocinio (si le financia otra persona)",
@@ -874,7 +1228,7 @@
         {
           "icon": "🧍",
           "t": "Suponer que solo = sin visado",
-          "d": "El piloto sin visado es solo para grupos (3 o más). Los viajeros individuales siguen necesitando el visado C-3."
+          "d": "Prueba: 2026-05-28 a 2026-12-31. Solo grupos de 3 o más captados por agencias indonesias designadas, máximo 15 días. Tres amigos independientes no cumplen. El socio coreano registra la lista en HiKorea 24 horas antes por avión o 36 por barco y obtiene revisión previa; el grupo entra y sale normalmente en el mismo vuelo o barco."
         },
         {
           "icon": "💸",
@@ -903,11 +1257,13 @@
       "items": [
         {
           "q": "¿Los indonesios necesitan visado para Corea?",
-          "a": "Los viajeros individuales necesitan un visado de turista C-3 para la Corea continental. Desde el 28 de mayo de 2026, los grupos turísticos de 3 o más pueden entrar sin visado mediante un piloto; la isla de Jeju tiene una entrada sin visado aparte."
+          "a": "Los pasaportes ordinarios que necesitan visa turística no son elegibles para K-ETA en esa visita. Si su pasaporte necesita visa para una visita normal a Corea continental, K-ETA no la sustituye ni se solicita además de la visa. La exención de K-ETA por edad no exime de visa. Los programas de grupos y Jeju tienen condiciones propias. Prueba: 2026-05-28 a 2026-12-31. Solo grupos de 3 o más captados por agencias indonesias designadas, máximo 15 días. Tres amigos independientes no cumplen. El socio coreano registra la lista en HiKorea 24 horas antes por avión o 36 por barco y obtiene revisión previa; el grupo entra y sale normalmente en el mismo vuelo o barco.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "Viajo solo — ¿puedo saltarme el visado?",
-          "a": "No. El piloto sin visado se aplica solo a grupos de al menos 3 personas. Los viajeros independientes deben solicitar el visado C-3."
+          "a": "Los pasaportes ordinarios que necesitan visa turística no son elegibles para K-ETA en esa visita. Si su pasaporte necesita visa para una visita normal a Corea continental, K-ETA no la sustituye ni se solicita además de la visa. La exención de K-ETA por edad no exime de visa. Los programas de grupos y Jeju tienen condiciones propias. Prueba: 2026-05-28 a 2026-12-31. Solo grupos de 3 o más captados por agencias indonesias designadas, máximo 15 días. Tres amigos independientes no cumplen. El socio coreano registra la lista en HiKorea 24 horas antes por avión o 36 por barco y obtiene revisión previa; el grupo entra y sale normalmente en el mismo vuelo o barco.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "¿Qué prueba financiera necesito?",
@@ -919,73 +1275,188 @@
         },
         {
           "q": "¿Cuánto cuesta la tasa?",
-          "a": "Las tasas varían y no se reembolsan aunque se deniegue. Confirme el importe actual en el centro."
+          "a": "Desde 2026-07-01: simple corta IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; múltiple IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Exprés y servicios opcionales aparte; consulte la tabla oficial vigente.",
+          "factId": "visa-indonesia-fees"
         },
         {
           "q": "¿Sigo necesitando la e-Arrival Card?",
-          "a": "Las normas de documentos de entrada como la e-Arrival Card pueden seguir aplicándose a la llegada. Consulte las normas vigentes cerca de la fecha de su viaje."
+          "a": "Los visitantes con visa de corta estancia deben completar e-Arrival Card salvo otra exención. Para grupos sin visa, consulte el navegador oficial y el organizador autorizado; la aprobación del grupo no sustituye automáticamente la declaración.",
+          "factId": "earrival-card-how"
         },
         {
           "q": "¿Pueden los indonesios visitar Jeju sin visado?",
-          "a": "La isla de Jeju cuenta con un programa de entrada sin visado (visa-free) independiente, abierto a muchas nacionalidades, válido solo para estancias en la isla. Consulta la lista de elegibilidad vigente antes de contar con ello, ya que las normas cambian."
+          "a": "Los turistas con pasaporte ordinario indonesio pueden usar el programa separado de Jeju hasta 30 días, llegando directamente del extranjero y permaneciendo en la isla. No cubre entrada por Corea continental. Ir al continente exige visa adecuada o permiso migratorio previo; la admisión se evalúa.",
+          "factId": "visa-indonesia-jeju"
         },
         {
           "q": "¿Cuánto tarda en tramitarse un visado para Corea?",
-          "a": "Una vez aceptados tus documentos, el trámite suele durar varios días hábiles, aunque varía según la temporada y el centro. Solicítalo con bastante antelación a tu viaje y confirma los plazos actuales en el lugar donde presentes la solicitud."
+          "a": "KVAC Yakarta estima: visa simple/doble 10 días hábiles, múltiple 7, C-3 exprés elegible 5. Incluye el día de solicitud, excluye festivos. Documentos o entrevistas adicionales pueden retrasar. La FAQ oficial no exige billetes ni reservas de hotel para evaluar la visa.",
+          "factId": "visa-indonesia-processing"
         },
         {
           "q": "¿Necesitan los niños su propio visado para Corea?",
           "a": "Sí: cada viajero, incluidos los niños, necesita su propio visado. La solicitud de un menor se presenta junto con los documentos justificativos de uno de los padres y una prueba del vínculo familiar."
+        },
+        {
+          "q": "K-ETA?",
+          "a": "Los pasaportes ordinarios que necesitan visa turística no son elegibles para K-ETA en esa visita. Si su pasaporte necesita visa para una visita normal a Corea continental, K-ETA no la sustituye ni se solicita además de la visa. La exención de K-ETA por edad no exime de visa. Los programas de grupos y Jeju tienen condiciones propias.",
+          "factId": "keta-visa-distinction"
+        },
+        {
+          "q": "Entrada múltiple?",
+          "a": "Los solicitantes elegibles pueden pedir visas múltiples de 5 o 10 años; KVAC indica 30 días por visita. La larga validez no implica residencia continua ni elegibilidad automática; confirme su categoría con KVAC.",
+          "factId": "visa-indonesia-multiple"
         }
       ]
+    },
+    "resources": {
+      "title": "Fuente oficial",
+      "intro": "Los pasaportes ordinarios que necesitan visa turística no son elegibles para K-ETA en esa visita. Si su pasaporte necesita visa para una visita normal a Corea continental, K-ETA no la sustituye ni se solicita además de la visa. La exención de K-ETA por edad no exime de visa. Los programas de grupos y Jeju tienen condiciones propias.",
+      "items": [
+        {
+          "label": "Fuente oficial · Korea Visa Portal",
+          "src": "www.visa.go.kr",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "label": "Fuente oficial · KVAC Jakarta",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location"
+        },
+        {
+          "label": "Fuente oficial · KVAC · IDR",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee"
+        },
+        {
+          "label": "Fuente oficial · KVAC · FAQ",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/customer/faq"
+        },
+        {
+          "label": "Fuente oficial · B-2 · Indonesia",
+          "src": "immigration.go.kr",
+          "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do"
+        },
+        {
+          "label": "Fuente oficial · C-3-2",
+          "src": "www.moj.go.kr",
+          "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "📄",
+        "name": "Fuente oficial · Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "Los pasaportes ordinarios que necesitan visa turística no son elegibles para K-ETA en esa visita. Si su pasaporte necesita visa para una visita normal a Corea continental, K-ETA no la sustituye ni se solicita además de la visa. La exención de K-ETA por edad no exime de visa. Los programas de grupos y Jeju tienen condiciones propias."
+      },
+      {
+        "icon": "🏢",
+        "name": "Fuente oficial · KVAC Jakarta",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
+        "what": "Los pasaportes ordinarios que necesitan visa turística no son elegibles para K-ETA en esa visita. Si su pasaporte necesita visa para una visita normal a Corea continental, K-ETA no la sustituye ni se solicita además de la visa. La exención de K-ETA por edad no exime de visa. Los programas de grupos y Jeju tienen condiciones propias."
+      },
+      {
+        "icon": "🏢",
+        "name": "Fuente oficial · KVAC · IDR",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
+        "what": "Desde 2026-07-01: simple corta IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; múltiple IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Exprés y servicios opcionales aparte; consulte la tabla oficial vigente."
+      },
+      {
+        "icon": "🏢",
+        "name": "Fuente oficial · KVAC · FAQ",
+        "url": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+        "what": "KVAC Yakarta estima: visa simple/doble 10 días hábiles, múltiple 7, C-3 exprés elegible 5. Incluye el día de solicitud, excluye festivos. Documentos o entrevistas adicionales pueden retrasar. La FAQ oficial no exige billetes ni reservas de hotel para evaluar la visa."
+      },
+      {
+        "icon": "🏢",
+        "name": "Fuente oficial · B-2 · Indonesia",
+        "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
+        "what": "Prueba: 2026-05-28 a 2026-12-31. Solo grupos de 3 o más captados por agencias indonesias designadas, máximo 15 días. Tres amigos independientes no cumplen. El socio coreano registra la lista en HiKorea 24 horas antes por avión o 36 por barco y obtiene revisión previa; el grupo entra y sale normalmente en el mismo vuelo o barco."
+      },
+      {
+        "icon": "🏢",
+        "name": "Fuente oficial · C-3-2",
+        "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
+        "what": "Los visados de grupo C-3-2 elegibles de China, Vietnam, Filipinas, Indonesia, India y Camboya están exentos de la tasa de expedición USD 15 hasta 2026-12-31. No supone entrada sin visa ni exención de tasas individuales, agencias o servicios."
+      }
+    ],
+    "factValueLabels": {
+      "C-3": "Turista C-3 (individual)",
+      "Visa grant; designated group: 15 days": "Visa: según la autorización expedida; grupo designado: 15 días",
+      "KVAC Jakarta": "KVAC Jakarta"
+    },
+    "h1": "Visado de Corea para ciudadanos indonesios",
+    "ui": {
+      "visa": "Tipo de visado",
+      "stay": "Duración de la estancia",
+      "entry": "Número de entradas",
+      "where": "Dónde obtenerlo",
+      "official": "Fuente oficial",
+      "required": "Obligatorio",
+      "conditional": "Si corresponde",
+      "recommended": "Recomendado",
+      "confirm": "Las tasas y normas pueden cambiar — confirme en las fuentes oficiales",
+      "source": "Fuente",
+      "updated": "Actualizado",
+      "tldr": "RESUMEN"
+    },
+    "applicationOffice": {
+      "factId": "kvac-jakarta-location",
+      "title": "KVAC Jakarta"
     }
   },
   "th": {
+    "_README": "Per-nationality visa deep-dive: Indonesia → Korea. Grounded in official channels (Embassy of Korea in Indonesia, Korea Visa Portal) + 2026 immigration briefings. Fee/processing VOLATILE (factId visa-indonesia-c3). No invented figures.",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "code": "indonesia",
+    "factId": "visa-indonesia-c3",
+    "metaTitle": "วีซ่าเข้าเกาหลีจากอินโดนีเซีย: ต้องใช้ไหม? (2026) — Korea Trip Hub",
+    "metaDesc": "วีซ่าเกาหลีสำหรับพลเมืองอินโดนีเซีย · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "คู่มือวีซ่า · อินโดนีเซีย → เกาหลี",
     "readingTime": "อ่าน 8 นาที",
-    "h1": "วีซ่าเกาหลีสำหรับพลเมืองอินโดนีเซีย",
-    "metaTitle": "วีซ่าเข้าเกาหลีจากอินโดนีเซีย: ต้องใช้ไหม? (2026) — Korea Trip Hub",
-    "metaDesc": "ผู้ถือหนังสือเดินทางอินโดนีเซียต้องใช้วีซ่าเข้าเกาหลีใต้ไหม? นักท่องเที่ยวรายบุคคลต้องใช้วีซ่า C-3 (กรุ๊ปอาจได้รับการยกเว้นวีซ่าตั้งแต่ปี 2026) ที่ที่ต้องยื่นขอ เอกสารและแหล่งที่หาได้แต่ละอย่าง ค่าธรรมเนียม และระยะเวลาดำเนินการ",
-    "ui": {
-      "visa": "ประเภทวีซ่า",
-      "stay": "ระยะเวลาพำนัก",
-      "entry": "จำนวนครั้งเข้าประเทศ",
-      "where": "รับได้ที่ไหน",
-      "official": "แหล่งข้อมูลทางการ",
-      "required": "จำเป็น",
-      "conditional": "หากเข้าข่าย",
-      "recommended": "แนะนำ",
-      "confirm": "ค่าธรรมเนียม/กฎอาจเปลี่ยนแปลง — โปรดยืนยันจากแหล่งข้อมูลทางการ",
-      "source": "แหล่งที่มา",
-      "updated": "อัปเดตเมื่อ",
-      "tldr": "สรุป"
+    "updated": "2026-10-05",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Arrivals at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
     },
     "verdict": {
       "headline": "นักท่องเที่ยวรายบุคคลชาวอินโดนีเซียต้องใช้วีซ่า — แต่คณะทัวร์อาจไม่ต้อง",
-      "sub": "สำหรับการเดินทางด้วยตนเองไปยังเกาหลีแผ่นดินใหญ่ คุณต้องยื่นขอวีซ่าท่องเที่ยว C-3 ตั้งแต่วันที่ 28 พฤษภาคม 2026 คณะทัวร์ตั้งแต่ 3 คนขึ้นไปสามารถเข้าประเทศได้โดยไม่ต้องมีวีซ่าสำหรับการพำนักระยะสั้นภายใต้โครงการนำร่อง ส่วนบุคคลทั่วไปยังไม่มีสิทธิ์",
+      "sub": "หนังสือเดินทางทั่วไปที่ต้องขอวีซ่าท่องเที่ยวไม่มีสิทธิ์ขอ K-ETA สำหรับการเดินทางนั้น หากหนังสือเดินทางต้องมีวีซ่าสำหรับการเยือนแผ่นดินใหญ่เกาหลีตามปกติ K-ETA ไม่สามารถใช้แทนและไม่ต้องสมัครเพิ่มหลังได้วีซ่า การยกเว้น K-ETA ตามอายุไม่ใช่การยกเว้นวีซ่า โครงการกรุ๊ปและเชจูมีเงื่อนไขแยกกัน",
       "type": "ท่องเที่ยว C-3 (รายบุคคล)",
-      "stay": "สูงสุด 90 วัน",
-      "entry": "เข้าประเทศครั้งเดียว (รายบุคคล) / ยกเว้นวีซ่าสำหรับคณะที่มีคุณสมบัติ"
+      "stay": "วีซ่า: ตามที่ได้รับอนุมัติ; กรุ๊ปที่แต่งตั้ง: 15 วัน",
+      "entry": "C-3 / B-2"
     },
     "highlights": [
       {
         "icon": "👥",
         "tone": "green",
-        "title": "ยกเว้นวีซ่าสำหรับคณะทัวร์ตั้งแต่ 28 พฤษภาคม 2026",
-        "body": "คณะทัวร์อินโดนีเซียที่มีอย่างน้อย 3 คนสามารถเข้าประเทศได้โดยไม่ต้องมีวีซ่าสำหรับการพำนักระยะสั้นภายใต้โครงการนำร่อง ใช้ได้เฉพาะแบบคณะเท่านั้น — นักท่องเที่ยวรายบุคคลยังคงต้องใช้วีซ่า"
+        "title": "โครงการกรุ๊ป",
+        "body": "ทดลอง 2026-05-28 ถึง 2026-12-31 เฉพาะกรุ๊ปอย่างน้อย 3 คนที่บริษัทอินโดนีเซียซึ่งได้รับแต่งตั้งจัด พำนักสูงสุด 15 วัน เพื่อน 3 คนเที่ยวเองไม่เข้าเกณฑ์ บริษัทคู่ค้าเกาหลีลงทะเบียน HiKorea ก่อนถึงทางอากาศ 24 ชั่วโมงหรือทางเรือ 36 ชั่วโมงและผ่านตรวจล่วงหน้า โดยหลักต้องเข้าออกพร้อมกันด้วยเที่ยวบินหรือเรือเดียวกัน"
       },
       {
         "icon": "🏝️",
         "tone": "amber",
         "title": "เกาะ Jeju — การยกเว้นวีซ่าแยกต่างหาก",
-        "body": "พลเมืองอินโดนีเซียสามารถเข้า Jeju ได้โดยไม่ต้องมีวีซ่า (เฉพาะ Jeju เที่ยวบินตรง ไม่ต่อเครื่องเข้าแผ่นดินใหญ่) ซึ่งแยกจากวีซ่าท่องเที่ยวแผ่นดินใหญ่"
+        "body": "ผู้ถือหนังสือเดินทางธรรมดาอินโดนีเซียอาจใช้โครงการเชจูแยกต่างหากสูงสุด 30 วัน ต้องมาจากต่างประเทศตรงเข้าเชจูและอยู่เฉพาะเกาะ ไม่ครอบคลุมการเข้าผ่านแผ่นดินใหญ่ การไปแผ่นดินใหญ่ต้องมีวีซ่าหรืออนุญาตล่วงหน้าและผ่านตรวจเข้าเมือง"
+      },
+      {
+        "icon": "🗓️",
+        "tone": "blue",
+        "title": "วีซ่าหลายครั้ง",
+        "body": "ผู้เข้าเกณฑ์สมัครวีซ่าหลายครั้ง 5 หรือ 10 ปีได้ ตาราง KVAC ระบุพำนักครั้งละ 30 วัน อายุวีซ่ายาวไม่ใช่การพำนักต่อเนื่องหรือได้สิทธิอัตโนมัติ ตรวจประเภทกับ KVAC"
       }
     ],
     "tldr": [
       "นักท่องเที่ยวที่เดินทางด้วยตนเองต้องใช้วีซ่าท่องเที่ยว C-3 สำหรับเกาหลีแผ่นดินใหญ่",
       "กรอกแบบฟอร์มที่ visa.go.kr แล้วยื่นที่สถานทูตเกาหลี / KVAC Jakarta",
       "นำหนังสือเดินทาง รูปถ่าย รายการเดินบัญชีธนาคาร 3 เดือน หนังสือรับรองการทำงาน + สลิปเงินเดือนมาด้วย",
-      "เดินทางเป็นคณะตั้งแต่ 3 คนขึ้นไปใช่ไหม? คุณอาจมีสิทธิ์เข้าประเทศโดยไม่ต้องมีวีซ่า (โครงการนำร่องตั้งแต่พฤษภาคม 2026)"
+      "ทดลอง 2026-05-28 ถึง 2026-12-31 เฉพาะกรุ๊ปอย่างน้อย 3 คนที่บริษัทอินโดนีเซียซึ่งได้รับแต่งตั้งจัด พำนักสูงสุด 15 วัน เพื่อน 3 คนเที่ยวเองไม่เข้าเกณฑ์ บริษัทคู่ค้าเกาหลีลงทะเบียน HiKorea ก่อนถึงทางอากาศ 24 ชั่วโมงหรือทางเรือ 36 ชั่วโมงและผ่านตรวจล่วงหน้า โดยหลักต้องเข้าออกพร้อมกันด้วยเที่ยวบินหรือเรือเดียวกัน"
     ],
     "steps": {
       "title": "ขั้นตอนการยื่นขอทีละขั้น (C-3 รายบุคคล)",
@@ -993,7 +1464,7 @@
         {
           "n": 1,
           "title": "ยืนยันประเภทวีซ่า",
-          "detail": "นักท่องเที่ยวที่เดินทางด้วยตนเองยื่นขอวีซ่าท่องเที่ยวระยะสั้น C-3 (คณะตั้งแต่ 3 คนขึ้นไปควรสอบถามบริษัททัวร์เกี่ยวกับโครงการนำร่องยกเว้นวีซ่า)"
+          "detail": "หนังสือเดินทางทั่วไปที่ต้องขอวีซ่าท่องเที่ยวไม่มีสิทธิ์ขอ K-ETA สำหรับการเดินทางนั้น หากหนังสือเดินทางต้องมีวีซ่าสำหรับการเยือนแผ่นดินใหญ่เกาหลีตามปกติ K-ETA ไม่สามารถใช้แทนและไม่ต้องสมัครเพิ่มหลังได้วีซ่า การยกเว้น K-ETA ตามอายุไม่ใช่การยกเว้นวีซ่า โครงการกรุ๊ปและเชจูมีเงื่อนไขแยกกัน ทดลอง 2026-05-28 ถึง 2026-12-31 เฉพาะกรุ๊ปอย่างน้อย 3 คนที่บริษัทอินโดนีเซียซึ่งได้รับแต่งตั้งจัด พำนักสูงสุด 15 วัน เพื่อน 3 คนเที่ยวเองไม่เข้าเกณฑ์ บริษัทคู่ค้าเกาหลีลงทะเบียน HiKorea ก่อนถึงทางอากาศ 24 ชั่วโมงหรือทางเรือ 36 ชั่วโมงและผ่านตรวจล่วงหน้า โดยหลักต้องเข้าออกพร้อมกันด้วยเที่ยวบินหรือเรือเดียวกัน"
         },
         {
           "n": 2,
@@ -1015,12 +1486,12 @@
         {
           "n": 5,
           "title": "ชำระค่าธรรมเนียม",
-          "detail": "ชำระค่าธรรมเนียมวีซ่าและค่าบริการ ค่าธรรมเนียมไม่สามารถขอคืนได้แม้ถูกปฏิเสธ — ยืนยันจำนวนเงินที่ศูนย์"
+          "detail": "ตั้งแต่ 2026-07-01 วีซ่าระยะสั้นครั้งเดียว IDR 680,000 + KVAC IDR 240,000 = IDR 920,000 หลายครั้ง IDR 1,530,000 + IDR 240,000 = IDR 1,770,000 แบบด่วนและบริการเสริมคิดเพิ่ม ตรวจตารางทางการล่าสุด"
         },
         {
           "n": 6,
           "title": "ติดตามและรอ",
-          "detail": "ติดตามสถานะผ่านช่องทางของศูนย์ อย่าซื้อตั๋วเครื่องบินที่คืนเงินไม่ได้ก่อนได้รับอนุมัติ"
+          "detail": "KVAC จาการ์ตาคาดการณ์วีซ่าครั้งเดียว/สองครั้ง 10 วันทำการ หลายครั้ง 7 แบบด่วน C-3 ที่เข้าเกณฑ์ 5 รวมวันยื่น ไม่รวมวันหยุด เอกสารเพิ่มเติมหรือสัมภาษณ์อาจทำให้ช้าลง FAQ ทางการระบุว่าตั๋วเครื่องบินและการจองโรงแรมไม่จำเป็นสำหรับการพิจารณาวีซ่า"
         },
         {
           "n": 7,
@@ -1077,9 +1548,9 @@
         },
         {
           "doc": "การจองตั๋วเครื่องบินไป-กลับและโรงแรม",
-          "req": "required",
+          "req": "recommended",
           "where": "สายการบิน / เว็บไซต์จอง",
-          "how": "การจอง/กำหนดการเดินทางก็เพียงพอ — อย่าชำระค่าตั๋วก่อนได้รับอนุมัติ"
+          "how": "KVAC จาการ์ตาคาดการณ์วีซ่าครั้งเดียว/สองครั้ง 10 วันทำการ หลายครั้ง 7 แบบด่วน C-3 ที่เข้าเกณฑ์ 5 รวมวันยื่น ไม่รวมวันหยุด เอกสารเพิ่มเติมหรือสัมภาษณ์อาจทำให้ช้าลง FAQ ทางการระบุว่าตั๋วเครื่องบินและการจองโรงแรมไม่จำเป็นสำหรับการพิจารณาวีซ่า"
         },
         {
           "doc": "หนังสือรับรองผู้สนับสนุน (หากมีผู้อื่นออกค่าใช้จ่าย)",
@@ -1109,7 +1580,7 @@
         {
           "icon": "🧍",
           "t": "คิดว่าเดินทางคนเดียว = ไม่ต้องมีวีซ่า",
-          "d": "โครงการนำร่องยกเว้นวีซ่าใช้เฉพาะแบบคณะ (3 คนขึ้นไป) นักท่องเที่ยวรายบุคคลยังคงต้องใช้วีซ่า C-3"
+          "d": "ทดลอง 2026-05-28 ถึง 2026-12-31 เฉพาะกรุ๊ปอย่างน้อย 3 คนที่บริษัทอินโดนีเซียซึ่งได้รับแต่งตั้งจัด พำนักสูงสุด 15 วัน เพื่อน 3 คนเที่ยวเองไม่เข้าเกณฑ์ บริษัทคู่ค้าเกาหลีลงทะเบียน HiKorea ก่อนถึงทางอากาศ 24 ชั่วโมงหรือทางเรือ 36 ชั่วโมงและผ่านตรวจล่วงหน้า โดยหลักต้องเข้าออกพร้อมกันด้วยเที่ยวบินหรือเรือเดียวกัน"
         },
         {
           "icon": "💸",
@@ -1138,11 +1609,13 @@
       "items": [
         {
           "q": "ชาวอินโดนีเซียต้องใช้วีซ่าไปเกาหลีหรือไม่?",
-          "a": "นักท่องเที่ยวรายบุคคลต้องใช้วีซ่าท่องเที่ยว C-3 สำหรับเกาหลีแผ่นดินใหญ่ ตั้งแต่วันที่ 28 พฤษภาคม 2026 คณะทัวร์ตั้งแต่ 3 คนขึ้นไปสามารถเข้าประเทศได้โดยไม่ต้องมีวีซ่าภายใต้โครงการนำร่อง ส่วนเกาะ Jeju มีการยกเว้นวีซ่าแยกต่างหาก"
+          "a": "หนังสือเดินทางทั่วไปที่ต้องขอวีซ่าท่องเที่ยวไม่มีสิทธิ์ขอ K-ETA สำหรับการเดินทางนั้น หากหนังสือเดินทางต้องมีวีซ่าสำหรับการเยือนแผ่นดินใหญ่เกาหลีตามปกติ K-ETA ไม่สามารถใช้แทนและไม่ต้องสมัครเพิ่มหลังได้วีซ่า การยกเว้น K-ETA ตามอายุไม่ใช่การยกเว้นวีซ่า โครงการกรุ๊ปและเชจูมีเงื่อนไขแยกกัน ทดลอง 2026-05-28 ถึง 2026-12-31 เฉพาะกรุ๊ปอย่างน้อย 3 คนที่บริษัทอินโดนีเซียซึ่งได้รับแต่งตั้งจัด พำนักสูงสุด 15 วัน เพื่อน 3 คนเที่ยวเองไม่เข้าเกณฑ์ บริษัทคู่ค้าเกาหลีลงทะเบียน HiKorea ก่อนถึงทางอากาศ 24 ชั่วโมงหรือทางเรือ 36 ชั่วโมงและผ่านตรวจล่วงหน้า โดยหลักต้องเข้าออกพร้อมกันด้วยเที่ยวบินหรือเรือเดียวกัน",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "ฉันเดินทางคนเดียว — ข้ามการขอวีซ่าได้ไหม?",
-          "a": "ไม่ได้ โครงการนำร่องยกเว้นวีซ่าใช้เฉพาะคณะที่มีอย่างน้อย 3 คน นักท่องเที่ยวที่เดินทางด้วยตนเองต้องยื่นขอวีซ่า C-3"
+          "a": "หนังสือเดินทางทั่วไปที่ต้องขอวีซ่าท่องเที่ยวไม่มีสิทธิ์ขอ K-ETA สำหรับการเดินทางนั้น หากหนังสือเดินทางต้องมีวีซ่าสำหรับการเยือนแผ่นดินใหญ่เกาหลีตามปกติ K-ETA ไม่สามารถใช้แทนและไม่ต้องสมัครเพิ่มหลังได้วีซ่า การยกเว้น K-ETA ตามอายุไม่ใช่การยกเว้นวีซ่า โครงการกรุ๊ปและเชจูมีเงื่อนไขแยกกัน ทดลอง 2026-05-28 ถึง 2026-12-31 เฉพาะกรุ๊ปอย่างน้อย 3 คนที่บริษัทอินโดนีเซียซึ่งได้รับแต่งตั้งจัด พำนักสูงสุด 15 วัน เพื่อน 3 คนเที่ยวเองไม่เข้าเกณฑ์ บริษัทคู่ค้าเกาหลีลงทะเบียน HiKorea ก่อนถึงทางอากาศ 24 ชั่วโมงหรือทางเรือ 36 ชั่วโมงและผ่านตรวจล่วงหน้า โดยหลักต้องเข้าออกพร้อมกันด้วยเที่ยวบินหรือเรือเดียวกัน",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "ต้องใช้หลักฐานทางการเงินอะไรบ้าง?",
@@ -1154,73 +1627,188 @@
         },
         {
           "q": "ค่าธรรมเนียมเท่าไหร่?",
-          "a": "ค่าธรรมเนียมแตกต่างกันไปและไม่สามารถขอคืนได้แม้ถูกปฏิเสธ ยืนยันจำนวนเงินปัจจุบันที่ศูนย์"
+          "a": "ตั้งแต่ 2026-07-01 วีซ่าระยะสั้นครั้งเดียว IDR 680,000 + KVAC IDR 240,000 = IDR 920,000 หลายครั้ง IDR 1,530,000 + IDR 240,000 = IDR 1,770,000 แบบด่วนและบริการเสริมคิดเพิ่ม ตรวจตารางทางการล่าสุด",
+          "factId": "visa-indonesia-fees"
         },
         {
           "q": "ยังต้องใช้ e-Arrival Card อยู่หรือไม่?",
-          "a": "กฎเกี่ยวกับเอกสารเข้าประเทศเช่น e-Arrival Card อาจยังมีผลบังคับใช้เมื่อเดินทางถึง ตรวจสอบกฎปัจจุบันใกล้วันเดินทางของคุณ"
+          "a": "ผู้เข้าประเทศด้วยวีซ่าระยะสั้นต้องกรอก e-Arrival Card เว้นแต่เข้าเกณฑ์ยกเว้นอื่น สำหรับกรุ๊ปยกเว้นวีซ่าให้ตรวจสอบคำแนะนำทางการและบริษัทที่ได้รับแต่งตั้ง อย่าถือว่าการอนุมัติกรุ๊ปแทนใบแจ้งเข้าเมือง",
+          "factId": "earrival-card-how"
         },
         {
           "q": "ชาวอินโดนีเซียสามารถไปเที่ยวเกาะเชจูโดยไม่ต้องมีวีซ่าได้หรือไม่?",
-          "a": "เกาะเชจู (Jeju Island) มีโครงการเข้าเมืองแบบยกเว้นวีซ่า (visa-free) แยกต่างหากซึ่งเปิดให้หลายสัญชาติ แต่ใช้ได้เฉพาะการพำนักบนเกาะเท่านั้น เนื่องจากกฎเกณฑ์มีการเปลี่ยนแปลง โปรดตรวจสอบรายชื่อผู้มีสิทธิ์ล่าสุดก่อนยึดถือเป็นหลัก"
+          "a": "ผู้ถือหนังสือเดินทางธรรมดาอินโดนีเซียอาจใช้โครงการเชจูแยกต่างหากสูงสุด 30 วัน ต้องมาจากต่างประเทศตรงเข้าเชจูและอยู่เฉพาะเกาะ ไม่ครอบคลุมการเข้าผ่านแผ่นดินใหญ่ การไปแผ่นดินใหญ่ต้องมีวีซ่าหรืออนุญาตล่วงหน้าและผ่านตรวจเข้าเมือง",
+          "factId": "visa-indonesia-jeju"
         },
         {
           "q": "การขอวีซ่าเกาหลีใช้เวลาดำเนินการนานเท่าใด?",
-          "a": "เมื่อเอกสารได้รับการตอบรับแล้ว การดำเนินการมักใช้เวลาหลายวันทำการ แต่อาจแตกต่างกันไปตามฤดูกาลและตามศูนย์รับคำร้อง ควรยื่นล่วงหน้าก่อนการเดินทางพอสมควร และตรวจสอบระยะเวลาดำเนินการปัจจุบัน ณ จุดที่คุณยื่น"
+          "a": "KVAC จาการ์ตาคาดการณ์วีซ่าครั้งเดียว/สองครั้ง 10 วันทำการ หลายครั้ง 7 แบบด่วน C-3 ที่เข้าเกณฑ์ 5 รวมวันยื่น ไม่รวมวันหยุด เอกสารเพิ่มเติมหรือสัมภาษณ์อาจทำให้ช้าลง FAQ ทางการระบุว่าตั๋วเครื่องบินและการจองโรงแรมไม่จำเป็นสำหรับการพิจารณาวีซ่า",
+          "factId": "visa-indonesia-processing"
         },
         {
           "q": "เด็กจำเป็นต้องมีวีซ่าเกาหลีของตนเองหรือไม่?",
           "a": "จำเป็น — ผู้เดินทางทุกคนรวมถึงเด็กต้องมีวีซ่าของตนเอง คำร้องของผู้เยาว์จะยื่นพร้อมเอกสารประกอบของผู้ปกครองและหลักฐานความสัมพันธ์ในครอบครัว"
+        },
+        {
+          "q": "K-ETA?",
+          "a": "หนังสือเดินทางทั่วไปที่ต้องขอวีซ่าท่องเที่ยวไม่มีสิทธิ์ขอ K-ETA สำหรับการเดินทางนั้น หากหนังสือเดินทางต้องมีวีซ่าสำหรับการเยือนแผ่นดินใหญ่เกาหลีตามปกติ K-ETA ไม่สามารถใช้แทนและไม่ต้องสมัครเพิ่มหลังได้วีซ่า การยกเว้น K-ETA ตามอายุไม่ใช่การยกเว้นวีซ่า โครงการกรุ๊ปและเชจูมีเงื่อนไขแยกกัน",
+          "factId": "keta-visa-distinction"
+        },
+        {
+          "q": "วีซ่าหลายครั้ง?",
+          "a": "ผู้เข้าเกณฑ์สมัครวีซ่าหลายครั้ง 5 หรือ 10 ปีได้ ตาราง KVAC ระบุพำนักครั้งละ 30 วัน อายุวีซ่ายาวไม่ใช่การพำนักต่อเนื่องหรือได้สิทธิอัตโนมัติ ตรวจประเภทกับ KVAC",
+          "factId": "visa-indonesia-multiple"
         }
       ]
+    },
+    "resources": {
+      "title": "แหล่งข้อมูลทางการ",
+      "intro": "หนังสือเดินทางทั่วไปที่ต้องขอวีซ่าท่องเที่ยวไม่มีสิทธิ์ขอ K-ETA สำหรับการเดินทางนั้น หากหนังสือเดินทางต้องมีวีซ่าสำหรับการเยือนแผ่นดินใหญ่เกาหลีตามปกติ K-ETA ไม่สามารถใช้แทนและไม่ต้องสมัครเพิ่มหลังได้วีซ่า การยกเว้น K-ETA ตามอายุไม่ใช่การยกเว้นวีซ่า โครงการกรุ๊ปและเชจูมีเงื่อนไขแยกกัน",
+      "items": [
+        {
+          "label": "แหล่งข้อมูลทางการ · Korea Visa Portal",
+          "src": "www.visa.go.kr",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "label": "แหล่งข้อมูลทางการ · KVAC Jakarta",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location"
+        },
+        {
+          "label": "แหล่งข้อมูลทางการ · KVAC · IDR",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee"
+        },
+        {
+          "label": "แหล่งข้อมูลทางการ · KVAC · FAQ",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/customer/faq"
+        },
+        {
+          "label": "แหล่งข้อมูลทางการ · B-2 · Indonesia",
+          "src": "immigration.go.kr",
+          "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do"
+        },
+        {
+          "label": "แหล่งข้อมูลทางการ · C-3-2",
+          "src": "www.moj.go.kr",
+          "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "📄",
+        "name": "แหล่งข้อมูลทางการ · Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "หนังสือเดินทางทั่วไปที่ต้องขอวีซ่าท่องเที่ยวไม่มีสิทธิ์ขอ K-ETA สำหรับการเดินทางนั้น หากหนังสือเดินทางต้องมีวีซ่าสำหรับการเยือนแผ่นดินใหญ่เกาหลีตามปกติ K-ETA ไม่สามารถใช้แทนและไม่ต้องสมัครเพิ่มหลังได้วีซ่า การยกเว้น K-ETA ตามอายุไม่ใช่การยกเว้นวีซ่า โครงการกรุ๊ปและเชจูมีเงื่อนไขแยกกัน"
+      },
+      {
+        "icon": "🏢",
+        "name": "แหล่งข้อมูลทางการ · KVAC Jakarta",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
+        "what": "หนังสือเดินทางทั่วไปที่ต้องขอวีซ่าท่องเที่ยวไม่มีสิทธิ์ขอ K-ETA สำหรับการเดินทางนั้น หากหนังสือเดินทางต้องมีวีซ่าสำหรับการเยือนแผ่นดินใหญ่เกาหลีตามปกติ K-ETA ไม่สามารถใช้แทนและไม่ต้องสมัครเพิ่มหลังได้วีซ่า การยกเว้น K-ETA ตามอายุไม่ใช่การยกเว้นวีซ่า โครงการกรุ๊ปและเชจูมีเงื่อนไขแยกกัน"
+      },
+      {
+        "icon": "🏢",
+        "name": "แหล่งข้อมูลทางการ · KVAC · IDR",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
+        "what": "ตั้งแต่ 2026-07-01 วีซ่าระยะสั้นครั้งเดียว IDR 680,000 + KVAC IDR 240,000 = IDR 920,000 หลายครั้ง IDR 1,530,000 + IDR 240,000 = IDR 1,770,000 แบบด่วนและบริการเสริมคิดเพิ่ม ตรวจตารางทางการล่าสุด"
+      },
+      {
+        "icon": "🏢",
+        "name": "แหล่งข้อมูลทางการ · KVAC · FAQ",
+        "url": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+        "what": "KVAC จาการ์ตาคาดการณ์วีซ่าครั้งเดียว/สองครั้ง 10 วันทำการ หลายครั้ง 7 แบบด่วน C-3 ที่เข้าเกณฑ์ 5 รวมวันยื่น ไม่รวมวันหยุด เอกสารเพิ่มเติมหรือสัมภาษณ์อาจทำให้ช้าลง FAQ ทางการระบุว่าตั๋วเครื่องบินและการจองโรงแรมไม่จำเป็นสำหรับการพิจารณาวีซ่า"
+      },
+      {
+        "icon": "🏢",
+        "name": "แหล่งข้อมูลทางการ · B-2 · Indonesia",
+        "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
+        "what": "ทดลอง 2026-05-28 ถึง 2026-12-31 เฉพาะกรุ๊ปอย่างน้อย 3 คนที่บริษัทอินโดนีเซียซึ่งได้รับแต่งตั้งจัด พำนักสูงสุด 15 วัน เพื่อน 3 คนเที่ยวเองไม่เข้าเกณฑ์ บริษัทคู่ค้าเกาหลีลงทะเบียน HiKorea ก่อนถึงทางอากาศ 24 ชั่วโมงหรือทางเรือ 36 ชั่วโมงและผ่านตรวจล่วงหน้า โดยหลักต้องเข้าออกพร้อมกันด้วยเที่ยวบินหรือเรือเดียวกัน"
+      },
+      {
+        "icon": "🏢",
+        "name": "แหล่งข้อมูลทางการ · C-3-2",
+        "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
+        "what": "วีซ่ากรุ๊ป C-3-2 ที่เข้าเกณฑ์ของจีน เวียดนาม ฟิลิปปินส์ อินโดนีเซีย อินเดีย และกัมพูชาได้รับยกเว้นค่าธรรมเนียมออกวีซ่า USD 15 ถึง 2026-12-31 ไม่ใช่การยกเว้นวีซ่าหรือค่าธรรมเนียมวีซ่ารายบุคคล นายหน้า และบริการ"
+      }
+    ],
+    "factValueLabels": {
+      "C-3": "ท่องเที่ยว C-3 (รายบุคคล)",
+      "Visa grant; designated group: 15 days": "วีซ่า: ตามที่ได้รับอนุมัติ; กรุ๊ปที่แต่งตั้ง: 15 วัน",
+      "KVAC Jakarta": "KVAC Jakarta"
+    },
+    "h1": "วีซ่าเกาหลีสำหรับพลเมืองอินโดนีเซีย",
+    "ui": {
+      "visa": "ประเภทวีซ่า",
+      "stay": "ระยะเวลาพำนัก",
+      "entry": "จำนวนครั้งเข้าประเทศ",
+      "where": "รับได้ที่ไหน",
+      "official": "แหล่งข้อมูลทางการ",
+      "required": "จำเป็น",
+      "conditional": "หากเข้าข่าย",
+      "recommended": "แนะนำ",
+      "confirm": "ค่าธรรมเนียม/กฎอาจเปลี่ยนแปลง — โปรดยืนยันจากแหล่งข้อมูลทางการ",
+      "source": "แหล่งที่มา",
+      "updated": "อัปเดตเมื่อ",
+      "tldr": "สรุป"
+    },
+    "applicationOffice": {
+      "factId": "kvac-jakarta-location",
+      "title": "KVAC Jakarta"
     }
   },
   "ms": {
+    "_README": "Per-nationality visa deep-dive: Indonesia → Korea. Grounded in official channels (Embassy of Korea in Indonesia, Korea Visa Portal) + 2026 immigration briefings. Fee/processing VOLATILE (factId visa-indonesia-c3). No invented figures.",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "code": "indonesia",
+    "factId": "visa-indonesia-c3",
+    "metaTitle": "Visa Indonesia ke Korea: Adakah Anda Memerlukannya? (2026) — Korea Trip Hub",
+    "metaDesc": "Visa Korea untuk warganegara Indonesia · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "Panduan visa · Indonesia → Korea",
     "readingTime": "bacaan 8 minit",
-    "h1": "Visa Korea untuk warganegara Indonesia",
-    "metaTitle": "Visa Indonesia ke Korea: Adakah Anda Memerlukannya? (2026) — Korea Trip Hub",
-    "metaDesc": "Adakah pemegang pasport Indonesia memerlukan visa untuk Korea Selatan? Pelancong individu memerlukan visa C-3 (kumpulan mungkin bebas visa mulai 2026). Di mana untuk memohon, dokumen dan di mana untuk mendapatkan setiapnya, yuran dan masa pemprosesan.",
-    "ui": {
-      "visa": "Jenis visa",
-      "stay": "Tempoh tinggal",
-      "entry": "Bilangan masuk",
-      "where": "Di mana mendapatkannya",
-      "official": "Sumber rasmi",
-      "required": "Wajib",
-      "conditional": "Jika berkenaan",
-      "recommended": "Disyorkan",
-      "confirm": "Yuran/peraturan boleh berubah — sila sahkan di sumber rasmi",
-      "source": "Sumber",
-      "updated": "Dikemas kini",
-      "tldr": "RINGKASAN"
+    "updated": "2026-10-05",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Arrivals at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
     },
     "verdict": {
       "headline": "Pengembara individu Indonesia memerlukan visa — tetapi kumpulan mungkin tidak.",
-      "sub": "Untuk perjalanan sendiri ke tanah besar Korea, anda memohon visa pelancong C-3. Sejak 28 Mei 2026, kumpulan pelancong seramai 3 orang atau lebih boleh masuk tanpa visa untuk tinggal singkat melalui skim perintis; individu belum layak lagi.",
+      "sub": "Pasport biasa yang memerlukan visa pelancong tidak layak memohon K-ETA untuk lawatan tersebut. Jika pasport memerlukan visa untuk lawatan biasa ke tanah besar Korea, K-ETA tidak boleh menggantikan visa dan tidak perlu dipohon selepas visa dikeluarkan. Pengecualian umur K-ETA bukan pengecualian visa. Program kumpulan dan Jeju mempunyai syarat berasingan.",
       "type": "Pelancong C-3 (individu)",
-      "stay": "Sehingga 90 hari",
-      "entry": "Sekali masuk (individu) / pengecualian visa untuk kumpulan yang layak"
+      "stay": "Visa: ikut kelulusan dikeluarkan; kumpulan dilantik: 15 hari",
+      "entry": "C-3 / B-2"
     },
     "highlights": [
       {
         "icon": "👥",
         "tone": "green",
-        "title": "Pengecualian visa untuk kumpulan mulai 28 Mei 2026",
-        "body": "Kumpulan pelancong Indonesia yang terdiri daripada sekurang-kurangnya 3 orang boleh masuk tanpa visa untuk tinggal singkat melalui skim perintis. Ia hanya untuk kumpulan — pengembara individu masih memerlukan visa."
+        "title": "Program kumpulan",
+        "body": "Percubaan: 2026-05-28 hingga 2026-12-31. Hanya kumpulan sekurang-kurangnya 3 orang melalui agensi Indonesia dilantik, maksimum 15 hari. Tiga rakan melancong sendiri tidak layak. Rakan Korea mendaftar senarai HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan mendapat pemeriksaan awal; ahli pada asasnya masuk/keluar bersama penerbangan atau kapal yang sama."
       },
       {
         "icon": "🏝️",
         "tone": "amber",
         "title": "Pulau Jeju — pengecualian visa berasingan",
-        "body": "Warganegara Indonesia boleh masuk Jeju tanpa visa (Jeju sahaja, penerbangan terus, tiada transit ke tanah besar). Ini berasingan daripada visa pelancong tanah besar."
+        "body": "Pelancong pasport biasa Indonesia boleh menggunakan program Jeju berasingan hingga 30 hari, tiba terus dari luar negara dan tinggal hanya di Jeju. Masuk melalui tanah besar tidak termasuk. Perjalanan ke tanah besar memerlukan visa sesuai atau kebenaran imigresen awal; kemasukan tetap dinilai."
+      },
+      {
+        "icon": "🗓️",
+        "tone": "blue",
+        "title": "Visa berbilang",
+        "body": "Pemohon layak boleh memohon visa berbilang 5 atau 10 tahun; jadual KVAC menyatakan 30 hari setiap lawatan. Tempoh sah panjang bukan tinggal berterusan atau kelayakan automatik; semak kategori dengan KVAC."
       }
     ],
     "tldr": [
       "Pengembara bebas memerlukan visa pelancong C-3 untuk tanah besar Korea.",
       "Isi borang di visa.go.kr, kemudian kemukakan di Kedutaan Korea / KVAC Jakarta.",
       "Bawa pasport, gambar, penyata bank 3 bulan, surat pekerjaan dan slip gaji.",
-      "Mengembara dalam kumpulan 3 orang atau lebih? Anda mungkin layak untuk masuk tanpa visa (perintis mulai Mei 2026)."
+      "Percubaan: 2026-05-28 hingga 2026-12-31. Hanya kumpulan sekurang-kurangnya 3 orang melalui agensi Indonesia dilantik, maksimum 15 hari. Tiga rakan melancong sendiri tidak layak. Rakan Korea mendaftar senarai HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan mendapat pemeriksaan awal; ahli pada asasnya masuk/keluar bersama penerbangan atau kapal yang sama."
     ],
     "steps": {
       "title": "Proses permohonan, langkah demi langkah (C-3 individu)",
@@ -1228,7 +1816,7 @@
         {
           "n": 1,
           "title": "Sahkan jenis visa",
-          "detail": "Pelancong bebas memohon visa pelancong jangka pendek C-3. (Kumpulan 3 orang atau lebih patut bertanya kepada agensi mereka tentang skim perintis tanpa visa.)"
+          "detail": "Pasport biasa yang memerlukan visa pelancong tidak layak memohon K-ETA untuk lawatan tersebut. Jika pasport memerlukan visa untuk lawatan biasa ke tanah besar Korea, K-ETA tidak boleh menggantikan visa dan tidak perlu dipohon selepas visa dikeluarkan. Pengecualian umur K-ETA bukan pengecualian visa. Program kumpulan dan Jeju mempunyai syarat berasingan. Percubaan: 2026-05-28 hingga 2026-12-31. Hanya kumpulan sekurang-kurangnya 3 orang melalui agensi Indonesia dilantik, maksimum 15 hari. Tiga rakan melancong sendiri tidak layak. Rakan Korea mendaftar senarai HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan mendapat pemeriksaan awal; ahli pada asasnya masuk/keluar bersama penerbangan atau kapal yang sama."
         },
         {
           "n": 2,
@@ -1250,12 +1838,12 @@
         {
           "n": 5,
           "title": "Bayar yuran",
-          "detail": "Bayar yuran visa dan sebarang yuran perkhidmatan. Yuran tidak dikembalikan walaupun ditolak — sahkan jumlahnya di pusat tersebut."
+          "detail": "Mulai 2026-07-01: sekali jangka pendek IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; berbilang IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Ekspres dan perkhidmatan pilihan dikenakan tambahan; semak jadual rasmi terkini."
         },
         {
           "n": 6,
           "title": "Jejak dan tunggu",
-          "detail": "Ikuti status melalui saluran pusat tersebut. Jangan beli penerbangan yang tidak boleh dikembalikan sebelum diluluskan."
+          "detail": "Anggaran KVAC Jakarta: visa sekali/dua kali 10 hari bekerja, berbilang 7, ekspres C-3 layak 5. Hari permohonan termasuk; cuti dikecualikan. Dokumen tambahan atau temu duga boleh melambatkan. FAQ rasmi tidak mewajibkan tiket penerbangan atau tempahan hotel untuk penilaian visa."
         },
         {
           "n": 7,
@@ -1312,9 +1900,9 @@
         },
         {
           "doc": "Tempahan penerbangan pergi-balik & hotel",
-          "req": "required",
+          "req": "recommended",
           "where": "Syarikat penerbangan / laman tempahan",
-          "how": "Tempahan/itinerari sudah memadai — jangan bayar tiket sebelum diluluskan."
+          "how": "Anggaran KVAC Jakarta: visa sekali/dua kali 10 hari bekerja, berbilang 7, ekspres C-3 layak 5. Hari permohonan termasuk; cuti dikecualikan. Dokumen tambahan atau temu duga boleh melambatkan. FAQ rasmi tidak mewajibkan tiket penerbangan atau tempahan hotel untuk penilaian visa."
         },
         {
           "doc": "Surat penaja (jika dibiayai oleh orang lain)",
@@ -1344,7 +1932,7 @@
         {
           "icon": "🧍",
           "t": "Menganggap bersendirian = tanpa visa",
-          "d": "Perintis tanpa visa hanya untuk kumpulan (3 orang atau lebih). Pengembara individu masih memerlukan visa C-3."
+          "d": "Percubaan: 2026-05-28 hingga 2026-12-31. Hanya kumpulan sekurang-kurangnya 3 orang melalui agensi Indonesia dilantik, maksimum 15 hari. Tiga rakan melancong sendiri tidak layak. Rakan Korea mendaftar senarai HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan mendapat pemeriksaan awal; ahli pada asasnya masuk/keluar bersama penerbangan atau kapal yang sama."
         },
         {
           "icon": "💸",
@@ -1373,11 +1961,13 @@
       "items": [
         {
           "q": "Adakah rakyat Indonesia memerlukan visa untuk Korea?",
-          "a": "Pengembara individu memerlukan visa pelancong C-3 untuk tanah besar Korea. Sejak 28 Mei 2026, kumpulan pelancong 3 orang atau lebih boleh masuk tanpa visa melalui skim perintis; Pulau Jeju mempunyai kemasukan tanpa visa yang berasingan."
+          "a": "Pasport biasa yang memerlukan visa pelancong tidak layak memohon K-ETA untuk lawatan tersebut. Jika pasport memerlukan visa untuk lawatan biasa ke tanah besar Korea, K-ETA tidak boleh menggantikan visa dan tidak perlu dipohon selepas visa dikeluarkan. Pengecualian umur K-ETA bukan pengecualian visa. Program kumpulan dan Jeju mempunyai syarat berasingan. Percubaan: 2026-05-28 hingga 2026-12-31. Hanya kumpulan sekurang-kurangnya 3 orang melalui agensi Indonesia dilantik, maksimum 15 hari. Tiga rakan melancong sendiri tidak layak. Rakan Korea mendaftar senarai HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan mendapat pemeriksaan awal; ahli pada asasnya masuk/keluar bersama penerbangan atau kapal yang sama.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "Saya mengembara bersendirian — bolehkah saya melangkau visa?",
-          "a": "Tidak. Perintis tanpa visa hanya terpakai untuk kumpulan sekurang-kurangnya 3 orang. Pengembara bebas mesti memohon visa C-3."
+          "a": "Pasport biasa yang memerlukan visa pelancong tidak layak memohon K-ETA untuk lawatan tersebut. Jika pasport memerlukan visa untuk lawatan biasa ke tanah besar Korea, K-ETA tidak boleh menggantikan visa dan tidak perlu dipohon selepas visa dikeluarkan. Pengecualian umur K-ETA bukan pengecualian visa. Program kumpulan dan Jeju mempunyai syarat berasingan. Percubaan: 2026-05-28 hingga 2026-12-31. Hanya kumpulan sekurang-kurangnya 3 orang melalui agensi Indonesia dilantik, maksimum 15 hari. Tiga rakan melancong sendiri tidak layak. Rakan Korea mendaftar senarai HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan mendapat pemeriksaan awal; ahli pada asasnya masuk/keluar bersama penerbangan atau kapal yang sama.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "Bukti kewangan apa yang saya perlukan?",
@@ -1389,73 +1979,188 @@
         },
         {
           "q": "Berapakah yurannya?",
-          "a": "Yuran berbeza-beza dan tidak dikembalikan walaupun ditolak. Sahkan jumlah semasa di pusat tersebut."
+          "a": "Mulai 2026-07-01: sekali jangka pendek IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; berbilang IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Ekspres dan perkhidmatan pilihan dikenakan tambahan; semak jadual rasmi terkini.",
+          "factId": "visa-indonesia-fees"
         },
         {
           "q": "Adakah saya masih memerlukan e-Arrival Card?",
-          "a": "Peraturan dokumen kemasukan seperti e-Arrival Card mungkin masih terpakai semasa ketibaan. Semak peraturan semasa hampir dengan tarikh perjalanan anda."
+          "a": "Pelawat dengan visa jangka pendek perlu mengisi e-Arrival Card kecuali mendapat pengecualian lain. Bagi kumpulan bebas visa, semak panduan rasmi dan penganjur dilantik; jangan anggap kelulusan kumpulan menggantikan pengisytiharan ketibaan.",
+          "factId": "earrival-card-how"
         },
         {
           "q": "Bolehkah rakyat Indonesia melawat Jeju tanpa visa?",
-          "a": "Pulau Jeju menjalankan program kemasukan tanpa visa (visa-free) yang berasingan dan terbuka kepada banyak kewarganegaraan, untuk penginapan di pulau itu sahaja. Semak senarai kelayakan terkini sebelum anda bergantung padanya, kerana peraturannya berubah."
+          "a": "Pelancong pasport biasa Indonesia boleh menggunakan program Jeju berasingan hingga 30 hari, tiba terus dari luar negara dan tinggal hanya di Jeju. Masuk melalui tanah besar tidak termasuk. Perjalanan ke tanah besar memerlukan visa sesuai atau kebenaran imigresen awal; kemasukan tetap dinilai.",
+          "factId": "visa-indonesia-jeju"
         },
         {
           "q": "Berapa lama masa diambil untuk memproses visa Korea?",
-          "a": "Setelah dokumen anda diterima, pemprosesan biasanya mengambil masa beberapa hari bekerja, walaupun ia berbeza mengikut musim dan pusat permohonan. Mohon lebih awal sebelum perjalanan anda dan sahkan tempoh pemprosesan semasa di tempat anda memohon."
+          "a": "Anggaran KVAC Jakarta: visa sekali/dua kali 10 hari bekerja, berbilang 7, ekspres C-3 layak 5. Hari permohonan termasuk; cuti dikecualikan. Dokumen tambahan atau temu duga boleh melambatkan. FAQ rasmi tidak mewajibkan tiket penerbangan atau tempahan hotel untuk penilaian visa.",
+          "factId": "visa-indonesia-processing"
         },
         {
           "q": "Adakah kanak-kanak memerlukan visa Korea mereka sendiri?",
           "a": "Ya — setiap pengembara, termasuk kanak-kanak, memerlukan visa mereka sendiri. Permohonan bagi seorang kanak-kanak dikemukakan bersama dokumen sokongan ibu bapa dan bukti hubungan kekeluargaan."
+        },
+        {
+          "q": "K-ETA?",
+          "a": "Pasport biasa yang memerlukan visa pelancong tidak layak memohon K-ETA untuk lawatan tersebut. Jika pasport memerlukan visa untuk lawatan biasa ke tanah besar Korea, K-ETA tidak boleh menggantikan visa dan tidak perlu dipohon selepas visa dikeluarkan. Pengecualian umur K-ETA bukan pengecualian visa. Program kumpulan dan Jeju mempunyai syarat berasingan.",
+          "factId": "keta-visa-distinction"
+        },
+        {
+          "q": "Visa berbilang?",
+          "a": "Pemohon layak boleh memohon visa berbilang 5 atau 10 tahun; jadual KVAC menyatakan 30 hari setiap lawatan. Tempoh sah panjang bukan tinggal berterusan atau kelayakan automatik; semak kategori dengan KVAC.",
+          "factId": "visa-indonesia-multiple"
         }
       ]
+    },
+    "resources": {
+      "title": "Sumber rasmi",
+      "intro": "Pasport biasa yang memerlukan visa pelancong tidak layak memohon K-ETA untuk lawatan tersebut. Jika pasport memerlukan visa untuk lawatan biasa ke tanah besar Korea, K-ETA tidak boleh menggantikan visa dan tidak perlu dipohon selepas visa dikeluarkan. Pengecualian umur K-ETA bukan pengecualian visa. Program kumpulan dan Jeju mempunyai syarat berasingan.",
+      "items": [
+        {
+          "label": "Sumber rasmi · Korea Visa Portal",
+          "src": "www.visa.go.kr",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "label": "Sumber rasmi · KVAC Jakarta",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location"
+        },
+        {
+          "label": "Sumber rasmi · KVAC · IDR",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee"
+        },
+        {
+          "label": "Sumber rasmi · KVAC · FAQ",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/customer/faq"
+        },
+        {
+          "label": "Sumber rasmi · B-2 · Indonesia",
+          "src": "immigration.go.kr",
+          "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do"
+        },
+        {
+          "label": "Sumber rasmi · C-3-2",
+          "src": "www.moj.go.kr",
+          "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "📄",
+        "name": "Sumber rasmi · Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "Pasport biasa yang memerlukan visa pelancong tidak layak memohon K-ETA untuk lawatan tersebut. Jika pasport memerlukan visa untuk lawatan biasa ke tanah besar Korea, K-ETA tidak boleh menggantikan visa dan tidak perlu dipohon selepas visa dikeluarkan. Pengecualian umur K-ETA bukan pengecualian visa. Program kumpulan dan Jeju mempunyai syarat berasingan."
+      },
+      {
+        "icon": "🏢",
+        "name": "Sumber rasmi · KVAC Jakarta",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
+        "what": "Pasport biasa yang memerlukan visa pelancong tidak layak memohon K-ETA untuk lawatan tersebut. Jika pasport memerlukan visa untuk lawatan biasa ke tanah besar Korea, K-ETA tidak boleh menggantikan visa dan tidak perlu dipohon selepas visa dikeluarkan. Pengecualian umur K-ETA bukan pengecualian visa. Program kumpulan dan Jeju mempunyai syarat berasingan."
+      },
+      {
+        "icon": "🏢",
+        "name": "Sumber rasmi · KVAC · IDR",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
+        "what": "Mulai 2026-07-01: sekali jangka pendek IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; berbilang IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Ekspres dan perkhidmatan pilihan dikenakan tambahan; semak jadual rasmi terkini."
+      },
+      {
+        "icon": "🏢",
+        "name": "Sumber rasmi · KVAC · FAQ",
+        "url": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+        "what": "Anggaran KVAC Jakarta: visa sekali/dua kali 10 hari bekerja, berbilang 7, ekspres C-3 layak 5. Hari permohonan termasuk; cuti dikecualikan. Dokumen tambahan atau temu duga boleh melambatkan. FAQ rasmi tidak mewajibkan tiket penerbangan atau tempahan hotel untuk penilaian visa."
+      },
+      {
+        "icon": "🏢",
+        "name": "Sumber rasmi · B-2 · Indonesia",
+        "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
+        "what": "Percubaan: 2026-05-28 hingga 2026-12-31. Hanya kumpulan sekurang-kurangnya 3 orang melalui agensi Indonesia dilantik, maksimum 15 hari. Tiga rakan melancong sendiri tidak layak. Rakan Korea mendaftar senarai HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan mendapat pemeriksaan awal; ahli pada asasnya masuk/keluar bersama penerbangan atau kapal yang sama."
+      },
+      {
+        "icon": "🏢",
+        "name": "Sumber rasmi · C-3-2",
+        "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
+        "what": "Visa kumpulan C-3-2 yang layak bagi China, Vietnam, Filipina, Indonesia, India dan Kemboja dikecualikan yuran pengeluaran USD 15 hingga 2026-12-31. Ini bukan bebas visa atau pengecualian yuran visa individu, ejen atau perkhidmatan."
+      }
+    ],
+    "factValueLabels": {
+      "C-3": "Pelancong C-3 (individu)",
+      "Visa grant; designated group: 15 days": "Visa: ikut kelulusan dikeluarkan; kumpulan dilantik: 15 hari",
+      "KVAC Jakarta": "KVAC Jakarta"
+    },
+    "h1": "Visa Korea untuk warganegara Indonesia",
+    "ui": {
+      "visa": "Jenis visa",
+      "stay": "Tempoh tinggal",
+      "entry": "Bilangan masuk",
+      "where": "Di mana mendapatkannya",
+      "official": "Sumber rasmi",
+      "required": "Wajib",
+      "conditional": "Jika berkenaan",
+      "recommended": "Disyorkan",
+      "confirm": "Yuran/peraturan boleh berubah — sila sahkan di sumber rasmi",
+      "source": "Sumber",
+      "updated": "Dikemas kini",
+      "tldr": "RINGKASAN"
+    },
+    "applicationOffice": {
+      "factId": "kvac-jakarta-location",
+      "title": "KVAC Jakarta"
     }
   },
   "zh": {
+    "_README": "Per-nationality visa deep-dive: Indonesia → Korea. Grounded in official channels (Embassy of Korea in Indonesia, Korea Visa Portal) + 2026 immigration briefings. Fee/processing VOLATILE (factId visa-indonesia-c3). No invented figures.",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "code": "indonesia",
+    "factId": "visa-indonesia-c3",
+    "metaTitle": "印尼护照去韩国要签证吗？个人需签证（2026）— Korea Trip Hub",
+    "metaDesc": "印尼人去韩国要签证吗？个人需签证 · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "签证指南 · 印度尼西亚 → 韩国",
     "readingTime": "阅读 8 分钟",
-    "h1": "印尼人去韩国要签证吗？个人需签证",
-    "metaTitle": "印尼护照去韩国要签证吗？个人需签证（2026）— Korea Trip Hub",
-    "metaDesc": "印度尼西亚护照持有者前往韩国需要签证吗？个人游客需要 C-3 签证（团体游客自 2026 年起可能免签）。在哪里申请、所需材料及各自的获取方式、费用和办理时间。",
-    "ui": {
-      "visa": "签证类型",
-      "stay": "停留时间",
-      "entry": "入境次数",
-      "where": "在哪里获取",
-      "official": "官方来源",
-      "required": "必需",
-      "conditional": "如适用",
-      "recommended": "建议",
-      "confirm": "费用/规定可能变动 — 请以官方来源为准",
-      "source": "来源",
-      "updated": "更新于",
-      "tldr": "摘要"
+    "updated": "2026-10-05",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Arrivals at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
     },
     "verdict": {
       "headline": "印度尼西亚个人旅行者需要签证 — 但团体可能不需要。",
-      "sub": "前往韩国本土的自由行需申请 C-3 旅游签证。自 2026 年 5 月 28 日起，3 人及以上的旅游团可通过试点计划免签短期入境；个人旅行者尚不符合资格。",
+      "sub": "需要普通旅游签证的普通护照，不能为该次访问申请K-ETA。 普通韩国本土旅行需要签证的护照不能用K-ETA替代签证，获得签证后也无需另行申请K-ETA。K-ETA年龄豁免不代表免签。团队和济州项目有单独条件。",
       "type": "C-3 旅游（个人）",
-      "stay": "最长 90 天",
-      "entry": "单次入境（个人）／符合条件的团体免签"
+      "stay": "签证：以签发条件为准；指定团队：15天",
+      "entry": "C-3 / B-2"
     },
     "highlights": [
       {
         "icon": "👥",
         "tone": "green",
-        "title": "自 2026 年 5 月 28 日起团体免签",
-        "body": "至少 3 人的印度尼西亚旅游团可通过试点计划免签短期入境。仅限团体 — 个人旅行者仍需签证。"
+        "title": "团队制度",
+        "body": "试行期：2026-05-28至2026-12-31。仅限指定印尼旅行社招募的3人以上团队，最长15天。三个朋友自由行不符合条件。韩国合作社须在航空抵达24小时前或海路36小时前向HiKorea登记名单并接受预审；原则上同一航班或船次集体入出境。"
       },
       {
         "icon": "🏝️",
         "tone": "amber",
         "title": "Jeju岛 — 单独的免签入境",
-        "body": "印度尼西亚公民可免签进入 Jeju（仅限 Jeju，直飞航班，不可中转至本土）。这与本土旅游签证是分开的。"
+        "body": "印尼普通护照游客可按济州独立免签制度最长停留30天，须从境外直接抵达并仅在济州停留。经韩国本土入境不适用。前往本土需适当签证或事先移民许可，入境仍需审核。"
+      },
+      {
+        "icon": "🗓️",
+        "tone": "blue",
+        "title": "多次签证",
+        "body": "符合条件者可申请5年或10年多次签证；KVAC表列每次停留30天。长期有效不代表连续居留或自动符合资格；请向KVAC核实申请类别。"
       }
     ],
     "tldr": [
       "自由行旅客前往韩国本土需要 C-3 旅游签证。",
       "在 visa.go.kr 填写表格，然后在韩国驻印度尼西亚大使馆／KVAC Jakarta 提交。",
       "携带护照、照片、3 个月银行对账单、在职证明和工资单。",
-      "3 人及以上团体出行？您可能符合免签入境资格（2026 年 5 月起试点）。"
+      "试行期：2026-05-28至2026-12-31。仅限指定印尼旅行社招募的3人以上团队，最长15天。三个朋友自由行不符合条件。韩国合作社须在航空抵达24小时前或海路36小时前向HiKorea登记名单并接受预审；原则上同一航班或船次集体入出境。"
     ],
     "steps": {
       "title": "申请流程，分步说明（个人 C-3）",
@@ -1463,7 +2168,7 @@
         {
           "n": 1,
           "title": "确认签证类型",
-          "detail": "自由行旅客申请短期旅游签证 C-3。（3 人及以上团体应向旅行社咨询免签试点计划。）"
+          "detail": "需要普通旅游签证的普通护照，不能为该次访问申请K-ETA。 普通韩国本土旅行需要签证的护照不能用K-ETA替代签证，获得签证后也无需另行申请K-ETA。K-ETA年龄豁免不代表免签。团队和济州项目有单独条件。 试行期：2026-05-28至2026-12-31。仅限指定印尼旅行社招募的3人以上团队，最长15天。三个朋友自由行不符合条件。韩国合作社须在航空抵达24小时前或海路36小时前向HiKorea登记名单并接受预审；原则上同一航班或船次集体入出境。"
         },
         {
           "n": 2,
@@ -1485,12 +2190,12 @@
         {
           "n": 5,
           "title": "缴纳费用",
-          "detail": "缴纳签证费和任何服务费。即使被拒也不退款 — 请在中心确认金额。"
+          "detail": "自2026-07-01：短期单次IDR 680,000 + KVAC IDR 240,000 = IDR 920,000；多次IDR 1,530,000 + IDR 240,000 = IDR 1,770,000。加急和自选服务另收费；请核实官方最新表。"
         },
         {
           "n": 6,
           "title": "跟踪并等待",
-          "detail": "通过中心的渠道跟踪状态。获批前请勿购买不可退款的机票。"
+          "detail": "雅加达KVAC预计：单次/两次10个工作日，多次7，符合条件的C-3加急5。计入申请日，不计节假日。补件或面谈可能延长。官方FAQ说明机票和酒店预订不是签证审核的必需材料。"
         },
         {
           "n": 7,
@@ -1547,9 +2252,9 @@
         },
         {
           "doc": "往返机票和酒店预订",
-          "req": "required",
+          "req": "recommended",
           "where": "航空公司／预订网站",
-          "how": "预订／行程即可 — 获批前请勿付款购票。"
+          "how": "雅加达KVAC预计：单次/两次10个工作日，多次7，符合条件的C-3加急5。计入申请日，不计节假日。补件或面谈可能延长。官方FAQ说明机票和酒店预订不是签证审核的必需材料。"
         },
         {
           "doc": "担保信（若由他人资助）",
@@ -1579,7 +2284,7 @@
         {
           "icon": "🧍",
           "t": "以为单独出行 = 免签",
-          "d": "免签试点仅限团体（3 人及以上）。个人旅行者仍需 C-3 签证。"
+          "d": "试行期：2026-05-28至2026-12-31。仅限指定印尼旅行社招募的3人以上团队，最长15天。三个朋友自由行不符合条件。韩国合作社须在航空抵达24小时前或海路36小时前向HiKorea登记名单并接受预审；原则上同一航班或船次集体入出境。"
         },
         {
           "icon": "💸",
@@ -1608,11 +2313,13 @@
       "items": [
         {
           "q": "印度尼西亚人去韩国需要签证吗？",
-          "a": "个人旅行者前往韩国本土需要 C-3 旅游签证。自 2026 年 5 月 28 日起，3 人及以上的旅游团可通过试点计划免签入境；Jeju 岛有单独的免签入境。"
+          "a": "需要普通旅游签证的普通护照，不能为该次访问申请K-ETA。 普通韩国本土旅行需要签证的护照不能用K-ETA替代签证，获得签证后也无需另行申请K-ETA。K-ETA年龄豁免不代表免签。团队和济州项目有单独条件。 试行期：2026-05-28至2026-12-31。仅限指定印尼旅行社招募的3人以上团队，最长15天。三个朋友自由行不符合条件。韩国合作社须在航空抵达24小时前或海路36小时前向HiKorea登记名单并接受预审；原则上同一航班或船次集体入出境。",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "我独自旅行 — 可以免办签证吗？",
-          "a": "不可以。免签试点仅适用于至少 3 人的团体。自由行旅客必须申请 C-3 签证。"
+          "a": "需要普通旅游签证的普通护照，不能为该次访问申请K-ETA。 普通韩国本土旅行需要签证的护照不能用K-ETA替代签证，获得签证后也无需另行申请K-ETA。K-ETA年龄豁免不代表免签。团队和济州项目有单独条件。 试行期：2026-05-28至2026-12-31。仅限指定印尼旅行社招募的3人以上团队，最长15天。三个朋友自由行不符合条件。韩国合作社须在航空抵达24小时前或海路36小时前向HiKorea登记名单并接受预审；原则上同一航班或船次集体入出境。",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "我需要什么财力证明？",
@@ -1624,74 +2331,185 @@
         },
         {
           "q": "费用是多少？",
-          "a": "费用各异，即使被拒也不退款。请在中心确认当前金额。"
+          "a": "自2026-07-01：短期单次IDR 680,000 + KVAC IDR 240,000 = IDR 920,000；多次IDR 1,530,000 + IDR 240,000 = IDR 1,770,000。加急和自选服务另收费；请核实官方最新表。",
+          "factId": "visa-indonesia-fees"
         },
         {
           "q": "我还需要 e-Arrival Card 吗？",
-          "a": "e-Arrival Card 等入境文件规定在抵达时仍可能适用。请在出行日期临近时查看现行规定。"
+          "a": "持短期签证入境者须填写e-Arrival Card，除非符合其他豁免条件。团队免签请核实官方指引和指定旅行社要求，不要认为团队批准代替入境申报。",
+          "factId": "earrival-card-how"
         },
         {
           "q": "印度尼西亚公民可以免签游览济州岛吗？",
-          "a": "济州岛设有单独的免签入境计划，面向多国旅客开放，但仅限在济州岛内停留。由于规定时有变动，出行前请先查看最新的适用名单。"
+          "a": "印尼普通护照游客可按济州独立免签制度最长停留30天，须从境外直接抵达并仅在济州停留。经韩国本土入境不适用。前往本土需适当签证或事先移民许可，入境仍需审核。",
+          "factId": "visa-indonesia-jeju"
         },
         {
           "q": "韩国签证的办理需要多长时间？",
-          "a": "材料受理后，通常需要几个工作日办理，但会因季节和申请中心而异。请尽早在行程前申请，并向受理机构确认当前的办理时长。"
+          "a": "雅加达KVAC预计：单次/两次10个工作日，多次7，符合条件的C-3加急5。计入申请日，不计节假日。补件或面谈可能延长。官方FAQ说明机票和酒店预订不是签证审核的必需材料。",
+          "factId": "visa-indonesia-processing"
         },
         {
           "q": "儿童需要单独办理韩国签证吗？",
           "a": "需要——包括儿童在内，每位旅客都需办理各自的签证。未成年人的申请需连同父母的证明材料以及亲属关系证明一并提交。"
+        },
+        {
+          "q": "K-ETA?",
+          "a": "需要普通旅游签证的普通护照，不能为该次访问申请K-ETA。 普通韩国本土旅行需要签证的护照不能用K-ETA替代签证，获得签证后也无需另行申请K-ETA。K-ETA年龄豁免不代表免签。团队和济州项目有单独条件。",
+          "factId": "keta-visa-distinction"
+        },
+        {
+          "q": "多次签证?",
+          "a": "符合条件者可申请5年或10年多次签证；KVAC表列每次停留30天。长期有效不代表连续居留或自动符合资格；请向KVAC核实申请类别。",
+          "factId": "visa-indonesia-multiple"
         }
       ]
+    },
+    "resources": {
+      "title": "官方来源",
+      "intro": "需要普通旅游签证的普通护照，不能为该次访问申请K-ETA。 普通韩国本土旅行需要签证的护照不能用K-ETA替代签证，获得签证后也无需另行申请K-ETA。K-ETA年龄豁免不代表免签。团队和济州项目有单独条件。",
+      "items": [
+        {
+          "label": "官方来源 · Korea Visa Portal",
+          "src": "www.visa.go.kr",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "label": "官方来源 · KVAC Jakarta",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location"
+        },
+        {
+          "label": "官方来源 · KVAC · IDR",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee"
+        },
+        {
+          "label": "官方来源 · KVAC · FAQ",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/customer/faq"
+        },
+        {
+          "label": "官方来源 · B-2 · Indonesia",
+          "src": "immigration.go.kr",
+          "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do"
+        },
+        {
+          "label": "官方来源 · C-3-2",
+          "src": "www.moj.go.kr",
+          "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "📄",
+        "name": "官方来源 · Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "需要普通旅游签证的普通护照，不能为该次访问申请K-ETA。 普通韩国本土旅行需要签证的护照不能用K-ETA替代签证，获得签证后也无需另行申请K-ETA。K-ETA年龄豁免不代表免签。团队和济州项目有单独条件。"
+      },
+      {
+        "icon": "🏢",
+        "name": "官方来源 · KVAC Jakarta",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
+        "what": "需要普通旅游签证的普通护照，不能为该次访问申请K-ETA。 普通韩国本土旅行需要签证的护照不能用K-ETA替代签证，获得签证后也无需另行申请K-ETA。K-ETA年龄豁免不代表免签。团队和济州项目有单独条件。"
+      },
+      {
+        "icon": "🏢",
+        "name": "官方来源 · KVAC · IDR",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
+        "what": "自2026-07-01：短期单次IDR 680,000 + KVAC IDR 240,000 = IDR 920,000；多次IDR 1,530,000 + IDR 240,000 = IDR 1,770,000。加急和自选服务另收费；请核实官方最新表。"
+      },
+      {
+        "icon": "🏢",
+        "name": "官方来源 · KVAC · FAQ",
+        "url": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+        "what": "雅加达KVAC预计：单次/两次10个工作日，多次7，符合条件的C-3加急5。计入申请日，不计节假日。补件或面谈可能延长。官方FAQ说明机票和酒店预订不是签证审核的必需材料。"
+      },
+      {
+        "icon": "🏢",
+        "name": "官方来源 · B-2 · Indonesia",
+        "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
+        "what": "试行期：2026-05-28至2026-12-31。仅限指定印尼旅行社招募的3人以上团队，最长15天。三个朋友自由行不符合条件。韩国合作社须在航空抵达24小时前或海路36小时前向HiKorea登记名单并接受预审；原则上同一航班或船次集体入出境。"
+      },
+      {
+        "icon": "🏢",
+        "name": "官方来源 · C-3-2",
+        "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
+        "what": "中国、越南、菲律宾、印度尼西亚、印度和柬埔寨符合条件的C-3-2团体签证可免USD 15签发费至2026-12-31。这不是免签，也不免个人签证费、代理费或服务费。"
+      }
+    ],
+    "factValueLabels": {
+      "C-3": "C-3 旅游（个人）",
+      "Visa grant; designated group: 15 days": "签证：以签发条件为准；指定团队：15天",
+      "KVAC Jakarta": "KVAC Jakarta"
+    },
+    "h1": "印尼人去韩国要签证吗？个人需签证",
+    "ui": {
+      "visa": "签证类型",
+      "stay": "停留时间",
+      "entry": "入境次数",
+      "where": "在哪里获取",
+      "official": "官方来源",
+      "required": "必需",
+      "conditional": "如适用",
+      "recommended": "建议",
+      "confirm": "费用/规定可能变动 — 请以官方来源为准",
+      "source": "来源",
+      "updated": "更新于",
+      "tldr": "摘要"
+    },
+    "applicationOffice": {
+      "factId": "kvac-jakarta-location",
+      "title": "KVAC Jakarta"
     }
   },
   "zh-TW": {
+    "_README": "Per-nationality visa deep-dive: Indonesia → Korea. Grounded in official channels (Embassy of Korea in Indonesia, Korea Visa Portal) + 2026 immigration briefings. Fee/processing VOLATILE (factId visa-indonesia-c3). No invented figures.",
+    "country": "印尼",
+    "flag": "🇮🇩",
+    "code": "indonesia",
+    "factId": "visa-indonesia-c3",
+    "metaTitle": "印尼護照去韓國要簽證嗎？申請文件與流程（2026）— Korea Trip Hub",
+    "metaDesc": "印尼人去韓國要簽證嗎？個人需簽證 · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "簽證指南 · 印尼 → 韓國",
     "readingTime": "閱讀 8 分鐘",
-    "h1": "印尼人去韓國要簽證嗎？個人需簽證",
-    "metaTitle": "印尼護照去韓國要簽證嗎？申請文件與流程（2026）— Korea Trip Hub",
-    "metaDesc": "印尼護照赴韓旅遊簽證指南：個人 C-3 簽證、2026 年團體免簽適用條件、申請文件、送件流程與官方查詢連結。出發前請向韓國駐印尼大使館確認最新規定。",
-    "ui": {
-      "visa": "簽證類型",
-      "stay": "停留時間",
-      "entry": "入境次數",
-      "where": "在哪裡取得",
-      "official": "官方來源",
-      "required": "必需",
-      "conditional": "如適用",
-      "recommended": "建議",
-      "confirm": "費用/規定可能變動 — 請以官方來源為準",
-      "source": "來源",
-      "updated": "更新於",
-      "tldr": "摘要",
-      "covers": "管轄地區"
+    "updated": "2026-10-05",
+    "hero": {
+      "alt": "仁川國際機場入境大廳"
     },
     "verdict": {
       "headline": "印尼個人旅客需要簽證 — 但團體可能不需要。",
-      "sub": "前往韓國本土的自由行需申請 C-3 旅遊簽證。自 2026 年 5 月 28 日起，3 人及以上的旅遊團可透過試辦計畫免簽短期入境；個人旅客尚不符合資格。",
+      "sub": "需要一般觀光簽證的普通護照，不能為該次訪問申請K-ETA。 一般韓國本土旅行需要簽證的護照不能用K-ETA替代簽證，取得簽證後也無須另外申請K-ETA。K-ETA年齡豁免不是免簽。團體與濟州方案另有條件。",
       "type": "C-3 旅遊（個人）",
-      "stay": "最長 90 天",
-      "entry": "單次入境（個人）／符合條件的團體免簽"
+      "stay": "簽證：依核發條件；指定團體：15天",
+      "entry": "C-3 / B-2"
     },
     "highlights": [
       {
         "icon": "👥",
         "tone": "green",
-        "title": "自 2026 年 5 月 28 日起團體免簽",
-        "body": "至少 3 人的印尼旅遊團可透過試辦計畫免簽短期入境。僅限團體 — 個人旅客仍需簽證。"
+        "title": "團體制度",
+        "body": "試行期：2026-05-28至2026-12-31。僅限指定印尼旅行社招募的3人以上團體，最長15天。三個朋友自由行不符合資格。韓國合作社須在航空抵達24小時前或海路36小時前向HiKorea登錄名單並接受預審；原則上同一航班或船班集體入出境。"
       },
       {
         "icon": "🏝️",
         "tone": "amber",
         "title": "Jeju島 — 單獨的免簽入境",
-        "body": "印尼公民可免簽進入 Jeju（僅限 Jeju，直飛航班，不可轉機至本土）。這與本土旅遊簽證是分開的。"
+        "body": "印尼一般護照觀光客可依濟州獨立免簽制度停留最長30天，須從境外直接抵達並僅留在濟州。經韓國本土入境不適用。前往本土需適當簽證或事先入管許可，入境仍須審查。"
+      },
+      {
+        "icon": "🗓️",
+        "tone": "blue",
+        "title": "多次簽證",
+        "body": "符合資格者可申請5年或10年多次簽證；KVAC表列每次停留30天。長期效期不代表連續居留或自動符合資格；請向KVAC確認申請類別。"
       }
     ],
     "tldr": [
       "自由行旅客前往韓國本土需要 C-3 旅遊簽證。",
       "在 visa.go.kr 填寫表格，然後在韓國駐印尼大使館／KVAC Jakarta 遞交。",
       "攜帶護照、照片、3 個月銀行對帳單、在職證明和薪資單。",
-      "3 人及以上團體出行？您可能符合免簽入境資格（2026 年 5 月起試辦）。"
+      "試行期：2026-05-28至2026-12-31。僅限指定印尼旅行社招募的3人以上團體，最長15天。三個朋友自由行不符合資格。韓國合作社須在航空抵達24小時前或海路36小時前向HiKorea登錄名單並接受預審；原則上同一航班或船班集體入出境。"
     ],
     "steps": {
       "title": "申請流程，分步說明（個人 C-3）",
@@ -1699,7 +2517,7 @@
         {
           "n": 1,
           "title": "確認簽證類型",
-          "detail": "自由行旅客申請短期旅遊簽證 C-3。（3 人及以上團體應向旅行社洽詢免簽試辦計畫。）"
+          "detail": "需要一般觀光簽證的普通護照，不能為該次訪問申請K-ETA。 一般韓國本土旅行需要簽證的護照不能用K-ETA替代簽證，取得簽證後也無須另外申請K-ETA。K-ETA年齡豁免不是免簽。團體與濟州方案另有條件。 試行期：2026-05-28至2026-12-31。僅限指定印尼旅行社招募的3人以上團體，最長15天。三個朋友自由行不符合資格。韓國合作社須在航空抵達24小時前或海路36小時前向HiKorea登錄名單並接受預審；原則上同一航班或船班集體入出境。"
         },
         {
           "n": 2,
@@ -1721,12 +2539,12 @@
         {
           "n": 5,
           "title": "繳納費用",
-          "detail": "繳納簽證費和任何服務費。即使遭拒也不退款 — 請在中心確認金額。"
+          "detail": "自2026-07-01：短期單次IDR 680,000 + KVAC IDR 240,000 = IDR 920,000；多次IDR 1,530,000 + IDR 240,000 = IDR 1,770,000。急件與自選服務另計，請核實最新官方表。"
         },
         {
           "n": 6,
           "title": "追蹤並等待",
-          "detail": "透過中心的管道追蹤狀態。獲准前請勿購買不可退款的機票。"
+          "detail": "雅加達KVAC預計：單次/兩次10個工作日，多次7，適用C-3急件5。計入申請日、不計假日。補件或面談可能延長。官方FAQ說明機票及飯店預訂不是簽證審查必備資料。"
         },
         {
           "n": 7,
@@ -1783,9 +2601,9 @@
         },
         {
           "doc": "來回機票和飯店預訂",
-          "req": "required",
+          "req": "recommended",
           "where": "航空公司／預訂網站",
-          "how": "預訂／行程即可 — 獲准前請勿付款購票。"
+          "how": "雅加達KVAC預計：單次/兩次10個工作日，多次7，適用C-3急件5。計入申請日、不計假日。補件或面談可能延長。官方FAQ說明機票及飯店預訂不是簽證審查必備資料。"
         },
         {
           "doc": "擔保信（若由他人資助）",
@@ -1815,7 +2633,7 @@
         {
           "icon": "🧍",
           "t": "以為單獨出行 = 免簽",
-          "d": "免簽試辦僅限團體（3 人及以上）。個人旅客仍需 C-3 簽證。"
+          "d": "試行期：2026-05-28至2026-12-31。僅限指定印尼旅行社招募的3人以上團體，最長15天。三個朋友自由行不符合資格。韓國合作社須在航空抵達24小時前或海路36小時前向HiKorea登錄名單並接受預審；原則上同一航班或船班集體入出境。"
         },
         {
           "icon": "💸",
@@ -1844,11 +2662,13 @@
       "items": [
         {
           "q": "印尼人去韓國需要簽證嗎？",
-          "a": "個人旅客前往韓國本土需要 C-3 旅遊簽證。自 2026 年 5 月 28 日起，3 人及以上的旅遊團可透過試辦計畫免簽入境；Jeju 島有單獨的免簽入境。"
+          "a": "需要一般觀光簽證的普通護照，不能為該次訪問申請K-ETA。 一般韓國本土旅行需要簽證的護照不能用K-ETA替代簽證，取得簽證後也無須另外申請K-ETA。K-ETA年齡豁免不是免簽。團體與濟州方案另有條件。 試行期：2026-05-28至2026-12-31。僅限指定印尼旅行社招募的3人以上團體，最長15天。三個朋友自由行不符合資格。韓國合作社須在航空抵達24小時前或海路36小時前向HiKorea登錄名單並接受預審；原則上同一航班或船班集體入出境。",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "我獨自旅行 — 可以免辦簽證嗎？",
-          "a": "不可以。免簽試辦僅適用於至少 3 人的團體。自由行旅客必須申請 C-3 簽證。"
+          "a": "需要一般觀光簽證的普通護照，不能為該次訪問申請K-ETA。 一般韓國本土旅行需要簽證的護照不能用K-ETA替代簽證，取得簽證後也無須另外申請K-ETA。K-ETA年齡豁免不是免簽。團體與濟州方案另有條件。 試行期：2026-05-28至2026-12-31。僅限指定印尼旅行社招募的3人以上團體，最長15天。三個朋友自由行不符合資格。韓國合作社須在航空抵達24小時前或海路36小時前向HiKorea登錄名單並接受預審；原則上同一航班或船班集體入出境。",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "我需要什麼財力證明？",
@@ -1860,128 +2680,193 @@
         },
         {
           "q": "費用是多少？",
-          "a": "費用各異，即使遭拒也不退款。請在中心確認目前金額。"
+          "a": "自2026-07-01：短期單次IDR 680,000 + KVAC IDR 240,000 = IDR 920,000；多次IDR 1,530,000 + IDR 240,000 = IDR 1,770,000。急件與自選服務另計，請核實最新官方表。",
+          "factId": "visa-indonesia-fees"
         },
         {
           "q": "我還需要 e-Arrival Card 嗎？",
-          "a": "e-Arrival Card 等入境文件規定在抵達時仍可能適用。請在出行日期臨近時查看現行規定。"
+          "a": "短期簽證入境者須填寫e-Arrival Card，除非符合其他豁免條件。團體免簽請確認官方指引及指定旅行社要求，不要認為團體核准可代替入境申報。",
+          "factId": "earrival-card-how"
         },
         {
           "q": "印尼公民可以免簽遊覽濟州島嗎？",
-          "a": "濟州島設有單獨的免簽入境計畫，面向多國旅客開放，但僅限在濟州島內停留。由於規定時有變動，出行前請先查看最新的適用名單。"
+          "a": "印尼一般護照觀光客可依濟州獨立免簽制度停留最長30天，須從境外直接抵達並僅留在濟州。經韓國本土入境不適用。前往本土需適當簽證或事先入管許可，入境仍須審查。",
+          "factId": "visa-indonesia-jeju"
         },
         {
           "q": "韓國簽證辦理需要多長時間？",
-          "a": "文件受理後，通常需要幾個工作天辦理，但會因季節和申請中心而異。請及早在行程前申請，並向受理機構確認目前的辦理時長。"
+          "a": "雅加達KVAC預計：單次/兩次10個工作日，多次7，適用C-3急件5。計入申請日、不計假日。補件或面談可能延長。官方FAQ說明機票及飯店預訂不是簽證審查必備資料。",
+          "factId": "visa-indonesia-processing"
         },
         {
           "q": "兒童需要單獨辦理韓國簽證嗎？",
           "a": "需要——包括兒童在內，每位旅客都須辦理各自的簽證。未成年人的申請須連同父母的證明文件以及親屬關係證明一併提交。"
+        },
+        {
+          "q": "K-ETA?",
+          "a": "需要一般觀光簽證的普通護照，不能為該次訪問申請K-ETA。 一般韓國本土旅行需要簽證的護照不能用K-ETA替代簽證，取得簽證後也無須另外申請K-ETA。K-ETA年齡豁免不是免簽。團體與濟州方案另有條件。",
+          "factId": "keta-visa-distinction"
+        },
+        {
+          "q": "多次簽證?",
+          "a": "符合資格者可申請5年或10年多次簽證；KVAC表列每次停留30天。長期效期不代表連續居留或自動符合資格；請向KVAC確認申請類別。",
+          "factId": "visa-indonesia-multiple"
         }
       ]
     },
-    "country": "印尼",
-    "hero": {
-      "alt": "仁川國際機場入境大廳"
-    },
-    "factLabels": {
-      "apply_at": "申請地點",
-      "scope": "適用範圍"
-    },
-    "factValueLabels": {
-      "C-3 tourist (individuals)": "C-3 觀光簽證（個人旅客）",
-      "90 days": "90 天",
-      "3+ group, from 2026-05-28 (trial)": "3 人以上團體，自 2026-05-28 起試辦",
-      "yes (Jeju only)": "適用（僅限濟州）",
-      "Korean embassy/consulate or KVAC Jakarta": "韓國使領館或雅加達韓國簽證申請中心（KVAC）"
-    },
     "resources": {
-      "title": "官方資訊與參考指南",
-      "intro": "請優先查閱官方最新公告；第三方指南僅供參考。",
+      "title": "官方來源",
+      "intro": "需要一般觀光簽證的普通護照，不能為該次訪問申請K-ETA。 一般韓國本土旅行需要簽證的護照不能用K-ETA替代簽證，取得簽證後也無須另外申請K-ETA。K-ETA年齡豁免不是免簽。團體與濟州方案另有條件。",
       "items": [
         {
-          "label": "韓國簽證入口網 — 填寫申請表",
-          "src": "visa.go.kr (official)",
+          "label": "官方來源 · Korea Visa Portal",
+          "src": "www.visa.go.kr",
           "url": "https://www.visa.go.kr"
         },
         {
-          "label": "韓國駐印尼大使館",
-          "src": "overseas.mofa.go.kr",
-          "url": "https://overseas.mofa.go.kr/id-en/index.do"
+          "label": "官方來源 · KVAC Jakarta",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location"
         },
         {
-          "label": "印尼旅客有條件免簽資訊（2026）",
-          "src": "LMI Consultancy",
-          "url": "https://www.lmiconsultancy.com/south-korea-introduces-conditional-visa-free-entry-for-indonesian-nationals/"
+          "label": "官方來源 · KVAC · IDR",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee"
         },
         {
-          "label": "印尼公民韓國簽證指南（2026）",
-          "src": "Oona Insurance",
-          "url": "https://myoona.id/en/blog/travel/complete-guide-to-korean-visa-for-indonesian-citizens/"
+          "label": "官方來源 · KVAC · FAQ",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/customer/faq"
+        },
+        {
+          "label": "官方來源 · B-2 · Indonesia",
+          "src": "immigration.go.kr",
+          "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do"
+        },
+        {
+          "label": "官方來源 · C-3-2",
+          "src": "www.moj.go.kr",
+          "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do"
         }
       ]
     },
     "official": [
       {
         "icon": "📄",
-        "name": "韓國簽證入口網",
+        "name": "官方來源 · Korea Visa Portal",
         "url": "https://www.visa.go.kr",
-        "what": "填寫申請表（唯一官方簽證入口網）"
+        "what": "需要一般觀光簽證的普通護照，不能為該次訪問申請K-ETA。 一般韓國本土旅行需要簽證的護照不能用K-ETA替代簽證，取得簽證後也無須另外申請K-ETA。K-ETA年齡豁免不是免簽。團體與濟州方案另有條件。"
       },
       {
-        "icon": "🏛️",
-        "name": "韓國駐印尼大使館",
-        "url": "https://overseas.mofa.go.kr/id-en/index.do",
-        "what": "官方申請條件與送件資訊"
+        "icon": "🏢",
+        "name": "官方來源 · KVAC Jakarta",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
+        "what": "需要一般觀光簽證的普通護照，不能為該次訪問申請K-ETA。 一般韓國本土旅行需要簽證的護照不能用K-ETA替代簽證，取得簽證後也無須另外申請K-ETA。K-ETA年齡豁免不是免簽。團體與濟州方案另有條件。"
+      },
+      {
+        "icon": "🏢",
+        "name": "官方來源 · KVAC · IDR",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
+        "what": "自2026-07-01：短期單次IDR 680,000 + KVAC IDR 240,000 = IDR 920,000；多次IDR 1,530,000 + IDR 240,000 = IDR 1,770,000。急件與自選服務另計，請核實最新官方表。"
+      },
+      {
+        "icon": "🏢",
+        "name": "官方來源 · KVAC · FAQ",
+        "url": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+        "what": "雅加達KVAC預計：單次/兩次10個工作日，多次7，適用C-3急件5。計入申請日、不計假日。補件或面談可能延長。官方FAQ說明機票及飯店預訂不是簽證審查必備資料。"
+      },
+      {
+        "icon": "🏢",
+        "name": "官方來源 · B-2 · Indonesia",
+        "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
+        "what": "試行期：2026-05-28至2026-12-31。僅限指定印尼旅行社招募的3人以上團體，最長15天。三個朋友自由行不符合資格。韓國合作社須在航空抵達24小時前或海路36小時前向HiKorea登錄名單並接受預審；原則上同一航班或船班集體入出境。"
+      },
+      {
+        "icon": "🏢",
+        "name": "官方來源 · C-3-2",
+        "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
+        "what": "中國、越南、菲律賓、印尼、印度與柬埔寨符合條件的C-3-2團體簽證可免USD 15核發費至2026-12-31。這不是免簽，也不免個人簽證費、代辦費或服務費。"
       }
-    ]
+    ],
+    "factValueLabels": {
+      "C-3": "C-3 旅遊（個人）",
+      "Visa grant; designated group: 15 days": "簽證：依核發條件；指定團體：15天",
+      "KVAC Jakarta": "KVAC Jakarta"
+    },
+    "h1": "印尼人去韓國要簽證嗎？個人需簽證",
+    "ui": {
+      "visa": "簽證類型",
+      "stay": "停留時間",
+      "entry": "入境次數",
+      "where": "在哪裡取得",
+      "official": "官方來源",
+      "required": "必需",
+      "conditional": "如適用",
+      "recommended": "建議",
+      "confirm": "費用/規定可能變動 — 請以官方來源為準",
+      "source": "來源",
+      "updated": "更新於",
+      "tldr": "摘要",
+      "covers": "管轄地區"
+    },
+    "factLabels": {
+      "apply_at": "申請地點",
+      "scope": "適用範圍"
+    },
+    "applicationOffice": {
+      "factId": "kvac-jakarta-location",
+      "title": "KVAC Jakarta"
+    }
   },
   "vi": {
+    "_README": "Per-nationality visa deep-dive: Indonesia → Korea. Grounded in official channels (Embassy of Korea in Indonesia, Korea Visa Portal) + 2026 immigration briefings. Fee/processing VOLATILE (factId visa-indonesia-c3). No invented figures.",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "code": "indonesia",
+    "factId": "visa-indonesia-c3",
+    "metaTitle": "Thị thực từ Indonesia đến Hàn Quốc: Bạn có cần không? (2026) — Korea Trip Hub",
+    "metaDesc": "Thị thực Hàn Quốc cho công dân Indonesia · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "Hướng dẫn thị thực · Indonesia → Hàn Quốc",
     "readingTime": "đọc 8 phút",
-    "h1": "Thị thực Hàn Quốc cho công dân Indonesia",
-    "metaTitle": "Thị thực từ Indonesia đến Hàn Quốc: Bạn có cần không? (2026) — Korea Trip Hub",
-    "metaDesc": "Người mang hộ chiếu Indonesia có cần thị thực vào Hàn Quốc không? Khách du lịch cá nhân cần thị thực C-3 (đoàn có thể được miễn thị thực từ năm 2026). Nơi nộp, giấy tờ và nơi lấy từng loại, lệ phí và thời gian xử lý.",
-    "ui": {
-      "visa": "Loại thị thực",
-      "stay": "Thời gian lưu trú",
-      "entry": "Số lần nhập cảnh",
-      "where": "Lấy ở đâu",
-      "official": "Nguồn chính thức",
-      "required": "Bắt buộc",
-      "conditional": "Nếu áp dụng",
-      "recommended": "Khuyến nghị",
-      "confirm": "Lệ phí/quy định có thể thay đổi — vui lòng xác nhận tại nguồn chính thức",
-      "source": "Nguồn",
-      "updated": "Cập nhật",
-      "tldr": "TÓM TẮT"
+    "updated": "2026-10-05",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Arrivals at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
     },
     "verdict": {
       "headline": "Khách du lịch cá nhân Indonesia cần thị thực — nhưng các đoàn thì có thể không.",
-      "sub": "Đối với chuyến đi tự túc tới Hàn Quốc đại lục, bạn xin thị thực du lịch C-3. Kể từ ngày 28 tháng 5 năm 2026, các đoàn du lịch từ 3 người trở lên có thể nhập cảnh miễn thị thực cho các kỳ lưu trú ngắn theo một chương trình thí điểm; cá nhân chưa đủ điều kiện.",
+      "sub": "Hộ chiếu phổ thông cần visa du lịch không thuộc diện đăng ký K-ETA cho chuyến đi đó. Nếu hộ chiếu cần visa để đến phần đất liền Hàn Quốc thông thường, K-ETA không thay thế visa và không cần đăng ký thêm sau khi có visa. Miễn K-ETA theo tuổi không phải miễn visa. Chương trình đoàn và Jeju có điều kiện riêng.",
       "type": "Du lịch C-3 (cá nhân)",
-      "stay": "Tối đa 90 ngày",
-      "entry": "Nhập cảnh một lần (cá nhân) / miễn thị thực cho các đoàn đủ điều kiện"
+      "stay": "Visa: theo giấy được cấp; đoàn được chỉ định: 15 ngày",
+      "entry": "C-3 / B-2"
     },
     "highlights": [
       {
         "icon": "👥",
         "tone": "green",
-        "title": "Miễn thị thực cho đoàn từ ngày 28 tháng 5 năm 2026",
-        "body": "Các đoàn du lịch Indonesia gồm ít nhất 3 người có thể nhập cảnh miễn thị thực cho các kỳ lưu trú ngắn theo một chương trình thí điểm. Chỉ áp dụng cho đoàn — khách du lịch cá nhân vẫn cần thị thực."
+        "title": "Chương trình đoàn",
+        "body": "Thí điểm: 2026-05-28 đến 2026-12-31. Chỉ đoàn từ 3 người do công ty Indonesia được chỉ định tuyển, lưu trú tối đa 15 ngày. Ba bạn đi tự túc không đủ điều kiện. Đối tác Hàn Quốc đăng ký danh sách qua HiKorea trước 24 giờ với hàng không hoặc 36 giờ với đường biển và qua kiểm tra trước; đoàn nguyên tắc cùng nhập, xuất cảnh trên một chuyến bay hoặc tàu."
       },
       {
         "icon": "🏝️",
         "tone": "amber",
         "title": "Đảo Jeju — miễn thị thực riêng",
-        "body": "Công dân Indonesia có thể nhập cảnh Jeju miễn thị thực (chỉ Jeju, chuyến bay thẳng, không quá cảnh vào đại lục). Điều này tách biệt với thị thực du lịch đại lục."
+        "body": "Khách hộ chiếu phổ thông Indonesia có thể dùng chương trình Jeju riêng tối đa 30 ngày, đến thẳng từ nước ngoài và chỉ ở Jeju. Không áp dụng nhập cảnh qua phần đất liền. Đến đất liền cần visa phù hợp hoặc phép xuất nhập cảnh trước; vẫn phải qua xét nhập cảnh."
+      },
+      {
+        "icon": "🗓️",
+        "tone": "blue",
+        "title": "Visa nhiều lần",
+        "body": "Người đủ điều kiện có thể xin visa nhiều lần 5 hoặc 10 năm; bảng KVAC ghi lưu trú 30 ngày mỗi lần. Hiệu lực dài không phải cư trú liên tục hoặc tự động đủ điều kiện; hỏi KVAC về diện hồ sơ."
       }
     ],
     "tldr": [
       "Khách du lịch tự túc cần thị thực du lịch C-3 cho Hàn Quốc đại lục.",
       "Điền biểu mẫu tại visa.go.kr, sau đó nộp tại Đại sứ quán Hàn Quốc / KVAC Jakarta.",
       "Mang theo hộ chiếu, ảnh, sao kê ngân hàng 3 tháng, thư xác nhận việc làm và phiếu lương.",
-      "Đi theo đoàn từ 3 người trở lên? Bạn có thể đủ điều kiện nhập cảnh miễn thị thực (thí điểm từ tháng 5 năm 2026)."
+      "Thí điểm: 2026-05-28 đến 2026-12-31. Chỉ đoàn từ 3 người do công ty Indonesia được chỉ định tuyển, lưu trú tối đa 15 ngày. Ba bạn đi tự túc không đủ điều kiện. Đối tác Hàn Quốc đăng ký danh sách qua HiKorea trước 24 giờ với hàng không hoặc 36 giờ với đường biển và qua kiểm tra trước; đoàn nguyên tắc cùng nhập, xuất cảnh trên một chuyến bay hoặc tàu."
     ],
     "steps": {
       "title": "Quy trình nộp hồ sơ, từng bước (C-3 cá nhân)",
@@ -1989,7 +2874,7 @@
         {
           "n": 1,
           "title": "Xác nhận loại thị thực",
-          "detail": "Khách du lịch tự túc xin thị thực du lịch ngắn hạn C-3. (Các đoàn từ 3 người trở lên nên hỏi công ty lữ hành về chương trình thí điểm miễn thị thực.)"
+          "detail": "Hộ chiếu phổ thông cần visa du lịch không thuộc diện đăng ký K-ETA cho chuyến đi đó. Nếu hộ chiếu cần visa để đến phần đất liền Hàn Quốc thông thường, K-ETA không thay thế visa và không cần đăng ký thêm sau khi có visa. Miễn K-ETA theo tuổi không phải miễn visa. Chương trình đoàn và Jeju có điều kiện riêng. Thí điểm: 2026-05-28 đến 2026-12-31. Chỉ đoàn từ 3 người do công ty Indonesia được chỉ định tuyển, lưu trú tối đa 15 ngày. Ba bạn đi tự túc không đủ điều kiện. Đối tác Hàn Quốc đăng ký danh sách qua HiKorea trước 24 giờ với hàng không hoặc 36 giờ với đường biển và qua kiểm tra trước; đoàn nguyên tắc cùng nhập, xuất cảnh trên một chuyến bay hoặc tàu."
         },
         {
           "n": 2,
@@ -2011,12 +2896,12 @@
         {
           "n": 5,
           "title": "Thanh toán lệ phí",
-          "detail": "Thanh toán lệ phí thị thực và mọi khoản phí dịch vụ. Lệ phí không được hoàn lại ngay cả khi bị từ chối — hãy xác nhận số tiền tại trung tâm."
+          "detail": "Từ 2026-07-01: visa ngắn hạn một lần IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; nhiều lần IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Dịch vụ nhanh và tự chọn tính thêm; kiểm tra bảng phí chính thức."
         },
         {
           "n": 6,
           "title": "Theo dõi và chờ đợi",
-          "detail": "Theo dõi trạng thái qua kênh của trung tâm. Đừng mua vé máy bay không hoàn tiền trước khi được chấp thuận."
+          "detail": "KVAC Jakarta dự kiến: visa một/hai lần 10 ngày làm việc, nhiều lần 7, C-3 nhanh đủ điều kiện 5. Tính ngày nộp, không tính ngày nghỉ. Giấy tờ bổ sung hoặc phỏng vấn có thể kéo dài. FAQ chính thức nói vé máy bay và đặt khách sạn không bắt buộc để xét visa."
         },
         {
           "n": 7,
@@ -2073,9 +2958,9 @@
         },
         {
           "doc": "Đặt vé máy bay khứ hồi và khách sạn",
-          "req": "required",
+          "req": "recommended",
           "where": "Hãng hàng không / trang đặt chỗ",
-          "how": "Đặt chỗ/lịch trình là đủ — đừng trả tiền vé trước khi được chấp thuận."
+          "how": "KVAC Jakarta dự kiến: visa một/hai lần 10 ngày làm việc, nhiều lần 7, C-3 nhanh đủ điều kiện 5. Tính ngày nộp, không tính ngày nghỉ. Giấy tờ bổ sung hoặc phỏng vấn có thể kéo dài. FAQ chính thức nói vé máy bay và đặt khách sạn không bắt buộc để xét visa."
         },
         {
           "doc": "Thư bảo lãnh (nếu do người khác tài trợ)",
@@ -2105,7 +2990,7 @@
         {
           "icon": "🧍",
           "t": "Cho rằng đi một mình = miễn thị thực",
-          "d": "Chương trình thí điểm miễn thị thực chỉ dành cho đoàn (3 người trở lên). Khách du lịch cá nhân vẫn cần thị thực C-3."
+          "d": "Thí điểm: 2026-05-28 đến 2026-12-31. Chỉ đoàn từ 3 người do công ty Indonesia được chỉ định tuyển, lưu trú tối đa 15 ngày. Ba bạn đi tự túc không đủ điều kiện. Đối tác Hàn Quốc đăng ký danh sách qua HiKorea trước 24 giờ với hàng không hoặc 36 giờ với đường biển và qua kiểm tra trước; đoàn nguyên tắc cùng nhập, xuất cảnh trên một chuyến bay hoặc tàu."
         },
         {
           "icon": "💸",
@@ -2134,11 +3019,13 @@
       "items": [
         {
           "q": "Người Indonesia có cần thị thực đến Hàn Quốc không?",
-          "a": "Khách du lịch cá nhân cần thị thực du lịch C-3 cho Hàn Quốc đại lục. Kể từ ngày 28 tháng 5 năm 2026, các đoàn du lịch từ 3 người trở lên có thể nhập cảnh miễn thị thực theo một chương trình thí điểm; đảo Jeju có lối nhập cảnh miễn thị thực riêng."
+          "a": "Hộ chiếu phổ thông cần visa du lịch không thuộc diện đăng ký K-ETA cho chuyến đi đó. Nếu hộ chiếu cần visa để đến phần đất liền Hàn Quốc thông thường, K-ETA không thay thế visa và không cần đăng ký thêm sau khi có visa. Miễn K-ETA theo tuổi không phải miễn visa. Chương trình đoàn và Jeju có điều kiện riêng. Thí điểm: 2026-05-28 đến 2026-12-31. Chỉ đoàn từ 3 người do công ty Indonesia được chỉ định tuyển, lưu trú tối đa 15 ngày. Ba bạn đi tự túc không đủ điều kiện. Đối tác Hàn Quốc đăng ký danh sách qua HiKorea trước 24 giờ với hàng không hoặc 36 giờ với đường biển và qua kiểm tra trước; đoàn nguyên tắc cùng nhập, xuất cảnh trên một chuyến bay hoặc tàu.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "Tôi đi du lịch một mình — tôi có thể bỏ qua thị thực không?",
-          "a": "Không. Chương trình thí điểm miễn thị thực chỉ áp dụng cho các đoàn ít nhất 3 người. Khách du lịch tự túc phải xin thị thực C-3."
+          "a": "Hộ chiếu phổ thông cần visa du lịch không thuộc diện đăng ký K-ETA cho chuyến đi đó. Nếu hộ chiếu cần visa để đến phần đất liền Hàn Quốc thông thường, K-ETA không thay thế visa và không cần đăng ký thêm sau khi có visa. Miễn K-ETA theo tuổi không phải miễn visa. Chương trình đoàn và Jeju có điều kiện riêng. Thí điểm: 2026-05-28 đến 2026-12-31. Chỉ đoàn từ 3 người do công ty Indonesia được chỉ định tuyển, lưu trú tối đa 15 ngày. Ba bạn đi tự túc không đủ điều kiện. Đối tác Hàn Quốc đăng ký danh sách qua HiKorea trước 24 giờ với hàng không hoặc 36 giờ với đường biển và qua kiểm tra trước; đoàn nguyên tắc cùng nhập, xuất cảnh trên một chuyến bay hoặc tàu.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "Tôi cần chứng minh tài chính gì?",
@@ -2150,73 +3037,188 @@
         },
         {
           "q": "Lệ phí là bao nhiêu?",
-          "a": "Lệ phí khác nhau và không được hoàn lại ngay cả khi bị từ chối. Hãy xác nhận số tiền hiện tại tại trung tâm."
+          "a": "Từ 2026-07-01: visa ngắn hạn một lần IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; nhiều lần IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Dịch vụ nhanh và tự chọn tính thêm; kiểm tra bảng phí chính thức.",
+          "factId": "visa-indonesia-fees"
         },
         {
           "q": "Tôi có còn cần e-Arrival Card không?",
-          "a": "Các quy định về giấy tờ nhập cảnh như e-Arrival Card vẫn có thể áp dụng khi đến nơi. Hãy kiểm tra quy định hiện hành gần ngày đi của bạn."
+          "a": "Người nhập cảnh bằng visa ngắn hạn phải khai e-Arrival Card, trừ khi có diện miễn riêng. Với đoàn miễn visa, kiểm tra công cụ chính thức và đơn vị được chỉ định; đừng mặc định chấp thuận đoàn thay thế khai báo nhập cảnh.",
+          "factId": "earrival-card-how"
         },
         {
           "q": "Người Indonesia có thể đến Jeju mà không cần visa không?",
-          "a": "Đảo Jeju có chương trình nhập cảnh miễn visa riêng, mở cho nhiều quốc tịch, nhưng chỉ áp dụng cho việc lưu trú trong phạm vi đảo. Vì các quy định có thể thay đổi, hãy kiểm tra danh sách đối tượng đủ điều kiện mới nhất trước khi dựa vào đó."
+          "a": "Khách hộ chiếu phổ thông Indonesia có thể dùng chương trình Jeju riêng tối đa 30 ngày, đến thẳng từ nước ngoài và chỉ ở Jeju. Không áp dụng nhập cảnh qua phần đất liền. Đến đất liền cần visa phù hợp hoặc phép xuất nhập cảnh trước; vẫn phải qua xét nhập cảnh.",
+          "factId": "visa-indonesia-jeju"
         },
         {
           "q": "Xin visa Hàn Quốc mất bao lâu để xử lý?",
-          "a": "Sau khi hồ sơ được tiếp nhận, việc xử lý thường mất vài ngày làm việc, tuy nhiên có thể thay đổi tùy theo mùa và tùy trung tâm. Hãy nộp sớm trước chuyến đi và xác nhận thời gian xử lý hiện tại tại nơi bạn nộp."
+          "a": "KVAC Jakarta dự kiến: visa một/hai lần 10 ngày làm việc, nhiều lần 7, C-3 nhanh đủ điều kiện 5. Tính ngày nộp, không tính ngày nghỉ. Giấy tờ bổ sung hoặc phỏng vấn có thể kéo dài. FAQ chính thức nói vé máy bay và đặt khách sạn không bắt buộc để xét visa.",
+          "factId": "visa-indonesia-processing"
         },
         {
           "q": "Trẻ em có cần visa Hàn Quốc riêng không?",
           "a": "Có — mọi hành khách, kể cả trẻ em, đều cần visa riêng. Hồ sơ của trẻ vị thành niên được nộp kèm giấy tờ chứng minh của cha mẹ và giấy tờ chứng minh quan hệ gia đình."
+        },
+        {
+          "q": "K-ETA?",
+          "a": "Hộ chiếu phổ thông cần visa du lịch không thuộc diện đăng ký K-ETA cho chuyến đi đó. Nếu hộ chiếu cần visa để đến phần đất liền Hàn Quốc thông thường, K-ETA không thay thế visa và không cần đăng ký thêm sau khi có visa. Miễn K-ETA theo tuổi không phải miễn visa. Chương trình đoàn và Jeju có điều kiện riêng.",
+          "factId": "keta-visa-distinction"
+        },
+        {
+          "q": "Visa nhiều lần?",
+          "a": "Người đủ điều kiện có thể xin visa nhiều lần 5 hoặc 10 năm; bảng KVAC ghi lưu trú 30 ngày mỗi lần. Hiệu lực dài không phải cư trú liên tục hoặc tự động đủ điều kiện; hỏi KVAC về diện hồ sơ.",
+          "factId": "visa-indonesia-multiple"
         }
       ]
+    },
+    "resources": {
+      "title": "Nguồn chính thức",
+      "intro": "Hộ chiếu phổ thông cần visa du lịch không thuộc diện đăng ký K-ETA cho chuyến đi đó. Nếu hộ chiếu cần visa để đến phần đất liền Hàn Quốc thông thường, K-ETA không thay thế visa và không cần đăng ký thêm sau khi có visa. Miễn K-ETA theo tuổi không phải miễn visa. Chương trình đoàn và Jeju có điều kiện riêng.",
+      "items": [
+        {
+          "label": "Nguồn chính thức · Korea Visa Portal",
+          "src": "www.visa.go.kr",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "label": "Nguồn chính thức · KVAC Jakarta",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location"
+        },
+        {
+          "label": "Nguồn chính thức · KVAC · IDR",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee"
+        },
+        {
+          "label": "Nguồn chính thức · KVAC · FAQ",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/customer/faq"
+        },
+        {
+          "label": "Nguồn chính thức · B-2 · Indonesia",
+          "src": "immigration.go.kr",
+          "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do"
+        },
+        {
+          "label": "Nguồn chính thức · C-3-2",
+          "src": "www.moj.go.kr",
+          "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "📄",
+        "name": "Nguồn chính thức · Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "Hộ chiếu phổ thông cần visa du lịch không thuộc diện đăng ký K-ETA cho chuyến đi đó. Nếu hộ chiếu cần visa để đến phần đất liền Hàn Quốc thông thường, K-ETA không thay thế visa và không cần đăng ký thêm sau khi có visa. Miễn K-ETA theo tuổi không phải miễn visa. Chương trình đoàn và Jeju có điều kiện riêng."
+      },
+      {
+        "icon": "🏢",
+        "name": "Nguồn chính thức · KVAC Jakarta",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
+        "what": "Hộ chiếu phổ thông cần visa du lịch không thuộc diện đăng ký K-ETA cho chuyến đi đó. Nếu hộ chiếu cần visa để đến phần đất liền Hàn Quốc thông thường, K-ETA không thay thế visa và không cần đăng ký thêm sau khi có visa. Miễn K-ETA theo tuổi không phải miễn visa. Chương trình đoàn và Jeju có điều kiện riêng."
+      },
+      {
+        "icon": "🏢",
+        "name": "Nguồn chính thức · KVAC · IDR",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
+        "what": "Từ 2026-07-01: visa ngắn hạn một lần IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; nhiều lần IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Dịch vụ nhanh và tự chọn tính thêm; kiểm tra bảng phí chính thức."
+      },
+      {
+        "icon": "🏢",
+        "name": "Nguồn chính thức · KVAC · FAQ",
+        "url": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+        "what": "KVAC Jakarta dự kiến: visa một/hai lần 10 ngày làm việc, nhiều lần 7, C-3 nhanh đủ điều kiện 5. Tính ngày nộp, không tính ngày nghỉ. Giấy tờ bổ sung hoặc phỏng vấn có thể kéo dài. FAQ chính thức nói vé máy bay và đặt khách sạn không bắt buộc để xét visa."
+      },
+      {
+        "icon": "🏢",
+        "name": "Nguồn chính thức · B-2 · Indonesia",
+        "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
+        "what": "Thí điểm: 2026-05-28 đến 2026-12-31. Chỉ đoàn từ 3 người do công ty Indonesia được chỉ định tuyển, lưu trú tối đa 15 ngày. Ba bạn đi tự túc không đủ điều kiện. Đối tác Hàn Quốc đăng ký danh sách qua HiKorea trước 24 giờ với hàng không hoặc 36 giờ với đường biển và qua kiểm tra trước; đoàn nguyên tắc cùng nhập, xuất cảnh trên một chuyến bay hoặc tàu."
+      },
+      {
+        "icon": "🏢",
+        "name": "Nguồn chính thức · C-3-2",
+        "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
+        "what": "Visa đoàn C-3-2 đủ điều kiện của Trung Quốc, Việt Nam, Philippines, Indonesia, Ấn Độ và Campuchia được miễn phí cấp visa USD 15 đến 2026-12-31. Đây không phải miễn visa hay miễn phí visa cá nhân, đại lý hoặc dịch vụ."
+      }
+    ],
+    "factValueLabels": {
+      "C-3": "Du lịch C-3 (cá nhân)",
+      "Visa grant; designated group: 15 days": "Visa: theo giấy được cấp; đoàn được chỉ định: 15 ngày",
+      "KVAC Jakarta": "KVAC Jakarta"
+    },
+    "h1": "Thị thực Hàn Quốc cho công dân Indonesia",
+    "ui": {
+      "visa": "Loại thị thực",
+      "stay": "Thời gian lưu trú",
+      "entry": "Số lần nhập cảnh",
+      "where": "Lấy ở đâu",
+      "official": "Nguồn chính thức",
+      "required": "Bắt buộc",
+      "conditional": "Nếu áp dụng",
+      "recommended": "Khuyến nghị",
+      "confirm": "Lệ phí/quy định có thể thay đổi — vui lòng xác nhận tại nguồn chính thức",
+      "source": "Nguồn",
+      "updated": "Cập nhật",
+      "tldr": "TÓM TẮT"
+    },
+    "applicationOffice": {
+      "factId": "kvac-jakarta-location",
+      "title": "KVAC Jakarta"
     }
   },
   "ru": {
+    "_README": "Per-nationality visa deep-dive: Indonesia → Korea. Grounded in official channels (Embassy of Korea in Indonesia, Korea Visa Portal) + 2026 immigration briefings. Fee/processing VOLATILE (factId visa-indonesia-c3). No invented figures.",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "code": "indonesia",
+    "factId": "visa-indonesia-c3",
+    "metaTitle": "Виза из Индонезии в Корею: нужна ли она? (2026) — Korea Trip Hub",
+    "metaDesc": "Виза в Корею для граждан Индонезии · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "Гид по визе · Индонезия → Корея",
     "readingTime": "8 мин чтения",
-    "h1": "Виза в Корею для граждан Индонезии",
-    "metaTitle": "Виза из Индонезии в Корею: нужна ли она? (2026) — Korea Trip Hub",
-    "metaDesc": "Нужна ли обладателям индонезийского паспорта виза в Южную Корею? Индивидуальным туристам нужна виза C-3 (группы могут быть безвизовыми с 2026 года). Где подавать, документы и где получить каждый, сборы и срок обработки.",
-    "ui": {
-      "visa": "Тип визы",
-      "stay": "Срок пребывания",
-      "entry": "Количество въездов",
-      "where": "Где получить",
-      "official": "Официальный источник",
-      "required": "Обязательно",
-      "conditional": "Если применимо",
-      "recommended": "Рекомендуется",
-      "confirm": "Сборы/правила могут меняться — уточняйте в официальных источниках",
-      "source": "Источник",
-      "updated": "Обновлено",
-      "tldr": "КРАТКО"
+    "updated": "2026-10-05",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Arrivals at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
     },
     "verdict": {
       "headline": "Индивидуальным туристам из Индонезии нужна виза — но группам, возможно, нет.",
-      "sub": "Для самостоятельной поездки в материковую Корею вы подаёте на туристическую визу C-3. С 28 мая 2026 года туристические группы от 3 человек могут въезжать без визы для краткосрочного пребывания в рамках пробной программы — индивидуальные путешественники пока не имеют такого права.",
+      "sub": "Обычные паспорта, для которых нужна туристическая виза, не подходят для K-ETA для такой поездки. Если для обычной поездки в материковую Корею по вашему паспорту нужна виза, K-ETA не заменяет её и не оформляется дополнительно после визы. Возрастное освобождение от K-ETA не отменяет визу. Для групп и Чеджу действуют отдельные условия.",
       "type": "Туристическая C-3 (для индивидуальных)",
-      "stay": "До 90 дней",
-      "entry": "Однократный въезд (для индивидуальных) / без визы для соответствующих групп"
+      "stay": "Виза: по выданному разрешению; назначенная группа: 15 дней",
+      "entry": "C-3 / B-2"
     },
     "highlights": [
       {
         "icon": "👥",
         "tone": "green",
-        "title": "Безвизовый въезд для групп с 28 мая 2026 года",
-        "body": "Индонезийские туристические группы численностью не менее 3 человек могут въезжать без визы для краткосрочного пребывания в рамках пробной программы. Это только для групп — индивидуальным путешественникам по-прежнему нужна виза."
+        "title": "Групповая программа",
+        "body": "Пилот: 2026-05-28 — 2026-12-31. Только группы от 3 человек, набранные назначенными индонезийскими агентствами, максимум 15 дней. Трое самостоятельных друзей не подходят. Корейский партнёр регистрирует список в HiKorea за 24 часа до прибытия самолётом или 36 морем для предварительной проверки; обычно въезд и выезд вместе одним рейсом или судном."
       },
       {
         "icon": "🏝️",
         "tone": "amber",
         "title": "Остров Чеджу — отдельный безвизовый въезд",
-        "body": "Граждане Индонезии могут въезжать на Чеджу без визы (только Чеджу, прямые рейсы, без транзита на материк). Это отдельно от материковой туристической визы."
+        "body": "Туристы с обычным индонезийским паспортом могут использовать отдельный безвизовый режим Чеджу до 30 дней, прибывая напрямую из-за рубежа и оставаясь на острове. Въезд через материк не подходит. Поездка на материк требует соответствующей визы или предварительного разрешения; допуск оценивается на границе."
+      },
+      {
+        "icon": "🗓️",
+        "tone": "blue",
+        "title": "Многократная виза",
+        "body": "Подходящие заявители могут оформить многократную визу на 5 или 10 лет; KVAC указывает 30 дней на посещение. Длительная действительность не означает непрерывное проживание или автоматическое право; проверьте категорию в KVAC."
       }
     ],
     "tldr": [
       "Самостоятельным путешественникам нужна туристическая виза C-3 для материковой Кореи.",
       "Заполните форму на visa.go.kr, затем подайте её в Посольстве Кореи / KVAC Jakarta.",
       "Возьмите паспорт, фото, выписку из банка за 3 месяца, справку с работы и расчётные листки.",
-      "Путешествуете группой от 3 человек? Возможно, вы имеете право на безвизовый въезд (пробная программа с мая 2026 года)."
+      "Пилот: 2026-05-28 — 2026-12-31. Только группы от 3 человек, набранные назначенными индонезийскими агентствами, максимум 15 дней. Трое самостоятельных друзей не подходят. Корейский партнёр регистрирует список в HiKorea за 24 часа до прибытия самолётом или 36 морем для предварительной проверки; обычно въезд и выезд вместе одним рейсом или судном."
     ],
     "steps": {
       "title": "Процесс подачи, шаг за шагом (индивидуальная C-3)",
@@ -2224,7 +3226,7 @@
         {
           "n": 1,
           "title": "Определите тип визы",
-          "detail": "Самостоятельные туристы подают на краткосрочную туристическую визу C-3. (Группам от 3 человек стоит уточнить у своего турагентства о пробной безвизовой программе.)"
+          "detail": "Обычные паспорта, для которых нужна туристическая виза, не подходят для K-ETA для такой поездки. Если для обычной поездки в материковую Корею по вашему паспорту нужна виза, K-ETA не заменяет её и не оформляется дополнительно после визы. Возрастное освобождение от K-ETA не отменяет визу. Для групп и Чеджу действуют отдельные условия. Пилот: 2026-05-28 — 2026-12-31. Только группы от 3 человек, набранные назначенными индонезийскими агентствами, максимум 15 дней. Трое самостоятельных друзей не подходят. Корейский партнёр регистрирует список в HiKorea за 24 часа до прибытия самолётом или 36 морем для предварительной проверки; обычно въезд и выезд вместе одним рейсом или судном."
         },
         {
           "n": 2,
@@ -2246,12 +3248,12 @@
         {
           "n": 5,
           "title": "Оплатите сбор",
-          "detail": "Оплатите визовый сбор и любой сервисный сбор. Сборы не возвращаются даже при отказе — уточните сумму в центре."
+          "detail": "С 2026-07-01: краткосрочная однократная IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; многократная IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Срочность и дополнительные услуги оплачиваются отдельно; проверьте актуальную официальную таблицу."
         },
         {
           "n": 6,
           "title": "Отслеживайте и ждите",
-          "detail": "Следите за статусом через канал центра. Не покупайте невозвратные авиабилеты до одобрения."
+          "detail": "KVAC Джакарта оценивает: однократная/двукратная виза 10 рабочих дней, многократная 7, подходящая срочная C-3 5. День подачи включён, праздники исключены. Дополнительные документы или интервью продлевают сроки. Официальный FAQ не требует билеты и бронь отеля для рассмотрения визы."
         },
         {
           "n": 7,
@@ -2308,9 +3310,9 @@
         },
         {
           "doc": "Бронь авиабилетов туда-обратно и отеля",
-          "req": "required",
+          "req": "recommended",
           "where": "Авиакомпания / сайты бронирования",
-          "how": "Достаточно брони/маршрута — не оплачивайте билет до одобрения."
+          "how": "KVAC Джакарта оценивает: однократная/двукратная виза 10 рабочих дней, многократная 7, подходящая срочная C-3 5. День подачи включён, праздники исключены. Дополнительные документы или интервью продлевают сроки. Официальный FAQ не требует билеты и бронь отеля для рассмотрения визы."
         },
         {
           "doc": "Спонсорское письмо (если поездку оплачивает другой)",
@@ -2340,7 +3342,7 @@
         {
           "icon": "🧍",
           "t": "Считать, что в одиночку = без визы",
-          "d": "Пробная безвизовая программа только для групп (от 3 человек). Индивидуальным путешественникам по-прежнему нужна виза C-3."
+          "d": "Пилот: 2026-05-28 — 2026-12-31. Только группы от 3 человек, набранные назначенными индонезийскими агентствами, максимум 15 дней. Трое самостоятельных друзей не подходят. Корейский партнёр регистрирует список в HiKorea за 24 часа до прибытия самолётом или 36 морем для предварительной проверки; обычно въезд и выезд вместе одним рейсом или судном."
         },
         {
           "icon": "💸",
@@ -2369,11 +3371,13 @@
       "items": [
         {
           "q": "Нужна ли индонезийцам виза в Корею?",
-          "a": "Индивидуальным путешественникам нужна туристическая виза C-3 для материковой Кореи. С 28 мая 2026 года туристические группы от 3 человек могут въезжать без визы в рамках пробной программы; на острове Чеджу действует отдельный безвизовый въезд."
+          "a": "Обычные паспорта, для которых нужна туристическая виза, не подходят для K-ETA для такой поездки. Если для обычной поездки в материковую Корею по вашему паспорту нужна виза, K-ETA не заменяет её и не оформляется дополнительно после визы. Возрастное освобождение от K-ETA не отменяет визу. Для групп и Чеджу действуют отдельные условия. Пилот: 2026-05-28 — 2026-12-31. Только группы от 3 человек, набранные назначенными индонезийскими агентствами, максимум 15 дней. Трое самостоятельных друзей не подходят. Корейский партнёр регистрирует список в HiKorea за 24 часа до прибытия самолётом или 36 морем для предварительной проверки; обычно въезд и выезд вместе одним рейсом или судном.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "Я путешествую один — могу ли я обойтись без визы?",
-          "a": "Нет. Пробная безвизовая программа распространяется только на группы не менее 3 человек. Самостоятельные путешественники должны подать на визу C-3."
+          "a": "Обычные паспорта, для которых нужна туристическая виза, не подходят для K-ETA для такой поездки. Если для обычной поездки в материковую Корею по вашему паспорту нужна виза, K-ETA не заменяет её и не оформляется дополнительно после визы. Возрастное освобождение от K-ETA не отменяет визу. Для групп и Чеджу действуют отдельные условия. Пилот: 2026-05-28 — 2026-12-31. Только группы от 3 человек, набранные назначенными индонезийскими агентствами, максимум 15 дней. Трое самостоятельных друзей не подходят. Корейский партнёр регистрирует список в HiKorea за 24 часа до прибытия самолётом или 36 морем для предварительной проверки; обычно въезд и выезд вместе одним рейсом или судном.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "Какое финансовое подтверждение мне нужно?",
@@ -2385,73 +3389,188 @@
         },
         {
           "q": "Сколько стоит сбор?",
-          "a": "Сборы различаются и не возвращаются даже при отказе. Уточните актуальную сумму в центре."
+          "a": "С 2026-07-01: краткосрочная однократная IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; многократная IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Срочность и дополнительные услуги оплачиваются отдельно; проверьте актуальную официальную таблицу.",
+          "factId": "visa-indonesia-fees"
         },
         {
           "q": "Нужна ли мне по-прежнему e-Arrival Card?",
-          "a": "Правила въездных документов, такие как e-Arrival Card, могут по-прежнему действовать по прибытии. Проверьте актуальные правила ближе к дате поездки."
+          "a": "Посетители с краткосрочной визой заполняют e-Arrival Card, если нет отдельного освобождения. Для безвизовых групп проверьте официальный навигатор и уполномоченного организатора; одобрение группы не заменяет автоматически декларацию.",
+          "factId": "earrival-card-how"
         },
         {
           "q": "Могут ли граждане Индонезии посетить Чеджу без визы?",
-          "a": "На острове Чеджу действует отдельная программа безвизового въезда (visa-free), открытая для многих гражданств, но только для пребывания на самом острове. Правила меняются, поэтому перед поездкой сверьтесь с актуальным списком стран, на которые она распространяется."
+          "a": "Туристы с обычным индонезийским паспортом могут использовать отдельный безвизовый режим Чеджу до 30 дней, прибывая напрямую из-за рубежа и оставаясь на острове. Въезд через материк не подходит. Поездка на материк требует соответствующей визы или предварительного разрешения; допуск оценивается на границе.",
+          "factId": "visa-indonesia-jeju"
         },
         {
           "q": "Сколько времени занимает оформление визы в Корею?",
-          "a": "После того как ваши документы приняты, оформление обычно занимает несколько рабочих дней, хотя срок зависит от сезона и конкретного центра. Подавайте заявление заблаговременно до поездки и уточняйте актуальные сроки там, где подаёте."
+          "a": "KVAC Джакарта оценивает: однократная/двукратная виза 10 рабочих дней, многократная 7, подходящая срочная C-3 5. День подачи включён, праздники исключены. Дополнительные документы или интервью продлевают сроки. Официальный FAQ не требует билеты и бронь отеля для рассмотрения визы.",
+          "factId": "visa-indonesia-processing"
         },
         {
           "q": "Нужна ли детям отдельная виза в Корею?",
           "a": "Да — каждому путешественнику, включая детей, нужна собственная виза. Заявление на несовершеннолетнего подаётся вместе с подтверждающими документами одного из родителей и доказательством родственной связи."
+        },
+        {
+          "q": "K-ETA?",
+          "a": "Обычные паспорта, для которых нужна туристическая виза, не подходят для K-ETA для такой поездки. Если для обычной поездки в материковую Корею по вашему паспорту нужна виза, K-ETA не заменяет её и не оформляется дополнительно после визы. Возрастное освобождение от K-ETA не отменяет визу. Для групп и Чеджу действуют отдельные условия.",
+          "factId": "keta-visa-distinction"
+        },
+        {
+          "q": "Многократная виза?",
+          "a": "Подходящие заявители могут оформить многократную визу на 5 или 10 лет; KVAC указывает 30 дней на посещение. Длительная действительность не означает непрерывное проживание или автоматическое право; проверьте категорию в KVAC.",
+          "factId": "visa-indonesia-multiple"
         }
       ]
+    },
+    "resources": {
+      "title": "Официальный источник",
+      "intro": "Обычные паспорта, для которых нужна туристическая виза, не подходят для K-ETA для такой поездки. Если для обычной поездки в материковую Корею по вашему паспорту нужна виза, K-ETA не заменяет её и не оформляется дополнительно после визы. Возрастное освобождение от K-ETA не отменяет визу. Для групп и Чеджу действуют отдельные условия.",
+      "items": [
+        {
+          "label": "Официальный источник · Korea Visa Portal",
+          "src": "www.visa.go.kr",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "label": "Официальный источник · KVAC Jakarta",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location"
+        },
+        {
+          "label": "Официальный источник · KVAC · IDR",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee"
+        },
+        {
+          "label": "Официальный источник · KVAC · FAQ",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/customer/faq"
+        },
+        {
+          "label": "Официальный источник · B-2 · Indonesia",
+          "src": "immigration.go.kr",
+          "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do"
+        },
+        {
+          "label": "Официальный источник · C-3-2",
+          "src": "www.moj.go.kr",
+          "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "📄",
+        "name": "Официальный источник · Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "Обычные паспорта, для которых нужна туристическая виза, не подходят для K-ETA для такой поездки. Если для обычной поездки в материковую Корею по вашему паспорту нужна виза, K-ETA не заменяет её и не оформляется дополнительно после визы. Возрастное освобождение от K-ETA не отменяет визу. Для групп и Чеджу действуют отдельные условия."
+      },
+      {
+        "icon": "🏢",
+        "name": "Официальный источник · KVAC Jakarta",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
+        "what": "Обычные паспорта, для которых нужна туристическая виза, не подходят для K-ETA для такой поездки. Если для обычной поездки в материковую Корею по вашему паспорту нужна виза, K-ETA не заменяет её и не оформляется дополнительно после визы. Возрастное освобождение от K-ETA не отменяет визу. Для групп и Чеджу действуют отдельные условия."
+      },
+      {
+        "icon": "🏢",
+        "name": "Официальный источник · KVAC · IDR",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
+        "what": "С 2026-07-01: краткосрочная однократная IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; многократная IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Срочность и дополнительные услуги оплачиваются отдельно; проверьте актуальную официальную таблицу."
+      },
+      {
+        "icon": "🏢",
+        "name": "Официальный источник · KVAC · FAQ",
+        "url": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+        "what": "KVAC Джакарта оценивает: однократная/двукратная виза 10 рабочих дней, многократная 7, подходящая срочная C-3 5. День подачи включён, праздники исключены. Дополнительные документы или интервью продлевают сроки. Официальный FAQ не требует билеты и бронь отеля для рассмотрения визы."
+      },
+      {
+        "icon": "🏢",
+        "name": "Официальный источник · B-2 · Indonesia",
+        "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
+        "what": "Пилот: 2026-05-28 — 2026-12-31. Только группы от 3 человек, набранные назначенными индонезийскими агентствами, максимум 15 дней. Трое самостоятельных друзей не подходят. Корейский партнёр регистрирует список в HiKorea за 24 часа до прибытия самолётом или 36 морем для предварительной проверки; обычно въезд и выезд вместе одним рейсом или судном."
+      },
+      {
+        "icon": "🏢",
+        "name": "Официальный источник · C-3-2",
+        "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
+        "what": "Для подходящих групповых виз C-3-2 Китая, Вьетнама, Филиппин, Индонезии, Индии и Камбоджи сбор за выдачу USD 15 отменён до 2026-12-31. Это не безвизовый въезд и не отмена индивидуальных, агентских или сервисных сборов."
+      }
+    ],
+    "factValueLabels": {
+      "C-3": "Туристическая C-3 (для индивидуальных)",
+      "Visa grant; designated group: 15 days": "Виза: по выданному разрешению; назначенная группа: 15 дней",
+      "KVAC Jakarta": "KVAC Jakarta"
+    },
+    "h1": "Виза в Корею для граждан Индонезии",
+    "ui": {
+      "visa": "Тип визы",
+      "stay": "Срок пребывания",
+      "entry": "Количество въездов",
+      "where": "Где получить",
+      "official": "Официальный источник",
+      "required": "Обязательно",
+      "conditional": "Если применимо",
+      "recommended": "Рекомендуется",
+      "confirm": "Сборы/правила могут меняться — уточняйте в официальных источниках",
+      "source": "Источник",
+      "updated": "Обновлено",
+      "tldr": "КРАТКО"
+    },
+    "applicationOffice": {
+      "factId": "kvac-jakarta-location",
+      "title": "KVAC Jakarta"
     }
   },
   "fr": {
+    "_README": "Per-nationality visa deep-dive: Indonesia → Korea. Grounded in official channels (Embassy of Korea in Indonesia, Korea Visa Portal) + 2026 immigration briefings. Fee/processing VOLATILE (factId visa-indonesia-c3). No invented figures.",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "code": "indonesia",
+    "factId": "visa-indonesia-c3",
+    "metaTitle": "Visa Indonésie vers Corée : en avez-vous besoin ? (2026) — Korea Trip Hub",
+    "metaDesc": "Visa pour la Corée pour les citoyens indonésiens · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "Guide des visas · Indonésie → Corée",
     "readingTime": "8 min de lecture",
-    "h1": "Visa pour la Corée pour les citoyens indonésiens",
-    "metaTitle": "Visa Indonésie vers Corée : en avez-vous besoin ? (2026) — Korea Trip Hub",
-    "metaDesc": "Les titulaires d'un passeport indonésien ont-ils besoin d'un visa pour la Corée du Sud ? Les touristes individuels ont besoin d'un visa C-3 (les groupes pourraient être exemptés de visa à partir de 2026). Où faire la demande, documents et où obtenir chacun, frais et délai de traitement.",
-    "ui": {
-      "visa": "Type de visa",
-      "stay": "Durée du séjour",
-      "entry": "Nombre d'entrées",
-      "where": "Où l'obtenir",
-      "official": "Source officielle",
-      "required": "Obligatoire",
-      "conditional": "Le cas échéant",
-      "recommended": "Recommandé",
-      "confirm": "Les frais et les règles peuvent changer — veuillez vérifier auprès des sources officielles",
-      "source": "Source",
-      "updated": "Mis à jour",
-      "tldr": "EN BREF"
+    "updated": "2026-10-05",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Arrivals at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
     },
     "verdict": {
       "headline": "Les voyageurs individuels indonésiens ont besoin d'un visa — mais les groupes peuvent en être dispensés.",
-      "sub": "Pour un voyage individuel et indépendant vers la Corée continentale, vous demandez le visa touristique C-3. Depuis le 28 mai 2026, les groupes de voyage de 3 personnes ou plus peuvent entrer sans visa pour de courts séjours dans le cadre d'un dispositif pilote — les particuliers ne sont pas encore éligibles.",
+      "sub": "Les passeports ordinaires nécessitant un visa touristique ne sont pas admissibles à K-ETA pour cette visite. Si votre passeport exige un visa pour une visite habituelle en Corée continentale, K-ETA ne le remplace pas et ne s’ajoute pas au visa. L’exemption d’âge K-ETA n’exempte pas de visa. Les programmes de groupes et de Jeju ont leurs propres conditions.",
       "type": "Touristique C-3 (individuel)",
-      "stay": "Jusqu'à 90 jours",
-      "entry": "Entrée unique (individuel) / exemption de visa pour les groupes éligibles"
+      "stay": "Visa : selon l’autorisation délivrée ; groupe désigné : 15 jours",
+      "entry": "C-3 / B-2"
     },
     "highlights": [
       {
         "icon": "👥",
         "tone": "green",
-        "title": "Exemption de visa pour les groupes à partir du 28 mai 2026",
-        "body": "Les groupes de voyage indonésiens d'au moins 3 personnes peuvent entrer sans visa pour de courts séjours dans le cadre d'un dispositif pilote. Cela concerne uniquement les groupes — les voyageurs individuels ont toujours besoin d'un visa."
+        "title": "Programme de groupes",
+        "body": "Essai : 2026-05-28 à 2026-12-31. Uniquement les groupes d’au moins 3 recrutés par une agence indonésienne désignée, séjour maximal 15 jours. Trois amis autonomes ne sont pas admissibles. Le partenaire coréen enregistre la liste HiKorea 24 heures avant l’arrivée aérienne ou 36 par mer pour contrôle préalable ; entrée et sortie normalement ensemble sur le même vol ou bateau."
       },
       {
         "icon": "🏝️",
         "tone": "amber",
         "title": "Île de Jeju — exemption de visa distincte",
-        "body": "Les citoyens indonésiens peuvent entrer à Jeju sans visa (Jeju uniquement, vols directs, sans correspondance vers le continent). C'est distinct du visa touristique pour le continent."
+        "body": "Les touristes indonésiens avec passeport ordinaire peuvent utiliser le programme distinct de Jeju jusqu’à 30 jours, en arrivant directement de l’étranger et restant sur Jeju. L’entrée par le continent n’est pas couverte. Le continent exige un visa approprié ou une autorisation préalable ; l’admission reste examinée."
+      },
+      {
+        "icon": "🗓️",
+        "tone": "blue",
+        "title": "Entrées multiples",
+        "body": "Les candidats admissibles peuvent demander un visa multiple de 5 ou 10 ans ; KVAC indique 30 jours par visite. La longue validité ne permet pas la résidence continue ni une admissibilité automatique ; vérifier la catégorie avec KVAC."
       }
     ],
     "tldr": [
       "Les voyageurs indépendants ont besoin d'un visa touristique C-3 pour la Corée continentale.",
       "Remplissez le formulaire sur visa.go.kr, puis déposez-le à l'ambassade de Corée / au KVAC Jakarta.",
       "Apportez votre passeport, une photo, un relevé bancaire de 3 mois, une attestation d'emploi et des bulletins de salaire.",
-      "Vous voyagez en groupe de 3 personnes ou plus ? Vous pourriez être éligible à l'entrée sans visa (dispositif pilote à partir de mai 2026)."
+      "Essai : 2026-05-28 à 2026-12-31. Uniquement les groupes d’au moins 3 recrutés par une agence indonésienne désignée, séjour maximal 15 jours. Trois amis autonomes ne sont pas admissibles. Le partenaire coréen enregistre la liste HiKorea 24 heures avant l’arrivée aérienne ou 36 par mer pour contrôle préalable ; entrée et sortie normalement ensemble sur le même vol ou bateau."
     ],
     "steps": {
       "title": "La demande, étape par étape (C-3 individuel)",
@@ -2459,7 +3578,7 @@
         {
           "n": 1,
           "title": "Confirmez le type de visa",
-          "detail": "Les voyageurs individuels demandent le visa touristique de court séjour C-3. (Les groupes de 3 personnes ou plus devraient interroger leur agence sur le dispositif pilote d'exemption de visa.)"
+          "detail": "Les passeports ordinaires nécessitant un visa touristique ne sont pas admissibles à K-ETA pour cette visite. Si votre passeport exige un visa pour une visite habituelle en Corée continentale, K-ETA ne le remplace pas et ne s’ajoute pas au visa. L’exemption d’âge K-ETA n’exempte pas de visa. Les programmes de groupes et de Jeju ont leurs propres conditions. Essai : 2026-05-28 à 2026-12-31. Uniquement les groupes d’au moins 3 recrutés par une agence indonésienne désignée, séjour maximal 15 jours. Trois amis autonomes ne sont pas admissibles. Le partenaire coréen enregistre la liste HiKorea 24 heures avant l’arrivée aérienne ou 36 par mer pour contrôle préalable ; entrée et sortie normalement ensemble sur le même vol ou bateau."
         },
         {
           "n": 2,
@@ -2481,12 +3600,12 @@
         {
           "n": 5,
           "title": "Payez les frais",
-          "detail": "Réglez les frais de visa et les éventuels frais de service. Les frais ne sont pas remboursables même en cas de refus — confirmez le montant au centre."
+          "detail": "Depuis 2026-07-01 : simple court IDR 680,000 + KVAC IDR 240,000 = IDR 920,000 ; multiple IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Express et services facultatifs en supplément ; vérifier le barème officiel actuel."
         },
         {
           "n": 6,
           "title": "Suivez et attendez",
-          "detail": "Suivez l'état de votre demande via le canal du centre. N'achetez pas de billets non remboursables avant l'approbation."
+          "detail": "KVAC Jakarta estime : visa simple/double 10 jours ouvrés, multiple 7, C-3 express admissible 5. Jour de dépôt inclus, jours fériés exclus. Documents ou entretien supplémentaires peuvent prolonger. La FAQ officielle n’impose pas de billets ni réservation d’hôtel pour l’examen du visa."
         },
         {
           "n": 7,
@@ -2543,9 +3662,9 @@
         },
         {
           "doc": "Réservation de vol aller-retour et d'hôtel",
-          "req": "required",
+          "req": "recommended",
           "where": "Compagnie aérienne / sites de réservation",
-          "how": "Les réservations/l'itinéraire suffisent — ne payez pas de billet avant l'approbation."
+          "how": "KVAC Jakarta estime : visa simple/double 10 jours ouvrés, multiple 7, C-3 express admissible 5. Jour de dépôt inclus, jours fériés exclus. Documents ou entretien supplémentaires peuvent prolonger. La FAQ officielle n’impose pas de billets ni réservation d’hôtel pour l’examen du visa."
         },
         {
           "doc": "Lettre de garant (si financé par un tiers)",
@@ -2575,7 +3694,7 @@
         {
           "icon": "🧍",
           "t": "Croire que voyager seul = sans visa",
-          "d": "Le dispositif pilote d'exemption de visa concerne uniquement les groupes (3 personnes ou plus). Les voyageurs individuels ont toujours besoin d'un visa C-3."
+          "d": "Essai : 2026-05-28 à 2026-12-31. Uniquement les groupes d’au moins 3 recrutés par une agence indonésienne désignée, séjour maximal 15 jours. Trois amis autonomes ne sont pas admissibles. Le partenaire coréen enregistre la liste HiKorea 24 heures avant l’arrivée aérienne ou 36 par mer pour contrôle préalable ; entrée et sortie normalement ensemble sur le même vol ou bateau."
         },
         {
           "icon": "💸",
@@ -2604,11 +3723,13 @@
       "items": [
         {
           "q": "Les Indonésiens ont-ils besoin d'un visa pour la Corée ?",
-          "a": "Les voyageurs individuels ont besoin d'un visa touristique C-3 pour la Corée continentale. Depuis le 28 mai 2026, les groupes de voyage de 3 personnes ou plus peuvent entrer sans visa dans le cadre d'un dispositif pilote ; l'île de Jeju dispose d'une entrée sans visa distincte."
+          "a": "Les passeports ordinaires nécessitant un visa touristique ne sont pas admissibles à K-ETA pour cette visite. Si votre passeport exige un visa pour une visite habituelle en Corée continentale, K-ETA ne le remplace pas et ne s’ajoute pas au visa. L’exemption d’âge K-ETA n’exempte pas de visa. Les programmes de groupes et de Jeju ont leurs propres conditions. Essai : 2026-05-28 à 2026-12-31. Uniquement les groupes d’au moins 3 recrutés par une agence indonésienne désignée, séjour maximal 15 jours. Trois amis autonomes ne sont pas admissibles. Le partenaire coréen enregistre la liste HiKorea 24 heures avant l’arrivée aérienne ou 36 par mer pour contrôle préalable ; entrée et sortie normalement ensemble sur le même vol ou bateau.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "Je voyage seul — puis-je me passer du visa ?",
-          "a": "Non. Le dispositif pilote d'exemption de visa s'applique uniquement aux groupes d'au moins 3 personnes. Les voyageurs indépendants doivent demander le visa C-3."
+          "a": "Les passeports ordinaires nécessitant un visa touristique ne sont pas admissibles à K-ETA pour cette visite. Si votre passeport exige un visa pour une visite habituelle en Corée continentale, K-ETA ne le remplace pas et ne s’ajoute pas au visa. L’exemption d’âge K-ETA n’exempte pas de visa. Les programmes de groupes et de Jeju ont leurs propres conditions. Essai : 2026-05-28 à 2026-12-31. Uniquement les groupes d’au moins 3 recrutés par une agence indonésienne désignée, séjour maximal 15 jours. Trois amis autonomes ne sont pas admissibles. Le partenaire coréen enregistre la liste HiKorea 24 heures avant l’arrivée aérienne ou 36 par mer pour contrôle préalable ; entrée et sortie normalement ensemble sur le même vol ou bateau.",
+          "factId": "visa-indonesia-c3"
         },
         {
           "q": "Quels justificatifs financiers me faut-il ?",
@@ -2620,25 +3741,137 @@
         },
         {
           "q": "Quel est le montant des frais ?",
-          "a": "Les frais varient et ne sont pas remboursables même en cas de refus. Confirmez le montant actuel au centre."
+          "a": "Depuis 2026-07-01 : simple court IDR 680,000 + KVAC IDR 240,000 = IDR 920,000 ; multiple IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Express et services facultatifs en supplément ; vérifier le barème officiel actuel.",
+          "factId": "visa-indonesia-fees"
         },
         {
           "q": "Ai-je encore besoin de l'e-Arrival Card ?",
-          "a": "Les règles relatives aux documents d'entrée comme l'e-Arrival Card peuvent toujours s'appliquer à l'arrivée. Vérifiez les règles en vigueur à l'approche de votre date de voyage."
+          "a": "Les visiteurs avec un visa de court séjour doivent remplir e-Arrival Card sauf autre exemption. Pour les groupes sans visa, consultez le guide officiel et l’organisateur agréé ; l’autorisation de groupe ne remplace pas automatiquement la déclaration.",
+          "factId": "earrival-card-how"
         },
         {
           "q": "Les Indonésiens peuvent-ils visiter Jeju sans visa ?",
-          "a": "L'île de Jeju applique un programme d'entrée sans visa (visa-free) distinct, ouvert à de nombreuses nationalités, mais valable uniquement pour un séjour sur l'île. Vérifiez la liste d'éligibilité en vigueur avant de vous y fier, car les règles évoluent."
+          "a": "Les touristes indonésiens avec passeport ordinaire peuvent utiliser le programme distinct de Jeju jusqu’à 30 jours, en arrivant directement de l’étranger et restant sur Jeju. L’entrée par le continent n’est pas couverte. Le continent exige un visa approprié ou une autorisation préalable ; l’admission reste examinée.",
+          "factId": "visa-indonesia-jeju"
         },
         {
           "q": "Combien de temps faut-il pour obtenir un visa pour la Corée ?",
-          "a": "Une fois vos documents acceptés, le traitement prend généralement quelques jours ouvrés, même si cela varie selon la saison et le centre. Faites votre demande bien avant votre voyage et confirmez les délais actuels là où vous déposez votre dossier."
+          "a": "KVAC Jakarta estime : visa simple/double 10 jours ouvrés, multiple 7, C-3 express admissible 5. Jour de dépôt inclus, jours fériés exclus. Documents ou entretien supplémentaires peuvent prolonger. La FAQ officielle n’impose pas de billets ni réservation d’hôtel pour l’examen du visa.",
+          "factId": "visa-indonesia-processing"
         },
         {
           "q": "Les enfants ont-ils besoin de leur propre visa pour la Corée ?",
           "a": "Oui : chaque voyageur, y compris les enfants, a besoin de son propre visa. La demande d'un mineur est déposée avec les justificatifs d'un parent et une preuve du lien familial."
+        },
+        {
+          "q": "K-ETA?",
+          "a": "Les passeports ordinaires nécessitant un visa touristique ne sont pas admissibles à K-ETA pour cette visite. Si votre passeport exige un visa pour une visite habituelle en Corée continentale, K-ETA ne le remplace pas et ne s’ajoute pas au visa. L’exemption d’âge K-ETA n’exempte pas de visa. Les programmes de groupes et de Jeju ont leurs propres conditions.",
+          "factId": "keta-visa-distinction"
+        },
+        {
+          "q": "Entrées multiples?",
+          "a": "Les candidats admissibles peuvent demander un visa multiple de 5 ou 10 ans ; KVAC indique 30 jours par visite. La longue validité ne permet pas la résidence continue ni une admissibilité automatique ; vérifier la catégorie avec KVAC.",
+          "factId": "visa-indonesia-multiple"
         }
       ]
+    },
+    "resources": {
+      "title": "Source officielle",
+      "intro": "Les passeports ordinaires nécessitant un visa touristique ne sont pas admissibles à K-ETA pour cette visite. Si votre passeport exige un visa pour une visite habituelle en Corée continentale, K-ETA ne le remplace pas et ne s’ajoute pas au visa. L’exemption d’âge K-ETA n’exempte pas de visa. Les programmes de groupes et de Jeju ont leurs propres conditions.",
+      "items": [
+        {
+          "label": "Source officielle · Korea Visa Portal",
+          "src": "www.visa.go.kr",
+          "url": "https://www.visa.go.kr"
+        },
+        {
+          "label": "Source officielle · KVAC Jakarta",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location"
+        },
+        {
+          "label": "Source officielle · KVAC · IDR",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee"
+        },
+        {
+          "label": "Source officielle · KVAC · FAQ",
+          "src": "www.visaforkorea-in.com",
+          "url": "https://www.visaforkorea-in.com/id-ID/customer/faq"
+        },
+        {
+          "label": "Source officielle · B-2 · Indonesia",
+          "src": "immigration.go.kr",
+          "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do"
+        },
+        {
+          "label": "Source officielle · C-3-2",
+          "src": "www.moj.go.kr",
+          "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do"
+        }
+      ]
+    },
+    "official": [
+      {
+        "icon": "📄",
+        "name": "Source officielle · Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "Les passeports ordinaires nécessitant un visa touristique ne sont pas admissibles à K-ETA pour cette visite. Si votre passeport exige un visa pour une visite habituelle en Corée continentale, K-ETA ne le remplace pas et ne s’ajoute pas au visa. L’exemption d’âge K-ETA n’exempte pas de visa. Les programmes de groupes et de Jeju ont leurs propres conditions."
+      },
+      {
+        "icon": "🏢",
+        "name": "Source officielle · KVAC Jakarta",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
+        "what": "Les passeports ordinaires nécessitant un visa touristique ne sont pas admissibles à K-ETA pour cette visite. Si votre passeport exige un visa pour une visite habituelle en Corée continentale, K-ETA ne le remplace pas et ne s’ajoute pas au visa. L’exemption d’âge K-ETA n’exempte pas de visa. Les programmes de groupes et de Jeju ont leurs propres conditions."
+      },
+      {
+        "icon": "🏢",
+        "name": "Source officielle · KVAC · IDR",
+        "url": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
+        "what": "Depuis 2026-07-01 : simple court IDR 680,000 + KVAC IDR 240,000 = IDR 920,000 ; multiple IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Express et services facultatifs en supplément ; vérifier le barème officiel actuel."
+      },
+      {
+        "icon": "🏢",
+        "name": "Source officielle · KVAC · FAQ",
+        "url": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+        "what": "KVAC Jakarta estime : visa simple/double 10 jours ouvrés, multiple 7, C-3 express admissible 5. Jour de dépôt inclus, jours fériés exclus. Documents ou entretien supplémentaires peuvent prolonger. La FAQ officielle n’impose pas de billets ni réservation d’hôtel pour l’examen du visa."
+      },
+      {
+        "icon": "🏢",
+        "name": "Source officielle · B-2 · Indonesia",
+        "url": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
+        "what": "Essai : 2026-05-28 à 2026-12-31. Uniquement les groupes d’au moins 3 recrutés par une agence indonésienne désignée, séjour maximal 15 jours. Trois amis autonomes ne sont pas admissibles. Le partenaire coréen enregistre la liste HiKorea 24 heures avant l’arrivée aérienne ou 36 par mer pour contrôle préalable ; entrée et sortie normalement ensemble sur le même vol ou bateau."
+      },
+      {
+        "icon": "🏢",
+        "name": "Source officielle · C-3-2",
+        "url": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
+        "what": "Les visas de groupe C-3-2 admissibles pour la Chine, le Vietnam, les Philippines, l’Indonésie, l’Inde et le Cambodge sont exonérés des frais de délivrance USD 15 jusqu’au 2026-12-31. Ce n’est ni une exemption de visa ni des frais individuels, d’agence ou de service."
+      }
+    ],
+    "factValueLabels": {
+      "C-3": "Touristique C-3 (individuel)",
+      "Visa grant; designated group: 15 days": "Visa : selon l’autorisation délivrée ; groupe désigné : 15 jours",
+      "KVAC Jakarta": "KVAC Jakarta"
+    },
+    "h1": "Visa pour la Corée pour les citoyens indonésiens",
+    "ui": {
+      "visa": "Type de visa",
+      "stay": "Durée du séjour",
+      "entry": "Nombre d'entrées",
+      "where": "Où l'obtenir",
+      "official": "Source officielle",
+      "required": "Obligatoire",
+      "conditional": "Le cas échéant",
+      "recommended": "Recommandé",
+      "confirm": "Les frais et les règles peuvent changer — veuillez vérifier auprès des sources officielles",
+      "source": "Source",
+      "updated": "Mis à jour",
+      "tldr": "EN BREF"
+    },
+    "applicationOffice": {
+      "factId": "kvac-jakarta-location",
+      "title": "KVAC Jakarta"
     }
   }
 }

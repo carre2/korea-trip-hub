@@ -340,3 +340,7 @@ nav.links a{font-weight:700;color:var(--text)}
 .guide-photo .pill{max-width:calc(100% - 24px);line-height:1.4}
 .guide-photo-credits{display:grid;gap:8px;margin-top:28px;font-size:.875rem;color:var(--muted)}
 .guide-photo-credits a{text-decoration:underline;overflow-wrap:anywhere}
+.vf-entry-answer,.entry-keta-only{margin:1rem 0;padding:1rem 1.2rem;border:1px solid var(--border);border-radius:18px;background:var(--surface);line-height:1.7}
+.entry-keta-only>summary{font-weight:700;cursor:pointer}
+.entry-visa-required h3{font-size:1.1rem}
+.vcg-office p{overflow-wrap:anywhere}

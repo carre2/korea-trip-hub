@@ -15,10 +15,10 @@
     "review:export": "node scripts/export-review.mjs",
     "gen:visafaq": "node scripts/gen-visa-faq.mjs",
     "prebuild": "node scripts/gen-visa-faq.mjs && node scripts/verify-i18n.mjs && node scripts/verify-content-i18n.mjs && node scripts/check-facts.mjs && node scripts/verify-audit-coverage.mjs && node scripts/test-festivals.mjs && node scripts/gen-festival-calendars.mjs",
-    "postbuild": "node scripts/verify-seo.mjs",
+    "postbuild": "node scripts/verify-seo.mjs && node scripts/test-entry-guidance.mjs --export",
     "indexnow": "node scripts/indexnow.mjs",
     "verify:audit": "node scripts/verify-audit-coverage.mjs",
-    "test:audit": "node scripts/test-trip-state.mjs && node scripts/test-audit.mjs && node scripts/test-sharing-budget.mjs && node scripts/test-festivals.mjs && node scripts/test-language-switch.mjs"
+    "test:audit": "node scripts/test-trip-state.mjs && node scripts/test-audit.mjs && node scripts/test-sharing-budget.mjs && node scripts/test-festivals.mjs && node scripts/test-language-switch.mjs && node scripts/test-entry-guidance.mjs"
   },
   "dependencies": {
     "next": "^14.2.35",

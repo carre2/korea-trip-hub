@@ -98,6 +98,13 @@ export default function VisaCountryGuide({ guide, m }) {
       )}
 
       {/* Jurisdiction selector */}
+      {g.applicationOffice && fact(g.applicationOffice.factId)?.status === 'VERIFIED' && (
+        <section className="entry-guidance vcg-office">
+          <h2>{g.applicationOffice.title}</h2>
+          <p>{fact(g.applicationOffice.factId).value.address}</p>
+          <p className="entry-reviewed"><time dateTime={fact(g.applicationOffice.factId).verified}>{fact(g.applicationOffice.factId).verified}</time> · <a href={fact(g.applicationOffice.factId).source} target="_blank" rel="noopener noreferrer">{ui.source || 'Source'}: KVAC Jakarta ↗</a></p>
+        </section>
+      )}
       {g.jurisdiction && (
         <section className="gv-sec">
           <h2>{g.jurisdiction.title}</h2>
