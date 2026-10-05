@@ -3,6 +3,8 @@
 // from anywhere — not just the home page.
 import { getMessages, locales, localeNames } from "../lib/i18n";
 import { legalSlugs, legalFor } from "../lib/legal";
+import ShareTools from './ShareTools';
+import shareLabels from '../data/share-ui.json';
 
 export default function SiteFooter({ locale }) {
   const m = getMessages(locale);
@@ -12,6 +14,7 @@ export default function SiteFooter({ locale }) {
   return (
     <footer className="sitefoot">
       <div className="wrap sitefoot-in">
+        <details className="sitefoot-share"><summary>{(shareLabels[locale] || shareLabels.en).heading}</summary><ShareTools locale={locale} /></details>
         <div className="sitefoot-brand">
           <span className="mark">◆</span> Korea<b>Trip</b>Hub
         </div>

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {tripShareUrl,pageShareUrl,emailShareUrl} from '../lib/share.mjs';
+import {tripShareUrl,pageShareUrl,emailShareUrl,socialShareUrl,shareMessage} from '../lib/share.mjs';
 import {decodeTrip} from '../lib/trip-state.mjs';
 import {calculateBudget,budgetCurrency} from '../lib/budget.mjs';
 import {eventPayload,nextStepTarget} from '../lib/analytics-policy.mjs';
@@ -58,6 +58,32 @@ test('email draft safely encodes multilingual titles and the entire shared URL',
  const email=new URL(emailShareUrl(title,link));assert.equal(email.protocol,'mailto:');
  assert.equal(email.searchParams.get('subject'),title);assert.equal(email.searchParams.get('body'),`${title}\n\n${link}`);
  assert.equal([...email.searchParams].length,2);
+});
+
+test('messaging composers preserve the full selected trip URL and multilingual title',()=>{
+ const title='서울 & วันหยุด #여행';
+ const link=tripShareUrl({origin:'https://ktriphub.com',locale:'th',trip:{route:'seoul-3-days',excluded:['2-0'],order:['1-2','1-0']},places:['dest:bukchon']});
+ for(const service of ['whatsapp','line']){
+  const url=new URL(socialShareUrl(service,title,link));
+  assert.equal(url.protocol,'https:');assert.equal(url.searchParams.get('text'),shareMessage(title,link));
+ }
+ const telegram=new URL(socialShareUrl('telegram',title,link));
+ assert.equal(telegram.searchParams.get('url'),link);assert.equal(telegram.searchParams.get('text'),title);
+ assert.equal(new URL(socialShareUrl('facebook',title,link)).searchParams.get('u'),link);
+ const gmail=new URL(socialShareUrl('gmail',title,link));
+ assert.equal(gmail.searchParams.get('su'),title);assert.equal(gmail.searchParams.get('body'),shareMessage(title,link));
+ assert.equal(gmail.searchParams.has('to'),false);
+ for(const service of ['wechat','kakaotalk','instagram','zalo','messenger','unknown'])assert.equal(socialShareUrl(service,title,link),null);
+});
+
+test('chat help keeps its app placeholder in every language and QR images encode long shared links locally',async()=>{
+ const labels=read('data/share-ui.json');
+ for(const t of Object.values(labels))for(const key of ['appCopied','appManual','messageLabel'])assert.ok(t[key].includes('{app}'));
+ const QRCode=(await import('qrcode')).default;
+ const url=tripShareUrl({origin:'https://ktriphub.com',locale:'zh-TW',trip:{route:'seoul-3-days',excluded:[],order:['1-2','1-0']},places:['dest:bukchon','food:bbq']});
+ const png=await QRCode.toDataURL(url,{width:320,margin:4,errorCorrectionLevel:'M'});
+ assert.ok(png.startsWith('data:image/png;base64,'));
+ assert.ok(QRCode.create(url).modules.size>0);
 });
 test('budget uses only user quotes and positive manual rates; invalid and empty input has no total',()=>{
  assert.deepEqual(calculateBudget(['100000','200000','','25000','0'],'12','IDR'),{total:325000,converted:3900000});
