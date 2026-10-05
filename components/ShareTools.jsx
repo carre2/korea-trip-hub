@@ -6,7 +6,7 @@ import { pageShareUrl, emailShareUrl, shareMessage, socialShareUrl } from '../li
 import { track } from '../lib/analytics';
 import { PLACES_KEY } from '../lib/places-state.mjs';
 
-export default function ShareTools({ locale, title, getUrl, routeId, selection = false }) {
+export default function ShareTools({ locale, title, getUrl, routeId, selection = false, expandPlatforms = false }) {
   const t = labels[locale] || labels.en;
   const path = usePathname();
   const [native, setNative] = useState(false);
@@ -92,7 +92,7 @@ export default function ShareTools({ locale, title, getUrl, routeId, selection =
       <button type="button" className="btn ghost" disabled={!ready} onClick={copy}>{t.copy}</button>
       <button type="button" className="btn ghost" disabled={!ready} onClick={email}>{t.email}</button>
     </div>
-    <details className="share-more">
+      <details className="share-more" open={expandPlatforms || undefined}>
       <summary>{t.more}</summary>
       <p className="share-note">{t.openHint}</p>
       <div className="share-platforms">

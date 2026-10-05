@@ -3,10 +3,14 @@
 // Client component — intentionally imports NOTHING from lib/i18n so the locale
 // message dictionaries never end up in the client bundle. The server layout
 // passes the few strings this needs (nav labels + locale list) as props.
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import ShareTools from "./ShareTools";
+import shareLabels from "../data/share-ui.json";
 
 export default function Header({ locale, nav = {}, labels: ui = {}, locales = [], localeNames = {}, rtl = false }) {
   const t = nav;
+  const sharing = shareLabels[locale] || shareLabels.en;
+  const shareDialog = useRef(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [onHome, setOnHome] = useState(false);
 
@@ -73,8 +77,13 @@ export default function Header({ locale, nav = {}, labels: ui = {}, locales = []
           <a href={`/${locale}/itinerary/`} onClick={close}>{t.planner}</a>
           <a className="nav-mytrip" href={onHome ? '#planner' : `/${locale}/#planner`} onClick={close}>{ui.myTrip}</a>
           <a href={`/${locale}/plan/help/`} onClick={close}>{t.help}</a>
+          <button type="button" className="mobile-share trip-text-button" onClick={() => { close(); shareDialog.current?.showModal(); }}>{sharing.button}</button>
         <button type="button" className="mobile-theme trip-text-button" onClick={toggleTheme}>◐ {ui.theme}</button></nav>
         <div className="nav-right">
+          <button type="button" className="header-share" aria-label={sharing.button} aria-haspopup="dialog" onClick={() => { close(); shareDialog.current?.showModal(); }}>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 10.5 6.8-4M8.6 13.5l6.8 4"/></svg>
+            <span>{sharing.button}</span>
+          </button>
           <label className="langsel" title={ui.language}>
             <span className="globe">🌐</span>
             <select aria-label={ui.language} value={locale} onChange={onLang}>
@@ -90,6 +99,10 @@ export default function Header({ locale, nav = {}, labels: ui = {}, locales = []
           </button>
         </div>
       </div>
+      <dialog ref={shareDialog} className="header-share-dialog" aria-label={sharing.heading} onClick={(event) => { if (event.target === event.currentTarget) shareDialog.current?.close(); }}>
+        <div className="header-share-dialog-top"><button type="button" className="btn ghost" onClick={() => shareDialog.current?.close()}>{sharing.close} ✕</button></div>
+        <ShareTools locale={locale} expandPlatforms />
+      </dialog>
     </header>
   );
 }

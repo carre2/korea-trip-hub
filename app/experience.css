@@ -134,6 +134,14 @@ nav.links a {white-space:normal;font-size:1.125rem;line-height:1.4;min-height:44
 .sitefoot {margin-top:0}.cw-bubble {display:none}.nearby-btn,.stay-links a {min-height:44px}
 .bookcta-btn {flex-wrap:wrap}.bookcta-txt {flex-basis:150px}
 .consent {max-height:50dvh;overflow:auto;z-index:100}
+.header-share {display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 14px;border:1px solid var(--border-strong);border-radius:999px;background:var(--surface);color:var(--text);font:inherit;font-weight:700;cursor:pointer;white-space:nowrap}
+.mobile-share {display:none}
+.header-share-dialog {width:min(620px,calc(100vw - 32px));max-height:calc(100dvh - 32px);padding:16px;border:1px solid var(--border-strong);border-radius:16px;background:var(--surface);color:var(--text);overflow:auto;box-shadow:var(--shadow-lg)}
+.header-share-dialog::backdrop {background:rgba(0,0,0,.6)}
+.header-share-dialog-top {display:flex;justify-content:flex-end}
+.header-share-dialog .share-tools {margin:12px 0 0}
+@media(max-width:599px) {.header-share {display:none}.mobile-share {display:block;text-align:start;min-height:44px;padding:14px 8px}}
+@media print {.header-share,.header-share-dialog {display:none!important}}
 @media(max-width:1279px) {
   .brand {margin-right:auto}.nav-right {margin-left:0;order:3;gap:8px}
   .nav-toggle {display:grid;order:4;place-items:center;width:44px;height:44px;font-size:20px;background:var(--surface);border:1px solid var(--border);border-radius:10px;color:var(--text);cursor:pointer;flex-shrink:0}

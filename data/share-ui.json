@@ -19,7 +19,9 @@
     "messageLabel": "Message for {app}",
     "qr": "Show QR code",
     "qrHint": "Scan this QR code with WeChat or your phone camera to open the link. You can also save the QR image and share it in a chat.",
-    "saveQr": "Save QR image"
+    "saveQr": "Save QR image",
+    "button": "Share",
+    "close": "Close"
   },
   "ko": {
     "heading": "친구에게 공유 · 나에게 저장",
@@ -41,7 +43,9 @@
     "messageLabel": "{app}에 보낼 메시지",
     "qr": "QR 코드 보기",
     "qrHint": "WeChat이나 휴대폰 카메라로 QR 코드를 스캔해 링크를 여세요. QR 이미지를 저장해 채팅으로 보낼 수도 있습니다.",
-    "saveQr": "QR 이미지 저장"
+    "saveQr": "QR 이미지 저장",
+    "button": "공유",
+    "close": "닫기"
   },
   "id": {
     "heading": "Bagikan ke teman atau simpan untuk diri sendiri",
@@ -63,7 +67,9 @@
     "messageLabel": "Pesan untuk {app}",
     "qr": "Tampilkan kode QR",
     "qrHint": "Pindai kode QR dengan WeChat atau kamera ponsel untuk membuka tautan. Kamu juga dapat menyimpan gambar QR dan membagikannya ke chat.",
-    "saveQr": "Simpan gambar QR"
+    "saveQr": "Simpan gambar QR",
+    "button": "Bagikan",
+    "close": "Tutup"
   },
   "vi": {
     "heading": "Chia sẻ với bạn bè hoặc lưu cho mình",
@@ -85,7 +91,9 @@
     "messageLabel": "Tin nhắn cho {app}",
     "qr": "Hiện mã QR",
     "qrHint": "Quét mã QR bằng WeChat hoặc camera điện thoại để mở liên kết. Bạn cũng có thể lưu ảnh QR và gửi trong cuộc trò chuyện.",
-    "saveQr": "Lưu ảnh QR"
+    "saveQr": "Lưu ảnh QR",
+    "button": "Chia sẻ",
+    "close": "Đóng"
   },
   "th": {
     "heading": "แชร์ให้เพื่อนหรือเก็บไว้ให้ตัวเอง",
@@ -107,7 +115,9 @@
     "messageLabel": "ข้อความสำหรับ {app}",
     "qr": "แสดงรหัส QR",
     "qrHint": "สแกนรหัส QR ด้วย WeChat หรือกล้องโทรศัพท์เพื่อเปิดลิงก์ หรือบันทึกภาพ QR แล้วส่งในแชต",
-    "saveQr": "บันทึกภาพ QR"
+    "saveQr": "บันทึกภาพ QR",
+    "button": "แชร์",
+    "close": "ปิด"
   },
   "ms": {
     "heading": "Kongsi dengan rakan atau simpan untuk diri sendiri",
@@ -129,7 +139,9 @@
     "messageLabel": "Mesej untuk {app}",
     "qr": "Paparkan kod QR",
     "qrHint": "Imbas kod QR dengan WeChat atau kamera telefon untuk membuka pautan. Anda juga boleh menyimpan imej QR dan berkongsi dalam sembang.",
-    "saveQr": "Simpan imej QR"
+    "saveQr": "Simpan imej QR",
+    "button": "Kongsi",
+    "close": "Tutup"
   },
   "ja": {
     "heading": "友達に共有・自分用に保存",
@@ -151,7 +163,9 @@
     "messageLabel": "{app}に送るメッセージ",
     "qr": "QRコードを表示",
     "qrHint": "WeChatまたはスマートフォンのカメラでQRコードを読み取るとリンクを開けます。QR画像を保存してチャットで共有することもできます。",
-    "saveQr": "QR画像を保存"
+    "saveQr": "QR画像を保存",
+    "button": "共有",
+    "close": "閉じる"
   },
   "zh": {
     "heading": "分享给朋友或保存给自己",
@@ -173,7 +187,9 @@
     "messageLabel": "发送到{app}的消息",
     "qr": "显示二维码",
     "qrHint": "用WeChat或手机相机扫描二维码打开链接。也可以保存二维码图片并发送到聊天中。",
-    "saveQr": "保存二维码图片"
+    "saveQr": "保存二维码图片",
+    "button": "分享",
+    "close": "关闭"
   },
   "zh-TW": {
     "heading": "分享給朋友或儲存給自己",
@@ -195,7 +211,9 @@
     "messageLabel": "傳送到{app}的訊息",
     "qr": "顯示QR碼",
     "qrHint": "用WeChat或手機相機掃描QR碼開啟連結。也可以儲存QR碼圖片並傳送到聊天中。",
-    "saveQr": "儲存QR碼圖片"
+    "saveQr": "儲存QR碼圖片",
+    "button": "分享",
+    "close": "關閉"
   },
   "es": {
     "heading": "Comparte con amigos o guarda para ti",
@@ -217,7 +235,9 @@
     "messageLabel": "Mensaje para {app}",
     "qr": "Mostrar código QR",
     "qrHint": "Escanea este QR con WeChat o la cámara del teléfono para abrir el enlace. También puedes guardar la imagen QR y compartirla en un chat.",
-    "saveQr": "Guardar imagen QR"
+    "saveQr": "Guardar imagen QR",
+    "button": "Compartir",
+    "close": "Cerrar"
   },
   "fr": {
     "heading": "Partager avec des amis ou garder pour soi",
@@ -239,7 +259,9 @@
     "messageLabel": "Message pour {app}",
     "qr": "Afficher le code QR",
     "qrHint": "Scannez ce QR avec WeChat ou l’appareil photo du téléphone pour ouvrir le lien. Vous pouvez aussi enregistrer l’image QR et la partager dans une discussion.",
-    "saveQr": "Enregistrer l’image QR"
+    "saveQr": "Enregistrer l’image QR",
+    "button": "Partager",
+    "close": "Fermer"
   },
   "ru": {
     "heading": "Поделиться с друзьями или сохранить для себя",
@@ -261,6 +283,8 @@
     "messageLabel": "Сообщение для {app}",
     "qr": "Показать QR-код",
     "qrHint": "Отсканируйте QR-код в WeChat или камерой телефона, чтобы открыть ссылку. Можно также сохранить изображение QR и отправить его в чат.",
-    "saveQr": "Сохранить изображение QR"
+    "saveQr": "Сохранить изображение QR",
+    "button": "Поделиться",
+    "close": "Закрыть"
   }
 }
