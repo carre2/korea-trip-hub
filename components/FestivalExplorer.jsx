@@ -3,7 +3,7 @@ import {useEffect,useState} from 'react';
 import PeekMascot from './PeekMascot';
 import ShareTools from './ShareTools';
 import SavePlace from './SavePlace';
-import {koreaDay,eventStatus,filterEvents,eventCalendar,eventShareUrl} from '../lib/festivals.mjs';
+import {koreaDay,eventStatus,filterEvents,eventShareUrl} from '../lib/festivals.mjs';
 
 export default function FestivalExplorer({locale,t,events,initialDay}) {
   const [today,setToday]=useState(initialDay);
@@ -18,11 +18,6 @@ export default function FestivalExplorer({locale,t,events,initialDay}) {
   },[events]);
   const invalid=from && until && from>until;
   const shown=invalid?[]:filterEvents(events,{today,city,type,from,until,ended});
-  function calendar(e,copy) {
-    const data=eventCalendar(e,copy.name,copy.venue,eventShareUrl(locale,e.id));
-    const url=URL.createObjectURL(new Blob([data],{type:'text/calendar;charset=utf-8'}));
-    const a=document.createElement('a');a.href=url;a.download=`${e.id}.ics`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
-  }
   return <div className="festival-explorer">
     <form className="festival-filters" onSubmit={e=>e.preventDefault()}>
       <label>{t.region}<select value={city} onChange={e=>setCity(e.target.value)}><option value="">{t.all}</option><option value="busan">{t.busan}</option><option value="jinju">{t.jinju}</option></select></label>
@@ -44,7 +39,7 @@ export default function FestivalExplorer({locale,t,events,initialDay}) {
           {!stale ? <p className="festival-dates">🗓️ <time dateTime={e.start}>{e.start}</time>{e.end!==e.start && <> — <time dateTime={e.end}>{e.end}</time></>}</p> : <p>{t.stale}</p>}
           <p>📍 {copy.venue}</p><p className="festival-check">{t.asOf} <time dateTime={e.verified}>{e.verified}</time> · <a href={e.source} target="_blank" rel="noopener noreferrer">{e.source_name} ↗</a></p>
           <p className="festival-note">{t.confirm}</p><p className="festival-note">{t.ticketNote}</p>
-          <div className="festival-actions"><a className="btn" href={e.official} target="_blank" rel="noopener noreferrer">{t.official} ↗</a><a className="btn ghost" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(e.map)}`} target="_blank" rel="noopener noreferrer">🗺️ {t.map}</a>{e.tickets && <a className="btn ghost" href={e.tickets} target="_blank" rel="noopener noreferrer">🎟️ {t.tickets} ↗</a>}{!stale && <button type="button" className="btn ghost" onClick={()=>calendar(e,copy)}>🗓️ {t.calendar}</button>}</div>
+          <div className="festival-actions"><a className="btn" href={e.official} target="_blank" rel="noopener noreferrer">{t.official} ↗</a><a className="btn ghost" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(e.map)}`} target="_blank" rel="noopener noreferrer">🗺️ {t.map}</a>{e.tickets && <a className="btn ghost" href={e.tickets} target="_blank" rel="noopener noreferrer">🎟️ {t.tickets} ↗</a>}{!stale && <a className="btn ghost" href={`/festival-calendars/${locale}/${e.id}.ics`} download={`${e.id}.ics`}>🗓️ {t.calendar}</a>}</div>
           <details className="festival-sharing"><summary>{t.share}</summary><ShareTools locale={locale} title={copy.name} getUrl={()=>eventShareUrl(locale,e.id)}/></details>
         </div>
       </section>;
