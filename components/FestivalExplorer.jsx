@@ -36,7 +36,7 @@ export default function FestivalExplorer({locale,t,events,initialDay}) {
       return <section className={`festival-card festival-${e.type} travel-has-peek`} id={e.id} key={e.id}>
         <PeekMascot animal={e.type==='culture'?'cat':i%2?'bunny':'bear'}/>
         {photo ? <figure className="festival-art festival-photo">
-          <div className="festival-photo-frame"><img src={photo.src} srcSet={`${photo.small} 500w, ${photo.src} 1000w`} sizes="(max-width:599px) calc(100vw - 60px), (max-width:1000px) 45vw, 320px" alt={`${copy.name} · ${photo.year}`} width="1000" height="667" loading="lazy" decoding="async" style={{objectPosition:photo.position}}/><span className="festival-photo-year">{t.photoArchive} · {photo.year}</span></div>
+          <div className="festival-photo-frame"><img src={photo.src} srcSet={`${photo.small} 500w, ${photo.src} 1000w`} sizes="(max-width:599px) calc(100vw - 60px), (max-width:1000px) 45vw, 320px" alt={copy.name} width="1000" height="667" loading="lazy" decoding="async" style={{objectPosition:photo.position}}/></div>
           <figcaption><a href={photo.source} target="_blank" rel="noopener noreferrer">© {photo.author}</a> · <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer">{photo.license}</a><small>{t.photoChanges}</small></figcaption>
         </figure> : <div className="festival-art" aria-hidden="true"><span>{e.icon}</span><span>✦ 🌷 ✧</span></div>}
         <div className="festival-card-body"><div className="festival-info"><div className="festival-badges"><span>{t[e.type]}</span><span>{t[state]}</span></div>
