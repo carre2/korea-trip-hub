@@ -6,13 +6,18 @@
 import { useEffect, useRef, useState } from "react";
 import ShareTools from "./ShareTools";
 import shareLabels from "../data/share-ui.json";
+import visaSwitchLabels from "../data/visa-switch-ui.json";
+import { languageSwitchOptions } from "../lib/language-switch.mjs";
 
 export default function Header({ locale, nav = {}, labels: ui = {}, festivalTitle, locales = [], localeNames = {}, rtl = false }) {
   const t = nav;
   const sharing = shareLabels[locale] || shareLabels.en;
   const shareDialog = useRef(null);
+  const languageDialog = useRef(null);
+  const [languageChoice, setLanguageChoice] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [onHome, setOnHome] = useState(false);
+  useEffect(() => { if(languageChoice)languageDialog.current?.showModal(); },[languageChoice]);
 
   // Keep <html lang/dir> in sync with the active locale.
   useEffect(() => {
@@ -34,12 +39,11 @@ export default function Header({ locale, nav = {}, labels: ui = {}, festivalTitl
   function onLang(e) {
     const code = e.target.value;
     if (!code || code === locale) return;
-    // Preserve the current path, query and hash — only swap the locale segment —
-    // so switching language keeps you on the same page instead of the locale home.
-    const parts = window.location.pathname.split("/");
-    if (parts.length > 1 && locales.includes(parts[1])) parts[1] = code;
-    else parts.splice(1, 0, code);
-    window.location.assign(parts.join("/") + window.location.search + window.location.hash);
+    const choice=languageSwitchOptions(window.location.pathname,code,locales,window.location.search,window.location.hash);
+    if(!choice)return;
+    if(choice.countryUrl){
+      setLanguageChoice({...choice,code});
+    }else window.location.assign(choice.languageUrl);
   }
 
   function toggleTheme() {
@@ -103,6 +107,18 @@ export default function Header({ locale, nav = {}, labels: ui = {}, festivalTitl
       <dialog ref={shareDialog} className="header-share-dialog" aria-label={sharing.heading} onClick={(event) => { if (event.target === event.currentTarget) shareDialog.current?.close(); }}>
         <div className="header-share-dialog-top"><button type="button" className="share-close" aria-label={sharing.close} onClick={() => shareDialog.current?.close()}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
         <ShareTools locale={locale} expandPlatforms />
+      </dialog>
+      <dialog ref={languageDialog} className="visa-language-dialog" lang={languageChoice?.code} aria-labelledby="visa-language-title" aria-describedby="visa-language-description" onClose={()=>setLanguageChoice(null)} onClick={event=>{if(event.target===event.currentTarget)languageDialog.current?.close();}}>
+        {languageChoice && <>
+          <span className="visa-language-icon" aria-hidden="true">🌐 🛂</span>
+          <h2 id="visa-language-title">{visaSwitchLabels[languageChoice.code].title}</h2>
+          <p id="visa-language-description">{visaSwitchLabels[languageChoice.code].body}</p>
+          <div className="visa-language-actions">
+            <button type="button" autoFocus className="btn primary" onClick={()=>window.location.assign(languageChoice.countryUrl)}>{visaSwitchLabels[languageChoice.code].country} →</button>
+            <button type="button" className="btn" onClick={()=>window.location.assign(languageChoice.languageUrl)}>{visaSwitchLabels[languageChoice.code].language}</button>
+            <button type="button" className="trip-text-button" onClick={()=>languageDialog.current?.close()}>{visaSwitchLabels[languageChoice.code].cancel}</button>
+          </div>
+        </>}
       </dialog>
     </header>
   );
