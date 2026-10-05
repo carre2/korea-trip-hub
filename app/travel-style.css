@@ -1,0 +1,91 @@
+/* User's saved design direction: soft travel journal, with readable facts. */
+:root, :root[data-theme="light"] {
+  --bg:#fffaf7; --surface:#fff; --surface-2:#f5f1f6; --surface-3:#eee8f1;
+  --border:#d9d5df; --border-strong:#7b8490;
+  --travel-mint:#eaf7f0; --travel-lilac:#f0eafb; --travel-rose:#fcebf0;
+  --travel-ink:#76546c; --travel-tint:rgba(196,159,191,.1);
+  --shadow:0 6px 22px rgba(71,53,80,.055);
+  --shadow-lg:0 14px 34px rgba(71,53,80,.1);
+}
+@media(prefers-color-scheme:dark) {
+  :root:not([data-theme="light"]) {
+    --bg:#172330; --surface:#22313d; --surface-2:#2a3849; --surface-3:#334458;
+    --border:#495f70; --border-strong:#9cabbc;
+    --travel-mint:#253e38; --travel-lilac:#36344d; --travel-rose:#443343;
+    --travel-ink:#e0bdd8; --travel-tint:rgba(177,155,206,.06);
+  }
+}
+:root[data-theme="dark"] {
+  --bg:#172330; --surface:#22313d; --surface-2:#2a3849; --surface-3:#334458;
+  --border:#495f70; --border-strong:#9cabbc;
+  --travel-mint:#253e38; --travel-lilac:#36344d; --travel-rose:#443343;
+  --travel-ink:#e0bdd8; --travel-tint:rgba(177,155,206,.06);
+}
+body {background-image:radial-gradient(ellipse at 0 15%,var(--travel-tint),transparent 45%),radial-gradient(ellipse at 100% 65%,var(--travel-tint),transparent 40%)}
+.travel-icon {display:inline-grid;place-items:center;width:56px;height:56px;border-radius:19px;background:var(--travel-mint);font-size:1.8rem;line-height:1;flex-shrink:0;box-shadow:inset 0 0 0 1px rgba(128,128,128,.06)}
+.travel-icon-small {width:34px;height:34px;border-radius:11px;font-size:1.15rem;box-shadow:none}
+.travel-heading {display:flex;align-items:center;gap:12px;line-height:1.4!important}
+.btn {border-radius:16px}
+.btn.ghost {background:var(--surface)}
+.header-share,.langsel {border-color:var(--border)}
+.brand .mark {border-radius:10px}
+.journey-hero-actions .btn {border-radius:18px;box-shadow:0 5px 18px #00000018}
+.journey-cover,.journey-cover>a {border-radius:30px}
+.journey-cover>a>span {border-radius:16px}
+.journey-start::before,.journey-discover::before {background:linear-gradient(90deg,transparent,var(--border),transparent)}
+.journey-start-card {border:1px solid var(--border);border-radius:24px;box-shadow:var(--shadow);background:linear-gradient(145deg,var(--travel-mint),var(--surface) 70%);transition:transform .18s,box-shadow .18s,border-color .18s}
+.journey-start-card:nth-child(2) {background:linear-gradient(145deg,var(--travel-lilac),var(--surface) 70%)}
+.journey-start-card:nth-child(3) {background:linear-gradient(145deg,var(--travel-rose),var(--surface) 70%)}
+.journey-start-card:nth-child(2) .travel-icon {background:var(--travel-lilac)}
+.journey-start-card:nth-child(3) .travel-icon {background:var(--travel-rose)}
+.journey-start-card:hover {transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.journey-card-top {display:flex;align-items:center;gap:14px}
+.journey-number {font-size:.85rem;padding:4px 10px;border-radius:999px;background:var(--surface);color:var(--muted)}
+.journey-arrow {display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--surface);right:20px;top:20px}
+.journey-start-card h3 {margin-top:22px;line-height:1.35}
+.journey-essentials a {display:inline-flex;align-items:center;gap:9px;border-radius:16px;padding:9px 13px;box-shadow:0 2px 8px #00000004}
+.journey-essentials a:nth-child(3n+2) .travel-icon {background:var(--travel-lilac)}
+.journey-essentials a:nth-child(3n) .travel-icon {background:var(--travel-rose)}
+.journey-planner {background:linear-gradient(135deg,var(--travel-lilac),var(--travel-mint));border-color:var(--border)}
+.trip-workspace,.saved-places,.budget-calculator {border-radius:26px;box-shadow:var(--shadow);background:var(--surface)}
+.saved-places .travel-icon {background:var(--travel-rose)}
+.saved-places>p,.budget-calculator>p {margin-top:14px;color:var(--muted)}
+.saved-places .saved-empty {padding:22px;border:1px dashed var(--border-strong);border-radius:18px;background:linear-gradient(120deg,var(--travel-rose),var(--surface));font-size:1rem;margin:18px 0}
+.saved-places li {margin-top:10px;padding:14px;border:1px solid var(--border);border-radius:16px;background:var(--bg)}
+.saved-places>p[role="status"]:empty {display:none}
+.saved-place-actions button,.trip-stop-actions button {border-radius:12px;border-color:var(--border-strong)}
+.trip-select-row select,.trip-copy,.budget-fields input,.budget-fields select {border-radius:14px;min-height:48px;border-color:var(--border-strong)}
+.trip-day {border:1px solid var(--border);border-radius:20px;background:var(--bg);padding:20px;margin-top:16px}
+.trip-day h4>span {display:inline-block;background:var(--travel-lilac);border-radius:999px;padding:5px 12px;margin-inline-end:8px;font-size:.9rem}
+.trip-day li+li {border-top:1px dashed var(--border)}
+.trip-time {color:var(--primary);font-weight:650}
+.trip-checklist {border-radius:20px;background:linear-gradient(160deg,var(--travel-mint),var(--surface));box-shadow:var(--shadow)}
+.trip-check {border:0;padding:2px 8px;border-radius:12px;margin-top:5px}
+.trip-check:has(input:checked) {background:var(--primary-soft)}
+.trip-checklist progress {border-radius:999px}
+.budget-field-label {display:flex;align-items:center;gap:8px;font-weight:650}
+.budget-fields label {padding:14px;border:1px solid var(--border);border-radius:18px;background:var(--bg)}
+.budget-total {padding:18px;border-radius:16px;background:var(--travel-mint)}
+.journey-place>a {border-radius:24px;padding:6px;box-shadow:var(--shadow);transition:transform .18s,box-shadow .18s}
+.journey-place img {border-radius:19px}
+.journey-place>a:hover {transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.korea-place-mark {display:inline-block;font-size:.95rem;letter-spacing:.04em;background:var(--travel-lilac);padding:5px 12px;border-radius:999px;line-height:1.5}
+.journey-food-card {border-radius:24px;padding:6px;box-shadow:var(--shadow)}
+.journey-food-card>img {border-radius:19px}
+.journey-more>div {border:1px solid var(--border);border-radius:24px;box-shadow:var(--shadow);background:var(--travel-lilac)}
+.journey-more>div:nth-child(2) {background:var(--travel-rose)}
+.journey-help {padding-inline:28px}
+.art-tldr {border-radius:20px;background:var(--travel-mint);border-color:var(--border);padding:18px 20px}
+.factbox {border-radius:18px;border-color:var(--border);border-inline-start:4px solid var(--primary);padding:18px 20px}
+.entry-guidance,.arrival-next,.visafinder {border-radius:22px;box-shadow:var(--shadow)}
+.arrival-next {background:var(--travel-lilac)}
+.article-contents summary {border-radius:12px;padding-inline:12px;background:var(--surface)}
+.sitefoot {background:var(--surface)}
+@media(max-width:599px) {
+  .journey-start-card {padding:22px}.journey-essentials a {font-size:1rem}
+  .trip-workspace,.saved-places,.budget-calculator {border-radius:22px}
+  .trip-day {padding:16px}.travel-heading {flex-wrap:wrap;font-size:1.25rem}
+  .journey-help {padding-inline:20px}.journey-place>a>div {padding:14px}
+}
+@media(prefers-reduced-motion:reduce) {.journey-start-card,.journey-place>a {transition:none}.journey-start-card:hover,.journey-place>a:hover {transform:none}}
+@media print {body {background-image:none}.travel-icon {display:none}.trip-day,.saved-places,.budget-calculator {box-shadow:none;background:#fff}.trip-day {break-inside:avoid}}

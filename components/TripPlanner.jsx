@@ -1,4 +1,5 @@
 "use client";
+import TravelIcon from './TravelIcon';
 import { useEffect, useState } from 'react';
 import { TRIP_KEY, normalizeTrip, decodeTrip } from '../lib/trip-state.mjs';
 import {PLACES_KEY,normalizePlaces,decodePlaces} from '../lib/places-state.mjs';
@@ -82,7 +83,7 @@ export default function TripPlanner({ locale, routes, order, ui, labels: t, chec
               {stop.spot && <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(stop.spot)}`} target="_blank" rel="noopener noreferrer">{ui.map} ↗</a>}
             </div><div className="trip-stop-actions"><button type="button" disabled={index===0} aria-label={`${t.moveUp}: ${stop.p}`} onClick={()=>move(day,id,-1)}>↑</button><button type="button" disabled={index===ordered(day).filter(x=>!trip.excluded.includes(x.id)).length-1} aria-label={`${t.moveDown}: ${stop.p}`} onClick={()=>move(day,id,1)}>↓</button><button type="button" className="trip-remove" aria-label={`${t.removeStop}: ${stop.p}`} onClick={() => update({ ...trip, excluded: [...trip.excluded, id] })}>×</button></div></li>;
           })}</ol></section>)}
-      </div><aside className="trip-checklist" aria-label={t.checklist}><h3>{t.checklist}</h3>
+      </div><aside className="trip-checklist" aria-label={t.checklist}><h3 className="travel-heading"><TravelIcon name="checklist" compact/>{t.checklist}</h3>
         <p aria-live="polite">{t.progress.replace('{done}', trip.checked.length).replace('{total}', checklist.length)}</p><progress value={trip.checked.length} max={checklist.length} aria-label={t.checklist} />
         {checklist.map((item) => <div className="trip-check" key={item.id}><label><input type="checkbox" checked={trip.checked.includes(item.id)} onChange={() => toggleCheck(item.id)} />{item.label}</label><a href={`/${locale}/${item.path}/`} aria-label={`${t.details}: ${item.label}`}>↗</a></div>)}
         <button type="button" className="trip-text-button" onClick={() => update({ ...trip, checked: [] })}>{t.resetChecklist}</button>

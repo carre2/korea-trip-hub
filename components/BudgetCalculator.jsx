@@ -3,6 +3,7 @@ import { useId, useState } from 'react';
 import labels from '../data/budget-ui.json';
 import { CURRENCIES, calculateBudget, budgetCurrency } from '../lib/budget.mjs';
 import { track } from '../lib/analytics';
+import TravelIcon from './TravelIcon';
 const fields = ['flights','stay','transport','food','activities'];
 export default function BudgetCalculator({locale, country}) {
   const t = labels[locale] || labels.en, id = useId();
@@ -19,9 +20,9 @@ export default function BudgetCalculator({locale, country}) {
   }
   const money = (value, code) => new Intl.NumberFormat(locale, {style:'currency',currency:code,maximumFractionDigits:2}).format(value);
   return <section id="budget" className="budget-calculator" aria-labelledby={`${id}-title`}>
-    <h2 id={`${id}-title`}>{t.title}</h2><p>{t.note}</p>
+    <h2 id={`${id}-title`} className="travel-heading"><TravelIcon name="money"/>{t.title}</h2><p>{t.note}</p>
     <form onSubmit={calculate}>
-      <div className="budget-fields">{fields.map((field, i) => <label key={field} htmlFor={`${id}-${field}`}>{t[field]} (KRW)
+      <div className="budget-fields">{fields.map((field, i) => <label key={field} htmlFor={`${id}-${field}`}><span className="budget-field-label"><TravelIcon name={field} compact/>{t[field]} (KRW)</span>
         <input id={`${id}-${field}`} type="number" min="0" max="1000000000000" step="any" inputMode="decimal" value={values[i]} onChange={e => {setValues(values.map((v,j) => i === j ? e.target.value : v)); clearResult();}} />
       </label>)}</div>
       <div className="budget-fields"><label htmlFor={`${id}-currency`}>{t.currency}<select id={`${id}-currency`} value={currency} onChange={e => {setCurrency(e.target.value); setRate(''); clearResult();}}>{CURRENCIES.map(c => <option key={c}>{c}</option>)}</select></label>

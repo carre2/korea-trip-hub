@@ -57,6 +57,7 @@ const destI18n = { ja: destJa, zh: destZh, "zh-TW": destZhTW, es: destEs, fr: de
 const foodI18n = { ja: foodJa, zh: foodZh, "zh-TW": foodZhTW, es: foodEs, fr: foodFr, de: foodDe, pt: foodPt, it: foodIt, ru: foodRu, ko: foodKo, vi: foodVi, th: foodTh, id: foodId, tr: foodTr, fil: foodFil, ms: foodMs, hi: foodHi, ar: foodAr, bn: foodBn };
 
 import SavedPlaces from "../../components/SavedPlaces";
+import TravelIcon from "../../components/TravelIcon";
 
 export function generateMetadata({ params }) {
   const locale = params?.locale || defaultLocale;
@@ -82,9 +83,9 @@ export default function Home({ params }) {
   const checklist = ['visa', 'airport', 'sim', 'money'].map((key) => ({ id: key, label: m.plan.tiles[key].title, path: `plan/${key}` }));
   checklist.push({ id: 'stay', label: m.nextSteps.stay, path: 'stay' });
   const starts = [
-    { title: t.entry, sub: t.entrySub, href: `/${locale}/plan/visa/`, icon: '01' },
-    { title: t.arrival, sub: t.arrivalSub, href: `/${locale}/plan/airport/`, icon: '02' },
-    { title: t.explore, sub: t.exploreSub, href: `/${locale}/destinations/`, icon: '03' },
+    { title: t.entry, sub: t.entrySub, href: `/${locale}/plan/visa/`, icon: '01', symbol: 'visa' },
+    { title: t.arrival, sub: t.arrivalSub, href: `/${locale}/plan/airport/`, icon: '02', symbol: 'airport' },
+    { title: t.explore, sub: t.exploreSub, href: `/${locale}/destinations/`, icon: '03', symbol: 'explore' },
   ];
   return <div className="journey-home">
     <JsonLd data={webSiteLd(locale, m.meta.homeTitle, m.meta.homeDesc)} />
@@ -92,9 +93,9 @@ export default function Home({ params }) {
     <section id="plan" className="journey-start wrap">
       <div className="sec-head"><h2>{t.chooseTitle}</h2><a href="#planner">{t.myTrip} ↗</a></div>
       <div className="journey-start-grid">{starts.map((item) => <a className="journey-start-card" key={item.icon} href={item.href}>
-        <span className="journey-number">{item.icon}</span><h3>{item.title}</h3><p>{item.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span>
+        <div className="journey-card-top"><TravelIcon name={item.symbol}/><span className="journey-number">{item.icon}</span></div><h3>{item.title}</h3><p>{item.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span>
       </a>)}</div>
-      <div className="journey-essentials"><h3>{t.essentials}</h3><div>{['visa','airport','transit','sim','money','weather','help'].map((key) => <a key={key} href={`/${locale}/plan/${key}/`}>{m.plan.tiles[key].title} →</a>)}</div></div>
+      <div className="journey-essentials"><h3>{t.essentials}</h3><div>{['visa','airport','transit','sim','money','weather','help'].map((key) => <a key={key} href={`/${locale}/plan/${key}/`}><TravelIcon name={key} compact/><span>{m.plan.tiles[key].title} →</span></a>)}</div></div>
     </section>
     <section id="planner" className="journey-planner"><div className="wrap">
       <div className="sec-head"><div><span className="eyebrow">{t.myTrip}</span><h2>{t.plannerTitle}</h2><p>{t.plannerSub}</p></div><a href={`/${locale}/itinerary/`}>{m.nextSteps.itinerary} →</a></div>
