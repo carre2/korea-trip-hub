@@ -125,7 +125,7 @@ function FactBlock({ id, m }) {
     <div className="factbox">
       <div className="factbox-h">
         <b>{linkify(claim)}</b>
-        <span className="pill verified">✓ {f.verified}</span>
+        <span className="pill verified"><span aria-hidden="true">✓</span><time dateTime={f.verified}>{f.verified}</time></span>
       </div>
       {f.value && (
         <ul className="factvals">

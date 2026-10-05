@@ -316,7 +316,7 @@ nav.links a{font-weight:700;color:var(--text)}
 /* Shared wrapping for compact labels and controls after the type enlargement. */
 .sec-head,.stay-area-h,.rev-top,.rev-foot,.concert,.subtabs{flex-wrap:wrap}
 .sec-head>*{min-width:0}.sec-head a{max-width:100%}
-.stay-best,.pill.verified,.concert .lk{white-space:normal;overflow-wrap:anywhere;max-width:100%}
+.stay-best,.concert .lk{white-space:normal;overflow-wrap:anywhere;max-width:100%}
 .kw,.rev-top .who .sub{flex-wrap:wrap}
 .grid>*,.fe-head>div,.kpop-card-body,.bookcta-txt{min-width:0}
 .card .cbody h3,.ns-t,.ns-s,.topic-spot{overflow-wrap:anywhere}

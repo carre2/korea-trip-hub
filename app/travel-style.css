@@ -156,3 +156,16 @@ body {background-image:radial-gradient(ellipse at 0 15%,var(--travel-tint),trans
 .stay22 .stay22-direct{background:var(--primary);color:var(--bg)}
 .partner-booking .stay22-frame{aspect-ratio:auto;height:380px;max-height:none}
 @media print{.partner-booking{display:none}}
+/* Reading labels and verified dates keep a clear, stable shape in every locale. */
+.factbox-h{flex-direction:column;align-items:flex-start;gap:12px}
+.factbox-h>b{display:block;width:100%;min-width:0;line-height:1.7;font-weight:650;overflow-wrap:break-word}
+.factbox-h>.pill.verified{order:-1;flex:0 0 auto;align-self:flex-start;max-width:100%;font-family:var(--sans);font-size:1rem;font-weight:700;line-height:1.4;white-space:nowrap;overflow-wrap:normal;word-break:normal;padding:7px 12px;border-radius:12px;color:var(--text);background:var(--travel-mint);border:1px solid var(--border)}
+.pill.verified time{display:inline-block;white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:0}
+.factvals{grid-template-columns:repeat(auto-fit,minmax(min(210px,100%),1fr));gap:10px}
+.factvals li{min-width:0;padding:12px 14px;gap:6px;border-radius:12px}
+.factvals li span{font-family:var(--sans);font-size:1rem;font-weight:700;line-height:1.5;color:var(--text);letter-spacing:0;text-transform:none;overflow-wrap:break-word}
+.factvals li b{font-family:var(--sans);font-weight:600;line-height:1.65;overflow-wrap:break-word}
+.eyebrow,.planner-top .tag,.kw,footer h5,.spo-label,.art-kicker,.day h4{font-family:var(--sans);letter-spacing:.025em}
+.festival-dates time,.festival-check time,.artrust-rev time,.art-updated{font-family:var(--sans);font-variant-numeric:tabular-nums}
+.festival-dates time,.festival-check time,.artrust-rev time{display:inline-block;white-space:nowrap;word-break:normal;overflow-wrap:normal}
+input,select,textarea,button{font-family:var(--sans)}

@@ -129,7 +129,7 @@ export default function DestinationDetail({ params }) {
         <div className="factbox" style={{ marginBottom: 8 }}>
           <div className="factbox-h">
             <b>{trFact.claim || f.claim}</b>
-            <span className="pill verified">✓ {f.verified}</span>
+            <span className="pill verified"><span aria-hidden="true">✓</span><time dateTime={f.verified}>{f.verified}</time></span>
           </div>
           <div className="factsrc">
             <span>{ui.source || "Source"}:{" "}

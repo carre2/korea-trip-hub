@@ -67,7 +67,7 @@ export default function VisaCountryGuide({ guide, m }) {
         <div className="factbox vcg-fact">
           <div className="factbox-h">
             <b>{linkify(fClaim)}</b>
-            <span className="pill verified">✓ {f.verified}</span>
+            <span className="pill verified"><span aria-hidden="true">✓</span><time dateTime={f.verified}>{f.verified}</time></span>
           </div>
           {f.value && (
             <ul className="factvals">
