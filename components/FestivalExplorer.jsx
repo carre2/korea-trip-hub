@@ -4,6 +4,7 @@ import PeekMascot from './PeekMascot';
 import ShareTools from './ShareTools';
 import SavePlace from './SavePlace';
 import PartnerBooking from './PartnerBooking';
+import photos from '../data/festival-images.json';
 import {koreaDay,eventStatus,filterEvents,eventShareUrl} from '../lib/festivals.mjs';
 
 export default function FestivalExplorer({locale,t,events,initialDay}) {
@@ -31,10 +32,13 @@ export default function FestivalExplorer({locale,t,events,initialDay}) {
     <p className="festival-result" role="status">{invalid?t.invalid:t.results.replace('{count}',shown.length)}</p>
     {!shown.length && <p className="festival-empty">{t.empty}</p>}
     <div className="festival-grid">{shown.map((e,i)=>{
-      const copy=t.events[e.id],state=eventStatus(e,today),stale=e.recheck_after<today;
+      const copy=t.events[e.id],state=eventStatus(e,today),stale=e.recheck_after<today,photo=photos[e.id];
       return <section className={`festival-card festival-${e.type} travel-has-peek`} id={e.id} key={e.id}>
         <PeekMascot animal={e.type==='culture'?'cat':i%2?'bunny':'bear'}/>
-        <div className="festival-art" aria-hidden="true"><span>{e.icon}</span><span>✦ 🌷 ✧</span></div>
+        {photo ? <figure className="festival-art festival-photo">
+          <div className="festival-photo-frame"><img src={photo.src} srcSet={`${photo.small} 500w, ${photo.src} 1000w`} sizes="(max-width:599px) calc(100vw - 60px), (max-width:1000px) 45vw, 320px" alt={`${copy.name} · ${photo.year}`} width="1000" height="667" loading="lazy" decoding="async" style={{objectPosition:photo.position}}/><span className="festival-photo-year">{t.photoArchive} · {photo.year}</span></div>
+          <figcaption><a href={photo.source} target="_blank" rel="noopener noreferrer">© {photo.author}</a> · <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer">{photo.license}</a><small>{t.photoChanges}</small></figcaption>
+        </figure> : <div className="festival-art" aria-hidden="true"><span>{e.icon}</span><span>✦ 🌷 ✧</span></div>}
         <div className="festival-card-body"><div className="festival-info"><div className="festival-badges"><span>{t[e.type]}</span><span>{t[state]}</span></div>
           <h2>{copy.name}</h2><p>{copy.description}</p><SavePlace id={`event:${e.id}`} locale={locale}/>
           {!stale ? <p className="festival-dates">🗓️ <time dateTime={e.start}>{e.start}</time>{e.end!==e.start && <> — <time dateTime={e.end}>{e.end}</time></>}</p> : <p>{t.stale}</p>}

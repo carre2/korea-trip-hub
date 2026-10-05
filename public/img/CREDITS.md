@@ -1,5 +1,16 @@
 # Image credits
 
+## Festival card photography (added 2026-10-05)
+
+These are archive/venue photographs, not photographs of the advertised 2026 events.
+Both 1000px and 500px WebP variants retain the original proportions; the website crops the visible frame with CSS. Resizing, WebP conversion and display cropping are disclosed inline. Each derivative remains under the license of its original photograph.
+
+| Files in `festivals/` | Author | Taken | License | Original source |
+|---|---|---|---|---|
+| jinju-lanterns.webp, jinju-lanterns-500.webp | Asfreeas | 2011-10-02 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | [Jinju Namgang Lantern Festival](https://commons.wikimedia.org/wiki/File:Jinju_Namgang_Lantern_Festival_20111002_1912.jpg) |
+| busan-cinema-center.webp, busan-cinema-center-500.webp | 399scout | 2015-10-26 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [Busan Cinema Center](https://commons.wikimedia.org/wiki/File:Busan_Cinema_Center.jpg) |
+| busan-fireworks.webp, busan-fireworks-500.webp | RedMosQ | 2008-10-18 | [CC BY-SA 2.0 KR](https://creativecommons.org/licenses/by-sa/2.0/kr/) | [2008 Busan Firework Festival](https://commons.wikimedia.org/wiki/File:2008_Busan_Firework_Festival-Panorama-Firework3.JPG) |
+
 All photographic images are sourced from free/openly-licensed collections and attributed here
 (and inline on the page). SVG graphics/diagrams are original to this project.
 
