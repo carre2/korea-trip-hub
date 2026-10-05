@@ -92,14 +92,31 @@ body {background-image:radial-gradient(ellipse at 0 15%,var(--travel-tint),trans
 .trip-checklist.travel-has-peek {margin-top:62px}
 .budget-calculator.travel-has-peek {margin-top:82px}
 @keyframes peek-hello {from {opacity:0;transform:translateY(12px)}to {opacity:1;transform:translateY(0)}}
+.category-companion {padding-top:80px;padding-bottom:0;max-width:1180px}
+.category-companion-box {display:flex;align-items:center;gap:12px;min-height:90px;padding:34px 24px 20px;position:relative;border:1px solid var(--border);border-radius:22px;background:linear-gradient(130deg,var(--travel-mint),var(--surface));box-shadow:var(--shadow);color:var(--text)}
+.category-companion-box>span:not(.peek-mascot) {min-width:0;overflow-wrap:anywhere}
+.category-companion-bunny {background:linear-gradient(130deg,var(--travel-lilac),var(--surface))}
+.category-companion-cat {background:linear-gradient(130deg,var(--travel-rose),var(--surface))}
+.category-confetti {margin-inline-start:auto;font-size:1.25rem;white-space:nowrap;flex-shrink:0}
+.category-companion+section {padding-top:36px}
+.category-companion+.article {padding-top:32px}
+.card.mascot-card {position:relative;overflow:visible;margin-top:64px;border-radius:22px;align-self:stretch}
+.mascot-card>.thumb {border-radius:21px 21px 0 0}
+.mascot-card>.cbody {border-radius:0 0 21px 21px}
+.mascot-card>.peek-mascot {inset-inline-end:36px;width:82px;height:78px;inset-block-start:-57px}
+.mascot-card:hover>.peek-mascot svg,.mascot-card:focus-within>.peek-mascot svg {transform:translateY(-5px) rotate(-3deg)}
+.art-tldr.category-summary-peek {margin-top:76px;padding-top:38px}
 @media(max-width:599px) {
   .journey-start-card {padding:22px}.journey-essentials a {font-size:1rem}
   .trip-workspace,.saved-places,.budget-calculator {border-radius:22px}
   .trip-day {padding:16px}.travel-heading {flex-wrap:wrap;font-size:1.25rem}
   .journey-help {padding-inline:20px}.journey-place>a>div {padding:14px}
   .travel-has-peek {padding-top:34px}.peek-mascot {width:82px;height:78px;inset-block-start:-57px;inset-inline-end:38px}
+  .category-companion {padding-top:72px}.category-companion-box {padding-inline:16px;font-size:1rem}.category-confetti {font-size:1rem}
 }
 @media(prefers-reduced-motion:reduce) {.journey-start-card,.journey-place>a {transition:none}.journey-start-card:hover,.journey-place>a:hover {transform:none}}
 @media(prefers-reduced-motion:reduce) {.peek-mascot svg {animation:none;transition:none}.travel-has-peek:hover>.peek-mascot svg,.travel-has-peek:focus-within>.peek-mascot svg {transform:none}}
+@media(prefers-reduced-motion:reduce) {.mascot-card:hover>.peek-mascot svg,.mascot-card:focus-within>.peek-mascot svg {transform:none}}
 @media print {body {background-image:none}.travel-icon {display:none}.trip-day,.saved-places,.budget-calculator {box-shadow:none;background:#fff}.trip-day {break-inside:avoid}}
 @media print {.peek-mascot {display:none}.journey-start-grid {padding-top:0;row-gap:18px}.travel-has-peek {margin-top:20px!important;padding-top:20px!important}}
+@media print {.category-companion {display:none}.card.mascot-card {margin-top:0}}

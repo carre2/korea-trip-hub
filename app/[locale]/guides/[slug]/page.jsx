@@ -5,6 +5,7 @@ import { linkify } from "../../../../lib/linkify";
 import BookCTA from "../../../../components/BookCTA";
 import { klookSearch } from "../../../../lib/booking";
 import BudgetCalculator from "../../../../components/BudgetCalculator";
+import PeekMascot from "../../../../components/PeekMascot";
 import ArticleTrust from "../../../../components/ArticleTrust";
 import topics from "../../../../data/topics.json";
 import topicsZh from "../../../../data/topics.zh.json";
@@ -88,7 +89,7 @@ export default function TopicGuide({ params }) {
 
       {/* Answer-first summary (GEO: gives AI engines a clean, citable answer up top) */}
       {g.answer && (
-        <div className="art-tldr topic-answer">
+        <div className="art-tldr topic-answer travel-has-peek category-summary-peek"><PeekMascot animal="bunny"/>
           <span className="art-tldr-lbl">{gm.answer || "Quick answer"}</span>
           <p style={{ margin: 0 }}>{linkify(g.answer, locale)}</p>
         </div>

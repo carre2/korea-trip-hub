@@ -1,3 +1,4 @@
+import PeekMascot from "../../../components/PeekMascot";
 import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
 import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
@@ -49,8 +50,10 @@ import SavePlace from "../../../components/SavePlace";
 
 function Card({ item, tagBg, tagColor, locale }) {
   const im = foodImages[item.key];
+  const featured = [...food.eat, ...food.make].slice(0, 4).findIndex(entry => entry.key === item.key);
   return (
-    <article className="card" id={`food-${item.key}`}>
+    <article className={featured >= 0 ? "card mascot-card" : "card"} id={`food-${item.key}`}>
+      {featured >= 0 && <PeekMascot animal={["bear","cat","bunny","bear"][featured]}/>}
       <div className={`thumb${im ? " thumb-img" : ""}`} style={im ? undefined : { background: item.grad }}>
         {im ? <img src={im.img} alt={item.n} loading="lazy" /> : item.icon}
         {item.tag && (

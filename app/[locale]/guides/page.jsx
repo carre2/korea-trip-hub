@@ -1,3 +1,4 @@
+import PeekMascot from "../../../components/PeekMascot";
 import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
 import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
@@ -53,12 +54,13 @@ export default function GuidesHub({ params }) {
           </div>
         </div>
         <div className="grid g4">
-          {topics.order.map((slug) => {
+          {topics.order.map((slug, index) => {
             const base = topics.items[slug];
             const ov = topicI18n[locale]?.items?.[slug];
             const g = ov ? { ...base, ...ov } : base;
             return (
-              <a key={slug} className="card" href={`/${locale}/guides/${slug}/`}>
+              <a key={slug} className={index < 4 ? "card mascot-card" : "card"} href={`/${locale}/guides/${slug}/`}>
+                {index < 4 && <PeekMascot animal={["bunny","cat","bear","bunny"][index]}/>}
                 <div className="thumb guide-photo">
                   <img src={topicImages[slug].img} alt="" loading="lazy" width="640" height="400" />
                   {g.kicker && (

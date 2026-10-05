@@ -15,6 +15,7 @@ import MoneyGuide from "../../../../components/MoneyGuide";
 import WeatherGuide from "../../../../components/WeatherGuide";
 import HelpGuide from "../../../../components/HelpGuide";
 import BudgetCalculator from "../../../../components/BudgetCalculator";
+import PeekMascot from "../../../../components/PeekMascot";
 import searchCopy from '../../../../data/search-copy.json';
 import ArticleTrust from "../../../../components/ArticleTrust";
 import guideVisa from "../../../../data/guides/visa.json";
@@ -259,7 +260,8 @@ export default function PlanArticle({ params }) {
 
       {/* TL;DR summary strip */}
       {slug !== "visa" && guide?.tldr && (
-        <div className="art-tldr">
+        <div className={`art-tldr${slug !== 'help' ? ' travel-has-peek category-summary-peek' : ''}`}>
+          {slug !== 'help' && <PeekMascot animal={slug === 'airport' ? 'bear' : 'bunny'}/>}
           <span className="art-tldr-lbl">TL;DR</span>
           <ul>
             {guide.tldr.map((t, i) => <li key={i}>{linkify(t)}</li>)}

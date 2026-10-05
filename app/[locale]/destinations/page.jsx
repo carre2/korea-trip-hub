@@ -1,3 +1,4 @@
+import PeekMascot from "../../../components/PeekMascot";
 import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
 import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
@@ -75,12 +76,13 @@ export default function Destinations({ params }) {
                 📍 {city.name}
               </h3>
               <div className="grid g4">
-                {items.map(([slug, d]) => {
+                {items.map(([slug, d], index) => {
                   const f = d.factId ? fact(d.factId) : null;
                   const stat = f && f.value ? Object.values(f.value)[0] : null;
                   const im = destImages[slug];
                   return (
-                    <a className="card" key={slug} href={`/${locale}/destinations/${slug}/`}>
+                    <a className={index < 4 ? "card mascot-card" : "card"} key={slug} href={`/${locale}/destinations/${slug}/`}>
+                      {index < 4 && <PeekMascot animal={["cat","bunny","bear","cat"][index]}/>}
                       <div className={`thumb${im ? " thumb-img" : ""}`} style={im ? undefined : { background: d.grad }}>
                         {im ? <img src={im.img} alt={d.name} width={1280} height={853} loading="lazy" /> : d.icon}
                         <span className="rank">🔎 {d.rank}</span>
