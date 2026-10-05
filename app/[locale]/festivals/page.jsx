@@ -14,7 +14,7 @@ export function generateMetadata({params}){
 }
 export default function FestivalsPage({params}){
   const locale=params?.locale||defaultLocale,t=copies[locale];
-  const events=registry.items.flatMap(item=>{const f=fact(item.factId);return f?[{...item,...f.value,verified:f.verified,recheck_after:f.recheck_after,source:f.source,source_name:f.source_name}]:[];});
+  const events=registry.items.flatMap(item=>{const f=fact(item.factId),offer=fact(item.bookingFactId);return f?[{...item,...f.value,verified:f.verified,recheck_after:f.recheck_after,source:f.source,source_name:f.source_name,offer:offer?{...offer.value,verified:offer.verified,recheck_after:offer.recheck_after}:null}]:[];});
   return <article className="wrap festival-page">
     <JsonLd data={breadcrumbLd(locale,[{name:getMessages(locale).brand,path:''},{name:t.title,path:'festivals'}])}/>
     <div className="festival-heading"><span className="eyebrow">🎤 · 🎆 · 🎬</span><h1>{t.title}</h1><p>{t.intro}</p></div>

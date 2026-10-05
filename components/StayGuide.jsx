@@ -1,11 +1,11 @@
 // "Where to stay" neighborhood guide (server component, no client JS).
-// Renders a city's intro + area cards with Agoda (hotels) and Klook (things to
-// do) links. Affiliate params attach automatically once IDs are set in booking.js.
-import { agodaCity, klookSearch, withAff, DISCLOSURE } from "../lib/booking";
+// Renders a city's intro + area cards with Stay22 (hotels) and Klook (experiences).
+// Direct Stay22 tracking does not require a LinkSwap script.
+import { stay22Hotels, klookSearch } from "../lib/booking";
+import {getMessages} from '../lib/i18n';
 
-export default function StayGuide({ city, cityKey, ui }) {
+export default function StayGuide({ city, ui, locale }) {
   if (!city) return null;
-  const hotelsHref = withAff(agodaCity(cityKey), "agoda");
   const findHotel = ui?.findHotel || "Find a hotel";
   const thingsToDo = ui?.thingsToDo || "Things to do";
   return (
@@ -21,7 +21,7 @@ export default function StayGuide({ city, cityKey, ui }) {
             <p className="stay-vibe">{a.vibe}</p>
             <p className="stay-near">📍 {a.near}</p>
             <div className="stay-links">
-              <a href={hotelsHref} target="_blank" rel="sponsored nofollow noopener">🏨 {findHotel} ↗</a>
+              <a href={stay22Hotels(`${a.name}, ${city.name}, South Korea`)} target="_blank" rel="sponsored nofollow noopener noreferrer">🏨 {findHotel} · Stay22 ↗</a>
               <a href={klookSearch(`${a.name} ${city.name}`)} target="_blank" rel="sponsored nofollow noopener">🎟️ {thingsToDo} ↗</a>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function StayGuide({ city, cityKey, ui }) {
           {city.notes.map((para, i) => <p key={i}>{para}</p>)}
         </section>
       )}
-      <p className="bookcta-disc">ⓘ {DISCLOSURE}</p>
+      <p className="bookcta-disc">ⓘ {getMessages(locale).footer.affiliateLine}</p>
     </div>
   );
 }

@@ -3,6 +3,22 @@
   "_updated": "2026-10-05",
   "facts": [
     {
+      "id":"klook-busan-fireworks-ticket","tier":"VOLATILE","status":"VERIFIED",
+      "claim":"Klook lists a 2026 Busan Fireworks Festival ticket and round-trip shuttle product.",
+      "value":{"url":"https://www.klook.com/en-US/activity/171795-2026-busan-fireworks-festival-21th-anniversary-ticket/","kind":"tickets"},
+      "source":"https://www.klook.com/en-US/activity/171795-2026-busan-fireworks-festival-21th-anniversary-ticket/","source_name":"Klook",
+      "verified":"2026-10-05","recheck_after":"2026-10-12",
+      "notes":"Product identity and package listing checked. Availability, prices, departure details, inclusions and cancellation terms must be confirmed on Klook. Past reviews do not establish current package conditions."
+    },
+    {
+      "id":"klook-jinju-festival-tour","tier":"VOLATILE","status":"VERIFIED",
+      "claim":"Klook lists a Jinju Namgang Lantern Festival guided tour departing from Busan.",
+      "value":{"url":"https://www.klook.com/en-US/activity/124304-korea-festival-express-jinju-namgang-lantern-festival-from-busan/","kind":"tour"},
+      "source":"https://www.klook.com/en-US/activity/124304-korea-festival-express-jinju-namgang-lantern-festival-from-busan/","source_name":"Klook",
+      "verified":"2026-10-05","recheck_after":"2026-10-12",
+      "notes":"Product page includes a 2026 date selector. It is a tour product, not a standalone festival admission ticket. Confirm the selected date and current package on Klook."
+    },
+    {
       "id": "festival-biff-2026", "tier": "VOLATILE", "status": "VERIFIED",
       "claim": "Busan International Film Festival runs from 2026-10-06 to 2026-10-15 at Busan Cinema Center and other official screening venues.",
       "value": {"start":"2026-10-06","end":"2026-10-15","venue":"Busan Cinema Center and other official screening venues","map":"Busan Cinema Center, Busan","official":"https://www.biff.kr/eng/addon/10000001/page.asp?page_num=11079","tickets":"https://ticket.biff.kr/"},

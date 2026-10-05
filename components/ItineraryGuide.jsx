@@ -1,7 +1,8 @@
 // Ready-made itinerary renderer (server component). Day-by-day plan with a
 // Google Maps link per stop, tips, and city-aware hotel/tour booking CTAs.
 // `ui` carries the localized chrome labels; city names resolve per locale.
-import { agodaCity, withAff, klookSearch, DISCLOSURE } from "../lib/booking";
+import { stay22Hotels, klookSearch } from "../lib/booking";
+import { getMessages } from "../lib/i18n";
 import { stayFor, fill } from "../lib/content";
 
 function mapUrl(q) {
@@ -56,13 +57,13 @@ export default function ItineraryGuide({ it, locale, ui }) {
         <h2>{L.bookTrip || "Book this trip"}</h2>
         <div className="stay-links">
           {it.cities.map((ck) => (
-            <a key={ck} href={withAff(agodaCity(ck), "agoda")} target="_blank" rel="sponsored nofollow noopener">
-              🏨 {fill(L.hotelsIn || "Hotels in {city}", { city: cityName(ck) })} ↗
+            <a key={ck} href={stay22Hotels(`${cityName(ck)}, South Korea`)} target="_blank" rel="sponsored nofollow noopener noreferrer">
+              🏨 {fill(L.hotelsIn || "Hotels in {city}", { city: cityName(ck) })} · Stay22 ↗
             </a>
           ))}
           <a href={klookSearch("Korea tours tickets passes")} target="_blank" rel="sponsored nofollow noopener">🎟️ {L.toursTickets || "Tours & tickets"} ↗</a>
         </div>
-        <p className="bookcta-disc">ⓘ {DISCLOSURE}</p>
+        <p className="bookcta-disc">ⓘ {getMessages(locale).footer.affiliateLine}</p>
         <div className="itin-crosslinks">
           {it.cities.map((ck) => stay.cities[ck] && (
             <a key={ck} href={`/${locale}/stay/${ck}/`}>🏨 {fill(L.whereToStayIn || "Where to stay in {city}", { city: cityName(ck) })} →</a>

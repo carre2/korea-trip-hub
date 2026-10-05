@@ -64,7 +64,7 @@ export default function KpopPage({ params }) {
       </div>
       <p className="art-tagline">{ui.tagline}</p>
       <div className="festival-kpop"><div><h2>🎆 {festivalCopies[locale].title}</h2><p>{festivalCopies[locale].intro}</p></div><a className="btn ghost" href={`/${locale}/festivals/`}>{m.experience.details} →</a></div>
-      <KpopGuide g={g} ui={ui} />
+      <KpopGuide g={g} ui={ui} locale={locale}/>
 
       {(() => {
         const trip = itinFor(locale).items["kpop-3-days"];

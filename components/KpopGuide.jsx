@@ -3,6 +3,9 @@
 // concert dates link out (no stale data). Images/map queries are language-
 // neutral and live in data/kpop-images.json, indexed to match each section.
 import kimg from "../data/kpop-images.json";
+import {stay22Hotels} from "../lib/booking";
+import {getMessages} from "../lib/i18n";
+import PartnerBooking from './PartnerBooking';
 
 function mapUrl(q) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
@@ -15,7 +18,7 @@ function Thumb({ v }) {
   );
 }
 
-function PlaceCard({ item, v, mapLabel }) {
+function PlaceCard({ item, v, mapLabel, locale }) {
   const spot = item.spot || v?.spot;
   return (
     <div className="kpop-card">
@@ -26,18 +29,20 @@ function PlaceCard({ item, v, mapLabel }) {
         {spot && (
           <a className="kpop-map" href={mapUrl(spot)} target="_blank" rel="noopener noreferrer">🗺️ {mapLabel}</a>
         )}
+        {spot && <p><a className="btn ghost" href={stay22Hotels(spot)} target="_blank" rel="sponsored nofollow noopener noreferrer">🏨 {getMessages(locale).hotelsNearby} · Stay22 ↗</a></p>}
       </div>
     </div>
   );
 }
 
-export default function KpopGuide({ g, ui }) {
+export default function KpopGuide({ g, ui, locale }) {
   if (!g) return null;
   const L = ui || {};
   const mapLabel = L.mapLabel || "map";
 
   return (
     <div className="gv">
+      <PartnerBooking locale={locale} place="Seoul, South Korea" query="Seoul K-pop experiences tours"/>
       {g.live && (
         <div className="kpop-live">
           <b>🔴 {g.live.title}</b>
@@ -56,7 +61,7 @@ export default function KpopGuide({ g, ui }) {
           <h2>🎤 {g.venues.title}</h2>
           <p className="gv-lead">{g.venues.intro}</p>
           <div className="kpop-cards">
-            {g.venues.items.map((it, i) => <PlaceCard key={it.name} item={it} v={kimg.venues[i]} mapLabel={mapLabel} />)}
+            {g.venues.items.map((it, i) => <PlaceCard key={it.name} item={it} v={kimg.venues[i]} mapLabel={mapLabel} locale={locale}/>)}
           </div>
         </section>
       )}
@@ -96,7 +101,7 @@ export default function KpopGuide({ g, ui }) {
           <h2>🏢 {g.agencies.title}</h2>
           <p className="gv-lead">{g.agencies.intro}</p>
           <div className="kpop-cards">
-            {g.agencies.items.map((it, i) => <PlaceCard key={it.name} item={it} v={kimg.agencies[i]} mapLabel={mapLabel} />)}
+            {g.agencies.items.map((it, i) => <PlaceCard key={it.name} item={it} v={kimg.agencies[i]} mapLabel={mapLabel} locale={locale}/>)}
           </div>
         </section>
       )}
@@ -106,7 +111,7 @@ export default function KpopGuide({ g, ui }) {
           <h2>⭐ {g.spots.title}</h2>
           <p className="gv-lead">{g.spots.intro}</p>
           <div className="kpop-cards">
-            {g.spots.items.map((it, i) => <PlaceCard key={it.name} item={it} v={kimg.spots[i]} mapLabel={mapLabel} />)}
+            {g.spots.items.map((it, i) => <PlaceCard key={it.name} item={it} v={kimg.spots[i]} mapLabel={mapLabel} locale={locale}/>)}
           </div>
         </section>
       )}

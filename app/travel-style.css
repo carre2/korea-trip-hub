@@ -148,3 +148,11 @@ body {background-image:radial-gradient(ellipse at 0 15%,var(--travel-tint),trans
 @media(max-width:1000px){.festival-grid {grid-template-columns:repeat(2,minmax(0,1fr))}.festival-filters {grid-template-columns:repeat(2,minmax(0,1fr))}.festival-filters .festival-ended {grid-column:span 1}}
 @media(max-width:599px){.festival-grid {grid-template-columns:1fr}.festival-filters {padding:18px}.festival-kpop {flex-direction:column;align-items:stretch;padding:20px}.festival-kpop>.btn {max-width:none}.festival-card-body {padding:20px}.festival-art {height:130px}.festival-filters .festival-ended {grid-column:span 2}}
 @media print{.festival-filters,.festival-sharing,.festival-kpop,.festival-actions {display:none}.festival-grid {padding-top:0;display:block}.festival-card {break-inside:avoid;margin-bottom:20px}.festival-art {height:80px}}
+.partner-booking{margin:20px 0;padding:18px;border:1px solid var(--border);border-radius:22px;background:linear-gradient(135deg,color-mix(in srgb,var(--bg) 90%,#ffd2e5),color-mix(in srgb,var(--bg) 92%,#d7d4ff))}
+.partner-booking h3{margin:0 0 14px;font-size:1.05rem}
+.partner-booking .partner-klook{background:#ff5b24;color:#fff;border-color:#ff5b24;white-space:normal;text-align:start}
+.partner-booking .stay22 h2{font-size:1rem}
+.stay22 .btn{white-space:normal;text-align:start;margin:4px 6px 4px 0}
+.stay22 .stay22-direct{background:var(--primary);color:var(--bg)}
+.partner-booking .stay22-frame{aspect-ratio:auto;height:380px;max-height:none}
+@media print{.partner-booking{display:none}}

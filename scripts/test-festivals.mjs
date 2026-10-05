@@ -34,3 +34,39 @@ test('all published festival entries reference verified official facts with revi
   assert.equal(new Set(registry.map(e=>e.id)).size,registry.length);
   for(const e of registry){const f=facts.find(f=>f.id===e.factId);assert.equal(f.status,'VERIFIED');assert.equal(f.tier,'VOLATILE');assert.ok(f.verified&&f.recheck_after&&f.source_name);assert.match(f.source,/^https:\/\//);assert.ok(f.value.start<=f.value.end);assert.match(f.claim,new RegExp(f.value.start));assert.match(f.claim,new RegExp(f.value.end));}
 });
+
+test('festival partner products have verified Klook identity and complete localized labels',()=>{
+  const ui=read('data/booking-ui.json');
+  assert.deepEqual(Object.keys(ui).sort(),Object.keys(copies).sort());
+  for(const [locale,t] of Object.entries(ui)){
+    assert.deepEqual(Object.keys(t).sort(),Object.keys(ui.en).sort());
+    for(const value of Object.values(t))assert.ok(typeof value==='string'&&value.trim(),locale);
+  }
+  for(const item of registry){
+    assert.ok(item.klookSearch);
+    if(!item.bookingFactId)continue;
+    const f=facts.find(f=>f.id===item.bookingFactId);
+    assert.equal(f.status,'VERIFIED');assert.equal(f.tier,'VOLATILE');
+    assert.equal(new URL(f.value.url).hostname,'www.klook.com');
+    assert.equal(f.source,f.value.url);assert.ok(f.verified<=f.recheck_after);
+    assert.ok(['tickets','tour'].includes(f.value.kind));
+  }
+});
+
+test('partner routes retain real tracking IDs and encode destination queries safely',async()=>{
+  const code=fs.readFileSync('lib/booking.js','utf8');
+  const booking=await import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'));
+  const destination='https://www.klook.com/en-US/activity/171795-2026-busan-fireworks-festival-21th-anniversary-ticket/';
+  const klook=new URL(booking.klookUrl(destination));
+  assert.equal(klook.hostname,'affiliate.klook.com');
+  assert.equal(klook.searchParams.get('aid'),booking.KLOOK.aid);
+  assert.equal(klook.searchParams.get('aff_adid'),booking.KLOOK.adid);
+  assert.equal(klook.searchParams.get('k_site'),destination);
+  const place='Busan & Jinju, South Korea';
+  for(const url of [booking.stay22Hotels(place),booking.stay22Embed(place)]){
+    const u=new URL(url);assert.equal(u.hostname,'www.stay22.com');
+    assert.equal(u.searchParams.get('aid'),booking.STAY22.aid);
+    assert.equal(u.searchParams.get('address'),place);
+    assert.equal(u.searchParams.has('checkin'),false);
+  }
+});
