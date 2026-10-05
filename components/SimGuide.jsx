@@ -5,7 +5,7 @@
 
 import { linkify } from "../lib/linkify";
 import BookCTA from "./BookCTA";
-import { klookSearch } from "../lib/booking";
+import { klookSearch, klookUrl } from "../lib/booking";
 
 export default function SimGuide({ guide, official }) {
   if (!guide) return null;
@@ -58,9 +58,10 @@ export default function SimGuide({ guide, official }) {
                 </ol>
                 {c.links && (
                   <div className="sim-applinks">
-                    {c.links.map((l) => (
-                      <a key={l.name} href={l.url} target="_blank" rel="noopener noreferrer">{l.name} ↗</a>
-                    ))}
+                    {c.links.map((l) => {
+                      const partner=['klook.com','www.klook.com'].includes(new URL(l.url).hostname);
+                      return <a key={l.name} href={partner?klookUrl(l.url):l.url} target="_blank" rel={partner?'sponsored nofollow noopener noreferrer':'noopener noreferrer'}>{l.name} ↗</a>;
+                    })}
                   </div>
                 )}
               </div>
