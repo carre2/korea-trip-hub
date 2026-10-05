@@ -35,11 +35,11 @@ export default function FestivalExplorer({locale,t,events,initialDay}) {
       return <section className={`festival-card festival-${e.type} travel-has-peek`} id={e.id} key={e.id}>
         <PeekMascot animal={e.type==='culture'?'cat':i%2?'bunny':'bear'}/>
         <div className="festival-art" aria-hidden="true"><span>{e.icon}</span><span>✦ 🌷 ✧</span></div>
-        <div className="festival-card-body"><div className="festival-badges"><span>{t[e.type]}</span><span>{t[state]}</span></div>
+        <div className="festival-card-body"><div className="festival-info"><div className="festival-badges"><span>{t[e.type]}</span><span>{t[state]}</span></div>
           <h2>{copy.name}</h2><p>{copy.description}</p><SavePlace id={`event:${e.id}`} locale={locale}/>
           {!stale ? <p className="festival-dates">🗓️ <time dateTime={e.start}>{e.start}</time>{e.end!==e.start && <> — <time dateTime={e.end}>{e.end}</time></>}</p> : <p>{t.stale}</p>}
           <p>📍 {copy.venue}</p><p className="festival-check">{t.asOf} <time dateTime={e.verified}>{e.verified}</time> · <a href={e.source} target="_blank" rel="noopener noreferrer">{e.source_name} ↗</a></p>
-          <p className="festival-note">{t.confirm}</p><p className="festival-note">{t.ticketNote}</p>
+          <p className="festival-note">{t.confirm}</p><p className="festival-note">{t.ticketNote}</p></div>
           <div className="festival-actions"><a className="btn" href={e.official} target="_blank" rel="noopener noreferrer">{t.official} ↗</a><a className="btn ghost" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(e.map)}`} target="_blank" rel="noopener noreferrer">🗺️ {t.map}</a>{e.tickets && <a className="btn ghost" href={e.tickets} target="_blank" rel="noopener noreferrer">🎟️ {t.tickets} ↗</a>}{!stale && <a className="btn ghost" href={`/festival-calendars/${locale}/${e.id}.ics`} download={`${e.id}.ics`}>🗓️ {t.calendar}</a>}</div>
           <PartnerBooking locale={locale} place={e.map} query={e.klookSearch} offer={e.offer} today={today} eventEnd={e.end}/>
           <details className="festival-sharing"><summary>{t.share}</summary><ShareTools locale={locale} title={copy.name} getUrl={()=>eventShareUrl(locale,e.id)}/></details>

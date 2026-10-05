@@ -155,6 +155,21 @@ body {background-image:radial-gradient(ellipse at 0 15%,var(--travel-tint),trans
 .stay22 .btn{white-space:normal;text-align:start;margin:4px 6px 4px 0}
 .stay22 .stay22-direct{background:var(--primary);color:var(--bg)}
 .partner-booking .stay22-frame{aspect-ratio:auto;height:380px;max-height:none}
+/* Cards in each visible row share content-sized tracks, including booking and hotels. */
+.festival-card .festival-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start}
+.festival-card .festival-actions .btn{display:flex;align-items:center;justify-content:center;white-space:normal;text-align:center}
+.festival-card .partner-experience>.btn,.festival-card .stay22>.btn{display:flex;width:100%;margin:0 0 8px;box-sizing:border-box;align-items:center}
+@supports(grid-template-rows:subgrid){
+  @media(min-width:600px){
+    .festival-grid{row-gap:0}
+    .festival-card{display:grid;grid-row:span 8;grid-template-rows:subgrid;row-gap:0;margin-bottom:88px}
+    .festival-card-body{display:grid;grid-row:span 7;grid-template-rows:subgrid;row-gap:0}
+    .festival-card .festival-actions{margin-bottom:0}
+    .festival-card .partner-booking{display:grid;grid-row:span 4;grid-template-rows:subgrid;row-gap:0}
+    .festival-card .partner-booking>h3,.festival-card .partner-experience,.festival-card .stay22,.festival-card .partner-notes{align-self:start;min-width:0}
+    .festival-card .stay22{margin-top:22px}
+  }
+}
 @media print{.partner-booking{display:none}}
 /* Reading labels and verified dates keep a clear, stable shape in every locale. */
 .factbox-h{flex-direction:column;align-items:flex-start;gap:12px}
