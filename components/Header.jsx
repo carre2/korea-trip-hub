@@ -8,9 +8,11 @@ import { useEffect, useState } from "react";
 export default function Header({ locale, nav = {}, labels: ui = {}, locales = [], localeNames = {}, rtl = false }) {
   const t = nav;
   const [menuOpen, setMenuOpen] = useState(false);
+  const [onHome, setOnHome] = useState(false);
 
   // Keep <html lang/dir> in sync with the active locale.
   useEffect(() => {
+    setOnHome(window.location.pathname === `/${locale}/`);
     document.documentElement.lang = locale;
     document.documentElement.dir = rtl ? "rtl" : "ltr";
     try { const theme = localStorage.getItem("kth_theme"); if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme; } catch {}
@@ -69,7 +71,7 @@ export default function Header({ locale, nav = {}, labels: ui = {}, locales = []
           <a href={`/${locale}/destinations/`} onClick={close}>{ui.explore}</a>
           <a href={`/${locale}/guides/`} onClick={close}>{ui.continuePrep}</a>
           <a href={`/${locale}/itinerary/`} onClick={close}>{t.planner}</a>
-          <a className="nav-mytrip" href={`/${locale}/#planner`} onClick={close}>{ui.myTrip}</a>
+          <a className="nav-mytrip" href={onHome ? '#planner' : `/${locale}/#planner`} onClick={close}>{ui.myTrip}</a>
           <a href={`/${locale}/plan/help/`} onClick={close}>{t.help}</a>
         <button type="button" className="mobile-theme trip-text-button" onClick={toggleTheme}>◐ {ui.theme}</button></nav>
         <div className="nav-right">
