@@ -1,0 +1,186 @@
+- banner "상단 탐색 메뉴":
+  - status
+  - heading "Google Ads - 시작 페이지로 이동" [level=1]:
+    - button "Google Ads - 시작 페이지로 이동":
+  - button "페이지 검색":
+    - img: search
+    - text: 검색
+  - button "디자인":
+    - img: responsive_layout
+    - text: 디자인
+  - button "새로고침":
+    - img: refresh
+    - text: 새로고침
+  - button "빠른 도움말 패널 열기":
+    - text: 도움말
+    - img: help_outline
+    - text: 도움말
+  - button "알림":
+    - img: notifications
+    - generic: 알림
+  - generic "528-829-7098 Korea Trip Hub"
+  - generic: minho.han0165@gmail.com
+  - button "Google 계정":
+    - img "Google 계정 (minho.han0165@gmail.com)"
+- button "만들기":
+- generic: 만들기
+- menu:
+  - menu:
+    - menuitem "캠페인":
+      - img: campaign
+      - generic: 캠페인
+    - menuitem "목표":
+      - img: rewarded_ads
+      - generic: 목표
+    - menuitem "도구":
+      - img: construction
+      - generic: 도구
+    - menuitem "결제":
+      - img: credit_card
+      - generic: 결제
+    - menuitem "관리":
+      - img: settings
+      - generic: 관리
+- button "축소":
+  - img: chevron_right
+  - generic: 축소
+- navigation:
+  - menu:
+    - menuitem "요약":
+      - generic: 요약
+    - menuitem "리드 베타":
+      - generic: 리드
+      - generic: 베타
+    - menuitem "전환":
+      - generic: 전환
+      - img: expand_more
+    - menuitem "측정":
+      - generic: 측정
+      - img: expand_more
+  - generic "Google Ads 앱을 다운로드하세요":
+    - img: app_promo
+    - generic: Google Ads 앱을 다운로드하세요
+  - button "Google Ads 앱 프로모션 접기":
+    - img: collapse_all
+  - button "Google Ads 앱 다운로드 닫기":
+    - img: close
+  - img "QR Code for Ads Mobile"
+  - generic "QR 코드를 스캔하여 앱을 다운로드하세요. 이동 중에도 캠페인 관련 업데이트를 받을 수 있습니다."
+- img: error_outline
+- status:
+  - generic: 게재 중인 광고가 없습니다. - 캠페인과 광고그룹이 일시중지 또는 삭제되었습니다. 해당 항목을 사용하도록 설정하여 광고 게재를 시작하세요.
+- button "자세히 알아보기":
+  - generic: 자세히 알아보기
+- button "숨기기":
+  - generic: 숨기기
+- link "목표":
+  - /url: /aw/conversions?ocid=8583399281&authuser=0&__u=3871349830&__c=3008694569
+- img: chevron_right
+- heading "VISA·K-ETA 안내 페이지 방문" [level=2]
+- generic: 전체
+- button "2026년 10월 4일 적용 불가":
+  - generic: 2026년 10월 4일
+  - img: arrow_drop_down
+- button "이전" [disabled]:
+  - img: chevron_left
+- button "다음" [disabled]:
+  - img: chevron_right
+- button "최근 30일 표시":
+  - generic: 최근 30일 표시
+- tablist:
+  - tab "상세보기" [active] [selected]:
+    - generic: 상세보기
+  - tab "설정":
+    - generic: 설정
+- main:
+  - region "설정":
+    - heading "설정" [level=2]
+    - table "설정":
+      - 'row "이벤트 페이지 로드: plan/visa/"':
+        - cell "이벤트":
+          - generic: 이벤트
+        - 'cell "페이지 로드: plan/visa/"':
+          - generic: "페이지 로드: plan/visa/"
+      - row "전환 이름 VISA·K-ETA 안내 페이지 방문":
+        - cell "전환 이름":
+          - generic: 전환 이름
+        - cell "VISA·K-ETA 안내 페이지 방문":
+          - generic: VISA·K-ETA 안내 페이지 방문
+      - row "전환 유형 ID 추가 정보 수정할 수 없음 아이콘 위에 마우스를 올리거나 Enter를 누르면 도움말을 볼 수 있습니다. 7819502837":
+        - cell "전환 유형 ID 추가 정보 수정할 수 없음 아이콘 위에 마우스를 올리거나 Enter를 누르면 도움말을 볼 수 있습니다.":
+          - generic: 전환 유형 ID
+          - button "추가 정보":
+            - img: help_outline
+          - button "수정할 수 없음 아이콘 위에 마우스를 올리거나 Enter를 누르면 도움말을 볼 수 있습니다.": 수정할 수 없음
+        - cell "7819502837":
+          - generic: "7819502837"
+      - row "만든 날짜 수정할 수 없음 아이콘 위에 마우스를 올리거나 Enter를 누르면 도움말을 볼 수 있습니다. 2026. 10. 4.":
+        - cell "만든 날짜 수정할 수 없음 아이콘 위에 마우스를 올리거나 Enter를 누르면 도움말을 볼 수 있습니다.":
+          - generic: 만든 날짜
+          - button "수정할 수 없음 아이콘 위에 마우스를 올리거나 Enter를 누르면 도움말을 볼 수 있습니다.": 수정할 수 없음
+        - cell "2026. 10. 4.":
+          - generic: 2026. 10. 4.
+      - row "액션 최적화 페이지 조회, 주요 액션":
+        - cell "액션 최적화":
+          - generic: 액션 최적화
+        - cell "페이지 조회, 주요 액션":
+          - generic: 페이지 조회, 주요 액션
+      - row "값 각기 다른 값을 사용합니다. 값이 없는 경우 ₩1을(를) 사용합니다.":
+        - cell "값":
+          - generic: 값
+        - cell "각기 다른 값을 사용합니다. 값이 없는 경우 ₩1을(를) 사용합니다.":
+          - generic: 각기 다른 값을 사용합니다. 값이 없는 경우 ₩1을(를) 사용합니다.
+      - row "소스 수정할 수 없음 아이콘 위에 마우스를 올리거나 Enter를 누르면 도움말을 볼 수 있습니다. 웹사이트":
+        - cell "소스 수정할 수 없음 아이콘 위에 마우스를 올리거나 Enter를 누르면 도움말을 볼 수 있습니다.":
+          - generic: 소스
+          - button "수정할 수 없음 아이콘 위에 마우스를 올리거나 Enter를 누르면 도움말을 볼 수 있습니다.": 수정할 수 없음
+        - cell "웹사이트":
+          - generic: 웹사이트
+      - row "횟수 모든 전환":
+        - cell "횟수":
+          - generic: 횟수
+        - cell "모든 전환":
+          - generic: 모든 전환
+      - row "클릭연결 전환 추적 기간 30일":
+        - cell "클릭연결 전환 추적 기간":
+          - generic: 클릭연결 전환 추적 기간
+        - cell "30일":
+          - generic: 30일
+      - row "조회 완료 전환 추적 기간 3일":
+        - cell "조회 완료 전환 추적 기간":
+          - generic: 조회 완료 전환 추적 기간
+        - cell "3일":
+          - generic: 3일
+      - row "조회 후 전환 추적 기간 1일":
+        - cell "조회 후 전환 추적 기간":
+          - generic: 조회 후 전환 추적 기간
+        - cell "1일":
+          - generic: 1일
+      - row "기여 분석 데이터 기반 추천 Google 유료 채널":
+        - cell "기여 분석":
+          - generic: 기여 분석
+        - cell "데이터 기반 추천 Google 유료 채널":
+          - text: 데이터 기반
+          - generic: 추천
+          - generic: Google 유료 채널
+      - row "향상된 전환 Google 태그를 통해 관리됩니다.":
+        - cell "향상된 전환":
+          - generic: 향상된 전환
+        - cell "Google 태그를 통해 관리됩니다.":
+          - generic: Google 태그를 통해 관리됩니다.
+  - button "설정 수정":
+    - generic: 설정 수정
+  - region:
+    - generic: 데이터 소스
+    - generic: 이벤트
+    - generic: Korea Trip Hub
+    - generic: 사용자가 'plan/visa/'이(가) 포함된 페이지를 방문합니다.
+    - button "관리":
+      - generic: 관리
+  - generic: © Google, 2026.
+- dialog:
+  - heading [level=1]: Turn off ad blockers
+  - paragraph: Google Ads can't work when you're using an ad blocker. To use Google Ads, please turn off any ad blockers for now.
+- dialog "대화상자"
+- dialog "대화상자"
+- text: warning_amber

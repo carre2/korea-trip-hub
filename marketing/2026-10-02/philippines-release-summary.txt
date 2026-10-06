@@ -1,0 +1,30 @@
+필리핀 비자 안내 수정 및 배포 완료
+검증일: 2026-10-02 (한국시간)
+커밋: 7a3f15d — facts: correct Philippines visa fees, processing and KVAC requirements
+GitHub main 반영 완료. GitHub CI 및 Cloudflare Workers Builds 모두 success.
+
+수정
+일반 C-3 처리: 2026-10-01부터 12영업일. 급행 5영업일(자격 별도 확인).
+필리핀 국적자 비자 발급 수수료: 59일 이하 면제, 60–90일 PHP 2,000. KVAC 및 대행 서비스 비용 별도.
+접수: KVAC. 최신 지정 대행기관 목록으로 연결.
+은행 잔고증명서: 발급일 3개월 이내, 6개월 평균잔액 및 공식 필수 기재사항 명시. 은행 거래내역의 보편적 면제라는 기존 주장은 삭제하고 직업별 최신 체크리스트를 안내.
+직장인 및 사업자 서류의 공식 요건 반영. 근거 불명확한 항공권/호텔 예약 필수 주장, 일반 3–5일 처리, 모든 관광 비자 무료 문구 삭제.
+12개 운영 언어 본문, 사실대장, 국가 카드, 번역 및 FAQ 데이터 일치.
+
+공식 자료
+https://overseas.mofa.go.kr/ph-en/brd/m_3277/view.do?seq=738708&page=1
+https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761029&page=1
+https://overseas.mofa.go.kr/ph-en/brd/m_3275/view.do?seq=761028&page=1
+
+검증
+npm run build: PASS (번역, 콘텐츠, 사실 최신성, SEO 포함). SEO 오류 0; 기존 길이 경고 160건.
+npm run test:audit: PASS.
+정적 산출물 및 운영 사이트 12개 언어 검사: PASS. 수수료, 처리 기간, 잔고증명서 내용, 공식 처리기간 링크, 검토일, canonical, FAQ 확인.
+운영 확인 로그: philippines-live-verification.txt
+화면 증빙: philippines-live-ko.png
+공식 PDF: philippines-official-c3-9.pdf
+원본 백업: visa-backup/
+변경 패치: philippines-7a3f15d.patch
+변경된 소스 및 FAQ 파일을 G:/내 드라이브/korea-trip-hub의 해당 경로에도 복사 완료.
+
+背包客棧 가입/게시 작업은 사용자 요청대로 이메일 인증 완료 전까지 보류. 이번 배포는 기존 인스타그램 예약에 영향을 주지 않음.

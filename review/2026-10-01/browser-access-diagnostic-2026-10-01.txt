@@ -1,0 +1,29 @@
+Korea Trip Hub 브라우저 접근 진단 — 2026-10-01
+
+대상: http://localhost:4173
+목적: 사용자가 요청한 로컬 사이트 화면 및 공유 기능 검증
+
+확인된 사실
+1. 사용자는 해당 주소의 접근 차단 해제를 명시적으로 요청했다.
+2. 설정 UI에서 해당 주소가 항상 허용으로 표시됐다.
+3. 사용자 config.toml에 다음 값이 존재한다.
+   [browser_use.origins."http://localhost:4173"]
+   access = "allow"
+4. 앱 본체는 21:59:44, 브라우저 제어 프로세스는 21:59:57에 새로 실행됐음을 확인했다.
+5. 재시작 후에도 Browser Use는 다음 오류를 반환했다.
+   A saved user permission setting blocks this action.
+   Browser use cannot access http://localhost:4173 because the user has a saved preference that blocks it.
+6. 확인한 프로젝트 상위 설정 및 후보 시스템 requirements 파일에서는 추가 차단 규칙을 발견하지 못했다. 모든 정책 소스를 확인한 것은 아니다.
+7. 공식 문서상 access=allow는 정상 승인 및 정책 검사를 계속하도록 허용할 뿐, 별도의 접근 승인을 만들거나 모든 차단을 해제하지 않는다.
+   https://learn.chatgpt.com/docs/config-file/config-reference
+
+미확인
+- 저장된 거부 결정의 실제 저장 위치 및 적용 정책 출처
+- UI 설정과 런타임 판단이 다른 정확한 원인
+
+지원 요청
+해당 origin에 적용되는 저장된 거부 결정과 유효 정책의 출처를 확인하고, UI의 명시적 허용이 Browser Use에 반영되지 않는 원인을 조사해 주세요.
+
+수행하지 않은 작업
+내부 승인 DB 수정, 정책 우회, 다른 포트 또는 브라우저를 이용한 우회 접근은 수행하지 않았다.
+사이트의 실제 화면 및 SNS/메일 공유창 검증은 미완료다.

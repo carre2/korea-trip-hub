@@ -1,0 +1,88 @@
+- banner:
+  - link "콘텐츠로 건너뛰기":
+    - /url: "#"
+    - generic: 콘텐츠로 건너뛰기
+  - navigation "기본 내비게이션 헤더":
+    - button "Pinterest 핀 만들기 동적 배지 드롭다운 메뉴 버튼":
+      - img "Pinterest"
+      - heading "핀 만들기" [level=1]
+      - img "동적 배지 드롭다운 메뉴 버튼"
+    - button "Korea Trip Hub Korea Trip Hub 계정 전환기 화살표 아이콘":
+      - generic: Korea Trip Hub
+      - generic: Korea Trip Hub
+      - img "계정 전환기 화살표 아이콘"
+    - button "검색 아이콘":
+    - link "알림":
+      - /url: ""
+    - link "메시지":
+      - /url: ""
+    - link "댓글 및 소셜 활동 관리":
+      - /url: /engagement/
+    - link "내 프로필":
+      - /url: /korea_trip_hub/
+    - button "계정 및 기타 옵션":
+- complementary "꼬리말 부동 버튼":
+  - generic "더 보기":
+    - button "더 보기":
+- main:
+  - heading "핀 초안 (1)" [level=2]
+  - button "초안 사이드바 닫기":
+  - button "새로 만들기":
+    - generic: 새로 만들기
+  - separator
+  - list:
+    - group "핀 초안 카드":
+      - 'button "Philippines to Korea: Visa Preparation and Official Guidance 만료되기까지 30일 남음"':
+        - 'heading "Philippines to Korea: Visa Preparation and Official Guidance" [level=3]':
+          - 'generic "Philippines to Korea: Visa Preparation and Official Guidance"'
+        - generic: 만료되기까지 30일 남음
+      - button "핀 초안 작업":
+      - status
+  - heading "핀 만들기" [level=1]
+  - generic: "작업 프로필: 내 프로필"
+  - generic: 저장 중...
+  - button "예약":
+    - generic: 예약
+  - img "핀 만들기를 위해 업로드된 이미지"
+  - textbox "텍스트 필드가 비어 있습니다. 텍스트 레이어를 추가하려면 핀 디자인 수정 페이지로 이동하세요."
+  - button "핀 수정":
+  - generic: 제목
+  - textbox "제목":
+    - /placeholder: 사람들에게 회원님의 핀에 대해 설명해 보세요
+    - text: "Philippines to Korea: Visa Preparation and Official Guidance"
+  - button "설명":
+    - button
+    - generic "설명"
+    - combobox "핀에 대해 설명하세요":
+      - generic: Planning a Korea trip with a Philippine passport? Start with our independent visa information guide, then check the current checklist and application instructions with the Korean Embassy or its designated official channels. Save this reminder before making travel plans. Open the link for guidance and official sources. Korea Trip Hub does not issue visas or submit applications. AI-created travel inspiration; people and scenes are illustrative.
+  - generic: 링크
+  - textbox "링크":
+    - /placeholder: 링크 추가
+    - text: https://ktriphub.com/en/visa/philippines/?utm_source=pinterest&utm_medium=organic_social&utm_campaign=2daily_202610&utm_content=philippines_prepare
+  - button "보드 Korea Travel Planning 드롭다운 열기":
+    - generic: 보드
+    - generic: Korea Travel Planning
+    - img "드롭다운 열기"
+  - generic: 태그된 주제 (0)개
+  - combobox "태그된 주제 (0)개"
+  - generic: 걱정하지 마세요. 사람들에게 태그는 보여지지 않습니다.
+  - generic "상품 태그"
+  - button "상품 추가":
+    - generic: 상품 추가
+  - checkbox "나중에 게시" [checked]
+  - generic: 나중에 게시
+  - textbox "YYYY.MM.DD": 2026.10.09
+  - button:
+  - button "12:00 PM 시간 선택":
+    - textbox "시간": 12:00 PM
+    - img "시간 선택"
+  - checkbox "AI 수정으로 표시 전부 또는 일부를 AI로 만든 콘텐츠" [checked]
+  - generic: AI 수정으로 표시
+  - generic: 전부 또는 일부를 AI로 만든 콘텐츠
+  - checkbox "이 핀에는 AI가 생성한 사람이 포함됩니다." [checked]
+  - generic: 이 핀에는 AI가 생성한 사람이 포함됩니다.
+  - button "추가 옵션 추가 옵션 화살표 아이콘 표시":
+    - generic: 추가 옵션
+    - img "추가 옵션 화살표 아이콘 표시"
+  - generic: 불법 촬영 콘텐츠 등을 게시하는 경우 Pinterest는 한국 전기통신사업법 제22-5(1)조에 따라 해당 콘텐츠의 액세스를 삭제하거나 차단할 수 있으며, 사용자는 관련 법률 및 규정에 따라 처벌을 받을 수 있습니다.
+- contentinfo "꼬리말"

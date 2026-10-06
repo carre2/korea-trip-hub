@@ -1,0 +1,13 @@
+Partner integration — 2026-10-05
+Existing Klook aid 130139 / adid 1372119 and Stay22 aid 6a8fd38afdad71da9008a52b reused.
+Verified Klook products: activity 171795 (2026 Busan Fireworks ticket/shuttle), activity 124304 (Jinju festival tour from Busan). Sources are stored in facts.json, reviewed 2026-10-05, recheck 2026-10-12. Prices, inventory and cancellation terms are not reproduced.
+BIFF retains official film booking; related Busan experiences are clearly a search. Expired/stale event products fall back to related search.
+Stay22 Allez direct links added across destination maps, festival venues, K-pop venues/agency areas/fan spots, accommodation neighborhoods and itineraries. No dependence on a global LinkSwap script. Maps load only after the visitor opens them. No event duration is inferred as a hotel stay.
+Official docs: https://dev.stay22.com/docs/allez and https://dev.stay22.com/docs/maps
+12 locale booking labels and localized affiliate disclosure. Sponsored/nofollow on partner links.
+Audit: 23 tests passed. Build: 2082 pages generated; SEO 2076 pages / 12 locales, 0 errors, 160 existing warnings.
+Generated Korean festival HTML: 5 tracked Klook links, 3 tracked Stay22 links, no untracked product links, no eager Stay22 iframe.
+Standing partner-link requirements saved in AGENTS.md. Modified source mirrored to G Drive.
+Deployment and live browser verification pending.
+Final rebuilt HTML confirmed: 5 tracked Klook links, 0 untracked product links, 3 Stay22 hotel links on Korean festivals. Itinerary hotel links use Stay22, no direct Agoda hotel link. Chrome confirmed Stay22 Allez redirects to Booking.com with Gwangalli Beach as the destination. No purchase or reservation made.
+Completed release: e06d666 + 42e7892 pushed to main. Both GitHub build and Cloudflare Workers checks succeeded for both commits. Final full build passed. Global generated HTML scan found 0 pages with direct untracked Klook/Agoda/Booking.com/Hotels.com anchors. Live English festival booking labels, Klook affiliate redirect to product 171795 and Stay22 Gwangalli map controls verified in Chrome. Screenshot partner-booking.png saved.

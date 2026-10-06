@@ -1,0 +1,17 @@
+{
+  "commit": "ebaf676",
+  "checked": "2026-10-05",
+  "production": "https://ktriphub.com/vi/visa/vietnam/",
+  "checks": {
+    "productionBuild": "PASS",
+    "translations": "PASS: 12 locales",
+    "exportRegression": "PASS: 12 Vietnam pages, visa-free Taiwan guidance preserved",
+    "seo": "PASS: 2076 pages; 0 errors; 160 existing length warnings",
+    "githubCI": "success",
+    "cloudflareWorkersBuild": "success",
+    "liveChromeDOM": "PASS: K-ETA answer, processing, official resources, 3 offices and new FAQ visible",
+    "liveHorizontalOverflow": false,
+    "liveDateWrapping": "Two visible verification dates fit on one line",
+    "screenshot": "Browser capture timed out; live DOM recorded in live-dom.txt"
+  }
+}

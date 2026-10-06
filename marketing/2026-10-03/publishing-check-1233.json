@@ -1,0 +1,33 @@
+{
+  "checked_at_kst": "2026-10-03 12:33:53 +09:00",
+  "trigger_at_kst": "2026-10-03 12:31:11",
+  "intended_check_time": "21:30 Asia/Seoul",
+  "schedule_note": "이번 호출은 21:30이 아닌 12:31 KST에 도착. 저녁 예약 발행 후 점검을 대체하지 않음.",
+  "instagram_intro": {
+    "status": "published_verified",
+    "published_platform_id": "18106819721267397",
+    "original_scheduled_id": "1118079357286661",
+    "platform_published_time": "Fri Oct 2, 9:00pm",
+    "evidence": "instagram-published-1233.txt",
+    "screenshot": "instagram-published-1233.jpg"
+  },
+  "instagram_philippines": {
+    "status": "scheduled_verified",
+    "scheduled_kst": "2026-10-03 21:00",
+    "evidence": "instagram-scheduled-1232.txt",
+    "screenshot": "instagram-scheduled-1232.jpg",
+    "note": "현재 시각은 예약 이전. 예약 목록 일치 항목 1개, 실제 발행은 아직 확인 대상 아님."
+  },
+  "pinterest": {
+    "status": "published_verified",
+    "count": 8,
+    "evidence": "pinterest-pins-1233.txt",
+    "screenshot": "pinterest-pins-1233.jpg"
+  },
+  "failures": "확인 범위 내 확정된 실패 없음",
+  "approval_pending": 0,
+  "access_problem": "없음",
+  "new_publishing": "없음",
+  "backpackers": "인증 완료 안내 전까지 보류",
+  "reddit": "제외"
+}

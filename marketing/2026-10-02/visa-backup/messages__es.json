@@ -1,0 +1,594 @@
+{
+  "chat": {
+    "bubble": "¿En qué puedo ayudarte?",
+    "title": "Asistente de Viaje",
+    "greeting": "¡Hola! Puedo ayudarte con problemas en tu viaje a Corea: cobros de más, perderte, buscar comida, etiqueta, visados y más. ¿Qué necesitas?",
+    "emergency": "¿En peligro o herido? Llama ya al 112 (policía) o al 119 (bomberos/ambulancia).",
+    "placeholder": "Escribe tu pregunta…",
+    "send": "Enviar",
+    "thinking": "Pensando…",
+    "share": "Compartir ubicación",
+    "disclaimer": "Ayuda general, no asesoramiento de emergencia ni legal. Confirma los datos importantes con fuentes oficiales.",
+    "error": "Lo siento, no pude conectar con el asistente. Para ayuda urgente llama al 1330 (gratis, 24/7).",
+    "short_overbill": "¿Te cobraron de más?",
+    "short_lost": "Estoy perdido",
+    "short_food": "Buscar comida",
+    "short_etiquette": "Etiqueta",
+    "qOverbill": "Creo que me cobraron de más, ¿qué hago?",
+    "qLost": "Estoy perdido, ¿cómo consigo ayuda?",
+    "qFood": "¿Dónde puedo encontrar un buen lugar para comer cerca?",
+    "qEtiquette": "¿Qué errores de etiqueta debo evitar?",
+    "virtualGuide": "Asistente de viaje con IA",
+    "close": "Cerrar"
+  },
+  "seasonLinks": {
+    "spring": "Dónde ver los cerezos",
+    "summer": "Playas y escapadas de verano",
+    "autumn": "Dónde ver el follaje otoñal",
+    "winter": "Lo mejor del invierno"
+  },
+  "destBook": {
+    "label": "Entradas, tours y experiencias",
+    "sub": "Entrada sin colas, alquiler de hanbok y excursiones — vía Klook."
+  },
+  "guides": {
+    "eyebrow": "Temporadas y temas",
+    "title": "Guías de viaje por Corea",
+    "sub": "Guías por temporada y tema para elegir el mejor momento y planificar tu viaje.",
+    "answer": "Respuesta rápida",
+    "faqTitle": "Preguntas frecuentes"
+  },
+  "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — Planifica tu viaje a Corea en tu idioma",
+    "homeDesc": "El centro de viajes a Corea todo en uno: planificador de itinerarios con, datos esenciales verificados (visado, transporte), comida y experiencias, reseñas y K-culture."
+  },
+  "nav": {
+    "plan": "Preparativos",
+    "planner": "Planificador",
+    "destinations": "Destinos",
+    "food": "Comida",
+    "reviews": "Opiniones",
+    "kculture": "K-Culture",
+    "map": "Mapa",
+    "help": "Ayuda"
+  },
+  "plan": {
+    "eyebrow": "Planifica tu viaje — empieza aquí",
+    "sub": "Los 6 aspectos básicos que resolver antes de llegar a Corea.",
+    "tiles": {
+      "visa": {
+        "title": "Visa & K-ETA",
+        "sub": "Permiso de entrada y normas de visado"
+      },
+      "transit": {
+        "title": "Cómo moverse",
+        "sub": "T-money · metro · KTX · taxi"
+      },
+      "airport": {
+        "title": "Aeropuerto → ciudad",
+        "sub": "Incheon · AREX exprés"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "Conéctate al llegar"
+      },
+      "money": {
+        "title": "Dinero y pagos",
+        "sub": "Cambio · tarjeta · efectivo"
+      },
+      "weather": {
+        "title": "Mejor época y clima",
+        "sub": "¿Cuándo ir? ¿Qué llevar?"
+      },
+      "help": {
+        "title": "Ayuda y emergencias",
+        "sub": "Ayuda y emergencias"
+      },
+      "kpop": {
+        "title": "K-pop y conciertos",
+        "sub": "Recintos, entradas y lugares de ídolos"
+      }
+    },
+    "officialSources": "Fuentes oficiales"
+  },
+  "hero": {
+    "badge": "Planificador — el corazón de Korea Trip Hub",
+    "title_1": "Escribe tu hotel. Elige una ciudad.",
+    "title_2": "Y el viaje entero, listo.",
+    "lede": "Dinos dónde te alojas y a dónde quieres ir — por ejemplo, Busan. Te mostramos las opciones de transporte (KTX, autobús, avión) y armamos un itinerario diario por los imprescindibles de la ciudad.",
+    "f_hotel": "Tu hotel / punto de salida",
+    "f_dest": "¿A dónde quieres ir?",
+    "f_days": "Días",
+    "f_travelers": "Viajeros",
+    "f_style": "Estilo de viaje",
+    "build": "Crear mi viaje"
+  },
+  "help": {
+    "eyebrow": "Tranquilidad",
+    "title": "Ayuda y seguridad",
+    "sub": "Datos esenciales verificados con fuentes oficiales, para guardar antes de llegar.",
+    "verified_on": "Verificado",
+    "check_official": "Confirma siempre en la fuente oficial",
+    "embassy": {
+      "title": "Tu embajada",
+      "sub": "Dirección, teléfono y mapa por país."
+    },
+    "unavailable": "En verificación"
+  },
+  "footer": {
+    "tagline": "Desde los requisitos de entrada hasta los días inolvidables. Empieza por lo que necesitas y guarda tu viaje ideal.",
+    "disclaimer": "Los datos de viaje se cotejan con fuentes oficiales e incluyen fecha de verificación. Precios, horarios y normas de visado cambian — confirma siempre en la fuente oficial enlazada antes de viajar.",
+    "legalNav": {
+      "about": "Acerca de",
+      "operator": "Operador",
+      "contact": "Contacto",
+      "privacy": "Privacidad y cookies",
+      "terms": "Términos",
+      "editorial": "Política editorial",
+      "corrections": "Correcciones",
+      "affiliate": "Publicidad y Afiliados"
+    },
+    "updatedLabel": "Actualizado",
+    "legalNavLabel": "Legal",
+    "morePolicies": "Más políticas",
+    "affiliateLine": "Algunos enlaces son de afiliados: podemos ganar una comisión sin coste adicional para ti.",
+    "rights": "© 2026 Korea Trip Hub — guía de viajes independiente. Confirma siempre las normas vigentes en fuentes oficiales.",
+    "colPlan": "Planifica",
+    "colDiscover": "Descubre",
+    "colInfo": "Info",
+    "linkPlanTrip": "Planificar viaje",
+    "linkConcerts": "Conciertos (kpophub.kr)",
+    "linkHelpSafety": "Ayuda y seguridad",
+    "linkVisa": "Visado y K-ETA",
+    "linkEmergency": "Emergencias",
+    "linkEmbassies": "Embajadas"
+  },
+  "map": {
+    "search": "Buscar",
+    "placeholder": "Busca una dirección o lugar…",
+    "kakaoPending": "La clave de KakaoMap llegará pronto.",
+    "noResult": "Sin resultados — prueba una dirección completa.",
+    "authFail": "Naver Maps no pudo autorizar — revisa el Client ID y el dominio registrado.",
+    "loadFail": "No se pudo cargar el mapa.",
+    "mapNoteGoogle": "Google Maps muestra los nombres de los lugares en tu idioma — el mapa más fácil de leer. Para rutas y transporte dentro de Corea, cambia a Naver o KakaoMap.",
+    "mapNoteKorean": "Naver y KakaoMap tienen los datos de calles y transporte de Corea más detallados, pero sus etiquetas están casi todas en coreano. Para inglés y otros idiomas, usa Google arriba."
+  },
+  "spotify": {
+    "title": "Escucha — K-Pop en Spotify",
+    "sub": "Grupos de moda y artistas que aman los fans de todo el mundo. Elige uno para oír sus mejores canciones.",
+    "artists": "Artistas y grupos",
+    "playlists": "Listas seleccionadas",
+    "note": "Vistas previas gratis; canciones completas con sesión en Spotify."
+  },
+  "planner": {
+    "day": "Day",
+    "gettingThere": "Cómo llegar",
+    "morning": "Mañana",
+    "afternoon": "Tarde",
+    "evening": "Noche",
+    "share": "Compartir viaje",
+    "transportNote": "Horarios y tarifas cambian — confirma con el operador."
+  },
+  "dest": {
+    "title": "Destinos",
+    "sub": "Lugares reales, agrupados por ciudad. Las cifras de popularidad tienen fuente, no se inventan.",
+    "browseAll": "Todos los destinos",
+    "regional": "Especialidades regionales — que valen el viaje",
+    "regionalSub": "Cada región tiene su plato estrella. Toca una ciudad para ver dónde alojarte cerca.",
+    "whyGo": "Por qué ir",
+    "goodToKnow": "Bueno saber",
+    "nearby": "Cerca",
+    "official": "Info oficial"
+  },
+  "food": {
+    "title": "Comida — pruébala y luego hazla",
+    "sub": "Dónde comer y clases para cocinar tú mismo. Los precios varían — no los inventamos.",
+    "eat": "Dónde comer",
+    "make": "Experiencias de cocina",
+    "tips": "Bueno saber",
+    "browseAll": "Toda la comida y experiencias"
+  },
+  "reviews": {
+    "title": "Opiniones — por categoría e idioma",
+    "sub": "Opiniones reales de viajeros — filtra por tema y velas primero en tu idioma. Moderadas, nunca inventadas.",
+    "all": "Todas",
+    "catDest": "🏛️ Destinos",
+    "catFood": "🥢 Comida y experiencias",
+    "catKculture": "🎤 K-Culture",
+    "catTransport": "🚄 Transporte",
+    "empty": "Aún no hay opiniones — sé el primero en compartir tu viaje por Corea.",
+    "cta": "Escribir opinión",
+    "ctaSoon": "El envío de opiniones se abrirá pronto"
+  },
+  "factsUI": {
+    "verified_facts": "Datos verificados",
+    "good_to_know": "Bueno saber",
+    "official_sources": "Fuentes oficiales",
+    "source": "Fuente",
+    "confirm": "⚠ Precios/normas cambian — confirma en la fuente oficial"
+  },
+  "factLabels": {
+    "exempt_until": "Exento hasta",
+    "earrival_card": "e-Arrival Card",
+    "age_exempt": "Exención por edad",
+    "number": "Número",
+    "hours": "Horario",
+    "languages": "Idiomas",
+    "fare_krw_each_way": "Tarifa por trayecto",
+    "minutes": "Minutos",
+    "type": "Tipo",
+    "frequency": "Frecuencia",
+    "fare_krw": "Tarifa (KRW)",
+    "pay": "Pago",
+    "stores": "Dónde comprar",
+    "basic_krw": "Tarjeta básica (KRW)",
+    "design_krw": "Edición de diseño (KRW)",
+    "card_refundable": "Reembolso de tarjeta",
+    "fare_krw_standard": "Tarifa estándar (KRW)",
+    "duration": "Duración",
+    "booking": "Reserva",
+    "best": "Mejores estaciones",
+    "summer": "Verano",
+    "winter": "Invierno",
+    "currency": "Moneda",
+    "code": "Código",
+    "symbol": "Símbolo",
+    "tipping": "Propinas",
+    "apply": "Solicitar",
+    "apply_at": "Solicitar en",
+    "appointment": "Cita previa",
+    "avg_daily_foreign_visitors": "Media diaria de visitantes extranjeros",
+    "bank_statement": "Extracto bancario",
+    "base_cash": "Tarifa base (efectivo)",
+    "base_distance": "Distancia base",
+    "base_tmoney": "Tarifa base (T-money)",
+    "blue_green": "Autobús azul / verde",
+    "buy_at": "Comprar en",
+    "carriers": "Operadores",
+    "condition": "Condición",
+    "cost": "Coste",
+    "deluxe_base": "Base de lujo (Mobeom)",
+    "entries": "Entradas",
+    "esim": "eSIM",
+    "exempt_countries": "Países exentos",
+    "extra": "Extra",
+    "fare": "Tarifa",
+    "fee": "Tasa",
+    "financial_docs": "Documentos financieros",
+    "foreign_hikers": "Senderistas extranjeros",
+    "group_visa_free": "Sin visado para grupos",
+    "international_base": "Tarifa base del taxi internacional",
+    "intl_taxi": "International Taxi",
+    "jeju_visa_free": "Jeju sin visado",
+    "max_stay": "Estancia máxima",
+    "medium_base": "Tarifa base del autobús mediano",
+    "medium_then": "Autobús mediano, luego por",
+    "metered": "Con taxímetro",
+    "multi_year": "Varios años",
+    "night": "Nocturno",
+    "night_surcharge": "Recargo nocturno",
+    "note": "Nota",
+    "physical_sim": "SIM física",
+    "pocket_wifi": "Pocket Wi-Fi",
+    "processing": "Tramitación",
+    "rank": "Puesto",
+    "red_express": "Autobús rojo (exprés)",
+    "refundable": "Reembolsable",
+    "replaced": "Sustituye a",
+    "requirement_resumes": "El requisito se reanuda",
+    "service_fee": "Cargo por servicio",
+    "tolls": "Peajes",
+    "typical_result": "Resultado típico",
+    "valid_for": "Válido durante",
+    "visa_fee": "Tasa de visado",
+    "visa_type": "Tipo de visado",
+    "window": "Plazo de solicitud",
+    "yellow": "Autobús amarillo"
+  },
+  "facts": {
+    "keta-exemption": {
+      "claim": "La exención temporal de K-ETA se aplica solo a los países y territorios designados hasta 2026-12-31. Entrar sin visado no implica estar exento de K-ETA. Consulta de nuevo el aviso oficial para viajes posteriores.",
+      "notes": "Confirma tu caso en los sitios oficiales. Inmigración toma la decisión final de entrada."
+    },
+    "keta-fee-validity": {
+      "claim": "K-ETA cuesta KRW 10,000 más la comisión de pago en línea y no es reembolsable. Las aprobaciones actuales duran 3 años o hasta que caduque el pasaporte, lo que ocurra antes; no es la duración permitida de cada estancia.",
+      "notes": "Confirma tu caso en los sitios oficiales. Inmigración toma la decisión final de entrada."
+    },
+    "keta-apply-window": {
+      "claim": "Solicita con tiempo para recibir la aprobación antes de embarcar. La evaluación de K-ETA puede superar las 72 horas; no se garantiza el plazo de aprobación ni la entrada.",
+      "notes": "Confirma tu caso en los sitios oficiales. Inmigración toma la decisión final de entrada."
+    },
+    "keta-exempt-countries": {
+      "claim": "La exención temporal de K-ETA se aplica solo a los países y territorios designados hasta 2026-12-31. Entrar sin visado no implica estar exento de K-ETA. Consulta de nuevo el aviso oficial para viajes posteriores.",
+      "notes": "Confirma tu caso en los sitios oficiales. Inmigración toma la decisión final de entrada."
+    },
+    "earrival-card-how": {
+      "claim": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera.",
+      "notes": "Confirma tu caso en los sitios oficiales. Inmigración toma la decisión final de entrada."
+    },
+    "transit-free-transfer": {
+      "claim": "Los transbordos entre metro y autobús (o autobús y autobús) son gratuitos dentro de un plazo de 30 minutes si pagas con una tarjeta T-money y validas tanto al subir como al bajar.",
+      "notes": "También debes validar al bajar del autobús, o perderás el descuento por transbordo y podrían cobrarte de nuevo."
+    },
+    "transit-subway-seoul": {
+      "claim": "La tarifa base del metro de Seúl es de ₩1,550 con tarjeta T-money (₩1,650 en billete sencillo en efectivo), para hasta 10 km; los trayectos más largos suman ₩100 por cada 5 km adicionales.",
+      "notes": "Subió desde ₩1,400 en la subida de tarifas de June 2025. Confirma las tarifas actuales en Naver Map / KakaoMap o en la web de Seoul TOPIS."
+    },
+    "transit-bus-seoul": {
+      "claim": "Tarifas de los autobuses urbanos de Seúl (T-money): azul y verde ₩1,500, amarillo ₩1,400, rojo (exprés de larga distancia) ₩3,000+, nocturno (N-bus) ₩2,500.",
+      "notes": "Valida al subir Y al bajar para obtener transbordos gratuitos. Confirma las tarifas actuales en Seoul TOPIS."
+    },
+    "transit-taxi-seoul": {
+      "claim": "La tarifa base del taxi mediano de Seúl es de ₩4,800 (primeros 1.6 km), luego ₩100 por cada 132 m. Se aplica un recargo nocturno de hasta el 40% (aproximadamente de 23:00 a 02:00). Los taxis de lujo empiezan en ₩7,000 (primeros 3 km) y no tienen recargo nocturno.",
+      "notes": "Usa Kakao T para obtener una estimación de la tarifa por adelantado. Los taxis de lujo (mobeom) e internacionales cuestan más, pero evitan los recargos nocturnos y ofrecen inglés."
+    },
+    "ktx-seoul-busan": {
+      "claim": "Tarifa de ida en asiento estándar del KTX Seúl → Busan y tiempo de viaje aproximado.",
+      "notes": "Cifra de terceros. Varía según el tren y la clase de asiento. Confirma la tarifa real en letskorail.com."
+    },
+    "tmoney-where-to-buy": {
+      "claim": "Las tarjetas T-money se venden y se recargan en tiendas de conveniencia de todo el país (CU, GS25, 7-Eleven, Emart24) y en las máquinas de las estaciones de metro.",
+      "notes": "Funciona en metro, autobús, taxi y en tiendas de conveniencia."
+    },
+    "arex-express": {
+      "claim": "Tren AREX Express: directo entre el Aeropuerto de Incheon y la Estación de Seúl. Unos 43 min desde la Terminal 1 (51 min desde la Terminal 2).",
+      "notes": "La tarifa del Express subió respecto a los antiguos ₩9,500; las fuentes de 2026 citan unos ₩13,000 tarifa plana, con descuentos en línea de cerca de ₩11,500. Confirma siempre la tarifa actual en arex.or.kr."
+    },
+    "arex-allstop": {
+      "claim": "Tren AREX con todas las paradas: llega a la Estación de Seúl en unos 59–66 minutes. La tarifa depende de tu estación de destino.",
+      "notes": "La opción de tren al aeropuerto más económica; paga con T-money. Confirma la tarifa exacta para tu estación en arex.or.kr."
+    },
+    "airport-bus": {
+      "claim": "Limusina / autobús del Aeropuerto de Incheon: unos 60–90 minutos hasta Seúl, según la ruta y el tráfico. La tarifa varía según el tipo de autobús.",
+      "notes": "Los autobuses limusina premium KAL cuestan más (~₩18,000); los autobuses de aeropuerto estándar son más baratos. Los autobuses paran cerca de muchos hoteles: comprueba la ruta hasta tu destino."
+    },
+    "airport-taxi": {
+      "claim": "Un taxi normal con taxímetro desde el Aeropuerto de Incheon al centro de Seúl cuesta unos ₩65,000–85,000 y tarda entre 60 y 70 minutos. El International Taxi oficial ofrece tarifas fijas con conductores certificados que hablan inglés, japonés y chino.",
+      "notes": "Las tarifas con taxímetro varían según el tráfico y el destino e incluyen los peajes de autopista; puede aplicarse un recargo nocturno. Los mostradores del International Taxi están en las salas de llegadas de la T1 y la T2 (intltaxi.co.kr, +82-1644-2255)."
+    },
+    "sim-options": {
+      "claim": "Tres formas de conectarte en Corea: una eSIM (instálala antes de volar, activa en cuanto aterrizas), una SIM física (necesita un teléfono liberado) o un pocket Wi-Fi de alquiler (ideal para compartir en grupo). Los operadores son SKT, KT y LG U+.",
+      "notes": "Los precios varían mucho según la cantidad de datos y el número de días, así que compara las ofertas actuales (p. ej. Airalo/Klook para la eSIM; los mostradores de los operadores para la SIM) en lugar de un precio fijo. La eSIM necesita un teléfono compatible con eSIM; la SIM física necesita un teléfono liberado. Los mostradores están en las salas de llegadas de la T1/T2 de Incheon, Gimpo y Gimhae."
+    },
+    "currency-krw": {
+      "claim": "La moneda de Corea es el won (KRW, ₩).",
+      "notes": "Las tarjetas se aceptan ampliamente; el efectivo resulta útil para pequeños comercios y mercados tradicionales."
+    },
+    "tipping-not-customary": {
+      "claim": "En Corea no es habitual dejar propina; no hace falta que dejes propina en restaurantes ni en los taxis.",
+      "notes": "Algunos hoteles de lujo pueden añadir un cargo por servicio, pero en general no se espera propina."
+    },
+    "best-time-seasons": {
+      "claim": "Las mejores épocas para visitar son la primavera (mar–may) y el otoño (sep–nov). El verano (jun–ago) es caluroso y húmedo, con temporada de lluvias; el invierno es frío y seco (Seúl promedia unos -2°C).",
+      "notes": "Características estacionales generales. Las fechas de los cerezos en flor y del follaje otoñal cambian cada año."
+    },
+    "dest-stat-myeongdong": {
+      "claim": "Myeongdong registró el mayor número medio diario de visitantes extranjeros de Seúl (unos 100,910), la zona más visitada de la ciudad.",
+      "notes": "Media diaria de visitantes extranjeros, según los datos de la ciudad de Seúl."
+    },
+    "dest-stat-nseoultower": {
+      "claim": "La N Seoul Tower fue el 2.º lugar más visitado de Seúl por visitantes extranjeros (unos 57,370 de media diaria).",
+      "notes": "Media diaria de visitantes extranjeros, según los datos de la ciudad de Seúl."
+    },
+    "dest-stat-bukhansan": {
+      "claim": "Bukhansan tuvo el mayor número de senderistas extranjeros de las montañas de Seúl (unos 4,015), liderando la creciente tendencia del 'K-hiking'.",
+      "notes": "Recuento de senderistas extranjeros por montaña de Seúl; Bukhansan el más alto."
+    },
+    "visa-india-c39": {
+      "claim": "Los titulares de pasaporte indio necesitan un visado de turista de corta duración C-3-9 para visitar Corea (hasta 90 días). Solicítalo en persona en un Centro de Solicitud de Visados de Corea (VFS Global); no hace falta cita previa.",
+      "notes": "Las tasas y los plazos de tramitación varían según el centro y la temporada: confírmalo en tu KVAC. El formulario y cualquier solicitud electrónica solo están en visa.go.kr (el único portal oficial). India se divide en dos jurisdicciones: Embajada/Nueva Delhi (visaforkorea-id.com) y Consulado de Chennai (visaforkorea-ce.com)."
+    },
+    "visa-vietnam-c39": {
+      "claim": "Los titulares de pasaporte vietnamita necesitan un visado de turista de corta duración C-3-9 para Corea. Desde 2025 se simplificó la documentación del visado de turista y se han ampliado los visados de múltiples entradas de varios años (hasta 10 años) para los viajeros vietnamitas.",
+      "notes": "Las tasas de visado se fijan por reciprocidad y no son reembolsables: confirma el importe actual en el KVAC. La jurisdicción se divide entre Hanói (visaforkorea-vt.com) y Ciudad Ho Chi Minh (visaforkorea-hc.com). Formulario: visa.go.kr."
+    },
+    "visa-china-c3": {
+      "claim": "Los titulares de pasaporte chino necesitan un visado de turista C-3 para la Corea continental. La Isla de Jeju permite la entrada sin visado hasta 30 días (solo Jeju, con vuelos directos).",
+      "notes": "Un programa sin visado para grupos turísticos chinos autorizados (3 o más) estuvo vigente de sep 2025 a jun 2026; comprueba si se ha prorrogado antes de contar con él. La entrada sin visado exclusiva de Jeju exige vuelos directos sin tránsito por la Corea continental."
+    },
+    "visa-philippines-c3": {
+      "claim": "Los titulares de pasaporte filipino necesitan un visado de turista C-3 para la Corea continental, pero NO hay tasa de visado. Desde el 2026-02-20, ya no se exigen extractos bancarios de 3 meses.",
+      "notes": "Los empleados siguen presentando el ITR + un Certificado de Empleo; los propietarios de negocios presentan el registro DTI/SEC + la licencia comercial. La Isla de Jeju tiene una entrada sin visado independiente. Confirma las normas actuales con la embajada."
+    },
+    "visa-indonesia-c3": {
+      "claim": "Los turistas indonesios individuales necesitan un visado de turista C-3 para la Corea continental. Desde el 2026-05-28, los grupos turísticos indonesios de 3 o más pueden entrar sin visado para estancias cortas (solo grupos; los individuos no son elegibles).",
+      "notes": "Los viajeros individuales siguen necesitando visado: pasaporte, foto, extracto bancario de 3 meses, carta de empleo + nóminas y carta de patrocinio si los gastos los cubre otra persona. Jeju tiene una entrada sin visado independiente."
+    },
+    "keta-age-exemption": {
+      "claim": "Los viajeros de nacionalidades elegibles para K-ETA de 17 años o menos, o de 65 años o más, están exentos de la obligación de K-ETA. Esto no los exime automáticamente de la e-Arrival Card.",
+      "notes": "Confirma tu caso en los sitios oficiales. Inmigración toma la decisión final de entrada."
+    }
+  },
+  "consent": {
+    "title": "Nos importa tu privacidad",
+    "body": "Usamos cookies para medir el tráfico (Google Analytics) solo si aceptas. Lo esencial funciona igualmente.",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "manage": "Privacidad y cookies"
+  },
+  "articleTrust": {
+    "by": "Redacción y verificación",
+    "reviewed": "Última revisión",
+    "about": "Sobre esta página",
+    "related": "Relacionado",
+    "reportError": "Informar de un error o sugerir una corrección",
+    "verifiedNote": "La información clave se contrasta con fuentes oficiales de organismos públicos y operadores.",
+    "confirmNote": "Las normas y los precios pueden cambiar: confírmalos en la fuente oficial antes de viajar o reservar."
+  },
+  "home": {
+    "trustTransport": "Opciones de transporte",
+    "trustTransportSub": "KTX, autobús y vuelo",
+    "trustDraft": "Borrador día a día",
+    "trustDraftSub": "en segundos",
+    "trustShare": "Compartir",
+    "trustShareSub": "en WhatsApp, LINE y X",
+    "dealsEyebrow": "Reserva y ahorra",
+    "dealsTitle": "Ofertas populares para viajar a Corea",
+    "dealsSub": "Entradas, pases y experiencias que la mayoría de los viajeros reserva antes de ir, a través de Klook.",
+    "dealEsim": "eSIM de Corea",
+    "dealEsimSub": "Lista en minutos: datos al llegar",
+    "dealKtx": "Billetes de tren KTX / SRT",
+    "dealKtxSub": "Seoul ↔ Busan y más allá",
+    "dealParks": "Entradas a parques temáticos y atracciones",
+    "dealParksSub": "Everland, Lotte World, N Seoul Tower…",
+    "dealHanbok": "Hanbok, tours y experiencias",
+    "dealHanbokSub": "Palacios, excursiones de un día y clases prácticas",
+    "dealHotel": "Hoteles y alojamiento",
+    "dealHotelSub": "Compara alojamientos en Seúl, Busan y Jeju",
+    "dealHotelGo": "Ver dónde alojarse",
+    "mapTitle": "Busca en el mapa que prefieras",
+    "trustLangs": "12 idiomas",
+    "mapEyebrow": "Encuentra tu ruta",
+    "mapSub": "Busca cualquier dirección o lugar en los mapas de Naver o Kakao, aquí mismo."
+  },
+  "hotelsNearby": "Hoteles cercanos",
+  "nextSteps": {
+    "title": "¿Visado listo? Ahora planea el resto del viaje",
+    "sub": "Llegada, transporte, dónde alojarte y qué hacer: el resto de tu viaje a Corea, todo aquí.",
+    "stay": "Dónde alojarse",
+    "staySub": "Mejores zonas y barrios",
+    "itinerary": "Itinerarios listos para usar",
+    "itinerarySub": "Rutas de 3 a 7 días para copiar"
+  },
+  "visaFinder": {
+    "label": "¿De qué país eres?",
+    "placeholder": "Selecciona tu nacionalidad…",
+    "cta": "Ver guía completa"
+  },
+  "visaPhoto": {
+    "title": "Especificaciones de la foto de pasaporte para tu visado",
+    "intro": "Las normas de foto para el visado de Corea son estrictas: equivocarse es una causa habitual de que las solicitudes se retrasen o se rechacen:",
+    "p1": "35 × 45 mm, fondo blanco liso (no se acepta un fondo reemplazado por software).",
+    "p2": "El rostro debe ocupar el 70–80% de la altura de la foto, de frente y con expresión neutra.",
+    "p3": "Tomada en los últimos 6 meses; sin sombrero, por lo general sin gafas y sin retoques.",
+    "p4": "Carga en línea (Korea Visa Portal): JPEG de menos de 200 KB, mínimo 413 × 531 px.",
+    "source": "Según el Korea Visa Portal (visa.go.kr) y las normas del consulado; confirma los requisitos exactos de tu propio consulado."
+  },
+  "visaLocal": {
+    "currencyTitle": "Tu dinero en Corea",
+    "rateNote": "Tipo de cambio orientativo en tiempo real: las tasas reales en casas de cambio y tarjetas pueden variar.",
+    "rateLoading": "Cargando el tipo de cambio…",
+    "embassyTitle": "Tu embajada en Corea",
+    "embassyNote": "Para emergencias tras tu llegada (por ejemplo, un pasaporte perdido). Confirma los datos actuales en el sitio oficial.",
+    "addrLabel": "Dirección",
+    "telLabel": "Teléfono",
+    "officialSite": "Sitio oficial"
+  },
+  "findEats": {
+    "title": "Encuentra los restaurantes mejor valorados de Corea",
+    "intro": "Las valoraciones y los rankings están dentro de las apps, y las más útiles para el visitante funcionan en inglés. Están ordenadas según lo fácil que resulta usar cada una en inglés.",
+    "sortTip": "Las apps solo en coreano igualmente muestran las estrellas, las fotos y el número de reseñas que captas de un vistazo; para el texto, usa la traducción con la cámara del móvil. Si buscas recomendaciones en inglés ya seleccionadas, las guías gastronómicas oficiales de VisitKorea son un excelente punto de partida.",
+    "open": "Abrir",
+    "badgeEn": "Inglés",
+    "badgeEnApp": "Inglés en la app",
+    "badgeKo": "Coreano",
+    "google": "Reseñas e interfaz en inglés: busca un plato o una zona y ordena por valoración.",
+    "catchtable": "La app 'CatchTable Global' reserva restaurantes populares en inglés, sin necesidad de un número de teléfono coreano.",
+    "michelin": "Estrellas y selecciones Bib Gourmand de Corea, todo en inglés.",
+    "tripadvisor": "Rankings y reseñas de viajeros en inglés para restaurantes de toda Corea.",
+    "naver": "El mapa más usado de Corea: cambia la app a inglés (Settings → Language); sus reseñas de visitantes están verificadas con el recibo.",
+    "kakao": "En coreano, pero las estrellas, las fotos y el número de reseñas se captan de un vistazo.",
+    "diningcode": "Rankings coreanos de los 'mejores' restaurantes creados a partir de datos de reseñas; usa la traducción para el texto.",
+    "bluer": "Blue Ribbon Survey: la guía de premios a restaurantes de Corea (en coreano)."
+  },
+  "askKorea": {
+    "metaTitle": "Haz una pregunta sobre viajar a Corea",
+    "metaDescription": "Envía tu pregunta sobre Corea al equipo editorial de Korea Trip Hub por Instagram o correo electrónico.",
+    "eyebrow": "Preguntas de viajeros",
+    "title": "Pregunta a Korea Trip Hub",
+    "intro": "¿Tienes dudas sobre visados, K-ETA, entrada, transporte, comida o planificación? Envíalas a nuestra cola editorial con revisión humana.",
+    "howTitle": "Cómo funciona",
+    "step1": "Escribe una pregunta clara sobre tu viaje a Corea.",
+    "step2": "No incluyas números de pasaporte, códigos de reserva, direcciones ni otros datos sensibles.",
+    "step3": "Un editor consulta fuentes oficiales antes de preparar cualquier orientación.",
+    "formTitle": "Tu pregunta",
+    "formIntro": "Actualmente recibimos preguntas por Instagram en @ktriphub. Esta página solo copia el mensaje para enviarlo y no guarda lo que escribes.",
+    "countryLabel": "País emisor del pasaporte (opcional)",
+    "countryPlaceholder": "Por ejemplo: Filipinas",
+    "questionLabel": "Pregunta",
+    "questionPlaceholder": "Por ejemplo: ¿Necesito visado o K-ETA para un viaje de 7 días?",
+    "safetyCheck": "No he incluido número de pasaporte, referencia de reserva, dirección, teléfono ni otros datos personales sensibles.",
+    "instagramButton": "Copiar y abrir DM de Instagram",
+    "emailButton": "Enviar por correo",
+    "requiredError": "Escribe una pregunta y confirma primero la casilla de privacidad.",
+    "copied": "Copiado. Pega el mensaje en el chat de Instagram que se acaba de abrir.",
+    "copyFailed": "Instagram se ha abierto. Copia la pregunta manualmente.",
+    "fineprint": "Ofrecemos información general de viaje, no decisiones de visado. Inmigración y los consulados toman la decisión final. Las respuestas no son automáticas.",
+    "messageTitle": "Pregunta de viaje para Korea Trip Hub",
+    "notProvided": "No indicado",
+    "sourceLabel": "Origen",
+    "emailSubject": "Pregunta sobre viajar a Corea",
+    "answersTitle": "Preguntas frecuentes — respondidas",
+    "answersLead": "Respuestas rápidas a las dudas sobre visado y K-ETA que más plantean los viajeros. Abre cualquier pregunta; consulta la guía de visado para ver el proceso completo según tu nacionalidad.",
+    "answersMore": "Abrir la guía completa de visado y K-ETA →"
+  },
+  "experience": {
+    "heroTitle": "Corea, a tu ritmo.",
+    "heroSub": "Desde los requisitos de entrada hasta los días inolvidables. Empieza por lo que necesitas y guarda tu viaje ideal.",
+    "start": "Empieza a planificar",
+    "free": "Gratis · Sin crear una cuenta",
+    "languages": "{n} idiomas",
+    "myTrip": "Mi viaje",
+    "entry": "Entrada y visados",
+    "arrival": "Tu primer día",
+    "explore": "Lugares y gastronomía",
+    "entrySub": "Encuentra la guía para tu pasaporte",
+    "arrivalSub": "Traslados, conexión y pagos",
+    "exploreSub": "Descubre lugares para tu itinerario",
+    "chooseTitle": "¿Por dónde quieres empezar?",
+    "essentials": "Antes de viajar",
+    "plannerTitle": "Haz tuyo este viaje.",
+    "plannerSub": "Elige una ruta sugerida, elimina paradas y guárdala. Consulta los horarios y transportes actuales antes de viajar.",
+    "chooseRoute": "Elige tu itinerario",
+    "preview": "Ver itinerario",
+    "save": "Guardar mi viaje",
+    "saved": "Guardado en este dispositivo",
+    "removeSave": "Eliminar viaje guardado",
+    "removed": "Viaje guardado eliminado",
+    "storageNote": "Se guarda solo en este navegador. El enlace compartido incluye la ruta y las paradas elegidas, no la lista de preparativos.",
+    "storageError": "Este navegador no pudo guardar el viaje. Copia el enlace para conservarlo.",
+    "shared": "Itinerario compartido cargado",
+    "copy": "Copiar enlace del viaje",
+    "copyDone": "Enlace del viaje copiado",
+    "copyError": "No se pudo copiar. Selecciona y copia el enlace de abajo.",
+    "print": "Imprimir itinerario",
+    "checklist": "Tu lista de preparativos",
+    "progress": "{done} / {total} listos",
+    "resume": "Continuar mi viaje",
+    "empty": "Elige un itinerario para empezar.",
+    "resetChecklist": "Restablecer lista",
+    "removeStop": "Eliminar parada",
+    "restoreStops": "Restaurar todas las paradas",
+    "customize": "Ajustar paradas",
+    "invalidShare": "Este enlace no es compatible. Elige una ruta abajo.",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú",
+    "language": "Idioma",
+    "theme": "Cambiar tema",
+    "skip": "Ir al contenido",
+    "book": "Reservar en {partner}",
+    "details": "Leer la guía completa",
+    "visaHint": "¿No aparece el país de tu pasaporte? Consulta los requisitos con el servicio oficial de inmigración.",
+    "guideScope": "Los requisitos dependen del pasaporte, la edad, el motivo del viaje y los documentos vigentes. Confirma tu caso en la fuente oficial.",
+    "firstDay": "Prepara tu llegada",
+    "nextTitle": "Ahora, prepara tu llegada",
+    "nextSub": "Organiza el traslado del aeropuerto, la conexión y todos tus preparativos en una lista.",
+    "nearby": "Buscar cerca",
+    "nearbyHint": "Consulta las opciones en tu aplicación de mapas",
+    "readingTime": "Lectura de {n} min",
+    "addPlace": "Añadir a mi viaje",
+    "placeSaved": "Lugar guardado",
+    "savedPlaces": "Lugares guardados",
+    "placesHint": "Ordena tus opciones antes de organizar cada día. No se calculan los tiempos de traslado.",
+    "placesEmpty": "Guarda lugares desde las páginas de destinos y comida.",
+    "moveUp": "Subir",
+    "moveDown": "Bajar",
+    "clearPlaces": "Vaciar lugares guardados",
+    "contents": "En esta página",
+    "officialCheck": "Comprobación oficial",
+    "continuePrep": "Seguir preparando",
+    "entryScope": "Las reglas dependen del pasaporte y las condiciones del viaje. Comprueba edad, fecha de entrada, motivo y documentos vigentes en los sitios oficiales.",
+    "placeTitle": "Guía para visitar {place}, {city}"
+  }
+}

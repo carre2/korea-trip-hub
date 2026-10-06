@@ -1,0 +1,20 @@
+K-pop & Festivals initial release — 2026-10-05
+Official sources:
+BIFF: https://www.biff.kr/eng/addon/10000001/page.asp?page_num=11079 (2026-10-06 through 2026-10-15; official screening venues; ticket link from official footer).
+Jinju: https://english.visitkorea.or.kr/svc/sp/festivals/contentsView.do?dataSetId=297&menuSn=1040&vcontsId=96362 (2026-10-03 through 2026-10-18; Jinjuseong and Namgang).
+Fireworks: https://busanfireworks.com/bbs/content.php?co_id=overview (2026-11-07; Gwangalli, Igidae, Dongbaekseom; organizer ticket info).
+Three VOLATILE facts added, reviewed 2026-10-05, recheck 2026-10-19. No unverified prices, hours, artist lineups or attendance statistics published.
+12 locales, own canonical/hreflang/sitemap route. Home and primary navigation discoverability, K-pop guide crosslinks.
+Region/type/travel overlap filters, Korea-date statuses, ended toggle. Stale date range and calendar suppressed.
+My trip saves whitelisted event IDs alongside existing places. Per-event share links preserve event fragment; existing SNS share tools reused.
+ICS all-day ranges, exclusive end date and UTF-8 folding verified. Calendar import does not book admission or performance times.
+Original emoji/gradient artwork and peeking mascots. No official posters copied.
+21 automated audit tests passed before final build; final build and live checks pending.
+Final verification completed 2026-10-05:
+Release commits: a1b2d28, ef72da8, 7ab8fb8. Pushed to origin/main; GitHub build and Cloudflare Workers Builds both completed successfully.
+Final local build succeeded: 2082 generated pages; SEO audit 2076 pages, 12 locales, 0 errors; 160 pre-existing warnings.
+Native date-input onInput synchronization verified live: overlapping range returns 2 events and invalid range displays validation.
+Live region/type filters, My trip save/remove, share-link copy and console checks passed. Responsive first-party layout verified at effective Chrome viewport 520px; no first-party overflow.
+36 static localized ICS downloads generated. Live Korean BIFF file returned HTTP 200 text/calendar; DTSTART 20261006, exclusive DTEND 20261016, localized summary verified. Live card href verified.
+G Drive mirrors checked: final source files match and all 36 calendars present. Screenshot festival-desktop.png saved.
+Only unrelated pre-existing untracked user artifacts remain in local git status.

@@ -1,0 +1,7 @@
+Festival card alignment — 2026-10-05
+Commit db1c24f. Content-sized shared grid tracks align each visible row: summary, official actions, partner title, Klook product/check, Stay22 lodging, disclosures and sharing. No hard-coded description height.
+Under 600px cards use the original single-column natural layout. Official and partner buttons use consistent grids/full width where appropriate; links and tracking retained.
+Facts update: none. npm run build passed, 2082 static pages; i18n/6 partner-festival tests passed; SEO 0 errors/160 existing warnings.
+Three modified source files mirrored to G drive.
+GitHub build and Cloudflare Workers Builds completed successfully. Live Chrome /ko/festivals at 2560px: all 3 cards official-action top 1743.1875, partner box top 1908.604248, Klook button top 1960.729248, Stay22 top 2097; no card horizontal overflow. Screenshot saved aligned-cards.png.
+Temporary mobile override measured 520px: single 460px column, card display block and no horizontal overflow for all 3 cards; viewport reset. Shared layout applies all 12 locales.

@@ -1,0 +1,199 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "홈":
+  - /url: /
+  - img "홈"
+- link "릴스":
+  - /url: /reels/
+  - img "릴스"
+- button "Filters":
+- link "메시지":
+  - /url: /direct/inbox/
+  - img "메시지"
+- link "검색":
+  - /url: /explore/
+  - img "검색"
+- link "알림":
+  - /url: "#"
+  - img "알림"
+- link "새로운 게시물":
+  - /url: "#"
+  - img "새로운 게시물"
+- link "프로페셔널 대시보드":
+  - /url: "#"
+  - img "프로페셔널 대시보드"
+- link "korea_travel_visa_keta님의 프로필 사진":
+  - /url: /korea_travel_visa_keta/
+  - link "korea_travel_visa_keta님의 프로필 사진":
+    - img "korea_travel_visa_keta님의 프로필 사진"
+- link "설정":
+  - /url: "#"
+  - img "설정"
+- link "Meta의 다른 앱":
+  - /url: "#"
+  - img "Meta의 다른 앱"
+- main:
+  - img "Photo by Korea Trip Hub on October 05, 2026. May be an image of text."
+  - button "korea_travel_visa_keta님의 프로필 사진" [disabled]:
+    - link "korea_travel_visa_keta님의 프로필 사진" [disabled]:
+      - img "korea_travel_visa_keta님의 프로필 사진"
+  - link "korea_travel_visa_keta":
+    - /url: /korea_travel_visa_keta/
+    - generic: korea_travel_visa_keta
+  - button "AI 콘텐츠":
+    - generic: AI 콘텐츠
+  - button "옵션 더 보기":
+    - img "옵션 더 보기"
+  - separator
+  - link "korea_travel_visa_keta님의 프로필 사진":
+    - /url: /korea_travel_visa_keta/
+    - img "korea_travel_visa_keta님의 프로필 사진"
+  - link "korea_travel_visa_keta":
+    - /url: /korea_travel_visa_keta/
+    - generic: korea_travel_visa_keta
+  - time: 1시간
+  - text: "Merencanakan perjalanan pertama ke Korea? 🇰🇷 Temukan ide destinasi dan susun rencana sesuai gaya perjalananmu di Korea Trip Hub. Simpan tempat favorit dan periksa informasi terbaru sebelum berangkat. Explore: ktriphub.com/id/"
+  - text: Check current opening hours, transport and travel requirements before your trip.
+  - text: AI-created travel inspiration; people and scenes are illustrative.
+  - link "#KoreaTravel":
+    - /url: /explore/tags/koreatravel/
+  - link "#KoreaTripHub":
+    - /url: /explore/tags/koreatriphub/
+  - link "#SeoulTrip":
+    - /url: /explore/tags/seoultrip/
+  - button "번역 보기":
+    - generic: 번역 보기
+  - heading "아직 댓글이 없습니다." [level=2]
+  - generic: 댓글을 남겨보세요.
+  - button "인사이트 보기"
+  - button "게시물 홍보하기"
+  - button "좋아요":
+    - img "좋아요"
+  - button "댓글 달기":
+    - img "댓글 달기"
+  - button "리포스트":
+    - img "리포스트"
+  - button "공유하기":
+    - img "공유하기"
+  - button "저장":
+    - button "저장":
+      - img "저장"
+  - link "1시간 전":
+    - /url: /korea_travel_visa_keta/p/DeHKMKvjS4q/
+    - time: 1시간 전
+  - link
+  - button "이모티콘":
+    - img "이모티콘"
+  - textbox "댓글 달기..."
+  - separator
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "소개":
+    - /url: https://about.instagram.com/
+    - generic: 소개
+  - link "블로그":
+    - /url: https://about.instagram.com/blog/
+    - generic: 블로그
+  - link "채용 정보":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: 채용 정보
+  - link "도움말":
+    - /url: https://help.instagram.com/
+    - generic: 도움말
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "개인정보처리방침":
+    - /url: /legal/privacy/
+    - generic: 개인정보처리방침
+  - link "약관":
+    - /url: /legal/terms/
+    - generic: 약관
+  - link "위치":
+    - /url: /explore/locations/
+    - generic: 위치
+  - link "인기":
+    - /url: /popular/
+    - generic: 인기
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "연락처 업로드 & 비사용자":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: 연락처 업로드 & 비사용자
+  - link "Meta Verified":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta Verified
+  - generic: 한국어
+  - img "아래쪽 V자형 아이콘"
+  - combobox "표시 언어 변경":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English"
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어" [selected]
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)"
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)"
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026 Instagram from Meta
+- button "메시지":
+  - generic "메시지":
+    - img "메시지"
+    - generic: 메시지

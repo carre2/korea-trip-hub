@@ -1,0 +1,12 @@
+共有 UI 디자인 개선
+10개 SNS의 로컬 SVG 로고 및 브랜드 컬러 아이콘, 둥근 타일, 간결한 액션 아이콘, PC 5열/작은 화면 3열 배치.
+AGENTS.md에 사용자 디자인 취향을 영구 작업 지침으로 저장.
+소스 https://github.com/simple-icons/simple-icons, simple-icons 16.34.0.
+의존성 추가 없음. facts 갱신 없음.
+공유 테스트 17개 통과, 빌드 진행 중.
+빌드 통과: SEO 오류 0, 기존 경고 160. main 커밋 1204866. 배포 진행.
+배포 완료: 1204866, GitHub build와 Cloudflare Workers Builds success.
+운영 PC Chrome /en/plan/airport/에서 10개 SVG 로고 모두 정상 로딩 확인.
+WeChat 메시지 복사 성공 안내 확인, 새 닫기 버튼 및 공유창 재열기 확인.
+디자인 화면 스크린샷은 Chrome 캡처 명령 시간 초과로 저장 불가. DOM/이미지 로드 기반 기능 검증 완료.
+휴대폰 실기 검증은 수행하지 않았음.

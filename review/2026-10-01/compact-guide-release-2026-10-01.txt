@@ -1,0 +1,21 @@
+Korea Trip Hub 최적화 배포 — 2026-10-01
+커밋: 35af659472abcfbc289c3a393ddadaaab239f5cd
+
+변경
+- 모바일 안내 캐릭터 190x290px -> 56x72px
+- 데스크톱 안내 캐릭터 260x400px -> 96x148px
+- 좁거나 낮은 화면에서 자동 말풍선 숨김, 채팅 버튼 유지
+- 장식 이미지 decoding=async, fetchPriority=low
+
+검증
+전체 빌드 PASS; 2070페이지 생성; SEO 공개페이지2064, 오류0, 기존 경고160.
+GitHub CI 성공: https://github.com/carre2/korea-trip-hub/actions/runs/36869336729
+Cloudflare Workers Builds 성공: 24568507-9e83-43e4-ab4d-9f9313923570
+운영 홈페이지의 새 CSS 제공 및 모바일 규칙 HTTP 검사 PASS.
+배포 전환 직후 CSS 조회 1회404, 재조회 정상 및 새 규칙 확인.
+실제 브라우저 시각 검증은 접근 차단으로 미완료. 속도 및 검색순위 개선 수치 미측정.
+
+저장
+G 드라이브 변경 파일 SHA256 일치 확인, Git 메타데이터 복사.
+G:\내 드라이브\korea-trip-hub-backups\2026-10-01-compact-guide\source-35af659.zip
+facts 갱신 없음. 광고 계정 설정 변경 없음.

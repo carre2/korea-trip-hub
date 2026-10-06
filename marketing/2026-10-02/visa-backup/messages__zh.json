@@ -1,0 +1,610 @@
+{
+  "chat": {
+    "bubble": "有什么可以帮您？",
+    "title": "旅行助手",
+    "greeting": "你好！韩国旅行遇到问题我都能帮——被多收费、迷路、找吃的、礼仪、签证等等。有什么需要？",
+    "emergency": "遇到危险或受伤？立即拨打 112（警察）或 119（火警/急救）。",
+    "placeholder": "输入你的问题…",
+    "send": "发送",
+    "thinking": "思考中…",
+    "share": "分享位置",
+    "disclaimer": "仅供一般参考，非紧急或法律建议。重要信息请以官方来源为准。",
+    "error": "抱歉，无法连接助手。如需紧急帮助请拨打 1330（免费，24 小时）。",
+    "short_overbill": "被多收费？",
+    "short_lost": "我迷路了",
+    "short_food": "找吃的",
+    "short_etiquette": "礼仪",
+    "qOverbill": "我好像被多收费了——该怎么办？",
+    "qLost": "我迷路了——怎么求助？",
+    "qFood": "附近哪里有好吃的地方？",
+    "qEtiquette": "有哪些礼仪错误要避免？",
+    "virtualGuide": "AI旅行助手",
+    "close": "关闭"
+  },
+  "seasonLinks": {
+    "spring": "赏樱花好去处",
+    "summer": "夏日海滩避暑",
+    "autumn": "赏红叶好去处",
+    "winter": "冬季亮点"
+  },
+  "destBook": {
+    "label": "门票、行程与体验",
+    "sub": "免排队入场、韩服租赁与一日游 — 通过 Klook。"
+  },
+  "guides": {
+    "eyebrow": "季节与主题",
+    "title": "韩国旅行指南",
+    "sub": "按季节和主题的指南，帮你安排最佳时机与行程。",
+    "answer": "快速解答",
+    "faqTitle": "常见问题"
+  },
+  "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — 用你的语言规划韩国之旅",
+    "homeDesc": "一站式韩国旅行中心：行程规划、经核实的出行必备信息（签证、交通）、美食与体验、真实评价和 K-culture。"
+  },
+  "nav": {
+    "plan": "行前准备",
+    "planner": "行程规划",
+    "destinations": "目的地",
+    "food": "美食",
+    "reviews": "评价",
+    "kculture": "K-文化",
+    "map": "地图",
+    "help": "帮助"
+  },
+  "plan": {
+    "eyebrow": "行程规划，从这里开始",
+    "sub": "抵达韩国前要先搞定的6个基本事项。",
+    "tiles": {
+      "visa": {
+        "title": "签证与K-ETA",
+        "sub": "入境许可与签证规定"
+      },
+      "transit": {
+        "title": "交通出行",
+        "sub": "T-money·地铁·KTX·出租车"
+      },
+      "airport": {
+        "title": "机场→市区",
+        "sub": "仁川·AREX直达"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "落地即可上网"
+      },
+      "money": {
+        "title": "货币与支付",
+        "sub": "换汇·刷卡·现金"
+      },
+      "weather": {
+        "title": "最佳季节与天气",
+        "sub": "何时去?带什么?"
+      },
+      "help": {
+        "title": "求助与紧急情况",
+        "sub": "求助与紧急"
+      },
+      "kpop": {
+        "title": "K-pop 与演唱会",
+        "sub": "场馆、门票与偶像热门地"
+      }
+    },
+    "officialSources": "官方来源"
+  },
+  "hero": {
+    "badge": "行程规划 — Korea Trip Hub 的核心",
+    "title_1": "输入你的酒店，选择城市。",
+    "title_2": "行程全部搞定。",
+    "lede": "告诉我们你住哪、想去哪（比如釜山）。我们会列出交通方式（KTX、巴士、飞机），并把城市必去景点安排成每日行程。",
+    "f_hotel": "你的酒店 / 出发地",
+    "f_dest": "想去哪里?",
+    "f_days": "天数",
+    "f_travelers": "人数",
+    "f_style": "旅行风格",
+    "build": "生成行程"
+  },
+  "help": {
+    "eyebrow": "让你安心",
+    "title": "帮助与安全",
+    "sub": "落地前值得收藏、且经官方来源核实的信息。",
+    "verified_on": "核实日期",
+    "check_official": "请务必在官方来源确认最新信息",
+    "embassy": {
+      "title": "你的大使馆",
+      "sub": "各国的地址、电话与地图。"
+    },
+    "unavailable": "核实中"
+  },
+  "footer": {
+    "tagline": "从入境准备到难忘的旅程。从当前需要开始，保存喜欢的行程。",
+    "disclaimer": "旅行信息均对照官方来源核实并标注核实日期。价格、时刻与签证规定会变动，出行前请务必在所附官方来源确认。",
+    "legalNav": {
+      "about": "关于",
+      "operator": "运营者",
+      "contact": "联系",
+      "privacy": "隐私与Cookie",
+      "terms": "使用条款",
+      "editorial": "编辑与来源政策",
+      "corrections": "更正",
+      "affiliate": "广告与联盟"
+    },
+    "updatedLabel": "更新",
+    "legalNavLabel": "法律",
+    "morePolicies": "更多政策",
+    "affiliateLine": "部分链接为联盟链接，我们可能因此获得佣金，您无需额外付费。",
+    "rights": "© 2026 Korea Trip Hub — 独立旅行指南。出行前请以官方来源确认最新规定。",
+    "colPlan": "规划",
+    "colDiscover": "探索",
+    "colInfo": "信息",
+    "linkPlanTrip": "规划行程",
+    "linkConcerts": "演唱会 (kpophub.kr)",
+    "linkHelpSafety": "帮助与安全",
+    "linkVisa": "签证与 K-ETA",
+    "linkEmergency": "紧急求助",
+    "linkEmbassies": "大使馆"
+  },
+  "map": {
+    "search": "搜索",
+    "placeholder": "搜索地址或地点…",
+    "kakaoPending": "KakaoMap 密钥即将支持。",
+    "noResult": "无结果 — 请尝试完整地址。",
+    "authFail": "Naver 地图授权失败 — 请检查 Client ID 与已注册的域名。",
+    "loadFail": "地图加载失败。",
+    "mapNoteGoogle": "Google Maps 会用你的语言显示地名，是最易读的地图。在韩国境内查看路线和公交换乘时，请切换到 Naver 或 KakaoMap。",
+    "mapNoteKorean": "Naver 和 KakaoMap 的韩国道路与公交数据最详尽，但标注大多是韩语。若要使用英语或其他语言，请使用上方的 Google。"
+  },
+  "spotify": {
+    "title": "畅听 — Spotify 上的 K-Pop",
+    "sub": "当红团体与全球歌迷喜爱的艺人。选择即可试听代表曲目。",
+    "artists": "艺人与团体",
+    "playlists": "精选歌单",
+    "note": "免费试听，登录 Spotify 可完整播放。"
+  },
+  "planner": {
+    "day": "Day",
+    "gettingThere": "前往",
+    "morning": "上午",
+    "afternoon": "下午",
+    "evening": "晚上",
+    "share": "分享此行程",
+    "transportNote": "时刻与票价会变动 — 请向运营方确认。"
+  },
+  "dest": {
+    "title": "目的地",
+    "sub": "按城市分类的真实景点。人气数据均有出处，绝不杜撰。",
+    "browseAll": "全部目的地",
+    "regional": "地方特色美食 — 值得专程一试",
+    "regionalSub": "每个地区都有招牌菜。点按城市，查看附近住宿。",
+    "whyGo": "看点",
+    "goodToKnow": "实用提示",
+    "nearby": "周边",
+    "official": "官方信息"
+  },
+  "food": {
+    "title": "美食 — 品尝，再动手做",
+    "sub": "去哪里吃，以及亲手烹饪的体验课程。价格会变动，我们绝不杜撰。",
+    "eat": "去哪里吃",
+    "make": "动手体验",
+    "tips": "实用提示",
+    "browseAll": "全部美食与体验"
+  },
+  "reviews": {
+    "title": "评价 — 按类别与语言",
+    "sub": "真实旅行者评价 — 按主题筛选，并优先显示你的语言。经审核，绝不杜撰。",
+    "all": "全部",
+    "catDest": "🏛️ 目的地",
+    "catFood": "🥢 美食与体验",
+    "catKculture": "🎤 K-文化",
+    "catTransport": "🚄 交通",
+    "empty": "还没有评价 — 来做第一个分享韩国之旅的人吧。",
+    "cta": "撰写评价",
+    "ctaSoon": "评价提交即将开放"
+  },
+  "factsUI": {
+    "verified_facts": "已核实信息",
+    "good_to_know": "实用提示",
+    "official_sources": "官方来源",
+    "source": "来源",
+    "confirm": "⚠ 价格/规定会变动 — 请在官方确认"
+  },
+  "factLabels": {
+    "exempt_until": "免办截止",
+    "earrival_card": "电子入境卡",
+    "age_exempt": "免办年龄",
+    "number": "号码",
+    "hours": "时段",
+    "languages": "支持语言",
+    "fare_krw_each_way": "单程票价",
+    "minutes": "分钟",
+    "type": "类型",
+    "frequency": "班次",
+    "fare_krw": "票价（KRW）",
+    "pay": "支付方式",
+    "stores": "购买地点",
+    "basic_krw": "基础卡（KRW）",
+    "design_krw": "设计款（KRW）",
+    "card_refundable": "卡费可退",
+    "fare_krw_standard": "标准票价（KRW）",
+    "duration": "时长",
+    "booking": "预订",
+    "best": "最佳季节",
+    "summer": "夏季",
+    "winter": "冬季",
+    "currency": "货币",
+    "code": "代码",
+    "symbol": "符号",
+    "tipping": "小费",
+    "apply": "申请",
+    "apply_at": "申请网站",
+    "appointment": "预约",
+    "avg_daily_foreign_visitors": "日均外国游客",
+    "bank_statement": "银行流水",
+    "base_cash": "起步价（现金）",
+    "base_distance": "起步距离",
+    "base_tmoney": "起步价（T-money）",
+    "blue_green": "蓝色 / 绿色公交",
+    "buy_at": "购买地点",
+    "carriers": "运营商",
+    "condition": "条件",
+    "cost": "费用",
+    "deluxe_base": "豪华（模范）起步价",
+    "entries": "入境次数",
+    "esim": "eSIM",
+    "exempt_countries": "免签国家",
+    "extra": "加收",
+    "fare": "票价",
+    "fee": "费用",
+    "financial_docs": "财力证明",
+    "foreign_hikers": "外国登山者",
+    "group_visa_free": "团体免签",
+    "international_base": "国际出租车起步价",
+    "intl_taxi": "国际出租车",
+    "jeju_visa_free": "济州免签",
+    "max_stay": "最长停留",
+    "medium_base": "中型公交起步价",
+    "medium_then": "中型公交，之后每",
+    "metered": "计价",
+    "multi_year": "多年签",
+    "night": "深夜",
+    "night_surcharge": "深夜附加费",
+    "note": "备注",
+    "physical_sim": "实体 SIM 卡",
+    "pocket_wifi": "随身 Wi-Fi",
+    "processing": "办理时间",
+    "rank": "排名",
+    "red_express": "红色（快速）公交",
+    "refundable": "可否退款",
+    "replaced": "取代对象",
+    "requirement_resumes": "要求恢复",
+    "service_fee": "服务费",
+    "tolls": "通行费",
+    "typical_result": "常见结果",
+    "valid_for": "有效期",
+    "visa_fee": "签证费",
+    "visa_type": "签证类型",
+    "window": "申请时限",
+    "yellow": "黄色公交"
+  },
+  "facts": {
+    "keta-exemption": {
+      "claim": "K-ETA临时豁免仅适用于指定国家和地区，有效至2026-12-31。免签入境不等于自动免除K-ETA。之后的旅行请重新查看官方公告。",
+      "notes": "请在官方网站确认自身情况。最终入境决定由入境审查作出。"
+    },
+    "emergency-police": {
+      "claim": "韩国报警电话为 112。",
+      "notes": "广为通用的号码。"
+    },
+    "emergency-fire-medical": {
+      "claim": "韩国火警与急救（医疗）电话为 119。",
+      "notes": "广为通用的号码。"
+    },
+    "tourist-hotline-1330": {
+      "claim": "韩国旅游发展局的旅游咨询、翻译与投诉电话为 1330（24 小时·多语言）。",
+      "notes": "旅游发展局官方咨询电话。"
+    },
+    "arex-express": {
+      "claim": "AREX 直达列车：往返仁川机场与首尔站之间，中途不停站。从 1 号航站楼约 43 min（从 2 号航站楼 51 min）。",
+      "notes": "直达票价已从原先的 ₩9,500 上调；2026 年的资料显示约为 ₩13,000 统一价，网上折扣价约 ₩11,500。请务必在 arex.or.kr 确认最新票价。"
+    },
+    "arex-allstop": {
+      "claim": "AREX 普通（每站停）列车：约 59–66 minutes 到达首尔站。票价视目的地车站而定。",
+      "notes": "最便宜的机场轨道交通选择；可用 T-money 支付。请在 arex.or.kr 确认到你目的车站的准确票价。"
+    },
+    "airport-bus": {
+      "claim": "仁川机场豪华巴士 / 机场巴士：到首尔约 60–90 分钟，视线路和路况而定。票价因巴士类型而异。",
+      "notes": "高级 KAL 豪华巴士价格更高（约 ₩18,000）；普通机场巴士更便宜。巴士在许多酒店附近停靠——请查看通往你目的地的线路。"
+    },
+    "tmoney-where-to-buy": {
+      "claim": "T-money 卡可在全国各地的便利店（CU、GS25、7-Eleven、Emart24）以及地铁站的机器上购买和充值。",
+      "notes": "可用于地铁、公交、出租车和便利店消费。"
+    },
+    "tmoney-card-price": {
+      "claim": "T-money 基础卡的价格与退款说明。",
+      "notes": "因门店与款式而异。卡费本身不可退（仅退余额）。请在官方 t-money.co.kr 确认。"
+    },
+    "ktx-seoul-busan": {
+      "claim": "KTX 首尔 → 釜山标准席单程票价及大致行程时间。",
+      "notes": "第三方数据。因车次和座位等级而异。请在 letskorail.com 确认实际票价。"
+    },
+    "best-time-seasons": {
+      "claim": "最佳旅游时间是春季（3—5 月）和秋季（9—11 月）。夏季（6—8 月）炎热潮湿并有雨季；冬季寒冷干燥（首尔平均约 -2°C）。",
+      "notes": "一般的季节特征。樱花和红叶的日期每年都会变动。"
+    },
+    "tipping-not-customary": {
+      "claim": "韩国没有小费习惯；在餐厅或出租车上都无需给小费。",
+      "notes": "部分豪华酒店可能收取服务费，但一般不会期待小费。"
+    },
+    "currency-krw": {
+      "claim": "韩国的货币是韩元（KRW，₩）。",
+      "notes": "刷卡消费很普遍；现金则方便在小商贩和传统市场使用。"
+    },
+    "keta-fee-validity": {
+      "claim": "K-ETA费用为KRW 10,000，另收在线支付手续费，不予退款。目前签发的许可有效期为3年或至护照到期日，以较早者为准，并非每次可停留的期限。",
+      "notes": "请在官方网站确认自身情况。最终入境决定由入境审查作出。"
+    },
+    "keta-apply-window": {
+      "claim": "请尽早申请，确保登机前获批。K-ETA审核可能超过72小时，不保证审批时间或入境。",
+      "notes": "请在官方网站确认自身情况。最终入境决定由入境审查作出。"
+    },
+    "keta-exempt-countries": {
+      "claim": "K-ETA临时豁免仅适用于指定国家和地区，有效至2026-12-31。免签入境不等于自动免除K-ETA。之后的旅行请重新查看官方公告。",
+      "notes": "请在官方网站确认自身情况。最终入境决定由入境审查作出。"
+    },
+    "earrival-card-how": {
+      "claim": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。",
+      "notes": "请在官方网站确认自身情况。最终入境决定由入境审查作出。"
+    },
+    "transit-free-transfer": {
+      "claim": "使用 T-money 卡并在上下车都刷卡时，30 minutes 内地铁与公交（或公交与公交）之间换乘免费。",
+      "notes": "乘公交时下车也必须刷卡，否则将失去换乘优惠，可能被再次扣费。"
+    },
+    "transit-subway-seoul": {
+      "claim": "首尔地铁使用 T-money 卡的起步价为 ₩1,550（现金单程票 ₩1,650），适用于 10 km 以内；更远的行程每增加 5 km 加收 ₩100。",
+      "notes": "在 June 2025 的票价上调中由 ₩1,400 提高。请在 Naver 地图 / KakaoMap 或首尔 TOPIS 网站确认最新票价。"
+    },
+    "transit-bus-seoul": {
+      "claim": "首尔市内公交票价（T-money）：蓝色和绿色 ₩1,500，黄色 ₩1,400，红色（广域快速）₩3,000 以上，深夜（N-bus）₩2,500。",
+      "notes": "上下车都刷卡才能享受免费换乘。请在首尔 TOPIS 确认最新票价。"
+    },
+    "transit-taxi-seoul": {
+      "claim": "首尔中型出租车起步价为 ₩4,800（前 1.6 km），之后每 132 m 加收 ₩100。深夜时段（约 23:00–02:00）加收最高 40% 的附加费。豪华出租车起步价 ₩7,000（前 3 km），不收深夜附加费。",
+      "notes": "可用 Kakao T 提前查看预估车费。豪华（模范）出租车和国际出租车价格更高，但不收深夜附加费，并可提供英语服务。"
+    },
+    "airport-taxi": {
+      "claim": "从仁川机场到首尔市中心的普通计价出租车约需 ₩65,000–85,000，耗时 60–70 分钟。官方国际出租车提供固定车费，并配有经认证的英语/日语/中文司机。",
+      "notes": "计价车费随路况和目的地而变化，并含高速公路通行费；深夜可能加收附加费。国际出租车服务台设在 T1 和 T2 到达大厅（intltaxi.co.kr，+82-1644-2255）。"
+    },
+    "sim-options": {
+      "claim": "在韩国上网的三种方式：eSIM（出发前安装，落地即用）、实体 SIM 卡（需要未锁定的手机）或租用随身 Wi-Fi（最适合多人共享）。运营商有 SKT、KT 和 LG U+。",
+      "notes": "价格因流量和天数不同差别很大，因此请比较当前的套餐（例如 eSIM 可看 Airalo/Klook；SIM 卡可到运营商柜台），而不要依赖固定价格。eSIM 需要支持 eSIM 的手机；实体 SIM 卡需要未锁定的手机。柜台设在仁川 T1/T2、金浦和金海的到达大厅。"
+    },
+    "dest-stat-myeongdong": {
+      "claim": "明洞是首尔日均外国游客最多的地区（约 100,910 人），也是全市游客量最高的区域。",
+      "notes": "日均外国游客量，据首尔市统计。"
+    },
+    "dest-stat-nseoultower": {
+      "claim": "N 首尔塔是首尔外国游客量第 2 高的景点（日均约 57,370 人）。",
+      "notes": "日均外国游客量，据首尔市统计。"
+    },
+    "dest-stat-bukhansan": {
+      "claim": "北汉山是首尔各山中外国登山者最多的（约 4,015 人），引领着日益兴起的“K 登山”热潮。",
+      "notes": "按首尔各山统计的外国登山者人数；北汉山最高。"
+    },
+    "visa-india-c39": {
+      "claim": "印度护照持有者需办理 C-3-9 短期旅游签证才能访问韩国（最长 90 天）。请亲自前往韩国签证申请中心（VFS Global）办理——无需预约。",
+      "notes": "费用和办理时间因中心和季节而异——请在你所在的 KVAC 确认。申请表及任何电子申请只在 visa.go.kr（唯一的官方门户）办理。印度分为两个辖区：大使馆/新德里（visaforkorea-id.com）和金奈领事馆（visaforkorea-ce.com）。"
+    },
+    "visa-vietnam-c39": {
+      "claim": "越南护照持有者需办理 C-3-9 短期旅游签证前往韩国。自 2025 年起旅游签证的手续得到简化，并为越南旅客扩大了多年（最长 10 年）多次入境签证。",
+      "notes": "签证费按对等原则设定，且不予退还——请在 KVAC 确认最新金额。辖区分为河内（visaforkorea-vt.com）和胡志明市（visaforkorea-hc.com）。申请表：visa.go.kr。"
+    },
+    "visa-china-c3": {
+      "claim": "中国护照持有者需办理 C-3 旅游签证才能前往韩国内地。济州岛允许免签入境最长 30 天（仅限济州、直飞航班）。",
+      "notes": "面向经批准的中国旅行团（3 人及以上）的免签方案实行于 2025 年 9 月—2026 年 6 月；在依赖它之前请先确认是否已延期。仅限济州的免签要求直飞、不经内地中转。"
+    },
+    "visa-philippines-c3": {
+      "claim": "菲律宾护照持有者需办理 C-3 旅游签证前往韩国内地，但无需签证费。自 2026-02-20 起，不再要求提供 3 个月银行流水。",
+      "notes": "在职人员仍需提交 ITR + 在职证明；企业主则提交 DTI/SEC 注册文件 + 营业执照。济州岛另有免签入境政策。请向大使馆确认最新规定。"
+    },
+    "visa-indonesia-c3": {
+      "claim": "印尼个人游客需办理 C-3 旅游签证前往韩国内地。自 2026-05-28 起，3 人及以上的印尼旅行团可免签短期入境（仅限团体；个人不适用）。",
+      "notes": "个人旅客仍需签证：护照、照片、3 个月银行流水、在职证明 + 工资单，若由他人资助还需担保信。济州岛另有免签入境政策。"
+    },
+    "keta-age-exemption": {
+      "claim": "符合K-ETA申请国籍条件的旅客中，17岁及以下或65岁及以上者免于强制申请K-ETA。这不代表同时免除电子入境申报。",
+      "notes": "请在官方网站确认自身情况。最终入境决定由入境审查作出。"
+    }
+  },
+  "consent": {
+    "title": "我们重视你的隐私",
+    "body": "只有在你同意后，我们才会使用统计流量的Cookie（Google Analytics）。基本功能不受影响。",
+    "accept": "接受",
+    "reject": "拒绝",
+    "manage": "隐私与Cookie"
+  },
+  "articleTrust": {
+    "by": "编辑与审核",
+    "reviewed": "最后核实",
+    "about": "关于本页",
+    "related": "相关内容",
+    "reportError": "报告错误或建议更正",
+    "verifiedNote": "关键信息均以政府、公共机构及运营方的官方资料核实。",
+    "confirmNote": "规则和价格可能变动，出行或预订前请以官方页面为准。"
+  },
+  "home": {
+    "trustTransport": "交通方式",
+    "trustTransportSub": "KTX、巴士和航班",
+    "trustDraft": "每日行程草案",
+    "trustDraftSub": "几秒即成",
+    "trustShare": "分享",
+    "trustShareSub": "至 WhatsApp、LINE 和 X",
+    "dealsEyebrow": "预订省钱",
+    "dealsTitle": "热门韩国旅行优惠",
+    "dealsSub": "多数游客出发前必订的门票、通票和体验 — 通过 Klook 预订。",
+    "dealEsim": "韩国 eSIM",
+    "dealEsimSub": "几分钟在线办理 — 落地即用流量",
+    "dealKtx": "KTX / SRT 火车票",
+    "dealKtxSub": "首尔 ↔ 釜山及更多路线",
+    "dealParks": "主题公园和景点门票",
+    "dealParksSub": "Everland、Lotte World、N Seoul Tower…",
+    "dealHanbok": "韩服、游览和体验",
+    "dealHanbokSub": "宫殿、一日游和手作课程",
+    "dealHotel": "酒店与住宿",
+    "dealHotelSub": "比较首尔、釜山、济州的住宿",
+    "dealHotelGo": "查看住宿区域",
+    "mapTitle": "在你喜欢的地图上搜索",
+    "trustLangs": "12种语言",
+    "mapEyebrow": "找到你的路线",
+    "mapSub": "在此直接用 Naver 或 Kakao 地图搜索任意地址或地点。"
+  },
+  "hotelsNearby": "附近的酒店",
+  "nextSteps": {
+    "title": "签证搞定了？接下来规划你的行程",
+    "sub": "落地、交通、住宿、玩什么 —— 韩国之旅的其余部分，全都在这里。",
+    "stay": "住宿推荐",
+    "staySub": "热门区域与街区",
+    "itinerary": "现成行程规划",
+    "itinerarySub": "可直接照搬的3–7天路线"
+  },
+  "visaFinder": {
+    "label": "您来自哪个国家？",
+    "placeholder": "选择您的国籍…",
+    "cta": "查看完整指南"
+  },
+  "visaPhoto": {
+    "title": "签证用护照照片规格",
+    "intro": "韩国签证照片要求严格，弄错是申请被延误或被拒的常见原因：",
+    "p1": "35 × 45 mm，纯白背景（用软件替换的背景不被接受）。",
+    "p2": "面部占照片高度的70–80%，正面拍摄，表情自然。",
+    "p3": "近6个月内拍摄；不戴帽子，一般不戴眼镜，不修图。",
+    "p4": "在线上传（Korea Visa Portal）：JPEG，小于200 KB，至少413 × 531 px。",
+    "source": "依据 Korea Visa Portal（visa.go.kr）及领事馆规定——请以您所在领事馆的具体要求为准。"
+  },
+  "visaLocal": {
+    "currencyTitle": "你在韩国的钱",
+    "rateNote": "实时参考汇率 — 兑换点和银行卡的实际汇率会有所不同。",
+    "rateLoading": "正在加载实时汇率…",
+    "embassyTitle": "你国家驻韩国的大使馆",
+    "embassyNote": "抵达后遇到紧急情况时使用（例如护照丢失）。请在官方网站确认最新信息。",
+    "addrLabel": "地址",
+    "telLabel": "电话",
+    "officialSite": "官方网站"
+  },
+  "findEats": {
+    "title": "寻找韩国口碑最佳的餐厅",
+    "intro": "评分和排名都在各类App里,而对游客最友好的App支持英文。以下按用英文使用的便捷程度排序。",
+    "sortTip": "只有韩文的App也能让你一眼看到星级评分、照片和评论数量,文字可以用手机的相机翻译功能。想要精选的英文推荐,VisitKorea官方美食指南是很好的起点。",
+    "open": "打开",
+    "badgeEn": "英文",
+    "badgeEnApp": "App内支持英文",
+    "badgeKo": "韩文",
+    "google": "评论和界面均为英文——搜索菜品或地区,再按评分排序。",
+    "catchtable": "用「CatchTable Global」App即可用英文预订热门餐厅,无需韩国手机号。",
+    "michelin": "韩国的星级餐厅与Bib Gourmand推荐,全程英文。",
+    "tripadvisor": "韩国各地餐厅的英文排名和游客评论。",
+    "naver": "韩国使用最多的地图App——可将App切换为英文(Settings → Language);游客评论均经小票核实。",
+    "kakao": "界面是韩文,但星级评分、照片和评论数量一目了然。",
+    "diningcode": "根据评论数据整理的韩国餐厅「最佳榜单」——文字可用翻译功能。",
+    "bluer": "Blue Ribbon Survey——韩国餐厅评奖指南(韩文)。"
+  },
+  "askKorea": {
+    "metaTitle": "咨询韩国旅行问题",
+    "metaDescription": "通过 Instagram 或电子邮件向 Korea Trip Hub 编辑团队提交韩国旅行问题。",
+    "eyebrow": "旅行者提问",
+    "title": "向 Korea Trip Hub 提问",
+    "intro": "对签证、K-ETA、入境、交通、美食或行程规划有疑问？请将问题发送至由人工审核的编辑队列。",
+    "howTitle": "处理方式",
+    "step1": "一次清楚地填写一个韩国旅行问题。",
+    "step2": "请勿填写护照号码、预订编号、地址等敏感信息。",
+    "step3": "编辑会先核对官方资料，再准备相关说明。",
+    "formTitle": "您的问题",
+    "formIntro": "目前我们通过 Instagram @ktriphub 接收问题。此页面只会复制待发送的信息，不会保存您的输入。",
+    "countryLabel": "护照签发国家/地区（选填）",
+    "countryPlaceholder": "例如：菲律宾",
+    "questionLabel": "问题",
+    "questionPlaceholder": "例如：前往韩国旅行 7 天需要签证或 K-ETA 吗？",
+    "safetyCheck": "我没有填写护照号码、预订编号、地址、电话号码或其他敏感个人信息。",
+    "instagramButton": "复制并打开 Instagram 私信",
+    "emailButton": "通过电子邮件发送",
+    "requiredError": "请先填写问题并确认隐私选项。",
+    "copied": "已复制。请将信息粘贴到刚刚打开的 Instagram 对话中。",
+    "copyFailed": "Instagram 已打开，请手动复制您的问题。",
+    "fineprint": "我们提供一般旅行信息，不作签证决定。最终决定由出入境部门和领事机构作出。回复不会自动发送。",
+    "messageTitle": "Korea Trip Hub 韩国旅行问题",
+    "notProvided": "未填写",
+    "sourceLabel": "来源",
+    "emailSubject": "韩国旅行问题",
+    "answersTitle": "热门问题——已解答",
+    "answersLead": "旅客最常问的签证与 K-ETA 问题，这里快速解答。点开任一问题；你所属国籍的完整流程见签证指南。",
+    "answersMore": "查看完整签证与 K-ETA 指南 →"
+  },
+  "experience": {
+    "heroTitle": "按自己的节奏，探索韩国。",
+    "heroSub": "从入境准备到难忘的旅程。从当前需要开始，保存喜欢的行程。",
+    "start": "开始规划",
+    "free": "免费使用 · 无需注册",
+    "languages": "{n}种语言",
+    "myTrip": "我的行程",
+    "entry": "入境与签证",
+    "arrival": "抵达第一天",
+    "explore": "景点与美食",
+    "entrySub": "查看适合您护照的指南",
+    "arrivalSub": "机场交通、上网与支付",
+    "exploreSub": "发现想加入行程的地方",
+    "chooseTitle": "您想从哪里开始？",
+    "essentials": "出发前的准备",
+    "plannerTitle": "打造您的专属行程。",
+    "plannerSub": "选择推荐路线，移除不想去的景点，然后保存。出发前请确认最新开放时间和交通信息。",
+    "chooseRoute": "选择行程",
+    "preview": "预览行程",
+    "save": "保存我的行程",
+    "saved": "已保存在此设备",
+    "removeSave": "删除已存行程",
+    "removed": "已删除保存的行程",
+    "storageNote": "仅保存在此浏览器。分享链接包含路线和所选景点，不含准备清单。",
+    "storageError": "此浏览器无法保存行程。请复制链接以便保留。",
+    "shared": "已载入分享的行程",
+    "copy": "复制行程链接",
+    "copyDone": "已复制行程链接",
+    "copyError": "无法复制。请选中并复制下方链接。",
+    "print": "打印行程",
+    "checklist": "旅行准备清单",
+    "progress": "已完成 {done} / {total}",
+    "resume": "继续规划行程",
+    "empty": "选择一个行程开始。",
+    "resetChecklist": "重置清单",
+    "removeStop": "移除景点",
+    "restoreStops": "恢复所有景点",
+    "customize": "调整停留景点",
+    "invalidShare": "不支持此行程链接，请在下方选择路线。",
+    "menuOpen": "打开菜单",
+    "menuClose": "关闭菜单",
+    "language": "语言",
+    "theme": "切换主题",
+    "skip": "跳至正文",
+    "book": "在{partner}预订",
+    "details": "阅读完整指南",
+    "visaHint": "找不到护照签发国家？请向官方出入境机构确认所需手续。",
+    "guideScope": "要求因护照、年龄、旅行目的和有效证件而异。请通过官方信息确认您的具体情况。",
+    "firstDay": "做好抵达准备",
+    "nextTitle": "接下来，准备抵达韩国",
+    "nextSub": "规划机场交通、准备上网方式，并把旅行准备事项放在同一份清单中。",
+    "nearby": "查找附近",
+    "nearbyHint": "在地图应用中查看选项",
+    "readingTime": "阅读约需{n}分钟",
+    "addPlace": "加入我的行程",
+    "placeSaved": "地点已保存",
+    "savedPlaces": "已保存的地点",
+    "placesHint": "先排列候选地点，再安排每天的行程。此功能不计算交通时间。",
+    "placesEmpty": "可从景点和美食页面添加地点。",
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "clearPlaces": "清空已保存地点",
+    "contents": "本页目录",
+    "officialCheck": "官方条件确认",
+    "continuePrep": "继续准备",
+    "entryScope": "规定取决于护照和旅行条件。请在官方网站核对年龄、入境日期、目的和有效证件。",
+    "placeTitle": "{city}{place}旅游指南"
+  }
+}

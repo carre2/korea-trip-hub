@@ -11,7 +11,7 @@
     "binding": "ASSETS",
     "not_found_handling": "404-page"
   },
-  // Cloudflare Workers AI is the default chat model (no external key needed).
-  // If an ANTHROPIC_API_KEY secret is set, the Worker prefers Claude Haiku.
+  // OPENAI_API_KEY enables GPT-6 Luna through the Responses API.
+  // Fallback order: Claude Haiku (ANTHROPIC_API_KEY), then Workers AI.
   "ai": { "binding": "AI" }
 }

@@ -1,0 +1,200 @@
+- banner "상단 탐색 메뉴":
+  - status
+  - heading "Google Ads - 시작 페이지로 이동" [level=1]:
+    - button "Google Ads - 시작 페이지로 이동":
+  - button "페이지 검색":
+    - img: search
+    - text: 검색
+  - button "디자인":
+    - img: responsive_layout
+    - text: 디자인
+  - button "새로고침":
+    - img: refresh
+    - text: 새로고침
+  - button "빠른 도움말 패널 열기":
+    - text: 도움말
+    - img: help_outline
+    - text: 도움말
+  - button "알림":
+    - img: notifications
+    - generic: 알림
+  - generic "528-829-7098 Korea Trip Hub"
+  - generic: minho.han0165@gmail.com
+  - button "Google 계정":
+    - img "Google 계정 (minho.han0165@gmail.com)"
+- button "만들기":
+- generic: 만들기
+- menu:
+  - menu:
+    - menuitem "캠페인":
+      - img: campaign
+      - generic: 캠페인
+    - menuitem "목표":
+      - img: rewarded_ads
+      - generic: 목표
+    - menuitem "도구":
+      - img: construction
+      - generic: 도구
+    - menuitem "결제":
+      - img: credit_card
+      - generic: 결제
+    - menuitem "관리":
+      - img: settings
+      - generic: 관리
+- button "축소":
+  - img: chevron_right
+  - generic: 축소
+- navigation:
+  - menu:
+    - menuitem "요약":
+      - generic: 요약
+    - menuitem "리드 베타":
+      - generic: 리드
+      - generic: 베타
+    - menuitem "전환" [expanded]:
+      - generic: 전환
+      - img: expand_more
+    - menuitem "모든 전환수":
+      - generic: 모든 전환수
+    - menuitem "전환 설정":
+      - generic: 전환 설정
+    - menuitem "값 규칙":
+      - generic: 값 규칙
+    - menuitem "맞춤 변수":
+      - generic: 맞춤 변수
+    - menuitem "업로드":
+      - generic: 업로드
+    - menuitem "측정":
+      - generic: 측정
+      - img: expand_more
+  - generic "Google Ads 앱을 다운로드하세요":
+    - img: app_promo
+    - generic: Google Ads 앱을 다운로드하세요
+  - button "Google Ads 앱 프로모션 접기":
+    - img: collapse_all
+  - button "Google Ads 앱 다운로드 닫기":
+    - img: close
+  - img "QR Code for Ads Mobile"
+  - generic "QR 코드를 스캔하여 앱을 다운로드하세요. 이동 중에도 캠페인 관련 업데이트를 받을 수 있습니다."
+- img: error_outline
+- status:
+  - generic: 게재 중인 광고가 없습니다. - 캠페인과 광고그룹이 일시중지 또는 삭제되었습니다. 해당 항목을 사용하도록 설정하여 광고 게재를 시작하세요.
+- button "자세히 알아보기":
+  - generic: 자세히 알아보기
+- button "숨기기":
+  - generic: 숨기기
+- heading "모든 전환수" [level=2]
+- generic: 전체
+- button "2026년 10월 4일 적용 불가":
+  - generic: 2026년 10월 4일
+  - img: arrow_drop_down
+- button "이전" [disabled]:
+  - img: chevron_left
+- button "다음" [disabled]:
+  - img: chevron_right
+- button "최근 30일 표시":
+  - generic: 최근 30일 표시
+- main:
+  - text: "고객이 광고와 상호작용한 후 취하는 가치 있는 액션(예: 구매, 가입, 비즈니스에 전화 걸기)을 측정합니다. 기본 전환은 목표 요약 페이지에도 표시됩니다."
+  - link "전환 측정에 대해 자세히 알아보기":
+    - /url: https://support.google.com/google-ads/answer/1722022?hl=ko
+  - button "새 전환":
+    - img: add
+    - text: 새 전환
+  - region "기본 도구 벨트":
+    - button "활성 필터 1개 표시":
+      - img: filter_alt
+      - generic: "1"
+    - generic: "적용된 필터:"
+    - grid "적용된 필터:":
+      - 'row "상태:: 전체"':
+        - 'gridcell "상태:: 전체"':
+          - 'button "상태:: 전체"': "상태:: 전체"
+    - button "필터 추가":
+      - generic: 필터 추가
+    - 'button "분류 기준 그룹화 기준: 목표 카테고리"':
+      - img: segment
+      - generic: 세그먼트
+    - button "열":
+      - img: view_column
+      - generic: 열
+    - button "전체화면":
+      - img: fullscreen
+      - generic: 전체화면
+  - grid:
+    - row "모든 행 선택 상태 전환 액션 전환 소스 추적 상태 액션 최적화 횟수 클릭연결 전환 추적 기간 계정 수준 목표에 포함됨 모든 전환 모든 전환 가치":
+      - gridcell "모든 행 선택":
+        - checkbox "모든 행 선택":
+      - columnheader "상태":
+        - img "상태"
+      - columnheader "전환 액션":
+        - text: 전환 액션
+        - img: help_outline
+      - columnheader "전환 소스"
+      - columnheader "추적 상태":
+        - text: 추적 상태
+        - img: help_outline
+      - columnheader "액션 최적화":
+        - text: 액션 최적화
+        - img: help_outline
+      - columnheader "횟수":
+        - text: 횟수
+        - img: help_outline
+      - columnheader "클릭연결 전환 추적 기간":
+        - text: 클릭연결 전환 추적 기간
+        - img: help_outline
+      - columnheader "계정 수준 목표에 포함됨":
+        - text: 계정 수준 목표에 포함됨
+        - img: help_outline
+      - columnheader "모든 전환":
+        - text: 모든 전환
+        - img: help_outline
+      - columnheader "모든 전환 가치":
+        - text: 모든 전환 가치
+        - img: help_outline
+    - generic: 페이지 조회 (계정 기본 목표)
+    - row "행 선택 운영중 VISA·K-ETA 안내 페이지 방문 웹사이트 운영중지 기본 매회 30일 예 0.00 0.00":
+      - gridcell "행 선택":
+        - checkbox "행 선택":
+      - gridcell "운영중":
+        - img "운영중"
+      - gridcell "VISA·K-ETA 안내 페이지 방문":
+        - generic: VISA·K-ETA 안내 페이지 방문
+      - gridcell "웹사이트":
+        - generic: 웹사이트
+      - gridcell "운영중지":
+        - button "운영중지"
+      - gridcell "기본":
+        - generic: 기본
+      - gridcell "매회":
+        - generic: 매회
+      - gridcell "30일":
+        - generic: 30일
+      - gridcell "예":
+        - generic: 예
+      - gridcell "0.00":
+        - generic: "0.00"
+      - gridcell "0.00":
+        - generic: "0.00"
+    - 'row "총계: 모든 전환 액션 0.00 0.00"':
+      - generic: "총계: 모든 전환 액션"
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell "0.00":
+        - generic: "0.00"
+      - gridcell "0.00":
+        - generic: "0.00"
+  - generic: 총 1개 중 1~1개
+  - generic: © Google, 2026.
+- dialog:
+  - heading [level=1]: Turn off ad blockers
+  - paragraph: Google Ads can't work when you're using an ad blocker. To use Google Ads, please turn off any ad blockers for now.
+- dialog "대화상자"
+- dialog "대화상자"

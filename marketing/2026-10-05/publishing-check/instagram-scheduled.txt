@@ -1,0 +1,298 @@
+- heading "Content" [level=1]
+- generic: Schedule, publish and manage posts and stories, and more.
+- toolbar:
+  - button "Export data":
+    - generic: Export data
+  - button "Open export options":
+    - generic: Open export options
+  - button "Create reel":
+    - generic: Create reel
+  - button "Create post":
+    - generic: Create post
+  - button "Create post":
+    - generic: Create post
+  - button "Instagram":
+    - img "Instagram"
+- navigation "Content":
+  - generic: Content
+  - list:
+    - link "Posts & reels":
+      - /url: https://business.facebook.com/latest/posts/published_posts?business_id=1616513423196488&asset_id=1255502770990917
+    - generic: Posts & reels
+    - link "Stories":
+      - /url: https://business.facebook.com/latest/posts/active_stories?business_id=1616513423196488&asset_id=1255502770990917
+    - generic: Stories
+    - link "Feed & grid":
+      - /url: https://business.facebook.com/latest/posts/feed_and_grid?business_id=1616513423196488&asset_id=1255502770990917
+    - generic: Feed & grid
+    - link "Mentions & tags":
+      - /url: https://business.facebook.com/latest/posts/tagged_content?business_id=1616513423196488&asset_id=1255502770990917
+    - generic: Mentions & tags
+    - link "Clips":
+      - /url: https://business.facebook.com/latest/posts/all_clips?business_id=1616513423196488&asset_id=1255502770990917
+    - generic: Clips
+- navigation "Creative assets":
+  - generic: Creative assets
+  - list:
+    - link "Videos you can crosspost":
+      - /url: https://business.facebook.com/latest/posts/videos_you_can_crosspost?business_id=1616513423196488&asset_id=1255502770990917
+    - generic: Videos you can crosspost
+- button "Collapse":
+  - generic: Collapse
+- tablist:
+  - tab "Published":
+    - generic: Published
+  - tab "Scheduled" [selected]:
+    - generic: Scheduled
+  - tab "Drafts":
+    - generic: Drafts
+  - tab "Expiring":
+    - generic: Expiring
+  - tab "Expired":
+    - generic: Expired
+  - tab "Ad Posts":
+    - generic: Ad Posts
+- generic: Post type
+- combobox "Post type Post type":
+  - generic: Post type
+- generic: Filter
+- combobox "Filter Filter":
+  - generic: Filter
+- link "Clear":
+  - /url: "#"
+- text: Search by ID or caption
+- textbox "Search by ID or caption"
+- grid "A table that shows insights about the content created for the Facebook Page or profile and/or Instagram profile selected, including ads, posts and stories.":
+  - rowgroup:
+    - row "Title Date scheduled Privacy Status":
+      - columnheader
+      - columnheader "Title":
+        - heading "Title" [level=4]
+        - separator:
+          - separator
+      - columnheader "Date scheduled":
+        - heading "Date scheduled" [level=4]
+        - separator:
+          - separator
+      - columnheader "Privacy":
+        - heading "Privacy" [level=4]
+        - separator:
+          - separator
+      - columnheader "Status":
+        - heading "Status" [level=4]
+        - separator:
+          - separator
+  - rowgroup:
+    - 'row "Check item with caption \"Your Korea trip, your way 🇰🇷. Choose a suggested itinerary, customize your stops and share your plan with a friend. If the plan changes, create a new share link. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\" Instagram Your Korea trip, your way 🇰🇷. Choose a suggested itinerary, customize your stops and share your plan with a friend. If the plan changes, create a new share link. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown Tue Oct 13, 9:00pm Public Not currently boosted"':
+      - 'gridcell "Check item with caption \"Your Korea trip, your way 🇰🇷. Choose a suggested itinerary, customize your stops and share your plan with a friend. If the plan changes, create a new share link. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""':
+        - 'checkbox "Check item with caption \"Your Korea trip, your way 🇰🇷. Choose a suggested itinerary, customize your stops and share your plan with a friend. If the plan changes, create a new share link. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""'
+      - 'gridcell "Instagram Your Korea trip, your way 🇰🇷. Choose a suggested itinerary, customize your stops and share your plan with a friend. If the plan changes, create a new share link. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+        - 'button "Instagram Your Korea trip, your way 🇰🇷. Choose a suggested itinerary, customize your stops and share your plan with a friend. If the plan changes, create a new share link. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+          - img "Instagram"
+          - generic: "Your Korea trip, your way 🇰🇷. Choose a suggested itinerary, customize your stops and share your plan with a friend. If the plan changes, create a new share link. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip"
+          - generic: Photo ·
+          - generic: korea_travel_visa_keta
+          - button "Boost":
+            - generic: Boost
+          - button "Open Dropdown":
+            - generic: Open Dropdown
+      - gridcell "Tue Oct 13, 9:00pm":
+        - generic: Tue Oct 13, 9:00pm
+      - gridcell "Public":
+        - generic: Public
+      - gridcell "Not currently boosted":
+        - generic "Not currently boosted":
+    - 'row "Check item with caption \"Korea after dark ✨. Save your city-light inspiration and plan your route home before heading out. Explore Korea travel ideas: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\" Instagram Korea after dark ✨. Save your city-light inspiration and plan your route home before heading out. Explore Korea travel ideas: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown Mon Oct 12, 9:00pm Public Not currently boosted"':
+      - 'gridcell "Check item with caption \"Korea after dark ✨. Save your city-light inspiration and plan your route home before heading out. Explore Korea travel ideas: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""':
+        - 'checkbox "Check item with caption \"Korea after dark ✨. Save your city-light inspiration and plan your route home before heading out. Explore Korea travel ideas: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""'
+      - 'gridcell "Instagram Korea after dark ✨. Save your city-light inspiration and plan your route home before heading out. Explore Korea travel ideas: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+        - 'button "Instagram Korea after dark ✨. Save your city-light inspiration and plan your route home before heading out. Explore Korea travel ideas: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+          - img "Instagram"
+          - generic: "Korea after dark ✨. Save your city-light inspiration and plan your route home before heading out. Explore Korea travel ideas: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip"
+          - generic: Photo ·
+          - generic: korea_travel_visa_keta
+          - button "Boost":
+            - generic: Boost
+          - button "Open Dropdown":
+            - generic: Open Dropdown
+      - gridcell "Mon Oct 12, 9:00pm":
+        - generic: Mon Oct 12, 9:00pm
+      - gridcell "Public":
+        - generic: Public
+      - gridcell "Not currently boosted":
+        - generic "Not currently boosted":
+    - 'row "Check item with caption \"Your Korea cafe moment ☕. Add a little breathing room to your itinerary. Choose a cafe that fits the stops you already love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\" Instagram Your Korea cafe moment ☕. Add a little breathing room to your itinerary. Choose a cafe that fits the stops you already love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown Sun Oct 11, 9:00pm Public Not currently boosted"':
+      - 'gridcell "Check item with caption \"Your Korea cafe moment ☕. Add a little breathing room to your itinerary. Choose a cafe that fits the stops you already love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""':
+        - 'checkbox "Check item with caption \"Your Korea cafe moment ☕. Add a little breathing room to your itinerary. Choose a cafe that fits the stops you already love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""'
+      - 'gridcell "Instagram Your Korea cafe moment ☕. Add a little breathing room to your itinerary. Choose a cafe that fits the stops you already love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+        - 'button "Instagram Your Korea cafe moment ☕. Add a little breathing room to your itinerary. Choose a cafe that fits the stops you already love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+          - img "Instagram"
+          - generic: "Your Korea cafe moment ☕. Add a little breathing room to your itinerary. Choose a cafe that fits the stops you already love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip"
+          - generic: Photo ·
+          - generic: korea_travel_visa_keta
+          - button "Boost":
+            - generic: Boost
+          - button "Open Dropdown":
+            - generic: Open Dropdown
+      - gridcell "Sun Oct 11, 9:00pm":
+        - generic: Sun Oct 11, 9:00pm
+      - gridcell "Public":
+        - generic: Public
+      - gridcell "Not currently boosted":
+        - generic "Not currently boosted":
+    - 'row "Check item with caption \"A slow day in Seoul: pick a neighborhood, pause for a drink and leave space for discoveries. Start your shortlist at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\" Instagram A slow day in Seoul: pick a neighborhood, pause for a drink and leave space for discoveries. Start your shortlist at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown Sat Oct 10, 9:00pm Public Not currently boosted"':
+      - 'gridcell "Check item with caption \"A slow day in Seoul: pick a neighborhood, pause for a drink and leave space for discoveries. Start your shortlist at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""':
+        - 'checkbox "Check item with caption \"A slow day in Seoul: pick a neighborhood, pause for a drink and leave space for discoveries. Start your shortlist at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""'
+      - 'gridcell "Instagram A slow day in Seoul: pick a neighborhood, pause for a drink and leave space for discoveries. Start your shortlist at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+        - 'button "Instagram A slow day in Seoul: pick a neighborhood, pause for a drink and leave space for discoveries. Start your shortlist at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+          - img "Instagram"
+          - generic: "A slow day in Seoul: pick a neighborhood, pause for a drink and leave space for discoveries. Start your shortlist at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip"
+          - generic: Photo ·
+          - generic: korea_travel_visa_keta
+          - button "Boost":
+            - generic: Boost
+          - button "Open Dropdown":
+            - generic: Open Dropdown
+      - gridcell "Sat Oct 10, 9:00pm":
+        - generic: Sat Oct 10, 9:00pm
+      - gridcell "Public":
+        - generic: Public
+      - gridcell "Not currently boosted":
+        - generic "Not currently boosted":
+    - row:
+      - 'gridcell "Check item with caption \"Before your Korea trip: check passport-country entry requirements, airport transport, phone connectivity and payment options with current providers and official sources. Save your checklist. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""':
+        - 'checkbox "Check item with caption \"Before your Korea trip: check passport-country entry requirements, airport transport, phone connectivity and payment options with current providers and official sources. Save your checklist. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""'
+      - 'gridcell "Instagram Before your Korea trip: check passport-country entry requirements, airport transport, phone connectivity and payment options with current providers and official sources. Save your checklist. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+        - 'button "Instagram Before your Korea trip: check passport-country entry requirements, airport transport, phone connectivity and payment options with current providers and official sources. Save your checklist. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+          - img "Instagram"
+          - generic: "Before your Korea trip: check passport-country entry requirements, airport transport, phone connectivity and payment options with current providers and official sources. Save your checklist. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip"
+          - generic: Photo ·
+          - generic: korea_travel_visa_keta
+          - button "Boost":
+            - generic: Boost
+          - button "Open Dropdown":
+            - generic: Open Dropdown
+      - gridcell "Fri Oct 9, 9:00pm":
+        - generic: Fri Oct 9, 9:00pm
+      - gridcell "Public":
+        - generic: Public
+      - gridcell "Not currently boosted":
+        - generic "Not currently boosted":
+    - 'row "Check item with caption \"Planning Seoul with your travel bestie? Compare your favorite stops, leave room for a cafe break and build a trip you both love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\" Instagram Planning Seoul with your travel bestie? Compare your favorite stops, leave room for a cafe break and build a trip you both love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown Thu Oct 8, 9:00pm Public Not currently boosted"':
+      - 'gridcell "Check item with caption \"Planning Seoul with your travel bestie? Compare your favorite stops, leave room for a cafe break and build a trip you both love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""':
+        - 'checkbox "Check item with caption \"Planning Seoul with your travel bestie? Compare your favorite stops, leave room for a cafe break and build a trip you both love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""'
+      - 'gridcell "Instagram Planning Seoul with your travel bestie? Compare your favorite stops, leave room for a cafe break and build a trip you both love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+        - 'button "Instagram Planning Seoul with your travel bestie? Compare your favorite stops, leave room for a cafe break and build a trip you both love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+          - img "Instagram"
+          - generic: "Planning Seoul with your travel bestie? Compare your favorite stops, leave room for a cafe break and build a trip you both love. Explore: ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip"
+          - generic: Photo ·
+          - generic: korea_travel_visa_keta
+          - button "Boost":
+            - generic: Boost
+          - button "Open Dropdown":
+            - generic: Open Dropdown
+      - gridcell "Thu Oct 8, 9:00pm":
+        - generic: Thu Oct 8, 9:00pm
+      - gridcell "Public":
+        - generic: Public
+      - gridcell "Not currently boosted":
+        - generic "Not currently boosted":
+    - 'row "Check item with caption \"Three days in Seoul? Start with a shortlist, group nearby stops and leave room for breaks. Choose the places that match your pace. Build your ideas at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\" Instagram Three days in Seoul? Start with a shortlist, group nearby stops and leave room for breaks. Choose the places that match your pace. Build your ideas at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown Wed Oct 7, 9:00pm Public Not currently boosted"':
+      - 'gridcell "Check item with caption \"Three days in Seoul? Start with a shortlist, group nearby stops and leave room for breaks. Choose the places that match your pace. Build your ideas at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""':
+        - 'checkbox "Check item with caption \"Three days in Seoul? Start with a shortlist, group nearby stops and leave room for breaks. Choose the places that match your pace. Build your ideas at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""'
+      - 'gridcell "Instagram Three days in Seoul? Start with a shortlist, group nearby stops and leave room for breaks. Choose the places that match your pace. Build your ideas at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+        - 'button "Instagram Three days in Seoul? Start with a shortlist, group nearby stops and leave room for breaks. Choose the places that match your pace. Build your ideas at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+          - img "Instagram"
+          - generic: "Three days in Seoul? Start with a shortlist, group nearby stops and leave room for breaks. Choose the places that match your pace. Build your ideas at ktriphub.com/en/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip"
+          - generic: Photo ·
+          - generic: korea_travel_visa_keta
+          - button "Boost":
+            - generic: Boost
+          - button "Open Dropdown":
+            - generic: Open Dropdown
+      - gridcell "Wed Oct 7, 9:00pm":
+        - generic: Wed Oct 7, 9:00pm
+      - gridcell "Public":
+        - generic: Public
+      - gridcell "Not currently boosted":
+        - generic "Not currently boosted":
+    - 'row "Check item with caption \"Bạn đang lên kế hoạch đi Hàn Quốc cùng bạn thân? 🇰🇷 Khám phá các điểm đến, chọn nơi yêu thích và xây dựng hành trình theo sở thích của hai bạn với Korea Trip Hub. Explore: ktriphub.com/vi/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\" Instagram Bạn đang lên kế hoạch đi Hàn Quốc cùng bạn thân? 🇰🇷 Khám phá các điểm đến, chọn nơi yêu thích và xây dựng hành trình theo sở thích của hai bạn với Korea Trip Hub. Explore: ktriphub.com/vi/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown Tue Oct 6, 9:00pm Public Not currently boosted"':
+      - 'gridcell "Check item with caption \"Bạn đang lên kế hoạch đi Hàn Quốc cùng bạn thân? 🇰🇷 Khám phá các điểm đến, chọn nơi yêu thích và xây dựng hành trình theo sở thích của hai bạn với Korea Trip Hub. Explore: ktriphub.com/vi/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""':
+        - 'checkbox "Check item with caption \"Bạn đang lên kế hoạch đi Hàn Quốc cùng bạn thân? 🇰🇷 Khám phá các điểm đến, chọn nơi yêu thích và xây dựng hành trình theo sở thích của hai bạn với Korea Trip Hub. Explore: ktriphub.com/vi/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip\""'
+      - 'gridcell "Instagram Bạn đang lên kế hoạch đi Hàn Quốc cùng bạn thân? 🇰🇷 Khám phá các điểm đến, chọn nơi yêu thích và xây dựng hành trình theo sở thích của hai bạn với Korea Trip Hub. Explore: ktriphub.com/vi/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+        - 'button "Instagram Bạn đang lên kế hoạch đi Hàn Quốc cùng bạn thân? 🇰🇷 Khám phá các điểm đến, chọn nơi yêu thích và xây dựng hành trình theo sở thích của hai bạn với Korea Trip Hub. Explore: ktriphub.com/vi/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip Photo · korea_travel_visa_keta Boost Open Dropdown"':
+          - img "Instagram"
+          - generic: "Bạn đang lên kế hoạch đi Hàn Quốc cùng bạn thân? 🇰🇷 Khám phá các điểm đến, chọn nơi yêu thích và xây dựng hành trình theo sở thích của hai bạn với Korea Trip Hub. Explore: ktriphub.com/vi/ Check current opening hours, transport and travel requirements before your trip. AI-created travel inspiration; people and scenes are illustrative. #KoreaTravel #KoreaTripHub #SeoulTrip"
+          - generic: Photo ·
+          - generic: korea_travel_visa_keta
+          - button "Boost":
+            - generic: Boost
+          - button "Open Dropdown":
+            - generic: Open Dropdown
+      - gridcell "Tue Oct 6, 9:00pm":
+        - generic: Tue Oct 6, 9:00pm
+      - gridcell "Public":
+        - generic: Public
+      - gridcell "Not currently boosted":
+        - generic "Not currently boosted":
+- button "Meta AI business assistant"
+- button "Meta Business Suite":
+  - generic: Meta Business Suite
+- button "Pressable":
+  - img "Instagram"
+- navigation "Links":
+  - generic: Links
+  - list:
+    - link "Home":
+      - /url: https://business.facebook.com/latest/home?business_id=1616513423196488&asset_id=1255502770990917
+      - generic: Home
+    - generic: Home
+    - link "Notifications":
+      - generic: Notifications
+    - generic: Notifications
+    - link "Inbox":
+      - /url: https://business.facebook.com/latest/inbox?business_id=1616513423196488&asset_id=1255502770990917
+      - generic: Inbox
+    - generic: Inbox
+    - link "Content":
+      - /url: https://business.facebook.com/latest/posts?business_id=1616513423196488&asset_id=1255502770990917
+      - generic: Content
+    - generic: Content
+    - link "Creator Marketing":
+      - /url: https://business.facebook.com/latest/partnership_ads_hub?business_id=1616513423196488&asset_id=1255502770990917
+      - generic: Creator Marketing
+    - generic: Creator Marketing
+    - link "Planner":
+      - /url: https://business.facebook.com/latest/content_calendar?business_id=1616513423196488&asset_id=1255502770990917
+      - generic: Planner
+    - generic: Planner
+    - link "Ads":
+      - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=1616513423196488&asset_id=1255502770990917
+      - generic: Ads
+    - generic: Ads
+    - link "Insights":
+      - /url: https://business.facebook.com/latest/insights?business_id=1616513423196488&asset_id=1255502770990917
+      - generic: Insights
+    - generic: Insights
+    - link "All tools":
+      - generic: All tools
+    - generic: All tools
+    - button "Edit sidebar navigation":
+      - generic: Edit
+- link "Search":
+  - generic: Search
+- generic: Search
+- navigation "Links":
+  - generic: Links
+  - list:
+    - link "Get started":
+      - /url: https://business.facebook.com/latest/get_started?business_id=1616513423196488&asset_id=1255502770990917
+      - generic: Get started
+    - generic: Get started
+    - link "Settings":
+      - /url: https://business.facebook.com/latest/settings/business_users?business_id=1616513423196488&asset_id=1255502770990917
+      - generic: Settings
+    - generic: Settings
+- link "Help":
+  - generic: Help
+- generic: Help

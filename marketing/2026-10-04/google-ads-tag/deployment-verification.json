@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-04T22:34:22.126638+09:00",
+  "version": "f3a550f7-ba9d-4481-bd87-57a9869b67bd",
+  "rollback_version": "c0dc1f80-145e-4602-ad47-635be037f1e6",
+  "checks": {
+    "en": {
+      "ads_id_present": true,
+      "ga4_id_present": true,
+      "visible_content_preserved": true
+    },
+    "zh-TW": {
+      "ads_id_present": true,
+      "ga4_id_present": true,
+      "visible_content_preserved": true
+    },
+    "id": {
+      "ads_id_present": true,
+      "ga4_id_present": true,
+      "visible_content_preserved": true
+    }
+  },
+  "browser_ads_script_loaded": true,
+  "campaign": "paused",
+  "conversion_name": "비즈니스 소개",
+  "conversion_url_prefix": "ktriphub.com/en/legal/about",
+  "conversion_verified": false
+}

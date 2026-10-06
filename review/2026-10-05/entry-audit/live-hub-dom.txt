@@ -1,0 +1,383 @@
+- link "Langsung ke konten":
+  - /url: "#main"
+- banner:
+  - link "◆ Korea Trip Hub":
+    - /url: /id/
+    - generic: ◆
+    - text: Korea
+    - generic: Trip
+    - text: Hub
+  - navigation "Buka menu":
+    - link "Masuk Korea & visa":
+      - /url: /id/plan/visa/
+    - link "Hari pertama":
+      - /url: /id/plan/airport/
+    - link "Destinasi & kuliner":
+      - /url: /id/destinations/
+    - link "Lanjutkan persiapan":
+      - /url: /id/guides/
+    - link "K-pop & Festival Korea":
+      - /url: /id/festivals/
+    - link "Rencana":
+      - /url: /id/itinerary/
+    - link "Perjalananku":
+      - /url: /id/#planner
+    - link "Bantuan":
+      - /url: /id/plan/help/
+  - button "Bagikan":
+    - generic: Bagikan
+  - generic "Bahasa":
+    - generic: 🌐
+    - combobox "Bahasa":
+      - option "English"
+      - option "中文 (简体)"
+      - option "中文 (繁體)"
+      - option "日本語"
+      - option "Tiếng Việt"
+      - option "ไทย"
+      - option "Bahasa Indonesia" [selected]
+      - option "Español"
+      - option "Bahasa Melayu"
+      - option "한국어"
+      - option "Русский"
+      - option "Français"
+  - button "Ganti tema": ◐
+- main:
+  - navigation "Isi halaman ini":
+    - generic "Isi halaman ini"
+  - generic: 💕
+  - generic: 🛂
+  - generic: Masuk Korea & visa
+  - generic: 🌷 ✨
+  - article:
+    - link "← Persiapan":
+      - /url: /id/#plan
+    - text: 🛂
+    - heading "Visa & K-ETA" [level=1]
+    - paragraph: Perlu visa atau K-ETA untuk masuk Korea? Ini alur masuk bagi kebanyakan turis jangka pendek.
+    - generic: Masuk & Dokumen
+    - generic: Diperbarui September 2026
+    - region "Anda berasal dari negara mana?":
+      - generic: Anda berasal dari negara mana?
+      - combobox "Anda berasal dari negara mana?":
+        - option "Pilih kewarganegaraan Anda…"
+        - option "🇺🇸 Amerika Serikat"
+        - option "🇦🇺 Australia"
+        - option "🇧🇩 Bangladesh"
+        - option "🇵🇭 Filipina"
+        - option "🇭🇰 Hong Kong DAK Tiongkok"
+        - option "🇮🇳 India"
+        - option "🇮🇩 Indonesia" [selected]
+        - option "🇬🇧 Inggris Raya"
+        - option "🇯🇵 Jepang"
+        - option "🇨🇦 Kanada"
+        - option "🇰🇿 Kazakhstan"
+        - option "🇲🇾 Malaysia"
+        - option "🇲🇳 Mongolia"
+        - option "🇳🇵 Nepal"
+        - option "🇵🇰 Pakistan"
+        - option "🇸🇬 Singapura"
+        - option "🇱🇰 Sri Lanka"
+        - option "🇹🇼 Taiwan"
+        - option "🇹🇭 Thailand"
+        - option "🇨🇳 Tiongkok"
+        - option "🇺🇿 Uzbekistan"
+        - option "🇻🇳 Vietnam"
+      - status:
+        - generic: 🇮🇩
+        - generic: Indonesia
+        - emphasis: Wisatawan individu Indonesia memerlukan visa — tetapi rombongan mungkin tidak.
+        - link "Lihat panduan lengkap →":
+          - /url: /id/visa/indonesia/
+      - status: Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri.
+    - heading "Visa, K-ETA, dan deklarasi kedatangan berbeda" [level=3]
+    - paragraph: Pilih negara penerbit paspor terlebih dahulu. K-ETA hanya untuk kewarganegaraan bebas visa yang memenuhi syarat, bukan berdasarkan bahasa halaman. Paspor biasa Indonesia dan Vietnam tidak memenuhi syarat K-ETA.
+    - paragraph: Pilih panduan negara penerbit paspor, lalu periksa tujuan, tanggal masuk, usia, dan dokumen berlaku di situs resmi. Bahasa situs bukan kewarganegaraan Anda.
+    - link "Periksa kewajiban e-Arrival Card ↗":
+      - /url: https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E
+    - link "K-ETA ↗":
+      - /url: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN
+    - link "Korea Visa Portal ↗":
+      - /url: https://www.visa.go.kr
+    - paragraph:
+      - time: 2026-10-05
+      - text: ·
+      - link "K-ETA ↗":
+        - /url: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN
+    - generic "Aturan K-ETA — hanya paspor bebas visa yang memenuhi syarat"
+    - paragraph: Pastikan kasus Anda di situs resmi. Petugas imigrasi membuat keputusan akhir tentang izin masuk.
+    - complementary "Selanjutnya, siapkan kedatanganmu":
+      - text: Persiapan kedatangan
+      - heading "Selanjutnya, siapkan kedatanganmu" [level=2]
+      - paragraph: Rencanakan transportasi bandara, siapkan koneksi, dan kumpulkan persiapan dalam satu daftar.
+      - link "Bandara → kota →":
+        - /url: /id/plan/airport/
+      - link "SIM / eSIM / Wi-Fi →":
+        - /url: /id/plan/sim/
+      - link "Daftar persiapan perjalanan →":
+        - /url: /id/#planner
+    - paragraph: Pilih panduan negara penerbit paspor, lalu periksa tujuan, tanggal masuk, usia, dan dokumen berlaku di situs resmi. Bahasa situs bukan kewarganegaraan Anda.
+    - heading "Temukan negara Anda" [level=2]
+    - paragraph: Setiap kewarganegaraan punya jalurnya sendiri. Pilih milik Anda untuk panduan yang disesuaikan — panduan visa lengkap dari A sampai Z jika Anda perlu visa, atau daftar periksa masuk singkat jika Anda bebas visa.
+    - heading "🛂 Anda perlu visa — panduan lengkap dari A sampai Z" [level=3]
+    - link "🇮🇳 India Ya — pemegang paspor India memerlukan visa. →":
+      - /url: /id/visa/india/
+      - generic: 🇮🇳
+      - generic: India
+      - emphasis: Ya — pemegang paspor India memerlukan visa.
+      - generic: →
+    - link "🇻🇳 Vietnam Ya — pemegang paspor Vietnam memerlukan visa. →":
+      - /url: /id/visa/vietnam/
+      - generic: 🇻🇳
+      - generic: Vietnam
+      - emphasis: Ya — pemegang paspor Vietnam memerlukan visa.
+      - generic: →
+    - link "🇨🇳 Tiongkok Ya — pemegang paspor Tiongkok memerlukan visa untuk Korea daratan. →":
+      - /url: /id/visa/china/
+      - generic: 🇨🇳
+      - generic: Tiongkok
+      - emphasis: Ya — pemegang paspor Tiongkok memerlukan visa untuk Korea daratan.
+      - generic: →
+    - link "🇵🇭 Filipina Pemegang paspor Filipina memerlukan visa wisata C-3-9 untuk mengunjungi daratan Korea. →":
+      - /url: /id/visa/philippines/
+      - generic: 🇵🇭
+      - generic: Filipina
+      - emphasis: Pemegang paspor Filipina memerlukan visa wisata C-3-9 untuk mengunjungi daratan Korea.
+      - generic: →
+    - link "🇮🇩 Indonesia Wisatawan individu Indonesia memerlukan visa — tetapi rombongan mungkin tidak. →":
+      - /url: /id/visa/indonesia/
+      - generic: 🇮🇩
+      - generic: Indonesia
+      - emphasis: Wisatawan individu Indonesia memerlukan visa — tetapi rombongan mungkin tidak.
+      - generic: →
+    - link "🇲🇳 Mongolia Ya — pemegang paspor Mongolia memerlukan visa. →":
+      - /url: /id/visa/mongolia/
+      - generic: 🇲🇳
+      - generic: Mongolia
+      - emphasis: Ya — pemegang paspor Mongolia memerlukan visa.
+      - generic: →
+    - link "🇧🇩 Bangladesh Ya — pemegang paspor Bangladesh memerlukan visa. →":
+      - /url: /id/visa/bangladesh/
+      - generic: 🇧🇩
+      - generic: Bangladesh
+      - emphasis: Ya — pemegang paspor Bangladesh memerlukan visa.
+      - generic: →
+    - link "🇳🇵 Nepal Ya — pemegang paspor Nepal memerlukan visa. →":
+      - /url: /id/visa/nepal/
+      - generic: 🇳🇵
+      - generic: Nepal
+      - emphasis: Ya — pemegang paspor Nepal memerlukan visa.
+      - generic: →
+    - link "🇺🇿 Uzbekistan Ya — pemegang paspor Uzbekistan membutuhkan visa. →":
+      - /url: /id/visa/uzbekistan/
+      - generic: 🇺🇿
+      - generic: Uzbekistan
+      - emphasis: Ya — pemegang paspor Uzbekistan membutuhkan visa.
+      - generic: →
+    - link "🇱🇰 Sri Lanka Ya — pemegang paspor Sri Lanka memerlukan visa. →":
+      - /url: /id/visa/srilanka/
+      - generic: 🇱🇰
+      - generic: Sri Lanka
+      - emphasis: Ya — pemegang paspor Sri Lanka memerlukan visa.
+      - generic: →
+    - link "🇵🇰 Pakistan Ya — pemegang paspor Pakistan memerlukan visa. →":
+      - /url: /id/visa/pakistan/
+      - generic: 🇵🇰
+      - generic: Pakistan
+      - emphasis: Ya — pemegang paspor Pakistan memerlukan visa.
+      - generic: →
+    - heading "✅ Bebas visa — panduan masuk singkat" [level=3]
+    - link "🇺🇸 Amerika Serikat Tidak perlu visa turis — paspor Amerika Serikat bebas visa. →":
+      - /url: /id/visa/usa/
+      - generic: 🇺🇸
+      - generic: Amerika Serikat
+      - emphasis: Tidak perlu visa turis — paspor Amerika Serikat bebas visa.
+      - generic: →
+    - link "🇯🇵 Jepang Tidak perlu visa turis — paspor Jepang bebas visa. →":
+      - /url: /id/visa/japan/
+      - generic: 🇯🇵
+      - generic: Jepang
+      - emphasis: Tidak perlu visa turis — paspor Jepang bebas visa.
+      - generic: →
+    - link "🇬🇧 Inggris Raya Tidak perlu visa turis — paspor Inggris bebas visa. →":
+      - /url: /id/visa/uk/
+      - generic: 🇬🇧
+      - generic: Inggris Raya
+      - emphasis: Tidak perlu visa turis — paspor Inggris bebas visa.
+      - generic: →
+    - link "🇨🇦 Kanada Tidak perlu visa turis — paspor Kanada bebas visa. →":
+      - /url: /id/visa/canada/
+      - generic: 🇨🇦
+      - generic: Kanada
+      - emphasis: Tidak perlu visa turis — paspor Kanada bebas visa.
+      - generic: →
+    - link "🇦🇺 Australia Tidak perlu visa turis — paspor Australia bebas visa. →":
+      - /url: /id/visa/australia/
+      - generic: 🇦🇺
+      - generic: Australia
+      - emphasis: Tidak perlu visa turis — paspor Australia bebas visa.
+      - generic: →
+    - link "🇹🇼 Taiwan Tidak perlu visa turis — paspor Taiwan bebas visa. →":
+      - /url: /id/visa/taiwan/
+      - generic: 🇹🇼
+      - generic: Taiwan
+      - emphasis: Tidak perlu visa turis — paspor Taiwan bebas visa.
+      - generic: →
+    - link "🇭🇰 Hong Kong DAK Tiongkok Tidak perlu visa turis — paspor Hong Kong (HKSAR) bebas visa. →":
+      - /url: /id/visa/hongkong/
+      - generic: 🇭🇰
+      - generic: Hong Kong DAK Tiongkok
+      - emphasis: Tidak perlu visa turis — paspor Hong Kong (HKSAR) bebas visa.
+      - generic: →
+    - link "🇸🇬 Singapura Tidak perlu visa turis — paspor Singapura bebas visa. →":
+      - /url: /id/visa/singapore/
+      - generic: 🇸🇬
+      - generic: Singapura
+      - emphasis: Tidak perlu visa turis — paspor Singapura bebas visa.
+      - generic: →
+    - link "🇲🇾 Malaysia Tidak perlu visa turis — tetapi Anda harus mengajukan K-ETA. →":
+      - /url: /id/visa/malaysia/
+      - generic: 🇲🇾
+      - generic: Malaysia
+      - emphasis: Tidak perlu visa turis — tetapi Anda harus mengajukan K-ETA.
+      - generic: →
+    - link "🇹🇭 Thailand Tidak perlu visa turis — tetapi Anda harus mengajukan K-ETA. →":
+      - /url: /id/visa/thailand/
+      - generic: 🇹🇭
+      - generic: Thailand
+      - emphasis: Tidak perlu visa turis — tetapi Anda harus mengajukan K-ETA.
+      - generic: →
+    - link "🇰🇿 Kazakhstan Tidak perlu visa turis — tetapi Anda harus mengajukan K-ETA. →":
+      - /url: /id/visa/kazakhstan/
+      - generic: 🇰🇿
+      - generic: Kazakhstan
+      - emphasis: Tidak perlu visa turis — tetapi Anda harus mengajukan K-ETA.
+      - generic: →
+    - paragraph: Negara penerbit paspor tidak tercantum? Periksa persyaratan melalui layanan imigrasi resmi.
+    - heading "✓ Info terverifikasi" [level=2]
+    - generic: "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai."
+    - generic: ✓
+    - time: 2026-09-23
+    - generic: ⚠ Harga/aturan berubah — konfirmasi di sumber resmi
+    - text: "Sumber:"
+    - link "Korea Immigration Service — e-Arrival Card":
+      - /url: https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E
+    - paragraph: ⓘ Pastikan kasus Anda di situs resmi. Petugas imigrasi membuat keputusan akhir tentang izin masuk.
+    - generic "Aturan K-ETA — hanya paspor bebas visa yang memenuhi syarat"
+    - heading "C-3-2" [level=3]
+    - insertion:
+      - iframe
+    - paragraph: Visa grup C-3-2 yang memenuhi syarat bagi China, Vietnam, Filipina, Indonesia, India, dan Kamboja mendapat pembebasan biaya penerbitan USD 15 sampai 2026-12-31. Ini bukan bebas visa atau pembebasan biaya visa individu, agen, maupun layanan.
+    - paragraph:
+      - time: 2026-10-05
+      - text: ·
+      - link "C-3-2 ↗":
+        - /url: https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do
+    - heading "Pertanyaan yang sering diajukan" [level=2]
+    - generic "Pembebasan sementara +"
+    - generic "Periksa kewajiban e-Arrival Card +"
+    - generic "Permohonan dan waktu proses +"
+    - generic "Pembebasan berdasarkan usia +"
+    - generic "Biaya dan masa berlaku +"
+    - insertion:
+      - iframe
+    - heading "Official sources" [level=2]
+    - link "✅ K-ETA Pembebasan sementara":
+      - /url: https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN
+      - generic: ✅
+      - generic: K-ETA
+      - emphasis: Pembebasan sementara
+    - link "📝 e-Arrival Card Periksa kewajiban e-Arrival Card":
+      - /url: https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E
+      - generic: 📝
+      - generic: e-Arrival Card
+      - emphasis: Periksa kewajiban e-Arrival Card
+    - link "🏛️ Korea Visa Portal Pastikan kasus Anda di situs resmi. Petugas imigrasi membuat keputusan akhir tentang izin masuk.":
+      - /url: https://www.visa.go.kr
+      - generic: 🏛️
+      - generic: Korea Visa Portal
+      - emphasis: Pastikan kasus Anda di situs resmi. Petugas imigrasi membuat keputusan akhir tentang izin masuk.
+    - link "💬 Tulis ulasan →":
+      - /url: https://docs.google.com/forms/d/e/1FAIpQLSdHfi7ha2zafX4ZNqPakd3m-YA8jMu5JZyo4d3UbNX5RPeisw/viewform
+    - complementary "Tentang halaman ini":
+      - generic "Bagikan ke teman atau simpan untuk diri sendiri":
+        - strong: Bagikan ke teman atau simpan untuk diri sendiri
+        - button "Bagikan ke aplikasi":
+          - text: Bagikan ke aplikasi
+        - button "Salin tautan":
+          - text: Salin tautan
+        - button "Kirim lewat email":
+          - text: Kirim lewat email
+        - generic "Pilih aplikasi pesan atau media sosial"
+        - paragraph: Kirim panduan dalam bahasa ini. Aplikasi berbagi yang tersedia bergantung pada perangkatmu.
+        - insertion
+      - generic: 🖊 Redaksi & verifikasi Korea Trip Hub
+      - link "Kebijakan Editorial":
+        - /url: /id/legal/editorial/
+      - text: "🔄 Terakhir diperiksa:"
+      - time: 23 September 2026
+      - paragraph: Informasi penting diperiksa dengan sumber resmi pemerintah dan operator. Aturan dan harga dapat berubah — konfirmasikan di halaman resmi sebelum bepergian atau memesan.
+      - link "🛠 Laporkan kesalahan atau usulkan koreksi":
+        - /url: /id/legal/contact/
+    - paragraph: Info perjalanan dicek dengan sumber resmi beserta tanggal verifikasi. Harga, jadwal, dan aturan visa berubah — selalu konfirmasi di sumber resmi yang ditautkan sebelum berangkat.
+- contentinfo:
+  - generic "Bagikan ke teman atau simpan untuk diri sendiri"
+  - generic: ◆ KoreaTripHub
+  - navigation "Bahasa":
+    - link "English":
+      - /url: /en/
+    - link "中文 (简体)":
+      - /url: /zh/
+    - link "中文 (繁體)":
+      - /url: /zh-TW/
+    - link "日本語":
+      - /url: /ja/
+    - link "Tiếng Việt":
+      - /url: /vi/
+    - link "ไทย":
+      - /url: /th/
+    - strong: Bahasa Indonesia
+    - link "Español":
+      - /url: /es/
+    - link "Bahasa Melayu":
+      - /url: /ms/
+    - link "한국어":
+      - /url: /ko/
+    - link "Русский":
+      - /url: /ru/
+    - link "Français":
+      - /url: /fr/
+  - insertion
+  - navigation "Hukum":
+    - link "Tentang":
+      - /url: /id/legal/about/
+    - link "Operator":
+      - /url: /id/legal/operator/
+    - link "Kontak":
+      - /url: /id/legal/contact/
+    - link "Privasi & Cookie":
+      - /url: /id/legal/privacy/
+    - link "Ketentuan":
+      - /url: /id/legal/terms/
+    - link "Kebijakan Editorial":
+      - /url: /id/legal/editorial/
+    - link "Koreksi":
+      - /url: /id/legal/corrections/
+    - link "Iklan & Afiliasi":
+      - /url: /id/legal/affiliate/
+  - paragraph:
+    - link "🍁 Panduan wisata Korea →":
+      - /url: /id/guides/
+    - text: ·
+    - link "🎤 K-Culture — kpophub.kr →":
+      - /url: https://kpophub.kr/en/calendar/
+  - paragraph: Beberapa tautan adalah tautan afiliasi — kami mungkin memperoleh komisi tanpa biaya tambahan untukmu.
+  - paragraph: © 2026 Korea Trip Hub — panduan perjalanan independen. Selalu konfirmasi aturan terbaru dari sumber resmi.
+- region "Asisten Perjalanan":
+  - button "Tutup": ✕
+  - button "Asisten perjalanan AI Ada yang bisa saya bantu? Asisten Perjalanan ↗":
+    - generic: Asisten perjalanan AI
+    - strong: Ada yang bisa saya bantu?
+    - generic: Asisten Perjalanan ↗
+- button "Asisten Perjalanan"
+- alert

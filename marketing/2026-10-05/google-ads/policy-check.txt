@@ -1,0 +1,805 @@
+- banner "상단 탐색 메뉴":
+  - status
+  - button "닫기":
+    - img: close
+  - heading "Google Ads - 시작 페이지로 이동" [level=1]:
+    - button "Google Ads - 시작 페이지로 이동":
+  - button "애셋 수정":
+    - heading "애셋 수정" [level=1]:
+      - button "애셋 수정"
+  - button "페이지 검색":
+    - img: search
+    - text: 검색
+  - button "디자인":
+    - img: responsive_layout
+    - text: 디자인
+  - button "빠른 도움말 패널 열기":
+    - text: 도움말
+    - img: help_outline
+    - text: 도움말
+  - button "알림":
+    - img: notifications
+    - generic: 알림
+  - generic "528-829-7098 Korea Trip Hub"
+  - generic: minho.han0165@gmail.com
+  - button "Google 계정":
+    - img "Google 계정 (minho.han0165@gmail.com)"
+- img: error_outline
+- status:
+  - generic: 게재 중인 광고가 없습니다. - 캠페인과 광고그룹이 일시중지 또는 삭제되었습니다. 해당 항목을 사용하도록 설정하여 광고 게재를 시작하세요.
+- button "자세히 알아보기":
+  - generic: 자세히 알아보기
+- button "숨기기":
+  - generic: 숨기기
+- main:
+  - region:
+    - generic: "캠페인:"
+    - generic: "Campaign #1"
+    - generic: "애셋 그룹:"
+    - generic: 1번째 애셋 그룹
+    - generic: "잠재고객:"
+    - generic: 제공된 신호가 없습니다.
+  - button "브랜드 가이드라인 브랜드 가이드라인 수정" [disabled]:
+    - generic: 브랜드 가이드라인
+    - button:
+      - img: edit
+  - img "정보": info
+  - paragraph:
+    - heading "브랜드 가이드라인 업데이트" [level=3]
+    - text: 비즈니스 이름과 로고가 이제 브랜드 가이드라인에 포함되어 이 캠페인의 광고에 브랜드가 표시되는 방식을 관리할 수 있습니다.
+  - button "브랜드 가이드라인에 대해 자세히 알아보기":
+    - generic: 자세히 알아보기
+  - button "브랜드 가이드라인 업데이트":
+    - generic: 브랜드 가이드라인 업데이트
+  - button "애셋" [expanded]:
+    - paragraph: 애셋
+    - img: expand_less
+  - region "애셋":
+    - img "정보": info
+    - generic: 광고 효력이 '매우 좋음'인 광고주는 전환수가 평균 6% 많습니다.
+    - progressbar "광고 효력 총점은 나쁨입니다."
+    - generic: 광고 효력
+    - button "추가 정보":
+      - img: help_outline
+    - generic "광고 효력 총점은 나쁨입니다": 나쁨
+    - img: done
+    - note "이미지 카테고리의 카테고리 점수는 높음입니다.": 이미지
+    - note "동영상 카테고리의 카테고리 점수는 낮음입니다.": 동영상
+    - note "광고 제목 카테고리의 카테고리 점수는 중간입니다.": 광고 제목
+    - img: done
+    - note "설명 카테고리의 카테고리 점수는 높음입니다.": 설명
+    - note "사이트링크 카테고리의 카테고리 점수는 낮음입니다.": 사이트링크
+    - img "주의": warning_amber
+    - generic: 운영 가능(제한적)
+    - strong: 정책 위반 사항 1건
+    - list:
+      - listitem: 정부 발급 문서 및 공공 서비스
+    - button "세부정보 보기":
+      - generic: 세부정보 보기
+    - generic: 정책을 준수하도록 광고를 수정하세요
+    - button "닫기":
+      - img: close
+    - generic: 정책 위반 사항 1건
+    - button "정부 발급 문서 및 공공 서비스" [expanded]:
+      - img: error
+      - generic: 정부 발급 문서 및 공공 서비스
+      - img: expand_less
+    - region "정부 발급 문서 및 공공 서비스":
+      - list:
+        - listitem: 광고 제목
+        - listitem: 인증서 필요
+        - link "정책 읽어보기":
+          - /url: https://support.google.com/adspolicy/answer/13156083?hl=ko
+      - button "세부정보 더보기":
+        - generic: 세부정보 더보기
+        - img: expand_more
+    - generic: 다음 단계
+    - generic: "'저장'을 클릭하면 Google Ads 정책을 준수하는지를 확인하기 위해 광고 검토가 진행됩니다. 검토가 진행되는 동안에는 광고가 '검토중' 상태로 캠페인에 표시됩니다. 정책 위반사항을 수정하지 않은 경우 광고가 비승인될 수 있습니다."
+    - button "done 최종 URL 추가 정보 https://ktriphub.com/" [expanded]:
+      - img: done
+      - generic: 최종 URL
+      - button:
+        - img: help_outline
+      - generic: https://ktriphub.com/
+      - img: expand_less
+    - region "done 최종 URL 추가 정보 https://ktriphub.com/":
+      - generic: 최종 URL
+      - textbox "최종 URL": https://ktriphub.com/
+    - button "done 광고 제목 ‪(10)‬ 추가 정보 광고 효력을 '매우 좋음'으로 높이려면 광고 제목을 2개 더 추가하세요. 의견 보내기" [expanded]:
+      - generic: 광고 제목 ‪(10)‬
+      - button:
+        - img: help_outline
+      - generic: 광고 효력을 '매우 좋음'으로 높이려면 광고 제목을 2개 더 추가하세요.
+      - button:
+        - img: feedback
+      - img: expand_less
+    - region "done 광고 제목 ‪(10)‬ 추가 정보 광고 효력을 '매우 좋음'으로 높이려면 광고 제목을 2개 더 추가하세요. 의견 보내기":
+      - list:
+        - textbox "15에서 광고 제목 1": Start Planning Korea Now
+        - generic: 24/30
+        - generic: 영문 기준 24자만 입력할 수 있습니다. /30
+        - listbox "추천 목록"
+        - textbox "15에서 광고 제목 2": Easy Entry & Visa Checklists
+        - generic: 28/30
+        - generic: 영문 기준 28자만 입력할 수 있습니다. /30
+        - listbox "추천 목록"
+        - textbox "15에서 광고 제목 3": South Korea Visa Guide
+        - generic: 22/30
+        - generic: 영문 기준 22자만 입력할 수 있습니다. /30
+        - listbox "추천 목록"
+        - textbox "15에서 광고 제목 4": K-ETA Application Guide
+        - generic: 23/30
+        - generic: 영문 기준 23자만 입력할 수 있습니다. /30
+        - listbox "추천 목록"
+        - textbox "15에서 광고 제목 5": Korea Entry Requirements
+        - generic: 24/30
+        - generic: 영문 기준 24자만 입력할 수 있습니다. /30
+        - listbox "추천 목록"
+        - textbox "15에서 광고 제목 6": Check Your Korea Travel Needs
+        - generic: 29/30
+        - generic: 영문 기준 29자만 입력할 수 있습니다. /30
+        - listbox "추천 목록"
+        - textbox "15에서 광고 제목 7": Korea Travel Made Easy
+        - generic: 22/30
+        - generic: 영문 기준 22자만 입력할 수 있습니다. /30
+        - listbox "추천 목록"
+        - textbox "15에서 광고 제목 8": Start Planning Your Journey
+        - generic: 27/30
+        - generic: 영문 기준 27자만 입력할 수 있습니다. /30
+        - listbox "추천 목록"
+        - textbox "15에서 광고 제목 9": Get Entry & Visa Guides
+        - generic: 23/30
+        - generic: 영문 기준 23자만 입력할 수 있습니다. /30
+        - listbox "추천 목록"
+        - textbox "15에서 광고 제목 10": Discover Local Food & BBQ
+        - generic: 25/30
+        - generic: 영문 기준 25자만 입력할 수 있습니다. /30
+        - listbox "추천 목록"
+      - button "광고 제목 추가":
+        - img: add
+        - text: 광고 제목
+      - button "추천 보기":
+        - img: notes
+        - text: 추천 보기
+    - button "done 긴 광고 제목 ‪(5)‬ 추가 정보 광고 효력을 '매우 좋음'으로 높일 수 있을 만큼 긴 광고 제목 확장 소재가 많습니다. 의견 보내기" [expanded]:
+      - img: done
+      - generic: 긴 광고 제목 ‪(5)‬
+      - button:
+        - img: help_outline
+      - generic: 광고 효력을 '매우 좋음'으로 높일 수 있을 만큼 긴 광고 제목 확장 소재가 많습니다.
+      - button:
+        - img: feedback
+      - img: expand_less
+    - region "done 긴 광고 제목 ‪(5)‬ 추가 정보 광고 효력을 '매우 좋음'으로 높일 수 있을 만큼 긴 광고 제목 확장 소재가 많습니다. 의견 보내기":
+      - list:
+        - textbox "5에서 긴 광고 제목 1": Explore South Korea Visa, K-ETA and Entry Guides Before Your Trip
+        - generic: 65/90
+        - generic: 영문 기준 65자만 입력할 수 있습니다. /90
+        - listbox "추천 목록"
+        - textbox "5에서 긴 광고 제목 2": Find South Korea Visa and K-ETA Information for Your Nationality
+        - generic: 64/90
+        - generic: 영문 기준 64자만 입력할 수 있습니다. /90
+        - listbox "추천 목록"
+        - textbox "5에서 긴 광고 제목 3": Planning a Korea Trip? Start with Visa, K-ETA and Entry Requirements
+        - generic: 68/90
+        - generic: 영문 기준 68자만 입력할 수 있습니다. /90
+        - listbox "추천 목록"
+        - textbox "5에서 긴 광고 제목 4": Prepare for Your Korea Trip with Visa, K-ETA and Entry Checklists
+        - generic: 65/90
+        - generic: 영문 기준 65자만 입력할 수 있습니다. /90
+        - listbox "추천 목록"
+        - textbox "5에서 긴 광고 제목 5": "Korea Trip Hub: Your Guide to Visas, K-ETA and Travel Planning"
+        - generic: 62/90
+        - generic: 영문 기준 62자만 입력할 수 있습니다. /90
+        - listbox "추천 목록"
+      - button "추천 보기":
+        - img: notes
+        - text: 추천 보기
+    - button "done 설명 ‪(5)‬ 추가 정보 광고 효력을 '매우 좋음'으로 높일 수 있을 만큼 설명 확장 소재가 많습니다. 의견 보내기" [expanded]:
+      - img: done
+      - generic: 설명 ‪(5)‬
+      - button:
+        - img: help_outline
+      - generic: 광고 효력을 '매우 좋음'으로 높일 수 있을 만큼 설명 확장 소재가 많습니다.
+      - button:
+        - img: feedback
+      - img: expand_less
+    - region "done 설명 ‪(5)‬ 추가 정보 광고 효력을 '매우 좋음'으로 높일 수 있을 만큼 설명 확장 소재가 많습니다. 의견 보내기":
+      - list:
+        - textbox "5에서 설명 1": Explore visa, K-ETA and entry information before your trip to South Korea.
+        - generic: 74/90
+        - generic: 영문 기준 74자만 입력할 수 있습니다. /90
+        - listbox "추천 목록"
+        - textbox "5에서 설명 2": Find Korea entry guides for your nationality and prepare your travel checklist.
+        - generic: 79/90
+        - generic: 영문 기준 79자만 입력할 수 있습니다. /90
+        - listbox "추천 목록"
+        - textbox "5에서 설명 3": Understand the difference between a Korea visa and K-ETA before you travel.
+        - generic: 75/90
+        - generic: 영문 기준 75자만 입력할 수 있습니다. /90
+        - listbox "추천 목록"
+        - textbox "5에서 설명 4": Start your Korea travel planning with guides to visas, K-ETA and entry requirements.
+        - generic: 84/90
+        - generic: 영문 기준 84자만 입력할 수 있습니다. /90
+        - listbox "추천 목록"
+        - textbox "5에서 설명 5": Independent Korea travel information. Confirm requirements with official authorities.
+        - generic: 85/90
+        - generic: 영문 기준 85자만 입력할 수 있습니다. /90
+        - listbox "추천 목록"
+      - button "추천 보기":
+        - img: notes
+        - text: 추천 보기
+    - button "done 이미지 ‪(20)‬ 추가 정보 광고 효력을 '매우 좋음'으로 높일 수 있을 만큼 이미지 확장 소재가 많습니다." [expanded]:
+      - img: done
+      - generic: 이미지 ‪(20)‬
+      - button:
+        - img: help_outline
+      - generic: 광고 효력을 '매우 좋음'으로 높일 수 있을 만큼 이미지 확장 소재가 많습니다.
+      - img: expand_less
+    - region "done 이미지 ‪(20)‬ 추가 정보 광고 효력을 '매우 좋음'으로 높일 수 있을 만큼 이미지 확장 소재가 많습니다.":
+      - img "마케팅 이미지(가로)"
+      - img "마케팅 이미지(가로)"
+      - img "마케팅 이미지(가로)"
+      - generic: "+18"
+      - button "미디어 수정":
+        - img: edit
+        - generic: 수정
+      - generic: 추천 이미지
+      - button "추가 정보":
+        - img "추가 정보": help_outline
+      - button "전체 선택":
+        - generic: 전체 선택
+      - button "추가 작업":
+        - img: more_vert
+      - listbox "추천 이미지":
+        - option "이미지 애셋(최근 사용한 동영상)의 미리보기 카드입니다.":
+          - grid "이미지 애셋(최근 사용한 동영상)의 미리보기 카드입니다.":
+            - row:
+              - gridcell
+            - row "확대 애셋 관련 작업 더보기 애셋 선택":
+              - gridcell "확대 애셋 관련 작업 더보기":
+                - button "확대":
+                  - img: zoom_in
+                - button "애셋 관련 작업 더보기":
+                  - img: more_vert
+              - gridcell "애셋 선택":
+                - button "애셋 선택" [disabled]:
+                  - generic: 선택
+          - img: history
+          - generic: 최근 사용한 동영상
+        - option "이미지 애셋(URL에서 향상됨)의 미리보기 카드입니다.":
+          - grid "이미지 애셋(URL에서 향상됨)의 미리보기 카드입니다.":
+            - row:
+              - gridcell
+            - row "확대 애셋 관련 작업 더보기 애셋 선택":
+              - gridcell "확대 애셋 관련 작업 더보기":
+                - button "확대":
+                  - img: zoom_in
+                - button "애셋 관련 작업 더보기":
+                  - img: more_vert
+              - gridcell "애셋 선택":
+                - button "애셋 선택" [disabled]:
+                  - generic: 선택
+          - img: auto_fix_high
+          - generic: URL에서 향상됨
+        - option "이미지 애셋(무료 스톡 이미지)의 미리보기 카드입니다.":
+          - grid "이미지 애셋(무료 스톡 이미지)의 미리보기 카드입니다.":
+            - row:
+              - gridcell
+            - row "확대 애셋 관련 작업 더보기 애셋 선택":
+              - gridcell "확대 애셋 관련 작업 더보기":
+                - button "확대":
+                  - img: zoom_in
+                - button "애셋 관련 작업 더보기":
+                  - img: more_vert
+              - gridcell "애셋 선택":
+                - button "애셋 선택" [disabled]:
+                  - generic: 선택
+          - img: language
+          - generic: 무료 스톡 이미지
+        - option "이미지 애셋(최근 사용한 동영상)의 미리보기 카드입니다.":
+          - grid "이미지 애셋(최근 사용한 동영상)의 미리보기 카드입니다.":
+            - row:
+              - gridcell
+            - row "확대 애셋 관련 작업 더보기 애셋 선택":
+              - gridcell "확대 애셋 관련 작업 더보기":
+                - button "확대":
+                  - img: zoom_in
+                - button "애셋 관련 작업 더보기":
+                  - img: more_vert
+              - gridcell "애셋 선택":
+                - button "애셋 선택" [disabled]:
+                  - generic: 선택
+          - img: history
+          - generic: 최근 사용한 동영상
+        - option "이미지 애셋(URL에서 향상됨)의 미리보기 카드입니다.":
+          - grid "이미지 애셋(URL에서 향상됨)의 미리보기 카드입니다.":
+            - row:
+              - gridcell
+            - row "확대 애셋 관련 작업 더보기 애셋 선택":
+              - gridcell "확대 애셋 관련 작업 더보기":
+                - button "확대":
+                  - img: zoom_in
+                - button "애셋 관련 작업 더보기":
+                  - img: more_vert
+              - gridcell "애셋 선택":
+                - button "애셋 선택" [disabled]:
+                  - generic: 선택
+          - img: auto_fix_high
+          - generic: URL에서 향상됨
+        - option "이미지 애셋(무료 스톡 이미지)의 미리보기 카드입니다.":
+          - grid "이미지 애셋(무료 스톡 이미지)의 미리보기 카드입니다.":
+            - row:
+              - gridcell
+            - row "확대 애셋 관련 작업 더보기 애셋 선택":
+              - gridcell "확대 애셋 관련 작업 더보기":
+                - button "확대":
+                  - img: zoom_in
+                - button "애셋 관련 작업 더보기":
+                  - img: more_vert
+              - gridcell "애셋 선택":
+                - button "애셋 선택" [disabled]:
+                  - generic: 선택
+          - img: language
+          - generic: 무료 스톡 이미지
+        - option "이미지 애셋(최근 사용한 동영상)의 미리보기 카드입니다." [selected]:
+          - grid "이미지 애셋(최근 사용한 동영상)의 미리보기 카드입니다.":
+            - row:
+              - gridcell
+            - row "애셋 선택 확대 애셋 관련 작업 더보기":
+              - gridcell "애셋 선택 확대 애셋 관련 작업 더보기":
+                - checkbox "애셋 선택" [checked]:
+                  - img: check_box
+                - button "확대":
+                  - img: zoom_in
+                - button "애셋 관련 작업 더보기":
+                  - img: more_vert
+          - img: history
+          - generic: 최근 사용한 동영상
+        - option "이미지 애셋(최근 사용한 동영상)의 미리보기 카드입니다." [selected]:
+          - grid "이미지 애셋(최근 사용한 동영상)의 미리보기 카드입니다.":
+            - row:
+              - gridcell
+            - row "애셋 선택 확대 애셋 관련 작업 더보기":
+              - gridcell "애셋 선택 확대 애셋 관련 작업 더보기":
+                - checkbox "애셋 선택" [checked]:
+                  - img: check_box
+                - button "확대":
+                  - img: zoom_in
+                - button "애셋 관련 작업 더보기":
+                  - img: more_vert
+          - img: history
+          - generic: 최근 사용한 동영상
+        - option "이미지 애셋(최근 사용한 동영상)의 미리보기 카드입니다." [selected]:
+          - grid "이미지 애셋(최근 사용한 동영상)의 미리보기 카드입니다.":
+            - row:
+              - gridcell
+            - row "애셋 선택 확대 애셋 관련 작업 더보기":
+              - gridcell "애셋 선택 확대 애셋 관련 작업 더보기":
+                - checkbox "애셋 선택" [checked]:
+                  - img: check_box
+                - button "확대":
+                  - img: zoom_in
+                - button "애셋 관련 작업 더보기":
+                  - img: more_vert
+          - img: history
+          - generic: 최근 사용한 동영상
+        - option "이미지 애셋(최근 사용한 동영상)의 미리보기 카드입니다." [selected]:
+          - grid "이미지 애셋(최근 사용한 동영상)의 미리보기 카드입니다.":
+            - row:
+              - gridcell
+            - row "애셋 선택 확대 애셋 관련 작업 더보기":
+              - gridcell "애셋 선택 확대 애셋 관련 작업 더보기":
+                - checkbox "애셋 선택" [checked]:
+                  - img: check_box
+                - button "확대":
+                  - img: zoom_in
+                - button "애셋 관련 작업 더보기":
+                  - img: more_vert
+          - img: history
+          - generic: 최근 사용한 동영상
+        - option "더보기":
+          - button "더보기":
+            - img: arrow_forward
+            - generic: 더보기
+      - button "앞으로 스크롤":
+        - img: chevron_right
+    - button "done 로고 ‪(2)‬ 추가 정보" [expanded]:
+      - img: done
+      - generic: 로고 ‪(2)‬
+      - button:
+        - img: help_outline
+      - img: expand_less
+    - region "done 로고 ‪(2)‬ 추가 정보":
+      - img "로고 이미지"
+      - img "4x1 로고 이미지"
+      - button "미디어 수정":
+        - img: edit
+        - generic: 수정
+    - button "done 업체명 추가 정보" [expanded]:
+      - img: done
+      - generic: 업체명
+      - button:
+        - img: help_outline
+      - img: expand_less
+    - region "done 업체명 추가 정보":
+      - textbox "업체명": Korea Trip Hub
+      - generic: 14/25
+      - generic: 영문 기준 14자만 입력할 수 있습니다. /25
+    - button "done 동영상 ‪(0)‬ 추가 정보 동영상을 1개 이상 업로드하세요. 동영상이 없으면 대부분의 경우 Google에서 자동으로 동영상을 만듭니다." [expanded]:
+      - generic: 동영상 ‪(0)‬
+      - button:
+        - img: help_outline
+      - generic: 동영상을 1개 이상 업로드하세요. 동영상이 없으면 대부분의 경우 Google에서 자동으로 동영상을 만듭니다.
+      - img: expand_less
+    - region "done 동영상 ‪(0)‬ 추가 정보 동영상을 1개 이상 업로드하세요. 동영상이 없으면 대부분의 경우 Google에서 자동으로 동영상을 만듭니다.":
+      - button "동영상 추가":
+        - img: add
+        - text: 동영상
+      - button "동영상 생성":
+        - text: 동영상 생성
+    - button "사이트링크 사이트링크에 대한 고객센터 도움말 버튼 사이트링크 3개 더 추가" [expanded]:
+      - generic: 사이트링크
+      - button "사이트링크에 대한 고객센터 도움말 버튼":
+        - img: help_outline
+      - generic: 사이트링크 3개 더 추가
+      - paragraph
+      - img: expand_less
+    - region "사이트링크 사이트링크에 대한 고객센터 도움말 버튼 사이트링크 3개 더 추가":
+      - generic "확장 소재 항목":
+        - link "Entry & Visas":
+          - /url: https://ktriphub.com/en/plan/visa/
+        - generic: 내용 입력란 추가
+        - button "Entry & Visas 수정":
+          - img: edit
+        - button "Entry & Visas 삭제":
+          - img: delete
+      - generic "확장 소재 항목":
+        - link "Travel Guides":
+          - /url: https://ktriphub.com/en/guides/
+        - generic: 내용 입력란 추가
+        - button "Travel Guides 수정":
+          - img: edit
+        - button "Travel Guides 삭제":
+          - img: delete
+      - generic "확장 소재 항목":
+        - link "Getting Around":
+          - /url: https://ktriphub.com/en/plan/transit/
+        - generic: 내용 입력란 추가
+        - button "Getting Around 수정":
+          - img: edit
+        - button "Getting Around 삭제":
+          - img: delete
+      - generic "추가":
+        - generic "확장 소재 항목":
+          - generic: 사이트링크 4
+          - generic: 권장 크기
+          - button "추가":
+            - img: add
+        - generic "확장 소재 항목":
+          - generic: 사이트링크 5
+          - generic: 권장 크기
+          - button "추가":
+            - img: add
+        - generic "확장 소재 항목":
+          - generic: 사이트링크 6
+          - generic: 권장 크기
+          - button "추가":
+            - img: add
+      - button "사이트링크 수정":
+        - img: edit
+        - text: 수정
+    - button "done 애니메이션 클립 ‪(0)‬ 추가 정보" [expanded]:
+      - generic: 애니메이션 클립 ‪(0)‬
+      - button:
+        - img: help_outline
+      - img: expand_less
+    - region "done 애니메이션 클립 ‪(0)‬ 추가 정보":
+      - button "애니메이션 클립 추가":
+        - img: add
+        - text: 애니메이션 클립
+      - button "애니메이션 클립 생성":
+        - img: photo_filter
+        - generic: 애니메이션 클립 생성
+    - button "done 클릭 유도문안 추가 정보" [expanded]:
+      - img: done
+      - generic: 클릭 유도문안
+      - button:
+        - img: help_outline
+      - img: expand_less
+    - region "done 클릭 유도문안 추가 정보":
+      - button "클릭 유도 문구 텍스트 추가":
+        - generic: 자동
+        - img: arrow_drop_down
+    - heading "애셋 유형 더보기(0/7) 비즈니스 및 웹사이트에 대한 세부정보를 추가하여 광고 실적을 개선하고 광고의 상호작용 기능 향상" [level=2]:
+      - button "애셋 유형 더보기(0/7)":
+        - img: expand_more
+        - generic: 애셋 유형 더보기(0/7)
+      - generic: 비즈니스 및 웹사이트에 대한 세부정보를 추가하여 광고 실적을 개선하고 광고의 상호작용 기능 향상
+    - heading "추가 옵션" [level=2]:
+      - button "추가 옵션":
+        - img: expand_more
+        - generic: 추가 옵션
+    - heading "미리보기" [level=2]
+    - button "기기":
+      - img: phone_android
+      - generic: 모바일
+      - img: arrow_drop_down
+    - button "공유":
+      - generic: 공유
+    - button "더보기":
+      - generic: 더보기
+    - tablist:
+      - tab "searchNetwork" [selected]:
+        - img "검색"
+        - paragraph: 검색
+      - tab "displayNetwork":
+        - img "디스플레이"
+        - paragraph: 디스플레이
+      - tab "youtube":
+        - img "YouTube"
+        - paragraph: YouTube
+      - tab "discover":
+        - img "디스커버"
+        - paragraph: 디스커버
+      - tab "gmail":
+        - img "Gmail"
+        - paragraph: Gmail
+    - button "이전 미리보기" [disabled]:
+      - img: chevron_left
+    - generic: 검색 광고
+    - img: menu
+    - img "Google logo"
+    - img: search
+    - tablist:
+      - tab "All" [disabled] [selected]:
+        - generic: All
+      - tab "Images" [disabled]:
+        - generic: Images
+      - tab "Shopping" [disabled]:
+        - generic: Shopping
+      - tab "Videos" [disabled]:
+        - generic: Videos
+      - tab "News" [disabled]:
+        - generic: News
+    - iframe [id="a6663AAA7-BC4C-4CAE-9A49-3868318C0294--0_preview_c0_v0_380_320_"]:
+      - link "⁦Korea Trip Hub⁩ ⁦www.ktriphub.com/⁩ Korea Travel Made Easy - Start Planning Your Journey":
+        - /url: https://www.google.com:443?sa=X&ved=2ahUKEwjEwI2CnqKXAxVaCH0JHdpgCJUQ0Qx6BAgAEAE
+        - generic: ⁦Korea Trip Hub⁩
+        - generic: ⁦www.ktriphub.com/⁩
+        - heading "Korea Travel Made Easy - Start Planning Your Journey" [level=3]:
+          - link "Korea Travel Made Easy - Start Planning Your Journey"
+      - generic: ⁦Find Korea entry guides for your nationality and prepare your travel checklist. Independent Korea travel information. Confirm requirements with official authorities.⁩
+      - link "⁦Travel Guides⁩":
+        - /url: https://www.google.com:443?sa=X&ved=2ahUKEwjEwI2CnqKXAxVaCH0JHdpgCJUQvrcBegQIABAI
+        - generic: ⁦Travel Guides⁩
+      - link "⁦Getting Around⁩":
+        - /url: https://www.google.com:443?sa=X&ved=2ahUKEwjEwI2CnqKXAxVaCH0JHdpgCJUQvrcBegQIABAK
+        - generic: ⁦Getting Around⁩
+    - button "다음 미리보기":
+      - img: chevron_right
+    - paragraph: 여기에 표시된 미리보기는 예이며 가능한 형식 중 일부만 포함되어 있습니다. 광고 콘텐츠에 대한 책임은 광고주에게 있습니다. 제공하신 애셋이 개별적으로든 조합된 형태로든 Google 정책이나 관련 법률을 위반하지 않는지 확인하세요.
+  - button "이 광고 저장":
+    - generic: 저장
+  - button "이 광고 취소":
+    - generic: 취소
+  - generic: © Google, 2026.
+- heading "빠른 도움말" [level=2]:
+  - generic: 빠른 도움말
+- button "빠른 도움말 패널 닫기":
+  - img: close
+- img: search
+- generic: 빠른 도움말 검색
+- textbox "도움말 콘텐츠 검색"
+- paragraph
+- generic: 이 페이지와 관련됨
+- article:
+  - heading "환불 요청" [level=2]
+  - text: "다음 국가에 대한 정보 표시:"
+  - 'button "다음 국가에 대한 정보 표시: 한국"':
+    - generic: 한국
+    - img: arrow_drop_down
+  - paragraph: Google Ads 계정을 해지하여 계정 크레딧의 환불을 요청할 수 있습니다. 사용했던 기존 은행 계좌 또는 신용카드로 자동으로 환불 처리가 이루어집니다. 이 가이드에서는 잔액을 확인하고, 계정을 해지하고, 환불 절차를 이해하는 방법을 설명합니다.
+  - paragraph:
+    - strong: 이 페이지의 내용
+  - list:
+    - link "자격 요건":
+      - /url: "#eligibility_IN-KR-UA"
+    - link "환불 불가 사유":
+      - /url: "#reasons_refund_unavail_IN-KR-UA"
+    - link "계정을 해지하고 환불을 요청하는 방법":
+      - /url: "#how_to_cancel_trigger_refund_IN-KR-UA"
+    - link "은행 계좌 정보 보내기":
+      - /url: "#send_bank_info_IN-KR-UA"
+    - link "환불 처리 및 조건 이해하기":
+      - /url: "#refund_processing_conditions_IN-KR-UA"
+    - link "자주 묻는 질문(FAQ)":
+      - /url: "#FAQs_IN-KR-UA"
+  - separator
+  - heading "자격 요건" [level=2]: 자격 요건
+  - paragraph: 관리 액세스 권한이 있는 사용자만 Google Ads 계정을 해지하여 환불을 요청할 수 있습니다. 관리 액세스 권한이 없는 경우 환경설정의 '계정 상태'에 '내 계정 해지' 옵션이 표시되지 않습니다. 일반 액세스 권한을 가진 사용자가 계정을 해지하려면 관리자에게 문의해야 합니다.
+  - separator
+  - heading "환불 불가 사유" [level=2]: 환불 불가 사유
+  - paragraph: 다음과 같은 경우에는 환불이 처리되지 않습니다.
+  - list:
+    - listitem: 계정의 잔액이 프로모션 코드로 발생한 잔액인 경우
+    - listitem: 계정이 아직 운영 중인 경우
+    - listitem: 지불해야 할 미결제 잔액이 남아 있는 경우
+  - separator
+  - heading "계정 잔액을 확인하는 방법" [level=2]
+  - text: 계정에 크레딧이 남아 있거나 결제가 필요한 미결제 잔액이 있는지 확인하려면 다음 단계를 따르세요.
+  - paragraph
+  - list:
+    - strong: 결제
+    - text: 메뉴
+    - img "결제 아이콘"
+    - text: 에서
+    - link "요약":
+      - /url: /aw/billing/summary?ocid=8583399281&authuser=0&__u=3871349830&__c=3008694569
+      - strong: 요약
+    - text: 으로 이동합니다.
+    - text: 크레딧이 있는 경우 당월 잔액에 다음과 같이 표시됩니다.
+    - list:
+      - strong: 후불
+      - text: ": 크레딧이 '크레딧 있음'으로 표시됩니다."
+      - strong: 선불
+      - text: ": 크레딧이 '사용 가능한 잔액'으로 표시됩니다."
+    - listitem: 미결제 잔액이 있는 경우 '현재 잔액'으로 표시됩니다.
+  - separator
+  - heading "계정을 해지하고 환불을 요청하는 방법" [level=2]: 계정을 해지하고 환불을 요청하는 방법
+  - strong: 참고
+  - text: ": Google Ads 계정의 관리 액세스 권한이 있는 사용자만 계정을 해지할 수 있습니다. 환경설정의 '계정 상태'에 '내 계정 해지' 옵션이 표시되지 않으면 액세스 수준을 확인하거나 관리자에게 문의하세요."
+  - paragraph
+  - list:
+    - strong: 관리
+    - text: 메뉴
+    - img "관리자 아이콘"
+    - text: 에서
+    - link "환경설정":
+      - /url: /aw/preferences?ocid=8583399281&authuser=0&__u=3871349830&__c=3008694569
+      - strong: 환경설정
+    - text: 으로 이동합니다.
+    - strong: 계정 상태
+    - text: 를 선택하여 펼칩니다.
+    - strong: 내 계정 해지
+    - text: 를 선택합니다.
+    - strong: "처리 대기:"
+    - text: 기존에 사용했던 은행 계좌 또는 신용카드로 환불이 자동으로 처리됩니다. 해당 결제 수단을 더 이상 사용할 수 없는 경우 Google Ads 계정의 단계에 따라 환불을 위한 새 결제 수단을 제공해야 할 수 있습니다.
+    - strong: 참고
+    - text: ": 대한민국, 타이완, 아르헨티나, 멕시코의 고객이 환불을 받으려면 계정에서 추가 양식을 작성해야 합니다. 계정을 해지한 후 계정에 표시되는 안내를 따르세요."
+  - paragraph: 계정 상태가 '계정이 해지되었습니다. 이 계정의 광고가 게재되지 않고 있습니다.'로 변경됩니다. 광고 게재는 해지 후 24시간 이내에 중단되지만 데이터에는 계속 액세스할 수 있습니다.
+  - paragraph: 마음이 바뀌면 계정에 로그인하여 안내에 따라 계정을 재활성화할 수 있습니다. 그런 다음 결제 정보를 업데이트하고 결제하면 광고가 다시 게재되기 시작합니다.
+  - separator
+  - heading "은행 계좌 정보 보내기" [level=2]: 은행 계좌 정보 보내기
+  - paragraph: 계정을 해지했지만 은행 세부정보를 제공하지 않은 경우 환불을 처리하려면 은행 세부정보가 필요합니다. 아래 정보 중 누락된 정보가 있는 경우 은행에 문의하세요.
+  - paragraph:
+    - strong: 필수 은행 정보
+    - text: ":"
+  - list:
+    - listitem: Google Ads 고객 ID
+    - listitem: 은행 계좌의 예금주 이름
+    - listitem: 은행 계좌 번호
+    - listitem: 지점 코드
+    - listitem: 은행 코드
+    - listitem: 은행 주소
+    - listitem: 은행 SWIFT 코드
+    - listitem: 서명
+  - paragraph: 모든 세부정보를 확인한 후 Google 결제 대행업체 중 한 곳에 팩스로 보내세요.
+  - paragraph: 아일랜드 더블린 번호로 팩스를 보내려면 다음 사항에 유의하시기 바랍니다.
+  - list:
+    - listitem: "국제 전화 코드: 팩스 번호의 +는 거주 국가의 국제 전화 코드를 나타냅니다. 예를 들어 영국을 포함한 많은 국가에서 '00'을 사용합니다. 거주 국가의 국제 전화 코드를 모르는 경우 전화 서비스 회사에 문의하세요. '353'은 아일랜드로 전화할 때 눌러야 하는 국가 식별 번호입니다."
+    - listitem: 거주 국가에서 팩스를 보내려면 '+'에 해당하는 식별 번호를 입력한 다음 353 1 633 5884를 입력합니다. '1' 대신 '01'을 누르면 안 됩니다.
+  - paragraph: 아일랜드 이외 지역 거주자는 다음 지시를 따르세요.
+  - list:
+    - listitem: "미국 본사: +1 650 653 2520"
+    - listitem: "미국 이외 지역 본사(아일랜드 더블린): +353 1 633 5884"
+  - paragraph: 아일랜드 거주자는 01-633-5884를 누르면 됩니다.
+  - paragraph: 위 팩스 번호는 은행 정보를 수신하는 용도로만 사용됩니다. Google의 결제 대행업체는 광고주가 이 정보와 함께 보내는 어떠한 질문에도 답변하지 않습니다.
+  - separator
+  - heading "환불 처리 및 조건 이해하기" [level=2]: 환불 처리 및 조건 이해하기
+  - paragraph: 계정이 해지되면 Google에서 환불 절차를 자동으로 시작합니다.
+  - paragraph:
+    - strong: 환불 처리 시간
+    - text: ": Google에서 환불을 처리하는 데 최대 2주가 소요되지만, 은행 또는 신용카드 회사의 내부 절차에 따라 계좌에 환불금이 입금되기까지 영업일 기준 10일이 추가로 소요될 수 있습니다. 다만 송금으로 결제한 경우 환불 처리를 위해 은행 세부정보를 제공해야 합니다."
+  - paragraph:
+    - text: 6주 이상 지나도 잔액이 환불되지 않은 경우
+    - link "Google에 문의":
+      - /url: https://support.google.com/google-ads/gethelp
+    - text: 하세요.
+  - separator
+  - heading "자주 묻는 질문(FAQ)" [level=2]: 자주 묻는 질문(FAQ)
+  - heading "기존 결제 수단이 더 이상 유효하지 않다면 어떻게 해야 하나요?" [level=2]:
+    - button "기존 결제 수단이 더 이상 유효하지 않다면 어떻게 해야 하나요?":
+      - text: 기존 결제 수단이 더 이상 유효하지 않다면 어떻게 해야 하나요?
+      - img: expand_more
+  - heading "환불 금액이 총 크레딧보다 적은 이유는 무엇인가요?" [level=2]:
+    - button "환불 금액이 총 크레딧보다 적은 이유는 무엇인가요?":
+      - text: 환불 금액이 총 크레딧보다 적은 이유는 무엇인가요?
+      - img: expand_more
+  - heading "환불 요청을 취소할 수 있나요?" [level=2]:
+    - button "환불 요청을 취소할 수 있나요?":
+      - text: 환불 요청을 취소할 수 있나요?
+      - img: expand_more
+  - heading "관련 링크" [level=3]
+  - list:
+    - link "해지된 Google Ads 계정 재활성화":
+      - /url: //support.google.com/google-ads/answer/2375392
+    - link "Google Ads 계정 해지":
+      - /url: //support.google.com/google-ads/answer/2424604
+- button "환불 요청에 관해 자세히 알아보기":
+  - generic "환불 요청에 관해 자세히 알아보기": 더보기
+- menu "section-content":
+  - menuitem "도움말 Google Ads 캠페인에서 광고가 게재되지 않거나 트래픽이 적은 문제를 해결하는 방법":
+    - img "도움말":
+      - img: article
+    - generic: Google Ads 캠페인에서 광고가 게재되지 않거나 트래픽이 적은 문제를 해결하는 방법
+  - menuitem "도움말 비승인 광고 수정 또는 정책 결정에 대한 이의신청":
+    - img "도움말":
+      - img: article
+    - generic: 비승인 광고 수정 또는 정책 결정에 대한 이의신청
+  - menuitem "도움말 Google Ads 청구 내역에 대해 이의를 제기하는 방법":
+    - img "도움말":
+      - img: article
+    - generic: Google Ads 청구 내역에 대해 이의를 제기하는 방법
+  - menuitem "도움말 고객 매치 타겟팅 세그먼트과 관련된 문제 문의하기":
+    - img "도움말":
+      - img: article
+    - generic: 고객 매치 타겟팅 세그먼트과 관련된 문제 문의하기
+- generic: 다른 도움이 필요하신가요?
+- menu "more-help-section":
+  - menuitem "의견 남기기":
+    - img: feedback
+    - generic: 의견 남기기
+  - menuitem "도움말 커뮤니티에 물어보세요":
+    - img: question_answer
+    - text: 도움말 커뮤니티에 물어보세요
+    - img: open_in_new
+  - menuitem "새 기능 및 공지사항":
+    - img: new_releases
+    - text: 새 기능 및 공지사항
+    - img: open_in_new
+  - menuitem "단계별 안내":
+    - img: outlined_flag
+    - generic: 단계별 안내
+  - menuitem "문의하기":
+    - img: headset_mic
+    - generic: 문의하기
+  - menuitem "키보드 단축키":
+    - img: keyboard
+    - generic: 키보드 단축키
+- dialog:
+  - heading [level=1]: Turn off ad blockers
+  - paragraph: Google Ads can't work when you're using an ad blocker. To use Google Ads, please turn off any ad blockers for now.
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자":
+  - generic: · · · · · · · · · · · check_circle
+- dialog "대화상자"
+- dialog "대화상자":
+  - generic: · · · · · · · ·
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자":
+  - generic: info
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"
+- dialog "대화상자"

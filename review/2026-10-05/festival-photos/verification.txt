@@ -1,0 +1,10 @@
+Festival photographs — 2026-10-05, commit 637ccdc
+Photographs visually inspected before use. Asfreeas: Jinju 2011 CC BY 3.0; 399scout: Busan Cinema Center 2015 CC BY-SA 4.0; RedMosQ: Busan Fireworks 2008 CC BY-SA 2.0 KR. Source/author/license recorded in data/festival-images.json and public/img/CREDITS.md, visible inline including archive year and resize/display crop disclosure in all 12 locales. Derivatives retain source license.
+Served locally in 1000px/500px WebP pairs; no hotlink or third-party video auto-play. Largest card files: 67184 / 89502 / 40962 bytes. Source originals retained in G review folder. BIFF 2020 - 03 sample excluded because dominant old event signage.
+Saved user media direction in AGENTS.md for future updates; all source modifications and public image files mirrored to G.
+Facts update: none, event dates/content/tracking unchanged.
+npm run build passed: 2082 pages, 12-locale and 6 festival/partner tests passed, SEO 0 errors / 160 existing warnings. Deployment/live checks pending.
+Final correction commit 393edce: image positioned within explicit 200px frame, ensuring all source aspect ratios fill the same box. Final npm build passed and both GitHub build / Cloudflare Workers Builds succeeded.
+Live Chrome confirmed all 3 photos load, archive years and licenses displayed, photo and frame heights exactly 200px. Desktop booking and Stay22 start positions equal across all 3 cards.
+Mobile verification on original tab at actual 520px: one 460px grid column, photo/frame 200px for all 3, no card horizontal overflow. Temporary viewport reset afterward.
+Screenshot backend timed out for normal and clipped capture, so no screenshot artifact is claimed. Read-only live DOM geometry and visible content checks above succeeded. Source photos were separately visually inspected.

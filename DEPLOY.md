@@ -1,5 +1,28 @@
 # DEPLOY — Korea Trip Hub
 
+## GPT-6 채팅 연동 (2026-10-04)
+
+`worker/index.js`의 `/api/chat`은 서버에 `OPENAI_API_KEY`가 있으면
+Responses API의 `gpt-6-luna`를 우선 사용한다. 짧은 여행 도움말 채팅의 비용과
+응답 시간을 고려해 `reasoning.effort: "none"`, 최대 출력 700토큰으로 설정했다.
+OpenAI 실패 시 기존 Claude Haiku, Workers AI 순서로 사용 가능한 공급자를 시도한다.
+키가 없으면 기존 공급자 경로가 유지된다. 사용자에게 반환하는 형식은 `{ reply }`다.
+
+로컬 키는 `.dev.vars`의 `OPENAI_API_KEY`에 저장한다. 이 파일은 Git에서 제외된다.
+`next dev`는 정적 프런트엔드 개발용이며 Worker API를 실행하지 않는다.
+전체 빌드 후 Cloudflare Worker 개발 서버를 실행해야 로컬 `/api/chat`을 사용할 수 있다.
+
+운영에서는 Cloudflare Worker의 secret으로 `OPENAI_API_KEY`를 별도 등록해야 한다.
+로컬 `.dev.vars`가 자동으로 운영 환경에 전송되지는 않는다. 키를 `NEXT_PUBLIC_*`,
+`wrangler.jsonc`의 공개 vars, 사이트 JavaScript 또는 Git 저장소에 넣지 않는다.
+정적 Pages 배포만으로는 이 Worker의 API 변경이 적용되지 않는다.
+
+검증: `npm run test:chat`, `npm run build`.
+되돌리기: 운영 `OPENAI_API_KEY` secret을 제거하면 기존 공급자 경로로 복귀한다.
+이번 변경에는 운영 배포와 secret 등록이 포함되지 않았다.
+
+---
+
 정적 사이트(Next.js `output: "export"`)를 **Cloudflare Pages**에 올리고 **ktriphub.com**을 연결하는 순서.
 kpophub와 동일한 정적 배포 방식.
 

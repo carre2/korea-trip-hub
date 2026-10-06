@@ -1,0 +1,34 @@
+{
+  "checked": "2026-10-05",
+  "scope": "K-ETA guidance across the visa hub and 22 nationality guides in all 12 active locales; Indonesia policy details verified separately. Other countries' complete visa document lists and fees were not reverified in this audit.",
+  "changes": [
+    "Visa-required ordinary passports receive explicit K-ETA ineligibility, visa-not-replaced and age-exemption-not-visa-waiver guidance.",
+    "All 22 nationality guides appear in the hub, including Thailand and Malaysia. Display language and passport nationality are separate.",
+    "K-ETA rule fact boxes on the hub start collapsed and are labeled for eligible visa-free passports.",
+    "Indonesia designated-agency group program: 3 or more, maximum 15 days, 2026-05-28 through 2026-12-31; independent friends do not qualify. Korean organizer list submission: air 24 hours, sea 36 hours before arrival.",
+    "Indonesia KVAC processing: single/double 10 working days, multiple 7, eligible express 5; additional assessment can extend this. Flights/hotel reservations are not mandatory for visa assessment.",
+    "Indonesia KVAC fees effective 2026-07-01: IDR 920,000 ordinary short single total, IDR 1,770,000 multiple total, including IDR 240,000 service fee. Eligible 5/10-year multiple visas: 30 days per visit.",
+    "C-3-2 eligible group USD 15 visa issuance fee waiver through 2026-12-31 is separate from visa-free entry and agency/service fees.",
+    "Short-term visa e-Arrival Card requirement and exceptions are distinguished from K-ETA. Jeju conditions are consistent in highlights and FAQ. KVAC Jakarta location is displayed."
+  ],
+  "officialSources": [
+    "https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN",
+    "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
+    "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+    "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
+    "https://immigration.go.kr/bbs/immigration/214/495139/download.do",
+    "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
+    "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
+    "https://www.visaforkorea-in.com/id-ID/customer/faq",
+    "https://www.visaforkorea-in.com/id-ID/visa-center/location",
+    "https://overseas.mofa.go.kr/gr-en/brd/m_22348/view.do?seq=59"
+  ],
+  "languageSwitchVerified": {
+    "commit": "8c139f9",
+    "production": "success",
+    "translationChoice": "/ja/visa/vietnam/",
+    "passportChoice": "/ja/visa/japan/",
+    "cancel": "Original URL retained, dialog closed"
+  },
+  "deployment": "5aeb193: GitHub CI success; Cloudflare Workers success; production Chrome nationality picker and guide verified; hub and Indonesia guide HTTP 200. Reported 403 not reproduced."
+}

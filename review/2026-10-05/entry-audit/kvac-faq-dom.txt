@@ -1,0 +1,241 @@
+- main:
+  - link "visa center logo Pusat Aplikasi Visa Korea di Jakarta":
+    - /url: /id-ID
+    - img "visa center logo"
+    - paragraph: Pusat Aplikasi Visa Korea
+    - paragraph: di Jakarta
+  - navigation:
+    - list:
+      - link "Profil Pusat Aplikasi Visa":
+        - /url: /id-ID/visa-center/intro#top
+      - list
+      - link "Permohonan & Informasi Visa":
+        - /url: /id-ID/visa-guide#top
+      - list
+      - link "Visa Diterbitkan":
+        - /url: https://www.visa.go.kr/openPage.do?MENU_ID=10301
+      - list
+      - link "Layanan Informasi":
+        - /url: /id-ID/customer/notice#top
+      - list
+  - button "IDN":
+    - generic: IDN
+  - article:
+    - article:
+      - figure:
+        - img "customer page banner"
+    - link "Pengumuman":
+      - /url: /id-ID/customer/notice#customer-title
+      - button "Pengumuman":
+        - paragraph: Pengumuman
+    - link "FAQ":
+      - /url: /id-ID/customer/faq#customer-title
+      - button "FAQ":
+        - paragraph: FAQ
+    - link "Tanya & Jawab":
+      - /url: /id-ID/customer/qna#customer-title
+      - button "Tanya & Jawab":
+        - paragraph: Tanya & Jawab
+    - link "Konsultasi 1:1":
+      - /url: /id-ID/customer/inquiry#customer-title
+      - button "Konsultasi 1:1":
+        - paragraph: Konsultasi 1:1
+  - heading "FAQ" [level=1]
+  - combobox:
+    - generic: Judul
+  - combobox
+  - textbox "Silakan masukkan kata kunci."
+  - button:
+  - table:
+    - rowgroup:
+      - row "1. Di mana saya harus mengajukan permohonan visa Korea? Q.":
+        - cell
+        - cell
+        - cell "1. Di mana saya harus mengajukan permohonan visa Korea? Q.":
+          - generic: "1."
+          - text: Di mana saya harus mengajukan permohonan visa Korea? Q.
+      - row "2. Kapan waktu operasional Korea Visa Application Center (KVAC)? Q.":
+        - cell
+        - cell
+        - cell "2. Kapan waktu operasional Korea Visa Application Center (KVAC)? Q.":
+          - generic: "2."
+          - text: Kapan waktu operasional Korea Visa Application Center (KVAC)? Q.
+      - row "3. Berapa biaya pengajuan visa? Q.":
+        - cell
+        - cell
+        - cell "3. Berapa biaya pengajuan visa? Q.":
+          - generic: "3."
+          - text: Berapa biaya pengajuan visa? Q.
+      - 'row "4. Berapa lama periode penerbitan visa? Q. A. ☞ Perkiraan waktu penerbitan visa (termasuk tanggal pengajuan; hari libur di tengah proses tidak dihitung) Visa Single / Double : 10 hari kerja Visa Single / Double / Multiple ekspres (khusus kategori C-3): 5 hari kerja Visa Multiple: 7 hari kerja Visa melalui Calling Visa: 5 hari kerja Visa Menikah: Maksimal dalam 3 bulan ※ Ini hanyalah perkiraan waktu proses. Jika diperlukan dokumen tambahan atau wawancara untuk pemeriksaan visa, penerbitan visa dapat tertunda, sehingga harap mengajukan dengan waktu yang cukup. (Untuk pemeriksaan visa, tidak wajib melampirkan tiket pesawat atau bukti reservasi hotel)"':
+        - cell
+        - cell
+        - 'cell "4. Berapa lama periode penerbitan visa? Q. A. ☞ Perkiraan waktu penerbitan visa (termasuk tanggal pengajuan; hari libur di tengah proses tidak dihitung) Visa Single / Double : 10 hari kerja Visa Single / Double / Multiple ekspres (khusus kategori C-3): 5 hari kerja Visa Multiple: 7 hari kerja Visa melalui Calling Visa: 5 hari kerja Visa Menikah: Maksimal dalam 3 bulan ※ Ini hanyalah perkiraan waktu proses. Jika diperlukan dokumen tambahan atau wawancara untuk pemeriksaan visa, penerbitan visa dapat tertunda, sehingga harap mengajukan dengan waktu yang cukup. (Untuk pemeriksaan visa, tidak wajib melampirkan tiket pesawat atau bukti reservasi hotel)"':
+          - generic: "4."
+          - text: Berapa lama periode penerbitan visa? Q.
+          - generic: A.
+          - paragraph: ☞ Perkiraan waktu penerbitan visa (termasuk tanggal pengajuan; hari libur di tengah proses tidak dihitung)
+          - table:
+            - rowgroup:
+              - 'row "Visa Single / Double : 10 hari kerja"':
+                - 'cell "Visa Single / Double : 10 hari kerja"':
+                  - paragraph: "Visa Single / Double : 10 hari kerja"
+                - cell:
+                  - paragraph
+              - 'row "Visa Single / Double / Multiple ekspres (khusus kategori C-3): 5 hari kerja"':
+                - 'cell "Visa Single / Double / Multiple ekspres (khusus kategori C-3): 5 hari kerja"':
+                  - paragraph: "Visa Single / Double / Multiple ekspres (khusus kategori C-3): 5 hari kerja"
+                - cell:
+                  - paragraph
+              - 'row "Visa Multiple: 7 hari kerja"':
+                - 'cell "Visa Multiple: 7 hari kerja"':
+                  - paragraph: "Visa Multiple: 7 hari kerja"
+                - cell:
+                  - paragraph
+              - 'row "Visa melalui Calling Visa: 5 hari kerja"':
+                - 'cell "Visa melalui Calling Visa: 5 hari kerja"':
+                  - paragraph: "Visa melalui Calling Visa: 5 hari kerja"
+                - cell:
+                  - paragraph
+              - 'row "Visa Menikah: Maksimal dalam 3 bulan"':
+                - 'cell "Visa Menikah: Maksimal dalam 3 bulan"':
+                  - paragraph: "Visa Menikah: Maksimal dalam 3 bulan"
+                - cell:
+                  - paragraph
+          - paragraph
+          - paragraph: ※ Ini hanyalah perkiraan waktu proses. Jika diperlukan dokumen tambahan atau wawancara untuk pemeriksaan visa, penerbitan visa dapat tertunda, sehingga harap mengajukan dengan waktu yang cukup.
+          - paragraph
+          - paragraph: (Untuk pemeriksaan visa, tidak wajib melampirkan tiket pesawat atau bukti reservasi hotel)
+      - row "5. Apakah ada batasan jumlah transaksi (saldo) dalam dokumen keuangan? Q.":
+        - cell
+        - cell
+        - cell "5. Apakah ada batasan jumlah transaksi (saldo) dalam dokumen keuangan? Q.":
+          - generic: "5."
+          - text: Apakah ada batasan jumlah transaksi (saldo) dalam dokumen keuangan? Q.
+      - row "6. Dokumen apa yang perlu saya siapkan untuk pengajuan visa wisata? Q.":
+        - cell
+        - cell
+        - cell "6. Dokumen apa yang perlu saya siapkan untuk pengajuan visa wisata? Q.":
+          - generic: "6."
+          - text: Dokumen apa yang perlu saya siapkan untuk pengajuan visa wisata? Q.
+      - row "7. Di mana saya bisa mendapatkan formulir aplikasi visa Korea? Q.":
+        - cell
+        - cell
+        - cell "7. Di mana saya bisa mendapatkan formulir aplikasi visa Korea? Q.":
+          - generic: "7."
+          - text: Di mana saya bisa mendapatkan formulir aplikasi visa Korea? Q.
+      - row "8. Berapa banyak foto yang diperlukan untuk aplikasi visa dan apa spesifikasinya? Q.":
+        - cell
+        - cell
+        - cell "8. Berapa banyak foto yang diperlukan untuk aplikasi visa dan apa spesifikasinya? Q.":
+          - generic: "8."
+          - text: Berapa banyak foto yang diperlukan untuk aplikasi visa dan apa spesifikasinya? Q.
+      - row "9. Metode pembayaran apa yang dapat digunakan saat pengajuan visa? Q.":
+        - cell
+        - cell
+        - cell "9. Metode pembayaran apa yang dapat digunakan saat pengajuan visa? Q.":
+          - generic: "9."
+          - text: Metode pembayaran apa yang dapat digunakan saat pengajuan visa? Q.
+      - row "10. Di mana mengetahui jenis visa yang sesuai dengan tujuan kunjungan saya? Q.":
+        - cell
+        - cell
+        - cell "10. Di mana mengetahui jenis visa yang sesuai dengan tujuan kunjungan saya? Q.":
+          - generic: "10."
+          - text: Di mana mengetahui jenis visa yang sesuai dengan tujuan kunjungan saya? Q.
+      - row "11. Dapatkah saya mengajukan visa dengan masa berlaku paspor kurang dari enam bulan? Q.":
+        - cell
+        - cell
+        - cell "11. Dapatkah saya mengajukan visa dengan masa berlaku paspor kurang dari enam bulan? Q.":
+          - generic: "11."
+          - text: Dapatkah saya mengajukan visa dengan masa berlaku paspor kurang dari enam bulan? Q.
+      - row "12. Apakah pengajuan visa dapat diwakilkan oleh semua orang? Q.":
+        - cell
+        - cell
+        - cell "12. Apakah pengajuan visa dapat diwakilkan oleh semua orang? Q.":
+          - generic: "12."
+          - text: Apakah pengajuan visa dapat diwakilkan oleh semua orang? Q.
+      - row "13. Apakah mungkin untuk mengajukan dan menerima visa melalui Pos? Q.":
+        - cell
+        - cell
+        - cell "13. Apakah mungkin untuk mengajukan dan menerima visa melalui Pos? Q.":
+          - generic: "13."
+          - text: Apakah mungkin untuk mengajukan dan menerima visa melalui Pos? Q.
+      - row "14. Apakah saya harus datang pada saat saya mendapatkan visa? Q.":
+        - cell
+        - cell
+        - cell "14. Apakah saya harus datang pada saat saya mendapatkan visa? Q.":
+          - generic: "14."
+          - text: Apakah saya harus datang pada saat saya mendapatkan visa? Q.
+      - row "15. Apakah ada masa berlaku dari visa Korea saya? Q.":
+        - cell
+        - cell
+        - cell "15. Apakah ada masa berlaku dari visa Korea saya? Q.":
+          - generic: "15."
+          - text: Apakah ada masa berlaku dari visa Korea saya? Q.
+      - row "16. Bisakah saya mengajukan permohonan kembali setelah visa saya ditolak? Q.":
+        - cell
+        - cell
+        - cell "16. Bisakah saya mengajukan permohonan kembali setelah visa saya ditolak? Q.":
+          - generic: "16."
+          - text: Bisakah saya mengajukan permohonan kembali setelah visa saya ditolak? Q.
+      - row "17. Bisakah saya mendapatkan kembali biaya dan dokumen ketika visa ditolak? Q.":
+        - cell
+        - cell
+        - cell "17. Bisakah saya mendapatkan kembali biaya dan dokumen ketika visa ditolak? Q.":
+          - generic: "17."
+          - text: Bisakah saya mendapatkan kembali biaya dan dokumen ketika visa ditolak? Q.
+      - row "18. Bisakah saya mendapatkan visa jika saya pernah tinggal di Korea Selatan secara ilegal? Q.":
+        - cell
+        - cell
+        - cell "18. Bisakah saya mendapatkan visa jika saya pernah tinggal di Korea Selatan secara ilegal? Q.":
+          - generic: "18."
+          - text: Bisakah saya mendapatkan visa jika saya pernah tinggal di Korea Selatan secara ilegal? Q.
+      - row "19. Jika saya mendapat visa, apakah saya pasti bisa masuk ke Korea? Q.":
+        - cell
+        - cell
+        - cell "19. Jika saya mendapat visa, apakah saya pasti bisa masuk ke Korea? Q.":
+          - generic: "19."
+          - text: Jika saya mendapat visa, apakah saya pasti bisa masuk ke Korea? Q.
+      - row "20. Jika pengajuan visa jangka panjang, apakah harus menyerahkan sertifikat medis tuberkulosis? Q.":
+        - cell
+        - cell
+        - cell "20. Jika pengajuan visa jangka panjang, apakah harus menyerahkan sertifikat medis tuberkulosis? Q.":
+          - generic: "20."
+          - text: Jika pengajuan visa jangka panjang, apakah harus menyerahkan sertifikat medis tuberkulosis? Q.
+      - row "21. Saya memiliki visa Korea yang valid dan kehilangan paspor. Bagaimana cara saya pergi ke Korea? Q.":
+        - cell
+        - cell
+        - cell "21. Saya memiliki visa Korea yang valid dan kehilangan paspor. Bagaimana cara saya pergi ke Korea? Q.":
+          - generic: "21."
+          - text: Saya memiliki visa Korea yang valid dan kehilangan paspor. Bagaimana cara saya pergi ke Korea? Q.
+      - row "22. Saya mengajukan permohonan visa. Bagaimana saya memantau status visa saya? Q.":
+        - cell
+        - cell
+        - cell "22. Saya mengajukan permohonan visa. Bagaimana saya memantau status visa saya? Q.":
+          - generic: "22."
+          - text: Saya mengajukan permohonan visa. Bagaimana saya memantau status visa saya? Q.
+      - row "23. Apa yang harus saya lakukan jika saya membutuhkan paspor saya setelah mengajukan visa? Q.":
+        - cell
+        - cell
+        - cell "23. Apa yang harus saya lakukan jika saya membutuhkan paspor saya setelah mengajukan visa? Q.":
+          - generic: "23."
+          - text: Apa yang harus saya lakukan jika saya membutuhkan paspor saya setelah mengajukan visa? Q.
+      - row "24. Apakah saya masih bisa menggunakan visa aktif pada paspor lama? Q.":
+        - cell
+        - cell
+        - cell "24. Apakah saya masih bisa menggunakan visa aktif pada paspor lama? Q.":
+          - generic: "24."
+          - text: Apakah saya masih bisa menggunakan visa aktif pada paspor lama? Q.
+  - link "visa center logo Pusat Aplikasi Visa Korea di Jakarta":
+    - /url: /id-ID
+    - img "visa center logo"
+    - paragraph: Pusat Aplikasi Visa Korea
+    - paragraph: di Jakarta
+  - link "Syarat dan Ketentuan":
+    - /url: /id-ID/terms#terms-privacy-policy-h1
+  - link "Kebijakan Privasi":
+    - /url: /id-ID/privacy-policy#terms-privacy-policy-h1
+  - text: Lotte Mall Ciputra World 1 Unit 5F-05A LT. 05
+  - generic: Jl. Prof. DR. Satrio No.1, RT.18/RW.4, Kuningan, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12940 Indonesia
+  - generic: "TEL: 021-3007-7166 | E-mail: info@visaforkorea-in.com"
+  - text: Copyright@2019 PT. KOREA VISA CENTER JAKARTA All Rights Reserved
+- alert

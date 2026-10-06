@@ -1,0 +1,13 @@
+PC 공유 접근성 개선
+원인: 공유 메뉴는 본문 및 푸터 하단에 있었으며 PC에서는 기본 앱 공유 API가 없을 수도 있음.
+수정: PC 상단 Share 버튼 및 공유 대화상자. 작은 휴대폰 화면은 햄버거 메뉴에 공유 항목.
+12개 언어 버튼/닫기 번역. 기존 여행 일정 전용 공유 유지.
+facts 갱신 없음.
+검증: test:audit 17개 통과. 빌드/배포 진행 중.
+빌드 통과: SEO 오류 0, 기존 경고 160. 커밋 890d973 main push 완료.
+배포 완료: 890d973, GitHub build 및 Cloudflare Workers Builds 모두 success.
+Chrome 운영 페이지 /en/plan/airport/ 상단 Share 버튼 확인.
+공유창 열기/닫기/다시 열기 정상 확인.
+WeChat 메시지 복사 성공 안내와 본문 확인: Airport → City + https://ktriphub.com/en/plan/airport/
+PC Chrome 화면 요소로 기능 검증. 스크린샷 캡처는 브라우저 시간 초과로 저장하지 못함.
+휴대폰 실기 검증은 이번 작업에서 수행하지 않음.

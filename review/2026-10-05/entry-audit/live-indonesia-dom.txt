@@ -1,0 +1,513 @@
+- link "Langsung ke konten":
+  - /url: "#main"
+- banner:
+  - link "◆ Korea Trip Hub":
+    - /url: /id/
+    - generic: ◆
+    - text: Korea
+    - generic: Trip
+    - text: Hub
+  - navigation "Buka menu":
+    - link "Masuk Korea & visa":
+      - /url: /id/plan/visa/
+    - link "Hari pertama":
+      - /url: /id/plan/airport/
+    - link "Destinasi & kuliner":
+      - /url: /id/destinations/
+    - link "Lanjutkan persiapan":
+      - /url: /id/guides/
+    - link "K-pop & Festival Korea":
+      - /url: /id/festivals/
+    - link "Rencana":
+      - /url: /id/itinerary/
+    - link "Perjalananku":
+      - /url: /id/#planner
+    - link "Bantuan":
+      - /url: /id/plan/help/
+  - button "Bagikan":
+    - generic: Bagikan
+  - generic "Bahasa":
+    - generic: 🌐
+    - combobox "Bahasa":
+      - option "English"
+      - option "中文 (简体)"
+      - option "中文 (繁體)"
+      - option "日本語"
+      - option "Tiếng Việt"
+      - option "ไทย"
+      - option "Bahasa Indonesia" [selected]
+      - option "Español"
+      - option "Bahasa Melayu"
+      - option "한국어"
+      - option "Русский"
+      - option "Français"
+  - button "Ganti tema": ◐
+- main:
+  - navigation "Isi halaman ini":
+    - generic "Isi halaman ini"
+  - generic: 💕
+  - generic: 🛂
+  - generic: Masuk Korea & visa
+  - generic: 🌷 ✨
+  - article:
+    - link "← Visa & K-ETA":
+      - /url: /id/plan/visa/
+    - generic: 🇮🇩
+    - heading "Visa Korea untuk warga Indonesia" [level=1]
+    - generic: Panduan visa · Indonesia → Korea
+    - generic: ⏱ baca 8 menit
+    - generic: · Diperbarui 2026-10-05
+    - generic: RINGKASAN
+    - list:
+      - listitem: ▸ Wisatawan mandiri memerlukan visa turis C-3 untuk Korea daratan.
+      - listitem: ▸ Isi formulir di visa.go.kr, lalu ajukan di Kedutaan Besar Korea / KVAC Jakarta.
+      - listitem: ▸ Bawa paspor, foto, rekening koran 3 bulan, surat keterangan kerja + slip gaji.
+      - listitem: "▸ Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."
+    - 'figure "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0"':
+      - img "Arrivals at Incheon International Airport"
+      - 'link "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0"':
+        - /url: https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg
+    - heading "Visa, K-ETA, dan deklarasi kedatangan berbeda" [level=3]
+    - insertion:
+      - iframe [id="aswift_1"] [name="aswift_1"]:
+        - link:
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C2r8ESYjDateGN4aB4dkPj9bmiQybrLvhgwGO_7mTiBbAjbcBEAEg8NTFnQFgm7vnhKgpoAGi2r2TQsgBCakC4D99lFGJCT6oAwHIA8sEqgSgAk_QSGytjB4XLkMUJGdxPka548hD1KJl4h4PLJ7-pWEXxMggcXoG7yChfO9ku2fqnmKCOx0u6kpR3_ytlXfUsqjJrJYTJyGRD3d_96mrvgMXxAsHPoeecpQCNPt2fVfbBDRSckFEI_VwCXTzC1jZuNH2l5KZo5MdAMLfVXZw5SeurY3lOQA9t_TiF3ydXC6mASpRZ6KvF6BvpOTu66fcRLfVqLsOctimNjx18nS7N_OPC9lVg_kPdEriB_0KmPxwZ4knTolsKwDH8sW4cD8f3YYgQxiU0KqkJj7_s2dkYzmwjtZcDbwqtzX0DgrO1KiAkcBGcskn-ipM4jFVoKF1iLOk7ml-NuSu301aS_ZduUpPswIQX2A1RSYfIT2rzdJ34sAExPG1vcEFiAWjkuXrVqAGLoAHopKO8xyoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB6brsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDMIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOAGEi9_cE6WLGm5rLhopcDYAGxCa-DHokLV4qEgAoBmAsByAsBgAwBqg0CS1LIDQHqDRMIhdPmsuGilwMVhkA4BR0PqznB8A0CiA4JsA7bz6XdGKITVAo3CANAAVIICgYSBAgBEAFoxvy5nC1yIRIfIAIoATgCQKOS5etWWAFo_v__________AYABAZgBAxoZChdjYS1wdWItMjA2NzkzNDI4MTU5ODc2ObgT5APYEwvQFQHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICq1wYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIl8_msuGilwMVhkA4BR0PqznBEAEYASAAEgLJv_D_BwE&num=1&cid=CAQShgIAQM4h3KrDHORr3v0mIclK2OSt_fHHUcuXICdSzB87gw3ZLMcE5kBYYQaTg-BJh9bI-yYADu4nS7Dcq9pgvDXgYseuAJ671SLA2mp_3E8fr2rAzvpZG1pB01qAjUJllfkFMx5wOCB9kmSLU7AcxsDSGwZ431gEKWyxpElN3I8-64xuFc8PlwlztLqFM1WdsJ9w-aMHN-FEbr5hTp2l_d5SAF_1dfPtxHyd9c6k1OzgdoZhZVPBYU8TE8f5SttCaQNwSrXNtwo6SdNIjLXp2gw_jHID5jIP0gT1_Lo9oIXfGJM4V3NDVkW9Z3DO2caZ0gnkVR8bfm7L4VxNfZqUWIM0A4Y41FYWGAE&sig=AOD64_1V3ObZjU-r0ThszXLnLWmMvwvSMg&client=ca-pub-2067934281598769&rf=1&nb=9&adurl=https://www.carlostour.com/%3Fgad_source%3D5%26gad_campaignid%3D23311501603%26gclid%3DEAIaIQobChMIl8_msuGilwMVhkA4BR0PqznBEAEYASAAEgLJv_D_BwE
+        - link "12인 소규모 프라이빗 투어":
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C2r8ESYjDateGN4aB4dkPj9bmiQybrLvhgwGO_7mTiBbAjbcBEAEg8NTFnQFgm7vnhKgpoAGi2r2TQsgBCakC4D99lFGJCT6oAwHIA8sEqgSgAk_QSGytjB4XLkMUJGdxPka548hD1KJl4h4PLJ7-pWEXxMggcXoG7yChfO9ku2fqnmKCOx0u6kpR3_ytlXfUsqjJrJYTJyGRD3d_96mrvgMXxAsHPoeecpQCNPt2fVfbBDRSckFEI_VwCXTzC1jZuNH2l5KZo5MdAMLfVXZw5SeurY3lOQA9t_TiF3ydXC6mASpRZ6KvF6BvpOTu66fcRLfVqLsOctimNjx18nS7N_OPC9lVg_kPdEriB_0KmPxwZ4knTolsKwDH8sW4cD8f3YYgQxiU0KqkJj7_s2dkYzmwjtZcDbwqtzX0DgrO1KiAkcBGcskn-ipM4jFVoKF1iLOk7ml-NuSu301aS_ZduUpPswIQX2A1RSYfIT2rzdJ34sAExPG1vcEFiAWjkuXrVqAGLoAHopKO8xyoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB6brsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDMIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOAGEi9_cE6WLGm5rLhopcDYAGxCa-DHokLV4qEgAoBmAsByAsBgAwBqg0CS1LIDQHqDRMIhdPmsuGilwMVhkA4BR0PqznB8A0CiA4JsA7bz6XdGKITVAo3CANAAVIICgYSBAgBEAFoxvy5nC1yIRIfIAIoATgCQKOS5etWWAFo_v__________AYABAZgBAxoZChdjYS1wdWItMjA2NzkzNDI4MTU5ODc2ObgT5APYEwvQFQHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICq1wYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIl8_msuGilwMVhkA4BR0PqznBEAEYASAAEgLJv_D_BwE&num=1&cid=CAQShgIAQM4h3KrDHORr3v0mIclK2OSt_fHHUcuXICdSzB87gw3ZLMcE5kBYYQaTg-BJh9bI-yYADu4nS7Dcq9pgvDXgYseuAJ671SLA2mp_3E8fr2rAzvpZG1pB01qAjUJllfkFMx5wOCB9kmSLU7AcxsDSGwZ431gEKWyxpElN3I8-64xuFc8PlwlztLqFM1WdsJ9w-aMHN-FEbr5hTp2l_d5SAF_1dfPtxHyd9c6k1OzgdoZhZVPBYU8TE8f5SttCaQNwSrXNtwo6SdNIjLXp2gw_jHID5jIP0gT1_Lo9oIXfGJM4V3NDVkW9Z3DO2caZ0gnkVR8bfm7L4VxNfZqUWIM0A4Y41FYWGAE&sig=AOD64_1V3ObZjU-r0ThszXLnLWmMvwvSMg&client=ca-pub-2067934281598769&rf=1&nb=0&adurl=https://www.carlostour.com/%3Fgad_source%3D5%26gad_campaignid%3D23311501603%26gclid%3DEAIaIQobChMIl8_msuGilwMVhkA4BR0PqznBEAEYASAAEgLJv_D_BwE
+          - text: 12인 소규모 프라이빗
+          - text: 투어
+        - link:
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C2r8ESYjDateGN4aB4dkPj9bmiQybrLvhgwGO_7mTiBbAjbcBEAEg8NTFnQFgm7vnhKgpoAGi2r2TQsgBCakC4D99lFGJCT6oAwHIA8sEqgSgAk_QSGytjB4XLkMUJGdxPka548hD1KJl4h4PLJ7-pWEXxMggcXoG7yChfO9ku2fqnmKCOx0u6kpR3_ytlXfUsqjJrJYTJyGRD3d_96mrvgMXxAsHPoeecpQCNPt2fVfbBDRSckFEI_VwCXTzC1jZuNH2l5KZo5MdAMLfVXZw5SeurY3lOQA9t_TiF3ydXC6mASpRZ6KvF6BvpOTu66fcRLfVqLsOctimNjx18nS7N_OPC9lVg_kPdEriB_0KmPxwZ4knTolsKwDH8sW4cD8f3YYgQxiU0KqkJj7_s2dkYzmwjtZcDbwqtzX0DgrO1KiAkcBGcskn-ipM4jFVoKF1iLOk7ml-NuSu301aS_ZduUpPswIQX2A1RSYfIT2rzdJ34sAExPG1vcEFiAWjkuXrVqAGLoAHopKO8xyoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB6brsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDMIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOAGEi9_cE6WLGm5rLhopcDYAGxCa-DHokLV4qEgAoBmAsByAsBgAwBqg0CS1LIDQHqDRMIhdPmsuGilwMVhkA4BR0PqznB8A0CiA4JsA7bz6XdGKITVAo3CANAAVIICgYSBAgBEAFoxvy5nC1yIRIfIAIoATgCQKOS5etWWAFo_v__________AYABAZgBAxoZChdjYS1wdWItMjA2NzkzNDI4MTU5ODc2ObgT5APYEwvQFQHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICq1wYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIl8_msuGilwMVhkA4BR0PqznBEAEYASAAEgLJv_D_BwE&num=1&cid=CAQShgIAQM4h3KrDHORr3v0mIclK2OSt_fHHUcuXICdSzB87gw3ZLMcE5kBYYQaTg-BJh9bI-yYADu4nS7Dcq9pgvDXgYseuAJ671SLA2mp_3E8fr2rAzvpZG1pB01qAjUJllfkFMx5wOCB9kmSLU7AcxsDSGwZ431gEKWyxpElN3I8-64xuFc8PlwlztLqFM1WdsJ9w-aMHN-FEbr5hTp2l_d5SAF_1dfPtxHyd9c6k1OzgdoZhZVPBYU8TE8f5SttCaQNwSrXNtwo6SdNIjLXp2gw_jHID5jIP0gT1_Lo9oIXfGJM4V3NDVkW9Z3DO2caZ0gnkVR8bfm7L4VxNfZqUWIM0A4Y41FYWGAE&sig=AOD64_1V3ObZjU-r0ThszXLnLWmMvwvSMg&client=ca-pub-2067934281598769&rf=1&nb=19&adurl=https://www.carlostour.com/%3Fgad_source%3D5%26gad_campaignid%3D23311501603%26gclid%3DEAIaIQobChMIl8_msuGilwMVhkA4BR0PqznBEAEYASAAEgLJv_D_BwE
+        - link "카를로스 와일드투어":
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C2r8ESYjDateGN4aB4dkPj9bmiQybrLvhgwGO_7mTiBbAjbcBEAEg8NTFnQFgm7vnhKgpoAGi2r2TQsgBCakC4D99lFGJCT6oAwHIA8sEqgSgAk_QSGytjB4XLkMUJGdxPka548hD1KJl4h4PLJ7-pWEXxMggcXoG7yChfO9ku2fqnmKCOx0u6kpR3_ytlXfUsqjJrJYTJyGRD3d_96mrvgMXxAsHPoeecpQCNPt2fVfbBDRSckFEI_VwCXTzC1jZuNH2l5KZo5MdAMLfVXZw5SeurY3lOQA9t_TiF3ydXC6mASpRZ6KvF6BvpOTu66fcRLfVqLsOctimNjx18nS7N_OPC9lVg_kPdEriB_0KmPxwZ4knTolsKwDH8sW4cD8f3YYgQxiU0KqkJj7_s2dkYzmwjtZcDbwqtzX0DgrO1KiAkcBGcskn-ipM4jFVoKF1iLOk7ml-NuSu301aS_ZduUpPswIQX2A1RSYfIT2rzdJ34sAExPG1vcEFiAWjkuXrVqAGLoAHopKO8xyoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB6brsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDMIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOAGEi9_cE6WLGm5rLhopcDYAGxCa-DHokLV4qEgAoBmAsByAsBgAwBqg0CS1LIDQHqDRMIhdPmsuGilwMVhkA4BR0PqznB8A0CiA4JsA7bz6XdGKITVAo3CANAAVIICgYSBAgBEAFoxvy5nC1yIRIfIAIoATgCQKOS5etWWAFo_v__________AYABAZgBAxoZChdjYS1wdWItMjA2NzkzNDI4MTU5ODc2ObgT5APYEwvQFQHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICq1wYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIl8_msuGilwMVhkA4BR0PqznBEAEYASAAEgLJv_D_BwE&num=1&cid=CAQShgIAQM4h3KrDHORr3v0mIclK2OSt_fHHUcuXICdSzB87gw3ZLMcE5kBYYQaTg-BJh9bI-yYADu4nS7Dcq9pgvDXgYseuAJ671SLA2mp_3E8fr2rAzvpZG1pB01qAjUJllfkFMx5wOCB9kmSLU7AcxsDSGwZ431gEKWyxpElN3I8-64xuFc8PlwlztLqFM1WdsJ9w-aMHN-FEbr5hTp2l_d5SAF_1dfPtxHyd9c6k1OzgdoZhZVPBYU8TE8f5SttCaQNwSrXNtwo6SdNIjLXp2gw_jHID5jIP0gT1_Lo9oIXfGJM4V3NDVkW9Z3DO2caZ0gnkVR8bfm7L4VxNfZqUWIM0A4Y41FYWGAE&sig=AOD64_1V3ObZjU-r0ThszXLnLWmMvwvSMg&client=ca-pub-2067934281598769&rf=1&nb=1&adurl=https://www.carlostour.com/%3Fgad_source%3D5%26gad_campaignid%3D23311501603%26gclid%3DEAIaIQobChMIl8_msuGilwMVhkA4BR0PqznBEAEYASAAEgLJv_D_BwE
+        - link "예약하기":
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C2r8ESYjDateGN4aB4dkPj9bmiQybrLvhgwGO_7mTiBbAjbcBEAEg8NTFnQFgm7vnhKgpoAGi2r2TQsgBCakC4D99lFGJCT6oAwHIA8sEqgSgAk_QSGytjB4XLkMUJGdxPka548hD1KJl4h4PLJ7-pWEXxMggcXoG7yChfO9ku2fqnmKCOx0u6kpR3_ytlXfUsqjJrJYTJyGRD3d_96mrvgMXxAsHPoeecpQCNPt2fVfbBDRSckFEI_VwCXTzC1jZuNH2l5KZo5MdAMLfVXZw5SeurY3lOQA9t_TiF3ydXC6mASpRZ6KvF6BvpOTu66fcRLfVqLsOctimNjx18nS7N_OPC9lVg_kPdEriB_0KmPxwZ4knTolsKwDH8sW4cD8f3YYgQxiU0KqkJj7_s2dkYzmwjtZcDbwqtzX0DgrO1KiAkcBGcskn-ipM4jFVoKF1iLOk7ml-NuSu301aS_ZduUpPswIQX2A1RSYfIT2rzdJ34sAExPG1vcEFiAWjkuXrVqAGLoAHopKO8xyoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB6brsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDMIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOAGEi9_cE6WLGm5rLhopcDYAGxCa-DHokLV4qEgAoBmAsByAsBgAwBqg0CS1LIDQHqDRMIhdPmsuGilwMVhkA4BR0PqznB8A0CiA4JsA7bz6XdGKITVAo3CANAAVIICgYSBAgBEAFoxvy5nC1yIRIfIAIoATgCQKOS5etWWAFo_v__________AYABAZgBAxoZChdjYS1wdWItMjA2NzkzNDI4MTU5ODc2ObgT5APYEwvQFQHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICq1wYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIl8_msuGilwMVhkA4BR0PqznBEAEYASAAEgLJv_D_BwE&num=1&cid=CAQShgIAQM4h3KrDHORr3v0mIclK2OSt_fHHUcuXICdSzB87gw3ZLMcE5kBYYQaTg-BJh9bI-yYADu4nS7Dcq9pgvDXgYseuAJ671SLA2mp_3E8fr2rAzvpZG1pB01qAjUJllfkFMx5wOCB9kmSLU7AcxsDSGwZ431gEKWyxpElN3I8-64xuFc8PlwlztLqFM1WdsJ9w-aMHN-FEbr5hTp2l_d5SAF_1dfPtxHyd9c6k1OzgdoZhZVPBYU8TE8f5SttCaQNwSrXNtwo6SdNIjLXp2gw_jHID5jIP0gT1_Lo9oIXfGJM4V3NDVkW9Z3DO2caZ0gnkVR8bfm7L4VxNfZqUWIM0A4Y41FYWGAE&sig=AOD64_1V3ObZjU-r0ThszXLnLWmMvwvSMg&client=ca-pub-2067934281598769&rf=1&nb=8&adurl=https://www.carlostour.com/%3Fgad_source%3D5%26gad_campaignid%3D23311501603%26gclid%3DEAIaIQobChMIl8_msuGilwMVhkA4BR0PqznBEAEYASAAEgLJv_D_BwE
+          - generic: 예약하기
+        - button:
+        - iframe
+    - paragraph: Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri.
+    - paragraph: Pengunjung dengan visa jangka pendek wajib mengisi e-Arrival Card kecuali memenuhi pengecualian tersendiri. Untuk masuk bebas visa grup, periksa navigator resmi dan penyelenggara yang ditunjuk; jangan menganggap persetujuan grup menggantikan deklarasi kedatangan.
+    - link "Korea Visa Portal ↗":
+      - /url: https://www.visa.go.kr
+    - link "Periksa kewajiban e-Arrival Card ↗":
+      - /url: https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E
+    - paragraph:
+      - time: 2026-10-05
+      - text: ·
+      - link "K-ETA ↗":
+        - /url: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN
+    - generic: 🇮🇩
+    - heading "Wisatawan individu Indonesia memerlukan visa — tetapi rombongan mungkin tidak." [level=2]
+    - insertion:
+      - iframe [id="aswift_2"] [name="aswift_2"]:
+        - link:
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRTcdSYjDaoadN8721e8PtP7VkQf-9bX9iQGU_cX2_xWhpvjz0B0QASDw1MWdAWCbu-eEqCmgAcTZhL89yAEJqAMByAPLBKoEogJP0Hw8OGfqio9JCWRxVxY5iBelXIWAfi8QU6Qa3ecq6XO3CkT_clfvBeKm8gvUi0iuSNUFyfTIMIu74nU7akfg-RuUEPaajHbF9d42pkPomUqX0CWYHqNRz-LEpxr1sQIti1xGIh4O12einu-PfUg9QpgNS06DMhV45aITL_XZk-PfV9sQA6FnNcL7y1buxVwL4C-BFF6A3zLNbn5YDZ9mgist78RZyZ7M2-32JNrB_YEWfANqxia3i5KyCueEevMe91pdZBjHOfwxEGNO6704iQvqm8-zhzbmP2vAQXppPFnQSHU42PXCSdr-LBzhfqg4fPwaSBvmS7ZRvJ6Rk4eKXhDxq4PFyeND9U-h_cBIux6ZE67Nz4s2PfxYovWJd9Zi_cAEw5qz8IAGiAXuo_XGWqAGLoAHsODs-x6oB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB6brsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDMIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOAGEi9_cE6WIip5rLhopcDYAGxCZCp_7KL6NNRgAoBmAsByAsBgAwBogwDkAEBqg0CS1LIDQHqDRMIhunmsuGilwMVTnv1Bx00fzVy8A0CiA4JsA6M78qUGbgT5APYEwzQFQGYFgHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICxk4YLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMIxuXmsuGilwMVTnv1Bx00fzVyEAEYASAAEgKM7PD_BwE&num=1&cid=CAQShgIAQM4h3KV6nV7wCCgKxeQWPxAc-8ey-96i8XzOwaK8FaEl7D6etzGKva15I8YrPLgfoCnJfcRRjfjOlfLixCvCZNGu8l4AH2Hmj83iuxjKubYrtzaJrnXietP3Itbf9Qdj_lLowVjc9zZXKTs4jERD4SAQmp8AIKTHruiV5rAyy7cOg2b9rdUv8okcwiBZ6W2w7kbRGvZDV90is8oTK82YEYz9HJUrWcDIfracSeNoXM7OXvm9iP2bHhznjR4c-kZ96XPU1w_Xdf0sNJS-Yf_d6wA9JVHV_6EbqDxZ5pI30uLLPwLVZzbSV8J3i5dN2zfiTLTGp6zZB1Osz_hlsswGR6RHCNULGAE&sig=AOD64_0_lrPUEJvPXZVhVdlXBM1_6llnEQ&client=ca-pub-2067934281598769&rf=1&nb=19&adurl=https://ai.byteplus.com/en/activity/seedance2-5%3Futm_source%3Dgoogle%26utm_medium%3Dpmax%26utm_campaign%3Dpurchase_seedance_kr_kr_20261001_delia%26utm_term%3D20261001_easy_2-5_account1_seedance2.5%26utm_content%3Dtecdo%26gad_source%3D5%26gad_campaignid%3D24307913198%26gclid%3DEAIaIQobChMIxuXmsuGilwMVTnv1Bx00fzVyEAEYASAAEgKM7PD_BwE
+        - link:
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRTcdSYjDaoadN8721e8PtP7VkQf-9bX9iQGU_cX2_xWhpvjz0B0QASDw1MWdAWCbu-eEqCmgAcTZhL89yAEJqAMByAPLBKoEogJP0Hw8OGfqio9JCWRxVxY5iBelXIWAfi8QU6Qa3ecq6XO3CkT_clfvBeKm8gvUi0iuSNUFyfTIMIu74nU7akfg-RuUEPaajHbF9d42pkPomUqX0CWYHqNRz-LEpxr1sQIti1xGIh4O12einu-PfUg9QpgNS06DMhV45aITL_XZk-PfV9sQA6FnNcL7y1buxVwL4C-BFF6A3zLNbn5YDZ9mgist78RZyZ7M2-32JNrB_YEWfANqxia3i5KyCueEevMe91pdZBjHOfwxEGNO6704iQvqm8-zhzbmP2vAQXppPFnQSHU42PXCSdr-LBzhfqg4fPwaSBvmS7ZRvJ6Rk4eKXhDxq4PFyeND9U-h_cBIux6ZE67Nz4s2PfxYovWJd9Zi_cAEw5qz8IAGiAXuo_XGWqAGLoAHsODs-x6oB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB6brsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDMIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOAGEi9_cE6WIip5rLhopcDYAGxCZCp_7KL6NNRgAoBmAsByAsBgAwBogwDkAEBqg0CS1LIDQHqDRMIhunmsuGilwMVTnv1Bx00fzVy8A0CiA4JsA6M78qUGbgT5APYEwzQFQGYFgHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICxk4YLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMIxuXmsuGilwMVTnv1Bx00fzVyEAEYASAAEgKM7PD_BwE&num=1&cid=CAQShgIAQM4h3KV6nV7wCCgKxeQWPxAc-8ey-96i8XzOwaK8FaEl7D6etzGKva15I8YrPLgfoCnJfcRRjfjOlfLixCvCZNGu8l4AH2Hmj83iuxjKubYrtzaJrnXietP3Itbf9Qdj_lLowVjc9zZXKTs4jERD4SAQmp8AIKTHruiV5rAyy7cOg2b9rdUv8okcwiBZ6W2w7kbRGvZDV90is8oTK82YEYz9HJUrWcDIfracSeNoXM7OXvm9iP2bHhznjR4c-kZ96XPU1w_Xdf0sNJS-Yf_d6wA9JVHV_6EbqDxZ5pI30uLLPwLVZzbSV8J3i5dN2zfiTLTGp6zZB1Osz_hlsswGR6RHCNULGAE&sig=AOD64_0_lrPUEJvPXZVhVdlXBM1_6llnEQ&client=ca-pub-2067934281598769&rf=1&nb=9&adurl=https://ai.byteplus.com/en/activity/seedance2-5%3Futm_source%3Dgoogle%26utm_medium%3Dpmax%26utm_campaign%3Dpurchase_seedance_kr_kr_20261001_delia%26utm_term%3D20261001_easy_2-5_account1_seedance2.5%26utm_content%3Dtecdo%26gad_source%3D5%26gad_campaignid%3D24307913198%26gclid%3DEAIaIQobChMIxuXmsuGilwMVTnv1Bx00fzVyEAEYASAAEgKM7PD_BwE
+        - link "완전한 AI 워크플로우":
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRTcdSYjDaoadN8721e8PtP7VkQf-9bX9iQGU_cX2_xWhpvjz0B0QASDw1MWdAWCbu-eEqCmgAcTZhL89yAEJqAMByAPLBKoEogJP0Hw8OGfqio9JCWRxVxY5iBelXIWAfi8QU6Qa3ecq6XO3CkT_clfvBeKm8gvUi0iuSNUFyfTIMIu74nU7akfg-RuUEPaajHbF9d42pkPomUqX0CWYHqNRz-LEpxr1sQIti1xGIh4O12einu-PfUg9QpgNS06DMhV45aITL_XZk-PfV9sQA6FnNcL7y1buxVwL4C-BFF6A3zLNbn5YDZ9mgist78RZyZ7M2-32JNrB_YEWfANqxia3i5KyCueEevMe91pdZBjHOfwxEGNO6704iQvqm8-zhzbmP2vAQXppPFnQSHU42PXCSdr-LBzhfqg4fPwaSBvmS7ZRvJ6Rk4eKXhDxq4PFyeND9U-h_cBIux6ZE67Nz4s2PfxYovWJd9Zi_cAEw5qz8IAGiAXuo_XGWqAGLoAHsODs-x6oB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB6brsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDMIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOAGEi9_cE6WIip5rLhopcDYAGxCZCp_7KL6NNRgAoBmAsByAsBgAwBogwDkAEBqg0CS1LIDQHqDRMIhunmsuGilwMVTnv1Bx00fzVy8A0CiA4JsA6M78qUGbgT5APYEwzQFQGYFgHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICxk4YLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMIxuXmsuGilwMVTnv1Bx00fzVyEAEYASAAEgKM7PD_BwE&num=1&cid=CAQShgIAQM4h3KV6nV7wCCgKxeQWPxAc-8ey-96i8XzOwaK8FaEl7D6etzGKva15I8YrPLgfoCnJfcRRjfjOlfLixCvCZNGu8l4AH2Hmj83iuxjKubYrtzaJrnXietP3Itbf9Qdj_lLowVjc9zZXKTs4jERD4SAQmp8AIKTHruiV5rAyy7cOg2b9rdUv8okcwiBZ6W2w7kbRGvZDV90is8oTK82YEYz9HJUrWcDIfracSeNoXM7OXvm9iP2bHhznjR4c-kZ96XPU1w_Xdf0sNJS-Yf_d6wA9JVHV_6EbqDxZ5pI30uLLPwLVZzbSV8J3i5dN2zfiTLTGp6zZB1Osz_hlsswGR6RHCNULGAE&sig=AOD64_0_lrPUEJvPXZVhVdlXBM1_6llnEQ&client=ca-pub-2067934281598769&rf=1&nb=0&adurl=https://ai.byteplus.com/en/activity/seedance2-5%3Futm_source%3Dgoogle%26utm_medium%3Dpmax%26utm_campaign%3Dpurchase_seedance_kr_kr_20261001_delia%26utm_term%3D20261001_easy_2-5_account1_seedance2.5%26utm_content%3Dtecdo%26gad_source%3D5%26gad_campaignid%3D24307913198%26gclid%3DEAIaIQobChMIxuXmsuGilwMVTnv1Bx00fzVyEAEYASAAEgKM7PD_BwE
+        - link "Seedance 2.5에서 타임스탬프 또는 선택 영역별 편집으로 정밀한 개선이 가능합니다.":
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRTcdSYjDaoadN8721e8PtP7VkQf-9bX9iQGU_cX2_xWhpvjz0B0QASDw1MWdAWCbu-eEqCmgAcTZhL89yAEJqAMByAPLBKoEogJP0Hw8OGfqio9JCWRxVxY5iBelXIWAfi8QU6Qa3ecq6XO3CkT_clfvBeKm8gvUi0iuSNUFyfTIMIu74nU7akfg-RuUEPaajHbF9d42pkPomUqX0CWYHqNRz-LEpxr1sQIti1xGIh4O12einu-PfUg9QpgNS06DMhV45aITL_XZk-PfV9sQA6FnNcL7y1buxVwL4C-BFF6A3zLNbn5YDZ9mgist78RZyZ7M2-32JNrB_YEWfANqxia3i5KyCueEevMe91pdZBjHOfwxEGNO6704iQvqm8-zhzbmP2vAQXppPFnQSHU42PXCSdr-LBzhfqg4fPwaSBvmS7ZRvJ6Rk4eKXhDxq4PFyeND9U-h_cBIux6ZE67Nz4s2PfxYovWJd9Zi_cAEw5qz8IAGiAXuo_XGWqAGLoAHsODs-x6oB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB6brsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDMIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOAGEi9_cE6WIip5rLhopcDYAGxCZCp_7KL6NNRgAoBmAsByAsBgAwBogwDkAEBqg0CS1LIDQHqDRMIhunmsuGilwMVTnv1Bx00fzVy8A0CiA4JsA6M78qUGbgT5APYEwzQFQGYFgHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICxk4YLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMIxuXmsuGilwMVTnv1Bx00fzVyEAEYASAAEgKM7PD_BwE&num=1&cid=CAQShgIAQM4h3KV6nV7wCCgKxeQWPxAc-8ey-96i8XzOwaK8FaEl7D6etzGKva15I8YrPLgfoCnJfcRRjfjOlfLixCvCZNGu8l4AH2Hmj83iuxjKubYrtzaJrnXietP3Itbf9Qdj_lLowVjc9zZXKTs4jERD4SAQmp8AIKTHruiV5rAyy7cOg2b9rdUv8okcwiBZ6W2w7kbRGvZDV90is8oTK82YEYz9HJUrWcDIfracSeNoXM7OXvm9iP2bHhznjR4c-kZ96XPU1w_Xdf0sNJS-Yf_d6wA9JVHV_6EbqDxZ5pI30uLLPwLVZzbSV8J3i5dN2zfiTLTGp6zZB1Osz_hlsswGR6RHCNULGAE&sig=AOD64_0_lrPUEJvPXZVhVdlXBM1_6llnEQ&client=ca-pub-2067934281598769&rf=1&nb=7&adurl=https://ai.byteplus.com/en/activity/seedance2-5%3Futm_source%3Dgoogle%26utm_medium%3Dpmax%26utm_campaign%3Dpurchase_seedance_kr_kr_20261001_delia%26utm_term%3D20261001_easy_2-5_account1_seedance2.5%26utm_content%3Dtecdo%26gad_source%3D5%26gad_campaignid%3D24307913198%26gclid%3DEAIaIQobChMIxuXmsuGilwMVTnv1Bx00fzVyEAEYASAAEgKM7PD_BwE
+          - text: Seedance 2.5에서 타임스탬프 또는 선택 영역별 편집으로 정밀한
+          - text: 개선이 가능합니다.
+        - link:
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRTcdSYjDaoadN8721e8PtP7VkQf-9bX9iQGU_cX2_xWhpvjz0B0QASDw1MWdAWCbu-eEqCmgAcTZhL89yAEJqAMByAPLBKoEogJP0Hw8OGfqio9JCWRxVxY5iBelXIWAfi8QU6Qa3ecq6XO3CkT_clfvBeKm8gvUi0iuSNUFyfTIMIu74nU7akfg-RuUEPaajHbF9d42pkPomUqX0CWYHqNRz-LEpxr1sQIti1xGIh4O12einu-PfUg9QpgNS06DMhV45aITL_XZk-PfV9sQA6FnNcL7y1buxVwL4C-BFF6A3zLNbn5YDZ9mgist78RZyZ7M2-32JNrB_YEWfANqxia3i5KyCueEevMe91pdZBjHOfwxEGNO6704iQvqm8-zhzbmP2vAQXppPFnQSHU42PXCSdr-LBzhfqg4fPwaSBvmS7ZRvJ6Rk4eKXhDxq4PFyeND9U-h_cBIux6ZE67Nz4s2PfxYovWJd9Zi_cAEw5qz8IAGiAXuo_XGWqAGLoAHsODs-x6oB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB6brsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDMIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOAGEi9_cE6WIip5rLhopcDYAGxCZCp_7KL6NNRgAoBmAsByAsBgAwBogwDkAEBqg0CS1LIDQHqDRMIhunmsuGilwMVTnv1Bx00fzVy8A0CiA4JsA6M78qUGbgT5APYEwzQFQGYFgHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICxk4YLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMIxuXmsuGilwMVTnv1Bx00fzVyEAEYASAAEgKM7PD_BwE&num=1&cid=CAQShgIAQM4h3KV6nV7wCCgKxeQWPxAc-8ey-96i8XzOwaK8FaEl7D6etzGKva15I8YrPLgfoCnJfcRRjfjOlfLixCvCZNGu8l4AH2Hmj83iuxjKubYrtzaJrnXietP3Itbf9Qdj_lLowVjc9zZXKTs4jERD4SAQmp8AIKTHruiV5rAyy7cOg2b9rdUv8okcwiBZ6W2w7kbRGvZDV90is8oTK82YEYz9HJUrWcDIfracSeNoXM7OXvm9iP2bHhznjR4c-kZ96XPU1w_Xdf0sNJS-Yf_d6wA9JVHV_6EbqDxZ5pI30uLLPwLVZzbSV8J3i5dN2zfiTLTGp6zZB1Osz_hlsswGR6RHCNULGAE&sig=AOD64_0_lrPUEJvPXZVhVdlXBM1_6llnEQ&client=ca-pub-2067934281598769&rf=1&nb=8&adurl=https://ai.byteplus.com/en/activity/seedance2-5%3Futm_source%3Dgoogle%26utm_medium%3Dpmax%26utm_campaign%3Dpurchase_seedance_kr_kr_20261001_delia%26utm_term%3D20261001_easy_2-5_account1_seedance2.5%26utm_content%3Dtecdo%26gad_source%3D5%26gad_campaignid%3D24307913198%26gclid%3DEAIaIQobChMIxuXmsuGilwMVTnv1Bx00fzVyEAEYASAAEgKM7PD_BwE
+        - button:
+        - iframe
+    - paragraph: Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri.
+    - generic: Jenis visa
+    - text: Turis C-3 (perorangan)
+    - generic: Lama tinggal
+    - text: "Visa: sesuai izin yang diterbitkan; program grup ditunjuk: 15 hari"
+    - generic: Jumlah masuk
+    - text: C-3 / B-2
+    - navigation "Sumber resmi":
+      - generic: Sumber resmi
+      - link "Sumber resmi · Korea Visa Portal ↗":
+        - /url: https://www.visa.go.kr
+      - link "Sumber resmi · KVAC Jakarta ↗":
+        - /url: https://www.visaforkorea-in.com/id-ID/visa-center/location
+      - link "Sumber resmi · KVAC · IDR ↗":
+        - /url: https://www.visaforkorea-in.com/id-ID/visa-center/fee
+      - link "Sumber resmi · KVAC · FAQ ↗":
+        - /url: https://www.visaforkorea-in.com/id-ID/customer/faq
+      - link "Sumber resmi · B-2 · Indonesia ↗":
+        - /url: https://immigration.go.kr/bbs/immigration/214/606932/artclView.do
+      - link "Sumber resmi · C-3-2 ↗":
+        - /url: https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do
+    - generic: 👥
+    - generic: Program grup
+    - paragraph: "Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."
+    - generic: 🏝️
+    - generic: Pulau Jeju — bebas visa tersendiri
+    - paragraph: Wisatawan berpaspor biasa Indonesia dapat menggunakan program bebas visa Jeju tersendiri hingga 30 hari, tiba langsung dari luar negeri dan hanya tinggal di Jeju. Masuk melalui Korea daratan tidak tercakup. Perjalanan ke daratan memerlukan visa yang sesuai atau izin imigrasi sebelumnya; petugas menilai izin masuk di perbatasan.
+    - generic: 🗓️
+    - generic: Visa multiple
+    - paragraph: Pemohon yang memenuhi syarat dapat mengajukan multiple visa 5 atau 10 tahun; tabel KVAC mencantumkan masa tinggal 30 hari per kunjungan. Masa berlaku panjang bukan izin tinggal terus-menerus atau kelayakan otomatis. Minta KVAC memeriksa kategori Anda.
+    - generic: "Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri. Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."
+    - generic: ✓
+    - time: 2026-10-05
+    - list:
+      - generic: Jenis visa
+      - generic: Turis C-3 (perorangan)
+      - insertion:
+        - iframe [id="aswift_3"] [name="aswift_3"]:
+          - iframe [id="ad_iframe"] [name="ad_iframe"]:
+            - link:
+              - /url: https://krrtb.c.appier.net/xclk?bidobjid=x9KckL0JAv-di2MaSYjDag&cid=IWUPzeqSSKSDn4zIFri0WQ&crid=Ap8QlZwhSfyfLLwzp12alg&crpid=PW6Qa3AVSFuUY_19KkmOWg&soid=kzNb&partner_id=03mSf3HNecb-&bx=Cylxwnu_20d97qus206so0dz7Pws7qo-uY79uqa1cDtycHTaJ8u9wmOWu1x1w8Q121lFJLlEZbNsw1zqUmR1K4lEUHM12qG-uYSxJ4u_o1x13LM12qu-uYOPuqa1Jmg9u1x1U8A121uV2nu-uYOPJ1u_uqGzKqd9o4QxujR&ui=CylYc8Myuqa1orusKquRo4QR7yQx2qaV2nlO&consent=1&ddhh=7nRy&flanding_rdr=
+            - button
+      - generic: Masa tinggal maksimum
+      - generic: "Visa: sesuai izin yang diterbitkan; program grup ditunjuk: 15 hari"
+      - insertion:
+        - iframe [id="aswift_4"] [name="aswift_4"]:
+          - link:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=Ck2WYSYjDaumhN_TT1e8PmO7o2QXU0MT6iQHbud-vxRba2R4QASDw1MWdAWCbu-eEqCmgAYnYl78pyAEBqQJcnWmAhY4JPqgDAcgDywSqBI4CT9CpZcZjm0ce-PypxafOxHriK1JviA6x5TqvEXJZNxMy5QJfZUa0qWOyEcaG9WHuvicDTsR93WDaMRyjyptJrbmDc4EwMoctK1Ul8cQVoqHAMFn5UQ3XtEf6k_vmPnV7teQz5bzngHP7LM_EIvacLH2pAqth_Ft7UQI8S87qZ04M4pKIJD0d_WgJcWZmF9mQZJFaagpk42iynbegRT08zhMzBhMl6TSqLHZ-AAA6rKQO9Pel7Oj-h5c1l0ZAfopohIY5RrbXBK58KWYHbhoPSAsEruhpP0Ql1hYK01ndmznzvoE_1RZcRAJM5PrSngE7mxto5URx0wSlzLuQjtTkLTCRteTUAbsT5hECISmBwATImbnWhAaIBfuF9IVZoAYCgAeJkOieBKgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgHpuuxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog4AYSL39wTpYuLvmsuGilwNgAbEJrhikqb9P7bCACgGYCwHICwGiDAOQAQGqDQJLUsgNAeoNEwjC8uay4aKXAxX0afUHHRg3OlvwDQKIDgnYEw3QFQGYFgHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRIC12oYAiIBANAYAQ&ae=1&gclid=EAIaIQobChMIqermsuGilwMV9Gn1Bx0YNzpbEAEYASAAEgLESvD_BwE&num=1&cid=CAQShgIAQM4h3FenEAgC8jzt7to1iaqlJLOAYBYts3VqbAMgt3GmaVWZM22zc8GVThgWlNn0EsyygDNTaJ41RWnDAoKQwkYA34JOx5ujGIpQOLQHx0FFSaSXsKSo-KdcAn0S5wZvfU7EJJ04ot8b4iVkFiuKtRgJJuJIbKTVeCxGXq3BNInC6o0sVNBnhTsct5wPiJJohS2uJsb_nws7P4rC26QzFE7z5p4FV669lXVdhz0ml1u03DuX7WumdDzAo8GlpvM7NyaEbAqbGVyn0LWJFwj_QI4lT86FkfLGyxLFFU1VF0PIhHBlrWgK3AHV1Q7z2cP8Iftl9QZ9MG8brSazCuhkzzbXgavDGAE&sig=AOD64_2jf3zHeoHjOioRDcpbuBck05PpMQ&client=ca-pub-2067934281598769&rf=1&nb=2&adurl=https://business.lotterental.com/vehicle/lottrental/product.do%3Futm_source%3Dgdn%26utm_medium%3Ddisplay%26utm_campaign%3Dda_mopc_%25EB%25A1%25AF%25EB%258D%25B0%25EB%25B9%2584%25EC%25A6%2588%25EC%25B9%25B4_%25EA%25B4%2580%25EC%258B%25AC%25EC%2582%25AC_gdn%26utm_content%3D08_gdn_mopc_biz_%25EA%25B8%25B0%25ED%259A%258D_%25EA%25B4%2580%25EC%258B%25AC%25EC%2582%25AC_%25EC%25B6%259C%25EC%258B%259C%25EA%25B8%25B0%25EB%2585%2590_RED_%25EA%25B7%25B8%25EB%259E%259C%25EC%25A0%2580%26gad_source%3D5
+          - button:
+          - iframe
+      - generic: Ajukan di
+      - generic: KVAC Jakarta
+    - generic: ⚠ Biaya/aturan dapat berubah — harap konfirmasi di sumber resmi
+    - text: "Sumber:"
+    - link "Korea Ministry of Justice":
+      - /url: https://immigration.go.kr/bbs/immigration/214/606932/artclView.do
+    - paragraph: "ⓘ Visa: sesuai izin yang diterbitkan; program grup ditunjuk: 15 hari"
+    - heading "KVAC Jakarta" [level=2]
+    - paragraph: Lotte Mall Ciputra World 1, Unit 5F-05A, Jl. Prof. DR. Satrio No. 1, Jakarta Selatan 12940
+    - paragraph:
+      - time: 2026-10-05
+      - text: ·
+      - 'link "Sumber: KVAC Jakarta ↗"':
+        - /url: https://www.visaforkorea-in.com/id-ID/visa-center/location
+    - heading "Proses pengajuan, langkah demi langkah (C-3 perorangan)" [level=2]
+    - list:
+      - generic: "1"
+      - heading "Pastikan jenis visa" [level=4]
+      - paragraph: "Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri. Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."
+      - generic: "2"
+      - heading "Isi formulir di visa.go.kr" [level=4]
+      - insertion
+      - paragraph:
+        - text: Lengkapi formulir permohonan di Korea Visa Portal — satu-satunya situs resmi — lalu cetak dan tanda tangani. —
+        - link "Portal Visa Korea":
+          - /url: https://www.visa.go.kr
+      - generic: "3"
+      - heading "Siapkan dokumen Anda" [level=4]
+      - paragraph: "Kumpulkan daftar di bawah ini: paspor, foto, rekening koran 3 bulan, dan bukti pekerjaan."
+      - generic: "4"
+      - heading "Ajukan di Kedutaan / KVAC Jakarta" [level=4]
+      - paragraph: Serahkan permohonan Anda ke Kedutaan Besar Korea atau Korea Visa Application Center di Jakarta.
+      - generic: "5"
+      - heading "Bayar biaya" [level=4]
+      - paragraph: "Mulai 2026-07-01: single jangka pendek IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; multiple IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Ekspres dan layanan pilihan dikenai biaya tambahan; periksa tabel resmi terbaru."
+      - generic: "6"
+      - heading "Pantau & tunggu" [level=4]
+      - paragraph: "Perkiraan KVAC Jakarta: visa single/double 10 hari kerja, multiple 7, ekspres C-3 yang memenuhi syarat 5. Tanggal pengajuan termasuk; hari libur tidak dihitung. Dokumen tambahan atau wawancara dapat memperpanjang proses. Menurut FAQ resmi, tiket pesawat dan reservasi hotel tidak wajib untuk pemeriksaan visa."
+      - generic: "7"
+      - heading "Ambil paspor Anda" [level=4]
+      - paragraph: Ambil paspor Anda dan segera periksa detail visanya.
+    - heading "Daftar dokumen — beserta di mana & cara mendapatkan tiap dokumen" [level=2]
+    - insertion
+    - paragraph: Untuk setiap dokumen, berikut tempat memperolehnya dan apa yang harus ditunjukkannya.
+    - generic: Paspor
+    - generic: Wajib
+    - generic: Di mana mendapatkannya
+    - generic: Anda sudah memilikinya
+    - paragraph: Berlaku minimal 6 bulan dengan halaman kosong.
+    - generic: Formulir permohonan visa
+    - generic: Wajib
+    - generic: Di mana mendapatkannya
+    - link "visa.go.kr ↗":
+      - /url: https://www.visa.go.kr
+    - paragraph: Lengkapi di Korea Visa Portal, cetak, tanda tangani.
+    - generic: Foto
+    - generic: Wajib
+    - generic: Di mana mendapatkannya
+    - generic: Studio foto mana pun
+    - paragraph: Foto terbaru gaya paspor, latar belakang putih.
+    - generic: Rekening koran — 3 bulan terakhir
+    - generic: Wajib
+    - generic: Di mana mendapatkannya
+    - generic: Bank Anda
+    - paragraph: Rekening koran yang menunjukkan saldo dan riwayat transaksi; saldo yang stabil paling baik.
+    - generic: Surat keterangan kerja
+    - generic: Wajib
+    - generic: Di mana mendapatkannya
+    - generic: Perusahaan / HRD Anda
+    - paragraph: "Di kop surat perusahaan: jabatan, gaji, dan cuti yang disetujui."
+    - generic: Slip gaji
+    - generic: Wajib
+    - generic: Di mana mendapatkannya
+    - generic: Perusahaan Anda
+    - paragraph: Slip gaji terbaru yang mendukung penghasilan Anda.
+    - generic: Reservasi tiket pulang-pergi & hotel
+    - generic: Disarankan
+    - generic: Di mana mendapatkannya
+    - generic: Maskapai / situs pemesanan
+    - paragraph: "Perkiraan KVAC Jakarta: visa single/double 10 hari kerja, multiple 7, ekspres C-3 yang memenuhi syarat 5. Tanggal pengajuan termasuk; hari libur tidak dihitung. Dokumen tambahan atau wawancara dapat memperpanjang proses. Menurut FAQ resmi, tiket pesawat dan reservasi hotel tidak wajib untuk pemeriksaan visa."
+    - generic: Surat sponsor (jika dibiayai orang lain)
+    - generic: Jika berlaku
+    - generic: Di mana mendapatkannya
+    - generic: Sponsor Anda
+    - paragraph: Surat sponsor + rekening koran sponsor + bukti hubungan.
+    - heading "\"Berapa banyak uang yang harus saya tunjukkan?\"" [level=2]
+    - insertion
+    - paragraph: Tidak ada batas minimum tunggal yang dipublikasikan. Tunjukkan saldo yang stabil selama 3 bulan dan ikatan yang jelas dengan Indonesia (pekerjaan, keluarga). Jika perjalanan Anda dibiayai orang lain, dokumentasikan sponsor secara lengkap.
+    - list:
+      - listitem: ✓ Saldo yang stabil selama 3 bulan lebih baik daripada setoran mendadak sebelum mengajukan.
+      - listitem: ✓ Padukan rekening koran dengan surat keterangan kerja dan slip gaji Anda.
+      - listitem: ✓ Disponsori? Tambahkan rekening koran, surat, dan bukti hubungan dari sponsor.
+    - heading "Kesalahan yang menyebabkan penolakan & keterlambatan" [level=2]
+    - generic: 🧍
+    - generic: Mengira sendirian = bebas visa
+    - paragraph: "Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."
+    - generic: 💸
+    - generic: Setoran mendadak
+    - paragraph: Sejumlah besar uang tepat sebelum mengajukan. Tunjukkan dana yang stabil dan dapat dijelaskan.
+    - generic: 🧾
+    - generic: Bukti pekerjaan lemah
+    - paragraph: Tidak ada surat keterangan kerja atau slip gaji. Dokumen ini menjadi penopang berkas pemohon perorangan.
+    - generic: 🎫
+    - generic: Membayar tiket terlalu dini
+    - paragraph: Membeli tiket yang tidak dapat dikembalikan sebelum disetujui — reservasi sudah cukup.
+    - generic: 🏝️
+    - generic: Mengira Jeju sama dengan daratan
+    - paragraph: Bebas visa Jeju tidak mencakup perjalanan ke Korea daratan.
+    - heading "FAQ visa Indonesia → Korea" [level=2]
+    - generic "Apakah warga Indonesia memerlukan visa untuk Korea? +"
+    - generic "Saya bepergian sendirian — bisakah saya tanpa visa? +"
+    - generic "Bukti finansial apa yang saya perlukan? +"
+    - generic "Di mana saya mengajukan? +"
+    - generic "Berapa biayanya? +"
+    - generic "Apakah saya masih memerlukan e-Arrival Card? +"
+    - generic "Apakah warga Indonesia bisa mengunjungi Jeju tanpa visa? +"
+    - generic "Berapa lama proses pengurusan visa Korea? +"
+    - generic "Apakah anak-anak perlu visa Korea sendiri? +"
+    - generic "K-ETA? +"
+    - generic "Visa multiple? +"
+    - heading "Sumber resmi" [level=2]
+    - paragraph: Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri.
+    - link "Sumber resmi · Korea Visa Portal www.visa.go.kr ↗":
+      - /url: https://www.visa.go.kr
+      - generic: Sumber resmi · Korea Visa Portal
+      - generic: www.visa.go.kr ↗
+    - link "Sumber resmi · KVAC Jakarta www.visaforkorea-in.com ↗":
+      - /url: https://www.visaforkorea-in.com/id-ID/visa-center/location
+      - generic: Sumber resmi · KVAC Jakarta
+      - generic: www.visaforkorea-in.com ↗
+    - link "Sumber resmi · KVAC · IDR www.visaforkorea-in.com ↗":
+      - /url: https://www.visaforkorea-in.com/id-ID/visa-center/fee
+      - generic: Sumber resmi · KVAC · IDR
+      - generic: www.visaforkorea-in.com ↗
+    - link "Sumber resmi · KVAC · FAQ www.visaforkorea-in.com ↗":
+      - /url: https://www.visaforkorea-in.com/id-ID/customer/faq
+      - generic: Sumber resmi · KVAC · FAQ
+      - generic: www.visaforkorea-in.com ↗
+    - link "Sumber resmi · B-2 · Indonesia immigration.go.kr ↗":
+      - /url: https://immigration.go.kr/bbs/immigration/214/606932/artclView.do
+      - generic: Sumber resmi · B-2 · Indonesia
+      - generic: immigration.go.kr ↗
+    - link "Sumber resmi · C-3-2 www.moj.go.kr ↗":
+      - /url: https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do
+      - generic: Sumber resmi · C-3-2
+      - generic: www.moj.go.kr ↗
+    - heading "Sumber resmi" [level=2]
+    - link "📄 Sumber resmi · Korea Visa Portal Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri.":
+      - /url: https://www.visa.go.kr
+      - generic: 📄
+      - generic: Sumber resmi · Korea Visa Portal
+      - emphasis: Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri.
+    - link "🏢 Sumber resmi · KVAC Jakarta Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri.":
+      - /url: https://www.visaforkorea-in.com/id-ID/visa-center/location
+      - generic: 🏢
+      - generic: Sumber resmi · KVAC Jakarta
+      - emphasis: Paspor biasa yang wajib visa wisata tidak memenuhi syarat K-ETA untuk kunjungan tersebut. Jika paspor Anda memerlukan visa untuk kunjungan biasa ke daratan Korea, K-ETA tidak dapat menggantikan visa dan tidak perlu diajukan lagi setelah visa terbit. Pengecualian usia K-ETA bukan pembebasan visa. Program grup dan Jeju memiliki syarat tersendiri.
+    - 'link "🏢 Sumber resmi · KVAC · IDR Mulai 2026-07-01: single jangka pendek IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; multiple IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Ekspres dan layanan pilihan dikenai biaya tambahan; periksa tabel resmi terbaru."':
+      - /url: https://www.visaforkorea-in.com/id-ID/visa-center/fee
+      - generic: 🏢
+      - generic: Sumber resmi · KVAC · IDR
+      - emphasis: "Mulai 2026-07-01: single jangka pendek IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; multiple IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Ekspres dan layanan pilihan dikenai biaya tambahan; periksa tabel resmi terbaru."
+    - 'link "🏢 Sumber resmi · KVAC · FAQ Perkiraan KVAC Jakarta: visa single/double 10 hari kerja, multiple 7, ekspres C-3 yang memenuhi syarat 5. Tanggal pengajuan termasuk; hari libur tidak dihitung. Dokumen tambahan atau wawancara dapat memperpanjang proses. Menurut FAQ resmi, tiket pesawat dan reservasi hotel tidak wajib untuk pemeriksaan visa."':
+      - /url: https://www.visaforkorea-in.com/id-ID/customer/faq
+      - generic: 🏢
+      - generic: Sumber resmi · KVAC · FAQ
+      - emphasis: "Perkiraan KVAC Jakarta: visa single/double 10 hari kerja, multiple 7, ekspres C-3 yang memenuhi syarat 5. Tanggal pengajuan termasuk; hari libur tidak dihitung. Dokumen tambahan atau wawancara dapat memperpanjang proses. Menurut FAQ resmi, tiket pesawat dan reservasi hotel tidak wajib untuk pemeriksaan visa."
+    - 'link "🏢 Sumber resmi · B-2 · Indonesia Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."':
+      - /url: https://immigration.go.kr/bbs/immigration/214/606932/artclView.do
+      - generic: 🏢
+      - generic: Sumber resmi · B-2 · Indonesia
+      - emphasis: "Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."
+    - link "🏢 Sumber resmi · C-3-2 Visa grup C-3-2 yang memenuhi syarat bagi China, Vietnam, Filipina, Indonesia, India, dan Kamboja mendapat pembebasan biaya penerbitan USD 15 sampai 2026-12-31. Ini bukan bebas visa atau pembebasan biaya visa individu, agen, maupun layanan.":
+      - /url: https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do
+      - generic: 🏢
+      - generic: Sumber resmi · C-3-2
+      - emphasis: Visa grup C-3-2 yang memenuhi syarat bagi China, Vietnam, Filipina, Indonesia, India, dan Kamboja mendapat pembebasan biaya penerbitan USD 15 sampai 2026-12-31. Ini bukan bebas visa atau pembebasan biaya visa individu, agen, maupun layanan.
+    - heading "C-3-2" [level=3]
+    - paragraph: Visa grup C-3-2 yang memenuhi syarat bagi China, Vietnam, Filipina, Indonesia, India, dan Kamboja mendapat pembebasan biaya penerbitan USD 15 sampai 2026-12-31. Ini bukan bebas visa atau pembebasan biaya visa individu, agen, maupun layanan.
+    - paragraph:
+      - time: 2026-10-05
+      - text: ·
+      - link "C-3-2 ↗":
+        - /url: https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do
+    - region "Spesifikasi pasfoto untuk visa Anda":
+      - generic: 📷
+      - heading "Spesifikasi pasfoto untuk visa Anda" [level=2]
+      - paragraph: "Aturan foto visa Korea sangat ketat — kesalahan pada foto adalah penyebab umum permohonan tertunda atau ditolak:"
+      - list:
+        - listitem: ✓ 35 × 45 mm, latar putih polos (latar yang diganti dengan perangkat lunak tidak diterima).
+        - listitem: ✓ Wajah 70–80% dari tinggi foto, tampak depan, ekspresi netral.
+        - listitem: ✓ Diambil dalam 6 bulan terakhir; tanpa topi, umumnya tanpa kacamata, tanpa retouch.
+        - listitem: "✓ Unggah daring (Korea Visa Portal): JPEG di bawah 200 KB, minimal 413 × 531 px."
+      - paragraph:
+        - text: Berdasarkan Korea Visa Portal (
+        - link "visa.go.kr":
+          - /url: https://visa.go.kr
+        - text: ) dan aturan konsulat — pastikan persyaratan pasti di konsulat Anda sendiri.
+    - generic: 💱 Uang Anda di Korea
+    - generic: 1,000 IDR ≈ 75 KRW · ₩10,000 ≈ 133,275 IDR
+    - paragraph: Kurs acuan real-time — kurs sebenarnya di gerai dan kartu bisa berbeda.
+    - generic: 🏛️ Kedutaan negara Anda di Korea
+    - generic: Embassy of Indonesia (KBRI), Seoul
+    - term: Alamat
+    - definition: 380 Yeouidaebang-ro, Yeongdeungpo-gu, Seoul
+    - term: Telepon
+    - definition:
+      - link "+82-2-783-5677":
+        - /url: tel:+8227835677
+    - link "Situs resmi →":
+      - /url: https://kemlu.go.id/seoul
+    - paragraph: Untuk keadaan darurat setelah tiba (misalnya paspor hilang). Periksa informasi terbaru di situs resmi.
+    - complementary "Selanjutnya, siapkan kedatanganmu":
+      - text: Persiapan kedatangan
+      - heading "Selanjutnya, siapkan kedatanganmu" [level=2]
+      - paragraph: Rencanakan transportasi bandara, siapkan koneksi, dan kumpulkan persiapan dalam satu daftar.
+      - link "Bandara → kota →":
+        - /url: /id/plan/airport/
+      - link "SIM / eSIM / Wi-Fi →":
+        - /url: /id/plan/sim/
+      - link "Daftar persiapan perjalanan →":
+        - /url: /id/#planner
+    - region "Visa beres? Sekarang rencanakan sisa perjalananmu":
+      - heading "Visa beres? Sekarang rencanakan sisa perjalananmu" [level=2]
+      - paragraph: Kedatangan, transportasi, tempat menginap, dan aktivitas — sisa perjalanan Korea-mu, semua di sini.
+      - link "Buat dan bagikan rencana perjalanan →":
+        - /url: /id/#planner
+      - link "Anggaran perjalananmu →":
+        - /url: /id/plan/money/#budget
+      - link "Panduan wisata Korea · Indonesia →":
+        - /url: /id/guides/korea-from-indonesia/
+      - link "Bandara → kota Incheon · AREX ekspres":
+        - /url: /id/plan/airport/
+        - generic: ✈️
+        - generic: Bandara → kota
+        - generic: Incheon · AREX ekspres
+      - link "Transportasi T-money · subway · KTX · taksi":
+        - /url: /id/plan/transit/
+        - generic: 🚇
+        - generic: Transportasi
+        - generic: T-money · subway · KTX · taksi
+      - link "SIM / eSIM / Wi-Fi Langsung terhubung saat tiba":
+        - /url: /id/plan/sim/
+        - generic: 📱
+        - generic: SIM / eSIM / Wi-Fi
+        - generic: Langsung terhubung saat tiba
+      - link "Uang & pembayaran Tukar uang · kartu · tunai":
+        - /url: /id/plan/money/#budget
+        - generic: 💳
+        - generic: Uang & pembayaran
+        - generic: Tukar uang · kartu · tunai
+      - link "Tempat Menginap Area & kawasan terbaik":
+        - /url: /id/stay/
+        - generic: 🏨
+        - generic: Tempat Menginap
+        - generic: Area & kawasan terbaik
+      - link "Itinerari Siap Pakai Rute 3–7 hari yang bisa langsung ditiru":
+        - /url: /id/itinerary/
+        - generic: 🗺️
+        - generic: Itinerari Siap Pakai
+        - generic: Rute 3–7 hari yang bisa langsung ditiru
+      - link "K-pop & Konser Venue, tiket & tempat idola":
+        - /url: /id/kpop/
+        - generic: 🎤
+        - generic: K-pop & Konser
+        - generic: Venue, tiket & tempat idola
+        - generic: →
+    - complementary "Tentang halaman ini":
+      - generic "Bagikan ke teman atau simpan untuk diri sendiri":
+        - strong: Bagikan ke teman atau simpan untuk diri sendiri
+        - button "Bagikan ke aplikasi":
+          - text: Bagikan ke aplikasi
+        - button "Salin tautan":
+          - text: Salin tautan
+        - button "Kirim lewat email":
+          - text: Kirim lewat email
+        - generic "Pilih aplikasi pesan atau media sosial"
+        - paragraph: Kirim panduan dalam bahasa ini. Aplikasi berbagi yang tersedia bergantung pada perangkatmu.
+      - generic: 🖊 Redaksi & verifikasi Korea Trip Hub
+      - link "Kebijakan Editorial":
+        - /url: /id/legal/editorial/
+      - text: "🔄 Terakhir diperiksa:"
+      - time: 5 Oktober 2026
+      - paragraph: Aturan dan harga dapat berubah — konfirmasikan di halaman resmi sebelum bepergian atau memesan.
+      - link "🛠 Laporkan kesalahan atau usulkan koreksi":
+        - /url: /id/legal/contact/
+    - paragraph: Info perjalanan dicek dengan sumber resmi beserta tanggal verifikasi. Harga, jadwal, dan aturan visa berubah — selalu konfirmasi di sumber resmi yang ditautkan sebelum berangkat.
+- contentinfo:
+  - generic "Bagikan ke teman atau simpan untuk diri sendiri"
+  - generic: ◆ KoreaTripHub
+  - navigation "Bahasa":
+    - link "English":
+      - /url: /en/
+    - link "中文 (简体)":
+      - /url: /zh/
+    - link "中文 (繁體)":
+      - /url: /zh-TW/
+    - link "日本語":
+      - /url: /ja/
+    - link "Tiếng Việt":
+      - /url: /vi/
+    - link "ไทย":
+      - /url: /th/
+    - strong: Bahasa Indonesia
+    - link "Español":
+      - /url: /es/
+    - link "Bahasa Melayu":
+      - /url: /ms/
+    - link "한국어":
+      - /url: /ko/
+    - link "Русский":
+      - /url: /ru/
+    - link "Français":
+      - /url: /fr/
+  - navigation "Hukum":
+    - link "Tentang":
+      - /url: /id/legal/about/
+    - link "Operator":
+      - /url: /id/legal/operator/
+    - link "Kontak":
+      - /url: /id/legal/contact/
+    - link "Privasi & Cookie":
+      - /url: /id/legal/privacy/
+    - link "Ketentuan":
+      - /url: /id/legal/terms/
+    - link "Kebijakan Editorial":
+      - /url: /id/legal/editorial/
+    - link "Koreksi":
+      - /url: /id/legal/corrections/
+    - link "Iklan & Afiliasi":
+      - /url: /id/legal/affiliate/
+  - paragraph:
+    - link "🍁 Panduan wisata Korea →":
+      - /url: /id/guides/
+    - text: ·
+    - link "🎤 K-Culture — kpophub.kr →":
+      - /url: https://kpophub.kr/en/calendar/
+  - paragraph: Beberapa tautan adalah tautan afiliasi — kami mungkin memperoleh komisi tanpa biaya tambahan untukmu.
+  - paragraph: © 2026 Korea Trip Hub — panduan perjalanan independen. Selalu konfirmasi aturan terbaru dari sumber resmi.
+- region "Asisten Perjalanan":
+  - button "Tutup": ✕
+  - button "Asisten perjalanan AI Ada yang bisa saya bantu? Asisten Perjalanan ↗":
+    - generic: Asisten perjalanan AI
+    - strong: Ada yang bisa saya bantu?
+    - generic: Asisten Perjalanan ↗
+- button "Asisten Perjalanan"
+- alert

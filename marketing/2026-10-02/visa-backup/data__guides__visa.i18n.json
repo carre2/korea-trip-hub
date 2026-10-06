@@ -1,0 +1,1663 @@
+{
+  "ko": {
+    "slug": "visa",
+    "kicker": "입국 & 서류",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Departures hall at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+    },
+    "heroBg": "/img/hero-bg/visa.jpg",
+    "countryGuides": {
+      "title": "당신의 국가를 찾으세요",
+      "intro": "국적마다 경로가 다릅니다. 본인의 국적을 선택해 맞춤형 안내를 받으세요 — 비자가 필요하면 A부터 Z까지 전체 비자 절차를, 무비자라면 빠른 입국 체크리스트를 제공합니다.",
+      "needTitle": "🛂 비자가 필요합니다 — A부터 Z까지 전체 절차",
+      "items": [
+        {
+          "code": "india",
+          "flag": "🇮🇳",
+          "name": "인도",
+          "note": "C-3-9 관광 비자 · KVAC (VFS)"
+        },
+        {
+          "code": "vietnam",
+          "flag": "🇻🇳",
+          "name": "베트남",
+          "note": "C-3-9 · 간소화 서류 · 최대 10년 비자"
+        },
+        {
+          "code": "china",
+          "flag": "🇨🇳",
+          "name": "중국",
+          "note": "C-3 · 제주 무비자 30일"
+        },
+        {
+          "code": "philippines",
+          "flag": "🇵🇭",
+          "name": "필리핀",
+          "note": "C-3 · 무료 비자 · 은행 잔고증명 불필요"
+        },
+        {
+          "code": "indonesia",
+          "flag": "🇮🇩",
+          "name": "인도네시아",
+          "note": "C-3 · 2026년 5월부터 단체 무비자"
+        }
+      ],
+      "freeTitle": "✅ 무비자 — 빠른 입국 안내",
+      "visaFree": [
+        {
+          "code": "usa",
+          "flag": "🇺🇸",
+          "name": "미국",
+          "note": "무비자 90일 · K-ETA 면제"
+        },
+        {
+          "code": "japan",
+          "flag": "🇯🇵",
+          "name": "일본",
+          "note": "무비자 90일 · K-ETA 면제"
+        },
+        {
+          "code": "uk",
+          "flag": "🇬🇧",
+          "name": "영국",
+          "note": "무비자 90일 · K-ETA 면제"
+        },
+        {
+          "code": "canada",
+          "flag": "🇨🇦",
+          "name": "캐나다",
+          "note": "무비자 최대 6개월"
+        },
+        {
+          "code": "australia",
+          "flag": "🇦🇺",
+          "name": "호주",
+          "note": "무비자 90일 · K-ETA 면제"
+        },
+        {
+          "code": "taiwan",
+          "flag": "🇹🇼",
+          "name": "대만",
+          "note": "무비자 90일 · K-ETA 면제"
+        }
+      ],
+      "more": "여권 발급 국가가 없나요? 공식 출입국 기관에서 필요한 절차를 확인하세요."
+    },
+    "tldr": [
+      "K-ETA 한시 면제는 지정된 국가·지역에만 2026-12-31까지 적용됩니다. 무비자 입국 대상이라고 자동으로 K-ETA가 면제되는 것은 아닙니다. 이후 여행은 공식 공지를 다시 확인하세요.",
+      "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다.",
+      "K-ETA 신청 대상 국적자 중 17세 이하 또는 65세 이상은 K-ETA 의무 적용에서 제외됩니다. 이것만으로 전자입국신고까지 면제되지는 않습니다."
+    ],
+    "faq": {
+      "title": "자주 묻는 질문",
+      "items": [
+        {
+          "q": "한시 면제",
+          "a": "K-ETA 한시 면제는 지정된 국가·지역에만 2026-12-31까지 적용됩니다. 무비자 입국 대상이라고 자동으로 K-ETA가 면제되는 것은 아닙니다. 이후 여행은 공식 공지를 다시 확인하세요."
+        },
+        {
+          "q": "전자입국신고 대상 확인",
+          "a": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다."
+        },
+        {
+          "q": "신청과 심사 시간",
+          "a": "탑승 전에 승인을 받을 수 있도록 충분히 일찍 신청하세요. K-ETA 심사는 72시간을 넘을 수 있으며 승인 시간이나 입국을 보장하지 않습니다."
+        },
+        {
+          "q": "연령별 면제",
+          "a": "K-ETA 신청 대상 국적자 중 17세 이하 또는 65세 이상은 K-ETA 의무 적용에서 제외됩니다. 이것만으로 전자입국신고까지 면제되지는 않습니다."
+        },
+        {
+          "q": "수수료와 유효기간",
+          "a": "K-ETA 수수료는 KRW 10,000에 온라인 결제 수수료가 별도로 부과되며 환불되지 않습니다. 현재 승인은 3년 또는 여권 만료일 중 먼저 도래하는 날까지 유효하며, 매번 허용되는 체류기간을 뜻하지 않습니다."
+        }
+      ]
+    },
+    "officialCards": [
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+        "what": "한시 면제"
+      },
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+        "what": "전자입국신고 대상 확인"
+      },
+      {
+        "icon": "🏛️",
+        "name": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "본인 조건은 공식 사이트에서 확인하세요. 최종 입국 결정은 출입국 심사에서 이루어집니다."
+      }
+    ],
+    "reviewed": "2026-09-23"
+  },
+  "ja": {
+    "slug": "visa",
+    "kicker": "入国・書類",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Departures hall at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+    },
+    "heroBg": "/img/hero-bg/visa.jpg",
+    "countryGuides": {
+      "title": "あなたの国を見つける",
+      "intro": "国籍ごとに進み方は異なります。自分の国を選んで、あなたに合わせたガイドを——ビザが必要なら A から Z までのビザ手順、ビザ免除なら簡単な入国チェックリスト。",
+      "needTitle": "🛂 ビザが必要——A から Z までの手順",
+      "items": [
+        {
+          "code": "india",
+          "flag": "🇮🇳",
+          "name": "インド",
+          "note": "C-3-9 観光ビザ · KVAC（VFS）"
+        },
+        {
+          "code": "vietnam",
+          "flag": "🇻🇳",
+          "name": "ベトナム",
+          "note": "C-3-9 · 簡素化書類 · 最長 10 年ビザ"
+        },
+        {
+          "code": "china",
+          "flag": "🇨🇳",
+          "name": "中国",
+          "note": "C-3 · 済州はビザ免除 30 日"
+        },
+        {
+          "code": "philippines",
+          "flag": "🇵🇭",
+          "name": "フィリピン",
+          "note": "C-3 · 無料ビザ · 残高証明不要"
+        },
+        {
+          "code": "indonesia",
+          "flag": "🇮🇩",
+          "name": "インドネシア",
+          "note": "C-3 · 2026 年 5 月から団体ビザ免除"
+        }
+      ],
+      "freeTitle": "✅ ビザ免除——簡単入国ガイド",
+      "visaFree": [
+        {
+          "code": "usa",
+          "flag": "🇺🇸",
+          "name": "アメリカ",
+          "note": "ビザ免除 90 日 · K-ETA 免除"
+        },
+        {
+          "code": "japan",
+          "flag": "🇯🇵",
+          "name": "日本",
+          "note": "ビザ免除 90 日 · K-ETA 免除"
+        },
+        {
+          "code": "uk",
+          "flag": "🇬🇧",
+          "name": "イギリス",
+          "note": "ビザ免除 90 日 · K-ETA 免除"
+        },
+        {
+          "code": "canada",
+          "flag": "🇨🇦",
+          "name": "カナダ",
+          "note": "ビザ免除 最長 6 か月"
+        },
+        {
+          "code": "australia",
+          "flag": "🇦🇺",
+          "name": "オーストラリア",
+          "note": "ビザ免除 90 日 · K-ETA 免除"
+        },
+        {
+          "code": "taiwan",
+          "flag": "🇹🇼",
+          "name": "台湾",
+          "note": "ビザ免除 90 日 · K-ETA 免除"
+        }
+      ],
+      "more": "パスポートの発行国がありませんか？公式の出入国機関で必要な手続きをご確認ください。"
+    },
+    "tldr": [
+      "K-ETAの一時免除は、指定された国・地域にのみ2026-12-31まで適用されます。ビザなしで入国できても、K-ETAが自動的に免除されるわけではありません。それ以降の渡航は公式のお知らせを再確認してください。",
+      "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。",
+      "K-ETA対象国籍の旅行者で17歳以下または65歳以上の方は、K-ETAの義務が免除されます。これだけで電子入国申告も免除されるわけではありません。"
+    ],
+    "faq": {
+      "title": "よくある質問",
+      "items": [
+        {
+          "q": "一時免除",
+          "a": "K-ETAの一時免除は、指定された国・地域にのみ2026-12-31まで適用されます。ビザなしで入国できても、K-ETAが自動的に免除されるわけではありません。それ以降の渡航は公式のお知らせを再確認してください。"
+        },
+        {
+          "q": "電子入国申告の対象を確認",
+          "a": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。"
+        },
+        {
+          "q": "申請と審査時間",
+          "a": "搭乗前に承認を得られるよう、余裕を持って申請してください。K-ETAの審査は72時間を超える場合があり、承認までの時間や入国は保証されません。"
+        },
+        {
+          "q": "年齢による免除",
+          "a": "K-ETA対象国籍の旅行者で17歳以下または65歳以上の方は、K-ETAの義務が免除されます。これだけで電子入国申告も免除されるわけではありません。"
+        },
+        {
+          "q": "手数料と有効期間",
+          "a": "K-ETAはKRW 10,000にオンライン決済手数料が加算され、返金されません。現在の承認は3年間または旅券の有効期限の早い方まで有効で、各滞在の許可期間とは異なります。"
+        }
+      ]
+    },
+    "officialCards": [
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+        "what": "一時免除"
+      },
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+        "what": "電子入国申告の対象を確認"
+      },
+      {
+        "icon": "🏛️",
+        "name": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "ご自身の条件は公式サイトで確認してください。入国の最終判断は入国審査で行われます。"
+      }
+    ],
+    "reviewed": "2026-09-23"
+  },
+  "zh": {
+    "slug": "visa",
+    "kicker": "入境与证件",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Departures hall at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+    },
+    "heroBg": "/img/hero-bg/visa.jpg",
+    "countryGuides": {
+      "title": "找到你的国家",
+      "intro": "每种国籍都有自己的路径。选择你的国籍，获取量身定制的指南——如果你需要签证，则提供完整的 A 到 Z 签证步骤；如果你免签，则提供快速入境清单。",
+      "needTitle": "🛂 你需要签证——完整 A 到 Z 步骤",
+      "items": [
+        {
+          "code": "india",
+          "flag": "🇮🇳",
+          "name": "印度",
+          "note": "C-3-9 旅游签证 · KVAC（VFS）"
+        },
+        {
+          "code": "vietnam",
+          "flag": "🇻🇳",
+          "name": "越南",
+          "note": "C-3-9 · 简化材料 · 最长可达 10 年签证"
+        },
+        {
+          "code": "china",
+          "flag": "🇨🇳",
+          "name": "中国",
+          "note": "C-3 · 济州岛免签 30 天"
+        },
+        {
+          "code": "philippines",
+          "flag": "🇵🇭",
+          "name": "菲律宾",
+          "note": "C-3 · 免费签证 · 无需银行流水"
+        },
+        {
+          "code": "indonesia",
+          "flag": "🇮🇩",
+          "name": "印度尼西亚",
+          "note": "C-3 · 自 2026 年 5 月起团体免签"
+        }
+      ],
+      "freeTitle": "✅ 免签——快速入境指南",
+      "visaFree": [
+        {
+          "code": "usa",
+          "flag": "🇺🇸",
+          "name": "美国",
+          "note": "免签 90 天 · K-ETA 豁免"
+        },
+        {
+          "code": "japan",
+          "flag": "🇯🇵",
+          "name": "日本",
+          "note": "免签 90 天 · K-ETA 豁免"
+        },
+        {
+          "code": "uk",
+          "flag": "🇬🇧",
+          "name": "英国",
+          "note": "免签 90 天 · K-ETA 豁免"
+        },
+        {
+          "code": "canada",
+          "flag": "🇨🇦",
+          "name": "加拿大",
+          "note": "免签最长 6 个月"
+        },
+        {
+          "code": "australia",
+          "flag": "🇦🇺",
+          "name": "澳大利亚",
+          "note": "免签 90 天 · K-ETA 豁免"
+        },
+        {
+          "code": "taiwan",
+          "flag": "🇹🇼",
+          "name": "台湾",
+          "note": "免签 90 天 · K-ETA 豁免"
+        }
+      ],
+      "more": "找不到护照签发国家？请向官方出入境机构确认所需手续。"
+    },
+    "tldr": [
+      "K-ETA临时豁免仅适用于指定国家和地区，有效至2026-12-31。免签入境不等于自动免除K-ETA。之后的旅行请重新查看官方公告。",
+      "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。",
+      "符合K-ETA申请国籍条件的旅客中，17岁及以下或65岁及以上者免于强制申请K-ETA。这不代表同时免除电子入境申报。"
+    ],
+    "faq": {
+      "title": "常见问题",
+      "items": [
+        {
+          "q": "临时豁免",
+          "a": "K-ETA临时豁免仅适用于指定国家和地区，有效至2026-12-31。免签入境不等于自动免除K-ETA。之后的旅行请重新查看官方公告。"
+        },
+        {
+          "q": "核对电子入境申报要求",
+          "a": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。"
+        },
+        {
+          "q": "申请及审核时间",
+          "a": "请尽早申请，确保登机前获批。K-ETA审核可能超过72小时，不保证审批时间或入境。"
+        },
+        {
+          "q": "年龄豁免",
+          "a": "符合K-ETA申请国籍条件的旅客中，17岁及以下或65岁及以上者免于强制申请K-ETA。这不代表同时免除电子入境申报。"
+        },
+        {
+          "q": "费用与有效期",
+          "a": "K-ETA费用为KRW 10,000，另收在线支付手续费，不予退款。目前签发的许可有效期为3年或至护照到期日，以较早者为准，并非每次可停留的期限。"
+        }
+      ]
+    },
+    "officialCards": [
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+        "what": "临时豁免"
+      },
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+        "what": "核对电子入境申报要求"
+      },
+      {
+        "icon": "🏛️",
+        "name": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "请在官方网站确认自身情况。最终入境决定由入境审查作出。"
+      }
+    ],
+    "reviewed": "2026-09-23"
+  },
+  "zh-TW": {
+    "slug": "visa",
+    "kicker": "入境與證件",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Departures hall at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+    },
+    "heroBg": "/img/hero-bg/visa.jpg",
+    "countryGuides": {
+      "title": "找到你的國家",
+      "intro": "每種國籍都有自己的路徑。選擇你的國籍，取得量身打造的指南——如果你需要簽證，則提供完整的 A 到 Z 簽證步驟；如果你免簽，則提供快速入境清單。",
+      "needTitle": "🛂 你需要簽證——完整 A 到 Z 步驟",
+      "items": [
+        {
+          "code": "india",
+          "flag": "🇮🇳",
+          "name": "印度",
+          "note": "C-3-9 旅遊簽證 · KVAC（VFS）"
+        },
+        {
+          "code": "vietnam",
+          "flag": "🇻🇳",
+          "name": "越南",
+          "note": "C-3-9 · 簡化文件 · 最長可達 10 年簽證"
+        },
+        {
+          "code": "china",
+          "flag": "🇨🇳",
+          "name": "中國",
+          "note": "C-3 · 濟州島免簽 30 天"
+        },
+        {
+          "code": "philippines",
+          "flag": "🇵🇭",
+          "name": "菲律賓",
+          "note": "C-3 · 免費簽證 · 無需銀行對帳單"
+        },
+        {
+          "code": "indonesia",
+          "flag": "🇮🇩",
+          "name": "印尼",
+          "note": "C-3 · 自 2026 年 5 月起團體免簽"
+        }
+      ],
+      "freeTitle": "✅ 免簽——快速入境指南",
+      "visaFree": [
+        {
+          "code": "usa",
+          "flag": "🇺🇸",
+          "name": "美國",
+          "note": "免簽 90 天 · K-ETA 豁免"
+        },
+        {
+          "code": "japan",
+          "flag": "🇯🇵",
+          "name": "日本",
+          "note": "免簽 90 天 · K-ETA 豁免"
+        },
+        {
+          "code": "uk",
+          "flag": "🇬🇧",
+          "name": "英國",
+          "note": "免簽 90 天 · K-ETA 豁免"
+        },
+        {
+          "code": "canada",
+          "flag": "🇨🇦",
+          "name": "加拿大",
+          "note": "免簽最長 6 個月"
+        },
+        {
+          "code": "australia",
+          "flag": "🇦🇺",
+          "name": "澳洲",
+          "note": "免簽 90 天 · K-ETA 豁免"
+        },
+        {
+          "code": "taiwan",
+          "flag": "🇹🇼",
+          "name": "台灣",
+          "note": "免簽 90 天 · K-ETA 豁免"
+        }
+      ],
+      "more": "找不到護照核發國家？請向官方出入境機關確認所需手續。"
+    },
+    "tldr": [
+      "K-ETA臨時豁免僅適用於指定國家和地區，有效至2026-12-31。免簽入境不等於自動免除K-ETA。之後的旅行請重新查看官方公告。",
+      "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。",
+      "符合K-ETA申請國籍條件的旅客中，17歲及以下或65歲及以上者免於強制申請K-ETA。這不代表同時免除電子入境申報。"
+    ],
+    "faq": {
+      "title": "常見問題",
+      "items": [
+        {
+          "q": "臨時豁免",
+          "a": "K-ETA臨時豁免僅適用於指定國家和地區，有效至2026-12-31。免簽入境不等於自動免除K-ETA。之後的旅行請重新查看官方公告。"
+        },
+        {
+          "q": "核對電子入境申報要求",
+          "a": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。"
+        },
+        {
+          "q": "申請及審核時間",
+          "a": "請儘早申請，確保登機前獲批。K-ETA審核可能超過72小時，不保證審批時間或入境。"
+        },
+        {
+          "q": "年齡豁免",
+          "a": "符合K-ETA申請國籍條件的旅客中，17歲及以下或65歲及以上者免於強制申請K-ETA。這不代表同時免除電子入境申報。"
+        },
+        {
+          "q": "費用與有效期",
+          "a": "K-ETA費用為KRW 10,000，另收線上支付手續費，不予退款。目前核發的許可有效期為3年或至護照到期日，以較早者為準，並非每次可停留的期限。"
+        }
+      ]
+    },
+    "officialCards": [
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+        "what": "臨時豁免"
+      },
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+        "what": "核對電子入境申報要求"
+      },
+      {
+        "icon": "🏛️",
+        "name": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "請在官方網站確認自身情況。最終入境決定由入境審查作出。"
+      }
+    ],
+    "reviewed": "2026-09-23"
+  },
+  "vi": {
+    "slug": "visa",
+    "kicker": "Nhập cảnh & Giấy tờ",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Departures hall at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+    },
+    "heroBg": "/img/hero-bg/visa.jpg",
+    "countryGuides": {
+      "title": "Tìm quốc gia của bạn",
+      "intro": "Mỗi quốc tịch có lối đi riêng. Chọn quốc tịch của bạn để có hướng dẫn phù hợp — một quy trình thị thực đầy đủ từ A đến Z nếu bạn cần thị thực, hoặc một danh sách kiểm tra nhập cảnh nhanh nếu bạn được miễn thị thực.",
+      "needTitle": "🛂 Bạn cần thị thực — hướng dẫn đầy đủ từ A đến Z",
+      "items": [
+        {
+          "code": "india",
+          "flag": "🇮🇳",
+          "name": "Ấn Độ",
+          "note": "Thị thực du lịch C-3-9 · KVAC (VFS)"
+        },
+        {
+          "code": "vietnam",
+          "flag": "🇻🇳",
+          "name": "Việt Nam",
+          "note": "C-3-9 · giấy tờ đơn giản hóa · thị thực tới 10 năm"
+        },
+        {
+          "code": "china",
+          "flag": "🇨🇳",
+          "name": "Trung Quốc",
+          "note": "C-3 · Jeju miễn thị thực 30 ngày"
+        },
+        {
+          "code": "philippines",
+          "flag": "🇵🇭",
+          "name": "Philippines",
+          "note": "C-3 · thị thực MIỄN PHÍ · không cần sao kê ngân hàng"
+        },
+        {
+          "code": "indonesia",
+          "flag": "🇮🇩",
+          "name": "Indonesia",
+          "note": "C-3 · miễn thị thực theo nhóm từ tháng 5 năm 2026"
+        }
+      ],
+      "freeTitle": "✅ Miễn thị thực — hướng dẫn nhập cảnh nhanh",
+      "visaFree": [
+        {
+          "code": "usa",
+          "flag": "🇺🇸",
+          "name": "Hoa Kỳ",
+          "note": "Miễn thị thực 90 ngày · miễn K-ETA"
+        },
+        {
+          "code": "japan",
+          "flag": "🇯🇵",
+          "name": "Nhật Bản",
+          "note": "Miễn thị thực 90 ngày · miễn K-ETA"
+        },
+        {
+          "code": "uk",
+          "flag": "🇬🇧",
+          "name": "Anh",
+          "note": "Miễn thị thực 90 ngày · miễn K-ETA"
+        },
+        {
+          "code": "canada",
+          "flag": "🇨🇦",
+          "name": "Canada",
+          "note": "Miễn thị thực tới 6 tháng"
+        },
+        {
+          "code": "australia",
+          "flag": "🇦🇺",
+          "name": "Úc",
+          "note": "Miễn thị thực 90 ngày · miễn K-ETA"
+        },
+        {
+          "code": "taiwan",
+          "flag": "🇹🇼",
+          "name": "Đài Loan",
+          "note": "Miễn thị thực 90 ngày · miễn K-ETA"
+        }
+      ],
+      "more": "Không thấy quốc gia cấp hộ chiếu? Hãy kiểm tra yêu cầu với cơ quan xuất nhập cảnh chính thức."
+    },
+    "tldr": [
+      "Miễn K-ETA tạm thời chỉ áp dụng cho các quốc gia và vùng lãnh thổ được chỉ định đến 2026-12-31. Nhập cảnh miễn thị thực không đồng nghĩa với tự động được miễn K-ETA. Kiểm tra lại thông báo chính thức cho chuyến đi sau thời hạn này.",
+      "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan.",
+      "Du khách thuộc quốc tịch đủ điều kiện K-ETA, từ 17 tuổi trở xuống hoặc từ 65 tuổi trở lên, được miễn K-ETA bắt buộc. Điều này không tự động miễn e-Arrival Card."
+    ],
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "items": [
+        {
+          "q": "Miễn tạm thời",
+          "a": "Miễn K-ETA tạm thời chỉ áp dụng cho các quốc gia và vùng lãnh thổ được chỉ định đến 2026-12-31. Nhập cảnh miễn thị thực không đồng nghĩa với tự động được miễn K-ETA. Kiểm tra lại thông báo chính thức cho chuyến đi sau thời hạn này."
+        },
+        {
+          "q": "Kiểm tra yêu cầu e-Arrival Card",
+          "a": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan."
+        },
+        {
+          "q": "Nộp hồ sơ và xét duyệt",
+          "a": "Nộp sớm để được chấp thuận trước khi lên máy bay. Xét duyệt K-ETA có thể kéo dài hơn 72 giờ; không bảo đảm thời gian phê duyệt hay quyền nhập cảnh."
+        },
+        {
+          "q": "Miễn theo độ tuổi",
+          "a": "Du khách thuộc quốc tịch đủ điều kiện K-ETA, từ 17 tuổi trở xuống hoặc từ 65 tuổi trở lên, được miễn K-ETA bắt buộc. Điều này không tự động miễn e-Arrival Card."
+        },
+        {
+          "q": "Phí và hiệu lực",
+          "a": "K-ETA có phí KRW 10,000 cộng phí thanh toán trực tuyến và không được hoàn lại. Giấy phép hiện tại có hiệu lực 3 năm hoặc đến ngày hộ chiếu hết hạn, tùy ngày nào đến trước; đây không phải thời gian được lưu trú mỗi lần."
+        }
+      ]
+    },
+    "officialCards": [
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+        "what": "Miễn tạm thời"
+      },
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+        "what": "Kiểm tra yêu cầu e-Arrival Card"
+      },
+      {
+        "icon": "🏛️",
+        "name": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "Xác nhận trường hợp của bạn trên trang chính thức. Cơ quan xuất nhập cảnh quyết định cuối cùng về việc nhập cảnh."
+      }
+    ],
+    "reviewed": "2026-09-23"
+  },
+  "th": {
+    "slug": "visa",
+    "kicker": "การเข้าเมืองและเอกสาร",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Departures hall at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+    },
+    "heroBg": "/img/hero-bg/visa.jpg",
+    "countryGuides": {
+      "title": "ค้นหาประเทศของคุณ",
+      "intro": "แต่ละสัญชาติมีเส้นทางของตัวเอง เลือกสัญชาติของคุณเพื่อรับคู่มือที่ปรับให้เหมาะ — คู่มือวีซ่าครบตั้งแต่ A ถึง Z หากคุณต้องใช้วีซ่า หรือเช็กลิสต์เข้าเมืองอย่างรวดเร็วหากคุณได้รับยกเว้นวีซ่า",
+      "needTitle": "🛂 คุณต้องใช้วีซ่า — คู่มือครบตั้งแต่ A ถึง Z",
+      "items": [
+        {
+          "code": "india",
+          "flag": "🇮🇳",
+          "name": "อินเดีย",
+          "note": "วีซ่าท่องเที่ยว C-3-9 · KVAC (VFS)"
+        },
+        {
+          "code": "vietnam",
+          "flag": "🇻🇳",
+          "name": "เวียดนาม",
+          "note": "C-3-9 · เอกสารแบบง่าย · วีซ่าสูงสุด 10 ปี"
+        },
+        {
+          "code": "china",
+          "flag": "🇨🇳",
+          "name": "จีน",
+          "note": "C-3 · เชจูยกเว้นวีซ่า 30 วัน"
+        },
+        {
+          "code": "philippines",
+          "flag": "🇵🇭",
+          "name": "ฟิลิปปินส์",
+          "note": "C-3 · วีซ่าฟรี · ไม่ต้องมีสเตทเมนต์ธนาคาร"
+        },
+        {
+          "code": "indonesia",
+          "flag": "🇮🇩",
+          "name": "อินโดนีเซีย",
+          "note": "C-3 · ยกเว้นวีซ่าแบบกลุ่มตั้งแต่พฤษภาคม 2026"
+        }
+      ],
+      "freeTitle": "✅ ยกเว้นวีซ่า — คู่มือเข้าเมืองอย่างรวดเร็ว",
+      "visaFree": [
+        {
+          "code": "usa",
+          "flag": "🇺🇸",
+          "name": "สหรัฐอเมริกา",
+          "note": "ยกเว้นวีซ่า 90 วัน · ยกเว้น K-ETA"
+        },
+        {
+          "code": "japan",
+          "flag": "🇯🇵",
+          "name": "ญี่ปุ่น",
+          "note": "ยกเว้นวีซ่า 90 วัน · ยกเว้น K-ETA"
+        },
+        {
+          "code": "uk",
+          "flag": "🇬🇧",
+          "name": "สหราชอาณาจักร",
+          "note": "ยกเว้นวีซ่า 90 วัน · ยกเว้น K-ETA"
+        },
+        {
+          "code": "canada",
+          "flag": "🇨🇦",
+          "name": "แคนาดา",
+          "note": "ยกเว้นวีซ่าสูงสุด 6 เดือน"
+        },
+        {
+          "code": "australia",
+          "flag": "🇦🇺",
+          "name": "ออสเตรเลีย",
+          "note": "ยกเว้นวีซ่า 90 วัน · ยกเว้น K-ETA"
+        },
+        {
+          "code": "taiwan",
+          "flag": "🇹🇼",
+          "name": "ไต้หวัน",
+          "note": "ยกเว้นวีซ่า 90 วัน · ยกเว้น K-ETA"
+        }
+      ],
+      "more": "ไม่พบประเทศที่ออกหนังสือเดินทาง? โปรดตรวจสอบข้อกำหนดกับหน่วยงานตรวจคนเข้าเมืองอย่างเป็นทางการ"
+    },
+    "tldr": [
+      "การยกเว้น K-ETA ชั่วคราวใช้กับประเทศและเขตที่กำหนดเท่านั้นจนถึง 2026-12-31 การเข้าประเทศแบบยกเว้นวีซ่าไม่ได้หมายถึงยกเว้น K-ETA โดยอัตโนมัติ หากเดินทางหลังจากนั้นให้ตรวจสอบประกาศทางการอีกครั้ง",
+      "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร",
+      "ผู้เดินทางสัญชาติที่มีสิทธิ์สมัคร K-ETA อายุ 17 ปีหรือต่ำกว่า หรือ 65 ปีขึ้นไป ไม่ต้องสมัคร K-ETA ตามข้อบังคับ แต่ไม่ได้ยกเว้น e-Arrival Card โดยอัตโนมัติ"
+    ],
+    "faq": {
+      "title": "คำถามที่พบบ่อย",
+      "items": [
+        {
+          "q": "การยกเว้นชั่วคราว",
+          "a": "การยกเว้น K-ETA ชั่วคราวใช้กับประเทศและเขตที่กำหนดเท่านั้นจนถึง 2026-12-31 การเข้าประเทศแบบยกเว้นวีซ่าไม่ได้หมายถึงยกเว้น K-ETA โดยอัตโนมัติ หากเดินทางหลังจากนั้นให้ตรวจสอบประกาศทางการอีกครั้ง"
+        },
+        {
+          "q": "ตรวจสอบข้อกำหนด e-Arrival Card",
+          "a": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร"
+        },
+        {
+          "q": "การสมัครและระยะเวลาพิจารณา",
+          "a": "สมัครล่วงหน้าให้มีเวลารับอนุมัติก่อนขึ้นเครื่อง การพิจารณา K-ETA อาจเกิน 72 ชั่วโมง ไม่มีการรับประกันเวลาอนุมัติหรือการเข้าเมือง"
+        },
+        {
+          "q": "การยกเว้นตามอายุ",
+          "a": "ผู้เดินทางสัญชาติที่มีสิทธิ์สมัคร K-ETA อายุ 17 ปีหรือต่ำกว่า หรือ 65 ปีขึ้นไป ไม่ต้องสมัคร K-ETA ตามข้อบังคับ แต่ไม่ได้ยกเว้น e-Arrival Card โดยอัตโนมัติ"
+        },
+        {
+          "q": "ค่าธรรมเนียมและอายุการใช้งาน",
+          "a": "K-ETA มีค่าธรรมเนียม KRW 10,000 และค่าชำระเงินออนไลน์เพิ่มเติม โดยไม่คืนเงิน การอนุมัติปัจจุบันใช้ได้ 3 ปีหรือจนหนังสือเดินทางหมดอายุ แล้วแต่อย่างใดถึงก่อน ไม่ใช่ระยะเวลาพำนักที่อนุญาตในแต่ละครั้ง"
+        }
+      ]
+    },
+    "officialCards": [
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+        "what": "การยกเว้นชั่วคราว"
+      },
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+        "what": "ตรวจสอบข้อกำหนด e-Arrival Card"
+      },
+      {
+        "icon": "🏛️",
+        "name": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "ตรวจสอบกรณีของคุณบนเว็บไซต์ทางการ เจ้าหน้าที่ตรวจคนเข้าเมืองเป็นผู้ตัดสินขั้นสุดท้าย"
+      }
+    ],
+    "reviewed": "2026-09-23"
+  },
+  "id": {
+    "slug": "visa",
+    "kicker": "Masuk & Dokumen",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Departures hall at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+    },
+    "heroBg": "/img/hero-bg/visa.jpg",
+    "countryGuides": {
+      "title": "Temukan negara Anda",
+      "intro": "Setiap kewarganegaraan punya jalurnya sendiri. Pilih milik Anda untuk panduan yang disesuaikan — panduan visa lengkap dari A sampai Z jika Anda perlu visa, atau daftar periksa masuk singkat jika Anda bebas visa.",
+      "needTitle": "🛂 Anda perlu visa — panduan lengkap dari A sampai Z",
+      "items": [
+        {
+          "code": "india",
+          "flag": "🇮🇳",
+          "name": "India",
+          "note": "Visa turis C-3-9 · KVAC (VFS)"
+        },
+        {
+          "code": "vietnam",
+          "flag": "🇻🇳",
+          "name": "Vietnam",
+          "note": "C-3-9 · dokumen disederhanakan · visa hingga 10 tahun"
+        },
+        {
+          "code": "china",
+          "flag": "🇨🇳",
+          "name": "Tiongkok",
+          "note": "C-3 · Jeju bebas visa 30 hari"
+        },
+        {
+          "code": "philippines",
+          "flag": "🇵🇭",
+          "name": "Filipina",
+          "note": "C-3 · visa GRATIS · tanpa rekening koran"
+        },
+        {
+          "code": "indonesia",
+          "flag": "🇮🇩",
+          "name": "Indonesia",
+          "note": "C-3 · bebas visa grup mulai Mei 2026"
+        }
+      ],
+      "freeTitle": "✅ Bebas visa — panduan masuk singkat",
+      "visaFree": [
+        {
+          "code": "usa",
+          "flag": "🇺🇸",
+          "name": "Amerika Serikat",
+          "note": "Bebas visa 90 hari · K-ETA dibebaskan"
+        },
+        {
+          "code": "japan",
+          "flag": "🇯🇵",
+          "name": "Jepang",
+          "note": "Bebas visa 90 hari · K-ETA dibebaskan"
+        },
+        {
+          "code": "uk",
+          "flag": "🇬🇧",
+          "name": "Inggris",
+          "note": "Bebas visa 90 hari · K-ETA dibebaskan"
+        },
+        {
+          "code": "canada",
+          "flag": "🇨🇦",
+          "name": "Kanada",
+          "note": "Bebas visa hingga 6 bulan"
+        },
+        {
+          "code": "australia",
+          "flag": "🇦🇺",
+          "name": "Australia",
+          "note": "Bebas visa 90 hari · K-ETA dibebaskan"
+        },
+        {
+          "code": "taiwan",
+          "flag": "🇹🇼",
+          "name": "Taiwan",
+          "note": "Bebas visa 90 hari · K-ETA dibebaskan"
+        }
+      ],
+      "more": "Negara penerbit paspor tidak tercantum? Periksa persyaratan melalui layanan imigrasi resmi."
+    },
+    "tldr": [
+      "Pembebasan sementara K-ETA hanya berlaku bagi negara dan wilayah yang ditetapkan hingga 2026-12-31. Bebas visa tidak otomatis berarti bebas K-ETA. Periksa kembali pengumuman resmi untuk perjalanan setelah tanggal tersebut.",
+      "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai.",
+      "Pelancong berkewarganegaraan yang memenuhi syarat K-ETA berusia 17 tahun ke bawah atau 65 tahun ke atas dibebaskan dari kewajiban K-ETA. Ini tidak otomatis membebaskan e-Arrival Card."
+    ],
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan",
+      "items": [
+        {
+          "q": "Pembebasan sementara",
+          "a": "Pembebasan sementara K-ETA hanya berlaku bagi negara dan wilayah yang ditetapkan hingga 2026-12-31. Bebas visa tidak otomatis berarti bebas K-ETA. Periksa kembali pengumuman resmi untuk perjalanan setelah tanggal tersebut."
+        },
+        {
+          "q": "Periksa kewajiban e-Arrival Card",
+          "a": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai."
+        },
+        {
+          "q": "Permohonan dan waktu proses",
+          "a": "Ajukan cukup awal agar persetujuan diterima sebelum naik pesawat. Pemeriksaan K-ETA dapat melebihi 72 jam; waktu persetujuan dan izin masuk tidak dijamin."
+        },
+        {
+          "q": "Pembebasan berdasarkan usia",
+          "a": "Pelancong berkewarganegaraan yang memenuhi syarat K-ETA berusia 17 tahun ke bawah atau 65 tahun ke atas dibebaskan dari kewajiban K-ETA. Ini tidak otomatis membebaskan e-Arrival Card."
+        },
+        {
+          "q": "Biaya dan masa berlaku",
+          "a": "Biaya K-ETA adalah KRW 10,000 ditambah biaya pembayaran daring dan tidak dapat dikembalikan. Persetujuan saat ini berlaku selama 3 tahun atau hingga paspor kedaluwarsa, mana yang lebih dahulu; ini bukan durasi tinggal per kunjungan."
+        }
+      ]
+    },
+    "officialCards": [
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+        "what": "Pembebasan sementara"
+      },
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+        "what": "Periksa kewajiban e-Arrival Card"
+      },
+      {
+        "icon": "🏛️",
+        "name": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "Pastikan kasus Anda di situs resmi. Petugas imigrasi membuat keputusan akhir tentang izin masuk."
+      }
+    ],
+    "reviewed": "2026-09-23"
+  },
+  "ms": {
+    "slug": "visa",
+    "kicker": "Kemasukan & Dokumen",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Departures hall at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+    },
+    "heroBg": "/img/hero-bg/visa.jpg",
+    "countryGuides": {
+      "title": "Cari negara anda",
+      "intro": "Setiap warganegara mempunyai laluannya sendiri. Pilih milik anda untuk panduan yang disesuaikan — panduan visa lengkap dari A hingga Z jika anda perlukan visa, atau senarai semak kemasukan pantas jika anda bebas visa.",
+      "needTitle": "🛂 Anda perlukan visa — panduan lengkap dari A hingga Z",
+      "items": [
+        {
+          "code": "india",
+          "flag": "🇮🇳",
+          "name": "India",
+          "note": "Visa pelancong C-3-9 · KVAC (VFS)"
+        },
+        {
+          "code": "vietnam",
+          "flag": "🇻🇳",
+          "name": "Vietnam",
+          "note": "C-3-9 · dokumen dipermudah · visa sehingga 10 tahun"
+        },
+        {
+          "code": "china",
+          "flag": "🇨🇳",
+          "name": "China",
+          "note": "C-3 · Jeju bebas visa 30 hari"
+        },
+        {
+          "code": "philippines",
+          "flag": "🇵🇭",
+          "name": "Filipina",
+          "note": "C-3 · visa PERCUMA · tiada penyata bank"
+        },
+        {
+          "code": "indonesia",
+          "flag": "🇮🇩",
+          "name": "Indonesia",
+          "note": "C-3 · bebas visa berkumpulan mulai Mei 2026"
+        }
+      ],
+      "freeTitle": "✅ Bebas visa — panduan kemasukan pantas",
+      "visaFree": [
+        {
+          "code": "usa",
+          "flag": "🇺🇸",
+          "name": "Amerika Syarikat",
+          "note": "Bebas visa 90 hari · K-ETA dikecualikan"
+        },
+        {
+          "code": "japan",
+          "flag": "🇯🇵",
+          "name": "Jepun",
+          "note": "Bebas visa 90 hari · K-ETA dikecualikan"
+        },
+        {
+          "code": "uk",
+          "flag": "🇬🇧",
+          "name": "UK",
+          "note": "Bebas visa 90 hari · K-ETA dikecualikan"
+        },
+        {
+          "code": "canada",
+          "flag": "🇨🇦",
+          "name": "Kanada",
+          "note": "Bebas visa sehingga 6 bulan"
+        },
+        {
+          "code": "australia",
+          "flag": "🇦🇺",
+          "name": "Australia",
+          "note": "Bebas visa 90 hari · K-ETA dikecualikan"
+        },
+        {
+          "code": "taiwan",
+          "flag": "🇹🇼",
+          "name": "Taiwan",
+          "note": "Bebas visa 90 hari · K-ETA dikecualikan"
+        }
+      ],
+      "more": "Negara pengeluar pasport tiada dalam senarai? Semak keperluan dengan perkhidmatan imigresen rasmi."
+    },
+    "tldr": [
+      "Pengecualian sementara K-ETA hanya terpakai kepada negara dan wilayah yang ditetapkan hingga 2026-12-31. Kemasukan tanpa visa tidak bermakna K-ETA dikecualikan secara automatik. Semak semula notis rasmi untuk perjalanan selepas tarikh itu.",
+      "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam.",
+      "Pelancong daripada kewarganegaraan yang layak K-ETA berumur 17 tahun ke bawah atau 65 tahun ke atas dikecualikan daripada kewajipan K-ETA. Ini tidak secara automatik mengecualikan e-Arrival Card."
+    ],
+    "faq": {
+      "title": "Soalan lazim",
+      "items": [
+        {
+          "q": "Pengecualian sementara",
+          "a": "Pengecualian sementara K-ETA hanya terpakai kepada negara dan wilayah yang ditetapkan hingga 2026-12-31. Kemasukan tanpa visa tidak bermakna K-ETA dikecualikan secara automatik. Semak semula notis rasmi untuk perjalanan selepas tarikh itu."
+        },
+        {
+          "q": "Semak keperluan e-Arrival Card",
+          "a": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam."
+        },
+        {
+          "q": "Permohonan dan tempoh proses",
+          "a": "Mohon awal supaya kelulusan diterima sebelum menaiki pesawat. Penilaian K-ETA boleh melebihi 72 jam; tempoh kelulusan dan kemasukan tidak dijamin."
+        },
+        {
+          "q": "Pengecualian mengikut umur",
+          "a": "Pelancong daripada kewarganegaraan yang layak K-ETA berumur 17 tahun ke bawah atau 65 tahun ke atas dikecualikan daripada kewajipan K-ETA. Ini tidak secara automatik mengecualikan e-Arrival Card."
+        },
+        {
+          "q": "Fi dan tempoh sah",
+          "a": "K-ETA berharga KRW 10,000 berserta caj pembayaran dalam talian dan tidak boleh dibayar balik. Kelulusan semasa sah selama 3 tahun atau sehingga pasport tamat, yang mana lebih awal; ini bukan tempoh tinggal bagi setiap lawatan."
+        }
+      ]
+    },
+    "officialCards": [
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+        "what": "Pengecualian sementara"
+      },
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+        "what": "Semak keperluan e-Arrival Card"
+      },
+      {
+        "icon": "🏛️",
+        "name": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "Sahkan keadaan anda di laman rasmi. Pegawai imigresen membuat keputusan akhir mengenai kemasukan."
+      }
+    ],
+    "reviewed": "2026-09-23"
+  },
+  "es": {
+    "slug": "visa",
+    "kicker": "Entrada y documentos",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Departures hall at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+    },
+    "heroBg": "/img/hero-bg/visa.jpg",
+    "countryGuides": {
+      "title": "Encuentra tu país",
+      "intro": "Cada nacionalidad tiene su propio camino. Elige el tuyo para una guía a medida: un recorrido de visado completo de la A a la Z si necesitas visado, o una lista de comprobación de entrada rápida si estás exento de visado.",
+      "needTitle": "🛂 Necesitas visado — recorrido completo de la A a la Z",
+      "items": [
+        {
+          "code": "india",
+          "flag": "🇮🇳",
+          "name": "India",
+          "note": "Visado de turista C-3-9 · KVAC (VFS)"
+        },
+        {
+          "code": "vietnam",
+          "flag": "🇻🇳",
+          "name": "Vietnam",
+          "note": "C-3-9 · documentos simplificados · visado de hasta 10 años"
+        },
+        {
+          "code": "china",
+          "flag": "🇨🇳",
+          "name": "China",
+          "note": "C-3 · Jeju sin visado 30 días"
+        },
+        {
+          "code": "philippines",
+          "flag": "🇵🇭",
+          "name": "Filipinas",
+          "note": "C-3 · visado GRATUITO · sin extracto bancario"
+        },
+        {
+          "code": "indonesia",
+          "flag": "🇮🇩",
+          "name": "Indonesia",
+          "note": "C-3 · exención de visado en grupo desde mayo de 2026"
+        }
+      ],
+      "freeTitle": "✅ Exento de visado — guía de entrada rápida",
+      "visaFree": [
+        {
+          "code": "usa",
+          "flag": "🇺🇸",
+          "name": "EE. UU.",
+          "note": "Sin visado 90 días · K-ETA exenta"
+        },
+        {
+          "code": "japan",
+          "flag": "🇯🇵",
+          "name": "Japón",
+          "note": "Sin visado 90 días · K-ETA exenta"
+        },
+        {
+          "code": "uk",
+          "flag": "🇬🇧",
+          "name": "Reino Unido",
+          "note": "Sin visado 90 días · K-ETA exenta"
+        },
+        {
+          "code": "canada",
+          "flag": "🇨🇦",
+          "name": "Canadá",
+          "note": "Sin visado hasta 6 meses"
+        },
+        {
+          "code": "australia",
+          "flag": "🇦🇺",
+          "name": "Australia",
+          "note": "Sin visado 90 días · K-ETA exenta"
+        },
+        {
+          "code": "taiwan",
+          "flag": "🇹🇼",
+          "name": "Taiwán",
+          "note": "Sin visado 90 días · K-ETA exenta"
+        }
+      ],
+      "more": "¿No aparece el país de tu pasaporte? Consulta los requisitos con el servicio oficial de inmigración."
+    },
+    "tldr": [
+      "La exención temporal de K-ETA se aplica solo a los países y territorios designados hasta 2026-12-31. Entrar sin visado no implica estar exento de K-ETA. Consulta de nuevo el aviso oficial para viajes posteriores.",
+      "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera.",
+      "Los viajeros de nacionalidades elegibles para K-ETA de 17 años o menos, o de 65 años o más, están exentos de la obligación de K-ETA. Esto no los exime automáticamente de la e-Arrival Card."
+    ],
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "Exención temporal",
+          "a": "La exención temporal de K-ETA se aplica solo a los países y territorios designados hasta 2026-12-31. Entrar sin visado no implica estar exento de K-ETA. Consulta de nuevo el aviso oficial para viajes posteriores."
+        },
+        {
+          "q": "Comprueba si necesitas e-Arrival Card",
+          "a": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera."
+        },
+        {
+          "q": "Solicitud y plazos",
+          "a": "Solicita con tiempo para recibir la aprobación antes de embarcar. La evaluación de K-ETA puede superar las 72 horas; no se garantiza el plazo de aprobación ni la entrada."
+        },
+        {
+          "q": "Exenciones por edad",
+          "a": "Los viajeros de nacionalidades elegibles para K-ETA de 17 años o menos, o de 65 años o más, están exentos de la obligación de K-ETA. Esto no los exime automáticamente de la e-Arrival Card."
+        },
+        {
+          "q": "Tasa y validez",
+          "a": "K-ETA cuesta KRW 10,000 más la comisión de pago en línea y no es reembolsable. Las aprobaciones actuales duran 3 años o hasta que caduque el pasaporte, lo que ocurra antes; no es la duración permitida de cada estancia."
+        }
+      ]
+    },
+    "officialCards": [
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+        "what": "Exención temporal"
+      },
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+        "what": "Comprueba si necesitas e-Arrival Card"
+      },
+      {
+        "icon": "🏛️",
+        "name": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "Confirma tu caso en los sitios oficiales. Inmigración toma la decisión final de entrada."
+      }
+    ],
+    "reviewed": "2026-09-23"
+  },
+  "fr": {
+    "slug": "visa",
+    "kicker": "Entry & Documents",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Departures hall at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+    },
+    "heroBg": "/img/hero-bg/visa.jpg",
+    "countryGuides": {
+      "title": "Find your country",
+      "intro": "Every nationality has its own path. Pick yours for a tailored guide — a full A-to-Z visa walkthrough if you need a visa, or a quick entry checklist if you're visa-free.",
+      "needTitle": "🛂 You need a visa — full A-to-Z walkthrough",
+      "items": [
+        {
+          "code": "india",
+          "flag": "🇮🇳",
+          "name": "India",
+          "note": "C-3-9 tourist visa · KVAC (VFS)"
+        },
+        {
+          "code": "vietnam",
+          "flag": "🇻🇳",
+          "name": "Vietnam",
+          "note": "C-3-9 · simplified docs · up to 10-yr visa"
+        },
+        {
+          "code": "china",
+          "flag": "🇨🇳",
+          "name": "China",
+          "note": "C-3 · Jeju visa-free 30 days"
+        },
+        {
+          "code": "philippines",
+          "flag": "🇵🇭",
+          "name": "Philippines",
+          "note": "C-3 · FREE visa · no bank statement"
+        },
+        {
+          "code": "indonesia",
+          "flag": "🇮🇩",
+          "name": "Indonesia",
+          "note": "C-3 · group visa-free from May 2026"
+        },
+        {
+          "code": "mongolia",
+          "flag": "🇲🇳",
+          "name": "Mongolia",
+          "note": "C-3-9 · KVAC Ulaanbaatar"
+        },
+        {
+          "code": "bangladesh",
+          "flag": "🇧🇩",
+          "name": "Bangladesh",
+          "note": "C-3-9 · e-Form · Embassy Dhaka"
+        },
+        {
+          "code": "nepal",
+          "flag": "🇳🇵",
+          "name": "Nepal",
+          "note": "C-3-9 · Embassy Kathmandu · appointment"
+        },
+        {
+          "code": "uzbekistan",
+          "flag": "🇺🇿",
+          "name": "Uzbekistan",
+          "note": "C-3 · via accredited agency"
+        },
+        {
+          "code": "srilanka",
+          "flag": "🇱🇰",
+          "name": "Sri Lanka",
+          "note": "C-3-9 · paper visa · Embassy Colombo"
+        },
+        {
+          "code": "pakistan",
+          "flag": "🇵🇰",
+          "name": "Pakistan",
+          "note": "C-3 · Embassy Islamabad · interview possible"
+        }
+      ],
+      "freeTitle": "✅ Visa-free — quick entry guide",
+      "visaFree": [
+        {
+          "code": "usa",
+          "flag": "🇺🇸",
+          "name": "USA",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "japan",
+          "flag": "🇯🇵",
+          "name": "Japan",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "uk",
+          "flag": "🇬🇧",
+          "name": "UK",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "canada",
+          "flag": "🇨🇦",
+          "name": "Canada",
+          "note": "Visa-free up to 6 months"
+        },
+        {
+          "code": "australia",
+          "flag": "🇦🇺",
+          "name": "Australia",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "taiwan",
+          "flag": "🇹🇼",
+          "name": "Taiwan",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "hongkong",
+          "flag": "🇭🇰",
+          "name": "Hong Kong",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "singapore",
+          "flag": "🇸🇬",
+          "name": "Singapore",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "malaysia",
+          "flag": "🇲🇾",
+          "name": "Malaysia",
+          "note": "Visa-free 90 days · K-ETA required"
+        },
+        {
+          "code": "thailand",
+          "flag": "🇹🇭",
+          "name": "Thailand",
+          "note": "Visa-free 90 days · K-ETA required"
+        },
+        {
+          "code": "kazakhstan",
+          "flag": "🇰🇿",
+          "name": "Kazakhstan",
+          "note": "Visa-free 30 days · K-ETA required"
+        }
+      ],
+      "more": "Le pays de votre passeport ne figure pas dans la liste ? Vérifiez les conditions auprès du service officiel d’immigration."
+    },
+    "tldr": [
+      "L’exemption temporaire de K-ETA concerne uniquement les pays et territoires désignés jusqu’au 2026-12-31. Une entrée sans visa ne signifie pas une exemption automatique de K-ETA. Consultez à nouveau l’avis officiel pour un voyage ultérieur.",
+      "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière.",
+      "Les voyageurs de nationalités éligibles à K-ETA âgés de 17 ans ou moins, ou de 65 ans ou plus, sont exemptés de l’obligation de K-ETA. Cela ne les dispense pas automatiquement de l’e-Arrival Card."
+    ],
+    "faq": {
+      "title": "Questions fréquentes",
+      "items": [
+        {
+          "q": "Exemption temporaire",
+          "a": "L’exemption temporaire de K-ETA concerne uniquement les pays et territoires désignés jusqu’au 2026-12-31. Une entrée sans visa ne signifie pas une exemption automatique de K-ETA. Consultez à nouveau l’avis officiel pour un voyage ultérieur."
+        },
+        {
+          "q": "Vérifier l’obligation d’e-Arrival Card",
+          "a": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière."
+        },
+        {
+          "q": "Demande et délais",
+          "a": "Faites votre demande assez tôt pour obtenir l’approbation avant l’embarquement. L’examen K-ETA peut dépasser 72 heures ; ni le délai d’approbation ni l’entrée ne sont garantis."
+        },
+        {
+          "q": "Exemptions selon l’âge",
+          "a": "Les voyageurs de nationalités éligibles à K-ETA âgés de 17 ans ou moins, ou de 65 ans ou plus, sont exemptés de l’obligation de K-ETA. Cela ne les dispense pas automatiquement de l’e-Arrival Card."
+        },
+        {
+          "q": "Frais et validité",
+          "a": "K-ETA coûte KRW 10,000, auxquels s’ajoutent les frais de paiement en ligne, sans remboursement. Les autorisations actuelles sont valables 3 ans ou jusqu’à l’expiration du passeport, selon la première échéance ; ce n’est pas la durée de séjour autorisée par visite."
+        }
+      ]
+    },
+    "officialCards": [
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+        "what": "Exemption temporaire"
+      },
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+        "what": "Vérifier l’obligation d’e-Arrival Card"
+      },
+      {
+        "icon": "🏛️",
+        "name": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "Confirmez votre situation sur les sites officiels. L’immigration prend la décision finale d’entrée."
+      }
+    ],
+    "reviewed": "2026-09-23"
+  },
+  "ru": {
+    "slug": "visa",
+    "kicker": "Entry & Documents",
+    "hero": {
+      "img": "/img/visa/incheon-arrivals.jpg",
+      "alt": "Departures hall at Incheon International Airport",
+      "credit": "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0",
+      "creditUrl": "https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg"
+    },
+    "heroBg": "/img/hero-bg/visa.jpg",
+    "countryGuides": {
+      "title": "Find your country",
+      "intro": "Every nationality has its own path. Pick yours for a tailored guide — a full A-to-Z visa walkthrough if you need a visa, or a quick entry checklist if you're visa-free.",
+      "needTitle": "🛂 You need a visa — full A-to-Z walkthrough",
+      "items": [
+        {
+          "code": "india",
+          "flag": "🇮🇳",
+          "name": "India",
+          "note": "C-3-9 tourist visa · KVAC (VFS)"
+        },
+        {
+          "code": "vietnam",
+          "flag": "🇻🇳",
+          "name": "Vietnam",
+          "note": "C-3-9 · simplified docs · up to 10-yr visa"
+        },
+        {
+          "code": "china",
+          "flag": "🇨🇳",
+          "name": "China",
+          "note": "C-3 · Jeju visa-free 30 days"
+        },
+        {
+          "code": "philippines",
+          "flag": "🇵🇭",
+          "name": "Philippines",
+          "note": "C-3 · FREE visa · no bank statement"
+        },
+        {
+          "code": "indonesia",
+          "flag": "🇮🇩",
+          "name": "Indonesia",
+          "note": "C-3 · group visa-free from May 2026"
+        },
+        {
+          "code": "mongolia",
+          "flag": "🇲🇳",
+          "name": "Mongolia",
+          "note": "C-3-9 · KVAC Ulaanbaatar"
+        },
+        {
+          "code": "bangladesh",
+          "flag": "🇧🇩",
+          "name": "Bangladesh",
+          "note": "C-3-9 · e-Form · Embassy Dhaka"
+        },
+        {
+          "code": "nepal",
+          "flag": "🇳🇵",
+          "name": "Nepal",
+          "note": "C-3-9 · Embassy Kathmandu · appointment"
+        },
+        {
+          "code": "uzbekistan",
+          "flag": "🇺🇿",
+          "name": "Uzbekistan",
+          "note": "C-3 · via accredited agency"
+        },
+        {
+          "code": "srilanka",
+          "flag": "🇱🇰",
+          "name": "Sri Lanka",
+          "note": "C-3-9 · paper visa · Embassy Colombo"
+        },
+        {
+          "code": "pakistan",
+          "flag": "🇵🇰",
+          "name": "Pakistan",
+          "note": "C-3 · Embassy Islamabad · interview possible"
+        }
+      ],
+      "freeTitle": "✅ Visa-free — quick entry guide",
+      "visaFree": [
+        {
+          "code": "usa",
+          "flag": "🇺🇸",
+          "name": "USA",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "japan",
+          "flag": "🇯🇵",
+          "name": "Japan",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "uk",
+          "flag": "🇬🇧",
+          "name": "UK",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "canada",
+          "flag": "🇨🇦",
+          "name": "Canada",
+          "note": "Visa-free up to 6 months"
+        },
+        {
+          "code": "australia",
+          "flag": "🇦🇺",
+          "name": "Australia",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "taiwan",
+          "flag": "🇹🇼",
+          "name": "Taiwan",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "hongkong",
+          "flag": "🇭🇰",
+          "name": "Hong Kong",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "singapore",
+          "flag": "🇸🇬",
+          "name": "Singapore",
+          "note": "Visa-free 90 days · K-ETA waived"
+        },
+        {
+          "code": "malaysia",
+          "flag": "🇲🇾",
+          "name": "Malaysia",
+          "note": "Visa-free 90 days · K-ETA required"
+        },
+        {
+          "code": "thailand",
+          "flag": "🇹🇭",
+          "name": "Thailand",
+          "note": "Visa-free 90 days · K-ETA required"
+        },
+        {
+          "code": "kazakhstan",
+          "flag": "🇰🇿",
+          "name": "Kazakhstan",
+          "note": "Visa-free 30 days · K-ETA required"
+        }
+      ],
+      "more": "Нет страны вашего паспорта? Уточните требования в официальной иммиграционной службе."
+    },
+    "tldr": [
+      "Временное освобождение от K-ETA действует только для указанных стран и территорий до 2026-12-31. Безвизовый въезд не означает автоматического освобождения от K-ETA. Для более поздних поездок снова проверьте официальное уведомление.",
+      "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной.",
+      "Путешественники подходящего для K-ETA гражданства в возрасте 17 лет и младше или 65 лет и старше освобождены от обязательной K-ETA. Это само по себе не освобождает от e-Arrival Card."
+    ],
+    "faq": {
+      "title": "Часто задаваемые вопросы",
+      "items": [
+        {
+          "q": "Временное освобождение",
+          "a": "Временное освобождение от K-ETA действует только для указанных стран и территорий до 2026-12-31. Безвизовый въезд не означает автоматического освобождения от K-ETA. Для более поздних поездок снова проверьте официальное уведомление."
+        },
+        {
+          "q": "Проверить необходимость e-Arrival Card",
+          "a": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной."
+        },
+        {
+          "q": "Подача и сроки",
+          "a": "Подавайте заявление заранее, чтобы получить одобрение до посадки. Рассмотрение K-ETA может занять более 72 часов; срок одобрения и въезд не гарантируются."
+        },
+        {
+          "q": "Возрастные исключения",
+          "a": "Путешественники подходящего для K-ETA гражданства в возрасте 17 лет и младше или 65 лет и старше освобождены от обязательной K-ETA. Это само по себе не освобождает от e-Arrival Card."
+        },
+        {
+          "q": "Сбор и срок действия",
+          "a": "K-ETA стоит KRW 10,000 плюс комиссия онлайн-платежа, без возврата. Текущие разрешения действуют 3 года или до окончания срока паспорта, в зависимости от того, что наступит раньше; это не разрешённая длительность каждой поездки."
+        }
+      ]
+    },
+    "officialCards": [
+      {
+        "icon": "✅",
+        "name": "K-ETA",
+        "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
+        "what": "Временное освобождение"
+      },
+      {
+        "icon": "📝",
+        "name": "e-Arrival Card",
+        "url": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
+        "what": "Проверить необходимость e-Arrival Card"
+      },
+      {
+        "icon": "🏛️",
+        "name": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr",
+        "what": "Уточняйте свою ситуацию на официальных сайтах. Окончательное решение о въезде принимает иммиграционная служба."
+      }
+    ],
+    "reviewed": "2026-09-23"
+  }
+}

@@ -3,7 +3,8 @@
 // for /api/chat (POST) and for paths with no matching asset (404s).
 
 const MODEL_CF = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"; // Workers AI (current)
-const MODEL_CLAUDE = "claude-haiku-4-5-20251001";   // preferred if a key is set
+const MODEL_CLAUDE = "claude-haiku-4-5-20251001";   // existing fallback when a key is set
+const MODEL_OPENAI = "gpt-6-luna";
 const MAX_TURNS = 12;      // recent user/assistant turns kept
 const MAX_CHARS = 1500;    // per-message input cap
 const MAX_TOKENS = 700;
@@ -75,6 +76,36 @@ async function callClaude(env, system, messages) {
   return (data.content || []).filter((b) => b.type === "text").map((b) => b.text).join("").trim();
 }
 
+async function callOpenAI(env, system, messages) {
+  const res = await fetch("https://api.openai.com/v1/responses", {
+    method: "POST",
+    headers: {
+      authorization: `Bearer ${env.OPENAI_API_KEY}`,
+      "content-type": "application/json",
+    },
+    signal: AbortSignal.timeout(20000),
+    body: JSON.stringify({
+      model: MODEL_OPENAI,
+      instructions: system,
+      input: messages,
+      reasoning: { effort: "none" },
+      max_output_tokens: MAX_TOKENS,
+      store: false,
+    }),
+  });
+  if (!res.ok) throw new Error("openai_" + res.status);
+  const data = await res.json();
+  if (data.status !== "completed") throw new Error("openai_incomplete");
+  const reply = (data.output || [])
+    .filter((item) => item.type === "message" && item.role === "assistant")
+    .flatMap((item) => item.content || [])
+    .filter((part) => part.type === "output_text")
+    .map((part) => part.text)
+    .join("").trim();
+  if (!reply) throw new Error("openai_empty");
+  return reply;
+}
+
 async function callWorkersAI(env, system, messages) {
   const out = await env.AI.run(MODEL_CF, {
     messages: [{ role: "system", content: system }, ...messages],
@@ -97,20 +128,20 @@ async function handleChat(request, env) {
   }
   const system = systemPrompt(locale, coords);
 
-  try {
-    let reply = "";
-    if (env.ANTHROPIC_API_KEY) reply = await callClaude(env, system, messages);
-    else if (env.AI) reply = await callWorkersAI(env, system, messages);
-    else return json({ error: "no_model" }, 503);
-    if (!reply) return json({ error: "empty" }, 502);
-    return json({ reply });
-  } catch (e) {
-    // Fallback to Workers AI if Claude failed and AI is available.
-    if (env.ANTHROPIC_API_KEY && env.AI) {
-      try { const reply = await callWorkersAI(env, system, messages); if (reply) return json({ reply }); } catch (e2) {}
+  const providers = [];
+  if (env.OPENAI_API_KEY) providers.push(callOpenAI);
+  if (env.ANTHROPIC_API_KEY) providers.push(callClaude);
+  if (env.AI) providers.push(callWorkersAI);
+  if (!providers.length) return json({ error: "no_model" }, 503);
+  for (const provider of providers) {
+    try {
+      const reply = await provider(env, system, messages);
+      if (reply) return json({ reply });
+    } catch {
+      // Try the next configured provider without exposing upstream errors or secrets.
     }
-    return json({ error: "chat_unavailable" }, 503);
   }
+  return json({ error: "chat_unavailable" }, 503);
 }
 
 export default {

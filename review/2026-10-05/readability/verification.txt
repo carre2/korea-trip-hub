@@ -1,0 +1,14 @@
+Readability and date-layout fix — 2026-10-05
+Cause: experience.css globally allowed .pill.verified to shrink and break anywhere beside long fact claims.
+Shared fact header now has a separate upper date row, non-shrinking/non-wrapping date with semantic time markup. Applied to plan facts, visa country facts, and destination facts.
+System sans font stack updated to Segoe UI / Malgun Gothic / Apple SD Gothic Neo / Noto Sans. Native text smoothing; information labels changed from small monospace to 1rem/700 sans with full text contrast. Fact-value grid adapts to narrow containers.
+Festival and article-review date time elements remain whole. Small editorial labels use sans instead of spaced monospace.
+Facts/data values unchanged; facts update: none.
+Build and live desktop/narrow/date checks pending.
+Commit 5dd456a03be0cab442f8f982e8d762d15c000856 deployed to main. GitHub build and Cloudflare Workers Builds both completed successfully.
+Local npm build passed: 2082 static pages, SEO 0 errors, 160 existing warnings; prebuild 6 tests passed.
+Live external Chrome at ktriphub.com: desktop actual viewport 2560px, plan/visa 5 dates each above claim, nowrap, badge height 39.0625px. Labels computed 16px / weight 700 / system sans stack.
+Temporary narrower viewport actual 800px: same 5 dates above claim, nowrap, no fact header overflow; viewport reset afterward.
+Additional live samples: ko/visa/philippines date 2026-10-02 above claim; ko/destinations/n-seoul-tower date 2026-08-03 above claim. en/festivals all 10 time labels nowrap with no element overflow.
+G mirror hashes all 7 changed source files match working source.
+Screenshot capture backend returned blank/partial canvas or timed out; invalid proof image removed. DOM layout/computed-style checks succeeded.

@@ -1,0 +1,11 @@
+박스 상단 빼꼼 캐릭터: 직접 작성한 장식용 SVG 토끼·곰·고양이, 하트·꽃·반짝임 이모지.
+홈 3개 카드, 저장한 장소, 일정 도구, 체크리스트, 예산 계산기에 적용.
+장식은 aria-hidden, pointer-events:none. 별도 이미지 다운로드/추적/라이브러리 없음.
+등장 애니메이션 1회, 마우스/키보드 포커스 반응. reduced-motion 및 인쇄시 제거.
+전용 여백을 예약해 박스 제목·버튼과 구분.
+AGENTS.md에 사용자 취향 추가. facts 갱신 없음.
+기존 테스트 17개 통과. 빌드 진행 중.
+배포 완료: 8edcdd0, GitHub build/Cloudflare Workers Builds 모두 success. 빌드 SEO 오류 0, 기존 경고 160.
+운영 홈 기본 캐릭터 5개, 미리보기 후 토끼 체크리스트 1개 추가 확인. 예산 박스 고양이 확인.
+홈 3개 캐릭터 모두 aria-hidden=true, pointer-events=none, 카드 내부 콘텐츠보다 위에 위치해 겹치지 않음.
+PC 운영 화면 peeking-friends.png 저장 및 육안 확인. 모바일 실기 검증은 미실시.

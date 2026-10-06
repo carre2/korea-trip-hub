@@ -1,0 +1,399 @@
+- link "本文へスキップ":
+  - /url: "#main"
+- banner:
+  - link "◆ Korea Trip Hub":
+    - /url: /ja/
+    - generic: ◆
+    - text: Korea
+    - generic: Trip
+    - text: Hub
+  - navigation "メニューを開く":
+    - link "入国・ビザ":
+      - /url: /ja/plan/visa/
+    - link "到着日の準備":
+      - /url: /ja/plan/airport/
+    - link "街歩き・グルメ":
+      - /url: /ja/destinations/
+    - link "準備を続ける":
+      - /url: /ja/guides/
+    - link "K-popと韓国の祭り":
+      - /url: /ja/festivals/
+    - link "プランナー":
+      - /url: /ja/itinerary/
+    - link "マイ旅程":
+      - /url: /ja/#planner
+    - link "ヘルプ":
+      - /url: /ja/plan/help/
+  - button "共有":
+    - generic: 共有
+  - generic "言語":
+    - generic: 🌐
+    - combobox "言語":
+      - option "English"
+      - option "中文 (简体)"
+      - option "中文 (繁體)"
+      - option "日本語" [selected]
+      - option "Tiếng Việt"
+      - option "ไทย"
+      - option "Bahasa Indonesia"
+      - option "Español"
+      - option "Bahasa Melayu"
+      - option "한국어"
+      - option "Русский"
+      - option "Français"
+  - button "表示テーマを変更": ◐
+- main:
+  - navigation "このページの内容":
+    - generic "このページの内容"
+  - generic: 💕
+  - generic: 🛂
+  - generic: 入国・ビザ
+  - generic: 🌷 ✨
+  - article:
+    - link "← ビザ・K-ETA":
+      - /url: /ja/plan/visa/
+    - generic: 🇯🇵
+    - heading "日本から韓国への入国ガイド" [level=1]
+    - generic: 入国ガイド · 日本 → 韓国
+    - generic: ⏱ 5分で読めます
+    - generic: · 更新日 2026-08-03
+    - generic: 要点
+    - list:
+      - listitem: ▸ 現在は観光ビザもK-ETAも不要 — 日本はビザ免除で、2026年までK-ETAも免除されています。
+      - listitem: ▸ 電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。
+      - listitem: ▸ 滞在期間中有効なパスポートと、出国・帰国便の予約証明を用意しましょう。
+      - listitem: ▸ 滞在は最長90日です。
+    - 'figure "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0"':
+      - img "Arrivals at Incheon International Airport"
+      - 'link "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0"':
+        - /url: https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg
+    - paragraph: 旅券の発行国のガイドを選び、渡航目的・入国日・年齢・有効な書類を公式サイトで確認してください。サイトの言語は国籍ではありません。
+    - link "電子入国申告の対象を確認 ↗":
+      - /url: https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E
+    - link "K-ETA ↗":
+      - /url: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN
+    - link "Korea Visa Portal ↗":
+      - /url: https://www.visa.go.kr
+    - paragraph:
+      - time: 2026-09-23
+      - text: ·
+      - link "一時免除":
+        - /url: https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN
+    - generic "電子入国申告の対象を確認 · 年齢による免除"
+    - paragraph: ご自身の条件は公式サイトで確認してください。入国の最終判断は入国審査で行われます。
+    - generic: 🇯🇵
+    - heading "観光ビザは不要 — 日本のパスポートはビザ免除です。" [level=2]
+    - paragraph: 電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。
+    - generic: ビザ
+    - text: ビザ不要（K-ETAは現在免除）
+    - generic: 滞在
+    - text: 最長90日
+    - generic: 入国
+    - text: 短期観光
+    - navigation "公式情報源":
+      - generic: 公式情報源
+      - link "e-Arrival Card ↗":
+        - /url: https://www.e-arrivalcard.go.kr
+      - link "K-ETA ↗":
+        - /url: https://www.k-eta.go.kr
+      - link "HiKorea ↗":
+        - /url: https://www.hikorea.go.kr
+      - link "Embassy of Korea in Japan ↗":
+        - /url: https://overseas.mofa.go.kr/jp-ja/index.do
+    - generic: ✅
+    - generic: ビザ不要、K-ETAも2026年まで免除
+    - paragraph: K-ETAの一時免除は、指定された国・地域にのみ2026-12-31まで適用されます。ビザなしで入国できても、K-ETAが自動的に免除されるわけではありません。それ以降の渡航は公式のお知らせを再確認してください。
+    - generic: 📝
+    - generic: e-Arrival Cardは引き続き必要です
+    - paragraph: 電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。
+    - generic: K-ETAの一時免除は、指定された国・地域にのみ2026-12-31まで適用されます。ビザなしで入国できても、K-ETAが自動的に免除されるわけではありません。それ以降の渡航は公式のお知らせを再確認してください。
+    - generic: ✓
+    - time: 2026-09-23
+    - list:
+      - generic: 免除期限
+      - generic: 2026-12-31
+      - insertion:
+        - iframe [id="aswift_2"] [name="aswift_2"]:
+          - iframe [id="ad_iframe"] [name="ad_iframe"]:
+            - link:
+              - /url: https://krrtb.c.appier.net/xclk?bidobjid=DiI8IL6OCBCDF2OLbYXDag&cid=IWUPzeqSSKSDn4zIFri0WQ&crid=WjVjDhEgRk-cVnO_GTdF9Q&crpid=Ia41X5enQk2LnIsSdTu4mQ&soid=kzNb&partner_id=03mSf3HNecb-&bx=Cylxwnu_20d97qus206so0dz7Pws7qo-uY79uqa1cDtycHTaJ8u9wmOWu1x1w8Q121lFJLlEZbNsw1zqUmR1K4lEUHM12qG-uYSxJ4u_o1x13LM12qu-uYOPuqa1Jmg9u1x1U8A121uV2nu-uYOPJ1u_uqGzKqd9o4QxujR&ui=CylYc8Myuqa1orusKquRo4QR7yQx2qaV2nlO&consent=1&ddhh=7nRy&flanding_rdr=
+            - button
+      - generic: scope
+      - generic: designated countries and regions only
+    - generic: ⚠ 費用・規則は変わります — 公式でご確認ください
+    - text: "出典:"
+    - link "Korea Immigration Service — K-ETA":
+      - /url: https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN
+    - paragraph: ⓘ ご自身の条件は公式サイトで確認してください。入国の最終判断は入国審査で行われます。
+    - heading "入国の手順" [level=2]
+    - list:
+      - generic: "1"
+      - heading "ビザ不要であることを確認" [level=4]
+      - paragraph: 日本のパスポートは短期観光なら韓国へビザ不要で入国でき、K-ETAも2026年まで免除されています — 申請するものはありません。
+      - generic: "2"
+      - heading "e-Arrival Cardを申請" [level=4]
+      - paragraph:
+        - text: 到着の72時間前以内に、
+        - link "e-arrivalcard.go.kr":
+          - /url: https://e-arrivalcard.go.kr
+        - text: で無料で記入し、QR・確認番号を保存しましょう。 —
+        - link "e-Arrival Card":
+          - /url: https://www.e-arrivalcard.go.kr
+      - generic: "3"
+      - heading "パスポートと出国チケットを確認" [level=4]
+      - paragraph: パスポートが滞在期間中有効であることを確認し、帰国・出国チケットと最初の宿泊先の住所を用意しましょう。
+      - generic: "4"
+      - heading "入国審査で" [level=4]
+      - paragraph: パスポートとe-Arrivalの確認を提示します。指紋採取と写真撮影が行われる場合があります。あくまで観光目的で — ビザ免除入国では就労はできません。
+    - heading "準備しておくもの" [level=2]
+    - insertion:
+      - iframe [id="aswift_3"] [name="aswift_3"]
+    - paragraph: ビザ申請は不要ですが、スムーズな入国のために以下を用意しておきましょう。
+    - generic: パスポート
+    - generic: 必須
+    - generic: 入手先
+    - generic: お手持ちのもの
+    - paragraph: 滞在期間中有効であること。
+    - generic: e-Arrival Cardの確認
+    - generic: 必須
+    - generic: 入手先
+    - link "e-arrivalcard.go.kr ↗":
+      - /url: https://www.e-arrivalcard.go.kr
+    - paragraph: 無料。到着の72時間前以内に申請し、QRを保存しましょう。
+    - generic: 帰国・出国チケット
+    - generic: 必須
+    - generic: 入手先
+    - generic: 航空会社・旅行代理店
+    - paragraph: 許可された滞在期間内に出国することの証明。
+    - generic: 宿泊先の住所
+    - generic: 必須
+    - generic: 入手先
+    - generic: 予約サイト
+    - paragraph: 最初のホテル・宿泊先の住所（e-Arrival Cardで尋ねられます）。
+    - generic: 旅行の資金
+    - generic: 推奨
+    - generic: 入手先
+    - generic: ご自身
+    - paragraph: カードは広く使えますが、市場や小さな店のために現金も少し持ちましょう。
+    - insertion:
+      - iframe [id="aswift_7"] [name="aswift_7"]:
+        - link:
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CauhlbYXDatPlFpjg1d8PlqmTgQz-9bX9iQGU_cX2_xWhpvjz0B0QASDw1MWdAWCbu-eEqCmgAcTZhL89yAEJqAMByAPLBKoEmgJP0MMvmcVpGLmtw9XXFFMeDddDmlC1ePRyjxxsZDgQxxusy6ZuV9Ay0__tImPebDSQ-qOW-X2udlhn205Iaewfqc7LukN8n8_LsUQ1NDgWA1xoc-YkVlADRzI_6X_mrlW3JxyRhYHcCjYbFG_yuF2lr_DZS6yHVKVwjR0O7Mne4zJKYTvgTriDnH-AbUnXtLQqI2Dri2RrL-yp1qkQfC_M8rK9gu7wCWFHCgVgueZbypqgbWfUwe6tcXchCBZRf2l-T6BUkymnW9mw2El7J3FK9MLA9U-o2BkbyhKFk71ekshs25eWRoWAiJJ_dVapekH_wbTKZnhGjts285anRp-6KOx0dwwJSJysnjtJivx1Qht1ZhpN9cfJZYjABMOas_CABogF7qP1xlqgBi6AB7Dg7PseqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAem67ECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBhIvf3BOliNgMDV3qKXA2ABsQmQqf-yi-jTUYAKAZgLAcgLAYAMAaIMA5ABAaoNAktSyA0B6g0TCKjVwNXeopcDFRhw9QUdltQkwPANAogOCbAOjO_KlBm4E-QD2BMM0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAsZOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIk9DA1d6ilwMVGHD1BR2W1CTAEAEYASAAEgJpnvD_BwE&num=1&cid=CAQShgIAQM4h3H4GBRWxTDqGRCBqd8PlcJ-4JB92lyz865s0yIBQYpODJ-yJxsljexufisyEm8GK2QffA0clFju7OxsgZwTSj7m-shGJq_q8iIXroMa5Ny8Zp996QLvdsWbQTiQdJn0t_5yaXzBW35VW-0UWraca06T-GbWMepVu1ckvwKxJFPKy2chMDNxbQ_LbUELsDO8Kkqg90JCLZ0oofPilk4ayxL0p5IcO_x0bf-UAHUVddez7Pf3vlOCpGp6XPqCQYfBp8ldPf3CJeeKA5xYk80Iy6wnWEpeVISuuLlXXc3nV4qwRvCHHPlHFtMPYmGLxpdzGASmRgvfJ0TThcBNXeJ-5X3FoGAE&sig=AOD64_3ReSZOx1BZt28rM3o2xPIgl1PYZQ&client=ca-pub-2067934281598769&rf=1&nb=9&adurl=https://ai.byteplus.com/en/activity/seedance2-5%3Futm_source%3Dgoogle%26utm_medium%3Dpmax%26utm_campaign%3Dpurchase_seedance_kr_kr_20261001_delia%26utm_term%3D20261001_easy_2-5_account1_seedance2.5%26utm_content%3Dtecdo%26gad_source%3D5%26gad_campaignid%3D24307913198%26gclid%3DEAIaIQobChMIk9DA1d6ilwMVGHD1BR2W1CTAEAEYASAAEgJpnvD_BwE
+        - link "완전한 AI 워크플로우":
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CauhlbYXDatPlFpjg1d8PlqmTgQz-9bX9iQGU_cX2_xWhpvjz0B0QASDw1MWdAWCbu-eEqCmgAcTZhL89yAEJqAMByAPLBKoEmgJP0MMvmcVpGLmtw9XXFFMeDddDmlC1ePRyjxxsZDgQxxusy6ZuV9Ay0__tImPebDSQ-qOW-X2udlhn205Iaewfqc7LukN8n8_LsUQ1NDgWA1xoc-YkVlADRzI_6X_mrlW3JxyRhYHcCjYbFG_yuF2lr_DZS6yHVKVwjR0O7Mne4zJKYTvgTriDnH-AbUnXtLQqI2Dri2RrL-yp1qkQfC_M8rK9gu7wCWFHCgVgueZbypqgbWfUwe6tcXchCBZRf2l-T6BUkymnW9mw2El7J3FK9MLA9U-o2BkbyhKFk71ekshs25eWRoWAiJJ_dVapekH_wbTKZnhGjts285anRp-6KOx0dwwJSJysnjtJivx1Qht1ZhpN9cfJZYjABMOas_CABogF7qP1xlqgBi6AB7Dg7PseqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAem67ECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBhIvf3BOliNgMDV3qKXA2ABsQmQqf-yi-jTUYAKAZgLAcgLAYAMAaIMA5ABAaoNAktSyA0B6g0TCKjVwNXeopcDFRhw9QUdltQkwPANAogOCbAOjO_KlBm4E-QD2BMM0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAsZOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIk9DA1d6ilwMVGHD1BR2W1CTAEAEYASAAEgJpnvD_BwE&num=1&cid=CAQShgIAQM4h3H4GBRWxTDqGRCBqd8PlcJ-4JB92lyz865s0yIBQYpODJ-yJxsljexufisyEm8GK2QffA0clFju7OxsgZwTSj7m-shGJq_q8iIXroMa5Ny8Zp996QLvdsWbQTiQdJn0t_5yaXzBW35VW-0UWraca06T-GbWMepVu1ckvwKxJFPKy2chMDNxbQ_LbUELsDO8Kkqg90JCLZ0oofPilk4ayxL0p5IcO_x0bf-UAHUVddez7Pf3vlOCpGp6XPqCQYfBp8ldPf3CJeeKA5xYk80Iy6wnWEpeVISuuLlXXc3nV4qwRvCHHPlHFtMPYmGLxpdzGASmRgvfJ0TThcBNXeJ-5X3FoGAE&sig=AOD64_3ReSZOx1BZt28rM3o2xPIgl1PYZQ&client=ca-pub-2067934281598769&rf=1&nb=0&adurl=https://ai.byteplus.com/en/activity/seedance2-5%3Futm_source%3Dgoogle%26utm_medium%3Dpmax%26utm_campaign%3Dpurchase_seedance_kr_kr_20261001_delia%26utm_term%3D20261001_easy_2-5_account1_seedance2.5%26utm_content%3Dtecdo%26gad_source%3D5%26gad_campaignid%3D24307913198%26gclid%3DEAIaIQobChMIk9DA1d6ilwMVGHD1BR2W1CTAEAEYASAAEgJpnvD_BwE
+        - link "Seedance 2.5에서 타임스탬프 또는 선택 영역별 편집으로 정밀한 개선이 가능합니다.":
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CauhlbYXDatPlFpjg1d8PlqmTgQz-9bX9iQGU_cX2_xWhpvjz0B0QASDw1MWdAWCbu-eEqCmgAcTZhL89yAEJqAMByAPLBKoEmgJP0MMvmcVpGLmtw9XXFFMeDddDmlC1ePRyjxxsZDgQxxusy6ZuV9Ay0__tImPebDSQ-qOW-X2udlhn205Iaewfqc7LukN8n8_LsUQ1NDgWA1xoc-YkVlADRzI_6X_mrlW3JxyRhYHcCjYbFG_yuF2lr_DZS6yHVKVwjR0O7Mne4zJKYTvgTriDnH-AbUnXtLQqI2Dri2RrL-yp1qkQfC_M8rK9gu7wCWFHCgVgueZbypqgbWfUwe6tcXchCBZRf2l-T6BUkymnW9mw2El7J3FK9MLA9U-o2BkbyhKFk71ekshs25eWRoWAiJJ_dVapekH_wbTKZnhGjts285anRp-6KOx0dwwJSJysnjtJivx1Qht1ZhpN9cfJZYjABMOas_CABogF7qP1xlqgBi6AB7Dg7PseqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAem67ECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBhIvf3BOliNgMDV3qKXA2ABsQmQqf-yi-jTUYAKAZgLAcgLAYAMAaIMA5ABAaoNAktSyA0B6g0TCKjVwNXeopcDFRhw9QUdltQkwPANAogOCbAOjO_KlBm4E-QD2BMM0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAsZOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIk9DA1d6ilwMVGHD1BR2W1CTAEAEYASAAEgJpnvD_BwE&num=1&cid=CAQShgIAQM4h3H4GBRWxTDqGRCBqd8PlcJ-4JB92lyz865s0yIBQYpODJ-yJxsljexufisyEm8GK2QffA0clFju7OxsgZwTSj7m-shGJq_q8iIXroMa5Ny8Zp996QLvdsWbQTiQdJn0t_5yaXzBW35VW-0UWraca06T-GbWMepVu1ckvwKxJFPKy2chMDNxbQ_LbUELsDO8Kkqg90JCLZ0oofPilk4ayxL0p5IcO_x0bf-UAHUVddez7Pf3vlOCpGp6XPqCQYfBp8ldPf3CJeeKA5xYk80Iy6wnWEpeVISuuLlXXc3nV4qwRvCHHPlHFtMPYmGLxpdzGASmRgvfJ0TThcBNXeJ-5X3FoGAE&sig=AOD64_3ReSZOx1BZt28rM3o2xPIgl1PYZQ&client=ca-pub-2067934281598769&rf=1&nb=7&adurl=https://ai.byteplus.com/en/activity/seedance2-5%3Futm_source%3Dgoogle%26utm_medium%3Dpmax%26utm_campaign%3Dpurchase_seedance_kr_kr_20261001_delia%26utm_term%3D20261001_easy_2-5_account1_seedance2.5%26utm_content%3Dtecdo%26gad_source%3D5%26gad_campaignid%3D24307913198%26gclid%3DEAIaIQobChMIk9DA1d6ilwMVGHD1BR2W1CTAEAEYASAAEgJpnvD_BwE
+          - text: Seedance 2.5에서 타임스탬프 또는
+          - text: 선택 영역별 편집으로 정밀한 개선이
+          - text: 가능합니다.
+        - link:
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CauhlbYXDatPlFpjg1d8PlqmTgQz-9bX9iQGU_cX2_xWhpvjz0B0QASDw1MWdAWCbu-eEqCmgAcTZhL89yAEJqAMByAPLBKoEmgJP0MMvmcVpGLmtw9XXFFMeDddDmlC1ePRyjxxsZDgQxxusy6ZuV9Ay0__tImPebDSQ-qOW-X2udlhn205Iaewfqc7LukN8n8_LsUQ1NDgWA1xoc-YkVlADRzI_6X_mrlW3JxyRhYHcCjYbFG_yuF2lr_DZS6yHVKVwjR0O7Mne4zJKYTvgTriDnH-AbUnXtLQqI2Dri2RrL-yp1qkQfC_M8rK9gu7wCWFHCgVgueZbypqgbWfUwe6tcXchCBZRf2l-T6BUkymnW9mw2El7J3FK9MLA9U-o2BkbyhKFk71ekshs25eWRoWAiJJ_dVapekH_wbTKZnhGjts285anRp-6KOx0dwwJSJysnjtJivx1Qht1ZhpN9cfJZYjABMOas_CABogF7qP1xlqgBi6AB7Dg7PseqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAem67ECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBhIvf3BOliNgMDV3qKXA2ABsQmQqf-yi-jTUYAKAZgLAcgLAYAMAaIMA5ABAaoNAktSyA0B6g0TCKjVwNXeopcDFRhw9QUdltQkwPANAogOCbAOjO_KlBm4E-QD2BMM0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAsZOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIk9DA1d6ilwMVGHD1BR2W1CTAEAEYASAAEgJpnvD_BwE&num=1&cid=CAQShgIAQM4h3H4GBRWxTDqGRCBqd8PlcJ-4JB92lyz865s0yIBQYpODJ-yJxsljexufisyEm8GK2QffA0clFju7OxsgZwTSj7m-shGJq_q8iIXroMa5Ny8Zp996QLvdsWbQTiQdJn0t_5yaXzBW35VW-0UWraca06T-GbWMepVu1ckvwKxJFPKy2chMDNxbQ_LbUELsDO8Kkqg90JCLZ0oofPilk4ayxL0p5IcO_x0bf-UAHUVddez7Pf3vlOCpGp6XPqCQYfBp8ldPf3CJeeKA5xYk80Iy6wnWEpeVISuuLlXXc3nV4qwRvCHHPlHFtMPYmGLxpdzGASmRgvfJ0TThcBNXeJ-5X3FoGAE&sig=AOD64_3ReSZOx1BZt28rM3o2xPIgl1PYZQ&client=ca-pub-2067934281598769&rf=1&nb=19&adurl=https://ai.byteplus.com/en/activity/seedance2-5%3Futm_source%3Dgoogle%26utm_medium%3Dpmax%26utm_campaign%3Dpurchase_seedance_kr_kr_20261001_delia%26utm_term%3D20261001_easy_2-5_account1_seedance2.5%26utm_content%3Dtecdo%26gad_source%3D5%26gad_campaignid%3D24307913198%26gclid%3DEAIaIQobChMIk9DA1d6ilwMVGHD1BR2W1CTAEAEYASAAEgJpnvD_BwE
+        - link "BytePlus":
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CauhlbYXDatPlFpjg1d8PlqmTgQz-9bX9iQGU_cX2_xWhpvjz0B0QASDw1MWdAWCbu-eEqCmgAcTZhL89yAEJqAMByAPLBKoEmgJP0MMvmcVpGLmtw9XXFFMeDddDmlC1ePRyjxxsZDgQxxusy6ZuV9Ay0__tImPebDSQ-qOW-X2udlhn205Iaewfqc7LukN8n8_LsUQ1NDgWA1xoc-YkVlADRzI_6X_mrlW3JxyRhYHcCjYbFG_yuF2lr_DZS6yHVKVwjR0O7Mne4zJKYTvgTriDnH-AbUnXtLQqI2Dri2RrL-yp1qkQfC_M8rK9gu7wCWFHCgVgueZbypqgbWfUwe6tcXchCBZRf2l-T6BUkymnW9mw2El7J3FK9MLA9U-o2BkbyhKFk71ekshs25eWRoWAiJJ_dVapekH_wbTKZnhGjts285anRp-6KOx0dwwJSJysnjtJivx1Qht1ZhpN9cfJZYjABMOas_CABogF7qP1xlqgBi6AB7Dg7PseqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAem67ECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBhIvf3BOliNgMDV3qKXA2ABsQmQqf-yi-jTUYAKAZgLAcgLAYAMAaIMA5ABAaoNAktSyA0B6g0TCKjVwNXeopcDFRhw9QUdltQkwPANAogOCbAOjO_KlBm4E-QD2BMM0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAsZOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIk9DA1d6ilwMVGHD1BR2W1CTAEAEYASAAEgJpnvD_BwE&num=1&cid=CAQShgIAQM4h3H4GBRWxTDqGRCBqd8PlcJ-4JB92lyz865s0yIBQYpODJ-yJxsljexufisyEm8GK2QffA0clFju7OxsgZwTSj7m-shGJq_q8iIXroMa5Ny8Zp996QLvdsWbQTiQdJn0t_5yaXzBW35VW-0UWraca06T-GbWMepVu1ckvwKxJFPKy2chMDNxbQ_LbUELsDO8Kkqg90JCLZ0oofPilk4ayxL0p5IcO_x0bf-UAHUVddez7Pf3vlOCpGp6XPqCQYfBp8ldPf3CJeeKA5xYk80Iy6wnWEpeVISuuLlXXc3nV4qwRvCHHPlHFtMPYmGLxpdzGASmRgvfJ0TThcBNXeJ-5X3FoGAE&sig=AOD64_3ReSZOx1BZt28rM3o2xPIgl1PYZQ&client=ca-pub-2067934281598769&rf=1&nb=1&adurl=https://ai.byteplus.com/en/activity/seedance2-5%3Futm_source%3Dgoogle%26utm_medium%3Dpmax%26utm_campaign%3Dpurchase_seedance_kr_kr_20261001_delia%26utm_term%3D20261001_easy_2-5_account1_seedance2.5%26utm_content%3Dtecdo%26gad_source%3D5%26gad_campaignid%3D24307913198%26gclid%3DEAIaIQobChMIk9DA1d6ilwMVGHD1BR2W1CTAEAEYASAAEgJpnvD_BwE
+        - link "구독하기":
+          - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CauhlbYXDatPlFpjg1d8PlqmTgQz-9bX9iQGU_cX2_xWhpvjz0B0QASDw1MWdAWCbu-eEqCmgAcTZhL89yAEJqAMByAPLBKoEmgJP0MMvmcVpGLmtw9XXFFMeDddDmlC1ePRyjxxsZDgQxxusy6ZuV9Ay0__tImPebDSQ-qOW-X2udlhn205Iaewfqc7LukN8n8_LsUQ1NDgWA1xoc-YkVlADRzI_6X_mrlW3JxyRhYHcCjYbFG_yuF2lr_DZS6yHVKVwjR0O7Mne4zJKYTvgTriDnH-AbUnXtLQqI2Dri2RrL-yp1qkQfC_M8rK9gu7wCWFHCgVgueZbypqgbWfUwe6tcXchCBZRf2l-T6BUkymnW9mw2El7J3FK9MLA9U-o2BkbyhKFk71ekshs25eWRoWAiJJ_dVapekH_wbTKZnhGjts285anRp-6KOx0dwwJSJysnjtJivx1Qht1ZhpN9cfJZYjABMOas_CABogF7qP1xlqgBi6AB7Dg7PseqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAem67ECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBhIvf3BOliNgMDV3qKXA2ABsQmQqf-yi-jTUYAKAZgLAcgLAYAMAaIMA5ABAaoNAktSyA0B6g0TCKjVwNXeopcDFRhw9QUdltQkwPANAogOCbAOjO_KlBm4E-QD2BMM0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAsZOGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIk9DA1d6ilwMVGHD1BR2W1CTAEAEYASAAEgJpnvD_BwE&num=1&cid=CAQShgIAQM4h3H4GBRWxTDqGRCBqd8PlcJ-4JB92lyz865s0yIBQYpODJ-yJxsljexufisyEm8GK2QffA0clFju7OxsgZwTSj7m-shGJq_q8iIXroMa5Ny8Zp996QLvdsWbQTiQdJn0t_5yaXzBW35VW-0UWraca06T-GbWMepVu1ckvwKxJFPKy2chMDNxbQ_LbUELsDO8Kkqg90JCLZ0oofPilk4ayxL0p5IcO_x0bf-UAHUVddez7Pf3vlOCpGp6XPqCQYfBp8ldPf3CJeeKA5xYk80Iy6wnWEpeVISuuLlXXc3nV4qwRvCHHPlHFtMPYmGLxpdzGASmRgvfJ0TThcBNXeJ-5X3FoGAE&sig=AOD64_3ReSZOx1BZt28rM3o2xPIgl1PYZQ&client=ca-pub-2067934281598769&rf=1&nb=8&adurl=https://ai.byteplus.com/en/activity/seedance2-5%3Futm_source%3Dgoogle%26utm_medium%3Dpmax%26utm_campaign%3Dpurchase_seedance_kr_kr_20261001_delia%26utm_term%3D20261001_easy_2-5_account1_seedance2.5%26utm_content%3Dtecdo%26gad_source%3D5%26gad_campaignid%3D24307913198%26gclid%3DEAIaIQobChMIk9DA1d6ilwMVGHD1BR2W1CTAEAEYASAAEgJpnvD_BwE
+          - generic: 구독하기
+        - button:
+        - iframe
+    - heading "よくある入国時のミス" [level=2]
+    - generic: 🕸️
+    - generic: 不要な「ビザ・K-ETA手数料」を支払う
+    - paragraph: 現在はビザもK-ETAも不要です。詐欺サイトは今でも料金を請求してきます — 無視しましょう。
+    - generic: 📝
+    - generic: e-Arrival Cardを省略する
+    - paragraph: ほとんどの渡航者は申請が必要です（無料）。到着の72時間前以内に行いましょう。
+    - generic: ⏰
+    - generic: e-Arrival Cardを早く申請しすぎる
+    - paragraph: 提出から72時間で失効します — 数週間前ではなく、フライト直前に申請しましょう。
+    - generic: 🗓️
+    - generic: 滞在期間を超過する
+    - paragraph: 最長90日を超えて滞在すると、罰金や今後の入国禁止のリスクがあります。
+    - generic: 💼
+    - generic: 観光入国で就労する
+    - paragraph: ビザ免除入国は観光・訪問のみです — 就労には適切なビザが必要です。
+    - insertion
+    - heading "日本 → 韓国 入国FAQ" [level=2]
+    - generic "日本から韓国へ行くのにビザは必要ですか？ +"
+    - generic "K-ETAは必要ですか？ +"
+    - generic "e-Arrival Cardは必要ですか？ +"
+    - generic "どのくらい滞在できますか？ +"
+    - generic "この入国で就労や就学はできますか？ +"
+    - generic "K-ETAはいつ復活しますか？ +"
+    - generic "韓国に入国するのに復路または先の便のチケットは必要ですか？ +"
+    - generic "滞在を延ばすために出入国を繰り返してもよいですか？ +"
+    - generic "到着時、空港では何をしますか？ +"
+    - heading "Official channels" [level=2]
+    - insertion
+    - paragraph: "Confirm the current rules before you travel:"
+    - link "e-Arrival Card — file free e-arrivalcard.go.kr ↗":
+      - /url: https://www.e-arrivalcard.go.kr
+      - generic: e-Arrival Card — file free
+      - generic: e-arrivalcard.go.kr ↗
+    - link "K-ETA — check status (waived now) k-eta.go.kr ↗":
+      - /url: https://www.k-eta.go.kr
+      - generic: K-ETA — check status (waived now)
+      - generic: k-eta.go.kr ↗
+    - link "Immigration & extensions HiKorea ↗":
+      - /url: https://www.hikorea.go.kr
+      - generic: Immigration & extensions
+      - generic: HiKorea ↗
+    - link "Official tourism info VisitKorea ↗":
+      - /url: https://english.visitkorea.or.kr
+      - generic: Official tourism info
+      - generic: VisitKorea ↗
+    - heading "公式情報源" [level=2]
+    - link "📝 e-Arrival Card 電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。":
+      - /url: https://www.e-arrivalcard.go.kr
+      - generic: 📝
+      - generic: e-Arrival Card
+      - emphasis: 電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。
+    - link "✅ K-ETA Check status (currently waived)":
+      - /url: https://www.k-eta.go.kr
+      - generic: ✅
+      - generic: K-ETA
+      - emphasis: Check status (currently waived)
+    - link "🏛️ HiKorea Immigration & extensions (MOJ)":
+      - /url: https://www.hikorea.go.kr
+      - generic: 🏛️
+      - generic: HiKorea
+      - emphasis: Immigration & extensions (MOJ)
+    - link "🌏 Embassy of Korea in Japan Official notices for your country":
+      - /url: https://overseas.mofa.go.kr/jp-ja/index.do
+      - generic: 🌏
+      - generic: Embassy of Korea in Japan
+      - emphasis: Official notices for your country
+    - complementary "次は、到着後の準備へ":
+      - text: 到着に備える
+      - heading "次は、到着後の準備へ" [level=2]
+      - insertion
+      - paragraph: 空港からの移動と通信手段を確認し、準備をチェックリストにまとめましょう。
+      - link "空港→市内 →":
+        - /url: /ja/plan/airport/
+      - link "SIM / eSIM / Wi-Fi →":
+        - /url: /ja/plan/sim/
+      - link "旅の準備チェックリスト →":
+        - /url: /ja/#planner
+    - region "ビザは準備OK？次は旅の計画を立てよう":
+      - heading "ビザは準備OK？次は旅の計画を立てよう" [level=2]
+      - paragraph: 到着後の移動、宿泊、観光まで — 韓国旅行の続きはすべてここに。
+      - link "旅程を作って共有 →":
+        - /url: /ja/#planner
+      - link "旅の予算 →":
+        - /url: /ja/plan/money/#budget
+      - link "空港→市内 仁川・AREX直通":
+        - /url: /ja/plan/airport/
+        - generic: ✈️
+        - generic: 空港→市内
+        - generic: 仁川・AREX直通
+      - link "移動・交通 T-money・地下鉄・KTX・タクシー":
+        - /url: /ja/plan/transit/
+        - generic: 🚇
+        - generic: 移動・交通
+        - generic: T-money・地下鉄・KTX・タクシー
+      - link "SIM / eSIM / Wi-Fi 到着後すぐネット接続":
+        - /url: /ja/plan/sim/
+        - generic: 📱
+        - generic: SIM / eSIM / Wi-Fi
+        - generic: 到着後すぐネット接続
+      - link "お金・支払い 両替・カード・現金":
+        - /url: /ja/plan/money/#budget
+        - generic: 💳
+        - generic: お金・支払い
+        - generic: 両替・カード・現金
+      - link "宿泊エリア選び おすすめエリア＆街ガイド":
+        - /url: /ja/stay/
+        - generic: 🏨
+        - generic: 宿泊エリア選び
+        - generic: おすすめエリア＆街ガイド
+      - link "そのまま使えるモデルコース コピペできる3〜7日間ルート":
+        - /url: /ja/itinerary/
+        - generic: 🗺️
+        - generic: そのまま使えるモデルコース
+        - generic: コピペできる3〜7日間ルート
+      - link "K-POPとコンサート 会場・チケット・アイドルの名所":
+        - /url: /ja/kpop/
+        - generic: 🎤
+        - generic: K-POPとコンサート
+        - generic: 会場・チケット・アイドルの名所
+        - generic: →
+    - complementary "このページについて":
+      - generic "友達に共有・自分用に保存":
+        - strong: 友達に共有・自分用に保存
+        - button "アプリで共有":
+          - text: アプリで共有
+        - button "リンクをコピー":
+          - text: リンクをコピー
+        - button "メールで送る":
+          - text: メールで送る
+        - generic "メッセージ・SNSアプリを選ぶ"
+        - paragraph: 現在の言語でガイドを送ります。共有できるアプリは端末によって異なります。
+        - insertion
+      - generic: 🖊 編集・監修 Korea Trip Hub
+      - link "編集・情報源ポリシー":
+        - /url: /ja/legal/editorial/
+      - text: "🔄 最終確認:"
+      - time: 2026年8月3日
+      - paragraph: ルールや料金は変わることがあります。移動・予約の前に公式ページでご確認ください。
+      - link "🛠 誤りの報告・修正の依頼":
+        - /url: /ja/legal/contact/
+    - paragraph: 旅行情報は公式ソースと照合し、確認日を記載しています。料金・時刻・ビザ規則は変わります。旅行前に必ずリンク先の公式で確認してください。
+- contentinfo:
+  - generic "友達に共有・自分用に保存"
+  - generic: ◆ KoreaTripHub
+  - navigation "言語":
+    - link "English":
+      - /url: /en/
+    - link "中文 (简体)":
+      - /url: /zh/
+    - link "中文 (繁體)":
+      - /url: /zh-TW/
+    - strong: 日本語
+    - link "Tiếng Việt":
+      - /url: /vi/
+    - link "ไทย":
+      - /url: /th/
+    - link "Bahasa Indonesia":
+      - /url: /id/
+    - link "Español":
+      - /url: /es/
+    - link "Bahasa Melayu":
+      - /url: /ms/
+    - link "한국어":
+      - /url: /ko/
+    - link "Русский":
+      - /url: /ru/
+    - link "Français":
+      - /url: /fr/
+  - navigation "各種ポリシー":
+    - link "サイトについて":
+      - /url: /ja/legal/about/
+    - link "運営者":
+      - /url: /ja/legal/operator/
+    - link "お問い合わせ":
+      - /url: /ja/legal/contact/
+    - link "プライバシー・Cookie":
+      - /url: /ja/legal/privacy/
+    - link "利用規約":
+      - /url: /ja/legal/terms/
+    - link "編集・情報源ポリシー":
+      - /url: /ja/legal/editorial/
+    - link "訂正":
+      - /url: /ja/legal/corrections/
+    - link "広告・アフィリエイト":
+      - /url: /ja/legal/affiliate/
+  - paragraph:
+    - link "🍁 韓国旅行ガイド →":
+      - /url: /ja/guides/
+    - text: ·
+    - link "🎤 K-カルチャー — kpophub.kr →":
+      - /url: https://kpophub.kr/en/calendar/
+  - paragraph: 一部のリンクはアフィリエイトリンクで、追加費用なしに当サイトが手数料を得る場合があります。
+  - paragraph: © 2026 Korea Trip Hub — 独立系の旅行ガイド。最新のルールは必ず公式情報でご確認ください。
+- region "旅行アシスタント":
+  - button "閉じる": ✕
+  - button "AI旅行ガイド 何かお手伝いしましょうか？ 旅行アシスタント ↗":
+    - generic: AI旅行ガイド
+    - strong: 何かお手伝いしましょうか？
+    - generic: 旅行アシスタント ↗
+- button "旅行アシスタント"
+- alert

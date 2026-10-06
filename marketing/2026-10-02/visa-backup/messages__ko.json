@@ -1,0 +1,594 @@
+{
+  "chat": {
+    "bubble": "무엇을 도와드릴까요?",
+    "title": "여행 도우미",
+    "greeting": "안녕하세요! 한국 여행 중 생기는 문제를 도와드려요 — 바가지, 길 잃음, 맛집 찾기, 예절, 비자 등등. 무엇을 도와드릴까요?",
+    "emergency": "위험하거나 다치셨나요? 지금 112(경찰) 또는 119(소방/구급)로 전화하세요.",
+    "placeholder": "질문을 입력하세요…",
+    "send": "보내기",
+    "thinking": "생각 중…",
+    "share": "위치 공유",
+    "disclaimer": "일반적인 도움말이며 긴급·법률 조언이 아닙니다. 중요한 내용은 공식 출처로 확인하세요.",
+    "error": "죄송해요, 도우미에 연결하지 못했어요. 급할 땐 1330(무료, 24시간)으로 전화하세요.",
+    "short_overbill": "바가지 썼나요?",
+    "short_lost": "길을 잃었어요",
+    "short_food": "맛집 찾기",
+    "short_etiquette": "예절",
+    "qOverbill": "바가지를 쓴 것 같은데 어떻게 해야 하나요?",
+    "qLost": "길을 잃었어요 — 어떻게 도움을 받나요?",
+    "qFood": "근처에 맛있는 식당은 어디인가요?",
+    "qEtiquette": "피해야 할 예절 실수는 무엇인가요?",
+    "virtualGuide": "AI 여행 안내",
+    "close": "닫기"
+  },
+  "seasonLinks": {
+    "spring": "벚꽃 명소 보기",
+    "summer": "여름 바다·피서지",
+    "autumn": "단풍 명소 보기",
+    "winter": "겨울 하이라이트"
+  },
+  "destBook": {
+    "label": "입장권·투어·체험",
+    "sub": "빠른 입장, 한복 대여, 당일 투어 — Klook으로."
+  },
+  "guides": {
+    "eyebrow": "시즌·주제",
+    "title": "한국 여행 가이드",
+    "sub": "시즌·주제별 가이드로 여행 시기와 계획을 잡아보세요.",
+    "answer": "한눈에 정리",
+    "faqTitle": "자주 묻는 질문"
+  },
+  "brand": "KoreaTripHub",
+  "meta": {
+    "homeTitle": "Korea Trip Hub — 내 언어로 계획하는 한국 여행",
+    "homeDesc": "한국 여행을 위한 올인원 허브. 일정 플래너, 출처로 검증한 필수 정보(비자·교통), 음식과 체험, 후기, K-컬처."
+  },
+  "nav": {
+    "plan": "여행준비",
+    "planner": "플래너",
+    "destinations": "여행지",
+    "food": "먹거리",
+    "reviews": "후기",
+    "kculture": "K-컬처",
+    "map": "지도",
+    "help": "도움말"
+  },
+  "plan": {
+    "eyebrow": "여행 계획 — 여기서 시작",
+    "sub": "한국 도착 전 챙겨야 할 6가지 기본.",
+    "tiles": {
+      "visa": {
+        "title": "비자 & K-ETA",
+        "sub": "입국 허가 & 비자 규정"
+      },
+      "transit": {
+        "title": "교통",
+        "sub": "T-money · 지하철 · KTX · 택시"
+      },
+      "airport": {
+        "title": "공항 → 시내",
+        "sub": "인천 · AREX 직통"
+      },
+      "sim": {
+        "title": "SIM / eSIM / Wi-Fi",
+        "sub": "도착 즉시 인터넷"
+      },
+      "money": {
+        "title": "환전 & 결제",
+        "sub": "환전 · 카드 · 현금"
+      },
+      "weather": {
+        "title": "베스트 시즌 & 날씨",
+        "sub": "언제 갈까? 뭘 챙길까?"
+      },
+      "help": {
+        "title": "도움 & 긴급 상황",
+        "sub": "도움 & 긴급"
+      },
+      "kpop": {
+        "title": "K-pop & 콘서트",
+        "sub": "공연장·티켓·아이돌 명소"
+      }
+    },
+    "officialSources": "공식 출처"
+  },
+  "hero": {
+    "badge": "트립 플래너 — Korea Trip Hub의 핵심",
+    "title_1": "호텔을 입력하고, 도시를 고르면",
+    "title_2": "여행 전체가 완성.",
+    "lede": "어디에 묵고 어디로 가고 싶은지 알려주세요 — 예를 들어 부산. 교통편(KTX·버스·비행기)을 안내하고, 도시의 대표 명소를 하루하루 일정으로 짜드립니다.",
+    "f_hotel": "숙소 / 출발지",
+    "f_dest": "어디로 갈까요?",
+    "f_days": "일수",
+    "f_travelers": "인원",
+    "f_style": "여행 스타일",
+    "build": "일정 만들기"
+  },
+  "help": {
+    "eyebrow": "안심",
+    "title": "도움말 & 안전",
+    "sub": "도착 전 저장해두면 좋은, 공식 출처로 확인된 필수 정보.",
+    "verified_on": "확인일",
+    "check_official": "항상 공식 출처에서 최신 확인",
+    "embassy": {
+      "title": "자국 대사관",
+      "sub": "국가별 주소·전화·지도."
+    },
+    "unavailable": "확인 중"
+  },
+  "footer": {
+    "tagline": "입국 준비부터 기억에 남을 하루까지. 지금 필요한 것부터 시작하고, 마음에 드는 여행을 저장하세요.",
+    "disclaimer": "여행 정보는 공식 출처와 대조하고 확인일을 표기합니다. 요금·시간표·비자 규정은 바뀝니다 — 여행 전 반드시 링크된 공식 출처에서 확인하세요.",
+    "legalNav": {
+      "about": "소개",
+      "operator": "운영자",
+      "contact": "문의",
+      "privacy": "개인정보·쿠키",
+      "terms": "이용약관",
+      "editorial": "편집·출처 정책",
+      "corrections": "정정",
+      "affiliate": "광고·제휴"
+    },
+    "updatedLabel": "업데이트",
+    "legalNavLabel": "법적 고지",
+    "morePolicies": "다른 정책",
+    "affiliateLine": "일부 링크는 제휴 링크로, 추가 비용 없이 저희가 수수료를 받을 수 있습니다.",
+    "rights": "© 2026 Korea Trip Hub — 독립 여행 가이드. 최신 규정은 항상 공식 출처에서 확인하세요.",
+    "colPlan": "여행 계획",
+    "colDiscover": "둘러보기",
+    "colInfo": "정보",
+    "linkPlanTrip": "여행 계획하기",
+    "linkConcerts": "콘서트 (kpophub.kr)",
+    "linkHelpSafety": "도움말·안전",
+    "linkVisa": "비자·K-ETA",
+    "linkEmergency": "긴급 연락처",
+    "linkEmbassies": "대사관"
+  },
+  "map": {
+    "search": "검색",
+    "placeholder": "주소나 장소 검색…",
+    "kakaoPending": "KakaoMap 키 곧 지원.",
+    "noResult": "결과 없음 — 전체 주소로 시도하세요.",
+    "authFail": "Naver 지도 인증 실패 — Client ID와 등록 도메인을 확인하세요.",
+    "loadFail": "지도를 불러오지 못했습니다.",
+    "mapNoteGoogle": "Google Maps는 장소 이름을 당신의 언어로 보여줘 가장 읽기 편한 지도예요. 한국 안에서 길찾기와 대중교통을 볼 때는 Naver나 KakaoMap으로 바꿔 보세요.",
+    "mapNoteKorean": "Naver와 KakaoMap은 한국의 도로·대중교통 정보가 가장 자세하지만, 표기는 대부분 한국어예요. 영어 등 다른 언어로 보려면 위의 Google을 이용하세요."
+  },
+  "spotify": {
+    "title": "듣기 — Spotify의 K-Pop",
+    "sub": "지금 뜨는 그룹과 전 세계 팬이 사랑하는 아티스트. 선택하면 대표곡이 재생됩니다.",
+    "artists": "아티스트 & 그룹",
+    "playlists": "추천 플레이리스트",
+    "note": "무료 미리듣기; 전곡은 Spotify 로그인 시."
+  },
+  "planner": {
+    "day": "Day",
+    "gettingThere": "이동",
+    "morning": "오전",
+    "afternoon": "오후",
+    "evening": "저녁",
+    "share": "일정 공유",
+    "transportNote": "시간·요금은 변동됩니다 — 운영사에서 확인하세요."
+  },
+  "dest": {
+    "title": "여행지",
+    "sub": "도시별 실제 장소. 인기 수치는 출처가 있으며 지어내지 않습니다.",
+    "browseAll": "모든 여행지",
+    "regional": "지역별 대표 음식 — 여기서만 맛보는",
+    "regionalSub": "지역마다 시그니처 음식이 있어요. 도시를 눌러 근처 숙소를 확인하세요.",
+    "whyGo": "가는 이유",
+    "goodToKnow": "알아두면 좋은 것",
+    "nearby": "주변",
+    "official": "공식 정보"
+  },
+  "food": {
+    "title": "먹거리 — 맛보고, 직접 만들기",
+    "sub": "어디서 먹을지, 그리고 직접 만드는 클래스. 가격은 다양 — 지어내지 않습니다.",
+    "eat": "어디서 먹을까",
+    "make": "만들기 체험",
+    "tips": "알아두면 좋은 것",
+    "browseAll": "모든 먹거리 & 체험"
+  },
+  "reviews": {
+    "title": "후기 — 카테고리 & 언어별",
+    "sub": "실제 여행자 후기 — 주제별로 필터, 내 언어를 먼저 표시. 검수하며 절대 지어내지 않습니다.",
+    "all": "전체",
+    "catDest": "🏛️ 여행지",
+    "catFood": "🥢 먹거리 & 체험",
+    "catKculture": "🎤 K-컬처",
+    "catTransport": "🚄 교통",
+    "empty": "아직 후기가 없어요 — 당신의 한국 여행을 처음으로 공유해보세요.",
+    "cta": "후기 쓰기",
+    "ctaSoon": "후기 제출 곧 오픈"
+  },
+  "factsUI": {
+    "verified_facts": "확인된 정보",
+    "good_to_know": "알아두면 좋은 것",
+    "official_sources": "공식 출처",
+    "source": "출처",
+    "confirm": "⚠ 요금·규정은 변동 — 공식에서 확인"
+  },
+  "factLabels": {
+    "exempt_until": "면제 기한",
+    "earrival_card": "e-Arrival Card",
+    "age_exempt": "연령 면제",
+    "number": "번호",
+    "hours": "운영 시간",
+    "languages": "지원 언어",
+    "fare_krw_each_way": "편도 요금",
+    "minutes": "분",
+    "type": "종류",
+    "frequency": "배차 간격",
+    "fare_krw": "요금(KRW)",
+    "pay": "결제",
+    "stores": "구매처",
+    "basic_krw": "기본 카드(KRW)",
+    "design_krw": "디자인 에디션(KRW)",
+    "card_refundable": "카드값 환불",
+    "fare_krw_standard": "일반실 요금(KRW)",
+    "duration": "소요 시간",
+    "booking": "예약",
+    "best": "여행 적기",
+    "summer": "여름",
+    "winter": "겨울",
+    "currency": "통화",
+    "code": "코드",
+    "symbol": "기호",
+    "tipping": "팁",
+    "apply": "신청",
+    "apply_at": "신청처",
+    "appointment": "예약",
+    "avg_daily_foreign_visitors": "하루 평균 외국인 방문객",
+    "bank_statement": "은행 거래내역서",
+    "base_cash": "기본요금(현금)",
+    "base_distance": "기본 거리",
+    "base_tmoney": "기본요금(T-money)",
+    "blue_green": "파랑·초록 버스",
+    "buy_at": "구매처",
+    "carriers": "통신사",
+    "condition": "조건",
+    "cost": "비용",
+    "deluxe_base": "모범택시 기본요금",
+    "entries": "입국 횟수",
+    "esim": "eSIM",
+    "exempt_countries": "면제 국가",
+    "extra": "추가 요금",
+    "fare": "요금",
+    "fee": "수수료",
+    "financial_docs": "재정 증빙 서류",
+    "foreign_hikers": "외국인 등산객",
+    "group_visa_free": "단체 무비자",
+    "international_base": "인터내셔널 택시 기본요금",
+    "intl_taxi": "인터내셔널 택시",
+    "jeju_visa_free": "제주 무비자",
+    "max_stay": "최대 체류 기간",
+    "medium_base": "중형버스 기본요금",
+    "medium_then": "중형버스, 이후 단위당",
+    "metered": "미터 요금",
+    "multi_year": "복수년 비자",
+    "night": "심야",
+    "night_surcharge": "심야 할증",
+    "note": "참고",
+    "physical_sim": "실물 SIM",
+    "pocket_wifi": "포켓 와이파이",
+    "processing": "처리 기간",
+    "rank": "순위",
+    "red_express": "빨강(급행) 버스",
+    "refundable": "환불 여부",
+    "replaced": "대체 대상",
+    "requirement_resumes": "요건 재적용",
+    "service_fee": "봉사료",
+    "tolls": "통행료",
+    "typical_result": "일반적인 결과",
+    "valid_for": "유효기간",
+    "visa_fee": "비자 수수료",
+    "visa_type": "비자 종류",
+    "window": "신청 시기",
+    "yellow": "노랑 버스"
+  },
+  "facts": {
+    "keta-exemption": {
+      "claim": "K-ETA 한시 면제는 지정된 국가·지역에만 2026-12-31까지 적용됩니다. 무비자 입국 대상이라고 자동으로 K-ETA가 면제되는 것은 아닙니다. 이후 여행은 공식 공지를 다시 확인하세요.",
+      "notes": "본인 조건은 공식 사이트에서 확인하세요. 최종 입국 결정은 출입국 심사에서 이루어집니다."
+    },
+    "keta-fee-validity": {
+      "claim": "K-ETA 수수료는 KRW 10,000에 온라인 결제 수수료가 별도로 부과되며 환불되지 않습니다. 현재 승인은 3년 또는 여권 만료일 중 먼저 도래하는 날까지 유효하며, 매번 허용되는 체류기간을 뜻하지 않습니다.",
+      "notes": "본인 조건은 공식 사이트에서 확인하세요. 최종 입국 결정은 출입국 심사에서 이루어집니다."
+    },
+    "keta-apply-window": {
+      "claim": "탑승 전에 승인을 받을 수 있도록 충분히 일찍 신청하세요. K-ETA 심사는 72시간을 넘을 수 있으며 승인 시간이나 입국을 보장하지 않습니다.",
+      "notes": "본인 조건은 공식 사이트에서 확인하세요. 최종 입국 결정은 출입국 심사에서 이루어집니다."
+    },
+    "keta-exempt-countries": {
+      "claim": "K-ETA 한시 면제는 지정된 국가·지역에만 2026-12-31까지 적용됩니다. 무비자 입국 대상이라고 자동으로 K-ETA가 면제되는 것은 아닙니다. 이후 여행은 공식 공지를 다시 확인하세요.",
+      "notes": "본인 조건은 공식 사이트에서 확인하세요. 최종 입국 결정은 출입국 심사에서 이루어집니다."
+    },
+    "earrival-card-how": {
+      "claim": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다.",
+      "notes": "본인 조건은 공식 사이트에서 확인하세요. 최종 입국 결정은 출입국 심사에서 이루어집니다."
+    },
+    "transit-free-transfer": {
+      "claim": "T-money 카드로 결제하고 승·하차 시 모두 태그하면, 30분 이내에 지하철-버스(또는 버스-버스) 환승이 무료입니다.",
+      "notes": "버스에서 내릴 때도 반드시 하차 태그를 해야 합니다. 그렇지 않으면 환승 할인을 받지 못하고 요금이 다시 부과될 수 있습니다."
+    },
+    "transit-subway-seoul": {
+      "claim": "서울 지하철 기본요금은 T-money 카드로 ₩1,550(현금 1회권 ₩1,650)이며 10 km까지 적용됩니다. 더 먼 거리는 5 km당 ₩100씩 추가됩니다.",
+      "notes": "June 2025 요금 인상으로 ₩1,400에서 올랐습니다. 최신 요금은 네이버 지도/카카오맵 또는 서울 TOPIS 사이트에서 확인하세요."
+    },
+    "transit-bus-seoul": {
+      "claim": "서울 시내버스 요금(T-money): 파랑·초록 ₩1,500, 노랑 ₩1,400, 빨강(광역급행) ₩3,000+, 심야(N-bus) ₩2,500.",
+      "notes": "승·하차 시 모두 태그해야 환승이 무료입니다. 최신 요금은 서울 TOPIS에서 확인하세요."
+    },
+    "transit-taxi-seoul": {
+      "claim": "서울 중형택시 기본요금은 ₩4,800(최초 1.6 km)이며, 이후 132 m당 ₩100씩 추가됩니다. 심야에는 최대 40%의 할증이 붙습니다(약 23:00–02:00). 모범택시는 ₩7,000(최초 3 km)부터 시작하며 심야 할증이 없습니다.",
+      "notes": "요금을 미리 확인하려면 카카오 T를 이용하세요. 모범택시와 인터내셔널 택시는 요금이 더 비싸지만 심야 할증이 없고 영어 서비스를 제공합니다."
+    },
+    "ktx-seoul-busan": {
+      "claim": "KTX 서울 → 부산 일반실 편도 요금과 대략적인 소요 시간.",
+      "notes": "제3자 자료 기준 수치입니다. 열차와 좌석 등급에 따라 다릅니다. 실제 요금은 letskorail.com에서 확인하세요."
+    },
+    "tmoney-where-to-buy": {
+      "claim": "T-money 카드는 전국 편의점(CU, GS25, 7-Eleven, Emart24)과 지하철역 무인 기기에서 구매·충전할 수 있습니다.",
+      "notes": "지하철, 버스, 택시는 물론 편의점에서도 사용할 수 있습니다."
+    },
+    "arex-express": {
+      "claim": "AREX 직통열차: 인천공항과 서울역 사이를 무정차로 운행합니다. 제1터미널에서 약 43 min(제2터미널에서는 51 min).",
+      "notes": "직통 요금은 기존 ₩9,500에서 인상되었습니다. 2026년 자료들은 대체로 약 ₩13,000 균일 요금에 온라인 할인 시 약 ₩11,500 수준으로 안내합니다. 최신 요금은 항상 arex.or.kr에서 확인하세요."
+    },
+    "arex-allstop": {
+      "claim": "AREX 일반열차(각 역 정차): 서울역까지 약 59–66 minutes 소요됩니다. 요금은 목적지 역에 따라 달라집니다.",
+      "notes": "공항 철도 중 가장 저렴한 선택지이며, T-money로 결제합니다. 정확한 역별 요금은 arex.or.kr에서 확인하세요."
+    },
+    "airport-bus": {
+      "claim": "인천공항 리무진·공항버스: 노선과 교통 상황에 따라 서울까지 약 60–90분 걸립니다. 요금은 버스 종류에 따라 다릅니다.",
+      "notes": "프리미엄 KAL 리무진 버스는 요금이 더 비싸며(~₩18,000), 일반 공항버스가 더 저렴합니다. 버스는 많은 호텔 근처에 정차하므로, 목적지 노선을 확인하세요."
+    },
+    "airport-taxi": {
+      "claim": "인천공항에서 서울 도심까지 일반 미터기 택시는 약 ₩65,000–85,000이며 60–70분 걸립니다. 공식 인터내셔널 택시는 영어·일본어·중국어가 가능한 인증 기사와 함께 정액 요금을 제공합니다.",
+      "notes": "미터 요금은 교통 상황과 목적지에 따라 달라지며 고속도로 통행료가 포함됩니다. 심야 할증이 붙을 수 있습니다. 인터내셔널 택시 데스크는 제1터미널(T1)과 제2터미널(T2) 입국장에 있습니다(intltaxi.co.kr, +82-1644-2255)."
+    },
+    "sim-options": {
+      "claim": "한국에서 인터넷에 연결하는 방법은 세 가지입니다: eSIM(출국 전 설치, 도착하면 바로 개통), 실물 SIM(언락된 휴대폰 필요), 포켓 와이파이 대여(여럿이 함께 쓰기에 좋음). 통신사는 SKT, KT, LG U+가 있습니다.",
+      "notes": "요금은 데이터 용량과 이용 일수에 따라 크게 다르므로, 고정 가격보다는 최신 상품을 비교하세요(예: eSIM은 Airalo/Klook, SIM은 통신사 카운터). eSIM은 eSIM 지원 휴대폰이, 실물 SIM은 언락된 휴대폰이 필요합니다. 카운터는 인천 T1/T2, 김포, 김해 입국장에 있습니다."
+    },
+    "currency-krw": {
+      "claim": "한국의 통화는 원(KRW, ₩)입니다.",
+      "notes": "카드는 널리 사용되며, 소규모 상점이나 전통시장에서는 현금이 유용합니다."
+    },
+    "tipping-not-customary": {
+      "claim": "한국에서는 팁 문화가 일반적이지 않으며, 식당이나 택시에서 팁을 줄 필요가 없습니다.",
+      "notes": "일부 고급 호텔은 봉사료를 부과할 수 있지만, 대체로 팁을 기대하지 않습니다."
+    },
+    "best-time-seasons": {
+      "claim": "여행하기 가장 좋은 시기는 봄(3~5월)과 가을(9~11월)입니다. 여름(6~8월)은 덥고 습하며 장마가 있고, 겨울은 춥고 건조합니다(서울 평균 약 -2°C).",
+      "notes": "일반적인 계절 특성입니다. 벚꽃과 단풍 시기는 해마다 달라집니다."
+    },
+    "dest-stat-myeongdong": {
+      "claim": "명동은 서울에서 하루 평균 외국인 방문객 수가 가장 많은 곳으로(약 100,910명), 시내 최다 방문 지역입니다.",
+      "notes": "서울시 집계 기준 하루 평균 외국인 방문객 수."
+    },
+    "dest-stat-nseoultower": {
+      "claim": "N서울타워는 외국인 방문객 기준 서울에서 2번째로 많이 찾은 명소였습니다(하루 평균 약 57,370명).",
+      "notes": "서울시 집계 기준 하루 평균 외국인 방문객 수."
+    },
+    "dest-stat-bukhansan": {
+      "claim": "북한산은 서울의 산 가운데 외국인 등산객이 가장 많았으며(약 4,015명), 확산 중인 'K-등산' 트렌드를 이끌고 있습니다.",
+      "notes": "서울시 산별 외국인 등산객 수 기준으로 북한산이 최다."
+    },
+    "visa-india-c39": {
+      "claim": "인도 여권 소지자는 한국을 방문하려면 C-3-9 단기 관광 비자가 필요합니다(최대 90일). 신청은 한국비자신청센터(VFS Global)에 직접 방문해서 하며, 예약은 필요 없습니다.",
+      "notes": "수수료와 처리 기간은 센터와 시즌에 따라 다르므로 KVAC에서 확인하세요. 신청서와 온라인 신청은 오직 visa.go.kr(유일한 공식 포털)에서만 가능합니다. 인도는 두 관할로 나뉩니다: 대사관/뉴델리(visaforkorea-id.com)와 첸나이 영사관(visaforkorea-ce.com)."
+    },
+    "visa-vietnam-c39": {
+      "claim": "베트남 여권 소지자는 한국 방문 시 C-3-9 단기 관광 비자가 필요합니다. 2025년부터 관광 비자 서류가 간소화되었고, 베트남 여행자를 위한 복수년(최대 10년) 복수 입국 비자가 확대되었습니다.",
+      "notes": "비자 수수료는 상호주의에 따라 정해지며 환불되지 않습니다. 최신 금액은 KVAC에서 확인하세요. 관할은 하노이(visaforkorea-vt.com)와 호치민시(visaforkorea-hc.com)로 나뉩니다. 신청서: visa.go.kr."
+    },
+    "visa-china-c3": {
+      "claim": "중국 여권 소지자는 한국 본토 방문 시 C-3 관광 비자가 필요합니다. 제주도는 최대 30일까지 무비자 입국이 가능합니다(제주 한정, 직항편).",
+      "notes": "승인된 중국 단체 관광객(3인 이상)을 위한 무비자 제도가 Sep 2025–Jun 2026에 시행되었습니다. 이에 의존하기 전에 연장 여부를 확인하세요. 제주 한정 무비자는 본토 경유 없이 직항편이어야 합니다."
+    },
+    "visa-philippines-c3": {
+      "claim": "필리핀 여권 소지자는 한국 본토 방문 시 C-3 관광 비자가 필요하지만, 비자 수수료는 없습니다. 2026-02-20부터는 3개월 은행 거래내역서가 더 이상 필요하지 않습니다.",
+      "notes": "직장인은 여전히 ITR + 재직증명서를 제출하고, 사업주는 DTI/SEC 등록증 + 사업 허가증을 제출합니다. 제주도는 별도의 무비자 입국이 적용됩니다. 최신 규정은 대사관에 확인하세요."
+    },
+    "visa-indonesia-c3": {
+      "claim": "개별 인도네시아 관광객은 한국 본토 방문 시 C-3 관광 비자가 필요합니다. 2026-05-28부터는 3인 이상 인도네시아 단체 관광객이 단기 체류에 한해 무비자로 입국할 수 있습니다(단체만 해당, 개인은 불가).",
+      "notes": "개별 여행자는 여전히 비자가 필요합니다: 여권, 사진, 3개월 은행 거래내역서, 재직 증명서 + 급여 명세서, 타인이 경비를 지원하는 경우 후원자 서한. 제주도는 별도의 무비자 입국이 적용됩니다."
+    },
+    "keta-age-exemption": {
+      "claim": "K-ETA 신청 대상 국적자 중 17세 이하 또는 65세 이상은 K-ETA 의무 적용에서 제외됩니다. 이것만으로 전자입국신고까지 면제되지는 않습니다.",
+      "notes": "본인 조건은 공식 사이트에서 확인하세요. 최종 입국 결정은 출입국 심사에서 이루어집니다."
+    }
+  },
+  "consent": {
+    "title": "개인정보를 소중히 다룹니다",
+    "body": "동의하시는 경우에만 트래픽 측정용 쿠키(Google Analytics)를 사용합니다. 핵심 기능은 동의 여부와 무관하게 작동합니다.",
+    "accept": "동의",
+    "reject": "거부",
+    "manage": "개인정보·쿠키"
+  },
+  "articleTrust": {
+    "by": "작성·검수",
+    "reviewed": "최종 검토",
+    "about": "이 페이지 정보",
+    "related": "관련 글",
+    "reportError": "오류 신고·정정 요청",
+    "verifiedNote": "핵심 정보는 정부·공공기관 및 운영기관의 공식 자료로 확인합니다.",
+    "confirmNote": "규정과 요금은 바뀔 수 있으니 이동·예약 전 공식 페이지에서 확인하세요."
+  },
+  "home": {
+    "trustTransport": "교통편 안내",
+    "trustTransportSub": "KTX·버스·항공",
+    "trustDraft": "날짜별 일정 초안",
+    "trustDraftSub": "몇 초 만에",
+    "trustShare": "공유하기",
+    "trustShareSub": "WhatsApp·LINE·X로",
+    "dealsEyebrow": "예약하고 아끼기",
+    "dealsTitle": "인기 한국 여행 상품",
+    "dealsSub": "여행 전 대부분의 방문객이 예약하는 티켓·패스·체험 — Klook에서.",
+    "dealEsim": "한국 eSIM",
+    "dealEsimSub": "몇 분이면 온라인 개통 — 도착하면 바로 데이터",
+    "dealKtx": "KTX / SRT 기차표",
+    "dealKtxSub": "서울 ↔ 부산, 그리고 전국",
+    "dealParks": "테마파크·명소 입장권",
+    "dealParksSub": "Everland, Lotte World, N Seoul Tower…",
+    "dealHanbok": "한복·투어·체험",
+    "dealHanbokSub": "고궁·당일치기·원데이 클래스",
+    "dealHotel": "호텔 · 숙소",
+    "dealHotelSub": "서울·부산·제주 숙소 비교",
+    "dealHotelGo": "숙소 지역 보기",
+    "mapTitle": "원하는 지도에서 검색",
+    "trustLangs": "12개 언어",
+    "mapEyebrow": "길 찾기",
+    "mapSub": "네이버·카카오 지도에서 주소나 장소를 바로 여기서 검색하세요."
+  },
+  "hotelsNearby": "주변 호텔",
+  "nextSteps": {
+    "title": "비자 준비 끝? 이제 나머지 여행을 계획하세요",
+    "sub": "입국부터 교통, 숙소, 즐길 거리까지 — 한국 여행의 나머지, 여기 다 있어요.",
+    "stay": "어디서 묵을까",
+    "staySub": "베스트 지역 & 동네",
+    "itinerary": "바로 쓰는 여행 코스",
+    "itinerarySub": "그대로 따라 하는 3~7일 루트"
+  },
+  "visaFinder": {
+    "label": "어느 나라에서 오셨나요?",
+    "placeholder": "국적을 선택하세요…",
+    "cta": "전체 가이드 보기"
+  },
+  "visaPhoto": {
+    "title": "비자용 여권 사진 규격",
+    "intro": "한국의 비자 사진 규정은 까다로워서, 잘못 준비하면 신청이 지연되거나 반려되는 흔한 원인이 됩니다:",
+    "p1": "35 × 45 mm, 흰색 단색 배경 (소프트웨어로 교체한 배경은 인정되지 않습니다).",
+    "p2": "얼굴이 사진 높이의 70–80%, 정면, 무표정.",
+    "p3": "최근 6개월 이내 촬영; 모자 착용 불가, 원칙적으로 안경 착용 불가, 보정 불가.",
+    "p4": "온라인 업로드(비자포털 Korea Visa Portal): JPEG, 200 KB 미만, 최소 413 × 531 px.",
+    "source": "Korea Visa Portal(visa.go.kr)과 영사관 규정을 기준으로 작성했습니다 — 신청하실 영사관의 정확한 요건은 직접 확인하세요."
+  },
+  "visaLocal": {
+    "currencyTitle": "한국에서 쓸 돈",
+    "rateNote": "실시간 참고 환율 — 실제 환전소·카드 환율은 다를 수 있습니다.",
+    "rateLoading": "실시간 환율 불러오는 중…",
+    "embassyTitle": "한국 주재 자국 대사관",
+    "embassyNote": "입국 후 긴급 상황에 대비하세요 (예: 여권 분실). 최신 정보는 공식 사이트에서 확인하세요.",
+    "addrLabel": "주소",
+    "telLabel": "전화",
+    "officialSite": "공식 사이트"
+  },
+  "findEats": {
+    "title": "한국에서 평점 높은 맛집 찾기",
+    "intro": "평점과 순위는 앱 안에 있고, 여행자가 쓰기 편한 앱일수록 영어를 지원합니다. 영어로 쓰기 쉬운 순서대로 정리했습니다.",
+    "sortTip": "한국어만 지원하는 앱이라도 별점, 사진, 리뷰 수는 한눈에 볼 수 있습니다. 글자는 휴대폰 카메라 번역을 이용하세요. 영어로 엄선된 추천이 필요하다면 VisitKorea 공식 맛집 가이드가 좋은 출발점입니다.",
+    "open": "열기",
+    "badgeEn": "영어",
+    "badgeEnApp": "앱에서 영어 지원",
+    "badgeKo": "한국어",
+    "google": "리뷰와 화면이 영어입니다. 음식이나 지역을 검색한 뒤 평점순으로 정렬하세요.",
+    "catchtable": "'CatchTable Global' 앱으로 인기 맛집을 영어로 예약할 수 있습니다. 한국 전화번호가 필요 없습니다.",
+    "michelin": "한국의 별점 레스토랑과 Bib Gourmand 선정 맛집을 모두 영어로 볼 수 있습니다.",
+    "tripadvisor": "한국 전역 레스토랑의 순위와 여행자 리뷰를 영어로 제공합니다.",
+    "naver": "한국에서 가장 많이 쓰는 지도 앱입니다. 앱을 영어로 바꿀 수 있고(Settings → Language), 방문자 리뷰는 영수증으로 인증됩니다.",
+    "kakao": "한국어지만 별점, 사진, 리뷰 수는 한눈에 파악할 수 있습니다.",
+    "diningcode": "리뷰 데이터로 만든 한국 '맛집' 순위입니다. 글자는 번역 기능을 이용하세요.",
+    "bluer": "Blue Ribbon Survey — 한국의 레스토랑 시상 가이드입니다(한국어)."
+  },
+  "askKorea": {
+    "metaTitle": "한국 여행 질문하기",
+    "metaDescription": "인스타그램 또는 이메일로 Korea Trip Hub 편집팀에 한국 여행 질문을 보내세요.",
+    "eyebrow": "여행자 질문",
+    "title": "Korea Trip Hub에 질문하세요",
+    "intro": "비자, K-ETA, 입국, 교통, 음식, 여행 일정이 궁금하신가요? 사람이 검토하는 편집 대기열로 질문을 보내세요.",
+    "howTitle": "진행 방식",
+    "step1": "한국 여행에 관한 질문을 한 가지씩 명확하게 작성합니다.",
+    "step2": "여권번호, 예약번호, 주소 등 민감정보는 적지 않습니다.",
+    "step3": "편집자가 공식 자료를 확인한 뒤 안내 내용을 준비합니다.",
+    "formTitle": "질문 작성",
+    "formIntro": "현재 질문은 Instagram @ktriphub에서 받습니다. 이 페이지는 보낼 메시지를 복사할 뿐 질문을 저장하지 않습니다.",
+    "countryLabel": "여권 발급 국가(선택)",
+    "countryPlaceholder": "예: 필리핀",
+    "questionLabel": "질문",
+    "questionPlaceholder": "예: 7일 여행에 비자나 K-ETA가 필요한가요?",
+    "safetyCheck": "여권번호, 예약번호, 주소, 전화번호 등 민감한 개인정보를 입력하지 않았습니다.",
+    "instagramButton": "복사 후 Instagram DM 열기",
+    "emailButton": "이메일로 보내기",
+    "requiredError": "질문을 작성하고 개인정보 확인란에 체크해 주세요.",
+    "copied": "복사했습니다. 열린 Instagram 대화창에 메시지를 붙여넣으세요.",
+    "copyFailed": "Instagram을 열었습니다. 질문을 직접 복사해 주세요.",
+    "fineprint": "일반 여행정보를 제공하며 비자 결정을 대신하지 않습니다. 최종 판단은 출입국 당국과 영사기관이 합니다. 답변은 자동으로 발송되지 않습니다.",
+    "messageTitle": "Korea Trip Hub 여행 질문",
+    "notProvided": "입력 안 함",
+    "sourceLabel": "유입 경로",
+    "emailSubject": "한국 여행 질문",
+    "answersTitle": "자주 묻는 질문 — 답변 완료",
+    "answersLead": "여행자들이 가장 많이 묻는 비자·K-ETA 질문에 빠르게 답합니다. 궁금한 질문을 열어 보세요. 국적별 전체 절차는 비자 가이드에서 확인할 수 있습니다.",
+    "answersMore": "비자·K-ETA 전체 가이드 보기 →"
+  },
+  "experience": {
+    "heroTitle": "나의 속도로 만나는 한국.",
+    "heroSub": "입국 준비부터 기억에 남을 하루까지. 지금 필요한 것부터 시작하고, 마음에 드는 여행을 저장하세요.",
+    "start": "여행 준비 시작하기",
+    "free": "무료 이용 · 회원가입 없이",
+    "languages": "{n}개 언어",
+    "myTrip": "내 여행",
+    "entry": "입국·비자",
+    "arrival": "도착 첫날 준비",
+    "explore": "도시·먹거리",
+    "entrySub": "내 여권에 맞는 안내 찾기",
+    "arrivalSub": "공항 이동·통신·결제 준비",
+    "exploreSub": "일정에 담고 싶은 장소 찾기",
+    "chooseTitle": "어디부터 시작할까요?",
+    "essentials": "출발 전 준비",
+    "plannerTitle": "나만의 여행으로 만들어 보세요.",
+    "plannerSub": "추천 코스를 고르고 필요 없는 장소를 빼서 저장하세요. 출발 전 최신 운영시간과 교통편을 확인해 주세요.",
+    "chooseRoute": "여행 코스 선택",
+    "preview": "일정 미리 보기",
+    "save": "내 여행 저장",
+    "saved": "이 기기에 저장했어요",
+    "removeSave": "저장한 여행 삭제",
+    "removed": "저장한 여행을 삭제했어요",
+    "storageNote": "이 브라우저에만 저장됩니다. 공유 링크에는 코스와 선택한 장소가 담기며, 체크리스트는 포함되지 않습니다.",
+    "storageError": "이 브라우저에서는 저장할 수 없습니다. 링크를 복사해 보관해 주세요.",
+    "shared": "공유받은 일정을 불러왔어요",
+    "copy": "여행 링크 복사",
+    "copyDone": "여행 링크를 복사했어요",
+    "copyError": "복사하지 못했습니다. 아래 링크를 선택해 복사해 주세요.",
+    "print": "일정 인쇄",
+    "checklist": "여행 준비 체크리스트",
+    "progress": "{done} / {total} 준비 완료",
+    "resume": "내 여행 이어서 준비하기",
+    "empty": "여행 코스를 선택해 시작하세요.",
+    "resetChecklist": "체크리스트 초기화",
+    "removeStop": "장소 빼기",
+    "restoreStops": "모든 장소 복원",
+    "customize": "방문 장소 조정",
+    "invalidShare": "지원하지 않는 여행 링크입니다. 아래에서 코스를 선택해 주세요.",
+    "menuOpen": "메뉴 열기",
+    "menuClose": "메뉴 닫기",
+    "language": "언어",
+    "theme": "화면 테마 변경",
+    "skip": "본문으로 건너뛰기",
+    "book": "{partner}에서 예약",
+    "details": "전체 안내 읽기",
+    "visaHint": "여권 발급 국가가 없나요? 공식 출입국 기관에서 필요한 절차를 확인하세요.",
+    "guideScope": "조건은 여권·나이·방문 목적·유효한 서류에 따라 달라집니다. 본인의 조건을 공식 출처에서 확인하세요.",
+    "firstDay": "도착 준비하기",
+    "nextTitle": "다음은, 도착 후 준비",
+    "nextSub": "공항에서 숙소까지 이동과 통신을 준비하고, 여행 체크리스트를 한곳에 모으세요.",
+    "nearby": "근처에서 찾기",
+    "nearbyHint": "지도 앱에서 선택지를 확인하세요",
+    "readingTime": "읽는 데 {n}분",
+    "addPlace": "내 여행에 담기",
+    "placeSaved": "장소 저장됨",
+    "savedPlaces": "저장한 장소",
+    "placesHint": "하루별 일정을 짜기 전에 후보 장소의 순서를 정리하세요. 이동 시간은 계산하지 않습니다.",
+    "placesEmpty": "명소와 음식 페이지에서 장소를 담아보세요.",
+    "moveUp": "위로 이동",
+    "moveDown": "아래로 이동",
+    "clearPlaces": "저장 장소 비우기",
+    "contents": "이 페이지의 내용",
+    "officialCheck": "공식 조건 확인",
+    "continuePrep": "이어서 준비하기",
+    "entryScope": "여권과 여행 조건에 따라 규정이 달라집니다. 나이·입국일·목적·유효한 서류를 공식 사이트에서 확인하세요.",
+    "placeTitle": "{city} {place} 여행 가이드"
+  }
+}

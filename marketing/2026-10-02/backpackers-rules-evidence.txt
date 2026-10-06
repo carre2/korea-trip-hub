@@ -1,0 +1,1145 @@
+Verified: 2026-10-02
+
+BOARD
+- banner:
+  - navigation:
+    - list:
+      - link "首頁":
+        - /url: https://www.backpackers.com.tw/forum/?
+      - link "論壇":
+        - /url: https://www.backpackers.com.tw/forum/index.php?
+      - link "攻略":
+        - /url: https://www.backpackers.com.tw/guide/?
+      - link "機票比價":
+        - /url: https://www.backpackers.com.tw/forum/airfare.php?
+      - link "訂房比價":
+        - /url: https://www.backpackers.com.tw/forum/hotel.php?
+      - link "優惠專區":
+        - /url: https://www.backpackers.com.tw/forum/coupons/
+      - link "會員相簿":
+        - /url: https://www.backpackers.com.tw/forum/album.php?
+      - link "景點地圖":
+        - /url: https://www.backpackers.com.tw/forum/map.php?
+      - link "今日新文章":
+        - /url: https://www.backpackers.com.tw/forum/search.php?do=getdaily
+      - link "搜尋":
+        - /url: https://www.backpackers.com.tw/forum/search.php?
+  - link "背包客棧自助旅行論壇":
+    - /url: https://www.backpackers.com.tw/forum/?
+    - img "背包客棧自助旅行論壇"
+  - textbox "搜尋關鍵字、地名或景點"
+  - button:
+  - link "發文":
+    - /url: newthread.php?do=newthread&f=345
+    - text: 發文
+  - link "註冊":
+    - /url: https://www.backpackers.com.tw/forum/register.php?
+  - link "登入":
+    - /url: https://www.backpackers.com.tw/forum/login.php?
+- iframe [id="google_ads_iframe_/1013509/forum_navbar_0"] [name="google_ads_iframe_/1013509/forum_navbar_0"]:
+  - link:
+    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CtwMVhkK_ao6AOLyqpt8P0NyvqQHN_JOAigGa5N_XtBbR84vtjg4QASDJqsw1YJu754SoKaABwsXp1gPIAQmpArsZfDCfQgk-4AIAqAMByAMKqgThAk_QSQgtfdu1kfTfdJILOlhJo2etPw4EFXHSBNtou2IGwTMOzLog38qJW-9mD7HOec4qh6PLFPZYicqq9tzqACquknXIQzlc9uqIrBseh9VTaO23irUQa0RdfB8-FOUZRB_FIMslmfHUSzJIDfi7GV0qWmM9vvM5Sxrngq-J32XbjaXP-anWyqJwhgWvvFrf5Ola3B0_a35gOM4jFigONB6Uu37twFBnbgFKuTx6Xuy6wNwRhv3cdnDpdIAC8zPtACFtArQGZZbuwJoNBaDLczcSOrXSmcbIzGtvPDvig2gtWqOSq09vzr7M8xnm_iqY9_mLRslPkHRy5lGDxMFDsEDweE0VytjJvewEyx-nFbyawbVQmrry4kAjP4R3z0wVGDcbRIO5AfJm3inDJdbm5Gp9fjOU5cOoh9yneiWbyVBn_Kw1uBHhKX5DthLRgfwIv_cO14P6fWPXH5QwM0U9ts0PwASVl4zQ5AXgBAGIBef9s-JZoAYugAfO05nBHqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgHpuuxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AYSL39wTpYqpn7ps6alwNgAbEJogDPQQoW6aOACgOYCwHICwGADAGiDDhiGAoWY29tLmFkb2JlLkFkb2JlLVJlYWRlcmoUChJjb20uYWRvYmUubHJtb2JpbGV4AYgBAZABAaoNAktSyA0B4g0TCI3N-6bOmpcDFTyV6QUdUO4rFeoNEwjRofymzpqXAxU8lekFHVDuKxXwDQKIDv___________wHYEw2IFALQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo5MzUwMDA0MDg0UAa6FwI4AaoYFwkAAAAAMCEWQRIKOTM1MDAwNDA4NBgBshgJEgLoWBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE&num=1&cid=CAQShgIAQM4h3H6B9CEd0Rc-G56yohDx7jo5V54ONe1HHHX7olnHymJX7lWCc61mV9E2D4LVRNulI-Z7fvB06nhmNjZOWowgbD8RbI76tmY3H55rbgZwr-c1bSkrpYSrKrYfBReloNrzk___v7RoYd0RYdO8K78hG9ciAolm7DMh1Il-QpwVDtNOGk2wonndkLcuRnAMkCZAuSY8OwzGu47Feq8ZC6kU4nk0kIOsirezFy1da-jIsJIbJs2GUiEiKAcVx93I5vzApLCGPmS3wAmxwQfouHPDvvSkL8st9M-BCJxp5ysTcZ9Ckzyh_5d94ICLPPikYy3LcWsoumTH6V99wnzFmLCEeuXFGAE&sig=AOD64_2hCJjrkQC9bmcuN2z_mYZmjKNX3w&client=ca-pub-2142299567124418&rf=4&nb=9&adurl=https://www.adobe.com/kr/products/firefly/plans.html%3Fsdid%3D4F56953T%26mv%3Ddisplay%26mv2%3Ddisplay%26gad_source%3D5%26gad_campaignid%3D24097128167%26gclid%3DEAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE
+  - link "무제한 크레딧! Firefly 50%":
+    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CtwMVhkK_ao6AOLyqpt8P0NyvqQHN_JOAigGa5N_XtBbR84vtjg4QASDJqsw1YJu754SoKaABwsXp1gPIAQmpArsZfDCfQgk-4AIAqAMByAMKqgThAk_QSQgtfdu1kfTfdJILOlhJo2etPw4EFXHSBNtou2IGwTMOzLog38qJW-9mD7HOec4qh6PLFPZYicqq9tzqACquknXIQzlc9uqIrBseh9VTaO23irUQa0RdfB8-FOUZRB_FIMslmfHUSzJIDfi7GV0qWmM9vvM5Sxrngq-J32XbjaXP-anWyqJwhgWvvFrf5Ola3B0_a35gOM4jFigONB6Uu37twFBnbgFKuTx6Xuy6wNwRhv3cdnDpdIAC8zPtACFtArQGZZbuwJoNBaDLczcSOrXSmcbIzGtvPDvig2gtWqOSq09vzr7M8xnm_iqY9_mLRslPkHRy5lGDxMFDsEDweE0VytjJvewEyx-nFbyawbVQmrry4kAjP4R3z0wVGDcbRIO5AfJm3inDJdbm5Gp9fjOU5cOoh9yneiWbyVBn_Kw1uBHhKX5DthLRgfwIv_cO14P6fWPXH5QwM0U9ts0PwASVl4zQ5AXgBAGIBef9s-JZoAYugAfO05nBHqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgHpuuxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AYSL39wTpYqpn7ps6alwNgAbEJogDPQQoW6aOACgOYCwHICwGADAGiDDhiGAoWY29tLmFkb2JlLkFkb2JlLVJlYWRlcmoUChJjb20uYWRvYmUubHJtb2JpbGV4AYgBAZABAaoNAktSyA0B4g0TCI3N-6bOmpcDFTyV6QUdUO4rFeoNEwjRofymzpqXAxU8lekFHVDuKxXwDQKIDv___________wHYEw2IFALQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo5MzUwMDA0MDg0UAa6FwI4AaoYFwkAAAAAMCEWQRIKOTM1MDAwNDA4NBgBshgJEgLoWBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE&num=1&cid=CAQShgIAQM4h3H6B9CEd0Rc-G56yohDx7jo5V54ONe1HHHX7olnHymJX7lWCc61mV9E2D4LVRNulI-Z7fvB06nhmNjZOWowgbD8RbI76tmY3H55rbgZwr-c1bSkrpYSrKrYfBReloNrzk___v7RoYd0RYdO8K78hG9ciAolm7DMh1Il-QpwVDtNOGk2wonndkLcuRnAMkCZAuSY8OwzGu47Feq8ZC6kU4nk0kIOsirezFy1da-jIsJIbJs2GUiEiKAcVx93I5vzApLCGPmS3wAmxwQfouHPDvvSkL8st9M-BCJxp5ysTcZ9Ckzyh_5d94ICLPPikYy3LcWsoumTH6V99wnzFmLCEeuXFGAE&sig=AOD64_2hCJjrkQC9bmcuN2z_mYZmjKNX3w&client=ca-pub-2142299567124418&rf=4&nb=0&adurl=https://www.adobe.com/kr/products/firefly/plans.html%3Fsdid%3D4F56953T%26mv%3Ddisplay%26mv2%3Ddisplay%26gad_source%3D5%26gad_campaignid%3D24097128167%26gclid%3DEAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE
+  - link "오직 10월 7일까지만 제공되는 반값 특가를 놓치지 마세요.":
+    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CtwMVhkK_ao6AOLyqpt8P0NyvqQHN_JOAigGa5N_XtBbR84vtjg4QASDJqsw1YJu754SoKaABwsXp1gPIAQmpArsZfDCfQgk-4AIAqAMByAMKqgThAk_QSQgtfdu1kfTfdJILOlhJo2etPw4EFXHSBNtou2IGwTMOzLog38qJW-9mD7HOec4qh6PLFPZYicqq9tzqACquknXIQzlc9uqIrBseh9VTaO23irUQa0RdfB8-FOUZRB_FIMslmfHUSzJIDfi7GV0qWmM9vvM5Sxrngq-J32XbjaXP-anWyqJwhgWvvFrf5Ola3B0_a35gOM4jFigONB6Uu37twFBnbgFKuTx6Xuy6wNwRhv3cdnDpdIAC8zPtACFtArQGZZbuwJoNBaDLczcSOrXSmcbIzGtvPDvig2gtWqOSq09vzr7M8xnm_iqY9_mLRslPkHRy5lGDxMFDsEDweE0VytjJvewEyx-nFbyawbVQmrry4kAjP4R3z0wVGDcbRIO5AfJm3inDJdbm5Gp9fjOU5cOoh9yneiWbyVBn_Kw1uBHhKX5DthLRgfwIv_cO14P6fWPXH5QwM0U9ts0PwASVl4zQ5AXgBAGIBef9s-JZoAYugAfO05nBHqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgHpuuxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AYSL39wTpYqpn7ps6alwNgAbEJogDPQQoW6aOACgOYCwHICwGADAGiDDhiGAoWY29tLmFkb2JlLkFkb2JlLVJlYWRlcmoUChJjb20uYWRvYmUubHJtb2JpbGV4AYgBAZABAaoNAktSyA0B4g0TCI3N-6bOmpcDFTyV6QUdUO4rFeoNEwjRofymzpqXAxU8lekFHVDuKxXwDQKIDv___________wHYEw2IFALQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo5MzUwMDA0MDg0UAa6FwI4AaoYFwkAAAAAMCEWQRIKOTM1MDAwNDA4NBgBshgJEgLoWBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE&num=1&cid=CAQShgIAQM4h3H6B9CEd0Rc-G56yohDx7jo5V54ONe1HHHX7olnHymJX7lWCc61mV9E2D4LVRNulI-Z7fvB06nhmNjZOWowgbD8RbI76tmY3H55rbgZwr-c1bSkrpYSrKrYfBReloNrzk___v7RoYd0RYdO8K78hG9ciAolm7DMh1Il-QpwVDtNOGk2wonndkLcuRnAMkCZAuSY8OwzGu47Feq8ZC6kU4nk0kIOsirezFy1da-jIsJIbJs2GUiEiKAcVx93I5vzApLCGPmS3wAmxwQfouHPDvvSkL8st9M-BCJxp5ysTcZ9Ckzyh_5d94ICLPPikYy3LcWsoumTH6V99wnzFmLCEeuXFGAE&sig=AOD64_2hCJjrkQC9bmcuN2z_mYZmjKNX3w&client=ca-pub-2142299567124418&rf=4&nb=7&adurl=https://www.adobe.com/kr/products/firefly/plans.html%3Fsdid%3D4F56953T%26mv%3Ddisplay%26mv2%3Ddisplay%26gad_source%3D5%26gad_campaignid%3D24097128167%26gclid%3DEAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE
+  - link:
+    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CtwMVhkK_ao6AOLyqpt8P0NyvqQHN_JOAigGa5N_XtBbR84vtjg4QASDJqsw1YJu754SoKaABwsXp1gPIAQmpArsZfDCfQgk-4AIAqAMByAMKqgThAk_QSQgtfdu1kfTfdJILOlhJo2etPw4EFXHSBNtou2IGwTMOzLog38qJW-9mD7HOec4qh6PLFPZYicqq9tzqACquknXIQzlc9uqIrBseh9VTaO23irUQa0RdfB8-FOUZRB_FIMslmfHUSzJIDfi7GV0qWmM9vvM5Sxrngq-J32XbjaXP-anWyqJwhgWvvFrf5Ola3B0_a35gOM4jFigONB6Uu37twFBnbgFKuTx6Xuy6wNwRhv3cdnDpdIAC8zPtACFtArQGZZbuwJoNBaDLczcSOrXSmcbIzGtvPDvig2gtWqOSq09vzr7M8xnm_iqY9_mLRslPkHRy5lGDxMFDsEDweE0VytjJvewEyx-nFbyawbVQmrry4kAjP4R3z0wVGDcbRIO5AfJm3inDJdbm5Gp9fjOU5cOoh9yneiWbyVBn_Kw1uBHhKX5DthLRgfwIv_cO14P6fWPXH5QwM0U9ts0PwASVl4zQ5AXgBAGIBef9s-JZoAYugAfO05nBHqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgHpuuxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AYSL39wTpYqpn7ps6alwNgAbEJogDPQQoW6aOACgOYCwHICwGADAGiDDhiGAoWY29tLmFkb2JlLkFkb2JlLVJlYWRlcmoUChJjb20uYWRvYmUubHJtb2JpbGV4AYgBAZABAaoNAktSyA0B4g0TCI3N-6bOmpcDFTyV6QUdUO4rFeoNEwjRofymzpqXAxU8lekFHVDuKxXwDQKIDv___________wHYEw2IFALQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo5MzUwMDA0MDg0UAa6FwI4AaoYFwkAAAAAMCEWQRIKOTM1MDAwNDA4NBgBshgJEgLoWBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE&num=1&cid=CAQShgIAQM4h3H6B9CEd0Rc-G56yohDx7jo5V54ONe1HHHX7olnHymJX7lWCc61mV9E2D4LVRNulI-Z7fvB06nhmNjZOWowgbD8RbI76tmY3H55rbgZwr-c1bSkrpYSrKrYfBReloNrzk___v7RoYd0RYdO8K78hG9ciAolm7DMh1Il-QpwVDtNOGk2wonndkLcuRnAMkCZAuSY8OwzGu47Feq8ZC6kU4nk0kIOsirezFy1da-jIsJIbJs2GUiEiKAcVx93I5vzApLCGPmS3wAmxwQfouHPDvvSkL8st9M-BCJxp5ysTcZ9Ckzyh_5d94ICLPPikYy3LcWsoumTH6V99wnzFmLCEeuXFGAE&sig=AOD64_2hCJjrkQC9bmcuN2z_mYZmjKNX3w&client=ca-pub-2142299567124418&rf=4&nb=8&adurl=https://www.adobe.com/kr/products/firefly/plans.html%3Fsdid%3D4F56953T%26mv%3Ddisplay%26mv2%3Ddisplay%26gad_source%3D5%26gad_campaignid%3D24097128167%26gclid%3DEAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE
+  - link "Adobe Korea":
+    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CtwMVhkK_ao6AOLyqpt8P0NyvqQHN_JOAigGa5N_XtBbR84vtjg4QASDJqsw1YJu754SoKaABwsXp1gPIAQmpArsZfDCfQgk-4AIAqAMByAMKqgThAk_QSQgtfdu1kfTfdJILOlhJo2etPw4EFXHSBNtou2IGwTMOzLog38qJW-9mD7HOec4qh6PLFPZYicqq9tzqACquknXIQzlc9uqIrBseh9VTaO23irUQa0RdfB8-FOUZRB_FIMslmfHUSzJIDfi7GV0qWmM9vvM5Sxrngq-J32XbjaXP-anWyqJwhgWvvFrf5Ola3B0_a35gOM4jFigONB6Uu37twFBnbgFKuTx6Xuy6wNwRhv3cdnDpdIAC8zPtACFtArQGZZbuwJoNBaDLczcSOrXSmcbIzGtvPDvig2gtWqOSq09vzr7M8xnm_iqY9_mLRslPkHRy5lGDxMFDsEDweE0VytjJvewEyx-nFbyawbVQmrry4kAjP4R3z0wVGDcbRIO5AfJm3inDJdbm5Gp9fjOU5cOoh9yneiWbyVBn_Kw1uBHhKX5DthLRgfwIv_cO14P6fWPXH5QwM0U9ts0PwASVl4zQ5AXgBAGIBef9s-JZoAYugAfO05nBHqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgHpuuxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AYSL39wTpYqpn7ps6alwNgAbEJogDPQQoW6aOACgOYCwHICwGADAGiDDhiGAoWY29tLmFkb2JlLkFkb2JlLVJlYWRlcmoUChJjb20uYWRvYmUubHJtb2JpbGV4AYgBAZABAaoNAktSyA0B4g0TCI3N-6bOmpcDFTyV6QUdUO4rFeoNEwjRofymzpqXAxU8lekFHVDuKxXwDQKIDv___________wHYEw2IFALQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo5MzUwMDA0MDg0UAa6FwI4AaoYFwkAAAAAMCEWQRIKOTM1MDAwNDA4NBgBshgJEgLoWBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE&num=1&cid=CAQShgIAQM4h3H6B9CEd0Rc-G56yohDx7jo5V54ONe1HHHX7olnHymJX7lWCc61mV9E2D4LVRNulI-Z7fvB06nhmNjZOWowgbD8RbI76tmY3H55rbgZwr-c1bSkrpYSrKrYfBReloNrzk___v7RoYd0RYdO8K78hG9ciAolm7DMh1Il-QpwVDtNOGk2wonndkLcuRnAMkCZAuSY8OwzGu47Feq8ZC6kU4nk0kIOsirezFy1da-jIsJIbJs2GUiEiKAcVx93I5vzApLCGPmS3wAmxwQfouHPDvvSkL8st9M-BCJxp5ysTcZ9Ckzyh_5d94ICLPPikYy3LcWsoumTH6V99wnzFmLCEeuXFGAE&sig=AOD64_2hCJjrkQC9bmcuN2z_mYZmjKNX3w&client=ca-pub-2142299567124418&rf=4&nb=1&adurl=https://www.adobe.com/kr/products/firefly/plans.html%3Fsdid%3D4F56953T%26mv%3Ddisplay%26mv2%3Ddisplay%26gad_source%3D5%26gad_campaignid%3D24097128167%26gclid%3DEAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE
+  - link "구매하기":
+    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CtwMVhkK_ao6AOLyqpt8P0NyvqQHN_JOAigGa5N_XtBbR84vtjg4QASDJqsw1YJu754SoKaABwsXp1gPIAQmpArsZfDCfQgk-4AIAqAMByAMKqgThAk_QSQgtfdu1kfTfdJILOlhJo2etPw4EFXHSBNtou2IGwTMOzLog38qJW-9mD7HOec4qh6PLFPZYicqq9tzqACquknXIQzlc9uqIrBseh9VTaO23irUQa0RdfB8-FOUZRB_FIMslmfHUSzJIDfi7GV0qWmM9vvM5Sxrngq-J32XbjaXP-anWyqJwhgWvvFrf5Ola3B0_a35gOM4jFigONB6Uu37twFBnbgFKuTx6Xuy6wNwRhv3cdnDpdIAC8zPtACFtArQGZZbuwJoNBaDLczcSOrXSmcbIzGtvPDvig2gtWqOSq09vzr7M8xnm_iqY9_mLRslPkHRy5lGDxMFDsEDweE0VytjJvewEyx-nFbyawbVQmrry4kAjP4R3z0wVGDcbRIO5AfJm3inDJdbm5Gp9fjOU5cOoh9yneiWbyVBn_Kw1uBHhKX5DthLRgfwIv_cO14P6fWPXH5QwM0U9ts0PwASVl4zQ5AXgBAGIBef9s-JZoAYugAfO05nBHqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgHpuuxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AYSL39wTpYqpn7ps6alwNgAbEJogDPQQoW6aOACgOYCwHICwGADAGiDDhiGAoWY29tLmFkb2JlLkFkb2JlLVJlYWRlcmoUChJjb20uYWRvYmUubHJtb2JpbGV4AYgBAZABAaoNAktSyA0B4g0TCI3N-6bOmpcDFTyV6QUdUO4rFeoNEwjRofymzpqXAxU8lekFHVDuKxXwDQKIDv___________wHYEw2IFALQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo5MzUwMDA0MDg0UAa6FwI4AaoYFwkAAAAAMCEWQRIKOTM1MDAwNDA4NBgBshgJEgLoWBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE&num=1&cid=CAQShgIAQM4h3H6B9CEd0Rc-G56yohDx7jo5V54ONe1HHHX7olnHymJX7lWCc61mV9E2D4LVRNulI-Z7fvB06nhmNjZOWowgbD8RbI76tmY3H55rbgZwr-c1bSkrpYSrKrYfBReloNrzk___v7RoYd0RYdO8K78hG9ciAolm7DMh1Il-QpwVDtNOGk2wonndkLcuRnAMkCZAuSY8OwzGu47Feq8ZC6kU4nk0kIOsirezFy1da-jIsJIbJs2GUiEiKAcVx93I5vzApLCGPmS3wAmxwQfouHPDvvSkL8st9M-BCJxp5ysTcZ9Ckzyh_5d94ICLPPikYy3LcWsoumTH6V99wnzFmLCEeuXFGAE&sig=AOD64_2hCJjrkQC9bmcuN2z_mYZmjKNX3w&client=ca-pub-2142299567124418&rf=4&nb=8&adurl=https://www.adobe.com/kr/products/firefly/plans.html%3Fsdid%3D4F56953T%26mv%3Ddisplay%26mv2%3Ddisplay%26gad_source%3D5%26gad_campaignid%3D24097128167%26gclid%3DEAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE
+  - link:
+    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CtwMVhkK_ao6AOLyqpt8P0NyvqQHN_JOAigGa5N_XtBbR84vtjg4QASDJqsw1YJu754SoKaABwsXp1gPIAQmpArsZfDCfQgk-4AIAqAMByAMKqgThAk_QSQgtfdu1kfTfdJILOlhJo2etPw4EFXHSBNtou2IGwTMOzLog38qJW-9mD7HOec4qh6PLFPZYicqq9tzqACquknXIQzlc9uqIrBseh9VTaO23irUQa0RdfB8-FOUZRB_FIMslmfHUSzJIDfi7GV0qWmM9vvM5Sxrngq-J32XbjaXP-anWyqJwhgWvvFrf5Ola3B0_a35gOM4jFigONB6Uu37twFBnbgFKuTx6Xuy6wNwRhv3cdnDpdIAC8zPtACFtArQGZZbuwJoNBaDLczcSOrXSmcbIzGtvPDvig2gtWqOSq09vzr7M8xnm_iqY9_mLRslPkHRy5lGDxMFDsEDweE0VytjJvewEyx-nFbyawbVQmrry4kAjP4R3z0wVGDcbRIO5AfJm3inDJdbm5Gp9fjOU5cOoh9yneiWbyVBn_Kw1uBHhKX5DthLRgfwIv_cO14P6fWPXH5QwM0U9ts0PwASVl4zQ5AXgBAGIBef9s-JZoAYugAfO05nBHqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgHpuuxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AYSL39wTpYqpn7ps6alwNgAbEJogDPQQoW6aOACgOYCwHICwGADAGiDDhiGAoWY29tLmFkb2JlLkFkb2JlLVJlYWRlcmoUChJjb20uYWRvYmUubHJtb2JpbGV4AYgBAZABAaoNAktSyA0B4g0TCI3N-6bOmpcDFTyV6QUdUO4rFeoNEwjRofymzpqXAxU8lekFHVDuKxXwDQKIDv___________wHYEw2IFALQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo5MzUwMDA0MDg0UAa6FwI4AaoYFwkAAAAAMCEWQRIKOTM1MDAwNDA4NBgBshgJEgLoWBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE&num=1&cid=CAQShgIAQM4h3H6B9CEd0Rc-G56yohDx7jo5V54ONe1HHHX7olnHymJX7lWCc61mV9E2D4LVRNulI-Z7fvB06nhmNjZOWowgbD8RbI76tmY3H55rbgZwr-c1bSkrpYSrKrYfBReloNrzk___v7RoYd0RYdO8K78hG9ciAolm7DMh1Il-QpwVDtNOGk2wonndkLcuRnAMkCZAuSY8OwzGu47Feq8ZC6kU4nk0kIOsirezFy1da-jIsJIbJs2GUiEiKAcVx93I5vzApLCGPmS3wAmxwQfouHPDvvSkL8st9M-BCJxp5ysTcZ9Ckzyh_5d94ICLPPikYy3LcWsoumTH6V99wnzFmLCEeuXFGAE&sig=AOD64_2hCJjrkQC9bmcuN2z_mYZmjKNX3w&client=ca-pub-2142299567124418&rf=4&nb=8&adurl=https://www.adobe.com/kr/products/firefly/plans.html%3Fsdid%3D4F56953T%26mv%3Ddisplay%26mv2%3Ddisplay%26gad_source%3D5%26gad_campaignid%3D24097128167%26gclid%3DEAIaIQobChMIjtv8ps6alwMVPJXpBR1Q7isVEAEYASAAEgI3GPD_BwE
+  - link:
+    - /url: https://adssettings.google.com/whythisad?source=display&reasons=ARXetyqNNJzUKIKNuYUZNfugdA3cHNT4cAuctyxIPllmyaKo8JxCNHunYvNIt7ktpEq3SDskQIGPUVMXHuegDz1hn88Jn6kc9uS6T1L6kpVLx6cn9p0VQYKILaQx9jO6iOUcJx-Nomw5bCTbTTwOT6FbeiUlcD3Up1CQ4uWkLErt0Ic6UtsRweAh6vVf5d9dgGy2Og2SUT9NAgJs26m9ic7tDIGnrjUny3IUYnAZk0KyvVPoTzdNq73Yd7GI6hSAF9NmFypRADokQLluR1ztseGWq6Udn404xvTwJT0TL2in7VJUOjuGZDE3wumsFnNdSd5LO7g5P42-elGKJayIOlwWfRpgktFInhKFbq32TdxMyp6qqXWCjhiaXU00w5tsMA_HnYssrt0LPrcVQ4Ezuc13sL7-IqB54TTAIIw18qk8GDHj5W9iDI5nRWoc9ey1x5irTWb_52aiNU9sSuhEHD_x_V5PIN3jP23e_mryECSSL7i-djg6NV0JVRoEUIbD1Djzn0ZYTArPOVr-DeSamlv6pDJKFMvunSJVmfYTm54r1KjRz54Hb17mvilGylTg3C7jbmNuwg0rYWaXNNsG9uI7zrbE_uDcPqdgZW5qfy32q5gZM9UzH91jTcjprb8XPJKFJBj7Z2_uZsBYw8yNfVcZNf37gVq8vfVmaGY6uT4hblLZu-y8bU0_Z58HHUyJbMqPKeKR_LlCMgoJvc5NO2Y2wwDDRI1nq7gyKQeumVeH7hNd5ILYMirhNFJS9vHOA2dk10cIpUKx4v4YQYVawWXXTY9S9yf4ck2C2xxpb3hzRerhv5zKYP0sFVnUL7OZBA9LLOT1Q20uRtFcZQBNBRnjmJ2QUILrPQEClB6mXNgpJy6oimIXAp6fVVI1X4IRa3IW3yDBdPUV-MZAN0ZfYmt_m7VZcDXxrmzdwOOqCM1ul5Phah30mM3Cft5R6zqWRMYGdCy_H3Qw9f3C5jSzDZfqEBcORwOGWpJWkVS8JDLLP8ZU8X8Dtx5OTDD2sEcMvpB57NZIMWYgIWnpSS_nkYvFkD7HJ58ppNIEwdNueuLfOr45nALHKJYe07D9CDX7SIqmiGWwjTh7Pq0ZbtpX0nA5T0jNaBHfuOQnUFwbaxnENz4y2oB6n-op0qRtuXYXtLgTwuBjFnsOmgak-S5taqNvLdLXhV-mm1iTY7FkgzarEIosbY-8seZfv2xysVYd1BIVSyu_XY-zBYyvM70lJUh-kNFtCB0n-Qjv9yGVdkZemPfBgDETAegWBWPasitFxctuEG1d-gQo8bb-xPrU5-LSMTl0VWPLXmbDfemueRarj6k8gsO9c0OsawYXltI_NZoj3gc5WziHR0DlglMIXxykyGkYFIYR27jkfpD2epJZ55Q5ESHPlRWo179QRntkftMoLULCL98QRzuXIQb7RlvXwYUt6qUqv73lT8eKV6IZmb5wLALLIggC3vgDj1tgaMp5149qx-NNuPOsL-jOvnJXnAqFOAf9qG0qDN_eG9cIubAcz9zT1F0ASoiitSk4wQfK64EFZkVuzJbJhA3TsRlMq88Cl2lY-0U-oqaxup8Gvs4veaWoxNSb7RFJnfmhGbZ-HKgKWau2tgO75htHeJ19wuNdPZI4pt8EfkS2ZxYN1VnJU0e8v-NOTLy2OaM7R9a678R4_BSoId6N5U6vYK8ZPyU3naotNgX875KpUk30vw39tl2uT_nMUl7a1Z7QKPuXiApu0HyDsFMgJWmaAhLUamcE2U-YbGwxecqL1og0vyFQA2wUlcyzw6wdOD-A2_1_nC0XMbyYrLTEiTryy5uxqcN_uljn1yQEnySWElIJCIJ3OBtX6b_r45KzhPAmniJDcB9hDDMgWZG3LBeypgeaBWF3HdQ7RKOOTGkGKpY91C_g3jhxmSqDx8-TD1t_o1FK7stS57CTQl8oZbX4TyZXZ-OAkmx2sEG7CrVz-tSiT_9PYm_tLaQjhI8NrD1HQVq-sV_fJin-fmVUgEmtf55m400GeC4LOrTePMRdGTr67ddqZvX2OTuIgspn6Yojm_XXqInp2dkO4VrJhMPfHf5Uo5AY6QAFdmBSizo_YIljpyKvphcMX-fXHLLI6kTa5WToTXN983E3KDwR48MyOIv7tmZmYhIqI6EbdqjGYkh5D9v5FR47aXPXjWJlJwnFfs_gZ0zqlHljsVDH4MVRHMa4QXKntVE4e-4dc8d1lcl1B5y0Uu0VexjUwB_mUSb_6SHfw54HvJRwBvZTgqLlStaYYV1AjD1TLYzu1V_l-yHtULuKvBmuWaS93wpqqjSKv4F0nzjnAPY8dsr3SMMbagBaT21TMXeSMIGWCmTFWGRhoH0sT-MzeC9so1ZPaVGhfBaj7bOiB5DyaVgSxGCPbH2jdCYPtjhdu1fbbw9wERKcXsTpSS7ldnTnSuCBBOgD_1LNqSVkZ7BCZvl_CJEMAFxo9odjO1dFXDXHSgh_nCPCEolROkZ90GaA88ydi7QFiVQ9hfYmBvyJktiwiUwltcoJSsE3TTs5SJD2OU3JeL1Mq9bfBMiXLiu-dXfkI9qu0dk8zP4mRkHlw3I1UO1sEm2X954-ShZagULc7jIap4KXZqUeM6UvouCfmvjhXV-9rHCCmBsyj7u7R5vupQwVZh7bA-pfpOdE8liy-tr9LRyoHjR-dIs8QQg7OOLFkyfCJcEsRGl0TkijsABSzSYPQUnWjnFSYhYHQ8LIKqsrJFdhSWPnI-1OG-UuM9btsXegTeIM5G9BDWjWEFQcHAHIlARLr_aepD-ISzfqUMKyRM8efTLWJOwfFGrBdZkDt3agPFN6u4hglngQ-Xeqn3kqs8c3zcc0GJ_BpXrfPlrRgt-zZok-uHlx-aaGKfCB6d_Ta6odPVj-2Aea_owuF0JO0hhj-DcKeHKJRsDHqs7nEmmh0v_O_kQ5SfjiUFYnZhYjDaSf3qvuffMbEZJ_vCFZi9lGCjoUgfu5Oi-DzUNCUDQWNQ7ymgb-h_GaD9Of73g9qkhgZ6qqwU4UHKEsuonWDpEp2TJ1EI4BFvtMYi-E3tg4TENrooJBTG-GJ86m-laouwsJR9iSxM9cSuZnAOS_CiAa37tlc_9JOHUFSYFLMXoW276spxm01YivfmmgflnLB5xAbGTTUUuUJDqjSpQ4hp0EszgXTtksOQKsYYtUjAAfdMlMRaDDlrS_8fNcSlEEerf7WVv76UUwK0eLbL_bQs_7Mja09cyuKCVpcj-RtdRmnU2f04vLoyE9jGTlW-iUZ01gGCWAezl_FPmpP4vvc8unuLpYGshX9G-kabSVN_FxLnvoEiWgR1RZ8WBA7fild6qnec_fPpw&opi=122715837
+  - link:
+    - /url: https://adssettings.google.com/whythisad?source=display&reasons=ARXetyqNNJzUKIKNuYUZNfugdA3cHNT4cAuctyxIPllmyaKo8JxCNHunYvNIt7ktpEq3SDskQIGPUVMXHuegDz1hn88Jn6kc9uS6T1L6kpVLx6cn9p0VQYKILaQx9jO6iOUcJx-Nomw5bCTbTTwOT6FbeiUlcD3Up1CQ4uWkLErt0Ic6UtsRweAh6vVf5d9dgGy2Og2SUT9NAgJs26m9ic7tDIGnrjUny3IUYnAZk0KyvVPoTzdNq73Yd7GI6hSAF9NmFypRADokQLluR1ztseGWq6Udn404xvTwJT0TL2in7VJUOjuGZDE3wumsFnNdSd5LO7g5P42-elGKJayIOlwWfRpgktFInhKFbq32TdxMyp6qqXWCjhiaXU00w5tsMA_HnYssrt0LPrcVQ4Ezuc13sL7-IqB54TTAIIw18qk8GDHj5W9iDI5nRWoc9ey1x5irTWb_52aiNU9sSuhEHD_x_V5PIN3jP23e_mryECSSL7i-djg6NV0JVRoEUIbD1Djzn0ZYTArPOVr-DeSamlv6pDJKFMvunSJVmfYTm54r1KjRz54Hb17mvilGylTg3C7jbmNuwg0rYWaXNNsG9uI7zrbE_uDcPqdgZW5qfy32q5gZM9UzH91jTcjprb8XPJKFJBj7Z2_uZsBYw8yNfVcZNf37gVq8vfVmaGY6uT4hblLZu-y8bU0_Z58HHUyJbMqPKeKR_LlCMgoJvc5NO2Y2wwDDRI1nq7gyKQeumVeH7hNd5ILYMirhNFJS9vHOA2dk10cIpUKx4v4YQYVawWXXTY9S9yf4ck2C2xxpb3hzRerhv5zKYP0sFVnUL7OZBA9LLOT1Q20uRtFcZQBNBRnjmJ2QUILrPQEClB6mXNgpJy6oimIXAp6fVVI1X4IRa3IW3yDBdPUV-MZAN0ZfYmt_m7VZcDXxrmzdwOOqCM1ul5Phah30mM3Cft5R6zqWRMYGdCy_H3Qw9f3C5jSzDZfqEBcORwOGWpJWkVS8JDLLP8ZU8X8Dtx5OTDD2sEcMvpB57NZIMWYgIWnpSS_nkYvFkD7HJ58ppNIEwdNueuLfOr45nALHKJYe07D9CDX7SIqmiGWwjTh7Pq0ZbtpX0nA5T0jNaBHfuOQnUFwbaxnENz4y2oB6n-op0qRtuXYXtLgTwuBjFnsOmgak-S5taqNvLdLXhV-mm1iTY7FkgzarEIosbY-8seZfv2xysVYd1BIVSyu_XY-zBYyvM70lJUh-kNFtCB0n-Qjv9yGVdkZemPfBgDETAegWBWPasitFxctuEG1d-gQo8bb-xPrU5-LSMTl0VWPLXmbDfemueRarj6k8gsO9c0OsawYXltI_NZoj3gc5WziHR0DlglMIXxykyGkYFIYR27jkfpD2epJZ55Q5ESHPlRWo179QRntkftMoLULCL98QRzuXIQb7RlvXwYUt6qUqv73lT8eKV6IZmb5wLALLIggC3vgDj1tgaMp5149qx-NNuPOsL-jOvnJXnAqFOAf9qG0qDN_eG9cIubAcz9zT1F0ASoiitSk4wQfK64EFZkVuzJbJhA3TsRlMq88Cl2lY-0U-oqaxup8Gvs4veaWoxNSb7RFJnfmhGbZ-HKgKWau2tgO75htHeJ19wuNdPZI4pt8EfkS2ZxYN1VnJU0e8v-NOTLy2OaM7R9a678R4_BSoId6N5U6vYK8ZPyU3naotNgX875KpUk30vw39tl2uT_nMUl7a1Z7QKPuXiApu0HyDsFMgJWmaAhLUamcE2U-YbGwxecqL1og0vyFQA2wUlcyzw6wdOD-A2_1_nC0XMbyYrLTEiTryy5uxqcN_uljn1yQEnySWElIJCIJ3OBtX6b_r45KzhPAmniJDcB9hDDMgWZG3LBeypgeaBWF3HdQ7RKOOTGkGKpY91C_g3jhxmSqDx8-TD1t_o1FK7stS57CTQl8oZbX4TyZXZ-OAkmx2sEG7CrVz-tSiT_9PYm_tLaQjhI8NrD1HQVq-sV_fJin-fmVUgEmtf55m400GeC4LOrTePMRdGTr67ddqZvX2OTuIgspn6Yojm_XXqInp2dkO4VrJhMPfHf5Uo5AY6QAFdmBSizo_YIljpyKvphcMX-fXHLLI6kTa5WToTXN983E3KDwR48MyOIv7tmZmYhIqI6EbdqjGYkh5D9v5FR47aXPXjWJlJwnFfs_gZ0zqlHljsVDH4MVRHMa4QXKntVE4e-4dc8d1lcl1B5y0Uu0VexjUwB_mUSb_6SHfw54HvJRwBvZTgqLlStaYYV1AjD1TLYzu1V_l-yHtULuKvBmuWaS93wpqqjSKv4F0nzjnAPY8dsr3SMMbagBaT21TMXeSMIGWCmTFWGRhoH0sT-MzeC9so1ZPaVGhfBaj7bOiB5DyaVgSxGCPbH2jdCYPtjhdu1fbbw9wERKcXsTpSS7ldnTnSuCBBOgD_1LNqSVkZ7BCZvl_CJEMAFxo9odjO1dFXDXHSgh_nCPCEolROkZ90GaA88ydi7QFiVQ9hfYmBvyJktiwiUwltcoJSsE3TTs5SJD2OU3JeL1Mq9bfBMiXLiu-dXfkI9qu0dk8zP4mRkHlw3I1UO1sEm2X954-ShZagULc7jIap4KXZqUeM6UvouCfmvjhXV-9rHCCmBsyj7u7R5vupQwVZh7bA-pfpOdE8liy-tr9LRyoHjR-dIs8QQg7OOLFkyfCJcEsRGl0TkijsABSzSYPQUnWjnFSYhYHQ8LIKqsrJFdhSWPnI-1OG-UuM9btsXegTeIM5G9BDWjWEFQcHAHIlARLr_aepD-ISzfqUMKyRM8efTLWJOwfFGrBdZkDt3agPFN6u4hglngQ-Xeqn3kqs8c3zcc0GJ_BpXrfPlrRgt-zZok-uHlx-aaGKfCB6d_Ta6odPVj-2Aea_owuF0JO0hhj-DcKeHKJRsDHqs7nEmmh0v_O_kQ5SfjiUFYnZhYjDaSf3qvuffMbEZJ_vCFZi9lGCjoUgfu5Oi-DzUNCUDQWNQ7ymgb-h_GaD9Of73g9qkhgZ6qqwU4UHKEsuonWDpEp2TJ1EI4BFvtMYi-E3tg4TENrooJBTG-GJ86m-laouwsJR9iSxM9cSuZnAOS_CiAa37tlc_9JOHUFSYFLMXoW276spxm01YivfmmgflnLB5xAbGTTUUuUJDqjSpQ4hp0EszgXTtksOQKsYYtUjAAfdMlMRaDDlrS_8fNcSlEEerf7WVv76UUwK0eLbL_bQs_7Mja09cyuKCVpcj-RtdRmnU2f04vLoyE9jGTlW-iUZ01gGCWAezl_FPmpP4vvc8unuLpYGshX9G-kabSVN_FxLnvoEiWgR1RZ8WBA7fild6qnec_fPpw&opi=122715837
+  - text: 提供的廣告
+  - generic: 廣告選項
+  - generic: 提供意見
+  - link:
+    - /url: https://adssettings.google.com/whythisad?source=display&reasons=ARXetyqNNJzUKIKNuYUZNfugdA3cHNT4cAuctyxIPllmyaKo8JxCNHunYvNIt7ktpEq3SDskQIGPUVMXHuegDz1hn88Jn6kc9uS6T1L6kpVLx6cn9p0VQYKILaQx9jO6iOUcJx-Nomw5bCTbTTwOT6FbeiUlcD3Up1CQ4uWkLErt0Ic6UtsRweAh6vVf5d9dgGy2Og2SUT9NAgJs26m9ic7tDIGnrjUny3IUYnAZk0KyvVPoTzdNq73Yd7GI6hSAF9NmFypRADokQLluR1ztseGWq6Udn404xvTwJT0TL2in7VJUOjuGZDE3wumsFnNdSd5LO7g5P42-elGKJayIOlwWfRpgktFInhKFbq32TdxMyp6qqXWCjhiaXU00w5tsMA_HnYssrt0LPrcVQ4Ezuc13sL7-IqB54TTAIIw18qk8GDHj5W9iDI5nRWoc9ey1x5irTWb_52aiNU9sSuhEHD_x_V5PIN3jP23e_mryECSSL7i-djg6NV0JVRoEUIbD1Djzn0ZYTArPOVr-DeSamlv6pDJKFMvunSJVmfYTm54r1KjRz54Hb17mvilGylTg3C7jbmNuwg0rYWaXNNsG9uI7zrbE_uDcPqdgZW5qfy32q5gZM9UzH91jTcjprb8XPJKFJBj7Z2_uZsBYw8yNfVcZNf37gVq8vfVmaGY6uT4hblLZu-y8bU0_Z58HHUyJbMqPKeKR_LlCMgoJvc5NO2Y2wwDDRI1nq7gyKQeumVeH7hNd5ILYMirhNFJS9vHOA2dk10cIpUKx4v4YQYVawWXXTY9S9yf4ck2C2xxpb3hzRerhv5zKYP0sFVnUL7OZBA9LLOT1Q20uRtFcZQBNBRnjmJ2QUILrPQEClB6mXNgpJy6oimIXAp6fVVI1X4IRa3IW3yDBdPUV-MZAN0ZfYmt_m7VZcDXxrmzdwOOqCM1ul5Phah30mM3Cft5R6zqWRMYGdCy_H3Qw9f3C5jSzDZfqEBcORwOGWpJWkVS8JDLLP8ZU8X8Dtx5OTDD2sEcMvpB57NZIMWYgIWnpSS_nkYvFkD7HJ58ppNIEwdNueuLfOr45nALHKJYe07D9CDX7SIqmiGWwjTh7Pq0ZbtpX0nA5T0jNaBHfuOQnUFwbaxnENz4y2oB6n-op0qRtuXYXtLgTwuBjFnsOmgak-S5taqNvLdLXhV-mm1iTY7FkgzarEIosbY-8seZfv2xysVYd1BIVSyu_XY-zBYyvM70lJUh-kNFtCB0n-Qjv9yGVdkZemPfBgDETAegWBWPasitFxctuEG1d-gQo8bb-xPrU5-LSMTl0VWPLXmbDfemueRarj6k8gsO9c0OsawYXltI_NZoj3gc5WziHR0DlglMIXxykyGkYFIYR27jkfpD2epJZ55Q5ESHPlRWo179QRntkftMoLULCL98QRzuXIQb7RlvXwYUt6qUqv73lT8eKV6IZmb5wLALLIggC3vgDj1tgaMp5149qx-NNuPOsL-jOvnJXnAqFOAf9qG0qDN_eG9cIubAcz9zT1F0ASoiitSk4wQfK64EFZkVuzJbJhA3TsRlMq88Cl2lY-0U-oqaxup8Gvs4veaWoxNSb7RFJnfmhGbZ-HKgKWau2tgO75htHeJ19wuNdPZI4pt8EfkS2ZxYN1VnJU0e8v-NOTLy2OaM7R9a678R4_BSoId6N5U6vYK8ZPyU3naotNgX875KpUk30vw39tl2uT_nMUl7a1Z7QKPuXiApu0HyDsFMgJWmaAhLUamcE2U-YbGwxecqL1og0vyFQA2wUlcyzw6wdOD-A2_1_nC0XMbyYrLTEiTryy5uxqcN_uljn1yQEnySWElIJCIJ3OBtX6b_r45KzhPAmniJDcB9hDDMgWZG3LBeypgeaBWF3HdQ7RKOOTGkGKpY91C_g3jhxmSqDx8-TD1t_o1FK7stS57CTQl8oZbX4TyZXZ-OAkmx2sEG7CrVz-tSiT_9PYm_tLaQjhI8NrD1HQVq-sV_fJin-fmVUgEmtf55m400GeC4LOrTePMRdGTr67ddqZvX2OTuIgspn6Yojm_XXqInp2dkO4VrJhMPfHf5Uo5AY6QAFdmBSizo_YIljpyKvphcMX-fXHLLI6kTa5WToTXN983E3KDwR48MyOIv7tmZmYhIqI6EbdqjGYkh5D9v5FR47aXPXjWJlJwnFfs_gZ0zqlHljsVDH4MVRHMa4QXKntVE4e-4dc8d1lcl1B5y0Uu0VexjUwB_mUSb_6SHfw54HvJRwBvZTgqLlStaYYV1AjD1TLYzu1V_l-yHtULuKvBmuWaS93wpqqjSKv4F0nzjnAPY8dsr3SMMbagBaT21TMXeSMIGWCmTFWGRhoH0sT-MzeC9so1ZPaVGhfBaj7bOiB5DyaVgSxGCPbH2jdCYPtjhdu1fbbw9wERKcXsTpSS7ldnTnSuCBBOgD_1LNqSVkZ7BCZvl_CJEMAFxo9odjO1dFXDXHSgh_nCPCEolROkZ90GaA88ydi7QFiVQ9hfYmBvyJktiwiUwltcoJSsE3TTs5SJD2OU3JeL1Mq9bfBMiXLiu-dXfkI9qu0dk8zP4mRkHlw3I1UO1sEm2X954-ShZagULc7jIap4KXZqUeM6UvouCfmvjhXV-9rHCCmBsyj7u7R5vupQwVZh7bA-pfpOdE8liy-tr9LRyoHjR-dIs8QQg7OOLFkyfCJcEsRGl0TkijsABSzSYPQUnWjnFSYhYHQ8LIKqsrJFdhSWPnI-1OG-UuM9btsXegTeIM5G9BDWjWEFQcHAHIlARLr_aepD-ISzfqUMKyRM8efTLWJOwfFGrBdZkDt3agPFN6u4hglngQ-Xeqn3kqs8c3zcc0GJ_BpXrfPlrRgt-zZok-uHlx-aaGKfCB6d_Ta6odPVj-2Aea_owuF0JO0hhj-DcKeHKJRsDHqs7nEmmh0v_O_kQ5SfjiUFYnZhYjDaSf3qvuffMbEZJ_vCFZi9lGCjoUgfu5Oi-DzUNCUDQWNQ7ymgb-h_GaD9Of73g9qkhgZ6qqwU4UHKEsuonWDpEp2TJ1EI4BFvtMYi-E3tg4TENrooJBTG-GJ86m-laouwsJR9iSxM9cSuZnAOS_CiAa37tlc_9JOHUFSYFLMXoW276spxm01YivfmmgflnLB5xAbGTTUUuUJDqjSpQ4hp0EszgXTtksOQKsYYtUjAAfdMlMRaDDlrS_8fNcSlEEerf7WVv76UUwK0eLbL_bQs_7Mja09cyuKCVpcj-RtdRmnU2f04vLoyE9jGTlW-iUZ01gGCWAezl_FPmpP4vvc8unuLpYGshX9G-kabSVN_FxLnvoEiWgR1RZ8WBA7fild6qnec_fPpw&opi=122715837
+    - text: 為什麼會顯示這則廣告？
+  - generic: 廣告遮蓋內容
+  - generic: 廣告內容不當
+  - generic: 已多次看到這則廣告
+  - generic: 對這則廣告沒興趣
+  - generic: 謝謝您。您的意見回饋有助於改善 Google Ads
+  - text: 已關閉廣告
+  - generic: 將這個網站的廣告個人化
+  - link:
+    - /url: https://support.google.com/ads/answer/10923348
+    - text: 瞭解詳情
+- navigation "breadcrumb":
+  - list:
+    - link "背包客棧":
+      - /url: https://www.backpackers.com.tw/forum/?
+    - text: ">"
+    - link "論壇首頁":
+      - /url: https://www.backpackers.com.tw/forum/index.php?
+    - text: ">"
+    - link "廣告與交易":
+      - /url: forumdisplay.php?f=182
+    - text: ">"
+    - link "廣告專區":
+      - /url: forumdisplay.php?f=28
+    - text: ">"
+    - link "東北亞廣告專區":
+      - /url: forumdisplay.php?f=346
+- text: ">"
+- heading "韓國廣告專區" [level=1]:
+  - strong: 韓國廣告專區
+- text: 1. 盡量使用私訊，避免公開留LINE、微信及個資。
+- text: 2. 務必提防詐騙，Line等通訊軟體警方難追查。參考站內手機認證、註冊日期、過往發文審慎評估對方信用狀態，並自行承擔後果。
+- text: 3. 禁止換錢、非旅遊廣告、頻繁頂文、重複發文，違反規定將被封禁，請先詳閱本站
+- link "廣告規定":
+  - /url: /forum/showthread.php?t=781
+- text: 。
+- group "主題分類":
+  - generic: 主題分類
+  - link "票卡":
+    - /url: forumdisplay.php?f=345&prefixid=tickets&sort=dateline
+  - link "通訊":
+    - /url: forumdisplay.php?f=345&prefixid=mobile&sort=dateline
+  - link "機票":
+    - /url: forumdisplay.php?f=345&prefixid=traffic&sort=dateline
+  - link "住宿":
+    - /url: forumdisplay.php?f=345&prefixid=BnB&sort=dateline
+  - link "代購":
+    - /url: forumdisplay.php?f=345&prefixid=daigou&sort=dateline
+  - link "換錢":
+    - /url: forumdisplay.php?f=345&prefixid=money_ad&sort=dateline
+  - link "包車":
+    - /url: forumdisplay.php?f=345&prefixid=car_rental&sort=dateline
+  - link "地陪":
+    - /url: forumdisplay.php?f=345&prefixid=local_guide&sort=dateline
+  - link "二手":
+    - /url: forumdisplay.php?f=345&prefixid=used&sort=dateline
+  - link "免費":
+    - /url: forumdisplay.php?f=345&prefixid=free_ad&sort=dateline
+  - link "其他":
+    - /url: forumdisplay.php?f=345&prefixid=other_service&sort=dateline
+  - link "全部":
+    - /url: forumdisplay.php?f=345&sort=dateline
+- link "發表新主題":
+  - /url: newthread.php?do=newthread&f=345
+  - img "發表新主題"
+- table:
+  - rowgroup:
+    - row "第1頁，共27頁 1 2 3 4 11 下頁 最後 »":
+      - cell "第1頁，共27頁"
+      - cell "1":
+        - generic "顯示結果從 1 到 30 共計 803 條":
+          - strong: "1"
+      - cell "2":
+        - link "2":
+          - /url: forumdisplay.php?f=345&sort=dateline&order=desc&page=2
+      - cell "3":
+        - link "3":
+          - /url: forumdisplay.php?f=345&sort=dateline&order=desc&page=3
+      - cell "4":
+        - link "4":
+          - /url: forumdisplay.php?f=345&sort=dateline&order=desc&page=4
+      - cell "11":
+        - link "11":
+          - /url: forumdisplay.php?f=345&sort=dateline&order=desc&page=11
+      - cell "下頁":
+        - link "下頁":
+          - /url: forumdisplay.php?f=345&sort=dateline&order=desc&page=2
+      - cell "最後 »":
+        - link "最後 »":
+          - /url: forumdisplay.php?f=345&sort=dateline&order=desc&page=27
+          - text: 最後
+          - strong: »
+      - cell
+- link "RSS":
+  - /url: external.php?type=RSS2&forumid
+  - img "RSS"
+- text: "版面中的主題 : 韓國廣告專區"
+- link "版面工具":
+  - /url: /forum/forumdisplay.php?f=345&sort=dateline&noj#goto_forumtools
+- link "搜尋此版面":
+  - /url: search.php?f=345
+- text: 主題 / 主題作者
+- generic: 最後發表
+- generic: 回覆
+- list:
+  - text: 【其他】
+  - link "本區發文規範（2013.07.23公布）":
+    - /url: showthread.php?t=971276
+  - img "感謝"
+  - text: 15 · 小眼睛先生
+  - text: 2018/10/21
+  - text: Seoulokhouse
+  - link:
+    - /url: showthread.php?t=971276#post10686629
+  - text: "2"
+  - generic: 回應
+  - generic: "1"
+  - text: 【票卡】
+  - link "2026韓國旅遊卡怎麼選？🇰🇷 最近最多人問的竟然是這張！":
+    - /url: showthread.php?t=10644702
+  - generic: » 所在地:韓國
+  - generic: puipuilai
+  - generic: 昨天12:10
+  - generic: 等待回應
+  - generic: "1"
+  - text: 【票卡】
+  - link "去韓國先Mark低！💙 交通＋購物＋優惠一張卡搞定":
+    - /url: showthread.php?t=10644659
+  - generic: » 所在地:韓國
+  - generic: puipuilai
+  - generic: 9月30日
+  - generic: 等待回應
+  - link "徵韓幣,台幣3萬":
+    - /url: showthread.php?t=10644476
+  - generic: » 所在地:台中高雄
+  - generic: dennis1031
+  - generic: 9月25日
+  - generic: 等待回應
+  - text: 【換錢】
+  - link "售韓國Tmoney3張、氣候卡1張及韓幣":
+    - /url: showthread.php?t=10644269
+  - generic: sun backpackers
+  - generic: 9月19日
+  - generic: 等待回應
+  - text: 【換錢】
+  - link "徵韓幣(台幣換)":
+    - /url: showthread.php?t=10644045
+  - generic: » 所在地:新北市新莊區民安西路谷歌導航10公里以內面交
+  - generic: 李秋秋
+  - generic: 9月14日
+  - generic: 等待回應
+  - generic: "4"
+  - text: 【地陪】
+  - link "👋 大家好! 我是韓國在地專業導遊 Brian!":
+    - /url: showthread.php?t=10644039
+  - generic: bsghk13
+  - generic: 9月14日
+  - generic: 等待回應
+  - 'link "徵: 2026-2027 冬季韓國滑雪場幫手"':
+    - /url: showthread.php?t=10644028
+  - generic: saseoul
+  - generic: 9月14日
+  - generic: 等待回應
+  - generic: "7"
+  - text: 【換錢】
+  - link "💊 釜山南浦洞新式藥局！買藥妝＋換錢一次搞掂✨":
+    - /url: showthread.php?t=10643924
+  - generic: » 所在地:釜山
+  - generic: puipuilai
+  - generic: 9月11日
+  - generic: 等待回應
+  - text: 【票卡】
+  - link "售Arex機場快線 仁川T2- 首爾站 單程車票 1張":
+    - /url: showthread.php?t=10643654
+  - generic: » 所在地:首爾
+  - generic: smile312524
+  - generic: 9月4日
+  - generic: 等待回應
+  - generic: "1"
+  - text: 【換錢】
+  - link "🇰🇷 去聖水逛街，原來換韓元都這麼方便！💱✨":
+    - /url: showthread.php?t=10643588
+  - generic: » 所在地:韓國
+  - generic: puipuilai
+  - generic: 9月2日
+  - generic: 等待回應
+  - generic: "1"
+  - text: 【票卡】
+  - link "💙 BIGBANG 太陽 Fans注意！韓國交通卡都可以變成收藏品 ☀️":
+    - /url: showthread.php?t=10643543
+  - generic: » 所在地:韓國
+  - generic: puipuilai
+  - generic: 9月1日
+  - generic: 等待回應
+  - generic: "2"
+  - text: 【其他】
+  - link "專屬這個社群的限定優惠來囉！":
+    - /url: showthread.php?t=10643540
+  - generic: » 所在地:Seoul,Korea
+  - generic: Koncierge
+  - generic: 9月1日
+  - generic: 等待回應
+  - generic: "1"
+  - text: 【票卡】
+  - link "售韓國首爾市氣候同行卡":
+    - /url: showthread.php?t=10643201
+  - generic: » 所在地:新北市中和區
+  - generic: stlouis
+  - text: 9月5日
+  - text: stlouis
+  - link:
+    - /url: showthread.php?t=10643201#post12573454
+  - text: "5"
+  - generic: 回應
+  - generic: "1"
+  - text: 【票卡】
+  - link "🔥 TAEYANG粉絲注意！《QUINTESSENCE》竟然出限定交通卡！韓國旅行真的可以直接用！🚇":
+    - /url: showthread.php?t=10643102
+  - generic: » 所在地:韓國
+  - generic: puipuilai
+  - generic: 8月21日
+  - generic: 等待回應
+  - generic: "7"
+  - text: 【換錢】
+  - link "💊 明洞新式藥局推薦｜藥妝、換錢、退稅一次完成✨":
+    - /url: showthread.php?t=10643021
+  - generic: » 所在地:韓國
+  - generic: puipuilai
+  - generic: 8月19日
+  - generic: 等待回應
+  - generic: "1"
+  - text: 【其他】
+  - link "韓國滑雪教練｜SKIDIEM":
+    - /url: showthread.php?t=10642773
+  - generic: justmulti
+  - generic: 8月13日
+  - generic: 等待回應
+  - text: 【換錢】
+  - link "徵換韓幣":
+    - /url: showthread.php?t=10642672
+  - generic: » 所在地:高雄
+  - generic: fufuyu
+  - generic: 8月10日
+  - generic: 等待回應
+  - text: 【代購】
+  - link "東大門南大門現場取貨｜商品直接匯進你的商城（首爾在地團隊）":
+    - /url: showthread.php?t=10642258
+  - generic: » 所在地:韓國首爾
+  - generic: dapikorea
+  - generic: 8月3日
+  - generic: 等待回應
+  - text: 【包車】
+  - link "慶州一日遊":
+    - /url: showthread.php?t=10642200
+  - generic: » 所在地:釜山
+  - generic: Ken69022001
+  - generic: 8月1日
+  - generic: 等待回應
+  - text: 【票卡】
+  - link "韓國交通卡":
+    - /url: showthread.php?t=10642150
+  - generic: » 所在地:高雄
+  - generic: az1362
+  - text: 8月10日
+  - text: fufuyu
+  - link:
+    - /url: showthread.php?t=10642150#post12570249
+  - text: "1"
+  - generic: 回應
+  - text: 【換錢】
+  - link "售韓幣":
+    - /url: showthread.php?t=10642050
+  - generic: » 所在地:北部
+  - generic: tw3000
+  - text: 8月4日
+  - text: tw3000
+  - link:
+    - /url: showthread.php?t=10642050#post12569434
+  - text: "2"
+  - generic: 回應
+  - generic: "13"
+  - text: 【其他】
+  - link "【安國站T locker之外的行李寄放選擇】免下載APP・現場刷卡｜免費化妝間與更衣室":
+    - /url: showthread.php?t=10641900
+  - generic: » 所在地:Seoul Anguk
+  - generic: luggage lounge
+  - generic: 7月26日
+  - generic: 等待回應
+  - text: 【票卡】
+  - link "（收購 or 出借）Tmoney 兩張":
+    - /url: showthread.php?t=10641761
+  - generic: » 所在地:台北市
+  - generic: redblueya
+  - generic: 7月23日
+  - generic: 等待回應
+  - text: 【免費】
+  - link "首爾美食探險隊活動 (獎品是 iPad mini!)":
+    - /url: showthread.php?t=10641759
+  - generic: » 所在地:韓國首爾活動
+  - generic: dadae
+  - generic: 7月23日
+  - generic: 等待回應
+  - text: 【換錢】
+  - link "徵韓幣，t money卡":
+    - /url: showthread.php?t=10641578
+  - generic: » 所在地:高雄
+  - generic: ying123456
+  - text: 7月31日
+  - text: az1362
+  - link:
+    - /url: showthread.php?t=10641578#post12568839
+  - text: "1"
+  - generic: 回應
+  - generic: "4"
+  - text: 【地陪】
+  - link "我是Brian,韓國本地私人旅遊導遊":
+    - /url: showthread.php?t=10641394
+  - generic: » 所在地:韓國
+  - generic: bsghk13
+  - generic: 7月15日
+  - generic: 等待回應
+  - text: 【票卡】
+  - link "即期出清 樂天超市現金券":
+    - /url: showthread.php?t=10641008
+  - generic: janjanxxx
+  - text: 9月17日
+  - text: naniwuw
+  - link:
+    - /url: showthread.php?t=10641008#post12575033
+  - text: "1"
+  - generic: 回應
+  - generic: "2"
+  - text: 【免費】
+  - link "[EVENT] 目前大邱觀光官方YouTube正在舉辦留言抽獎活動喔！":
+    - /url: showthread.php?t=10640480
+  - generic: » 所在地:Taiwan, Daegu
+  - generic: eundarrrr
+  - generic: 6月24日
+  - generic: 等待回應
+  - text: 【票卡】
+  - link "出售":
+    - /url: showthread.php?t=10640392
+  - generic: » 所在地:一張 t money card
+  - generic: appleusa
+  - generic: 6月22日
+  - generic: 等待回應
+  - generic: "10"
+  - text: 【其他】
+  - link "首爾｜三成洞預約制餐廳分享🍽️🍡":
+    - /url: showthread.php?t=10639642
+  - generic: » 所在地:韓國首爾
+  - generic: lillian1013
+  - generic: 6月3日
+  - generic: 等待回應
+- link "發表新主題":
+  - /url: newthread.php?do=newthread&f=345
+  - img "發表新主題"
+- table:
+  - rowgroup:
+    - row "第1頁，共27頁 1 2 3 4 11 下頁 最後 »":
+      - cell "第1頁，共27頁"
+      - cell "1":
+        - generic "顯示結果從 1 到 30 共計 803 條":
+          - strong: "1"
+      - cell "2":
+        - link "2":
+          - /url: forumdisplay.php?f=345&sort=dateline&order=desc&page=2
+      - cell "3":
+        - link "3":
+          - /url: forumdisplay.php?f=345&sort=dateline&order=desc&page=3
+      - cell "4":
+        - link "4":
+          - /url: forumdisplay.php?f=345&sort=dateline&order=desc&page=4
+      - cell "11":
+        - link "11":
+          - /url: forumdisplay.php?f=345&sort=dateline&order=desc&page=11
+      - cell "下頁":
+        - link "下頁":
+          - /url: forumdisplay.php?f=345&sort=dateline&order=desc&page=2
+      - cell "最後 »":
+        - link "最後 »":
+          - /url: forumdisplay.php?f=345&sort=dateline&order=desc&page=27
+          - text: 最後
+          - strong: »
+      - cell
+- generic: 顯示選項
+- generic: 顯示主題 1 到 30 共 803 條
+- generic: 排列方式
+- combobox "排列方式":
+  - option "主題標題"
+  - option "最後發表時間"
+  - option "主題發起時間" [selected]
+  - option "回覆人數"
+  - option "查看人數"
+  - option "主題作者"
+- generic: 排列順序
+- combobox "排列順序":
+  - option "遞增排列"
+  - option "遞減排列" [selected]
+- generic: 從
+- combobox "從":
+  - option "昨天以來"
+  - option "2 天以來"
+  - option "1 週以來"
+  - option "10 天以來"
+  - option "2 週以來"
+  - option "1 個月以來"
+  - option "45 天以來"
+  - option "2 個月以來"
+  - option "75 天以來"
+  - option "100 天以來"
+  - option "1 年以來"
+  - option "任何時間" [selected]
+- generic: 主題分類
+- combobox "主題分類":
+  - option "(任意主題分類)" [selected]
+  - option "(無主題分類)"
+  - option "票卡"
+  - option "通訊"
+  - option "機票"
+  - option "住宿"
+  - option "代購"
+  - option "換錢"
+  - option "包車"
+  - option "地陪"
+  - option "二手"
+  - option "免費"
+  - option "其他"
+- button "顯示主題"
+- table:
+  - rowgroup:
+    - row "搜尋本版文章":
+      - cell "搜尋本版文章"
+    - row "釜山 － 售韓元 ↑1 韓國滑雪 ↑28 首爾 住宿 ↑1 首爾包車 ↑1 釜山 藥妝 優惠 new 韓元轉帳 new 韓元硬幣 new 韓幣 2026 new T-money卡 ↓2 安瓶 保濕 韓國代購 ↓2 釜山pass出售 ↓2 釜山Pass ↓2 韓國硬幣 ↓2 明洞住宿 ↓2 t-money ↓2 龍平滑雪場 ↓2 韓國住宿推薦 ↓2 韓國代收包裹 ↓2 釜山住宿 ↓2":
+      - cell "釜山 － 售韓元 ↑1 韓國滑雪 ↑28 首爾 住宿 ↑1 首爾包車 ↑1 釜山 藥妝 優惠 new 韓元轉帳 new 韓元硬幣 new 韓幣 2026 new T-money卡 ↓2 安瓶 保濕 韓國代購 ↓2 釜山pass出售 ↓2 釜山Pass ↓2 韓國硬幣 ↓2 明洞住宿 ↓2 t-money ↓2 龍平滑雪場 ↓2 韓國住宿推薦 ↓2 韓國代收包裹 ↓2 釜山住宿 ↓2":
+        - textbox "搜尋.."
+        - button
+        - link "釜山 －":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%87%9C%E5%B1%B1&f=345
+          - generic: 釜山
+          - generic: －
+        - link "售韓元 ↑1":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E5%94%AE%E9%9F%93%E5%85%83&f=345
+          - generic: 售韓元
+          - generic: ↑1
+        - link "韓國滑雪 ↑28":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%9F%93%E5%9C%8B%E6%BB%91%E9%9B%AA&f=345
+          - generic: 韓國滑雪
+          - generic: ↑28
+        - link "首爾 住宿 ↑1":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%A6%96%E7%88%BE+%E4%BD%8F%E5%AE%BF&f=345
+          - generic: 首爾 住宿
+          - generic: ↑1
+        - link "首爾包車 ↑1":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%A6%96%E7%88%BE%E5%8C%85%E8%BB%8A&f=345
+          - generic: 首爾包車
+          - generic: ↑1
+        - link "釜山 藥妝 優惠 new":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%87%9C%E5%B1%B1+%E8%97%A5%E5%A6%9D+%E5%84%AA%E6%83%A0&f=345
+          - generic: 釜山 藥妝 優惠
+          - generic: new
+        - link "韓元轉帳 new":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%9F%93%E5%85%83%E8%BD%89%E5%B8%B3&f=345
+          - generic: 韓元轉帳
+          - generic: new
+        - link "韓元硬幣 new":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%9F%93%E5%85%83%E7%A1%AC%E5%B9%A3&f=345
+          - generic: 韓元硬幣
+          - generic: new
+        - link "韓幣 2026 new":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%9F%93%E5%B9%A3+2026&f=345
+          - generic: 韓幣 2026
+          - generic: new
+        - link "T-money卡 ↓2":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=T-money%E5%8D%A1&f=345
+          - generic: T-money卡
+          - generic: ↓2
+        - link "安瓶 保濕 韓國代購 ↓2":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E5%AE%89%E7%93%B6+%E4%BF%9D%E6%BF%95+%E9%9F%93%E5%9C%8B%E4%BB%A3%E8%B3%BC&f=345
+          - generic: 安瓶 保濕 韓國代購
+          - generic: ↓2
+        - link "釜山pass出售 ↓2":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%87%9C%E5%B1%B1pass%E5%87%BA%E5%94%AE&f=345
+          - generic: 釜山pass出售
+          - generic: ↓2
+        - link "釜山Pass ↓2":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%87%9C%E5%B1%B1Pass&f=345
+          - generic: 釜山Pass
+          - generic: ↓2
+        - link "韓國硬幣 ↓2":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%9F%93%E5%9C%8B%E7%A1%AC%E5%B9%A3&f=345
+          - generic: 韓國硬幣
+          - generic: ↓2
+        - link "明洞住宿 ↓2":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E6%98%8E%E6%B4%9E%E4%BD%8F%E5%AE%BF&f=345
+          - generic: 明洞住宿
+          - generic: ↓2
+        - link "t-money ↓2":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=t-money&f=345
+          - generic: t-money
+          - generic: ↓2
+        - link "龍平滑雪場 ↓2":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%BE%8D%E5%B9%B3%E6%BB%91%E9%9B%AA%E5%A0%B4&f=345
+          - generic: 龍平滑雪場
+          - generic: ↓2
+        - link "韓國住宿推薦 ↓2":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%9F%93%E5%9C%8B%E4%BD%8F%E5%AE%BF%E6%8E%A8%E8%96%A6&f=345
+          - generic: 韓國住宿推薦
+          - generic: ↓2
+        - link "韓國代收包裹 ↓2":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%9F%93%E5%9C%8B%E4%BB%A3%E6%94%B6%E5%8C%85%E8%A3%B9&f=345
+          - generic: 韓國代收包裹
+          - generic: ↓2
+        - link "釜山住宿 ↓2":
+          - /url: https://www.backpackers.com.tw/forum/sitesearch.php?q=%E9%87%9C%E5%B1%B1%E4%BD%8F%E5%AE%BF&f=345
+          - generic: 釜山住宿
+          - generic: ↓2
+    - row:
+      - cell
+- iframe [id="google_ads_iframe_/1013509/forum_rightcolumn_0"]:
+  - generic: 廣告
+  - link:
+    - /url: https://adclick.g.doubleclick.net/aclk?sa=L&ai=CpXO7hkK_aouAOLyqpt8P0NyvqQHUnrW2aPGb_6vBD8CNtwEQASDJqsw1YJu754SoKcgBCeACAKgDAcgDAqoE1AJP0Gi60Dtljq0vIk_tawiZPQzT1C5PljfDmYNmAICOonEnKOJpCbyLCdK-a_NIpW-1dLGCXVIybn7XXbNQM5OX2arzaraAO7DRldq1WfWM2O4_lzzaDf210Zn2B0zVqZ4gWcs5Ao21GedyaUcwx-7qsg-wGAxLGwbokPaQ732rVzqJAb3YYueNb7vn7zViHrYYSJEKHUtIi7cUzFBE-lVY4kLev30NordSpP1puzB6F1EO4MUTsZ4qcfc5ujZY573QgxhVs6WoUPC7qk6WW5oE40BGeb2uRyAFTbbV5HUNtMFeUJpExU0Egx2Uxwhvh6HdyY_LZzkJwXY_CIhjURjRVgKEe8ak1cS2hrZKdimMsXIuMF9M-Z95ZzbXgh9DofPst0dsL4o4TBn-ytVF9VLHmQfab2hbHfgfGCRbiy8zvp3oaX3LKN_XCpP7nlJNxVxTSaHf4AQBgAbm2cKC1fvV3-kBoAYhqAeT2LECqAeU2LECqAeV2LECqAemvhuoB5bYG6gHqpuxAqgH_56xAqgH35-xAqgH_uixAqgHrb6xAqgHv9OxAtgHANIIMAiAYRABMgiKgoCAgICACDoPgECAwICAgICogAKog4AYSL39wTpYqpn7ps6alwNgAPoLAggBgAwBqg0CS1LiDRMIjM37ps6alwMVPJXpBR1Q7isV6g0TCNCh_KbOmpcDFTyV6QUdUO4rFYgO____________AdAVAYAXAbIXEBgMKgo5MzUwMDA0MDg0UAGqGBcJs53vpwTy8kASCjkzNTAwMDQwODQYAQ&num=1&sig=AOD64_3ria9LYtcjCwtswpa_TULavN8MtQ&client=ca-pub-2142299567124418&adurl=https://krrtb.c.appier.net/xclk?bidobjid=IaLau1SaD7u0pOovh0K_ag&cid=nmRVfwgfTlarJbZHvwm4ZQ&crid=KT_a9wG6SYWRmtkvWwE83Q&crpid=RbW2Lyf6RzKcwMjDqlWHHQ&soid=Ep0j&partner_id=03mSf3HNecb-&bx=Cylxwnu_2rZDKqdyo0MR7qZD7PoRoP6-uY79uqa1wYSqcDTNwmWgZjo9wmOWKjtDu1x1w8Q121l1w87FZbSqcmiyZyzqUmR9JLZ1K4lEUHM12qM-uYSxJ4u_o1x13LM12qu-uYOPuqa1Jmg9u1x1U8A121uV2nu-uYOPJ1u_uqGzKqd9o4QxujR&ui=CyljUmOjUbisc8M121uxo0dxorIzoqwRwmSNoPgqu1x13Ygfo1u_uqGy7nQy70d970Z9o0a_orf1eM&consent=1&ddhh=o1RV
+  - 'link "2026 Season4: Moonrise"':
+    - /url: https://adclick.g.doubleclick.net/aclk?sa=L&ai=CpXO7hkK_aouAOLyqpt8P0NyvqQHUnrW2aPGb_6vBD8CNtwEQASDJqsw1YJu754SoKcgBCeACAKgDAcgDAqoE1AJP0Gi60Dtljq0vIk_tawiZPQzT1C5PljfDmYNmAICOonEnKOJpCbyLCdK-a_NIpW-1dLGCXVIybn7XXbNQM5OX2arzaraAO7DRldq1WfWM2O4_lzzaDf210Zn2B0zVqZ4gWcs5Ao21GedyaUcwx-7qsg-wGAxLGwbokPaQ732rVzqJAb3YYueNb7vn7zViHrYYSJEKHUtIi7cUzFBE-lVY4kLev30NordSpP1puzB6F1EO4MUTsZ4qcfc5ujZY573QgxhVs6WoUPC7qk6WW5oE40BGeb2uRyAFTbbV5HUNtMFeUJpExU0Egx2Uxwhvh6HdyY_LZzkJwXY_CIhjURjRVgKEe8ak1cS2hrZKdimMsXIuMF9M-Z95ZzbXgh9DofPst0dsL4o4TBn-ytVF9VLHmQfab2hbHfgfGCRbiy8zvp3oaX3LKN_XCpP7nlJNxVxTSaHf4AQBgAbm2cKC1fvV3-kBoAYhqAeT2LECqAeU2LECqAeV2LECqAemvhuoB5bYG6gHqpuxAqgH_56xAqgH35-xAqgH_uixAqgHrb6xAqgHv9OxAtgHANIIMAiAYRABMgiKgoCAgICACDoPgECAwICAgICogAKog4AYSL39wTpYqpn7ps6alwNgAPoLAggBgAwBqg0CS1LiDRMIjM37ps6alwMVPJXpBR1Q7isV6g0TCNCh_KbOmpcDFTyV6QUdUO4rFYgO____________AdAVAYAXAbIXEBgMKgo5MzUwMDA0MDg0UAGqGBcJs53vpwTy8kASCjkzNTAwMDQwODQYAQ&num=1&sig=AOD64_3ria9LYtcjCwtswpa_TULavN8MtQ&client=ca-pub-2142299567124418&adurl=https://krrtb.c.appier.net/xclk?bidobjid=IaLau1SaD7u0pOovh0K_ag&cid=nmRVfwgfTlarJbZHvwm4ZQ&crid=KT_a9wG6SYWRmtkvWwE83Q&crpid=RbW2Lyf6RzKcwMjDqlWHHQ&soid=Ep0j&partner_id=03mSf3HNecb-&bx=Cylxwnu_2rZDKqdyo0MR7qZD7PoRoP6-uY79uqa1wYSqcDTNwmWgZjo9wmOWKjtDu1x1w8Q121l1w87FZbSqcmiyZyzqUmR9JLZ1K4lEUHM12qM-uYSxJ4u_o1x13LM12qu-uYOPuqa1Jmg9u1x1U8A121uV2nu-uYOPJ1u_uqGzKqd9o4QxujR&ui=CyljUmOjUbisc8M121uxo0dxorIzoqwRwmSNoPgqu1x13Ygfo1u_uqGy7nQy70d970Z9o0a_orf1eM&consent=1&ddhh=o1RV
+  - link "달빛과 함께 돌아온 루나 캐릭터와 암살에 특화된 저소음 특수총 NOX(IS) Moonrise를 만나보...":
+    - /url: https://adclick.g.doubleclick.net/aclk?sa=L&ai=CpXO7hkK_aouAOLyqpt8P0NyvqQHUnrW2aPGb_6vBD8CNtwEQASDJqsw1YJu754SoKcgBCeACAKgDAcgDAqoE1AJP0Gi60Dtljq0vIk_tawiZPQzT1C5PljfDmYNmAICOonEnKOJpCbyLCdK-a_NIpW-1dLGCXVIybn7XXbNQM5OX2arzaraAO7DRldq1WfWM2O4_lzzaDf210Zn2B0zVqZ4gWcs5Ao21GedyaUcwx-7qsg-wGAxLGwbokPaQ732rVzqJAb3YYueNb7vn7zViHrYYSJEKHUtIi7cUzFBE-lVY4kLev30NordSpP1puzB6F1EO4MUTsZ4qcfc5ujZY573QgxhVs6WoUPC7qk6WW5oE40BGeb2uRyAFTbbV5HUNtMFeUJpExU0Egx2Uxwhvh6HdyY_LZzkJwXY_CIhjURjRVgKEe8ak1cS2hrZKdimMsXIuMF9M-Z95ZzbXgh9DofPst0dsL4o4TBn-ytVF9VLHmQfab2hbHfgfGCRbiy8zvp3oaX3LKN_XCpP7nlJNxVxTSaHf4AQBgAbm2cKC1fvV3-kBoAYhqAeT2LECqAeU2LECqAeV2LECqAemvhuoB5bYG6gHqpuxAqgH_56xAqgH35-xAqgH_uixAqgHrb6xAqgHv9OxAtgHANIIMAiAYRABMgiKgoCAgICACDoPgECAwICAgICogAKog4AYSL39wTpYqpn7ps6alwNgAPoLAggBgAwBqg0CS1LiDRMIjM37ps6alwMVPJXpBR1Q7isV6g0TCNCh_KbOmpcDFTyV6QUdUO4rFYgO____________AdAVAYAXAbIXEBgMKgo5MzUwMDA0MDg0UAGqGBcJs53vpwTy8kASCjkzNTAwMDQwODQYAQ&num=1&sig=AOD64_3ria9LYtcjCwtswpa_TULavN8MtQ&client=ca-pub-2142299567124418&adurl=https://krrtb.c.appier.net/xclk?bidobjid=IaLau1SaD7u0pOovh0K_ag&cid=nmRVfwgfTlarJbZHvwm4ZQ&crid=KT_a9wG6SYWRmtkvWwE83Q&crpid=RbW2Lyf6RzKcwMjDqlWHHQ&soid=Ep0j&partner_id=03mSf3HNecb-&bx=Cylxwnu_2rZDKqdyo0MR7qZD7PoRoP6-uY79uqa1wYSqcDTNwmWgZjo9wmOWKjtDu1x1w8Q121l1w87FZbSqcmiyZyzqUmR9JLZ1K4lEUHM12qM-uYSxJ4u_o1x13LM12qu-uYOPuqa1Jmg9u1x1U8A121uV2nu-uYOPJ1u_uqGzKqd9o4QxujR&ui=CyljUmOjUbisc8M121uxo0dxorIzoqwRwmSNoPgqu1x13Ygfo1u_uqGy7nQy70d970Z9o0a_orf1eM&consent=1&ddhh=o1RV
+  - link "확인하기":
+    - /url: https://adclick.g.doubleclick.net/aclk?sa=L&ai=CpXO7hkK_aouAOLyqpt8P0NyvqQHUnrW2aPGb_6vBD8CNtwEQASDJqsw1YJu754SoKcgBCeACAKgDAcgDAqoE1AJP0Gi60Dtljq0vIk_tawiZPQzT1C5PljfDmYNmAICOonEnKOJpCbyLCdK-a_NIpW-1dLGCXVIybn7XXbNQM5OX2arzaraAO7DRldq1WfWM2O4_lzzaDf210Zn2B0zVqZ4gWcs5Ao21GedyaUcwx-7qsg-wGAxLGwbokPaQ732rVzqJAb3YYueNb7vn7zViHrYYSJEKHUtIi7cUzFBE-lVY4kLev30NordSpP1puzB6F1EO4MUTsZ4qcfc5ujZY573QgxhVs6WoUPC7qk6WW5oE40BGeb2uRyAFTbbV5HUNtMFeUJpExU0Egx2Uxwhvh6HdyY_LZzkJwXY_CIhjURjRVgKEe8ak1cS2hrZKdimMsXIuMF9M-Z95ZzbXgh9DofPst0dsL4o4TBn-ytVF9VLHmQfab2hbHfgfGCRbiy8zvp3oaX3LKN_XCpP7nlJNxVxTSaHf4AQBgAbm2cKC1fvV3-kBoAYhqAeT2LECqAeU2LECqAeV2LECqAemvhuoB5bYG6gHqpuxAqgH_56xAqgH35-xAqgH_uixAqgHrb6xAqgHv9OxAtgHANIIMAiAYRABMgiKgoCAgICACDoPgECAwICAgICogAKog4AYSL39wTpYqpn7ps6alwNgAPoLAggBgAwBqg0CS1LiDRMIjM37ps6alwMVPJXpBR1Q7isV6g0TCNCh_KbOmpcDFTyV6QUdUO4rFYgO____________AdAVAYAXAbIXEBgMKgo5MzUwMDA0MDg0UAGqGBcJs53vpwTy8kASCjkzNTAwMDQwODQYAQ&num=1&sig=AOD64_3ria9LYtcjCwtswpa_TULavN8MtQ&client=ca-pub-2142299567124418&adurl=https://krrtb.c.appier.net/xclk?bidobjid=IaLau1SaD7u0pOovh0K_ag&cid=nmRVfwgfTlarJbZHvwm4ZQ&crid=KT_a9wG6SYWRmtkvWwE83Q&crpid=RbW2Lyf6RzKcwMjDqlWHHQ&soid=Ep0j&partner_id=03mSf3HNecb-&bx=Cylxwnu_2rZDKqdyo0MR7qZD7PoRoP6-uY79uqa1wYSqcDTNwmWgZjo9wmOWKjtDu1x1w8Q121l1w87FZbSqcmiyZyzqUmR9JLZ1K4lEUHM12qM-uYSxJ4u_o1x13LM12qu-uYOPuqa1Jmg9u1x1U8A121uV2nu-uYOPJ1u_uqGzKqd9o4QxujR&ui=CyljUmOjUbisc8M121uxo0dxorIzoqwRwmSNoPgqu1x13Ygfo1u_uqGy7nQy70d970Z9o0a_orf1eM&consent=1&ddhh=o1RV
+- table:
+  - rowgroup:
+    - row "贊助連結":
+      - cell "贊助連結"
+    - row "優惠碼&折扣碼 全球訂房比價 Booking.com 訂房網 韓國廣告專區相關網站":
+      - cell "優惠碼&折扣碼 全球訂房比價 Booking.com 訂房網 韓國廣告專區相關網站":
+        - link "優惠碼&折扣碼":
+          - /url: https://www.backpackers.com.tw/forum/coupons/?
+        - link "全球訂房比價":
+          - /url: https://www.backpackers.com.tw/forum/hotel.php?
+        - link "Booking.com 訂房網":
+          - /url: https://tp.media/r?campaign_id=84&marker=751770&p=2076&tru=https%3A%2F%2Fbooking.com
+        - link "韓國廣告專區相關網站":
+          - /url: https://www.backpackers.com.tw/forum/classified.php?f=345
+- link "Facebook":
+  - /url: https://www.facebook.com/backpackers.com.tw/
+  - text: Facebook
+- link "Instagram":
+  - /url: https://www.instagram.com/backpackers.com.tw/
+  - text: Instagram
+- link "Telegram":
+  - /url: https://t.me/s/backpackerscomtw
+  - text: Telegram
+- generic: 下載論壇 APP
+- link "Android APP Android":
+  - /url: https://play.google.com/store/apps/details?id=com.backpackers.forum
+  - img "Android APP"
+  - text: Android
+- link "iOS APP iOS":
+  - /url: https://itunes.apple.com/app/id1450905013
+  - img "iOS APP"
+  - text: iOS
+- link:
+  - /url: "#top"
+- contentinfo:
+  - link "聯繫我們":
+    - /url: https://www.backpackers.com.tw/forum/contact.php?
+  - text: "-"
+  - link "背包客棧":
+    - /url: https://www.backpackers.com.tw/forum/
+  - text: "-"
+  - link "論壇存檔":
+    - /url: https://www.backpackers.com.tw/forum/archive/index.php/f-345.html
+  - text: "-"
+  - link "相關網站":
+    - /url: https://www.backpackers.com.tw/forum/classified.php?f=345
+  - text: "-"
+  - link "網站地圖":
+    - /url: https://www.backpackers.com.tw/forum/sitemap.php
+  - text: "-"
+  - link "隱私權聲明":
+    - /url: https://www.backpackers.com.tw/forum/privacy.php
+  - text: "-"
+  - link "服務條款":
+    - /url: https://www.backpackers.com.tw/forum/terms.php
+  - text: "-"
+  - link "返回頂端":
+    - /url: "#top"
+  - text: "-"
+  - link "Facebook":
+    - /url: https://www.facebook.com/backpackers.com.tw/
+  - link "Instagram":
+    - /url: https://www.instagram.com/backpackers.com.tw/
+  - link "Telegram":
+    - /url: https://t.me/s/backpackerscomtw
+
+GENERAL ADS RULES
+首頁
+論壇
+攻略
+機票比價
+訂房比價
+優惠專區
+會員相簿
+景點地圖
+今日新文章
+搜尋
+發文
+註冊
+登入
+背包客棧 論壇首頁 站務發展 系統公告及使用問題
+廣告規定
+122
+ 135
+ 133815
+回覆
+分享
+第1頁，共10頁	 1 	 2 	 3 	 4 	下頁	最後 »	
+布大俠 
+#1
+ 2004-11-03, 21:05
+1. 若您想要在文章中推薦您的服務或個人網站,我們建議您使用以下的方式累積您的口碑:
+* 以您的公司名稱註冊帳號,方便網友辨識並記得您.禁止註冊不同帳號進行相同廣告.
+* 針對網友的問題與需求提出解答,內容豐富且針對問題的回覆會比千篇一律的廣告文來的有效果.
+* 宣傳個人網站請發表完整圖文.
+* 將您的網站連結及廣告文字置於簽名檔中,請勿放置於文章內. 您可以點擊這裡編輯簽名檔.
+* 三日內請勿頂文或發表重複主題.
+
+2. 若您無法遵守上述建議,您必須將您的廣告發表於廣告專區,放置於其他版面的廣告文章將會被直接刪除，屢次違反規定者將直接刪除帳號或封鎖IP
+
+3. 嚴禁利用私訊、背包幫等本站其他功能進行廣告.
+
+4. 本站各處包含簽名檔一律禁止無關旅遊廣告以及聯盟行銷(Affiliate Marketing)相關宣傳.
+
+5. 若您想要付費刊登圖片式廣告,或其他類型廣告合作,請email聯絡 contact@backpackers.com.tw ,或點擊每頁最下方的聯系我們填寫表格
+此篇文章於 2016-01-29 18:33 被 布大俠 編輯。
+92
+133815 次查看
+小花
+回覆
+布大俠 
+#2
+ 2010-01-19, 19:55
+廣告規定已有更新,請配合,謝謝.
+11
+小花
+回覆
+regim
+#3
+ 2010-01-21, 14:31
+此帳號為封禁會員
+請問刊登旅遊廣告如何計費
+小花
+回覆
+布大俠 
+#4
+ 2010-02-26, 14:34
+在廣告專區刊登廣告文章不收費,但請遵守廣告規定.
+若需刊登其它廣告型態廣告,例如頁首頁尾的圖片廣告banner, 請email聯絡 contact@backpackers.com.tw ,或點擊每頁最下方的聯系我們填寫表格
+3
+小花
+回覆
+smh 
+#5
+ 2010-09-18, 20:07
+吃到好吃的飲食要推薦給棧友
+要如何寫才不會被認為是廣告文?
+1
+小花
+回覆
+布大俠 
+#6
+ 2010-09-27, 00:30
+1. 請不要重複或頻繁的推薦同樣商品/服務/網址
+2. 請針對不同的問題給予不同的解答或介紹, 大量的複製貼上一律視為廣告文
+3. 想要重複的推薦, 例如自己的部落格, 可以寫在簽名檔中
+
+
+
+引用:
+作者: smh
+吃到好吃的飲食要推薦給棧友
+要如何寫才不會被認為是廣告文?
+
+5
+小花
+回覆
+tibetwu
+#7
+ 2010-10-05, 15:00
+我不知道咋就違規了!
+2
+小花
+回覆
+APEX東南亞旅遊
+#8
+ 2010-10-19, 10:42
+明白了，以后会遵守的~~
+1
+小花
+回覆
+dududongdong
+#9
+ 2010-10-26, 16:36
+受不了，我都是自己的想法写啊，没有为谁做宣传，怎么就违规了呢
+2
+小花
+回覆
+GREAT TOUR
+#10
+ 2010-11-04, 16:34
+你好,我想刊登旅遊廣告,可以嗎?需如何刊登?謝謝!!
+1
+小花
+回覆
+lengxian
+#11
+ 2010-11-06, 13:24
+你好,我想刊登旅館廣告,可以嗎?需如何刊登?謝謝!!
+小花
+回覆
+貝貝托
+#12
+ 2010-11-06, 17:45
+瞭解，瞭解
+小花
+回覆
+CANBERRA
+#13
+ 2010-11-12, 11:31
+版主,我想登租房屋的广告,谢谢!
+小花
+回覆
+osakaglobalhouse
+#14
+ 2010-12-13, 17:32
+此帳號為封禁會員
+我今天才看到这个注意事项。每个人都有遵守的义务。我也是。
+
+还有我刚才登录编辑签名一栏，预览可以了，但是总是不能保存。请指教。
+小花
+回覆
+airportpickup
+#15
+ 2011-01-02, 15:47
+今天看到了,多谢版主
+小花
+回覆
+回覆
+發表新主題
+第1頁，共10頁	 1 	 2 	 3 	 4 	下頁	最後 »	
+
+
+
+顯示更多【系統公告及使用問題】主題
+
+
+
+
+目前版面
+系統公告及使用問題
+背包客棧公告事項以及使用上的問題討論
+發表新主題
+查看所有主題
+贊助連結
+
+優惠碼&折扣碼
+全球訂房比價
+Booking.com 訂房網
+系統公告及使用問題相關網站
+
+Facebook
+Instagram
+Telegram
+下載論壇 APP
+
+Android
+
+iOS
+聯繫我們 - 背包客棧 - 論壇存檔 - 相關網站 - 網站地圖 - 隱私權聲明 - 服務條款 - 返回頂端 -   
+
+KOREA BOARD RULES
+首頁
+論壇
+攻略
+機票比價
+訂房比價
+優惠專區
+會員相簿
+景點地圖
+今日新文章
+搜尋
+發文
+註冊
+登入
+背包客棧 論壇首頁 廣告與交易 廣告專區 東北亞廣告專區 韓國廣告專區
+其他
+本區發文規範（2013.07.23公布）
+15
+ 2
+ 7312
+回覆
+分享
+小眼睛先生
+#1
+ 2013-06-18, 00:46
+棧友及業者於本區發文時，務必遵守以下規範。
+
+違反規定者將被刪文、記錄違規，嚴重者將封禁帳號。
+
+
+一.業者於本區廣告，僅能發表一個主題。請盡可能將各項資訊（如：計價方式、位置、照片等）於該主題中揭露。
+
+二.若有促銷訊息，請使用編輯功能更新該主題內容，不必要的回應將被視為違規頂文。
+
+三.若有棧友於主題下詢問，請儘量直接回覆在討論區中。透明的訊息交換將能累積信譽。
+
+四.若有棧友發表主題，徵求住宿、包車或行程建議等，業者可回覆並自薦。
+
+五.於本區外的一般討論區中，若回文只為求簽名檔中的廣告訊息曝光，會被視為廣告，將刪除，並紀錄違規，嚴重違反規定者將被封禁。
+
+六.請勿重複申請帳號，或是多人申請不同帳號推薦同一業者。若經證實，將永久封禁多個帳號。
+
+七.請勿至其他業者的主題中發表任何自薦的內容。
+
+八.請同時遵守背包客棧站內發文守則
+http://www.backpackers.com.tw/forum/showthread.php?t=1035
+
+
+為維護棧友和其他業者權益，即日起將嚴格執行，還請配合。
+
+積極配合規定的業者，站方將會對符合規範的主題進行置頂，協助曝光。
+如果您發表的主題符合上述規範，歡迎回覆此文，並附上主題連結，供我們審核。
+
+如有意見，亦請回覆於本主題中，感謝。
+15
+7312 次查看
+小花
+回覆
+hostelttp
+#2
+ 2015-10-24, 14:24
+你好。
+
+不好意思。我们应该是违规了。
+（我来自新加坡，现在在TTP换宿。因为新开的民宿，所以想帮老板快快招客）
+
+但想知道，如果每天想跟大家share一点我们的故事或趣事或附近发现的美食的话。。
+在背包客栈是否能做到？
+
+谢谢
+小花
+回覆
+Seoulokhouse
+#3
+ 2018-10-21, 20:04
+您好
+民宿主管多年前使用的帳密現在無法登入
+故現在請我重新申請帳號密碼
+請問這樣算違規嗎？
+小花
+回覆
+回覆
+發表新主題
+
+
+
+顯示更多【韓國廣告專區】主題
+
+
+
+
+目前版面
+韓國廣告專區
+韓國旅遊廣告如民宿、電話卡、門票轉讓等 定期刪文 禁止公開留LINE
+發表新主題
+查看所有主題
+1. 盡量使用私訊，避免公開留LINE、微信及個資。
+2. 務必提防詐騙，Line等通訊軟體警方難追查。參考站內手機認證、註冊日期、過往發文審慎評估對方信用狀態，並自行承擔後果。
+3. 禁止換錢、非旅遊廣告、頻繁頂文、重複發文，違反規定將被封禁，請先詳閱本站廣告規定。
+釜山
+ 
+售韓元
+ 
+韓國滑雪
+ 
+首爾 住宿
+ 
+首爾包車
+ 
+明洞住宿
+ 
+韓元轉帳
+ 
+韓國代收包裹
+ 
+海雲台住宿
+ 
+韓國住宿推薦
+ 
+韓國廣告專區
+ 
+發文規範
+贊助連結
+
+優惠碼&折扣碼
+全球訂房比價
+Booking.com 訂房網
+韓國廣告專區相關網站
+
+Facebook
+Instagram
+Telegram
+下載論壇 APP
+
+Android
+
+iOS
+聯繫我們 - 背包客棧 - 論壇存檔 - 相關網站 - 網站地圖 - 隱私權聲明 - 服務條款 - 返回頂端 -   
+
+SITE POSTING RULES
+首頁
+論壇
+攻略
+機票比價
+訂房比價
+優惠專區
+會員相簿
+景點地圖
+今日新文章
+搜尋
+發文
+註冊
+登入
+背包客棧 論壇首頁 站務發展 系統公告及使用問題
+站內發文守則
+1547
+ 2
+ 165800
+回覆
+分享
+關閉主題
+布大俠 
+#1
+ 2004-12-19, 23:39
+一、背包客棧為交流旅行資訊的園地，以推廣自助旅行並協助網友取得旅遊資訊為最高宗旨。
+
+二、發言時必需尊重他人，不得發表毀謗他人、人身攻擊、族群歧視、政治敏感、蓄意挑釁及任何違反法律或善良風俗及之言論。
+
+三、若有發現違反本站宗旨或偏離主題的言論，站內管理人員有權不經事先告知直接對您的發言做編修或刪除。
+
+四、不得發表違反著作權之內容，若需引用他人文章或圖片，必需註明出處並取得必要之許可。發文者必須自行遵守相關法規並承擔責任，本站無義務為使用者過濾發文內容或負擔法律責任。
+
+五、發文者於本站發表之文章，同意供維奇系統為平台的背包攻略所使用，並遵守背包攻略之授權規範。同時發文者同意本站相關人員將其文章彙整編輯為精華文章，除非發文者明確表達反對之意。
+
+六、您的文章可能透過本站之RSS系統被其他網站引用，或由站方摘要部分文字及照片至外站作為推廣之用。
+
+七、各版面管理人員有權基於個人主觀判斷進行版面管理，包括修改、編輯、移動、刪除等，對管理人員的處置有所疑義時，請直接向系統管理員反應，使用者於公開版面中討論站務管理問題將視同離題文章處理之。
+
+八、經系統管理員認定不遵守本站規定或不適應站內文化者，系統管理員有權做出刪除帳號或禁止發表等必要處分。
+
+九、未經當事人同意不得公佈他人隱私資料於本站，例如姓名、地址、電話等。任何不利於他人之言論與指涉，無論是否屬實，發文者須自負法律責任。
+
+十、您必須閱讀並同意本站隱私權政策。
+
+十一、本守則得由系統管理員隨時增訂編修，即刻生效並朔及既往，不同意新條文者須於三日內自行刪除於本站內發表之文章。
+
+十二、使用者於本站註冊即代表同意遵守本守則中所有項目，若不同意者不得註冊。
+此篇文章於 2018-05-07 15:32 被 布大俠 編輯。 原因: 新增隱私權政策項目
+932
+165800 次查看
+小花
+布大俠 
+#2
+ 2005-08-08, 15:52
+對於以上條文不足之處,將陸續補充說明之.
+
+* 客棧定位為旅遊資訊平台,希望提供自助旅行者關於旅行上的實用資訊,對於涉及政治或道德問題等爭議性主題,即便與旅遊相關,也請勿在本站發表,版面管理員將有權決定是否刪除具爭議性的主題.希望大家共同維護客棧資訊內容的純粹清新,對於事物的價值判斷請留在旅者自己心中.
+
+* 發文請勿語帶諷刺,客棧致力推廣自助旅行風氣,新手來站內發問求教就是客棧的努力有成的表現,老手若疲於回答可以選擇沉默,但請勿給予冷潮熱諷.
+
+* 基於聯絡感情需要,客棧不禁止打屁哈啦,但請適可而止,太多的灌水文章會影響其他網友查詢資料時的效率,在您盡情聊天的同時也請為其他網友設想.客棧尊重您的發言權利,但也必須為其他網友控管資訊品質,版面管理員從寬處理打屁文章,但對於失去時效的且不具參考價值的文章,於一段時間後將一率刪除之.請網友儘量利用聊天室與私人訊息方式進行感情交流,以節約網路資源同時也可以幫助減輕管理人員負擔.
+
+* 對於有惡意灌水嫌疑的會員,管理員將先以私人訊息勸導之,不符勸導之會員可能遭刪除帳號處分,因為客棧管理員皆為義務性質,不可能無限制的逐一處理過濾惡意灌水的文章,刪除帳號是最不得已的處理方式.
+
+* 對於客棧管理上的任何疑問,請以私人訊息方式向版面管理員反應,也歡迎直接發訊息給系統管理員.並且禁止在公開版面上討論站務管理問題,請將版面留給其他網友作為純粹資訊交流之用.若連系統管理員都無法為您協調紛爭,那麼很可能您無法適應客棧文化,請您移駕至其他網站貢獻您的所長.
+
+* 嚴格禁止利用程式或其他不正當手法對客棧系統進行操作,若有發現一率處以最嚴厲之處分,決不寬待.
+387
+小花
+布大俠 
+#3
+ 2010-08-04, 05:10
+查看自己被刪除的文章以及違規:
+
+* 自己的文章若被刪除,版面管理員會在原文章處為您留下刪除原因,請自行查看.
+
+* 若被記錄違規,您會收到私人訊息告知您違規原因. 您的個人資料中也可以查看違規紀錄. 違規過期前您將會遭到禁止發文等不同程度限制.
+
+* 若您帳號被封禁,您登入時會給您封禁原因及時效.
+
+* 若有疑問請私人訊息給版面管理員詢問. 若有版面管理員無法為您處理的爭議, 請聯絡系統管理員.
+
+
+檢舉其他會員: 您的檢舉版面管理員處理後不會個別回覆,您可以利用以下方法查詢
+
+* 被刪除的文章以及刪除原因只有發文者自己看的到,因此若您檢舉他人文章,經版面管理員刪除後該文即消失,請自行回原文處查看版面管理員是否已處理您的檢舉.
+
+* 除了刪文之外,版面管理員可能以記錄違規或封禁帳號的方式處理,違規的會員名稱下方會出現"違規會員"或"封禁會員"等字樣以供識別. 違規到期後該字樣即消失.
+
+* 基於以上機制,在發生爭吵的主題中您很可能只會注意到自己的文章被刪而覺得不公平. 請您在向版面管理員提出異議前自行留意上下文是否也已經處理或該會員是否已被紀錄違規.
+
+* 若您確定版面管理員未處理您的檢舉,請以私人訊息詢問,版面管理員會回覆您處理結果. 若有版面管理員無法為您處理的爭議,請聯絡系統管理員.
+228
+小花
+關閉主題
+發表新主題
+
+
+
+顯示更多【系統公告及使用問題】主題
+
+
+
+
+目前版面
+系統公告及使用問題
+背包客棧公告事項以及使用上的問題討論
+發表新主題
+查看所有主題
+贊助連結
+
+優惠碼&折扣碼
+全球訂房比價
+Booking.com 訂房網
+系統公告及使用問題相關網站
+
+Facebook
+Instagram
+Telegram
+下載論壇 APP
+
+Android
+
+iOS
+聯繫我們 - 背包客棧 - 論壇存檔 - 相關網站 - 網站地圖 - 隱私權聲明 - 服務條款 - 返回頂端 -   
+
+POSTING GATE
+未註冊, 請確定您已選擇了正確的討論區發表您的主題. 廣告只能發表於廣告專區. 發問前請善用搜尋功能閱讀相關文章.
+首頁
+論壇
+攻略
+機票比價
+訂房比價
+優惠專區
+會員相簿
+景點地圖
+今日新文章
+搜尋
+發文
+註冊
+登入
+背包客棧 論壇首頁
+ > vBulletin 訊息
+vBulletin 訊息
+
+登入論壇
+會員名稱:
+
+密碼:
+
+
+保持登入
+註冊帳號, 忘記帳號/密碼?
+ 
+您看到此頁面可能的原因:
+您還沒有登入，請先登入。
+您沒有足夠的許可權訪問此頁面。
+您的帳號正在等待啟動或者沒有發文許可。
+
+
+
+
+聯繫我們 - 背包客棧 - 論壇存檔 - 相關網站 - 網站地圖 - 隱私權聲明 - 服務條款 - 返回頂端 -   

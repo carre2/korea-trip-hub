@@ -1,0 +1,521 @@
+- link "Chuyển đến nội dung":
+  - /url: "#main"
+- banner:
+  - link "◆ Korea Trip Hub":
+    - /url: /vi/
+    - generic: ◆
+    - text: Korea
+    - generic: Trip
+    - text: Hub
+  - navigation "Mở menu":
+    - link "Nhập cảnh và thị thực":
+      - /url: /vi/plan/visa/
+    - link "Ngày đầu đến Hàn Quốc":
+      - /url: /vi/plan/airport/
+    - link "Điểm đến và ẩm thực":
+      - /url: /vi/destinations/
+    - link "Tiếp tục chuẩn bị":
+      - /url: /vi/guides/
+    - link "K-pop & Lễ hội Hàn Quốc":
+      - /url: /vi/festivals/
+    - link "Lịch trình":
+      - /url: /vi/itinerary/
+    - link "Chuyến đi của tôi":
+      - /url: /vi/#planner
+    - link "Trợ giúp":
+      - /url: /vi/plan/help/
+  - button "Chia sẻ":
+    - generic: Chia sẻ
+  - generic "Ngôn ngữ":
+    - generic: 🌐
+    - combobox "Ngôn ngữ":
+      - option "English"
+      - option "中文 (简体)"
+      - option "中文 (繁體)"
+      - option "日本語"
+      - option "Tiếng Việt" [selected]
+      - option "ไทย"
+      - option "Bahasa Indonesia"
+      - option "Español"
+      - option "Bahasa Melayu"
+      - option "한국어"
+      - option "Русский"
+      - option "Français"
+  - button "Đổi giao diện": ◐
+  - dialog "日本のパスポート向け案内に変更しますか？":
+    - generic: 🌐 🛂
+    - heading "日本のパスポート向け案内に変更しますか？" [level=2]
+    - paragraph: 表示言語を日本語に変更します。パスポートの発行国も日本に変更するか、現在の国の案内を日本語で読むか選んでください。
+    - button "日本のパスポート向け案内へ →" [active]
+    - button "言語だけ日本語に変更"
+    - button "キャンセル"
+- main:
+  - navigation "Trong trang này":
+    - generic "Trong trang này"
+  - generic: 💕
+  - generic: 🛂
+  - generic: Nhập cảnh và thị thực
+  - generic: 🌷 ✨
+  - article:
+    - link "← Visa & K-ETA":
+      - /url: /vi/plan/visa/
+    - generic: 🇻🇳
+    - heading "Visa Hàn Quốc cho người Việt Nam" [level=1]
+    - generic: Hướng dẫn visa · Việt Nam → Hàn Quốc
+    - generic: ⏱ đọc 9 phút
+    - generic: · Cập nhật 2026-10-05
+    - generic: TÓM TẮT
+    - list:
+      - listitem: ▸ Hộ chiếu phổ thông Việt Nam không thuộc diện được đăng ký K-ETA. Đi du lịch thông thường vào phần đất liền Hàn Quốc phải xin visa; K-ETA không thay thế visa và không phải thủ tục bổ sung sau khi đã có visa.
+      - listitem: "▸ Nộp theo khu vực cư trú: KVAC Hà Nội, KVAC TP. Hồ Chí Minh hoặc Tổng lãnh sự quán Hàn Quốc tại Đà Nẵng. Kiểm tra khu vực thẩm quyền và hướng dẫn đặt lịch hiện hành trước khi đến."
+      - listitem: ▸ Dùng danh mục của nơi nộp và diện visa. Danh mục C-3-9 cá nhân hiện hành tại Hà Nội yêu cầu sao kê ngân hàng 3 tháng gần nhất, thêm bảng lương với người lao động. Bổ sung giấy tờ cư trú và quan hệ gia đình khi áp dụng; yêu cầu dịch thuật, công chứng tùy nơi nộp.
+      - listitem: "▸ Visa ngắn hạn một lần: USD 20; nhiều lần: USD 80. KVAC Hà Nội và TP. Hồ Chí Minh thu thêm VND 390,000/hồ sơ, chưa gồm dịch vụ tự chọn. Xác nhận loại tiền và tổng phí hiện hành tại nơi nộp; phí dịch vụ KVAC không phải khoản thu của Tổng lãnh sự quán Đà Nẵng."
+    - 'figure "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0"':
+      - img "Arrivals at Incheon International Airport"
+      - 'link "Photo: Pmsyyz / Wikimedia Commons · CC BY-SA 4.0"':
+        - /url: https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_departures.jpg
+    - generic: 🇻🇳
+    - heading "Có — công dân Việt Nam cần xin visa." [level=2]
+    - insertion:
+      - iframe [id="aswift_1"] [name="aswift_1"]:
+        - iframe [id="ad_iframe"] [name="ad_iframe"]:
+          - link:
+            - /url: https://krrtb.c.appier.net/xclk?bidobjid=JpDuQAAtDqWLotC_MIXDag&cid=IWUPzeqSSKSDn4zIFri0WQ&crid=6j_dwjXwRzSlYdEqNLjvyQ&crpid=O0ms73hTSN2MJY4x-ONVeg&soid=kzNb&partner_id=03mSf3HNecb-&bx=Cylxwnu_20M97qdPo0ZPoruxorGDorf-uY79uqa1cDtycHTaJ8u9wmOWu1x1w8Q121lFJLlEZbNsw1zqUmR1K4lEUHM12qG-uYSxJ4u_o1x13LM12qu-uYOPuqa1Jmg9u1x1U8A121uV2nu-uYOPJ1u_uqGzKqd9o4QxujR&ui=CylYc8Myuqa1orusKquRo4QR7yQx2qaV2nlO&consent=1&ddhh=7nRy&flanding_rdr=
+          - button
+    - paragraph: "Nộp theo khu vực cư trú: KVAC Hà Nội, KVAC TP. Hồ Chí Minh hoặc Tổng lãnh sự quán Hàn Quốc tại Đà Nẵng. Kiểm tra khu vực thẩm quyền và hướng dẫn đặt lịch hiện hành trước khi đến."
+    - generic: Loại visa
+    - text: Du lịch ngắn hạn C-3-9
+    - generic: Thời gian lưu trú
+    - text: "C-3-9 một lần tại Hà Nội: 30 ngày; tuân theo thời hạn lưu trú ghi trên visa được cấp"
+    - generic: Số lần nhập cảnh
+    - text: Theo số lần được cấp trên visa
+    - 'heading "Hộ chiếu Việt Nam: xin visa, không xin K-ETA" [level=3]'
+    - paragraph: Hộ chiếu phổ thông Việt Nam không thuộc diện được đăng ký K-ETA. Đi du lịch thông thường vào phần đất liền Hàn Quốc phải xin visa; K-ETA không thay thế visa và không phải thủ tục bổ sung sau khi đã có visa.
+    - insertion:
+      - iframe
+    - paragraph: Người nhập cảnh bằng visa du lịch ngắn hạn phải khai e-Arrival Card, trừ khi thuộc diện miễn riêng, chẳng hạn có thẻ cư trú Hàn Quốc còn hiệu lực. Hãy kiểm tra giấy tờ của bạn trên công cụ hướng dẫn chính thức.
+    - paragraph: Chỉ dùng kênh visa chính thức. Đừng trả tiền cho trang hứa cấp K-ETA hoặc e-visa du lịch cá nhân không có điều kiện cho hộ chiếu Việt Nam. E-visa dành cho đoàn có điều kiện riêng; hãy hỏi đại sứ quán hoặc đơn vị tổ chức được chỉ định.
+    - link "K-ETA ↗":
+      - /url: https://www.k-eta.go.kr/portal/guide/viewetaalification.do
+    - link "e-Arrival Card ↗":
+      - /url: https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E
+    - paragraph:
+      - time: 2026-10-05
+      - text: ·
+      - 'link "Nguồn: K-ETA"':
+        - /url: https://www.k-eta.go.kr/portal/guide/viewetaalification.do
+    - navigation "Nguồn chính thức":
+      - generic: Nguồn chính thức
+      - link "Cổng Visa Hàn Quốc — mẫu đơn và tra cứu ↗":
+        - /url: https://www.visa.go.kr
+      - link "Đại sứ quán Hàn Quốc tại Việt Nam — hồ sơ du lịch ↗":
+        - /url: https://overseas.mofa.go.kr/vn-vi/brd/m_2156/view.do?seq=760618
+      - link "KVAC Hà Nội — thời gian xét duyệt ↗":
+        - /url: https://visaforkorea-vt.com/customercenter/notice/view/873
+      - link "KVAC TP. Hồ Chí Minh — thời gian xét duyệt ↗":
+        - /url: https://visaforkorea-hc.com/customercenter/notice/view/778
+      - link "Tổng lãnh sự quán Hàn Quốc tại Đà Nẵng — câu hỏi về visa ↗":
+        - /url: https://overseas.mofa.go.kr/vn-danang-vi/brd/m_22986/view.do?seq=47
+    - generic: 🗓️
+    - generic: Dành đủ thời gian xét duyệt visa
+    - paragraph: "Thời gian công bố cho hồ sơ du lịch cá nhân: Hà Nội 16 ngày làm việc, TP. Hồ Chí Minh 18 ngày làm việc. Không tính cuối tuần và ngày lễ; có thể kéo dài khi cần thẩm tra thêm. Đây là thời gian dự kiến, không phải cam kết. Hồ sơ Đà Nẵng cần xác nhận riêng."
+    - generic: 📁
+    - generic: Chứng minh tài chính — theo danh mục của nơi nộp
+    - paragraph: Dùng danh mục của nơi nộp và diện visa. Danh mục C-3-9 cá nhân hiện hành tại Hà Nội yêu cầu sao kê ngân hàng 3 tháng gần nhất, thêm bảng lương với người lao động. Bổ sung giấy tờ cư trú và quan hệ gia đình khi áp dụng; yêu cầu dịch thuật, công chứng tùy nơi nộp.
+    - generic: Hộ chiếu phổ thông Việt Nam cần visa cho chuyến du lịch thông thường vào phần đất liền Hàn Quốc. Hướng dẫn C-3-9 một lần hiện hành tại Hà Nội ghi thời gian lưu trú 30 ngày; phải tuân theo thời hạn thực tế trên visa được cấp.
+    - generic: ✓
+    - time: 2026-10-05
+    - list:
+      - generic: Loại thị thực
+      - generic: Du lịch ngắn hạn C-3-9
+      - insertion:
+        - iframe [id="aswift_3"] [name="aswift_3"]:
+          - iframe [id="ad_iframe"] [name="ad_iframe"]:
+            - link:
+              - /url: https://krrtb.c.appier.net/xclk?bidobjid=Xs_vAZqbAUOHCr6PMIXDag&cid=IWUPzeqSSKSDn4zIFri0WQ&crid=wG18617STQu_3wbwx22wqA&crpid=iq4lgm2qStCES3EoxGQVJA&soid=kzNb&partner_id=03mSf3HNecb-&bx=Cylxwnu_20d97qus206so0dz7Pws7qo-uY79uqa1cDtycHTaJ8u9wmOWu1x1w8Q121lFJLlEZbNsw1zqUmR1K4lEUHM12qG-uYSxJ4u_o1x13LM12qu-uYOPuqa1Jmg9u1x1U8A121uV2nu-uYOPJ1u_uqGzKqd9o4QxujR&ui=CylYc8Myuqa1orusKquRo4QR7yQx2qaV2nlO&consent=1&ddhh=7nRy&flanding_rdr=
+            - button
+      - generic: Thời gian lưu trú tối đa
+      - generic: "C-3-9 một lần tại Hà Nội: 30 ngày; tuân theo thời hạn lưu trú ghi trên visa được cấp"
+      - insertion:
+        - iframe [id="aswift_4"] [name="aswift_4"]:
+          - iframe [id="ad_iframe"] [name="ad_iframe"]:
+            - link:
+              - /url: https://krrtb.c.appier.net/xclk?bidobjid=5OZNrXXoDDWol_3lMIXDag&cid=IWUPzeqSSKSDn4zIFri0WQ&crid=vlsebBIQQEGn3e0CnZ-Qpg&crpid=_pBSZXmOT-WgcUlBptRa5g&soid=kzNb&partner_id=03mSf3HNecb-&bx=Cylxwnu_20d97qus206so0dz7Pws7qo-uY79uqa1cDtycHTaJ8u9wmOWu1x1w8Q121lFJLlEZbNsw1zqUmR1K4lEUHM12qG-uYSxJ4u_o1x13LM12qu-uYOPuqa1Jmg9u1x1U8A121uV2nu-uYOPJ1u_uqGzKqd9o4QxujR&ui=CylYc8Myuqa1orusKquRo4QR7yQx2qaV2nlO&consent=1&ddhh=7nRy&flanding_rdr=
+            - button
+      - generic: Nộp đơn tại
+      - generic: "Nộp theo khu vực cư trú: KVAC Hà Nội, KVAC TP. Hồ Chí Minh hoặc Tổng lãnh sự quán Hàn Quốc tại Đà Nẵng. Kiểm tra khu vực thẩm quyền và hướng dẫn đặt lịch hiện hành trước khi đến."
+    - generic: ⚠ Lệ phí/quy định có thể thay đổi — hãy xác nhận tại nguồn
+    - text: "Nguồn:"
+    - link "KVAC Hanoi · C-3-9 checklist":
+      - /url: https://visaforkorea-vt.com/customercenter/notice/view/722
+    - paragraph: "ⓘ Nộp theo cơ quan phụ trách nơi cư trú: Hà Nội, TP. Hồ Chí Minh hoặc Đà Nẵng. Điều kiện và thời gian lưu trú tùy diện visa. Xác nhận danh mục hiện hành tại nơi nộp."
+    - heading "Lấy ở đâu" [level=2]
+    - paragraph: "Nộp theo khu vực cư trú: KVAC Hà Nội, KVAC TP. Hồ Chí Minh hoặc Tổng lãnh sự quán Hàn Quốc tại Đà Nẵng. Kiểm tra khu vực thẩm quyền và hướng dẫn đặt lịch hiện hành trước khi đến."
+    - link "KVAC Hanoi Miền Bắc, từ Quảng Trị trở ra; có ngoại lệ theo điều kiện cư trú 🏢 Hanoi visaforkorea-vt.com ↗":
+      - /url: https://visaforkorea-vt.com
+      - heading "KVAC Hanoi" [level=3]
+      - paragraph: Miền Bắc, từ Quảng Trị trở ra; có ngoại lệ theo điều kiện cư trú
+      - paragraph: 🏢 Hanoi
+      - generic: visaforkorea-vt.com ↗
+    - link "KVAC Ho Chi Minh City Advertisement Miền Nam thuộc thẩm quyền Tổng lãnh sự quán TP. Hồ Chí Minh; xác nhận tỉnh cư trú 🏢 Ho Chi Minh City visaforkorea-hc.com ↗":
+      - /url: https://visaforkorea-hc.com
+      - heading "KVAC Ho Chi Minh City" [level=3]
+      - insertion:
+        - iframe [id="aswift_5"] [name="aswift_5"]:
+          - iframe [id="ad_iframe"] [name="ad_iframe"]:
+            - link:
+              - /url: https://krrtb.c.appier.net/xclk?bidobjid=9qxPbRcSBomTjqfpMYXDag&cid=IWUPzeqSSKSDn4zIFri0WQ&crid=irhjKsQaQ1OR1l-zpJTsVw&crpid=LE_X2zb1SmKvfJIZmPj_zQ&soid=kzNb&partner_id=03mSf3HNecb-&bx=Cylxwnu_20M97qdPo0ZPoruxorGDorf-uY79uqa1cDtycHTaJ8u9wmOWu1x1w8Q121lFJLlEZbNsw1zqUmR1K4lEUHM12qG-uYSxJ4u_o1x13LM12qu-uYOPuqa1Jmg9u1x1U8A121uV2nu-uYOPJ1u_uqGzKqd9o4QxujR&ui=CylYc8Myuqa1orusKquRo4QR7yQx2qaV2nlO&consent=1&ddhh=7nRy&flanding_rdr=
+            - button
+      - paragraph: Miền Nam thuộc thẩm quyền Tổng lãnh sự quán TP. Hồ Chí Minh; xác nhận tỉnh cư trú
+      - paragraph: 🏢 Ho Chi Minh City
+      - generic: visaforkorea-hc.com ↗
+    - link "Da Nang Huế, Đà Nẵng và Quảng Ngãi; xác nhận điều kiện cư trú với Tổng lãnh sự quán 🏢 Da Nang overseas.mofa.go.kr ↗":
+      - /url: https://overseas.mofa.go.kr/vn-danang-vi/brd/m_22986/view.do?seq=47
+      - heading "Da Nang" [level=3]
+      - insertion
+      - paragraph: Huế, Đà Nẵng và Quảng Ngãi; xác nhận điều kiện cư trú với Tổng lãnh sự quán
+      - paragraph: 🏢 Da Nang
+      - generic: overseas.mofa.go.kr ↗
+    - paragraph: "ⓘ Nộp theo khu vực cư trú: KVAC Hà Nội, KVAC TP. Hồ Chí Minh hoặc Tổng lãnh sự quán Hàn Quốc tại Đà Nẵng. Kiểm tra khu vực thẩm quyền và hướng dẫn đặt lịch hiện hành trước khi đến."
+    - heading "Quy trình nộp hồ sơ, từng bước" [level=2]
+    - list:
+      - generic: "1"
+      - heading "Xác định loại visa" [level=4]
+      - paragraph: Để du lịch, hãy xin visa du lịch ngắn hạn C-3-9.
+      - generic: "2"
+      - heading "Điền mẫu đơn tại visa.go.kr" [level=4]
+      - paragraph:
+        - text: Điền mẫu đơn trên Cổng Visa Hàn Quốc — trang chính thức duy nhất — rồi in ra và ký tên. —
+        - link "Cổng Visa Hàn Quốc":
+          - /url: https://www.visa.go.kr
+      - generic: "3"
+      - heading "Chuẩn bị danh mục đúng nơi nộp" [level=4]
+      - insertion
+      - paragraph: Dùng danh mục của nơi nộp và diện visa. Danh mục C-3-9 cá nhân hiện hành tại Hà Nội yêu cầu sao kê ngân hàng 3 tháng gần nhất, thêm bảng lương với người lao động. Bổ sung giấy tờ cư trú và quan hệ gia đình khi áp dụng; yêu cầu dịch thuật, công chứng tùy nơi nộp.
+      - generic: "4"
+      - heading "Nộp tại cơ quan phụ trách hồ sơ" [level=4]
+      - paragraph: "Nộp theo khu vực cư trú: KVAC Hà Nội, KVAC TP. Hồ Chí Minh hoặc Tổng lãnh sự quán Hàn Quốc tại Đà Nẵng. Kiểm tra khu vực thẩm quyền và hướng dẫn đặt lịch hiện hành trước khi đến."
+      - generic: "5"
+      - heading "Đóng lệ phí" [level=4]
+      - paragraph: "Visa ngắn hạn một lần: USD 20; nhiều lần: USD 80. KVAC Hà Nội và TP. Hồ Chí Minh thu thêm VND 390,000/hồ sơ, chưa gồm dịch vụ tự chọn. Xác nhận loại tiền và tổng phí hiện hành tại nơi nộp; phí dịch vụ KVAC không phải khoản thu của Tổng lãnh sự quán Đà Nẵng."
+      - generic: "6"
+      - heading "Theo dõi hồ sơ" [level=4]
+      - paragraph: Theo dõi tình trạng qua kênh của trung tâm. Đừng mua vé máy bay không hoàn lại trước khi được duyệt.
+      - generic: "7"
+      - heading "Nhận lại hộ chiếu" [level=4]
+      - paragraph: Nhận kết quả theo hướng dẫn trên giấy hẹn; cách nhận và dịch vụ chuyển phát tùy nơi nộp. Kiểm tra thời gian lưu trú, số lần nhập cảnh và hiệu lực visa.
+    - heading "Danh mục giấy tờ — kèm nơi & cách lấy từng loại" [level=2]
+    - insertion
+    - paragraph: Dùng danh mục của nơi nộp và diện visa. Danh mục C-3-9 cá nhân hiện hành tại Hà Nội yêu cầu sao kê ngân hàng 3 tháng gần nhất, thêm bảng lương với người lao động. Bổ sung giấy tờ cư trú và quan hệ gia đình khi áp dụng; yêu cầu dịch thuật, công chứng tùy nơi nộp.
+    - generic: Hộ chiếu
+    - generic: Bắt buộc
+    - generic: Lấy ở đâu
+    - generic: Bạn đã có
+    - paragraph: Mang hộ chiếu gốc và bản sao; hộ chiếu phải còn hạn trên 6 tháng. Theo danh mục của nơi tiếp nhận.
+    - generic: Mẫu đơn xin visa
+    - generic: Bắt buộc
+    - generic: Lấy ở đâu
+    - link "visa.go.kr ↗":
+      - /url: https://www.visa.go.kr
+    - paragraph: Điền trên Cổng Visa Hàn Quốc, in ra và ký.
+    - generic: Ảnh — 3,5 × 4,5 cm
+    - generic: Bắt buộc
+    - generic: Lấy ở đâu
+    - generic: Tiệm chụp ảnh bất kỳ
+    - paragraph: Nền trắng, chụp trong vòng 6 tháng, rõ mặt, không đeo kính.
+    - generic: Chứng minh tài chính
+    - generic: Bắt buộc
+    - generic: Lấy ở đâu
+    - generic: Ngân hàng / nơi làm việc
+    - paragraph: Dùng danh mục của nơi nộp và diện visa. Danh mục C-3-9 cá nhân hiện hành tại Hà Nội yêu cầu sao kê ngân hàng 3 tháng gần nhất, thêm bảng lương với người lao động. Bổ sung giấy tờ cư trú và quan hệ gia đình khi áp dụng; yêu cầu dịch thuật, công chứng tùy nơi nộp.
+    - generic: Chứng minh công việc / kinh doanh / học tập
+    - generic: Bắt buộc
+    - generic: Lấy ở đâu
+    - generic: Nơi làm việc / doanh nghiệp / trường
+    - paragraph: "Đi làm: hợp đồng lao động + đơn xin nghỉ phép được duyệt. Tự kinh doanh: giấy phép kinh doanh. Học sinh/sinh viên: giấy xác nhận đang học (+ tài chính của cha mẹ)."
+    - generic: Xác nhận đặt khách sạn và lịch trình
+    - generic: Bắt buộc
+    - generic: Lấy ở đâu
+    - generic: Hãng bay / trang đặt phòng
+    - paragraph: Hồ sơ cá nhân tại Hà Nội cần xác nhận đặt khách sạn ở Hàn Quốc và lịch trình bằng tiếng Anh hoặc tiếng Hàn. Theo yêu cầu của nơi nộp về giấy tờ chuyến bay; tránh thanh toán không hoàn lại trước khi được duyệt.
+    - generic: Thư mời (nếu thăm người thân/bạn bè)
+    - generic: Nếu áp dụng
+    - generic: Lấy ở đâu
+    - generic: Người mời tại Hàn Quốc
+    - paragraph: Thư mời cùng bản sao giấy tờ tùy thân/thẻ cư trú của người mời, và nếu họ bảo lãnh thì kèm chứng minh tài chính của họ.
+    - generic: Lịch trình du lịch
+    - generic: Bắt buộc
+    - generic: Lấy ở đâu
+    - generic: Tự viết
+    - paragraph: Hồ sơ du lịch cá nhân tại Hà Nội bắt buộc có lịch trình; thư giải trình theo danh mục của nơi nộp.
+    - generic: CCCD/CMND và giấy tờ cư trú
+    - generic: Bắt buộc
+    - generic: Lấy ở đâu
+    - generic: CCCD / CMND
+    - paragraph: Mang bản sao CCCD/CMND; chuẩn bị giấy xác nhận cư trú khi nơi nộp yêu cầu.
+    - heading "Chứng minh tài chính — theo danh mục của nơi nộp" [level=2]
+    - paragraph: Dùng danh mục của nơi nộp và diện visa. Danh mục C-3-9 cá nhân hiện hành tại Hà Nội yêu cầu sao kê ngân hàng 3 tháng gần nhất, thêm bảng lương với người lao động. Bổ sung giấy tờ cư trú và quan hệ gia đình khi áp dụng; yêu cầu dịch thuật, công chứng tùy nơi nộp.
+    - list:
+      - listitem: ✓ Dùng danh mục của nơi nộp và diện visa. Danh mục C-3-9 cá nhân hiện hành tại Hà Nội yêu cầu sao kê ngân hàng 3 tháng gần nhất, thêm bảng lương với người lao động. Bổ sung giấy tờ cư trú và quan hệ gia đình khi áp dụng; yêu cầu dịch thuật, công chứng tùy nơi nộp.
+      - listitem: "✓ Kết hợp tài chính với chứng minh ràng buộc: hợp đồng lao động, giấy phép kinh doanh, hoặc xác nhận đang học."
+      - listitem: ✓ Được bảo lãnh (ví dụ bởi công ty hay gia đình)? Hãy kèm giấy bảo lãnh/tài chính của người bảo lãnh.
+    - heading "Những lỗi khiến bị từ chối & chậm trễ" [level=2]
+    - generic: 📍
+    - generic: Sai trung tâm
+    - paragraph: Chọn Hà Nội, TP. Hồ Chí Minh hoặc Đà Nẵng theo điều kiện cư trú, không theo nơi thuận tiện nhất.
+    - generic: 💸
+    - generic: Nạp tiền đột ngột
+    - paragraph: Một khoản lớn ngay trước khi nộp. Hãy thể hiện tài chính ổn định, giải thích được.
+    - generic: 🔗
+    - generic: Ràng buộc yếu với Việt Nam
+    - paragraph: Không chứng minh được sẽ quay về. Hãy bổ sung hợp đồng lao động, giấy tờ kinh doanh, hoặc xác nhận đang học.
+    - generic: 🎫
+    - generic: Mua vé quá sớm
+    - paragraph: Mua vé không hoàn lại trước khi được duyệt — chỉ cần đặt chỗ là đủ.
+    - generic: 🖼️
+    - generic: Ảnh không đạt
+    - paragraph: Sai kích thước hoặc nền. Hãy dùng ảnh mới 3,5×4,5 cm nền trắng.
+    - 'heading "Câu hỏi thường gặp: Việt Nam → Hàn Quốc" [level=2]'
+    - generic "Người Việt có cần visa vào Hàn Quốc không? +"
+    - generic "Visa du lịch được lưu trú bao lâu? +"
+    - generic "Tôi nộp ở đâu? +"
+    - generic "Cần chứng minh bao nhiêu tiền? +"
+    - generic "Lệ phí bao nhiêu? +"
+    - generic "Đi tour khen thưởng của công ty — có đơn giản hơn? +"
+    - generic "Tôi có vẫn cần e-Arrival Card không? +"
+    - generic "Du khách Việt Nam có thể đến Jeju mà không cần visa không? +"
+    - generic "Xin visa Hàn Quốc mất bao lâu để xử lý? +"
+    - generic "Trẻ em có cần visa Hàn Quốc riêng không? +"
+    - generic "Người Việt có visa rồi có cần xin thêm K-ETA không? +"
+    - generic "Có visa Mỹ hoặc Nhật thì được quá cảnh Hàn Quốc miễn visa không? +"
+    - heading "Nguồn chính thức" [level=2]
+    - paragraph: "Nộp theo khu vực cư trú: KVAC Hà Nội, KVAC TP. Hồ Chí Minh hoặc Tổng lãnh sự quán Hàn Quốc tại Đà Nẵng. Kiểm tra khu vực thẩm quyền và hướng dẫn đặt lịch hiện hành trước khi đến."
+    - link "Cổng Visa Hàn Quốc — mẫu đơn và tra cứu www.visa.go.kr ↗":
+      - /url: https://www.visa.go.kr
+      - generic: Cổng Visa Hàn Quốc — mẫu đơn và tra cứu
+      - generic: www.visa.go.kr ↗
+    - link "Đại sứ quán Hàn Quốc tại Việt Nam — hồ sơ du lịch overseas.mofa.go.kr ↗":
+      - /url: https://overseas.mofa.go.kr/vn-vi/brd/m_2156/view.do?seq=760618
+      - generic: Đại sứ quán Hàn Quốc tại Việt Nam — hồ sơ du lịch
+      - generic: overseas.mofa.go.kr ↗
+    - link "KVAC Hà Nội — thời gian xét duyệt visaforkorea-vt.com ↗":
+      - /url: https://visaforkorea-vt.com/customercenter/notice/view/873
+      - generic: KVAC Hà Nội — thời gian xét duyệt
+      - generic: visaforkorea-vt.com ↗
+    - link "KVAC TP. Hồ Chí Minh — thời gian xét duyệt visaforkorea-hc.com ↗":
+      - /url: https://visaforkorea-hc.com/customercenter/notice/view/778
+      - generic: KVAC TP. Hồ Chí Minh — thời gian xét duyệt
+      - generic: visaforkorea-hc.com ↗
+    - link "Tổng lãnh sự quán Hàn Quốc tại Đà Nẵng — câu hỏi về visa overseas.mofa.go.kr ↗":
+      - /url: https://overseas.mofa.go.kr/vn-danang-vi/brd/m_22986/view.do?seq=47
+      - generic: Tổng lãnh sự quán Hàn Quốc tại Đà Nẵng — câu hỏi về visa
+      - generic: overseas.mofa.go.kr ↗
+    - link "KVAC Hà Nội — phí dịch vụ visaforkorea-vt.com ↗":
+      - /url: https://visaforkorea-vt.com/info/service
+      - generic: KVAC Hà Nội — phí dịch vụ
+      - generic: visaforkorea-vt.com ↗
+    - link "KVAC TP. Hồ Chí Minh — phí dịch vụ visaforkorea-hc.com ↗":
+      - /url: https://visaforkorea-hc.com/info/service
+      - generic: KVAC TP. Hồ Chí Minh — phí dịch vụ
+      - generic: visaforkorea-hc.com ↗
+    - link "e-Arrival Card — kiểm tra nghĩa vụ khai báo www.e-arrivalcard.go.kr ↗":
+      - /url: https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E
+      - generic: e-Arrival Card — kiểm tra nghĩa vụ khai báo
+      - generic: www.e-arrivalcard.go.kr ↗
+    - link "Xuất nhập cảnh Hàn Quốc — điều kiện quá cảnh overseas.mofa.go.kr ↗":
+      - /url: https://overseas.mofa.go.kr/est-en/brd/m_27860/view.do?seq=19
+      - generic: Xuất nhập cảnh Hàn Quốc — điều kiện quá cảnh
+      - generic: overseas.mofa.go.kr ↗
+    - link "Jeju — hướng dẫn miễn visa chính thức overseas.mofa.go.kr ↗":
+      - /url: https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=759205
+      - generic: Jeju — hướng dẫn miễn visa chính thức
+      - generic: overseas.mofa.go.kr ↗
+    - heading "Nguồn chính thức" [level=2]
+    - link "📄 Cổng Visa Hàn Quốc — mẫu đơn và tra cứu Điền mẫu đơn tại visa.go.kr":
+      - /url: https://www.visa.go.kr
+      - generic: 📄
+      - generic: Cổng Visa Hàn Quốc — mẫu đơn và tra cứu
+      - emphasis: Điền mẫu đơn tại visa.go.kr
+    - link "🏢 Đại sứ quán Hàn Quốc tại Việt Nam — hồ sơ du lịch Dùng danh mục của nơi nộp và diện visa. Danh mục C-3-9 cá nhân hiện hành tại Hà Nội yêu cầu sao kê ngân hàng 3 tháng gần nhất, thêm bảng lương với người lao động. Bổ sung giấy tờ cư trú và quan hệ gia đình khi áp dụng; yêu cầu dịch thuật, công chứng tùy nơi nộp.":
+      - /url: https://overseas.mofa.go.kr/vn-vi/brd/m_2156/view.do?seq=760618
+      - generic: 🏢
+      - generic: Đại sứ quán Hàn Quốc tại Việt Nam — hồ sơ du lịch
+      - emphasis: Dùng danh mục của nơi nộp và diện visa. Danh mục C-3-9 cá nhân hiện hành tại Hà Nội yêu cầu sao kê ngân hàng 3 tháng gần nhất, thêm bảng lương với người lao động. Bổ sung giấy tờ cư trú và quan hệ gia đình khi áp dụng; yêu cầu dịch thuật, công chứng tùy nơi nộp.
+    - link "🏢 KVAC Hà Nội — thời gian xét duyệt Miền Bắc, từ Quảng Trị trở ra; có ngoại lệ theo điều kiện cư trú":
+      - /url: https://visaforkorea-vt.com/customercenter/notice/view/873
+      - generic: 🏢
+      - generic: KVAC Hà Nội — thời gian xét duyệt
+      - emphasis: Miền Bắc, từ Quảng Trị trở ra; có ngoại lệ theo điều kiện cư trú
+    - link "🏢 KVAC TP. Hồ Chí Minh — thời gian xét duyệt Miền Nam thuộc thẩm quyền Tổng lãnh sự quán TP. Hồ Chí Minh; xác nhận tỉnh cư trú":
+      - /url: https://visaforkorea-hc.com/customercenter/notice/view/778
+      - generic: 🏢
+      - generic: KVAC TP. Hồ Chí Minh — thời gian xét duyệt
+      - emphasis: Miền Nam thuộc thẩm quyền Tổng lãnh sự quán TP. Hồ Chí Minh; xác nhận tỉnh cư trú
+    - link "🏢 Tổng lãnh sự quán Hàn Quốc tại Đà Nẵng — câu hỏi về visa Huế, Đà Nẵng và Quảng Ngãi; xác nhận điều kiện cư trú với Tổng lãnh sự quán":
+      - /url: https://overseas.mofa.go.kr/vn-danang-vi/brd/m_22986/view.do?seq=47
+      - generic: 🏢
+      - generic: Tổng lãnh sự quán Hàn Quốc tại Đà Nẵng — câu hỏi về visa
+      - emphasis: Huế, Đà Nẵng và Quảng Ngãi; xác nhận điều kiện cư trú với Tổng lãnh sự quán
+    - region "Quy cách ảnh hộ chiếu cho visa":
+      - generic: 📷
+      - heading "Quy cách ảnh hộ chiếu cho visa" [level=2]
+      - paragraph: "Quy định về ảnh visa của Hàn Quốc rất nghiêm ngặt — làm sai là lý do thường gặp khiến hồ sơ bị chậm trễ hoặc bị từ chối:"
+      - list:
+        - listitem: ✓ 35 × 45 mm, nền trắng trơn (không chấp nhận nền được thay bằng phần mềm).
+        - listitem: ✓ Khuôn mặt chiếm 70–80% chiều cao ảnh, chụp chính diện, nét mặt tự nhiên.
+        - listitem: ✓ Chụp trong vòng 6 tháng gần nhất; không đội mũ, thường không đeo kính, không chỉnh sửa.
+        - listitem: "✓ Tải lên trực tuyến (Korea Visa Portal): JPEG dưới 200 KB, tối thiểu 413 × 531 px."
+      - paragraph:
+        - text: Dựa theo Korea Visa Portal (
+        - link "visa.go.kr":
+          - /url: https://visa.go.kr
+        - text: ) và quy định của lãnh sự quán — hãy xác nhận yêu cầu chính xác tại lãnh sự quán nơi bạn nộp hồ sơ.
+    - generic: 💱 Tiền của bạn ở Hàn Quốc
+    - generic: 1,000 VND ≈ 52 KRW · ₩10,000 ≈ 192,610 VND
+    - paragraph: Tỷ giá tham khảo theo thời gian thực — tỷ giá thực tế tại quầy và thẻ có thể khác.
+    - generic: 🏛️ Đại sứ quán nước bạn tại Hàn Quốc
+    - generic: Embassy of Vietnam, Seoul
+    - term: Địa chỉ
+    - definition: 123 Bukchon-ro, Jongno-gu, Seoul
+    - term: Điện thoại
+    - definition:
+      - link "+82-2-720-5124":
+        - /url: tel:+8227205124
+    - link "Trang chính thức →":
+      - /url: https://vnembassy-seoul.mofa.gov.vn
+    - paragraph: "Dành cho trường hợp khẩn cấp sau khi bạn đến (ví dụ: mất hộ chiếu). Hãy kiểm tra thông tin mới nhất trên trang chính thức."
+    - complementary "Tiếp theo, chuẩn bị cho ngày đến":
+      - text: Chuẩn bị khi đến nơi
+      - heading "Tiếp theo, chuẩn bị cho ngày đến" [level=2]
+      - paragraph: Lên kế hoạch di chuyển từ sân bay, chuẩn bị kết nối và tập hợp các việc cần làm vào một danh sách.
+      - link "Sân bay → thành phố →":
+        - /url: /vi/plan/airport/
+      - link "SIM / eSIM / Wi-Fi →":
+        - /url: /vi/plan/sim/
+      - link "Danh sách chuẩn bị →":
+        - /url: /vi/#planner
+    - region "Xong visa rồi? Giờ lên kế hoạch cho phần còn lại":
+      - heading "Xong visa rồi? Giờ lên kế hoạch cho phần còn lại" [level=2]
+      - paragraph: Nhập cảnh, di chuyển, chỗ ở và chơi gì — phần còn lại của chuyến đi Hàn Quốc, đều ở đây.
+      - link "Tạo và chia sẻ lịch trình →":
+        - /url: /vi/#planner
+      - link "Ngân sách chuyến đi →":
+        - /url: /vi/plan/money/#budget
+      - link "Cẩm nang du lịch Hàn Quốc · Vietnam →":
+        - /url: /vi/guides/korea-from-vietnam/
+      - link "Sân bay → thành phố Incheon · AREX tốc hành":
+        - /url: /vi/plan/airport/
+        - generic: ✈️
+        - generic: Sân bay → thành phố
+        - generic: Incheon · AREX tốc hành
+      - link "Đi lại T-money · tàu điện · KTX · taxi":
+        - /url: /vi/plan/transit/
+        - generic: 🚇
+        - generic: Đi lại
+        - generic: T-money · tàu điện · KTX · taxi
+      - link "SIM / eSIM / Wi-Fi Kết nối ngay khi đến":
+        - /url: /vi/plan/sim/
+        - generic: 📱
+        - generic: SIM / eSIM / Wi-Fi
+        - generic: Kết nối ngay khi đến
+      - link "Tiền & thanh toán Đổi tiền · thẻ · tiền mặt":
+        - /url: /vi/plan/money/#budget
+        - generic: 💳
+        - generic: Tiền & thanh toán
+        - generic: Đổi tiền · thẻ · tiền mặt
+      - link "Ở đâu Khu vực & lân cận tốt nhất":
+        - /url: /vi/stay/
+        - generic: 🏨
+        - generic: Ở đâu
+        - generic: Khu vực & lân cận tốt nhất
+      - link "Lịch trình có sẵn Lộ trình 3–7 ngày dùng ngay":
+        - /url: /vi/itinerary/
+        - generic: 🗺️
+        - generic: Lịch trình có sẵn
+        - generic: Lộ trình 3–7 ngày dùng ngay
+      - link "K-pop & hòa nhạc Địa điểm, vé & điểm hẹn idol":
+        - /url: /vi/kpop/
+        - generic: 🎤
+        - generic: K-pop & hòa nhạc
+        - generic: Địa điểm, vé & điểm hẹn idol
+        - generic: →
+    - complementary "Về trang này":
+      - generic "Chia sẻ với bạn bè hoặc lưu cho mình":
+        - strong: Chia sẻ với bạn bè hoặc lưu cho mình
+        - button "Chia sẻ qua ứng dụng":
+          - text: Chia sẻ qua ứng dụng
+        - button "Sao chép liên kết":
+          - text: Sao chép liên kết
+        - button "Gửi qua email":
+          - text: Gửi qua email
+        - generic "Chọn ứng dụng nhắn tin hoặc mạng xã hội"
+        - paragraph: Gửi hướng dẫn bằng ngôn ngữ hiện tại. Ứng dụng chia sẻ khả dụng tùy thuộc thiết bị.
+      - generic: 🖊 Biên tập & kiểm chứng Korea Trip Hub
+      - link "Chính sách biên tập":
+        - /url: /vi/legal/editorial/
+      - text: "🔄 Kiểm tra lần cuối:"
+      - time: 5 tháng 10, 2026
+      - paragraph: Quy định và giá có thể thay đổi — hãy xác nhận trên trang chính thức trước khi đi hoặc đặt chỗ.
+      - link "🛠 Báo lỗi hoặc đề xuất chỉnh sửa":
+        - /url: /vi/legal/contact/
+    - paragraph: Thông tin du lịch được đối chiếu với nguồn chính thức kèm ngày xác minh. Giá, lịch trình và quy định visa thay đổi — luôn xác nhận tại nguồn chính thức được liên kết trước khi đi.
+- contentinfo:
+  - generic "Chia sẻ với bạn bè hoặc lưu cho mình"
+  - generic: ◆ KoreaTripHub
+  - navigation "Ngôn ngữ":
+    - link "English":
+      - /url: /en/
+    - link "中文 (简体)":
+      - /url: /zh/
+    - link "中文 (繁體)":
+      - /url: /zh-TW/
+    - link "日本語":
+      - /url: /ja/
+    - strong: Tiếng Việt
+    - link "ไทย":
+      - /url: /th/
+    - link "Bahasa Indonesia":
+      - /url: /id/
+    - link "Español":
+      - /url: /es/
+    - link "Bahasa Melayu":
+      - /url: /ms/
+    - link "한국어":
+      - /url: /ko/
+    - link "Русский":
+      - /url: /ru/
+    - link "Français":
+      - /url: /fr/
+  - navigation "Pháp lý":
+    - link "Giới thiệu":
+      - /url: /vi/legal/about/
+    - link "Người vận hành":
+      - /url: /vi/legal/operator/
+    - link "Liên hệ":
+      - /url: /vi/legal/contact/
+    - link "Quyền riêng tư & Cookie":
+      - /url: /vi/legal/privacy/
+    - link "Điều khoản":
+      - /url: /vi/legal/terms/
+    - link "Chính sách biên tập":
+      - /url: /vi/legal/editorial/
+    - link "Đính chính":
+      - /url: /vi/legal/corrections/
+    - link "Quảng cáo & Tiếp thị liên kết":
+      - /url: /vi/legal/affiliate/
+  - paragraph:
+    - link "🍁 Cẩm nang du lịch Hàn Quốc →":
+      - /url: /vi/guides/
+    - text: ·
+    - link "🎤 K-Culture — kpophub.kr →":
+      - /url: https://kpophub.kr/en/calendar/
+  - paragraph: Một số liên kết là liên kết tiếp thị — chúng tôi có thể nhận hoa hồng mà bạn không tốn thêm chi phí.
+  - paragraph: © 2026 Korea Trip Hub — hướng dẫn du lịch độc lập. Luôn xác nhận quy định mới nhất từ nguồn chính thức.
+- region "Trợ lý Du lịch":
+  - button "Đóng": ✕
+  - button "Trợ lý du lịch AI Tôi có thể giúp gì cho bạn? Trợ lý Du lịch ↗":
+    - generic: Trợ lý du lịch AI
+    - strong: Tôi có thể giúp gì cho bạn?
+    - generic: Trợ lý Du lịch ↗
+- button "Trợ lý Du lịch"
+- alert

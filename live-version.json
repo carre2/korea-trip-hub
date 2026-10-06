@@ -1,0 +1,75 @@
+{
+  "id": "c0dc1f80-145e-4602-ad47-635be037f1e6",
+  "number": 252,
+  "metadata": {
+    "created_on": "2026-10-02T06:07:21.812852Z",
+    "source": "wrangler",
+    "author_id": "abc5dd7a22053c6a8c925ffc11801443",
+    "author_email": "minho.han0165@gmail.com",
+    "has_preview": true
+  },
+  "annotations": {
+    "workers/triggered_by": "version_upload"
+  },
+  "resources": {
+    "script": {
+      "etag": "f98d5db148806e10512606444ca432012054c00e8e82ed665503636ff2dba5d0",
+      "handlers": [
+        "fetch"
+      ],
+      "last_deployed_from": "wrangler"
+    },
+    "script_runtime": {
+      "assets": {
+        "not_found_handling": "404-page",
+        "headers": {
+          "version": 2,
+          "rules": {
+            "/*": {
+              "set": {
+                "referrer-policy": "strict-origin-when-cross-origin",
+                "x-content-type-options": "nosniff"
+              },
+              "unset": []
+            },
+            "/_next/static/*": {
+              "set": {
+                "cache-control": "public, max-age=31536000, immutable"
+              },
+              "unset": []
+            }
+          }
+        },
+        "raw_headers": "# Cloudflare Pages headers (copied to out/_headers).\n# Long-cache immutable build assets.\n/_next/static/*\n  Cache-Control: public, max-age=31536000, immutable\n\n# Baseline security headers.\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n",
+        "redirects": {
+          "version": 1,
+          "rules": {},
+          "staticRules": {
+            "/": {
+              "to": "/en/",
+              "status": 302,
+              "lineNumber": 10
+            }
+          }
+        },
+        "raw_redirects": "# Cloudflare Pages redirects. This file is copied to the deploy root (out/_redirects).\n# Root → default locale (edge redirect, no JS needed).\n#\n# Kept as 302 (not 301) on purpose: \"/\" is a language-neutral entry point for a\n# 10-language site. A permanent 301 is cached hard by browsers and would block ever\n# adding Accept-Language / geo routing at the root without fighting stale caches.\n# SEO cost is nil — /en/ is the declared hreflang x-default and every locale home\n# cross-links via hreflang, so crawlers resolve the canonical set correctly. Reviewed\n# 2026-08-26; revisit only if the English default is made permanent.\n/            /en/    302\n\n# (Later) if ktrip.kr is added as a second custom domain pointing here,\n# keep everything on the canonical .com — handled via Cloudflare Redirect Rules,\n# not this file. See DEPLOY.md §4.\n",
+        "serve_directly": true,
+        "raw_run_worker_first": false,
+        "base_path": "/"
+      },
+      "compatibility_date": "2025-01-01",
+      "usage_model": "standard"
+    },
+    "bindings": [
+      {
+        "name": "AI",
+        "project": "<catalog>",
+        "type": "ai"
+      },
+      {
+        "name": "ASSETS",
+        "type": "assets"
+      }
+    ]
+  }
+}
