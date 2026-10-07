@@ -18,6 +18,8 @@ import festivalCopies from "../../data/festivals-ui.json";
 const ADSENSE_CLIENT = "ca-pub-2067934281598769";
 // Google Analytics 4 measurement ID (ktriphub.com property).
 const GA_ID = "G-DZTSGKJ926";
+// Google Ads destination, sharing the existing Google tag loader.
+const ADS_ID = "AW-18493797656";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -53,7 +55,7 @@ export default function LocaleLayout({ children, params }) {
 gtag('js', new Date());
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
 try{if(localStorage.getItem('kth_consent')==='granted')gtag('consent','update',{analytics_storage:'granted'});}catch(e){}
-if(['ktriphub.com','www.ktriphub.com'].includes(location.hostname))gtag('config','${GA_ID}');`}
+if(['ktriphub.com','www.ktriphub.com'].includes(location.hostname)){gtag('config','${GA_ID}');gtag('config','${ADS_ID}');}`}
         </Script>
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
         {/* Auto ads placements and formats are controlled in the AdSense account. */}
