@@ -1,0 +1,33 @@
+/* Readability layer: keep local fonts and vector icons crisp without image filters.
+   Load after the travel theme so small utility labels never shrink below 14px. */
+:root {--sans:"Segoe UI",Arial,system-ui,sans-serif}
+:root:lang(ko) {--sans:"Malgun Gothic","Apple SD Gothic Neo",system-ui,sans-serif}
+:root:lang(ja) {--sans:"Meiryo","Hiragino Sans","Yu Gothic UI",system-ui,sans-serif;--serif:var(--sans)}
+:root:lang(zh) {--sans:"Microsoft YaHei","PingFang SC",system-ui,sans-serif;--serif:var(--sans)}
+:root:lang(zh-TW) {--sans:"Microsoft JhengHei","PingFang TC",system-ui,sans-serif;--serif:var(--sans)}
+:root:lang(th) {--sans:"Leelawadee UI",Tahoma,system-ui,sans-serif;--serif:var(--sans)}
+body {font-family:var(--sans)}
+header {background:var(--bg);backdrop-filter:none}
+.plan-herobanner h1,.plan-herobanner-tag {text-shadow:0 1px 2px rgba(0,0,0,.8)}
+.art-meta,.art-read,.art-updated,.art-kicker,.guide-photo-credits {font-family:var(--sans);font-size:max(.875rem,14px);letter-spacing:0}
+.header-share-dialog {width:min(760px,calc(100vw - 32px));font-family:var(--sans)}
+.header-share-dialog::backdrop {background:rgba(0,0,0,.42)}
+.share-heading {font-size:1.375rem;line-height:1.5;letter-spacing:0}
+.share-tools .share-section-title {font-family:var(--sans);font-size:1rem;font-weight:700;letter-spacing:0;color:var(--text)}
+.share-actions .btn,.share-qr-button {font-family:var(--sans);font-size:1rem;font-weight:600;letter-spacing:0;min-height:44px}
+.share-platforms {gap:10px}
+.share-service {padding:16px 8px;min-width:0;min-height:150px;border-color:var(--border);gap:9px}
+.share-service strong {font-family:var(--sans);font-size:1rem;font-weight:700;line-height:1.4;letter-spacing:0}
+.share-service small {font-family:var(--sans);font-size:.875rem;line-height:1.5;max-width:none;color:var(--muted);letter-spacing:0;overflow-wrap:break-word}
+.share-brand-icon {width:52px;height:52px}
+.share-brand-icon img {width:32px;height:32px}
+.share-note,.share-tools p {font-family:var(--sans);font-size:1rem;line-height:1.7;letter-spacing:0}
+@media(max-width:600px) {
+  .share-platforms {grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .header-share-dialog {padding:18px}
+  .share-service {padding:12px 6px}
+  .share-heading {font-size:1.25rem}
+}
+@media(max-width:360px) {
+  .share-platforms {grid-template-columns:repeat(2,minmax(0,1fr))}
+}
