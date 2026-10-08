@@ -91,7 +91,10 @@ const rows = [];
 
 /** Walk base and override in parallel. `at` is a dotted path for error messages. */
 function compare(base, ov, at, ctx) {
-  if (ov === undefined || ov === null) return;
+  if (ov === undefined || ov === null) {
+    if (ctx.fullCopy && !at.split(".").pop().startsWith("_")) errors.push(`${ctx}: ${at} is missing from the full translation`);
+    return;
+  }
 
   if (Array.isArray(base)) {
     if (!Array.isArray(ov)) return errors.push(`${ctx}: ${at} should be an array`);
@@ -103,6 +106,11 @@ function compare(base, ov, at, ctx) {
 
   if (base && typeof base === "object") {
     if (typeof ov !== "object") return errors.push(`${ctx}: ${at} should be an object`);
+    if (ctx.fullCopy) {
+      for (const k of Object.keys(base)) {
+        if (!k.startsWith("_") && !(k in ov)) errors.push(`${ctx}: ${at ? at + "." : ""}${k} is missing from the full translation`);
+      }
+    }
     for (const k of Object.keys(ov)) {
       if (k.startsWith("_")) continue;
       // A key absent from the base is legitimate: both merge paths (mergeGuide in lib/visa.js
@@ -120,7 +128,18 @@ function compare(base, ov, at, ctx) {
     if (base !== undefined && ov !== base) errors.push(`${ctx}: ${at} must not be translated (base "${base}", got "${ov}")`);
     return;
   }
+  if (ctx.fullCopy && typeof base === "number" && ov !== base) {
+    errors.push(`${ctx}: ${at} changed numeric value ${base} to ${ov}`);
+  }
+  if (ctx.fullCopy && typeof base === "string" && (typeof ov !== "string" || !ov.trim())) {
+    errors.push(`${ctx}: ${at} must contain translated text`);
+    return;
+  }
   if (typeof base !== "string" || typeof ov !== "string") return;
+  if (ctx.fullCopy) {
+    const placeholders = (value) => (value.match(/\{[a-zA-Z][\w]*\}/g) || []).sort().join("|");
+    if (placeholders(base) !== placeholders(ov)) errors.push(`${ctx}: ${at} changed template placeholders`);
+  }
 
   if (!HANGUL_OK.has(ctx.locale) && HANGUL.test(ov)) errors.push(`${ctx}: ${at} — Korean text leaked`);
   const have = normalizeDigits(ov).toLowerCase();
@@ -146,10 +165,13 @@ for (const name of bases) {
   for (const loc of LOCALES) {
     if (loc === REF) continue;
     const p = path.join(DATA, `${name}.${loc}.json`);
-    if (!fs.existsSync(p)) continue;
+    if (!fs.existsSync(p)) {
+      if (["stay", "itineraries"].includes(name) && wanted(loc)) errors.push(`${name}.${loc}.json: full translation file is missing`);
+      continue;
+    }
     have.push(loc);
     if (!wanted(loc)) continue;
-    const c = { toString: () => `${name}.${loc}.json`, locale: loc };
+    const c = { toString: () => `${name}.${loc}.json`, locale: loc, fullCopy: ["stay", "itineraries"].includes(name) };
     compare(base, readJson(p), "", c);
   }
   rows.push({ file: `data/${name}.*.json`, have });
