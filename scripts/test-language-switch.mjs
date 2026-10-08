@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import {languageSwitchOptions,languageVisaCountries} from '../lib/language-switch.mjs';
 const locales=['en','zh','zh-TW','ja','vi','th','id','es','ms','ko','ru','fr'];
 test('Vietnam guide offers Japanese passport guide and an independent translation option',()=>{
-assert.deepEqual(languageSwitchOptions('/vi/visa/vietnam/','ja',locales,'?utm_source=email','#faq'),{languageUrl:'/ja/visa/vietnam/?utm_source=email#faq',countryUrl:'/ja/visa/japan/?utm_source=email'});
+assert.deepEqual(languageSwitchOptions('/vi/visa/vietnam/','ja',locales,'?utm_source=email','#faq'),{languageUrl:'/ja/visa/vietnam/?utm_source=email#faq',countryUrl:'/ja/visa/japan/?utm_source=email#faq'});
 });
 test('ordinary pages and ambiguous languages only change display language',()=>{
 assert.equal(languageSwitchOptions('/vi/plan/airport/','ja',locales).countryUrl,null);
