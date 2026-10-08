@@ -305,7 +305,7 @@
     },
     "earrival-card-how": {
       "claim": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan.",
-      "notes": "Xác nhận trường hợp của bạn trên trang chính thức. Cơ quan xuất nhập cảnh quyết định cuối cùng về việc nhập cảnh."
+      "notes": "Nếu thuộc diện khai báo, nộp miễn phí tại e-arrivalcard.go.kr từ 3 ngày trước khi nhập cảnh theo giờ Hàn Quốc. Tờ khai hết hiệu lực sau 72 giờ từ lúc nộp hoặc khi hoàn tất kiểm tra nhập cảnh. Giữ mã cấp trong email sẽ hữu ích; không bắt buộc mang bản xác nhận in."
     },
     "transit-free-transfer": {
       "claim": "Chuyển tuyến giữa tàu điện ngầm và xe buýt (hoặc xe buýt và xe buýt) được miễn phí trong vòng 30 minutes khi bạn thanh toán bằng thẻ T-money và quẹt thẻ cả lúc lên lẫn lúc xuống.",
@@ -398,6 +398,18 @@
     "keta-age-exemption": {
       "claim": "Du khách thuộc quốc tịch đủ điều kiện K-ETA, từ 17 tuổi trở xuống hoặc từ 65 tuổi trở lên, được miễn K-ETA bắt buộc. Điều này không tự động miễn e-Arrival Card.",
       "notes": "Xác nhận trường hợp của bạn trên trang chính thức. Cơ quan xuất nhập cảnh quyết định cuối cùng về việc nhập cảnh."
+    },
+    "visa-malaysia-free": {
+      "claim": "Không cần thị thực du lịch — hộ chiếu Malaysia được miễn thị thực tối đa 3 tháng. Khi nhập cảnh miễn thị thực, bạn phải được chấp thuận K-ETA trước khi lên máy bay hoặc tàu, trừ trường hợp được miễn. Nếu nhập cảnh bằng thị thực Hàn Quốc hoặc thẻ cư trú còn hiệu lực, quy định của giấy tờ đó được ưu tiên; không phải xin thêm K-ETA. Kiểm tra tuổi và giấy tờ tại k-eta.go.kr. Du khách thuộc quốc tịch đủ điều kiện K-ETA, từ 17 tuổi trở xuống hoặc từ 65 tuổi trở lên, được miễn K-ETA bắt buộc. Điều này không tự động miễn e-Arrival Card.",
+      "notes": "K-ETA có phí KRW 10,000 cộng phí thanh toán trực tuyến và không được hoàn lại. Giấy phép hiện tại có hiệu lực 3 năm hoặc đến ngày hộ chiếu hết hạn, tùy ngày nào đến trước; đây không phải thời gian được lưu trú mỗi lần. Nộp sớm để được chấp thuận trước khi lên máy bay. Xét duyệt K-ETA có thể kéo dài hơn 72 giờ; không bảo đảm thời gian phê duyệt hay quyền nhập cảnh."
+    },
+    "visa-thailand-free": {
+      "claim": "Không cần thị thực du lịch — hộ chiếu Thái Lan được miễn thị thực tối đa 90 ngày. Khi nhập cảnh miễn thị thực, bạn phải được chấp thuận K-ETA trước khi lên máy bay hoặc tàu, trừ trường hợp được miễn. Nếu nhập cảnh bằng thị thực Hàn Quốc hoặc thẻ cư trú còn hiệu lực, quy định của giấy tờ đó được ưu tiên; không phải xin thêm K-ETA. Kiểm tra tuổi và giấy tờ tại k-eta.go.kr. Du khách thuộc quốc tịch đủ điều kiện K-ETA, từ 17 tuổi trở xuống hoặc từ 65 tuổi trở lên, được miễn K-ETA bắt buộc. Điều này không tự động miễn e-Arrival Card.",
+      "notes": "K-ETA có phí KRW 10,000 cộng phí thanh toán trực tuyến và không được hoàn lại. Giấy phép hiện tại có hiệu lực 3 năm hoặc đến ngày hộ chiếu hết hạn, tùy ngày nào đến trước; đây không phải thời gian được lưu trú mỗi lần. Nộp sớm để được chấp thuận trước khi lên máy bay. Xét duyệt K-ETA có thể kéo dài hơn 72 giờ; không bảo đảm thời gian phê duyệt hay quyền nhập cảnh."
+    },
+    "visa-kazakhstan-free": {
+      "claim": "Không cần thị thực du lịch — hộ chiếu Kazakhstan được miễn thị thực tối đa 30 ngày (tối đa 60 ngày trong bất kỳ giai đoạn 180 ngày nào). Khi nhập cảnh miễn thị thực, bạn phải được chấp thuận K-ETA trước khi lên máy bay hoặc tàu, trừ trường hợp được miễn. Nếu nhập cảnh bằng thị thực Hàn Quốc hoặc thẻ cư trú còn hiệu lực, quy định của giấy tờ đó được ưu tiên; không phải xin thêm K-ETA. Kiểm tra tuổi và giấy tờ tại k-eta.go.kr. Du khách thuộc quốc tịch đủ điều kiện K-ETA, từ 17 tuổi trở xuống hoặc từ 65 tuổi trở lên, được miễn K-ETA bắt buộc. Điều này không tự động miễn e-Arrival Card.",
+      "notes": "K-ETA có phí KRW 10,000 cộng phí thanh toán trực tuyến và không được hoàn lại. Giấy phép hiện tại có hiệu lực 3 năm hoặc đến ngày hộ chiếu hết hạn, tùy ngày nào đến trước; đây không phải thời gian được lưu trú mỗi lần. Nộp sớm để được chấp thuận trước khi lên máy bay. Xét duyệt K-ETA có thể kéo dài hơn 72 giờ; không bảo đảm thời gian phê duyệt hay quyền nhập cảnh."
     }
   },
   "consent": {

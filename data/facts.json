@@ -1,6 +1,6 @@
 {
   "_README": "Facts SSOT. Follows HARNESS.md. Only status:VERIFIED facts render. All numbers/contacts/rules must be grounded here. No invented estimates. VOLATILE facts must show source + verified date + confirm link. claim/notes are the ENGLISH (base-language) display text; translations for other locales live in messages/<locale>.json under `facts`.",
-  "_updated": "2026-10-05",
+  "_updated": "2026-10-09",
   "facts": [
     {
       "id": "klook-busan-fireworks-ticket",
@@ -159,46 +159,46 @@
       },
       "source": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
       "source_name": "Korea Immigration Service — e-Arrival Card",
-      "verified": "2026-09-23",
-      "recheck_after": "2026-10-23",
+      "verified": "2026-10-09",
+      "recheck_after": "2026-11-09",
       "status": "VERIFIED",
-      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
+      "notes": "If required, submit free at e-arrivalcard.go.kr from 3 days before arrival, based on Korean Standard Time. It expires 72 hours after submission or once immigration is completed. Keeping the emailed issuance number is helpful; carrying a printed confirmation is not required. Guide: https://www.e-arrivalcard.go.kr/portal/guide/eacGuide.do"
     },
     {
       "id": "visa-malaysia-free",
       "tier": "VOLATILE",
-      "claim": "Malaysian passport holders enter Korea visa-free for up to 90 days for tourism, but must apply for K-ETA — Malaysia is not on the temporary K-ETA exemption list.",
+      "claim": "Malaysia ordinary-passport holders may enter Korea visa-free for short tourism (up to 3 months). K-ETA approval is required before boarding unless exempt; valid visas and residence cards follow their own entry rules.",
       "value": {
         "visa": "not required (short-term tourism)",
-        "stay": "up to 90 days",
-        "keta": "required",
+        "stay": "up to 3 months",
+        "keta": "required unless exempt",
         "keta_fee": "₩10,000",
-        "keta_valid": "3 years"
+        "keta_valid": "3 years or passport expiry, whichever first"
       },
-      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140769",
-      "source_name": "VisitKorea (KTO) — Visa & Travel Requirements; K-ETA per k-eta.go.kr",
-      "verified": "2026-08-31",
-      "recheck_after": "2026-11-01",
+      "source": "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
+      "source_name": "Korea Immigration Service · K-ETA eligibility",
+      "verified": "2026-10-09",
+      "recheck_after": "2026-11-09",
       "status": "VERIFIED",
-      "notes": "Visa-free 90 days under the Korea–Malaysia visa-waiver agreement. Malaysia is absent from the 22-region K-ETA temporary exemption list, so travelers must apply for K-ETA at k-eta.go.kr (valid K-ETA holders are then exempt from the e-Arrival Card). Confirm the current requirement at k-eta.go.kr before booking."
+      "notes": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card. K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay. Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed. Application rules: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN"
     },
     {
       "id": "visa-thailand-free",
       "tier": "VOLATILE",
-      "claim": "Thai passport holders enter Korea visa-free for up to 90 days for tourism, but must apply for K-ETA — Thailand is not on the temporary K-ETA exemption list.",
+      "claim": "Thailand ordinary-passport holders may enter Korea visa-free for short tourism (up to 90 days). K-ETA approval is required before boarding unless exempt; valid visas and residence cards follow their own entry rules.",
       "value": {
         "visa": "not required (short-term tourism)",
         "stay": "up to 90 days",
-        "keta": "required",
+        "keta": "required unless exempt",
         "keta_fee": "₩10,000",
-        "keta_valid": "3 years"
+        "keta_valid": "3 years or passport expiry, whichever first"
       },
-      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140769",
-      "source_name": "VisitKorea (KTO) — Visa & Travel Requirements; K-ETA per k-eta.go.kr",
-      "verified": "2026-08-31",
-      "recheck_after": "2026-11-01",
+      "source": "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
+      "source_name": "Korea Immigration Service · K-ETA eligibility",
+      "verified": "2026-10-09",
+      "recheck_after": "2026-11-09",
       "status": "VERIFIED",
-      "notes": "Visa-free 90 days under the Korea–Thailand visa-waiver agreement. Thailand is absent from the 22-region K-ETA temporary exemption list, so travelers must apply for K-ETA at k-eta.go.kr (valid K-ETA holders are then exempt from the e-Arrival Card). K-ETA approval is not guaranteed and immigration makes the final decision — apply early and keep your trip genuinely for tourism. Confirm at k-eta.go.kr before booking."
+      "notes": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card. K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay. Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed. Application rules: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN"
     },
     {
       "id": "visa-mongolia-c39",
@@ -312,20 +312,20 @@
     {
       "id": "visa-kazakhstan-free",
       "tier": "VOLATILE",
-      "claim": "Kazakhstani citizens enter Korea visa-free for up to 30 days for tourism (maximum 60 days within any 180-day period), but must apply for K-ETA — Kazakhstan is not on the temporary K-ETA exemption list.",
+      "claim": "Kazakhstan ordinary-passport holders may enter Korea visa-free for short tourism (up to 30 days; max 60 within 180 days). K-ETA approval is required before boarding unless exempt; valid visas and residence cards follow their own entry rules.",
       "value": {
         "visa": "not required (short-term tourism)",
-        "stay": "up to 30 days (max 60 within any 180-day period)",
-        "keta": "required",
+        "stay": "up to 30 days; max 60 within 180 days",
+        "keta": "required unless exempt",
         "keta_fee": "₩10,000",
-        "keta_valid": "3 years"
+        "keta_valid": "3 years or passport expiry, whichever first"
       },
-      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140769",
-      "source_name": "VisitKorea (KTO) — Visa & Travel Requirements; K-ETA per k-eta.go.kr",
-      "verified": "2026-08-31",
-      "recheck_after": "2026-11-01",
+      "source": "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
+      "source_name": "Korea Immigration Service · K-ETA eligibility",
+      "verified": "2026-10-09",
+      "recheck_after": "2026-11-09",
       "status": "VERIFIED",
-      "notes": "Visa-free 30 days under the Korea–Kazakhstan visa-waiver agreement, capped at 60 days within any 180-day period (unlike the 90-day waivers). Kazakhstan is absent from the 22-region K-ETA temporary exemption list, so travelers must apply for K-ETA at k-eta.go.kr (valid K-ETA holders are then exempt from the e-Arrival Card). Confirm the current rules at k-eta.go.kr before booking."
+      "notes": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card. K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay. Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed. Application rules: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN"
     },
     {
       "id": "emergency-police",

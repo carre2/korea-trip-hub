@@ -1,7 +1,7 @@
 {
   "site": "ktriphub.com",
   "topic": "Korea visa & K-ETA — machine-readable Q&A",
-  "updated": "2026-10-05",
+  "updated": "2026-10-09",
   "note": "Per-locale Q&A datasets built from ktriphub.com's visa & K-ETA guides. Each locale file has keta_facts + a faq array of {topic,q,a,source}. Content is fact-checked in the source; confirm current rules at the official sources.",
   "disclaimer": "Rules change and immigration makes the final decision on arrival — always confirm at the official sites before you travel.",
   "keta_facts": {
@@ -49,7 +49,7 @@
       },
       "claim": "The e-Arrival Card is conditional. Valid K-ETA holders entering under K-ETA and valid Korean residence-card holders are exempt. A traveler entering with a visa may need the declaration even when also holding K-ETA. Other exceptions exist: use the official navigator for your documents and journey. This is an immigration declaration, separate from customs.",
       "source": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
-      "verified": "2026-09-23"
+      "verified": "2026-10-09"
     },
     "keta-age-exemption": {
       "value": {

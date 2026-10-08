@@ -20,6 +20,27 @@ test('K-ETA-required nationality FAQ answers include the age exemption qualifica
   for(const l of locales)assert.ok((l==='en'?b:ov[l]).faq.items[index].a.includes(entry[l].age),`${l}/${country}: omitted age exception`);
  }
 });
+
+test('K-ETA exceptions are consistent from verdict to document checklist in every language',()=>{
+ const facts=read('data/facts.json').facts;
+ for(const country of ['thailand','malaysia','kazakhstan']){
+  const base=read(`data/visa/${country}.json`),ov=read(`data/visa/${country}.i18n.json`);
+  const fact=facts.find(x=>x.id===base.factId);
+  assert.equal(fact.value.keta,'required unless exempt');
+  assert.ok(fact.value.keta_valid.includes('passport expiry'));
+  for(const l of locales){
+   const g=l==='en'?base:ov[l];
+   for(const text of [g.verdict.sub,g.tldr[1],g.highlights[1].body,g.steps.items[1].detail,g.documents.rows[1].how])
+    assert.ok(text.includes(entry[l].age),`${l}/${country}: missing exemption in primary guidance`);
+   assert.equal(g.documents.rows[1].req,'conditional');
+   assert.ok(g.steps.items[1].detail.includes(entry[l].processing));
+   assert.ok(g.documents.rows[2].how.includes(entry[l].arrival));
+   assert.ok(g.factValueLabels[fact.value.stay]);
+   if(country==='malaysia')assert.ok(!JSON.stringify(g).includes('90'),`${l}: obsolete Malaysia 90-day claim`);
+  }
+ }
+ assert.equal(facts.find(x=>x.id==='visa-malaysia-free').value.stay,'up to 3 months');
+});
 test('routing copy and Indonesia official policy retain distinctions in every locale',()=>{
  const base=read('data/visa/indonesia.json'),ov=read('data/visa/indonesia.i18n.json');
  for(const locale of locales){
@@ -29,6 +50,20 @@ test('routing copy and Indonesia official policy retain distinctions in every lo
   assert.equal(g.faq.items.find(x=>x.q==='K-ETA?').factId,'keta-visa-distinction');
   assert.equal(g.applicationOffice.factId,'kvac-jakarta-location');
   assert.ok(!body.includes('lmiconsultancy.com'));
+ }
+});
+
+test('temporary K-ETA waiver guides preserve conditional arrival declarations',()=>{
+ for(const country of ['japan','usa','uk','canada','australia','taiwan','hongkong','singapore']){
+  const b=read(`data/visa/${country}.json`),ov=read(`data/visa/${country}.i18n.json`);
+  for(const l of locales){
+   const g=l==='en'?b:ov[l];
+   assert.equal(g.documents.rows[1].req,'conditional',`${l}/${country}`);
+   assert.ok(g.steps.items[1].detail.includes(entry[l].arrival));
+   assert.ok(g.steps.items[0].detail.includes('2026-12-31'));
+   assert.ok(g.documents.rows[1].how.includes('72'));
+   assert.ok(g.documents.rows[1].how.includes('3'));
+  }
  }
 });
 if(process.argv.includes('--export'))test('all 264 exported country pages and 12 hubs show the correct scoped guidance',()=>{

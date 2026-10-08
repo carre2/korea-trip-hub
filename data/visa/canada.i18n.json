@@ -45,12 +45,12 @@
         {
           "n": 1,
           "title": "無査証であることを確認",
-          "detail": "カナダのパスポートは短期観光で韓国に無査証入国でき、K-ETAも2026年まで免除されています — 申請するものは何もありません。"
+          "detail": "今は観光ビザもK-ETAも不要 — カナダは2026年まで無査証かつK-ETA免除です。 K-ETAの一時免除は、指定された国・地域にのみ2026-12-31まで適用されます。ビザなしで入国できても、K-ETAが自動的に免除されるわけではありません。それ以降の渡航は公式のお知らせを再確認してください。"
         },
         {
           "n": 2,
-          "title": "e-Arrival Cardを申請",
-          "detail": "到着前72 hours以内に、e-arrivalcard.go.krで無料で記入し、QR／確認書を保存します。",
+          "title": "電子入国申告の対象を確認",
+          "detail": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。 申告対象の場合、韓国時間で入国3日前からe-arrivalcard.go.krで無料提出できます。提出72時間後または入国審査完了時に失効します。メールの発行番号を控えると便利ですが、確認書の印刷・持参は必須ではありません。",
           "link": "https://www.e-arrivalcard.go.kr",
           "linkLabel": "e-Arrival Card"
         },
@@ -62,7 +62,7 @@
         {
           "n": 4,
           "title": "入国審査で",
-          "detail": "パスポートとe-Arrivalの確認書を提示します。指紋と写真の採取がある場合があります。観光目的にとどめ、無査証入国での有給就労はできません。"
+          "detail": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。"
         }
       ]
     },
@@ -83,9 +83,9 @@
         },
         {
           "doc": "e-Arrival Cardの確認書",
-          "req": "required",
+          "req": "conditional",
           "where": "e-arrivalcard.go.kr",
-          "how": "無料。到着前72 hours以内に申請し、QRを保存します。",
+          "how": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。 申告対象の場合、韓国時間で入国3日前からe-arrivalcard.go.krで無料提出できます。提出72時間後または入国審査完了時に失効します。メールの発行番号を控えると便利ですが、確認書の印刷・持参は必須ではありません。",
           "link": "https://www.e-arrivalcard.go.kr"
         },
         {
@@ -123,13 +123,13 @@
         },
         {
           "icon": "📝",
-          "t": "e-Arrival Cardを飛ばす",
-          "d": "ほとんどの訪問者は申請が必要です（無料）。到着前72 hours以内に行いましょう。"
+          "t": "電子入国申告の対象を確認",
+          "d": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。"
         },
         {
           "icon": "⏰",
           "t": "e-Arrival Cardを早すぎるタイミングで申請する",
-          "d": "提出後72 hoursで失効します — 数週間前ではなく、搭乗直前に申請しましょう。"
+          "d": "申告対象の場合、韓国時間で入国3日前からe-arrivalcard.go.krで無料提出できます。提出72時間後または入国審査完了時に失効します。メールの発行番号を控えると便利ですが、確認書の印刷・持参は必須ではありません。"
         },
         {
           "icon": "🗓️",
@@ -180,7 +180,7 @@
         },
         {
           "q": "到着時、空港では何をしますか？",
-          "a": "着陸の少し前に無料の e-Arrival Card を記入し、その後、入国審査と税関を通過します。尋ねられた場合に備えて、宿泊先の住所と復路のチケットを用意しておきましょう。"
+          "a": "電子入国申告の要否は条件によります。有効なK-ETAで入国する方と、有効な韓国の在留カードを持つ方は免除されます。ビザで入国する場合は、K-ETAも持っていても申告が必要な場合があります。ほかにも例外があるため、書類と旅程を公式ナビゲーターで確認してください。入国申告は税関申告とは別です。 申告対象の場合、韓国時間で入国3日前からe-arrivalcard.go.krで無料提出できます。提出72時間後または入国審査完了時に失効します。メールの発行番号を控えると便利ですが、確認書の印刷・持参は必須ではありません。"
         }
       ]
     },
@@ -223,7 +223,8 @@
         "url": "https://overseas.mofa.go.kr/ca-en/index.do",
         "what": "Official notices for your country"
       }
-    ]
+    ],
+    "updated": "2026-10-09"
   },
   "ko": {
     "kicker": "입국 가이드 · 캐나다 → 한국",
@@ -270,12 +271,12 @@
         {
           "n": 1,
           "title": "무비자임을 확인",
-          "detail": "캐나다 여권은 단기 관광으로 한국에 무비자 입국할 수 있으며, K-ETA도 2026년까지 면제됩니다 — 신청할 것이 없습니다."
+          "detail": "지금은 관광 비자도 K-ETA도 불필요 — 캐나다는 2026년까지 무비자이며 K-ETA 면제입니다. K-ETA 한시 면제는 지정된 국가·지역에만 2026-12-31까지 적용됩니다. 무비자 입국 대상이라고 자동으로 K-ETA가 면제되는 것은 아닙니다. 이후 여행은 공식 공지를 다시 확인하세요."
         },
         {
           "n": 2,
-          "title": "e-Arrival Card 신청",
-          "detail": "도착 전 72 hours 이내에 e-arrivalcard.go.kr에서 무료로 작성하고 QR／확인서를 저장하세요.",
+          "title": "전자입국신고 대상 확인",
+          "detail": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다. 신고 대상이면 한국시간 기준 입국 3일 전부터 e-arrivalcard.go.kr에서 무료로 제출하세요. 제출 72시간 후 또는 입국심사 완료 시 효력이 사라집니다. 이메일 발급번호를 보관하면 도움이 되며 확인서를 출력해서 지참할 의무는 없습니다.",
           "link": "https://www.e-arrivalcard.go.kr",
           "linkLabel": "e-Arrival Card"
         },
@@ -287,7 +288,7 @@
         {
           "n": 4,
           "title": "입국 심사에서",
-          "detail": "여권과 e-Arrival 확인서를 제시하세요. 지문과 사진을 채취할 수 있습니다. 관광 목적으로만 이용하고, 무비자 입국으로는 유급 근로를 할 수 없습니다."
+          "detail": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다."
         }
       ]
     },
@@ -308,9 +309,9 @@
         },
         {
           "doc": "e-Arrival Card 확인서",
-          "req": "required",
+          "req": "conditional",
           "where": "e-arrivalcard.go.kr",
-          "how": "무료. 도착 전 72 hours 이내에 신청하고 QR을 저장하세요.",
+          "how": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다. 신고 대상이면 한국시간 기준 입국 3일 전부터 e-arrivalcard.go.kr에서 무료로 제출하세요. 제출 72시간 후 또는 입국심사 완료 시 효력이 사라집니다. 이메일 발급번호를 보관하면 도움이 되며 확인서를 출력해서 지참할 의무는 없습니다.",
           "link": "https://www.e-arrivalcard.go.kr"
         },
         {
@@ -348,13 +349,13 @@
         },
         {
           "icon": "📝",
-          "t": "e-Arrival Card를 건너뛰기",
-          "d": "대부분의 방문객은 신청해야 합니다(무료). 도착 전 72 hours 이내에 하세요."
+          "t": "전자입국신고 대상 확인",
+          "d": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다."
         },
         {
           "icon": "⏰",
           "t": "e-Arrival Card를 너무 일찍 신청",
-          "d": "제출 후 72 hours가 지나면 만료됩니다 — 몇 주 전이 아니라 항공편 직전에 신청하세요."
+          "d": "신고 대상이면 한국시간 기준 입국 3일 전부터 e-arrivalcard.go.kr에서 무료로 제출하세요. 제출 72시간 후 또는 입국심사 완료 시 효력이 사라집니다. 이메일 발급번호를 보관하면 도움이 되며 확인서를 출력해서 지참할 의무는 없습니다."
         },
         {
           "icon": "🗓️",
@@ -405,7 +406,7 @@
         },
         {
           "q": "도착하면 공항에서 어떤 절차가 진행되나요?",
-          "a": "착륙 직전에 무료 e-Arrival Card를 작성한 뒤 입국심사와 세관을 통과하세요. 요청받을 경우를 대비해 숙소 주소와 귀국 항공권 정보를 준비해 두세요."
+          "a": "전자입국신고는 조건에 따라 필요합니다. 유효한 K-ETA로 입국하는 소지자와 유효한 대한민국 체류카드 소지자는 면제됩니다. 비자로 입국하면 K-ETA도 갖고 있어도 신고가 필요할 수 있습니다. 다른 예외도 있으므로 보유 서류와 여행 조건을 공식 내비게이터에서 확인하세요. 전자입국신고는 출입국 신고이며 세관신고와 별개입니다. 신고 대상이면 한국시간 기준 입국 3일 전부터 e-arrivalcard.go.kr에서 무료로 제출하세요. 제출 72시간 후 또는 입국심사 완료 시 효력이 사라집니다. 이메일 발급번호를 보관하면 도움이 되며 확인서를 출력해서 지참할 의무는 없습니다."
         }
       ]
     },
@@ -448,7 +449,8 @@
         "url": "https://overseas.mofa.go.kr/ca-en/index.do",
         "what": "Official notices for your country"
       }
-    ]
+    ],
+    "updated": "2026-10-09"
   },
   "zh": {
     "kicker": "入境指南 · 加拿大 → 韩国",
@@ -495,12 +497,12 @@
         {
           "n": 1,
           "title": "确认你免签",
-          "detail": "加拿大护照可免签短期旅游入境韩国，且 K-ETA 在 2026 年前获豁免 — 无需申请任何东西。"
+          "detail": "现在无需旅游签证也无需 K-ETA — 加拿大在 2026 年前免签且获 K-ETA 豁免。 K-ETA临时豁免仅适用于指定国家和地区，有效至2026-12-31。免签入境不等于自动免除K-ETA。之后的旅行请重新查看官方公告。"
         },
         {
           "n": 2,
-          "title": "填写 e-Arrival Card",
-          "detail": "在抵达前 72 hours 内，在 e-arrivalcard.go.kr 免费填写，并保存二维码／确认信息。",
+          "title": "核对电子入境申报要求",
+          "detail": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。 需要申报时，可按韩国时间从入境3天前开始在e-arrivalcard.go.kr免费提交。提交72小时后或完成入境审查时失效。保留邮件中的签发编号有帮助，但无需打印携带确认书。",
           "link": "https://www.e-arrivalcard.go.kr",
           "linkLabel": "e-Arrival Card"
         },
@@ -512,7 +514,7 @@
         {
           "n": 4,
           "title": "在入境检查时",
-          "detail": "出示护照和 e-Arrival 确认信息；可能会采集指纹和照片。仅限旅游 — 免签入境不得从事有偿工作。"
+          "detail": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。"
         }
       ]
     },
@@ -533,9 +535,9 @@
         },
         {
           "doc": "e-Arrival Card 确认信息",
-          "req": "required",
+          "req": "conditional",
           "where": "e-arrivalcard.go.kr",
-          "how": "免费；在抵达前 72 hours 内填写并保存二维码。",
+          "how": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。 需要申报时，可按韩国时间从入境3天前开始在e-arrivalcard.go.kr免费提交。提交72小时后或完成入境审查时失效。保留邮件中的签发编号有帮助，但无需打印携带确认书。",
           "link": "https://www.e-arrivalcard.go.kr"
         },
         {
@@ -573,13 +575,13 @@
         },
         {
           "icon": "📝",
-          "t": "跳过 e-Arrival Card",
-          "d": "大多数访客必须填写（免费）。请在抵达前 72 hours 内完成。"
+          "t": "核对电子入境申报要求",
+          "d": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。"
         },
         {
           "icon": "⏰",
           "t": "太早填写 e-Arrival Card",
-          "d": "提交后 72 hours 即失效 — 请临近航班时填写，而不是提前数周。"
+          "d": "需要申报时，可按韩国时间从入境3天前开始在e-arrivalcard.go.kr免费提交。提交72小时后或完成入境审查时失效。保留邮件中的签发编号有帮助，但无需打印携带确认书。"
         },
         {
           "icon": "🗓️",
@@ -630,7 +632,7 @@
         },
         {
           "q": "抵达机场时会经历哪些流程？",
-          "a": "落地前不久填写免费的 e-Arrival Card，随后通过移民与海关检查。请备好住宿地址和回程机票，以备查问。"
+          "a": "电子入境申报是否需要提交取决于具体条件。持有效K-ETA并以该资格入境者及持有效韩国居留卡者可豁免。以签证入境时，即使同时持有K-ETA，也可能需要申报。另有其他例外，请用官方导航工具核对证件及行程。入境申报与海关申报是不同手续。 需要申报时，可按韩国时间从入境3天前开始在e-arrivalcard.go.kr免费提交。提交72小时后或完成入境审查时失效。保留邮件中的签发编号有帮助，但无需打印携带确认书。"
         }
       ]
     },
@@ -673,7 +675,8 @@
         "url": "https://overseas.mofa.go.kr/ca-en/index.do",
         "what": "Official notices for your country"
       }
-    ]
+    ],
+    "updated": "2026-10-09"
   },
   "zh-TW": {
     "kicker": "入境指南 · 加拿大 → 韓國",
@@ -720,12 +723,12 @@
         {
           "n": 1,
           "title": "確認你免簽",
-          "detail": "加拿大護照可免簽短期旅遊入境韓國，且 K-ETA 在 2026 年前獲豁免 — 無需申請任何東西。"
+          "detail": "現在無需旅遊簽證也無需 K-ETA — 加拿大在 2026 年前免簽且獲 K-ETA 豁免。 K-ETA臨時豁免僅適用於指定國家和地區，有效至2026-12-31。免簽入境不等於自動免除K-ETA。之後的旅行請重新查看官方公告。"
         },
         {
           "n": 2,
-          "title": "填寫 e-Arrival Card",
-          "detail": "在抵達前 72 hours 內，於 e-arrivalcard.go.kr 免費填寫，並儲存 QR 碼／確認資訊。",
+          "title": "核對電子入境申報要求",
+          "detail": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。 需要申報時，可按韓國時間從入境3天前開始在e-arrivalcard.go.kr免費提交。提交72小時後或完成入境審查時失效。保留郵件中的簽發編號有幫助，但無需列印攜帶確認書。",
           "link": "https://www.e-arrivalcard.go.kr",
           "linkLabel": "e-Arrival Card"
         },
@@ -737,7 +740,7 @@
         {
           "n": 4,
           "title": "在入境檢查時",
-          "detail": "出示護照和 e-Arrival 確認資訊；可能會採集指紋和照片。僅限旅遊 — 免簽入境不得從事有償工作。"
+          "detail": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。"
         }
       ]
     },
@@ -758,9 +761,9 @@
         },
         {
           "doc": "e-Arrival Card 確認資訊",
-          "req": "required",
+          "req": "conditional",
           "where": "e-arrivalcard.go.kr",
-          "how": "免費；在抵達前 72 hours 內填寫並儲存 QR 碼。",
+          "how": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。 需要申報時，可按韓國時間從入境3天前開始在e-arrivalcard.go.kr免費提交。提交72小時後或完成入境審查時失效。保留郵件中的簽發編號有幫助，但無需列印攜帶確認書。",
           "link": "https://www.e-arrivalcard.go.kr"
         },
         {
@@ -798,13 +801,13 @@
         },
         {
           "icon": "📝",
-          "t": "跳過 e-Arrival Card",
-          "d": "大多數旅客必須填寫（免費）。請在抵達前 72 hours 內完成。"
+          "t": "核對電子入境申報要求",
+          "d": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。"
         },
         {
           "icon": "⏰",
           "t": "太早填寫 e-Arrival Card",
-          "d": "提交後 72 hours 即失效 — 請臨近航班時填寫，而不是提前數週。"
+          "d": "需要申報時，可按韓國時間從入境3天前開始在e-arrivalcard.go.kr免費提交。提交72小時後或完成入境審查時失效。保留郵件中的簽發編號有幫助，但無需列印攜帶確認書。"
         },
         {
           "icon": "🗓️",
@@ -855,7 +858,7 @@
         },
         {
           "q": "抵達機場時會經歷哪些流程？",
-          "a": "落地前不久填寫免費的 e-Arrival Card，隨後通過移民與海關查驗。請備好住宿地址和回程機票，以備查問。"
+          "a": "電子入境申報是否需要提交取決於具體條件。持有效K-ETA並以該資格入境者及持有效韓國居留卡者可豁免。以簽證入境時，即使同時持有K-ETA，也可能需要申報。另有其他例外，請用官方導覽工具核對證件及行程。入境申報與海關申報是不同手續。 需要申報時，可按韓國時間從入境3天前開始在e-arrivalcard.go.kr免費提交。提交72小時後或完成入境審查時失效。保留郵件中的簽發編號有幫助，但無需列印攜帶確認書。"
         }
       ]
     },
@@ -936,7 +939,8 @@
           "url": "https://english.visitkorea.or.kr"
         }
       ]
-    }
+    },
+    "updated": "2026-10-09"
   },
   "es": {
     "kicker": "Guía de entrada · Canadá → Corea",
@@ -983,12 +987,12 @@
         {
           "n": 1,
           "title": "Confirma que estás exento de visado",
-          "detail": "Los pasaportes de Canadá entran a Corea sin visado para turismo de corta duración, y la K-ETA está exenta hasta 2026: no hay nada que solicitar."
+          "detail": "Ahora mismo no necesitas visado de turista ni K-ETA: Canadá está exento de visado y de K-ETA hasta 2026. La exención temporal de K-ETA se aplica solo a los países y territorios designados hasta 2026-12-31. Entrar sin visado no implica estar exento de K-ETA. Consulta de nuevo el aviso oficial para viajes posteriores."
         },
         {
           "n": 2,
-          "title": "Presenta la e-Arrival Card",
-          "detail": "Dentro de las 72 hours previas a la llegada, complétala gratis en e-arrivalcard.go.kr y guarda el QR/confirmación.",
+          "title": "Comprueba si necesitas e-Arrival Card",
+          "detail": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera. Si debes declarar, presenta el formulario gratis en e-arrivalcard.go.kr desde 3 días antes de llegar, según la hora de Corea. Caduca 72 horas después de enviarlo o al terminar el control migratorio. Conviene guardar el número enviado por correo; no es obligatorio llevar una confirmación impresa.",
           "link": "https://www.e-arrivalcard.go.kr",
           "linkLabel": "e-Arrival Card"
         },
@@ -1000,7 +1004,7 @@
         {
           "n": 4,
           "title": "En el control de inmigración",
-          "detail": "Muestra tu pasaporte y la confirmación de la e-Arrival; pueden tomarte las huellas y una foto. Limítate al turismo: sin trabajo remunerado en la entrada sin visado."
+          "detail": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera."
         }
       ]
     },
@@ -1021,9 +1025,9 @@
         },
         {
           "doc": "Confirmación de la e-Arrival Card",
-          "req": "required",
+          "req": "conditional",
           "where": "e-arrivalcard.go.kr",
-          "how": "Gratis; preséntala dentro de las 72 hours previas a la llegada y guarda el QR.",
+          "how": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera. Si debes declarar, presenta el formulario gratis en e-arrivalcard.go.kr desde 3 días antes de llegar, según la hora de Corea. Caduca 72 horas después de enviarlo o al terminar el control migratorio. Conviene guardar el número enviado por correo; no es obligatorio llevar una confirmación impresa.",
           "link": "https://www.e-arrivalcard.go.kr"
         },
         {
@@ -1061,13 +1065,13 @@
         },
         {
           "icon": "📝",
-          "t": "Saltarte la e-Arrival Card",
-          "d": "La mayoría de los visitantes deben presentarla (gratis). Hazlo dentro de las 72 hours previas a la llegada."
+          "t": "Comprueba si necesitas e-Arrival Card",
+          "d": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera."
         },
         {
           "icon": "⏰",
           "t": "Presentar la e-Arrival Card demasiado pronto",
-          "d": "Caduca 72 hours después de enviarla; preséntala cerca de tu vuelo, no semanas antes."
+          "d": "Si debes declarar, presenta el formulario gratis en e-arrivalcard.go.kr desde 3 días antes de llegar, según la hora de Corea. Caduca 72 horas después de enviarlo o al terminar el control migratorio. Conviene guardar el número enviado por correo; no es obligatorio llevar una confirmación impresa."
         },
         {
           "icon": "🗓️",
@@ -1118,7 +1122,7 @@
         },
         {
           "q": "¿Qué ocurre en el aeropuerto cuando llego?",
-          "a": "Completa la e-Arrival Card gratuita poco antes de aterrizar y luego pasa el control de inmigración y aduanas. Ten preparada la dirección de tu alojamiento y el billete de vuelta por si te los piden."
+          "a": "La e-Arrival Card depende de las condiciones. Están exentos quienes entran con una K-ETA válida y quienes tienen una tarjeta de residencia coreana válida. Si entras con visado, puedes necesitar la declaración aunque también tengas K-ETA. Existen otras excepciones: utiliza el navegador oficial según tus documentos y viaje. Es una declaración migratoria, distinta de la aduanera. Si debes declarar, presenta el formulario gratis en e-arrivalcard.go.kr desde 3 días antes de llegar, según la hora de Corea. Caduca 72 horas después de enviarlo o al terminar el control migratorio. Conviene guardar el número enviado por correo; no es obligatorio llevar una confirmación impresa."
         }
       ]
     },
@@ -1161,7 +1165,8 @@
         "url": "https://overseas.mofa.go.kr/ca-en/index.do",
         "what": "Official notices for your country"
       }
-    ]
+    ],
+    "updated": "2026-10-09"
   },
   "vi": {
     "kicker": "Hướng dẫn nhập cảnh · Canada → Hàn Quốc",
@@ -1208,12 +1213,12 @@
         {
           "n": 1,
           "title": "Xác nhận bạn được miễn thị thực",
-          "detail": "Hộ chiếu Canada nhập cảnh Hàn Quốc miễn thị thực cho du lịch ngắn hạn, và K-ETA được miễn đến hết 2026 — không có gì phải xin cả."
+          "detail": "Hiện tại không cần thị thực du lịch cũng không cần K-ETA — Canada được miễn thị thực và miễn K-ETA đến hết 2026. Miễn K-ETA tạm thời chỉ áp dụng cho các quốc gia và vùng lãnh thổ được chỉ định đến 2026-12-31. Nhập cảnh miễn thị thực không đồng nghĩa với tự động được miễn K-ETA. Kiểm tra lại thông báo chính thức cho chuyến đi sau thời hạn này."
         },
         {
           "n": 2,
-          "title": "Nộp e-Arrival Card",
-          "detail": "Trong vòng 72 hours trước khi đến, điền miễn phí tại e-arrivalcard.go.kr và lưu mã QR/xác nhận.",
+          "title": "Kiểm tra yêu cầu e-Arrival Card",
+          "detail": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan. Nếu thuộc diện khai báo, nộp miễn phí tại e-arrivalcard.go.kr từ 3 ngày trước khi nhập cảnh theo giờ Hàn Quốc. Tờ khai hết hiệu lực sau 72 giờ từ lúc nộp hoặc khi hoàn tất kiểm tra nhập cảnh. Giữ mã cấp trong email sẽ hữu ích; không bắt buộc mang bản xác nhận in.",
           "link": "https://www.e-arrivalcard.go.kr",
           "linkLabel": "e-Arrival Card"
         },
@@ -1225,7 +1230,7 @@
         {
           "n": 4,
           "title": "Tại cửa nhập cảnh",
-          "detail": "Xuất trình hộ chiếu và xác nhận e-Arrival; có thể bạn sẽ được lấy vân tay và chụp ảnh. Chỉ nhằm mục đích du lịch — không làm việc có lương khi nhập cảnh miễn thị thực."
+          "detail": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan."
         }
       ]
     },
@@ -1246,9 +1251,9 @@
         },
         {
           "doc": "Xác nhận e-Arrival Card",
-          "req": "required",
+          "req": "conditional",
           "where": "e-arrivalcard.go.kr",
-          "how": "Miễn phí; nộp trong vòng 72 hours trước khi đến và lưu mã QR.",
+          "how": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan. Nếu thuộc diện khai báo, nộp miễn phí tại e-arrivalcard.go.kr từ 3 ngày trước khi nhập cảnh theo giờ Hàn Quốc. Tờ khai hết hiệu lực sau 72 giờ từ lúc nộp hoặc khi hoàn tất kiểm tra nhập cảnh. Giữ mã cấp trong email sẽ hữu ích; không bắt buộc mang bản xác nhận in.",
           "link": "https://www.e-arrivalcard.go.kr"
         },
         {
@@ -1286,13 +1291,13 @@
         },
         {
           "icon": "📝",
-          "t": "Bỏ qua e-Arrival Card",
-          "d": "Hầu hết du khách phải nộp nó (miễn phí). Hãy làm trong vòng 72 hours trước khi đến."
+          "t": "Kiểm tra yêu cầu e-Arrival Card",
+          "d": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan."
         },
         {
           "icon": "⏰",
           "t": "Nộp e-Arrival Card quá sớm",
-          "d": "Nó hết hạn 72 hours sau khi gửi — hãy nộp gần chuyến bay của bạn, đừng nộp trước nhiều tuần."
+          "d": "Nếu thuộc diện khai báo, nộp miễn phí tại e-arrivalcard.go.kr từ 3 ngày trước khi nhập cảnh theo giờ Hàn Quốc. Tờ khai hết hiệu lực sau 72 giờ từ lúc nộp hoặc khi hoàn tất kiểm tra nhập cảnh. Giữ mã cấp trong email sẽ hữu ích; không bắt buộc mang bản xác nhận in."
         },
         {
           "icon": "🗓️",
@@ -1343,7 +1348,7 @@
         },
         {
           "q": "Khi đến nơi, ở sân bay diễn ra những gì?",
-          "a": "Hãy điền e-Arrival Card miễn phí ngay trước khi máy bay hạ cánh, sau đó làm thủ tục xuất nhập cảnh và hải quan. Chuẩn bị sẵn địa chỉ chỗ ở và vé khứ hồi phòng khi được hỏi."
+          "a": "Yêu cầu e-Arrival Card tùy thuộc điều kiện. Người nhập cảnh bằng K-ETA còn hiệu lực và người có thẻ cư trú Hàn Quốc còn hiệu lực được miễn. Người nhập cảnh bằng thị thực có thể vẫn phải khai dù đồng thời có K-ETA. Còn các ngoại lệ khác: dùng công cụ chính thức để kiểm tra giấy tờ và hành trình. Đây là khai báo nhập cảnh, khác với khai báo hải quan. Nếu thuộc diện khai báo, nộp miễn phí tại e-arrivalcard.go.kr từ 3 ngày trước khi nhập cảnh theo giờ Hàn Quốc. Tờ khai hết hiệu lực sau 72 giờ từ lúc nộp hoặc khi hoàn tất kiểm tra nhập cảnh. Giữ mã cấp trong email sẽ hữu ích; không bắt buộc mang bản xác nhận in."
         }
       ]
     },
@@ -1386,7 +1391,8 @@
         "url": "https://overseas.mofa.go.kr/ca-en/index.do",
         "what": "Official notices for your country"
       }
-    ]
+    ],
+    "updated": "2026-10-09"
   },
   "th": {
     "kicker": "คู่มือการเข้าเมือง · แคนาดา → เกาหลี",
@@ -1433,12 +1439,12 @@
         {
           "n": 1,
           "title": "ยืนยันว่าคุณไม่ต้องมีวีซ่า",
-          "detail": "หนังสือเดินทางแคนาดาเข้าเกาหลีได้โดยไม่ต้องมีวีซ่าสำหรับการท่องเที่ยวระยะสั้น และ K-ETA ได้รับการยกเว้นจนถึงปี 2026 — ไม่มีอะไรต้องยื่นขอ"
+          "detail": "ตอนนี้ไม่ต้องมีวีซ่าท่องเที่ยวและไม่ต้องมี K-ETA — แคนาดาเข้าได้โดยไม่ต้องมีวีซ่าและได้รับการยกเว้น K-ETA จนถึงปี 2026 การยกเว้น K-ETA ชั่วคราวใช้กับประเทศและเขตที่กำหนดเท่านั้นจนถึง 2026-12-31 การเข้าประเทศแบบยกเว้นวีซ่าไม่ได้หมายถึงยกเว้น K-ETA โดยอัตโนมัติ หากเดินทางหลังจากนั้นให้ตรวจสอบประกาศทางการอีกครั้ง"
         },
         {
           "n": 2,
-          "title": "ยื่น e-Arrival Card",
-          "detail": "ภายใน 72 hours ก่อนเดินทางถึง กรอกฟรีที่ e-arrivalcard.go.kr และบันทึก QR/ใบยืนยัน",
+          "title": "ตรวจสอบข้อกำหนด e-Arrival Card",
+          "detail": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร หากต้องยื่น ให้ส่งฟรีที่ e-arrivalcard.go.kr ได้ตั้งแต่ 3 วันก่อนเข้าประเทศตามเวลาเกาหลี เอกสารหมดอายุหลังส่ง 72 ชั่วโมงหรือเมื่อผ่านตรวจคนเข้าเมืองแล้ว เก็บเลขที่ออกเอกสารในอีเมลไว้จะช่วยได้ แต่ไม่ต้องพิมพ์ใบยืนยันติดตัว",
           "link": "https://www.e-arrivalcard.go.kr",
           "linkLabel": "e-Arrival Card"
         },
@@ -1450,7 +1456,7 @@
         {
           "n": 4,
           "title": "ที่ด่านตรวจคนเข้าเมือง",
-          "detail": "แสดงหนังสือเดินทางและใบยืนยัน e-Arrival ของคุณ อาจมีการเก็บลายนิ้วมือและถ่ายรูป เน้นเพื่อการท่องเที่ยว — ห้ามทำงานที่ได้รับค่าจ้างเมื่อเข้าเมืองโดยไม่ต้องมีวีซ่า"
+          "detail": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร"
         }
       ]
     },
@@ -1471,9 +1477,9 @@
         },
         {
           "doc": "ใบยืนยัน e-Arrival Card",
-          "req": "required",
+          "req": "conditional",
           "where": "e-arrivalcard.go.kr",
-          "how": "ฟรี; ยื่นภายใน 72 hours ก่อนเดินทางถึงและบันทึก QR",
+          "how": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร หากต้องยื่น ให้ส่งฟรีที่ e-arrivalcard.go.kr ได้ตั้งแต่ 3 วันก่อนเข้าประเทศตามเวลาเกาหลี เอกสารหมดอายุหลังส่ง 72 ชั่วโมงหรือเมื่อผ่านตรวจคนเข้าเมืองแล้ว เก็บเลขที่ออกเอกสารในอีเมลไว้จะช่วยได้ แต่ไม่ต้องพิมพ์ใบยืนยันติดตัว",
           "link": "https://www.e-arrivalcard.go.kr"
         },
         {
@@ -1511,13 +1517,13 @@
         },
         {
           "icon": "📝",
-          "t": "ข้าม e-Arrival Card",
-          "d": "ผู้มาเยือนส่วนใหญ่ต้องยื่น (ฟรี) ทำภายใน 72 hours ก่อนเดินทางถึง"
+          "t": "ตรวจสอบข้อกำหนด e-Arrival Card",
+          "d": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร"
         },
         {
           "icon": "⏰",
           "t": "ยื่น e-Arrival Card เร็วเกินไป",
-          "d": "จะหมดอายุ 72 hours หลังจากส่ง — ยื่นใกล้กับเที่ยวบินของคุณ ไม่ใช่ล่วงหน้าหลายสัปดาห์"
+          "d": "หากต้องยื่น ให้ส่งฟรีที่ e-arrivalcard.go.kr ได้ตั้งแต่ 3 วันก่อนเข้าประเทศตามเวลาเกาหลี เอกสารหมดอายุหลังส่ง 72 ชั่วโมงหรือเมื่อผ่านตรวจคนเข้าเมืองแล้ว เก็บเลขที่ออกเอกสารในอีเมลไว้จะช่วยได้ แต่ไม่ต้องพิมพ์ใบยืนยันติดตัว"
         },
         {
           "icon": "🗓️",
@@ -1568,7 +1574,7 @@
         },
         {
           "q": "เมื่อเดินทางถึง ที่สนามบินต้องทำอะไรบ้าง?",
-          "a": "กรอก e-Arrival Card ที่ไม่มีค่าใช้จ่ายก่อนเครื่องลงจอดไม่นาน จากนั้นผ่านด่านตรวจคนเข้าเมืองและศุลกากร เตรียมที่อยู่ที่พักและตั๋วขากลับไว้ให้พร้อมเผื่อถูกสอบถาม"
+          "a": "การยื่น e-Arrival Card ขึ้นอยู่กับเงื่อนไข ผู้ที่เข้าเมืองโดยใช้ K-ETA ที่ยังใช้ได้และผู้ถือบัตรพำนักเกาหลีที่ยังใช้ได้ได้รับการยกเว้น หากเข้าเมืองด้วยวีซ่า อาจต้องยื่นแม้มี K-ETA ด้วย ยังมีข้อยกเว้นอื่น จึงควรตรวจสอบเอกสารและเส้นทางด้วยเครื่องมือทางการ นี่คือการแจ้งเข้าเมืองซึ่งแยกจากการสำแดงศุลกากร หากต้องยื่น ให้ส่งฟรีที่ e-arrivalcard.go.kr ได้ตั้งแต่ 3 วันก่อนเข้าประเทศตามเวลาเกาหลี เอกสารหมดอายุหลังส่ง 72 ชั่วโมงหรือเมื่อผ่านตรวจคนเข้าเมืองแล้ว เก็บเลขที่ออกเอกสารในอีเมลไว้จะช่วยได้ แต่ไม่ต้องพิมพ์ใบยืนยันติดตัว"
         }
       ]
     },
@@ -1611,7 +1617,8 @@
         "url": "https://overseas.mofa.go.kr/ca-en/index.do",
         "what": "Official notices for your country"
       }
-    ]
+    ],
+    "updated": "2026-10-09"
   },
   "id": {
     "kicker": "Panduan masuk · Kanada → Korea",
@@ -1658,12 +1665,12 @@
         {
           "n": 1,
           "title": "Pastikan Anda bebas visa",
-          "detail": "Paspor Kanada masuk Korea bebas visa untuk wisata jangka pendek, dan K-ETA dibebaskan hingga 2026 — tidak ada yang perlu diajukan."
+          "detail": "Saat ini tidak perlu visa turis maupun K-ETA — Kanada bebas visa dan bebas K-ETA hingga 2026. Pembebasan sementara K-ETA hanya berlaku bagi negara dan wilayah yang ditetapkan hingga 2026-12-31. Bebas visa tidak otomatis berarti bebas K-ETA. Periksa kembali pengumuman resmi untuk perjalanan setelah tanggal tersebut."
         },
         {
           "n": 2,
-          "title": "Ajukan e-Arrival Card",
-          "detail": "Dalam 72 hours sebelum kedatangan, isi gratis di e-arrivalcard.go.kr dan simpan QR/konfirmasinya.",
+          "title": "Periksa kewajiban e-Arrival Card",
+          "detail": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai. Jika wajib melapor, kirim gratis di e-arrivalcard.go.kr mulai 3 hari sebelum kedatangan menurut waktu Korea. Berlaku sampai 72 jam setelah dikirim atau hingga pemeriksaan imigrasi selesai. Menyimpan nomor penerbitan dalam email membantu; tidak wajib membawa konfirmasi cetak.",
           "link": "https://www.e-arrivalcard.go.kr",
           "linkLabel": "e-Arrival Card"
         },
@@ -1675,7 +1682,7 @@
         {
           "n": 4,
           "title": "Di imigrasi",
-          "detail": "Tunjukkan paspor dan konfirmasi e-Arrival Anda; sidik jari dan foto mungkin diambil. Tetap untuk wisata — tidak ada pekerjaan berbayar pada masuk bebas visa."
+          "detail": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai."
         }
       ]
     },
@@ -1696,9 +1703,9 @@
         },
         {
           "doc": "Konfirmasi e-Arrival Card",
-          "req": "required",
+          "req": "conditional",
           "where": "e-arrivalcard.go.kr",
-          "how": "Gratis; ajukan dalam 72 hours sebelum kedatangan dan simpan QR-nya.",
+          "how": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai. Jika wajib melapor, kirim gratis di e-arrivalcard.go.kr mulai 3 hari sebelum kedatangan menurut waktu Korea. Berlaku sampai 72 jam setelah dikirim atau hingga pemeriksaan imigrasi selesai. Menyimpan nomor penerbitan dalam email membantu; tidak wajib membawa konfirmasi cetak.",
           "link": "https://www.e-arrivalcard.go.kr"
         },
         {
@@ -1736,13 +1743,13 @@
         },
         {
           "icon": "📝",
-          "t": "Melewatkan e-Arrival Card",
-          "d": "Sebagian besar pengunjung harus mengajukannya (gratis). Lakukan dalam 72 hours sebelum kedatangan."
+          "t": "Periksa kewajiban e-Arrival Card",
+          "d": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai."
         },
         {
           "icon": "⏰",
           "t": "Mengajukan e-Arrival Card terlalu awal",
-          "d": "Kedaluwarsa 72 hours setelah pengajuan — ajukan mendekati penerbangan Anda, bukan berminggu-minggu sebelumnya."
+          "d": "Jika wajib melapor, kirim gratis di e-arrivalcard.go.kr mulai 3 hari sebelum kedatangan menurut waktu Korea. Berlaku sampai 72 jam setelah dikirim atau hingga pemeriksaan imigrasi selesai. Menyimpan nomor penerbitan dalam email membantu; tidak wajib membawa konfirmasi cetak."
         },
         {
           "icon": "🗓️",
@@ -1793,7 +1800,7 @@
         },
         {
           "q": "Apa yang terjadi di bandara saat saya tiba?",
-          "a": "Isi e-Arrival Card gratis sesaat sebelum mendarat, lalu lewati pemeriksaan imigrasi dan bea cukai. Siapkan alamat akomodasi dan tiket pulang Anda jika sewaktu-waktu ditanya."
+          "a": "Kewajiban e-Arrival Card bergantung pada kondisi. Pemegang K-ETA berlaku yang masuk menggunakan K-ETA dan pemegang kartu izin tinggal Korea yang berlaku dibebaskan. Jika masuk dengan visa, Anda mungkin tetap harus mengisi deklarasi meski juga memiliki K-ETA. Ada pengecualian lain: gunakan navigator resmi sesuai dokumen dan perjalanan. Deklarasi imigrasi ini terpisah dari deklarasi bea cukai. Jika wajib melapor, kirim gratis di e-arrivalcard.go.kr mulai 3 hari sebelum kedatangan menurut waktu Korea. Berlaku sampai 72 jam setelah dikirim atau hingga pemeriksaan imigrasi selesai. Menyimpan nomor penerbitan dalam email membantu; tidak wajib membawa konfirmasi cetak."
         }
       ]
     },
@@ -1836,7 +1843,8 @@
         "url": "https://overseas.mofa.go.kr/ca-en/index.do",
         "what": "Official notices for your country"
       }
-    ]
+    ],
+    "updated": "2026-10-09"
   },
   "ms": {
     "kicker": "Panduan kemasukan · Kanada → Korea",
@@ -1883,12 +1891,12 @@
         {
           "n": 1,
           "title": "Sahkan anda bebas visa",
-          "detail": "Pasport Kanada masuk ke Korea bebas visa untuk pelancongan jangka pendek, dan K-ETA dikecualikan hingga 2026 — tiada apa-apa untuk dimohon."
+          "detail": "Buat masa ini tiada visa pelancong dan tiada K-ETA diperlukan — Kanada bebas visa dan dikecualikan K-ETA hingga 2026. Pengecualian sementara K-ETA hanya terpakai kepada negara dan wilayah yang ditetapkan hingga 2026-12-31. Kemasukan tanpa visa tidak bermakna K-ETA dikecualikan secara automatik. Semak semula notis rasmi untuk perjalanan selepas tarikh itu."
         },
         {
           "n": 2,
-          "title": "Isi e-Arrival Card",
-          "detail": "Dalam masa 72 hours sebelum ketibaan, lengkapkan secara percuma di e-arrivalcard.go.kr dan simpan QR/pengesahan.",
+          "title": "Semak keperluan e-Arrival Card",
+          "detail": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam. Jika perlu mengisytiharkan, hantar percuma di e-arrivalcard.go.kr mulai 3 hari sebelum ketibaan mengikut waktu Korea. Ia luput 72 jam selepas dihantar atau apabila pemeriksaan imigresen selesai. Menyimpan nombor pengeluaran dalam e-mel membantu; pengesahan bercetak tidak wajib dibawa.",
           "link": "https://www.e-arrivalcard.go.kr",
           "linkLabel": "e-Arrival Card"
         },
@@ -1900,7 +1908,7 @@
         {
           "n": 4,
           "title": "Di imigresen",
-          "detail": "Tunjukkan pasport dan pengesahan e-Arrival anda; cap jari dan gambar mungkin diambil. Kekal untuk pelancongan — tiada kerja bergaji pada kemasukan bebas visa."
+          "detail": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam."
         }
       ]
     },
@@ -1921,9 +1929,9 @@
         },
         {
           "doc": "Pengesahan e-Arrival Card",
-          "req": "required",
+          "req": "conditional",
           "where": "e-arrivalcard.go.kr",
-          "how": "Percuma; isi dalam masa 72 hours sebelum ketibaan dan simpan QR.",
+          "how": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam. Jika perlu mengisytiharkan, hantar percuma di e-arrivalcard.go.kr mulai 3 hari sebelum ketibaan mengikut waktu Korea. Ia luput 72 jam selepas dihantar atau apabila pemeriksaan imigresen selesai. Menyimpan nombor pengeluaran dalam e-mel membantu; pengesahan bercetak tidak wajib dibawa.",
           "link": "https://www.e-arrivalcard.go.kr"
         },
         {
@@ -1961,13 +1969,13 @@
         },
         {
           "icon": "📝",
-          "t": "Melangkau e-Arrival Card",
-          "d": "Kebanyakan pengunjung mesti mengisinya (percuma). Lakukan dalam masa 72 hours sebelum ketibaan."
+          "t": "Semak keperluan e-Arrival Card",
+          "d": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam."
         },
         {
           "icon": "⏰",
           "t": "Mengisi e-Arrival Card terlalu awal",
-          "d": "Ia tamat tempoh 72 hours selepas dihantar — isi hampir dengan penerbangan anda, bukan berminggu-minggu lebih awal."
+          "d": "Jika perlu mengisytiharkan, hantar percuma di e-arrivalcard.go.kr mulai 3 hari sebelum ketibaan mengikut waktu Korea. Ia luput 72 jam selepas dihantar atau apabila pemeriksaan imigresen selesai. Menyimpan nombor pengeluaran dalam e-mel membantu; pengesahan bercetak tidak wajib dibawa."
         },
         {
           "icon": "🗓️",
@@ -2018,7 +2026,7 @@
         },
         {
           "q": "Apa yang berlaku di lapangan terbang apabila saya tiba?",
-          "a": "Lengkapkan e-Arrival Card percuma sebentar sebelum mendarat, kemudian lalui imigresen dan kastam. Sediakan alamat penginapan dan tiket pulang anda sekiranya ditanya."
+          "a": "Keperluan e-Arrival Card bergantung pada keadaan. Pemegang K-ETA sah yang masuk menggunakan K-ETA dan pemegang kad pemastautin Korea yang sah dikecualikan. Jika masuk dengan visa, pengisytiharan mungkin masih diperlukan walaupun turut memiliki K-ETA. Ada pengecualian lain: gunakan panduan rasmi mengikut dokumen dan perjalanan anda. Ini pengisytiharan imigresen, berasingan daripada kastam. Jika perlu mengisytiharkan, hantar percuma di e-arrivalcard.go.kr mulai 3 hari sebelum ketibaan mengikut waktu Korea. Ia luput 72 jam selepas dihantar atau apabila pemeriksaan imigresen selesai. Menyimpan nombor pengeluaran dalam e-mel membantu; pengesahan bercetak tidak wajib dibawa."
         }
       ]
     },
@@ -2061,7 +2069,8 @@
         "url": "https://overseas.mofa.go.kr/ca-en/index.do",
         "what": "Official notices for your country"
       }
-    ]
+    ],
+    "updated": "2026-10-09"
   },
   "ru": {
     "kicker": "Гид по въезду · Канада → Корея",
@@ -2108,12 +2117,12 @@
         {
           "n": 1,
           "title": "Убедитесь, что вам не нужна виза",
-          "detail": "Паспорта Канады дают безвизовый въезд в Корею для короткого туризма, а K-ETA не требуется до 2026 года — оформлять нечего."
+          "detail": "Сейчас не нужны ни туристическая виза, ни K-ETA — Канада имеет безвизовый въезд и освобождена от K-ETA до 2026 года. Временное освобождение от K-ETA действует только для указанных стран и территорий до 2026-12-31. Безвизовый въезд не означает автоматического освобождения от K-ETA. Для более поздних поездок снова проверьте официальное уведомление."
         },
         {
           "n": 2,
-          "title": "Заполните e-Arrival Card",
-          "detail": "В течение 72 часов до прибытия заполните её бесплатно на e-arrivalcard.go.kr и сохраните QR-код/подтверждение.",
+          "title": "Проверить необходимость e-Arrival Card",
+          "detail": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной. Если декларация требуется, подайте её бесплатно на e-arrivalcard.go.kr начиная за 3 дня до прибытия по корейскому времени. Она утрачивает силу через 72 часа после подачи или после завершения пограничного контроля. Полезно сохранить номер из письма; распечатку подтверждения носить не обязательно.",
           "link": "https://www.e-arrivalcard.go.kr",
           "linkLabel": "e-Arrival Card"
         },
@@ -2125,7 +2134,7 @@
         {
           "n": 4,
           "title": "На паспортном контроле",
-          "detail": "Покажите паспорт и подтверждение e-Arrival; могут снять отпечатки пальцев и сделать фото. Только туризм — при безвизовом въезде оплачиваемая работа запрещена."
+          "detail": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной."
         }
       ]
     },
@@ -2146,9 +2155,9 @@
         },
         {
           "doc": "Подтверждение e-Arrival Card",
-          "req": "required",
+          "req": "conditional",
           "where": "e-arrivalcard.go.kr",
-          "how": "Бесплатно; заполните в течение 72 часов до прибытия и сохраните QR-код.",
+          "how": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной. Если декларация требуется, подайте её бесплатно на e-arrivalcard.go.kr начиная за 3 дня до прибытия по корейскому времени. Она утрачивает силу через 72 часа после подачи или после завершения пограничного контроля. Полезно сохранить номер из письма; распечатку подтверждения носить не обязательно.",
           "link": "https://www.e-arrivalcard.go.kr"
         },
         {
@@ -2186,13 +2195,13 @@
         },
         {
           "icon": "📝",
-          "t": "Пропуск e-Arrival Card",
-          "d": "Большинство посетителей обязаны её заполнить (бесплатно). Сделайте это в течение 72 часов до прибытия."
+          "t": "Проверить необходимость e-Arrival Card",
+          "d": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной."
         },
         {
           "icon": "⏰",
           "t": "Слишком раннее заполнение e-Arrival Card",
-          "d": "Она истекает через 72 часа после отправки — заполняйте ближе к рейсу, а не за недели."
+          "d": "Если декларация требуется, подайте её бесплатно на e-arrivalcard.go.kr начиная за 3 дня до прибытия по корейскому времени. Она утрачивает силу через 72 часа после подачи или после завершения пограничного контроля. Полезно сохранить номер из письма; распечатку подтверждения носить не обязательно."
         },
         {
           "icon": "🗓️",
@@ -2243,7 +2252,7 @@
         },
         {
           "q": "Что происходит в аэропорту по прибытии?",
-          "a": "Незадолго до посадки заполните бесплатную e-Arrival Card, затем пройдите паспортный и таможенный контроль. Держите наготове адрес проживания и обратный билет на случай, если их спросят."
+          "a": "Необходимость e-Arrival Card зависит от условий. Владельцы действующей K-ETA, въезжающие по ней, и действующей корейской карты резидента освобождены. При въезде по визе декларация может потребоваться даже при наличии K-ETA. Есть и другие исключения: проверьте документы и маршрут в официальном навигаторе. Это иммиграционная декларация, отдельная от таможенной. Если декларация требуется, подайте её бесплатно на e-arrivalcard.go.kr начиная за 3 дня до прибытия по корейскому времени. Она утрачивает силу через 72 часа после подачи или после завершения пограничного контроля. Полезно сохранить номер из письма; распечатку подтверждения носить не обязательно."
         }
       ]
     },
@@ -2286,7 +2295,8 @@
         "url": "https://overseas.mofa.go.kr/ca-en/index.do",
         "what": "Official notices for your country"
       }
-    ]
+    ],
+    "updated": "2026-10-09"
   },
   "fr": {
     "kicker": "Guide d'entrée · Canada → Corée",
@@ -2333,12 +2343,12 @@
         {
           "n": 1,
           "title": "Confirmez que vous êtes sans visa",
-          "detail": "Les passeports canadiens entrent en Corée sans visa pour un court séjour touristique, et la K-ETA est suspendue jusqu'en 2026 — il n'y a rien à demander."
+          "detail": "Aucun visa touristique ni K-ETA nécessaire pour l'instant — le Canada est sans visa et exempté de K-ETA jusqu'en 2026. L’exemption temporaire de K-ETA concerne uniquement les pays et territoires désignés jusqu’au 2026-12-31. Une entrée sans visa ne signifie pas une exemption automatique de K-ETA. Consultez à nouveau l’avis officiel pour un voyage ultérieur."
         },
         {
           "n": 2,
-          "title": "Remplissez la e-Arrival Card",
-          "detail": "Dans les 72 heures avant l'arrivée, remplissez-la gratuitement sur e-arrivalcard.go.kr et enregistrez le QR/la confirmation.",
+          "title": "Vérifier l’obligation d’e-Arrival Card",
+          "detail": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière. Si une déclaration est requise, déposez-la gratuitement sur e-arrivalcard.go.kr à partir de 3 jours avant l’arrivée, selon l’heure de Corée. Elle expire 72 heures après l’envoi ou à la fin du contrôle d’immigration. Conserver le numéro reçu par e-mail est utile ; une confirmation imprimée n’est pas obligatoire.",
           "link": "https://www.e-arrivalcard.go.kr",
           "linkLabel": "e-Arrival Card"
         },
@@ -2350,7 +2360,7 @@
         {
           "n": 4,
           "title": "Au contrôle de l'immigration",
-          "detail": "Présentez votre passeport et la confirmation de la e-Arrival ; vos empreintes et une photo peuvent être prises. Restez dans le cadre du tourisme — pas de travail rémunéré avec une entrée sans visa."
+          "detail": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière."
         }
       ]
     },
@@ -2371,9 +2381,9 @@
         },
         {
           "doc": "Confirmation de la e-Arrival Card",
-          "req": "required",
+          "req": "conditional",
           "where": "e-arrivalcard.go.kr",
-          "how": "Gratuit ; remplissez-la dans les 72 heures avant l'arrivée et enregistrez le QR.",
+          "how": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière. Si une déclaration est requise, déposez-la gratuitement sur e-arrivalcard.go.kr à partir de 3 jours avant l’arrivée, selon l’heure de Corée. Elle expire 72 heures après l’envoi ou à la fin du contrôle d’immigration. Conserver le numéro reçu par e-mail est utile ; une confirmation imprimée n’est pas obligatoire.",
           "link": "https://www.e-arrivalcard.go.kr"
         },
         {
@@ -2411,13 +2421,13 @@
         },
         {
           "icon": "📝",
-          "t": "Sauter la e-Arrival Card",
-          "d": "La plupart des visiteurs doivent la remplir (gratuit). Faites-le dans les 72 heures avant l'arrivée."
+          "t": "Vérifier l’obligation d’e-Arrival Card",
+          "d": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière."
         },
         {
           "icon": "⏰",
           "t": "Remplir la e-Arrival Card trop tôt",
-          "d": "Elle expire 72 heures après l'envoi — remplissez-la juste avant votre vol, pas des semaines à l'avance."
+          "d": "Si une déclaration est requise, déposez-la gratuitement sur e-arrivalcard.go.kr à partir de 3 jours avant l’arrivée, selon l’heure de Corée. Elle expire 72 heures après l’envoi ou à la fin du contrôle d’immigration. Conserver le numéro reçu par e-mail est utile ; une confirmation imprimée n’est pas obligatoire."
         },
         {
           "icon": "🗓️",
@@ -2468,7 +2478,7 @@
         },
         {
           "q": "Que se passe-t-il à l'aéroport à mon arrivée ?",
-          "a": "Remplissez la e-Arrival Card gratuite peu avant l'atterrissage, puis passez l'immigration et la douane. Ayez l'adresse de votre hébergement et votre billet de retour prêts au cas où on vous les demanderait."
+          "a": "L’e-Arrival Card dépend de votre situation. Les titulaires d’une K-ETA valide qui entrent avec celle-ci et les détenteurs d’une carte de résident coréenne valide sont exemptés. Une entrée avec visa peut nécessiter une déclaration même avec une K-ETA. D’autres exceptions existent : utilisez le navigateur officiel selon vos documents et votre voyage. Cette déclaration migratoire est distincte de la déclaration douanière. Si une déclaration est requise, déposez-la gratuitement sur e-arrivalcard.go.kr à partir de 3 jours avant l’arrivée, selon l’heure de Corée. Elle expire 72 heures après l’envoi ou à la fin du contrôle d’immigration. Conserver le numéro reçu par e-mail est utile ; une confirmation imprimée n’est pas obligatoire."
         }
       ]
     },
@@ -2511,6 +2521,7 @@
         "url": "https://overseas.mofa.go.kr/ca-en/index.do",
         "what": "Official notices for your country"
       }
-    ]
+    ],
+    "updated": "2026-10-09"
   }
 }
