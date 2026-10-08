@@ -6,7 +6,7 @@
     "h1": "フィリピン国民のための韓国ビザ",
     "metaTitle": "フィリピンから韓国のビザ：必要ですか？（2026年）— Korea Trip Hub",
     "metaDesc": "フィリピンのパスポート所持者が韓国本土を観光するにはC-3-9観光ビザが必要です。 フィリピンのKVACを通じて申請します。訪問前に最新のKVAC案内を確認してください。通常の申請は大使館で直接受け付けていません。",
-    "updated": "2026-10-02",
+    "updated": "2026-10-09",
     "ui": {
       "visa": "ビザの種類",
       "stay": "滞在期間",
@@ -76,7 +76,7 @@
         {
           "n": 4,
           "title": "パスポートを受け取る",
-          "detail": "KVACからSMS通知を受け取ってから訪問してください。パスポートを受け取り、ビザ発給内容を確認します。"
+          "detail": "KVACのSMSを受信した翌営業日に訪問してください。本人が受け取る場合は、有効な政府発行身分証明書とバーコード付き受付領収書を持参します。第三者の受取には追加の委任書類が必要です。KVACの案内を確認してください。"
         }
       ]
     },
@@ -156,6 +156,26 @@
         {
           "q": "どこで申請しますか？",
           "a": "フィリピンのKVACを通じて申請します。訪問前に最新のKVAC案内を確認してください。通常の申請は大使館で直接受け付けていません。 代理店を利用する場合は大使館の最新指定代理店リストから選び、受付方法を確認してください。"
+        },
+        {
+          "q": "KVACの別途サービス料金はいくらですか？",
+          "a": "2026-08-25からKVACサービス料金は申請者1人につきPHP 1,000です。現金払いで、大使館のビザ発給料金や任意の代行・配送料金とは別です。審査結果にかかわらず返金されません。",
+          "factId": "visa-philippines-kvac-fee"
+        },
+        {
+          "q": "パスポートはいつ受け取れますか？",
+          "a": "KVACのSMSを受信した翌営業日に訪問してください。本人が受け取る場合は、有効な政府発行身分証明書とバーコード付き受付領収書を持参します。第三者の受取には追加の委任書類が必要です。KVACの案内を確認してください。",
+          "factId": "visa-philippines-collection"
+        },
+        {
+          "q": "申請前に航空券とホテルを購入する必要がありますか？",
+          "a": "いいえ。KVACによると、予定のフライト日とホテル名で十分です。申請時に確定した航空券やホテル予約は不要です。",
+          "factId": "visa-philippines-practical"
+        },
+        {
+          "q": "銀行残高に固定の最低額はありますか？",
+          "a": "KVACは固定の最低残高を設けていません。予定滞在を賄える資金が必要です。申請区分に応じた財政証明書類の提出義務はなくなりません。",
+          "factId": "visa-philippines-practical"
         }
       ]
     },
@@ -211,7 +231,7 @@
     "h1": "필리핀 국민을 위한 한국 비자",
     "metaTitle": "필리핀에서 한국 비자: 필요할까요? (2026) — Korea Trip Hub",
     "metaDesc": "필리핀 여권 소지자가 한국 본토를 관광하려면 C-3-9 관광 비자가 필요합니다. 필리핀 KVAC를 통해 접수하세요. 방문 전 최신 KVAC 안내를 확인하세요. 일반 신청은 대사관에서 직접 접수하지 않습니다.",
-    "updated": "2026-10-02",
+    "updated": "2026-10-09",
     "ui": {
       "visa": "비자 종류",
       "stay": "체류 기간",
@@ -281,7 +301,7 @@
         {
           "n": 4,
           "title": "여권 수령",
-          "detail": "KVAC 문자 안내를 받은 뒤 방문하세요. 여권을 수령하고 사증 발급 내역을 확인하세요."
+          "detail": "KVAC의 SMS를 받은 다음 영업일에 방문하세요. 본인이 수령할 때는 유효한 정부 발급 신분증과 바코드가 있는 접수 영수증을 지참하세요. 제3자가 수령하면 별도 위임 서류가 필요하므로 KVAC 안내를 확인하세요."
         }
       ]
     },
@@ -361,6 +381,26 @@
         {
           "q": "어디서 신청하나요?",
           "a": "필리핀 KVAC를 통해 접수하세요. 방문 전 최신 KVAC 안내를 확인하세요. 일반 신청은 대사관에서 직접 접수하지 않습니다. 대행기관 이용 시 대사관의 최신 지정기관 목록에서 선택하고 접수 방식을 확인하세요."
+        },
+        {
+          "q": "별도로 내는 KVAC 서비스 수수료는 얼마인가요?",
+          "a": "2026-08-25부터 KVAC 서비스 수수료는 신청자 1인당 PHP 1,000입니다. 현금으로 납부하며, 대사관 비자 발급 수수료와 선택하는 대행·배송 비용은 별도입니다. 심사 결과와 관계없이 수수료는 환불되지 않습니다.",
+          "factId": "visa-philippines-kvac-fee"
+        },
+        {
+          "q": "여권은 언제 수령하나요?",
+          "a": "KVAC의 SMS를 받은 다음 영업일에 방문하세요. 본인이 수령할 때는 유효한 정부 발급 신분증과 바코드가 있는 접수 영수증을 지참하세요. 제3자가 수령하면 별도 위임 서류가 필요하므로 KVAC 안내를 확인하세요.",
+          "factId": "visa-philippines-collection"
+        },
+        {
+          "q": "신청 전에 항공권과 호텔을 결제해야 하나요?",
+          "a": "아니요. KVAC는 예정 항공편 날짜와 호텔 이름이면 충분하며, 신청 시 확정 항공권과 호텔 예약은 필요하지 않다고 안내합니다.",
+          "factId": "visa-philippines-practical"
+        },
+        {
+          "q": "은행 잔액의 정해진 최저 금액이 있나요?",
+          "a": "KVAC는 고정된 최저 잔액을 정하지 않습니다. 예정 체류 비용을 충당할 자금은 있어야 합니다. 신청 유형별 재정 서류 제출 의무가 없어지는 것은 아닙니다.",
+          "factId": "visa-philippines-practical"
         }
       ]
     },
@@ -416,7 +456,7 @@
     "h1": "Visa de Corea para filipinos",
     "metaTitle": "Visado de Filipinas a Corea: ¿necesitas uno? (2026) — Korea Trip Hub",
     "metaDesc": "Los titulares de pasaporte filipino necesitan un visado turístico C-3-9 para Corea continental. Presenta la solicitud a través de KVAC en Filipinas. Revisa sus instrucciones actuales antes de acudir; la Embajada no recibe solicitudes ordinarias directamente.",
-    "updated": "2026-10-02",
+    "updated": "2026-10-09",
     "ui": {
       "visa": "Tipo de visa",
       "stay": "Duración de la estancia",
@@ -486,7 +526,7 @@
         {
           "n": 4,
           "title": "Recoge tu pasaporte",
-          "detail": "Acude a KVAC tras recibir su aviso por SMS. Recoge el pasaporte y comprueba los datos de concesión del visado."
+          "detail": "Acuda a KVAC el siguiente día laborable tras recibir su SMS. Para recogerlo personalmente, lleve una identificación oficial vigente y el recibo de solicitud con código de barras. La recogida por terceros requiere documentos adicionales de autorización; consulte las instrucciones de KVAC."
         }
       ]
     },
@@ -566,6 +606,26 @@
         {
           "q": "¿Dónde solicito?",
           "a": "Presenta la solicitud a través de KVAC en Filipinas. Revisa sus instrucciones actuales antes de acudir; la Embajada no recibe solicitudes ordinarias directamente. Si recurres a una agencia, elige de la lista vigente de agencias designadas por la Embajada y confirma cómo presentar la solicitud."
+        },
+        {
+          "q": "¿Cuánto cuesta el servicio separado de KVAC?",
+          "a": "Desde 2026-08-25, KVAC cobra PHP 1,000 por solicitante, en efectivo. Es un cargo separado de la tasa de expedición de visa de la Embajada y de los servicios opcionales de agencia o entrega. Las tasas no se reembolsan, sea cual sea la decisión.",
+          "factId": "visa-philippines-kvac-fee"
+        },
+        {
+          "q": "¿Cuándo puedo recoger mi pasaporte?",
+          "a": "Acuda a KVAC el siguiente día laborable tras recibir su SMS. Para recogerlo personalmente, lleve una identificación oficial vigente y el recibo de solicitud con código de barras. La recogida por terceros requiere documentos adicionales de autorización; consulte las instrucciones de KVAC.",
+          "factId": "visa-philippines-collection"
+        },
+        {
+          "q": "¿Debo comprar vuelos y reservar hotel antes de solicitar?",
+          "a": "No. KVAC indica que basta con una fecha tentativa de vuelo y el nombre del hotel; no se exigen billetes ni reservas de hotel confirmados para solicitar.",
+          "factId": "visa-philippines-practical"
+        },
+        {
+          "q": "¿Hay un saldo bancario mínimo fijo?",
+          "a": "KVAC no establece un saldo mínimo fijo. Los fondos deben cubrir la estancia prevista. Esto no elimina los documentos financieros exigidos para su categoría de solicitud.",
+          "factId": "visa-philippines-practical"
         }
       ]
     },
@@ -621,7 +681,7 @@
     "h1": "วีซ่าเกาหลีสำหรับชาวฟิลิปปินส์",
     "metaTitle": "วีซ่าเข้าเกาหลีจากฟิลิปปินส์: ต้องใช้ไหม? (2026) — Korea Trip Hub",
     "metaDesc": "ผู้ถือหนังสือเดินทางฟิลิปปินส์ต้องมีวีซ่าท่องเที่ยว C-3-9 เพื่อเดินทางไปเกาหลีแผ่นดินใหญ่ ยื่นผ่าน KVAC ในฟิลิปปินส์ ตรวจสอบคำแนะนำล่าสุดของ KVAC ก่อนเดินทางไป สถานทูตไม่รับคำขอทั่วไปโดยตรง",
-    "updated": "2026-10-02",
+    "updated": "2026-10-09",
     "ui": {
       "visa": "ประเภทวีซ่า",
       "stay": "ระยะเวลาพำนัก",
@@ -691,7 +751,7 @@
         {
           "n": 4,
           "title": "รับหนังสือเดินทางของคุณ",
-          "detail": "ไป KVAC หลังได้รับแจ้งทาง SMS รับหนังสือเดินทางและตรวจสอบรายละเอียดการออกวีซ่า"
+          "detail": "ไปที่ KVAC ในวันทำการถัดจากวันที่ได้รับ SMS แจ้งเตือน หากรับด้วยตนเอง ให้นำบัตรประจำตัวที่รัฐบาลออกให้และยังใช้ได้ พร้อมใบรับคำร้องที่มีบาร์โค้ด การรับแทนโดยบุคคลที่สามต้องมีเอกสารมอบอำนาจเพิ่มเติม โปรดตรวจสอบคำแนะนำของ KVAC"
         }
       ]
     },
@@ -771,6 +831,26 @@
         {
           "q": "ฉันยื่นได้ที่ไหน?",
           "a": "ยื่นผ่าน KVAC ในฟิลิปปินส์ ตรวจสอบคำแนะนำล่าสุดของ KVAC ก่อนเดินทางไป สถานทูตไม่รับคำขอทั่วไปโดยตรง หากใช้ตัวแทน ให้เลือกจากรายชื่อตัวแทนที่สถานทูตแต่งตั้งล่าสุดและยืนยันวิธีส่งเอกสาร"
+        },
+        {
+          "q": "ค่าบริการ KVAC แยกต่างหากเท่าไร?",
+          "a": "ตั้งแต่ 2026-08-25 KVAC คิดค่าบริการ PHP 1,000 ต่อผู้สมัคร ชำระด้วยเงินสด โดยแยกจากค่าธรรมเนียมออกวีซ่าของสถานทูตและค่าตัวแทนหรือจัดส่งที่เลือกใช้ ค่าธรรมเนียมไม่คืนไม่ว่าผลพิจารณาจะเป็นอย่างไร",
+          "factId": "visa-philippines-kvac-fee"
+        },
+        {
+          "q": "รับหนังสือเดินทางได้เมื่อไร?",
+          "a": "ไปที่ KVAC ในวันทำการถัดจากวันที่ได้รับ SMS แจ้งเตือน หากรับด้วยตนเอง ให้นำบัตรประจำตัวที่รัฐบาลออกให้และยังใช้ได้ พร้อมใบรับคำร้องที่มีบาร์โค้ด การรับแทนโดยบุคคลที่สามต้องมีเอกสารมอบอำนาจเพิ่มเติม โปรดตรวจสอบคำแนะนำของ KVAC",
+          "factId": "visa-philippines-collection"
+        },
+        {
+          "q": "ต้องซื้อเที่ยวบินและจองโรงแรมก่อนยื่นคำร้องหรือไม่?",
+          "a": "ไม่ต้อง KVAC ระบุว่าวันเดินทางโดยเครื่องบินที่วางแผนไว้และชื่อโรงแรมเพียงพอ ไม่จำเป็นต้องมีตั๋วหรือการจองโรงแรมที่ยืนยันแล้วในการยื่นคำร้อง",
+          "factId": "visa-philippines-practical"
+        },
+        {
+          "q": "มีเงินคงเหลือในบัญชีขั้นต่ำตายตัวหรือไม่?",
+          "a": "KVAC ไม่กำหนดยอดเงินขั้นต่ำตายตัว แต่ต้องมีเงินเพียงพอสำหรับระยะเวลาพำนักที่วางแผนไว้ และยังต้องยื่นเอกสารทางการเงินตามประเภทคำร้อง",
+          "factId": "visa-philippines-practical"
         }
       ]
     },
@@ -826,7 +906,7 @@
     "h1": "Visa Korea untuk rakyat Filipina",
     "metaTitle": "Visa Filipina ke Korea: Adakah Anda Memerlukannya? (2026) — Korea Trip Hub",
     "metaDesc": "Pemegang pasport Filipina memerlukan visa pelancong C-3-9 untuk melawat tanah besar Korea. Hantar melalui KVAC di Filipina. Semak arahan KVAC terkini sebelum hadir; Kedutaan tidak menerima permohonan biasa secara langsung.",
-    "updated": "2026-10-02",
+    "updated": "2026-10-09",
     "ui": {
       "visa": "Jenis visa",
       "stay": "Tempoh tinggal",
@@ -896,7 +976,7 @@
         {
           "n": 4,
           "title": "Ambil pasport anda",
-          "detail": "Hadir ke KVAC selepas menerima notis SMS. Ambil pasport dan semak butiran pengeluaran visa."
+          "detail": "Kunjungi KVAC pada hari bekerja berikutnya selepas menerima pemberitahuan SMS. Untuk mengambil sendiri, bawa pengenalan kerajaan yang sah dan resit permohonan dengan kod bar. Wakil pihak ketiga memerlukan dokumen kuasa tambahan; semak arahan KVAC."
         }
       ]
     },
@@ -976,6 +1056,26 @@
         {
           "q": "Di mana saya memohon?",
           "a": "Hantar melalui KVAC di Filipina. Semak arahan KVAC terkini sebelum hadir; Kedutaan tidak menerima permohonan biasa secara langsung. Jika menggunakan agensi, pilih daripada senarai agensi dilantik Kedutaan terkini dan sahkan kaedah penghantaran."
+        },
+        {
+          "q": "Berapakah caj perkhidmatan KVAC yang berasingan?",
+          "a": "Mulai 2026-08-25, KVAC mengenakan PHP 1,000 bagi setiap pemohon, dibayar tunai. Caj ini berasingan daripada fi pengeluaran visa Kedutaan dan caj ejen atau penghantaran pilihan. Caj tidak dikembalikan tanpa mengira keputusan.",
+          "factId": "visa-philippines-kvac-fee"
+        },
+        {
+          "q": "Bilakah pasport boleh diambil?",
+          "a": "Kunjungi KVAC pada hari bekerja berikutnya selepas menerima pemberitahuan SMS. Untuk mengambil sendiri, bawa pengenalan kerajaan yang sah dan resit permohonan dengan kod bar. Wakil pihak ketiga memerlukan dokumen kuasa tambahan; semak arahan KVAC.",
+          "factId": "visa-philippines-collection"
+        },
+        {
+          "q": "Perlukah membeli tiket dan menempah hotel sebelum memohon?",
+          "a": "Tidak. Menurut KVAC, tarikh penerbangan sementara dan nama hotel sudah memadai; tiket dan tempahan hotel yang disahkan tidak diperlukan semasa permohonan.",
+          "factId": "visa-philippines-practical"
+        },
+        {
+          "q": "Adakah baki bank minimum yang tetap?",
+          "a": "KVAC tidak menetapkan baki minimum tetap. Dana mesti mencukupi untuk tempoh penginapan yang dirancang. Keperluan dokumen kewangan mengikut kategori permohonan tetap terpakai.",
+          "factId": "visa-philippines-practical"
         }
       ]
     },
@@ -1031,7 +1131,7 @@
     "h1": "菲律宾人去韩国要签证吗？需要但免费",
     "metaTitle": "菲律宾护照去韩国要签证吗？需要但免费（2026）— Korea Trip Hub",
     "metaDesc": "菲律宾护照持有人前往韩国本土旅游，须申请 C-3-9 旅游签证。 通过菲律宾 KVAC 递交申请。前往前请确认最新 KVAC 说明；普通申请不由大使馆直接受理。",
-    "updated": "2026-10-02",
+    "updated": "2026-10-09",
     "ui": {
       "visa": "签证类型",
       "stay": "停留时间",
@@ -1101,7 +1201,7 @@
         {
           "n": 4,
           "title": "领取你的护照",
-          "detail": "收到 KVAC 的短信通知后再前往。领取护照并确认签证签发资料。"
+          "detail": "收到KVAC短信通知后的下一个工作日前往领取。本人领取须携带有效的政府签发身份证件及带条形码的受理收据。第三方代领须另备授权文件，请查看KVAC要求。"
         }
       ]
     },
@@ -1181,6 +1281,26 @@
         {
           "q": "我在哪里申请？",
           "a": "通过菲律宾 KVAC 递交申请。前往前请确认最新 KVAC 说明；普通申请不由大使馆直接受理。 使用代办机构时，请从大使馆最新指定名单选择，并确认收件方式。"
+        },
+        {
+          "q": "另外收取的KVAC服务费是多少？",
+          "a": "自2026-08-25起，KVAC服务费为每位申请人PHP 1,000，须以现金支付。此费用与使馆签证签发费及可选代办、配送费分开收取。不论审批结果如何，费用均不退还。",
+          "factId": "visa-philippines-kvac-fee"
+        },
+        {
+          "q": "何时可以领取护照？",
+          "a": "收到KVAC短信通知后的下一个工作日前往领取。本人领取须携带有效的政府签发身份证件及带条形码的受理收据。第三方代领须另备授权文件，请查看KVAC要求。",
+          "factId": "visa-philippines-collection"
+        },
+        {
+          "q": "申请前必须购买机票并预订酒店吗？",
+          "a": "不必。KVAC表示，提供计划航班日期和酒店名称即可，申请时不要求已确认的机票及酒店预订。",
+          "factId": "visa-philippines-practical"
+        },
+        {
+          "q": "银行余额有固定最低金额吗？",
+          "a": "KVAC未规定固定最低余额，但资金须足以支付计划停留的费用。这不免除所属申请类别的财务证明文件要求。",
+          "factId": "visa-philippines-practical"
         }
       ]
     },
@@ -1236,7 +1356,7 @@
     "h1": "菲律賓人去韓國要簽證嗎？需要但免費",
     "metaTitle": "菲律賓護照申請韓國簽證：文件與流程（2026）— Korea Trip Hub",
     "metaDesc": "菲律賓護照持有人前往韓國本土觀光，須申請 C-3-9 觀光簽證。 透過菲律賓 KVAC 遞交申請。前往前請確認最新 KVAC 說明；一般申請不由大使館直接受理。",
-    "updated": "2026-10-02",
+    "updated": "2026-10-09",
     "ui": {
       "visa": "簽證類型",
       "stay": "停留時間",
@@ -1307,7 +1427,7 @@
         {
           "n": 4,
           "title": "領取你的護照",
-          "detail": "收到 KVAC 的簡訊通知後再前往。領取護照並確認簽證核發資料。"
+          "detail": "收到KVAC簡訊通知後的下一個工作日前往領取。本人領取須攜帶有效的政府核發身分證件及附條碼的受理收據。第三方代領須另備授權文件，請查看KVAC要求。"
         }
       ]
     },
@@ -1387,6 +1507,26 @@
         {
           "q": "我在哪裡申請？",
           "a": "透過菲律賓 KVAC 遞交申請。前往前請確認最新 KVAC 說明；一般申請不由大使館直接受理。 使用代辦機構時，請從大使館最新指定名單選擇，並確認收件方式。"
+        },
+        {
+          "q": "另外收取的KVAC服務費是多少？",
+          "a": "自2026-08-25起，KVAC服務費為每位申請人PHP 1,000，須以現金支付。此費用與使館簽證核發費及選用的代辦、配送費分開收取。不論審查結果如何，費用均不退還。",
+          "factId": "visa-philippines-kvac-fee"
+        },
+        {
+          "q": "何時可以領取護照？",
+          "a": "收到KVAC簡訊通知後的下一個工作日前往領取。本人領取須攜帶有效的政府核發身分證件及附條碼的受理收據。第三方代領須另備授權文件，請查看KVAC要求。",
+          "factId": "visa-philippines-collection"
+        },
+        {
+          "q": "申請前必須購買機票並預訂飯店嗎？",
+          "a": "不必。KVAC表示，提供預計航班日期和飯店名稱即可，申請時不要求已確認的機票及飯店預訂。",
+          "factId": "visa-philippines-practical"
+        },
+        {
+          "q": "銀行餘額有固定最低金額嗎？",
+          "a": "KVAC未規定固定最低餘額，但資金須足以支付預計停留的費用。這不免除所屬申請類別的財務證明文件要求。",
+          "factId": "visa-philippines-practical"
         }
       ]
     },
@@ -1442,7 +1582,7 @@
     "h1": "Visa Hàn Quốc cho người Philippines",
     "metaTitle": "Thị thực từ Philippines đến Hàn Quốc: Bạn có cần không? (2026) — Korea Trip Hub",
     "metaDesc": "Người mang hộ chiếu Philippines cần thị thực du lịch C-3-9 để đến phần đất liền Hàn Quốc. Nộp hồ sơ qua KVAC tại Philippines. Kiểm tra hướng dẫn KVAC mới nhất trước khi đến; Đại sứ quán không trực tiếp nhận hồ sơ thông thường.",
-    "updated": "2026-10-02",
+    "updated": "2026-10-09",
     "ui": {
       "visa": "Loại visa",
       "stay": "Thời gian lưu trú",
@@ -1512,7 +1652,7 @@
         {
           "n": 4,
           "title": "Nhận lại hộ chiếu của bạn",
-          "detail": "Đến KVAC sau khi nhận thông báo SMS. Nhận hộ chiếu và kiểm tra thông tin cấp thị thực."
+          "detail": "Đến KVAC vào ngày làm việc tiếp theo sau khi nhận SMS thông báo. Nếu tự nhận, mang giấy tờ tùy thân hợp lệ do chính phủ cấp và biên nhận hồ sơ có mã vạch. Người thứ ba nhận thay cần giấy tờ ủy quyền bổ sung; hãy xem hướng dẫn KVAC."
         }
       ]
     },
@@ -1592,6 +1732,26 @@
         {
           "q": "Tôi nộp đơn ở đâu?",
           "a": "Nộp hồ sơ qua KVAC tại Philippines. Kiểm tra hướng dẫn KVAC mới nhất trước khi đến; Đại sứ quán không trực tiếp nhận hồ sơ thông thường. Nếu dùng đại lý, chọn trong danh sách được Đại sứ quán chỉ định hiện hành và xác nhận cách nộp."
+        },
+        {
+          "q": "Phí dịch vụ KVAC riêng là bao nhiêu?",
+          "a": "Từ 2026-08-25, KVAC thu PHP 1,000 mỗi người nộp hồ sơ, thanh toán bằng tiền mặt. Khoản này tách biệt với phí cấp visa của Đại sứ quán và phí đại lý hoặc giao nhận tùy chọn. Phí không được hoàn lại bất kể kết quả xét duyệt.",
+          "factId": "visa-philippines-kvac-fee"
+        },
+        {
+          "q": "Khi nào tôi có thể nhận hộ chiếu?",
+          "a": "Đến KVAC vào ngày làm việc tiếp theo sau khi nhận SMS thông báo. Nếu tự nhận, mang giấy tờ tùy thân hợp lệ do chính phủ cấp và biên nhận hồ sơ có mã vạch. Người thứ ba nhận thay cần giấy tờ ủy quyền bổ sung; hãy xem hướng dẫn KVAC.",
+          "factId": "visa-philippines-collection"
+        },
+        {
+          "q": "Có cần mua vé máy bay và đặt khách sạn trước khi nộp hồ sơ không?",
+          "a": "Không. KVAC cho biết ngày bay dự kiến và tên khách sạn là đủ; không cần vé máy bay hoặc đặt phòng đã xác nhận khi nộp hồ sơ.",
+          "factId": "visa-philippines-practical"
+        },
+        {
+          "q": "Có số dư ngân hàng tối thiểu cố định không?",
+          "a": "KVAC không quy định số dư tối thiểu cố định. Bạn phải có đủ tiền cho thời gian lưu trú dự kiến. Điều này không miễn yêu cầu giấy tờ tài chính theo diện hồ sơ.",
+          "factId": "visa-philippines-practical"
         }
       ]
     },
@@ -1647,7 +1807,7 @@
     "h1": "Visa Korea untuk warga Filipina",
     "metaTitle": "Visa Filipina ke Korea: Perlukah? (2026) — Korea Trip Hub",
     "metaDesc": "Pemegang paspor Filipina memerlukan visa wisata C-3-9 untuk mengunjungi daratan Korea. Ajukan melalui KVAC di Filipina. Periksa petunjuk KVAC terbaru sebelum datang; Kedutaan tidak menerima pengajuan biasa secara langsung.",
-    "updated": "2026-10-02",
+    "updated": "2026-10-09",
     "ui": {
       "visa": "Jenis visa",
       "stay": "Lama tinggal",
@@ -1717,7 +1877,7 @@
         {
           "n": 4,
           "title": "Ambil paspor Anda",
-          "detail": "Datang ke KVAC setelah menerima pemberitahuan SMS. Ambil paspor dan periksa rincian penerbitan visa."
+          "detail": "Datang ke KVAC pada hari kerja berikutnya setelah menerima SMS pemberitahuan. Untuk mengambil sendiri, bawa identitas resmi pemerintah yang masih berlaku dan tanda terima permohonan dengan kode batang. Pengambilan oleh pihak ketiga memerlukan dokumen kuasa tambahan; periksa petunjuk KVAC."
         }
       ]
     },
@@ -1797,6 +1957,26 @@
         {
           "q": "Di mana saya mengajukan?",
           "a": "Ajukan melalui KVAC di Filipina. Periksa petunjuk KVAC terbaru sebelum datang; Kedutaan tidak menerima pengajuan biasa secara langsung. Jika memakai agen, pilih dari daftar agen resmi Kedutaan terbaru dan pastikan prosedur penyerahannya."
+        },
+        {
+          "q": "Berapa biaya layanan KVAC yang terpisah?",
+          "a": "Mulai 2026-08-25, KVAC mengenakan PHP 1,000 per pemohon, dibayar tunai. Biaya ini terpisah dari biaya penerbitan visa Kedutaan serta biaya agen atau pengiriman opsional. Biaya tidak dikembalikan, apa pun hasil keputusan.",
+          "factId": "visa-philippines-kvac-fee"
+        },
+        {
+          "q": "Kapan paspor dapat diambil?",
+          "a": "Datang ke KVAC pada hari kerja berikutnya setelah menerima SMS pemberitahuan. Untuk mengambil sendiri, bawa identitas resmi pemerintah yang masih berlaku dan tanda terima permohonan dengan kode batang. Pengambilan oleh pihak ketiga memerlukan dokumen kuasa tambahan; periksa petunjuk KVAC.",
+          "factId": "visa-philippines-collection"
+        },
+        {
+          "q": "Haruskah membeli tiket pesawat dan memesan hotel sebelum mengajukan?",
+          "a": "Tidak. Menurut KVAC, tanggal penerbangan sementara dan nama hotel sudah cukup; tiket serta reservasi hotel yang telah dikonfirmasi tidak diperlukan untuk permohonan.",
+          "factId": "visa-philippines-practical"
+        },
+        {
+          "q": "Apakah ada saldo bank minimum tetap?",
+          "a": "KVAC tidak menetapkan saldo minimum tetap. Dana harus mencukupi rencana masa tinggal. Ini tidak menghapus persyaratan dokumen keuangan sesuai kategori permohonan.",
+          "factId": "visa-philippines-practical"
         }
       ]
     },
@@ -1852,7 +2032,7 @@
     "h1": "Виза в Корею для граждан Филиппин",
     "metaTitle": "Виза с Филиппин в Корею: нужна ли она? (2026) — Korea Trip Hub",
     "metaDesc": "Владельцам филиппинских паспортов для туризма в материковой Корее нужна виза C-3-9. Подавайте через KVAC на Филиппинах. Перед посещением проверьте актуальные инструкции KVAC; посольство не принимает обычные заявления напрямую.",
-    "updated": "2026-10-02",
+    "updated": "2026-10-09",
     "ui": {
       "visa": "Тип визы",
       "stay": "Срок пребывания",
@@ -1922,7 +2102,7 @@
         {
           "n": 4,
           "title": "Заберите паспорт",
-          "detail": "Приходите в KVAC после получения SMS. Заберите паспорт и проверьте данные выданной визы."
+          "detail": "Посетите KVAC в следующий рабочий день после получения SMS. При личном получении возьмите действующее государственное удостоверение личности и квитанцию о приёме заявления со штрихкодом. Для получения третьим лицом нужны дополнительные документы на представительство; проверьте инструкции KVAC."
         }
       ]
     },
@@ -2002,6 +2182,26 @@
         {
           "q": "Где мне подавать?",
           "a": "Подавайте через KVAC на Филиппинах. Перед посещением проверьте актуальные инструкции KVAC; посольство не принимает обычные заявления напрямую. При обращении в агентство выбирайте из текущего списка назначенных посольством агентств и уточняйте порядок подачи."
+        },
+        {
+          "q": "Сколько стоит отдельная услуга KVAC?",
+          "a": "С 2026-08-25 сервисный сбор KVAC составляет PHP 1,000 на заявителя и оплачивается наличными. Он взимается отдельно от сбора Посольства за выдачу визы и дополнительных услуг агентства или доставки. Сборы не возвращаются независимо от решения.",
+          "factId": "visa-philippines-kvac-fee"
+        },
+        {
+          "q": "Когда можно получить паспорт?",
+          "a": "Посетите KVAC в следующий рабочий день после получения SMS. При личном получении возьмите действующее государственное удостоверение личности и квитанцию о приёме заявления со штрихкодом. Для получения третьим лицом нужны дополнительные документы на представительство; проверьте инструкции KVAC.",
+          "factId": "visa-philippines-collection"
+        },
+        {
+          "q": "Нужно ли покупать билеты и бронировать отель до подачи?",
+          "a": "Нет. Согласно KVAC, достаточно предполагаемой даты перелёта и названия отеля; подтверждённые билеты и бронирование отеля для подачи не требуются.",
+          "factId": "visa-philippines-practical"
+        },
+        {
+          "q": "Есть ли фиксированный минимальный остаток на счёте?",
+          "a": "KVAC не устанавливает фиксированный минимум. Средств должно хватать на предполагаемое пребывание. Требования к финансовым документам вашей категории заявления сохраняются.",
+          "factId": "visa-philippines-practical"
         }
       ]
     },
@@ -2057,7 +2257,7 @@
     "h1": "Visa pour la Corée pour les citoyens philippins",
     "metaTitle": "Visa Philippines vers Corée : en avez-vous besoin ? (2026) — Korea Trip Hub",
     "metaDesc": "Les titulaires d’un passeport philippin ont besoin d’un visa touristique C-3-9 pour la Corée continentale. Déposez le dossier via KVAC aux Philippines. Consultez ses instructions actuelles avant de venir ; l’ambassade ne reçoit pas directement les demandes ordinaires.",
-    "updated": "2026-10-02",
+    "updated": "2026-10-09",
     "ui": {
       "visa": "Type de visa",
       "stay": "Durée du séjour",
@@ -2127,7 +2327,7 @@
         {
           "n": 4,
           "title": "Récupérez votre passeport",
-          "detail": "Rendez-vous à KVAC après réception du SMS. Récupérez votre passeport et vérifiez les informations de délivrance du visa."
+          "detail": "Rendez-vous à KVAC le jour ouvré suivant la réception du SMS. Pour un retrait personnel, apportez une pièce d’identité officielle valide et le reçu de demande avec code-barres. Un retrait par un tiers exige des documents d’autorisation supplémentaires ; consultez KVAC."
         }
       ]
     },
@@ -2207,6 +2407,26 @@
         {
           "q": "Où dois-je déposer ma demande ?",
           "a": "Déposez le dossier via KVAC aux Philippines. Consultez ses instructions actuelles avant de venir ; l’ambassade ne reçoit pas directement les demandes ordinaires. Si vous passez par une agence, choisissez dans la liste actuelle de l’ambassade et confirmez les modalités de dépôt."
+        },
+        {
+          "q": "Quel est le frais de service distinct de KVAC ?",
+          "a": "Depuis 2026-08-25, KVAC facture PHP 1,000 par demandeur, en espèces. Ce montant est distinct des frais de délivrance du visa de l’Ambassade et des services facultatifs d’agence ou de livraison. Les frais ne sont pas remboursables, quelle que soit la décision.",
+          "factId": "visa-philippines-kvac-fee"
+        },
+        {
+          "q": "Quand puis-je récupérer mon passeport ?",
+          "a": "Rendez-vous à KVAC le jour ouvré suivant la réception du SMS. Pour un retrait personnel, apportez une pièce d’identité officielle valide et le reçu de demande avec code-barres. Un retrait par un tiers exige des documents d’autorisation supplémentaires ; consultez KVAC.",
+          "factId": "visa-philippines-collection"
+        },
+        {
+          "q": "Dois-je acheter les vols et réserver un hôtel avant la demande ?",
+          "a": "Non. Selon KVAC, une date de vol envisagée et le nom de l’hôtel suffisent ; des billets et réservations d’hôtel confirmés ne sont pas exigés pour la demande.",
+          "factId": "visa-philippines-practical"
+        },
+        {
+          "q": "Existe-t-il un solde bancaire minimum fixe ?",
+          "a": "KVAC ne fixe pas de solde minimum. Les fonds doivent couvrir le séjour prévu. Les justificatifs financiers exigés pour votre catégorie de demande restent nécessaires.",
+          "factId": "visa-philippines-practical"
         }
       ]
     },

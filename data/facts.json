@@ -1005,6 +1005,52 @@
       "value": {
         "address": "Lotte Mall Ciputra World 1, Unit 5F-05A, Jl. Prof. DR. Satrio No. 1, Jakarta Selatan 12940"
       }
+    },
+    {
+      "id": "visa-philippines-kvac-fee",
+      "claim": "KVAC charges PHP 1,000 per applicant, effective 2026-08-25. Pay in cash; this is separate from any Embassy visa issuance fee and optional agency or delivery charges. Fees are non-refundable, regardless of the decision.",
+      "source": "https://www.visaforkorea-mn.com/customercenter/notice/view/1000",
+      "source_name": "Korea Visa Application Center Manila",
+      "verified": "2026-10-09",
+      "recheck_after": "2026-11-08",
+      "status": "VERIFIED",
+      "notes": "Scope: visa applications submitted through KVAC in the Philippines.",
+      "sources": [
+        {
+          "name": "KVAC service fees and payment",
+          "url": "https://www.visaforkorea-mn.com/info/service"
+        },
+        {
+          "name": "KVAC FAQ",
+          "url": "https://www.visaforkorea-mn.com/customercenter/faq/list/"
+        }
+      ]
+    },
+    {
+      "id": "visa-philippines-collection",
+      "claim": "Visit KVAC on the next working day after receiving its SMS notification. For personal collection, bring your valid government ID and the application receipt with barcode. A third-party collector needs additional authorization documents; check KVAC instructions.",
+      "source": "https://www.visaforkorea-mn.com/customercenter/notice/view/1006",
+      "source_name": "Korea Visa Application Center Manila",
+      "verified": "2026-10-09",
+      "recheck_after": "2026-11-08",
+      "status": "VERIFIED",
+      "notes": "Scope: visa applications submitted through KVAC in the Philippines.",
+      "sources": [
+        {
+          "name": "KVAC passport collection requirements",
+          "url": "https://www.visaforkorea-mn.com/customercenter/faq/list/"
+        }
+      ]
+    },
+    {
+      "id": "visa-philippines-practical",
+      "claim": "No. KVAC says a tentative flight date and hotel name are sufficient; confirmed flight tickets and hotel reservations are not required for the application. KVAC does not set a fixed minimum balance. Your funds must cover your intended stay. This does not remove the financial-document requirements for your application category.",
+      "source": "https://www.visaforkorea-mn.com/customercenter/faq/list/",
+      "source_name": "Korea Visa Application Center Manila",
+      "verified": "2026-10-09",
+      "recheck_after": "2026-11-08",
+      "status": "VERIFIED",
+      "notes": "Scope: visa applications submitted through KVAC in the Philippines."
     }
   ]
 }
