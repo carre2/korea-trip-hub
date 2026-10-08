@@ -63,6 +63,7 @@ test('Indonesia tourist submission and checklist preserve official category boun
   assert.equal(g.faq.items[3].factId,'visa-indonesia-submission');
   assert.equal(g.steps.items[3].link,'https://www.visaforkorea-in.com/id-ID/customer/faq');
   assert.equal(g.documents.factId,'visa-indonesia-documents');
+  assert.equal(g.documents.rows[3].req,'conditional',`${l}: financial evidence can have alternatives`);
   assert.equal(g.documents.rows[4].req,'conditional',`${l}: employment proof must depend on applicant category`);
   assert.equal(g.documents.rows[5].req,'required');
   assert.ok(g.documents.rows[5].how.includes('Kartu Keluarga'),`${l}: missing family card`);

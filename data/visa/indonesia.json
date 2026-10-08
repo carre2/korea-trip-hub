@@ -123,9 +123,9 @@
       },
       {
         "doc": "Bank statement — last 3 months",
-        "req": "required",
+        "req": "conditional",
         "where": "Your bank",
-        "how": "Original bank transaction details for the last 3 months, issued by your bank with its wet stamp."
+        "how": "Financial proof may include original bank transaction details for the last 3 months with the bank’s wet stamp, or credit-card usage statements and other evidence. Follow the official checklist and any additional request for your category."
       },
       {
         "doc": "Employment letter",
@@ -207,7 +207,7 @@
       },
       {
         "q": "What financial proof do I need?",
-        "a": "Original bank transaction details for the last 3 months, issued by your bank with its wet stamp. The KVAC tourist checklist includes a copy of the Indonesian family card (Kartu Keluarga). Employees provide an original employment certificate; students an original enrollment certificate; business owners a copy of the business license; homemakers and retirees a copy of KTP. Use the checklist for your category; additional documents may be requested.",
+        "a": "Financial proof may include original bank transaction details for the last 3 months with the bank’s wet stamp, or credit-card usage statements and other evidence. Follow the official checklist and any additional request for your category. The KVAC tourist checklist includes a copy of the Indonesian family card (Kartu Keluarga). Employees provide an original employment certificate; students an original enrollment certificate; business owners a copy of the business license; homemakers and retirees a copy of KTP. Use the checklist for your category; additional documents may be requested.",
         "factId": "visa-indonesia-documents"
       },
       {

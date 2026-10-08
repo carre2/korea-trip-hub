@@ -124,9 +124,9 @@
         },
         {
           "doc": "Rekening koran — 3 bulan terakhir",
-          "req": "required",
+          "req": "conditional",
           "where": "Bank Anda",
-          "how": "Detail transaksi bank asli selama 3 bulan terakhir, diterbitkan bank dengan cap basah bank."
+          "how": "Bukti keuangan dapat berupa detail transaksi bank asli 3 bulan terakhir dengan cap basah bank, atau laporan penggunaan kartu kredit dan bukti lainnya. Ikuti daftar resmi dan permintaan tambahan sesuai kategori Anda."
         },
         {
           "doc": "Surat keterangan kerja",
@@ -208,7 +208,7 @@
         },
         {
           "q": "Bukti finansial apa yang saya perlukan?",
-          "a": "Detail transaksi bank asli selama 3 bulan terakhir, diterbitkan bank dengan cap basah bank. Daftar visa wisata KVAC mencakup fotokopi Kartu Keluarga Indonesia. Karyawan membawa surat keterangan kerja asli; pelajar/mahasiswa surat keterangan belajar asli; pengusaha salinan surat izin usaha; ibu rumah tangga dan pensiunan salinan KTP. Ikuti daftar sesuai kategori Anda; dokumen tambahan dapat diminta.",
+          "a": "Bukti keuangan dapat berupa detail transaksi bank asli 3 bulan terakhir dengan cap basah bank, atau laporan penggunaan kartu kredit dan bukti lainnya. Ikuti daftar resmi dan permintaan tambahan sesuai kategori Anda. Daftar visa wisata KVAC mencakup fotokopi Kartu Keluarga Indonesia. Karyawan membawa surat keterangan kerja asli; pelajar/mahasiswa surat keterangan belajar asli; pengusaha salinan surat izin usaha; ibu rumah tangga dan pensiunan salinan KTP. Ikuti daftar sesuai kategori Anda; dokumen tambahan dapat diminta.",
           "factId": "visa-indonesia-documents"
         },
         {
@@ -490,9 +490,9 @@
         },
         {
           "doc": "銀行取引明細 — 直近3か月",
-          "req": "required",
+          "req": "conditional",
           "where": "取引銀行",
-          "how": "銀行が発行し、銀行の実印を押した直近3か月の取引明細原本。"
+          "how": "財政証明には銀行の実印を押した直近3か月の取引明細原本、またはクレジットカード利用明細などを使用できます。自分の区分の公式一覧と追加要求に従ってください。"
         },
         {
           "doc": "在職証明書",
@@ -574,7 +574,7 @@
         },
         {
           "q": "どのような財政証明が必要ですか？",
-          "a": "銀行が発行し、銀行の実印を押した直近3か月の取引明細原本。 KVACの観光ビザ一覧にはインドネシアの家族登録カード（Kartu Keluarga）のコピーが含まれます。会社員は在職証明書原本、学生は在学証明書原本、事業主は営業許可証コピー、専業主婦・退職者はKTPコピーを用意します。自分の区分の一覧に従い、追加書類の要求にも対応してください。",
+          "a": "財政証明には銀行の実印を押した直近3か月の取引明細原本、またはクレジットカード利用明細などを使用できます。自分の区分の公式一覧と追加要求に従ってください。 KVACの観光ビザ一覧にはインドネシアの家族登録カード（Kartu Keluarga）のコピーが含まれます。会社員は在職証明書原本、学生は在学証明書原本、事業主は営業許可証コピー、専業主婦・退職者はKTPコピーを用意します。自分の区分の一覧に従い、追加書類の要求にも対応してください。",
           "factId": "visa-indonesia-documents"
         },
         {
@@ -856,9 +856,9 @@
         },
         {
           "doc": "은행 거래내역서 — 최근 3개월",
-          "req": "required",
+          "req": "conditional",
           "where": "거래 은행",
-          "how": "은행이 발급하고 실제 도장을 찍은 최근 3개월 거래내역서 원본."
+          "how": "금융 증빙에는 은행의 실제 도장이 찍힌 최근 3개월 거래내역서 원본 또는 신용카드 이용 내역 등 다른 증빙을 사용할 수 있습니다. 본인 유형의 공식 체크리스트와 추가 요청을 따르세요."
         },
         {
           "doc": "재직증명서",
@@ -940,7 +940,7 @@
         },
         {
           "q": "어떤 재정 증빙이 필요한가요?",
-          "a": "은행이 발급하고 실제 도장을 찍은 최근 3개월 거래내역서 원본. KVAC 관광비자 목록에는 인도네시아 가족등록카드(Kartu Keluarga) 사본이 포함됩니다. 직장인은 재직증명서 원본, 학생은 재학증명서 원본, 사업자는 사업 허가증 사본, 전업주부·은퇴자는 KTP 사본을 준비합니다. 본인 유형의 목록을 따르며 추가 서류를 요구할 수 있습니다.",
+          "a": "금융 증빙에는 은행의 실제 도장이 찍힌 최근 3개월 거래내역서 원본 또는 신용카드 이용 내역 등 다른 증빙을 사용할 수 있습니다. 본인 유형의 공식 체크리스트와 추가 요청을 따르세요. KVAC 관광비자 목록에는 인도네시아 가족등록카드(Kartu Keluarga) 사본이 포함됩니다. 직장인은 재직증명서 원본, 학생은 재학증명서 원본, 사업자는 사업 허가증 사본, 전업주부·은퇴자는 KTP 사본을 준비합니다. 본인 유형의 목록을 따르며 추가 서류를 요구할 수 있습니다.",
           "factId": "visa-indonesia-documents"
         },
         {
@@ -1222,9 +1222,9 @@
         },
         {
           "doc": "Extracto bancario — últimos 3 meses",
-          "req": "required",
+          "req": "conditional",
           "where": "Su banco",
-          "how": "Detalle original de transacciones de los últimos 3 meses, emitido por el banco con su sello en tinta."
+          "how": "La prueba financiera puede incluir el detalle original de transacciones de los últimos 3 meses con sello bancario en tinta, o extractos de uso de tarjeta de crédito y otras pruebas. Siga la lista oficial y las solicitudes adicionales de su categoría."
         },
         {
           "doc": "Carta de empleo",
@@ -1306,7 +1306,7 @@
         },
         {
           "q": "¿Qué prueba financiera necesito?",
-          "a": "Detalle original de transacciones de los últimos 3 meses, emitido por el banco con su sello en tinta. La lista turística de KVAC incluye una copia de la tarjeta familiar indonesia (Kartu Keluarga). Los empleados presentan certificado laboral original; estudiantes, certificado de estudios original; empresarios, copia de licencia comercial; amas de casa y jubilados, copia de KTP. Siga la lista de su categoría; pueden pedir documentación adicional.",
+          "a": "La prueba financiera puede incluir el detalle original de transacciones de los últimos 3 meses con sello bancario en tinta, o extractos de uso de tarjeta de crédito y otras pruebas. Siga la lista oficial y las solicitudes adicionales de su categoría. La lista turística de KVAC incluye una copia de la tarjeta familiar indonesia (Kartu Keluarga). Los empleados presentan certificado laboral original; estudiantes, certificado de estudios original; empresarios, copia de licencia comercial; amas de casa y jubilados, copia de KTP. Siga la lista de su categoría; pueden pedir documentación adicional.",
           "factId": "visa-indonesia-documents"
         },
         {
@@ -1588,9 +1588,9 @@
         },
         {
           "doc": "รายการเดินบัญชีธนาคาร — 3 เดือนล่าสุด",
-          "req": "required",
+          "req": "conditional",
           "where": "ธนาคารของคุณ",
-          "how": "รายละเอียดธุรกรรมธนาคารต้นฉบับย้อนหลัง 3 เดือน ออกโดยธนาคารพร้อมตราประทับหมึกของธนาคาร"
+          "how": "หลักฐานการเงินอาจเป็นรายละเอียดธุรกรรมธนาคารต้นฉบับย้อนหลัง 3 เดือนพร้อมตราประทับหมึกของธนาคาร หรือรายงานการใช้บัตรเครดิตและหลักฐานอื่น ปฏิบัติตามรายการทางการและคำขอเอกสารเพิ่มสำหรับประเภทของคุณ"
         },
         {
           "doc": "หนังสือรับรองการทำงาน",
@@ -1672,7 +1672,7 @@
         },
         {
           "q": "ต้องใช้หลักฐานทางการเงินอะไรบ้าง?",
-          "a": "รายละเอียดธุรกรรมธนาคารต้นฉบับย้อนหลัง 3 เดือน ออกโดยธนาคารพร้อมตราประทับหมึกของธนาคาร รายการวีซ่าท่องเที่ยว KVAC รวมสำเนาบัตรทะเบียนครอบครัวอินโดนีเซีย (Kartu Keluarga) ลูกจ้างใช้หนังสือรับรองการทำงานต้นฉบับ นักเรียน/นักศึกษาใช้หนังสือรับรองการศึกษาต้นฉบับ เจ้าของธุรกิจใช้สำเนาใบอนุญาตประกอบธุรกิจ แม่บ้านและผู้เกษียณใช้สำเนา KTP ปฏิบัติตามรายการสำหรับประเภทของคุณ และอาจมีการขอเอกสารเพิ่ม",
+          "a": "หลักฐานการเงินอาจเป็นรายละเอียดธุรกรรมธนาคารต้นฉบับย้อนหลัง 3 เดือนพร้อมตราประทับหมึกของธนาคาร หรือรายงานการใช้บัตรเครดิตและหลักฐานอื่น ปฏิบัติตามรายการทางการและคำขอเอกสารเพิ่มสำหรับประเภทของคุณ รายการวีซ่าท่องเที่ยว KVAC รวมสำเนาบัตรทะเบียนครอบครัวอินโดนีเซีย (Kartu Keluarga) ลูกจ้างใช้หนังสือรับรองการทำงานต้นฉบับ นักเรียน/นักศึกษาใช้หนังสือรับรองการศึกษาต้นฉบับ เจ้าของธุรกิจใช้สำเนาใบอนุญาตประกอบธุรกิจ แม่บ้านและผู้เกษียณใช้สำเนา KTP ปฏิบัติตามรายการสำหรับประเภทของคุณ และอาจมีการขอเอกสารเพิ่ม",
           "factId": "visa-indonesia-documents"
         },
         {
@@ -1954,9 +1954,9 @@
         },
         {
           "doc": "Penyata bank — 3 bulan terakhir",
-          "req": "required",
+          "req": "conditional",
           "where": "Bank anda",
-          "how": "Butiran transaksi bank asal bagi 3 bulan terkini, dikeluarkan oleh bank dengan cop dakwat bank."
+          "how": "Bukti kewangan boleh berupa butiran transaksi bank asal bagi 3 bulan terkini dengan cop dakwat bank, atau penyata penggunaan kad kredit dan bukti lain. Ikuti senarai rasmi dan permintaan tambahan mengikut kategori anda."
         },
         {
           "doc": "Surat pekerjaan",
@@ -2038,7 +2038,7 @@
         },
         {
           "q": "Bukti kewangan apa yang saya perlukan?",
-          "a": "Butiran transaksi bank asal bagi 3 bulan terkini, dikeluarkan oleh bank dengan cop dakwat bank. Senarai visa pelancong KVAC merangkumi salinan kad keluarga Indonesia (Kartu Keluarga). Pekerja menyerahkan sijil pekerjaan asal; pelajar sijil pengajian asal; pemilik perniagaan salinan lesen perniagaan; suri rumah dan pesara salinan KTP. Ikuti senarai kategori anda; dokumen tambahan mungkin diminta.",
+          "a": "Bukti kewangan boleh berupa butiran transaksi bank asal bagi 3 bulan terkini dengan cop dakwat bank, atau penyata penggunaan kad kredit dan bukti lain. Ikuti senarai rasmi dan permintaan tambahan mengikut kategori anda. Senarai visa pelancong KVAC merangkumi salinan kad keluarga Indonesia (Kartu Keluarga). Pekerja menyerahkan sijil pekerjaan asal; pelajar sijil pengajian asal; pemilik perniagaan salinan lesen perniagaan; suri rumah dan pesara salinan KTP. Ikuti senarai kategori anda; dokumen tambahan mungkin diminta.",
           "factId": "visa-indonesia-documents"
         },
         {
@@ -2320,9 +2320,9 @@
         },
         {
           "doc": "银行对账单 — 最近 3 个月",
-          "req": "required",
+          "req": "conditional",
           "where": "您的银行",
-          "how": "由银行出具并加盖银行实体印章的最近3个月交易明细原件。"
+          "how": "财务证明可以是加盖银行实体印章的最近3个月交易明细原件，也可以是信用卡使用明细等其他证明。请遵循所属类别的官方清单和补充材料要求。"
         },
         {
           "doc": "在职证明",
@@ -2404,7 +2404,7 @@
         },
         {
           "q": "我需要什么财力证明？",
-          "a": "由银行出具并加盖银行实体印章的最近3个月交易明细原件。 KVAC旅游签证清单包含印度尼西亚家庭登记卡（Kartu Keluarga）复印件。雇员提供在职证明原件；学生提供在学证明原件；企业主提供营业许可复印件；家庭主妇及退休人员提供KTP复印件。遵循所属类别清单，可能要求补充材料。",
+          "a": "财务证明可以是加盖银行实体印章的最近3个月交易明细原件，也可以是信用卡使用明细等其他证明。请遵循所属类别的官方清单和补充材料要求。 KVAC旅游签证清单包含印度尼西亚家庭登记卡（Kartu Keluarga）复印件。雇员提供在职证明原件；学生提供在学证明原件；企业主提供营业许可复印件；家庭主妇及退休人员提供KTP复印件。遵循所属类别清单，可能要求补充材料。",
           "factId": "visa-indonesia-documents"
         },
         {
@@ -2683,9 +2683,9 @@
         },
         {
           "doc": "銀行對帳單 — 最近 3 個月",
-          "req": "required",
+          "req": "conditional",
           "where": "您的銀行",
-          "how": "由銀行出具並加蓋銀行實體印章的最近3個月交易明細正本。"
+          "how": "財務證明可以是加蓋銀行實體印章的最近3個月交易明細正本，也可以是信用卡使用明細等其他證明。請遵循所屬類別的官方清單和補充資料要求。"
         },
         {
           "doc": "在職證明",
@@ -2767,7 +2767,7 @@
         },
         {
           "q": "我需要什麼財力證明？",
-          "a": "由銀行出具並加蓋銀行實體印章的最近3個月交易明細正本。 KVAC觀光簽證清單包含印尼家庭登記卡（Kartu Keluarga）影本。受僱者提供在職證明正本；學生提供在學證明正本；企業主提供營業許可影本；家庭主婦及退休人員提供KTP影本。遵循所屬類別清單，可能要求補充資料。",
+          "a": "財務證明可以是加蓋銀行實體印章的最近3個月交易明細正本，也可以是信用卡使用明細等其他證明。請遵循所屬類別的官方清單和補充資料要求。 KVAC觀光簽證清單包含印尼家庭登記卡（Kartu Keluarga）影本。受僱者提供在職證明正本；學生提供在學證明正本；企業主提供營業許可影本；家庭主婦及退休人員提供KTP影本。遵循所屬類別清單，可能要求補充資料。",
           "factId": "visa-indonesia-documents"
         },
         {
@@ -3054,9 +3054,9 @@
         },
         {
           "doc": "Sao kê ngân hàng — 3 tháng gần nhất",
-          "req": "required",
+          "req": "conditional",
           "where": "Ngân hàng của bạn",
-          "how": "Chi tiết giao dịch ngân hàng bản gốc trong 3 tháng gần nhất, do ngân hàng cấp và đóng dấu mực của ngân hàng."
+          "how": "Chứng minh tài chính có thể là chi tiết giao dịch ngân hàng bản gốc trong 3 tháng gần nhất có dấu mực của ngân hàng, hoặc sao kê sử dụng thẻ tín dụng và bằng chứng khác. Theo danh sách chính thức và yêu cầu bổ sung của diện hồ sơ."
         },
         {
           "doc": "Thư xác nhận việc làm",
@@ -3138,7 +3138,7 @@
         },
         {
           "q": "Tôi cần chứng minh tài chính gì?",
-          "a": "Chi tiết giao dịch ngân hàng bản gốc trong 3 tháng gần nhất, do ngân hàng cấp và đóng dấu mực của ngân hàng. Danh sách visa du lịch KVAC gồm bản sao thẻ gia đình Indonesia (Kartu Keluarga). Nhân viên nộp xác nhận việc làm bản gốc; học sinh/sinh viên nộp xác nhận đang học bản gốc; chủ doanh nghiệp nộp bản sao giấy phép kinh doanh; nội trợ và người nghỉ hưu nộp bản sao KTP. Theo danh sách của diện hồ sơ; có thể cần bổ sung giấy tờ.",
+          "a": "Chứng minh tài chính có thể là chi tiết giao dịch ngân hàng bản gốc trong 3 tháng gần nhất có dấu mực của ngân hàng, hoặc sao kê sử dụng thẻ tín dụng và bằng chứng khác. Theo danh sách chính thức và yêu cầu bổ sung của diện hồ sơ. Danh sách visa du lịch KVAC gồm bản sao thẻ gia đình Indonesia (Kartu Keluarga). Nhân viên nộp xác nhận việc làm bản gốc; học sinh/sinh viên nộp xác nhận đang học bản gốc; chủ doanh nghiệp nộp bản sao giấy phép kinh doanh; nội trợ và người nghỉ hưu nộp bản sao KTP. Theo danh sách của diện hồ sơ; có thể cần bổ sung giấy tờ.",
           "factId": "visa-indonesia-documents"
         },
         {
@@ -3420,9 +3420,9 @@
         },
         {
           "doc": "Выписка из банка — за последние 3 месяца",
-          "req": "required",
+          "req": "conditional",
           "where": "Ваш банк",
-          "how": "Оригинал банковской детализации операций за последние 3 месяца, выданный банком с его печатью, проставленной чернилами."
+          "how": "Финансовым подтверждением могут быть оригиналы банковской детализации за последние 3 месяца с печатью банка, проставленной чернилами, либо выписки об использовании кредитной карты и другие документы. Следуйте официальному списку и дополнительным запросам своей категории."
         },
         {
           "doc": "Справка с работы",
@@ -3504,7 +3504,7 @@
         },
         {
           "q": "Какое финансовое подтверждение мне нужно?",
-          "a": "Оригинал банковской детализации операций за последние 3 месяца, выданный банком с его печатью, проставленной чернилами. Туристический список KVAC включает копию индонезийской семейной карты (Kartu Keluarga). Работники предоставляют оригинал справки с работы; учащиеся — оригинал справки об учёбе; предприниматели — копию лицензии; домохозяйки и пенсионеры — копию KTP. Следуйте списку своей категории; могут запросить дополнительные документы.",
+          "a": "Финансовым подтверждением могут быть оригиналы банковской детализации за последние 3 месяца с печатью банка, проставленной чернилами, либо выписки об использовании кредитной карты и другие документы. Следуйте официальному списку и дополнительным запросам своей категории. Туристический список KVAC включает копию индонезийской семейной карты (Kartu Keluarga). Работники предоставляют оригинал справки с работы; учащиеся — оригинал справки об учёбе; предприниматели — копию лицензии; домохозяйки и пенсионеры — копию KTP. Следуйте списку своей категории; могут запросить дополнительные документы.",
           "factId": "visa-indonesia-documents"
         },
         {
@@ -3786,9 +3786,9 @@
         },
         {
           "doc": "Relevé bancaire — 3 derniers mois",
-          "req": "required",
+          "req": "conditional",
           "where": "Votre banque",
-          "how": "Détail original des transactions des 3 derniers mois, délivré par la banque avec son tampon à l’encre."
+          "how": "La preuve financière peut comprendre le détail original des transactions des 3 derniers mois avec tampon bancaire à l’encre, ou des relevés d’utilisation de carte de crédit et d’autres justificatifs. Suivez la liste officielle et les demandes supplémentaires de votre catégorie."
         },
         {
           "doc": "Attestation d'emploi",
@@ -3870,7 +3870,7 @@
         },
         {
           "q": "Quels justificatifs financiers me faut-il ?",
-          "a": "Détail original des transactions des 3 derniers mois, délivré par la banque avec son tampon à l’encre. La liste touristique KVAC comprend une copie de la carte familiale indonésienne (Kartu Keluarga). Les salariés fournissent une attestation d’emploi originale ; les étudiants, une attestation de scolarité originale ; les entrepreneurs, une copie de licence commerciale ; les personnes au foyer et retraitées, une copie de KTP. Suivez la liste de votre catégorie ; des pièces supplémentaires peuvent être demandées.",
+          "a": "La preuve financière peut comprendre le détail original des transactions des 3 derniers mois avec tampon bancaire à l’encre, ou des relevés d’utilisation de carte de crédit et d’autres justificatifs. Suivez la liste officielle et les demandes supplémentaires de votre catégorie. La liste touristique KVAC comprend une copie de la carte familiale indonésienne (Kartu Keluarga). Les salariés fournissent une attestation d’emploi originale ; les étudiants, une attestation de scolarité originale ; les entrepreneurs, une copie de licence commerciale ; les personnes au foyer et retraitées, une copie de KTP. Suivez la liste de votre catégorie ; des pièces supplémentaires peuvent être demandées.",
           "factId": "visa-indonesia-documents"
         },
         {
