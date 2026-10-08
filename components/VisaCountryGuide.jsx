@@ -146,6 +146,7 @@ export default function VisaCountryGuide({ guide, m }) {
         <section className="gv-sec">
           <h2>{g.documents.title}</h2>
           <p className="gv-lead">{g.documents.intro}</p>
+          {g.documents.factId && fact(g.documents.factId) && <p className="factsrc">{ui.source || "Source"}: <a href={fact(g.documents.factId).source} target="_blank" rel="noopener noreferrer">{fact(g.documents.factId).source_name}</a> · <time dateTime={fact(g.documents.factId).verified}>{fact(g.documents.factId).verified}</time></p>}
           <div className="vcg-docs">
             {g.documents.rows.map((r) => {
               const rq = REQ[r.req] || REQ.required;

@@ -10,7 +10,7 @@
     "metaDesc": "Visa Korea untuk warga Indonesia · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "Panduan visa · Indonesia → Korea",
     "readingTime": "baca 8 menit",
-    "updated": "2026-10-05",
+    "updated": "2026-10-09",
     "hero": {
       "img": "/img/visa/incheon-arrivals.jpg",
       "alt": "Arrivals at Incheon International Airport",
@@ -46,8 +46,8 @@
     ],
     "tldr": [
       "Wisatawan mandiri memerlukan visa turis C-3 untuk Korea daratan.",
-      "Isi formulir di visa.go.kr, lalu ajukan di Kedutaan Besar Korea / KVAC Jakarta.",
-      "Bawa paspor, foto, rekening koran 3 bulan, surat keterangan kerja + slip gaji.",
+      "Permohonan visa wisata pemegang paspor biasa diajukan melalui KVAC Jakarta. Pengajuan langsung ke Kedutaan hanya untuk kategori diplomatik/dinas dan kasus pengecualian tertentu; jangan datang langsung ke Kedutaan untuk permohonan wisata biasa.",
+      "Daftar visa wisata KVAC mencakup fotokopi Kartu Keluarga Indonesia. Karyawan membawa surat keterangan kerja asli; pelajar/mahasiswa surat keterangan belajar asli; pengusaha salinan surat izin usaha; ibu rumah tangga dan pensiunan salinan KTP. Ikuti daftar sesuai kategori Anda; dokumen tambahan dapat diminta.",
       "Uji coba: 2026-05-28 sampai 2026-12-31. Hanya grup minimal 3 orang yang dihimpun agen Indonesia yang ditunjuk, dengan masa tinggal maksimal 15 hari. Tiga teman yang berwisata mandiri tidak memenuhi syarat. Mitra Korea mendaftarkan daftar lewat HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan menjalani pemeriksaan awal; anggota pada prinsipnya masuk dan keluar bersama dengan penerbangan atau kapal yang sama."
     ],
     "steps": {
@@ -61,19 +61,21 @@
         {
           "n": 2,
           "title": "Isi formulir di visa.go.kr",
-          "detail": "Lengkapi formulir permohonan di Korea Visa Portal — satu-satunya situs resmi — lalu cetak dan tanda tangani.",
+          "detail": "Lengkapi di Korea Visa Portal, cetak, tanda tangani.",
           "link": "https://www.visa.go.kr",
           "linkLabel": "Portal Visa Korea"
         },
         {
           "n": 3,
           "title": "Siapkan dokumen Anda",
-          "detail": "Kumpulkan daftar di bawah ini: paspor, foto, rekening koran 3 bulan, dan bukti pekerjaan."
+          "detail": "Daftar visa wisata KVAC mencakup fotokopi Kartu Keluarga Indonesia. Karyawan membawa surat keterangan kerja asli; pelajar/mahasiswa surat keterangan belajar asli; pengusaha salinan surat izin usaha; ibu rumah tangga dan pensiunan salinan KTP. Ikuti daftar sesuai kategori Anda; dokumen tambahan dapat diminta."
         },
         {
           "n": 4,
-          "title": "Ajukan di Kedutaan / KVAC Jakarta",
-          "detail": "Serahkan permohonan Anda ke Kedutaan Besar Korea atau Korea Visa Application Center di Jakarta."
+          "title": "KVAC Jakarta",
+          "detail": "Permohonan visa wisata pemegang paspor biasa diajukan melalui KVAC Jakarta. Pengajuan langsung ke Kedutaan hanya untuk kategori diplomatik/dinas dan kasus pengecualian tertentu; jangan datang langsung ke Kedutaan untuk permohonan wisata biasa.",
+          "link": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+          "linkLabel": "KVAC Jakarta"
         },
         {
           "n": 5,
@@ -94,7 +96,7 @@
     },
     "documents": {
       "title": "Daftar dokumen — beserta di mana & cara mendapatkan tiap dokumen",
-      "intro": "Untuk setiap dokumen, berikut tempat memperolehnya dan apa yang harus ditunjukkannya.",
+      "intro": "Daftar visa wisata KVAC mencakup fotokopi Kartu Keluarga Indonesia. Karyawan membawa surat keterangan kerja asli; pelajar/mahasiswa surat keterangan belajar asli; pengusaha salinan surat izin usaha; ibu rumah tangga dan pensiunan salinan KTP. Ikuti daftar sesuai kategori Anda; dokumen tambahan dapat diminta.",
       "cols": [
         "Dokumen",
         "Di mana mendapatkannya",
@@ -118,25 +120,25 @@
           "doc": "Foto",
           "req": "required",
           "where": "Studio foto mana pun",
-          "how": "Foto terbaru gaya paspor, latar belakang putih."
+          "how": "1 lembar foto 3.5 × 4.5 cm, latar belakang putih, ditempelkan pada formulir aplikasi."
         },
         {
           "doc": "Rekening koran — 3 bulan terakhir",
           "req": "required",
           "where": "Bank Anda",
-          "how": "Rekening koran yang menunjukkan saldo dan riwayat transaksi; saldo yang stabil paling baik."
+          "how": "Detail transaksi bank asli selama 3 bulan terakhir, diterbitkan bank dengan cap basah bank."
         },
         {
           "doc": "Surat keterangan kerja",
-          "req": "required",
+          "req": "conditional",
           "where": "Perusahaan / HRD Anda",
           "how": "Di kop surat perusahaan: jabatan, gaji, dan cuti yang disetujui."
         },
         {
-          "doc": "Slip gaji",
+          "doc": "Kartu Keluarga Indonesia",
           "req": "required",
-          "where": "Perusahaan Anda",
-          "how": "Slip gaji terbaru yang mendukung penghasilan Anda."
+          "where": "Anda sudah memilikinya",
+          "how": "Fotokopi Kartu Keluarga Indonesia."
         },
         {
           "doc": "Reservasi tiket pulang-pergi & hotel",
@@ -155,7 +157,8 @@
         "required": "Wajib",
         "conditional": "Jika berlaku bagi Anda",
         "recommended": "Disarankan"
-      }
+      },
+      "factId": "visa-indonesia-documents"
     },
     "funds": {
       "title": "\"Berapa banyak uang yang harus saya tunjukkan?\"",
@@ -211,11 +214,13 @@
         },
         {
           "q": "Bukti finansial apa yang saya perlukan?",
-          "a": "Rekening koran 3 bulan ditambah surat keterangan kerja dan slip gaji. Jika disponsori, sertakan dokumen sponsor."
+          "a": "Detail transaksi bank asli selama 3 bulan terakhir, diterbitkan bank dengan cap basah bank. Daftar visa wisata KVAC mencakup fotokopi Kartu Keluarga Indonesia. Karyawan membawa surat keterangan kerja asli; pelajar/mahasiswa surat keterangan belajar asli; pengusaha salinan surat izin usaha; ibu rumah tangga dan pensiunan salinan KTP. Ikuti daftar sesuai kategori Anda; dokumen tambahan dapat diminta.",
+          "factId": "visa-indonesia-documents"
         },
         {
           "q": "Di mana saya mengajukan?",
-          "a": "Di Kedutaan Besar Korea atau Korea Visa Application Center di Jakarta."
+          "a": "Permohonan visa wisata pemegang paspor biasa diajukan melalui KVAC Jakarta. Pengajuan langsung ke Kedutaan hanya untuk kategori diplomatik/dinas dan kasus pengecualian tertentu; jangan datang langsung ke Kedutaan untuk permohonan wisata biasa.",
+          "factId": "visa-indonesia-submission"
         },
         {
           "q": "Berapa biayanya?",
@@ -250,6 +255,21 @@
           "q": "Visa multiple?",
           "a": "Pemohon yang memenuhi syarat dapat mengajukan multiple visa 5 atau 10 tahun; tabel KVAC mencantumkan masa tinggal 30 hari per kunjungan. Masa berlaku panjang bukan izin tinggal terus-menerus atau kelayakan otomatis. Minta KVAC memeriksa kategori Anda.",
           "factId": "visa-indonesia-multiple"
+        },
+        {
+          "q": "Bagaimana cara membayar biaya visa?",
+          "a": "KVAC Jakarta beroperasi secara cashless pada 2026. Gunakan transfer bank, kartu debit atau QRIS. Biaya penerbitan visa dan biaya layanan KVAC terpisah; periksa tabel biaya terbaru sebelum mengajukan.",
+          "factId": "visa-indonesia-payment"
+        },
+        {
+          "q": "Kapan saya bisa mengajukan dan mengambil paspor?",
+          "a": "Senin–Jumat, kecuali hari libur: pengajuan 09:00–15:00 WIB; pengambilan paspor 12:00–17:00 WIB. Jam pengajuan dan pengambilan berbeda. Periksa pengumuman hari libur sebelum berkunjung.",
+          "factId": "kvac-jakarta-hours"
+        },
+        {
+          "q": "Dokumen apa yang bergantung pada kondisi saya?",
+          "a": "Daftar visa wisata KVAC mencakup fotokopi Kartu Keluarga Indonesia. Karyawan membawa surat keterangan kerja asli; pelajar/mahasiswa surat keterangan belajar asli; pengusaha salinan surat izin usaha; ibu rumah tangga dan pensiunan salinan KTP. Ikuti daftar sesuai kategori Anda; dokumen tambahan dapat diminta.",
+          "factId": "visa-indonesia-documents"
         }
       ]
     },
@@ -362,7 +382,7 @@
     "metaDesc": "インドネシア国民のための韓国ビザ · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "ビザガイド · インドネシア → 韓国",
     "readingTime": "8分で読めます",
-    "updated": "2026-10-05",
+    "updated": "2026-10-09",
     "hero": {
       "img": "/img/visa/incheon-arrivals.jpg",
       "alt": "Arrivals at Incheon International Airport",
@@ -398,8 +418,8 @@
     ],
     "tldr": [
       "個人旅行者は韓国本土のためにC-3観光ビザが必要です。",
-      "visa.go.krでフォームに記入し、駐インドネシア韓国大使館／KVAC Jakartaで提出します。",
-      "パスポート、写真、3か月分の銀行取引明細、在職証明書＋給与明細を持参してください。",
+      "一般旅券の観光ビザはKVACジャカルタを通じて申請します。大使館への直接申請は外交・公用の区分や指定の例外に限られます。通常の観光申請で大使館へ直接行かないでください。",
+      "KVACの観光ビザ一覧にはインドネシアの家族登録カード（Kartu Keluarga）のコピーが含まれます。会社員は在職証明書原本、学生は在学証明書原本、事業主は営業許可証コピー、専業主婦・退職者はKTPコピーを用意します。自分の区分の一覧に従い、追加書類の要求にも対応してください。",
       "試行期間：2026-05-28～2026-12-31。指定インドネシア旅行会社が募集した3人以上の団体のみ、最長15日滞在できます。友人3人の個人旅行は対象外です。韓国側は航空到着24時間前・船舶36時間前までにHiKoreaへ名簿登録して事前審査を受け、原則同一便・船で一緒に入出国します。"
     ],
     "steps": {
@@ -413,19 +433,21 @@
         {
           "n": 2,
           "title": "visa.go.krでフォームに記入",
-          "detail": "Korea Visa Portal（唯一の公式サイト）で申請書を作成し、印刷して署名します。",
+          "detail": "Korea Visa Portalで作成、印刷、署名。",
           "link": "https://www.visa.go.kr",
           "linkLabel": "韓国ビザポータル"
         },
         {
           "n": 3,
           "title": "書類を準備",
-          "detail": "下記のチェックリストを揃えます：パスポート、写真、3か月分の銀行取引明細、在職証明。"
+          "detail": "KVACの観光ビザ一覧にはインドネシアの家族登録カード（Kartu Keluarga）のコピーが含まれます。会社員は在職証明書原本、学生は在学証明書原本、事業主は営業許可証コピー、専業主婦・退職者はKTPコピーを用意します。自分の区分の一覧に従い、追加書類の要求にも対応してください。"
         },
         {
           "n": 4,
-          "title": "大使館／KVAC Jakartaで提出",
-          "detail": "駐インドネシア韓国大使館またはJakartaのKorea Visa Application Centerに申請書を提出します。"
+          "title": "KVAC Jakarta",
+          "detail": "一般旅券の観光ビザはKVACジャカルタを通じて申請します。大使館への直接申請は外交・公用の区分や指定の例外に限られます。通常の観光申請で大使館へ直接行かないでください。",
+          "link": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+          "linkLabel": "KVAC Jakarta"
         },
         {
           "n": 5,
@@ -446,7 +468,7 @@
     },
     "documents": {
       "title": "必要書類チェックリスト — 各書類の入手先と方法",
-      "intro": "各項目について、入手先と記載すべき内容を示します。",
+      "intro": "KVACの観光ビザ一覧にはインドネシアの家族登録カード（Kartu Keluarga）のコピーが含まれます。会社員は在職証明書原本、学生は在学証明書原本、事業主は営業許可証コピー、専業主婦・退職者はKTPコピーを用意します。自分の区分の一覧に従い、追加書類の要求にも対応してください。",
       "cols": [
         "書類",
         "入手場所",
@@ -470,25 +492,25 @@
           "doc": "写真",
           "req": "required",
           "where": "写真スタジオ",
-          "how": "最近のパスポート用写真、白背景。"
+          "how": "白背景の3.5 × 4.5 cm写真1枚を申請書に貼付してください。"
         },
         {
           "doc": "銀行取引明細 — 直近3か月",
           "req": "required",
           "where": "取引銀行",
-          "how": "残高と取引履歴を示す明細。安定した残高が望ましい。"
+          "how": "銀行が発行し、銀行の実印を押した直近3か月の取引明細原本。"
         },
         {
           "doc": "在職証明書",
-          "req": "required",
+          "req": "conditional",
           "where": "勤務先／人事部",
           "how": "会社のレターヘッドに：役職、給与、承認済み休暇。"
         },
         {
-          "doc": "給与明細",
+          "doc": "Kartu Keluarga（インドネシア家族登録カード）",
           "req": "required",
-          "where": "勤務先",
-          "how": "収入を裏付ける最近の給与明細。"
+          "where": "すでにお持ちです",
+          "how": "インドネシア家族登録カード（Kartu Keluarga）のコピー。"
         },
         {
           "doc": "往復航空券・ホテルの予約",
@@ -507,7 +529,8 @@
         "required": "必須",
         "conditional": "該当する場合",
         "recommended": "推奨"
-      }
+      },
+      "factId": "visa-indonesia-documents"
     },
     "funds": {
       "title": "「いくら残高を示せばいいですか？」",
@@ -563,11 +586,13 @@
         },
         {
           "q": "どのような財政証明が必要ですか？",
-          "a": "3か月分の銀行取引明細に加え、在職証明書と給与明細が必要です。スポンサーがいる場合はスポンサーの書類も含めてください。"
+          "a": "銀行が発行し、銀行の実印を押した直近3か月の取引明細原本。 KVACの観光ビザ一覧にはインドネシアの家族登録カード（Kartu Keluarga）のコピーが含まれます。会社員は在職証明書原本、学生は在学証明書原本、事業主は営業許可証コピー、専業主婦・退職者はKTPコピーを用意します。自分の区分の一覧に従い、追加書類の要求にも対応してください。",
+          "factId": "visa-indonesia-documents"
         },
         {
           "q": "どこで申請しますか？",
-          "a": "駐インドネシア韓国大使館またはJakartaのKorea Visa Application Centerです。"
+          "a": "一般旅券の観光ビザはKVACジャカルタを通じて申請します。大使館への直接申請は外交・公用の区分や指定の例外に限られます。通常の観光申請で大使館へ直接行かないでください。",
+          "factId": "visa-indonesia-submission"
         },
         {
           "q": "費用はいくらですか？",
@@ -602,6 +627,21 @@
           "q": "複数ビザ?",
           "a": "対象者は5年・10年の複数ビザを申請でき、KVAC表の1回滞在は30日です。長い有効期間は連続居住や自動的な資格を意味しません。申請区分はKVACに確認してください。",
           "factId": "visa-indonesia-multiple"
+        },
+        {
+          "q": "ビザ料金はどう支払いますか？",
+          "a": "KVACジャカルタは2026年にキャッシュレスで運営しています。銀行振込、デビットカード、QRISで支払います。ビザ発給料金とKVACサービス料金は別です。申請前に最新料金表を確認してください。",
+          "factId": "visa-indonesia-payment"
+        },
+        {
+          "q": "申請とパスポート受取は何時ですか？",
+          "a": "祝日を除く月〜金：申請09:00–15:00 WIB、パスポート受取12:00–17:00 WIB。申請と受取の時間は異なります。訪問前に休業のお知らせも確認してください。",
+          "factId": "kvac-jakarta-hours"
+        },
+        {
+          "q": "状況に応じて必要な書類は何ですか？",
+          "a": "KVACの観光ビザ一覧にはインドネシアの家族登録カード（Kartu Keluarga）のコピーが含まれます。会社員は在職証明書原本、学生は在学証明書原本、事業主は営業許可証コピー、専業主婦・退職者はKTPコピーを用意します。自分の区分の一覧に従い、追加書類の要求にも対応してください。",
+          "factId": "visa-indonesia-documents"
         }
       ]
     },
@@ -714,7 +754,7 @@
     "metaDesc": "인도네시아 국민을 위한 한국 비자 · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "비자 가이드 · 인도네시아 → 한국",
     "readingTime": "8분 분량",
-    "updated": "2026-10-05",
+    "updated": "2026-10-09",
     "hero": {
       "img": "/img/visa/incheon-arrivals.jpg",
       "alt": "Arrivals at Incheon International Airport",
@@ -750,8 +790,8 @@
     ],
     "tldr": [
       "개인 여행자는 한국 본토를 위해 C-3 관광 비자가 필요합니다.",
-      "visa.go.kr에서 양식을 작성한 뒤, 주인도네시아 한국 대사관 / KVAC Jakarta에 제출하세요.",
-      "여권, 사진, 3개월 은행 거래내역서, 재직증명서 + 급여명세서를 지참하세요.",
+      "일반여권 관광비자 신청은 KVAC 자카르타를 통해 접수합니다. 대사관 직접 접수는 외교·공무 유형과 지정된 예외 사유에 한정되므로 일반 관광 신청자는 대사관으로 바로 방문하지 마세요.",
+      "KVAC 관광비자 목록에는 인도네시아 가족등록카드(Kartu Keluarga) 사본이 포함됩니다. 직장인은 재직증명서 원본, 학생은 재학증명서 원본, 사업자는 사업 허가증 사본, 전업주부·은퇴자는 KTP 사본을 준비합니다. 본인 유형의 목록을 따르며 추가 서류를 요구할 수 있습니다.",
       "시범기간은 2026-05-28~2026-12-31입니다. 지정된 인도네시아 여행사가 모집한 3인 이상 단체만 최대 15일 체류가 가능하며, 친구 세 명의 자유여행은 해당하지 않습니다. 한국 협력 여행사는 항공 입국 24시간 전·선박 36시간 전까지 하이코리아에 명단을 등록하고 사전 점검을 받아야 합니다. 원칙적으로 동일 항공편·선박편으로 함께 입출국합니다."
     ],
     "steps": {
@@ -765,19 +805,21 @@
         {
           "n": 2,
           "title": "visa.go.kr에서 양식 작성",
-          "detail": "Korea Visa Portal(유일한 공식 사이트)에서 신청서를 작성한 뒤 인쇄하여 서명하세요.",
+          "detail": "Korea Visa Portal에서 작성, 인쇄, 서명.",
           "link": "https://www.visa.go.kr",
           "linkLabel": "한국 비자 포털"
         },
         {
           "n": 3,
           "title": "서류 준비",
-          "detail": "아래 체크리스트를 준비하세요: 여권, 사진, 3개월 은행 거래내역서, 재직 증빙."
+          "detail": "KVAC 관광비자 목록에는 인도네시아 가족등록카드(Kartu Keluarga) 사본이 포함됩니다. 직장인은 재직증명서 원본, 학생은 재학증명서 원본, 사업자는 사업 허가증 사본, 전업주부·은퇴자는 KTP 사본을 준비합니다. 본인 유형의 목록을 따르며 추가 서류를 요구할 수 있습니다."
         },
         {
           "n": 4,
-          "title": "대사관 / KVAC Jakarta에 제출",
-          "detail": "주인도네시아 한국 대사관 또는 Jakarta의 Korea Visa Application Center에 신청서를 제출하세요."
+          "title": "KVAC Jakarta",
+          "detail": "일반여권 관광비자 신청은 KVAC 자카르타를 통해 접수합니다. 대사관 직접 접수는 외교·공무 유형과 지정된 예외 사유에 한정되므로 일반 관광 신청자는 대사관으로 바로 방문하지 마세요.",
+          "link": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+          "linkLabel": "KVAC Jakarta"
         },
         {
           "n": 5,
@@ -798,7 +840,7 @@
     },
     "documents": {
       "title": "서류 체크리스트 — 각 서류의 발급처와 방법",
-      "intro": "각 항목별로 발급받는 곳과 무엇이 나타나야 하는지 안내합니다.",
+      "intro": "KVAC 관광비자 목록에는 인도네시아 가족등록카드(Kartu Keluarga) 사본이 포함됩니다. 직장인은 재직증명서 원본, 학생은 재학증명서 원본, 사업자는 사업 허가증 사본, 전업주부·은퇴자는 KTP 사본을 준비합니다. 본인 유형의 목록을 따르며 추가 서류를 요구할 수 있습니다.",
       "cols": [
         "서류",
         "발급받는 곳",
@@ -822,25 +864,25 @@
           "doc": "사진",
           "req": "required",
           "where": "사진관",
-          "how": "최근 여권용 사진, 흰색 배경."
+          "how": "흰색 배경의 3.5 × 4.5 cm 사진 1장을 신청서에 부착하세요."
         },
         {
           "doc": "은행 거래내역서 — 최근 3개월",
           "req": "required",
           "where": "거래 은행",
-          "how": "잔액과 거래 내역을 보여주는 내역서. 안정적인 잔액이 가장 좋습니다."
+          "how": "은행이 발급하고 실제 도장을 찍은 최근 3개월 거래내역서 원본."
         },
         {
           "doc": "재직증명서",
-          "req": "required",
+          "req": "conditional",
           "where": "회사 / 인사팀",
           "how": "회사 레터헤드에: 직위, 급여, 승인된 휴가."
         },
         {
-          "doc": "급여명세서",
+          "doc": "Kartu Keluarga (인도네시아 가족등록카드)",
           "req": "required",
-          "where": "회사",
-          "how": "소득을 뒷받침하는 최근 급여명세서."
+          "where": "이미 보유",
+          "how": "인도네시아 가족등록카드(Kartu Keluarga) 사본."
         },
         {
           "doc": "왕복 항공권 및 호텔 예약",
@@ -859,7 +901,8 @@
         "required": "필수",
         "conditional": "본인에게 해당 시",
         "recommended": "권장"
-      }
+      },
+      "factId": "visa-indonesia-documents"
     },
     "funds": {
       "title": "“자금을 얼마나 보여줘야 하나요?”",
@@ -915,11 +958,13 @@
         },
         {
           "q": "어떤 재정 증빙이 필요한가요?",
-          "a": "3개월 은행 거래내역서와 재직증명서, 급여명세서가 필요합니다. 지원받는 경우 스폰서 서류를 포함하세요."
+          "a": "은행이 발급하고 실제 도장을 찍은 최근 3개월 거래내역서 원본. KVAC 관광비자 목록에는 인도네시아 가족등록카드(Kartu Keluarga) 사본이 포함됩니다. 직장인은 재직증명서 원본, 학생은 재학증명서 원본, 사업자는 사업 허가증 사본, 전업주부·은퇴자는 KTP 사본을 준비합니다. 본인 유형의 목록을 따르며 추가 서류를 요구할 수 있습니다.",
+          "factId": "visa-indonesia-documents"
         },
         {
           "q": "어디서 신청하나요?",
-          "a": "주인도네시아 한국 대사관 또는 Jakarta의 Korea Visa Application Center입니다."
+          "a": "일반여권 관광비자 신청은 KVAC 자카르타를 통해 접수합니다. 대사관 직접 접수는 외교·공무 유형과 지정된 예외 사유에 한정되므로 일반 관광 신청자는 대사관으로 바로 방문하지 마세요.",
+          "factId": "visa-indonesia-submission"
         },
         {
           "q": "비용은 얼마인가요?",
@@ -954,6 +999,21 @@
           "q": "복수비자?",
           "a": "적격 신청자는 5년·10년 복수비자를 신청할 수 있으며 KVAC 표의 1회 체류기간은 30일입니다. 긴 비자 유효기간이 장기 연속 체류나 자동 신청 자격을 뜻하지 않습니다. 본인의 신청 유형은 KVAC에 확인하세요.",
           "factId": "visa-indonesia-multiple"
+        },
+        {
+          "q": "비자 비용은 어떻게 결제하나요?",
+          "a": "KVAC 자카르타는 2026년 비현금 방식으로 운영됩니다. 은행 이체, 직불카드 또는 QRIS로 결제하세요. 사증 발급 수수료와 KVAC 서비스 비용은 별도이므로 접수 전 최신 요금표를 확인하세요.",
+          "factId": "visa-indonesia-payment"
+        },
+        {
+          "q": "접수와 여권 수령은 몇 시에 가능한가요?",
+          "a": "휴일을 제외한 월~금: 접수 09:00–15:00 WIB, 여권 수령 12:00–17:00 WIB입니다. 접수와 수령 시간이 다르므로 방문 전 휴무 공지도 확인하세요.",
+          "factId": "kvac-jakarta-hours"
+        },
+        {
+          "q": "내 상황에 따라 어떤 서류가 달라지나요?",
+          "a": "KVAC 관광비자 목록에는 인도네시아 가족등록카드(Kartu Keluarga) 사본이 포함됩니다. 직장인은 재직증명서 원본, 학생은 재학증명서 원본, 사업자는 사업 허가증 사본, 전업주부·은퇴자는 KTP 사본을 준비합니다. 본인 유형의 목록을 따르며 추가 서류를 요구할 수 있습니다.",
+          "factId": "visa-indonesia-documents"
         }
       ]
     },
@@ -1066,7 +1126,7 @@
     "metaDesc": "Visado de Corea para ciudadanos indonesios · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "Guía de visado · Indonesia → Corea",
     "readingTime": "8 min de lectura",
-    "updated": "2026-10-05",
+    "updated": "2026-10-09",
     "hero": {
       "img": "/img/visa/incheon-arrivals.jpg",
       "alt": "Arrivals at Incheon International Airport",
@@ -1102,8 +1162,8 @@
     ],
     "tldr": [
       "Los viajeros independientes necesitan un visado de turista C-3 para la Corea continental.",
-      "Rellene el formulario en visa.go.kr y luego preséntelo en la Embajada de Corea / KVAC Jakarta.",
-      "Lleve pasaporte, foto, extracto bancario de 3 meses, carta de empleo y nóminas.",
+      "Las solicitudes de visa turística con pasaporte ordinario se presentan a través de KVAC Yakarta. La presentación directa en la Embajada se reserva para categorías diplomáticas/oficiales y excepciones determinadas; no acuda directamente para una solicitud turística normal.",
+      "La lista turística de KVAC incluye una copia de la tarjeta familiar indonesia (Kartu Keluarga). Los empleados presentan certificado laboral original; estudiantes, certificado de estudios original; empresarios, copia de licencia comercial; amas de casa y jubilados, copia de KTP. Siga la lista de su categoría; pueden pedir documentación adicional.",
       "Prueba: 2026-05-28 a 2026-12-31. Solo grupos de 3 o más captados por agencias indonesias designadas, máximo 15 días. Tres amigos independientes no cumplen. El socio coreano registra la lista en HiKorea 24 horas antes por avión o 36 por barco y obtiene revisión previa; el grupo entra y sale normalmente en el mismo vuelo o barco."
     ],
     "steps": {
@@ -1117,19 +1177,21 @@
         {
           "n": 2,
           "title": "Rellene el formulario en visa.go.kr",
-          "detail": "Complete el formulario de solicitud en el Korea Visa Portal —el único sitio oficial—, luego imprímalo y fírmelo.",
+          "detail": "Complételo en el Korea Visa Portal, imprímalo y fírmelo.",
           "link": "https://www.visa.go.kr",
           "linkLabel": "Portal de Visados de Corea"
         },
         {
           "n": 3,
           "title": "Prepare sus documentos",
-          "detail": "Reúna la lista de abajo: pasaporte, foto, extracto bancario de 3 meses y prueba de empleo."
+          "detail": "La lista turística de KVAC incluye una copia de la tarjeta familiar indonesia (Kartu Keluarga). Los empleados presentan certificado laboral original; estudiantes, certificado de estudios original; empresarios, copia de licencia comercial; amas de casa y jubilados, copia de KTP. Siga la lista de su categoría; pueden pedir documentación adicional."
         },
         {
           "n": 4,
-          "title": "Presente en la Embajada / KVAC Jakarta",
-          "detail": "Presente su solicitud en la Embajada de Corea o en el Korea Visa Application Center de Jakarta."
+          "title": "KVAC Jakarta",
+          "detail": "Las solicitudes de visa turística con pasaporte ordinario se presentan a través de KVAC Yakarta. La presentación directa en la Embajada se reserva para categorías diplomáticas/oficiales y excepciones determinadas; no acuda directamente para una solicitud turística normal.",
+          "link": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+          "linkLabel": "KVAC Jakarta"
         },
         {
           "n": 5,
@@ -1150,7 +1212,7 @@
     },
     "documents": {
       "title": "Lista de documentos — con dónde y cómo obtener cada uno",
-      "intro": "Para cada documento, aquí tiene dónde obtenerlo y qué debe mostrar.",
+      "intro": "La lista turística de KVAC incluye una copia de la tarjeta familiar indonesia (Kartu Keluarga). Los empleados presentan certificado laboral original; estudiantes, certificado de estudios original; empresarios, copia de licencia comercial; amas de casa y jubilados, copia de KTP. Siga la lista de su categoría; pueden pedir documentación adicional.",
       "cols": [
         "Documento",
         "Dónde obtenerlo",
@@ -1174,25 +1236,25 @@
           "doc": "Foto",
           "req": "required",
           "where": "Cualquier estudio fotográfico",
-          "how": "Foto reciente tipo pasaporte, fondo blanco."
+          "how": "1 foto de 3.5 × 4.5 cm con fondo blanco, pegada al formulario."
         },
         {
           "doc": "Extracto bancario — últimos 3 meses",
           "req": "required",
           "where": "Su banco",
-          "how": "Extracto que muestre saldo e historial de movimientos; lo mejor es un saldo estable."
+          "how": "Detalle original de transacciones de los últimos 3 meses, emitido por el banco con su sello en tinta."
         },
         {
           "doc": "Carta de empleo",
-          "req": "required",
+          "req": "conditional",
           "where": "Su empresa / RR. HH.",
           "how": "En papel con membrete de la empresa: puesto, salario y permiso aprobado."
         },
         {
-          "doc": "Nóminas",
+          "doc": "Kartu Keluarga (tarjeta familiar indonesia)",
           "req": "required",
-          "where": "Su empresa",
-          "how": "Nóminas recientes que respalden sus ingresos."
+          "where": "Ya lo tiene",
+          "how": "Copia de la tarjeta familiar indonesia (Kartu Keluarga)."
         },
         {
           "doc": "Reserva de vuelo ida y vuelta y hotel",
@@ -1211,7 +1273,8 @@
         "required": "Obligatorio",
         "conditional": "Si le corresponde",
         "recommended": "Recomendado"
-      }
+      },
+      "factId": "visa-indonesia-documents"
     },
     "funds": {
       "title": "«¿Cuánto dinero debo mostrar?»",
@@ -1267,11 +1330,13 @@
         },
         {
           "q": "¿Qué prueba financiera necesito?",
-          "a": "Un extracto bancario de 3 meses más una carta de empleo y nóminas. Si le patrocinan, incluya los documentos del patrocinador."
+          "a": "Detalle original de transacciones de los últimos 3 meses, emitido por el banco con su sello en tinta. La lista turística de KVAC incluye una copia de la tarjeta familiar indonesia (Kartu Keluarga). Los empleados presentan certificado laboral original; estudiantes, certificado de estudios original; empresarios, copia de licencia comercial; amas de casa y jubilados, copia de KTP. Siga la lista de su categoría; pueden pedir documentación adicional.",
+          "factId": "visa-indonesia-documents"
         },
         {
           "q": "¿Dónde solicito?",
-          "a": "En la Embajada de Corea o en el Korea Visa Application Center de Jakarta."
+          "a": "Las solicitudes de visa turística con pasaporte ordinario se presentan a través de KVAC Yakarta. La presentación directa en la Embajada se reserva para categorías diplomáticas/oficiales y excepciones determinadas; no acuda directamente para una solicitud turística normal.",
+          "factId": "visa-indonesia-submission"
         },
         {
           "q": "¿Cuánto cuesta la tasa?",
@@ -1306,6 +1371,21 @@
           "q": "Entrada múltiple?",
           "a": "Los solicitantes elegibles pueden pedir visas múltiples de 5 o 10 años; KVAC indica 30 días por visita. La larga validez no implica residencia continua ni elegibilidad automática; confirme su categoría con KVAC.",
           "factId": "visa-indonesia-multiple"
+        },
+        {
+          "q": "¿Cómo pago las tasas de visa?",
+          "a": "KVAC Yakarta funciona sin efectivo en 2026. Use transferencia bancaria, tarjeta de débito o QRIS. La tasa de expedición y el cargo de KVAC son separados; consulte la tabla vigente antes de solicitar.",
+          "factId": "visa-indonesia-payment"
+        },
+        {
+          "q": "¿Cuándo puedo presentar la solicitud y recoger el pasaporte?",
+          "a": "Lunes–viernes, excepto festivos: solicitudes 09:00–15:00 WIB; recogida de pasaportes 12:00–17:00 WIB. Los horarios son distintos. Consulte los avisos de festivos antes de acudir.",
+          "factId": "kvac-jakarta-hours"
+        },
+        {
+          "q": "¿Qué documentos dependen de mi situación?",
+          "a": "La lista turística de KVAC incluye una copia de la tarjeta familiar indonesia (Kartu Keluarga). Los empleados presentan certificado laboral original; estudiantes, certificado de estudios original; empresarios, copia de licencia comercial; amas de casa y jubilados, copia de KTP. Siga la lista de su categoría; pueden pedir documentación adicional.",
+          "factId": "visa-indonesia-documents"
         }
       ]
     },
@@ -1418,7 +1498,7 @@
     "metaDesc": "วีซ่าเกาหลีสำหรับพลเมืองอินโดนีเซีย · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "คู่มือวีซ่า · อินโดนีเซีย → เกาหลี",
     "readingTime": "อ่าน 8 นาที",
-    "updated": "2026-10-05",
+    "updated": "2026-10-09",
     "hero": {
       "img": "/img/visa/incheon-arrivals.jpg",
       "alt": "Arrivals at Incheon International Airport",
@@ -1454,8 +1534,8 @@
     ],
     "tldr": [
       "นักท่องเที่ยวที่เดินทางด้วยตนเองต้องใช้วีซ่าท่องเที่ยว C-3 สำหรับเกาหลีแผ่นดินใหญ่",
-      "กรอกแบบฟอร์มที่ visa.go.kr แล้วยื่นที่สถานทูตเกาหลี / KVAC Jakarta",
-      "นำหนังสือเดินทาง รูปถ่าย รายการเดินบัญชีธนาคาร 3 เดือน หนังสือรับรองการทำงาน + สลิปเงินเดือนมาด้วย",
+      "ผู้ถือหนังสือเดินทางธรรมดายื่นวีซ่าท่องเที่ยวผ่าน KVAC จาการ์ตา การยื่นตรงต่อสถานทูตจำกัดเฉพาะประเภทการทูต/ราชการและข้อยกเว้นที่กำหนด อย่าไปสถานทูตโดยตรงเพื่อยื่นวีซ่าท่องเที่ยวทั่วไป",
+      "รายการวีซ่าท่องเที่ยว KVAC รวมสำเนาบัตรทะเบียนครอบครัวอินโดนีเซีย (Kartu Keluarga) ลูกจ้างใช้หนังสือรับรองการทำงานต้นฉบับ นักเรียน/นักศึกษาใช้หนังสือรับรองการศึกษาต้นฉบับ เจ้าของธุรกิจใช้สำเนาใบอนุญาตประกอบธุรกิจ แม่บ้านและผู้เกษียณใช้สำเนา KTP ปฏิบัติตามรายการสำหรับประเภทของคุณ และอาจมีการขอเอกสารเพิ่ม",
       "ทดลอง 2026-05-28 ถึง 2026-12-31 เฉพาะกรุ๊ปอย่างน้อย 3 คนที่บริษัทอินโดนีเซียซึ่งได้รับแต่งตั้งจัด พำนักสูงสุด 15 วัน เพื่อน 3 คนเที่ยวเองไม่เข้าเกณฑ์ บริษัทคู่ค้าเกาหลีลงทะเบียน HiKorea ก่อนถึงทางอากาศ 24 ชั่วโมงหรือทางเรือ 36 ชั่วโมงและผ่านตรวจล่วงหน้า โดยหลักต้องเข้าออกพร้อมกันด้วยเที่ยวบินหรือเรือเดียวกัน"
     ],
     "steps": {
@@ -1469,19 +1549,21 @@
         {
           "n": 2,
           "title": "กรอกแบบฟอร์มที่ visa.go.kr",
-          "detail": "กรอกแบบฟอร์มคำร้องบน Korea Visa Portal — เว็บไซต์ทางการเพียงแห่งเดียว — แล้วพิมพ์และลงลายมือชื่อ",
+          "detail": "กรอกบน Korea Visa Portal พิมพ์ ลงลายมือชื่อ",
           "link": "https://www.visa.go.kr",
           "linkLabel": "พอร์ทัลวีซ่าเกาหลี"
         },
         {
           "n": 3,
           "title": "เตรียมเอกสารของคุณ",
-          "detail": "รวบรวมรายการด้านล่าง: หนังสือเดินทาง รูปถ่าย รายการเดินบัญชีธนาคาร 3 เดือน และหลักฐานการทำงาน"
+          "detail": "รายการวีซ่าท่องเที่ยว KVAC รวมสำเนาบัตรทะเบียนครอบครัวอินโดนีเซีย (Kartu Keluarga) ลูกจ้างใช้หนังสือรับรองการทำงานต้นฉบับ นักเรียน/นักศึกษาใช้หนังสือรับรองการศึกษาต้นฉบับ เจ้าของธุรกิจใช้สำเนาใบอนุญาตประกอบธุรกิจ แม่บ้านและผู้เกษียณใช้สำเนา KTP ปฏิบัติตามรายการสำหรับประเภทของคุณ และอาจมีการขอเอกสารเพิ่ม"
         },
         {
           "n": 4,
-          "title": "ยื่นที่สถานทูต / KVAC Jakarta",
-          "detail": "ยื่นคำร้องของคุณที่สถานทูตเกาหลีหรือ Korea Visa Application Center ใน Jakarta"
+          "title": "KVAC Jakarta",
+          "detail": "ผู้ถือหนังสือเดินทางธรรมดายื่นวีซ่าท่องเที่ยวผ่าน KVAC จาการ์ตา การยื่นตรงต่อสถานทูตจำกัดเฉพาะประเภทการทูต/ราชการและข้อยกเว้นที่กำหนด อย่าไปสถานทูตโดยตรงเพื่อยื่นวีซ่าท่องเที่ยวทั่วไป",
+          "link": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+          "linkLabel": "KVAC Jakarta"
         },
         {
           "n": 5,
@@ -1502,7 +1584,7 @@
     },
     "documents": {
       "title": "รายการตรวจสอบเอกสาร — พร้อมสถานที่และวิธีรับแต่ละอย่าง",
-      "intro": "สำหรับแต่ละรายการ นี่คือสถานที่รับและสิ่งที่ต้องแสดง",
+      "intro": "รายการวีซ่าท่องเที่ยว KVAC รวมสำเนาบัตรทะเบียนครอบครัวอินโดนีเซีย (Kartu Keluarga) ลูกจ้างใช้หนังสือรับรองการทำงานต้นฉบับ นักเรียน/นักศึกษาใช้หนังสือรับรองการศึกษาต้นฉบับ เจ้าของธุรกิจใช้สำเนาใบอนุญาตประกอบธุรกิจ แม่บ้านและผู้เกษียณใช้สำเนา KTP ปฏิบัติตามรายการสำหรับประเภทของคุณ และอาจมีการขอเอกสารเพิ่ม",
       "cols": [
         "เอกสาร",
         "รับได้ที่ไหน",
@@ -1526,25 +1608,25 @@
           "doc": "รูปถ่าย",
           "req": "required",
           "where": "ร้านถ่ายรูปใดก็ได้",
-          "how": "รูปถ่ายแบบหนังสือเดินทางล่าสุด พื้นหลังสีขาว"
+          "how": "รูปถ่าย 1 ใบ ขนาด 3.5 × 4.5 cm พื้นหลังสีขาว ติดบนแบบคำร้อง"
         },
         {
           "doc": "รายการเดินบัญชีธนาคาร — 3 เดือนล่าสุด",
           "req": "required",
           "where": "ธนาคารของคุณ",
-          "how": "รายการเดินบัญชีที่แสดงยอดคงเหลือและประวัติการทำธุรกรรม ยอดคงเหลือที่มั่นคงดีที่สุด"
+          "how": "รายละเอียดธุรกรรมธนาคารต้นฉบับย้อนหลัง 3 เดือน ออกโดยธนาคารพร้อมตราประทับหมึกของธนาคาร"
         },
         {
           "doc": "หนังสือรับรองการทำงาน",
-          "req": "required",
+          "req": "conditional",
           "where": "นายจ้าง / ฝ่ายบุคคลของคุณ",
           "how": "บนหัวจดหมายบริษัท: ตำแหน่ง เงินเดือน และการอนุมัติวันลา"
         },
         {
-          "doc": "สลิปเงินเดือน",
+          "doc": "Kartu Keluarga (บัตรทะเบียนครอบครัวอินโดนีเซีย)",
           "req": "required",
-          "where": "นายจ้างของคุณ",
-          "how": "สลิปเงินเดือนล่าสุดที่สนับสนุนรายได้ของคุณ"
+          "where": "คุณมีอยู่แล้ว",
+          "how": "สำเนาบัตรทะเบียนครอบครัวอินโดนีเซีย (Kartu Keluarga)"
         },
         {
           "doc": "การจองตั๋วเครื่องบินไป-กลับและโรงแรม",
@@ -1563,7 +1645,8 @@
         "required": "จำเป็น",
         "conditional": "หากเข้าข่ายกับคุณ",
         "recommended": "แนะนำ"
-      }
+      },
+      "factId": "visa-indonesia-documents"
     },
     "funds": {
       "title": "\"ควรแสดงเงินเท่าไหร่?\"",
@@ -1619,11 +1702,13 @@
         },
         {
           "q": "ต้องใช้หลักฐานทางการเงินอะไรบ้าง?",
-          "a": "รายการเดินบัญชีธนาคาร 3 เดือน พร้อมหนังสือรับรองการทำงานและสลิปเงินเดือน หากมีผู้สนับสนุน ให้แนบเอกสารของผู้สนับสนุนด้วย"
+          "a": "รายละเอียดธุรกรรมธนาคารต้นฉบับย้อนหลัง 3 เดือน ออกโดยธนาคารพร้อมตราประทับหมึกของธนาคาร รายการวีซ่าท่องเที่ยว KVAC รวมสำเนาบัตรทะเบียนครอบครัวอินโดนีเซีย (Kartu Keluarga) ลูกจ้างใช้หนังสือรับรองการทำงานต้นฉบับ นักเรียน/นักศึกษาใช้หนังสือรับรองการศึกษาต้นฉบับ เจ้าของธุรกิจใช้สำเนาใบอนุญาตประกอบธุรกิจ แม่บ้านและผู้เกษียณใช้สำเนา KTP ปฏิบัติตามรายการสำหรับประเภทของคุณ และอาจมีการขอเอกสารเพิ่ม",
+          "factId": "visa-indonesia-documents"
         },
         {
           "q": "ยื่นขอที่ไหน?",
-          "a": "ที่สถานทูตเกาหลีหรือ Korea Visa Application Center ใน Jakarta"
+          "a": "ผู้ถือหนังสือเดินทางธรรมดายื่นวีซ่าท่องเที่ยวผ่าน KVAC จาการ์ตา การยื่นตรงต่อสถานทูตจำกัดเฉพาะประเภทการทูต/ราชการและข้อยกเว้นที่กำหนด อย่าไปสถานทูตโดยตรงเพื่อยื่นวีซ่าท่องเที่ยวทั่วไป",
+          "factId": "visa-indonesia-submission"
         },
         {
           "q": "ค่าธรรมเนียมเท่าไหร่?",
@@ -1658,6 +1743,21 @@
           "q": "วีซ่าหลายครั้ง?",
           "a": "ผู้เข้าเกณฑ์สมัครวีซ่าหลายครั้ง 5 หรือ 10 ปีได้ ตาราง KVAC ระบุพำนักครั้งละ 30 วัน อายุวีซ่ายาวไม่ใช่การพำนักต่อเนื่องหรือได้สิทธิอัตโนมัติ ตรวจประเภทกับ KVAC",
           "factId": "visa-indonesia-multiple"
+        },
+        {
+          "q": "ชำระค่าธรรมเนียมวีซ่าอย่างไร?",
+          "a": "KVAC จาการ์ตาใช้การชำระเงินแบบไม่ใช้เงินสดใน 2026 ใช้การโอนธนาคาร บัตรเดบิต หรือ QRIS ค่าธรรมเนียมออกวีซ่าและค่าบริการ KVAC แยกกัน โปรดดูตารางล่าสุดก่อนยื่น",
+          "factId": "visa-indonesia-payment"
+        },
+        {
+          "q": "ยื่นคำร้องและรับหนังสือเดินทางได้เมื่อไร?",
+          "a": "วันจันทร์–ศุกร์ ยกเว้นวันหยุด: ยื่นคำร้อง 09:00–15:00 WIB รับหนังสือเดินทาง 12:00–17:00 WIB เวลายื่นและรับต่างกัน ตรวจสอบประกาศวันหยุดก่อนเดินทางไป",
+          "factId": "kvac-jakarta-hours"
+        },
+        {
+          "q": "เอกสารใดขึ้นอยู่กับสถานะของฉัน?",
+          "a": "รายการวีซ่าท่องเที่ยว KVAC รวมสำเนาบัตรทะเบียนครอบครัวอินโดนีเซีย (Kartu Keluarga) ลูกจ้างใช้หนังสือรับรองการทำงานต้นฉบับ นักเรียน/นักศึกษาใช้หนังสือรับรองการศึกษาต้นฉบับ เจ้าของธุรกิจใช้สำเนาใบอนุญาตประกอบธุรกิจ แม่บ้านและผู้เกษียณใช้สำเนา KTP ปฏิบัติตามรายการสำหรับประเภทของคุณ และอาจมีการขอเอกสารเพิ่ม",
+          "factId": "visa-indonesia-documents"
         }
       ]
     },
@@ -1770,7 +1870,7 @@
     "metaDesc": "Visa Korea untuk warganegara Indonesia · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "Panduan visa · Indonesia → Korea",
     "readingTime": "bacaan 8 minit",
-    "updated": "2026-10-05",
+    "updated": "2026-10-09",
     "hero": {
       "img": "/img/visa/incheon-arrivals.jpg",
       "alt": "Arrivals at Incheon International Airport",
@@ -1806,8 +1906,8 @@
     ],
     "tldr": [
       "Pengembara bebas memerlukan visa pelancong C-3 untuk tanah besar Korea.",
-      "Isi borang di visa.go.kr, kemudian kemukakan di Kedutaan Korea / KVAC Jakarta.",
-      "Bawa pasport, gambar, penyata bank 3 bulan, surat pekerjaan dan slip gaji.",
+      "Permohonan visa pelancong pemegang pasport biasa dibuat melalui KVAC Jakarta. Permohonan terus di Kedutaan hanya untuk kategori diplomatik/rasmi dan pengecualian tertentu; jangan pergi terus ke Kedutaan untuk permohonan pelancongan biasa.",
+      "Senarai visa pelancong KVAC merangkumi salinan kad keluarga Indonesia (Kartu Keluarga). Pekerja menyerahkan sijil pekerjaan asal; pelajar sijil pengajian asal; pemilik perniagaan salinan lesen perniagaan; suri rumah dan pesara salinan KTP. Ikuti senarai kategori anda; dokumen tambahan mungkin diminta.",
       "Percubaan: 2026-05-28 hingga 2026-12-31. Hanya kumpulan sekurang-kurangnya 3 orang melalui agensi Indonesia dilantik, maksimum 15 hari. Tiga rakan melancong sendiri tidak layak. Rakan Korea mendaftar senarai HiKorea 24 jam sebelum tiba melalui udara atau 36 jam melalui laut dan mendapat pemeriksaan awal; ahli pada asasnya masuk/keluar bersama penerbangan atau kapal yang sama."
     ],
     "steps": {
@@ -1821,19 +1921,21 @@
         {
           "n": 2,
           "title": "Isi borang di visa.go.kr",
-          "detail": "Lengkapkan borang permohonan di Korea Visa Portal — satu-satunya laman rasmi — kemudian cetak dan tandatangani.",
+          "detail": "Lengkapkan di Korea Visa Portal, cetak, tandatangani.",
           "link": "https://www.visa.go.kr",
           "linkLabel": "Portal Visa Korea"
         },
         {
           "n": 3,
           "title": "Sediakan dokumen anda",
-          "detail": "Kumpulkan senarai di bawah: pasport, gambar, penyata bank 3 bulan dan bukti pekerjaan."
+          "detail": "Senarai visa pelancong KVAC merangkumi salinan kad keluarga Indonesia (Kartu Keluarga). Pekerja menyerahkan sijil pekerjaan asal; pelajar sijil pengajian asal; pemilik perniagaan salinan lesen perniagaan; suri rumah dan pesara salinan KTP. Ikuti senarai kategori anda; dokumen tambahan mungkin diminta."
         },
         {
           "n": 4,
-          "title": "Kemukakan di Kedutaan / KVAC Jakarta",
-          "detail": "Kemukakan permohonan anda di Kedutaan Korea atau Korea Visa Application Center di Jakarta."
+          "title": "KVAC Jakarta",
+          "detail": "Permohonan visa pelancong pemegang pasport biasa dibuat melalui KVAC Jakarta. Permohonan terus di Kedutaan hanya untuk kategori diplomatik/rasmi dan pengecualian tertentu; jangan pergi terus ke Kedutaan untuk permohonan pelancongan biasa.",
+          "link": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+          "linkLabel": "KVAC Jakarta"
         },
         {
           "n": 5,
@@ -1854,7 +1956,7 @@
     },
     "documents": {
       "title": "Senarai semak dokumen — dengan di mana & cara mendapatkan setiap satu",
-      "intro": "Bagi setiap dokumen, berikut ialah tempat mendapatkannya dan apa yang perlu ditunjukkannya.",
+      "intro": "Senarai visa pelancong KVAC merangkumi salinan kad keluarga Indonesia (Kartu Keluarga). Pekerja menyerahkan sijil pekerjaan asal; pelajar sijil pengajian asal; pemilik perniagaan salinan lesen perniagaan; suri rumah dan pesara salinan KTP. Ikuti senarai kategori anda; dokumen tambahan mungkin diminta.",
       "cols": [
         "Dokumen",
         "Di mana mendapatkannya",
@@ -1878,25 +1980,25 @@
           "doc": "Gambar",
           "req": "required",
           "where": "Mana-mana studio gambar",
-          "how": "Gambar terkini gaya pasport, latar belakang putih."
+          "how": "1 foto 3.5 × 4.5 cm berlatar putih, dilekatkan pada borang permohonan."
         },
         {
           "doc": "Penyata bank — 3 bulan terakhir",
           "req": "required",
           "where": "Bank anda",
-          "how": "Penyata yang menunjukkan baki dan sejarah transaksi; baki yang stabil adalah terbaik."
+          "how": "Butiran transaksi bank asal bagi 3 bulan terkini, dikeluarkan oleh bank dengan cop dakwat bank."
         },
         {
           "doc": "Surat pekerjaan",
-          "req": "required",
+          "req": "conditional",
           "where": "Majikan / HR anda",
           "how": "Pada kepala surat syarikat: jawatan, gaji dan cuti yang diluluskan."
         },
         {
-          "doc": "Slip gaji",
+          "doc": "Kartu Keluarga (kad keluarga Indonesia)",
           "req": "required",
-          "where": "Majikan anda",
-          "how": "Slip gaji terkini yang menyokong pendapatan anda."
+          "where": "Anda sudah memilikinya",
+          "how": "Salinan kad keluarga Indonesia (Kartu Keluarga)."
         },
         {
           "doc": "Tempahan penerbangan pergi-balik & hotel",
@@ -1915,7 +2017,8 @@
         "required": "Wajib",
         "conditional": "Jika berkenaan dengan anda",
         "recommended": "Disyorkan"
-      }
+      },
+      "factId": "visa-indonesia-documents"
     },
     "funds": {
       "title": "\"Berapa banyak wang yang perlu saya tunjukkan?\"",
@@ -1971,11 +2074,13 @@
         },
         {
           "q": "Bukti kewangan apa yang saya perlukan?",
-          "a": "Penyata bank 3 bulan serta surat pekerjaan dan slip gaji. Jika ditaja, sertakan dokumen penaja."
+          "a": "Butiran transaksi bank asal bagi 3 bulan terkini, dikeluarkan oleh bank dengan cop dakwat bank. Senarai visa pelancong KVAC merangkumi salinan kad keluarga Indonesia (Kartu Keluarga). Pekerja menyerahkan sijil pekerjaan asal; pelajar sijil pengajian asal; pemilik perniagaan salinan lesen perniagaan; suri rumah dan pesara salinan KTP. Ikuti senarai kategori anda; dokumen tambahan mungkin diminta.",
+          "factId": "visa-indonesia-documents"
         },
         {
           "q": "Di mana saya memohon?",
-          "a": "Di Kedutaan Korea atau Korea Visa Application Center di Jakarta."
+          "a": "Permohonan visa pelancong pemegang pasport biasa dibuat melalui KVAC Jakarta. Permohonan terus di Kedutaan hanya untuk kategori diplomatik/rasmi dan pengecualian tertentu; jangan pergi terus ke Kedutaan untuk permohonan pelancongan biasa.",
+          "factId": "visa-indonesia-submission"
         },
         {
           "q": "Berapakah yurannya?",
@@ -2010,6 +2115,21 @@
           "q": "Visa berbilang?",
           "a": "Pemohon layak boleh memohon visa berbilang 5 atau 10 tahun; jadual KVAC menyatakan 30 hari setiap lawatan. Tempoh sah panjang bukan tinggal berterusan atau kelayakan automatik; semak kategori dengan KVAC.",
           "factId": "visa-indonesia-multiple"
+        },
+        {
+          "q": "Bagaimanakah saya membayar fi visa?",
+          "a": "KVAC Jakarta beroperasi tanpa tunai pada 2026. Gunakan pindahan bank, kad debit atau QRIS. Fi pengeluaran visa dan caj perkhidmatan KVAC berasingan; semak jadual fi terkini sebelum memohon.",
+          "factId": "visa-indonesia-payment"
+        },
+        {
+          "q": "Bilakah saya boleh memohon dan mengambil pasport?",
+          "a": "Isnin–Jumaat, kecuali cuti: permohonan 09:00–15:00 WIB; pengambilan pasport 12:00–17:00 WIB. Waktu permohonan dan pengambilan berbeza. Semak pengumuman cuti sebelum berkunjung.",
+          "factId": "kvac-jakarta-hours"
+        },
+        {
+          "q": "Dokumen manakah bergantung pada keadaan saya?",
+          "a": "Senarai visa pelancong KVAC merangkumi salinan kad keluarga Indonesia (Kartu Keluarga). Pekerja menyerahkan sijil pekerjaan asal; pelajar sijil pengajian asal; pemilik perniagaan salinan lesen perniagaan; suri rumah dan pesara salinan KTP. Ikuti senarai kategori anda; dokumen tambahan mungkin diminta.",
+          "factId": "visa-indonesia-documents"
         }
       ]
     },
@@ -2122,7 +2242,7 @@
     "metaDesc": "印尼人去韩国要签证吗？个人需签证 · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "签证指南 · 印度尼西亚 → 韩国",
     "readingTime": "阅读 8 分钟",
-    "updated": "2026-10-05",
+    "updated": "2026-10-09",
     "hero": {
       "img": "/img/visa/incheon-arrivals.jpg",
       "alt": "Arrivals at Incheon International Airport",
@@ -2158,8 +2278,8 @@
     ],
     "tldr": [
       "自由行旅客前往韩国本土需要 C-3 旅游签证。",
-      "在 visa.go.kr 填写表格，然后在韩国驻印度尼西亚大使馆／KVAC Jakarta 提交。",
-      "携带护照、照片、3 个月银行对账单、在职证明和工资单。",
+      "普通护照持有人的旅游签证通过KVAC雅加达申请。使馆直接受理仅限外交、公务类别及指定例外情况；普通旅游申请不要直接前往使馆。",
+      "KVAC旅游签证清单包含印度尼西亚家庭登记卡（Kartu Keluarga）复印件。雇员提供在职证明原件；学生提供在学证明原件；企业主提供营业许可复印件；家庭主妇及退休人员提供KTP复印件。遵循所属类别清单，可能要求补充材料。",
       "试行期：2026-05-28至2026-12-31。仅限指定印尼旅行社招募的3人以上团队，最长15天。三个朋友自由行不符合条件。韩国合作社须在航空抵达24小时前或海路36小时前向HiKorea登记名单并接受预审；原则上同一航班或船次集体入出境。"
     ],
     "steps": {
@@ -2173,19 +2293,21 @@
         {
           "n": 2,
           "title": "在 visa.go.kr 填写表格",
-          "detail": "在 Korea Visa Portal（唯一官方网站）填写申请表，然后打印并签名。",
+          "detail": "在 Korea Visa Portal 填写、打印、签名。",
           "link": "https://www.visa.go.kr",
           "linkLabel": "韩国签证门户"
         },
         {
           "n": 3,
           "title": "准备您的文件",
-          "detail": "备齐以下清单：护照、照片、3 个月银行对账单和工作证明。"
+          "detail": "KVAC旅游签证清单包含印度尼西亚家庭登记卡（Kartu Keluarga）复印件。雇员提供在职证明原件；学生提供在学证明原件；企业主提供营业许可复印件；家庭主妇及退休人员提供KTP复印件。遵循所属类别清单，可能要求补充材料。"
         },
         {
           "n": 4,
-          "title": "在大使馆／KVAC Jakarta 提交",
-          "detail": "向韩国大使馆或 Jakarta 的 Korea Visa Application Center 递交申请。"
+          "title": "KVAC Jakarta",
+          "detail": "普通护照持有人的旅游签证通过KVAC雅加达申请。使馆直接受理仅限外交、公务类别及指定例外情况；普通旅游申请不要直接前往使馆。",
+          "link": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+          "linkLabel": "KVAC Jakarta"
         },
         {
           "n": 5,
@@ -2206,7 +2328,7 @@
     },
     "documents": {
       "title": "文件清单 — 附每份文件的获取地点与方式",
-      "intro": "对于每一项，这里说明在哪里获取以及必须显示的内容。",
+      "intro": "KVAC旅游签证清单包含印度尼西亚家庭登记卡（Kartu Keluarga）复印件。雇员提供在职证明原件；学生提供在学证明原件；企业主提供营业许可复印件；家庭主妇及退休人员提供KTP复印件。遵循所属类别清单，可能要求补充材料。",
       "cols": [
         "文件",
         "在哪里获取",
@@ -2230,25 +2352,25 @@
           "doc": "照片",
           "req": "required",
           "where": "任何照相馆",
-          "how": "近期护照式照片，白色背景。"
+          "how": "1张3.5 × 4.5 cm白色背景照片，粘贴在申请表上。"
         },
         {
           "doc": "银行对账单 — 最近 3 个月",
           "req": "required",
           "where": "您的银行",
-          "how": "显示余额和交易记录的对账单；余额稳定为佳。"
+          "how": "由银行出具并加盖银行实体印章的最近3个月交易明细原件。"
         },
         {
           "doc": "在职证明",
-          "req": "required",
+          "req": "conditional",
           "where": "您的雇主／人力资源部",
           "how": "公司信头上：职位、薪资和已批准的休假。"
         },
         {
-          "doc": "工资单",
+          "doc": "Kartu Keluarga（印度尼西亚家庭登记卡）",
           "req": "required",
-          "where": "您的雇主",
-          "how": "支持您收入的近期工资单。"
+          "where": "您已持有",
+          "how": "印度尼西亚家庭登记卡（Kartu Keluarga）复印件。"
         },
         {
           "doc": "往返机票和酒店预订",
@@ -2267,7 +2389,8 @@
         "required": "必需",
         "conditional": "如适用于您",
         "recommended": "建议"
-      }
+      },
+      "factId": "visa-indonesia-documents"
     },
     "funds": {
       "title": "「我应该出示多少资金？」",
@@ -2323,11 +2446,13 @@
         },
         {
           "q": "我需要什么财力证明？",
-          "a": "3 个月银行对账单，外加在职证明和工资单。如有担保，请附上担保人的文件。"
+          "a": "由银行出具并加盖银行实体印章的最近3个月交易明细原件。 KVAC旅游签证清单包含印度尼西亚家庭登记卡（Kartu Keluarga）复印件。雇员提供在职证明原件；学生提供在学证明原件；企业主提供营业许可复印件；家庭主妇及退休人员提供KTP复印件。遵循所属类别清单，可能要求补充材料。",
+          "factId": "visa-indonesia-documents"
         },
         {
           "q": "我在哪里申请？",
-          "a": "在韩国大使馆或 Jakarta 的 Korea Visa Application Center。"
+          "a": "普通护照持有人的旅游签证通过KVAC雅加达申请。使馆直接受理仅限外交、公务类别及指定例外情况；普通旅游申请不要直接前往使馆。",
+          "factId": "visa-indonesia-submission"
         },
         {
           "q": "费用是多少？",
@@ -2362,6 +2487,21 @@
           "q": "多次签证?",
           "a": "符合条件者可申请5年或10年多次签证；KVAC表列每次停留30天。长期有效不代表连续居留或自动符合资格；请向KVAC核实申请类别。",
           "factId": "visa-indonesia-multiple"
+        },
+        {
+          "q": "如何支付签证费用？",
+          "a": "KVAC雅加达在2026年实行非现金支付，可使用银行转账、借记卡或QRIS。签证签发费和KVAC服务费分开收取；申请前请查看最新费用表。",
+          "factId": "visa-indonesia-payment"
+        },
+        {
+          "q": "何时可以提交申请及领取护照？",
+          "a": "周一至周五，节假日除外：申请09:00–15:00 WIB，护照领取12:00–17:00 WIB。提交和领取时间不同，前往前请查看休假公告。",
+          "factId": "kvac-jakarta-hours"
+        },
+        {
+          "q": "哪些文件取决于我的情况？",
+          "a": "KVAC旅游签证清单包含印度尼西亚家庭登记卡（Kartu Keluarga）复印件。雇员提供在职证明原件；学生提供在学证明原件；企业主提供营业许可复印件；家庭主妇及退休人员提供KTP复印件。遵循所属类别清单，可能要求补充材料。",
+          "factId": "visa-indonesia-documents"
         }
       ]
     },
@@ -2474,7 +2614,7 @@
     "metaDesc": "印尼人去韓國要簽證嗎？個人需簽證 · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "簽證指南 · 印尼 → 韓國",
     "readingTime": "閱讀 8 分鐘",
-    "updated": "2026-10-05",
+    "updated": "2026-10-09",
     "hero": {
       "alt": "仁川國際機場入境大廳"
     },
@@ -2507,8 +2647,8 @@
     ],
     "tldr": [
       "自由行旅客前往韓國本土需要 C-3 旅遊簽證。",
-      "在 visa.go.kr 填寫表格，然後在韓國駐印尼大使館／KVAC Jakarta 遞交。",
-      "攜帶護照、照片、3 個月銀行對帳單、在職證明和薪資單。",
+      "普通護照持有人的觀光簽證透過KVAC雅加達申請。使館直接受理僅限外交、公務類別及指定例外情況；一般觀光申請不要直接前往使館。",
+      "KVAC觀光簽證清單包含印尼家庭登記卡（Kartu Keluarga）影本。受僱者提供在職證明正本；學生提供在學證明正本；企業主提供營業許可影本；家庭主婦及退休人員提供KTP影本。遵循所屬類別清單，可能要求補充資料。",
       "試行期：2026-05-28至2026-12-31。僅限指定印尼旅行社招募的3人以上團體，最長15天。三個朋友自由行不符合資格。韓國合作社須在航空抵達24小時前或海路36小時前向HiKorea登錄名單並接受預審；原則上同一航班或船班集體入出境。"
     ],
     "steps": {
@@ -2522,19 +2662,21 @@
         {
           "n": 2,
           "title": "在 visa.go.kr 填寫表格",
-          "detail": "在 Korea Visa Portal（唯一官方網站）填寫申請表，然後列印並簽名。",
+          "detail": "在 Korea Visa Portal 填寫、列印、簽名。",
           "link": "https://www.visa.go.kr",
           "linkLabel": "韓國簽證入口網"
         },
         {
           "n": 3,
           "title": "準備您的文件",
-          "detail": "備齊以下清單：護照、照片、3 個月銀行對帳單和工作證明。"
+          "detail": "KVAC觀光簽證清單包含印尼家庭登記卡（Kartu Keluarga）影本。受僱者提供在職證明正本；學生提供在學證明正本；企業主提供營業許可影本；家庭主婦及退休人員提供KTP影本。遵循所屬類別清單，可能要求補充資料。"
         },
         {
           "n": 4,
-          "title": "在大使館／KVAC Jakarta 遞交",
-          "detail": "向韓國大使館或 Jakarta 的 Korea Visa Application Center 遞交申請。"
+          "title": "KVAC Jakarta",
+          "detail": "普通護照持有人的觀光簽證透過KVAC雅加達申請。使館直接受理僅限外交、公務類別及指定例外情況；一般觀光申請不要直接前往使館。",
+          "link": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+          "linkLabel": "KVAC Jakarta"
         },
         {
           "n": 5,
@@ -2555,7 +2697,7 @@
     },
     "documents": {
       "title": "文件清單 — 附每份文件的取得地點與方式",
-      "intro": "對於每一項，這裡說明在哪裡取得以及必須顯示的內容。",
+      "intro": "KVAC觀光簽證清單包含印尼家庭登記卡（Kartu Keluarga）影本。受僱者提供在職證明正本；學生提供在學證明正本；企業主提供營業許可影本；家庭主婦及退休人員提供KTP影本。遵循所屬類別清單，可能要求補充資料。",
       "cols": [
         "文件",
         "在哪裡取得",
@@ -2579,25 +2721,25 @@
           "doc": "照片",
           "req": "required",
           "where": "任何照相館",
-          "how": "近期護照式照片，白色背景。"
+          "how": "1張3.5 × 4.5 cm白色背景照片，黏貼在申請表上。"
         },
         {
           "doc": "銀行對帳單 — 最近 3 個月",
           "req": "required",
           "where": "您的銀行",
-          "how": "顯示餘額和交易紀錄的對帳單；餘額穩定為佳。"
+          "how": "由銀行出具並加蓋銀行實體印章的最近3個月交易明細正本。"
         },
         {
           "doc": "在職證明",
-          "req": "required",
+          "req": "conditional",
           "where": "您的雇主／人力資源部",
           "how": "公司信頭上：職位、薪資和已核准的休假。"
         },
         {
-          "doc": "薪資單",
+          "doc": "Kartu Keluarga（印尼家庭登記卡）",
           "req": "required",
-          "where": "您的雇主",
-          "how": "佐證您收入的近期薪資單。"
+          "where": "您已持有",
+          "how": "印尼家庭登記卡（Kartu Keluarga）影本。"
         },
         {
           "doc": "來回機票和飯店預訂",
@@ -2616,7 +2758,8 @@
         "required": "必需",
         "conditional": "如適用於您",
         "recommended": "建議"
-      }
+      },
+      "factId": "visa-indonesia-documents"
     },
     "funds": {
       "title": "「我應該出示多少資金？」",
@@ -2672,11 +2815,13 @@
         },
         {
           "q": "我需要什麼財力證明？",
-          "a": "3 個月銀行對帳單，外加在職證明和薪資單。如有擔保，請附上擔保人的文件。"
+          "a": "由銀行出具並加蓋銀行實體印章的最近3個月交易明細正本。 KVAC觀光簽證清單包含印尼家庭登記卡（Kartu Keluarga）影本。受僱者提供在職證明正本；學生提供在學證明正本；企業主提供營業許可影本；家庭主婦及退休人員提供KTP影本。遵循所屬類別清單，可能要求補充資料。",
+          "factId": "visa-indonesia-documents"
         },
         {
           "q": "我在哪裡申請？",
-          "a": "在韓國大使館或 Jakarta 的 Korea Visa Application Center。"
+          "a": "普通護照持有人的觀光簽證透過KVAC雅加達申請。使館直接受理僅限外交、公務類別及指定例外情況；一般觀光申請不要直接前往使館。",
+          "factId": "visa-indonesia-submission"
         },
         {
           "q": "費用是多少？",
@@ -2711,6 +2856,21 @@
           "q": "多次簽證?",
           "a": "符合資格者可申請5年或10年多次簽證；KVAC表列每次停留30天。長期效期不代表連續居留或自動符合資格；請向KVAC確認申請類別。",
           "factId": "visa-indonesia-multiple"
+        },
+        {
+          "q": "如何支付簽證費用？",
+          "a": "KVAC雅加達在2026年實行非現金支付，可使用銀行轉帳、簽帳金融卡或QRIS。簽證核發費和KVAC服務費分開收取；申請前請查看最新費用表。",
+          "factId": "visa-indonesia-payment"
+        },
+        {
+          "q": "何時可以提交申請及領取護照？",
+          "a": "週一至週五，假日除外：申請09:00–15:00 WIB，護照領取12:00–17:00 WIB。提交和領取時間不同，前往前請查看休假公告。",
+          "factId": "kvac-jakarta-hours"
+        },
+        {
+          "q": "哪些文件取決於我的情況？",
+          "a": "KVAC觀光簽證清單包含印尼家庭登記卡（Kartu Keluarga）影本。受僱者提供在職證明正本；學生提供在學證明正本；企業主提供營業許可影本；家庭主婦及退休人員提供KTP影本。遵循所屬類別清單，可能要求補充資料。",
+          "factId": "visa-indonesia-documents"
         }
       ]
     },
@@ -2828,7 +2988,7 @@
     "metaDesc": "Thị thực Hàn Quốc cho công dân Indonesia · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "Hướng dẫn thị thực · Indonesia → Hàn Quốc",
     "readingTime": "đọc 8 phút",
-    "updated": "2026-10-05",
+    "updated": "2026-10-09",
     "hero": {
       "img": "/img/visa/incheon-arrivals.jpg",
       "alt": "Arrivals at Incheon International Airport",
@@ -2864,8 +3024,8 @@
     ],
     "tldr": [
       "Khách du lịch tự túc cần thị thực du lịch C-3 cho Hàn Quốc đại lục.",
-      "Điền biểu mẫu tại visa.go.kr, sau đó nộp tại Đại sứ quán Hàn Quốc / KVAC Jakarta.",
-      "Mang theo hộ chiếu, ảnh, sao kê ngân hàng 3 tháng, thư xác nhận việc làm và phiếu lương.",
+      "Người mang hộ chiếu phổ thông nộp visa du lịch qua KVAC Jakarta. Đại sứ quán chỉ nhận trực tiếp các diện ngoại giao/công vụ và trường hợp ngoại lệ được quy định; không đến thẳng Đại sứ quán để nộp visa du lịch thông thường.",
+      "Danh sách visa du lịch KVAC gồm bản sao thẻ gia đình Indonesia (Kartu Keluarga). Nhân viên nộp xác nhận việc làm bản gốc; học sinh/sinh viên nộp xác nhận đang học bản gốc; chủ doanh nghiệp nộp bản sao giấy phép kinh doanh; nội trợ và người nghỉ hưu nộp bản sao KTP. Theo danh sách của diện hồ sơ; có thể cần bổ sung giấy tờ.",
       "Thí điểm: 2026-05-28 đến 2026-12-31. Chỉ đoàn từ 3 người do công ty Indonesia được chỉ định tuyển, lưu trú tối đa 15 ngày. Ba bạn đi tự túc không đủ điều kiện. Đối tác Hàn Quốc đăng ký danh sách qua HiKorea trước 24 giờ với hàng không hoặc 36 giờ với đường biển và qua kiểm tra trước; đoàn nguyên tắc cùng nhập, xuất cảnh trên một chuyến bay hoặc tàu."
     ],
     "steps": {
@@ -2879,19 +3039,21 @@
         {
           "n": 2,
           "title": "Điền biểu mẫu tại visa.go.kr",
-          "detail": "Hoàn thành đơn xin thị thực trên Korea Visa Portal — trang chính thức duy nhất — rồi in ra và ký tên.",
+          "detail": "Hoàn thành trên Korea Visa Portal, in ra, ký tên.",
           "link": "https://www.visa.go.kr",
           "linkLabel": "Cổng thị thực Hàn Quốc"
         },
         {
           "n": 3,
           "title": "Chuẩn bị giấy tờ của bạn",
-          "detail": "Thu thập danh sách bên dưới: hộ chiếu, ảnh, sao kê ngân hàng 3 tháng và bằng chứng việc làm."
+          "detail": "Danh sách visa du lịch KVAC gồm bản sao thẻ gia đình Indonesia (Kartu Keluarga). Nhân viên nộp xác nhận việc làm bản gốc; học sinh/sinh viên nộp xác nhận đang học bản gốc; chủ doanh nghiệp nộp bản sao giấy phép kinh doanh; nội trợ và người nghỉ hưu nộp bản sao KTP. Theo danh sách của diện hồ sơ; có thể cần bổ sung giấy tờ."
         },
         {
           "n": 4,
-          "title": "Nộp tại Đại sứ quán / KVAC Jakarta",
-          "detail": "Nộp hồ sơ của bạn tại Đại sứ quán Hàn Quốc hoặc Korea Visa Application Center ở Jakarta."
+          "title": "KVAC Jakarta",
+          "detail": "Người mang hộ chiếu phổ thông nộp visa du lịch qua KVAC Jakarta. Đại sứ quán chỉ nhận trực tiếp các diện ngoại giao/công vụ và trường hợp ngoại lệ được quy định; không đến thẳng Đại sứ quán để nộp visa du lịch thông thường.",
+          "link": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+          "linkLabel": "KVAC Jakarta"
         },
         {
           "n": 5,
@@ -2912,7 +3074,7 @@
     },
     "documents": {
       "title": "Danh sách giấy tờ — kèm nơi và cách lấy từng loại",
-      "intro": "Với mỗi mục, đây là nơi lấy và những gì nó phải thể hiện.",
+      "intro": "Danh sách visa du lịch KVAC gồm bản sao thẻ gia đình Indonesia (Kartu Keluarga). Nhân viên nộp xác nhận việc làm bản gốc; học sinh/sinh viên nộp xác nhận đang học bản gốc; chủ doanh nghiệp nộp bản sao giấy phép kinh doanh; nội trợ và người nghỉ hưu nộp bản sao KTP. Theo danh sách của diện hồ sơ; có thể cần bổ sung giấy tờ.",
       "cols": [
         "Giấy tờ",
         "Lấy ở đâu",
@@ -2936,25 +3098,25 @@
           "doc": "Ảnh",
           "req": "required",
           "where": "Bất kỳ tiệm chụp ảnh nào",
-          "how": "Ảnh kiểu hộ chiếu gần đây, nền trắng."
+          "how": "1 ảnh 3.5 × 4.5 cm nền trắng, dán vào đơn xin visa."
         },
         {
           "doc": "Sao kê ngân hàng — 3 tháng gần nhất",
           "req": "required",
           "where": "Ngân hàng của bạn",
-          "how": "Sao kê thể hiện số dư và lịch sử giao dịch; số dư ổn định là tốt nhất."
+          "how": "Chi tiết giao dịch ngân hàng bản gốc trong 3 tháng gần nhất, do ngân hàng cấp và đóng dấu mực của ngân hàng."
         },
         {
           "doc": "Thư xác nhận việc làm",
-          "req": "required",
+          "req": "conditional",
           "where": "Chủ lao động / phòng nhân sự của bạn",
           "how": "Trên giấy tiêu đề công ty: chức vụ, mức lương và ngày nghỉ phép đã được duyệt."
         },
         {
-          "doc": "Phiếu lương",
+          "doc": "Kartu Keluarga (thẻ gia đình Indonesia)",
           "req": "required",
-          "where": "Chủ lao động của bạn",
-          "how": "Phiếu lương gần đây chứng minh thu nhập của bạn."
+          "where": "Bạn đã có",
+          "how": "Bản sao thẻ gia đình Indonesia (Kartu Keluarga)."
         },
         {
           "doc": "Đặt vé máy bay khứ hồi và khách sạn",
@@ -2973,7 +3135,8 @@
         "required": "Bắt buộc",
         "conditional": "Nếu áp dụng với bạn",
         "recommended": "Khuyến nghị"
-      }
+      },
+      "factId": "visa-indonesia-documents"
     },
     "funds": {
       "title": "\"Tôi cần chứng minh bao nhiêu tiền?\"",
@@ -3029,11 +3192,13 @@
         },
         {
           "q": "Tôi cần chứng minh tài chính gì?",
-          "a": "Sao kê ngân hàng 3 tháng cùng với thư xác nhận việc làm và phiếu lương. Nếu được bảo lãnh, hãy kèm theo giấy tờ của người bảo lãnh."
+          "a": "Chi tiết giao dịch ngân hàng bản gốc trong 3 tháng gần nhất, do ngân hàng cấp và đóng dấu mực của ngân hàng. Danh sách visa du lịch KVAC gồm bản sao thẻ gia đình Indonesia (Kartu Keluarga). Nhân viên nộp xác nhận việc làm bản gốc; học sinh/sinh viên nộp xác nhận đang học bản gốc; chủ doanh nghiệp nộp bản sao giấy phép kinh doanh; nội trợ và người nghỉ hưu nộp bản sao KTP. Theo danh sách của diện hồ sơ; có thể cần bổ sung giấy tờ.",
+          "factId": "visa-indonesia-documents"
         },
         {
           "q": "Tôi nộp hồ sơ ở đâu?",
-          "a": "Tại Đại sứ quán Hàn Quốc hoặc Korea Visa Application Center ở Jakarta."
+          "a": "Người mang hộ chiếu phổ thông nộp visa du lịch qua KVAC Jakarta. Đại sứ quán chỉ nhận trực tiếp các diện ngoại giao/công vụ và trường hợp ngoại lệ được quy định; không đến thẳng Đại sứ quán để nộp visa du lịch thông thường.",
+          "factId": "visa-indonesia-submission"
         },
         {
           "q": "Lệ phí là bao nhiêu?",
@@ -3068,6 +3233,21 @@
           "q": "Visa nhiều lần?",
           "a": "Người đủ điều kiện có thể xin visa nhiều lần 5 hoặc 10 năm; bảng KVAC ghi lưu trú 30 ngày mỗi lần. Hiệu lực dài không phải cư trú liên tục hoặc tự động đủ điều kiện; hỏi KVAC về diện hồ sơ.",
           "factId": "visa-indonesia-multiple"
+        },
+        {
+          "q": "Thanh toán phí visa như thế nào?",
+          "a": "KVAC Jakarta áp dụng thanh toán không tiền mặt trong 2026. Dùng chuyển khoản ngân hàng, thẻ ghi nợ hoặc QRIS. Phí cấp visa và phí dịch vụ KVAC tách biệt; xem bảng phí mới nhất trước khi nộp.",
+          "factId": "visa-indonesia-payment"
+        },
+        {
+          "q": "Giờ nộp hồ sơ và nhận hộ chiếu là khi nào?",
+          "a": "Thứ Hai–thứ Sáu, trừ ngày nghỉ: nộp hồ sơ 09:00–15:00 WIB; nhận hộ chiếu 12:00–17:00 WIB. Hai khung giờ khác nhau. Xem thông báo nghỉ trước khi đến.",
+          "factId": "kvac-jakarta-hours"
+        },
+        {
+          "q": "Giấy tờ nào phụ thuộc vào hoàn cảnh của tôi?",
+          "a": "Danh sách visa du lịch KVAC gồm bản sao thẻ gia đình Indonesia (Kartu Keluarga). Nhân viên nộp xác nhận việc làm bản gốc; học sinh/sinh viên nộp xác nhận đang học bản gốc; chủ doanh nghiệp nộp bản sao giấy phép kinh doanh; nội trợ và người nghỉ hưu nộp bản sao KTP. Theo danh sách của diện hồ sơ; có thể cần bổ sung giấy tờ.",
+          "factId": "visa-indonesia-documents"
         }
       ]
     },
@@ -3180,7 +3360,7 @@
     "metaDesc": "Виза в Корею для граждан Индонезии · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "Гид по визе · Индонезия → Корея",
     "readingTime": "8 мин чтения",
-    "updated": "2026-10-05",
+    "updated": "2026-10-09",
     "hero": {
       "img": "/img/visa/incheon-arrivals.jpg",
       "alt": "Arrivals at Incheon International Airport",
@@ -3216,8 +3396,8 @@
     ],
     "tldr": [
       "Самостоятельным путешественникам нужна туристическая виза C-3 для материковой Кореи.",
-      "Заполните форму на visa.go.kr, затем подайте её в Посольстве Кореи / KVAC Jakarta.",
-      "Возьмите паспорт, фото, выписку из банка за 3 месяца, справку с работы и расчётные листки.",
+      "Заявления на туристическую визу с обычным паспортом подаются через KVAC Джакарта. Прямая подача в Посольство предусмотрена для дипломатических/служебных категорий и определённых исключений; при обычной туристической заявке не обращайтесь туда напрямую.",
+      "Туристический список KVAC включает копию индонезийской семейной карты (Kartu Keluarga). Работники предоставляют оригинал справки с работы; учащиеся — оригинал справки об учёбе; предприниматели — копию лицензии; домохозяйки и пенсионеры — копию KTP. Следуйте списку своей категории; могут запросить дополнительные документы.",
       "Пилот: 2026-05-28 — 2026-12-31. Только группы от 3 человек, набранные назначенными индонезийскими агентствами, максимум 15 дней. Трое самостоятельных друзей не подходят. Корейский партнёр регистрирует список в HiKorea за 24 часа до прибытия самолётом или 36 морем для предварительной проверки; обычно въезд и выезд вместе одним рейсом или судном."
     ],
     "steps": {
@@ -3231,19 +3411,21 @@
         {
           "n": 2,
           "title": "Заполните форму на visa.go.kr",
-          "detail": "Заполните заявление на Korea Visa Portal — единственном официальном сайте — затем распечатайте и подпишите его.",
+          "detail": "Заполните на Korea Visa Portal, распечатайте, подпишите.",
           "link": "https://www.visa.go.kr",
           "linkLabel": "Визовый портал Кореи"
         },
         {
           "n": 3,
           "title": "Подготовьте документы",
-          "detail": "Соберите перечень ниже: паспорт, фото, выписку из банка за 3 месяца и подтверждение занятости."
+          "detail": "Туристический список KVAC включает копию индонезийской семейной карты (Kartu Keluarga). Работники предоставляют оригинал справки с работы; учащиеся — оригинал справки об учёбе; предприниматели — копию лицензии; домохозяйки и пенсионеры — копию KTP. Следуйте списку своей категории; могут запросить дополнительные документы."
         },
         {
           "n": 4,
-          "title": "Подайте в Посольстве / KVAC Jakarta",
-          "detail": "Подайте заявление в Посольстве Кореи или в Korea Visa Application Center в Джакарте."
+          "title": "KVAC Jakarta",
+          "detail": "Заявления на туристическую визу с обычным паспортом подаются через KVAC Джакарта. Прямая подача в Посольство предусмотрена для дипломатических/служебных категорий и определённых исключений; при обычной туристической заявке не обращайтесь туда напрямую.",
+          "link": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+          "linkLabel": "KVAC Jakarta"
         },
         {
           "n": 5,
@@ -3264,7 +3446,7 @@
     },
     "documents": {
       "title": "Перечень документов — с указанием, где и как получить каждый",
-      "intro": "Для каждого пункта указано, где его получить и что он должен подтверждать.",
+      "intro": "Туристический список KVAC включает копию индонезийской семейной карты (Kartu Keluarga). Работники предоставляют оригинал справки с работы; учащиеся — оригинал справки об учёбе; предприниматели — копию лицензии; домохозяйки и пенсионеры — копию KTP. Следуйте списку своей категории; могут запросить дополнительные документы.",
       "cols": [
         "Документ",
         "Где получить",
@@ -3288,25 +3470,25 @@
           "doc": "Фото",
           "req": "required",
           "where": "Любое фотоателье",
-          "how": "Недавнее фото паспортного формата на белом фоне."
+          "how": "1 фото 3.5 × 4.5 cm на белом фоне, приклеенное к анкете."
         },
         {
           "doc": "Выписка из банка — за последние 3 месяца",
           "req": "required",
           "where": "Ваш банк",
-          "how": "Выписка с остатком и историей операций; лучше всего стабильный остаток."
+          "how": "Оригинал банковской детализации операций за последние 3 месяца, выданный банком с его печатью, проставленной чернилами."
         },
         {
           "doc": "Справка с работы",
-          "req": "required",
+          "req": "conditional",
           "where": "Ваш работодатель / отдел кадров",
           "how": "На фирменном бланке компании: должность, зарплата и утверждённый отпуск."
         },
         {
-          "doc": "Расчётные листки",
+          "doc": "Kartu Keluarga (индонезийская семейная карта)",
           "req": "required",
-          "where": "Ваш работодатель",
-          "how": "Недавние расчётные листки, подтверждающие ваш доход."
+          "where": "У вас уже есть",
+          "how": "Копия индонезийской семейной карты (Kartu Keluarga)."
         },
         {
           "doc": "Бронь авиабилетов туда-обратно и отеля",
@@ -3325,7 +3507,8 @@
         "required": "Обязательно",
         "conditional": "Если это применимо к вам",
         "recommended": "Рекомендуется"
-      }
+      },
+      "factId": "visa-indonesia-documents"
     },
     "funds": {
       "title": "«Сколько денег нужно показать?»",
@@ -3381,11 +3564,13 @@
         },
         {
           "q": "Какое финансовое подтверждение мне нужно?",
-          "a": "Выписка из банка за 3 месяца плюс справка с работы и расчётные листки. Если у вас есть спонсор, приложите его документы."
+          "a": "Оригинал банковской детализации операций за последние 3 месяца, выданный банком с его печатью, проставленной чернилами. Туристический список KVAC включает копию индонезийской семейной карты (Kartu Keluarga). Работники предоставляют оригинал справки с работы; учащиеся — оригинал справки об учёбе; предприниматели — копию лицензии; домохозяйки и пенсионеры — копию KTP. Следуйте списку своей категории; могут запросить дополнительные документы.",
+          "factId": "visa-indonesia-documents"
         },
         {
           "q": "Где мне подавать?",
-          "a": "В Посольстве Кореи или в Korea Visa Application Center в Джакарте."
+          "a": "Заявления на туристическую визу с обычным паспортом подаются через KVAC Джакарта. Прямая подача в Посольство предусмотрена для дипломатических/служебных категорий и определённых исключений; при обычной туристической заявке не обращайтесь туда напрямую.",
+          "factId": "visa-indonesia-submission"
         },
         {
           "q": "Сколько стоит сбор?",
@@ -3420,6 +3605,21 @@
           "q": "Многократная виза?",
           "a": "Подходящие заявители могут оформить многократную визу на 5 или 10 лет; KVAC указывает 30 дней на посещение. Длительная действительность не означает непрерывное проживание или автоматическое право; проверьте категорию в KVAC.",
           "factId": "visa-indonesia-multiple"
+        },
+        {
+          "q": "Как оплатить визовые сборы?",
+          "a": "KVAC Джакарта работает без наличных в 2026. Используйте банковский перевод, дебетовую карту или QRIS. Сбор за выдачу визы и сервисный сбор KVAC взимаются отдельно; проверьте актуальную таблицу перед подачей.",
+          "factId": "visa-indonesia-payment"
+        },
+        {
+          "q": "Когда можно подать заявление и получить паспорт?",
+          "a": "Понедельник–пятница, кроме праздников: подача 09:00–15:00 WIB; получение паспортов 12:00–17:00 WIB. Часы подачи и получения различаются. Проверьте объявления о выходных перед посещением.",
+          "factId": "kvac-jakarta-hours"
+        },
+        {
+          "q": "Какие документы зависят от моей ситуации?",
+          "a": "Туристический список KVAC включает копию индонезийской семейной карты (Kartu Keluarga). Работники предоставляют оригинал справки с работы; учащиеся — оригинал справки об учёбе; предприниматели — копию лицензии; домохозяйки и пенсионеры — копию KTP. Следуйте списку своей категории; могут запросить дополнительные документы.",
+          "factId": "visa-indonesia-documents"
         }
       ]
     },
@@ -3532,7 +3732,7 @@
     "metaDesc": "Visa pour la Corée pour les citoyens indonésiens · K-ETA · C-3 · B-2 · KVAC Jakarta · 2026",
     "kicker": "Guide des visas · Indonésie → Corée",
     "readingTime": "8 min de lecture",
-    "updated": "2026-10-05",
+    "updated": "2026-10-09",
     "hero": {
       "img": "/img/visa/incheon-arrivals.jpg",
       "alt": "Arrivals at Incheon International Airport",
@@ -3568,8 +3768,8 @@
     ],
     "tldr": [
       "Les voyageurs indépendants ont besoin d'un visa touristique C-3 pour la Corée continentale.",
-      "Remplissez le formulaire sur visa.go.kr, puis déposez-le à l'ambassade de Corée / au KVAC Jakarta.",
-      "Apportez votre passeport, une photo, un relevé bancaire de 3 mois, une attestation d'emploi et des bulletins de salaire.",
+      "Les demandes touristiques avec passeport ordinaire passent par KVAC Jakarta. Le dépôt direct à l’Ambassade est réservé aux catégories diplomatiques/officielles et à certaines exceptions ; ne vous y rendez pas directement pour une demande touristique normale.",
+      "La liste touristique KVAC comprend une copie de la carte familiale indonésienne (Kartu Keluarga). Les salariés fournissent une attestation d’emploi originale ; les étudiants, une attestation de scolarité originale ; les entrepreneurs, une copie de licence commerciale ; les personnes au foyer et retraitées, une copie de KTP. Suivez la liste de votre catégorie ; des pièces supplémentaires peuvent être demandées.",
       "Essai : 2026-05-28 à 2026-12-31. Uniquement les groupes d’au moins 3 recrutés par une agence indonésienne désignée, séjour maximal 15 jours. Trois amis autonomes ne sont pas admissibles. Le partenaire coréen enregistre la liste HiKorea 24 heures avant l’arrivée aérienne ou 36 par mer pour contrôle préalable ; entrée et sortie normalement ensemble sur le même vol ou bateau."
     ],
     "steps": {
@@ -3583,19 +3783,21 @@
         {
           "n": 2,
           "title": "Remplissez le formulaire sur visa.go.kr",
-          "detail": "Complétez le formulaire de demande sur le Korea Visa Portal — le seul site officiel — puis imprimez-le et signez-le.",
+          "detail": "À compléter sur le Korea Visa Portal, imprimer, signer.",
           "link": "https://www.visa.go.kr",
           "linkLabel": "Portail des visas de la Corée"
         },
         {
           "n": 3,
           "title": "Préparez vos documents",
-          "detail": "Rassemblez la liste ci-dessous : passeport, photo, relevé bancaire de 3 mois et justificatif d'emploi."
+          "detail": "La liste touristique KVAC comprend une copie de la carte familiale indonésienne (Kartu Keluarga). Les salariés fournissent une attestation d’emploi originale ; les étudiants, une attestation de scolarité originale ; les entrepreneurs, une copie de licence commerciale ; les personnes au foyer et retraitées, une copie de KTP. Suivez la liste de votre catégorie ; des pièces supplémentaires peuvent être demandées."
         },
         {
           "n": 4,
-          "title": "Déposez à l'ambassade / au KVAC Jakarta",
-          "detail": "Déposez votre demande à l'ambassade de Corée ou au Korea Visa Application Center de Jakarta."
+          "title": "KVAC Jakarta",
+          "detail": "Les demandes touristiques avec passeport ordinaire passent par KVAC Jakarta. Le dépôt direct à l’Ambassade est réservé aux catégories diplomatiques/officielles et à certaines exceptions ; ne vous y rendez pas directement pour une demande touristique normale.",
+          "link": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+          "linkLabel": "KVAC Jakarta"
         },
         {
           "n": 5,
@@ -3616,7 +3818,7 @@
     },
     "documents": {
       "title": "Liste des documents — avec où et comment obtenir chacun",
-      "intro": "Pour chaque document, voici où l'obtenir et ce qu'il doit indiquer.",
+      "intro": "La liste touristique KVAC comprend une copie de la carte familiale indonésienne (Kartu Keluarga). Les salariés fournissent une attestation d’emploi originale ; les étudiants, une attestation de scolarité originale ; les entrepreneurs, une copie de licence commerciale ; les personnes au foyer et retraitées, une copie de KTP. Suivez la liste de votre catégorie ; des pièces supplémentaires peuvent être demandées.",
       "cols": [
         "Document",
         "Où l'obtenir",
@@ -3640,25 +3842,25 @@
           "doc": "Photo",
           "req": "required",
           "where": "N'importe quel studio photo",
-          "how": "Photo récente de type passeport, fond blanc."
+          "how": "1 photo de 3.5 × 4.5 cm sur fond blanc, collée sur le formulaire."
         },
         {
           "doc": "Relevé bancaire — 3 derniers mois",
           "req": "required",
           "where": "Votre banque",
-          "how": "Relevé indiquant le solde et l'historique des opérations ; un solde stable est préférable."
+          "how": "Détail original des transactions des 3 derniers mois, délivré par la banque avec son tampon à l’encre."
         },
         {
           "doc": "Attestation d'emploi",
-          "req": "required",
+          "req": "conditional",
           "where": "Votre employeur / RH",
           "how": "Sur papier à en-tête de l'entreprise : poste, salaire et congé approuvé."
         },
         {
-          "doc": "Bulletins de salaire",
+          "doc": "Kartu Keluarga (carte familiale indonésienne)",
           "req": "required",
-          "where": "Votre employeur",
-          "how": "Bulletins de salaire récents justifiant vos revenus."
+          "where": "Vous l'avez déjà",
+          "how": "Copie de la carte familiale indonésienne (Kartu Keluarga)."
         },
         {
           "doc": "Réservation de vol aller-retour et d'hôtel",
@@ -3677,7 +3879,8 @@
         "required": "Obligatoire",
         "conditional": "Si cela vous concerne",
         "recommended": "Recommandé"
-      }
+      },
+      "factId": "visa-indonesia-documents"
     },
     "funds": {
       "title": "« Combien d'argent dois-je présenter ? »",
@@ -3733,11 +3936,13 @@
         },
         {
           "q": "Quels justificatifs financiers me faut-il ?",
-          "a": "Un relevé bancaire de 3 mois ainsi qu'une attestation d'emploi et des bulletins de salaire. En cas de prise en charge, incluez les documents du garant."
+          "a": "Détail original des transactions des 3 derniers mois, délivré par la banque avec son tampon à l’encre. La liste touristique KVAC comprend une copie de la carte familiale indonésienne (Kartu Keluarga). Les salariés fournissent une attestation d’emploi originale ; les étudiants, une attestation de scolarité originale ; les entrepreneurs, une copie de licence commerciale ; les personnes au foyer et retraitées, une copie de KTP. Suivez la liste de votre catégorie ; des pièces supplémentaires peuvent être demandées.",
+          "factId": "visa-indonesia-documents"
         },
         {
           "q": "Où dois-je déposer ma demande ?",
-          "a": "À l'ambassade de Corée ou au Korea Visa Application Center de Jakarta."
+          "a": "Les demandes touristiques avec passeport ordinaire passent par KVAC Jakarta. Le dépôt direct à l’Ambassade est réservé aux catégories diplomatiques/officielles et à certaines exceptions ; ne vous y rendez pas directement pour une demande touristique normale.",
+          "factId": "visa-indonesia-submission"
         },
         {
           "q": "Quel est le montant des frais ?",
@@ -3772,6 +3977,21 @@
           "q": "Entrées multiples?",
           "a": "Les candidats admissibles peuvent demander un visa multiple de 5 ou 10 ans ; KVAC indique 30 jours par visite. La longue validité ne permet pas la résidence continue ni une admissibilité automatique ; vérifier la catégorie avec KVAC.",
           "factId": "visa-indonesia-multiple"
+        },
+        {
+          "q": "Comment payer les frais de visa ?",
+          "a": "KVAC Jakarta fonctionne sans espèces en 2026. Utilisez un virement bancaire, une carte de débit ou QRIS. Les frais de délivrance et de service KVAC sont distincts ; consultez le barème actuel avant de déposer.",
+          "factId": "visa-indonesia-payment"
+        },
+        {
+          "q": "Quand déposer et retirer mon passeport ?",
+          "a": "Du lundi au vendredi, hors jours fériés : dépôt 09:00–15:00 WIB ; retrait des passeports 12:00–17:00 WIB. Les horaires sont différents. Consultez les avis de fermeture avant de venir.",
+          "factId": "kvac-jakarta-hours"
+        },
+        {
+          "q": "Quels documents dépendent de ma situation ?",
+          "a": "La liste touristique KVAC comprend une copie de la carte familiale indonésienne (Kartu Keluarga). Les salariés fournissent une attestation d’emploi originale ; les étudiants, une attestation de scolarité originale ; les entrepreneurs, une copie de licence commerciale ; les personnes au foyer et retraitées, une copie de KTP. Suivez la liste de votre catégorie ; des pièces supplémentaires peuvent être demandées.",
+          "factId": "visa-indonesia-documents"
         }
       ]
     },

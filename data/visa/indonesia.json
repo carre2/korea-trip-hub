@@ -8,7 +8,7 @@
   "metaDesc": "Indonesia to Korea Visa: Do You Need One? (2026) — Korea Trip Hub · K-ETA · C-3 · B-2 · KVAC Jakarta",
   "kicker": "Visa guide · Indonesia → Korea",
   "readingTime": "8 min read",
-  "updated": "2026-10-05",
+  "updated": "2026-10-09",
   "hero": {
     "img": "/img/visa/incheon-arrivals.jpg",
     "alt": "Arrivals at Incheon International Airport",
@@ -45,8 +45,8 @@
   ],
   "tldr": [
     "Independent travelers need a C-3 tourist visa for mainland Korea.",
-    "Fill the form at visa.go.kr, then submit at the Korean Embassy / KVAC Jakarta.",
-    "Bring passport, photo, 3-month bank statement, employment letter + salary slips.",
+    "Ordinary-passport tourist visa applications go through KVAC Jakarta. Direct Embassy applications are reserved for diplomatic/official categories and specified exceptional cases; do not go directly to the Embassy for a normal tourist application.",
+    "The KVAC tourist checklist includes a copy of the Indonesian family card (Kartu Keluarga). Employees provide an original employment certificate; students an original enrollment certificate; business owners a copy of the business license; homemakers and retirees a copy of KTP. Use the checklist for your category; additional documents may be requested.",
     "Trial: 2026-05-28 to 2026-12-31. Only groups of 3 or more recruited by designated Indonesian agencies qualify, with a maximum 15-day stay. Three independent friends do not qualify. The Korean partner must register the list through HiKorea 24 hours before air arrival or 36 hours before sea arrival and obtain pre-screening; travelers normally enter and leave together on the same flight or ship."
   ],
   "steps": {
@@ -60,19 +60,21 @@
       {
         "n": 2,
         "title": "Fill the form at visa.go.kr",
-        "detail": "Complete the application form on the Korea Visa Portal — the only official site — then print and sign it.",
+        "detail": "Complete on the Korea Visa Portal, print, sign.",
         "link": "https://www.visa.go.kr",
         "linkLabel": "Korea Visa Portal"
       },
       {
         "n": 3,
         "title": "Prepare your documents",
-        "detail": "Gather the checklist below: passport, photo, 3-month bank statement, and job proof."
+        "detail": "The KVAC tourist checklist includes a copy of the Indonesian family card (Kartu Keluarga). Employees provide an original employment certificate; students an original enrollment certificate; business owners a copy of the business license; homemakers and retirees a copy of KTP. Use the checklist for your category; additional documents may be requested."
       },
       {
         "n": 4,
-        "title": "Submit at the Embassy / KVAC Jakarta",
-        "detail": "Lodge your application with the Korean Embassy or the Korea Visa Application Center in Jakarta."
+        "title": "KVAC Jakarta",
+        "detail": "Ordinary-passport tourist visa applications go through KVAC Jakarta. Direct Embassy applications are reserved for diplomatic/official categories and specified exceptional cases; do not go directly to the Embassy for a normal tourist application.",
+        "link": "https://www.visaforkorea-in.com/id-ID/customer/faq",
+        "linkLabel": "KVAC Jakarta"
       },
       {
         "n": 5,
@@ -93,7 +95,7 @@
   },
   "documents": {
     "title": "Document checklist — with where & how to get each",
-    "intro": "For each item, here is where to obtain it and what it must show.",
+    "intro": "The KVAC tourist checklist includes a copy of the Indonesian family card (Kartu Keluarga). Employees provide an original employment certificate; students an original enrollment certificate; business owners a copy of the business license; homemakers and retirees a copy of KTP. Use the checklist for your category; additional documents may be requested.",
     "cols": [
       "Document",
       "Where to get it",
@@ -117,25 +119,25 @@
         "doc": "Photo",
         "req": "required",
         "where": "Any photo studio",
-        "how": "Recent passport-style photo, white background."
+        "how": "1 photo, 3.5 × 4.5 cm, white background, attached to the application form."
       },
       {
         "doc": "Bank statement — last 3 months",
         "req": "required",
         "where": "Your bank",
-        "how": "Statement showing balance and transaction history; a stable balance is best."
+        "how": "Original bank transaction details for the last 3 months, issued by your bank with its wet stamp."
       },
       {
         "doc": "Employment letter",
-        "req": "required",
+        "req": "conditional",
         "where": "Your employer / HR",
         "how": "On company letterhead: position, salary, and approved leave."
       },
       {
-        "doc": "Salary slips",
+        "doc": "Kartu Keluarga (Indonesian family card)",
         "req": "required",
-        "where": "Your employer",
-        "how": "Recent payslips supporting your income."
+        "where": "You have it",
+        "how": "Copy of your Indonesian family card (Kartu Keluarga)."
       },
       {
         "doc": "Round-trip flight & hotel reservation",
@@ -154,7 +156,8 @@
       "required": "Required",
       "conditional": "If it applies to you",
       "recommended": "Recommended"
-    }
+    },
+    "factId": "visa-indonesia-documents"
   },
   "funds": {
     "title": "\"How much money should I show?\"",
@@ -210,11 +213,13 @@
       },
       {
         "q": "What financial proof do I need?",
-        "a": "A 3-month bank statement plus an employment letter and salary slips. If sponsored, include the sponsor's documents."
+        "a": "Original bank transaction details for the last 3 months, issued by your bank with its wet stamp. The KVAC tourist checklist includes a copy of the Indonesian family card (Kartu Keluarga). Employees provide an original employment certificate; students an original enrollment certificate; business owners a copy of the business license; homemakers and retirees a copy of KTP. Use the checklist for your category; additional documents may be requested.",
+        "factId": "visa-indonesia-documents"
       },
       {
         "q": "Where do I apply?",
-        "a": "At the Korean Embassy or the Korea Visa Application Center in Jakarta."
+        "a": "Ordinary-passport tourist visa applications go through KVAC Jakarta. Direct Embassy applications are reserved for diplomatic/official categories and specified exceptional cases; do not go directly to the Embassy for a normal tourist application.",
+        "factId": "visa-indonesia-submission"
       },
       {
         "q": "How much is the fee?",
@@ -249,6 +254,21 @@
         "q": "Multiple entry?",
         "a": "Eligible applicants can apply for 5- or 10-year multiple-entry visas; the KVAC table lists a 30-day stay per visit. Long validity does not mean continuous residence or automatic eligibility. Ask KVAC to check your category.",
         "factId": "visa-indonesia-multiple"
+      },
+      {
+        "q": "How do I pay the visa fees?",
+        "a": "KVAC Jakarta operates cashless in 2026. Use bank transfer, debit card or QRIS. The visa issuance fee and KVAC service charge are separate; check the current fee table before applying.",
+        "factId": "visa-indonesia-payment"
+      },
+      {
+        "q": "When can I submit and collect my passport?",
+        "a": "Monday–Friday, excluding holidays: applications 09:00–15:00 WIB; passport collection 12:00–17:00 WIB. Submission and collection have different hours. Check holiday notices before visiting.",
+        "factId": "kvac-jakarta-hours"
+      },
+      {
+        "q": "Which documents depend on my situation?",
+        "a": "The KVAC tourist checklist includes a copy of the Indonesian family card (Kartu Keluarga). Employees provide an original employment certificate; students an original enrollment certificate; business owners a copy of the business license; homemakers and retirees a copy of KTP. Use the checklist for your category; additional documents may be requested.",
+        "factId": "visa-indonesia-documents"
       }
     ]
   },

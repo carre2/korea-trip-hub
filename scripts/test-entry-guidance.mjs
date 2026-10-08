@@ -53,6 +53,27 @@ test('routing copy and Indonesia official policy retain distinctions in every lo
  }
 });
 
+test('Indonesia tourist submission and checklist preserve official category boundaries',()=>{
+ const base=read('data/visa/indonesia.json'),ov=read('data/visa/indonesia.i18n.json');
+ const facts=read('data/facts.json').facts;
+ for(const id of ['visa-indonesia-submission','visa-indonesia-payment','visa-indonesia-documents','kvac-jakarta-hours'])
+  assert.equal(facts.find(x=>x.id===id)?.status,'VERIFIED',id);
+ for(const l of locales){
+  const g=l==='en'?base:ov[l];
+  assert.equal(g.faq.items[3].factId,'visa-indonesia-submission');
+  assert.equal(g.steps.items[3].link,'https://www.visaforkorea-in.com/id-ID/customer/faq');
+  assert.equal(g.documents.factId,'visa-indonesia-documents');
+  assert.equal(g.documents.rows[4].req,'conditional',`${l}: employment proof must depend on applicant category`);
+  assert.equal(g.documents.rows[5].req,'required');
+  assert.ok(g.documents.rows[5].how.includes('Kartu Keluarga'),`${l}: missing family card`);
+  assert.ok(g.documents.rows[2].how.includes('3.5')&&g.documents.rows[2].how.includes('4.5'));
+  assert.ok(g.faq.items.find(x=>x.factId==='visa-indonesia-payment').a.includes('QRIS'));
+  const hours=g.faq.items.find(x=>x.factId==='kvac-jakarta-hours').a;
+  for(const h of ['09:00','15:00','12:00','17:00','WIB'])assert.ok(hours.includes(h),`${l}: ${h}`);
+ }
+ assert.ok(!base.steps.items[3].detail.includes('Embassy or'));
+});
+
 test('temporary K-ETA waiver guides preserve conditional arrival declarations',()=>{
  for(const country of ['japan','usa','uk','canada','australia','taiwan','hongkong','singapore']){
   const b=read(`data/visa/${country}.json`),ov=read(`data/visa/${country}.i18n.json`);
