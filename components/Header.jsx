@@ -41,6 +41,7 @@ export default function Header({ locale, nav = {}, labels: ui = {}, festivalTitl
     if (!code || code === locale) return;
     const choice=languageSwitchOptions(window.location.pathname,code,locales,window.location.search,window.location.hash);
     if(!choice)return;
+    document.cookie=`kth_locale=${code}; Path=/; Max-Age=31536000; SameSite=Lax; Secure`;
     if(choice.countryUrl){
       setLanguageChoice({...choice,code});
     }else window.location.assign(choice.languageUrl);

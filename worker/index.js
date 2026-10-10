@@ -2,6 +2,8 @@
 // Static pages are served from the asset store directly; this Worker only runs
 // for /api/chat (POST) and for paths with no matching asset (404s).
 
+import {entryLanguage} from '../lib/entry-language.mjs';
+
 const MODEL_CF = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"; // Workers AI (current)
 const MODEL_CLAUDE = "claude-haiku-4-5-20251001";   // existing fallback when a key is set
 const MODEL_OPENAI = "gpt-6-luna";
@@ -147,6 +149,11 @@ async function handleChat(request, env) {
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    if(url.pathname === '/') {
+      const locale=entryLanguage({cookie:request.headers.get('Cookie')||'',acceptLanguage:request.headers.get('Accept-Language')||'',country:request.cf?.country||''});
+      url.pathname=`/${locale}/`;
+      return new Response(null,{status:302,headers:{Location:url.toString(),'Cache-Control':'private, no-store',Vary:'Accept-Language, Cookie'}});
+    }
     if (url.pathname === "/api/chat") {
       if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);
       return handleChat(request, env);

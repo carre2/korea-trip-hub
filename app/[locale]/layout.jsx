@@ -14,13 +14,10 @@ import JourneyAnalytics from "../../components/JourneyAnalytics";
 import ChatWidget from "../../components/ChatWidget";
 import CategoryCompanion from "../../components/CategoryCompanion";
 import festivalCopies from "../../data/festivals-ui.json";
+import {GA_ID,ADS_ID} from '../../lib/analytics-config.mjs';
 
 // Google AdSense publisher (ktriphub.com). Loader below serves ads once approved.
 const ADSENSE_CLIENT = "ca-pub-2067934281598769";
-// Google Analytics 4 measurement ID (ktriphub.com property).
-const GA_ID = "G-DZTSGKJ926";
-// Google Ads destination, sharing the existing Google tag loader.
-const ADS_ID = "AW-18493797656";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

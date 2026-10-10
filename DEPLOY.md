@@ -1,5 +1,25 @@
 # DEPLOY — Korea Trip Hub
 
+## 언어 진입 및 측정 분리 (2026-10-10)
+
+운영 Worker는 `/`만 정적 파일보다 먼저 실행한다(`assets.run_worker_first`).
+사용자가 선택한 `kth_locale` 쿠키, Accept-Language의 우선순위, Cloudflare 국가
+정보의 순서로 운영 언어를 고른다. 명시적인 언어 URL은 바꾸지 않는다.
+302 응답은 캐시하지 않으며 광고 클릭 ID와 UTM 쿼리를 그대로 전달한다.
+`public/_redirects`의 영어 기본값은 정적 Pages 배포용 대체 경로다.
+이 기능은 Worker 배포가 필요하며 Pages에만 배포하면 적용되지 않는다.
+
+전용 GA4 속성 `558363672`, 웹 스트림 `16101304201`, 측정 ID `G-8K97VN6QPX`.
+이전 기록은 속성 `548121655`에서 호스트 이름 `ktriphub.com`으로 필터링한다.
+이전 이력을 새 속성으로 옮긴 것으로 표시하지 않는다. 새 속성에는 배포 후
+발생한 데이터부터 수집한다. Google Ads 태그 `AW-18493797656`은 유지한다.
+분석 동의와 운영 호스트 제한을 유지하며 이벤트는 전용 GA4로만 전송한다.
+`affiliate_click`은 Klook/Stay22 링크 클릭이며 예약 완료를 뜻하지 않는다.
+
+검증: `npm run build`, `node --test scripts/test-entry-language.mjs`.
+검색 결과 언어는 각 언어의 본문·title·description·canonical·hreflang으로
+안내한다. 국가별 검색 결과 노출이나 순위를 강제하거나 보장하지 않는다.
+
 ## GPT-6 채팅 연동 (2026-10-04)
 
 `worker/index.js`의 `/api/chat`은 서버에 `OPENAI_API_KEY`가 있으면

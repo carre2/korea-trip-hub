@@ -1,5 +1,7 @@
 # Cloudflare Pages redirects. This file is copied to the deploy root (out/_redirects).
-# Root → default locale (edge redirect, no JS needed).
+# Pages fallback only. Production Worker handles / before assets, using the
+# explicitly selected language cookie, Accept-Language, then country fallback.
+# Explicit /en/, /id/, /vi/, etc. URLs are never auto-redirected.
 #
 # Kept as 302 (not 301) on purpose: "/" is a language-neutral entry point for a
 # 10-language site. A permanent 301 is cached hard by browsers and would block ever
