@@ -1,0 +1,23 @@
+{
+  "updated": "2026-10-10",
+  "status": "prepared_links_not_published",
+  "campaign": "korea_entry_202610",
+  "rules": {
+    "instagram": "User approval, then scheduled publication only; profile/story link, not caption URL alone.",
+    "pinterest": "Topic-specific destination in the same language as the pin; confirm the actual published pin before recording success.",
+    "google_ads": "Keep existing spending limit. Common-root ads use language negotiation. Country-specific copy and links require separate reviewed campaign targeting.",
+    "measurement": "Compare sessions/users, engaged time, itinerary saves and partner clicks. A partner click is not a completed booking.",
+    "excluded": ["reddit", "backpackers"]
+  },
+  "markets": [
+    {"country":"Indonesia","locale":"id","entry":"visa/indonesia","copy":"Visa Korea untuk warga Indonesia: cek panduan dan sumber resmi sebelum berangkat."},
+    {"country":"Vietnam","locale":"vi","entry":"visa/vietnam","copy":"Du lịch Hàn Quốc: kiểm tra hướng dẫn visa và nguồn chính thức trước khi khởi hành."},
+    {"country":"Philippines","locale":"en","entry":"visa/philippines","copy":"Planning a Korea trip from the Philippines? Start with your visa checklist and official sources."},
+    {"country":"Taiwan","locale":"zh-TW","entry":"visa/taiwan","copy":"準備韓國自由行？先確認入境指南與官方資訊，再安排旅程。"},
+    {"country":"Hong Kong","locale":"zh-TW","entry":"visa/hongkong","copy":"準備韓國旅程？先確認入境指南與官方資訊，再規劃行程。"},
+    {"country":"Thailand","locale":"th","entry":"visa/thailand","copy":"เตรียมเที่ยวเกาหลี? ตรวจสอบคู่มือการเข้าประเทศและข้อมูลจากแหล่งทางการก่อนเดินทาง"},
+    {"country":"Malaysia","locale":"ms","entry":"visa/malaysia","copy":"Merancang perjalanan ke Korea? Semak panduan kemasukan dan sumber rasmi sebelum berlepas."},
+    {"country":"Japan","locale":"ja","entry":"visa/japan","copy":"韓国旅行の前に、入国ガイドと公式情報を確認して旅の準備を。"}
+  ],
+  "channels": ["instagram","pinterest","facebook","threads","line","whatsapp","wechat","kakaotalk","email"]
+}
