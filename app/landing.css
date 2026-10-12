@@ -1,5 +1,6 @@
 /* An editorial travel landing: clear tasks, genuine photography, quiet details. */
 .landing-home {background:var(--bg);padding-bottom:32px}
+@media(min-width:1280px){body:has(.landing-home) nav.links{gap:10px;flex-wrap:nowrap}body:has(.landing-home) nav.links a{font-size:1rem;padding-inline:4px;white-space:normal;text-align:center}}
 .landing-home .journey-hero {padding:36px 0 32px}
 .landing-home .journey-hero-grid {grid-template-columns:minmax(0,1fr) minmax(0,1.06fr);min-height:0;gap:52px;padding-block:0;align-items:center}
 .landing-home .journey-intro {padding:24px 0;max-width:none;color:var(--text);pointer-events:auto}
