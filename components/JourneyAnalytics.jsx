@@ -6,7 +6,7 @@ import {track} from '../lib/analytics';
 export default function JourneyAnalytics({locale}){
  const pathname=usePathname();
  useEffect(()=>{
-  function click(e){const a=e.target.closest?.('a[href]');if(!a)return;const source=officialSource(a.href);if(source)track('official_source_click',{locale,source_type:source});const partner=affiliatePartner(a.href);if(partner)track('affiliate_click',{locale,partner});if(a.closest('.nextsteps'))track('next_step_click',{locale,placement:'bottom',target:nextStepTarget(a.href)})}
+  function click(e){const a=e.target.closest?.('a[href]');if(!a)return;const source=officialSource(a.href);if(source)track('official_source_click',{locale,source_type:source});const partner=affiliatePartner(a.href);if(partner)track('affiliate_click',{locale,partner});if(a.dataset.landingLink)track('landing_link_click',{locale,target:a.dataset.landingLink,placement:'home'});if(a.closest('.nextsteps'))track('next_step_click',{locale,placement:'bottom',target:nextStepTarget(a.href)})}
   const seen=new WeakSet();const visible=new Set();
   function record(){for(const el of visible)if(!seen.has(el)&&track('next_step_view',{locale,placement:el.dataset.placement||'article'}))seen.add(el)}
   const observer=new IntersectionObserver(entries=>{for(const e of entries){if(e.isIntersecting&&e.intersectionRatio>=.5)visible.add(e.target);else visible.delete(e.target)}record()},{threshold:.5});

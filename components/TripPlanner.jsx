@@ -17,6 +17,11 @@ export default function TripPlanner({ locale, routes, order, ui, labels: t, chec
   const [started, setStarted] = useState(false);
   const [ready, setReady] = useState(false);
   const current = trip && routes[trip.route];
+  useEffect(()=>{
+    function choose(e){const key=e.detail;if(!Object.hasOwn(routes,key))return;clearSharedQuery();setSelected(key);setTrip({v:1,route:key,excluded:[],checked:[]});setSaved(false);setStatus(t.preview);track('itinerary_generate',{locale,route_id:key});}
+    window.addEventListener('kth-planner-route',choose);
+    return()=>window.removeEventListener('kth-planner-route',choose);
+  },[locale,routes,t]);
   useEffect(() => {
     const shared = new URLSearchParams(window.location.search).get('trip');
     if (shared !== null) {

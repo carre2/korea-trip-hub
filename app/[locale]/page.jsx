@@ -9,6 +9,11 @@ import MapExplorer from "../../components/MapExplorer";
 import { itinFor } from "../../lib/content";
 import TripPlanner from "../../components/TripPlanner";
 import HeroSlider from "../../components/HeroSlider";
+import LandingTools from "../../components/LandingTools";
+import SavePlace from "../../components/SavePlace";
+import {visaHubItems} from "../../lib/visa";
+import entryRouting from "../../data/entry-routing-ui.json";
+import budgetLabels from "../../data/budget-ui.json";
 
 import NearbyEats from "../../components/NearbyEats";
 
@@ -92,18 +97,19 @@ export default function Home({ params }) {
     { title: t.arrival, sub: t.arrivalSub, href: `/${locale}/plan/airport/`, icon: '02', symbol: 'airport' },
     { title: t.explore, sub: t.exploreSub, href: `/${locale}/destinations/`, icon: '03', symbol: 'explore' },
   ];
-  return <div className="journey-home">
+  return <div className="journey-home landing-home">
     <JsonLd data={webSiteLd(locale, m.meta.homeTitle, m.meta.homeDesc)} />
     <HeroSlider locale={locale} t={t} languageCount={locales.length} image={destImages.gyeongbokgung} imageLabel={destination('gyeongbokgung').name} />
-    <section id="plan" className="journey-start wrap">
-      <div className="sec-head"><h2>{t.chooseTitle}</h2><a href="#planner">{t.myTrip} ↗</a></div>
+    <LandingTools locale={locale} m={{experience:t,visaFinder:m.visaFinder}} countries={visaHubItems(locale).sort((a,b)=>a.name.localeCompare(b.name,locale))} entryCopy={entryRouting[locale]} budget={budgetLabels[locale]} routes={itineraries.order.slice(0,3).map(key=>({key,title:itineraries.items[key].title}))}/>
+    <section className="journey-start wrap">
+      <div className="sec-head"><h2>{t.essentials}</h2><a href="#planner">{t.myTrip} ↗</a></div>
       <div className="journey-start-grid">{starts.map((item, index) => <a className="journey-start-card travel-has-peek" key={item.icon} href={item.href}>
         <PeekMascot animal={['bunny','bear','cat'][index]}/>
         <div className="journey-card-top"><TravelIcon name={item.symbol}/><span className="journey-number">{item.icon}</span></div><h3>{item.title}</h3><p>{item.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span>
       </a>)}</div>
-      <div className="journey-essentials"><h3>{t.essentials}</h3><div>{['visa','airport','transit','sim','money','weather','help'].map((key) => <a key={key} href={`/${locale}/plan/${key}/`}><TravelIcon name={key} compact/><span>{m.plan.tiles[key].title} →</span></a>)}</div></div>
+      <div className="journey-essentials"><div>{['transit','sim','money','weather','help'].map((key) => <a key={key} href={`/${locale}/plan/${key}/`} data-landing-link={key}><TravelIcon name={key} compact/><span>{m.plan.tiles[key].title} →</span></a>)}</div></div>
     </section>
-    <section id="planner" className="journey-planner"><div className="wrap">
+    <section id="planner" className="journey-planner" tabIndex={-1} aria-label={t.myTrip}><div className="wrap">
       <div className="sec-head"><div><span className="eyebrow">{t.myTrip}</span><h2>{t.plannerTitle}</h2><p>{t.plannerSub}</p></div><a href={`/${locale}/itinerary/`}>{m.nextSteps.itinerary} →</a></div>
       <SavedPlaces catalog={placeCatalog} locale={locale} t={t} /><TripPlanner catalog={placeCatalog} locale={locale} labels={t} routes={routeOptions} order={itineraries.order} ui={{dayLabel: itineraries.ui.dayLabel, map: itineraries.ui.map}} checklist={checklist} />
     </div></section>
@@ -111,7 +117,7 @@ export default function Home({ params }) {
       <div className="sec-head"><div><span className="eyebrow">{t.explore}</span><h2>{m.dest.title}</h2></div><a href={`/${locale}/destinations/`}>{m.dest.browseAll} →</a></div>
       <div className="journey-photo-grid">{['bukchon','haeundae','seongsan','bulguksa'].map((slug) => {
         const d=destination(slug), im=destImages[slug];
-        return <article className="journey-place" key={slug}><a href={`/${locale}/destinations/${slug}/`}><img src={im.img} alt={d.name} width="1280" height="853" loading="lazy" /><div><span className="korea-place-mark" aria-hidden="true" lang="ko">{({bukchon:'서울',haeundae:'부산',seongsan:'제주',bulguksa:'경주'})[slug]}</span><h3>{d.name}</h3><p>{d.blurb}</p></div></a><small><a href={im.creditUrl} target="_blank" rel="noopener noreferrer">{im.credit}</a></small></article>;
+        return <article className="journey-place" key={slug}><a href={`/${locale}/destinations/${slug}/`} data-landing-link={slug}><img src={im.img} alt={d.name} width="1280" height="853" loading="lazy" /><div><h3>{d.name}</h3><p>{d.blurb}</p></div></a><SavePlace id={'dest:'+slug} locale={locale}/><small><a href={im.creditUrl} target="_blank" rel="noopener noreferrer">{im.credit}</a></small></article>;
       })}</div>
     </section>
     <section id="food" className="wrap journey-food"><div className="sec-head"><h2>{m.food.title}</h2><a href={`/${locale}/food/`}>{m.food.browseAll} →</a></div>

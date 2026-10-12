@@ -2,6 +2,7 @@ import "../globals.css";
 import "../experience.css";
 import "../travel-style.css";
 import "../clarity.css";
+import "../landing.css";
 import Script from "next/script";
 import { locales, rtlLocales, localeNames, getMessages } from "../../lib/i18n";
 import { SITE } from "../../lib/seo";

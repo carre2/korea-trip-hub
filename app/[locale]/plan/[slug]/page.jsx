@@ -18,6 +18,7 @@ import MoneyGuide from "../../../../components/MoneyGuide";
 import WeatherGuide from "../../../../components/WeatherGuide";
 import HelpGuide from "../../../../components/HelpGuide";
 import BudgetCalculator from "../../../../components/BudgetCalculator";
+import NextSteps from "../../../../components/NextSteps";
 import PeekMascot from "../../../../components/PeekMascot";
 import searchCopy from '../../../../data/search-copy.json';
 import ArticleTrust from "../../../../components/ArticleTrust";
@@ -355,6 +356,7 @@ export default function PlanArticle({ params }) {
       )}
 
       {slug === "money" && <BudgetCalculator locale={locale} />}
+      {slug === "visa" && <NextSteps locale={locale} m={m}/>}
       <ArticleTrust locale={locale} reviewed={guide?.reviewed || REVIEWED.iso} />
       <p className="art-disclaimer">
         {m.footer.disclaimer}

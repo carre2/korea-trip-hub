@@ -1,0 +1,64 @@
+/* An editorial travel landing: clear tasks, genuine photography, quiet details. */
+.landing-home {background:var(--bg);padding-bottom:32px}
+.landing-home .journey-hero {padding:36px 0 32px}
+.landing-home .journey-hero-grid {grid-template-columns:minmax(0,1fr) minmax(0,1.06fr);min-height:0;gap:52px;padding-block:0;align-items:center}
+.landing-home .journey-intro {padding:24px 0;max-width:none;color:var(--text);pointer-events:auto}
+.landing-home .journey-kicker {font:700 .875rem/1.6 var(--sans);letter-spacing:.08em;color:var(--primary)}
+.landing-home .journey-kicker span {display:block;color:var(--muted);letter-spacing:0;font-weight:500}
+.landing-home .journey-intro h1 {font-family:var(--sans);font-size:clamp(38px,4.1vw,60px);line-height:1.12;letter-spacing:-.035em;max-width:16ch;margin:20px 0}
+.landing-home .journey-intro p {font-size:1.125rem;line-height:1.7;color:var(--muted);max-width:42ch}
+.landing-home .journey-intro small {display:block;color:var(--muted);font-size:.875rem;margin-top:18px}
+.landing-home .journey-hero-actions {gap:12px;margin-top:28px}
+.landing-home .journey-hero-actions .btn {background:var(--primary);color:var(--on-primary);border:1px solid var(--primary);border-radius:999px;box-shadow:none;min-height:48px}
+.landing-home .journey-hero-actions .btn.ghost {background:var(--surface);color:var(--text);border-color:var(--border)}
+.landing-home .journey-cover {position:relative;inset:auto;z-index:auto;background:transparent;overflow:visible;margin:0;border-radius:0;min-width:0}
+.landing-home .journey-cover>a {position:relative;display:block;height:410px;border-radius:26px;overflow:hidden;box-shadow:none}
+.landing-home .journey-cover>a::after {display:none}
+.landing-home .journey-cover img {height:100%;width:100%;object-fit:cover;object-position:center;filter:none}
+.landing-home .journey-cover>a>span {position:absolute;left:18px;right:auto;bottom:18px;max-width:calc(100% - 36px);font-size:1rem;padding:10px 16px;background:#fff;color:#163b32;border:0;border-radius:999px;text-shadow:none;overflow-wrap:anywhere}
+.landing-home .journey-cover figcaption {position:static;color:var(--muted);margin:10px 6px 0;text-align:left;font-size:.75rem;line-height:1.5;text-shadow:none}
+.landing-home .journey-cover figcaption a {color:inherit}
+.landing-tools {scroll-margin-top:130px;margin-block:16px 48px}
+.landing-tools-head {display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;margin-bottom:22px}
+.landing-tools-head h2 {font:750 clamp(24px,2.3vw,32px)/1.3 var(--sans);margin:8px 0}
+.landing-free {font-size:.875rem;background:var(--travel-mint);color:var(--text);border-radius:999px;padding:10px 16px}
+.landing-tool-switch {display:flex;gap:8px;flex-wrap:wrap;margin-bottom:0}
+.landing-tool-switch button {font:650 1rem/1.5 var(--sans);display:flex;gap:9px;align-items:center;cursor:pointer;border:1px solid var(--border);padding:14px 22px;background:var(--surface-2);color:var(--text);border-radius:16px 16px 0 0;min-height:48px}
+.landing-tool-switch button[aria-pressed="true"] {background:var(--primary);color:var(--on-primary);border-color:var(--primary)}
+.landing-tool-switch button:focus-visible,.landing-route-list a:focus-visible {outline:3px solid var(--primary);outline-offset:4px}
+.landing-tool-panel {border:1px solid var(--border);background:var(--surface);padding:28px;border-radius:0 22px 22px 22px;box-shadow:0 10px 32px #163b3208}
+.landing-tool-note {font-size:1rem;color:var(--muted);line-height:1.7;max-width:85ch;margin:0 0 18px}
+.landing-tools .visafinder {padding:0;border:0;background:none;margin:0}
+.landing-tools .vf-select {max-width:560px;min-height:50px;border-radius:12px;background-color:var(--surface-2)}
+.landing-tools .vf-more {font-size:.875rem;margin-bottom:0}
+.landing-tools .vf-result {box-shadow:none}
+.landing-tools .vf-entry-answer {margin-bottom:0}
+.landing-route-list {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:20px}
+.landing-route-list a {display:flex;justify-content:space-between;gap:14px;border:1px solid var(--border);border-radius:14px;background:var(--travel-mint);color:var(--text);padding:20px;font-weight:650;text-decoration:none;line-height:1.5}
+.landing-tools .budget-calculator {border:0;box-shadow:none;padding:0;margin:0;background:none}
+.landing-tools .peek-mascot {display:none}
+.landing-home .journey-start {padding-top:0}
+.landing-home .journey-start::before {display:none}
+.landing-home .journey-start-card {box-shadow:none;background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:28px;transition:border-color .15s}
+.landing-home .journey-start-card:hover {transform:none;border-color:var(--primary)}
+.landing-home .journey-start-card h3 {font:700 1.3rem/1.4 var(--sans);margin-top:18px}
+.landing-home .journey-start-card p {font-size:1rem;line-height:1.6}
+.landing-home .journey-number {font-size:.875rem;letter-spacing:.08em}
+.landing-home .journey-essentials {background:none;border:0;padding:0;margin-top:22px}
+.landing-home .journey-essentials>div {display:flex;flex-wrap:wrap;gap:10px}
+.landing-home .journey-essentials a {background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:10px 16px;font-size:.875rem}
+.landing-home .journey-place {display:flex;flex-direction:column;border:1px solid var(--border);border-radius:20px;overflow:hidden;background:var(--surface)}
+.landing-home .journey-place>a {border:0;border-radius:0;flex:1}
+.landing-home .journey-place img {height:210px;filter:none}
+.landing-home .journey-place h3 {font:700 1.2rem/1.4 var(--sans)}
+.landing-home .journey-place p {font-size:.9375rem;line-height:1.6}
+.landing-home .journey-place .save-place {margin:0;padding:0 16px;gap:8px;flex-wrap:wrap}
+.landing-home .journey-place .save-place .btn {font-size:.875rem;padding:9px 12px}
+.landing-home .journey-place small {padding:12px 16px;font-size:.75rem;line-height:1.5}
+.landing-home .journey-planner {background:var(--travel-mint);padding-block:48px;scroll-margin-top:130px}
+.landing-home .journey-more>div {background:var(--surface);box-shadow:none;border:1px solid var(--border)}
+@media(min-width:1600px){.landing-home .journey-cover>a{height:460px}}
+@media(max-width:1000px){.landing-home .journey-hero-grid{gap:28px}.landing-home .journey-cover>a{height:370px}.landing-route-list{grid-template-columns:1fr}.landing-home .journey-start-grid{gap:16px}}
+@media(max-width:700px){.landing-home .journey-hero{padding-top:16px}.landing-home .journey-hero-grid{grid-template-columns:1fr;gap:16px}.landing-home .journey-intro{padding:12px 0}.landing-home .journey-intro h1{font-size:38px;max-width:20ch}.landing-home .journey-cover>a{height:260px}.landing-home .journey-cover>a>span{font-size:.875rem}.landing-tools{margin-block:26px 36px;scroll-margin-top:110px}.landing-free{display:none}.landing-tool-switch{gap:5px}.landing-tool-switch button{flex:1 1 90px;justify-content:center;font-size:.875rem;padding:12px 8px;border-radius:12px 12px 0 0;flex-wrap:wrap}.landing-tool-panel{padding:20px;border-radius:0 0 18px 18px}.landing-tools-head h2{font-size:26px}.landing-home .journey-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.landing-home .journey-place img{height:160px}.landing-home .journey-place .save-place>a{font-size:.875rem}.landing-home .journey-place>a>div{padding:14px}.landing-home .journey-start-card{padding:22px}.landing-home .journey-start-grid{grid-template-columns:1fr}.landing-home .journey-intro p{font-size:1rem}}
+@media(max-width:380px){.landing-home .journey-photo-grid{grid-template-columns:1fr}.landing-home .journey-intro h1{font-size:34px}}
+@media(prefers-reduced-motion:reduce){.landing-home *{scroll-behavior:auto;transition:none}}
