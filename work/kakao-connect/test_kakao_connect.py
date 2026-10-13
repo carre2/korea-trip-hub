@@ -40,5 +40,28 @@ class DeliveryTests(unittest.TestCase):
             self.assertEqual(ledger['partial-test']['confirmed_parts'], 1)
             self.assertEqual(api.call_count, 2)
 
+class FormPolicyTests(unittest.TestCase):
+    def test_local_form_preserves_origin_without_cross_origin_referrers(self):
+        from io import BytesIO
+        handler = object.__new__(app.Handler)
+        handler.send_response = lambda code: None
+        headers = {}
+        handler.send_header = lambda name, value: headers.__setitem__(name, value)
+        handler.end_headers = lambda: None
+        handler.wfile = BytesIO()
+        handler.page('test')
+        self.assertEqual(headers['Referrer-Policy'], 'same-origin')
+        self.assertIn("form-action 'self'", headers['Content-Security-Policy'])
+        self.assertIn('https://kauth.kakao.com/oauth/authorize;', headers['Content-Security-Policy'])
+
+    def test_null_and_cross_origin_requests_remain_rejected(self):
+        for origin in ['null', 'https://untrusted.example']:
+            handler = object.__new__(app.Handler)
+            handler.headers = {'Host': 'localhost:8765', 'Origin': origin}
+            result = []
+            handler.page = lambda message, code=200: result.append(code)
+            handler.do_POST()
+            self.assertEqual(result, [403])
+
 if __name__ == '__main__':
     unittest.main()
