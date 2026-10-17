@@ -3,10 +3,13 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { chatViewport } from "../lib/chat-viewport.mjs";
+import useGreetingSpeech from './useGreetingSpeech';
 import CustomTripWorkspace from './CustomTripWorkspace';
 
 export default function ChatWidget({ locale = "en", labels = {}, affiliateNote = "",tripLabels={} }) {
   const t = labels;
+  const voice=useGreetingSpeech(locale,`${t.welcome||""} ${t.bubble||""}`.replace(/🌸/g,""));
+  function closeGuide(){voice.stop();setOpen(false);}
   const [open, setOpen] = useState(false);
   const [guideSrc, setGuideSrc] = useState(null);
   const [msgs, setMsgs] = useState([]); // {role, content}
@@ -38,7 +41,7 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
     const latest=body?.querySelector('.cw-msg:last-of-type');
     if(body && latest)body.scrollTop+=latest.getBoundingClientRect().top-body.getBoundingClientRect().top-8;
   }, [msgs, busy, open]);
-  useEffect(() => { if (!open) return; const escape = e => { if (e.key === 'Escape') setOpen(false); }; window.addEventListener('keydown',escape); return () => window.removeEventListener('keydown',escape); }, [open]);
+  useEffect(() => { if (!open) return; const escape = e => { if (e.key === 'Escape') closeGuide(); }; window.addEventListener('keydown',escape); return () => window.removeEventListener('keydown',escape); }, [open]);
 
   useEffect(()=>{
     if(open && !window.matchMedia('(max-width:560px)').matches) inputRef.current?.focus({preventScroll:true});
@@ -54,7 +57,7 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
   },[open]);
   function navigate(e,action){
     if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey||e.button!==0)return;
-    setOpen(false);
+    closeGuide();
     if(action.id.startsWith('plan-') && window.location.pathname===`/${locale}/`){
       e.preventDefault();
       window.dispatchEvent(new CustomEvent('kth-planner-route',{detail:action.id.slice(5)}));
@@ -67,13 +70,14 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
     setBubbleOff(true);
   }
   function toggleOpen() {
-    setOpen((o) => !o);
+    if(open)closeGuide();else{setOpen(true);voice.play();}
     dismissBubble();
   }
 
   async function send(text, restart=false) {
     const content = (text ?? input).trim().slice(0,1500);
     if (!content || busy) return;
+    voice.stop();
     // Let the response and booking actions use the full phone screen after sending.
     if (mobileViewport) inputRef.current?.blur();
     setInput("");
@@ -108,7 +112,7 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
       {!open && !bubbleOff && (
         <div className="korea-welcome" role="region" aria-label={t.title}>
           <button className="korea-welcome-close" aria-label={t.close} onClick={dismissBubble}>✕</button>
-          <button className="korea-welcome-message" onClick={() => setOpen(true)}>
+          <button className="korea-welcome-message" onClick={toggleOpen}>
             <small>{t.virtualGuide}</small><strong>{t.bubble}</strong><span>{t.title} ↗</span>
           </button>
         </div>
@@ -122,9 +126,14 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
         <div id="korea-chat-panel" className={`cw-panel${mobileViewport?.compact ? ' cw-compact' : ''}`} style={mobileViewport?.style} data-placement="travel-assistant" role="dialog" aria-modal="false" aria-label={t.title || "Korea Trip Hub Assistant"}>
           <div className="cw-head">
             <b>{guideSrc && <img className="korea-chat-avatar" src={guideSrc} alt="" width="40" height="40" decoding="async" fetchPriority="low" />} {t.title}<small className="korea-chat-label">{t.virtualGuide}</small></b>
-            <button className="cw-x" aria-label={t.close} onClick={() => setOpen(false)}>✕</button>
+            <button className="cw-x" aria-label={t.close} onClick={closeGuide}>✕</button>
           </div>
 
+          <div className="cw-voice">
+            <button type="button" onClick={voice.toggleMute} aria-pressed={voice.muted}>{voice.muted?"🔇 ":"🔊 "}{voice.muted?t.voice.enable:t.voice.mute}</button>
+            <button type="button" onClick={voice.play} disabled={voice.muted}>{t.voice.replay}</button>
+            <span role="status">{voice.state==="idle"?"":t.voice[voice.state]}</span>
+          </div>
           <div className="cw-body" ref={scroller}>
 
             {msgs.length === 0 && (
