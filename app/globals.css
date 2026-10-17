@@ -1160,3 +1160,25 @@
 .cw-input input{min-width:0}.cw-disc{margin:4px 12px;font-size:12px;line-height:1.45}
 .cw-quick button{min-height:44px}.cw-emerg{font-size:12px}
 @media(max-width:520px){.cw-panel{width:auto;height:min(680px,calc(100dvh - 92px))}}
+
+/* Keep chat controls usable at phone and keyboard-sized viewport heights. */
+.cw-panel .cw-msg{font-size:1rem;flex-shrink:0}
+.cw-body{min-height:0;overscroll-behavior:contain}
+.cw-head,.cw-emerg,.cw-quick,.cw-input,.cw-disc{flex-shrink:0}
+.cw-actions a{background:var(--surface)}
+.cw-x{min-width:44px;min-height:44px;border-radius:50%}
+.cw-panel .cw-disc{padding:0 2px 6px}
+@media(max-width:560px){
+ .cw-panel{bottom:8px;max-height:calc(100dvh - 24px);z-index:110}
+ .cw-head{padding:6px 12px}
+ .cw-quick{flex-wrap:nowrap;overflow-x:auto;padding-top:4px}
+ .cw-quick button{flex-shrink:0;font-size:.875rem}
+ .cw-input{padding:8px 12px}
+ .cw-input input{font-size:16px}
+ .cw-panel .cw-disc{font-size:11px;margin-top:0;margin-bottom:0}
+}
+@media(max-height:500px) and (max-width:560px){
+ .cw-quick,.cw-panel .cw-disc{display:none}
+ .cw-head .korea-chat-label{display:none}
+ .cw-emerg{padding:4px 12px}
+}

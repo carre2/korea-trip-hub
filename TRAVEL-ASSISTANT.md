@@ -10,3 +10,11 @@
 - Same-origin JSON requests, 24KB body cap, bounded history, and Cloudflare per-location rate limit (10/minute/IP). This is abuse mitigation, not a global spending cap.
 - Verification: node scripts/test-chat-provider.mjs; npm run build. Live OpenAI-only calls passed in Korean, Indonesian and Vietnamese.
 - Facts ledger unchanged: navigation only, no new immigration or booking claims.
+
+## PC and mobile-width QA — 2026-10-17
+- Chrome desktop: live assistant generated a Seoul itinerary, opened its preview, saved it, and retained the saved itinerary after reload.
+- Built site at 390px and 320px in an iframe harness: same-page itinerary selection works; save survives reload; same-locale guide navigation retains the conversation and booking actions.
+- Stay22 links reached Seoul search results on Booking.com (desktop) and Expedia (mobile-width), including affiliate parameters. No reservation or payment was made. Dates and guests must be selected/confirmed on the partner site.
+- Fixed internal navigation remounts, homepage itinerary selection, initial focus stealing, mobile panel/input sizing, touch close control, and assistant booking analytics placement.
+- Mobile viewport resizing was unavailable in the browser extension, so responsive iframe testing was used. Physical phone, Safari and on-screen keyboard behavior remain unverified; visualViewport handling is implemented.
+- Full build and all six chat-provider tests passed. Facts ledger unchanged.

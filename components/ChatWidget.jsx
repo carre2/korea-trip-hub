@@ -1,8 +1,7 @@
 "use client";
-// Floating "Help me now" assistant. Calls POST /api/chat (grounded Worker).
-// Fact-safe by design: an always-visible emergency note, quick-action prompts,
-// optional location sharing, and links the model returns are made clickable.
+// Site-owned navigation actions; in-memory conversation survives internal navigation.
 import { useState, useRef, useEffect } from "react";
+import Link from "next/link";
 
 export default function ChatWidget({ locale = "en", labels = {}, affiliateNote = "" }) {
   const t = labels;
@@ -13,6 +12,8 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
   const [busy, setBusy] = useState(false);
   const inputRef = useRef(null);
   const launcher = useRef(null);
+  const wasOpen = useRef(false);
+  const [mobileViewport, setMobileViewport] = useState(null);
   // Keep the welcome card closed so it cannot cover the reader's next action.
   // The character button still opens help on request.
   const [bubbleOff, setBubbleOff] = useState(true);
@@ -31,7 +32,28 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
   useEffect(() => { if (scroller.current) scroller.current.scrollTop = scroller.current.scrollHeight; }, [msgs, busy, open]);
   useEffect(() => { if (!open) return; const escape = e => { if (e.key === 'Escape') setOpen(false); }; window.addEventListener('keydown',escape); return () => window.removeEventListener('keydown',escape); }, [open]);
 
-  useEffect(()=>{if(open)inputRef.current?.focus();else if(document.activeElement===document.body)launcher.current?.focus();},[open]);
+  useEffect(()=>{
+    if(open && !window.matchMedia('(max-width:560px)').matches) inputRef.current?.focus({preventScroll:true});
+    else if(!open && wasOpen.current && document.activeElement===document.body) launcher.current?.focus({preventScroll:true});
+    wasOpen.current=open;
+  },[open]);
+  useEffect(()=>{
+    if(!open)return;
+    const viewport=window.visualViewport;
+    const resize=()=>setMobileViewport(window.matchMedia('(max-width:560px)').matches ? {height:Math.max(180,Math.min(720,(viewport?.height||window.innerHeight)-24)),bottom:Math.max(8,window.innerHeight-(viewport?.height||window.innerHeight)-(viewport?.offsetTop||0)+8)} : null);
+    resize();viewport?.addEventListener('resize',resize);viewport?.addEventListener('scroll',resize);window.addEventListener('resize',resize);
+    return()=>{viewport?.removeEventListener('resize',resize);viewport?.removeEventListener('scroll',resize);window.removeEventListener('resize',resize);};
+  },[open]);
+  function navigate(e,action){
+    if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey||e.button!==0)return;
+    setOpen(false);
+    if(action.id.startsWith('plan-') && window.location.pathname===`/${locale}/`){
+      e.preventDefault();
+      window.dispatchEvent(new CustomEvent('kth-planner-route',{detail:action.id.slice(5)}));
+      const planner=document.getElementById('planner');
+      planner?.scrollIntoView({behavior:'auto',block:'start'});planner?.focus({preventScroll:true});
+    }
+  }
 
   function dismissBubble() {
     setBubbleOff(true);
@@ -84,7 +106,7 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
       </button>
 
       {open && (
-        <div id="korea-chat-panel" className="cw-panel" role="dialog" aria-modal="false" aria-label={t.title || "Korea Trip Hub Assistant"}>
+        <div id="korea-chat-panel" className="cw-panel" style={mobileViewport||undefined} data-placement="travel-assistant" role="dialog" aria-modal="false" aria-label={t.title || "Korea Trip Hub Assistant"}>
           <div className="cw-head">
             <b>{guideSrc && <img className="korea-chat-avatar" src={guideSrc} alt="" width="40" height="40" decoding="async" fetchPriority="low" />} {t.title}<small className="korea-chat-label">{t.virtualGuide}</small></b>
             <button className="cw-x" aria-label={t.close} onClick={() => setOpen(false)}>✕</button>
@@ -101,7 +123,7 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
             {msgs.map((m, i) => (
               <div key={i} className={`cw-msg cw-${m.role}`}>
                 {m.content}
-                {m.actions?.length > 0 && <div className="cw-actions">{m.actions.map(a=><a key={a.id} href={a.href} target={a.sponsored?'_blank':undefined} rel={a.sponsored?'sponsored nofollow noopener noreferrer':undefined}>{a.title} {a.sponsored?'↗':'→'}</a>)}</div>}
+                {m.actions?.length > 0 && <div className="cw-actions">{m.actions.map(a=>a.sponsored ? <a key={a.id} href={a.href} data-journey-target={a.id} target="_blank" rel="sponsored nofollow noopener noreferrer">{a.title} ↗</a> : <Link key={a.id} href={a.href} prefetch={false} onClick={e=>navigate(e,a)}>{a.title} →</Link>)}</div>}
                 {m.actions?.some(a=>a.sponsored) && <small className="cw-affiliate">{affiliateNote}</small>}
               </div>
             ))}
