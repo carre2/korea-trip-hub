@@ -35,3 +35,12 @@
 - Editorial area fit is copied from data/stay.json into lib/assistant-stay-context.mjs; a regression test detects drift.
 - Live Korean dialogue passed asking → confirming → ready with a Seoul/cafes/shopping/Hongdae hotel brief. Full build, localization/SEO verification and provider tests passed. Facts ledger unchanged.
 - Mobile survey UI verified against the deployed API: city answer chip advances to travel dates/duration; restart is visible. Latest-answer scrolling now anchors the start of the question, so long choices/disclosures do not hide the question on short screens.
+
+## Generated custom itineraries — 2026-10-17
+- Supersedes the template-only limitation above: after the preference interview and confirmation, the assistant produces a new structured itinerary with up to 14 days, lodging base per day, rationale, ordered catalog places, suggested periods/activities, meals/rest and arrival/departure notes.
+- Known place/base IDs only; reject unknown locations, cross-city day/base mismatches, duplicate daily stops, oversized fields and arbitrary URLs. No invented journey duration, opening hours, room availability or prices. Actual directions are checked in Google Maps; this is not a shortest-route engine.
+- CustomTripWorkspace supports area changes, stop reorder/removal, derived per-leg and return directions, area-specific Stay22 affiliate searches, explicit local save and restoration in home My Trip. Replacing a custom save is disclosed. Existing template saves stay separate.
+- Saved key: kth_custom_trip_v1. Survey data stays in conversation memory; the visitor's saved itinerary includes the generated brief. The API receives the current bounded itinerary for follow-up revisions. Save/affiliate events carry generic identifiers, not the travel brief.
+- Catalog snapshot is derived from data/destinations.json and data/stay.json; test-custom-trip detects source drift. Twelve locales have UI labels. Facts ledger unchanged.
+- Validation: live Korean survey/confirmation generated 4 days with Hongdae bases. Browser verified generation, save, reload restoration, changing second-day base to Insadong/Jongno, reordered places and corresponding URL updates. Responsive iframe at 320px and 390px showed no horizontal card overflow; not a physical-device test.
+- One browser generation attempt failed; retry returned a valid four-day plan. This remains an external-provider reliability limitation, and errors do not create or overwrite saved plans. Full build, localization, SEO and focused tests passed before deployment.

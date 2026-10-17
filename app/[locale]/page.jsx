@@ -8,6 +8,7 @@ import {fact} from "../../lib/facts";
 import MapExplorer from "../../components/MapExplorer";
 import { itinFor } from "../../lib/content";
 import TripPlanner from "../../components/TripPlanner";
+import CustomTripWorkspace from "../../components/CustomTripWorkspace";
 import HeroSlider from "../../components/HeroSlider";
 import LandingTools from "../../components/LandingTools";
 import SavePlace from "../../components/SavePlace";
@@ -111,7 +112,7 @@ export default function Home({ params }) {
     </section>
     <section id="planner" className="journey-planner" tabIndex={-1} aria-label={t.myTrip}><div className="wrap">
       <div className="sec-head"><div><span className="eyebrow">{t.myTrip}</span><h2>{t.plannerTitle}</h2><p>{t.plannerSub}</p></div><a href={`/${locale}/itinerary/`}>{m.nextSteps.itinerary} →</a></div>
-      <SavedPlaces catalog={placeCatalog} locale={locale} t={t} /><TripPlanner catalog={placeCatalog} locale={locale} labels={t} routes={routeOptions} order={itineraries.order} ui={{dayLabel: itineraries.ui.dayLabel, map: itineraries.ui.map}} checklist={checklist} />
+      <CustomTripWorkspace locale={locale} labels={m.chat.custom} controls={t} affiliateNote={m.footer.affiliateLine} catalog={placeCatalog}/><SavedPlaces catalog={placeCatalog} locale={locale} t={t} /><TripPlanner catalog={placeCatalog} locale={locale} labels={t} routes={routeOptions} order={itineraries.order} ui={{dayLabel: itineraries.ui.dayLabel, map: itineraries.ui.map}} checklist={checklist} />
     </div></section>
     <section id="dest" className="wrap journey-discover">
       <div className="sec-head"><div><span className="eyebrow">{t.explore}</span><h2>{m.dest.title}</h2></div><a href={`/${locale}/destinations/`}>{m.dest.browseAll} →</a></div>

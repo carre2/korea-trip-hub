@@ -1189,3 +1189,18 @@
 .cw-answers button:hover,.cw-answers button:focus-visible{border-color:var(--primary);outline:2px solid var(--accent)}
 .cw-answers button:disabled,.cw-restart:disabled{opacity:.55;cursor:wait}
 .cw-restart{flex-shrink:0;align-self:flex-start;font-size:.875rem}
+
+/* Editable AI itinerary: explicit save, readable cards at chat and page widths. */
+.custom-trip{white-space:normal;min-width:0;margin:16px 0;padding:16px;border:1px solid var(--border,#d9d5e3);border-radius:20px;background:var(--surface,#fff);color:var(--text,#173b3a);overflow-wrap:anywhere}
+.custom-trip h3{margin:6px 0 12px;font-weight:700;font-size:1.15rem;line-height:1.4}
+.custom-trip p{line-height:1.65;margin:10px 0}
+.custom-trip-note{font-size:.85rem;padding:12px;background:rgba(125,180,160,.12);border-radius:12px}
+.custom-trip small{display:block;line-height:1.5}
+.custom-trip-day{margin-top:16px;padding:12px;border:1px solid var(--border,#d9d5e3);border-radius:14px}
+.custom-trip-day summary{cursor:pointer;font-weight:700;line-height:1.5;padding:8px 0}
+.custom-trip-day label{display:grid;gap:8px;margin-top:12px;font-weight:600}
+.custom-trip-day select{width:100%;min-width:0;min-height:44px;border-radius:10px;padding:8px;background:var(--surface,#fff);color:inherit;border:1px solid var(--border,#aaa)}
+.custom-trip-day ol{padding-left:22px}.custom-trip-day li{padding:12px 0;border-bottom:1px solid var(--border,#ddd)}
+.custom-trip-links,.custom-trip .trip-toolbar,.custom-trip .trip-stop-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.custom-trip a{display:inline-flex;align-items:center;min-height:44px}.custom-trip button{min-width:44px;min-height:44px}.custom-trip .trip-stop-actions{margin-top:8px}.custom-trip button:disabled{opacity:.4}
+.cw-msg .custom-trip{padding:10px;margin-inline:-4px;font-size:.9rem}.cw-msg .custom-trip-day{padding:10px}

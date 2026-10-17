@@ -24,7 +24,20 @@
     "hotels": "Find hotels",
     "visa": "Visa guide",
     "privacy": "Your messages are sent to AI providers. Do not include personal or payment details.",
-    "restart": "Start the travel questionnaire again"
+    "restart": "Start the travel questionnaire again",
+    "custom": {
+      "heading": "Your custom itinerary",
+      "note": "AI suggestions: check opening hours and routes on maps. Hotel links search an area; confirm dates, guests and prices with the booking provider.",
+      "storage": "Saved in this browser. Saving replaces your previous custom itinerary.",
+      "open": "Open saved itinerary",
+      "day": "Day {n}",
+      "base": "Lodging area",
+      "changedBase": "Area changed. Check each route again.",
+      "hotels": "Find hotels in this area",
+      "transfer": "Route between lodging areas",
+      "leg": "Directions to this stop",
+      "return": "Return to lodging area"
+    }
   },
   "seasonLinks": {
     "spring": "See cherry-blossom spots",

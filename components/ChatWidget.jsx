@@ -3,8 +3,9 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { chatViewport } from "../lib/chat-viewport.mjs";
+import CustomTripWorkspace from './CustomTripWorkspace';
 
-export default function ChatWidget({ locale = "en", labels = {}, affiliateNote = "" }) {
+export default function ChatWidget({ locale = "en", labels = {}, affiliateNote = "",tripLabels={} }) {
   const t = labels;
   const [open, setOpen] = useState(false);
   const [guideSrc, setGuideSrc] = useState(null);
@@ -13,6 +14,7 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
   const inputRef = useRef(null);
+  const customTripRef=useRef(null);
   const launcher = useRef(null);
   const wasOpen = useRef(false);
   const [mobileViewport, setMobileViewport] = useState(null);
@@ -76,19 +78,20 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
     if (mobileViewport) inputRef.current?.blur();
     setInput("");
     const next = [...(restart?[]:msgs.slice(-11)), { role: "user", content }];
-    if(restart)setPreferences({});
+    if(restart){setPreferences({});customTripRef.current=null;}
     setMsgs(next);
     setBusy(true);
     try {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        signal: AbortSignal.timeout(45000),
-        body: JSON.stringify({ locale, preferences:restart?{}:preferences, messages: next.map((m) => ({ role: m.role, content: m.content })) }),
+        signal: AbortSignal.timeout(75000),
+        body: JSON.stringify({ locale, currentTrip:restart?null:customTripRef.current, preferences:restart?{}:preferences, messages: next.map((m) => ({ role: m.role, content: m.content })) }),
       });
       const data = await res.json().catch(() => ({}));
       if(res.ok && data.preferences)setPreferences(data.preferences);
-      setMsgs((cur) => [...cur, { role: "assistant", actions: res.ok ? data.actions : [], suggestions:res.ok?data.suggestions:[], content: data.reply || t.error || "Sorry, I couldn't reach the assistant. For urgent help call 1330 (free, 24/7)." }]);
+      if(res.ok && data.customTrip)customTripRef.current=data.customTrip;
+      setMsgs((cur) => [...cur, { role: "assistant", customTrip:res.ok?data.customTrip:null, actions: res.ok ? data.actions : [], suggestions:res.ok?data.suggestions:[], content: data.reply || t.error || "Sorry, I couldn't reach the assistant. For urgent help call 1330 (free, 24/7)." }]);
     } catch {
       setMsgs((cur) => [...cur, { role: "assistant", content: t.error || "Sorry, I couldn't reach the assistant. For urgent help call 1330 (free, 24/7)." }]);
     } finally {
@@ -132,6 +135,7 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
             {msgs.map((m, i) => (
               <div key={i} className={`cw-msg cw-${m.role}`}>
                 {m.content}
+                {m.customTrip && <CustomTripWorkspace draft={m.customTrip} onChange={trip=>{customTripRef.current=trip;}} locale={locale} labels={t.custom} controls={tripLabels} affiliateNote={affiliateNote}/>}
                 {i===msgs.length-1 && m.suggestions?.length>0 && <div className="cw-answers">{m.suggestions.map(s=><button key={s} disabled={busy} onClick={()=>send(s)}>{s}</button>)}</div>}
                 {m.actions?.length > 0 && <div className="cw-actions">{m.actions.map(a=>a.sponsored ? <a key={a.id} href={a.href} data-journey-target={a.id} target="_blank" rel="sponsored nofollow noopener noreferrer">{a.title} ↗</a> : <Link key={a.id} href={a.href} prefetch={false} onClick={e=>navigate(e,a)}>{a.title} →</Link>)}</div>}
                 {m.actions?.some(a=>a.sponsored) && <small className="cw-affiliate">{affiliateNote}</small>}

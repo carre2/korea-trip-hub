@@ -24,7 +24,20 @@
     "hotels": "Buscar alojamiento",
     "visa": "Guía de visados",
     "privacy": "Los mensajes se envían a proveedores de IA. No incluyas datos personales ni de pago.",
-    "restart": "Reiniciar las preguntas sobre el viaje"
+    "restart": "Reiniciar las preguntas sobre el viaje",
+    "custom": {
+      "heading": "Tu itinerario personalizado",
+      "note": "Sugerencias de IA: comprueba horarios y rutas en el mapa. Los enlaces buscan alojamiento por zona; confirma fechas, huéspedes y precios con el proveedor.",
+      "storage": "Se guarda en este navegador y reemplaza tu itinerario personalizado anterior.",
+      "open": "Abrir itinerario guardado",
+      "day": "Día {n}",
+      "base": "Zona de alojamiento",
+      "changedBase": "Zona cambiada. Revisa las rutas.",
+      "hotels": "Buscar alojamiento en esta zona",
+      "transfer": "Ruta entre zonas de alojamiento",
+      "leg": "Cómo llegar a esta parada",
+      "return": "Volver a la zona de alojamiento"
+    }
   },
   "seasonLinks": {
     "spring": "Dónde ver los cerezos",
