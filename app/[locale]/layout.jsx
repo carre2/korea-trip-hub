@@ -45,7 +45,7 @@ export default function LocaleLayout({ children, params }) {
         <Header locale={locale} nav={m.nav} labels={m.experience} festivalTitle={festivalCopies[locale].title} locales={locales} localeNames={localeNames} rtl={dir === "rtl"} />
         <JourneyAnalytics locale={locale} /><main id="main"><ArticleContents label={m.experience.contents} /><CategoryCompanion titles={{destinations:m.dest.title,food:m.food.title,guides:m.guides.title,itinerary:m.experience.plannerTitle,stay:m.nextSteps.stay,kpop:m.nav.kculture,festivals:festivalCopies[locale].title,plan:m.experience.essentials,visa:m.experience.entry}}/>{children}</main>
         <SiteFooter locale={locale} />
-        <ChatWidget locale={locale} labels={m.chat} />
+        <ChatWidget locale={locale} labels={m.chat} affiliateNote={m.footer.affiliateLine} />
         <ConsentBanner t={consent} privacyHref={`/${locale}/legal/privacy/`} />
         {/* Google Consent Mode v2 — every signal denied by default until the visitor opts
             in via the banner above (or a stored choice is re-applied). Runs before GA reads

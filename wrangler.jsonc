@@ -15,6 +15,7 @@
   // OPENAI_API_KEY enables GPT-6 Luna through the Responses API.
   // Fallback order: Claude Haiku (ANTHROPIC_API_KEY), then Workers AI.
   "ai": { "binding": "AI" },
+  "ratelimits": [{"name":"CHAT_LIMITER","namespace_id":"10017","simple":{"limit":10,"period":60}}],
   "analytics_engine_datasets": [
     { "binding": "LANDING_HEALTH", "dataset": "kth_ad_landing_health" }
   ]

@@ -3,6 +3,7 @@
 // for /api/chat (POST) and for paths with no matching asset (404s).
 
 import {entryLanguage} from '../lib/entry-language.mjs';
+import {assistantPrompt, assistantSchema, parseAssistant} from '../lib/travel-assistant.mjs';
 import {recordLanding} from './landing-health.mjs';
 
 const MODEL_CF = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"; // Workers AI (current)
@@ -18,39 +19,7 @@ const LANGS = {
   ko: "Korean", ru: "Russian", fr: "French",
 };
 
-// Fact-safe knowledge the assistant may rely on. Verified essentials only —
-// the model is told NOT to invent anything beyond this.
-function systemPrompt(locale, coords) {
-  const lc = LANGS[locale] ? locale : "en";
-  const langName = LANGS[lc];
-  const loc = coords ? `The traveler shared an approximate location: latitude ${coords.lat}, longitude ${coords.lng}.` : "The traveler has not shared a location.";
-  return `You are the Korea Trip Hub Assistant — a warm, practical helper for foreign visitors to South Korea, on the site ktriphub.com.
-
-RESPOND IN: ${langName}. Always answer in this language, whatever language the question is in. Be concise (a few short sentences or a tight list). Be calm and reassuring.
-
-WHAT YOU HELP WITH: on-the-ground traveler problems — being overcharged or scammed, getting lost, finding food, cultural etiquette, transport, money, and visa/K-ETA/entry basics.
-
-VERIFIED ESSENTIALS you may state (do not go beyond these specifics):
-- Emergency numbers (free): 112 = police; 119 = fire and ambulance/medical. Say to call these immediately if someone is in danger or hurt.
-- 1330 = the Korea Travel Hotline, run by the Korea Tourism Organization: free, 24/7, with live interpretation in several languages. It is the best first call for tourists for complaints, overcharging, directions, or help finding things. In Seoul, 120 (Dasan) handles city services.
-- e-Arrival Card is free at e-arrivalcard.go.kr. K-ETA is applied for ONLY at the official site k-eta.go.kr. Many nationalities are temporarily K-ETA-exempt through 2026-12-31.
-- Tipping is not expected in Korea; prices are as marked.
-
-HANDLING KEY SITUATIONS:
-- Overcharged / scammed ("바가지"): stay calm; call 1330 for interpretation and guidance; keep receipts/records; for a clear crime (theft, fraud) call 112. Prefer licensed taxis or ride-hailing apps and card/transit payment. Point them to the site's Safety guide (/${lc}/guides/korea-safety/) and Help guide (/${lc}/plan/help/).
-- Lost: reassure them; suggest heading to the nearest subway station or a Tourist Information Center, and calling 1330 for directions in their language. Suggest opening Naver Map, KakaoMap or Google Maps. ${loc} If you have their location, offer a maps SEARCH link for "police station near me" / "tourist information center near me" / their embassy — build it as a Google Maps search URL like https://www.google.com/maps/search/tourist+information+center/@LAT,LNG,15z — never invent a specific address or business.
-- Finding food / restaurants: send them to the site's Food page (/${lc}/food/) and its "Find top eats" tool (Google Maps, CatchTable, Naver, MICHELIN). Halal options cluster near Itaewon in Seoul. Do not invent specific restaurant names, prices or ratings.
-- Cultural mistakes: reassure them locals are forgiving. Basics: take shoes off indoors, give/receive with two hands, keep quiet on transit, no tipping. Point to the Etiquette guide (/${lc}/guides/korea-etiquette/).
-- Visa / K-ETA / entry: point to the Visa hub (/${lc}/plan/visa/) and per-country pages (/${lc}/visa/<country>/, e.g. /${lc}/visa/japan/). K-ETA only at k-eta.go.kr.
-- Transport/airport/money/SIM/weather: point to /${lc}/plan/transit/, /${lc}/plan/airport/, /${lc}/plan/money/, /${lc}/plan/sim/, /${lc}/plan/weather/.
-
-RULES:
-- NEVER invent phone numbers, prices, addresses, business names, opening hours, exact fees, or legal advice. If you don't have a verified fact, say to confirm at an official source and give a relevant site link or the 1330 hotline.
-- Immigration and officials make final decisions; frame visa/entry info as general guidance to confirm officially.
-- You are NOT a substitute for emergency services — if there is real danger, tell them to call 112 or 119 now.
-- When you cite a page, write it as a plain path starting with /${lc}/ (e.g. /${lc}/plan/help/). Keep links relevant and few.
-- If a question is outside Korea travel help, gently steer back.`;
-}
+function systemPrompt(locale) { return assistantPrompt(LANGS[locale] || LANGS.en); }
 
 function json(obj, status = 200) {
   return new Response(JSON.stringify(obj), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
@@ -72,6 +41,7 @@ async function callClaude(env, system, messages) {
       "anthropic-version": "2023-06-01",
       "content-type": "application/json",
     },
+    signal: AbortSignal.timeout(10000),
     body: JSON.stringify({ model: MODEL_CLAUDE, max_tokens: MAX_TOKENS, system, messages }),
   });
   if (!res.ok) throw new Error("claude_" + res.status);
@@ -94,6 +64,7 @@ async function callOpenAI(env, system, messages) {
       reasoning: { effort: "none" },
       max_output_tokens: MAX_TOKENS,
       store: false,
+      text: {format:{type:"json_schema",name:"travel_navigation",strict:true,schema:assistantSchema}},
     }),
   });
   if (!res.ok) throw new Error("openai_" + res.status);
@@ -118,8 +89,18 @@ async function callWorkersAI(env, system, messages) {
 }
 
 async function handleChat(request, env) {
+  if(request.headers.get('origin') !== new URL(request.url).origin) return json({error:'origin_denied'},403);
+  if(!request.headers.get('content-type')?.startsWith('application/json')) return json({error:'bad_content_type'},415);
+  if(env.CHAT_LIMITER && !(await env.CHAT_LIMITER.limit({key:request.headers.get('CF-Connecting-IP') || 'unknown'})).success) return json({error:'rate_limited'},429);
   let body;
-  try { body = await request.json(); } catch { return json({ error: "bad_request" }, 400); }
+  try {
+    const reader=request.body?.getReader(); if(!reader) return json({error:'bad_request'},400);
+    const chunks=[]; let size=0;
+    while(true){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>24000){await reader.cancel();return json({error:'too_large'},413);}chunks.push(value);}
+    const bytes=new Uint8Array(size);let at=0;for(const c of chunks){bytes.set(c,at);at+=c.length;}
+    body=JSON.parse(new TextDecoder().decode(bytes));
+    if(!body || typeof body !== 'object') return json({error:'bad_request'},400);
+  } catch { return json({error:'bad_request'},400); }
   const messages = sanitizeMessages(body.messages);
   if (!messages.length || messages[messages.length - 1].role !== "user") {
     return json({ error: "no_message" }, 400);
@@ -139,7 +120,7 @@ async function handleChat(request, env) {
   for (const provider of providers) {
     try {
       const reply = await provider(env, system, messages);
-      if (reply) return json({ reply });
+      if (reply) return json(parseAssistant(reply, locale));
     } catch {
       // Try the next configured provider without exposing upstream errors or secrets.
     }
