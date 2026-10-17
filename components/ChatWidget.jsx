@@ -126,12 +126,14 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
           </div>
 
           <div className="cw-body" ref={scroller}>
-            <div className="cw-emerg">🚨 {t.emergency || "In danger or hurt? Call 112 (police) or 119 (fire/ambulance) now."}</div>
+
             {msgs.length === 0 && (
-              <div className="cw-greet">
+              <div className="cw-greet" lang={locale}>
+                <strong className="cw-welcome-title">{t.welcome}</strong>
                 <p>{t.greeting || "Hi! I can help with problems on your Korea trip — being overcharged, getting lost, finding food, etiquette, visas and more. What's up?"}</p>
               </div>
             )}
+            <div className="cw-emerg">🚨 {t.emergency || "In danger or hurt? Call 112 (police) or 119 (fire/ambulance) now."}</div>
             {msgs.map((m, i) => (
               <div key={i} className={`cw-msg cw-${m.role}`}>
                 {m.content}

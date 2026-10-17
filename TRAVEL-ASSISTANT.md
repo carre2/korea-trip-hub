@@ -47,3 +47,10 @@
 - Production deployed and returned a validated four-day Hongdae itinerary. A separate probe returned an extra clarification question despite populated preferences; the interview remains model-driven and can still ask follow-up questions. Do not claim deterministic interview completion.
 - Safe provider diagnostics log only provider name and a fixed error code (timeout/invalid response/provider status), never user text, full model output or credentials.
 - Browser opened the Stay22 Insadong/Jongno affiliate link and verified Booking.com selected Jongno-gu; dates and occupancy remain for the visitor to confirm there.
+
+## Localized welcome — 2026-10-17
+- Clicking the guide opens an immediate, locally rendered welcome and asks what the visitor would like to know, in all 12 supported page languages. No API request or message transmission is needed for the greeting.
+- Welcome precedes the emergency notice on an empty conversation; existing conversations remain intact when closed/reopened. Topic buttons continue into the existing survey/navigation flow.
+- Language behavior is unchanged: root entry prefers saved explicit choice, then browser language, country fallback, then English. Explicit locale URLs and manual selection are honored. Language is not proof of passport nationality; no nationality-based eligibility assumptions.
+- Facts ledger unchanged. Entry-language regression tests and full build/localization/SEO verification required before release.
+- Release verification: build and entry-language tests passed; Chrome UI confirmed Indonesian and Vietnamese welcome/question text immediately on guide click. Screenshot: review/2026-10-17/welcome-indonesian.png.

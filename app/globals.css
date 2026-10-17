@@ -1204,3 +1204,7 @@
 .custom-trip-links,.custom-trip .trip-toolbar,.custom-trip .trip-stop-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 .custom-trip a{display:inline-flex;align-items:center;min-height:44px}.custom-trip button{min-width:44px;min-height:44px}.custom-trip .trip-stop-actions{margin-top:8px}.custom-trip button:disabled{opacity:.4}
 .cw-msg .custom-trip{padding:10px;margin-inline:-4px;font-size:.9rem}.cw-msg .custom-trip-day{padding:10px}
+
+.cw-greet{padding:16px;margin-bottom:14px;border-radius:18px;background:var(--surface-2);border:1px solid var(--border)}
+.cw-welcome-title{display:block;color:var(--text);font-size:1.1rem;line-height:1.55;margin-bottom:10px}
+.cw-panel .cw-greet p{color:var(--text);font-size:1rem;line-height:1.65}
