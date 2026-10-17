@@ -34,3 +34,4 @@
 - Existing saved itinerary templates remain templates, not generated custom routes. Recommendations explain fit and required edits; no live room prices/availability claims. Area-specific Stay22 links use site-owned destinations and the existing affiliate ID.
 - Editorial area fit is copied from data/stay.json into lib/assistant-stay-context.mjs; a regression test detects drift.
 - Live Korean dialogue passed asking → confirming → ready with a Seoul/cafes/shopping/Hongdae hotel brief. Full build, localization/SEO verification and provider tests passed. Facts ledger unchanged.
+- Mobile survey UI verified against the deployed API: city answer chip advances to travel dates/duration; restart is visible. Latest-answer scrolling now anchors the start of the question, so long choices/disclosures do not hide the question on short screens.

@@ -31,7 +31,11 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
     setGuideSrc(guide === 'male' ? '/img/hanbok-guide-male-3d.png' : '/img/hanbok-guide-3d.png');
   }, []);
 
-  useEffect(() => { if (scroller.current) scroller.current.scrollTop = scroller.current.scrollHeight; }, [msgs, busy, open]);
+  useEffect(() => {
+    const body=scroller.current;
+    const latest=body?.querySelector('.cw-msg:last-of-type');
+    if(body && latest)body.scrollTop+=latest.getBoundingClientRect().top-body.getBoundingClientRect().top-8;
+  }, [msgs, busy, open]);
   useEffect(() => { if (!open) return; const escape = e => { if (e.key === 'Escape') setOpen(false); }; window.addEventListener('keydown',escape); return () => window.removeEventListener('keydown',escape); }, [open]);
 
   useEffect(()=>{
