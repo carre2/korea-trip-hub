@@ -3,6 +3,7 @@
 // for /api/chat (POST) and for paths with no matching asset (404s).
 
 import {entryLanguage} from '../lib/entry-language.mjs';
+import {recordLanding} from './landing-health.mjs';
 
 const MODEL_CF = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"; // Workers AI (current)
 const MODEL_CLAUDE = "claude-haiku-4-5-20251001";   // existing fallback when a key is set
@@ -158,7 +159,16 @@ export default {
       if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);
       return handleChat(request, env);
     }
-    // Everything else: serve the static export unchanged.
-    return env.ASSETS.fetch(request);
+    // Preserve the asset response; separately count ad HTML responses, never people.
+    const started=Date.now();
+    const response=await env.ASSETS.fetch(request);
+    const recorded=recordLanding(request,response,env,Date.now()-started);
+    if(url.searchParams.get('kth_measurement_probe')==='1'){
+      const probe=new Response(response.body,response);
+      probe.headers.set('X-KTH-Landing-Diagnostic',recorded?'queued':'not-counted');
+      probe.headers.set('Cache-Control','private, no-store');
+      return probe;
+    }
+    return response;
   },
 };

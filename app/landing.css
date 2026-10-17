@@ -76,3 +76,4 @@
 .visa-journey-booking .visa-journey-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 .visa-journey-booking .bookcta-disc{margin-top:16px;margin-bottom:0}
 @media(max-width:600px){.visa-journey{padding:18px}.visa-journey-grid,.visa-journey-booking .visa-journey-grid{grid-template-columns:1fr}}
+.consent-preferences{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border:1px solid var(--border);border-radius:999px;color:var(--text);background:var(--surface);font:inherit;cursor:pointer}

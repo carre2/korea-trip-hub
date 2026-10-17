@@ -1,8 +1,8 @@
 {
   // Cloudflare Worker: static assets + a small AI chat endpoint (/api/chat).
   // `npm run build` produces ./out (static export). Static pages are served
-  // directly from the asset store; the Worker only runs for /api/chat and true
-  // 404s, so existing page behaviour is unchanged.
+  // through ASSETS. HTML requests run through the Worker for language redirects
+  // and anonymous delivery diagnostics; large static asset paths bypass it.
   "name": "korea-trip-hub",
   "compatibility_date": "2025-01-01",
   "main": "worker/index.js",
@@ -10,9 +10,12 @@
     "directory": "./out",
     "binding": "ASSETS",
     "not_found_handling": "404-page",
-    "run_worker_first": ["/"]
+    "run_worker_first": ["/*", "!/_next/*", "!/img/*", "!/video/*"]
   },
   // OPENAI_API_KEY enables GPT-6 Luna through the Responses API.
   // Fallback order: Claude Haiku (ANTHROPIC_API_KEY), then Workers AI.
-  "ai": { "binding": "AI" }
+  "ai": { "binding": "AI" },
+  "analytics_engine_datasets": [
+    { "binding": "LANDING_HEALTH", "dataset": "kth_ad_landing_health" }
+  ]
 }

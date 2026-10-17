@@ -15,7 +15,6 @@ import JourneyAnalytics from "../../components/JourneyAnalytics";
 import ChatWidget from "../../components/ChatWidget";
 import CategoryCompanion from "../../components/CategoryCompanion";
 import festivalCopies from "../../data/festivals-ui.json";
-import {GA_ID} from '../../lib/analytics-config.mjs';
 import {analyticsBootstrap} from '../../lib/analytics-bootstrap.mjs';
 
 // Google AdSense publisher (ktriphub.com). Loader below serves ads once approved.
@@ -39,6 +38,7 @@ export default function LocaleLayout({ children, params }) {
   const consent = m.consent || {};
   return (
     <html lang={locale} dir={dir}>
+      <head><script id="ga4-init" dangerouslySetInnerHTML={{__html:analyticsBootstrap}} /></head>
       <body>
         <ExperienceProvider labels={{...m.experience, affiliate: m.footer.affiliateLine}}>
         <a className="skip-link" href="#main">{m.experience.skip}</a>
@@ -50,8 +50,6 @@ export default function LocaleLayout({ children, params }) {
         {/* Google Consent Mode v2 — every signal denied by default until the visitor opts
             in via the banner above (or a stored choice is re-applied). Runs before GA reads
             config, so analytics stay cookieless until consent. */}
-        <Script id="ga4-init" strategy="beforeInteractive">{analyticsBootstrap}</Script>
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
         {/* Auto ads placements and formats are controlled in the AdSense account. */}
         <Script
           id="adsense"

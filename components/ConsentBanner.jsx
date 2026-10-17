@@ -4,6 +4,7 @@
 // consent signal to "denied" by default (before GA runs); this banner only lets the
 // visitor grant/deny analytics and remembers the choice. No third-party CMP script.
 import { useEffect, useState } from "react";
+import {track} from '../lib/analytics';
 
 const KEY = "kth_consent";
 
@@ -11,14 +12,20 @@ export default function ConsentBanner({ t = {}, privacyHref = "/en/legal/privacy
   const [show, setShow] = useState(false);
 
   useEffect(() => {
+    const reopen=()=>setShow(true);
+    window.addEventListener('kth-consent-open',reopen);
     try {
       if (!localStorage.getItem(KEY)) setShow(true);
     } catch {
       setShow(true);
     }
+    return()=>window.removeEventListener('kth-consent-open',reopen);
   }, []);
 
   function decide(granted) {
+    const previous=window.kthAnalyticsConsent;
+    // Honor this explicit choice even when browser storage is unavailable.
+    window.kthAnalyticsConsent=granted?'granted':'denied';
     try {
       localStorage.setItem(KEY, granted ? "granted" : "denied");
     } catch {}
@@ -28,6 +35,7 @@ export default function ConsentBanner({ t = {}, privacyHref = "/en/legal/privacy
       });
     }
     window.dispatchEvent(new Event('kth-consent-change'));
+    if(granted&&previous!=='granted')track('analytics_ready',{locale:document.documentElement.lang,placement:'consent'});
     setShow(false);
   }
 

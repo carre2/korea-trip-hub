@@ -2,6 +2,7 @@ import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
 import { legalFor, legalSlugs } from "../../../../lib/legal";
+import measurementPrivacy from '../../../../data/measurement-privacy.json';
 
 const SLUGS = legalSlugs();
 const CONTACT_EMAIL = "contact@ktriphub.com";
@@ -48,7 +49,7 @@ export default function LegalPage({ params }) {
         <h1>{p.title}</h1>
       </div>
       <div className="art-meta">
-        <span className="art-read art-updated">🔄 {f.updatedLabel || "Updated"} {L.updated}</span>
+        <span className="art-read art-updated">🔄 {f.updatedLabel || "Updated"} {params.slug==='privacy'?'2026-10-17':L.updated}</span>
       </div>
       <p className="art-tagline">{p.intro}</p>
 
@@ -63,6 +64,7 @@ export default function LegalPage({ params }) {
           )}
         </section>
       ))}
+      {params.slug==='privacy'&&<section className="legal-sec"><h2>{measurementPrivacy[locale].title}</h2><p>{measurementPrivacy[locale].body}</p></section>}
 
       <nav className="legal-more" aria-label={f.morePolicies || "More policies"}>
         {SLUGS.filter((s) => s !== params.slug).map((s) => (

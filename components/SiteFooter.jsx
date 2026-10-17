@@ -4,6 +4,7 @@
 import { getMessages, locales, localeNames } from "../lib/i18n";
 import { legalSlugs, legalFor } from "../lib/legal";
 import ShareTools from './ShareTools';
+import ConsentPreferences from './ConsentPreferences';
 import shareLabels from '../data/share-ui.json';
 
 export default function SiteFooter({ locale }) {
@@ -37,6 +38,7 @@ export default function SiteFooter({ locale }) {
             </a>
           ))}
         </nav>
+        <ConsentPreferences label={m.consent.manage}/>
         <p className="sitefoot-family">
           <a href={`/${locale}/guides/`}>🍁 {m.guides?.title || "Korea travel guides"} →</a>
           {"  ·  "}
