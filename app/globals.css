@@ -1184,3 +1184,8 @@
 .cw-compact .cw-body{padding:8px 12px}
 .cw-compact{z-index:110}
 .cw-input{padding-bottom:max(8px,env(safe-area-inset-bottom))}
+.cw-answers{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;white-space:normal}
+.cw-answers button,.cw-restart{min-height:44px;padding:10px 14px;border:1px solid var(--border);border-radius:18px;background:var(--surface);color:var(--text);font:inherit;text-align:left;cursor:pointer}
+.cw-answers button:hover,.cw-answers button:focus-visible{border-color:var(--primary);outline:2px solid var(--accent)}
+.cw-answers button:disabled,.cw-restart:disabled{opacity:.55;cursor:wait}
+.cw-restart{flex-shrink:0;align-self:flex-start;font-size:.875rem}

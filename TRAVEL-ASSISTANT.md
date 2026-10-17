@@ -26,3 +26,11 @@
 - node scripts/test-chat-viewport.mjs verifies bounds for visualViewport offsets and heights down to 180px; chat-provider tests and full build passed.
 - This is a reduced-viewport simulation, not an attached phone or a real OS keyboard. iOS Safari keyboard animations, Android IME and pinch zoom remain unverified. No mobile device is exposed by current browser tools.
 - Facts ledger unchanged.
+
+## Preference interview — 2026-10-17
+- Planning asks destination, timing/duration, companions, interests, pace and lodging constraints before offering itinerary/booking actions. One or two questions per turn, with localized answer chips and free-text/undecided answers.
+- Confirm the summarized brief before recommendations. Asking/confirming responses have itinerary, planner and booking actions removed server-side. Direct guide/hotel lookup does not force a full survey.
+- Preferences are bounded, allowlisted fields carried in memory across same-locale navigation; no persistence or analytics collection. Restart clears the brief and conversation. The AI/provider privacy disclosure applies to questionnaire answers too.
+- Existing saved itinerary templates remain templates, not generated custom routes. Recommendations explain fit and required edits; no live room prices/availability claims. Area-specific Stay22 links use site-owned destinations and the existing affiliate ID.
+- Editorial area fit is copied from data/stay.json into lib/assistant-stay-context.mjs; a regression test detects drift.
+- Live Korean dialogue passed asking → confirming → ready with a Seoul/cafes/shopping/Hongdae hotel brief. Full build, localization/SEO verification and provider tests passed. Facts ledger unchanged.

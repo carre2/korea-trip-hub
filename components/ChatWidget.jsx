@@ -9,6 +9,7 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
   const [open, setOpen] = useState(false);
   const [guideSrc, setGuideSrc] = useState(null);
   const [msgs, setMsgs] = useState([]); // {role, content}
+  const [preferences,setPreferences]=useState({});
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
   const inputRef = useRef(null);
@@ -64,13 +65,14 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
     dismissBubble();
   }
 
-  async function send(text) {
+  async function send(text, restart=false) {
     const content = (text ?? input).trim().slice(0,1500);
     if (!content || busy) return;
     // Let the response and booking actions use the full phone screen after sending.
     if (mobileViewport) inputRef.current?.blur();
     setInput("");
-    const next = [...msgs.slice(-11), { role: "user", content }];
+    const next = [...(restart?[]:msgs.slice(-11)), { role: "user", content }];
+    if(restart)setPreferences({});
     setMsgs(next);
     setBusy(true);
     try {
@@ -78,10 +80,11 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
         method: "POST",
         headers: { "content-type": "application/json" },
         signal: AbortSignal.timeout(45000),
-        body: JSON.stringify({ locale, messages: next.map((m) => ({ role: m.role, content: m.content })) }),
+        body: JSON.stringify({ locale, preferences:restart?{}:preferences, messages: next.map((m) => ({ role: m.role, content: m.content })) }),
       });
       const data = await res.json().catch(() => ({}));
-      setMsgs((cur) => [...cur, { role: "assistant", actions: res.ok ? data.actions : [], content: data.reply || t.error || "Sorry, I couldn't reach the assistant. For urgent help call 1330 (free, 24/7)." }]);
+      if(res.ok && data.preferences)setPreferences(data.preferences);
+      setMsgs((cur) => [...cur, { role: "assistant", actions: res.ok ? data.actions : [], suggestions:res.ok?data.suggestions:[], content: data.reply || t.error || "Sorry, I couldn't reach the assistant. For urgent help call 1330 (free, 24/7)." }]);
     } catch {
       setMsgs((cur) => [...cur, { role: "assistant", content: t.error || "Sorry, I couldn't reach the assistant. For urgent help call 1330 (free, 24/7)." }]);
     } finally {
@@ -125,11 +128,13 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
             {msgs.map((m, i) => (
               <div key={i} className={`cw-msg cw-${m.role}`}>
                 {m.content}
+                {i===msgs.length-1 && m.suggestions?.length>0 && <div className="cw-answers">{m.suggestions.map(s=><button key={s} disabled={busy} onClick={()=>send(s)}>{s}</button>)}</div>}
                 {m.actions?.length > 0 && <div className="cw-actions">{m.actions.map(a=>a.sponsored ? <a key={a.id} href={a.href} data-journey-target={a.id} target="_blank" rel="sponsored nofollow noopener noreferrer">{a.title} ↗</a> : <Link key={a.id} href={a.href} prefetch={false} onClick={e=>navigate(e,a)}>{a.title} →</Link>)}</div>}
                 {m.actions?.some(a=>a.sponsored) && <small className="cw-affiliate">{affiliateNote}</small>}
               </div>
             ))}
             {busy && <div role="status" className="cw-msg cw-assistant cw-typing">{t.thinking || "Thinking…"}</div>}
+            {Object.values(preferences).some(Boolean) && <button className="cw-restart" disabled={busy} onClick={()=>send(t.restart,true)}>{t.restart}</button>}
             <p className="cw-disc">{t.privacy} </p>
             <p className="cw-disc">{t.disclaimer || "General help, not emergency or legal advice. Confirm important details with official sources."}</p>
           </div>
