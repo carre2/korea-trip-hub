@@ -8,7 +8,7 @@ import CustomTripWorkspace from './CustomTripWorkspace';
 
 export default function ChatWidget({ locale = "en", labels = {}, affiliateNote = "",tripLabels={} }) {
   const t = labels;
-  const voice=useGreetingSpeech(locale,`${t.welcome||""} ${t.bubble||""}`.replace(/🌸/g,""));
+  const voice=useGreetingSpeech(locale);
   function closeGuide(){voice.stop();setOpen(false);}
   const [open, setOpen] = useState(false);
   const [guideSrc, setGuideSrc] = useState(null);
@@ -109,6 +109,7 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
 
   return (
     <>
+      <audio ref={voice.audioRef} preload="none" hidden />
       {!open && !bubbleOff && (
         <div className="korea-welcome" role="region" aria-label={t.title}>
           <button className="korea-welcome-close" aria-label={t.close} onClick={dismissBubble}>✕</button>
@@ -132,6 +133,7 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
           <div className="cw-voice">
             <button type="button" onClick={voice.toggleMute} aria-pressed={voice.muted}>{voice.muted?"🔇 ":"🔊 "}{voice.muted?t.voice.enable:t.voice.mute}</button>
             <button type="button" onClick={voice.play} disabled={voice.muted}>{t.voice.replay}</button>
+            <small className="cw-voice-disclosure">{t.voice.disclosure}</small>
             <span role="status">{voice.state==="idle"?"":t.voice[voice.state]}</span>
           </div>
           <div className="cw-body" ref={scroller}>

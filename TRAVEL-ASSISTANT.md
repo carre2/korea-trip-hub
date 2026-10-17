@@ -62,3 +62,12 @@
 - Greeting speech only; assistant replies are not automatically read. Text and actual synthesis start/end/error state remain visible. Unit tests cover matching, replay cancellation, stale events and unsupported browser fallback. Facts ledger unchanged.
 
 Voice QA: production build passed on 2026-10-17. Chrome UI checks passed for opening the guide, replay control, mute disabling replay, and mute persistence after reload; Indonesian UI labels also checked. Responsive iframe checks at 390x400 and 320x320 retained voice controls and input. Speech loading state was observed, but a sustained speech-start state and audible output were not independently confirmed by the automation environment. Physical Android/iOS audio and keyboard testing remains manual; do not describe responsive checks as physical-device validation. Unit tests cover language selection, cancellation/stale callbacks, and unsupported API fallback. Travel facts unchanged.
+
+## Announcer-style recordings — 2026-10-17
+Supersedes device speech synthesis above. User approved reuse of the existing OpenAI key. Generated 12 static MP3 greetings with gpt-4o-mini-tts / marin, requesting clear articulation, calm broadcast-announcer delivery and restrained warmth, without impersonating a person. The exact localized welcome and question are recorded in data/guide-audio.json. No visitor-time AI call, credential, microphone or device voice is required. AI-generated voice disclosure is localized in the controls.
+
+Generate with `node --env-file=.env.local scripts/generate-guide-audio.mjs`; content/config hashes prevent unnecessary regeneration. Never print credentials. Changed greeting text requires regenerating audio and running scripts/test-greeting-audio.mjs. Only generated audio and public metadata ship to the browser.
+
+Audio uses a DOM media element with click-triggered playback, persisted mute, replay from zero, close/navigation/question/tab-hide cancellation, rejection/error feedback and startup timeout. No fallback to an unrelated device voice.
+
+Validation: 12 MP3 files parsed by ffprobe, Korean decoded with non-silent waveform; focused tests and full build passed. Chrome PC and responsive 320x320/390x400 checks observed playing media and advancing currentTime, mute pauses/reset to zero, replay starts again, and closing stops playback. Korean, Vietnamese and Indonesian selected their matching MP3s. Physical Android/iOS and subjective native-speaker voice quality remain unverified. Facts ledger unchanged.

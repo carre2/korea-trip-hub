@@ -1209,3 +1209,4 @@
 .cw-welcome-title{display:block;color:var(--text);font-size:1.1rem;line-height:1.55;margin-bottom:10px}
 .cw-panel .cw-greet p{color:var(--text);font-size:1rem;line-height:1.65}
 .cw-voice{display:flex;flex-wrap:wrap;gap:6px;padding:6px 12px;border-bottom:1px solid var(--border);flex-shrink:0}.cw-voice button{min-height:40px;padding:6px 10px;border:1px solid var(--border);border-radius:12px;background:var(--surface-2);color:var(--text);font:inherit;font-size:.85rem;cursor:pointer}.cw-voice button:disabled{opacity:.5}.cw-voice span{font-size:.8rem;line-height:1.4;align-self:center}.cw-compact .cw-voice{padding:3px 8px}.cw-compact .cw-voice span{max-height:2.8em;overflow:auto}
+.cw-voice-disclosure{font-size:.75rem;align-self:center;color:var(--muted);}.cw-compact .cw-voice-disclosure{font-size:.68rem;}
