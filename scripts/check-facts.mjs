@@ -25,6 +25,8 @@ const facts = data.facts || [];
 const overdue = [];
 const dueSoon = [];
 for (const f of facts) {
+  // Archived / unpublished facts are never presented as verified claims.
+  if (f.status !== "VERIFIED") continue;
   const d = f.recheck_after;
   if (!d) continue;
   if (d < todayISO) overdue.push(f);

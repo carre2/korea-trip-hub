@@ -7,6 +7,7 @@ import JsonLd from "../../../../components/JsonLd";
 import VisaCountryGuide from "../../../../components/VisaCountryGuide";
 import VisaPhotoSpec from "../../../../components/VisaPhotoSpec";
 import VisaLocalInfo from "../../../../components/VisaLocalInfo";
+import VisaJourney from "../../../../components/VisaJourney";
 import NextSteps from "../../../../components/NextSteps";
 import visaLocal from "../../../../data/visa-local.json";
 import ArticleTrust from "../../../../components/ArticleTrust";
@@ -85,6 +86,7 @@ export default function VisaCountryPage({ params }) {
       )}
 
       {!g.entryNotice && <EntryGuidance locale={locale} compact visaRequired={!!g.verdict?.need} />}
+      <VisaJourney locale={locale} m={m} />
       <VisaCountryGuide guide={g} m={m} />
       {['china','vietnam','philippines','indonesia','india'].includes(params.country)&&<EntryGroupFee locale={locale}/>}
 

@@ -30,7 +30,9 @@ export default function ChatWidget({ locale = "en", labels = {} }) {
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
   const [coords, setCoords] = useState(null);
-  const [bubbleOff, setBubbleOff] = useState(false);
+  // Keep the welcome card closed so it cannot cover the reader's next action.
+  // The character button still opens help on request.
+  const [bubbleOff, setBubbleOff] = useState(true);
   const scroller = useRef(null);
 
   useEffect(() => {

@@ -15,7 +15,8 @@ import JourneyAnalytics from "../../components/JourneyAnalytics";
 import ChatWidget from "../../components/ChatWidget";
 import CategoryCompanion from "../../components/CategoryCompanion";
 import festivalCopies from "../../data/festivals-ui.json";
-import {GA_ID,ADS_ID} from '../../lib/analytics-config.mjs';
+import {GA_ID} from '../../lib/analytics-config.mjs';
+import {analyticsBootstrap} from '../../lib/analytics-bootstrap.mjs';
 
 // Google AdSense publisher (ktriphub.com). Loader below serves ads once approved.
 const ADSENSE_CLIENT = "ca-pub-2067934281598769";
@@ -49,13 +50,7 @@ export default function LocaleLayout({ children, params }) {
         {/* Google Consent Mode v2 — every signal denied by default until the visitor opts
             in via the banner above (or a stored choice is re-applied). Runs before GA reads
             config, so analytics stay cookieless until consent. */}
-        <Script id="ga4-init" strategy="afterInteractive">
-          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;
-gtag('js', new Date());
-gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
-try{if(localStorage.getItem('kth_consent')==='granted')gtag('consent','update',{analytics_storage:'granted'});}catch(e){}
-if(['ktriphub.com','www.ktriphub.com'].includes(location.hostname)){gtag('config','${GA_ID}');gtag('config','${ADS_ID}');}`}
-        </Script>
+        <Script id="ga4-init" strategy="beforeInteractive">{analyticsBootstrap}</Script>
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
         {/* Auto ads placements and formats are controlled in the AdSense account. */}
         <Script

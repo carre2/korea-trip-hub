@@ -4,6 +4,7 @@
 // already-translated plan.tiles.* strings; only the band heading + stay/itinerary
 // labels are new (messages.nextSteps). The K-pop card is the kpophub funnel entry
 // (our /kpop guide links out to kpophub.kr for live concerts).
+import VisaJourney from './VisaJourney';
 import topics from '../data/topics.json';
 import budgetLabels from '../data/budget-ui.json';
 export default function NextSteps({ locale, m, country, countryTitle }) {
@@ -24,6 +25,8 @@ export default function NextSteps({ locale, m, country, countryTitle }) {
   const kpop = { icon: "🎤", title: tiles.kpop?.title || "K-pop & Concerts", sub: tiles.kpop?.sub || "Venues, tickets & idol hotspots", href: L("kpop") };
 
   return (
+    <>
+    <VisaJourney locale={locale} m={m} booking />
     <section className="nextsteps" data-placement="bottom" aria-label={ns.title || "Plan the rest of your trip"}>
       <div className="ns-head">
         <h2>{ns.title || "Visa sorted? Now plan the rest of your trip"}</h2>
@@ -49,6 +52,6 @@ export default function NextSteps({ locale, m, country, countryTitle }) {
           <span className="ns-arrow" aria-hidden="true">→</span>
         </a>
       </div>
-    </section>
+    </section></>
   );
 }

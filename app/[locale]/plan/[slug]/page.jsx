@@ -18,6 +18,7 @@ import MoneyGuide from "../../../../components/MoneyGuide";
 import WeatherGuide from "../../../../components/WeatherGuide";
 import HelpGuide from "../../../../components/HelpGuide";
 import BudgetCalculator from "../../../../components/BudgetCalculator";
+import VisaJourney from "../../../../components/VisaJourney";
 import NextSteps from "../../../../components/NextSteps";
 import PeekMascot from "../../../../components/PeekMascot";
 import searchCopy from '../../../../data/search-copy.json';
@@ -246,7 +247,7 @@ export default function PlanArticle({ params }) {
       )}
 
       {slug === "visa" && <EntryGuidance locale={locale} compact hub />}
-      {slug === "visa" && <ArrivalSteps locale={locale} m={{experience:m.experience,plan:m.plan}} placement="visa-hub" />}
+      {slug === "visa" && <VisaJourney locale={locale} m={m} />}
 
       {item.intro.map((p, i) => (
         <p key={i} className={i === 0 ? "" : "lead"}>{linkify(p)}</p>

@@ -63,3 +63,16 @@
 @media(max-width:700px){.landing-home .journey-hero{padding-top:16px}.landing-home .journey-hero-grid{grid-template-columns:1fr;gap:16px}.landing-home .journey-intro{padding:12px 0}.landing-home .journey-intro h1{font-size:38px;max-width:20ch}.landing-home .journey-cover>a{height:260px}.landing-home .journey-cover>a>span{font-size:.875rem}.landing-tools{margin-block:26px 36px;scroll-margin-top:110px}.landing-free{display:none}.landing-tool-switch{gap:5px}.landing-tool-switch button{flex:1 1 90px;justify-content:center;font-size:.875rem;padding:12px 8px;border-radius:12px 12px 0 0;flex-wrap:wrap}.landing-tool-panel{padding:20px;border-radius:0 0 18px 18px}.landing-tools-head h2{font-size:26px}.landing-home .journey-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.landing-home .journey-place img{height:160px}.landing-home .journey-place .save-place>a{font-size:.875rem}.landing-home .journey-place>a>div{padding:14px}.landing-home .journey-start-card{padding:22px}.landing-home .journey-start-grid{grid-template-columns:1fr}.landing-home .journey-intro p{font-size:1rem}}
 @media(max-width:380px){.landing-home .journey-photo-grid{grid-template-columns:1fr}.landing-home .journey-intro h1{font-size:34px}}
 @media(prefers-reduced-motion:reduce){.landing-home *{scroll-behavior:auto;transition:none}}
+/* Entry guidance -> planning -> partner comparison. No fixed overlays. */
+.visa-journey{margin:24px 0;padding:24px;border:1px solid var(--border);border-radius:22px;background:linear-gradient(130deg,var(--surface),var(--surface-2));box-shadow:0 8px 24px #182e2910}
+.visa-journey h2{margin:0 0 10px;font-size:1.18rem;line-height:1.4}
+.visa-journey>p{margin:0 0 16px;line-height:1.65}
+.visa-journey-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.visa-journey-card{display:flex;flex-direction:column;gap:8px;padding:16px;border:1px solid var(--border);border-radius:16px;background:var(--surface);text-decoration:none;line-height:1.5;overflow-wrap:anywhere}
+.visa-journey-card strong{font:inherit;font-weight:750;color:var(--text)}
+.visa-journey-card>span{font-size:.9rem;color:var(--text)}
+.visa-journey-card:hover{border-color:var(--accent);box-shadow:0 4px 14px #12827515}
+.visa-journey-planner{display:inline-block;margin-top:16px;font-weight:700}
+.visa-journey-booking .visa-journey-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.visa-journey-booking .bookcta-disc{margin-top:16px;margin-bottom:0}
+@media(max-width:600px){.visa-journey{padding:18px}.visa-journey-grid,.visa-journey-booking .visa-journey-grid{grid-template-columns:1fr}}
