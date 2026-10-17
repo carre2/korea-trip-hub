@@ -18,3 +18,11 @@
 - Fixed internal navigation remounts, homepage itinerary selection, initial focus stealing, mobile panel/input sizing, touch close control, and assistant booking analytics placement.
 - Mobile viewport resizing was unavailable in the browser extension, so responsive iframe testing was used. Physical phone, Safari and on-screen keyboard behavior remain unverified; visualViewport handling is implemented.
 - Full build and all six chat-provider tests passed. Facts ledger unchanged.
+
+## Keyboard-visible-area QA — 2026-10-17
+- Compact mode follows visualViewport height, not only CSS media-query height; supports keyboard pan offset and short landscape screens. Composer remains outside the scrolling transcript. Disclosures remain readable in the transcript instead of being hidden.
+- Mobile submit blurs the input so the OS can dismiss the keyboard. Safe-area bottom padding retained.
+- Browser tests: 390x400, 320x320, 844x260 and restoration to 390x844. Input bottom positions stayed inside each viewport; focused input followed by hotel action opened a partner tab. At 844x260 the input bottom was 244px and the booking link occupied 65–117px.
+- node scripts/test-chat-viewport.mjs verifies bounds for visualViewport offsets and heights down to 180px; chat-provider tests and full build passed.
+- This is a reduced-viewport simulation, not an attached phone or a real OS keyboard. iOS Safari keyboard animations, Android IME and pinch zoom remain unverified. No mobile device is exposed by current browser tools.
+- Facts ledger unchanged.

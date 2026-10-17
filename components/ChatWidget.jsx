@@ -2,6 +2,7 @@
 // Site-owned navigation actions; in-memory conversation survives internal navigation.
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import { chatViewport } from "../lib/chat-viewport.mjs";
 
 export default function ChatWidget({ locale = "en", labels = {}, affiliateNote = "" }) {
   const t = labels;
@@ -40,7 +41,7 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
   useEffect(()=>{
     if(!open)return;
     const viewport=window.visualViewport;
-    const resize=()=>setMobileViewport(window.matchMedia('(max-width:560px)').matches ? {height:Math.max(180,Math.min(720,(viewport?.height||window.innerHeight)-24)),bottom:Math.max(8,window.innerHeight-(viewport?.height||window.innerHeight)-(viewport?.offsetTop||0)+8)} : null);
+    const resize=()=>setMobileViewport(chatViewport({mobile:window.matchMedia('(max-width:560px), (max-width:1024px) and (max-height:500px), (pointer:coarse)').matches,height:viewport?.height||window.innerHeight,offsetTop:viewport?.offsetTop||0}));
     resize();viewport?.addEventListener('resize',resize);viewport?.addEventListener('scroll',resize);window.addEventListener('resize',resize);
     return()=>{viewport?.removeEventListener('resize',resize);viewport?.removeEventListener('scroll',resize);window.removeEventListener('resize',resize);};
   },[open]);
@@ -66,6 +67,8 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
   async function send(text) {
     const content = (text ?? input).trim().slice(0,1500);
     if (!content || busy) return;
+    // Let the response and booking actions use the full phone screen after sending.
+    if (mobileViewport) inputRef.current?.blur();
     setInput("");
     const next = [...msgs.slice(-11), { role: "user", content }];
     setMsgs(next);
@@ -106,15 +109,14 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
       </button>
 
       {open && (
-        <div id="korea-chat-panel" className="cw-panel" style={mobileViewport||undefined} data-placement="travel-assistant" role="dialog" aria-modal="false" aria-label={t.title || "Korea Trip Hub Assistant"}>
+        <div id="korea-chat-panel" className={`cw-panel${mobileViewport?.compact ? ' cw-compact' : ''}`} style={mobileViewport?.style} data-placement="travel-assistant" role="dialog" aria-modal="false" aria-label={t.title || "Korea Trip Hub Assistant"}>
           <div className="cw-head">
             <b>{guideSrc && <img className="korea-chat-avatar" src={guideSrc} alt="" width="40" height="40" decoding="async" fetchPriority="low" />} {t.title}<small className="korea-chat-label">{t.virtualGuide}</small></b>
             <button className="cw-x" aria-label={t.close} onClick={() => setOpen(false)}>✕</button>
           </div>
 
-          <div className="cw-emerg">🚨 {t.emergency || "In danger or hurt? Call 112 (police) or 119 (fire/ambulance) now."}</div>
-
           <div className="cw-body" ref={scroller}>
+            <div className="cw-emerg">🚨 {t.emergency || "In danger or hurt? Call 112 (police) or 119 (fire/ambulance) now."}</div>
             {msgs.length === 0 && (
               <div className="cw-greet">
                 <p>{t.greeting || "Hi! I can help with problems on your Korea trip — being overcharged, getting lost, finding food, etiquette, visas and more. What's up?"}</p>
@@ -128,6 +130,8 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
               </div>
             ))}
             {busy && <div role="status" className="cw-msg cw-assistant cw-typing">{t.thinking || "Thinking…"}</div>}
+            <p className="cw-disc">{t.privacy} </p>
+            <p className="cw-disc">{t.disclaimer || "General help, not emergency or legal advice. Confirm important details with official sources."}</p>
           </div>
 
           <div className="cw-quick">
@@ -149,8 +153,6 @@ export default function ChatWidget({ locale = "en", labels = {}, affiliateNote =
             <button type="submit" disabled={busy || !input.trim()}>{t.send || "Send"}</button>
           </form>
 
-          <p className="cw-disc">{t.privacy} </p>
-          <p className="cw-disc">{t.disclaimer || "General help, not emergency or legal advice. Confirm important details with official sources."}</p>
         </div>
       )}
     </>

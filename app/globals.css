@@ -1177,8 +1177,10 @@
  .cw-input input{font-size:16px}
  .cw-panel .cw-disc{font-size:11px;margin-top:0;margin-bottom:0}
 }
-@media(max-height:500px) and (max-width:560px){
- .cw-quick,.cw-panel .cw-disc{display:none}
- .cw-head .korea-chat-label{display:none}
- .cw-emerg{padding:4px 12px}
-}
+.cw-compact .cw-quick,.cw-compact .korea-chat-label{display:none}
+.cw-compact .cw-head{padding:4px 12px}
+.cw-compact .cw-input{padding:6px 12px}
+.cw-compact .cw-input input{font-size:16px}
+.cw-compact .cw-body{padding:8px 12px}
+.cw-compact{z-index:110}
+.cw-input{padding-bottom:max(8px,env(safe-area-inset-bottom))}
