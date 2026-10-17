@@ -125,7 +125,9 @@ async function handleChat(request, env) {
     try {
       const reply = await provider(env, system, messages);
       if (reply) return json(parseAssistant(reply, locale));
-    } catch {
+    } catch (error) {
+      const code=/^(openai_[a-z0-9_]+|claude_[0-9]+|invalid_custom_trip|invalid_assistant)$/.test(error?.message||'')?error.message:error?.name==='TimeoutError'?'timeout':'invalid_response';
+      console.warn('travel_assistant_provider_failure',provider.name,code);
       // Try the next configured provider without exposing upstream errors or secrets.
     }
   }
