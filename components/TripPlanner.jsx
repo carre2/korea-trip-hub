@@ -18,7 +18,7 @@ export default function TripPlanner({ locale, routes, order, ui, labels: t, chec
   const [ready, setReady] = useState(false);
   const current = trip && routes[trip.route];
   useEffect(()=>{
-    function choose(e){const key=e.detail;if(!Object.hasOwn(routes,key))return;clearSharedQuery();setSelected(key);setTrip({v:1,route:key,excluded:[],checked:[]});setSaved(false);setStatus(t.preview);track('itinerary_generate',{locale,route_id:key});}
+    function choose(e){const key=e.detail;if(!Object.hasOwn(routes,key))return;clearSharedQuery();setSelected(key);const next={v:1,route:key,excluded:[],checked:[]};setTrip(next);persist(next);track('itinerary_generate',{locale,route_id:key});}
     window.addEventListener('kth-planner-route',choose);
     return()=>window.removeEventListener('kth-planner-route',choose);
   },[locale,routes,t]);
@@ -45,10 +45,14 @@ export default function TripPlanner({ locale, routes, order, ui, labels: t, chec
     try { localStorage.setItem(TRIP_KEY, JSON.stringify(next)); clearSharedQuery(); setSaved(true); setStatus(t.saved); return true; }
     catch { setSaved(false); setStatus(t.storageError); return false; }
   }
-  function update(next) { setTrip(next); if (saved) persist(next); }
+  // Auto-save: a generated or edited trip persists immediately so nothing is lost on
+  // leaving the page. (Loading a shared ?trip= link still doesn't persist until the
+  // viewer edits it, so it never silently overwrites a previously saved trip.)
+  function update(next) { setTrip(next); persist(next); }
   function preview() {
     clearSharedQuery();
-    setTrip({ v: 1, route: selected, excluded: [], checked: [] }); setSaved(false); setStatus(t.preview);
+    const next = { v: 1, route: selected, excluded: [], checked: [] };
+    setTrip(next); persist(next);
     track('itinerary_generate', { locale, route_id: selected });
   }
   function save() { if (persist(trip)) track('itinerary_save', { locale, route_id: trip.route }); }
