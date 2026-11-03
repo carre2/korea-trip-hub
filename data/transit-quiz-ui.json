@@ -1,0 +1,218 @@
+{
+  "en": {
+    "title": "Which transit card fits you?",
+    "intro": "Answer 3 quick questions for your best match.",
+    "result": "Your best match",
+    "addon": "Also worth it",
+    "cta": "See on Klook ↗",
+    "again": "Start over",
+    "q": [
+      { "ask": "How many rides a day?", "a": ["3 or fewer", "4 or more"] },
+      { "ask": "Where will you travel?", "a": ["Seoul only", "Seoul + other regions"] },
+      { "ask": "How do you want to pay?", "a": ["Exchange cash", "Use my home card"] }
+    ],
+    "pass": {
+      "climate": { "name": "Climate Card", "why": "Unlimited Seoul rides at a flat price — best for heavy city use." },
+      "tmoney": { "name": "T-money", "why": "Pay per ride and it works nationwide — flexible for lighter or regional trips." },
+      "wowpass": { "name": "WOWPASS", "why": "Load your home currency and pay cashless, with T-money built in." }
+    }
+  },
+  "ko": {
+    "title": "나에게 맞는 교통카드는?",
+    "intro": "3문항만 답하면 딱 맞는 카드를 알려드려요.",
+    "result": "추천 카드",
+    "addon": "함께 쓰면 좋아요",
+    "cta": "Klook에서 보기 ↗",
+    "again": "다시 하기",
+    "q": [
+      { "ask": "하루 몇 번 타세요?", "a": ["3번 이하", "4번 이상"] },
+      { "ask": "어디를 다니세요?", "a": ["서울만", "서울 + 지방"] },
+      { "ask": "결제는 어떻게?", "a": ["현금 환전", "자국 카드 사용"] }
+    ],
+    "pass": {
+      "climate": { "name": "기후동행카드", "why": "서울 무제한, 정액제 — 시내에서 많이 타면 가장 이득." },
+      "tmoney": { "name": "T-money", "why": "탄 만큼 내고 전국에서 사용 — 적게 타거나 지방 이동에 유연." },
+      "wowpass": { "name": "WOWPASS", "why": "자국 통화를 충전해 현금 없이 결제, T-money 내장." }
+    }
+  },
+  "zh": {
+    "title": "哪种交通卡适合你？",
+    "intro": "回答 3 个问题，找到最适合的卡。",
+    "result": "最适合你的",
+    "addon": "也值得搭配",
+    "cta": "在 Klook 查看 ↗",
+    "again": "重新开始",
+    "q": [
+      { "ask": "每天乘坐几次？", "a": ["3 次或以下", "4 次或以上"] },
+      { "ask": "去哪些地方？", "a": ["只在首尔", "首尔 + 其他地区"] },
+      { "ask": "想怎么付款？", "a": ["兑换现金", "用本国银行卡"] }
+    ],
+    "pass": {
+      "climate": { "name": "气候同行卡", "why": "首尔无限次乘车、定额——在市内常坐最划算。" },
+      "tmoney": { "name": "T-money", "why": "按次计费、全国通用——少坐或去外地更灵活。" },
+      "wowpass": { "name": "WOWPASS", "why": "充入本国货币即可无现金消费，内置 T-money。" }
+    }
+  },
+  "zh-TW": {
+    "title": "哪種交通卡適合你？",
+    "intro": "回答 3 個問題，找到最適合的卡。",
+    "result": "最適合你的",
+    "addon": "也值得搭配",
+    "cta": "在 Klook 查看 ↗",
+    "again": "重新開始",
+    "q": [
+      { "ask": "每天搭乘幾次？", "a": ["3 次或以下", "4 次或以上"] },
+      { "ask": "去哪些地方？", "a": ["只在首爾", "首爾 + 其他地區"] },
+      { "ask": "想怎麼付款？", "a": ["兌換現金", "用本國銀行卡"] }
+    ],
+    "pass": {
+      "climate": { "name": "氣候同行卡", "why": "首爾無限次乘車、定額——在市區常搭最划算。" },
+      "tmoney": { "name": "T-money", "why": "按次計費、全國通用——少搭或去外地更靈活。" },
+      "wowpass": { "name": "WOWPASS", "why": "儲入本國貨幣即可無現金消費，內建 T-money。" }
+    }
+  },
+  "ja": {
+    "title": "あなたに合う交通カードは？",
+    "intro": "3つの質問に答えると最適なカードが分かります。",
+    "result": "あなたへのおすすめ",
+    "addon": "併用がおすすめ",
+    "cta": "Klookで見る ↗",
+    "again": "やり直す",
+    "q": [
+      { "ask": "1日に何回乗りますか？", "a": ["3回以下", "4回以上"] },
+      { "ask": "どこへ行きますか？", "a": ["ソウルのみ", "ソウル + 地方"] },
+      { "ask": "支払いは？", "a": ["現金を両替", "自国のカードを使う"] }
+    ],
+    "pass": {
+      "climate": { "name": "気候同行カード", "why": "ソウル乗り放題の定額——市内で多く乗るほどお得。" },
+      "tmoney": { "name": "T-money", "why": "乗った分だけ・全国で使える——少なめや地方移動に柔軟。" },
+      "wowpass": { "name": "WOWPASS", "why": "自国通貨をチャージしてキャッシュレス決済、T-money内蔵。" }
+    }
+  },
+  "vi": {
+    "title": "Thẻ giao thông nào hợp bạn?",
+    "intro": "Trả lời 3 câu hỏi nhanh để tìm thẻ phù hợp nhất.",
+    "result": "Phù hợp nhất với bạn",
+    "addon": "Cũng rất đáng dùng",
+    "cta": "Xem trên Klook ↗",
+    "again": "Làm lại",
+    "q": [
+      { "ask": "Mỗi ngày đi mấy lượt?", "a": ["3 lượt trở xuống", "4 lượt trở lên"] },
+      { "ask": "Bạn đi những đâu?", "a": ["Chỉ Seoul", "Seoul + các vùng khác"] },
+      { "ask": "Bạn muốn thanh toán thế nào?", "a": ["Đổi tiền mặt", "Dùng thẻ nước nhà"] }
+    ],
+    "pass": {
+      "climate": { "name": "Climate Card", "why": "Đi lại Seoul không giới hạn với giá cố định — hợp khi đi nhiều trong thành phố." },
+      "tmoney": { "name": "T-money", "why": "Trả theo lượt và dùng toàn quốc — linh hoạt cho chuyến nhẹ hoặc đi vùng khác." },
+      "wowpass": { "name": "WOWPASS", "why": "Nạp tiền nước bạn để trả không tiền mặt, tích hợp T-money." }
+    }
+  },
+  "th": {
+    "title": "บัตรโดยสารแบบไหนเหมาะกับคุณ?",
+    "intro": "ตอบ 3 คำถามสั้น ๆ เพื่อหาบัตรที่ใช่",
+    "result": "เหมาะกับคุณที่สุด",
+    "addon": "คู่กันก็ดี",
+    "cta": "ดูบน Klook ↗",
+    "again": "เริ่มใหม่",
+    "q": [
+      { "ask": "วันหนึ่งนั่งกี่เที่ยว?", "a": ["3 เที่ยวหรือน้อยกว่า", "4 เที่ยวขึ้นไป"] },
+      { "ask": "คุณจะไปไหนบ้าง?", "a": ["เฉพาะโซล", "โซล + ต่างจังหวัด"] },
+      { "ask": "อยากจ่ายแบบไหน?", "a": ["แลกเงินสด", "ใช้บัตรจากประเทศของคุณ"] }
+    ],
+    "pass": {
+      "climate": { "name": "Climate Card", "why": "ขึ้นได้ไม่จำกัดในโซล ราคาคงที่ — คุ้มเมื่อเดินทางในเมืองบ่อย" },
+      "tmoney": { "name": "T-money", "why": "จ่ายตามเที่ยวและใช้ได้ทั่วประเทศ — ยืดหยุ่นสำหรับทริปเบา ๆ หรือต่างจังหวัด" },
+      "wowpass": { "name": "WOWPASS", "why": "เติมสกุลเงินของคุณแล้วจ่ายแบบไร้เงินสด มี T-money ในตัว" }
+    }
+  },
+  "id": {
+    "title": "Kartu transit mana yang cocok untukmu?",
+    "intro": "Jawab 3 pertanyaan singkat untuk menemukan yang paling pas.",
+    "result": "Paling cocok untukmu",
+    "addon": "Juga layak dipakai",
+    "cta": "Lihat di Klook ↗",
+    "again": "Ulangi",
+    "q": [
+      { "ask": "Berapa kali naik per hari?", "a": ["3 kali atau kurang", "4 kali atau lebih"] },
+      { "ask": "Ke mana saja?", "a": ["Seoul saja", "Seoul + daerah lain"] },
+      { "ask": "Mau bayar bagaimana?", "a": ["Tukar tunai", "Pakai kartu negaraku"] }
+    ],
+    "pass": {
+      "climate": { "name": "Climate Card", "why": "Naik tanpa batas di Seoul dengan harga tetap — pas untuk banyak jalan di kota." },
+      "tmoney": { "name": "T-money", "why": "Bayar per perjalanan dan berlaku nasional — fleksibel untuk perjalanan ringan atau antar daerah." },
+      "wowpass": { "name": "WOWPASS", "why": "Isi mata uang negaramu dan bayar nontunai, sudah ada T-money." }
+    }
+  },
+  "ms": {
+    "title": "Kad transit mana yang sesuai untuk anda?",
+    "intro": "Jawab 3 soalan ringkas untuk cari yang paling padan.",
+    "result": "Paling sesuai untuk anda",
+    "addon": "Juga berbaloi",
+    "cta": "Lihat di Klook ↗",
+    "again": "Mula semula",
+    "q": [
+      { "ask": "Berapa kali naik sehari?", "a": ["3 kali atau kurang", "4 kali atau lebih"] },
+      { "ask": "Ke mana anda pergi?", "a": ["Seoul sahaja", "Seoul + kawasan lain"] },
+      { "ask": "Anda mahu bayar bagaimana?", "a": ["Tukar tunai", "Guna kad negara anda"] }
+    ],
+    "pass": {
+      "climate": { "name": "Climate Card", "why": "Tunggang tanpa had di Seoul pada harga tetap — sesuai untuk banyak gerak dalam bandar." },
+      "tmoney": { "name": "T-money", "why": "Bayar ikut tunggangan dan boleh guna seluruh negara — fleksibel untuk perjalanan ringan atau antara kawasan." },
+      "wowpass": { "name": "WOWPASS", "why": "Isi mata wang negara anda dan bayar tanpa tunai, T-money terbina dalam." }
+    }
+  },
+  "es": {
+    "title": "¿Qué tarjeta de transporte te conviene?",
+    "intro": "Responde 3 preguntas rápidas para encontrar la ideal.",
+    "result": "Tu mejor opción",
+    "addon": "También merece la pena",
+    "cta": "Ver en Klook ↗",
+    "again": "Empezar de nuevo",
+    "q": [
+      { "ask": "¿Cuántos viajes al día?", "a": ["3 o menos", "4 o más"] },
+      { "ask": "¿Adónde viajas?", "a": ["Solo Seúl", "Seúl + otras regiones"] },
+      { "ask": "¿Cómo quieres pagar?", "a": ["Cambiar efectivo", "Usar mi tarjeta"] }
+    ],
+    "pass": {
+      "climate": { "name": "Climate Card", "why": "Viajes ilimitados en Seúl a precio fijo — ideal para mucho uso urbano." },
+      "tmoney": { "name": "T-money", "why": "Pagas por viaje y sirve en todo el país — flexible para trayectos ligeros o regionales." },
+      "wowpass": { "name": "WOWPASS", "why": "Carga tu moneda y paga sin efectivo, con T-money incluido." }
+    }
+  },
+  "fr": {
+    "title": "Quelle carte de transport pour vous ?",
+    "intro": "Répondez à 3 questions rapides pour trouver la bonne.",
+    "result": "Votre meilleure option",
+    "addon": "Aussi utile",
+    "cta": "Voir sur Klook ↗",
+    "again": "Recommencer",
+    "q": [
+      { "ask": "Combien de trajets par jour ?", "a": ["3 ou moins", "4 ou plus"] },
+      { "ask": "Où voyagez-vous ?", "a": ["Séoul seulement", "Séoul + autres régions"] },
+      { "ask": "Comment voulez-vous payer ?", "a": ["Changer des espèces", "Utiliser ma carte"] }
+    ],
+    "pass": {
+      "climate": { "name": "Climate Card", "why": "Trajets illimités à Séoul à prix fixe — idéale pour un usage urbain intensif." },
+      "tmoney": { "name": "T-money", "why": "Paiement au trajet, utilisable partout dans le pays — souple pour les trajets légers ou régionaux." },
+      "wowpass": { "name": "WOWPASS", "why": "Chargez votre devise et payez sans espèces, T-money intégré." }
+    }
+  },
+  "ru": {
+    "title": "Какая транспортная карта вам подходит?",
+    "intro": "Ответьте на 3 коротких вопроса — подберём лучшую.",
+    "result": "Лучший вариант для вас",
+    "addon": "Тоже пригодится",
+    "cta": "Смотреть на Klook ↗",
+    "again": "Начать заново",
+    "q": [
+      { "ask": "Сколько поездок в день?", "a": ["3 или меньше", "4 или больше"] },
+      { "ask": "Куда поедете?", "a": ["Только Сеул", "Сеул + другие регионы"] },
+      { "ask": "Как хотите платить?", "a": ["Обменять наличные", "Своей картой"] }
+    ],
+    "pass": {
+      "climate": { "name": "Climate Card", "why": "Безлимитные поездки по Сеулу за фиксированную цену — лучше всего при активных поездках по городу." },
+      "tmoney": { "name": "T-money", "why": "Оплата за поездку, работает по всей стране — гибко для редких или межрегиональных поездок." },
+      "wowpass": { "name": "WOWPASS", "why": "Пополните своей валютой и платите без наличных, T-money встроен." }
+    }
+  }
+}

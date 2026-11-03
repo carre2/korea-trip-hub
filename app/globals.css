@@ -1169,3 +1169,22 @@
 .preflight-disc { margin: 14px 0 0; color: var(--faint); font-size: .8rem; line-height: 1.5; }
 @media (max-width: 900px) { .preflight-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 520px) { .preflight-grid { grid-template-columns: 1fr; } }
+
+/* ⑤ Transit-pass finder quiz */
+.tquiz { margin: 28px auto 0; }
+.tquiz-intro { margin: 2px 0 16px; color: var(--muted); line-height: 1.6; }
+.tquiz-qs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.tquiz-q { border: 1px solid var(--border); border-radius: 14px; padding: 14px; margin: 0; background: var(--surface); }
+.tquiz-q legend { font-weight: 600; font-size: .92rem; padding: 0 4px; color: var(--text); }
+.tquiz-opts { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+.tquiz-opt { text-align: left; padding: 10px 12px; border: 1px solid var(--border-strong); border-radius: 10px; background: var(--surface-2); color: var(--text); font: inherit; cursor: pointer; transition: background .12s, border-color .12s; }
+.tquiz-opt:hover { border-color: var(--accent); }
+.tquiz-opt.is-on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.tquiz-result { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 16px; }
+.tquiz-rec { flex: 1 1 260px; border: 1px solid var(--accent); border-radius: 14px; padding: 16px; background: var(--surface); display: flex; flex-direction: column; gap: 6px; }
+.tquiz-rec-label { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--accent); }
+.tquiz-rec h4 { margin: 0; font-size: 1.15rem; }
+.tquiz-rec p { margin: 0; color: var(--muted); line-height: 1.55; font-size: .92rem; }
+.tquiz-cta { margin-top: auto; align-self: flex-start; background: var(--accent); color: #fff; border: none; font-weight: 600; }
+.tquiz-again { flex-basis: 100%; background: none; border: none; color: var(--muted); cursor: pointer; font: inherit; text-align: left; padding: 4px; }
+@media (max-width: 760px) { .tquiz-qs { grid-template-columns: 1fr; } }
