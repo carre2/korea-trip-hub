@@ -1,6 +1,6 @@
 {
   "_README": "Facts SSOT. Follows HARNESS.md. Only status:VERIFIED facts render. All numbers/contacts/rules must be grounded here. No invented estimates. VOLATILE facts must show source + verified date + confirm link. claim/notes are the ENGLISH (base-language) display text; translations for other locales live in messages/<locale>.json under `facts`.",
-  "_updated": "2026-10-09",
+  "_updated": "2026-11-03",
   "facts": [
     {
       "id": "klook-busan-fireworks-ticket",
@@ -1043,6 +1043,24 @@
       "recheck_after": "2026-11-08",
       "status": "VERIFIED",
       "notes": "Scope: ordinary-passport tourist applications through KVAC Jakarta."
+    },
+    {
+      "id": "festival-hwacheon-ice-2027",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "The Hwacheon Sancheoneo Ice Festival runs 2027-01-09 to 2027-01-31 on the frozen Hwacheoncheon Stream in Hwacheon-gun, Gangwon-do.",
+      "value": {
+        "start": "2027-01-09",
+        "end": "2027-01-31",
+        "venue": "Frozen Hwacheoncheon Stream, 137 Sancheoneo-gil, Hwacheon-gun, Gangwon-do",
+        "map": "Hwacheon Sancheoneo Festival, Hwacheon-gun",
+        "official": "https://www.narafestival.com"
+      },
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=96732",
+      "source_name": "Korea Tourism Organization (VisitKorea)",
+      "verified": "2026-11-03",
+      "recheck_after": "2026-12-20",
+      "notes": "VisitKorea lists the 2027 period as provisional (carried over from the 2026 edition) until the Nara Foundation organizer confirms; re-verify in December and check ice/weather cancellations, admission and ticket details with the organizer."
     }
   ]
 }

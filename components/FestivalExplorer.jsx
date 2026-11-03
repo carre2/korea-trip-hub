@@ -22,7 +22,7 @@ export default function FestivalExplorer({locale,t,events,initialDay}) {
   const shown=invalid?[]:filterEvents(events,{today,city,type,from,until,ended});
   return <div className="festival-explorer">
     <form className="festival-filters" onSubmit={e=>e.preventDefault()}>
-      <label>{t.region}<select value={city} onChange={e=>setCity(e.target.value)}><option value="">{t.all}</option><option value="busan">{t.busan}</option><option value="jinju">{t.jinju}</option></select></label>
+      <label>{t.region}<select value={city} onChange={e=>setCity(e.target.value)}><option value="">{t.all}</option>{[...new Set(events.map(e=>e.city))].sort().map(c=><option key={c} value={c}>{t[c]||c}</option>)}</select></label>
       <label>{t.kind}<select value={type} onChange={e=>setType(e.target.value)}><option value="">{t.all}</option><option value="festival">{t.festival}</option><option value="culture">{t.culture}</option></select></label>
       <label>{t.from}<input type="date" value={from} onInput={e=>setFrom(e.currentTarget.value)} onChange={e=>setFrom(e.target.value)}/></label>
       <label>{t.until}<input type="date" value={until} onInput={e=>setUntil(e.currentTarget.value)} onChange={e=>setUntil(e.target.value)}/></label>
