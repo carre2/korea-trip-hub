@@ -1061,6 +1061,42 @@
       "verified": "2026-11-03",
       "recheck_after": "2026-12-20",
       "notes": "VisitKorea lists the 2027 period as provisional (carried over from the 2026 edition) until the Nara Foundation organizer confirms; re-verify in December and check ice/weather cancellations, admission and ticket details with the organizer."
+    },
+    {
+      "id": "festival-seoul-lantern-2026",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "The Seoul Lantern Festival is scheduled for 2026-12-11 to 2027-01-31 along Cheonggyecheon Stream (Cheonggye Plaza to Samilgyo) in central Seoul.",
+      "value": {
+        "start": "2026-12-11",
+        "end": "2027-01-31",
+        "venue": "Cheonggyecheon Stream (Cheonggye Plaza to Samilgyo Bridge), Jung-gu, Seoul",
+        "map": "Cheonggye Plaza, Seoul",
+        "official": "https://stolantern.com"
+      },
+      "source": "https://festival.seoul.go.kr/festival/main/festivalView.do?festacode=360",
+      "source_name": "Seoul Metropolitan Government / Seoul Tourism Organization",
+      "verified": "2026-11-03",
+      "recheck_after": "2027-01-31",
+      "notes": "PROVISIONAL: dates are the organizer-announced 2026 schedule (18:00–23:00 nightly); the city festival portal still lists it as tentative December, so confirm the final run and hours at the official site before travel."
+    },
+    {
+      "id": "festival-morningcalm-lighting-2026",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "The Garden of Morning Calm Lighting Festival (오색별빛정원전) is scheduled from 2026-12-04 to 2027-03-14 at the arboretum in Gapyeong-gun, Gyeonggi-do.",
+      "value": {
+        "start": "2026-12-04",
+        "end": "2027-03-14",
+        "venue": "The Garden of Morning Calm, 432 Sumogwon-ro, Sangmyeon, Gapyeong-gun, Gyeonggi-do",
+        "map": "Garden of Morning Calm, Gapyeong",
+        "official": "https://www.morningcalm.co.kr"
+      },
+      "source": "https://www.morningcalm.co.kr",
+      "source_name": "Garden of Morning Calm (official)",
+      "verified": "2026-11-03",
+      "recheck_after": "2027-03-14",
+      "notes": "PROVISIONAL: the official site states the lighting festival runs early December to mid-March each winter; the 2026-2027 exact dates are projected from that schedule and the prior season and are not yet officially fixed. No lighting in rain/snow — confirm the opening date and nightly hours at the official site."
     }
   ]
 }
