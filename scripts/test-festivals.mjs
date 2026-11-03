@@ -4,25 +4,31 @@ import fs from 'node:fs';
 import {koreaDay,eventStatus,filterEvents,eventCalendar,eventShareUrl} from '../lib/festivals.mjs';
 const read=p=>JSON.parse(fs.readFileSync(p));
 const facts=read('data/facts.json').facts,registry=read('data/festivals.json').items,copies=read('data/festivals-ui.json');
-const events=registry.map(e=>({...e,...facts.find(f=>f.id===e.factId).value,verified:'2026-10-05',source: facts.find(f=>f.id===e.factId).source}));
-test('event ranges overlap travel dates and statuses use inclusive Korea dates',()=>{
+// Logic tests run against fixed fixtures (not the live roster) so they stay valid as festivals rotate.
+const sample=[
+  {id:'a',city:'busan',type:'festival',start:'2026-10-10',end:'2026-10-15'},
+  {id:'b',city:'jinju',type:'culture',start:'2026-10-09',end:'2026-10-25'},
+  {id:'c',city:'seoul',type:'festival',start:'2026-11-01',end:'2026-11-30'},
+];
+test('event statuses use inclusive Korea dates and filters match travel windows',()=>{
   assert.equal(koreaDay(new Date('2026-10-05T15:01:00Z')),'2026-10-06');
-  const b=events.find(e=>e.id==='biff-2026');
-  assert.equal(eventStatus(b,'2026-10-05'),'upcoming');assert.equal(eventStatus(b,'2026-10-15'),'ongoing');assert.equal(eventStatus(b,'2026-10-16'),'ended');
-  assert.deepEqual(filterEvents(events,{today:'2026-10-05',from:'2026-10-10',until:'2026-10-10'}).map(e=>e.id),['jinju-lanterns-2026','biff-2026']);
-  assert.equal(filterEvents(events,{today:'2026-10-05',city:'busan',type:'festival'}).length,1);
-  assert.equal(filterEvents(events,{today:'2026-10-19'}).length,1);
-  assert.equal(filterEvents(events,{today:'2026-10-19',ended:true}).length,3);
-  assert.equal(filterEvents(events,{today:'2026-10-05',from:'2026-11-10',until:'2026-11-01'}).length,0);
+  const a=sample[0];
+  assert.equal(eventStatus(a,'2026-10-05'),'upcoming');assert.equal(eventStatus(a,'2026-10-15'),'ongoing');assert.equal(eventStatus(a,'2026-10-16'),'ended');
+  assert.deepEqual(filterEvents(sample,{today:'2026-10-05',from:'2026-10-10',until:'2026-10-10'}).map(e=>e.id),['b','a']);
+  assert.equal(filterEvents(sample,{today:'2026-10-05',city:'busan',type:'festival'}).length,1);
+  assert.equal(filterEvents(sample,{today:'2026-10-26'}).length,1);
+  assert.equal(filterEvents(sample,{today:'2026-12-01',ended:true}).length,3);
+  assert.equal(filterEvents(sample,{today:'2026-10-05',from:'2026-11-10',until:'2026-11-01'}).length,0);
 });
-test('calendar dates are all-day with exclusive end, safe escaping and UTF-8 folding',()=>{
-  const b=events.find(e=>e.id==='busan-fireworks-2026');
-  const text=eventCalendar(b,'부산불꽃축제'.repeat(20)+';test\nBEGIN:VEVENT','Busan, Korea',eventShareUrl('ko',b.id));
+test('calendar entries are all-day with exclusive end, safe escaping and UTF-8 folding',()=>{
+  const one={id:'sample-2026',start:'2026-11-07',end:'2026-11-07',verified:'2026-10-05',source:'https://example.com'};
+  const text=eventCalendar(one,'부산불꽃축제'.repeat(20)+';test\nBEGIN:VEVENT','Busan, Korea',eventShareUrl('ko',one.id));
   assert.ok(text.includes('DTSTART;VALUE=DATE:20261107\r\nDTEND;VALUE=DATE:20261108'));
   assert.ok(text.includes('LOCATION:Busan\\, Korea'));
   assert.equal(text.split('\r\n').filter(line=>line==='BEGIN:VEVENT').length,1);
   for(const line of text.split('\r\n'))assert.ok(Buffer.byteLength(line)<=75);
-  assert.equal(eventCalendar(events[0],'BIFF','Busan','https://ktriphub.com/en/festivals/').includes('DTEND;VALUE=DATE:20261016'),true);
+  const span={id:'span-2026',start:'2026-10-09',end:'2026-10-15',verified:'2026-10-05',source:'https://example.com'};
+  assert.equal(eventCalendar(span,'Span','Seoul','https://ktriphub.com/en/festivals/').includes('DTEND;VALUE=DATE:20261016'),true);
 });
 test('every active locale has complete festival UI, metadata and event translations',()=>{
   const locales=[...fs.readFileSync('lib/i18n.js','utf8').match(/export const locales = \[([^\]]+)/)[1].matchAll(/["']([^"']+)["']/g)].map(m=>m[1]);
