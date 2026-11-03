@@ -12,6 +12,7 @@ import HeroSlider from "../../components/HeroSlider";
 import LandingTools from "../../components/LandingTools";
 import PreflightGrid from "../../components/PreflightGrid";
 import TransitQuiz from "../../components/TransitQuiz";
+import PreflightChecklist from "../../components/PreflightChecklist";
 import SavePlace from "../../components/SavePlace";
 import {visaHubItems} from "../../lib/visa";
 import entryRouting from "../../data/entry-routing-ui.json";
@@ -105,6 +106,7 @@ export default function Home({ params }) {
     <LandingTools locale={locale} m={{experience:t,visaFinder:m.visaFinder}} countries={visaHubItems(locale).sort((a,b)=>a.name.localeCompare(b.name,locale))} entryCopy={entryRouting[locale]} budget={budgetLabels[locale]} routes={itineraries.order.slice(0,3).map(key=>({key,title:itineraries.items[key].title}))}/>
     <PreflightGrid locale={locale} />
     <TransitQuiz locale={locale} />
+    <PreflightChecklist locale={locale} />
     <section className="journey-start wrap">
       <div className="sec-head"><h2>{t.essentials}</h2><a href="#planner">{t.myTrip} ↗</a></div>
       <div className="journey-start-grid">{starts.map((item, index) => <a className="journey-start-card travel-has-peek" key={item.icon} href={item.href}>
