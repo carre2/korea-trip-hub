@@ -1,7 +1,8 @@
 "use client";
-import { useId, useState } from 'react';
+import { useId, useState, useEffect } from 'react';
 import labels from '../data/budget-ui.json';
 import { CURRENCIES, calculateBudget, budgetCurrency } from '../lib/budget.mjs';
+import { fetchRates } from '../lib/fx.mjs';
 import { track } from '../lib/analytics';
 import TravelIcon from './TravelIcon';
 import PeekMascot from './PeekMascot';
@@ -11,9 +12,26 @@ export default function BudgetCalculator({locale, country}) {
   const [values, setValues] = useState(fields.map(() => ''));
   const [currency, setCurrency] = useState(budgetCurrency(locale, country));
   const [rate, setRate] = useState('');
+  const [live, setLive] = useState(null);
   const [result, setResult] = useState(null);
   const [error, setError] = useState(false);
   function clearResult() { setResult(null); setError(false); }
+  // Auto-fill the rate with a live quote when a non-KRW currency is chosen.
+  // open.er-api is KRW-based, so rates[code] is already "code per 1 KRW" — the
+  // exact value this field expects. It stays editable (typing clears the Live
+  // badge), and if the quote can't be fetched we fall back to manual entry.
+  useEffect(() => {
+    let active = true;
+    if (currency === 'KRW') { setLive(null); return; }
+    fetchRates().then((data) => {
+      const q = data && data.rates && data.rates[currency];
+      if (!active || typeof q !== 'number' || !(q > 0)) return;
+      setRate(String(Number(q.toPrecision(6))));
+      setLive({ updated: data.updated });
+      clearResult();
+    });
+    return () => { active = false; };
+  }, [currency]);
   function calculate(e) {
     e.preventDefault(); const next = calculateBudget(values, rate, currency);
     setResult(next); setError(!next);
@@ -27,7 +45,8 @@ export default function BudgetCalculator({locale, country}) {
         <input id={`${id}-${field}`} type="number" min="0" max="1000000000000" step="any" inputMode="decimal" value={values[i]} onChange={e => {setValues(values.map((v,j) => i === j ? e.target.value : v)); clearResult();}} />
       </label>)}</div>
       <div className="budget-fields"><label htmlFor={`${id}-currency`}>{t.currency}<select id={`${id}-currency`} value={currency} onChange={e => {setCurrency(e.target.value); setRate(''); clearResult();}}>{CURRENCIES.map(c => <option key={c}>{c}</option>)}</select></label>
-      {currency !== 'KRW' && <label htmlFor={`${id}-rate`}>{t.rate} {currency}<input id={`${id}-rate`} aria-describedby={`${id}-rate-note`} type="number" min="0.000000001" max="1000000000" step="any" inputMode="decimal" required value={rate} onChange={e => {setRate(e.target.value); clearResult();}} /></label>}</div>
+      {currency !== 'KRW' && <label htmlFor={`${id}-rate`}>{t.rate} {currency}<input id={`${id}-rate`} aria-describedby={`${id}-rate-note`} type="number" min="0.000000001" max="1000000000" step="any" inputMode="decimal" required value={rate} onChange={e => {setRate(e.target.value); setLive(null); clearResult();}} /></label>}</div>
+      {currency !== 'KRW' && live && <p className="budget-live">● {t.rateLive} · {new Intl.DateTimeFormat(locale, {dateStyle: 'medium'}).format(new Date(live.updated))} · <a href="https://www.exchangerate-api.com" target="_blank" rel="noopener noreferrer">ExchangeRate-API ↗</a></p>}
       {currency !== 'KRW' && <p id={`${id}-rate-note`}>{t.rateNote}</p>}
       <div className="share-actions"><button className="btn" type="submit">{t.calculate}</button><button className="btn ghost" type="button" onClick={() => {setValues(fields.map(() => ''));setRate('');clearResult();}}>{t.reset}</button></div>
       <div role="status" aria-live="polite">{error && <p>{t.invalid}</p>}{result && <p className="budget-total"><strong>{t.total}: {money(result.total,'KRW')}</strong>{currency !== 'KRW' && <span> ≈ {money(result.converted,currency)}</span>}</p>}</div>
