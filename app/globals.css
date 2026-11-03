@@ -1201,7 +1201,7 @@
 .prep-list label { display: flex; align-items: center; gap: 10px; cursor: pointer; font-size: .95rem; }
 .prep-list input { width: 18px; height: 18px; accent-color: var(--accent); flex: 0 0 auto; }
 .prep-list li.is-on label { text-decoration: line-through; color: var(--muted); }
-.prep-list a { color: var(--muted); text-decoration: none; font-size: 1.05rem; }
+.prep-list a { padding: 6px 10px; min-width: 24px; text-align: center; color: var(--muted); text-decoration: none; font-size: 1.1rem; }
 
 /* ③ Live FX rate badge in the budget calculator */
 .budget-live { margin: 2px 0 4px; font-size: .82rem; color: var(--muted); }
