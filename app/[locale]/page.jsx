@@ -102,6 +102,7 @@ export default function Home({ params }) {
     <JsonLd data={webSiteLd(locale, m.meta.homeTitle, m.meta.homeDesc)} />
     <HeroSlider locale={locale} t={t} languageCount={locales.length} image={destImages.gyeongbokgung} imageLabel={destination('gyeongbokgung').name} />
     <LandingTools locale={locale} m={{experience:t,visaFinder:m.visaFinder}} countries={visaHubItems(locale).sort((a,b)=>a.name.localeCompare(b.name,locale))} entryCopy={entryRouting[locale]} budget={budgetLabels[locale]} routes={itineraries.order.slice(0,3).map(key=>({key,title:itineraries.items[key].title}))}/>
+    <PreflightGrid locale={locale} />
     <section className="journey-start wrap">
       <div className="sec-head"><h2>{t.essentials}</h2><a href="#planner">{t.myTrip} ↗</a></div>
       <div className="journey-start-grid">{starts.map((item, index) => <a className="journey-start-card travel-has-peek" key={item.icon} href={item.href}>
@@ -110,7 +111,6 @@ export default function Home({ params }) {
       </a>)}</div>
       <div className="journey-essentials"><div>{['transit','sim','money','weather','help'].map((key) => <a key={key} href={`/${locale}/plan/${key}/`} data-landing-link={key}><TravelIcon name={key} compact/><span>{m.plan.tiles[key].title} →</span></a>)}</div></div>
     </section>
-    <PreflightGrid locale={locale} />
     <section id="planner" className="journey-planner" tabIndex={-1} aria-label={t.myTrip}><div className="wrap">
       <div className="sec-head"><div><span className="eyebrow">{t.myTrip}</span><h2>{t.plannerTitle}</h2><p>{t.plannerSub}</p></div><a href={`/${locale}/itinerary/`}>{m.nextSteps.itinerary} →</a></div>
       <SavedPlaces catalog={placeCatalog} locale={locale} t={t} /><TripPlanner catalog={placeCatalog} locale={locale} labels={t} routes={routeOptions} order={itineraries.order} ui={{dayLabel: itineraries.ui.dayLabel, map: itineraries.ui.map}} checklist={checklist} />
