@@ -10,6 +10,7 @@ import { itinFor } from "../../lib/content";
 import TripPlanner from "../../components/TripPlanner";
 import HeroSlider from "../../components/HeroSlider";
 import LandingTools from "../../components/LandingTools";
+import PreflightGrid from "../../components/PreflightGrid";
 import SavePlace from "../../components/SavePlace";
 import {visaHubItems} from "../../lib/visa";
 import entryRouting from "../../data/entry-routing-ui.json";
@@ -109,6 +110,7 @@ export default function Home({ params }) {
       </a>)}</div>
       <div className="journey-essentials"><div>{['transit','sim','money','weather','help'].map((key) => <a key={key} href={`/${locale}/plan/${key}/`} data-landing-link={key}><TravelIcon name={key} compact/><span>{m.plan.tiles[key].title} →</span></a>)}</div></div>
     </section>
+    <PreflightGrid locale={locale} />
     <section id="planner" className="journey-planner" tabIndex={-1} aria-label={t.myTrip}><div className="wrap">
       <div className="sec-head"><div><span className="eyebrow">{t.myTrip}</span><h2>{t.plannerTitle}</h2><p>{t.plannerSub}</p></div><a href={`/${locale}/itinerary/`}>{m.nextSteps.itinerary} →</a></div>
       <SavedPlaces catalog={placeCatalog} locale={locale} t={t} /><TripPlanner catalog={placeCatalog} locale={locale} labels={t} routes={routeOptions} order={itineraries.order} ui={{dayLabel: itineraries.ui.dayLabel, map: itineraries.ui.map}} checklist={checklist} />
