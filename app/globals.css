@@ -1234,9 +1234,11 @@
 /* ⑩b Desktop side rails (shown only where the centered content leaves margin room) + lightbox */
 .vrail { display: none; }
 @media (min-width: 1480px) {
-  .vrail { display: flex; flex-direction: column; gap: 14px; position: fixed; top: 50%; transform: translateY(-50%); width: clamp(132px, calc((100vw - 1180px) / 2 - 30px), 196px); z-index: 40; }
-  .vrail-left { left: 16px; }
-  .vrail-right { right: 16px; }
+  /* Anchored to the content column (1180px, centered) so the rails hug the body text
+     with the empty space pushed out to the screen edges, instead of sitting at the far edges. */
+  .vrail { display: flex; flex-direction: column; gap: 14px; position: fixed; top: 50%; transform: translateY(-50%); width: clamp(132px, calc((100vw - 1180px) / 2 - 48px), 176px); z-index: 40; }
+  .vrail-left { right: calc(50% + 604px); left: auto; }
+  .vrail-right { left: calc(50% + 604px); right: auto; }
   .vrail-item { display: flex; flex-direction: column; gap: 4px; padding: 0 0 8px; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; background: var(--surface); cursor: pointer; text-align: left; font: inherit; transition: border-color .15s ease, transform .15s ease; }
   .vrail-item:hover { border-color: var(--accent); transform: translateY(-2px); }
   .vrail-item:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }

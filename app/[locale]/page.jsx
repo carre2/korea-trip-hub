@@ -105,9 +105,9 @@ export default function Home({ params }) {
     <JsonLd data={webSiteLd(locale, m.meta.homeTitle, m.meta.homeDesc)} />
     <HeroSlider locale={locale} t={t} languageCount={locales.length} image={destImages.gyeongbokgung} imageLabel={destination('gyeongbokgung').name} />
     <VideoRails locale={locale} />
-    <VideoReviews locale={locale} />
     <LandingTools locale={locale} m={{experience:t,visaFinder:m.visaFinder}} countries={visaHubItems(locale).sort((a,b)=>a.name.localeCompare(b.name,locale))} entryCopy={entryRouting[locale]} budget={budgetLabels[locale]} routes={itineraries.order.slice(0,3).map(key=>({key,title:itineraries.items[key].title}))}/>
     <PreflightGrid locale={locale} />
+    <VideoReviews locale={locale} />
     <TransitQuiz locale={locale} />
     <PreflightChecklist locale={locale} />
     <section className="journey-start wrap">
