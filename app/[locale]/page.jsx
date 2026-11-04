@@ -21,6 +21,7 @@ import budgetLabels from "../../data/budget-ui.json";
 import NearbyEats from "../../components/NearbyEats";
 
 import VideoReviews from "../../components/VideoReviews";
+import VideoRails from "../../components/VideoRails";
 import destData from "../../data/destinations.json";
 import destJa from "../../data/destinations.ja.json";
 import destZh from "../../data/destinations.zh.json";
@@ -103,6 +104,8 @@ export default function Home({ params }) {
   return <div className="journey-home landing-home">
     <JsonLd data={webSiteLd(locale, m.meta.homeTitle, m.meta.homeDesc)} />
     <HeroSlider locale={locale} t={t} languageCount={locales.length} image={destImages.gyeongbokgung} imageLabel={destination('gyeongbokgung').name} />
+    <VideoRails locale={locale} />
+    <VideoReviews locale={locale} />
     <LandingTools locale={locale} m={{experience:t,visaFinder:m.visaFinder}} countries={visaHubItems(locale).sort((a,b)=>a.name.localeCompare(b.name,locale))} entryCopy={entryRouting[locale]} budget={budgetLabels[locale]} routes={itineraries.order.slice(0,3).map(key=>({key,title:itineraries.items[key].title}))}/>
     <PreflightGrid locale={locale} />
     <TransitQuiz locale={locale} />
@@ -134,7 +137,6 @@ export default function Home({ params }) {
     </section>
     <section className="wrap journey-more" id="kculture"><div><span className="eyebrow">{m.guides.eyebrow}</span><h2>{m.guides.title}</h2><p>{m.guides.sub}</p><a className="btn ghost" href={`/${locale}/guides/`}>{t.details} →</a></div><div><span className="eyebrow">{m.nav.kculture}</span><h2>{festivalCopies[locale].title}</h2><p>{festivalCopies[locale].intro}</p><a className="btn ghost" href={`/${locale}/festivals/`}>{t.details} →</a></div></section>
     <section id="map" className="journey-map"><div className="wrap"><details><summary>{m.home.mapTitle}</summary><MapExplorer labels={m.map} locale={locale} /></details></div></section>
-    <VideoReviews locale={locale} />
     <section id="help" className="wrap journey-help"><div><span className="eyebrow">{m.help.eyebrow}</span><h2>{m.help.title}</h2><p>{m.help.sub}</p></div><a className="btn ghost" href={`/${locale}/plan/help/`}>{m.plan.tiles.help.title} →</a></section>
   </div>;
 }

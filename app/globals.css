@@ -1230,3 +1230,28 @@
 .vrev-note { margin: 16px 0 0; font-size: .8rem; color: var(--faint); line-height: 1.55; }
 @media (max-width: 920px) { .vrev-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .vrev-grid { grid-template-columns: 1fr; } }
+
+/* ⑩b Desktop side rails (shown only where the centered content leaves margin room) + lightbox */
+.vrail { display: none; }
+@media (min-width: 1480px) {
+  .vrail { display: flex; flex-direction: column; gap: 14px; position: fixed; top: 50%; transform: translateY(-50%); width: clamp(132px, calc((100vw - 1180px) / 2 - 30px), 196px); z-index: 40; }
+  .vrail-left { left: 16px; }
+  .vrail-right { right: 16px; }
+  .vrail-item { display: flex; flex-direction: column; gap: 4px; padding: 0 0 8px; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; background: var(--surface); cursor: pointer; text-align: left; font: inherit; transition: border-color .15s ease, transform .15s ease; }
+  .vrail-item:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .vrail-item:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .vrail-thumb { position: relative; display: block; aspect-ratio: 16 / 9; background: var(--surface-3); }
+  .vrail-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .vrail-play { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 34px; height: 34px; border-radius: 999px; background: rgba(0,0,0,.55); border: 2px solid rgba(255,255,255,.9); color: #fff; font-size: .68rem; line-height: 30px; text-align: center; padding-left: 3px; box-sizing: border-box; transition: background .15s ease; }
+  .vrail-item:hover .vrail-play { background: #ff0033; }
+  .vrail-ttl { font-size: .78rem; line-height: 1.35; color: var(--text); padding: 0 8px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .vrail-by { font-size: .72rem; color: var(--muted); padding: 0 8px; }
+}
+.vlight { position: fixed; inset: 0; z-index: 200; background: rgba(0,0,0,.74); display: flex; align-items: center; justify-content: center; padding: 20px; }
+.vlight-box { position: relative; width: min(92vw, 900px); }
+.vlight-close { position: absolute; top: -16px; right: -12px; width: 40px; height: 40px; border-radius: 999px; border: none; background: var(--surface); color: var(--text); font-size: 1.6rem; line-height: 1; cursor: pointer; box-shadow: 0 2px 12px rgba(0,0,0,.45); z-index: 2; }
+.vlight-frame { aspect-ratio: 16 / 9; width: 100%; border-radius: 12px; overflow: hidden; background: #000; }
+.vlight-frame iframe { width: 100%; height: 100%; border: 0; display: block; }
+.vlight-meta { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin-top: 10px; color: #fff; font-size: .92rem; }
+.vlight-meta a { color: #fff; text-decoration: underline; white-space: nowrap; }
+@media (max-width: 560px) { .vlight-close { top: -4px; right: 2px; } }
