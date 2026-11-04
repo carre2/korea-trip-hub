@@ -20,7 +20,7 @@ import budgetLabels from "../../data/budget-ui.json";
 
 import NearbyEats from "../../components/NearbyEats";
 
-import ReviewsSection from "../../components/ReviewsSection";
+import VideoReviews from "../../components/VideoReviews";
 import destData from "../../data/destinations.json";
 import destJa from "../../data/destinations.ja.json";
 import destZh from "../../data/destinations.zh.json";
@@ -134,7 +134,7 @@ export default function Home({ params }) {
     </section>
     <section className="wrap journey-more" id="kculture"><div><span className="eyebrow">{m.guides.eyebrow}</span><h2>{m.guides.title}</h2><p>{m.guides.sub}</p><a className="btn ghost" href={`/${locale}/guides/`}>{t.details} →</a></div><div><span className="eyebrow">{m.nav.kculture}</span><h2>{festivalCopies[locale].title}</h2><p>{festivalCopies[locale].intro}</p><a className="btn ghost" href={`/${locale}/festivals/`}>{t.details} →</a></div></section>
     <section id="map" className="journey-map"><div className="wrap"><details><summary>{m.home.mapTitle}</summary><MapExplorer labels={m.map} locale={locale} /></details></div></section>
-    <section id="reviews" className="wrap journey-review"><details><summary>{m.reviews.title}</summary><ReviewsSection t={m.reviews} locale={locale} /></details></section>
+    <VideoReviews locale={locale} />
     <section id="help" className="wrap journey-help"><div><span className="eyebrow">{m.help.eyebrow}</span><h2>{m.help.title}</h2><p>{m.help.sub}</p></div><a className="btn ghost" href={`/${locale}/plan/help/`}>{m.plan.tiles.help.title} →</a></section>
   </div>;
 }
