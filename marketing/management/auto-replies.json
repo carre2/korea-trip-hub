@@ -1,0 +1,76 @@
+{
+  "updated": "2026-10-16",
+  "account": "korea_travel_visa_keta",
+  "metaApp": {
+    "name": "Korea Trip Hub Replies",
+    "id": "1771820340793761",
+    "businessId": "1436495088425001",
+    "created": "2026-10-16",
+    "status": "permissions_added_test_accounts_accepted",
+    "instagramAppId": "3656573874492316",
+    "permissionsAdded": [
+      "instagram_business_basic",
+      "instagram_business_manage_comments",
+      "instagram_business_manage_messages",
+      "threads_basic",
+      "threads_content_publish",
+      "threads_manage_replies",
+      "threads_read_replies"
+    ],
+    "instagramTester": "invitation_accepted",
+    "threadsTester": "invitation_accepted",
+    "instagramAccountId": "17841417217512699",
+    "tokensIssued": {
+      "instagram": true,
+      "threads": true
+    },
+    "instagramOAuth": "token_issued_account_api_verified",
+    "oauthGeneratorScopeReview": "Generator requests extra content_publish and manage_insights; do not approve these without removing optional scopes or separate explicit approval.",
+    "receiverDeployed": true,
+    "receiverUrl": "https://korea-trip-hub-replies.minho-han0165-536.workers.dev",
+    "receiverVersion": "3d6fb980-94ae-4a31-9022-30111886c65d",
+    "receiverMode": "live",
+    "webhookRegistered": true,
+    "liveSendVerified": true,
+    "webhookAccountFields": [
+      "comments",
+      "messages"
+    ],
+    "webhookSignedSample": "Meta comments sample accepted HTTP 200; no customer reply sent",
+    "threadsAccountId": "28795424190142920",
+    "threadsOAuth": "token_issued_account_posts_replies_api_verified",
+    "privacyUrl": "https://korea-trip-hub-replies.minho-han0165-536.workers.dev/privacy",
+    "publishingStatus": "published_ui_confirmed",
+    "monitoredThreadsPosts": 10,
+    "published": "2026-10-16",
+    "draftReceiptStart": "2026-10-16T06:10:24.996Z",
+    "metaTestingStatus": "both_use_cases_ui_test_not_started_api_statistics_may_lag",
+    "liveActivatedAt": "2026-10-16T06:15:08.13Z",
+    "liveApproval": "User explicitly requested automatic sending after publication",
+    "liveDeliveryStatus": "instagram_comment_reply_retrieved_verified",
+    "privateReplyTest": "explicit_airport_guide_comment_private_DM_message_receipt_returned"
+  },
+  "status": "live_instagram_comment_delivery_verified_threads_pending",
+  "instagramWelcome": "Hi! 👋 Thanks for contacting Korea Trip Hub.\nFree Korea travel guides in 12 languages: https://ktriphub.com/?utm_source=instagram&utm_medium=dm&utm_campaign=auto_reply\nVisa & K-ETA: https://ktriphub.com/en/plan/visa/\nTrip planning: https://ktriphub.com/en/itinerary/\nPlease tell us your question and preferred language. For entry questions, include your passport country (not your passport number). This is an automated welcome, not a visa decision.",
+  "channels": {
+    "instagram_dm": "live_enabled_ingress_airport_draft_verified",
+    "instagram_comment": "explicit_guide_request_private_dm_then_public_ack_other_questions_invite_dm",
+    "threads_reply": "live_enabled_latest_10_posts_poll_15min_inbound_test_pending",
+    "threads_dm": "not_configured"
+  },
+  "limits": {
+    "linksPerReply": 1,
+    "eventReplies": 1,
+    "sameAuthorTopicCooldownMinutes": 1440
+  },
+  "rules": [
+    "Respond only to inbound travel questions or explicit requests for a guide.",
+    "For an explicit guide/link request in an Instagram comment, send one official private reply with the guide link, then acknowledge publicly only after a message receipt. Other questions invite the visitor to DM; do not send unsolicited private messages.",
+    "Do not infer passport nationality from language, profile, or location.",
+    "Visa answers link to a guide without promising eligibility or approval.",
+    "Do not answer complaints, payment disputes, emergencies, or sensitive personal details automatically.",
+    "Opt-out, unknown topics, promotional spam, and own-account events receive no automatic topic reply.",
+    "API delivery requires persistent event deduplication, cooldown, verified account ownership, and a kill switch.",
+    "Uncertain API outcomes require reconciliation, never an automatic resend."
+  ]
+}

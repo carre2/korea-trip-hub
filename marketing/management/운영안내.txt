@@ -22,3 +22,7 @@ Korea Trip Hub 홍보 관리
 2026-10-05 Threads: 첫 글 3개 사용자 승인. 추가 지시에 따라 첫 인사 글 즉시 게시 완료, 실제 URL 기록. 나머지 2개는 10월 6~7일 21:00 GMT+9 예약 목록 확인. 프로필 소개는 변경하지 않음. 이후 신규 글도 승인 후 발행.
 
 2026-10-05 로그인 재점검: Instagram 현재 계정명은 korea_travel_visa_keta (기존 기록 dongpoongi1). 동일 Business Suite asset_id=1255502770990917에서 확인. 오늘21시 발행 및10월6~13일21시 예약8개 실제 확인. 앞으로 현재 계정명으로 점검.
+
+2026-10-16 사용자 지시: 홍보 계정 Instagram 및 연결된 Threads의 새 댓글·문의에 관련 사이트 링크 자동 답장을 준비한다. 메시지 접근 연결은 사용자 승인 후 성공. Meta 기본 자동답장 저장은 오류로 미완료. 질문별 초안 라우터는 구현·검증했으나 실제 API 발송은 미연결이며, 가동 중이라고 보고하지 않는다. 상세는 자동응답-연동현황.txt 및 auto-replies.json. 새 피드 게시물 승인/예약 원칙과 대량 DM 금지는 유지한다.
+
+2026-10-16 자동응답 진행: 별도 Cloudflare Worker를 draft 모드(LIVE_SEND=false)로 배포했다. Instagram 토큰과 공식 API 읽기는 확인했지만 Webhook 등록·Threads OAuth·실제 수신/송신 검증은 남았다. 현재 자동 발송은 없다. 상세는 자동응답-연동현황.txt 및 auto-replies.json 참조. facts 갱신 없음.

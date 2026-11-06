@@ -68,8 +68,8 @@
         "name": "KTX / SRT",
         "tone": "blue",
         "best": "Between cities",
-        "fare": "Seoul–Busan ~₩59,800",
-        "d": "High-speed rail reaches Busan in about 2h40 and Gyeongju, Daejeon, Gwangju and more. Book a seat ahead on weekends."
+        "fare": "Seoul–Busan ₩54,400 (KTX standard)",
+        "d": "High-speed rail reaches Busan, Gyeongju, Daejeon, Gwangju and more. Book a seat ahead on weekends."
       }
     ]
   },
@@ -191,16 +191,9 @@
         ]
       },
       {
-        "label": "Price",
-        "vals": [
-          "Standard",
-          "~10% cheaper"
-        ]
-      },
-      {
         "label": "Book with",
         "vals": [
-          "Korail Talk app / letskorail.com",
+          "Korail+ app / korail.com",
           "SRT site (clunky for foreign cards)"
         ]
       }
@@ -233,10 +226,10 @@
       },
       {
         "icon": "🚄",
-        "name": "Korail Talk",
-        "d": "Official KTX booking app — reserve seats and show mobile tickets.",
+        "name": "Korail+",
+        "d": "Official KTX booking app (formerly Korail Talk) — reserve seats and show mobile tickets.",
         "note": "Trains",
-        "url": "https://www.letskorail.com/"
+        "url": "https://www.korail.com/"
       }
     ]
   },
@@ -291,7 +284,7 @@
       },
       {
         "q": "KTX or SRT to Busan?",
-        "a": "Both are fast (~2h40). KTX leaves central Seoul Station and is easiest to book (Korail Talk app); SRT is a bit cheaper but leaves Suseo Station and is harder to book with a foreign card."
+        "a": "Both are fast — check the timetable for exact times when booking. KTX leaves central Seoul Station and is easiest to book (Korail+ app); SRT leaves Suseo Station and is harder to book with a foreign card."
       },
       {
         "q": "Is the subway safe late at night?",
@@ -314,8 +307,8 @@
     },
     {
       "icon": "🚄",
-      "name": "KORAIL (letskorail.com)",
-      "url": "https://www.letskorail.com",
+      "name": "KORAIL (korail.com)",
+      "url": "https://www.korail.com/",
       "what": "KTX & train booking"
     },
     {

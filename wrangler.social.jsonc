@@ -1,0 +1,18 @@
+{
+  "name": "korea-trip-hub-replies",
+  "main": "worker/social/index.mjs",
+  "compatibility_date": "2026-10-16",
+  "durable_objects": {"bindings": [{"name": "INBOX", "class_name": "ReplyInbox"}]},
+  "migrations": [{"tag": "v1", "new_sqlite_classes": ["ReplyInbox"]}],
+  "vars": {
+    "LIVE_SEND": "true",
+    "ACCOUNT_USERNAME": "korea_travel_visa_keta",
+    "IG_USER_ID": "17841417217512699",
+    "IG_API_VERSION": "v25.0",
+    "ACTIVATED_AT": "2026-10-16T06:15:08.130Z",
+    "THREADS_USER_ID": "28795424190142920",
+    "THREADS_WATCH_DAYS": "30",
+    "THREADS_POST_IDS": "18030076070883778,18125505521298928,18638952439022914,18130831669809779,18103569593322409,18368437516246809,18098444243412501,18143393428577176,17910417843472387,17890031664616330"
+  },
+  "triggers": {"crons": ["*/15 * * * *"]}
+}

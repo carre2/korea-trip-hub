@@ -22,7 +22,7 @@
     },
     "verdict": {
       "headline": "是的 — 中国公民前往韩国本土需要签证。",
-      "sub": "个人游客需在韩国领事馆或韩国签证申请中心申请 C-3 旅游签证。两大例外可让你免签：济州岛，以及（在特定时段）经批准的旅行团。",
+      "sub": "个人游客需在韩国领事馆或韩国签证申请中心申请 C-3 旅游签证。两大例外可让你免签：济州岛，以及由指定旅行社组织的旅行团（免签政策实施至 2026-12-31）。",
       "type": "C-3 旅游签证",
       "stay": "最长 90 天",
       "entry": "单次或多次（视情况）"
@@ -38,7 +38,7 @@
         "icon": "👥",
         "tone": "amber",
         "title": "团体免签（有时限）",
-        "body": "一项试点允许经批准的 3 人以上旅行团免签入境最多 15 天，实施期为 2025 年 9 月至 2026 年 6 月，同期免收团体签证的办理费。在依赖此政策前，请确认是否已延期。"
+        "body": "由指定旅行社组织的 3 人以上旅行团可免签入境，最多停留 15 天。该政策已延长至 2026-12-31，团体签证签发费减免也实施至 2026-12-31。在依赖此政策前，请确认是否有进一步延期。"
       }
     ],
     "tldr": [
@@ -209,8 +209,8 @@
         },
         {
           "icon": "🗓️",
-          "t": "依赖已过期政策",
-          "d": "团体免签为限时试点（至 2026 年 6 月）。依赖前请再确认。"
+          "t": "依赖限时政策",
+          "d": "团体免签政策实施至 2026-12-31。依赖前请确认是否有进一步延期。"
         }
       ]
     },
@@ -219,7 +219,7 @@
       "items": [
         {
           "q": "中国公民去韩国需要签证吗？",
-          "a": "前往本土需要 — 个人游客申请 C-3 旅游签证。济州岛可免签最多 30 天，经批准的旅行团也曾有限时免签窗口。"
+          "a": "前往本土需要 — 个人游客申请 C-3 旅游签证。济州岛可免签最多 30 天；由指定旅行社组织的 3 人以上旅行团至 2026-12-31 可免签入境，最多 15 天。"
         },
         {
           "q": "济州免签怎么用？",
@@ -227,7 +227,7 @@
         },
         {
           "q": "旅行团现在还能免签吗？",
-          "a": "针对 3 人以上经批准团体的试点实施于 2025 年 9 月至 2026 年 6 月。此类政策有时限，请向旅行社或使领馆确认现状。"
+          "a": "目前可以。据韩国驻青岛总领事馆通知，由指定旅行社组织的 3 人以上团体免签政策（最多 15 天）实施至 2026-12-31。请向旅行社或使领馆确认是否有进一步延期。"
         },
         {
           "q": "我在哪申请？",
@@ -278,7 +278,7 @@
     },
     "verdict": {
       "headline": "はい — 中国のパスポート保持者は韓国本土への渡航にビザが必要です。",
-      "sub": "個人旅行者は韓国領事館または韓国ビザ申請センターで C-3 観光ビザを申請します。これを省ける大きな例外が2つあります：Jeju 島、そして（時期により）承認された団体ツアーです。",
+      "sub": "個人旅行者は韓国領事館または韓国ビザ申請センターで C-3 観光ビザを申請します。これを省ける例外が2つあります：Jeju 島、そして指定旅行会社が募集する団体ツアー（ビザ免除制度は 2026-12-31 まで）です。",
       "type": "C-3 観光",
       "stay": "最長90日",
       "entry": "シングルまたはマルチプル（場合による）"
@@ -294,7 +294,7 @@
         "icon": "👥",
         "tone": "amber",
         "title": "団体ビザ免除（期間限定）",
-        "body": "承認された3名以上のツアー団体が最長15日間ビザなしで入国できる試験制度で、実施期間は 2025年9月〜2026年6月、同期間は団体ビザの処理手数料も免除されました。頼りにする前に延長されているか確認してください。"
+        "body": "指定旅行会社が募集する3名以上の団体ツアーは、最長15日間ビザなしで入国できます。この制度は 2026-12-31 まで延長され、団体ビザ発給手数料の免除も 2026-12-31 まで続きます。頼りにする前に、さらなる延長の有無を確認してください。"
       }
     ],
     "tldr": [
@@ -465,8 +465,8 @@
         },
         {
           "icon": "🗓️",
-          "t": "失効した免除に頼る",
-          "d": "団体ビザ免除は期間限定でした（2026年6月まで）。頼る前に再確認してください。"
+          "t": "期間限定の免除に頼る",
+          "d": "団体ビザ免除は 2026-12-31 までです。頼る前にさらなる延長の有無を確認してください。"
         }
       ]
     },
@@ -475,7 +475,7 @@
       "items": [
         {
           "q": "中国国民は韓国にビザが必要ですか？",
-          "a": "韓国本土についてははい — 個人旅行者は C-3 観光ビザを申請します。Jeju 島は最長30日間のビザ免除入国が可能で、承認された団体ツアーには期間限定のビザ免除枠がありました。"
+          "a": "韓国本土についてははい — 個人旅行者は C-3 観光ビザを申請します。Jeju 島は最長30日間のビザ免除入国が可能で、指定旅行会社が募集する3名以上の団体ツアーは 2026-12-31 まで最長15日間ビザなしで入国できます。"
         },
         {
           "q": "Jeju のビザ免除はどう使いますか？",
@@ -483,7 +483,7 @@
         },
         {
           "q": "団体ツアーは今もビザ免除で入れますか？",
-          "a": "3名以上の承認団体向けの試験制度が 2025年9月〜2026年6月に実施されました。こうした制度は期間限定のため、旅行代理店または大使館で現状を確認してください。"
+          "a": "現時点では可能です。在青島韓国総領事館によると、指定旅行会社が募集する3名以上の団体向けビザ免除制度（最長15日）は 2026-12-31 まで実施されます。その後の延長については旅行代理店または大使館で確認してください。"
         },
         {
           "q": "どこで申請しますか？",
@@ -534,7 +534,7 @@
     },
     "verdict": {
       "headline": "네 — 중국 여권 소지자는 한국 본토 방문에 비자가 필요합니다.",
-      "sub": "개인 여행자는 한국 영사관이나 한국비자신청센터에서 C-3 관광 비자를 신청합니다. 이를 건너뛸 수 있는 큰 예외가 두 가지 있습니다: Jeju 섬, 그리고 (시기에 따라) 승인된 단체 관광입니다.",
+      "sub": "개인 여행자는 한국 영사관이나 한국비자신청센터에서 C-3 관광 비자를 신청합니다. 이를 건너뛸 수 있는 예외가 두 가지 있습니다: Jeju 섬, 그리고 지정 여행사가 모집한 단체 관광(무비자 제도 2026-12-31까지)입니다.",
       "type": "C-3 관광",
       "stay": "최대 90일",
       "entry": "단수 또는 복수(경우에 따라)"
@@ -550,7 +550,7 @@
         "icon": "👥",
         "tone": "amber",
         "title": "단체 무비자(기간 한정)",
-        "body": "승인된 3인 이상 단체가 최대 15일간 무비자로 입국할 수 있는 시범 제도로, 시행 기간은 2025년 9월~2026년 6월이며 같은 기간 단체 비자 수수료도 면제되었습니다. 의존하기 전에 연장되었는지 확인하세요."
+        "body": "지정 여행사가 모집한 3인 이상 단체 관광객은 최대 15일간 무비자로 입국할 수 있습니다. 이 제도는 2026-12-31까지 연장되었고, 단체비자 발급 수수료 면제도 2026-12-31까지 시행됩니다. 의존하기 전에 추가 연장 여부를 확인하세요."
       }
     ],
     "tldr": [
@@ -721,8 +721,8 @@
         },
         {
           "icon": "🗓️",
-          "t": "만료된 면제에 의존",
-          "d": "단체 무비자 시범은 기간 한정이었습니다(2026년 6월까지). 의존하기 전에 재확인하세요."
+          "t": "기간 한정 면제에 의존",
+          "d": "단체 무비자 제도는 2026-12-31까지입니다. 의존하기 전에 추가 연장 여부를 확인하세요."
         }
       ]
     },
@@ -731,7 +731,7 @@
       "items": [
         {
           "q": "중국 국민은 한국에 비자가 필요한가요?",
-          "a": "한국 본토는 네 — 개인 여행자는 C-3 관광 비자를 신청합니다. Jeju 섬은 최대 30일 무비자 입국이 가능하며, 승인된 단체 관광에는 기간 한정 무비자 창구가 있었습니다."
+          "a": "한국 본토는 네 — 개인 여행자는 C-3 관광 비자를 신청합니다. Jeju 섬은 최대 30일 무비자 입국이 가능하며, 지정 여행사가 모집한 3인 이상 단체는 2026-12-31까지 최대 15일간 무비자로 입국할 수 있습니다."
         },
         {
           "q": "Jeju 무비자는 어떻게 이용하나요?",
@@ -739,7 +739,7 @@
         },
         {
           "q": "단체 관광은 지금도 무비자로 입국할 수 있나요?",
-          "a": "3인 이상 승인 단체를 위한 시범 제도가 2025년 9월~2026년 6월에 시행되었습니다. 이런 제도는 기간 한정이므로 여행사나 대사관에 현재 상태를 확인하세요."
+          "a": "현재는 가능합니다. 주칭다오 대한민국 총영사관에 따르면 지정 여행사가 모집한 3인 이상 단체 무비자 제도(최대 15일)는 2026-12-31까지 시행됩니다. 추가 연장 여부는 여행사나 대사관에 확인하세요."
         },
         {
           "q": "어디서 신청하나요?",
@@ -790,7 +790,7 @@
     },
     "verdict": {
       "headline": "Sí — los titulares de pasaporte chino necesitan visado para la Corea continental.",
-      "sub": "Los turistas individuales solicitan el visado de turista C-3 en un consulado coreano o en un Centro de Solicitud de Visado de Corea. Dos grandes excepciones te permiten evitarlo: la isla de Jeju y (en ciertos periodos) los viajes en grupo aprobados.",
+      "sub": "Los turistas individuales solicitan el visado de turista C-3 en un consulado coreano o en un Centro de Solicitud de Visado de Corea. Dos excepciones te permiten evitarlo: la isla de Jeju y los grupos turísticos organizados por agencias de viajes designadas (programa sin visado vigente hasta el 2026-12-31).",
       "type": "Turista C-3",
       "stay": "Hasta 90 días",
       "entry": "Entrada única o múltiple (varía)"
@@ -806,7 +806,7 @@
         "icon": "👥",
         "tone": "amber",
         "title": "Grupo sin visado (por tiempo limitado)",
-        "body": "Un programa piloto permitió a grupos turísticos aprobados de 3 o más entrar sin visado hasta 15 días, vigente de sep 2025 a jun 2026, con la tasa de tramitación del visado de grupo exenta durante el mismo periodo. Comprueba si se ha prorrogado antes de contar con ello."
+        "body": "Los grupos turísticos de 3 o más personas organizados por agencias de viajes designadas pueden entrar sin visado hasta 15 días. El programa se ha prorrogado hasta el 2026-12-31, y la exención de la tasa de expedición del visado de grupo también se aplica hasta el 2026-12-31. Comprueba si hay una prórroga posterior antes de contar con ello."
       }
     ],
     "tldr": [
@@ -977,8 +977,8 @@
         },
         {
           "icon": "🗓️",
-          "t": "Depender de una exención caducada",
-          "d": "El piloto de grupo sin visado era por tiempo limitado (hasta jun 2026). Reconfírmalo antes de contar con ello."
+          "t": "Depender de una exención temporal",
+          "d": "El programa de grupo sin visado está vigente hasta el 2026-12-31. Comprueba si hay una prórroga posterior antes de contar con ello."
         }
       ]
     },
@@ -987,7 +987,7 @@
       "items": [
         {
           "q": "¿Los ciudadanos chinos necesitan visado para Corea?",
-          "a": "Para la Corea continental, sí — los turistas individuales solicitan un visado de turista C-3. La isla de Jeju permite la entrada sin visado hasta 30 días, y los viajes en grupo aprobados han tenido ventanas sin visado por tiempo limitado."
+          "a": "Para la Corea continental, sí — los turistas individuales solicitan un visado de turista C-3. La isla de Jeju permite la entrada sin visado hasta 30 días, y los grupos de 3 o más personas organizados por agencias de viajes designadas pueden entrar sin visado hasta 15 días hasta el 2026-12-31."
         },
         {
           "q": "¿Cómo funciona el régimen sin visado de Jeju?",
@@ -995,7 +995,7 @@
         },
         {
           "q": "¿Los grupos turísticos aún pueden entrar sin visado?",
-          "a": "Un piloto para grupos aprobados de 3 o más estuvo vigente de sep 2025 a jun 2026. Como estos programas son por tiempo limitado, confirma el estado actual con tu agencia de viajes o la embajada."
+          "a": "Por ahora, sí. Según el Consulado General de Corea en Qingdao, el programa sin visado para grupos de 3 o más personas organizados por agencias de viajes designadas (hasta 15 días) está vigente hasta el 2026-12-31. Confirma con tu agencia de viajes o la embajada si hay una prórroga posterior."
         },
         {
           "q": "¿Dónde solicito?",
@@ -1046,7 +1046,7 @@
     },
     "verdict": {
       "headline": "ใช่ — ผู้ถือหนังสือเดินทางจีนต้องมีวีซ่าเพื่อเข้าเกาหลีแผ่นดินใหญ่",
-      "sub": "นักท่องเที่ยวรายบุคคลยื่นขอวีซ่าท่องเที่ยว C-3 ที่สถานกงสุลเกาหลีหรือศูนย์รับคำร้องขอวีซ่าเกาหลี มีข้อยกเว้นใหญ่สองข้อที่ทำให้ข้ามได้: เกาะ Jeju และ (ในบางช่วง) ทัวร์กลุ่มที่ได้รับอนุมัติ",
+      "sub": "นักท่องเที่ยวรายบุคคลยื่นขอวีซ่าท่องเที่ยว C-3 ที่สถานกงสุลเกาหลีหรือศูนย์รับคำร้องขอวีซ่าเกาหลี มีข้อยกเว้นสองข้อที่ทำให้ข้ามได้: เกาะ Jeju และกรุ๊ปทัวร์ที่จัดโดยบริษัทนำเที่ยวที่ได้รับการกำหนด (มาตรการยกเว้นวีซ่าถึง 2026-12-31)",
       "type": "ท่องเที่ยว C-3",
       "stay": "สูงสุด 90 วัน",
       "entry": "เข้าครั้งเดียวหรือหลายครั้ง (แล้วแต่กรณี)"
@@ -1062,7 +1062,7 @@
         "icon": "👥",
         "tone": "amber",
         "title": "ยกเว้นวีซ่าแบบกลุ่ม (จำกัดเวลา)",
-        "body": "โครงการนำร่องอนุญาตให้กลุ่มทัวร์ที่ได้รับอนุมัติตั้งแต่ 3 คนขึ้นไปเข้าประเทศโดยไม่ต้องมีวีซ่าได้สูงสุด 15 วัน มีผลตั้งแต่กันยายน 2025 ถึงมิถุนายน 2026 พร้อมยกเว้นค่าธรรมเนียมดำเนินการวีซ่ากลุ่มในช่วงเดียวกัน โปรดตรวจสอบว่ามีการขยายเวลาหรือไม่ก่อนพึ่งพา"
+        "body": "กรุ๊ปทัวร์ตั้งแต่ 3 คนขึ้นไปที่จัดโดยบริษัทนำเที่ยวที่ได้รับการกำหนดสามารถเข้าประเทศโดยไม่ต้องมีวีซ่าได้สูงสุด 15 วัน มาตรการนี้ขยายเวลาถึง 2026-12-31 และการยกเว้นค่าธรรมเนียมออกวีซ่ากลุ่มก็มีผลถึง 2026-12-31 เช่นกัน โปรดตรวจสอบว่ามีการขยายเวลาเพิ่มเติมหรือไม่ก่อนพึ่งพา"
       }
     ],
     "tldr": [
@@ -1233,8 +1233,8 @@
         },
         {
           "icon": "🗓️",
-          "t": "พึ่งพาการยกเว้นที่หมดอายุ",
-          "d": "โครงการนำร่องยกเว้นวีซ่าแบบกลุ่มจำกัดเวลา (ถึงมิถุนายน 2026) ตรวจสอบอีกครั้งก่อนพึ่งพา"
+          "t": "พึ่งพาการยกเว้นที่มีกำหนดเวลา",
+          "d": "มาตรการยกเว้นวีซ่าแบบกลุ่มมีผลถึง 2026-12-31 ตรวจสอบว่ามีการขยายเวลาเพิ่มเติมหรือไม่ก่อนพึ่งพา"
         }
       ]
     },
@@ -1243,7 +1243,7 @@
       "items": [
         {
           "q": "พลเมืองจีนต้องมีวีซ่าเข้าเกาหลีไหม?",
-          "a": "สำหรับเกาหลีแผ่นดินใหญ่ ใช่ — นักท่องเที่ยวรายบุคคลยื่นขอวีซ่าท่องเที่ยว C-3 เกาะ Jeju อนุญาตให้เข้าโดยไม่ต้องมีวีซ่าสูงสุด 30 วัน และทัวร์กลุ่มที่ได้รับอนุมัติเคยมีช่วงยกเว้นวีซ่าแบบจำกัดเวลา"
+          "a": "สำหรับเกาหลีแผ่นดินใหญ่ ใช่ — นักท่องเที่ยวรายบุคคลยื่นขอวีซ่าท่องเที่ยว C-3 เกาะ Jeju อนุญาตให้เข้าโดยไม่ต้องมีวีซ่าสูงสุด 30 วัน และกรุ๊ปทัวร์ตั้งแต่ 3 คนขึ้นไปที่จัดโดยบริษัทนำเที่ยวที่ได้รับการกำหนดเข้าประเทศโดยไม่ต้องมีวีซ่าได้สูงสุด 15 วันจนถึง 2026-12-31"
         },
         {
           "q": "การยกเว้นวีซ่า Jeju ทำงานอย่างไร?",
@@ -1251,7 +1251,7 @@
         },
         {
           "q": "ทัวร์กลุ่มยังเข้าโดยไม่ต้องมีวีซ่าได้ไหม?",
-          "a": "โครงการนำร่องสำหรับกลุ่มที่ได้รับอนุมัติตั้งแต่ 3 คนขึ้นไปมีผลตั้งแต่กันยายน 2025 ถึงมิถุนายน 2026 เนื่องจากโครงการเหล่านี้จำกัดเวลา โปรดยืนยันสถานะปัจจุบันกับบริษัททัวร์หรือสถานทูต"
+          "a": "ขณะนี้ได้ ตามประกาศของสถานกงสุลใหญ่เกาหลี ณ ชิงเต่า มาตรการยกเว้นวีซ่าสำหรับกลุ่มตั้งแต่ 3 คนขึ้นไปที่จัดโดยบริษัทนำเที่ยวที่ได้รับการกำหนด (สูงสุด 15 วัน) มีผลถึง 2026-12-31 โปรดสอบถามบริษัททัวร์หรือสถานทูตว่ามีการขยายเวลาเพิ่มเติมหรือไม่"
         },
         {
           "q": "ยื่นที่ไหน?",
@@ -1302,7 +1302,7 @@
     },
     "verdict": {
       "headline": "Ya — pemegang pasport China memerlukan visa untuk Korea tanah besar.",
-      "sub": "Pelancong individu memohon visa pelancong C-3 di konsulat Korea atau Pusat Permohonan Visa Korea. Dua pengecualian besar membolehkan anda melangkaunya: Pulau Jeju, dan (pada waktu tertentu) lawatan berkumpulan yang diluluskan.",
+      "sub": "Pelancong individu memohon visa pelancong C-3 di konsulat Korea atau Pusat Permohonan Visa Korea. Dua pengecualian membolehkan anda melangkaunya: Pulau Jeju, dan kumpulan pelancongan yang dianjurkan oleh agensi pelancongan yang ditetapkan (skim tanpa visa hingga 2026-12-31).",
       "type": "Pelancong C-3",
       "stay": "Sehingga 90 hari",
       "entry": "Kemasukan tunggal atau berbilang (berbeza-beza)"
@@ -1318,7 +1318,7 @@
         "icon": "👥",
         "tone": "amber",
         "title": "Berkumpulan tanpa visa (terhad masa)",
-        "body": "Satu program perintis membenarkan kumpulan pelancong diluluskan seramai 3 orang atau lebih masuk tanpa visa sehingga 15 hari, berkuat kuasa Sep 2025–Jun 2026, dengan yuran pemprosesan visa berkumpulan dikecualikan dalam tempoh yang sama. Semak sama ada ia telah dilanjutkan sebelum bergantung padanya."
+        "body": "Kumpulan pelancong seramai 3 orang atau lebih yang dianjurkan oleh agensi pelancongan yang ditetapkan boleh masuk tanpa visa sehingga 15 hari. Skim ini telah dilanjutkan hingga 2026-12-31, dan pengecualian yuran pengeluaran visa berkumpulan juga berkuat kuasa hingga 2026-12-31. Semak sebarang lanjutan selepas itu sebelum bergantung padanya."
       }
     ],
     "tldr": [
@@ -1489,8 +1489,8 @@
         },
         {
           "icon": "🗓️",
-          "t": "Bergantung pada pengecualian yang telah tamat",
-          "d": "Perintis tanpa visa berkumpulan adalah terhad masa (hingga Jun 2026). Sahkan semula sebelum bergantung padanya."
+          "t": "Bergantung pada pengecualian terhad masa",
+          "d": "Skim tanpa visa berkumpulan berkuat kuasa hingga 2026-12-31. Semak sebarang lanjutan selepas itu sebelum bergantung padanya."
         }
       ]
     },
@@ -1499,7 +1499,7 @@
       "items": [
         {
           "q": "Adakah warganegara China memerlukan visa untuk Korea?",
-          "a": "Untuk Korea tanah besar, ya — pelancong individu memohon visa pelancong C-3. Pulau Jeju membenarkan kemasukan tanpa visa sehingga 30 hari, dan lawatan berkumpulan yang diluluskan pernah mempunyai tempoh tanpa visa yang terhad masa."
+          "a": "Untuk Korea tanah besar, ya — pelancong individu memohon visa pelancong C-3. Pulau Jeju membenarkan kemasukan tanpa visa sehingga 30 hari, dan kumpulan seramai 3 orang atau lebih yang dianjurkan oleh agensi pelancongan yang ditetapkan boleh masuk tanpa visa sehingga 15 hari hingga 2026-12-31."
         },
         {
           "q": "Bagaimana tanpa visa Jeju berfungsi?",
@@ -1507,7 +1507,7 @@
         },
         {
           "q": "Bolehkah kumpulan pelancong masih masuk tanpa visa?",
-          "a": "Satu perintis untuk kumpulan diluluskan seramai 3 orang atau lebih berkuat kuasa Sep 2025–Jun 2026. Kerana skim sebegini terhad masa, sahkan status semasa dengan agensi pelancongan atau kedutaan anda."
+          "a": "Buat masa ini, ya. Menurut Konsulat Jeneral Korea di Qingdao, skim tanpa visa untuk kumpulan seramai 3 orang atau lebih yang dianjurkan oleh agensi pelancongan yang ditetapkan (sehingga 15 hari) berkuat kuasa hingga 2026-12-31. Semak sebarang lanjutan selepas itu dengan agensi pelancongan atau kedutaan anda."
         },
         {
           "q": "Di mana saya memohon?",
@@ -1559,7 +1559,7 @@
     },
     "verdict": {
       "headline": "是的 — 中國公民前往韓國本土需要簽證。",
-      "sub": "個人遊客需在韓國領事館或韓國簽證申請中心申請 C-3 旅遊簽證。兩大例外可讓你免簽：濟州島，以及（在特定時段）經核准的旅行團。",
+      "sub": "個人遊客需在韓國領事館或韓國簽證申請中心申請 C-3 旅遊簽證。兩大例外可讓你免簽：濟州島，以及由指定旅行社組織的旅行團（免簽措施實施至 2026-12-31）。",
       "type": "C-3 旅遊簽證",
       "stay": "最長 90 天",
       "entry": "單次或多次（視情況）"
@@ -1575,7 +1575,7 @@
         "icon": "👥",
         "tone": "amber",
         "title": "團體免簽（有時限）",
-        "body": "一項試辦計畫允許經核准的 3 人以上旅行團免簽入境最多 15 天，實施期為 2025 年 9 月至 2026 年 6 月，同期免收團體簽證的辦理費。在依賴此政策前，請確認是否已延期。"
+        "body": "由指定旅行社組織的 3 人以上旅行團可免簽入境，最多停留 15 天。該措施已延長至 2026-12-31，團體簽證核發費減免也實施至 2026-12-31。在依賴此政策前，請確認是否有進一步延期。"
       }
     ],
     "tldr": [
@@ -1746,8 +1746,8 @@
         },
         {
           "icon": "🗓️",
-          "t": "依賴已過期政策",
-          "d": "團體免簽為限時試辦（至 2026 年 6 月）。依賴前請再確認。"
+          "t": "依賴限時政策",
+          "d": "團體免簽措施實施至 2026-12-31。依賴前請確認是否有進一步延期。"
         }
       ]
     },
@@ -1756,7 +1756,7 @@
       "items": [
         {
           "q": "中國公民去韓國需要簽證嗎？",
-          "a": "前往本土需要 — 個人遊客申請 C-3 旅遊簽證。濟州島可免簽最多 30 天，經核准的旅行團也曾有限時免簽窗口。"
+          "a": "前往本土需要 — 個人遊客申請 C-3 旅遊簽證。濟州島可免簽最多 30 天；由指定旅行社組織的 3 人以上旅行團至 2026-12-31 可免簽入境，最多 15 天。"
         },
         {
           "q": "濟州免簽怎麼用？",
@@ -1764,7 +1764,7 @@
         },
         {
           "q": "旅行團現在還能免簽嗎？",
-          "a": "針對 3 人以上經核准團體的試辦實施於 2025 年 9 月至 2026 年 6 月。此類政策有時限，請向旅行社或使領館確認現狀。"
+          "a": "目前可以。據韓國駐青島總領事館公告，由指定旅行社組織的 3 人以上團體免簽措施（最多 15 天）實施至 2026-12-31。請向旅行社或使領館確認是否有進一步延期。"
         },
         {
           "q": "我在哪申請？",
@@ -1821,14 +1821,14 @@
           "url": "https://www.vfsglobal.com/"
         },
         {
-          "label": "中國公民赴韓需要簽證嗎？（2026）",
-          "src": "MileAsia",
-          "url": "https://mileasia.com/korea/chinese-visa-korea/"
+          "label": "中國團體遊客免簽入境（韓國外交部）",
+          "src": "MOFA (official)",
+          "url": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=376381"
         },
         {
-          "label": "團體免簽公告（2025–2026）",
-          "src": "MOFA (embassy notice)",
-          "url": "https://www.mofa.go.kr/sg-en/brd/m_2435/view.do?seq=761557"
+          "label": "團體免簽延長至 2026-12-31（韓國駐青島總領事館）",
+          "src": "MOFA (consulate notice)",
+          "url": "https://www.mofa.go.kr/cn-qingdao-ko/brd/m_24477/view.do?seq=1357024"
         }
       ]
     },
@@ -1875,7 +1875,7 @@
     },
     "verdict": {
       "headline": "Có — người mang hộ chiếu Trung Quốc cần visa để vào Hàn Quốc đại lục.",
-      "sub": "Khách du lịch cá nhân xin visa du lịch C-3 tại lãnh sự quán Hàn Quốc hoặc Trung tâm Tiếp nhận Hồ sơ Visa Hàn Quốc. Hai ngoại lệ lớn giúp bạn bỏ qua bước này: đảo Jeju, và (vào một số thời điểm) các tour theo đoàn đã được duyệt.",
+      "sub": "Khách du lịch cá nhân xin visa du lịch C-3 tại lãnh sự quán Hàn Quốc hoặc Trung tâm Tiếp nhận Hồ sơ Visa Hàn Quốc. Hai ngoại lệ giúp bạn bỏ qua bước này: đảo Jeju, và các đoàn du lịch do công ty lữ hành được chỉ định tổ chức (chương trình miễn visa áp dụng đến 2026-12-31).",
       "type": "Du lịch C-3",
       "stay": "Tối đa 90 ngày",
       "entry": "Nhập cảnh một lần hoặc nhiều lần (tùy trường hợp)"
@@ -1891,7 +1891,7 @@
         "icon": "👥",
         "tone": "amber",
         "title": "Miễn visa theo đoàn (có thời hạn)",
-        "body": "Một chương trình thí điểm cho phép các đoàn du lịch được duyệt từ 3 người trở lên nhập cảnh miễn visa tối đa 15 ngày, áp dụng từ tháng 9 năm 2025 đến tháng 6 năm 2026, đồng thời miễn phí xử lý visa đoàn trong cùng thời gian. Hãy kiểm tra xem chương trình có được gia hạn không trước khi dựa vào nó."
+        "body": "Các đoàn du lịch từ 3 người trở lên do công ty lữ hành được chỉ định tổ chức có thể nhập cảnh miễn visa tối đa 15 ngày. Chương trình đã được gia hạn đến 2026-12-31, và việc miễn phí cấp visa đoàn cũng áp dụng đến 2026-12-31. Hãy kiểm tra xem có gia hạn tiếp hay không trước khi dựa vào nó."
       }
     ],
     "tldr": [
@@ -2062,8 +2062,8 @@
         },
         {
           "icon": "🗓️",
-          "t": "Dựa vào ưu đãi đã hết hạn",
-          "d": "Chương trình thí điểm miễn visa theo đoàn có thời hạn (đến tháng 6 năm 2026). Hãy xác nhận lại trước khi dựa vào nó."
+          "t": "Dựa vào ưu đãi có thời hạn",
+          "d": "Chương trình miễn visa theo đoàn áp dụng đến 2026-12-31. Hãy kiểm tra có gia hạn tiếp hay không trước khi dựa vào nó."
         }
       ]
     },
@@ -2072,7 +2072,7 @@
       "items": [
         {
           "q": "Công dân Trung Quốc có cần visa vào Hàn Quốc không?",
-          "a": "Với Hàn Quốc đại lục thì có — khách cá nhân xin visa du lịch C-3. Đảo Jeju cho phép nhập cảnh miễn visa tối đa 30 ngày, và các tour theo đoàn được duyệt từng có các đợt miễn visa có thời hạn."
+          "a": "Với Hàn Quốc đại lục thì có — khách cá nhân xin visa du lịch C-3. Đảo Jeju cho phép nhập cảnh miễn visa tối đa 30 ngày, và các đoàn từ 3 người trở lên do công ty lữ hành được chỉ định tổ chức có thể nhập cảnh miễn visa tối đa 15 ngày đến 2026-12-31."
         },
         {
           "q": "Miễn visa Jeju hoạt động thế nào?",
@@ -2080,7 +2080,7 @@
         },
         {
           "q": "Các đoàn du lịch có còn được nhập cảnh miễn visa không?",
-          "a": "Một chương trình thí điểm cho các đoàn được duyệt từ 3 người trở lên áp dụng từ tháng 9 năm 2025 đến tháng 6 năm 2026. Vì các chương trình như vậy có thời hạn, hãy xác nhận tình trạng hiện tại với công ty du lịch hoặc đại sứ quán."
+          "a": "Hiện tại thì có. Theo Tổng lãnh sự quán Hàn Quốc tại Thanh Đảo, chương trình miễn visa cho các đoàn từ 3 người trở lên do công ty lữ hành được chỉ định tổ chức (tối đa 15 ngày) áp dụng đến 2026-12-31. Hãy hỏi công ty du lịch hoặc đại sứ quán về việc gia hạn tiếp theo."
         },
         {
           "q": "Tôi nộp hồ sơ ở đâu?",
@@ -2131,7 +2131,7 @@
     },
     "verdict": {
       "headline": "Ya — pemegang paspor Tiongkok memerlukan visa untuk Korea daratan.",
-      "sub": "Wisatawan perorangan mengajukan visa turis C-3 di konsulat Korea atau Pusat Pengajuan Visa Korea. Dua pengecualian besar memungkinkan Anda melewatinya: Pulau Jeju, dan (pada waktu tertentu) tur rombongan yang disetujui.",
+      "sub": "Wisatawan perorangan mengajukan visa turis C-3 di konsulat Korea atau Pusat Pengajuan Visa Korea. Dua pengecualian memungkinkan Anda melewatinya: Pulau Jeju, dan rombongan wisata yang diselenggarakan agen perjalanan yang ditunjuk (skema bebas visa berlaku hingga 2026-12-31).",
       "type": "Turis C-3",
       "stay": "Hingga 90 hari",
       "entry": "Sekali atau beberapa kali masuk (bervariasi)"
@@ -2147,7 +2147,7 @@
         "icon": "👥",
         "tone": "amber",
         "title": "Rombongan bebas visa (terbatas waktu)",
-        "body": "Sebuah program percobaan mengizinkan rombongan wisata yang disetujui berjumlah 3 orang atau lebih masuk tanpa visa hingga 15 hari, berlaku September 2025–Juni 2026, dengan biaya pemrosesan visa rombongan dibebaskan pada periode yang sama. Periksa apakah telah diperpanjang sebelum mengandalkannya."
+        "body": "Rombongan wisata berjumlah 3 orang atau lebih yang diselenggarakan agen perjalanan yang ditunjuk dapat masuk tanpa visa hingga 15 hari. Skema ini diperpanjang hingga 2026-12-31, dan pembebasan biaya penerbitan visa rombongan juga berlaku hingga 2026-12-31. Periksa apakah ada perpanjangan berikutnya sebelum mengandalkannya."
       }
     ],
     "tldr": [
@@ -2318,8 +2318,8 @@
         },
         {
           "icon": "🗓️",
-          "t": "Mengandalkan pembebasan yang kedaluwarsa",
-          "d": "Program percobaan bebas visa rombongan terbatas waktu (hingga Juni 2026). Konfirmasi ulang sebelum mengandalkannya."
+          "t": "Mengandalkan pembebasan terbatas waktu",
+          "d": "Skema bebas visa rombongan berlaku hingga 2026-12-31. Periksa apakah ada perpanjangan berikutnya sebelum mengandalkannya."
         }
       ]
     },
@@ -2328,7 +2328,7 @@
       "items": [
         {
           "q": "Apakah warga negara Tiongkok memerlukan visa untuk Korea?",
-          "a": "Untuk Korea daratan, ya — wisatawan perorangan mengajukan visa turis C-3. Pulau Jeju mengizinkan masuk tanpa visa hingga 30 hari, dan tur rombongan yang disetujui pernah memiliki jendela bebas visa terbatas waktu."
+          "a": "Untuk Korea daratan, ya — wisatawan perorangan mengajukan visa turis C-3. Pulau Jeju mengizinkan masuk tanpa visa hingga 30 hari, dan rombongan berjumlah 3 orang atau lebih yang diselenggarakan agen perjalanan yang ditunjuk dapat masuk tanpa visa hingga 15 hari sampai 2026-12-31."
         },
         {
           "q": "Bagaimana bebas visa Jeju bekerja?",
@@ -2336,7 +2336,7 @@
         },
         {
           "q": "Apakah tur rombongan masih bisa masuk tanpa visa?",
-          "a": "Sebuah program percobaan untuk rombongan yang disetujui berjumlah 3 orang atau lebih berlaku September 2025–Juni 2026. Karena skema seperti ini terbatas waktu, konfirmasikan status terkini dengan agen perjalanan atau kedutaan Anda."
+          "a": "Untuk saat ini, ya. Menurut Konsulat Jenderal Korea di Qingdao, skema bebas visa untuk rombongan berjumlah 3 orang atau lebih yang diselenggarakan agen perjalanan yang ditunjuk (hingga 15 hari) berlaku hingga 2026-12-31. Tanyakan perpanjangan berikutnya kepada agen perjalanan atau kedutaan Anda."
         },
         {
           "q": "Di mana saya mengajukan?",
@@ -2387,7 +2387,7 @@
     },
     "verdict": {
       "headline": "Да — обладателям китайских паспортов нужна виза для материковой Кореи.",
-      "sub": "Индивидуальные туристы подают на туристическую визу C-3 в корейском консульстве или Корейском визовом центре (KVAC). Два больших исключения позволяют обойтись без неё: остров Чеджу и (в отдельные периоды) одобренные групповые туры.",
+      "sub": "Индивидуальные туристы подают на туристическую визу C-3 в корейском консульстве или Корейском визовом центре (KVAC). Два исключения позволяют обойтись без неё: остров Чеджу и тургруппы, организованные назначенными турагентствами (безвизовый режим действует до 2026-12-31).",
       "type": "C-3 туристическая",
       "stay": "До 90 дней",
       "entry": "Однократный или многократный въезд (зависит от случая)"
@@ -2403,7 +2403,7 @@
         "icon": "👥",
         "tone": "amber",
         "title": "Безвизовый групповой въезд (ограничен по времени)",
-        "body": "Пилотная программа позволяла одобренным тургруппам от 3 человек въезжать без визы до 15 дней в период Sep 2025–Jun 2026, при этом сбор за оформление групповой визы в тот же период не взимался. Прежде чем полагаться на неё, проверьте, была ли она продлена."
+        "body": "Тургруппы от 3 человек, организованные назначенными турагентствами, могут въезжать без визы на срок до 15 дней. Режим продлён до 2026-12-31; освобождение от сбора за выдачу групповой визы также действует до 2026-12-31. Прежде чем полагаться на него, проверьте, не продлён ли он дальше."
       }
     ],
     "tldr": [
@@ -2574,8 +2574,8 @@
         },
         {
           "icon": "🗓️",
-          "t": "Расчёт на истёкшее освобождение",
-          "d": "Пилотный безвизовый групповой режим был ограничен по времени (до Jun 2026). Уточните, прежде чем на него рассчитывать."
+          "t": "Расчёт на временное освобождение",
+          "d": "Безвизовый групповой режим действует до 2026-12-31. Прежде чем на него рассчитывать, проверьте, не продлён ли он дальше."
         }
       ]
     },
@@ -2584,7 +2584,7 @@
       "items": [
         {
           "q": "Нужна ли гражданам Китая виза в Корею?",
-          "a": "Для материковой Кореи — да, индивидуальные туристы подают на туристическую визу C-3. Остров Чеджу разрешает безвизовый въезд до 30 дней, а для одобренных групповых туров действовали ограниченные по времени безвизовые окна."
+          "a": "Для материковой Кореи — да, индивидуальные туристы подают на туристическую визу C-3. Остров Чеджу разрешает безвизовый въезд до 30 дней, а тургруппы от 3 человек, организованные назначенными турагентствами, до 2026-12-31 могут въезжать без визы на срок до 15 дней."
         },
         {
           "q": "Как работает безвизовый режим Чеджу?",
@@ -2592,7 +2592,7 @@
         },
         {
           "q": "Могут ли тургруппы всё ещё въезжать без визы?",
-          "a": "Пилотная программа для одобренных групп от 3 человек действовала Sep 2025–Jun 2026. Поскольку такие схемы ограничены по времени, уточните текущий статус в турагентстве или посольстве."
+          "a": "Пока да. По данным Генконсульства Кореи в Циндао, безвизовый режим для групп от 3 человек, организованных назначенными турагентствами (до 15 дней), действует до 2026-12-31. О дальнейшем продлении узнавайте в турагентстве или посольстве."
         },
         {
           "q": "Куда подавать?",
@@ -2643,7 +2643,7 @@
     },
     "verdict": {
       "headline": "Oui — les titulaires d'un passeport chinois ont besoin d'un visa pour la Corée continentale.",
-      "sub": "Les touristes individuels demandent le visa touristique C-3 auprès d'un consulat coréen ou d'un Korea Visa Application Center. Deux grandes exceptions permettent de s'en passer : l'île de Jeju et (par moments) les voyages de groupe approuvés.",
+      "sub": "Les touristes individuels demandent le visa touristique C-3 auprès d'un consulat coréen ou d'un Korea Visa Application Center. Deux exceptions permettent de s'en passer : l'île de Jeju et les groupes organisés par des agences de voyages désignées (dispositif sans visa en vigueur jusqu'au 2026-12-31).",
       "type": "C-3 Touristique",
       "stay": "Jusqu'à 90 jours",
       "entry": "Entrée unique ou multiple (selon le cas)"
@@ -2659,7 +2659,7 @@
         "icon": "👥",
         "tone": "amber",
         "title": "Groupe sans visa (durée limitée)",
-        "body": "Un dispositif pilote permettait aux groupes touristiques approuvés de 3 personnes et plus d'entrer sans visa jusqu'à 15 jours, en vigueur de Sep 2025 à Jun 2026, avec les frais de traitement du visa de groupe supprimés sur la même période. Vérifiez s'il a été prolongé avant de compter dessus."
+        "body": "Les groupes touristiques de 3 personnes ou plus organisés par des agences de voyages désignées peuvent entrer sans visa jusqu'à 15 jours. Le dispositif est prolongé jusqu'au 2026-12-31, et l'exonération des frais de délivrance du visa de groupe s'applique aussi jusqu'au 2026-12-31. Vérifiez toute prolongation ultérieure avant de compter dessus."
       }
     ],
     "tldr": [
@@ -2830,8 +2830,8 @@
         },
         {
           "icon": "🗓️",
-          "t": "Compter sur une exemption expirée",
-          "d": "Le dispositif pilote de groupe sans visa était limité dans le temps (jusqu'à Jun 2026). Reconfirmez avant d'y compter."
+          "t": "Compter sur une exemption temporaire",
+          "d": "Le dispositif de groupe sans visa est en vigueur jusqu'au 2026-12-31. Vérifiez toute prolongation ultérieure avant d'y compter."
         }
       ]
     },
@@ -2840,7 +2840,7 @@
       "items": [
         {
           "q": "Les citoyens chinois ont-ils besoin d'un visa pour la Corée ?",
-          "a": "Pour la Corée continentale, oui — les touristes individuels demandent un visa touristique C-3. L'île de Jeju autorise l'entrée sans visa jusqu'à 30 jours, et les voyages de groupe approuvés ont bénéficié de fenêtres sans visa limitées dans le temps."
+          "a": "Pour la Corée continentale, oui — les touristes individuels demandent un visa touristique C-3. L'île de Jeju autorise l'entrée sans visa jusqu'à 30 jours, et les groupes de 3 personnes ou plus organisés par des agences de voyages désignées peuvent entrer sans visa jusqu'à 15 jours jusqu'au 2026-12-31."
         },
         {
           "q": "Comment fonctionne l'exemption de visa de Jeju ?",
@@ -2848,7 +2848,7 @@
         },
         {
           "q": "Les groupes touristiques peuvent-ils encore entrer sans visa ?",
-          "a": "Un dispositif pilote pour les groupes approuvés de 3 personnes et plus a été en vigueur de Sep 2025 à Jun 2026. Comme ces dispositifs sont limités dans le temps, confirmez le statut actuel auprès de votre agence de voyages ou de l'ambassade."
+          "a": "Pour l'instant, oui. Selon le consulat général de Corée à Qingdao, le dispositif sans visa pour les groupes de 3 personnes ou plus organisés par des agences de voyages désignées (jusqu'à 15 jours) est en vigueur jusqu'au 2026-12-31. Vérifiez toute prolongation ultérieure auprès de votre agence de voyages ou de l'ambassade."
         },
         {
           "q": "Où dois-je déposer ma demande ?",

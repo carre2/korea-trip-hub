@@ -32,13 +32,13 @@
       "intro": "按速度、价格和住宿位置来选。确切票价见上方的已核实事实框。",
       "cols": ["选项", "票价", "时间", "适合"],
       "rows": [
-        { "label": "AREX Express", "vals": ["≈ ₩11,000–13,000", "~43 min", "最快；前往 Seoul Station"] },
-        { "label": "AREX 各站停", "vals": ["up to ≈ ₩5,350", "59–66 min", "最便宜；住在 AREX 站附近"] },
-        { "label": "豪华巴士 / 机场巴士", "vals": ["≈ ₩10,000–18,000", "60–90 min", "落客点靠近许多酒店；行李多"] },
-        { "label": "出租车（打表）", "vals": ["≈ ₩65,000–85,000", "60–70 min", "多人、深夜抵达、门到门"] },
-        { "label": "International Taxi", "vals": ["Fixed fare", "60–70 min", "英/日/中文司机，不用讲价"] }
+        { "label": "AREX Express", "vals": ["₩13,000", "43–51 min", "最快；前往 Seoul Station"] },
+        { "label": "AREX 各站停", "vals": ["₩4,750–5,350", "59–66 min", "最便宜；住在 AREX 站附近"] },
+        { "label": "豪华巴士 / 机场巴士", "vals": ["₩16,000–18,000", "视路线和路况而定", "落客点靠近许多酒店；行李多"] },
+        { "label": "出租车（打表）", "vals": ["打表计费", "视路况而定", "多人、深夜抵达、门到门"] },
+        { "label": "International Taxi", "vals": ["固定 ₩70,000–95,000", "视路况而定", "英/日/中文司机，不用讲价"] }
       ],
-      "note": "票价会波动——请在 arex.or.kr 或向运营方确认。AREX 大约 05:20–23:32 运行；深夜抵达请改乘巴士或出租车。"
+      "note": "票价截至 2026-11-06，可能变动——请在 airportrailroad.com 或向运营方确认。AREX 首末班车请查看 airportrailroad.com 的时刻表；深夜抵达请改乘巴士或出租车。普通出租车深夜加收附加费。"
     },
     "taxiApps": {
       "title": "面向外国人的打车应用与服务",
@@ -47,7 +47,7 @@
         { "name": "Kakao T", "langs": "KO · EN · JA", "pay": "付给司机或在应用内支付（可用外国卡）", "tone": "amber", "d": "韩国占主导地位的打车应用（90%+ 份额），因此匹配很快。叫一辆普通出租车，查看路线，用卡/现金付给司机——或在 My Info › Payment 中添加非韩国卡。", "url": "" },
         { "name": "Uber (UT)", "langs": "EN native", "pay": "应用内支付，外国卡", "tone": "blue", "d": "调派持牌的韩国出租车，可用外国卡在应用内无缝支付。车队较小，因此非高峰或大城市以外等待可能更久。", "url": "" },
         { "name": "TADA / i.M", "langs": "EN", "pay": "应用内支付", "tone": "neutral", "d": "配备训练有素司机的高端商务车（Kia Carnival）——适合多人和行李，价格约比标准车费高 20–30%，主要在 Seoul 一带。", "url": "" },
-        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "固定车费", "tone": "green", "d": "由 Seoul 政府认证的官方服务；司机需通过语言测试。车费固定透明，可通过其自有应用/网站 24/7 预约，并在 Incheon 到达大厅设有柜台。", "url": "https://www.intltaxi.co.kr" }
+        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "固定车费", "tone": "green", "d": "由 Seoul 政府认证的官方服务；司机需通过语言测试。Seoul 分区固定车费（标准车型 ₩70,000–95,000），可通过其自有应用/网站预约。在 Incheon，可到 T1 或 T2 到达大厅的问讯处咨询，或用韩国号码拨打 1644-2255。", "url": "https://www.intltaxi.co.kr" }
       ],
       "tip": "机场往返方面，International Taxi 的固定车费能免去任何打表/堵车的意外。日常市内出行，Kakao T 匹配最快。无论用哪种，都别理会在到达大厅内兜揽生意的人。"
     },
@@ -55,17 +55,17 @@
       "title": "机场要避免的错误",
       "items": [
         { "icon": "💵", "t": "取现金前就买 T-money", "d": "机场便利店只收韩元卖 T-money——不收外国卡。请先兑换或用 ATM 取现。" },
-        { "icon": "🚕", "t": "非官方拉客的出租车", "d": "无视在到达厅内主动搭话拉客的人。请用官方出租车站、Kakao T 或 International Taxi 柜台。" },
+        { "icon": "🚕", "t": "非官方拉客的出租车", "d": "别理会在到达大厅内主动上前兜揽乘车的人。请使用官方出租车站、Kakao T 或 International Taxi（可到到达大厅问讯处咨询）。" },
         { "icon": "🛃", "t": "走错海关通道", "d": "携带酒类、烟草或价值超过约 US$800 的物品走红色通道；否则走绿色通道。" },
         { "icon": "🏢", "t": "返程走错航站楼", "d": "Terminal 1 和 Terminal 2 服务不同航空公司。出发前确认你的航站楼——两者之间的免费摆渡车约需 15–20 分钟。" },
-        { "icon": "⏰", "t": "错过末班 AREX", "d": "AREX 运行到大约 23:32。深夜抵达应改乘巴士或出租车。" }
+        { "icon": "⏰", "t": "错过末班 AREX", "d": "AREX 并非通宵运行。请在 airportrailroad.com 的时刻表中查看你所在航站楼的末班车；深夜抵达应改乘巴士或出租车。" }
       ]
     },
     "faq": {
       "title": "机场常见问题",
       "items": [
         { "q": "进 Seoul 最快的方式是什么？", "a": "AREX Express——直达 Seoul Station 约 43 分钟——再搭短程出租车或地铁到住处。" },
-        { "q": "最便宜的方式是什么？", "a": "若你住在 AREX 站附近，可乘 AREX 各站停列车（最高约 ₩5,350）；或搭乘普通机场巴士。" },
+        { "q": "最便宜的方式是什么？", "a": "若你住在 AREX 站附近，可乘 AREX 各站停列车（用交通卡到 Seoul Station：T1 出发 ₩4,750 / T2 出发 ₩5,350）。机场巴士（₩16,000–18,000）更贵，但在许多酒店附近停靠。" },
         { "q": "不会韩语能打车吗？", "a": "可以。Kakao T 支持英语和日语，Uber 是英文界面，官方 International Taxi 配有经认证的英/日/中文司机且车费固定。" },
         { "q": "Terminal 1 还是 Terminal 2？", "a": "不同航空公司使用不同航站楼；免费摆渡车约 15–20 分钟连接两者。出发前确认你的航空公司。" },
         { "q": "在哪里买 SIM 和 T-money 卡？", "a": "到达大厅的电信柜台和便利店。T-money 需要现金（韩元），所以先兑换货币——或在落地前就设置好 eSIM。" },
@@ -105,13 +105,13 @@
       "intro": "依速度、價格和住宿位置來選。確切票價請見上方的已核實事實框。",
       "cols": ["選項", "票價", "時間", "適合"],
       "rows": [
-        { "label": "AREX Express", "vals": ["≈ ₩11,000–13,000", "~43 min", "最快；前往 Seoul Station"] },
-        { "label": "AREX 各站停", "vals": ["up to ≈ ₩5,350", "59–66 min", "最便宜；住在 AREX 站附近"] },
-        { "label": "豪華巴士 / 機場巴士", "vals": ["≈ ₩10,000–18,000", "60–90 min", "下車點靠近許多飯店；行李多"] },
-        { "label": "計程車（跳表）", "vals": ["≈ ₩65,000–85,000", "60–70 min", "多人、深夜抵達、門到門"] },
-        { "label": "International Taxi", "vals": ["Fixed fare", "60–70 min", "英/日/中文司機，不用殺價"] }
+        { "label": "AREX Express", "vals": ["₩13,000", "43–51 min", "最快；前往 Seoul Station"] },
+        { "label": "AREX 各站停", "vals": ["₩4,750–5,350", "59–66 min", "最便宜；住在 AREX 站附近"] },
+        { "label": "豪華巴士 / 機場巴士", "vals": ["₩16,000–18,000", "視路線與路況而定", "下車點靠近許多飯店；行李多"] },
+        { "label": "計程車（跳表）", "vals": ["跳表計費", "視路況而定", "多人、深夜抵達、門到門"] },
+        { "label": "International Taxi", "vals": ["固定 ₩70,000–95,000", "視路況而定", "英/日/中文司機，不用殺價"] }
       ],
-      "note": "票價會波動——請在 arex.or.kr 或向業者確認。AREX 大約 05:20–23:32 運行；深夜抵達請改搭巴士或計程車。"
+      "note": "票價以 2026-11-06 為準，可能變動——請在 airportrailroad.com 或向業者確認。AREX 首末班車請查看 airportrailroad.com 的時刻表；深夜抵達請改搭巴士或計程車。一般計程車深夜會加收附加費。"
     },
     "taxiApps": {
       "title": "給外國人的叫車 App 與服務",
@@ -120,7 +120,7 @@
         { "name": "Kakao T", "langs": "KO · EN · JA", "pay": "付給司機或在 App 內支付（可用外國卡）", "tone": "amber", "d": "韓國最主流的叫車 App（90%+ 市佔），因此媒合很快。叫一輛一般計程車，查看路線，用卡/現金付給司機——或在 My Info › Payment 中新增非韓國卡。", "url": "" },
         { "name": "Uber (UT)", "langs": "EN native", "pay": "App 內支付，外國卡", "tone": "blue", "d": "調派持牌的韓國計程車，可用外國卡在 App 內無縫支付。車隊較小，因此離峰或大城市以外等待可能較久。", "url": "" },
         { "name": "TADA / i.M", "langs": "EN", "pay": "App 內支付", "tone": "neutral", "d": "配備訓練有素司機的高級商務車（Kia Carnival）——適合多人和行李，價格約比標準車資高 20–30%，主要在 Seoul 一帶。", "url": "" },
-        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "固定車資", "tone": "green", "d": "由 Seoul 政府認證的官方服務；司機須通過語言測試。車資固定透明，可透過其自有 App/網站 24/7 預約，並在 Incheon 入境大廳設有櫃台。", "url": "https://www.intltaxi.co.kr" }
+        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "固定車資", "tone": "green", "d": "由 Seoul 政府認證的官方服務；司機須通過語言測試。Seoul 分區固定車資（標準車型 ₩70,000–95,000），可透過其自有 App/網站預約。在 Incheon，可到 T1 或 T2 入境大廳的詢問處洽詢，或用韓國號碼撥打 1644-2255。", "url": "https://www.intltaxi.co.kr" }
       ],
       "tip": "機場往返方面，International Taxi 的固定車資能免去任何跳表/塞車的意外。日常市區出行，Kakao T 媒合最快。無論用哪一種，都別理會在入境大廳內拉客的人。"
     },
@@ -128,17 +128,17 @@
       "title": "機場要避免的錯誤",
       "items": [
         { "icon": "💵", "t": "領現金前就買 T-money", "d": "機場便利商店只收韓元賣 T-money——不收外國卡。請先兌換或用 ATM 領現。" },
-        { "icon": "🚕", "t": "非官方拉客的計程車", "d": "別理會在入境廳內主動搭話拉客的人。請用官方計程車招呼站、Kakao T 或 International Taxi 櫃台。" },
+        { "icon": "🚕", "t": "非官方拉客的計程車", "d": "別理會在入境大廳內主動上前拉客的人。請使用官方計程車招呼站、Kakao T 或 International Taxi（可到入境大廳詢問處洽詢）。" },
         { "icon": "🛃", "t": "走錯海關通道", "d": "攜帶酒類、菸草或價值超過約 US$800 的物品走紅色通道；否則走綠色通道。" },
         { "icon": "🏢", "t": "回程走錯航廈", "d": "Terminal 1 和 Terminal 2 服務不同航空公司。出發前確認你的航廈——兩者之間的免費接駁車約需 15–20 分鐘。" },
-        { "icon": "⏰", "t": "錯過末班 AREX", "d": "AREX 運行到大約 23:32。深夜抵達應改搭巴士或計程車。" }
+        { "icon": "⏰", "t": "錯過末班 AREX", "d": "AREX 並非通宵運行。請在 airportrailroad.com 的時刻表查看你所在航廈的末班車；深夜抵達應改搭巴士或計程車。" }
       ]
     },
     "faq": {
       "title": "機場常見問題",
       "items": [
         { "q": "進 Seoul 最快的方式是什麼？", "a": "AREX Express——直達 Seoul Station 約 43 分鐘——再搭短程計程車或地鐵到住處。" },
-        { "q": "最便宜的方式是什麼？", "a": "若你住在 AREX 站附近，可搭 AREX 各站停列車（最高約 ₩5,350）；或搭乘一般機場巴士。" },
+        { "q": "最便宜的方式是什麼？", "a": "若你住在 AREX 站附近，可搭 AREX 各站停列車（用交通卡到 Seoul Station：T1 出發 ₩4,750 / T2 出發 ₩5,350）。機場巴士（₩16,000–18,000）較貴，但會在許多飯店附近停靠。" },
         { "q": "不會韓語能搭計程車嗎？", "a": "可以。Kakao T 支援英語和日語，Uber 是英文介面，官方 International Taxi 配有經認證的英/日/中文司機且車資固定。" },
         { "q": "Terminal 1 還是 Terminal 2？", "a": "不同航空公司使用不同航廈；免費接駁車約 15–20 分鐘連接兩者。出發前確認你的航空公司。" },
         { "q": "在哪裡買 SIM 和 T-money 卡？", "a": "入境大廳的電信櫃台和便利商店。T-money 需要現金（韓元），所以先兌換貨幣——或在落地前就設定好 eSIM。" },
@@ -179,13 +179,13 @@
       "intro": "速さ、料金、滞在先で選びましょう。正確な運賃は上の「確認済みの事実」ボックスにあります。",
       "cols": ["選択肢", "運賃", "所要時間", "向いている人"],
       "rows": [
-        { "label": "AREX Express", "vals": ["≈ ₩11,000–13,000", "~43 min", "最速；Seoul Station へ行く人"] },
-        { "label": "AREX 各駅停車", "vals": ["up to ≈ ₩5,350", "59–66 min", "最安；AREX の駅の近くに泊まる人"] },
-        { "label": "リムジン／空港バス", "vals": ["≈ ₩10,000–18,000", "60–90 min", "多くのホテル近くで下車；荷物が多い人"] },
-        { "label": "タクシー（メーター）", "vals": ["≈ ₩65,000–85,000", "60–70 min", "グループ、深夜着、ドアツードア"] },
-        { "label": "International Taxi", "vals": ["Fixed fare", "60–70 min", "英／日／中国語のドライバー、交渉不要"] }
+        { "label": "AREX Express", "vals": ["₩13,000", "43–51 min", "最速；Seoul Station へ行く人"] },
+        { "label": "AREX 各駅停車", "vals": ["₩4,750–5,350", "59–66 min", "最安；AREX の駅の近くに泊まる人"] },
+        { "label": "リムジン／空港バス", "vals": ["₩16,000–18,000", "路線・交通状況による", "多くのホテル近くで下車；荷物が多い人"] },
+        { "label": "タクシー（メーター）", "vals": ["メーター制", "交通状況による", "グループ、深夜着、ドアツードア"] },
+        { "label": "International Taxi", "vals": ["定額 ₩70,000–95,000", "交通状況による", "英／日／中国語のドライバー、交渉不要"] }
       ],
-      "note": "運賃は変動します——arex.or.kr か運行会社でご確認を。AREX の運行は約05:20–23:32。深夜着はバスかタクシーを。"
+      "note": "運賃は2026-11-06時点のもので、変わることがあります——airportrailroad.com か運行会社でご確認を。AREX の始発・終電は airportrailroad.com の時刻表で確認してください。深夜着はバスかタクシーを。一般タクシーには深夜割増があります。"
     },
     "taxiApps": {
       "title": "外国人向けのタクシーアプリ・サービス",
@@ -194,7 +194,7 @@
         { "name": "Kakao T", "langs": "KO · EN · JA", "pay": "ドライバーに支払い、またはアプリ内（外国カード対応）", "tone": "amber", "d": "韓国で圧倒的なタクシーアプリ（シェア90%以上）なので、マッチングが速いです。普通のタクシーを呼び、ルートを確認し、カード／現金でドライバーに支払い——または My Info › Payment で韓国以外のカードを追加できます。", "url": "" },
         { "name": "Uber (UT)", "langs": "EN native", "pay": "アプリ内、外国カード", "tone": "blue", "d": "許可を受けた韓国のタクシーを配車し、外国カードでアプリ内決済がスムーズ。車両数は少なめで、閑散時や大都市以外では待ち時間が長くなることも。", "url": "" },
         { "name": "TADA / i.M", "langs": "EN", "pay": "アプリ内", "tone": "neutral", "d": "訓練されたドライバーによる高級バン（Kia Carnival）——グループや荷物に快適で、標準運賃より約20–30%高く、主に Seoul 圏で利用できます。", "url": "" },
-        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "定額運賃", "tone": "green", "d": "Seoul 市が認定する公式サービス。ドライバーは語学試験に合格しています。定額で明朗な運賃、24時間の予約を独自アプリ／サイトで行え、Incheon の到着ロビーに窓口があります。", "url": "https://www.intltaxi.co.kr" }
+        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "定額運賃", "tone": "green", "d": "Seoul 市が認定する公式サービス。ドライバーは語学試験に合格しています。Seoul のゾーン別定額運賃（標準車 ₩70,000–95,000）で、独自アプリ／サイトから予約できます。Incheon では T1・T2 到着ロビーの案内カウンターで尋ねるか、韓国の電話番号から 1644-2255 へ。", "url": "https://www.intltaxi.co.kr" }
       ],
       "tip": "空港への行き来なら、International Taxi の定額運賃がメーターや渋滞の不安をなくします。街なかの日常移動は Kakao T が最速でマッチ。どれを使うにせよ、到着ロビー内で乗車を勧めてくる人は相手にしないこと。"
     },
@@ -202,17 +202,17 @@
       "title": "空港で避けたい失敗",
       "items": [
         { "icon": "💵", "t": "現金より先に T-money を買う", "d": "空港のコンビニは T-money をウォンのみで販売——外国カードは不可。先に両替か ATM を。" },
-        { "icon": "🚕", "t": "非公式の客引きタクシー", "d": "到着ロビー内で乗車を持ちかけてくる人は無視を。公式のタクシー乗り場、Kakao T、または International Taxi の窓口を使いましょう。" },
+        { "icon": "🚕", "t": "非公式の客引きタクシー", "d": "到着ロビー内で声をかけてくる乗車の勧誘は無視しましょう。公式のタクシー乗り場、Kakao T、または International Taxi（到着ロビーの案内カウンターで案内）を使いましょう。" },
         { "icon": "🛃", "t": "税関レーンの間違い", "d": "酒・タバコ・約US$800超の物品は赤のレーン、それ以外は緑のレーンへ。" },
         { "icon": "🏢", "t": "帰りのターミナル間違い", "d": "Terminal 1 と Terminal 2 は航空会社が異なります。出発前に確認を——両ターミナル間の無料シャトルは約15–20分。" },
-        { "icon": "⏰", "t": "終電の AREX を逃す", "d": "AREX は約23:32まで運行。深夜着はバスかタクシーを予定しましょう。" }
+        { "icon": "⏰", "t": "終電の AREX を逃す", "d": "AREX は終夜運行していません。ご自分のターミナルからの終電を airportrailroad.com の時刻表で確認し、深夜着ならバスかタクシーを予定しましょう。" }
       ]
     },
     "faq": {
       "title": "空港のよくある質問",
       "items": [
         { "q": "Seoul への最速の行き方は？", "a": "AREX Express——Seoul Station まで直通で約43分——そこから短いタクシーか地下鉄で宿へ。" },
-        { "q": "いちばん安い行き方は？", "a": "AREX の駅の近くに泊まるなら各駅停車の AREX（約₩5,350まで）、または通常の空港バス。" },
+        { "q": "いちばん安い行き方は？", "a": "AREX の駅の近くに泊まるなら各駅停車の AREX（交通カードで Seoul Station まで T1 から₩4,750／T2 から₩5,350）。空港バス（₩16,000–18,000）は高めですが、多くのホテルの近くに停まります。" },
         { "q": "韓国語が話せなくてもタクシーに乗れる？", "a": "はい。Kakao T は英語と日本語に対応、Uber は英語、公式の International Taxi は認定された英語／日本語／中国語のドライバーがいて定額運賃です。" },
         { "q": "Terminal 1 と Terminal 2 どちら？", "a": "ターミナルごとに使う航空会社が異なり、無料シャトルが約15–20分で連絡します。搭乗前に航空会社を確認しましょう。" },
         { "q": "SIM と T-money カードはどこで？", "a": "到着ロビーの通信会社カウンターとコンビニで。T-money は現金（ウォン）が必要なので、先に両替を——または着陸前に eSIM を設定しておきましょう。" },
@@ -252,13 +252,13 @@
       "intro": "Chọn theo tốc độ, giá và nơi bạn ở. Giá vé chính xác nằm trong các ô Sự thật đã xác minh phía trên.",
       "cols": ["Lựa chọn", "Giá vé", "Thời gian", "Phù hợp cho"],
       "rows": [
-        { "label": "AREX Express", "vals": ["≈ ₩11,000–13,000", "~43 min", "Nhanh nhất; đi tới Seoul Station"] },
-        { "label": "AREX dừng mọi ga", "vals": ["up to ≈ ₩5,350", "59–66 min", "Rẻ nhất; ở gần một ga AREX"] },
-        { "label": "Limousine / xe buýt sân bay", "vals": ["≈ ₩10,000–18,000", "60–90 min", "Trả khách gần nhiều khách sạn; nhiều hành lý"] },
-        { "label": "Taxi (tính đồng hồ)", "vals": ["≈ ₩65,000–85,000", "60–70 min", "Nhóm đông, đến muộn, tận cửa"] },
-        { "label": "International Taxi", "vals": ["Fixed fare", "60–70 min", "Tài xế tiếng Anh/Nhật/Trung, không mặc cả"] }
+        { "label": "AREX Express", "vals": ["₩13,000", "43–51 min", "Nhanh nhất; đi tới Seoul Station"] },
+        { "label": "AREX dừng mọi ga", "vals": ["₩4,750–5,350", "59–66 min", "Rẻ nhất; ở gần một ga AREX"] },
+        { "label": "Limousine / xe buýt sân bay", "vals": ["₩16,000–18,000", "Tùy tuyến và giao thông", "Trả khách gần nhiều khách sạn; nhiều hành lý"] },
+        { "label": "Taxi (tính đồng hồ)", "vals": ["Tính đồng hồ", "Tùy tình hình giao thông", "Nhóm đông, đến muộn, tận cửa"] },
+        { "label": "International Taxi", "vals": ["Cố định ₩70,000–95,000", "Tùy tình hình giao thông", "Tài xế tiếng Anh/Nhật/Trung, không mặc cả"] }
       ],
-      "note": "Giá vé hay thay đổi — hãy xác nhận tại arex.or.kr hoặc với nhà vận hành. AREX chạy khoảng 05:20–23:32; đến muộn thì tính xe buýt hoặc taxi."
+      "note": "Giá vé tính đến 2026-11-06 và có thể thay đổi — hãy xác nhận tại airportrailroad.com hoặc với nhà vận hành. Xem chuyến AREX đầu và cuối trong lịch chạy tại airportrailroad.com; đến muộn thì tính xe buýt hoặc taxi. Taxi thường có phụ phí ban đêm."
     },
     "taxiApps": {
       "title": "Ứng dụng & dịch vụ taxi cho người nước ngoài",
@@ -267,7 +267,7 @@
         { "name": "Kakao T", "langs": "KO · EN · JA", "pay": "Trả tài xế hoặc trong ứng dụng (tùy chọn thẻ nước ngoài)", "tone": "amber", "d": "Ứng dụng taxi thống trị Hàn Quốc (thị phần 90%+), nên ghép chuyến rất nhanh. Đặt taxi thường, xem lộ trình, và trả tài xế bằng thẻ/tiền mặt — hoặc thêm thẻ ngoài Hàn Quốc trong My Info › Payment.", "url": "" },
         { "name": "Uber (UT)", "langs": "EN native", "pay": "Trong ứng dụng, thẻ nước ngoài", "tone": "blue", "d": "Điều phối taxi Hàn Quốc có giấy phép với thanh toán trong ứng dụng mượt mà bằng thẻ nước ngoài của bạn. Đội xe nhỏ hơn, nên thời gian chờ có thể lâu hơn ngoài giờ cao điểm hoặc ngoài các thành phố lớn.", "url": "" },
         { "name": "TADA / i.M", "langs": "EN", "pay": "Trong ứng dụng", "tone": "neutral", "d": "Xe van cao cấp (Kia Carnival) với tài xế được huấn luyện — thoải mái cho nhóm đông và hành lý, cao hơn giá tiêu chuẩn khoảng 20–30%, chủ yếu ở khu vực Seoul.", "url": "" },
-        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "Giá cố định", "tone": "green", "d": "Dịch vụ chính thức được chính quyền Seoul chứng nhận; tài xế phải qua bài kiểm tra ngôn ngữ. Giá cố định, minh bạch và đặt 24/7 qua ứng dụng/trang web riêng, có quầy tại các sảnh đến Incheon.", "url": "https://www.intltaxi.co.kr" }
+        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "Giá cố định", "tone": "green", "d": "Dịch vụ chính thức được chính quyền Seoul chứng nhận; tài xế phải qua bài kiểm tra ngôn ngữ. Giá cố định theo khu vực Seoul (₩70,000–95,000 cho xe tiêu chuẩn), đặt qua ứng dụng/trang web riêng. Tại Incheon, hãy hỏi quầy thông tin ở sảnh đến T1 hoặc T2, hoặc gọi 1644-2255 từ số điện thoại Hàn Quốc.", "url": "https://www.intltaxi.co.kr" }
       ],
       "tip": "Cho chặng ra/vào sân bay, giá cố định của International Taxi loại bỏ mọi bất ngờ về đồng hồ/kẹt xe. Cho các chuyến trong thành phố hằng ngày, Kakao T ghép nhanh nhất. Dù dùng gì, hãy bỏ qua bất kỳ ai chào mời chuyến đi bên trong sảnh đến."
     },
@@ -275,17 +275,17 @@
       "title": "Những sai lầm cần tránh ở sân bay",
       "items": [
         { "icon": "💵", "t": "Mua T-money trước khi có tiền mặt", "d": "Cửa hàng tiện lợi ở sân bay chỉ bán T-money bằng won — không nhận thẻ nước ngoài. Hãy đổi tiền hoặc ra ATM trước." },
-        { "icon": "🚕", "t": "Cò taxi không chính thức", "d": "Bỏ qua bất kỳ ai tiếp cận bạn trong sảnh đến để mời đi xe. Dùng bến taxi chính thức, Kakao T, hoặc quầy International Taxi." },
+        { "icon": "🚕", "t": "Cò taxi không chính thức", "d": "Bỏ qua bất kỳ ai tiếp cận bạn trong sảnh đến để mời đi xe. Hãy dùng bến taxi chính thức, Kakao T hoặc International Taxi (hỏi tại quầy thông tin sảnh đến)." },
         { "icon": "🛃", "t": "Sai luồng hải quan", "d": "Đi luồng đỏ nếu có rượu, thuốc lá hoặc hàng trên khoảng US$800; nếu không thì luồng xanh." },
         { "icon": "🏢", "t": "Nhầm nhà ga lúc về", "d": "Terminal 1 và Terminal 2 phục vụ các hãng bay khác nhau. Kiểm tra nhà ga của bạn trước khi khởi hành — xe đưa đón miễn phí giữa hai nơi mất khoảng 15–20 phút." },
-        { "icon": "⏰", "t": "Lỡ chuyến AREX cuối", "d": "AREX chạy đến khoảng 23:32. Đến muộn thì nên tính xe buýt hoặc taxi." }
+        { "icon": "⏰", "t": "Lỡ chuyến AREX cuối", "d": "AREX không chạy suốt đêm. Hãy xem chuyến cuối từ nhà ga của bạn trong lịch chạy tại airportrailroad.com; đến muộn thì nên tính xe buýt hoặc taxi." }
       ]
     },
     "faq": {
       "title": "Câu hỏi thường gặp về sân bay",
       "items": [
         { "q": "Cách nhanh nhất vào Seoul là gì?", "a": "AREX Express — chạy thẳng tới Seoul Station trong khoảng 43 phút — rồi một chặng taxi hoặc tàu điện ngầm ngắn tới chỗ ở." },
-        { "q": "Cách rẻ nhất là gì?", "a": "Tàu AREX dừng mọi ga (tới khoảng ₩5,350) nếu bạn ở gần một ga AREX, hoặc một chuyến xe buýt sân bay thông thường." },
+        { "q": "Cách rẻ nhất là gì?", "a": "Tàu AREX dừng mọi ga (dùng thẻ giao thông tới Seoul Station: ₩4,750 từ T1 / ₩5,350 từ T2) nếu bạn ở gần một ga AREX. Xe buýt sân bay (₩16,000–18,000) đắt hơn nhưng dừng gần nhiều khách sạn." },
         { "q": "Không nói tiếng Hàn có đi taxi được không?", "a": "Được. Kakao T hỗ trợ tiếng Anh và tiếng Nhật, Uber dùng tiếng Anh, và International Taxi chính thức có tài xế được chứng nhận tiếng Anh/Nhật/Trung với giá cố định." },
         { "q": "Terminal 1 hay Terminal 2?", "a": "Mỗi nhà ga do các hãng bay khác nhau sử dụng; xe đưa đón miễn phí nối chúng trong khoảng 15–20 phút. Kiểm tra hãng bay của bạn trước khi bay." },
         { "q": "Mua SIM và thẻ T-money ở đâu?", "a": "Quầy nhà mạng và cửa hàng tiện lợi ở sảnh đến. T-money cần tiền mặt (won), nên đổi tiền trước — hoặc thiết lập eSIM trước khi hạ cánh." },
@@ -325,13 +325,13 @@
       "intro": "เลือกตามความเร็ว ราคา และที่พักของคุณ ค่าโดยสารที่แม่นยำอยู่ในกล่องข้อมูลที่ตรวจสอบแล้วด้านบน",
       "cols": ["ตัวเลือก", "ค่าโดยสาร", "เวลา", "เหมาะกับ"],
       "rows": [
-        { "label": "AREX Express", "vals": ["≈ ₩11,000–13,000", "~43 min", "เร็วที่สุด; มุ่งไป Seoul Station"] },
-        { "label": "AREX จอดทุกสถานี", "vals": ["up to ≈ ₩5,350", "59–66 min", "ถูกที่สุด; พักใกล้สถานี AREX"] },
-        { "label": "ลิมูซีน / รถบัสสนามบิน", "vals": ["≈ ₩10,000–18,000", "60–90 min", "จอดใกล้โรงแรมหลายแห่ง; สัมภาระเยอะ"] },
-        { "label": "แท็กซี่ (มิเตอร์)", "vals": ["≈ ₩65,000–85,000", "60–70 min", "กลุ่มคน มาถึงดึก ถึงหน้าประตู"] },
-        { "label": "International Taxi", "vals": ["Fixed fare", "60–70 min", "คนขับอังกฤษ/ญี่ปุ่น/จีน ไม่ต้องต่อรอง"] }
+        { "label": "AREX Express", "vals": ["₩13,000", "43–51 min", "เร็วที่สุด; มุ่งไป Seoul Station"] },
+        { "label": "AREX จอดทุกสถานี", "vals": ["₩4,750–5,350", "59–66 min", "ถูกที่สุด; พักใกล้สถานี AREX"] },
+        { "label": "ลิมูซีน / รถบัสสนามบิน", "vals": ["₩16,000–18,000", "ขึ้นกับเส้นทางและการจราจร", "จอดใกล้โรงแรมหลายแห่ง; สัมภาระเยอะ"] },
+        { "label": "แท็กซี่ (มิเตอร์)", "vals": ["ตามมิเตอร์", "ขึ้นกับสภาพจราจร", "กลุ่มคน มาถึงดึก ถึงหน้าประตู"] },
+        { "label": "International Taxi", "vals": ["คงที่ ₩70,000–95,000", "ขึ้นกับสภาพจราจร", "คนขับอังกฤษ/ญี่ปุ่น/จีน ไม่ต้องต่อรอง"] }
       ],
-      "note": "ค่าโดยสารผันผวน — โปรดยืนยันที่ arex.or.kr หรือกับผู้ให้บริการ AREX วิ่งราว 05:20–23:32; หากมาถึงดึกให้วางแผนใช้รถบัสหรือแท็กซี่"
+      "note": "ค่าโดยสาร ณ วันที่ 2026-11-06 และอาจเปลี่ยนแปลง — โปรดยืนยันที่ airportrailroad.com หรือกับผู้ให้บริการ ดูเวลารถไฟ AREX ขบวนแรกและขบวนสุดท้ายในตารางเวลาที่ airportrailroad.com; หากมาถึงดึกให้วางแผนใช้รถบัสหรือแท็กซี่ แท็กซี่ทั่วไปมีค่าบริการเพิ่มช่วงดึก"
     },
     "taxiApps": {
       "title": "แอปและบริการแท็กซี่สำหรับชาวต่างชาติ",
@@ -340,7 +340,7 @@
         { "name": "Kakao T", "langs": "KO · EN · JA", "pay": "จ่ายคนขับหรือในแอป (มีตัวเลือกบัตรต่างชาติ)", "tone": "amber", "d": "แอปแท็กซี่ที่ครองตลาดเกาหลี (ส่วนแบ่ง 90%+) จับคู่จึงเร็ว เรียกแท็กซี่ธรรมดา ดูเส้นทาง แล้วจ่ายคนขับด้วยบัตร/เงินสด — หรือเพิ่มบัตรที่ไม่ใช่ของเกาหลีใน My Info › Payment", "url": "" },
         { "name": "Uber (UT)", "langs": "EN native", "pay": "ในแอป, บัตรต่างชาติ", "tone": "blue", "d": "ส่งแท็กซี่เกาหลีที่มีใบอนุญาต พร้อมชำระเงินในแอปอย่างราบรื่นด้วยบัตรต่างชาติของคุณ กองรถเล็กกว่า จึงอาจรอนานขึ้นนอกชั่วโมงเร่งด่วนหรือนอกเมืองใหญ่", "url": "" },
         { "name": "TADA / i.M", "langs": "EN", "pay": "ในแอป", "tone": "neutral", "d": "รถตู้ระดับพรีเมียม (Kia Carnival) พร้อมคนขับที่ผ่านการฝึก — สบายสำหรับกลุ่มและสัมภาระ ราคาราว 20–30% สูงกว่าค่าโดยสารมาตรฐาน ส่วนใหญ่ในเขต Seoul", "url": "" },
-        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "ค่าโดยสารคงที่", "tone": "green", "d": "บริการอย่างเป็นทางการที่รับรองโดยรัฐบาล Seoul; คนขับผ่านการทดสอบภาษา ค่าโดยสารคงที่โปร่งใส จองได้ 24/7 ผ่านแอป/เว็บของตัวเอง และมีเคาน์เตอร์ในโถงขาเข้า Incheon", "url": "https://www.intltaxi.co.kr" }
+        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "ค่าโดยสารคงที่", "tone": "green", "d": "บริการอย่างเป็นทางการที่รับรองโดยรัฐบาล Seoul; คนขับผ่านการทดสอบภาษา ค่าโดยสารคงที่ตามโซนใน Seoul (₩70,000–95,000 สำหรับรถมาตรฐาน) จองผ่านแอป/เว็บของตัวเองได้ ที่ Incheon สอบถามได้ที่เคาน์เตอร์ประชาสัมพันธ์ในโถงขาเข้า T1 หรือ T2 หรือโทร 1644-2255 จากเบอร์เกาหลี", "url": "https://www.intltaxi.co.kr" }
       ],
       "tip": "สำหรับการเดินทางไป-กลับสนามบิน ค่าโดยสารคงที่ของ International Taxi ช่วยตัดความประหลาดใจเรื่องมิเตอร์/รถติด สำหรับการเดินทางในเมืองประจำวัน Kakao T จับคู่เร็วที่สุด ไม่ว่าจะใช้อะไร อย่าสนใจใครก็ตามที่มาชวนนั่งรถในโถงขาเข้า"
     },
@@ -348,17 +348,17 @@
       "title": "ข้อผิดพลาดที่สนามบินที่ควรเลี่ยง",
       "items": [
         { "icon": "💵", "t": "ซื้อ T-money ก่อนหาเงินสด", "d": "ร้านสะดวกซื้อในสนามบินขาย T-money ด้วยเงินวอนเท่านั้น — ไม่รับบัตรต่างชาติ แลกเงินหรือกด ATM ก่อน" },
-        { "icon": "🚕", "t": "แท็กซี่เถื่อนที่มาชวน", "d": "อย่าสนใจใครก็ตามที่เข้ามาหาในโถงขาเข้าเพื่อเสนอให้นั่งรถ ใช้จุดจอดแท็กซี่อย่างเป็นทางการ, Kakao T หรือเคาน์เตอร์ International Taxi" },
+        { "icon": "🚕", "t": "แท็กซี่เถื่อนที่มาชวน", "d": "อย่าสนใจใครก็ตามที่เข้ามาชวนนั่งรถในโถงขาเข้า ใช้จุดจอดแท็กซี่อย่างเป็นทางการ Kakao T หรือ International Taxi (สอบถามที่เคาน์เตอร์ประชาสัมพันธ์ในโถงขาเข้า)" },
         { "icon": "🛃", "t": "เดินผิดช่องศุลกากร", "d": "เดินช่องแดงสำหรับเครื่องดื่มแอลกอฮอล์ ยาสูบ หรือสินค้าเกินราว US$800; นอกนั้นช่องเขียว" },
         { "icon": "🏢", "t": "ขากลับไปผิดอาคาร", "d": "Terminal 1 และ Terminal 2 ให้บริการคนละสายการบิน ตรวจสอบอาคารของคุณก่อนออกเดินทาง — รถรับส่งฟรีระหว่างสองอาคารใช้เวลาราว 15–20 นาที" },
-        { "icon": "⏰", "t": "พลาดรถ AREX เที่ยวสุดท้าย", "d": "AREX วิ่งถึงราว 23:32 หากมาถึงดึกควรวางแผนใช้รถบัสหรือแท็กซี่แทน" }
+        { "icon": "⏰", "t": "พลาดรถ AREX เที่ยวสุดท้าย", "d": "AREX ไม่ได้วิ่งตลอดคืน ตรวจสอบขบวนสุดท้ายจากอาคารผู้โดยสารของคุณในตารางเวลาที่ airportrailroad.com หากมาถึงดึกควรวางแผนใช้รถบัสหรือแท็กซี่แทน" }
       ]
     },
     "faq": {
       "title": "คำถามที่พบบ่อยเรื่องสนามบิน",
       "items": [
         { "q": "วิธีเข้า Seoul ที่เร็วที่สุดคืออะไร?", "a": "AREX Express — วิ่งตรงถึง Seoul Station ในราว 43 นาที — แล้วต่อแท็กซี่หรือรถไฟใต้ดินระยะสั้นไปที่พัก" },
-        { "q": "วิธีที่ถูกที่สุดคืออะไร?", "a": "รถไฟ AREX แบบจอดทุกสถานี (สูงสุดราว ₩5,350) หากคุณอยู่ใกล้สถานี AREX หรือรถบัสสนามบินทั่วไป" },
+        { "q": "วิธีที่ถูกที่สุดคืออะไร?", "a": "รถไฟ AREX แบบจอดทุกสถานี (ใช้บัตรโดยสารถึง Seoul Station: ₩4,750 จาก T1 / ₩5,350 จาก T2) หากคุณอยู่ใกล้สถานี AREX ส่วนรถบัสสนามบิน (₩16,000–18,000) แพงกว่าแต่จอดใกล้โรงแรมหลายแห่ง" },
         { "q": "นั่งแท็กซี่ได้ไหมถ้าพูดเกาหลีไม่ได้?", "a": "ได้ Kakao T รองรับอังกฤษและญี่ปุ่น, Uber เป็นภาษาอังกฤษ และ International Taxi อย่างเป็นทางการมีคนขับที่ผ่านการรับรองภาษาอังกฤษ/ญี่ปุ่น/จีน พร้อมค่าโดยสารคงที่" },
         { "q": "Terminal 1 หรือ Terminal 2?", "a": "แต่ละอาคารใช้คนละสายการบิน; รถรับส่งฟรีเชื่อมกันในราว 15–20 นาที ตรวจสอบสายการบินของคุณก่อนบิน" },
         { "q": "ซื้อ SIM และบัตร T-money ได้ที่ไหน?", "a": "เคาน์เตอร์ค่ายมือถือและร้านสะดวกซื้อในโถงขาเข้า T-money ต้องใช้เงินสด (วอน) จึงควรแลกเงินก่อน — หรือตั้งค่า eSIM ก่อนเครื่องลง" },
@@ -398,13 +398,13 @@
       "intro": "Pilih berdasarkan kecepatan, harga, dan tempat menginap. Tarif tepat ada di kotak Fakta terverifikasi di atas.",
       "cols": ["Pilihan", "Tarif", "Waktu", "Cocok untuk"],
       "rows": [
-        { "label": "AREX Express", "vals": ["≈ ₩11,000–13,000", "~43 min", "Tercepat; menuju Seoul Station"] },
-        { "label": "AREX semua-stasiun", "vals": ["up to ≈ ₩5,350", "59–66 min", "Termurah; menginap dekat stasiun AREX"] },
-        { "label": "Limosin / bus bandara", "vals": ["≈ ₩10,000–18,000", "60–90 min", "Turun dekat banyak hotel; bagasi banyak"] },
-        { "label": "Taksi (berargometer)", "vals": ["≈ ₩65,000–85,000", "60–70 min", "Rombongan, tiba larut, sampai depan pintu"] },
-        { "label": "International Taxi", "vals": ["Fixed fare", "60–70 min", "Sopir Inggris/Jepang/Mandarin, tanpa tawar-menawar"] }
+        { "label": "AREX Express", "vals": ["₩13,000", "43–51 min", "Tercepat; menuju Seoul Station"] },
+        { "label": "AREX semua-stasiun", "vals": ["₩4,750–5,350", "59–66 min", "Termurah; menginap dekat stasiun AREX"] },
+        { "label": "Limosin / bus bandara", "vals": ["₩16,000–18,000", "Tergantung rute & lalu lintas", "Turun dekat banyak hotel; bagasi banyak"] },
+        { "label": "Taksi (berargometer)", "vals": ["Argometer", "Tergantung lalu lintas", "Rombongan, tiba larut, sampai depan pintu"] },
+        { "label": "International Taxi", "vals": ["Tetap ₩70,000–95,000", "Tergantung lalu lintas", "Sopir Inggris/Jepang/Mandarin, tanpa tawar-menawar"] }
       ],
-      "note": "Tarif berfluktuasi — konfirmasikan di arex.or.kr atau ke operator. AREX beroperasi sekitar 05:20–23:32; untuk kedatangan larut rencanakan bus atau taksi."
+      "note": "Tarif per 2026-11-06 dan bisa berubah — konfirmasikan di airportrailroad.com atau ke operator. Cek kereta AREX pertama dan terakhir di jadwal airportrailroad.com; untuk kedatangan larut rencanakan bus atau taksi. Taksi biasa mengenakan biaya tambahan larut malam."
     },
     "taxiApps": {
       "title": "Aplikasi & layanan taksi untuk orang asing",
@@ -413,7 +413,7 @@
         { "name": "Kakao T", "langs": "KO · EN · JA", "pay": "Bayar sopir atau dalam aplikasi (opsi kartu asing)", "tone": "amber", "d": "Aplikasi taksi dominan di Korea (pangsa 90%+), jadi pencocokan cepat. Pesan taksi biasa, lihat rutenya, dan bayar sopir dengan kartu/tunai — atau tambahkan kartu non-Korea di My Info › Payment.", "url": "" },
         { "name": "Uber (UT)", "langs": "EN native", "pay": "Dalam aplikasi, kartu asing", "tone": "blue", "d": "Mengirim taksi Korea berlisensi dengan pembayaran dalam aplikasi yang mulus memakai kartu asing Anda. Armadanya lebih kecil, jadi waktu tunggu bisa lebih lama di luar jam sibuk atau di luar kota besar.", "url": "" },
         { "name": "TADA / i.M", "langs": "EN", "pay": "Dalam aplikasi", "tone": "neutral", "d": "Perjalanan van premium (Kia Carnival) dengan sopir terlatih — nyaman untuk rombongan dan bagasi, kira-kira 20–30% di atas tarif standar, terutama di area Seoul.", "url": "" },
-        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "Tarif tetap", "tone": "green", "d": "Layanan resmi bersertifikat pemerintah Seoul; sopir lulus tes bahasa. Tarif datar dan transparan serta pemesanan 24/7 lewat aplikasi/situsnya sendiri, dengan meja di aula kedatangan Incheon.", "url": "https://www.intltaxi.co.kr" }
+        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "Tarif tetap", "tone": "green", "d": "Layanan resmi bersertifikat pemerintah Seoul; sopir lulus tes bahasa. Tarif tetap per zona Seoul (₩70,000–95,000 untuk mobil standar) dan pemesanan lewat aplikasi/situsnya sendiri. Di Incheon, tanyakan di meja informasi aula kedatangan T1 atau T2, atau telepon 1644-2255 dari nomor Korea.", "url": "https://www.intltaxi.co.kr" }
       ],
       "tip": "Untuk perjalanan ke/dari bandara, tarif tetap International Taxi menghapus kejutan argo/macet. Untuk perjalanan kota sehari-hari, Kakao T mencocokkan tercepat. Apa pun yang Anda pakai, abaikan siapa pun yang menawarkan tumpangan di dalam aula kedatangan."
     },
@@ -421,17 +421,17 @@
       "title": "Kesalahan bandara yang harus dihindari",
       "items": [
         { "icon": "💵", "t": "Membeli T-money sebelum punya tunai", "d": "Minimarket bandara menjual T-money hanya dengan won — tanpa kartu asing. Tukar uang atau ke ATM dulu." },
-        { "icon": "🚕", "t": "Calo taksi tak resmi", "d": "Abaikan siapa pun yang mendekati Anda di dalam kedatangan menawarkan tumpangan. Pakai pangkalan taksi resmi, Kakao T, atau meja International Taxi." },
+        { "icon": "🚕", "t": "Calo taksi tak resmi", "d": "Abaikan siapa pun yang mendekati Anda di aula kedatangan menawarkan tumpangan. Gunakan pangkalan taksi resmi, Kakao T, atau International Taxi (tanyakan di meja informasi aula kedatangan)." },
         { "icon": "🛃", "t": "Salah jalur bea cukai", "d": "Ambil jalur merah untuk alkohol, tembakau, atau barang di atas sekitar US$800; selain itu jalur hijau." },
         { "icon": "🏢", "t": "Salah terminal saat pulang", "d": "Terminal 1 dan Terminal 2 melayani maskapai berbeda. Periksa terminal Anda sebelum berangkat — shuttle gratis antara keduanya memakan waktu sekitar 15–20 menit." },
-        { "icon": "⏰", "t": "Ketinggalan AREX terakhir", "d": "AREX beroperasi hingga sekitar 23:32. Kedatangan larut sebaiknya merencanakan bus atau taksi." }
+        { "icon": "⏰", "t": "Ketinggalan AREX terakhir", "d": "AREX tidak beroperasi sepanjang malam. Cek kereta terakhir dari terminal Anda di jadwal airportrailroad.com; kedatangan larut sebaiknya merencanakan bus atau taksi." }
       ]
     },
     "faq": {
       "title": "FAQ bandara",
       "items": [
         { "q": "Apa cara tercepat masuk ke Seoul?", "a": "AREX Express — langsung ke Seoul Station dalam sekitar 43 menit — lalu taksi singkat atau kereta bawah tanah ke penginapan Anda." },
-        { "q": "Apa cara termurah?", "a": "Kereta AREX semua-stasiun (hingga sekitar ₩5,350) bila Anda dekat stasiun AREX, atau bus bandara biasa." },
+        { "q": "Apa cara termurah?", "a": "Kereta AREX semua-stasiun (dengan kartu transportasi ke Seoul Station: ₩4,750 dari T1 / ₩5,350 dari T2) bila Anda dekat stasiun AREX. Bus bandara (₩16,000–18,000) lebih mahal tetapi berhenti dekat banyak hotel." },
         { "q": "Bisakah naik taksi tanpa bicara bahasa Korea?", "a": "Bisa. Kakao T mendukung bahasa Inggris dan Jepang, Uber berbahasa Inggris, dan International Taxi resmi punya sopir bersertifikat bahasa Inggris/Jepang/Mandarin dengan tarif tetap." },
         { "q": "Terminal 1 atau Terminal 2?", "a": "Maskapai berbeda memakai tiap terminal; shuttle gratis menghubungkannya dalam sekitar 15–20 menit. Periksa maskapai Anda sebelum terbang." },
         { "q": "Di mana beli SIM dan kartu T-money?", "a": "Konter operator dan minimarket di aula kedatangan. T-money butuh tunai (won), jadi tukar uang dulu — atau siapkan eSIM sebelum mendarat." },
@@ -471,13 +471,13 @@
       "intro": "Elige por velocidad, precio y dónde te alojas. Las tarifas exactas están en los recuadros de Datos verificados de arriba.",
       "cols": ["Opción", "Tarifa", "Tiempo", "Ideal para"],
       "rows": [
-        { "label": "AREX Express", "vals": ["≈ ₩11,000–13,000", "~43 min", "Lo más rápido; si vas a Seoul Station"] },
-        { "label": "AREX con todas las paradas", "vals": ["up to ≈ ₩5,350", "59–66 min", "Lo más barato; si te alojas cerca de una estación AREX"] },
-        { "label": "Limusina / autobús de aeropuerto", "vals": ["≈ ₩10,000–18,000", "60–90 min", "Deja cerca de muchos hoteles; mucho equipaje"] },
-        { "label": "Taxi (con taxímetro)", "vals": ["≈ ₩65,000–85,000", "60–70 min", "Grupos, llegadas tardías, puerta a puerta"] },
-        { "label": "International Taxi", "vals": ["Fixed fare", "60–70 min", "Conductor de inglés/japonés/chino, sin regateos"] }
+        { "label": "AREX Express", "vals": ["₩13,000", "43–51 min", "Lo más rápido; si vas a Seoul Station"] },
+        { "label": "AREX con todas las paradas", "vals": ["₩4,750–5,350", "59–66 min", "Lo más barato; si te alojas cerca de una estación AREX"] },
+        { "label": "Limusina / autobús de aeropuerto", "vals": ["₩16,000–18,000", "Según ruta y tráfico", "Deja cerca de muchos hoteles; mucho equipaje"] },
+        { "label": "Taxi (con taxímetro)", "vals": ["Con taxímetro", "Según el tráfico", "Grupos, llegadas tardías, puerta a puerta"] },
+        { "label": "International Taxi", "vals": ["Fija ₩70,000–95,000", "Según el tráfico", "Conductor de inglés/japonés/chino, sin regateos"] }
       ],
-      "note": "Las tarifas son volátiles: confírmalas en arex.or.kr o con el operador. El AREX circula sobre las 05:20–23:32; para llegadas tardías prevé un autobús o un taxi."
+      "note": "Tarifas a 2026-11-06; cambian, así que confírmalas en airportrailroad.com o con el operador. Consulta el primer y el último AREX en el horario de airportrailroad.com; para llegadas tardías prevé un autobús o un taxi. Los taxis normales cobran un recargo nocturno."
     },
     "taxiApps": {
       "title": "Apps y servicios de taxi para extranjeros",
@@ -486,7 +486,7 @@
         { "name": "Kakao T", "langs": "KO · EN · JA", "pay": "Paga al conductor o en la app (opción de tarjeta extranjera)", "tone": "amber", "d": "La app de taxis dominante en Corea (más del 90% de cuota), así que empareja rápido. Pide un taxi normal, mira la ruta y paga al conductor con tarjeta/efectivo, o añade una tarjeta no coreana en My Info › Payment.", "url": "" },
         { "name": "Uber (UT)", "langs": "EN native", "pay": "En la app, tarjeta extranjera", "tone": "blue", "d": "Despacha taxis coreanos con licencia y pago fluido en la app con tu tarjeta extranjera. La flota es más pequeña, así que las esperas pueden ser mayores fuera de las horas punta o de las grandes ciudades.", "url": "" },
         { "name": "TADA / i.M", "langs": "EN", "pay": "En la app", "tone": "neutral", "d": "Furgonetas premium (Kia Carnival) con conductores capacitados: cómodas para grupos y equipaje, en torno a un 20–30% por encima de la tarifa estándar, sobre todo en la zona de Seoul.", "url": "" },
-        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "Tarifa fija", "tone": "green", "d": "Servicio oficial certificado por el gobierno de Seoul; los conductores aprueban una prueba de idioma. Tarifas planas y transparentes y reservas 24/7 desde su propia app/web, con mostradores en las salas de llegadas de Incheon.", "url": "https://www.intltaxi.co.kr" }
+        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "Tarifa fija", "tone": "green", "d": "Servicio oficial certificado por el gobierno de Seoul; los conductores aprueban una prueba de idioma. Tarifas fijas por zonas de Seoul (₩70,000–95,000 en coche estándar) y reservas desde su propia app/web. En Incheon, pregunta en el mostrador de información de llegadas de T1 o T2, o llama al 1644-2255 desde un número coreano.", "url": "https://www.intltaxi.co.kr" }
       ],
       "tip": "Para ir y volver del aeropuerto, la tarifa fija del International Taxi elimina cualquier sorpresa de taxímetro o tráfico. Para los trayectos diarios por la ciudad, Kakao T empareja lo más rápido. Uses lo que uses, ignora a quien ofrezca viajes dentro de la sala de llegadas."
     },
@@ -494,17 +494,17 @@
       "title": "Errores del aeropuerto que conviene evitar",
       "items": [
         { "icon": "💵", "t": "Comprar T-money antes de tener efectivo", "d": "Las tiendas de conveniencia del aeropuerto venden T-money solo en wones, sin tarjetas extranjeras. Cambia dinero o usa un cajero primero." },
-        { "icon": "🚕", "t": "Captadores de taxis no oficiales", "d": "Ignora a quien se te acerque dentro de llegadas ofreciéndote un viaje. Usa la parada de taxis oficial, Kakao T o el mostrador del International Taxi." },
+        { "icon": "🚕", "t": "Captadores de taxis no oficiales", "d": "Ignora a quien se te acerque dentro de llegadas ofreciendo un viaje. Usa la parada oficial de taxis, Kakao T o el International Taxi (pregunta en el mostrador de información de llegadas)." },
         { "icon": "🛃", "t": "Carril de aduana equivocado", "d": "Toma el carril rojo para alcohol, tabaco o artículos por más de unos US$800; si no, el carril verde." },
         { "icon": "🏢", "t": "Terminal equivocada a la vuelta", "d": "La Terminal 1 y la Terminal 2 sirven a aerolíneas distintas. Comprueba la tuya antes de salir: el enlace gratuito entre ambas tarda unos 15–20 min." },
-        { "icon": "⏰", "t": "Perder el último AREX", "d": "El AREX circula hasta cerca de las 23:32. Quien llegue tarde debería prever un autobús o un taxi." }
+        { "icon": "⏰", "t": "Perder el último AREX", "d": "El AREX no circula toda la noche. Consulta el último tren desde tu terminal en el horario de airportrailroad.com; quien llegue tarde debería prever un autobús o un taxi." }
       ]
     },
     "faq": {
       "title": "Preguntas frecuentes del aeropuerto",
       "items": [
         { "q": "¿Cuál es la forma más rápida de llegar a Seoul?", "a": "El AREX Express —directo a Seoul Station en unos 43 minutos— y luego un breve trayecto en taxi o metro hasta tu alojamiento." },
-        { "q": "¿Cuál es la forma más barata?", "a": "El tren AREX con todas las paradas (hasta unos ₩5,350) si estás cerca de una estación AREX, o un autobús de aeropuerto normal." },
+        { "q": "¿Cuál es la forma más barata?", "a": "El tren AREX con todas las paradas (con tarjeta de transporte hasta Seoul Station: ₩4,750 desde T1 / ₩5,350 desde T2) si estás cerca de una estación AREX. Los autobuses de aeropuerto (₩16,000–18,000) cuestan más, pero paran cerca de muchos hoteles." },
         { "q": "¿Puedo tomar un taxi sin hablar coreano?", "a": "Sí. Kakao T admite inglés y japonés, Uber está en inglés y el International Taxi oficial tiene conductores certificados en inglés/japonés/chino con tarifas fijas." },
         { "q": "¿Terminal 1 o Terminal 2?", "a": "Cada terminal la usan aerolíneas distintas; un enlace gratuito las conecta en unos 15–20 minutos. Comprueba tu aerolínea antes de volar." },
         { "q": "¿Dónde consigo una SIM y una tarjeta T-money?", "a": "En los mostradores de telefonía y las tiendas de conveniencia de la sala de llegadas. El T-money necesita efectivo (wones), así que cambia dinero primero, o configura una eSIM antes de aterrizar." },
@@ -544,13 +544,13 @@
       "intro": "Pilih mengikut kelajuan, harga, dan tempat anda menginap. Tambang tepat ada dalam kotak Fakta disahkan di atas.",
       "cols": ["Pilihan", "Tambang", "Masa", "Sesuai untuk"],
       "rows": [
-        { "label": "AREX Express", "vals": ["≈ ₩11,000–13,000", "~43 min", "Terpantas; menuju Seoul Station"] },
-        { "label": "AREX semua-stesen", "vals": ["up to ≈ ₩5,350", "59–66 min", "Termurah; menginap dekat stesen AREX"] },
-        { "label": "Limusin / bas lapangan terbang", "vals": ["≈ ₩10,000–18,000", "60–90 min", "Menurunkan dekat banyak hotel; banyak bagasi"] },
-        { "label": "Teksi (bermeter)", "vals": ["≈ ₩65,000–85,000", "60–70 min", "Berkumpulan, tiba lewat, terus ke pintu"] },
-        { "label": "International Taxi", "vals": ["Fixed fare", "60–70 min", "Pemandu Inggeris/Jepun/Cina, tanpa tawar-menawar"] }
+        { "label": "AREX Express", "vals": ["₩13,000", "43–51 min", "Terpantas; menuju Seoul Station"] },
+        { "label": "AREX semua-stesen", "vals": ["₩4,750–5,350", "59–66 min", "Termurah; menginap dekat stesen AREX"] },
+        { "label": "Limusin / bas lapangan terbang", "vals": ["₩16,000–18,000", "Bergantung laluan & trafik", "Menurunkan dekat banyak hotel; banyak bagasi"] },
+        { "label": "Teksi (bermeter)", "vals": ["Bermeter", "Bergantung trafik", "Berkumpulan, tiba lewat, terus ke pintu"] },
+        { "label": "International Taxi", "vals": ["Tetap ₩70,000–95,000", "Bergantung trafik", "Pemandu Inggeris/Jepun/Cina, tanpa tawar-menawar"] }
       ],
-      "note": "Tambang tidak menentu — sahkan di arex.or.kr atau dengan pengendali. AREX beroperasi kira-kira 05:20–23:32; untuk ketibaan lewat rancang bas atau teksi."
+      "note": "Tambang setakat 2026-11-06 dan boleh berubah — sahkan di airportrailroad.com atau dengan pengendali. Semak kereta api AREX pertama dan terakhir dalam jadual di airportrailroad.com; untuk ketibaan lewat rancang bas atau teksi. Teksi biasa mengenakan surcaj lewat malam."
     },
     "taxiApps": {
       "title": "Aplikasi & perkhidmatan teksi untuk orang asing",
@@ -559,7 +559,7 @@
         { "name": "Kakao T", "langs": "KO · EN · JA", "pay": "Bayar pemandu atau dalam aplikasi (pilihan kad asing)", "tone": "amber", "d": "Aplikasi teksi dominan di Korea (syer 90%+), jadi pemadanan pantas. Tempah teksi biasa, lihat laluannya, dan bayar pemandu dengan kad/tunai — atau tambah kad bukan Korea di My Info › Payment.", "url": "" },
         { "name": "Uber (UT)", "langs": "EN native", "pay": "Dalam aplikasi, kad asing", "tone": "blue", "d": "Menghantar teksi Korea berlesen dengan pembayaran dalam aplikasi yang lancar menggunakan kad asing anda. Armada lebih kecil, jadi masa menunggu boleh lebih lama di luar waktu puncak atau di luar bandar besar.", "url": "" },
         { "name": "TADA / i.M", "langs": "EN", "pay": "Dalam aplikasi", "tone": "neutral", "d": "Perjalanan van premium (Kia Carnival) dengan pemandu terlatih — selesa untuk kumpulan dan bagasi, kira-kira 20–30% di atas tambang standard, terutama di kawasan Seoul.", "url": "" },
-        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "Tambang tetap", "tone": "green", "d": "Perkhidmatan rasmi yang ditauliahkan kerajaan Seoul; pemandu lulus ujian bahasa. Tambang rata dan telus serta tempahan 24/7 melalui aplikasi/laman sendiri, dengan kaunter di dewan ketibaan Incheon.", "url": "https://www.intltaxi.co.kr" }
+        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "Tambang tetap", "tone": "green", "d": "Perkhidmatan rasmi yang ditauliahkan kerajaan Seoul; pemandu lulus ujian bahasa. Tambang tetap mengikut zon Seoul (₩70,000–95,000 untuk kereta standard) dan tempahan melalui aplikasi/laman sendiri. Di Incheon, tanya di kaunter maklumat dewan ketibaan T1 atau T2, atau hubungi 1644-2255 dari nombor Korea.", "url": "https://www.intltaxi.co.kr" }
       ],
       "tip": "Untuk perjalanan ke/dari lapangan terbang, tambang tetap International Taxi menghapus sebarang kejutan meter/kesesakan. Untuk perjalanan bandar harian, Kakao T memadan paling pantas. Apa sahaja yang anda guna, abaikan sesiapa yang menawarkan tumpangan di dalam dewan ketibaan."
     },
@@ -567,17 +567,17 @@
       "title": "Kesilapan lapangan terbang yang perlu dielakkan",
       "items": [
         { "icon": "💵", "t": "Membeli T-money sebelum mendapat tunai", "d": "Kedai serbaneka lapangan terbang menjual T-money dengan won sahaja — tiada kad asing. Tukar wang atau ke ATM dahulu." },
-        { "icon": "🚕", "t": "Cari gali teksi tidak rasmi", "d": "Abaikan sesiapa yang mendekati anda di dalam ketibaan menawarkan tumpangan. Guna perhentian teksi rasmi, Kakao T, atau kaunter International Taxi." },
+        { "icon": "🚕", "t": "Cari gali teksi tidak rasmi", "d": "Abaikan sesiapa yang mendekati anda di dalam dewan ketibaan menawarkan tumpangan. Gunakan perhentian teksi rasmi, Kakao T, atau International Taxi (tanya di kaunter maklumat dewan ketibaan)." },
         { "icon": "🛃", "t": "Salah lorong kastam", "d": "Ikut lorong merah untuk alkohol, tembakau, atau barang melebihi kira-kira US$800; jika tidak, lorong hijau." },
         { "icon": "🏢", "t": "Salah terminal semasa pulang", "d": "Terminal 1 dan Terminal 2 berkhidmat untuk syarikat penerbangan berbeza. Semak terminal anda sebelum berlepas — pengangkutan ulang-alik percuma antara keduanya mengambil masa kira-kira 15–20 minit." },
-        { "icon": "⏰", "t": "Terlepas AREX terakhir", "d": "AREX beroperasi hingga kira-kira 23:32. Ketibaan lewat patut merancang bas atau teksi sebaliknya." }
+        { "icon": "⏰", "t": "Terlepas AREX terakhir", "d": "AREX tidak beroperasi sepanjang malam. Semak kereta api terakhir dari terminal anda dalam jadual di airportrailroad.com; ketibaan lewat patut merancang bas atau teksi sebaliknya." }
       ]
     },
     "faq": {
       "title": "Soalan lazim lapangan terbang",
       "items": [
         { "q": "Apakah cara terpantas masuk ke Seoul?", "a": "AREX Express — terus ke Seoul Station dalam kira-kira 43 minit — kemudian teksi atau kereta bawah tanah singkat ke penginapan anda." },
-        { "q": "Apakah cara termurah?", "a": "Kereta api AREX semua-stesen (sehingga kira-kira ₩5,350) jika anda dekat dengan stesen AREX, atau bas lapangan terbang biasa." },
+        { "q": "Apakah cara termurah?", "a": "Kereta api AREX semua-stesen (dengan kad pengangkutan ke Seoul Station: ₩4,750 dari T1 / ₩5,350 dari T2) jika anda dekat dengan stesen AREX. Bas lapangan terbang (₩16,000–18,000) lebih mahal tetapi berhenti dekat banyak hotel." },
         { "q": "Bolehkah menaiki teksi tanpa bertutur bahasa Korea?", "a": "Boleh. Kakao T menyokong bahasa Inggeris dan Jepun, Uber dalam bahasa Inggeris, dan International Taxi rasmi mempunyai pemandu bertauliah Inggeris/Jepun/Cina dengan tambang tetap." },
         { "q": "Terminal 1 atau Terminal 2?", "a": "Syarikat penerbangan berbeza menggunakan setiap terminal; pengangkutan ulang-alik percuma menghubungkannya dalam kira-kira 15–20 minit. Semak syarikat penerbangan anda sebelum terbang." },
         { "q": "Di mana saya boleh dapatkan SIM dan kad T-money?", "a": "Kaunter telekom dan kedai serbaneka di dewan ketibaan. T-money memerlukan tunai (won), jadi tukar wang dahulu — atau sediakan eSIM sebelum mendarat." },
@@ -617,13 +617,13 @@
       "intro": "속도, 가격, 숙소 위치로 고르세요. 정확한 요금은 위의 검증된 사실 상자에 있습니다.",
       "cols": ["선택지", "요금", "시간", "적합한 경우"],
       "rows": [
-        { "label": "AREX Express", "vals": ["≈ ₩11,000–13,000", "~43 min", "가장 빠름; Seoul Station으로 가는 경우"] },
-        { "label": "AREX 각 역 정차", "vals": ["up to ≈ ₩5,350", "59–66 min", "가장 저렴; AREX 역 근처에 묵는 경우"] },
-        { "label": "리무진 / 공항버스", "vals": ["≈ ₩10,000–18,000", "60–90 min", "많은 호텔 근처에 하차; 짐이 많은 경우"] },
-        { "label": "택시(미터)", "vals": ["≈ ₩65,000–85,000", "60–70 min", "단체, 심야 도착, 문 앞까지"] },
-        { "label": "International Taxi", "vals": ["Fixed fare", "60–70 min", "영어/일본어/중국어 기사, 흥정 없음"] }
+        { "label": "AREX Express", "vals": ["₩13,000", "43–51 min", "가장 빠름; Seoul Station으로 가는 경우"] },
+        { "label": "AREX 각 역 정차", "vals": ["₩4,750–5,350", "59–66 min", "가장 저렴; AREX 역 근처에 묵는 경우"] },
+        { "label": "리무진 / 공항버스", "vals": ["₩16,000–18,000", "노선·교통 상황에 따라 다름", "많은 호텔 근처에 하차; 짐이 많은 경우"] },
+        { "label": "택시(미터)", "vals": ["미터 요금", "교통 상황에 따라 다름", "단체, 심야 도착, 문 앞까지"] },
+        { "label": "International Taxi", "vals": ["정액 ₩70,000–95,000", "교통 상황에 따라 다름", "영어/일본어/중국어 기사, 흥정 없음"] }
       ],
-      "note": "요금은 변동됩니다 — arex.or.kr이나 운영사에서 확인하세요. AREX는 약 05:20–23:32에 운행합니다; 심야 도착은 버스나 택시를 계획하세요."
+      "note": "요금은 2026-11-06 기준이며 바뀔 수 있습니다 — airportrailroad.com이나 운영사에서 확인하세요. AREX 첫차·막차는 airportrailroad.com 시간표에서 확인하세요; 심야 도착은 버스나 택시를 계획하세요. 일반 택시는 심야 할증이 붙습니다."
     },
     "taxiApps": {
       "title": "외국인을 위한 택시 앱 & 서비스",
@@ -632,7 +632,7 @@
         { "name": "Kakao T", "langs": "KO · EN · JA", "pay": "기사에게 결제 또는 앱 내 결제(외국 카드 옵션)", "tone": "amber", "d": "한국에서 압도적인 택시 앱(점유율 90% 이상)이라 매칭이 빠릅니다. 일반 택시를 부르고, 경로를 확인하고, 카드/현금으로 기사에게 결제하세요 — 또는 My Info › Payment에서 한국 외 카드를 추가할 수 있어요.", "url": "" },
         { "name": "Uber (UT)", "langs": "EN native", "pay": "앱 내 결제, 외국 카드", "tone": "blue", "d": "면허를 갖춘 한국 택시를 배차하고 외국 카드로 앱 내 결제가 매끄럽습니다. 차량이 더 적어서 비혼잡 시간대나 대도시 밖에서는 대기가 길어질 수 있어요.", "url": "" },
         { "name": "TADA / i.M", "langs": "EN", "pay": "앱 내 결제", "tone": "neutral", "d": "훈련된 기사가 운행하는 프리미엄 밴(Kia Carnival) — 단체와 짐에 편안하며, 표준 요금보다 약 20–30% 높고 주로 Seoul 권역에서 이용할 수 있습니다.", "url": "" },
-        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "정액 요금", "tone": "green", "d": "Seoul 시가 인증한 공식 서비스로, 기사는 어학 시험을 통과합니다. 정액의 투명한 요금과 자체 앱/사이트를 통한 24/7 예약이 가능하며, Incheon 도착장에 데스크가 있습니다.", "url": "https://www.intltaxi.co.kr" }
+        { "name": "International Taxi", "langs": "EN · JA · ZH (certified)", "pay": "정액 요금", "tone": "green", "d": "Seoul 시가 인증한 공식 서비스로, 기사는 어학 시험을 통과합니다. Seoul 구역별 정액 요금(일반 차량 ₩70,000–95,000)이며 자체 앱/사이트로 예약할 수 있습니다. Incheon에서는 T1 또는 T2 도착장 안내 데스크에 문의하거나, 한국 번호로 1644-2255에 전화하세요.", "url": "https://www.intltaxi.co.kr" }
       ],
       "tip": "공항 왕복이라면 International Taxi의 정액 요금이 미터/교통 변수를 없애줍니다. 일상적인 시내 이동은 Kakao T가 가장 빨리 매칭됩니다. 무엇을 쓰든 도착장 안에서 승차를 권하는 사람은 무시하세요."
     },
@@ -640,17 +640,17 @@
       "title": "공항에서 피해야 할 실수",
       "items": [
         { "icon": "💵", "t": "현금을 마련하기 전에 T-money 사기", "d": "공항 편의점은 T-money를 원화로만 팝니다 — 외국 카드는 안 됩니다. 먼저 환전하거나 ATM을 이용하세요." },
-        { "icon": "🚕", "t": "비공식 호객 택시", "d": "도착장 안에서 다가와 승차를 권하는 사람은 무시하세요. 공식 택시 승강장, Kakao T, 또는 International Taxi 데스크를 이용하세요." },
+        { "icon": "🚕", "t": "비공식 호객 택시", "d": "도착장 안에서 다가와 승차를 권하는 사람은 무시하세요. 공식 택시 승강장, Kakao T, 또는 International Taxi(도착장 안내 데스크에 문의)를 이용하세요." },
         { "icon": "🛃", "t": "잘못된 세관 통로", "d": "주류·담배 또는 약 US$800이 넘는 물품은 적색 통로로, 그 외에는 녹색 통로로 가세요." },
         { "icon": "🏢", "t": "돌아갈 때 터미널 착각", "d": "Terminal 1과 Terminal 2는 서로 다른 항공사를 취급합니다. 출발 전에 본인 터미널을 확인하세요 — 둘 사이 무료 셔틀은 약 15–20분 걸립니다." },
-        { "icon": "⏰", "t": "막차 AREX 놓치기", "d": "AREX는 약 23:32까지 운행합니다. 심야 도착이라면 버스나 택시를 대신 계획하세요." }
+        { "icon": "⏰", "t": "막차 AREX 놓치기", "d": "AREX는 밤새 운행하지 않습니다. 이용할 터미널의 막차를 airportrailroad.com 시간표에서 확인하고, 심야 도착이라면 버스나 택시를 대신 계획하세요." }
       ]
     },
     "faq": {
       "title": "공항 자주 묻는 질문",
       "items": [
         { "q": "Seoul로 가는 가장 빠른 방법은?", "a": "AREX Express — Seoul Station까지 약 43분 직통 — 그다음 짧게 택시나 지하철로 숙소까지 이동하세요." },
-        { "q": "가장 저렴한 방법은?", "a": "AREX 역 근처에 묵는다면 AREX 각 역 정차 열차(약 ₩5,350까지), 아니면 일반 공항버스입니다." },
+        { "q": "가장 저렴한 방법은?", "a": "AREX 역 근처에 묵는다면 AREX 각 역 정차 열차(교통카드로 Seoul Station까지 T1에서 ₩4,750 / T2에서 ₩5,350)입니다. 공항버스(₩16,000–18,000)는 더 비싸지만 많은 호텔 근처에 정차합니다." },
         { "q": "한국어를 못해도 택시를 탈 수 있나요?", "a": "네. Kakao T는 영어와 일본어를 지원하고, Uber는 영어이며, 공식 International Taxi에는 인증된 영어/일본어/중국어 기사가 있고 요금이 정액입니다." },
         { "q": "Terminal 1인가요, Terminal 2인가요?", "a": "터미널마다 다른 항공사가 사용하며, 무료 셔틀이 약 15–20분 만에 두 곳을 연결합니다. 탑승 전에 항공사를 확인하세요." },
         { "q": "SIM과 T-money 카드는 어디서 사나요?", "a": "도착장의 통신사 카운터와 편의점에서요. T-money는 현금(원화)이 필요하니 먼저 환전하세요 — 또는 착륙 전에 eSIM을 설정해 두세요." },

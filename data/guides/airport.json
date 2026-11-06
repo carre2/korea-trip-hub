@@ -93,15 +93,15 @@
       {
         "label": "AREX Express",
         "vals": [
-          "≈ ₩11,000–13,000",
-          "~43 min",
+          "₩13,000",
+          "43–51 min",
           "Fastest; heading to Seoul Station"
         ]
       },
       {
         "label": "AREX All-stop",
         "vals": [
-          "up to ≈ ₩5,350",
+          "₩4,750–5,350",
           "59–66 min",
           "Cheapest; staying near an AREX station"
         ]
@@ -109,29 +109,29 @@
       {
         "label": "Limousine / airport bus",
         "vals": [
-          "≈ ₩10,000–18,000",
-          "60–90 min",
+          "₩16,000–18,000",
+          "Varies by route & traffic",
           "Drops near many hotels; lots of luggage"
         ]
       },
       {
         "label": "Taxi (metered)",
         "vals": [
-          "≈ ₩65,000–85,000",
-          "60–70 min",
+          "Metered",
+          "Varies with traffic",
           "Groups, late arrivals, door-to-door"
         ]
       },
       {
         "label": "International Taxi",
         "vals": [
-          "Fixed fare",
-          "60–70 min",
+          "Fixed ₩70,000–95,000",
+          "Varies with traffic",
           "English/JP/ZH driver, no haggling"
         ]
       }
     ],
-    "note": "Fares are volatile — confirm at arex.or.kr or with the operator. AREX runs about 05:20–23:32; plan a bus or taxi for late arrivals."
+    "note": "Fares as of 2026-11-06 and they change — confirm at airportrailroad.com or with the operator. Check the first and last AREX trains in the timetable at airportrailroad.com; plan a bus or taxi for late arrivals. Regular taxis add a late-night surcharge."
   },
   "taxiApps": {
     "title": "Taxi apps & services for foreigners",
@@ -166,7 +166,7 @@
         "langs": "EN · JA · ZH (certified)",
         "pay": "Fixed fare",
         "tone": "green",
-        "d": "Official service certified by the Seoul government; drivers pass a language test. Flat, transparent fares and 24/7 booking via its own app/site, with desks in the Incheon arrivals halls.",
+        "d": "Official service certified by the Seoul government; drivers pass a language test. Fixed Seoul zone fares (₩70,000–95,000 for a standard car) and booking via its own app/site. At Incheon, ask at the information booth in T1 or T2 arrivals, or call 1644-2255 from a Korean number.",
         "url": "https://www.intltaxi.co.kr"
       }
     ],
@@ -183,7 +183,7 @@
       {
         "icon": "🚕",
         "t": "Unofficial taxi touts",
-        "d": "Ignore anyone approaching you inside arrivals offering a ride. Use the official taxi stand, Kakao T, or the International Taxi desk."
+        "d": "Ignore anyone approaching you inside arrivals offering a ride. Use the official taxi stand, Kakao T, or the International Taxi (ask at the arrivals information booth)."
       },
       {
         "icon": "🛃",
@@ -198,7 +198,7 @@
       {
         "icon": "⏰",
         "t": "Missing the last AREX",
-        "d": "AREX runs until about 23:32. Late arrivals should plan a bus or taxi instead."
+        "d": "AREX doesn't run all night. Check the last train from your terminal in the timetable at airportrailroad.com; late arrivals should plan a bus or taxi instead."
       }
     ]
   },
@@ -211,7 +211,7 @@
       },
       {
         "q": "What's the cheapest way?",
-        "a": "The AREX all-stop train (up to about ₩5,350) if you're near an AREX station, or a standard airport bus."
+        "a": "The AREX all-stop train (₩4,750 from T1 / ₩5,350 from T2 to Seoul Station with a transport card) if you're near an AREX station. Airport buses (₩16,000–18,000) cost more but stop near many hotels."
       },
       {
         "q": "Can I take a taxi without speaking Korean?",
@@ -241,7 +241,7 @@
     {
       "icon": "🚄",
       "name": "AREX",
-      "url": "https://www.arex.or.kr",
+      "url": "https://www.airportrailroad.com",
       "what": "Airport railroad fares & times"
     },
     {
