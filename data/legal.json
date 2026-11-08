@@ -1,6 +1,6 @@
 {
   "_note": "Legal/trust content SSOT (English base). Per-locale translations live in data/legal.<locale>.json. Content MUST reflect the site's ACTUAL practices — no invented claims, entities, or figures. Data controller & contact: Korea Trip Hub / contact@ktriphub.com.",
-  "updated": "2026-09-19",
+  "updated": "2026-11-08",
   "order": [
     "about",
     "operator",
@@ -173,6 +173,12 @@
           "h": "Changes and contact",
           "body": [
             "We may update this policy; the date at the top shows the latest version. Questions: contact@ktriphub.com."
+          ]
+        },
+        {
+          "h": "Place reports by email",
+          "body": [
+            "If you ask us to email you a place report, we use the email address you enter only to send that one report. We ask for your explicit consent first, never add you to a mailing list, and never use your address for marketing or sell it. Our email provider delivers the message as a processor on our behalf; the report content comes from the Korea Tourism Organization (TourAPI)."
           ]
         }
       ]

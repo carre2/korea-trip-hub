@@ -1,0 +1,206 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Myeongdong Travel Report — ktriphub (live data)</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<style>:root{--bg:#f6f7f9;--surface:#fff;--surface-2:#f1f3f6;--text:#1b2330;--muted:#5b6678;--faint:#8a94a6;--border:#e3e8ef;--border-strong:#cfd7e2;--accent:#1f6feb;--accent-soft:#e8f0fe;--jade:#0f9d7a;--jade-soft:#e3f6f0;--amber:#b7791f;--amber-soft:#fdf3e2;--rose:#c2410c;--rose-soft:#fdece4;--maxw:1180px;--radius:14px;--shadow:0 1px 2px rgba(20,30,50,.04),0 6px 20px rgba(20,30,50,.06)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 18px}
+.mockbar{background:#111827;color:#fff;font-size:.82rem;padding:8px 14px;text-align:center}.mockbar b{color:#34d399}
+.cover{position:relative;color:#fff;padding:0}.cover-inner{position:relative;z-index:2;padding:40px 18px 30px}.cover-shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(11,30,60,.35),transparent 60%)}
+.cover .eyebrow{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;opacity:.9;font-weight:700}
+.cover h1{margin:.3em 0 .15em;font-size:2.4rem;line-height:1.1;font-weight:800;text-shadow:0 1px 10px rgba(0,0,0,.25)}
+.cover .romaja{font-size:1.05rem;opacity:.92;font-weight:500}
+.cover .summary{margin-top:.6em;max-width:640px;font-size:1.01rem;opacity:.97;text-shadow:0 1px 8px rgba(0,0,0,.3)}
+.cover-meta{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:16px;font-size:.84rem;opacity:.95}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.legend .badge{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);color:#fff}
+.layout{display:grid;grid-template-columns:232px 1fr;gap:34px;padding:28px 0 60px;align-items:start}
+.toc{position:sticky;top:18px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px 14px;box-shadow:var(--shadow)}
+.toc h4{margin:0 0 10px;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.toc ol{list-style:none;margin:0;padding:0;counter-reset:toc}.toc li{counter-increment:toc;margin:1px 0}
+.toc a{display:flex;gap:9px;align-items:baseline;padding:7px 9px;border-radius:9px;color:var(--muted);font-size:.9rem;font-weight:500}
+.toc a::before{content:counter(toc);font-variant-numeric:tabular-nums;font-weight:700;color:var(--faint);min-width:15px}
+.toc a:hover{background:var(--surface-2);color:var(--text);text-decoration:none}
+.toc a.active{background:var(--accent-soft);color:var(--accent);font-weight:700}.toc a.active::before{color:var(--accent)}
+.toc .cta-mini{margin-top:12px;display:grid;gap:7px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;border-radius:10px;padding:9px 12px;font-weight:700;font-size:.86rem;border:1px solid var(--border-strong);background:var(--surface);color:var(--text);cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}.btn.block{width:100%}
+main{min-width:0}
+section{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:22px 24px;margin-bottom:18px;box-shadow:var(--shadow);scroll-margin-top:14px}
+.sec-head{display:flex;align-items:center;gap:12px;margin:0 0 4px}
+.sec-no{flex:none;width:30px;height:30px;border-radius:9px;background:var(--accent-soft);color:var(--accent);font-weight:800;display:grid;place-items:center;font-size:.95rem}
+.sec-head h2{margin:0;font-size:1.26rem;font-weight:800;letter-spacing:-.01em}
+.sec-sub{color:var(--muted);font-size:.92rem;margin:.1em 0 14px}
+.subh{margin:16px 0 10px;font-size:.98rem}
+.overview{background:var(--surface-2);border:1px solid var(--border);border-radius:12px;padding:13px 15px;font-size:.93rem;color:#2a3342;margin-bottom:14px}
+.badge{display:inline-flex;align-items:center;gap:5px;font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:999px;border:1px solid transparent;white-space:nowrap;vertical-align:middle}
+.badge.ok{background:var(--jade-soft);color:var(--jade);border-color:#bfe9dc}
+.badge.ref{background:var(--amber-soft);color:var(--amber);border-color:#f2dcb0}
+.src{font-size:.74rem;color:var(--faint)}.src a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}
+.confirm{font-size:.74rem;color:var(--rose);background:var(--rose-soft);border:1px solid #f4cdb8;border-radius:8px;padding:1px 7px;font-weight:600}
+.xref-mini{font-size:.72rem;color:var(--faint)}
+.xref{display:inline-flex;align-items:center;gap:5px;font-size:.78rem;font-weight:600;background:var(--surface-2);border:1px solid var(--border);border-radius:999px;padding:3px 10px;color:var(--muted)}
+.xref:hover{background:var(--accent-soft);color:var(--accent);border-color:var(--accent);text-decoration:none}
+.xref-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.grid{display:grid;gap:12px}.grid.c3{grid-template-columns:repeat(3,1fr)}
+.card{border:1px solid var(--border);border-radius:12px;overflow:hidden;background:var(--surface);display:flex;flex-direction:column}
+.thumb{aspect-ratio:16/10;background:var(--surface-2);overflow:hidden;border-bottom:1px solid var(--border)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb.ph{display:grid;place-items:center;color:var(--faint);font-size:.78rem;gap:3px;background:repeating-linear-gradient(45deg,#eef1f5 0 12px,#e7ebf1 12px 24px)}
+.thumb .cam{font-size:1.3rem;opacity:.5}
+.card .body{padding:11px 13px;display:flex;flex-direction:column;gap:3px;flex:1}
+.card h3{margin:0;font-size:1rem;line-height:1.3}
+.card .addr{margin:0;color:var(--muted);font-size:.84rem}
+.card .tel{margin:0;color:var(--faint);font-size:.8rem}
+.card .meta{margin:4px 0 0;display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.76rem}
+.empty{color:var(--faint);font-style:italic;font-size:.9rem;padding:8px 0}
+table.data{width:100%;border-collapse:collapse;font-size:.9rem;margin-top:6px}
+table.data th,table.data td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+table.data th{color:var(--muted);font-weight:600;width:96px;white-space:nowrap}
+#map{height:340px;border-radius:12px;border:1px solid var(--border);z-index:1}
+.map-note{font-size:.78rem;color:var(--faint);margin-top:7px}
+.aff{border:1px dashed var(--border-strong);border-radius:12px;padding:14px;background:var(--surface-2)}
+.aff .aff-head{display:flex;align-items:center;gap:9px;margin-bottom:9px;flex-wrap:wrap}
+.aff .tag{font-size:.7rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#fff;border-radius:6px;padding:2px 7px}
+.aff .tag.stay{background:#ff5a5f}.aff .tag.klook{background:#ff5b00}.aff .partner{font-weight:700}
+.embed-ph{height:120px;border-radius:10px;border:1px solid var(--border);background:repeating-linear-gradient(135deg,#eef1f5 0 14px,#e7ebf1 14px 28px);display:grid;place-items:center;text-align:center;color:var(--muted);font-size:.86rem;gap:4px;padding:0 10px}
+.ph{color:var(--faint);font-style:italic}
+.callout{display:flex;gap:10px;background:var(--accent-soft);border:1px solid #cfe0fb;border-radius:12px;padding:12px 14px;font-size:.9rem;color:#1a3a66;margin-top:14px}.callout .ico{font-size:1.1rem}
+.srclist{list-style:none;padding:0;margin:0;font-size:.86rem}
+.srclist li{padding:8px 0;border-bottom:1px solid var(--border);display:flex;gap:10px;flex-wrap:wrap;align-items:baseline}
+.srclist .when{color:var(--faint);font-size:.78rem;margin-left:auto}
+.cta{background:linear-gradient(135deg,#0f9d7a,#1f6feb);color:#fff;border-radius:var(--radius);padding:22px 24px;text-align:center;box-shadow:var(--shadow)}
+.cta h2{margin:0 0 4px;font-size:1.3rem}.cta p{margin:0 0 14px;opacity:.92;font-size:.92rem}
+.cta .row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.cta .btn{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.3);color:#fff}.cta .btn.primary{background:#fff;color:#0b3d91;border-color:#fff}
+.loc-note{font-size:.78rem;color:var(--faint);text-align:center;padding:14px 0 40px}
+@media (max-width:860px){.layout{grid-template-columns:1fr;gap:16px}.toc{position:static;order:-1}.toc .cta-mini{grid-template-columns:1fr 1fr 1fr 1fr}.grid.c3{grid-template-columns:1fr 1fr}.cover h1{font-size:1.8rem}}
+@media (max-width:520px){.grid.c3{grid-template-columns:1fr}}
+</style></head><body>
+<div class="mockbar">✅ <b>Live-data prototype</b> — Myeongdong area info pulled live from the Korea Tourism Organization TourAPI (collected 2026-11-08). Photos · coordinates · addresses = official KTO data.</div>
+
+<header class="cover" style="background-image:linear-gradient(135deg,rgba(11,61,145,.80),rgba(31,111,235,.66)),url('https://tong.visitkorea.or.kr/cms/resource/03/1987703_image2_1.jpg');background-size:cover;background-position:center 40%">
+  <div class="cover-shade"></div>
+  <div class="wrap cover-inner">
+    <div class="eyebrow">ktriphub · Travel Report</div>
+    <h1>Myeongdong <span class="romaja">명동 · 明洞</span></h1>
+    <div class="summary">Myeongdong Cathedral is the Church for Archdiocese of Seoul and was also the birthplace for the Roman Catholic Church community in Korea. The church h…</div>
+    <div class="cover-meta"><span>📍 Jung-gu, Seoul</span><span>🗓️ Generated 2026-11-08</span><span>🌐 Auto-localized to 12 languages</span></div>
+    <div class="legend"><span class="badge ok">✓ Verified</span><span class="badge ref">⚠ Reference · confirm officially</span></div>
+  </div>
+</header>
+
+<div class="wrap"><div class="layout">
+  <nav class="toc">
+    <h4>Contents / Jump</h4>
+    <ol>
+      <li><a href="#s1" class="active">Overview</a></li>
+      <li><a href="#s2">Location &amp; Map</a></li>
+      <li><a href="#s3">Getting There</a></li>
+      <li><a href="#s4">Things to See</a></li>
+      <li><a href="#s5">Food &amp; Shopping</a></li>
+      <li><a href="#s6">Tours &amp; Activities</a></li>
+      <li><a href="#s7">Where to Stay</a></li>
+      <li><a href="#s9">Sources &amp; Dates</a></li>
+    </ol>
+    <div class="cta-mini">
+      <button class="btn primary block">📄 PDF</button>
+      <button class="btn block">🔖 Save</button>
+      <button class="btn block">↗ Share</button>
+      <button class="btn block">✉ Email</button>
+    </div>
+  </nav>
+  <main>
+
+    <section id="s1"><div class="sec-head"><div class="sec-no">1</div><h2>Overview</h2></div>
+      <p class="sec-sub">Korea Tourism Organization base info (Myeongdong Cathedral) + nearby aggregation</p>
+      <div class="overview">Myeongdong Cathedral is the Church for Archdiocese of Seoul and was also the birthplace for the Roman Catholic Church community in Korea. The church houses the remains of several individuals: Bishop Laurent Joseph Marie Imbert (1796-1839), and priests Peter Simon (1803-1839), James (Jacques Honor Chastan, 1803-1839) and Pourthie Jean Antoine Charles (1830-1866) and four martyrs. &lt;br /&gt;&lt;br /&gt;Myeongdong Cathedral is located in downtown Seoul and tourists frequently come and visit the p…</div>
+      <table class="data">
+        <tr><th>Area</th><td>Myeongdong, Jung-gu, Seoul <span class="badge ok">✓ Verified</span></td></tr>
+        <tr><th>Nearby</th><td>Within 1.3km: Sights 6 · Food 6 · Shopping 4 · Stays 3 <span class="badge ok">✓ TourAPI</span></td></tr>
+      </table>
+      <div class="xref-row"><a class="xref" href="#s3">→ Getting There</a><a class="xref" href="#s7">→ Where to Stay</a><a class="xref" href="#s5">→ Food</a></div>
+    </section>
+
+    <section id="s2"><div class="sec-head"><div class="sec-no">2</div><h2>Location &amp; Map</h2></div>
+      <p class="sec-sub">Real-coordinate map (Leaflet + OpenStreetMap) · click a marker for details</p>
+      <div id="map"></div>
+      <p class="map-note">Marker colors: <b style="color:#1f6feb">●</b> Sights <b style="color:#c2410c">●</b> Food <b style="color:#0f9d7a">●</b> Stays <b style="color:#b7791f">●</b> Shopping · coordinates by Korea Tourism Org.</p>
+    </section>
+
+    <section id="s3"><div class="sec-head"><div class="sec-no">3</div><h2>Getting There</h2></div>
+      <p class="sec-sub">Access by major transport mode</p>
+      <table class="data">
+        <tr><th>Subway</th><td>Seoul Subway <b>Line 4, Myeongdong Station</b> <span class="badge ok">✓ Verified</span> · Line 2 Euljiro 1-ga nearby <span class="badge ok">✓</span></td></tr>
+        <tr><th>From airport</th><td>Incheon Airport → AREX / Limousine bus <span class="badge ref">⚠ Reference</span> <span class="confirm">confirm fare &amp; time officially</span> <span class="xref-mini">facts.json pending</span></td></tr>
+        <tr><th>Transit pass</th><td>T-money / Climate Card / WOWPASS <span class="badge ok">✓ Verified</span></td></tr>
+      </table>
+    </section>
+
+    <section id="s4"><div class="sec-head"><div class="sec-no">4</div><h2>Things to See</h2></div>
+      <p class="sec-sub">Attractions &amp; cultural venues · nearest first · official KTO photos</p>
+      <div class="grid c3"><div class="card"><div class="thumb ph"><div class="cam">📷</div>No photo</div><div class="body"><h3>Anthropolis 1 : Prolog/Dionysos(안트로폴리스 1 : 프롤로그/디오니소스)</h3><p class="addr">📍 서울특별시 중구 명동길 35 (명동1가) · 112m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#3532653</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/03/1987703_image2_1.jpg" loading="lazy" alt="Myeongdong Cathedral (서울 명동성당)"></div><div class="body"><h3>Myeongdong Cathedral (서울 명동성당)</h3><p class="addr">📍 74, Myeongdong-gil, Jung-gu, Seoul · 179m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#264138</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/16/1570916_image2_1.jpg" loading="lazy" alt="Korea Postage Stamp Museum (우표박물관(구.우표문화누리))"></div><div class="body"><h3>Korea Postage Stamp Museum (우표박물관(구.우표문화누리))</h3><p class="addr">📍 B2, 70, Sogong-ro, Jung-gu, Seoul · 360m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#769297</a></span></p></div></div><div class="card"><div class="thumb ph"><div class="cam">📷</div>No photo</div><div class="body"><h3>Bank of Korea Money Museum (화폐박물관)</h3><p class="addr">📍 39 Namdaemun-ro, Jung-gu, Seoul · 455m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#3024927</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/16/1034816_image2_1.jpg" loading="lazy" alt="Chojun Textile &amp; Quilt Art Museum (초전섬유ㆍ퀼트박물관)"></div><div class="body"><h3>Chojun Textile &amp; Quilt Art Museum (초전섬유ㆍ퀼트박물관)</h3><p class="addr">📍 29, Toegye-ro 16-gil, Jung-gu, Seoul · 608m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#1215623</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/57/2833957_image2_1.jpg" loading="lazy" alt="HiKR Ground (하이커 그라운드)"></div><div class="body"><h3>HiKR Ground (하이커 그라운드)</h3><p class="addr">📍 40 Cheonggyecheon-ro, Jung-gu, Seoul · 641m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#2842534</a></span></p></div></div></div>
+    </section>
+
+    <section id="s5"><div class="sec-head"><div class="sec-no">5</div><h2>Food &amp; Shopping</h2></div>
+      <p class="sec-sub">Restaurants &amp; shopping (confirm prices &amp; hours officially)</p>
+      <h4 class="subh">🍽️ Food</h4><div class="grid c3"><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/33/3040133_image2_1.jpg" loading="lazy" alt="Starbucks Byuldabang (스타벅스 별다방)"></div><div class="body"><h3>Starbucks Byuldabang (스타벅스 별다방)</h3><p class="addr">📍 100 Toegye-ro, Jung-gu, Seoul · 428m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#3046513</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/85/3506585_image2_1.JPG" loading="lazy" alt="Sonjung Bossam (손정보쌈)"></div><div class="body"><h3>Sonjung Bossam (손정보쌈)</h3><p class="addr">📍 24 Samil-daero 15-gil, Jongno-gu, Seoul · 603m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#3512985</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/81/3505381_image2_1.jpg" loading="lazy" alt="Myeongdong Jjukkumi (명동쭈꾸미)"></div><div class="body"><h3>Myeongdong Jjukkumi (명동쭈꾸미)</h3><p class="addr">📍 3-28 Toegye-ro 6-gil, Jung-gu, Seoul · 770m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#3511997</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/15/3517815_image2_1.jpg" loading="lazy" alt="Bokidang (복이당)"></div><div class="body"><h3>Bokidang (복이당)</h3><p class="addr">📍 3-28 Toegye-ro 6-gil, Jung-gu, Seoul · 770m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#3536813</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/15/3570215_image2_1.jpg" loading="lazy" alt="Modern Shabu House Gwanghwamun D Tower Branch (모던샤브하우스 광화문D타워점)"></div><div class="body"><h3>Modern Shabu House Gwanghwamun D Tower Branch (모던샤브하우스 광화문D타워점)</h3><p class="addr">📍 17 Jong-ro 3-gil, Jongno-gu, Seoul · 1002m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#3574482</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/33/3049033_image2_1.jpg" loading="lazy" alt="Tteulan Teahouse (뜰안)"></div><div class="body"><h3>Tteulan Teahouse (뜰안)</h3><p class="addr">📍  · 1183m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#3074150</a></span></p></div></div></div>
+      <h4 class="subh">🛍️ Shopping</h4><div class="grid c3"><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/25/3564025_image2_1.jpg" loading="lazy" alt="Beauty Play (뷰티플레이)"></div><div class="body"><h3>Beauty Play (뷰티플레이)</h3><p class="addr">📍 73 Myeongdong-gil, Jung-gu, Seoul · 121m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#3058019</a></span></p></div></div><div class="card"><div class="thumb ph"><div class="cam">📷</div>No photo</div><div class="body"><h3>Shinsegae Department Store - Main Store (신세계백화점 (본점))</h3><p class="addr">📍 63 Sogong-ro, Jung-gu, Seoul · 494m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#273750</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/66/665366_image2_1.jpg" loading="lazy" alt="Jongno 3(sam)-ga Jewelry District (종로3가 귀금속 전문상가)"></div><div class="body"><h3>Jongno 3(sam)-ga Jewelry District (종로3가 귀금속 전문상가)</h3><p class="addr">📍 Jongno3-ga, Jongno-gu, Seoul-si · 959m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#273730</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/24/2612524_image2_1.jpg" loading="lazy" alt="Insa-dong Antique Art Street (인사동 고미술거리)"></div><div class="body"><h3>Insa-dong Antique Art Street (인사동 고미술거리)</h3><p class="addr">📍 29 Insadong-gil, Jongno-gu, Seoul · 1073m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#273731</a></span></p></div></div></div>
+    </section>
+
+    <section id="s6"><div class="sec-head"><div class="sec-no">6</div><h2>Tours &amp; Activities</h2></div>
+      <p class="sec-sub">Bookable tours — affiliate</p>
+      <div class="aff"><div class="aff-head"><span class="tag klook">Affiliate</span><span class="partner">Klook</span><span class="src">· integration pending (live feed)</span></div>
+        <div class="embed-ph">Klook Myeongdong / Seoul tours &amp; activities area <span class="ph">(reuse existing affiliate aid)</span></div>
+      </div>
+    </section>
+
+    <section id="s7"><div class="sec-head"><div class="sec-no">7</div><h2>Where to Stay</h2></div>
+      <p class="sec-sub">Stays near Myeongdong — TourAPI-listed + Stay22 map (booking)</p>
+      <h4 class="subh">🏨 Nearby stays (TourAPI)</h4><div class="grid c3"><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/89/2709189_image2_1.jpg" loading="lazy" alt="Myeongdong Guesthouse Como (명동게스트하우스 꼬모)"></div><div class="body"><h3>Myeongdong Guesthouse Como (명동게스트하우스 꼬모)</h3><p class="addr">📍 12 , Toegye-ro 24-gil, Jung-gu, Seoul · 387m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#2709675</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/51/2447351_image2_1.jpg" loading="lazy" alt="Sieunjae (시은재)"></div><div class="body"><h3>Sieunjae (시은재)</h3><p class="addr">📍 439 , Samil-daero, Jongno-gu, Seoul · 1142m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#2546367</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/55/2707755_image2_1.jpg" loading="lazy" alt="Ramada Hotel &amp; Suites by Wyndham Seoul Namdaemun (라마다 호텔앤스위트 서울남대문)"></div><div class="body"><h3>Ramada Hotel &amp; Suites by Wyndham Seoul Namdaemun (라마다 호텔앤스위트 서울남대문)</h3><p class="addr">📍 27 , Chilpae-ro, Jung-gu, Seoul · 1233m</p><p class="meta"><span class="badge ok">✓ Verified</span> <span class="src">Source: Korea Tourism Org. (TourAPI) <a href="https://english.visitkorea.or.kr/" target="_blank" rel="noopener">#2710298</a></span></p></div></div></div>
+      <div class="aff" style="margin-top:14px"><div class="aff-head"><span class="tag stay">Affiliate</span><span class="partner">Stay22</span><span class="src">· Booking · Expedia · Airbnb · Agoda map overlay</span></div>
+        <div class="embed-ph">🗺️ Stay22 embedded map area <span class="ph">(centered on Myeongdong · connect after affiliate ID)</span></div>
+      </div>
+      <div class="xref-row"><a class="xref" href="#s2">→ See on map</a></div>
+    </section>
+
+    <section id="s9"><div class="sec-head"><div class="sec-no">9</div><h2>Sources &amp; Data Dates</h2></div>
+      <ul class="srclist">
+        <li><span class="badge ok">✓</span> Attractions · food · shopping · stays · photos · coordinates — <b>Korea Tourism Organization TourAPI</b> (EngService2) <span class="when">collected 2026-11-08</span></li>
+        <li><span class="badge ok">✓</span> Overview text — TourAPI detailCommon2 (Myeongdong Cathedral) <span class="when">2026-11-08</span></li>
+        <li><span class="badge ref">⚠</span> Transit fares &amp; times — ktriphub facts.json <span class="when">pending</span></li>
+        <li><span class="badge ref">⚠</span> Tour &amp; stay booking — Klook / Stay22 affiliate <span class="when">pending</span></li>
+      </ul>
+      <div class="callout"><span class="ico">🛈</span><div><b>Accuracy policy:</b> We never generate information without a source (no fabrication). <span class="badge ref">⚠ Reference</span> items may change, so an <span class="confirm">official confirmation</span> note is shown alongside them.</div></div>
+    </section>
+
+    <div class="cta"><h2>Get this report</h2>
+      <p>After you opt in, we send it through the channel you choose (never auto-posted)</p>
+      <div class="row">
+        <button class="btn primary">✉ Email it to me</button>
+        <button class="btn">💬 Share to KakaoTalk</button>
+        <button class="btn">↗ Share to SNS</button>
+        <button class="btn">📄 PDF</button>
+        <button class="btn">🔖 Save to My Trip</button>
+      </div>
+    </div>
+    <p class="loc-note">The same structure auto-localizes to 12 languages (en · ko · zh · zh-TW · ja · vi · th · id · ms · es · fr · ru)</p>
+  </main>
+</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+var CENTER=[37.5636,126.9853]; var M=[{"lat": 37.5640962986, "lng": 126.9842011262, "t": "Anthropolis 1 : Prolog/Dionysos(안트로폴리스 1 : 프롤로그/디오니소스)", "cat": "sight"}, {"lat": 37.5633131117, "lng": 126.9872814233, "t": "Myeongdong Cathedral (서울 명동성당)", "cat": "sight"}, {"lat": 37.5615687782, "lng": 126.982148607, "t": "Korea Postage Stamp Museum (우표박물관(구.우표문화누리))", "cat": "sight"}, {"lat": 37.5621131302, "lng": 126.9805348496, "t": "Bank of Korea Money Museum (화폐박물관)", "cat": "sight"}, {"lat": 37.5581830981, "lng": 126.9842485115, "t": "Chojun Textile & Quilt Art Museum (초전섬유ㆍ퀼트박물관)", "cat": "sight"}, {"lat": 37.568581843, "lng": 126.9816428989, "t": "HiKR Ground (하이커 그라운드)", "cat": "sight"}, {"lat": 37.5602383912, "lng": 126.9829402392, "t": "Starbucks Byuldabang (스타벅스 별다방)", "cat": "food"}, {"lat": 37.5689818778, "lng": 126.9861952506, "t": "Sonjung Bossam (손정보쌈)", "cat": "food"}, {"lat": 37.558591295, "lng": 126.9793017287, "t": "Myeongdong Jjukkumi (명동쭈꾸미)", "cat": "food"}, {"lat": 37.558591295, "lng": 126.9793017287, "t": "Bokidang (복이당)", "cat": "food"}, {"lat": 37.5710481741, "lng": 126.9789291877, "t": "Modern Shabu House Gwanghwamun D Tower Branch (모던샤브하우스 광화문D타워점)", "cat": "food"}, {"lat": 37.5737341615, "lng": 126.9894309321, "t": "Tteulan Teahouse (뜰안)", "cat": "food"}, {"lat": 37.5604689968, "lng": 126.9872259531, "t": "Myeongdong Guesthouse Como (명동게스트하우스 꼬모)", "cat": "stay"}, {"lat": 37.5737591204, "lng": 126.98730057, "t": "Sieunjae (시은재)", "cat": "stay"}, {"lat": 37.5603187423, "lng": 126.9720495627, "t": "Ramada Hotel & Suites by Wyndham Seoul Namdaemun (라마다 호텔앤스위트 서울남대문)", "cat": "stay"}, {"lat": 37.5643240879, "lng": 126.9863231484, "t": "Beauty Play (뷰티플레이)", "cat": "shop"}, {"lat": 37.5609271625, "lng": 126.9808542989, "t": "Shinsegae Department Store - Main Store (신세계백화점 (본점))", "cat": "shop"}, {"lat": 37.5705317976, "lng": 126.9917474779, "t": "Jongno 3(sam)-ga Jewelry District (종로3가 귀금속 전문상가)", "cat": "shop"}, {"lat": 37.5732591505, "lng": 126.9857423926, "t": "Insa-dong Antique Art Street (인사동 고미술거리)", "cat": "shop"}];
+var COL={sight:"#1f6feb",food:"#c2410c",stay:"#0f9d7a",shop:"#b7791f"};
+var map=L.map('map',{scrollWheelZoom:false}).setView(CENTER,15);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
+L.circleMarker(CENTER,{radius:8,color:'#111',fillColor:'#111',fillOpacity:1}).addTo(map).bindPopup('Myeongdong center');
+M.forEach(function(m){L.circleMarker([m.lat,m.lng],{radius:6,color:'#fff',weight:1.5,fillColor:COL[m.cat]||'#666',fillOpacity:.95}).addTo(map).bindPopup(m.t);});
+(function(){var links=[].slice.call(document.querySelectorAll('.toc a')),mp={};
+links.forEach(function(a){mp[a.getAttribute('href').slice(1)]=a;});
+var ob=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.remove('active');});var a=mp[e.target.id];if(a)a.classList.add('active');}});},{rootMargin:'-20% 0px -70% 0px'});
+document.querySelectorAll('main section[id]').forEach(function(s){ob.observe(s);});})();
+</script>
+</body></html>

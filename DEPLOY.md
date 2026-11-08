@@ -1,5 +1,34 @@
 # DEPLOY — Korea Trip Hub
 
+## 장소 레포트 (TourAPI) 연동 (2026-11-08)
+
+`worker/index.js`에 `/api/place/resolve`·`/api/place/report`(GET, 동일 출처)를 추가했다.
+한국관광공사 TourAPI 클라이언트는 `worker/tourapi.mjs`다. 장소를 해소해 주변 정보를
+`lclsSystm1` 대분류(언어 공용)로 분류하고 리포트 JSON을 반환한다. 입력은 radius(점)·
+area(광역+시군구 드릴다운)·resolve(상호/시장 해소) 3모드로 자동 분기한다. 정적 export라
+리포트 페이지는 이 API를 클라이언트에서 호출해 렌더한다(장소별 사전 생성 불가).
+
+필수 secret(없으면 `/api/place/*`가 503 `not_configured`):
+    wrangler secret put TOURAPI_KEY      # data.go.kr 공공데이터포털 Decoding 키
+로컬은 `.dev.vars`의 `TOURAPI_KEY`에 둔다(Git 제외). 키를 `NEXT_PUBLIC_*`·공개 vars·
+사이트 JS·Git 저장소에 넣지 않는다. 국문·영문 등 언어 서비스가 이 키 하나를 공통 사용한다.
+
+선택: 응답 캐시(없어도 동작하며 캐시만 꺼진다). KV 네임스페이스 생성 후 `wrangler.jsonc`에
+바인딩을 추가하고 재배포한다. 리포트 캐시 TTL 7일. TourAPI 개발계정 한도(일 1,000건) 대비 권장.
+    wrangler kv namespace create PLACE_CACHE
+    "kv_namespaces": [{ "binding": "PLACE_CACHE", "id": "<id>" }]
+
+**이메일 발송(`/api/place/send`, POST):** 동의 기반(구독자가 이메일 입력+동의 체크→본인에게 1회 발송,
+자동발행 아님). 리포트 요약+온라인 링크를 Resend로 보낸다. IP 레이트리밋(시간당 5건, KV 있을 때).
+추가 secret 2개(없으면 503 `not_configured`): `RESEND_API_KEY`(resend.com, 발신 도메인 검증 필요),
+`MAIL_FROM`(예: "Korea Trip Hub <hello@ktriphub.com>"). 개인정보처리방침 12로케일에 이메일 조항 추가됨
+(`data/legal*.json` privacy "Place reports by email"). 이메일 주소는 해당 리포트 발송에만 사용·미저장·비마케팅.
+
+검증(로컬, 라이브 API 호출): `node scripts/test-tourapi.mjs` — 명동·제주·예산 조립 PASS 확인.
+외부 API·키가 필요해 prebuild 게이트에는 넣지 않는다. Worker 번들 검증: `npx wrangler deploy --dry-run`.
+되돌리기: `TOURAPI_KEY`/`RESEND_API_KEY` secret 미설정 시 기능만 비활성(기존 경로 무영향).
+정적 Pages 배포만으로는 이 Worker API가 적용되지 않는다(Worker 배포 필요).
+
 ## 언어 진입 및 측정 분리 (2026-10-10)
 
 운영 Worker는 `/`만 정적 파일보다 먼저 실행한다(`assets.run_worker_first`).

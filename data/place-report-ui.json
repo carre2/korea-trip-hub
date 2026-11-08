@@ -1,0 +1,110 @@
+{
+  "en": {
+    "search": { "eyebrow": "Any place in Korea", "title": "Get an instant travel report", "sub": "A city, district, festival or market — we build a sourced report with map, food, stays and more.", "placeholder": "e.g. Myeongdong, Jeju, Yesan Market", "button": "Create report", "examplesLabel": "Try", "examples": ["Myeongdong", "Jeju", "Gyeongju", "Yesan Market"] },
+    "state": { "loading": "Building your report…", "notFound": "We couldn't find that place. Try another spelling or a nearby landmark.", "failed": "Something went wrong. Please try again.", "empty": "Type a place to begin.", "retry": "Try again", "disambig": "Did you mean:" },
+    "sec": { "overview": "Overview", "map": "Location & Map", "getting": "Getting There", "sights": "Things to See", "foodshop": "Food & Shopping", "food": "Food", "shopping": "Shopping", "tours": "Tours & Activities", "stay": "Where to Stay", "sources": "Sources & Dates" },
+    "badge": { "verified": "Verified", "reference": "Reference", "confirm": "confirm officially", "source": "Source" },
+    "legend": { "sights": "Sights", "food": "Food", "stay": "Stays", "shopping": "Shopping", "center": "center" },
+    "ui": { "within": "Nearby", "drill": "Narrow by sub-area:", "collected": "collected", "nearbyStays": "Nearby stays (TourAPI)", "tourNote": "Bookable tours — affiliate", "localize": "Auto-localized to 12 languages", "poweredBy": "Place data: Korea Tourism Organization (TourAPI)", "disclaimer": "We never generate information without a source. ‘Reference’ items may change — confirm at an official source." },
+    "cta": { "title": "Get this report", "sub": "Opt in, then choose how to receive it (never auto-posted).", "email": "Email it to me", "kakao": "Share to KakaoTalk", "sns": "Share", "pdf": "Save as PDF", "save": "Save to My Trip" }
+  },
+  "ko": {
+    "search": { "eyebrow": "한국 어디든", "title": "즉석 여행 리포트 받기", "sub": "도시·지역·축제·시장 — 지도, 먹거리, 숙소까지 출처가 붙은 리포트를 만들어 드립니다.", "placeholder": "예: 명동, 제주, 예산시장", "button": "리포트 만들기", "examplesLabel": "예시", "examples": ["명동", "제주", "경주", "예산시장"] },
+    "state": { "loading": "리포트를 만드는 중…", "notFound": "장소를 찾지 못했습니다. 다른 표기나 가까운 명소로 시도해 보세요.", "failed": "문제가 발생했습니다. 다시 시도해 주세요.", "empty": "장소를 입력해 시작하세요.", "retry": "다시 시도", "disambig": "이것을 찾으셨나요:" },
+    "sec": { "overview": "개요", "map": "위치 & 지도", "getting": "가는 법", "sights": "볼거리", "foodshop": "먹거리 & 쇼핑", "food": "먹거리", "shopping": "쇼핑", "tours": "투어 & 액티비티", "stay": "숙박", "sources": "출처 & 기준일" },
+    "badge": { "verified": "검증", "reference": "참고", "confirm": "공식 확인", "source": "출처" },
+    "legend": { "sights": "볼거리", "food": "먹거리", "stay": "숙박", "shopping": "쇼핑", "center": "중심" },
+    "ui": { "within": "주변", "drill": "하위 지역으로 좁히기:", "collected": "수집", "nearbyStays": "근처 숙소 (TourAPI)", "tourNote": "예약 가능한 투어 — 제휴", "localize": "12개 언어 자동 현지화", "poweredBy": "장소 데이터: 한국관광공사 (TourAPI)", "disclaimer": "출처 없는 정보는 생성하지 않습니다. ‘참고’ 항목은 변동될 수 있으니 공식 출처에서 확인하세요." },
+    "cta": { "title": "이 리포트를 받아보세요", "sub": "동의 후 원하는 채널을 직접 선택해 받습니다 (자동 발행 아님).", "email": "이메일로 받기", "kakao": "카카오톡 공유", "sns": "공유", "pdf": "PDF로 저장", "save": "My Trip에 저장" }
+  },
+  "zh": {
+    "search": { "eyebrow": "韩国任何地方", "title": "获取即时旅行报告", "sub": "城市、街区、庆典或市场 — 为你生成带来源的报告，含地图、美食、住宿等。", "placeholder": "例如 明洞、济州、礼山市场", "button": "生成报告", "examplesLabel": "试试", "examples": ["明洞", "济州", "庆州", "礼山市场"] },
+    "state": { "loading": "正在生成报告…", "notFound": "找不到该地点。请换个写法或附近的地标试试。", "failed": "出了点问题，请重试。", "empty": "输入地点开始。", "retry": "重试", "disambig": "你是否想找：" },
+    "sec": { "overview": "概览", "map": "位置 & 地图", "getting": "怎么去", "sights": "景点", "foodshop": "美食 & 购物", "food": "美食", "shopping": "购物", "tours": "行程 & 体验", "stay": "住宿", "sources": "来源 & 日期" },
+    "badge": { "verified": "已核实", "reference": "参考", "confirm": "请以官方为准", "source": "来源" },
+    "legend": { "sights": "景点", "food": "美食", "stay": "住宿", "shopping": "购物", "center": "中心" },
+    "ui": { "within": "周边", "drill": "按下级区域筛选：", "collected": "采集", "nearbyStays": "附近住宿 (TourAPI)", "tourNote": "可预订行程 — 合作", "localize": "自动本地化为 12 种语言", "poweredBy": "地点数据：韩国旅游发展局 (TourAPI)", "disclaimer": "我们绝不生成无来源的信息。‘参考’项目可能变动，请以官方来源确认。" },
+    "cta": { "title": "获取此报告", "sub": "同意后，自行选择接收方式（绝不自动发布）。", "email": "发送到邮箱", "kakao": "分享到 KakaoTalk", "sns": "分享", "pdf": "存为 PDF", "save": "保存到 My Trip" }
+  },
+  "zh-TW": {
+    "search": { "eyebrow": "韓國任何地方", "title": "取得即時旅遊報告", "sub": "城市、街區、慶典或市場 — 為你生成附來源的報告，含地圖、美食、住宿等。", "placeholder": "例如 明洞、濟州、禮山市場", "button": "產生報告", "examplesLabel": "試試", "examples": ["明洞", "濟州", "慶州", "禮山市場"] },
+    "state": { "loading": "正在產生報告…", "notFound": "找不到該地點。請換個寫法或附近的地標試試。", "failed": "發生問題，請重試。", "empty": "輸入地點開始。", "retry": "重試", "disambig": "你是否想找：" },
+    "sec": { "overview": "概覽", "map": "位置 & 地圖", "getting": "怎麼去", "sights": "景點", "foodshop": "美食 & 購物", "food": "美食", "shopping": "購物", "tours": "行程 & 體驗", "stay": "住宿", "sources": "來源 & 日期" },
+    "badge": { "verified": "已核實", "reference": "參考", "confirm": "請以官方為準", "source": "來源" },
+    "legend": { "sights": "景點", "food": "美食", "stay": "住宿", "shopping": "購物", "center": "中心" },
+    "ui": { "within": "周邊", "drill": "依下級區域篩選：", "collected": "採集", "nearbyStays": "附近住宿 (TourAPI)", "tourNote": "可預訂行程 — 合作", "localize": "自動在地化為 12 種語言", "poweredBy": "地點資料：韓國觀光公社 (TourAPI)", "disclaimer": "我們絕不生成無來源的資訊。‘參考’項目可能變動，請以官方來源確認。" },
+    "cta": { "title": "取得此報告", "sub": "同意後，自行選擇接收方式（絕不自動發佈）。", "email": "寄到信箱", "kakao": "分享到 KakaoTalk", "sns": "分享", "pdf": "存成 PDF", "save": "儲存到 My Trip" }
+  },
+  "ja": {
+    "search": { "eyebrow": "韓国のどこでも", "title": "その場で旅行レポートを作成", "sub": "都市・街・祭り・市場 — 地図、グルメ、宿などを出典付きでまとめます。", "placeholder": "例: 明洞、済州、礼山市場", "button": "レポート作成", "examplesLabel": "例", "examples": ["明洞", "済州", "慶州", "礼山市場"] },
+    "state": { "loading": "レポートを作成中…", "notFound": "場所が見つかりませんでした。別の表記か近くの名所でお試しください。", "failed": "問題が発生しました。もう一度お試しください。", "empty": "場所を入力して開始。", "retry": "再試行", "disambig": "もしかして：" },
+    "sec": { "overview": "概要", "map": "位置 & 地図", "getting": "行き方", "sights": "見どころ", "foodshop": "グルメ & ショッピング", "food": "グルメ", "shopping": "ショッピング", "tours": "ツアー & 体験", "stay": "宿泊", "sources": "出典 & 基準日" },
+    "badge": { "verified": "確認済", "reference": "参考", "confirm": "公式でご確認を", "source": "出典" },
+    "legend": { "sights": "見どころ", "food": "グルメ", "stay": "宿泊", "shopping": "買い物", "center": "中心" },
+    "ui": { "within": "周辺", "drill": "下位エリアで絞り込む：", "collected": "収集", "nearbyStays": "近くの宿 (TourAPI)", "tourNote": "予約できるツアー — 提携", "localize": "12言語に自動ローカライズ", "poweredBy": "場所データ：韓国観光公社 (TourAPI)", "disclaimer": "出典のない情報は生成しません。『参考』項目は変わることがあるため、公式でご確認ください。" },
+    "cta": { "title": "このレポートを受け取る", "sub": "同意後、受け取り方法をご自身で選べます（自動投稿はしません）。", "email": "メールで受け取る", "kakao": "KakaoTalkで共有", "sns": "共有", "pdf": "PDFで保存", "save": "My Tripに保存" }
+  },
+  "vi": {
+    "search": { "eyebrow": "Bất kỳ nơi nào ở Hàn Quốc", "title": "Nhận báo cáo du lịch tức thì", "sub": "Thành phố, khu phố, lễ hội hay chợ — chúng tôi tạo báo cáo có nguồn gồm bản đồ, ẩm thực, chỗ ở và hơn thế.", "placeholder": "VD: Myeongdong, Jeju, Chợ Yesan", "button": "Tạo báo cáo", "examplesLabel": "Thử", "examples": ["Myeongdong", "Jeju", "Gyeongju", "Chợ Yesan"] },
+    "state": { "loading": "Đang tạo báo cáo…", "notFound": "Không tìm thấy địa điểm. Hãy thử cách viết khác hoặc một địa danh gần đó.", "failed": "Có lỗi xảy ra. Vui lòng thử lại.", "empty": "Nhập địa điểm để bắt đầu.", "retry": "Thử lại", "disambig": "Có phải bạn muốn:" },
+    "sec": { "overview": "Tổng quan", "map": "Vị trí & Bản đồ", "getting": "Cách đến", "sights": "Tham quan", "foodshop": "Ẩm thực & Mua sắm", "food": "Ẩm thực", "shopping": "Mua sắm", "tours": "Tour & Hoạt động", "stay": "Lưu trú", "sources": "Nguồn & Ngày" },
+    "badge": { "verified": "Đã xác minh", "reference": "Tham khảo", "confirm": "xác nhận chính thức", "source": "Nguồn" },
+    "legend": { "sights": "Tham quan", "food": "Ẩm thực", "stay": "Lưu trú", "shopping": "Mua sắm", "center": "trung tâm" },
+    "ui": { "within": "Lân cận", "drill": "Thu hẹp theo khu vực:", "collected": "thu thập", "nearbyStays": "Chỗ ở gần đó (TourAPI)", "tourNote": "Tour có thể đặt — liên kết", "localize": "Tự động bản địa hóa 12 ngôn ngữ", "poweredBy": "Dữ liệu địa điểm: Tổng cục Du lịch Hàn Quốc (TourAPI)", "disclaimer": "Chúng tôi không bao giờ tạo thông tin không có nguồn. Mục ‘Tham khảo’ có thể thay đổi — hãy xác nhận ở nguồn chính thức." },
+    "cta": { "title": "Nhận báo cáo này", "sub": "Đồng ý rồi tự chọn cách nhận (không bao giờ tự đăng).", "email": "Gửi email cho tôi", "kakao": "Chia sẻ qua KakaoTalk", "sns": "Chia sẻ", "pdf": "Lưu PDF", "save": "Lưu vào My Trip" }
+  },
+  "th": {
+    "search": { "eyebrow": "ที่ไหนก็ได้ในเกาหลี", "title": "รับรายงานท่องเที่ยวทันที", "sub": "เมือง ย่าน เทศกาล หรือตลาด — เราสร้างรายงานพร้อมแหล่งอ้างอิง มีแผนที่ ของกิน ที่พัก และอื่นๆ", "placeholder": "เช่น เมียงดง เชจู ตลาดเยซาน", "button": "สร้างรายงาน", "examplesLabel": "ลอง", "examples": ["เมียงดง", "เชจู", "คยองจู", "ตลาดเยซาน"] },
+    "state": { "loading": "กำลังสร้างรายงาน…", "notFound": "ไม่พบสถานที่นี้ ลองสะกดแบบอื่นหรือสถานที่ใกล้เคียง", "failed": "เกิดข้อผิดพลาด โปรดลองใหม่", "empty": "พิมพ์สถานที่เพื่อเริ่ม", "retry": "ลองอีกครั้ง", "disambig": "คุณหมายถึง:" },
+    "sec": { "overview": "ภาพรวม", "map": "ที่ตั้ง & แผนที่", "getting": "การเดินทาง", "sights": "ที่เที่ยว", "foodshop": "ของกิน & ช้อปปิ้ง", "food": "ของกิน", "shopping": "ช้อปปิ้ง", "tours": "ทัวร์ & กิจกรรม", "stay": "ที่พัก", "sources": "แหล่งอ้างอิง & วันที่" },
+    "badge": { "verified": "ยืนยันแล้ว", "reference": "อ้างอิง", "confirm": "ยืนยันทางการ", "source": "แหล่งที่มา" },
+    "legend": { "sights": "ที่เที่ยว", "food": "ของกิน", "stay": "ที่พัก", "shopping": "ช้อปปิ้ง", "center": "ศูนย์กลาง" },
+    "ui": { "within": "ใกล้เคียง", "drill": "จำกัดตามพื้นที่ย่อย:", "collected": "เก็บข้อมูล", "nearbyStays": "ที่พักใกล้เคียง (TourAPI)", "tourNote": "ทัวร์ที่จองได้ — พันธมิตร", "localize": "แปลอัตโนมัติ 12 ภาษา", "poweredBy": "ข้อมูลสถานที่: องค์การส่งเสริมการท่องเที่ยวเกาหลี (TourAPI)", "disclaimer": "เราไม่สร้างข้อมูลที่ไม่มีแหล่งอ้างอิง รายการ ‘อ้างอิง’ อาจเปลี่ยนแปลง โปรดยืนยันจากแหล่งทางการ" },
+    "cta": { "title": "รับรายงานนี้", "sub": "ยินยอมแล้วเลือกวิธีรับเอง (ไม่โพสต์อัตโนมัติ)", "email": "ส่งอีเมลให้ฉัน", "kakao": "แชร์ไป KakaoTalk", "sns": "แชร์", "pdf": "บันทึกเป็น PDF", "save": "บันทึกไป My Trip" }
+  },
+  "id": {
+    "search": { "eyebrow": "Mana saja di Korea", "title": "Dapatkan laporan perjalanan instan", "sub": "Kota, kawasan, festival, atau pasar — kami buat laporan bersumber dengan peta, kuliner, penginapan, dan lainnya.", "placeholder": "mis. Myeongdong, Jeju, Pasar Yesan", "button": "Buat laporan", "examplesLabel": "Coba", "examples": ["Myeongdong", "Jeju", "Gyeongju", "Pasar Yesan"] },
+    "state": { "loading": "Menyusun laporan…", "notFound": "Tempat tidak ditemukan. Coba ejaan lain atau tengara terdekat.", "failed": "Terjadi kesalahan. Silakan coba lagi.", "empty": "Ketik tempat untuk mulai.", "retry": "Coba lagi", "disambig": "Maksud Anda:" },
+    "sec": { "overview": "Ikhtisar", "map": "Lokasi & Peta", "getting": "Cara ke Sana", "sights": "Tempat Wisata", "foodshop": "Kuliner & Belanja", "food": "Kuliner", "shopping": "Belanja", "tours": "Tur & Aktivitas", "stay": "Penginapan", "sources": "Sumber & Tanggal" },
+    "badge": { "verified": "Terverifikasi", "reference": "Referensi", "confirm": "konfirmasi resmi", "source": "Sumber" },
+    "legend": { "sights": "Wisata", "food": "Kuliner", "stay": "Menginap", "shopping": "Belanja", "center": "pusat" },
+    "ui": { "within": "Sekitar", "drill": "Persempit per subwilayah:", "collected": "dikumpulkan", "nearbyStays": "Penginapan terdekat (TourAPI)", "tourNote": "Tur yang bisa dipesan — afiliasi", "localize": "Otomatis dilokalkan ke 12 bahasa", "poweredBy": "Data tempat: Organisasi Pariwisata Korea (TourAPI)", "disclaimer": "Kami tidak pernah membuat info tanpa sumber. Item ‘Referensi’ bisa berubah — konfirmasikan ke sumber resmi." },
+    "cta": { "title": "Dapatkan laporan ini", "sub": "Setuju dulu, lalu pilih cara menerimanya (tidak pernah diposting otomatis).", "email": "Kirim ke email saya", "kakao": "Bagikan ke KakaoTalk", "sns": "Bagikan", "pdf": "Simpan PDF", "save": "Simpan ke My Trip" }
+  },
+  "es": {
+    "search": { "eyebrow": "Cualquier lugar de Corea", "title": "Obtén un informe de viaje al instante", "sub": "Una ciudad, barrio, festival o mercado — creamos un informe con fuentes: mapa, comida, alojamiento y más.", "placeholder": "p. ej. Myeongdong, Jeju, Mercado de Yesan", "button": "Crear informe", "examplesLabel": "Prueba", "examples": ["Myeongdong", "Jeju", "Gyeongju", "Mercado de Yesan"] },
+    "state": { "loading": "Creando tu informe…", "notFound": "No encontramos ese lugar. Prueba otra grafía o un punto cercano.", "failed": "Algo salió mal. Inténtalo de nuevo.", "empty": "Escribe un lugar para empezar.", "retry": "Reintentar", "disambig": "¿Quisiste decir:" },
+    "sec": { "overview": "Resumen", "map": "Ubicación y Mapa", "getting": "Cómo llegar", "sights": "Qué ver", "foodshop": "Comida y Compras", "food": "Comida", "shopping": "Compras", "tours": "Tours y Actividades", "stay": "Dónde alojarse", "sources": "Fuentes y Fechas" },
+    "badge": { "verified": "Verificado", "reference": "Referencia", "confirm": "confirmar oficialmente", "source": "Fuente" },
+    "legend": { "sights": "Qué ver", "food": "Comida", "stay": "Alojamiento", "shopping": "Compras", "center": "centro" },
+    "ui": { "within": "Cerca", "drill": "Filtrar por subzona:", "collected": "recopilado", "nearbyStays": "Alojamientos cercanos (TourAPI)", "tourNote": "Tours reservables — afiliado", "localize": "Localizado automáticamente a 12 idiomas", "poweredBy": "Datos de lugares: Organización de Turismo de Corea (TourAPI)", "disclaimer": "Nunca generamos información sin fuente. Los elementos ‘Referencia’ pueden cambiar — confírmalos en una fuente oficial." },
+    "cta": { "title": "Recibe este informe", "sub": "Acepta y elige cómo recibirlo (nunca se publica solo).", "email": "Envíamelo por correo", "kakao": "Compartir en KakaoTalk", "sns": "Compartir", "pdf": "Guardar como PDF", "save": "Guardar en My Trip" }
+  },
+  "ms": {
+    "search": { "eyebrow": "Mana-mana di Korea", "title": "Dapatkan laporan perjalanan segera", "sub": "Bandar, kawasan, pesta atau pasar — kami bina laporan bersumber dengan peta, makanan, penginapan dan lagi.", "placeholder": "cth. Myeongdong, Jeju, Pasar Yesan", "button": "Jana laporan", "examplesLabel": "Cuba", "examples": ["Myeongdong", "Jeju", "Gyeongju", "Pasar Yesan"] },
+    "state": { "loading": "Membina laporan anda…", "notFound": "Tempat tidak ditemui. Cuba ejaan lain atau mercu tanda berdekatan.", "failed": "Ada masalah. Sila cuba lagi.", "empty": "Taip tempat untuk mula.", "retry": "Cuba lagi", "disambig": "Maksud anda:" },
+    "sec": { "overview": "Gambaran", "map": "Lokasi & Peta", "getting": "Cara ke Sana", "sights": "Tempat Menarik", "foodshop": "Makanan & Beli-belah", "food": "Makanan", "shopping": "Beli-belah", "tours": "Tur & Aktiviti", "stay": "Penginapan", "sources": "Sumber & Tarikh" },
+    "badge": { "verified": "Disahkan", "reference": "Rujukan", "confirm": "sahkan secara rasmi", "source": "Sumber" },
+    "legend": { "sights": "Menarik", "food": "Makanan", "stay": "Menginap", "shopping": "Beli-belah", "center": "pusat" },
+    "ui": { "within": "Berdekatan", "drill": "Tapis mengikut subkawasan:", "collected": "dikumpul", "nearbyStays": "Penginapan berdekatan (TourAPI)", "tourNote": "Tur boleh ditempah — gabungan", "localize": "Dilokalkan automatik ke 12 bahasa", "poweredBy": "Data tempat: Organisasi Pelancongan Korea (TourAPI)", "disclaimer": "Kami tidak pernah menjana maklumat tanpa sumber. Item ‘Rujukan’ mungkin berubah — sahkan di sumber rasmi." },
+    "cta": { "title": "Dapatkan laporan ini", "sub": "Setuju dahulu, kemudian pilih cara menerimanya (tidak pernah disiar automatik).", "email": "E-mel kepada saya", "kakao": "Kongsi ke KakaoTalk", "sns": "Kongsi", "pdf": "Simpan PDF", "save": "Simpan ke My Trip" }
+  },
+  "ru": {
+    "search": { "eyebrow": "Любое место в Корее", "title": "Мгновенный путеводитель по месту", "sub": "Город, район, фестиваль или рынок — соберём отчёт с источниками: карта, еда, жильё и другое.", "placeholder": "напр. Мёндон, Чеджу, рынок Йесан", "button": "Создать отчёт", "examplesLabel": "Примеры", "examples": ["Мёндон", "Чеджу", "Кёнджу", "рынок Йесан"] },
+    "state": { "loading": "Готовим отчёт…", "notFound": "Не удалось найти это место. Попробуйте другое написание или ближайший ориентир.", "failed": "Что-то пошло не так. Попробуйте ещё раз.", "empty": "Введите место, чтобы начать.", "retry": "Повторить", "disambig": "Возможно, вы имели в виду:" },
+    "sec": { "overview": "Обзор", "map": "Расположение и карта", "getting": "Как добраться", "sights": "Что посмотреть", "foodshop": "Еда и покупки", "food": "Еда", "shopping": "Покупки", "tours": "Туры и активности", "stay": "Где остановиться", "sources": "Источники и даты" },
+    "badge": { "verified": "Проверено", "reference": "Справочно", "confirm": "уточните официально", "source": "Источник" },
+    "legend": { "sights": "Места", "food": "Еда", "stay": "Жильё", "shopping": "Покупки", "center": "центр" },
+    "ui": { "within": "Рядом", "drill": "Сузить по району:", "collected": "собрано", "nearbyStays": "Жильё поблизости (TourAPI)", "tourNote": "Туры для бронирования — партнёр", "localize": "Автолокализация на 12 языков", "poweredBy": "Данные о местах: Корейская туристическая организация (TourAPI)", "disclaimer": "Мы никогда не создаём информацию без источника. Пункты ‘Справочно’ могут меняться — уточняйте в официальном источнике." },
+    "cta": { "title": "Получить этот отчёт", "sub": "Дайте согласие и выберите способ получения (никогда не публикуется автоматически).", "email": "Прислать на почту", "kakao": "Поделиться в KakaoTalk", "sns": "Поделиться", "pdf": "Сохранить в PDF", "save": "В My Trip" }
+  },
+  "fr": {
+    "search": { "eyebrow": "Partout en Corée", "title": "Obtenez un rapport de voyage instantané", "sub": "Une ville, un quartier, un festival ou un marché — nous créons un rapport sourcé : carte, cuisine, hébergement et plus.", "placeholder": "ex. Myeongdong, Jeju, marché de Yesan", "button": "Créer le rapport", "examplesLabel": "Essayez", "examples": ["Myeongdong", "Jeju", "Gyeongju", "marché de Yesan"] },
+    "state": { "loading": "Création de votre rapport…", "notFound": "Lieu introuvable. Essayez une autre orthographe ou un point de repère proche.", "failed": "Une erreur est survenue. Réessayez.", "empty": "Saisissez un lieu pour commencer.", "retry": "Réessayer", "disambig": "Vouliez-vous dire :" },
+    "sec": { "overview": "Aperçu", "map": "Localisation & Carte", "getting": "Comment s'y rendre", "sights": "À voir", "foodshop": "Cuisine & Shopping", "food": "Cuisine", "shopping": "Shopping", "tours": "Excursions & Activités", "stay": "Où loger", "sources": "Sources & Dates" },
+    "badge": { "verified": "Vérifié", "reference": "Référence", "confirm": "à confirmer officiellement", "source": "Source" },
+    "legend": { "sights": "À voir", "food": "Cuisine", "stay": "Hébergement", "shopping": "Shopping", "center": "centre" },
+    "ui": { "within": "À proximité", "drill": "Affiner par sous-zone :", "collected": "collecté", "nearbyStays": "Hébergements proches (TourAPI)", "tourNote": "Excursions réservables — affilié", "localize": "Localisé automatiquement en 12 langues", "poweredBy": "Données de lieux : Office du tourisme coréen (TourAPI)", "disclaimer": "Nous ne générons jamais d'information sans source. Les éléments ‘Référence’ peuvent changer — confirmez à une source officielle." },
+    "cta": { "title": "Recevoir ce rapport", "sub": "Donnez votre accord puis choisissez comment le recevoir (jamais publié automatiquement).", "email": "Me l'envoyer par e-mail", "kakao": "Partager sur KakaoTalk", "sns": "Partager", "pdf": "Enregistrer en PDF", "save": "Enregistrer dans My Trip" }
+  }
+}

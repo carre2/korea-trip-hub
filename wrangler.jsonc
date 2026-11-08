@@ -15,4 +15,14 @@
   // OPENAI_API_KEY enables GPT-6 Luna through the Responses API.
   // Fallback order: Claude Haiku (ANTHROPIC_API_KEY), then Workers AI.
   "ai": { "binding": "AI" }
+  // --- Place Report (TourAPI) ---
+  // Required secret (otherwise /api/place/* returns 503 not_configured):
+  //   wrangler secret put TOURAPI_KEY      # data.go.kr 공공데이터포털 Decoding key
+  // Email delivery (/api/place/send) needs two more secrets (else 503 not_configured):
+  //   wrangler secret put RESEND_API_KEY   # resend.com API key (with a verified sending domain)
+  //   wrangler secret put MAIL_FROM        # e.g. "Korea Trip Hub <hello@ktriphub.com>"
+  // Optional response cache (feature works without it, just uncached). To enable:
+  //   wrangler kv namespace create PLACE_CACHE
+  // then add (with the printed id) and redeploy:
+  //   "kv_namespaces": [{ "binding": "PLACE_CACHE", "id": "<paste-id-here>" }]
 }

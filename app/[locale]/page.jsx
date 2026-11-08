@@ -9,6 +9,7 @@ import MapExplorer from "../../components/MapExplorer";
 import { itinFor } from "../../lib/content";
 import TripPlanner from "../../components/TripPlanner";
 import HeroSlider from "../../components/HeroSlider";
+import PlaceReportSearch from "../../components/PlaceReportSearch";
 import LandingTools from "../../components/LandingTools";
 import PreflightGrid from "../../components/PreflightGrid";
 import TransitQuiz from "../../components/TransitQuiz";
@@ -104,6 +105,7 @@ export default function Home({ params }) {
   return <div className="journey-home landing-home">
     <JsonLd data={webSiteLd(locale, m.meta.homeTitle, m.meta.homeDesc)} />
     <HeroSlider locale={locale} t={t} languageCount={locales.length} image={destImages.gyeongbokgung} imageLabel={destination('gyeongbokgung').name} />
+    <PlaceReportSearch locale={locale} />
     <VideoRails locale={locale} />
     <LandingTools locale={locale} m={{experience:t,visaFinder:m.visaFinder}} countries={visaHubItems(locale).sort((a,b)=>a.name.localeCompare(b.name,locale))} entryCopy={entryRouting[locale]} budget={budgetLabels[locale]} routes={itineraries.order.slice(0,3).map(key=>({key,title:itineraries.items[key].title}))}/>
     <PreflightGrid locale={locale} />

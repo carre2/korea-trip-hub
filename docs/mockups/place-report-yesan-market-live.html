@@ -1,0 +1,205 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>예산시장 여행 리포트 — ktriphub</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<style>:root{--bg:#f6f7f9;--surface:#fff;--surface-2:#f1f3f6;--text:#1b2330;--muted:#5b6678;--faint:#8a94a6;--border:#e3e8ef;--border-strong:#cfd7e2;--accent:#1f6feb;--accent-soft:#e8f0fe;--jade:#0f9d7a;--jade-soft:#e3f6f0;--amber:#b7791f;--amber-soft:#fdf3e2;--rose:#c2410c;--rose-soft:#fdece4;--maxw:1180px;--radius:14px;--shadow:0 1px 2px rgba(20,30,50,.04),0 6px 20px rgba(20,30,50,.06)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 18px}
+.mockbar{background:#111827;color:#fff;font-size:.82rem;padding:8px 14px;text-align:center}.mockbar b{color:#34d399}
+.cover{position:relative;color:#fff;padding:0}.cover-inner{position:relative;z-index:2;padding:40px 18px 30px}.cover-shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(11,30,60,.35),transparent 60%)}
+.cover .eyebrow{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;opacity:.9;font-weight:700}
+.cover h1{margin:.3em 0 .15em;font-size:2.4rem;line-height:1.1;font-weight:800;text-shadow:0 1px 10px rgba(0,0,0,.25)}
+.cover .romaja{font-size:1.05rem;opacity:.92;font-weight:500}
+.cover .summary{margin-top:.6em;max-width:640px;font-size:1.01rem;opacity:.97;text-shadow:0 1px 8px rgba(0,0,0,.3)}
+.cover-meta{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:16px;font-size:.84rem;opacity:.95}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.legend .badge{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);color:#fff}
+.layout{display:grid;grid-template-columns:232px 1fr;gap:34px;padding:28px 0 60px;align-items:start}
+.toc{position:sticky;top:18px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px 14px;box-shadow:var(--shadow)}
+.toc h4{margin:0 0 10px;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.toc ol{list-style:none;margin:0;padding:0;counter-reset:toc}.toc li{counter-increment:toc;margin:1px 0}
+.toc a{display:flex;gap:9px;align-items:baseline;padding:7px 9px;border-radius:9px;color:var(--muted);font-size:.9rem;font-weight:500}
+.toc a::before{content:counter(toc);font-variant-numeric:tabular-nums;font-weight:700;color:var(--faint);min-width:15px}
+.toc a:hover{background:var(--surface-2);color:var(--text);text-decoration:none}
+.toc a.active{background:var(--accent-soft);color:var(--accent);font-weight:700}.toc a.active::before{color:var(--accent)}
+.toc .cta-mini{margin-top:12px;display:grid;gap:7px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;border-radius:10px;padding:9px 12px;font-weight:700;font-size:.86rem;border:1px solid var(--border-strong);background:var(--surface);color:var(--text);cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}.btn.block{width:100%}
+main{min-width:0}
+section{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:22px 24px;margin-bottom:18px;box-shadow:var(--shadow);scroll-margin-top:14px}
+.sec-head{display:flex;align-items:center;gap:12px;margin:0 0 4px}
+.sec-no{flex:none;width:30px;height:30px;border-radius:9px;background:var(--accent-soft);color:var(--accent);font-weight:800;display:grid;place-items:center;font-size:.95rem}
+.sec-head h2{margin:0;font-size:1.26rem;font-weight:800;letter-spacing:-.01em}
+.sec-sub{color:var(--muted);font-size:.92rem;margin:.1em 0 14px}
+.subh{margin:16px 0 10px;font-size:.98rem}
+.overview{background:var(--surface-2);border:1px solid var(--border);border-radius:12px;padding:13px 15px;font-size:.93rem;color:#2a3342;margin-bottom:14px}
+.badge{display:inline-flex;align-items:center;gap:5px;font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:999px;border:1px solid transparent;white-space:nowrap;vertical-align:middle}
+.badge.ok{background:var(--jade-soft);color:var(--jade);border-color:#bfe9dc}
+.badge.ref{background:var(--amber-soft);color:var(--amber);border-color:#f2dcb0}
+.src{font-size:.74rem;color:var(--faint)}.src a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}
+.confirm{font-size:.74rem;color:var(--rose);background:var(--rose-soft);border:1px solid #f4cdb8;border-radius:8px;padding:1px 7px;font-weight:600}
+.xref-mini{font-size:.72rem;color:var(--faint)}
+.xref{display:inline-flex;align-items:center;gap:5px;font-size:.78rem;font-weight:600;background:var(--surface-2);border:1px solid var(--border);border-radius:999px;padding:3px 10px;color:var(--muted)}
+.xref:hover{background:var(--accent-soft);color:var(--accent);border-color:var(--accent);text-decoration:none}
+.xref-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.grid{display:grid;gap:12px}.grid.c3{grid-template-columns:repeat(3,1fr)}
+.card{border:1px solid var(--border);border-radius:12px;overflow:hidden;background:var(--surface);display:flex;flex-direction:column}
+.thumb{aspect-ratio:16/10;background:var(--surface-2);overflow:hidden;border-bottom:1px solid var(--border)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb.ph{display:grid;place-items:center;color:var(--faint);font-size:.78rem;gap:3px;background:repeating-linear-gradient(45deg,#eef1f5 0 12px,#e7ebf1 12px 24px)}
+.thumb .cam{font-size:1.3rem;opacity:.5}
+.card .body{padding:11px 13px;display:flex;flex-direction:column;gap:3px;flex:1}
+.card h3{margin:0;font-size:1rem;line-height:1.3}
+.card .addr{margin:0;color:var(--muted);font-size:.84rem}
+.card .tel{margin:0;color:var(--faint);font-size:.8rem}
+.card .meta{margin:4px 0 0;display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.76rem}
+.empty{color:var(--faint);font-style:italic;font-size:.9rem;padding:8px 0}
+table.data{width:100%;border-collapse:collapse;font-size:.9rem;margin-top:6px}
+table.data th,table.data td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+table.data th{color:var(--muted);font-weight:600;width:96px;white-space:nowrap}
+#map{height:340px;border-radius:12px;border:1px solid var(--border);z-index:1}
+.map-note{font-size:.78rem;color:var(--faint);margin-top:7px}
+.aff{border:1px dashed var(--border-strong);border-radius:12px;padding:14px;background:var(--surface-2)}
+.aff .aff-head{display:flex;align-items:center;gap:9px;margin-bottom:9px;flex-wrap:wrap}
+.aff .tag{font-size:.7rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#fff;border-radius:6px;padding:2px 7px}
+.aff .tag.stay{background:#ff5a5f}.aff .tag.klook{background:#ff5b00}.aff .partner{font-weight:700}
+.embed-ph{height:120px;border-radius:10px;border:1px solid var(--border);background:repeating-linear-gradient(135deg,#eef1f5 0 14px,#e7ebf1 14px 28px);display:grid;place-items:center;text-align:center;color:var(--muted);font-size:.86rem;gap:4px;padding:0 10px}
+.ph{color:var(--faint);font-style:italic}
+.callout{display:flex;gap:10px;background:var(--accent-soft);border:1px solid #cfe0fb;border-radius:12px;padding:12px 14px;font-size:.9rem;color:#1a3a66;margin-top:14px}.callout .ico{font-size:1.1rem}
+.srclist{list-style:none;padding:0;margin:0;font-size:.86rem}
+.srclist li{padding:8px 0;border-bottom:1px solid var(--border);display:flex;gap:10px;flex-wrap:wrap;align-items:baseline}
+.srclist .when{color:var(--faint);font-size:.78rem;margin-left:auto}
+.cta{background:linear-gradient(135deg,#0f9d7a,#1f6feb);color:#fff;border-radius:var(--radius);padding:22px 24px;text-align:center;box-shadow:var(--shadow)}
+.cta h2{margin:0 0 4px;font-size:1.3rem}.cta p{margin:0 0 14px;opacity:.92;font-size:.92rem}
+.cta .row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.cta .btn{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.3);color:#fff}.cta .btn.primary{background:#fff;color:#0b3d91;border-color:#fff}
+.loc-note{font-size:.78rem;color:var(--faint);text-align:center;padding:14px 0 40px}
+@media (max-width:860px){.layout{grid-template-columns:1fr;gap:16px}.toc{position:static;order:-1}.toc .cta-mini{grid-template-columns:1fr 1fr 1fr 1fr}.grid.c3{grid-template-columns:1fr 1fr}.cover h1{font-size:1.8rem}}
+@media (max-width:520px){.grid.c3{grid-template-columns:1fr}}
+</style></head><body>
+<div class="mockbar">✅ <b>실데이터 프로토타입</b> — 예산시장 정보를 한국관광공사 TourAPI에서 실시간 조회(수집 2026-11-08). 사진·좌표·주소 = KTO 공식데이터.</div>
+
+<header class="cover" style="background-image:linear-gradient(135deg,rgba(11,61,145,.80),rgba(31,111,235,.66)),url('https://tong.visitkorea.or.kr/cms/resource/23/4132823_image2_1.jpg');background-size:cover;background-position:center 40%">
+  <div class="cover-shade"></div>
+  <div class="wrap cover-inner">
+    <div class="eyebrow">ktriphub · 여행 리포트</div>
+    <h1>예산시장 <span class="romaja">Yesan Market · 禮山</span></h1>
+    <div class="summary">예산시가지 남부에는 1920년대에 형성된 오일장과 함께 1981년에 개장되어 2002년 및 2005년에 현대화된 상설시장이 있다. 예산 지역은 농업, 과수, 축산업이 발달해 있는데 이 시장은 이러한 예산 지역 특산물들의 집산지이기도 하다. 특히 예산에서 재배되는 사과는…</div>
+    <div class="cover-meta"><span>📍 충청남도 예산군</span><span>🗓️ 생성일 2026-11-08</span><span>🌐 12개 언어 자동 현지화</span></div>
+    <div class="legend"><span class="badge ok">✓ 검증</span><span class="badge ref">⚠ 참고·공식확인</span></div>
+  </div>
+</header>
+
+<div class="wrap"><div class="layout">
+  <nav class="toc">
+    <h4>목차 / 리포트 내 이동</h4>
+    <ol>
+      <li><a href="#s1" class="active">개요</a></li>
+      <li><a href="#s2">위치 &amp; 지도</a></li>
+      <li><a href="#s3">가는 법</a></li>
+      <li><a href="#s4">볼거리</a></li>
+      <li><a href="#s5">먹거리 · 쇼핑</a></li>
+      <li><a href="#s6">투어 · 액티비티</a></li>
+      <li><a href="#s7">숙박</a></li>
+      <li><a href="#s9">출처 &amp; 기준일</a></li>
+    </ol>
+    <div class="cta-mini">
+      <button class="btn primary block">📄 PDF</button>
+      <button class="btn block">🔖 저장</button>
+      <button class="btn block">↗ 공유</button>
+      <button class="btn block">✉ 이메일</button>
+    </div>
+  </nav>
+  <main>
+
+    <section id="s1"><div class="sec-head"><div class="sec-no">1</div><h2>개요</h2></div>
+      <p class="sec-sub">한국관광공사 기본정보(예산시장 기준) + 주변 집계</p>
+      <div class="overview">예산시가지 남부에는 1920년대에 형성된 오일장과 함께 1981년에 개장되어 2002년 및 2005년에 현대화된 상설시장이 있다. 예산 지역은 농업, 과수, 축산업이 발달해 있는데 이 시장은 이러한 예산 지역 특산물들의 집산지이기도 하다. 특히 예산에서 재배되는 사과는 전국적으로도 유명하다. 오일장이 열리는 날에는 시장이 더욱 크게 개최되는데, 현재 점포는 80여 개, 노점은 400여 개 정도가 들어선다. 또한 시장 바로 옆에는 국밥거리가 함께 들어서 있고 그 외에도 맛집들이 있다. 
+주변에는 예산국밥거리 외에 예당저수지(예당관광지), 덕봉산 등이 있어 연계하여 관광할 수 있다.
+예산5일장은 매월 5, 0으로 끝나는 날 열린다.</div>
+      <table class="data">
+        <tr><th>지역</th><td>충청남도 예산군 <span class="badge ok">✓ 검증</span></td></tr>
+        <tr><th>집계</th><td>볼거리 6 · 먹거리 6 · 쇼핑 1 · 숙박 5 건 <span class="badge ok">✓ TourAPI</span></td></tr>
+      </table>
+      
+      <div class="xref-row"><a class="xref" href="#s3">→ 가는 법</a><a class="xref" href="#s7">→ 숙박</a><a class="xref" href="#s5">→ 먹거리</a></div>
+    </section>
+
+    <section id="s2"><div class="sec-head"><div class="sec-no">2</div><h2>위치 &amp; 지도</h2></div>
+      <p class="sec-sub">실제 좌표 기반 지도 (Leaflet + OpenStreetMap) · 마커 클릭 → 상세</p>
+      <div id="map"></div>
+      <p class="map-note">마커 색: <b style="color:#1f6feb">●</b> 볼거리 <b style="color:#c2410c">●</b> 먹거리 <b style="color:#0f9d7a">●</b> 숙박 <b style="color:#b7791f">●</b> 쇼핑 · 좌표 출처 한국관광공사</p>
+    </section>
+
+    <section id="s3"><div class="sec-head"><div class="sec-no">3</div><h2>가는 법</h2></div>
+      <p class="sec-sub">주요 교통수단별 접근</p>
+      <table class="data"><tr><th>기차</th><td><b>장항선 예산역</b>(무궁화호) <span class='badge ok'>✓ 검증</span> <span class='confirm'>시간표 공식 확인</span></td></tr><tr><th>버스</th><td>서울 → 예산 시외버스 <span class='badge ref'>⚠ 참고</span></td></tr><tr><th>자가운전</th><td>당진–영덕고속도로 예산수덕사 IC 방면 <span class='badge ref'>⚠ 참고</span></td></tr></table>
+    </section>
+
+    <section id="s4"><div class="sec-head"><div class="sec-no">4</div><h2>볼거리</h2></div>
+      <p class="sec-sub">관광지·문화·역사·자연 · 한국관광공사 실사진</p>
+      <div class="grid c3"><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/06/3488406_image2_1.jpg" loading="lazy" alt="예당관광지"></div><div class="body"><h3>예당관광지</h3><p class="addr">📍 충청남도 예산군 응봉면 예당관광로 148 · 6278m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#128054</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/19/3340319_image2_1.jpg" loading="lazy" alt="예당호 조각공원"></div><div class="body"><h3>예당호 조각공원</h3><p class="addr">📍 충청남도 예산군 응봉면 예당관광로 148 · 6278m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#2514001</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/03/3567403_image2_1.jpg" loading="lazy" alt="세계꽃식물원"></div><div class="body"><h3>세계꽃식물원</h3><p class="addr">📍 충청남도 아산시 도고면 아산만로 37-37 · 8179m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#128111</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/39/3560639_image2_1.jpg" loading="lazy" alt="여사울성지"></div><div class="body"><h3>여사울성지</h3><p class="addr">📍 충청남도 예산군 신암면 신종여사울길 22 · 9146m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#2771833</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/14/3560614_image2_1.jpg" loading="lazy" alt="의좋은형제공원"></div><div class="body"><h3>의좋은형제공원</h3><p class="addr">📍 충청남도 예산군 대흥면 의좋은형제길 3 · 9336m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#2751853</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/34/3585434_image2_1.jpg" loading="lazy" alt="대흥슬로시티"></div><div class="body"><h3>대흥슬로시티</h3><p class="addr">📍 충청남도 예산군 대흥면 중리길 49 · 9419m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#1856774</a></span></p></div></div></div>
+    </section>
+
+    <section id="s5"><div class="sec-head"><div class="sec-no">5</div><h2>먹거리 · 쇼핑</h2></div>
+      <p class="sec-sub">음식점·쇼핑 (가격·영업시간은 공식 확인 권장)</p>
+      <h4 class="subh">🍽️ 먹거리</h4><div class="grid c3"><div class="card"><div class="thumb ph"><div class="cam">📷</div>사진 준비중</div><div class="body"><h3>할머니딸숯불곱창마을</h3><p class="addr">📍 충청남도 예산군 오가면 오가중앙로 141 · 4137m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#801732</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/85/2838985_image2_1.jpg" loading="lazy" alt="응봉상회"></div><div class="body"><h3>응봉상회</h3><p class="addr">📍 충청남도 예산군 입침중촌길 21 · 4837m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#2838998</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/85/2876485_image2_1.png" loading="lazy" alt="카페이앙"></div><div class="body"><h3>카페이앙</h3><p class="addr">📍 충청남도 예산군 예당관광로 146 · 6331m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#2876494</a></span></p></div></div><div class="card"><div class="thumb ph"><div class="cam">📷</div>사진 준비중</div><div class="body"><h3>할머니곱창</h3><p class="addr">📍 충청남도 예산군 삽교읍 삽교로 221 · 8610m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#2743363</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/93/2766993_image2_1.jpg" loading="lazy" alt="도고창고카페"></div><div class="body"><h3>도고창고카페</h3><p class="addr">📍 충청남도 아산시 도고면 아산만로139번길 7 · 8875m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#2766833</a></span></p></div></div><div class="card"><div class="thumb ph"><div class="cam">📷</div>사진 준비중</div><div class="body"><h3>한올채</h3><p class="addr">📍 충청남도 홍성군 금마면 광금북로 419 · 12956m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#801664</a></span></p></div></div></div>
+      <h4 class="subh">🛍️ 쇼핑</h4><div class="grid c3"><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/80/1963380_image2_1.jpg" loading="lazy" alt="전통예산옹기"></div><div class="body"><h3>전통예산옹기</h3><p class="addr">📍 충청남도 예산군 오가면 오촌중앙길 106 · 5996m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#132452</a></span></p></div></div></div>
+    </section>
+
+    <section id="s6"><div class="sec-head"><div class="sec-no">6</div><h2>투어 · 액티비티</h2></div>
+      <p class="sec-sub">예약 가능한 투어 — 제휴</p>
+      <div class="aff"><div class="aff-head"><span class="tag klook">제휴</span><span class="partner">Klook</span><span class="src">· 연동 예정 (실데이터 피드)</span></div>
+        <div class="embed-ph">Klook 예산시장 투어·액티비티 상품 영역 <span class="ph">(기존 제휴 aid 재사용)</span></div>
+      </div>
+    </section>
+
+    <section id="s7"><div class="sec-head"><div class="sec-no">7</div><h2>숙박</h2></div>
+      <p class="sec-sub">예산시장 주변 숙소 — TourAPI 등록 숙소 + Stay22 지도(예약)</p>
+      <h4 class="subh">🏨 숙소 (TourAPI)</h4><div class="grid c3"><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/29/3501429_image2_1.jpg" loading="lazy" alt="피플앤독힐링캠프"></div><div class="body"><h3>피플앤독힐링캠프</h3><p class="addr">📍 충청남도 예산군 신양면 귀곡동절길 28 · 4076m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#2730127</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/30/3501430_image2_1.jpg" loading="lazy" alt="피플앤독느티캠핑장"></div><div class="body"><h3>피플앤독느티캠핑장</h3><p class="addr">📍 충청남도 예산군 신양면 불원귀곡길 108 · 5636m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#2730010</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/29/2738929_image2_1.jpg" loading="lazy" alt="트윈스캠핑장"></div><div class="body"><h3>트윈스캠핑장</h3><p class="addr">📍 충청남도 아산시 도고면 도고면로 117 · 9471m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#2738772</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/04/2729604_image2_1.jpg" loading="lazy" alt="도고온천모두캠핑장"></div><div class="body"><h3>도고온천모두캠핑장</h3><p class="addr">📍 충청남도 아산시 도고면 도고온천로 207-20 · 10254m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#2729306</a></span></p></div></div><div class="card"><div class="thumb"><img src="https://tong.visitkorea.or.kr/cms/resource/86/1601586_image2_1.jpg" loading="lazy" alt="도고 글로리콘도"></div><div class="body"><h3>도고 글로리콘도</h3><p class="addr">📍 충청남도 아산시 도고면 도고온천로 124-23 · 10425m</p><p class="meta"><span class="badge ok">✓ 검증</span> <span class="src">출처 한국관광공사 TourAPI <a href="https://korean.visitkorea.or.kr/" target="_blank" rel="noopener">#136118</a></span></p></div></div></div>
+      <div class="aff" style="margin-top:14px"><div class="aff-head"><span class="tag stay">제휴</span><span class="partner">Stay22</span><span class="src">· Booking·Expedia·Airbnb·Agoda 지도 오버레이</span></div>
+        <div class="embed-ph">🗺️ Stay22 임베드 지도 영역 <span class="ph">(예산시장 좌표 기준 · 제휴ID 확보 후 연동)</span></div>
+      </div>
+      <div class="xref-row"><a class="xref" href="#s2">→ 지도에서 보기</a></div>
+    </section>
+
+    <section id="s9"><div class="sec-head"><div class="sec-no">9</div><h2>출처 &amp; 데이터 기준일</h2></div>
+      <ul class="srclist">
+        <li><span class="badge ok">✓</span> 관광지·먹거리·쇼핑·숙박·사진·좌표 — <b>한국관광공사 TourAPI</b> (KorService2) <span class="when">수집 2026-11-08</span></li>
+        <li><span class="badge ok">✓</span> 개요 텍스트 — TourAPI detailCommon2 <span class="when">2026-11-08</span></li>
+        <li><span class="badge ref">⚠</span> 교통 요금·시간 — ktriphub facts.json <span class="when">연동 예정</span></li>
+        <li><span class="badge ref">⚠</span> 투어·숙박 예약 — Klook / Stay22 제휴 <span class="when">연동 예정</span></li>
+      </ul>
+      <div class="callout"><span class="ico">🛈</span><div><b>신뢰도 정책:</b> 출처 없는 정보는 생성하지 않습니다(날조 금지). <span class="badge ref">⚠ 참고</span> 항목은 변동 가능하여 <span class="confirm">공식 확인</span>을 함께 표기합니다.</div></div>
+    </section>
+
+    <div class="cta"><h2>이 리포트를 받아보세요</h2>
+      <p>구독 동의 후, 원하는 채널을 직접 선택해 보냅니다 (자동 발행 아님)</p>
+      <div class="row">
+        <button class="btn primary">✉ 이메일로 받기</button>
+        <button class="btn">💬 카카오톡 공유</button>
+        <button class="btn">↗ SNS 공유</button>
+        <button class="btn">📄 PDF</button>
+        <button class="btn">🔖 My Trip 저장</button>
+      </div>
+    </div>
+    <p class="loc-note">동일 구조가 12개 언어로 자동 현지화 (en · ko · zh · zh-TW · ja · vi · th · id · ms · es · fr · ru)</p>
+  </main>
+</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+var CENTER=[36.6769723382,126.8496717629]; var M=[{"lat": 36.6369863456, "lng": 126.7997267378, "t": "예당관광지", "cat": "sight"}, {"lat": 36.6369863456, "lng": 126.7997267378, "t": "예당호 조각공원", "cat": "sight"}, {"lat": 36.7502826733, "lng": 126.858915569, "t": "세계꽃식물원", "cat": "sight"}, {"lat": 36.7567368721, "lng": 126.8238935553, "t": "여사울성지", "cat": "sight"}, {"lat": 36.6065758233, "lng": 126.7922087858, "t": "의좋은형제공원", "cat": "sight"}, {"lat": 36.606675779, "lng": 126.7903256198, "t": "대흥슬로시티", "cat": "sight"}, {"lat": 36.6855558384, "lng": 126.8043889017, "t": "할머니딸숯불곱창마을", "cat": "food"}, {"lat": 36.6531484515, "lng": 126.8041092424, "t": "응봉상회", "cat": "food"}, {"lat": 36.6366002726, "lng": 126.7993684472, "t": "카페이앙", "cat": "food"}, {"lat": 36.6860798907, "lng": 126.7534962561, "t": "할머니곱창", "cat": "food"}, {"lat": 36.7557182992, "lng": 126.8669674736, "t": "도고창고카페", "cat": "food"}, {"lat": 36.6069053134, "lng": 126.7331196587, "t": "한올채", "cat": "food"}, {"lat": 36.6451783422, "lng": 126.872608838, "t": "피플앤독힐링캠프", "cat": "stay"}, {"lat": 36.628671848, "lng": 126.8692318088, "t": "피플앤독느티캠핑장", "cat": "stay"}, {"lat": 36.7588570483, "lng": 126.8796079142, "t": "트윈스캠핑장", "cat": "stay"}, {"lat": 36.7660895564, "lng": 126.8800354577, "t": "도고온천모두캠핑장", "cat": "stay"}, {"lat": 36.7654231248, "lng": 126.8890846592, "t": "도고 글로리콘도", "cat": "stay"}, {"lat": 36.7156273447, "lng": 126.8025549241, "t": "전통예산옹기", "cat": "shop"}];
+var COL={sight:"#1f6feb",food:"#c2410c",stay:"#0f9d7a",shop:"#b7791f"};
+var map=L.map('map',{scrollWheelZoom:false}).setView(CENTER,12);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
+L.circleMarker(CENTER,{radius:8,color:'#111',fillColor:'#111',fillOpacity:1}).addTo(map).bindPopup('예산시장중심');
+M.forEach(function(m){L.circleMarker([m.lat,m.lng],{radius:6,color:'#fff',weight:1.5,fillColor:COL[m.cat]||'#666',fillOpacity:.95}).addTo(map).bindPopup(m.t);});
+(function(){var links=[].slice.call(document.querySelectorAll('.toc a')),mp={};
+links.forEach(function(a){mp[a.getAttribute('href').slice(1)]=a;});
+var ob=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.remove('active');});var a=mp[e.target.id];if(a)a.classList.add('active');}});},{rootMargin:'-20% 0px -70% 0px'});
+document.querySelectorAll('main section[id]').forEach(function(s){ob.observe(s);});})();
+</script>
+</body></html>

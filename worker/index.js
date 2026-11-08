@@ -3,6 +3,8 @@
 // for /api/chat (POST) and for paths with no matching asset (404s).
 
 import {entryLanguage} from '../lib/entry-language.mjs';
+import {resolvePlace, buildReport} from './tourapi.mjs';
+import reportUi from '../data/place-report-ui.json';
 
 const MODEL_CF = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"; // Workers AI (current)
 const MODEL_CLAUDE = "claude-haiku-4-5-20251001";   // existing fallback when a key is set
@@ -146,6 +148,121 @@ async function handleChat(request, env) {
   return json({ error: "chat_unavailable" }, 503);
 }
 
+// ---- Place Report (TourAPI) ----
+// Static pages can't be pre-rendered per place, so the report page fetches these
+// on the client. Both are GET, same-origin (no CORS), cached in KV when available.
+async function handlePlaceResolve(request, env) {
+  const url = new URL(request.url);
+  const q = (url.searchParams.get("q") || "").trim();
+  const locale = url.searchParams.get("locale") || "en";
+  if (!q) return json({ ok: false, error: "empty" }, 400);
+  if (!env.TOURAPI_KEY) return json({ ok: false, error: "not_configured" }, 503);
+  try {
+    return json(await resolvePlace(env, q, locale));
+  } catch {
+    return json({ ok: false, error: "resolve_failed" }, 502);
+  }
+}
+
+async function handlePlaceReport(request, env, ctx) {
+  const url = new URL(request.url);
+  const q = (url.searchParams.get("q") || "").trim();
+  const locale = url.searchParams.get("locale") || "en";
+  const contentId = url.searchParams.get("contentId") || "";
+  const areaCode = url.searchParams.get("areaCode") || "";
+  const sigunguCode = url.searchParams.get("sigunguCode") || "";
+  if (!q && !areaCode) return json({ ok: false, error: "empty" }, 400);
+  if (!env.TOURAPI_KEY) return json({ ok: false, error: "not_configured" }, 503);
+
+  const opts = {};
+  if (contentId) opts.contentId = contentId;
+  if (areaCode) opts.areaCode = Number(areaCode);
+  if (sigunguCode) opts.sigunguCode = sigunguCode;
+
+  const cacheKey = `report:${locale}:${q.toLowerCase()}:${contentId}:${areaCode}:${sigunguCode}`;
+  const jsonHeaders = { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=3600" };
+  if (env.PLACE_CACHE) {
+    try {
+      const hit = await env.PLACE_CACHE.get(cacheKey);
+      if (hit) return new Response(hit, { headers: jsonHeaders });
+    } catch { /* cache miss on error */ }
+  }
+  try {
+    const rep = await buildReport(env, q, locale, opts);
+    const payload = JSON.stringify(rep);
+    if (rep.ok && env.PLACE_CACHE) {
+      try { ctx.waitUntil(env.PLACE_CACHE.put(cacheKey, payload, { expirationTtl: 604800 })); } catch { /* best effort */ }
+    }
+    return new Response(payload, { status: rep.ok ? 200 : 404, headers: jsonHeaders });
+  } catch {
+    return json({ ok: false, error: "report_failed" }, 502);
+  }
+}
+
+// ---- Place Report email delivery (consent-based; never auto-posted) ----
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+function escapeHtml(s) {
+  return String(s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
+function reportEmailHtml(rep, reportUrl, t) {
+  const p = rep.place;
+  const pick = (arr) => (arr || []).slice(0, 3).map((x) => `<li>${escapeHtml(x.title)}</li>`).join("");
+  const hero = p.hero ? `<img src="${escapeHtml(p.hero)}" width="560" style="max-width:100%;border-radius:10px;display:block;margin:0 0 16px" alt="">` : "";
+  const ov = p.overview ? `<p style="font-size:14px;line-height:1.6;color:#2a3342">${escapeHtml(p.overview.slice(0, 280))}…</p>` : "";
+  return `<!doctype html><html><body style="margin:0;background:#f6f7f9;font-family:-apple-system,Segoe UI,Roboto,sans-serif;color:#1b2330">
+<div style="max-width:560px;margin:0 auto;padding:24px">
+<div style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#1f6feb;font-weight:700">ktriphub</div>
+<h1 style="margin:.2em 0 .1em;font-size:26px">${escapeHtml(p.title)}</h1>
+${p.region ? `<div style="color:#5b6678;font-size:14px;margin-bottom:14px">📍 ${escapeHtml(p.region)}</div>` : ""}
+${hero}${ov}
+<h3 style="font-size:15px;margin:16px 0 6px">${escapeHtml(t.sec.sights)}</h3><ul style="margin:0 0 10px;padding-left:18px;font-size:14px">${pick(rep.sections.sights)}</ul>
+<h3 style="font-size:15px;margin:16px 0 6px">${escapeHtml(t.sec.food)}</h3><ul style="margin:0 0 10px;padding-left:18px;font-size:14px">${pick(rep.sections.food)}</ul>
+<a href="${escapeHtml(reportUrl)}" style="display:inline-block;margin:18px 0 8px;background:#1f6feb;color:#fff;text-decoration:none;padding:12px 20px;border-radius:10px;font-weight:700">${escapeHtml(t.search.button)} ↗</a>
+<p style="font-size:12px;color:#8a94a6;margin-top:20px;border-top:1px solid #e3e8ef;padding-top:12px">${escapeHtml(t.ui.poweredBy)} · ${escapeHtml(t.ui.disclaimer)}</p>
+<p style="font-size:11px;color:#8a94a6">You requested this report at ktriphub.com. We only use your email to send it — no list, no marketing.</p>
+</div></body></html>`;
+}
+async function handlePlaceSend(request, env) {
+  let body;
+  try { body = await request.json(); } catch { return json({ ok: false, error: "bad_request" }, 400); }
+  const email = String(body.email || "").trim();
+  const q = String(body.q || "").trim();
+  const areaCode = body.areaCode ? String(body.areaCode) : "";
+  const locale = (typeof body.locale === "string" && reportUi[body.locale]) ? body.locale : "en";
+  if (!EMAIL_RE.test(email) || email.length > 200) return json({ ok: false, error: "bad_email" }, 400);
+  if (body.consent !== true) return json({ ok: false, error: "no_consent" }, 400);
+  if (!q && !areaCode) return json({ ok: false, error: "empty" }, 400);
+  if (!env.TOURAPI_KEY || !env.RESEND_API_KEY || !env.MAIL_FROM) return json({ ok: false, error: "not_configured" }, 503);
+
+  // Best-effort IP rate limit so the endpoint can't be used to spam an address.
+  const ip = request.headers.get("CF-Connecting-IP") || "";
+  if (env.PLACE_CACHE && ip) {
+    try {
+      const k = `rl:send:${ip}`;
+      const n = parseInt((await env.PLACE_CACHE.get(k)) || "0", 10);
+      if (n >= 5) return json({ ok: false, error: "rate_limited" }, 429);
+      await env.PLACE_CACHE.put(k, String(n + 1), { expirationTtl: 3600 });
+    } catch { /* non-fatal */ }
+  }
+
+  let rep;
+  try { rep = await buildReport(env, q, locale, areaCode ? { areaCode: Number(areaCode) } : {}); }
+  catch { return json({ ok: false, error: "report_failed" }, 502); }
+  if (!rep.ok) return json({ ok: false, error: "not_found" }, 404);
+
+  const t = reportUi[locale] || reportUi.en;
+  const reportUrl = `https://ktriphub.com/${locale}/report/?q=${encodeURIComponent(q)}`;
+  try {
+    const res = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, "content-type": "application/json" },
+      body: JSON.stringify({ from: env.MAIL_FROM, to: [email], subject: `${rep.place.title} — ktriphub`, html: reportEmailHtml(rep, reportUrl, t) }),
+    });
+    if (!res.ok) return json({ ok: false, error: "send_failed" }, 502);
+  } catch { return json({ ok: false, error: "send_failed" }, 502); }
+  return json({ ok: true });
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -157,6 +274,12 @@ export default {
     if (url.pathname === "/api/chat") {
       if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);
       return handleChat(request, env);
+    }
+    if (url.pathname === "/api/place/resolve") return handlePlaceResolve(request, env);
+    if (url.pathname === "/api/place/report") return handlePlaceReport(request, env, ctx);
+    if (url.pathname === "/api/place/send") {
+      if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);
+      return handlePlaceSend(request, env);
     }
     // Everything else: serve the static export unchanged.
     return env.ASSETS.fetch(request);
