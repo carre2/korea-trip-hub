@@ -1,20 +1,16 @@
 "use client";
 // Flagship place-report entry. Lives at the top of the home page and on /report/.
-// Two tabs:
+// Three tabs:
 //  - Search: free text -> /<locale>/report/?q=<input>
-//  - Browse step by step: region -> city/county -> category (-> when, for festivals)
-//    -> list from /api/place/browse -> pick a card -> report for that exact place.
-// Regions are legal-dong (법정동) codes from worker/ldong.json (static, no API call).
+//  - Map: Korea -> region -> 시군구 bubbles -> category -> pins + cards (PlaceMapExplore)
+//  - Step by step: region -> city/county -> category (-> when, for festivals) -> cards
+// Every card opens the report for that exact place. Regions are legal-dong (법정동)
+// codes from worker/ldong.json (static, no API call).
 import { useState } from "react";
 import copyAll from "../data/place-report-ui.json";
 import LDONG from "../worker/ldong.json";
-
-const CATS = ["sights", "festival", "food", "stay", "shopping", "course"];
-const WHENS = ["upcoming", "month", "next"];
-
-function fmtDate(d) {
-  return d && d.length === 8 ? `${d.slice(0, 4)}.${d.slice(4, 6)}.${d.slice(6)}` : "";
-}
+import PlaceMapExplore from "./PlaceMapExplore";
+import { BROWSE_CATS, BROWSE_WHENS, fetchBrowse, ResultCards } from "./PlaceBrowseCards";
 
 function Browse({ locale, t, badge }) {
   const nameOf = (x) => (locale === "ko" ? x.ko : x.en || x.ko);
@@ -31,28 +27,14 @@ function Browse({ locale, t, badge }) {
   const load = async (page = 1) => {
     if (!ready) return;
     setStatus("loading");
-    const sp = new URLSearchParams({ locale, region, cat, page: String(page) });
-    if (sigungu) sp.set("sigungu", sigungu);
-    if (cat === "festival") sp.set("when", when);
-    try {
-      const res = await fetch(`/api/place/browse?${sp.toString()}`);
-      const data = await res.json().catch(() => ({ ok: false }));
-      if (!res.ok || !data.ok) { setStatus("failed"); return; }
-      setList((prev) => ({
-        items: page > 1 && prev ? [...prev.items, ...data.items] : data.items,
-        page: data.page, more: data.more,
-      }));
-      setStatus("ok");
-    } catch { setStatus("failed"); }
+    const data = await fetchBrowse({ locale, region, sigungu, cat, when, page });
+    if (!data.ok) { setStatus("failed"); return; }
+    setList((prev) => ({ items: page > 1 && prev ? [...prev.items, ...data.items] : data.items, page: data.page, more: data.more }));
+    setStatus("ok");
   };
 
   // Changing any step invalidates the shown list.
   const reset = (fn) => (e) => { fn(e.target.value); setList(null); setStatus("idle"); };
-
-  const href = (it) => {
-    const sp = new URLSearchParams({ q: it.title, contentId: it.id, cl: it.cl });
-    return `/${locale}/report/?${sp.toString()}`;
-  };
 
   return (
     <div className="prs-browse">
@@ -75,48 +57,20 @@ function Browse({ locale, t, badge }) {
           <span>3. {t.cat}</span>
           <select value={cat} onChange={reset(setCat)} disabled={!region}>
             <option value="">{t.choose}</option>
-            {CATS.map((c) => <option key={c} value={c}>{t.cats[c]}</option>)}
+            {BROWSE_CATS.map((c) => <option key={c} value={c}>{t.cats[c]}</option>)}
           </select>
         </label>
         {cat === "festival" && (
           <label className="prs-step">
             <span>4. {t.when}</span>
             <select value={when} onChange={reset(setWhen)}>
-              {WHENS.map((w) => <option key={w} value={w}>{t.whens[w]}</option>)}
+              {BROWSE_WHENS.map((w) => <option key={w} value={w}>{t.whens[w]}</option>)}
             </select>
           </label>
         )}
         <button className="prs-btn" type="button" disabled={!ready || status === "loading"} onClick={() => load(1)}>{t.show}</button>
       </div>
-
-      {status === "loading" && !list && <p className="prs-note">{t.loading}</p>}
-      {status === "failed" && <p className="prs-note">{t.failed}</p>}
-      {list && list.items.length === 0 && <p className="prs-note">{t.empty}</p>}
-      {list && list.items.length > 0 && (
-        <>
-          <div className="prs-results">
-            {list.items.map((it) => (
-              <a className="prs-card" key={`${it.cl}-${it.id}`} href={href(it)}>
-                <div className={`prs-thumb${it.image ? "" : " ph"}`}>
-                  {it.image ? <img src={it.image} alt="" loading="lazy" /> : <span>📷</span>}
-                </div>
-                <div className="prs-cbody">
-                  <h3>{it.title}</h3>
-                  {it.start && <p className="prs-date">🗓️ {t.period}: {fmtDate(it.start)} – {fmtDate(it.end)}</p>}
-                  {it.addr && <p className="prs-addr">📍 {it.addr}</p>}
-                  {it.lang === "ko" && <span className="prr-badge ref">🇰🇷 {badge.koListing}</span>}
-                </div>
-              </a>
-            ))}
-          </div>
-          {list.more && (
-            <button className="btn sm prs-more" type="button" disabled={status === "loading"} onClick={() => load((list.page || 1) + 1)}>
-              {status === "loading" ? t.loading : t.more}
-            </button>
-          )}
-          <p className="prs-src">{badge.source}: TourAPI</p>
-        </>
-      )}
+      <ResultCards locale={locale} list={list} status={status} t={t} badge={badge} onMore={() => load((list?.page || 1) + 1)} />
     </div>
   );
 }
@@ -142,11 +96,11 @@ export default function PlaceReportSearch({ locale, level = 2 }) {
       <H id="prs-title" className="prs-title">{t.title}</H>
       <p className="prs-sub">{t.sub}</p>
       <div className="prs-tabs" role="tablist">
-        {[["search", tb.tabSearch], ["browse", tb.tabBrowse]].map(([id, label]) => (
+        {[["search", tb.tabSearch], ["map", tb.tabMap], ["browse", tb.tabBrowse]].map(([id, label]) => (
           <button key={id} type="button" role="tab" aria-selected={tab === id} className={`prs-tab${tab === id ? " on" : ""}`} onClick={() => setTab(id)}>{label}</button>
         ))}
       </div>
-      {tab === "search" ? (
+      {tab === "search" && (
         <>
           <form className="prs-form" onSubmit={(e) => { e.preventDefault(); go(); }}>
             <input
@@ -166,9 +120,9 @@ export default function PlaceReportSearch({ locale, level = 2 }) {
             ))}
           </div>
         </>
-      ) : (
-        <Browse locale={locale} t={tb} badge={all.badge} />
       )}
+      {tab === "map" && <PlaceMapExplore locale={locale} t={tb} badge={all.badge} />}
+      {tab === "browse" && <Browse locale={locale} t={tb} badge={all.badge} />}
     </section>
   );
 }

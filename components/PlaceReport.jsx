@@ -9,31 +9,10 @@ import { useEffect, useRef, useState, useCallback } from "react";
 import copyAll from "../data/place-report-ui.json";
 import { klookSearch, stay22Embed, DISCLOSURE } from "../lib/booking";
 import { track } from "../lib/analytics";
+import { loadLeaflet, OSM_TILES } from "../lib/leaflet";
 
-const LEAFLET_CSS = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css";
-const LEAFLET_JS = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js";
 const COLORS = { sights: "#1f6feb", food: "#c2410c", lodging: "#0f9d7a", shopping: "#b7791f" };
 const EMAIL_OK = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-let leafletPromise = null;
-function loadLeaflet() {
-  if (typeof window === "undefined") return Promise.resolve(null);
-  if (window.L) return Promise.resolve(window.L);
-  if (leafletPromise) return leafletPromise;
-  leafletPromise = new Promise((resolve) => {
-    if (!document.querySelector(`link[href="${LEAFLET_CSS}"]`)) {
-      const link = document.createElement("link");
-      link.rel = "stylesheet"; link.href = LEAFLET_CSS;
-      document.head.appendChild(link);
-    }
-    const s = document.createElement("script");
-    s.src = LEAFLET_JS; s.async = true;
-    s.onload = () => resolve(window.L);
-    s.onerror = () => resolve(null);
-    document.head.appendChild(s);
-  });
-  return leafletPromise;
-}
 
 function readParams() {
   if (typeof window === "undefined") return {};
@@ -90,7 +69,7 @@ export default function PlaceReport({ locale }) {
       const zoom = rep.place.mode === "area" ? 10 : 15;
       const map = L.map(mapRef.current, { scrollWheelZoom: false }).setView([lat, lng], zoom);
       mapObj.current = map;
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "© OpenStreetMap" }).addTo(map);
+      L.tileLayer(OSM_TILES, { maxZoom: 19, attribution: "© OpenStreetMap" }).addTo(map);
       L.circleMarker([lat, lng], { radius: 8, color: "#111", fillColor: "#111", fillOpacity: 1 }).addTo(map).bindPopup(`${rep.place.title} ${t.legend.center}`);
       for (const cat of ["sights", "food", "lodging", "shopping"]) {
         for (const it of rep.sections[cat] || []) {

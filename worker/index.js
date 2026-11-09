@@ -3,7 +3,7 @@
 // for /api/chat (POST) and for paths with no matching asset (404s).
 
 import {entryLanguage} from '../lib/entry-language.mjs';
-import {resolvePlace, buildReport, browse, BROWSE_CATS} from './tourapi.mjs';
+import {resolvePlace, buildReport, browse, BROWSE_CATS, regionMap} from './tourapi.mjs';
 import reportUi from '../data/place-report-ui.json';
 
 const MODEL_CF = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"; // Workers AI (current)
@@ -236,6 +236,30 @@ async function handlePlaceBrowse(request, env, ctx) {
   }
 }
 
+// ---- Map explore: 시군구 bubble positions for one region ----
+async function handlePlaceRegionMap(request, env, ctx) {
+  const region = new URL(request.url).searchParams.get("region") || "";
+  if (!/^\d{1,5}$/.test(region)) return json({ ok: false, error: "bad_request" }, 400);
+  if (!env.TOURAPI_KEY) return json({ ok: false, error: "not_configured" }, 503);
+  const key = `regionmap:v1:${region}`;
+  const headers = { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=86400" };
+  if (env.PLACE_CACHE) {
+    try { const hit = await env.PLACE_CACHE.get(key); if (hit) return new Response(hit, { headers }); } catch { /* miss */ }
+  }
+  try {
+    const out = await regionMap(env, region);
+    const payload = JSON.stringify(out);
+    // Positions barely move: one TourAPI call per region per month.
+    if (out.ok && env.PLACE_CACHE) {
+      try { ctx.waitUntil(env.PLACE_CACHE.put(key, payload, { expirationTtl: 30 * 86400 })); } catch { /* best effort */ }
+    }
+    return new Response(payload, { status: out.ok ? 200 : 400, headers });
+  } catch (e) {
+    console.error("place/regionmap", safeDetail(e));
+    return json({ ok: false, error: "regionmap_failed", detail: safeDetail(e) }, 502);
+  }
+}
+
 // ---- Place Report email delivery (consent-based; never auto-posted) ----
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 function escapeHtml(s) {
@@ -329,6 +353,7 @@ export default {
     if (url.pathname === "/api/place/resolve") return handlePlaceResolve(request, env);
     if (url.pathname === "/api/place/report") return handlePlaceReport(request, env, ctx);
     if (url.pathname === "/api/place/browse") return handlePlaceBrowse(request, env, ctx);
+    if (url.pathname === "/api/place/regionmap") return handlePlaceRegionMap(request, env, ctx);
     if (url.pathname === "/api/place/send") {
       if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);
       return handlePlaceSend(request, env);

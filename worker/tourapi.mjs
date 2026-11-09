@@ -458,3 +458,34 @@ export async function browse(env, locale, { region, sigungu = "", cat, when = "u
     source: { provider: "Korea Tourism Organization TourAPI", collectedAt: new Date().toISOString().slice(0, 10) },
   };
 }
+
+// ---------------------------------------------------------------------------
+// Map explore: where each 시군구 of a region sits, from real listings.
+// One areaBasedList2 call (Korean service, attractions, up to 1,000 rows) carries
+// lDongSignguCd + coordinates for every item; the median position per 시군구 places
+// its map bubble. Positions are language-independent; names come from ldong.json.
+function median(a) {
+  const s = [...a].sort((x, y) => x - y);
+  return s.length ? s[Math.floor(s.length / 2)] : NaN;
+}
+export async function regionMap(env, region) {
+  const reg = LDONG.regions.find((r) => String(r.code) === String(region));
+  if (!reg) return { ok: false, error: "bad_region" };
+  const rows = await call(env, "ko", "areaBasedList2", {
+    lDongRegnCd: String(region), contentTypeId: SIGHTS_TYPE.ko, numOfRows: 1000, pageNo: 1, arrange: "A",
+  });
+  const by = new Map();
+  for (const x of rows) {
+    const lat = parseFloat(x.mapy), lng = parseFloat(x.mapx), sg = String(x.lDongSignguCd || "");
+    if (!sg || !Number.isFinite(lat) || !Number.isFinite(lng)) continue;
+    if (!by.has(sg)) by.set(sg, { lat: [], lng: [] });
+    by.get(sg).lat.push(lat); by.get(sg).lng.push(lng);
+  }
+  const sigungu = reg.sigungu
+    .filter((s) => by.has(String(s.code)))
+    .map((s) => {
+      const p = by.get(String(s.code));
+      return { code: s.code, ko: s.ko, en: s.en, lat: median(p.lat), lng: median(p.lng), n: p.lat.length };
+    });
+  return { ok: true, region: { code: reg.code, ko: reg.ko, en: reg.en }, sigungu };
+}
