@@ -14,13 +14,18 @@
   },
   // OPENAI_API_KEY enables GPT-6 Luna through the Responses API.
   // Fallback order: Claude Haiku (ANTHROPIC_API_KEY), then Workers AI.
-  "ai": { "binding": "AI" }
+  "ai": { "binding": "AI" },
+  // Plain (non-secret) vars live here so `wrangler deploy` keeps them in sync
+  // with the dashboard (a dashboard-only var is dropped on the next deploy).
+  "vars": {
+    "MAIL_FROM": "Korea Trip Hub <hello@send.ktriphub.com>"
+  }
   // --- Place Report (TourAPI) ---
   // Required secret (otherwise /api/place/* returns 503 not_configured):
   //   wrangler secret put TOURAPI_KEY      # data.go.kr 공공데이터포털 Decoding key
-  // Email delivery (/api/place/send) needs two more secrets (else 503 not_configured):
+  // Email delivery (/api/place/send) also needs (else 503 not_configured):
   //   wrangler secret put RESEND_API_KEY   # resend.com API key (with a verified sending domain)
-  //   wrangler secret put MAIL_FROM        # e.g. "Korea Trip Hub <hello@ktriphub.com>"
+  //   MAIL_FROM                            # set in "vars" above (not a secret)
   // Optional response cache (feature works without it, just uncached). To enable:
   //   wrangler kv namespace create PLACE_CACHE
   // then add (with the printed id) and redeploy:
