@@ -10,6 +10,7 @@ import copyAll from "../data/place-report-ui.json";
 import { klookSearch, stay22Embed, DISCLOSURE } from "../lib/booking";
 import { track } from "../lib/analytics";
 import { loadLeaflet, OSM_TILES } from "../lib/leaflet";
+import { shareToKakao } from "../lib/kakao-share";
 
 const COLORS = { sights: "#1f6feb", food: "#c2410c", lodging: "#0f9d7a", shopping: "#b7791f" };
 const EMAIL_OK = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -35,6 +36,13 @@ export default function PlaceReport({ locale }) {
   const [status, setStatus] = useState("loading"); // loading | ok | notfound | failed | empty
   const [rep, setRep] = useState(null);
   const [active, setActive] = useState("s1");
+  // Hidden while the visitor explores with the map / step-by-step tabs above.
+  const [exploring, setExploring] = useState(false);
+  useEffect(() => {
+    const on = (e) => setExploring(!!e.detail && e.detail.tab !== "search");
+    window.addEventListener("prs:tab", on);
+    return () => window.removeEventListener("prs:tab", on);
+  }, []);
   const mapRef = useRef(null);
   const mapObj = useRef(null);
 
@@ -83,7 +91,7 @@ export default function PlaceReport({ locale }) {
       }
     });
     return () => { cancelled = true; if (mapObj.current) { mapObj.current.remove(); mapObj.current = null; } };
-  }, [status, rep, t]);
+  }, [status, rep, t, exploring]);
 
   // Active-section highlight for the sticky TOC.
   useEffect(() => {
@@ -95,9 +103,9 @@ export default function PlaceReport({ locale }) {
     }, { rootMargin: "-20% 0px -70% 0px" });
     secs.forEach((s) => ob.observe(s));
     return () => ob.disconnect();
-  }, [status]);
+  }, [status, exploring]);
 
-  if (status === "empty") return null;
+  if (status === "empty" || exploring) return null;
   if (status === "loading") return <div className="prr-state"><span className="prr-spin" aria-hidden="true" /> {t.state.loading}</div>;
   if (status === "notfound" || status === "failed") {
     return (
@@ -214,6 +222,7 @@ export default function PlaceReport({ locale }) {
             <p>{t.cta.sub}</p>
             <div className="prr-cta-row">
               <EmailCTA locale={locale} t={t} />
+              <button className="btn prr-kakao" onClick={() => shareKakao(rep, t)}>💬 {t.cta.kakao}</button>
               <button className="btn" onClick={() => shareReport(place.title)}>↗ {t.cta.sns}</button>
               <button className="btn" onClick={() => window.print()}>📄 {t.cta.pdf}</button>
               <button className="btn" onClick={() => saveReport(place.title)}>🔖 {t.cta.save}</button>
@@ -253,6 +262,20 @@ function Cards({ items, t }) {
       ))}
     </div>
   );
+}
+
+// KakaoTalk card: place name, region + what's nearby, the hero photo, a link back here.
+async function shareKakao(rep, t) {
+  const p = rep.place;
+  const c = rep.counts || {};
+  const description = [
+    p.region ? `📍 ${p.region}` : "",
+    `${t.legend.sights} ${c.sights || 0} · ${t.legend.food} ${c.food || 0} · ${t.legend.stay} ${c.lodging || 0}`,
+  ].filter(Boolean).join("\n");
+  const url = window.location.href;
+  track("share_click", { channel: "kakao", context: "place_report" });
+  const ok = await shareToKakao({ title: `${p.title} — ktriphub`, description, imageUrl: p.hero, url, buttonTitle: "ktriphub" });
+  if (!ok) shareReport(p.title); // SDK blocked/unavailable: native share sheet or copy link
 }
 
 function shareReport(title) {

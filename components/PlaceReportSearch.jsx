@@ -87,6 +87,12 @@ export default function PlaceReportSearch({ locale, level = 2 }) {
   const [q, setQ] = useState("");
   const [tab, setTab] = useState("search");
   const H = level === 1 ? "h1" : "h2";
+  // On /report/ the current report sits below this section. While the visitor explores
+  // (map / step tabs) it would look like it's stuck there, so PlaceReport hides itself.
+  const selectTab = (id) => {
+    setTab(id);
+    try { window.dispatchEvent(new CustomEvent("prs:tab", { detail: { tab: id } })); } catch { /* old browsers */ }
+  };
 
   const go = (val, label) => {
     const v = (val == null ? q : val).trim();
@@ -104,7 +110,7 @@ export default function PlaceReportSearch({ locale, level = 2 }) {
       <p className="prs-sub">{t.sub}</p>
       <div className="prs-tabs" role="tablist">
         {[["search", tb.tabSearch], ["map", tb.tabMap], ["browse", tb.tabBrowse]].map(([id, label]) => (
-          <button key={id} type="button" role="tab" aria-selected={tab === id} className={`prs-tab${tab === id ? " on" : ""}`} onClick={() => setTab(id)}>{label}</button>
+          <button key={id} type="button" role="tab" aria-selected={tab === id} className={`prs-tab${tab === id ? " on" : ""}`} onClick={() => selectTab(id)}>{label}</button>
         ))}
       </div>
       {tab === "search" && (

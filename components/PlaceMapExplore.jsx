@@ -21,7 +21,10 @@ const REGION_SHORT = {
   ko: { 11: "서울", 28: "인천", 41: "경기", 51: "강원", 43: "충북", 44: "충남", 36110: "세종", 30: "대전", 47: "경북", 27: "대구", 52: "전북", 12: "광주·전남", 48: "경남", 31: "울산", 26: "부산", 50: "제주" },
   en: { 11: "Seoul", 28: "Incheon", 41: "Gyeonggi", 51: "Gangwon", 43: "Chungbuk", 44: "Chungnam", 36110: "Sejong", 30: "Daejeon", 47: "Gyeongbuk", 27: "Daegu", 52: "Jeonbuk", 12: "Gwangju·Jeonnam", 48: "Gyeongnam", 31: "Ulsan", 26: "Busan", 50: "Jeju" },
 };
-const KOREA_VIEW = [[33.1, 125.9], [38.6, 129.6]];
+// Wide enough to leave sea on both sides for the pulled-out labels.
+const KOREA_VIEW = [[33.0, 124.2], [38.7, 131.3]];
+const LABEL_GAP = 30;   // px between stacked labels
+const LABEL_ROOM = 120; // px kept free at the map edge for a label's width
 const PIN = { sights: "#1f6feb", festival: "#d6336c", food: "#c2410c", stay: "#0f9d7a", shopping: "#b7791f", course: "#7048e8" };
 
 function esc(s) {
@@ -119,15 +122,51 @@ export default function PlaceMapExplore({ locale, t, badge }) {
       }
       return;
     }
-    LDONG.regions.forEach((r) => {
-      const c = REGION_CENTER[r.code];
+    // Country view: a dot on each region, its label pulled out to the west or east sea
+    // with a leader line, labels stacked at least LABEL_GAP px apart so none overlap
+    // (16 regions crowd the capital area and Chungcheong otherwise).
+    const regions = LDONG.regions.filter((r) => REGION_CENTER[r.code]).map((r) => {
       // Chinese: drop the administrative suffix (济州特别自治道 -> 济州, 釜山广域市 -> 釜山).
       const short = (locale === "zh" || locale === "zh-TW") && r[locale]
         ? r[locale].replace(/(统合特别市|統合特別市|特别自治道|特別自治道|特别自治市|特別自治市|特别市|特別市|广域市|廣域市)$/, "")
         : REGION_SHORT[locale === "ko" ? "ko" : "en"][r.code];
-      if (c) bubble(c[0], c[1], short || nameOf(r), false, () => pickRegion(r));
+      return { r, c: REGION_CENTER[r.code], label: short || nameOf(r) };
     });
+    const drawCountry = () => {
+      g.clearLayers();
+      const size = m.getSize();
+      const mid = m.latLngToContainerPoint([36.2, 127.75]).x;
+      const sides = { w: [], e: [] };
+      for (const it of regions) {
+        it.p = m.latLngToContainerPoint(it.c);
+        (it.p.x < mid ? sides.w : sides.e).push(it);
+      }
+      for (const [side, items] of Object.entries(sides)) {
+        if (!items.length) continue;
+        items.sort((a, b) => a.p.y - b.p.y);
+        const ys = items.map((it) => it.p.y);
+        for (let i = 1; i < ys.length; i++) ys[i] = Math.max(ys[i], ys[i - 1] + LABEL_GAP);
+        const over = ys[ys.length - 1] - (size.y - 18);
+        if (over > 0) {
+          ys[ys.length - 1] -= over;
+          for (let i = ys.length - 2; i >= 0; i--) ys[i] = Math.min(ys[i], ys[i + 1] - LABEL_GAP);
+        }
+        const edge = side === "w"
+          ? Math.max(LABEL_ROOM, Math.min(...items.map((it) => it.p.x)) - 56)
+          : Math.min(size.x - LABEL_ROOM, Math.max(...items.map((it) => it.p.x)) + 56);
+        items.forEach((it, i) => {
+          const at = m.containerPointToLatLng(L.point(edge, Math.max(18, ys[i])));
+          L.polyline([it.c, at], { className: "pmap-leader", weight: 1.5, interactive: false }).addTo(g);
+          L.circleMarker(it.c, { radius: 5, className: "pmap-dot", weight: 2 }).on("click", () => pickRegion(it.r)).addTo(g);
+          const icon = L.divIcon({ className: "pmap-pin", html: `<span class="pmap-bubble pmap-${side}">${esc(it.label)}</span>`, iconSize: null });
+          L.marker(at, { icon, keyboard: true, title: it.label }).on("click", () => pickRegion(it.r)).addTo(g);
+        });
+      }
+    };
     m.fitBounds(KOREA_VIEW);
+    drawCountry();
+    m.on("zoomend", drawCountry);
+    return () => { m.off("zoomend", drawCountry); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ready, region, sgList, sigungu, list, cat, locale]);
 

@@ -1300,6 +1300,9 @@
 .prs-date { color: var(--text); font-weight: 600; }
 .prs-more { display: block; margin: 14px auto 0; }
 .prs-src { text-align: center; font-size: .75rem; color: var(--faint); margin: 10px 0 0; }
+/* KakaoTalk share button: Kakao's brand yellow on dark text in both themes. */
+.btn.prr-kakao { background: #FEE500; color: #191919; border-color: #FEE500; }
+.btn.prr-kakao:hover { filter: brightness(.96); }
 /* Map explore tab */
 .pmap-crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0 0 8px; font-size: .9rem; color: var(--faint); }
 .pmap-crumbs button { border: none; background: none; padding: 2px 4px; color: var(--primary); font-weight: 700; cursor: pointer; font-size: inherit; }
@@ -1312,6 +1315,11 @@
 .leaflet-div-icon.pmap-pin { background: none; border: none; }
 .pmap-bubble { display: inline-block; transform: translate(-50%, -50%); white-space: nowrap; padding: 5px 10px; border-radius: 999px; background: var(--surface); color: var(--text); border: 2px solid var(--primary); font: 700 12px/1.2 var(--sans); box-shadow: 0 2px 8px rgba(0,0,0,.18); cursor: pointer; }
 .pmap-bubble:hover, .pmap-bubble.on { background: var(--primary); color: var(--on-primary); }
+/* Country view: labels sit at the end of a leader line — west labels end at it, east labels start at it. */
+.pmap-bubble.pmap-w { transform: translate(-100%, -50%); }
+.pmap-bubble.pmap-e { transform: translate(0, -50%); }
+.leaflet-container .pmap-leader { stroke: var(--primary); stroke-opacity: .7; }
+.leaflet-container .pmap-dot { stroke: #fff; fill: var(--primary); fill-opacity: 1; cursor: pointer; }
 @media (max-width: 560px) { .pmap-map { height: 360px; } .pmap-bubble { padding: 4px 8px; font-size: 11px; } }
 @media (max-width: 900px) { .prs-results { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .prs-step { max-width: none; flex-basis: 100%; } .prs-browse .prs-btn { width: 100%; } .prs-results { grid-template-columns: 1fr 1fr; gap: 8px; } }
