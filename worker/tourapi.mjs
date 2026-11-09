@@ -162,6 +162,21 @@ function bucketize(rawItems, limits = { sights: 6, food: 6, shopping: 4, lodging
   return out;
 }
 
+// Sections that would show fewer than MIN_PER_SECTION entries.
+const MIN_PER_SECTION = 3;
+const TOPUP_CLASS = { food: "FD", lodging: "AC", shopping: "SH" };
+function thinBuckets(raw) {
+  const b = bucketize(raw);
+  return ["sights", "food", "lodging"].filter((k) => b[k].length < MIN_PER_SECTION);
+}
+// For each thin food/lodging/shopping section, fetch that category alone and append.
+async function topUp(raw, fetchClass) {
+  const b = bucketize(raw);
+  const thin = Object.keys(TOPUP_CLASS).filter((k) => b[k].length < MIN_PER_SECTION);
+  const extra = await Promise.all(thin.map((k) => fetchClass(TOPUP_CLASS[k]).catch(() => [])));
+  return raw.concat(...extra);
+}
+
 function dedupeSort(items) {
   return [...items].sort((a, b) => {
     const da = parseFloat(a.dist || "99999") || 99999;
@@ -236,6 +251,7 @@ export async function buildReport(env, input, locale, opts = {}) {
     const params = { areaCode, numOfRows: 100, pageNo: 1, arrange: "O" };
     if (sigunguCode) params.sigunguCode = sigunguCode;
     raw = await call(env, lc, "areaBasedList2", params);
+    raw = await topUp(raw, (cls) => call(env, lc, "areaBasedList2", { ...params, lclsSystm1: cls }));
     const sgg = await call(env, lc, "areaCode2", { areaCode, numOfRows: 40, pageNo: 1 });
     if (!r.sigunguCode) {
       drilldown = sgg
@@ -262,15 +278,19 @@ export async function buildReport(env, input, locale, opts = {}) {
     landmark = pick;
     // Street address of a store isn't the place's location: show only 시도 + 시군구 then.
     region = useLandmarkText ? (pick.addr || "") : (pick.addr || "").split(" ").slice(0, 2).join(" ");
-    // Dense city centres fill up within 1.3 km; rural spots (e.g. 예산시장) have nothing
-    // that close, so widen to 5 km, then 20 km (TourAPI max) until there is enough to show.
+    // Nearest-first (arrange E — the default order is alphabetical, which dropped close
+    // places once a wide radius had >100 hits). Dense centres fill up within 1.3 km; rural
+    // spots (예산시장, 화천 산천어축제) need 5 km, then 20 km (TourAPI max). Widen until every
+    // main section has a few entries, not just until the total looks big enough.
     const radii = opts.radius ? [opts.radius] : [1300, 5000, 20000];
+    const geo = { mapX: center.lng, mapY: center.lat, numOfRows: 100, pageNo: 1, arrange: "E" };
     for (const radius of radii) {
-      raw = await call(env, lc, "locationBasedList2", {
-        mapX: center.lng, mapY: center.lat, radius, numOfRows: 100, pageNo: 1,
-      });
-      if (raw.filter((x) => BUCKET[x.lclsSystm1]).length >= 8) break;
+      raw = await call(env, lc, "locationBasedList2", { ...geo, radius });
+      if (!thinBuckets(raw).length) break;
     }
+    // Still thin (e.g. many shops crowd out restaurants in the 100 nearest): ask for that
+    // category alone, nearest-first, at the widest radius.
+    raw = await topUp(raw, (cls) => call(env, lc, "locationBasedList2", { ...geo, radius: radii[radii.length - 1], lclsSystm1: cls }));
     raw = dedupeSort(raw);
   }
 
