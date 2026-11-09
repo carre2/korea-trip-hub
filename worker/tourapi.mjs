@@ -7,6 +7,8 @@
 // - serviceKey is the account's Decoding key, held in env.TOURAPI_KEY (Worker secret).
 // - firstimage URLs come as http:// from tong.visitkorea — upgrade to https.
 
+import SIGUNGU_KO from "./sigungu-ko.json" with { type: "json" };
+
 const HOST = "https://apis.data.go.kr/B551011";
 
 // locale -> native TourAPI language service. Locales without one fall back to English data.
@@ -88,6 +90,17 @@ async function matchSigungu(env, lc, q) {
   if (!qn || qn.length > 15) return null;
   const qBase = stripSigungu(qn);
   if (qBase.length < 2) return null;
+  if (lc === "ko") {
+    // Static table (worker/sigungu-ko.json): live lookup costs 18 TourAPI calls per
+    // search and exhausted the daily quota on 2026-11-09.
+    const hits = SIGUNGU_KO.sigungu.filter(([, , name]) => !LEGACY_SIGUNGU.has(name) &&
+      (norm(name) === qn || stripSigungu(name) === qBase));
+    if (hits.length !== 1) return null;
+    const [areaCode, sigunguCode, name] = hits[0];
+    return { areaCode, sigunguCode, name, areaName: SIGUNGU_KO.areas[areaCode] || "" };
+  }
+  // Latin-script names (Gyeongju-si): live lookup, served from Cloudflare's edge cache.
+  if (!/^[a-z][a-z -]*$/.test(qn)) return null;
   const areas = await call(env, lc, "areaCode2", { numOfRows: 40, pageNo: 1 });
   const lists = await Promise.all(areas.map((a) =>
     call(env, lc, "areaCode2", { areaCode: a.code, numOfRows: 60, pageNo: 1 })
@@ -125,7 +138,9 @@ async function call(env, locale, op, params) {
     ...params,
   });
   const url = `${HOST}/${svc}/${op}?${qs.toString()}`;
-  const res = await fetch(url, { cf: { cacheTtl: 86400, cacheEverything: true } });
+  // Cache successes for a day, never errors: a cached 429 (quota) or 403 (key) would
+  // keep failing for 24 h after the cause is fixed.
+  const res = await fetch(url, { cf: { cacheEverything: true, cacheTtlByStatus: { "200-299": 86400, "300-599": 0 } } });
   if (!res.ok) {
     // data.go.kr gateway errors carry a numeric returnReasonCode (e.g. 30 = key not registered).
     let rc = "";
@@ -220,19 +235,22 @@ function dedupeSort(items) {
 export async function resolvePlace(env, input, locale) {
   const q = String(input || "").trim();
   if (!q) return { ok: false, error: "empty" };
-  const lc = nativeLocale(locale);
+  // A Hangul query is resolved against Korean data whatever the page language: in
+  // EngService2 "명동" only matches titles like "… (명동닭갈비)" (→ Chuncheon) and
+  // "경주" never matches the English sigungu name "Gyeongju-si".
+  const lc = /[가-힣]/.test(q) ? "ko" : nativeLocale(locale);
 
   // 1) broad region?
   const areaCode = matchAreaCode(q);
   if (areaCode) {
-    return { ok: true, mode: "area", areaCode, title: q, candidates: [] };
+    return { ok: true, mode: "area", areaCode, title: q, candidates: [], resolvedIn: lc };
   }
 
   // 2) city/county/district (시군구)?
   const sgg = await matchSigungu(env, lc, q);
   if (sgg) {
     return { ok: true, mode: "area", areaCode: sgg.areaCode, sigunguCode: sgg.sigunguCode,
-      title: q, region: `${sgg.areaName} ${sgg.name}`.trim(), candidates: [] };
+      title: q, region: `${sgg.areaName} ${sgg.name}`.trim(), candidates: [], resolvedIn: lc };
   }
 
   // 3) keyword search -> candidates (points). TourAPI orders alphabetically, so fetch a
@@ -254,7 +272,7 @@ export async function resolvePlace(env, input, locale) {
   // Only a real attraction (or an exact name match) may supply the headline photo/overview.
   // A branch store that merely contains the query just anchors the map position.
   const landmarkOk = rel === 3 || SIGHT_CLASSES.has(pick.cls);
-  return { ok: true, mode: "radius", title, coords: { lat: pick.lat, lng: pick.lng }, pick, landmarkOk, candidates: cands.slice(0, 6) };
+  return { ok: true, mode: "radius", title, coords: { lat: pick.lat, lng: pick.lng }, pick, landmarkOk, candidates: cands.slice(0, 6), resolvedIn: lc };
 }
 
 // Pull the overview/hero for a landmark content id.
@@ -296,7 +314,8 @@ export async function buildReport(env, input, locale, opts = {}) {
     landmark = raw.find((x) => isSight(x) && x.firstimage) || raw.find((x) => x.firstimage) || raw[0] || null;
     useLandmarkText = false;
     const sggName = sigunguCode ? ((sgg.find((s) => String(s.code) === String(sigunguCode)) || {}).name || "") : "";
-    region = r.region || `${await areaName(env, lc, areaCode)} ${sggName}`.trim();
+    // r.region is in the language the query was resolved in; show the page's language.
+    region = (r.resolvedIn === lc && r.region) || `${await areaName(env, lc, areaCode)} ${sggName}`.trim();
     center = landmark ? { lat: parseFloat(landmark.mapy), lng: parseFloat(landmark.mapx) } : null;
   } else {
     // point: pick (user-chosen contentId or best) -> radius search
@@ -338,7 +357,8 @@ export async function buildReport(env, input, locale, opts = {}) {
   }
   const landmarkId = landmark && (landmark.id || landmark.contentid);
   if (landmarkId && useLandmarkText) {
-    const d = await detail(env, locale, landmarkId);
+    // Content ids are per language service: read the landmark from the one it came from.
+    const d = await detail(env, r.resolvedIn || locale, landmarkId);
     overview = d.overview;
     if (!hero) hero = d.image;
   }

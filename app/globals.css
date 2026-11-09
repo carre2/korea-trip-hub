@@ -1260,7 +1260,10 @@
 
 /* ============ Place Report (장소 레포트 생성기) ============ */
 /* Flagship search */
-.prs { padding: 26px 18px 10px; text-align: center; }
+.prs { padding: 26px 18px 10px; text-align: center; position: relative; overflow: hidden; overflow: clip; }
+/* Diagonal corner ribbon marking the place-report feature as a beta test. */
+.beta-ribbon { position: absolute; top: 18px; right: -38px; width: 150px; padding: 4px 0; transform: rotate(45deg); background: var(--amber); color: #fff; font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,.18); pointer-events: none; z-index: 1; }
+@media (max-width: 560px) { .beta-ribbon { top: 12px; right: -44px; font-size: .6rem; } }
 .prs .eyebrow { display: inline-block; }
 .prs-title { margin: .25em 0 .1em; font-size: clamp(1.5rem, 3.5vw, 2.1rem); font-weight: 800; letter-spacing: -.01em; }
 .prs-sub { margin: 0 auto 16px; max-width: 620px; color: var(--muted); font-size: .98rem; }

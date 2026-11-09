@@ -18,6 +18,7 @@ export default function PlaceReportSearch({ locale, level = 2 }) {
 
   return (
     <section className="prs wrap" aria-labelledby="prs-title">
+      <span className="beta-ribbon" aria-label="Beta test">Beta test</span>
       <span className="eyebrow">{t.eyebrow}</span>
       <H id="prs-title" className="prs-title">{t.title}</H>
       <p className="prs-sub">{t.sub}</p>
