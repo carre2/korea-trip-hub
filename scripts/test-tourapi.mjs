@@ -19,19 +19,24 @@ const KEY = readKey();
 if (!KEY) { console.log("SKIP: no TOURAPI_KEY (set env var or .dev.vars)"); process.exit(0); }
 const env = { TOURAPI_KEY: KEY };
 
+// [query, locale, opts, extra check]
 const CASES = [
-  ["명동", "ko", {}],
+  // 2026-11-09 regression: headline came from "가나안경원 명동점" (store) — must be 명동 itself.
+  ["명동", "ko", {}, (r) => r.place.title === "명동" && !/안경/.test(r.place.overview + r.place.region)],
   ["Myeongdong", "en", {}],
-  ["제주도", "ko", {}],          // area + sigungu drill-down
-  ["예산시장", "ko", { radius: 15000 }], // resolve + rural radius
+  ["제주도", "ko", {}, (r) => r.place.mode === "area" && r.drilldown.length > 0], // area + sigungu drill-down
+  // 2026-11-09 regression: "경주" became "경주 감은사지" — a 시군구 name is a region report.
+  ["경주", "ko", {}, (r) => r.place.title === "경주" && r.place.mode === "area" && /경주시/.test(r.place.region)],
+  ["Gyeongju", "en", {}, (r) => r.place.mode === "area"],
+  ["예산시장", "ko", {}],           // rural: radius widens automatically
 ];
 
 let fail = 0;
-for (const [q, locale, opts] of CASES) {
+for (const [q, locale, opts, extra] of CASES) {
   try {
     const r = await buildReport(env, q, locale, opts);
     const total = r.ok ? r.counts.sights + r.counts.food + r.counts.lodging : 0;
-    const ok = r.ok && total > 0 && r.place.title;
+    const ok = r.ok && total > 0 && r.place.title && (!extra || extra(r));
     console.log(
       ok ? "PASS" : "FAIL",
       `${q} / ${locale}`,

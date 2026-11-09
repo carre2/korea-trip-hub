@@ -65,6 +65,41 @@ function relScore(title, qn) {
   if (t.includes(qn)) return 1;
   return 0;
 }
+// Candidate ordering: relevance first, then real attractions over shops/food/stays
+// (a branch store "가나안경원 명동점" must never outrank "명동"), then having a photo.
+const SIGHT_CLASSES = new Set(["VE", "HS", "NA", "EV", "EX"]);
+function candScore(c, qn) {
+  return relScore(c.title, qn) * 10 + (SIGHT_CLASSES.has(c.cls) ? 2 : 0) + (c.image ? 1 : 0);
+}
+
+// 시군구 (city/county/district) match, e.g. "경주" / "경주시" / "Gyeongju" / "Gyeongju-si".
+// Returns { areaCode, sigunguCode, name, areaName } only when exactly one sigungu matches
+// (ambiguous names like "중구" or "고성" fall through to keyword search).
+function stripSigungu(name) {
+  return norm(name).replace(/(-si|-gun|-gu|시|군|구)$/, "");
+}
+async function matchSigungu(env, lc, q) {
+  const qn = norm(q);
+  if (!qn || qn.length > 15) return null;
+  const qBase = stripSigungu(qn);
+  if (qBase.length < 2) return null;
+  const areas = await call(env, lc, "areaCode2", { numOfRows: 40, pageNo: 1 });
+  const lists = await Promise.all(areas.map((a) =>
+    call(env, lc, "areaCode2", { areaCode: a.code, numOfRows: 60, pageNo: 1 })
+      .then((list) => list.map((s) => ({ areaCode: Number(a.code), areaName: a.name, sigunguCode: String(s.code), name: s.name })))
+      .catch(() => [])));
+  const hits = lists.flat().filter((s) => s.name && !LEGACY_SIGUNGU.has(s.name) &&
+    (norm(s.name) === qn || stripSigungu(s.name) === qBase));
+  return hits.length === 1 ? hits[0] : null;
+}
+async function areaName(env, lc, areaCode) {
+  try {
+    const areas = await call(env, lc, "areaCode2", { numOfRows: 40, pageNo: 1 });
+    const a = areas.find((x) => Number(x.code) === Number(areaCode));
+    return a ? a.name : "";
+  } catch { return ""; }
+}
+
 export function matchAreaCode(input) {
   const q = norm(input);
   for (const [code, names] of AREA_CODES) {
@@ -148,22 +183,33 @@ export async function resolvePlace(env, input, locale) {
     return { ok: true, mode: "area", areaCode, title: q, candidates: [] };
   }
 
-  // 2) keyword search -> candidates (points)
-  const hits = await call(env, lc, "searchKeyword2", { keyword: q, numOfRows: 10, pageNo: 1, arrange: "O" });
+  // 2) city/county/district (시군구)?
+  const sgg = await matchSigungu(env, lc, q);
+  if (sgg) {
+    return { ok: true, mode: "area", areaCode: sgg.areaCode, sigunguCode: sgg.sigunguCode,
+      title: q, region: `${sgg.areaName} ${sgg.name}`.trim(), candidates: [] };
+  }
+
+  // 3) keyword search -> candidates (points). TourAPI orders alphabetically, so fetch a
+  // full page: with 10 rows "명동" (exact) was cut off behind "가나안경원 명동점".
+  const hits = await call(env, lc, "searchKeyword2", { keyword: q, numOfRows: 100, pageNo: 1, arrange: "O" });
   const cands = hits
     .filter((h) => h.mapx && h.mapy)
     .map((h) => ({
       id: h.contentid, title: h.title, addr: h.addr1 || "",
       lat: parseFloat(h.mapy), lng: parseFloat(h.mapx),
-      image: toHttps(h.firstimage || ""),
+      image: toHttps(h.firstimage || ""), cls: h.lclsSystm1 || "",
     }));
   if (!cands.length) return { ok: false, error: "not_found" };
-  // Rank by relevance to the query (not TourAPI's alphabetical arrange), tie-break on having a photo.
   const qn = norm(q);
-  cands.sort((a, b) => (relScore(b.title, qn) - relScore(a.title, qn)) || ((b.image ? 1 : 0) - (a.image ? 1 : 0)));
+  cands.sort((a, b) => candScore(b, qn) - candScore(a, qn));
   const pick = cands[0];
-  const title = relScore(pick.title, qn) >= 2 ? pick.title : q; // prefer the user's wording unless an exact/prefix match
-  return { ok: true, mode: "radius", title, coords: { lat: pick.lat, lng: pick.lng }, pick, candidates: cands.slice(0, 6) };
+  const rel = relScore(pick.title, qn);
+  const title = rel === 3 ? pick.title : q; // keep the user's wording unless it is the same place
+  // Only a real attraction (or an exact name match) may supply the headline photo/overview.
+  // A branch store that merely contains the query just anchors the map position.
+  const landmarkOk = rel === 3 || SIGHT_CLASSES.has(pick.cls);
+  return { ok: true, mode: "radius", title, coords: { lat: pick.lat, lng: pick.lng }, pick, landmarkOk, candidates: cands.slice(0, 6) };
 }
 
 // Pull the overview/hero for a landmark content id.
@@ -180,44 +226,63 @@ export async function buildReport(env, input, locale, opts = {}) {
   if (!r.ok) return { ok: false, error: r.error };
 
   let center = null, areaCode = opts.areaCode || r.areaCode || null;
-  let title = r.title, landmark = null, drilldown = [];
+  let title = r.title, landmark = null, drilldown = [], region = "";
+  let useLandmarkText = true;
   let raw = [];
 
   if (r.mode === "area" || areaCode) {
-    // broad region: area-based list + sigungu drill-down
+    // broad region: area-based list (+ sigungu drill-down at province level)
+    const sigunguCode = opts.sigunguCode || r.sigunguCode || "";
     const params = { areaCode, numOfRows: 100, pageNo: 1, arrange: "O" };
-    if (opts.sigunguCode) params.sigunguCode = opts.sigunguCode;
+    if (sigunguCode) params.sigunguCode = sigunguCode;
     raw = await call(env, lc, "areaBasedList2", params);
     const sgg = await call(env, lc, "areaCode2", { areaCode, numOfRows: 40, pageNo: 1 });
-    drilldown = sgg
-      .filter((s) => s.name && !LEGACY_SIGUNGU.has(s.name))
-      .map((s) => ({ code: s.code, name: s.name }));
-    const withImg = raw.find((x) => x.firstimage);
-    landmark = withImg || raw[0] || null;
-    const anchor = landmark ? { lat: parseFloat(landmark.mapy), lng: parseFloat(landmark.mapx) } : null;
-    center = anchor;
+    if (!r.sigunguCode) {
+      drilldown = sgg
+        .filter((s) => s.name && !LEGACY_SIGUNGU.has(s.name))
+        .map((s) => ({ code: s.code, name: s.name }));
+    }
+    // TourAPI has no popularity order, so any single item here is arbitrary (alphabetical):
+    // use one attraction only for the photo + map centre, never as the region's overview.
+    const isSight = (x) => BUCKET[x.lclsSystm1] === "sights";
+    landmark = raw.find((x) => isSight(x) && x.firstimage) || raw.find((x) => x.firstimage) || raw[0] || null;
+    useLandmarkText = false;
+    const sggName = sigunguCode ? ((sgg.find((s) => String(s.code) === String(sigunguCode)) || {}).name || "") : "";
+    region = r.region || `${await areaName(env, lc, areaCode)} ${sggName}`.trim();
+    center = landmark ? { lat: parseFloat(landmark.mapy), lng: parseFloat(landmark.mapx) } : null;
   } else {
     // point: pick (user-chosen contentId or best) -> radius search
     let pick = r.pick;
+    useLandmarkText = r.landmarkOk !== false;
     if (opts.contentId) {
       const byId = r.candidates.find((c) => c.id === opts.contentId);
-      if (byId) { pick = byId; title = byId.title; } // explicit user pick overrides the title guess
+      if (byId) { pick = byId; title = byId.title; useLandmarkText = true; } // explicit user pick overrides the title guess
     }
     center = { lat: pick.lat, lng: pick.lng };
     landmark = pick;
-    const radius = opts.radius || 1300;
-    raw = await call(env, lc, "locationBasedList2", {
-      mapX: center.lng, mapY: center.lat, radius, numOfRows: 100, pageNo: 1,
-    });
+    // Street address of a store isn't the place's location: show only 시도 + 시군구 then.
+    region = useLandmarkText ? (pick.addr || "") : (pick.addr || "").split(" ").slice(0, 2).join(" ");
+    // Dense city centres fill up within 1.3 km; rural spots (e.g. 예산시장) have nothing
+    // that close, so widen to 5 km, then 20 km (TourAPI max) until there is enough to show.
+    const radii = opts.radius ? [opts.radius] : [1300, 5000, 20000];
+    for (const radius of radii) {
+      raw = await call(env, lc, "locationBasedList2", {
+        mapX: center.lng, mapY: center.lat, radius, numOfRows: 100, pageNo: 1,
+      });
+      if (raw.filter((x) => BUCKET[x.lclsSystm1]).length >= 8) break;
+    }
     raw = dedupeSort(raw);
   }
 
   const sections = bucketize(raw);
 
   // overview + hero
-  let overview = "", hero = (landmark && (landmark.image || landmark.firstimage)) ? toHttps(landmark.image || landmark.firstimage) : "";
+  let overview = "", hero = "";
+  if (landmark && (useLandmarkText || r.mode === "area")) {
+    hero = (landmark.image || landmark.firstimage) ? toHttps(landmark.image || landmark.firstimage) : "";
+  }
   const landmarkId = landmark && (landmark.id || landmark.contentid);
-  if (landmarkId) {
+  if (landmarkId && useLandmarkText) {
     const d = await detail(env, locale, landmarkId);
     overview = d.overview;
     if (!hero) hero = d.image;
@@ -228,8 +293,6 @@ export async function buildReport(env, input, locale, opts = {}) {
       if (withImg) { hero = withImg.image; break; }
     }
   }
-
-  const region = (landmark && (landmark.addr || landmark.addr1)) || "";
 
   return {
     ok: true,
