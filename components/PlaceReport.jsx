@@ -41,6 +41,7 @@ function readParams() {
   return {
     q: (sp.get("q") || "").trim(),
     contentId: sp.get("contentId") || "",
+    cl: sp.get("cl") || "",
     areaCode: sp.get("areaCode") || "",
     sigunguCode: sp.get("sigunguCode") || "",
   };
@@ -61,6 +62,7 @@ export default function PlaceReport({ locale }) {
     const api = new URLSearchParams({ locale });
     if (p.q) api.set("q", p.q);
     if (p.contentId) api.set("contentId", p.contentId);
+    if (p.contentId && p.cl) api.set("cl", p.cl);
     if (p.areaCode) api.set("areaCode", p.areaCode);
     if (p.sigunguCode) api.set("sigunguCode", p.sigunguCode);
     try {
@@ -300,7 +302,7 @@ function EmailCTA({ locale, t }) {
     try {
       const res = await fetch("/api/place/send", {
         method: "POST", headers: { "content-type": "application/json" },
-        body: JSON.stringify({ email, consent, locale, q: p.q, areaCode: p.areaCode }),
+        body: JSON.stringify({ email, consent, locale, q: p.q, areaCode: p.areaCode, sigunguCode: p.sigunguCode, contentId: p.contentId, cl: p.cl }),
       });
       const d = await res.json().catch(() => ({ ok: false }));
       if (res.ok && d.ok) { setSt("sent"); track("place_report_email", { locale }); }

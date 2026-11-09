@@ -3,7 +3,7 @@
 // for /api/chat (POST) and for paths with no matching asset (404s).
 
 import {entryLanguage} from '../lib/entry-language.mjs';
-import {resolvePlace, buildReport} from './tourapi.mjs';
+import {resolvePlace, buildReport, browse, BROWSE_CATS} from './tourapi.mjs';
 import reportUi from '../data/place-report-ui.json';
 
 const MODEL_CF = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"; // Workers AI (current)
@@ -170,6 +170,7 @@ async function handlePlaceReport(request, env, ctx) {
   const q = (url.searchParams.get("q") || "").trim();
   const locale = url.searchParams.get("locale") || "en";
   const contentId = url.searchParams.get("contentId") || "";
+  const cl = url.searchParams.get("cl") || ""; // service the contentId came from (browse list)
   const areaCode = url.searchParams.get("areaCode") || "";
   const sigunguCode = url.searchParams.get("sigunguCode") || "";
   if (!q && !areaCode) return json({ ok: false, error: "empty" }, 400);
@@ -177,10 +178,12 @@ async function handlePlaceReport(request, env, ctx) {
 
   const opts = {};
   if (contentId) opts.contentId = contentId;
+  if (contentId && cl) opts.cl = cl;
   if (areaCode) opts.areaCode = Number(areaCode);
   if (sigunguCode) opts.sigunguCode = sigunguCode;
 
-  const cacheKey = `report:${locale}:${q.toLowerCase()}:${contentId}:${areaCode}:${sigunguCode}`;
+  // v2: legal-dong (법정동) region codes — v1 entries used the retired areaCode scheme.
+  const cacheKey = `report:v2:${locale}:${q.toLowerCase()}:${contentId}:${cl}:${areaCode}:${sigunguCode}`;
   const jsonHeaders = { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=3600" };
   if (env.PLACE_CACHE) {
     try {
@@ -198,6 +201,38 @@ async function handlePlaceReport(request, env, ctx) {
   } catch (e) {
     console.error("place/report", safeDetail(e));
     return json({ ok: false, error: "report_failed", detail: safeDetail(e) }, 502);
+  }
+}
+
+// ---- Browse (단계별 찾기): region -> sigungu -> category list ----
+async function handlePlaceBrowse(request, env, ctx) {
+  const url = new URL(request.url);
+  const sp = url.searchParams;
+  const locale = sp.get("locale") || "en";
+  const args = {
+    region: sp.get("region") || "", sigungu: sp.get("sigungu") || "",
+    cat: sp.get("cat") || "", when: sp.get("when") || "upcoming", page: sp.get("page") || "1",
+  };
+  if (!args.region || !BROWSE_CATS.includes(args.cat)) return json({ ok: false, error: "bad_request" }, 400);
+  if (!["upcoming", "month", "next"].includes(args.when)) args.when = "upcoming";
+  if (!env.TOURAPI_KEY) return json({ ok: false, error: "not_configured" }, 503);
+  // Festival windows depend on today's date (KST), so they are part of the key.
+  const day = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
+  const key = `browse:v1:${locale}:${args.region}:${args.sigungu}:${args.cat}:${args.cat === "festival" ? args.when + ":" + day : ""}:${args.page}`;
+  const headers = { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=3600" };
+  if (env.PLACE_CACHE) {
+    try { const hit = await env.PLACE_CACHE.get(key); if (hit) return new Response(hit, { headers }); } catch { /* miss */ }
+  }
+  try {
+    const out = await browse(env, locale, args);
+    const payload = JSON.stringify(out);
+    if (out.ok && env.PLACE_CACHE) {
+      try { ctx.waitUntil(env.PLACE_CACHE.put(key, payload, { expirationTtl: 86400 })); } catch { /* best effort */ }
+    }
+    return new Response(payload, { status: out.ok ? 200 : 400, headers });
+  } catch (e) {
+    console.error("place/browse", safeDetail(e));
+    return json({ ok: false, error: "browse_failed", detail: safeDetail(e) }, 502);
   }
 }
 
@@ -248,7 +283,13 @@ async function handlePlaceSend(request, env) {
   }
 
   let rep;
-  try { rep = await buildReport(env, q, locale, areaCode ? { areaCode: Number(areaCode) } : {}); }
+  // Same target as the report on screen: sub-area drill-down or a place picked from a browse list.
+  const opts = {};
+  if (areaCode) opts.areaCode = areaCode;
+  if (body.sigunguCode) opts.sigunguCode = String(body.sigunguCode).slice(0, 10);
+  if (body.contentId) opts.contentId = String(body.contentId).slice(0, 20);
+  if (body.contentId && (body.cl === "ko" || body.cl === "en")) opts.cl = body.cl;
+  try { rep = await buildReport(env, q, locale, opts); }
   catch (e) { console.error("place/send", safeDetail(e)); return json({ ok: false, error: "report_failed", detail: safeDetail(e) }, 502); }
   if (!rep.ok) return json({ ok: false, error: "not_found" }, 404);
 
@@ -287,6 +328,7 @@ export default {
     }
     if (url.pathname === "/api/place/resolve") return handlePlaceResolve(request, env);
     if (url.pathname === "/api/place/report") return handlePlaceReport(request, env, ctx);
+    if (url.pathname === "/api/place/browse") return handlePlaceBrowse(request, env, ctx);
     if (url.pathname === "/api/place/send") {
       if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);
       return handlePlaceSend(request, env);

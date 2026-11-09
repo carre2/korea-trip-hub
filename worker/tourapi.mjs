@@ -7,7 +7,7 @@
 // - serviceKey is the account's Decoding key, held in env.TOURAPI_KEY (Worker secret).
 // - firstimage URLs come as http:// from tong.visitkorea — upgrade to https.
 
-import SIGUNGU_KO from "./sigungu-ko.json" with { type: "json" };
+import LDONG from "./ldong.json" with { type: "json" };
 
 const HOST = "https://apis.data.go.kr/B551011";
 
@@ -37,29 +37,64 @@ const BUCKET = {
   VE: "sights", HS: "sights", NA: "sights", EV: "sights",
 };
 
-// 시도 (province/metro) name -> areaCode, for detecting broad-region ("area") input.
-// Codes are stable and shared across language services.
-const AREA_CODES = [
-  [1,  ["서울", "서울특별시", "seoul"]],
-  [2,  ["인천", "인천광역시", "incheon"]],
-  [3,  ["대전", "대전광역시", "daejeon"]],
-  [4,  ["대구", "대구광역시", "daegu"]],
-  [5,  ["광주", "광주광역시", "gwangju"]],
-  [6,  ["부산", "부산광역시", "busan"]],
-  [7,  ["울산", "울산광역시", "ulsan"]],
-  [8,  ["세종", "세종특별자치시", "sejong"]],
-  [31, ["경기", "경기도", "gyeonggi", "gyeonggi-do"]],
-  [32, ["강원", "강원도", "강원특별자치도", "gangwon", "gangwon-do"]],
-  [33, ["충북", "충청북도", "chungbuk", "north chungcheong", "chungcheongbuk-do"]],
-  [34, ["충남", "충청남도", "chungnam", "south chungcheong", "chungcheongnam-do"]],
-  [35, ["경북", "경상북도", "gyeongbuk", "north gyeongsang", "gyeongsangbuk-do"]],
-  [36, ["경남", "경상남도", "gyeongnam", "south gyeongsang", "gyeongsangnam-do"]],
-  [37, ["전북", "전라북도", "jeonbuk", "north jeolla", "jeollabuk-do"]],
-  [38, ["전남", "전라남도", "jeonnam", "south jeolla", "jeollanam-do"]],
-  [39, ["제주", "제주도", "제주특별자치도", "jeju", "jeju-do", "jeju island"]],
-];
-// legacy sigungu names (areaCode2 still returns these) to hide in drill-down.
-const LEGACY_SIGUNGU = new Set(["남제주군", "북제주군"]);
+// Regions use legal-dong (법정동) codes — lDongRegnCd (시도) / lDongSignguCd (시군구).
+// TourAPI marks the old areaCode2 "미사용" and newer listings carry no areacode at all:
+// 경주 sights via areaCode = 23, via lDong = 201 (checked 2026-11-09). Names come from a
+// static table (worker/ldong.json, ko+en, fetched 2026-11-09) — zero API calls to match.
+// 광주광역시 and 전라남도 are now one region: 12 전남광주통합특별시.
+const REGION_ALIASES = {
+  11: ["서울", "seoul"], 28: ["인천", "incheon"], 30: ["대전", "daejeon"], 27: ["대구", "daegu"],
+  12: ["광주", "전남", "전라남도", "광주광역시", "gwangju", "jeonnam", "south jeolla", "jeollanam-do"],
+  26: ["부산", "busan"], 31: ["울산", "ulsan"], 36110: ["세종", "sejong"],
+  41: ["경기", "gyeonggi"], 51: ["강원", "강원도", "gangwon"],
+  43: ["충북", "chungbuk", "north chungcheong"], 44: ["충남", "chungnam", "south chungcheong"],
+  47: ["경북", "gyeongbuk", "north gyeongsang"], 48: ["경남", "gyeongnam", "south gyeongsang"],
+  52: ["전북", "전라북도", "jeonbuk", "north jeolla", "jeollabuk-do"],
+  50: ["제주", "제주도", "jeju", "jeju island"],
+};
+export function regionName(code, lc) {
+  const r = LDONG.regions.find((x) => String(x.code) === String(code));
+  return r ? (lc === "ko" ? r.ko : r.en || r.ko) : "";
+}
+export function sigunguName(regionCode, sgCode, lc) {
+  const r = LDONG.regions.find((x) => String(x.code) === String(regionCode));
+  const s = r && r.sigungu.find((x) => String(x.code) === String(sgCode));
+  return s ? (lc === "ko" ? s.ko : s.en || s.ko) : "";
+}
+export function sigunguList(regionCode, lc) {
+  const r = LDONG.regions.find((x) => String(x.code) === String(regionCode));
+  return r ? r.sigungu.map((s) => ({ code: s.code, name: lc === "ko" ? s.ko : s.en || s.ko })) : [];
+}
+
+// 시도 match: full name in either language or a common short form.
+export function matchAreaCode(input) {
+  const q = norm(input);
+  for (const r of LDONG.regions) {
+    const names = [r.ko, r.en, ...(REGION_ALIASES[r.code] || [])].map(norm);
+    if (names.includes(q)) return r.code;
+  }
+  return null;
+}
+
+// 시군구 match, e.g. "경주" / "경주시" / "Gyeongju" / "Gyeongju-si". Only a unique match counts
+// (ambiguous names like "중구" or "고성" fall through to keyword search).
+function stripSigungu(name) {
+  return norm(name).replace(/(-si|-gun|-gu|시|군|구)$/, "");
+}
+function matchSigungu(q) {
+  const qn = norm(q);
+  if (!qn || qn.length > 15) return null;
+  const qBase = stripSigungu(qn);
+  if (qBase.length < 2) return null;
+  const hits = [];
+  for (const r of LDONG.regions) {
+    for (const s of r.sigungu) {
+      if ([s.ko, s.en].some((n) => n && (norm(n) === qn || stripSigungu(n) === qBase))) hits.push({ r, s });
+    }
+  }
+  if (hits.length !== 1) return null;
+  return { areaCode: hits[0].r.code, sigunguCode: hits[0].s.code };
+}
 
 function norm(s) {
   return String(s || "").trim().toLowerCase().replace(/\s+/g, " ");
@@ -77,53 +112,6 @@ function relScore(title, qn) {
 const SIGHT_CLASSES = new Set(["VE", "HS", "NA", "EV", "EX"]);
 function candScore(c, qn) {
   return relScore(c.title, qn) * 10 + (SIGHT_CLASSES.has(c.cls) ? 2 : 0) + (c.image ? 1 : 0);
-}
-
-// 시군구 (city/county/district) match, e.g. "경주" / "경주시" / "Gyeongju" / "Gyeongju-si".
-// Returns { areaCode, sigunguCode, name, areaName } only when exactly one sigungu matches
-// (ambiguous names like "중구" or "고성" fall through to keyword search).
-function stripSigungu(name) {
-  return norm(name).replace(/(-si|-gun|-gu|시|군|구)$/, "");
-}
-async function matchSigungu(env, lc, q) {
-  const qn = norm(q);
-  if (!qn || qn.length > 15) return null;
-  const qBase = stripSigungu(qn);
-  if (qBase.length < 2) return null;
-  if (lc === "ko") {
-    // Static table (worker/sigungu-ko.json): live lookup costs 18 TourAPI calls per
-    // search and exhausted the daily quota on 2026-11-09.
-    const hits = SIGUNGU_KO.sigungu.filter(([, , name]) => !LEGACY_SIGUNGU.has(name) &&
-      (norm(name) === qn || stripSigungu(name) === qBase));
-    if (hits.length !== 1) return null;
-    const [areaCode, sigunguCode, name] = hits[0];
-    return { areaCode, sigunguCode, name, areaName: SIGUNGU_KO.areas[areaCode] || "" };
-  }
-  // Latin-script names (Gyeongju-si): live lookup, served from Cloudflare's edge cache.
-  if (!/^[a-z][a-z -]*$/.test(qn)) return null;
-  const areas = await call(env, lc, "areaCode2", { numOfRows: 40, pageNo: 1 });
-  const lists = await Promise.all(areas.map((a) =>
-    call(env, lc, "areaCode2", { areaCode: a.code, numOfRows: 60, pageNo: 1 })
-      .then((list) => list.map((s) => ({ areaCode: Number(a.code), areaName: a.name, sigunguCode: String(s.code), name: s.name })))
-      .catch(() => [])));
-  const hits = lists.flat().filter((s) => s.name && !LEGACY_SIGUNGU.has(s.name) &&
-    (norm(s.name) === qn || stripSigungu(s.name) === qBase));
-  return hits.length === 1 ? hits[0] : null;
-}
-async function areaName(env, lc, areaCode) {
-  try {
-    const areas = await call(env, lc, "areaCode2", { numOfRows: 40, pageNo: 1 });
-    const a = areas.find((x) => Number(x.code) === Number(areaCode));
-    return a ? a.name : "";
-  } catch { return ""; }
-}
-
-export function matchAreaCode(input) {
-  const q = norm(input);
-  for (const [code, names] of AREA_CODES) {
-    if (names.some((n) => q === n || q === norm(n))) return code;
-  }
-  return null;
 }
 
 function toHttps(u) {
@@ -247,10 +235,10 @@ export async function resolvePlace(env, input, locale) {
   }
 
   // 2) city/county/district (시군구)?
-  const sgg = await matchSigungu(env, lc, q);
+  const sgg = matchSigungu(q);
   if (sgg) {
     return { ok: true, mode: "area", areaCode: sgg.areaCode, sigunguCode: sgg.sigunguCode,
-      title: q, region: `${sgg.areaName} ${sgg.name}`.trim(), candidates: [], resolvedIn: lc };
+      title: q, candidates: [], resolvedIn: lc };
   }
 
   // 3) keyword search -> candidates (points). TourAPI orders alphabetically, so fetch a
@@ -275,6 +263,26 @@ export async function resolvePlace(env, input, locale) {
   return { ok: true, mode: "radius", title, coords: { lat: pick.lat, lng: pick.lng }, pick, landmarkOk, candidates: cands.slice(0, 6), resolvedIn: lc };
 }
 
+// lDong query params for a region (+ optional sigungu).
+function ldongParams(regionCode, sigunguCode) {
+  const p = { lDongRegnCd: String(regionCode) };
+  if (sigunguCode) p.lDongSignguCd = String(sigunguCode);
+  return p;
+}
+
+// A specific content id (picked from a browse list) as a point target.
+async function resolveContent(env, contentId, cl, fallbackTitle) {
+  const svcLc = cl === "ko" ? "ko" : nativeLocale(cl);
+  const d = (await call(env, svcLc, "detailCommon2", { contentId }))[0];
+  if (!d || !d.mapx || !d.mapy) return { ok: false, error: "not_found" };
+  const pick = {
+    id: String(d.contentid || contentId), title: d.title || fallbackTitle || "", addr: d.addr1 || "",
+    lat: parseFloat(d.mapy), lng: parseFloat(d.mapx), image: toHttps(d.firstimage || ""), cls: d.lclsSystm1 || "",
+  };
+  return { ok: true, mode: "radius", title: pick.title, coords: { lat: pick.lat, lng: pick.lng }, pick,
+    landmarkOk: true, candidates: [pick], resolvedIn: svcLc };
+}
+
 // Pull the overview/hero for a landmark content id.
 async function detail(env, locale, contentId) {
   const d = (await call(env, nativeLocale(locale), "detailCommon2", { contentId }))[0];
@@ -285,7 +293,10 @@ async function detail(env, locale, contentId) {
 // Build the full report JSON. opts: { contentId, areaCode, sigunguCode, radius }
 export async function buildReport(env, input, locale, opts = {}) {
   const lc = nativeLocale(locale);
-  const r = await resolvePlace(env, input, locale);
+  // A contentId from the browse list (opts.cl = the service it came from) is the place
+  // itself: no keyword guessing.
+  const r = opts.contentId && opts.cl ? await resolveContent(env, opts.contentId, opts.cl, input)
+    : await resolvePlace(env, input, locale);
   if (!r.ok) return { ok: false, error: r.error };
 
   let center = null, areaCode = opts.areaCode || r.areaCode || null;
@@ -297,25 +308,17 @@ export async function buildReport(env, input, locale, opts = {}) {
   if (r.mode === "area" || areaCode) {
     // broad region: area-based list (+ sigungu drill-down at province level)
     const sigunguCode = opts.sigunguCode || r.sigunguCode || "";
-    const params = { areaCode, numOfRows: 100, pageNo: 1, arrange: "O" };
-    if (sigunguCode) params.sigunguCode = sigunguCode;
+    const params = { ...ldongParams(areaCode, sigunguCode), numOfRows: 100, pageNo: 1, arrange: "O" };
     raw = await call(env, lc, "areaBasedList2", params);
     raw = await topUp(raw, (cls) => call(env, lc, "areaBasedList2", { ...params, lclsSystm1: cls }));
     fetchKo = (cls) => call(env, "ko", "areaBasedList2", cls ? { ...params, lclsSystm1: cls } : params);
-    const sgg = await call(env, lc, "areaCode2", { areaCode, numOfRows: 40, pageNo: 1 });
-    if (!r.sigunguCode) {
-      drilldown = sgg
-        .filter((s) => s.name && !LEGACY_SIGUNGU.has(s.name))
-        .map((s) => ({ code: s.code, name: s.name }));
-    }
+    if (!r.sigunguCode) drilldown = sigunguList(areaCode, lc);
     // TourAPI has no popularity order, so any single item here is arbitrary (alphabetical):
     // use one attraction only for the photo + map centre, never as the region's overview.
     const isSight = (x) => BUCKET[x.lclsSystm1] === "sights";
     landmark = raw.find((x) => isSight(x) && x.firstimage) || raw.find((x) => x.firstimage) || raw[0] || null;
     useLandmarkText = false;
-    const sggName = sigunguCode ? ((sgg.find((s) => String(s.code) === String(sigunguCode)) || {}).name || "") : "";
-    // r.region is in the language the query was resolved in; show the page's language.
-    region = (r.resolvedIn === lc && r.region) || `${await areaName(env, lc, areaCode)} ${sggName}`.trim();
+    region = `${regionName(areaCode, lc)} ${sigunguCode ? sigunguName(areaCode, sigunguCode, lc) : ""}`.trim();
     center = landmark ? { lat: parseFloat(landmark.mapy), lng: parseFloat(landmark.mapx) } : null;
   } else {
     // point: pick (user-chosen contentId or best) -> radius search
@@ -388,5 +391,70 @@ export async function buildReport(env, input, locale, opts = {}) {
     },
     source: { provider: "Korea Tourism Organization TourAPI", service: serviceFor(lc), collectedAt: new Date().toISOString().slice(0, 10) },
     localeData: lc, // which language's data was actually used (for fallback transparency)
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Browse (단계별 찾기): region -> sigungu -> category list, one page at a time.
+// Categories: sights | festival | food | stay | shopping | course.
+const SIGHTS_TYPE = { ko: 12, en: 76 }; // contentTypeId of 관광지 in each service
+const CAT_CLASS = { food: "FD", stay: "AC", shopping: "SH", course: "C01" };
+export const BROWSE_CATS = ["sights", "festival", "food", "stay", "shopping", "course"];
+const BROWSE_ROWS = 12;
+
+function ymd(d) {
+  return `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, "0")}${String(d.getUTCDate()).padStart(2, "0")}`;
+}
+// Festival window in KST. upcoming = on now or later; month = through this month; next = next month.
+export function festivalWindow(when, now = new Date()) {
+  const kst = new Date(now.getTime() + 9 * 3600 * 1000);
+  const y = kst.getUTCFullYear(), m = kst.getUTCMonth();
+  if (when === "next") {
+    return { eventStartDate: ymd(new Date(Date.UTC(y, m + 1, 1))), eventEndDate: ymd(new Date(Date.UTC(y, m + 2, 0))) };
+  }
+  if (when === "month") return { eventStartDate: ymd(kst), eventEndDate: ymd(new Date(Date.UTC(y, m + 1, 0))) };
+  return { eventStartDate: ymd(kst) };
+}
+
+function browseItem(x, cl) {
+  const it = {
+    id: String(x.contentid), title: x.title || "", addr: x.addr1 || "",
+    lat: parseFloat(x.mapy), lng: parseFloat(x.mapx), image: toHttps(x.firstimage || x.firstimage2 || ""), cl,
+  };
+  if (x.eventstartdate) { it.start = x.eventstartdate; it.end = x.eventenddate || ""; }
+  return it;
+}
+
+async function browseCall(env, lc, cat, base, when) {
+  if (cat === "festival") {
+    return call(env, lc, "searchFestival2", { ...base, ...festivalWindow(when), arrange: "A" });
+  }
+  const p = { ...base, arrange: "Q" }; // Q = recently updated, with a photo
+  if (cat === "sights") p.contentTypeId = SIGHTS_TYPE[lc] || SIGHTS_TYPE.en;
+  else p.lclsSystm1 = CAT_CLASS[cat];
+  return call(env, lc, "areaBasedList2", p);
+}
+
+export async function browse(env, locale, { region, sigungu = "", cat, when = "upcoming", page = 1 }) {
+  if (!LDONG.regions.some((r) => String(r.code) === String(region))) return { ok: false, error: "bad_region" };
+  if (!BROWSE_CATS.includes(cat)) return { ok: false, error: "bad_category" };
+  const lc = nativeLocale(locale);
+  const base = { ...ldongParams(region, sigungu), numOfRows: BROWSE_ROWS, pageNo: Math.max(1, Number(page) || 1) };
+  // Courses only exist in the Korean service.
+  const primaryLc = cat === "course" ? "ko" : lc;
+  let items = (await browseCall(env, primaryLc, cat, base, when)).filter((x) => x.contentid).map((x) => browseItem(x, primaryLc));
+  if (primaryLc !== "ko" && items.length < MIN_PER_SECTION && base.pageNo === 1) {
+    const ko = (await browseCall(env, "ko", cat, base, when).catch(() => [])).map((x) => browseItem(x, "ko"));
+    for (const k of ko) {
+      if (items.length >= BROWSE_ROWS) break;
+      if (!items.some((x) => Number.isFinite(k.lat) && nearSame(x, k))) items.push({ ...k, lang: "ko" });
+    }
+  }
+  if (cat === "festival") items.sort((a, b) => (a.start || "").localeCompare(b.start || ""));
+  if (primaryLc === "ko" && lc !== "ko") items = items.map((x) => ({ ...x, lang: "ko" }));
+  return {
+    ok: true, items, page: base.pageNo, more: items.length >= BROWSE_ROWS,
+    region: regionName(region, lc), sigungu: sigungu ? sigunguName(region, sigungu, lc) : "",
+    source: { provider: "Korea Tourism Organization TourAPI", collectedAt: new Date().toISOString().slice(0, 10) },
   };
 }

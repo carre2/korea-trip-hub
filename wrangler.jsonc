@@ -21,15 +21,15 @@
   // with the dashboard (a dashboard-only var is dropped on the next deploy).
   "vars": {
     "MAIL_FROM": "Korea Trip Hub <hello@send.ktriphub.com>"
-  }
+  },
+  // Place-report response cache + browse lists + send rate limit (created 2026-11-09).
+  "kv_namespaces": [{ "binding": "PLACE_CACHE", "id": "aab7b8664dd84632b2fda61e44b3da73" }]
   // --- Place Report (TourAPI) ---
   // Required secret (otherwise /api/place/* returns 503 not_configured):
   //   wrangler secret put TOURAPI_KEY      # data.go.kr 공공데이터포털 Decoding key
   // Email delivery (/api/place/send) also needs (else 503 not_configured):
   //   wrangler secret put RESEND_API_KEY   # resend.com API key (with a verified sending domain)
   //   MAIL_FROM                            # set in "vars" above (not a secret)
-  // Optional response cache (feature works without it, just uncached). To enable:
-  //   wrangler kv namespace create PLACE_CACHE
-  // then add (with the printed id) and redeploy:
-  //   "kv_namespaces": [{ "binding": "PLACE_CACHE", "id": "<paste-id-here>" }]
+  // PLACE_CACHE KV is bound above (namespace created with:
+  //   wrangler kv namespace create PLACE_CACHE)
 }
