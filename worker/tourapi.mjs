@@ -86,7 +86,12 @@ async function call(env, locale, op, params) {
   });
   const url = `${HOST}/${svc}/${op}?${qs.toString()}`;
   const res = await fetch(url, { cf: { cacheTtl: 86400, cacheEverything: true } });
-  if (!res.ok) throw new Error("tourapi_http_" + res.status);
+  if (!res.ok) {
+    // data.go.kr gateway errors carry a numeric returnReasonCode (e.g. 30 = key not registered).
+    let rc = "";
+    try { rc = ((await res.text()).match(/returnReasonCode"?\s*[:>]\s*"?(\d{1,3})/) || [])[1] || ""; } catch { /* ignore */ }
+    throw new Error("tourapi_http_" + res.status + (rc ? "_r" + rc : ""));
+  }
   let body;
   try { body = (await res.json())?.response?.body; } catch { throw new Error("tourapi_badjson"); }
   const items = body && body.items;

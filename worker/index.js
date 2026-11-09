@@ -159,8 +159,9 @@ async function handlePlaceResolve(request, env) {
   if (!env.TOURAPI_KEY) return json({ ok: false, error: "not_configured" }, 503);
   try {
     return json(await resolvePlace(env, q, locale));
-  } catch {
-    return json({ ok: false, error: "resolve_failed" }, 502);
+  } catch (e) {
+    console.error("place/resolve", safeDetail(e));
+    return json({ ok: false, error: "resolve_failed", detail: safeDetail(e) }, 502);
   }
 }
 
@@ -194,8 +195,9 @@ async function handlePlaceReport(request, env, ctx) {
       try { ctx.waitUntil(env.PLACE_CACHE.put(cacheKey, payload, { expirationTtl: 604800 })); } catch { /* best effort */ }
     }
     return new Response(payload, { status: rep.ok ? 200 : 404, headers: jsonHeaders });
-  } catch {
-    return json({ ok: false, error: "report_failed" }, 502);
+  } catch (e) {
+    console.error("place/report", safeDetail(e));
+    return json({ ok: false, error: "report_failed", detail: safeDetail(e) }, 502);
   }
 }
 
@@ -247,7 +249,7 @@ async function handlePlaceSend(request, env) {
 
   let rep;
   try { rep = await buildReport(env, q, locale, areaCode ? { areaCode: Number(areaCode) } : {}); }
-  catch { return json({ ok: false, error: "report_failed" }, 502); }
+  catch (e) { console.error("place/send", safeDetail(e)); return json({ ok: false, error: "report_failed", detail: safeDetail(e) }, 502); }
   if (!rep.ok) return json({ ok: false, error: "not_found" }, 404);
 
   const t = reportUi[locale] || reportUi.en;
@@ -261,6 +263,14 @@ async function handlePlaceSend(request, env) {
     if (!res.ok) return json({ ok: false, error: "send_failed" }, 502);
   } catch { return json({ ok: false, error: "send_failed" }, 502); }
   return json({ ok: true });
+}
+
+// Provider-failure code safe to expose: only our own "tourapi_*" codes
+// (status / parse class), otherwise just the error type. Never the URL,
+// which carries the service key.
+function safeDetail(e) {
+  const m = String((e && e.message) || "");
+  return /^tourapi_[a-z0-9_]{1,40}$/.test(m) ? m : ((e && e.name) || "Error");
 }
 
 export default {
