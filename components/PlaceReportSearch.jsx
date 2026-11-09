@@ -18,7 +18,7 @@ import { BROWSE_CATS, BROWSE_WHENS, fetchBrowse, ResultCards } from "./PlaceBrow
 const EXAMPLE_QUERIES = ["명동", "제주", "경주", "예산시장"];
 
 function Browse({ locale, t, badge }) {
-  const nameOf = (x) => (locale === "ko" ? x.ko : x.en || x.ko);
+  const nameOf = (x) => x[locale] || (locale === "ko" ? x.ko : x.en || x.ko);
   const [region, setRegion] = useState("");
   const [sigungu, setSigungu] = useState("");
   const [cat, setCat] = useState("");

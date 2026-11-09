@@ -37,7 +37,8 @@ _작성 2026-11-08 · 프로젝트 ktriphub.com · 상태: Phase 0(스파이크+
 - **인증키 = 계정 공통 Decoding 키 1개**(승인된 모든 서비스에 적용).
 - ★**키는 Cloudflare Worker 시크릿에 저장**한다. 레포지토리/프런트엔드에 절대 노출 금지.
 - ★**트래픽 = 오퍼레이션별 하루 1,000건**(개발계정). 초과 시 `429` + `returnReasonCode 22`. 2026-11-09 영문 `areaCode2`가 소진돼 영어 리포트 전체가 막힌 사례 있음. 운영계정 신청 2026-11-09(국문; 영문도 신청 필요) — 승인 후 한도 재확인.
-- 미승인 언어 서비스(Jpn/Chs/Cht/Fre/Spn/Rus)는 `403` + reason `30`. 코드의 `APPROVED`(worker/tourapi.mjs)에 있는 언어만 네이티브 호출, 나머지는 영문.
+- 승인 현황(2026-11-09, `node scripts/check-tourapi-services.mjs`): **Kor·Eng·Chs·Cht·Fre·Spn ✅**, Jpn·Rus ❌(`403` reason `30`). `APPROVED`(worker/tourapi.mjs)에 있는 언어만 네이티브 호출, 나머지(ja·ru·vi·th·id·ms)는 영문 + 국문 보충.
+- 외국어 서비스 제목은 "明洞(명동)"처럼 괄호에 한국어가 붙음 → 괄호 뗀 이름으로도 매칭. 개요는 HTML 조각(`&eacute;`, `<br>`) → `plainText()`로 정리.
 - 키 넣기: `.dev.vars`의 값을 `wrangler secret put TOURAPI_KEY`로 파이프(대시보드 붙여넣기는 공백/잘림으로 r30 났던 이력).
 
 ### 2.2 엔드포인트 (검증됨)

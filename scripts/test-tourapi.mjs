@@ -33,6 +33,10 @@ const CASES = [
   ["산천어축제", "en", {}, (r) => r.counts.food >= 3 && r.sections.food.some((x) => x.lang === "ko")],
   // 2026-11-09: key is approved for Kor/Eng only; ja/zh/fr/... must fall back, not 403.
   ["Myeongdong", "ja", {}, (r) => r.localeData === "en"],
+  // 2026-11-09: Chs/Cht/Fre/Spn approved — native-script search, native region names, clean text.
+  ["明洞", "zh", {}, (r) => r.localeData === "zh" && r.place.title === "明洞" && r.place.overview.length > 0],
+  ["济州", "zh", {}, (r) => r.place.mode === "area" && /济州/.test(r.place.region)],
+  ["Myeongdong", "fr", {}, (r) => r.localeData === "fr" && !/&[a-z]+;/.test(r.place.overview)],
 ];
 
 let fail = 0;

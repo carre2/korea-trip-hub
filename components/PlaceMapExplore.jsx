@@ -29,7 +29,7 @@ function esc(s) {
 }
 
 export default function PlaceMapExplore({ locale, t, badge }) {
-  const nameOf = (x) => (locale === "ko" ? x.ko : x.en || x.ko);
+  const nameOf = (x) => x[locale] || (locale === "ko" ? x.ko : x.en || x.ko);
   const el = useRef(null);
   const mapRef = useRef(null);
   const layerRef = useRef(null);
@@ -121,7 +121,10 @@ export default function PlaceMapExplore({ locale, t, badge }) {
     }
     LDONG.regions.forEach((r) => {
       const c = REGION_CENTER[r.code];
-      const short = REGION_SHORT[locale === "ko" ? "ko" : "en"][r.code];
+      // Chinese: drop the administrative suffix (济州特别自治道 -> 济州, 釜山广域市 -> 釜山).
+      const short = (locale === "zh" || locale === "zh-TW") && r[locale]
+        ? r[locale].replace(/(统合特别市|統合特別市|特别自治道|特別自治道|特别自治市|特別自治市|特别市|特別市|广域市|廣域市)$/, "")
+        : REGION_SHORT[locale === "ko" ? "ko" : "en"][r.code];
       if (c) bubble(c[0], c[1], short || nameOf(r), false, () => pickRegion(r));
     });
     m.fitBounds(KOREA_VIEW);

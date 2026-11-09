@@ -18,11 +18,18 @@ const SERVICE = {
   fr: "FreService2", es: "SpnService2", ru: "RusService2",
 };
 const FALLBACK_LOCALE = "en";
-// Language services our data.go.kr key is approved for. Checked 2026-11-09: only
-// KorService2 + EngService2 answer; Jpn/Chs/Cht/Fre/Spn/Rus return 403 reason 30
-// ("SERVICE_KEY_IS_NOT_REGISTERED"), which broke ja/zh/fr/es/ru reports entirely.
-// After approving another service at data.go.kr (활용신청), add its locale here.
-const APPROVED = new Set(["ko", "en"]);
+// Language services our data.go.kr key is approved for (check with
+// scripts/check-tourapi-services.mjs). 2026-11-09: Kor, Eng, Chs, Cht, Fre, Spn answer;
+// Jpn and Rus still return 403 reason 30 ("SERVICE_KEY_IS_NOT_REGISTERED"), so ja/ru
+// use English data. After another approval at data.go.kr (활용신청), add its locale here.
+const APPROVED = new Set(["ko", "en", "zh", "zh-TW", "fr", "es"]);
+// Locales whose region names are in worker/ldong.json.
+const NAME_LOCALES = ["ko", "en", "zh", "zh-TW", "fr", "es"];
+// Name of a region / 시군구 entry in a locale: its own name, else English, else Korean.
+export function localName(x, lc) {
+  if (!x) return "";
+  return (lc && x[lc]) || (lc === "ko" ? x.ko : x.en || x.ko) || "";
+}
 export function serviceFor(locale) {
   return SERVICE[nativeLocale(locale)];
 }
@@ -40,7 +47,7 @@ const BUCKET = {
 // Regions use legal-dong (법정동) codes — lDongRegnCd (시도) / lDongSignguCd (시군구).
 // TourAPI marks the old areaCode2 "미사용" and newer listings carry no areacode at all:
 // 경주 sights via areaCode = 23, via lDong = 201 (checked 2026-11-09). Names come from a
-// static table (worker/ldong.json, ko+en, fetched 2026-11-09) — zero API calls to match.
+// static table (worker/ldong.json: ko, en, zh, zh-TW, fr, es; fetched 2026-11-09) — zero API calls to match.
 // 광주광역시 and 전라남도 are now one region: 12 전남광주통합특별시.
 const REGION_ALIASES = {
   11: ["서울", "seoul"], 28: ["인천", "incheon"], 30: ["대전", "daejeon"], 27: ["대구", "daegu"],
@@ -54,24 +61,31 @@ const REGION_ALIASES = {
 };
 export function regionName(code, lc) {
   const r = LDONG.regions.find((x) => String(x.code) === String(code));
-  return r ? (lc === "ko" ? r.ko : r.en || r.ko) : "";
+  return localName(r, lc);
 }
 export function sigunguName(regionCode, sgCode, lc) {
   const r = LDONG.regions.find((x) => String(x.code) === String(regionCode));
   const s = r && r.sigungu.find((x) => String(x.code) === String(sgCode));
-  return s ? (lc === "ko" ? s.ko : s.en || s.ko) : "";
+  return localName(s, lc);
 }
 export function sigunguList(regionCode, lc) {
   const r = LDONG.regions.find((x) => String(x.code) === String(regionCode));
-  return r ? r.sigungu.map((s) => ({ code: s.code, name: lc === "ko" ? s.ko : s.en || s.ko })) : [];
+  return r ? r.sigungu.map((s) => ({ code: s.code, name: localName(s, lc) })) : [];
 }
 
-// 시도 match: full name in either language or a common short form.
+// Chinese region suffixes: 济州特别自治道 -> 济州, 釜山广域市 -> 釜山, 首尔特别市 -> 首尔.
+function stripRegionZh(name) {
+  return norm(name).replace(/(统合特别市|統合特別市|特别自治道|特別自治道|特别自治市|特別自治市|特别市|特別市|广域市|廣域市|道)$/, "");
+}
+// 시도 match: full name in any table language, Chinese short form, or a common alias.
 export function matchAreaCode(input) {
   const q = norm(input);
+  if (!q) return null;
   for (const r of LDONG.regions) {
-    const names = [r.ko, r.en, ...(REGION_ALIASES[r.code] || [])].map(norm);
+    const full = NAME_LOCALES.map((k) => r[k]).filter(Boolean);
+    const names = [...full, ...(REGION_ALIASES[r.code] || [])].map(norm);
     if (names.includes(q)) return r.code;
+    if (["zh", "zh-TW"].some((k) => r[k] && stripRegionZh(r[k]) === q && q.length >= 2)) return r.code;
   }
   return null;
 }
@@ -79,7 +93,7 @@ export function matchAreaCode(input) {
 // 시군구 match, e.g. "경주" / "경주시" / "Gyeongju" / "Gyeongju-si". Only a unique match counts
 // (ambiguous names like "중구" or "고성" fall through to keyword search).
 function stripSigungu(name) {
-  return norm(name).replace(/(-si|-gun|-gu|시|군|구)$/, "");
+  return norm(name).replace(/(-si|-gun|-gu|시|군|구|市|郡|区|區)$/, "");
 }
 function matchSigungu(q) {
   const qn = norm(q);
@@ -89,7 +103,7 @@ function matchSigungu(q) {
   const hits = [];
   for (const r of LDONG.regions) {
     for (const s of r.sigungu) {
-      if ([s.ko, s.en].some((n) => n && (norm(n) === qn || stripSigungu(n) === qBase))) hits.push({ r, s });
+      if (NAME_LOCALES.some((k) => s[k] && (norm(s[k]) === qn || stripSigungu(s[k]) === qBase))) hits.push({ r, s });
     }
   }
   if (hits.length !== 1) return null;
@@ -100,12 +114,18 @@ function norm(s) {
   return String(s || "").trim().toLowerCase().replace(/\s+/g, " ");
 }
 // Relevance of a candidate title to the (normalized) query: exact > prefix > contains.
+// Foreign-service titles carry the Korean name in brackets — "Myeongdong (명동)",
+// "明洞(명동)" — so the title without that trailing bracket is compared too.
 function relScore(title, qn) {
-  const t = norm(title);
-  if (t === qn) return 3;
-  if (t.startsWith(qn)) return 2;
-  if (t.includes(qn)) return 1;
-  return 0;
+  const full = norm(title);
+  const bare = norm(String(title || "").replace(/s*[(（][^()（）]*[)）]s*$/, ""));
+  let best = 0;
+  for (const t of [full, bare]) {
+    if (t === qn) best = Math.max(best, 3);
+    else if (t.startsWith(qn)) best = Math.max(best, 2);
+    else if (t.includes(qn)) best = Math.max(best, 1);
+  }
+  return best;
 }
 // Candidate ordering: relevance first, then real attractions over shops/food/stays
 // (a branch store "가나안경원 명동점" must never outrank "명동"), then having a photo.
@@ -146,7 +166,7 @@ async function call(env, locale, op, params) {
 function poi(p) {
   return {
     id: p.contentid,
-    title: p.title || "",
+    title: plainText(p.title),
     addr: p.addr1 || "",
     lat: parseFloat(p.mapy),
     lng: parseFloat(p.mapx),
@@ -226,7 +246,7 @@ export async function resolvePlace(env, input, locale) {
   // A Hangul query is resolved against Korean data whatever the page language: in
   // EngService2 "명동" only matches titles like "… (명동닭갈비)" (→ Chuncheon) and
   // "경주" never matches the English sigungu name "Gyeongju-si".
-  const lc = /[가-힣]/.test(q) ? "ko" : nativeLocale(locale);
+  let lc = /[가-힣]/.test(q) ? "ko" : nativeLocale(locale);
 
   // 1) broad region?
   const areaCode = matchAreaCode(q);
@@ -243,11 +263,17 @@ export async function resolvePlace(env, input, locale) {
 
   // 3) keyword search -> candidates (points). TourAPI orders alphabetically, so fetch a
   // full page: with 10 rows "명동" (exact) was cut off behind "가나안경원 명동점".
-  const hits = await call(env, lc, "searchKeyword2", { keyword: q, numOfRows: 100, pageNo: 1, arrange: "O" });
+  let hits = await call(env, lc, "searchKeyword2", { keyword: q, numOfRows: 100, pageNo: 1, arrange: "O" });
+  // Chinese/French/Spanish titles rarely carry romanized names: a Latin query that finds
+  // nothing there ("Myeongdong" on a zh page) is retried against English data.
+  if (!hits.length && lc !== "en" && lc !== "ko" && /^[\x20-\x7e]+$/.test(q)) {
+    lc = "en";
+    hits = await call(env, lc, "searchKeyword2", { keyword: q, numOfRows: 100, pageNo: 1, arrange: "O" });
+  }
   const cands = hits
     .filter((h) => h.mapx && h.mapy)
     .map((h) => ({
-      id: h.contentid, title: h.title, addr: h.addr1 || "",
+      id: h.contentid, title: plainText(h.title), addr: h.addr1 || "",
       lat: parseFloat(h.mapy), lng: parseFloat(h.mapx),
       image: toHttps(h.firstimage || ""), cls: h.lclsSystm1 || "",
     }));
@@ -256,7 +282,9 @@ export async function resolvePlace(env, input, locale) {
   cands.sort((a, b) => candScore(b, qn) - candScore(a, qn));
   const pick = cands[0];
   const rel = relScore(pick.title, qn);
-  const title = rel === 3 ? pick.title : q; // keep the user's wording unless it is the same place
+  // Keep the user's wording unless it is the same place; "明洞(명동)" matched via its bare
+  // name shows as the user typed it, without the bracketed Korean.
+  const title = rel === 3 && norm(pick.title) === qn ? pick.title : q;
   // Only a real attraction (or an exact name match) may supply the headline photo/overview.
   // A branch store that merely contains the query just anchors the map position.
   const landmarkOk = rel === 3 || SIGHT_CLASSES.has(pick.cls);
@@ -284,10 +312,33 @@ async function resolveContent(env, contentId, cl, fallbackTitle) {
 }
 
 // Pull the overview/hero for a landmark content id.
+// Overviews arrive as HTML fragments: French/Spanish text is full of entities
+// ("&eacute;") and some entries carry <br>. Render as plain text.
+const ENTITIES = {
+  amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", laquo: "«", raquo: "»",
+  lsquo: "‘", rsquo: "’", ldquo: "“", rdquo: "”", hellip: "…", ndash: "–", mdash: "—", middot: "·",
+  iexcl: "¡", iquest: "¿", deg: "°", oelig: "œ", OElig: "Œ", aelig: "æ", szlig: "ß",
+};
+const ACCENTS = { acute: "́", grave: "̀", circ: "̂", uml: "̈", tilde: "̃", cedil: "̧", ring: "̊" };
+export function plainText(html) {
+  return String(html || "")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+    .replace(/&([a-zA-Z]+);/g, (m, name) => {
+      if (ENTITIES[name]) return ENTITIES[name];
+      const a = name.match(/^([a-zA-Z])(acute|grave|circ|uml|tilde|cedil|ring)$/);
+      return a ? (a[1] + ACCENTS[a[2]]).normalize("NFC") : m;
+    })
+    .replace(/[ \t]+\n/g, "\n")
+    .trim();
+}
+
 async function detail(env, locale, contentId) {
   const d = (await call(env, nativeLocale(locale), "detailCommon2", { contentId }))[0];
   if (!d) return { overview: "", image: "" };
-  return { overview: (d.overview || "").trim(), image: toHttps(d.firstimage || "") };
+  return { overview: plainText(d.overview), image: toHttps(d.firstimage || "") };
 }
 
 // Build the full report JSON. opts: { contentId, areaCode, sigunguCode, radius }
@@ -418,7 +469,7 @@ export function festivalWindow(when, now = new Date()) {
 
 function browseItem(x, cl) {
   const it = {
-    id: String(x.contentid), title: x.title || "", addr: x.addr1 || "",
+    id: String(x.contentid), title: plainText(x.title), addr: x.addr1 || "",
     lat: parseFloat(x.mapy), lng: parseFloat(x.mapx), image: toHttps(x.firstimage || x.firstimage2 || ""), cl,
   };
   if (x.eventstartdate) { it.start = x.eventstartdate; it.end = x.eventenddate || ""; }
