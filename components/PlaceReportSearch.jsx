@@ -12,6 +12,11 @@ import LDONG from "../worker/ldong.json";
 import PlaceMapExplore from "./PlaceMapExplore";
 import { BROWSE_CATS, BROWSE_WHENS, fetchBrowse, ResultCards } from "./PlaceBrowseCards";
 
+// Example chips show a localized name but search the Korean one: Hangul queries resolve
+// on every page language, while 明洞 / Мёндон / "Yesan Market" need language services
+// our TourAPI key doesn't have (checked 2026-11-09). Order matches search.examples.
+const EXAMPLE_QUERIES = ["명동", "제주", "경주", "예산시장"];
+
 function Browse({ locale, t, badge }) {
   const nameOf = (x) => (locale === "ko" ? x.ko : x.en || x.ko);
   const [region, setRegion] = useState("");
@@ -83,10 +88,12 @@ export default function PlaceReportSearch({ locale, level = 2 }) {
   const [tab, setTab] = useState("search");
   const H = level === 1 ? "h1" : "h2";
 
-  const go = (val) => {
+  const go = (val, label) => {
     const v = (val == null ? q : val).trim();
     if (!v) return;
-    window.location.href = `/${locale}/report/?q=${encodeURIComponent(v)}`;
+    const sp = new URLSearchParams({ q: v });
+    if (label && label !== v) sp.set("label", label);
+    window.location.href = `/${locale}/report/?${sp.toString()}`;
   };
 
   return (
@@ -115,8 +122,8 @@ export default function PlaceReportSearch({ locale, level = 2 }) {
           </form>
           <div className="prs-ex">
             <span className="prs-ex-label">{t.examplesLabel}:</span>
-            {t.examples.map((ex) => (
-              <button key={ex} className="prs-chip" type="button" onClick={() => go(ex)}>{ex}</button>
+            {t.examples.map((ex, i) => (
+              <button key={ex} className="prs-chip" type="button" onClick={() => go(EXAMPLE_QUERIES[i] || ex, ex)}>{ex}</button>
             ))}
           </div>
         </>

@@ -36,14 +36,19 @@ _작성 2026-11-08 · 프로젝트 ktriphub.com · 상태: Phase 0(스파이크+
   - `한국관광공사_고캠핑 정보 조회서비스` (캠핑장, 보너스)
 - **인증키 = 계정 공통 Decoding 키 1개**(승인된 모든 서비스에 적용).
 - ★**키는 Cloudflare Worker 시크릿에 저장**한다. 레포지토리/프런트엔드에 절대 노출 금지.
+- ★**트래픽 = 오퍼레이션별 하루 1,000건**(개발계정). 초과 시 `429` + `returnReasonCode 22`. 2026-11-09 영문 `areaCode2`가 소진돼 영어 리포트 전체가 막힌 사례 있음. 운영계정 신청 2026-11-09(국문; 영문도 신청 필요) — 승인 후 한도 재확인.
+- 미승인 언어 서비스(Jpn/Chs/Cht/Fre/Spn/Rus)는 `403` + reason `30`. 코드의 `APPROVED`(worker/tourapi.mjs)에 있는 언어만 네이티브 호출, 나머지는 영문.
+- 키 넣기: `.dev.vars`의 값을 `wrangler secret put TOURAPI_KEY`로 파이프(대시보드 붙여넣기는 공백/잘림으로 r30 났던 이력).
 
 ### 2.2 엔드포인트 (검증됨)
 - Base: `https://apis.data.go.kr/B551011/{KorService2|EngService2}/`
 - 오퍼레이션:
   - `searchKeyword2` — 키워드 검색(substring 매칭)
-  - `areaBasedList2` — 지역 기반 목록(areaCode / sigunguCode)
-  - `areaCode2` — 지역/시군구 코드 조회(드릴다운용)
-  - `locationBasedList2` — **좌표 반경 검색**(mapX, mapY, radius, `dist` 반환) ← 핵심 엔진
+  - `areaBasedList2` — 지역 기반 목록(★**`lDongRegnCd` / `lDongSignguCd`** 법정동 코드. `contentTypeId`·`lclsSystm1` 필터 가능)
+  - `searchFestival2` — 행사 목록(`eventStartDate`[, `eventEndDate`] + 법정동 코드). 응답에 `eventstartdate/eventenddate`
+  - `ldongCode2` — 법정동 시도/시군구 코드. **정적 파일 `worker/ldong.json`(ko+en, 16 시도·269 시군구, 2026-11-09)으로 고정** → 런타임 호출 0
+  - ~~`areaCode2`~~ — 포털에 **"미사용"** 표시. 신규 데이터는 `areacode`가 비어 있음(경주 관광지 areaCode 23건 vs 법정동 201건). **쓰지 않는다.**
+  - `locationBasedList2` — **좌표 반경 검색**(mapX, mapY, radius, `dist` 반환) ← 핵심 엔진. ★`arrange=E`(거리순) 필수 — 기본 정렬은 제목순이라 넓은 반경에서 가까운 곳이 잘림
   - `detailCommon2` — 상세 공통(overview 등) ※ KorService2는 `defaultYN/overviewYN` 등 **파라미터 받지 않음**, `contentId`만
   - (미사용) `detailIntro2`(영업시간 등), `detailImage2`(추가 이미지)
 - 공통 파라미터: `serviceKey`(Decoding 키), `MobileOS=ETC`, `MobileApp=ktriphub`, `_type=json`, `numOfRows`, `pageNo`
@@ -74,6 +79,11 @@ _작성 2026-11-08 · 프로젝트 ktriphub.com · 상태: Phase 0(스파이크+
 - 랜드마크에 사진이 없을 수 있음 → **주변 POI 사진 폴백**.
 - `areaCode2`(제주)에 **레거시 '남제주군/북제주군'**이 섞임 → 현행(제주시·서귀포시) 우선 필터.
 - `areaBasedList2 arrange='O'`는 대표이미지 있는 제목순 → 일부 분류가 빈칸일 수 있음(페이지네이션/랭킹 튜닝 포인트).
+- (2026-11-09) **인기순 정렬이 없다** → 지역 리포트에서 "아무 첫 항목"의 소개문을 지역 개요로 쓰지 않는다(경주→감은사지 사례).
+- (2026-11-09) `searchKeyword2`는 제목순 → **numOfRows 100**으로 받아 정확일치 > 접두 > 포함, 관광지 > 상점 순으로 재정렬(명동→안경점 사례). 이름만 포함한 상점은 지도 위치만 쓰고 사진·소개문은 쓰지 않음.
+- (2026-11-09) 영문 서비스는 데이터가 훨씬 적음(화천 20km: 식당 영문 0 vs 국문 4) → 3곳 미만 섹션은 국문으로 채우고 `lang:"ko"` 배지.
+- (2026-11-09) **한글 검색어는 페이지 언어와 무관하게 국문으로 해소**(영문에서 "명동"이 춘천 명동닭갈비로 잡힌 사례). 예시 칩도 한국어 쿼리 + `label` 표시명.
+- `광주광역시`+`전라남도` = 법정동 `12 전남광주통합특별시`.
 
 ---
 
@@ -88,14 +98,23 @@ _작성 2026-11-08 · 프로젝트 ktriphub.com · 상태: Phase 0(스파이크+
 | **resolve** (해소) | 예산시장, 특정 상호 | `searchKeyword2`로 좌표 찾고 → radius 검색 | 좌표 미상 지점 |
 
 - **입력 정규화/중의성 해소**: 다국어·로마자·한자·오타 → `searchKeyword2` + 지오코딩 폴백. 매칭이 복수면(예: "강남 지역" vs "강남역", 여러 "시장") **선택 UI**로 되묻는다. (상세 UX는 Phase 1 설계)
-- 지역 코드 참고: 서울=1, 충남=34, 제주=39.
+- 리졸브 순서(구현): ① 시도명(한/영/약칭) → area ② 시군구명(유일 매칭만, "중구"·"고성" 등 중복은 제외) → area ③ 키워드 → radius. ①②는 `ldong.json`만 사용.
+- `contentId` + `cl`(목록을 받은 서비스 ko/en)이 오면 키워드 추측 없이 `detailCommon2`로 그 장소를 바로 사용(단계별/지도 탐색 카드).
+- 지역 코드 = 법정동: 서울 11, 경북 47, 강원 51, 제주 50, 전남광주 12.
+
+## 3.1 탐색 UI (2026-11-09 구현)
+- 검색 섹션 탭: **[검색] [지도로 찾기] [단계별 찾기]** + Beta test 리본.
+- **단계별 찾기**: 지역 → 시·군·구(전체 가능) → 카테고리(관광지·축제·먹거리·숙소·쇼핑·추천 코스) → 축제면 기간(진행 중·예정/이번 달/다음 달) → 카드 12개씩 → 리포트. API `/api/place/browse`.
+- **지도로 찾기**: 전국(16 시도 버튼) → 시도 클릭 시 시군구 버튼(관광지 좌표 중앙값 위치, `/api/place/regionmap`, KV 30일) → 카테고리 → 핀+카드 → 리포트.
+- 카테고리 매핑: 관광지 = `contentTypeId` 12(국문)/76(영문), 먹거리 FD, 숙소 AC, 쇼핑 SH, 추천 코스 C01(국문만), 축제 = `searchFestival2`.
+- 캐시(KV `PLACE_CACHE`): 리포트 7일(`report:v2:`), 목록 24시간(`browse:v1:`, 축제는 날짜 포함), 지역 지도 30일(`regionmap:v1:`).
 
 ---
 
 ## 4. 다국어 (12 로케일)
 
 - TourAPI 언어 서비스: 국·영·일·중(간/번)·독·불·스·러.
-- 우리 12로케일 중 **네이티브 데이터(8)**: `ko, en, ja, zh(간), zh-TW(번), fr, es, ru`.
+- 우리 12로케일 중 **네이티브 데이터(8)**: `ko, en, ja, zh(간), zh-TW(번), fr, es, ru`. ★단, 현재 키는 **국문·영문만 승인** → 실제로는 ko=국문, 나머지 11개=영문(+국문 보충). 언어 서비스 추가 승인 시 `APPROVED`에 추가.
 - **TourAPI 미지원(4)**: `vi, th, id, ms`(베트남·태국·인니·말레이) → **영문 데이터 + 번역 레이어**(`i18n-translate-verify` 스킬) 또는 영문 폴백. (정책 미확정 — §10)
 - **UI 문자열**(섹션 제목·배지·버튼 등)은 12로케일 i18n 전체 번역.
 

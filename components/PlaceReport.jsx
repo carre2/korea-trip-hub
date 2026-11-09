@@ -13,12 +13,16 @@ import { loadLeaflet, OSM_TILES } from "../lib/leaflet";
 
 const COLORS = { sights: "#1f6feb", food: "#c2410c", lodging: "#0f9d7a", shopping: "#b7791f" };
 const EMAIL_OK = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+// Leaflet popups take HTML strings — escape anything that isn't ours.
+const esc = (s) => String(s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
 function readParams() {
   if (typeof window === "undefined") return {};
   const sp = new URLSearchParams(window.location.search);
   return {
     q: (sp.get("q") || "").trim(),
+    // Display name in the page language when the query is a Korean name (example chips).
+    label: (sp.get("label") || "").trim().slice(0, 80),
     contentId: sp.get("contentId") || "",
     cl: sp.get("cl") || "",
     areaCode: sp.get("areaCode") || "",
@@ -48,7 +52,7 @@ export default function PlaceReport({ locale }) {
       const res = await fetch(`/api/place/report?${api.toString()}`);
       const data = await res.json().catch(() => ({ ok: false }));
       if (!res.ok || !data.ok) { setStatus(data && data.error === "not_found" ? "notfound" : "failed"); return; }
-      setRep(data);
+      setRep(p.label ? { ...data, place: { ...data.place, title: p.label } } : data);
       setStatus("ok");
       track("place_report_view", { locale, mode: data.place?.mode, q: p.q || "" });
     } catch {
@@ -70,11 +74,11 @@ export default function PlaceReport({ locale }) {
       const map = L.map(mapRef.current, { scrollWheelZoom: false }).setView([lat, lng], zoom);
       mapObj.current = map;
       L.tileLayer(OSM_TILES, { maxZoom: 19, attribution: "© OpenStreetMap" }).addTo(map);
-      L.circleMarker([lat, lng], { radius: 8, color: "#111", fillColor: "#111", fillOpacity: 1 }).addTo(map).bindPopup(`${rep.place.title} ${t.legend.center}`);
+      L.circleMarker([lat, lng], { radius: 8, color: "#111", fillColor: "#111", fillOpacity: 1 }).addTo(map).bindPopup(`${esc(rep.place.title)} ${esc(t.legend.center)}`);
       for (const cat of ["sights", "food", "lodging", "shopping"]) {
         for (const it of rep.sections[cat] || []) {
           if (!isFinite(it.lat) || !isFinite(it.lng)) continue;
-          L.circleMarker([it.lat, it.lng], { radius: 6, color: "#fff", weight: 1.5, fillColor: COLORS[cat], fillOpacity: 0.95 }).addTo(map).bindPopup(it.title);
+          L.circleMarker([it.lat, it.lng], { radius: 6, color: "#fff", weight: 1.5, fillColor: COLORS[cat], fillOpacity: 0.95 }).addTo(map).bindPopup(esc(it.title));
         }
       }
     });

@@ -2,7 +2,7 @@
 // NOT part of prebuild — it calls the live TourAPI and needs TOURAPI_KEY.
 //   node scripts/test-tourapi.mjs
 // Key is read from env TOURAPI_KEY, else from .dev.vars.
-import { buildReport } from "../worker/tourapi.mjs";
+import { buildReport, browse, matchAreaCode, festivalWindow } from "../worker/tourapi.mjs";
 import fs from "node:fs";
 
 function readKey() {
@@ -53,5 +53,22 @@ for (const [q, locale, opts, extra] of CASES) {
     fail++;
   }
 }
+// Offline checks (no API calls): legal-dong region matching from worker/ldong.json.
+const off = [
+  ["광주 -> merged 12", matchAreaCode("광주") === "12"],
+  ["Jeju -> 50", matchAreaCode("Jeju") === "50"],
+  ["경주 is not a province", matchAreaCode("경주") === null],
+  ["festival window next month (KST)", JSON.stringify(festivalWindow("next", new Date("2026-11-09T10:00:00Z"))) === JSON.stringify({ eventStartDate: "20261201", eventEndDate: "20261231" })],
+];
+for (const [name, ok] of off) { console.log(ok ? "PASS" : "FAIL", name); if (!ok) fail++; }
+
+// Browse (1 call): 강원 festivals must come back via legal-dong codes, dated.
+try {
+  const b = await browse(env, "ko", { region: "51", cat: "festival", when: "upcoming" });
+  const ok = b.ok && b.items.length > 0 && b.items.every((x) => x.start);
+  console.log(ok ? "PASS" : "FAIL", "browse 강원 festival ->", b.ok ? `${b.items.length} items` : b.error);
+  if (!ok) fail++;
+} catch (e) { console.log("ERROR browse", e.message); fail++; }
+
 console.log(fail ? `\n${fail} case(s) failed` : "\nall cases passed");
 process.exit(fail ? 1 : 0);
