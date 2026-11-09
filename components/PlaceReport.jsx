@@ -10,7 +10,7 @@ import copyAll from "../data/place-report-ui.json";
 import { klookSearch, stay22Embed, DISCLOSURE } from "../lib/booking";
 import { track } from "../lib/analytics";
 import { loadLeaflet, OSM_TILES } from "../lib/leaflet";
-import { shareToKakao } from "../lib/kakao-share";
+import { shareToKakao, preloadKakao } from "../lib/kakao-share";
 
 const COLORS = { sights: "#1f6feb", food: "#c2410c", lodging: "#0f9d7a", shopping: "#b7791f" };
 const EMAIL_OK = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -63,6 +63,7 @@ export default function PlaceReport({ locale }) {
       setRep(p.label ? { ...data, place: { ...data.place, title: p.label } } : data);
       setStatus("ok");
       track("place_report_view", { locale, mode: data.place?.mode, q: p.q || "" });
+      preloadKakao(); // so the share click can open Kakao's window without a popup block
     } catch {
       setStatus("failed");
     }
@@ -265,7 +266,7 @@ function Cards({ items, t }) {
 }
 
 // KakaoTalk card: place name, region + what's nearby, the hero photo, a link back here.
-async function shareKakao(rep, t) {
+function shareKakao(rep, t) {
   const p = rep.place;
   const c = rep.counts || {};
   const description = [
@@ -274,7 +275,7 @@ async function shareKakao(rep, t) {
   ].filter(Boolean).join("\n");
   const url = window.location.href;
   track("share_click", { channel: "kakao", context: "place_report" });
-  const ok = await shareToKakao({ title: `${p.title} — ktriphub`, description, imageUrl: p.hero, url, buttonTitle: "ktriphub" });
+  const ok = shareToKakao({ title: `${p.title} — ktriphub`, description, imageUrl: p.hero, url, buttonTitle: "ktriphub" });
   if (!ok) shareReport(p.title); // SDK blocked/unavailable: native share sheet or copy link
 }
 
