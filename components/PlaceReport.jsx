@@ -262,7 +262,7 @@ function Cards({ items, t }) {
           <div className="prr-cbody">
             <h3>{it.title}</h3>
             <p className="prr-addr">📍 {it.addr}{it.dist != null ? ` · ${it.dist}m` : ""}</p>
-            <p className="prr-meta"><span className="prr-badge ok">✓ {t.badge.verified}</span> <span className="prr-src">{t.badge.source}: TourAPI</span></p>
+            <p className="prr-meta"><span className="prr-badge ok">✓ {t.badge.verified}</span> {it.lang === "ko" && <span className="prr-badge ref">🇰🇷 {t.badge.koListing}</span>} <span className="prr-src">{t.badge.source}: TourAPI</span></p>
           </div>
         </article>
       ))}

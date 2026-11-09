@@ -29,6 +29,10 @@ const CASES = [
   ["경주", "ko", {}, (r) => r.place.title === "경주" && r.place.mode === "area" && /경주시/.test(r.place.region)],
   ["Gyeongju", "en", {}, (r) => r.place.mode === "area"],
   ["예산시장", "ko", {}],           // rural: radius widens automatically
+  // 2026-11-09: EngService2 has no restaurants near 화천 — thin sections fill from Korean data.
+  ["산천어축제", "en", {}, (r) => r.counts.food >= 3 && r.sections.food.some((x) => x.lang === "ko")],
+  // 2026-11-09: key is approved for Kor/Eng only; ja/zh/fr/... must fall back, not 403.
+  ["Myeongdong", "ja", {}, (r) => r.localeData === "en"],
 ];
 
 let fail = 0;

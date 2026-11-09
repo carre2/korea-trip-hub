@@ -16,11 +16,16 @@ const SERVICE = {
   fr: "FreService2", es: "SpnService2", ru: "RusService2",
 };
 const FALLBACK_LOCALE = "en";
+// Language services our data.go.kr key is approved for. Checked 2026-11-09: only
+// KorService2 + EngService2 answer; Jpn/Chs/Cht/Fre/Spn/Rus return 403 reason 30
+// ("SERVICE_KEY_IS_NOT_REGISTERED"), which broke ja/zh/fr/es/ru reports entirely.
+// After approving another service at data.go.kr (활용신청), add its locale here.
+const APPROVED = new Set(["ko", "en"]);
 export function serviceFor(locale) {
-  return SERVICE[locale] || SERVICE[FALLBACK_LOCALE];
+  return SERVICE[nativeLocale(locale)];
 }
 export function nativeLocale(locale) {
-  return SERVICE[locale] ? locale : FALLBACK_LOCALE;
+  return SERVICE[locale] && APPROVED.has(locale) ? locale : FALLBACK_LOCALE;
 }
 
 // lclsSystm1 large-category -> report section (same across all languages).
@@ -177,6 +182,31 @@ async function topUp(raw, fetchClass) {
   return raw.concat(...extra);
 }
 
+// Non-Korean services carry far fewer listings (화천 within 20 km: EngService2 has 0
+// restaurants, KorService2 has 4). For sections still thin in the visitor's language,
+// append Korean-service entries marked lang:"ko". Content ids differ per service, so
+// skip a Korean entry that sits within ~80 m of something already listed.
+function nearSame(a, b) {
+  const dLat = (a.lat - b.lat) * 111000, dLng = (a.lng - b.lng) * 88000;
+  return Math.hypot(dLat, dLng) < 80;
+}
+async function fillFromKorean(sections, fetchKo, limits = { sights: 6, food: 6, shopping: 4, lodging: 5 }) {
+  const thin = Object.keys(sections).filter((k) => sections[k].length < MIN_PER_SECTION);
+  if (!thin.length) return sections;
+  let koRaw = await fetchKo(null).catch(() => []);
+  koRaw = await topUp(koRaw, (cls) => fetchKo(cls));
+  const ko = bucketize(dedupeSort(koRaw), { sights: 50, food: 50, shopping: 50, lodging: 50 });
+  const all = () => Object.values(sections).flat();
+  for (const k of thin) {
+    for (const item of ko[k]) {
+      if (sections[k].length >= (limits[k] || 6)) break;
+      if (!Number.isFinite(item.lat) || all().some((x) => nearSame(x, item))) continue;
+      sections[k].push({ ...item, lang: "ko" });
+    }
+  }
+  return sections;
+}
+
 function dedupeSort(items) {
   return [...items].sort((a, b) => {
     const da = parseFloat(a.dist || "99999") || 99999;
@@ -244,6 +274,7 @@ export async function buildReport(env, input, locale, opts = {}) {
   let title = r.title, landmark = null, drilldown = [], region = "";
   let useLandmarkText = true;
   let raw = [];
+  let fetchKo = null; // same query against KorService2, for filling thin sections
 
   if (r.mode === "area" || areaCode) {
     // broad region: area-based list (+ sigungu drill-down at province level)
@@ -252,6 +283,7 @@ export async function buildReport(env, input, locale, opts = {}) {
     if (sigunguCode) params.sigunguCode = sigunguCode;
     raw = await call(env, lc, "areaBasedList2", params);
     raw = await topUp(raw, (cls) => call(env, lc, "areaBasedList2", { ...params, lclsSystm1: cls }));
+    fetchKo = (cls) => call(env, "ko", "areaBasedList2", cls ? { ...params, lclsSystm1: cls } : params);
     const sgg = await call(env, lc, "areaCode2", { areaCode, numOfRows: 40, pageNo: 1 });
     if (!r.sigunguCode) {
       drilldown = sgg
@@ -292,9 +324,12 @@ export async function buildReport(env, input, locale, opts = {}) {
     // category alone, nearest-first, at the widest radius.
     raw = await topUp(raw, (cls) => call(env, lc, "locationBasedList2", { ...geo, radius: radii[radii.length - 1], lclsSystm1: cls }));
     raw = dedupeSort(raw);
+    const koGeo = { ...geo, radius: radii[radii.length - 1] };
+    fetchKo = (cls) => call(env, "ko", "locationBasedList2", cls ? { ...koGeo, lclsSystm1: cls } : koGeo);
   }
 
-  const sections = bucketize(raw);
+  let sections = bucketize(raw);
+  if (lc !== "ko" && fetchKo) sections = await fillFromKorean(sections, fetchKo);
 
   // overview + hero
   let overview = "", hero = "";
