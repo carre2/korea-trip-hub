@@ -1,41 +1,7 @@
 {
   "_README": "Facts SSOT. Follows HARNESS.md. Only status:VERIFIED facts render. All numbers/contacts/rules must be grounded here. No invented estimates. VOLATILE facts must show source + verified date + confirm link. claim/notes are the ENGLISH (base-language) display text; translations for other locales live in messages/<locale>.json under `facts`.",
-  "_updated": "2026-11-08",
+  "_updated": "2026-11-12",
   "facts": [
-    {
-      "id": "klook-busan-fireworks-ticket",
-      "tier": "VOLATILE",
-      "status": "VERIFIED",
-      "claim": "Klook lists a 2026 Busan Fireworks Festival ticket and round-trip shuttle product.",
-      "value": {
-        "url": "https://www.klook.com/en-US/activity/171795-2026-busan-fireworks-festival-21th-anniversary-ticket/",
-        "kind": "tickets"
-      },
-      "source": "https://www.klook.com/en-US/activity/171795-2026-busan-fireworks-festival-21th-anniversary-ticket/",
-      "source_name": "Klook",
-      "verified": "2026-11-03",
-      "recheck_after": "2026-11-10",
-      "notes": "Product identity and package listing checked. Availability, prices, departure details, inclusions and cancellation terms must be confirmed on Klook. Past reviews do not establish current package conditions."
-    },
-    {
-      "id": "festival-busan-fireworks-2026",
-      "tier": "VOLATILE",
-      "status": "VERIFIED",
-      "claim": "Busan Fireworks Festival takes place on 2026-11-07 around Gwangalli Beach, Igidae and Dongbaekseom in Busan.",
-      "value": {
-        "start": "2026-11-07",
-        "end": "2026-11-07",
-        "venue": "Gwangalli Beach, Igidae and Dongbaekseom, Busan",
-        "map": "Gwangalli Beach, Busan",
-        "official": "https://busanfireworks.com/bbs/content.php?co_id=overview",
-        "tickets": "https://busanfireworks.com/bbs/board.php?bo_table=reservation"
-      },
-      "source": "https://busanfireworks.com/bbs/content.php?co_id=overview",
-      "source_name": "Busan Festival Organizing Committee",
-      "verified": "2026-11-03",
-      "recheck_after": "2026-11-10",
-      "notes": "Official dates, venues and ticket information link verified. Confirm performance times, prices, admission and weather-related changes with the organizer."
-    },
     {
       "id": "keta-exemption",
       "tier": "VOLATILE",
@@ -107,10 +73,13 @@
       },
       "source": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
       "source_name": "Korea Immigration Service — e-Arrival Card",
-      "verified": "2026-10-09",
-      "recheck_after": "2026-11-09",
+      "verified": "2026-11-12",
+      "recheck_after": "2026-12-12",
       "status": "VERIFIED",
-      "notes": "If required, submit free at e-arrivalcard.go.kr from 3 days before arrival, based on Korean Standard Time. It expires 72 hours after submission or once immigration is completed. Keeping the emailed issuance number is helpful; carrying a printed confirmation is not required. Guide: https://www.e-arrivalcard.go.kr/portal/guide/eacGuide.do"
+      "notes": "If required, submit free at e-arrivalcard.go.kr from 3 days before arrival, based on Korean Standard Time. It expires 72 hours after submission or once immigration is completed. Keeping the emailed issuance number is helpful; carrying a printed confirmation is not required. Guide: https://www.e-arrivalcard.go.kr/portal/guide/eacGuide.do",
+      "review_log": [
+        "2026-11-12: e-arrivalcard navigator + eacGuide: K-ETA and residence-card holders exempt, visa holders file; from 3 days before arrival (KST); free; expires 72h after submission or on immigration; no printout needed."
+      ]
     },
     {
       "id": "visa-malaysia-free",
@@ -125,10 +94,13 @@
       },
       "source": "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
       "source_name": "Korea Immigration Service · K-ETA eligibility",
-      "verified": "2026-10-09",
-      "recheck_after": "2026-11-09",
+      "verified": "2026-11-12",
+      "recheck_after": "2026-12-12",
       "status": "VERIFIED",
-      "notes": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card. K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay. Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed. Application rules: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN"
+      "notes": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card. K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay. Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed. Application rules: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN",
+      "review_log": [
+        "2026-11-12: k-eta.go.kr eligibility: Malaysia listed, \"Allowed Period of Stay: 03 Months\". Not in the 2026 temporary waiver list (mofa ch-en seq=22)."
+      ]
     },
     {
       "id": "visa-thailand-free",
@@ -143,10 +115,13 @@
       },
       "source": "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
       "source_name": "Korea Immigration Service · K-ETA eligibility",
-      "verified": "2026-10-09",
-      "recheck_after": "2026-11-09",
+      "verified": "2026-11-12",
+      "recheck_after": "2026-12-12",
       "status": "VERIFIED",
-      "notes": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card. K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay. Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed. Application rules: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN"
+      "notes": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card. K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay. Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed. Application rules: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN",
+      "review_log": [
+        "2026-11-12: k-eta.go.kr eligibility: Thailand listed, \"Allowed Period of Stay: 90 Days\". Not in the 2026 temporary waiver list."
+      ]
     },
     {
       "id": "visa-mongolia-c39",
@@ -270,10 +245,13 @@
       },
       "source": "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
       "source_name": "Korea Immigration Service · K-ETA eligibility",
-      "verified": "2026-10-09",
-      "recheck_after": "2026-11-09",
+      "verified": "2026-11-12",
+      "recheck_after": "2026-12-12",
       "status": "VERIFIED",
-      "notes": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card. K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay. Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed. Application rules: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN"
+      "notes": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card. K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay. Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed. Application rules: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN",
+      "review_log": [
+        "2026-11-12: k-eta.go.kr eligibility: Kazakhstan, 30 days in a row, max 60 days within 180 days. Not in the 2026 temporary waiver list."
+      ]
     },
     {
       "id": "emergency-police",
