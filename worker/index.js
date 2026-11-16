@@ -4,7 +4,7 @@
 
 import {entryLanguage} from '../lib/entry-language.mjs';
 import {resolvePlace, buildReport, browse, BROWSE_CATS, regionMap} from './tourapi.mjs';
-import reportUi from '../data/place-report-ui.json';
+import reportUi from '../data/place-report-ui.json' with { type: 'json' };
 
 const MODEL_CF = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"; // Workers AI (current)
 const MODEL_CLAUDE = "claude-haiku-4-5-20251001";   // existing fallback when a key is set

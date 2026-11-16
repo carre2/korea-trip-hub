@@ -109,6 +109,7 @@ const E = (page, msg) => errors.push(`${page}: ${msg}`);
 const W = (page, msg) => warnings.push(`${page}: ${msg}`);
 
 const titlesByLocale = new Map(); // locale -> Map(title -> [rel])
+const descsByLocale = new Map(); // locale -> Map(description -> [rel])
 const refTitles = new Map(); // path -> en title
 const parsed = new Map();
 
@@ -163,7 +164,12 @@ for (const p of pages) {
     titlesByLocale.set(p.locale, seen);
   }
   if (!h.description || !h.description.trim()) E(id, "no meta description");
-  else if (h.description.length > 200) W(id, `description ${h.description.length} chars`);
+  else {
+    if (h.description.length > 200) W(id, `description ${h.description.length} chars`);
+    const seenD = descsByLocale.get(p.locale) || new Map();
+    seenD.set(h.description, [...(seenD.get(h.description) || []), p.path]);
+    descsByLocale.set(p.locale, seenD);
+  }
 
   // --- localization regressions (English metadata leaking into other locales) ---
   if (p.locale !== REF && h.title && refTitles.get(p.path) === h.title) {
@@ -202,6 +208,13 @@ for (const p of pages) {
 for (const [loc, seen] of titlesByLocale) {
   for (const [title, paths] of seen) {
     if (paths.length > 1) E(`/${loc}/`, `duplicate <title> on ${paths.length} pages ("${title}"): ${paths.slice(0, 4).join(", ")}${paths.length > 4 ? " …" : ""}`);
+  }
+}
+
+// --- duplicate meta descriptions inside one locale (hurts CTR + dedup signals) ---
+for (const [loc, seen] of descsByLocale) {
+  for (const [desc, paths] of seen) {
+    if (paths.length > 1) E(`/${loc}/`, `duplicate <meta description> on ${paths.length} pages ("${desc.slice(0, 50)}…"): ${paths.slice(0, 4).join(", ")}${paths.length > 4 ? " …" : ""}`);
   }
 }
 
