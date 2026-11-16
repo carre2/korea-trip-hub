@@ -1109,6 +1109,152 @@
       "verified": "2026-11-16",
       "recheck_after": "2027-01-16",
       "notes": "Visa application hours 09:00-12:00 (arrive before 11:30). Enquiries: hkg-visa@mofa.go.kr. The full checklist is in the attached PDF on the official page."
+    },
+    {
+      "id": "bloom-kma-normals",
+      "tier": "STABLE",
+      "status": "VERIFIED",
+      "claim": "KMA 1991-2020 climatological normal first-flowering (gaehwa) dates for cherry trees: Seoul 04-08, Busan 03-28, Jeju 03-25, Daegu 03-29, Daejeon 04-04, Bukgangneung 04-04; national normal 04-02. Seoul full-bloom normal 04-10. Gaehwa = 3+ flowers fully open on one branch of the observation tree; full bloom (manbal) = 80%+ of flowers open.",
+      "value": {
+        "first": {
+          "seoul": "04-08",
+          "busan": "03-28",
+          "jeju": "03-25",
+          "daegu": "03-29",
+          "daejeon": "04-04",
+          "gangneung": "04-04"
+        },
+        "national": "04-02",
+        "seoul_full": "04-10"
+      },
+      "source": "https://www.kma.go.kr/kma/flexer/html/press/2021/09/14/ATC202109141250291_c31c7967-f978-4b12-b9e1-c6cbd3f9f51c.hwp.files/Sections1.html",
+      "source_name": "Korea Meteorological Administration · new seasonal normals 1991-2020 (press release 2021-09-14)",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-11-16",
+      "notes": "Definitions and Seoul full-bloom normal from KMA press release 2026-03-29. Gangneung = Bukgangneung station (104). Changwon/Seogwipo normals are only derivable, not quoted — not shown."
+    },
+    {
+      "id": "bloom-observed-2025",
+      "tier": "STABLE",
+      "status": "VERIFIED",
+      "claim": "KMA observed cherry first-flowering / full-bloom dates in 2025: Seoul 04-04/04-10, Busan 03-28/04-03, Jeju 03-26/03-27, Daegu 03-26/03-27, Daejeon 04-01/04-05, Bukgangneung 04-01/04-06, Changwon 03-27/04-02.",
+      "value": {
+        "seoul": [
+          "04-04",
+          "04-10"
+        ],
+        "busan": [
+          "03-28",
+          "04-03"
+        ],
+        "jeju": [
+          "03-26",
+          "03-27"
+        ],
+        "daegu": [
+          "03-26",
+          "03-27"
+        ],
+        "daejeon": [
+          "04-01",
+          "04-05"
+        ],
+        "gangneung": [
+          "04-01",
+          "04-06"
+        ],
+        "changwon": [
+          "03-27",
+          "04-02"
+        ]
+      },
+      "source": "https://data.kma.go.kr/data/seasonObs/seasonObsDataList.do?pgmNo=648",
+      "source_name": "KMA Open MET Data Portal · seasonal observation (cherry tree), 2025",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-11-16",
+      "notes": "Seoul cross-checked with KMA press release 2025-04-04. Portal is a search form: station list, element 벚나무, year 2025."
+    },
+    {
+      "id": "bloom-observed-2026",
+      "tier": "STABLE",
+      "status": "VERIFIED",
+      "claim": "KMA observed cherry first-flowering / full-bloom dates in 2026: Seoul 03-29/04-01 (10 days earlier than normal), Busan 03-26/04-03, Jeju 03-28/04-03, Daegu 03-26/03-28, Daejeon 03-29/03-31, Bukgangneung 04-01/04-03, Changwon 03-24/03-30.",
+      "value": {
+        "seoul": [
+          "03-29",
+          "04-01"
+        ],
+        "busan": [
+          "03-26",
+          "04-03"
+        ],
+        "jeju": [
+          "03-28",
+          "04-03"
+        ],
+        "daegu": [
+          "03-26",
+          "03-28"
+        ],
+        "daejeon": [
+          "03-29",
+          "03-31"
+        ],
+        "gangneung": [
+          "04-01",
+          "04-03"
+        ],
+        "changwon": [
+          "03-24",
+          "03-30"
+        ]
+      },
+      "source": "https://data.kma.go.kr/data/seasonObs/seasonObsDataList.do?pgmNo=648",
+      "source_name": "KMA Open MET Data Portal · seasonal observation (cherry tree), 2026",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-11-16",
+      "notes": "Seoul cross-checked with KMA press release 2026-03-29 (\"평년보다 10일 빠름\")."
+    },
+    {
+      "id": "bloom-forecast-source",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "KMA stopped publishing spring-flower bloom forecasts in 2016 and handed them to private forecasters (Weatheri, K-Weather); KMA still records observations. Weatheri released its 2026 cherry forecast on 2026-02-26.",
+      "value": {
+        "kma_stopped": "2016",
+        "last_release": "2026-02-26",
+        "provider": "Weatheri"
+      },
+      "source": "https://www.kma.go.kr/kma/flexer/html/press/2016/02/11/ATC201602111019131_eab6c714-482c-4e54-810c-1727b7b8b5cb.hwp.files/Sections1.html",
+      "source_name": "KMA press release 2016-02-11 · Weatheri 2026 spring-flower forecast (released 2026-02-26)",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-03-05",
+      "notes": "Weatheri PDF: https://www.weatheri.co.kr/board/data/%5BWeatheri%5D2026_spring_flower2.pdf . When the 2027 forecast is out (expected late Feb), update this fact and the guide."
+    },
+    {
+      "id": "bloom-festivals-2026",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "2026 cherry-blossom festival dates: Jinhae Gunhangje (Changwon) 03-27 to 04-05; Yeouido Spring Flower Festival (Yeongdeungpo, Seoul) 04-03 to 04-07; Seokchon Lake Cherry Blossom Festival (Songpa, Seoul) 04-03 to 04-11. 2027 dates not yet announced as of 2026-11-16.",
+      "value": {
+        "jinhae": [
+          "03-27",
+          "04-05"
+        ],
+        "yeouido": [
+          "04-03",
+          "04-07"
+        ],
+        "seokchon": [
+          "04-03",
+          "04-11"
+        ]
+      },
+      "source": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?cmsCntntsId=1592898",
+      "source_name": "VisitKorea festival listing (Seokchon) · Seoul Shinmun 2026-03-24 (Jinhae) · Herald 2026-03-24 (Yeouido)",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-15",
+      "notes": "Jinhae: https://m.go.seoul.co.kr/news/2026/03/24/20260324500204 ; Yeouido: https://www.heraldk.com/article/2026032415082538201 . Official jgfestival.or.kr had an expired SSL cert on 2026-11-16. Replace with 2027 dates once announced."
     }
   ]
 }

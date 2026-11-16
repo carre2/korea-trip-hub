@@ -6,6 +6,7 @@ import BookCTA from "../../../../components/BookCTA";
 import { klookSearch } from "../../../../lib/booking";
 import BudgetCalculator from "../../../../components/BudgetCalculator";
 import PeekMascot from "../../../../components/PeekMascot";
+import BloomTable from "../../../../components/BloomTable";
 import ArticleTrust from "../../../../components/ArticleTrust";
 import topics from "../../../../data/topics.json";
 import topicsZh from "../../../../data/topics.zh.json";
@@ -101,6 +102,8 @@ export default function TopicGuide({ params }) {
           <ul>{g.tldr.map((t, i) => <li key={i}>{linkify(t, locale)}</li>)}</ul>
         </div>
       )}
+
+      {slug === "cherry-blossom" && <BloomTable locale={locale} />}
 
       {g.sections?.map((s, i) => (
         <section key={i} className="gv-sec">
