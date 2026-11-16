@@ -15,10 +15,10 @@ const CARDS = [
   { id: 'wowpass', icon: '💳', query: 'WOWPASS Korea' },
 ];
 
-export default function PreflightGrid({ locale }) {
+export default function PreflightGrid({ locale, placement = 'home' }) {
   const t = copyAll[locale] || copyAll.en;
   return (
-    <section className="preflight wrap" aria-label={t.title}>
+    <section className={placement === 'home' ? 'preflight wrap' : 'preflight preflight-inline'} aria-label={t.title} data-aff-placement={placement}>
       <div className="sec-head"><h2>{t.title}</h2></div>
       <p className="preflight-sub">{t.sub}</p>
       <div className="preflight-grid">

@@ -5,6 +5,7 @@ import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, articleLd, faqLd } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
 import VisaCountryGuide from "../../../../components/VisaCountryGuide";
+import PreflightGrid from "../../../../components/PreflightGrid";
 import ResidentApply from "../../../../components/ResidentApply";
 import VisaPhotoSpec from "../../../../components/VisaPhotoSpec";
 import VisaLocalInfo from "../../../../components/VisaLocalInfo";
@@ -99,6 +100,8 @@ export default function VisaCountryPage({ params }) {
           labels={m.visaLocal}
         />
       )}
+
+      <PreflightGrid locale={locale} placement="visa-country" />
 
       <ArrivalSteps locale={locale} m={{experience:m.experience,plan:m.plan}} placement="visa-country" />
       <NextSteps locale={locale} m={m} country={params.country} countryTitle={g.country} />

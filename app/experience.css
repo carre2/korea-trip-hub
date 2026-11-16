@@ -346,3 +346,4 @@ nav.links a{font-weight:700;color:var(--text)}
 .vcg-office p{overflow-wrap:anywhere}
 
 .resident-apply h3{margin-top:18px}.resident-apply ul{padding-left:1.2em}.resident-apply li{margin:6px 0}.resident-apply-warn{padding:12px 14px;border-left:4px solid #e8a33d;border-radius:8px;background:rgba(232,163,61,.12)}
+.preflight-inline{margin:28px 0}.preflight-inline .preflight-grid{grid-template-columns:repeat(2,1fr)}@media (max-width:520px){.preflight-inline .preflight-grid{grid-template-columns:1fr}}
