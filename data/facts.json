@@ -12,10 +12,10 @@
       },
       "source": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
       "source_name": "Korea Immigration Service — K-ETA",
-      "verified": "2026-11-03",
+      "verified": "2026-11-16",
       "recheck_after": "2026-12-15",
       "status": "VERIFIED",
-      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
+      "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision. 2026-11-16: no extension beyond 2026-12-31 announced yet - recheck mid-December."
     },
     {
       "id": "keta-fee-validity",
@@ -58,7 +58,7 @@
       },
       "source": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&locale=EN",
       "source_name": "Korea Immigration Service — K-ETA",
-      "verified": "2026-11-03",
+      "verified": "2026-11-16",
       "recheck_after": "2026-12-15",
       "status": "VERIFIED",
       "notes": "Confirm your exact case on the official sites. Immigration makes the final entry decision."
@@ -117,20 +117,20 @@
     {
       "id": "visa-mongolia-c39",
       "tier": "VOLATILE",
-      "claim": "Mongolian citizens need a C-3-9 short-term tourist visa for Korea (single entry, stay up to 90 days), applied for in person at the Korea Visa Application Center in Ulaanbaatar. Processing is about 5–15 business days.",
+      "claim": "Mongolian citizens need a C-3-9 short-term tourist visa for Korea (stay up to 90 days), applied for in person at the Korea Visa Application Center (KVAC) in Ulaanbaatar. KVAC lists a processing period of 30 days and a service fee of 57,000 MNT.",
       "value": {
         "visa": "C-3-9 short-term tourist",
-        "entry": "single",
         "stay": "up to 90 days",
         "apply_at": "KVAC Mongolia (visaforkorea.mn) / Korean Embassy, Ulaanbaatar",
-        "processing": "about 5–15 business days"
+        "processing": "30 days",
+        "service_fee": "57,000 MNT"
       },
-      "source": "https://www.visaforkorea.mn",
-      "source_name": "Korea Visa Application Center, Mongolia (IOM)",
-      "verified": "2026-08-31",
-      "recheck_after": "2026-12-01",
+      "source": "https://www.visaforkorea.mn/ordinary-tourist-s-3-9",
+      "source_name": "Korea Visa Application Center Mongolia (IOM) · Ordinary Tourist C-3-9",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
-      "notes": "From 1 April 2026 the application form must be typed and printed — handwritten forms are not accepted. The 6-month bank statement does not need to be translated into Korean, though other documents may. Fees vary by visa type (roughly US$40 for a single-entry short stay) — confirm the current fee at visaforkorea.mn."
+      "notes": "2026-11-16: KVAC page states processing 30 days (was 5-15 business days) and service fee 57,000 MNT; the visa-fee page lists only the over-90-day single-entry fee (US$60) for Mongolians, so no short-stay visa fee is shown. Typed-form rule (from 1 April 2026) not re-confirmed on this page. Site blocks non-browser requests - verify in a browser."
     },
     {
       "id": "visa-bangladesh-c39",
@@ -144,31 +144,31 @@
         "fee": "US$40 single / US$70 double / US$90 multiple",
         "processing": "about 10–15 working days"
       },
-      "source": "https://overseas.mofa.go.kr/bd-en/brd/m_23302/view.do?seq=1&page=1",
-      "source_name": "Embassy of the Republic of Korea in Bangladesh (MOFA)",
-      "verified": "2026-08-31",
-      "recheck_after": "2026-12-01",
+      "source": "https://overseas.mofa.go.kr/bd-en/brd/m_23302/view.do?seq=14",
+      "source_name": "Embassy of the Republic of Korea in Bangladesh · Documents for Tourist Visa (C-3-9)",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
-      "notes": "All applicants must complete the e-Form on visa.go.kr and submit the printed, barcoded form. Bangladesh-specific: a Bank Solvency Certificate is expected alongside the 6-month bank statement. Submission at the Embassy (4 Madani Avenue, Baridhara, Dhaka-1212), Sunday–Thursday 09:00–12:30. Confirm current fees and documents at the embassy site."
+      "notes": "All applicants must complete the e-Form on visa.go.kr and submit the printed, barcoded form. Bangladesh-specific: a Bank Solvency Certificate is expected alongside the 6-month bank statement. Submission at the Embassy (4 Madani Avenue, Baridhara, Dhaka-1212), Sunday–Thursday 09:00–12:30. Confirm current fees and documents at the embassy site. 2026-11-16: fees ($40/$70/$90), barcoded e-Form, 6-month bank statement + solvency certificate and address confirmed; the 10-15 working-day processing and 09:00-12:30 submission window are not stated on the current page (embassy hours 09:00-12:30, 13:30-17:00 Sun-Thu)."
     },
     {
       "id": "visa-nepal-c39",
       "tier": "VOLATILE",
-      "claim": "Nepali citizens need a C-3-9 short-term tourist visa for Korea (single entry, stay up to 90 days), applied for at the Korean Embassy in Kathmandu by online appointment. Single-entry fee NPR 5,400; processing about 21 working days.",
+      "claim": "Nepali citizens need a C-3-9 short-term tourist visa for Korea (single entry, stay up to 90 days), applied for at the Korean Embassy in Kathmandu by online appointment. Single-entry fee NPR 6,200; processing about 21 working days.",
       "value": {
         "visa": "C-3-9 short-term tourist",
         "entry": "single",
         "stay": "up to 90 days",
         "apply_at": "Korean Embassy, Kathmandu (appointment at koreanembassynepal.org)",
-        "fee": "NPR 5,400 (single entry)",
+        "fee": "NPR 6,200 (single entry, from 2026-07-01)",
         "processing": "about 21 working days"
       },
       "source": "https://overseas.mofa.go.kr/np-en/wpge/m_1714/contents.do",
       "source_name": "Embassy of the Republic of Korea in Nepal (MOFA)",
-      "verified": "2026-08-31",
-      "recheck_after": "2026-12-01",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
-      "notes": "Book an online appointment at koreanembassynepal.org (slots open Mondays and Wednesdays 10:00). Nepali documents must be translated into English and notarized; Korean documents must be originals issued within the last 3 months. Flight bookings should show departure at least 21 days after the application. Submitting fake tickets or false details can bring a rejection and a 3-year re-application ban. Confirm current fees/rules at the embassy."
+      "notes": "Book an online appointment at koreanembassynepal.org (slots open Mondays and Wednesdays 10:00). Nepali documents must be translated into English and notarized; Korean documents must be originals issued within the last 3 months. Flight bookings should show departure at least 21 days after the application. Submitting fake tickets or false details can bring a rejection and a 3-year re-application ban. Confirm current fees/rules at the embassy. 2026-11-16: fee raised to NPR 6,200 as of 2026-07-01 (was 5,400). Online appointment at koreanembassynepal.org (Mon/Wed 10:00) not re-confirmed on the embassy page."
     },
     {
       "id": "visa-uzbekistan-c3",
@@ -182,46 +182,55 @@
       },
       "source": "https://kun.uz/en/news/2026/02/03/how-citizens-of-uzbekistan-can-obtain-a-visa-to-south-korea",
       "source_name": "Korean Embassy, Tashkent (consular process, via kun.uz reporting)",
-      "verified": "2026-08-31",
-      "recheck_after": "2026-12-01",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
       "notes": "For tourist/visitor visas the embassy accepts documents only through accredited travel agencies listed on its official site; you cannot submit directly or online. Employment, some student, and government-program visas are submitted differently. Fees and processing times are not published in an accessible official source — confirm both with an accredited agency or the embassy before you plan."
     },
     {
       "id": "visa-srilanka-c39",
       "tier": "VOLATILE",
-      "claim": "Sri Lankan citizens need a C-3-9 short-term tourist visa for Korea (a paper visa, stay up to 90 days), applied for at the Korean Embassy in Colombo. Processing is a minimum of about 15 working days; the fee is paid in rupees at the embassy's current rate.",
+      "claim": "Sri Lankan citizens need a C-3-9 short-term tourist visa for Korea (a paper visa, stay up to 90 days), applied for at the Korean Embassy in Colombo. Processing may take more than 30 working days; the fee is paid in rupees at the embassy's current rate.",
       "value": {
         "visa": "C-3-9 short-term tourist (paper visa)",
         "stay": "up to 90 days",
         "apply_at": "Korean Embassy, Colombo (No. 98 Dharmapala Mawatha, Colombo 7)",
-        "processing": "minimum about 15 working days",
+        "processing": "may take more than 30 working days",
         "fee": "paid in LKR at the embassy's current rate"
       },
       "source": "https://overseas.mofa.go.kr/lk-en/brd/m_2318/view.do?seq=761383&page=2",
       "source_name": "Embassy of the Republic of Korea in Sri Lanka (MOFA)",
-      "verified": "2026-08-31",
-      "recheck_after": "2026-12-01",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
-      "notes": "This is a paper visa, not an e-visa. The fee is paid in rupees at the rate in the embassy's current 'Visa Fee Increase' notice — confirm the amount there. There is no express service (early issuance is only for diplomatic/official passports). Passport must be valid 6+ months with at least one blank page. Missing any required document can cause a rejection."
+      "notes": "This is a paper visa, not an e-visa. The fee is paid in rupees at the rate in the embassy's current 'Visa Fee Increase' notice — confirm the amount there. There is no express service (early issuance is only for diplomatic/official passports). Passport must be valid 6+ months with at least one blank page. Missing any required document can cause a rejection. 2026-11-16: processing per the embassy notice of 2026-01-01 is more than 30 working days (was minimum about 15). Paper visa / no express / 6-month passport are in a PDF checklist not re-opened.",
+      "sources": [
+        {
+          "name": "Embassy notice on visa processing time (2026-01-01)",
+          "url": "https://overseas.mofa.go.kr/lk-en/brd/m_2318/view.do?seq=761396"
+        }
+      ]
     },
     {
       "id": "visa-pakistan-c3",
       "tier": "VOLATILE",
-      "claim": "Pakistani citizens need a C-3 short-term tourist visa for Korea (stay up to 90 days), submitted at the Korean Embassy in Islamabad. Some applicants are called for an interview, and tourist-visa extensions are generally not granted.",
+      "claim": "Pakistani citizens need a C-3 short-term tourist visa for Korea (stay up to 90 days), submitted in person at the Korean Embassy in Islamabad. Fee US$40 single entry (up to 90 days), US$60 single entry (91 days or more), US$90 multiple entry; processing takes at least 8 weeks after the application is received.",
       "value": {
         "visa": "C-3 short-term tourist",
         "stay": "up to 90 days",
         "apply_at": "Korean Embassy, Islamabad",
         "interview": "possible",
-        "extensions": "generally not granted"
+        "extensions": "generally not granted",
+        "fee": "US$40 single (up to 90 days) / US$60 single (91+ days) / US$90 multiple",
+        "processing": "minimum 8 weeks",
+        "submission_hours": "Mon-Fri 09:30-11:30"
       },
       "source": "https://overseas.mofa.go.kr/pk-en/wpge/m_3159/contents.do",
       "source_name": "Embassy of the Republic of Korea in Pakistan (MOFA)",
-      "verified": "2026-08-31",
-      "recheck_after": "2026-12-01",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
-      "notes": "Applications are submitted at the Embassy in Islamabad; an interview may be requested to verify your file. Tourist-visa validity is usually 90 days and extensions are generally not granted. Fees and processing times are not published in an accessible official source — confirm both at the embassy before you plan."
+      "notes": "2026-11-16: embassy page now publishes processing (min 8 weeks), fees and submission hours. Interview possibility and extensions-not-granted are not stated on the page (carried from earlier guidance)."
     },
     {
       "id": "visa-kazakhstan-free",
@@ -393,10 +402,10 @@
       },
       "source": "https://blog.trazy.com/korea-subway-t-money-card-guide/",
       "source_name": "Travel guides (2026) — confirm at t-money.co.kr",
-      "verified": "2026-08-03",
-      "recheck_after": "2026-12-01",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
-      "notes": "Varies by store and design. The card fee itself is non-refundable (only the remaining balance is refundable). Confirm at the official t-money.co.kr."
+      "notes": "Varies by store and design. The card fee itself is non-refundable (only the remaining balance is refundable). Confirm at the official t-money.co.kr. 2026-11-16: no official T-money price page found; 2026 third-party guides agree on ₩2,500-5,000 basic card, card fee non-refundable."
     },
     {
       "id": "ktx-seoul-busan",
@@ -422,12 +431,12 @@
         "base_tmoney": "₩1,550",
         "base_cash": "₩1,650",
         "base_distance": "up to 10 km",
-        "extra": "+₩100 / 5 km"
+        "extra": "+₩100 per 5 km (10-50 km); +₩100 per 8 km beyond 50 km"
       },
-      "source": "https://english.visitseoul.net/",
-      "source_name": "VisitSeoul / Seoul transit guides (2026)",
-      "verified": "2026-08-04",
-      "recheck_after": "2026-12-01",
+      "source": "https://www.seoulmetro.co.kr/kr/page.do?menuIdx=354",
+      "source_name": "Seoul Metro · fare guide",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
       "notes": "Raised from ₩1,400 in the June 2025 fare increase. Confirm current fares in Naver Map / KakaoMap or the Seoul TOPIS site."
     },
@@ -441,30 +450,31 @@
         "red_express": "₩3,000+",
         "night": "₩2,500"
       },
-      "source": "https://topis.seoul.go.kr/openEngBus.do",
-      "source_name": "Seoul TOPIS (Seoul city) / 2026 guides",
-      "verified": "2026-08-04",
-      "recheck_after": "2026-12-01",
+      "source": "https://news.seoul.go.kr/traffic/traffic_price",
+      "source_name": "Seoul Metropolitan Government · transit fares",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
       "notes": "Tap in AND out to get free transfers. Confirm current fares at Seoul TOPIS."
     },
     {
       "id": "transit-taxi-seoul",
       "tier": "VOLATILE",
-      "claim": "Seoul medium taxi base fare is ₩4,800 (first 1.6 km), then ₩100 per 132 m. A late-night surcharge of up to 40% applies (about 23:00–02:00). Deluxe taxis start at ₩7,000 (first 3 km) with no night surcharge.",
+      "claim": "Seoul medium taxi base fare is ₩4,800 (first 1.6 km), then ₩100 per 131 m. Late-night surcharge: 20% 22:00-23:00 and 02:00-04:00, 40% 23:00-02:00. Deluxe taxis start at ₩7,000 (first 3 km), rising to ₩8,400 (first 3 km) from 22:00 to 04:00.",
       "value": {
         "medium_base": "₩4,800",
-        "medium_then": "₩100 / 132 m",
-        "night_surcharge": "up to 40% (≈23:00–02:00)",
+        "medium_then": "₩100 / 131 m",
+        "night_surcharge": "20% (22-23, 02-04) · 40% (23-02)",
         "deluxe_base": "₩7,000",
-        "international_base": "₩8,000"
+        "international_base": "₩8,000",
+        "deluxe_night_base": "₩8,400 (22:00-04:00)"
       },
-      "source": "https://english.visitseoul.net/essential-Info-article/Taxi_/16758",
-      "source_name": "VisitSeoul (Seoul city official)",
-      "verified": "2026-08-04",
-      "recheck_after": "2026-12-01",
+      "source": "https://news.seoul.go.kr/traffic/archives/1659",
+      "source_name": "Seoul Metropolitan Government · Seoul taxi fares (modified 2026-10-14)",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
-      "notes": "Use Kakao T for an upfront fare estimate. Deluxe (mobeom) and international taxis cost more but avoid late-night surcharges / offer English."
+      "notes": "Use Kakao T for an upfront fare estimate. International taxi base (₩8,000) not on the official fare page - unconfirmed. Deluxe DOES have a night fare (corrected 2026-11-16)."
     },
     {
       "id": "transit-free-transfer",
@@ -631,10 +641,10 @@
       },
       "source": "https://visaforkorea-vt.com/customercenter/notice/view/722",
       "source_name": "KVAC Hanoi · C-3-9 checklist",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
-      "notes": "Apply through the office responsible for your residence: Hanoi, Ho Chi Minh City or Da Nang. Eligibility and permitted stay vary by visa category. Confirm the current checklist with that office."
+      "notes": "Apply through the office responsible for your residence: Hanoi, Ho Chi Minh City or Da Nang. Eligibility and permitted stay vary by visa category. Confirm the current checklist with that office. 2026-11-16: 30-day Hanoi stay not re-confirmed (KVAC checklist is image-only; embassy PDF link looped)."
     },
     {
       "id": "visa-china-c3",
@@ -699,10 +709,10 @@
       },
       "source": "https://immigration.go.kr/bbs/immigration/214/606932/artclView.do",
       "source_name": "Korea Ministry of Justice",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2026-12-15",
       "status": "VERIFIED",
-      "notes": "Visa: follow the issued grant; designated group program: 15 days",
+      "notes": "Visa: follow the issued grant; designated group program: 15 days 2026-11-16: pilot ends 2026-12-31; watch for an extension.",
       "sources": [
         {
           "name": "Ministry of Justice · group procedure",
@@ -735,8 +745,8 @@
       "claim": "Ordinary Vietnamese passports are not eligible for K-ETA. For a normal mainland tourist trip, obtain a visa; K-ETA cannot replace it and is not an extra application after receiving your visa.",
       "source": "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
       "source_name": "K-ETA",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel."
     },
     {
@@ -746,8 +756,8 @@
       "claim": "Published individual tourist processing times are 16 working days in Hanoi and 18 working days in Ho Chi Minh City. Weekends and holidays are excluded; additional checks can take longer. These are published estimates, not guaranteed deadlines. Da Nang applicants should confirm separately.",
       "source": "https://visaforkorea-vt.com/customercenter/notice/view/873",
       "source_name": "KVAC Hanoi",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel.",
       "sources": [
         {
@@ -763,8 +773,8 @@
       "claim": "Short-stay single-entry visa: USD 20; multiple-entry: USD 80. KVAC Hanoi and HCMC add VND 390,000 per application, excluding optional services. Confirm the payable currency and current total at your office; the KVAC service charge is not a Da Nang consular charge.",
       "source": "https://visaforkorea-vt.com/info/service",
       "source_name": "KVAC Hanoi",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel.",
       "sources": [
         {
@@ -784,8 +794,8 @@
       "claim": "Apply according to your registered residence: KVAC Hanoi, KVAC Ho Chi Minh City, or the Korean Consulate General in Da Nang. Check the current jurisdiction and appointment instructions before visiting.",
       "source": "https://overseas.mofa.go.kr/vn-danang-vi/brd/m_22986/view.do?seq=47",
       "source_name": "Korean Consulate General in Da Nang",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "notes": "Da Nang Vietnamese FAQ names Hue, Da Nang and Quang Ngai; residence exceptions need proof. Hanoi guidance covers Quang Tri northwards. Confirm current province coverage and appointment requirements with the receiving office."
     },
     {
@@ -795,9 +805,9 @@
       "claim": "Use the checklist for your office and application category. Hanoi's current individual C-3-9 checklist requests bank statements for the latest 3 months, plus salary records for employees. Include residence and family documents when applicable; translation and certification requirements vary.",
       "source": "https://visaforkorea-vt.com/customercenter/notice/view/722",
       "source_name": "KVAC Hanoi",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
-      "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel."
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
+      "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel. 2026-11-16: C-3-9 checklist is image-only on KVAC; bank-statement rule seen in text for C-3-3 only."
     },
     {
       "id": "visa-vietnam-arrival",
@@ -806,8 +816,8 @@
       "claim": "A short-term tourist entering with a visa must submit the e-Arrival Card unless a separate exemption applies, such as holding a valid Korean residence card. Check the official navigator for your documents.",
       "source": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
       "source_name": "Korea Immigration Service",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel."
     },
     {
@@ -817,8 +827,8 @@
       "claim": "Vietnamese ordinary-passport tourists can use the separate Jeju visa-free program for up to 30 days, subject to entry assessment. Arrive directly at Jeju from overseas by air or sea and stay on Jeju. An itinerary entering Korea through Seoul or Busan is not covered. Going to the mainland requires the appropriate visa or prior immigration permission; admission is not guaranteed.",
       "source": "https://overseas.mofa.go.kr/in-mumbai-en/brd/m_1978/view.do?seq=759205",
       "source_name": "Embassy of Korea",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "notes": "Office-specific and conditional rules: confirm with the issuing authority before travel.",
       "sources": [
         {
@@ -834,8 +844,8 @@
       "claim": "A qualifying visa or residence permit for the US, Canada, Australia, New Zealand or a listed European country may allow B-2 transit for up to 30 days on an eligible onward/return route. A Japanese visa alone is not in the current third-country transit list. You need a confirmed departure within 30 days and must meet immigration-history, routing and visa-document conditions; merely owning a visa or taking a Vietnam–Korea round trip is insufficient. Verify your complete itinerary with immigration and the airline.",
       "source": "https://overseas.mofa.go.kr/est-en/brd/m_27860/view.do?seq=19",
       "source_name": "Embassy of Korea",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "notes": "Official notice dated 2026-03-31. Qualifying US/Canada/Australia/New Zealand or specified European documents, onward ticket within 30 days, permitted route, visa verification, immigration history and stopover limits all apply. Japan alone is not listed. This is not a general visa waiver for a Vietnam–Korea return trip."
     },
     {
@@ -843,10 +853,10 @@
       "tier": "VOLATILE",
       "status": "VERIFIED",
       "claim": "Ordinary passports that require a tourist visa are not eligible for K-ETA for that visit. If your passport requires a visa for a normal mainland visit, K-ETA is not an alternative or an extra application after your visa. K-ETA age exemptions do not waive the visa requirement. Special group and Jeju programs have separate conditions.",
-      "source": "https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN",
+      "source": "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
       "source_name": "Korea Immigration Service · K-ETA",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "notes": "Confirm eligibility, current conditions and documents with the official authority before travel.",
       "sources": [
         {
@@ -862,9 +872,9 @@
       "claim": "Eligible C-3-2 group visas for China, Vietnam, the Philippines, Indonesia, India and Cambodia have the USD 15 visa issuance fee waived through 2026-12-31. This is not visa-free entry or a waiver of individual visa fees, agency fees or service charges.",
       "source": "https://www.moj.go.kr/bbs/immigration/214/607993/artclView.do",
       "source_name": "Korea Ministry of Justice",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
-      "notes": "Confirm eligibility, current conditions and documents with the official authority before travel."
+      "verified": "2026-11-16",
+      "recheck_after": "2026-12-15",
+      "notes": "Confirm eligibility, current conditions and documents with the official authority before travel. 2026-11-16: waiver still runs to 2026-12-31; no 2027 extension announced yet."
     },
     {
       "id": "visa-indonesia-processing",
@@ -873,8 +883,8 @@
       "claim": "KVAC Jakarta estimates: single/double visa 10 working days, multiple visa 7, eligible C-3 express 5. Submission day is included; holidays are excluded. Extra documents or interviews can extend processing. Flight tickets and hotel reservations are not mandatory for visa assessment according to the official FAQ.",
       "source": "https://www.visaforkorea-in.com/id-ID/customer/faq",
       "source_name": "KVAC Jakarta · FAQ",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "notes": "Confirm eligibility, current conditions and documents with the official authority before travel."
     },
     {
@@ -884,8 +894,8 @@
       "claim": "From 2026-07-01: short single-entry IDR 680,000 + KVAC IDR 240,000 = IDR 920,000; multiple-entry IDR 1,530,000 + IDR 240,000 = IDR 1,770,000. Express and optional services cost extra; confirm the current official table.",
       "source": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
       "source_name": "KVAC Jakarta",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "notes": "Confirm eligibility, current conditions and documents with the official authority before travel."
     },
     {
@@ -895,8 +905,8 @@
       "claim": "Eligible applicants can apply for 5- or 10-year multiple-entry visas; the KVAC table lists a 30-day stay per visit. Long validity does not mean continuous residence or automatic eligibility. Ask KVAC to check your category.",
       "source": "https://www.visaforkorea-in.com/id-ID/visa-center/fee",
       "source_name": "KVAC Jakarta",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "notes": "Confirm eligibility, current conditions and documents with the official authority before travel."
     },
     {
@@ -906,9 +916,9 @@
       "claim": "Indonesian ordinary-passport tourists may use Jeju's separate visa-free program for up to 30 days, arriving directly from overseas and staying on Jeju. Entry via mainland Korea is not covered. Mainland travel requires an appropriate visa or prior immigration permission; entry is assessed at the border.",
       "source": "https://overseas.mofa.go.kr/gr-en/brd/m_22348/view.do?seq=59",
       "source_name": "Embassy of Korea · Jeju entry",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
-      "notes": "Confirm eligibility, current conditions and documents with the official authority before travel."
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
+      "notes": "Confirm eligibility, current conditions and documents with the official authority before travel. 2026-11-16: 30-day stay and direct-arrival rule not on the cited MOFA page (press confirms) - find an official HiKorea/immigration page."
     },
     {
       "id": "kvac-jakarta-location",
@@ -917,8 +927,8 @@
       "claim": "KVAC Jakarta: Lotte Mall Ciputra World 1 Unit 5F-05A, 5th floor, Jl. Prof. DR. Satrio No.1, Jakarta Selatan 12940. Applications 09:00–15:00 WIB Monday–Friday except holidays.",
       "source": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
       "source_name": "KVAC Jakarta",
-      "verified": "2026-11-08",
-      "recheck_after": "2026-12-05",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "notes": "Confirm eligibility, current conditions and documents with the official authority before travel.",
       "value": {
         "address": "Lotte Mall Ciputra World 1, Unit 5F-05A, Jl. Prof. DR. Satrio No. 1, Jakarta Selatan 12940"
@@ -929,8 +939,8 @@
       "claim": "KVAC charges PHP 1,000 per applicant, effective 2026-08-25. Pay in cash; this is separate from any Embassy visa issuance fee and optional agency or delivery charges. Fees are non-refundable, regardless of the decision.",
       "source": "https://www.visaforkorea-mn.com/customercenter/notice/view/1000",
       "source_name": "Korea Visa Application Center Manila",
-      "verified": "2026-11-09",
-      "recheck_after": "2026-12-09",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
       "notes": "Scope: visa applications submitted through KVAC in the Philippines.",
       "sources": [
@@ -946,11 +956,11 @@
     },
     {
       "id": "visa-philippines-collection",
-      "claim": "Visit KVAC on the next working day after receiving its SMS notification. For personal collection, bring your valid government ID and the application receipt with barcode. A third-party collector needs additional authorization documents; check KVAC instructions.",
+      "claim": "Visit KVAC on the next working day after receiving its SMS notification. For personal collection, bring your valid government ID and the application receipt from the reception counter. A third-party collector needs additional authorization documents; check KVAC instructions.",
       "source": "https://www.visaforkorea-mn.com/customercenter/notice/view/1010",
       "source_name": "Korea Visa Application Center Manila",
-      "verified": "2026-11-09",
-      "recheck_after": "2026-12-09",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
       "notes": "Scope: visa applications submitted through KVAC in the Philippines.",
       "sources": [
@@ -965,8 +975,8 @@
       "claim": "No. KVAC says a tentative flight date and hotel name are sufficient; confirmed flight tickets and hotel reservations are not required for the application. KVAC does not set a fixed minimum balance. Your funds must cover your intended stay. This does not remove the financial-document requirements for your application category.",
       "source": "https://www.visaforkorea-mn.com/customercenter/faq/list/",
       "source_name": "Korea Visa Application Center Manila",
-      "verified": "2026-11-09",
-      "recheck_after": "2026-12-09",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
       "notes": "Scope: visa applications submitted through KVAC in the Philippines."
     },
@@ -976,8 +986,8 @@
       "claim": "Ordinary-passport tourist visa applications go through KVAC Jakarta. Direct Embassy applications are reserved for diplomatic/official categories and specified exceptional cases; do not go directly to the Embassy for a normal tourist application.",
       "source": "https://www.visaforkorea-in.com/id-ID/customer/faq",
       "source_name": "KVAC Jakarta",
-      "verified": "2026-11-09",
-      "recheck_after": "2026-12-09",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
       "notes": "Scope: ordinary-passport tourist applications through KVAC Jakarta."
     },
@@ -987,8 +997,8 @@
       "claim": "KVAC Jakarta operates cashless in 2026. Use bank transfer, debit card or QRIS. The visa issuance fee and KVAC service charge are separate; check the current fee table before applying.",
       "source": "https://www.visaforkorea-in.com/id-ID/customer/faq",
       "source_name": "KVAC Jakarta",
-      "verified": "2026-11-09",
-      "recheck_after": "2026-12-09",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
       "notes": "Scope: ordinary-passport tourist applications through KVAC Jakarta."
     },
@@ -998,8 +1008,8 @@
       "claim": "The KVAC tourist checklist includes a copy of the Indonesian family card (Kartu Keluarga). Employees provide an original employment certificate; students an original enrollment certificate; business owners a copy of the business license; homemakers and retirees a copy of KTP. Use the checklist for your category; additional documents may be requested. Financial proof may include original bank transaction details for the last 3 months with the bank’s wet stamp, or credit-card usage statements and other evidence. Follow the official checklist and any additional request for your category. 1 photo, 3.5 × 4.5 cm, white background, attached to the application form.",
       "source": "https://www.visaforkorea-in.com/id-ID/customer/faq",
       "source_name": "KVAC Jakarta",
-      "verified": "2026-11-09",
-      "recheck_after": "2026-12-09",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
       "notes": "Scope: ordinary-passport tourist applications through KVAC Jakarta."
     },
@@ -1009,8 +1019,8 @@
       "claim": "Monday–Friday, excluding holidays: applications 09:00–15:00 WIB; passport collection 12:00–17:00 WIB. Submission and collection have different hours. Check holiday notices before visiting.",
       "source": "https://www.visaforkorea-in.com/id-ID/visa-center/location",
       "source_name": "KVAC Jakarta",
-      "verified": "2026-11-09",
-      "recheck_after": "2026-12-09",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-02-16",
       "status": "VERIFIED",
       "notes": "Scope: ordinary-passport tourist applications through KVAC Jakarta."
     },
@@ -1026,11 +1036,11 @@
         "map": "Hwacheon Sancheoneo Festival, Hwacheon-gun",
         "official": "https://www.narafestival.com"
       },
-      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=96732",
-      "source_name": "Korea Tourism Organization (VisitKorea)",
-      "verified": "2026-11-03",
-      "recheck_after": "2026-12-20",
-      "notes": "VisitKorea lists the 2027 period as provisional (carried over from the 2026 edition) until the Nara Foundation organizer confirms; re-verify in December and check ice/weather cancellations, admission and ticket details with the organizer."
+      "source": "https://www.narafestival.com/01_icenara/",
+      "source_name": "Nara Foundation · official Sancheoneo Ice Festival site",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-01-05",
+      "notes": "2027 dates confirmed on the official site (2027.1.9-1.31, 23 days). Check ice/weather cancellations, admission and ticket details with the organizer."
     },
     {
       "id": "festival-seoul-lantern-2026",

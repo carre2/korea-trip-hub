@@ -50,7 +50,7 @@
       "intro": "出租车价格实惠、数量众多。唯一要装的是 Kakao T——超过 90% 的 Seoul 出租车都用它，它会在你确认前显示预估车费，还能消除任何语言或绕路的担忧。",
       "types": [
         { "name": "普通（中型）", "fare": "₩4,800 起", "d": "标准的橙色/银色出租车。打表计费；深夜加价最高 40%（约 23:00–02:00）。" },
-        { "name": "模范出租车（mobeom）", "fare": "₩7,000 起", "d": "带金色条纹的黑色车。价格更高、更宽敞，且没有深夜加价——适合深夜出行。" },
+        { "name": "模范出租车（mobeom）", "fare": "₩7,000 起", "d": "带金色条纹的黑色车。价格更高、更宽敞；22:00–04:00 起步价升至 ₩8,400（前 3 公里）。" },
         { "name": "国际出租车", "fare": "₩8,000 起", "d": "黑色或橙色，标有“International”。司机会说英语/中文/日语；可预约。" }
       ],
       "tip": "大多数出租车可用 T-money 或刷卡支付。把目的地准备成韩文（地图应用会显示），上下车都更顺畅。"
@@ -149,7 +149,7 @@
       "intro": "計程車價格實惠、數量眾多。唯一要裝的是 Kakao T——超過 90% 的 Seoul 計程車都用它，會在你確認前顯示預估車資，還能消除任何語言或繞路的擔憂。",
       "types": [
         { "name": "一般（中型）", "fare": "₩4,800 起", "d": "標準的橘色/銀色計程車。跳表計費；深夜加成最高 40%（約 23:00–02:00）。" },
-        { "name": "模範計程車（mobeom）", "fare": "₩7,000 起", "d": "帶金色條紋的黑色車。較貴、較寬敞，且沒有深夜加成——適合深夜行程。" },
+        { "name": "模範計程車（mobeom）", "fare": "₩7,000 起", "d": "帶金色條紋的黑色車。較貴、較寬敞；22:00–04:00 起跳價升至 ₩8,400（前 3 公里）。" },
         { "name": "國際計程車", "fare": "₩8,000 起", "d": "黑色或橘色，標示「International」。司機會說英語/中文/日語；可事先預約。" }
       ],
       "tip": "大多數計程車可用 T-money 或刷卡支付。把目的地備好韓文（地圖 App 會顯示），上下車都更順暢。"
@@ -249,7 +249,7 @@
       "intro": "タクシーは手頃で数も豊富。入れておくべきは Kakao T——Seoul のタクシーの90%以上が対応し、確定前に予想料金が表示され、言葉や遠回りの不安がなくなります。",
       "types": [
         { "name": "一般（中型）", "fare": "₩4,800〜", "d": "標準的なオレンジ／シルバーのタクシー。メーター制。深夜は最大40%の割増（約23:00〜02:00）。" },
-        { "name": "模範（モボム）", "fare": "₩7,000〜", "d": "金のラインが入った黒い車。割高で広く、深夜割増なし——深夜の移動に便利。" },
+        { "name": "模範（モボム）", "fare": "₩7,000〜", "d": "金のラインが入った黒い車。割高で広め。22:00〜04:00 は初乗りが ₩8,400（最初の 3 km）に上がります。" },
         { "name": "インターナショナルタクシー", "fare": "₩8,000〜", "d": "黒またはオレンジで「International」と表示。運転手は英語／中国語／日本語対応。事前予約も可能。" }
       ],
       "tip": "ほとんどのタクシーで T-money かカード払いが可能。目的地を韓国語で用意しておく（地図アプリに表示されます）と、乗車・降車がスムーズです。"
@@ -348,7 +348,7 @@
       "intro": "Taxi có giá phải chăng và rất nhiều. Thứ duy nhất cần cài là Kakao T — hơn 90% taxi ở Seoul chạy trên app này, nó hiển thị giá ước tính trước khi bạn xác nhận, và loại bỏ mọi lo lắng về ngôn ngữ hay đi vòng.",
       "types": [
         { "name": "Thường (cỡ trung)", "fare": "từ ₩4,800", "d": "Taxi cam/bạc tiêu chuẩn. Tính theo đồng hồ; phụ phí đêm khuya tới 40% (~23:00–02:00)." },
-        { "name": "Cao cấp (mobeom)", "fare": "từ ₩7,000", "d": "Màu đen với sọc vàng. Đắt hơn, rộng rãi hơn và KHÔNG phụ phí đêm khuya — hợp cho chuyến đi muộn." },
+        { "name": "Cao cấp (mobeom)", "fare": "từ ₩7,000", "d": "Màu đen với sọc vàng. Đắt hơn, rộng rãi hơn; từ 22:00 đến 04:00 giá mở cửa tăng lên ₩8,400 (3 km đầu)." },
         { "name": "Taxi quốc tế", "fare": "từ ₩8,000", "d": "Đen hoặc cam, ghi 'International'. Tài xế nói tiếng Anh/Trung/Nhật; có thể đặt trước." }
       ],
       "tip": "Phần lớn taxi trả bằng T-money hoặc thẻ. Hãy chuẩn bị điểm đến bằng tiếng Hàn (app bản đồ hiển thị nó) để việc đón và trả khách suôn sẻ."
@@ -447,7 +447,7 @@
       "intro": "แท็กซี่ราคาย่อมเยาและมีเยอะ สิ่งเดียวที่ต้องติดตั้งคือ Kakao T — แท็กซี่ใน Seoul กว่า 90% ใช้แอปนี้ มันแสดงค่าโดยสารประเมินก่อนที่คุณจะยืนยัน และตัดความกังวลเรื่องภาษาหรือการอ้อมทางออกไป",
       "types": [
         { "name": "ทั่วไป (ขนาดกลาง)", "fare": "เริ่มต้น ₩4,800", "d": "แท็กซี่สีส้ม/เงินมาตรฐาน คิดตามมิเตอร์ ค่าธรรมเนียมช่วงดึกสูงถึง 40% (~23:00–02:00)" },
-        { "name": "ดีลักซ์ (mobeom)", "fare": "เริ่มต้น ₩7,000", "d": "สีดำมีแถบทอง แพงกว่า กว้างกว่า และไม่มีค่าธรรมเนียมช่วงดึก — ดีสำหรับเดินทางดึก" },
+        { "name": "ดีลักซ์ (mobeom)", "fare": "เริ่มต้น ₩7,000", "d": "สีดำมีแถบทอง แพงกว่าและกว้างกว่า ช่วง 22:00–04:00 ค่าเริ่มต้นเพิ่มเป็น ₩8,400 (3 กม. แรก)" },
         { "name": "แท็กซี่นานาชาติ", "fare": "เริ่มต้น ₩8,000", "d": "สีดำหรือส้ม มีป้าย 'International' คนขับพูดอังกฤษ/จีน/ญี่ปุ่น จองล่วงหน้าได้" }
       ],
       "tip": "แท็กซี่ส่วนใหญ่จ่ายด้วย T-money หรือบัตรได้ เตรียมจุดหมายเป็นภาษาเกาหลี (แอปแผนที่แสดงให้) เพื่อให้รับส่งราบรื่น"
@@ -546,7 +546,7 @@
       "intro": "Taksi terjangkau dan melimpah. Satu hal yang wajib dipasang adalah Kakao T — lebih dari 90% taksi Seoul memakainya, menampilkan perkiraan tarif sebelum Anda konfirmasi, dan menghapus kekhawatiran soal bahasa atau rute diputar-putar.",
       "types": [
         { "name": "Reguler (menengah)", "fare": "mulai ₩4,800", "d": "Taksi oranye/perak standar. Berargometer; biaya tambahan larut malam hingga 40% (~23:00–02:00)." },
-        { "name": "Deluxe (mobeom)", "fare": "mulai ₩7,000", "d": "Hitam dengan garis emas. Lebih mahal, lebih lega, dan TANPA biaya tambahan larut malam — cocok untuk perjalanan malam." },
+        { "name": "Deluxe (mobeom)", "fare": "mulai ₩7,000", "d": "Hitam dengan garis emas. Lebih mahal dan lebih lega; pukul 22:00–04:00 tarif awal naik menjadi ₩8,400 (3 km pertama)." },
         { "name": "Taksi internasional", "fare": "mulai ₩8,000", "d": "Hitam atau oranye, bertanda 'International'. Sopir berbahasa Inggris/Mandarin/Jepang; bisa dipesan lebih dulu." }
       ],
       "tip": "Bayar dengan T-money atau kartu di sebagian besar taksi. Siapkan tujuan dalam huruf Korea (ditampilkan aplikasi peta) agar penjemputan dan pengantaran lancar."
@@ -645,7 +645,7 @@
       "intro": "Los taxis son asequibles y abundantes. Lo único que hay que instalar es Kakao T: más del 90% de los taxis de Seoul lo usan, muestra una tarifa estimada antes de confirmar y elimina cualquier preocupación por el idioma o los rodeos.",
       "types": [
         { "name": "Normal (mediano)", "fare": "desde ₩4,800", "d": "El taxi estándar naranja/plateado. Con taxímetro; recargo nocturno de hasta el 40% (~23:00–02:00)." },
-        { "name": "De lujo (mobeom)", "fare": "desde ₩7,000", "d": "Negro con una franja dorada. Más caro, más amplio y SIN recargo nocturno: bueno para viajes tarde." },
+        { "name": "De lujo (mobeom)", "fare": "desde ₩7,000", "d": "Negro con una franja dorada. Más caro y amplio; de 22:00 a 04:00 la bajada de bandera sube a ₩8,400 (primeros 3 km)." },
         { "name": "Taxi internacional", "fare": "desde ₩8,000", "d": "Negro o naranja, con la marca 'International'. Los conductores hablan inglés/chino/japonés; se puede reservar." }
       ],
       "tip": "Paga con T-money o tarjeta en la mayoría de los taxis. Ten el destino en coreano (la app de mapas lo muestra) para que la recogida y la bajada sean fluidas."
@@ -744,7 +744,7 @@
       "intro": "Teksi berpatutan dan banyak. Satu perkara yang perlu dipasang ialah Kakao T — lebih 90% teksi Seoul menggunakannya, ia menunjukkan anggaran tambang sebelum anda sahkan, dan menghilangkan sebarang kerisauan bahasa atau pusing-pusing.",
       "types": [
         { "name": "Biasa (sederhana)", "fare": "dari ₩4,800", "d": "Teksi jingga/perak standard. Bermeter; caj tambahan lewat malam sehingga 40% (~23:00–02:00)." },
-        { "name": "Mewah (mobeom)", "fare": "dari ₩7,000", "d": "Hitam dengan jalur emas. Lebih mahal, lebih luas, dan TIADA caj tambahan lewat malam — sesuai untuk perjalanan lewat." },
+        { "name": "Mewah (mobeom)", "fare": "dari ₩7,000", "d": "Hitam dengan jalur emas. Lebih mahal dan lebih luas; dari 22:00 hingga 04:00 tambang asas naik kepada ₩8,400 (3 km pertama)." },
         { "name": "Teksi antarabangsa", "fare": "dari ₩8,000", "d": "Hitam atau jingga, bertanda 'International'. Pemandu bertutur bahasa Inggeris/Cina/Jepun; boleh ditempah awal." }
       ],
       "tip": "Bayar dengan T-money atau kad di kebanyakan teksi. Sediakan destinasi dalam bahasa Korea (aplikasi peta memaparkannya) supaya pengambilan dan penurunan lancar."
@@ -843,7 +843,7 @@
       "intro": "택시는 요금이 합리적이고 수가 많습니다. 꼭 설치할 하나는 Kakao T예요 — Seoul 택시의 90% 이상이 이 앱을 쓰고, 확정 전에 예상 요금을 보여주며, 언어나 돌아가기 걱정을 없애줍니다.",
       "types": [
         { "name": "일반(중형)", "fare": "₩4,800부터", "d": "표준적인 주황/은색 택시. 미터 요금제이며, 심야 할증은 최대 40%(약 23:00–02:00)입니다." },
-        { "name": "모범(mobeom)", "fare": "₩7,000부터", "d": "금색 줄무늬가 있는 검은색 차량. 더 비싸고 넓으며 심야 할증이 없어요 — 늦은 이동에 좋습니다." },
+        { "name": "모범(mobeom)", "fare": "₩7,000부터", "d": "금색 줄무늬가 있는 검은색 차량. 더 비싸고 넓어요. 22:00~04:00에는 기본요금이 ₩8,400(첫 3 km)으로 올라요." },
         { "name": "인터내셔널 택시", "fare": "₩8,000부터", "d": "검은색 또는 주황색에 'International' 표시. 기사가 영어/중국어/일본어를 하며 사전 예약도 가능합니다." }
       ],
       "tip": "대부분의 택시에서 T-money나 카드로 결제할 수 있어요. 목적지를 한국어로 준비해 두면(지도 앱에 표시됩니다) 승하차가 매끄럽습니다."
