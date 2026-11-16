@@ -1,6 +1,18 @@
 {
   "_README": "Copy for components/ResidentApply.jsx — applying for a Korean tourist visa while living in Taiwan or Hong Kong. Every rule/number here is grounded in data/facts.json: visa-resident-taipei-c39 and visa-resident-hongkong-c39 (verified 2026-11-16). If a fact changes, update this copy in the same commit. Only locales listed here render the section.",
-  "countries": ["bangladesh", "china", "india", "indonesia", "mongolia", "nepal", "pakistan", "philippines", "srilanka", "uzbekistan", "vietnam"],
+  "countries": [
+    "bangladesh",
+    "china",
+    "india",
+    "indonesia",
+    "mongolia",
+    "nepal",
+    "pakistan",
+    "philippines",
+    "srilanka",
+    "uzbekistan",
+    "vietnam"
+  ],
   "en": {
     "title": "Living in Taiwan or Hong Kong? Applying for a Korean visa there",
     "intro": "If your passport needs a Korean visa but you live or work in Taiwan or Hong Kong, you may be able to apply locally. The two Korean offices follow very different rules, especially for foreign domestic helpers.",
@@ -46,5 +58,97 @@
     "checked": "已對照官方公告",
     "twLink": "駐台北韓國代表部",
     "hkLink": "駐香港總領事館"
+  },
+  "id": {
+    "title": "Tinggal di Taiwan atau Hong Kong? Syarat mengajukan visa Korea di sana",
+    "intro": "Jika paspor Anda memerlukan visa Korea tetapi Anda tinggal atau bekerja di Taiwan atau Hong Kong, Anda mungkin bisa mengajukan di tempat. Aturan kedua kantor perwakilan Korea sangat berbeda, terutama bagi pekerja rumah tangga asing.",
+    "twTitle": "Di Taiwan: Korean Mission in Taipei",
+    "tw": [
+      "Pemegang paspor selain Taiwan, Jepang, atau Makau dapat mengajukan visa turis C-3-9: sekali masuk, berlaku 3 bulan, tinggal hingga 90 hari.",
+      "Pengajuan harus datang langsung (pengambilan boleh diwakilkan). Proses 10 hari kerja; tidak ada layanan ekspres.",
+      "Dokumen utama: formulir dengan foto, paspor berlaku 6 bulan atau lebih, ARC (kartu izin tinggal), rencana perjalanan bebas format, surat keterangan saldo asli minimal NTD 100,000 yang diterbitkan dalam 1 bulan oleh bank atau kantor pos di Taiwan, dan reservasi penerbangan.",
+      "Warga asing juga menyerahkan bukti asli alasan tinggal yang tertera di ARC, diterbitkan dalam 1 bulan — untuk pekerja rumah tangga: kontrak kerja dan salinan surat keterangan kerja — serta surat keterangan tinggal dan catatan keluar-masuk sejak 2015-01-01 dari Imigrasi Taiwan (National Immigration Agency).",
+      "Biaya NTD 640-8,000 tergantung kewarganegaraan."
+    ],
+    "hkTitle": "Di Hong Kong: Konsulat Jenderal Korea",
+    "hkWarn": "Pekerja rumah tangga asing yang bekerja di Hong Kong atau Makau tidak dapat mengajukan visa wisata pribadi (C-3-9) di konsulat ini.",
+    "hk": [
+      "Warga dari 34 negara yang terdaftar (termasuk Tiongkok, Filipina, Indonesia, Vietnam, dan India) harus memenuhi dua syarat: tinggal 2 tahun berturut-turut di Hong Kong/Makau dengan visa tinggal jangka panjang, dan memegang visa jangka panjang yang masih berlaku lebih dari 4 bulan pada tanggal pengajuan. Pemegang paspor Tiongkok cukup memenuhi syarat kedua.",
+      "Sekali masuk, berlaku 3 bulan, tinggal 90 hari atau kurang. Proses minimal 7 hari kerja tanpa layanan ekspres, dan paspor disimpan di konsulat selama proses. Beli tiket pesawat hanya setelah visa disetujui.",
+      "Bukti keuangan: saldo harian minimal HKD 20,000 yang dipertahankan selama 3 bulan berturut-turut terakhir (hanya rekening bank di Hong Kong, Makau, atau Tiongkok daratan). Biaya hanya tunai."
+    ],
+    "fallback": "Jika tidak memenuhi syarat ini, ikuti langkah pengajuan dari negara asal di atas atau tanyakan ke kantor terkait sebelum merencanakan perjalanan.",
+    "checked": "Dicocokkan dengan pengumuman resmi",
+    "twLink": "Korean Mission in Taipei",
+    "hkLink": "Konsulat Jenderal di Hong Kong"
+  },
+  "vi": {
+    "title": "Đang sống ở Đài Loan hoặc Hồng Kông? Điều kiện xin visa Hàn Quốc tại chỗ",
+    "intro": "Nếu hộ chiếu của bạn cần visa Hàn Quốc nhưng bạn đang sống hoặc làm việc ở Đài Loan hay Hồng Kông, bạn có thể nộp hồ sơ tại đó. Quy định của hai cơ quan đại diện Hàn Quốc rất khác nhau, đặc biệt với người giúp việc gia đình nước ngoài.",
+    "twTitle": "Tại Đài Loan: Phái đoàn Hàn Quốc tại Đài Bắc",
+    "tw": [
+      "Người mang hộ chiếu không phải Đài Loan, Nhật Bản hay Ma Cao có thể xin visa du lịch C-3-9: nhập cảnh một lần, hiệu lực 3 tháng, lưu trú tối đa 90 ngày.",
+      "Phải tự nộp trực tiếp (có thể nhờ người khác nhận thay). Thời gian xử lý 10 ngày làm việc; không có dịch vụ khẩn.",
+      "Giấy tờ chính: đơn xin visa có dán ảnh, hộ chiếu còn hạn từ 6 tháng, thẻ cư trú ARC, lịch trình du lịch (tự do định dạng), giấy xác nhận số dư bản gốc từ NTD 100,000 trở lên do ngân hàng hoặc bưu điện tại Đài Loan cấp trong vòng 1 tháng, và đặt chỗ vé máy bay.",
+      "Người nước ngoài nộp thêm bản gốc giấy chứng minh lý do cư trú ghi trên ARC, cấp trong vòng 1 tháng — ví dụ người giúp việc gia đình: hợp đồng lao động và bản sao giấy xác nhận đang làm việc — cùng giấy chứng nhận cư trú và hồ sơ xuất nhập cảnh từ 2015-01-01 do Sở Di dân Đài Loan cấp.",
+      "Lệ phí NTD 640-8,000 tùy quốc tịch."
+    ],
+    "hkTitle": "Tại Hồng Kông: Tổng Lãnh sự quán Hàn Quốc",
+    "hkWarn": "Người giúp việc gia đình nước ngoài đang làm việc tại Hồng Kông hoặc Ma Cao không được xin visa du lịch cá nhân (C-3-9) tại tổng lãnh sự quán này.",
+    "hk": [
+      "Công dân của 34 nước trong danh sách (gồm Trung Quốc, Philippines, Indonesia, Việt Nam, Ấn Độ…) phải đáp ứng cả hai điều kiện: đã cư trú liên tục 2 năm tại Hồng Kông/Ma Cao bằng visa dài hạn, và visa dài hạn hiện tại còn hạn trên 4 tháng tính từ ngày nộp. Hộ chiếu Trung Quốc chỉ cần điều kiện thứ hai.",
+      "Nhập cảnh một lần, hiệu lực 3 tháng, lưu trú 90 ngày trở xuống. Xử lý tối thiểu 7 ngày làm việc, không có dịch vụ khẩn, hộ chiếu được giữ lại trong thời gian xét duyệt. Chỉ mua vé máy bay sau khi được cấp visa.",
+      "Chứng minh tài chính: số dư hằng ngày từ HKD 20,000 trở lên duy trì liên tục trong 3 tháng gần nhất (chỉ chấp nhận tài khoản ngân hàng tại Hồng Kông, Ma Cao hoặc Trung Quốc đại lục). Lệ phí chỉ nhận tiền mặt."
+    ],
+    "fallback": "Nếu không đáp ứng các điều kiện này, hãy làm theo hướng dẫn nộp hồ sơ tại nước sở tại ở phần trên hoặc hỏi cơ quan liên quan trước khi lên kế hoạch.",
+    "checked": "Đã đối chiếu với thông báo chính thức",
+    "twLink": "Phái đoàn Hàn Quốc tại Đài Bắc",
+    "hkLink": "Tổng Lãnh sự quán tại Hồng Kông"
+  },
+  "zh": {
+    "title": "住在台湾或香港？在当地申请韩国签证的条件",
+    "intro": "护照需要韩国签证、但人在台湾或香港工作生活，不一定要回国申请。不过两地韩国馆处的规定差别很大，外籍家庭佣工尤其要注意。",
+    "twTitle": "在台湾：驻台北韩国代表部",
+    "tw": [
+      "非台湾、日本、澳门护照可申请 C-3-9 旅游签证：单次入境，有效期 3 个月，最多停留 90 天。",
+      "须本人亲自递交（可委托他人代领）。审核需 10 个工作日，不提供加急。",
+      "主要材料：签证申请表（附照片）、有效期 6 个月以上的护照、居留证、行程计划（格式不限）、1 个月内由台湾的银行或邮局开具的 NTD 100,000 以上余额证明原件、机票预订记录。",
+      "外籍人士另需提供居留证上“居留事由”的证明原件（1 个月内开具），例如家庭佣工：雇佣合同及在职证明复印件；以及台湾移民署开具的居留证明和出入境记录（2015-01-01 起）。",
+      "签证费依国籍为 NTD 640-8,000。"
+    ],
+    "hkTitle": "在香港：大韩民国驻香港总领事馆",
+    "hkWarn": "在香港或澳门工作的外籍家庭佣工，不能在总领事馆申请个人旅游（C-3-9）签证。",
+    "hk": [
+      "34 个指定国籍（包括中国、菲律宾、印尼、越南、印度等）须同时符合两项条件：持长期居留签证在港澳连续居住满 2 年，且申请当日所持长期签证仍有 4 个月以上有效期。中国护照只需符合第二项。",
+      "单次入境，有效期 3 个月，停留 90 天以下。审核至少 7 个工作日，不提供加急，审核期间护照留在总领事馆。请在签证获批后再购买机票。",
+      "资金证明：过去连续 3 个月每日余额保持 HKD 20,000 以上（仅限香港、澳门或中国内地的银行账户）。签证费只收现金。"
+    ],
+    "fallback": "不符合上述条件时，请按本页上方的本国申请方式办理，或先向相关馆处确认再安排行程。",
+    "checked": "已对照官方公告",
+    "twLink": "驻台北韩国代表部",
+    "hkLink": "驻香港总领事馆"
+  },
+  "ru": {
+    "title": "Живёте на Тайване или в Гонконге? Как подать на корейскую визу на месте",
+    "intro": "Если вашему паспорту нужна корейская виза, но вы живёте или работаете на Тайване или в Гонконге, подать документы, возможно, можно на месте. Правила двух корейских представительств сильно различаются, особенно для иностранных домашних работников.",
+    "twTitle": "На Тайване: Представительство Кореи в Тайбэе",
+    "tw": [
+      "Владельцы паспортов, кроме паспортов Тайваня, Японии и Макао, могут подать на туристическую визу C-3-9: однократный въезд, срок действия 3 месяца, пребывание до 90 дней.",
+      "Подача только лично (получить визу может доверенное лицо). Рассмотрение — 10 рабочих дней, срочного оформления нет.",
+      "Основные документы: анкета с фото, паспорт со сроком действия не менее 6 месяцев, вид на жительство (ARC), план поездки в свободной форме, оригинал справки об остатке от NTD 100,000, выданной не ранее чем за 1 месяц банком или почтой на Тайване, и бронь авиабилетов.",
+      "Иностранцы также подают оригинал документа, подтверждающего основание проживания, указанное в ARC (выдан не ранее чем за 1 месяц; для домашнего работника — трудовой договор и копия справки с места работы), а также справку о проживании и выписку о въездах-выездах с 2015-01-01 от иммиграционной службы Тайваня.",
+      "Сбор — NTD 640-8,000 в зависимости от гражданства."
+    ],
+    "hkTitle": "В Гонконге: Генеральное консульство Кореи",
+    "hkWarn": "Иностранные домашние работники, работающие в Гонконге или Макао, не могут подать на визу для индивидуального туризма (C-3-9) в этом консульстве.",
+    "hk": [
+      "Граждане 34 стран из списка (включая Китай, Филиппины, Индонезию, Вьетнам, Индию, Узбекистан, Казахстан и Монголию) должны выполнить оба условия: проживать в Гонконге/Макао по долгосрочной визе последние 2 года подряд и иметь действующую долгосрочную визу, срок которой на дату подачи превышает 4 месяца. Владельцам паспорта КНР достаточно второго условия.",
+      "Однократный въезд, срок действия 3 месяца, пребывание до 90 дней. Рассмотрение — не менее 7 рабочих дней, срочного оформления нет, паспорт остаётся в консульстве. Покупайте билеты только после одобрения визы.",
+      "Финансовые документы: ежедневный остаток не менее HKD 20,000 в течение последних 3 месяцев подряд (принимаются только счета в банках Гонконга, Макао или материкового Китая). Сбор — только наличными."
+    ],
+    "fallback": "Если вы не подходите под эти условия, следуйте инструкции по подаче в стране гражданства выше или уточните в представительстве до планирования поездки.",
+    "checked": "Сверено с официальными объявлениями",
+    "twLink": "Представительство в Тайбэе",
+    "hkLink": "Генконсульство в Гонконге"
   }
 }
