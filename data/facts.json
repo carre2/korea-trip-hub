@@ -1,41 +1,7 @@
 {
   "_README": "Facts SSOT. Follows HARNESS.md. Only status:VERIFIED facts render. All numbers/contacts/rules must be grounded here. No invented estimates. VOLATILE facts must show source + verified date + confirm link. claim/notes are the ENGLISH (base-language) display text; translations for other locales live in messages/<locale>.json under `facts`.",
-  "_updated": "2026-11-08",
+  "_updated": "2026-11-16",
   "facts": [
-    {
-      "id": "klook-busan-fireworks-ticket",
-      "tier": "VOLATILE",
-      "status": "VERIFIED",
-      "claim": "Klook lists a 2026 Busan Fireworks Festival ticket and round-trip shuttle product.",
-      "value": {
-        "url": "https://www.klook.com/en-US/activity/171795-2026-busan-fireworks-festival-21th-anniversary-ticket/",
-        "kind": "tickets"
-      },
-      "source": "https://www.klook.com/en-US/activity/171795-2026-busan-fireworks-festival-21th-anniversary-ticket/",
-      "source_name": "Klook",
-      "verified": "2026-11-03",
-      "recheck_after": "2026-11-10",
-      "notes": "Product identity and package listing checked. Availability, prices, departure details, inclusions and cancellation terms must be confirmed on Klook. Past reviews do not establish current package conditions."
-    },
-    {
-      "id": "festival-busan-fireworks-2026",
-      "tier": "VOLATILE",
-      "status": "VERIFIED",
-      "claim": "Busan Fireworks Festival takes place on 2026-11-07 around Gwangalli Beach, Igidae and Dongbaekseom in Busan.",
-      "value": {
-        "start": "2026-11-07",
-        "end": "2026-11-07",
-        "venue": "Gwangalli Beach, Igidae and Dongbaekseom, Busan",
-        "map": "Gwangalli Beach, Busan",
-        "official": "https://busanfireworks.com/bbs/content.php?co_id=overview",
-        "tickets": "https://busanfireworks.com/bbs/board.php?bo_table=reservation"
-      },
-      "source": "https://busanfireworks.com/bbs/content.php?co_id=overview",
-      "source_name": "Busan Festival Organizing Committee",
-      "verified": "2026-11-03",
-      "recheck_after": "2026-11-10",
-      "notes": "Official dates, venues and ticket information link verified. Confirm performance times, prices, admission and weather-related changes with the organizer."
-    },
     {
       "id": "keta-exemption",
       "tier": "VOLATILE",
@@ -107,8 +73,8 @@
       },
       "source": "https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E",
       "source_name": "Korea Immigration Service — e-Arrival Card",
-      "verified": "2026-10-09",
-      "recheck_after": "2026-11-09",
+      "verified": "2026-11-16",
+      "recheck_after": "2026-12-16",
       "status": "VERIFIED",
       "notes": "If required, submit free at e-arrivalcard.go.kr from 3 days before arrival, based on Korean Standard Time. It expires 72 hours after submission or once immigration is completed. Keeping the emailed issuance number is helpful; carrying a printed confirmation is not required. Guide: https://www.e-arrivalcard.go.kr/portal/guide/eacGuide.do"
     },
@@ -125,8 +91,8 @@
       },
       "source": "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
       "source_name": "Korea Immigration Service · K-ETA eligibility",
-      "verified": "2026-10-09",
-      "recheck_after": "2026-11-09",
+      "verified": "2026-11-16",
+      "recheck_after": "2026-12-16",
       "status": "VERIFIED",
       "notes": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card. K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay. Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed. Application rules: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN"
     },
@@ -143,8 +109,8 @@
       },
       "source": "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
       "source_name": "Korea Immigration Service · K-ETA eligibility",
-      "verified": "2026-10-09",
-      "recheck_after": "2026-11-09",
+      "verified": "2026-11-16",
+      "recheck_after": "2026-12-16",
       "status": "VERIFIED",
       "notes": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card. K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay. Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed. Application rules: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN"
     },
@@ -270,8 +236,8 @@
       },
       "source": "https://www.k-eta.go.kr/portal/guide/viewetaalification.do",
       "source_name": "Korea Immigration Service · K-ETA eligibility",
-      "verified": "2026-10-09",
-      "recheck_after": "2026-11-09",
+      "verified": "2026-11-16",
+      "recheck_after": "2026-12-16",
       "status": "VERIFIED",
       "notes": "K-ETA-eligible travelers aged 17 and under or 65 and over are exempt from mandatory K-ETA. This does not itself exempt them from the e-Arrival Card. K-ETA costs KRW 10,000 plus the online payment fee and is non-refundable. Current approvals are valid for 3 years or until passport expiry, whichever comes first; this is not the allowed length of each stay. Apply early enough to receive approval before boarding. K-ETA assessment can take more than 72 hours; no approval time or entry is guaranteed. Application rules: https://www.k-eta.go.kr/portal/guide/viewetaapplication.do?locale=EN"
     },
@@ -1101,6 +1067,48 @@
       "verified": "2026-11-03",
       "recheck_after": "2027-03-14",
       "notes": "PROVISIONAL: the official site states the lighting festival runs early December to mid-March each winter; the 2026-2027 exact dates are projected from that schedule and the prior season and are not yet officially fixed. No lighting in rain/snow — confirm the opening date and nightly hours at the official site."
+    },
+    {
+      "id": "visa-resident-taipei-c39",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "Holders of passports other than Taiwan, Japan or Macau who live in Taiwan can apply for a short-term tourist visa (C-3-9) at the Korean Mission in Taipei: single entry, valid 3 months, stay up to 90 days. Apply in person (collection by a proxy is allowed); processing takes 10 working days and there is no express service. Documents include the application form with photo, passport valid 6+ months, ID or Taiwan Resident Certificate (ARC), a free-form travel plan, an original balance certificate of NTD 100,000 or more issued within 1 month by a bank or post office in Taiwan, a flight reservation, original proof of the residence reason shown on the ARC issued within 1 month (e.g. domestic helper: employment contract and employment certificate copy), a residence certificate and an entry-exit record from 2015-01-01, both issued by Taiwan National Immigration Agency. Fee NTD 640-8,000 depending on nationality.",
+      "value": {
+        "validity": "3 months",
+        "max_stay": "90 days",
+        "entry": "single",
+        "processing": "10 working days",
+        "balance_min": "NTD 100,000",
+        "balance_issued_within": "1 month",
+        "entry_exit_record_from": "2015-01-01",
+        "fee_range": "NTD 640-8,000"
+      },
+      "source": "https://overseas.mofa.go.kr/tw-ko/brd/m_1444/view.do?seq=1345847",
+      "source_name": "Korean Mission in Taipei · C-3-9 for non-Taiwanese passport holders (modified 2026-01-30)",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-01-16",
+      "notes": "Phone +886-2-2758-8320~5; consular reception Mon-Fri 08:30-11:30, 14:00-16:00. Confirm the current checklist with the Mission before applying."
+    },
+    {
+      "id": "visa-resident-hongkong-c39",
+      "tier": "VOLATILE",
+      "status": "VERIFIED",
+      "claim": "At the Korean Consulate General in Hong Kong, a foreign domestic helper working in Hong Kong/Macau is not eligible to apply for a personal tourism (C-3-9) visa. Nationals of 34 listed countries (including China, the Philippines, Indonesia, Vietnam, India, Bangladesh, Nepal, Pakistan, Sri Lanka, Mongolia, Thailand, Uzbekistan and Kazakhstan) may apply there only if they have resided in Hong Kong/Macau on a long-term stay visa for the last 2 consecutive years AND hold a valid long-term stay visa with more than 4 months remaining; P.R. Chinese passport holders need only the second condition. The visa is single entry, valid 3 months, stay 90 days or less; processing takes at least 7 working days with no expedited service; the passport is kept during processing; buy air tickets only after approval. Financial proof: a daily balance of HKD 20,000 or more maintained for the past 3 consecutive months (bank accounts in HK, Macau or mainland China only). Fee in cash only.",
+      "value": {
+        "residence_required": "2 consecutive years",
+        "visa_remaining": "more than 4 months",
+        "validity": "3 months",
+        "max_stay": "90 days",
+        "processing_min": "7 working days",
+        "funds": "HKD 20,000",
+        "funds_period": "3 months",
+        "countries_listed": "34"
+      },
+      "source": "https://overseas.mofa.go.kr/hk-en/brd/m_20261/view.do?seq=717556",
+      "source_name": "Consulate General of Korea in Hong Kong · C-3-9 Personal Tourism checklist (PDF, last revised 2025-07-30; posted 2026-07-28)",
+      "verified": "2026-11-16",
+      "recheck_after": "2027-01-16",
+      "notes": "Visa application hours 09:00-12:00 (arrive before 11:30). Enquiries: hkg-visa@mofa.go.kr. The full checklist is in the attached PDF on the official page."
     }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "_README": "Copy for components/ResidentApply.jsx — applying for a Korean tourist visa while living in Taiwan or Hong Kong. Every rule/number here is grounded in data/facts.json: visa-resident-taipei-c39 and visa-resident-hongkong-c39 (verified 2026-11-16). If a fact changes, update this copy in the same commit. Only locales listed here render the section.",
+  "countries": ["bangladesh", "china", "india", "indonesia", "mongolia", "nepal", "pakistan", "philippines", "srilanka", "uzbekistan", "vietnam"],
+  "en": {
+    "title": "Living in Taiwan or Hong Kong? Applying for a Korean visa there",
+    "intro": "If your passport needs a Korean visa but you live or work in Taiwan or Hong Kong, you may be able to apply locally. The two Korean offices follow very different rules, especially for foreign domestic helpers.",
+    "twTitle": "In Taiwan: Korean Mission in Taipei",
+    "tw": [
+      "Holders of passports other than Taiwan, Japan or Macau can apply for a C-3-9 tourist visa: single entry, valid 3 months, stay up to 90 days.",
+      "Apply in person (a proxy may collect it). Processing takes 10 working days; there is no express service.",
+      "Main documents: application form with photo, passport valid 6+ months, your ARC (resident certificate), a free-form travel plan, an original balance certificate of NTD 100,000 or more issued within 1 month by a bank or post office in Taiwan, and a flight reservation.",
+      "Foreign residents also submit original proof of the residence reason on the ARC, issued within 1 month — for a domestic helper, the employment contract and a copy of the employment certificate — plus a residence certificate and an entry-exit record from 2015-01-01 issued by the National Immigration Agency.",
+      "The fee is NTD 640-8,000 depending on nationality."
+    ],
+    "hkTitle": "In Hong Kong: Consulate General of Korea",
+    "hkWarn": "Foreign domestic helpers working in Hong Kong or Macau are not eligible to apply for a personal tourism (C-3-9) visa at this consulate.",
+    "hk": [
+      "Nationals of 34 listed countries (including China, the Philippines, Indonesia, Vietnam and India) must meet both conditions: 2 consecutive years living in Hong Kong/Macau on a long-term stay visa, and a valid long-term stay visa with more than 4 months left on the application date. Chinese passport holders need only the second condition.",
+      "Single entry, valid 3 months, stay 90 days or less. Processing takes at least 7 working days with no expedited service, and your passport stays at the consulate. Buy air tickets only after the visa is granted.",
+      "Financial proof: a daily balance of HKD 20,000 or more kept for the past 3 consecutive months (bank accounts in Hong Kong, Macau or mainland China only). The fee is cash only."
+    ],
+    "fallback": "If you do not meet these conditions, follow the home-country application steps above or ask the office before you plan.",
+    "checked": "Checked against official notices",
+    "twLink": "Korean Mission in Taipei",
+    "hkLink": "Consulate General in Hong Kong"
+  },
+  "zh-TW": {
+    "title": "住在台灣或香港？在當地申請韓國簽證的條件",
+    "intro": "護照需要簽證、但人在台灣或香港工作生活，不一定要回國申請。不過兩地韓國館處的規定差很多，外籍家庭幫傭尤其要注意。",
+    "twTitle": "在台灣：駐台北韓國代表部",
+    "tw": [
+      "非台灣、日本、澳門護照可申請 C-3-9 觀光簽證：單次入境，效期 3 個月，最多停留 90 天。",
+      "須本人親自送件（可委託他人代領）。審核需 10 個工作天，不提供急件。",
+      "主要文件：簽證申請表（附照片）、效期 6 個月以上的護照、居留證、行程表（格式不拘）、1 個月內由台灣的銀行或郵局開立的 NTD 100,000 以上餘額證明正本、機票訂位紀錄。",
+      "外籍人士另需提供居留證上「居留事由」的證明正本（1 個月內開立），例如家庭幫傭：僱傭契約及在職證明影本；以及移民署開立的居留證明與入出境紀錄（2015-01-01 起）。",
+      "規費依國籍為 NTD 640-8,000。"
+    ],
+    "hkTitle": "在香港：大韓民國駐香港總領事館",
+    "hkWarn": "在香港或澳門工作的外籍家庭傭工，不能在總領事館申請個人旅遊（C-3-9）簽證。",
+    "hk": [
+      "34 個指定國籍（包括中國、菲律賓、印尼、越南、印度等）須同時符合兩項條件：以長期居留簽證在港澳連續居住滿 2 年，且申請當日所持長期簽證仍有 4 個月以上效期。中國護照只需符合第二項。",
+      "單次入境，效期 3 個月，停留 90 天以下。審核至少 7 個工作天，無急件服務，審核期間護照留在總領事館。請在簽證核發後再購買機票。",
+      "財力證明：過去連續 3 個月每日餘額維持 HKD 20,000 以上（僅限香港、澳門或中國內地的銀行帳戶）。規費只收現金。"
+    ],
+    "fallback": "不符合上述條件時，請依本頁上方的本國申請方式辦理，或先向館處確認再安排行程。",
+    "checked": "已對照官方公告",
+    "twLink": "駐台北韓國代表部",
+    "hkLink": "駐香港總領事館"
+  }
+}

@@ -5,6 +5,7 @@ import { locales, getMessages, defaultLocale } from "../../../../lib/i18n";
 import { pageMeta, breadcrumbLd, articleLd, faqLd } from "../../../../lib/seo";
 import JsonLd from "../../../../components/JsonLd";
 import VisaCountryGuide from "../../../../components/VisaCountryGuide";
+import ResidentApply from "../../../../components/ResidentApply";
 import VisaPhotoSpec from "../../../../components/VisaPhotoSpec";
 import VisaLocalInfo from "../../../../components/VisaLocalInfo";
 import NextSteps from "../../../../components/NextSteps";
@@ -86,6 +87,7 @@ export default function VisaCountryPage({ params }) {
 
       {!g.entryNotice && <EntryGuidance locale={locale} compact visaRequired={!!g.verdict?.need} />}
       <VisaCountryGuide guide={g} m={m} />
+      <ResidentApply locale={locale} country={params.country} />
       {['china','vietnam','philippines','indonesia','india'].includes(params.country)&&<EntryGroupFee locale={locale}/>}
 
       {g.verdict?.need && <VisaPhotoSpec m={m} />}
