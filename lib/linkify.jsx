@@ -40,7 +40,10 @@ export function linkify(text, locale) {
     if (t.start < last) continue; // safety: skip any residual overlap
     if (t.start > last) out.push(text.slice(last, t.start));
     if (t.type === "int") {
-      const href = `/${locale}${t.path}`;
+      // trailingSlash: true -> ensure internal paths end with "/" so a writer typing
+      // "[visa](/plan/visa)" links to /{locale}/plan/visa/ directly (no 307 redirect hop).
+      const path = t.path.endsWith("/") ? t.path : `${t.path}/`;
+      const href = `/${locale}${path}`;
       out.push(<a key={key++} href={href}>{t.label}</a>);
       last = t.end;
     } else {
