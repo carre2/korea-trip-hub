@@ -2,6 +2,7 @@ import { getMessages, defaultLocale, locales } from "../../lib/i18n";
 import { pageMeta, webSiteLd } from "../../lib/seo";
 import JsonLd from "../../components/JsonLd";
 import festivalCopies from "../../data/festivals-ui.json";
+import kwaveCopies from "../../data/kwave-ui.json";
 import festivalRegistry from "../../data/festivals.json";
 import {fact} from "../../lib/facts";
 
@@ -87,6 +88,7 @@ export function generateMetadata({ params }) {
 export default function Home({ params }) {
   const locale = params?.locale || defaultLocale;
   const m = getMessages(locale), t = m.experience;
+  const kw = kwaveCopies[locale];
   const itineraries = itinFor(locale);
   const destination = (slug) => ({ ...destData.items[slug], ...(destI18n[locale]?.items?.[slug] || {}) });
   const routeOptions = Object.fromEntries(itineraries.order.map((key) => {
@@ -131,13 +133,22 @@ export default function Home({ params }) {
         return <article className="journey-place" key={slug}><a href={`/${locale}/destinations/${slug}/`} data-landing-link={slug}><img src={im.img} alt={d.name} width="1280" height="853" loading="lazy" /><div><h3>{d.name}</h3><p>{d.blurb}</p></div></a><SavePlace id={'dest:'+slug} locale={locale}/><small><a href={im.creditUrl} target="_blank" rel="noopener noreferrer">{im.credit}</a></small></article>;
       })}</div>
     </section>
+    <section className="journey-start wrap journey-kwave" id="kculture">
+      <div className="sec-head"><div><span className="eyebrow">{kw.eyebrow}</span><h2>{kw.title}</h2><p>{kw.sub}</p></div><a href={`/${locale}/kpop/`}>{kw.kpop.title} →</a></div>
+      <div className="journey-start-grid">
+        <a className="journey-start-card" href={`/${locale}/kpop/`}><div className="journey-card-top"><span className="kwave-emoji" aria-hidden="true">🎤</span></div><h3>{kw.kpop.title}</h3><p>{kw.kpop.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span></a>
+        <a className="journey-start-card" href={`/${locale}/guides/k-beauty-shopping/`}><div className="journey-card-top"><span className="kwave-emoji" aria-hidden="true">💄</span></div><h3>{kw.beauty.title}</h3><p>{kw.beauty.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span></a>
+        <a className="journey-start-card" href={`/${locale}/guides/idol-makeup/`}><div className="journey-card-top"><span className="kwave-emoji" aria-hidden="true">💇</span></div><h3>{kw.makeover.title}</h3><p>{kw.makeover.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span></a>
+        <a className="journey-start-card" href={`/${locale}/festivals/`}><div className="journey-card-top"><span className="kwave-emoji" aria-hidden="true">🎆</span></div><h3>{kw.festivals.title}</h3><p>{kw.festivals.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span></a>
+      </div>
+    </section>
     <section id="food" className="wrap journey-food"><div className="sec-head"><h2>{m.food.title}</h2><a href={`/${locale}/food/`}>{m.food.browseAll} →</a></div>
       <div className="journey-food-grid">{foodData.eat.slice(0,3).map((base,i)=>{
         const item={...base,...foodI18n[locale]?.eat?.[i]}, im=foodImages[item.key];
         return <article className="journey-food-card" key={item.key}>{im && <img src={im.img} alt={item.n} width="400" height="300" loading="lazy" />}<div><h3>{item.n}</h3><p>{item.d}</p>{item.mapq && <NearbyEats q={item.mapq} label={item.n} />}{im?.credit && <small className="journey-credit"><a href={im.creditUrl} target="_blank" rel="noopener noreferrer">{im.credit}</a></small>}</div></article>;
       })}</div>
     </section>
-    <section className="wrap journey-more" id="kculture"><div><span className="eyebrow">{m.guides.eyebrow}</span><h2>{m.guides.title}</h2><p>{m.guides.sub}</p><a className="btn ghost" href={`/${locale}/guides/`}>{t.details} →</a></div><div><span className="eyebrow">{m.nav.kculture}</span><h2>{festivalCopies[locale].title}</h2><p>{festivalCopies[locale].intro}</p><a className="btn ghost" href={`/${locale}/festivals/`}>{t.details} →</a></div></section>
+    <section className="wrap journey-more"><div><span className="eyebrow">{m.guides.eyebrow}</span><h2>{m.guides.title}</h2><p>{m.guides.sub}</p><a className="btn ghost" href={`/${locale}/guides/`}>{t.details} →</a></div></section>
     <section id="map" className="journey-map"><div className="wrap"><details><summary>{m.home.mapTitle}</summary><MapExplorer labels={m.map} locale={locale} /></details></div></section>
     <section id="help" className="wrap journey-help"><div><span className="eyebrow">{m.help.eyebrow}</span><h2>{m.help.title}</h2><p>{m.help.sub}</p></div><a className="btn ghost" href={`/${locale}/plan/help/`}>{m.plan.tiles.help.title} →</a></section>
   </div>;

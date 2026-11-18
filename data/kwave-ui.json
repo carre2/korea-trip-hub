@@ -1,0 +1,99 @@
+{
+  "_README": "K-Wave surfacing copy (nav labels + home section cards) per locale. Drives Header K-pop/K-beauty nav links and the home K-Wave block. Cards link to EXISTING pages: /kpop/, /guides/k-beauty-shopping/, /guides/idol-makeup/, /festivals/. Short localized labels use real market search terms (see keyword research). No invented facts.",
+  "en": {
+    "navKpop": "K-pop", "navBeauty": "K-Beauty",
+    "eyebrow": "K-Wave", "title": "K-pop, K-beauty & idol style", "sub": "Follow the music, shop the skincare, get the idol look.",
+    "kpop": { "title": "K-pop fan guide", "sub": "Concerts, tickets, music shows & agency spots" },
+    "beauty": { "title": "K-beauty shopping", "sub": "Olive Young, skincare & tax refund" },
+    "makeover": { "title": "Idol hair & makeup", "sub": "Studios & photoshoots in Seoul" },
+    "festivals": { "title": "Festivals & seasons", "sub": "What's on while you're in Korea" }
+  },
+  "ko": {
+    "navKpop": "K-팝", "navBeauty": "K-뷰티",
+    "eyebrow": "한류", "title": "K-팝·K-뷰티·아이돌 스타일", "sub": "콘서트부터 올리브영 쇼핑, 아이돌 메이크업까지.",
+    "kpop": { "title": "K-팝 팬 가이드", "sub": "콘서트·티켓·음악방송·소속사 성지" },
+    "beauty": { "title": "K-뷰티 쇼핑", "sub": "올리브영·스킨케어·택스리펀드" },
+    "makeover": { "title": "아이돌 헤어·메이크업", "sub": "서울 스튜디오·화보 체험" },
+    "festivals": { "title": "축제·계절", "sub": "여행 기간에 열리는 행사" }
+  },
+  "ja": {
+    "navKpop": "K-POP", "navBeauty": "韓国コスメ",
+    "eyebrow": "韓流", "title": "K-POP・韓国コスメ・アイドルメイク", "sub": "音楽番組、オリーブヤング、アイドル体験まで。",
+    "kpop": { "title": "K-POP ファンガイド", "sub": "コンサート・チケット・音楽番組・事務所" },
+    "beauty": { "title": "韓国コスメ 買い物", "sub": "オリーブヤング・スキンケア・免税" },
+    "makeover": { "title": "アイドルメイク体験", "sub": "ソウルのヘア＆メイクスタジオ" },
+    "festivals": { "title": "祭り・季節", "sub": "滞在中に楽しめるイベント" }
+  },
+  "zh-TW": {
+    "navKpop": "追星", "navBeauty": "韓妝",
+    "eyebrow": "韓流", "title": "追星・韓妝・偶像妝髮", "sub": "打歌節目、Olive Young 必買、偶像妝髮體驗。",
+    "kpop": { "title": "韓國追星攻略", "sub": "演唱會搶票・打歌節目・應援咖啡廳" },
+    "beauty": { "title": "Olive Young 必買攻略", "sub": "藥妝・退稅・明洞弘大血拼" },
+    "makeover": { "title": "偶像妝髮寫真", "sub": "首爾妝髮工作室體驗" },
+    "festivals": { "title": "慶典・季節", "sub": "旅程期間的活動" }
+  },
+  "zh": {
+    "navKpop": "追星", "navBeauty": "韩妆",
+    "eyebrow": "韩流", "title": "追星・韩妆・偶像妆发", "sub": "打歌节目、Olive Young 必买、偶像妆发体验。",
+    "kpop": { "title": "韩国追星攻略", "sub": "演唱会抢票・打歌节目・应援咖啡厅" },
+    "beauty": { "title": "韩国药妆必买攻略", "sub": "Olive Young・退税・明洞弘大扫货" },
+    "makeover": { "title": "偶像妆发写真", "sub": "首尔化妆造型体验" },
+    "festivals": { "title": "庆典・季节", "sub": "旅程期间的活动" }
+  },
+  "id": {
+    "navKpop": "K-Pop", "navBeauty": "Skincare",
+    "eyebrow": "Hallyu", "title": "K-Pop, Skincare Korea & Gaya Idol", "sub": "Konser, belanja Olive Young, sampai makeup ala idol.",
+    "kpop": { "title": "Wisata K-Pop Seoul", "sub": "Konser, tiket, music show & gedung agensi" },
+    "beauty": { "title": "Belanja Skincare Korea", "sub": "Olive Young, tax refund & spot belanja" },
+    "makeover": { "title": "Makeup & Rambut ala Idol", "sub": "Studio foto & makeover di Seoul" },
+    "festivals": { "title": "Festival & Musim", "sub": "Acara selama kamu di Korea" }
+  },
+  "ms": {
+    "navKpop": "K-Pop", "navBeauty": "Skincare",
+    "eyebrow": "Hallyu", "title": "K-Pop, Skincare Korea & Gaya Idola", "sub": "Konsert, beli-belah Olive Young, makeup ala idola.",
+    "kpop": { "title": "Percutian K-Pop Seoul", "sub": "Konsert, tiket, music show & agensi" },
+    "beauty": { "title": "Beli Skincare Korea", "sub": "Olive Young, tax refund & lokasi beli-belah" },
+    "makeover": { "title": "Makeup & Rambut Idola", "sub": "Studio foto & makeover di Seoul" },
+    "festivals": { "title": "Festival & Musim", "sub": "Acara sepanjang anda di Korea" }
+  },
+  "th": {
+    "navKpop": "K-pop", "navBeauty": "สกินแคร์",
+    "eyebrow": "Hallyu", "title": "K-pop, สกินแคร์เกาหลี & สไตล์ไอดอล", "sub": "คอนเสิร์ต ช้อป Olive Young จนถึงเมคอัพสไตล์ไอดอล",
+    "kpop": { "title": "เที่ยวตามรอย K-pop โซล", "sub": "คอนเสิร์ต ตั๋ว รายการเพลง & ค่ายเพลง" },
+    "beauty": { "title": "ช้อปสกินแคร์เกาหลี", "sub": "Olive Young คืนภาษี & แหล่งช้อป" },
+    "makeover": { "title": "แต่งหน้า-ทำผมสไตล์ไอดอล", "sub": "สตูดิโอถ่ายภาพในโซล" },
+    "festivals": { "title": "เทศกาล & ฤดูกาล", "sub": "อีเวนต์ช่วงที่คุณเที่ยวเกาหลี" }
+  },
+  "vi": {
+    "navKpop": "K-pop", "navBeauty": "Mỹ phẩm",
+    "eyebrow": "Hallyu", "title": "K-pop, Mỹ phẩm Hàn & Phong cách idol", "sub": "Concert, mua sắm Olive Young đến makeup kiểu idol.",
+    "kpop": { "title": "Du lịch K-pop Seoul", "sub": "Concert, vé, music show & công ty giải trí" },
+    "beauty": { "title": "Mua mỹ phẩm Hàn Quốc", "sub": "Olive Young, hoàn thuế & điểm mua sắm" },
+    "makeover": { "title": "Makeup & tóc kiểu idol", "sub": "Studio chụp ảnh ở Seoul" },
+    "festivals": { "title": "Lễ hội & mùa", "sub": "Sự kiện khi bạn ở Hàn Quốc" }
+  },
+  "es": {
+    "navKpop": "K-pop", "navBeauty": "K-beauty",
+    "eyebrow": "Hallyu", "title": "K-pop, cosmética coreana y estilo idol", "sub": "Conciertos, compras en Olive Young y maquillaje idol.",
+    "kpop": { "title": "Guía fan de K-pop", "sub": "Conciertos, entradas, programas y agencias" },
+    "beauty": { "title": "Compras de cosmética coreana", "sub": "Olive Young, skincare y devolución de impuestos" },
+    "makeover": { "title": "Maquillaje y peinado idol", "sub": "Estudios y sesiones de fotos en Seúl" },
+    "festivals": { "title": "Festivales y estaciones", "sub": "Qué hay durante tu viaje" }
+  },
+  "fr": {
+    "navKpop": "K-pop", "navBeauty": "K-beauté",
+    "eyebrow": "Hallyu", "title": "K-pop, cosmétiques coréens et style idole", "sub": "Concerts, shopping chez Olive Young et maquillage idole.",
+    "kpop": { "title": "Guide fan de K-pop", "sub": "Concerts, billets, émissions musicales et agences" },
+    "beauty": { "title": "Shopping K-beauté", "sub": "Olive Young, soins et détaxe" },
+    "makeover": { "title": "Maquillage et coiffure idole", "sub": "Studios et séances photo à Séoul" },
+    "festivals": { "title": "Festivals et saisons", "sub": "Ce qui se passe pendant votre séjour" }
+  },
+  "ru": {
+    "navKpop": "K-pop", "navBeauty": "K-beauty",
+    "eyebrow": "Халлю", "title": "K-pop, корейская косметика и стиль айдолов", "sub": "Концерты, шопинг в Olive Young и макияж айдолов.",
+    "kpop": { "title": "Гид по K-pop для фанатов", "sub": "Концерты, билеты, музыкальные шоу и агентства" },
+    "beauty": { "title": "Шопинг корейской косметики", "sub": "Olive Young, уход и возврат налога" },
+    "makeover": { "title": "Макияж и причёска айдола", "sub": "Студии и фотосессии в Сеуле" },
+    "festivals": { "title": "Фестивали и сезоны", "sub": "События во время поездки" }
+  }
+}
