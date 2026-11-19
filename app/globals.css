@@ -434,6 +434,21 @@
   .bfind-btn{display:inline-flex;align-items:center;gap:6px;padding:10px 16px;border-radius:999px;background:var(--primary);color:var(--on-primary);text-decoration:none;font-weight:700;font-size:1rem}
   .bfind-btn:hover{filter:brightness(1.05)}
   .bfind-note{margin:12px 0 0;padding:11px 14px;border-radius:10px;background:var(--bg);border:1px solid var(--border);font-size:1rem;line-height:1.55;color:var(--text)}
+  /* Related videos row on a guide (facade — thumbnail until tapped). */
+  .gvid{margin:26px 0}
+  .gvid>h2{margin-bottom:14px}
+  .gvid-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .gvid-thumb{display:block;width:100%;padding:0;border:0;border-radius:12px;overflow:hidden;position:relative;cursor:pointer;background:var(--surface-2);aspect-ratio:16/9}
+  .gvid-thumb img{display:block;width:100%;height:100%;object-fit:cover}
+  .gvid-play{position:absolute;inset:0;margin:auto;width:46px;height:46px;display:grid;place-items:center;border-radius:999px;background:rgba(0,0,0,.6);color:#fff;font-size:1.125rem}
+  .gvid-thumb:hover .gvid-play{background:var(--primary)}
+  .gvid-frame{border-radius:12px;overflow:hidden;aspect-ratio:16/9;background:#000}
+  .gvid-frame iframe{display:block;width:100%;height:100%;border:0}
+  .gvid-ttl{margin:8px 0 1px;font-size:1rem;font-weight:650;line-height:1.35}
+  .gvid-by{margin:0;font-size:.875rem;color:var(--muted)}
+  .gvid-note{margin:12px 0 0;font-size:.875rem;color:var(--faint)}
+  @media (max-width:720px){.gvid-grid{grid-template-columns:1fr 1fr}}
+  @media (max-width:460px){.gvid-grid{grid-template-columns:1fr}}
   /* Highlighter for a deal / number / caution: ==text== in guide copy. */
   mark.hl{background:#ffe27a;color:#241a00;font-weight:800;padding:.02em .26em;border-radius:4px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
   /* Trip checklist — the always-visible A-to-Z spine on the planner. */
