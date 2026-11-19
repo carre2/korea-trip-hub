@@ -5,6 +5,7 @@
 // passes the few strings this needs (nav labels + locale list) as props.
 import { useEffect, useRef, useState } from "react";
 import ShareTools from "./ShareTools";
+import SearchBox from "./SearchBox";
 import shareLabels from "../data/share-ui.json";
 import visaSwitchLabels from "../data/visa-switch-ui.json";
 import { languageSwitchOptions } from "../lib/language-switch.mjs";
@@ -88,6 +89,7 @@ export default function Header({ locale, nav = {}, labels: ui = {}, festivalTitl
           <button type="button" className="mobile-share trip-text-button" onClick={() => { close(); shareDialog.current?.showModal(); }}>{sharing.button}</button>
         <button type="button" className="mobile-theme trip-text-button" onClick={toggleTheme}>◐ {ui.theme}</button></nav>
         <div className="nav-right">
+          <SearchBox locale={locale} />
           <button type="button" className="header-share" aria-label={sharing.button} aria-haspopup="dialog" onClick={() => { close(); shareDialog.current?.showModal(); }}>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 10.5 6.8-4M8.6 13.5l6.8 4"/></svg>
             <span>{sharing.button}</span>
