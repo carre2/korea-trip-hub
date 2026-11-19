@@ -13,6 +13,8 @@ export default function SearchBox({ locale }) {
   const [results, setResults] = useState([]);
   const inputRef = useRef(null);
   const boxRef = useRef(null);
+  const listRef = useRef(null);
+  const [active, setActive] = useState(-1);
 
   // Lazy-load the index the first time the panel opens, then focus the input.
   useEffect(() => {
@@ -28,6 +30,7 @@ export default function SearchBox({ locale }) {
   // Filter as the query changes: every token must hit the title or keywords;
   // title hits rank higher so the best page floats to the top.
   useEffect(() => {
+    setActive(-1);
     if (!index || !q.trim()) { setResults([]); return; }
     const toks = q.toLowerCase().trim().split(/\s+/).slice(0, 6);
     const scored = [];
@@ -55,6 +58,20 @@ export default function SearchBox({ locale }) {
     return () => { document.removeEventListener("mousedown", onDoc); document.removeEventListener("keydown", onKey); };
   }, [open]);
 
+  // Keep the keyboard-highlighted result scrolled into view.
+  useEffect(() => {
+    if (active < 0 || !listRef.current) return;
+    listRef.current.querySelectorAll("a")[active]?.scrollIntoView({ block: "nearest" });
+  }, [active]);
+
+  // Arrow keys move the highlight; Enter opens the highlighted (or first) result.
+  function onKeyDown(e) {
+    if (!results.length) return;
+    if (e.key === "ArrowDown") { e.preventDefault(); setActive((a) => (a + 1) % results.length); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); setActive((a) => (a <= 0 ? results.length - 1 : a - 1)); }
+    else if (e.key === "Enter") { const r = results[active] || results[0]; if (r) { e.preventDefault(); setOpen(false); window.location.href = r.p; } }
+  }
+
   return (
     <div className="site-search" ref={boxRef}>
       <button type="button" className="site-search-btn" aria-label={t.label} aria-expanded={open} onClick={() => setOpen((v) => !v)}>
@@ -69,17 +86,21 @@ export default function SearchBox({ locale }) {
             placeholder={t.placeholder}
             value={q}
             onChange={(e) => setQ(e.target.value)}
+            onKeyDown={onKeyDown}
             aria-label={t.label}
+            role="combobox"
+            aria-expanded={results.length > 0}
+            aria-controls="site-search-list"
             autoComplete="off"
           />
           {q.trim() && (
-            <ul className="site-search-results">
+            <ul className="site-search-results" id="site-search-list" ref={listRef} role="listbox">
               {results.length === 0 ? (
                 <li className="site-search-empty">{index === null ? t.loading : t.empty}</li>
               ) : (
-                results.map((r) => (
-                  <li key={r.p}>
-                    <a href={r.p} onClick={() => setOpen(false)}>
+                results.map((r, i) => (
+                  <li key={r.p} role="option" aria-selected={i === active}>
+                    <a href={r.p} className={i === active ? "is-active" : ""} onClick={() => setOpen(false)} onMouseEnter={() => setActive(i)}>
                       <span className="site-search-r-t">{r.t}</span>
                       {r.c && <span className="site-search-r-c">{t.cats?.[r.c] || r.c}</span>}
                     </a>
