@@ -1538,11 +1538,17 @@
 @keyframes plannerFlash { 0% { box-shadow: 0 0 0 3px var(--primary); } 35% { box-shadow: 0 0 0 5px var(--primary-soft); } 100% { box-shadow: 0 0 0 0 rgba(9,107,86,0); } }
 @media (prefers-reduced-motion: reduce) { .tnudge { animation: tnudgeIn .42s ease both; } .tnudge-arrow path { animation: none; stroke-dasharray: none; } .nav-mytrip.mytrip-glow, .nav-toggle.mytrip-glow { animation: none; } .planner-flash { animation: none; } }
 
-/* Always-on cue on the "My trip" nav link: a small pulsing dot so the planner
-   stays discoverable for returning visitors too (the one-time coach mark above
-   only fires on first visit). Inline after the label, so it sits next to the
-   text in both the desktop nav row and the mobile menu, every locale. */
-.nav-mytrip-dot { position: relative; display: inline-block; width: 7px; height: 7px; margin-left: 6px; vertical-align: 1px; border-radius: 50%; background: var(--primary); pointer-events: none; }
-.nav-mytrip-dot::after { content: ""; position: absolute; inset: 0; border-radius: 50%; background: var(--primary); animation: mytripDotPulse 1.9s ease-out infinite; }
-@keyframes mytripDotPulse { 0% { transform: scale(1); opacity: .5; } 70%, 100% { transform: scale(2.8); opacity: 0; } }
-@media (prefers-reduced-motion: reduce) { .nav-mytrip-dot::after { animation: none; } }
+/* Always-on "speech-bubble" badge on the "My trip" nav link: invites every
+   visitor to the planner (not just first-timers, who also get the one-time coach
+   mark). Inline inside the mobile menu; a floating bubble below the link on the
+   >=1280px nav row (that row is nowrap, so the badge must stay out of flow).
+   Hidden while the one-time coach mark is glowing, to avoid doubling up. */
+.nav-mytrip-badge { display: inline-block; margin-left: 8px; vertical-align: middle; white-space: nowrap; font-size: 11px; font-weight: 700; line-height: 1; letter-spacing: .2px; color: var(--on-primary); background: var(--primary); padding: 4px 9px; border-radius: 999px; box-shadow: 0 3px 10px -3px var(--primary); pointer-events: none; animation: mytripBadgePulse 2s ease-in-out infinite; }
+@media (min-width: 1280px) {
+  .nav-mytrip { position: relative; overflow: visible; }
+  .nav-mytrip-badge { position: absolute; top: calc(100% + 7px); left: 50%; margin: 0; transform: translateX(-50%); }
+  .nav-mytrip-badge::before { content: ""; position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); border: 5px solid transparent; border-bottom-color: var(--primary); }
+}
+.nav-mytrip.mytrip-glow .nav-mytrip-badge { display: none; }
+@keyframes mytripBadgePulse { 0%, 100% { box-shadow: 0 3px 10px -3px var(--primary); } 50% { box-shadow: 0 3px 10px -3px var(--primary), 0 0 0 4px var(--primary-soft); } }
+@media (prefers-reduced-motion: reduce) { .nav-mytrip-badge { animation: none; } }
