@@ -3,6 +3,7 @@ import { pageMeta, breadcrumbLd, articleLd, SITE_NAME, REVIEWED } from "../../..
 import JsonLd from "../../../../components/JsonLd";
 import { linkify } from "../../../../lib/linkify";
 import ArticleTrust from "../../../../components/ArticleTrust";
+import NextSteps from "../../../../components/NextSteps";
 import flightsUi from "../../../../data/flights-ui.json";
 
 // Static sibling of plan/[slug] — "flights" isn't a plan slug, so no route clash.
@@ -31,13 +32,6 @@ export default function FlightsGuide({ params }) {
   const locale = params?.locale || defaultLocale;
   const m = getMessages(locale);
   const t = flightsUi[locale] || flightsUi.en;
-  const short = (s) => (s || "").split("—")[0].split("|")[0].trim();
-  const related = [
-    { label: short(m.plan.tiles.visa.title), href: `/${locale}/plan/visa/` },
-    { label: short(m.plan.tiles.airport.title), href: `/${locale}/plan/airport/` },
-    { label: m.nextSteps?.stay || "Where to stay", href: `/${locale}/stay/` },
-    { label: short(m.plan.tiles.money.title), href: `/${locale}/plan/money/` },
-  ];
 
   return (
     <article className="article">
@@ -92,15 +86,7 @@ export default function FlightsGuide({ params }) {
         <p>{linkify(t.airportBody, locale)}</p>
       </section>
 
-      <section className="gv-sec">
-        <h2>{t.relatedH2}</h2>
-        <div className="topic-spots">
-          {related.map((r) => (
-            <a key={r.href} className="topic-spot" href={r.href}>{r.label} →</a>
-          ))}
-        </div>
-      </section>
-
+      <NextSteps locale={locale} m={m} heading={m.nextSteps?.heading} />
       <ArticleTrust locale={locale} reviewed={REVIEWED.iso} />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>

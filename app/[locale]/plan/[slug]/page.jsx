@@ -356,7 +356,7 @@ export default function PlanArticle({ params }) {
       )}
 
       {slug === "money" && <BudgetCalculator locale={locale} />}
-      {slug === "visa" && <NextSteps locale={locale} m={m}/>}
+      <NextSteps locale={locale} m={m} exclude={[`plan/${slug}`]} heading={slug === "visa" ? undefined : m.nextSteps?.heading} />
       <ArticleTrust locale={locale} reviewed={guide?.reviewed || REVIEWED.iso} />
       <p className="art-disclaimer">
         {m.footer.disclaimer}

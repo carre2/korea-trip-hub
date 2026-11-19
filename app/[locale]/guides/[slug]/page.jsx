@@ -5,6 +5,7 @@ import { linkify } from "../../../../lib/linkify";
 import BookCTA from "../../../../components/BookCTA";
 import { klookSearch, withAff } from "../../../../lib/booking";
 import BudgetCalculator from "../../../../components/BudgetCalculator";
+import NextSteps from "../../../../components/NextSteps";
 import PeekMascot from "../../../../components/PeekMascot";
 import BloomTable from "../../../../components/BloomTable";
 import ArticleTrust from "../../../../components/ArticleTrust";
@@ -201,6 +202,7 @@ export default function TopicGuide({ params }) {
       )}
 
       {slug.startsWith("korea-from-") && <BudgetCalculator key={slug} locale={locale} country={slug.slice('korea-from-'.length)} />}
+      <NextSteps locale={locale} m={m} heading={m.nextSteps?.heading} />
       <ArticleTrust reviewed={g.reviewed || REVIEWED.iso} locale={locale} />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>
