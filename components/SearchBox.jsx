@@ -1,11 +1,9 @@
 "use client";
-// On-site search for a static export. Two surfaces share one piece of state:
-//   • Wide screens: an always-visible inline field (input + magnifier) in the
-//     header; results drop down beneath it.
-//   • Narrow screens: a round magnifier button that opens a full-width panel
-//     with its own input (keeps the crowded phone header from overflowing).
-// Both lazy-fetch the locale's prebuilt index (public/search/<locale>.json) and
-// filter it in the browser. No server, no third party.
+// On-site search for a static export. A small inline field (input on the left,
+// magnifier on the right) lives in the header at every width — on narrow screens
+// it simply shrinks instead of collapsing to an icon. Results drop down below it
+// (viewport-wide on compact headers). It lazy-fetches the locale's prebuilt index
+// (public/search/<locale>.json) and filters it in the browser: no server, no third party.
 import { useState, useRef, useEffect } from "react";
 import searchUi from "../data/search-ui.json";
 
@@ -15,28 +13,20 @@ export default function SearchBox({ locale }) {
   const [index, setIndex] = useState(null);
   const [results, setResults] = useState([]);
   const [active, setActive] = useState(-1);
-  const [focused, setFocused] = useState(false); // inline field has focus (desktop dropdown)
-  const [open, setOpen] = useState(false);        // mobile panel is open
+  const [focused, setFocused] = useState(false);
   const boxRef = useRef(null);
-  const fieldInputRef = useRef(null);
-  const panelInputRef = useRef(null);
+  const inputRef = useRef(null);
   const listRef = useRef(null);
 
-  // Lazy-load the index the first time the user engages either surface.
-  const engaged = focused || open;
+  // Lazy-load the index the first time the field is engaged.
   useEffect(() => {
-    if (engaged && index === null) {
+    if (focused && index === null) {
       fetch(`/search/${locale}.json`)
         .then((r) => (r.ok ? r.json() : []))
         .then((d) => setIndex(Array.isArray(d) ? d : []))
         .catch(() => setIndex([]));
     }
-  }, [engaged, index, locale]);
-
-  // Focus the panel input when the mobile panel opens.
-  useEffect(() => {
-    if (open) { const id = setTimeout(() => panelInputRef.current?.focus(), 30); return () => clearTimeout(id); }
-  }, [open]);
+  }, [focused, index, locale]);
 
   // Filter as the query changes: every token must hit the title or keywords;
   // title hits rank higher so the best page floats to the top.
@@ -59,10 +49,10 @@ export default function SearchBox({ locale }) {
     setResults(scored.slice(0, 8).map((x) => x[1]));
   }, [q, index]);
 
-  // Close on outside click or Escape.
+  // Close the dropdown on outside click or Escape.
   useEffect(() => {
-    function onDoc(e) { if (boxRef.current && !boxRef.current.contains(e.target)) { setOpen(false); setFocused(false); } }
-    function onKey(e) { if (e.key === "Escape") { setOpen(false); setFocused(false); fieldInputRef.current?.blur(); } }
+    function onDoc(e) { if (boxRef.current && !boxRef.current.contains(e.target)) setFocused(false); }
+    function onKey(e) { if (e.key === "Escape") { setFocused(false); inputRef.current?.blur(); } }
     document.addEventListener("mousedown", onDoc);
     document.addEventListener("keydown", onKey);
     return () => { document.removeEventListener("mousedown", onDoc); document.removeEventListener("keydown", onKey); };
@@ -74,7 +64,7 @@ export default function SearchBox({ locale }) {
     listRef.current.querySelectorAll("a")[active]?.scrollIntoView({ block: "nearest" });
   }, [active]);
 
-  function go(p) { setOpen(false); setFocused(false); window.location.href = p; }
+  function go(p) { setFocused(false); inputRef.current?.blur(); window.location.href = p; }
 
   // Arrow keys move the highlight; Enter opens the highlighted (or first) result.
   function onKeyDown(e) {
@@ -84,37 +74,17 @@ export default function SearchBox({ locale }) {
     else if (e.key === "Enter") { const r = results[active] || results[0]; if (r) { e.preventDefault(); go(r.p); } }
   }
 
-  const magnifier = (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m21 21-4.35-4.35" /></svg>
-  );
-
-  const resultList = (
-    <ul className="site-search-results" id="site-search-list" ref={listRef} role="listbox">
-      {results.length === 0 ? (
-        <li className="site-search-empty">{index === null ? t.loading : t.empty}</li>
-      ) : (
-        results.map((r, i) => (
-          <li key={r.p} role="option" aria-selected={i === active}>
-            <a href={r.p} className={i === active ? "is-active" : ""} onClick={() => go(r.p)} onMouseEnter={() => setActive(i)}>
-              <span className="site-search-r-t">{r.t}</span>
-              {r.c && <span className="site-search-r-c">{t.cats?.[r.c] || r.c}</span>}
-            </a>
-          </li>
-        ))
-      )}
-    </ul>
-  );
+  const showDrop = focused && q.trim();
 
   return (
     <div className="site-search" ref={boxRef}>
-      {/* Wide screens: always-visible inline field (input on the left, magnifier on the right). */}
       <form
         className="site-search-field"
         role="search"
         onSubmit={(e) => { e.preventDefault(); const r = results[active] || results[0]; if (r) go(r.p); }}
       >
         <input
-          ref={fieldInputRef}
+          ref={inputRef}
           type="search"
           className="site-search-input"
           placeholder={t.placeholder}
@@ -124,42 +94,30 @@ export default function SearchBox({ locale }) {
           onKeyDown={onKeyDown}
           aria-label={t.label}
           role="combobox"
-          aria-expanded={focused && q.trim() && results.length > 0 ? true : false}
+          aria-expanded={showDrop && results.length > 0 ? true : false}
           aria-controls="site-search-list"
           autoComplete="off"
         />
-        <button type="submit" className="site-search-go" aria-label={t.label} tabIndex={-1}>{magnifier}</button>
+        <button type="submit" className="site-search-go" aria-label={t.label} tabIndex={-1}>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m21 21-4.35-4.35" /></svg>
+        </button>
       </form>
 
-      {/* Narrow screens: round button that opens the panel. */}
-      <button type="button" className="site-search-btn" aria-label={t.label} aria-expanded={open} onClick={() => setOpen((v) => !v)}>
-        {magnifier}
-      </button>
-
-      {/* Desktop dropdown beneath the inline field. */}
-      {focused && !open && q.trim() && (
-        <div className="site-search-drop">{resultList}</div>
-      )}
-
-      {/* Mobile panel with its own input. */}
-      {open && (
-        <div className="site-search-panel">
-          <input
-            ref={panelInputRef}
-            type="search"
-            className="site-search-input site-search-input--panel"
-            placeholder={t.placeholder}
-            value={q}
-            onChange={(e) => setQ(e.target.value)}
-            onKeyDown={onKeyDown}
-            aria-label={t.label}
-            role="combobox"
-            aria-expanded={q.trim() && results.length > 0 ? true : false}
-            aria-controls="site-search-list"
-            autoComplete="off"
-          />
-          {q.trim() && resultList}
-        </div>
+      {showDrop && (
+        <ul className="site-search-results site-search-drop" id="site-search-list" ref={listRef} role="listbox">
+          {results.length === 0 ? (
+            <li className="site-search-empty">{index === null ? t.loading : t.empty}</li>
+          ) : (
+            results.map((r, i) => (
+              <li key={r.p} role="option" aria-selected={i === active}>
+                <a href={r.p} className={i === active ? "is-active" : ""} onClick={() => go(r.p)} onMouseEnter={() => setActive(i)}>
+                  <span className="site-search-r-t">{r.t}</span>
+                  {r.c && <span className="site-search-r-c">{t.cats?.[r.c] || r.c}</span>}
+                </a>
+              </li>
+            ))
+          )}
+        </ul>
       )}
     </div>
   );
