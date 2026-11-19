@@ -121,6 +121,13 @@ export default function TopicGuide({ params }) {
         </section>
       ))}
 
+      {g.oliveYoung && (
+        <section className="gv-sec">
+          <h2>{g.oliveYoung.h2}</h2>
+          {g.oliveYoung.body.map((p, j) => <p key={j}>{linkify(p, locale)}</p>)}
+        </section>
+      )}
+
       {g.klook && (
         <BookCTA
           partner="klook"
