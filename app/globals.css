@@ -1508,3 +1508,22 @@
 .prr-email-consent { display: flex; align-items: center; gap: 6px; font-size: .78rem; color: #fff; max-width: 280px; text-align: left; }
 .prr-email-ok { color: #fff; font-weight: 700; background: rgba(255,255,255,.18); border-radius: 10px; padding: 10px 14px; }
 .prr-email-err { color: #ffd7cf; font-size: .8rem; width: 100%; text-align: center; }
+
+/* ── "My trip" first-visit coach mark (MyTripNudge.jsx) ─────────────────── */
+.tnudge { position: fixed; z-index: 120; background: var(--surface); color: var(--text); border: 1px solid var(--border-strong); border-radius: 16px; box-shadow: var(--shadow-lg); padding: 15px 16px; animation: tnudgeIn .35s cubic-bezier(.2,.8,.2,1) both; }
+.tnudge-x { position: absolute; top: 6px; right: 6px; width: 30px; height: 30px; border: 0; background: none; color: var(--muted); font-size: 13px; line-height: 1; cursor: pointer; border-radius: 8px; }
+.tnudge-x:hover { background: var(--surface-2); color: var(--text); }
+.tnudge-title { display: block; font-size: 1.0625rem; font-weight: 800; line-height: 1.3; margin: 2px 26px 6px 2px; }
+.tnudge-body { margin: 0 0 14px; font-size: .9375rem; line-height: 1.5; color: var(--muted); }
+.tnudge-cta { display: inline-flex; align-items: center; gap: 6px; background: var(--primary); color: var(--on-primary); border: 0; border-radius: 999px; padding: 10px 18px; font-size: .9375rem; font-weight: 700; cursor: pointer; min-height: 44px; }
+.tnudge-cta:hover { filter: brightness(1.06); }
+.tnudge-arrow { position: fixed; top: 0; left: 0; z-index: 119; pointer-events: none; }
+.tnudge-arrow path { fill: none; stroke: var(--primary); stroke-width: 2.6; stroke-linecap: round; stroke-dasharray: 7 7; animation: tnudgeDash .7s linear infinite; }
+.tnudge-arrow polygon { fill: var(--primary); }
+.nav-mytrip.mytrip-glow, .nav-toggle.mytrip-glow { border-radius: 9px; background: var(--primary-soft); box-shadow: 0 0 0 2px var(--primary) inset; animation: tnudgePulse 1.3s ease-in-out infinite; }
+.planner-flash { animation: plannerFlash 2.1s ease-out 1; border-radius: 16px; }
+@keyframes tnudgeIn { from { opacity: 0; transform: translateY(-8px) scale(.96); } to { opacity: 1; transform: none; } }
+@keyframes tnudgeDash { to { stroke-dashoffset: -14; } }
+@keyframes tnudgePulse { 0%,100% { box-shadow: 0 0 0 2px var(--primary) inset, 0 0 0 0 rgba(9,107,86,0); } 50% { box-shadow: 0 0 0 2px var(--primary) inset, 0 0 0 7px var(--primary-soft); } }
+@keyframes plannerFlash { 0% { box-shadow: 0 0 0 3px var(--primary); } 35% { box-shadow: 0 0 0 5px var(--primary-soft); } 100% { box-shadow: 0 0 0 0 rgba(9,107,86,0); } }
+@media (prefers-reduced-motion: reduce) { .tnudge { animation: none; } .tnudge-arrow path { animation: none; stroke-dasharray: none; } .nav-mytrip.mytrip-glow, .nav-toggle.mytrip-glow { animation: none; } .planner-flash { animation: none; } }
