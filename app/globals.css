@@ -1510,20 +1510,30 @@
 .prr-email-err { color: #ffd7cf; font-size: .8rem; width: 100%; text-align: center; }
 
 /* ── "My trip" first-visit coach mark (MyTripNudge.jsx) ─────────────────── */
-.tnudge { position: fixed; z-index: 120; background: var(--surface); color: var(--text); border: 1px solid var(--border-strong); border-radius: 16px; box-shadow: var(--shadow-lg); padding: 15px 16px; animation: tnudgeIn .35s cubic-bezier(.2,.8,.2,1) both; }
-.tnudge-x { position: absolute; top: 6px; right: 6px; width: 30px; height: 30px; border: 0; background: none; color: var(--muted); font-size: 13px; line-height: 1; cursor: pointer; border-radius: 8px; }
+.tnudge { position: fixed; z-index: 120; color: var(--text);
+  background: linear-gradient(158deg, var(--surface) 50%, var(--primary-soft));
+  border: 1.5px solid var(--primary); border-radius: 18px;
+  box-shadow: var(--shadow-lg), 0 0 0 4px var(--primary-soft), 0 12px 30px -8px var(--primary);
+  padding: 17px 18px 18px;
+  animation: tnudgeIn .42s cubic-bezier(.2,.8,.2,1) both, tnudgeBreathe 2.8s ease-in-out .7s infinite; }
+.tnudge-x { position: absolute; top: 7px; right: 7px; width: 30px; height: 30px; border: 0; background: none; color: var(--muted); font-size: 13px; line-height: 1; cursor: pointer; border-radius: 8px; z-index: 1; }
 .tnudge-x:hover { background: var(--surface-2); color: var(--text); }
-.tnudge-title { display: block; font-size: 1.0625rem; font-weight: 800; line-height: 1.3; margin: 2px 26px 6px 2px; }
-.tnudge-body { margin: 0 0 14px; font-size: .9375rem; line-height: 1.5; color: var(--muted); }
-.tnudge-cta { display: inline-flex; align-items: center; gap: 6px; background: var(--primary); color: var(--on-primary); border: 0; border-radius: 999px; padding: 10px 18px; font-size: .9375rem; font-weight: 700; cursor: pointer; min-height: 44px; }
-.tnudge-cta:hover { filter: brightness(1.06); }
-.tnudge-arrow { position: fixed; top: 0; left: 0; z-index: 119; pointer-events: none; }
-.tnudge-arrow path { fill: none; stroke: var(--primary); stroke-width: 2.6; stroke-linecap: round; stroke-dasharray: 7 7; animation: tnudgeDash .7s linear infinite; }
+.tnudge-title { display: block; font-size: 1.125rem; font-weight: 800; line-height: 1.3; letter-spacing: -.01em; margin: 1px 28px 7px 0; color: var(--primary); }
+.tnudge-title::before { content: "✨ "; }
+.tnudge-body { margin: 0 0 15px; font-size: .9375rem; line-height: 1.5; color: var(--text); opacity: .88; }
+.tnudge-cta { display: flex; width: 100%; align-items: center; justify-content: center; gap: 6px; background: var(--primary); color: var(--on-primary); border: 0; border-radius: 12px; padding: 12px 18px; font-size: .9688rem; font-weight: 800; cursor: pointer; min-height: 46px; box-shadow: 0 6px 16px -5px var(--primary); transition: transform .15s ease, filter .15s ease; }
+.tnudge-cta:hover { filter: brightness(1.07); transform: translateY(-1px); }
+.tnudge-cta:active { transform: translateY(0); }
+.tnudge-arrow { position: fixed; top: 0; left: 0; z-index: 119; pointer-events: none; filter: drop-shadow(0 2px 4px var(--primary-soft)); }
+.tnudge-arrow path { fill: none; stroke: var(--primary); stroke-width: 3.2; stroke-linecap: round; stroke-dasharray: 8 7; animation: tnudgeDash .7s linear infinite; }
 .tnudge-arrow polygon { fill: var(--primary); }
-.nav-mytrip.mytrip-glow, .nav-toggle.mytrip-glow { border-radius: 9px; background: var(--primary-soft); box-shadow: 0 0 0 2px var(--primary) inset; animation: tnudgePulse 1.3s ease-in-out infinite; }
+.nav-mytrip.mytrip-glow, .nav-toggle.mytrip-glow { border-radius: 9px; background: var(--primary-soft); box-shadow: 0 0 0 2px var(--primary) inset; animation: tnudgePulse 1.2s ease-in-out infinite; }
 .planner-flash { animation: plannerFlash 2.1s ease-out 1; border-radius: 16px; }
-@keyframes tnudgeIn { from { opacity: 0; transform: translateY(-8px) scale(.96); } to { opacity: 1; transform: none; } }
-@keyframes tnudgeDash { to { stroke-dashoffset: -14; } }
-@keyframes tnudgePulse { 0%,100% { box-shadow: 0 0 0 2px var(--primary) inset, 0 0 0 0 rgba(9,107,86,0); } 50% { box-shadow: 0 0 0 2px var(--primary) inset, 0 0 0 7px var(--primary-soft); } }
+@keyframes tnudgeIn { from { opacity: 0; transform: translateY(-10px) scale(.97); } to { opacity: 1; transform: none; } }
+@keyframes tnudgeBreathe {
+  0%,100% { box-shadow: var(--shadow-lg), 0 0 0 4px var(--primary-soft), 0 12px 30px -8px var(--primary); }
+  50% { box-shadow: var(--shadow-lg), 0 0 0 7px var(--primary-soft), 0 16px 36px -4px var(--primary); } }
+@keyframes tnudgeDash { to { stroke-dashoffset: -15; } }
+@keyframes tnudgePulse { 0%,100% { box-shadow: 0 0 0 2px var(--primary) inset, 0 0 0 0 rgba(9,107,86,0); } 50% { box-shadow: 0 0 0 2px var(--primary) inset, 0 0 0 8px var(--primary-soft); } }
 @keyframes plannerFlash { 0% { box-shadow: 0 0 0 3px var(--primary); } 35% { box-shadow: 0 0 0 5px var(--primary-soft); } 100% { box-shadow: 0 0 0 0 rgba(9,107,86,0); } }
-@media (prefers-reduced-motion: reduce) { .tnudge { animation: none; } .tnudge-arrow path { animation: none; stroke-dasharray: none; } .nav-mytrip.mytrip-glow, .nav-toggle.mytrip-glow { animation: none; } .planner-flash { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .tnudge { animation: tnudgeIn .42s ease both; } .tnudge-arrow path { animation: none; stroke-dasharray: none; } .nav-mytrip.mytrip-glow, .nav-toggle.mytrip-glow { animation: none; } .planner-flash { animation: none; } }
