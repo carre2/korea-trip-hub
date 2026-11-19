@@ -1,21 +1,22 @@
 "use client";
-// First-visit coach mark on the home page: a friendly bubble that points a
-// curved arrow up at the "My trip" nav link (the planner category) and invites
-// the visitor to build their whole Korea plan in one place. It measures the real
-// nav element, so the arrow lands correctly in every locale and width; when the
-// nav is collapsed into the hamburger (<1280px) it points at the toggle instead.
-// Shown once per browser (localStorage), dismissible, and it never blocks the
-// link it points at. The CTA scrolls to #planner regardless of device.
+// Persistent invitation on the home page: a friendly bubble that points a curved
+// arrow up at the "My trip" nav link (the planner category) and invites the
+// visitor to build their whole Korea plan in one place. It measures the real nav
+// element, so the arrow lands correctly in every locale and width; when the nav
+// is collapsed into the hamburger (<1280px) it points at the toggle instead.
+// Shown on every home-page visit (the sticky header keeps it attached while you
+// scroll); a visitor can close it for the session with the × or Esc, and it
+// never blocks the link it points at. The CTA scrolls to #planner.
 import { useEffect, useRef, useState } from "react";
 import copy from "../data/mytrip-nudge-ui.json";
 
-const KEY = "kth_mytrip_nudge_v1";
 const BUBBLE_W = 300;
 
 export default function MyTripNudge({ locale, label = "My trip" }) {
   const t = copy[locale] || copy.en;
   const [spot, setSpot] = useState(null); // { cx, bottom, mode }
   const targetRef = useRef(null);
+  const closedRef = useRef(false);
   const fmt = (s) => (s || "").replace("{label}", label);
 
   const clearGlow = () => {
@@ -23,17 +24,12 @@ export default function MyTripNudge({ locale, label = "My trip" }) {
     targetRef.current = null;
   };
 
-  const dismiss = (persist) => {
-    clearGlow();
-    setSpot(null);
-    if (persist) { try { localStorage.setItem(KEY, "1"); } catch {} }
-  };
+  const hide = () => { clearGlow(); setSpot(null); };
+  const dismiss = () => { closedRef.current = true; hide(); }; // closed for this session only
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    if (window.location.pathname !== `/${locale}/`) return;        // home only
-    try { if (localStorage.getItem(KEY) === "1") return; } catch {} // once per browser
-    if (window.scrollY > 40) return;
+    if (window.location.pathname !== `/${locale}/`) return; // home only
 
     let alive = true;
     const pick = () => {
@@ -44,9 +40,9 @@ export default function MyTripNudge({ locale, label = "My trip" }) {
       return null;
     };
     const measure = () => {
-      if (!alive) return;
+      if (!alive || closedRef.current) return;
       const p = pick();
-      if (!p) { dismiss(false); return; }
+      if (!p) { hide(); return; }
       const r = p.el.getBoundingClientRect();
       if (targetRef.current && targetRef.current !== p.el) clearGlow();
       targetRef.current = p.el;
@@ -57,16 +53,13 @@ export default function MyTripNudge({ locale, label = "My trip" }) {
     const timer = setTimeout(measure, 1100);
     let raf = 0;
     const onResize = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(measure); };
-    const onScroll = () => { if (window.scrollY > 60) dismiss(false); };
-    const onKey = (e) => { if (e.key === "Escape") dismiss(true); };
+    const onKey = (e) => { if (e.key === "Escape") dismiss(); };
     window.addEventListener("resize", onResize);
-    window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("keydown", onKey);
     return () => {
       alive = false;
       clearTimeout(timer); cancelAnimationFrame(raf);
       window.removeEventListener("resize", onResize);
-      window.removeEventListener("scroll", onScroll);
       window.removeEventListener("keydown", onKey);
       clearGlow();
     };
@@ -74,7 +67,7 @@ export default function MyTripNudge({ locale, label = "My trip" }) {
   }, [locale]);
 
   function goPlanner() {
-    dismiss(true);
+    dismiss();
     const el = document.getElementById("planner");
     if (el) {
       el.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -102,7 +95,7 @@ export default function MyTripNudge({ locale, label = "My trip" }) {
         <polygon points={`${T.x - 7},${T.y + 13} ${T.x + 7},${T.y + 13} ${T.x},${T.y}`} />
       </svg>
       <div className="tnudge" role="dialog" aria-label={fmt(t.aria)} style={{ left: bubbleLeft, top: bubbleTop, width: BUBBLE_W }}>
-        <button type="button" className="tnudge-x" aria-label={t.close} onClick={() => dismiss(true)}>✕</button>
+        <button type="button" className="tnudge-x" aria-label={t.close} onClick={dismiss}>✕</button>
         <strong className="tnudge-title">{t.title}</strong>
         <p className="tnudge-body">{fmt(spot.mode === "menu" ? t.bodyMenu : t.body)}</p>
         <button type="button" className="tnudge-cta" onClick={goPlanner}>{t.cta}</button>
