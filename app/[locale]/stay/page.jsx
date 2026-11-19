@@ -2,6 +2,7 @@ import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
 import { pageMeta, breadcrumbLd, SITE_NAME } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
 import { stayFor, fill } from "../../../lib/content";
+import { linkify } from "../../../lib/linkify";
 import stayBase from "../../../data/stay.json";
 
 export function generateStaticParams() {
@@ -71,7 +72,7 @@ export default function StayHub({ params }) {
                     <div><b>{t.name}</b><em>{t.best}</em></div>
                   </div>
                   <p className="stay-type-desc">{t.desc}</p>
-                  <p className="stay-type-tip">💡 {t.tip}</p>
+                  <p className="stay-type-tip">💡 {linkify(t.tip)}</p>
                 </div>
               ))}
             </div>
