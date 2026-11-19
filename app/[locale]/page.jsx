@@ -10,6 +10,8 @@ import { klookSearch, creatripUrl, CREATRIP_DEST } from "../../lib/booking";
 import MapExplorer from "../../components/MapExplorer";
 import { itinFor } from "../../lib/content";
 import TripPlanner from "../../components/TripPlanner";
+import TripChecklist from "../../components/TripChecklist";
+import tchkUi from "../../data/tripchecklist-ui.json";
 import HeroSlider from "../../components/HeroSlider";
 import PlaceReportSearch from "../../components/PlaceReportSearch";
 import LandingTools from "../../components/LandingTools";
@@ -100,6 +102,20 @@ export default function Home({ params }) {
   for(const category of ['eat','make','regional']) (foodData[category]||[]).forEach((item,i)=>{placeCatalog['food:'+item.key]={name:foodI18n[locale]?.[category]?.[i]?.n||item.n,path:'food/#food-'+item.key}});
   const checklist = ['visa', 'airport', 'sim', 'money'].map((key) => ({ id: key, label: m.plan.tiles[key].title, path: `plan/${key}` }));
   checklist.push({ id: 'stay', label: m.nextSteps.stay, path: 'stay' });
+  // A-to-Z trip checklist (the spine). Each step links to its on-site guide; flights
+  // open an external compare for now until an on-site/affiliate flight search lands.
+  const cu = tchkUi[locale] || tchkUi.en;
+  const shortLabel = (s) => (s || '').split('—')[0].split('|')[0].trim();
+  const tripChecklist = [
+    { id: 'flights', icon: '✈️', label: cu.flights, href: 'https://www.google.com/travel/flights?q=' + encodeURIComponent('flights to Seoul'), external: true, note: cu.flightSoon },
+    { id: 'visa', icon: '🛂', label: shortLabel(m.plan.tiles.visa.title), href: `/${locale}/plan/visa/` },
+    { id: 'stay', icon: '🏨', label: m.nextSteps.stay, href: `/${locale}/stay/` },
+    { id: 'attractions', icon: '🗺️', label: cu.attractions, href: `/${locale}/destinations/` },
+    { id: 'food', icon: '🍜', label: shortLabel(m.food.title), href: `/${locale}/food/` },
+    { id: 'transit', icon: '🚇', label: shortLabel(m.plan.tiles.transit.title), href: `/${locale}/plan/transit/` },
+    { id: 'sim', icon: '📶', label: shortLabel(m.plan.tiles.sim.title), href: `/${locale}/plan/sim/` },
+    { id: 'money', icon: '💳', label: shortLabel(m.plan.tiles.money.title), href: `/${locale}/plan/money/` },
+  ];
   const starts = [
     { title: t.entry, sub: t.entrySub, href: `/${locale}/plan/visa/`, icon: '01', symbol: 'visa' },
     { title: t.arrival, sub: t.arrivalSub, href: `/${locale}/plan/airport/`, icon: '02', symbol: 'airport' },
@@ -125,6 +141,7 @@ export default function Home({ params }) {
     </section>
     <section id="planner" className="journey-planner" tabIndex={-1} aria-label={t.myTrip}><div className="wrap">
       <div className="sec-head"><div><span className="eyebrow">{t.myTrip}</span><h2>{t.plannerTitle}</h2><p>{t.plannerSub}</p></div><a href={`/${locale}/itinerary/`}>{m.nextSteps.itinerary} →</a></div>
+      <TripChecklist locale={locale} items={tripChecklist} />
       <SavedPlaces catalog={placeCatalog} locale={locale} t={t} /><TripPlanner catalog={placeCatalog} locale={locale} labels={t} routes={routeOptions} order={itineraries.order} ui={{dayLabel: itineraries.ui.dayLabel, map: itineraries.ui.map}} checklist={checklist} />
     </div></section>
     <section id="dest" className="wrap journey-discover">

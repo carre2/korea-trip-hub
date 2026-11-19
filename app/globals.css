@@ -420,6 +420,29 @@
   @media (max-width:600px){.actcard-actions{grid-template-columns:1fr}}
   /* Highlighter for a deal / number / caution: ==text== in guide copy. */
   mark.hl{background:#ffe27a;color:#241a00;font-weight:800;padding:.02em .26em;border-radius:4px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+  /* Trip checklist — the always-visible A-to-Z spine on the planner. */
+  .tchk{margin:0 0 22px;padding:20px;border:1px solid var(--border-strong);border-radius:18px;background:var(--surface)}
+  .tchk-head{display:flex;align-items:flex-start;gap:16px;justify-content:space-between;flex-wrap:wrap}
+  .tchk-title{margin:0 0 4px;font-size:1.3125rem;line-height:1.2}
+  .tchk-sub{margin:0;color:var(--muted);font-size:1.0625rem;line-height:1.5;max-width:52ch}
+  .tchk-ring{flex:none;display:flex;align-items:center;gap:10px;font-size:1rem;color:var(--muted)}
+  .tchk-ring b{color:var(--text);font-size:1.0625rem}
+  .tchk-ring-bar{width:96px;height:8px;border-radius:999px;background:var(--surface-2);overflow:hidden}
+  .tchk-ring-bar span{display:block;height:100%;background:var(--primary);transition:width .25s}
+  .tchk-list{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:8px}
+  .tchk-item{display:flex;align-items:center;gap:10px;padding:11px 13px;border:1px solid var(--border);border-radius:12px;background:var(--bg)}
+  .tchk-item.is-done{background:var(--primary-soft);border-color:var(--primary)}
+  .tchk-check{display:flex;align-items:center;gap:11px;flex:1;min-width:0;cursor:pointer}
+  .tchk-check input{width:21px;height:21px;flex:none;accent-color:var(--primary);cursor:pointer}
+  .tchk-ic{font-size:1.3125rem;line-height:1}
+  .tchk-lbl{display:flex;flex-direction:column;gap:1px;min-width:0;font-weight:650;font-size:1.0625rem}
+  .tchk-item.is-done .tchk-lbl{text-decoration:line-through;text-decoration-color:var(--muted);opacity:.75}
+  .tchk-note{font-weight:400;font-size:.875rem;color:var(--muted);text-decoration:none}
+  .tchk-go{flex:none;display:inline-flex;align-items:center;gap:4px;font-weight:700;font-size:1rem;color:var(--jade);text-decoration:none;background:var(--jade-soft);padding:7px 13px;border-radius:999px;white-space:nowrap}
+  .tchk-go:hover{text-decoration:underline}
+  .tchk-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:14px}
+  .tchk-reset{background:none;border:0;color:var(--muted);font:inherit;font-size:1rem;cursor:pointer;text-decoration:underline;padding:6px}
+  @media (max-width:560px){.tchk-item{flex-wrap:wrap}.tchk-go{margin-left:33px}}
   .kw{font-family:var(--mono);font-size:1rem;color:var(--faint);margin-top:10px;display:flex;align-items:center;gap:6px}
 
   /* ---------- FOOD ---------- */
