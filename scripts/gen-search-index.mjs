@@ -103,11 +103,32 @@ for (const loc of LOCALES) {
   if (kpopUi.h1) add("kpop", kpopUi.h1, "kpop", [kpopUi.h1, kpopUi.tagline]);
   const fu = festUi[loc] || festUi.en;
   if (fu?.title) add("festivals", fu.title, "festival", [fu.title, fu.intro]);
-  // Food & visa hubs (localized titles from messages)
+  // Food hub (localized title from messages)
   const msg = (() => { try { return read(path.join(ROOT, "messages", `${loc}.json`)); } catch { return read(path.join(ROOT, "messages", "en.json")); } })();
   if (msg.food?.title) add("food", msg.food.title, "food", [msg.food.title, msg.food.sub, "food restaurant eat dining cooking class 맛집 음식 グルメ 美食"]);
-  const visaTile = msg.plan?.tiles?.visa;
-  if (visaTile?.title) add("plan/visa", visaTile.title, "visa", [visaTile.title, visaTile.sub, "visa entry k-eta permit arrival 비자 입국 签证 ビザ"]);
+  // Plan guides — the rich /plan/<slug>/ pages (visa, transit, airport, sim, money, weather, help).
+  // Their tile title+sub already carry the words people search (t-money, exchange, eSIM, Incheon…);
+  // PLAN_KW adds common aliases so "subway", "hotel-less" intents resolve to the right guide.
+  const planData = read(path.join(DATA, "plan.json"));
+  const planOv = (() => { const p = path.join(DATA, `plan.${loc}.json`); return fs.existsSync(p) ? (read(p).items || {}) : {}; })();
+  const PLAN_KW = {
+    visa: "visa entry k-eta keta eta permit arrival immigration 비자 입국 签证 簽證 ビザ",
+    transit: "transit transport subway metro bus taxi t-money tmoney ktx srt rail getting around navigation 교통 지하철 버스 택시 기차 地下鉄 地铁 交通",
+    airport: "airport incheon icn gimpo gmp arrival arex airport bus limousine transfer to city 공항 인천공항 리무진 空港 机场 仁川",
+    sim: "sim esim e-sim data sim card wifi wi-fi internet pocket wifi egg roaming 유심 이심 데이터 와이파이 데이터로밍",
+    money: "money cash won exchange currency atm card payment tipping budget 환전 현금 원화 카드 결제 兑换 両替 換金",
+    weather: "weather climate season when to visit best time pack temperature rain 날씨 계절 기온 날씨예보 天気 天气",
+    help: "help emergency police ambulance hospital 119 112 safety lost pharmacy 긴급 응급 병원 경찰 도움 緊急",
+  };
+  for (const slug of planData.order) {
+    const tile = msg.plan?.tiles?.[slug] || {};
+    const tag = (planOv[slug]?.tagline) || planData.items[slug]?.tagline || "";
+    const title = tile.title || slug;
+    add(`plan/${slug}`, title, slug === "visa" ? "visa" : "plan", [title, tile.sub, tag, PLAN_KW[slug] || ""]);
+  }
+  // Where-to-stay hub (/stay/) — so "hotel", "accommodation", "where to stay" land here.
+  const stayUi = (() => { const p = path.join(DATA, `stay.${loc}.json`); const f = fs.existsSync(p) ? read(p) : read(path.join(DATA, "stay.json")); return f.ui || {}; })();
+  if (stayUi.hubH1) add("stay", stayUi.hubH1, "stay", [stayUi.hubH1, stayUi.hubTagline, "hotel hotels accommodation where to stay lodging guesthouse hostel airbnb motel hanok booking rooms 숙소 호텔 민박 게스트하우스 ホテル 宿 酒店 住宿"]);
   // Per-nationality visa guides
   let regionNames, enRegion;
   try { regionNames = new Intl.DisplayNames([loc], { type: "region" }); } catch { regionNames = null; }

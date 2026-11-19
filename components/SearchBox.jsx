@@ -45,7 +45,9 @@ export default function SearchBox({ locale }) {
       }
       if (ok) scored.push([score, row]);
     }
-    scored.sort((a, b) => b[0] - a[0]);
+    // Rank by score; on a tie prefer the shorter path so hubs (/stay/, /plan/money/)
+    // outrank deep pages (/stay/yeosu/) for generic terms like "hotel" or "accommodation".
+    scored.sort((a, b) => b[0] - a[0] || a[1].p.length - b[1].p.length);
     setResults(scored.slice(0, 8).map((x) => x[1]));
   }, [q, index]);
 

@@ -1,14 +1,206 @@
 {
-  "en": { "label": "Search", "placeholder": "ex. visa, K-ETA, beauty…", "empty": "No results", "loading": "Loading…", "cats": { "guide": "Guide", "place": "Place", "itinerary": "Itinerary", "stay": "Stay", "kpop": "K-pop", "festival": "Festival", "food": "Food", "visa": "Visa" } },
-  "ko": { "label": "검색", "placeholder": "예: visa, K-ETA, beauty…", "empty": "결과가 없습니다", "loading": "불러오는 중…", "cats": { "guide": "가이드", "place": "장소", "itinerary": "일정", "stay": "숙소", "kpop": "K-팝", "festival": "축제", "food": "먹거리", "visa": "비자" } },
-  "ja": { "label": "検索", "placeholder": "例: visa, K-ETA, beauty…", "empty": "該当なし", "loading": "読み込み中…", "cats": { "guide": "ガイド", "place": "スポット", "itinerary": "旅程", "stay": "宿泊", "kpop": "K-POP", "festival": "祭り", "food": "グルメ", "visa": "ビザ" } },
-  "zh": { "label": "搜索", "placeholder": "例如：visa、K-ETA、beauty…", "empty": "没有结果", "loading": "加载中…", "cats": { "guide": "指南", "place": "地点", "itinerary": "行程", "stay": "住宿", "kpop": "K-pop", "festival": "庆典", "food": "美食", "visa": "签证" } },
-  "zh-TW": { "label": "搜尋", "placeholder": "例如：visa、K-ETA、beauty…", "empty": "沒有結果", "loading": "載入中…", "cats": { "guide": "指南", "place": "地點", "itinerary": "行程", "stay": "住宿", "kpop": "K-pop", "festival": "慶典", "food": "美食", "visa": "簽證" } },
-  "vi": { "label": "Tìm kiếm", "placeholder": "vd: visa, K-ETA, beauty…", "empty": "Không có kết quả", "loading": "Đang tải…", "cats": { "guide": "Cẩm nang", "place": "Địa điểm", "itinerary": "Lịch trình", "stay": "Nơi ở", "kpop": "K-pop", "festival": "Lễ hội", "food": "Ẩm thực", "visa": "Visa" } },
-  "th": { "label": "ค้นหา", "placeholder": "เช่น visa, K-ETA, beauty…", "empty": "ไม่พบผลลัพธ์", "loading": "กำลังโหลด…", "cats": { "guide": "คู่มือ", "place": "สถานที่", "itinerary": "แผนเที่ยว", "stay": "ที่พัก", "kpop": "K-pop", "festival": "เทศกาล", "food": "อาหาร", "visa": "วีซ่า" } },
-  "id": { "label": "Cari", "placeholder": "mis. visa, K-ETA, beauty…", "empty": "Tidak ada hasil", "loading": "Memuat…", "cats": { "guide": "Panduan", "place": "Tempat", "itinerary": "Itinerari", "stay": "Penginapan", "kpop": "K-pop", "festival": "Festival", "food": "Kuliner", "visa": "Visa" } },
-  "ms": { "label": "Cari", "placeholder": "cth. visa, K-ETA, beauty…", "empty": "Tiada hasil", "loading": "Memuatkan…", "cats": { "guide": "Panduan", "place": "Tempat", "itinerary": "Itinerari", "stay": "Penginapan", "kpop": "K-pop", "festival": "Festival", "food": "Makanan", "visa": "Visa" } },
-  "es": { "label": "Buscar", "placeholder": "ej. visa, K-ETA, beauty…", "empty": "Sin resultados", "loading": "Cargando…", "cats": { "guide": "Guía", "place": "Lugar", "itinerary": "Itinerario", "stay": "Alojamiento", "kpop": "K-pop", "festival": "Festival", "food": "Comida", "visa": "Visado" } },
-  "fr": { "label": "Rechercher", "placeholder": "ex. : visa, K-ETA, beauty…", "empty": "Aucun résultat", "loading": "Chargement…", "cats": { "guide": "Guide", "place": "Lieu", "itinerary": "Itinéraire", "stay": "Hébergement", "kpop": "K-pop", "festival": "Festival", "food": "Cuisine", "visa": "Visa" } },
-  "ru": { "label": "Поиск", "placeholder": "напр. visa, K-ETA, beauty…", "empty": "Ничего не найдено", "loading": "Загрузка…", "cats": { "guide": "Гид", "place": "Место", "itinerary": "Маршрут", "stay": "Жильё", "kpop": "K-pop", "festival": "Фестиваль", "food": "Еда", "visa": "Виза" } }
+  "en": {
+    "label": "Search",
+    "placeholder": "ex. visa, K-ETA, beauty…",
+    "empty": "No results",
+    "loading": "Loading…",
+    "cats": {
+      "guide": "Guide",
+      "place": "Place",
+      "itinerary": "Itinerary",
+      "stay": "Stay",
+      "kpop": "K-pop",
+      "festival": "Festival",
+      "food": "Food",
+      "visa": "Visa",
+      "plan": "Planning"
+    }
+  },
+  "ko": {
+    "label": "검색",
+    "placeholder": "예: visa, K-ETA, beauty…",
+    "empty": "결과가 없습니다",
+    "loading": "불러오는 중…",
+    "cats": {
+      "guide": "가이드",
+      "place": "장소",
+      "itinerary": "일정",
+      "stay": "숙소",
+      "kpop": "K-팝",
+      "festival": "축제",
+      "food": "먹거리",
+      "visa": "비자",
+      "plan": "여행 준비"
+    }
+  },
+  "ja": {
+    "label": "検索",
+    "placeholder": "例: visa, K-ETA, beauty…",
+    "empty": "該当なし",
+    "loading": "読み込み中…",
+    "cats": {
+      "guide": "ガイド",
+      "place": "スポット",
+      "itinerary": "旅程",
+      "stay": "宿泊",
+      "kpop": "K-POP",
+      "festival": "祭り",
+      "food": "グルメ",
+      "visa": "ビザ",
+      "plan": "準備"
+    }
+  },
+  "zh": {
+    "label": "搜索",
+    "placeholder": "例如：visa、K-ETA、beauty…",
+    "empty": "没有结果",
+    "loading": "加载中…",
+    "cats": {
+      "guide": "指南",
+      "place": "地点",
+      "itinerary": "行程",
+      "stay": "住宿",
+      "kpop": "K-pop",
+      "festival": "庆典",
+      "food": "美食",
+      "visa": "签证",
+      "plan": "行前"
+    }
+  },
+  "zh-TW": {
+    "label": "搜尋",
+    "placeholder": "例如：visa、K-ETA、beauty…",
+    "empty": "沒有結果",
+    "loading": "載入中…",
+    "cats": {
+      "guide": "指南",
+      "place": "地點",
+      "itinerary": "行程",
+      "stay": "住宿",
+      "kpop": "K-pop",
+      "festival": "慶典",
+      "food": "美食",
+      "visa": "簽證",
+      "plan": "行前"
+    }
+  },
+  "vi": {
+    "label": "Tìm kiếm",
+    "placeholder": "vd: visa, K-ETA, beauty…",
+    "empty": "Không có kết quả",
+    "loading": "Đang tải…",
+    "cats": {
+      "guide": "Cẩm nang",
+      "place": "Địa điểm",
+      "itinerary": "Lịch trình",
+      "stay": "Nơi ở",
+      "kpop": "K-pop",
+      "festival": "Lễ hội",
+      "food": "Ẩm thực",
+      "visa": "Visa",
+      "plan": "Chuẩn bị"
+    }
+  },
+  "th": {
+    "label": "ค้นหา",
+    "placeholder": "เช่น visa, K-ETA, beauty…",
+    "empty": "ไม่พบผลลัพธ์",
+    "loading": "กำลังโหลด…",
+    "cats": {
+      "guide": "คู่มือ",
+      "place": "สถานที่",
+      "itinerary": "แผนเที่ยว",
+      "stay": "ที่พัก",
+      "kpop": "K-pop",
+      "festival": "เทศกาล",
+      "food": "อาหาร",
+      "visa": "วีซ่า",
+      "plan": "เตรียมตัว"
+    }
+  },
+  "id": {
+    "label": "Cari",
+    "placeholder": "mis. visa, K-ETA, beauty…",
+    "empty": "Tidak ada hasil",
+    "loading": "Memuat…",
+    "cats": {
+      "guide": "Panduan",
+      "place": "Tempat",
+      "itinerary": "Itinerari",
+      "stay": "Penginapan",
+      "kpop": "K-pop",
+      "festival": "Festival",
+      "food": "Kuliner",
+      "visa": "Visa",
+      "plan": "Persiapan"
+    }
+  },
+  "ms": {
+    "label": "Cari",
+    "placeholder": "cth. visa, K-ETA, beauty…",
+    "empty": "Tiada hasil",
+    "loading": "Memuatkan…",
+    "cats": {
+      "guide": "Panduan",
+      "place": "Tempat",
+      "itinerary": "Itinerari",
+      "stay": "Penginapan",
+      "kpop": "K-pop",
+      "festival": "Festival",
+      "food": "Makanan",
+      "visa": "Visa",
+      "plan": "Persediaan"
+    }
+  },
+  "es": {
+    "label": "Buscar",
+    "placeholder": "ej. visa, K-ETA, beauty…",
+    "empty": "Sin resultados",
+    "loading": "Cargando…",
+    "cats": {
+      "guide": "Guía",
+      "place": "Lugar",
+      "itinerary": "Itinerario",
+      "stay": "Alojamiento",
+      "kpop": "K-pop",
+      "festival": "Festival",
+      "food": "Comida",
+      "visa": "Visado",
+      "plan": "Planificar"
+    }
+  },
+  "fr": {
+    "label": "Rechercher",
+    "placeholder": "ex. : visa, K-ETA, beauty…",
+    "empty": "Aucun résultat",
+    "loading": "Chargement…",
+    "cats": {
+      "guide": "Guide",
+      "place": "Lieu",
+      "itinerary": "Itinéraire",
+      "stay": "Hébergement",
+      "kpop": "K-pop",
+      "festival": "Festival",
+      "food": "Cuisine",
+      "visa": "Visa",
+      "plan": "Préparer"
+    }
+  },
+  "ru": {
+    "label": "Поиск",
+    "placeholder": "напр. visa, K-ETA, beauty…",
+    "empty": "Ничего не найдено",
+    "loading": "Загрузка…",
+    "cats": {
+      "guide": "Гид",
+      "place": "Место",
+      "itinerary": "Маршрут",
+      "stay": "Жильё",
+      "kpop": "K-pop",
+      "festival": "Фестиваль",
+      "food": "Еда",
+      "visa": "Виза",
+      "plan": "Подготовка"
+    }
+  }
 }
