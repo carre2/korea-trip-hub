@@ -418,6 +418,22 @@
   .actcard-btn-go{flex:none;margin-left:auto;color:var(--muted);font-size:1.125rem}
   .actcard-note{margin:14px 0 0;padding:12px 14px;border-radius:10px;background:var(--bg);border:1px solid var(--border);font-size:1.0625rem;line-height:1.6;color:var(--text)}
   @media (max-width:600px){.actcard-actions{grid-template-columns:1fr}}
+  /* Beauty-by-area explorer (K-beauty guide): district × category × live map. */
+  .bfind{margin:22px 0;padding:18px;border:1px solid var(--border-strong);border-radius:18px;background:var(--surface)}
+  .bfind-title{margin:0 0 4px;font-size:1.3125rem;line-height:1.25}
+  .bfind-intro{margin:0 0 14px;color:var(--muted);font-size:1.0625rem;line-height:1.5}
+  .bfind-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+  .bfind-tab{padding:8px 15px;border:1px solid var(--border-strong);border-radius:999px;background:var(--bg);color:var(--text);font:inherit;font-weight:650;font-size:1.0625rem;cursor:pointer}
+  .bfind-tab.is-on{background:var(--primary);color:var(--on-primary);border-color:var(--primary)}
+  .bfind-cats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+  .bfind-cat{display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border:1px solid var(--border);border-radius:10px;background:var(--bg);color:var(--text);font:inherit;font-size:1rem;cursor:pointer}
+  .bfind-cat.is-on{background:var(--jade-soft);color:var(--jade);border-color:var(--jade)}
+  .bfind-map{border:1px solid var(--border);border-radius:14px;overflow:hidden;background:var(--surface-2)}
+  .bfind-map iframe{display:block;width:100%;height:340px;border:0}
+  .bfind-cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+  .bfind-btn{display:inline-flex;align-items:center;gap:6px;padding:10px 16px;border-radius:999px;background:var(--primary);color:var(--on-primary);text-decoration:none;font-weight:700;font-size:1rem}
+  .bfind-btn:hover{filter:brightness(1.05)}
+  .bfind-note{margin:12px 0 0;padding:11px 14px;border-radius:10px;background:var(--bg);border:1px solid var(--border);font-size:1rem;line-height:1.55;color:var(--text)}
   /* Highlighter for a deal / number / caution: ==text== in guide copy. */
   mark.hl{background:#ffe27a;color:#241a00;font-weight:800;padding:.02em .26em;border-radius:4px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
   /* Trip checklist — the always-visible A-to-Z spine on the planner. */

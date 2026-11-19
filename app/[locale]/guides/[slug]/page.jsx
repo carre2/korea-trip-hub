@@ -6,6 +6,7 @@ import BookCTA from "../../../../components/BookCTA";
 import { klookSearch, withAff } from "../../../../lib/booking";
 import BudgetCalculator from "../../../../components/BudgetCalculator";
 import NextSteps from "../../../../components/NextSteps";
+import BeautyFinder from "../../../../components/BeautyFinder";
 import PeekMascot from "../../../../components/PeekMascot";
 import BloomTable from "../../../../components/BloomTable";
 import ArticleTrust from "../../../../components/ArticleTrust";
@@ -133,6 +134,8 @@ export default function TopicGuide({ params }) {
           {g.actionCard.note && <p className="actcard-note">{linkify(g.actionCard.note, locale)}</p>}
         </div>
       )}
+
+      {slug === "k-beauty-shopping" && <BeautyFinder locale={locale} />}
 
       {slug === "cherry-blossom" && <BloomTable locale={locale} />}
 
