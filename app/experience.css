@@ -59,6 +59,10 @@ nav.links a {white-space:normal;font-size:1.125rem;line-height:1.4;min-height:44
 .journey-kwave .journey-start-grid {grid-template-columns:repeat(4,minmax(0,1fr))}
 @media(min-width:600px) and (max-width:1100px){.journey-kwave .journey-start-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.journey-kwave .journey-start-card:last-child{grid-column:auto}}
 @media(max-width:600px){.journey-kwave .journey-start-grid{grid-template-columns:1fr}}
+.journey-kwave .kwave-book {margin-top:20px;font-size:1rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.journey-kwave .kwave-book a {color:var(--primary);font-weight:600;text-decoration:none}
+.journey-kwave .kwave-book a:hover {text-decoration:underline}
+.journey-kwave .kwave-book-disc {margin-top:6px}
 .journey-start-card {border:1px solid var(--border);background:var(--surface);border-radius:18px;padding:24px;position:relative;transition:border-color .15s}
 .journey-start-card:hover {border-color:var(--primary)}
 .journey-number {font-size:1.125rem;color:var(--primary);font-weight:600}

@@ -5,6 +5,7 @@ import festivalCopies from "../../data/festivals-ui.json";
 import kwaveCopies from "../../data/kwave-ui.json";
 import festivalRegistry from "../../data/festivals.json";
 import {fact} from "../../lib/facts";
+import { klookSearch, creatripUrl, CREATRIP_DEST } from "../../lib/booking";
 
 import MapExplorer from "../../components/MapExplorer";
 import { itinFor } from "../../lib/content";
@@ -141,6 +142,11 @@ export default function Home({ params }) {
         <a className="journey-start-card" href={`/${locale}/guides/idol-makeup/`}><div className="journey-card-top"><span className="kwave-emoji" aria-hidden="true">💇</span></div><h3>{kw.makeover.title}</h3><p>{kw.makeover.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span></a>
         <a className="journey-start-card" href={`/${locale}/festivals/`}><div className="journey-card-top"><span className="kwave-emoji" aria-hidden="true">🎆</span></div><h3>{kw.festivals.title}</h3><p>{kw.festivals.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span></a>
       </div>
+      <p className="kwave-book">{kw.bookLead}
+        <a href={klookSearch("Seoul K-pop concert fan experience tour")} target="_blank" rel="sponsored nofollow noopener">🎤 {kw.navKpop} · Klook ↗</a>
+        <a href={creatripUrl(CREATRIP_DEST.beautyServices)} target="_blank" rel="sponsored nofollow noopener">🎀 {kw.navBeauty} · Creatrip ↗</a>
+      </p>
+      <p className="bookcta-disc kwave-book-disc">ⓘ {m.footer.affiliateLine}</p>
     </section>
     <section id="food" className="wrap journey-food"><div className="sec-head"><h2>{m.food.title}</h2><a href={`/${locale}/food/`}>{m.food.browseAll} →</a></div>
       <div className="journey-food-grid">{foodData.eat.slice(0,3).map((base,i)=>{

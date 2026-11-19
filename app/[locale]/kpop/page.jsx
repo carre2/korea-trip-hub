@@ -2,8 +2,11 @@ import { locales, getMessages, defaultLocale } from "../../../lib/i18n";
 import { pageMeta, breadcrumbLd, SITE_NAME, REVIEWED } from "../../../lib/seo";
 import JsonLd from "../../../components/JsonLd";
 import KpopGuide from "../../../components/KpopGuide";
+import BookCTA from "../../../components/BookCTA";
 import ArticleTrust from "../../../components/ArticleTrust";
 import festivalCopies from "../../../data/festivals-ui.json";
+import kwaveCopies from "../../../data/kwave-ui.json";
+import { CREATRIP_DEST } from "../../../lib/booking";
 import { itinFor } from "../../../lib/content";
 import kpopEn from "../../../data/kpop.json";
 import kpopJa from "../../../data/kpop.ja.json";
@@ -45,6 +48,7 @@ export default function KpopPage({ params }) {
   const m = getMessages(locale);
   const g = kpopFor(locale);
   const ui = g.ui;
+  const kw = kwaveCopies[locale];
 
   return (
     <article className="article">
@@ -65,6 +69,15 @@ export default function KpopPage({ params }) {
       <p className="art-tagline">{ui.tagline}</p>
       <div className="festival-kpop"><div><h2>🎆 {festivalCopies[locale].title}</h2><p>{festivalCopies[locale].intro}</p></div><a className="btn ghost" href={`/${locale}/festivals/`}>{m.experience.details} →</a></div>
       <KpopGuide g={g} ui={ui} locale={locale}/>
+
+      <BookCTA
+        partner="creatrip"
+        icon="🎀"
+        label={kw.makeover.title}
+        sub={kw.makeover.sub}
+        url={CREATRIP_DEST.beautyServices}
+        disclose
+      />
 
       {(() => {
         const trip = itinFor(locale).items["kpop-3-days"];
