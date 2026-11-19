@@ -132,6 +132,17 @@ export default function TopicGuide({ params }) {
         />
       )}
 
+      {g.creatrip && (
+        <BookCTA
+          partner="creatrip"
+          icon="🎀"
+          label={g.creatripLabel || "Book a K-beauty experience"}
+          sub={g.creatripSub || "Hair, makeup & skin studios for visitors — via Creatrip."}
+          url={g.creatrip}
+          disclose
+        />
+      )}
+
       {g.faq?.length > 0 && (
         <section className="gv-sec">
           <h2>{gm.faqTitle || "FAQ"}</h2>
