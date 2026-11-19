@@ -402,6 +402,22 @@
   .topic-spots{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
   .topic-spot{display:inline-flex;align-items:center;gap:4px;font-size:1.125rem;font-weight:700;color:var(--jade);text-decoration:none;background:var(--jade-soft);padding:6px 12px;border-radius:999px}
   .topic-spot:hover{text-decoration:underline}
+  /* "Find an Olive Young" action card — surfaced near the top of the K-beauty guide. */
+  .oyf{margin:22px 0;padding:20px;border:1px solid var(--border);border-radius:16px;background:var(--primary-soft)}
+  .oyf-head{display:flex;align-items:flex-start;gap:14px}
+  .oyf-ico{flex:none;width:44px;height:44px;border-radius:12px;background:var(--bg);border:1px solid var(--border);display:grid;place-items:center;font-size:1.5rem}
+  .oyf-title{margin:2px 0 4px;font-size:1.3125rem;line-height:1.25}
+  .oyf-intro{margin:0;color:var(--muted);font-size:1.0625rem;line-height:1.5}
+  .oyf-actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0 0}
+  .oyf-btn{display:flex;align-items:center;gap:12px;padding:13px 15px;border:1px solid var(--border-strong);border-radius:12px;background:var(--bg);color:var(--text);text-decoration:none;transition:border-color .15s,box-shadow .15s}
+  .oyf-btn:hover{border-color:var(--primary);box-shadow:0 6px 18px rgba(10,20,40,.10)}
+  .oyf-btn-ico{flex:none;font-size:1.375rem;line-height:1}
+  .oyf-btn-txt{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .oyf-btn-txt b{font-size:1.0625rem;line-height:1.3}
+  .oyf-btn-txt small{font-size:.9375rem;color:var(--muted);line-height:1.4}
+  .oyf-btn-go{flex:none;margin-left:auto;color:var(--muted);font-size:1.125rem}
+  .oyf-refund{margin:14px 0 0;padding:12px 14px;border-radius:10px;background:var(--bg);border:1px solid var(--border);font-size:1rem;line-height:1.55;color:var(--text)}
+  @media (max-width:600px){.oyf-actions{grid-template-columns:1fr}}
   .kw{font-family:var(--mono);font-size:1rem;color:var(--faint);margin-top:10px;display:flex;align-items:center;gap:6px}
 
   /* ---------- FOOD ---------- */

@@ -103,6 +103,33 @@ export default function TopicGuide({ params }) {
         </div>
       )}
 
+      {/* Action card for visitors who landed here searching "Olive Young": find a
+          store and claim tourist perks, instead of only reading the guide. */}
+      {g.oliveYoungFinder && (
+        <div className="oyf">
+          <div className="oyf-head">
+            <span className="oyf-ico" aria-hidden="true">🧴</span>
+            <div>
+              <h2 className="oyf-title">{g.oliveYoungFinder.title}</h2>
+              <p className="oyf-intro">{g.oliveYoungFinder.intro}</p>
+            </div>
+          </div>
+          <div className="oyf-actions">
+            <a className="oyf-btn" href={g.oliveYoungFinder.map.url} target="_blank" rel="noopener noreferrer">
+              <span className="oyf-btn-ico" aria-hidden="true">📍</span>
+              <span className="oyf-btn-txt"><b>{g.oliveYoungFinder.map.label}</b><small>{g.oliveYoungFinder.map.sub}</small></span>
+              <span className="oyf-btn-go" aria-hidden="true">↗</span>
+            </a>
+            <a className="oyf-btn" href={g.oliveYoungFinder.flagship.url} target="_blank" rel="noopener noreferrer">
+              <span className="oyf-btn-ico" aria-hidden="true">🏬</span>
+              <span className="oyf-btn-txt"><b>{g.oliveYoungFinder.flagship.label}</b><small>{g.oliveYoungFinder.flagship.sub}</small></span>
+              <span className="oyf-btn-go" aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <p className="oyf-refund">💸 {g.oliveYoungFinder.refund}</p>
+        </div>
+      )}
+
       {slug === "cherry-blossom" && <BloomTable locale={locale} />}
 
       {g.sections?.map((s, i) => (
