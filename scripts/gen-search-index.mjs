@@ -129,6 +129,10 @@ for (const loc of LOCALES) {
   // Where-to-stay hub (/stay/) — so "hotel", "accommodation", "where to stay" land here.
   const stayUi = (() => { const p = path.join(DATA, `stay.${loc}.json`); const f = fs.existsSync(p) ? read(p) : read(path.join(DATA, "stay.json")); return f.ui || {}; })();
   if (stayUi.hubH1) add("stay", stayUi.hubH1, "stay", [stayUi.hubH1, stayUi.hubTagline, "hotel hotels accommodation where to stay lodging guesthouse hostel airbnb motel hanok booking rooms 숙소 호텔 민박 게스트하우스 ホテル 宿 酒店 住宿"]);
+  // Flights info page (/plan/flights/) — so "flight", "airfare", "ticket" land here.
+  const flightsUiData = read(path.join(DATA, "flights-ui.json"));
+  const flightsT = flightsUiData[loc] || flightsUiData.en;
+  if (flightsT?.title) add("plan/flights", flightsT.title, "plan", [flightsT.title, flightsT.metaDesc, "flight flights airfare plane ticket airline book compare skyscanner google flights incheon gimpo icn gmp 항공권 비행기 항공료 비행기표 航空券 机票 機票 vé máy bay เที่ยวบิน"]);
   // Per-nationality visa guides
   let regionNames, enRegion;
   try { regionNames = new Intl.DisplayNames([loc], { type: "region" }); } catch { regionNames = null; }

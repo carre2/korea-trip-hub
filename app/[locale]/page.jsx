@@ -107,7 +107,7 @@ export default function Home({ params }) {
   const cu = tchkUi[locale] || tchkUi.en;
   const shortLabel = (s) => (s || '').split('—')[0].split('|')[0].trim();
   const tripChecklist = [
-    { id: 'flights', icon: '✈️', label: cu.flights, href: 'https://www.google.com/travel/flights?q=' + encodeURIComponent('flights to Seoul'), external: true, note: cu.flightSoon },
+    { id: 'flights', icon: '✈️', label: cu.flights, href: `/${locale}/plan/flights/` },
     { id: 'visa', icon: '🛂', label: shortLabel(m.plan.tiles.visa.title), href: `/${locale}/plan/visa/` },
     { id: 'stay', icon: '🏨', label: m.nextSteps.stay, href: `/${locale}/stay/` },
     { id: 'attractions', icon: '🗺️', label: cu.attractions, href: `/${locale}/destinations/` },
