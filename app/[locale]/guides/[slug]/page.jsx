@@ -3,7 +3,7 @@ import { pageMeta, breadcrumbLd, articleLd, faqLd, SITE_NAME, REVIEWED } from ".
 import JsonLd from "../../../../components/JsonLd";
 import { linkify } from "../../../../lib/linkify";
 import BookCTA from "../../../../components/BookCTA";
-import { klookSearch } from "../../../../lib/booking";
+import { klookSearch, withAff } from "../../../../lib/booking";
 import BudgetCalculator from "../../../../components/BudgetCalculator";
 import PeekMascot from "../../../../components/PeekMascot";
 import BloomTable from "../../../../components/BloomTable";
@@ -103,30 +103,33 @@ export default function TopicGuide({ params }) {
         </div>
       )}
 
-      {/* Action card for visitors who landed here searching "Olive Young": find a
-          store and claim tourist perks, instead of only reading the guide. */}
-      {g.oliveYoungFinder && (
-        <div className="oyf">
-          <div className="oyf-head">
-            <span className="oyf-ico" aria-hidden="true">🧴</span>
+      {/* Action card: give visitors who land here (e.g. searching a brand) a concrete
+          next step — find/verify/book — instead of only reading the guide. */}
+      {g.actionCard && (
+        <div className="actcard">
+          <div className="actcard-head">
+            <span className="actcard-ico" aria-hidden="true">{g.actionCard.icon || g.icon || "✨"}</span>
             <div>
-              <h2 className="oyf-title">{g.oliveYoungFinder.title}</h2>
-              <p className="oyf-intro">{g.oliveYoungFinder.intro}</p>
+              <h2 className="actcard-title">{g.actionCard.title}</h2>
+              {g.actionCard.intro && <p className="actcard-intro">{g.actionCard.intro}</p>}
             </div>
           </div>
-          <div className="oyf-actions">
-            <a className="oyf-btn" href={g.oliveYoungFinder.map.url} target="_blank" rel="noopener noreferrer">
-              <span className="oyf-btn-ico" aria-hidden="true">📍</span>
-              <span className="oyf-btn-txt"><b>{g.oliveYoungFinder.map.label}</b><small>{g.oliveYoungFinder.map.sub}</small></span>
-              <span className="oyf-btn-go" aria-hidden="true">↗</span>
-            </a>
-            <a className="oyf-btn" href={g.oliveYoungFinder.flagship.url} target="_blank" rel="noopener noreferrer">
-              <span className="oyf-btn-ico" aria-hidden="true">🏬</span>
-              <span className="oyf-btn-txt"><b>{g.oliveYoungFinder.flagship.label}</b><small>{g.oliveYoungFinder.flagship.sub}</small></span>
-              <span className="oyf-btn-go" aria-hidden="true">↗</span>
-            </a>
-          </div>
-          <p className="oyf-refund">💸 {g.oliveYoungFinder.refund}</p>
+          {g.actionCard.buttons?.length > 0 && (
+            <div className="actcard-actions">
+              {g.actionCard.buttons.map((b, i) => {
+                const href = b.partner ? withAff(b.url, b.partner) : b.url;
+                const rel = b.partner ? "sponsored nofollow noopener" : "noopener noreferrer";
+                return (
+                  <a key={i} className="actcard-btn" href={href} target="_blank" rel={rel}>
+                    {b.icon && <span className="actcard-btn-ico" aria-hidden="true">{b.icon}</span>}
+                    <span className="actcard-btn-txt"><b>{b.label}</b>{b.sub && <small>{b.sub}</small>}</span>
+                    <span className="actcard-btn-go" aria-hidden="true">↗</span>
+                  </a>
+                );
+              })}
+            </div>
+          )}
+          {g.actionCard.note && <p className="actcard-note">{linkify(g.actionCard.note, locale)}</p>}
         </div>
       )}
 
