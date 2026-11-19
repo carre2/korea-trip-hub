@@ -10,11 +10,12 @@ import data from "../data/video-reviews.json";
 import copyAll from "../data/video-reviews-ui.json";
 import { track } from "../lib/analytics";
 
-const CATS = ["dest", "food", "kculture", "transport"];
+const CATS = ["dest", "food", "beauty", "kculture", "transport"];
 // Category badge colors — same tokens the text ReviewsSection uses, so the two read as one system.
 const CAT_STYLE = {
   dest: { bg: "var(--jade-soft)", c: "var(--jade)" },
   food: { bg: "var(--amber-soft)", c: "var(--amber)" },
+  beauty: { bg: "var(--accent-soft)", c: "var(--accent)" },
   kculture: { bg: "var(--accent-soft)", c: "var(--accent)" },
   transport: { bg: "var(--primary-soft)", c: "var(--primary)" },
 };
