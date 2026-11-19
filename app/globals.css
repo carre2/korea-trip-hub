@@ -1537,3 +1537,12 @@
 @keyframes tnudgePulse { 0%,100% { box-shadow: 0 0 0 2px var(--primary) inset, 0 0 0 0 rgba(9,107,86,0); } 50% { box-shadow: 0 0 0 2px var(--primary) inset, 0 0 0 8px var(--primary-soft); } }
 @keyframes plannerFlash { 0% { box-shadow: 0 0 0 3px var(--primary); } 35% { box-shadow: 0 0 0 5px var(--primary-soft); } 100% { box-shadow: 0 0 0 0 rgba(9,107,86,0); } }
 @media (prefers-reduced-motion: reduce) { .tnudge { animation: tnudgeIn .42s ease both; } .tnudge-arrow path { animation: none; stroke-dasharray: none; } .nav-mytrip.mytrip-glow, .nav-toggle.mytrip-glow { animation: none; } .planner-flash { animation: none; } }
+
+/* Always-on cue on the "My trip" nav link: a small pulsing dot so the planner
+   stays discoverable for returning visitors too (the one-time coach mark above
+   only fires on first visit). Inline after the label, so it sits next to the
+   text in both the desktop nav row and the mobile menu, every locale. */
+.nav-mytrip-dot { position: relative; display: inline-block; width: 7px; height: 7px; margin-left: 6px; vertical-align: 1px; border-radius: 50%; background: var(--primary); pointer-events: none; }
+.nav-mytrip-dot::after { content: ""; position: absolute; inset: 0; border-radius: 50%; background: var(--primary); animation: mytripDotPulse 1.9s ease-out infinite; }
+@keyframes mytripDotPulse { 0% { transform: scale(1); opacity: .5; } 70%, 100% { transform: scale(2.8); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .nav-mytrip-dot::after { animation: none; } }

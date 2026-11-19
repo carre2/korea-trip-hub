@@ -84,7 +84,7 @@ export default function Header({ locale, nav = {}, labels: ui = {}, festivalTitl
           <a href={`/${locale}/kpop/`} onClick={close}>{kwave.navKpop}</a>
           <a href={`/${locale}/guides/k-beauty-shopping/`} onClick={close}>{kwave.navBeauty}</a>
           <a href={`/${locale}/itinerary/`} onClick={close}>{t.planner}</a>
-          <a className="nav-mytrip" href={onHome ? '#planner' : `/${locale}/#planner`} onClick={close}>{ui.myTrip}</a>
+          <a className="nav-mytrip" href={onHome ? '#planner' : `/${locale}/#planner`} onClick={close}>{ui.myTrip}<span className="nav-mytrip-dot" aria-hidden="true"></span></a>
           <a href={`/${locale}/plan/help/`} onClick={close}>{t.help}</a>
           <button type="button" className="mobile-share trip-text-button" onClick={() => { close(); shareDialog.current?.showModal(); }}>{sharing.button}</button>
         <button type="button" className="mobile-theme trip-text-button" onClick={toggleTheme}>◐ {ui.theme}</button></nav>
