@@ -67,38 +67,38 @@ fs.mkdirSync(OUT, { recursive: true });
 let total = 0;
 for (const loc of LOCALES) {
   const rows = [];
-  const add = (p, t, kwParts) => {
+  const add = (p, t, cat, kwParts) => {
     if (!t) return;
     // Alias first so cross-language brand/place terms always survive the length cap.
     const k = ((ALIAS[p] || "") + " " + kwParts.filter(Boolean).join(" ")).toLowerCase().replace(/\s+/g, " ").trim().slice(0, 500);
-    rows.push({ p: `/${loc}/${p}/`, t: String(t), k });
+    rows.push({ p: `/${loc}/${p}/`, t: String(t), c: cat, k });
   };
   // Topic guides
   for (const slug of topics.order) {
     const g = topicsL[loc][slug]; if (!g) continue;
     const secs = (g.sections || []).map((s) => s.h2).join(" ");
-    add(`guides/${slug}`, g.h1, [g.h1, g.kicker, g.metaDesc, secs, snippet(g.answer)]);
+    add(`guides/${slug}`, g.h1, "guide", [g.h1, g.kicker, g.metaDesc, secs, snippet(g.answer)]);
   }
   // Destinations
   for (const slug of Object.keys(dest.items)) {
     const d = destL[loc][slug]; if (!d) continue;
-    add(`destinations/${slug}`, d.name, [d.name, d.cat, d.blurb, snippet(d.intro, 100)]);
+    add(`destinations/${slug}`, d.name, "place", [d.name, d.cat, d.blurb, snippet(d.intro, 100)]);
   }
   // Itineraries
   for (const slug of Object.keys(itin.items)) {
     const it = itinL[loc][slug]; if (!it) continue;
-    add(`itinerary/${slug}`, it.title, [it.title, it.sub]);
+    add(`itinerary/${slug}`, it.title, "itinerary", [it.title, it.sub]);
   }
   // Stay cities
   for (const slug of Object.keys(stay.cities)) {
     const c = stayL[loc][slug]; if (!c) continue;
-    add(`stay/${slug}`, c.name, [c.name, snippet(c.intro, 100)]);
+    add(`stay/${slug}`, c.name, "stay", [c.name, snippet(c.intro, 100)]);
   }
   // Section hubs with their own localized titles
   const kpopUi = (() => { const p = path.join(DATA, `kpop.${loc}.json`); const f = fs.existsSync(p) ? read(p) : read(path.join(DATA, "kpop.json")); return f.ui || {}; })();
-  if (kpopUi.h1) add("kpop", kpopUi.h1, [kpopUi.h1, kpopUi.tagline]);
+  if (kpopUi.h1) add("kpop", kpopUi.h1, "kpop", [kpopUi.h1, kpopUi.tagline]);
   const fu = festUi[loc] || festUi.en;
-  if (fu?.title) add("festivals", fu.title, [fu.title, fu.intro]);
+  if (fu?.title) add("festivals", fu.title, "festival", [fu.title, fu.intro]);
 
   fs.writeFileSync(path.join(OUT, `${loc}.json`), JSON.stringify(rows));
   total += rows.length;

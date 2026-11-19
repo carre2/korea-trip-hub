@@ -79,7 +79,10 @@ export default function SearchBox({ locale }) {
               ) : (
                 results.map((r) => (
                   <li key={r.p}>
-                    <a href={r.p} onClick={() => setOpen(false)}>{r.t}</a>
+                    <a href={r.p} onClick={() => setOpen(false)}>
+                      <span className="site-search-r-t">{r.t}</span>
+                      {r.c && <span className="site-search-r-c">{t.cats?.[r.c] || r.c}</span>}
+                    </a>
                   </li>
                 ))
               )}
