@@ -62,6 +62,10 @@ const topicsL = merged("topics", "items");
 const destL = merged("destinations", "items");
 const itinL = merged("itineraries", "items");
 const stayL = merged("stay", "cities");
+// Per-nationality visa guides (data/visa/<code>.json + .i18n.json). Region codes
+// mirror lib/visa.js so Intl.DisplayNames can localize each country name.
+const VISA_CODES = fs.readdirSync(path.join(DATA, "visa")).filter((f) => f.endsWith(".json") && !f.endsWith(".i18n.json")).map((f) => f.replace(".json", ""));
+const VISA_REGION = { india: "IN", vietnam: "VN", china: "CN", philippines: "PH", indonesia: "ID", usa: "US", japan: "JP", uk: "GB", canada: "CA", australia: "AU", taiwan: "TW", hongkong: "HK", singapore: "SG", malaysia: "MY", thailand: "TH", mongolia: "MN", bangladesh: "BD", nepal: "NP", uzbekistan: "UZ", srilanka: "LK", pakistan: "PK", kazakhstan: "KZ" };
 
 fs.mkdirSync(OUT, { recursive: true });
 let total = 0;
@@ -99,6 +103,26 @@ for (const loc of LOCALES) {
   if (kpopUi.h1) add("kpop", kpopUi.h1, "kpop", [kpopUi.h1, kpopUi.tagline]);
   const fu = festUi[loc] || festUi.en;
   if (fu?.title) add("festivals", fu.title, "festival", [fu.title, fu.intro]);
+  // Food & visa hubs (localized titles from messages)
+  const msg = (() => { try { return read(path.join(ROOT, "messages", `${loc}.json`)); } catch { return read(path.join(ROOT, "messages", "en.json")); } })();
+  if (msg.food?.title) add("food", msg.food.title, "food", [msg.food.title, msg.food.sub, "food restaurant eat dining cooking class 맛집 음식 グルメ 美食"]);
+  const visaTile = msg.plan?.tiles?.visa;
+  if (visaTile?.title) add("plan/visa", visaTile.title, "visa", [visaTile.title, visaTile.sub, "visa entry k-eta permit arrival 비자 입국 签证 ビザ"]);
+  // Per-nationality visa guides
+  let regionNames, enRegion;
+  try { regionNames = new Intl.DisplayNames([loc], { type: "region" }); } catch { regionNames = null; }
+  try { enRegion = new Intl.DisplayNames(["en"], { type: "region" }); } catch { enRegion = null; }
+  for (const code of VISA_CODES) {
+    const base = read(path.join(DATA, "visa", `${code}.json`));
+    const i18nPath = path.join(DATA, "visa", `${code}.i18n.json`);
+    const ov = fs.existsSync(i18nPath) ? (read(i18nPath)[loc] || {}) : {};
+    const g = { ...base, ...ov };
+    const title = g.h1 || (g.metaTitle || "").replace(/\s*—\s*Korea Trip Hub\s*$/, "") || code;
+    const region = VISA_REGION[code];
+    const cname = region && regionNames ? (() => { try { return regionNames.of(region); } catch { return ""; } })() : "";
+    const cnameEn = region && enRegion ? (() => { try { return enRegion.of(region); } catch { return ""; } })() : "";
+    add(`visa/${code}`, title, "visa", [title, cname, cnameEn, code, "visa k-eta entry", g.metaDesc]);
+  }
 
   fs.writeFileSync(path.join(OUT, `${loc}.json`), JSON.stringify(rows));
   total += rows.length;
