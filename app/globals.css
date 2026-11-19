@@ -92,18 +92,32 @@
   .langsel select{appearance:none;border:0;background:transparent;color:var(--text);font:inherit;font-weight:600;cursor:pointer;padding-right:4px}
   .langsel .globe{font-size:1.1875rem}
   .theme-btn{width:38px;height:38px;border-radius:999px;border:1px solid var(--border-strong);background:var(--surface);cursor:pointer;font-size:1.1875rem;color:var(--text)}
-  .site-search{position:relative;display:flex}
-  .site-search-btn{width:38px;height:38px;border-radius:999px;border:1px solid var(--border-strong);background:var(--surface);cursor:pointer;color:var(--text);display:grid;place-items:center}
+  .site-search{position:relative;display:flex;align-items:center}
+  /* Inline field (wide screens): text input on the left, magnifier on the right. */
+  .site-search-field{display:flex;align-items:center;gap:2px;background:var(--surface);border:1px solid var(--border-strong);border-radius:999px;padding:3px 4px 3px 14px}
+  .site-search-field:focus-within{border-color:var(--primary);box-shadow:0 0 0 3px var(--primary-soft)}
+  .site-search-input{width:150px;max-width:38vw;border:0;background:transparent;color:var(--text);font:inherit;font-size:1rem;line-height:1.2;padding:6px 0;outline:none}
+  .site-search-input::placeholder{color:var(--muted);opacity:1}
+  .site-search-input::-webkit-search-cancel-button{-webkit-appearance:none}
+  .site-search-go{flex:none;width:32px;height:32px;border:0;border-radius:999px;background:transparent;color:var(--muted);cursor:pointer;display:grid;place-items:center}
+  .site-search-go:hover{color:var(--primary)}
+  /* Round button (narrow screens only). */
+  .site-search-btn{display:none;width:38px;height:38px;border-radius:999px;border:1px solid var(--border-strong);background:var(--surface);cursor:pointer;color:var(--text);place-items:center}
   .site-search-btn:hover{border-color:var(--primary)}
-  .site-search-panel{position:absolute;top:46px;right:0;z-index:60;width:min(360px,calc(100vw - 32px));background:var(--bg);border:1px solid var(--border);border-radius:14px;box-shadow:0 14px 34px rgba(10,20,40,.16);padding:10px}
-  .site-search-input{width:100%;box-sizing:border-box;padding:11px 14px;border:1px solid var(--border-strong);border-radius:10px;background:var(--surface);color:var(--text);font:inherit;font-size:1.0625rem}
-  .site-search-input:focus{outline:2px solid var(--primary);outline-offset:1px}
-  .site-search-results{list-style:none;margin:8px 0 0;padding:0;max-height:min(60vh,380px);overflow-y:auto}
+  /* Dropdown under the inline field / panel opened from the button. */
+  .site-search-drop,.site-search-panel{position:absolute;top:48px;right:0;z-index:60;width:min(360px,calc(100vw - 32px));background:var(--bg);border:1px solid var(--border);border-radius:14px;box-shadow:0 14px 34px rgba(10,20,40,.16);padding:8px}
+  .site-search-input--panel{width:100%;max-width:none;box-sizing:border-box;padding:11px 14px;border:1px solid var(--border-strong);border-radius:10px;background:var(--surface);font-size:1.0625rem;line-height:normal}
+  .site-search-input--panel:focus{outline:2px solid var(--primary);outline-offset:1px}
+  .site-search-results{list-style:none;margin:6px 0 0;padding:0;max-height:min(60vh,380px);overflow-y:auto}
+  .site-search-drop .site-search-results{margin:0}
   .site-search-results a{display:flex;flex-direction:column;gap:2px;padding:9px 12px;border-radius:9px;color:var(--text);text-decoration:none}
   .site-search-r-t{font-size:1rem;line-height:1.35}
   .site-search-r-c{font-size:.8125rem;color:var(--muted);font-weight:600;letter-spacing:.02em}
   .site-search-results a:hover,.site-search-results a.is-active{background:var(--surface-2)}
   .site-search-empty{padding:12px;color:var(--muted);font-size:1rem}
+  /* Below ~992px the header packs brand + menu toggle + share + language + theme
+     into one non-wrapping row, so the inline field collapses to a round button. */
+  @media (max-width:991px){.site-search-field,.site-search-drop{display:none}.site-search-btn{display:grid}}
   @media (max-width:560px){.site-search-panel{position:fixed;left:12px;right:12px;top:60px;width:auto}}
   .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
   .skip-link{position:absolute;left:8px;top:-48px;z-index:200;background:var(--primary);color:#fff;padding:9px 16px;border-radius:0 0 10px 10px;font-size:1.125rem;font-weight:700;text-decoration:none;transition:top .15s}
