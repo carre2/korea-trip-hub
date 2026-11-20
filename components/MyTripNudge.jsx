@@ -6,7 +6,9 @@
 // is collapsed into the hamburger (<1280px) it points at the toggle instead.
 // Shown on every home-page visit (the sticky header keeps it attached while you
 // scroll); a visitor can close it for the session with the × or Esc, and it
-// never blocks the link it points at. The CTA scrolls to #planner.
+// never blocks the link it points at. The CTA scrolls to #planner. On phones it
+// docks to the bottom of the screen (arrow hidden) so it never covers the hero,
+// and it auto-collapses once the visitor scrolls down to the planner.
 import { useEffect, useRef, useState } from "react";
 import copy from "../data/mytrip-nudge-ui.json";
 
@@ -56,9 +58,23 @@ export default function MyTripNudge({ locale, label = "My trip" }) {
     const onKey = (e) => { if (e.key === "Escape") dismiss(); };
     window.addEventListener("resize", onResize);
     window.addEventListener("keydown", onKey);
+
+    // Auto-collapse once the visitor actually reaches the planner it points at —
+    // its job is done, so it stops covering content (and the hero on phones).
+    let planIO = null;
+    const planner = document.getElementById("planner");
+    if (planner && "IntersectionObserver" in window) {
+      planIO = new IntersectionObserver(
+        (entries) => { if (window.scrollY > 120 && entries.some((e) => e.isIntersecting)) dismiss(); },
+        { threshold: 0.2 }
+      );
+      planIO.observe(planner);
+    }
+
     return () => {
       alive = false;
       clearTimeout(timer); cancelAnimationFrame(raf);
+      if (planIO) planIO.disconnect();
       window.removeEventListener("resize", onResize);
       window.removeEventListener("keydown", onKey);
       clearGlow();

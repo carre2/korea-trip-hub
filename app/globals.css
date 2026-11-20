@@ -1537,3 +1537,12 @@
 @keyframes tnudgePulse { 0%,100% { box-shadow: 0 0 0 2px var(--primary) inset, 0 0 0 0 rgba(9,107,86,0); } 50% { box-shadow: 0 0 0 2px var(--primary) inset, 0 0 0 8px var(--primary-soft); } }
 @keyframes plannerFlash { 0% { box-shadow: 0 0 0 3px var(--primary); } 35% { box-shadow: 0 0 0 5px var(--primary-soft); } 100% { box-shadow: 0 0 0 0 rgba(9,107,86,0); } }
 @media (prefers-reduced-motion: reduce) { .tnudge { animation: tnudgeIn .42s ease both; } .tnudge-arrow path { animation: none; stroke-dasharray: none; } .nav-mytrip.mytrip-glow, .nav-toggle.mytrip-glow { animation: none; } .planner-flash { animation: none; } }
+/* Phones: dock the bubble to the bottom so it never covers the hero headline, and drop the pointer arrow. */
+@media (max-width: 720px) {
+  .tnudge {
+    left: 12px !important; right: 12px !important; width: auto !important;
+    max-width: 440px; margin-inline: auto;
+    top: auto !important; bottom: calc(14px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+  .tnudge-arrow { display: none !important; }
+}
