@@ -1343,6 +1343,16 @@
   .vrail-ttl { font-size: .84rem; line-height: 1.35; color: var(--text); padding: 0 10px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .vrail-by { font-size: .75rem; color: var(--muted); padding: 0 10px; }
 }
+/* Desktop side-gutter display ads (AdSense) — occupy the wide empty margins freed
+   when the video rails were removed. Mirrors the old rail geometry: fixed in the
+   gutter, never overlapping the 1180px content column, shown only >=1480px. */
+.ad-rail { display: none; }
+@media (min-width: 1480px) {
+  .ad-rail { position: fixed; top: 50%; transform: translateY(-50%); width: clamp(132px, calc((100vw - 1180px) / 2 - 22px), 216px); z-index: 40; }
+  .ad-rail-left { right: calc(50% + 604px); left: auto; }
+  .ad-rail-right { left: calc(50% + 604px); right: auto; }
+  .ad-rail .adsbygoogle { display: block; width: 100%; }
+}
 .vlight { position: fixed; inset: 0; z-index: 200; background: rgba(0,0,0,.74); display: flex; align-items: center; justify-content: center; padding: 20px; }
 .vlight-box { position: relative; width: min(92vw, 900px); }
 .vlight-close { position: absolute; top: -16px; right: -12px; width: 40px; height: 40px; border-radius: 999px; border: none; background: var(--surface); color: var(--text); font-size: 1.6rem; line-height: 1; cursor: pointer; box-shadow: 0 2px 12px rgba(0,0,0,.45); z-index: 2; }
