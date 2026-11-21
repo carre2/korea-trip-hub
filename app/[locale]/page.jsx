@@ -27,7 +27,6 @@ import budgetLabels from "../../data/budget-ui.json";
 import NearbyEats from "../../components/NearbyEats";
 
 import VideoReviews from "../../components/VideoReviews";
-import VideoRails from "../../components/VideoRails";
 import destData from "../../data/destinations.json";
 import destJa from "../../data/destinations.ja.json";
 import destZh from "../../data/destinations.zh.json";
@@ -127,7 +126,6 @@ export default function Home({ params }) {
     <HeroSlider locale={locale} t={t} languageCount={locales.length} image={destImages.gyeongbokgung} imageLabel={destination('gyeongbokgung').name} />
     <MyTripNudge locale={locale} label={t.myTrip} />
     <PlaceReportSearch locale={locale} />
-    <VideoRails locale={locale} />
     <LandingTools locale={locale} m={{experience:t,visaFinder:m.visaFinder}} countries={visaHubItems(locale).sort((a,b)=>a.name.localeCompare(b.name,locale))} entryCopy={entryRouting[locale]} budget={budgetLabels[locale]} routes={itineraries.order.slice(0,3).map(key=>({key,title:itineraries.items[key].title}))}/>
     <PreflightGrid locale={locale} />
     <VideoReviews locale={locale} />
