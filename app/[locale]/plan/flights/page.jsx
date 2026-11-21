@@ -25,7 +25,7 @@ export function generateMetadata({ params }) {
   });
 }
 
-const SKYSCANNER = "https://www.skyscanner.net/transport/flights-to/sel/";
+const SKYSCANNER = "https://www.skyscanner.net/flights-to/sel/";
 const GOOGLE_FLIGHTS = "https://www.google.com/travel/flights?q=flights%20to%20Seoul";
 
 export default function FlightsGuide({ params }) {
