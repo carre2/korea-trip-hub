@@ -2,13 +2,18 @@ import { getMessages, defaultLocale, locales } from "../../lib/i18n";
 import { pageMeta, webSiteLd } from "../../lib/seo";
 import JsonLd from "../../components/JsonLd";
 import festivalCopies from "../../data/festivals-ui.json";
+import kwaveCopies from "../../data/kwave-ui.json";
 import festivalRegistry from "../../data/festivals.json";
 import {fact} from "../../lib/facts";
+import { klookSearch, creatripUrl, CREATRIP_DEST } from "../../lib/booking";
 
 import MapExplorer from "../../components/MapExplorer";
 import { itinFor } from "../../lib/content";
 import TripPlanner from "../../components/TripPlanner";
+import TripChecklist from "../../components/TripChecklist";
+import tchkUi from "../../data/tripchecklist-ui.json";
 import HeroSlider from "../../components/HeroSlider";
+import MyTripNudge from "../../components/MyTripNudge";
 import PlaceReportSearch from "../../components/PlaceReportSearch";
 import LandingTools from "../../components/LandingTools";
 import PreflightGrid from "../../components/PreflightGrid";
@@ -22,7 +27,7 @@ import budgetLabels from "../../data/budget-ui.json";
 import NearbyEats from "../../components/NearbyEats";
 
 import VideoReviews from "../../components/VideoReviews";
-import VideoRails from "../../components/VideoRails";
+import AdRails from "../../components/AdRails";
 import destData from "../../data/destinations.json";
 import destJa from "../../data/destinations.ja.json";
 import destZh from "../../data/destinations.zh.json";
@@ -87,6 +92,7 @@ export function generateMetadata({ params }) {
 export default function Home({ params }) {
   const locale = params?.locale || defaultLocale;
   const m = getMessages(locale), t = m.experience;
+  const kw = kwaveCopies[locale];
   const itineraries = itinFor(locale);
   const destination = (slug) => ({ ...destData.items[slug], ...(destI18n[locale]?.items?.[slug] || {}) });
   const routeOptions = Object.fromEntries(itineraries.order.map((key) => {
@@ -97,6 +103,20 @@ export default function Home({ params }) {
   for(const category of ['eat','make','regional']) (foodData[category]||[]).forEach((item,i)=>{placeCatalog['food:'+item.key]={name:foodI18n[locale]?.[category]?.[i]?.n||item.n,path:'food/#food-'+item.key}});
   const checklist = ['visa', 'airport', 'sim', 'money'].map((key) => ({ id: key, label: m.plan.tiles[key].title, path: `plan/${key}` }));
   checklist.push({ id: 'stay', label: m.nextSteps.stay, path: 'stay' });
+  // A-to-Z trip checklist (the spine). Each step links to its on-site guide; flights
+  // open an external compare for now until an on-site/affiliate flight search lands.
+  const cu = tchkUi[locale] || tchkUi.en;
+  const shortLabel = (s) => (s || '').split('—')[0].split('|')[0].trim();
+  const tripChecklist = [
+    { id: 'flights', icon: '✈️', label: cu.flights, href: `/${locale}/plan/flights/` },
+    { id: 'visa', icon: '🛂', label: shortLabel(m.plan.tiles.visa.title), href: `/${locale}/plan/visa/` },
+    { id: 'stay', icon: '🏨', label: m.nextSteps.stay, href: `/${locale}/stay/` },
+    { id: 'attractions', icon: '🗺️', label: cu.attractions, href: `/${locale}/destinations/` },
+    { id: 'food', icon: '🍜', label: shortLabel(m.food.title), href: `/${locale}/food/` },
+    { id: 'transit', icon: '🚇', label: shortLabel(m.plan.tiles.transit.title), href: `/${locale}/plan/transit/` },
+    { id: 'sim', icon: '📶', label: shortLabel(m.plan.tiles.sim.title), href: `/${locale}/plan/sim/` },
+    { id: 'money', icon: '💳', label: shortLabel(m.plan.tiles.money.title), href: `/${locale}/plan/money/` },
+  ];
   const starts = [
     { title: t.entry, sub: t.entrySub, href: `/${locale}/plan/visa/`, icon: '01', symbol: 'visa' },
     { title: t.arrival, sub: t.arrivalSub, href: `/${locale}/plan/airport/`, icon: '02', symbol: 'airport' },
@@ -105,8 +125,9 @@ export default function Home({ params }) {
   return <div className="journey-home landing-home">
     <JsonLd data={webSiteLd(locale, m.meta.homeTitle, m.meta.homeDesc)} />
     <HeroSlider locale={locale} t={t} languageCount={locales.length} image={destImages.gyeongbokgung} imageLabel={destination('gyeongbokgung').name} />
+    <MyTripNudge locale={locale} label={t.myTrip} />
     <PlaceReportSearch locale={locale} />
-    <VideoRails locale={locale} />
+    <AdRails />
     <LandingTools locale={locale} m={{experience:t,visaFinder:m.visaFinder}} countries={visaHubItems(locale).sort((a,b)=>a.name.localeCompare(b.name,locale))} entryCopy={entryRouting[locale]} budget={budgetLabels[locale]} routes={itineraries.order.slice(0,3).map(key=>({key,title:itineraries.items[key].title}))}/>
     <PreflightGrid locale={locale} />
     <VideoReviews locale={locale} />
@@ -122,6 +143,7 @@ export default function Home({ params }) {
     </section>
     <section id="planner" className="journey-planner" tabIndex={-1} aria-label={t.myTrip}><div className="wrap">
       <div className="sec-head"><div><span className="eyebrow">{t.myTrip}</span><h2>{t.plannerTitle}</h2><p>{t.plannerSub}</p></div><a href={`/${locale}/itinerary/`}>{m.nextSteps.itinerary} →</a></div>
+      <TripChecklist locale={locale} items={tripChecklist} />
       <SavedPlaces catalog={placeCatalog} locale={locale} t={t} /><TripPlanner catalog={placeCatalog} locale={locale} labels={t} routes={routeOptions} order={itineraries.order} ui={{dayLabel: itineraries.ui.dayLabel, map: itineraries.ui.map}} checklist={checklist} />
     </div></section>
     <section id="dest" className="wrap journey-discover">
@@ -131,13 +153,27 @@ export default function Home({ params }) {
         return <article className="journey-place" key={slug}><a href={`/${locale}/destinations/${slug}/`} data-landing-link={slug}><img src={im.img} alt={d.name} width="1280" height="853" loading="lazy" /><div><h3>{d.name}</h3><p>{d.blurb}</p></div></a><SavePlace id={'dest:'+slug} locale={locale}/><small><a href={im.creditUrl} target="_blank" rel="noopener noreferrer">{im.credit}</a></small></article>;
       })}</div>
     </section>
+    <section className="journey-start wrap journey-kwave" id="kculture">
+      <div className="sec-head"><div><span className="eyebrow">{kw.eyebrow}</span><h2>{kw.title}</h2><p>{kw.sub}</p></div><a href={`/${locale}/kpop/`}>{kw.kpop.title} →</a></div>
+      <div className="journey-start-grid">
+        <a className="journey-start-card" href={`/${locale}/kpop/`}><div className="journey-card-top"><span className="kwave-emoji" aria-hidden="true">🎤</span></div><h3>{kw.kpop.title}</h3><p>{kw.kpop.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span></a>
+        <a className="journey-start-card" href={`/${locale}/guides/k-beauty-shopping/`}><div className="journey-card-top"><span className="kwave-emoji" aria-hidden="true">💄</span></div><h3>{kw.beauty.title}</h3><p>{kw.beauty.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span></a>
+        <a className="journey-start-card" href={`/${locale}/guides/idol-makeup/`}><div className="journey-card-top"><span className="kwave-emoji" aria-hidden="true">💇</span></div><h3>{kw.makeover.title}</h3><p>{kw.makeover.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span></a>
+        <a className="journey-start-card" href={`/${locale}/festivals/`}><div className="journey-card-top"><span className="kwave-emoji" aria-hidden="true">🎆</span></div><h3>{kw.festivals.title}</h3><p>{kw.festivals.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span></a>
+      </div>
+      <p className="kwave-book">{kw.bookLead}
+        <a href={klookSearch("Seoul K-pop concert fan experience tour")} target="_blank" rel="sponsored nofollow noopener">🎤 {kw.navKpop} · Klook ↗</a>
+        <a href={creatripUrl(CREATRIP_DEST.beautyServices)} target="_blank" rel="sponsored nofollow noopener">🎀 {kw.navBeauty} · Creatrip ↗</a>
+      </p>
+      <p className="bookcta-disc kwave-book-disc">ⓘ {m.footer.affiliateLine}</p>
+    </section>
     <section id="food" className="wrap journey-food"><div className="sec-head"><h2>{m.food.title}</h2><a href={`/${locale}/food/`}>{m.food.browseAll} →</a></div>
       <div className="journey-food-grid">{foodData.eat.slice(0,3).map((base,i)=>{
         const item={...base,...foodI18n[locale]?.eat?.[i]}, im=foodImages[item.key];
         return <article className="journey-food-card" key={item.key}>{im && <img src={im.img} alt={item.n} width="400" height="300" loading="lazy" />}<div><h3>{item.n}</h3><p>{item.d}</p>{item.mapq && <NearbyEats q={item.mapq} label={item.n} />}{im?.credit && <small className="journey-credit"><a href={im.creditUrl} target="_blank" rel="noopener noreferrer">{im.credit}</a></small>}</div></article>;
       })}</div>
     </section>
-    <section className="wrap journey-more" id="kculture"><div><span className="eyebrow">{m.guides.eyebrow}</span><h2>{m.guides.title}</h2><p>{m.guides.sub}</p><a className="btn ghost" href={`/${locale}/guides/`}>{t.details} →</a></div><div><span className="eyebrow">{m.nav.kculture}</span><h2>{festivalCopies[locale].title}</h2><p>{festivalCopies[locale].intro}</p><a className="btn ghost" href={`/${locale}/festivals/`}>{t.details} →</a></div></section>
+    <section className="wrap journey-more"><div><span className="eyebrow">{m.guides.eyebrow}</span><h2>{m.guides.title}</h2><p>{m.guides.sub}</p><a className="btn ghost" href={`/${locale}/guides/`}>{t.details} →</a></div></section>
     <section id="map" className="journey-map"><div className="wrap"><details><summary>{m.home.mapTitle}</summary><MapExplorer labels={m.map} locale={locale} /></details></div></section>
     <section id="help" className="wrap journey-help"><div><span className="eyebrow">{m.help.eyebrow}</span><h2>{m.help.title}</h2><p>{m.help.sub}</p></div><a className="btn ghost" href={`/${locale}/plan/help/`}>{m.plan.tiles.help.title} →</a></section>
   </div>;

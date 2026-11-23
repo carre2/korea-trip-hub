@@ -15,6 +15,7 @@ import JourneyAnalytics from "../../components/JourneyAnalytics";
 import ChatWidget from "../../components/ChatWidget";
 import CategoryCompanion from "../../components/CategoryCompanion";
 import festivalCopies from "../../data/festivals-ui.json";
+import kwaveCopies from "../../data/kwave-ui.json";
 import {GA_ID,ADS_ID} from '../../lib/analytics-config.mjs';
 
 // Google AdSense publisher (ktriphub.com). Loader below serves ads once approved.
@@ -41,8 +42,8 @@ export default function LocaleLayout({ children, params }) {
       <body>
         <ExperienceProvider labels={{...m.experience, affiliate: m.footer.affiliateLine}}>
         <a className="skip-link" href="#main">{m.experience.skip}</a>
-        <Header locale={locale} nav={m.nav} labels={m.experience} festivalTitle={festivalCopies[locale].title} locales={locales} localeNames={localeNames} rtl={dir === "rtl"} />
-        <JourneyAnalytics locale={locale} /><main id="main"><ArticleContents label={m.experience.contents} /><CategoryCompanion titles={{destinations:m.dest.title,food:m.food.title,guides:m.guides.title,itinerary:m.experience.plannerTitle,stay:m.nextSteps.stay,kpop:m.nav.kculture,festivals:festivalCopies[locale].title,plan:m.experience.essentials,visa:m.experience.entry}}/>{children}</main>
+        <Header locale={locale} nav={m.nav} labels={m.experience} festivalTitle={festivalCopies[locale].nav} kwave={kwaveCopies[locale]} locales={locales} localeNames={localeNames} rtl={dir === "rtl"} />
+        <JourneyAnalytics locale={locale} /><main id="main"><ArticleContents label={m.experience.contents} /><CategoryCompanion titles={{destinations:m.dest.title,food:m.food.title,guides:m.guides.title,itinerary:m.experience.plannerTitle,stay:m.nextSteps.stay,kpop:m.nav.kculture,festivals:festivalCopies[locale].nav,plan:m.experience.essentials,visa:m.experience.entry}}/>{children}</main>
         <SiteFooter locale={locale} />
         <ChatWidget locale={locale} labels={m.chat} />
         <ConsentBanner t={consent} privacyHref={`/${locale}/legal/privacy/`} />

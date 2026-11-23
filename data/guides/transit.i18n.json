@@ -5,7 +5,7 @@
     "readingTime": "阅读时间 8 分钟",
     "tldr": [
       "办一张 T-money 卡就够了——地铁、公交、大多数出租车和便利店都能用。",
-      "上车和下车都要刷卡（公交也一样），30 分钟内可享免费换乘。",
+      "上车和下车都要刷卡（公交也一样），==30 分钟内可享免费换乘==。",
       "用 Naver Map 或 KakaoMap 导航——谷歌地图在韩国几乎无法用于交通导航。",
       "打车用 Kakao T（预先显示车费）；城际出行用 KTX/SRT 高速铁路。"
     ],
@@ -50,7 +50,7 @@
       "intro": "出租车价格实惠、数量众多。唯一要装的是 Kakao T——超过 90% 的 Seoul 出租车都用它，它会在你确认前显示预估车费，还能消除任何语言或绕路的担忧。",
       "types": [
         { "name": "普通（中型）", "fare": "₩4,800 起", "d": "标准的橙色/银色出租车。打表计费；深夜加价最高 40%（约 23:00–02:00）。" },
-        { "name": "模范出租车（mobeom）", "fare": "₩7,000 起", "d": "带金色条纹的黑色车。价格更高、更宽敞，且没有深夜加价——适合深夜出行。" },
+        { "name": "模范出租车（mobeom）", "fare": "₩7,000 起", "d": "带金色条纹的黑色车。价格更高、更宽敞；22:00–04:00 起步价升至 ₩8,400（前 3 公里）。" },
         { "name": "国际出租车", "fare": "₩8,000 起", "d": "黑色或橙色，标有“International”。司机会说英语/中文/日语；可预约。" }
       ],
       "tip": "大多数出租车可用 T-money 或刷卡支付。把目的地准备成韩文（地图应用会显示），上下车都更顺畅。"
@@ -104,7 +104,7 @@
     "readingTime": "閱讀時間 8 分鐘",
     "tldr": [
       "辦一張 T-money 卡就夠了——地鐵、公車、大多數計程車和便利商店都能用。",
-      "上車和下車都要刷卡（公車也一樣），30 分鐘內可享免費轉乘。",
+      "上車和下車都要刷卡（公車也一樣），==30 分鐘內可享免費轉乘==。",
       "用 Naver Map 或 KakaoMap 導航——Google 地圖在韓國幾乎無法用於交通導航。",
       "叫計程車用 Kakao T（會先顯示車資）；跨城市出行用 KTX/SRT 高速鐵路。"
     ],
@@ -149,7 +149,7 @@
       "intro": "計程車價格實惠、數量眾多。唯一要裝的是 Kakao T——超過 90% 的 Seoul 計程車都用它，會在你確認前顯示預估車資，還能消除任何語言或繞路的擔憂。",
       "types": [
         { "name": "一般（中型）", "fare": "₩4,800 起", "d": "標準的橘色/銀色計程車。跳表計費；深夜加成最高 40%（約 23:00–02:00）。" },
-        { "name": "模範計程車（mobeom）", "fare": "₩7,000 起", "d": "帶金色條紋的黑色車。較貴、較寬敞，且沒有深夜加成——適合深夜行程。" },
+        { "name": "模範計程車（mobeom）", "fare": "₩7,000 起", "d": "帶金色條紋的黑色車。較貴、較寬敞；22:00–04:00 起跳價升至 ₩8,400（前 3 公里）。" },
         { "name": "國際計程車", "fare": "₩8,000 起", "d": "黑色或橘色，標示「International」。司機會說英語/中文/日語；可事先預約。" }
       ],
       "tip": "大多數計程車可用 T-money 或刷卡支付。把目的地備好韓文（地圖 App 會顯示），上下車都更順暢。"
@@ -204,7 +204,7 @@
     "readingTime": "読了8分",
     "tldr": [
       "T-money カードを1枚作れば十分——地下鉄、バス、ほとんどのタクシー、コンビニで使えます。",
-      "乗るときも降りるときもタッチ（バスでも）。30分以内なら乗り換えが無料になります。",
+      "乗るときも降りるときもタッチ（バスでも）。==30分以内なら乗り換えが無料==になります。",
       "ナビは Naver Map か KakaoMap で——韓国では Google マップの経路案内はほぼ使えません。",
       "タクシーは Kakao T（事前に料金表示）、都市間は KTX/SRT の高速鉄道を使いましょう。"
     ],
@@ -249,7 +249,7 @@
       "intro": "タクシーは手頃で数も豊富。入れておくべきは Kakao T——Seoul のタクシーの90%以上が対応し、確定前に予想料金が表示され、言葉や遠回りの不安がなくなります。",
       "types": [
         { "name": "一般（中型）", "fare": "₩4,800〜", "d": "標準的なオレンジ／シルバーのタクシー。メーター制。深夜は最大40%の割増（約23:00〜02:00）。" },
-        { "name": "模範（モボム）", "fare": "₩7,000〜", "d": "金のラインが入った黒い車。割高で広く、深夜割増なし——深夜の移動に便利。" },
+        { "name": "模範（モボム）", "fare": "₩7,000〜", "d": "金のラインが入った黒い車。割高で広め。22:00〜04:00 は初乗りが ₩8,400（最初の 3 km）に上がります。" },
         { "name": "インターナショナルタクシー", "fare": "₩8,000〜", "d": "黒またはオレンジで「International」と表示。運転手は英語／中国語／日本語対応。事前予約も可能。" }
       ],
       "tip": "ほとんどのタクシーで T-money かカード払いが可能。目的地を韓国語で用意しておく（地図アプリに表示されます）と、乗車・降車がスムーズです。"
@@ -303,7 +303,7 @@
     "readingTime": "Đọc trong 8 phút",
     "tldr": [
       "Chỉ cần MỘT thẻ T-money — dùng được cho tàu điện ngầm, xe buýt, hầu hết taxi và cửa hàng tiện lợi.",
-      "Quẹt thẻ khi lên VÀ khi xuống (kể cả trên xe buýt) để được chuyển tuyến miễn phí trong vòng 30 phút.",
+      "Quẹt thẻ khi lên VÀ khi xuống (kể cả trên xe buýt) để được ==chuyển tuyến miễn phí trong vòng 30 phút==.",
       "Dẫn đường bằng Naver Map hoặc KakaoMap — Google Maps gần như không dùng được cho giao thông ở Hàn Quốc.",
       "Đi taxi thì dùng Kakao T (báo giá trước); đi liên thành phố thì dùng tàu cao tốc KTX/SRT."
     ],
@@ -348,7 +348,7 @@
       "intro": "Taxi có giá phải chăng và rất nhiều. Thứ duy nhất cần cài là Kakao T — hơn 90% taxi ở Seoul chạy trên app này, nó hiển thị giá ước tính trước khi bạn xác nhận, và loại bỏ mọi lo lắng về ngôn ngữ hay đi vòng.",
       "types": [
         { "name": "Thường (cỡ trung)", "fare": "từ ₩4,800", "d": "Taxi cam/bạc tiêu chuẩn. Tính theo đồng hồ; phụ phí đêm khuya tới 40% (~23:00–02:00)." },
-        { "name": "Cao cấp (mobeom)", "fare": "từ ₩7,000", "d": "Màu đen với sọc vàng. Đắt hơn, rộng rãi hơn và KHÔNG phụ phí đêm khuya — hợp cho chuyến đi muộn." },
+        { "name": "Cao cấp (mobeom)", "fare": "từ ₩7,000", "d": "Màu đen với sọc vàng. Đắt hơn, rộng rãi hơn; từ 22:00 đến 04:00 giá mở cửa tăng lên ₩8,400 (3 km đầu)." },
         { "name": "Taxi quốc tế", "fare": "từ ₩8,000", "d": "Đen hoặc cam, ghi 'International'. Tài xế nói tiếng Anh/Trung/Nhật; có thể đặt trước." }
       ],
       "tip": "Phần lớn taxi trả bằng T-money hoặc thẻ. Hãy chuẩn bị điểm đến bằng tiếng Hàn (app bản đồ hiển thị nó) để việc đón và trả khách suôn sẻ."
@@ -402,7 +402,7 @@
     "readingTime": "อ่าน 8 นาที",
     "tldr": [
       "มีบัตร T-money ใบเดียวก็พอ — ใช้ได้ทั้งรถไฟใต้ดิน รถเมล์ แท็กซี่ส่วนใหญ่ และร้านสะดวกซื้อ",
-      "แตะบัตรทั้งตอนขึ้นและตอนลง (แม้แต่บนรถเมล์) เพื่อรับสิทธิ์เปลี่ยนสายฟรีภายใน 30 นาที",
+      "แตะบัตรทั้งตอนขึ้นและตอนลง (แม้แต่บนรถเมล์) เพื่อรับสิทธิ์==เปลี่ยนสายฟรีภายใน 30 นาที==",
       "นำทางด้วย Naver Map หรือ KakaoMap — Google Maps แทบใช้นำทางระบบขนส่งในเกาหลีไม่ได้",
       "เรียกแท็กซี่ใช้ Kakao T (บอกค่าโดยสารล่วงหน้า) เดินทางข้ามเมืองใช้รถไฟความเร็วสูง KTX/SRT"
     ],
@@ -447,7 +447,7 @@
       "intro": "แท็กซี่ราคาย่อมเยาและมีเยอะ สิ่งเดียวที่ต้องติดตั้งคือ Kakao T — แท็กซี่ใน Seoul กว่า 90% ใช้แอปนี้ มันแสดงค่าโดยสารประเมินก่อนที่คุณจะยืนยัน และตัดความกังวลเรื่องภาษาหรือการอ้อมทางออกไป",
       "types": [
         { "name": "ทั่วไป (ขนาดกลาง)", "fare": "เริ่มต้น ₩4,800", "d": "แท็กซี่สีส้ม/เงินมาตรฐาน คิดตามมิเตอร์ ค่าธรรมเนียมช่วงดึกสูงถึง 40% (~23:00–02:00)" },
-        { "name": "ดีลักซ์ (mobeom)", "fare": "เริ่มต้น ₩7,000", "d": "สีดำมีแถบทอง แพงกว่า กว้างกว่า และไม่มีค่าธรรมเนียมช่วงดึก — ดีสำหรับเดินทางดึก" },
+        { "name": "ดีลักซ์ (mobeom)", "fare": "เริ่มต้น ₩7,000", "d": "สีดำมีแถบทอง แพงกว่าและกว้างกว่า ช่วง 22:00–04:00 ค่าเริ่มต้นเพิ่มเป็น ₩8,400 (3 กม. แรก)" },
         { "name": "แท็กซี่นานาชาติ", "fare": "เริ่มต้น ₩8,000", "d": "สีดำหรือส้ม มีป้าย 'International' คนขับพูดอังกฤษ/จีน/ญี่ปุ่น จองล่วงหน้าได้" }
       ],
       "tip": "แท็กซี่ส่วนใหญ่จ่ายด้วย T-money หรือบัตรได้ เตรียมจุดหมายเป็นภาษาเกาหลี (แอปแผนที่แสดงให้) เพื่อให้รับส่งราบรื่น"
@@ -501,7 +501,7 @@
     "readingTime": "Baca 8 menit",
     "tldr": [
       "Cukup SATU kartu T-money — bisa untuk kereta bawah tanah, bus, sebagian besar taksi, dan minimarket.",
-      "Tap saat naik DAN turun (termasuk di bus) untuk transfer gratis dalam 30 menit.",
+      "Tap saat naik DAN turun (termasuk di bus) untuk ==transfer gratis dalam 30 menit==.",
       "Navigasi dengan Naver Map atau KakaoMap — Google Maps hampir tak berfungsi untuk transportasi di Korea.",
       "Untuk taksi pakai Kakao T (tarif ditampilkan di awal); untuk antarkota pakai kereta cepat KTX/SRT."
     ],
@@ -546,7 +546,7 @@
       "intro": "Taksi terjangkau dan melimpah. Satu hal yang wajib dipasang adalah Kakao T — lebih dari 90% taksi Seoul memakainya, menampilkan perkiraan tarif sebelum Anda konfirmasi, dan menghapus kekhawatiran soal bahasa atau rute diputar-putar.",
       "types": [
         { "name": "Reguler (menengah)", "fare": "mulai ₩4,800", "d": "Taksi oranye/perak standar. Berargometer; biaya tambahan larut malam hingga 40% (~23:00–02:00)." },
-        { "name": "Deluxe (mobeom)", "fare": "mulai ₩7,000", "d": "Hitam dengan garis emas. Lebih mahal, lebih lega, dan TANPA biaya tambahan larut malam — cocok untuk perjalanan malam." },
+        { "name": "Deluxe (mobeom)", "fare": "mulai ₩7,000", "d": "Hitam dengan garis emas. Lebih mahal dan lebih lega; pukul 22:00–04:00 tarif awal naik menjadi ₩8,400 (3 km pertama)." },
         { "name": "Taksi internasional", "fare": "mulai ₩8,000", "d": "Hitam atau oranye, bertanda 'International'. Sopir berbahasa Inggris/Mandarin/Jepang; bisa dipesan lebih dulu." }
       ],
       "tip": "Bayar dengan T-money atau kartu di sebagian besar taksi. Siapkan tujuan dalam huruf Korea (ditampilkan aplikasi peta) agar penjemputan dan pengantaran lancar."
@@ -600,7 +600,7 @@
     "readingTime": "8 min de lectura",
     "tldr": [
       "Consigue UNA tarjeta T-money: sirve para el metro, el autobús, la mayoría de los taxis y las tiendas de conveniencia.",
-      "Pasa la tarjeta al entrar Y al salir (también en el autobús) para obtener transbordos gratis en 30 minutos.",
+      "Pasa la tarjeta al entrar Y al salir (también en el autobús) para obtener ==transbordos gratis en 30 minutos==.",
       "Navega con Naver Map o KakaoMap: Google Maps apenas funciona para el transporte en Corea.",
       "Para taxis usa Kakao T (tarifa por adelantado); entre ciudades usa el tren de alta velocidad KTX/SRT."
     ],
@@ -645,7 +645,7 @@
       "intro": "Los taxis son asequibles y abundantes. Lo único que hay que instalar es Kakao T: más del 90% de los taxis de Seoul lo usan, muestra una tarifa estimada antes de confirmar y elimina cualquier preocupación por el idioma o los rodeos.",
       "types": [
         { "name": "Normal (mediano)", "fare": "desde ₩4,800", "d": "El taxi estándar naranja/plateado. Con taxímetro; recargo nocturno de hasta el 40% (~23:00–02:00)." },
-        { "name": "De lujo (mobeom)", "fare": "desde ₩7,000", "d": "Negro con una franja dorada. Más caro, más amplio y SIN recargo nocturno: bueno para viajes tarde." },
+        { "name": "De lujo (mobeom)", "fare": "desde ₩7,000", "d": "Negro con una franja dorada. Más caro y amplio; de 22:00 a 04:00 la bajada de bandera sube a ₩8,400 (primeros 3 km)." },
         { "name": "Taxi internacional", "fare": "desde ₩8,000", "d": "Negro o naranja, con la marca 'International'. Los conductores hablan inglés/chino/japonés; se puede reservar." }
       ],
       "tip": "Paga con T-money o tarjeta en la mayoría de los taxis. Ten el destino en coreano (la app de mapas lo muestra) para que la recogida y la bajada sean fluidas."
@@ -699,7 +699,7 @@
     "readingTime": "Bacaan 8 minit",
     "tldr": [
       "Dapatkan SATU kad T-money — ia membayar untuk kereta bawah tanah, bas, kebanyakan teksi dan kedai serbaneka.",
-      "Tap semasa masuk DAN keluar (termasuk atas bas) untuk pemindahan percuma dalam 30 minit.",
+      "Tap semasa masuk DAN keluar (termasuk atas bas) untuk ==pemindahan percuma dalam 30 minit==.",
       "Navigasi dengan Naver Map atau KakaoMap — Google Maps hampir tidak berfungsi untuk pengangkutan di Korea.",
       "Untuk teksi guna Kakao T (tambang ditunjukkan dahulu); untuk antara bandar guna kereta api laju KTX/SRT."
     ],
@@ -744,7 +744,7 @@
       "intro": "Teksi berpatutan dan banyak. Satu perkara yang perlu dipasang ialah Kakao T — lebih 90% teksi Seoul menggunakannya, ia menunjukkan anggaran tambang sebelum anda sahkan, dan menghilangkan sebarang kerisauan bahasa atau pusing-pusing.",
       "types": [
         { "name": "Biasa (sederhana)", "fare": "dari ₩4,800", "d": "Teksi jingga/perak standard. Bermeter; caj tambahan lewat malam sehingga 40% (~23:00–02:00)." },
-        { "name": "Mewah (mobeom)", "fare": "dari ₩7,000", "d": "Hitam dengan jalur emas. Lebih mahal, lebih luas, dan TIADA caj tambahan lewat malam — sesuai untuk perjalanan lewat." },
+        { "name": "Mewah (mobeom)", "fare": "dari ₩7,000", "d": "Hitam dengan jalur emas. Lebih mahal dan lebih luas; dari 22:00 hingga 04:00 tambang asas naik kepada ₩8,400 (3 km pertama)." },
         { "name": "Teksi antarabangsa", "fare": "dari ₩8,000", "d": "Hitam atau jingga, bertanda 'International'. Pemandu bertutur bahasa Inggeris/Cina/Jepun; boleh ditempah awal." }
       ],
       "tip": "Bayar dengan T-money atau kad di kebanyakan teksi. Sediakan destinasi dalam bahasa Korea (aplikasi peta memaparkannya) supaya pengambilan dan penurunan lancar."
@@ -798,7 +798,7 @@
     "readingTime": "읽는 데 8분",
     "tldr": [
       "T-money 카드 한 장만 있으면 됩니다 — 지하철, 버스, 대부분의 택시, 편의점에서 모두 사용할 수 있어요.",
-      "탈 때와 내릴 때 모두 태그하세요(버스에서도). 그러면 30분 이내 환승이 무료입니다.",
+      "탈 때와 내릴 때 모두 태그하세요(버스에서도). 그러면 ==30분 이내 환승이 무료==입니다.",
       "길찾기는 Naver Map이나 KakaoMap으로 — 한국에서는 구글 지도의 대중교통 길찾기가 거의 작동하지 않습니다.",
       "택시는 Kakao T(요금 선표시), 도시 간 이동은 KTX/SRT 고속철도를 이용하세요."
     ],
@@ -843,7 +843,7 @@
       "intro": "택시는 요금이 합리적이고 수가 많습니다. 꼭 설치할 하나는 Kakao T예요 — Seoul 택시의 90% 이상이 이 앱을 쓰고, 확정 전에 예상 요금을 보여주며, 언어나 돌아가기 걱정을 없애줍니다.",
       "types": [
         { "name": "일반(중형)", "fare": "₩4,800부터", "d": "표준적인 주황/은색 택시. 미터 요금제이며, 심야 할증은 최대 40%(약 23:00–02:00)입니다." },
-        { "name": "모범(mobeom)", "fare": "₩7,000부터", "d": "금색 줄무늬가 있는 검은색 차량. 더 비싸고 넓으며 심야 할증이 없어요 — 늦은 이동에 좋습니다." },
+        { "name": "모범(mobeom)", "fare": "₩7,000부터", "d": "금색 줄무늬가 있는 검은색 차량. 더 비싸고 넓어요. 22:00~04:00에는 기본요금이 ₩8,400(첫 3 km)으로 올라요." },
         { "name": "인터내셔널 택시", "fare": "₩8,000부터", "d": "검은색 또는 주황색에 'International' 표시. 기사가 영어/중국어/일본어를 하며 사전 예약도 가능합니다." }
       ],
       "tip": "대부분의 택시에서 T-money나 카드로 결제할 수 있어요. 목적지를 한국어로 준비해 두면(지도 앱에 표시됩니다) 승하차가 매끄럽습니다."

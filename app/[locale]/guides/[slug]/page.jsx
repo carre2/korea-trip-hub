@@ -3,9 +3,13 @@ import { pageMeta, breadcrumbLd, articleLd, faqLd, SITE_NAME, REVIEWED } from ".
 import JsonLd from "../../../../components/JsonLd";
 import { linkify } from "../../../../lib/linkify";
 import BookCTA from "../../../../components/BookCTA";
-import { klookSearch } from "../../../../lib/booking";
+import { klookSearch, withAff } from "../../../../lib/booking";
 import BudgetCalculator from "../../../../components/BudgetCalculator";
+import NextSteps from "../../../../components/NextSteps";
+import BeautyFinder from "../../../../components/BeautyFinder";
+import GuideVideos from "../../../../components/GuideVideos";
 import PeekMascot from "../../../../components/PeekMascot";
+import BloomTable from "../../../../components/BloomTable";
 import ArticleTrust from "../../../../components/ArticleTrust";
 import topics from "../../../../data/topics.json";
 import topicsZh from "../../../../data/topics.zh.json";
@@ -102,6 +106,40 @@ export default function TopicGuide({ params }) {
         </div>
       )}
 
+      {/* Action card: give visitors who land here (e.g. searching a brand) a concrete
+          next step — find/verify/book — instead of only reading the guide. */}
+      {g.actionCard && (
+        <div className="actcard">
+          <div className="actcard-head">
+            <span className="actcard-ico" aria-hidden="true">{g.actionCard.icon || g.icon || "✨"}</span>
+            <div>
+              <h2 className="actcard-title">{g.actionCard.title}</h2>
+              {g.actionCard.intro && <p className="actcard-intro">{g.actionCard.intro}</p>}
+            </div>
+          </div>
+          {g.actionCard.buttons?.length > 0 && (
+            <div className="actcard-actions">
+              {g.actionCard.buttons.map((b, i) => {
+                const href = b.partner ? withAff(b.url, b.partner) : b.url;
+                const rel = b.partner ? "sponsored nofollow noopener" : "noopener noreferrer";
+                return (
+                  <a key={i} className="actcard-btn" href={href} target="_blank" rel={rel}>
+                    {b.icon && <span className="actcard-btn-ico" aria-hidden="true">{b.icon}</span>}
+                    <span className="actcard-btn-txt"><b>{b.label}</b>{b.sub && <small>{b.sub}</small>}</span>
+                    <span className="actcard-btn-go" aria-hidden="true">↗</span>
+                  </a>
+                );
+              })}
+            </div>
+          )}
+          {g.actionCard.note && <p className="actcard-note">{linkify(g.actionCard.note, locale)}</p>}
+        </div>
+      )}
+
+      {slug === "k-beauty-shopping" && <BeautyFinder locale={locale} />}
+
+      {slug === "cherry-blossom" && <BloomTable locale={locale} />}
+
       {g.sections?.map((s, i) => (
         <section key={i} className="gv-sec">
           <h2>{s.h2}</h2>
@@ -118,6 +156,13 @@ export default function TopicGuide({ params }) {
         </section>
       ))}
 
+      {g.oliveYoung && (
+        <section className="gv-sec">
+          <h2>{g.oliveYoung.h2}</h2>
+          {g.oliveYoung.body.map((p, j) => <p key={j}>{linkify(p, locale)}</p>)}
+        </section>
+      )}
+
       {g.klook && (
         <BookCTA
           partner="klook"
@@ -125,6 +170,17 @@ export default function TopicGuide({ params }) {
           label={g.bookLabel || "Book the experience"}
           sub={g.bookSub || "Experiences via Klook."}
           url={klookSearch(g.klook)}
+          disclose
+        />
+      )}
+
+      {g.creatrip && (
+        <BookCTA
+          partner="creatrip"
+          icon="🎀"
+          label={g.creatripLabel || "Book a K-beauty experience"}
+          sub={g.creatripSub || "Hair, makeup & skin studios for visitors — via Creatrip."}
+          url={g.creatrip}
           disclose
         />
       )}
@@ -150,6 +206,9 @@ export default function TopicGuide({ params }) {
       )}
 
       {slug.startsWith("korea-from-") && <BudgetCalculator key={slug} locale={locale} country={slug.slice('korea-from-'.length)} />}
+      {slug === "idol-makeup" && <GuideVideos locale={locale} cats="kculture" />}
+      {slug === "k-beauty-shopping" && <GuideVideos locale={locale} cats="beauty" />}
+      <NextSteps locale={locale} m={m} heading={m.nextSteps?.heading} />
       <ArticleTrust reviewed={g.reviewed || REVIEWED.iso} locale={locale} />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>

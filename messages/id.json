@@ -41,7 +41,7 @@
   "brand": "KoreaTripHub",
   "meta": {
     "homeTitle": "Korea Trip Hub — Rencanakan perjalanan ke Korea dalam bahasamu",
-    "homeDesc": "Pusat perjalanan Korea serba ada: perencana rute dengan , info penting terverifikasi (visa, transportasi), kuliner dan pengalaman langsung, ulasan, dan K-culture."
+    "homeDesc": "Pusat perjalanan Korea serba ada: perencana rute, info penting terverifikasi (visa, transportasi), kuliner dan pengalaman langsung, ulasan, dan K-culture."
   },
   "nav": {
     "plan": "Persiapan",
@@ -308,20 +308,20 @@
       "notes": "Jika wajib melapor, kirim gratis di e-arrivalcard.go.kr mulai 3 hari sebelum kedatangan menurut waktu Korea. Berlaku sampai 72 jam setelah dikirim atau hingga pemeriksaan imigrasi selesai. Menyimpan nomor penerbitan dalam email membantu; tidak wajib membawa konfirmasi cetak."
     },
     "transit-free-transfer": {
-      "claim": "Perpindahan antara kereta bawah tanah dan bus (atau bus ke bus) gratis dalam 30 minutes jika Anda membayar dengan kartu T-money dan menempelkan kartu saat masuk maupun keluar.",
+      "claim": "Perpindahan antara kereta bawah tanah dan bus (atau bus ke bus) gratis dalam 30 menit jika Anda membayar dengan kartu T-money dan menempelkan kartu saat masuk maupun keluar.",
       "notes": "Anda juga harus menempelkan kartu saat keluar dari bus, atau Anda kehilangan diskon perpindahan dan bisa dikenai biaya lagi."
     },
     "transit-subway-seoul": {
       "claim": "Tarif dasar kereta bawah tanah Seoul adalah ₩1,550 dengan kartu T-money (₩1,650 untuk tiket sekali jalan tunai), untuk jarak hingga 10 km; perjalanan lebih jauh menambah ₩100 per tambahan 5 km.",
-      "notes": "Naik dari ₩1,400 pada kenaikan tarif June 2025. Pastikan tarif terbaru di Naver Map / KakaoMap atau situs Seoul TOPIS."
+      "notes": "Naik dari ₩1,400 pada kenaikan tarif Juni 2025. Pastikan tarif terbaru di Naver Map / KakaoMap atau situs Seoul TOPIS."
     },
     "transit-bus-seoul": {
       "claim": "Tarif bus kota Seoul (T-money): biru & hijau ₩1,500, kuning ₩1,400, merah (ekspres antarwilayah) ₩3,000+, malam (N-bus) ₩2,500.",
       "notes": "Tempelkan kartu saat masuk DAN keluar untuk mendapat perpindahan gratis. Pastikan tarif terbaru di Seoul TOPIS."
     },
     "transit-taxi-seoul": {
-      "claim": "Tarif dasar taksi menengah Seoul adalah ₩4,800 (1.6 km pertama), lalu ₩100 per 132 m. Biaya tambahan larut malam hingga 40% berlaku (sekitar 23:00–02:00). Taksi deluxe mulai dari ₩7,000 (3 km pertama) tanpa biaya tambahan malam.",
-      "notes": "Gunakan Kakao T untuk perkiraan tarif di muka. Taksi deluxe (mobeom) dan internasional lebih mahal tetapi menghindari biaya tambahan larut malam / menyediakan bahasa Inggris."
+      "claim": "Taksi menengah di Seoul bertarif awal ₩4,800 (1.6 km pertama), lalu ₩100 per 131 m. Biaya tambahan malam: 20% pukul 22:00–23:00 dan 02:00–04:00, 40% pukul 23:00–02:00. Taksi deluxe (mobeom) mulai ₩7,000 (3 km pertama), dan ₩8,400 (3 km pertama) pukul 22:00–04:00.",
+      "notes": "Gunakan Kakao T untuk melihat perkiraan tarif lebih dulu. Taksi deluxe (mobeom) juga punya tarif malam."
     },
     "ktx-seoul-busan": {
       "claim": "Tarif sekali jalan kursi standar KTX Seoul → Busan dan perkiraan waktu tempuh.",
@@ -336,15 +336,15 @@
       "notes": "Tarif Express naik dari ₩9,500 yang lama; sumber 2026 menyebutkan sekitar ₩13,000 tarif rata dengan diskon online mendekati ₩11,500. Selalu pastikan tarif terbaru di arex.or.kr."
     },
     "arex-allstop": {
-      "claim": "Kereta AREX all-stop: mencapai Stasiun Seoul dalam sekitar 59–66 minutes. Tarif tergantung stasiun tujuan Anda.",
+      "claim": "Kereta AREX all-stop: mencapai Stasiun Seoul dalam sekitar 59–66 menit. Tarif tergantung stasiun tujuan Anda.",
       "notes": "Pilihan kereta bandara termurah; bayar dengan T-money. Pastikan tarif pasti untuk stasiun Anda di arex.or.kr."
     },
     "airport-bus": {
-      "claim": "Bus limousine / bus bandara Incheon: sekitar 60–90 minutes ke Seoul, tergantung rute dan lalu lintas. Tarif bervariasi menurut jenis bus.",
+      "claim": "Bus limousine / bus bandara Incheon: sekitar 60–90 menit ke Seoul, tergantung rute dan lalu lintas. Tarif bervariasi menurut jenis bus.",
       "notes": "Bus limousine KAL premium lebih mahal (~₩18,000); bus bandara standar lebih murah. Bus berhenti di dekat banyak hotel — periksa rute untuk tujuan Anda."
     },
     "airport-taxi": {
-      "claim": "Taksi argo biasa dari Bandara Incheon ke pusat Seoul berkisar sekitar ₩65,000–85,000 dan memakan waktu 60–70 minutes. International Taxi resmi menawarkan tarif tetap dengan pengemudi bersertifikat yang berbahasa Inggris/Jepang/Mandarin.",
+      "claim": "Taksi argo biasa dari Bandara Incheon ke pusat Seoul berkisar sekitar ₩65,000–85,000 dan memakan waktu 60–70 menit. International Taxi resmi menawarkan tarif tetap dengan pengemudi bersertifikat yang berbahasa Inggris/Jepang/Mandarin.",
       "notes": "Tarif argo bervariasi menurut lalu lintas dan tujuan serta mencakup tol jalan tol; biaya tambahan larut malam bisa berlaku. Konter International Taxi berada di aula kedatangan T1 dan T2 (intltaxi.co.kr, +82-1644-2255)."
     },
     "sim-options": {
@@ -463,27 +463,13 @@
     "trustDraftSub": "dalam hitungan detik",
     "trustShare": "Bagikan",
     "trustShareSub": "ke WhatsApp, LINE & X",
-    "dealsEyebrow": "Pesan & hemat",
-    "dealsTitle": "Penawaran wisata Korea populer",
-    "dealsSub": "Tiket, pas, dan pengalaman yang paling banyak dipesan wisatawan sebelum berangkat — via Klook.",
-    "dealEsim": "eSIM Korea",
-    "dealEsimSub": "Online dalam hitungan menit — data siap saat tiba",
-    "dealKtx": "Tiket kereta KTX / SRT",
-    "dealKtxSub": "Seoul ↔ Busan dan sekitarnya",
-    "dealParks": "Tiket taman hiburan & atraksi",
-    "dealParksSub": "Everland, Lotte World, N Seoul Tower…",
-    "dealHanbok": "Hanbok, tur & pengalaman",
-    "dealHanbokSub": "Istana, wisata sehari & kelas praktik langsung",
-    "dealHotel": "Hotel & tempat menginap",
-    "dealHotelSub": "Bandingkan penginapan di Seoul, Busan & Jeju",
-    "dealHotelGo": "Lihat area menginap",
     "mapTitle": "Cari di peta pilihanmu",
     "trustLangs": "12 bahasa",
     "mapEyebrow": "Temukan jalanmu",
     "mapSub": "Cari alamat atau tempat apa pun di peta Naver atau Kakao, langsung di sini."
   },
   "hotelsNearby": "Hotel di sekitar",
-  "nextSteps": {
+  "nextSteps": {"heading": "Lanjutkan merencanakan perjalanan ke Korea", 
     "title": "Visa beres? Sekarang rencanakan sisa perjalananmu",
     "sub": "Kedatangan, transportasi, tempat menginap, dan aktivitas — sisa perjalanan Korea-mu, semua di sini.",
     "stay": "Tempat Menginap",

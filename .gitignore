@@ -8,3 +8,6 @@
 .vercel
 
 /.dev.vars*
+
+# Generated at build time by scripts/gen-search-index.mjs (prebuild)
+/public/search/

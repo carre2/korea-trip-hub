@@ -31,7 +31,7 @@
       "visa.go.kr（唯一の公式ポータル）でフォームに記入し、印刷して署名します。",
       "Colomboの韓国大使館（No. 98 Dharmapala Mawatha, Colombo 7）に本人が出向いて提出します。",
       "パスポート（残存6か月以上、空白ページ1ページ以上）、写真、航空券＋ホテルの予約、銀行取引明細を持参します。",
-      "手数料は大使館の現在のレートでルピー建てで支払います。処理には最低でも約15営業日かかります（特急サービスはありません）。"
+      "手数料は大使館の現在のレートでルピー建てで支払います。処理には30営業日以上かかる場合があります（特急サービスはありません）。"
     ],
     "steps": {
       "title": "申請の手順（ステップバイステップ）",
@@ -68,7 +68,7 @@
         {
           "n": 6,
           "title": "処理を待つ",
-          "detail": "処理には最低でも約15営業日かかります — 特急サービスはありません（早期発給は外交・公用パスポートのみ）。承認されるまで払い戻し不可の航空券は予約しないでください。"
+          "detail": "処理には30営業日以上かかる場合があります — 特急サービスはありません（早期発給は外交・公用パスポートのみ）。承認されるまで払い戻し不可の航空券は予約しないでください。"
         },
         {
           "n": 7,
@@ -156,7 +156,7 @@
         {
           "icon": "⏳",
           "t": "早い処理を期待すること",
-          "d": "特急サービスはなく、処理には最低でも約15営業日かかります。旅行の十分前に申請してください。"
+          "d": "特急サービスはなく、処理には30営業日以上かかる場合があります。旅行の十分前に申請してください。"
         },
         {
           "icon": "🎫",
@@ -188,7 +188,7 @@
         },
         {
           "q": "どのくらいかかりますか？",
-          "a": "最低でも約15営業日で、場合によってはさらに長くかかります。特急サービスはないので、旅行の十分前に申請してください。"
+          "a": "30営業日以上かかる場合があります。特急サービスはないので、旅行の十分前に申請してください。"
         },
         {
           "q": "費用はいくらですか？",
@@ -240,7 +240,7 @@
       "在 visa.go.kr（唯一的官方门户）填写表格，打印并签名。",
       "本人前往 Colombo 的韩国大使馆（No. 98 Dharmapala Mawatha, Colombo 7）递交。",
       "携带护照（有效期 6 个月以上、至少 1 页空白页）、照片、机票＋酒店预订，以及银行对账单。",
-      "费用按大使馆当前汇率以卢比支付；办理至少约需 15 个工作日（无加急服务）。"
+      "费用按大使馆当前汇率以卢比支付；办理可能需要 30 个工作日以上（无加急服务）。"
     ],
     "steps": {
       "title": "申请流程，一步步来",
@@ -277,7 +277,7 @@
         {
           "n": 6,
           "title": "等待办理",
-          "detail": "办理至少约需 15 个工作日 —— 没有加急服务（提前签发仅限外交／公务护照）。获批前不要预订不可退款的机票。"
+          "detail": "办理可能需要 30 个工作日以上 —— 没有加急服务（提前签发仅限外交／公务护照）。获批前不要预订不可退款的机票。"
         },
         {
           "n": 7,
@@ -365,7 +365,7 @@
         {
           "icon": "⏳",
           "t": "指望快速出签",
-          "d": "没有加急服务；办理至少约需 15 个工作日。请在出行前尽早申请。"
+          "d": "没有加急服务；办理可能需要 30 个工作日以上。请在出行前尽早申请。"
         },
         {
           "icon": "🎫",
@@ -397,7 +397,7 @@
         },
         {
           "q": "需要多久？",
-          "a": "至少约 15 个工作日，部分情况会更久。没有加急服务，请在出行前尽早申请。"
+          "a": "可能需要 30 个工作日以上。没有加急服务，请在出行前尽早申请。"
         },
         {
           "q": "费用是多少？",
@@ -449,7 +449,7 @@
       "在 visa.go.kr（唯一的官方入口網站）填寫表格，列印並簽名。",
       "本人前往 Colombo 的韓國大使館（No. 98 Dharmapala Mawatha, Colombo 7）遞交。",
       "攜帶護照（有效期 6 個月以上、至少 1 頁空白頁）、照片、機票＋飯店訂房，以及銀行對帳單。",
-      "費用依大使館目前匯率以盧比支付；辦理至少約需 15 個工作天（無急件服務）。"
+      "費用依大使館目前匯率以盧比支付；辦理可能需要 30 個工作天以上（無急件服務）。"
     ],
     "steps": {
       "title": "申請流程，一步步來",
@@ -486,7 +486,7 @@
         {
           "n": 6,
           "title": "等待辦理",
-          "detail": "辦理至少約需 15 個工作天 —— 沒有急件服務（提前核發僅限外交／公務護照）。獲准前請勿預訂不可退款的機票。"
+          "detail": "辦理可能需要 30 個工作天以上 —— 沒有急件服務（提前核發僅限外交／公務護照）。獲准前請勿預訂不可退款的機票。"
         },
         {
           "n": 7,
@@ -574,7 +574,7 @@
         {
           "icon": "⏳",
           "t": "期待快速出簽",
-          "d": "沒有急件服務；辦理至少約需 15 個工作天。請在出行前及早申請。"
+          "d": "沒有急件服務；辦理可能需要 30 個工作天以上。請在出行前及早申請。"
         },
         {
           "icon": "🎫",
@@ -606,7 +606,7 @@
         },
         {
           "q": "需要多久？",
-          "a": "至少約 15 個工作天，部分情況會更久。沒有急件服務，請在出行前及早申請。"
+          "a": "可能需要 30 個工作天以上。沒有急件服務，請在出行前及早申請。"
         },
         {
           "q": "費用是多少？",
@@ -658,7 +658,7 @@
       "Điền mẫu đơn tại visa.go.kr (cổng chính thức DUY NHẤT), in ra và ký tên.",
       "Nộp trực tiếp tại Đại sứ quán Hàn Quốc ở Colombo (No. 98 Dharmapala Mawatha, Colombo 7).",
       "Mang theo hộ chiếu (còn hạn 6+ tháng, còn ít nhất 1 trang trống), ảnh, đặt vé máy bay + khách sạn, và sao kê ngân hàng.",
-      "Nộp lệ phí bằng rupee theo tỷ giá hiện hành của đại sứ quán; xử lý mất tối thiểu khoảng 15 ngày làm việc (không có dịch vụ lấy nhanh)."
+      "Nộp lệ phí bằng rupee theo tỷ giá hiện hành của đại sứ quán; xử lý có thể mất hơn 30 ngày làm việc (không có dịch vụ lấy nhanh)."
     ],
     "steps": {
       "title": "Quy trình nộp hồ sơ, từng bước",
@@ -695,7 +695,7 @@
         {
           "n": 6,
           "title": "Chờ xử lý",
-          "detail": "Xử lý mất tối thiểu khoảng 15 ngày làm việc — không có dịch vụ lấy nhanh (cấp sớm chỉ dành cho hộ chiếu ngoại giao/công vụ). Đừng đặt vé máy bay không hoàn tiền cho đến khi được chấp thuận."
+          "detail": "Xử lý có thể mất hơn 30 ngày làm việc — không có dịch vụ lấy nhanh (cấp sớm chỉ dành cho hộ chiếu ngoại giao/công vụ). Đừng đặt vé máy bay không hoàn tiền cho đến khi được chấp thuận."
         },
         {
           "n": 7,
@@ -783,7 +783,7 @@
         {
           "icon": "⏳",
           "t": "Trông đợi xử lý nhanh",
-          "d": "Không có dịch vụ lấy nhanh; xử lý mất tối thiểu khoảng 15 ngày làm việc. Hãy nộp sớm trước chuyến đi."
+          "d": "Không có dịch vụ lấy nhanh; xử lý có thể mất hơn 30 ngày làm việc. Hãy nộp sớm trước chuyến đi."
         },
         {
           "icon": "🎫",
@@ -815,7 +815,7 @@
         },
         {
           "q": "Mất bao lâu?",
-          "a": "Tối thiểu khoảng 15 ngày làm việc, và lâu hơn với một số trường hợp. Không có dịch vụ lấy nhanh, nên hãy nộp sớm trước chuyến đi."
+          "a": "Có thể mất hơn 30 ngày làm việc. Không có dịch vụ lấy nhanh, nên hãy nộp sớm trước chuyến đi."
         },
         {
           "q": "Chi phí bao nhiêu?",
@@ -867,7 +867,7 @@
       "กรอกแบบฟอร์มที่ visa.go.kr (พอร์ทัลทางการเพียงแห่งเดียว) พิมพ์ออกมาแล้วลงนาม",
       "ยื่นด้วยตนเองที่สถานทูตเกาหลีใน Colombo (No. 98 Dharmapala Mawatha, Colombo 7)",
       "นำหนังสือเดินทาง (เหลืออายุ 6+ เดือน มีหน้าว่างอย่างน้อย 1 หน้า) รูปถ่าย การจองเที่ยวบิน + โรงแรม และรายการเดินบัญชีธนาคารไปด้วย",
-      "ชำระค่าธรรมเนียมเป็นเงินรูปีตามอัตราปัจจุบันของสถานทูต; การดำเนินการใช้เวลาอย่างน้อยประมาณ 15 วันทำการ (ไม่มีบริการแบบเร่งด่วน)"
+      "ชำระค่าธรรมเนียมเป็นเงินรูปีตามอัตราปัจจุบันของสถานทูต; การดำเนินการอาจใช้เวลามากกว่า 30 วันทำการ (ไม่มีบริการแบบเร่งด่วน)"
     ],
     "steps": {
       "title": "การยื่นคำร้อง ทีละขั้นตอน",
@@ -904,7 +904,7 @@
         {
           "n": 6,
           "title": "รอการดำเนินการ",
-          "detail": "การดำเนินการใช้เวลาอย่างน้อยประมาณ 15 วันทำการ — ไม่มีบริการแบบเร่งด่วน (การออกวีซ่าก่อนกำหนดมีเฉพาะหนังสือเดินทางทูต/ราชการ) อย่าจองเที่ยวบินที่คืนเงินไม่ได้จนกว่าจะได้รับอนุมัติ"
+          "detail": "การดำเนินการอาจใช้เวลามากกว่า 30 วันทำการ — ไม่มีบริการแบบเร่งด่วน (การออกวีซ่าก่อนกำหนดมีเฉพาะหนังสือเดินทางทูต/ราชการ) อย่าจองเที่ยวบินที่คืนเงินไม่ได้จนกว่าจะได้รับอนุมัติ"
         },
         {
           "n": 7,
@@ -992,7 +992,7 @@
         {
           "icon": "⏳",
           "t": "คาดหวังการดำเนินการที่รวดเร็ว",
-          "d": "ไม่มีบริการแบบเร่งด่วน; การดำเนินการใช้เวลาอย่างน้อยประมาณ 15 วันทำการ ยื่นล่วงหน้าก่อนการเดินทางให้มาก"
+          "d": "ไม่มีบริการแบบเร่งด่วน; การดำเนินการอาจใช้เวลามากกว่า 30 วันทำการ ยื่นล่วงหน้าก่อนการเดินทางให้มาก"
         },
         {
           "icon": "🎫",
@@ -1024,7 +1024,7 @@
         },
         {
           "q": "ใช้เวลานานแค่ไหน?",
-          "a": "อย่างน้อยประมาณ 15 วันทำการ และนานกว่านั้นในบางกรณี ไม่มีบริการแบบเร่งด่วน จึงควรยื่นล่วงหน้าก่อนการเดินทางให้มาก"
+          "a": "อาจใช้เวลามากกว่า 30 วันทำการ ไม่มีบริการแบบเร่งด่วน จึงควรยื่นล่วงหน้าก่อนการเดินทางให้มาก"
         },
         {
           "q": "ค่าใช้จ่ายเท่าไร?",
@@ -1076,7 +1076,7 @@
       "Isi formulir di visa.go.kr (SATU-SATUNYA portal resmi), cetak dan tanda tangani.",
       "Serahkan langsung di Kedutaan Besar Korea di Colombo (No. 98 Dharmapala Mawatha, Colombo 7).",
       "Bawa paspor (berlaku 6+ bulan, minimal 1 halaman kosong), foto, pemesanan penerbangan + hotel, dan rekening koran.",
-      "Bayar biaya dalam rupee sesuai kurs terkini kedutaan; pemrosesan memakan waktu minimal sekitar 15 hari kerja (tidak ada layanan ekspres)."
+      "Bayar biaya dalam rupee sesuai kurs terkini kedutaan; pemrosesan bisa memakan waktu lebih dari 30 hari kerja (tidak ada layanan ekspres)."
     ],
     "steps": {
       "title": "Proses pengajuan, langkah demi langkah",
@@ -1113,7 +1113,7 @@
         {
           "n": 6,
           "title": "Tunggu pemrosesan",
-          "detail": "Pemrosesan memakan waktu minimal sekitar 15 hari kerja — tidak ada layanan ekspres (penerbitan lebih awal hanya untuk paspor diplomatik/dinas). Jangan pesan penerbangan yang tidak bisa di-refund sampai Anda disetujui."
+          "detail": "Pemrosesan bisa memakan waktu lebih dari 30 hari kerja — tidak ada layanan ekspres (penerbitan lebih awal hanya untuk paspor diplomatik/dinas). Jangan pesan penerbangan yang tidak bisa di-refund sampai Anda disetujui."
         },
         {
           "n": 7,
@@ -1201,7 +1201,7 @@
         {
           "icon": "⏳",
           "t": "Mengharapkan proses cepat",
-          "d": "Tidak ada layanan ekspres; pemrosesan memakan waktu minimal sekitar 15 hari kerja. Ajukan jauh sebelum perjalanan Anda."
+          "d": "Tidak ada layanan ekspres; pemrosesan bisa memakan waktu lebih dari 30 hari kerja. Ajukan jauh sebelum perjalanan Anda."
         },
         {
           "icon": "🎫",
@@ -1233,7 +1233,7 @@
         },
         {
           "q": "Berapa lama?",
-          "a": "Minimal sekitar 15 hari kerja, dan lebih lama untuk beberapa kasus. Tidak ada layanan ekspres, jadi ajukan jauh sebelum perjalanan Anda."
+          "a": "Bisa lebih dari 30 hari kerja. Tidak ada layanan ekspres, jadi ajukan jauh sebelum perjalanan Anda."
         },
         {
           "q": "Berapa biayanya?",
@@ -1285,7 +1285,7 @@
       "Rellena el formulario en visa.go.kr (el ÚNICO portal oficial), imprímelo y fírmalo.",
       "Preséntalo en persona en la Embajada de Corea en Colombo (No. 98 Dharmapala Mawatha, Colombo 7).",
       "Lleva el pasaporte (válido 6+ meses, con 1+ página en blanco), una foto, las reservas de vuelo + hotel y un extracto bancario.",
-      "Paga la tasa en rupias al cambio vigente de la embajada; la tramitación tarda un mínimo de unos 15 días hábiles (sin servicio exprés)."
+      "Paga la tasa en rupias al cambio vigente de la embajada; la tramitación puede tardar más de 30 días hábiles (sin servicio exprés)."
     ],
     "steps": {
       "title": "La solicitud, paso a paso",
@@ -1322,7 +1322,7 @@
         {
           "n": 6,
           "title": "Espera la tramitación",
-          "detail": "La tramitación tarda un mínimo de unos 15 días hábiles — no hay servicio exprés (la expedición anticipada es solo para pasaportes diplomáticos/oficiales). No reserves vuelos no reembolsables hasta que te aprueben."
+          "detail": "La tramitación puede tardar más de 30 días hábiles — no hay servicio exprés (la expedición anticipada es solo para pasaportes diplomáticos/oficiales). No reserves vuelos no reembolsables hasta que te aprueben."
         },
         {
           "n": 7,
@@ -1410,7 +1410,7 @@
         {
           "icon": "⏳",
           "t": "Esperar una tramitación rápida",
-          "d": "No hay servicio exprés; la tramitación tarda un mínimo de unos 15 días hábiles. Solicítalo con mucha antelación a tu viaje."
+          "d": "No hay servicio exprés; la tramitación puede tardar más de 30 días hábiles. Solicítalo con mucha antelación a tu viaje."
         },
         {
           "icon": "🎫",
@@ -1442,7 +1442,7 @@
         },
         {
           "q": "¿Cuánto tarda?",
-          "a": "Un mínimo de unos 15 días hábiles, y más en algunos casos. No hay servicio exprés, así que solicítalo con mucha antelación a tu viaje."
+          "a": "Puede tardar más de 30 días hábiles. No hay servicio exprés, así que solicítalo con mucha antelación a tu viaje."
         },
         {
           "q": "¿Cuánto cuesta?",
@@ -1494,7 +1494,7 @@
       "Isi borang di visa.go.kr (SATU-SATUNYA portal rasmi), cetak dan tandatangani.",
       "Serahkan sendiri di Kedutaan Korea di Colombo (No. 98 Dharmapala Mawatha, Colombo 7).",
       "Bawa pasport (sah 6+ bulan, sekurang-kurangnya 1 halaman kosong), gambar, tempahan penerbangan + hotel, dan penyata bank.",
-      "Bayar yuran dalam rupee mengikut kadar semasa kedutaan; pemprosesan mengambil masa sekurang-kurangnya kira-kira 15 hari bekerja (tiada perkhidmatan ekspres)."
+      "Bayar yuran dalam rupee mengikut kadar semasa kedutaan; pemprosesan boleh mengambil masa lebih daripada 30 hari bekerja (tiada perkhidmatan ekspres)."
     ],
     "steps": {
       "title": "Permohonan, langkah demi langkah",
@@ -1531,7 +1531,7 @@
         {
           "n": 6,
           "title": "Tunggu pemprosesan",
-          "detail": "Pemprosesan mengambil masa sekurang-kurangnya kira-kira 15 hari bekerja — tiada perkhidmatan ekspres (pengeluaran awal hanya untuk pasport diplomatik/rasmi). Jangan tempah penerbangan yang tidak boleh dikembalikan wang sehingga anda diluluskan."
+          "detail": "Pemprosesan boleh mengambil masa lebih daripada 30 hari bekerja — tiada perkhidmatan ekspres (pengeluaran awal hanya untuk pasport diplomatik/rasmi). Jangan tempah penerbangan yang tidak boleh dikembalikan wang sehingga anda diluluskan."
         },
         {
           "n": 7,
@@ -1619,7 +1619,7 @@
         {
           "icon": "⏳",
           "t": "Mengharapkan pemprosesan pantas",
-          "d": "Tiada perkhidmatan ekspres; pemprosesan mengambil masa sekurang-kurangnya kira-kira 15 hari bekerja. Mohon lebih awal sebelum perjalanan anda."
+          "d": "Tiada perkhidmatan ekspres; pemprosesan boleh mengambil masa lebih daripada 30 hari bekerja. Mohon lebih awal sebelum perjalanan anda."
         },
         {
           "icon": "🎫",
@@ -1651,7 +1651,7 @@
         },
         {
           "q": "Berapa lama masanya?",
-          "a": "Sekurang-kurangnya kira-kira 15 hari bekerja, dan lebih lama bagi sesetengah kes. Tiada perkhidmatan ekspres, jadi mohon lebih awal sebelum perjalanan anda."
+          "a": "Boleh mengambil masa lebih daripada 30 hari bekerja. Tiada perkhidmatan ekspres, jadi mohon lebih awal sebelum perjalanan anda."
         },
         {
           "q": "Berapa kosnya?",
@@ -1703,7 +1703,7 @@
       "visa.go.kr(유일한 공식 포털)에서 양식을 작성하고, 인쇄해 서명하세요.",
       "Colombo의 한국대사관(No. 98 Dharmapala Mawatha, Colombo 7)에 본인이 직접 방문해 제출하세요.",
       "여권(잔여 6개월 이상, 빈 페이지 1장 이상), 사진, 항공권+호텔 예약, 은행 거래내역서를 지참하세요.",
-      "수수료는 대사관의 현재 환율로 루피화로 납부합니다. 처리에는 최소 약 15 영업일이 걸립니다(특급 서비스 없음)."
+      "수수료는 대사관의 현재 환율로 루피화로 납부합니다. 처리에 30 영업일 이상 걸릴 수 있습니다(특급 서비스 없음)."
     ],
     "steps": {
       "title": "신청, 단계별로",
@@ -1740,7 +1740,7 @@
         {
           "n": 6,
           "title": "처리 대기",
-          "detail": "처리에는 최소 약 15 영업일이 걸립니다 — 특급 서비스는 없습니다(조기 발급은 외교·관용 여권만 해당). 승인되기 전에는 환불 불가 항공권을 예약하지 마세요."
+          "detail": "처리에 30 영업일 이상 걸릴 수 있습니다 — 특급 서비스는 없습니다(조기 발급은 외교·관용 여권만 해당). 승인되기 전에는 환불 불가 항공권을 예약하지 마세요."
         },
         {
           "n": 7,
@@ -1828,7 +1828,7 @@
         {
           "icon": "⏳",
           "t": "빠른 처리를 기대하는 것",
-          "d": "특급 서비스가 없으며 처리에는 최소 약 15 영업일이 걸립니다. 여행 훨씬 전에 신청하세요."
+          "d": "특급 서비스가 없으며 처리에 30 영업일 이상 걸릴 수 있습니다. 여행 훨씬 전에 신청하세요."
         },
         {
           "icon": "🎫",
@@ -1860,7 +1860,7 @@
         },
         {
           "q": "얼마나 걸리나요?",
-          "a": "최소 약 15 영업일이며, 일부 경우 더 오래 걸립니다. 특급 서비스가 없으니 여행 훨씬 전에 신청하세요."
+          "a": "30 영업일 이상 걸릴 수 있습니다. 특급 서비스가 없으니 여행 훨씬 전에 신청하세요."
         },
         {
           "q": "비용은 얼마인가요?",
@@ -1912,7 +1912,7 @@
       "Заполните форму на visa.go.kr (ЕДИНСТВЕННЫЙ официальный портал), распечатайте и подпишите.",
       "Подайте лично в посольстве Кореи в Colombo (No. 98 Dharmapala Mawatha, Colombo 7).",
       "Возьмите паспорт (действителен 6+ месяцев, 1+ чистая страница), фото, брони авиабилетов + отеля и банковскую выписку.",
-      "Оплатите сбор в рупиях по текущему курсу посольства; оформление занимает минимум около 15 рабочих дней (срочной услуги нет)."
+      "Оплатите сбор в рупиях по текущему курсу посольства; оформление может занять более 30 рабочих дней (срочной услуги нет)."
     ],
     "steps": {
       "title": "Подача заявления, шаг за шагом",
@@ -1949,7 +1949,7 @@
         {
           "n": 6,
           "title": "Дождитесь оформления",
-          "detail": "Оформление занимает минимум около 15 рабочих дней — срочной услуги нет (досрочная выдача только для дипломатических/служебных паспортов). Не бронируйте невозвратные авиабилеты до одобрения."
+          "detail": "Оформление может занять более 30 рабочих дней — срочной услуги нет (досрочная выдача только для дипломатических/служебных паспортов). Не бронируйте невозвратные авиабилеты до одобрения."
         },
         {
           "n": 7,
@@ -2037,7 +2037,7 @@
         {
           "icon": "⏳",
           "t": "Ожидание быстрого оформления",
-          "d": "Срочной услуги нет; оформление занимает минимум около 15 рабочих дней. Подавайте задолго до поездки."
+          "d": "Срочной услуги нет; оформление может занять более 30 рабочих дней. Подавайте задолго до поездки."
         },
         {
           "icon": "🎫",
@@ -2069,7 +2069,7 @@
         },
         {
           "q": "Сколько это занимает?",
-          "a": "Минимум около 15 рабочих дней, а в некоторых случаях дольше. Срочной услуги нет, поэтому подавайте задолго до поездки."
+          "a": "Может занять более 30 рабочих дней. Срочной услуги нет, поэтому подавайте задолго до поездки."
         },
         {
           "q": "Сколько это стоит?",
@@ -2121,7 +2121,7 @@
       "Remplissez le formulaire sur visa.go.kr (le SEUL portail officiel), imprimez-le et signez-le.",
       "Déposez en personne à l'ambassade de Corée à Colombo (No. 98 Dharmapala Mawatha, Colombo 7).",
       "Apportez le passeport (valable 6+ mois, 1+ page vierge), une photo, les réservations de vol + hôtel et un relevé bancaire.",
-      "Payez les frais en roupies au taux en vigueur de l'ambassade ; le traitement prend au minimum environ 15 jours ouvrés (pas de service express)."
+      "Payez les frais en roupies au taux en vigueur de l'ambassade ; le traitement peut prendre plus de 30 jours ouvrés (pas de service express)."
     ],
     "steps": {
       "title": "La demande, étape par étape",
@@ -2158,7 +2158,7 @@
         {
           "n": 6,
           "title": "Attendez le traitement",
-          "detail": "Le traitement prend au minimum environ 15 jours ouvrés — il n'y a pas de service express (la délivrance anticipée ne concerne que les passeports diplomatiques/officiels). Ne réservez pas de vols non remboursables avant d'être approuvé."
+          "detail": "Le traitement peut prendre plus de 30 jours ouvrés — il n'y a pas de service express (la délivrance anticipée ne concerne que les passeports diplomatiques/officiels). Ne réservez pas de vols non remboursables avant d'être approuvé."
         },
         {
           "n": 7,
@@ -2246,7 +2246,7 @@
         {
           "icon": "⏳",
           "t": "S'attendre à un traitement rapide",
-          "d": "Il n'y a pas de service express ; le traitement prend au minimum environ 15 jours ouvrés. Déposez bien avant votre voyage."
+          "d": "Il n'y a pas de service express ; le traitement peut prendre plus de 30 jours ouvrés. Déposez bien avant votre voyage."
         },
         {
           "icon": "🎫",
@@ -2278,7 +2278,7 @@
         },
         {
           "q": "Combien de temps cela prend-il ?",
-          "a": "Au minimum environ 15 jours ouvrés, et davantage dans certains cas. Il n'y a pas de service express, alors déposez bien avant votre voyage."
+          "a": "Cela peut prendre plus de 30 jours ouvrés. Il n'y a pas de service express, alors déposez bien avant votre voyage."
         },
         {
           "q": "Combien cela coûte-t-il ?",

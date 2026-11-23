@@ -69,10 +69,20 @@ export default function StayCity({ params }) {
       <Stay22Map place={`${c.name}, South Korea`} heading={m.hotelsNearby} />
       <ArticleTrust
         locale={locale}
-        related={CITY_KEYS.filter((k) => k !== params.city).slice(0, 3).map((k) => ({
-          href: `/${locale}/stay/${k}/`,
-          label: S.cities[k]?.name || k,
-        }))}
+        related={(() => {
+          // Rotating ring instead of a fixed top-3: link the next 3 cities (wrapping
+          // around the list) so EVERY city receives exactly 3 inbound sibling links —
+          // evens out internal-link depth so lower-list cities (daegu, gwangju, andong…)
+          // get crawled, not just seoul/busan/jeju. See ktriphub-gsc-indexing memory.
+          const i = CITY_KEYS.indexOf(params.city);
+          const picks = i < 0
+            ? CITY_KEYS.filter((k) => k !== params.city).slice(0, 3)
+            : [1, 2, 3].map((d) => CITY_KEYS[(i + d) % CITY_KEYS.length]);
+          return picks.map((k) => ({
+            href: `/${locale}/stay/${k}/`,
+            label: S.cities[k]?.name || k,
+          }));
+        })()}
       />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>

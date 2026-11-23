@@ -56,6 +56,13 @@ nav.links a {white-space:normal;font-size:1.125rem;line-height:1.4;min-height:44
 .journey-start {padding-block:40px 48px}
 .journey-start .sec-head h2 {font-size:25px}
 .journey-start-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.journey-kwave .journey-start-grid {grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(min-width:600px) and (max-width:1100px){.journey-kwave .journey-start-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.journey-kwave .journey-start-card:last-child{grid-column:auto}}
+@media(max-width:600px){.journey-kwave .journey-start-grid{grid-template-columns:1fr}}
+.journey-kwave .kwave-book {margin-top:20px;font-size:1rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.journey-kwave .kwave-book a {color:var(--primary);font-weight:600;text-decoration:none}
+.journey-kwave .kwave-book a:hover {text-decoration:underline}
+.journey-kwave .kwave-book-disc {margin-top:6px}
 .journey-start-card {border:1px solid var(--border);background:var(--surface);border-radius:18px;padding:24px;position:relative;transition:border-color .15s}
 .journey-start-card:hover {border-color:var(--primary)}
 .journey-number {font-size:1.125rem;color:var(--primary);font-weight:600}
@@ -172,7 +179,7 @@ nav.links a {white-space:normal;font-size:1.125rem;line-height:1.4;min-height:44
 .share-tools>p.share-note {color:var(--muted);padding-top:14px;border-top:1px solid var(--border)}
 .share-tools>p[role="status"]:not(:empty) {padding:12px;border-radius:10px;background:var(--primary-soft);margin:12px 0}
 @media(max-width:480px) {.header-share-dialog {padding:18px;border-radius:20px}.share-platforms {grid-template-columns:repeat(3,minmax(0,1fr))}.share-actions .btn {flex:1 1 100px}.share-heading {font-size:1.125rem}.share-service {min-height:120px}}
-@media(max-width:599px) {.header-share {display:none}.mobile-share {display:block;text-align:start;min-height:44px;padding:14px 8px}}
+@media(max-width:1279px) {.header-share {display:none}.mobile-share {display:block;text-align:start;min-height:44px;padding:14px 8px}}
 @media print {.header-share,.header-share-dialog {display:none!important}}
 @media(max-width:1279px) {
   .brand {margin-right:auto}.nav-right {margin-left:0;order:3;gap:8px}
@@ -220,7 +227,7 @@ nav.links a {white-space:normal;font-size:1.125rem;line-height:1.4;min-height:44
 }
 
 .mobile-theme{display:none}.journey-credit{display:block;margin-top:14px;font-size:0.875rem;color:var(--muted)}
-@media(max-width:599px){header .links.open .mobile-theme{display:block;text-align:left;min-height:44px}}
+@media(max-width:1279px){header .links.open .mobile-theme{display:block;text-align:left;min-height:44px}}
 
 .entry-article .plan-herobanner{min-height:0}
 @media(max-width:359px){header .wrap.nav{padding-inline:10px;gap:6px}header .brand{font-size:1.125rem}header .langsel select{max-width:62px}}
@@ -344,3 +351,29 @@ nav.links a{font-weight:700;color:var(--text)}
 .entry-keta-only>summary{font-weight:700;cursor:pointer}
 .entry-visa-required h3{font-size:1.1rem}
 .vcg-office p{overflow-wrap:anywhere}
+
+.resident-apply h3{margin-top:18px}.resident-apply ul{padding-left:1.2em}.resident-apply li{margin:6px 0}.resident-apply-warn{padding:12px 14px;border-left:4px solid #e8a33d;border-radius:8px;background:rgba(232,163,61,.12)}
+.preflight-inline{margin:28px 0}.preflight-inline .preflight-grid{grid-template-columns:repeat(2,1fr)}@media (max-width:520px){.preflight-inline .preflight-grid{grid-template-columns:1fr}}
+.bloom-scroll{overflow-x:auto;margin:12px 0}.bloom-table table{border-collapse:collapse;width:100%;min-width:480px;font-size:.92rem}.bloom-table th,.bloom-table td{padding:8px 10px;border-bottom:1px solid var(--border);text-align:left;white-space:nowrap}.bloom-table thead th{color:var(--muted);font-weight:600;font-size:.82rem}.bloom-note{color:var(--muted);font-size:.9rem}.bloom-cta{display:inline-block;margin-top:14px}
+
+/* --- Always-visible, shrinkable header search ------------------------------
+   The inline field stays in the header at every width. On the compact
+   (hamburger) header, Share and Theme move into the menu so the top bar is just
+   brand + search + language + menu, leaving the search room; the field is the
+   one element allowed to shrink, so the input gets smaller rather than pushing
+   brand/language/toggle off-screen. */
+.site-search{min-width:0}
+@media(max-width:1279px){
+  /* Share + Theme live in the hamburger menu here, freeing the top bar. */
+  .header-share,.theme-btn{display:none}
+  .nav-right{flex-shrink:1;min-width:0}
+  .brand,.langsel,.nav-toggle{flex-shrink:0}
+}
+/* On phones/large phones the wordmark folds to just the logo mark so the search
+   input keeps a usable width beside the language switch and menu button; the top
+   bar stays a single row and the field shrinks instead of wrapping. */
+@media(max-width:700px){
+  .nav{flex-wrap:nowrap}
+  header .brand{font-size:0;gap:0}
+  header .brand .mark{font-size:1.125rem}
+}

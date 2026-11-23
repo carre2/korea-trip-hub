@@ -9,6 +9,8 @@
 const URL_RE = /((?:https?:\/\/)?(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+(?:go\.kr|or\.kr|co\.kr|ne\.kr|re\.kr|gov\.in|gov\.ph|go\.id|com|net|org|kr)(?:\/[^\s)]*)?)/gi;
 // Markdown internal link: [visible label](/root-relative/path/)
 const MD_RE = /\[([^\]\n]+)\]\((\/[a-z0-9][a-z0-9/_-]*)\)/gi;
+// Highlighter: ==text== -> <mark class="hl"> so writers can flag a deal/number inline.
+const HL_RE = /==([^=\n]+)==/g;
 
 /** Returns React children: the string split so recognized URLs (and, when a locale is
  *  given, [label](/path) internal links) become <a> links. */
@@ -31,6 +33,12 @@ export function linkify(text, locale) {
     if (tokens.some((t) => start < t.end && end > t.start)) continue; // inside a markdown link's URL
     tokens.push({ start, end, type: "ext", raw: u[0] });
   }
+  let h; HL_RE.lastIndex = 0;
+  while ((h = HL_RE.exec(text)) !== null) {
+    const start = h.index, end = start + h[0].length;
+    if (tokens.some((t) => start < t.end && end > t.start)) continue; // don't split a link
+    tokens.push({ start, end, type: "hl", label: h[1] });
+  }
   if (!tokens.length) return text;
   tokens.sort((a, b) => a.start - b.start);
 
@@ -40,8 +48,14 @@ export function linkify(text, locale) {
     if (t.start < last) continue; // safety: skip any residual overlap
     if (t.start > last) out.push(text.slice(last, t.start));
     if (t.type === "int") {
-      const href = `/${locale}${t.path}`;
+      // trailingSlash: true -> ensure internal paths end with "/" so a writer typing
+      // "[visa](/plan/visa)" links to /{locale}/plan/visa/ directly (no 307 redirect hop).
+      const path = t.path.endsWith("/") ? t.path : `${t.path}/`;
+      const href = `/${locale}${path}`;
       out.push(<a key={key++} href={href}>{t.label}</a>);
+      last = t.end;
+    } else if (t.type === "hl") {
+      out.push(<mark key={key++} className="hl">{t.label}</mark>);
       last = t.end;
     } else {
       let raw = t.raw;

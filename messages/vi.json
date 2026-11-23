@@ -41,7 +41,7 @@
   "brand": "KoreaTripHub",
   "meta": {
     "homeTitle": "Korea Trip Hub — Lên kế hoạch du lịch Hàn Quốc bằng ngôn ngữ của bạn",
-    "homeDesc": "Trung tâm du lịch Hàn Quốc tất cả trong một: trình lập lịch trình bằng , thông tin thiết yếu đã kiểm chứng (visa, di chuyển), ẩm thực và trải nghiệm, đánh giá và K-culture."
+    "homeDesc": "Trung tâm du lịch Hàn Quốc tất cả trong một: trình lập lịch trình, thông tin thiết yếu đã kiểm chứng (visa, di chuyển), ẩm thực và trải nghiệm, đánh giá và K-culture."
   },
   "nav": {
     "plan": "Chuẩn bị",
@@ -308,20 +308,20 @@
       "notes": "Nếu thuộc diện khai báo, nộp miễn phí tại e-arrivalcard.go.kr từ 3 ngày trước khi nhập cảnh theo giờ Hàn Quốc. Tờ khai hết hiệu lực sau 72 giờ từ lúc nộp hoặc khi hoàn tất kiểm tra nhập cảnh. Giữ mã cấp trong email sẽ hữu ích; không bắt buộc mang bản xác nhận in."
     },
     "transit-free-transfer": {
-      "claim": "Chuyển tuyến giữa tàu điện ngầm và xe buýt (hoặc xe buýt và xe buýt) được miễn phí trong vòng 30 minutes khi bạn thanh toán bằng thẻ T-money và quẹt thẻ cả lúc lên lẫn lúc xuống.",
+      "claim": "Chuyển tuyến giữa tàu điện ngầm và xe buýt (hoặc xe buýt và xe buýt) được miễn phí trong vòng 30 phút khi bạn thanh toán bằng thẻ T-money và quẹt thẻ cả lúc lên lẫn lúc xuống.",
       "notes": "Bạn cũng phải quẹt thẻ lúc xuống xe buýt, nếu không sẽ mất ưu đãi chuyển tuyến và có thể bị tính phí lần nữa."
     },
     "transit-subway-seoul": {
       "claim": "Giá vé cơ bản tàu điện ngầm Seoul là ₩1,550 khi dùng thẻ T-money (₩1,650 vé lẻ trả tiền mặt), cho quãng đường đến 10 km; chuyến dài hơn cộng thêm ₩100 cho mỗi 5 km vượt mức.",
-      "notes": "Đã tăng từ ₩1,400 trong đợt tăng giá vé June 2025. Hãy xác nhận giá vé hiện hành trên Naver Map / KakaoMap hoặc trang Seoul TOPIS."
+      "notes": "Đã tăng từ ₩1,400 trong đợt tăng giá vé tháng 6/2025. Hãy xác nhận giá vé hiện hành trên Naver Map / KakaoMap hoặc trang Seoul TOPIS."
     },
     "transit-bus-seoul": {
       "claim": "Giá vé xe buýt nội đô Seoul (T-money): xanh dương & xanh lá ₩1,500, vàng ₩1,400, đỏ (tốc hành liên vùng) ₩3,000+, tuyến đêm (N-bus) ₩2,500.",
       "notes": "Quẹt thẻ cả lúc lên VÀ lúc xuống để được chuyển tuyến miễn phí. Hãy xác nhận giá vé hiện hành tại Seoul TOPIS."
     },
     "transit-taxi-seoul": {
-      "claim": "Giá vé mở cửa taxi hạng trung ở Seoul là ₩4,800 (cho 1.6 km đầu), sau đó ₩100 cho mỗi 132 m. Có phụ phí ban đêm lên đến 40% (khoảng 23:00–02:00). Taxi hạng sang khởi điểm ₩7,000 (cho 3 km đầu) và không có phụ phí ban đêm.",
-      "notes": "Dùng Kakao T để ước tính giá cước trước. Taxi hạng sang (mobeom) và taxi quốc tế đắt hơn nhưng không có phụ phí ban đêm / có phục vụ tiếng Anh."
+      "claim": "Taxi cỡ trung ở Seoul có giá mở cửa ₩4,800 (1.6 km đầu), sau đó ₩100 cho mỗi 131 m. Phụ phí đêm: 20% lúc 22:00–23:00 và 02:00–04:00, 40% lúc 23:00–02:00. Taxi cao cấp (mobeom) từ ₩7,000 (3 km đầu), và ₩8,400 (3 km đầu) từ 22:00 đến 04:00.",
+      "notes": "Dùng Kakao T để xem trước giá ước tính. Taxi cao cấp (mobeom) cũng có giá đêm."
     },
     "ktx-seoul-busan": {
       "claim": "Giá vé một chiều ghế thường và thời gian di chuyển ước tính của KTX Seoul → Busan.",
@@ -336,7 +336,7 @@
       "notes": "Giá vé tốc hành đã tăng từ mức cũ ₩9,500; các nguồn năm 2026 nêu khoảng ₩13,000 đồng giá, với giá giảm khi mua trực tuyến còn gần ₩11,500. Luôn xác nhận giá cước hiện hành tại arex.or.kr."
     },
     "arex-allstop": {
-      "claim": "Tàu thường dừng mọi ga AREX: đến Ga Seoul trong khoảng 59–66 minutes. Giá vé tùy vào ga đến của bạn.",
+      "claim": "Tàu thường dừng mọi ga AREX: đến Ga Seoul trong khoảng 59–66 phút. Giá vé tùy vào ga đến của bạn.",
       "notes": "Lựa chọn tàu ra sân bay rẻ nhất; thanh toán bằng T-money. Hãy xác nhận giá vé chính xác cho ga của bạn tại arex.or.kr."
     },
     "airport-bus": {
@@ -463,27 +463,13 @@
     "trustDraftSub": "trong vài giây",
     "trustShare": "Chia sẻ",
     "trustShareSub": "qua WhatsApp, LINE & X",
-    "dealsEyebrow": "Đặt & tiết kiệm",
-    "dealsTitle": "Ưu đãi du lịch Hàn Quốc phổ biến",
-    "dealsSub": "Vé, thẻ và trải nghiệm được nhiều du khách đặt trước chuyến đi — qua Klook.",
-    "dealEsim": "eSIM Hàn Quốc",
-    "dealEsimSub": "Đăng ký online trong vài phút — có data khi vừa đến nơi",
-    "dealKtx": "Vé tàu KTX / SRT",
-    "dealKtxSub": "Seoul ↔ Busan và nhiều tuyến khác",
-    "dealParks": "Vé công viên giải trí & điểm tham quan",
-    "dealParksSub": "Everland, Lotte World, N Seoul Tower…",
-    "dealHanbok": "Hanbok, tour & trải nghiệm",
-    "dealHanbokSub": "Cung điện, tour trong ngày & lớp học trải nghiệm",
-    "dealHotel": "Khách sạn & nơi lưu trú",
-    "dealHotelSub": "So sánh chỗ ở tại Seoul, Busan & Jeju",
-    "dealHotelGo": "Xem khu vực lưu trú",
     "mapTitle": "Tìm kiếm trên bản đồ bạn thích",
     "trustLangs": "12 ngôn ngữ",
     "mapEyebrow": "Tìm đường của bạn",
     "mapSub": "Tìm bất kỳ địa chỉ hay địa điểm nào trên bản đồ Naver hoặc Kakao, ngay tại đây."
   },
   "hotelsNearby": "Khách sạn gần đây",
-  "nextSteps": {
+  "nextSteps": {"heading": "Tiếp tục lên kế hoạch cho chuyến đi Hàn Quốc", 
     "title": "Xong visa rồi? Giờ lên kế hoạch cho phần còn lại",
     "sub": "Nhập cảnh, di chuyển, chỗ ở và chơi gì — phần còn lại của chuyến đi Hàn Quốc, đều ở đây.",
     "stay": "Ở đâu",

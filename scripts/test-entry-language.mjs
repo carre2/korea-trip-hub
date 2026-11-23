@@ -26,4 +26,5 @@ test('affiliate tracking recognizes only partner domains and excludes personal d
  assert.equal(affiliatePartner('https://www.stay22.com/allez/roam'),'stay22');
  assert.equal(affiliatePartner('https://klook.com.fake.test'),null);
  assert.deepEqual(eventPayload('affiliate_click',{locale:'id',partner:'klook',email:'private@example.com',url:'private'}),{locale:'id',partner:'klook'});
+ assert.deepEqual(eventPayload('affiliate_click',{locale:'vi',partner:'klook',placement:'visa-country'}),{locale:'vi',partner:'klook',placement:'visa-country'});
 });

@@ -6,12 +6,15 @@
 // (our /kpop guide links out to kpophub.kr for live concerts).
 import topics from '../data/topics.json';
 import budgetLabels from '../data/budget-ui.json';
-export default function NextSteps({ locale, m, country, countryTitle }) {
+export default function NextSteps({ locale, m, country, countryTitle, exclude = [], heading }) {
   const ns = m?.nextSteps || {};
+  const bandTitle = heading || ns.title || "Plan the rest of your trip";
   const tiles = m?.plan?.tiles || {};
   const L = (p) => `/${locale}/${p}/`;
   const guide = country && topics.items[`korea-from-${country}`];
   const budget = budgetLabels[locale] || budgetLabels.en;
+  // Drop cards that point at the current page so a guide never links to itself.
+  const keep = (href) => !exclude.some((p) => href.includes(`/${p}/`) || href.includes(`/${p}#`));
 
   const items = [
     { icon: "✈️", title: tiles.airport?.title || "Airport → City", sub: tiles.airport?.sub || "From the airport", href: L("plan/airport") },
@@ -24,9 +27,9 @@ export default function NextSteps({ locale, m, country, countryTitle }) {
   const kpop = { icon: "🎤", title: tiles.kpop?.title || "K-pop & Concerts", sub: tiles.kpop?.sub || "Venues, tickets & idol hotspots", href: L("kpop") };
 
   return (
-    <section className="nextsteps" data-placement="bottom" aria-label={ns.title || "Plan the rest of your trip"}>
+    <section className="nextsteps" data-placement="bottom" aria-label={bandTitle}>
       <div className="ns-head">
-        <h2>{ns.title || "Visa sorted? Now plan the rest of your trip"}</h2>
+        <h2>{bandTitle}</h2>
         <p>{ns.sub || "Arrival, getting around, where to stay, and what to do — the rest of your Korea trip, all here."}</p>
       </div>
       <div className="share-actions">
@@ -35,7 +38,7 @@ export default function NextSteps({ locale, m, country, countryTitle }) {
         {guide && <a className="btn ghost" href={L(`guides/korea-from-${country}`)}>{m.guides.title} · {countryTitle} →</a>}
       </div>
       <div className="ns-grid">
-        {items.map((it) => (
+        {items.filter((it) => keep(it.href)).map((it) => (
           <a key={it.href} className="ns-card" href={it.href}>
             <span className="ns-ic" aria-hidden="true">{it.icon}</span>
             <span className="ns-t">{it.title}</span>
