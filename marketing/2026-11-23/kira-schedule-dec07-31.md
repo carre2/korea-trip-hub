@@ -138,3 +138,8 @@ First winter trip to Korea? Cold, dry days, snow spots, hot springs and light fe
 - 제작 완료: 일상 영상 11개 `kira-posts/lifestyle/l1207~l1221*.mp4`, 홍보 영상 R7·C3·R6·W1 `kira-posts/promo/{r7,c3,r6,w1}/*_music.mp4`, Pinterest P11~P20 `pinterest/png/p11~p20.png`.
 - 캡션: 12/07~12/21 15개 모두 500자 이하 확인.
 - **예약 중단**: 예약을 시작하려 할 때 크롬의 Meta/Threads 로그인이 다른 계정(@baramgyeol.meditation)으로 바뀌어 있었다. 다른 계정에서는 아무 작업도 하지 않았다. Kira 계정(Korea Trip Hub 포트폴리오)으로 다시 전환되면 이어서 예약한다.
+- **예약 재개·완료 (사용자 "Switched, continue")**: Kira 자산(Korea Trip Hub 포트폴리오) 재선택 후 진행.
+  - 인스타 피드 12/07~12/21 15개(일상 11 + R7·C3·R6·W1) Business Suite 예약, 모두 Threads 공유 켬, 날짜·시간·캡션 JS 확인 후 예약. 예약됨 목록에서 15건 확인.
+  - 쓰레드 전용 TH7~TH16 10개 threads.com 예약(12:00 KST). 임시 저장본 목록에서 TH1~TH16 16건 날짜·본문 확인.
+- **남은 일**: 12/22~12/31 피드 9개(+C5)는 Business Suite 예약 창이 열리면(약 12/1) 예약 · C5/TH17은 12/15 이후 keta-exemption 재검증 뒤 확정 · Pinterest P11~P20은 기존 예약 핀이 발행돼 자리가 나는 11/24부터 하루 1개씩 추가.
+- facts 갱신 없음.
