@@ -10,7 +10,7 @@
 - **AI 표시**: 일상 게시물 마지막 줄에 `🤖 Kira is a virtual character · AI-generated image`. Business Suite에 AI 라벨 옵션이 있으면 켠다.
 - **홍보 게시물**: 첫 줄 `[Ad] Kira and ktriphub are run by the same team.` (제휴 링크가 있으면 Affiliate 문구까지).
 - **지어낸 체험 금지**: 실제 가게·인물(스카프 아저씨 포함)과 직접 만났다, 사 왔다, 맛있었다 같은 문장은 쓰지 않는다. 장면 묘사와 질문 위주로 쓴다.
-- **쓰레드**: ① 인스타 피드 게시물은 모두 작성 창의 "Threads에 공유"를 켜서 같이 올린다. ② 쓰레드 전용 대화형 글은 주 3회(월·수·금 12:00)로 올린다. 쓰레드는 링크가 클릭되므로 홍보 글에는 링크를 직접 넣는다(`utm_source=threads`).
+- **쓰레드**: ① 인스타 피드 게시물은 모두 작성 창의 "Threads에 공유"를 켜서 같이 올린다. ② 쓰레드 전용 대화형 글은 주 3회(이틀 간격, 12:00)로 올린다. 쓰레드는 링크가 클릭되므로 홍보 글에는 링크를 직접 넣는다(`utm_source=threads`).
 - **사실 재검증**: 인도네시아 비자·K-ETA 관련 fact는 기한(12-05/12-09)이 지나면 재검증한 뒤 발행. 12/30 홍보 슬롯은 재검증 후 문구를 확정한다.
 
 ## 0-1. 제재 방지 원칙 (2026-11-23 추가 · 모든 게시물에 우선 적용)
@@ -32,45 +32,45 @@
 
 | 날짜 | 구분 | 내용 | 이미지/소재 | 음원 | 쓰레드 전용 (12:00) |
 |---|---|---|---|---|---|
-| 11/23 일 | 홍보 | R1 ktriphub 소개 *(예약 완료)* | r1 영상 | A | – |
-| 11/24 월 | 일상 | MAMA 주말, 친구들과 응원 | t02 | C | TH1 겨울 짐 질문 |
-| 11/25 화 | 홍보 | C1 인니 비자 슬라이드 *(예약 완료)* | c1 영상 | B | – |
-| 11/26 수 | 일상 | 머랭롤 오픈런 | t03 | D | TH2 첫 한국여행 고민 |
-| 11/27 목 | 홍보 | C2 KVAC 서류 체크리스트 | 슬라이드 제작 | E | – |
-| 11/28 금 | 일상 | 남대문 스카프 노점 | t01 | F | TH3 한국어 한마디 |
-| 11/29 토 | 일상 | 떡집 피자설기 | t04 | A | – |
-| 11/30 일 | 홍보 | R3 제주 30일 무비자 조건 | 슬라이드 영상 | B | – |
-| 12/01 월 | 일상 | 옥상 김장 돕기 | d10 | C | TH4 김장 문화 |
-| 12/02 화 | 홍보 | C4 K-ETA 면제 12/31까지 | 슬라이드 제작 | D | – |
-| 12/03 수 | 일상 | 화장품 가게 장보기 | t05 | E | TH5 [Ad] 인니 1월 여행 비자 |
-| 12/04 목 | 홍보 | R5 아침고요수목원 빛축제 개막 (제휴) | 이미지 라이선스 확인 필요 | F | – |
-| 12/05 금 | 일상 | 붕어빵 + 남대문 호떡 (2장) | d02·d03 | A | TH6 붕어빵 머리부터? |
-| 12/06 토 | 일상 | 뮤지컬 로비 자막 안경 | t06 | B | – |
-| 12/07 일 | 홍보 | R4 인천공항 → 서울 3가지 | 슬라이드 영상 | C | – |
-| 12/08 월 | 일상 | 출근길 지하철 | d08 | D | TH7 |
-| 12/09 화 | 일상 | 편의점 야간 알바 → 새벽 삼각김밥 (2장) | d04·d05 | E | – |
-| 12/10 수 | 홍보 | R7 서울빛초롱축제 내일 개막 (제휴) | 슬라이드 영상 | F | TH8 |
-| 12/11 목 | 일상 | 청계천 빛초롱 산책 (개막일) | d06 | A | – |
-| 12/12 금 | 일상 | 찜질방 + 식혜 | d11 | B | TH9 |
-| 12/13 토 | 홍보 | R2 장소 입력 → 즉석 리포트 (화면 녹화) | 화면 녹화 | C | – |
-| 12/14 일 | 일상 | 명동에서 길 잃은 여행객 돕기 | t07 | D | – |
-| 12/15 월 | 일상 | 한옥 카페 한국어 공부 | d16 | E | TH10 |
-| 12/16 화 | 홍보 | R6 지도로 찾기: 강원 겨울축제 | 화면 녹화 | F | – |
-| 12/17 수 | 일상 | 모델 알바 백스테이지 → 성수 촬영 (2장) | d14·d15 | A | TH11 |
-| 12/18 목 | 일상 | 은행 창구에서 당황 | d13 | B | – |
-| 12/19 금 | 홍보 | C3 첫날: 인터넷 + T-money | 슬라이드 제작 | C | TH12 |
-| 12/20 토 | 일상 | 우체국에서 고향에 소포 | d23 | D | – |
-| 12/21 일 | 일상 | 겨울 북한산 | d21 | E | – |
-| 12/22 월 | 일상 | 미고렝 떡볶이 + 자카르타 영상통화 (2장) | d19·d20 | F | TH13 |
-| 12/23 화 | 일상 | 송년회 포차 | d17 | A | – |
-| 12/24 수 | 일상 | 명동 크리스마스 조명 | d18 | B | TH14 |
-| 12/25 목 | 일상 | 한강 라면 + 친구 | d07 | C | – |
-| 12/26 금 | 일상 | 광장시장 빈대떡 | d12 | D | TH15 |
-| 12/27 토 | 일상 | 눈 오는 망원동 골목 | d01 | E | – |
-| 12/28 일 | 일상 | 눈 덮인 경복궁 | d22 | F | – |
-| 12/29 월 | 일상 | 자취방 빨래 건조대 | d09 | A | TH16 |
-| 12/30 화 | 홍보 | (재검증 후 확정) 2027년 여행 체크: K-ETA 한시 면제 내일 종료 | 슬라이드 | B | – |
-| 12/31 수 | 일상 | 제야 카운트다운 | d24 | C | TH17 |
+| 11/23 월 | 홍보 | R1 ktriphub 소개 *(예약 완료)* | r1 영상 | A | – |
+| 11/24 화 | 일상 | MAMA 주말, 친구들과 응원 | t02 | C | TH1 겨울 짐 질문 |
+| 11/25 수 | 홍보 | C1 인니 비자 슬라이드 *(예약 완료)* | c1 영상 | B | – |
+| 11/26 목 | 일상 | 머랭롤 오픈런 | t03 | D | TH2 첫 한국여행 고민 |
+| 11/27 금 | 홍보 | C2 KVAC 서류 체크리스트 | 슬라이드 제작 | E | – |
+| 11/28 토 | 일상 | 남대문 스카프 노점 | t01 | F | TH3 한국어 한마디 |
+| 11/29 일 | 일상 | 떡집 피자설기 | t04 | A | – |
+| 11/30 월 | 홍보 | R3 제주 30일 무비자 조건 | 슬라이드 영상 | B | – |
+| 12/01 화 | 일상 | 옥상 김장 돕기 | d10 | C | TH4 김장 문화 |
+| 12/02 수 | 홍보 | C4 K-ETA 면제 12/31까지 | 슬라이드 제작 | D | – |
+| 12/03 목 | 일상 | 화장품 가게 장보기 | t05 | E | TH5 [Ad] 인니 1월 여행 비자 |
+| 12/04 금 | 홍보 | R5 아침고요수목원 빛축제 개막 (제휴) | 이미지 라이선스 확인 필요 | F | – |
+| 12/05 토 | 일상 | 붕어빵 + 남대문 호떡 (2장) | d02·d03 | A | TH6 붕어빵 머리부터? |
+| 12/06 일 | 일상 | 뮤지컬 로비 자막 안경 | t06 | B | – |
+| 12/07 월 | 홍보 | R4 인천공항 → 서울 3가지 | 슬라이드 영상 | C | – |
+| 12/08 화 | 일상 | 출근길 지하철 | d08 | D | TH7 |
+| 12/09 수 | 일상 | 편의점 야간 알바 → 새벽 삼각김밥 (2장) | d04·d05 | E | – |
+| 12/10 목 | 홍보 | R7 서울빛초롱축제 내일 개막 (제휴) | 슬라이드 영상 | F | TH8 |
+| 12/11 금 | 일상 | 청계천 빛초롱 산책 (개막일) | d06 | A | – |
+| 12/12 토 | 일상 | 찜질방 + 식혜 | d11 | B | TH9 |
+| 12/13 일 | 홍보 | R2 장소 입력 → 즉석 리포트 (화면 녹화) | 화면 녹화 | C | – |
+| 12/14 월 | 일상 | 명동에서 길 잃은 여행객 돕기 | t07 | D | – |
+| 12/15 화 | 일상 | 한옥 카페 한국어 공부 | d16 | E | TH10 |
+| 12/16 수 | 홍보 | R6 지도로 찾기: 강원 겨울축제 | 화면 녹화 | F | – |
+| 12/17 목 | 일상 | 모델 알바 백스테이지 → 성수 촬영 (2장) | d14·d15 | A | TH11 |
+| 12/18 금 | 일상 | 은행 창구에서 당황 | d13 | B | – |
+| 12/19 토 | 홍보 | C3 첫날: 인터넷 + T-money | 슬라이드 제작 | C | TH12 |
+| 12/20 일 | 일상 | 우체국에서 고향에 소포 | d23 | D | – |
+| 12/21 월 | 일상 | 겨울 북한산 | d21 | E | – |
+| 12/22 화 | 일상 | 미고렝 떡볶이 + 자카르타 영상통화 (2장) | d19·d20 | F | TH13 |
+| 12/23 수 | 일상 | 송년회 포차 | d17 | A | – |
+| 12/24 목 | 일상 | 명동 크리스마스 조명 | d18 | B | TH14 |
+| 12/25 금 | 일상 | 한강 라면 + 친구 | d07 | C | – |
+| 12/26 토 | 일상 | 광장시장 빈대떡 | d12 | D | TH15 |
+| 12/27 일 | 일상 | 눈 오는 망원동 골목 | d01 | E | – |
+| 12/28 월 | 일상 | 눈 덮인 경복궁 | d22 | F | – |
+| 12/29 화 | 일상 | 자취방 빨래 건조대 | d09 | A | TH16 |
+| 12/30 수 | 홍보 | (재검증 후 확정) 2027년 여행 체크: K-ETA 한시 면제 내일 종료 | 슬라이드 | B | – |
+| 12/31 목 | 일상 | 제야 카운트다운 | d24 | C | TH17 |
 
 - 12/08 이후 쓰레드 전용 글(TH7~TH17)은 첫 2주 반응을 보고 12/07에 써서 승인받는다.
 - 홍보 소재(C2·R3·C4·R5·R4·R7·R2·R6·C3)는 발행 2일 전까지 만들어서 따로 승인받는다. 이번 승인 대상은 **11/24~12/06 일상 게시물 캡션 + 쓰레드 TH1~TH6 + 전체 일정**이다.
@@ -152,9 +152,9 @@ Would you see a Korean musical?
 
 ### 12/08 · d08 · subway commute
 ```
-Monday, 8 a.m., Line 2. Half asleep, fully dressed for minus degrees 🚇
+Tuesday, 8 a.m., Line 2. Half asleep, fully dressed for minus degrees 🚇
 🇮🇩 Senin pagi di kereta Seoul. Masih ngantuk 😴
-#SeoulSubway #SeoulLife #MondayMood #KehidupanDiKorea
+#SeoulSubway #SeoulLife #CommuteLife #KehidupanDiKorea
 🤖 Kira is a virtual character · AI-generated image
 ```
 
@@ -230,8 +230,8 @@ Holiday box to Jakarta: taped, labeled, fingers crossed 📦
 
 ### 12/21 · d21 · Bukhansan
 ```
-Sunday reset on Bukhansan: frosty rocks, a hot thermos and the whole city below ⛰️
-🇮🇩 Minggu pagi mendaki Bukhansan. Dingin tapi pemandangannya!
+Morning reset on Bukhansan: frosty rocks, a hot thermos and the whole city below ⛰️
+🇮🇩 Pagi-pagi mendaki Bukhansan. Dingin tapi pemandangannya!
 #Bukhansan #HikingKorea #SeoulNature #MendakiGunung
 🤖 Kira is a virtual character · AI-generated image
 ```
@@ -311,29 +311,29 @@ Studio life: one drying rack, every sweater I own 🧺
 
 ## 3. 쓰레드 전용 글 TH1~TH6 (12:00 KST, 이번 승인 대상)
 
-**TH1 · 11/24 월**
+**TH1 · 11/24 화**
 ```
 Seoul went from autumn to puffer-jacket season overnight 🧥
 If you're flying to Korea this winter: what's the one thing you're scared you'll forget to pack?
 ```
-**TH2 · 11/26 수**
+**TH2 · 11/26 목**
 ```
 Honest question for first-timers planning Korea:
 what's confusing you most right now — visa, getting around, or what to eat?
 I'll answer the most common one this week.
 ```
-**TH3 · 11/28 금**
+**TH3 · 11/28 토**
 ```
 Korean phrase that works at every street stall:
 이거 주세요 (igeo juseyo) = "this one, please." Point, smile, done 🙌
 What phrase should I post next?
 ```
-**TH4 · 12/01 월**
+**TH4 · 12/01 화**
 ```
 December in Korea is kimjang season — families and neighbors making a whole winter's kimchi together 🥬
 Is there a food your family makes together once a year?
 ```
-**TH5 · 12/03 수** (홍보 · 링크 클릭 가능)
+**TH5 · 12/03 목** (홍보 · 링크 클릭 가능)
 ```
 [Ad] Kira and ktriphub are run by the same team.
 🇮🇩 Flying to Korea in January on an Indonesian passport? A tourist visa at KVAC Jakarta takes about 10 working days (as of Nov 8, 2026), so apply soon.
@@ -341,7 +341,7 @@ Costs, documents and official links: https://ktriphub.com/id/visa/indonesia/?utm
 ```
 - ⚠️ visa-indonesia-processing 재검증 기한 12-05 → 12/03 발행은 기한 안. 미뤄지면 재검증.
 
-**TH6 · 12/05 금**
+**TH6 · 12/05 토**
 ```
 Bungeoppang debate 🐟
 Head first or tail first? Choose wisely.
@@ -356,3 +356,10 @@ Head first or tail first? Choose wisely.
 2. 쓰레드 전용 TH1~TH6 예약: Business Suite에서 Threads 단독 예약이 되는지 확인하고, 안 되면 threads.com 예약 기능을 쓴다.
 3. 이미 예약된 R1·C1은 Threads 공유가 꺼져 있다 → 켤지 결정 필요 (아래 질문).
 4. 홍보 C2(11/27)·R3(11/30) 소재 제작 → 별도 승인.
+
+## 6. 예약 결과 (2026-11-23 · 사용자 승인 "t01로 유지하자. 승인 하니까 예약 발행하자")
+- **인스타 피드 8개** (Business Suite, 21:00 KST, "Threads에 공유" 켬, 홍보하기 끔) — 11/24 t02 · 11/26 t03 · 11/28 t01 · 11/29 t04 · 12/01 d10 · 12/03 t05 · 12/05 d02+d03 · 12/06 t06. 영상: `kira-posts/lifestyle/l*.mp4` (4:5, 8~9.4초, 화면 왼쪽 아래 "AI virtual character" 표시 + 음원). 플래너 월 보기에서 날짜별 1건씩 확인.
+- **쓰레드 전용 6개** (threads.com 예약, @kira.in.seoul, 12:00 KST) — TH1 11/24 · TH2 11/26 · TH3 11/28 · TH4 12/01 · TH5 12/03(링크) · TH6 12/05. 임시 저장본 목록에서 6건 "게시 예정" 확인.
+- Business Suite 작성 창에는 **AI 라벨 옵션이 없음** → 캡션 마지막 줄 + 영상 속 표시로 공개. 게시 후 인스타 앱에서 AI 라벨을 켤 수 있는지 확인 예정.
+- 요일 표기 수정: 2026-11-23은 월요일 → 표의 요일을 실제 요일로 고침. 12/08 캡션 "Monday"→"Tuesday", 12/21 "Sunday reset"→"Morning reset" (아직 예약 전).
+- t01(스카프 아저씨)은 신고 시 즉시 내릴 대상으로 별도 표시.
