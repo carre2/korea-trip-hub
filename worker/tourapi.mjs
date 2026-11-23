@@ -246,7 +246,14 @@ export async function resolvePlace(env, input, locale) {
   // A Hangul query is resolved against Korean data whatever the page language: in
   // EngService2 "명동" only matches titles like "… (명동닭갈비)" (→ Chuncheon) and
   // "경주" never matches the English sigungu name "Gyeongju-si".
-  let lc = /[가-힣]/.test(q) ? "ko" : nativeLocale(locale);
+  // Likewise a Han-character query (明洞, 濟州) goes to Chinese data even on en/ko/id pages:
+  // Search Console shows Chinese queries from Hong Kong, Taiwan and Indonesia landing on
+  // non-Chinese pages. zh-TW pages keep Traditional; elsewhere Simplified first, then the
+  // other script on no hits (below).
+  const hasHan = /[一-鿿㐀-䶿]/.test(q);
+  let lc = /[가-힣]/.test(q) ? "ko"
+    : hasHan && !["zh", "zh-TW"].includes(nativeLocale(locale)) && APPROVED.has("zh") ? "zh"
+    : nativeLocale(locale);
 
   // 1) broad region?
   const areaCode = matchAreaCode(q);
@@ -269,6 +276,14 @@ export async function resolvePlace(env, input, locale) {
   if (!hits.length && lc !== "en" && lc !== "ko" && /^[\x20-\x7e]+$/.test(q)) {
     lc = "en";
     hits = await call(env, lc, "searchKeyword2", { keyword: q, numOfRows: 100, pageNo: 1, arrange: "O" });
+  }
+  // Han query with no hits: try the other Chinese script (Simplified <-> Traditional).
+  if (!hits.length && hasHan && (lc === "zh" || lc === "zh-TW")) {
+    const other = lc === "zh" ? "zh-TW" : "zh";
+    if (APPROVED.has(other)) {
+      lc = other;
+      hits = await call(env, lc, "searchKeyword2", { keyword: q, numOfRows: 100, pageNo: 1, arrange: "O" });
+    }
   }
   const cands = hits
     .filter((h) => h.mapx && h.mapy)

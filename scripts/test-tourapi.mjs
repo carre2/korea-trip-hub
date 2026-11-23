@@ -37,6 +37,8 @@ const CASES = [
   ["明洞", "zh", {}, (r) => r.localeData === "zh" && r.place.title === "明洞" && r.place.overview.length > 0],
   ["济州", "zh", {}, (r) => r.place.mode === "area" && /济州/.test(r.place.region)],
   ["Myeongdong", "fr", {}, (r) => r.localeData === "fr" && !/&[a-z]+;/.test(r.place.overview)],
+  // 2026-11-23: Han-character query on a non-Chinese page resolves via Chinese data.
+  ["明洞", "en", {}, (r) => r.place.mode === "radius" && /明洞/.test(r.place.region)],
 ];
 
 let fail = 0;

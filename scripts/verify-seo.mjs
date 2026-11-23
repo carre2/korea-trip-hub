@@ -148,6 +148,12 @@ for (const p of pages) {
       if (href !== expected) E(id, `hreflang ${l} -> ${href} (expected ${expected})`);
       else if (!builtUrls.has(href)) E(id, `hreflang ${l} target not built: ${href}`);
     }
+    // Regional Chinese aliases must point at the page with the right script (lib/seo.js).
+    for (const [code, target] of Object.entries({ "zh-HK": "zh-TW", "zh-MO": "zh-TW", "zh-SG": "zh", "zh-MY": "zh" })) {
+      if (!LOCALES.includes(target)) continue;
+      const want = `${SITE}/${target}/${p.path ? p.path + "/" : ""}`;
+      if (byLang.get(code) !== want) E(id, `hreflang ${code} -> ${byLang.get(code) || "(missing)"} (expected ${want})`);
+    }
     const xd = byLang.get("x-default");
     if (!xd) E(id, "hreflang missing: x-default");
     else if (xd !== `${SITE}/${REF}/${p.path ? p.path + "/" : ""}`) E(id, `x-default -> ${xd}`);
