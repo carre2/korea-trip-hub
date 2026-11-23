@@ -35,3 +35,18 @@ Full airport guide → link in bio.
 ## 예약 결과 (2026-11-23 · 사용자 승인 "Approve, schedule")
 - C2 11/27 21:00, R4 11/30 21:00 Business Suite 예약 완료 (Threads에 공유 켬, 홍보하기 끔). 예약됨 목록에서 두 날짜 확인.
 - 남은 홍보 빈 자리: 12/02 (C4 K-ETA, keta 재검증 기한 12/15 이내), 12/04 (R5 아침고요 — 라이선스 이미지 필요).
+
+## C4 · R2 (2026-11-23 "진행하고")
+- **C4 12/02 21:00 예약 완료** — `promo/c4/c4_keta_music.mp4` (16초, 음원 D). 사실: keta-exemption·keta-visa-distinction VERIFIED 2026-11-16(재검증 기한 12-15 이전 발행).
+- **R2 12/04 — 승인 대기 (예약 안 함)**: R5(아침고요, 사진 사용권 필요·제휴 링크) 대신 사이트 실제 화면으로 만든 즉석 리포트 소개. `promo/r2/r2_report_music.mp4` (16초, 음원 F). 쓰레드 500자 제한에 맞춰 470자로 줄인 캡션:
+```
+[Ad] Kira and ktriphub are run by the same team.
+Type a place, get a mini travel report: map, nearby food, stays and sights.
+Built on Korea Tourism Organization data (TourAPI), source on every card.
+Which place would you look up first?
+👉 Link in bio
+🇮🇩 Ketik nama tempat, dapat laporan perjalanan instan. Coba di link bio!
+Report photo: Frank Schulenburg/Wikimedia Commons, CC BY-SA 4.0 · Map © OpenStreetMap
+#KoreaTravelTips #SeoulTravel #Myeongdong #TravelPlanning
+```
+- 제재 방지 점검: "댓글 달면 링크 보내줄게" 문구 제거(질문형으로), 해시태그 4개·게시물마다 다르게, 캡션 500자 이하(쓰레드 공유 조건), 사진·지도 출처 표기.
