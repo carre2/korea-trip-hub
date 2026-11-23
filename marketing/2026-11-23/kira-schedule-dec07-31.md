@@ -133,3 +133,8 @@ First winter trip to Korea? Cold, dry days, snow spots, hot springs and light fe
 2. TH7~TH16 threads.com 예약 (TH17·C5는 12/15 재검증 뒤).
 3. Pinterest P11~P20 이미지 제작 → 자리 나는 대로 예약.
 4. 12/22~12/31 피드는 12/1 이후 예약 창이 열리면 예약.
+
+## 5. 진행 상황 (2026-11-23, 사용자 승인 "Approve, start")
+- 제작 완료: 일상 영상 11개 `kira-posts/lifestyle/l1207~l1221*.mp4`, 홍보 영상 R7·C3·R6·W1 `kira-posts/promo/{r7,c3,r6,w1}/*_music.mp4`, Pinterest P11~P20 `pinterest/png/p11~p20.png`.
+- 캡션: 12/07~12/21 15개 모두 500자 이하 확인.
+- **예약 중단**: 예약을 시작하려 할 때 크롬의 Meta/Threads 로그인이 다른 계정(@baramgyeol.meditation)으로 바뀌어 있었다. 다른 계정에서는 아무 작업도 하지 않았다. Kira 계정(Korea Trip Hub 포트폴리오)으로 다시 전환되면 이어서 예약한다.
