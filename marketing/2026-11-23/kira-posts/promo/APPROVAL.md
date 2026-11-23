@@ -38,7 +38,7 @@ Full airport guide → link in bio.
 
 ## C4 · R2 (2026-11-23 "진행하고")
 - **C4 12/02 21:00 예약 완료** — `promo/c4/c4_keta_music.mp4` (16초, 음원 D). 사실: keta-exemption·keta-visa-distinction VERIFIED 2026-11-16(재검증 기한 12-15 이전 발행).
-- **R2 12/04 — 승인 대기 (예약 안 함)**: R5(아침고요, 사진 사용권 필요·제휴 링크) 대신 사이트 실제 화면으로 만든 즉석 리포트 소개. `promo/r2/r2_report_music.mp4` (16초, 음원 F). 쓰레드 500자 제한에 맞춰 470자로 줄인 캡션:
+- **R2 12/04 21:00 예약 완료 (사용자 승인 "Approve R2")**: R5(아침고요, 사진 사용권 필요·제휴 링크) 대신 사이트 실제 화면으로 만든 즉석 리포트 소개. `promo/r2/r2_report_music.mp4` (16초, 음원 F). 쓰레드 500자 제한에 맞춰 470자로 줄인 캡션:
 ```
 [Ad] Kira and ktriphub are run by the same team.
 Type a place, get a mini travel report: map, nearby food, stays and sights.
