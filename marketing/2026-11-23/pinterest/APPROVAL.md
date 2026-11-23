@@ -39,3 +39,7 @@ UTM 공통: `utm_source=pinterest&utm_medium=pin&utm_campaign=ktriphub_pin_20261
 
 ## 파일
 - 이미지: `pinterest/png/p01.png ~ p10.png` (1000×1500) · 원본 HTML `pinterest/html/` · 생성 `make_pins.mjs` · 화면 캡처 `shots/`, `crops/`
+
+## 예약 결과 (2026-11-23 · 사용자 승인 "Approve, schedule")
+- 10개 모두 Pinterest 자체 예약 완료. `kr.pinterest.com/korea_trip_hub/scheduled-pins/`에서 날짜·시간·보드 10건 확인(11/24~12/03 매일 21:00, 보드 Korea Travel Planning).
+- AI 수정 표시: 끔(실제 사이트 화면만 사용). 예약 한도 10개를 다 썼으므로, 12/04 이후 핀은 이 예약분이 발행되면서 자리가 날 때 승인받아 추가한다.
