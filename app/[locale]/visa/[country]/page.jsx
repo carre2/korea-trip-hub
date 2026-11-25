@@ -106,7 +106,7 @@ export default function VisaCountryPage({ params }) {
       <ArrivalSteps locale={locale} m={{experience:m.experience,plan:m.plan}} placement="visa-country" />
       <NextSteps locale={locale} m={m} country={params.country} countryTitle={g.country} />
 
-      <ArticleTrust locale={locale} reviewed={g.updated || null} showVerifiedNote={true} />
+      <ArticleTrust locale={locale} reviewed={g.updated || null} showVerifiedNote={true} noteKey="verifiedNoteVisa" />
       <p className="art-disclaimer">{m.footer?.disclaimer}</p>
     </article>
   );
