@@ -102,7 +102,7 @@ export default function Food({ params }) {
           <a className="btn ghost" href={`/${locale}/#planner`}>✨ {m.hero.build}</a>
         </div>
 
-        <FindTopEats m={m} />
+        <FindTopEats m={m} locale={locale} />
 
         <h3 style={{ fontSize: 18, fontWeight: 800, margin: "8px 0 14px" }}>🍜 {t.eat}</h3>
         <div className="grid g4">
