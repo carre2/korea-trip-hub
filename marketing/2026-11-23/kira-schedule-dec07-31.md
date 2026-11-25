@@ -143,3 +143,10 @@ First winter trip to Korea? Cold, dry days, snow spots, hot springs and light fe
   - 쓰레드 전용 TH7~TH16 10개 threads.com 예약(12:00 KST). 임시 저장본 목록에서 TH1~TH16 16건 날짜·본문 확인.
 - **남은 일**: 12/22~12/31 피드 9개(+C5)는 Business Suite 예약 창이 열리면(약 12/1) 예약 · C5/TH17은 12/15 이후 keta-exemption 재검증 뒤 확정 · Pinterest P11~P20은 기존 예약 핀이 발행돼 자리가 나는 11/24부터 하루 1개씩 추가.
 - facts 갱신 없음.
+
+## 6. 쓰레드판 별도 예약 (2026-11-25, 사용자 "따로 예약해")
+- 원인: Business Suite에서 "Threads에 공유"를 켜고 예약한 릴스가 쓰레드에 올라가지 않음(11/24 MAMA). 플래너 공유 대상에 Instagram만 있다.
+- 방법: 피드 26개(11/26~12/21)의 쓰레드판을 threads.com에서 21:00에 따로 예약. 본문 = Business Suite 예약 캡션과 글자 단위로 대조한 원문(`kira-posts/threads-copies/captions.json`)에서 해시태그 줄을 빼고(쓰레드는 글당 태그 1개), "link in bio"는 "link on my Instagram profile"로 바꿈. 링크 없음(주 1회 링크 글 규칙 유지).
+- AI 레이블: 쓰레드 웹은 AI 레이블을 붙이면 예약이 막힌다 → 사용자 선택 "레이블 없이 예약". 캡션 끝 AI 고지문 + 영상 속 "AI virtual character" 표시로 고지.
+- 결과: 11/26~12/05 10개 예약 완료(임시 저장본 목록 확인). **쓰레드 예약 한도 25개**(TH 15 + 피드 10)가 차서 12/06~12/21 16개는 대기 → 게시로 자리가 나는 대로 매일 채운다.
+- facts 갱신 없음.
