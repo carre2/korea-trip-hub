@@ -7,7 +7,7 @@ import { linkify } from "../lib/linkify";
 import BookCTA from "./BookCTA";
 import { klookSearch, klookUrl } from "../lib/booking";
 
-export default function SimGuide({ guide, official }) {
+export default function SimGuide({ guide, official, locale }) {
   if (!guide) return null;
   const g = guide;
 
@@ -60,7 +60,7 @@ export default function SimGuide({ guide, official }) {
                   <div className="sim-applinks">
                     {c.links.map((l) => {
                       const partner=['klook.com','www.klook.com'].includes(new URL(l.url).hostname);
-                      return <a key={l.name} href={partner?klookUrl(l.url):l.url} target="_blank" rel={partner?'sponsored nofollow noopener noreferrer':'noopener noreferrer'}>{l.name} ↗</a>;
+                      return <a key={l.name} href={partner?klookUrl(l.url, locale):l.url} target="_blank" rel={partner?'sponsored nofollow noopener noreferrer':'noopener noreferrer'}>{l.name} ↗</a>;
                     })}
                   </div>
                 )}
@@ -76,7 +76,7 @@ export default function SimGuide({ guide, official }) {
         icon="📲"
         label="Get a Korea eSIM online"
         sub="Instant delivery — data works the moment you land"
-        url={klookSearch("Korea eSIM")}
+        url={klookSearch("Korea eSIM", locale)}
         disclose
       />
 

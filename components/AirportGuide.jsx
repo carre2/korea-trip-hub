@@ -19,7 +19,7 @@ function SectionPhoto({ s }) {
   );
 }
 
-export default function AirportGuide({ guide, official }) {
+export default function AirportGuide({ guide, official, locale }) {
   if (!guide) return null;
   const g = guide;
 
@@ -104,7 +104,7 @@ export default function AirportGuide({ guide, official }) {
         icon="🚐"
         label="Book an Incheon airport transfer or AREX ticket"
         sub="Private pickup or express-train pass — skip the queue"
-        url={klookSearch("Incheon airport transfer AREX")}
+        url={klookSearch("Incheon airport transfer AREX", locale)}
         disclose
       />
 

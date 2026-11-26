@@ -186,7 +186,7 @@ export default function PlaceReport({ locale }) {
           <Section id="s6" n="6" title={t.sec.tours}>
             <div className="prr-aff">
               <div className="prr-aff-head"><span className="prr-tag klook">Klook</span><span>{t.ui.tourNote}</span></div>
-              <a className="btn" href={klookSearch(place.title)} target="_blank" rel="noopener noreferrer" onClick={() => track("affiliate_click", { partner: "klook", context: "place_report", q: place.title })}>
+              <a className="btn" href={klookSearch(place.title, locale)} target="_blank" rel="noopener noreferrer" onClick={() => track("affiliate_click", { partner: "klook", context: "place_report", q: place.title })}>
                 {t.sec.tours} — {place.title} ↗
               </a>
             </div>

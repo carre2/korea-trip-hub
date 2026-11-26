@@ -147,7 +147,7 @@ export default function DestinationDetail({ params }) {
         icon="🎟️"
         label={m.destBook?.label || "Tickets, tours & experiences"}
         sub={m.destBook?.sub || "Skip-the-line entry, hanbok rental and day trips — via Klook."}
-        url={klookSearch(dest.items[params.slug].klook || dest.items[params.slug].name)}
+        url={klookSearch(dest.items[params.slug].klook || dest.items[params.slug].name, locale)}
         disclose
       />
 

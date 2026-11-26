@@ -169,7 +169,7 @@ export default function TopicGuide({ params }) {
           icon={g.icon || "🎟️"}
           label={g.bookLabel || "Book the experience"}
           sub={g.bookSub || "Experiences via Klook."}
-          url={klookSearch(g.klook)}
+          url={klookSearch(g.klook, locale)}
           disclose
         />
       )}

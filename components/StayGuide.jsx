@@ -22,7 +22,7 @@ export default function StayGuide({ city, ui, locale }) {
             <p className="stay-near">📍 {a.near}</p>
             <div className="stay-links">
               <a href={stay22Hotels(`${a.name}, ${city.name}, South Korea`)} target="_blank" rel="sponsored nofollow noopener noreferrer">🏨 {findHotel} · Stay22 ↗</a>
-              <a href={klookSearch(`${a.name} ${city.name}`)} target="_blank" rel="sponsored nofollow noopener">🎟️ {thingsToDo} ↗</a>
+              <a href={klookSearch(`${a.name} ${city.name}`, locale)} target="_blank" rel="sponsored nofollow noopener">🎟️ {thingsToDo} ↗</a>
             </div>
           </div>
         ))}

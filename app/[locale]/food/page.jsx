@@ -123,7 +123,7 @@ export default function Food({ params }) {
           icon="👩‍🍳"
           label="Book a Korean cooking class or food tour"
           sub="Make kimchi, tteokbokki & more — or join a market food tour"
-          url={klookSearch("Korea cooking class food tour")}
+          url={klookSearch("Korea cooking class food tour", locale)}
           disclose
         />
 

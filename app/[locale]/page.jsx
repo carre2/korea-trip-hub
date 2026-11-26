@@ -162,7 +162,7 @@ export default function Home({ params }) {
         <a className="journey-start-card" href={`/${locale}/festivals/`}><div className="journey-card-top"><span className="kwave-emoji" aria-hidden="true">🎆</span></div><h3>{kw.festivals.title}</h3><p>{kw.festivals.sub}</p><span aria-hidden="true" className="journey-arrow">↗</span></a>
       </div>
       <p className="kwave-book">{kw.bookLead}
-        <a href={klookSearch("Seoul K-pop concert fan experience tour")} target="_blank" rel="sponsored nofollow noopener">🎤 {kw.navKpop} · Klook ↗</a>
+        <a href={klookSearch("Seoul K-pop concert fan experience tour", locale)} target="_blank" rel="sponsored nofollow noopener">🎤 {kw.navKpop} · Klook ↗</a>
         <a href={creatripUrl(CREATRIP_DEST.beautyServices)} target="_blank" rel="sponsored nofollow noopener">🎀 {kw.navBeauty} · Creatrip ↗</a>
       </p>
       <p className="bookcta-disc kwave-book-disc">ⓘ {m.footer.affiliateLine}</p>

@@ -63,7 +63,7 @@ export default function BloomTable({ locale }) {
       )}
 
       <div data-aff-placement="cherry-blossom">
-        <a className="btn preflight-cta bloom-cta" href={klookSearch("Korea cherry blossom tour")} target="_blank" rel="sponsored nofollow noopener noreferrer">🌸 {t.cta} ↗</a>
+        <a className="btn preflight-cta bloom-cta" href={klookSearch("Korea cherry blossom tour", locale)} target="_blank" rel="sponsored nofollow noopener noreferrer">🌸 {t.cta} ↗</a>
         <p className="preflight-disc">ⓘ {t.disc}</p>
       </div>
 

@@ -19,7 +19,7 @@ function SectionPhoto({ s }) {
   );
 }
 
-export default function TransitGuide({ guide, official }) {
+export default function TransitGuide({ guide, official, locale }) {
   if (!guide) return null;
   const g = guide;
 
@@ -136,7 +136,7 @@ export default function TransitGuide({ guide, official }) {
         icon="🚄"
         label="Book KTX / SRT train tickets & transit passes"
         sub="Seoul ↔ Busan and more — reserve seats online"
-        url={klookSearch("Korea KTX train ticket")}
+        url={klookSearch("Korea KTX train ticket", locale)}
         disclose
       />
 

@@ -25,7 +25,7 @@ export default function TransitQuiz({ locale }) {
         <span className="tquiz-rec-label">{label}</span>
         <h4>{p.name}</h4>
         <p>{p.why}</p>
-        <a className="btn tquiz-cta" href={klookSearch(QUERY[id])} target="_blank" rel="sponsored nofollow noopener noreferrer">{t.cta}</a>
+        <a className="btn tquiz-cta" href={klookSearch(QUERY[id], locale)} target="_blank" rel="sponsored nofollow noopener noreferrer">{t.cta}</a>
       </div>
     );
   };

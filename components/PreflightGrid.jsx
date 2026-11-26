@@ -36,7 +36,7 @@ export default function PreflightGrid({ locale, placement = 'home' }) {
               {stat && <p className="preflight-stat">{stat}{' · '}
                 {srcOk ? <a href={f.source} target="_blank" rel="noopener noreferrer">{f.source_name} ↗</a> : <span>{f.source_name}</span>}
                 {' '}<small>({t.asOf} {f.verified})</small></p>}
-              <a className="btn preflight-cta" href={klookSearch(card.query)} target="_blank" rel="sponsored nofollow noopener noreferrer">{t.cta} ↗</a>
+              <a className="btn preflight-cta" href={klookSearch(card.query, locale)} target="_blank" rel="sponsored nofollow noopener noreferrer">{t.cta} ↗</a>
             </article>
           );
         })}

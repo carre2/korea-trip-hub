@@ -61,7 +61,7 @@ export default function ItineraryGuide({ it, locale, ui }) {
               🏨 {fill(L.hotelsIn || "Hotels in {city}", { city: cityName(ck) })} · Stay22 ↗
             </a>
           ))}
-          <a href={klookSearch("Korea tours tickets passes")} target="_blank" rel="sponsored nofollow noopener">🎟️ {L.toursTickets || "Tours & tickets"} ↗</a>
+          <a href={klookSearch("Korea tours tickets passes", locale)} target="_blank" rel="sponsored nofollow noopener">🎟️ {L.toursTickets || "Tours & tickets"} ↗</a>
         </div>
         <p className="bookcta-disc">ⓘ {getMessages(locale).footer.affiliateLine}</p>
         <div className="itin-crosslinks">
