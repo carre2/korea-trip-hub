@@ -5,7 +5,7 @@
 // got a generic destination page" by keeping beauty context on-page.
 import { useState } from "react";
 import ui from "../data/beautyfinder-ui.json";
-import { withAff } from "../lib/booking";
+import { withAff, creatripLocalize } from "../lib/booking";
 
 const G_HL = { zh: "zh-CN", "zh-TW": "zh-TW" };
 const DISTRICTS = [
@@ -33,9 +33,9 @@ export default function BeautyFinder({ locale }) {
   const mapSrc = `https://www.google.com/maps?q=${encodeURIComponent(mapQ)}&hl=${ghl}&z=15&output=embed`;
 
   const ctas = {
-    cosmetics: [{ label: t.book, href: withAff(CREATRIP, "creatrip"), sponsored: true }],
+    cosmetics: [{ label: t.book, href: withAff(creatripLocalize(CREATRIP, locale), "creatrip"), sponsored: true }],
     hair: [
-      { label: t.book, href: withAff(CREATRIP, "creatrip"), sponsored: true },
+      { label: t.book, href: withAff(creatripLocalize(CREATRIP, locale), "creatrip"), sponsored: true },
       { label: t.makeupGuide, href: `/${locale}/guides/idol-makeup/` },
     ],
     clinics: [

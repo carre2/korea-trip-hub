@@ -3,7 +3,7 @@ import { pageMeta, breadcrumbLd, articleLd, faqLd, SITE_NAME, REVIEWED } from ".
 import JsonLd from "../../../../components/JsonLd";
 import { linkify } from "../../../../lib/linkify";
 import BookCTA from "../../../../components/BookCTA";
-import { klookSearch, withAff } from "../../../../lib/booking";
+import { klookSearch, withAff, creatripLocalize } from "../../../../lib/booking";
 import BudgetCalculator from "../../../../components/BudgetCalculator";
 import NextSteps from "../../../../components/NextSteps";
 import BeautyFinder from "../../../../components/BeautyFinder";
@@ -180,7 +180,7 @@ export default function TopicGuide({ params }) {
           icon="🎀"
           label={g.creatripLabel || "Book a K-beauty experience"}
           sub={g.creatripSub || "Hair, makeup & skin studios for visitors — via Creatrip."}
-          url={g.creatrip}
+          url={creatripLocalize(g.creatrip, locale)}
           disclose
         />
       )}

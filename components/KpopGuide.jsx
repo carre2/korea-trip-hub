@@ -29,7 +29,7 @@ function PlaceCard({ item, v, mapLabel, locale }) {
         {spot && (
           <a className="kpop-map" href={mapUrl(spot)} target="_blank" rel="noopener noreferrer">🗺️ {mapLabel}</a>
         )}
-        {spot && <p><a className="btn ghost" href={stay22Hotels(spot)} target="_blank" rel="sponsored nofollow noopener noreferrer">🏨 {getMessages(locale).hotelsNearby} · Stay22 ↗</a></p>}
+        {spot && <p><a className="btn ghost" href={stay22Hotels(spot, locale)} target="_blank" rel="sponsored nofollow noopener noreferrer">🏨 {getMessages(locale).hotelsNearby} · Stay22 ↗</a></p>}
       </div>
     </div>
   );

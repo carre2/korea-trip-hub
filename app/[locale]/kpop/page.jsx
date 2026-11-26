@@ -6,7 +6,7 @@ import BookCTA from "../../../components/BookCTA";
 import ArticleTrust from "../../../components/ArticleTrust";
 import festivalCopies from "../../../data/festivals-ui.json";
 import kwaveCopies from "../../../data/kwave-ui.json";
-import { CREATRIP_DEST } from "../../../lib/booking";
+import { CREATRIP_DEST, creatripLocalize } from "../../../lib/booking";
 import { itinFor } from "../../../lib/content";
 import kpopEn from "../../../data/kpop.json";
 import kpopJa from "../../../data/kpop.ja.json";
@@ -75,7 +75,7 @@ export default function KpopPage({ params }) {
         icon="🎀"
         label={kw.makeover.title}
         sub={kw.makeover.sub}
-        url={CREATRIP_DEST.beautyServices}
+        url={creatripLocalize(CREATRIP_DEST.beautyServices, locale)}
         disclose
       />
 

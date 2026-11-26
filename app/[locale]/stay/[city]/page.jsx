@@ -66,7 +66,7 @@ export default function StayCity({ params }) {
       </div>
       <p className="art-tagline">{ui.cityTagline}</p>
       <StayGuide city={c} ui={ui} locale={locale}/>
-      <Stay22Map place={`${c.name}, South Korea`} heading={m.hotelsNearby} />
+      <Stay22Map place={`${c.name}, South Korea`} heading={m.hotelsNearby} locale={locale} />
       <ArticleTrust
         locale={locale}
         related={(() => {

@@ -57,7 +57,7 @@ export default function ItineraryGuide({ it, locale, ui }) {
         <h2>{L.bookTrip || "Book this trip"}</h2>
         <div className="stay-links">
           {it.cities.map((ck) => (
-            <a key={ck} href={stay22Hotels(`${cityName(ck)}, South Korea`)} target="_blank" rel="sponsored nofollow noopener noreferrer">
+            <a key={ck} href={stay22Hotels(`${cityName(ck)}, South Korea`, locale)} target="_blank" rel="sponsored nofollow noopener noreferrer">
               🏨 {fill(L.hotelsIn || "Hotels in {city}", { city: cityName(ck) })} · Stay22 ↗
             </a>
           ))}

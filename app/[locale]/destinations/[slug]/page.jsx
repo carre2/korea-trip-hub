@@ -186,7 +186,7 @@ export default function DestinationDetail({ params }) {
         </>
       )}
 
-      <Stay22Map place={`${d.name}, South Korea`} heading={m.hotelsNearby} />
+      <Stay22Map place={`${d.name}, South Korea`} heading={m.hotelsNearby} locale={locale} />
       <ArticleTrust locale={locale} related={related} />
       <p className="art-disclaimer">{m.footer.disclaimer}</p>
     </article>

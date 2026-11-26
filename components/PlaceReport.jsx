@@ -195,12 +195,12 @@ export default function PlaceReport({ locale }) {
           <Section id="s7" n="7" title={t.sec.stay}>
             <h4 className="prr-subh">🏨 {t.ui.nearbyStays}</h4>
             <Cards items={rep.sections.lodging} t={t} />
-            {stay22Embed(place.title) && (
+            {stay22Embed(place.title, locale) && (
               <div className="prr-aff" style={{ marginTop: 14 }}>
                 <div className="prr-aff-head"><span className="prr-tag stay">Stay22</span><span>Booking · Expedia · Airbnb · Agoda</span></div>
                 <iframe
                   className="prr-stay22"
-                  src={stay22Embed(place.title)}
+                  src={stay22Embed(place.title, locale)}
                   title="Stay22"
                   loading="lazy"
                   onLoad={() => track("affiliate_click", { partner: "stay22", context: "place_report_embed", q: place.title })}
